@@ -2488,7 +2488,7 @@ Background"</string>
     <string name="t_eye_shadow_rust">Rust</string>
     <string name="t_feedback_desc">- Please provide your feedback above this line -</string>
     <string name="t_feedback_remind">"Hi,
-Thank you for using BeautyPlus! If you have any questions about our app, please refer to the articles in our Help Center (http://support.beautyplus.com) to search for potential answers. 
+Thank you for using BeautyPlus! If you have any questions about our app, please refer to the articles in our Help Center (http://support.beautyplus.com) to search for potential answers.
 If you still need help, please describe your issues or provide suggestions above."</string>
     <string name="t_feedback_title">Feedback</string>
     <string name="t_filters">Filters</string>
@@ -2615,13 +2615,13 @@ If you still need help, please describe your issues or provide suggestions above
     <string name="t_portrait_turn_on">Turn on</string>
     <string name="t_preview">Preview</string>
     <string name="t_privacy_agreement">User Agreement</string>
-    <string name="t_privacy_content">"Thank you for using BeautyPlus! Before using BeautyPlus, please read the User Agreement and Personal Information Protection Policy to understand our services and how we collect, use, transmit and store your personal information. 
-We value and respect your personal information and privacy, and we will not provide your personal information to third parties without your consent. If you have any problems or questions, feel free to contact us. 
+    <string name="t_privacy_content">"Thank you for using BeautyPlus! Before using BeautyPlus, please read the User Agreement and Personal Information Protection Policy to understand our services and how we collect, use, transmit and store your personal information.
+We value and respect your personal information and privacy, and we will not provide your personal information to third parties without your consent. If you have any problems or questions, feel free to contact us.
 If you have read and agree to our terms, please tap Agree and Continue to begin."</string>
     <string name="t_privacy_protection">Personal Information Protection Policy</string>
     <string name="t_privacy_title">Personal Information Protection Tips</string>
-    <string name="t_privacy_update">"Welcome to BeautyPlus ! We'd like to inform you that we have updated the the contents of our User Agreement and Personal Information Protection Policy. This update provides the Chinese version of the User Agreement and Personal Information Protection Policy to further clarify how we collect, use, transmit and store your personal information, and highlights the key points. Please read it carefully. 
-We value and respect your personal information and privacy, and we will not provide your personal information to third parties without your consent. If you have any problems or questions, feel free to contact us. 
+    <string name="t_privacy_update">"Welcome to BeautyPlus ! We'd like to inform you that we have updated the the contents of our User Agreement and Personal Information Protection Policy. This update provides the Chinese version of the User Agreement and Personal Information Protection Policy to further clarify how we collect, use, transmit and store your personal information, and highlights the key points. Please read it carefully.
+We value and respect your personal information and privacy, and we will not provide your personal information to third parties without your consent. If you have any problems or questions, feel free to contact us.
 If you have read and agree to our updated terms, please tap Agree and Continue to begin."</string>
     <string name="t_purchase_resubs_10_off">Get 10%% OFF</string>
     <string name="t_purchase_resubs_1st_year_save">10%% off for the first year</string>
@@ -2792,14 +2792,8 @@ If you have read and agree to our updated terms, please tap Agree and Continue t
     <string name="toast_selected_image_not_exist">This photo does not exist, please select another</string>
     <string name="today_surprise">Surprise of the Day</string>
     <string name="today_surprise_content">Check here the trendy apps with daily update!</string>
-    <string name="today_surprise_content_b">"Check here
-the trendy
-apps with
-daily update!"</string>
-    <string name="today_surprise_content_bn">"How do you
-like the
-recommenda
--tion today?"</string>
+    <string name="today_surprise_content_b">"Check herethe trendyapps withdaily update!"</string>
+    <string name="today_surprise_content_bn">"How do youlike therecommendation today?"</string>
     <string name="tracel_title">Travel</string>
     <string name="travel_ar_copy_succeed">Copied</string>
     <string name="travel_ar_copy_text">Click to Copy</string>
@@ -2832,8 +2826,7 @@ recommenda
     <string name="unable_to_save_explain">Insufficient storage space. Please delete some photos or files and try again.</string>
     <string name="unable_to_save_later">Later</string>
     <string name="unable_to_use_auto_reshape_function_on_multiple_bodies_at_once">Unable to use Auto Reshape function on multiple bodies at once.</string>
-    <string name="unable_to_use_video">"Unable to use
- Your device or system version is too outdated."</string>
+    <string name="unable_to_use_video">"Unable to use Your device or system version is too outdated."</string>
     <string name="unlock_all_exclusive_effects">Unlock all exclusive effects!</string>
     <string name="unlock_all_features">Unlock all features</string>
     <string name="unlock_filter_xx">Unlock the filter %1$s</string>
@@ -2858,12 +2851,8 @@ recommenda
     <string name="user_data_privacy_dailog_content">In order to provide better service, BeautyPlus will collect the application package names of the applications installed on your device. We will use such information to help us provide better contents to you based on language, geographic location and other details. For more information, please refer to our “Terms of Service” and “Privacy Policy”.</string>
     <string name="user_data_privacy_dailog_disagree">@string/disagree</string>
     <string name="user_protocol_agree">Agree</string>
-    <string name="user_protocol_click_to_agree">"Tap to use BeautyPlus
- and agree to the BeautyPlus
- Terms of Service and Privacy Policy."</string>
-    <string name="using_paid_project">"This is a premium feature.
-But, no worries... You get a free trial!
-Just watch a short video now!"</string>
+    <string name="user_protocol_click_to_agree">"Tap to use BeautyPlus and agree to the BeautyPlus Terms of Service and Privacy Policy."</string>
+    <string name="using_paid_project">"This is a premium feature. But, no worries... You get a free trial! Just watch a short video now!"</string>
     <string name="v7_art">Stunning modern art</string>
     <string name="vast_detail_text_incentive">Details</string>
     <string name="vast_model_title_incentive">Suggested For You</string>
