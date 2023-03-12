@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/dialog_shortcut_error_0">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/ctl_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40.0dip"
+        android:layout_marginRight="40.0dip"
+        android:tag="binding_1">
+        <com.commsource.widget.AutoFitTextView
+            android:id="@id/tv_shortcut_error_title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24.0dip"
+            android:layout_marginTop="24.0dip"
+            android:layout_marginRight="24.0dip"
+            android:maxLines="1"
+            android:text="@string/shortcut_created"
+            android:textColor="@color/black"
+            android:textSize="20.0dip"
+            app:autoSizeMaxTextSize="20.0dip"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@id/tv_shortcut_error_content"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24.0dip"
+            android:layout_marginTop="16.0dip"
+            android:layout_marginRight="24.0dip"
+            android:text="@string/shortcut_create_tip"
+            android:textColor="@color/black"
+            android:textSize="14.0dip"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_shortcut_error_title" />
+        <TextView
+            android:id="@id/tv_shortcut_error_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19.0dip"
+            android:layout_marginRight="19.0dip"
+            android:layout_marginBottom="19.0dip"
+            android:padding="5.0dip"
+            android:text="@string/shortcut_close"
+            android:textColor="@color/color_fb5986"
+            android:textSize="13.0dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_shortcut_error_content" />
+        <TextView
+            android:id="@id/tv_shortcut_error_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="14.0dip"
+            android:padding="5.0dip"
+            android:text="@string/shortcut_system_setting"
+            android:textColor="@color/color_999999"
+            android:textSize="13.0dip"
+            app:layout_constraintRight_toLeftOf="@id/tv_shortcut_error_cancel"
+            app:layout_constraintTop_toTopOf="@id/tv_shortcut_error_cancel" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

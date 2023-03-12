@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/rl_root"
+    android:layout_width="60.0dip"
+    android:layout_height="fill_parent"
+    android:tag="layout/item_movie_flare_0">
+    <RelativeLayout
+        android:layout_width="60.0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <com.commsource.widget.IconFrontView
+            android:id="@id/ifv_icon"
+            android:layout_width="35.0dip"
+            android:layout_height="35.0dip"
+            android:layout_centerHorizontal="true"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="@string/if_movie_halo_3"
+            android:textColor="@color/black"
+            android:textSize="35.0dip"
+            app:usePressState="true" />
+        <com.commsource.widget.PressStrokeTextView
+            android:id="@id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ifv_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4.0dip"
+            android:duplicateParentState="true"
+            android:text="@string/heart"
+            android:textColor="@color/black"
+            android:textSize="@dimen/selfie_func_text_size" />
+        <ImageView
+            android:id="@id/iv_vip_tip"
+            android:layout_width="15.0dip"
+            android:layout_height="15.0dip"
+            android:layout_marginLeft="-7.5dip"
+            android:layout_marginBottom="-15.0dip"
+            android:layout_toRightOf="@id/ifv_icon"
+            android:src="@drawable/common_corner_premium_white_shadow" />
+    </RelativeLayout>
+</FrameLayout>

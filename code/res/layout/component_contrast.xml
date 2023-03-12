@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/component_contrast_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.commsource.widget.IconFrontView android:textSize="30.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/iv_contrast" android:tag="binding_1" android:layout_width="30.0dip" android:layout_height="30.0dip" android:text="@string/if_studio_compare" android:layout_above="@id/fl_bottom" android:layout_alignParentRight="true" />
+    <com.commsource.widget.AutoFitTextView android:textSize="14.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_preview" android:tag="binding_2" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" android:minWidth="60.0dip" android:text="@string/t_preview" />
+</FrameLayout>

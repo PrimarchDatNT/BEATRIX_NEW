@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <paths>
+        <files-path name="file_path" path="" />
+        <external-path name="libsns_camera_file" path="DCIM/Camera" />
+        <root-path name="libsns_root_path" path="." />
+        <external-files-path name="external_files_path" path="" />
+    </paths>
+</resources>

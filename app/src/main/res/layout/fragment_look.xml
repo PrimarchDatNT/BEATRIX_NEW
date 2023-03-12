@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="50.0dip"
+    android:tag="layout/fragment_look_0">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/rv_look"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never" />
+    <FrameLayout
+        android:id="@id/fl_mask"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:visibility="gone">
+        <LinearLayout
+            android:id="@id/ll_text"
+            android:layout_width="fill_parent"
+            android:layout_height="70.0dip"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@id/tv_tips"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/look_ar_use_tips"
+                android:textColor="@color/color_333333"
+                android:textSize="15.0dip" />
+            <TextView
+                android:id="@id/tv_remove_ar"
+                style="@style/selectable_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5.0dip"
+                android:gravity="center"
+                android:paddingLeft="10.0dip"
+                android:paddingTop="3.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingBottom="3.0dip"
+                android:text="@string/tap_to_cancel_ar"
+                android:textColor="@color/Primary_A"
+                android:textSize="15.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

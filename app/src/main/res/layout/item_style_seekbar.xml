@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:tag="layout/item_style_seekbar_0">
+    <TextView
+        android:id="@id/sb_title"
+        android:layout_width="60.0dip"
+        android:layout_height="32.0dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="15.0dip"
+        android:layout_marginTop="10.0dip"
+        android:text="@string/t_adjust"
+        android:textColor="@color/color_333333"
+        android:textSize="12.0dip" />
+    <com.commsource.widget.XSeekBar
+        android:id="@id/sb"
+        android:layout_width="fill_parent"
+        android:layout_height="20.0dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10.0dip"
+        android:layout_marginEnd="15.0dip" />
+</LinearLayout>

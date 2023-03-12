@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/rl_root"
+    android:layout_width="70.0dip"
+    android:layout_height="64.0dip"
+    android:paddingTop="8.0dip"
+    android:tag="layout/item_makeup_entity_0">
+    <com.commsource.widget.CircleImageView
+        android:id="@id/iv_icon"
+        android:layout_width="30.0dip"
+        android:layout_height="30.0dip"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/edit_makeup_none_icon"
+        app:full_circle="true" />
+    <TextView
+        android:id="@id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="14.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32.0dip"
+        android:gravity="center"
+        android:text="None"
+        android:textColor="@color/white"
+        android:textSize="10.0dip" />
+    <View
+        android:id="@id/v_point"
+        android:layout_width="2.0dip"
+        android:layout_height="2.0dip"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="5.0dip"
+        android:background="@drawable/easy_editor_white_circle_bg"
+        android:visibility="gone" />
+    <com.commsource.widget.LoadingView
+        android:id="@id/lv_download"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5.0dip"
+        app:isLargeSize="true"
+        app:strokeColor="@color/color_888888" />
+    <ImageView
+        android:id="@id/ic_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="43.0dip"
+        android:src="@drawable/common_download_icon_circle_white" />
+</FrameLayout>

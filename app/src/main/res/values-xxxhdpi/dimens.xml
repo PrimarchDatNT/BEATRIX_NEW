@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ai_beauty_feature_top">12.0dip</dimen>
+    <dimen name="ai_beauty_subscribe_top">16.0dip</dimen>
+    <dimen name="ai_beauty_times_top">18.0dip</dimen>
+    <dimen name="ai_beauty_title_top">16.0dip</dimen>
+</resources>

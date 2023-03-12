@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/rl_parent" android:tag="layout/adsorbent_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.commsource.widget.LinearGradient android:id="@id/mGradientView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/iv_diamond" android:layout_width="189.0dip" android:layout_height="88.0dip" android:src="@drawable/premium_banner_img_diamond" android:scaleType="fitEnd" android:alpha="1.0" />
+    <com.commsource.beautymain.widget.RoundCornerFrameLayout android:id="@id/vRoundCornerContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutCornerRadius="6.0dip">
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/vIvOnlineBg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.commsource.beautymain.widget.RoundCornerFrameLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/rl_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.commsource.widget.IconFrontView android:textSize="35.0dip" android:textColor="@color/white" android:gravity="center" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginRight="16.0dip" android:text="@string/if_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <FrameLayout android:id="@id/vFlCountDownContainer" android:tag="binding_1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="51.0dip" android:layout_alignParentEnd="true">
+            <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_count_down" android:layout_width="wrap_content" android:layout_height="22.0dip" />
+        </FrameLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/rl_subs_no_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="45.0dip" android:layout_centerVertical="true">
+            <com.commsource.widget.GradientTextView android:textSize="18.0dip" android:textColor="@color/white" android:id="@id/tv_no_off_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/beauty_plus_premium" android:maxLines="1" />
+            <com.commsource.widget.BoldTextView android:textSize="17.0dip" android:textColor="@color/white" android:id="@id/tv_no_off_free_try" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sub_7_day_try" android:maxLines="1" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/white" android:id="@id/tv_no_off_free_try_subtitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:text="@string/beauty_plus_premium" android:layout_below="@id/tv_no_off_free_try" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_subs_off" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true">
+            <com.commsource.widget.GradientTextView android:textSize="17.0dip" android:textColor="@color/white" android:id="@id/tv_subs_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="45% off" />
+            <com.commsource.widget.AutoFitTextView android:textSize="13.0dip" android:textColor="@color/white" android:id="@id/tv_subs_off_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/beauty_plus_premium" android:maxLines="1" />
+        </LinearLayout>
+        <com.commsource.beautymain.widget.RoundCornerFrameLayout android:id="@id/vRcPicTitleContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/vFlCountDownContainer" app:layoutCornerRadius="6.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/vIvPicTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitStart" />
+        </com.commsource.beautymain.widget.RoundCornerFrameLayout>
+    </RelativeLayout>
+    <View android:id="@id/ivMask" android:background="@drawable/ripple_radius_6" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

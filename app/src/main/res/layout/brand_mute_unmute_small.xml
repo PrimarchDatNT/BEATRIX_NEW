@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/button_mute_unmute"
+    android:layout_width="20.0dip"
+    android:layout_height="20.0dip"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="12.0dip"
+    android:layout_marginRight="12.0dip"
+    android:background="@drawable/brand_watch_button_bg"
+    android:scaleType="center"
+    android:src="@drawable/brand_volume_off" />

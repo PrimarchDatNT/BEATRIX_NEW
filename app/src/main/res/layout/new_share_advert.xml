@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+    <com.meitu.ratiorelativelayout.RatioRelativeLayout
+        android:id="@id/rl_ad_main_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_aspectRatio="16/9">
+        <com.meitu.hwbusinesskit.core.widget.AdvertCoverView
+            android:id="@id/iv_hwbusiness_ad_cover"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            app:mthwb_fitScaleType="fitWidthStart"
+            app:mthwb_forceFitScaleType="true" />
+        <com.google.android.gms.ads.formats.MediaView
+            android:id="@id/mv_hwbusiness_ad_google_video"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:visibility="gone" />
+        <TextureView
+            android:id="@id/tv_hwbusiness_ad_video"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/iv_hwbusiness_ad_cover"
+            android:layout_alignBottom="@id/iv_hwbusiness_ad_cover"
+            android:visibility="gone" />
+    </com.meitu.ratiorelativelayout.RatioRelativeLayout>
+    <RelativeLayout
+        android:id="@id/rl_hwbusiness_ad_bottom_container"
+        android:layout_width="fill_parent"
+        android:layout_height="62.0dip"
+        android:layout_below="@id/rl_ad_main_content">
+        <ImageView
+            android:id="@id/iv_hwbusiness_ad_icon"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12.0dip"
+            android:layout_marginRight="10.0dip"
+            android:scaleType="fitXY" />
+        <RelativeLayout
+            android:id="@id/rl_hwbusiness_ad_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="12.0dip">
+            <Button
+                android:id="@id/btn_hwbusiness_ad_next"
+                android:layout_width="86.0dip"
+                android:layout_height="30.0dip"
+                android:background="@drawable/new_facebook_ad_cta_btn_bg_sel"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="-2.5dip"
+                android:lines="2"
+                android:textColor="@color/white"
+                android:textSize="12.0sp"
+                android:visibility="gone" />
+            <TextView
+                android:id="@id/tv_hwbusiness_ad_next"
+                android:layout_width="86.0dip"
+                android:layout_height="30.0dip"
+                android:background="@drawable/new_facebook_ad_cta_btn_bg_sel"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="-2.5dip"
+                android:lines="2"
+                android:textColor="@color/white"
+                android:textSize="12.0sp" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/rl_hwbusiness_ad_next"
+            android:layout_toRightOf="@id/iv_hwbusiness_ad_icon"
+            android:orientation="vertical">
+            <TextView
+                android:id="@id/tv_hwbusiness_ad_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="@color/color_262626"
+                android:textSize="16.0dip"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@id/tv_hwbusiness_ad_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:lines="2"
+                android:textColor="@color/color_aeaeae"
+                android:textSize="11.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView
+        android:id="@id/iv_hwbusiness_ad_platform_choice"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginRight="5.0dip" />
+    <RelativeLayout
+        android:id="@id/rl_hwbusiness_facebook_ad_platform_choice"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginRight="5.0dip" />
+</RelativeLayout>

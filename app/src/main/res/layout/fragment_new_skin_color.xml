@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:tag="layout/fragment_new_skin_color_0">
+    <FrameLayout
+        android:id="@id/fl_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="246.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+        <FrameLayout
+            android:id="@id/fl_seek_container"
+            android:layout_width="fill_parent"
+            android:layout_height="104.0dip"
+            android:tag="binding_1"
+            android:translationY="104.0dip">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="24.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <com.commsource.widget.AutoFitTextView
+                    android:layout_width="60.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:text="@string/t_highlight_hue"
+                    android:textColor="@color/Gray_A"
+                    android:textSize="12.0dip" />
+                <com.commsource.studio.function.relight.ColorSeekBar
+                    android:id="@id/sb_shade"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="15.0dip"
+                    app:isEnableStroke="false"
+                    app:xBackgroundColor="@color/color_e5e5e5"
+                    app:xProgressColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="20.0dip"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="26.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <com.commsource.widget.AutoFitTextView
+                    android:layout_width="60.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:text="@string/t_degree"
+                    android:textColor="@color/Gray_A"
+                    android:textSize="12.0dip" />
+                <com.commsource.widget.XSeekBar
+                    android:id="@id/sb_intensity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="15.0dip"
+                    app:isEnableStroke="false"
+                    app:xBackgroundColor="@color/color_e5e5e5"
+                    app:xProgressColor="@color/black" />
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:tag="binding_2">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/rv_skin_color"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip"
+                android:layout_marginTop="16.0dip"
+                android:layout_marginBottom="16.0dip"
+                android:clipToPadding="false"
+                android:paddingLeft="16.0dip"
+                android:paddingRight="16.0dip" />
+            <com.commsource.studio.component.ConfirmCancelComponent
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_gravity="bottom"
+                android:background="@color/white"
+                android:tag="binding_3" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.commsource.studio.component.PreviewComponent
+        android:id="@id/preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fl_bottom"
+        android:layout_toLeftOf="@id/contrast"
+        android:paddingLeft="14.0dip"
+        android:paddingTop="14.0dip"
+        android:paddingBottom="14.0dip"
+        android:tag="binding_4"
+        android:translationY="94.0dip" />
+    <com.commsource.studio.component.ContrastComponent
+        android:id="@id/contrast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fl_bottom"
+        android:layout_alignParentRight="true"
+        android:padding="14.0dip"
+        android:tag="binding_5"
+        android:translationY="94.0dip" />
+    <com.commsource.widget.part.XSeekBubbleView
+        android:id="@id/xbv_intensity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fl_bottom"
+        android:layout_marginLeft="85.0dip"
+        android:layout_marginBottom="-53.0dip"
+        android:tag="binding_6" />
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/doodle_empty_layout_0">
+    <View
+        android:id="@id/view_bg"
+        android:layout_width="63.0dip"
+        android:layout_height="63.0dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24.5dip"
+        android:tag="binding_1" />
+    <ImageView
+        android:layout_width="63.0dip"
+        android:layout_height="63.0dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24.5dip"
+        android:src="@drawable/edit_doodle_default_icon" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10.0dip"
+        android:maxWidth="200.0dip"
+        android:maxLines="2"
+        android:text="@string/no_collect_doodle"
+        android:textColor="@color/color_b7b7b7"
+        android:textSize="12.0dip" />
+</RelativeLayout>

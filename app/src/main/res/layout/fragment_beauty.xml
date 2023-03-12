@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="50.0dip">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/beautyRecycleView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:paddingLeft="12.0dip"
+        android:paddingRight="9.0dip" />
+    <LinearLayout
+        android:id="@id/llReset"
+        android:layout_width="wrap_content"
+        android:layout_height="40.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="30.0dip"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <com.commsource.widget.IconFrontView
+            android:id="@id/ifvReset"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:gravity="center"
+            android:text="@string/if_camera_reset"
+            android:textColor="@color/white"
+            android:textSize="24.0dip" />
+        <com.commsource.widget.AutoFitTextView
+            android:id="@id/tvReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="@string/edit_reset"
+            android:textColor="@color/white"
+            android:textSize="10.0dip" />
+    </LinearLayout>
+</RelativeLayout>

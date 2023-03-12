@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_90000000"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="28.0dip"
+    android:paddingRight="28.0dip">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_bg_rectangle_oval_white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:id="@id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="35.0dip"
+            android:layout_marginTop="33.0dip"
+            android:layout_marginRight="35.0dip"
+            android:layout_marginBottom="26.0dip"
+            android:gravity="center"
+            android:text="@string/not_support_this_group"
+            android:textColor="@color/color_333333"
+            android:textSize="14.0dip" />
+        <TextView
+            android:id="@id/tv_accept"
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:layout_marginLeft="30.0dip"
+            android:layout_marginRight="30.0dip"
+            android:layout_marginBottom="35.0dip"
+            android:background="@drawable/shape_bg_semicircle_fc5f8c"
+            android:gravity="center"
+            android:text="@string/bec_wallet_text19"
+            android:textColor="@color/white"
+            android:textSize="14.0dip" />
+    </LinearLayout>
+</LinearLayout>

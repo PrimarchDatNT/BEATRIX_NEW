@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_new_makeup_0" android:paddingTop="50.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_makeup" android:paddingLeft="12.0dip" android:paddingRight="9.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_title" android:visibility="gone" android:clickable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="50.0dip" android:overScrollMode="never" android:alpha="0.0" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/vp" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+    <LinearLayout android:layout_gravity="bottom|center|right" android:orientation="vertical" android:id="@id/fl_makeup_reset" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginRight="30.0dip">
+        <com.commsource.widget.IconFrontView android:textSize="24.0dip" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ifv_reset" android:layout_width="24.0dip" android:layout_height="24.0dip" android:text="@string/if_new_makeup_reset" />
+        <com.commsource.widget.AutoFitTextView android:textSize="10.0dip" android:layout_gravity="center_horizontal" android:id="@id/tv_reset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_reset" android:maxLines="1" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom|center|left" android:orientation="vertical" android:id="@id/fl_makeup_shrink" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="30.0dip">
+        <com.commsource.widget.IconFrontView android:textSize="35.0dip" android:layout_gravity="center" android:id="@id/ifv_shrink" android:layout_width="35.0dip" android:layout_height="35.0dip" android:text="@string/if_new_makeup_shrink" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_mask" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_text" android:layout_width="fill_parent" android:layout_height="70.0dip">
+            <TextView android:textSize="15.0dip" android:textColor="@color/color_333333" android:gravity="center" android:id="@id/tv_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/look_ar_use_tips" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/Primary_A" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_remove_ar" android:paddingLeft="10.0dip" android:paddingTop="3.0dip" android:paddingRight="10.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/tap_to_cancel_ar" style="@style/selectable_item" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

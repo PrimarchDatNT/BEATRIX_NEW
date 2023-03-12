@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/fragment_montage_material_0">
+    <LinearLayout
+        android:id="@id/fl_montage_content"
+        android:layout_width="fill_parent"
+        android:layout_height="200.0dip"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/montage_material_group"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:orientation="horizontal" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/color_eeeeee" />
+        <androidx.viewpager.widget.ViewPager
+            android:id="@id/montage_material_view_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/card"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:tag="layout/item_shop_formula_0"
+    app:cardBackgroundColor="@color/color_f2f1f1"
+    app:cardCornerRadius="10.0dip"
+    app:cardElevation="0.0dip">
+    <FrameLayout
+        android:id="@id/thumbnailContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.commsource.widget.CircleImageView
+            android:id="@id/group_image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:border_color="@color/black5"
+            app:border_width="0.5dip"
+            app:full_circle="false" />
+        <com.commsource.store.XDownloadButton
+            android:id="@id/xdb"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_gravity="end|bottom|center"
+            android:layout_marginRight="4.0dip"
+            android:layout_marginBottom="4.0dip" />
+        <ImageView
+            android:id="@id/premiumIcon"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_gravity="end|center|top"
+            android:layout_margin="2.0dip"
+            android:src="@drawable/common_corner_premium_white_shadow"
+            android:visibility="gone" />
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

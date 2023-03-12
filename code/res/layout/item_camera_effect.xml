@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/fl_effect_tab" android:tag="layout/item_camera_effect_0" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.commsource.widget.round.RoundFrameLayout android:id="@id/fl_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:alpha="0.0" app:rv_isRadiusHalfHeight="true" app:rv_isRippleEnable="false" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_content" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <com.commsource.widget.IconFrontView android:textSize="30.0dip" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/iv" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+        <com.commsource.camera.xcamera.cover.bottomFunction.effect.NewMarqueeTextView android:textSize="14.0dip" android:layout_gravity="center_vertical" android:id="@id/tv" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="60.0dip" android:maxLines="1" android:singleLine="true" android:alpha="0.0" />
+    </LinearLayout>
+    <View android:id="@id/v_new_tag" android:tag="binding_1" android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginLeft="33.0dip" android:layout_marginTop="7.0dip" android:layout_alignLeft="@id/ll_content" />
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>lipstick01</string>
+			<key>FacePart</key>
+			<array>
+				<dict>
+					<key>Type</key>
+					<string>S</string>
+					<key>Path</key>
+					<string>lipstick01.png</string>
+					<key>LocateMethod</key>
+					<string>2</string>
+					<key>FilterType</key>
+					<string>3</string>
+					<key>Rectangle</key>
+					<string>391,803,238,109</string>
+					<key>ORGBA</key>
+					<string>100,170,0,0,255</string>
+					<key>MUType</key>
+					<string>1</string>
+					<key>Operation</key>
+					<string>7</string>
+					<key>Gender</key>
+					<string>F</string>
+				</dict>
+				<dict>
+					<key>Type</key>
+					<string>S</string>
+					<key>Path</key>
+					<string>lipstick01.png</string>
+					<key>LocateMethod</key>
+					<string>2</string>
+					<key>FilterType</key>
+					<string>3</string>
+					<key>Rectangle</key>
+					<string>391,803,238,109</string>
+					<key>ORGBA</key>
+					<string>30,170,0,0,255</string>
+					<key>MUType</key>
+					<string>1</string>
+					<key>Operation</key>
+					<string>7</string>
+					<key>Gender</key>
+					<string>M</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</plist>

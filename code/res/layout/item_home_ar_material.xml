@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout android:id="@id/rl_root" android:tag="layout/item_home_ar_material_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="10.0dip" android:textColor="@color/color_b9b9b9" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvName" android:layout_width="fill_parent" android:layout_height="13.0dip" android:layout_marginLeft="5.0dip" android:text="@string/beauty_main_stickers" android:maxLines="1" android:layout_toRightOf="@id/ivIcon" android:layout_below="@id/ivImage" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/ivIcon" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginLeft="15.0dip" android:src="@drawable/home_ar_icon_gray" android:layout_alignTop="@id/tvName" android:layout_alignBottom="@id/tvName" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/ivImage" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:background="@drawable/ripple_radius_6" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/ivIap" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_margin="2.0dip" android:layout_alignParentRight="true" />
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist>
+	<array>
+		<dict>
+			<key>FacePart</key>
+			<array>	
+				<!-- 口红 女：30-->
+				<dict>
+					<key>Type</key>
+					<string>S</string>
+					<key>Path</key>
+					<string>zc.png</string>
+					<key>AddPath</key>
+					<string>zc.png</string>
+					<key>LocateMethod</key>
+					<string>2</string>
+					<key>FilterType</key>
+					<string>4</string>
+					<key>Rectangle</key>
+					<string>382,803,246,116</string>
+					<key>ORGBA</key>
+					<string>38,0,0,0,255</string>
+					<key>MUType</key>
+					<string>1</string>
+					<key>Operation</key>
+					<string>7</string>
+					<key>SupportOpenMouth</key>
+					<string>1</string>
+					<key>ResolutionShow</key>
+					<string>1,1,1,1</string>
+					<!-- 口红 -->
+					<key>MakeupCustomName</key>
+					<string>MUFACE_MOUTH</string>
+					<key>Gender</key>
+					<string>F</string>
+				</dict>
+				<!-- 口红 男：15-->
+				<!-- <dict>
+					<key>Type</key>
+					<string>S</string>
+					<key>Path</key>
+					<string>zc.png</string>
+					<key>AddPath</key>
+					<string>zc.png</string>
+					<key>LocateMethod</key>
+					<string>2</string>
+					<key>FilterType</key>
+					<string>4</string>
+					<key>Rectangle</key>
+					<string>382,803,246,116</string>
+					<key>ORGBA</key>
+					<string>15,0,0,0,255</string>
+					<key>MUType</key>
+					<string>1</string>
+					<key>Operation</key>
+					<string>7</string>
+					<key>SupportOpenMouth</key>
+					<string>1</string>
+					<key>ResolutionShow</key>
+					<string>1,1,1,1</string> -->
+					<!-- 口红 -->
+				<!-- 	<key>MakeupCustomName</key>
+					<string>MUFACE_MOUTH</string>
+					<key>Gender</key>
+					<string>M</string>
+				</dict> -->
+
+
+				<!-- 修容 女：60-->
+				<dict>
+					<key>Type</key>
+					<string>S</string>
+					<key>Path</key>
+					<string>xr.png</string>
+					<key>LocateMethod</key>
+					<string>2</string>
+					<key>FilterType</key>
+					<string>6</string>
+					<key>Rectangle</key>
+					<string>0,0,1000,1233</string>
+					<key>ORGBA</key>
+					<string>100,0,0,0,255</string>
+					<key>MUType</key>
+					<string>4</string>
+					<key>Operation</key>
+					<string>1</string>
+					<!-- 修容 -->
+					<key>MakeupCustomName</key>
+					<string>MUFACE_HIGHLIGHT</string>
+					<key>Gender</key>
+					<string>F</string>
+				</dict>
+                <!-- 修容 男：80-->
+				<dict>
+					<key>Type</key>
+					<string>S</string>
+					<key>Path</key>
+					<string>xr.png</string>
+					<key>LocateMethod</key>
+					<string>2</string>
+					<key>FilterType</key>
+					<string>6</string>
+					<key>Rectangle</key>
+					<string>0,0,1000,1233</string>
+					<key>ORGBA</key>
+					<string>100,0,0,0,255</string>
+					<key>MUType</key>
+					<string>4</string>
+					<key>Operation</key>
+					<string>1</string>
+					<!-- 修容 -->
+					<key>MakeupCustomName</key>
+					<string>MUFACE_HIGHLIGHT</string>
+					<key>Gender</key>
+					<string>M</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</plist>

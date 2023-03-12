@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="70.0dip"
+    android:layout_marginBottom="10.0dip"
+    android:tag="layout/ar_grid_item_0">
+    <com.commsource.widget.CircleImageView
+        android:id="@id/iv_icon"
+        android:layout_width="70.0dip"
+        android:layout_height="70.0dip"
+        android:layout_gravity="center"
+        android:background="@drawable/ar_delete_item_bg"
+        android:scaleType="fitCenter"
+        app:full_circle="true" />
+    <com.commsource.widget.round.RoundFrameLayout
+        android:id="@id/iv_selected"
+        android:layout_width="70.0dip"
+        android:layout_height="70.0dip"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        app:rv_isRadiusHalfHeight="true"
+        app:rv_isRippleEnable="false"
+        app:rv_strokeColor="@color/Primary_A"
+        app:rv_strokeWidth="2.0dip" />
+</FrameLayout>

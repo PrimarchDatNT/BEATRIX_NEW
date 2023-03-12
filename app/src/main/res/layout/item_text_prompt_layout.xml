@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/bottom_prompt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:tag="layout/item_text_prompt_layout_0"
+    android:text="@string/t_edit_text_font_statement"
+    android:textColor="@color/color_cccccc"
+    android:textSize="10.0dip" />

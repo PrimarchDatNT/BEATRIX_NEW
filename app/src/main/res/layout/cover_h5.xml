@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/fl_root_window"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/cover_h5_0">
+    <com.commsource.widget.PressImageView
+        android:id="@id/iv_h5"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_gravity="bottom|center"
+        android:visibility="gone" />
+    <View
+        android:id="@id/vClickBarrier"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone" />
+</FrameLayout>

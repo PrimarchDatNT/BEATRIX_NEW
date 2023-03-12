@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/activity_bp_album_0">
+    <com.meitu.ratiorelativelayout.RatioRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        app:adaptType="fitY"
+        app:layout_heightSpec="667.0">
+        <com.commsource.widget.CompatShadowToolBar
+            android:id="@id/rl_top_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:background="@color/white">
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_gravity="bottom"
+                android:background="@color/color_dddddd" />
+            <ImageView
+                android:id="@id/iv_cancel"
+                style="@style/selectable_item"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:paddingLeft="13.0dip"
+                android:paddingRight="13.0dip"
+                android:scaleType="centerInside"
+                android:src="@drawable/common_close_icon_board"
+                android:visibility="gone" />
+            <ImageButton
+                android:id="@id/iv_back"
+                style="@style/ActionBar_Left"
+                android:layout_width="55.0dip"
+                android:layout_height="55.0dip"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10.0dip"
+                android:paddingTop="6.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingBottom="6.0dip"
+                android:scaleType="centerInside"
+                android:src="@drawable/edit_back_icon" />
+            <com.commsource.widget.IconFrontView
+                android:id="@id/ifv_back"
+                style="@style/ActionBar_Left"
+                android:layout_width="55.0dip"
+                android:layout_height="55.0dip"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="@string/if_left_camera"
+                android:textColor="@color/black"
+                android:textSize="35.0dip" />
+            <LinearLayout
+                android:id="@id/ll_album"
+                android:layout_width="wrap_content"
+                android:layout_height="40.0dip"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="10.0dip"
+                android:paddingBottom="10.0dip">
+                <TextView
+                    android:id="@id/cb_album_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:maxEms="9"
+                    android:maxLines="1"
+                    android:paddingBottom="2.0dip"
+                    android:textColor="@color/black"
+                    android:textSize="15.0dip"
+                    android:visibility="gone" />
+                <ImageView
+                    android:id="@id/iv_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:src="@drawable/arrow_down_icon_black" />
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@id/rl_function"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="end|center">
+                <ImageButton
+                    android:id="@id/iv_menu"
+                    style="@style/ActionBar_Right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="18.0dip"
+                    android:paddingRight="18.0dip"
+                    android:src="@drawable/edit_more_icon" />
+            </RelativeLayout>
+            <com.commsource.widget.PressImageView
+                android:id="@id/tv_all"
+                android:layout_width="wrap_content"
+                android:layout_height="50.0dip"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="10.0dip"
+                android:padding="15.0dip"
+                android:scaleType="fitCenter"
+                android:src="@drawable/edit_select_all_icon"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+        </com.commsource.widget.CompatShadowToolBar>
+        <FrameLayout
+            android:id="@id/ll_bottom_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <FrameLayout
+                android:id="@id/fl_ad_layout_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.commsource.widget.MaxHeightLayout
+                    android:id="@id/fl_ad_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="binding_1">
+                    <com.meitu.hwbusinesskit.core.widget.NativeAdView
+                        android:id="@id/nav_ad_container"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        app:mthwb_advertLayout="@layout/layout_album_advert"
+                        app:mthwb_setGoneWhenNoIcon="true" />
+                    <com.commsource.widget.PressImageView
+                        android:id="@id/piv_report_enter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/nav_ad_container"
+                        android:layout_alignTop="@id/nav_ad_container"
+                        android:paddingRight="20.0dip"
+                        android:paddingBottom="20.0dip"
+                        android:src="@drawable/common_ad_icon_report" />
+                </com.commsource.widget.MaxHeightLayout>
+            </FrameLayout>
+            <Space
+                android:id="@id/puzzle_view_space"
+                android:layout_width="fill_parent"
+                android:layout_height="170.0dip"
+                android:visibility="gone" />
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/rv_album"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/ll_bottom_container"
+            android:layout_below="@id/rl_top_bar"
+            android:clipChildren="false"
+            android:clipToPadding="false" />
+        <com.commsource.widget.CommonScrollbar
+            android:id="@id/sb_album"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/ll_bottom_container"
+            android:layout_below="@id/rl_top_bar"
+            android:layout_alignParentRight="true" />
+        <com.commsource.widget.PressTextView
+            android:id="@id/tv_remove"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_fffb5f8c"
+            android:gravity="center"
+            android:text="REMOVE (0)"
+            android:textColor="@color/white"
+            android:textSize="14.0dip"
+            android:textStyle="bold"
+            android:visibility="gone" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@id/hd_selected_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10.0dip"
+            android:visibility="gone">
+            <com.commsource.widget.PressTextView
+                android:id="@id/hd_selected_count"
+                android:layout_width="180.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/album_hd_icon_bg"
+                android:gravity="center"
+                android:paddingTop="15.0dip"
+                android:paddingBottom="15.0dip"
+                android:text="@string/hd_share"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:id="@id/ll_empty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/edit_image_empty_icon_placeholder" />
+            <TextView
+                android:id="@id/tv_empty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:gravity="center"
+                android:text="@string/album_empty_no_photo"
+                android:textColor="@color/color_7e7e7e"
+                android:textSize="18.0dip" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@id/ll_album_bucket_tip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36.5dip"
+            android:elevation="2.0dip"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/arrow_up_triangle_icon_black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/water_mark_tips_background"
+                android:gravity="center"
+                android:maxLines="1"
+                android:paddingLeft="20.0dip"
+                android:paddingTop="8.5dip"
+                android:paddingRight="19.5dip"
+                android:paddingBottom="8.5dip"
+                android:text="@string/tab_select_album"
+                android:textColor="@color/white"
+                android:textSize="14.0dip" />
+        </LinearLayout>
+        <Space
+            android:id="@id/sp_compare_tips_right"
+            android:layout_width="39.0dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true" />
+        <View
+            android:id="@id/album_selector"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/rl_top_bar"
+            android:alpha="0.0"
+            android:background="@color/black70"
+            android:visibility="gone" />
+        <TextView
+            android:id="@id/tv_try_feature_tips"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_top_bar"
+            android:background="@color/color_ccfb5986"
+            android:gravity="center"
+            android:paddingLeft="25.0dip"
+            android:paddingTop="10.0dip"
+            android:paddingRight="25.0dip"
+            android:paddingBottom="10.0dip"
+            android:text="@string/select_to_try_filter"
+            android:textColor="@color/white"
+            android:textSize="13.0dip"
+            android:visibility="gone" />
+        <FrameLayout
+            android:id="@id/album_selector_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/rl_top_bar" />
+        <View
+            android:id="@id/tv_mask"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/color_cc000000"
+            android:clickable="true"
+            android:visibility="gone" />
+        <LinearLayout
+            android:id="@id/ll_puzzle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100.0dip"
+            android:background="@drawable/collage_btn_bg"
+            android:gravity="center_vertical"
+            android:visibility="gone">
+            <TextView
+                android:id="@id/tv_puzzle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:text="@string/puzzle"
+                android:textColor="@drawable/collage_font_sel" />
+            <ImageView
+                android:id="@id/iv_puzzle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:layout_marginBottom="15.0dip"
+                android:src="@drawable/collage_ic_sel" />
+        </LinearLayout>
+    </com.meitu.ratiorelativelayout.RatioRelativeLayout>
+    <View
+        android:id="@id/v_animate_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.0"
+        android:background="@color/color_eeeeee" />
+    <ImageView
+        android:id="@id/iv_animate"
+        android:layout_width="50.0dip"
+        android:layout_height="50.0dip"
+        android:background="@color/color_eeeeee"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+    <FrameLayout
+        android:id="@id/fl_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <FrameLayout
+        android:id="@id/puzzle_select"
+        android:layout_width="96.0dip"
+        android:layout_height="36.0dip"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="194.0dip"
+        android:visibility="gone">
+        <com.commsource.widget.LinearGradientView
+            android:layout_width="96.0dip"
+            android:layout_height="36.0dip" />
+        <com.commsource.widget.AutoFitTextView
+            android:id="@id/iv_select"
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dip"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:maxLines="1"
+            android:tag="binding_2"
+            android:text="@string/t_puzzle_select"
+            android:textColor="@color/white"
+            android:textSize="14.0dip" />
+    </FrameLayout>
+    <ViewStub
+        android:id="@id/vb_puzzle"
+        android:layout_width="fill_parent"
+        android:layout_height="170.0dip"
+        android:layout_gravity="bottom"
+        android:layout="@layout/puzzle_selector_layout" />
+</FrameLayout>

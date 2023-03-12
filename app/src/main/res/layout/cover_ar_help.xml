@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:tag="layout/cover_ar_help_0">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@id/lav_ar_help"
+        android:layout_width="150.0dip"
+        android:layout_height="144.5dip"
+        android:layout_centerHorizontal="true"
+        android:saveEnabled="false"
+        app:lottie_loop="true"
+        app:lottie_repeatMode="restart" />
+    <com.commsource.widget.AutoFitTextView
+        android:id="@id/tv_ar_help"
+        android:layout_width="300.0dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lav_ar_help"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="35.0dip"
+        android:layout_marginTop="2.0dip"
+        android:layout_marginRight="35.0dip"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="AR素材交互提示"
+        android:textColor="@color/white"
+        android:textSize="18.0sp" />
+</RelativeLayout>

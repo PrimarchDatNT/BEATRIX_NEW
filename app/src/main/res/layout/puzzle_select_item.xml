@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@id/iv_puzzle"
+        android:layout_width="100.0dip"
+        android:layout_height="100.0dip"
+        android:layout_marginTop="5.0dip" />
+    <com.commsource.widget.PressImageView
+        android:id="@id/pv_puzzle_delete"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:layout_marginLeft="-15.0dip"
+        android:layout_toRightOf="@id/iv_puzzle"
+        android:src="@drawable/common_close_delete_icon_circle_gray" />
+</RelativeLayout>

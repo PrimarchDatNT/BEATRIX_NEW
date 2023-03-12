@@ -1,0 +1,14 @@
+
+{
+      
+        "type": 1,
+       
+        "startPoint": "0,0",
+       
+        "endPoint": "0,1",
+       
+        "colors": ["F8FFAE","43C6AC"],
+      
+        "locations": [0.0, 1.0]
+  
+    }

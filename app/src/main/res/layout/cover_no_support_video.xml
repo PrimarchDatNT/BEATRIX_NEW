@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/tv_no_support_video"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:tag="layout/cover_no_support_video_0"
+    android:text="@string/unable_to_use_video"
+    android:textColor="@color/white"
+    android:textSize="18.0dip" />

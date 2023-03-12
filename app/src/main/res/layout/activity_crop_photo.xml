@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:tag="layout/activity_crop_photo_0">
+    <com.commsource.beautymain.widget.EditCropView
+        android:id="@id/crop_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bottom_bar"
+        android:background="@color/color_eeeeee" />
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@id/bottom_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/beauty_bottom_bar_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+        <View
+            android:id="@id/view_divide"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="@color/color_dcdada" />
+        <ImageButton
+            android:id="@id/ibtn_beauty_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2.5dip"
+            android:background="@null"
+            android:padding="5.0dip"
+            android:src="@drawable/common_close_icon_black_70" />
+        <ImageButton
+            android:id="@id/ibtn_beauty_apply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="2.5dip"
+            android:background="@null"
+            android:padding="5.0dip"
+            android:src="@drawable/beauty_apply_btn_new_ic_sel" />
+    </RelativeLayout>
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="74.0dip"
+    android:layout_height="30.0dip"
+    android:tag="layout/component_auto_manual_0">
+    <com.commsource.beautyplus.miniapp.XSegmentButtonGroup
+        android:id="@id/xsbg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:seg_background_color="@color/color_ededed"
+        app:seg_background_corner="15.0dip"
+        app:seg_background_stroke="0.5dip"
+        app:seg_background_stroke_color="@color/color_1a000000"
+        app:seg_indicator_color="@color/white"
+        app:seg_indicator_corner="15.0dip"
+        app:seg_indicator_shadow_enable="true"
+        app:seg_padding="2.5dip">
+        <com.commsource.widget.IconFrontView
+            android:layout_width="37.0dip"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/if_gesture_auto"
+            android:textColor="@color/text_select_auto_manual"
+            android:textSize="30.0dip" />
+        <com.commsource.widget.IconFrontView
+            android:layout_width="37.0dip"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/if_gesture_manual"
+            android:textColor="@color/text_select_auto_manual"
+            android:textSize="30.0dip" />
+    </com.commsource.beautyplus.miniapp.XSegmentButtonGroup>
+    <View
+        android:id="@id/vClick"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <View
+        android:id="@id/red_point"
+        android:layout_width="4.0dip"
+        android:layout_height="4.0dip"
+        android:layout_marginLeft="27.0dip"
+        android:layout_marginTop="3.0dip"
+        android:background="@drawable/red_point_radius_3"
+        android:visibility="gone" />
+</FrameLayout>

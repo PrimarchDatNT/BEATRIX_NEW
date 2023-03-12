@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="74.0dip"
+    android:background="#99ffffff"
+    android:paddingLeft="13.0dip">
+    <ImageView
+        android:id="@id/video_icon_image"
+        android:layout_width="50.0dip"
+        android:layout_height="50.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:scaleType="fitXY" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="66.0dip"
+        android:layout_toLeftOf="@id/video_cta"
+        android:layout_toRightOf="@id/video_icon_image"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:id="@id/video_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="#ff333333"
+            android:textSize="15.0sp" />
+        <RatingBar
+            android:id="@id/item_rating"
+            style="@style/app_wall_common_rating_style_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:rating="3.5"
+            android:stepSize="0.1" />
+        <TextView
+            android:id="@id/video_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3.0dip"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:gravity="top"
+            android:singleLine="true"
+            android:textColor="#ff777777"
+            android:textSize="12.0sp"
+            android:visibility="visible" />
+    </LinearLayout>
+    <TextView
+        android:id="@id/video_cta"
+        android:layout_width="wrap_content"
+        android:layout_height="33.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10.0dip"
+        android:background="@drawable/rating_btn_hightlight_normal"
+        android:gravity="center"
+        android:minWidth="82.0dip"
+        android:padding="5.0dip"
+        android:text="@string/brand_learn_more_text"
+        android:textColor="#ffffffff"
+        android:textSize="13.0sp" />
+</RelativeLayout>

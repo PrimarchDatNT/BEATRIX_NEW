@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:tag="layout/onboarding_text_pannel_layout_0">
+    <com.commsource.widget.AutoFitTextView
+        android:id="@id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:textColor="@color/Gray_A"
+        android:textSize="24.0dip"
+        app:strokeTextSize="0.8" />
+    <com.commsource.widget.AutoFitTextView
+        android:id="@id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.0dip"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/Gray_D"
+        android:textSize="18.0dip" />
+</LinearLayout>

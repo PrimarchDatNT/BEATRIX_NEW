@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <com.commsource.widget.title.XTitleBar
+        android:id="@id/xtb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:xtb_title="测试功能" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@id/vTvBugKiller"
+                style="@style/settings_button_style"
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip"
+                android:gravity="center|left"
+                android:paddingLeft="15.0dip"
+                android:paddingRight="15.0dip"
+                android:text="BugKiller"
+                android:textColor="@color/color_333333"
+                android:textSize="16.0sp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@color/color_e6e5e8" />
+            <TextView
+                android:id="@id/vTvABTest"
+                style="@style/settings_button_style"
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip"
+                android:gravity="center|left"
+                android:paddingLeft="15.0dip"
+                android:paddingRight="15.0dip"
+                android:text="ABTest数据"
+                android:textColor="@color/color_333333"
+                android:textSize="16.0sp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@color/color_e6e5e8" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="拦截订阅"
+                    android:textColor="@color/color_333333" />
+                <com.commsource.camera.xcamera.widget.CameraSwitchButton
+                    android:id="@id/sw_proxy"
+                    android:layout_width="40.0dip"
+                    android:layout_height="24.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10.0dip" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="是否订阅"
+                    android:textColor="@color/color_333333" />
+                <com.commsource.camera.xcamera.widget.CameraSwitchButton
+                    android:id="@id/sw_fake"
+                    android:layout_width="40.0dip"
+                    android:layout_height="24.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10.0dip" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip">
+                <TextView
+                    style="@style/settings_button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15.0dip"
+                    android:text="UIChecker开关"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16.0sp" />
+                <com.commsource.beautyplus.setting.widget.SwitchView
+                    android:id="@id/vSwitchUIChecker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15.0dip" />
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@color/color_e6e5e8" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip">
+                <TextView
+                    style="@style/settings_button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15.0dip"
+                    android:text="Firebase打点写入文件"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16.0sp" />
+                <com.commsource.beautyplus.setting.widget.SwitchView
+                    android:id="@id/vSwitchFirebaseEventOutput"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15.0dip" />
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@color/color_e6e5e8" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip">
+                <TextView
+                    style="@style/settings_button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15.0dip"
+                    android:text="自拍效果核对"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16.0sp" />
+                <com.commsource.beautyplus.setting.widget.SwitchView
+                    android:id="@id/vSwitchCameraEffeckCheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15.0dip" />
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@color/color_e6e5e8" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip">
+                <TextView
+                    style="@style/settings_button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15.0dip"
+                    android:text="首页停留时间"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16.0sp" />
+                <com.commsource.beautyplus.setting.widget.SwitchView
+                    android:id="@id/vSwitchFormalHomeDuration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15.0dip" />
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@color/color_e6e5e8" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip">
+                <TextView
+                    style="@style/settings_button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15.0dip"
+                    android:text="素材切换为测试环境"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16.0sp" />
+                <com.commsource.beautyplus.setting.widget.SwitchView
+                    android:id="@id/vSwitchProductCenterDebug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15.0dip" />
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@color/color_e6e5e8" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip">
+                <TextView
+                    style="@style/settings_button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15.0dip"
+                    android:text="遍历AR内存性能"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16.0sp" />
+                <com.commsource.beautyplus.setting.widget.SwitchView
+                    android:id="@id/svScanArPerformance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15.0dip" />
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@color/color_e6e5e8" />
+            <RelativeLayout
+                android:id="@id/ll_store"
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip">
+                <TextView
+                    style="@style/settings_button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15.0dip"
+                    android:text="沙盒存储"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@id/ll_dialog"
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip">
+                <TextView
+                    style="@style/settings_button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15.0dip"
+                    android:text="Dialog测试页面"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@color/color_e6e5e8" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip">
+                <TextView
+                    style="@style/settings_button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15.0dip"
+                    android:text="ar一键下载"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16.0sp" />
+                <com.commsource.beautyplus.setting.widget.SwitchView
+                    android:id="@id/vSwitchArDownload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15.0dip" />
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@color/color_e6e5e8" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip">
+                <TextView
+                    style="@style/settings_button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15.0dip"
+                    android:text="打印人脸信息"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16.0sp" />
+                <com.commsource.beautyplus.setting.widget.SwitchView
+                    android:id="@id/vSwitchTestPrintFaceInfos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15.0dip" />
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@color/color_e6e5e8" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip">
+                <TextView
+                    style="@style/settings_button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15.0dip"
+                    android:text="效果调试工具"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16.0sp" />
+                <com.commsource.beautyplus.setting.widget.SwitchView
+                    android:id="@id/vSwitchDebugEffectTool"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15.0dip" />
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@color/color_e6e5e8" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip">
+                <TextView
+                    android:id="@id/vTvCrashDebug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15.0dip"
+                    android:text="闪退弹窗（再点文字5次以开启/关闭）"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16.0sp" />
+                <com.commsource.beautyplus.setting.widget.SwitchView
+                    android:id="@id/crashDebug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15.0dip" />
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@color/color_e6e5e8" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip">
+                <TextView
+                    android:id="@id/vTvCppCrashDebug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15.0dip"
+                    android:text="底层闪退测试（再点文字5次崩溃）"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@color/color_e6e5e8" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip">
+                <TextView
+                    android:id="@id/vTvSoMissDebug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15.0dip"
+                    android:text="SO 丢失（再点文字5次以开启/关闭）"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16.0sp" />
+                <com.commsource.beautyplus.setting.widget.SwitchView
+                    android:id="@id/soMissDebug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15.0dip" />
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@color/color_e6e5e8" />
+            <LinearLayout
+                android:id="@id/vLlConsume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@id/vTvConsume"
+                    android:layout_width="fill_parent"
+                    android:layout_height="55.0dip"
+                    android:background="?selectableItemBackground"
+                    android:padding="15.0dip"
+                    android:text="消耗"
+                    android:textColor="@color/color_333333"
+                    android:textSize="15.0sp" />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:background="@color/color_e6e5e8" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@id/vLlProduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@id/vTvProduct"
+                    android:layout_width="fill_parent"
+                    android:layout_height="55.0dip"
+                    android:background="?selectableItemBackground"
+                    android:padding="15.0dip"
+                    android:text="已购商品"
+                    android:textColor="@color/color_333333"
+                    android:textSize="15.0sp" />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:background="@color/color_e6e5e8" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@id/vLlDiscountTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@id/vTvDiscountTime"
+                        android:layout_width="fill_parent"
+                        android:layout_height="55.0dip"
+                        android:background="?selectableItemBackground"
+                        android:padding="15.0dip"
+                        android:text="新手订阅优惠时间: "
+                        android:textColor="@color/color_333333"
+                        android:textSize="15.0sp" />
+                    <EditText
+                        android:id="@id/et_input"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20.0dip"
+                        android:textColor="@color/color_333333"
+                        android:textSize="15.0dip" />
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:background="@color/color_e6e5e8" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@id/vLlPurchase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@id/vTvUserType"
+                    android:layout_width="fill_parent"
+                    android:layout_height="55.0dip"
+                    android:background="?selectableItemBackground"
+                    android:padding="15.0dip"
+                    android:text="购买消除笔"
+                    android:textColor="@color/color_333333"
+                    android:textSize="15.0sp" />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:background="@color/color_e6e5e8" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@id/vLlClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@id/vTvClear"
+                    android:layout_width="fill_parent"
+                    android:layout_height="55.0dip"
+                    android:background="?selectableItemBackground"
+                    android:padding="15.0dip"
+                    android:text="清除数据"
+                    android:textColor="@color/color_333333"
+                    android:textSize="15.0sp" />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:background="@color/color_e6e5e8" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@id/llUrlJump"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@id/tvUrlJump"
+                    android:layout_width="fill_parent"
+                    android:layout_height="55.0dip"
+                    android:background="?selectableItemBackground"
+                    android:padding="15.0dip"
+                    android:text="协议跳转"
+                    android:textColor="@color/color_333333"
+                    android:textSize="15.0sp" />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:background="@color/color_e6e5e8" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@id/llOneThingInTheEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@id/tvOneThingInTheEnd"
+                    android:layout_width="fill_parent"
+                    android:layout_height="55.0dip"
+                    android:background="?selectableItemBackground"
+                    android:padding="15.0dip"
+                    android:text="一货到底到付费滤镜"
+                    android:textColor="@color/color_333333"
+                    android:textSize="15.0sp" />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:background="@color/color_e6e5e8" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip">
+                <TextView
+                    style="@style/settings_button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15.0dip"
+                    android:text="20s后显示订阅折扣信息"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16.0sp" />
+                <com.commsource.beautyplus.setting.widget.SwitchView
+                    android:id="@id/vSwitchDiscount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15.0dip" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip">
+                <TextView
+                    style="@style/settings_button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15.0dip"
+                    android:text="滤镜数据源读取SD卡"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16.0sp" />
+                <com.commsource.beautyplus.setting.widget.SwitchView
+                    android:id="@id/vSwitchFilterDataSource"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15.0dip" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip">
+                <TextView
+                    android:id="@id/createDump"
+                    style="@style/settings_button_style"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center|left"
+                    android:paddingLeft="15.0dip"
+                    android:text="拉取Dump 文件 (耗时)"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@color/color_e6e5e8" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="拦截是否新用户"
+                    android:textColor="@color/color_333333" />
+                <com.commsource.camera.xcamera.widget.CameraSwitchButton
+                    android:id="@id/sw_new_user_proxy"
+                    android:layout_width="40.0dip"
+                    android:layout_height="24.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10.0dip" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15.0dip"
+                    android:text="是否新用户"
+                    android:textColor="@color/color_333333" />
+                <com.commsource.camera.xcamera.widget.CameraSwitchButton
+                    android:id="@id/sw_fake_new_user"
+                    android:layout_width="40.0dip"
+                    android:layout_height="24.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10.0dip" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@color/color_e6e5e8" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip">
+                <TextView
+                    style="@style/settings_button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15.0dip"
+                    android:text="启动展示onboarding"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16.0sp" />
+                <com.commsource.beautyplus.setting.widget.SwitchView
+                    android:id="@id/vOnBoardingSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15.0dip" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

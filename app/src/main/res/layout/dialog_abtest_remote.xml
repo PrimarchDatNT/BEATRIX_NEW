@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/dialog_abtest_remote_0">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="450.0dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        android:background="@drawable/shape_radiu8_white"
+        android:orientation="vertical">
+        <ScrollView
+            android:id="@id/sv_remote"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_weight="1.0"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:padding="15.0dip">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5.0dip"
+                    android:text="国内Meepo数据"
+                    android:textColor="@color/black"
+                    android:textSize="16.0dip" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="binding_1"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5.0dip"
+                    android:text="海外Meepo数据"
+                    android:textColor="@color/black"
+                    android:textSize="16.0dip" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="binding_2"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </ScrollView>
+        <TextView
+            android:id="@id/tv_dismiss"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</RelativeLayout>

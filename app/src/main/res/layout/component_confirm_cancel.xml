@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50.0dip"
+    android:clickable="true"
+    android:tag="layout/component_confirm_cancel_0">
+    <com.commsource.widget.PressImageView
+        android:id="@id/piv_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:paddingLeft="10.0dip"
+        android:src="@drawable/common_close_icon_black" />
+    <com.commsource.widget.PressImageView
+        android:id="@id/piv_apply"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="10.0dip"
+        android:src="@drawable/common_tick_icon_black" />
+    <com.commsource.widget.BoldTextView
+        android:id="@id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Label"
+        android:textColor="@color/black"
+        android:textSize="13.0dip" />
+    <com.commsource.widget.IconFrontView
+        android:id="@id/iv_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/tv_name"
+        android:gravity="center"
+        android:padding="5.0dip"
+        android:text="@string/edit_icon_help"
+        android:textColor="@color/Gray_C"
+        android:textSize="12.0dip"
+        android:visibility="visible" />
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

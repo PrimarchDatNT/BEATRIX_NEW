@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/scrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:tag="layout/fragment_image_style_sub_0">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@id/colorBar"
+            android:layout_width="fill_parent"
+            android:layout_height="28.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginTop="17.0dip"
+            android:orientation="horizontal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.commsource.studio.doodle.ColorItemView
+                    android:id="@id/civ"
+                    android:layout_width="28.0dip"
+                    android:layout_height="28.0dip"
+                    android:layout_gravity="center_vertical" />
+                <com.commsource.widget.IconFrontView
+                    android:id="@id/color_pick_icon"
+                    android:layout_width="28.0dip"
+                    android:layout_height="28.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:tag="binding_1"
+                    android:text="@string/if_studio_color_picker"
+                    android:textColor="@color/black"
+                    android:textSize="24.0dip" />
+            </FrameLayout>
+            <com.commsource.studio.doodle.ColorItemView
+                android:id="@id/pickedIcon"
+                android:layout_width="28.0dip"
+                android:layout_height="28.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:visibility="gone" />
+            <View
+                android:id="@id/v_line"
+                android:layout_width="0.5dip"
+                android:layout_height="28.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15.0dip"
+                android:background="@color/black10" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/rv_color_list"
+                android:layout_width="fill_parent"
+                android:layout_height="28.0dip"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+        <TextView
+            android:id="@id/seek_bar_1_title"
+            android:layout_width="60.0dip"
+            android:layout_height="32.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginTop="15.0dip"
+            android:gravity="center_vertical"
+            android:textColor="@color/color_333333"
+            android:textSize="12.0dip"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/seek_bar_1"
+            app:layout_constraintTop_toBottomOf="@id/colorBar"
+            app:layout_goneMarginTop="20.0dip" />
+        <com.commsource.widget.XSeekBar
+            android:id="@id/seek_bar_1"
+            android:layout_width="0.0dip"
+            android:layout_height="20.0dip"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="15.0dip"
+            app:isEnableStroke="false"
+            app:layout_constraintBottom_toBottomOf="@id/seek_bar_1_title"
+            app:layout_constraintHorizontal_weight="1.0"
+            app:layout_constraintLeft_toRightOf="@id/seek_bar_1_title"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/seek_bar_1_title"
+            app:xBackgroundColor="@color/color_f3f3f3"
+            app:xProgressColor="@color/black" />
+        <TextView
+            android:id="@id/seek_bar_2_title"
+            android:layout_width="60.0dip"
+            android:layout_height="32.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginTop="15.0dip"
+            android:gravity="center_vertical"
+            android:textColor="@color/color_333333"
+            android:textSize="12.0dip"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/seek_bar_2"
+            app:layout_constraintTop_toBottomOf="@id/seek_bar_1_title" />
+        <com.commsource.widget.XSeekBar
+            android:id="@id/seek_bar_2"
+            android:layout_width="0.0dip"
+            android:layout_height="20.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="15.0dip"
+            android:visibility="gone"
+            app:isEnableStroke="false"
+            app:layout_constraintBottom_toBottomOf="@id/seek_bar_2_title"
+            app:layout_constraintHorizontal_weight="1.0"
+            app:layout_constraintLeft_toRightOf="@id/seek_bar_2_title"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/seek_bar_2_title"
+            app:xBackgroundColor="@color/color_f3f3f3"
+            app:xProgressColor="@color/black" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

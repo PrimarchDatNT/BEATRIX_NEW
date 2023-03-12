@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:tag="layout/fragment_doodle_pager_0">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/rv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="10.0dip" />
+    <include
+        android:id="@id/prompt_view"
+        layout="@layout/collect_prompt_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+    <include
+        android:id="@id/empty_doodle_collect"
+        layout="@layout/doodle_empty_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+</FrameLayout>

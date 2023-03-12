@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:tag="layout/fragment_studio_background_adjust_0">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/rv_aspect_ratio"
+            android:layout_width="fill_parent"
+            android:layout_height="77.0dip"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingLeft="15.0dip" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/black10" />
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="32.0dip"
+            android:layout_marginTop="15.0dip">
+            <com.commsource.studio.function.background.BackgroundItemView
+                android:id="@id/biv"
+                android:layout_width="28.0dip"
+                android:layout_height="28.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15.0dip" />
+            <com.commsource.studio.doodle.ColorItemView
+                android:id="@id/civ"
+                android:layout_width="28.0dip"
+                android:layout_height="28.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15.0dip" />
+            <com.commsource.widget.IconFrontView
+                android:id="@id/color_pick_icon"
+                android:layout_width="28.0dip"
+                android:layout_height="28.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15.0dip"
+                android:gravity="center"
+                android:tag="binding_1"
+                android:text="@string/if_studio_color_picker"
+                android:textColor="@color/black"
+                android:textSize="24.0dip" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/rv_color_list"
+                android:layout_width="fill_parent"
+                android:layout_height="28.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="58.0dip"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:paddingLeft="15.0dip"
+                android:paddingRight="2.0dip" />
+            <View
+                android:id="@id/v_line"
+                android:layout_width="0.5dip"
+                android:layout_height="28.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="58.0dip"
+                android:background="@color/black10" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="35.0dip"
+            android:layout_marginTop="15.0dip"
+            android:layout_marginBottom="15.0dip"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/rv_gradient"
+                android:layout_width="fill_parent"
+                android:layout_height="28.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15.0dip"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:paddingRight="2.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

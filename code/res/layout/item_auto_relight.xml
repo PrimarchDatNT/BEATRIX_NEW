@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/item_auto_relight_0" android:layout_width="54.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.commsource.widget.CircleImageView android:id="@id/iv" android:layout_width="54.0dip" android:layout_height="54.0dip" app:round_radius="6.0dip" />
+    <com.commsource.widget.round.RoundIconfontTextView android:textSize="28.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/iv_select" android:layout_width="54.0dip" android:layout_height="54.0dip" android:text="@string/if_seek_bar_select" app:rv_backgroundColor="@color/color_4d000000" app:rv_cornerRadius="6.0dip" app:rv_isRippleEnable="false" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/Gray_A" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="59.0dip" />
+</FrameLayout>

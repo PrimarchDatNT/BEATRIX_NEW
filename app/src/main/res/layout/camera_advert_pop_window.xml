@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    app:adaptType="fitY"
+    app:layout_heightSpec="1334.0"
+    app:layout_widthSpec="750.0">
+    <LinearLayout
+        android:id="@id/ll_ad_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_ratioMarginTop="180.0"
+        app:layout_ratioWidth="639.0">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.meitu.hwbusinesskit.core.widget.NativeAdView
+                android:id="@id/nativeAdView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="12.0dip"
+                android:visibility="visible"
+                app:mthwb_advertLayout="@layout/layout_video_ad"
+                app:mthwb_main_content_max_aspect="2.1"
+                app:mthwb_main_content_min_aspect="1.91"
+                app:mthwb_needShowDefault="true"
+                app:mthwb_setGoneWhenNoIcon="true" />
+            <com.commsource.widget.PressImageView
+                android:id="@id/piv_report_enter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/nativeAdView"
+                android:layout_alignTop="@id/nativeAdView"
+                android:paddingRight="20.0dip"
+                android:paddingBottom="20.0dip"
+                android:src="@drawable/common_ad_icon_report" />
+        </RelativeLayout>
+        <ImageView
+            android:id="@id/imgv_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="11.0dip"
+            android:src="@drawable/selfie_tick_ad_icon" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="9.0dip"
+            android:layout_marginBottom="20.0dip"
+            android:text="@string/save_to_album"
+            android:textColor="@android:color/black"
+            android:textSize="16.0dip" />
+    </LinearLayout>
+    <ImageButton
+        android:id="@id/iv_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_ad_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15.0dip"
+        android:background="@null"
+        android:padding="10.0dip"
+        android:src="@drawable/common_close_icon_circle_gray" />
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

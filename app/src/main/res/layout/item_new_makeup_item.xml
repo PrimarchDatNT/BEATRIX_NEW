@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="60.0dip"
+    android:layout_height="fill_parent"
+    android:tag="layout/item_new_makeup_item_0">
+    <RelativeLayout
+        android:id="@id/rl_root"
+        android:layout_width="60.0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+        <FrameLayout
+            android:id="@id/fl_content"
+            android:layout_width="54.0dip"
+            android:layout_height="54.0dip"
+            android:layout_centerHorizontal="true">
+            <com.commsource.widget.CircleImageView
+                android:id="@id/iv_icon"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                app:border_color="@color/black5"
+                app:border_width="2.0px"
+                app:full_circle="false"
+                app:radius_size="4.0dip"
+                app:round_radius="4.0dip" />
+            <com.commsource.widget.round.RoundIconfontTextView
+                android:id="@id/fl_select_mask"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/if_seek_bar_select"
+                android:textColor="@color/white"
+                android:textSize="28.0dip"
+                android:visibility="gone"
+                app:rv_backgroundColor="@color/color_primary50"
+                app:rv_cornerRadius="4.0dip"
+                app:rv_isRippleEnable="false" />
+            <com.commsource.widget.RotateLoadingView
+                android:id="@id/cdpv_progress"
+                android:layout_width="18.0dip"
+                android:layout_height="18.0dip"
+                android:layout_gravity="bottom|center|right"
+                android:background="@drawable/common_loading_white_rotate_icon"
+                android:visibility="gone" />
+            <com.commsource.widget.IconFrontView
+                android:id="@id/ifv_download"
+                android:layout_width="18.0dip"
+                android:layout_height="18.0dip"
+                android:layout_gravity="bottom|center|right"
+                android:text="@string/if_look_download"
+                android:textColor="@color/white"
+                android:textSize="18.0dip"
+                android:visibility="gone"
+                app:show_stroke="true"
+                app:stroke_color="@color/color_4d000000" />
+            <ImageView
+                android:id="@id/iv_right_corner"
+                android:layout_width="15.0dip"
+                android:layout_height="15.0dip"
+                android:layout_gravity="center|right|top"
+                android:layout_marginTop="1.0dip"
+                android:layout_marginRight="1.0dip"
+                android:visibility="gone" />
+            <com.commsource.widget.CornerImageView
+                android:id="@id/iv_left_corner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left|top"
+                android:tag="binding_1"
+                android:visibility="gone" />
+        </FrameLayout>
+        <com.commsource.widget.IconFrontView
+            android:id="@id/ifv_preset"
+            android:layout_width="10.0dip"
+            android:layout_height="10.0dip"
+            android:layout_alignTop="@id/tv_name"
+            android:layout_alignBottom="@id/tv_name"
+            android:layout_toLeftOf="@id/tv_name"
+            android:gravity="center"
+            android:text="@string/if_preset"
+            android:textSize="6.0dip"
+            android:visibility="gone" />
+        <com.commsource.widget.AutoFitTextView
+            android:id="@id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="12.0dip"
+            android:layout_below="@id/fl_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4.0dip"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textSize="10.0dip" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/rl_advert_web"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+    <com.commsource.beautyplus.web.BeautyPlusWebView
+        android:id="@id/advert_web"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/advert_web_top" />
+    <FrameLayout
+        android:id="@id/fl_net_error"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/advert_web_top"
+        android:background="@color/color_f5f5f5"
+        android:visibility="gone">
+        <LinearLayout
+            android:id="@id/ll_net_error"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="60.0dip">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/common_web_error" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30.0dip"
+                android:layout_marginTop="30.0dip"
+                android:layout_marginRight="30.0dip"
+                android:gravity="center"
+                android:text="@string/web_net_error"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@id/advert_web_top"
+        style="@style/top_bar"
+        android:layout_alignParentTop="true"
+        android:elevation="2.0dip">
+        <ImageButton
+            android:id="@id/ibtn_go_home"
+            style="@style/ActionBar_Left"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center_vertical"
+            android:padding="15.0dip"
+            android:src="@drawable/arrow_back_icon_black" />
+        <TextView
+            android:id="@id/advert_title"
+            style="@style/text_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40.0dip"
+            android:textSize="16.0dip" />
+        <TextView
+            android:id="@id/tv_follow_us_on_facebook"
+            style="@style/text_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/dialog_ok_btn_bg"
+            android:text="@string/tv_follow_us_on_facebook"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+        <com.commsource.widget.PressImageView
+            android:id="@id/finishWeb"
+            style="@style/ActionBar_Left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center"
+            android:padding="10.0dip"
+            android:src="@drawable/common_close_icon_black"
+            android:visibility="gone" />
+    </FrameLayout>
+    <Button
+        android:id="@id/btn_restore_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15.0dip"
+        android:background="@drawable/restore_feedback_btn_sel"
+        android:text="@string/feedback"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@id/iv_feedback_email"
+        android:layout_width="55.0dip"
+        android:layout_height="55.0dip"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16.0dip"
+        android:layout_marginBottom="8.0dip"
+        android:src="@drawable/common_feedback_email_icon"
+        android:visibility="gone" />
+</RelativeLayout>

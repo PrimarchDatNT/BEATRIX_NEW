@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_content" android:tag="layout/fragment_makeup_style_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.commsource.util.FadingRecyclerView android:layout_gravity="center|right" android:id="@id/rv_right" android:layout_width="68.0dip" android:layout_height="211.0dip" />
+</FrameLayout>

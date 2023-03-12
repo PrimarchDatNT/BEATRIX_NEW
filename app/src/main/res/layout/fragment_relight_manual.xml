@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/fragment_relight_manual_0">
+    <FrameLayout
+        android:id="@id/fl_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:tag="binding_1">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/rv"
+            android:layout_width="wrap_content"
+            android:layout_height="44.0dip" />
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip"
+            android:layout_marginTop="42.0dip"
+            android:background="@color/white">
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_gravity="bottom"
+                android:background="@color/black10" />
+            <com.commsource.widget.LineSelectView
+                android:id="@id/lineSelect"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:tag="binding_2" />
+        </FrameLayout>
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@id/vp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingTop="44.0dip"
+            android:paddingBottom="50.0dip" />
+    </FrameLayout>
+</RelativeLayout>

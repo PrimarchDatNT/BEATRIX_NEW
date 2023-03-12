@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+			<key>FacePart</key>
+			<array>
+				<!---bling--->
+				<dict>
+				<key>Type</key>
+				<string>3DA</string>
+				<key>Path</key>
+				<string>blin.obj</string>
+				<key>DepthIndex</key>
+				<integer>-1</integer>
+				<key>BlendFunc</key>
+				<string>770,771,1,771</string>
+				<key>EnableSkinning</key>
+				<integer>1</integer>
+				<key>VideoType</key>
+				<integer>4</integer>
+				<key>PosEstimatorType</key>
+				<integer>1</integer>
+				<key>VideoFPS</key>
+				<string>24</string>
+				<key>ShapeConfigure</key>
+				<array>
+					<dict>
+						<key>ShapeIndex</key>
+						<integer>0</integer>
+						<key>BeforeCircle</key>
+						<string>bling/bling_.png</string>
+						<key>BeforeCircleInfo</key>
+						<string>1,5,2,2,88,0,0</string>
+					</dict>
+				</array>
+			</dict>
+			
+			
+			
+			
+		</array>
+	</dict>
+</array>
+</plist>

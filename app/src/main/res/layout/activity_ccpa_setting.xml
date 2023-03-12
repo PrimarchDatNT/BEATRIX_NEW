@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_f9f9f9">
+    <RelativeLayout
+        android:id="@id/topbar"
+        style="@style/top_bar"
+        android:elevation="2.0dip">
+        <ImageButton
+            android:id="@id/ibtn_left"
+            style="@style/ActionBar_Left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="15.0dip"
+            android:src="@drawable/arrow_back_icon_black" />
+        <TextView
+            style="@style/text_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16.0dip"
+            android:layout_toRightOf="@id/ibtn_left"
+            android:freezesText="true"
+            android:gravity="center"
+            android:text="@string/setting_ccpa" />
+    </RelativeLayout>
+    <View
+        android:id="@id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_below="@id/topbar"
+        android:background="@color/color_e6e5e8" />
+    <LinearLayout
+        android:id="@id/ll_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topbar"
+        android:layout_marginTop="16.0dip"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55.0dip">
+            <TextView
+                style="@style/settings_button_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="15.0dip"
+                android:text="@string/setting_ccpa"
+                android:textColor="@color/color_333333"
+                android:textSize="16.0dip" />
+            <com.commsource.beautyplus.setting.widget.SwitchView
+                android:id="@id/switch_choose_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15.0dip" />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_switch"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginRight="15.0dip"
+        android:text="@string/setting_ccpa_information"
+        android:textColor="@color/color_999999"
+        android:textSize="12.0dip" />
+</RelativeLayout>

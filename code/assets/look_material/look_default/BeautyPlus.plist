@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- 美型 -->
+	<key>FaceLift</key>
+	<dict>
+		<key>ConfigPath</key>
+		<string>facelift/configuration.plist</string>
+		<!-- 整体滑竿 -->
+		<key>Whole</key>
+		<real>0.4</real>
+		<!-- 瘦脸 -->
+		<key>Slim</key>
+		<real>0.4</real>
+		<!-- 大眼 -->
+		<key>Eye</key>
+		<real>0.4</real>
+		<!-- 鼻翼 -->
+		<key>Nose</key>
+		<real>0.4</real>
+		<!-- 缩头默认 -->
+		<key>HeadScale</key>
+		<real>0.3</real>
+		<!-- 缩头最大值 -->
+		<key>HeadScaleMax</key>
+		<real>1.5</real>
+		<!-- 长鼻 -->
+		<!-- <key>NoseLonger</key>
+		<real>0.1</real> -->
+		<!-- 下巴 -->
+		<!-- <key>Chin</key>
+		<real>0</real> -->
+		<!-- 嘴型 -->
+		<!-- <key>Mouth</key>
+		<real>0.0</real> -->
+	</dict>
+
+	<!-- 美颜 -->
+	<key>Beauty</key>
+	<dict>
+		<key>ConfigPath</key>
+		<string>beauty/configuration.plist</string>
+		<!-- 美颜默认值 -->
+		<key>BeautyDegree</key>
+		<array>
+			<!-- 肤色 -->
+			<dict>
+				<key>Name</key>
+				<string>FaceColor</string>
+	            <key>Degree</key>
+	            <real>0.0</real>
+				<key>Switch</key>
+				<string>1</string>
+			</dict>
+			<!-- 磨皮 -->
+			<dict>
+				<key>Name</key>
+				<string>Smooth</string>
+	            <key>Degree</key>
+	            <real>0.65</real>
+	            <key>Switch</key>
+				<string>1</string>
+			</dict>
+			<!-- 锐化 -->
+			<dict>
+				<key>Name</key>
+				<string>Sharpen</string>
+	            <key>Degree</key>
+	            <real>0.5</real>
+	            <key>Switch</key>
+				<string>1</string>
+			</dict>
+			<!-- 白牙 -->
+			<dict>
+				<key>Name</key>
+				<string>WhiteTeeth</string>
+	            <key>Degree</key>
+	            <real>0.5</real>
+	            <key>Switch</key>
+				<string>1</string>
+			</dict>
+			<!-- 亮眼 -->
+			<dict>
+				<key>Name</key>
+				<string>BrightEye</string>
+	            <key>Degree</key>
+	            <real>0.3</real>
+	            <key>Switch</key>
+				<string>1</string>
+			</dict>
+			<!-- 立体/阴影/高光 -->
+			<dict>
+				<key>Name</key>
+				<string>ShadowLight</string>
+	            <key>Degree</key>
+	            <real>0.25</real>
+	            <key>Switch</key>
+				<string>1</string>
+			</dict>
+			<!-- 祛黑眼圈 旧-->
+			<dict>
+				<key>Name</key>
+				<string>RemovePouch</string>
+	            <key>Degree</key>
+	            <real>0.8</real>
+	            <key>Switch</key>
+				<string>1</string>
+			</dict>
+			<!-- 去法令纹 -->
+			<dict>
+				<key>Name</key>
+				<string>LaughLine</string>
+	            <key>Degree</key>
+	            <real>0.7</real>
+	            <key>Switch</key>
+				<string>1</string>
+			</dict>
+			<!-- 祛斑祛痘（拍后）; -->
+			<dict>
+				<key>Name</key>
+				<string>FleckFlaw</string>
+	            <key>Switch</key>
+				<string>0</string>
+				<!-- 是否需要斑痘检测 -->
+				<key>NeedFleckFlawMaskDetect</key>
+				<string>1</string>
+			</dict>
+			<!-- 预览祛斑祛痘（预览） -->
+			<dict>
+				<key>Name</key>
+				<string>AcneClean</string>
+	            <key>Degree</key>
+	            <real>1.0</real>
+	            <key>Switch</key>
+				<string>0</string>
+			</dict>
+			
+			<!-- 以下不常用 -->
+
+			<!-- 自动对比度 -->
+			<!-- <dict>
+				<key>Name</key>
+				<string>AutoContrast</string>
+	            <key>Degree</key>
+	            <real>0.0</real>
+	            <key>Switch</key>
+				<string>0</string>
+			</dict> -->
+
+			<!-- 阴影调色 -->
+	<!-- 		<dict>
+				<key>Name</key>
+				<string>ShadowColor</string>
+	            <key>Degree</key>
+	            <real>0.0</real>
+	            <key>Switch</key>
+				<string>0</string>
+			</dict> -->
+			<!-- 高光调色 -->
+	<!-- 		<dict>
+				<key>Name</key>
+				<string>HighlightColor</string>
+	            <key>Degree</key>
+	            <real>0.0</real>
+	            <key>Switch</key>
+				<string>0</string>
+			</dict> -->
+
+			<!-- 噪点 -->
+<!-- 			<dict>
+				<key>Name</key>
+				<string>Noise</string>
+	            <key>Degree</key>
+	            <real>0.0</real>
+	            <key>Switch</key>
+				<string>0</string>
+			</dict> -->
+			<!-- 氛围 -->
+<!-- 			<dict>
+				<key>Name</key>
+				<string>Ambiance</string>
+	            <key>Degree</key>
+	            <real>0.0</real>
+	            <key>Switch</key>
+				<string>0</string>
+			</dict> -->
+			<!-- 饱和度 -->
+<!-- 			<dict>
+				<key>Name</key>
+				<string>Saturation</string>
+	            <key>Degree</key>
+	            <real>0.0</real>
+	            <key>Switch</key>
+				<string>0</string>
+			</dict> -->
+		</array>
+	</dict>
+
+
+</dict>
+</plist>

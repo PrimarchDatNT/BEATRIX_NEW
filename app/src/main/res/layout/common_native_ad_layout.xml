@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/native_outer_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent">
+    <TextView
+        android:id="@id/sponsored_view"
+        android:layout_width="wrap_content"
+        android:layout_height="48.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingLeft="12.0dip"
+        android:paddingRight="12.0dip"
+        android:shadowColor="#ff000000"
+        android:shadowDx="0.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="3.0"
+        android:text="@string/brand_sponsored_text"
+        android:textColor="#fff3f3f3"
+        android:textSize="12.0sp" />
+    <RelativeLayout
+        android:id="@id/rl_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="48.0dip">
+        <com.sdk.imp.GifImageView
+            android:id="@id/native_main_image"
+            android:layout_width="fill_parent"
+            android:layout_height="202.0dip"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY" />
+        <ImageView
+            android:id="@id/native_icon_image"
+            android:layout_width="74.0dip"
+            android:layout_height="74.0dip"
+            android:layout_below="@id/native_main_image"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30.0dip"
+            android:scaleType="fitXY"
+            android:visibility="visible" />
+        <com.sdk.imp.AutoResizeTextView
+            android:id="@id/native_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/native_icon_image"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="18.0dip"
+            android:layout_marginRight="20.0dip"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:gravity="center"
+            android:maxLines="2"
+            android:textColor="@android:color/white"
+            android:textSize="25.0sp" />
+        <com.sdk.imp.AutoResizeTextView
+            android:id="@id/native_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/native_title"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="18.0dip"
+            android:layout_marginRight="20.0dip"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:gravity="center"
+            android:maxLines="2"
+            android:textColor="@android:color/white"
+            android:textSize="20.0sp" />
+        <Button
+            android:id="@id/native_cta"
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_marginBottom="40.0dip"
+            android:background="@drawable/btnstyle"
+            android:clickable="true"
+            android:paddingLeft="8.0dip"
+            android:paddingTop="4.0dip"
+            android:paddingRight="8.0dip"
+            android:paddingBottom="4.0dip"
+            android:text="Learning More"
+            android:textColor="#ffffffff"
+            android:textSize="14.0sp" />
+    </RelativeLayout>
+</RelativeLayout>

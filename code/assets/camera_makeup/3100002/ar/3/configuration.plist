@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Default</string>
+			<key>FacePart</key>
+			<array>
+				<dict>
+					<key>Type</key>
+					<string>S</string>
+					<key>Path</key>
+					<string>zc.png</string>
+					<key>LocateMethod</key>
+					<string>2</string>
+					<key>FilterType</key>
+					<string>4</string>
+					<key>Rectangle</key>
+					<string>350,801,309,129</string>
+					<key>ORGBA</key>
+					<string>100,0,0,0,255</string>
+					<key>MUType</key>
+					<string>1</string>
+					<key>Operation</key>
+					<string>7</string>
+					<key>Gender</key>
+					<string>F</string>
+					<key>CustomName</key>
+					<string>MUFACE_MOUTH</string>
+				</dict>
+				<dict>
+					<key>Type</key>
+					<string>S</string>
+					<key>Path</key>
+					<string>zc.png</string>
+					<key>LocateMethod</key>
+					<string>2</string>
+					<key>FilterType</key>
+					<string>4</string>
+					<key>Rectangle</key>
+					<string>354,803,309,129</string>
+					<key>ORGBA</key>
+					<string>50,0,0,0,255</string>
+					<key>MUType</key>
+					<string>1</string>
+					<key>Operation</key>
+					<string>7</string>
+					<key>Gender</key>
+					<string>M</string>
+					<key>CustomName</key>
+					<string>MUFACE_MOUTH</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</plist>

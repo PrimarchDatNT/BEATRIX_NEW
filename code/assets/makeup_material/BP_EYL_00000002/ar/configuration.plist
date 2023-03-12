@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>lashe3</string>
+			<key>FacePart</key>
+			<array>
+
+
+			<dict>
+					<key>Type</key>
+					<string>S</string>
+					<key>Path</key>
+					<string>jmz.png</string>
+					<key>LocateMethod</key>
+					<string>38</string>
+					<key>LockSource</key>
+					<string>0</string>
+					<key>FilterType</key>
+					<string>3</string>
+					<key>Rectangle</key>
+					<string>260,484,162,146</string>
+					<key>ORGBA</key>
+					<string>80,78,30,28,255</string>
+					<key>MUType</key>
+					<string>3</string>
+					<key>Operation</key>
+					<string>14</string>
+			<!-- 睫毛 -->
+<key>MakeupCustomName</key>
+<string>MUFACE_EYELASH</string>
+
+				</dict>
+				<dict>
+					<key>Type</key>
+					<string>S</string>
+					<key>Path</key>
+					<string>jmy.png</string>
+					<key>LocateMethod</key>
+					<string>39</string>
+					<key>LockSource</key>
+					<string>0</string>
+					<key>FilterType</key>
+					<string>3</string>
+					<key>Rectangle</key>
+					<string>592,478,161,142</string>
+					<key>ORGBA</key>
+					<string>80,78,30,28,255</string>
+					<key>MUType</key>
+					<string>3</string>
+					<key>Operation</key>
+					<string>15</string>
+				<!-- 睫毛 -->
+<key>MakeupCustomName</key>
+<string>MUFACE_EYELASH</string>
+
+				</dict>
+				<dict>
+					<key>Type</key>
+					<string>S</string>
+					<key>Path</key>
+					<string>jmz 2.png</string>
+					<key>LocateMethod</key>
+					<string>38</string>
+					<key>LockSource</key>
+					<string>0</string>
+					<key>FilterType</key>
+					<string>3</string>
+					<key>Rectangle</key>
+					<string>262,552,145,72</string>
+					<key>ORGBA</key>
+					<string>65,78,30,28,255</string>
+					<key>MUType</key>
+					<string>3</string>
+					<key>Operation</key>
+					<string>14</string>
+				<!-- 睫毛 -->
+<key>MakeupCustomName</key>
+<string>MUFACE_EYELASH</string>
+
+				</dict>
+				<dict>
+					<key>Type</key>
+					<string>S</string>
+					<key>Path</key>
+					<string>jmy 2.png</string>
+					<key>LocateMethod</key>
+					<string>39</string>
+					<key>LockSource</key>
+					<string>0</string>
+					<key>FilterType</key>
+					<string>3</string>
+					<key>Rectangle</key>
+					<string>607,547,141,73</string>
+					<key>ORGBA</key>
+					<string>65,78,30,28,255</string>
+					<key>MUType</key>
+					<string>3</string>
+					<key>Operation</key>
+					<string>15</string>
+				<!-- 睫毛 -->
+<key>MakeupCustomName</key>
+<string>MUFACE_EYELASH</string>
+
+				</dict>
+
+
+			</array>
+		</dict>
+	</array>
+</plist>

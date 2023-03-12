@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/item_language_0" android:layout_width="fill_parent" android:layout_height="70.0dip" style="@style/selectable_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="70.0dip">
+        <com.commsource.widget.BoldTextView android:textSize="16.0dip" android:textColor="@color/Gray_A" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/Gray_B" android:id="@id/tv_second_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="6.0dip" android:layout_below="@id/tv_name" />
+    </RelativeLayout>
+    <com.commsource.widget.IconFrontView android:textSize="24.0dip" android:textColor="@color/Primary_A" android:gravity="center" android:layout_gravity="end|center" android:id="@id/ifv_select" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="19.0dip" android:text="@string/if_look_select" />
+    <View android:layout_gravity="bottom" android:background="@color/Gray_Dashline" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" />
+</FrameLayout>

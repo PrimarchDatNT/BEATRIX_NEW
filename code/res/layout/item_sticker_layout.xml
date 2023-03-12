@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/flRoot" android:tag="layout/item_sticker_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/ivThumb" android:layout_width="45.0dip" android:layout_height="45.0dip" />
+    <ImageView android:layout_gravity="right" android:id="@id/ivPayMark" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/common_corner_premium_white" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/ivDownload" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/common_download_icon_border_white" android:scaleType="fitCenter" />
+    <ImageView android:layout_gravity="bottom" android:id="@id/ivColorRing" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="1.0dip" android:layout_marginBottom="1.0dip" android:src="@drawable/edit_color_ring_icon" />
+    <com.commsource.widget.RotateLoadingView android:layout_gravity="bottom|center|right" android:id="@id/rlv" android:background="@drawable/common_loading_white_rotate_icon" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_margin="1.75dip" />
+</FrameLayout>

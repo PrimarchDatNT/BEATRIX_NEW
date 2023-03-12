@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="120.0dip"
+    android:layout_gravity="bottom"
+    android:tag="layout/fragment_look_suspend_0">
+    <RelativeLayout
+        android:id="@id/rl_look"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clipChildren="false"
+        android:paddingBottom="12.0dip">
+        <com.commsource.beautyplus.miniapp.XSegmentButtonGroup
+            android:id="@id/xsbg"
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15.0dip"
+            android:orientation="horizontal"
+            app:seg_background_color="@color/transparent"
+            app:seg_indicator_color="@color/transparent"
+            app:seg_indicator_shadow_enable="false">
+            <ImageView
+                android:id="@id/cb_markup"
+                android:layout_width="30.0dip"
+                android:layout_height="30.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5.0dip"
+                android:gravity="center"
+                android:src="@drawable/selfie_makeup" />
+            <ImageView
+                android:id="@id/cb_beauty"
+                android:layout_width="30.0dip"
+                android:layout_height="30.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="5.0dip"
+                android:gravity="center"
+                android:src="@drawable/selfie_ar_icon_beauty_pressed" />
+        </com.commsource.beautyplus.miniapp.XSegmentButtonGroup>
+        <com.commsource.widget.XSeekBar
+            android:id="@id/xsb"
+            android:layout_width="fill_parent"
+            android:layout_height="35.0dip"
+            android:layout_alignTop="@id/xsbg"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="9.0dip"
+            android:layout_marginRight="36.0dip"
+            android:layout_toRightOf="@id/xsbg"
+            app:isEnableStroke="true"
+            app:isEnableThumbIndicator="true" />
+        <com.commsource.widget.part.XSeekCameraTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/xsb"
+            android:layout_alignLeft="@id/xsb"
+            android:layout_marginBottom="-8.0dip"
+            android:tag="binding_1"
+            android:textSize="28.0dip" />
+        <com.commsource.comic.widget.StrokeTextView
+            android:id="@id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dip"
+            android:layout_above="@id/xsb"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-5.0dip"
+            android:alpha="0.0"
+            android:textColor="@color/white"
+            android:textSize="16.0dip" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,91 @@
+[{
+    "name": "English",
+    "ended_at": null,
+    "m_id": "BP_cat_FON_0003",
+    "beautyplus_font": [{
+        "name": "Silence Rocken",
+        "icon": "file:///android_asset/artext/text_font/BP_FON_00000004/thumbnail.png",
+        "paid_type": 0,
+        "ended_at": null,
+        "is_new": 0,
+        "is_new_time": null,
+        "download_type": 3,
+        "m_id": "BP_FON_00000004",
+        "file": {
+            "file_size": 86004,
+            "url": "https:\/\/gcs.beautyplus.com\/2a61023c9f87c1b4b6b21def5df271a9.ttf",
+            "m_id": "1FON00000068"
+        }
+    }, {
+        "name": "1FON00000101",
+        "icon": "file:///android_asset/artext/text_font/BP_FON_00000003/thumbnail.png",
+        "paid_type": 0,
+        "ended_at": null,
+        "is_new": 0,
+        "is_new_time": null,
+        "download_type": 3,
+        "m_id": "BP_FON_00000003",
+        "file": {
+            "file_size": 64952,
+            "url": "https:\/\/gcs.beautyplus.com\/f989f899fd3713e5b20a7bf7743a9a83.ttf",
+            "m_id": "1FON00000067"
+        }
+    }]
+}, {
+    "name": "Japanese",
+    "ended_at": null,
+    "m_id": "BP_cat_FON_0004",
+    "beautyplus_font": [{
+        "name": "Motoya St Aporo Family",
+        "icon": "file:///android_asset/artext/text_font/BP_FON_00000006/thumbnail.png",
+        "paid_type": 0,
+        "ended_at": null,
+        "is_new": 0,
+        "is_new_time": null,
+        "download_type": 1,
+        "m_id": "BP_FON_00000006",
+        "file": {
+            "file_size": 3756004,
+            "url": "https:\/\/gcs.beautyplus.com\/fe2d5c7a529e7f7a837d6e718d0b0635.otf",
+            "m_id": "1FON00000070"
+        }
+    }]
+}, {
+    "name": "Korean",
+    "ended_at": null,
+    "m_id": "BP_cat_FON_0005",
+    "beautyplus_font": [{
+        "name": "Cre ChocoCookie",
+        "icon": "file:///android_asset/artext/text_font/BP_FON_00000005/thumbnail.png",
+        "paid_type": 0,
+        "ended_at": null,
+        "is_new": 0,
+        "is_new_time": null,
+        "download_type": 3,
+        "m_id": "BP_FON_00000005",
+        "file": {
+            "file_size": 1390464,
+            "url": "https:\/\/gcs.beautyplus.com\/d1f15bf339a09d5cfae2fe8a44c9037a.ttf",
+            "m_id": "1FON00000069"
+        }
+    }]
+}, {
+    "name": "Thai",
+    "ended_at": null,
+    "m_id": "BP_cat_FON_0006",
+    "beautyplus_font": [{
+        "name": "Neue Frutiger\u00ae Thai Family",
+        "icon": "file:///android_asset/artext/text_font/BP_FON_00000007/thumbnail.png",
+        "paid_type": 0,
+        "ended_at": null,
+        "is_new": 0,
+        "is_new_time": null,
+        "download_type": 1,
+        "m_id": "BP_FON_00000007",
+        "file": {
+            "file_size": 76800,
+            "url": "https:\/\/gcs.beautyplus.com\/561160b5abd1de07600c0b4b2e380fc5.ttf",
+            "m_id": "1FON00000071"
+        }
+    }]
+}]

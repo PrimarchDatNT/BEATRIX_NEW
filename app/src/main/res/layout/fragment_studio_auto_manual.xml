@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/fragment_studio_auto_manual_0">
+    <com.commsource.studio.MagnifyComponent
+        android:id="@id/manify"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:tag="binding_1" />
+    <FrameLayout
+        android:id="@id/fl_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingTop="14.0dip"
+        android:tag="binding_2">
+        <com.commsource.studio.component.AutoManualPanelComponent
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="50.0dip"
+            android:tag="binding_3">
+            <com.meitu.ratiorelativelayout.RatioRelativeLayout
+                android:id="@id/rl_manual"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <com.commsource.studio.component.PaintEraserComponent
+                    android:id="@id/paintEraser"
+                    android:layout_width="fill_parent"
+                    android:layout_height="42.0dip"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="30.0dip"
+                    android:tag="binding_4" />
+            </com.meitu.ratiorelativelayout.RatioRelativeLayout>
+        </com.commsource.studio.component.AutoManualPanelComponent>
+        <com.commsource.studio.component.AutoManualPanelComponent
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50.0dip"
+            android:tag="binding_5">
+            <com.meitu.ratiorelativelayout.RatioRelativeLayout
+                android:id="@id/rl_auto"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <com.commsource.widget.XSeekBar
+                    android:id="@id/xsb_auto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="35.0dip"
+                    android:layout_marginRight="35.0dip"
+                    android:visibility="visible"
+                    app:isEnableStroke="false"
+                    app:xBackgroundColor="@color/color_e5e5e5"
+                    app:xProgressColor="@color/black" />
+            </com.meitu.ratiorelativelayout.RatioRelativeLayout>
+        </com.commsource.studio.component.AutoManualPanelComponent>
+        <com.commsource.studio.component.ConfirmCancelComponent
+            android:id="@id/confirm_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            android:outlineProvider="none"
+            android:tag="binding_6" />
+    </FrameLayout>
+    <com.commsource.studio.component.UndoRedoComponent
+        android:id="@id/undoRedo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fl_bottom"
+        android:layout_marginBottom="-14.0dip"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="14.0dip"
+        android:tag="binding_7"
+        android:visibility="gone" />
+    <com.commsource.studio.component.AutoManualComponent
+        android:id="@id/autoManual"
+        android:layout_width="74.0dip"
+        android:layout_height="30.0dip"
+        android:layout_above="@id/fl_bottom"
+        android:layout_centerHorizontal="true"
+        android:tag="binding_8" />
+    <com.commsource.studio.component.PreviewComponent
+        android:id="@id/preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fl_bottom"
+        android:layout_marginBottom="-14.0dip"
+        android:layout_toLeftOf="@id/contrast"
+        android:paddingLeft="14.0dip"
+        android:paddingTop="14.0dip"
+        android:paddingBottom="14.0dip"
+        android:tag="binding_9" />
+    <com.commsource.studio.component.ContrastComponent
+        android:id="@id/contrast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fl_bottom"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="-14.0dip"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="14.0dip"
+        android:tag="binding_10" />
+    <com.commsource.widget.part.XSeekBubbleView
+        android:id="@id/xbv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fl_bottom"
+        android:layout_marginLeft="35.0dip"
+        android:layout_marginBottom="-14.0dip"
+        android:tag="binding_11" />
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

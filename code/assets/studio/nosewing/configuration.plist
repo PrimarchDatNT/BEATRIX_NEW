@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>瘦鼻</string>
+			<key>FacePart</key>
+			<array>
+				<dict>
+					<key>Type</key>
+					<string>FaceliftV2</string>
+					<key>MaskPath</key>
+					<array>
+						<dict>
+							<key>Path</key>
+							<string>0_1_140659888765872.png</string>
+							<key>Rectangle</key>
+							<string>113,126,57,50;</string>
+							<key>GenerateType</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+					<key>Configure</key>
+					<array>
+						<dict>
+							<key>MaskIndex</key>
+							<integer>0</integer>
+                            <key>LiftControlType</key>
+                            <integer>22</integer>
+                            <key>ControlRange</key>
+                            <string>0.0,1.0</string>
+                            <key>ValueRange</key>
+                            <string>0.0,1.0</string>
+						</dict>
+					</array>
+					<key>FaceliftInfo</key>
+					<array>
+						<dict>
+							<key>GnerateType</key>
+							<integer>0</integer>
+							<key>Name</key>
+							<string>新建分类1</string>
+							<key>FacemeshType</key>
+							<integer>2104</integer>
+							<key>FacemeshParameters</key>
+							<string>0.39</string>
+							<key>Gender</key>
+							<integer>3</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</plist>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout android:id="@id/rootContainer" android:tag="layout/item_home_small_banner_0" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_widthSpec="375.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.meitu.ratiorelativelayout.RatioRelativeLayout android:id="@id/contentBg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" app:adaptType="fitX" app:layout_widthSpec="339.0">
+        <ImageView android:id="@id/ivBg" android:background="@drawable/r12_white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:id="@id/ivDefaultIcon" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.commsource.widget.CircleImageView android:id="@id/ivContent" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:round_radius="6.0dip" />
+        <ImageView android:id="@id/ivAdBg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:layout_ratioMarginLeft="22.5" app:layout_ratioMarginRight="22.5" />
+    </com.meitu.ratiorelativelayout.RatioRelativeLayout>
+    <com.meitu.hwbusinesskit.core.widget.NativeAdView android:id="@id/nativeAdView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" app:mthwb_advertLayout="@layout/layout_album_advert" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/ivAdIcon" android:background="@drawable/r12_r24_black" android:layout_width="wrap_content" android:layout_height="15.0dip" android:scaleType="centerCrop" android:text="AD" android:drawablePadding="3.0dip" android:layout_alignLeft="@id/contentBg" android:layout_alignTop="@id/contentBg" android:drawableEnd="@drawable/home_ad_arrow_icon" android:paddingStart="7.5dip" android:paddingEnd="12.0dip" />
+    <View android:id="@id/ivMask" android:background="@drawable/ripple_radius_6" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_ratioMarginLeft="20.0" app:layout_ratioMarginRight="20.0" />
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:tag="layout/item_share_option_0">
+    <com.commsource.widget.IconFrontView
+        android:id="@id/ifv_option"
+        android:layout_width="50.0dip"
+        android:layout_height="50.0dip"
+        android:gravity="center"
+        android:tag="binding_1"
+        android:textColor="@color/Gray_A"
+        android:textSize="32.0dip" />
+    <com.commsource.widget.AutoFitTextView
+        android:id="@id/tv_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:maxLines="2"
+        android:textColor="@color/Gray_A"
+        android:textSize="12.0dip" />
+</LinearLayout>

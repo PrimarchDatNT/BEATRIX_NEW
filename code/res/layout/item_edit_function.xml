@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/item_edit_function_0" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="70.0dip" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/iv_fg" android:background="@drawable/easy_editor_10_stroke" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:padding="0.5dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/iv_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.commsource.widget.IconFrontView android:textSize="30.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ifv_effect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        <com.commsource.widget.DoubleLayerImageView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/iv_effect" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="8.0dip" />
+        <com.commsource.widget.SingleLineTextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_name" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="14.0dip" android:layout_marginTop="39.0dip" android:text="None" android:maxLines="1" />
+        <View android:layout_gravity="bottom|center" android:id="@id/v_point" android:background="@drawable/red_point_f95485" android:visibility="gone" android:layout_width="3.0dip" android:layout_height="3.0dip" android:layout_marginBottom="6.0dip" />
+    </FrameLayout>
+</FrameLayout>

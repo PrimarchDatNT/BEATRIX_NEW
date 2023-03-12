@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/fl_montage_material_top"
+    android:layout_width="fill_parent"
+    android:layout_height="54.0dip"
+    android:tag="layout/cover_montage_material_top_bar_0"
+    android:visibility="visible">
+    <com.commsource.studio.component.SaveBtnComponent
+        android:id="@id/sbc"
+        android:layout_width="wrap_content"
+        android:layout_height="30.0dip"
+        android:layout_gravity="end"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginBottom="12.0dip" />
+    <com.commsource.widget.IconFrontView
+        android:id="@id/ifv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="54.0dip"
+        android:gravity="center"
+        android:paddingLeft="20.0dip"
+        android:paddingRight="15.0dip"
+        android:text="@string/selfie_top_icon_back"
+        android:textColor="@color/black"
+        android:textSize="35.0dip"
+        app:show_stroke="false"
+        app:stroke_color="@color/color_4d000000"
+        app:usePressState="true" />
+</FrameLayout>

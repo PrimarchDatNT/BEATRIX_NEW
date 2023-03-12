@@ -1,0 +1,66 @@
+[
+    {
+        "name": "基础",
+        "ended_at": null,
+        "m_id": "BP_cat_BRU_0003",
+        "beautyplus_brush": [
+            {
+                "name": "BP_BRU_00000005",
+                "icon": "file:///android_asset/studio/doodle/BP_BRU_00000005/thumbnail.png",
+                "is_hot": 1,
+                "paid_type": 0,
+                "ended_at": null,
+                "is_new": 0,
+                "is_new_time": null,
+                "download_type": 1,
+                "old_id": "400001",
+                "is_color_switch": 1,
+                "is_list_display": 1,
+                "m_id": "BP_BRU_00000005",
+                "file": {
+                    "file_size": 0,
+                    "url": "",
+                    "m_id": ""
+                }
+            },
+            {
+                "name": "BP_BRU_00000006",
+                "icon": "file:///android_asset/studio/doodle/BP_BRU_00000006/thumbnail.png",
+                "is_hot": 1,
+                "paid_type": 0,
+                "ended_at": null,
+                "is_new": 0,
+                "is_new_time": null,
+                "download_type": 1,
+                "old_id": "400002",
+                "is_color_switch": 1,
+                "is_list_display": 1,
+                "m_id": "BP_BRU_00000006",
+                "file": {
+                    "file_size": 0,
+                    "url": "",
+                    "m_id": ""
+                }
+            },
+            {
+                "name": "BP_BRU_00000007",
+                "icon": "file:///android_asset/studio/doodle/BP_BRU_00000007/thumbnail.png",
+                "is_hot": 1,
+                "paid_type": 0,
+                "ended_at": null,
+                "is_new": 0,
+                "is_new_time": null,
+                "download_type": 1,
+                "old_id": "400003",
+                "is_color_switch": 1,
+                "is_list_display": 1,
+                "m_id": "BP_BRU_00000007",
+                "file": {
+                    "file_size": 0,
+                    "url": "",
+                    "m_id": ""
+                }
+            }
+        ]
+    }
+]

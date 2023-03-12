@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<devices>
+
+    <device
+        name="GT-S7562"
+        FCNNF="false"
+        OFD="false" />
+
+    <device
+        name="M030"
+        FCNNF="false"
+        HC="false" />
+
+    <device
+        name="M032"
+        FCNNF="false"
+        HC="false" />
+
+    <device
+        name="AMOI N807"
+        IFE="false" />
+
+    <device
+        name="LG-P990"
+        BCPF="3" />
+
+    <device
+        name="HTC Incredible S"
+        FCPF="1" />
+
+    <device
+        name="MI 1SC"
+        FCPF="1" />
+
+    <device
+        name="MI 1S"
+        FCPF="1" />
+
+    <device
+        name="M040"
+        INRJ="true" />
+
+    <device
+        name="GT-I9100"
+        FCNNF="false" />
+
+    <device
+        name="LT22i"
+        FCNNF="false" />
+
+    <device
+        name="LT26ii"
+        FCNNF="false" />
+
+    <device
+        name="GT-N7000"
+        FCNNF="false" />
+
+    <device
+        name="GT-N7100"
+        FCNNF="false" />
+
+    <device
+        name="MT15i"
+        FCNNF="false" />
+
+    <device
+        name="Nexus S"
+        FCNNF="false" />
+
+    <device
+        name="Lenovo K860i"
+        FCNNF="false" />
+
+    <device
+        name="GT-I9300"
+        FCNNF="false" />
+
+</devices>

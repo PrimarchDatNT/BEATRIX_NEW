@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_root" android:tag="layout/item_home_banner_module_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/card" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="6.0dip" app:cardElevation="0.0dip">
+        <com.commsource.video.view.XVideoContainer android:id="@id/video_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.cardview.widget.CardView>
+    <ImageView android:id="@id/ivBanner" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:background="@drawable/ripple_radius_6" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

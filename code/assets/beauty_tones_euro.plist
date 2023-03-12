@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ID</key>
+		<integer>1</integer>
+		<key>TonesColor</key>
+		<string>#F2DCD0</string>
+		<key>TonesAlpha</key>
+        <integer>50</integer>
+		<key>StaticsID</key>
+		<string>S0001</string>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<integer>2</integer>
+		<key>TonesColor</key>
+		<string>#E9C4B3</string>
+		<key>TonesAlpha</key>
+        <integer>50</integer>
+		<key>StaticsID</key>
+		<string>S0002</string>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<integer>3</integer>
+		<key>TonesColor</key>
+		<string>#E2AE8C</string>
+		<key>TonesAlpha</key>
+        <integer>50</integer>
+		<key>StaticsID</key>
+		<string>S0003</string>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<integer>4</integer>
+		<key>TonesColor</key>
+		<string>#BB7F5E</string>
+		<key>TonesAlpha</key>
+        <integer>50</integer>
+		<key>StaticsID</key>
+		<string>S0004</string>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<integer>5</integer>
+		<key>TonesColor</key>
+		<string>#774B38</string>
+		<key>TonesAlpha</key>
+        <integer>40</integer>
+		<key>StaticsID</key>
+		<string>S0005</string>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<integer>6</integer>
+		<key>TonesColor</key>
+		<string>#41150C</string>
+		<key>TonesAlpha</key>
+        <integer>40</integer>
+		<key>StaticsID</key>
+		<string>S0006</string>
+	</dict>
+</array>
+</plist>

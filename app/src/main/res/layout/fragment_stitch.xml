@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Gray_Background"
+    android:tag="layout/fragment_stitch_0">
+    <com.commsource.puzzle.StitchComponent
+        android:id="@id/stitch_component"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:clipChildren="false"
+        android:orientation="vertical" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/rl_content" android:tag="layout/item_ar_function_0" android:layout_width="59.0dip" android:layout_height="59.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.commsource.widget.PressImageView android:id="@id/iv" android:layout_width="59.0dip" android:layout_height="59.0dip" android:src="@drawable/selfie_ar_icon_placeholder" android:layout_centerInParent="true" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/iv_right" android:visibility="gone" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginRight="5.5dip" android:layout_marginBottom="5.0dip" android:src="@drawable/selfie_ar_icon_jump" />
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/iv_right_top" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/common_corner_premium_white" />
+</FrameLayout>

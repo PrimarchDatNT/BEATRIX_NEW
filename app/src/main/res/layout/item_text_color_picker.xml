@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="28.0dip"
+    android:layout_height="28.0dip"
+    android:tag="layout/item_text_color_picker_0">
+    <com.commsource.studio.doodle.ColorItemView
+        android:id="@id/color_Item_view"
+        android:layout_width="28.0dip"
+        android:layout_height="28.0dip"
+        android:layout_gravity="center" />
+    <com.commsource.widget.IconFrontView
+        android:id="@id/ifv_preset"
+        android:layout_width="28.0dip"
+        android:layout_height="28.0dip"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:tag="binding_1"
+        android:text="@string/if_text_color_preset"
+        android:textColor="@color/color_333333"
+        android:textSize="17.0dip"
+        android:visibility="gone" />
+</FrameLayout>

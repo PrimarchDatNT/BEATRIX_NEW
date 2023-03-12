@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/fragment_eraser_0">
+    <com.commsource.studio.MagnifyComponent
+        android:id="@id/manify"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:tag="binding_1" />
+    <com.commsource.studio.component.UndoRedoComponent
+        android:id="@id/undoRedo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14.0dip"
+        android:layout_marginBottom="14.0dip"
+        android:tag="binding_2"
+        app:layout_constraintBottom_toTopOf="@id/fl_container"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <com.commsource.studio.component.ContrastComponent
+        android:id="@id/contrast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="14.0dip"
+        android:tag="binding_3"
+        app:layout_constraintBottom_toBottomOf="@id/undoRedo"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/undoRedo" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/fl_container"
+        android:layout_width="fill_parent"
+        android:layout_height="172.0dip"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <com.commsource.studio.component.PaintEraserComponent
+            android:id="@id/paintEraser"
+            android:layout_width="fill_parent"
+            android:layout_height="42.0dip"
+            android:layout_marginLeft="30.0dip"
+            android:layout_marginRight="30.0dip"
+            android:tag="binding_4"
+            app:icon_left_pen="@string/if_studio_eraser"
+            app:icon_right_pen="@string/if_history_paint"
+            app:layout_constraintBottom_toTopOf="@id/confirmCancelComponent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <com.commsource.studio.component.ConfirmCancelComponent
+            android:id="@id/confirmCancelComponent"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:tag="binding_5"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

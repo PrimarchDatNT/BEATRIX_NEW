@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@id/dialog_operate_fl"
+        android:layout_width="295.0dip"
+        android:layout_height="430.0dip"
+        android:layout_centerInParent="true"
+        android:background="@color/color_4f000000"
+        android:padding="0.0dip">
+        <com.commsource.beautyplus.web.BeautyPlusWebView
+            android:id="@id/dialog_operate_webview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <ProgressBar
+            android:id="@id/dialog_operate_progressbar"
+            style="?android:progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip"
+            android:layout_gravity="bottom" />
+    </FrameLayout>
+    <com.commsource.widget.PressImageView
+        android:id="@id/dialog_operate_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/dialog_operate_fl"
+        android:layout_alignRight="@id/dialog_operate_fl"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:src="@drawable/common_close_icon_white" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/rl_root" android:tag="layout/fragment_water_mark_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.commsource.widget.round.RoundFrameLayout android:id="@id/cl_blur_mode" android:clickable="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_alignParentBottom="true" android:elevation="8.0dip" app:rv_backgroundColor="@color/black70" app:rv_cornerRadius_TL="15.0dip" app:rv_cornerRadius_TR="15.0dip" app:rv_isRippleEnable="false">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/rv" android:layout_width="fill_parent" android:layout_height="110.0dip" android:layout_marginBottom="25.0dip" android:overScrollMode="never" />
+        <com.commsource.widget.IconFrontView android:textSize="35.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom" android:id="@id/ifv_close" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginBottom="10.0dip" android:text="@string/if_new_makeup_shrink" />
+    </com.commsource.widget.round.RoundFrameLayout>
+</RelativeLayout>

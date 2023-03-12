@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<integer>1001</integer>
+	<key>FilterPart</key>
+	<array>
+        <!-- 氛围配置 -->
+        <dict>
+            <key>Type</key>
+            <string>Ambiance</string>
+            <key>BlurSizeScale</key>
+            <string>5</string>
+            <key>IsBilateral</key>
+            <string>1</string>
+            <key>IsWithColorWeight</key>
+            <string>1</string>
+            <key>LevelBlack</key>
+            <string>15</string>
+            <key>LevelAlpha</key>
+            <string>1.0</string>
+            <key>AmbianceAlpha</key>
+            <string>0.7</string>
+            <key>SaturationAlpha</key>
+            <string>0.0</string>
+        </dict>
+		
+        
+	</array>
+</dict>
+</plist>

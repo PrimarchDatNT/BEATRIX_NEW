@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="64.0dip"
+    android:layout_height="80.0dip"
+    android:paddingTop="8.0dip"
+    android:tag="layout/item_studio_crop_select_0">
+    <com.commsource.widget.IconFrontView
+        android:id="@id/ifv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5.0dip"
+        android:textSize="30.0dip" />
+    <TextView
+        android:id="@id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="34.0dip"
+        android:gravity="center"
+        android:textSize="12.0dip" />
+</FrameLayout>

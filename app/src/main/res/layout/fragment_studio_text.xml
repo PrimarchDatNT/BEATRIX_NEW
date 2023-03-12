@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/fragment_studio_text_0">
+    <TextView
+        android:id="@id/new_template"
+        android:layout_width="wrap_content"
+        android:layout_height="30.0dip"
+        android:layout_above="@id/fl_bottom"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="109.0dip"
+        android:layout_marginBottom="15.0dip"
+        android:drawableLeft="@drawable/edit_text_add_icon"
+        android:drawablePadding="5.0dip"
+        android:gravity="center"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="15.0dip"
+        android:tag="binding_1"
+        android:text="@string/t_create"
+        android:textColor="@color/color_333333"
+        android:textSize="14.0dip" />
+    <FrameLayout
+        android:id="@id/fl_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="50.0dip"
+        android:clickable="true"
+        android:tag="binding_2">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <FrameLayout
+                android:id="@id/fl_tab"
+                android:layout_width="fill_parent"
+                android:layout_height="44.0dip"
+                app:layout_constraintTop_toTopOf="parent">
+                <com.commsource.studio.text.TextTabView
+                    android:id="@id/tabBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32.0dip"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="6.0dip"
+                    android:layout_marginBottom="6.0dip"
+                    android:tag="binding_3"
+                    app:icon_left="@string/if_text_tab_template"
+                    app:icon_right="@string/if_text_tab_font"
+                    app:text_left="@string/t_templates"
+                    app:text_right="@string/t_style" />
+                <View
+                    android:id="@id/divider"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0px"
+                    android:layout_gravity="bottom"
+                    android:background="@color/Gray_Dashline" />
+            </FrameLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/templatePanel"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_marginRight="10.0dip"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/fl_tab"
+                app:layout_constraintVertical_weight="1.0" />
+            <RelativeLayout
+                android:id="@id/fontPanel"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:orientation="vertical"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/fl_tab"
+                app:layout_constraintVertical_weight="1.0">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@id/attrBar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip" />
+                <FrameLayout
+                    android:id="@id/attr_line_divider"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0dip"
+                    android:layout_below="@id/attrBar"
+                    android:layout_gravity="bottom"
+                    android:background="@color/white">
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px"
+                        android:layout_gravity="bottom"
+                        android:background="@color/Gray_Dashline" />
+                    <com.commsource.widget.LineSelectView
+                        android:id="@id/lineSelect"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:tag="binding_4" />
+                </FrameLayout>
+                <com.commsource.camera.montage.CustomViewPager
+                    android:id="@id/style_page_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@id/attr_line_divider" />
+                <FrameLayout
+                    android:id="@id/bubble"
+                    android:layout_width="82.0dip"
+                    android:layout_height="82.0dip"
+                    android:layout_below="@id/attr_line_divider"
+                    android:visibility="invisible">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/common_slider_icon_segmented_bubble" />
+                    <TextView
+                        android:id="@id/bubbleProgress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="@color/color_333333"
+                        android:textSize="17.0dip" />
+                </FrameLayout>
+            </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <ImageView
+        android:id="@id/iv_blur_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.0"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

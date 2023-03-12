@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Unknown</string>
+		<key>ID</key>
+		<integer>3300004</integer>
+		<key>Action</key>
+		<integer>0</integer>
+		<key>Sound</key>
+		<integer>0</integer>
+		<key>SpecialFacelift</key>
+		<integer>0</integer>
+		<key>FacePart</key>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>S</string>
+				<key>LocateMethod</key>
+				<integer>2</integer>
+				<key>Path</key>
+				<string>g_sh8.png</string>
+				<key>ORGBA</key>
+				<string>100,255,120,228,185</string>
+				<key>Rectangle</key>
+				<string>76,478,859,420</string>
+				<key>FilterType</key>
+				<integer>3</integer>
+				<key>MUType</key>
+				<integer>4</integer>
+				<key>Operation</key>
+				<integer>0</integer>
+                <key>Gender</key>
+                <string>F</string>
+			</dict>
+            <dict>
+                <key>Type</key>
+                <string>S</string>
+                <key>LocateMethod</key>
+                <integer>2</integer>
+                <key>Path</key>
+                <string>g_sh8.png</string>
+                <key>ORGBA</key>
+                <string>70,255,120,228,185</string>
+                <key>Rectangle</key>
+                <string>76,478,859,420</string>
+                <key>FilterType</key>
+                <integer>3</integer>
+                <key>MUType</key>
+                <integer>4</integer>
+                <key>Operation</key>
+                <integer>0</integer>
+                <key>Gender</key>
+                <string>M</string>
+            </dict>
+		        </array>
+	</dict>
+</array>
+</plist>

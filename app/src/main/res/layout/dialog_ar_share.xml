@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/main_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_7f000000"
+    android:gravity="center"
+    android:tag="layout/dialog_ar_share_0"
+    app:layout_heightSpec="667.0"
+    app:layout_widthSpec="375.0">
+    <com.meitu.ratiorelativelayout.RatioRelativeLayout
+        android:id="@id/rl_root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40.0dip"
+        android:layout_marginRight="40.0dip"
+        android:background="@drawable/r8_ffffff"
+        app:layout_ratioHeight="465.0"
+        app:layout_ratioWidth="295.0">
+        <ImageView
+            android:id="@id/iv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="12.0dip"
+            android:src="@drawable/common_close_icon_gray" />
+        <ImageView
+            android:id="@id/iv_bg_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:maxWidth="300.0dip"
+            app:layout_ratioHeight="205.0"
+            app:layout_ratioMarginTop="37.0" />
+        <com.commsource.widget.AutoFitTextView
+            android:id="@id/tv_tips_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_bg_share"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:maxLines="3"
+            android:textColor="@color/black"
+            android:textSize="15.0dip"
+            android:textStyle="bold"
+            app:layout_ratioMarginLeft="46.0"
+            app:layout_ratioMarginRight="46.0"
+            app:layout_ratioMarginTop="30.0" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/rv_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            app:layout_ratioMarginBottom="35.0" />
+    </com.meitu.ratiorelativelayout.RatioRelativeLayout>
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

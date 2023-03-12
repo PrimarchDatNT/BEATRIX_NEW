@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meitu.webview.core.CommonWebView android:id="@id/web_ip_store" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/fl_ip_store_error" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center|right|top" android:id="@id/web_error_quit" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="65.0dip" android:layout_marginRight="30.0dip" android:src="@mipmap/ic_close_black" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/web_error_retry" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="44.0dip" android:layout_height="34.0dip" android:src="@mipmap/non_network" />
+            <TextView android:textSize="20.0dip" android:textColor="@color/network_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/network_error_title" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/network_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/network_error_desc" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_ip_store" android:background="@color/progress_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="bottom" android:id="@id/pb_ip_store" android:layout_width="fill_parent" android:layout_height="5.0dip" android:max="100" android:progress="0" android:progressDrawable="@drawable/shape_page_progressbar" style="?android:progressBarStyleHorizontal" />
+    </FrameLayout>
+</FrameLayout>

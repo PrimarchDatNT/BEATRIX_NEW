@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/item_home_ad_banner_module_0">
+    <com.commsource.widget.MTCardView
+        android:id="@id/rootContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="18.0dip"
+        android:layout_marginRight="18.0dip"
+        android:clipChildren="false"
+        app:cardCornerRadius="6.0dip"
+        app:cardElevation="0.0dip"
+        app:contentPadding="0.5dip">
+        <com.meitu.ratiorelativelayout.RatioRelativeLayout
+            android:id="@id/contentContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false">
+            <ImageView
+                android:id="@id/ivBg"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            <ImageView
+                android:id="@id/ivContent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop" />
+            <ImageView
+                android:id="@id/ivAdBg"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:visibility="gone" />
+            <com.meitu.hwbusinesskit.core.widget.NativeAdView
+                android:id="@id/nativeAdView"
+                android:layout_width="300.0dip"
+                android:layout_height="250.0dip"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                app:mthwb_advertLayout="@layout/layout_home_banner_ad" />
+            <View
+                android:id="@id/ivMask"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/ripple_radius_6" />
+        </com.meitu.ratiorelativelayout.RatioRelativeLayout>
+    </com.commsource.widget.MTCardView>
+    <TextView
+        android:id="@id/ivAdTopLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="15.0dip"
+        android:layout_alignLeft="@id/rootContainer"
+        android:layout_alignTop="@id/rootContainer"
+        android:drawablePadding="3.0dip"
+        android:gravity="center_vertical"
+        android:paddingStart="7.5dip"
+        android:paddingEnd="12.0dip"
+        android:scaleType="centerCrop"
+        android:tag="binding_1"
+        android:text="AD"
+        android:textColor="@color/white"
+        android:textSize="10.0dip" />
+    <TextView
+        android:id="@id/ivAdIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="15.0dip"
+        android:layout_alignLeft="@id/rootContainer"
+        android:layout_alignTop="@id/rootContainer"
+        android:layout_gravity="center|left|top"
+        android:drawableEnd="@drawable/home_ad_arrow_icon"
+        android:drawablePadding="3.0dip"
+        android:gravity="center_vertical"
+        android:paddingStart="7.5dip"
+        android:paddingEnd="15.0dip"
+        android:scaleType="centerCrop"
+        android:tag="binding_2"
+        android:text="AD"
+        android:textColor="@color/white"
+        android:textSize="10.0dip" />
+</RelativeLayout>

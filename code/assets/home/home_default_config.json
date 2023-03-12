@@ -1,0 +1,79 @@
+{
+  "logo_color": null,
+  "modules": [
+    {
+      "number": -2,
+      "title": "轮播图",
+      "carousel_list": [
+        {
+          "link_type": 2,
+          "number": 1,
+          "picture": "file:///android_asset/home/res/update_2_en_banner2.jpg",
+          "link_address": "beautyplus://meiyan?mode=Remodel"
+        }
+      ],
+      "type": 1
+    },
+    {
+      "m_type": 2,
+      "number": -3,
+      "title": "Lifestyle",
+      "style": 1,
+      "type": 2,
+      "material_list": [
+        {
+          "number": "1613",
+          "color": "E69E79",
+          "status": 1,
+          "title": "NA2",
+          "picture": "file:///android_asset/home/res/1613 NA2.jpg",
+          "is_paid": 0
+        },
+        {
+          "number": "885",
+          "color": "D6A8B5",
+          "status": 1,
+          "title": "Lilac",
+          "picture": "file:///android_asset/home/res/885 Lilac.jpg",
+          "is_paid": 0
+        },
+        {
+          "number": "1400",
+          "color": "77B7C6",
+          "status": 1,
+          "title": "Pure",
+          "picture": "file:///android_asset/home/res/1400 Pure.jpg",
+          "is_paid": 0
+        },
+        {
+          "number": "1303",
+          "color": "A59CBF",
+          "status": 1,
+          "title": "Bondi",
+          "picture": "file:///android_asset/home/res/1303 Bondi.jpg",
+          "is_paid": 0
+        },
+        {
+          "number": "161",
+          "color": "D6A8B5",
+          "status": 1,
+          "title": "Sapphire",
+          "picture": "file:///android_asset/home/res/161 Sapphire.jpg",
+          "is_paid": 0
+        },
+        {
+          "number": "1244",
+          "color": "E1B179",
+          "theme_number": "5017",
+          "status": 1,
+          "title": "Fruit",
+          "picture": "file:///android_asset/home/res/M1_Global_1244 Fruit.jpg",
+          "is_paid": 0,
+          "icon": "https://beautyplus-aws.meitudata.com/image/954b36008550394a04d9cc2c34bfdb89.jpg"
+        }
+      ]
+    }
+  ],
+  "background_color": null,
+  "logo": null
+}

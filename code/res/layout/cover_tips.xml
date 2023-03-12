@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/cover_tips_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_floating" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:alpha="0.0">
+        <com.commsource.widget.round.RoundFrameLayout android:id="@id/fl_color" android:visibility="gone" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginRight="2.0dip" android:layout_toLeftOf="@id/tv_floating" android:layout_centerVertical="true" app:rv_isRadiusHalfHeight="true" app:rv_isRippleEnable="false" app:rv_strokeColor="@color/white" app:rv_strokeWidth="1.0dip" />
+        <com.commsource.comic.widget.StrokeTextView android:textSize="22.0dip" android:textColor="@color/white" android:id="@id/tv_floating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <com.commsource.comic.widget.StrokeTextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/tv_floating_sub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tv_floating" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <com.commsource.comic.widget.StrokeTextView android:textSize="18.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center|top" android:id="@id/tv_tips" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:alpha="0.0" />
+</FrameLayout>

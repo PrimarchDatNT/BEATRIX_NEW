@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingTop="50.0dip"
+    android:tag="layout/fragment_new_makeup_0">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/rv_makeup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:paddingLeft="12.0dip"
+        android:paddingRight="9.0dip" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/rv_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:alpha="0.0"
+        android:clickable="true"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:visibility="gone" />
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@id/vp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:visibility="gone" />
+    <LinearLayout
+        android:id="@id/fl_makeup_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="40.0dip"
+        android:layout_gravity="bottom|center|right"
+        android:layout_marginRight="30.0dip"
+        android:orientation="vertical">
+        <com.commsource.widget.IconFrontView
+            android:id="@id/ifv_reset"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/if_new_makeup_reset"
+            android:textSize="24.0dip" />
+        <com.commsource.widget.AutoFitTextView
+            android:id="@id/tv_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:maxLines="1"
+            android:text="@string/edit_reset"
+            android:textSize="10.0dip" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@id/fl_makeup_shrink"
+        android:layout_width="wrap_content"
+        android:layout_height="40.0dip"
+        android:layout_gravity="bottom|center|left"
+        android:layout_marginLeft="30.0dip"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <com.commsource.widget.IconFrontView
+            android:id="@id/ifv_shrink"
+            android:layout_width="35.0dip"
+            android:layout_height="35.0dip"
+            android:layout_gravity="center"
+            android:text="@string/if_new_makeup_shrink"
+            android:textSize="35.0dip" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@id/fl_mask"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:visibility="gone">
+        <LinearLayout
+            android:id="@id/ll_text"
+            android:layout_width="fill_parent"
+            android:layout_height="70.0dip"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@id/tv_tips"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/look_ar_use_tips"
+                android:textColor="@color/color_333333"
+                android:textSize="15.0dip" />
+            <TextView
+                android:id="@id/tv_remove_ar"
+                style="@style/selectable_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5.0dip"
+                android:gravity="center"
+                android:paddingLeft="10.0dip"
+                android:paddingTop="3.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingBottom="3.0dip"
+                android:text="@string/tap_to_cancel_ar"
+                android:textColor="@color/Primary_A"
+                android:textSize="15.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

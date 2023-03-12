@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/rootContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:tag="layout/item_home_small_banner_0"
+    app:layout_widthSpec="375.0">
+    <com.meitu.ratiorelativelayout.RatioRelativeLayout
+        android:id="@id/contentBg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="18.0dip"
+        android:layout_marginEnd="18.0dip"
+        app:adaptType="fitX"
+        app:layout_widthSpec="339.0">
+        <ImageView
+            android:id="@id/ivBg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/r12_white" />
+        <View
+            android:id="@id/ivDefaultIcon"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:tag="binding_1" />
+        <com.commsource.widget.CircleImageView
+            android:id="@id/ivContent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clipChildren="false"
+            android:scaleType="centerCrop"
+            app:round_radius="6.0dip" />
+        <ImageView
+            android:id="@id/ivAdBg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            app:layout_ratioMarginLeft="22.5"
+            app:layout_ratioMarginRight="22.5" />
+    </com.meitu.ratiorelativelayout.RatioRelativeLayout>
+    <com.meitu.hwbusinesskit.core.widget.NativeAdView
+        android:id="@id/nativeAdView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:mthwb_advertLayout="@layout/layout_album_advert" />
+    <TextView
+        android:id="@id/ivAdIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="15.0dip"
+        android:layout_alignLeft="@id/contentBg"
+        android:layout_alignTop="@id/contentBg"
+        android:background="@drawable/r12_r24_black"
+        android:drawableEnd="@drawable/home_ad_arrow_icon"
+        android:drawablePadding="3.0dip"
+        android:gravity="center_vertical"
+        android:paddingStart="7.5dip"
+        android:paddingEnd="12.0dip"
+        android:scaleType="centerCrop"
+        android:text="AD"
+        android:textColor="@color/white"
+        android:textSize="10.0dip" />
+    <View
+        android:id="@id/ivMask"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/ripple_radius_6"
+        app:layout_ratioMarginLeft="20.0"
+        app:layout_ratioMarginRight="20.0" />
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

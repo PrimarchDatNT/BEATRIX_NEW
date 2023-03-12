@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:tag="layout/activity_ai_editor_0"
+    app:layout_heightSpec="1334.0">
+    <com.commsource.widget.PressImageView
+        android:id="@id/ai_editor_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/beauty_image_button_padding"
+        android:src="@drawable/arrow_back_circle_icon_black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_ratioMarginLeft="20.0"
+        app:layout_ratioMarginTop="20.0" />
+    <ImageView
+        android:id="@id/fun_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/edit_aibeauty_icon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ai_editor_back"
+        app:layout_ratioHeight="84.0"
+        app:layout_ratioMarginTop="74.0"
+        app:layout_ratioWidth="84.0" />
+    <com.commsource.widget.AutoFitTextView
+        android:id="@id/fun_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fun_logo"
+        android:layout_centerHorizontal="true"
+        android:maxLines="1"
+        android:text="@string/old_photo_restore_title"
+        android:textColor="@color/black"
+        app:layout_ratioMarginLeft="150.0"
+        app:layout_ratioMarginRight="150.0"
+        app:layout_ratioMarginTop="25.0"
+        app:layout_ratioTextSize="48.0" />
+    <TextView
+        android:id="@id/fun_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fun_title"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="3"
+        android:textColor="@color/color_969696"
+        app:layout_ratioMarginLeft="50.0"
+        app:layout_ratioMarginRight="50.0"
+        app:layout_ratioMarginTop="10.0"
+        app:layout_ratioTextSize="24.0" />
+    <com.commsource.aieditor.AiEditorEffectView
+        android:id="@id/ai_editor_effect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fun_description"
+        android:layout_centerHorizontal="true"
+        app:aspectRatio="1/1"
+        app:layout_ratioMarginLeft="30.0"
+        app:layout_ratioMarginRight="30.0"
+        app:layout_ratioMarginTop="50.0" />
+    <View
+        android:id="@id/v_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_e9e9e9"
+        app:layout_ratioMarginBottom="80.0" />
+    <View
+        android:id="@id/try_btn_shadow"
+        android:layout_width="120.0dip"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/ai_editor_effect"
+        android:layout_centerInParent="true"
+        android:background="@drawable/editor_aibeauty_shadow_icon"
+        app:layout_ratioHeight="80.0"
+        app:layout_ratioMarginBottom="30.0" />
+    <com.commsource.widget.PressTextView
+        android:id="@id/try_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ai_editor_effect"
+        android:layout_centerInParent="true"
+        android:background="@drawable/radius_20_fb5986"
+        android:gravity="center"
+        android:paddingLeft="25.0dip"
+        android:paddingRight="25.0dip"
+        android:text="@string/ai_editor_try_now"
+        android:textColor="@color/white"
+        android:textSize="16.0dip"
+        android:textStyle="bold"
+        app:layout_ratioHeight="93.0"
+        app:layout_ratioMarginBottom="80.0"
+        app:layout_ratioTextSize="32.0" />
+    <TextView
+        android:id="@id/ad_editor_time_limit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12.0dip"
+        android:drawableStart="@drawable/editor_aibeauty_timelimit_icon"
+        android:drawablePadding="6.0dip"
+        android:text="@string/ai_editor_time_limit"
+        android:textColor="@color/color_999999"
+        app:layout_ratioMarginBottom="24.0"
+        app:layout_ratioTextSize="24.0" />
+    <FrameLayout
+        android:id="@id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_below="@id/fun_description"
+        android:layout_centerHorizontal="true"
+        android:background="@color/color_ededed"
+        android:visibility="gone"
+        app:aspectRatio="1/1"
+        app:layout_ratioMarginLeft="30.0"
+        app:layout_ratioMarginRight="30.0"
+        app:layout_ratioMarginTop="50.0">
+        <TextView
+            android:id="@id/loading"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/ai_editor_loading"
+            android:textColor="@color/color_999999"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@id/iv_loading_image_error"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone" />
+        <LinearLayout
+            android:id="@id/no_network_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/setting_no_wifi_icon" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginEnd="20.0dip"
+                android:gravity="center"
+                android:text="@string/ai_editor_demo_network_error"
+                android:textColor="@color/color_999999"
+                android:textSize="13.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

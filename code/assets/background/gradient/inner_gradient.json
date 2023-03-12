@@ -1,0 +1,57 @@
+[{
+	"name": "000000011",
+	"icon": "file:///android_asset/background/gradient/BP_BGG_00000002/1.png",
+	"paid_type": 0,
+	"ended_at": null,
+	"is_new": 0,
+	"is_new_time": null,
+	"download_type": 1,
+	"m_id": "BP_BGG_00000002",
+	"file": {
+		"file_size": 236,
+		"url": "https:\/\/gcs.beautyplus.com\/36205f363d4d9d5d2205e1360094339e.json",
+		"m_id": "1BGG00000002"
+	}
+}, {
+	"name": "000000011",
+	"icon": "file:///android_asset/background/gradient/BP_BGG_00000003/1.png",
+	"paid_type": 0,
+	"ended_at": null,
+	"is_new": 0,
+	"is_new_time": null,
+	"download_type": 1,
+	"m_id": "BP_BGG_00000003",
+	"file": {
+		"file_size": 295,
+		"url": "https:\/\/gcs.beautyplus.com\/692d1422eab48c7cdf86d315bbf27adb.json",
+		"m_id": "1BGG00000003"
+	}
+}, {
+	"name": "000000020",
+	"icon": "file:///android_asset/background/gradient/BP_BGG_00000004/1.png",
+	"paid_type": 0,
+	"ended_at": null,
+	"is_new": 0,
+	"is_new_time": null,
+	"download_type": 1,
+	"m_id": "BP_BGG_00000004",
+	"file": {
+		"file_size": 196,
+		"url": "https:\/\/gcs.beautyplus.com\/8ea6c7c868803990e2ab4de8660e6be5.json",
+		"m_id": "1BGG00000004"
+	}
+}, {
+	"name": "000000021",
+	"icon": "file:///android_asset/background/gradient/BP_BGG_00000005/1.png",
+	"paid_type": 0,
+	"ended_at": null,
+	"is_new": 0,
+	"is_new_time": null,
+	"download_type": 1,
+	"m_id": "BP_BGG_00000005",
+	"file": {
+		"file_size": 223,
+		"url": "https:\/\/gcs.beautyplus.com\/eb28e7c234a8c9b7eaee4b9fa915570a.json",
+		"m_id": "1BGG00000005"
+	}
+}]

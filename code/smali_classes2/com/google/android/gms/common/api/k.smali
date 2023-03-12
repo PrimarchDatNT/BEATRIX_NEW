@@ -1,0 +1,162 @@
+.class public abstract Lcom/google/android/gms/common/api/k;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation build Lcom/google/android/gms/common/annotation/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/gms/common/api/k$a;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<R::",
+        "Lcom/google/android/gms/common/api/p;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public c(Lcom/google/android/gms/common/api/k$a;)V
+    .locals 0
+    .param p1    # Lcom/google/android/gms/common/api/k$a;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Lcom/google/android/gms/common/annotation/a;
+    .end annotation
+
+    .line 1
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+
+    throw p1
+.end method
+
+.method public abstract d()Lcom/google/android/gms/common/api/p;
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TR;"
+        }
+    .end annotation
+.end method
+
+.method public abstract e(JLjava/util/concurrent/TimeUnit;)Lcom/google/android/gms/common/api/p;
+    .param p3    # Ljava/util/concurrent/TimeUnit;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(J",
+            "Ljava/util/concurrent/TimeUnit;",
+            ")TR;"
+        }
+    .end annotation
+.end method
+
+.method public abstract f()V
+.end method
+
+.method public abstract g()Z
+.end method
+
+.method public abstract h(Lcom/google/android/gms/common/api/q;)V
+    .param p1    # Lcom/google/android/gms/common/api/q;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/google/android/gms/common/api/q<",
+            "-TR;>;)V"
+        }
+    .end annotation
+.end method
+
+.method public abstract i(Lcom/google/android/gms/common/api/q;JLjava/util/concurrent/TimeUnit;)V
+    .param p1    # Lcom/google/android/gms/common/api/q;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p4    # Ljava/util/concurrent/TimeUnit;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/google/android/gms/common/api/q<",
+            "-TR;>;J",
+            "Ljava/util/concurrent/TimeUnit;",
+            ")V"
+        }
+    .end annotation
+.end method
+
+.method public j(Lcom/google/android/gms/common/api/s;)Lcom/google/android/gms/common/api/t;
+    .locals 0
+    .param p1    # Lcom/google/android/gms/common/api/s;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<S::",
+            "Lcom/google/android/gms/common/api/p;",
+            ">(",
+            "Lcom/google/android/gms/common/api/s<",
+            "-TR;+TS;>;)",
+            "Lcom/google/android/gms/common/api/t<",
+            "TS;>;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+
+    throw p1
+.end method
+
+.method public k()Ljava/lang/Integer;
+    .locals 1
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+
+    .line 1
+    new-instance v0, Ljava/lang/UnsupportedOperationException;
+
+    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+
+    throw v0
+.end method

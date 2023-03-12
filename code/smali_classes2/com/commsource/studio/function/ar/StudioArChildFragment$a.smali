@@ -1,0 +1,252 @@
+.class final Lcom/commsource/studio/function/ar/StudioArChildFragment$a;
+.super Ljava/lang/Object;
+.source "StudioArChildFragment.kt"
+
+# interfaces
+.implements Landroidx/lifecycle/Observer;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/commsource/studio/function/ar/StudioArChildFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Landroidx/lifecycle/Observer<",
+        "Ljava/util/List<",
+        "Lcom/meitu/template/bean/ArMaterialGroup;",
+        ">;>;"
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/SourceDebugExtension;
+    value = "SMAP\nStudioArChildFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StudioArChildFragment.kt\ncom/commsource/studio/function/ar/StudioArChildFragment$onViewCreated$1\n*L\n1#1,127:1\n*E\n"
+.end annotation
+
+.annotation runtime Lkotlin/b0;
+    bv = {
+        0x1,
+        0x0,
+        0x3
+    }
+    d1 = {
+        "\u0000\u0018\n\u0002\u0010!\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010 \n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0010\u0006\u001a\u00020\u00052*\u0010\u0004\u001a&\u0012\u000c\u0012\n \u0002*\u0004\u0018\u00010\u00010\u0001 \u0002*\u0012\u0012\u000c\u0012\n \u0002*\u0004\u0018\u00010\u00010\u0001\u0018\u00010\u00030\u0000H\n\u00a2\u0006\u0004\u0008\u0006\u0010\u0007"
+    }
+    d2 = {
+        "",
+        "Lcom/meitu/template/bean/ArMaterialGroup;",
+        "kotlin.jvm.PlatformType",
+        "",
+        "it",
+        "Lkotlin/t1;",
+        "a",
+        "(Ljava/util/List;)V"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x1,
+        0xf
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/commsource/studio/function/ar/StudioArChildFragment;
+
+
+# direct methods
+.method constructor <init>(Lcom/commsource/studio/function/ar/StudioArChildFragment;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/commsource/studio/function/ar/StudioArChildFragment$a;->a:Lcom/commsource/studio/function/ar/StudioArChildFragment;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/util/List;)V
+    .locals 8
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lcom/meitu/template/bean/ArMaterialGroup;",
+            ">;)V"
+        }
+    .end annotation
+
+    const v0, 0x9bcc
+
+    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+
+    if-eqz p1, :cond_2
+
+    .line 1
+    iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArChildFragment$a;->a:Lcom/commsource/studio/function/ar/StudioArChildFragment;
+
+    invoke-virtual {v1}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->B()I
+
+    move-result v2
+
+    invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/meitu/template/bean/ArMaterialGroup;
+
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->D(Lcom/meitu/template/bean/ArMaterialGroup;)V
+
+    .line 2
+    iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArChildFragment$a;->a:Lcom/commsource/studio/function/ar/StudioArChildFragment;
+
+    invoke-virtual {v1}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->x()Lcom/commsource/widget/h1/e;
+
+    move-result-object v1
+
+    .line 3
+    invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
+
+    move-result-object v2
+
+    const/4 v3, 0x1
+
+    new-array v3, v3, [Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;
+
+    const/4 v4, 0x0
+
+    .line 4
+    new-instance v5, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;
+
+    const/4 v6, 0x6
+
+    const v7, 0x7f0f04f9
+
+    invoke-direct {v5, v6, v7}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;-><init>(II)V
+
+    aput-object v5, v3, v4
+
+    invoke-static {v3}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+
+    move-result-object v3
+
+    .line 5
+    const-class v4, Lcom/commsource/studio/function/ar/b;
+
+    .line 6
+    invoke-virtual {v2, v3, v4}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
+
+    move-result-object v2
+
+    .line 7
+    new-instance v3, Ljava/util/ArrayList;
+
+    iget-object v4, p0, Lcom/commsource/studio/function/ar/StudioArChildFragment$a;->a:Lcom/commsource/studio/function/ar/StudioArChildFragment;
+
+    invoke-virtual {v4}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->B()I
+
+    move-result v4
+
+    invoke-interface {p1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p1
+
+    const-string v4, "it[position]"
+
+    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast p1, Lcom/meitu/template/bean/ArMaterialGroup;
+
+    invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterialGroup;->getMaterials()Ljava/util/List;
+
+    move-result-object p1
+
+    invoke-direct {v3, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+
+    .line 8
+    invoke-virtual {v3}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+
+    move-result-object p1
+
+    .line 9
+    :cond_0
+    :goto_0
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v4
+
+    if-eqz v4, :cond_1
+
+    .line 10
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v4
+
+    const-string v5, "it.next()"
+
+    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v4, Lcom/meitu/template/bean/ArMaterial;
+
+    .line 11
+    invoke-static {v4}, Lcom/commsource/beautyplus/util/h;->K(Lcom/meitu/template/bean/ArMaterial;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_0
+
+    .line 12
+    invoke-interface {p1}, Ljava/util/Iterator;->remove()V
+
+    goto :goto_0
+
+    .line 13
+    :cond_1
+    const-class p1, Lcom/commsource/studio/function/ar/a;
+
+    invoke-virtual {v2, v3, p1}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
+
+    .line 14
+    invoke-virtual {v2}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
+
+    move-result-object p1
+
+    .line 15
+    invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
+
+    .line 16
+    :cond_2
+    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+
+    return-void
+.end method
+
+.method public bridge synthetic onChanged(Ljava/lang/Object;)V
+    .locals 1
+
+    const v0, 0x9bcb
+
+    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+
+    .line 1
+    check-cast p1, Ljava/util/List;
+
+    invoke-virtual {p0, p1}, Lcom/commsource/studio/function/ar/StudioArChildFragment$a;->a(Ljava/util/List;)V
+
+    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+
+    return-void
+.end method

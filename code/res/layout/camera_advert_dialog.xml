@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.meitu.hwbusinesskit.core.widget.NativeAdView android:gravity="center" android:orientation="horizontal" android:id="@id/ll_ad_container" android:background="@color/white" android:padding="10.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/rl_cancle" app:mthwb_advertLayout="@layout/save_and_share_advert" app:mthwb_main_content_max_aspect="2.1" app:mthwb_main_content_min_aspect="1.91" app:mthwb_setGoneWhenNoIcon="true" />
+    <com.commsource.widget.PressImageView android:id="@id/piv_report_enter" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/common_ad_icon_report" android:layout_alignLeft="@id/ll_ad_container" android:layout_alignTop="@id/ll_ad_container" />
+    <RelativeLayout android:id="@id/rl_cancle" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+        <View android:background="@color/color_ebebeb" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <com.commsource.widget.PressImageView android:id="@id/iv_cancel" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/common_close_icon_gray" android:scaleType="fitStart" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

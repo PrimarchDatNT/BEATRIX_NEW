@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<integer>1001</integer>
+	<key>FilterPart</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>AnattaBeauty</string>
+			<key>Filters</key>
+			<array>
+				<dict>
+					<key>Name</key>
+					<string>SourceInput</string>
+				</dict>
+                <dict>
+                    <key>Name</key>
+                    <string>ShadowSmoothBright</string>
+                    <!-- 去黑眼圈开关 -->
+                    <key>RemovePouchSwitch</key>
+                    <string>1</string>
+                    <key>FromSource</key>
+                    <array>
+                        <string>SourceInput</string>
+                    </array>
+                </dict>
+				<dict>
+					<key>Name</key>
+					<string>SkinSmooth</string>
+					<key>Type</key>
+					<string>Normal</string>
+                    <key>Switch</key>
+                    <string>1</string>
+					<key>IsNeedFaceAndNeckMask</key>
+					<string>1</string>
+					<key>FromSource</key>
+					<array>
+						<string>ShadowSmoothBright</string>
+					</array>
+				</dict>
+				<!-- 精细化美颜 -->
+                <dict>
+                    <key>Name</key>
+                    <string>BrightEye</string>
+                    <!-- 亮眼类型，可选：0（旧亮眼），1（线上亮眼 提亮曲线），2（亮眼锐化不提亮） -->
+                    <key>BrightEyeType</key>
+                    <string>1</string>
+                    <!-- 亮眼开关 -->
+                    <key>BrightEyeSwitch</key>
+                    <string>1</string>
+                    <!-- 美牙开关 -->
+                    <key>WhiteTeethSwitch</key>
+                    <string>1</string>
+                    <key>FromSource</key>
+                    <array>
+                        <string>SkinSmooth</string>
+                    </array>
+                </dict>
+				<dict>
+					<key>Name</key>
+					<string>ResultOutput</string>
+					<key>FromSource</key>
+					<array>
+						<string>BrightEye</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

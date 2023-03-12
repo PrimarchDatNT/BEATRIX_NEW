@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/item_home_ad_banner_module_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.commsource.widget.MTCardView android:id="@id/rootContainer" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" app:cardCornerRadius="6.0dip" app:cardElevation="0.0dip" app:contentPadding="0.5dip">
+        <com.meitu.ratiorelativelayout.RatioRelativeLayout android:id="@id/contentContainer" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ivBg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/ivContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+            <ImageView android:id="@id/ivAdBg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <com.meitu.hwbusinesskit.core.widget.NativeAdView android:id="@id/nativeAdView" android:layout_width="300.0dip" android:layout_height="250.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" app:mthwb_advertLayout="@layout/layout_home_banner_ad" />
+            <View android:id="@id/ivMask" android:background="@drawable/ripple_radius_6" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.meitu.ratiorelativelayout.RatioRelativeLayout>
+    </com.commsource.widget.MTCardView>
+    <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/ivAdTopLeft" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="15.0dip" android:scaleType="centerCrop" android:text="AD" android:drawablePadding="3.0dip" android:layout_alignLeft="@id/rootContainer" android:layout_alignTop="@id/rootContainer" android:paddingStart="7.5dip" android:paddingEnd="12.0dip" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center|left|top" android:id="@id/ivAdIcon" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="15.0dip" android:scaleType="centerCrop" android:text="AD" android:drawablePadding="3.0dip" android:layout_alignLeft="@id/rootContainer" android:layout_alignTop="@id/rootContainer" android:drawableEnd="@drawable/home_ad_arrow_icon" android:paddingStart="7.5dip" android:paddingEnd="15.0dip" />
+</RelativeLayout>

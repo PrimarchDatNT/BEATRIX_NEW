@@ -1,0 +1,19 @@
+{
+      // 关false 开true
+      // 联动外发光
+      "appendGlow": false,
+      // 联动调整描边
+      "appendStoke": false,
+      // 背景
+      "canEditBg": true,
+      // 字体
+      "canEditFont": true,
+      // 阴影
+      "canEditShadow": true,
+      // 排列
+      "canEditSpacing": true,
+      // 描边
+      "canEditStroke": true,
+      // 文本
+      "canEditText": true
+    }

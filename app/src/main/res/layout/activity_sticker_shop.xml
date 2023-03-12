@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:tag="layout/activity_sticker_shop_0">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <com.commsource.widget.title.XTitleBar
+            android:id="@id/xtb"
+            android:layout_width="fill_parent"
+            android:layout_height="44.0dip"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:xtb_divide_enable="false"
+            app:xtb_title="@string/stick_store" />
+        <com.commsource.widget.mask.MaskContainer
+            android:id="@id/mask"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/rv_group"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_below="@id/rv_group"
+                android:background="@color/Gray_Dashline" />
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@id/vp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/rv_group"
+                android:layout_marginTop="0.5dip" />
+        </com.commsource.widget.mask.MaskContainer>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@id/detailContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

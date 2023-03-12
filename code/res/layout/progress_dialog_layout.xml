@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/llProcess" android:background="@drawable/progress_dailog_bk" android:layout_width="140.0dip" android:layout_height="140.0dip" android:layout_centerInParent="true">
+        <com.commsource.video.LoadingProgressView android:layout_gravity="center_horizontal" android:id="@id/lpv_progress" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="25.0dip" app:lpvProgressBarColor="@color/white10" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_download" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/material_downloading" />
+    </LinearLayout>
+    <com.commsource.widget.PressTextView android:textSize="14.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tvCancel" android:background="@drawable/dialog_radius_22_black20" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginTop="12.0dip" android:text="@string/ai_editor_cancel" android:layout_below="@id/llProcess" android:layout_centerHorizontal="true" />
+</RelativeLayout>

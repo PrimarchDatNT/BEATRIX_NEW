@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_image_style_0" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:id="@id/fl_bottom" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/tabBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="44.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/divider" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.5dip" app:layout_constraintTop_toBottomOf="@id/tabBar">
+            <View android:layout_gravity="bottom" android:background="@color/color_e4e4e4" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <com.commsource.widget.LineSelectView android:id="@id/lineSelect" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <com.commsource.camera.montage.CustomViewPager android:id="@id/style_page_container" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/confirm_cancel" app:layout_constraintTop_toBottomOf="@id/divider" app:layout_constraintVertical_weight="1.0" app:layout_goneMarginTop="10.0dip" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/color_333333" android:gravity="center" android:id="@id/disable_panel_prompt" android:background="@color/white" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/t_imagelayer_style_textlayer_tip" app:layout_constraintBottom_toTopOf="@id/confirm_cancel" app:layout_constraintTop_toBottomOf="@id/divider" app:layout_constraintVertical_weight="1.0" app:layout_goneMarginTop="10.0dip" />
+        <com.commsource.studio.component.ConfirmCancelComponent android:id="@id/confirm_cancel" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="50.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/style_page_container" />
+        <FrameLayout android:id="@id/bubble" android:visibility="invisible" android:layout_width="82.0dip" android:layout_height="82.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/divider">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/common_slider_icon_segmented_bubble" />
+            <TextView android:textSize="17.0dip" android:textColor="@color/color_333333" android:layout_gravity="center" android:id="@id/bubbleProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

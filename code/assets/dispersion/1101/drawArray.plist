@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DrawArray</key>
+		<array>
+			<dict>
+				<key>stepIndex</key>
+				<string>1</string>
+				<key>filterID</key>
+				<string>1096</string>
+				<key>inputArray</key>
+				<array>
+					<dict>
+						<key>type</key>
+						<string>0</string>
+						<key>texture</key>
+						<string></string>
+						<key>matchInputID</key>
+						<string>0.0</string>
+					</dict>
+				</array>
+				<key>uniformValueArray</key>
+				<array>
+					<!-- 程度默认值 -->
+					<dict>
+						<key>uniformType</key>
+						<string>1</string>
+						<key>uniformName</key>
+						<string>degree</string>
+						<key>uniformValue</key>
+						<string>1.0</string>
+					</dict>
+					<!-- 半径 默认值 -->
+					<dict>
+						<key>uniformType</key>
+						<string>1</string>
+						<key>uniformName</key>
+						<string>prismR</string>
+						<key>uniformValue</key>
+						<string>0.07</string>
+					</dict>
+					<!-- 折射 默认值 -->
+					<dict>
+						<key>uniformType</key>
+						<string>1</string>
+						<key>uniformName</key>
+						<string>refraction</string>
+						<key>uniformValue</key>
+						<string>0.05</string>
+					</dict>
+					<!-- 坐标 默认值 (VEC2类型) -->
+					<dict>
+						<key>uniformType</key>
+						<string>32</string>
+						<key>uniformName</key>
+						<string>coordinate</string>
+						<key>uniformValue</key>
+						<string>0.5,0.5</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

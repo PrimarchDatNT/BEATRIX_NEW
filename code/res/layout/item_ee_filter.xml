@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/item_ee_filter_0" android:background="@drawable/ee_filter_border" android:padding="0.5dip" android:layout_width="56.0dip" android:layout_height="74.0dip" android:layout_marginRight="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.commsource.widget.CircleImageView android:id="@id/iv_thumb" android:layout_width="55.0dip" android:layout_height="55.0dip" app:left_bottom_round="false" app:right_bottom_round="false" app:round_radius="6.0dip" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/color_666666" android:gravity="center" android:layout_gravity="bottom" android:id="@id/tv_name" android:background="@drawable/shape_bottom_r6" android:layout_width="fill_parent" android:layout_height="18.0dip" android:text="None" />
+    <ImageView android:id="@id/v_mask" android:background="@drawable/shape_top_r6" android:visibility="gone" android:layout_width="55.0dip" android:layout_height="55.0dip" android:src="@drawable/miniapp_filter_sb_icon" android:scaleType="centerInside" />
+</FrameLayout>

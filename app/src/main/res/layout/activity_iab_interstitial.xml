@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff222222">
+    <RelativeLayout
+        android:id="@id/ac_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center" />
+    <ImageView
+        android:id="@id/close_button"
+        android:layout_width="25.0dip"
+        android:layout_height="25.0dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10.0dip"
+        android:src="@drawable/iab_close_icon" />
+    <TextView
+        android:id="@id/sponsored_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10.0dip"
+        android:gravity="center"
+        android:maxLines="1"
+        android:shadowColor="#ff000000"
+        android:shadowDx="0.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="3.0"
+        android:text="@string/brand_sponsored_iab_text"
+        android:textColor="#ffffffff"
+        android:textSize="12.0sp" />
+    <TextView
+        android:id="@id/seconds_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10.0dip"
+        android:layout_toRightOf="@id/sponsored_view"
+        android:gravity="center"
+        android:maxLines="1"
+        android:shadowColor="#ff000000"
+        android:shadowDx="0.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="3.0"
+        android:text="5s"
+        android:textColor="#ffffffff"
+        android:textSize="12.0sp"
+        android:visibility="gone" />
+</RelativeLayout>

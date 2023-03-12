@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/cover_top_bar_0">
+    <com.meitu.ratiorelativelayout.RatioRelativeLayout
+        android:id="@id/rl_top_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="54.0dip"
+        android:layout_gravity="top"
+        android:clickable="true">
+        <com.commsource.widget.IconFrontView
+            android:id="@id/mIvBack"
+            android:layout_width="35.0dip"
+            android:layout_height="54.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20.0dip"
+            android:gravity="center"
+            android:text="@string/selfie_top_icon_home"
+            android:textColor="@color/black"
+            android:textSize="35.0dip"
+            app:show_stroke="false"
+            app:stroke_color="@color/color_4d000000"
+            app:usePressState="true" />
+        <com.commsource.widget.IconFrontView
+            android:id="@id/mIvSwitchRatio"
+            android:layout_width="35.0dip"
+            android:layout_height="54.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_toLeftOf="@id/mIvAlbumNew"
+            android:layout_toRightOf="@id/mIvBack"
+            android:gravity="center"
+            android:text="@string/selfie_top_icon_full"
+            android:textColor="@color/black"
+            android:textSize="35.0dip"
+            app:show_stroke="false"
+            app:stroke_color="@color/color_4d000000"
+            app:usePressState="true" />
+        <com.commsource.camera.xcamera.widget.CameraAlbumPreviewView
+            android:id="@id/mIvAlbumNew"
+            android:layout_width="35.0dip"
+            android:layout_height="54.0dip"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/selfie_top_icon_album"
+            android:textColor="@color/black"
+            android:textSize="35.0dip"
+            app:show_stroke="false"
+            app:stroke_color="@color/color_4d000000"
+            app:usePressState="true" />
+        <com.commsource.widget.IconFrontView
+            android:id="@id/mIvSettingNew"
+            android:layout_width="35.0dip"
+            android:layout_height="54.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_toLeftOf="@id/mIvSwitchCamera"
+            android:layout_toRightOf="@id/mIvAlbumNew"
+            android:gravity="center"
+            android:text="@string/selfie_top_icon_more"
+            android:textColor="@color/black"
+            android:textSize="35.0dip"
+            app:show_stroke="false"
+            app:stroke_color="@color/color_4d000000"
+            app:usePressState="true" />
+        <com.commsource.widget.IconFrontView
+            android:id="@id/mIvSwitchCamera"
+            android:layout_width="35.0dip"
+            android:layout_height="54.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20.0dip"
+            android:gravity="center"
+            android:text="@string/selfie_top_icon_cameraswitch"
+            android:textColor="@color/black"
+            android:textSize="35.0dip"
+            app:show_stroke="false"
+            app:stroke_color="@color/color_4d000000"
+            app:usePressState="true" />
+    </com.meitu.ratiorelativelayout.RatioRelativeLayout>
+</FrameLayout>

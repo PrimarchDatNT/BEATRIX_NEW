@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:tag="layout/item_home_pager_module_0">
+    <com.commsource.home.InnerRecyclerView
+        android:id="@id/rvPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:saveEnabled="false" />
+    <com.commsource.widget.IndicatorLineView
+        android:id="@id/idvPager"
+        android:layout_width="72.0dip"
+        android:layout_height="2.0dip"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="10.0dip" />
+</FrameLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/container"
+    android:layout_width="88.0dip"
+    android:layout_height="64.0dip"
+    android:layout_gravity="center"
+    android:tag="layout/item_select_layer_0">
+    <View
+        android:id="@id/shadowBg"
+        android:layout_width="136.0dip"
+        android:layout_height="104.0dip"
+        android:background="@drawable/edit_icon_layer_shadow"
+        android:translationX="-20.0dip"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/selectBg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/selectBg" />
+    <View
+        android:id="@id/selectBg"
+        android:layout_width="96.0dip"
+        android:layout_height="fill_parent"
+        android:tag="binding_1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.cardview.widget.CardView
+        android:id="@id/layerThumbnail"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_marginRight="8.0dip"
+        android:elevation="0.0dip"
+        app:cardCornerRadius="8.0dip"
+        app:cardElevation="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/layerOptIcon"
+        app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/color_f5f5f5">
+            <ImageView
+                android:id="@id/iconThumbnail"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            <TextView
+                android:id="@id/textThumbnail"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="4.0dip"
+                android:layout_marginRight="4.0dip"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="3"
+                android:textColor="@color/color_333333"
+                android:textSize="10.0dip"
+                android:visibility="gone" />
+            <com.commsource.comic.widget.StrokeTextView
+                android:id="@id/filterName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2.0dip"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="10.0dip"
+                app:out_text_stroke_color="@color/color_4d000000"
+                app:out_text_stroke_width="0.5dip" />
+            <com.commsource.studio.function.background.BackgroundView
+                android:id="@id/backgroundThumbnail"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/color_f2f1f1"
+                android:visibility="gone" />
+            <ImageView
+                android:id="@id/proIcon"
+                android:layout_width="14.0dip"
+                android:layout_height="14.0dip"
+                android:layout_gravity="center|right|top"
+                android:layout_margin="3.0dip"
+                android:src="@drawable/common_corner_premium_white" />
+            <com.commsource.widget.IconFrontView
+                android:id="@id/subIcon"
+                android:layout_width="14.0dip"
+                android:layout_height="14.0dip"
+                android:layout_gravity="bottom|center|right"
+                android:layout_margin="3.0dip"
+                android:gravity="center"
+                android:tag="binding_2"
+                android:textColor="@color/white"
+                android:textSize="14.0dip" />
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+    <View
+        android:id="@id/borderView"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_marginRight="8.0dip"
+        android:tag="binding_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/layerOptIcon"
+        app:layout_constraintTop_toTopOf="parent" />
+    <com.commsource.widget.IconFrontView
+        android:id="@id/layerOptIcon"
+        android:layout_width="16.0dip"
+        android:layout_height="16.0dip"
+        android:layout_marginRight="8.0dip"
+        android:tag="binding_4"
+        android:textColor="@color/color_cccccc"
+        android:textSize="16.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

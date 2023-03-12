@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:tag="layout/component_play_0">
+    <com.commsource.widget.IconFrontView
+        android:id="@id/iv_play"
+        android:layout_width="30.0dip"
+        android:layout_height="30.0dip"
+        android:layout_above="@id/fl_bottom"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:tag="binding_1"
+        android:text="@string/ar_play"
+        android:textColor="@color/white"
+        android:textSize="30.0dip" />
+</FrameLayout>

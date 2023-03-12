@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="100.0dip"
+    android:layout_height="100.0dip"
+    android:clickable="true"
+    android:focusable="true"
+    android:tag="layout/item_doodle_manager_0">
+    <View
+        android:id="@id/doodleImageBg"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:tag="binding_1"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@id/doodleImage"
+        android:layout_width="76.0dip"
+        android:layout_height="76.0dip"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="@id/doodleImageBg"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="@id/doodleImageBg"
+        app:layout_constraintRight_toRightOf="@id/doodleImageBg"
+        app:layout_constraintTop_toTopOf="@id/doodleImageBg" />
+    <com.commsource.widget.IconFrontView
+        android:id="@id/doodle_collect"
+        android:layout_width="26.0dip"
+        android:layout_height="26.0dip"
+        android:textSize="25.0dip"
+        app:layout_constraintLeft_toLeftOf="@id/doodleImageBg"
+        app:layout_constraintTop_toTopOf="@id/doodleImageBg" />
+    <com.commsource.widget.IconFrontView
+        android:id="@id/selectItem"
+        android:layout_width="21.0dip"
+        android:layout_height="21.0dip"
+        android:layout_marginRight="6.0dip"
+        android:layout_marginBottom="6.0dip"
+        android:background="@color/white"
+        android:tag="binding_2"
+        android:textSize="21.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/doodleImageBg"
+        app:layout_constraintRight_toRightOf="@id/doodleImageBg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

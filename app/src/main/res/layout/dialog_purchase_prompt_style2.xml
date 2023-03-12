@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/rrl_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_fdacc2"
+    app:layout_heightSpec="1334.0"
+    app:layout_widthSpec="750.0">
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:focusable="true" />
+    <ImageView
+        android:id="@id/iv_title_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/home_beautyplus_logo"
+        app:layout_ratioHeight="104.0"
+        app:layout_ratioMarginTop="110.0"
+        app:layout_ratioWidth="540.0" />
+    <ImageView
+        android:id="@id/dialog_first_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        app:layout_ratioHeight="720.0"
+        app:layout_ratioMarginTop="230.0"
+        app:layout_ratioWidth="540.0" />
+    <com.commsource.widget.PressRelativeLayout
+        android:id="@id/purchase_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_first_frame"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ar_iap_dialog_solid_bg_sel"
+        android:paddingLeft="30.0dip"
+        android:paddingRight="30.0dip"
+        app:layout_ratioHeight="80.0"
+        app:layout_ratioMarginBottom="24.0"
+        app:layout_ratioMarginTop="52.0"
+        app:layout_ratioWidth="540.0">
+        <ProgressBar
+            android:id="@id/purchase_loading"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_centerVertical="true"
+            android:indeterminateDrawable="@drawable/progress_ar_purchase_loading_white" />
+        <com.commsource.widget.AutoFitTextView
+            android:id="@id/btn_purchase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20.0dip"
+            android:layout_marginEnd="20.0dip"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="@string/buy_ar_just_one"
+            android:textColor="@color/white"
+            android:textSize="13.0dip" />
+    </com.commsource.widget.PressRelativeLayout>
+    <com.commsource.widget.PressRelativeLayout
+        android:id="@id/watch_video_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/purchase_container"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ar_iap_dialog_bg_sel"
+        android:paddingLeft="30.0dip"
+        android:paddingRight="30.0dip"
+        app:layout_ratioHeight="80.0"
+        app:layout_ratioWidth="540.0">
+        <ProgressBar
+            android:id="@id/watch_video_loading"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_centerVertical="true"
+            android:indeterminateDrawable="@drawable/progress_ar_purchase_loading_pink" />
+        <ImageView
+            android:id="@id/iv_rvideo_play"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_centerVertical="true"
+            android:src="@drawable/vip_video_play_icon"
+            android:visibility="gone" />
+        <com.commsource.widget.AutoFitTextView
+            android:id="@id/watch_video_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20.0dip"
+            android:layout_marginEnd="20.0dip"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="@string/watch_for_trying_once"
+            android:textColor="@color/color_666666"
+            android:textSize="13.0dip" />
+    </com.commsource.widget.PressRelativeLayout>
+    <com.commsource.widget.PressTextView
+        android:id="@id/btn_restore"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/watch_video_container"
+        android:gravity="center"
+        android:text="@string/restore_purchases"
+        android:textColor="@color/color_4a4a4a"
+        android:textSize="13.0dip" />
+    <ImageView
+        android:id="@id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/arrow_down_icon_circle_black"
+        app:layout_ratioHeight="70.0"
+        app:layout_ratioMarginRight="40.0"
+        app:layout_ratioMarginTop="40.0"
+        app:layout_ratioWidth="70.0" />
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

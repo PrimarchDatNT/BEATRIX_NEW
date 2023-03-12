@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/rl_content"
+    android:layout_width="59.0dip"
+    android:layout_height="59.0dip"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:tag="layout/item_ar_child_0">
+    <com.commsource.widget.PressImageView
+        android:id="@id/ar_material_item_iv"
+        android:layout_width="59.0dip"
+        android:layout_height="59.0dip"
+        android:layout_centerInParent="true" />
+    <View
+        android:id="@id/select_iv"
+        android:layout_width="59.0dip"
+        android:layout_height="59.0dip"
+        android:layout_centerInParent="true"
+        android:src="@drawable/selfie_ar_icon_used"
+        android:visibility="gone" />
+    <View
+        android:id="@id/iv_red"
+        android:layout_width="6.0dip"
+        android:layout_height="6.0dip"
+        android:layout_gravity="end"
+        android:visibility="gone" />
+    <com.commsource.widget.CircleDownloadProgressView
+        android:id="@id/progress"
+        android:layout_width="18.0dip"
+        android:layout_height="18.0dip"
+        android:layout_gravity="end|bottom|center"
+        android:layout_marginRight="2.5dip"
+        android:layout_marginBottom="2.5dip"
+        android:visibility="gone"
+        app:cdpvCircleColor="@color/color_6a6a6b"
+        app:cdpvCircleRadius="9.0dip"
+        app:cdpvMaskCircleColor="@color/color_4d6a6a6b"
+        app:cdpvMaskColor="@color/color_b3ffffff" />
+    <ImageView
+        android:id="@id/iv_right"
+        android:layout_width="13.0dip"
+        android:layout_height="13.0dip"
+        android:layout_gravity="end|bottom|center"
+        android:layout_marginRight="5.0dip"
+        android:layout_marginBottom="5.0dip"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@id/iv_left"
+        android:layout_width="13.0dip"
+        android:layout_height="13.0dip"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="5.5dip"
+        android:layout_marginBottom="5.0dip"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@id/iv_right_top"
+        android:layout_width="13.0dip"
+        android:layout_height="13.0dip"
+        android:layout_gravity="end|center|top"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginRight="5.5dip"
+        android:src="@drawable/vip_diamond_ip_store_stciker_icon"
+        android:visibility="gone" />
+</FrameLayout>

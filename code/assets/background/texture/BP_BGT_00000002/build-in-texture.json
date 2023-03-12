@@ -1,0 +1,15 @@
+{
+	// screen滤色 softlight柔光 overlay叠加 multiply正片叠底 normal正常
+    // 正常背景叠加
+	"blend": "normal",
+	// 白色背景叠加
+    "whiteBlend": "normal",
+    // 深色背景叠加
+    "darkBlend": "normal",
+    // 黑色背景叠加
+    "blackBlend": "normal",
+    // 浅色背景叠加
+    "lightBlend": "normal",
+    // 透明度
+    "alpha": 1
+}

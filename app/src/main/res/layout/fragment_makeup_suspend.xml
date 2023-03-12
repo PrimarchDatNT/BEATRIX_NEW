@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="120.0dip"
+    android:layout_gravity="bottom"
+    android:tag="layout/fragment_makeup_suspend_0">
+    <com.commsource.widget.XSeekBar
+        android:id="@id/xsb"
+        android:layout_width="fill_parent"
+        android:layout_height="35.0dip"
+        android:layout_centerVertical="true"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="36.0dip"
+        android:layout_marginRight="66.0dip"
+        android:layout_marginBottom="14.0dip"
+        android:layout_toLeftOf="@id/iv_contract"
+        android:visibility="visible"
+        app:isEnableStroke="true" />
+    <com.commsource.widget.part.XSeekCameraTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="36.0dip"
+        android:layout_marginBottom="41.0dip"
+        android:tag="binding_1"
+        android:textSize="28.0dip" />
+    <com.commsource.camera.widget.CameraContractImageView
+        android:id="@id/iv_contract"
+        android:layout_width="30.0dip"
+        android:layout_height="30.0dip"
+        android:layout_gravity="bottom|center|right"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginBottom="16.5dip"
+        android:tag="binding_2"
+        android:text="@string/if_studio_compare"
+        android:textColor="@color/white"
+        android:textSize="30.0dip" />
+</FrameLayout>

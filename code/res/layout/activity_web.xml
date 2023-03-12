@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_advert_web" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_cancel" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+        <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <ImageView android:id="@id/iv_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ad_brower_close_sel" android:scaleType="fitStart" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.meitu.webview.core.CommonWebView android:id="@id/wv_ad" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/rl_cancel" />
+    <ProgressBar android:id="@id/pb_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

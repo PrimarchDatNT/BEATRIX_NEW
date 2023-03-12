@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/cv_root"
+    android:layout_width="88.0dip"
+    android:layout_height="30.0dip"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:tag="layout/item_layer_manage_group_container_0">
+    <View
+        android:id="@id/shadowBg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignLeft="@id/background"
+        android:layout_alignTop="@id/background"
+        android:layout_alignRight="@id/background"
+        android:layout_alignBottom="@id/background"
+        android:layout_marginLeft="-20.0dip"
+        android:layout_marginTop="-20.0dip"
+        android:layout_marginRight="-20.0dip"
+        android:layout_marginBottom="-20.0dip"
+        android:background="@drawable/edit_icon_layer_shadow"
+        android:visibility="gone" />
+    <View
+        android:id="@id/background"
+        android:layout_width="fill_parent"
+        android:layout_height="94.0dip"
+        android:tag="binding_1" />
+    <com.commsource.widget.AutoFitTextView
+        android:id="@id/tv_group"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="30.0dip"
+        android:gravity="center|left"
+        android:maxLines="1"
+        android:text="@string/t_group"
+        android:textColor="@color/Gray_B"
+        android:textSize="13.0dip" />
+    <com.commsource.widget.IconFrontView
+        android:id="@id/layerOptIcon"
+        android:layout_width="16.0dip"
+        android:layout_height="16.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="7.0dip"
+        android:layout_marginRight="8.0dip"
+        android:tag="binding_2"
+        android:textColor="@color/color_cccccc"
+        android:textSize="16.0dip" />
+    <View
+        android:id="@id/v_divide"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_alignLeft="@id/background"
+        android:layout_alignRight="@id/background"
+        android:layout_marginTop="29.0dip"
+        android:background="@color/color_e6e6e6" />
+</RelativeLayout>

@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist>
+  <array>
+    <dict>
+      <key>FacePart</key>
+      <array>
+        <!-- 渲染插入回调 -->
+        <dict>
+          <key>Type</key>
+          <string>Callback</string>
+          <key>CallbackConfigurationPath</key>
+          <string></string>
+        </dict>
+        <dict>
+          <key>Type</key>
+          <string>FaceliftV2</string>
+          <!-- 第一个部分 -->
+          <key>MaskPath</key>
+          <array>
+            <!-- 【【【【【【【【【面部美型start】】】】】】】】】 -->
+            <!--瘦脸  Start-->
+            <dict>
+              <key>Path</key>
+              <string>face/shoulian/0_1_140659882035632.png</string>
+              <key>Rectangle</key>
+              <string>13,85,254,172;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--瘦脸  End  -->
+            <!--脸宽 正向 窄  Start-->
+            <dict>
+              <key>Path</key>
+              <string>face/liankuan/0_1_140274722324936.png</string>
+              <key>Rectangle</key>
+              <string>22,78,239,176;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <dict>
+              <key>Path</key>
+              <string>face/liankuan/0_1_140274726618568.png</string>
+              <key>Rectangle</key>
+              <string>22,81,239,71;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--脸宽 正向 窄  End  -->
+            <!--脸宽 反向 宽  Start-->
+            <dict>
+              <key>Path</key>
+              <string>face/liankuan/0_1_140667236425648.png</string>
+              <key>Rectangle</key>
+              <string>22,73,239,181;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--脸宽 反向 宽  End  -->
+            <!--颌骨 正向 小 Start-->
+            <dict>
+              <key>Path</key>
+              <string>face/hegu/0_1_140716939227080.png</string>
+              <key>Rectangle</key>
+              <string>48,154,186,63;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--颌骨 正向 小 End  -->
+            <!--颌骨 反向 大 Start-->
+            <dict>
+              <key>Path</key>
+              <string>face/hegu/0_1_140388693875632.png</string>
+              <key>Rectangle</key>
+              <string>45,144,197,68;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--颌骨 反向 大 End  -->
+            <!--下庭 正向 小 Start-->
+            <dict>
+              <key>Path</key>
+              <string>face/xiating/0_1_140388718478768.png</string>
+              <key>Rectangle</key>
+              <string>22,130,238,127;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--下庭 正向 小 End  -->
+            <!--下庭 反向 大 Start-->
+            <dict>
+              <key>Path</key>
+              <string>face/xiating/0_1_140388668404656.png</string>
+              <key>Rectangle</key>
+              <string>23,130,238,129;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--下庭 反向 大 End  -->
+            <!--下巴 正向  短 Start-->
+            <dict>
+              <key>Path</key>
+              <string>face/xiaba/0_1_140659887590832.png</string>
+              <key>Rectangle</key>
+              <string>111,188,64,52;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--下巴 正向  短 End  -->
+            <!--下巴 反向  长 Start-->
+            <dict>
+              <key>Path</key>
+              <string>face/xiaba/0_1_140274698754504.png</string>
+              <key>Rectangle</key>
+              <string>74,180,136,78;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--下巴 反向  长 End  -->
+            <!--发际线 正向  短 Start-->
+            <dict>
+              <key>Path</key>
+              <string>face/fajixian/0_1_140721847956912.png</string>
+              <key>Rectangle</key>
+              <string>16,25,245,117;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--发际线 正向  短 End  -->
+            <!--发际线 反向  长  Start-->
+            <dict>
+              <key>Path</key>
+              <string>face/fajixian/0_1_140721857374640.png</string>
+              <key>Rectangle</key>
+              <string>16,24,245,118;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--发际线 反向  长  End  -->
+            <!-- 【【【【【【【【【面部美型end】】】】】】】】】 -->
+            <!-- 【【【【【【【【【眼部美型start】】】】】】】】】 -->
+            <!--大眼 正向 大  Start-->
+            <dict>
+              <key>Path</key>
+              <string>eyes/dayan/0_1_140316216022960.png</string>
+              <key>Rectangle</key>
+              <string>86,111,110,36;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--大眼 正向 大  End  -->
+            <!--大眼 反向 小  Start-->
+            <dict>
+              <key>Path</key>
+              <string>eyes/dayan/0_1_140316187472816.png</string>
+              <key>Rectangle</key>
+              <string>86,111,109,35;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--大眼 反向 小  End  -->
+            <!--眼高 正向  Start-->
+            <dict>
+              <key>Path</key>
+              <string>eyes/yangao/0_1_140506883599304.png</string>
+              <key>Rectangle</key>
+              <string>89,110,103,37;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--眼高 正向  End  -->
+            <!--眼高 反向  Start-->
+            <dict>
+              <key>Path</key>
+              <string>eyes/yangao/0_1_140506883599304_2.png</string>
+              <key>Rectangle</key>
+              <string>89,110,103,37;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--眼高 反向  End  -->
+            <!--眼距 正向 远  Start-->
+            <dict>
+              <key>Path</key>
+              <string>eyes/yanju/0_1_140316237730224.png</string>
+              <key>Rectangle</key>
+              <string>86,109,110,40;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--眼距 正向 远  End  -->
+            <!--眼距 反向 近  Start-->
+            <dict>
+              <key>Path</key>
+              <string>eyes/yanju/0_1_140316237685680.png</string>
+              <key>Rectangle</key>
+              <string>86,109,110,40;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--眼距 反向 近  End  -->
+            <!--眼睛角度 正向 上扬  Start-->
+            <dict>
+              <key>Path</key>
+              <string>eyes/jiaodu/0_1_140373923228592.png</string>
+              <key>Rectangle</key>
+              <string>87,110,108,38;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--眼睛角度 正向 上扬  End  -->
+            <!--眼睛角度 反向 下垂  Start-->
+            <dict>
+              <key>Path</key>
+              <string>eyes/jiaodu/0_1_140366775775152.png</string>
+              <key>Rectangle</key>
+              <string>87,110,108,38;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--眼睛角度 反向 下垂  End  -->
+            <!-- 【【【【【【【【【眼部美型end】】】】】】】】】 -->
+            <!-- 【【【【【【【【【鼻部美型start】】】】】】】】】 -->
+            <!--瘦鼻 正向 小  Start-->
+            <dict>
+              <key>Path</key>
+              <string>nose/shoubi/0_1_140670868785064.png</string>
+              <key>Rectangle</key>
+              <string>106,107,70,69;</string>
+              <key>GenerateType</key>
+              <string>0</string>
+            </dict>
+            <!--瘦鼻 正向 小  End  -->
+            <!--瘦鼻 反向 大  Start-->
+            <dict>
+              <key>Path</key>
+              <string>nose/shoubi/0_1_140439961313712.png</string>
+              <key>Rectangle</key>
+              <string>107,107,69,69;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--瘦鼻 反向 大  End  -->
+            <!--鼻子 正向 高  Start-->
+            <dict>
+              <key>Path</key>
+              <string>nose/bigao/0_1_140629505318832.png</string>
+              <key>Rectangle</key>
+              <string>107,127,68,48;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--鼻子 正向 高  End  -->
+            <!--鼻子 反向 低  Start-->
+            <dict>
+              <key>Path</key>
+              <string>nose/bigao/0_1_140629489312688.png</string>
+              <key>Rectangle</key>
+              <string>108,128,67,47;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--鼻子 反向 低  End  -->
+            <!--鼻翼 正向 小  Start-->
+            <dict>
+              <key>Path</key>
+              <string>nose/biyi/0_1_140460544365488.png</string>
+              <key>Rectangle</key>
+              <string>106,137,70,39;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--鼻翼 正向 小  End  -->
+            <!--鼻翼 反向 大  Start-->
+            <dict>
+              <key>Path</key>
+              <string>nose/biyi/0_1_140460538949552.png</string>
+              <key>Rectangle</key>
+              <string>105,137,72,39;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--鼻翼 反向 大  End  -->
+            <!--鼻梁 正向 细  Start-->
+            <dict>
+              <key>Path</key>
+              <string>nose/biliang/0_1_140260981872552.png</string>
+              <key>Rectangle</key>
+              <string>117,106,49,70;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--鼻梁 正向 细  End  -->
+            <!--鼻梁 反向 粗  Start-->
+            <dict>
+              <key>Path</key>
+              <string>nose/biliang/0_1_140460538949552.png</string>
+              <key>Rectangle</key>
+              <string>120,106,43,70;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--鼻梁 反向 粗  End  -->
+            <!--鼻尖 正向 小  Start-->
+            <dict>
+              <key>Path</key>
+              <string>nose/bijian/0_1_140460544365488.png</string>
+              <key>Rectangle</key>
+              <string>126,143,31,32;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--鼻尖 正向 小  End  -->
+            <!--鼻尖 反向 大  Start-->
+            <dict>
+              <key>Path</key>
+              <string>nose/bijian/0_1_140460538949552.png</string>
+              <key>Rectangle</key>
+              <string>125,143,33,33;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--鼻尖 反向 大  End  -->
+            <!-- 【【【【【【【【【鼻部美型end】】】】】】】】】 -->
+            <!-- 【【【【【【【【【嘴部美型start】】】】】】】】】 -->
+            <!--嘴唇 正向 小  Start-->
+            <dict>
+              <key>Path</key>
+              <string>mouth/daxiao/0_1_140721366093744.png</string>
+              <key>Rectangle</key>
+              <string>103,164,77,49;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--嘴唇 正向 小  End  -->
+            <!--嘴唇 反向 大  Start-->
+            <dict>
+              <key>Path</key>
+              <string>mouth/daxiao/0_1_140721366093744_2.png</string>
+              <key>Rectangle</key>
+              <string>103,164,78,49;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--嘴唇 反向 大  End  -->
+            <!--唇高 正向 上升  Start-->
+            <dict>
+              <key>Path</key>
+              <string>mouth/chungao/0_1_140716976483272.png</string>
+              <key>Rectangle</key>
+              <string>103,163,77,51;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--唇高 正向 上升  End  -->
+            <!--唇高 反向 下降  Start-->
+            <dict>
+              <key>Path</key>
+              <string>mouth/chungao/0_1_140716940315080.png</string>
+              <key>Rectangle</key>
+              <string>103,164,77,50;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--唇高 反向 下降  End  -->
+            <!--丰唇 正向 变厚  Start-->
+            <dict>
+              <key>Path</key>
+              <string>mouth/fengchun/0_1_140716939595720.png</string>
+              <key>Rectangle</key>
+              <string>102,163,79,52;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+            <!--丰唇 正向 变厚  End  -->
+            <!--丰唇 反向 变薄  Start-->
+            <dict>
+              <key>Path</key>
+              <string>mouth/fengchun/0_1_140716939595720_2.png</string>
+              <key>Rectangle</key>
+              <string>103,163,77,52;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+          </array>
+          <!--丰唇 反向 变薄  End  -->
+          <!--微笑  Start-->
+          <!--微笑  End  -->
+          <!-- 【【【【【【【【【嘴部美型end】】】】】】】】】 -->
+          <!--  第二个部分 -->
+          <key>Configure</key>
+          <array>
+            <!-- 【【【【【【【【【面部美型start】】】】】】】】】 -->
+            <!--瘦脸  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>0</integer>
+              <key>LiftControlType</key>
+              <integer>1</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--瘦脸  End  -->
+            <!--脸宽 正向 窄  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>1</integer>
+              <key>LiftControlType</key>
+              <integer>18</integer>
+              <key>ControlRange</key>
+              <string>0,1</string>
+              <key>ValueRange</key>
+              <string>0,1</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <dict>
+              <key>MaskIndex</key>
+              <integer>2</integer>
+              <key>LiftControlType</key>
+              <integer>18</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--脸宽 正向 窄  End  -->
+            <!--脸宽 反向 宽  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>3</integer>
+              <key>LiftControlType</key>
+              <integer>18</integer>
+              <key>ControlRange</key>
+              <string>-1.0,0.0</string>
+              <key>ValueRange</key>
+              <string>1,0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--脸宽 反向 宽  End  -->
+            <!--颌骨 正向 小 Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>4</integer>
+              <key>LiftControlType</key>
+              <integer>55</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--颌骨 正向 小 End  -->
+            <!--颌骨 反向 大 Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>5</integer>
+              <key>LiftControlType</key>
+              <integer>55</integer>
+              <key>ControlRange</key>
+              <string>-1.0,0.0</string>
+              <key>ValueRange</key>
+              <string>1.0,0.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--颌骨 反向 大 End  -->
+            <!--下庭 正向 小 Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>6</integer>
+              <key>LiftControlType</key>
+              <integer>28</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--下庭 正向 小 End  -->
+            <!--下庭 反向 大 Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>7</integer>
+              <key>LiftControlType</key>
+              <integer>28</integer>
+              <key>ControlRange</key>
+              <string>-1.0,0.0</string>
+              <key>ValueRange</key>
+              <string>1.0,0.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--下庭 反向 大 End  -->
+            <!--下巴 正向  短 Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>8</integer>
+              <key>LiftControlType</key>
+              <integer>2</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--下巴 正向  短 End  -->
+            <!--下巴 反向  长 Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>9</integer>
+              <key>LiftControlType</key>
+              <integer>2</integer>
+              <key>ControlRange</key>
+              <string>-1.0,0.0</string>
+              <key>ValueRange</key>
+              <string>1.0,0.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--下巴 反向  长 End  -->
+            <!--发际线 正向  短 Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>10</integer>
+              <key>LiftControlType</key>
+              <integer>13</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--发际线 正向  短 End  -->
+            <!--发际线 反向  长  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>11</integer>
+              <key>LiftControlType</key>
+              <integer>13</integer>
+              <key>ControlRange</key>
+              <string>-1.0,0.0</string>
+              <key>ValueRange</key>
+              <string>1.0,0.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--发际线 反向  长  End  -->
+            <!-- 【【【【【【【【【面部美型end】】】】】】】】】 -->
+            <!-- 【【【【【【【【【眼部美型start】】】】】】】】】 -->
+            <!--大眼 正向 大  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>12</integer>
+              <key>LiftControlType</key>
+              <integer>0</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--大眼 正向 大  End  -->
+            <!--大眼 反向 小  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>13</integer>
+              <key>LiftControlType</key>
+              <integer>0</integer>
+              <key>ControlRange</key>
+              <string>-1.0,0.0</string>
+              <key>ValueRange</key>
+              <string>1.0,0.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--大眼 反向 小  End  -->
+            <!--眼高 正向  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>14</integer>
+              <key>LiftControlType</key>
+              <integer>24</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--眼高 正向  End  -->
+            <!--眼高 反向  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>15</integer>
+              <key>LiftControlType</key>
+              <integer>24</integer>
+              <key>ControlRange</key>
+              <string>-1.0,0.0</string>
+              <key>ValueRange</key>
+              <string>1.0,0.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--眼高 反向  End  -->
+            <!--眼距 正向 远  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>16</integer>
+              <key>LiftControlType</key>
+              <integer>8</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--眼距 正向 远  End  -->
+            <!--眼距 反向 近  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>17</integer>
+              <key>LiftControlType</key>
+              <integer>8</integer>
+              <key>ControlRange</key>
+              <string>-1.0,0.0</string>
+              <key>ValueRange</key>
+              <string>1.0,0.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--眼距 反向 近  End  -->
+            <!--眼睛角度 正向 上扬  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>18</integer>
+              <key>LiftControlType</key>
+              <integer>26</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--眼睛角度 正向 上扬  End  -->
+            <!--眼睛角度 反向 下垂  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>19</integer>
+              <key>LiftControlType</key>
+              <integer>26</integer>
+              <key>ControlRange</key>
+              <string>-1.0,0.0</string>
+              <key>ValueRange</key>
+              <string>1.0,0.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--眼睛角度 反向 下垂  End  -->
+            <!-- 【【【【【【【【【眼部美型end】】】】】】】】】 -->
+            <!-- 【【【【【【【【【鼻部美型start】】】】】】】】】 -->
+            <!--瘦鼻 正向 小  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>20</integer>
+              <key>LiftControlType</key>
+              <integer>3</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--瘦鼻 正向 小  End  -->
+            <!--瘦鼻 反向 大  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>21</integer>
+              <key>LiftControlType</key>
+              <integer>3</integer>
+              <key>ControlRange</key>
+              <string>-1.0,0.0</string>
+              <key>ValueRange</key>
+              <string>1.0,0.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--瘦鼻 反向 大  End  -->
+            <!--鼻子 正向 高  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>22</integer>
+              <key>LiftControlType</key>
+              <integer>10</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--鼻子 正向 高  End  -->
+            <!--鼻子 反向 低  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>23</integer>
+              <key>LiftControlType</key>
+              <integer>10</integer>
+              <key>ControlRange</key>
+              <string>-1.0,0.0</string>
+              <key>ValueRange</key>
+              <string>1.0,0.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--鼻子 反向 低  End  -->
+            <!--鼻翼 正向 小  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>24</integer>
+              <key>LiftControlType</key>
+              <integer>22</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--鼻翼 正向 小  End  -->
+            <!--鼻翼 反向 大  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>25</integer>
+              <key>LiftControlType</key>
+              <integer>22</integer>
+              <key>ControlRange</key>
+              <string>-1.0,0.0</string>
+              <key>ValueRange</key>
+              <string>1.0,0.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--鼻翼 反向 大  End  -->
+            <!--鼻梁 正向 细  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>26</integer>
+              <key>LiftControlType</key>
+              <integer>51</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--鼻梁 正向 细  End  -->
+            <!--鼻梁 反向 粗  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>27</integer>
+              <key>LiftControlType</key>
+              <integer>51</integer>
+              <key>ControlRange</key>
+              <string>-1.0,0.0</string>
+              <key>ValueRange</key>
+              <string>1.0,0.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--鼻梁 反向 粗  End  -->
+            <!--鼻尖 正向 小  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>28</integer>
+              <key>LiftControlType</key>
+              <integer>52</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--鼻尖 正向 小  End  -->
+            <!--鼻尖 反向 大  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>29</integer>
+              <key>LiftControlType</key>
+              <integer>52</integer>
+              <key>ControlRange</key>
+              <string>-1.0,0.0</string>
+              <key>ValueRange</key>
+              <string>1.0,0.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--鼻尖 反向 大  End  -->
+            <!-- 【【【【【【【【【鼻部美型end】】】】】】】】】 -->
+            <!-- 【【【【【【【【【嘴部美型start】】】】】】】】】 -->
+            <!--嘴唇 正向 小  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>30</integer>
+              <key>LiftControlType</key>
+              <integer>4</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--嘴唇 正向 小  End  -->
+            <!--嘴唇 反向 大  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>31</integer>
+              <key>LiftControlType</key>
+              <integer>4</integer>
+              <key>ControlRange</key>
+              <string>-1.0,0.00</string>
+              <key>ValueRange</key>
+              <string>1.0,0.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--嘴唇 反向 大  End  -->
+            <!--唇高 正向 上升  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>32</integer>
+              <key>LiftControlType</key>
+              <integer>50</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--唇高 正向 上升  End  -->
+            <!--唇高 反向 下降  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>33</integer>
+              <key>LiftControlType</key>
+              <integer>50</integer>
+              <key>ControlRange</key>
+              <string>-1.0,0.0</string>
+              <key>ValueRange</key>
+              <string>1.0,0.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--唇高 反向 下降  End  -->
+            <!--丰唇 正向 变厚  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>34</integer>
+              <key>LiftControlType</key>
+              <integer>30</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--丰唇 正向 变厚  End  -->
+            <!--丰唇 反向 变薄  Start-->
+            <dict>
+              <key>MaskIndex</key>
+              <integer>35</integer>
+              <key>LiftControlType</key>
+              <integer>30</integer>
+              <key>ControlRange</key>
+              <string>-1.0,0.0</string>
+              <key>ValueRange</key>
+              <string>1.0,0.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+            <!--丰唇 反向 变薄  End  -->
+            <!--微笑  Start-->
+            <!--微笑  End  -->
+            <!-- 【【【【【【【【【嘴部美型end】】】】】】】】】 -->
+          </array>
+          <!--  第三个部分 -->
+          <key>FaceliftInfo</key>
+          <array>
+            <!-- 【【【【【【【【【面部美型start】】】】】】】】】 -->
+            <!--瘦脸  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2100</integer>
+              <key>FacemeshParameters</key>
+              <string>0.9,-0.15</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2104</integer>
+              <key>FacemeshParameters</key>
+              <string>0.1</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2105</integer>
+              <key>FacemeshParameters</key>
+              <string>0.1,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2195</integer>
+              <key>FacemeshParameters</key>
+              <string>0.2,0,0,0.41,0,0,0,0,0,0.22,0,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--瘦脸  End  -->
+            <!--脸宽 正向 窄  Start-->
+            <dict>
+              <key>Index</key>
+              <integer>0</integer>
+              <key>ControlRange</key>
+              <string>0,1</string>
+              <key>ValueRange</key>
+              <string>0,1</string>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>大眼</string>
+              <key>FacemeshType</key>
+              <integer>2199</integer>
+              <key>FacemeshParameters</key>
+              <string>0.35,0,0,0.64,0.45,0.55,0.55,0.65,0.64,0.45,0.5,0.43,0,0,0,0.43,0.5,0.45,0.64,0.65,0.55,0.55,0.45,0.64,0,0,0,0,0.57,1,0.74,0.48,0.22,0.57,0.13,0.2,0.27,0,0,0,0.27,0.2,0.13,0.57,0.22,0.48,0.74,1,0.57,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <dict>
+              <key>Index</key>
+              <integer>0</integer>
+              <key>ControlRange</key>
+              <string>0,1</string>
+              <key>ValueRange</key>
+              <string>0,1</string>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>大眼</string>
+              <key>FacemeshType</key>
+              <integer>2100</integer>
+              <key>FacemeshParameters</key>
+              <string>0.2,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2404</integer>
+              <key>FacemeshParameters</key>
+              <string>0.2,0.13,0.07,0,0.13,0.07,0,0.22,0.22,0.61,-0.16,0,0.61,-0.16,0,1,1</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--脸宽 正向 窄  End  -->
+            <!--脸宽 反向 宽  Start-->
+            <dict>
+              <key>Index</key>
+              <integer>0</integer>
+              <key>ControlRange</key>
+              <string>0,1</string>
+              <key>ValueRange</key>
+              <string>0,1</string>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>大眼</string>
+              <key>FacemeshType</key>
+              <integer>2199</integer>
+              <key>FacemeshParameters</key>
+              <string>0.35,0,0,0.64,0.45,0.55,0.55,0.65,0.64,0.45,0.5,0.43,0,0,0,0.43,0.5,0.45,0.64,0.65,0.55,0.55,0.45,0.64,0,0,0,0,-0.57,-0.74,-0.74,-0.65,-0.3,-0.57,-0.13,-0.2,-0.27,0,0,0,-0.27,-0.2,-0.13,-0.57,-0.3,-0.65,-0.74,-0.74,-0.57,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <dict>
+              <key>Index</key>
+              <integer>0</integer>
+              <key>ControlRange</key>
+              <string>0,1</string>
+              <key>ValueRange</key>
+              <string>0,1</string>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>大眼</string>
+              <key>FacemeshType</key>
+              <integer>2100</integer>
+              <key>FacemeshParameters</key>
+              <string>-0.36,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <dict>
+              <key>Index</key>
+              <integer>0</integer>
+              <key>ControlRange</key>
+              <string>0,1</string>
+              <key>ValueRange</key>
+              <string>0,1</string>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>大眼</string>
+              <key>FacemeshType</key>
+              <integer>2404</integer>
+              <key>FacemeshParameters</key>
+              <string>0.7,0.1,0.07,0,0.1,0.07,0,0.13,0.13,-0.16,-0.16,0,-0.16,-0.16,0,-0.23,-0.23</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--脸宽 反向 宽  End  -->
+            <!--颌骨 正向 小 Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2199</integer>
+              <key>FacemeshParameters</key>
+              <string>0.3,0,0,0,0,0,0,0.39,0.5,0.45,0.45,0,0,0,0,0,0.45,0.45,0.5,0.39,0,0,0,0,0,0,0,0,0,0,0,0,0.39,0.35,0.3,0.3,0,0,0,0,0,0.3,0.3,0.35,0.39,0,0,0,0,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2195</integer>
+              <key>FacemeshParameters</key>
+              <string>0.1,0,0,0.3,0,0,0,0,0,0.55,0,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--颌骨 正向 小 End  -->
+            <!--颌骨 反向 大 Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2199</integer>
+              <key>FacemeshParameters</key>
+              <string>0.22,0,0,0,0,0,0,-0.74,-0.55,-0.45,-0.3,0,0,0,0,0,-0.3,-0.45,-0.55,-0.74,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--颌骨 反向 大 End  -->
+            <!--下庭 正向 小 Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2195</integer>
+              <key>FacemeshParameters</key>
+              <string>0.25,0,0.5,0.64,0,0.5,0.27,0,0.04,0.25,0,0.22,0.13</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--下庭 正向 小 End  -->
+            <!--下庭 反向 大 Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2195</integer>
+              <key>FacemeshParameters</key>
+              <string>0.25,0,0.5,0.64,0.5,0.5,0.27,0,-0.04,-0.25,-0.22,-0.22,-0.13</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--下庭 反向 大 End  -->
+            <!--下巴 正向  短 Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2199</integer>
+              <key>FacemeshParameters</key>
+              <string>0.45,0,0,0,0,0,0,0,0,0,0,0,0.4,0.4,0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0.5,0.5,0,0,0,0,0,0,0,0,0,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--下巴 正向  短 End  -->
+            <!--下巴 反向  长 Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2195</integer>
+              <key>FacemeshParameters</key>
+              <string>0.18,0,0,0,0,0.3,0.27,0,0,0,0,-0.23,-0.65</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--下巴 反向  长 End  -->
+            <!--发际线 正向  短 Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2114</integer>
+              <key>FacemeshParameters</key>
+              <string>1</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--发际线 正向  短 End  -->
+            <!--发际线 反向  长  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2114</integer>
+              <key>FacemeshParameters</key>
+              <string>-1</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--发际线 反向  长  End  -->
+            <!-- 【【【【【【【【【面部美型end】】】】】】】】】 -->
+            <!-- 【【【【【【【【【眼部美型start】】】】】】】】】 -->
+            <!--大眼 正向 大  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2108</integer>
+              <key>FacemeshParameters</key>
+              <string>0,1,0,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--大眼 正向 大  End  -->
+            <!--大眼 反向 小  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2108</integer>
+              <key>FacemeshParameters</key>
+              <string>0,-1,0,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--大眼 反向 小  End  -->
+            <!--眼距 正向 远  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类2</string>
+              <key>FacemeshType</key>
+              <integer>2108</integer>
+              <key>FacemeshParameters</key>
+              <string>0,0,0,0.7,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--眼距 正向 远  End  -->
+            <!--眼距 反向 近  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类2</string>
+              <key>FacemeshType</key>
+              <integer>2108</integer>
+              <key>FacemeshParameters</key>
+              <string>0,0,0,-0.85,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--眼距 反向 近  End  -->
+            <!--眼睛角度 正向 上扬  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2108</integer>
+              <key>FacemeshParameters</key>
+              <string>0,0,1.5,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--眼睛角度 正向 上扬  End  -->
+            <!--眼睛角度 反向 下垂  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2108</integer>
+              <key>FacemeshParameters</key>
+              <string>0,0,-1.5,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--眼睛角度 反向 下垂  End  -->
+            <!-- 【【【【【【【【【眼部美型end】】】】】】】】】 -->
+            <!-- 【【【【【【【【【鼻部美型start】】】】】】】】】 -->
+            <!--瘦鼻 正向 小  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <string>0</string>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <string>2110</string>
+              <key>FacemeshParameters</key>
+              <string>1,1,1,0,0</string>
+              <key>Gender</key>
+              <string>3</string>
+            </dict>
+            <dict>
+              <key>GnerateType</key>
+              <string>0</string>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <string>2110</string>
+              <key>FacemeshParameters</key>
+              <string>0,0.77,0,0,0</string>
+              <key>Gender</key>
+              <string>3</string>
+            </dict>
+            <!--瘦鼻 正向 小  End  -->
+            <!--瘦鼻 反向 大  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2110</integer>
+              <key>FacemeshParameters</key>
+              <string>-1,0,-0.51,0,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2110</integer>
+              <key>FacemeshParameters</key>
+              <string>0,-0.64,0,0,0,-3.05</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--瘦鼻 反向 大  End  -->
+            <!--鼻子 正向 高  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2110</integer>
+              <key>FacemeshParameters</key>
+              <string>0,0,0,1,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--鼻子 正向 高  End  -->
+            <!--鼻子 反向 低  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2110</integer>
+              <key>FacemeshParameters</key>
+              <string>0,0,0,-1,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--鼻子 反向 低  End  -->
+            <!--鼻翼 正向 小  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2110</integer>
+              <key>FacemeshParameters</key>
+              <string>0,2,0,0,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--鼻翼 正向 小  End  -->
+            <!--鼻翼 反向 大  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2110</integer>
+              <key>FacemeshParameters</key>
+              <string>0,-2,0,0,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--鼻翼 反向 大  End  -->
+            <!--鼻梁 正向 细  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <string>0</string>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <string>2110</string>
+              <key>FacemeshParameters</key>
+              <string>0,0,2,0,0</string>
+              <key>Gender</key>
+              <string>3</string>
+            </dict>
+            <dict>
+              <key>GnerateType</key>
+              <string>0</string>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <string>2110</string>
+              <key>FacemeshParameters</key>
+              <string>0,0,1,0,-0.3</string>
+              <key>Gender</key>
+              <string>3</string>
+            </dict>
+            <!--鼻梁 正向 细  End  -->
+            <!--鼻梁 反向 粗  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2110</integer>
+              <key>FacemeshParameters</key>
+              <string>0,0,-2,0,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--鼻梁 反向 粗  End  -->
+            <!--鼻尖 正向 小  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2110</integer>
+              <key>FacemeshParameters</key>
+              <string>0,0,0,0,1.5,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--鼻尖 正向 小  End  -->
+            <!--鼻尖 反向 大  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2110</integer>
+              <key>FacemeshParameters</key>
+              <string>0,0,0,0,-1.5,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--鼻尖 反向 大  End  -->
+            <!-- 【【【【【【【【【鼻部美型end】】】】】】】】】 -->
+            <!-- 【【【【【【【【【嘴部美型start】】】】】】】】】 -->
+            <!--嘴唇 正向 小  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2119</integer>
+              <key>FacemeshParameters</key>
+              <string>-1,0,0,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--嘴唇 正向 小  End  -->
+            <!--嘴唇 反向 大  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2119</integer>
+              <key>FacemeshParameters</key>
+              <string>1,0,0,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--嘴唇 反向 大  End  -->
+            <!--唇高 正向 上升  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2119</integer>
+              <key>FacemeshParameters</key>
+              <string>0,0,0,0,1</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--唇高 正向 上升  End  -->
+            <!--唇高 反向 下降  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2119</integer>
+              <key>FacemeshParameters</key>
+              <string>0,0,0,0,-1</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--唇高 反向 下降  End  -->
+            <!--丰唇 正向 变厚  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2119</integer>
+              <key>FacemeshParameters</key>
+              <string>0,1,1,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--丰唇 正向 变厚  End  -->
+            <!--丰唇 反向 变薄  Start-->
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2119</integer>
+              <key>FacemeshParameters</key>
+              <string>0,-1,-1,0,0</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+            <!--丰唇 反向 变薄  End  -->
+            <!--微笑  Start-->
+            <!--微笑  End  -->
+            <!-- 【【【【【【【【【嘴部美型end】】】】】】】】】 -->
+          </array>
+        </dict>
+        <!-- 微笑 FV_SPMLSNew -->
+        <dict>
+          <key>Type</key>
+          <string>FV_SPMLSNew</string>
+          <key>Prompt</key>
+          <string>ThisConfigurationHasBeenSpeciallyTreated</string>
+          <key>Radius</key>
+          <string>90.00</string>
+          <key>SelectPoint</key>
+          <string>5,10,40,44,47,48,49,50,51,52,53,54,55,56,57,58,60,61,67,70,73,86,87,88,89,90,91,92,93,94,95,96,97,98,105,106,107,109,110,111,112,113,115,116,117,118,119,120</string>
+          <key>Strength</key>
+          <string>4.13175e-05,4.37165e-05,-4.37165e-05,4.13175e-05,0,0,4.13175e-05,4.37165e-05,-4.37165e-05,4.13175e-05,0,0,-1.91822e-05,0.000679921,0.0118129,-0.0615995,0.00571438,0.0276001,0.000275411,0.0225906,-1.15886e-05,-0.00319705,-0.000275411,0.0225906,-0.00571438,0.0276001,-0.0118129,-0.0615995,-0.00412488,-0.0120818,0.000392404,-0.00486575,-0.000117449,-0.00488014,0.00479948,-0.01183,-0.0475508,-0.0691632,8.43272e-05,-0.00298902,0.0475508,-0.0691632,4.13175e-05,4.37165e-05,4.13175e-05,4.37165e-05,5.50591e-05,5.83464e-05,5.50591e-05,5.83464e-05,4.13175e-05,4.37165e-05,4.13175e-05,4.37165e-05,4.39653e-06,-0.000155837,-4.37165e-05,4.13175e-05,-4.37165e-05,4.13175e-05,-5.82611e-05,5.51494e-05,-5.82611e-05,5.51494e-05,-4.37165e-05,4.13175e-05,-4.37165e-05,4.13175e-05,4.13175e-05,4.37165e-05,-0.00636337,-0.0802229,5.50591e-05,5.83464e-05,0,0,-4.37165e-05,4.13175e-05,0.00636337,-0.0802229,-5.82611e-05,5.51494e-05,0,0,0.0122483,0.0687429,0,0.00940321,-0.0118607,0.0690834,8.26351e-05,8.74331e-05,-2.39901e-06,8.50341e-05,-8.74331e-05,8.26351e-05</string>
+          <key>Path</key>
+          <string>mls_18.png</string>
+          <key>LiftControlType</key>
+          <integer>29</integer>
+          <key>ControlRange</key>
+          <string>0.0,1.00</string>
+          <key>ValueRange</key>
+          <string>0.0,1.0</string>
+        </dict>
+        <!-- 微笑 偏移图 -->
+        <dict>
+          <key>Type</key>
+          <string>FaceliftV2</string>
+          <key>MaskPath</key>
+          <array>
+            <dict>
+              <key>Path</key>
+              <string>0_1_140330266219440.png</string>
+              <key>Rectangle</key>
+              <string>103,165,76,47;</string>
+              <key>GenerateType</key>
+              <integer>0</integer>
+            </dict>
+          </array>
+          <key>Configure</key>
+          <array>
+            <dict>
+              <key>MaskIndex</key>
+              <integer>0</integer>
+              <key>LiftControlType</key>
+              <integer>29</integer>
+              <key>ControlRange</key>
+              <string>0.0,1.00</string>
+              <key>ValueRange</key>
+              <string>0.0,1.0</string>
+              <key>Scale</key>
+              <string>0</string>
+            </dict>
+          </array>
+          <key>FaceliftInfo</key>
+          <array>
+            <dict>
+              <key>GnerateType</key>
+              <integer>0</integer>
+              <key>Name</key>
+              <string>新建分类1</string>
+              <key>FacemeshType</key>
+              <integer>2119</integer>
+              <key>FacemeshParameters</key>
+              <string>0,-0.2,0,-0.15,0.5</string>
+              <key>Gender</key>
+              <integer>3</integer>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </array>
+</plist>

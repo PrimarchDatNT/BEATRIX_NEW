@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="188.0dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_tips_bg_shadow"
+        android:paddingLeft="19.0dip"
+        android:paddingTop="5.0dip"
+        android:paddingRight="19.0dip"
+        android:paddingBottom="15.0dip">
+        <com.commsource.widget.PressTextView
+            android:id="@id/textview1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:paddingTop="15.0dip"
+            android:paddingBottom="15.0dip"
+            android:text="11111111"
+            android:textColor="@color/black"
+            android:textSize="16.0dip" />
+        <com.commsource.widget.PressTextView
+            android:id="@id/textview2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview1"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:paddingTop="15.0dip"
+            android:paddingBottom="15.0dip"
+            android:text="@string/cloud_album_menu_delete"
+            android:textColor="@color/black"
+            android:textSize="16.0dip" />
+        <com.commsource.widget.PressTextView
+            android:id="@id/textview3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview2"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:paddingTop="15.0dip"
+            android:paddingBottom="15.0dip"
+            android:text="@string/cloud_album_menu_download"
+            android:textColor="@color/black"
+            android:textSize="16.0dip" />
+        <com.commsource.widget.PressTextView
+            android:id="@id/textview4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview3"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:paddingTop="15.0dip"
+            android:paddingBottom="15.0dip"
+            android:text="@string/cloud_album_menu_download"
+            android:textColor="@color/black"
+            android:textSize="16.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

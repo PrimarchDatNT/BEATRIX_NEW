@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/cv"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/card_video_layout_0"
+    app:cardCornerRadius="16.0dip"
+    app:cardElevation="0.0dip">
+    <com.commsource.widget.VideoPlayComponent
+        android:id="@id/video_component"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</androidx.cardview.widget.CardView>

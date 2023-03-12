@@ -1,0 +1,517 @@
+.class public abstract enum Lkshark/AndroidObjectInspectors;
+.super Ljava/lang/Enum;
+.source "AndroidObjectInspectors.kt"
+
+# interfaces
+.implements Lkshark/u;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lkshark/AndroidObjectInspectors$VIEW;,
+        Lkshark/AndroidObjectInspectors$EDITOR;,
+        Lkshark/AndroidObjectInspectors$ACTIVITY;,
+        Lkshark/AndroidObjectInspectors$CONTEXT_WRAPPER;,
+        Lkshark/AndroidObjectInspectors$DIALOG;,
+        Lkshark/AndroidObjectInspectors$APPLICATION;,
+        Lkshark/AndroidObjectInspectors$INPUT_METHOD_MANAGER;,
+        Lkshark/AndroidObjectInspectors$FRAGMENT;,
+        Lkshark/AndroidObjectInspectors$SUPPORT_FRAGMENT;,
+        Lkshark/AndroidObjectInspectors$ANDROIDX_FRAGMENT;,
+        Lkshark/AndroidObjectInspectors$MESSAGE_QUEUE;,
+        Lkshark/AndroidObjectInspectors$MORTAR_PRESENTER;,
+        Lkshark/AndroidObjectInspectors$MORTAR_SCOPE;,
+        Lkshark/AndroidObjectInspectors$COORDINATOR;,
+        Lkshark/AndroidObjectInspectors$MAIN_THREAD;,
+        Lkshark/AndroidObjectInspectors$VIEW_ROOT_IMPL;,
+        Lkshark/AndroidObjectInspectors$WINDOW;,
+        Lkshark/AndroidObjectInspectors$TOAST;,
+        Lkshark/AndroidObjectInspectors$a;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lkshark/AndroidObjectInspectors;",
+        ">;",
+        "Lkshark/u;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/b0;
+    bv = {
+        0x1,
+        0x0,
+        0x3
+    }
+    d1 = {
+        "\u0000$\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u001b\u0008\u0086\u0001\u0018\u0000 \u000f2\u0008\u0012\u0004\u0012\u00020\u00000\u00012\u00020\u0002:\u0001\u0010B\t\u0008\u0002\u00a2\u0006\u0004\u0008\r\u0010\u000eR9\u0010\t\u001a\u001f\u0012\u0013\u0012\u00110\u0004\u00a2\u0006\u000c\u0008\u0005\u0012\u0008\u0008\u0006\u0012\u0004\u0008\u0008(\u0007\u0012\u0004\u0012\u00020\u0008\u0018\u00010\u00038\u0010@\u0010X\u0090\u0004\u00a2\u0006\u000c\n\u0004\u0008\t\u0010\n\u001a\u0004\u0008\u000b\u0010\u000cj\u0002\u0008\u0011j\u0002\u0008\u0012j\u0002\u0008\u0013j\u0002\u0008\u0014j\u0002\u0008\u0015j\u0002\u0008\u0016j\u0002\u0008\u0017j\u0002\u0008\u0018j\u0002\u0008\u0019j\u0002\u0008\u001aj\u0002\u0008\u001bj\u0002\u0008\u001cj\u0002\u0008\u001dj\u0002\u0008\u001ej\u0002\u0008\u001fj\u0002\u0008 j\u0002\u0008!j\u0002\u0008\"\u00a8\u0006#"
+    }
+    d2 = {
+        "Lkshark/AndroidObjectInspectors;",
+        "",
+        "Lkshark/u;",
+        "Lkotlin/Function1;",
+        "Lkshark/HeapObject;",
+        "Lkotlin/k0;",
+        "name",
+        "heapObject",
+        "",
+        "leakingObjectFilter",
+        "Lkotlin/jvm/u/l;",
+        "getLeakingObjectFilter$shark",
+        "()Lkotlin/jvm/u/l;",
+        "<init>",
+        "(Ljava/lang/String;I)V",
+        "Companion",
+        "a",
+        "VIEW",
+        "EDITOR",
+        "ACTIVITY",
+        "CONTEXT_WRAPPER",
+        "DIALOG",
+        "APPLICATION",
+        "INPUT_METHOD_MANAGER",
+        "FRAGMENT",
+        "SUPPORT_FRAGMENT",
+        "ANDROIDX_FRAGMENT",
+        "MESSAGE_QUEUE",
+        "MORTAR_PRESENTER",
+        "MORTAR_SCOPE",
+        "COORDINATOR",
+        "MAIN_THREAD",
+        "VIEW_ROOT_IMPL",
+        "WINDOW",
+        "TOAST",
+        "shark"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x1,
+        0xf
+    }
+.end annotation
+
+
+# static fields
+.field private static final synthetic $VALUES:[Lkshark/AndroidObjectInspectors;
+
+.field public static final enum ACTIVITY:Lkshark/AndroidObjectInspectors;
+
+.field public static final enum ANDROIDX_FRAGMENT:Lkshark/AndroidObjectInspectors;
+
+.field public static final enum APPLICATION:Lkshark/AndroidObjectInspectors;
+
+.field public static final enum CONTEXT_WRAPPER:Lkshark/AndroidObjectInspectors;
+
+.field public static final enum COORDINATOR:Lkshark/AndroidObjectInspectors;
+
+.field public static final Companion:Lkshark/AndroidObjectInspectors$a;
+
+.field public static final enum DIALOG:Lkshark/AndroidObjectInspectors;
+
+.field public static final enum EDITOR:Lkshark/AndroidObjectInspectors;
+
+.field public static final enum FRAGMENT:Lkshark/AndroidObjectInspectors;
+
+.field public static final enum INPUT_METHOD_MANAGER:Lkshark/AndroidObjectInspectors;
+
+.field public static final enum MAIN_THREAD:Lkshark/AndroidObjectInspectors;
+
+.field public static final enum MESSAGE_QUEUE:Lkshark/AndroidObjectInspectors;
+
+.field public static final enum MORTAR_PRESENTER:Lkshark/AndroidObjectInspectors;
+
+.field public static final enum MORTAR_SCOPE:Lkshark/AndroidObjectInspectors;
+
+.field public static final enum SUPPORT_FRAGMENT:Lkshark/AndroidObjectInspectors;
+
+.field public static final enum TOAST:Lkshark/AndroidObjectInspectors;
+
+.field public static final enum VIEW:Lkshark/AndroidObjectInspectors;
+
+.field public static final enum VIEW_ROOT_IMPL:Lkshark/AndroidObjectInspectors;
+
+.field public static final enum WINDOW:Lkshark/AndroidObjectInspectors;
+
+.field private static final appLeakingObjectFilters:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lkshark/FilteringLeakingObjectFinder$a;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation build Ln/e/a/d;
+    .end annotation
+.end field
+
+
+# instance fields
+.field private final leakingObjectFilter:Lkotlin/jvm/u/l;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlin/jvm/u/l<",
+            "Lkshark/HeapObject;",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation build Ln/e/a/e;
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 4
+
+    const/16 v0, 0x12
+
+    new-array v0, v0, [Lkshark/AndroidObjectInspectors;
+
+    new-instance v1, Lkshark/AndroidObjectInspectors$VIEW;
+
+    const-string v2, "VIEW"
+
+    const/4 v3, 0x0
+
+    invoke-direct {v1, v2, v3}, Lkshark/AndroidObjectInspectors$VIEW;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lkshark/AndroidObjectInspectors;->VIEW:Lkshark/AndroidObjectInspectors;
+
+    aput-object v1, v0, v3
+
+    new-instance v1, Lkshark/AndroidObjectInspectors$EDITOR;
+
+    const-string v2, "EDITOR"
+
+    const/4 v3, 0x1
+
+    invoke-direct {v1, v2, v3}, Lkshark/AndroidObjectInspectors$EDITOR;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lkshark/AndroidObjectInspectors;->EDITOR:Lkshark/AndroidObjectInspectors;
+
+    aput-object v1, v0, v3
+
+    new-instance v1, Lkshark/AndroidObjectInspectors$ACTIVITY;
+
+    const-string v2, "ACTIVITY"
+
+    const/4 v3, 0x2
+
+    invoke-direct {v1, v2, v3}, Lkshark/AndroidObjectInspectors$ACTIVITY;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lkshark/AndroidObjectInspectors;->ACTIVITY:Lkshark/AndroidObjectInspectors;
+
+    aput-object v1, v0, v3
+
+    new-instance v1, Lkshark/AndroidObjectInspectors$CONTEXT_WRAPPER;
+
+    const-string v2, "CONTEXT_WRAPPER"
+
+    const/4 v3, 0x3
+
+    invoke-direct {v1, v2, v3}, Lkshark/AndroidObjectInspectors$CONTEXT_WRAPPER;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lkshark/AndroidObjectInspectors;->CONTEXT_WRAPPER:Lkshark/AndroidObjectInspectors;
+
+    aput-object v1, v0, v3
+
+    new-instance v1, Lkshark/AndroidObjectInspectors$DIALOG;
+
+    const-string v2, "DIALOG"
+
+    const/4 v3, 0x4
+
+    invoke-direct {v1, v2, v3}, Lkshark/AndroidObjectInspectors$DIALOG;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lkshark/AndroidObjectInspectors;->DIALOG:Lkshark/AndroidObjectInspectors;
+
+    aput-object v1, v0, v3
+
+    new-instance v1, Lkshark/AndroidObjectInspectors$APPLICATION;
+
+    const-string v2, "APPLICATION"
+
+    const/4 v3, 0x5
+
+    invoke-direct {v1, v2, v3}, Lkshark/AndroidObjectInspectors$APPLICATION;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lkshark/AndroidObjectInspectors;->APPLICATION:Lkshark/AndroidObjectInspectors;
+
+    aput-object v1, v0, v3
+
+    new-instance v1, Lkshark/AndroidObjectInspectors$INPUT_METHOD_MANAGER;
+
+    const-string v2, "INPUT_METHOD_MANAGER"
+
+    const/4 v3, 0x6
+
+    invoke-direct {v1, v2, v3}, Lkshark/AndroidObjectInspectors$INPUT_METHOD_MANAGER;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lkshark/AndroidObjectInspectors;->INPUT_METHOD_MANAGER:Lkshark/AndroidObjectInspectors;
+
+    aput-object v1, v0, v3
+
+    new-instance v1, Lkshark/AndroidObjectInspectors$FRAGMENT;
+
+    const-string v2, "FRAGMENT"
+
+    const/4 v3, 0x7
+
+    invoke-direct {v1, v2, v3}, Lkshark/AndroidObjectInspectors$FRAGMENT;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lkshark/AndroidObjectInspectors;->FRAGMENT:Lkshark/AndroidObjectInspectors;
+
+    aput-object v1, v0, v3
+
+    new-instance v1, Lkshark/AndroidObjectInspectors$SUPPORT_FRAGMENT;
+
+    const-string v2, "SUPPORT_FRAGMENT"
+
+    const/16 v3, 0x8
+
+    invoke-direct {v1, v2, v3}, Lkshark/AndroidObjectInspectors$SUPPORT_FRAGMENT;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lkshark/AndroidObjectInspectors;->SUPPORT_FRAGMENT:Lkshark/AndroidObjectInspectors;
+
+    aput-object v1, v0, v3
+
+    new-instance v1, Lkshark/AndroidObjectInspectors$ANDROIDX_FRAGMENT;
+
+    const-string v2, "ANDROIDX_FRAGMENT"
+
+    const/16 v3, 0x9
+
+    invoke-direct {v1, v2, v3}, Lkshark/AndroidObjectInspectors$ANDROIDX_FRAGMENT;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lkshark/AndroidObjectInspectors;->ANDROIDX_FRAGMENT:Lkshark/AndroidObjectInspectors;
+
+    aput-object v1, v0, v3
+
+    new-instance v1, Lkshark/AndroidObjectInspectors$MESSAGE_QUEUE;
+
+    const-string v2, "MESSAGE_QUEUE"
+
+    const/16 v3, 0xa
+
+    invoke-direct {v1, v2, v3}, Lkshark/AndroidObjectInspectors$MESSAGE_QUEUE;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lkshark/AndroidObjectInspectors;->MESSAGE_QUEUE:Lkshark/AndroidObjectInspectors;
+
+    aput-object v1, v0, v3
+
+    new-instance v1, Lkshark/AndroidObjectInspectors$MORTAR_PRESENTER;
+
+    const-string v2, "MORTAR_PRESENTER"
+
+    const/16 v3, 0xb
+
+    invoke-direct {v1, v2, v3}, Lkshark/AndroidObjectInspectors$MORTAR_PRESENTER;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lkshark/AndroidObjectInspectors;->MORTAR_PRESENTER:Lkshark/AndroidObjectInspectors;
+
+    aput-object v1, v0, v3
+
+    new-instance v1, Lkshark/AndroidObjectInspectors$MORTAR_SCOPE;
+
+    const-string v2, "MORTAR_SCOPE"
+
+    const/16 v3, 0xc
+
+    invoke-direct {v1, v2, v3}, Lkshark/AndroidObjectInspectors$MORTAR_SCOPE;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lkshark/AndroidObjectInspectors;->MORTAR_SCOPE:Lkshark/AndroidObjectInspectors;
+
+    aput-object v1, v0, v3
+
+    new-instance v1, Lkshark/AndroidObjectInspectors$COORDINATOR;
+
+    const-string v2, "COORDINATOR"
+
+    const/16 v3, 0xd
+
+    invoke-direct {v1, v2, v3}, Lkshark/AndroidObjectInspectors$COORDINATOR;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lkshark/AndroidObjectInspectors;->COORDINATOR:Lkshark/AndroidObjectInspectors;
+
+    aput-object v1, v0, v3
+
+    new-instance v1, Lkshark/AndroidObjectInspectors$MAIN_THREAD;
+
+    const-string v2, "MAIN_THREAD"
+
+    const/16 v3, 0xe
+
+    invoke-direct {v1, v2, v3}, Lkshark/AndroidObjectInspectors$MAIN_THREAD;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lkshark/AndroidObjectInspectors;->MAIN_THREAD:Lkshark/AndroidObjectInspectors;
+
+    aput-object v1, v0, v3
+
+    new-instance v1, Lkshark/AndroidObjectInspectors$VIEW_ROOT_IMPL;
+
+    const-string v2, "VIEW_ROOT_IMPL"
+
+    const/16 v3, 0xf
+
+    invoke-direct {v1, v2, v3}, Lkshark/AndroidObjectInspectors$VIEW_ROOT_IMPL;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lkshark/AndroidObjectInspectors;->VIEW_ROOT_IMPL:Lkshark/AndroidObjectInspectors;
+
+    aput-object v1, v0, v3
+
+    new-instance v1, Lkshark/AndroidObjectInspectors$WINDOW;
+
+    const-string v2, "WINDOW"
+
+    const/16 v3, 0x10
+
+    invoke-direct {v1, v2, v3}, Lkshark/AndroidObjectInspectors$WINDOW;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lkshark/AndroidObjectInspectors;->WINDOW:Lkshark/AndroidObjectInspectors;
+
+    aput-object v1, v0, v3
+
+    new-instance v1, Lkshark/AndroidObjectInspectors$TOAST;
+
+    const-string v2, "TOAST"
+
+    const/16 v3, 0x11
+
+    invoke-direct {v1, v2, v3}, Lkshark/AndroidObjectInspectors$TOAST;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lkshark/AndroidObjectInspectors;->TOAST:Lkshark/AndroidObjectInspectors;
+
+    aput-object v1, v0, v3
+
+    sput-object v0, Lkshark/AndroidObjectInspectors;->$VALUES:[Lkshark/AndroidObjectInspectors;
+
+    new-instance v0, Lkshark/AndroidObjectInspectors$a;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lkshark/AndroidObjectInspectors$a;-><init>(Lkotlin/jvm/internal/u;)V
+
+    sput-object v0, Lkshark/AndroidObjectInspectors;->Companion:Lkshark/AndroidObjectInspectors$a;
+
+    .line 1
+    sget-object v1, Lkshark/ObjectInspectors;->Companion:Lkshark/ObjectInspectors$a;
+
+    invoke-virtual {v1}, Lkshark/ObjectInspectors$a;->c()Ljava/util/List;
+
+    move-result-object v1
+
+    .line 2
+    const-class v2, Lkshark/AndroidObjectInspectors;
+
+    invoke-static {v2}, Ljava/util/EnumSet;->allOf(Ljava/lang/Class;)Ljava/util/EnumSet;
+
+    move-result-object v2
+
+    const-string v3, "EnumSet.allOf(AndroidObjectInspectors::class.java)"
+
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {v0, v2}, Lkshark/AndroidObjectInspectors$a;->a(Ljava/util/Set;)Ljava/util/List;
+
+    move-result-object v0
+
+    .line 3
+    invoke-static {v1, v0}, Lkotlin/collections/s;->o4(Ljava/util/Collection;Ljava/lang/Iterable;)Ljava/util/List;
+
+    move-result-object v0
+
+    sput-object v0, Lkshark/AndroidObjectInspectors;->appLeakingObjectFilters:Ljava/util/List;
+
+    return-void
+.end method
+
+.method private constructor <init>(Ljava/lang/String;I)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0, p1, p2}, Lkshark/AndroidObjectInspectors;-><init>(Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+.method public static final synthetic access$getAppLeakingObjectFilters$cp()Ljava/util/List;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lkshark/AndroidObjectInspectors;->appLeakingObjectFilters:Ljava/util/List;
+
+    return-object v0
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lkshark/AndroidObjectInspectors;
+    .locals 1
+
+    const-class v0, Lkshark/AndroidObjectInspectors;
+
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    move-result-object p0
+
+    check-cast p0, Lkshark/AndroidObjectInspectors;
+
+    return-object p0
+.end method
+
+.method public static values()[Lkshark/AndroidObjectInspectors;
+    .locals 1
+
+    sget-object v0, Lkshark/AndroidObjectInspectors;->$VALUES:[Lkshark/AndroidObjectInspectors;
+
+    invoke-virtual {v0}, [Lkshark/AndroidObjectInspectors;->clone()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [Lkshark/AndroidObjectInspectors;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public getLeakingObjectFilter$shark()Lkotlin/jvm/u/l;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/jvm/u/l<",
+            "Lkshark/HeapObject;",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation build Ln/e/a/e;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lkshark/AndroidObjectInspectors;->leakingObjectFilter:Lkotlin/jvm/u/l;
+
+    return-object v0
+.end method

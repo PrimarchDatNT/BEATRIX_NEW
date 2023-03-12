@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/rl_root"
+    android:layout_width="60.0dip"
+    android:layout_height="70.0dip"
+    android:orientation="vertical"
+    android:paddingRight="6.0dip"
+    android:tag="layout/item_none_skin_color_0">
+    <FrameLayout
+        android:layout_width="54.0dip"
+        android:layout_height="54.0dip">
+        <com.commsource.widget.round.RoundIconfontTextView
+            android:id="@id/vIfvIcon"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/if_look_select"
+            android:textSize="30.0dip"
+            app:rv_cornerRadius="4.0dip"
+            app:rv_isRippleEnable="false" />
+        <com.commsource.comic.StrokeView
+            android:id="@id/sv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+    <TextView
+        android:id="@id/tv_name"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="4.0dip"
+        android:gravity="center"
+        android:text="None"
+        android:textColor="@color/Gray_A"
+        android:textSize="10.0dip" />
+</LinearLayout>

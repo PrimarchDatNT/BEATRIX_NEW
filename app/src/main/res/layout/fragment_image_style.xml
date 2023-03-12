@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:tag="layout/fragment_image_style_0">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/fl_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom"
+        android:tag="binding_1">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/tabBar"
+            android:layout_width="wrap_content"
+            android:layout_height="44.0dip"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <FrameLayout
+            android:id="@id/divider"
+            android:layout_width="fill_parent"
+            android:layout_height="1.5dip"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@id/tabBar">
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_gravity="bottom"
+                android:background="@color/color_e4e4e4" />
+            <com.commsource.widget.LineSelectView
+                android:id="@id/lineSelect"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:tag="binding_2" />
+        </FrameLayout>
+        <com.commsource.camera.montage.CustomViewPager
+            android:id="@id/style_page_container"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            app:layout_constraintBottom_toTopOf="@id/confirm_cancel"
+            app:layout_constraintTop_toBottomOf="@id/divider"
+            app:layout_constraintVertical_weight="1.0"
+            app:layout_goneMarginTop="10.0dip" />
+        <TextView
+            android:id="@id/disable_panel_prompt"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:background="@color/white"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/t_imagelayer_style_textlayer_tip"
+            android:textColor="@color/color_333333"
+            android:textSize="15.0dip"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@id/confirm_cancel"
+            app:layout_constraintTop_toBottomOf="@id/divider"
+            app:layout_constraintVertical_weight="1.0"
+            app:layout_goneMarginTop="10.0dip" />
+        <com.commsource.studio.component.ConfirmCancelComponent
+            android:id="@id/confirm_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:tag="binding_3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/style_page_container" />
+        <FrameLayout
+            android:id="@id/bubble"
+            android:layout_width="82.0dip"
+            android:layout_height="82.0dip"
+            android:visibility="invisible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/common_slider_icon_segmented_bubble" />
+            <TextView
+                android:id="@id/bubbleProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/color_333333"
+                android:textSize="17.0dip" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

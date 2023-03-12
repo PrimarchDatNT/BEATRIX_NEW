@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/activity_abtest_setting_0" android:background="@color/white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/topbar">
+        <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:layout_below="@id/topbar" app:cardCornerRadius="8.0dip" app:cardElevation="2.0dip">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_abtest" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="30.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="当前 gid：" android:layout_centerVertical="true" />
+                    <TextView android:textSize="14.0dip" android:textColor="@color/black" android:id="@id/tv_gid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="30.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="海外 gid：" android:layout_centerVertical="true" />
+                    <TextView android:textSize="14.0dip" android:textColor="@color/black" android:id="@id/tv_oversea_gid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="30.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Android ID：" android:layout_centerVertical="true" />
+                    <TextView android:textSize="14.0dip" android:textColor="@color/black" android:id="@id/tv_android_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="30.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/black" android:id="@id/tv_firebase" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FirebaseId：" android:layout_centerVertical="true" />
+                    <com.commsource.widget.AutoFitTextView android:textSize="12.0dip" android:textColor="@color/black" android:id="@id/tv_firebase_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="0" android:layout_toRightOf="@id/tv_firebase" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <TextView android:textSize="14.0dip" android:textColor="@color/black" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="当前实验:" />
+                <TextView android:textColor="@color/black" android:id="@id/tv_now_use" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="2.0dip" android:overScrollMode="always" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_abtest" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="10.0dip" android:layout_weight="1.0" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <RelativeLayout android:id="@id/rl_input" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:gravity="center_vertical" android:id="@id/edit_input_abcode" android:padding="15.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="5" android:layout_toLeftOf="@id/btn_use_ab" android:inputType="phone" />
+            <TextView android:textColor="@color/black" android:id="@id/btn_use_ab" android:background="@color/white" android:padding="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开启/关闭实验" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <Button android:textColor="@color/white" android:gravity="center" android:id="@id/btn_close_test" android:background="@drawable/shape_radiu20_color30000000" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginRight="10.0dip" android:text="关闭所有实验" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="close_all_text" />
+    <RelativeLayout android:id="@id/topbar" android:animateLayoutChanges="true" android:elevation="3.0dip" style="@style/top_bar">
+        <ImageButton android:id="@id/ibtn_left" android:layout_width="55.0dip" android:layout_height="fill_parent" android:src="@drawable/arrow_back_icon_black" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/ActionBar_Left" />
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="ABTest" android:freezesText="true" android:layout_toRightOf="@id/ibtn_left" android:layout_centerVertical="true" style="@style/text_normal" />
+        <TextView android:textColor="@color/black" android:background="?selectableItemBackground" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="线上数据" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="showRemoteData" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_local" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="手动模式" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

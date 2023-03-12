@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingBottom="50.0dip"
+    android:tag="layout/fragment_sub_tab_edit_0">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:tag="binding_1">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/rv_function"
+            android:layout_width="fill_parent"
+            android:layout_height="64.0dip"
+            android:layout_gravity="center"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingLeft="15.0dip" />
+    </FrameLayout>
+</FrameLayout>

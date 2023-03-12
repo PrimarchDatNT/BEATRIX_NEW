@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/dialog_progress_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.commsource.widget.round.RoundFrameLayout android:id="@id/rflProcess" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_centerInParent="true" app:rv_backgroundColor="@color/black60" app:rv_cornerRadius="20.0dip">
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/lav" android:layout_width="64.0dip" android:layout_height="64.0dip" app:lottie_autoPlay="true" app:lottie_fileName="lottie/loading.json" app:lottie_imageAssetsFolder="lottie" app:lottie_loop="true" />
+        </com.commsource.widget.round.RoundFrameLayout>
+        <com.commsource.widget.PressTextView android:textSize="14.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tvCancel" android:background="@drawable/dialog_radius_22_black20" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginTop="12.0dip" android:text="@string/ai_editor_cancel" android:layout_below="@id/rflProcess" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

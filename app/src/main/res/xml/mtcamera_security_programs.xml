@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SecurityPrograms xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SecurityProgram app:manufacturer="huawei" app:name="@string/mtcamera_system_huawei" app:type="system" />
+    <SecurityProgram app:manufacturer="samsung" app:name="@string/mtcamera_system_samsung" app:type="system" />
+    <SecurityProgram app:manufacturer="htc" app:name="@string/mtcamera_system_htc" app:type="system" />
+    <SecurityProgram app:manufacturer="xiaomi" app:name="@string/mtcamera_system_xiaomi" app:type="system" />
+    <SecurityProgram app:manufacturer="meizu" app:name="@string/mtcamera_system_meizu" app:type="system" />
+    <SecurityProgram app:manufacturer="meitu" app:packageName="com.mediatek.security" app:type="system" />
+    <SecurityProgram app:packageName="com.meitu.security" app:type="system" />
+    <SecurityProgram app:packageName="com.qihoo360.mobilesafe" app:type="app" />
+    <SecurityProgram app:packageName="com.qihoo.antivirus" app:type="app" />
+    <SecurityProgram app:packageName="com.tencent.qqpimsecure" app:type="app" />
+    <SecurityProgram app:packageName="com.lbe.security" app:type="app" />
+    <SecurityProgram app:packageName="com.lenovo.safecenter" app:type="app" />
+    <SecurityProgram app:packageName="com.kingroot.master" app:type="app" />
+    <SecurityProgram app:packageName="com.yulong.android.security" app:type="app" />
+    <SecurityProgram app:packageName="com.yulong.android.seccenter" app:type="app" />
+    <SecurityProgram app:packageName="com.iqoo.secure" app:type="app" />
+    <SecurityProgram app:packageName="com.zte.heartyservice" app:type="app" />
+    <SecurityProgram app:packageName="com.coloros.safecenter" app:type="system" />
+</SecurityPrograms>

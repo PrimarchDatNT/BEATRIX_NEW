@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_bottom_icon_right_margin">20.0dip</dimen>
+    <dimen name="account_info_text_size">15.0dip</dimen>
+    <dimen name="beauty_teeth_white_margin_center">60.0dip</dimen>
+    <dimen name="camera_setting_height_1">97.5dip</dimen>
+    <dimen name="camera_setting_height_2">50.0dip</dimen>
+    <dimen name="camera_tips_margin_bottom">40.0dip</dimen>
+    <dimen name="filter_iap_watch_video_text_size">13.0dip</dimen>
+    <dimen name="iap_item_padding">10.0dip</dimen>
+    <dimen name="iap_title_top">10.0dip</dimen>
+</resources>

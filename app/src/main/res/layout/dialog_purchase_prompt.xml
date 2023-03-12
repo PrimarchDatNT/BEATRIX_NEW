@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/content_container"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8">
+        <com.commsource.widget.VideoPlayView
+            android:id="@id/dialog_video_view"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:id="@id/dialog_first_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/edit_aibeauty_img_guide_dark"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <com.commsource.widget.BeautyBlingView
+            android:id="@id/bling_view"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:visibility="gone"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15.0dip"
+            android:gravity="center"
+            android:text="@string/remove_wrinkle_unlock_title"
+            android:textColor="@color/color_403f3f"
+            android:textSize="@dimen/wrinkle_purchase_dialog_btn_text_size"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dialog_video_view" />
+        <FrameLayout
+            android:id="@id/watch_video_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="18.0dip"
+            android:layout_marginRight="20.0dip"
+            android:background="@drawable/filter_iap_dialog_look_video_bg_sel"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/subtitle">
+            <com.commsource.widget.PressTextView
+                android:id="@id/watch_video_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="35.0dip"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/vip_video_play_icon"
+                android:drawablePadding="4.0dip"
+                android:gravity="center"
+                android:text="@string/filter_iap_try"
+                android:textColor="@color/color_ff6c95"
+                android:textSize="13.0dip" />
+            <com.commsource.widget.LoadingView
+                android:id="@id/watch_video_loading"
+                android:layout_width="22.0dip"
+                android:layout_height="22.0dip"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+        </FrameLayout>
+        <RelativeLayout
+            android:id="@id/purchase_container"
+            android:layout_width="fill_parent"
+            android:layout_height="35.0dip"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:background="@drawable/filter_iap_dialog_purchase_bg"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/watch_video_container">
+            <TextView
+                android:id="@id/btn_purchase"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/remove_wrinkle_unlock_purchase"
+                android:textColor="@color/white"
+                android:textSize="15.0dip" />
+            <ProgressBar
+                android:id="@id/purchase_loading"
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:layout_centerInParent="true"
+                android:indeterminateDrawable="@drawable/progress_filter_price_loading"
+                android:visibility="gone" />
+        </RelativeLayout>
+        <TextView
+            android:id="@id/btn_restore"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginBottom="15.0dip"
+            android:gravity="center_horizontal"
+            android:text="@string/restore_purchases"
+            android:textColor="@color/color_ff6c95"
+            android:textSize="14.0dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/purchase_container" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@id/btn_cancel"
+        android:layout_width="34.0dip"
+        android:layout_height="34.0dip"
+        android:layout_marginTop="15.0dip"
+        android:src="@drawable/common_close_icon_circle"
+        app:layout_constraintLeft_toLeftOf="@id/content_container"
+        app:layout_constraintRight_toRightOf="@id/content_container"
+        app:layout_constraintTop_toBottomOf="@id/content_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

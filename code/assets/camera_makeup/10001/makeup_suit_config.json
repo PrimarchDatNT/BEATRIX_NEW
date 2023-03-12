@@ -1,0 +1,22 @@
+{
+    "blusher":
+        {
+            "name":"OR00" ,
+            "icon_path":"makeup_single_icon/blusher_10001.jpg",
+            "slider_value":"80"
+        }
+        ,
+    "eye":
+        {
+            "name":"OR00" ,
+            "icon_path":"makeup_single_icon/eye_10001.jpg",
+            "slider_value":"80"
+        }
+        ,
+    "lip":
+        {
+            "name":"OR00" ,
+            "icon_path":"makeup_single_icon/lip_10001.jpg",
+            "slider_value":"80"
+        }
+}

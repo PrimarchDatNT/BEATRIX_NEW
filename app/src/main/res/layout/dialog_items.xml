@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <ListView
+        android:id="@id/listview_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/color_d7d4d4"
+        android:dividerHeight="1.0dip"
+        android:listSelector="@color/transparent" />
+    <Button
+        android:id="@id/btn_negative"
+        android:layout_width="fill_parent"
+        android:layout_height="55.0dip"
+        android:background="@color/color_fb5986"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:textColor="@color/white"
+        android:textSize="16.0dip" />
+</LinearLayout>

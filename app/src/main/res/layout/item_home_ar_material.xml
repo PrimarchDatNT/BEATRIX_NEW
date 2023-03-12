@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/rl_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/item_home_ar_material_0">
+    <TextView
+        android:id="@id/tvName"
+        android:layout_width="fill_parent"
+        android:layout_height="13.0dip"
+        android:layout_below="@id/ivImage"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5.0dip"
+        android:layout_toRightOf="@id/ivIcon"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:text="@string/beauty_main_stickers"
+        android:textColor="@color/color_b9b9b9"
+        android:textSize="10.0dip" />
+    <ImageView
+        android:id="@id/ivIcon"
+        android:layout_width="10.0dip"
+        android:layout_height="10.0dip"
+        android:layout_alignTop="@id/tvName"
+        android:layout_alignBottom="@id/tvName"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15.0dip"
+        android:src="@drawable/home_ar_icon_gray" />
+    <ImageView
+        android:id="@id/ivImage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:tag="binding_1" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/ripple_radius_6" />
+    <ImageView
+        android:id="@id/ivIap"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_margin="2.0dip" />
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

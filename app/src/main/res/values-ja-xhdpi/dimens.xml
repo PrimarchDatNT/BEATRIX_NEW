@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="beauty_tab_text_size">11.0dip</dimen>
+    <dimen name="beauty_submodule_text_size">11.0dip</dimen>
+    <dimen name="setting_social_networks_title_size">15.0dip</dimen>
+    <dimen name="alert_dialog_btn_text_size">14.0dip</dimen>
+    <dimen name="beauty_submodule_onekey_button_padding">3.0dip</dimen>
+    <dimen name="beauty_taller_reset_padding">4.0dip</dimen>
+</resources>

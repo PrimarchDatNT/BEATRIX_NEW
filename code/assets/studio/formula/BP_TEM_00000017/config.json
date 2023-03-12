@@ -1,0 +1,189 @@
+{
+  "datas" : [
+    {
+      "type" : 0,
+      "effectParams" : {
+        "background" : {
+          "color" : "0xFFFFFF"
+        }
+      },
+      "position" : {
+        "widthRatio" : 1,
+        "centerX" : 0,
+        "height" : 1920,
+        "flipX" : false,
+        "flipY" : false,
+        "rotate" : 0,
+        "width" : 1080,
+        "centerY" : 0
+      }
+    },
+    {
+      "type" : 1,
+      "layerStyle" : {
+        "blendAlpha" : 1,
+        "blendType" : 0
+      },
+      "products" : [
+        {
+          "m_id" : "BP_PGC_00000025",
+          "type" : 52,
+          "asset_url" : "https:\/\/gcs-duffle.pixocial.com\/test\/8a1e3336-e628-408a-bb76-18259aa0157e.png"
+        }
+      ],
+      "effectParams" : {
+        "picture" : {
+          "isMain" : true
+        }
+      },
+      "position" : {
+        "centerX" : 0.5,
+        "rotate" : 0,
+        "height" : 1920,
+        "flipX" : false,
+        "flipY" : false,
+        "cropInfo" : {
+          "type" : 0,
+          "rotate" : 0,
+          "flipX" : false,
+          "flipY" : false
+        },
+        "width" : 1280,
+        "widthRatio" : 1.2616000000000001,
+        "centerY" : 0.50660000000000005
+      }
+    },
+    {
+      "type" : 2,
+      "layerStyle" : {
+        "blendType" : 0,
+        "blendAlpha" : 1
+      },
+      "position" : {
+        "flipY" : false,
+        "rotate" : 0,
+        "width" : 489,
+        "height" : 702,
+        "centerX" : 0.5,
+        "widthRatio" : 0.90210000000000001,
+        "flipX" : false,
+        "centerY" : 0.38829999999999998
+      },
+      "products" : [
+        {
+          "type" : 52,
+          "asset_url" : "https:\/\/gcs-duffle.pixocial.com\/test\/5647a6d1-d4cf-43dc-93d4-70a92d782d15.png",
+          "m_id" : "BP_PGC_00000026"
+        }
+      ]
+    },
+    {
+      "layerStyle" : {
+        "blendAlpha" : 1,
+        "blendType" : 0
+      },
+      "position" : {
+        "width" : 489,
+        "centerY" : 0.61170000000000002,
+        "height" : 702,
+        "centerX" : 0.5,
+        "rotate" : 0,
+        "widthRatio" : 0.90210000000000001,
+        "flipX" : false,
+        "flipY" : false
+      },
+      "products" : [
+        {
+          "m_id" : "BP_PGC_00000027",
+          "asset_url" : "https:\/\/gcs-duffle.pixocial.com\/test\/5e6b6a52-717d-4b24-9e26-d08df67f0279.png",
+          "type" : 52
+        }
+      ],
+      "type" : 2
+    },
+    {
+      "products" : [
+        {
+          "m_id" : "33",
+          "type" : 23
+        }
+      ],
+      "type" : 4,
+      "effectParams" : {
+        "filter" : {
+          "alpha" : 0.53900000000000003
+        }
+      }
+    },
+    {
+      "layerStyle" : {
+        "blendType" : 0,
+        "blendAlpha" : 1
+      },
+      "type" : 3,
+      "effectParams" : {
+        "text" : {
+          "alpha" : 1,
+          "isUnderline" : false,
+          "justify" : 2,
+          "color" : "0xFFFFFF",
+          "isItalic" : false,
+          "isStrikeThrough" : false,
+          "wordSpacing" : 0,
+          "lineSpacing" : 0,
+          "isBold" : false,
+          "text" : "Today"
+        }
+      },
+      "position" : {
+        "centerX" : 0.30149999999999999,
+        "flipY" : false,
+        "flipX" : false,
+        "rotate" : 0,
+        "height" : 206,
+        "width" : 363,
+        "centerY" : 0.20419999999999999,
+        "widthRatio" : 0.23999999999999999
+      },
+      "products" : [
+        {
+          "type" : 44,
+          "m_id" : "BP_TEX_00000000"
+        },
+        {
+          "m_id" : "BP_FON_00000064",
+          "type" : 26
+        }
+      ]
+    },
+    {
+      "layerStyle" : {
+        "blendAlpha" : 1,
+        "blendType" : 0
+      },
+      "type" : 2,
+      "products" : [
+        {
+          "m_id" : "30005505",
+          "type" : 54
+        }
+      ],
+      "position" : {
+        "widthRatio" : 0.063799999999999996,
+        "flipX" : false,
+        "width" : 570,
+        "rotate" : 0,
+        "flipY" : false,
+        "centerY" : 0.20419999999999999,
+        "centerX" : 0.1497,
+        "height" : 563
+      }
+    }
+  ],
+  "versionCode" : 1,
+  "framing" : {
+    "width" : 1080,
+    "proportion" : 1,
+    "height" : 1920
+  }
+}

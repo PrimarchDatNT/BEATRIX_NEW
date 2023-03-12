@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:tag="layout/fragment_filter_sub_tab_0">
+    <include
+        android:id="@id/nameTips"
+        layout="@layout/beauty_filter_tips"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80.0dip"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout
+        android:id="@id/adjust_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="70.0dip"
+        android:layout_marginBottom="154.0dip"
+        android:alpha="0.0"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:tag="binding_1"
+        android:translationY="50.0dip"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <com.commsource.widget.part.XSeekBubbleView
+            android:id="@id/xbv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30.0dip"
+            android:layout_marginTop="-85.0dip"
+            android:tag="binding_2" />
+        <com.commsource.widget.XSeekBar
+            android:id="@id/xsb"
+            android:layout_width="fill_parent"
+            android:layout_height="20.0dip"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30.0dip"
+            android:layout_marginRight="30.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:visibility="visible"
+            app:isEnableCenterPoint="false"
+            app:xBackgroundColor="@color/color_e5e5e5"
+            app:xProgressColor="@color/black" />
+    </FrameLayout>
+    <TextView
+        android:id="@id/collectTips"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:layout_gravity="center"
+        android:alpha="0.0"
+        android:background="@color/color_ccfb5986"
+        android:gravity="center"
+        android:paddingLeft="16.0dip"
+        android:paddingTop="10.0dip"
+        android:paddingRight="16.0dip"
+        android:paddingBottom="20.0dip"
+        android:text="@string/filter_long_press_collect"
+        android:textColor="@color/white"
+        android:textSize="14.0dip"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="@id/beauty_bottom_menu" />
+    <FrameLayout
+        android:id="@id/beauty_bottom_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="50.0dip"
+        android:outlineProvider="none"
+        android:tag="binding_3"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <View
+            android:id="@id/v_animate"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:tag="binding_4" />
+        <FrameLayout
+            android:id="@id/fl_content"
+            android:layout_width="fill_parent"
+            android:layout_height="124.0dip"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/rv_group"
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:layout_marginLeft="84.5dip"
+                android:orientation="horizontal" />
+            <ImageView
+                android:id="@id/beauty_shop_enter"
+                android:layout_width="86.0dip"
+                android:layout_height="40.0dip"
+                android:paddingLeft="17.0dip"
+                android:paddingRight="17.0dip"
+                android:src="@drawable/edit_filter_img_store"
+                android:tag="binding_5" />
+            <View
+                android:id="@id/divider"
+                android:layout_width="0.5dip"
+                android:layout_height="20.0dip"
+                android:layout_marginLeft="84.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@color/color_89d8d8d8" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/rv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="40.0dip"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="horizontal" />
+            <ImageView
+                android:id="@id/iv_new_store"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="66.0dip"
+                android:layout_marginTop="2.0dip"
+                android:src="@drawable/corner_store_new" />
+            <ImageView
+                android:id="@id/iv_left_collect"
+                android:layout_width="30.0dip"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="40.0dip"
+                android:background="@color/white"
+                android:gravity="center"
+                android:src="@drawable/selfie_filter_collect_icon"
+                android:visibility="gone" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@id/detailContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

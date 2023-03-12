@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:tag="layout/fragment_filter_suspend_0" android:layout_width="fill_parent" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.commsource.widget.XSeekBar android:layout_gravity="bottom" android:id="@id/vSeekBar" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginLeft="36.0dip" android:layout_marginRight="36.0dip" android:layout_marginBottom="14.0dip" app:isEnableStroke="true" />
+    <com.commsource.widget.part.XSeekCameraTextView android:textSize="28.0dip" android:layout_gravity="bottom" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:layout_marginBottom="41.0dip" />
+</FrameLayout>

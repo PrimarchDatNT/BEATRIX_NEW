@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Default</string>
+			<key>FacePart</key>
+			<array>
+				<dict>
+					<key>Type</key>
+					<string>S</string>
+					<key>Path</key>
+					<string>xr3.png</string>
+					<key>LocateMethod</key>
+					<string>10</string>
+					<key>FilterType</key>
+					<string>6</string>
+					<key>Rectangle</key>
+					<string>0,45,1000,1210</string>
+					<key>ORGBA</key>
+					<string>100,0,0,0,255</string>
+					<key>MUType</key>
+					<string>4</string>
+					<key>Operation</key>
+					<string>1</string>
+					<!-- 修容 -->
+                    <key>MakeupCustomName</key>
+                    <string>MUFACE_HIGHLIGHT</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</plist>

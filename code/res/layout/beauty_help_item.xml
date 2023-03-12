@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/beauty_help_item_0" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="12.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/beauty_help_title_tv" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginLeft="2.5dip" android:layout_marginRight="2.5dip" android:includeFontPadding="false" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/color_8d8d8d" android:gravity="center" android:id="@id/beauty_help_text_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="2.0dip" android:includeFontPadding="false" />
+    </LinearLayout>
+    <ImageView android:id="@id/beauty_help_iv" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="400.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="18.0dip" android:elevation="5.0dip" />
+</LinearLayout>

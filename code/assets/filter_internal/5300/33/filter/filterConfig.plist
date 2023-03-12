@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>ID</key>
+        <integer>33</integer>
+        <key>faceColorAlpha</key>
+        <integer>0</integer>
+        <key>onlineDict</key>
+        <array>
+            <dict>
+                <key>BlendStyle</key>
+                <integer>1</integer>
+                <key>VSPath</key>
+                <string>Shader_Vertex.mtsl2</string>
+                <key>FSPath</key>
+                <string>Shader_Mapy_64.mtsl2</string>
+                <key>Blendalpha</key>
+                <string>0.6</string>
+                <key>MaskPath</key>
+                <array>
+                    <string>33.png</string>
+                </array>
+            </dict>
+        </array>
+    </dict>
+
+</plist>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>ID</key>
+        <integer>2</integer>
+        <key>faceColorAlpha</key>
+        <integer>0</integer>
+        <key>onlineDict</key>
+        <array>
+            <dict>
+                <key>Blendalpha</key>
+                <string>0.60</string>
+                <key>VSPath</key>
+                <string>Shader_Vertex.mtsl2</string>
+                <key>FSPath</key>
+                <string>MTFilter_Mapy8x8Alpha_AB.mtsl2</string>
+                <key>ScaleType</key>
+                <array>
+                    <integer>1</integer>
+                </array>
+                <key>MaskPath</key>
+                <array>
+                    <string>2.png</string>
+                    <string>noise.jpg</string>
+                    <string>PSOverlay20.png</string>
+                </array>
+                <key>CoverType</key>
+                <array>
+                    <integer>1</integer>
+                </array>
+                <key>MaterialAlpha</key>
+                <array>
+                    <integer>100</integer>
+                </array>
+            </dict>
+        </array>
+    </dict>
+</plist>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>美漫</string>
+			<key>FacePart</key>
+			<array>
+				<dict>
+					<key>Type</key>
+					<string>Script</string>
+					<key>EnableFace</key>
+					<integer>1</integer>
+					<key>EnableFaceSegmemt</key>
+					<integer>0</integer>
+					<key>EnableMultiplyInstance</key>
+					<integer>1</integer>
+					<key>PacketPath</key>
+					<string>effect</string>
+					<key>ScriptPath</key>
+					<string>effect/original.lua</string>
+					<key>ScriptVersionCode</key>
+					<integer>0</integer>
+					<key>ScriptLevel</key>
+					<integer>0</integer>
+					<key>ScriptName</key>
+					<string>effect</string>
+					<key>Parameters</key>
+					<array>
+				        <!-- 透明程度滑杆 -->
+						<dict>
+							<key>Type</key>
+							<string>SLIDER</string>
+							<!-- 通用自定义滑杆Flag(ParamFlag_CommonCustomSlider) -->
+							<key>Flag</key>
+							<string>4150</string>
+							<key>Key</key>
+							<string>opacity</string>
+							<key>ChineseTip</key>
+							<string>中文提示</string>
+							<key>EnglishTip</key>
+							<string>EnglishTip</string>
+							<key>MinValue</key>
+							<string>0.0</string>
+							<key>MaxValue</key>
+							<string>1.0</string>
+							<key>DefaultValue</key>
+							<string>1.0</string>
+						</dict>
+
+						<!-- 纹理密度滑杆 -->
+						<dict>
+							<key>Type</key>
+							<string>SLIDER</string>
+							<!-- 通用自定义滑杆Flag(ParamFlag_CommonCustomSlider) -->
+							<key>Flag</key>
+							<string>4150</string>
+							<key>Key</key>
+							<string>density</string>
+							<key>ChineseTip</key>
+							<string>中文提示</string>
+							<key>EnglishTip</key>
+							<string>EnglishTip</string>
+							<key>MinValue</key>
+							<string>0.0</string>
+							<key>MaxValue</key>
+							<string>1.0</string>
+							<key>DefaultValue</key>
+							<string>0.25</string>
+						</dict>
+
+				    </array>
+
+				</dict>
+			</array>
+		</dict>
+	</array>
+</plist>

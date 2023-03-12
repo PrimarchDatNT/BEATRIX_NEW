@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<integer>1001</integer>
+	<key>FilterPart</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>AnattaBeauty</string>
+			<key>Filters</key>
+			<array>
+				<dict>
+					<key>Name</key>
+					<string>SourceInput</string>
+				</dict>
+                <dict>
+                    <key>Name</key>
+                    <string>FacialShadowSmooth</string>
+                    <key>Type</key>
+                    <string>LaughLine</string>
+                    <key>TearTroughSwitch</key>
+                    <string>1</string>
+                    <key>TearTroughAlpha</key>
+                    <string>0.0</string>
+                    <key>LaughLineSwitch</key>
+                    <string>0</string>
+                    <key>LaughLineAlpha</key>
+                    <string>0.0</string>
+                    <key>FromSource</key>
+                    <array>
+                        <string>SourceInput</string>
+                    </array>
+                </dict>
+                <dict>
+                    <key>Name</key>
+                    <string>ShadowSmoothBright</string>
+                    <key>LaughLineSwitch</key>
+                    <string>0</string>
+                    <key>RemovePouchSwitch</key>
+                    <string>1</string>
+                    <key>RemovePouchAlpha</key>
+                    <string>0.3</string>
+                    <key>FromSource</key>
+                    <array>
+                        <string>FacialShadowSmooth</string>
+                    </array>
+                </dict>
+                <dict>
+                    <key>Name</key>
+                    <string>DodgeBurn</string>
+                    <key>Alpha</key>
+                    <string>0.5</string>
+                    <key>Switch</key>
+                    <string>1</string>
+                    <key>Type</key>
+                    <string>1</string>
+                    <key>IsNeedMergeInside</key>
+                    <string>1</string>
+                    <key>FromSource</key>
+                    <array>
+                        <string>ShadowSmoothBright</string>
+                    </array>
+                </dict>
+				<dict>
+					<key>Name</key>
+					<string>FaceColor</string>
+					<key>Type</key>
+					<string>DoubleLookupWithHueAdjust</string>
+                    <key>Alpha</key>
+                    <string>1.0</string>
+                    <key>Switch</key>
+                    <string>1</string>
+					<!--        是否需要皮肤分割mask            -->
+					<key>WithMask</key>
+					<string>1</string>
+					<!--        自动对比度/自动色阶相关参数            -->
+					<key>AutoContrastType</key>
+					<string>1</string>
+					<key>AutoContrastSwitch</key>
+					<string>0</string>
+					<key>AutoContrastAlpha</key>
+					<string>1.0</string>
+					<!--        肤色基准图 路径           -->
+					<key>FaceColor_lookUpBasePath</key>
+					<string>FaceColor/wheat.png</string>
+					<!--        色调基准图 （左端）路径           -->
+					<key>FaceColor_lookUpBlackPath</key>
+					<string>FaceColor/hue_pink.png</string>
+					<!--        色调基准图（右端） 路径           -->
+					<key>FaceColor_lookUpWhitePath</key>
+					<string>FaceColor/hue_yellow.png</string>
+					<key>FaceColor_lookUpSizeType</key>
+					<string>64</string>
+                    <!--         五官的混合程度           -->
+                    <key>EyeBrowAlpha</key>
+                    <string>0.6</string>
+                    <key>MouthAlpha</key>
+                    <string>0.4</string>
+                    <key>EyesAlpha</key>
+                    <string>0.2</string>
+					<key>FromSource</key>
+					<array>
+						<string>DodgeBurn</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>ResultOutput</string>
+					<key>FromSource</key>
+					<array>
+						<string>FaceColor</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

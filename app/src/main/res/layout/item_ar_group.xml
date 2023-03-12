@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/rl_content"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:tag="layout/item_ar_group_0">
+    <com.commsource.widget.SelectImageView
+        android:id="@id/iv"
+        android:layout_width="25.0dip"
+        android:layout_height="25.0dip"
+        android:layout_gravity="center_vertical"
+        android:visibility="visible" />
+    <com.commsource.widget.IconFrontView
+        android:id="@id/ifv"
+        android:layout_width="16.0dip"
+        android:layout_height="16.0dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="4.0dip"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="16.0dip"
+        android:visibility="gone" />
+    <com.commsource.widget.BoldTextView
+        android:id="@id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/ifv"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="13.0dip" />
+    <View
+        android:id="@id/red_point_iv"
+        android:layout_width="6.0dip"
+        android:layout_height="6.0dip"
+        android:layout_marginLeft="-3.0dip"
+        android:layout_marginTop="4.5dip"
+        android:background="@drawable/camera_ar_material_red"
+        android:visibility="visible" />
+</LinearLayout>

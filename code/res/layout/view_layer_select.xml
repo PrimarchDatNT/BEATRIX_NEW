@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/view_layer_select_0" android:paddingBottom="10.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_layer_delete" android:background="@drawable/layer_delete_bg" android:layout_width="110.0dip" android:layout_height="220.0dip" android:transformPivotX="0.0dip" android:transformPivotY="110.0dip" android:scaleX="0.0" android:scaleY="0.0">
+        <com.commsource.widget.IconFrontView android:textSize="30.0dip" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_icon_layers_delete" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:layout_width="50.0dip" android:layout_height="wrap_content" android:text="@string/cloud_album_delete" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/iv_indicator" android:tag="binding_1" android:padding="0.5dip" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginBottom="15.0dip" android:src="@drawable/edit_icon_layer_handle" />
+    <com.meitu.ratiorelativelayout.RatioRelativeLayout android:layout_gravity="right" android:id="@id/layer_manage_container" android:background="@color/white" android:clipChildren="false" android:clipToPadding="false" android:layout_width="88.0dip" android:layout_height="fill_parent">
+        <com.commsource.studio.LayerManageListLayout android:id="@id/layerList" android:background="@color/white" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="60.0dip" android:layout_marginBottom="60.0dip" />
+        <View android:id="@id/cover1" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="45.0dip" />
+        <View android:id="@id/shadow1" android:background="@drawable/white_cover_90" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_below="@id/cover1" />
+        <View android:background="@drawable/white_cover_270" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_above="@id/cover2" />
+        <View android:id="@id/cover2" android:background="@color/white" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="83.0dip" android:layout_marginBottom="-40.0dip" android:layout_alignParentBottom="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_333333" android:gravity="center" android:id="@id/collapse_text" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="@string/collapse" />
+            <ImageView android:id="@id/arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:src="@drawable/edit_icon_layer_handle_arrow" />
+        </LinearLayout>
+        <com.commsource.widget.IconFrontView android:textSize="20.0dip" android:textColor="@color/Gray_C" android:gravity="center" android:id="@id/iv_layer_guide" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="60.0dip" android:layout_marginRight="5.0dip" android:text="@string/edit_icon_help" android:layout_alignParentRight="true" />
+    </com.meitu.ratiorelativelayout.RatioRelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/tipsBubbleView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip">
+        <ImageView android:layout_gravity="right" android:id="@id/iv_bubble_indictor_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:src="@drawable/editor_bubble_indictor_up" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="right" android:id="@id/tip_content" android:tag="binding_2" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/t_guide_layer_edit" />
+        <ImageView android:layout_gravity="right" android:id="@id/iv_bubble_indictor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:src="@drawable/editor_bubble_indictor_down" />
+    </LinearLayout>
+</FrameLayout>

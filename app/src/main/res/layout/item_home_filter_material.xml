@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/rl_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/item_home_filter_material_0">
+    <View
+        android:id="@id/ivIcon"
+        android:layout_width="10.0dip"
+        android:layout_height="10.0dip"
+        android:layout_alignTop="@id/tvType"
+        android:layout_alignBottom="@id/tvType"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginTop="1.0dip"
+        android:background="@color/color_ff0000"
+        android:tag="binding_1" />
+    <TextView
+        android:id="@id/tvType"
+        android:layout_width="fill_parent"
+        android:layout_height="13.0dip"
+        android:layout_below="@id/ivImage"
+        android:layout_marginLeft="3.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_toRightOf="@id/ivIcon"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:text="@string/filter"
+        android:textColor="@color/color_b9b9b9"
+        android:textSize="10.0dip" />
+    <TextView
+        android:id="@id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvType"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginTop="1.0dip"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="Charm"
+        android:textColor="@color/color_fb5986"
+        android:textSize="14.0dip" />
+    <ImageView
+        android:id="@id/ivImage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:tag="binding_2" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/ripple_radius_6" />
+    <ImageView
+        android:id="@id/ivIap"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_margin="2.0dip" />
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

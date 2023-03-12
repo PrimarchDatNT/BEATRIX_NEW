@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:tag="layout/ipar_fragment_0">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/ipTopBar"
+        android:layout_width="fill_parent"
+        android:layout_height="39.5dip"
+        android:overScrollMode="never" />
+    <View
+        android:id="@id/line_bottom_v"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/color_1affffff" />
+    <androidx.viewpager.widget.ViewPager
+        android:id="@id/ipContent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:overScrollMode="never" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:tag="layout/item_background_texture_0" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="@color/Gray_Background" app:cardCornerRadius="10.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/ivThumb" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/ivNew" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/corner_new_large" />
+    <ImageView android:layout_gravity="right" android:id="@id/ivPayMark" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/common_corner_premium_white" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/ivDownload" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/common_download_icon_border_white" android:scaleType="fitCenter" />
+    <com.commsource.widget.RotateLoadingView android:layout_gravity="bottom|center|right" android:id="@id/rlv" android:background="@drawable/common_loading_white_rotate_icon" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_margin="1.75dip" />
+</androidx.cardview.widget.CardView>

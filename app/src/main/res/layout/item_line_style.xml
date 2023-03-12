@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.commsource.widget.IconFrontView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/ifv_line_style"
+    android:layout_width="36.0dip"
+    android:layout_height="36.0dip"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:tag="layout/item_line_style_0"
+    android:textColor="@color/color_333333"
+    android:textSize="24.0dip" />

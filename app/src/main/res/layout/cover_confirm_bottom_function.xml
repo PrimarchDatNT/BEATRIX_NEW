@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/fl_confirm_bottom_function"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/cover_confirm_bottom_function_0" />

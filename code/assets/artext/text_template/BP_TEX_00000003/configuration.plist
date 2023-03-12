@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist>
+	<array>
+		<dict>
+			<key>AR</key>
+			<string>ar</string>
+			<key>BubbleSize</key>
+			<string>512,256</string>
+			<key>TextFontKey</key>
+			<string>FZHTJW</string>
+			<key>SpecialFace</key>
+			<false />
+			<key>SpecialStaticeMakeup</key>
+			<false />
+			<key>CtrlType</key>
+			<integer>0</integer>
+			<key>IgnoreFace</key>
+			<integer>1</integer>
+			<key>ARType</key>
+			<integer>0</integer>
+			<key>IsNeedResetBGM</key>
+			<integer>0</integer>
+			<key>IsNeedResetSound</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+</plist>

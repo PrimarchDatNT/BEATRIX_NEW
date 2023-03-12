@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/cover_ar_tips_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.commsource.comic.widget.StrokeTextView android:textSize="18.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_camera_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="80.0dip" />
+</FrameLayout>

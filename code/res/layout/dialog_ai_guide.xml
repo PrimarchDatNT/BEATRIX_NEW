@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rrl_root" android:tag="layout/dialog_ai_guide_0" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.commsource.widget.RatioConnerRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="221.0dip">
+                <ImageView android:id="@id/iv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            </RelativeLayout>
+            <TextView android:textSize="14.0dip" android:textColor="@color/black" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="20.0dip" android:text="@string/t_cutout_lead_content" android:lineSpacingExtra="2.0dip" />
+            <com.commsource.widget.PressTextView android:textSize="14.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/btn_start" android:background="@drawable/shape_radiu20_colorfb5986" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="180.0dip" android:layout_height="40.0dip" android:layout_marginTop="18.0dip" android:minHeight="0.0dip" android:text="@string/start_beauty" />
+            <com.commsource.widget.PressTextView android:textSize="14.0dip" android:textColor="@color/color_fb5986" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_cancel" android:background="@color/white" android:padding="5.0dip" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/cancel" />
+        </LinearLayout>
+    </com.commsource.widget.RatioConnerRelativeLayout>
+</RelativeLayout>

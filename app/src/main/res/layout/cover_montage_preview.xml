@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/cover_montage_preview_0">
+    <FrameLayout
+        android:id="@id/fl_surface"
+        android:layout_width="96.0dip"
+        android:layout_height="128.0dip"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:background="@drawable/camera_pic_in_pic_shape"
+        android:padding="1.0dip"
+        android:visibility="gone">
+        <TextureView
+            android:id="@id/preview_surface"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@id/fl_montage_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center|right"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:visibility="gone">
+        <ImageView
+            android:layout_width="35.0dip"
+            android:layout_height="35.0dip"
+            android:button="@null"
+            android:src="@drawable/selfie_montage_edit_enter" />
+        <View
+            android:id="@id/montage_enter_red_dot"
+            android:layout_width="5.0dip"
+            android:layout_height="5.0dip"
+            android:layout_gravity="end|center|top"
+            android:background="@drawable/red_bg_radius_5dp"
+            android:visibility="gone" />
+    </FrameLayout>
+    <LinearLayout
+        android:id="@id/ll_montage_dress_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fl_montage_enter"
+        android:layout_gravity="bottom|center|right"
+        android:layout_marginRight="12.0dip"
+        android:layout_marginBottom="3.0dip"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:visibility="invisible">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selfie_montage_dress_tip_bg_icon"
+            android:gravity="center_vertical"
+            android:paddingLeft="10.0dip"
+            android:paddingTop="4.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingBottom="9.0dip"
+            android:text="@string/montage_dress_up_person"
+            android:textColor="@color/white"
+            android:textSize="12.0dip"
+            android:textStyle="bold" />
+    </LinearLayout>
+</FrameLayout>

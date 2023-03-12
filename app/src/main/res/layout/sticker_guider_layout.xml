@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/rl_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_48000000"
+    android:clickable="true"
+    android:focusable="true"
+    android:tag="layout/sticker_guider_layout_0">
+    <androidx.cardview.widget.CardView
+        android:id="@id/rl_common_dialog_b_content"
+        android:layout_width="300.0dip"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="10.0dip">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="6.0dip">
+            <com.meitu.ratiorelativelayout.RatioRelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:layout_aspectRatio="1">
+                <ImageView
+                    android:id="@id/iv_common_dialog_b"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <com.commsource.widget.VideoPlayView
+                    android:id="@id/iv_video"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitXY"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </com.meitu.ratiorelativelayout.RatioRelativeLayout>
+            <com.commsource.widget.AutoFitTextView
+                android:id="@id/tv_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginTop="14.0dip"
+                android:layout_marginRight="15.0dip"
+                android:gravity="center_horizontal"
+                android:maxLines="1"
+                android:paddingBottom="6.0dip"
+                android:text="title"
+                android:textColor="@color/black"
+                android:textSize="18.0dip"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@id/tv_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginTop="4.0dip"
+                android:layout_marginRight="15.0dip"
+                android:gravity="center"
+                android:lineSpacingExtra="2.0dip"
+                android:paddingBottom="8.0dip"
+                android:text="content"
+                android:textColor="@color/black"
+                android:textSize="14.0dip" />
+            <com.commsource.widget.PressTextView
+                android:id="@id/tv_common_dialog_b_positive"
+                android:layout_width="180.0dip"
+                android:layout_height="40.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="18.0dip"
+                android:gravity="center"
+                android:tag="binding_1"
+                android:text="@string/guide_try_now"
+                android:textColor="@color/white"
+                android:textSize="13.0dip" />
+            <com.commsource.widget.PressTextView
+                android:id="@id/tv_common_dialog_b_negative"
+                android:layout_width="180.0dip"
+                android:layout_height="40.0dip"
+                android:layout_marginTop="-6.0dip"
+                android:layout_marginBottom="18.0dip"
+                android:gravity="center"
+                android:tag="binding_2"
+                android:textColor="@color/color_fb5986"
+                android:textSize="13.0dip"
+                android:visibility="gone" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:id="@id/iv_common_dialog_b_close"
+        android:layout_width="32.0dip"
+        android:layout_height="32.0dip"
+        android:layout_above="@id/rl_common_dialog_b_content"
+        android:layout_alignRight="@id/rl_common_dialog_b_content"
+        android:layout_marginBottom="12.0dip"
+        android:src="@drawable/common_close_icon_circle_gray" />
+</RelativeLayout>

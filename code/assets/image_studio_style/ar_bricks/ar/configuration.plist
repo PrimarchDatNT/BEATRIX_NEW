@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FacePart</key>
+		<array>
+			<dict>
+				<key>ScriptPath</key>
+				<string>Lua/original.lua</string>
+				<key>Type</key>
+				<string>Script</string>
+				<key>Parameters</key>
+			    <array>
+			        <!-- 滑杆 -->
+					<dict>
+						<key>Type</key>
+						<string>SLIDER</string>
+						<!-- 通用滤镜力度Flag(ParamFlag_CommonFilterSlider) -->
+						<key>Flag</key>
+						<string>4135</string>
+						<key>Key</key>
+						<string>SliderControl</string>
+						<key>ChineseTip</key>
+						<string>中文提示</string>
+						<key>EnglishTip</key>
+						<string>EnglishTip</string>
+						<key>MinValue</key>
+						<string>0.0</string>
+						<key>MaxValue</key>
+						<string>1.0</string>
+						<key>DefaultValue</key>
+						<string>1.0</string>
+					</dict>
+			    </array>
+			</dict>
+			<dict>
+					<key>Type</key>
+					<string>F</string>
+					<key>FilterType</key>
+					<integer>50</integer>
+					<key>ORGBA</key>
+					<string>100,0,0,0,255</string>
+					<!-- 使用了基准图，故RGB值无效，填0即可 -->
+					<key>AdditionalTexture</key>
+					<string>5.png</string>
+					<!-- 全局基准图 -->
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

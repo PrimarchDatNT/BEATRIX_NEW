@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout android:tag="layout/item_studio_sub_effect_0" android:clipChildren="false" android:layout_width="60.0dip" android:layout_height="51.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.commsource.widget.IconFrontView android:textSize="35.0dip" android:textColor="#ff333333" android:gravity="center" android:id="@id/ifv_icon" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="10.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/tv_name" android:layout_width="60.0dip" android:layout_height="wrap_content" android:layout_marginTop="39.0dip" />
+    <View android:id="@id/v_point" android:tag="binding_1" android:visibility="invisible" android:layout_width="4.0dip" android:layout_height="4.0dip" android:layout_marginTop="2.0dip" android:layout_below="@id/tv_name" android:layout_centerHorizontal="true" />
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

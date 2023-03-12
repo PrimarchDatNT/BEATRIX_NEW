@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/fragment_relight_face_0">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.commsource.widget.BoldTextView
+            android:id="@id/tv_hue"
+            android:layout_width="wrap_content"
+            android:layout_height="35.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:gravity="center|left"
+            android:maxWidth="60.0dip"
+            android:text="@string/t_highlight_colortemp"
+            android:textColor="@color/Gray_A"
+            android:textSize="12.0dip"
+            app:layout_constraintBottom_toTopOf="@id/tv_bright"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <com.commsource.widget.BoldTextView
+            android:id="@id/tv_bright"
+            android:layout_width="wrap_content"
+            android:layout_height="35.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:gravity="center|left"
+            android:maxWidth="70.0dip"
+            android:text="@string/t_highlight_brightness"
+            android:textColor="@color/Gray_A"
+            android:textSize="12.0dip"
+            app:layout_constraintBottom_toTopOf="@id/tv_soft"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_hue" />
+        <com.commsource.widget.BoldTextView
+            android:id="@id/tv_soft"
+            android:layout_width="wrap_content"
+            android:layout_height="35.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:gravity="center|left"
+            android:maxWidth="70.0dip"
+            android:text="@string/t_highlight_soft"
+            android:textColor="@color/Gray_A"
+            android:textSize="12.0dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_bright" />
+        <com.commsource.studio.function.relight.ColorSeekBar
+            android:id="@id/xsb_hue"
+            android:layout_width="fill_parent"
+            android:layout_height="35.0dip"
+            android:layout_marginLeft="70.0dip"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@id/xsb_bright"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <com.commsource.widget.XSeekBar
+            android:id="@id/xsb_bright"
+            android:layout_width="fill_parent"
+            android:layout_height="35.0dip"
+            android:layout_marginLeft="85.0dip"
+            android:layout_marginRight="15.0dip"
+            android:visibility="visible"
+            app:isEnableStroke="false"
+            app:layout_constraintBottom_toTopOf="@id/xsb_soft"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/xsb_hue"
+            app:xBackgroundColor="@color/color_e5e5e5"
+            app:xProgressColor="@color/black" />
+        <com.commsource.widget.XSeekBar
+            android:id="@id/xsb_soft"
+            android:layout_width="fill_parent"
+            android:layout_height="35.0dip"
+            android:layout_marginLeft="85.0dip"
+            android:layout_marginRight="15.0dip"
+            android:visibility="visible"
+            app:isEnableStroke="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/xsb_bright"
+            app:xBackgroundColor="@color/color_e5e5e5"
+            app:xProgressColor="@color/black" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.commsource.widget.part.XSeekBubbleView
+        android:id="@id/xbvSoft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85.0dip"
+        android:layout_marginTop="-80.0dip"
+        android:tag="binding_1" />
+    <com.commsource.widget.part.XSeekBubbleView
+        android:id="@id/xbvBright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85.0dip"
+        android:layout_marginTop="-80.0dip"
+        android:tag="binding_2" />
+</FrameLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="18.0dip"
+    android:layout_marginRight="18.0dip"
+    android:tag="layout/item_home_filter2_module_0">
+    <com.commsource.widget.CircleImageView
+        android:id="@id/civBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/llContent"
+        android:layout_alignBottom="@id/llContent"
+        android:scaleType="centerCrop"
+        app:round_radius="6.0dip" />
+    <LinearLayout
+        android:id="@id/llContent"
+        strokeColor=""
+        strokeWidth=""
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="binding_1">
+        <TextView
+            android:id="@id/tvTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginTop="26.0dip"
+            android:layout_marginRight="20.0dip"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="The Source Of Vitality"
+            android:textColor="@color/white"
+            android:textSize="18.0dip"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="13.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginTop="4.0dip"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@id/ivIcon"
+                android:layout_width="10.0dip"
+                android:layout_height="10.0dip"
+                android:layout_marginTop="3.0dip"
+                android:src="@drawable/home_ar_icon"
+                android:tag="binding_2" />
+            <TextView
+                android:id="@id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="16.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/filter"
+                android:textColor="@color/white"
+                android:textSize="10.0dip" />
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+            <com.commsource.home.InnerRecyclerView
+                android:id="@id/rvMaterial"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:paddingTop="25.0dip"
+                android:paddingBottom="25.0dip"
+                android:saveEnabled="false"
+                android:tag="binding_3" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.commsource.widget.IndicatorLineView
+        android:id="@id/idvPager"
+        android:layout_width="62.0dip"
+        android:layout_height="1.0dip"
+        android:layout_alignRight="@id/llContent"
+        android:layout_alignBottom="@id/llContent"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginBottom="15.0dip" />
+</RelativeLayout>

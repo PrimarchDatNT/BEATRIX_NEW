@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/cover_id_card_0">
+    <com.commsource.widget.CircleImageView
+        android:id="@id/iv_mask"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"
+        android:src="@drawable/selfie_id_ratio_11_icon"
+        app:round_radius="20.0dip" />
+    <ImageView
+        android:id="@id/iv_time"
+        android:layout_width="80.0dip"
+        android:layout_height="80.0dip"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+    <RelativeLayout
+        android:id="@id/rl_top_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="54.0dip">
+        <com.commsource.widget.IconFrontView
+            android:id="@id/mIvBack"
+            android:layout_width="35.0dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20.0dip"
+            android:gravity="center"
+            android:text="@string/selfie_top_icon_back"
+            android:textColor="@color/black"
+            android:textSize="35.0dip"
+            app:stroke_color="@color/black30"
+            app:stroke_width="0.5dip"
+            app:usePressState="true" />
+        <com.commsource.widget.IconFrontView
+            android:id="@id/mIvSwitchRatio"
+            android:layout_width="35.0dip"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@id/ifv_flash"
+            android:layout_toRightOf="@id/mIvBack"
+            android:gravity="center"
+            android:text="@string/selfie_top_icon_3_4"
+            android:textColor="@color/black"
+            android:textSize="35.0dip"
+            app:stroke_color="@color/black30"
+            app:stroke_width="0.5dip"
+            app:usePressState="true" />
+        <com.commsource.widget.IconFrontView
+            android:id="@id/ifv_flash"
+            android:layout_width="35.0dip"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/selfie_top_icon_flashalwayson"
+            android:textColor="@color/black"
+            android:textSize="35.0dip" />
+        <com.commsource.widget.IconFrontView
+            android:id="@id/ifv_count_down"
+            android:layout_width="35.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_toLeftOf="@id/mIvSwitchCamera"
+            android:layout_toRightOf="@id/ifv_flash"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/selfie_setting_icon_time_off"
+            android:textColor="@color/black"
+            android:textSize="35.0dip" />
+        <com.commsource.widget.IconFrontView
+            android:id="@id/mIvSwitchCamera"
+            android:layout_width="35.0dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20.0dip"
+            android:gravity="center"
+            android:text="@string/selfie_top_icon_cameraswitch"
+            android:textColor="@color/black"
+            android:textSize="35.0dip"
+            app:stroke_color="@color/black30"
+            app:stroke_width="0.5dip"
+            app:usePressState="true" />
+    </RelativeLayout>
+    <FrameLayout
+        android:id="@id/fl_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+        <com.commsource.camera.xcamera.widget.CameraCaptureView
+            android:id="@id/iv_capture"
+            android:layout_width="85.0dip"
+            android:layout_height="85.0dip"
+            android:layout_gravity="center" />
+    </FrameLayout>
+    <View
+        android:id="@id/vClickBarrier"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone" />
+</FrameLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/transparent" />
+                    <size android:height="@dimen/thumb_board_width" android:width="@dimen/thumb_board_width" />
+                    <padding android:left="@dimen/thumb_padding" android:top="@dimen/thumb_padding" android:right="@dimen/thumb_padding" android:bottom="@dimen/thumb_padding" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/color_fb5986" />
+                    <size android:height="@dimen/thumb_radus" android:width="@dimen/thumb_radus" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_pressed="false">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/transparent" />
+                    <size android:height="@dimen/thumb_board_width" android:width="@dimen/thumb_board_width" />
+                    <padding android:left="@dimen/thumb_padding" android:top="@dimen/thumb_padding" android:right="@dimen/thumb_padding" android:bottom="@dimen/thumb_padding" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/color_fb5986" />
+                    <size android:height="@dimen/thumb_radus" android:width="@dimen/thumb_radus" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

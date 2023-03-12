@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/White"
+    android:tag="layout/activity_new_on_boarding_0">
+    <com.commsource.widget.infiniteview.InfinitePageRecyclerView
+        android:id="@id/rv_banner"
+        android:layout_width="fill_parent"
+        android:layout_height="317.0dip"
+        android:alpha="0.0"
+        android:visibility="visible" />
+    <com.commsource.beautyplus.onboarding.ImageTransformationView
+        android:id="@id/ivBg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.commsource.beautyplus.onboarding.VideoTransformView
+        android:id="@id/video_component"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:id="@id/vShadow"
+        android:layout_width="122.0dip"
+        android:layout_height="122.0dip"
+        android:layout_alignRight="@id/video_component"
+        android:layout_alignBottom="@id/video_component"
+        android:layout_marginRight="-3.0dip"
+        android:layout_marginBottom="-41.0dip"
+        android:background="@drawable/onboarding_img_icon_blur_bg" />
+    <androidx.cardview.widget.CardView
+        android:id="@id/cb_icon_content"
+        android:layout_width="72.0dip"
+        android:layout_height="72.0dip"
+        android:layout_alignRight="@id/video_component"
+        android:layout_alignBottom="@id/video_component"
+        android:layout_marginRight="22.0dip"
+        android:layout_marginBottom="-16.0dip"
+        app:cardBackgroundColor="@color/White"
+        app:cardCornerRadius="36.0dip"
+        app:cardElevation="0.0dip">
+        <com.commsource.beautyplus.onboarding.IconFontTransView
+            android:id="@id/ifv_icon"
+            android:layout_width="72.0dip"
+            android:layout_height="72.0dip" />
+    </androidx.cardview.widget.CardView>
+    <com.commsource.beautyplus.onboarding.NewTextPageView
+        android:id="@id/textPageView"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/flNext"
+        android:layout_below="@id/video_component"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5.0dip" />
+    <com.commsource.widget.PressImageView
+        android:id="@id/ivClose"
+        android:layout_width="30.0dip"
+        android:layout_height="30.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginTop="20.0dip"
+        android:alpha="0.0"
+        android:src="@drawable/common_close_icon_circle_black"
+        android:visibility="gone" />
+    <FrameLayout
+        android:id="@id/flNext"
+        android:layout_width="234.0dip"
+        android:layout_height="50.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52.0dip">
+        <com.commsource.widget.LinearGradientView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:id="@id/tvNext"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/moving_average_next"
+            android:textColor="@color/white"
+            android:textSize="15.0dip" />
+        <com.commsource.widget.AutoFitTextView
+            android:id="@id/tvSub"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:textSize="15.0dip"
+            android:visibility="gone" />
+        <com.commsource.widget.RotateLoadingView
+            android:id="@id/rlv"
+            android:layout_width="25.0dip"
+            android:layout_height="25.0dip"
+            android:layout_gravity="center"
+            android:background="@drawable/sub_price_loading_white"
+            android:visibility="gone" />
+    </FrameLayout>
+    <LinearLayout
+        android:id="@id/ll_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10.0dip"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <TextView
+            android:id="@id/tv_restore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restore_purchases"
+            android:textColor="@color/Gray_A"
+            android:textSize="10.0dip" />
+        <TextView
+            android:id="@id/tv_left_line_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:text="|"
+            android:textColor="@color/Gray_A"
+            android:textSize="10.0dip" />
+        <TextView
+            android:id="@id/tv_terms_of_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_of_service"
+            android:textColor="@color/Gray_A"
+            android:textSize="10.0dip" />
+        <TextView
+            android:id="@id/tv_right_line_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:text="|"
+            android:textColor="@color/color_8e8e93"
+            android:textSize="10.0dip" />
+        <TextView
+            android:id="@id/tv_privacy_policy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_privacy_policy"
+            android:textColor="@color/Gray_A"
+            android:textSize="10.0dip" />
+    </LinearLayout>
+    <com.commsource.widget.AutoFitTextView
+        android:id="@id/tv_sub_price"
+        android:layout_width="wrap_content"
+        android:layout_height="28.0dip"
+        android:layout_above="@id/ll_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="12.0dip"
+        android:visibility="gone" />
+</RelativeLayout>

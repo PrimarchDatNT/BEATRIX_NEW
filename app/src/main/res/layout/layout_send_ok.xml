@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="290.0dip"
+    android:layout_height="240.0dip"
+    android:gravity="center_horizontal">
+    <RelativeLayout
+        android:layout_width="290.0dip"
+        android:layout_height="240.0dip"
+        android:background="@drawable/shape_radiu20_color96000000"
+        android:gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/common_feedback_heart_img" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="34.0dip"
+                android:text="@string/feed_back_committed"
+                android:textColor="@color/white"
+                android:textSize="22.0dip" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:text="@string/feed_back_thanks"
+                android:textColor="@color/white"
+                android:textSize="16.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

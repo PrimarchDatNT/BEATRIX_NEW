@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout android:background="@color/white" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/color_cccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_ok" android:background="@drawable/radius_20_fb5986_sel" android:padding="5.0dip" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="12.0dip" android:text="@string/puzzle_start" android:layout_alignParentRight="true" android:paddingStart="19.0dip" android:paddingEnd="19.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/tv_ok" android:layout_alignTop="@id/tv_ok" android:layout_alignBottom="@id/tv_ok">
+        <TextView android:textSize="13.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/puzzle_select" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_count" android:background="@drawable/puzzle_count_btn_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_puzzle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip" android:layout_below="@id/tv_ok" />
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

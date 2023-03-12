@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DrawArray</key>
+		<array>
+			<dict>
+				<key>filterID</key>
+				<string>1001</string>
+				<key>inputArray</key>
+				<array>
+					<dict>
+						<key>matchInputID</key>
+						<string>0</string>
+						<key>texture</key>
+						<string></string>
+						<key>type</key>
+						<string>0</string>
+					</dict>
+				</array>
+				<key>local_fs</key>
+				<string>shaders/Mapy_512x512.fs</string>
+				<key>local_vs</key>
+				<string>shaders/Common_Filter.vs</string>
+				<key>stepIndex</key>
+				<string>1</string>
+				<key>uniformValueArray</key>
+				<array>
+					<dict>
+						<key>uniformName</key>
+						<string>alpha</string>
+						<key>uniformType</key>
+						<string>1</string>
+						<key>uniformValue</key>
+						<string>1.0</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

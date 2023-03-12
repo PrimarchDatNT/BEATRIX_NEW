@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="76.0dip" android:layout_height="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/ivThumb" android:layout_width="54.0dip" android:layout_height="54.0dip" />
+    <View android:layout_gravity="center" android:id="@id/vSelected" android:background="@drawable/shape_ring_selected" android:visibility="gone" android:layout_width="54.0dip" android:layout_height="54.0dip" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/ivDownload" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="11.0dip" android:src="@drawable/common_download_icon_circle_black" />
+    <com.commsource.widget.RotateLoadingView android:layout_gravity="bottom|center|right" android:id="@id/rlv" android:background="@drawable/edit_loading_bg_icon" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="11.0dip" />
+    <ImageView android:layout_gravity="right" android:id="@id/ivPayMark" android:visibility="visible" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="2.5dip" android:src="@drawable/common_corner_premium_white" />
+</FrameLayout>

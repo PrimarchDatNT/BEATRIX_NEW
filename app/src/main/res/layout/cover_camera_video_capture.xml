@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/cover_camera_video_capture_0">
+    <FrameLayout
+        android:id="@id/rl_bottom_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="129.0dip"
+        android:layout_gravity="bottom"
+        android:clipChildren="false"
+        android:splitMotionEvents="false">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@id/rl_camera_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="85.0dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="@dimen/camera_button_margin_bottom">
+            <Space
+                android:id="@id/s_cb"
+                android:layout_width="85.0dip"
+                android:layout_height="85.0dip"
+                android:layout_centerInParent="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="7.5dip"
+                android:paddingRight="10.0dip"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/s_cb"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+                <com.commsource.widget.PressImageView
+                    android:id="@id/iv_delete_video"
+                    android:layout_width="40.0dip"
+                    android:layout_height="40.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1.0"
+                    android:src="@drawable/selfie_camera_delete_video_confirm_icon"
+                    android:visibility="visible" />
+                <com.commsource.widget.PressImageView
+                    android:id="@id/iv_video_finish"
+                    android:layout_width="40.0dip"
+                    android:layout_height="40.0dip"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@id/iv_delete_video"
+                    android:layout_weight="1.0"
+                    android:src="@drawable/selfie_video_finish_icon"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <com.commsource.camera.xcamera.widget.VideoBreathePointView
+        android:id="@id/bpv_recording_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:textSize="13.0dip" />
+</FrameLayout>

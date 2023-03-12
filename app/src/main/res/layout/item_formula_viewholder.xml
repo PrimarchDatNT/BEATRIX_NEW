@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/card"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8.0dip"
+    app:cardElevation="0.0dip">
+    <FrameLayout
+        android:id="@id/thumbnailContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/Gray_Background">
+        <ImageView
+            android:id="@id/iv_place_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/placeholder_stickers_45" />
+        <com.commsource.widget.CircleImageView
+            android:id="@id/formulaIcon"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <ImageView
+            android:id="@id/premiumIcon"
+            android:layout_width="15.0dip"
+            android:layout_height="15.0dip"
+            android:layout_gravity="end|center|top"
+            android:layout_marginTop="2.0dip"
+            android:layout_marginRight="2.0dip"
+            android:src="@drawable/common_corner_premium_white_shadow"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@id/newIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/corner_new_large"
+            android:visibility="gone" />
+        <com.commsource.comic.StrokeView
+            android:id="@id/stroke"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

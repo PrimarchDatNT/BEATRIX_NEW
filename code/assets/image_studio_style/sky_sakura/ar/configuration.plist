@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string></string>
+			<key>FacePart</key>
+			<array>
+
+				<dict>
+					<key>Type</key>
+					<string>Script</string>			
+					<key>SegmentType</key>
+					<integer>5</integer>					
+					<key>PacketPath</key>
+					<string>Sky</string>
+					<key>ScriptPath</key>
+					<string>Sky/script.lua</string>
+					<key>ScriptVersionCode</key>
+					<integer>0</integer>
+					<key>ScriptLevel</key>
+					<integer>0</integer>
+					<key>ScriptName</key>
+					<string>Sky</string>
+					<key>Parameters</key>
+				    <array>
+				        <!-- 透明程度滑杆 -->
+						<dict>
+							<key>Type</key>
+							<string>SLIDER</string>
+							<!-- 通用自定义滑杆Flag(ParamFlag_CommonCustomSlider) -->
+							<key>Flag</key>
+							<string>4150</string>
+							<key>Key</key>
+							<string>opacity</string>
+							<key>ChineseTip</key>
+							<string>中文提示</string>
+							<key>EnglishTip</key>
+							<string>EnglishTip</string>
+							<key>MinValue</key>
+							<string>0.0</string>
+							<key>MaxValue</key>
+							<string>1.0</string>
+							<key>DefaultValue</key>
+							<string>1.0</string>
+						</dict>
+
+						<!-- 天际线程度滑杆 -->
+						<dict>
+							<key>Type</key>
+							<string>SLIDER</string>
+							<!-- 通用自定义滑杆Flag(ParamFlag_CommonCustomSlider) -->
+							<key>Flag</key>
+							<string>4150</string>
+							<key>Key</key>
+							<string>bright</string>
+							<key>ChineseTip</key>
+							<string>中文提示</string>
+							<key>EnglishTip</key>
+							<string>EnglishTip</string>
+							<key>MinValue</key>
+							<string>0.0</string>
+							<key>MaxValue</key>
+							<string>1.0</string>
+							<key>DefaultValue</key>
+							<string>1.0</string>
+						</dict>
+
+						<!-- 天际线下边界位置 -->
+						<dict>
+							<key>Type</key>
+							<string>SLIDER</string>
+							<!-- 通用自定义滑杆Flag(ParamFlag_CommonCustomSlider) -->
+							<key>Flag</key>
+							<string>4150</string>
+							<key>Key</key>
+							<string>maskDownBorder</string>
+							<key>ChineseTip</key>
+							<string>中文提示</string>
+							<key>EnglishTip</key>
+							<string>EnglishTip</string>
+							<key>MinValue</key>
+							<string>0.0</string>
+							<key>MaxValue</key>
+							<string>1.0</string>
+							<key>DefaultValue</key>
+							<string>1.0</string>
+						</dict>
+				    </array>
+				</dict>
+				
+				<dict>
+					<key>Type</key>
+					<string>F</string>
+					<key>FilterType</key>
+					<integer>50</integer>
+					<key>AdditionalTexture</key>
+					<string>Lut/2075.png</string>
+					<key>ORGBA</key>
+					<string>60,0,0,0,255</string>
+				</dict>
+
+			</array>
+		</dict>
+	</array>
+</plist>

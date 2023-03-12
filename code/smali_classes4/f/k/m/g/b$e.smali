@@ -1,0 +1,85 @@
+.class final Lf/k/m/g/b$e;
+.super Ljava/lang/Object;
+.source "IPGooglePlaySubsPlatform.kt"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lf/k/m/g/b;->g(ILcom/meitu/ipstore/core/c$b;Landroid/app/Activity;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation runtime Lkotlin/b0;
+    bv = {
+        0x1,
+        0x0,
+        0x3
+    }
+    d1 = {
+        "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
+    }
+    d2 = {
+        "Lkotlin/t1;",
+        "run",
+        "()V",
+        "<anonymous>"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x1,
+        0xf
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/meitu/ipstore/core/c$b;
+
+.field final synthetic b:Ljava/util/List;
+
+
+# direct methods
+.method constructor <init>(Lcom/meitu/ipstore/core/c$b;Ljava/util/List;)V
+    .locals 0
+
+    iput-object p1, p0, Lf/k/m/g/b$e;->a:Lcom/meitu/ipstore/core/c$b;
+
+    iput-object p2, p0, Lf/k/m/g/b$e;->b:Ljava/util/List;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 3
+
+    const v0, 0xa710
+
+    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+
+    .line 1
+    iget-object v1, p0, Lf/k/m/g/b$e;->a:Lcom/meitu/ipstore/core/c$b;
+
+    if-eqz v1, :cond_0
+
+    iget-object v2, p0, Lf/k/m/g/b$e;->b:Ljava/util/List;
+
+    invoke-interface {v1, v2}, Lcom/meitu/ipstore/core/c$b;->h(Ljava/util/List;)V
+
+    .line 2
+    :cond_0
+    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+
+    return-void
+.end method

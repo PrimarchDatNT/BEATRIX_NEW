@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<puzzle>
+    <resId>3001905004</resId>
+    <version>1</version>
+    <categoryID>1009</categoryID>
+    <name>3001905004</name>
+    <iconPath>thumbnail</iconPath>
+    <width>1500</width>
+    <height>1500</height>
+    <photoAmount>5</photoAmount>
+    <formatAmount>1</formatAmount>
+    <backgroundColor />
+    <backgroundImagePath />
+    <backgroundTile />
+    <backgroundType>0</backgroundType>
+    <bgBlurFilter />
+    <bgFilterMaterialId />
+    <photoPuzzlePieces>
+
+
+
+
+
+
+        <photoPuzzle>
+            <maskPath />
+            <blurFilter />
+            <filterMaterialId />
+            <filterPath />
+            <backgroundImagePath />
+            <backgroundImageInnerFrame />
+            <frameRectArray>
+                <frameRect>{{0,0},{1500,750}}</frameRect>
+            </frameRectArray>
+            <borderHasNeighbors>0,0,0,1</borderHasNeighbors>
+
+        </photoPuzzle>
+
+        <photoPuzzle>
+            <maskPath />
+            <blurFilter />
+            <filterMaterialId />
+            <filterPath />
+            <backgroundImagePath />
+            <backgroundImageInnerFrame />
+            <frameRectArray>
+                <frameRect>{{0,750},{500,750}}</frameRect>
+            </frameRectArray>
+            <borderHasNeighbors>0,1,1,0</borderHasNeighbors>
+
+        </photoPuzzle>
+
+        <photoPuzzle>
+            <maskPath />
+            <blurFilter />
+            <filterMaterialId />
+            <filterPath />
+            <backgroundImagePath />
+            <backgroundImageInnerFrame />
+            <frameRectArray>
+                <frameRect>{{500,750},{500,750}}</frameRect>
+            </frameRectArray>
+            <borderHasNeighbors>1,1,1,0</borderHasNeighbors>
+
+        </photoPuzzle>
+
+        <photoPuzzle>
+            <maskPath />
+            <blurFilter />
+            <filterMaterialId />
+            <filterPath />
+            <backgroundImagePath />
+            <backgroundImageInnerFrame />
+            <frameRectArray>
+                <frameRect>{{1000,750},{500,375}}</frameRect>
+            </frameRectArray>
+            <borderHasNeighbors>1,1,0,1</borderHasNeighbors>
+
+        </photoPuzzle>
+
+        <photoPuzzle>
+            <maskPath />
+            <blurFilter />
+            <filterMaterialId />
+            <filterPath />
+            <backgroundImagePath />
+            <backgroundImageInnerFrame />
+            <frameRectArray>
+                <frameRect>{{1000,1125},{500,375}}</frameRect>
+            </frameRectArray>
+            <borderHasNeighbors>1,1,0,0</borderHasNeighbors>
+
+        </photoPuzzle>
+
+
+    </photoPuzzlePieces>
+    <imagePuzzlePieces />
+    <textPuzzlePieces />
+    <boundaryPieces>
+        <boundaryPiece>
+            <patchIndex>10</patchIndex>
+            <frameRect>{{0,700},{1500,100}}</frameRect>
+            <!-- 移动方向，取值1：水平移动；取值2：竖直移动-->
+            <translateDirection>2</translateDirection>
+            <!-- 被这个分界线部件分隔的照片部件，部件以照片的index描述，用逗号隔开，格式：0,1,2,3-->
+            <patchesDividedBy>0,1,2,3,11,12</patchesDividedBy>
+            <patchesPaired>-1,13</patchesPaired>
+
+        </boundaryPiece>
+
+        <boundaryPiece>
+            <patchIndex>11</patchIndex>
+            <frameRect>{{450,750},{100,750}}</frameRect>
+            <!-- 移动方向，取值1：水平移动；取值2：竖直移动-->
+            <translateDirection>1</translateDirection>
+            <!-- 被这个分界线部件分隔的照片部件，部件以照片的index描述，用逗号隔开，格式：0,1,2,3-->
+            <patchesDividedBy>1,2</patchesDividedBy>
+            <patchesPaired>-1,12</patchesPaired>
+        </boundaryPiece>
+
+        <boundaryPiece>
+            <patchIndex>12</patchIndex>
+            <frameRect>{{950,750},{100,750}}</frameRect>
+            <!-- 移动方向，取值1：水平移动；取值2：竖直移动-->
+            <translateDirection>1</translateDirection>
+            <!-- 被这个分界线部件分隔的照片部件，部件以照片的index描述，用逗号隔开，格式：0,1,2,3-->
+            <patchesDividedBy>2,3,4,13</patchesDividedBy>
+            <patchesPaired>11,-1</patchesPaired>
+        </boundaryPiece>
+
+        <boundaryPiece>
+            <patchIndex>13</patchIndex>
+            <frameRect>{{1000,1075},{500,100}}</frameRect>
+            <!-- 移动方向，取值1：水平移动；取值2：竖直移动-->
+            <translateDirection>2</translateDirection>
+            <!-- 被这个分界线部件分隔的照片部件，部件以照片的index描述，用逗号隔开，格式：0,1,2,3-->
+            <patchesDividedBy>3,4</patchesDividedBy>
+            <patchesPaired>10,-1</patchesPaired>
+        </boundaryPiece>
+    </boundaryPieces>
+</puzzle>

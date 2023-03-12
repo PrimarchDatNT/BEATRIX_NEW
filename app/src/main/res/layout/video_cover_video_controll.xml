@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/video_cover_video_controll_0">
+    <RelativeLayout
+        android:id="@id/rl_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_gravity="bottom"
+        android:background="@drawable/video_mask_bottom">
+        <com.commsource.widget.PressImageView
+            android:id="@id/iv_play"
+            android:layout_width="35.0dip"
+            android:layout_height="35.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:padding="5.0dip"
+            android:src="@drawable/app_icon_video_play" />
+        <TextView
+            android:id="@id/tv_current_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:layout_toRightOf="@id/iv_play"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="12.0dip" />
+        <com.commsource.widget.XSeekBar
+            android:id="@id/xsb"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_toLeftOf="@id/tv_duration"
+            android:layout_toRightOf="@id/tv_current_position" />
+        <TextView
+            android:id="@id/tv_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5.0dip"
+            android:layout_toLeftOf="@id/iv_full"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="12.0dip" />
+        <com.commsource.widget.PressImageView
+            android:id="@id/iv_full"
+            android:layout_width="35.0dip"
+            android:layout_height="35.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5.0dip"
+            android:padding="9.0dip"
+            android:src="@drawable/icon_full_screen" />
+    </RelativeLayout>
+</FrameLayout>

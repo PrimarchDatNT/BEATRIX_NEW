@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:tag="layout/activity_dialog_test_0">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="75.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:text="DialogDemo"
+                android:textColor="@color/Gray_A"
+                android:textSize="26.0dip"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="80.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="15.0dip"
+                    android:text="视频"
+                    android:textColor="@color/Gray_A" />
+                <com.commsource.camera.xcamera.widget.CameraSwitchButton
+                    android:id="@id/switchVideo"
+                    android:layout_width="40.0dip"
+                    android:layout_height="24.0dip"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="80.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="15.0dip"
+                    android:text="图片"
+                    android:textColor="@color/Gray_A" />
+                <com.commsource.camera.xcamera.widget.CameraSwitchButton
+                    android:id="@id/switchPicture"
+                    android:layout_width="40.0dip"
+                    android:layout_height="24.0dip"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="80.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="15.0dip"
+                    android:text="标题"
+                    android:textColor="@color/Gray_A" />
+                <com.commsource.camera.xcamera.widget.CameraSwitchButton
+                    android:id="@id/switchTitle"
+                    android:layout_width="40.0dip"
+                    android:layout_height="24.0dip"
+                    android:layout_gravity="center" />
+                <EditText
+                    android:id="@id/et_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:text="BeautyPlus Dialog"
+                    android:textSize="10.0dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="80.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="15.0dip"
+                    android:text="副文本"
+                    android:textColor="@color/Gray_A" />
+                <com.commsource.camera.xcamera.widget.CameraSwitchButton
+                    android:id="@id/switchSubtitle"
+                    android:layout_width="40.0dip"
+                    android:layout_height="24.0dip"
+                    android:layout_gravity="center" />
+                <EditText
+                    android:id="@id/et_subtitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:text="Hello! We are conducting research on taking and editing photos with mobile apps. If you like taking photos and adding beautification effects, you are invited to fill out the questionnaire and tell us your needs and preferences."
+                    android:textSize="10.0dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="80.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="15.0dip"
+                    android:text="副文本"
+                    android:textColor="@color/Gray_A" />
+                <com.commsource.camera.xcamera.widget.CameraSwitchButton
+                    android:id="@id/switchContent"
+                    android:layout_width="40.0dip"
+                    android:layout_height="24.0dip"
+                    android:layout_gravity="center" />
+                <EditText
+                    android:id="@id/et_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:text="Content"
+                    android:textSize="10.0dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="80.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="15.0dip"
+                    android:text="取消按钮"
+                    android:textColor="@color/Gray_A" />
+                <com.commsource.camera.xcamera.widget.CameraSwitchButton
+                    android:id="@id/switchCancel"
+                    android:layout_width="40.0dip"
+                    android:layout_height="24.0dip"
+                    android:layout_gravity="center" />
+                <EditText
+                    android:id="@id/et_cancel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:text="@string/cancel"
+                    android:textSize="10.0dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="80.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="15.0dip"
+                    android:text="确认按钮"
+                    android:textColor="@color/Gray_A" />
+                <com.commsource.camera.xcamera.widget.CameraSwitchButton
+                    android:id="@id/switchConfirm"
+                    android:layout_width="40.0dip"
+                    android:layout_height="24.0dip"
+                    android:layout_gravity="center" />
+                <EditText
+                    android:id="@id/etConfirm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:text="@string/confirm"
+                    android:textSize="10.0dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="80.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="15.0dip"
+                    android:text="Pro按钮"
+                    android:textColor="@color/Gray_A" />
+                <com.commsource.camera.xcamera.widget.CameraSwitchButton
+                    android:id="@id/switchPro"
+                    android:layout_width="40.0dip"
+                    android:layout_height="24.0dip"
+                    android:layout_gravity="center" />
+                <EditText
+                    android:id="@id/etPro"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:text="@string/confirm"
+                    android:textSize="10.0dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:orientation="horizontal">
+                <com.commsource.beautyplus.miniapp.XSegmentButtonGroup
+                    android:id="@id/xsbg"
+                    android:layout_width="180.0dip"
+                    android:layout_height="35.0dip">
+                    <TextView
+                        android:layout_width="90.0dip"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="中心弹出"
+                        android:textColor="@color/Gray_A"
+                        android:textSize="10.0dip" />
+                    <TextView
+                        android:layout_width="90.0dip"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="底部弹出"
+                        android:textColor="@color/Gray_A"
+                        android:textSize="10.0dip" />
+                </com.commsource.beautyplus.miniapp.XSegmentButtonGroup>
+            </LinearLayout>
+            <com.commsource.widget.round.RoundTextView
+                android:id="@id/tvShow"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="30.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginRight="30.0dip"
+                android:layout_marginBottom="20.0dip"
+                android:gravity="center"
+                android:text="确认"
+                android:textColor="@color/white"
+                app:rv_backgroundColor="@color/Primary_A"
+                app:rv_isRadiusHalfHeight="true" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

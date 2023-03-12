@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/collect_prompt_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/doodleItem" android:tag="binding_1" android:layout_width="63.0dip" android:layout_height="63.0dip" android:layout_centerInParent="true">
+        <FrameLayout android:id="@id/flDoodleBg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/edit_doodle_default_icon" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/flDoodleItem" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0">
+            <ImageView android:layout_gravity="center" android:id="@id/ivThumb" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:layout_gravity="bottom" android:id="@id/ivColorRing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:src="@drawable/edit_color_ring_icon" android:layout_marginStart="4.0dip" />
+            <com.commsource.widget.IconFrontView android:textSize="16.0dip" android:textColor="@color/color_fb5986" android:id="@id/doodle_collect" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:text="@string/if_doodle_collect" android:alpha="0.0" />
+        </FrameLayout>
+    </FrameLayout>
+    <ImageView android:id="@id/doodle_ripple" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="-28.0dip" android:src="@drawable/edit_collect_click_ripple_icon" android:layout_below="@id/doodleItem" android:layout_marginStart="-27.0dip" android:layout_toEndOf="@id/doodleItem" />
+    <ImageView android:id="@id/click_hand" android:visibility="gone" android:layout_width="74.0dip" android:layout_height="87.0dip" android:src="@drawable/edit_click_hand_img" android:layout_alignLeft="@id/doodleItem" android:layout_alignTop="@id/doodleItem" android:translationX="45.0dip" android:translationY="44.0dip" />
+    <com.commsource.widget.AutoFitTextView android:textSize="13.0dip" android:textColor="@color/color_fb5986" android:gravity="center" android:id="@id/doodle_long_press" android:tag="binding_2" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginBottom="-10.0dip" android:text="@string/long_press" android:maxLines="1" android:layout_above="@id/doodleItem" android:alpha="0.0" android:translationX="20.0dip" android:layout_marginStart="-25.0dip" android:layout_marginEnd="2.0dip" android:layout_toEndOf="@id/doodleItem" />
+</RelativeLayout>

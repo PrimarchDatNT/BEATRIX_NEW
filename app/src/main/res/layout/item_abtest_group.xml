@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:tag="layout/item_abtest_group_0">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackgroundBorderless">
+        <TextView
+            android:id="@id/tv_abtest_group_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:paddingTop="10.0dip"
+            android:paddingBottom="10.0dip"
+            android:tag="binding_1"
+            android:textColor="@color/black"
+            android:textSize="16.0dip" />
+        <TextView
+            android:id="@id/tv_close_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:paddingTop="10.0dip"
+            android:paddingBottom="10.0dip"
+            android:tag="binding_2"
+            android:text="close"
+            android:textColor="@color/color_e50000"
+            android:textSize="16.0dip" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_toLeftOf="@id/tv_close_test"
+            android:layout_toRightOf="@id/tv_abtest_group_name"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingTop="10.0dip"
+            android:paddingBottom="10.0dip"
+            android:singleLine="true"
+            android:tag="binding_3"
+            android:textColor="@color/color_0088e7"
+            android:textSize="16.0dip" />
+        <View
+            android:id="@id/line"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15.0dip"
+            android:background="@color/color_e6e5e8" />
+    </RelativeLayout>
+</RelativeLayout>

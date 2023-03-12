@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<integer>120</integer>
+	<key>faceColorAlpha</key>
+    <integer>40</integer>
+	<key>darkDict</key>
+	<dict>
+		<key>DarkAfter</key>
+		<integer>0</integer>
+		<key>DarkBlendalpha</key>
+		<string>0.8</string>
+		<key>DarkBlendmaterials</key>
+		<string>A12.jpg</string>
+		<key>DarkBlendstate</key>
+		<integer>0</integer>
+		<key>DarkBlendstyle</key>
+		<string>PSMultiply100.png</string>
+	</dict>
+	<key>onlineDict</key>
+	<array>
+		<dict>
+			<key>filepath</key>
+			<string>120.FilterOnline</string>
+			<key>BlendStyle</key>
+			<integer>2</integer>
+			<key>VSPath</key>
+			<string>Shader_Vertex.mtsl2</string>
+			<key>FSPath</key>
+			<string>Shader_FenNengXi.mtsl2</string>
+			<key>Blendalpha</key>
+			<string>0.6</string>
+			<key>MaskPath</key>
+			<array>
+				<string>sucai6.jpg</string>
+				<string>PSScreen50.png</string>
+				<string>MTSoftLight.png</string>
+				<string>MTMultiple50.png</string>
+				<string>120data.png</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

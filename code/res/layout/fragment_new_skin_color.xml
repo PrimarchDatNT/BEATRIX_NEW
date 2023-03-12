@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout android:tag="layout/fragment_new_skin_color_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/fl_bottom" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="246.0dip" android:layout_alignParentBottom="true">
+        <FrameLayout android:id="@id/fl_seek_container" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="104.0dip" android:translationY="104.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginTop="10.0dip">
+                <com.commsource.widget.AutoFitTextView android:textSize="12.0dip" android:textColor="@color/Gray_A" android:layout_width="60.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="10.0dip" android:text="@string/t_highlight_hue" />
+                <com.commsource.studio.function.relight.ColorSeekBar android:id="@id/sb_shade" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="15.0dip" app:isEnableStroke="false" app:xBackgroundColor="@color/color_e5e5e5" app:xProgressColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginBottom="26.0dip">
+                <com.commsource.widget.AutoFitTextView android:textSize="12.0dip" android:textColor="@color/Gray_A" android:layout_width="60.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="10.0dip" android:text="@string/t_degree" />
+                <com.commsource.widget.XSeekBar android:id="@id/sb_intensity" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="15.0dip" app:isEnableStroke="false" app:xBackgroundColor="@color/color_e5e5e5" app:xProgressColor="@color/black" />
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_skin_color" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" />
+            <com.commsource.studio.component.ConfirmCancelComponent android:layout_gravity="bottom" android:tag="binding_3" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.commsource.studio.component.PreviewComponent android:id="@id/preview" android:tag="binding_4" android:paddingLeft="14.0dip" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/contrast" android:layout_above="@id/fl_bottom" android:translationY="94.0dip" />
+    <com.commsource.studio.component.ContrastComponent android:id="@id/contrast" android:tag="binding_5" android:padding="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/fl_bottom" android:layout_alignParentRight="true" android:translationY="94.0dip" />
+    <com.commsource.widget.part.XSeekBubbleView android:id="@id/xbv_intensity" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="85.0dip" android:layout_marginBottom="-53.0dip" android:layout_above="@id/fl_bottom" />
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

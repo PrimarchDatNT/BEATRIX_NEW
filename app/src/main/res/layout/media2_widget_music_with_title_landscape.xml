@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/media2_widget_music_view_default_background"
+    android:padding="@dimen/media2_widget_music_view_full_padding">
+    <ImageView
+        android:id="@id/album"
+        android:layout_width="@dimen/media2_widget_music_view_full_image_size"
+        android:layout_height="@dimen/media2_widget_music_view_full_image_size"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="@dimen/media2_widget_music_view_image_title_gap"
+        android:layout_marginRight="@dimen/media2_widget_music_view_image_title_gap"
+        android:src="@drawable/media2_widget_ic_default_album_image" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:minWidth="@dimen/media2_widget_music_view_landscape_text_minimum_width"
+        android:orientation="vertical">
+        <TextView
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mcv2_music_title_unknown_text"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/media2_widget_music_view_title_text_size"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@id/artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mcv2_music_artist_unknown_text"
+            android:textColor="#ffbbbbbb"
+            android:textSize="@dimen/media2_widget_music_view_artist_text_size" />
+    </LinearLayout>
+</LinearLayout>

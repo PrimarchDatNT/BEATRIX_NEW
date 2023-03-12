@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:tag="layout/item_shop_detail_0">
+    <TextView
+        android:id="@id/filterNameIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filter"
+        android:textColor="@color/color_8e8e93"
+        android:textSize="14.0dip"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/filter_thumail"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <com.commsource.widget.CircleImageView
+        android:id="@id/filter_thumail"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="8.0dip"
+        app:border_color="@color/black5"
+        app:border_width="0.5dip"
+        app:layout_constraintDimensionRatio="343:193"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/filterNameIndicator"
+        app:layout_goneMarginTop="0.0dip"
+        app:round_radius="10.0dip" />
+    <ImageView
+        android:id="@id/premiumGroupIcon"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginTop="4.0dip"
+        android:layout_marginRight="4.0dip"
+        android:src="@drawable/common_corner_premium_white_shadow"
+        android:visibility="visible"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout
+        android:layout_width="50.0dip"
+        android:layout_height="32.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginTop="8.0dip"
+        android:gravity="center_horizontal"
+        android:minWidth="50.0dip"
+        android:orientation="vertical"
+        android:tag="binding_1"
+        app:layout_constraintLeft_toLeftOf="@id/filter_thumail"
+        app:layout_constraintTop_toTopOf="@id/filter_thumail">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <com.commsource.widget.AutoFitTextView
+                android:id="@id/filterNewName"
+                android:layout_width="wrap_content"
+                android:layout_height="14.0dip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="4.0dip"
+                android:layout_marginRight="4.0dip"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:textColor="@color/white"
+                android:textSize="12.0dip"
+                app:layout_constraintBottom_toTopOf="@id/filterOldName"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="packed" />
+            <com.commsource.widget.AutoFitTextView
+                android:id="@id/filterOldName"
+                android:layout_width="wrap_content"
+                android:layout_height="10.0dip"
+                android:layout_below="@id/filterNewName"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="4.0dip"
+                android:layout_marginRight="4.0dip"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:textColor="@color/white"
+                android:textSize="8.0dip" />
+        </RelativeLayout>
+    </FrameLayout>
+    <com.commsource.store.XDownloadButton
+        android:id="@id/btn_hot_area"
+        android:layout_width="68.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginBottom="10.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/filter_thumail"
+        app:layout_constraintRight_toRightOf="@id/filter_thumail" />
+</androidx.constraintlayout.widget.ConstraintLayout>

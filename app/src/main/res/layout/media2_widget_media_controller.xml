@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/center_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layoutDirection="ltr">
+        <View
+            android:id="@id/center_view_background"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/media2_widget_center_view_background" />
+        <include
+            android:id="@id/embedded_transport_controls"
+            layout="@layout/media2_widget_embedded_transport_controls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+        <include
+            android:id="@id/minimal_transport_controls"
+            layout="@layout/media2_widget_minimal_transport_controls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+    <LinearLayout
+        android:id="@id/title_bar"
+        style="@style/Media2_Widget_TitleBar"
+        android:background="@drawable/media2_widget_title_bar_gradient"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:id="@id/title_bar_left"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@id/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="middle"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/media2_widget_embedded_icon_padding"
+                android:paddingEnd="@dimen/media2_widget_embedded_icon_padding"
+                android:singleLine="true"
+                android:textColor="#ffffffff"
+                android:textSize="15.0sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@id/title_bar_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@id/ad_external_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:paddingStart="5.0dip"
+                android:paddingLeft="5.0dip"
+                android:paddingEnd="10.0dip"
+                android:paddingRight="10.0dip"
+                android:visibility="gone">
+                <TextView
+                    android:id="@id/ad_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingEnd="5.0dip"
+                    android:paddingRight="5.0dip"
+                    android:text="@string/MediaControlView_ad_text"
+                    android:textColor="#ffffffff"
+                    android:textSize="10.0sp" />
+                <ImageButton
+                    android:id="@id/ad_launch"
+                    style="@style/Media2_Widget_TitleBarButton.Launch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@id/minimal_fullscreen_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layoutDirection="ltr">
+        <ImageButton
+            android:id="@id/minimal_fullscreen"
+            style="@style/Media2_Widget_BottomBarButton.FullScreen" />
+    </LinearLayout>
+    <View
+        android:id="@id/bottom_bar_background"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/media2_widget_bottom_bar_height"
+        android:background="@color/media2_widget_bottom_bar_background"
+        android:layoutDirection="ltr" />
+    <LinearLayout
+        android:id="@id/bottom_bar_left"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/media2_widget_bottom_bar_height"
+        android:layoutDirection="ltr">
+        <include
+            android:id="@id/full_transport_controls"
+            layout="@layout/media2_widget_full_transport_controls" />
+        <TextView
+            android:id="@id/ad_skip_time"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginStart="4.0dip"
+            android:layout_marginLeft="4.0dip"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="12.0sp"
+            android:visibility="gone" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/media2_widget_bottom_bar_height"
+        android:layoutDirection="ltr"
+        android:paddingStart="10.0dip"
+        android:paddingEnd="10.0dip">
+        <TextView
+            android:id="@id/time_current"
+            style="@style/Media2_Widget_TimeText.Current" />
+        <TextView
+            android:id="@id/time_interpunct"
+            style="@style/Media2_Widget_TimeText.Interpunct" />
+        <TextView
+            android:id="@id/time_end"
+            style="@style/Media2_Widget_TimeText.End" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@id/basic_controls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@id/ad_remaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="12.0sp"
+            android:visibility="gone" />
+        <ImageButton
+            android:id="@id/subtitle"
+            style="@style/Media2_Widget_BottomBarButton.CC"
+            android:alpha="0.5"
+            android:scaleType="fitCenter"
+            android:visibility="gone" />
+        <ImageButton
+            android:id="@id/fullscreen"
+            style="@style/Media2_Widget_BottomBarButton.FullScreen"
+            android:visibility="gone" />
+        <ImageButton
+            android:id="@id/overflow_show"
+            style="@style/Media2_Widget_BottomBarButton.OverflowShow" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@id/extra_controls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <ImageButton
+            android:id="@id/settings"
+            style="@style/Media2_Widget_BottomBarButton.Settings" />
+        <ImageButton
+            android:id="@id/overflow_hide"
+            style="@style/Media2_Widget_BottomBarButton.OverflowHide" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@id/progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/media2_widget_custom_progress_thumb_size"
+        android:layoutDirection="ltr">
+        <SeekBar
+            android:id="@id/progress"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/mcv2_seek_bar_desc"
+            android:elevation="10.0dip"
+            android:maxHeight="@dimen/media2_widget_custom_progress_max_size"
+            android:minHeight="@dimen/media2_widget_custom_progress_max_size"
+            android:paddingStart="0.0dip"
+            android:paddingEnd="0.0dip"
+            android:progressDrawable="@drawable/media2_widget_custom_progress"
+            android:splitTrack="false"
+            android:thumb="@drawable/media2_widget_custom_progress_thumb"
+            android:thumbOffset="0.0dip" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/rl_root"
+    android:layout_width="fill_parent"
+    android:layout_height="75.0dip"
+    android:background="@color/white">
+    <RelativeLayout
+        android:id="@id/rl_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10.0dip">
+        <ImageView
+            android:id="@id/iv_ad_button_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/edit_album_ad_top_picture_icon" />
+        <TextView
+            android:id="@id/tv_hwbusiness_ad_next"
+            android:layout_width="90.0dip"
+            android:layout_height="30.0dip"
+            android:layout_below="@id/iv_ad_button_top"
+            android:layout_marginBottom="5.0dip"
+            android:background="@drawable/facebook_ad_cta_btn_bg"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="-2.5dip"
+            android:lines="2"
+            android:textColor="@color/white"
+            android:textSize="12.0sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/rl_right"
+        android:layout_alignBottom="@id/rl_right"
+        android:layout_toLeftOf="@id/rl_right">
+        <FrameLayout
+            android:id="@id/fl_icon_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15.0dip">
+            <com.meitu.hwbusinesskit.core.widget.CircleImageView
+                android:id="@id/iv_hwbusiness_ad_icon"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:scaleType="fitXY" />
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/fl_icon_container"
+            android:orientation="vertical"
+            android:paddingLeft="20.0dip"
+            android:paddingRight="16.0dip">
+            <TextView
+                android:id="@id/tv_hwbusiness_ad_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="@color/color_4c4c4c"
+                android:textSize="16.0dip" />
+            <TextView
+                android:id="@id/tv_hwbusiness_ad_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3.0dip"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:lines="2"
+                android:textColor="@color/color_999999"
+                android:textSize="12.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView
+        android:id="@id/iv_hwbusiness_ad_platform_choice"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginRight="5.0dip" />
+    <RelativeLayout
+        android:id="@id/rl_hwbusiness_facebook_ad_platform_choice"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginRight="5.0dip" />
+</RelativeLayout>

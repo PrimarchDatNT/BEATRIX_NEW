@@ -1,0 +1,106 @@
+.class Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo$2;
+.super Ljava/lang/Object;
+.source "GooglePlayServicesRewardedVideo.java"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->loadWithSdkInitialized(Landroid/app/Activity;Ljava/util/Map;Ljava/util/Map;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
+
+
+# direct methods
+.method constructor <init>(Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo$2;->this$0:Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo$2;->this$0:Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
+
+    invoke-static {v0}, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->access$000(Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;)Lcom/google/android/gms/ads/y/c;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/google/android/gms/ads/y/c;->V()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 2
+    const-class v0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
+
+    iget-object v1, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo$2;->this$0:Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
+
+    .line 3
+    invoke-static {v1}, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->access$100(Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lcom/mopub/mobileads/MoPubRewardedVideoManager;->onRewardedVideoLoadSuccess(Ljava/lang/Class;Ljava/lang/String;)V
+
+    goto :goto_0
+
+    .line 4
+    :cond_0
+    new-instance v0, Lcom/google/android/gms/ads/d$a;
+
+    invoke-direct {v0}, Lcom/google/android/gms/ads/d$a;-><init>()V
+
+    const-string v1, "MoPub"
+
+    .line 5
+    invoke-virtual {v0, v1}, Lcom/google/android/gms/ads/d$a;->o(Ljava/lang/String;)Lcom/google/android/gms/ads/d$a;
+
+    .line 6
+    iget-object v1, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo$2;->this$0:Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
+
+    invoke-static {v1, v0}, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->access$200(Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;Lcom/google/android/gms/ads/d$a;)V
+
+    .line 7
+    invoke-virtual {v0}, Lcom/google/android/gms/ads/d$a;->f()Lcom/google/android/gms/ads/d;
+
+    move-result-object v0
+
+    .line 8
+    iget-object v1, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo$2;->this$0:Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
+
+    invoke-static {v1}, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->access$000(Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;)Lcom/google/android/gms/ads/y/c;
+
+    move-result-object v1
+
+    iget-object v2, p0, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo$2;->this$0:Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;
+
+    invoke-static {v2}, Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;->access$100(Lcom/mopub/mobileads/GooglePlayServicesRewardedVideo;)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2, v0}, Lcom/google/android/gms/ads/y/c;->N0(Ljava/lang/String;Lcom/google/android/gms/ads/d;)V
+
+    :goto_0
+    return-void
+.end method

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/dialog_home_banner_ad_feedback_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.commsource.widget.round.RoundLinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="296.0dip" android:layout_height="wrap_content" app:rv_cornerRadius="10.0dip" app:rv_isRippleEnable="false">
+        <com.commsource.widget.round.RoundLinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_subscribe" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="56.0dip" app:rv_backgroundColor="@color/white" app:rv_cornerRadius="10.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/common_corner_premium_white" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/black" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/sub_no_ads" android:drawablePadding="4.0dip" />
+        </com.commsource.widget.round.RoundLinearLayout>
+        <com.commsource.widget.round.RoundLinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="296.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:rv_backgroundColor="@color/white" app:rv_cornerRadius="10.0dip" app:rv_isRippleEnable="false">
+            <TextView android:textSize="14.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_cooperation" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/meitu_ad_cooperation" />
+            <View android:background="@color/color_e4e4e4" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="27.5dip" android:layout_marginRight="27.5dip" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_8e8e93" android:gravity="center" android:id="@id/tv_report" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/report" />
+        </com.commsource.widget.round.RoundLinearLayout>
+    </com.commsource.widget.round.RoundLinearLayout>
+</FrameLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="250.0dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/image_quality_dialog_bg"
+        android:orientation="vertical">
+        <TextView
+            android:id="@id/tv_btn_standard"
+            android:layout_width="fill_parent"
+            android:layout_height="49.0dip"
+            android:background="@null"
+            android:gravity="center|left"
+            android:paddingLeft="20.0dip"
+            android:text="@string/setting_image_quality_lower"
+            android:textColor="@color/image_quality_dialog_text_color_sel"
+            android:textSize="15.0dip" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="@color/color_e6e5e8" />
+        <TextView
+            android:id="@id/tv_btn_normal"
+            android:layout_width="fill_parent"
+            android:layout_height="49.0dip"
+            android:background="@null"
+            android:gravity="center|left"
+            android:paddingLeft="20.0dip"
+            android:text="@string/setting_image_quality_normal"
+            android:textColor="@color/image_quality_dialog_text_color_sel"
+            android:textSize="15.0dip" />
+        <View
+            android:id="@id/divide_line_02"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="@color/color_e6e5e8" />
+        <TextView
+            android:id="@id/tv_btn_hd"
+            android:layout_width="fill_parent"
+            android:layout_height="49.0dip"
+            android:background="@null"
+            android:gravity="center|left"
+            android:paddingLeft="20.0dip"
+            android:text="@string/setting_image_quality_higher"
+            android:textColor="@color/image_quality_dialog_text_color_sel"
+            android:textSize="15.0dip" />
+    </LinearLayout>
+</RelativeLayout>

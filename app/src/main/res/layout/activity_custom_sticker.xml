@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/activity_custom_sticker_0">
+    <com.commsource.studio.StudioCanvasContainer
+        android:id="@id/canvas_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="160.0dip"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </com.commsource.studio.StudioCanvasContainer>
+    <FrameLayout
+        android:id="@id/fl_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:tag="binding_1" />
+    <com.commsource.widget.ProView
+        android:id="@id/proView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="14.0dip"
+        android:layout_marginTop="15.0dip"
+        android:layout_marginRight="14.0dip"
+        android:outlineProvider="none"
+        android:tag="binding_2" />
+</RelativeLayout>

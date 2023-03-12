@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- 美型 -->
+	<key>FaceLift</key>
+	<dict>
+		<key>ConfigPath</key>
+		<string>FaceLift/configuration.plist</string>
+		<!-- 整体滑竿 -->
+		<key>Whole</key>
+		<real>1</real>
+		<!-- 嘴型 -->
+		<key>Mouth</key>
+		<real>0.1</real>
+		<!-- 瘦脸 -->
+		<key>Slim</key>
+		<real>0.45</real>
+		<!-- 大眼 -->
+		<key>Eye</key>
+		<real>0.35</real>
+		<!-- 长鼻 -->
+		<key>NoseLonger</key>
+		<real>0.1</real>
+		<!-- 下巴 -->
+		<key>Chin</key>
+		<real>0</real>
+		<!-- 鼻翼 -->
+		<key>Nose</key>
+		<real>0.35</real>
+		<!-- 缩头默认 -->
+		<key>HeadScale</key>
+		<real>0.0</real>
+		<!-- 缩头最大值 -->
+		<key>HeadScaleMax</key>
+		<real>1.5</real>
+	</dict>
+	<!-- 美颜 -->
+	<key>Beauty</key>
+	<dict>
+		<key>ConfigPath</key>
+		<string>Beauty/configuration.plist</string>
+	</dict>
+	
+</dict>
+</plist>

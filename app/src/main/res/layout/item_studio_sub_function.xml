@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="64.0dip"
+    android:layout_height="64.0dip"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:tag="layout/item_studio_sub_function_0">
+    <com.commsource.widget.IconFrontView
+        android:id="@id/ifv_icon"
+        android:layout_width="35.0dip"
+        android:layout_height="35.0dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6.0dip"
+        android:textColor="@color/color_333333"
+        android:textSize="35.0dip" />
+    <ImageView
+        android:id="@id/iv_icon"
+        android:layout_width="35.0dip"
+        android:layout_height="35.0dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6.0dip" />
+    <TextView
+        android:id="@id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45.0dip"
+        android:gravity="center"
+        android:maxWidth="62.0dip"
+        android:textColor="#ff333333"
+        android:textSize="10.0dip" />
+    <ImageView
+        android:id="@id/iv_vip"
+        android:layout_width="15.0dip"
+        android:layout_height="15.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="7.0dip"
+        android:scaleType="centerInside"
+        android:src="@drawable/common_corner_premium_white_shadow"
+        android:visibility="gone" />
+    <View
+        android:id="@id/v_point"
+        android:layout_width="2.0dip"
+        android:layout_height="2.0dip"
+        android:layout_below="@id/tv_name"
+        android:layout_centerInParent="true"
+        android:tag="binding_1"
+        android:visibility="gone" />
+    <LinearLayout
+        android:id="@id/ll_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-35.0dip"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="invisible">
+        <TextView
+            android:id="@id/tv_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="32.0dip"
+            android:gravity="center"
+            android:paddingLeft="13.0dip"
+            android:paddingRight="13.0dip"
+            android:tag="binding_2"
+            android:textColor="@color/white"
+            android:textSize="13.0dip" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-3.0dip"
+            android:src="@drawable/common_triangle_icon_down_pink" />
+    </LinearLayout>
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

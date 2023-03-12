@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.commsource.widget.PressTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/pv_location"
+    android:layout_width="wrap_content"
+    android:layout_height="30.0dip"
+    android:background="@drawable/r30_80000000_solid_fff_stroke"
+    android:gravity="center"
+    android:paddingLeft="20.0dip"
+    android:paddingRight="20.0dip"
+    android:paddingBottom="1.5dip"
+    android:text="@string/ar_loc_location"
+    android:textColor="@color/white"
+    android:textSize="16.0dip" />

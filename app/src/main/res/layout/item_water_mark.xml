@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="115.0dip"
+    android:layout_height="110.0dip"
+    android:orientation="vertical"
+    android:tag="layout/item_water_mark_0">
+    <ImageView
+        android:id="@id/iv_icon"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="17.0dip"
+        android:paddingLeft="12.5dip"
+        android:paddingTop="10.0dip"
+        android:paddingRight="12.5dip"
+        android:paddingBottom="10.0dip"
+        android:scaleType="fitCenter" />
+    <ImageView
+        android:id="@id/iv_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10.0dip"
+        android:src="@drawable/common_triangle_icon_down_pink" />
+</RelativeLayout>

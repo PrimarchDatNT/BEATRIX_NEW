@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/cover_camera_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.meitu.library.camera.MTCameraLayout android:id="@id/mMTCameraLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:previewCoverAnimDuration="250" app:previewCoverAnimInterpolator="@android:anim/decelerate_interpolator" app:previewCoverColor="@color/Gray_Background" app:surfaceCoverColor="@color/white">
+        <com.commsource.camera.mvp.SimpleFocusView android:id="@id/mFocusView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.meitu.library.camera.MTCameraLayout>
+    <FrameLayout android:id="@id/fl_gesture" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.commsource.widget.ExposureSeekBar android:layout_gravity="right" android:id="@id/esb" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="230.0dip" android:layout_marginRight="10.0dip" />
+</FrameLayout>

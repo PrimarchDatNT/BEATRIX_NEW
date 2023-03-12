@@ -1,0 +1,877 @@
+[
+  {
+    "brand": "mt",
+    "major": "6757",
+    "minor": "ch",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "exynos",
+    "major": "5422",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8939",
+    "minor": "v2",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6732",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "exynos",
+    "major": "7885",
+    "minor": "",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "exynos",
+    "major": "8895",
+    "minor": "",
+    "level": 3,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8974",
+    "minor": "abv3",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8996",
+    "minor": "",
+    "level": 3,
+    "cpu_product": ""
+  },
+  {
+    "brand": "kirin",
+    "major": "658",
+    "minor": "",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "8783",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "exynos",
+    "major": "8890",
+    "minor": "",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6737",
+    "minor": "t",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6595",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8909",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6737",
+    "minor": "vwt",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6771",
+    "minor": "",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8930",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "kirin",
+    "major": "659",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "kirin",
+    "major": "655",
+    "minor": "",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "apq",
+    "major": "8064",
+    "minor": "",
+    "level": 1,
+    "cpu_product": "600"
+  },
+  {
+    "brand": "msm",
+    "major": "8998",
+    "minor": "",
+    "level": 3,
+    "cpu_product": ""
+  },
+  {
+    "brand": "kirin",
+    "major": "930",
+    "minor": "",
+    "level": 0,
+    "cpu_product": "hi3635"
+  },
+  {
+    "brand": "mt",
+    "major": "6797",
+    "minor": "m",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8917",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "apq",
+    "major": "8084",
+    "minor": "abpro",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "kirin",
+    "major": "955",
+    "minor": "",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8926",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6799",
+    "minor": "",
+    "level": 2,
+    "cpu_product": "x30"
+  },
+  {
+    "brand": "mt",
+    "major": "6795",
+    "minor": "t",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6737",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6763",
+    "minor": "v",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "apq",
+    "major": "8074",
+    "minor": "v1",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8940",
+    "minor": "",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "exynos",
+    "major": "5430",
+    "minor": "",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "exynos",
+    "major": "5433",
+    "minor": "",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8994",
+    "minor": "",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "apq",
+    "major": "8064",
+    "minor": "t",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6763",
+    "minor": "t",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6735",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "kirin",
+    "major": "650",
+    "minor": "",
+    "level": 1,
+    "cpu_product": "hi6250"
+  },
+  {
+    "brand": "msm",
+    "major": "8916",
+    "minor": "v2",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8674",
+    "minor": "abv2",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8952",
+    "minor": "",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6763",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8916",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "kirin",
+    "major": "970",
+    "minor": "",
+    "level": 3,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6735",
+    "minor": "a",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6757",
+    "minor": "",
+    "level": 2,
+    "cpu_product": "p20"
+  },
+  {
+    "brand": "exynos",
+    "major": "7870",
+    "minor": "",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8212",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "exynos",
+    "major": "7880",
+    "minor": "",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8928",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8974",
+    "minor": "aav3",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "exynos",
+    "major": "7872",
+    "minor": "",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8216",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6753",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "kirin",
+    "major": "920",
+    "minor": "",
+    "level": 1,
+    "cpu_product": "hi3630"
+  },
+  {
+    "brand": "mt",
+    "major": "6797",
+    "minor": "t",
+    "level": 1,
+    "cpu_product": "x25"
+  },
+  {
+    "brand": "msm",
+    "major": "8974",
+    "minor": "acv3",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "exynos",
+    "major": "5260",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "kirin",
+    "major": "935",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8929",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "exynos",
+    "major": "7420",
+    "minor": "",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "8735",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6750",
+    "minor": "t",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8994",
+    "minor": "v2",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8956",
+    "minor": "",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6797",
+    "minor": "",
+    "level": 1,
+    "cpu_product": "x20"
+  },
+  {
+    "brand": "kirin",
+    "major": "950",
+    "minor": "",
+    "level": 2,
+    "cpu_product": "hi3650"
+  },
+  {
+    "brand": "apq",
+    "major": "8016",
+    "minor": "",
+    "level": 0,
+    "cpu_product": "410"
+  },
+  {
+    "brand": "msm",
+    "major": "8226",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8992",
+    "minor": "",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6735",
+    "minor": "p",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "apq",
+    "major": "8064",
+    "minor": "ab",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "kirin",
+    "major": "960",
+    "minor": "",
+    "level": 2,
+    "cpu_product": "hi3660"
+  },
+  {
+    "brand": "mt",
+    "major": "6750",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8228",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8976",
+    "minor": "pro",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8920",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8230",
+    "minor": "ab",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "exynos",
+    "major": "3470",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8953",
+    "minor": "",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8274",
+    "minor": "abv2",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6752",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6797",
+    "minor": "x",
+    "level": 1,
+    "cpu_product": "x27"
+  },
+  {
+    "brand": "mt",
+    "major": "6753",
+    "minor": "a",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8976",
+    "minor": "plus",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8960",
+    "minor": "t",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6757",
+    "minor": "cd",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6795",
+    "minor": "",
+    "level": 1,
+    "cpu_product": "x10"
+  },
+  {
+    "brand": "exynos",
+    "major": "7580",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6753",
+    "minor": "t",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "sdm",
+    "major": "845",
+    "minor": "",
+    "level": 3,
+    "cpu_product": "845"
+  },
+  {
+    "brand": "mt",
+    "major": "6737",
+    "minor": "m",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "exynos",
+    "major": "3475",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "sdm",
+    "major": "450",
+    "minor": "",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "apq",
+    "major": "8084",
+    "minor": "",
+    "level": 1,
+    "cpu_product": "805"
+  },
+  {
+    "brand": "sdm",
+    "major": "636",
+    "minor": "",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "exynos",
+    "major": "7570",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8937",
+    "minor": "",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8974",
+    "minor": "aav2",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8974",
+    "minor": "abv2",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8996",
+    "minor": "pro",
+    "level": 3,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8939",
+    "minor": "",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8953",
+    "minor": "pro",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "exynos",
+    "major": "7578",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6757",
+    "minor": "t",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8960",
+    "minor": "dt",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "exynos",
+    "major": "9810",
+    "minor": "",
+    "level": 3,
+    "cpu_product": ""
+  },
+  {
+    "brand": "exynos",
+    "major": "5420",
+    "minor": "",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8976",
+    "minor": "",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6755",
+    "minor": "",
+    "level": 1,
+    "cpu_product": "p10"
+  },
+  {
+    "brand": "msm",
+    "major": "8274",
+    "minor": "v1",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6735",
+    "minor": "m",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6752",
+    "minor": "m",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "kirin",
+    "major": "925",
+    "minor": "",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "msm",
+    "major": "8974",
+    "minor": "v1",
+    "level": 1,
+    "cpu_product": ""
+  },
+  {
+    "brand": "mt",
+    "major": "6755",
+    "minor": "m",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "sdm",
+    "major": "630",
+    "minor": "",
+    "level": 2,
+    "cpu_product": ""
+  },
+  {
+    "brand": "sdm",
+    "major": "660",
+    "minor": "",
+    "level": 3,
+    "cpu_product": "660"
+  },
+  {
+    "brand": "sdm",
+    "major": "710",
+    "minor": "",
+    "level": 3,
+    "cpu_product": "710"
+  },
+  {
+    "brand": "helio",
+    "major": "p60",
+    "minor": "",
+    "level": 3,
+    "cpu_product": "p60"
+  },
+  {
+    "brand": "sc",
+    "major": "7727",
+    "minor": "s",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "sc",
+    "major": "8830",
+    "minor": "",
+    "level": 0,
+    "cpu_product": ""
+  },
+  {
+    "brand": "sc",
+    "major": "8830",
+    "minor": "a",
+    "level": 0,
+    "cpu_product": ""
+  }
+]

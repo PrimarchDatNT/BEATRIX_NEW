@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black80">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/common_logo_beta_icon" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25.0dip"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginRight="25.0dip"
+            android:layout_marginBottom="15.0dip"
+            android:gravity="center"
+            android:text="@string/beta_tips"
+            android:textColor="@color/white"
+            android:textSize="16.0dip" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="25.0dip"
+            android:src="@drawable/common_shark_icon" />
+        <com.commsource.widget.PressTextView
+            android:id="@id/ptv_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:layout_marginLeft="65.0dip"
+            android:layout_marginRight="65.0dip"
+            android:background="@drawable/radius_23_fb5986"
+            android:gravity="center"
+            android:text="@string/dialog_i_konw"
+            android:textColor="@color/white"
+            android:textSize="13.0dip" />
+    </LinearLayout>
+</RelativeLayout>

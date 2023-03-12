@@ -1,0 +1,32 @@
+{
+  "low": [
+    "Adreno(TM)302",
+    "Adreno(TM)304",
+    "Adreno(TM)305",
+    "Adreno(TM)306",
+    "Adreno(TM)308",
+    "Mali-400",
+    "Mali-T624",
+    "VivanteGC7000"
+  ],
+  "mid": [
+    "Adreno(TM)506"
+  ],
+  "high": [
+    "Adreno(TM)418",
+    "Adreno(TM)420",
+    "Adreno(TM)430",
+    "Adreno(TM)508",
+    "Adreno(TM)509",
+    "Adreno(TM)510",
+    "Adreno(TM)512",
+    "PowerVRG6430"
+  ],
+  "vhigh": [
+    "Adreno(TM)530",
+    "Mali-G72",
+    "PowerVR7XTP-MT4",
+    "Adreno(TM)540",
+    "Adreno(TM)630"
+  ]
+}

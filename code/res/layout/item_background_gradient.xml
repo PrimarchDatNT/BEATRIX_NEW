@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/item_background_gradient_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.commsource.widget.CircleImageView android:layout_gravity="center_vertical" android:id="@id/ivThumb" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginRight="10.0dip" app:round_radius="14.0dip" />
+    <com.commsource.studio.function.background.BackgroundItemView android:layout_gravity="center_vertical" android:id="@id/biv" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginRight="10.0dip" />
+    <ImageView android:id="@id/iv_pro" android:visibility="visible" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="17.0dip" android:layout_marginTop="-5.0dip" android:src="@drawable/common_corner_premium_white_shadow" />
+    <com.commsource.widget.CircleDownloadProgressView android:layout_gravity="center_vertical" android:id="@id/cdpv_progress" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="3.0dip" app:cdpvCircleColor="@color/white" app:cdpvCircleRadius="60.0dip" app:cdpvCircleStrokeWidth="3.0dip" app:cdpvMaskCircleColor="@color/color_80000000" app:cdpvMaskColor="@color/transparent" app:cdpvMatchScale="0.85" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/ivDownload" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="1.0dip" android:src="@drawable/common_download_icon_border_white" android:scaleType="fitCenter" />
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/ivNew" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_marginBottom="-2.0dip" android:src="@drawable/corner_new_small" />
+</FrameLayout>

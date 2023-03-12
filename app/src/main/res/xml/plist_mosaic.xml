@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mpens>
+    <pen configPath="mosaic/default.mtpe" id="10079000" maskPath="mosaic/penMask.png" materialPath="mosaic/penMask.png" thumb="mosaic_5001" type="6" />
+    <pen configPath="mosaicMaterial/5002/mosaic_5002.mtpe" id="10079001" maskPath="mosaic/penMask.png" materialPath="mosaic/penMask.png" thumb="mosaic_5002" type="6" />
+    <pen configPath="mosaicMaterial/5003/mosaic_5003.mtpe" id="10079002" maskPath="mosaic/penMask.png" materialPath="mosaicMaterial/5003/asset_mosaic_5003.png" thumb="mosaic_5003" type="4" />
+    <pen configPath="mosaicMaterial/5004/mosaic_5004.mtpe" id="10079003" maskPath="mosaic/penMask.png" materialPath="mosaic/penMask.png" thumb="mosaic_5004" type="6" />
+</mpens>

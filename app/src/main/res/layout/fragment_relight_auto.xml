@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/fragment_relight_auto_0">
+    <FrameLayout
+        android:id="@id/fl_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:tag="binding_1">
+        <com.commsource.widget.XSeekBar
+            android:id="@id/xsb_auto"
+            android:layout_width="fill_parent"
+            android:layout_height="35.0dip"
+            android:layout_marginLeft="35.0dip"
+            android:layout_marginTop="3.0dip"
+            android:layout_marginRight="35.0dip"
+            android:visibility="visible"
+            app:isEnableStroke="false"
+            app:xBackgroundColor="@color/color_e5e5e5"
+            app:xProgressColor="@color/black" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/rv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="41.0dip"
+            android:layout_marginBottom="50.0dip" />
+    </FrameLayout>
+    <com.commsource.widget.part.XSeekBubbleView
+        android:id="@id/xbv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fl_content"
+        android:layout_marginLeft="35.0dip"
+        android:tag="binding_2" />
+</RelativeLayout>

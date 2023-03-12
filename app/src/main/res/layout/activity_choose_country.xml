@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <com.commsource.widget.CompatShadowToolBar
+        android:id="@id/topbar"
+        style="@style/top_bar">
+        <ImageButton
+            android:id="@id/ibtn_back"
+            style="@style/ActionBar_Left"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="23.0dip"
+            android:paddingRight="23.0dip"
+            android:src="@drawable/arrow_back_icon_black_normal" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip"
+            android:background="@drawable/toolbar_shadow" />
+    </com.commsource.widget.CompatShadowToolBar>
+    <com.commsource.beautyplus.setting.country.github.SearchEditText
+        android:id="@id/main_search"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_below="@id/topbar"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginRight="15.0dip"
+        android:gravity="center_vertical"
+        android:hint="请输入国家"
+        android:imeOptions="actionSearch"
+        android:maxLines="1"
+        android:padding="5.0dip"
+        android:textSize="16.0sp" />
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/main_search">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/main_recycler"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <com.commsource.beautyplus.setting.country.github.WaveSideBarView
+            android:id="@id/main_side_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="8.0dip"
+            app:sidebar_lazy_respond="false"
+            app:sidebar_text_color="@color/color_ff3578" />
+    </FrameLayout>
+</RelativeLayout>

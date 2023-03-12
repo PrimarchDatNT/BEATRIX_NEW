@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist>
+	<array>
+		<dict>
+			<key>FacePart</key>
+			<array>
+				
+
+				<!-- 脸型;-->
+                <dict>
+                    <key>EdgeProtection</key>
+                    <string>0</string>
+                    <key>Type</key>
+                    <string>FaceliftV2</string>
+                    <key>NeedGender</key>
+                    <string>1</string>
+                    <key>MaskPath</key>
+                    <array>
+                        <!-- 新瘦脸（美图手机移植的缩脸）-->
+                        <dict>
+                            <key>Path</key>
+                            <string>suolian.png</string>
+                            <key>BodyParts</key>
+                            <string>-1</string>
+                            <key>Rectangle</key>
+                            <string>0,0,280,280;</string>
+                        </dict>
+                        <!-- 婕莹 5/15 新配置的脸型 （区分男女）-->
+                       <dict>
+							<key>Path</key>
+							<string>Grid_0_0.png</string>
+							<key>BodyParts</key>
+							<string>-1</string>
+							<key>Rectangle</key>
+							<string>86,110,109,37;</string>
+							<key>GenerateType</key>
+							<string>0</string>
+						</dict>
+						<dict>
+							<key>Path</key>
+							<string>Grid_1_1.png</string>
+							<key>BodyParts</key>
+							<string>-1</string>
+							<key>Rectangle</key>
+							<string>87,108,108,68;</string>
+							<key>GenerateType</key>
+							<string>0</string>
+						</dict>
+						<dict>
+							<key>Path</key>
+							<string>Grid_2_6.png</string>
+							<key>BodyParts</key>
+							<string>-1</string>
+							<key>Rectangle</key>
+							<string>10,21,262,233;</string>
+							<key>GenerateType</key>
+							<string>0</string>
+						</dict>
+						<dict>
+							<key>Path</key>
+							<string>Grid_3_5.png</string>
+							<key>BodyParts</key>
+							<string>-1</string>
+							<key>Rectangle</key>
+							<string>76,174,132,62;</string>
+							<key>GenerateType</key>
+							<string>0</string>
+						</dict>
+                        
+                    </array>
+                    <key>Configure</key>
+                    <array>
+                        <!-- 新瘦脸（美图手机移植的缩脸）-->
+                        <dict>
+                            <key>MaskIndex</key>
+                            <integer>0</integer>
+							<!--以下是滑杆配置, LiftControlType是由客户端判断的滑杆类型，因为是一键美型的配置，所以这里任意写成同样的就行，这里写为0-->
+                            <key>LiftControlType</key>
+                            <integer>0</integer>
+                            <key>ControlRange</key>
+                            <string>0.0,1.0</string>
+                            <key>ValueRange</key>
+                            <string>0.0,0.3</string>
+                        </dict>  
+
+                        <!-- 婕莹 5/15 新配置的脸型 （区分男女）-->
+						<dict>
+							<key>MaskIndex</key>
+							<string>1</string>
+							<!--以下是滑杆配置, LiftControlType是由客户端判断的滑杆类型，因为是一键美型的配置，所以这里任意写成同样的就行，这里写为0-->
+                            <key>LiftControlType</key>
+                            <integer>0</integer>
+                            <key>ControlRange</key>
+                            <string>0.0,1.0</string>
+                            <key>ValueRange</key>
+                            <string>0.0,0.3</string>
+						</dict>
+						<dict>
+							<key>MaskIndex</key>
+							<string>2</string>
+							<!--以下是滑杆配置, LiftControlType是由客户端判断的滑杆类型，因为是一键美型的配置，所以这里任意写成同样的就行，这里写为0-->
+                            <key>LiftControlType</key>
+                            <integer>0</integer>
+                            <key>ControlRange</key>
+                            <string>0.0,1.0</string>
+                            <key>ValueRange</key>
+                            <string>0.0,0.3</string>
+						</dict>
+						<dict>
+							<key>MaskIndex</key>
+							<string>3</string>
+							<!--以下是滑杆配置, LiftControlType是由客户端判断的滑杆类型，因为是一键美型的配置，所以这里任意写成同样的就行，这里写为0-->
+                            <key>LiftControlType</key>
+                            <integer>0</integer>
+                            <key>ControlRange</key>
+                            <string>0.0,1.0</string>
+                            <key>ValueRange</key>
+                            <string>0.0,0.3</string>
+						</dict>
+						<dict>
+							<key>MaskIndex</key>
+							<string>4</string>
+							<!--以下是滑杆配置, LiftControlType是由客户端判断的滑杆类型，因为是一键美型的配置，所以这里任意写成同样的就行，这里写为0-->
+                            <key>LiftControlType</key>
+                            <integer>0</integer>
+                            <key>ControlRange</key>
+                            <string>0.0,1.0</string>
+                            <key>ValueRange</key>
+                            <string>0.0,0.3</string>
+						</dict>
+
+                    </array>
+
+                </dict>
+
+			</array>
+		</dict>
+	</array>
+</plist>

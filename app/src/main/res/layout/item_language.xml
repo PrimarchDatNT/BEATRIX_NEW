@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/selectable_item"
+    android:layout_width="fill_parent"
+    android:layout_height="70.0dip"
+    android:tag="layout/item_language_0">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70.0dip"
+        android:gravity="center_vertical">
+        <com.commsource.widget.BoldTextView
+            android:id="@id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:textColor="@color/Gray_A"
+            android:textSize="16.0dip" />
+        <TextView
+            android:id="@id/tv_second_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginTop="6.0dip"
+            android:textColor="@color/Gray_B"
+            android:textSize="12.0dip" />
+    </RelativeLayout>
+    <com.commsource.widget.IconFrontView
+        android:id="@id/ifv_select"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_gravity="end|center"
+        android:layout_marginRight="19.0dip"
+        android:gravity="center"
+        android:text="@string/if_look_select"
+        android:textColor="@color/Primary_A"
+        android:textSize="24.0dip"
+        android:visibility="gone" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="15.0dip"
+        android:background="@color/Gray_Dashline" />
+</FrameLayout>

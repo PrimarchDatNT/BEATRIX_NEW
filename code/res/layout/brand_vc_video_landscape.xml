@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sdk.imp.AspectRatioRelativeLayout android:id="@id/brand_vc_mp4_viewer_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.sdk.imp.player.Mp4Viewer android:id="@id/brand_vc_mp4_viewer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <View android:id="@id/brand_vc_mp4_viewer_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:id="@id/brand_vc_mp4_viewer_shadow" android:background="#11000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.sdk.imp.AspectRatioRelativeLayout>
+    <include layout="@layout/brand_vc_mute_unmute" />
+    <include layout="@layout/brand_vc_skip" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <include android:id="@id/brand_vc_replay_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/brand_vc_replay_layout" />
+        <include android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_marginTop="9.0dip" android:layout_below="@id/brand_vc_replay_layout" android:layout_centerHorizontal="true" layout="@layout/brand_vc_learn_more" />
+    </RelativeLayout>
+    <include android:id="@id/brand_vc_progress_bar" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="0.0dip" android:progressDrawable="@drawable/brand_vc_progress_bar" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@layout/brand_vc_progress_bar" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <include layout="@layout/brand_vc_sponsored" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="12.0dip" android:layout_toRightOf="@id/brand_vc_sponsored_view" android:layout_alignParentBottom="true" layout="@layout/brand_vc_seconds" />
+</RelativeLayout>

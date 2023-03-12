@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Unknown</string>
+		<key>ID</key>
+		<integer>0</integer>
+		<key>Action</key>
+		<integer>0</integer>
+		<key>Sound</key>
+		<integer>0</integer>
+		<key>FacePart</key>
+		<array>
+			<dict>
+				<key>ScriptPath</key>
+				<string>3d.lua</string>
+				<key>Type</key>
+				<string>Script</string>
+				<key>MessageType</key>
+				<string>2P5ALPHAANDFACEIDS</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

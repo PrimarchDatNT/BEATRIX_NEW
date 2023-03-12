@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "title": "no_water_mark",
+    "thumb": "no_watermark.png",
+    "materialPath": "no_watermark.png"
+  },
+  {
+    "id": 1001,
+    "title": "watermark1",
+    "thumb": "watermark_1001.png",
+    "materialPath": "watermark_1001.png"
+  },
+  {
+    "id": 1002,
+    "title": "watermark2",
+    "thumb": "watermark_1002.png",
+    "materialPath": "watermark_1002.png"
+  },
+  {
+    "id": 1004,
+    "title": "watermark4",
+    "thumb": "watermark_1004.png",
+    "materialPath": "watermark_1004.png"
+  },
+  {
+    "id": 1003,
+    "title": "watermark3",
+    "thumb": "watermark_1003.png",
+    "materialPath": "watermark_1003.png"
+  },
+  {
+    "id": 1005,
+    "title": "watermark5",
+    "thumb": "watermark_1005.png",
+    "materialPath": "watermark_1005.png"
+  },
+  {
+    "id": 1006,
+    "title": "watermark6",
+    "thumb": "watermark_1006.png",
+    "materialPath": "watermark_1006.png"
+  }
+]

@@ -1,0 +1,1151 @@
+{
+  "config_version": 3,
+  "ads": [
+    {
+      "ad_slot_id": "ad_banner_selfiesave",
+      "ad_switch": true,
+      "ad_slot_types": [
+        "native"
+      ],
+      "interval_times": 10000,
+      "platforms": [
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "native",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_All_selfiesave_test",
+          "test_custom_id": "10131869",
+          "custom_id": "10131869",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_android_All_Selfiesave_native"
+            }
+          ]
+        },
+        {
+          "platform": "adx",
+          "show_times": 2,
+          "test_id": "ca-mb-app-pub-5667841606697413/6266169118",
+          "ad_ids": [
+            {
+              "style": "banner",
+              "ad_id": "ca-mb-app-pub-5667841606697413/6266169118"
+            },
+            {
+              "style": "pop_window",
+              "cache_mode": 1,
+              "ad_id": "ca-mb-app-pub-5667841606697413/2947092783"
+            },
+            {
+              "style": "pop_window",
+              "cache_mode": 2,
+              "ad_id": "ca-mb-app-pub-5667841606697413/1634010480"
+            }
+          ]
+        },
+        {
+          "platform": "admob",
+          "show_times": 2,
+          "test_id": "ca-app-pub-6116757859211411/8530268287",
+          "ad_ids": [
+            {
+              "style": "banner",
+              "ad_id": "ca-app-pub-6116757859211411/8530268287"
+            },
+            {
+              "style": "pop_window",
+              "cache_mode": 1,
+              "ad_id": "ca-app-pub-6116757859211411/1041682530"
+            },
+            {
+              "style": "pop_window",
+              "cache_mode": 2,
+              "ad_id": "ca-app-pub-6116757859211411/7868489924"
+            }
+          ]
+        },
+        {
+          "platform": "s2s",
+          "show_times": 0
+        },
+        {
+          "platform": "mopub_mediation",
+          "show_times": 0,
+          "test_id": "49907b6477fd43c9a3c4b91e7405089b",
+          "ad_ids": [
+            {
+              "ad_id": "49907b6477fd43c9a3c4b91e7405089b"
+            }
+          ]
+        },
+        {
+          "type": "native",
+          "platform": "meitu_adx",
+          "show_times": 0,
+          "test_id": "138003",
+          "ad_ids": [
+            {
+              "ad_id": "124004"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "ad_banner_save_via_selfie",
+      "ad_switch": true,
+      "ad_slot_types": [
+        "native",
+        "video"
+      ],
+      "mode": 1,
+      "platforms": [
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner_300*250",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_All_save_banner_test",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_android_All_save_banner"
+            }
+          ]
+        },
+        {
+          "platform": "mopub_mediation",
+          "type": "banner_300*250",
+          "show_times": 0,
+          "test_id": "94366c167d4b4ac184061032ec8a5c8f",
+          "ad_ids": [
+            {
+              "ad_id": "94366c167d4b4ac184061032ec8a5c8f"
+            }
+          ]
+        },
+        {
+          "platform": "adx",
+          "type": "banner_300*250",
+          "show_times": 0,
+          "test_id": "ca-mb-app-pub-5667841606697413/3995580839",
+          "ad_ids": [
+            {
+              "ad_id": "ca-mb-app-pub-5667841606697413/3995580839"
+            }
+          ]
+        },
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "native",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_All_selfiesave_test",
+          "test_custom_id": "10131869",
+          "custom_id": "10131869",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_android_All_Save_native"
+            }
+          ]
+        },
+        {
+          "platform": "adx",
+          "show_times": 2,
+          "type": "native",
+          "test_id": "ca-mb-app-pub-5667841606697413/1679979189",
+          "ad_ids": [
+            {
+              "ad_id": "ca-mb-app-pub-5667841606697413/1679979189"
+            }
+          ]
+        },
+        {
+          "type": "native",
+          "platform": "admob",
+          "show_times": 2,
+          "test_id": "ca-app-pub-6116757859211411/1960652507",
+          "ad_ids": [
+            {
+              "ad_id": "ca-app-pub-6116757859211411/1960652507"
+            }
+          ]
+        },
+        {
+          "platform": "mopub_mediation",
+          "show_times": 0,
+          "type": "native",
+          "test_id": "22bcdb85ee6b4b9b831c1d92064cdc20",
+          "ad_ids": [
+            {
+              "ad_id": "22bcdb85ee6b4b9b831c1d92064cdc20"
+            }
+          ]
+        },
+        {
+          "platform": "meitu_adx",
+          "type": "banner_300*250",
+          "show_times": 0,
+          "test_id": "138001",
+          "ad_ids": [
+            {
+              "ad_id": "124005"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "ad_banner_album",
+      "ad_switch": true,
+      "ad_slot_types": [
+        "banner",
+        "native"
+      ],
+      "mode": 1,
+      "show_time_second": 3,
+      "platforms": [
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "native",
+          "test_id": "/253901709/BeautyPlus_All_Album_test",
+          "test_custom_id": "10131869",
+          "custom_id": "10131869",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_All_android_Album_native"
+            }
+          ]
+        },
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner",
+          "test_id": "/253901709/BeautyPlus_all_album_banner_test",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_android_All_Album_banner"
+            }
+          ]
+        },
+        {
+          "platform": "adx",
+          "type": "native",
+          "show_times": 2,
+          "test_id": "ca-mb-app-pub-5667841606697413/7742876998",
+          "ad_ids": [
+            {
+              "ad_id": "ca-mb-app-pub-5667841606697413/7742876998"
+            }
+          ]
+        },
+        {
+          "platform": "adx",
+          "type": "banner",
+          "show_times": 0,
+          "test_id": "ca-mb-app-pub-5667841606697413/8942423316",
+          "ad_ids": [
+            {
+              "ad_id": "ca-mb-app-pub-5667841606697413/8942423316"
+            }
+          ]
+        },
+        {
+          "platform": "admob",
+          "type": "native",
+          "show_times": 2,
+          "test_id": "ca-app-pub-3940256099942544/3986624511",
+          "ad_ids": [
+            {
+              "ad_id": "ca-app-pub-6116757859211411/2288066285"
+            }
+          ]
+        },
+        {
+          "platform": "admob",
+          "type": "banner",
+          "show_times": 0,
+          "test_id": "ca-app-pub-6116757859211411/5783109990",
+          "ad_ids": [
+            {
+              "ad_id": "ca-app-pub-6116757859211411/5783109990"
+            }
+          ]
+        },
+        {
+          "platform": "s2s",
+          "type": "native",
+          "show_times": 0
+        },
+        {
+          "platform": "mopub_mediation",
+          "type": "native",
+          "show_times": 0,
+          "test_id": "6cf90f8c5d004732bc91b3ca77cce7d1",
+          "ad_ids": [
+            {
+              "ad_id": "6cf90f8c5d004732bc91b3ca77cce7d1"
+            }
+          ]
+        },
+        {
+          "platform": "mopub_mediation",
+          "type": "banner",
+          "show_times": 0,
+          "test_id": "0c67a77521b14c658b099869a212807b",
+          "ad_ids": [
+            {
+              "ad_id": "7cce92edd8414d58976ad448b04c44ad"
+            }
+          ]
+        },
+        {
+          "platform": "meitu_adx",
+          "type": "banner",
+          "show_times": 0,
+          "test_id": "138002",
+          "ad_ids": [
+            {
+              "ad_id": "124003"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "business_launch_ad",
+      "ad_switch": true,
+      "ad_slot_types": [
+        "native",
+        "brand",
+        "interstitial"
+      ],
+      "mode": 1,
+      "show_time_second": 4,
+      "diff_time_second": 1800,
+      "wait_time_second": 2,
+      "mt_ad_type": "launch_ad",
+      "platforms": [
+        {
+          "platform": "mt",
+          "type": "native",
+          "show_times": 0
+        },
+        {
+          "platform": "dfp",
+          "type": "template",
+          "show_times": 1,
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_Launch_Ad_Test",
+          "test_custom_id": "10131869",
+          "custom_id": "10131869",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_Android_All_Startpage"
+            }
+          ]
+        },
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "video",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_All_Startpage_video_test",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_Android_All_Startpage_video"
+            }
+          ]
+        },
+        {
+          "platform": "s2s",
+          "type": "native",
+          "show_times": 0
+        },
+        {
+          "platform": "admob",
+          "type": "native",
+          "show_times": 0,
+          "test_id": "ca-app-pub-6116757859211411/7270075086",
+          "ad_ids": [
+            {
+              "ad_id": "ca-app-pub-6116757859211411/7270075086"
+            }
+          ]
+        },
+        {
+          "platform": "admob",
+          "type": "interstitial",
+          "show_times": 0,
+          "test_id": "ca-app-pub-6116757859211411/3023341402",
+          "ad_ids": [
+            {
+              "ad_id": "ca-app-pub-6116757859211411/3023341402"
+            }
+          ]
+        },
+        {
+          "platform": "adx",
+          "type": "native",
+          "show_times": 0,
+          "test_id": "ca-mb-app-pub-5667841606697413/9169366198",
+          "ad_ids": [
+            {
+              "ad_id": "ca-mb-app-pub-5667841606697413/9169366198"
+            }
+          ]
+        },
+        {
+          "platform": "adx",
+          "type": "interstitial",
+          "show_times": 0,
+          "test_id": "ca-mb-app-pub-5667841606697413/6028232356",
+          "ad_ids": [
+            {
+              "ad_id": "ca-mb-app-pub-5667841606697413/6028232356"
+            }
+          ]
+        },
+        {
+          "platform": "mopub_mediation",
+          "type": "interstitial",
+          "show_times": 0,
+          "test_id": "d0bf3c5129ef4fb69dee0244eae1fdbe",
+          "ad_ids": [
+            {
+              "ad_id": "4e4ec89a523c404d981fd2ef8b426e94"
+            }
+          ]
+        },
+        {
+          "platform": "dfp",
+          "type": "interstitial",
+          "show_times": 0,
+          "test_id": "/253901709/BeautyPlus_All_android_startpage_interstitial_test",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_All_android_startpage_interstitial"
+            }
+          ]
+        },
+        {
+          "platform": "meitu_adx",
+          "type": "interstitial",
+          "test_id": "138007",
+          "show_times": 0,
+          "ad_ids": [
+            {
+              "ad_id": "124001"
+            }
+          ]
+        },
+        {
+          "platform": "meitu_adx",
+          "type": "video",
+          "test_id": "138005",
+          "show_times": 0,
+          "ad_ids": [
+            {
+              "ad_id": "124007"
+            }
+          ]
+        },
+        {
+          "platform": "meitu_adx",
+          "type": "template",
+          "test_id": "138009",
+          "show_times": 0,
+          "ad_ids": [
+            {
+              "ad_id": "124011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "business_interstitial_selfie_save_icon",
+      "ad_slot_types": [
+        "interstitial"
+      ],
+      "ad_switch": false,
+      "mode": 1,
+      "platforms": [
+        {
+          "platform": "adx",
+          "type": "interstitial",
+          "test_id": "ca-mb-app-pub-5667841606697413/5262882943",
+          "ad_ids": [
+            {
+              "ad_id": "ca-mb-app-pub-5667841606697413/5262882943"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "business_beauty_save",
+      "ad_switch": false,
+      "ad_slot_types": [
+        "interstitial"
+      ],
+      "platforms": [
+        {
+          "type": "interstitial",
+          "platform": "admob",
+          "show_times": 1,
+          "test_id": "ca-app-pub-6116757859211411/5972049046",
+          "ad_ids": [
+            {
+              "ad_id": "ca-app-pub-6116757859211411/5972049046"
+            }
+          ]
+        },
+        {
+          "type": "interstitial",
+          "platform": "adx",
+          "show_times": 1,
+          "test_id": "ca-mb-app-pub-5667841606697413/3595989196",
+          "ad_ids": [
+            {
+              "ad_id": "ca-mb-app-pub-5667841606697413/3595989196"
+            }
+          ]
+        },
+        {
+          "type": "interstitial",
+          "platform": "s2s",
+          "show_times": 1
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "business_rewardedvideo_ad_ar",
+      "ad_slot_types": [
+        "rewarded_video"
+      ],
+      "ad_switch": true,
+      "mode": 1,
+      "platforms": [
+        {
+          "type": "rewarded_video",
+          "platform": "admob",
+          "show_times": 0,
+          "test_id": "ca-app-pub-6116757859211411/7791363601",
+          "ad_ids": [
+            {
+              "ad_id": "ca-app-pub-6116757859211411/7791363601"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "business_rewardedvideo_ad_mosaic",
+      "ad_slot_types": [
+        "rewarded_video"
+      ],
+      "ad_switch": false,
+      "mode": 1,
+      "platforms": [
+        {
+          "type": "rewarded_video",
+          "platform": "admob",
+          "show_times": 1,
+          "test_id": "ca-app-pub-6116757859211411/5450494466",
+          "ad_ids": [
+            {
+              "ad_id": "ca-app-pub-6116757859211411/5450494466"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "ad_banner_topbanner",
+      "mode": 2,
+      "ad_switch": false,
+      "platforms": [
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "video",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_All_TB_banner_video_test",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_Android_All_TB_banner_video"
+            }
+          ]
+        },
+        {
+          "platform": "admob",
+          "show_times": 0,
+          "type": "native",
+          "max_show_times": 0,
+          "test_id": "ca-app-pub-6116757859211411/6271396165",
+          "ad_ids": [
+            {
+              "ad_id": "ca-app-pub-6116757859211411/6271396165"
+            }
+          ]
+        },
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_TB_fullsize_1005837_test",
+          "test_custom_id": "10131869",
+          "custom_id": "10131869",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_android_TB_fullsize_1005837"
+            }
+          ]
+        },
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner_300*250",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_Android_All_TB_banner_test",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_Android_All_TB_banner"
+            }
+          ]
+        },
+        {
+          "platform": "mopub",
+          "type": "banner_300*250",
+          "show_times": 0,
+          "test_id": "97159076b6944c7e869c8e5525a13411",
+          "ad_ids": [
+            {
+              "ad_id": "4a1840411fd4475284e4af739ec38a7f"
+            }
+          ]
+        },
+        {
+          "platform": "adx",
+          "type": "banner_300*250",
+          "show_times": 0,
+          "test_id": "ca-mb-app-pub-5667841606697413/2242640846",
+          "ad_ids": [
+            {
+              "ad_id": "ca-mb-app-pub-5667841606697413/2242640846"
+            }
+          ]
+        },
+        {
+          "platform": "s2s",
+          "type": "brand",
+          "show_times": 0
+        },
+        {
+          "platform": "meitu_adx",
+          "type": "banner_300*250",
+          "show_times": 0,
+          "test_id": "138001",
+          "ad_ids": [
+            {
+              "ad_id": "124002"
+            }
+          ]
+        },
+        {
+          "platform": "meitu_adx",
+          "type": "video",
+          "show_times": 0,
+          "test_id": "138004",
+          "ad_ids": [
+            {
+              "ad_id": "124006"
+            }
+          ]
+        },
+        {
+          "platform": "spotx",
+          "type": "video",
+          "show_times": 0,
+          "test_id": "288419",
+          "ad_ids": [
+            {
+              "ad_id": "288433"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "BP_Android_TB_testA",
+      "mode": 2,
+      "ad_switch": true,
+      "platforms": [
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner_320*50",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_android_TB_testA",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_android_TB_testA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "BP_Android_TB_testB",
+      "mode": 2,
+      "ad_switch": true,
+      "platforms": [
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner_300*250",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_android_TB_testB",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_android_TB_testB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "BP_Android_TB_testC",
+      "mode": 2,
+      "ad_switch": true,
+      "platforms": [
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner_300*250",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_android_TB_testC",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_android_TB_testC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "BP_Android_TB_testD",
+      "mode": 2,
+      "ad_switch": false,
+      "platforms": [
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner_300*250",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_android_TB_testD",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_android_TB_testD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "BP_Android_TB_2nd_testA",
+      "mode": 2,
+      "ad_switch": true,
+      "platforms": [
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner_320*50",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_android_TB_2nd_testA",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_android_TB_2nd_testA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "BP_Android_TB_2nd_testB",
+      "mode": 2,
+      "ad_switch": true,
+      "platforms": [
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner_320*50",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_android_TB_2nd_testB",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_android_TB_2nd_testB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "BP_Android_TB_2nd_testC",
+      "mode": 2,
+      "ad_switch": true,
+      "platforms": [
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner_320*50",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_android_TB_2nd_testC",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_android_TB_2nd_testC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "BP_Android_TB_2nd_testD",
+      "mode": 2,
+      "ad_switch": true,
+      "platforms": [
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner_320*50",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_android_TB_2nd_testD",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_android_TB_2nd_testD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "ad_banner_bottom",
+      "mode": 2,
+      "ad_switch": true,
+      "platforms": [
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner_320*50",
+          "test_id": "/253901709/BeautyPlus_android_All_TB_bottom",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_android_All_TB_bottom"
+            }
+          ]
+        },
+        {
+          "platform": "meitu_adx",
+          "type": "banner_320*50",
+          "show_times": 0,
+          "test_id": "138002",
+          "ad_ids": [
+            {
+              "ad_id": "124008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "BP_Android_TB_2nd_A",
+      "mode": 1,
+      "ad_switch": true,
+      "platforms": [
+        {
+          "platform": "adx",
+          "type": "banner_300*250",
+          "show_times": 1,
+          "test_id": "ca-mb-app-pub-5667841606697413/1398608208/7952385313",
+          "ad_ids": [
+            {
+              "ad_id": "ca-mb-app-pub-5667841606697413/1398608208/7952385313"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "BP_Android_TB_2nd_B",
+      "mode": 1,
+      "ad_switch": true,
+      "platforms": [
+        {
+          "platform": "adx",
+          "type": "banner_300*250",
+          "show_times": 1,
+          "test_id": "ca-mb-app-pub-5667841606697413/1398608208/6197871234",
+          "ad_ids": [
+            {
+              "ad_id": "ca-mb-app-pub-5667841606697413/1398608208/6197871234"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "BP_Android_TB_2nd_C",
+      "mode": 1,
+      "ad_switch": true,
+      "platforms": [
+        {
+          "platform": "adx",
+          "type": "banner_300*250",
+          "show_times": 1,
+          "test_id": "ca-mb-app-pub-5667841606697413/1398608208/1055644957",
+          "ad_ids": [
+            {
+              "ad_id": "ca-mb-app-pub-5667841606697413/1398608208/1055644957"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "BP_Android_TB_2nd_D",
+      "mode": 1,
+      "ad_switch": true,
+      "platforms": [
+        {
+          "platform": "dfp",
+          "type": "banner_300*250",
+          "show_times": 1,
+          "test_id": "/253901709/BeautyPlus_android_TB_2nd_testD",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_android_TB_2nd_testD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "ad_banner_topbanner2",
+      "mode": 2,
+      "ad_switch": false,
+      "platforms": [
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_TB_fullsize_1005837_test",
+          "test_custom_id": "10131869",
+          "custom_id": "10131869",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_android_TB_fullsize_1005837"
+            }
+          ]
+        },
+        {
+          "platform": "admob",
+          "show_times": 0,
+          "type": "native",
+          "max_show_times": 0,
+          "test_id": "ca-app-pub-6116757859211411/6271396165",
+          "ad_ids": [
+            {
+              "ad_id": "ca-app-pub-6116757859211411/6271396165"
+            }
+          ]
+        },
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "video",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_All_TB_banner_video_test",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_Android_All_TB_banner_video"
+            }
+          ]
+        },
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner_300*250",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_All_TB_2nd_test",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_android_All_TB_2nd"
+            }
+          ]
+        },
+        {
+          "platform": "mopub",
+          "type": "banner_300*250",
+          "show_times": 0,
+          "test_id": "97159076b6944c7e869c8e5525a13411",
+          "ad_ids": [
+            {
+              "ad_id": "55aa92f6097c44e8933a1bc3d5e6a5ca"
+            }
+          ]
+        },
+        {
+          "platform": "adx",
+          "type": "banner_300*250",
+          "show_times": 0,
+          "test_id": "ca-mb-app-pub-5667841606697413/3728852779",
+          "ad_ids": [
+            {
+              "ad_id": "ca-mb-app-pub-5667841606697413/3728852779"
+            }
+          ]
+        },
+        {
+          "platform": "s2s",
+          "type": "brand",
+          "show_times": 0
+        },
+        {
+          "platform": "meitu_adx",
+          "type": "banner_300*250",
+          "show_times": 0,
+          "test_id": "138001",
+          "ad_ids": [
+            {
+              "ad_id": "124002"
+            }
+          ]
+        },
+        {
+          "platform": "meitu_adx",
+          "type": "video",
+          "show_times": 0,
+          "test_id": "138004",
+          "ad_ids": [
+            {
+              "ad_id": "124006"
+            }
+          ]
+        },
+        {
+          "platform": "spotx",
+          "type": "video",
+          "show_times": 0,
+          "test_id": "288419",
+          "ad_ids": [
+            {
+              "ad_id": "288433"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "ad_banner_topbanner_dfp2",
+      "mode": 2,
+      "ad_switch": false,
+      "platforms": [
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner_300*250",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_All_TB_carousel2_banner_test",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_All_android_TB_carousel2_banner"
+            }
+          ]
+        },
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_All_TB_carousel2_full_test",
+          "test_custom_id": "10131869",
+          "custom_id": "10131869",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_All_android_TB_carousel2_full"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "ad_banner_topbanner_dfp3",
+      "mode": 2,
+      "ad_switch": false,
+      "platforms": [
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner_300*250",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_All_TB_carousel3_banner_test",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_All_android_TB_carousel3_banner"
+            }
+          ]
+        },
+        {
+          "platform": "dfp",
+          "show_times": 0,
+          "type": "banner",
+          "max_show_times": 0,
+          "test_id": "/253901709/BeautyPlus_All_TB_carousel3_full_test",
+          "test_custom_id": "10131869",
+          "custom_id": "10131869",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_All_android_TB_carousel3_full"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ad_slot_id": "ad_banner_AIBeauty",
+      "ad_slot_types": [
+        "banner"
+      ],
+      "ad_switch": true,
+      "mode": 1,
+      "platforms": [
+        {
+          "platform": "adx",
+          "type": "banner",
+          "show_times": 0,
+          "test_id": "/253901709/BeautyPlus_android_ALL_AIBeauty_banner",
+          "ad_ids": [
+            {
+              "ad_id": "/253901709/BeautyPlus_android_ALL_AIBeauty_banner"
+            }
+          ]
+        },
+        {
+          "platform": "mopub_mediation",
+          "type": "banner",
+          "show_times": 0,
+          "test_id": "97c38a6e87f749ca91754685a399fba8",
+          "ad_ids": [
+            {
+              "ad_id": "97c38a6e87f749ca91754685a399fba8"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

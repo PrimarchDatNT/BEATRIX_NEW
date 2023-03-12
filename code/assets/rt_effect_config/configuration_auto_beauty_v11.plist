@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<integer>1001</integer>
+	<key>FilterPart</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>AnattaBeauty</string>
+			<key>Filters</key>
+			<array>
+				<dict>
+					<key>Name</key>
+					<string>SourceInput</string>
+				</dict>
+				<!-- 面部平整(去法令纹+去泪沟)。Android一键美颜V1.1 默认关闭 -->
+		<!-- 		<dict>
+					<key>Name</key>
+					<string>FacialShadowSmooth</string>
+					<key>Type</key>
+					<string>LaughLine</string>
+					<key>LaughLineSwitch</key>
+					<string>1</string>
+					<key>LaughLineAlpha</key>
+					<string>0.8</string>
+					<key>TearTroughSwitch</key>
+					<string>1</string>
+					<key>TearTroughAlpha</key>
+					<string>0.7</string>
+					<key>FromSource</key>
+					<array>
+						<string>SourceInput</string>
+					</array>
+				</dict> -->
+				<!-- 祛斑祛痘。在APP上需要在设置页面打开开关才能生效 -->
+				<dict>
+					<key>Name</key>
+					<string>FleckFlawClean</string>
+					<key>FleckFlawSwitch</key>
+					<string>1</string>
+					<key>minFleckRadius</key>
+					<string>0.001</string>
+					<key>NeedExternSkinMaskData</key>
+					<string>1</string>
+					<key>FromSource</key>
+					<array>
+						<string>SourceInput</string>
+					</array>
+				</dict>
+				<!-- 磨皮 -->
+				<dict>
+					<key>Name</key>
+					<string>SkinSmooth</string>
+					<key>Type</key>
+					<string>SkinSmoothDenoiseAndroid</string>
+					<key>Switch</key>
+                    <string>1</string>
+					<key>FromSource</key>
+					<array>
+						<string>FleckFlawClean</string>
+					</array>
+				</dict>
+				<!-- 勿更改，亮眼所需滤镜 -->
+				<dict>
+					<key>Name</key>
+					<string>BlurFilter02</string>
+					<key>FromSource</key>
+					<array>
+						<string>SkinSmooth</string>
+					</array>
+				</dict>
+				<!-- 精细化美颜 -->
+				<dict>
+					<key>Name</key>
+					<string>FacialBeautify</string>
+					<!-- 亮眼类型，可选：0（旧亮眼），1（线上亮眼 提亮曲线），2（亮眼锐化不提亮） -->
+					<key>BrightEyeType</key>
+					<string>1</string>
+					<!-- 亮眼开关 -->
+					<key>BrightEyeSwitch</key>
+					<string>1</string>
+					<!-- 美牙开关 -->
+					<key>WhiteTeethSwitch</key>
+					<string>1</string>
+					<!-- 去黑眼圈开关 -->
+					<key>RemovePouchSwitch</key>
+					<string>1</string>
+					<key>FromSource</key>
+					<array>
+						<string>SkinSmooth</string>
+						<string>BlurFilter02</string>
+					</array>
+				</dict>
+				<!-- 五官立体 -->
+				<dict>
+					<key>Name</key>
+					<string>ShadowLight</string>
+					<key>Type</key>
+					<string>2DSoftLight</string>
+					<key>Switch</key>
+					<string>1</string>
+					<key>Alpha</key>
+					<string>0.5</string>
+					<key>FromSource</key>
+					<array>
+						<string>FacialBeautify</string>
+					</array>
+				</dict>
+				<!-- 肤色 -->
+				<dict>
+					<key>Name</key>
+					<string>FaceColor</string>
+					<key>Type</key>
+					<!-- 调色类型：SingleLookup,DoubleLookup,ThripleMixLookup,FaceColor0060,MTXXFaceColor -->
+					<string>SingleLookup</string>
+                    <key>NeedSkinMaskMix</key>
+                    <string>0</string>
+                    <!-- 自动对比度类型 0:自动对比度 ；1:自动色阶； 3:新自动色阶；-->
+                    <key>AutoContrastType</key>
+					<string>3</string>
+					<key>AutoContrastSwitch</key>
+					<string>1</string>
+					<key>AutoContrastAlpha</key>
+					<string>1.0</string>
+					<!-- 肤色开关 -->
+					<key>Switch</key>
+					<string>1</string>
+					<key>Alpha</key>
+					<string>0</string>
+					<key>FaceColor_lookUpWhitePath</key>
+					<string>light.png</string>
+					<key>FaceColor_lookUpSizeType</key>
+					<string>64</string>
+					<key>FromSource</key>
+					<array>
+						<string>ShadowLight</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>ResultOutput</string>
+					<key>FromSource</key>
+					<array>
+						<string>FaceColor</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

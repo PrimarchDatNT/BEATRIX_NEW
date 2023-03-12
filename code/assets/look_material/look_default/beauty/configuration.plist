@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<integer>1001</integer>
+	<key>FilterPart</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>AnattaBeauty</string>
+			<key>Filters</key>
+			<array>
+				<dict>
+					<key>Name</key>
+					<string>SourceInput</string>
+				</dict>
+
+				<!-- 实时祛斑祛痘 -->
+				<dict>
+					<key>Name</key>
+					<string>AcneClean</string>
+					<!-- 0:拍后+预览 ；1:仅预览 -->
+					<key>IsOnlyPreview</key>
+					<string>1</string>
+					<!-- 0:关；1:开 -->
+					<key>Switch</key>
+					<string>1</string>
+					<key>Alpha</key>
+					<string>1.0</string>
+					<key>FromSource</key>
+					<array>
+						<string>SourceInput</string>
+					</array>
+				</dict>
+				
+				<!-- 磨皮 -->
+				<dict>
+					<key>Name</key>
+					<string>SkinSmooth</string>
+					<!-- Normal; 皮肤分割磨皮：SkinSegment; SkinSmoothIns-->
+					<key>Type</key>
+					<string>Normal</string>
+					<key>Switch</key>
+					<string>1</string>
+					<key>Alpha</key>
+					<string>1.0</string>
+					<!--勿删！！Normal磨皮使用 1:仅对脸部磨皮 0:全图磨皮-->
+					<key>IsNeedFaceAndNeckMask</key>
+					<string>1</string>
+					<key>FromSource</key>
+					<array>
+						<string>AcneClean</string>
+					</array>
+				</dict>
+				<!--勿删！！-->
+				<dict>
+					<key>Name</key>
+					<string>BlurFilter02</string>
+					<key>IsNeedSkinMask</key>
+					<string>1</string>
+					<key>FromSource</key>
+					<array>
+						<string>SkinSmooth</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<!-- 锐化 -->
+					<string>Sharpen</string>
+					<key>Type</key>
+					<string>MySharpenSkinMask</string>
+					<key>Switch</key>
+					<string>1</string>
+					<key>Alpha</key>
+					<string>1.0</string>
+					<key>ExceptFaceSkin</key>
+					<string>0</string>
+					<!-- 勿改 -->
+					<key>SharpenAdaptType</key>
+					<string>1</string>
+					<key>FromSource</key>
+					<array>
+						<string>SkinSmooth</string>
+						<string>SourceInput</string>
+					</array>
+				</dict>
+				<dict>
+					<!-- 精细化美颜 -->
+					<key>Name</key>
+					<string>FacialBeautify</string>
+					<!-- 亮眼 -->
+					<key>BrightEyeType</key>
+					<string>2</string>
+					<key>BrightEyeSwitch</key>
+					<string>1</string>
+					<key>BrightEyeAlpha</key>
+					<string>1.0</string>
+
+					<!-- 美白牙齿 -->
+					<key>WhiteTeethSwitch</key>
+					<string>1</string>
+					<key>WhiteTeethAlpha</key>
+					<string>1.0</string>
+
+					<!-- 去黑眼圈（旧） -->
+					<key>RemovePouchSwitch</key>
+					<string>1</string>
+					<key>RemovePouchAlpha</key>
+					<string>1.0</string>
+
+					<!-- 去法令纹（旧），程度勿太高，易变白 -->
+					<key>LaughLineSwitch</key>
+					<string>1</string>
+					<key>LaughLineAlpha</key>
+					<string>1.0</string>
+
+					<key>FromSource</key>
+					<array>
+						<string>Sharpen</string>
+						<string>BlurFilter02</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>ShadowLight</string>
+					<!-- 立体 2DSoftLight；2.5DLight -->
+					<key>Type</key>
+					<string>2DSoftLight</string>
+					<key>Switch</key>
+					<string>1</string>
+					<key>Alpha</key>
+					<string>1.0</string>
+					<!-- 高光程度 -->
+					<key>LightAlpha</key>
+					<string>1.0</string>
+					<!-- 阴影程度 -->
+					<key>ShadowAlpha</key>
+					<string>0.5</string>
+					<key>FromSource</key>
+					<array>
+						<string>FacialBeautify</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>FaceColor</string>
+					<key>Type</key>
+					<string>SingleLookupWithBlack</string>
+					<key>NeedSkinMaskMix</key>
+					<string>0</string>
+					<key>AutoContrastType</key>
+					<string>0</string>
+					<key>AutoContrastSwitch</key>
+					<string>0</string>
+					<key>AutoContrastAlpha</key>
+					<string>0.0</string>
+					<key>Switch</key>
+					<string>1</string>
+					<key>Alpha</key>
+					<string>1.0</string>
+					<key>FaceColor_lookUpWhitePath</key>
+					<string>lookup_table_white_bp_look.png</string>
+					<key>FaceColor_lookUpBlackPath</key>
+					<string>lookup_table_black_bp_look.png</string>
+					<key>FaceColor_lookUpSizeType</key>
+					<string>64</string>
+					<key>FromSource</key>
+					<array>
+						<string>ShadowLight</string>
+					</array>
+				</dict>				
+				<dict>
+					<key>Name</key>
+					<string>ResultOutput</string>
+					<key>FromSource</key>
+					<array>
+						<string>FaceColor</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

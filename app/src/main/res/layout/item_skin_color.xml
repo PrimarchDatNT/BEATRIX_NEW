@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/rl_root"
+    android:layout_width="40.0dip"
+    android:layout_height="40.0dip"
+    android:tag="layout/item_skin_color_0">
+    <View
+        android:id="@id/v_item"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:tag="binding_1" />
+    <FrameLayout
+        android:id="@id/fl_select"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="3.0dip"
+        android:tag="binding_2">
+        <View
+            android:id="@id/v_select"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="4.0dip"
+            android:tag="binding_3" />
+    </FrameLayout>
+</FrameLayout>

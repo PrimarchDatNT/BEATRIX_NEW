@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="60.0dip"
+    android:layout_height="fill_parent"
+    android:tag="layout/item_reset_look_0">
+    <FrameLayout
+        android:id="@id/rfl_background"
+        android:layout_width="60.0dip"
+        android:layout_height="78.0dip"
+        android:layout_gravity="center">
+        <com.commsource.widget.round.RoundIconfontTextView
+            android:id="@id/ifv_icon"
+            android:layout_width="60.0dip"
+            android:layout_height="60.0dip"
+            android:gravity="center"
+            android:text="@string/if_look_select"
+            android:textSize="30.0dip"
+            app:rv_cornerRadius_TL="4.0dip"
+            app:rv_cornerRadius_TR="4.0dip"
+            app:rv_isRippleEnable="false" />
+        <com.commsource.widget.round.RoundFrameLayout
+            android:id="@id/rfl_name"
+            android:layout_width="fill_parent"
+            android:layout_height="18.0dip"
+            android:layout_gravity="bottom"
+            app:rv_backgroundColor="@color/color_f3f3f3"
+            app:rv_cornerRadius_BL="4.0dip"
+            app:rv_cornerRadius_BR="4.0dip"
+            app:rv_isRippleEnable="false">
+            <com.commsource.widget.AutoFitTextView
+                android:id="@id/tv_name"
+                android:layout_width="fill_parent"
+                android:layout_height="18.0dip"
+                android:gravity="center"
+                android:maxLines="1"
+                android:paddingLeft="2.0dip"
+                android:paddingRight="2.0dip"
+                android:textColor="@color/color_333333"
+                android:textSize="10.0dip" />
+        </com.commsource.widget.round.RoundFrameLayout>
+    </FrameLayout>
+</FrameLayout>

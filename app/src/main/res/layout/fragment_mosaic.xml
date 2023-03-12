@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/fragment_mosaic_0">
+    <com.commsource.studio.MagnifyComponent
+        android:id="@id/manify"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:tag="binding_1" />
+    <com.commsource.studio.component.UndoRedoComponent
+        android:id="@id/undoRedo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="14.0dip"
+        android:layout_marginBottom="188.0dip"
+        android:tag="binding_2"
+        android:visibility="visible" />
+    <com.commsource.studio.component.PreviewComponent
+        android:id="@id/preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center|right"
+        android:layout_marginRight="54.0dip"
+        android:layout_marginBottom="188.0dip"
+        android:paddingLeft="14.0dip"
+        android:paddingTop="14.0dip"
+        android:tag="binding_3" />
+    <com.commsource.studio.component.ContrastComponent
+        android:id="@id/contrast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center|right"
+        android:layout_marginRight="14.0dip"
+        android:layout_marginBottom="188.0dip"
+        android:tag="binding_4"
+        android:visibility="visible" />
+    <FrameLayout
+        android:id="@id/fl_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom"
+        android:tag="binding_5">
+        <com.meitu.ratiorelativelayout.RatioRelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="40.0dip">
+            <com.commsource.studio.component.PaintEraserComponent
+                android:id="@id/paintEraserComponent"
+                android:layout_width="fill_parent"
+                android:layout_height="42.0dip"
+                android:layout_marginLeft="33.0dip"
+                android:layout_marginTop="11.0dip"
+                android:layout_marginRight="33.0dip"
+                android:tag="binding_6" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/rv"
+                android:layout_width="fill_parent"
+                android:layout_height="54.0dip"
+                android:layout_below="@id/paintEraserComponent"
+                android:layout_centerInParent="true"
+                android:clipToPadding="false"
+                android:paddingLeft="35.0dip" />
+        </com.meitu.ratiorelativelayout.RatioRelativeLayout>
+        <com.commsource.studio.component.ConfirmCancelComponent
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            android:tag="binding_7" />
+    </FrameLayout>
+</FrameLayout>

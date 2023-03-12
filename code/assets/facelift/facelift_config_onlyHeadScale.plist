@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC " -//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<array>
+		<dict>
+			<key>FacePart</key>
+			<array>
+                <!-- 渲染插入配置（缩头滤镜） -->
+                <dict>
+                    <key>Type</key>
+                    <string>Callback</string>
+                    <key>CallbackConfigurationPath</key>
+                    <string></string>
+                </dict>
+			</array>
+		</dict>
+	</array>
+</plist>

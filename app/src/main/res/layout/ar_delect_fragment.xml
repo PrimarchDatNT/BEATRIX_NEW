@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meitu.ratiorelativelayout.RatioRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    app:layout_heightSpec="1334.0"
+    app:layout_widthSpec="750.0">
+    <RelativeLayout
+        android:id="@id/rl_top"
+        android:layout_width="fill_parent"
+        android:layout_height="44.5dip"
+        android:background="@color/white"
+        android:elevation="2.0dip">
+        <com.commsource.widget.PressImageView
+            android:id="@id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/common_close_icon_gray" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/ar_delete_title"
+            android:textColor="@color/black"
+            android:textSize="18.0dip" />
+        <ImageView
+            android:id="@id/iv_check_all"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/selfie_ar_icon_select_all" />
+    </RelativeLayout>
+    <TextView
+        android:id="@id/tv_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_top"
+        android:layout_marginTop="25.0dip"
+        android:layout_marginBottom="30.0dip"
+        android:gravity="center"
+        android:text="@string/ar_delete_content"
+        android:textColor="@color/color_8a8686"
+        android:textSize="14.0dip" />
+    <RelativeLayout
+        android:id="@id/rl_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="55.0dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ar_delete_btn_bg"
+        android:clickable="true"
+        android:focusable="true">
+        <TextView
+            android:id="@id/tv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/selfie_ar_delete_icon"
+            android:drawablePadding="6.0dip"
+            android:gravity="center"
+            android:text="@string/album_preview_dialog_delete"
+            android:textColor="@color/white"
+            android:textSize="18.0dip" />
+    </RelativeLayout>
+    <com.commsource.camera.widget.ArMaterialRecyclerView
+        android:id="@id/rv_material"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/rl_bottom"
+        android:layout_below="@id/tv_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginBottom="3.0dip" />
+    <LinearLayout
+        android:id="@id/ll_download_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_ratioMarginTop="350.0">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/selfie_ar_manager_img" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:gravity="center"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:text="@string/ar_delete_donwload_tips"
+            android:textColor="@color/color_9f9f9f"
+            android:textSize="14.0dip" />
+    </LinearLayout>
+</com.meitu.ratiorelativelayout.RatioRelativeLayout>

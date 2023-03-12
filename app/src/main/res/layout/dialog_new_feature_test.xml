@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.commsource.widget.RatioConnerRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/rl_content"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/width_bg_radius_10dp"
+    android:tag="layout/dialog_new_feature_test_0"
+    app:layout_widthSpec="590.0">
+    <com.commsource.widget.VideoPlayView
+        android:id="@id/dialog_video_view"
+        android:layout_width="fill_parent"
+        android:layout_height="221.0dip" />
+    <ImageView
+        android:id="@id/iv_show"
+        android:layout_width="fill_parent"
+        android:layout_height="221.0dip" />
+    <com.commsource.widget.CircleImageView
+        android:id="@id/iv_new_feature"
+        android:layout_width="fill_parent"
+        android:layout_height="221.0dip"
+        android:scaleType="fitXY"
+        app:left_bottom_round="false"
+        app:left_top_round="true"
+        app:right_bottom_round="false"
+        app:right_top_round="true"
+        app:round_radius="10.0dip" />
+    <com.commsource.widget.CountDownView
+        android:id="@id/cdv_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="5.0dip"
+        app:background_color="@color/color_33fb5986"
+        app:count_text_color="@color/color_fb5986"
+        app:count_text_size="13.0dip"
+        app:max_value="5"
+        app:progress_color="@color/color_fb5986"
+        app:progress_padding="6.0dip"
+        app:progress_width="3.0dip" />
+    <com.commsource.widget.AutoFitTextView
+        android:id="@id/iv_feature_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_video_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14.0dip"
+        android:gravity="left"
+        android:paddingLeft="26.0dip"
+        android:paddingRight="26.0dip"
+        android:text="@string/new_feature_title"
+        android:textColor="@color/black"
+        app:autoSizeMaxTextSize="16.0dip" />
+    <ScrollView
+        android:id="@id/content_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="70.0dip"
+        android:layout_below="@id/iv_feature_title"
+        android:layout_marginTop="14.0dip"
+        android:clickable="true"
+        android:overScrollMode="never"
+        app:layout_ratioWidth="482.0">
+        <com.commsource.widget.AutoFitTextView
+            android:id="@id/tv_feature_content"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="left"
+            android:paddingLeft="26.0dip"
+            android:paddingRight="26.0dip"
+            android:paddingBottom="26.0dip"
+            android:text="@string/new_feature_content"
+            android:textColor="@color/color_666666"
+            app:autoSizeMaxTextSize="13.0dip" />
+    </ScrollView>
+    <RelativeLayout
+        android:id="@id/ll_interest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content_scroll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginBottom="@dimen/text_size_20dp">
+        <TextView
+            android:id="@id/ll_view"
+            android:layout_width="1.0dip"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+        <com.commsource.widget.PressTextView
+            android:id="@id/ps_feature_former"
+            style="@style/dscore_interest_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20.0dip"
+            android:layout_toLeftOf="@id/ll_view"
+            android:drawableTop="@drawable/common_new_feature_test_interest_icon" />
+        <com.commsource.widget.PressTextView
+            android:id="@id/ps_feature_latter"
+            style="@style/dscore_interest_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_toRightOf="@id/ll_view"
+            android:drawableTop="@drawable/common_new_feature_test_notinterest_icon" />
+    </RelativeLayout>
+    <com.commsource.widget.PressTextView
+        android:id="@id/tv_feature_tryit"
+        android:layout_width="241.0dip"
+        android:layout_height="35.0dip"
+        android:layout_below="@id/ll_interest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/text_size_20dp"
+        android:background="@drawable/shape_dscore_test_try_it"
+        android:gravity="center"
+        android:text="@string/d_score_try_it"
+        android:textColor="@color/white"
+        android:textSize="14.0sp"
+        android:visibility="gone" />
+    <com.commsource.widget.PressTextView
+        android:id="@id/tv_feature_skip"
+        android:layout_width="241.0dip"
+        android:layout_height="35.0dip"
+        android:layout_below="@id/tv_feature_tryit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25.0dip"
+        android:background="@drawable/dscore_test_skip_sel"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/d_score_skip"
+        android:textColor="@color/color_999999"
+        android:textSize="14.0sp" />
+    <TextView
+        android:id="@id/tv_beta"
+        android:layout_width="24.0dip"
+        android:layout_height="15.0dip"
+        android:layout_margin="10.0dip"
+        android:background="@drawable/shape_dscore_beta_bg"
+        android:gravity="center"
+        android:text="@string/d_score_beta"
+        android:textColor="@color/white"
+        android:textSize="8.0sp" />
+</com.commsource.widget.RatioConnerRelativeLayout>

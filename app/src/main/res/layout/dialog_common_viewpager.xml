@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/rl_common_dialog_vp_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/dialog_common_viewpager_0">
+    <androidx.cardview.widget.CardView
+        android:id="@id/card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="38.0dip"
+        android:layout_marginEnd="38.0dip"
+        app:cardCornerRadius="20.0dip">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@id/vp_common_dialog_b_d"
+                    android:layout_width="0.0dip"
+                    android:layout_height="0.0dip"
+                    app:layout_constraintDimensionRatio="h,1:1"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout
+                android:id="@id/ll_dialog_indicator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:gravity="center"
+                android:orientation="horizontal" />
+            <RelativeLayout
+                android:id="@id/rl_common_dialog_viewpager"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="24.0dip"
+                android:gravity="center" />
+        </LinearLayout>
+        <com.commsource.widget.PressImageView
+            android:id="@id/iv_common_dialog_vp_close"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_gravity="center|right|top"
+            android:layout_marginTop="12.0dip"
+            android:layout_marginRight="12.0dip"
+            android:background="@drawable/bg_solid_99e5e5e5"
+            android:scaleType="centerInside"
+            android:src="@drawable/common_close_icon_black2" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

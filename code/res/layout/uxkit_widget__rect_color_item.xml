@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_color" android:layout_width="31.0dip" android:layout_height="31.0dip" />
+    <ImageView android:id="@id/iv_color_selected" android:background="@drawable/uxkit_widget__color_selected_shape" android:layout_width="31.0dip" android:layout_height="31.0dip" />
+</RelativeLayout>

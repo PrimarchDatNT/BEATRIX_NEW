@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:id="@id/llProcess"
+        android:layout_width="140.0dip"
+        android:layout_height="140.0dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/progress_dailog_bk"
+        android:orientation="vertical">
+        <com.commsource.video.LoadingProgressView
+            android:id="@id/lpv_progress"
+            android:layout_width="64.0dip"
+            android:layout_height="64.0dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25.0dip"
+            app:lpvProgressBarColor="@color/white10" />
+        <TextView
+            android:id="@id/tv_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8.0dip"
+            android:gravity="center"
+            android:text="@string/material_downloading"
+            android:textColor="@color/white"
+            android:textSize="14.0dip" />
+    </LinearLayout>
+    <com.commsource.widget.PressTextView
+        android:id="@id/tvCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="25.0dip"
+        android:layout_below="@id/llProcess"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12.0dip"
+        android:background="@drawable/dialog_radius_22_black20"
+        android:gravity="center"
+        android:paddingLeft="8.0dip"
+        android:paddingRight="8.0dip"
+        android:text="@string/ai_editor_cancel"
+        android:textColor="@color/white"
+        android:textSize="14.0dip"
+        android:visibility="visible" />
+</RelativeLayout>

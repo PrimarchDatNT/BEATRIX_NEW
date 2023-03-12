@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="14.0dip"
+    android:layout_marginBottom="14.0dip"
+    android:clickable="true"
+    android:focusable="true"
+    android:tag="layout/component_undo_redo_0">
+    <com.commsource.widget.IconFrontView
+        android:id="@id/ifv_undo"
+        android:layout_width="30.0dip"
+        android:layout_height="30.0dip"
+        android:gravity="center"
+        android:tag="binding_1"
+        android:text="@string/if_studio_undo"
+        android:textColor="@color/color_333333"
+        android:textSize="30.0dip"
+        app:usePressState="true" />
+    <com.commsource.widget.IconFrontView
+        android:id="@id/ifv_redo"
+        android:layout_width="30.0dip"
+        android:layout_height="30.0dip"
+        android:layout_marginLeft="15.0dip"
+        android:gravity="center"
+        android:tag="binding_2"
+        android:text="@string/if_studio_redo"
+        android:textColor="@color/color_333333"
+        android:textSize="30.0dip"
+        app:usePressState="true" />
+</LinearLayout>
