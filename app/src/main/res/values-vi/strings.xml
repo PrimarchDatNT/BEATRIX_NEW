@@ -506,8 +506,7 @@ E-mail: jpkinfo@us.meitu.com"</string>
     <string name="com_facebook_smart_login_confirmation_continue_as">Tiếp tục dưới tên %1$s</string>
     <string name="com_facebook_smart_login_confirmation_title">Xác nhận đăng nhập</string>
     <string name="com_facebook_tooltip_default">Bạn nắm quyền kiểm soát - chọn thông tin bạn muốn chia sẻ với ứng dụng.</string>
-    <string name="come_film">"Chụp ảnh tự sướng giống như
-một thợ ảnh chuyên nghiệp ngay! "</string>
+    <string name="come_film">"Chụp ảnh tự sướng giống như một thợ ảnh chuyên nghiệp ngay! "</string>
     <string name="comic_finetune_decorate_tips">Chỉnh phụ kiện tóc</string>
     <string name="comic_next_photo">Tiếp theo</string>
     <string name="comic_share_success">Đã chia sẻ</string>
@@ -607,18 +606,14 @@ một thợ ảnh chuyên nghiệp ngay! "</string>
     <string name="dynamic_sticker">Xinh xuất sắc</string>
     <string name="easy_editor">Trình chỉnh sửa Dễ dàng</string>
     <string name="easy_editor_content">Trình chỉnh sửa dễ dàng cho khuôn mặt hoàn hảo của bạn. Chạm vào để chỉnh sửa!</string>
-    <string name="easy_editor_grid">"Chỉnh sửa
-Dễ dàng"</string>
+    <string name="easy_editor_grid">"Chỉnh sửa Dễ dàng"</string>
     <string name="edit">Chỉnh sửa</string>
     <string name="edit_photo_and_save">Sửa một bức ảnh và lưu lại</string>
     <string name="edit_reset">Đặt lại</string>
     <string name="edit_text">Chỉnh sửa văn bản</string>
     <string name="editor_advise">Trình chỉnh sửa được Khuyến cáo</string>
     <string name="editor_advise_content">Bạn thích phần khuyến nghị hôm nay sẽ thế nào?</string>
-    <string name="editor_advise_content_b">"Quảng cáo
-Ngày hôm
-nay Bạn
-thích chứ?"</string>
+    <string name="editor_advise_content_b">"Quảng cáo Ngày hôm nay Bạn thích chứ?"</string>
     <string name="ee_blur">Nhòe</string>
     <string name="effect_after_better">Sau khi chụp ảnh các hiệu ứng của bộ lọc này hoạt động tốt hơn trước đó</string>
     <string name="effect_matched">Đã ghép hiệu ứng!</string>
@@ -919,8 +914,7 @@ Cám ơn sự ủng hộ của bạn!"</string>
     <string name="level_and_points">Cấp độ &amp; Điểm của tôi</string>
     <string name="line">LINE</string>
     <string name="line_btn_ok">OK</string>
-    <string name="line_follow_us">"Theo dõi chúng tôi trên LINE
-LINE ID: beautypluscam"</string>
+    <string name="line_follow_us">"Theo dõi chúng tôi trên LINE LINE ID: beautypluscam"</string>
     <string name="link_not_correct">URL không hợp lệ</string>
     <string name="lip_stick">Son môi</string>
     <string name="live">Trực tiếp</string>
@@ -1716,9 +1710,7 @@ LINE ID: beautypluscam"</string>
     <string name="t_eye_shadow_mauve">Tím cà</string>
     <string name="t_eye_shadow_rust">Gỉ sắt</string>
     <string name="t_feedback_desc">- Vui lòng nhập câu hỏi ở trên dòng này -</string>
-    <string name="t_feedback_remind">"Xin chào,
-Cám ơn bạn đã sử dụng BeautyPlus! Nếu bạn có bất kỳ câu hỏi nào về ứng dụng của chúng tôi, vui lòng tham khảo các mục trên Trung tâm Trợ giúp của chúng tôi (http://support.beautyplus.com) để tìm kiếm các câu trả lời tiềm năng.
-Nếu vấn đề của bạn chưa được giải quyết, vui lòng miêu tả vấn để hoặc các đề nghị của bạn ở trên."</string>
+    <string name="t_feedback_remind">"Xin chào, Cám ơn bạn đã sử dụng BeautyPlus! Nếu bạn có bất kỳ câu hỏi nào về ứng dụng của chúng tôi, vui lòng tham khảo các mục trên Trung tâm Trợ giúp của chúng tôi (http://support.beautyplus.com) để tìm kiếm các câu trả lời tiềm năng. Nếu vấn đề của bạn chưa được giải quyết, vui lòng miêu tả vấn để hoặc các đề nghị của bạn ở trên."</string>
     <string name="t_feedback_title">Phản hồi</string>
     <string name="t_filters">Bộ lọc</string>
     <string name="t_fonts">Phông chữ</string>
