@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/dialog_filter_shop_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.commsource.widget.GuideMaskView android:id="@id/gmv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <TextView android:textSize="13.0dip" android:textColor="@color/black" android:layout_gravity="bottom|center|left" android:id="@id/tv_tips" android:tag="binding_1" android:paddingLeft="12.0dip" android:paddingTop="7.5dip" android:paddingRight="12.0dip" android:paddingBottom="7.5dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:maxWidth="248.0dip" />
-</FrameLayout>

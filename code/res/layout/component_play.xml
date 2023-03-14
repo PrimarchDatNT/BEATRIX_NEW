@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/component_play_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.commsource.widget.IconFrontView android:textSize="30.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/iv_play" android:tag="binding_1" android:layout_width="30.0dip" android:layout_height="30.0dip" android:text="@string/ar_play" android:layout_above="@id/fl_bottom" android:layout_alignParentRight="true" />
-</FrameLayout>

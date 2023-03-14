@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/item_doodle_color_0" android:layout_width="32.0dip" android:layout_height="32.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.commsource.studio.doodle.ColorItemView android:layout_gravity="center" android:id="@id/color_Item_view" android:layout_width="24.0dip" android:layout_height="24.0dip" />
-</FrameLayout>

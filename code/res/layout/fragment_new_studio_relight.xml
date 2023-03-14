@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:tag="layout/fragment_new_studio_relight_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.commsource.studio.component.AutoManualComponent android:id="@id/autoManual" android:tag="binding_1" android:layout_width="74.0dip" android:layout_height="30.0dip" android:layout_above="@id/fl_bottom" android:layout_centerHorizontal="true" />
-    <com.commsource.studio.component.ContrastComponent android:id="@id/contrast" android:tag="binding_2" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/fl_bottom" android:layout_alignParentRight="true" />
-    <com.commsource.studio.component.PreviewComponent android:id="@id/preview" android:tag="binding_3" android:paddingLeft="14.0dip" android:paddingTop="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/contrast" android:layout_above="@id/fl_bottom" />
-    <FrameLayout android:layout_gravity="bottom" android:id="@id/fl_bottom" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
-    <com.commsource.studio.component.ConfirmCancelComponent android:tag="binding_5" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true" />
-</RelativeLayout>

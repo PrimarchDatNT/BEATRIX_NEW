@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="16.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_agree" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/ok" android:layout_alignParentBottom="true" style="@style/Bg_Btn_MainColor_Ripple" />
-    <com.commsource.beautyplus.web.BeautyPlusWebView android:id="@id/bpwv_protocol" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tv_agree" />
-</RelativeLayout>

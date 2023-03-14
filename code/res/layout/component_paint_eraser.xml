@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/component_paint_eraser_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <View android:id="@id/v_bg" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="48.0dip" />
-    <com.commsource.widget.IconFrontView android:textSize="38.0dip" android:textColor="@color/color_333333" android:gravity="center" android:id="@id/ifv_paint" android:layout_width="38.0dip" android:layout_height="fill_parent" android:text="@string/if_studio_paint" />
-    <com.commsource.widget.IconFrontView android:textSize="38.0dip" android:textColor="@color/color_333333" android:gravity="center" android:layout_gravity="right" android:id="@id/ifv_eraser" android:layout_width="38.0dip" android:layout_height="fill_parent" android:text="@string/if_history_paint" />
-    <com.commsource.studio.component.PaintSelectComponent android:id="@id/paintComponent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="60.0dip" android:layout_marginRight="60.0dip" />
-</FrameLayout>

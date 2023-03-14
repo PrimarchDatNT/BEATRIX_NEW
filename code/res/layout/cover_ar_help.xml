@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:tag="layout/cover_ar_help_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.airbnb.lottie.LottieAnimationView android:id="@id/lav_ar_help" android:saveEnabled="false" android:layout_width="150.0dip" android:layout_height="144.5dip" android:layout_centerHorizontal="true" app:lottie_loop="true" app:lottie_repeatMode="restart" />
-    <com.commsource.widget.AutoFitTextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_ar_help" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="35.0dip" android:text="AR素材交互提示" android:maxLines="2" android:layout_below="@id/lav_ar_help" android:layout_centerHorizontal="true" />
-</RelativeLayout>

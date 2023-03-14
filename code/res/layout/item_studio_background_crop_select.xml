@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/item_studio_background_crop_select_0" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="47.0dip" android:layout_height="wrap_content">
-        <com.commsource.widget.IconFrontView android:textSize="30.0dip" android:layout_gravity="center_horizontal" android:id="@id/ifv_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" />
-        <com.commsource.widget.AutoFitTextView android:textSize="12.0dip" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:maxLines="1" />
-    </FrameLayout>
-</FrameLayout>

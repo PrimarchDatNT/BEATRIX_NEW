@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/rl_root" android:tag="layout/item_photo_date_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="26.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="11.0dip" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/tv_date" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="100 photos" />
-    <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/tv_year" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:text="2018" android:layout_alignParentBottom="true" />
-</RelativeLayout>

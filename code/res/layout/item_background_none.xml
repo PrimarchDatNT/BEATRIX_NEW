@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/item_background_none_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.commsource.widget.IconFrontView android:textSize="33.0dip" android:textColor="@color/Gray_C" android:gravity="center" android:layout_gravity="center" android:id="@id/emptyTemplate" android:layout_width="33.0dip" android:layout_height="33.0dip" android:text="@string/if_text_color_cancel" />
-</FrameLayout>

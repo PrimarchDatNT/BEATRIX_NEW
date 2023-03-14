@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ImageButton android:id="@id/button_mute_unmute" android:background="@drawable/brand_watch_button_bg" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="18.0dip" android:src="@drawable/brand_volume_off" android:scaleType="center" android:layout_alignParentTop="true" android:layout_alignParentRight="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

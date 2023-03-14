@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="beauty_seekbar_adjust_tip_margin_top">43.0dip</dimen>
-    <dimen name="share_ad_margin_bottom">10.0dip</dimen>
-    <dimen name="share_ad_margin_left_right">10.0dip</dimen>
-    <dimen name="home_bottom_icon_right_margin">13.0px</dimen>
-</resources>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/cover_ar_giphy_delete_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.commsource.widget.PressImageView android:layout_gravity="bottom|center" android:id="@id/iv_argiphy_delete" android:visibility="gone" android:layout_width="55.0dip" android:layout_height="55.0dip" android:src="@drawable/selfie_giphy_icon_trash" />
-</FrameLayout>

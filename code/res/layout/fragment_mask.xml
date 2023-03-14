@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/fragment_mask_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.commsource.studio.MaskCompositionView android:id="@id/mcv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <FrameLayout android:layout_gravity="bottom" android:id="@id/fl_bottom" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="50.0dip" />
-        <com.commsource.studio.component.ConfirmCancelComponent android:layout_gravity="bottom" android:id="@id/ccc" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="50.0dip" />
-    </FrameLayout>
-</FrameLayout>

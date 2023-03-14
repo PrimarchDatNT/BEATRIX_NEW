@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/item_share_option_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.commsource.widget.IconFrontView android:textSize="32.0dip" android:textColor="@color/Gray_A" android:gravity="center" android:id="@id/ifv_option" android:tag="binding_1" android:layout_width="50.0dip" android:layout_height="50.0dip" />
-    <com.commsource.widget.AutoFitTextView android:textSize="12.0dip" android:textColor="@color/Gray_A" android:id="@id/tv_option" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="2" />
-</LinearLayout>

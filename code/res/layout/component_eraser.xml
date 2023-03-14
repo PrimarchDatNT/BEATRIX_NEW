@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CheckBox android:id="@id/cb_eraser" android:tag="layout/component_eraser_0" android:background="@drawable/studio_eraser_sel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerInParent="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

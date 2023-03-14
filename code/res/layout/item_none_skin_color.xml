@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/rl_root" android:tag="layout/item_none_skin_color_0" android:paddingRight="6.0dip" android:layout_width="60.0dip" android:layout_height="70.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:layout_width="54.0dip" android:layout_height="54.0dip">
-        <com.commsource.widget.round.RoundIconfontTextView android:textSize="30.0dip" android:gravity="center" android:id="@id/vIfvIcon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/if_look_select" app:rv_cornerRadius="4.0dip" app:rv_isRippleEnable="false" />
-        <com.commsource.comic.StrokeView android:id="@id/sv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    </FrameLayout>
-    <TextView android:textSize="10.0dip" android:textColor="@color/Gray_A" android:gravity="center" android:id="@id/tv_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:text="None" />
-</LinearLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/fl_content" android:tag="layout/item_makeup_style_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="68.0dip" android:layout_height="40.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.commsource.widget.CircleImageView android:layout_gravity="center" android:id="@id/iv" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="center" app:border_color="@color/color_1a000000" app:border_width="0.5dip" app:full_circle="false" app:round_radius="4.0dip" />
-    <com.commsource.widget.RotateLoadingView android:layout_gravity="bottom|center|right" android:id="@id/cdpv_progress" android:background="@drawable/common_loading_white_rotate_icon" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="14.0dip" />
-    <com.commsource.widget.IconFrontView android:textSize="18.0dip" android:textColor="@color/white" android:layout_gravity="bottom|center|right" android:id="@id/ifv_download" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="14.0dip" android:text="@string/if_look_download" app:show_stroke="true" app:stroke_color="@color/color_4d000000" />
-    <com.commsource.widget.CornerImageView android:layout_gravity="center|left|top" android:id="@id/iv_left_corner" android:tag="binding_1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" />
-    <ImageView android:layout_gravity="center|right|top" android:id="@id/iv_right_corner" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="14.0dip" />
-</FrameLayout>

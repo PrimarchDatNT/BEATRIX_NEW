@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/ar_grid_item_0" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginBottom="10.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.commsource.widget.CircleImageView android:layout_gravity="center" android:id="@id/iv_icon" android:background="@drawable/ar_delete_item_bg" android:layout_width="70.0dip" android:layout_height="70.0dip" android:scaleType="fitCenter" app:full_circle="true" />
-    <com.commsource.widget.round.RoundFrameLayout android:layout_gravity="center" android:id="@id/iv_selected" android:visibility="visible" android:layout_width="70.0dip" android:layout_height="70.0dip" app:rv_isRadiusHalfHeight="true" app:rv_isRippleEnable="false" app:rv_strokeColor="@color/Primary_A" app:rv_strokeWidth="2.0dip" />
-</FrameLayout>

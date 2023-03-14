@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center_vertical" android:id="@id/ivThumb" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:scaleType="centerInside" />
-    <ImageView android:layout_gravity="center|right" android:id="@id/ivPayMark" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginBottom="11.0dip" android:src="@drawable/common_corner_premium_white_shadow" />
-</FrameLayout>

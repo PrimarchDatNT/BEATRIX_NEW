@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_shop_sticker_detail_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.commsource.widget.CircleImageView android:id="@id/sticker_thumbnail" android:layout_width="fill_parent" android:layout_height="0.0dip" app:border_width="2.0px" app:full_circle="false" app:layout_constraintDimensionRatio="1:1" app:layout_constraintTop_toTopOf="parent" app:round_radius="10.0dip" />
-</androidx.constraintlayout.widget.ConstraintLayout>

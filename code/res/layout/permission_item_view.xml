@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
-        <ImageView android:id="@id/iv_permission_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/push" />
-        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/color_262626" android:gravity="left" android:id="@id/tv_permission_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/iv_permission_icon" />
-        <TextView android:textSize="13.0dip" android:textColor="@color/color_666666" android:gravity="left" android:id="@id/tv_permission_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/iv_permission_icon" android:layout_below="@id/tv_permission_title" />
-    </RelativeLayout>
-</LinearLayout>

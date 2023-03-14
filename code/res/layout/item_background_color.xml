@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/item_background_color_0" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.commsource.studio.function.background.BackgroundItemView android:layout_gravity="center_vertical" android:id="@id/biv" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginRight="10.0dip" />
-    <ImageView android:id="@id/iv_pro" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="19.0dip" android:src="@drawable/common_corner_premium_white" />
-</FrameLayout>

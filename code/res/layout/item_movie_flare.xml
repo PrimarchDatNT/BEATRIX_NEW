@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/rl_root" android:tag="layout/item_movie_flare_0" android:layout_width="60.0dip" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:layout_gravity="center" android:layout_width="60.0dip" android:layout_height="wrap_content">
-        <com.commsource.widget.IconFrontView android:textSize="35.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/ifv_icon" android:duplicateParentState="true" android:layout_width="35.0dip" android:layout_height="35.0dip" android:text="@string/if_movie_halo_3" android:layout_centerHorizontal="true" app:usePressState="true" />
-        <com.commsource.widget.PressStrokeTextView android:textSize="@dimen/selfie_func_text_size" android:textColor="@color/black" android:id="@id/tv_name" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/heart" android:layout_below="@id/ifv_icon" android:layout_centerHorizontal="true" />
-        <ImageView android:id="@id/iv_vip_tip" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="-7.5dip" android:layout_marginBottom="-15.0dip" android:src="@drawable/common_corner_premium_white_shadow" android:layout_toRightOf="@id/ifv_icon" />
-    </RelativeLayout>
-</FrameLayout>

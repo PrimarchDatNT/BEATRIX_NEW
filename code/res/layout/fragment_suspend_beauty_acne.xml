@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_gravity="bottom" android:tag="layout/fragment_suspend_beauty_acne_0" android:layout_width="fill_parent" android:layout_height="70.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.commsource.beautyplus.miniapp.XSegmentButtonGroup android:layout_gravity="bottom|center" android:id="@id/xsbg" android:layout_width="112.0dip" android:layout_height="32.0dip" android:layout_marginBottom="16.0dip" app:seg_background_color="@color/color_80000000" app:seg_background_corner="16.0dip" app:seg_indicator_color="@color/white" app:seg_indicator_corner="16.0dip" app:seg_indicator_shadow_enable="false" app:seg_padding="2.0dip">
-        <TextView android:textSize="13.0dip" android:textColor="@color/text_select_black" android:gravity="center" android:layout_width="56.0dip" android:layout_height="fill_parent" android:text="OFF" />
-        <TextView android:textSize="13.0dip" android:textColor="@color/text_select" android:gravity="center" android:layout_width="56.0dip" android:layout_height="fill_parent" android:text="ON" />
-    </com.commsource.beautyplus.miniapp.XSegmentButtonGroup>
-    <com.commsource.camera.widget.CameraContractImageView android:textSize="30.0dip" android:textColor="@color/white" android:layout_gravity="bottom|center|right" android:id="@id/iv_contract" android:tag="binding_1" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="16.5dip" android:text="@string/if_studio_compare" />
-</FrameLayout>

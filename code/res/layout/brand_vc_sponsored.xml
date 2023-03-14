@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/brand_vc_sponsored_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="29.0dip" android:layout_marginBottom="12.0dip" android:text="@string/brand_sponsored_text" android:maxLines="1" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="3.0" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:tag="layout/item_shop_detail_footer_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="10.0dip" android:textColor="@color/color_666666" android:id="@id/group_Prompt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
-    <TextView android:textSize="10.0dip" android:textColor="@color/color_cccccc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="10.0dip" android:text="Copyright ⓒ️BeautyPlus" android:layout_below="@id/group_Prompt" android:layout_centerHorizontal="true" />
-</RelativeLayout>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/rl_content" android:tag="layout/item_ar_group_0" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.commsource.widget.SelectImageView android:layout_gravity="center_vertical" android:id="@id/iv" android:visibility="visible" android:layout_width="25.0dip" android:layout_height="25.0dip" />
-    <com.commsource.widget.IconFrontView android:textSize="16.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/ifv" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="4.0dip" />
-    <com.commsource.widget.BoldTextView android:textSize="13.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/ifv" android:layout_centerVertical="true" />
-    <View android:id="@id/red_point_iv" android:background="@drawable/camera_ar_material_red" android:visibility="visible" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginLeft="-3.0dip" android:layout_marginTop="4.5dip" />
-</LinearLayout>
