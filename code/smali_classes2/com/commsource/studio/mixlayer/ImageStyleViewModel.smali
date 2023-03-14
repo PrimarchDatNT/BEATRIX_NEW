@@ -1127,7 +1127,7 @@
 
     move-result-object v1
 
-    invoke-static {v2, v3, v7, v9}, Lcom/google/zxing/common/l/a;->a(FFFF)F
+    invoke-static {v2, v3, v7, v9}, Lcom/extesion/ExtUtil;->calDistance(FFFF)F
 
     move-result v4
 
