@@ -32,7 +32,7 @@
     value = "SMAP\nMakeupChildFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MakeupChildFragment.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupChildFragment$onViewCreated$4\n*L\n1#1,262:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "Lcom/commsource/repository/child/makeup/h;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/repository/child/makeup/h;)V"
     }
@@ -113,7 +113,7 @@
 
     move-result-object v1
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 

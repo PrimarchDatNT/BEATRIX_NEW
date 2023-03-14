@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "isPro",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Boolean;)V",
         "com/commsource/studio/ImageStudioActivity$initViewModel$1$11"
@@ -90,7 +90,7 @@
 
     const-string v2, "isPro"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 

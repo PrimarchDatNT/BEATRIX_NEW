@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Landroid/view/View;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onClick",
         "(Landroid/view/View;)V",
         "<anonymous>"
@@ -96,7 +96,7 @@
 
     const-string v2, "ownerActivity"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v0, v1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 

@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/d1;
+.class public final Lcotlinx/coroutines/d1;
 .super Ljava/lang/Object;
 .source "Dispatchers.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,

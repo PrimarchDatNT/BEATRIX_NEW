@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -16,15 +16,15 @@
     d2 = {
         "Lcom/commsource/util/v1;",
         "Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "",
-        "Lkotlin/k0;",
+        "Lcotlin/k0;",
         "name",
         "isScrolling",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "func",
         "g",
-        "(Lkotlin/jvm/u/l;)V",
+        "(Lcotlin/jvm/u/l;)V",
         "Landroidx/recyclerview/widget/RecyclerView;",
         "recyclerView",
         "f",
@@ -38,7 +38,7 @@
         "onScrolled",
         "(Landroidx/recyclerview/widget/RecyclerView;II)V",
         "a",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "<init>",
         "()V",
         "app_googleplayRelease"
@@ -53,13 +53,13 @@
 
 
 # instance fields
-.field private a:Lkotlin/jvm/u/l;
+.field private a:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -93,7 +93,7 @@
 
     const-string v1, "recyclerView"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1, p0}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
@@ -104,19 +104,19 @@
     return-object p0
 .end method
 
-.method public final g(Lkotlin/jvm/u/l;)V
+.method public final g(Lcotlin/jvm/u/l;)V
     .locals 2
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -127,10 +127,10 @@
 
     const-string v1, "func"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/util/v1;->a:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/util/v1;->a:Lcotlin/jvm/u/l;
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -151,22 +151,22 @@
 
     const-string v1, "recyclerView"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-nez p2, :cond_0
 
     .line 1
-    iget-object p1, p0, Lcom/commsource/util/v1;->a:Lkotlin/jvm/u/l;
+    iget-object p1, p0, Lcom/commsource/util/v1;->a:Lcotlin/jvm/u/l;
 
     if-eqz p1, :cond_0
 
     sget-object p2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-interface {p1, p2}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 2
     :cond_0
@@ -188,7 +188,7 @@
 
     const-string p3, "recyclerView"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getScrollState()I
@@ -222,17 +222,17 @@
 
     .line 4
     :cond_1
-    iget-object p1, p0, Lcom/commsource/util/v1;->a:Lkotlin/jvm/u/l;
+    iget-object p1, p0, Lcom/commsource/util/v1;->a:Lcotlin/jvm/u/l;
 
     if-eqz p1, :cond_2
 
     sget-object p3, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    invoke-interface {p1, p3}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 5
     :cond_2

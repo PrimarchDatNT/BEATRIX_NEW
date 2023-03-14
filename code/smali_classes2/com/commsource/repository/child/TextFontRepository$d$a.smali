@@ -20,7 +20,7 @@
     value = "SMAP\nTextFontRepository.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextFontRepository.kt\ncom/commsource/repository/child/TextFontRepository$onBuildVersionControlPoint$1$onUpdate$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,323:1\n1819#2,12:324\n1820#2:336\n37#3,2:337\n*E\n*S KotlinDebug\n*F\n+ 1 TextFontRepository.kt\ncom/commsource/repository/child/TextFontRepository$onBuildVersionControlPoint$1$onUpdate$1\n*L\n116#1,12:324\n116#1:336\n126#1,2:337\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "<anonymous>"
@@ -111,7 +111,7 @@
 
     const-string v2, "GsonHelper.fromJsonNoExc\u2026ype\n                    )"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v1, Ljava/util/ArrayList;
 
@@ -168,7 +168,7 @@
 
     if-gez v4, :cond_1
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_1
     check-cast v6, Lcom/commsource/studio/text/TextFontMaterial;

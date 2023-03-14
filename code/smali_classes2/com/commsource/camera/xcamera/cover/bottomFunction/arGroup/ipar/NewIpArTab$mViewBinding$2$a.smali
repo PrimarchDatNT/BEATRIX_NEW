@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "Landroidx/viewpager/widget/ViewPager$OnPageChangeListener;",
         "",
         "state",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onPageScrollStateChanged",
         "(I)V",
         "position",
@@ -184,7 +184,7 @@
 
     const-string v2, "mViewModel.arPageSelectEvent"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 

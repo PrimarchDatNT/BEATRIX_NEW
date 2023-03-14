@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0010\u0004\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002\u00a8\u0006\u0003"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "com/commsource/studio/ImageStudioViewModel$onPreviewSubPicture$1$1",
@@ -44,18 +44,18 @@
 # instance fields
 .field final synthetic a:Lcom/commsource/studio/ImageStudioViewModel;
 
-.field final synthetic b:Lkotlin/jvm/internal/Ref$ObjectRef;
+.field final synthetic b:Lcotlin/jvm/internal/Ref$ObjectRef;
 
 .field final synthetic c:Landroid/graphics/Bitmap;
 
 
 # direct methods
-.method constructor <init>(Lcom/commsource/studio/ImageStudioViewModel;Lkotlin/jvm/internal/Ref$ObjectRef;Landroid/graphics/Bitmap;)V
+.method constructor <init>(Lcom/commsource/studio/ImageStudioViewModel;Lcotlin/jvm/internal/Ref$ObjectRef;Landroid/graphics/Bitmap;)V
     .locals 0
 
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel$h;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
-    iput-object p2, p0, Lcom/commsource/studio/ImageStudioViewModel$h;->b:Lkotlin/jvm/internal/Ref$ObjectRef;
+    iput-object p2, p0, Lcom/commsource/studio/ImageStudioViewModel$h;->b:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iput-object p3, p0, Lcom/commsource/studio/ImageStudioViewModel$h;->c:Landroid/graphics/Bitmap;
 
@@ -86,7 +86,7 @@
 
     const/4 v6, 0x0
 
-    invoke-static/range {v1 .. v6}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v1 .. v6}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

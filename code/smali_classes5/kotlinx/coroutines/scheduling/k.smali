@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/scheduling/k;
+.class public final Lcotlinx/coroutines/scheduling/k;
 .super Ljava/lang/Object;
 .source "Tasks.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,9 +24,9 @@
         "DEFAULT_SCHEDULER_NAME",
         "i",
         "TASK_PROBABLY_BLOCKING",
-        "Lkotlinx/coroutines/scheduling/h;",
+        "Lcotlinx/coroutines/scheduling/h;",
         "",
-        "(Lkotlinx/coroutines/scheduling/h;)Z",
+        "(Lcotlinx/coroutines/scheduling/h;)Z",
         "isBlocking",
         "",
         "b",
@@ -38,9 +38,9 @@
         "MAX_POOL_SIZE",
         "d",
         "CORE_POOL_SIZE",
-        "Lkotlinx/coroutines/scheduling/l;",
+        "Lcotlinx/coroutines/scheduling/l;",
         "g",
-        "Lkotlinx/coroutines/scheduling/l;",
+        "Lcotlinx/coroutines/scheduling/l;",
         "schedulerTimeSource",
         "f",
         "IDLE_WORKER_KEEP_ALIVE_NS",
@@ -62,32 +62,32 @@
 .end field
 
 .field public static final b:J
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 .end field
 
 .field public static final c:I
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 .end field
 
 .field public static final d:I
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 .end field
 
 .field public static final e:I
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 .end field
 
 .field public static final f:J
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 .end field
 
-.field public static g:Lkotlinx/coroutines/scheduling/l; = null
-    .annotation build Lkotlin/jvm/d;
+.field public static g:Lcotlinx/coroutines/scheduling/l; = null
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -116,11 +116,11 @@
     const/4 v8, 0x0
 
     .line 1
-    invoke-static/range {v0 .. v8}, Lkotlinx/coroutines/internal/e0;->g(Ljava/lang/String;JJJILjava/lang/Object;)J
+    invoke-static/range {v0 .. v8}, Lcotlinx/coroutines/internal/e0;->g(Ljava/lang/String;JJJILjava/lang/Object;)J
 
     move-result-wide v0
 
-    sput-wide v0, Lkotlinx/coroutines/scheduling/k;->b:J
+    sput-wide v0, Lcotlinx/coroutines/scheduling/k;->b:J
 
     const-string v2, "kotlinx.coroutines.scheduler.blocking.parallelism"
 
@@ -135,20 +135,20 @@
     const/4 v7, 0x0
 
     .line 2
-    invoke-static/range {v2 .. v7}, Lkotlinx/coroutines/internal/e0;->f(Ljava/lang/String;IIIILjava/lang/Object;)I
+    invoke-static/range {v2 .. v7}, Lcotlinx/coroutines/internal/e0;->f(Ljava/lang/String;IIIILjava/lang/Object;)I
 
     move-result v0
 
-    sput v0, Lkotlinx/coroutines/scheduling/k;->c:I
+    sput v0, Lcotlinx/coroutines/scheduling/k;->c:I
 
     .line 3
-    invoke-static {}, Lkotlinx/coroutines/internal/e0;->a()I
+    invoke-static {}, Lcotlinx/coroutines/internal/e0;->a()I
 
     move-result v0
 
     const/4 v1, 0x2
 
-    invoke-static {v0, v1}, Lkotlin/g2/o;->n(II)I
+    invoke-static {v0, v1}, Lcotlin/g2/o;->n(II)I
 
     move-result v3
 
@@ -159,14 +159,14 @@
     const/16 v6, 0x8
 
     .line 4
-    invoke-static/range {v2 .. v7}, Lkotlinx/coroutines/internal/e0;->f(Ljava/lang/String;IIIILjava/lang/Object;)I
+    invoke-static/range {v2 .. v7}, Lcotlinx/coroutines/internal/e0;->f(Ljava/lang/String;IIIILjava/lang/Object;)I
 
     move-result v0
 
-    sput v0, Lkotlinx/coroutines/scheduling/k;->d:I
+    sput v0, Lcotlinx/coroutines/scheduling/k;->d:I
 
     .line 5
-    invoke-static {}, Lkotlinx/coroutines/internal/e0;->a()I
+    invoke-static {}, Lcotlinx/coroutines/internal/e0;->a()I
 
     move-result v1
 
@@ -174,7 +174,7 @@
 
     const v2, 0x1ffffe
 
-    invoke-static {v1, v0, v2}, Lkotlin/g2/o;->B(III)I
+    invoke-static {v1, v0, v2}, Lcotlin/g2/o;->B(III)I
 
     move-result v4
 
@@ -185,11 +185,11 @@
     const/4 v7, 0x4
 
     .line 6
-    invoke-static/range {v3 .. v8}, Lkotlinx/coroutines/internal/e0;->f(Ljava/lang/String;IIIILjava/lang/Object;)I
+    invoke-static/range {v3 .. v8}, Lcotlinx/coroutines/internal/e0;->f(Ljava/lang/String;IIIILjava/lang/Object;)I
 
     move-result v0
 
-    sput v0, Lkotlinx/coroutines/scheduling/k;->e:I
+    sput v0, Lcotlinx/coroutines/scheduling/k;->e:I
 
     .line 7
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
@@ -207,7 +207,7 @@
     const/4 v9, 0x0
 
     .line 8
-    invoke-static/range {v1 .. v9}, Lkotlinx/coroutines/internal/e0;->g(Ljava/lang/String;JJJILjava/lang/Object;)J
+    invoke-static/range {v1 .. v9}, Lcotlinx/coroutines/internal/e0;->g(Ljava/lang/String;JJJILjava/lang/Object;)J
 
     move-result-wide v1
 
@@ -216,27 +216,27 @@
 
     move-result-wide v0
 
-    sput-wide v0, Lkotlinx/coroutines/scheduling/k;->f:J
+    sput-wide v0, Lcotlinx/coroutines/scheduling/k;->f:J
 
     .line 10
-    sget-object v0, Lkotlinx/coroutines/scheduling/f;->a:Lkotlinx/coroutines/scheduling/f;
+    sget-object v0, Lcotlinx/coroutines/scheduling/f;->a:Lcotlinx/coroutines/scheduling/f;
 
-    sput-object v0, Lkotlinx/coroutines/scheduling/k;->g:Lkotlinx/coroutines/scheduling/l;
+    sput-object v0, Lcotlinx/coroutines/scheduling/k;->g:Lcotlinx/coroutines/scheduling/l;
 
     return-void
 .end method
 
-.method public static final a(Lkotlinx/coroutines/scheduling/h;)Z
+.method public static final a(Lcotlinx/coroutines/scheduling/h;)Z
     .locals 1
-    .param p0    # Lkotlinx/coroutines/scheduling/h;
+    .param p0    # Lcotlinx/coroutines/scheduling/h;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
 
     .line 1
-    iget-object p0, p0, Lkotlinx/coroutines/scheduling/h;->b:Lkotlinx/coroutines/scheduling/i;
+    iget-object p0, p0, Lcotlinx/coroutines/scheduling/h;->b:Lcotlinx/coroutines/scheduling/i;
 
-    invoke-interface {p0}, Lkotlinx/coroutines/scheduling/i;->k()I
+    invoke-interface {p0}, Lcotlinx/coroutines/scheduling/i;->k()I
 
     move-result p0
 

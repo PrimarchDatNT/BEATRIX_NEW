@@ -7,7 +7,7 @@
 .method public static $default$getAdHeight(Lcom/mopub/mobileads/MoPubAd;)I
     .locals 1
     .param p0, "_this"    # Lcom/mopub/mobileads/MoPubAd;
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     .line 1
@@ -33,7 +33,7 @@
 .method public static $default$getAdUnitId(Lcom/mopub/mobileads/MoPubAd;)Ljava/lang/String;
     .locals 1
     .param p0, "_this"    # Lcom/mopub/mobileads/MoPubAd;
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -62,7 +62,7 @@
 .method public static $default$getAdWidth(Lcom/mopub/mobileads/MoPubAd;)I
     .locals 1
     .param p0, "_this"    # Lcom/mopub/mobileads/MoPubAd;
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     .line 1
@@ -88,7 +88,7 @@
 .method public static $default$getKeywords(Lcom/mopub/mobileads/MoPubAd;)Ljava/lang/String;
     .locals 1
     .param p0, "_this"    # Lcom/mopub/mobileads/MoPubAd;
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -127,7 +127,7 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -160,11 +160,11 @@
 .method public static $default$getLocation(Lcom/mopub/mobileads/MoPubAd;)Landroid/location/Location;
     .locals 1
     .param p0, "_this"    # Lcom/mopub/mobileads/MoPubAd;
-    .annotation runtime Lkotlin/i;
+    .annotation runtime Lcotlin/i;
         message = "As of 5.12.0, will be removed in the future."
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -193,7 +193,7 @@
 .method public static $default$getUserDataKeywords(Lcom/mopub/mobileads/MoPubAd;)Ljava/lang/String;
     .locals 2
     .param p0, "_this"    # Lcom/mopub/mobileads/MoPubAd;
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -226,7 +226,7 @@
 .method public static $default$loadAd(Lcom/mopub/mobileads/MoPubAd;)V
     .locals 2
     .param p0, "_this"    # Lcom/mopub/mobileads/MoPubAd;
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     .line 1
@@ -256,12 +256,12 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     const-string v0, "errorCode"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
@@ -286,7 +286,7 @@
 .method public static $default$pauseAutoRefresh(Lcom/mopub/mobileads/MoPubAd;)V
     .locals 1
     .param p0, "_this"    # Lcom/mopub/mobileads/MoPubAd;
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     .line 1
@@ -305,7 +305,7 @@
 .method public static $default$resumeAutoRefresh(Lcom/mopub/mobileads/MoPubAd;)V
     .locals 1
     .param p0, "_this"    # Lcom/mopub/mobileads/MoPubAd;
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     .line 1
@@ -327,12 +327,12 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     const-string v0, "view"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
@@ -353,12 +353,12 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     const-string v0, "adUnitId"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
@@ -379,7 +379,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     .line 1
@@ -412,12 +412,12 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     const-string v0, "localExtras"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Lcom/mopub/mobileads/MoPubAd;->getAdViewController()Lcom/mopub/mobileads/AdViewController;
@@ -438,7 +438,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     .line 1

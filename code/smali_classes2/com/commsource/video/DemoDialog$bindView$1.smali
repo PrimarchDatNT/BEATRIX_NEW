@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Landroid/view/View;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onClick",
         "(Landroid/view/View;)V",
         "<anonymous>"
@@ -163,7 +163,7 @@
 
     const-string v2, "mBinding.videoContainer1"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v2, p0, Lcom/commsource/video/DemoDialog$bindView$1;->b:Lcom/commsource/video/view/XVideoContainer;
 
@@ -171,7 +171,7 @@
 
     invoke-direct {v3, p0}, Lcom/commsource/video/DemoDialog$bindView$1$1;-><init>(Lcom/commsource/video/DemoDialog$bindView$1;)V
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/commsource/video/XPlayer;->c(Lcom/commsource/video/view/XVideoContainer;Lcom/commsource/video/view/XVideoContainer;Lkotlin/jvm/u/a;)V
+    invoke-virtual {v0, v1, v2, v3}, Lcom/commsource/video/XPlayer;->c(Lcom/commsource/video/view/XVideoContainer;Lcom/commsource/video/view/XVideoContainer;Lcotlin/jvm/u/a;)V
 
     .line 9
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

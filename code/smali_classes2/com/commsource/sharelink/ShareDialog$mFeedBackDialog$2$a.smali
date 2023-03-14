@@ -20,7 +20,7 @@
     value = "SMAP\nShareDialog.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ShareDialog.kt\ncom/commsource/sharelink/ShareDialog$mFeedBackDialog$2$1\n*L\n1#1,480:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
     d2 = {
         "com/commsource/sharelink/ShareDialog$mFeedBackDialog$2$a",
         "Lcom/commsource/beautyplus/j0/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "b",
         "()V",
         "a",
@@ -122,7 +122,7 @@
 
     const-string v2, "mBinding.rlAdContainer"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 

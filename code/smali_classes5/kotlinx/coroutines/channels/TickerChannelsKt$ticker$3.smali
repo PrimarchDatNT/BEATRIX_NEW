@@ -1,14 +1,14 @@
-.class final Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;
-.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.class final Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;
+.super Lcotlin/coroutines/jvm/internal/SuspendLambda;
 .source "TickerChannels.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/channels/TickerChannelsKt;->c(JJLkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/channels/TickerMode;)Lkotlinx/coroutines/channels/y;
+    value = Lcotlinx/coroutines/channels/TickerChannelsKt;->c(JJLcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/channels/TickerMode;)Lcotlinx/coroutines/channels/y;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,22 +18,22 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Lkotlin/jvm/u/p<",
-        "Lkotlinx/coroutines/channels/w<",
+        "Lcotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lcotlin/jvm/u/p<",
+        "Lcotlinx/coroutines/channels/w<",
         "-",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;",
-        "Lkotlin/coroutines/c<",
+        "Lcotlin/coroutines/c<",
         "-",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;",
         "Ljava/lang/Object;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -43,8 +43,8 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0004\u001a\u00020\u0001*\u0008\u0012\u0004\u0012\u00020\u00010\u0000H\u008a@\u00a2\u0006\u0004\u0008\u0002\u0010\u0003"
     }
     d2 = {
-        "Lkotlinx/coroutines/channels/w;",
-        "Lkotlin/t1;",
+        "Lcotlinx/coroutines/channels/w;",
+        "Lcotlin/t1;",
         "invoke",
         "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
         "<anonymous>"
@@ -57,7 +57,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.channels.TickerChannelsKt$ticker$3"
     f = "TickerChannels.kt"
     i = {
@@ -85,41 +85,41 @@
 
 .field final synthetic $initialDelayMillis:J
 
-.field final synthetic $mode:Lkotlinx/coroutines/channels/TickerMode;
+.field final synthetic $mode:Lcotlinx/coroutines/channels/TickerMode;
 
 .field L$0:Ljava/lang/Object;
 
 .field label:I
 
-.field private p$:Lkotlinx/coroutines/channels/w;
+.field private p$:Lcotlinx/coroutines/channels/w;
 
 
 # direct methods
-.method constructor <init>(Lkotlinx/coroutines/channels/TickerMode;JJLkotlin/coroutines/c;)V
+.method constructor <init>(Lcotlinx/coroutines/channels/TickerMode;JJLcotlin/coroutines/c;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$mode:Lkotlinx/coroutines/channels/TickerMode;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$mode:Lcotlinx/coroutines/channels/TickerMode;
 
-    iput-wide p2, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$delayMillis:J
+    iput-wide p2, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$delayMillis:J
 
-    iput-wide p4, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$initialDelayMillis:J
+    iput-wide p4, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$initialDelayMillis:J
 
     const/4 p1, 0x2
 
-    invoke-direct {p0, p1, p6}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/c;)V
+    invoke-direct {p0, p1, p6}, Lcotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILcotlin/coroutines/c;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+.method public final create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 8
     .param p1    # Ljava/lang/Object;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -127,10 +127,10 @@
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "*>;)",
-            "Lkotlin/coroutines/c<",
-            "Lkotlin/t1;",
+            "Lcotlin/coroutines/c<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -138,23 +138,23 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    new-instance v7, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;
+    new-instance v7, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;
 
-    iget-object v1, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$mode:Lkotlinx/coroutines/channels/TickerMode;
+    iget-object v1, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$mode:Lcotlinx/coroutines/channels/TickerMode;
 
-    iget-wide v2, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$delayMillis:J
+    iget-wide v2, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$delayMillis:J
 
-    iget-wide v4, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$initialDelayMillis:J
+    iget-wide v4, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$initialDelayMillis:J
 
     move-object v0, v7
 
     move-object v6, p2
 
-    invoke-direct/range {v0 .. v6}, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;-><init>(Lkotlinx/coroutines/channels/TickerMode;JJLkotlin/coroutines/c;)V
+    invoke-direct/range {v0 .. v6}, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;-><init>(Lcotlinx/coroutines/channels/TickerMode;JJLcotlin/coroutines/c;)V
 
-    check-cast p1, Lkotlinx/coroutines/channels/w;
+    check-cast p1, Lcotlinx/coroutines/channels/w;
 
-    iput-object p1, v7, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->p$:Lkotlinx/coroutines/channels/w;
+    iput-object p1, v7, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->p$:Lcotlinx/coroutines/channels/w;
 
     return-object v7
 .end method
@@ -162,17 +162,17 @@
 .method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    check-cast p2, Lkotlin/coroutines/c;
+    check-cast p2, Lcotlin/coroutines/c;
 
-    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-virtual {p0, p1, p2}, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p1
 
-    check-cast p1, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;
+    check-cast p1, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;
 
-    sget-object p2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-virtual {p1, p2}, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -188,12 +188,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 1
-    iget v1, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->label:I
+    iget v1, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->label:I
 
     const/4 v2, 0x2
 
@@ -206,11 +206,11 @@
     if-ne v1, v2, :cond_1
 
     :cond_0
-    iget-object v0, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->L$0:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->L$0:Ljava/lang/Object;
 
-    check-cast v0, Lkotlinx/coroutines/channels/w;
+    check-cast v0, Lcotlinx/coroutines/channels/w;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -226,14 +226,14 @@
 
     .line 3
     :cond_2
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    iget-object p1, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->p$:Lkotlinx/coroutines/channels/w;
+    iget-object p1, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->p$:Lcotlinx/coroutines/channels/w;
 
     .line 4
-    iget-object v1, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$mode:Lkotlinx/coroutines/channels/TickerMode;
+    iget-object v1, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$mode:Lcotlinx/coroutines/channels/TickerMode;
 
-    sget-object v4, Lkotlinx/coroutines/channels/e0;->a:[I
+    sget-object v4, Lcotlinx/coroutines/channels/e0;->a:[I
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -249,21 +249,21 @@
 
     .line 5
     :cond_3
-    iget-wide v4, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$delayMillis:J
+    iget-wide v4, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$delayMillis:J
 
-    iget-wide v6, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$initialDelayMillis:J
+    iget-wide v6, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$initialDelayMillis:J
 
-    invoke-interface {p1}, Lkotlinx/coroutines/channels/w;->b()Lkotlinx/coroutines/channels/c0;
+    invoke-interface {p1}, Lcotlinx/coroutines/channels/w;->b()Lcotlinx/coroutines/channels/c0;
 
     move-result-object v8
 
-    iput-object p1, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->L$0:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->L$0:Ljava/lang/Object;
 
-    iput v2, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->label:I
+    iput v2, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->label:I
 
     move-object v9, p0
 
-    invoke-static/range {v4 .. v9}, Lkotlinx/coroutines/channels/TickerChannelsKt;->a(JJLkotlinx/coroutines/channels/c0;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static/range {v4 .. v9}, Lcotlinx/coroutines/channels/TickerChannelsKt;->a(JJLcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -273,17 +273,17 @@
 
     .line 6
     :cond_4
-    iget-wide v1, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$delayMillis:J
+    iget-wide v1, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$delayMillis:J
 
-    iget-wide v4, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$initialDelayMillis:J
+    iget-wide v4, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->$initialDelayMillis:J
 
-    invoke-interface {p1}, Lkotlinx/coroutines/channels/w;->b()Lkotlinx/coroutines/channels/c0;
+    invoke-interface {p1}, Lcotlinx/coroutines/channels/w;->b()Lcotlinx/coroutines/channels/c0;
 
     move-result-object v6
 
-    iput-object p1, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->L$0:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->L$0:Ljava/lang/Object;
 
-    iput v3, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->label:I
+    iput v3, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;->label:I
 
     move-wide v3, v4
 
@@ -291,7 +291,7 @@
 
     move-object v6, p0
 
-    invoke-static/range {v1 .. v6}, Lkotlinx/coroutines/channels/TickerChannelsKt;->b(JJLkotlinx/coroutines/channels/c0;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static/range {v1 .. v6}, Lcotlinx/coroutines/channels/TickerChannelsKt;->b(JJLcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -302,7 +302,7 @@
     .line 7
     :cond_5
     :goto_0
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method

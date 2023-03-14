@@ -25,7 +25,7 @@
     value = "SMAP\nTextFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextFragment.kt\ncom/commsource/studio/sticker/TextFragment$onViewCreated$5\n*L\n1#1,312:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "Lcom/commsource/beautyfilter/NoStickLiveData$a;",
         "",
         "isChange",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(Ljava/lang/Boolean;)V",
         "app_googleplayRelease"

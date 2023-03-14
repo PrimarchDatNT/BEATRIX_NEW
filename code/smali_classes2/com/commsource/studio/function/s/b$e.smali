@@ -25,7 +25,7 @@
     value = "SMAP\nRemoldFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RemoldFragment.kt\ncom/commsource/studio/function/remold/RemoldFragment$onViewCreated$3\n*L\n1#1,278:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "Lcom/commsource/beautyfilter/NoStickLiveData$a;",
         "",
         "faceIndex",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(Ljava/lang/Integer;)V",
         "app_googleplayRelease"
@@ -118,7 +118,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-static {v1, v2}, Lcom/commsource/studio/function/s/b;->F1(Lcom/commsource/studio/function/s/b;Lcom/commsource/studio/effect/remold/RemoldPartEnum;)V

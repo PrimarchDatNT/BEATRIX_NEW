@@ -1,4 +1,4 @@
-.class public final Lkotlin/coroutines/i/a;
+.class public final Lcotlin/coroutines/i/a;
 .super Ljava/lang/Object;
 .source "CancellationException.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nCancellationException.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CancellationException.kt\nkotlin/coroutines/cancellation/CancellationExceptionKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,22:1\n1#2:23\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -23,12 +23,12 @@
         "",
         "cause",
         "Ljava/util/concurrent/CancellationException;",
-        "Lkotlin/coroutines/cancellation/CancellationException;",
+        "Lcotlin/coroutines/cancellation/CancellationException;",
         "a",
         "(Ljava/lang/String;Ljava/lang/Throwable;)Ljava/util/concurrent/CancellationException;",
         "b",
         "(Ljava/lang/Throwable;)Ljava/util/concurrent/CancellationException;",
-        "Lkotlin/s0;",
+        "Lcotlin/s0;",
         "version",
         "1.4",
         "CancellationException",
@@ -46,10 +46,10 @@
 # direct methods
 .method private static final a(Ljava/lang/String;Ljava/lang/Throwable;)Ljava/util/concurrent/CancellationException;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -65,10 +65,10 @@
 
 .method private static final b(Ljava/lang/Throwable;)Ljava/util/concurrent/CancellationException;
     .locals 2
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -96,7 +96,7 @@
 
 .method public static synthetic c()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 

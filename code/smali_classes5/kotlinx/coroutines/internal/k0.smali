@@ -1,4 +1,4 @@
-.class public Lkotlinx/coroutines/internal/k0;
+.class public Lcotlinx/coroutines/internal/k0;
 .super Ljava/lang/Object;
 .source "ThreadSafeHeap.kt"
 
@@ -7,7 +7,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T::",
-        "Lkotlinx/coroutines/internal/l0;",
+        "Lcotlinx/coroutines/internal/l0;",
         ":",
         "Ljava/lang/Comparable<",
         "-TT;>;>",
@@ -19,7 +19,7 @@
     value = "SMAP\nThreadSafeHeap.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ThreadSafeHeap.kt\nkotlinx/coroutines/internal/ThreadSafeHeap\n+ 2 Synchronized.kt\nkotlinx/coroutines/internal/SynchronizedKt\n*L\n1#1,160:1\n20#2:161\n20#2:162\n20#2:163\n20#2:164\n20#2:165\n20#2:166\n20#2:167\n*E\n*S KotlinDebug\n*F\n+ 1 ThreadSafeHeap.kt\nkotlinx/coroutines/internal/ThreadSafeHeap\n*L\n35#1:161\n40#1:162\n42#1:163\n51#1:164\n60#1:165\n64#1:166\n73#1:167\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,46 +29,46 @@
         "\u00008\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000f\n\u0000\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0011\n\u0002\u0008\t\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u001a\u0008\u0017\u0018\u0000*\u0012\u0008\u0000\u0010\u0003*\u00020\u0001*\u0008\u0012\u0004\u0012\u00028\u00000\u00022\u00060\u0004j\u0002`\u0005B\u0007\u00a2\u0006\u0004\u00080\u0010\u0012J\u0018\u0010\t\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u0006H\u0082\u0010\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0018\u0010\u000b\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u0006H\u0082\u0010\u00a2\u0006\u0004\u0008\u000b\u0010\nJ\u0017\u0010\u0007\u001a\n\u0012\u0006\u0012\u0004\u0018\u00018\u00000\u000cH\u0002\u00a2\u0006\u0004\u0008\u0007\u0010\rJ\u001f\u0010\u000f\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00062\u0006\u0010\u000e\u001a\u00020\u0006H\u0002\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J\r\u0010\u0011\u001a\u00020\u0008\u00a2\u0006\u0004\u0008\u0011\u0010\u0012J\u000f\u0010\u0013\u001a\u0004\u0018\u00018\u0000\u00a2\u0006\u0004\u0008\u0013\u0010\u0014J\u000f\u0010\u0015\u001a\u0004\u0018\u00018\u0000\u00a2\u0006\u0004\u0008\u0015\u0010\u0014J&\u0010\u0019\u001a\u0004\u0018\u00018\u00002\u0012\u0010\u0018\u001a\u000e\u0012\u0004\u0012\u00028\u0000\u0012\u0004\u0012\u00020\u00170\u0016H\u0086\u0008\u00a2\u0006\u0004\u0008\u0019\u0010\u001aJ\u0015\u0010\u001c\u001a\u00020\u00082\u0006\u0010\u001b\u001a\u00028\u0000\u00a2\u0006\u0004\u0008\u001c\u0010\u001dJ.\u0010\u001f\u001a\u00020\u00172\u0006\u0010\u001b\u001a\u00028\u00002\u0014\u0010\u001e\u001a\u0010\u0012\u0006\u0012\u0004\u0018\u00018\u0000\u0012\u0004\u0012\u00020\u00170\u0016H\u0086\u0008\u00a2\u0006\u0004\u0008\u001f\u0010 J\u0015\u0010\u000e\u001a\u00020\u00172\u0006\u0010\u001b\u001a\u00028\u0000\u00a2\u0006\u0004\u0008\u000e\u0010!J\u0011\u0010\"\u001a\u0004\u0018\u00018\u0000H\u0001\u00a2\u0006\u0004\u0008\"\u0010\u0014J\u0017\u0010$\u001a\u00028\u00002\u0006\u0010#\u001a\u00020\u0006H\u0001\u00a2\u0006\u0004\u0008$\u0010%J\u0017\u0010&\u001a\u00020\u00082\u0006\u0010\u001b\u001a\u00028\u0000H\u0001\u00a2\u0006\u0004\u0008&\u0010\u001dR \u0010&\u001a\u000c\u0012\u0006\u0012\u0004\u0018\u00018\u0000\u0018\u00010\u000c8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008&\u0010\'R$\u0010,\u001a\u00020\u00062\u0006\u0010(\u001a\u00020\u00068F@BX\u0086\u000e\u00a2\u0006\u000c\u001a\u0004\u0008)\u0010*\"\u0004\u0008+\u0010\nR\u0013\u0010/\u001a\u00020\u00178F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008-\u0010.\u00a8\u00061"
     }
     d2 = {
-        "Lkotlinx/coroutines/internal/k0;",
-        "Lkotlinx/coroutines/internal/l0;",
+        "Lcotlinx/coroutines/internal/k0;",
+        "Lcotlinx/coroutines/internal/l0;",
         "",
         "T",
         "",
-        "Lkotlinx/coroutines/internal/SynchronizedObject;",
+        "Lcotlinx/coroutines/internal/SynchronizedObject;",
         "",
         "i",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "p",
         "(I)V",
         "o",
         "",
-        "()[Lkotlinx/coroutines/internal/ThreadSafeHeapNode;",
+        "()[Lcotlinx/coroutines/internal/ThreadSafeHeapNode;",
         "j",
         "q",
         "(II)V",
         "d",
         "()V",
         "h",
-        "()Lkotlinx/coroutines/internal/l0;",
+        "()Lcotlinx/coroutines/internal/l0;",
         "m",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "",
         "predicate",
         "l",
-        "(Lkotlin/jvm/u/l;)Lkotlinx/coroutines/internal/l0;",
+        "(Lcotlin/jvm/u/l;)Lcotlinx/coroutines/internal/l0;",
         "node",
         "b",
-        "(Lkotlinx/coroutines/internal/l0;)V",
+        "(Lcotlinx/coroutines/internal/l0;)V",
         "cond",
         "c",
-        "(Lkotlinx/coroutines/internal/l0;Lkotlin/jvm/u/l;)Z",
-        "(Lkotlinx/coroutines/internal/l0;)Z",
+        "(Lcotlinx/coroutines/internal/l0;Lcotlin/jvm/u/l;)Z",
+        "(Lcotlinx/coroutines/internal/l0;)Z",
         "e",
         "index",
         "k",
-        "(I)Lkotlinx/coroutines/internal/l0;",
+        "(I)Lcotlinx/coroutines/internal/l0;",
         "a",
-        "[Lkotlinx/coroutines/internal/ThreadSafeHeapNode;",
+        "[Lcotlinx/coroutines/internal/ThreadSafeHeapNode;",
         "value",
         "f",
         "()I",
@@ -88,14 +88,14 @@
     }
 .end annotation
 
-.annotation build Lkotlinx/coroutines/y1;
+.annotation build Lcotlinx/coroutines/y1;
 .end annotation
 
 
 # instance fields
 .field private volatile _size:I
 
-.field private a:[Lkotlinx/coroutines/internal/l0;
+.field private a:[Lcotlinx/coroutines/internal/l0;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "[TT;"
@@ -114,12 +114,12 @@
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Lkotlinx/coroutines/internal/k0;->_size:I
+    iput v0, p0, Lcotlinx/coroutines/internal/k0;->_size:I
 
     return-void
 .end method
 
-.method private final i()[Lkotlinx/coroutines/internal/l0;
+.method private final i()[Lcotlinx/coroutines/internal/l0;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -128,22 +128,22 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/internal/k0;->a:[Lkotlinx/coroutines/internal/l0;
+    iget-object v0, p0, Lcotlinx/coroutines/internal/k0;->a:[Lcotlinx/coroutines/internal/l0;
 
     if-nez v0, :cond_0
 
     const/4 v0, 0x4
 
-    new-array v0, v0, [Lkotlinx/coroutines/internal/l0;
+    new-array v0, v0, [Lcotlinx/coroutines/internal/l0;
 
     .line 2
-    iput-object v0, p0, Lkotlinx/coroutines/internal/k0;->a:[Lkotlinx/coroutines/internal/l0;
+    iput-object v0, p0, Lcotlinx/coroutines/internal/k0;->a:[Lcotlinx/coroutines/internal/l0;
 
     goto :goto_0
 
     .line 3
     :cond_0
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/k0;->f()I
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/k0;->f()I
 
     move-result v1
 
@@ -151,7 +151,7 @@
 
     if-lt v1, v2, :cond_1
 
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/k0;->f()I
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/k0;->f()I
 
     move-result v1
 
@@ -163,11 +163,11 @@
 
     const-string v1, "java.util.Arrays.copyOf(this, newSize)"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast v0, [Lkotlinx/coroutines/internal/l0;
+    check-cast v0, [Lcotlinx/coroutines/internal/l0;
 
-    iput-object v0, p0, Lkotlinx/coroutines/internal/k0;->a:[Lkotlinx/coroutines/internal/l0;
+    iput-object v0, p0, Lcotlinx/coroutines/internal/k0;->a:[Lcotlinx/coroutines/internal/l0;
 
     :cond_1
     :goto_0
@@ -178,7 +178,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lkotlinx/coroutines/internal/k0;->_size:I
+    iput p1, p0, Lcotlinx/coroutines/internal/k0;->_size:I
 
     return-void
 .end method
@@ -192,7 +192,7 @@
     add-int/lit8 v0, v0, 0x1
 
     .line 1
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/k0;->f()I
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/k0;->f()I
 
     move-result v1
 
@@ -202,17 +202,17 @@
 
     .line 2
     :cond_0
-    iget-object v1, p0, Lkotlinx/coroutines/internal/k0;->a:[Lkotlinx/coroutines/internal/l0;
+    iget-object v1, p0, Lcotlinx/coroutines/internal/k0;->a:[Lcotlinx/coroutines/internal/l0;
 
     if-nez v1, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     add-int/lit8 v2, v0, 0x1
 
     .line 3
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/k0;->f()I
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/k0;->f()I
 
     move-result v3
 
@@ -222,7 +222,7 @@
 
     if-nez v3, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     check-cast v3, Ljava/lang/Comparable;
@@ -231,7 +231,7 @@
 
     if-nez v4, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     invoke-interface {v3, v4}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
@@ -248,7 +248,7 @@
 
     if-nez v2, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     check-cast v2, Ljava/lang/Comparable;
@@ -257,7 +257,7 @@
 
     if-nez v1, :cond_6
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     invoke-interface {v2, v1}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
@@ -270,7 +270,7 @@
 
     .line 5
     :cond_7
-    invoke-direct {p0, p1, v0}, Lkotlinx/coroutines/internal/k0;->q(II)V
+    invoke-direct {p0, p1, v0}, Lcotlinx/coroutines/internal/k0;->q(II)V
 
     move p1, v0
 
@@ -287,11 +287,11 @@
 
     .line 1
     :cond_0
-    iget-object v0, p0, Lkotlinx/coroutines/internal/k0;->a:[Lkotlinx/coroutines/internal/l0;
+    iget-object v0, p0, Lcotlinx/coroutines/internal/k0;->a:[Lcotlinx/coroutines/internal/l0;
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     add-int/lit8 v1, p1, -0x1
@@ -304,7 +304,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     check-cast v2, Ljava/lang/Comparable;
@@ -313,7 +313,7 @@
 
     if-nez v0, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     invoke-interface {v2, v0}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
@@ -326,7 +326,7 @@
 
     .line 4
     :cond_4
-    invoke-direct {p0, p1, v1}, Lkotlinx/coroutines/internal/k0;->q(II)V
+    invoke-direct {p0, p1, v1}, Lcotlinx/coroutines/internal/k0;->q(II)V
 
     move p1, v1
 
@@ -337,11 +337,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/internal/k0;->a:[Lkotlinx/coroutines/internal/l0;
+    iget-object v0, p0, Lcotlinx/coroutines/internal/k0;->a:[Lcotlinx/coroutines/internal/l0;
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 2
     :cond_0
@@ -349,7 +349,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 3
     :cond_1
@@ -357,7 +357,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 4
     :cond_2
@@ -367,19 +367,19 @@
     aput-object v2, v0, p2
 
     .line 6
-    invoke-interface {v1, p1}, Lkotlinx/coroutines/internal/l0;->setIndex(I)V
+    invoke-interface {v1, p1}, Lcotlinx/coroutines/internal/l0;->setIndex(I)V
 
     .line 7
-    invoke-interface {v2, p2}, Lkotlinx/coroutines/internal/l0;->setIndex(I)V
+    invoke-interface {v2, p2}, Lcotlinx/coroutines/internal/l0;->setIndex(I)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Lkotlinx/coroutines/internal/l0;)V
+.method public final a(Lcotlinx/coroutines/internal/l0;)V
     .locals 3
-    .param p1    # Lkotlinx/coroutines/internal/l0;
+    .param p1    # Lcotlinx/coroutines/internal/l0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -389,17 +389,17 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlinx/coroutines/p0;->b()Z
+    invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    invoke-interface {p1}, Lkotlinx/coroutines/internal/l0;->n()Lkotlinx/coroutines/internal/k0;
+    invoke-interface {p1}, Lcotlinx/coroutines/internal/l0;->n()Lcotlinx/coroutines/internal/k0;
 
     move-result-object v0
 
@@ -427,37 +427,37 @@
     .line 2
     :cond_2
     :goto_1
-    invoke-interface {p1, p0}, Lkotlinx/coroutines/internal/l0;->g(Lkotlinx/coroutines/internal/k0;)V
+    invoke-interface {p1, p0}, Lcotlinx/coroutines/internal/l0;->g(Lcotlinx/coroutines/internal/k0;)V
 
     .line 3
-    invoke-direct {p0}, Lkotlinx/coroutines/internal/k0;->i()[Lkotlinx/coroutines/internal/l0;
+    invoke-direct {p0}, Lcotlinx/coroutines/internal/k0;->i()[Lcotlinx/coroutines/internal/l0;
 
     move-result-object v0
 
     .line 4
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/k0;->f()I
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/k0;->f()I
 
     move-result v1
 
     add-int/lit8 v2, v1, 0x1
 
-    invoke-direct {p0, v2}, Lkotlinx/coroutines/internal/k0;->n(I)V
+    invoke-direct {p0, v2}, Lcotlinx/coroutines/internal/k0;->n(I)V
 
     .line 5
     aput-object p1, v0, v1
 
     .line 6
-    invoke-interface {p1, v1}, Lkotlinx/coroutines/internal/l0;->setIndex(I)V
+    invoke-interface {p1, v1}, Lcotlinx/coroutines/internal/l0;->setIndex(I)V
 
     .line 7
-    invoke-direct {p0, v1}, Lkotlinx/coroutines/internal/k0;->p(I)V
+    invoke-direct {p0, v1}, Lcotlinx/coroutines/internal/k0;->p(I)V
 
     return-void
 .end method
 
-.method public final b(Lkotlinx/coroutines/internal/l0;)V
+.method public final b(Lcotlinx/coroutines/internal/l0;)V
     .locals 0
-    .param p1    # Lkotlinx/coroutines/internal/l0;
+    .param p1    # Lcotlinx/coroutines/internal/l0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -472,9 +472,9 @@
 
     .line 2
     :try_start_0
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/internal/k0;->a(Lkotlinx/coroutines/internal/l0;)V
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/internal/k0;->a(Lcotlinx/coroutines/internal/l0;)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -490,20 +490,20 @@
     throw p1
 .end method
 
-.method public final c(Lkotlinx/coroutines/internal/l0;Lkotlin/jvm/u/l;)Z
+.method public final c(Lcotlinx/coroutines/internal/l0;Lcotlin/jvm/u/l;)Z
     .locals 2
-    .param p1    # Lkotlinx/coroutines/internal/l0;
+    .param p1    # Lcotlinx/coroutines/internal/l0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;",
             "Ljava/lang/Boolean;",
             ">;)Z"
@@ -517,11 +517,11 @@
 
     .line 2
     :try_start_0
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/k0;->e()Lkotlinx/coroutines/internal/l0;
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/k0;->e()Lcotlinx/coroutines/internal/l0;
 
     move-result-object v1
 
-    invoke-interface {p2, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
@@ -534,7 +534,7 @@
     if-eqz p2, :cond_0
 
     .line 3
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/internal/k0;->a(Lkotlinx/coroutines/internal/l0;)V
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/internal/k0;->a(Lcotlinx/coroutines/internal/l0;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -547,22 +547,22 @@
 
     .line 4
     :goto_0
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
     monitor-exit p0
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return p1
 
     :catchall_0
     move-exception p1
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
     monitor-exit p0
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     throw p1
 .end method
@@ -575,7 +575,7 @@
 
     .line 2
     :try_start_0
-    iget-object v0, p0, Lkotlinx/coroutines/internal/k0;->a:[Lkotlinx/coroutines/internal/l0;
+    iget-object v0, p0, Lcotlinx/coroutines/internal/k0;->a:[Lcotlinx/coroutines/internal/l0;
 
     if-eqz v0, :cond_0
 
@@ -589,16 +589,16 @@
 
     const/4 v5, 0x0
 
-    invoke-static/range {v0 .. v5}, Lkotlin/collections/k;->w2([Ljava/lang/Object;Ljava/lang/Object;IIILjava/lang/Object;)V
+    invoke-static/range {v0 .. v5}, Lcotlin/collections/k;->w2([Ljava/lang/Object;Ljava/lang/Object;IIILjava/lang/Object;)V
 
     :cond_0
     const/4 v0, 0x0
 
     .line 3
-    iput v0, p0, Lkotlinx/coroutines/internal/k0;->_size:I
+    iput v0, p0, Lcotlinx/coroutines/internal/k0;->_size:I
 
     .line 4
-    sget-object v0, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -614,7 +614,7 @@
     throw v0
 .end method
 
-.method public final e()Lkotlinx/coroutines/internal/l0;
+.method public final e()Lcotlinx/coroutines/internal/l0;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -622,14 +622,14 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     .annotation build Ln/e/a/e;
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/internal/k0;->a:[Lkotlinx/coroutines/internal/l0;
+    iget-object v0, p0, Lcotlinx/coroutines/internal/k0;->a:[Lcotlinx/coroutines/internal/l0;
 
     if-eqz v0, :cond_0
 
@@ -650,7 +650,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlinx/coroutines/internal/k0;->_size:I
+    iget v0, p0, Lcotlinx/coroutines/internal/k0;->_size:I
 
     return v0
 .end method
@@ -659,7 +659,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/k0;->f()I
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/k0;->f()I
 
     move-result v0
 
@@ -676,7 +676,7 @@
     return v0
 .end method
 
-.method public final h()Lkotlinx/coroutines/internal/l0;
+.method public final h()Lcotlinx/coroutines/internal/l0;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -692,7 +692,7 @@
 
     .line 2
     :try_start_0
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/k0;->e()Lkotlinx/coroutines/internal/l0;
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/k0;->e()Lcotlinx/coroutines/internal/l0;
 
     move-result-object v0
     :try_end_0
@@ -710,9 +710,9 @@
     throw v0
 .end method
 
-.method public final j(Lkotlinx/coroutines/internal/l0;)Z
+.method public final j(Lcotlinx/coroutines/internal/l0;)Z
     .locals 3
-    .param p1    # Lkotlinx/coroutines/internal/l0;
+    .param p1    # Lcotlinx/coroutines/internal/l0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -727,7 +727,7 @@
 
     .line 2
     :try_start_0
-    invoke-interface {p1}, Lkotlinx/coroutines/internal/l0;->n()Lkotlinx/coroutines/internal/k0;
+    invoke-interface {p1}, Lcotlinx/coroutines/internal/l0;->n()Lcotlinx/coroutines/internal/k0;
 
     move-result-object v0
 
@@ -743,12 +743,12 @@
 
     .line 3
     :cond_0
-    invoke-interface {p1}, Lkotlinx/coroutines/internal/l0;->a()I
+    invoke-interface {p1}, Lcotlinx/coroutines/internal/l0;->a()I
 
     move-result p1
 
     .line 4
-    invoke-static {}, Lkotlinx/coroutines/p0;->b()Z
+    invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v0
 
@@ -773,7 +773,7 @@
     .line 5
     :cond_3
     :goto_0
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/internal/k0;->k(I)Lkotlinx/coroutines/internal/l0;
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/internal/k0;->k(I)Lcotlinx/coroutines/internal/l0;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -791,7 +791,7 @@
     throw p1
 .end method
 
-.method public final k(I)Lkotlinx/coroutines/internal/l0;
+.method public final k(I)Lcotlinx/coroutines/internal/l0;
     .locals 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -799,14 +799,14 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlinx/coroutines/p0;->b()Z
+    invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v0
 
@@ -816,7 +816,7 @@
 
     if-eqz v0, :cond_2
 
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/k0;->f()I
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/k0;->f()I
 
     move-result v0
 
@@ -844,15 +844,15 @@
     .line 2
     :cond_2
     :goto_1
-    iget-object v0, p0, Lkotlinx/coroutines/internal/k0;->a:[Lkotlinx/coroutines/internal/l0;
+    iget-object v0, p0, Lcotlinx/coroutines/internal/k0;->a:[Lcotlinx/coroutines/internal/l0;
 
     if-nez v0, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 3
     :cond_3
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/k0;->f()I
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/k0;->f()I
 
     move-result v3
 
@@ -860,21 +860,21 @@
 
     add-int/2addr v3, v4
 
-    invoke-direct {p0, v3}, Lkotlinx/coroutines/internal/k0;->n(I)V
+    invoke-direct {p0, v3}, Lcotlinx/coroutines/internal/k0;->n(I)V
 
     .line 4
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/k0;->f()I
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/k0;->f()I
 
     move-result v3
 
     if-ge p1, v3, :cond_7
 
     .line 5
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/k0;->f()I
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/k0;->f()I
 
     move-result v3
 
-    invoke-direct {p0, p1, v3}, Lkotlinx/coroutines/internal/k0;->q(II)V
+    invoke-direct {p0, p1, v3}, Lcotlinx/coroutines/internal/k0;->q(II)V
 
     add-int/lit8 v3, p1, -0x1
 
@@ -888,7 +888,7 @@
 
     if-nez v5, :cond_4
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
     check-cast v5, Ljava/lang/Comparable;
@@ -897,7 +897,7 @@
 
     if-nez v6, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     invoke-interface {v5, v6}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
@@ -907,21 +907,21 @@
     if-gez v5, :cond_6
 
     .line 8
-    invoke-direct {p0, p1, v3}, Lkotlinx/coroutines/internal/k0;->q(II)V
+    invoke-direct {p0, p1, v3}, Lcotlinx/coroutines/internal/k0;->q(II)V
 
     .line 9
-    invoke-direct {p0, v3}, Lkotlinx/coroutines/internal/k0;->p(I)V
+    invoke-direct {p0, v3}, Lcotlinx/coroutines/internal/k0;->p(I)V
 
     goto :goto_2
 
     .line 10
     :cond_6
-    invoke-direct {p0, p1}, Lkotlinx/coroutines/internal/k0;->o(I)V
+    invoke-direct {p0, p1}, Lcotlinx/coroutines/internal/k0;->o(I)V
 
     .line 11
     :cond_7
     :goto_2
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/k0;->f()I
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/k0;->f()I
 
     move-result p1
 
@@ -929,17 +929,17 @@
 
     if-nez p1, :cond_8
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 12
     :cond_8
-    invoke-static {}, Lkotlinx/coroutines/p0;->b()Z
+    invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v3
 
     if-eqz v3, :cond_b
 
-    invoke-interface {p1}, Lkotlinx/coroutines/internal/l0;->n()Lkotlinx/coroutines/internal/k0;
+    invoke-interface {p1}, Lcotlinx/coroutines/internal/l0;->n()Lcotlinx/coroutines/internal/k0;
 
     move-result-object v3
 
@@ -964,13 +964,13 @@
     const/4 v1, 0x0
 
     .line 13
-    invoke-interface {p1, v1}, Lkotlinx/coroutines/internal/l0;->g(Lkotlinx/coroutines/internal/k0;)V
+    invoke-interface {p1, v1}, Lcotlinx/coroutines/internal/l0;->g(Lcotlinx/coroutines/internal/k0;)V
 
     .line 14
-    invoke-interface {p1, v4}, Lkotlinx/coroutines/internal/l0;->setIndex(I)V
+    invoke-interface {p1, v4}, Lcotlinx/coroutines/internal/l0;->setIndex(I)V
 
     .line 15
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/k0;->f()I
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/k0;->f()I
 
     move-result v2
 
@@ -979,16 +979,16 @@
     return-object p1
 .end method
 
-.method public final l(Lkotlin/jvm/u/l;)Lkotlinx/coroutines/internal/l0;
+.method public final l(Lcotlin/jvm/u/l;)Lcotlinx/coroutines/internal/l0;
     .locals 3
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;",
             "Ljava/lang/Boolean;",
             ">;)TT;"
@@ -1005,7 +1005,7 @@
 
     .line 2
     :try_start_0
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/k0;->e()Lkotlinx/coroutines/internal/l0;
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/k0;->e()Lcotlinx/coroutines/internal/l0;
 
     move-result-object v1
 
@@ -1014,7 +1014,7 @@
     if-eqz v1, :cond_1
 
     .line 3
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -1029,7 +1029,7 @@
     const/4 p1, 0x0
 
     .line 4
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/internal/k0;->k(I)Lkotlinx/coroutines/internal/l0;
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/internal/k0;->k(I)Lcotlinx/coroutines/internal/l0;
 
     move-result-object v2
     :try_end_0
@@ -1037,11 +1037,11 @@
 
     .line 5
     :cond_0
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
     monitor-exit p0
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object v2
 
@@ -1049,11 +1049,11 @@
     const/4 p1, 0x2
 
     .line 6
-    invoke-static {p1}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {p1}, Lcotlin/jvm/internal/c0;->d(I)V
 
     monitor-exit p0
 
-    invoke-static {p1}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {p1}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object v2
 
@@ -1061,16 +1061,16 @@
     move-exception p1
 
     .line 7
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
     monitor-exit p0
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     throw p1
 .end method
 
-.method public final m()Lkotlinx/coroutines/internal/l0;
+.method public final m()Lcotlinx/coroutines/internal/l0;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1086,7 +1086,7 @@
 
     .line 2
     :try_start_0
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/k0;->f()I
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/k0;->f()I
 
     move-result v0
 
@@ -1095,7 +1095,7 @@
     const/4 v0, 0x0
 
     .line 3
-    invoke-virtual {p0, v0}, Lkotlinx/coroutines/internal/k0;->k(I)Lkotlinx/coroutines/internal/l0;
+    invoke-virtual {p0, v0}, Lcotlinx/coroutines/internal/k0;->k(I)Lcotlinx/coroutines/internal/l0;
 
     move-result-object v0
     :try_end_0

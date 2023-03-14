@@ -17,7 +17,7 @@
     value = "SMAP\nNewBeautyFilterManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewBeautyFilterManager.kt\ncom/commsource/beautyfilter/NewBeautyFilterManager$deleteFilterFile$1\n*L\n1#1,981:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
     d2 = {
         "com/commsource/beautyfilter/NewBeautyFilterManager$i",
         "Lcom/commsource/util/u2/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "app_googleplayRelease"
@@ -77,7 +77,7 @@
 
     if-eqz v1, :cond_1
 
-    invoke-static {v1}, Lkotlin/text/m;->S1(Ljava/lang/CharSequence;)Z
+    invoke-static {v1}, Lcotlin/text/m;->S1(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
@@ -108,7 +108,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-direct {v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V

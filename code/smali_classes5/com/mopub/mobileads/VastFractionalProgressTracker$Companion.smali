@@ -13,7 +13,7 @@
     name = "Companion"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -64,7 +64,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -154,7 +154,7 @@
     move-object v0, p1
 
     .line 1
-    invoke-static/range {v0 .. v5}, Lkotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v0 .. v5}, Lcotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 

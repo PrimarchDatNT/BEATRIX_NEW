@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -57,7 +57,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -83,7 +83,7 @@
 
     const-string v1, "assetPath"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/video/c;
@@ -134,7 +134,7 @@
 
     const-string v1, "localPath"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/video/c;
@@ -163,7 +163,7 @@
 
     const-string v1, "onlinePath"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/video/c;

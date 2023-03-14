@@ -1,11 +1,11 @@
-.class public final Lkotlin/text/StringsKt__StringsKt$a;
-.super Lkotlin/collections/r;
+.class public final Lcotlin/text/StringsKt__StringsKt$a;
+.super Lcotlin/collections/r;
 .source "Strings.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/text/StringsKt__StringsKt;->x3(Ljava/lang/CharSequence;)Lkotlin/collections/r;
+    value = Lcotlin/text/StringsKt__StringsKt;->x3(Ljava/lang/CharSequence;)Lcotlin/collections/r;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,7 +24,7 @@
     }
     d2 = {
         "kotlin/text/StringsKt__StringsKt$a",
-        "Lkotlin/collections/r;",
+        "Lcotlin/collections/r;",
         "",
         "b",
         "()C",
@@ -57,9 +57,9 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lkotlin/text/StringsKt__StringsKt$a;->b:Ljava/lang/CharSequence;
+    iput-object p1, p0, Lcotlin/text/StringsKt__StringsKt$a;->b:Ljava/lang/CharSequence;
 
-    invoke-direct {p0}, Lkotlin/collections/r;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/r;-><init>()V
 
     return-void
 .end method
@@ -70,13 +70,13 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/StringsKt__StringsKt$a;->b:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lcotlin/text/StringsKt__StringsKt$a;->b:Ljava/lang/CharSequence;
 
-    iget v1, p0, Lkotlin/text/StringsKt__StringsKt$a;->a:I
+    iget v1, p0, Lcotlin/text/StringsKt__StringsKt$a;->a:I
 
     add-int/lit8 v2, v1, 0x1
 
-    iput v2, p0, Lkotlin/text/StringsKt__StringsKt$a;->a:I
+    iput v2, p0, Lcotlin/text/StringsKt__StringsKt$a;->a:I
 
     invoke-interface {v0, v1}, Ljava/lang/CharSequence;->charAt(I)C
 
@@ -89,9 +89,9 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lkotlin/text/StringsKt__StringsKt$a;->a:I
+    iget v0, p0, Lcotlin/text/StringsKt__StringsKt$a;->a:I
 
-    iget-object v1, p0, Lkotlin/text/StringsKt__StringsKt$a;->b:Ljava/lang/CharSequence;
+    iget-object v1, p0, Lcotlin/text/StringsKt__StringsKt$a;->b:Ljava/lang/CharSequence;
 
     invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
 

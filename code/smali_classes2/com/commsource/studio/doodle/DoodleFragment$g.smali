@@ -32,7 +32,7 @@
     value = "SMAP\nDoodleFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DoodleFragment.kt\ncom/commsource/studio/doodle/DoodleFragment$initViewModel$9$1\n*L\n1#1,774:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Boolean;)V",
         "com/commsource/studio/doodle/DoodleFragment$initViewModel$9$1"
@@ -86,7 +86,7 @@
     .line 1
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 

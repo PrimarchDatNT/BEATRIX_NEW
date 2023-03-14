@@ -15,7 +15,7 @@
     value = "SMAP\nHprofInMemoryIndex.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HprofInMemoryIndex.kt\nkshark/internal/HprofInMemoryIndex\n+ 2 _Sequences.kt\nkotlin/sequences/SequencesKt___SequencesKt\n*L\n1#1,406:1\n140#2,2:407\n140#2,2:409\n*E\n*S KotlinDebug\n*F\n+ 1 HprofInMemoryIndex.kt\nkshark/internal/HprofInMemoryIndex\n*L\n65#1,2:407\n67#1,2:409\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,11 +39,11 @@
         "className",
         "c",
         "(Ljava/lang/String;)Ljava/lang/Long;",
-        "Lkotlin/sequences/m;",
-        "Lkotlin/Pair;",
+        "Lcotlin/sequences/m;",
+        "Lcotlin/Pair;",
         "Lkshark/internal/d$a;",
         "i",
-        "()Lkotlin/sequences/m;",
+        "()Lcotlin/sequences/m;",
         "Lkshark/internal/d$b;",
         "j",
         "Lkshark/internal/d$c;",
@@ -173,7 +173,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkshark/internal/HprofInMemoryIndex$b;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lkshark/internal/HprofInMemoryIndex$b;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lkshark/internal/HprofInMemoryIndex;->l:Lkshark/internal/HprofInMemoryIndex$b;
 
@@ -190,7 +190,7 @@
 
     const-string v2, "Boolean::class.java.name"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x0
 
@@ -204,7 +204,7 @@
 
     const-string v2, "Char::class.java.name"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x1
 
@@ -218,7 +218,7 @@
 
     const-string v2, "Float::class.java.name"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x2
 
@@ -233,7 +233,7 @@
 
     const-string v2, "Double::class.java.name"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x3
 
@@ -247,7 +247,7 @@
 
     const-string v2, "Byte::class.java.name"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x4
 
@@ -261,7 +261,7 @@
 
     const-string v2, "Short::class.java.name"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x5
 
@@ -276,7 +276,7 @@
 
     const-string v2, "Int::class.java.name"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x6
 
@@ -290,14 +290,14 @@
 
     const-string v2, "Long::class.java.name"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x7
 
     aput-object v1, v0, v2
 
     .line 4
-    invoke-static {v0}, Lkotlin/collections/b1;->u([Ljava/lang/Object;)Ljava/util/Set;
+    invoke-static {v0}, Lcotlin/collections/b1;->u([Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object v0
 
@@ -356,7 +356,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(ILkshark/internal/hppc/LongObjectScatterMap;Lkshark/internal/hppc/LongLongScatterMap;Lkshark/internal/SortedBytesMap;Lkshark/internal/SortedBytesMap;Lkshark/internal/SortedBytesMap;Lkshark/internal/SortedBytesMap;Ljava/util/List;Lkshark/x;Ljava/util/Set;Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(ILkshark/internal/hppc/LongObjectScatterMap;Lkshark/internal/hppc/LongLongScatterMap;Lkshark/internal/SortedBytesMap;Lkshark/internal/SortedBytesMap;Lkshark/internal/SortedBytesMap;Lkshark/internal/SortedBytesMap;Ljava/util/List;Lkshark/x;Ljava/util/Set;Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -438,17 +438,17 @@
 
     const-string v0, "className"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex;->b:Lkshark/internal/hppc/LongObjectScatterMap;
 
-    invoke-virtual {v0}, Lkshark/internal/hppc/LongObjectScatterMap;->k()Lkotlin/sequences/m;
+    invoke-virtual {v0}, Lkshark/internal/hppc/LongObjectScatterMap;->k()Lcotlin/sequences/m;
 
     move-result-object v0
 
     .line 2
-    invoke-interface {v0}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -467,16 +467,16 @@
 
     move-object v3, v1
 
-    check-cast v3, Lkotlin/Pair;
+    check-cast v3, Lcotlin/Pair;
 
     .line 3
-    invoke-virtual {v3}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v3}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/String;
 
-    invoke-static {v3, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
 
@@ -489,11 +489,11 @@
 
     .line 4
     :goto_0
-    check-cast v1, Lkotlin/Pair;
+    check-cast v1, Lcotlin/Pair;
 
     if-eqz v1, :cond_2
 
-    invoke-virtual {v1}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -515,12 +515,12 @@
     .line 6
     iget-object p1, p0, Lkshark/internal/HprofInMemoryIndex;->c:Lkshark/internal/hppc/LongLongScatterMap;
 
-    invoke-virtual {p1}, Lkshark/internal/hppc/LongLongScatterMap;->k()Lkotlin/sequences/m;
+    invoke-virtual {p1}, Lkshark/internal/hppc/LongLongScatterMap;->k()Lcotlin/sequences/m;
 
     move-result-object p1
 
     .line 7
-    invoke-interface {p1}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
@@ -537,10 +537,10 @@
 
     move-object v4, v3
 
-    check-cast v4, Lkotlin/Pair;
+    check-cast v4, Lcotlin/Pair;
 
     .line 8
-    invoke-virtual {v4}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v4}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v4
 
@@ -571,11 +571,11 @@
 
     .line 9
     :goto_3
-    check-cast v3, Lkotlin/Pair;
+    check-cast v3, Lcotlin/Pair;
 
     if-eqz v3, :cond_6
 
-    invoke-virtual {v3}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v3}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -703,13 +703,13 @@
     return-object v0
 .end method
 
-.method public final i()Lkotlin/sequences/m;
+.method public final i()Lcotlin/sequences/m;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
-            "Lkotlin/Pair<",
+            "Lcotlin/sequences/m<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Long;",
             "Lkshark/internal/d$a;",
             ">;>;"
@@ -722,7 +722,7 @@
     .line 1
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex;->d:Lkshark/internal/SortedBytesMap;
 
-    invoke-virtual {v0}, Lkshark/internal/SortedBytesMap;->i()Lkotlin/sequences/m;
+    invoke-virtual {v0}, Lkshark/internal/SortedBytesMap;->i()Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -731,20 +731,20 @@
 
     invoke-direct {v1, p0}, Lkshark/internal/HprofInMemoryIndex$indexedClassSequence$1;-><init>(Lkshark/internal/HprofInMemoryIndex;)V
 
-    invoke-static {v0, v1}, Lkotlin/sequences/p;->b1(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v0, v1}, Lcotlin/sequences/p;->b1(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public final j()Lkotlin/sequences/m;
+.method public final j()Lcotlin/sequences/m;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
-            "Lkotlin/Pair<",
+            "Lcotlin/sequences/m<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Long;",
             "Lkshark/internal/d$b;",
             ">;>;"
@@ -757,7 +757,7 @@
     .line 1
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex;->e:Lkshark/internal/SortedBytesMap;
 
-    invoke-virtual {v0}, Lkshark/internal/SortedBytesMap;->i()Lkotlin/sequences/m;
+    invoke-virtual {v0}, Lkshark/internal/SortedBytesMap;->i()Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -766,20 +766,20 @@
 
     invoke-direct {v1, p0}, Lkshark/internal/HprofInMemoryIndex$indexedInstanceSequence$1;-><init>(Lkshark/internal/HprofInMemoryIndex;)V
 
-    invoke-static {v0, v1}, Lkotlin/sequences/p;->b1(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v0, v1}, Lcotlin/sequences/p;->b1(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public final k()Lkotlin/sequences/m;
+.method public final k()Lcotlin/sequences/m;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
-            "Lkotlin/Pair<",
+            "Lcotlin/sequences/m<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Long;",
             "Lkshark/internal/d$c;",
             ">;>;"
@@ -792,7 +792,7 @@
     .line 1
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex;->f:Lkshark/internal/SortedBytesMap;
 
-    invoke-virtual {v0}, Lkshark/internal/SortedBytesMap;->i()Lkotlin/sequences/m;
+    invoke-virtual {v0}, Lkshark/internal/SortedBytesMap;->i()Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -801,7 +801,7 @@
 
     invoke-direct {v1, p0}, Lkshark/internal/HprofInMemoryIndex$indexedObjectArraySequence$1;-><init>(Lkshark/internal/HprofInMemoryIndex;)V
 
-    invoke-static {v0, v1}, Lkotlin/sequences/p;->b1(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v0, v1}, Lcotlin/sequences/p;->b1(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -963,13 +963,13 @@
     return-object p1
 .end method
 
-.method public final m()Lkotlin/sequences/m;
+.method public final m()Lcotlin/sequences/m;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
-            "Lkotlin/Pair<",
+            "Lcotlin/sequences/m<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Long;",
             "Lkshark/internal/d;",
             ">;>;"
@@ -980,50 +980,50 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkshark/internal/HprofInMemoryIndex;->i()Lkotlin/sequences/m;
+    invoke-virtual {p0}, Lkshark/internal/HprofInMemoryIndex;->i()Lcotlin/sequences/m;
 
     move-result-object v0
 
     .line 2
-    invoke-virtual {p0}, Lkshark/internal/HprofInMemoryIndex;->j()Lkotlin/sequences/m;
+    invoke-virtual {p0}, Lkshark/internal/HprofInMemoryIndex;->j()Lcotlin/sequences/m;
 
     move-result-object v1
 
     .line 3
-    invoke-static {v0, v1}, Lkotlin/sequences/p;->f2(Lkotlin/sequences/m;Lkotlin/sequences/m;)Lkotlin/sequences/m;
+    invoke-static {v0, v1}, Lcotlin/sequences/p;->f2(Lcotlin/sequences/m;Lcotlin/sequences/m;)Lcotlin/sequences/m;
 
     move-result-object v0
 
     .line 4
-    invoke-virtual {p0}, Lkshark/internal/HprofInMemoryIndex;->k()Lkotlin/sequences/m;
+    invoke-virtual {p0}, Lkshark/internal/HprofInMemoryIndex;->k()Lcotlin/sequences/m;
 
     move-result-object v1
 
     .line 5
-    invoke-static {v0, v1}, Lkotlin/sequences/p;->f2(Lkotlin/sequences/m;Lkotlin/sequences/m;)Lkotlin/sequences/m;
+    invoke-static {v0, v1}, Lcotlin/sequences/p;->f2(Lcotlin/sequences/m;Lcotlin/sequences/m;)Lcotlin/sequences/m;
 
     move-result-object v0
 
     .line 6
-    invoke-virtual {p0}, Lkshark/internal/HprofInMemoryIndex;->n()Lkotlin/sequences/m;
+    invoke-virtual {p0}, Lkshark/internal/HprofInMemoryIndex;->n()Lcotlin/sequences/m;
 
     move-result-object v1
 
     .line 7
-    invoke-static {v0, v1}, Lkotlin/sequences/p;->f2(Lkotlin/sequences/m;Lkotlin/sequences/m;)Lkotlin/sequences/m;
+    invoke-static {v0, v1}, Lcotlin/sequences/p;->f2(Lcotlin/sequences/m;Lcotlin/sequences/m;)Lcotlin/sequences/m;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public final n()Lkotlin/sequences/m;
+.method public final n()Lcotlin/sequences/m;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
-            "Lkotlin/Pair<",
+            "Lcotlin/sequences/m<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Long;",
             "Lkshark/internal/d$d;",
             ">;>;"
@@ -1036,7 +1036,7 @@
     .line 1
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex;->g:Lkshark/internal/SortedBytesMap;
 
-    invoke-virtual {v0}, Lkshark/internal/SortedBytesMap;->i()Lkotlin/sequences/m;
+    invoke-virtual {v0}, Lkshark/internal/SortedBytesMap;->i()Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -1045,7 +1045,7 @@
 
     invoke-direct {v1, p0}, Lkshark/internal/HprofInMemoryIndex$indexedPrimitiveArraySequence$1;-><init>(Lkshark/internal/HprofInMemoryIndex;)V
 
-    invoke-static {v0, v1}, Lkotlin/sequences/p;->b1(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v0, v1}, Lcotlin/sequences/p;->b1(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 

@@ -33,7 +33,7 @@
     value = "SMAP\nStudioArChildFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StudioArChildFragment.kt\ncom/commsource/studio/function/ar/StudioArChildFragment$onViewCreated$6\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,127:1\n1819#2,2:128\n*E\n*S KotlinDebug\n*F\n+ 1 StudioArChildFragment.kt\ncom/commsource/studio/function/ar/StudioArChildFragment$onViewCreated$6\n*L\n101#1,2:128\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -48,7 +48,7 @@
         "kotlin.jvm.PlatformType",
         "",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/util/List;)V"
     }

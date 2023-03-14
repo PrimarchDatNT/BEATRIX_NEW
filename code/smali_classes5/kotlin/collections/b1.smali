@@ -1,9 +1,9 @@
-.class public final Lkotlin/collections/b1;
-.super Lkotlin/collections/e1;
+.class public final Lcotlin/collections/b1;
+.super Lcotlin/collections/e1;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/collections/e1;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/e1;-><init>()V
 
     return-void
 .end method
@@ -48,7 +48,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/c1;->f(Ljava/lang/Object;)Ljava/util/Set;
+    invoke-static {p0}, Lcotlin/collections/c1;->f(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p0
 
@@ -70,7 +70,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {}, Lkotlin/collections/d1;->k()Ljava/util/Set;
+    invoke-static {}, Lcotlin/collections/d1;->k()Ljava/util/Set;
 
     move-result-object v0
 
@@ -98,7 +98,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/d1;->r(Ljava/util/Set;)Ljava/util/Set;
+    invoke-static {p0}, Lcotlin/collections/d1;->r(Ljava/util/Set;)Ljava/util/Set;
 
     move-result-object p0
 
@@ -124,7 +124,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/d1;->u([Ljava/lang/Object;)Ljava/util/Set;
+    invoke-static {p0}, Lcotlin/collections/d1;->u([Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p0
 

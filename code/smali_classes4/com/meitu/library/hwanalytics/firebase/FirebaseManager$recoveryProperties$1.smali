@@ -1,9 +1,9 @@
 .class final Lcom/meitu/library/hwanalytics/firebase/FirebaseManager$recoveryProperties$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "FirebaseManager.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
@@ -18,13 +18,13 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Ljava/util/List<",
         "+",
         "Ljava/lang/String;",
         ">;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
@@ -33,7 +33,7 @@
     value = "SMAP\nFirebaseManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FirebaseManager.kt\ncom/meitu/library/hwanalytics/firebase/FirebaseManager$recoveryProperties$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,110:1\n1648#2,2:111\n*E\n*S KotlinDebug\n*F\n+ 1 FirebaseManager.kt\ncom/meitu/library/hwanalytics/firebase/FirebaseManager$recoveryProperties$1\n*L\n76#1,2:111\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -46,7 +46,7 @@
         "",
         "",
         "properties",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(Ljava/util/List;)V",
         "<anonymous>"
@@ -88,7 +88,7 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, v0}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -107,7 +107,7 @@
 
     invoke-virtual {p0, p1}, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager$recoveryProperties$1;->invoke(Ljava/util/List;)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -135,7 +135,7 @@
 
     const-string v1, "properties"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;

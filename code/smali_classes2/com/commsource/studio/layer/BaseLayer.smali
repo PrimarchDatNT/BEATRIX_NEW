@@ -14,7 +14,7 @@
     value = "SMAP\nBaseLayer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BaseLayer.kt\ncom/commsource/studio/layer/BaseLayer\n*L\n1#1,286:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
     d2 = {
         "Lcom/commsource/studio/layer/BaseLayer;",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "g0",
         "()V",
         "n",
@@ -69,10 +69,10 @@
         "listener",
         "m",
         "(Lcom/commsource/studio/layer/BaseLayer$a;)V",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "action",
         "f0",
-        "(Lkotlin/jvm/u/a;)V",
+        "(Lcotlin/jvm/u/a;)V",
         "x",
         "y",
         "",
@@ -140,7 +140,7 @@
         "D",
         "imageHeight",
         "g",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "F",
         "layerView",
         "a",
@@ -199,12 +199,12 @@
     .end annotation
 .end field
 
-.field private final g:Lkotlin/w;
+.field private final g:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final p:Lkotlin/w;
+.field private final p:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -220,7 +220,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -243,22 +243,22 @@
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/layer/BaseLayer$layerView$2;-><init>(Lcom/commsource/studio/layer/BaseLayer;)V
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/layer/BaseLayer;->g:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/layer/BaseLayer;->g:Lcotlin/w;
 
     .line 6
     new-instance p1, Lcom/commsource/studio/layer/BaseLayer$gestureListener$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/layer/BaseLayer$gestureListener$2;-><init>(Lcom/commsource/studio/layer/BaseLayer;)V
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/layer/BaseLayer;->p:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/layer/BaseLayer;->p:Lcotlin/w;
 
     .line 7
     new-instance p1, Landroidx/lifecycle/ViewModelProvider;
@@ -279,7 +279,7 @@
 
     const-string v0, "ViewModelProvider(contex\u2026dioViewModel::class.java)"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -288,11 +288,11 @@
     return-void
 
     :cond_0
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v0, "null cannot be cast to non-null type com.commsource.beautyplus.BaseActivity"
 
-    invoke-direct {p1, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -324,9 +324,9 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->p:Lkotlin/w;
+    iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->p:Lcotlin/w;
 
-    invoke-interface {v0}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -345,7 +345,7 @@
 
     const-string v1, "canvasContainer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/StudioCanvasContainer;->getCanvasHeight()I
@@ -367,7 +367,7 @@
 
     const-string v1, "canvasContainer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/StudioCanvasContainer;->getCanvasWidth()I
@@ -384,9 +384,9 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->g:Lkotlin/w;
+    iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->g:Lcotlin/w;
 
-    invoke-interface {v0}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -425,7 +425,7 @@
 
     const-string v1, "canvasContainer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/StudioCanvasContainer;->getViewPortBottom()F
@@ -445,7 +445,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/StudioCanvasContainer;->getViewPortBottom()F
@@ -456,7 +456,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v2}, Lcom/commsource/studio/StudioCanvasContainer;->getViewPortTop()F
@@ -478,7 +478,7 @@
 
     const-string v1, "canvasContainer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/StudioCanvasContainer;->getViewPortLeft()F
@@ -500,7 +500,7 @@
 
     const-string v1, "canvasContainer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/StudioCanvasContainer;->getViewPortRectF()Landroid/graphics/RectF;
@@ -520,7 +520,7 @@
 
     const-string v1, "canvasContainer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/StudioCanvasContainer;->getViewPortRight()F
@@ -540,7 +540,7 @@
 
     const-string v1, "canvasContainer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/StudioCanvasContainer;->getViewPortTop()F
@@ -560,7 +560,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/StudioCanvasContainer;->getViewPortRight()F
@@ -571,7 +571,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v2}, Lcom/commsource/studio/StudioCanvasContainer;->getViewPortLeft()F
@@ -678,7 +678,7 @@
 
     const-string v0, "point"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->u()Lcom/commsource/studio/MatrixBox;
@@ -714,7 +714,7 @@
 
     const-string v0, "point"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->u()Lcom/commsource/studio/MatrixBox;
@@ -765,7 +765,7 @@
 
     const-string v0, "point"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -813,7 +813,7 @@
 
     const-string v0, "point"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -876,7 +876,7 @@
 
     const-string v0, "matrixBox"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lcom/commsource/studio/layer/BaseLayer$b;
@@ -924,24 +924,24 @@
     return-void
 .end method
 
-.method public final f0(Lkotlin/jvm/u/a;)V
+.method public final f0(Lcotlin/jvm/u/a;)V
     .locals 2
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "action"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
@@ -950,7 +950,7 @@
 
     const-string v1, "canvasContainer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/StudioCanvasContainer;->getGlLayer()Lcom/commsource/studio/layer/k;
@@ -973,7 +973,7 @@
 
     new-instance v1, Lcom/commsource/studio/layer/BaseLayer$c;
 
-    invoke-direct {v1, p1}, Lcom/commsource/studio/layer/BaseLayer$c;-><init>(Lkotlin/jvm/u/a;)V
+    invoke-direct {v1, p1}, Lcom/commsource/studio/layer/BaseLayer$c;-><init>(Lcotlin/jvm/u/a;)V
 
     invoke-virtual {v0, v1}, Lcom/commsource/easyeditor/utils/opengl/e;->g(Ljava/lang/Runnable;)V
 
@@ -1000,7 +1000,7 @@
 
     const-string v1, "canvasContainer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Landroid/widget/FrameLayout;->invalidate()V
@@ -1017,7 +1017,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
@@ -1034,7 +1034,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/BaseLayer;->K:Landroid/content/Context;
@@ -1091,7 +1091,7 @@
 
     const-string v0, "listener"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1, p0}, Lcom/commsource/studio/layer/BaseLayer$a;->g(Lcom/commsource/studio/layer/BaseLayer;)V
@@ -1115,7 +1115,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/BaseLayer;->J:Lcom/commsource/studio/ImageStudioViewModel;
@@ -1135,7 +1135,7 @@
 
     const-string v1, "canvasContainer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Landroid/widget/FrameLayout;->invalidate()V
@@ -1199,7 +1199,7 @@
 
     const-string v1, "canvasContainer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     return-object v0
@@ -1215,7 +1215,7 @@
 
     const-string v1, "canvasContainer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/StudioCanvasContainer;->getCanvasHeight()I
@@ -1239,7 +1239,7 @@
 
     const-string v1, "canvasContainer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/StudioCanvasContainer;->getCanvasInitMatrix()Lcom/commsource/studio/MatrixBox;
@@ -1259,7 +1259,7 @@
 
     const-string v1, "canvasContainer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/StudioCanvasContainer;->getCanvasWidth()I
@@ -1281,7 +1281,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/StudioCanvasContainer;->getViewPortBottom()F
@@ -1292,7 +1292,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v2}, Lcom/commsource/studio/StudioCanvasContainer;->getViewPortTop()F
@@ -1316,7 +1316,7 @@
 
     const-string v1, "canvasContainer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/StudioCanvasContainer;->getTotalMatrix()Lcom/commsource/studio/MatrixBox;
@@ -1359,7 +1359,7 @@
 
     const-string v1, "canvasContainer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/StudioCanvasContainer;->getTotalMatrix()Lcom/commsource/studio/MatrixBox;
@@ -1383,7 +1383,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/StudioCanvasContainer;->getViewPortRight()F
@@ -1394,7 +1394,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v2}, Lcom/commsource/studio/StudioCanvasContainer;->getViewPortLeft()F

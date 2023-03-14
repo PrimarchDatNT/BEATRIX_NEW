@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "<anonymous>"
@@ -86,7 +86,7 @@
 
     const-string v4, "mViewBinding.llAddAlbum"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x0
 
@@ -103,7 +103,7 @@
 
     const-string v4, "mViewBinding.ivBack"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x1
 
@@ -120,7 +120,7 @@
 
     const-string v4, "mViewBinding.saveBtn"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x2
 
@@ -137,7 +137,7 @@
 
     const-string v4, "mViewBinding.undoRedo"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x3
 
@@ -154,7 +154,7 @@
 
     const-string v4, "mViewBinding.contrast"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x4
 
@@ -183,7 +183,7 @@
 
     const-string v3, "mViewBinding.root"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/view/View;->getWidth()I
 
@@ -200,7 +200,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/view/View;->getHeight()I
 

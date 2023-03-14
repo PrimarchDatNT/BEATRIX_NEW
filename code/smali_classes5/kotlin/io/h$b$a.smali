@@ -1,11 +1,11 @@
-.class final Lkotlin/io/h$b$a;
-.super Lkotlin/io/h$a;
+.class final Lcotlin/io/h$b$a;
+.super Lcotlin/io/h$a;
 .source "FileTreeWalk.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/io/h$b;
+    value = Lcotlin/io/h$b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,7 +24,7 @@
     }
     d2 = {
         "kotlin/io/h$b$a",
-        "Lkotlin/io/h$a;",
+        "Lcotlin/io/h$a;",
         "Ljava/io/File;",
         "b",
         "()Ljava/io/File;",
@@ -43,7 +43,7 @@
         "fileList",
         "rootDir",
         "<init>",
-        "(Lkotlin/io/h$b;Ljava/io/File;)V",
+        "(Lcotlin/io/h$b;Ljava/io/File;)V",
         "kotlin-stdlib"
     }
     k = 0x1
@@ -64,13 +64,13 @@
 
 .field private e:Z
 
-.field final synthetic f:Lkotlin/io/h$b;
+.field final synthetic f:Lcotlin/io/h$b;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/io/h$b;Ljava/io/File;)V
+.method public constructor <init>(Lcotlin/io/h$b;Ljava/io/File;)V
     .locals 1
-    .param p1    # Lkotlin/io/h$b;
+    .param p1    # Lcotlin/io/h$b;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -84,12 +84,12 @@
 
     const-string v0, "rootDir"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iput-object p1, p0, Lkotlin/io/h$b$a;->f:Lkotlin/io/h$b;
+    iput-object p1, p0, Lcotlin/io/h$b$a;->f:Lcotlin/io/h$b;
 
-    invoke-direct {p0, p2}, Lkotlin/io/h$a;-><init>(Ljava/io/File;)V
+    invoke-direct {p0, p2}, Lcotlin/io/h$a;-><init>(Ljava/io/File;)V
 
     return-void
 .end method
@@ -102,7 +102,7 @@
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Lkotlin/io/h$b$a;->e:Z
+    iget-boolean v0, p0, Lcotlin/io/h$b$a;->e:Z
 
     const/4 v1, 0x0
 
@@ -110,26 +110,26 @@
 
     if-nez v0, :cond_2
 
-    iget-object v0, p0, Lkotlin/io/h$b$a;->c:[Ljava/io/File;
+    iget-object v0, p0, Lcotlin/io/h$b$a;->c:[Ljava/io/File;
 
     if-nez v0, :cond_2
 
     .line 2
-    iget-object v0, p0, Lkotlin/io/h$b$a;->f:Lkotlin/io/h$b;
+    iget-object v0, p0, Lcotlin/io/h$b$a;->f:Lcotlin/io/h$b;
 
-    iget-object v0, v0, Lkotlin/io/h$b;->d:Lkotlin/io/h;
+    iget-object v0, v0, Lcotlin/io/h$b;->d:Lcotlin/io/h;
 
-    invoke-static {v0}, Lkotlin/io/h;->e(Lkotlin/io/h;)Lkotlin/jvm/u/l;
+    invoke-static {v0}, Lcotlin/io/h;->e(Lcotlin/io/h;)Lcotlin/jvm/u/l;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lkotlin/io/h$c;->a()Ljava/io/File;
+    invoke-virtual {p0}, Lcotlin/io/h$c;->a()Ljava/io/File;
 
     move-result-object v3
 
-    invoke-interface {v0, v3}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -145,7 +145,7 @@
 
     .line 3
     :cond_0
-    invoke-virtual {p0}, Lkotlin/io/h$c;->a()Ljava/io/File;
+    invoke-virtual {p0}, Lcotlin/io/h$c;->a()Ljava/io/File;
 
     move-result-object v0
 
@@ -153,28 +153,28 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkotlin/io/h$b$a;->c:[Ljava/io/File;
+    iput-object v0, p0, Lcotlin/io/h$b$a;->c:[Ljava/io/File;
 
     if-nez v0, :cond_2
 
     .line 4
-    iget-object v0, p0, Lkotlin/io/h$b$a;->f:Lkotlin/io/h$b;
+    iget-object v0, p0, Lcotlin/io/h$b$a;->f:Lcotlin/io/h$b;
 
-    iget-object v0, v0, Lkotlin/io/h$b;->d:Lkotlin/io/h;
+    iget-object v0, v0, Lcotlin/io/h$b;->d:Lcotlin/io/h;
 
-    invoke-static {v0}, Lkotlin/io/h;->f(Lkotlin/io/h;)Lkotlin/jvm/u/p;
+    invoke-static {v0}, Lcotlin/io/h;->f(Lcotlin/io/h;)Lcotlin/jvm/u/p;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {p0}, Lkotlin/io/h$c;->a()Ljava/io/File;
+    invoke-virtual {p0}, Lcotlin/io/h$c;->a()Ljava/io/File;
 
     move-result-object v3
 
-    new-instance v10, Lkotlin/io/AccessDeniedException;
+    new-instance v10, Lcotlin/io/AccessDeniedException;
 
-    invoke-virtual {p0}, Lkotlin/io/h$c;->a()Ljava/io/File;
+    invoke-virtual {p0}, Lcotlin/io/h$c;->a()Ljava/io/File;
 
     move-result-object v5
 
@@ -188,42 +188,42 @@
 
     move-object v4, v10
 
-    invoke-direct/range {v4 .. v9}, Lkotlin/io/AccessDeniedException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v4 .. v9}, Lcotlin/io/AccessDeniedException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
-    invoke-interface {v0, v3, v10}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v3, v10}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkotlin/t1;
+    check-cast v0, Lcotlin/t1;
 
     .line 5
     :cond_1
-    iput-boolean v2, p0, Lkotlin/io/h$b$a;->e:Z
+    iput-boolean v2, p0, Lcotlin/io/h$b$a;->e:Z
 
     .line 6
     :cond_2
-    iget-object v0, p0, Lkotlin/io/h$b$a;->c:[Ljava/io/File;
+    iget-object v0, p0, Lcotlin/io/h$b$a;->c:[Ljava/io/File;
 
     if-eqz v0, :cond_3
 
-    iget v3, p0, Lkotlin/io/h$b$a;->d:I
+    iget v3, p0, Lcotlin/io/h$b$a;->d:I
 
-    invoke-static {v0}, Lkotlin/jvm/internal/f0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcotlin/jvm/internal/f0;->m(Ljava/lang/Object;)V
 
     array-length v0, v0
 
     if-ge v3, v0, :cond_3
 
     .line 7
-    iget-object v0, p0, Lkotlin/io/h$b$a;->c:[Ljava/io/File;
+    iget-object v0, p0, Lcotlin/io/h$b$a;->c:[Ljava/io/File;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/f0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcotlin/jvm/internal/f0;->m(Ljava/lang/Object;)V
 
-    iget v1, p0, Lkotlin/io/h$b$a;->d:I
+    iget v1, p0, Lcotlin/io/h$b$a;->d:I
 
     add-int/lit8 v2, v1, 0x1
 
-    iput v2, p0, Lkotlin/io/h$b$a;->d:I
+    iput v2, p0, Lcotlin/io/h$b$a;->d:I
 
     aget-object v0, v0, v1
 
@@ -231,15 +231,15 @@
 
     .line 8
     :cond_3
-    iget-boolean v0, p0, Lkotlin/io/h$b$a;->b:Z
+    iget-boolean v0, p0, Lcotlin/io/h$b$a;->b:Z
 
     if-nez v0, :cond_4
 
     .line 9
-    iput-boolean v2, p0, Lkotlin/io/h$b$a;->b:Z
+    iput-boolean v2, p0, Lcotlin/io/h$b$a;->b:Z
 
     .line 10
-    invoke-virtual {p0}, Lkotlin/io/h$c;->a()Ljava/io/File;
+    invoke-virtual {p0}, Lcotlin/io/h$c;->a()Ljava/io/File;
 
     move-result-object v0
 
@@ -247,25 +247,25 @@
 
     .line 11
     :cond_4
-    iget-object v0, p0, Lkotlin/io/h$b$a;->f:Lkotlin/io/h$b;
+    iget-object v0, p0, Lcotlin/io/h$b$a;->f:Lcotlin/io/h$b;
 
-    iget-object v0, v0, Lkotlin/io/h$b;->d:Lkotlin/io/h;
+    iget-object v0, v0, Lcotlin/io/h$b;->d:Lcotlin/io/h;
 
-    invoke-static {v0}, Lkotlin/io/h;->g(Lkotlin/io/h;)Lkotlin/jvm/u/l;
+    invoke-static {v0}, Lcotlin/io/h;->g(Lcotlin/io/h;)Lcotlin/jvm/u/l;
 
     move-result-object v0
 
     if-eqz v0, :cond_5
 
-    invoke-virtual {p0}, Lkotlin/io/h$c;->a()Ljava/io/File;
+    invoke-virtual {p0}, Lcotlin/io/h$c;->a()Ljava/io/File;
 
     move-result-object v2
 
-    invoke-interface {v0, v2}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkotlin/t1;
+    check-cast v0, Lcotlin/t1;
 
     :cond_5
     return-object v1

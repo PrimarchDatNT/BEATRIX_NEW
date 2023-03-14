@@ -20,7 +20,7 @@
     value = "SMAP\nPipe.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Pipe.kt\nokio/Pipe$sink$1\n+ 2 Pipe.kt\nokio/Pipe\n+ 3 Timeout.kt\nokio/Timeout\n*L\n1#1,216:1\n199#2:217\n200#2:248\n199#2:249\n200#2:280\n199#2:281\n200#2:312\n204#3,30:218\n204#3,30:250\n204#3,30:282\n*E\n*S KotlinDebug\n*F\n+ 1 Pipe.kt\nokio/Pipe$sink$1\n*L\n77#1:217\n77#1:248\n95#1:249\n95#1:280\n113#1:281\n113#1:312\n77#1,30:218\n95#1,30:250\n113#1,30:282\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,7 +36,7 @@
         "source",
         "",
         "byteCount",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "write",
         "(Lokio/Buffer;J)V",
         "flush",
@@ -191,7 +191,7 @@
 
     .line 7
     :goto_1
-    sget-object v2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_2
 
@@ -382,11 +382,11 @@
     .line 33
     :cond_a
     :try_start_4
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type java.lang.Object"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v1
     :try_end_4
@@ -480,7 +480,7 @@
 
     .line 6
     :goto_1
-    sget-object v2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
@@ -714,7 +714,7 @@
 
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lokio/Pipe$sink$1;->this$0:Lokio/Pipe;
@@ -832,11 +832,11 @@
     goto :goto_0
 
     :cond_2
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type java.lang.Object"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
@@ -855,7 +855,7 @@
 
     .line 11
     :goto_1
-    sget-object v1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 

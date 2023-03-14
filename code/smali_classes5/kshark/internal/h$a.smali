@@ -17,7 +17,7 @@
     value = "SMAP\nUnsortedByteEntries.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UnsortedByteEntries.kt\nkshark/internal/UnsortedByteEntries$MutableByteSubArray\n*L\n1#1,196:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "",
         "",
         "value",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(B)V",
         "",
@@ -156,7 +156,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     aput-byte p1, v0, v1
@@ -304,7 +304,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     add-int/lit8 v1, v2, 0x1
@@ -467,7 +467,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     add-int/lit8 v1, v2, 0x1
@@ -702,7 +702,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     sub-int/2addr p3, v1

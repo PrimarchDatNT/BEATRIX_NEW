@@ -17,7 +17,7 @@
     value = "SMAP\nStitchComponent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StitchComponent.kt\ncom/commsource/puzzle/StitchComponent$gestureDetector$1\n*L\n1#1,1505:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -51,7 +51,7 @@
         "velocityY",
         "onFling",
         "onMajorFingerUp",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onLongPress",
         "(Landroid/view/MotionEvent;)V",
         "onTap",
@@ -326,7 +326,7 @@
 
     invoke-direct {v4, v1, p0}, Lcom/commsource/puzzle/StitchComponent$gestureDetector$1$onLongPress$$inlined$let$lambda$1;-><init>(ILcom/commsource/puzzle/StitchComponent$gestureDetector$1;)V
 
-    invoke-static {v2, v1, v3, p1, v4}, Lcom/commsource/puzzle/StitchComponent;->q(Lcom/commsource/puzzle/StitchComponent;IFFLkotlin/jvm/u/l;)V
+    invoke-static {v2, v1, v3, p1, v4}, Lcom/commsource/puzzle/StitchComponent;->q(Lcom/commsource/puzzle/StitchComponent;IFFLcotlin/jvm/u/l;)V
 
     goto :goto_0
 
@@ -651,17 +651,17 @@
     .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$gestureDetector$1;->a:Lcom/commsource/puzzle/StitchComponent;
 
-    invoke-virtual {v1}, Lcom/commsource/puzzle/StitchComponent;->getUserOptCallBack()Lkotlin/jvm/u/a;
+    invoke-virtual {v1}, Lcom/commsource/puzzle/StitchComponent;->getUserOptCallBack()Lcotlin/jvm/u/a;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    invoke-interface {v1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/t1;
+    check-cast v1, Lcotlin/t1;
 
     .line 3
     :cond_0
@@ -779,7 +779,7 @@
 
     invoke-direct {v3, p0}, Lcom/commsource/puzzle/StitchComponent$gestureDetector$1$onMajorFingerUp$$inlined$let$lambda$1;-><init>(Lcom/commsource/puzzle/StitchComponent$gestureDetector$1;)V
 
-    invoke-virtual {v1, v2, p1, v3}, Lcom/commsource/puzzle/StitchComponent$StitchContainer;->C(IFLkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2, p1, v3}, Lcom/commsource/puzzle/StitchComponent$StitchContainer;->C(IFLcotlin/jvm/u/l;)V
 
     .line 10
     :cond_5
@@ -900,7 +900,7 @@
 
     const-string v4, "stitchContainer.getChildAt(curFocusIndex)"
 
-    invoke-static {v0, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p3, v0}, Lcom/commsource/puzzle/StitchComponent;->C(Lcom/commsource/puzzle/StitchComponent;Landroid/view/View;)Lcom/commsource/puzzle/StitchComponent$b;
 

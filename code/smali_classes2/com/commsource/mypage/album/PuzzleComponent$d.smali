@@ -20,7 +20,7 @@
     value = "SMAP\nBpAlbumActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpAlbumActivity.kt\ncom/commsource/mypage/album/PuzzleComponent$onCreate$2\n*L\n1#1,1336:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "Landroid/view/View;",
         "kotlin.jvm.PlatformType",
         "v",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onClick",
         "(Landroid/view/View;)V",
         "<anonymous>"
@@ -111,7 +111,7 @@
 
     const-string v3, "it"
 
-    invoke-static {v0, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
@@ -123,7 +123,7 @@
 
     const-string v2, "owner.albumAdapter.data[it]"
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v0, Lcom/commsource/cloudalbum/bean/CAImageInfo;
 

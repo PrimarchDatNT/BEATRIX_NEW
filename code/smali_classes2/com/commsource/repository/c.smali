@@ -8,7 +8,7 @@
     value = "SMAP\nLinkSyncChecker.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LinkSyncChecker.kt\ncom/commsource/repository/LinkSyncChecker\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,59:1\n1819#2,2:60\n*E\n*S KotlinDebug\n*F\n+ 1 LinkSyncChecker.kt\ncom/commsource/repository/LinkSyncChecker\n*L\n30#1,2:60\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "",
         "Lcom/commsource/repository/d;",
         "syncList",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(Lcom/commsource/repository/d;)V",
         "a",
@@ -202,7 +202,7 @@
 
     const-string v1, "syncList"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/repository/c;->a:Lcom/commsource/repository/d;

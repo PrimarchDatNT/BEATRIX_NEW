@@ -1,9 +1,9 @@
 .class final Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2$2;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "StitchComponent.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
@@ -18,10 +18,10 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Landroid/animation/Animator;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
@@ -30,7 +30,7 @@
     value = "SMAP\nStitchComponent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StitchComponent.kt\ncom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2$2\n+ 2 ViewGroup.kt\nandroidx/core/view/ViewGroupKt\n*L\n1#1,1505:1\n54#2,4:1506\n*E\n*S KotlinDebug\n*F\n+ 1 StitchComponent.kt\ncom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2$2\n*L\n1079#1,4:1506\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -42,7 +42,7 @@
     d2 = {
         "Landroid/animation/Animator;",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(Landroid/animation/Animator;)V",
         "<anonymous>"
@@ -68,7 +68,7 @@
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -87,7 +87,7 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2$2;->invoke(Landroid/animation/Animator;)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -108,9 +108,9 @@
     .line 2
     iget-object v0, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2$2;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2;
 
-    iget-object v1, v0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2;->$targetIndex:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object v1, v0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2;->$targetIndex:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget v1, v1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v1, v1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     iget v2, v0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2;->$selectIndex:I
 
@@ -121,7 +121,7 @@
 
     const-string v1, "selectedView"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x0
 
@@ -132,7 +132,7 @@
 
     iget-object v0, v0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2;->$selectedView:Landroid/view/View;
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/high16 v1, 0x3f800000    # 1.0f
 
@@ -154,9 +154,9 @@
 
     iget-object v3, v0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2;->$selectedView:Landroid/view/View;
 
-    iget-object v0, v0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2;->$targetIndex:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object v0, v0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2;->$targetIndex:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget v0, v0, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v0, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     invoke-virtual {v1, v3, v0}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;I)V
 
@@ -182,7 +182,7 @@
 
     const-string v5, "getChildAt(index)"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     invoke-virtual {v4, v2}, Landroid/view/View;->setTranslationY(F)V
@@ -195,23 +195,23 @@
     :cond_0
     iget-object v0, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2$2;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2;
 
-    iget-object v1, v0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2;->$endCallback:Lkotlin/jvm/u/l;
+    iget-object v1, v0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2;->$endCallback:Lcotlin/jvm/u/l;
 
     if-eqz v1, :cond_1
 
-    iget-object v0, v0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2;->$targetIndex:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object v0, v0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$moveEnd$2;->$targetIndex:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget v0, v0, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v0, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
-    invoke-interface {v1, v0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkotlin/t1;
+    check-cast v0, Lcotlin/t1;
 
     .line 12
     :cond_1

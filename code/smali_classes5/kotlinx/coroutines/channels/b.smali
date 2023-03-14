@@ -1,4 +1,4 @@
-.class public final Lkotlinx/coroutines/channels/b;
+.class public final Lcotlinx/coroutines/channels/b;
 .super Ljava/lang/Object;
 .source "AbstractChannel.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nAbstractChannel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AbstractChannel.kt\nkotlinx/coroutines/channels/AbstractChannelKt\n+ 2 Channel.kt\nkotlinx/coroutines/channels/ValueOrClosed$Companion\n*L\n1#1,1075:1\n423#2:1076\n419#2:1077\n423#2:1078\n*E\n*S KotlinDebug\n*F\n+ 1 AbstractChannel.kt\nkotlinx/coroutines/channels/AbstractChannelKt\n*L\n1071#1:1076\n1071#1:1077\n1074#1:1078\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,12 +20,12 @@
     d2 = {
         "E",
         "",
-        "Lkotlinx/coroutines/channels/f0;",
+        "Lcotlinx/coroutines/channels/f0;",
         "h",
         "(Ljava/lang/Object;)Ljava/lang/Object;",
-        "Lkotlinx/coroutines/channels/p;",
+        "Lcotlinx/coroutines/channels/p;",
         "i",
-        "(Lkotlinx/coroutines/channels/p;)Ljava/lang/Object;",
+        "(Lcotlinx/coroutines/channels/p;)Ljava/lang/Object;",
         "g",
         "Ljava/lang/Object;",
         "ENQUEUE_FAILED$annotations",
@@ -50,9 +50,9 @@
         "e",
         "OFFER_FAILED$annotations",
         "OFFER_FAILED",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "Handler",
         "kotlinx-coroutines-core"
     }
@@ -73,7 +73,7 @@
 .field public static final c:I = 0x2
 
 .field public static final d:Ljava/lang/Object;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -81,7 +81,7 @@
 .end field
 
 .field public static final e:Ljava/lang/Object;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -89,7 +89,7 @@
 .end field
 
 .field public static final f:Ljava/lang/Object;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -97,7 +97,7 @@
 .end field
 
 .field public static final g:Ljava/lang/Object;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -105,7 +105,7 @@
 .end field
 
 .field public static final h:Ljava/lang/Object;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -118,49 +118,49 @@
     .locals 2
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/internal/c0;
+    new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "OFFER_SUCCESS"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlinx/coroutines/channels/b;->d:Ljava/lang/Object;
+    sput-object v0, Lcotlinx/coroutines/channels/b;->d:Ljava/lang/Object;
 
     .line 2
-    new-instance v0, Lkotlinx/coroutines/internal/c0;
+    new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "OFFER_FAILED"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlinx/coroutines/channels/b;->e:Ljava/lang/Object;
+    sput-object v0, Lcotlinx/coroutines/channels/b;->e:Ljava/lang/Object;
 
     .line 3
-    new-instance v0, Lkotlinx/coroutines/internal/c0;
+    new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "POLL_FAILED"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlinx/coroutines/channels/b;->f:Ljava/lang/Object;
+    sput-object v0, Lcotlinx/coroutines/channels/b;->f:Ljava/lang/Object;
 
     .line 4
-    new-instance v0, Lkotlinx/coroutines/internal/c0;
+    new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "ENQUEUE_FAILED"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlinx/coroutines/channels/b;->g:Ljava/lang/Object;
+    sput-object v0, Lcotlinx/coroutines/channels/b;->g:Ljava/lang/Object;
 
     .line 5
-    new-instance v0, Lkotlinx/coroutines/internal/c0;
+    new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "ON_CLOSE_HANDLER_INVOKED"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlinx/coroutines/channels/b;->h:Ljava/lang/Object;
+    sput-object v0, Lcotlinx/coroutines/channels/b;->h:Ljava/lang/Object;
 
     return-void
 .end method
@@ -199,18 +199,18 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Lkotlinx/coroutines/channels/b;->h(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Lcotlinx/coroutines/channels/b;->h(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final synthetic g(Lkotlinx/coroutines/channels/p;)Ljava/lang/Object;
+.method public static final synthetic g(Lcotlinx/coroutines/channels/p;)Ljava/lang/Object;
     .locals 0
 
     .line 1
-    invoke-static {p0}, Lkotlinx/coroutines/channels/b;->i(Lkotlinx/coroutines/channels/p;)Ljava/lang/Object;
+    invoke-static {p0}, Lcotlinx/coroutines/channels/b;->i(Lcotlinx/coroutines/channels/p;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -235,22 +235,22 @@
     .end annotation
 
     .line 1
-    instance-of v0, p0, Lkotlinx/coroutines/channels/p;
+    instance-of v0, p0, Lcotlinx/coroutines/channels/p;
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lkotlinx/coroutines/channels/f0;->b:Lkotlinx/coroutines/channels/f0$b;
+    sget-object v0, Lcotlinx/coroutines/channels/f0;->b:Lcotlinx/coroutines/channels/f0$b;
 
-    check-cast p0, Lkotlinx/coroutines/channels/p;
+    check-cast p0, Lcotlinx/coroutines/channels/p;
 
-    iget-object p0, p0, Lkotlinx/coroutines/channels/p;->d:Ljava/lang/Throwable;
+    iget-object p0, p0, Lcotlinx/coroutines/channels/p;->d:Ljava/lang/Throwable;
 
     .line 2
-    new-instance v0, Lkotlinx/coroutines/channels/f0$a;
+    new-instance v0, Lcotlinx/coroutines/channels/f0$a;
 
-    invoke-direct {v0, p0}, Lkotlinx/coroutines/channels/f0$a;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v0, p0}, Lcotlinx/coroutines/channels/f0$a;-><init>(Ljava/lang/Throwable;)V
 
-    invoke-static {v0}, Lkotlinx/coroutines/channels/f0;->c(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcotlinx/coroutines/channels/f0;->c(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -258,10 +258,10 @@
 
     .line 3
     :cond_0
-    sget-object v0, Lkotlinx/coroutines/channels/f0;->b:Lkotlinx/coroutines/channels/f0$b;
+    sget-object v0, Lcotlinx/coroutines/channels/f0;->b:Lcotlinx/coroutines/channels/f0$b;
 
     .line 4
-    invoke-static {p0}, Lkotlinx/coroutines/channels/f0;->c(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Lcotlinx/coroutines/channels/f0;->c(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -269,9 +269,9 @@
     return-object p0
 .end method
 
-.method private static final i(Lkotlinx/coroutines/channels/p;)Ljava/lang/Object;
+.method private static final i(Lcotlinx/coroutines/channels/p;)Ljava/lang/Object;
     .locals 1
-    .param p0    # Lkotlinx/coroutines/channels/p;
+    .param p0    # Lcotlinx/coroutines/channels/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -280,23 +280,23 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/p<",
+            "Lcotlinx/coroutines/channels/p<",
             "*>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/channels/f0;->b:Lkotlinx/coroutines/channels/f0$b;
+    sget-object v0, Lcotlinx/coroutines/channels/f0;->b:Lcotlinx/coroutines/channels/f0$b;
 
-    iget-object p0, p0, Lkotlinx/coroutines/channels/p;->d:Ljava/lang/Throwable;
+    iget-object p0, p0, Lcotlinx/coroutines/channels/p;->d:Ljava/lang/Throwable;
 
     .line 2
-    new-instance v0, Lkotlinx/coroutines/channels/f0$a;
+    new-instance v0, Lcotlinx/coroutines/channels/f0$a;
 
-    invoke-direct {v0, p0}, Lkotlinx/coroutines/channels/f0$a;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v0, p0}, Lcotlinx/coroutines/channels/f0$a;-><init>(Ljava/lang/Throwable;)V
 
-    invoke-static {v0}, Lkotlinx/coroutines/channels/f0;->c(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcotlinx/coroutines/channels/f0;->c(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 

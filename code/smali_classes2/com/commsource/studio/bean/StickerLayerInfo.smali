@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -76,7 +76,7 @@
 
     const-string v0, "sticker"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Lcom/commsource/studio/bean/ImageLayerInfo;-><init>()V
@@ -170,7 +170,7 @@
 
     iget-object v2, p0, Lcom/commsource/studio/bean/StickerLayerInfo;->originalImagePath:Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -249,7 +249,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/StickerLayerInfo;->originalImagePath:Ljava/lang/String;

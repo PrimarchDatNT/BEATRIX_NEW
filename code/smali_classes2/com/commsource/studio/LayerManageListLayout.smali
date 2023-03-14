@@ -16,7 +16,7 @@
     value = "SMAP\nLayerManageListLayout.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LayerManageListLayout.kt\ncom/commsource/studio/LayerManageListLayout\n+ 2 ExtensionUtils.kt\ncom/commsource/util/ExtensionUtilsKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,1278:1\n541#2,3:1279\n541#2,5:1282\n545#2:1287\n1828#3,3:1288\n1819#3,2:1291\n1819#3,2:1293\n1828#3,3:1295\n1828#3,3:1298\n1828#3,3:1301\n1819#3,2:1304\n1819#3,2:1306\n*E\n*S KotlinDebug\n*F\n+ 1 LayerManageListLayout.kt\ncom/commsource/studio/LayerManageListLayout\n*L\n165#1,3:1279\n165#1,5:1282\n165#1:1287\n188#1,3:1288\n203#1,2:1291\n245#1,2:1293\n274#1,3:1295\n364#1,3:1298\n412#1,3:1301\n425#1,2:1304\n440#1,2:1306\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "container",
         "v",
         "(Lcom/commsource/studio/bean/BaseLayerInfo;Landroid/view/ViewGroup;)Lcom/commsource/studio/d0;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "C",
         "(Lcom/commsource/studio/bean/BaseLayerInfo;)V",
         "",
@@ -91,7 +91,7 @@
         "(I)V",
         "totalLength",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "Ljava/util/ArrayList;",
         "getLayoutInfoList",
         "()Ljava/util/ArrayList;",
@@ -110,19 +110,19 @@
         "setCurrentDragLayerInfoItem",
         "(Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;)V",
         "currentDragLayerInfoItem",
-        "Lkotlin/Function1;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function1;",
+        "Lcotlin/k0;",
         "name",
         "N",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "getLayerInfoDeleteListener",
-        "()Lkotlin/jvm/u/l;",
+        "()Lcotlin/jvm/u/l;",
         "setLayerInfoDeleteListener",
-        "(Lkotlin/jvm/u/l;)V",
+        "(Lcotlin/jvm/u/l;)V",
         "layerInfoDeleteListener",
         "Ljava/util/HashMap;",
         "",
-        "Lkotlin/collections/HashMap;",
+        "Lcotlin/collections/HashMap;",
         "f",
         "Ljava/util/HashMap;",
         "getContainerItemFrames",
@@ -255,16 +255,16 @@
     .end annotation
 .end field
 
-.field private M:Lkotlin/jvm/u/l;
+.field private M:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/util/List<",
             "+",
             "Lcom/commsource/studio/bean/BaseLayerInfo;",
             ">;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -273,13 +273,13 @@
     .end annotation
 .end field
 
-.field private N:Lkotlin/jvm/u/l;
+.field private N:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/studio/bean/BaseLayerInfo;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -288,13 +288,13 @@
     .end annotation
 .end field
 
-.field private O:Lkotlin/jvm/u/l;
+.field private O:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/studio/bean/BaseLayerInfo;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -384,7 +384,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/LayerManageListLayout$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/LayerManageListLayout$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/LayerManageListLayout;->d0:Lcom/commsource/studio/LayerManageListLayout$a;
 
@@ -450,7 +450,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -473,7 +473,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -496,7 +496,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -511,7 +511,7 @@
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/LayerManageListLayout$$special$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/LayerManageListLayout;)V
 
-    invoke-virtual {p1, p2}, Lcom/commsource/util/p0;->j(Lkotlin/jvm/u/l;)V
+    invoke-virtual {p1, p2}, Lcom/commsource/util/p0;->j(Lcotlin/jvm/u/l;)V
 
     .line 6
     iput-object p1, p0, Lcom/commsource/studio/LayerManageListLayout;->d:Lcom/commsource/util/p0;
@@ -673,7 +673,7 @@
 
     if-gez v2, :cond_0
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_0
     check-cast v3, Lcom/commsource/studio/bean/BaseLayerInfo;
@@ -1103,13 +1103,13 @@
 
     if-gez v3, :cond_0
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_0
     check-cast v5, Lcom/commsource/studio/bean/BaseLayerInfo;
 
     .line 3
-    invoke-static {v5, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v5, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
 
@@ -1241,7 +1241,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v2, v3, p0}, Lcom/commsource/studio/gesture/GroupContainerViewHolder;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;)V
 
@@ -1263,7 +1263,7 @@
 
     invoke-direct {v1, p1, p0}, Lcom/commsource/studio/LayerManageListLayout$createContainer$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/d0;Lcom/commsource/studio/LayerManageListLayout;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/studio/d0;->x(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/studio/d0;->x(Lcotlin/jvm/u/a;)V
 
     .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1280,7 +1280,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v2, v3, p0}, Lcom/commsource/studio/gesture/NormalContainerViewHolder;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;)V
 
@@ -1302,7 +1302,7 @@
 
     invoke-direct {v1, p1, p0}, Lcom/commsource/studio/LayerManageListLayout$createContainer$$inlined$apply$lambda$2;-><init>(Lcom/commsource/studio/d0;Lcom/commsource/studio/LayerManageListLayout;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/studio/d0;->x(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/studio/d0;->x(Lcotlin/jvm/u/a;)V
 
     .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1338,7 +1338,7 @@
 
     const-string v3, "context"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v1, v2, p0}, Lcom/commsource/studio/gesture/LayerThumbnailViewHolder;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;)V
 
@@ -1379,7 +1379,7 @@
 
     invoke-direct {p2, p1}, Lcom/commsource/studio/LayerManageListLayout$createLayerItemView$1$1;-><init>(Lcom/commsource/studio/d0;)V
 
-    invoke-virtual {p1, p2}, Lcom/commsource/studio/d0;->x(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, p2}, Lcom/commsource/studio/d0;->x(Lcotlin/jvm/u/a;)V
 
     const/16 p2, 0x8
 
@@ -1428,30 +1428,30 @@
     if-eqz p1, :cond_3
 
     .line 2
-    invoke-static {p1}, Lkotlin/collections/s;->K1(Ljava/lang/Iterable;)I
+    invoke-static {p1}, Lcotlin/collections/s;->K1(Ljava/lang/Iterable;)I
 
     move-result v2
 
     const/4 v3, 0x0
 
-    invoke-static {v3, v2}, Lkotlin/g2/o;->n1(II)Lkotlin/g2/k;
+    invoke-static {v3, v2}, Lcotlin/g2/o;->n1(II)Lcotlin/g2/k;
 
     move-result-object v2
 
-    invoke-static {v2}, Lkotlin/g2/o;->K0(Lkotlin/g2/i;)Lkotlin/g2/i;
+    invoke-static {v2}, Lcotlin/g2/o;->K0(Lcotlin/g2/i;)Lcotlin/g2/i;
 
     move-result-object v2
 
     .line 3
-    invoke-virtual {v2}, Lkotlin/g2/i;->c()I
+    invoke-virtual {v2}, Lcotlin/g2/i;->c()I
 
     move-result v4
 
-    invoke-virtual {v2}, Lkotlin/g2/i;->e()I
+    invoke-virtual {v2}, Lcotlin/g2/i;->e()I
 
     move-result v5
 
-    invoke-virtual {v2}, Lkotlin/g2/i;->h()I
+    invoke-virtual {v2}, Lcotlin/g2/i;->h()I
 
     move-result v2
 
@@ -1466,7 +1466,7 @@
 
     .line 4
     :goto_0
-    invoke-static {p1, v4}, Lkotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
+    invoke-static {p1, v4}, Lcotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
 
     move-result-object v6
 
@@ -1488,28 +1488,28 @@
     move-result-object v6
 
     .line 8
-    invoke-static {v6}, Lkotlin/collections/s;->K1(Ljava/lang/Iterable;)I
+    invoke-static {v6}, Lcotlin/collections/s;->K1(Ljava/lang/Iterable;)I
 
     move-result v7
 
-    invoke-static {v3, v7}, Lkotlin/g2/o;->n1(II)Lkotlin/g2/k;
+    invoke-static {v3, v7}, Lcotlin/g2/o;->n1(II)Lcotlin/g2/k;
 
     move-result-object v7
 
-    invoke-static {v7}, Lkotlin/g2/o;->K0(Lkotlin/g2/i;)Lkotlin/g2/i;
+    invoke-static {v7}, Lcotlin/g2/o;->K0(Lcotlin/g2/i;)Lcotlin/g2/i;
 
     move-result-object v7
 
     .line 9
-    invoke-virtual {v7}, Lkotlin/g2/i;->c()I
+    invoke-virtual {v7}, Lcotlin/g2/i;->c()I
 
     move-result v8
 
-    invoke-virtual {v7}, Lkotlin/g2/i;->e()I
+    invoke-virtual {v7}, Lcotlin/g2/i;->e()I
 
     move-result v9
 
-    invoke-virtual {v7}, Lkotlin/g2/i;->h()I
+    invoke-virtual {v7}, Lcotlin/g2/i;->h()I
 
     move-result v7
 
@@ -1524,14 +1524,14 @@
 
     .line 10
     :goto_1
-    invoke-static {v6, v8}, Lkotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
+    invoke-static {v6, v8}, Lcotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
 
     move-result-object v10
 
-    check-cast v10, Lkotlin/Pair;
+    check-cast v10, Lcotlin/Pair;
 
     .line 11
-    invoke-virtual {v10}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v10}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v10
 
@@ -1601,17 +1601,17 @@
 
     if-eqz v3, :cond_1
 
-    invoke-virtual {v3}, Lcom/commsource/studio/d0;->j()Lkotlin/jvm/u/a;
+    invoke-virtual {v3}, Lcom/commsource/studio/d0;->j()Lcotlin/jvm/u/a;
 
     move-result-object v3
 
     if-eqz v3, :cond_1
 
-    invoke-interface {v3}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v3}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v3
 
-    check-cast v3, Lkotlin/t1;
+    check-cast v3, Lcotlin/t1;
 
     .line 4
     :cond_1
@@ -1629,17 +1629,17 @@
 
     if-eqz v2, :cond_0
 
-    invoke-virtual {v2}, Lcom/commsource/studio/d0;->j()Lkotlin/jvm/u/a;
+    invoke-virtual {v2}, Lcom/commsource/studio/d0;->j()Lcotlin/jvm/u/a;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    invoke-interface {v2}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v2}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v2
 
-    check-cast v2, Lkotlin/t1;
+    check-cast v2, Lcotlin/t1;
 
     goto :goto_0
 
@@ -1703,7 +1703,7 @@
     move v3, p2
 
     .line 4
-    invoke-static/range {v1 .. v9}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v1 .. v9}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     goto :goto_0
 
@@ -1778,7 +1778,7 @@
 
     const-string v1, "data"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/LayerManageListLayout;->J:Ljava/util/List;
@@ -1836,7 +1836,7 @@
 
     if-gez v4, :cond_0
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_0
     check-cast v5, Lcom/commsource/studio/bean/BaseLayerInfo;
@@ -1892,7 +1892,7 @@
 
     const-string v10, "this"
 
-    invoke-static {v8, v10}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v10}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {p1, v9, v8}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1974,7 +1974,7 @@
 
     const-string v4, "containerItemFrames.entries"
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 17
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -2039,7 +2039,7 @@
 
     div-int/lit8 p1, p1, 0x2
 
-    invoke-static {p1, v3}, Lkotlin/g2/o;->n(II)I
+    invoke-static {p1, v3}, Lcotlin/g2/o;->n(II)I
 
     move-result p1
 
@@ -2235,14 +2235,14 @@
     return-object v1
 .end method
 
-.method public final getLayerInfoClickListener()Lkotlin/jvm/u/l;
+.method public final getLayerInfoClickListener()Lcotlin/jvm/u/l;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Lcom/commsource/studio/bean/BaseLayerInfo;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -2255,21 +2255,21 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout;->O:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout;->O:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 .end method
 
-.method public final getLayerInfoDeleteListener()Lkotlin/jvm/u/l;
+.method public final getLayerInfoDeleteListener()Lcotlin/jvm/u/l;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Lcom/commsource/studio/bean/BaseLayerInfo;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -2282,24 +2282,24 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout;->N:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout;->N:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 .end method
 
-.method public final getLayerInfosChangeListener()Lkotlin/jvm/u/l;
+.method public final getLayerInfosChangeListener()Lcotlin/jvm/u/l;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Ljava/util/List<",
             "+",
             "Lcom/commsource/studio/bean/BaseLayerInfo;",
             ">;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -2312,7 +2312,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout;->M:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout;->M:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2378,7 +2378,7 @@
 
     const/4 v2, 0x0
 
-    invoke-static {v1, v2}, Lkotlin/g2/o;->n(II)I
+    invoke-static {v1, v2}, Lcotlin/g2/o;->n(II)I
 
     move-result v1
 
@@ -2491,7 +2491,7 @@
 
     const-string v1, "ev"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout;->S:Lcom/commsource/studio/i;
@@ -2529,7 +2529,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {p1, p2}, Lkotlin/g2/o;->n(II)I
+    invoke-static {p1, p2}, Lcotlin/g2/o;->n(II)I
 
     move-result p1
 
@@ -2572,7 +2572,7 @@
 
     const-string v1, "event"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout;->S:Lcom/commsource/studio/i;
@@ -2773,7 +2773,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/LayerManageListLayout;->f:Ljava/util/HashMap;
@@ -2868,19 +2868,19 @@
     return-void
 .end method
 
-.method public final setLayerInfoClickListener(Lkotlin/jvm/u/l;)V
+.method public final setLayerInfoClickListener(Lcotlin/jvm/u/l;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/studio/bean/BaseLayerInfo;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -2890,26 +2890,26 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/LayerManageListLayout;->O:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/studio/LayerManageListLayout;->O:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public final setLayerInfoDeleteListener(Lkotlin/jvm/u/l;)V
+.method public final setLayerInfoDeleteListener(Lcotlin/jvm/u/l;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/studio/bean/BaseLayerInfo;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -2919,29 +2919,29 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/LayerManageListLayout;->N:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/studio/LayerManageListLayout;->N:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public final setLayerInfosChangeListener(Lkotlin/jvm/u/l;)V
+.method public final setLayerInfosChangeListener(Lcotlin/jvm/u/l;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/util/List<",
             "+",
             "Lcom/commsource/studio/bean/BaseLayerInfo;",
             ">;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -2951,7 +2951,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/LayerManageListLayout;->M:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/studio/LayerManageListLayout;->M:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2979,7 +2979,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/LayerManageListLayout;->p:Ljava/util/ArrayList;
@@ -3080,7 +3080,7 @@
 
     const-string v2, "containerItemFrames.entries"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -3145,7 +3145,7 @@
 
     move-result-object v3
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
 
@@ -3180,7 +3180,7 @@
 
     move-result-object v3
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
 
@@ -3246,7 +3246,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/LayerManageListLayout;->g:Ljava/util/HashMap;
@@ -3287,7 +3287,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -3331,7 +3331,7 @@
 
     if-gez v4, :cond_1
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_1
     check-cast v5, Lcom/commsource/studio/bean/BaseLayerInfo;
@@ -3401,7 +3401,7 @@
     move-object v10, v9
 
     :goto_2
-    invoke-static {v10, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v10, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v10
 
@@ -3412,7 +3412,7 @@
 
     check-cast v10, Lcom/commsource/studio/bean/GroupLayerInfo;
 
-    invoke-virtual {v10, v7}, Lcom/commsource/studio/bean/GroupLayerInfo;->getLayerInfoPair(Lcom/commsource/studio/bean/FocusLayerInfo;)Lkotlin/Pair;
+    invoke-virtual {v10, v7}, Lcom/commsource/studio/bean/GroupLayerInfo;->getLayerInfoPair(Lcom/commsource/studio/bean/FocusLayerInfo;)Lcotlin/Pair;
 
     move-result-object v7
 
@@ -3455,15 +3455,15 @@
 
     .line 15
     :cond_9
-    iget-object v2, p0, Lcom/commsource/studio/LayerManageListLayout;->M:Lkotlin/jvm/u/l;
+    iget-object v2, p0, Lcom/commsource/studio/LayerManageListLayout;->M:Lcotlin/jvm/u/l;
 
     if-eqz v2, :cond_a
 
-    invoke-interface {v2, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v2, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/t1;
+    check-cast v1, Lcotlin/t1;
 
     .line 16
     :cond_a

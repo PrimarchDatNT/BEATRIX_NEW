@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
     d2 = {
         "com/commsource/billing/pro/SubsConfigManager$b",
         "Lcom/commsource/util/u2/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "app_googleplayRelease"
@@ -129,7 +129,7 @@
 
     const-string v4, "BPLocationUtils.getLocat\u2026(AppContext.getContext())"
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/meitu/countrylocation/LocationBean;->getCountry_code()Ljava/lang/String;
 

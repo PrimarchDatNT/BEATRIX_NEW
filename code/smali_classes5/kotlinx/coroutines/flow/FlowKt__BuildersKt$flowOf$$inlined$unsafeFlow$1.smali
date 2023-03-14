@@ -1,14 +1,14 @@
-.class public final Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1;
+.class public final Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1;
 .super Ljava/lang/Object;
 .source "SafeCollector.common.kt"
 
 # interfaces
-.implements Lkotlinx/coroutines/flow/d;
+.implements Lcotlinx/coroutines/flow/d;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/FlowKt__BuildersKt;->p([Ljava/lang/Object;)Lkotlinx/coroutines/flow/d;
+    value = Lcotlinx/coroutines/flow/FlowKt__BuildersKt;->p([Ljava/lang/Object;)Lcotlinx/coroutines/flow/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlinx/coroutines/flow/d<",
+        "Lcotlinx/coroutines/flow/d<",
         "TT;>;"
     }
 .end annotation
@@ -28,7 +28,7 @@
     value = "SMAP\nSafeCollector.common.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SafeCollector.common.kt\nkotlinx/coroutines/flow/internal/SafeCollector_commonKt$unsafeFlow$1\n+ 2 Builders.kt\nkotlinx/coroutines/flow/FlowKt__BuildersKt\n*L\n1#1,112:1\n120#2,4:113\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,12 +39,12 @@
     }
     d2 = {
         "kotlinx/coroutines/flow/internal/SafeCollector_commonKt$unsafeFlow$1",
-        "Lkotlinx/coroutines/flow/d;",
-        "Lkotlinx/coroutines/flow/e;",
+        "Lcotlinx/coroutines/flow/d;",
+        "Lcotlinx/coroutines/flow/e;",
         "collector",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
-        "(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "kotlinx-coroutines-core"
     }
     k = 0x1
@@ -64,7 +64,7 @@
 .method public constructor <init>([Ljava/lang/Object;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1;->a:[Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1;->a:[Ljava/lang/Object;
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -74,28 +74,28 @@
 
 
 # virtual methods
-.method public a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 9
-    .param p1    # Lkotlinx/coroutines/flow/e;
+    .param p1    # Lcotlinx/coroutines/flow/e;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p2, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;
+    instance-of v0, p2, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;
 
     if-eqz v0, :cond_0
 
     move-object v0, p2
 
-    check-cast v0, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;
+    check-cast v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;
 
-    iget v1, v0, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->label:I
+    iget v1, v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -105,24 +105,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->label:I
+    iput v1, v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;
+    new-instance v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;
 
-    invoke-direct {v0, p0, p2}, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;-><init>(Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1;Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p0, p2}, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;-><init>(Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1;Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p2, v0, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->result:Ljava/lang/Object;
+    iget-object p2, v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->label:I
+    iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->label:I
 
     const/4 v3, 0x1
 
@@ -130,33 +130,33 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$5:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$5:Ljava/lang/Object;
 
-    iget p1, v0, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->I$1:I
+    iget p1, v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->I$1:I
 
-    iget v2, v0, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->I$0:I
+    iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->I$0:I
 
-    iget-object v4, v0, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$4:Ljava/lang/Object;
+    iget-object v4, v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$4:Ljava/lang/Object;
 
     check-cast v4, [Ljava/lang/Object;
 
-    iget-object v5, v0, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$3:Ljava/lang/Object;
+    iget-object v5, v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$3:Ljava/lang/Object;
 
-    check-cast v5, Lkotlinx/coroutines/flow/e;
+    check-cast v5, Lcotlinx/coroutines/flow/e;
 
-    iget-object v6, v0, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$2:Ljava/lang/Object;
+    iget-object v6, v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$2:Ljava/lang/Object;
 
-    check-cast v6, Lkotlin/coroutines/c;
+    check-cast v6, Lcotlin/coroutines/c;
 
-    iget-object v7, v0, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$1:Ljava/lang/Object;
+    iget-object v7, v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$1:Ljava/lang/Object;
 
-    check-cast v7, Lkotlinx/coroutines/flow/e;
+    check-cast v7, Lcotlinx/coroutines/flow/e;
 
-    iget-object v8, v0, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$0:Ljava/lang/Object;
+    iget-object v8, v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$0:Ljava/lang/Object;
 
-    check-cast v8, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1;
+    check-cast v8, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1;
 
-    invoke-static {p2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     move-object p2, v5
 
@@ -186,10 +186,10 @@
 
     .line 3
     :cond_2
-    invoke-static {p2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 4
-    iget-object p2, p0, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1;->a:[Ljava/lang/Object;
+    iget-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1;->a:[Ljava/lang/Object;
 
     array-length v2, p2
 
@@ -219,25 +219,25 @@
     aget-object v7, v6, p1
 
     .line 5
-    iput-object v8, v1, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$0:Ljava/lang/Object;
+    iput-object v8, v1, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$0:Ljava/lang/Object;
 
-    iput-object v0, v1, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$1:Ljava/lang/Object;
+    iput-object v0, v1, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$1:Ljava/lang/Object;
 
-    iput-object v2, v1, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$2:Ljava/lang/Object;
+    iput-object v2, v1, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$2:Ljava/lang/Object;
 
-    iput-object p2, v1, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$3:Ljava/lang/Object;
+    iput-object p2, v1, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$3:Ljava/lang/Object;
 
-    iput-object v6, v1, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$4:Ljava/lang/Object;
+    iput-object v6, v1, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$4:Ljava/lang/Object;
 
-    iput v5, v1, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->I$0:I
+    iput v5, v1, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->I$0:I
 
-    iput p1, v1, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->I$1:I
+    iput p1, v1, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->I$1:I
 
-    iput-object v7, v1, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$5:Ljava/lang/Object;
+    iput-object v7, v1, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->L$5:Ljava/lang/Object;
 
-    iput v3, v1, Lkotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->label:I
+    iput v3, v1, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1;->label:I
 
-    invoke-interface {p2, v7, v1}, Lkotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p2, v7, v1}, Lcotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object v7
 
@@ -253,7 +253,7 @@
 
     .line 6
     :cond_4
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method

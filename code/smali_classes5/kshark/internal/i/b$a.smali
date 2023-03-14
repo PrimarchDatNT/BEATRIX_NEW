@@ -17,7 +17,7 @@
     value = "SMAP\nByteArrayTimSort.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ByteArrayTimSort.kt\nkshark/internal/aosp/ByteArrayTimSort$Companion\n*L\n1#1,1078:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "len",
         "start",
         "end",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
         "(III)V",
         "",
@@ -92,7 +92,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -1069,11 +1069,11 @@
 
     const-string v0, "a"
 
-    invoke-static {v8, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "c"
 
-    invoke-static {v11, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v11, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, v8
@@ -1128,7 +1128,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v12, v8, v11, v10, v1}, Lkshark/internal/i/b;-><init>([BLkshark/internal/i/a;ILkotlin/jvm/internal/u;)V
+    invoke-direct {v12, v8, v11, v10, v1}, Lkshark/internal/i/b;-><init>([BLkshark/internal/i/a;ILcotlin/jvm/internal/u;)V
 
     .line 6
     invoke-direct {v7, v0}, Lkshark/internal/i/b$a;->h(I)I
@@ -1239,11 +1239,11 @@
 
     const-string v0, "a"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "c"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p1

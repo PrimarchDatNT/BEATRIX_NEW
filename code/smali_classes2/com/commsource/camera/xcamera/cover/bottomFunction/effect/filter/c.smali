@@ -8,7 +8,7 @@
     value = "SMAP\nCameraFilterViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CameraFilterViewModel.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterViewModel\n*L\n1#1,1245:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "Landroidx/lifecycle/AndroidViewModel;",
         "",
         "isFromUser",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "q1",
         "(Z)V",
         "o1",
@@ -93,10 +93,10 @@
         "",
         "mutableList",
         "specialFilter",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "action",
         "G",
-        "(ILjava/util/List;Lcom/meitu/template/bean/Filter;Lkotlin/jvm/u/a;)Z",
+        "(ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;)Z",
         "E",
         "I",
         "(Lcom/meitu/template/bean/Filter;)Z",
@@ -630,7 +630,7 @@
 
     move-object/from16 v2, p1
 
-    invoke-static {v2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct/range {p0 .. p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
@@ -677,7 +677,7 @@
 
     move-object v2, v1
 
-    invoke-direct/range {v2 .. v11}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v2 .. v11}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILcotlin/jvm/internal/u;)V
 
     iput-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
@@ -708,7 +708,7 @@
 
     move-object v12, v1
 
-    invoke-direct/range {v12 .. v23}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;-><init>(Lcom/meitu/template/bean/Filter;Lcom/meitu/template/bean/Filter;Ljava/util/List;Ljava/util/List;Lcom/commsource/beautyfilter/a;Lcom/commsource/beautyfilter/a;Ljava/util/List;Ljava/util/List;Landroid/util/SparseArray;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v12 .. v23}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;-><init>(Lcom/meitu/template/bean/Filter;Lcom/meitu/template/bean/Filter;Ljava/util/List;Ljava/util/List;Lcom/commsource/beautyfilter/a;Lcom/commsource/beautyfilter/a;Ljava/util/List;Ljava/util/List;Landroid/util/SparseArray;ILcotlin/jvm/internal/u;)V
 
     iput-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
@@ -853,7 +853,7 @@
 
     if-nez v3, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     iput-object v3, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->B:Lcom/meitu/template/bean/Filter;
@@ -916,7 +916,7 @@
     return p0
 .end method
 
-.method public static synthetic F(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;ILjava/util/List;Lcom/meitu/template/bean/Filter;Lkotlin/jvm/u/a;ILjava/lang/Object;)Z
+.method public static synthetic F(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;ILjava/lang/Object;)Z
     .locals 2
 
     const/16 p6, 0x44b4
@@ -954,7 +954,7 @@
 
     .line 1
     :cond_3
-    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->E(ILjava/util/List;Lcom/meitu/template/bean/Filter;Lkotlin/jvm/u/a;)Z
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->E(ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;)Z
 
     move-result p0
 
@@ -963,7 +963,7 @@
     return p0
 .end method
 
-.method public static synthetic H(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;ILjava/util/List;Lcom/meitu/template/bean/Filter;Lkotlin/jvm/u/a;ILjava/lang/Object;)Z
+.method public static synthetic H(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;ILjava/lang/Object;)Z
     .locals 2
 
     const/16 p6, 0x44b2
@@ -1001,7 +1001,7 @@
 
     .line 1
     :cond_3
-    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->G(ILjava/util/List;Lcom/meitu/template/bean/Filter;Lkotlin/jvm/u/a;)Z
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->G(ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;)Z
 
     move-result p0
 
@@ -1316,7 +1316,7 @@
 
     move-result-object v2
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1378,7 +1378,7 @@
 
     check-cast v1, Lcom/meitu/template/bean/Filter;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1396,7 +1396,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     check-cast v1, Lcom/meitu/template/bean/Filter;
@@ -1579,7 +1579,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/template/bean/LookMaterial;->isDefaultLook()Z
@@ -1601,7 +1601,7 @@
     return v1
 .end method
 
-.method public final E(ILjava/util/List;Lcom/meitu/template/bean/Filter;Lkotlin/jvm/u/a;)Z
+.method public final E(ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;)Z
     .locals 8
     .param p2    # Ljava/util/List;
         .annotation build Ln/e/a/e;
@@ -1611,7 +1611,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p4    # Lkotlin/jvm/u/a;
+    .param p4    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
@@ -1622,8 +1622,8 @@
             "Lcom/meitu/template/bean/Filter;",
             ">;",
             "Lcom/meitu/template/bean/Filter;",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)Z"
         }
     .end annotation
@@ -1735,11 +1735,11 @@
     if-eqz p4, :cond_4
 
     .line 10
-    invoke-interface {p4}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p4}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 11
     :cond_4
@@ -1801,11 +1801,11 @@
     if-eqz p4, :cond_8
 
     .line 18
-    invoke-interface {p4}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p4}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p2
 
-    check-cast p2, Lkotlin/t1;
+    check-cast p2, Lcotlin/t1;
 
     .line 19
     :cond_8
@@ -1840,7 +1840,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/template/bean/LookMaterial;->isDefaultLook()Z
@@ -1886,7 +1886,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     check-cast v1, Lcom/meitu/template/bean/Filter;
@@ -1910,7 +1910,7 @@
     return v1
 .end method
 
-.method public final G(ILjava/util/List;Lcom/meitu/template/bean/Filter;Lkotlin/jvm/u/a;)Z
+.method public final G(ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;)Z
     .locals 7
     .param p2    # Ljava/util/List;
         .annotation build Ln/e/a/e;
@@ -1920,7 +1920,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p4    # Lkotlin/jvm/u/a;
+    .param p4    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
@@ -1931,8 +1931,8 @@
             "Lcom/meitu/template/bean/Filter;",
             ">;",
             "Lcom/meitu/template/bean/Filter;",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)Z"
         }
     .end annotation
@@ -2044,11 +2044,11 @@
     if-eqz p4, :cond_4
 
     .line 10
-    invoke-interface {p4}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p4}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 11
     :cond_4
@@ -2110,11 +2110,11 @@
     if-eqz p4, :cond_8
 
     .line 18
-    invoke-interface {p4}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p4}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p2
 
-    check-cast p2, Lkotlin/t1;
+    check-cast p2, Lcotlin/t1;
 
     .line 19
     :cond_8
@@ -2176,7 +2176,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterial;->isDbg()Z
@@ -2189,7 +2189,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterial;->isHumanPosture()Z
@@ -2202,7 +2202,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterial;->getIsDyeHair()I
@@ -2215,7 +2215,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterial;->isMontageAr()Z
@@ -2575,7 +2575,7 @@
 
     const-string p2, "ActivityStackManager.getInstance()"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/k;->g()Landroid/app/Activity;
 
@@ -2621,7 +2621,7 @@
 
     move-object v2, v12
 
-    invoke-direct/range {v2 .. v11}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v2 .. v11}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILcotlin/jvm/internal/u;)V
 
     .line 13
     invoke-virtual {p2}, Lcom/meitu/template/bean/Filter;->getFilterId()I
@@ -2732,7 +2732,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     check-cast v1, Ljava/lang/Boolean;
@@ -2885,7 +2885,7 @@
 
     const-string v1, "filter"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Ljava/util/HashMap;
@@ -3542,7 +3542,7 @@
 
     move-object v2, p0
 
-    invoke-static/range {v2 .. v8}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->F(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;ILjava/util/List;Lcom/meitu/template/bean/Filter;Lkotlin/jvm/u/a;ILjava/lang/Object;)Z
+    invoke-static/range {v2 .. v8}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->F(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;ILjava/lang/Object;)Z
 
     move-result v1
 
@@ -3567,7 +3567,7 @@
 
     move-object v2, p0
 
-    invoke-static/range {v2 .. v8}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->F(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;ILjava/util/List;Lcom/meitu/template/bean/Filter;Lkotlin/jvm/u/a;ILjava/lang/Object;)Z
+    invoke-static/range {v2 .. v8}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->F(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;ILjava/lang/Object;)Z
 
     .line 4
     :cond_0
@@ -3607,7 +3607,7 @@
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->w:Lcom/meitu/template/bean/ArMaterial;
 
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -3640,7 +3640,7 @@
     :cond_1
     if-nez p1, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     :goto_0
@@ -3687,7 +3687,7 @@
     if-nez p1, :cond_5
 
     .line 10
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     goto :goto_1
 
@@ -3720,7 +3720,7 @@
 
     move-object v4, v2
 
-    invoke-direct/range {v4 .. v13}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v4 .. v13}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILcotlin/jvm/internal/u;)V
 
     .line 13
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getFilterId()I
@@ -4084,7 +4084,7 @@
 
     const-string v1, "filter"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
@@ -4124,7 +4124,7 @@
 
     move-object v3, v1
 
-    invoke-direct/range {v3 .. v12}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v3 .. v12}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILcotlin/jvm/internal/u;)V
 
     .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterId()I
@@ -4243,7 +4243,7 @@
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->x:Lcom/meitu/template/bean/LookMaterial;
 
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -4278,7 +4278,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-virtual {v2}, Lcom/meitu/template/bean/LookMaterial;->isDefaultLook()Z
@@ -4362,7 +4362,7 @@
 
     move-object v4, v2
 
-    invoke-direct/range {v4 .. v13}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v4 .. v13}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILcotlin/jvm/internal/u;)V
 
     .line 12
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
@@ -4493,7 +4493,7 @@
     :cond_8
     if-nez p1, :cond_9
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_9
     :goto_2
@@ -4603,7 +4603,7 @@
 
     move-object v2, p0
 
-    invoke-static/range {v2 .. v8}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->H(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;ILjava/util/List;Lcom/meitu/template/bean/Filter;Lkotlin/jvm/u/a;ILjava/lang/Object;)Z
+    invoke-static/range {v2 .. v8}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->H(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;ILjava/lang/Object;)Z
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4637,7 +4637,7 @@
 
     move-object v2, p0
 
-    invoke-static/range {v2 .. v8}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->H(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;ILjava/util/List;Lcom/meitu/template/bean/Filter;Lkotlin/jvm/u/a;ILjava/lang/Object;)Z
+    invoke-static/range {v2 .. v8}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->H(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;ILjava/lang/Object;)Z
 
     move-result v1
 
@@ -4662,7 +4662,7 @@
 
     move-object v2, p0
 
-    invoke-static/range {v2 .. v8}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->H(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;ILjava/util/List;Lcom/meitu/template/bean/Filter;Lkotlin/jvm/u/a;ILjava/lang/Object;)Z
+    invoke-static/range {v2 .. v8}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->H(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;ILjava/lang/Object;)Z
 
     .line 7
     :cond_2
@@ -4755,7 +4755,7 @@
 
     move-object v4, v1
 
-    invoke-direct/range {v4 .. v13}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v4 .. v13}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILcotlin/jvm/internal/u;)V
 
     .line 2
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
@@ -4809,7 +4809,7 @@
 
     move-object v4, v1
 
-    invoke-direct/range {v4 .. v13}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v4 .. v13}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILcotlin/jvm/internal/u;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4845,7 +4845,7 @@
 
     move-object v4, v1
 
-    invoke-direct/range {v4 .. v13}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v4 .. v13}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILcotlin/jvm/internal/u;)V
 
     .line 8
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
@@ -4896,7 +4896,7 @@
 
     move-object v4, v1
 
-    invoke-direct/range {v4 .. v13}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v4 .. v13}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILcotlin/jvm/internal/u;)V
 
     .line 13
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
@@ -4941,7 +4941,7 @@
 
     check-cast v1, Lcom/commsource/beautyfilter/a;
 
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -5936,7 +5936,7 @@
 
     const-string v3, "selectFilterIndex"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getFilter()Lcom/meitu/template/bean/Filter;
@@ -5953,7 +5953,7 @@
 
     if-nez v3, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v3}, Lcom/meitu/template/bean/Filter;->getFilterId()I
@@ -6023,7 +6023,7 @@
 
     const-string v12, "selfieCategoryList.iterator()"
 
-    invoke-static {v11, v12}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v11, v12}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     new-instance v12, Ljava/util/ArrayList;
@@ -6047,7 +6047,7 @@
 
     const-string v15, "categoryIterator.next()"
 
-    invoke-static {v14, v15}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v14, v15}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v14, Lcom/commsource/beautyfilter/a;
 
@@ -6324,7 +6324,7 @@
     .line 41
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -6386,7 +6386,7 @@
     :goto_5
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -6685,7 +6685,7 @@
 
     const-string p2, "ActivityStackManager.getInstance()"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/k;->g()Landroid/app/Activity;
 

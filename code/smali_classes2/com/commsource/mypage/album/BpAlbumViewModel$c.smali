@@ -17,7 +17,7 @@
     value = "SMAP\nBpAlbumViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpAlbumViewModel.kt\ncom/commsource/mypage/album/BpAlbumViewModel$load$1\n*L\n1#1,688:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
     d2 = {
         "com/commsource/mypage/album/BpAlbumViewModel$c",
         "Lcom/commsource/util/u2/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "app_googleplayRelease"
@@ -143,11 +143,11 @@
 
     move-result-object v5
 
-    check-cast v5, Lkotlin/Pair;
+    check-cast v5, Lcotlin/Pair;
 
     if-eqz v5, :cond_0
 
-    invoke-virtual {v5}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v5}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v5
 
@@ -165,7 +165,7 @@
     move-object v5, v4
 
     :goto_0
-    invoke-static {v3, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
 
@@ -183,11 +183,11 @@
 
     move-result-object v3
 
-    check-cast v3, Lkotlin/Pair;
+    check-cast v3, Lcotlin/Pair;
 
     if-eqz v3, :cond_1
 
-    invoke-virtual {v3}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v3}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -257,7 +257,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v7, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v7
 

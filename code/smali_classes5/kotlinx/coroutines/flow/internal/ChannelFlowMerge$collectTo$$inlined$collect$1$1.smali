@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1$1;
-.super Lkotlin/coroutines/jvm/internal/ContinuationImpl;
+.class public final Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1$1;
+.super Lcotlin/coroutines/jvm/internal/ContinuationImpl;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1;->emit(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1;->emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -12,7 +12,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,7 +24,7 @@
     d2 = {
         "T",
         "value",
-        "LLkotlin/coroutines/Continuation;;",
+        "LLcotlin/coroutines/Continuation;;",
         "L;",
         "continuation",
         "",
@@ -39,7 +39,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.flow.internal.ChannelFlowMerge$collectTo$$inlined$collect$1"
     f = "Merge.kt"
     i = {
@@ -80,16 +80,16 @@
 
 .field synthetic result:Ljava/lang/Object;
 
-.field final synthetic this$0:Lkotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1;
+.field final synthetic this$0:Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1;
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1;Lkotlin/coroutines/c;)V
+.method public constructor <init>(Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1;Lcotlin/coroutines/c;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1$1;->this$0:Lkotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1$1;->this$0:Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1;
 
-    invoke-direct {p0, p2}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {p0, p2}, Lcotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lcotlin/coroutines/c;)V
 
     return-void
 .end method
@@ -105,21 +105,21 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1$1;->result:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1$1;->result:Ljava/lang/Object;
 
-    iget p1, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1$1;->label:I
+    iget p1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1$1;->label:I
 
     const/high16 v0, -0x80000000
 
     or-int/2addr p1, v0
 
-    iput p1, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1$1;->label:I
+    iput p1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1$1;->label:I
 
-    iget-object p1, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1$1;->this$0:Lkotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1;
+    iget-object p1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1$1;->this$0:Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1;
 
     const/4 v0, 0x0
 
-    invoke-virtual {p1, v0, p0}, Lkotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1;->emit(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-virtual {p1, v0, p0}, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1;->emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 

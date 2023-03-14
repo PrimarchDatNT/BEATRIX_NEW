@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Landroid/view/View;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onClick",
         "(Landroid/view/View;)V",
         "com/commsource/studio/component/AutoManualComponent$viewBinding$1$1",
@@ -85,7 +85,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/component/AutoManualComponent$b;->A()Z
@@ -142,7 +142,7 @@
     :goto_0
     if-nez v1, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z

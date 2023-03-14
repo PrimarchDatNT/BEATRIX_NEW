@@ -20,7 +20,7 @@
     value = "SMAP\nMetadataExtractor.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MetadataExtractor.kt\nkshark/MetadataExtractor$Companion$invoke$1\n+ 2 MetadataExtractor.kt\nkshark/MetadataExtractor$Companion\n*L\n1#1,39:1\n19#2:40\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -85,10 +85,10 @@
 
     const-string v0, "graph"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {}, Lkotlin/collections/q0;->z()Ljava/util/Map;
+    invoke-static {}, Lcotlin/collections/q0;->z()Ljava/util/Map;
 
     move-result-object p1
 

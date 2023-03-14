@@ -35,7 +35,7 @@
     value = "SMAP\nLookFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LookFragment.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$visibleCallback$1\n*L\n1#1,526:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -50,7 +50,7 @@
         "integer",
         "Landroidx/recyclerview/widget/RecyclerView$ViewHolder;",
         "viewHolder",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Integer;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V"
     }

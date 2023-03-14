@@ -8,7 +8,7 @@
     value = "SMAP\nTimeUtils.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TimeUtils.kt\ncom/commsource/video/TimeUtils\n*L\n1#1,57:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -153,7 +153,7 @@
 
     const-string v1, "format"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v1, 0x0
 
@@ -187,7 +187,7 @@
     const-string v2, "%02d:%02d"
 
     .line 5
-    invoke-static {v2, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -202,7 +202,7 @@
     if-eqz v2, :cond_1
 
     .line 6
-    sget-object p3, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
+    sget-object p3, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     new-array p3, v6, [Ljava/lang/Object;
 
@@ -226,7 +226,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -236,7 +236,7 @@
     const-string v2, "%02d:%02d:%02d"
 
     .line 7
-    invoke-static {v2, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v7
 
@@ -245,7 +245,7 @@
     if-eqz v7, :cond_2
 
     .line 8
-    sget-object v2, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
+    sget-object v2, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     new-array v2, v8, [Ljava/lang/Object;
 
@@ -275,7 +275,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -293,7 +293,7 @@
 
     .line 10
     :cond_3
-    sget-object v2, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
+    sget-object v2, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     new-array v2, v8, [Ljava/lang/Object;
 
@@ -323,7 +323,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

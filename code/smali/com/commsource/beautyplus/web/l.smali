@@ -3,7 +3,7 @@
 .source "lambda"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # instance fields
@@ -30,7 +30,7 @@
 
     check-cast p1, Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
-    invoke-virtual {v0, p1}, Lcom/commsource/beautyplus/web/p$c;->n(Lcom/commsource/cloudalbum/bean/CAImageInfo;)Lkotlin/t1;
+    invoke-virtual {v0, p1}, Lcom/commsource/beautyplus/web/p$c;->n(Lcom/commsource/cloudalbum/bean/CAImageInfo;)Lcotlin/t1;
 
     move-result-object p1
 

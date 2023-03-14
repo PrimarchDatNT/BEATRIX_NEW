@@ -20,7 +20,7 @@
     value = "SMAP\nMaskFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MaskFragment.kt\ncom/commsource/studio/function/MaskFragment$animateIn$1$1\n*L\n1#1,316:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "Landroid/animation/Animator$AnimatorListener;",
         "Landroid/animation/Animator;",
         "animation",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onAnimationStart",
         "(Landroid/animation/Animator;)V",
         "onAnimationEnd",
@@ -141,7 +141,7 @@
 
     const/4 v6, 0x0
 
-    invoke-static/range {v1 .. v6}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v1 .. v6}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 4
     iget-object v0, p0, Lcom/commsource/studio/function/MaskFragment$c$a;->a:Lcom/commsource/studio/function/MaskFragment$c;

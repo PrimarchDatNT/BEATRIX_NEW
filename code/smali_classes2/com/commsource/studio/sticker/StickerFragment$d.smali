@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -141,7 +141,7 @@
 
     const-string v0, "studioBinding.proView"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -161,7 +161,7 @@
 
     const-string p2, "ownerActivity"
 
-    invoke-static {v1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 7
     iget-object p2, p0, Lcom/commsource/studio/sticker/StickerFragment$d;->a:Lcom/commsource/studio/sticker/StickerFragment;
@@ -174,7 +174,7 @@
 
     const-string v2, "studioBinding.fragmentContainer"
 
-    invoke-static {p2, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/widget/FrameLayout;->getId()I
 

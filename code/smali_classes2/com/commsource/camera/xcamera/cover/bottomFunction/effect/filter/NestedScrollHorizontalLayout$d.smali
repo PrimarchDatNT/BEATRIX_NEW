@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "",
         "fraction",
         "value",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(FF)V",
         "Lcom/commsource/camera/f1/l;",

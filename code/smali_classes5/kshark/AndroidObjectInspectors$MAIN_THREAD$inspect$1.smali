@@ -1,9 +1,9 @@
 .class final Lkshark/AndroidObjectInspectors$MAIN_THREAD$inspect$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "AndroidObjectInspectors.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
@@ -18,11 +18,11 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/p<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/p<",
         "Lkshark/v;",
         "Lkshark/HeapObject$HeapInstance;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
@@ -31,7 +31,7 @@
     value = "SMAP\nAndroidObjectInspectors.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AndroidObjectInspectors.kt\nkshark/AndroidObjectInspectors$MAIN_THREAD$inspect$1\n*L\n1#1,591:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -44,7 +44,7 @@
         "Lkshark/v;",
         "Lkshark/HeapObject$HeapInstance;",
         "instance",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(Lkshark/v;Lkshark/HeapObject$HeapInstance;)V",
         "<anonymous>"
@@ -80,7 +80,7 @@
 
     const/4 v0, 0x2
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, v0}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -97,7 +97,7 @@
 
     invoke-virtual {p0, p1, p2}, Lkshark/AndroidObjectInspectors$MAIN_THREAD$inspect$1;->invoke(Lkshark/v;Lkshark/HeapObject$HeapInstance;)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method
@@ -115,28 +115,28 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "instance"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     const-class v0, Ljava/lang/Thread;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v0
 
     const-string v1, "name"
 
-    invoke-virtual {p2, v0, v1}, Lkshark/HeapObject$HeapInstance;->k(Lkotlin/reflect/d;Ljava/lang/String;)Lkshark/h;
+    invoke-virtual {p2, v0, v1}, Lkshark/HeapObject$HeapInstance;->k(Lcotlin/reflect/d;Ljava/lang/String;)Lkshark/h;
 
     move-result-object p2
 
     if-nez p2, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {p2}, Lkshark/h;->c()Lkshark/j;
@@ -150,7 +150,7 @@
     const-string v0, "main"
 
     .line 3
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p2
 

@@ -13,7 +13,7 @@
     name = "FullscreenInteractionListener"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
     d2 = {
         "Lcom/mopub/mobileads/AdLifecycleListener$FullscreenInteractionListener;",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onAdDismissed",
         "()V",
         "Lcom/mopub/common/MoPubReward;",
@@ -49,11 +49,11 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method
 
 .method public abstract onAdDismissed()V
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method

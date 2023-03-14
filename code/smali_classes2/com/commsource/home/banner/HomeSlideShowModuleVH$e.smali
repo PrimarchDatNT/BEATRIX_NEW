@@ -21,7 +21,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "",
         "",
         "payloads",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "k",
         "(ILcom/commsource/widget/h1/d;Ljava/util/List;)V",
         "Landroid/content/Context;",
@@ -75,11 +75,11 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "parent"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_pager_banner:I
 
@@ -195,7 +195,7 @@
 
     const-string p3, "itemView"
 
-    invoke-static {p2, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget p3, Lcom/commsource/beautyplus/R$id;->ivImage:I
 

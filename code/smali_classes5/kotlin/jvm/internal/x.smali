@@ -1,10 +1,10 @@
-.class public final Lkotlin/jvm/internal/x;
+.class public final Lcotlin/jvm/internal/x;
 .super Ljava/lang/Object;
 .source "PrimitiveCompanionObjects.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -14,7 +14,7 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0003\u0008\u00c0\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u00a8\u0006\u0004"
     }
     d2 = {
-        "Lkotlin/jvm/internal/x;",
+        "Lcotlin/jvm/internal/x;",
         "",
         "<init>",
         "()V",
@@ -30,7 +30,7 @@
 
 
 # static fields
-.field public static final a:Lkotlin/jvm/internal/x;
+.field public static final a:Lcotlin/jvm/internal/x;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -41,11 +41,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lkotlin/jvm/internal/x;
+    new-instance v0, Lcotlin/jvm/internal/x;
 
-    invoke-direct {v0}, Lkotlin/jvm/internal/x;-><init>()V
+    invoke-direct {v0}, Lcotlin/jvm/internal/x;-><init>()V
 
-    sput-object v0, Lkotlin/jvm/internal/x;->a:Lkotlin/jvm/internal/x;
+    sput-object v0, Lcotlin/jvm/internal/x;->a:Lcotlin/jvm/internal/x;
 
     return-void
 .end method

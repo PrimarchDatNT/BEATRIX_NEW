@@ -1,14 +1,14 @@
-.class public final Lkotlinx/coroutines/flow/FlowKt__ReduceKt$b;
+.class public final Lcotlinx/coroutines/flow/FlowKt__ReduceKt$b;
 .super Ljava/lang/Object;
 .source "Collect.kt"
 
 # interfaces
-.implements Lkotlinx/coroutines/flow/e;
+.implements Lcotlinx/coroutines/flow/e;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/FlowKt__ReduceKt;->c(Lkotlinx/coroutines/flow/d;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/flow/FlowKt__ReduceKt;->c(Lcotlinx/coroutines/flow/d;Lcotlin/coroutines/c;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlinx/coroutines/flow/e<",
+        "Lcotlinx/coroutines/flow/e<",
         "TT;>;"
     }
 .end annotation
@@ -28,7 +28,7 @@
     value = "SMAP\nCollect.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Collect.kt\nkotlinx/coroutines/flow/FlowKt__CollectKt$collect$3\n+ 2 Reduce.kt\nkotlinx/coroutines/flow/FlowKt__ReduceKt\n*L\n1#1,136:1\n131#2,2:137\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,11 +39,11 @@
     }
     d2 = {
         "kotlinx/coroutines/flow/FlowKt__ReduceKt$b",
-        "Lkotlinx/coroutines/flow/e;",
+        "Lcotlinx/coroutines/flow/e;",
         "value",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "emit",
-        "(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "kotlinx-coroutines-core",
         "kotlinx/coroutines/flow/FlowKt__CollectKt$collect$3"
     }
@@ -57,14 +57,14 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/jvm/internal/Ref$ObjectRef;
+.field final synthetic a:Lcotlin/jvm/internal/Ref$ObjectRef;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/internal/Ref$ObjectRef;)V
+.method public constructor <init>(Lcotlin/jvm/internal/Ref$ObjectRef;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$b;->a:Lkotlin/jvm/internal/Ref$ObjectRef;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$b;->a:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -74,9 +74,9 @@
 
 
 # virtual methods
-.method public emit(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -84,16 +84,16 @@
     .end annotation
 
     .line 1
-    iget-object p2, p0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$b;->a:Lkotlin/jvm/internal/Ref$ObjectRef;
+    iget-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$b;->a:Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iput-object p1, p2, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object p1, p2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 2
-    new-instance p1, Lkotlinx/coroutines/flow/internal/AbortFlowException;
+    new-instance p1, Lcotlinx/coroutines/flow/internal/AbortFlowException;
 
-    sget-object p2, Lkotlinx/coroutines/flow/internal/h;->a:Lkotlinx/coroutines/flow/internal/h;
+    sget-object p2, Lcotlinx/coroutines/flow/internal/h;->a:Lcotlinx/coroutines/flow/internal/h;
 
-    invoke-direct {p1, p2}, Lkotlinx/coroutines/flow/internal/AbortFlowException;-><init>(Lkotlinx/coroutines/flow/e;)V
+    invoke-direct {p1, p2}, Lcotlinx/coroutines/flow/internal/AbortFlowException;-><init>(Lcotlinx/coroutines/flow/e;)V
 
     throw p1
 .end method

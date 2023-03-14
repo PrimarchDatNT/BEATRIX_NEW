@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Landroid/view/View;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onClick",
         "(Landroid/view/View;)V",
         "com/commsource/widget/dialog/delegate/VideoPictureTipsDialogDelegate$$special$$inlined$forEachIndexed$lambda$1",
@@ -59,11 +59,11 @@
 
 .field final synthetic g:I
 
-.field final synthetic p:Lkotlin/jvm/internal/Ref$BooleanRef;
+.field final synthetic p:Lcotlin/jvm/internal/Ref$BooleanRef;
 
 
 # direct methods
-.method constructor <init>(ILcom/commsource/widget/dialog/delegate/c;Landroid/widget/LinearLayout;ILcom/commsource/widget/dialog/delegate/a;ILkotlin/jvm/internal/Ref$BooleanRef;Z)V
+.method constructor <init>(ILcom/commsource/widget/dialog/delegate/c;Landroid/widget/LinearLayout;ILcom/commsource/widget/dialog/delegate/a;ILcotlin/jvm/internal/Ref$BooleanRef;Z)V
     .locals 0
 
     iput p1, p0, Lcom/commsource/widget/dialog/delegate/a$a;->a:I
@@ -78,7 +78,7 @@
 
     iput p6, p0, Lcom/commsource/widget/dialog/delegate/a$a;->g:I
 
-    iput-object p7, p0, Lcom/commsource/widget/dialog/delegate/a$a;->p:Lkotlin/jvm/internal/Ref$BooleanRef;
+    iput-object p7, p0, Lcom/commsource/widget/dialog/delegate/a$a;->p:Lcotlin/jvm/internal/Ref$BooleanRef;
 
     iput-boolean p8, p0, Lcom/commsource/widget/dialog/delegate/a$a;->J:Z
 
@@ -99,7 +99,7 @@
     .line 1
     iget-object v0, p0, Lcom/commsource/widget/dialog/delegate/a$a;->b:Lcom/commsource/widget/dialog/delegate/c;
 
-    invoke-virtual {v0}, Lcom/commsource/widget/dialog/delegate/c;->f()Lkotlin/jvm/u/l;
+    invoke-virtual {v0}, Lcom/commsource/widget/dialog/delegate/c;->f()Lcotlin/jvm/u/l;
 
     move-result-object v0
 
@@ -109,7 +109,7 @@
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

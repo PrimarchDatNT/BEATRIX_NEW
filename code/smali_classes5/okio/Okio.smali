@@ -8,7 +8,7 @@
     value = "SMAP\nOkio.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Okio.kt\nokio/Okio\n*L\n1#1,215:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -51,7 +51,7 @@
         "(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Lokio/Sink;",
         "(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Lokio/Source;",
         "Ljava/lang/AssertionError;",
-        "Lkotlin/AssertionError;",
+        "Lcotlin/AssertionError;",
         "isAndroidGetsocknameError",
         "(Ljava/lang/AssertionError;)Z",
         "jvm"
@@ -64,7 +64,7 @@
     }
 .end annotation
 
-.annotation build Lkotlin/jvm/g;
+.annotation build Lcotlin/jvm/g;
     name = "Okio"
 .end annotation
 
@@ -87,7 +87,7 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/io/FileOutputStream;
@@ -105,7 +105,7 @@
 
 .method public static final blackhole()Lokio/Sink;
     .locals 1
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "blackhole"
     .end annotation
 
@@ -131,7 +131,7 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance v0, Lokio/RealBufferedSink;
@@ -152,7 +152,7 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lokio/RealBufferedSource;
@@ -171,7 +171,7 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Ljava/lang/AssertionError;->getCause()Ljava/lang/Throwable;
@@ -194,7 +194,7 @@
 
     const-string v3, "getsockname failed"
 
-    invoke-static {p0, v3, v1, v0, v2}, Lkotlin/text/m;->T2(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
+    invoke-static {p0, v3, v1, v0, v2}, Lcotlin/text/m;->T2(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
 
     move-result p0
 
@@ -224,7 +224,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -255,7 +255,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -263,7 +263,7 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     new-instance v0, Ljava/io/FileOutputStream;
@@ -288,7 +288,7 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lokio/OutputStreamSink;
@@ -319,7 +319,7 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance v0, Lokio/SocketAsyncTimeout;
@@ -335,7 +335,7 @@
 
     const-string v2, "getOutputStream()"
 
-    invoke-static {p0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v1, p0, v0}, Lokio/OutputStreamSink;-><init>(Ljava/io/OutputStream;Lokio/Timeout;)V
 
@@ -371,11 +371,11 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "options"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     array-length v0, p1
@@ -392,7 +392,7 @@
 
     const-string p1, "Files.newOutputStream(this, *options)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p0}, Lokio/Okio;->sink(Ljava/io/OutputStream;)Lokio/Sink;
 
@@ -409,7 +409,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -447,7 +447,7 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     new-instance v0, Ljava/io/FileInputStream;
@@ -472,7 +472,7 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lokio/InputStreamSource;
@@ -503,7 +503,7 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance v0, Lokio/SocketAsyncTimeout;
@@ -519,7 +519,7 @@
 
     const-string v2, "getInputStream()"
 
-    invoke-static {p0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v1, p0, v0}, Lokio/InputStreamSource;-><init>(Ljava/io/InputStream;Lokio/Timeout;)V
 
@@ -555,11 +555,11 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "options"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     array-length v0, p1
@@ -576,7 +576,7 @@
 
     const-string p1, "Files.newInputStream(this, *options)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p0}, Lokio/Okio;->source(Ljava/io/InputStream;)Lokio/Source;
 

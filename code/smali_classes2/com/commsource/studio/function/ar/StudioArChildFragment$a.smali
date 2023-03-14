@@ -33,7 +33,7 @@
     value = "SMAP\nStudioArChildFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StudioArChildFragment.kt\ncom/commsource/studio/function/ar/StudioArChildFragment$onViewCreated$1\n*L\n1#1,127:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -48,7 +48,7 @@
         "kotlin.jvm.PlatformType",
         "",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/util/List;)V"
     }
@@ -139,7 +139,7 @@
 
     aput-object v5, v3, v4
 
-    invoke-static {v3}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v3}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v3
 
@@ -166,7 +166,7 @@
 
     const-string v4, "it[position]"
 
-    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/meitu/template/bean/ArMaterialGroup;
 
@@ -197,7 +197,7 @@
 
     const-string v5, "it.next()"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v4, Lcom/meitu/template/bean/ArMaterial;
 

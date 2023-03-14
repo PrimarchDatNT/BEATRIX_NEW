@@ -22,7 +22,7 @@
     value = "SMAP\nEvenlyFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EvenlyFragment.kt\ncom/commsource/studio/function/EvenlyFragment\n*L\n1#1,158:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -44,7 +44,7 @@
         "Landroid/view/View;",
         "onCreateView",
         "(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "K0",
         "()V",
         "L0",
@@ -134,7 +134,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/function/EvenlyFragment$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/function/EvenlyFragment$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/function/EvenlyFragment;->j0:Lcom/commsource/studio/function/EvenlyFragment$a;
 
@@ -243,7 +243,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/EvenlyFragment;->f0:Lcom/commsource/studio/effect/c;
@@ -456,7 +456,7 @@
     move-object v3, v1
 
     .line 17
-    invoke-virtual/range {v3 .. v8}, Lcom/commsource/studio/processor/BaseEffectProcessor;->u(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/camera/newrender/renderproxy/n;ZLkotlin/jvm/u/a;)V
+    invoke-virtual/range {v3 .. v8}, Lcom/commsource/studio/processor/BaseEffectProcessor;->u(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/camera/newrender/renderproxy/n;ZLcotlin/jvm/u/a;)V
 
     .line 18
     invoke-virtual {p0}, Lcom/commsource/studio/function/EvenlyFragment;->B1()Lcom/commsource/studio/effect/c;
@@ -507,7 +507,7 @@
     const/4 v2, 0x3
 
     .line 20
-    invoke-static {v1, v5, v6, v2, v6}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {v1, v5, v6, v2, v6}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 21
     :cond_1
@@ -565,7 +565,7 @@
 
     const-string v2, "mViewBinding"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ab;->g:Lcom/commsource/widget/XSeekBar;
@@ -714,7 +714,7 @@
 
     const-string p3, "inflater"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/ab;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/ab;
@@ -723,7 +723,7 @@
 
     const-string p3, "FragmentStudioAutoBinding.inflate(inflater)"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/function/EvenlyFragment;->d0:Lcom/commsource/beautyplus/f0/ab;
 
@@ -741,7 +741,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ab;->g:Lcom/commsource/widget/XSeekBar;
@@ -756,7 +756,7 @@
 
     if-nez p1, :cond_2
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/ab;->i(Landroidx/fragment/app/Fragment;)V
@@ -766,14 +766,14 @@
 
     if-nez p1, :cond_3
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ab;->a:Lcom/commsource/studio/component/ContrastComponent;
 
     const-string v0, "mViewBinding.contrast"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
@@ -782,14 +782,14 @@
 
     if-nez p1, :cond_4
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ab;->c:Lcom/commsource/studio/component/PreviewComponent;
 
     const-string v0, "mViewBinding.preview"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
@@ -798,7 +798,7 @@
 
     if-nez p1, :cond_5
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;

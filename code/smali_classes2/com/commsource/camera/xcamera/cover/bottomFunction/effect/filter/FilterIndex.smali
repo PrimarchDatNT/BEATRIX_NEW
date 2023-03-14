@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "collectionIndex",
         "recommendIndex",
         "index",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "setSelectPosition",
         "(III)V",
         "getSelectPosition",
@@ -138,7 +138,7 @@
 
     move-object v0, p0
 
-    invoke-direct/range {v0 .. v9}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v9}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -174,7 +174,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILcotlin/jvm/internal/u;)V
     .locals 5
 
     and-int/lit8 p9, p8, 0x1
@@ -630,7 +630,7 @@
 
     iget-object v2, p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->filter:Lcom/meitu/template/bean/Filter;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -640,7 +640,7 @@
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->categoryInfo:Lcom/commsource/beautyfilter/a;
 
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 

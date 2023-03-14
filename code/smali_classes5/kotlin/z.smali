@@ -1,10 +1,10 @@
-.class Lkotlin/z;
+.class Lcotlin/z;
 .super Ljava/lang/Object;
 .source "LazyJVM.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,19 +15,19 @@
     }
     d2 = {
         "T",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "initializer",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "c",
-        "(Lkotlin/jvm/u/a;)Lkotlin/w;",
-        "Lkotlin/LazyThreadSafetyMode;",
+        "(Lcotlin/jvm/u/a;)Lcotlin/w;",
+        "Lcotlin/LazyThreadSafetyMode;",
         "mode",
         "b",
-        "(Lkotlin/LazyThreadSafetyMode;Lkotlin/jvm/u/a;)Lkotlin/w;",
+        "(Lcotlin/LazyThreadSafetyMode;Lcotlin/jvm/u/a;)Lcotlin/w;",
         "",
         "lock",
         "a",
-        "(Ljava/lang/Object;Lkotlin/jvm/u/a;)Lkotlin/w;",
+        "(Ljava/lang/Object;Lcotlin/jvm/u/a;)Lcotlin/w;",
         "kotlin-stdlib"
     }
     k = 0x5
@@ -49,13 +49,13 @@
     return-void
 .end method
 
-.method public static final a(Ljava/lang/Object;Lkotlin/jvm/u/a;)Lkotlin/w;
+.method public static final a(Ljava/lang/Object;Lcotlin/jvm/u/a;)Lcotlin/w;
     .locals 1
     .param p0    # Ljava/lang/Object;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -65,9 +65,9 @@
             "Ljava/lang/Object;",
             ">(",
             "Ljava/lang/Object;",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/jvm/u/a<",
             "+TT;>;)",
-            "Lkotlin/w<",
+            "Lcotlin/w<",
             "TT;>;"
         }
     .end annotation
@@ -77,23 +77,23 @@
 
     const-string v0, "initializer"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/SynchronizedLazyImpl;
+    new-instance v0, Lcotlin/SynchronizedLazyImpl;
 
-    invoke-direct {v0, p1, p0}, Lkotlin/SynchronizedLazyImpl;-><init>(Lkotlin/jvm/u/a;Ljava/lang/Object;)V
+    invoke-direct {v0, p1, p0}, Lcotlin/SynchronizedLazyImpl;-><init>(Lcotlin/jvm/u/a;Ljava/lang/Object;)V
 
     return-object v0
 .end method
 
-.method public static b(Lkotlin/LazyThreadSafetyMode;Lkotlin/jvm/u/a;)Lkotlin/w;
+.method public static b(Lcotlin/LazyThreadSafetyMode;Lcotlin/jvm/u/a;)Lcotlin/w;
     .locals 2
-    .param p0    # Lkotlin/LazyThreadSafetyMode;
+    .param p0    # Lcotlin/LazyThreadSafetyMode;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -102,10 +102,10 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/LazyThreadSafetyMode;",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/LazyThreadSafetyMode;",
+            "Lcotlin/jvm/u/a<",
             "+TT;>;)",
-            "Lkotlin/w<",
+            "Lcotlin/w<",
             "TT;>;"
         }
     .end annotation
@@ -115,14 +115,14 @@
 
     const-string v0, "mode"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "initializer"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    sget-object v0, Lkotlin/x;->a:[I
+    sget-object v0, Lcotlin/x;->a:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
 
@@ -143,42 +143,42 @@
     if-ne p0, v0, :cond_0
 
     .line 2
-    new-instance p0, Lkotlin/UnsafeLazyImpl;
+    new-instance p0, Lcotlin/UnsafeLazyImpl;
 
-    invoke-direct {p0, p1}, Lkotlin/UnsafeLazyImpl;-><init>(Lkotlin/jvm/u/a;)V
+    invoke-direct {p0, p1}, Lcotlin/UnsafeLazyImpl;-><init>(Lcotlin/jvm/u/a;)V
 
     goto :goto_0
 
     :cond_0
-    new-instance p0, Lkotlin/NoWhenBranchMatchedException;
+    new-instance p0, Lcotlin/NoWhenBranchMatchedException;
 
-    invoke-direct {p0}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+    invoke-direct {p0}, Lcotlin/NoWhenBranchMatchedException;-><init>()V
 
     throw p0
 
     .line 3
     :cond_1
-    new-instance p0, Lkotlin/SafePublicationLazyImpl;
+    new-instance p0, Lcotlin/SafePublicationLazyImpl;
 
-    invoke-direct {p0, p1}, Lkotlin/SafePublicationLazyImpl;-><init>(Lkotlin/jvm/u/a;)V
+    invoke-direct {p0, p1}, Lcotlin/SafePublicationLazyImpl;-><init>(Lcotlin/jvm/u/a;)V
 
     goto :goto_0
 
     .line 4
     :cond_2
-    new-instance p0, Lkotlin/SynchronizedLazyImpl;
+    new-instance p0, Lcotlin/SynchronizedLazyImpl;
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0, v1, v0}, Lkotlin/SynchronizedLazyImpl;-><init>(Lkotlin/jvm/u/a;Ljava/lang/Object;ILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, p1, v0, v1, v0}, Lcotlin/SynchronizedLazyImpl;-><init>(Lcotlin/jvm/u/a;Ljava/lang/Object;ILcotlin/jvm/internal/u;)V
 
     :goto_0
     return-object p0
 .end method
 
-.method public static c(Lkotlin/jvm/u/a;)Lkotlin/w;
+.method public static c(Lcotlin/jvm/u/a;)Lcotlin/w;
     .locals 3
-    .param p0    # Lkotlin/jvm/u/a;
+    .param p0    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -187,9 +187,9 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/jvm/u/a<",
             "+TT;>;)",
-            "Lkotlin/w<",
+            "Lcotlin/w<",
             "TT;>;"
         }
     .end annotation
@@ -199,16 +199,16 @@
 
     const-string v0, "initializer"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/SynchronizedLazyImpl;
+    new-instance v0, Lcotlin/SynchronizedLazyImpl;
 
     const/4 v1, 0x0
 
     const/4 v2, 0x2
 
-    invoke-direct {v0, p0, v1, v2, v1}, Lkotlin/SynchronizedLazyImpl;-><init>(Lkotlin/jvm/u/a;Ljava/lang/Object;ILkotlin/jvm/internal/u;)V
+    invoke-direct {v0, p0, v1, v2, v1}, Lcotlin/SynchronizedLazyImpl;-><init>(Lcotlin/jvm/u/a;Ljava/lang/Object;ILcotlin/jvm/internal/u;)V
 
     return-object v0
 .end method

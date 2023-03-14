@@ -1,4 +1,4 @@
-.class public final Lkotlinx/coroutines/flow/internal/ChildCancelledException;
+.class public final Lcotlinx/coroutines/flow/internal/ChildCancelledException;
 .super Ljava/util/concurrent/CancellationException;
 .source "FlowExceptions.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nFlowExceptions.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FlowExceptions.kt\nkotlinx/coroutines/flow/internal/ChildCancelledException\n*L\n1#1,30:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -18,9 +18,9 @@
         "\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0003\n\u0002\u0008\u0005\u0008\u0000\u0018\u00002\u00060\u0001j\u0002`\u0002B\u0007\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u000f\u0010\u0004\u001a\u00020\u0003H\u0016\u00a2\u0006\u0004\u0008\u0004\u0010\u0005\u00a8\u0006\u0008"
     }
     d2 = {
-        "Lkotlinx/coroutines/flow/internal/ChildCancelledException;",
+        "Lcotlinx/coroutines/flow/internal/ChildCancelledException;",
         "Ljava/util/concurrent/CancellationException;",
-        "Lkotlinx/coroutines/CancellationException;",
+        "Lcotlinx/coroutines/CancellationException;",
         "",
         "fillInStackTrace",
         "()Ljava/lang/Throwable;",
@@ -57,7 +57,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlinx/coroutines/p0;->d()Z
+    invoke-static {}, Lcotlinx/coroutines/p0;->d()Z
 
     move-result v0
 

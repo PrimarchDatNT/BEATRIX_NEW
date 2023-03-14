@@ -1,14 +1,14 @@
-.class public final Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;
-.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.class public final Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;
+.super Lcotlin/coroutines/jvm/internal/SuspendLambda;
 .source "Combine.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/internal/CombineKt;->i(Lkotlinx/coroutines/selects/a;ZLkotlinx/coroutines/channels/y;Lkotlin/jvm/u/a;Lkotlin/jvm/u/p;)V
+    value = Lcotlinx/coroutines/flow/internal/CombineKt;->i(Lcotlinx/coroutines/selects/a;ZLcotlinx/coroutines/channels/y;Lcotlin/jvm/u/a;Lcotlin/jvm/u/p;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,12 +18,12 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Lkotlin/jvm/u/p<",
+        "Lcotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lcotlin/jvm/u/p<",
         "Ljava/lang/Object;",
-        "Lkotlin/coroutines/c<",
+        "Lcotlin/coroutines/c<",
         "-",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;",
         "Ljava/lang/Object;",
         ">;"
@@ -34,7 +34,7 @@
     value = "SMAP\nCombine.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Combine.kt\nkotlinx/coroutines/flow/internal/CombineKt$onReceive$1\n*L\n1#1,142:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -46,7 +46,7 @@
     d2 = {
         "",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
         "<anonymous>"
@@ -59,7 +59,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.flow.internal.CombineKt$onReceive$1"
     f = "Combine.kt"
     i = {
@@ -79,9 +79,9 @@
 
 
 # instance fields
-.field final synthetic $onClosed:Lkotlin/jvm/u/a;
+.field final synthetic $onClosed:Lcotlin/jvm/u/a;
 
-.field final synthetic $onReceive:Lkotlin/jvm/u/p;
+.field final synthetic $onReceive:Lcotlin/jvm/u/p;
 
 .field L$0:Ljava/lang/Object;
 
@@ -91,29 +91,29 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/u/a;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)V
+.method public constructor <init>(Lcotlin/jvm/u/a;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->$onClosed:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->$onClosed:Lcotlin/jvm/u/a;
 
-    iput-object p2, p0, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->$onReceive:Lkotlin/jvm/u/p;
+    iput-object p2, p0, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->$onReceive:Lcotlin/jvm/u/p;
 
     const/4 p1, 0x2
 
-    invoke-direct {p0, p1, p3}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/c;)V
+    invoke-direct {p0, p1, p3}, Lcotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILcotlin/coroutines/c;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+.method public final create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 3
     .param p1    # Ljava/lang/Object;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -121,10 +121,10 @@
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "*>;)",
-            "Lkotlin/coroutines/c<",
-            "Lkotlin/t1;",
+            "Lcotlin/coroutines/c<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -132,15 +132,15 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    new-instance v0, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;
+    new-instance v0, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;
 
-    iget-object v1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->$onClosed:Lkotlin/jvm/u/a;
+    iget-object v1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->$onClosed:Lcotlin/jvm/u/a;
 
-    iget-object v2, p0, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->$onReceive:Lkotlin/jvm/u/p;
+    iget-object v2, p0, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->$onReceive:Lcotlin/jvm/u/p;
 
-    invoke-direct {v0, v1, v2, p2}, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;-><init>(Lkotlin/jvm/u/a;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)V
+    invoke-direct {v0, v1, v2, p2}, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;-><init>(Lcotlin/jvm/u/a;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)V
 
-    iput-object p1, v0, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->p$0:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->p$0:Ljava/lang/Object;
 
     return-object v0
 .end method
@@ -148,17 +148,17 @@
 .method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    check-cast p2, Lkotlin/coroutines/c;
+    check-cast p2, Lcotlin/coroutines/c;
 
-    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-virtual {p0, p1, p2}, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p1
 
-    check-cast p1, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;
+    check-cast p1, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;
 
-    sget-object p2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-virtual {p1, p2}, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -174,12 +174,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 1
-    iget v1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->label:I
+    iget v1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->label:I
 
     const/4 v2, 0x1
 
@@ -187,7 +187,7 @@
 
     if-ne v1, v2, :cond_0
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -203,28 +203,28 @@
 
     .line 3
     :cond_1
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    iget-object p1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->p$0:Ljava/lang/Object;
+    iget-object p1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->p$0:Ljava/lang/Object;
 
     if-nez p1, :cond_2
 
     .line 4
-    iget-object p1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->$onClosed:Lkotlin/jvm/u/a;
+    iget-object p1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->$onClosed:Lcotlin/jvm/u/a;
 
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     goto :goto_0
 
     .line 5
     :cond_2
-    iget-object v1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->$onReceive:Lkotlin/jvm/u/p;
+    iget-object v1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->$onReceive:Lcotlin/jvm/u/p;
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->L$0:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->L$0:Ljava/lang/Object;
 
-    iput v2, p0, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->label:I
+    iput v2, p0, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->label:I
 
-    invoke-interface {v1, p1, p0}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1, p0}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -235,7 +235,7 @@
     .line 6
     :cond_3
     :goto_0
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method
@@ -249,38 +249,38 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    iget-object p1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->p$0:Ljava/lang/Object;
+    iget-object p1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->p$0:Ljava/lang/Object;
 
     if-nez p1, :cond_0
 
     .line 1
-    iget-object p1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->$onClosed:Lkotlin/jvm/u/a;
+    iget-object p1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->$onClosed:Lcotlin/jvm/u/a;
 
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     goto :goto_0
 
     .line 2
     :cond_0
-    iget-object v0, p0, Lkotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->$onReceive:Lkotlin/jvm/u/p;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/internal/CombineKt$onReceive$1;->$onReceive:Lcotlin/jvm/u/p;
 
     const/4 v1, 0x0
 
-    invoke-static {v1}, Lkotlin/jvm/internal/c0;->e(I)V
+    invoke-static {v1}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    invoke-interface {v0, p1, p0}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p0}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 p1, 0x2
 
-    invoke-static {p1}, Lkotlin/jvm/internal/c0;->e(I)V
+    invoke-static {p1}, Lcotlin/jvm/internal/c0;->e(I)V
 
     const/4 p1, 0x1
 
-    invoke-static {p1}, Lkotlin/jvm/internal/c0;->e(I)V
+    invoke-static {p1}, Lcotlin/jvm/internal/c0;->e(I)V
 
     .line 3
     :goto_0
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method

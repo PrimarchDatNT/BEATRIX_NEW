@@ -8,7 +8,7 @@
     value = "SMAP\nDarkCircleProxy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DarkCircleProxy.kt\ncom/commsource/studio/render/DarkCircleProxy\n*L\n1#1,32:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/studio/r0/k;",
         "Lcom/commsource/studio/r0/x;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "h",
         "()V",
         "",
@@ -60,7 +60,7 @@
 
     const-string v0, "configPath"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/r0/x;-><init>(Ljava/lang/String;)V

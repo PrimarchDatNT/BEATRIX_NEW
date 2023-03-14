@@ -1,9 +1,9 @@
-.class public final synthetic Lkotlinx/coroutines/o0;
+.class public final synthetic Lcotlinx/coroutines/o0;
 .super Ljava/lang/Object;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
 .method static synthetic constructor <clinit>()V
     .locals 10
 
-    invoke-static {}, Lkotlinx/coroutines/CoroutineStart;->values()[Lkotlinx/coroutines/CoroutineStart;
+    invoke-static {}, Lcotlinx/coroutines/CoroutineStart;->values()[Lcotlinx/coroutines/CoroutineStart;
 
     move-result-object v0
 
@@ -38,9 +38,9 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkotlinx/coroutines/o0;->a:[I
+    sput-object v0, Lcotlinx/coroutines/o0;->a:[I
 
-    sget-object v1, Lkotlinx/coroutines/CoroutineStart;->DEFAULT:Lkotlinx/coroutines/CoroutineStart;
+    sget-object v1, Lcotlinx/coroutines/CoroutineStart;->DEFAULT:Lcotlinx/coroutines/CoroutineStart;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -50,7 +50,7 @@
 
     aput v3, v0, v2
 
-    sget-object v2, Lkotlinx/coroutines/CoroutineStart;->ATOMIC:Lkotlinx/coroutines/CoroutineStart;
+    sget-object v2, Lcotlinx/coroutines/CoroutineStart;->ATOMIC:Lcotlinx/coroutines/CoroutineStart;
 
     invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
@@ -60,7 +60,7 @@
 
     aput v5, v0, v4
 
-    sget-object v4, Lkotlinx/coroutines/CoroutineStart;->UNDISPATCHED:Lkotlinx/coroutines/CoroutineStart;
+    sget-object v4, Lcotlinx/coroutines/CoroutineStart;->UNDISPATCHED:Lcotlinx/coroutines/CoroutineStart;
 
     invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
 
@@ -70,7 +70,7 @@
 
     aput v7, v0, v6
 
-    sget-object v6, Lkotlinx/coroutines/CoroutineStart;->LAZY:Lkotlinx/coroutines/CoroutineStart;
+    sget-object v6, Lcotlinx/coroutines/CoroutineStart;->LAZY:Lcotlinx/coroutines/CoroutineStart;
 
     invoke-virtual {v6}, Ljava/lang/Enum;->ordinal()I
 
@@ -80,7 +80,7 @@
 
     aput v9, v0, v8
 
-    invoke-static {}, Lkotlinx/coroutines/CoroutineStart;->values()[Lkotlinx/coroutines/CoroutineStart;
+    invoke-static {}, Lcotlinx/coroutines/CoroutineStart;->values()[Lcotlinx/coroutines/CoroutineStart;
 
     move-result-object v0
 
@@ -88,7 +88,7 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkotlinx/coroutines/o0;->b:[I
+    sput-object v0, Lcotlinx/coroutines/o0;->b:[I
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

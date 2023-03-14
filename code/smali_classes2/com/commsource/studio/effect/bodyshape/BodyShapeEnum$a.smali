@@ -17,7 +17,7 @@
     value = "SMAP\nBodyShapeEnum.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BodyShapeEnum.kt\ncom/commsource/studio/effect/bodyshape/BodyShapeEnum$Companion\n*L\n1#1,122:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -57,7 +57,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -114,7 +114,7 @@
 
     move-result-object v6
 
-    invoke-static {v6, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v6, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v6
 

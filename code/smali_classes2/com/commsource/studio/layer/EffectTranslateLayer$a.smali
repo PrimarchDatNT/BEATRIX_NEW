@@ -26,7 +26,7 @@
     value = "SMAP\nEffectTranslateLayer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EffectTranslateLayer.kt\ncom/commsource/studio/layer/EffectTranslateLayer$start$1\n*L\n1#1,189:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -43,7 +43,7 @@
         "resource",
         "Lcom/bumptech/glide/request/k/f;",
         "transition",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "m",
         "(Landroid/graphics/drawable/Drawable;Lcom/bumptech/glide/request/k/f;)V",
         "errorDrawable",
@@ -165,7 +165,7 @@
 
     const-string v0, "resource"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/EffectTranslateLayer$a;->J:Lcom/commsource/studio/layer/EffectTranslateLayer;

@@ -11,7 +11,7 @@
     value = "SMAP\nGzipSource.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GzipSource.kt\nokio/GzipSource\n+ 2 RealBufferedSource.kt\nokio/RealBufferedSource\n+ 3 GzipSource.kt\nokio/-GzipSourceExtensions\n+ 4 -Util.kt\nokio/-Util\n*L\n1#1,220:1\n32#2:221\n32#2:223\n32#2:225\n32#2:226\n32#2:227\n32#2:229\n32#2:231\n202#3:222\n202#3:224\n202#3:228\n202#3:230\n75#4:232\n*E\n*S KotlinDebug\n*F\n+ 1 GzipSource.kt\nokio/GzipSource\n*L\n105#1:221\n107#1:223\n119#1:225\n120#1:226\n122#1:227\n133#1:229\n144#1:231\n106#1:222\n117#1:224\n130#1:228\n141#1:230\n187#1:232\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -23,7 +23,7 @@
     d2 = {
         "Lokio/GzipSource;",
         "Lokio/Source;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "consumeHeader",
         "()V",
         "consumeTrailer",
@@ -98,7 +98,7 @@
 
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -183,7 +183,7 @@
 
     const-string p2, "java.lang.String.format(this, *args)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
@@ -579,7 +579,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 2
     :cond_0
@@ -607,7 +607,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     goto :goto_0
 
@@ -658,7 +658,7 @@
 
     if-nez p1, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     move-wide p2, v0
@@ -701,7 +701,7 @@
 
     const-string v0, "sink"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v0, 0x0
 

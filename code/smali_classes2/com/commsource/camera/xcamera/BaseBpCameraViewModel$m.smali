@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "Lcom/commsource/camera/x0/d;",
         "Lcom/meitu/library/camera/q/g;",
         "server",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "Q0",
         "(Lcom/meitu/library/camera/q/g;)V",
         "Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;",

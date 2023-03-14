@@ -1,4 +1,4 @@
-.class public final Lkotlin/io/TextStreamsKt;
+.class public final Lcotlin/io/TextStreamsKt;
 .super Ljava/lang/Object;
 .source "ReadWrite.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nReadWrite.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ReadWrite.kt\nkotlin/io/TextStreamsKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 _Sequences.kt\nkotlin/sequences/SequencesKt___SequencesKt\n*L\n1#1,152:1\n53#1:153\n1#2:154\n1#2:157\n1256#3,2:155\n*E\n*S KotlinDebug\n*F\n+ 1 ReadWrite.kt\nkotlin/io/TextStreamsKt\n*L\n33#1:153\n33#1:154\n33#1,2:155\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,26 +28,26 @@
         "Ljava/io/BufferedWriter;",
         "b",
         "(Ljava/io/Writer;I)Ljava/io/BufferedWriter;",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "action",
         "g",
-        "(Ljava/io/Reader;Lkotlin/jvm/u/l;)V",
+        "(Ljava/io/Reader;Lcotlin/jvm/u/l;)V",
         "",
         "j",
         "(Ljava/io/Reader;)Ljava/util/List;",
         "T",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "block",
         "Requires newer compiler version to be inlined correctly.",
         "o",
-        "(Ljava/io/Reader;Lkotlin/jvm/u/l;)Ljava/lang/Object;",
+        "(Ljava/io/Reader;Lcotlin/jvm/u/l;)Ljava/lang/Object;",
         "Ljava/io/StringReader;",
         "n",
         "(Ljava/lang/String;)Ljava/io/StringReader;",
         "h",
-        "(Ljava/io/BufferedReader;)Lkotlin/sequences/m;",
+        "(Ljava/io/BufferedReader;)Lcotlin/sequences/m;",
         "k",
         "(Ljava/io/Reader;)Ljava/lang/String;",
         "out",
@@ -72,7 +72,7 @@
     }
 .end annotation
 
-.annotation build Lkotlin/jvm/g;
+.annotation build Lcotlin/jvm/g;
     name = "TextStreamsKt"
 .end annotation
 
@@ -80,7 +80,7 @@
 # direct methods
 .method private static final a(Ljava/io/Reader;I)Ljava/io/BufferedReader;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -105,7 +105,7 @@
 
 .method private static final b(Ljava/io/Writer;I)Ljava/io/BufferedWriter;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -201,11 +201,11 @@
 
     const-string v0, "$this$copyTo"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "out"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-array p2, p2, [C
@@ -251,20 +251,20 @@
 
     .line 1
     :cond_0
-    invoke-static {p0, p1, p2}, Lkotlin/io/TextStreamsKt;->e(Ljava/io/Reader;Ljava/io/Writer;I)J
+    invoke-static {p0, p1, p2}, Lcotlin/io/TextStreamsKt;->e(Ljava/io/Reader;Ljava/io/Writer;I)J
 
     move-result-wide p0
 
     return-wide p0
 .end method
 
-.method public static final g(Ljava/io/Reader;Lkotlin/jvm/u/l;)V
+.method public static final g(Ljava/io/Reader;Lcotlin/jvm/u/l;)V
     .locals 3
     .param p0    # Ljava/io/Reader;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -272,21 +272,21 @@
         value = {
             "(",
             "Ljava/io/Reader;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/String;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "$this$forEachLine"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "action"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     instance-of v0, p0, Ljava/io/BufferedReader;
@@ -310,12 +310,12 @@
     const/4 v0, 0x0
 
     :try_start_0
-    invoke-static {p0}, Lkotlin/io/TextStreamsKt;->h(Ljava/io/BufferedReader;)Lkotlin/sequences/m;
+    invoke-static {p0}, Lcotlin/io/TextStreamsKt;->h(Ljava/io/BufferedReader;)Lcotlin/sequences/m;
 
     move-result-object v1
 
     .line 2
-    invoke-interface {v1}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
@@ -330,18 +330,18 @@
 
     move-result-object v2
 
-    invoke-interface {p1, v2}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
     .line 3
     :cond_1
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 4
-    invoke-static {p0, v0}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p0, v0}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     return-void
 
@@ -356,12 +356,12 @@
     :catchall_1
     move-exception v0
 
-    invoke-static {p0, p1}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p0, p1}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     throw v0
 .end method
 
-.method public static final h(Ljava/io/BufferedReader;)Lkotlin/sequences/m;
+.method public static final h(Ljava/io/BufferedReader;)Lcotlin/sequences/m;
     .locals 1
     .param p0    # Ljava/io/BufferedReader;
         .annotation build Ln/e/a/d;
@@ -372,7 +372,7 @@
             "(",
             "Ljava/io/BufferedReader;",
             ")",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Ljava/lang/String;",
             ">;"
         }
@@ -383,14 +383,14 @@
 
     const-string v0, "$this$lineSequence"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/io/n;
+    new-instance v0, Lcotlin/io/n;
 
-    invoke-direct {v0, p0}, Lkotlin/io/n;-><init>(Ljava/io/BufferedReader;)V
+    invoke-direct {v0, p0}, Lcotlin/io/n;-><init>(Ljava/io/BufferedReader;)V
 
-    invoke-static {v0}, Lkotlin/sequences/p;->i(Lkotlin/sequences/m;)Lkotlin/sequences/m;
+    invoke-static {v0}, Lcotlin/sequences/p;->i(Lcotlin/sequences/m;)Lcotlin/sequences/m;
 
     move-result-object p0
 
@@ -408,7 +408,7 @@
 
     const-string v0, "$this$readBytes"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Ljava/net/URL;->openStream()Ljava/io/InputStream;
@@ -418,9 +418,9 @@
     :try_start_0
     const-string v0, "it"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {p0}, Lkotlin/io/a;->p(Ljava/io/InputStream;)[B
+    invoke-static {p0}, Lcotlin/io/a;->p(Ljava/io/InputStream;)[B
 
     move-result-object v0
     :try_end_0
@@ -428,7 +428,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {p0, v1}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p0, v1}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     return-object v0
 
@@ -443,7 +443,7 @@
     :catchall_1
     move-exception v1
 
-    invoke-static {p0, v0}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p0, v0}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     throw v1
 .end method
@@ -470,7 +470,7 @@
 
     const-string v0, "$this$readLines"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/ArrayList;
@@ -478,11 +478,11 @@
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 2
-    new-instance v1, Lkotlin/io/TextStreamsKt$readLines$1;
+    new-instance v1, Lcotlin/io/TextStreamsKt$readLines$1;
 
-    invoke-direct {v1, v0}, Lkotlin/io/TextStreamsKt$readLines$1;-><init>(Ljava/util/ArrayList;)V
+    invoke-direct {v1, v0}, Lcotlin/io/TextStreamsKt$readLines$1;-><init>(Ljava/util/ArrayList;)V
 
-    invoke-static {p0, v1}, Lkotlin/io/TextStreamsKt;->g(Ljava/io/Reader;Lkotlin/jvm/u/l;)V
+    invoke-static {p0, v1}, Lcotlin/io/TextStreamsKt;->g(Ljava/io/Reader;Lcotlin/jvm/u/l;)V
 
     return-object v0
 .end method
@@ -498,7 +498,7 @@
 
     const-string v0, "$this$readText"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/io/StringWriter;
@@ -512,7 +512,7 @@
     const/4 v3, 0x0
 
     .line 2
-    invoke-static {p0, v0, v1, v2, v3}, Lkotlin/io/TextStreamsKt;->f(Ljava/io/Reader;Ljava/io/Writer;IILjava/lang/Object;)J
+    invoke-static {p0, v0, v1, v2, v3}, Lcotlin/io/TextStreamsKt;->f(Ljava/io/Reader;Ljava/io/Writer;IILjava/lang/Object;)J
 
     .line 3
     invoke-virtual {v0}, Ljava/io/StringWriter;->toString()Ljava/lang/String;
@@ -521,18 +521,18 @@
 
     const-string v0, "buffer.toString()"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final l(Ljava/net/URL;Ljava/nio/charset/Charset;)Ljava/lang/String;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lkotlin/io/TextStreamsKt;->i(Ljava/net/URL;)[B
+    invoke-static {p0}, Lcotlin/io/TextStreamsKt;->i(Ljava/net/URL;)[B
 
     move-result-object p0
 
@@ -551,10 +551,10 @@
     if-eqz p2, :cond_0
 
     .line 1
-    sget-object p1, Lkotlin/text/d;->a:Ljava/nio/charset/Charset;
+    sget-object p1, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     :cond_0
-    invoke-static {p0}, Lkotlin/io/TextStreamsKt;->i(Ljava/net/URL;)[B
+    invoke-static {p0}, Lcotlin/io/TextStreamsKt;->i(Ljava/net/URL;)[B
 
     move-result-object p0
 
@@ -567,7 +567,7 @@
 
 .method private static final n(Ljava/lang/String;)Ljava/io/StringReader;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -578,13 +578,13 @@
     return-object v0
 .end method
 
-.method public static final o(Ljava/io/Reader;Lkotlin/jvm/u/l;)Ljava/lang/Object;
+.method public static final o(Ljava/io/Reader;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 4
     .param p0    # Ljava/io/Reader;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -594,9 +594,9 @@
             "Ljava/lang/Object;",
             ">(",
             "Ljava/io/Reader;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Ljava/lang/String;",
             ">;+TT;>;)TT;"
         }
@@ -604,11 +604,11 @@
 
     const-string v0, "$this$useLines"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "block"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     instance-of v0, p0, Ljava/io/BufferedReader;
@@ -636,25 +636,25 @@
     const/4 v2, 0x1
 
     :try_start_0
-    invoke-static {p0}, Lkotlin/io/TextStreamsKt;->h(Ljava/io/BufferedReader;)Lkotlin/sequences/m;
+    invoke-static {p0}, Lcotlin/io/TextStreamsKt;->h(Ljava/io/BufferedReader;)Lcotlin/sequences/m;
 
     move-result-object v3
 
-    invoke-interface {p1, v3}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v2}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    invoke-static {v2, v2, v1}, Lkotlin/internal/l;->a(III)Z
+    invoke-static {v2, v2, v1}, Lcotlin/internal/l;->a(III)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    invoke-static {p0, v0}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p0, v0}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     goto :goto_1
 
@@ -662,7 +662,7 @@
     invoke-interface {p0}, Ljava/io/Closeable;->close()V
 
     :goto_1
-    invoke-static {v2}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v2}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object p1
 
@@ -677,9 +677,9 @@
     :catchall_1
     move-exception v0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v2}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    invoke-static {v2, v2, v1}, Lkotlin/internal/l;->a(III)Z
+    invoke-static {v2, v2, v1}, Lcotlin/internal/l;->a(III)Z
 
     move-result v1
 
@@ -693,11 +693,11 @@
     goto :goto_2
 
     :cond_2
-    invoke-static {p0, p1}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p0, p1}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     :catchall_2
     :goto_2
-    invoke-static {v2}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v2}, Lcotlin/jvm/internal/c0;->c(I)V
 
     throw v0
 .end method

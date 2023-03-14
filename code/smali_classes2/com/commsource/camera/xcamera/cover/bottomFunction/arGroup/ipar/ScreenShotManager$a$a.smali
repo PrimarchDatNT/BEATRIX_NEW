@@ -17,7 +17,7 @@
     value = "SMAP\nScreenShotManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ScreenShotManager.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager$MediaContentObserver$handleMediaContentChange$1\n*L\n1#1,156:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
     d2 = {
         "com/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager$a$a",
         "Lcom/commsource/util/u2/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "app_googleplayRelease"
@@ -101,7 +101,7 @@
 
     const-string v4, "AppContext.getContext()"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -161,7 +161,7 @@
 
     const-string v5, "Locale.ROOT"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0, v4}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
 
@@ -169,7 +169,7 @@
 
     const-string v4, "(this as java.lang.String).toLowerCase(locale)"
 
-    invoke-static {v0, v4}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v4, "screen"
 
@@ -177,7 +177,7 @@
 
     const/4 v6, 0x2
 
-    invoke-static {v0, v4, v5, v6, v2}, Lkotlin/text/m;->T2(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
+    invoke-static {v0, v4, v5, v6, v2}, Lcotlin/text/m;->T2(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
 
     move-result v0
 

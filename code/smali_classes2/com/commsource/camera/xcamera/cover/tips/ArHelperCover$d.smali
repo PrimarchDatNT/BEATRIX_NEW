@@ -32,7 +32,7 @@
     value = "SMAP\nArHelperCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ArHelperCover.kt\ncom/commsource/camera/xcamera/cover/tips/ArHelperCover$onLazyCreate$1\n*L\n1#1,251:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "Lcom/meitu/template/bean/ArMaterial;",
         "kotlin.jvm.PlatformType",
         "arMaterial",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/meitu/template/bean/ArMaterial;)V"
     }
@@ -124,7 +124,7 @@
 
     const-string v3, "arMaterial.arHelpUrl"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
 
@@ -198,7 +198,7 @@
 
     const-string v5, "ArMaterialUtil.getLocalA\u2026getContext(), arMaterial)"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1, v4}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->G(Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;Ljava/lang/String;)Ljava/lang/String;
 

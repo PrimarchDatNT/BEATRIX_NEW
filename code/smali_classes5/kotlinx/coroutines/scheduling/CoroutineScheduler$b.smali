@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;
+.class public final Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;
 .super Ljava/lang/Thread;
 .source "CoroutineScheduler.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    value = Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,7 +17,7 @@
     value = "SMAP\nCoroutineScheduler.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CoroutineScheduler.kt\nkotlinx/coroutines/scheduling/CoroutineScheduler$Worker\n+ 2 CoroutineScheduler.kt\nkotlinx/coroutines/scheduling/CoroutineScheduler\n+ 3 AtomicFU.common.kt\nkotlinx/atomicfu/AtomicFU_commonKt\n+ 4 Tasks.kt\nkotlinx/coroutines/scheduling/Task\n+ 5 Synchronized.kt\nkotlinx/coroutines/internal/SynchronizedKt\n*L\n1#1,954:1\n288#2:955\n289#2:958\n276#2:959\n290#2,4:960\n295#2:964\n285#2,2:966\n280#2:969\n274#2:970\n387#3,2:956\n82#4:965\n20#5:968\n*E\n*S KotlinDebug\n*F\n+ 1 CoroutineScheduler.kt\nkotlinx/coroutines/scheduling/CoroutineScheduler$Worker\n*L\n646#1:955\n646#1:958\n646#1:959\n646#1,4:960\n660#1:964\n752#1,2:966\n796#1:969\n796#1:970\n646#1,2:956\n735#1:965\n796#1:968\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,15 +32,15 @@
         "",
         "r",
         "()Z",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "o",
         "()V",
         "s",
         "k",
-        "Lkotlinx/coroutines/scheduling/h;",
+        "Lcotlinx/coroutines/scheduling/h;",
         "task",
         "c",
-        "(Lkotlinx/coroutines/scheduling/h;)V",
+        "(Lcotlinx/coroutines/scheduling/h;)V",
         "",
         "taskMode",
         "b",
@@ -52,21 +52,21 @@
         "j",
         "scanLocalQueue",
         "d",
-        "(Z)Lkotlinx/coroutines/scheduling/h;",
+        "(Z)Lcotlinx/coroutines/scheduling/h;",
         "n",
-        "()Lkotlinx/coroutines/scheduling/h;",
+        "()Lcotlinx/coroutines/scheduling/h;",
         "blockingOnly",
         "u",
-        "Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;",
+        "Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;",
         "newState",
         "t",
-        "(Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;)Z",
+        "(Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;)Z",
         "run",
         "upperBound",
         "l",
         "(I)I",
         "e",
-        "Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;",
+        "Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;",
         "state",
         "",
         "nextParkedWorker",
@@ -75,12 +75,12 @@
         "()Ljava/lang/Object;",
         "q",
         "(Ljava/lang/Object;)V",
-        "Lkotlinx/coroutines/scheduling/CoroutineScheduler;",
+        "Lcotlinx/coroutines/scheduling/CoroutineScheduler;",
         "i",
-        "()Lkotlinx/coroutines/scheduling/CoroutineScheduler;",
+        "()Lcotlinx/coroutines/scheduling/CoroutineScheduler;",
         "scheduler",
-        "Lkotlinx/coroutines/scheduling/m;",
-        "Lkotlinx/coroutines/scheduling/m;",
+        "Lcotlinx/coroutines/scheduling/m;",
+        "Lcotlinx/coroutines/scheduling/m;",
         "localQueue",
         "",
         "J",
@@ -97,8 +97,8 @@
         "Z",
         "mayHaveLocalTasks",
         "<init>",
-        "(Lkotlinx/coroutines/scheduling/CoroutineScheduler;)V",
-        "(Lkotlinx/coroutines/scheduling/CoroutineScheduler;I)V",
+        "(Lcotlinx/coroutines/scheduling/CoroutineScheduler;)V",
+        "(Lcotlinx/coroutines/scheduling/CoroutineScheduler;I)V",
         "kotlinx-coroutines-core"
     }
     k = 0x1
@@ -115,16 +115,16 @@
 
 
 # instance fields
-.field public final a:Lkotlinx/coroutines/scheduling/m;
-    .annotation build Lkotlin/jvm/d;
+.field public final a:Lcotlinx/coroutines/scheduling/m;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field public b:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
-    .annotation build Lkotlin/jvm/d;
+.field public b:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -138,7 +138,7 @@
 .field private f:I
 
 .field public g:Z
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 .end field
 
@@ -149,7 +149,7 @@
     .end annotation
 .end field
 
-.field final synthetic p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+.field final synthetic p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
 .field volatile workerCtl:I
     .annotation build Ln/e/a/d;
@@ -161,7 +161,7 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    const-class v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;
+    const-class v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;
 
     const-string v1, "workerCtl"
 
@@ -169,12 +169,12 @@
 
     move-result-object v0
 
-    sput-object v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->J:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
+    sput-object v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->J:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
     return-void
 .end method
 
-.method private constructor <init>(Lkotlinx/coroutines/scheduling/CoroutineScheduler;)V
+.method private constructor <init>(Lcotlinx/coroutines/scheduling/CoroutineScheduler;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -183,7 +183,7 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iput-object p1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
 
@@ -193,40 +193,40 @@
     invoke-virtual {p0, p1}, Ljava/lang/Thread;->setDaemon(Z)V
 
     .line 3
-    new-instance p1, Lkotlinx/coroutines/scheduling/m;
+    new-instance p1, Lcotlinx/coroutines/scheduling/m;
 
-    invoke-direct {p1}, Lkotlinx/coroutines/scheduling/m;-><init>()V
+    invoke-direct {p1}, Lcotlinx/coroutines/scheduling/m;-><init>()V
 
-    iput-object p1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lkotlinx/coroutines/scheduling/m;
+    iput-object p1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lcotlinx/coroutines/scheduling/m;
 
     .line 4
-    sget-object p1, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->DORMANT:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object p1, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->DORMANT:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
-    iput-object p1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    iput-object p1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     const/4 p1, 0x0
 
     .line 5
-    iput p1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->workerCtl:I
+    iput p1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->workerCtl:I
 
     .line 6
-    sget-object p1, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->M:Lkotlinx/coroutines/internal/c0;
+    sget-object p1, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->M:Lcotlinx/coroutines/internal/c0;
 
-    iput-object p1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->nextParkedWorker:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->nextParkedWorker:Ljava/lang/Object;
 
     .line 7
-    sget-object p1, Lkotlin/random/e;->b:Lkotlin/random/e$a;
+    sget-object p1, Lcotlin/random/e;->b:Lcotlin/random/e$a;
 
-    invoke-virtual {p1}, Lkotlin/random/e$a;->l()I
+    invoke-virtual {p1}, Lcotlin/random/e$a;->l()I
 
     move-result p1
 
-    iput p1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->f:I
+    iput p1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->f:I
 
     return-void
 .end method
 
-.method public constructor <init>(Lkotlinx/coroutines/scheduling/CoroutineScheduler;I)V
+.method public constructor <init>(Lcotlinx/coroutines/scheduling/CoroutineScheduler;I)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -235,10 +235,10 @@
     .end annotation
 
     .line 8
-    invoke-direct {p0, p1}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;-><init>(Lkotlinx/coroutines/scheduling/CoroutineScheduler;)V
+    invoke-direct {p0, p1}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;-><init>(Lcotlinx/coroutines/scheduling/CoroutineScheduler;)V
 
     .line 9
-    invoke-virtual {p0, p2}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p(I)V
+    invoke-virtual {p0, p2}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p(I)V
 
     return-void
 .end method
@@ -252,31 +252,31 @@
 
     .line 1
     :cond_0
-    iget-object p1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object p1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
     .line 2
-    sget-object v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->K:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
+    sget-object v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->K:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
     const-wide/32 v1, -0x200000
 
     invoke-virtual {v0, p1, v1, v2}, Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;->addAndGet(Ljava/lang/Object;J)J
 
     .line 3
-    iget-object p1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    iget-object p1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     .line 4
-    sget-object v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->TERMINATED:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->TERMINATED:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     if-eq p1, v0, :cond_4
 
     .line 5
-    invoke-static {}, Lkotlinx/coroutines/p0;->b()Z
+    invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    sget-object v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->BLOCKING:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->BLOCKING:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     if-ne p1, v0, :cond_1
 
@@ -302,9 +302,9 @@
     .line 6
     :cond_3
     :goto_1
-    sget-object p1, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->DORMANT:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object p1, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->DORMANT:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
-    iput-object p1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    iput-object p1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     :cond_4
     return-void
@@ -319,51 +319,51 @@
 
     .line 1
     :cond_0
-    sget-object p1, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->BLOCKING:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object p1, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->BLOCKING:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->t(Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;)Z
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->t(Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;)Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
     .line 2
-    iget-object p1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object p1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    invoke-virtual {p1}, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->E()V
+    invoke-virtual {p1}, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->E()V
 
     :cond_1
     return-void
 .end method
 
-.method private final c(Lkotlinx/coroutines/scheduling/h;)V
+.method private final c(Lcotlinx/coroutines/scheduling/h;)V
     .locals 2
 
     .line 1
-    iget-object v0, p1, Lkotlinx/coroutines/scheduling/h;->b:Lkotlinx/coroutines/scheduling/i;
+    iget-object v0, p1, Lcotlinx/coroutines/scheduling/h;->b:Lcotlinx/coroutines/scheduling/i;
 
-    invoke-interface {v0}, Lkotlinx/coroutines/scheduling/i;->k()I
+    invoke-interface {v0}, Lcotlinx/coroutines/scheduling/i;->k()I
 
     move-result v0
 
     .line 2
-    invoke-direct {p0, v0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->j(I)V
+    invoke-direct {p0, v0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->j(I)V
 
     .line 3
-    invoke-direct {p0, v0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->b(I)V
+    invoke-direct {p0, v0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->b(I)V
 
     .line 4
-    iget-object v1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    invoke-virtual {v1, p1}, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->B(Lkotlinx/coroutines/scheduling/h;)V
+    invoke-virtual {v1, p1}, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->B(Lcotlinx/coroutines/scheduling/h;)V
 
     .line 5
-    invoke-direct {p0, v0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->a(I)V
+    invoke-direct {p0, v0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->a(I)V
 
     return-void
 .end method
 
-.method private final d(Z)Lkotlinx/coroutines/scheduling/h;
+.method private final d(Z)Lcotlinx/coroutines/scheduling/h;
     .locals 2
 
     const/4 v0, 0x0
@@ -371,13 +371,13 @@
     if-eqz p1, :cond_3
 
     .line 1
-    iget-object p1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object p1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    iget p1, p1, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->d:I
+    iget p1, p1, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->d:I
 
     mul-int/lit8 p1, p1, 0x2
 
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->l(I)I
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->l(I)I
 
     move-result p1
 
@@ -394,7 +394,7 @@
     if-eqz p1, :cond_1
 
     .line 2
-    invoke-direct {p0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->n()Lkotlinx/coroutines/scheduling/h;
+    invoke-direct {p0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->n()Lcotlinx/coroutines/scheduling/h;
 
     move-result-object v1
 
@@ -404,9 +404,9 @@
 
     .line 3
     :cond_1
-    iget-object v1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lkotlinx/coroutines/scheduling/m;
+    iget-object v1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lcotlinx/coroutines/scheduling/m;
 
-    invoke-virtual {v1}, Lkotlinx/coroutines/scheduling/m;->h()Lkotlinx/coroutines/scheduling/h;
+    invoke-virtual {v1}, Lcotlinx/coroutines/scheduling/m;->h()Lcotlinx/coroutines/scheduling/h;
 
     move-result-object v1
 
@@ -418,7 +418,7 @@
     if-nez p1, :cond_4
 
     .line 4
-    invoke-direct {p0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->n()Lkotlinx/coroutines/scheduling/h;
+    invoke-direct {p0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->n()Lcotlinx/coroutines/scheduling/h;
 
     move-result-object p1
 
@@ -428,7 +428,7 @@
 
     .line 5
     :cond_3
-    invoke-direct {p0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->n()Lkotlinx/coroutines/scheduling/h;
+    invoke-direct {p0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->n()Lcotlinx/coroutines/scheduling/h;
 
     move-result-object p1
 
@@ -438,7 +438,7 @@
 
     .line 6
     :cond_4
-    invoke-direct {p0, v0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->u(Z)Lkotlinx/coroutines/scheduling/h;
+    invoke-direct {p0, v0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->u(Z)Lcotlinx/coroutines/scheduling/h;
 
     move-result-object p1
 
@@ -451,17 +451,17 @@
     const-wide/16 v0, 0x0
 
     .line 1
-    iput-wide v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->c:J
+    iput-wide v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->c:J
 
     .line 2
-    iget-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
-    sget-object v1, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->PARKING:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object v1, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->PARKING:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     if-ne v0, v1, :cond_3
 
     .line 3
-    invoke-static {}, Lkotlinx/coroutines/p0;->b()Z
+    invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v0
 
@@ -491,9 +491,9 @@
     .line 4
     :cond_2
     :goto_1
-    sget-object p1, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->BLOCKING:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object p1, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->BLOCKING:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
-    iput-object p1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    iput-object p1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     :cond_3
     return-void
@@ -503,9 +503,9 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->nextParkedWorker:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->nextParkedWorker:Ljava/lang/Object;
 
-    sget-object v1, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->M:Lkotlinx/coroutines/internal/c0;
+    sget-object v1, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->M:Lcotlinx/coroutines/internal/c0;
 
     if-eq v0, v1, :cond_0
 
@@ -524,7 +524,7 @@
     .locals 6
 
     .line 1
-    iget-wide v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->c:J
+    iget-wide v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->c:J
 
     const-wide/16 v2, 0x0
 
@@ -536,19 +536,19 @@
 
     move-result-wide v0
 
-    iget-object v4, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v4, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    iget-wide v4, v4, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->g:J
+    iget-wide v4, v4, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->g:J
 
     add-long/2addr v0, v4
 
-    iput-wide v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->c:J
+    iput-wide v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->c:J
 
     .line 2
     :cond_0
-    iget-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    iget-wide v0, v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->g:J
+    iget-wide v0, v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->g:J
 
     invoke-static {v0, v1}, Ljava/util/concurrent/locks/LockSupport;->parkNanos(J)V
 
@@ -557,7 +557,7 @@
 
     move-result-wide v0
 
-    iget-wide v4, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->c:J
+    iget-wide v4, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->c:J
 
     sub-long/2addr v0, v4
 
@@ -566,37 +566,37 @@
     if-ltz v4, :cond_1
 
     .line 4
-    iput-wide v2, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->c:J
+    iput-wide v2, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->c:J
 
     .line 5
-    invoke-direct {p0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->v()V
+    invoke-direct {p0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->v()V
 
     :cond_1
     return-void
 .end method
 
-.method private final n()Lkotlinx/coroutines/scheduling/h;
+.method private final n()Lcotlinx/coroutines/scheduling/h;
     .locals 1
 
     const/4 v0, 0x2
 
     .line 1
-    invoke-virtual {p0, v0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->l(I)I
+    invoke-virtual {p0, v0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->l(I)I
 
     move-result v0
 
     if-nez v0, :cond_1
 
     .line 2
-    iget-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    iget-object v0, v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->a:Lkotlinx/coroutines/scheduling/d;
+    iget-object v0, v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->a:Lcotlinx/coroutines/scheduling/d;
 
-    invoke-virtual {v0}, Lkotlinx/coroutines/internal/o;->g()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlinx/coroutines/internal/o;->g()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkotlinx/coroutines/scheduling/h;
+    check-cast v0, Lcotlinx/coroutines/scheduling/h;
 
     if-eqz v0, :cond_0
 
@@ -604,29 +604,29 @@
 
     .line 3
     :cond_0
-    iget-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    iget-object v0, v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->b:Lkotlinx/coroutines/scheduling/d;
+    iget-object v0, v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->b:Lcotlinx/coroutines/scheduling/d;
 
-    invoke-virtual {v0}, Lkotlinx/coroutines/internal/o;->g()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlinx/coroutines/internal/o;->g()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkotlinx/coroutines/scheduling/h;
+    check-cast v0, Lcotlinx/coroutines/scheduling/h;
 
     return-object v0
 
     .line 4
     :cond_1
-    iget-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    iget-object v0, v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->b:Lkotlinx/coroutines/scheduling/d;
+    iget-object v0, v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->b:Lcotlinx/coroutines/scheduling/d;
 
-    invoke-virtual {v0}, Lkotlinx/coroutines/internal/o;->g()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlinx/coroutines/internal/o;->g()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkotlinx/coroutines/scheduling/h;
+    check-cast v0, Lcotlinx/coroutines/scheduling/h;
 
     if-eqz v0, :cond_2
 
@@ -634,15 +634,15 @@
 
     .line 5
     :cond_2
-    iget-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    iget-object v0, v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->a:Lkotlinx/coroutines/scheduling/d;
+    iget-object v0, v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->a:Lcotlinx/coroutines/scheduling/d;
 
-    invoke-virtual {v0}, Lkotlinx/coroutines/internal/o;->g()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlinx/coroutines/internal/o;->g()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkotlinx/coroutines/scheduling/h;
+    check-cast v0, Lcotlinx/coroutines/scheduling/h;
 
     return-object v0
 .end method
@@ -657,24 +657,24 @@
 
     .line 1
     :goto_1
-    iget-object v2, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v2, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    invoke-virtual {v2}, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->isTerminated()Z
+    invoke-virtual {v2}, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->isTerminated()Z
 
     move-result v2
 
     if-nez v2, :cond_3
 
-    iget-object v2, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    iget-object v2, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
-    sget-object v3, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->TERMINATED:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object v3, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->TERMINATED:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     if-eq v2, v3, :cond_3
 
     .line 2
-    iget-boolean v2, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->g:Z
+    iget-boolean v2, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->g:Z
 
-    invoke-virtual {p0, v2}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->e(Z)Lkotlinx/coroutines/scheduling/h;
+    invoke-virtual {p0, v2}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->e(Z)Lcotlinx/coroutines/scheduling/h;
 
     move-result-object v2
 
@@ -683,19 +683,19 @@
     if-eqz v2, :cond_0
 
     .line 3
-    iput-wide v3, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->d:J
+    iput-wide v3, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->d:J
 
     .line 4
-    invoke-direct {p0, v2}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->c(Lkotlinx/coroutines/scheduling/h;)V
+    invoke-direct {p0, v2}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->c(Lcotlinx/coroutines/scheduling/h;)V
 
     goto :goto_0
 
     .line 5
     :cond_0
-    iput-boolean v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->g:Z
+    iput-boolean v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->g:Z
 
     .line 6
-    iget-wide v5, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->d:J
+    iget-wide v5, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->d:J
 
     cmp-long v2, v5, v3
 
@@ -709,34 +709,34 @@
 
     .line 7
     :cond_1
-    sget-object v1, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->PARKING:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object v1, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->PARKING:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
-    invoke-virtual {p0, v1}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->t(Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;)Z
+    invoke-virtual {p0, v1}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->t(Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;)Z
 
     .line 8
     invoke-static {}, Ljava/lang/Thread;->interrupted()Z
 
     .line 9
-    iget-wide v1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->d:J
+    iget-wide v1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->d:J
 
     invoke-static {v1, v2}, Ljava/util/concurrent/locks/LockSupport;->parkNanos(J)V
 
     .line 10
-    iput-wide v3, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->d:J
+    iput-wide v3, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->d:J
 
     goto :goto_0
 
     .line 11
     :cond_2
-    invoke-direct {p0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->s()V
+    invoke-direct {p0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->s()V
 
     goto :goto_1
 
     .line 12
     :cond_3
-    sget-object v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->TERMINATED:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->TERMINATED:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
-    invoke-virtual {p0, v0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->t(Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;)Z
+    invoke-virtual {p0, v0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->t(Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;)Z
 
     return-void
 .end method
@@ -745,9 +745,9 @@
     .locals 10
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
-    sget-object v1, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->CPU_ACQUIRED:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object v1, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->CPU_ACQUIRED:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     const/4 v2, 0x0
 
@@ -762,11 +762,11 @@
 
     .line 2
     :cond_0
-    iget-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
     .line 3
     :cond_1
-    iget-wide v6, v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->controlState:J
+    iget-wide v6, v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->controlState:J
 
     const-wide v4, 0x7ffffc0000000000L
 
@@ -790,7 +790,7 @@
     sub-long v8, v6, v4
 
     .line 4
-    sget-object v4, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->K:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
+    sget-object v4, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->K:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
     move-object v5, v0
 
@@ -806,9 +806,9 @@
     if-eqz v0, :cond_3
 
     .line 5
-    sget-object v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->CPU_ACQUIRED:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->CPU_ACQUIRED:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
-    iput-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    iput-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     goto :goto_0
 
@@ -821,30 +821,30 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->k()Z
+    invoke-direct {p0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->k()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 2
-    iget-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    invoke-virtual {v0, p0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->y(Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;)Z
+    invoke-virtual {v0, p0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->y(Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;)Z
 
     return-void
 
     .line 3
     :cond_0
-    invoke-static {}, Lkotlinx/coroutines/p0;->b()Z
+    invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    iget-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lkotlinx/coroutines/scheduling/m;
+    iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lcotlinx/coroutines/scheduling/m;
 
-    invoke-virtual {v0}, Lkotlinx/coroutines/scheduling/m;->f()I
+    invoke-virtual {v0}, Lcotlinx/coroutines/scheduling/m;->f()I
 
     move-result v0
 
@@ -874,28 +874,28 @@
     const/4 v0, -0x1
 
     .line 4
-    iput v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->workerCtl:I
+    iput v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->workerCtl:I
 
     .line 5
     :goto_2
-    invoke-direct {p0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->k()Z
+    invoke-direct {p0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->k()Z
 
     move-result v0
 
     if-eqz v0, :cond_5
 
     .line 6
-    iget-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    invoke-virtual {v0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->isTerminated()Z
+    invoke-virtual {v0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->isTerminated()Z
 
     move-result v0
 
     if-nez v0, :cond_5
 
-    iget-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
-    sget-object v1, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->TERMINATED:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object v1, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->TERMINATED:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     if-ne v0, v1, :cond_4
 
@@ -903,15 +903,15 @@
 
     .line 7
     :cond_4
-    sget-object v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->PARKING:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->PARKING:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
-    invoke-virtual {p0, v0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->t(Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;)Z
+    invoke-virtual {p0, v0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->t(Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;)Z
 
     .line 8
     invoke-static {}, Ljava/lang/Thread;->interrupted()Z
 
     .line 9
-    invoke-direct {p0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->m()V
+    invoke-direct {p0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->m()V
 
     goto :goto_2
 
@@ -920,13 +920,13 @@
     return-void
 .end method
 
-.method private final u(Z)Lkotlinx/coroutines/scheduling/h;
+.method private final u(Z)Lcotlinx/coroutines/scheduling/h;
     .locals 18
 
     move-object/from16 v0, p0
 
     .line 1
-    invoke-static {}, Lkotlinx/coroutines/p0;->b()Z
+    invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v1
 
@@ -936,9 +936,9 @@
 
     if-eqz v1, :cond_2
 
-    iget-object v1, v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lkotlinx/coroutines/scheduling/m;
+    iget-object v1, v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lcotlinx/coroutines/scheduling/m;
 
-    invoke-virtual {v1}, Lkotlinx/coroutines/scheduling/m;->f()I
+    invoke-virtual {v1}, Lcotlinx/coroutines/scheduling/m;->f()I
 
     move-result v1
 
@@ -966,9 +966,9 @@
     .line 2
     :cond_2
     :goto_1
-    iget-object v1, v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v1, v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    invoke-static {v1}, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->d(Lkotlinx/coroutines/scheduling/CoroutineScheduler;)I
+    invoke-static {v1}, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->d(Lcotlinx/coroutines/scheduling/CoroutineScheduler;)I
 
     move-result v1
 
@@ -982,7 +982,7 @@
 
     .line 3
     :cond_3
-    invoke-virtual {v0, v1}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->l(I)I
+    invoke-virtual {v0, v1}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->l(I)I
 
     move-result v4
 
@@ -1005,30 +1005,30 @@
 
     .line 4
     :cond_4
-    iget-object v13, v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v13, v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    iget-object v13, v13, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->c:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iget-object v13, v13, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->c:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-virtual {v13, v4}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->get(I)Ljava/lang/Object;
 
     move-result-object v13
 
-    check-cast v13, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;
+    check-cast v13, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;
 
     if-eqz v13, :cond_a
 
     if-eq v13, v0, :cond_a
 
     .line 5
-    invoke-static {}, Lkotlinx/coroutines/p0;->b()Z
+    invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v14
 
     if-eqz v14, :cond_7
 
-    iget-object v14, v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lkotlinx/coroutines/scheduling/m;
+    iget-object v14, v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lcotlinx/coroutines/scheduling/m;
 
-    invoke-virtual {v14}, Lkotlinx/coroutines/scheduling/m;->f()I
+    invoke-virtual {v14}, Lcotlinx/coroutines/scheduling/m;->f()I
 
     move-result v14
 
@@ -1058,11 +1058,11 @@
     if-eqz p1, :cond_8
 
     .line 6
-    iget-object v14, v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lkotlinx/coroutines/scheduling/m;
+    iget-object v14, v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lcotlinx/coroutines/scheduling/m;
 
-    iget-object v13, v13, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lkotlinx/coroutines/scheduling/m;
+    iget-object v13, v13, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lcotlinx/coroutines/scheduling/m;
 
-    invoke-virtual {v14, v13}, Lkotlinx/coroutines/scheduling/m;->k(Lkotlinx/coroutines/scheduling/m;)J
+    invoke-virtual {v14, v13}, Lcotlinx/coroutines/scheduling/m;->k(Lcotlinx/coroutines/scheduling/m;)J
 
     move-result-wide v13
 
@@ -1070,11 +1070,11 @@
 
     .line 7
     :cond_8
-    iget-object v14, v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lkotlinx/coroutines/scheduling/m;
+    iget-object v14, v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lcotlinx/coroutines/scheduling/m;
 
-    iget-object v13, v13, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lkotlinx/coroutines/scheduling/m;
+    iget-object v13, v13, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lcotlinx/coroutines/scheduling/m;
 
-    invoke-virtual {v14, v13}, Lkotlinx/coroutines/scheduling/m;->l(Lkotlinx/coroutines/scheduling/m;)J
+    invoke-virtual {v14, v13}, Lcotlinx/coroutines/scheduling/m;->l(Lcotlinx/coroutines/scheduling/m;)J
 
     move-result-wide v13
 
@@ -1086,9 +1086,9 @@
     if-nez v17, :cond_9
 
     .line 8
-    iget-object v1, v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lkotlinx/coroutines/scheduling/m;
+    iget-object v1, v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lcotlinx/coroutines/scheduling/m;
 
-    invoke-virtual {v1}, Lkotlinx/coroutines/scheduling/m;->h()Lkotlinx/coroutines/scheduling/h;
+    invoke-virtual {v1}, Lcotlinx/coroutines/scheduling/m;->h()Lcotlinx/coroutines/scheduling/h;
 
     move-result-object v1
 
@@ -1121,7 +1121,7 @@
 
     .line 10
     :goto_6
-    iput-wide v9, v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->d:J
+    iput-wide v9, v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->d:J
 
     return-object v5
 .end method
@@ -1130,18 +1130,18 @@
     .locals 6
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    iget-object v0, v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->c:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iget-object v0, v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->c:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     .line 2
     monitor-enter v0
 
     .line 3
     :try_start_0
-    iget-object v1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    invoke-virtual {v1}, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->isTerminated()Z
+    invoke-virtual {v1}, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->isTerminated()Z
 
     move-result v1
     :try_end_0
@@ -1156,15 +1156,15 @@
     .line 4
     :cond_0
     :try_start_1
-    iget-object v1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    invoke-static {v1}, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->d(Lkotlinx/coroutines/scheduling/CoroutineScheduler;)I
+    invoke-static {v1}, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->d(Lcotlinx/coroutines/scheduling/CoroutineScheduler;)I
 
     move-result v1
 
-    iget-object v2, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v2, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    iget v2, v2, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->d:I
+    iget v2, v2, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->d:I
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -1177,7 +1177,7 @@
     .line 5
     :cond_1
     :try_start_2
-    sget-object v1, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->J:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
+    sget-object v1, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->J:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
     const/4 v2, -0x1
 
@@ -1198,23 +1198,23 @@
     .line 6
     :cond_2
     :try_start_3
-    iget v1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->indexInArray:I
+    iget v1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->indexInArray:I
 
     const/4 v2, 0x0
 
     .line 7
-    invoke-virtual {p0, v2}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p(I)V
+    invoke-virtual {p0, v2}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p(I)V
 
     .line 8
-    iget-object v3, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v3, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    invoke-virtual {v3, p0, v1, v2}, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->z(Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;II)V
+    invoke-virtual {v3, p0, v1, v2}, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->z(Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;II)V
 
     .line 9
-    iget-object v2, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v2, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
     .line 10
-    sget-object v3, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->K:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
+    sget-object v3, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->K:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
     invoke-virtual {v3, v2}, Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;->getAndDecrement(Ljava/lang/Object;)J
 
@@ -1229,9 +1229,9 @@
     if-eq v3, v1, :cond_4
 
     .line 11
-    iget-object v2, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v2, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    iget-object v2, v2, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->c:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iget-object v2, v2, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->c:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-virtual {v2, v3}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->get(I)Ljava/lang/Object;
 
@@ -1239,47 +1239,47 @@
 
     if-nez v2, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
-    check-cast v2, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;
+    check-cast v2, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;
 
     .line 12
-    iget-object v4, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v4, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    iget-object v4, v4, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->c:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iget-object v4, v4, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->c:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-virtual {v4, v1, v2}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->set(ILjava/lang/Object;)V
 
     .line 13
-    invoke-virtual {v2, v1}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p(I)V
+    invoke-virtual {v2, v1}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p(I)V
 
     .line 14
-    iget-object v4, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v4, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    invoke-virtual {v4, v2, v3, v1}, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->z(Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;II)V
+    invoke-virtual {v4, v2, v3, v1}, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->z(Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;II)V
 
     .line 15
     :cond_4
-    iget-object v1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    iget-object v1, v1, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->c:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iget-object v1, v1, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->c:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v3, v2}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->set(ILjava/lang/Object;)V
 
     .line 16
-    sget-object v1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
     monitor-exit v0
 
     .line 17
-    sget-object v0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->TERMINATED:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object v0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->TERMINATED:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
-    iput-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    iput-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     return-void
 
@@ -1294,19 +1294,19 @@
 
 
 # virtual methods
-.method public final e(Z)Lkotlinx/coroutines/scheduling/h;
+.method public final e(Z)Lcotlinx/coroutines/scheduling/h;
     .locals 1
     .annotation build Ln/e/a/e;
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->r()Z
+    invoke-direct {p0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->r()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-direct {p0, p1}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->d(Z)Lkotlinx/coroutines/scheduling/h;
+    invoke-direct {p0, p1}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->d(Z)Lcotlinx/coroutines/scheduling/h;
 
     move-result-object p1
 
@@ -1316,9 +1316,9 @@
     if-eqz p1, :cond_2
 
     .line 2
-    iget-object p1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lkotlinx/coroutines/scheduling/m;
+    iget-object p1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->a:Lcotlinx/coroutines/scheduling/m;
 
-    invoke-virtual {p1}, Lkotlinx/coroutines/scheduling/m;->h()Lkotlinx/coroutines/scheduling/h;
+    invoke-virtual {p1}, Lcotlinx/coroutines/scheduling/m;->h()Lcotlinx/coroutines/scheduling/h;
 
     move-result-object p1
 
@@ -1327,29 +1327,29 @@
     goto :goto_0
 
     :cond_1
-    iget-object p1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object p1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    iget-object p1, p1, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->b:Lkotlinx/coroutines/scheduling/d;
+    iget-object p1, p1, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->b:Lcotlinx/coroutines/scheduling/d;
 
-    invoke-virtual {p1}, Lkotlinx/coroutines/internal/o;->g()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlinx/coroutines/internal/o;->g()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlinx/coroutines/scheduling/h;
+    check-cast p1, Lcotlinx/coroutines/scheduling/h;
 
     goto :goto_0
 
     .line 3
     :cond_2
-    iget-object p1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object p1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    iget-object p1, p1, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->b:Lkotlinx/coroutines/scheduling/d;
+    iget-object p1, p1, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->b:Lcotlinx/coroutines/scheduling/d;
 
-    invoke-virtual {p1}, Lkotlinx/coroutines/internal/o;->g()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlinx/coroutines/internal/o;->g()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlinx/coroutines/scheduling/h;
+    check-cast p1, Lcotlinx/coroutines/scheduling/h;
 
     :goto_0
     if-eqz p1, :cond_3
@@ -1360,7 +1360,7 @@
     const/4 p1, 0x1
 
     .line 4
-    invoke-direct {p0, p1}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->u(Z)Lkotlinx/coroutines/scheduling/h;
+    invoke-direct {p0, p1}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->u(Z)Lcotlinx/coroutines/scheduling/h;
 
     move-result-object p1
 
@@ -1372,7 +1372,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->indexInArray:I
+    iget v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->indexInArray:I
 
     return v0
 .end method
@@ -1383,18 +1383,18 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->nextParkedWorker:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->nextParkedWorker:Ljava/lang/Object;
 
     return-object v0
 .end method
 
-.method public final i()Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+.method public final i()Lcotlinx/coroutines/scheduling/CoroutineScheduler;
     .locals 1
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
     return-object v0
 .end method
@@ -1403,7 +1403,7 @@
     .locals 3
 
     .line 1
-    iget v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->f:I
+    iget v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->f:I
 
     shl-int/lit8 v1, v0, 0xd
 
@@ -1418,7 +1418,7 @@
     xor-int/2addr v0, v1
 
     .line 2
-    iput v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->f:I
+    iput v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->f:I
 
     add-int/lit8 v1, p1, -0x1
 
@@ -1449,9 +1449,9 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
-    iget-object v1, v1, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->p:Ljava/lang/String;
+    iget-object v1, v1, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->p:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1480,7 +1480,7 @@
     invoke-virtual {p0, v0}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
 
     .line 2
-    iput p1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->indexInArray:I
+    iput p1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->indexInArray:I
 
     return-void
 .end method
@@ -1493,7 +1493,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->nextParkedWorker:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->nextParkedWorker:Ljava/lang/Object;
 
     return-void
 .end method
@@ -1502,23 +1502,23 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->o()V
+    invoke-direct {p0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->o()V
 
     return-void
 .end method
 
-.method public final t(Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;)Z
+.method public final t(Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;)Z
     .locals 6
-    .param p1    # Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    .param p1    # Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     .line 2
-    sget-object v1, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->CPU_ACQUIRED:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object v1, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->CPU_ACQUIRED:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     if-ne v0, v1, :cond_0
 
@@ -1533,10 +1533,10 @@
     if-eqz v1, :cond_1
 
     .line 3
-    iget-object v2, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    iget-object v2, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
     .line 4
-    sget-object v3, Lkotlinx/coroutines/scheduling/CoroutineScheduler;->K:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
+    sget-object v3, Lcotlinx/coroutines/scheduling/CoroutineScheduler;->K:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
     const-wide v4, 0x40000000000L
 
@@ -1546,7 +1546,7 @@
     if-eq v0, p1, :cond_2
 
     .line 5
-    iput-object p1, p0, Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    iput-object p1, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->b:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     :cond_2
     return v1

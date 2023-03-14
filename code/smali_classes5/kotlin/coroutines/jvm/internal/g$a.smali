@@ -1,11 +1,11 @@
-.class final Lkotlin/coroutines/jvm/internal/g$a;
+.class final Lcotlin/coroutines/jvm/internal/g$a;
 .super Ljava/lang/Object;
 .source "DebugMetadata.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/coroutines/jvm/internal/g;
+    value = Lcotlin/coroutines/jvm/internal/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -48,7 +48,7 @@
 
 # instance fields
 .field public final a:Ljava/lang/reflect/Method;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -56,7 +56,7 @@
 .end field
 
 .field public final b:Ljava/lang/reflect/Method;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -64,7 +64,7 @@
 .end field
 
 .field public final c:Ljava/lang/reflect/Method;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -91,11 +91,11 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkotlin/coroutines/jvm/internal/g$a;->a:Ljava/lang/reflect/Method;
+    iput-object p1, p0, Lcotlin/coroutines/jvm/internal/g$a;->a:Ljava/lang/reflect/Method;
 
-    iput-object p2, p0, Lkotlin/coroutines/jvm/internal/g$a;->b:Ljava/lang/reflect/Method;
+    iput-object p2, p0, Lcotlin/coroutines/jvm/internal/g$a;->b:Ljava/lang/reflect/Method;
 
-    iput-object p3, p0, Lkotlin/coroutines/jvm/internal/g$a;->c:Ljava/lang/reflect/Method;
+    iput-object p3, p0, Lcotlin/coroutines/jvm/internal/g$a;->c:Ljava/lang/reflect/Method;
 
     return-void
 .end method

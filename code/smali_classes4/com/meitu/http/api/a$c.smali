@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "Lcom/commsource/studio/sticker/StickerConfig$StickerOnlineInfo;",
         "kotlin.jvm.PlatformType",
         "res",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "(Lcom/commsource/studio/sticker/StickerConfig$StickerOnlineInfo;)V"
     }
@@ -55,14 +55,14 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/jvm/internal/Ref$ObjectRef;
+.field final synthetic a:Lcotlin/jvm/internal/Ref$ObjectRef;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/jvm/internal/Ref$ObjectRef;)V
+.method constructor <init>(Lcotlin/jvm/internal/Ref$ObjectRef;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/meitu/http/api/a$c;->a:Lkotlin/jvm/internal/Ref$ObjectRef;
+    iput-object p1, p0, Lcom/meitu/http/api/a$c;->a:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -104,9 +104,9 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/meitu/http/api/a$c;->a:Lkotlin/jvm/internal/Ref$ObjectRef;
+    iget-object v1, p0, Lcom/meitu/http/api/a$c;->a:Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iput-object p1, v1, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object p1, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

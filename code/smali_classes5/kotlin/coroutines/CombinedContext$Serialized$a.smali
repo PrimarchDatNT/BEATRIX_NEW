@@ -1,11 +1,11 @@
-.class public final Lkotlin/coroutines/CombinedContext$Serialized$a;
+.class public final Lcotlin/coroutines/CombinedContext$Serialized$a;
 .super Ljava/lang/Object;
 .source "CoroutineContextImpl.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/coroutines/CombinedContext$Serialized;
+    value = Lcotlin/coroutines/CombinedContext$Serialized;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -51,11 +51,11 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/coroutines/CombinedContext$Serialized$a;-><init>()V
+    invoke-direct {p0}, Lcotlin/coroutines/CombinedContext$Serialized$a;-><init>()V
 
     return-void
 .end method

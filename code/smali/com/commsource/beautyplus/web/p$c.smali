@@ -33,7 +33,7 @@
     return-void
 .end method
 
-.method private synthetic m(Lcom/commsource/cloudalbum/bean/CAImageInfo;)Lkotlin/t1;
+.method private synthetic m(Lcom/commsource/cloudalbum/bean/CAImageInfo;)Lcotlin/t1;
     .locals 3
 
     const/16 v0, 0x3653
@@ -766,7 +766,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/beautyplus/web/l;-><init>(Lcom/commsource/beautyplus/web/p$c;)V
 
-    invoke-virtual {p2, p1, v4, v1, v2}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->g(Landroidx/fragment/app/FragmentActivity;ZLjava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-virtual {p2, p1, v4, v1, v2}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->g(Landroidx/fragment/app/FragmentActivity;ZLjava/lang/String;Lcotlin/jvm/u/l;)V
 
     .line 15
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -796,10 +796,10 @@
     return-void
 .end method
 
-.method public synthetic n(Lcom/commsource/cloudalbum/bean/CAImageInfo;)Lkotlin/t1;
+.method public synthetic n(Lcom/commsource/cloudalbum/bean/CAImageInfo;)Lcotlin/t1;
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/commsource/beautyplus/web/p$c;->m(Lcom/commsource/cloudalbum/bean/CAImageInfo;)Lkotlin/t1;
+    invoke-direct {p0, p1}, Lcom/commsource/beautyplus/web/p$c;->m(Lcom/commsource/cloudalbum/bean/CAImageInfo;)Lcotlin/t1;
 
     move-result-object p1
 

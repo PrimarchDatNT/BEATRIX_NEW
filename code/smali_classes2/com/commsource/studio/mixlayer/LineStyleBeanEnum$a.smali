@@ -17,7 +17,7 @@
     value = "SMAP\nLineStyleBean.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LineStyleBean.kt\ncom/commsource/studio/mixlayer/LineStyleBeanEnum$Companion\n*L\n1#1,59:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -62,7 +62,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2

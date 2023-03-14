@@ -14,7 +14,7 @@
     value = "SMAP\nBPAiDetectorSegment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BPAiDetectorSegment.kt\ncom/commsource/aiengine/detect/BPAiDetectorSegment\n*L\n1#1,323:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
     d2 = {
         "Lf/d/e/a/j;",
         "Lf/d/e/a/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "m",
         "()V",
         "",
@@ -57,7 +57,7 @@
         "faceRects",
         "Ljava/util/ArrayList;",
         "Landroid/graphics/PointF;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "pointsList",
         "k",
         "([Landroid/graphics/RectF;Ljava/util/ArrayList;)V",
@@ -152,7 +152,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lf/d/e/a/j$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lf/d/e/a/j$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lf/d/e/a/j;->E:Lf/d/e/a/j$a;
 
@@ -174,11 +174,11 @@
 
     const-string v0, "engine"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "detectOption"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1, p2, p3}, Lf/d/e/a/a;-><init>(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)V
@@ -403,11 +403,11 @@
 
     .line 5
     :cond_2
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type com.meitu.mtlab.MTAiInterface.MTSegmentModule.MTSegmentOption"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -511,7 +511,7 @@
 
     const-string v7, "AppContext.getContext()"
 
-    invoke-static {v6, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v6}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
@@ -620,11 +620,11 @@
 
     .line 13
     :cond_4
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type com.meitu.mtlab.MTAiInterface.MTSegmentModule.MTSegmentOption"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -667,12 +667,12 @@
 
     const-string v4, "key"
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v4, "SEGMENT_BODY"
 
     .line 1
-    invoke-static {v4, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v4, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v4
 
@@ -804,9 +804,9 @@
 
     .line 13
     :cond_4
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v6}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v6}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -817,7 +817,7 @@
     const-string v4, "SEGMENT_HAIR"
 
     .line 14
-    invoke-static {v4, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v4, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v4
 
@@ -938,9 +938,9 @@
 
     .line 25
     :cond_a
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v6}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v6}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -951,7 +951,7 @@
     const-string v4, "SEGMENT_SKIN"
 
     .line 26
-    invoke-static {v4, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v4, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v4
 
@@ -1072,9 +1072,9 @@
 
     .line 37
     :cond_10
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v6}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v6}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1085,7 +1085,7 @@
     const-string v4, "SEGMENT_FACECONTOURSKIN"
 
     .line 38
-    invoke-static {v4, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v4, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v4
 
@@ -1206,9 +1206,9 @@
 
     .line 49
     :cond_16
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v6}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v6}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1219,7 +1219,7 @@
     const-string v4, "SEGMENT_SKY"
 
     .line 50
-    invoke-static {v4, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v4, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v4
 
@@ -1340,9 +1340,9 @@
 
     .line 61
     :cond_1c
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v6}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v6}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1353,7 +1353,7 @@
     const-string v4, "SEGMENT_DEPEND_OUTSIDE"
 
     .line 62
-    invoke-static {v4, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v4, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1474,9 +1474,9 @@
 
     .line 73
     :cond_22
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v6}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v6}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1585,11 +1585,11 @@
 
     .line 6
     :cond_0
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type com.meitu.mtlab.MTAiInterface.MTSegmentModule.MTSegmentOption"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1721,11 +1721,11 @@
 
     .line 9
     :cond_3
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type com.meitu.mtlab.MTAiInterface.MTSegmentModule.MTSegmentOption"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1820,7 +1820,7 @@
     :cond_1
     if-nez v1, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I

@@ -1,10 +1,10 @@
-.class public final Lkotlin/jvm/a;
+.class public final Lcotlin/jvm/a;
 .super Ljava/lang/Object;
 .source "JvmClassMapping.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,16 +20,16 @@
         "",
         "j",
         "([Ljava/lang/Object;)Z",
-        "Lkotlin/reflect/d;",
+        "Lcotlin/reflect/d;",
         "Ljava/lang/Class;",
         "c",
-        "(Lkotlin/reflect/d;)Ljava/lang/Class;",
+        "(Lcotlin/reflect/d;)Ljava/lang/Class;",
         "getJavaClass$annotations",
-        "(Lkotlin/reflect/d;)V",
+        "(Lcotlin/reflect/d;)V",
         "java",
         "",
         "a",
-        "(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/d;",
+        "(Ljava/lang/annotation/Annotation;)Lcotlin/reflect/d;",
         "annotationClass",
         "h",
         "getRuntimeClassOfKClassInstance$annotations",
@@ -41,7 +41,7 @@
         "f",
         "javaPrimitiveType",
         "g",
-        "(Ljava/lang/Class;)Lkotlin/reflect/d;",
+        "(Ljava/lang/Class;)Lcotlin/reflect/d;",
         "kotlin",
         "kotlin-stdlib"
     }
@@ -53,13 +53,13 @@
     }
 .end annotation
 
-.annotation build Lkotlin/jvm/g;
+.annotation build Lcotlin/jvm/g;
     name = "JvmClassMappingKt"
 .end annotation
 
 
 # direct methods
-.method public static final a(Ljava/lang/annotation/Annotation;)Lkotlin/reflect/d;
+.method public static final a(Ljava/lang/annotation/Annotation;)Lcotlin/reflect/d;
     .locals 1
     .param p0    # Ljava/lang/annotation/Annotation;
         .annotation build Ln/e/a/d;
@@ -70,7 +70,7 @@
             "<T::",
             "Ljava/lang/annotation/Annotation;",
             ">(TT;)",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "+TT;>;"
         }
     .end annotation
@@ -80,7 +80,7 @@
 
     const-string v0, "$this$annotationClass"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/lang/annotation/Annotation;->annotationType()Ljava/lang/Class;
@@ -89,9 +89,9 @@
 
     const-string v0, "(this as java.lang.annot\u2026otation).annotationType()"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {p0}, Lkotlin/jvm/a;->g(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {p0}, Lcotlin/jvm/a;->g(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object p0
 
@@ -123,7 +123,7 @@
 
     const-string v0, "$this$javaClass"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -137,9 +137,9 @@
     return-object p0
 .end method
 
-.method public static final c(Lkotlin/reflect/d;)Ljava/lang/Class;
+.method public static final c(Lcotlin/reflect/d;)Ljava/lang/Class;
     .locals 1
-    .param p0    # Lkotlin/reflect/d;
+    .param p0    # Lcotlin/reflect/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -148,14 +148,14 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "TT;>;)",
             "Ljava/lang/Class<",
             "TT;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "getJavaClass"
     .end annotation
 
@@ -164,12 +164,12 @@
 
     const-string v0, "$this$java"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    check-cast p0, Lkotlin/jvm/internal/r;
+    check-cast p0, Lcotlin/jvm/internal/r;
 
-    invoke-interface {p0}, Lkotlin/jvm/internal/r;->q()Ljava/lang/Class;
+    invoke-interface {p0}, Lcotlin/jvm/internal/r;->q()Ljava/lang/Class;
 
     move-result-object p0
 
@@ -180,15 +180,15 @@
     return-object p0
 .end method
 
-.method public static synthetic d(Lkotlin/reflect/d;)V
+.method public static synthetic d(Lcotlin/reflect/d;)V
     .locals 0
 
     return-void
 .end method
 
-.method public static final e(Lkotlin/reflect/d;)Ljava/lang/Class;
+.method public static final e(Lcotlin/reflect/d;)Ljava/lang/Class;
     .locals 3
-    .param p0    # Lkotlin/reflect/d;
+    .param p0    # Lcotlin/reflect/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -197,7 +197,7 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "TT;>;)",
             "Ljava/lang/Class<",
             "TT;>;"
@@ -209,12 +209,12 @@
 
     const-string v0, "$this$javaObjectType"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    check-cast p0, Lkotlin/jvm/internal/r;
+    check-cast p0, Lcotlin/jvm/internal/r;
 
-    invoke-interface {p0}, Lkotlin/jvm/internal/r;->q()Ljava/lang/Class;
+    invoke-interface {p0}, Lcotlin/jvm/internal/r;->q()Ljava/lang/Class;
 
     move-result-object p0
 
@@ -397,9 +397,9 @@
     .end sparse-switch
 .end method
 
-.method public static final f(Lkotlin/reflect/d;)Ljava/lang/Class;
+.method public static final f(Lcotlin/reflect/d;)Ljava/lang/Class;
     .locals 1
-    .param p0    # Lkotlin/reflect/d;
+    .param p0    # Lcotlin/reflect/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -408,7 +408,7 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "TT;>;)",
             "Ljava/lang/Class<",
             "TT;>;"
@@ -420,12 +420,12 @@
 
     const-string v0, "$this$javaPrimitiveType"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    check-cast p0, Lkotlin/jvm/internal/r;
+    check-cast p0, Lcotlin/jvm/internal/r;
 
-    invoke-interface {p0}, Lkotlin/jvm/internal/r;->q()Ljava/lang/Class;
+    invoke-interface {p0}, Lcotlin/jvm/internal/r;->q()Ljava/lang/Class;
 
     move-result-object p0
 
@@ -610,7 +610,7 @@
     .end sparse-switch
 .end method
 
-.method public static final g(Ljava/lang/Class;)Lkotlin/reflect/d;
+.method public static final g(Ljava/lang/Class;)Lcotlin/reflect/d;
     .locals 1
     .param p0    # Ljava/lang/Class;
         .annotation build Ln/e/a/d;
@@ -623,12 +623,12 @@
             ">(",
             "Ljava/lang/Class<",
             "TT;>;)",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "TT;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "getKotlinClass"
     .end annotation
 
@@ -637,19 +637,19 @@
 
     const-string v0, "$this$kotlin"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {p0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final h(Lkotlin/reflect/d;)Ljava/lang/Class;
+.method public static final h(Lcotlin/reflect/d;)Ljava/lang/Class;
     .locals 1
-    .param p0    # Lkotlin/reflect/d;
+    .param p0    # Lcotlin/reflect/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -658,15 +658,15 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "TT;>;)",
             "Ljava/lang/Class<",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "TT;>;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "getRuntimeClassOfKClassInstance"
     .end annotation
 
@@ -675,7 +675,7 @@
 
     const-string v0, "$this$javaClass"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -689,12 +689,12 @@
     return-object p0
 .end method
 
-.method public static synthetic i(Lkotlin/reflect/d;)V
+.method public static synthetic i(Lcotlin/reflect/d;)V
     .locals 0
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->ERROR:Lcotlin/DeprecationLevel;
         message = "Use \'java\' property to get Java class corresponding to this Kotlin class or cast this instance to Any if you really want to get the runtime Java class of this implementation of KClass."
-        replaceWith = .subannotation Lkotlin/q0;
+        replaceWith = .subannotation Lcotlin/q0;
             expression = "(this as Any).javaClass"
             imports = {}
         .end subannotation
@@ -717,14 +717,14 @@
 
     const-string v0, "$this$isArrayOf"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x4
 
     const-string v1, "T"
 
     .line 1
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
 
     const-class v0, Ljava/lang/Object;
 

@@ -1,11 +1,11 @@
-.class public final Lkotlin/Result$a;
+.class public final Lcotlin/Result$a;
 .super Ljava/lang/Object;
 .source "Result.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/Result;
+    value = Lcotlin/Result;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "",
         "T",
         "value",
-        "Lkotlin/Result;",
+        "Lcotlin/Result;",
         "b",
         "(Ljava/lang/Object;)Ljava/lang/Object;",
         "",
@@ -57,11 +57,11 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/Result$a;-><init>()V
+    invoke-direct {p0}, Lcotlin/Result$a;-><init>()V
 
     return-void
 .end method
@@ -79,19 +79,19 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "failure"
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lkotlin/r0;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
+    invoke-static {p1}, Lcotlin/r0;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-static {p1}, Lkotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -109,15 +109,15 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "success"
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lkotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

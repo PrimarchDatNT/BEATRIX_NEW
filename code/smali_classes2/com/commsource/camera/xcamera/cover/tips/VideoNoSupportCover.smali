@@ -16,7 +16,7 @@
     value = "SMAP\nVideoNoSupportCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VideoNoSupportCover.kt\ncom/commsource/camera/xcamera/cover/tips/VideoNoSupportCover\n*L\n1#1,51:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "",
         "q",
         "()I",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "v",
         "()V",
         "Landroid/graphics/Rect;",
@@ -44,7 +44,7 @@
         "o",
         "Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;",
         "d",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "E",
         "()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;",
         "captureViewModel",
@@ -61,7 +61,7 @@
 
 
 # instance fields
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
 
 
 # direct methods
@@ -76,11 +76,11 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/tips/VideoNoSupportCover$captureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/tips/VideoNoSupportCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/VideoNoSupportCover;->d:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/VideoNoSupportCover;->d:Lcotlin/w;
 
     return-void
 .end method
@@ -92,9 +92,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/VideoNoSupportCover;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/VideoNoSupportCover;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -175,11 +175,11 @@
 
     const-string v1, "fullRect"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "cameraViewPort"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->t(Landroid/graphics/Rect;Landroid/graphics/Rect;)V

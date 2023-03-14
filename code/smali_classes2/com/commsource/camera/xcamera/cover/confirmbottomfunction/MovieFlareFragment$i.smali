@@ -20,7 +20,7 @@
     value = "SMAP\nMovieFlareFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MovieFlareFragment.kt\ncom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment$initView$8\n*L\n1#1,194:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
         "leftDx",
         "",
         "fromUser",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "E",
         "(IFZ)V",
         "i",

@@ -1,4 +1,4 @@
-.class final enum Lkotlin/collections/State;
+.class final enum Lcotlin/collections/State;
 .super Ljava/lang/Enum;
 .source "AbstractIterator.kt"
 
@@ -7,12 +7,12 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Enum<",
-        "Lkotlin/collections/State;",
+        "Lcotlin/collections/State;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\u0008\u0007\u0008\u0082\u0001\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00000\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0002\u0010\u0003j\u0002\u0008\u0004j\u0002\u0008\u0005j\u0002\u0008\u0006j\u0002\u0008\u0007\u00a8\u0006\u0008"
     }
     d2 = {
-        "Lkotlin/collections/State;",
+        "Lcotlin/collections/State;",
         "",
         "<init>",
         "(Ljava/lang/String;I)V",
@@ -42,15 +42,15 @@
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkotlin/collections/State;
+.field private static final synthetic $VALUES:[Lcotlin/collections/State;
 
-.field public static final enum Done:Lkotlin/collections/State;
+.field public static final enum Done:Lcotlin/collections/State;
 
-.field public static final enum Failed:Lkotlin/collections/State;
+.field public static final enum Failed:Lcotlin/collections/State;
 
-.field public static final enum NotReady:Lkotlin/collections/State;
+.field public static final enum NotReady:Lcotlin/collections/State;
 
-.field public static final enum Ready:Lkotlin/collections/State;
+.field public static final enum Ready:Lcotlin/collections/State;
 
 
 # direct methods
@@ -59,57 +59,57 @@
 
     const/4 v0, 0x4
 
-    new-array v0, v0, [Lkotlin/collections/State;
+    new-array v0, v0, [Lcotlin/collections/State;
 
-    new-instance v1, Lkotlin/collections/State;
+    new-instance v1, Lcotlin/collections/State;
 
     const-string v2, "Ready"
 
     const/4 v3, 0x0
 
-    invoke-direct {v1, v2, v3}, Lkotlin/collections/State;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v1, v2, v3}, Lcotlin/collections/State;-><init>(Ljava/lang/String;I)V
 
-    sput-object v1, Lkotlin/collections/State;->Ready:Lkotlin/collections/State;
+    sput-object v1, Lcotlin/collections/State;->Ready:Lcotlin/collections/State;
 
     aput-object v1, v0, v3
 
-    new-instance v1, Lkotlin/collections/State;
+    new-instance v1, Lcotlin/collections/State;
 
     const-string v2, "NotReady"
 
     const/4 v3, 0x1
 
-    invoke-direct {v1, v2, v3}, Lkotlin/collections/State;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v1, v2, v3}, Lcotlin/collections/State;-><init>(Ljava/lang/String;I)V
 
-    sput-object v1, Lkotlin/collections/State;->NotReady:Lkotlin/collections/State;
+    sput-object v1, Lcotlin/collections/State;->NotReady:Lcotlin/collections/State;
 
     aput-object v1, v0, v3
 
-    new-instance v1, Lkotlin/collections/State;
+    new-instance v1, Lcotlin/collections/State;
 
     const-string v2, "Done"
 
     const/4 v3, 0x2
 
-    invoke-direct {v1, v2, v3}, Lkotlin/collections/State;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v1, v2, v3}, Lcotlin/collections/State;-><init>(Ljava/lang/String;I)V
 
-    sput-object v1, Lkotlin/collections/State;->Done:Lkotlin/collections/State;
+    sput-object v1, Lcotlin/collections/State;->Done:Lcotlin/collections/State;
 
     aput-object v1, v0, v3
 
-    new-instance v1, Lkotlin/collections/State;
+    new-instance v1, Lcotlin/collections/State;
 
     const-string v2, "Failed"
 
     const/4 v3, 0x3
 
-    invoke-direct {v1, v2, v3}, Lkotlin/collections/State;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v1, v2, v3}, Lcotlin/collections/State;-><init>(Ljava/lang/String;I)V
 
-    sput-object v1, Lkotlin/collections/State;->Failed:Lkotlin/collections/State;
+    sput-object v1, Lcotlin/collections/State;->Failed:Lcotlin/collections/State;
 
     aput-object v1, v0, v3
 
-    sput-object v0, Lkotlin/collections/State;->$VALUES:[Lkotlin/collections/State;
+    sput-object v0, Lcotlin/collections/State;->$VALUES:[Lcotlin/collections/State;
 
     return-void
 .end method
@@ -128,30 +128,30 @@
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkotlin/collections/State;
+.method public static valueOf(Ljava/lang/String;)Lcotlin/collections/State;
     .locals 1
 
-    const-class v0, Lkotlin/collections/State;
+    const-class v0, Lcotlin/collections/State;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object p0
 
-    check-cast p0, Lkotlin/collections/State;
+    check-cast p0, Lcotlin/collections/State;
 
     return-object p0
 .end method
 
-.method public static values()[Lkotlin/collections/State;
+.method public static values()[Lcotlin/collections/State;
     .locals 1
 
-    sget-object v0, Lkotlin/collections/State;->$VALUES:[Lkotlin/collections/State;
+    sget-object v0, Lcotlin/collections/State;->$VALUES:[Lcotlin/collections/State;
 
-    invoke-virtual {v0}, [Lkotlin/collections/State;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lcotlin/collections/State;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkotlin/collections/State;
+    check-cast v0, [Lcotlin/collections/State;
 
     return-object v0
 .end method

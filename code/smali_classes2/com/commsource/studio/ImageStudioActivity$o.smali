@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
     d2 = {
         "com/commsource/studio/ImageStudioActivity$o",
         "Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onGlobalLayout",
         "()V",
         "app_googleplayRelease"
@@ -83,7 +83,7 @@
 
     const-string v2, "mViewBinding.saveBtn"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/widget/FrameLayout;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 

@@ -1,4 +1,4 @@
-.class public final enum Lkotlin/reflect/KVariance;
+.class public final enum Lcotlin/reflect/KVariance;
 .super Ljava/lang/Enum;
 .source "KVariance.kt"
 
@@ -7,12 +7,12 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Enum<",
-        "Lkotlin/reflect/KVariance;",
+        "Lcotlin/reflect/KVariance;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\u0008\u0006\u0008\u0087\u0001\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00000\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0002\u0010\u0003j\u0002\u0008\u0004j\u0002\u0008\u0005j\u0002\u0008\u0006\u00a8\u0006\u0007"
     }
     d2 = {
-        "Lkotlin/reflect/KVariance;",
+        "Lcotlin/reflect/KVariance;",
         "",
         "<init>",
         "(Ljava/lang/String;I)V",
@@ -39,19 +39,19 @@
     }
 .end annotation
 
-.annotation build Lkotlin/s0;
+.annotation build Lcotlin/s0;
     version = "1.1"
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkotlin/reflect/KVariance;
+.field private static final synthetic $VALUES:[Lcotlin/reflect/KVariance;
 
-.field public static final enum IN:Lkotlin/reflect/KVariance;
+.field public static final enum IN:Lcotlin/reflect/KVariance;
 
-.field public static final enum INVARIANT:Lkotlin/reflect/KVariance;
+.field public static final enum INVARIANT:Lcotlin/reflect/KVariance;
 
-.field public static final enum OUT:Lkotlin/reflect/KVariance;
+.field public static final enum OUT:Lcotlin/reflect/KVariance;
 
 
 # direct methods
@@ -60,45 +60,45 @@
 
     const/4 v0, 0x3
 
-    new-array v0, v0, [Lkotlin/reflect/KVariance;
+    new-array v0, v0, [Lcotlin/reflect/KVariance;
 
-    new-instance v1, Lkotlin/reflect/KVariance;
+    new-instance v1, Lcotlin/reflect/KVariance;
 
     const-string v2, "INVARIANT"
 
     const/4 v3, 0x0
 
-    invoke-direct {v1, v2, v3}, Lkotlin/reflect/KVariance;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v1, v2, v3}, Lcotlin/reflect/KVariance;-><init>(Ljava/lang/String;I)V
 
-    sput-object v1, Lkotlin/reflect/KVariance;->INVARIANT:Lkotlin/reflect/KVariance;
+    sput-object v1, Lcotlin/reflect/KVariance;->INVARIANT:Lcotlin/reflect/KVariance;
 
     aput-object v1, v0, v3
 
-    new-instance v1, Lkotlin/reflect/KVariance;
+    new-instance v1, Lcotlin/reflect/KVariance;
 
     const-string v2, "IN"
 
     const/4 v3, 0x1
 
-    invoke-direct {v1, v2, v3}, Lkotlin/reflect/KVariance;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v1, v2, v3}, Lcotlin/reflect/KVariance;-><init>(Ljava/lang/String;I)V
 
-    sput-object v1, Lkotlin/reflect/KVariance;->IN:Lkotlin/reflect/KVariance;
+    sput-object v1, Lcotlin/reflect/KVariance;->IN:Lcotlin/reflect/KVariance;
 
     aput-object v1, v0, v3
 
-    new-instance v1, Lkotlin/reflect/KVariance;
+    new-instance v1, Lcotlin/reflect/KVariance;
 
     const-string v2, "OUT"
 
     const/4 v3, 0x2
 
-    invoke-direct {v1, v2, v3}, Lkotlin/reflect/KVariance;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v1, v2, v3}, Lcotlin/reflect/KVariance;-><init>(Ljava/lang/String;I)V
 
-    sput-object v1, Lkotlin/reflect/KVariance;->OUT:Lkotlin/reflect/KVariance;
+    sput-object v1, Lcotlin/reflect/KVariance;->OUT:Lcotlin/reflect/KVariance;
 
     aput-object v1, v0, v3
 
-    sput-object v0, Lkotlin/reflect/KVariance;->$VALUES:[Lkotlin/reflect/KVariance;
+    sput-object v0, Lcotlin/reflect/KVariance;->$VALUES:[Lcotlin/reflect/KVariance;
 
     return-void
 .end method
@@ -117,30 +117,30 @@
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkotlin/reflect/KVariance;
+.method public static valueOf(Ljava/lang/String;)Lcotlin/reflect/KVariance;
     .locals 1
 
-    const-class v0, Lkotlin/reflect/KVariance;
+    const-class v0, Lcotlin/reflect/KVariance;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object p0
 
-    check-cast p0, Lkotlin/reflect/KVariance;
+    check-cast p0, Lcotlin/reflect/KVariance;
 
     return-object p0
 .end method
 
-.method public static values()[Lkotlin/reflect/KVariance;
+.method public static values()[Lcotlin/reflect/KVariance;
     .locals 1
 
-    sget-object v0, Lkotlin/reflect/KVariance;->$VALUES:[Lkotlin/reflect/KVariance;
+    sget-object v0, Lcotlin/reflect/KVariance;->$VALUES:[Lcotlin/reflect/KVariance;
 
-    invoke-virtual {v0}, [Lkotlin/reflect/KVariance;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lcotlin/reflect/KVariance;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkotlin/reflect/KVariance;
+    check-cast v0, [Lcotlin/reflect/KVariance;
 
     return-object v0
 .end method

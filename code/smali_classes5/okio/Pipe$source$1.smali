@@ -20,7 +20,7 @@
     value = "SMAP\nPipe.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Pipe.kt\nokio/Pipe$source$1\n*L\n1#1,216:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
         "byteCount",
         "read",
         "(Lokio/Buffer;J)J",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "close",
         "()V",
         "Lokio/Timeout;",
@@ -120,7 +120,7 @@
     invoke-virtual {v1}, Ljava/lang/Object;->notifyAll()V
 
     .line 4
-    sget-object v1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -132,11 +132,11 @@
     .line 6
     :cond_0
     :try_start_1
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type java.lang.Object"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v1
     :try_end_1
@@ -160,7 +160,7 @@
 
     const-string v0, "sink"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lokio/Pipe$source$1;->this$0:Lokio/Pipe;
@@ -266,11 +266,11 @@
     .line 9
     :cond_2
     :try_start_2
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type java.lang.Object"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
 

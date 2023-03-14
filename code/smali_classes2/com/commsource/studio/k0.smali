@@ -14,7 +14,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "startPosition",
         "offset",
         "obj",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(IILjava/lang/Object;)V",
         "h",
@@ -229,7 +229,7 @@
 
     move-result v3
 
-    invoke-static {v2, v3}, Lkotlin/g2/o;->u(II)I
+    invoke-static {v2, v3}, Lcotlin/g2/o;->u(II)I
 
     move-result v2
 

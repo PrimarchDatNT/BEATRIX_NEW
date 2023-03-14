@@ -20,7 +20,7 @@
     value = "SMAP\nStickerManagerViewHolder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StickerManagerViewHolder.kt\ncom/commsource/studio/sticker/manage/StickerManagerViewHolder$onBindViewHolder$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,178:1\n1819#2,2:179\n*E\n*S KotlinDebug\n*F\n+ 1 StickerManagerViewHolder.kt\ncom/commsource/studio/sticker/manage/StickerManagerViewHolder$onBindViewHolder$1\n*L\n88#1,2:179\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "Landroid/view/View;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onClick",
         "(Landroid/view/View;)V",
         "<anonymous>"
@@ -157,7 +157,7 @@
 
     const-string v3, "adapter"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/commsource/widget/h1/e;->h()Ljava/util/List;
 
@@ -165,13 +165,13 @@
 
     const-string v4, "adapter.items"
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v4, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder$a;->b:Lcom/commsource/widget/h1/d;
 
     if-eqz v2, :cond_3
 
-    invoke-static {v2}, Lkotlin/jvm/internal/t0;->a(Ljava/lang/Object;)Ljava/util/Collection;
+    invoke-static {v2}, Lcotlin/jvm/internal/t0;->a(Ljava/lang/Object;)Ljava/util/Collection;
 
     move-result-object v2
 
@@ -198,7 +198,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/commsource/widget/h1/e;->h()Ljava/util/List;
 
@@ -228,7 +228,7 @@
     const-string v4, "it"
 
     .line 13
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -262,11 +262,11 @@
 
     .line 16
     :cond_1
-    new-instance v0, Lkotlin/TypeCastException;
+    new-instance v0, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type com.meitu.template.bean.StickerGroup"
 
-    invoke-direct {v0, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -10,7 +10,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -71,7 +71,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkshark/AndroidResourceIdNames$Companion;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lkshark/AndroidResourceIdNames$Companion;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lkshark/AndroidResourceIdNames;->Companion:Lkshark/AndroidResourceIdNames$Companion;
 
@@ -91,7 +91,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>([I[Ljava/lang/String;Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>([I[Ljava/lang/String;Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -138,7 +138,7 @@
 
     move v1, p1
 
-    invoke-static/range {v0 .. v5}, Lkotlin/collections/k;->J([IIIIILjava/lang/Object;)I
+    invoke-static/range {v0 .. v5}, Lcotlin/collections/k;->J([IIIIILjava/lang/Object;)I
 
     move-result p1
 

@@ -25,7 +25,7 @@
     value = "SMAP\nFilterManagerFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FilterManagerFragment.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment$initObserver$3\n*L\n1#1,212:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "Lcom/commsource/beautyfilter/NoStickLiveData$a;",
         "Lcom/meitu/template/bean/Filter;",
         "acceptFilter",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(Lcom/meitu/template/bean/Filter;)V",
         "app_googleplayRelease"

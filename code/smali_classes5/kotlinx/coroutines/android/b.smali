@@ -1,4 +1,4 @@
-.class public final Lkotlinx/coroutines/android/b;
+.class public final Lcotlinx/coroutines/android/b;
 .super Ljava/lang/Object;
 .source "HandlerDispatcher.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nHandlerDispatcher.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HandlerDispatcher.kt\nkotlinx/coroutines/android/HandlerDispatcherKt\n+ 2 CancellableContinuation.kt\nkotlinx/coroutines/CancellableContinuationKt\n+ 3 Runnable.kt\nkotlinx/coroutines/RunnableKt\n*L\n1#1,196:1\n197#2,8:197\n197#2,6:205\n203#2,2:212\n17#3:211\n*E\n*S KotlinDebug\n*F\n+ 1 HandlerDispatcher.kt\nkotlinx/coroutines/android/HandlerDispatcherKt\n*L\n173#1,8:197\n178#1,6:205\n178#1,2:212\n178#1:211\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -21,9 +21,9 @@
         "Landroid/os/Handler;",
         "",
         "name",
-        "Lkotlinx/coroutines/android/a;",
+        "Lcotlinx/coroutines/android/a;",
         "g",
-        "(Landroid/os/Handler;Ljava/lang/String;)Lkotlinx/coroutines/android/a;",
+        "(Landroid/os/Handler;Ljava/lang/String;)Lcotlinx/coroutines/android/a;",
         "Landroid/os/Looper;",
         "",
         "async",
@@ -31,21 +31,21 @@
         "(Landroid/os/Looper;Z)Landroid/os/Handler;",
         "",
         "e",
-        "(Lkotlin/coroutines/c;)Ljava/lang/Object;",
-        "Lkotlinx/coroutines/m;",
+        "(Lcotlin/coroutines/c;)Ljava/lang/Object;",
+        "Lcotlinx/coroutines/m;",
         "cont",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "j",
-        "(Lkotlinx/coroutines/m;)V",
+        "(Lcotlinx/coroutines/m;)V",
         "Landroid/view/Choreographer;",
         "choreographer",
         "i",
-        "(Landroid/view/Choreographer;Lkotlinx/coroutines/m;)V",
+        "(Landroid/view/Choreographer;Lcotlinx/coroutines/m;)V",
         "a",
         "J",
         "MAX_DELAY",
         "b",
-        "Lkotlinx/coroutines/android/a;",
+        "Lcotlinx/coroutines/android/a;",
         "Main$annotations",
         "()V",
         "Main",
@@ -64,8 +64,8 @@
 # static fields
 .field private static final a:J = 0x3fffffffffffffffL
 
-.field public static final b:Lkotlinx/coroutines/android/a;
-    .annotation build Lkotlin/jvm/d;
+.field public static final b:Lcotlinx/coroutines/android/a;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -81,9 +81,9 @@
 
     .line 1
     :try_start_0
-    sget-object v0, Lkotlin/Result;->Companion:Lkotlin/Result$a;
+    sget-object v0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
-    new-instance v0, Lkotlinx/coroutines/android/HandlerContext;
+    new-instance v0, Lcotlinx/coroutines/android/HandlerContext;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
@@ -91,15 +91,15 @@
 
     const/4 v2, 0x1
 
-    invoke-static {v1, v2}, Lkotlinx/coroutines/android/b;->d(Landroid/os/Looper;Z)Landroid/os/Handler;
+    invoke-static {v1, v2}, Lcotlinx/coroutines/android/b;->d(Landroid/os/Looper;Z)Landroid/os/Handler;
 
     move-result-object v1
 
     const-string v2, "Main"
 
-    invoke-direct {v0, v1, v2}, Lkotlinx/coroutines/android/HandlerContext;-><init>(Landroid/os/Handler;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2}, Lcotlinx/coroutines/android/HandlerContext;-><init>(Landroid/os/Handler;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lkotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
     :try_end_0
@@ -110,18 +110,18 @@
     :catchall_0
     move-exception v0
 
-    sget-object v1, Lkotlin/Result;->Companion:Lkotlin/Result$a;
+    sget-object v1, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
-    invoke-static {v0}, Lkotlin/r0;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
+    invoke-static {v0}, Lcotlin/r0;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     :goto_0
-    invoke-static {v0}, Lkotlin/Result;->isFailure-impl(Ljava/lang/Object;)Z
+    invoke-static {v0}, Lcotlin/Result;->isFailure-impl(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -130,37 +130,37 @@
     const/4 v0, 0x0
 
     :cond_0
-    check-cast v0, Lkotlinx/coroutines/android/a;
+    check-cast v0, Lcotlinx/coroutines/android/a;
 
-    sput-object v0, Lkotlinx/coroutines/android/b;->b:Lkotlinx/coroutines/android/a;
+    sput-object v0, Lcotlinx/coroutines/android/b;->b:Lcotlinx/coroutines/android/a;
 
     return-void
 .end method
 
 .method public static synthetic a()V
     .locals 0
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->HIDDEN:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->HIDDEN:Lcotlin/DeprecationLevel;
         message = "Use Dispatchers.Main instead"
     .end annotation
 
     return-void
 .end method
 
-.method public static final synthetic b(Landroid/view/Choreographer;Lkotlinx/coroutines/m;)V
+.method public static final synthetic b(Landroid/view/Choreographer;Lcotlinx/coroutines/m;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/android/b;->i(Landroid/view/Choreographer;Lkotlinx/coroutines/m;)V
+    invoke-static {p0, p1}, Lcotlinx/coroutines/android/b;->i(Landroid/view/Choreographer;Lcotlinx/coroutines/m;)V
 
     return-void
 .end method
 
-.method public static final synthetic c(Lkotlinx/coroutines/m;)V
+.method public static final synthetic c(Lcotlinx/coroutines/m;)V
     .locals 0
 
     .line 1
-    invoke-static {p0}, Lkotlinx/coroutines/android/b;->j(Lkotlinx/coroutines/m;)V
+    invoke-static {p0}, Lcotlinx/coroutines/android/b;->j(Lcotlinx/coroutines/m;)V
 
     return-void
 .end method
@@ -230,11 +230,11 @@
     return-object p0
 
     :cond_1
-    new-instance p0, Lkotlin/TypeCastException;
+    new-instance p0, Lcotlin/TypeCastException;
 
     const-string p1, "null cannot be cast to non-null type android.os.Handler"
 
-    invoke-direct {p0, p1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p0
 
@@ -306,16 +306,16 @@
     return-object p1
 .end method
 
-.method public static final e(Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final e(Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
-    .param p0    # Lkotlin/coroutines/c;
+    .param p0    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Long;",
             ">;)",
@@ -327,95 +327,95 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/android/b;->choreographer:Landroid/view/Choreographer;
+    sget-object v0, Lcotlinx/coroutines/android/b;->choreographer:Landroid/view/Choreographer;
 
     const/4 v1, 0x1
 
     if-eqz v0, :cond_1
 
     .line 2
-    new-instance v2, Lkotlinx/coroutines/n;
+    new-instance v2, Lcotlinx/coroutines/n;
 
-    invoke-static {p0}, Lkotlin/coroutines/intrinsics/a;->d(Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-static {p0}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object v3
 
-    invoke-direct {v2, v3, v1}, Lkotlinx/coroutines/n;-><init>(Lkotlin/coroutines/c;I)V
+    invoke-direct {v2, v3, v1}, Lcotlinx/coroutines/n;-><init>(Lcotlin/coroutines/c;I)V
 
     .line 3
-    invoke-static {v0, v2}, Lkotlinx/coroutines/android/b;->b(Landroid/view/Choreographer;Lkotlinx/coroutines/m;)V
+    invoke-static {v0, v2}, Lcotlinx/coroutines/android/b;->b(Landroid/view/Choreographer;Lcotlinx/coroutines/m;)V
 
     .line 4
-    invoke-virtual {v2}, Lkotlinx/coroutines/n;->v()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlinx/coroutines/n;->v()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 5
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     if-ne v0, v1, :cond_0
 
-    invoke-static {p0}, Lkotlin/coroutines/jvm/internal/f;->c(Lkotlin/coroutines/c;)V
+    invoke-static {p0}, Lcotlin/coroutines/jvm/internal/f;->c(Lcotlin/coroutines/c;)V
 
     :cond_0
     return-object v0
 
     .line 6
     :cond_1
-    new-instance v0, Lkotlinx/coroutines/n;
+    new-instance v0, Lcotlinx/coroutines/n;
 
-    invoke-static {p0}, Lkotlin/coroutines/intrinsics/a;->d(Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-static {p0}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object v2
 
-    invoke-direct {v0, v2, v1}, Lkotlinx/coroutines/n;-><init>(Lkotlin/coroutines/c;I)V
+    invoke-direct {v0, v2, v1}, Lcotlinx/coroutines/n;-><init>(Lcotlin/coroutines/c;I)V
 
     .line 7
-    invoke-static {}, Lkotlinx/coroutines/c1;->g()Lkotlinx/coroutines/m2;
+    invoke-static {}, Lcotlinx/coroutines/c1;->g()Lcotlinx/coroutines/m2;
 
     move-result-object v1
 
-    sget-object v2, Lkotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lkotlin/coroutines/EmptyCoroutineContext;
+    sget-object v2, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     .line 8
-    new-instance v3, Lkotlinx/coroutines/android/b$a;
+    new-instance v3, Lcotlinx/coroutines/android/b$a;
 
-    invoke-direct {v3, v0}, Lkotlinx/coroutines/android/b$a;-><init>(Lkotlinx/coroutines/m;)V
+    invoke-direct {v3, v0}, Lcotlinx/coroutines/android/b$a;-><init>(Lcotlinx/coroutines/m;)V
 
     .line 9
-    invoke-virtual {v1, v2, v3}, Lkotlinx/coroutines/CoroutineDispatcher;->u(Lkotlin/coroutines/CoroutineContext;Ljava/lang/Runnable;)V
+    invoke-virtual {v1, v2, v3}, Lcotlinx/coroutines/CoroutineDispatcher;->u(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Runnable;)V
 
     .line 10
-    invoke-virtual {v0}, Lkotlinx/coroutines/n;->v()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlinx/coroutines/n;->v()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 11
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     if-ne v0, v1, :cond_2
 
-    invoke-static {p0}, Lkotlin/coroutines/jvm/internal/f;->c(Lkotlin/coroutines/c;)V
+    invoke-static {p0}, Lcotlin/coroutines/jvm/internal/f;->c(Lcotlin/coroutines/c;)V
 
     :cond_2
     return-object v0
 .end method
 
-.method public static final f(Landroid/os/Handler;)Lkotlinx/coroutines/android/a;
+.method public static final f(Landroid/os/Handler;)Lcotlinx/coroutines/android/a;
     .locals 2
     .param p0    # Landroid/os/Handler;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "from"
     .end annotation
 
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -425,14 +425,14 @@
 
     const/4 v1, 0x1
 
-    invoke-static {p0, v0, v1, v0}, Lkotlinx/coroutines/android/b;->h(Landroid/os/Handler;Ljava/lang/String;ILjava/lang/Object;)Lkotlinx/coroutines/android/a;
+    invoke-static {p0, v0, v1, v0}, Lcotlinx/coroutines/android/b;->h(Landroid/os/Handler;Ljava/lang/String;ILjava/lang/Object;)Lcotlinx/coroutines/android/a;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final g(Landroid/os/Handler;Ljava/lang/String;)Lkotlinx/coroutines/android/a;
+.method public static final g(Landroid/os/Handler;Ljava/lang/String;)Lcotlinx/coroutines/android/a;
     .locals 1
     .param p0    # Landroid/os/Handler;
         .annotation build Ln/e/a/d;
@@ -442,25 +442,25 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "from"
     .end annotation
 
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/android/HandlerContext;
+    new-instance v0, Lcotlinx/coroutines/android/HandlerContext;
 
-    invoke-direct {v0, p0, p1}, Lkotlinx/coroutines/android/HandlerContext;-><init>(Landroid/os/Handler;Ljava/lang/String;)V
+    invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/android/HandlerContext;-><init>(Landroid/os/Handler;Ljava/lang/String;)V
 
     return-object v0
 .end method
 
-.method public static synthetic h(Landroid/os/Handler;Ljava/lang/String;ILjava/lang/Object;)Lkotlinx/coroutines/android/a;
+.method public static synthetic h(Landroid/os/Handler;Ljava/lang/String;ILjava/lang/Object;)Lcotlinx/coroutines/android/a;
     .locals 0
 
     and-int/lit8 p2, p2, 0x1
@@ -471,20 +471,20 @@
 
     .line 1
     :cond_0
-    invoke-static {p0, p1}, Lkotlinx/coroutines/android/b;->g(Landroid/os/Handler;Ljava/lang/String;)Lkotlinx/coroutines/android/a;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/android/b;->g(Landroid/os/Handler;Ljava/lang/String;)Lcotlinx/coroutines/android/a;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final i(Landroid/view/Choreographer;Lkotlinx/coroutines/m;)V
+.method private static final i(Landroid/view/Choreographer;Lcotlinx/coroutines/m;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/view/Choreographer;",
-            "Lkotlinx/coroutines/m<",
+            "Lcotlinx/coroutines/m<",
             "-",
             "Ljava/lang/Long;",
             ">;)V"
@@ -492,21 +492,21 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/android/b$b;
+    new-instance v0, Lcotlinx/coroutines/android/b$b;
 
-    invoke-direct {v0, p1}, Lkotlinx/coroutines/android/b$b;-><init>(Lkotlinx/coroutines/m;)V
+    invoke-direct {v0, p1}, Lcotlinx/coroutines/android/b$b;-><init>(Lcotlinx/coroutines/m;)V
 
     invoke-virtual {p0, v0}, Landroid/view/Choreographer;->postFrameCallback(Landroid/view/Choreographer$FrameCallback;)V
 
     return-void
 .end method
 
-.method private static final j(Lkotlinx/coroutines/m;)V
+.method private static final j(Lcotlinx/coroutines/m;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/m<",
+            "Lcotlinx/coroutines/m<",
             "-",
             "Ljava/lang/Long;",
             ">;)V"
@@ -514,7 +514,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/android/b;->choreographer:Landroid/view/Choreographer;
+    sget-object v0, Lcotlinx/coroutines/android/b;->choreographer:Landroid/view/Choreographer;
 
     if-eqz v0, :cond_0
 
@@ -528,14 +528,14 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
-    sput-object v0, Lkotlinx/coroutines/android/b;->choreographer:Landroid/view/Choreographer;
+    sput-object v0, Lcotlinx/coroutines/android/b;->choreographer:Landroid/view/Choreographer;
 
     .line 3
     :goto_0
-    invoke-static {v0, p0}, Lkotlinx/coroutines/android/b;->i(Landroid/view/Choreographer;Lkotlinx/coroutines/m;)V
+    invoke-static {v0, p0}, Lcotlinx/coroutines/android/b;->i(Landroid/view/Choreographer;Lcotlinx/coroutines/m;)V
 
     return-void
 .end method

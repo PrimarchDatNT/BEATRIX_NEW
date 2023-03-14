@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/internal/p$a;
+.class public final Lcotlinx/coroutines/internal/p$a;
 .super Ljava/lang/Object;
 .source "LockFreeTaskQueue.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/internal/p;
+    value = Lcotlinx/coroutines/internal/p;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,14 +36,14 @@
         "newTail",
         "c",
         "T",
-        "Lkotlin/Function2;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function2;",
+        "Lcotlin/k0;",
         "name",
         "head",
         "tail",
         "block",
         "d",
-        "(JLkotlin/jvm/u/p;)Ljava/lang/Object;",
+        "(JLcotlin/jvm/u/p;)Ljava/lang/Object;",
         "a",
         "(J)I",
         "ADD_CLOSED",
@@ -61,9 +61,9 @@
         "INITIAL_CAPACITY",
         "MAX_CAPACITY_MASK",
         "MIN_ADD_SPIN_CAPACITY",
-        "Lkotlinx/coroutines/internal/c0;",
+        "Lcotlinx/coroutines/internal/c0;",
         "REMOVE_FROZEN",
-        "Lkotlinx/coroutines/internal/c0;",
+        "Lcotlinx/coroutines/internal/c0;",
         "TAIL_MASK",
         "TAIL_SHIFT",
         "<init>",
@@ -89,11 +89,11 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlinx/coroutines/internal/p$a;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/internal/p$a;-><init>()V
 
     return-void
 .end method
@@ -130,7 +130,7 @@
     const-wide/32 v0, 0x3fffffff
 
     .line 1
-    invoke-virtual {p0, p1, p2, v0, v1}, Lkotlinx/coroutines/internal/p$a;->e(JJ)J
+    invoke-virtual {p0, p1, p2, v0, v1}, Lcotlinx/coroutines/internal/p$a;->e(JJ)J
 
     move-result-wide p1
 
@@ -151,7 +151,7 @@
     const-wide v0, 0xfffffffc0000000L
 
     .line 1
-    invoke-virtual {p0, p1, p2, v0, v1}, Lkotlinx/coroutines/internal/p$a;->e(JJ)J
+    invoke-virtual {p0, p1, p2, v0, v1}, Lcotlinx/coroutines/internal/p$a;->e(JJ)J
 
     move-result-wide p1
 
@@ -166,9 +166,9 @@
     return-wide p1
 .end method
 
-.method public final d(JLkotlin/jvm/u/p;)Ljava/lang/Object;
+.method public final d(JLcotlin/jvm/u/p;)Ljava/lang/Object;
     .locals 4
-    .param p3    # Lkotlin/jvm/u/p;
+    .param p3    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -177,7 +177,7 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(J",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Ljava/lang/Integer;",
             "-",
@@ -215,7 +215,7 @@
 
     move-result-object p2
 
-    invoke-interface {p3, p1, p2}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p1, p2}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

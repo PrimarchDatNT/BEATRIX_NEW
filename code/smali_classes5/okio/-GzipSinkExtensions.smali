@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation build Lkotlin/jvm/g;
+.annotation build Lcotlin/jvm/g;
     name = "-GzipSinkExtensions"
 .end annotation
 
@@ -45,7 +45,7 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lokio/GzipSink;

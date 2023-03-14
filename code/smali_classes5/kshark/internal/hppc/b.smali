@@ -8,7 +8,7 @@
     value = "SMAP\nLongScatterSet.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LongScatterSet.kt\nkshark/internal/hppc/LongScatterSet\n*L\n1#1,199:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "(J)I",
         "",
         "fromKeys",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "h",
         "([J)V",
         "arraySize",
@@ -156,14 +156,14 @@
     iput-object v0, p0, Lkshark/internal/hppc/b;->a:[J
 
     .line 6
-    sget-object v0, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
+    sget-object v0, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     .line 7
     sget-object v0, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
 
     const-string v3, "Locale.ROOT"
 
-    invoke-static {v0, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v3, 0x2
 
@@ -202,7 +202,7 @@
 
     const-string v0, "java.lang.String.format(locale, format, *args)"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 11
     new-instance v0, Ljava/lang/RuntimeException;

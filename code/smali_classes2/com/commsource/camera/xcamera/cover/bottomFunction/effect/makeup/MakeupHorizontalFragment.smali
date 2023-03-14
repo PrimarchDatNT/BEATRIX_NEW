@@ -14,7 +14,7 @@
     value = "SMAP\nMakeupHorizontalFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MakeupHorizontalFragment.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment\n*L\n1#1,394:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
     d2 = {
         "Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;",
         "Lcom/commsource/camera/xcamera/cover/bottomFunction/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "U",
         "()V",
         "Landroid/view/LayoutInflater;",
@@ -53,7 +53,7 @@
         "(Lcom/commsource/repository/child/makeup/e;Z)V",
         "Lcom/commsource/camera/xcamera/cover/tips/a;",
         "g",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "P",
         "()Lcom/commsource/camera/xcamera/cover/tips/a;",
         "tipsViewModel",
@@ -144,57 +144,57 @@
 
 
 # instance fields
-.field private final J:Lkotlin/w;
+.field private final J:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final K:Lkotlin/w;
+.field private final K:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final L:Lkotlin/w;
+.field private final L:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final M:Lkotlin/w;
+.field private final M:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final N:Lkotlin/w;
+.field private final N:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final O:Lkotlin/w;
+.field private final O:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final P:Lkotlin/w;
+.field private final P:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final Q:Lkotlin/w;
+.field private final Q:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final R:Lkotlin/w;
+.field private final R:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final S:Lkotlin/w;
+.field private final S:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final T:Lkotlin/w;
+.field private final T:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -216,22 +216,22 @@
 
 .field private W:Ljava/util/HashMap;
 
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final f:Lkotlin/w;
+.field private final f:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final g:Lkotlin/w;
+.field private final g:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final p:Lkotlin/w;
+.field private final p:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -249,163 +249,163 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$mViewBinding$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->d:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->d:Lcotlin/w;
 
     .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$makeupViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$makeupViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->f:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->f:Lcotlin/w;
 
     .line 4
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$tipsViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$tipsViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->g:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->g:Lcotlin/w;
 
     .line 5
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$bottomFunctionViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$bottomFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->p:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->p:Lcotlin/w;
 
     .line 6
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$cameraConfigViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$cameraConfigViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->J:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->J:Lcotlin/w;
 
     .line 7
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$effectFunctionViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$effectFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->K:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->K:Lcotlin/w;
 
     .line 8
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$lookViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$lookViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->L:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->L:Lcotlin/w;
 
     .line 9
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$arViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$arViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->M:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->M:Lcotlin/w;
 
     .line 10
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$filterViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$filterViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->N:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->N:Lcotlin/w;
 
     .line 11
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$cameraCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$cameraCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->O:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->O:Lcotlin/w;
 
     .line 12
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$mAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$mAdapter$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->P:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->P:Lcotlin/w;
 
     .line 13
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$mTitleAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$mTitleAdapter$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->Q:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->Q:Lcotlin/w;
 
     .line 14
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$makeupItemDecoration$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$makeupItemDecoration$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->R:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->R:Lcotlin/w;
 
     .line 15
     sget-object v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$titleItemDecoration$2;->INSTANCE:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$titleItemDecoration$2;
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->S:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->S:Lcotlin/w;
 
     .line 16
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$vpAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$vpAdapter$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->T:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->T:Lcotlin/w;
 
     return-void
 .end method
@@ -428,7 +428,7 @@
 
     const-string v3, "mViewBinding.rvMakeup"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v4, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;
 
@@ -462,7 +462,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/s9;->p:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->J()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/b;
 
@@ -479,7 +479,7 @@
 
     const-string v3, "mViewBinding.rvTitle"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v4, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;
 
@@ -511,7 +511,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/s9;->J:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->K()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/b;
 
@@ -528,7 +528,7 @@
 
     const-string v3, "mViewBinding.vp"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->T()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment$a;
 
@@ -543,7 +543,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/s9;->N:Landroidx/viewpager2/widget/ViewPager2;
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2, v6}, Landroidx/viewpager2/widget/ViewPager2;->setUserInputEnabled(Z)V
 
@@ -626,7 +626,7 @@
 
     const-string v2, "bottomFunctionViewModel"
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->B()Landroidx/lifecycle/MutableLiveData;
 
@@ -782,7 +782,7 @@
 
     const-string v2, "arViewModel"
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->E()Landroidx/lifecycle/MutableLiveData;
 
@@ -834,9 +834,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->M:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->M:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -856,9 +856,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->p:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->p:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -878,9 +878,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->O:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->O:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -900,9 +900,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->J:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->J:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -922,9 +922,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->K:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->K:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -944,9 +944,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->N:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->N:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1007,9 +1007,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->L:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->L:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1029,9 +1029,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->P:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->P:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1051,9 +1051,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->Q:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->Q:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1073,9 +1073,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1095,9 +1095,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->R:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->R:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1117,9 +1117,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->f:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->f:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1139,9 +1139,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->g:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->g:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1161,9 +1161,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->S:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->S:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1183,9 +1183,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->T:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->T:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1209,7 +1209,7 @@
 
     const-string v1, "group"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "\u5206\u7c7b\u540d\u79f0"
 
@@ -1343,7 +1343,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/s9;->a:Landroid/widget/LinearLayout;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/high16 v2, 0x3f800000    # 1.0f
 
@@ -1356,7 +1356,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/s9;->a:Landroid/widget/LinearLayout;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x1
 
@@ -1372,7 +1372,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/s9;->a:Landroid/widget/LinearLayout;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const v2, 0x3e99999a    # 0.3f
 
@@ -1385,7 +1385,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/s9;->a:Landroid/widget/LinearLayout;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
@@ -1486,7 +1486,7 @@
 
     const-string p3, "inflater"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupHorizontalFragment;->L()Lcom/commsource/beautyplus/f0/s9;
@@ -1535,7 +1535,7 @@
 
     const-string v1, "view"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V

@@ -30,7 +30,7 @@
     value = "SMAP\nStickerManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StickerManager.kt\ncom/commsource/studio/sticker/StickerManager$compareAndRefreshSticker$compareResult$1\n*L\n1#1,978:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -48,7 +48,7 @@
         "update",
         "remove",
         "remain",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V",
         "app_googleplayRelease"

@@ -13,7 +13,7 @@
     name = "InlineInteractionListener"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
     d2 = {
         "Lcom/mopub/mobileads/AdLifecycleListener$InlineInteractionListener;",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onAdResumeAutoRefresh",
         "()V",
         "onAdPauseAutoRefresh",
@@ -44,21 +44,21 @@
 
 # virtual methods
 .method public abstract onAdCollapsed()V
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method
 
 .method public abstract onAdExpanded()V
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method
 
 .method public abstract onAdPauseAutoRefresh()V
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method
 
 .method public abstract onAdResumeAutoRefresh()V
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method

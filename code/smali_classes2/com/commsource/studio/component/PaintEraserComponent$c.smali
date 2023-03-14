@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "progress",
         "",
         "leftDx",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "C",
         "(IF)V",
         "",
@@ -100,7 +100,7 @@
 
     const-string v0, "viewBinding.vBg"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -126,7 +126,7 @@
 
     const-string v1, "viewBinding.ifvPaint"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setAlpha(F)V
 
@@ -144,7 +144,7 @@
 
     const-string v1, "viewBinding.ifvEraser"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setAlpha(F)V
 
@@ -215,7 +215,7 @@
 
     const-string p3, "viewBinding.vBg"
 
-    invoke-static {p2, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/high16 p3, 0x3f800000    # 1.0f
 
@@ -241,7 +241,7 @@
 
     const-string v0, "viewBinding.ifvPaint"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setAlpha(F)V
 
@@ -259,7 +259,7 @@
 
     const-string v0, "viewBinding.ifvEraser"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setAlpha(F)V
 

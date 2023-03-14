@@ -1,11 +1,11 @@
-.class public final Lkotlin/io/a$a;
-.super Lkotlin/collections/q;
+.class public final Lcotlin/io/a$a;
+.super Lcotlin/collections/q;
 .source "IOStreams.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/io/a;->o(Ljava/io/BufferedInputStream;)Lkotlin/collections/q;
+    value = Lcotlin/io/a;->o(Ljava/io/BufferedInputStream;)Lcotlin/collections/q;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,8 +24,8 @@
     }
     d2 = {
         "kotlin/io/a$a",
-        "Lkotlin/collections/q;",
-        "Lkotlin/t1;",
+        "Lcotlin/collections/q;",
+        "Lcotlin/t1;",
         "e",
         "()V",
         "",
@@ -76,14 +76,14 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lkotlin/io/a$a;->d:Ljava/io/BufferedInputStream;
+    iput-object p1, p0, Lcotlin/io/a$a;->d:Ljava/io/BufferedInputStream;
 
-    invoke-direct {p0}, Lkotlin/collections/q;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/q;-><init>()V
 
     const/4 p1, -0x1
 
     .line 2
-    iput p1, p0, Lkotlin/io/a$a;->a:I
+    iput p1, p0, Lcotlin/io/a$a;->a:I
 
     return-void
 .end method
@@ -92,27 +92,27 @@
     .locals 3
 
     .line 1
-    iget-boolean v0, p0, Lkotlin/io/a$a;->b:Z
+    iget-boolean v0, p0, Lcotlin/io/a$a;->b:Z
 
     if-nez v0, :cond_1
 
-    iget-boolean v0, p0, Lkotlin/io/a$a;->c:Z
+    iget-boolean v0, p0, Lcotlin/io/a$a;->c:Z
 
     if-nez v0, :cond_1
 
     .line 2
-    iget-object v0, p0, Lkotlin/io/a$a;->d:Ljava/io/BufferedInputStream;
+    iget-object v0, p0, Lcotlin/io/a$a;->d:Ljava/io/BufferedInputStream;
 
     invoke-virtual {v0}, Ljava/io/BufferedInputStream;->read()I
 
     move-result v0
 
-    iput v0, p0, Lkotlin/io/a$a;->a:I
+    iput v0, p0, Lcotlin/io/a$a;->a:I
 
     const/4 v1, 0x1
 
     .line 3
-    iput-boolean v1, p0, Lkotlin/io/a$a;->b:Z
+    iput-boolean v1, p0, Lcotlin/io/a$a;->b:Z
 
     const/4 v2, -0x1
 
@@ -125,7 +125,7 @@
 
     .line 4
     :goto_0
-    iput-boolean v1, p0, Lkotlin/io/a$a;->c:Z
+    iput-boolean v1, p0, Lcotlin/io/a$a;->c:Z
 
     :cond_1
     return-void
@@ -137,7 +137,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Lkotlin/io/a$a;->c:Z
+    iget-boolean v0, p0, Lcotlin/io/a$a;->c:Z
 
     return v0
 .end method
@@ -146,7 +146,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlin/io/a$a;->a:I
+    iget v0, p0, Lcotlin/io/a$a;->a:I
 
     return v0
 .end method
@@ -155,7 +155,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Lkotlin/io/a$a;->b:Z
+    iget-boolean v0, p0, Lcotlin/io/a$a;->b:Z
 
     return v0
 .end method
@@ -164,7 +164,7 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Lkotlin/io/a$a;->c:Z
+    iput-boolean p1, p0, Lcotlin/io/a$a;->c:Z
 
     return-void
 .end method
@@ -173,7 +173,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lkotlin/io/a$a;->a:I
+    iput p1, p0, Lcotlin/io/a$a;->a:I
 
     return-void
 .end method
@@ -182,22 +182,22 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Lkotlin/io/a$a;->e()V
+    invoke-direct {p0}, Lcotlin/io/a$a;->e()V
 
     .line 2
-    iget-boolean v0, p0, Lkotlin/io/a$a;->c:Z
+    iget-boolean v0, p0, Lcotlin/io/a$a;->c:Z
 
     if-nez v0, :cond_0
 
     .line 3
-    iget v0, p0, Lkotlin/io/a$a;->a:I
+    iget v0, p0, Lcotlin/io/a$a;->a:I
 
     int-to-byte v0, v0
 
     const/4 v1, 0x0
 
     .line 4
-    iput-boolean v1, p0, Lkotlin/io/a$a;->b:Z
+    iput-boolean v1, p0, Lcotlin/io/a$a;->b:Z
 
     return v0
 
@@ -216,10 +216,10 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Lkotlin/io/a$a;->e()V
+    invoke-direct {p0}, Lcotlin/io/a$a;->e()V
 
     .line 2
-    iget-boolean v0, p0, Lkotlin/io/a$a;->c:Z
+    iget-boolean v0, p0, Lcotlin/io/a$a;->c:Z
 
     xor-int/lit8 v0, v0, 0x1
 
@@ -230,7 +230,7 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Lkotlin/io/a$a;->b:Z
+    iput-boolean p1, p0, Lcotlin/io/a$a;->b:Z
 
     return-void
 .end method

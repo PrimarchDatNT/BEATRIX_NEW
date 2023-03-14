@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,7 +40,7 @@
     d2 = {
         "Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;",
         "function",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;)V"
     }
@@ -153,15 +153,15 @@
 
     .line 8
     :cond_3
-    new-instance p1, Lkotlin/jvm/internal/Ref$ObjectRef;
+    new-instance p1, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    invoke-direct {p1}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+    invoke-direct {p1}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
     new-instance v1, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c$c;
 
     invoke-direct {v1, p0}, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c$c;-><init>(Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;)V
 
-    iput-object v1, p1, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object v1, p1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 9
     invoke-static {}, Lcom/commsource/camera/montage/z;->e()Z
@@ -228,7 +228,7 @@
 
     const-string v3, "Montage"
 
-    invoke-direct {v2, p1, v3}, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c$a;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;Ljava/lang/String;)V
+    invoke-direct {v2, p1, v3}, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c$a;-><init>(Lcotlin/jvm/internal/Ref$ObjectRef;Ljava/lang/String;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
@@ -262,7 +262,7 @@
 
     .line 17
     :cond_5
-    iget-object p1, p1, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iget-object p1, p1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     check-cast p1, Ljava/lang/Runnable;
 
@@ -283,7 +283,7 @@
 
     const-string v1, "arViewModel.arFunctionEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x0
 

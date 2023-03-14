@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -23,16 +23,16 @@
         "b",
         "()Lkshark/ReferencePattern;",
         "c",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "Lkshark/i;",
         "",
         "d",
-        "()Lkotlin/jvm/u/l;",
+        "()Lcotlin/jvm/u/l;",
         "pattern",
         "description",
         "patternApplies",
         "e",
-        "(Lkshark/ReferencePattern;Ljava/lang/String;Lkotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;",
+        "(Lkshark/ReferencePattern;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;",
         "",
         "hashCode",
         "()I",
@@ -40,14 +40,14 @@
         "other",
         "equals",
         "(Ljava/lang/Object;)Z",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "h",
         "a",
         "Lkshark/ReferencePattern;",
         "Ljava/lang/String;",
         "g",
         "<init>",
-        "(Lkshark/ReferencePattern;Ljava/lang/String;Lkotlin/jvm/u/l;)V",
+        "(Lkshark/ReferencePattern;Ljava/lang/String;Lcotlin/jvm/u/l;)V",
         "shark"
     }
     k = 0x1
@@ -70,10 +70,10 @@
     .end annotation
 .end field
 
-.field private final c:Lkotlin/jvm/u/l;
+.field private final c:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Lkshark/i;",
             "Ljava/lang/Boolean;",
             ">;"
@@ -86,7 +86,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lkshark/ReferencePattern;Ljava/lang/String;Lkotlin/jvm/u/l;)V
+.method public constructor <init>(Lkshark/ReferencePattern;Ljava/lang/String;Lcotlin/jvm/u/l;)V
     .locals 1
     .param p1    # Lkshark/ReferencePattern;
         .annotation build Ln/e/a/d;
@@ -96,7 +96,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/jvm/u/l;
+    .param p3    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -105,7 +105,7 @@
             "(",
             "Lkshark/ReferencePattern;",
             "Ljava/lang/String;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lkshark/i;",
             "Ljava/lang/Boolean;",
@@ -115,31 +115,31 @@
 
     const-string v0, "pattern"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "description"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "patternApplies"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Lkshark/z;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {p0, v0}, Lkshark/z;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lkshark/LibraryLeakReferenceMatcher;->a:Lkshark/ReferencePattern;
 
     iput-object p2, p0, Lkshark/LibraryLeakReferenceMatcher;->b:Ljava/lang/String;
 
-    iput-object p3, p0, Lkshark/LibraryLeakReferenceMatcher;->c:Lkotlin/jvm/u/l;
+    iput-object p3, p0, Lkshark/LibraryLeakReferenceMatcher;->c:Lcotlin/jvm/u/l;
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkshark/ReferencePattern;Ljava/lang/String;Lkotlin/jvm/u/l;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lkshark/ReferencePattern;Ljava/lang/String;Lcotlin/jvm/u/l;ILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p5, p4, 0x2
@@ -157,12 +157,12 @@
     sget-object p3, Lkshark/LibraryLeakReferenceMatcher$1;->INSTANCE:Lkshark/LibraryLeakReferenceMatcher$1;
 
     :cond_1
-    invoke-direct {p0, p1, p2, p3}, Lkshark/LibraryLeakReferenceMatcher;-><init>(Lkshark/ReferencePattern;Ljava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-direct {p0, p1, p2, p3}, Lkshark/LibraryLeakReferenceMatcher;-><init>(Lkshark/ReferencePattern;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
     return-void
 .end method
 
-.method public static synthetic f(Lkshark/LibraryLeakReferenceMatcher;Lkshark/ReferencePattern;Ljava/lang/String;Lkotlin/jvm/u/l;ILjava/lang/Object;)Lkshark/LibraryLeakReferenceMatcher;
+.method public static synthetic f(Lkshark/LibraryLeakReferenceMatcher;Lkshark/ReferencePattern;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)Lkshark/LibraryLeakReferenceMatcher;
     .locals 0
 
     and-int/lit8 p5, p4, 0x1
@@ -185,10 +185,10 @@
 
     if-eqz p4, :cond_2
 
-    iget-object p3, p0, Lkshark/LibraryLeakReferenceMatcher;->c:Lkotlin/jvm/u/l;
+    iget-object p3, p0, Lkshark/LibraryLeakReferenceMatcher;->c:Lcotlin/jvm/u/l;
 
     :cond_2
-    invoke-virtual {p0, p1, p2, p3}, Lkshark/LibraryLeakReferenceMatcher;->e(Lkshark/ReferencePattern;Ljava/lang/String;Lkotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
+    invoke-virtual {p0, p1, p2, p3}, Lkshark/LibraryLeakReferenceMatcher;->e(Lkshark/ReferencePattern;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object p0
 
@@ -230,12 +230,12 @@
     return-object v0
 .end method
 
-.method public final d()Lkotlin/jvm/u/l;
+.method public final d()Lcotlin/jvm/u/l;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Lkshark/i;",
             "Ljava/lang/Boolean;",
             ">;"
@@ -245,12 +245,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    iget-object v0, p0, Lkshark/LibraryLeakReferenceMatcher;->c:Lkotlin/jvm/u/l;
+    iget-object v0, p0, Lkshark/LibraryLeakReferenceMatcher;->c:Lcotlin/jvm/u/l;
 
     return-object v0
 .end method
 
-.method public final e(Lkshark/ReferencePattern;Ljava/lang/String;Lkotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
+.method public final e(Lkshark/ReferencePattern;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
     .locals 1
     .param p1    # Lkshark/ReferencePattern;
         .annotation build Ln/e/a/d;
@@ -260,7 +260,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/jvm/u/l;
+    .param p3    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -269,7 +269,7 @@
             "(",
             "Lkshark/ReferencePattern;",
             "Ljava/lang/String;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lkshark/i;",
             "Ljava/lang/Boolean;",
@@ -283,19 +283,19 @@
 
     const-string v0, "pattern"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "description"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "patternApplies"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Lkshark/LibraryLeakReferenceMatcher;
 
-    invoke-direct {v0, p1, p2, p3}, Lkshark/LibraryLeakReferenceMatcher;-><init>(Lkshark/ReferencePattern;Ljava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-direct {v0, p1, p2, p3}, Lkshark/LibraryLeakReferenceMatcher;-><init>(Lkshark/ReferencePattern;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
     return-object v0
 .end method
@@ -323,7 +323,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -333,17 +333,17 @@
 
     iget-object v1, p1, Lkshark/LibraryLeakReferenceMatcher;->b:Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkshark/LibraryLeakReferenceMatcher;->c:Lkotlin/jvm/u/l;
+    iget-object v0, p0, Lkshark/LibraryLeakReferenceMatcher;->c:Lcotlin/jvm/u/l;
 
-    iget-object p1, p1, Lkshark/LibraryLeakReferenceMatcher;->c:Lkotlin/jvm/u/l;
+    iget-object p1, p1, Lkshark/LibraryLeakReferenceMatcher;->c:Lcotlin/jvm/u/l;
 
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -374,12 +374,12 @@
     return-object v0
 .end method
 
-.method public final h()Lkotlin/jvm/u/l;
+.method public final h()Lcotlin/jvm/u/l;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Lkshark/i;",
             "Ljava/lang/Boolean;",
             ">;"
@@ -390,7 +390,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkshark/LibraryLeakReferenceMatcher;->c:Lkotlin/jvm/u/l;
+    iget-object v0, p0, Lkshark/LibraryLeakReferenceMatcher;->c:Lcotlin/jvm/u/l;
 
     return-object v0
 .end method
@@ -436,7 +436,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v2, p0, Lkshark/LibraryLeakReferenceMatcher;->c:Lkotlin/jvm/u/l;
+    iget-object v2, p0, Lkshark/LibraryLeakReferenceMatcher;->c:Lcotlin/jvm/u/l;
 
     if-eqz v2, :cond_2
 

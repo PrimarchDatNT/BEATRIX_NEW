@@ -3,7 +3,7 @@
 .source "lambda"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # instance fields
@@ -30,7 +30,7 @@
 
     check-cast p1, Ljava/lang/String;
 
-    invoke-virtual {v0, p1}, Lcom/commsource/beautyplus/setting/about/AboutActivity;->Z0(Ljava/lang/String;)Lkotlin/t1;
+    invoke-virtual {v0, p1}, Lcom/commsource/beautyplus/setting/about/AboutActivity;->Z0(Ljava/lang/String;)Lcotlin/t1;
 
     move-result-object p1
 

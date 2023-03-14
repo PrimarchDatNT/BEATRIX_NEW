@@ -1,15 +1,15 @@
-.class public interface abstract Lkotlin/reflect/q$a;
+.class public interface abstract Lcotlin/reflect/q$a;
 .super Ljava/lang/Object;
 .source "KProperty.kt"
 
 # interfaces
-.implements Lkotlin/reflect/n$c;
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/reflect/n$c;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/reflect/q;
+    value = Lcotlin/reflect/q;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,14 +27,14 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lkotlin/reflect/n$c<",
+        "Lcotlin/reflect/n$c<",
         "TV;>;",
-        "Lkotlin/jvm/u/p<",
+        "Lcotlin/jvm/u/p<",
         "TD;TE;TV;>;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -48,8 +48,8 @@
         "D",
         "E",
         "V",
-        "Lkotlin/reflect/n$c;",
-        "Lkotlin/Function2;",
+        "Lcotlin/reflect/n$c;",
+        "Lcotlin/Function2;",
         "kotlin-stdlib"
     }
     k = 0x1

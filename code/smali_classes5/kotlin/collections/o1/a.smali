@@ -1,5 +1,5 @@
-.class public abstract Lkotlin/collections/o1/a;
-.super Lkotlin/collections/g;
+.class public abstract Lcotlin/collections/o1/a;
+.super Lcotlin/collections/g;
 .source "MapBuilder.kt"
 
 
@@ -13,12 +13,12 @@
         "V:",
         "Ljava/lang/Object;",
         ">",
-        "Lkotlin/collections/g<",
+        "Lcotlin/collections/g<",
         "TE;>;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,12 +28,12 @@
         "\u0000\u001a\n\u0002\u0018\u0002\n\u0002\u0010&\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0006\u0008 \u0018\u0000*\u0014\u0008\u0000\u0010\u0002*\u000e\u0012\u0004\u0012\u00028\u0001\u0012\u0004\u0012\u00028\u00020\u0001*\u0004\u0008\u0001\u0010\u0003*\u0004\u0008\u0002\u0010\u00042\u0008\u0012\u0004\u0012\u00028\u00000\u0005B\u0007\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u0018\u0010\u0008\u001a\u00020\u00072\u0006\u0010\u0006\u001a\u00028\u0000H\u0086\u0002\u00a2\u0006\u0004\u0008\u0008\u0010\tJ#\u0010\n\u001a\u00020\u00072\u0012\u0010\u0006\u001a\u000e\u0012\u0004\u0012\u00028\u0001\u0012\u0004\u0012\u00028\u00020\u0001H&\u00a2\u0006\u0004\u0008\n\u0010\t\u00a8\u0006\r"
     }
     d2 = {
-        "Lkotlin/collections/o1/a;",
+        "Lcotlin/collections/o1/a;",
         "",
         "E",
         "K",
         "V",
-        "Lkotlin/collections/g;",
+        "Lcotlin/collections/g;",
         "element",
         "",
         "c",
@@ -57,7 +57,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lkotlin/collections/g;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/g;-><init>()V
 
     return-void
 .end method
@@ -78,10 +78,10 @@
 
     const-string v0, "element"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/collections/o1/a;->e(Ljava/util/Map$Entry;)Z
+    invoke-virtual {p0, p1}, Lcotlin/collections/o1/a;->e(Ljava/util/Map$Entry;)Z
 
     move-result p1
 
@@ -98,7 +98,7 @@
 
     check-cast p1, Ljava/util/Map$Entry;
 
-    invoke-virtual {p0, p1}, Lkotlin/collections/o1/a;->c(Ljava/util/Map$Entry;)Z
+    invoke-virtual {p0, p1}, Lcotlin/collections/o1/a;->c(Ljava/util/Map$Entry;)Z
 
     move-result p1
 
@@ -145,7 +145,7 @@
 
     check-cast p1, Ljava/util/Map$Entry;
 
-    invoke-virtual {p0, p1}, Lkotlin/collections/o1/a;->h(Ljava/util/Map$Entry;)Z
+    invoke-virtual {p0, p1}, Lcotlin/collections/o1/a;->h(Ljava/util/Map$Entry;)Z
 
     move-result p1
 

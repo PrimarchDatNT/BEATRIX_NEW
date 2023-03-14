@@ -8,7 +8,7 @@
     value = "SMAP\nFormulaFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FormulaFragment.kt\ncom/commsource/studio/formula/FormulaFragment\n*L\n1#1,485:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/studio/formula/FormulaFragment;",
         "Lcom/commsource/studio/sub/BaseSubTabFragment;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "t0",
         "()V",
         "",
@@ -57,7 +57,7 @@
         "(Ljava/lang/String;)Z",
         "Lcom/commsource/widget/h1/e;",
         "Q",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "l0",
         "()Lcom/commsource/widget/h1/e;",
         "childAdapter",
@@ -113,19 +113,19 @@
 # instance fields
 .field private L:I
 
-.field private final M:Lkotlin/w;
+.field private final M:Lcotlin/w;
 
-.field private final N:Lkotlin/w;
+.field private final N:Lcotlin/w;
 
-.field private final O:Lkotlin/w;
+.field private final O:Lcotlin/w;
 
-.field private final P:Lkotlin/w;
+.field private final P:Lcotlin/w;
 
-.field private final Q:Lkotlin/w;
+.field private final Q:Lcotlin/w;
 
-.field private final R:Lkotlin/w;
+.field private final R:Lcotlin/w;
 
-.field private final S:Lkotlin/w;
+.field private final S:Lcotlin/w;
 
 .field private final T:Lcom/commsource/util/common/b;
     .annotation system Ldalvik/annotation/Signature;
@@ -175,77 +175,77 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/formula/FormulaFragment$fBinding$2;-><init>(Lcom/commsource/studio/formula/FormulaFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->M:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->M:Lcotlin/w;
 
     .line 4
     new-instance v0, Lcom/commsource/studio/formula/FormulaFragment$mViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/formula/FormulaFragment$mViewModel$2;-><init>(Lcom/commsource/studio/formula/FormulaFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->N:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->N:Lcotlin/w;
 
     .line 5
     new-instance v0, Lcom/commsource/studio/formula/FormulaFragment$groupAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/formula/FormulaFragment$groupAdapter$2;-><init>(Lcom/commsource/studio/formula/FormulaFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->O:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->O:Lcotlin/w;
 
     .line 6
     new-instance v0, Lcom/commsource/studio/formula/FormulaFragment$recentChildAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/formula/FormulaFragment$recentChildAdapter$2;-><init>(Lcom/commsource/studio/formula/FormulaFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->P:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->P:Lcotlin/w;
 
     .line 7
     new-instance v0, Lcom/commsource/studio/formula/FormulaFragment$childAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/formula/FormulaFragment$childAdapter$2;-><init>(Lcom/commsource/studio/formula/FormulaFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->Q:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->Q:Lcotlin/w;
 
     .line 8
     new-instance v0, Lcom/commsource/studio/formula/FormulaFragment$childLayoutManager$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/formula/FormulaFragment$childLayoutManager$2;-><init>(Lcom/commsource/studio/formula/FormulaFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->R:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->R:Lcotlin/w;
 
     .line 9
     new-instance v0, Lcom/commsource/studio/formula/FormulaFragment$groupLayoutManager$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/formula/FormulaFragment$groupLayoutManager$2;-><init>(Lcom/commsource/studio/formula/FormulaFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->S:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/formula/FormulaFragment;->S:Lcotlin/w;
 
     .line 10
     new-instance v0, Lcom/commsource/studio/formula/FormulaFragment$m;
@@ -650,7 +650,7 @@
 
     const-string p2, "studioViewModel"
 
-    invoke-static {v2, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 16
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -671,7 +671,7 @@
     invoke-direct {v6, p0, p1}, Lcom/commsource/studio/formula/FormulaFragment$applyFormula$3;-><init>(Lcom/commsource/studio/formula/FormulaFragment;Lcom/commsource/studio/formula/JsFormula;)V
 
     .line 18
-    invoke-virtual/range {v1 .. v6}, Lcom/commsource/studio/PictureSelectView;->r(Lcom/commsource/studio/ImageStudioViewModel;Lcom/commsource/studio/bean/a;ZZLkotlin/jvm/u/l;)V
+    invoke-virtual/range {v1 .. v6}, Lcom/commsource/studio/PictureSelectView;->r(Lcom/commsource/studio/ImageStudioViewModel;Lcom/commsource/studio/bean/a;ZZLcotlin/jvm/u/l;)V
 
     goto :goto_1
 
@@ -794,7 +794,7 @@
 
     move-result-object p4
 
-    invoke-static {p3, p4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p3, p4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p3
 
@@ -830,7 +830,7 @@
 
     const-string v2, "fragmentSupportVisibleHelper"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/e;->d()Z
 
@@ -853,7 +853,7 @@
 
     const-string v2, "fBinding.rvRecent"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x1
 
@@ -881,7 +881,7 @@
 
     const-string v2, "fragmentSupportVisibleHelper"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/e;->d()Z
 
@@ -904,7 +904,7 @@
 
     const-string v2, "fBinding.rv"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x1
 
@@ -925,9 +925,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment;->Q:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment;->Q:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -945,9 +945,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment;->R:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment;->R:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -965,9 +965,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment;->M:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment;->M:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -985,9 +985,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment;->O:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment;->O:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1005,9 +1005,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment;->S:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment;->S:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1025,9 +1025,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment;->N:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment;->N:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1045,9 +1045,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment;->P:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment;->P:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1173,7 +1173,7 @@
 
     const-string v2, "fBinding.rvRecentContainer"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
@@ -1287,7 +1287,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/formula/FormulaFragment$initListener$7;-><init>(Lcom/commsource/studio/formula/FormulaFragment;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/formula/DragToSwitchLayout;->setOnDragEnd(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/formula/DragToSwitchLayout;->setOnDragEnd(Lcotlin/jvm/u/l;)V
 
     .line 8
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
@@ -1300,7 +1300,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/formula/FormulaFragment$initListener$8;-><init>(Lcom/commsource/studio/formula/FormulaFragment;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/formula/DragToSwitchLayout;->setOnDragEnd(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/formula/DragToSwitchLayout;->setOnDragEnd(Lcotlin/jvm/u/l;)V
 
     .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1447,7 +1447,7 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/m8;->J:Lcom/commsource/studio/formula/DragToSwitchLayout;
 
-    invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->z(Landroid/view/View;)Z
 
@@ -1465,7 +1465,7 @@
 
     const-string v4, "recentChildAdapter.items"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {v3}, Ljava/util/Collection;->isEmpty()Z
 
@@ -1482,7 +1482,7 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/m8;->J:Lcom/commsource/studio/formula/DragToSwitchLayout;
 
-    invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1508,7 +1508,7 @@
 
     iget-object v3, p1, Lcom/commsource/beautyplus/f0/m8;->J:Lcom/commsource/studio/formula/DragToSwitchLayout;
 
-    invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x0
 
@@ -1520,7 +1520,7 @@
 
     const/4 v9, 0x0
 
-    invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 5
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
@@ -1529,7 +1529,7 @@
 
     iget-object v3, p1, Lcom/commsource/beautyplus/f0/m8;->f:Lcom/commsource/studio/formula/DragToSwitchLayout;
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
@@ -1543,7 +1543,7 @@
 
     const/4 v8, 0x2
 
-    invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 6
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->i0()V
@@ -1558,7 +1558,7 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/m8;->f:Lcom/commsource/studio/formula/DragToSwitchLayout;
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->z(Landroid/view/View;)Z
 
@@ -1573,7 +1573,7 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/m8;->f:Lcom/commsource/studio/formula/DragToSwitchLayout;
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1599,7 +1599,7 @@
 
     iget-object v3, p1, Lcom/commsource/beautyplus/f0/m8;->f:Lcom/commsource/studio/formula/DragToSwitchLayout;
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x0
 
@@ -1611,7 +1611,7 @@
 
     const/4 v9, 0x0
 
-    invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 11
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
@@ -1620,7 +1620,7 @@
 
     iget-object v2, p1, Lcom/commsource/beautyplus/f0/m8;->J:Lcom/commsource/studio/formula/DragToSwitchLayout;
 
-    invoke-static {v2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
@@ -1640,7 +1640,7 @@
 
     const/4 v8, 0x0
 
-    invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 12
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->j0()V
@@ -1702,7 +1702,7 @@
 
     const-string v2, "fragmentSupportVisibleHelper"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/e;->c()Z
 
@@ -1757,7 +1757,7 @@
 
     const-string p3, "inflater"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Lcom/commsource/studio/formula/FormulaFragment;->n0()Lcom/commsource/beautyplus/f0/m8;
@@ -1766,7 +1766,7 @@
 
     const-string p3, "fBinding"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
@@ -1774,7 +1774,7 @@
 
     const-string p3, "fBinding.root"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1814,7 +1814,7 @@
 
     const-string v1, "view"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
@@ -1866,7 +1866,7 @@
 
     const-string v1, "formulaId"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -1926,7 +1926,7 @@
 
     .line 3
     :goto_1
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 

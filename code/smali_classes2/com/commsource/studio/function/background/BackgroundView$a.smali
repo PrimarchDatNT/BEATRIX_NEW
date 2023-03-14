@@ -17,7 +17,7 @@
     value = "SMAP\nBackgroundView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BackgroundView.kt\ncom/commsource/studio/function/background/BackgroundView$setBackgroundInfo$1$1$1\n*L\n1#1,73:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
     d2 = {
         "com/commsource/studio/function/background/BackgroundView$a",
         "Lcom/commsource/util/u2/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "app_googleplayRelease",
@@ -127,7 +127,7 @@
 
     mul-float v2, v2, v3
 
-    invoke-static {v2}, Lkotlin/e2/b;->H0(F)I
+    invoke-static {v2}, Lcotlin/e2/b;->H0(F)I
 
     move-result v2
 

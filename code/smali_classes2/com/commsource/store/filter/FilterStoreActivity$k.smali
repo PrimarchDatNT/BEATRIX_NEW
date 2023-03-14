@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Lcom/commsource/widget/title/c;",
         "Landroid/view/View;",
         "view",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "(Landroid/view/View;)V",
         "",
@@ -137,7 +137,7 @@
 
     const-string v2, "viewBinding.detailContainer"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-class v2, Lcom/commsource/store/filter/search/FilterSearchFragment;
 

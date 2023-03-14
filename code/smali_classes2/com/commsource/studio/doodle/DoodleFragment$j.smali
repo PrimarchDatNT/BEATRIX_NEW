@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "Lcom/commsource/studio/doodle/i;",
         "kotlin.jvm.PlatformType",
         "doodleWrapper",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/studio/doodle/i;)V"
     }
@@ -94,7 +94,7 @@
 
     const-string v2, "doodleWrapper"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1, p1}, Lcom/commsource/studio/doodle/DoodleFragment;->T(Lcom/commsource/studio/doodle/DoodleFragment;Lcom/commsource/studio/doodle/i;)V
 
@@ -167,7 +167,7 @@
 
     const/4 v3, 0x0
 
-    invoke-static {v1, v3, v2, v3}, Lcom/commsource/studio/doodle/DoodleFragment;->E0(Lcom/commsource/studio/doodle/DoodleFragment;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {v1, v3, v2, v3}, Lcom/commsource/studio/doodle/DoodleFragment;->E0(Lcom/commsource/studio/doodle/DoodleFragment;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 10
     sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;

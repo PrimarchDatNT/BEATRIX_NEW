@@ -17,7 +17,7 @@
     value = "SMAP\nNewRelightLayer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewRelightLayer.kt\ncom/commsource/studio/function/relight/NewRelightLayer\n*L\n1#1,118:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,7 +35,7 @@
         "()Landroid/view/View;",
         "",
         "animate",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "H0",
         "(Z)V",
         "Lcom/commsource/studio/function/relight/e;",
@@ -62,16 +62,16 @@
         "U",
         "Landroid/graphics/Paint;",
         "lightPaint",
-        "Lkotlin/Function1;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function1;",
+        "Lcotlin/k0;",
         "name",
         "stop",
         "X",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "D0",
-        "()Lkotlin/jvm/u/l;",
+        "()Lcotlin/jvm/u/l;",
         "F0",
-        "(Lkotlin/jvm/u/l;)V",
+        "(Lcotlin/jvm/u/l;)V",
         "lightCenterChangeListener",
         "Landroid/graphics/Bitmap;",
         "S",
@@ -119,13 +119,13 @@
 
 .field private W:Lcom/commsource/studio/function/relight/e;
 
-.field private X:Lkotlin/jvm/u/l;
+.field private X:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -145,7 +145,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/c;-><init>(Landroid/content/Context;)V
@@ -294,7 +294,7 @@
 
     const-string v2, "lightBitmap"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -302,14 +302,14 @@
     return-object v1
 .end method
 
-.method public final D0()Lkotlin/jvm/u/l;
+.method public final D0()Lcotlin/jvm/u/l;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -322,7 +322,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->X:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->X:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -342,7 +342,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->S:Landroid/graphics/Bitmap;
@@ -352,19 +352,19 @@
     return-void
 .end method
 
-.method public final F0(Lkotlin/jvm/u/l;)V
+.method public final F0(Lcotlin/jvm/u/l;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -374,7 +374,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->X:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->X:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -457,7 +457,7 @@
 
     const-string v2, "ResourcesUtils.getBitmap\u2026le.edit_icon_lightsource)"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->S:Landroid/graphics/Bitmap;
 
@@ -488,7 +488,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->a(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
@@ -511,7 +511,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p3, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->W:Lcom/commsource/studio/function/relight/e;
@@ -529,17 +529,17 @@
     invoke-virtual {p3, p1, p2}, Landroid/graphics/PointF;->set(FF)V
 
     .line 4
-    iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->X:Lkotlin/jvm/u/l;
+    iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->X:Lcotlin/jvm/u/l;
 
     if-eqz p1, :cond_0
 
     sget-object p2, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    invoke-interface {p1, p2}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 5
     :cond_0
@@ -561,7 +561,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p3, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->W:Lcom/commsource/studio/function/relight/e;
@@ -608,7 +608,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->e(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
@@ -637,17 +637,17 @@
     invoke-virtual {p2, p3}, Landroid/graphics/Paint;->setAlpha(I)V
 
     .line 2
-    iget-object p2, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->X:Lkotlin/jvm/u/l;
+    iget-object p2, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->X:Lcotlin/jvm/u/l;
 
     if-eqz p2, :cond_0
 
     sget-object p3, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-interface {p2, p3}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
-    check-cast p2, Lkotlin/t1;
+    check-cast p2, Lcotlin/t1;
 
     .line 3
     :cond_0

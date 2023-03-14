@@ -8,7 +8,7 @@
     value = "SMAP\nBackgroundDrawer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BackgroundDrawer.kt\ncom/commsource/studio/function/background/BackgroundDrawer\n*L\n1#1,148:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "",
         "Landroid/graphics/Canvas;",
         "canvas",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "j",
         "(Landroid/graphics/Canvas;)V",
         "",
@@ -47,7 +47,7 @@
         "(I)V",
         "Landroid/graphics/Paint;",
         "a",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "()Landroid/graphics/Paint;",
         "backgroundPaint",
         "Landroid/graphics/RectF;",
@@ -110,7 +110,7 @@
 
 
 # instance fields
-.field private final a:Lkotlin/w;
+.field private final a:Lcotlin/w;
 
 .field private b:Landroid/graphics/BitmapShader;
 
@@ -154,11 +154,11 @@
     .line 2
     sget-object v0, Lcom/commsource/studio/function/background/BackgroundDrawer$backgroundPaint$2;->INSTANCE:Lcom/commsource/studio/function/background/BackgroundDrawer$backgroundPaint$2;
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->a:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->a:Lcotlin/w;
 
     .line 3
     new-instance v0, Lcom/commsource/studio/function/background/c;
@@ -205,9 +205,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->a:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->a:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -381,7 +381,7 @@
 
     const-string v1, "canvas"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->c:Lcom/commsource/studio/function/background/c;
@@ -600,7 +600,7 @@
 
     iget v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->h:I
 
-    invoke-static {p2, v1}, Lkotlin/g2/o;->u(II)I
+    invoke-static {p2, v1}, Lcotlin/g2/o;->u(II)I
 
     move-result p2
 
@@ -890,7 +890,7 @@
 
     iget v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->h:I
 
-    invoke-static {p1, v1}, Lkotlin/g2/o;->u(II)I
+    invoke-static {p1, v1}, Lcotlin/g2/o;->u(II)I
 
     move-result p1
 

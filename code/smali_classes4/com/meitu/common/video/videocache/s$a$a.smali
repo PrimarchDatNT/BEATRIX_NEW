@@ -22,7 +22,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -79,7 +79,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/meitu/common/video/videocache/s$a$a$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/meitu/common/video/videocache/s$a$a$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/meitu/common/video/videocache/s$a$a;->c:Lcom/meitu/common/video/videocache/s$a$a$a;
 
@@ -132,7 +132,7 @@
 
     const-string v1, "r"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Ljava/lang/StringBuffer;

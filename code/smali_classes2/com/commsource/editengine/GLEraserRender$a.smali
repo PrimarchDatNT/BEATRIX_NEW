@@ -16,7 +16,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
     d2 = {
         "com/commsource/editengine/GLEraserRender$a",
         "Lcom/commsource/studio/v;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "i",
         "()V",
         "k",
@@ -172,7 +172,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v1, v2, v4, v3, v4}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {v1, v2, v4, v3, v4}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -237,7 +237,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v1, v2, v4, v3, v4}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {v1, v2, v4, v3, v4}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

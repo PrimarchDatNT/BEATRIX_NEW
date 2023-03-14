@@ -8,7 +8,7 @@
     value = "SMAP\nCppManualProcessorModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CppManualProcessorModel.kt\ncom/commsource/studio/function/automanual/CppManualProcessorModel\n*L\n1#1,81:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
         "()Lcom/commsource/studio/e;",
         "Lcom/commsource/easyeditor/utils/opengl/f;",
         "fboEntity",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(Lcom/commsource/easyeditor/utils/opengl/f;)V",
         "autoManualState",
@@ -113,7 +113,7 @@
 
     const-string v0, "cppPaintProcessor"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/automanual/d;-><init>(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
@@ -127,7 +127,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/commsource/studio/processor/b;Lcom/commsource/studio/layer/PaintMaskLayer;Lcom/commsource/studio/MagnifyComponent;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcom/commsource/studio/processor/b;Lcom/commsource/studio/layer/PaintMaskLayer;Lcom/commsource/studio/MagnifyComponent;ILcotlin/jvm/internal/u;)V
     .locals 1
 
     and-int/lit8 p5, p4, 0x2
@@ -185,7 +185,7 @@
 
     const-string v2, "oriBitmap.copy(Bitmap.Config.ARGB_8888, true)"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/processor/b;->S(Landroid/graphics/Bitmap;)V
 
@@ -255,7 +255,7 @@
 
     const-string v5, "copy(config, true)"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/processor/b;->S(Landroid/graphics/Bitmap;)V
 
@@ -363,7 +363,7 @@
 
     const/4 v7, 0x0
 
-    invoke-direct {v3, v2, v5, v6, v7}, Lcom/commsource/studio/g;-><init>(Landroid/graphics/Bitmap;ZILkotlin/jvm/internal/u;)V
+    invoke-direct {v3, v2, v5, v6, v7}, Lcom/commsource/studio/g;-><init>(Landroid/graphics/Bitmap;ZILcotlin/jvm/internal/u;)V
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/e;->p(Lcom/commsource/studio/g;)V
 
@@ -418,7 +418,7 @@
 
     const-string v1, "fboEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/function/automanual/d;->e(Lcom/commsource/easyeditor/utils/opengl/f;)V
@@ -461,7 +461,7 @@
 
     const-string v1, "autoManualState"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/e;->b()Lcom/commsource/studio/g;

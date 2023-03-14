@@ -1,4 +1,4 @@
-.class public final Lkotlin/a2/b;
+.class public final Lcotlin/a2/b;
 .super Ljava/lang/Object;
 .source "Thread.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nThread.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Thread.kt\nkotlin/concurrent/ThreadsKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,61:1\n1#2:62\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,18 +27,18 @@
         "name",
         "",
         "priority",
-        "Lkotlin/Function0;",
-        "Lkotlin/t1;",
+        "Lcotlin/Function0;",
+        "Lcotlin/t1;",
         "block",
         "Ljava/lang/Thread;",
         "b",
-        "(ZZLjava/lang/ClassLoader;Ljava/lang/String;ILkotlin/jvm/u/a;)Ljava/lang/Thread;",
+        "(ZZLjava/lang/ClassLoader;Ljava/lang/String;ILcotlin/jvm/u/a;)Ljava/lang/Thread;",
         "",
         "T",
         "Ljava/lang/ThreadLocal;",
         "default",
         "a",
-        "(Ljava/lang/ThreadLocal;Lkotlin/jvm/u/a;)Ljava/lang/Object;",
+        "(Ljava/lang/ThreadLocal;Lcotlin/jvm/u/a;)Ljava/lang/Object;",
         "kotlin-stdlib"
     }
     k = 0x2
@@ -49,13 +49,13 @@
     }
 .end annotation
 
-.annotation build Lkotlin/jvm/g;
+.annotation build Lcotlin/jvm/g;
     name = "ThreadsKt"
 .end annotation
 
 
 # direct methods
-.method private static final a(Ljava/lang/ThreadLocal;Lkotlin/jvm/u/a;)Ljava/lang/Object;
+.method private static final a(Ljava/lang/ThreadLocal;Lcotlin/jvm/u/a;)Ljava/lang/Object;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -64,12 +64,12 @@
             ">(",
             "Ljava/lang/ThreadLocal<",
             "TT;>;",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/jvm/u/a<",
             "+TT;>;)TT;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -82,7 +82,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -92,7 +92,7 @@
     return-object v0
 .end method
 
-.method public static final b(ZZLjava/lang/ClassLoader;Ljava/lang/String;ILkotlin/jvm/u/a;)Ljava/lang/Thread;
+.method public static final b(ZZLjava/lang/ClassLoader;Ljava/lang/String;ILcotlin/jvm/u/a;)Ljava/lang/Thread;
     .locals 1
     .param p2    # Ljava/lang/ClassLoader;
         .annotation build Ln/e/a/e;
@@ -102,7 +102,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p5    # Lkotlin/jvm/u/a;
+    .param p5    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -112,8 +112,8 @@
             "Ljava/lang/ClassLoader;",
             "Ljava/lang/String;",
             "I",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)",
             "Ljava/lang/Thread;"
         }
@@ -124,12 +124,12 @@
 
     const-string v0, "block"
 
-    invoke-static {p5, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/a2/b$a;
+    new-instance v0, Lcotlin/a2/b$a;
 
-    invoke-direct {v0, p5}, Lkotlin/a2/b$a;-><init>(Lkotlin/jvm/u/a;)V
+    invoke-direct {v0, p5}, Lcotlin/a2/b$a;-><init>(Lcotlin/jvm/u/a;)V
 
     if-eqz p1, :cond_0
 
@@ -166,7 +166,7 @@
     return-object v0
 .end method
 
-.method public static synthetic c(ZZLjava/lang/ClassLoader;Ljava/lang/String;ILkotlin/jvm/u/a;ILjava/lang/Object;)Ljava/lang/Thread;
+.method public static synthetic c(ZZLjava/lang/ClassLoader;Ljava/lang/String;ILcotlin/jvm/u/a;ILjava/lang/Object;)Ljava/lang/Thread;
     .locals 6
 
     and-int/lit8 p7, p6, 0x1
@@ -240,7 +240,7 @@
     move-object v5, p5
 
     .line 1
-    invoke-static/range {v0 .. v5}, Lkotlin/a2/b;->b(ZZLjava/lang/ClassLoader;Ljava/lang/String;ILkotlin/jvm/u/a;)Ljava/lang/Thread;
+    invoke-static/range {v0 .. v5}, Lcotlin/a2/b;->b(ZZLjava/lang/ClassLoader;Ljava/lang/String;ILcotlin/jvm/u/a;)Ljava/lang/Thread;
 
     move-result-object p0
 

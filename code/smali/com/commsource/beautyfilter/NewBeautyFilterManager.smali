@@ -17,7 +17,7 @@
     value = "SMAP\nNewBeautyFilterManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewBeautyFilterManager.kt\ncom/commsource/beautyfilter/NewBeautyFilterManager\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,981:1\n1828#2,3:982\n1517#2:985\n1588#2,2:986\n1828#2,2:988\n1828#2,3:990\n1830#2:993\n1590#2:994\n1819#2,2:995\n1819#2,2:997\n1819#2,2:999\n1819#2,2:1001\n1819#2,2:1003\n1819#2,2:1005\n1819#2,2:1007\n734#2:1009\n825#2,2:1010\n1517#2:1012\n1588#2,2:1013\n734#2:1015\n825#2,2:1016\n1819#2:1018\n734#2:1019\n825#2,2:1020\n1819#2,2:1022\n1820#2:1024\n1590#2:1025\n1819#2,2:1026\n1819#2,2:1028\n1819#2,2:1030\n734#2:1032\n825#2,2:1033\n734#2:1035\n825#2,2:1036\n734#2:1038\n825#2,2:1039\n734#2:1041\n825#2,2:1042\n734#2:1044\n825#2,2:1045\n734#2:1047\n825#2,2:1048\n734#2:1050\n825#2,2:1051\n734#2:1053\n825#2,2:1054\n734#2:1056\n825#2,2:1057\n734#2:1059\n825#2,2:1060\n1819#2:1062\n734#2:1063\n825#2,2:1064\n1820#2:1066\n734#2:1067\n825#2,2:1068\n734#2:1070\n825#2,2:1071\n734#2:1073\n825#2,2:1074\n1819#2,2:1076\n1819#2,2:1078\n734#2:1080\n825#2,2:1081\n1517#2:1083\n1588#2,3:1084\n734#2:1087\n825#2,2:1088\n1517#2:1090\n1588#2,3:1091\n734#2:1094\n825#2,2:1095\n*E\n*S KotlinDebug\n*F\n+ 1 NewBeautyFilterManager.kt\ncom/commsource/beautyfilter/NewBeautyFilterManager\n*L\n111#1,3:982\n114#1:985\n114#1,2:986\n114#1,2:988\n114#1,3:990\n114#1:993\n114#1:994\n135#1,2:995\n148#1,2:997\n161#1,2:999\n196#1,2:1001\n197#1,2:1003\n198#1,2:1005\n199#1,2:1007\n324#1:1009\n324#1,2:1010\n328#1:1012\n328#1,2:1013\n328#1:1015\n328#1,2:1016\n328#1:1018\n328#1:1019\n328#1,2:1020\n328#1,2:1022\n328#1:1024\n328#1:1025\n423#1,2:1026\n460#1,2:1028\n487#1,2:1030\n513#1:1032\n513#1,2:1033\n523#1:1035\n523#1,2:1036\n534#1:1038\n534#1,2:1039\n544#1:1041\n544#1,2:1042\n578#1:1044\n578#1,2:1045\n581#1:1047\n581#1,2:1048\n581#1:1050\n581#1,2:1051\n581#1:1053\n581#1,2:1054\n581#1:1056\n581#1,2:1057\n623#1:1059\n623#1,2:1060\n638#1:1062\n638#1:1063\n638#1,2:1064\n638#1:1066\n673#1:1067\n673#1,2:1068\n686#1:1070\n686#1,2:1071\n718#1:1073\n718#1,2:1074\n718#1,2:1076\n869#1,2:1078\n947#1:1080\n947#1,2:1081\n949#1:1083\n949#1,3:1084\n954#1:1087\n954#1,2:1088\n956#1:1090\n956#1,3:1091\n965#1:1094\n965#1,2:1095\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
     d2 = {
         "Lcom/commsource/beautyfilter/NewBeautyFilterManager;",
         "Lcom/commsource/repository/e;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "y0",
         "()V",
         "i0",
@@ -92,7 +92,7 @@
         "N",
         "(I)Lcom/commsource/beautyfilter/a;",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "f0",
         "(I)Ljava/util/ArrayList;",
         "L",
@@ -151,7 +151,7 @@
         "mAllCategories",
         "Lcom/commsource/beautyfilter/NewFilterRepository;",
         "a",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "Y",
         "()Lcom/commsource/beautyfilter/NewFilterRepository;",
         "mFilterRepository",
@@ -192,7 +192,7 @@
 # static fields
 .field private static final o:Ljava/lang/String; = "NewBeautyFilterManager"
 
-.field private static final p:Lkotlin/w;
+.field private static final p:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -201,9 +201,9 @@
 
 
 # instance fields
-.field private final a:Lkotlin/w;
+.field private final a:Lcotlin/w;
 
-.field private final b:Lkotlin/w;
+.field private final b:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -323,20 +323,20 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     .line 1
-    sget-object v1, Lkotlin/LazyThreadSafetyMode;->SYNCHRONIZED:Lkotlin/LazyThreadSafetyMode;
+    sget-object v1, Lcotlin/LazyThreadSafetyMode;->SYNCHRONIZED:Lcotlin/LazyThreadSafetyMode;
 
     sget-object v2, Lcom/commsource/beautyfilter/NewBeautyFilterManager$Companion$instance$2;->INSTANCE:Lcom/commsource/beautyfilter/NewBeautyFilterManager$Companion$instance$2;
 
-    invoke-static {v1, v2}, Lkotlin/y;->b(Lkotlin/LazyThreadSafetyMode;Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v1, v2}, Lcotlin/y;->b(Lcotlin/LazyThreadSafetyMode;Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v1
 
-    sput-object v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->p:Lkotlin/w;
+    sput-object v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->p:Lcotlin/w;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -352,20 +352,20 @@
     .line 2
     sget-object v0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$mFilterRepository$2;->INSTANCE:Lcom/commsource/beautyfilter/NewBeautyFilterManager$mFilterRepository$2;
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->a:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->a:Lcotlin/w;
 
     .line 3
     sget-object v0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$mOriFilter$2;->INSTANCE:Lcom/commsource/beautyfilter/NewBeautyFilterManager$mOriFilter$2;
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->b:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->b:Lcotlin/w;
 
     .line 4
     new-instance v0, Lcom/commsource/beautyfilter/NoStickLiveData;
@@ -433,7 +433,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 13
@@ -488,7 +488,7 @@
     .line 5
     sget-object v6, Lcom/commsource/beautyfilter/NewBeautyFilterManager$c;->a:Lcom/commsource/beautyfilter/NewBeautyFilterManager$c;
 
-    invoke-static {v5, v6}, Lkotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
+    invoke-static {v5, v6}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
     .line 6
     invoke-virtual {v2, v5}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
@@ -556,7 +556,7 @@
 
     const/16 v7, 0xa
 
-    invoke-static {v6, v7}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v6, v7}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v7
 
@@ -707,7 +707,7 @@
     :cond_8
     sget-object v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager$d;->a:Lcom/commsource/beautyfilter/NewBeautyFilterManager$d;
 
-    invoke-static {v12, v1}, Lkotlin/collections/s;->h5(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
+    invoke-static {v12, v1}, Lcotlin/collections/s;->h5(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
 
     move-result-object v1
 
@@ -805,7 +805,7 @@
     :cond_c
     sget-object v8, Lcom/commsource/beautyfilter/NewBeautyFilterManager$e;->a:Lcom/commsource/beautyfilter/NewBeautyFilterManager$e;
 
-    invoke-static {v12, v8}, Lkotlin/collections/s;->h5(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
+    invoke-static {v12, v8}, Lcotlin/collections/s;->h5(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
 
     move-result-object v8
 
@@ -944,7 +944,7 @@
 
     invoke-direct {v5, v0, v3}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$b;-><init>(Lcom/commsource/beautyfilter/NewBeautyFilterManager;Ljava/util/ArrayList;)V
 
-    invoke-static {v1, v5}, Lkotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
+    invoke-static {v1, v5}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
     .line 37
     invoke-virtual {v10, v1}, Lcom/commsource/beautyfilter/a;->k(Ljava/util/List;)V
@@ -1002,7 +1002,7 @@
     const-string v1, "compareResult"
 
     .line 3
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -1078,7 +1078,7 @@
     const-string v1, "compareResult"
 
     .line 3
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -1152,7 +1152,7 @@
     const-string v1, "compareResult"
 
     .line 3
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -1246,9 +1246,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->a:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->a:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1358,7 +1358,7 @@
     return-void
 .end method
 
-.method public static final synthetic i()Lkotlin/w;
+.method public static final synthetic i()Lcotlin/w;
     .locals 2
 
     const/16 v0, 0x6c7d
@@ -1366,7 +1366,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    sget-object v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->p:Lkotlin/w;
+    sget-object v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->p:Lcotlin/w;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2298,7 +2298,7 @@
 
     if-gez v7, :cond_0
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_0
     check-cast v8, Lcom/commsource/beautyfilter/a;
@@ -2319,7 +2319,7 @@
 
     const/16 v7, 0xa
 
-    invoke-static {v1, v7}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v1, v7}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v7
 
@@ -2375,7 +2375,7 @@
 
     if-gez v10, :cond_2
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_2
     check-cast v11, Lcom/meitu/template/bean/j;
@@ -2424,7 +2424,7 @@
 
     if-gez v14, :cond_3
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_3
     check-cast v15, Lcom/meitu/template/bean/Filter;
@@ -2475,7 +2475,7 @@
 
     .line 27
     :cond_5
-    sget-object v9, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v9, Lcotlin/t1;->a:Lcotlin/t1;
 
     .line 28
     :cond_6
@@ -2871,7 +2871,7 @@
 
     const/16 v2, 0xa
 
-    invoke-static {v3, v2}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v3, v2}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v4
 
@@ -2909,7 +2909,7 @@
     invoke-virtual {v5, v4}, Lcom/commsource/beautyfilter/NewFilterRepository;->x(Lcom/meitu/template/bean/Filter;)V
 
     .line 13
-    sget-object v4, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v4, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-interface {p1, v4}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
@@ -2965,7 +2965,7 @@
     :cond_4
     new-instance p2, Ljava/util/ArrayList;
 
-    invoke-static {p1, v2}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {p1, v2}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v1
 
@@ -3003,7 +3003,7 @@
     invoke-virtual {v2, v1}, Lcom/commsource/beautyfilter/NewFilterRepository;->w(Lcom/meitu/template/bean/j;)V
 
     .line 22
-    sget-object v1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-interface {p2, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
@@ -3031,7 +3031,7 @@
 
     const-string/jumbo v1, "source"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -3151,7 +3151,7 @@
 
     const-string v1, "filter"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v1, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
@@ -3185,7 +3185,7 @@
 
     const-string v1, "filter"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager$i;
@@ -3219,11 +3219,11 @@
 
     const-string v0, "filterGroupInfo"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string/jumbo v0, "source"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance p3, Lcom/commsource/material/download/b/b$b;
@@ -3323,7 +3323,7 @@
 
     const-string v1, "mFilter"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
@@ -3353,7 +3353,7 @@
 
     const-string v1, "mFilter"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p2}, Lcom/meitu/template/bean/Filter;->isDownloading()Z
@@ -3689,7 +3689,7 @@
     :cond_4
     sget-object p1, Lcom/commsource/beautyfilter/NewBeautyFilterManager$k;->a:Lcom/commsource/beautyfilter/NewBeautyFilterManager$k;
 
-    invoke-static {v2, p1}, Lkotlin/collections/s;->h5(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
+    invoke-static {v2, p1}, Lcotlin/collections/s;->h5(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
 
     move-result-object p1
 
@@ -3770,7 +3770,7 @@
 
     const-string v1, "filter"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager$l;
@@ -4008,9 +4008,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->b:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->b:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -4868,7 +4868,7 @@
 
     const-string v1, "filter"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/material/download/c/d;
@@ -5136,7 +5136,7 @@
 
     const-string v1, "filter"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getDisplayInList()I
@@ -5305,7 +5305,7 @@
 
     const-string v1, "filter"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager$o;
@@ -5337,7 +5337,7 @@
 
     const-string v1, "filter"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Y()Lcom/commsource/beautyfilter/NewFilterRepository;
@@ -5365,7 +5365,7 @@
 
     const-string v1, "group"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager$p;

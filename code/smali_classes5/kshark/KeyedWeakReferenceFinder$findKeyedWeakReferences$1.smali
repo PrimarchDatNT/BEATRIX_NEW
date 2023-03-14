@@ -1,9 +1,9 @@
 .class final Lkshark/KeyedWeakReferenceFinder$findKeyedWeakReferences$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "KeyedWeakReferenceFinder.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
@@ -18,8 +18,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
         "Ljava/util/List<",
         "+",
         "Lkshark/internal/e;",
@@ -31,7 +31,7 @@
     value = "SMAP\nKeyedWeakReferenceFinder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 KeyedWeakReferenceFinder.kt\nkshark/KeyedWeakReferenceFinder$findKeyedWeakReferences$1\n+ 2 SharkLog.kt\nkshark/SharkLog\n*L\n1#1,48:1\n32#2,3:49\n*E\n*S KotlinDebug\n*F\n+ 1 KeyedWeakReferenceFinder.kt\nkshark/KeyedWeakReferenceFinder$findKeyedWeakReferences$1\n*L\n26#1,3:49\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -68,7 +68,7 @@
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -158,14 +158,14 @@
     :cond_2
     iget-object v0, p0, Lkshark/KeyedWeakReferenceFinder$findKeyedWeakReferences$1;->$graph:Lkshark/i;
 
-    invoke-interface {v0}, Lkshark/i;->f()Lkotlin/sequences/m;
+    invoke-interface {v0}, Lkshark/i;->f()Lcotlin/sequences/m;
 
     move-result-object v0
 
     .line 8
     sget-object v2, Lkshark/KeyedWeakReferenceFinder$findKeyedWeakReferences$1$addedToContext$1;->INSTANCE:Lkshark/KeyedWeakReferenceFinder$findKeyedWeakReferences$1$addedToContext$1;
 
-    invoke-static {v0, v2}, Lkotlin/sequences/p;->i0(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v0, v2}, Lcotlin/sequences/p;->i0(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -174,19 +174,19 @@
 
     invoke-direct {v2, v1}, Lkshark/KeyedWeakReferenceFinder$findKeyedWeakReferences$1$addedToContext$2;-><init>(Ljava/lang/Long;)V
 
-    invoke-static {v0, v2}, Lkotlin/sequences/p;->b1(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v0, v2}, Lcotlin/sequences/p;->b1(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
     .line 10
     sget-object v1, Lkshark/KeyedWeakReferenceFinder$findKeyedWeakReferences$1$addedToContext$3;->INSTANCE:Lkshark/KeyedWeakReferenceFinder$findKeyedWeakReferences$1$addedToContext$3;
 
-    invoke-static {v0, v1}, Lkotlin/sequences/p;->i0(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v0, v1}, Lcotlin/sequences/p;->i0(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
     .line 11
-    invoke-static {v0}, Lkotlin/sequences/p;->V2(Lkotlin/sequences/m;)Ljava/util/List;
+    invoke-static {v0}, Lcotlin/sequences/p;->V2(Lcotlin/sequences/m;)Ljava/util/List;
 
     move-result-object v0
 

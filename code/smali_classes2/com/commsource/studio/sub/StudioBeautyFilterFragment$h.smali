@@ -32,7 +32,7 @@
     value = "SMAP\nStudioBeautyFilterFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StudioBeautyFilterFragment.kt\ncom/commsource/studio/sub/StudioBeautyFilterFragment$initListener$6\n*L\n1#1,1005:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;)V"
     }
@@ -121,7 +121,7 @@
 
     aput-object v5, v4, v6
 
-    invoke-static {v4}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v4}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v4
 
@@ -156,7 +156,7 @@
     aput-object v4, v5, v6
 
     .line 8
-    invoke-static {v5}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v5}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v4
 
@@ -196,7 +196,7 @@
 
     aput-object v3, v2, v6
 
-    invoke-static {v2}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v2}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v2
 

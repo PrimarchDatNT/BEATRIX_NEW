@@ -17,7 +17,7 @@
     value = "SMAP\nBpAlbumViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpAlbumViewModel.kt\ncom/commsource/mypage/album/BpAlbumViewModel$deletePhoto$1\n*L\n1#1,688:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
     d2 = {
         "com/commsource/mypage/album/BpAlbumViewModel$b",
         "Lcom/commsource/util/u2/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "app_googleplayRelease"
@@ -106,13 +106,13 @@
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/Pair;
+    check-cast v1, Lcotlin/Pair;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {v1}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -135,11 +135,11 @@
 
     move-result-object v3
 
-    check-cast v3, Lkotlin/Pair;
+    check-cast v3, Lcotlin/Pair;
 
     if-eqz v3, :cond_2
 
-    invoke-virtual {v3}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v3}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -187,7 +187,7 @@
     if-nez v5, :cond_3
 
     .line 7
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     invoke-virtual {v5}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->j()Ljava/lang/String;
@@ -238,9 +238,9 @@
 
     move-result-object v1
 
-    new-instance v2, Lkotlin/Pair;
+    new-instance v2, Lcotlin/Pair;
 
-    invoke-direct {v2, v3, v4}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v2, v3, v4}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 

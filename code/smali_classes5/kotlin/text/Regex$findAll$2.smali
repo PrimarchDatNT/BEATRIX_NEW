@@ -1,14 +1,14 @@
-.class final synthetic Lkotlin/text/Regex$findAll$2;
-.super Lkotlin/jvm/internal/FunctionReferenceImpl;
+.class final synthetic Lcotlin/text/Regex$findAll$2;
+.super Lcotlin/jvm/internal/FunctionReferenceImpl;
 .source "Regex.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/text/Regex;->findAll(Ljava/lang/CharSequence;I)Lkotlin/sequences/m;
+    value = Lcotlin/text/Regex;->findAll(Ljava/lang/CharSequence;I)Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,15 +18,15 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Lkotlin/jvm/u/l<",
-        "Lkotlin/text/k;",
-        "Lkotlin/text/k;",
+        "Lcotlin/jvm/internal/FunctionReferenceImpl;",
+        "Lcotlin/jvm/u/l<",
+        "Lcotlin/text/k;",
+        "Lcotlin/text/k;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,10 +36,10 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0010\u0004\u001a\u0004\u0018\u00010\u00002\u0006\u0010\u0001\u001a\u00020\u0000\u00a2\u0006\u0004\u0008\u0002\u0010\u0003"
     }
     d2 = {
-        "Lkotlin/text/k;",
+        "Lcotlin/text/k;",
         "p1",
         "invoke",
-        "(Lkotlin/text/k;)Lkotlin/text/k;",
+        "(Lcotlin/text/k;)Lcotlin/text/k;",
         "<anonymous>"
     }
     k = 0x3
@@ -52,18 +52,18 @@
 
 
 # static fields
-.field public static final INSTANCE:Lkotlin/text/Regex$findAll$2;
+.field public static final INSTANCE:Lcotlin/text/Regex$findAll$2;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkotlin/text/Regex$findAll$2;
+    new-instance v0, Lcotlin/text/Regex$findAll$2;
 
-    invoke-direct {v0}, Lkotlin/text/Regex$findAll$2;-><init>()V
+    invoke-direct {v0}, Lcotlin/text/Regex$findAll$2;-><init>()V
 
-    sput-object v0, Lkotlin/text/Regex$findAll$2;->INSTANCE:Lkotlin/text/Regex$findAll$2;
+    sput-object v0, Lcotlin/text/Regex$findAll$2;->INSTANCE:Lcotlin/text/Regex$findAll$2;
 
     return-void
 .end method
@@ -71,19 +71,19 @@
 .method constructor <init>()V
     .locals 6
 
-    const-class v2, Lkotlin/text/k;
+    const-class v2, Lcotlin/text/k;
 
     const/4 v1, 0x1
 
     const-string v3, "next"
 
-    const-string v4, "next()Lkotlin/text/MatchResult;"
+    const-string v4, "next()Lcotlin/text/MatchResult;"
 
     const/4 v5, 0x0
 
     move-object v0, p0
 
-    invoke-direct/range {v0 .. v5}, Lkotlin/jvm/internal/FunctionReferenceImpl;-><init>(ILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct/range {v0 .. v5}, Lcotlin/jvm/internal/FunctionReferenceImpl;-><init>(ILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
     return-void
 .end method
@@ -94,18 +94,18 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lkotlin/text/k;
+    check-cast p1, Lcotlin/text/k;
 
-    invoke-virtual {p0, p1}, Lkotlin/text/Regex$findAll$2;->invoke(Lkotlin/text/k;)Lkotlin/text/k;
+    invoke-virtual {p0, p1}, Lcotlin/text/Regex$findAll$2;->invoke(Lcotlin/text/k;)Lcotlin/text/k;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(Lkotlin/text/k;)Lkotlin/text/k;
+.method public final invoke(Lcotlin/text/k;)Lcotlin/text/k;
     .locals 1
-    .param p1    # Lkotlin/text/k;
+    .param p1    # Lcotlin/text/k;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -114,10 +114,10 @@
 
     const-string v0, "p1"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-interface {p1}, Lkotlin/text/k;->next()Lkotlin/text/k;
+    invoke-interface {p1}, Lcotlin/text/k;->next()Lcotlin/text/k;
 
     move-result-object p1
 

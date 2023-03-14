@@ -20,7 +20,7 @@
     value = "SMAP\nStudioMakeupChildFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StudioMakeupChildFragment.kt\ncom/commsource/studio/function/makeup/StudioMakeupChildFragment$onSupportVisible$1$1\n*L\n1#1,221:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0010\u0004\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002\u00a8\u0006\u0003"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "com/commsource/studio/function/makeup/StudioMakeupChildFragment$onSupportVisible$1$1",
@@ -118,7 +118,7 @@
 
     move-result-object v5
 
-    invoke-static {v5, v1}, Lkotlin/collections/s;->O2(Ljava/util/List;Ljava/lang/Object;)I
+    invoke-static {v5, v1}, Lcotlin/collections/s;->O2(Ljava/util/List;Ljava/lang/Object;)I
 
     move-result v1
 
@@ -187,7 +187,7 @@
 
     move-result-object v5
 
-    invoke-static {v5, v1}, Lkotlin/collections/s;->O2(Ljava/util/List;Ljava/lang/Object;)I
+    invoke-static {v5, v1}, Lcotlin/collections/s;->O2(Ljava/util/List;Ljava/lang/Object;)I
 
     move-result v1
 

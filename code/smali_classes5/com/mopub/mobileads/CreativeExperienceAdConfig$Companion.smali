@@ -13,7 +13,7 @@
     name = "Companion"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -68,7 +68,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -81,7 +81,7 @@
 # virtual methods
 .method public final getDefaultCEAdConfig(ZZ)Lcom/mopub/mobileads/CreativeExperienceAdConfig;
     .locals 2
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -125,7 +125,7 @@
 
 .method public final getDefaultCountdownTimerDelaySecs(Z)I
     .locals 0
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     const/4 p1, 0x0
@@ -135,7 +135,7 @@
 
 .method public final getDefaultMinTimeUntilNextActionSecs(Z)I
     .locals 0
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     if-eqz p1, :cond_0
@@ -153,7 +153,7 @@
 
 .method public final getDefaultShowCountdownTimer(Z)Z
     .locals 0
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     const/4 p1, 0x1

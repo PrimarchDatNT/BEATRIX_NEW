@@ -1,14 +1,14 @@
-.class public final Lkotlin/collections/CollectionsKt___CollectionsKt$a;
+.class public final Lcotlin/collections/CollectionsKt___CollectionsKt$a;
 .super Ljava/lang/Object;
 .source "Sequences.kt"
 
 # interfaces
-.implements Lkotlin/sequences/m;
+.implements Lcotlin/sequences/m;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/collections/CollectionsKt___CollectionsKt;->n1(Ljava/lang/Iterable;)Lkotlin/sequences/m;
+    value = Lcotlin/collections/CollectionsKt___CollectionsKt;->n1(Ljava/lang/Iterable;)Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/sequences/m<",
+        "Lcotlin/sequences/m<",
         "TT;>;"
     }
 .end annotation
@@ -28,7 +28,7 @@
     value = "SMAP\nSequences.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Sequences.kt\nkotlin/sequences/SequencesKt__SequencesKt$Sequence$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,680:1\n3358#2:681\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
     }
     d2 = {
         "kotlin/collections/CollectionsKt___CollectionsKt$a",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "",
         "iterator",
         "()Ljava/util/Iterator;",
@@ -63,7 +63,7 @@
 .method public constructor <init>(Ljava/lang/Iterable;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/collections/CollectionsKt___CollectionsKt$a;->a:Ljava/lang/Iterable;
+    iput-object p1, p0, Lcotlin/collections/CollectionsKt___CollectionsKt$a;->a:Ljava/lang/Iterable;
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -87,7 +87,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/CollectionsKt___CollectionsKt$a;->a:Ljava/lang/Iterable;
+    iget-object v0, p0, Lcotlin/collections/CollectionsKt___CollectionsKt$a;->a:Ljava/lang/Iterable;
 
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 

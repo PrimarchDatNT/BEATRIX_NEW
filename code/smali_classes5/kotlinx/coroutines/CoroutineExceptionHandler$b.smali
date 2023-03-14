@@ -1,14 +1,14 @@
-.class public final Lkotlinx/coroutines/CoroutineExceptionHandler$b;
+.class public final Lcotlinx/coroutines/CoroutineExceptionHandler$b;
 .super Ljava/lang/Object;
 .source "CoroutineExceptionHandler.kt"
 
 # interfaces
-.implements Lkotlin/coroutines/CoroutineContext$b;
+.implements Lcotlin/coroutines/CoroutineContext$b;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/CoroutineExceptionHandler;
+    value = Lcotlinx/coroutines/CoroutineExceptionHandler;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,13 +19,13 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/coroutines/CoroutineContext$b<",
-        "Lkotlinx/coroutines/CoroutineExceptionHandler;",
+        "Lcotlin/coroutines/CoroutineContext$b<",
+        "Lcotlinx/coroutines/CoroutineExceptionHandler;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,8 +36,8 @@
     }
     d2 = {
         "kotlinx/coroutines/CoroutineExceptionHandler$b",
-        "Lkotlin/coroutines/CoroutineContext$b;",
-        "Lkotlinx/coroutines/CoroutineExceptionHandler;",
+        "Lcotlin/coroutines/CoroutineContext$b;",
+        "Lcotlinx/coroutines/CoroutineExceptionHandler;",
         "<init>",
         "()V",
         "kotlinx-coroutines-core"
@@ -52,7 +52,7 @@
 
 
 # static fields
-.field static final synthetic a:Lkotlinx/coroutines/CoroutineExceptionHandler$b;
+.field static final synthetic a:Lcotlinx/coroutines/CoroutineExceptionHandler$b;
 
 
 # direct methods
@@ -60,11 +60,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/CoroutineExceptionHandler$b;
+    new-instance v0, Lcotlinx/coroutines/CoroutineExceptionHandler$b;
 
-    invoke-direct {v0}, Lkotlinx/coroutines/CoroutineExceptionHandler$b;-><init>()V
+    invoke-direct {v0}, Lcotlinx/coroutines/CoroutineExceptionHandler$b;-><init>()V
 
-    sput-object v0, Lkotlinx/coroutines/CoroutineExceptionHandler$b;->a:Lkotlinx/coroutines/CoroutineExceptionHandler$b;
+    sput-object v0, Lcotlinx/coroutines/CoroutineExceptionHandler$b;->a:Lcotlinx/coroutines/CoroutineExceptionHandler$b;
 
     return-void
 .end method

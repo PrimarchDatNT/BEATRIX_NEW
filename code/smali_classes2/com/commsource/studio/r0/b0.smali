@@ -8,7 +8,7 @@
     value = "SMAP\nSkinColorProxy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SkinColorProxy.kt\ncom/commsource/studio/render/SkinColorProxy\n*L\n1#1,77:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "Lcom/commsource/studio/r0/x;",
         "",
         "configPath",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "F",
         "(Ljava/lang/String;)V",
         "",

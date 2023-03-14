@@ -8,7 +8,7 @@
     value = "SMAP\nDelegateFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DelegateFragment.kt\ncom/pixocial/baseutils/ipermission/DelegateFragment\n*L\n1#1,64:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "Landroidx/fragment/app/Fragment;",
         "Lf/m/a/k/b;",
         "delegateProcess",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "q",
         "(Lf/m/a/k/b;)V",
         "r",
@@ -41,7 +41,7 @@
         "onRequestPermissionsResult",
         "(I[Ljava/lang/String;[I)V",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "a",
         "Ljava/util/ArrayList;",
         "processes",
@@ -108,7 +108,7 @@
 
     const-string v1, "processes.iterator()"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     :cond_0
@@ -126,7 +126,7 @@
 
     const-string v2, "iterator.next()"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v1, Lf/m/a/k/b;
 
@@ -159,11 +159,11 @@
 
     const-string v0, "permissions"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "grantResults"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
@@ -177,7 +177,7 @@
 
     const-string v1, "processes.iterator()"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     :cond_0
@@ -195,7 +195,7 @@
 
     const-string v2, "iterator.next()"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v1, Lf/m/a/k/b;
 
@@ -224,7 +224,7 @@
 
     const-string v0, "delegateProcess"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lf/m/a/k/a;->a:Ljava/util/ArrayList;
@@ -256,7 +256,7 @@
 
     const-string v0, "delegateProcess"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lf/m/a/k/a;->a:Ljava/util/ArrayList;

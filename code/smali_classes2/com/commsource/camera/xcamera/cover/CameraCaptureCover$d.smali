@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "curMode",
         "",
         "isHandClick",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(IIZ)V",
         "b",
@@ -94,7 +94,7 @@
 
     const-string v0, "mViewBinding.cst"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p3}, Lcom/commsource/util/l0;->x(Landroid/view/View;)V
 

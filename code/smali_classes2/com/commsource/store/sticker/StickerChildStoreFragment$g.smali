@@ -21,7 +21,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,7 +35,7 @@
         "Lcom/commsource/beautyfilter/NoStickLiveData$a;",
         "Lcom/meitu/template/bean/StickerGroup;",
         "group",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(Lcom/meitu/template/bean/StickerGroup;)V",
         "app_googleplayRelease"

@@ -12,7 +12,7 @@
     value = "SMAP\nMoPubAd.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MoPubAd.kt\ncom/mopub/mobileads/MoPubAd\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,112:1\n1#2:113\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,7 +35,7 @@
         "getAdViewController",
         "()Lcom/mopub/mobileads/AdViewController;",
         "adViewController",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "setAdViewController",
         "(Lcom/mopub/mobileads/AdViewController;)V",
         "loadAd",
@@ -95,12 +95,12 @@
 .end method
 
 .method public abstract getAdHeight()I
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method
 
 .method public abstract getAdUnitId()Ljava/lang/String;
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -113,12 +113,12 @@
 .end method
 
 .method public abstract getAdWidth()I
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method
 
 .method public abstract getKeywords()Ljava/lang/String;
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -136,7 +136,7 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -144,11 +144,11 @@
 .end method
 
 .method public abstract getLocation()Landroid/location/Location;
-    .annotation runtime Lkotlin/i;
+    .annotation runtime Lcotlin/i;
         message = "As of 5.12.0, will be removed in the future."
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -156,7 +156,7 @@
 .end method
 
 .method public abstract getUserDataKeywords()Ljava/lang/String;
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -164,7 +164,7 @@
 .end method
 
 .method public abstract loadAd()V
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method
 
@@ -173,12 +173,12 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method
 
 .method public abstract pauseAutoRefresh()V
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method
 
@@ -188,7 +188,7 @@
 .end method
 
 .method public abstract resumeAutoRefresh()V
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method
 
@@ -197,7 +197,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method
 
@@ -206,7 +206,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method
 
@@ -222,7 +222,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method
 
@@ -242,7 +242,7 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method
 
@@ -251,6 +251,6 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method

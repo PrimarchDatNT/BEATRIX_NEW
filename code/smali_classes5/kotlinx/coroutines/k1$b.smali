@@ -1,11 +1,11 @@
-.class final Lkotlinx/coroutines/k1$b;
-.super Lkotlinx/coroutines/k1$c;
+.class final Lcotlinx/coroutines/k1$b;
+.super Lcotlinx/coroutines/k1$c;
 .source "EventLoop.common.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/k1;
+    value = Lcotlinx/coroutines/k1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "b"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,15 +24,15 @@
     }
     d2 = {
         "kotlinx/coroutines/k1$b",
-        "Lkotlinx/coroutines/k1$c;",
-        "Lkotlin/t1;",
+        "Lcotlinx/coroutines/k1$c;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "",
         "toString",
         "()Ljava/lang/String;",
         "Ljava/lang/Runnable;",
-        "Lkotlinx/coroutines/Runnable;",
+        "Lcotlinx/coroutines/Runnable;",
         "d",
         "Ljava/lang/Runnable;",
         "block",
@@ -64,9 +64,9 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lkotlinx/coroutines/k1$c;-><init>(J)V
+    invoke-direct {p0, p1, p2}, Lcotlinx/coroutines/k1$c;-><init>(J)V
 
-    iput-object p3, p0, Lkotlinx/coroutines/k1$b;->d:Ljava/lang/Runnable;
+    iput-object p3, p0, Lcotlinx/coroutines/k1$b;->d:Ljava/lang/Runnable;
 
     return-void
 .end method
@@ -77,7 +77,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/k1$b;->d:Ljava/lang/Runnable;
+    iget-object v0, p0, Lcotlinx/coroutines/k1$b;->d:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
@@ -94,13 +94,13 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-super {p0}, Lkotlinx/coroutines/k1$c;->toString()Ljava/lang/String;
+    invoke-super {p0}, Lcotlinx/coroutines/k1$c;->toString()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lkotlinx/coroutines/k1$b;->d:Ljava/lang/Runnable;
+    iget-object v1, p0, Lcotlinx/coroutines/k1$b;->d:Ljava/lang/Runnable;
 
     invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 

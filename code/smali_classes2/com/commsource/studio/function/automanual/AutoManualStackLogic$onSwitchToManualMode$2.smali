@@ -1,14 +1,14 @@
 .class final Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToManualMode$2;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "AutoManualStackLogic.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->m(Lkotlin/jvm/u/a;)Z
+    value = Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->m(Lcotlin/jvm/u/a;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,9 +18,9 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
-        "Lkotlin/t1;",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
@@ -29,7 +29,7 @@
     value = "SMAP\nAutoManualStackLogic.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AutoManualStackLogic.kt\ncom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToManualMode$2\n*L\n1#1,328:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "()V",
         "<anonymous>"
@@ -54,22 +54,22 @@
 
 
 # instance fields
-.field final synthetic $action:Lkotlin/jvm/u/a;
+.field final synthetic $action:Lcotlin/jvm/u/a;
 
 .field final synthetic this$0:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
 
 # direct methods
-.method constructor <init>(Lcom/commsource/studio/function/automanual/AutoManualStackLogic;Lkotlin/jvm/u/a;)V
+.method constructor <init>(Lcom/commsource/studio/function/automanual/AutoManualStackLogic;Lcotlin/jvm/u/a;)V
     .locals 0
 
     iput-object p1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToManualMode$2;->this$0:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
-    iput-object p2, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToManualMode$2;->$action:Lkotlin/jvm/u/a;
+    iput-object p2, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToManualMode$2;->$action:Lcotlin/jvm/u/a;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -86,7 +86,7 @@
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToManualMode$2;->invoke()V
 
-    sget-object v1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -192,15 +192,15 @@
 
     .line 11
     :cond_1
-    iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToManualMode$2;->$action:Lkotlin/jvm/u/a;
+    iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToManualMode$2;->$action:Lcotlin/jvm/u/a;
 
     if-eqz v1, :cond_2
 
-    invoke-interface {v1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/t1;
+    check-cast v1, Lcotlin/t1;
 
     .line 12
     :cond_2

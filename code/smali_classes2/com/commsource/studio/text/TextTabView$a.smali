@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Landroid/animation/ValueAnimator;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onAnimationUpdate",
         "(Landroid/animation/ValueAnimator;)V",
         "com/commsource/studio/text/TextTabView$doAnim$1$1",
@@ -71,7 +71,7 @@
     const-string v1, "it"
 
     .line 1
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
@@ -113,7 +113,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/qm;->a:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     mul-float v3, p1, v6
 
@@ -130,7 +130,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/qm;->d:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     add-float/2addr v3, v6
 
@@ -145,7 +145,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/qm;->p:Landroid/view/View;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v2, p0, Lcom/commsource/studio/text/TextTabView$a;->a:Lcom/commsource/studio/text/TextTabView;
 
@@ -220,7 +220,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/qm;->d:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     mul-float v5, p1, v6
 
@@ -237,7 +237,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/qm;->a:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     add-float/2addr v5, v6
 
@@ -252,7 +252,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/qm;->p:Landroid/view/View;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v2, p0, Lcom/commsource/studio/text/TextTabView$a;->a:Lcom/commsource/studio/text/TextTabView;
 
@@ -329,11 +329,11 @@
 
     .line 12
     :cond_1
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type kotlin.Float"
 
-    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

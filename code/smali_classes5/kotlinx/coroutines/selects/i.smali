@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/selects/i;
+.class public final Lcotlinx/coroutines/selects/i;
 .super Ljava/lang/Object;
 .source "Select.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -14,7 +14,7 @@
         "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\t\n\u0002\u0008\u0005\u0008\u0000\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\r\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004\u00a8\u0006\u0007"
     }
     d2 = {
-        "Lkotlinx/coroutines/selects/i;",
+        "Lcotlinx/coroutines/selects/i;",
         "",
         "",
         "a",
@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    const-class v0, Lkotlinx/coroutines/selects/i;
+    const-class v0, Lcotlinx/coroutines/selects/i;
 
     const-string v1, "number"
 
@@ -52,7 +52,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkotlinx/coroutines/selects/i;->a:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
+    sput-object v0, Lcotlinx/coroutines/selects/i;->a:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
     return-void
 .end method
@@ -66,7 +66,7 @@
     const-wide/16 v0, 0x1
 
     .line 2
-    iput-wide v0, p0, Lkotlinx/coroutines/selects/i;->number:J
+    iput-wide v0, p0, Lcotlinx/coroutines/selects/i;->number:J
 
     return-void
 .end method
@@ -77,7 +77,7 @@
     .locals 2
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/selects/i;->a:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
+    sget-object v0, Lcotlinx/coroutines/selects/i;->a:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
     invoke-virtual {v0, p0}, Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;->incrementAndGet(Ljava/lang/Object;)J
 

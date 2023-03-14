@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "Lcom/commsource/studio/doodle/DoodleMaterial;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/studio/doodle/DoodleMaterial;)V"
     }
@@ -83,7 +83,7 @@
 
     const-string v2, "it"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1, p1}, Lcom/commsource/studio/doodle/DoodleFragment;->o0(Lcom/commsource/studio/doodle/DoodleFragment;Lcom/commsource/studio/doodle/DoodleMaterial;)V
 

@@ -1,4 +1,4 @@
-.class public interface abstract annotation Lkotlin/coroutines/jvm/internal/d;
+.class public interface abstract annotation Lcotlin/coroutines/jvm/internal/d;
 .super Ljava/lang/Object;
 .source "DebugMetadata.kt"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/AnnotationDefault;
-    value = .subannotation Lkotlin/coroutines/jvm/internal/d;
+    value = .subannotation Lcotlin/coroutines/jvm/internal/d;
         c = ""
         f = ""
         i = {}
@@ -30,13 +30,13 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/annotation/d;
+.annotation runtime Lcotlin/annotation/d;
     allowedTargets = {
-        .enum Lkotlin/annotation/AnnotationTarget;->CLASS:Lkotlin/annotation/AnnotationTarget;
+        .enum Lcotlin/annotation/AnnotationTarget;->CLASS:Lcotlin/annotation/AnnotationTarget;
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -46,7 +46,7 @@
         "\u0000(\n\u0002\u0018\u0002\n\u0002\u0010\u001b\n\u0002\u0010\u0008\n\u0002\u0008\u0003\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0010\u0015\n\u0002\u0008\u0007\n\u0002\u0010\u0011\n\u0002\u0008\n\u0008\u0081\u0002\u0018\u00002\u00020\u0001Bc\u0012\u0008\u0008\u0002\u0010\u0005\u001a\u00020\u0002\u0012\u0008\u0008\u0002\u0010\t\u001a\u00020\u0006\u0012\u0008\u0008\u0002\u0010\r\u001a\u00020\n\u0012\u000e\u0008\u0002\u0010\u0017\u001a\u0008\u0012\u0004\u0012\u00020\u00060\u0012\u0012\u000e\u0008\u0002\u0010\u0015\u001a\u0008\u0012\u0004\u0012\u00020\u00060\u0012\u0012\u0008\u0008\u0002\u0010\u000f\u001a\u00020\n\u0012\u0008\u0008\u0002\u0010\u0019\u001a\u00020\u0006\u0012\u0008\u0008\u0002\u0010\u0011\u001a\u00020\u0006\u00a2\u0006\u0004\u0008\u001a\u0010\u001bR\u0013\u0010\u0005\u001a\u00020\u00028\u0007@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008\u0003\u0010\u0004R\u0013\u0010\t\u001a\u00020\u00068\u0007@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008\u0007\u0010\u0008R\u0013\u0010\r\u001a\u00020\n8\u0007@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008\u000b\u0010\u000cR\u0013\u0010\u000f\u001a\u00020\n8\u0007@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008\u000e\u0010\u000cR\u0013\u0010\u0011\u001a\u00020\u00068\u0007@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008\u0010\u0010\u0008R\u0019\u0010\u0015\u001a\u0008\u0012\u0004\u0012\u00020\u00060\u00128\u0007@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008\u0013\u0010\u0014R\u0019\u0010\u0017\u001a\u0008\u0012\u0004\u0012\u00020\u00060\u00128\u0007@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008\u0016\u0010\u0014R\u0013\u0010\u0019\u001a\u00020\u00068\u0007@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008\u0018\u0010\u0008\u00a8\u0006\u001c"
     }
     d2 = {
-        "Lkotlin/coroutines/jvm/internal/d;",
+        "Lcotlin/coroutines/jvm/internal/d;",
         "",
         "",
         "v",
@@ -73,7 +73,7 @@
         "m",
         "methodName",
         "<init>",
-        "(ILjava/lang/String;[ILkotlin/Array;Lkotlin/Array;[ILjava/lang/String;Ljava/lang/String;)V",
+        "(ILjava/lang/String;[ILcotlin/Array;Lcotlin/Array;[ILjava/lang/String;Ljava/lang/String;)V",
         "kotlin-stdlib"
     }
     k = 0x1
@@ -84,56 +84,56 @@
     }
 .end annotation
 
-.annotation build Lkotlin/s0;
+.annotation build Lcotlin/s0;
     version = "1.3"
 .end annotation
 
 
 # virtual methods
 .method public abstract c()Ljava/lang/String;
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "c"
     .end annotation
 .end method
 
 .method public abstract f()Ljava/lang/String;
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "f"
     .end annotation
 .end method
 
 .method public abstract i()[I
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "i"
     .end annotation
 .end method
 
 .method public abstract l()[I
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "l"
     .end annotation
 .end method
 
 .method public abstract m()Ljava/lang/String;
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "m"
     .end annotation
 .end method
 
 .method public abstract n()[Ljava/lang/String;
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "n"
     .end annotation
 .end method
 
 .method public abstract s()[Ljava/lang/String;
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "s"
     .end annotation
 .end method
 
 .method public abstract v()I
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "v"
     .end annotation
 .end method

@@ -20,7 +20,7 @@
     value = "SMAP\nBodyShapeFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BodyShapeFragment.kt\ncom/commsource/studio/function/bodyshape/BodyShapeFragment$onViewCreated$5\n*L\n1#1,574:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
         "leftDx",
         "",
         "fromUser",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "O",
         "(IFZ)V",
         "i",
@@ -144,7 +144,7 @@
 
     const-string v1, "mViewBinding.rvAuto"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
@@ -170,17 +170,17 @@
 
     invoke-direct {v1, v0, p3, p0, p1}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onViewCreated$5$onProgressChange$$inlined$let$lambda$1;-><init>(Lcom/commsource/studio/function/bodyshape/a;Lcom/commsource/studio/effect/bodyshape/a;Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onViewCreated$5;I)V
 
-    invoke-virtual {v0, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v0, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
     goto :goto_0
 
     .line 6
     :cond_0
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p3, "null cannot be cast to non-null type com.commsource.widget.recyclerview.BaseRecyclerViewAdapter"
 
-    invoke-direct {p1, p3}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p3}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

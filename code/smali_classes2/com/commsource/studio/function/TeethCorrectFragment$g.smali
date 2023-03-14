@@ -20,7 +20,7 @@
     value = "SMAP\nTeethCorrectFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TeethCorrectFragment.kt\ncom/commsource/studio/function/TeethCorrectFragment$onViewCreated$7\n*L\n1#1,235:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "Landroid/view/View;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onClick",
         "(Landroid/view/View;)V",
         "<anonymous>"
@@ -94,7 +94,7 @@
 
     const-string v2, "mViewBinding.teethNatural"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x0
 
@@ -111,7 +111,7 @@
 
     const-string v3, "mViewBinding.teethNone"
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1, v2}, Landroid/widget/LinearLayout;->setSelected(Z)V
 

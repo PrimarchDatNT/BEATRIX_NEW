@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "",
         "getUserAgent",
         "(Landroid/content/Context;)Ljava/lang/String;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "clearForTesting",
         "()V",
         "queue",
@@ -169,7 +169,7 @@
     .annotation runtime Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     const-class v0, Lcom/mopub/network/Networking;
@@ -224,7 +224,7 @@
 
 .method public static synthetic getCachedUserAgent$annotations()V
     .locals 0
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     return-void
@@ -236,7 +236,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -244,7 +244,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v0, Lcom/mopub/network/Networking;->imageLoader:Lcom/mopub/network/MoPubImageLoader;
@@ -256,7 +256,7 @@
     :cond_0
     const-class v0, Lcom/mopub/network/Networking;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v0
 
@@ -339,7 +339,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -347,7 +347,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     sget-object v0, Lcom/mopub/network/Networking;->requestQueue:Lcom/mopub/network/MoPubRequestQueue;
@@ -359,7 +359,7 @@
     :cond_0
     const-class v0, Lcom/mopub/network/Networking;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v0
 
@@ -390,7 +390,7 @@
 
     const-string v3, "context.applicationContext"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v2}, Lcom/mopub/network/Networking;->getUserAgent(Landroid/content/Context;)Ljava/lang/String;
 
@@ -409,7 +409,7 @@
 
     const-string v5, "context.cacheDir"
 
-    invoke-static {p0, v5}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v5}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Ljava/io/File;->getPath()Ljava/lang/String;
 
@@ -484,7 +484,7 @@
 
 .method public static synthetic getRequestQueue$annotations()V
     .locals 0
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     return-void
@@ -502,7 +502,7 @@
 
 .method public static synthetic getScheme$annotations()V
     .locals 0
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     return-void
@@ -521,7 +521,7 @@
 
 .method public static synthetic getUrlRewriter$annotations()V
     .locals 0
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     return-void
@@ -533,7 +533,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -541,7 +541,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v0, Lcom/mopub/network/Networking;->userAgent:Ljava/lang/String;
@@ -585,7 +585,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -610,7 +610,7 @@
 
     const-string v3, "WebSettings.getDefaultUserAgent(context)"
 
-    invoke-static {p0, v3}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v3}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -646,7 +646,7 @@
     .annotation runtime Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     const-class v0, Lcom/mopub/network/Networking;
@@ -681,7 +681,7 @@
     .annotation runtime Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     const-class v0, Lcom/mopub/network/Networking;
@@ -729,7 +729,7 @@
     .annotation runtime Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     const-class v0, Lcom/mopub/network/Networking;

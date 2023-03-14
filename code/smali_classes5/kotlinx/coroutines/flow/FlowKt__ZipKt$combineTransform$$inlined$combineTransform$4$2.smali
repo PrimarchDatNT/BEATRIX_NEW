@@ -1,14 +1,14 @@
-.class public final Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;
-.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.class public final Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;
+.super Lcotlin/coroutines/jvm/internal/SuspendLambda;
 .source "Zip.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/q;
+.implements Lcotlin/jvm/u/q;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,14 +18,14 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Lkotlin/jvm/u/q<",
-        "Lkotlinx/coroutines/flow/e<",
+        "Lcotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lcotlin/jvm/u/q<",
+        "Lcotlinx/coroutines/flow/e<",
         "-TR;>;[",
         "Ljava/lang/Object;",
-        "Lkotlin/coroutines/c<",
+        "Lcotlin/coroutines/c<",
         "-",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;",
         "Ljava/lang/Object;",
         ">;"
@@ -36,7 +36,7 @@
     value = "SMAP\nZip.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Zip.kt\nkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6$2\n+ 2 Zip.kt\nkotlinx/coroutines/flow/FlowKt__ZipKt\n*L\n1#1,318:1\n233#2,8:319\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -48,10 +48,10 @@
     d2 = {
         "T",
         "R",
-        "LLkotlinx/coroutines/flow/FlowCollector;;",
+        "LLcotlinx/coroutines/flow/FlowCollector;;",
         "L;",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "kotlin/Array",
         "kotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6$2",
@@ -65,7 +65,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.flow.FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2"
     f = "Zip.kt"
     i = {}
@@ -83,31 +83,31 @@
 
 .field label:I
 
-.field private p$:Lkotlinx/coroutines/flow/e;
+.field private p$:Lcotlinx/coroutines/flow/e;
 
 .field private p$0:[Ljava/lang/Object;
 
-.field final synthetic this$0:Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;
+.field final synthetic this$0:Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;Lkotlin/coroutines/c;)V
+.method public constructor <init>(Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;Lcotlin/coroutines/c;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->this$0:Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->this$0:Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;
 
     const/4 p1, 0x3
 
-    invoke-direct {p0, p1, p2}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/c;)V
+    invoke-direct {p0, p1, p2}, Lcotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILcotlin/coroutines/c;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final create(Lkotlinx/coroutines/flow/e;[Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+.method public final create(Lcotlinx/coroutines/flow/e;[Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 2
-    .param p1    # Lkotlinx/coroutines/flow/e;
+    .param p1    # Lcotlinx/coroutines/flow/e;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -115,22 +115,22 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/flow/e<",
+            "Lcotlinx/coroutines/flow/e<",
             "-TR;>;[",
             "Ljava/lang/Object;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
-            "Lkotlin/coroutines/c<",
-            "Lkotlin/t1;",
+            "Lcotlin/coroutines/c<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -138,15 +138,15 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    new-instance v0, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;
+    new-instance v0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;
 
-    iget-object v1, p0, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->this$0:Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;
+    iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->this$0:Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;
 
-    invoke-direct {v0, v1, p3}, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;-><init>(Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;Lkotlin/coroutines/c;)V
+    invoke-direct {v0, v1, p3}, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;-><init>(Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;Lcotlin/coroutines/c;)V
 
-    iput-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->p$:Lkotlinx/coroutines/flow/e;
+    iput-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->p$:Lcotlinx/coroutines/flow/e;
 
-    iput-object p2, v0, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->p$0:[Ljava/lang/Object;
+    iput-object p2, v0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->p$0:[Ljava/lang/Object;
 
     return-object v0
 .end method
@@ -154,21 +154,21 @@
 .method public final invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    check-cast p1, Lkotlinx/coroutines/flow/e;
+    check-cast p1, Lcotlinx/coroutines/flow/e;
 
     check-cast p2, [Ljava/lang/Object;
 
-    check-cast p3, Lkotlin/coroutines/c;
+    check-cast p3, Lcotlin/coroutines/c;
 
-    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->create(Lkotlinx/coroutines/flow/e;[Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-virtual {p0, p1, p2, p3}, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->create(Lcotlinx/coroutines/flow/e;[Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p1
 
-    check-cast p1, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;
+    check-cast p1, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;
 
-    sget-object p2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-virtual {p1, p2}, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -184,23 +184,23 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     .line 1
-    iget v0, p0, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->label:I
+    iget v0, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->label:I
 
     if-nez v0, :cond_0
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    iget-object v2, p0, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->p$:Lkotlinx/coroutines/flow/e;
+    iget-object v2, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->p$:Lcotlinx/coroutines/flow/e;
 
-    iget-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->p$0:[Ljava/lang/Object;
+    iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->p$0:[Ljava/lang/Object;
 
     .line 2
-    iget-object v0, p0, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->this$0:Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->this$0:Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;
 
-    iget-object v1, v0, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;->$transform$inlined:Lkotlin/jvm/u/u;
+    iget-object v1, v0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;->$transform$inlined:Lcotlin/jvm/u/u;
 
     const/4 v0, 0x0
 
@@ -229,10 +229,10 @@
 
     move-object v8, p0
 
-    invoke-interface/range {v1 .. v8}, Lkotlin/jvm/u/u;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface/range {v1 .. v8}, Lcotlin/jvm/u/u;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 
@@ -255,14 +255,14 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    iget-object v1, p0, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->p$:Lkotlinx/coroutines/flow/e;
+    iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->p$:Lcotlinx/coroutines/flow/e;
 
-    iget-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->p$0:[Ljava/lang/Object;
+    iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->p$0:[Ljava/lang/Object;
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->this$0:Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4$2;->this$0:Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;
 
-    iget-object v0, v0, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;->$transform$inlined:Lkotlin/jvm/u/u;
+    iget-object v0, v0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;->$transform$inlined:Lcotlin/jvm/u/u;
 
     const/4 v2, 0x0
 
@@ -291,10 +291,10 @@
 
     move-object v7, p0
 
-    invoke-interface/range {v0 .. v7}, Lkotlin/jvm/u/u;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface/range {v0 .. v7}, Lcotlin/jvm/u/u;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method

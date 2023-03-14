@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "getInetAddressByName",
         "(Ljava/lang/String;)Ljava/net/InetAddress;",
         "inetAddress",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "setMockInetAddress",
         "(Ljava/net/InetAddress;)V",
         "mockInetAddress",
@@ -84,7 +84,7 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -104,7 +104,7 @@
 
     const-string p0, "InetAddress.getByName(host)"
 
-    invoke-static {v0, p0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     :goto_0
     return-object v0
@@ -119,11 +119,11 @@
     .annotation runtime Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .annotation runtime Lkotlin/i;
+    .annotation runtime Lcotlin/i;
         message = ""
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .line 1

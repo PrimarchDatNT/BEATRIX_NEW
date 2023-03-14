@@ -1,5 +1,5 @@
-.class public abstract Lkotlinx/coroutines/ExecutorCoroutineDispatcher;
-.super Lkotlinx/coroutines/CoroutineDispatcher;
+.class public abstract Lcotlinx/coroutines/ExecutorCoroutineDispatcher;
+.super Lcotlinx/coroutines/CoroutineDispatcher;
 .source "Executors.kt"
 
 # interfaces
@@ -9,11 +9,11 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkotlinx/coroutines/ExecutorCoroutineDispatcher$Key;
+        Lcotlinx/coroutines/ExecutorCoroutineDispatcher$Key;
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -23,10 +23,10 @@
         "\u0000\u001c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0008&\u0018\u0000 \u000b2\u00020\u00012\u00020\u0002:\u0001\u000cB\u0007\u00a2\u0006\u0004\u0008\n\u0010\u0005J\u000f\u0010\u0004\u001a\u00020\u0003H&\u00a2\u0006\u0004\u0008\u0004\u0010\u0005R\u0016\u0010\t\u001a\u00020\u00068&@&X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0007\u0010\u0008\u00a8\u0006\r"
     }
     d2 = {
-        "Lkotlinx/coroutines/ExecutorCoroutineDispatcher;",
-        "Lkotlinx/coroutines/CoroutineDispatcher;",
+        "Lcotlinx/coroutines/ExecutorCoroutineDispatcher;",
+        "Lcotlinx/coroutines/CoroutineDispatcher;",
         "Ljava/io/Closeable;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "close",
         "()V",
         "Ljava/util/concurrent/Executor;",
@@ -48,20 +48,20 @@
 
 
 # static fields
-.field public static final b:Lkotlinx/coroutines/ExecutorCoroutineDispatcher$Key;
+.field public static final b:Lcotlinx/coroutines/ExecutorCoroutineDispatcher$Key;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 2
 
-    new-instance v0, Lkotlinx/coroutines/ExecutorCoroutineDispatcher$Key;
+    new-instance v0, Lcotlinx/coroutines/ExecutorCoroutineDispatcher$Key;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/ExecutorCoroutineDispatcher$Key;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/ExecutorCoroutineDispatcher$Key;-><init>(Lcotlin/jvm/internal/u;)V
 
-    sput-object v0, Lkotlinx/coroutines/ExecutorCoroutineDispatcher;->b:Lkotlinx/coroutines/ExecutorCoroutineDispatcher$Key;
+    sput-object v0, Lcotlinx/coroutines/ExecutorCoroutineDispatcher;->b:Lcotlinx/coroutines/ExecutorCoroutineDispatcher$Key;
 
     return-void
 .end method
@@ -70,7 +70,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lkotlinx/coroutines/CoroutineDispatcher;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/CoroutineDispatcher;-><init>()V
 
     return-void
 .end method

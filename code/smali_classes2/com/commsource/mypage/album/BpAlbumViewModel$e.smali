@@ -20,7 +20,7 @@
     value = "SMAP\nBpAlbumViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpAlbumViewModel.kt\ncom/commsource/mypage/album/BpAlbumViewModel$onSelectImage$1$1\n*L\n1#1,688:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
         "faceData",
         "w",
         "h",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(ILjava/lang/String;Lcom/meitu/core/types/FaceData;II)V",
         "com/commsource/mypage/album/BpAlbumViewModel$onSelectImage$1$1"
@@ -296,7 +296,7 @@
     move-object v0, p4
 
     .line 18
-    invoke-direct/range {v0 .. v6}, Lcom/commsource/mypage/album/w;-><init>(Lcom/commsource/mypage/album/AlbumSetting;Lcom/commsource/cloudalbum/bean/CAImageInfo;Landroid/os/Bundle;IILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v6}, Lcom/commsource/mypage/album/w;-><init>(Lcom/commsource/mypage/album/AlbumSetting;Lcom/commsource/cloudalbum/bean/CAImageInfo;Landroid/os/Bundle;IILcotlin/jvm/internal/u;)V
 
     .line 19
     invoke-interface {p1, p3, p4}, Lcom/commsource/mypage/album/OnImageSelectCallback;->onImageSelect(Landroid/app/Activity;Lcom/commsource/mypage/album/w;)V

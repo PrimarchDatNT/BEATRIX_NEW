@@ -29,7 +29,7 @@
     value = "SMAP\nNewHomeViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewHomeViewModel.kt\ncom/commsource/home/NewHomeViewModel$loadInAppPush$1\n*L\n1#1,139:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -44,7 +44,7 @@
         "Lcom/commsource/beautyplus/j0/c/c$c;",
         "",
         "code",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "b",
         "(I)V",
         "result",

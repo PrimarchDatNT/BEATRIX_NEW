@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "isOpt",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Boolean;)V"
     }
@@ -105,7 +105,7 @@
 
     iget-object v2, p1, Lcom/commsource/beautyplus/f0/cc;->M:Landroid/widget/TextView;
 
-    invoke-static {v2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v3, 0x0
 
@@ -119,7 +119,7 @@
 
     const/4 v8, 0x0
 
-    invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     goto :goto_1
 
@@ -133,7 +133,7 @@
 
     iget-object v2, p1, Lcom/commsource/beautyplus/f0/cc;->M:Landroid/widget/TextView;
 
-    invoke-static {v2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object p1, p0, Lcom/commsource/studio/sticker/TextFragment$onViewCreated$6;->a:Lcom/commsource/studio/sticker/TextFragment;
 
@@ -175,7 +175,7 @@
 
     const/4 v9, 0x0
 
-    invoke-static/range {v2 .. v9}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v9}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 5
     :cond_2

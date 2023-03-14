@@ -1,15 +1,15 @@
-.class public final Lkotlin/sequences/l$a;
+.class public final Lcotlin/sequences/l$a;
 .super Ljava/lang/Object;
 .source "Sequences.kt"
 
 # interfaces
 .implements Ljava/util/Iterator;
-.implements Lkotlin/jvm/internal/x0/a;
+.implements Lcotlin/jvm/internal/x0/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/sequences/l;->iterator()Ljava/util/Iterator;
+    value = Lcotlin/sequences/l;->iterator()Ljava/util/Iterator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,11 +22,11 @@
         "Ljava/lang/Object;",
         "Ljava/util/Iterator<",
         "TV;>;",
-        "Lkotlin/jvm/internal/x0/a;"
+        "Lcotlin/jvm/internal/x0/a;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -85,11 +85,11 @@
     .end annotation
 .end field
 
-.field final synthetic c:Lkotlin/sequences/l;
+.field final synthetic c:Lcotlin/sequences/l;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/sequences/l;)V
+.method constructor <init>(Lcotlin/sequences/l;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -98,31 +98,31 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lkotlin/sequences/l$a;->c:Lkotlin/sequences/l;
+    iput-object p1, p0, Lcotlin/sequences/l$a;->c:Lcotlin/sequences/l;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    invoke-static {p1}, Lkotlin/sequences/l;->c(Lkotlin/sequences/l;)Lkotlin/sequences/m;
+    invoke-static {p1}, Lcotlin/sequences/l;->c(Lcotlin/sequences/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkotlin/sequences/l$a;->a:Ljava/util/Iterator;
+    iput-object v0, p0, Lcotlin/sequences/l$a;->a:Ljava/util/Iterator;
 
     .line 3
-    invoke-static {p1}, Lkotlin/sequences/l;->d(Lkotlin/sequences/l;)Lkotlin/sequences/m;
+    invoke-static {p1}, Lcotlin/sequences/l;->d(Lcotlin/sequences/l;)Lcotlin/sequences/m;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
-    iput-object p1, p0, Lkotlin/sequences/l$a;->b:Ljava/util/Iterator;
+    iput-object p1, p0, Lcotlin/sequences/l$a;->b:Ljava/util/Iterator;
 
     return-void
 .end method
@@ -143,7 +143,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/sequences/l$a;->a:Ljava/util/Iterator;
+    iget-object v0, p0, Lcotlin/sequences/l$a;->a:Ljava/util/Iterator;
 
     return-object v0
 .end method
@@ -162,7 +162,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/sequences/l$a;->b:Ljava/util/Iterator;
+    iget-object v0, p0, Lcotlin/sequences/l$a;->b:Ljava/util/Iterator;
 
     return-object v0
 .end method
@@ -171,7 +171,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/sequences/l$a;->a:Ljava/util/Iterator;
+    iget-object v0, p0, Lcotlin/sequences/l$a;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -179,7 +179,7 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkotlin/sequences/l$a;->b:Ljava/util/Iterator;
+    iget-object v0, p0, Lcotlin/sequences/l$a;->b:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -207,25 +207,25 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/sequences/l$a;->c:Lkotlin/sequences/l;
+    iget-object v0, p0, Lcotlin/sequences/l$a;->c:Lcotlin/sequences/l;
 
-    invoke-static {v0}, Lkotlin/sequences/l;->e(Lkotlin/sequences/l;)Lkotlin/jvm/u/p;
+    invoke-static {v0}, Lcotlin/sequences/l;->e(Lcotlin/sequences/l;)Lcotlin/jvm/u/p;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkotlin/sequences/l$a;->a:Ljava/util/Iterator;
+    iget-object v1, p0, Lcotlin/sequences/l$a;->a:Ljava/util/Iterator;
 
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkotlin/sequences/l$a;->b:Ljava/util/Iterator;
+    iget-object v2, p0, Lcotlin/sequences/l$a;->b:Ljava/util/Iterator;
 
     invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
-    invoke-interface {v0, v1, v2}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1, v2}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 

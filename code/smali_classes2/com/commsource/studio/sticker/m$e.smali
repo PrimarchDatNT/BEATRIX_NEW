@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Landroid/view/View;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onClick",
         "(Landroid/view/View;)V",
         "<anonymous>"
@@ -86,17 +86,17 @@
     .line 3
     iget-object v0, p0, Lcom/commsource/studio/sticker/m$e;->a:Lcom/commsource/studio/sticker/m;
 
-    invoke-virtual {v0}, Lcom/commsource/studio/sticker/m;->g()Lkotlin/jvm/u/a;
+    invoke-virtual {v0}, Lcom/commsource/studio/sticker/m;->g()Lcotlin/jvm/u/a;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkotlin/t1;
+    check-cast v0, Lcotlin/t1;
 
     .line 4
     :cond_0

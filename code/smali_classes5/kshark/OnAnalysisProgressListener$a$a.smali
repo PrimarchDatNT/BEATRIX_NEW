@@ -20,7 +20,7 @@
     value = "SMAP\nOnAnalysisProgressListener.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnAnalysisProgressListener.kt\nkshark/OnAnalysisProgressListener$Companion$invoke$1\n+ 2 OnAnalysisProgressListener.kt\nkshark/OnAnalysisProgressListener$Companion\n*L\n1#1,49:1\n28#2:50\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "Lkshark/OnAnalysisProgressListener;",
         "Lkshark/OnAnalysisProgressListener$Step;",
         "step",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lkshark/OnAnalysisProgressListener$Step;)V",
         "shark",
@@ -70,7 +70,7 @@
 
     const-string v0, "step"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method

@@ -1,10 +1,10 @@
-.class Lkotlin/text/t;
-.super Lkotlin/text/s;
+.class Lcotlin/text/t;
+.super Lcotlin/text/s;
 .source "StringNumberConversions.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -56,7 +56,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/text/s;-><init>()V
+    invoke-direct {p0}, Lcotlin/text/s;-><init>()V
 
     return-void
 .end method
@@ -72,7 +72,7 @@
 
     const-string v0, "input"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/lang/NumberFormatException;
@@ -106,7 +106,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -115,12 +115,12 @@
 
     const-string v0, "$this$toByteOrNull"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v0, 0xa
 
     .line 1
-    invoke-static {p0, v0}, Lkotlin/text/t;->W0(Ljava/lang/String;I)Ljava/lang/Byte;
+    invoke-static {p0, v0}, Lcotlin/text/t;->W0(Ljava/lang/String;I)Ljava/lang/Byte;
 
     move-result-object p0
 
@@ -133,7 +133,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -142,10 +142,10 @@
 
     const-string v0, "$this$toByteOrNull"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/text/t;->Y0(Ljava/lang/String;I)Ljava/lang/Integer;
+    invoke-static {p0, p1}, Lcotlin/text/t;->Y0(Ljava/lang/String;I)Ljava/lang/Integer;
 
     move-result-object p0
 
@@ -188,7 +188,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -197,12 +197,12 @@
 
     const-string v0, "$this$toIntOrNull"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v0, 0xa
 
     .line 1
-    invoke-static {p0, v0}, Lkotlin/text/t;->Y0(Ljava/lang/String;I)Ljava/lang/Integer;
+    invoke-static {p0, v0}, Lcotlin/text/t;->Y0(Ljava/lang/String;I)Ljava/lang/Integer;
 
     move-result-object p0
 
@@ -215,7 +215,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -224,10 +224,10 @@
 
     const-string v0, "$this$toIntOrNull"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p1}, Lkotlin/text/a;->a(I)I
+    invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     .line 2
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -251,7 +251,7 @@
     const/16 v4, 0x30
 
     .line 4
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->t(II)I
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result v4
 
@@ -306,7 +306,7 @@
 
     move-result v8
 
-    invoke-static {v8, p1}, Lkotlin/text/b;->b(CI)I
+    invoke-static {v8, p1}, Lcotlin/text/b;->b(CI)I
 
     move-result v8
 
@@ -370,7 +370,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -379,12 +379,12 @@
 
     const-string v0, "$this$toLongOrNull"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v0, 0xa
 
     .line 1
-    invoke-static {p0, v0}, Lkotlin/text/t;->a1(Ljava/lang/String;I)Ljava/lang/Long;
+    invoke-static {p0, v0}, Lcotlin/text/t;->a1(Ljava/lang/String;I)Ljava/lang/Long;
 
     move-result-object p0
 
@@ -397,7 +397,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -410,10 +410,10 @@
 
     const-string v2, "$this$toLongOrNull"
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static/range {p1 .. p1}, Lkotlin/text/a;->a(I)I
+    invoke-static/range {p1 .. p1}, Lcotlin/text/a;->a(I)I
 
     .line 2
     invoke-virtual/range {p0 .. p0}, Ljava/lang/String;->length()I
@@ -437,7 +437,7 @@
     const/16 v6, 0x30
 
     .line 4
-    invoke-static {v5, v6}, Lkotlin/jvm/internal/f0;->t(II)I
+    invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result v6
 
@@ -493,7 +493,7 @@
 
     move-result v14
 
-    invoke-static {v14, v1}, Lkotlin/text/b;->b(CI)I
+    invoke-static {v14, v1}, Lcotlin/text/b;->b(CI)I
 
     move-result v14
 
@@ -573,7 +573,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -582,12 +582,12 @@
 
     const-string v0, "$this$toShortOrNull"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v0, 0xa
 
     .line 1
-    invoke-static {p0, v0}, Lkotlin/text/t;->c1(Ljava/lang/String;I)Ljava/lang/Short;
+    invoke-static {p0, v0}, Lcotlin/text/t;->c1(Ljava/lang/String;I)Ljava/lang/Short;
 
     move-result-object p0
 
@@ -600,7 +600,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -609,10 +609,10 @@
 
     const-string v0, "$this$toShortOrNull"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/text/t;->Y0(Ljava/lang/String;I)Ljava/lang/Integer;
+    invoke-static {p0, p1}, Lcotlin/text/t;->Y0(Ljava/lang/String;I)Ljava/lang/Integer;
 
     move-result-object p0
 

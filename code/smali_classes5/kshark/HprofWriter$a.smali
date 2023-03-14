@@ -17,7 +17,7 @@
     value = "SMAP\nHprofWriter.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HprofWriter.kt\nkshark/HprofWriter$Companion\n*L\n1#1,410:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -61,7 +61,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -114,11 +114,11 @@
 
     const-string v0, "hprofFile"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "hprofVersion"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/io/FileOutputStream;
@@ -161,11 +161,11 @@
 
     const-string v1, "sink"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, p2, p3, v1}, Lkshark/HprofWriter;-><init>(Lokio/BufferedSink;ILkshark/Hprof$HprofVersion;Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, p1, p2, p3, v1}, Lkshark/HprofWriter;-><init>(Lokio/BufferedSink;ILkshark/Hprof$HprofVersion;Lcotlin/jvm/internal/u;)V
 
     return-object v0
 .end method

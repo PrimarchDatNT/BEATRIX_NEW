@@ -32,7 +32,7 @@
     value = "SMAP\nStudioBeautyFilterFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StudioBeautyFilterFragment.kt\ncom/commsource/studio/sub/StudioBeautyFilterFragment$initObserver$9\n*L\n1#1,1005:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Boolean;)V"
     }
@@ -111,7 +111,7 @@
 
     const-string v1, "studioBinding.fragmentContainer"
 
-    invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     const-class v4, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment;
@@ -146,7 +146,7 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$initObserver$9$$special$$inlined$let$lambda$1;-><init>(Lcom/commsource/studio/sub/StudioBeautyFilterFragment$initObserver$9;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment;->U(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment;->U(Lcotlin/jvm/u/a;)V
 
     :cond_0
     const-string p1, "filter_manage_enter"

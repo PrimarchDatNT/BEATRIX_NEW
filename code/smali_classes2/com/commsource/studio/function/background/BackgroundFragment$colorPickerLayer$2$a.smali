@@ -20,7 +20,7 @@
     value = "SMAP\nBackgroundFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BackgroundFragment.kt\ncom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2$1$1\n*L\n1#1,207:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,

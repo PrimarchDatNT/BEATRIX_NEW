@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "oldTop",
         "oldRight",
         "oldBottom",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onLayoutChange",
         "(Landroid/view/View;IIIIIIII)V",
         "app_googleplayRelease"
@@ -98,7 +98,7 @@
 
     const-string p3, "mViewBinding.rlRoot"
 
-    invoke-static {p2, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/widget/RelativeLayout;->getHeight()I
 
@@ -115,7 +115,7 @@
 
     const-string p3, "window"
 
-    invoke-static {p2, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/view/Window;->getDecorView()Landroid/view/View;
 
@@ -123,7 +123,7 @@
 
     const-string p3, "window.decorView"
 
-    invoke-static {p2, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/view/View;->getHeight()I
 

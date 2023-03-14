@@ -32,7 +32,7 @@
     value = "SMAP\nMosaicFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MosaicFragment.kt\ncom/commsource/studio/function/MosaicFragment$initViewModel$5\n*L\n1#1,393:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "Lcom/commsource/beautymain/data/c;",
         "kotlin.jvm.PlatformType",
         "entity",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/beautymain/data/c;)V"
     }

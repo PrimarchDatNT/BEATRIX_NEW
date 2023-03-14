@@ -21,7 +21,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,17 +34,17 @@
         "Lcom/commsource/beautyfilter/NoStickLiveData;",
         "T",
         "Landroidx/lifecycle/MutableLiveData;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "()V",
         "Landroidx/lifecycle/LifecycleOwner;",
         "owner",
-        "Lkotlin/Function1;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function1;",
+        "Lcotlin/k0;",
         "name",
         "t",
         "b",
-        "(Landroidx/lifecycle/LifecycleOwner;Lkotlin/jvm/u/l;)V",
+        "(Landroidx/lifecycle/LifecycleOwner;Lcotlin/jvm/u/l;)V",
         "Lcom/commsource/beautyfilter/NoStickLiveData$a;",
         "observer",
         "a",
@@ -214,7 +214,7 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
+    .annotation runtime Lcotlin/i;
         message = ""
     .end annotation
 
@@ -224,11 +224,11 @@
 
     const-string v1, "owner"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "observer"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget v1, p0, Lcom/commsource/beautyfilter/NoStickLiveData;->a:I
@@ -261,13 +261,13 @@
     return-void
 .end method
 
-.method public final b(Landroidx/lifecycle/LifecycleOwner;Lkotlin/jvm/u/l;)V
+.method public final b(Landroidx/lifecycle/LifecycleOwner;Lcotlin/jvm/u/l;)V
     .locals 2
     .param p1    # Landroidx/lifecycle/LifecycleOwner;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -275,9 +275,9 @@
         value = {
             "(",
             "Landroidx/lifecycle/LifecycleOwner;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -288,16 +288,16 @@
 
     const-string v1, "owner"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string/jumbo v1, "t"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/beautyfilter/NoStickLiveData$b;
 
-    invoke-direct {v1, p2}, Lcom/commsource/beautyfilter/NoStickLiveData$b;-><init>(Lkotlin/jvm/u/l;)V
+    invoke-direct {v1, p2}, Lcom/commsource/beautyfilter/NoStickLiveData$b;-><init>(Lcotlin/jvm/u/l;)V
 
     invoke-virtual {p0, p1, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
@@ -357,11 +357,11 @@
 
     const-string v1, "owner"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "observer"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
@@ -413,7 +413,7 @@
 
     const-string v1, "owner"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NoStickLiveData;->b:Ljava/util/concurrent/CopyOnWriteArraySet;

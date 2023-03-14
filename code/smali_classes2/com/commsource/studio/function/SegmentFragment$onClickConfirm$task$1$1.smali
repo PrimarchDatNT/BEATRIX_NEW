@@ -1,9 +1,9 @@
 .class final Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "SegmentFragment.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
@@ -18,9 +18,9 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
-        "Lkotlin/t1;",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
@@ -29,7 +29,7 @@
     value = "SMAP\nSegmentFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SegmentFragment.kt\ncom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1$1\n*L\n1#1,506:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "()V",
         "<anonymous>"
@@ -65,7 +65,7 @@
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -82,7 +82,7 @@
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/SegmentFragment$onClickConfirm$task$1$1;->invoke()V
 
-    sget-object v1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -137,7 +137,7 @@
 
     if-nez v3, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 5
     :cond_0
@@ -156,12 +156,12 @@
     xor-int/2addr v4, v5
 
     .line 6
-    invoke-virtual {v1, v2, v3, v4}, Lcom/commsource/studio/sticker/a;->A(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;Z)Lkotlin/Pair;
+    invoke-virtual {v1, v2, v3, v4}, Lcom/commsource/studio/sticker/a;->A(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;Z)Lcotlin/Pair;
 
     move-result-object v1
 
     .line 7
-    invoke-virtual {v1}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -176,7 +176,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v1
 

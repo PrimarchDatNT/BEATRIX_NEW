@@ -1,10 +1,10 @@
-.class public abstract Lkotlinx/coroutines/internal/v;
+.class public abstract Lcotlinx/coroutines/internal/v;
 .super Ljava/lang/Object;
 .source "Atomic.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -14,7 +14,7 @@
         "\u0000$\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0003\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0008&\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0010\u0010\u0011J\u001b\u0010\u0003\u001a\u0004\u0018\u00010\u00012\u0008\u0010\u0002\u001a\u0004\u0018\u00010\u0001H&\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u000f\u0010\u0006\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u0015\u0010\n\u001a\u00020\t2\u0006\u0010\u0008\u001a\u00020\u0000\u00a2\u0006\u0004\u0008\n\u0010\u000bR\u001c\u0010\u000f\u001a\u0008\u0012\u0002\u0008\u0003\u0018\u00010\u000c8&@&X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\r\u0010\u000e\u00a8\u0006\u0012"
     }
     d2 = {
-        "Lkotlinx/coroutines/internal/v;",
+        "Lcotlinx/coroutines/internal/v;",
         "",
         "affected",
         "c",
@@ -25,10 +25,10 @@
         "that",
         "",
         "b",
-        "(Lkotlinx/coroutines/internal/v;)Z",
-        "Lkotlinx/coroutines/internal/d;",
+        "(Lcotlinx/coroutines/internal/v;)Z",
+        "Lcotlinx/coroutines/internal/d;",
         "a",
-        "()Lkotlinx/coroutines/internal/d;",
+        "()Lcotlinx/coroutines/internal/d;",
         "atomicOp",
         "<init>",
         "()V",
@@ -55,11 +55,11 @@
 
 
 # virtual methods
-.method public abstract a()Lkotlinx/coroutines/internal/d;
+.method public abstract a()Lcotlinx/coroutines/internal/d;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlinx/coroutines/internal/d<",
+            "Lcotlinx/coroutines/internal/d<",
             "*>;"
         }
     .end annotation
@@ -68,15 +68,15 @@
     .end annotation
 .end method
 
-.method public final b(Lkotlinx/coroutines/internal/v;)Z
+.method public final b(Lcotlinx/coroutines/internal/v;)Z
     .locals 6
-    .param p1    # Lkotlinx/coroutines/internal/v;
+    .param p1    # Lcotlinx/coroutines/internal/v;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
 
     .line 1
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/v;->a()Lkotlinx/coroutines/internal/d;
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/v;->a()Lcotlinx/coroutines/internal/d;
 
     move-result-object v0
 
@@ -85,18 +85,18 @@
     if-eqz v0, :cond_0
 
     .line 2
-    invoke-virtual {p1}, Lkotlinx/coroutines/internal/v;->a()Lkotlinx/coroutines/internal/d;
+    invoke-virtual {p1}, Lcotlinx/coroutines/internal/v;->a()Lcotlinx/coroutines/internal/d;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
     .line 3
-    invoke-virtual {v0}, Lkotlinx/coroutines/internal/d;->f()J
+    invoke-virtual {v0}, Lcotlinx/coroutines/internal/d;->f()J
 
     move-result-wide v2
 
-    invoke-virtual {p1}, Lkotlinx/coroutines/internal/d;->f()J
+    invoke-virtual {p1}, Lcotlinx/coroutines/internal/d;->f()J
 
     move-result-wide v4
 
@@ -129,7 +129,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {p0}, Lkotlinx/coroutines/q0;->a(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Lcotlinx/coroutines/q0;->a(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -139,7 +139,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    invoke-static {p0}, Lkotlinx/coroutines/q0;->b(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Lcotlinx/coroutines/q0;->b(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 

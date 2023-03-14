@@ -17,7 +17,7 @@
     value = "SMAP\nBpAlbumJumpRouter.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpAlbumJumpRouter.kt\ncom/commsource/mypage/album/AlbumReturnOneFaceImageCallback\n*L\n1#1,600:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "activity",
         "Lcom/commsource/mypage/album/w;",
         "albumJumpInfo",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onImageSelect",
         "(Landroid/app/Activity;Lcom/commsource/mypage/album/w;)V",
         "<init>",
@@ -79,11 +79,11 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "albumJumpInfo"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Landroid/content/Intent;

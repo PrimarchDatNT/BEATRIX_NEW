@@ -20,7 +20,7 @@
     value = "SMAP\nStyleFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StyleFragment.kt\ncom/commsource/studio/function/StyleFragment$onGlResourceInit$1$4$1\n*L\n1#1,649:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0010\u0004\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002\u00a8\u0006\u0003"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "com/commsource/studio/function/StyleFragment$onGlResourceInit$1$4$1",
@@ -124,7 +124,7 @@
 
     const-string v5, "1STY00000021"
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -166,7 +166,7 @@
 
     const-string v6, "mActivity"
 
-    invoke-static {v5, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v2, v5}, Lcom/commsource/studio/layer/p;-><init>(Landroid/content/Context;)V
 
@@ -217,7 +217,7 @@
 
     invoke-direct {v3, p0}, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$4$1$1;-><init>(Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$4$1;)V
 
-    invoke-virtual {v2, v3}, Lcom/commsource/studio/layer/p;->C0(Lkotlin/jvm/u/q;)V
+    invoke-virtual {v2, v3}, Lcom/commsource/studio/layer/p;->C0(Lcotlin/jvm/u/q;)V
 
     .line 14
     invoke-static {v1, v2}, Lcom/commsource/studio/function/StyleFragment;->Q1(Lcom/commsource/studio/function/StyleFragment;Lcom/commsource/studio/layer/p;)V

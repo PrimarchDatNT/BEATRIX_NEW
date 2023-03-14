@@ -1,5 +1,5 @@
-.class Lkotlin/text/StringsKt__IndentKt;
-.super Lkotlin/text/n;
+.class Lcotlin/text/StringsKt__IndentKt;
+.super Lcotlin/text/n;
 .source "Indent.kt"
 
 
@@ -8,7 +8,7 @@
     value = "SMAP\nIndent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Indent.kt\nkotlin/text/StringsKt__IndentKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 4 _Strings.kt\nkotlin/text/StringsKt___StringsKt\n*L\n1#1,121:1\n111#1,9:123\n111#1,9:161\n1#2:122\n1#2:151\n1#2:183\n1#2:205\n1537#3,11:132\n1828#3,2:143\n1830#3:152\n1548#3:153\n734#3:154\n825#3,2:155\n1517#3:157\n1588#3,3:158\n1537#3,11:170\n1828#3,2:181\n1830#3:184\n1548#3:185\n1537#3,11:192\n1828#3,2:203\n1830#3:206\n1548#3:207\n120#4,6:145\n120#4,6:186\n*E\n*S KotlinDebug\n*F\n+ 1 Indent.kt\nkotlin/text/StringsKt__IndentKt\n*L\n37#1,9:123\n76#1,9:161\n37#1:151\n76#1:183\n112#1:205\n37#1,11:132\n37#1,2:143\n37#1:152\n37#1:153\n72#1:154\n72#1,2:155\n73#1:157\n73#1,3:158\n76#1,11:170\n76#1,2:181\n76#1:184\n76#1:185\n112#1,11:192\n112#1,2:203\n112#1:206\n112#1:207\n38#1,6:145\n99#1,6:186\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,15 +33,15 @@
         "",
         "h",
         "(Ljava/lang/String;)I",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "g",
-        "(Ljava/lang/String;)Lkotlin/jvm/u/l;",
+        "(Ljava/lang/String;)Lcotlin/jvm/u/l;",
         "",
         "resultSizeEstimate",
         "indentAddFunction",
         "indentCutFunction",
         "k",
-        "(Ljava/util/List;ILkotlin/jvm/u/l;Lkotlin/jvm/u/l;)Ljava/lang/String;",
+        "(Ljava/util/List;ILcotlin/jvm/u/l;Lcotlin/jvm/u/l;)Ljava/lang/String;",
         "kotlin-stdlib"
     }
     k = 0x5
@@ -58,19 +58,19 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/text/n;-><init>()V
+    invoke-direct {p0}, Lcotlin/text/n;-><init>()V
 
     return-void
 .end method
 
-.method private static final g(Ljava/lang/String;)Lkotlin/jvm/u/l;
+.method private static final g(Ljava/lang/String;)Lcotlin/jvm/u/l;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
             ")",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             ">;"
@@ -94,15 +94,15 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    sget-object p0, Lkotlin/text/StringsKt__IndentKt$getIndentFunction$1;->INSTANCE:Lkotlin/text/StringsKt__IndentKt$getIndentFunction$1;
+    sget-object p0, Lcotlin/text/StringsKt__IndentKt$getIndentFunction$1;->INSTANCE:Lcotlin/text/StringsKt__IndentKt$getIndentFunction$1;
 
     goto :goto_1
 
     .line 2
     :cond_1
-    new-instance v0, Lkotlin/text/StringsKt__IndentKt$getIndentFunction$2;
+    new-instance v0, Lcotlin/text/StringsKt__IndentKt$getIndentFunction$2;
 
-    invoke-direct {v0, p0}, Lkotlin/text/StringsKt__IndentKt$getIndentFunction$2;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Lcotlin/text/StringsKt__IndentKt$getIndentFunction$2;-><init>(Ljava/lang/String;)V
 
     move-object p0, v0
 
@@ -131,7 +131,7 @@
     move-result v3
 
     .line 3
-    invoke-static {v3}, Lkotlin/text/b;->r(C)Z
+    invoke-static {v3}, Lcotlin/text/b;->r(C)Z
 
     move-result v3
 
@@ -175,23 +175,23 @@
 
     const-string v0, "$this$prependIndent"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "indent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0}, Lkotlin/text/StringsKt__StringsKt;->G3(Ljava/lang/CharSequence;)Lkotlin/sequences/m;
+    invoke-static {p0}, Lcotlin/text/StringsKt__StringsKt;->G3(Ljava/lang/CharSequence;)Lcotlin/sequences/m;
 
     move-result-object p0
 
     .line 2
-    new-instance v0, Lkotlin/text/StringsKt__IndentKt$prependIndent$1;
+    new-instance v0, Lcotlin/text/StringsKt__IndentKt$prependIndent$1;
 
-    invoke-direct {v0, p1}, Lkotlin/text/StringsKt__IndentKt$prependIndent$1;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Lcotlin/text/StringsKt__IndentKt$prependIndent$1;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p0, v0}, Lkotlin/sequences/p;->b1(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {p0, v0}, Lcotlin/sequences/p;->b1(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v1
 
@@ -212,7 +212,7 @@
     const/4 v9, 0x0
 
     .line 3
-    invoke-static/range {v1 .. v9}, Lkotlin/sequences/p;->V0(Lkotlin/sequences/m;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lkotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v9}, Lcotlin/sequences/p;->V0(Lcotlin/sequences/m;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lcotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -230,14 +230,14 @@
 
     .line 1
     :cond_0
-    invoke-static {p0, p1}, Lkotlin/text/StringsKt__IndentKt;->i(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcotlin/text/StringsKt__IndentKt;->i(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final k(Ljava/util/List;ILkotlin/jvm/u/l;Lkotlin/jvm/u/l;)Ljava/lang/String;
+.method private static final k(Ljava/util/List;ILcotlin/jvm/u/l;Lcotlin/jvm/u/l;)Ljava/lang/String;
     .locals 11
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -245,12 +245,12 @@
             "Ljava/util/List<",
             "Ljava/lang/String;",
             ">;I",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             ">;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
@@ -260,7 +260,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lkotlin/collections/s;->G(Ljava/util/List;)I
+    invoke-static {p0}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result v0
 
@@ -297,13 +297,13 @@
 
     const/4 v7, 0x1
 
-    invoke-static {v7, v6, v2}, Lkotlin/internal/l;->a(III)Z
+    invoke-static {v7, v6, v2}, Lcotlin/internal/l;->a(III)Z
 
     move-result v6
 
     if-eqz v6, :cond_0
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     goto :goto_1
 
@@ -327,7 +327,7 @@
 
     .line 5
     :cond_2
-    invoke-static {v4}, Lkotlin/text/m;->S1(Ljava/lang/CharSequence;)Z
+    invoke-static {v4}, Lcotlin/text/m;->S1(Ljava/lang/CharSequence;)Z
 
     move-result v3
 
@@ -339,7 +339,7 @@
 
     .line 6
     :cond_3
-    invoke-interface {p3, v4}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v4}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -347,7 +347,7 @@
 
     if-eqz v3, :cond_4
 
-    invoke-interface {p2, v3}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -393,7 +393,7 @@
 
     const-string v3, "\n"
 
-    invoke-static/range {v1 .. v10}, Lkotlin/collections/s;->V2(Ljava/lang/Iterable;Ljava/lang/Appendable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lkotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/Appendable;
+    invoke-static/range {v1 .. v10}, Lcotlin/collections/s;->V2(Ljava/lang/Iterable;Ljava/lang/Appendable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lcotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/Appendable;
 
     move-result-object p0
 
@@ -406,7 +406,7 @@
 
     const-string p1, "mapIndexedNotNull { inde\u2026\"\\n\")\n        .toString()"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
@@ -426,14 +426,14 @@
 
     const-string v0, "$this$replaceIndent"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "newIndent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0}, Lkotlin/text/StringsKt__StringsKt;->H3(Ljava/lang/CharSequence;)Ljava/util/List;
+    invoke-static {p0}, Lcotlin/text/StringsKt__StringsKt;->H3(Ljava/lang/CharSequence;)Ljava/util/List;
 
     move-result-object v0
 
@@ -464,7 +464,7 @@
     check-cast v4, Ljava/lang/String;
 
     .line 4
-    invoke-static {v4}, Lkotlin/text/m;->S1(Ljava/lang/CharSequence;)Z
+    invoke-static {v4}, Lcotlin/text/m;->S1(Ljava/lang/CharSequence;)Z
 
     move-result v4
 
@@ -482,7 +482,7 @@
 
     const/16 v3, 0xa
 
-    invoke-static {v1, v3}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v1, v3}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v3
 
@@ -508,7 +508,7 @@
     check-cast v3, Ljava/lang/String;
 
     .line 8
-    invoke-static {v3}, Lkotlin/text/StringsKt__IndentKt;->h(Ljava/lang/String;)I
+    invoke-static {v3}, Lcotlin/text/StringsKt__IndentKt;->h(Ljava/lang/String;)I
 
     move-result v3
 
@@ -522,7 +522,7 @@
 
     .line 9
     :cond_2
-    invoke-static {v2}, Lkotlin/collections/s;->V3(Ljava/lang/Iterable;)Ljava/lang/Comparable;
+    invoke-static {v2}, Lcotlin/collections/s;->V3(Ljava/lang/Iterable;)Ljava/lang/Comparable;
 
     move-result-object v1
 
@@ -559,12 +559,12 @@
 
     add-int/2addr p0, v3
 
-    invoke-static {p1}, Lkotlin/text/StringsKt__IndentKt;->g(Ljava/lang/String;)Lkotlin/jvm/u/l;
+    invoke-static {p1}, Lcotlin/text/StringsKt__IndentKt;->g(Ljava/lang/String;)Lcotlin/jvm/u/l;
 
     move-result-object p1
 
     .line 11
-    invoke-static {v0}, Lkotlin/collections/s;->G(Ljava/util/List;)I
+    invoke-static {v0}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result v3
 
@@ -593,7 +593,7 @@
 
     if-gez v2, :cond_4
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     .line 14
     :cond_4
@@ -605,7 +605,7 @@
 
     .line 15
     :cond_5
-    invoke-static {v5}, Lkotlin/text/m;->S1(Ljava/lang/CharSequence;)Z
+    invoke-static {v5}, Lcotlin/text/m;->S1(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
@@ -617,13 +617,13 @@
 
     .line 16
     :cond_6
-    invoke-static {v5, v1}, Lkotlin/text/StringsKt___StringsKt;->l6(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v5, v1}, Lcotlin/text/StringsKt___StringsKt;->l6(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v2, :cond_7
 
-    invoke-interface {p1, v2}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -669,7 +669,7 @@
 
     const-string v6, "\n"
 
-    invoke-static/range {v4 .. v13}, Lkotlin/collections/s;->V2(Ljava/lang/Iterable;Ljava/lang/Appendable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lkotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/Appendable;
+    invoke-static/range {v4 .. v13}, Lcotlin/collections/s;->V2(Ljava/lang/Iterable;Ljava/lang/Appendable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lcotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/Appendable;
 
     move-result-object p0
 
@@ -682,7 +682,7 @@
 
     const-string p1, "mapIndexedNotNull { inde\u2026\"\\n\")\n        .toString()"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
@@ -698,7 +698,7 @@
 
     .line 1
     :cond_0
-    invoke-static {p0, p1}, Lkotlin/text/StringsKt__IndentKt;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcotlin/text/StringsKt__IndentKt;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -726,22 +726,22 @@
 
     move-object/from16 v1, p0
 
-    invoke-static {v1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "newIndent"
 
     move-object/from16 v2, p1
 
-    invoke-static {v2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "marginPrefix"
 
     move-object/from16 v7, p2
 
-    invoke-static {v7, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static/range {p2 .. p2}, Lkotlin/text/m;->S1(Ljava/lang/CharSequence;)Z
+    invoke-static/range {p2 .. p2}, Lcotlin/text/m;->S1(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
@@ -750,7 +750,7 @@
     if-eqz v0, :cond_a
 
     .line 2
-    invoke-static/range {p0 .. p0}, Lkotlin/text/StringsKt__StringsKt;->H3(Ljava/lang/CharSequence;)Ljava/util/List;
+    invoke-static/range {p0 .. p0}, Lcotlin/text/StringsKt__StringsKt;->H3(Ljava/lang/CharSequence;)Ljava/util/List;
 
     move-result-object v0
 
@@ -771,12 +771,12 @@
 
     add-int v8, v1, v3
 
-    invoke-static/range {p1 .. p1}, Lkotlin/text/StringsKt__IndentKt;->g(Ljava/lang/String;)Lkotlin/jvm/u/l;
+    invoke-static/range {p1 .. p1}, Lcotlin/text/StringsKt__IndentKt;->g(Ljava/lang/String;)Lcotlin/jvm/u/l;
 
     move-result-object v9
 
     .line 4
-    invoke-static {v0}, Lkotlin/collections/s;->G(Ljava/util/List;)I
+    invoke-static {v0}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result v10
 
@@ -809,7 +809,7 @@
 
     if-gez v1, :cond_0
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     .line 7
     :cond_0
@@ -825,7 +825,7 @@
 
     .line 8
     :cond_1
-    invoke-static {v14}, Lkotlin/text/m;->S1(Ljava/lang/CharSequence;)Z
+    invoke-static {v14}, Lcotlin/text/m;->S1(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
@@ -852,7 +852,7 @@
     move-result v4
 
     .line 11
-    invoke-static {v4}, Lkotlin/text/b;->r(C)Z
+    invoke-static {v4}, Lcotlin/text/b;->r(C)Z
 
     move-result v4
 
@@ -895,7 +895,7 @@
     move-object/from16 v6, v16
 
     .line 12
-    invoke-static/range {v1 .. v6}, Lkotlin/text/u;->r2(Ljava/lang/String;Ljava/lang/String;IZILjava/lang/Object;)Z
+    invoke-static/range {v1 .. v6}, Lcotlin/text/u;->r2(Ljava/lang/String;Ljava/lang/String;IZILjava/lang/Object;)Z
 
     move-result v1
 
@@ -917,14 +917,14 @@
 
     const-string v1, "(this as java.lang.String).substring(startIndex)"
 
-    invoke-static {v15, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v15, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     :cond_6
     :goto_3
     if-eqz v15, :cond_7
 
     .line 13
-    invoke-interface {v9, v15}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v9, v15}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -970,7 +970,7 @@
 
     const-string v13, "\n"
 
-    invoke-static/range {v11 .. v20}, Lkotlin/collections/s;->V2(Ljava/lang/Iterable;Ljava/lang/Appendable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lkotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/Appendable;
+    invoke-static/range {v11 .. v20}, Lcotlin/collections/s;->V2(Ljava/lang/Iterable;Ljava/lang/Appendable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lcotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/Appendable;
 
     move-result-object v0
 
@@ -983,7 +983,7 @@
 
     const-string v1, "mapIndexedNotNull { inde\u2026\"\\n\")\n        .toString()"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object v0
 
@@ -1020,7 +1020,7 @@
 
     .line 1
     :cond_1
-    invoke-static {p0, p1, p2}, Lkotlin/text/StringsKt__IndentKt;->n(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1, p2}, Lcotlin/text/StringsKt__IndentKt;->n(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1038,12 +1038,12 @@
 
     const-string v0, "$this$trimIndent"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, ""
 
     .line 1
-    invoke-static {p0, v0}, Lkotlin/text/StringsKt__IndentKt;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v0}, Lcotlin/text/StringsKt__IndentKt;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1065,16 +1065,16 @@
 
     const-string v0, "$this$trimMargin"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "marginPrefix"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, ""
 
     .line 1
-    invoke-static {p0, v0, p1}, Lkotlin/text/StringsKt__IndentKt;->n(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v0, p1}, Lcotlin/text/StringsKt__IndentKt;->n(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1092,7 +1092,7 @@
 
     .line 1
     :cond_0
-    invoke-static {p0, p1}, Lkotlin/text/StringsKt__IndentKt;->q(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcotlin/text/StringsKt__IndentKt;->q(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 

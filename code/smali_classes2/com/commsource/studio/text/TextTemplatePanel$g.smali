@@ -34,7 +34,7 @@
     value = "SMAP\nTextTemplatePanel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextTemplatePanel.kt\ncom/commsource/studio/text/TextTemplatePanel$initViewModel$1\n*L\n1#1,164:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -48,7 +48,7 @@
         "Lcom/commsource/studio/text/TextTemplateMaterial;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/util/List;)V"
     }
@@ -113,7 +113,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v3}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v3
 

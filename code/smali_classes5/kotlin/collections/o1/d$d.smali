@@ -1,11 +1,11 @@
-.class public Lkotlin/collections/o1/d$d;
+.class public Lcotlin/collections/o1/d$d;
 .super Ljava/lang/Object;
 .source "MapBuilder.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/collections/o1/d;
+    value = Lcotlin/collections/o1/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
         "K",
         "V",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
         "()V",
         "",
@@ -52,16 +52,16 @@
         "f",
         "(I)V",
         "lastIndex",
-        "Lkotlin/collections/o1/d;",
+        "Lcotlin/collections/o1/d;",
         "c",
-        "Lkotlin/collections/o1/d;",
-        "()Lkotlin/collections/o1/d;",
+        "Lcotlin/collections/o1/d;",
+        "()Lcotlin/collections/o1/d;",
         "map",
         "a",
         "e",
         "index",
         "<init>",
-        "(Lkotlin/collections/o1/d;)V",
+        "(Lcotlin/collections/o1/d;)V",
         "kotlin-stdlib"
     }
     k = 0x1
@@ -78,10 +78,10 @@
 
 .field private b:I
 
-.field private final c:Lkotlin/collections/o1/d;
+.field private final c:Lcotlin/collections/o1/d;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/collections/o1/d<",
+            "Lcotlin/collections/o1/d<",
             "TK;TV;>;"
         }
     .end annotation
@@ -92,36 +92,36 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/collections/o1/d;)V
+.method public constructor <init>(Lcotlin/collections/o1/d;)V
     .locals 1
-    .param p1    # Lkotlin/collections/o1/d;
+    .param p1    # Lcotlin/collections/o1/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/collections/o1/d<",
+            "Lcotlin/collections/o1/d<",
             "TK;TV;>;)V"
         }
     .end annotation
 
     const-string v0, "map"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkotlin/collections/o1/d$d;->c:Lkotlin/collections/o1/d;
+    iput-object p1, p0, Lcotlin/collections/o1/d$d;->c:Lcotlin/collections/o1/d;
 
     const/4 p1, -0x1
 
     .line 2
-    iput p1, p0, Lkotlin/collections/o1/d$d;->b:I
+    iput p1, p0, Lcotlin/collections/o1/d$d;->b:I
 
     .line 3
-    invoke-virtual {p0}, Lkotlin/collections/o1/d$d;->d()V
+    invoke-virtual {p0}, Lcotlin/collections/o1/d$d;->d()V
 
     return-void
 .end method
@@ -132,7 +132,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlin/collections/o1/d$d;->a:I
+    iget v0, p0, Lcotlin/collections/o1/d$d;->a:I
 
     return v0
 .end method
@@ -141,17 +141,17 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlin/collections/o1/d$d;->b:I
+    iget v0, p0, Lcotlin/collections/o1/d$d;->b:I
 
     return v0
 .end method
 
-.method public final c()Lkotlin/collections/o1/d;
+.method public final c()Lcotlin/collections/o1/d;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/collections/o1/d<",
+            "Lcotlin/collections/o1/d<",
             "TK;TV;>;"
         }
     .end annotation
@@ -160,7 +160,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/o1/d$d;->c:Lkotlin/collections/o1/d;
+    iget-object v0, p0, Lcotlin/collections/o1/d$d;->c:Lcotlin/collections/o1/d;
 
     return-object v0
 .end method
@@ -170,23 +170,23 @@
 
     .line 1
     :goto_0
-    iget v0, p0, Lkotlin/collections/o1/d$d;->a:I
+    iget v0, p0, Lcotlin/collections/o1/d$d;->a:I
 
-    iget-object v1, p0, Lkotlin/collections/o1/d$d;->c:Lkotlin/collections/o1/d;
+    iget-object v1, p0, Lcotlin/collections/o1/d$d;->c:Lcotlin/collections/o1/d;
 
-    invoke-static {v1}, Lkotlin/collections/o1/d;->c(Lkotlin/collections/o1/d;)I
+    invoke-static {v1}, Lcotlin/collections/o1/d;->c(Lcotlin/collections/o1/d;)I
 
     move-result v1
 
     if-ge v0, v1, :cond_0
 
-    iget-object v0, p0, Lkotlin/collections/o1/d$d;->c:Lkotlin/collections/o1/d;
+    iget-object v0, p0, Lcotlin/collections/o1/d$d;->c:Lcotlin/collections/o1/d;
 
-    invoke-static {v0}, Lkotlin/collections/o1/d;->d(Lkotlin/collections/o1/d;)[I
+    invoke-static {v0}, Lcotlin/collections/o1/d;->d(Lcotlin/collections/o1/d;)[I
 
     move-result-object v0
 
-    iget v1, p0, Lkotlin/collections/o1/d$d;->a:I
+    iget v1, p0, Lcotlin/collections/o1/d$d;->a:I
 
     aget v0, v0, v1
 
@@ -195,7 +195,7 @@
     add-int/lit8 v1, v1, 0x1
 
     .line 2
-    iput v1, p0, Lkotlin/collections/o1/d$d;->a:I
+    iput v1, p0, Lcotlin/collections/o1/d$d;->a:I
 
     goto :goto_0
 
@@ -207,7 +207,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lkotlin/collections/o1/d$d;->a:I
+    iput p1, p0, Lcotlin/collections/o1/d$d;->a:I
 
     return-void
 .end method
@@ -216,7 +216,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lkotlin/collections/o1/d$d;->b:I
+    iput p1, p0, Lcotlin/collections/o1/d$d;->b:I
 
     return-void
 .end method
@@ -225,11 +225,11 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lkotlin/collections/o1/d$d;->a:I
+    iget v0, p0, Lcotlin/collections/o1/d$d;->a:I
 
-    iget-object v1, p0, Lkotlin/collections/o1/d$d;->c:Lkotlin/collections/o1/d;
+    iget-object v1, p0, Lcotlin/collections/o1/d$d;->c:Lcotlin/collections/o1/d;
 
-    invoke-static {v1}, Lkotlin/collections/o1/d;->c(Lkotlin/collections/o1/d;)I
+    invoke-static {v1}, Lcotlin/collections/o1/d;->c(Lcotlin/collections/o1/d;)I
 
     move-result v1
 
@@ -250,21 +250,21 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/o1/d$d;->c:Lkotlin/collections/o1/d;
+    iget-object v0, p0, Lcotlin/collections/o1/d$d;->c:Lcotlin/collections/o1/d;
 
-    invoke-virtual {v0}, Lkotlin/collections/o1/d;->n()V
+    invoke-virtual {v0}, Lcotlin/collections/o1/d;->n()V
 
     .line 2
-    iget-object v0, p0, Lkotlin/collections/o1/d$d;->c:Lkotlin/collections/o1/d;
+    iget-object v0, p0, Lcotlin/collections/o1/d$d;->c:Lcotlin/collections/o1/d;
 
-    iget v1, p0, Lkotlin/collections/o1/d$d;->b:I
+    iget v1, p0, Lcotlin/collections/o1/d$d;->b:I
 
-    invoke-static {v0, v1}, Lkotlin/collections/o1/d;->f(Lkotlin/collections/o1/d;I)V
+    invoke-static {v0, v1}, Lcotlin/collections/o1/d;->f(Lcotlin/collections/o1/d;I)V
 
     const/4 v0, -0x1
 
     .line 3
-    iput v0, p0, Lkotlin/collections/o1/d$d;->b:I
+    iput v0, p0, Lcotlin/collections/o1/d$d;->b:I
 
     return-void
 .end method

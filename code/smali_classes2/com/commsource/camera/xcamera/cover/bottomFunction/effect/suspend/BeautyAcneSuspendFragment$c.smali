@@ -20,7 +20,7 @@
     value = "SMAP\nBeautyAcneSuspendFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BeautyAcneSuspendFragment.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/BeautyAcneSuspendFragment$onViewCreated$1\n*L\n1#1,169:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "position",
         "",
         "fromUser",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(IZ)V"
     }
@@ -80,7 +80,7 @@
 
     const-string v2, "beautyViewModel"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/d;->Q()Lcom/commsource/camera/xcamera/cover/e;
 
@@ -88,7 +88,7 @@
 
     const-string v2, "beautyViewModel.applyBeautyEvent"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
 
@@ -103,7 +103,7 @@
     const-string v3, "it"
 
     .line 2
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getBeautyType()I
 

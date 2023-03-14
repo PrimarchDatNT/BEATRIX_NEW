@@ -1,14 +1,14 @@
-.class final Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumes$1;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumes$1;
+.super Lcotlin/jvm/internal/Lambda;
 .source "Channels.common.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->A(Lkotlinx/coroutines/channels/y;)Lkotlin/jvm/u/l;
+    value = Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->A(Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,15 +18,15 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Ljava/lang/Throwable;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
     d2 = {
         "",
         "cause",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(Ljava/lang/Throwable;)V",
         "<anonymous>"
@@ -53,18 +53,18 @@
 
 
 # instance fields
-.field final synthetic $this_consumes:Lkotlinx/coroutines/channels/y;
+.field final synthetic $this_consumes:Lcotlinx/coroutines/channels/y;
 
 
 # direct methods
-.method constructor <init>(Lkotlinx/coroutines/channels/y;)V
+.method constructor <init>(Lcotlinx/coroutines/channels/y;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumes$1;->$this_consumes:Lkotlinx/coroutines/channels/y;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumes$1;->$this_consumes:Lcotlinx/coroutines/channels/y;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -76,9 +76,9 @@
 
     check-cast p1, Ljava/lang/Throwable;
 
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumes$1;->invoke(Ljava/lang/Throwable;)V
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumes$1;->invoke(Ljava/lang/Throwable;)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method
@@ -91,9 +91,9 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumes$1;->$this_consumes:Lkotlinx/coroutines/channels/y;
+    iget-object v0, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumes$1;->$this_consumes:Lcotlinx/coroutines/channels/y;
 
-    invoke-static {v0, p1}, Lkotlinx/coroutines/channels/o;->r(Lkotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
+    invoke-static {v0, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-void
 .end method

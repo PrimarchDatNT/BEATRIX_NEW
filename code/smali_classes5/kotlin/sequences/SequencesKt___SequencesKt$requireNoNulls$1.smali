@@ -1,14 +1,14 @@
-.class final Lkotlin/sequences/SequencesKt___SequencesKt$requireNoNulls$1;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlin/sequences/SequencesKt___SequencesKt$requireNoNulls$1;
+.super Lcotlin/jvm/internal/Lambda;
 .source "_Sequences.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/sequences/SequencesKt___SequencesKt;->m2(Lkotlin/sequences/m;)Lkotlin/sequences/m;
+    value = Lcotlin/sequences/SequencesKt___SequencesKt;->m2(Lcotlin/sequences/m;)Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,13 +18,13 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "TT;TT;>;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -51,18 +51,18 @@
 
 
 # instance fields
-.field final synthetic $this_requireNoNulls:Lkotlin/sequences/m;
+.field final synthetic $this_requireNoNulls:Lcotlin/sequences/m;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/sequences/m;)V
+.method constructor <init>(Lcotlin/sequences/m;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$requireNoNulls$1;->$this_requireNoNulls:Lkotlin/sequences/m;
+    iput-object p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$requireNoNulls$1;->$this_requireNoNulls:Lcotlin/sequences/m;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -100,7 +100,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$requireNoNulls$1;->$this_requireNoNulls:Lkotlin/sequences/m;
+    iget-object v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$requireNoNulls$1;->$this_requireNoNulls:Lcotlin/sequences/m;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 

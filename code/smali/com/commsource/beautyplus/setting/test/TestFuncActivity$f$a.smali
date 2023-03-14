@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "kotlin.jvm.PlatformType",
         "",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/util/List;)V",
         "com/commsource/beautyplus/setting/test/TestFuncActivity$initViews$12$1$1"
@@ -86,7 +86,7 @@
 
     const-string v2, "it[0]"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/util/q2/e;
 
@@ -132,7 +132,7 @@
 
     const-string/jumbo v2, "vSwitchUIChecker"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOpened(Z)V
 

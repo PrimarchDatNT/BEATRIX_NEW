@@ -17,7 +17,7 @@
     value = "SMAP\nMaskCompositionView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MaskCompositionView.kt\ncom/commsource/studio/MaskCompositionView$bpGestureDetector$1\n*L\n1#1,1045:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -197,7 +197,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView$b;->c:[F
@@ -220,7 +220,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView$b;->d:[F
@@ -243,7 +243,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView$b;->f:Lcom/commsource/studio/MatrixBox;
@@ -266,7 +266,7 @@
 
     const-string v1, "focus"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p3, p0, Lcom/commsource/studio/MaskCompositionView$b;->g:Lcom/commsource/studio/MaskCompositionView;
@@ -411,7 +411,7 @@
 
     const-string v1, "downEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView$b;->g:Lcom/commsource/studio/MaskCompositionView;
@@ -613,13 +613,13 @@
 
     move-object/from16 v3, p1
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v2, "moveEvent"
 
     move-object/from16 v4, p2
 
-    invoke-static {v4, v2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v2, v0, Lcom/commsource/studio/MaskCompositionView$b;->g:Lcom/commsource/studio/MaskCompositionView;

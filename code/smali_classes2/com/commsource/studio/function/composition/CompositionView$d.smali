@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Landroid/animation/AnimatorListenerAdapter;",
         "Landroid/animation/Animator;",
         "animation",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onAnimationEnd",
         "(Landroid/animation/Animator;)V",
         "app_googleplayRelease",
@@ -49,13 +49,13 @@
 
 .field final synthetic c:F
 
-.field final synthetic d:Lkotlin/jvm/internal/Ref$FloatRef;
+.field final synthetic d:Lcotlin/jvm/internal/Ref$FloatRef;
 
 .field final synthetic f:F
 
 
 # direct methods
-.method constructor <init>(Lcom/commsource/studio/function/composition/CompositionView;FFLkotlin/jvm/internal/Ref$FloatRef;F)V
+.method constructor <init>(Lcom/commsource/studio/function/composition/CompositionView;FFLcotlin/jvm/internal/Ref$FloatRef;F)V
     .locals 0
 
     iput-object p1, p0, Lcom/commsource/studio/function/composition/CompositionView$d;->a:Lcom/commsource/studio/function/composition/CompositionView;
@@ -64,7 +64,7 @@
 
     iput p3, p0, Lcom/commsource/studio/function/composition/CompositionView$d;->c:F
 
-    iput-object p4, p0, Lcom/commsource/studio/function/composition/CompositionView$d;->d:Lkotlin/jvm/internal/Ref$FloatRef;
+    iput-object p4, p0, Lcom/commsource/studio/function/composition/CompositionView$d;->d:Lcotlin/jvm/internal/Ref$FloatRef;
 
     iput p5, p0, Lcom/commsource/studio/function/composition/CompositionView$d;->f:F
 

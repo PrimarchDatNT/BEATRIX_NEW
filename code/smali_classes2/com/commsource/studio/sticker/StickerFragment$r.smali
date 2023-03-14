@@ -25,7 +25,7 @@
     value = "SMAP\nStickerFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StickerFragment.kt\ncom/commsource/studio/sticker/StickerFragment$initViewModel$8\n*L\n1#1,720:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "Lcom/commsource/beautyfilter/NoStickLiveData$a;",
         "Lcom/meitu/template/bean/Sticker;",
         "sticker",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(Lcom/meitu/template/bean/Sticker;)V",
         "app_googleplayRelease"

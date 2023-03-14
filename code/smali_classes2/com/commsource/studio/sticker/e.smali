@@ -18,7 +18,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
         "",
         "",
         "payloads",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "k",
         "(ILcom/commsource/widget/h1/d;Ljava/util/List;)V",
         "Landroid/content/Context;",
@@ -78,7 +78,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/sticker/e$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/sticker/e$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/sticker/e;->J:Lcom/commsource/studio/sticker/e$a;
 
@@ -100,11 +100,11 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "parent"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_sticker_author_layout:I
 
@@ -144,7 +144,7 @@
 
     const-string v1, "item"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
@@ -165,7 +165,7 @@
 
     const-string p3, "itemView"
 
-    invoke-static {p2, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget p3, Lcom/commsource/beautyplus/R$id;->tvAuthor:I
 
@@ -177,7 +177,7 @@
 
     const-string p3, "itemView.tvAuthor"
 
-    invoke-static {p2, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 

@@ -1,14 +1,14 @@
-.class final Lkotlin/sequences/SequencesKt__SequencesKt$flatten$2;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlin/sequences/SequencesKt__SequencesKt$flatten$2;
+.super Lcotlin/jvm/internal/Lambda;
 .source "Sequences.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/sequences/SequencesKt__SequencesKt;->n(Lkotlin/sequences/m;)Lkotlin/sequences/m;
+    value = Lcotlin/sequences/SequencesKt__SequencesKt;->n(Lcotlin/sequences/m;)Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,8 +18,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Ljava/lang/Iterable<",
         "+TT;>;",
         "Ljava/util/Iterator<",
@@ -27,7 +27,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -55,18 +55,18 @@
 
 
 # static fields
-.field public static final INSTANCE:Lkotlin/sequences/SequencesKt__SequencesKt$flatten$2;
+.field public static final INSTANCE:Lcotlin/sequences/SequencesKt__SequencesKt$flatten$2;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkotlin/sequences/SequencesKt__SequencesKt$flatten$2;
+    new-instance v0, Lcotlin/sequences/SequencesKt__SequencesKt$flatten$2;
 
-    invoke-direct {v0}, Lkotlin/sequences/SequencesKt__SequencesKt$flatten$2;-><init>()V
+    invoke-direct {v0}, Lcotlin/sequences/SequencesKt__SequencesKt$flatten$2;-><init>()V
 
-    sput-object v0, Lkotlin/sequences/SequencesKt__SequencesKt$flatten$2;->INSTANCE:Lkotlin/sequences/SequencesKt__SequencesKt$flatten$2;
+    sput-object v0, Lcotlin/sequences/SequencesKt__SequencesKt$flatten$2;->INSTANCE:Lcotlin/sequences/SequencesKt__SequencesKt$flatten$2;
 
     return-void
 .end method
@@ -76,7 +76,7 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, v0}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -88,7 +88,7 @@
 
     check-cast p1, Ljava/lang/Iterable;
 
-    invoke-virtual {p0, p1}, Lkotlin/sequences/SequencesKt__SequencesKt$flatten$2;->invoke(Ljava/lang/Iterable;)Ljava/util/Iterator;
+    invoke-virtual {p0, p1}, Lcotlin/sequences/SequencesKt__SequencesKt$flatten$2;->invoke(Ljava/lang/Iterable;)Ljava/util/Iterator;
 
     move-result-object p1
 
@@ -116,7 +116,7 @@
 
     const-string v0, "it"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;

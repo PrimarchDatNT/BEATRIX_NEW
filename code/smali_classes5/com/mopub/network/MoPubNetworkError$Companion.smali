@@ -13,7 +13,7 @@
     name = "Companion"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -54,7 +54,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -140,7 +140,7 @@
 
     const-string v7, "it.headers"
 
-    invoke-static {v3, v7}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v7}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v4, v5, v6, v3}, Lcom/mopub/network/MoPubNetworkResponse;-><init>(I[BLjava/util/Map;)V
 

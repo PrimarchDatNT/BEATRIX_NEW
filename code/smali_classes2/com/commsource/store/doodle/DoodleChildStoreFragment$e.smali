@@ -32,7 +32,7 @@
     value = "SMAP\nDoodleChildStoreFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DoodleChildStoreFragment.kt\ncom/commsource/store/doodle/DoodleChildStoreFragment$onViewCreated$5\n*L\n1#1,151:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -196,7 +196,7 @@
 
     const-string v2, "entity"
 
-    invoke-static {p2, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x0
 

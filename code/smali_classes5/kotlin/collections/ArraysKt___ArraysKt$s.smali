@@ -1,14 +1,14 @@
-.class public final Lkotlin/collections/ArraysKt___ArraysKt$s;
+.class public final Lcotlin/collections/ArraysKt___ArraysKt$s;
 .super Ljava/lang/Object;
 .source "_Arrays.kt"
 
 # interfaces
-.implements Lkotlin/collections/e0;
+.implements Lcotlin/collections/e0;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/collections/ArraysKt___ArraysKt;->We([Ljava/lang/Object;Lkotlin/jvm/u/l;)Lkotlin/collections/e0;
+    value = Lcotlin/collections/ArraysKt___ArraysKt;->We([Ljava/lang/Object;Lcotlin/jvm/u/l;)Lcotlin/collections/e0;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/collections/e0<",
+        "Lcotlin/collections/e0<",
         "TT;TK;>;"
     }
 .end annotation
@@ -28,7 +28,7 @@
     value = "SMAP\n_Arrays.kt\nKotlin\n*S Kotlin\n*F\n+ 1 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt$groupingBy$1\n*L\n1#1,23880:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
     }
     d2 = {
         "kotlin/collections/ArraysKt___ArraysKt$s",
-        "Lkotlin/collections/e0;",
+        "Lcotlin/collections/e0;",
         "",
         "b",
         "()Ljava/util/Iterator;",
@@ -60,24 +60,24 @@
 # instance fields
 .field final synthetic a:[Ljava/lang/Object;
 
-.field final synthetic b:Lkotlin/jvm/u/l;
+.field final synthetic b:Lcotlin/jvm/u/l;
 
 
 # direct methods
-.method public constructor <init>([Ljava/lang/Object;Lkotlin/jvm/u/l;)V
+.method public constructor <init>([Ljava/lang/Object;Lcotlin/jvm/u/l;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "([TT;",
-            "Lkotlin/jvm/u/l;",
+            "Lcotlin/jvm/u/l;",
             ")V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lkotlin/collections/ArraysKt___ArraysKt$s;->a:[Ljava/lang/Object;
+    iput-object p1, p0, Lcotlin/collections/ArraysKt___ArraysKt$s;->a:[Ljava/lang/Object;
 
-    iput-object p2, p0, Lkotlin/collections/ArraysKt___ArraysKt$s;->b:Lkotlin/jvm/u/l;
+    iput-object p2, p0, Lcotlin/collections/ArraysKt___ArraysKt$s;->b:Lcotlin/jvm/u/l;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -95,9 +95,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/ArraysKt___ArraysKt$s;->b:Lkotlin/jvm/u/l;
+    iget-object v0, p0, Lcotlin/collections/ArraysKt___ArraysKt$s;->b:Lcotlin/jvm/u/l;
 
-    invoke-interface {v0, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -118,9 +118,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/ArraysKt___ArraysKt$s;->a:[Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/collections/ArraysKt___ArraysKt$s;->a:[Ljava/lang/Object;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/h;->a([Ljava/lang/Object;)Ljava/util/Iterator;
+    invoke-static {v0}, Lcotlin/jvm/internal/h;->a([Ljava/lang/Object;)Ljava/util/Iterator;
 
     move-result-object v0
 

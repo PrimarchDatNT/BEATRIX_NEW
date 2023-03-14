@@ -20,7 +20,7 @@
     value = "SMAP\nDownloadObserver.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DownloadObserver.kt\ncom/commsource/material/download/request/DownloadObserver$notifyFail$1\n*L\n1#1,69:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
     }
     d2 = {
         "T",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "<anonymous>"

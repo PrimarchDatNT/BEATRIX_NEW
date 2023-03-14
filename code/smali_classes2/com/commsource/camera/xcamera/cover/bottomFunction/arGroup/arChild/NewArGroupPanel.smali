@@ -123,7 +123,7 @@
     return-void
 .end method
 
-.method static synthetic x(Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+.method static synthetic x(Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
     .locals 1
 
     const/16 v0, 0x4c48
@@ -511,7 +511,7 @@
 
     const/4 v8, 0x1
 
-    invoke-direct {v5, v8, v6, v7}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-direct {v5, v8, v6, v7}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lcotlin/jvm/u/l;)V
 
     .line 16
     invoke-virtual {v4, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z

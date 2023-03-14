@@ -1,14 +1,14 @@
 .class final Lcom/commsource/studio/function/ar/ArProcessor$applyArMaterial$task$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "ArProcessor.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/commsource/studio/function/ar/ArProcessor;->L(Lcom/meitu/template/bean/ArMaterial;ZLkotlin/jvm/u/a;)V
+    value = Lcom/commsource/studio/function/ar/ArProcessor;->L(Lcom/meitu/template/bean/ArMaterial;ZLcotlin/jvm/u/a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,14 +18,14 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
-        "Lkotlin/t1;",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,7 +35,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "()V",
         "<anonymous>"
@@ -50,7 +50,7 @@
 
 
 # instance fields
-.field final synthetic $afterAction:Lkotlin/jvm/u/a;
+.field final synthetic $afterAction:Lcotlin/jvm/u/a;
 
 .field final synthetic $arMakeupParam:Ljava/util/HashMap;
 
@@ -60,7 +60,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/commsource/studio/function/ar/ArProcessor;Lcom/meitu/template/bean/ArMaterial;Ljava/util/HashMap;Lkotlin/jvm/u/a;)V
+.method constructor <init>(Lcom/commsource/studio/function/ar/ArProcessor;Lcom/meitu/template/bean/ArMaterial;Ljava/util/HashMap;Lcotlin/jvm/u/a;)V
     .locals 0
 
     iput-object p1, p0, Lcom/commsource/studio/function/ar/ArProcessor$applyArMaterial$task$1;->this$0:Lcom/commsource/studio/function/ar/ArProcessor;
@@ -69,11 +69,11 @@
 
     iput-object p3, p0, Lcom/commsource/studio/function/ar/ArProcessor$applyArMaterial$task$1;->$arMakeupParam:Ljava/util/HashMap;
 
-    iput-object p4, p0, Lcom/commsource/studio/function/ar/ArProcessor$applyArMaterial$task$1;->$afterAction:Lkotlin/jvm/u/a;
+    iput-object p4, p0, Lcom/commsource/studio/function/ar/ArProcessor$applyArMaterial$task$1;->$afterAction:Lcotlin/jvm/u/a;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -90,7 +90,7 @@
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/ArProcessor$applyArMaterial$task$1;->invoke()V
 
-    sget-object v1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -111,7 +111,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/ar/ArProcessor$applyArMaterial$task$1$1;-><init>(Lcom/commsource/studio/function/ar/ArProcessor$applyArMaterial$task$1;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

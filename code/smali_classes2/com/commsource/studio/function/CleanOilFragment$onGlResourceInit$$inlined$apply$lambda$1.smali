@@ -17,7 +17,7 @@
     value = "SMAP\nCleanOilFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CleanOilFragment.kt\ncom/commsource/studio/function/CleanOilFragment$onGlResourceInit$3$1\n*L\n1#1,338:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "Lcom/commsource/easyeditor/utils/opengl/f;",
         "srcFBOEntity",
         "maxEffectFBOEntity",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "j",
         "(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V",
         "app_googleplayRelease"
@@ -85,11 +85,11 @@
 
     const-string v1, "srcFBOEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "maxEffectFBOEntity"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v5, Lcom/commsource/studio/r0/g;
@@ -129,7 +129,7 @@
     move-object v4, p2
 
     .line 6
-    invoke-virtual/range {v2 .. v7}, Lcom/commsource/studio/processor/BaseEffectProcessor;->u(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/camera/newrender/renderproxy/n;ZLkotlin/jvm/u/a;)V
+    invoke-virtual/range {v2 .. v7}, Lcom/commsource/studio/processor/BaseEffectProcessor;->u(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/camera/newrender/renderproxy/n;ZLcotlin/jvm/u/a;)V
 
     .line 7
     :cond_0

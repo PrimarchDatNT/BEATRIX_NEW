@@ -8,7 +8,7 @@
     value = "SMAP\nThrottler.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Throttler.kt\nokio/Throttler\n*L\n1#1,169:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
         "(J)J",
         "bytesToNanos",
         "nanosToWait",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "waitNanos",
         "(J)V",
         "bytesPerSecond",
@@ -107,7 +107,7 @@
 
 .method public static bridge synthetic bytesPerSecond$default(Lokio/Throttler;JJJILjava/lang/Object;)V
     .locals 7
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     and-int/lit8 p8, p7, 0x2
@@ -304,7 +304,7 @@
 
 .method public final bytesPerSecond(J)V
     .locals 9
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const-wide/16 v3, 0x0
@@ -326,7 +326,7 @@
 
 .method public final bytesPerSecond(JJ)V
     .locals 9
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const-wide/16 v5, 0x0
@@ -348,7 +348,7 @@
 
 .method public final bytesPerSecond(JJJ)V
     .locals 5
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .line 1
@@ -414,7 +414,7 @@
     invoke-virtual {p0}, Ljava/lang/Object;->notifyAll()V
 
     .line 6
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -488,7 +488,7 @@
 
     const-string v0, "sink"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lokio/Throttler$sink$1;
@@ -509,7 +509,7 @@
 
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lokio/Throttler$source$1;

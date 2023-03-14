@@ -1,11 +1,11 @@
-.class public Lkotlin/jvm/internal/f0$a;
+.class public Lcotlin/jvm/internal/f0$a;
 .super Ljava/lang/Object;
 .source "Intrinsics.java"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/jvm/internal/f0;
+    value = Lcotlin/jvm/internal/f0;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation build Lkotlin/s0;
+.annotation build Lcotlin/s0;
     version = "1.4"
 .end annotation
 

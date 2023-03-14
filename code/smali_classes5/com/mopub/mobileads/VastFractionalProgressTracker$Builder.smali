@@ -17,7 +17,7 @@
     value = "SMAP\nVastFractionalProgressTracker.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VastFractionalProgressTracker.kt\ncom/mopub/mobileads/VastFractionalProgressTracker$Builder\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,58:1\n1#2:59\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -92,7 +92,7 @@
 
     const-string v0, "content"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -183,7 +183,7 @@
 
     const-string v0, "content"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;
 
@@ -211,7 +211,7 @@
 
     iget-object v1, p1, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;->content:Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -293,7 +293,7 @@
 
     const-string v0, "messageType"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/VastFractionalProgressTracker$Builder;->messageType:Lcom/mopub/mobileads/VastTracker$MessageType;

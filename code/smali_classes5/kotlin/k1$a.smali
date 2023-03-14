@@ -1,11 +1,11 @@
-.class final Lkotlin/k1$a;
-.super Lkotlin/collections/m1;
+.class final Lcotlin/k1$a;
+.super Lcotlin/collections/m1;
 .source "ULongArray.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/k1;
+    value = Lcotlin/k1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,11 +24,11 @@
     }
     d2 = {
         "kotlin/k1$a",
-        "Lkotlin/collections/m1;",
+        "Lcotlin/collections/m1;",
         "",
         "hasNext",
         "()Z",
-        "Lkotlin/j1;",
+        "Lcotlin/j1;",
         "b",
         "()J",
         "",
@@ -67,12 +67,12 @@
 
     const-string v0, "array"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0}, Lkotlin/collections/m1;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/m1;-><init>()V
 
-    iput-object p1, p0, Lkotlin/k1$a;->b:[J
+    iput-object p1, p0, Lcotlin/k1$a;->b:[J
 
     return-void
 .end method
@@ -83,9 +83,9 @@
     .locals 3
 
     .line 1
-    iget v0, p0, Lkotlin/k1$a;->a:I
+    iget v0, p0, Lcotlin/k1$a;->a:I
 
-    iget-object v1, p0, Lkotlin/k1$a;->b:[J
+    iget-object v1, p0, Lcotlin/k1$a;->b:[J
 
     array-length v2, v1
 
@@ -93,11 +93,11 @@
 
     add-int/lit8 v2, v0, 0x1
 
-    iput v2, p0, Lkotlin/k1$a;->a:I
+    iput v2, p0, Lcotlin/k1$a;->a:I
 
     aget-wide v0, v1, v0
 
-    invoke-static {v0, v1}, Lkotlin/j1;->s(J)J
+    invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
 
@@ -106,7 +106,7 @@
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
-    iget v1, p0, Lkotlin/k1$a;->a:I
+    iget v1, p0, Lcotlin/k1$a;->a:I
 
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -121,9 +121,9 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lkotlin/k1$a;->a:I
+    iget v0, p0, Lcotlin/k1$a;->a:I
 
-    iget-object v1, p0, Lkotlin/k1$a;->b:[J
+    iget-object v1, p0, Lcotlin/k1$a;->b:[J
 
     array-length v1, v1
 

@@ -1,9 +1,9 @@
 .class final Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnNormalMode$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "GestureLayer.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
@@ -18,15 +18,15 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Lcom/commsource/studio/bean/FocusLayerInfo;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
     d2 = {
         "Lcom/commsource/studio/bean/FocusLayerInfo;",
         "targetLayerInfo",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(Lcom/commsource/studio/bean/FocusLayerInfo;)V",
         "<anonymous>"
@@ -68,7 +68,7 @@
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -87,7 +87,7 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnNormalMode$1;->invoke(Lcom/commsource/studio/bean/FocusLayerInfo;)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -158,7 +158,7 @@
 
     move-result-object v3
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -218,7 +218,7 @@
 
     move-result-object v1
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -295,7 +295,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 

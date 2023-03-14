@@ -1,10 +1,10 @@
-.class public final Lkotlin/n1;
+.class public final Lcotlin/n1;
 .super Ljava/lang/Object;
 .source "Lazy.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -14,7 +14,7 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0003\u0008\u00c0\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u00a8\u0006\u0004"
     }
     d2 = {
-        "Lkotlin/n1;",
+        "Lcotlin/n1;",
         "",
         "<init>",
         "()V",
@@ -30,7 +30,7 @@
 
 
 # static fields
-.field public static final a:Lkotlin/n1;
+.field public static final a:Lcotlin/n1;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -41,11 +41,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lkotlin/n1;
+    new-instance v0, Lcotlin/n1;
 
-    invoke-direct {v0}, Lkotlin/n1;-><init>()V
+    invoke-direct {v0}, Lcotlin/n1;-><init>()V
 
-    sput-object v0, Lkotlin/n1;->a:Lkotlin/n1;
+    sput-object v0, Lcotlin/n1;->a:Lcotlin/n1;
 
     return-void
 .end method

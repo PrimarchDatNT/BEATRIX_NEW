@@ -1,14 +1,14 @@
-.class public final Lkotlinx/coroutines/h2$a;
+.class public final Lcotlinx/coroutines/h2$a;
 .super Ljava/lang/Object;
 .source "Job.kt"
 
 # interfaces
-.implements Lkotlinx/coroutines/f1;
+.implements Lcotlinx/coroutines/f1;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/h2;->a(Lkotlin/jvm/u/a;)Lkotlinx/coroutines/f1;
+    value = Lcotlinx/coroutines/h2;->a(Lcotlin/jvm/u/a;)Lcotlinx/coroutines/f1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
     value = "SMAP\nJob.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Job.kt\nkotlinx/coroutines/JobKt__JobKt$DisposableHandle$1\n*L\n1#1,645:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,8 +31,8 @@
     }
     d2 = {
         "kotlinx/coroutines/h2$a",
-        "Lkotlinx/coroutines/f1;",
-        "Lkotlin/t1;",
+        "Lcotlinx/coroutines/f1;",
+        "Lcotlin/t1;",
         "dispose",
         "()V",
         "kotlinx-coroutines-core"
@@ -47,15 +47,15 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/jvm/u/a;
+.field final synthetic a:Lcotlin/jvm/u/a;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/u/a;)V
+.method public constructor <init>(Lcotlin/jvm/u/a;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lkotlinx/coroutines/h2$a;->a:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcotlinx/coroutines/h2$a;->a:Lcotlin/jvm/u/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -68,9 +68,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/h2$a;->a:Lkotlin/jvm/u/a;
+    iget-object v0, p0, Lcotlinx/coroutines/h2$a;->a:Lcotlin/jvm/u/a;
 
-    invoke-interface {v0}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     return-void
 .end method

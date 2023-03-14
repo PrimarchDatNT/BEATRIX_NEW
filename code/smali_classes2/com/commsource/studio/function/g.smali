@@ -22,7 +22,7 @@
     value = "SMAP\nFaceFeaturesFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FaceFeaturesFragment.kt\ncom/commsource/studio/function/FaceFeaturesFragment\n*L\n1#1,134:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "onCreateView",
         "(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
         "view",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onViewCreated",
         "(Landroid/view/View;Landroid/os/Bundle;)V",
         "K0",
@@ -140,7 +140,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/function/g$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/function/g$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/function/g;->j0:Lcom/commsource/studio/function/g$a;
 
@@ -192,7 +192,7 @@
 
     const-string v1, "mViewBinding"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -277,7 +277,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/g;->f0:Lcom/commsource/studio/effect/c;
@@ -442,7 +442,7 @@
     const/4 v4, 0x0
 
     .line 5
-    invoke-static {v1, v2, v4, v3, v4}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {v1, v2, v4, v3, v4}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 6
     :cond_0
@@ -541,7 +541,7 @@
 
     const-string p3, "inflater"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -571,7 +571,7 @@
 
     const-string v1, "mActivity"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p3, v0}, Lcom/commsource/studio/layer/MultiFaceSelectLayer;-><init>(Landroid/content/Context;)V
 
@@ -604,7 +604,7 @@
 
     const-string p3, "FragmentStudioAutoBinding.inflate(inflater)"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/function/g;->d0:Lcom/commsource/beautyplus/f0/ab;
 
@@ -613,7 +613,7 @@
     if-nez p1, :cond_1
 
     .line 7
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/ab;->i(Landroidx/fragment/app/Fragment;)V
@@ -647,7 +647,7 @@
 
     if-nez p1, :cond_2
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ab;->g:Lcom/commsource/widget/XSeekBar;
@@ -676,7 +676,7 @@
 
     if-nez p1, :cond_4
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -721,7 +721,7 @@
 
     const-string v1, "view"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
@@ -733,14 +733,14 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ab;->a:Lcom/commsource/studio/component/ContrastComponent;
 
     const-string v1, "mViewBinding.contrast"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
@@ -749,14 +749,14 @@
 
     if-nez p1, :cond_1
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ab;->c:Lcom/commsource/studio/component/PreviewComponent;
 
     const-string v1, "mViewBinding.preview"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
@@ -765,7 +765,7 @@
 
     if-nez p1, :cond_2
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ab;->g:Lcom/commsource/widget/XSeekBar;
@@ -791,7 +791,7 @@
 
     const-string v1, "viewLifecycleOwner"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v1, Lcom/commsource/studio/function/g$d;
 

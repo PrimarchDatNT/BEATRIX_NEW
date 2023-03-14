@@ -1,11 +1,11 @@
-.class final Lkotlinx/coroutines/channels/a$e;
-.super Lkotlinx/coroutines/k;
+.class final Lcotlinx/coroutines/channels/a$e;
+.super Lcotlinx/coroutines/k;
 .source "AbstractChannel.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/channels/a;
+    value = Lcotlinx/coroutines/channels/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "e"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,20 +24,20 @@
     }
     d2 = {
         "kotlinx/coroutines/channels/a$e",
-        "Lkotlinx/coroutines/k;",
+        "Lcotlinx/coroutines/k;",
         "",
         "cause",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Throwable;)V",
         "",
         "toString",
         "()Ljava/lang/String;",
-        "Lkotlinx/coroutines/channels/x;",
-        "Lkotlinx/coroutines/channels/x;",
+        "Lcotlinx/coroutines/channels/x;",
+        "Lcotlinx/coroutines/channels/x;",
         "receive",
         "<init>",
-        "(Lkotlinx/coroutines/channels/a;Lkotlinx/coroutines/channels/x;)V",
+        "(Lcotlinx/coroutines/channels/a;Lcotlinx/coroutines/channels/x;)V",
         "kotlinx-coroutines-core"
     }
     k = 0x1
@@ -50,39 +50,39 @@
 
 
 # instance fields
-.field private final a:Lkotlinx/coroutines/channels/x;
+.field private final a:Lcotlinx/coroutines/channels/x;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlinx/coroutines/channels/x<",
+            "Lcotlinx/coroutines/channels/x<",
             "*>;"
         }
     .end annotation
 .end field
 
-.field final synthetic b:Lkotlinx/coroutines/channels/a;
+.field final synthetic b:Lcotlinx/coroutines/channels/a;
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/channels/a;Lkotlinx/coroutines/channels/x;)V
+.method public constructor <init>(Lcotlinx/coroutines/channels/a;Lcotlinx/coroutines/channels/x;)V
     .locals 0
-    .param p1    # Lkotlinx/coroutines/channels/a;
+    .param p1    # Lcotlinx/coroutines/channels/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/channels/x<",
+            "Lcotlinx/coroutines/channels/x<",
             "*>;)V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lkotlinx/coroutines/channels/a$e;->b:Lkotlinx/coroutines/channels/a;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/a$e;->b:Lcotlinx/coroutines/channels/a;
 
-    invoke-direct {p0}, Lkotlinx/coroutines/k;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/k;-><init>()V
 
-    iput-object p2, p0, Lkotlinx/coroutines/channels/a$e;->a:Lkotlinx/coroutines/channels/x;
+    iput-object p2, p0, Lcotlinx/coroutines/channels/a$e;->a:Lcotlinx/coroutines/channels/x;
 
     return-void
 .end method
@@ -97,18 +97,18 @@
     .end param
 
     .line 1
-    iget-object p1, p0, Lkotlinx/coroutines/channels/a$e;->a:Lkotlinx/coroutines/channels/x;
+    iget-object p1, p0, Lcotlinx/coroutines/channels/a$e;->a:Lcotlinx/coroutines/channels/x;
 
-    invoke-virtual {p1}, Lkotlinx/coroutines/internal/m;->X()Z
+    invoke-virtual {p1}, Lcotlinx/coroutines/internal/m;->X()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
     .line 2
-    iget-object p1, p0, Lkotlinx/coroutines/channels/a$e;->b:Lkotlinx/coroutines/channels/a;
+    iget-object p1, p0, Lcotlinx/coroutines/channels/a$e;->b:Lcotlinx/coroutines/channels/a;
 
-    invoke-virtual {p1}, Lkotlinx/coroutines/channels/a;->g0()V
+    invoke-virtual {p1}, Lcotlinx/coroutines/channels/a;->g0()V
 
     :cond_0
     return-void
@@ -120,9 +120,9 @@
     .line 1
     check-cast p1, Ljava/lang/Throwable;
 
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/channels/a$e;->a(Ljava/lang/Throwable;)V
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/channels/a$e;->a(Ljava/lang/Throwable;)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method
@@ -141,7 +141,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lkotlinx/coroutines/channels/a$e;->a:Lkotlinx/coroutines/channels/x;
+    iget-object v1, p0, Lcotlinx/coroutines/channels/a$e;->a:Lcotlinx/coroutines/channels/x;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 

@@ -17,7 +17,7 @@
     value = "SMAP\nSettingCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SettingCover.kt\ncom/commsource/camera/xcamera/cover/SettingCover$toMainSetting$1\n*L\n1#1,477:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
     d2 = {
         "com/commsource/camera/xcamera/cover/SettingCover$l",
         "Lcom/commsource/util/delegate/process/f;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
         "()V",
         "app_googleplayRelease"
@@ -145,7 +145,7 @@
 
     const-string v2, "beautyViewModel.dataEvent"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
 
@@ -177,7 +177,7 @@
     const-string v3, "entity"
 
     .line 7
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getBeautyType()I
 
@@ -229,7 +229,7 @@
 
     const-string v3, "beautyViewModel.notifyMakeupRvEvent"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-object v3, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 

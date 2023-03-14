@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "progress",
         "",
         "leftDx",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "C",
         "(IF)V",
         "",
@@ -138,7 +138,7 @@
 
     const-string v2, "viewBinding.seekBar2"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/view/View;->getLeft()I
 
@@ -171,7 +171,7 @@
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/ck;->M:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {p3, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p3}, Landroid/view/View;->getTop()I
 
@@ -189,7 +189,7 @@
 
     const-string v2, "viewBinding.otherAttrContainer"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/widget/ScrollView;->getScrollY()I
 

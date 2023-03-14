@@ -18,7 +18,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "(Landroid/view/ViewGroup;I)Lcom/commsource/beautyplus/onboarding/a$a;",
         "holder",
         "position",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "(Lcom/commsource/beautyplus/onboarding/a$a;I)V",
         "getItemCount",
@@ -111,11 +111,11 @@
 
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "banners"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;-><init>()V
@@ -185,7 +185,7 @@
 
     const-string v1, "holder"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/a;->a:Landroid/app/Activity;
@@ -233,7 +233,7 @@
 
     const-string v0, "parent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lcom/commsource/beautyplus/onboarding/a$a;
@@ -256,7 +256,7 @@
 
     const-string v1, "LayoutInflater.from(pare\u2026em_layout, parent, false)"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v0, p1}, Lcom/commsource/beautyplus/onboarding/a$a;-><init>(Landroid/view/View;)V
 

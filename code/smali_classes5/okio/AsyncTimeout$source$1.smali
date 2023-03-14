@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "byteCount",
         "read",
         "(Lokio/Buffer;J)J",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "close",
         "()V",
         "Lokio/AsyncTimeout;",
@@ -149,7 +149,7 @@
 
     const-string v0, "sink"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lokio/AsyncTimeout$source$1;->this$0:Lokio/AsyncTimeout;

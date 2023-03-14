@@ -11,7 +11,7 @@
     value = "SMAP\nPosition.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Position.kt\ncom/commsource/studio/layer/Position\n*L\n1#1,120:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "canvasHeight",
         "imgWidth",
         "imgHeight",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "set",
         "(Lcom/commsource/studio/MatrixBox;FFFF)V",
         "",
@@ -123,7 +123,7 @@
 
     const-string v0, "position"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -252,7 +252,7 @@
 
     iget-object v4, p1, Lcom/commsource/studio/layer/Position;->centerOffset:Landroid/graphics/PointF;
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -404,7 +404,7 @@
 
     const-string v1, "matrixBox"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/MatrixBox;->getScale()F

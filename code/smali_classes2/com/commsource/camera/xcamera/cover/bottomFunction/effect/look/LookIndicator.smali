@@ -8,7 +8,7 @@
     value = "SMAP\nLookIndicator.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LookIndicator.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookIndicator\n*L\n1#1,41:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,7 +24,7 @@
         "group",
         "Landroid/graphics/Canvas;",
         "canvas",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;Landroid/graphics/Canvas;)V",
         "",
@@ -36,7 +36,7 @@
         "d",
         "redColor",
         "Landroid/graphics/Paint;",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "()Landroid/graphics/Paint;",
         "paint",
         "Landroid/content/Context;",
@@ -55,7 +55,7 @@
 
 
 # instance fields
-.field private final b:Lkotlin/w;
+.field private final b:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -79,11 +79,11 @@
     .line 2
     sget-object p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookIndicator$paint$2;->INSTANCE:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookIndicator$paint$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookIndicator;->b:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookIndicator;->b:Lcotlin/w;
 
     sget p1, Lcom/res/provider/ResCOLOR;->color_61dae4:I
 
@@ -251,9 +251,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookIndicator;->b:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookIndicator;->b:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 

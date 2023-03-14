@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Lcom/commsource/camera/xcamera/m;",
         "Lcom/commsource/camera/xcamera/bean/c;",
         "captureResultBean",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "f",
         "(Lcom/commsource/camera/xcamera/bean/c;)V",
         "app_googleplayRelease"
@@ -83,7 +83,7 @@
 
     const-string v1, "captureResultBean"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$f;->h:Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;
@@ -223,7 +223,7 @@
 
     const-string v3, "montageDressUpViewModel.currentArMaterial"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2, v1}, Lcom/meitu/template/bean/ArMaterial;->setThumbnail(Ljava/lang/String;)V
 

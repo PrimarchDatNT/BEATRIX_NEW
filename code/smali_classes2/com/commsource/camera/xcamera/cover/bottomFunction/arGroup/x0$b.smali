@@ -3,7 +3,7 @@
 .source "ArFragment.java"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
@@ -19,9 +19,9 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/u/l<",
         "Ljava/lang/Boolean;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
@@ -45,7 +45,7 @@
 
 
 # virtual methods
-.method public a(Ljava/lang/Boolean;)Lkotlin/t1;
+.method public a(Ljava/lang/Boolean;)Lcotlin/t1;
     .locals 4
 
     const/16 v0, 0x6d09
@@ -161,7 +161,7 @@
     .line 1
     check-cast p1, Ljava/lang/Boolean;
 
-    invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0$b;->a(Ljava/lang/Boolean;)Lkotlin/t1;
+    invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0$b;->a(Ljava/lang/Boolean;)Lcotlin/t1;
 
     move-result-object p1
 

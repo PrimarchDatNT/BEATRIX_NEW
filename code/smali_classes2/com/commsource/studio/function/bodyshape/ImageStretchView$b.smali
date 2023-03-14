@@ -17,7 +17,7 @@
     value = "SMAP\nImageStretchView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ImageStretchView.kt\ncom/commsource/studio/function/bodyshape/ImageStretchView$GestureListener\n*L\n1#1,466:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -109,7 +109,7 @@
 
     const-string v1, "downEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->c:Landroid/graphics/PointF;
@@ -166,7 +166,7 @@
 
     const-string v3, "adjustBarBitmap"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -202,7 +202,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -277,7 +277,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -305,7 +305,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -396,17 +396,17 @@
     .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
-    invoke-virtual {v1}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->getStretchConfirmCallback()Lkotlin/jvm/u/a;
+    invoke-virtual {v1}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->getStretchConfirmCallback()Lcotlin/jvm/u/a;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    invoke-interface {v1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/t1;
+    check-cast v1, Lcotlin/t1;
 
     .line 7
     :cond_0
@@ -441,11 +441,11 @@
 
     const-string v1, "downEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "moveEvent"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
@@ -481,11 +481,11 @@
 
     sub-float/2addr v4, v5
 
-    invoke-static {v4, v3}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v4, v3}, Lcotlin/g2/o;->m(FF)F
 
     move-result v4
 
-    invoke-static {v4, v2}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v4, v2}, Lcotlin/g2/o;->t(FF)F
 
     move-result v4
 
@@ -522,11 +522,11 @@
 
     sub-float/2addr v4, v5
 
-    invoke-static {v4, v3}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v4, v3}, Lcotlin/g2/o;->m(FF)F
 
     move-result v3
 
-    invoke-static {v3, v2}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v3, v2}, Lcotlin/g2/o;->t(FF)F
 
     move-result v2
 
@@ -592,7 +592,7 @@
 
     iget v4, v4, Landroid/graphics/PointF;->y:F
 
-    invoke-static {v5, v4}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v5, v4}, Lcotlin/g2/o;->t(FF)F
 
     move-result v4
 
@@ -633,7 +633,7 @@
 
     iget v4, v4, Landroid/graphics/PointF;->y:F
 
-    invoke-static {v5, v4}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v5, v4}, Lcotlin/g2/o;->m(FF)F
 
     move-result v4
 

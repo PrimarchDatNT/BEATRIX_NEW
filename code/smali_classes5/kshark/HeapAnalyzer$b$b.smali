@@ -17,7 +17,7 @@
     value = "SMAP\nHeapAnalyzer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HeapAnalyzer.kt\nkshark/HeapAnalyzer$TrieNode$ParentNode\n*L\n1#1,600:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -80,7 +80,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, v0}, Lkshark/HeapAnalyzer$b;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {p0, v0}, Lkshark/HeapAnalyzer$b;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-wide p1, p0, Lkshark/HeapAnalyzer$b$b;->b:J
 

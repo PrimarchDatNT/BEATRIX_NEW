@@ -8,7 +8,7 @@
     value = "SMAP\nImageStyleAdapter.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ImageStyleAdapter.kt\ncom/commsource/studio/mixlayer/ImageStyleAdapter\n*L\n1#1,29:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -69,7 +69,7 @@
 
     const-string v0, "manager"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 

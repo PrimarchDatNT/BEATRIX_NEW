@@ -1,10 +1,10 @@
-.class Lkotlin/collections/x;
-.super Lkotlin/collections/w;
+.class Lcotlin/collections/x;
+.super Lcotlin/collections/w;
 .source "MutableCollectionsJVM.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -17,16 +17,16 @@
         "T",
         "",
         "Ljava/util/Comparator;",
-        "Lkotlin/Comparator;",
+        "Lcotlin/Comparator;",
         "comparator",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "n0",
         "(Ljava/util/List;Ljava/util/Comparator;)V",
-        "Lkotlin/Function2;",
+        "Lcotlin/Function2;",
         "",
         "comparison",
         "o0",
-        "(Ljava/util/List;Lkotlin/jvm/u/p;)V",
+        "(Ljava/util/List;Lcotlin/jvm/u/p;)V",
         "",
         "m0",
         "(Ljava/util/List;)V",
@@ -55,7 +55,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/collections/w;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/w;-><init>()V
 
     return-void
 .end method
@@ -72,10 +72,10 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -97,10 +97,10 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -124,10 +124,10 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -155,7 +155,7 @@
 
     const-string v0, "$this$sort"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
@@ -186,31 +186,31 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->ERROR:Lcotlin/DeprecationLevel;
         message = "Use sortWith(comparator) instead."
-        replaceWith = .subannotation Lkotlin/q0;
+        replaceWith = .subannotation Lcotlin/q0;
             expression = "this.sortWith(comparator)"
             imports = {}
         .end subannotation
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    new-instance p0, Lkotlin/NotImplementedError;
+    new-instance p0, Lcotlin/NotImplementedError;
 
     const/4 p1, 0x0
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, p1, v0, p1}, Lkotlin/NotImplementedError;-><init>(Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, p1, v0, p1}, Lcotlin/NotImplementedError;-><init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     throw p0
 .end method
 
-.method private static final o0(Ljava/util/List;Lkotlin/jvm/u/p;)V
+.method private static final o0(Ljava/util/List;Lcotlin/jvm/u/p;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -219,33 +219,33 @@
             ">(",
             "Ljava/util/List<",
             "TT;>;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-TT;-TT;",
             "Ljava/lang/Integer;",
             ">;)V"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->ERROR:Lcotlin/DeprecationLevel;
         message = "Use sortWith(Comparator(comparison)) instead."
-        replaceWith = .subannotation Lkotlin/q0;
+        replaceWith = .subannotation Lcotlin/q0;
             expression = "this.sortWith(Comparator(comparison))"
             imports = {}
         .end subannotation
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    new-instance p0, Lkotlin/NotImplementedError;
+    new-instance p0, Lcotlin/NotImplementedError;
 
     const/4 p1, 0x0
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, p1, v0, p1}, Lkotlin/NotImplementedError;-><init>(Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, p1, v0, p1}, Lcotlin/NotImplementedError;-><init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     throw p0
 .end method
@@ -274,11 +274,11 @@
 
     const-string v0, "$this$sortWith"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "comparator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I

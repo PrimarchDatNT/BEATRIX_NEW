@@ -14,7 +14,7 @@
     value = "SMAP\nBpCameraViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpCameraViewModel.kt\ncom/commsource/camera/xcamera/BpCameraViewModel\n+ 2 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,1276:1\n37#2,2:1277\n*E\n*S KotlinDebug\n*F\n+ 1 BpCameraViewModel.kt\ncom/commsource/camera/xcamera/BpCameraViewModel\n*L\n239#1,2:1277\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
         "Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;",
         "",
         "arNumber",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "x2",
         "(I)V",
         "Lcom/meitu/template/bean/ArMaterial;",
@@ -55,17 +55,17 @@
         "r2",
         "(Lcom/meitu/template/bean/Filter;Z)V",
         "Ljava/util/HashMap;",
-        "Lkotlin/collections/HashMap;",
+        "Lcotlin/collections/HashMap;",
         "Y1",
         "()Ljava/util/HashMap;",
         "p2",
         "()Z",
         "Lcom/meitu/template/bean/k;",
         "lookEffectBean",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "updateLookChange",
         "u1",
-        "(Lcom/meitu/template/bean/k;Lkotlin/jvm/u/a;)V",
+        "(Lcom/meitu/template/bean/k;Lcotlin/jvm/u/a;)V",
         "Lcom/meitu/library/camera/MTCamera$e;",
         "cameraBuilder",
         "Lcom/meitu/library/d/a/a$e;",
@@ -164,7 +164,7 @@
         "Lcom/meitu/template/bean/LookMaterial;",
         "lookMaterial",
         "v1",
-        "(Lcom/meitu/template/bean/LookMaterial;Lkotlin/jvm/u/a;)V",
+        "(Lcom/meitu/template/bean/LookMaterial;Lcotlin/jvm/u/a;)V",
         "path",
         "q1",
         "Landroid/graphics/Point;",
@@ -267,7 +267,7 @@
         "isEnableSwitchCameraEvent",
         "Lcom/commsource/camera/r0;",
         "y0",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "X1",
         "()Lcom/commsource/camera/r0;",
         "mMultiVideoRecordHelper",
@@ -451,7 +451,7 @@
     .end annotation
 .end field
 
-.field private final y0:Lkotlin/w;
+.field private final y0:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -469,7 +469,7 @@
 
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;-><init>(Landroid/app/Application;)V
@@ -484,11 +484,11 @@
     .line 3
     sget-object p1, Lcom/commsource/camera/xcamera/BpCameraViewModel$mMultiVideoRecordHelper$2;->INSTANCE:Lcom/commsource/camera/xcamera/BpCameraViewModel$mMultiVideoRecordHelper$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->y0:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->y0:Lcotlin/w;
 
     .line 4
     new-instance p1, Lcom/commsource/camera/xcamera/cover/e;
@@ -643,7 +643,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->B()V
@@ -667,7 +667,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->w()V
@@ -705,7 +705,7 @@
 
     if-nez v1, :cond_6
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->H()V
@@ -729,7 +729,7 @@
 
     if-nez p1, :cond_8
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_8
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->J()V
@@ -1035,7 +1035,7 @@
 
     const-string v1, "cameraEffectManager"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1261,7 +1261,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -1298,14 +1298,14 @@
     return-void
 .end method
 
-.method private final u1(Lcom/meitu/template/bean/k;Lkotlin/jvm/u/a;)V
+.method private final u1(Lcom/meitu/template/bean/k;Lcotlin/jvm/u/a;)V
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/meitu/template/bean/k;",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1357,7 +1357,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     const/4 v5, 0x5
@@ -1381,7 +1381,7 @@
     :goto_0
     if-nez v2, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     invoke-virtual {p1}, Lcom/meitu/template/bean/k;->e()Lcom/commsource/camera/lookwheel/StyleEffectDegree;
@@ -1400,7 +1400,7 @@
     :goto_1
     if-nez v5, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     iget-boolean v5, v5, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->fleckFlawSwitch:Z
@@ -1432,7 +1432,7 @@
 
     if-nez v2, :cond_7
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_7
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/CameraEffectManager;->j()Lcom/commsource/camera/newrender/renderproxy/o;
@@ -1508,7 +1508,7 @@
 
     if-nez v2, :cond_b
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_b
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -1527,7 +1527,7 @@
     .line 15
     new-instance v2, Lcom/commsource/camera/xcamera/BpCameraViewModel$f;
 
-    invoke-direct {v2, p0, p1, p2}, Lcom/commsource/camera/xcamera/BpCameraViewModel$f;-><init>(Lcom/commsource/camera/xcamera/BpCameraViewModel;Lcom/meitu/template/bean/k;Lkotlin/jvm/u/a;)V
+    invoke-direct {v2, p0, p1, p2}, Lcom/commsource/camera/xcamera/BpCameraViewModel$f;-><init>(Lcom/commsource/camera/xcamera/BpCameraViewModel;Lcom/meitu/template/bean/k;Lcotlin/jvm/u/a;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/m$a;->t(Lcom/commsource/camera/newrender/renderproxy/m$c;)Lcom/commsource/camera/newrender/renderproxy/m$a;
 
@@ -1541,7 +1541,7 @@
 
     if-nez p1, :cond_c
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_c
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->j()Lcom/commsource/camera/newrender/renderproxy/o;
@@ -1748,7 +1748,7 @@
 
     if-nez v3, :cond_1
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v3, v6}, Lcom/commsource/camera/xcamera/CameraEffectManager;->M(Z)V
@@ -1758,7 +1758,7 @@
 
     if-nez v3, :cond_2
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v3, v4}, Lcom/commsource/camera/xcamera/CameraEffectManager;->F(Z)V
@@ -1779,7 +1779,7 @@
 
     if-nez v3, :cond_4
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {v3, v6}, Lcom/commsource/camera/xcamera/CameraEffectManager;->M(Z)V
@@ -1923,7 +1923,7 @@
 
     if-nez v3, :cond_a
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_a
     invoke-virtual {v3, v6}, Lcom/commsource/camera/xcamera/CameraEffectManager;->M(Z)V
@@ -1955,7 +1955,7 @@
 
     if-nez v3, :cond_c
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_c
     invoke-virtual {v3, v6}, Lcom/commsource/camera/xcamera/CameraEffectManager;->M(Z)V
@@ -1965,7 +1965,7 @@
 
     if-nez v3, :cond_d
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_d
     invoke-virtual {v3, v4}, Lcom/commsource/camera/xcamera/CameraEffectManager;->F(Z)V
@@ -2046,7 +2046,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/camera/xcamera/BpCameraViewModel$requestWeatherInfo$1;-><init>(Lcom/commsource/camera/xcamera/BpCameraViewModel;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/util/f;->h(Lkotlin/jvm/u/v;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/util/f;->h(Lcotlin/jvm/u/v;)V
 
     .line 4
     :cond_0
@@ -2103,7 +2103,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     const/4 v2, 0x0
@@ -2232,7 +2232,7 @@
 
     const-string v3, "cameraEffectManager"
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     int-to-float p1, p1
@@ -2262,7 +2262,7 @@
 
     const-string v1, "beautyEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->w0:Lcom/commsource/camera/xcamera/CameraEffectManager;
@@ -2271,7 +2271,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getBeautyType()I
@@ -2304,7 +2304,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     int-to-float p1, p1
@@ -2343,7 +2343,7 @@
 
     const-string v1, "cameraEffectManager"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -2375,7 +2375,7 @@
 
     const-string v1, "imagePath"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->I0:Lcom/commsource/camera/xcamera/o;
@@ -2409,7 +2409,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1, p1, p2}, Lcom/commsource/camera/xcamera/CameraEffectManager;->E(Lcom/meitu/template/bean/Filter;I)V
@@ -2434,7 +2434,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -2472,7 +2472,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->f(I)V
@@ -2548,7 +2548,7 @@
 
     const-string v5, "cameraEffectManager"
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
@@ -2579,7 +2579,7 @@
 
     const-string v1, "entity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->w0:Lcom/commsource/camera/xcamera/CameraEffectManager;
@@ -2588,7 +2588,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->g(Lcom/commsource/repository/child/makeup/h;)V
@@ -2620,7 +2620,7 @@
 
     if-nez p2, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {p2}, Lcom/meitu/template/bean/LookMaterial;->isDefaultLook()Z
@@ -2686,7 +2686,7 @@
 
     const-string v1, "cameraEffectManager"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->w0:Lcom/commsource/camera/xcamera/CameraEffectManager;
@@ -2707,7 +2707,7 @@
 
     invoke-direct {v1, p1}, Lcom/commsource/camera/xcamera/BpCameraViewModel$setCameraEffectManager$1;-><init>(Lcom/commsource/camera/xcamera/CameraEffectManager;)V
 
-    invoke-virtual {p0, v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->R0(Lkotlin/jvm/u/l;)V
+    invoke-virtual {p0, v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->R0(Lcotlin/jvm/u/l;)V
 
     .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2759,7 +2759,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->k()Lcom/commsource/camera/render/MTGifRenderProxy;
@@ -2804,7 +2804,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->x0:Lcom/commsource/camera/xcamera/h;
@@ -2833,7 +2833,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/CameraEffectManager;->k()Lcom/commsource/camera/render/MTGifRenderProxy;
@@ -2847,7 +2847,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/CameraEffectManager;->k()Lcom/commsource/camera/render/MTGifRenderProxy;
@@ -2938,7 +2938,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->L0:Lcom/commsource/camera/f1/n;
@@ -2961,7 +2961,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->P0:Z
@@ -3030,7 +3030,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-virtual {v1}, Landroid/graphics/Rect;->height()I
@@ -3218,7 +3218,7 @@
 
     const-string p2, "cameraEffectManager"
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->k()Lcom/commsource/camera/render/MTGifRenderProxy;
@@ -3258,7 +3258,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->M0:Lcom/commsource/camera/f1/n;
@@ -3341,7 +3341,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->k()Lcom/commsource/camera/render/MTGifRenderProxy;
@@ -3399,7 +3399,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->k()Lcom/commsource/camera/render/MTGifRenderProxy;
@@ -3434,11 +3434,11 @@
 
     const-string v1, "cameraBuilder"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "arCameraBuilder"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->L(Lcom/meitu/library/camera/MTCamera$e;Lcom/meitu/library/d/a/a$e;)V
@@ -3491,7 +3491,7 @@
 
     const-string v1, "callback"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->w0:Lcom/commsource/camera/xcamera/CameraEffectManager;
@@ -3500,7 +3500,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -3528,7 +3528,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->N0:Lcom/commsource/camera/f1/n;
@@ -3578,7 +3578,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -3613,7 +3613,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3671,7 +3671,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->l()Lcom/commsource/camera/montage/l0;
@@ -3692,7 +3692,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->l()Lcom/commsource/camera/montage/l0;
@@ -3738,7 +3738,7 @@
 
     const-string v1, "surfaceView"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->A0:Lcom/commsource/camera/montage/m0;
@@ -3851,7 +3851,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->O0:Lcom/commsource/camera/f1/n;
@@ -3877,7 +3877,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->k()Lcom/commsource/camera/render/MTGifRenderProxy;
@@ -3973,7 +3973,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -4032,7 +4032,7 @@
 
     const-string v1, "takePictureInfo"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->G0:I
@@ -4195,7 +4195,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -4225,9 +4225,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->y0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->y0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -4252,7 +4252,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -4380,7 +4380,7 @@
 
     const-string v1, "content"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->w0:Lcom/commsource/camera/xcamera/CameraEffectManager;
@@ -4389,7 +4389,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     if-eqz v1, :cond_1
@@ -4449,11 +4449,11 @@
 
     const-string v1, "point"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "rect"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->w0:Lcom/commsource/camera/xcamera/CameraEffectManager;
@@ -4462,7 +4462,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     if-eqz v1, :cond_1
@@ -4485,7 +4485,7 @@
 
     if-nez p1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     if-eqz p1, :cond_3
@@ -4599,7 +4599,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->k()Lcom/commsource/camera/render/MTGifRenderProxy;
@@ -4673,7 +4673,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -4868,7 +4868,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->s()Z
@@ -4894,7 +4894,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->k()Lcom/commsource/camera/render/MTGifRenderProxy;
@@ -4968,7 +4968,7 @@
 
     const-string v1, "actions"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -4995,7 +4995,7 @@
 
     const-string v3, "cameraEffectManager"
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -5037,7 +5037,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->k()Lcom/commsource/camera/render/MTGifRenderProxy;
@@ -5052,7 +5052,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->v()V
@@ -5092,7 +5092,7 @@
 
     const-string v1, "path"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->x0:Lcom/commsource/camera/xcamera/h;
@@ -5131,7 +5131,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->k()Lcom/commsource/camera/render/MTGifRenderProxy;
@@ -5196,7 +5196,7 @@
 
     const-string v1, "arMaterial"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
@@ -5324,7 +5324,7 @@
 
     const-string v6, "cameraEffectManager"
 
-    invoke-static {v6}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v6}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     invoke-virtual {v4}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -5460,7 +5460,7 @@
 
     const-string v1, "beautyEntities"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->x0:Lcom/commsource/camera/xcamera/h;
@@ -5510,7 +5510,7 @@
 
     const-string v1, "runnable"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->G0:I
@@ -5709,7 +5709,7 @@
 
     if-nez v1, :cond_6
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/bean/FilterInfo;->getFilterBeforeAR()Z
@@ -5823,7 +5823,7 @@
 
     if-nez v6, :cond_c
 
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_c
     invoke-virtual {v6}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -5850,7 +5850,7 @@
 
     if-nez v2, :cond_d
 
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_d
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -5874,7 +5874,7 @@
 
     if-nez v1, :cond_e
 
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_e
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->j()Lcom/commsource/camera/newrender/renderproxy/o;
@@ -5913,7 +5913,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->j()Lcom/commsource/camera/newrender/renderproxy/o;
@@ -5950,7 +5950,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->k()Lcom/commsource/camera/render/MTGifRenderProxy;
@@ -5982,13 +5982,13 @@
     return p1
 .end method
 
-.method public final v1(Lcom/meitu/template/bean/LookMaterial;Lkotlin/jvm/u/a;)V
+.method public final v1(Lcom/meitu/template/bean/LookMaterial;Lcotlin/jvm/u/a;)V
     .locals 2
     .param p1    # Lcom/meitu/template/bean/LookMaterial;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/a;
+    .param p2    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
@@ -5996,8 +5996,8 @@
         value = {
             "(",
             "Lcom/meitu/template/bean/LookMaterial;",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -6015,7 +6015,7 @@
 
     move-result-object v1
 
-    invoke-direct {p0, v1, p2}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->u1(Lcom/meitu/template/bean/k;Lkotlin/jvm/u/a;)V
+    invoke-direct {p0, v1, p2}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->u1(Lcom/meitu/template/bean/k;Lcotlin/jvm/u/a;)V
 
     goto :goto_0
 
@@ -6025,7 +6025,7 @@
 
     move-result-object v1
 
-    invoke-direct {p0, v1, p2}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->u1(Lcom/meitu/template/bean/k;Lkotlin/jvm/u/a;)V
+    invoke-direct {p0, v1, p2}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->u1(Lcom/meitu/template/bean/k;Lcotlin/jvm/u/a;)V
 
     .line 3
     :goto_0
@@ -6052,7 +6052,7 @@
 
     const-string v1, "makeupColorMaterial"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p2}, Lcom/commsource/repository/child/makeup/h;->I()Z
@@ -6079,7 +6079,7 @@
 
     if-nez v3, :cond_0
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v3}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -6093,7 +6093,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -6107,9 +6107,9 @@
     if-eqz v7, :cond_8
 
     .line 5
-    new-instance v8, Lkotlin/jvm/internal/Ref$ObjectRef;
+    new-instance v8, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    invoke-direct {v8}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+    invoke-direct {v8}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;->j(I)Z
 
@@ -6160,14 +6160,14 @@
 
     .line 9
     :goto_0
-    iput-object v1, v8, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object v1, v8, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 10
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel;->w0:Lcom/commsource/camera/xcamera/CameraEffectManager;
 
     if-nez v1, :cond_4
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -6178,7 +6178,7 @@
 
     move-result-object v1
 
-    iget-object v3, v8, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iget-object v3, v8, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     check-cast v3, Ljava/lang/Integer;
 
@@ -6209,7 +6209,7 @@
 
     if-nez v1, :cond_7
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_7
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -6226,7 +6226,7 @@
 
     move-object v11, p2
 
-    invoke-direct/range {v5 .. v11}, Lcom/commsource/camera/xcamera/BpCameraViewModel$h;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;Lkotlin/jvm/internal/Ref$ObjectRef;Lcom/commsource/camera/xcamera/BpCameraViewModel;ILcom/commsource/repository/child/makeup/h;)V
+    invoke-direct/range {v5 .. v11}, Lcom/commsource/camera/xcamera/BpCameraViewModel$h;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;Lcotlin/jvm/internal/Ref$ObjectRef;Lcom/commsource/camera/xcamera/BpCameraViewModel;ILcom/commsource/repository/child/makeup/h;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->m(Ljava/lang/Runnable;)V
 
@@ -6439,7 +6439,7 @@
 
     const-string p2, "cameraEffectManager"
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_7
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->i()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -6549,7 +6549,7 @@
 
     move-result-object p1
 
-    invoke-direct {p0, p1, v2}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->u1(Lcom/meitu/template/bean/k;Lkotlin/jvm/u/a;)V
+    invoke-direct {p0, p1, v2}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->u1(Lcom/meitu/template/bean/k;Lcotlin/jvm/u/a;)V
 
     .line 11
     :cond_1
@@ -6578,7 +6578,7 @@
 
     const-string v2, "cameraEffectManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->m(Z)Ljava/util/List;

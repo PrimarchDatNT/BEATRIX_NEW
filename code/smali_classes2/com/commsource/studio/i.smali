@@ -18,7 +18,7 @@
     value = "SMAP\nBpGestureDetector.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpGestureDetector.kt\ncom/commsource/studio/BpGestureDetector\n*L\n1#1,1509:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
         "l",
         "(ILandroid/view/MotionEvent;)Landroid/graphics/PointF;",
         "focus",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "B",
         "(Landroid/graphics/PointF;Landroid/view/MotionEvent;)V",
         "",
@@ -322,7 +322,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/i$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/i$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/i;->e0:Lcom/commsource/studio/i$a;
 
@@ -447,7 +447,7 @@
     const-string v0, "configuration"
 
     .line 18
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/view/ViewConfiguration;->getScaledTouchSlop()I
 
@@ -560,14 +560,14 @@
 
     if-nez v3, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     iget-object v4, p0, Lcom/commsource/studio/i;->E:Landroid/view/MotionEvent;
 
     if-nez v4, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-interface {v2, v3, v4}, Lcom/commsource/studio/i$d;->onSingleTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
@@ -614,7 +614,7 @@
     if-nez p1, :cond_4
 
     .line 13
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
     const/16 v4, 0x3e8
@@ -683,14 +683,14 @@
 
     if-nez v3, :cond_6
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     iget-object v5, p0, Lcom/commsource/studio/i;->E:Landroid/view/MotionEvent;
 
     if-nez v5, :cond_7
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_7
     invoke-direct {p0, v3, v5, p1, v4}, Lcom/commsource/studio/i;->p(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
@@ -718,7 +718,7 @@
     if-nez v2, :cond_9
 
     .line 21
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_9
     invoke-virtual {v2}, Landroid/view/VelocityTracker;->recycle()V
@@ -758,14 +758,14 @@
 
     if-nez v2, :cond_b
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_b
     iget-object v3, p0, Lcom/commsource/studio/i;->E:Landroid/view/MotionEvent;
 
     if-nez v3, :cond_c
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_c
     invoke-interface {p1, v2, v3}, Lcom/commsource/studio/i$d;->onTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
@@ -785,7 +785,7 @@
 
     if-nez v3, :cond_e
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_e
     invoke-interface {v2, v3}, Lcom/commsource/studio/i$d;->onLongPressUp(Landroid/view/MotionEvent;)Z
@@ -1230,7 +1230,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v1}, Landroid/view/VelocityTracker;->recycle()V
@@ -1344,7 +1344,7 @@
     const-string p1, "obtain"
 
     .line 3
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1544,7 +1544,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-interface {v1, v2}, Lcom/commsource/studio/i$d;->onLongPress(Landroid/view/MotionEvent;)Z
@@ -1753,21 +1753,21 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/i;->C:Landroid/view/MotionEvent;
 
     if-nez p1, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     iget-object v4, p0, Lcom/commsource/studio/i;->D:Landroid/view/MotionEvent;
 
     if-nez v4, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     invoke-direct {p0, v2, p1, v4}, Lcom/commsource/studio/i;->u(Landroid/view/MotionEvent;Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
@@ -1848,7 +1848,7 @@
 
     if-nez v4, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     invoke-virtual {v4}, Landroid/view/MotionEvent;->getDownTime()J
@@ -1871,7 +1871,7 @@
 
     if-nez v3, :cond_7
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_7
     invoke-virtual {v3}, Landroid/view/MotionEvent;->getDownTime()J
@@ -2008,7 +2008,7 @@
 
     if-nez v8, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     invoke-interface {v6, v8, p2, v1, v4}, Lcom/commsource/studio/i$d;->onMajorScroll(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
@@ -2113,7 +2113,7 @@
 
     if-nez v6, :cond_8
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_8
     invoke-interface {v5, v6, p2, v1, v4}, Lcom/commsource/studio/i$d;->onMajorScroll(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
@@ -2517,7 +2517,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     const/16 v2, 0x3e8
@@ -2543,7 +2543,7 @@
 
     if-nez v3, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {v3, v2}, Landroid/view/VelocityTracker;->getXVelocity(I)F
@@ -2555,7 +2555,7 @@
 
     if-nez v4, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-virtual {v4, v2}, Landroid/view/VelocityTracker;->getYVelocity(I)F
@@ -2589,7 +2589,7 @@
 
     if-nez v8, :cond_4
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
     invoke-virtual {v8, v7}, Landroid/view/VelocityTracker;->getXVelocity(I)F
@@ -2603,7 +2603,7 @@
 
     if-nez v9, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     invoke-virtual {v9, v7}, Landroid/view/VelocityTracker;->getYVelocity(I)F
@@ -2625,7 +2625,7 @@
 
     if-nez v1, :cond_6
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     invoke-virtual {v1}, Landroid/view/VelocityTracker;->clear()V
@@ -2795,7 +2795,7 @@
 
     const-string v1, "event"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {}, Lcom/commsource/util/d2;->b()Lcom/commsource/util/d2;
@@ -2842,7 +2842,7 @@
 
     if-nez v4, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {v4, p1}, Landroid/view/VelocityTracker;->addMovement(Landroid/view/MotionEvent;)V

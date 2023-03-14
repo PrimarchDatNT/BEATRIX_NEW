@@ -17,7 +17,7 @@
     value = "SMAP\nBaseSubFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BaseSubFragment.kt\ncom/commsource/studio/function/BaseSubFragment\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,1162:1\n1819#2,2:1163\n1819#2,2:1165\n1819#2,2:1167\n1819#2,2:1169\n1819#2,2:1171\n1819#2,2:1173\n*E\n*S KotlinDebug\n*F\n+ 1 BaseSubFragment.kt\ncom/commsource/studio/function/BaseSubFragment\n*L\n313#1,2:1163\n559#1,2:1165\n566#1,2:1167\n573#1,2:1169\n883#1,2:1171\n972#1,2:1173\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Lcom/commsource/studio/effect/t;",
         "T",
         "Lcom/commsource/beautyplus/i0/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "A0",
         "()V",
         "b1",
@@ -73,12 +73,12 @@
         "(Lcom/commsource/studio/effect/k;Landroid/graphics/Bitmap;Z)V",
         "Lcom/commsource/studio/sub/SubModuleEnum;",
         "subModuleEnum",
-        "Lkotlin/Function1;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function1;",
+        "Lcotlin/k0;",
         "name",
         "runnable",
         "b0",
-        "(Lcom/commsource/studio/effect/t;Lcom/commsource/studio/sub/SubModuleEnum;Lkotlin/jvm/u/l;)V",
+        "(Lcom/commsource/studio/effect/t;Lcom/commsource/studio/sub/SubModuleEnum;Lcotlin/jvm/u/l;)V",
         "U",
         "y0",
         "isSubscribe",
@@ -91,10 +91,10 @@
         "C",
         "(Landroid/view/View;)V",
         "animationView",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "action",
         "I",
-        "(Landroid/view/View;Lkotlin/jvm/u/a;)V",
+        "(Landroid/view/View;Lcotlin/jvm/u/a;)V",
         "K",
         "X",
         "X0",
@@ -117,7 +117,7 @@
         "O",
         "Y",
         "Y0",
-        "(Lkotlin/jvm/u/a;)V",
+        "(Lcotlin/jvm/u/a;)V",
         "Z0",
         "isContrast",
         "H0",
@@ -174,11 +174,11 @@
         "()Lcom/commsource/studio/sub/SubModuleEnum;",
         "u1",
         "(Lcom/commsource/studio/sub/SubModuleEnum;)V",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "j0",
-        "()Lkotlin/jvm/u/l;",
+        "()Lcotlin/jvm/u/l;",
         "m1",
-        "(Lkotlin/jvm/u/l;)V",
+        "(Lcotlin/jvm/u/l;)V",
         "onPreviewChange",
         "R",
         "p0",
@@ -191,7 +191,7 @@
         "s1",
         "(Lcom/commsource/studio/ImageStudioViewModel;)V",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "Ljava/util/ArrayList;",
         "adjustBarViews",
         "f",
@@ -201,7 +201,7 @@
         "o1",
         "params",
         "g",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "q0",
         "()Lcom/commsource/beautyplus/f0/k0;",
         "Lcom/commsource/easyeditor/utils/opengl/f;",
@@ -244,9 +244,9 @@
         "q1",
         "showLoadingOnInit",
         "W",
-        "Lkotlin/jvm/u/a;",
+        "Lcotlin/jvm/u/a;",
         "g0",
-        "()Lkotlin/jvm/u/a;",
+        "()Lcotlin/jvm/u/a;",
         "i1",
         "exitDrawAfter",
         "com/commsource/studio/function/BaseSubFragment$subPipeline$2$a",
@@ -319,8 +319,8 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/LinkedList<",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;>;"
         }
     .end annotation
@@ -344,13 +344,13 @@
     .end annotation
 .end field
 
-.field private final V:Lkotlin/w;
+.field private final V:Lcotlin/w;
 
-.field private W:Lkotlin/jvm/u/a;
+.field private W:Lcotlin/jvm/u/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -361,13 +361,13 @@
 
 .field private X:Z
 
-.field private Y:Lkotlin/jvm/u/l;
+.field private Y:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -394,7 +394,7 @@
     .end annotation
 .end field
 
-.field private final g:Lkotlin/w;
+.field private final g:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -422,11 +422,11 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/BaseSubFragment$studioBinding$2;-><init>(Lcom/commsource/studio/function/BaseSubFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->g:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->g:Lcotlin/w;
 
     .line 5
     sget-object v0, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
@@ -472,11 +472,11 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/BaseSubFragment$subPipeline$2;-><init>(Lcom/commsource/studio/function/BaseSubFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->V:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->V:Lcotlin/w;
 
     return-void
 .end method
@@ -545,7 +545,7 @@
 
     const-string v2, "subModuleEnum"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
@@ -646,7 +646,7 @@
     throw p0
 .end method
 
-.method public static synthetic J(Lcom/commsource/studio/function/BaseSubFragment;Landroid/view/View;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+.method public static synthetic J(Lcom/commsource/studio/function/BaseSubFragment;Landroid/view/View;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
     .locals 0
 
     if-nez p4, :cond_1
@@ -661,7 +661,7 @@
     move-result-object p1
 
     :cond_0
-    invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->I(Landroid/view/View;Lkotlin/jvm/u/a;)V
+    invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->I(Landroid/view/View;Lcotlin/jvm/u/a;)V
 
     return-void
 
@@ -676,7 +676,7 @@
     throw p0
 .end method
 
-.method public static synthetic L(Lcom/commsource/studio/function/BaseSubFragment;Landroid/view/View;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+.method public static synthetic L(Lcom/commsource/studio/function/BaseSubFragment;Landroid/view/View;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
     .locals 0
 
     if-nez p4, :cond_1
@@ -691,7 +691,7 @@
     move-result-object p1
 
     :cond_0
-    invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->K(Landroid/view/View;Lkotlin/jvm/u/a;)V
+    invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->K(Landroid/view/View;Lcotlin/jvm/u/a;)V
 
     return-void
 
@@ -914,7 +914,7 @@
 
     const-string v2, "studioViewModel"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->j0()Lcom/commsource/studio/bean/PictureLayerInfo;
@@ -988,7 +988,7 @@
     return-void
 .end method
 
-.method public static synthetic d0(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/effect/t;Lcom/commsource/studio/sub/SubModuleEnum;Lkotlin/jvm/u/l;ILjava/lang/Object;)V
+.method public static synthetic d0(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/effect/t;Lcom/commsource/studio/sub/SubModuleEnum;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
     .locals 0
 
     if-nez p5, :cond_1
@@ -1001,7 +1001,7 @@
 
     .line 1
     :cond_0
-    invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/function/BaseSubFragment;->b0(Lcom/commsource/studio/effect/t;Lcom/commsource/studio/sub/SubModuleEnum;Lkotlin/jvm/u/l;)V
+    invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/function/BaseSubFragment;->b0(Lcom/commsource/studio/effect/t;Lcom/commsource/studio/sub/SubModuleEnum;Lcotlin/jvm/u/l;)V
 
     return-void
 
@@ -1019,9 +1019,9 @@
 .method private final v0()Lcom/commsource/studio/function/BaseSubFragment$subPipeline$2$a;
     .locals 1
 
-    iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->V:Lkotlin/w;
+    iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->V:Lcotlin/w;
 
-    invoke-interface {v0}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1087,7 +1087,7 @@
 
     const-string v0, "view"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->U:Ljava/util/ArrayList;
@@ -1115,7 +1115,7 @@
 
     const-string v0, "renderEffectProcessor"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
@@ -1124,7 +1124,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->u0()Lcom/commsource/editengine/f;
@@ -1146,7 +1146,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->y0()Lcom/commsource/studio/y;
@@ -1160,7 +1160,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->l0()Lcom/commsource/studio/o;
@@ -1174,7 +1174,7 @@
 
     if-nez v0, :cond_3
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->u0()Lcom/commsource/editengine/f;
@@ -1246,7 +1246,7 @@
 
     if-nez v0, :cond_6
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->u0()Lcom/commsource/editengine/f;
@@ -1287,7 +1287,7 @@
 
     const-string v0, "subLayer"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1, p0}, Lcom/commsource/studio/layer/d;->a(Landroidx/fragment/app/Fragment;)V
@@ -1299,7 +1299,7 @@
 
     const-string v1, "studioViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->g0()Lcom/commsource/studio/StudioCanvasContainer;
@@ -1335,7 +1335,7 @@
 
     const-string v1, "studioViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->l0()Lcom/commsource/studio/o;
@@ -1352,7 +1352,7 @@
 
     const-string v1, "studioViewModel.detectData.faceDataBox.faceData"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
@@ -1490,7 +1490,7 @@
 
     const-string v2, "studioViewModel"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->K0()Landroidx/lifecycle/MutableLiveData;
@@ -1505,7 +1505,7 @@
 
     sget-object v2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1522,14 +1522,14 @@
 
     if-nez v3, :cond_3
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     new-instance v2, Lcom/commsource/studio/function/BaseSubFragment$onClickConfirm$$inlined$let$lambda$1;
 
     invoke-direct {v2, v0, p0}, Lcom/commsource/studio/function/BaseSubFragment$onClickConfirm$$inlined$let$lambda$1;-><init>(Lcom/commsource/studio/effect/t;Lcom/commsource/studio/function/BaseSubFragment;)V
 
-    invoke-virtual {p0, v1, v3, v2}, Lcom/commsource/studio/function/BaseSubFragment;->b0(Lcom/commsource/studio/effect/t;Lcom/commsource/studio/sub/SubModuleEnum;Lkotlin/jvm/u/l;)V
+    invoke-virtual {p0, v1, v3, v2}, Lcom/commsource/studio/function/BaseSubFragment;->b0(Lcom/commsource/studio/effect/t;Lcom/commsource/studio/sub/SubModuleEnum;Lcotlin/jvm/u/l;)V
 
     goto :goto_0
 
@@ -1541,7 +1541,7 @@
 
     const-string v3, "subProViewModel"
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     .line 10
     :cond_5
@@ -1551,14 +1551,14 @@
 
     const-string v4, "ownerActivity"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 11
     iget-object v4, p0, Lcom/commsource/studio/function/BaseSubFragment;->Q:Lcom/commsource/studio/sub/SubModuleEnum;
 
     if-nez v4, :cond_6
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     .line 12
     :cond_6
@@ -1572,7 +1572,7 @@
     invoke-direct {v5, v0, p0}, Lcom/commsource/studio/function/BaseSubFragment$onClickConfirm$$inlined$let$lambda$2;-><init>(Lcom/commsource/studio/effect/t;Lcom/commsource/studio/function/BaseSubFragment;)V
 
     .line 14
-    invoke-virtual {v1, v3, v4, v2, v5}, Lcom/commsource/studio/component/StudioProViewModel;->G(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Lcom/commsource/studio/effect/t;Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v3, v4, v2, v5}, Lcom/commsource/studio/component/StudioProViewModel;->G(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Lcom/commsource/studio/effect/t;Lcotlin/jvm/u/l;)V
 
     :goto_0
     return-void
@@ -1619,7 +1619,7 @@
 
     if-nez p1, :cond_1
 
-    invoke-static {v0}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v0}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioViewModel;->u0()Lcom/commsource/editengine/f;
@@ -1638,7 +1638,7 @@
 
     if-nez p1, :cond_3
 
-    invoke-static {v0}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v0}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioViewModel;->u0()Lcom/commsource/editengine/f;
@@ -1653,13 +1653,13 @@
     return-void
 .end method
 
-.method public I(Landroid/view/View;Lkotlin/jvm/u/a;)V
+.method public I(Landroid/view/View;Lcotlin/jvm/u/a;)V
     .locals 1
     .param p1    # Landroid/view/View;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/a;
+    .param p2    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1667,15 +1667,15 @@
         value = {
             "(",
             "Landroid/view/View;",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "action"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p1, :cond_0
 
@@ -1696,7 +1696,7 @@
     .line 3
     new-instance v0, Lcom/commsource/studio/function/BaseSubFragment$a;
 
-    invoke-direct {v0, p1, p0, p2}, Lcom/commsource/studio/function/BaseSubFragment$a;-><init>(Landroid/view/View;Lcom/commsource/studio/function/BaseSubFragment;Lkotlin/jvm/u/a;)V
+    invoke-direct {v0, p1, p0, p2}, Lcom/commsource/studio/function/BaseSubFragment$a;-><init>(Landroid/view/View;Lcom/commsource/studio/function/BaseSubFragment;Lcotlin/jvm/u/a;)V
 
     invoke-virtual {p1, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
@@ -1730,17 +1730,17 @@
     if-eqz p1, :cond_4
 
     .line 3
-    iget-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->Y:Lkotlin/jvm/u/l;
+    iget-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->Y:Lcotlin/jvm/u/l;
 
     if-eqz p1, :cond_1
 
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-interface {p1, v0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 4
     :cond_1
@@ -1789,7 +1789,7 @@
 
     const-string v0, "studioBinding.tvTopTips"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1815,7 +1815,7 @@
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2;-><init>(Lcom/commsource/studio/function/BaseSubFragment;)V
 
-    invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->Y0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->Y0(Lcotlin/jvm/u/a;)V
 
     goto :goto_1
 
@@ -1825,19 +1825,19 @@
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3;-><init>(Lcom/commsource/studio/function/BaseSubFragment;)V
 
-    invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->c1(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->c1(Lcotlin/jvm/u/a;)V
 
     :goto_1
     return-void
 .end method
 
-.method public K(Landroid/view/View;Lkotlin/jvm/u/a;)V
+.method public K(Landroid/view/View;Lcotlin/jvm/u/a;)V
     .locals 2
     .param p1    # Landroid/view/View;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/a;
+    .param p2    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1845,15 +1845,15 @@
         value = {
             "(",
             "Landroid/view/View;",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "action"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p1, :cond_0
 
@@ -1880,7 +1880,7 @@
     .line 3
     new-instance v0, Lcom/commsource/studio/function/BaseSubFragment$b;
 
-    invoke-direct {v0, p0, p2}, Lcom/commsource/studio/function/BaseSubFragment$b;-><init>(Lcom/commsource/studio/function/BaseSubFragment;Lkotlin/jvm/u/a;)V
+    invoke-direct {v0, p0, p2}, Lcom/commsource/studio/function/BaseSubFragment$b;-><init>(Lcom/commsource/studio/function/BaseSubFragment;Lcotlin/jvm/u/a;)V
 
     invoke-virtual {p1, v0}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
@@ -1954,7 +1954,7 @@
 
     if-nez v3, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v3}, Lcom/commsource/studio/ImageStudioViewModel;->u0()Lcom/commsource/editengine/f;
@@ -1975,7 +1975,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->j0()Lcom/commsource/studio/bean/PictureLayerInfo;
@@ -1989,7 +1989,7 @@
 
     if-nez v0, :cond_3
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->l0()Lcom/commsource/studio/o;
@@ -2004,7 +2004,7 @@
 
     if-nez v0, :cond_5
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->t0()Lcom/commsource/editengine/d;
@@ -2036,7 +2036,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->C0()Lcom/commsource/studio/bean/a;
@@ -2047,7 +2047,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->j0()Lcom/commsource/studio/bean/PictureLayerInfo;
@@ -2079,14 +2079,14 @@
 
     invoke-direct {v1, v0, p0}, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$1;-><init>(Lcom/commsource/studio/PictureTransitionView;Lcom/commsource/studio/function/BaseSubFragment;)V
 
-    invoke-virtual {v0, v1}, Lcom/commsource/studio/PictureTransitionView;->setStartAction(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v0, v1}, Lcom/commsource/studio/PictureTransitionView;->setStartAction(Lcotlin/jvm/u/a;)V
 
     .line 5
     new-instance v1, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2;
 
     invoke-direct {v1, v0, p0}, Lcom/commsource/studio/function/BaseSubFragment$animatePictureEnterTranslate$$inlined$let$lambda$2;-><init>(Lcom/commsource/studio/PictureTransitionView;Lcom/commsource/studio/function/BaseSubFragment;)V
 
-    invoke-virtual {v0, v1}, Lcom/commsource/studio/PictureTransitionView;->setEndAction(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v0, v1}, Lcom/commsource/studio/PictureTransitionView;->setEndAction(Lcotlin/jvm/u/a;)V
 
     .line 6
     invoke-virtual {v0}, Lcom/commsource/studio/PictureTransitionView;->e()V
@@ -2121,7 +2121,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->C0()Lcom/commsource/studio/bean/a;
@@ -2132,7 +2132,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->j0()Lcom/commsource/studio/bean/PictureLayerInfo;
@@ -2164,14 +2164,14 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/BaseSubFragment$animatePictureExitTranslate$$inlined$let$lambda$1;-><init>(Lcom/commsource/studio/function/BaseSubFragment;)V
 
-    invoke-virtual {v0, v1}, Lcom/commsource/studio/PictureTransitionView;->setStartAction(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v0, v1}, Lcom/commsource/studio/PictureTransitionView;->setStartAction(Lcotlin/jvm/u/a;)V
 
     .line 5
     new-instance v1, Lcom/commsource/studio/function/BaseSubFragment$animatePictureExitTranslate$$inlined$let$lambda$2;
 
     invoke-direct {v1, v0, p0}, Lcom/commsource/studio/function/BaseSubFragment$animatePictureExitTranslate$$inlined$let$lambda$2;-><init>(Lcom/commsource/studio/PictureTransitionView;Lcom/commsource/studio/function/BaseSubFragment;)V
 
-    invoke-virtual {v0, v1}, Lcom/commsource/studio/PictureTransitionView;->setEndAction(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v0, v1}, Lcom/commsource/studio/PictureTransitionView;->setEndAction(Lcotlin/jvm/u/a;)V
 
     .line 6
     invoke-virtual {v0}, Lcom/commsource/studio/PictureTransitionView;->e()V
@@ -2286,7 +2286,7 @@
 
     if-nez v3, :cond_2
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v3}, Lcom/commsource/studio/ImageStudioViewModel;->y0()Lcom/commsource/studio/y;
@@ -2302,7 +2302,7 @@
 
     if-nez v5, :cond_3
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v5}, Lcom/commsource/studio/ImageStudioViewModel;->y0()Lcom/commsource/studio/y;
@@ -2381,7 +2381,7 @@
     const/4 v8, 0x0
 
     .line 3
-    invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     goto :goto_0
 
@@ -2406,11 +2406,11 @@
 
     const-string v0, "studioBinding"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "studioViewModel"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->p0()Z
@@ -2540,7 +2540,7 @@
     if-nez v2, :cond_6
 
     .line 8
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     move-object p1, v2
@@ -2565,7 +2565,7 @@
 
     if-nez p3, :cond_9
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_9
     invoke-virtual {p3}, Lcom/commsource/studio/bean/FocusLayerInfo;->getPictureRealMatrix()Lcom/commsource/studio/MatrixBox;
@@ -2699,7 +2699,7 @@
 
     const-string v1, "studioViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->j0()Lcom/commsource/studio/bean/PictureLayerInfo;
@@ -2708,7 +2708,7 @@
 
     if-nez v0, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     invoke-virtual {v0}, Lcom/commsource/studio/bean/FocusLayerInfo;->getPictureRealMatrix()Lcom/commsource/studio/MatrixBox;
@@ -2783,14 +2783,14 @@
 
     const-string v1, "studioViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     new-instance v1, Lcom/commsource/studio/function/BaseSubFragment$cancelEffect$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/BaseSubFragment$cancelEffect$1;-><init>(Lcom/commsource/studio/function/BaseSubFragment;)V
 
-    invoke-virtual {v0, v1}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v0, v1}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lcotlin/jvm/u/a;)V
 
     return-void
 .end method
@@ -2808,7 +2808,7 @@
 
     const-string v0, "imageResult"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->T:Lcom/commsource/studio/function/q;
@@ -3009,7 +3009,7 @@
 
     if-nez p3, :cond_6
 
-    invoke-static {v0}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v0}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     invoke-virtual {p3, p2, p1}, Lcom/commsource/studio/ImageStudioViewModel;->y1(Landroid/graphics/Bitmap;Lcom/commsource/studio/effect/k;)V
@@ -3033,7 +3033,7 @@
 
     if-nez p3, :cond_9
 
-    invoke-static {v0}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v0}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_9
     invoke-virtual {p3}, Lcom/commsource/studio/ImageStudioViewModel;->Y0()Landroidx/lifecycle/MutableLiveData;
@@ -3138,7 +3138,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->y0()Lcom/commsource/studio/y;
@@ -3154,7 +3154,7 @@
 
     if-nez v4, :cond_3
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v4}, Lcom/commsource/studio/ImageStudioViewModel;->y0()Lcom/commsource/studio/y;
@@ -3213,7 +3213,7 @@
 
     const-string v1, "studioViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->g0()Lcom/commsource/studio/StudioCanvasContainer;
@@ -3240,7 +3240,7 @@
 
     const/4 v2, 0x0
 
-    invoke-static {p0, v2, v0, v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->J(Lcom/commsource/studio/function/BaseSubFragment;Landroid/view/View;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p0, v2, v0, v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->J(Lcom/commsource/studio/function/BaseSubFragment;Landroid/view/View;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     return-void
 .end method
@@ -3257,7 +3257,7 @@
 
     const-string v1, "studioBinding.fakeBackground"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -3275,7 +3275,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->j0()Lcom/commsource/studio/bean/PictureLayerInfo;
@@ -3287,7 +3287,7 @@
 
     if-nez v3, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v3}, Lcom/commsource/studio/ImageStudioViewModel;->C0()Lcom/commsource/studio/bean/a;
@@ -3298,7 +3298,7 @@
 
     if-nez v4, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v4}, Lcom/commsource/studio/ImageStudioViewModel;->j0()Lcom/commsource/studio/bean/PictureLayerInfo;
@@ -3378,7 +3378,7 @@
 
     const/4 v3, 0x1
 
-    invoke-static {p0, v2, v1, v3, v2}, Lcom/commsource/studio/function/BaseSubFragment;->L(Lcom/commsource/studio/function/BaseSubFragment;Landroid/view/View;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p0, v2, v1, v3, v2}, Lcom/commsource/studio/function/BaseSubFragment;->L(Lcom/commsource/studio/function/BaseSubFragment;Landroid/view/View;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 10
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
@@ -3387,7 +3387,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->S0()Landroidx/lifecycle/MutableLiveData;
@@ -3430,7 +3430,7 @@
 
     if-nez p1, :cond_4
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioViewModel;->e1()I
@@ -3465,7 +3465,7 @@
 
     const/4 v11, 0x0
 
-    invoke-static/range {v5 .. v11}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v5 .. v11}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 14
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->h0()Z
@@ -3497,24 +3497,24 @@
     return-void
 .end method
 
-.method public final Y0(Lkotlin/jvm/u/a;)V
+.method public final Y0(Lcotlin/jvm/u/a;)V
     .locals 2
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "action"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
@@ -3523,17 +3523,17 @@
 
     const-string v1, "studioViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
-    invoke-virtual {v0, p1}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v0, p1}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lcotlin/jvm/u/a;)V
 
     return-void
 .end method
 
-.method public final Z0(Lkotlin/jvm/u/a;)V
+.method public final Z0(Lcotlin/jvm/u/a;)V
     .locals 4
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3543,15 +3543,15 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "action"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
@@ -3560,14 +3560,14 @@
 
     const-string v1, "studioViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     const/4 v1, 0x1
 
     const-wide/16 v2, 0x12c
 
-    invoke-virtual {v0, v1, v2, v3, p1}, Lcom/commsource/studio/ImageStudioViewModel;->E1(ZJLkotlin/jvm/u/a;)V
+    invoke-virtual {v0, v1, v2, v3, p1}, Lcom/commsource/studio/ImageStudioViewModel;->E1(ZJLcotlin/jvm/u/a;)V
 
     return-void
 .end method
@@ -3583,7 +3583,7 @@
     return-object v0
 .end method
 
-.method public b0(Lcom/commsource/studio/effect/t;Lcom/commsource/studio/sub/SubModuleEnum;Lkotlin/jvm/u/l;)V
+.method public b0(Lcom/commsource/studio/effect/t;Lcom/commsource/studio/sub/SubModuleEnum;Lcotlin/jvm/u/l;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/effect/t;
         .annotation build Ln/e/a/d;
@@ -3593,7 +3593,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/jvm/u/l;
+    .param p3    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
@@ -3602,35 +3602,35 @@
             "(",
             "Lcom/commsource/studio/effect/t;",
             "Lcom/commsource/studio/sub/SubModuleEnum;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/studio/effect/t;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "imageResult"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "subModuleEnum"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance p2, Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1;
 
-    invoke-direct {p2, p0, p1, p3}, Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1;-><init>(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/effect/t;Lkotlin/jvm/u/l;)V
+    invoke-direct {p2, p0, p1, p3}, Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1;-><init>(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/effect/t;Lcotlin/jvm/u/l;)V
 
-    invoke-virtual {p0, p2}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p0, p2}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lcotlin/jvm/u/a;)V
 
     return-void
 .end method
 
-.method public final c1(Lkotlin/jvm/u/a;)V
+.method public final c1(Lcotlin/jvm/u/a;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3640,15 +3640,15 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "action"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->P:Z
@@ -3656,7 +3656,7 @@
     if-eqz v0, :cond_0
 
     .line 2
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     goto :goto_0
 
@@ -3727,13 +3727,13 @@
     return-void
 .end method
 
-.method public final g0()Lkotlin/jvm/u/a;
+.method public final g0()Lcotlin/jvm/u/a;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -3742,7 +3742,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->W:Lkotlin/jvm/u/a;
+    iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->W:Lcotlin/jvm/u/a;
 
     return-object v0
 .end method
@@ -3756,7 +3756,7 @@
 
     const-string v0, "routerEntity"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -3788,8 +3788,8 @@
         value = {
             "()",
             "Ljava/util/LinkedList<",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;>;"
         }
     .end annotation
@@ -3803,35 +3803,35 @@
     return-object v0
 .end method
 
-.method public final i1(Lkotlin/jvm/u/a;)V
+.method public final i1(Lcotlin/jvm/u/a;)V
     .locals 0
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->W:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->W:Lcotlin/jvm/u/a;
 
     return-void
 .end method
 
-.method public final j0()Lkotlin/jvm/u/l;
+.method public final j0()Lcotlin/jvm/u/l;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -3840,7 +3840,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->Y:Lkotlin/jvm/u/l;
+    iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->Y:Lcotlin/jvm/u/l;
 
     return-object v0
 .end method
@@ -3882,15 +3882,15 @@
         value = {
             "(",
             "Ljava/util/LinkedList<",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;>;)V"
         }
     .end annotation
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->S:Ljava/util/LinkedList;
@@ -3909,25 +3909,25 @@
     return-object v0
 .end method
 
-.method public final m1(Lkotlin/jvm/u/l;)V
+.method public final m1(Lcotlin/jvm/u/l;)V
     .locals 0
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->Y:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->Y:Lcotlin/jvm/u/l;
 
     return-void
 .end method
@@ -4019,7 +4019,7 @@
 
     const-string v0, "ViewModelProvider(mActiv\u2026dioViewModel::class.java)"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -4030,7 +4030,7 @@
     if-nez p1, :cond_0
 
     .line 3
-    invoke-static {v0}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v0}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/studio/f;->y()Z
@@ -4067,7 +4067,7 @@
     const-string v2, "ViewModelProvider(this)[\u2026nt.effectResult\n        }"
 
     .line 6
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment;->K:Lcom/commsource/studio/component/StudioProViewModel;
 
@@ -4110,7 +4110,7 @@
 
     if-nez p1, :cond_2
 
-    invoke-static {v0}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v0}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioViewModel;->y0()Lcom/commsource/studio/y;
@@ -4168,7 +4168,7 @@
     const/4 v7, 0x0
 
     .line 15
-    invoke-static/range {v1 .. v7}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v1 .. v7}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 16
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
@@ -4203,7 +4203,7 @@
 
     if-nez p1, :cond_5
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     invoke-virtual {p1}, Lcom/commsource/studio/component/StudioProViewModel;->A()Landroidx/lifecycle/MutableLiveData;
@@ -4214,7 +4214,7 @@
 
     if-nez v2, :cond_6
 
-    invoke-static {v0}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v0}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->K0()Landroidx/lifecycle/MutableLiveData;
@@ -4236,7 +4236,7 @@
 
     if-nez v0, :cond_7
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_7
     invoke-virtual {p1, v0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
@@ -4245,11 +4245,11 @@
 
     .line 20
     :cond_8
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v0, "null cannot be cast to non-null type com.commsource.beautyplus.BaseActivity"
 
-    invoke-direct {p1, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -4277,7 +4277,7 @@
 
     const-string v0, "view"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
@@ -4311,9 +4311,9 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->g:Lkotlin/w;
+    iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->g:Lcotlin/w;
 
-    invoke-interface {v0}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -4343,7 +4343,7 @@
 
     const-string v1, "studioViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     return-object v0
@@ -4378,7 +4378,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
@@ -4398,7 +4398,7 @@
 
     const-string v1, "subModuleEnum"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     return-object v0
@@ -4450,7 +4450,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->Q:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -4538,7 +4538,7 @@
 
     const-string v1, "subProViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     return-object v0
@@ -4553,7 +4553,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment;->K:Lcom/commsource/studio/component/StudioProViewModel;
@@ -4582,7 +4582,7 @@
 
     const-string v0, "clazz"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Landroidx/lifecycle/ViewModelProvider;
@@ -4595,7 +4595,7 @@
 
     const-string v0, "ViewModelProvider(this).get(clazz)"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Landroidx/lifecycle/AndroidViewModel;
 
@@ -4621,7 +4621,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioViewModel;->V()V
@@ -4631,7 +4631,7 @@
 
     if-nez p1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioViewModel;->Z0()Landroidx/lifecycle/MutableLiveData;
@@ -4664,7 +4664,7 @@
 
     if-nez v0, :cond_4
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->L0()Landroidx/lifecycle/MutableLiveData;
@@ -4685,7 +4685,7 @@
 
     aput-object v5, v4, v1
 
-    invoke-static {v4}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v4}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v4
 
@@ -4697,7 +4697,7 @@
 
     if-nez v0, :cond_6
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->a1()Landroidx/lifecycle/MutableLiveData;
@@ -4731,14 +4731,14 @@
 
     if-nez v0, :cond_8
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_8
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->U0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
 
-    new-instance v4, Lkotlin/Pair;
+    new-instance v4, Lcotlin/Pair;
 
     const/4 v5, 0x3
 
@@ -4755,7 +4755,7 @@
 
     move-result-object p2
 
-    invoke-direct {v4, v1, p2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v4, v1, p2}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {v0, v4}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
@@ -4772,7 +4772,7 @@
 
     if-nez p2, :cond_b
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_b
     invoke-virtual {p2}, Lcom/commsource/studio/ImageStudioViewModel;->Z0()Landroidx/lifecycle/MutableLiveData;
@@ -4793,7 +4793,7 @@
 
     if-nez p2, :cond_d
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_d
     invoke-virtual {p2}, Lcom/commsource/studio/ImageStudioViewModel;->Z0()Landroidx/lifecycle/MutableLiveData;
@@ -4820,7 +4820,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/component/StudioProViewModel;->A()Landroidx/lifecycle/MutableLiveData;
@@ -4835,7 +4835,7 @@
 
     sget-object v2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -4852,14 +4852,14 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     new-instance v2, Lcom/commsource/studio/function/BaseSubFragment$go2Pro$1;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/BaseSubFragment$go2Pro$1;-><init>(Lcom/commsource/studio/function/BaseSubFragment;)V
 
-    invoke-virtual {p0, v0, v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->b0(Lcom/commsource/studio/effect/t;Lcom/commsource/studio/sub/SubModuleEnum;Lkotlin/jvm/u/l;)V
+    invoke-virtual {p0, v0, v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->b0(Lcom/commsource/studio/effect/t;Lcom/commsource/studio/sub/SubModuleEnum;Lcotlin/jvm/u/l;)V
 
     goto :goto_0
 
@@ -4876,18 +4876,18 @@
 
     if-nez v3, :cond_3
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     const-string v0, "fragmentActivity"
 
-    invoke-static {v4, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v5, p0, Lcom/commsource/studio/function/BaseSubFragment;->Q:Lcom/commsource/studio/sub/SubModuleEnum;
 
     if-nez v5, :cond_4
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     const/4 v6, 0x0
@@ -4900,7 +4900,7 @@
 
     const/4 v9, 0x0
 
-    invoke-static/range {v3 .. v9}, Lcom/commsource/studio/component/StudioProViewModel;->K(Lcom/commsource/studio/component/StudioProViewModel;Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/String;Lkotlin/jvm/u/l;ILjava/lang/Object;)V
+    invoke-static/range {v3 .. v9}, Lcom/commsource/studio/component/StudioProViewModel;->K(Lcom/commsource/studio/component/StudioProViewModel;Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
 
     :cond_5
     :goto_0
@@ -4917,7 +4917,7 @@
 
     const-string v1, "studioViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     const/4 v1, 0x1
@@ -4928,7 +4928,7 @@
 
     invoke-direct {v4, p0}, Lcom/commsource/studio/function/BaseSubFragment$initGL$1;-><init>(Lcom/commsource/studio/function/BaseSubFragment;)V
 
-    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/commsource/studio/ImageStudioViewModel;->E1(ZJLkotlin/jvm/u/a;)V
+    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/commsource/studio/ImageStudioViewModel;->E1(ZJLcotlin/jvm/u/a;)V
 
     return-void
 .end method

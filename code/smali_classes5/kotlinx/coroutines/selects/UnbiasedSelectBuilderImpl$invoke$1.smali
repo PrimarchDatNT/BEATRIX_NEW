@@ -1,14 +1,14 @@
-.class final Lkotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$1;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$1;
+.super Lcotlin/jvm/internal/Lambda;
 .source "SelectUnbiased.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->b(Lkotlinx/coroutines/selects/c;Lkotlin/jvm/u/l;)V
+    value = Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->b(Lcotlinx/coroutines/selects/c;Lcotlin/jvm/u/l;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,14 +18,14 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
-        "Lkotlin/t1;",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,7 +36,7 @@
     }
     d2 = {
         "R",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "()V",
         "<anonymous>"
@@ -51,26 +51,26 @@
 
 
 # instance fields
-.field final synthetic $block:Lkotlin/jvm/u/l;
+.field final synthetic $block:Lcotlin/jvm/u/l;
 
-.field final synthetic $this_invoke:Lkotlinx/coroutines/selects/c;
+.field final synthetic $this_invoke:Lcotlinx/coroutines/selects/c;
 
-.field final synthetic this$0:Lkotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;
+.field final synthetic this$0:Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;
 
 
 # direct methods
-.method constructor <init>(Lkotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;Lkotlinx/coroutines/selects/c;Lkotlin/jvm/u/l;)V
+.method constructor <init>(Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;Lcotlinx/coroutines/selects/c;Lcotlin/jvm/u/l;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$1;->this$0:Lkotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;
+    iput-object p1, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$1;->this$0:Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;
 
-    iput-object p2, p0, Lkotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$1;->$this_invoke:Lkotlinx/coroutines/selects/c;
+    iput-object p2, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$1;->$this_invoke:Lcotlinx/coroutines/selects/c;
 
-    iput-object p3, p0, Lkotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$1;->$block:Lkotlin/jvm/u/l;
+    iput-object p3, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$1;->$block:Lcotlin/jvm/u/l;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -81,9 +81,9 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$1;->invoke()V
+    invoke-virtual {p0}, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$1;->invoke()V
 
-    sget-object v0, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object v0
 .end method
@@ -92,17 +92,17 @@
     .locals 3
 
     .line 2
-    iget-object v0, p0, Lkotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$1;->$this_invoke:Lkotlinx/coroutines/selects/c;
+    iget-object v0, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$1;->$this_invoke:Lcotlinx/coroutines/selects/c;
 
-    iget-object v1, p0, Lkotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$1;->this$0:Lkotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;
+    iget-object v1, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$1;->this$0:Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;
 
-    invoke-virtual {v1}, Lkotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->c()Lkotlinx/coroutines/selects/b;
+    invoke-virtual {v1}, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->c()Lcotlinx/coroutines/selects/b;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$1;->$block:Lkotlin/jvm/u/l;
+    iget-object v2, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$1;->$block:Lcotlin/jvm/u/l;
 
-    invoke-interface {v0, v1, v2}, Lkotlinx/coroutines/selects/c;->q(Lkotlinx/coroutines/selects/f;Lkotlin/jvm/u/l;)V
+    invoke-interface {v0, v1, v2}, Lcotlinx/coroutines/selects/c;->q(Lcotlinx/coroutines/selects/f;Lcotlin/jvm/u/l;)V
 
     return-void
 .end method

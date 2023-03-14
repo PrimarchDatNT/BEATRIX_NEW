@@ -20,7 +20,7 @@
     value = "SMAP\nLayerAdjustComponent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LayerAdjustComponent.kt\ncom/commsource/studio/gesture/LayerAdjustComponent$fixRvInValidArea$1$1\n*L\n1#1,447:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0010\u0004\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002\u00a8\u0006\u0003"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "com/commsource/studio/gesture/LayerAdjustComponent$fixRvInValidArea$1$1",
@@ -48,9 +48,9 @@
 # instance fields
 .field final synthetic a:Landroidx/recyclerview/widget/RecyclerView;
 
-.field final synthetic b:Lkotlin/jvm/internal/Ref$FloatRef;
+.field final synthetic b:Lcotlin/jvm/internal/Ref$FloatRef;
 
-.field final synthetic c:Lkotlin/jvm/internal/Ref$FloatRef;
+.field final synthetic c:Lcotlin/jvm/internal/Ref$FloatRef;
 
 .field final synthetic d:Lcom/commsource/studio/gesture/LayerAdjustComponent;
 
@@ -60,14 +60,14 @@
 
 
 # direct methods
-.method constructor <init>(Landroidx/recyclerview/widget/RecyclerView;Lkotlin/jvm/internal/Ref$FloatRef;Lkotlin/jvm/internal/Ref$FloatRef;Lcom/commsource/studio/gesture/LayerAdjustComponent;[FLcom/commsource/studio/bean/FocusLayerInfo;)V
+.method constructor <init>(Landroidx/recyclerview/widget/RecyclerView;Lcotlin/jvm/internal/Ref$FloatRef;Lcotlin/jvm/internal/Ref$FloatRef;Lcom/commsource/studio/gesture/LayerAdjustComponent;[FLcom/commsource/studio/bean/FocusLayerInfo;)V
     .locals 0
 
     iput-object p1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->a:Landroidx/recyclerview/widget/RecyclerView;
 
-    iput-object p2, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->b:Lkotlin/jvm/internal/Ref$FloatRef;
+    iput-object p2, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->b:Lcotlin/jvm/internal/Ref$FloatRef;
 
-    iput-object p3, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->c:Lkotlin/jvm/internal/Ref$FloatRef;
+    iput-object p3, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->c:Lcotlin/jvm/internal/Ref$FloatRef;
 
     iput-object p4, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->d:Lcom/commsource/studio/gesture/LayerAdjustComponent;
 
@@ -92,18 +92,18 @@
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->a:Landroidx/recyclerview/widget/RecyclerView;
 
-    iget-object v2, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->b:Lkotlin/jvm/internal/Ref$FloatRef;
+    iget-object v2, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->b:Lcotlin/jvm/internal/Ref$FloatRef;
 
-    iget v2, v2, Lkotlin/jvm/internal/Ref$FloatRef;->element:F
+    iget v2, v2, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setPivotX(F)V
 
     .line 2
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->a:Landroidx/recyclerview/widget/RecyclerView;
 
-    iget-object v2, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->c:Lkotlin/jvm/internal/Ref$FloatRef;
+    iget-object v2, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;->c:Lcotlin/jvm/internal/Ref$FloatRef;
 
-    iget v2, v2, Lkotlin/jvm/internal/Ref$FloatRef;->element:F
+    iget v2, v2, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setPivotY(F)V
 
@@ -150,7 +150,7 @@
     const-string v2, "animate"
 
     .line 11
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v2, 0x15e
 

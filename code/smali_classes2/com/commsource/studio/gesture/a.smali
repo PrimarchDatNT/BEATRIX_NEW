@@ -12,7 +12,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,13 +29,13 @@
         "v",
         "()I",
         "y",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "G",
         "()V",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "action",
         "C",
-        "(Lkotlin/jvm/u/a;)V",
+        "(Lcotlin/jvm/u/a;)V",
         "distance",
         "A",
         "(I)V",
@@ -111,11 +111,11 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "parent"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -123,7 +123,7 @@
     return-void
 .end method
 
-.method public static synthetic D(Lcom/commsource/studio/gesture/a;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+.method public static synthetic D(Lcom/commsource/studio/gesture/a;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
     .locals 1
 
     const/16 v0, 0x31e1
@@ -140,7 +140,7 @@
 
     .line 1
     :cond_0
-    invoke-virtual {p0, p1}, Lcom/commsource/studio/gesture/a;->C(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p0, p1}, Lcom/commsource/studio/gesture/a;->C(Lcotlin/jvm/u/a;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -187,17 +187,17 @@
     return-void
 .end method
 
-.method public C(Lkotlin/jvm/u/a;)V
+.method public C(Lcotlin/jvm/u/a;)V
     .locals 0
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -266,7 +266,7 @@
 
     const-string v2, "itemView"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, p1}, Landroid/view/View;->setAlpha(F)V
 
@@ -338,7 +338,7 @@
 
     const-string v1, "item"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V

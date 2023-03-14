@@ -20,7 +20,7 @@
     value = "SMAP\nLookSuspendFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LookSuspendFragment.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$onViewCreated$6\n*L\n1#1,407:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "position",
         "",
         "fromUser",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(IZ)V"
     }
@@ -207,7 +207,7 @@
 
     const-string v0, "beautyViewModel"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/d;->X()Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;
 

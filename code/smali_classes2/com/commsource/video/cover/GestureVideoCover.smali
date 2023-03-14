@@ -16,7 +16,7 @@
     value = "SMAP\nGestureVideoCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GestureVideoCover.kt\ncom/commsource/video/cover/GestureVideoCover\n*L\n1#1,77:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Lcom/commsource/video/cover/GestureVideoCover;",
         "Lcom/commsource/video/cover/a;",
         "Lcom/commsource/beautyplus/f0/sm;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "x",
         "()V",
         "t",
@@ -53,7 +53,7 @@
         "isVideoControll",
         "Lcom/commsource/beautymain/widget/gesturewidget/e;",
         "g",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "v",
         "()Lcom/commsource/beautymain/widget/gesturewidget/e;",
         "gestureDetector",
@@ -77,7 +77,7 @@
     .end annotation
 .end field
 
-.field private final g:Lkotlin/w;
+.field private final g:Lcotlin/w;
 
 
 # direct methods
@@ -101,11 +101,11 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2;-><init>(Lcom/commsource/video/cover/GestureVideoCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/video/cover/GestureVideoCover;->g:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/video/cover/GestureVideoCover;->g:Lcotlin/w;
 
     return-void
 .end method
@@ -134,9 +134,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/video/cover/GestureVideoCover;->g:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/video/cover/GestureVideoCover;->g:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 

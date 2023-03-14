@@ -1,10 +1,10 @@
-.class Lkotlin/collections/a0;
-.super Lkotlin/collections/z;
+.class Lcotlin/collections/a0;
+.super Lcotlin/collections/z;
 .source "_CollectionsJvm.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
         "(Ljava/lang/Iterable;Ljava/util/Collection;Ljava/lang/Class;)Ljava/util/Collection;",
         "T",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e1",
         "(Ljava/util/List;)V",
         "",
@@ -36,18 +36,18 @@
         "h1",
         "(Ljava/lang/Iterable;)Ljava/util/SortedSet;",
         "Ljava/util/Comparator;",
-        "Lkotlin/Comparator;",
+        "Lcotlin/Comparator;",
         "comparator",
         "i1",
         "(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/SortedSet;",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "Ljava/math/BigDecimal;",
         "selector",
         "f1",
-        "(Ljava/lang/Iterable;Lkotlin/jvm/u/l;)Ljava/math/BigDecimal;",
+        "(Ljava/lang/Iterable;Lcotlin/jvm/u/l;)Ljava/math/BigDecimal;",
         "Ljava/math/BigInteger;",
         "g1",
-        "(Ljava/lang/Iterable;Lkotlin/jvm/u/l;)Ljava/math/BigInteger;",
+        "(Ljava/lang/Iterable;Lcotlin/jvm/u/l;)Ljava/math/BigInteger;",
         "kotlin-stdlib"
     }
     k = 0x5
@@ -64,7 +64,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/collections/z;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/z;-><init>()V
 
     return-void
 .end method
@@ -98,18 +98,18 @@
 
     const-string v0, "$this$filterIsInstance"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "klass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    invoke-static {p0, v0, p1}, Lkotlin/collections/a0;->d1(Ljava/lang/Iterable;Ljava/util/Collection;Ljava/lang/Class;)Ljava/util/Collection;
+    invoke-static {p0, v0, p1}, Lcotlin/collections/a0;->d1(Ljava/lang/Iterable;Ljava/util/Collection;Ljava/lang/Class;)Ljava/util/Collection;
 
     move-result-object p0
 
@@ -151,15 +151,15 @@
 
     const-string v0, "$this$filterIsInstanceTo"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "destination"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "klass"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -210,7 +210,7 @@
 
     const-string v0, "$this$reverse"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0}, Ljava/util/Collections;->reverse(Ljava/util/List;)V
@@ -218,7 +218,7 @@
     return-void
 .end method
 
-.method private static final f1(Ljava/lang/Iterable;Lkotlin/jvm/u/l;)Ljava/math/BigDecimal;
+.method private static final f1(Ljava/lang/Iterable;Lcotlin/jvm/u/l;)Ljava/math/BigDecimal;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -227,7 +227,7 @@
             ">(",
             "Ljava/lang/Iterable<",
             "+TT;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+",
             "Ljava/math/BigDecimal;",
             ">;)",
@@ -235,17 +235,17 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/j0;
+    .annotation build Lcotlin/j0;
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "sumOfBigDecimal"
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -260,7 +260,7 @@
 
     const-string v1, "BigDecimal.valueOf(this.toLong())"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -279,7 +279,7 @@
     move-result-object v1
 
     .line 3
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -291,7 +291,7 @@
 
     const-string v1, "this.add(other)"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -299,7 +299,7 @@
     return-object v0
 .end method
 
-.method private static final g1(Ljava/lang/Iterable;Lkotlin/jvm/u/l;)Ljava/math/BigInteger;
+.method private static final g1(Ljava/lang/Iterable;Lcotlin/jvm/u/l;)Ljava/math/BigInteger;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -308,7 +308,7 @@
             ">(",
             "Ljava/lang/Iterable<",
             "+TT;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+",
             "Ljava/math/BigInteger;",
             ">;)",
@@ -316,17 +316,17 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/j0;
+    .annotation build Lcotlin/j0;
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "sumOfBigInteger"
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -341,7 +341,7 @@
 
     const-string v1, "BigInteger.valueOf(this.toLong())"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -360,7 +360,7 @@
     move-result-object v1
 
     .line 3
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -372,7 +372,7 @@
 
     const-string v1, "this.add(other)"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -403,14 +403,14 @@
 
     const-string v0, "$this$toSortedSet"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/TreeSet;
 
     invoke-direct {v0}, Ljava/util/TreeSet;-><init>()V
 
-    invoke-static {p0, v0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->D5(Ljava/lang/Iterable;Ljava/util/Collection;)Ljava/util/Collection;
+    invoke-static {p0, v0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->D5(Ljava/lang/Iterable;Ljava/util/Collection;)Ljava/util/Collection;
 
     move-result-object p0
 
@@ -448,18 +448,18 @@
 
     const-string v0, "$this$toSortedSet"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "comparator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/TreeSet;
 
     invoke-direct {v0, p1}, Ljava/util/TreeSet;-><init>(Ljava/util/Comparator;)V
 
-    invoke-static {p0, v0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->D5(Ljava/lang/Iterable;Ljava/util/Collection;)Ljava/util/Collection;
+    invoke-static {p0, v0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->D5(Ljava/lang/Iterable;Ljava/util/Collection;)Ljava/util/Collection;
 
     move-result-object p0
 

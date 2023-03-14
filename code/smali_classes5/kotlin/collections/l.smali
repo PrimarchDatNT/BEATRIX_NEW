@@ -1,10 +1,10 @@
-.class Lkotlin/collections/l;
+.class Lcotlin/collections/l;
 .super Ljava/lang/Object;
 .source "ArraysJVM.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "a",
         "([Ljava/lang/Object;I)[Ljava/lang/Object;",
         "toIndex",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "(II)V",
         "b",
@@ -78,7 +78,7 @@
 
     const-string v0, "reference"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -116,14 +116,14 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "contentDeepHashCode"
     .end annotation
 
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -137,7 +137,7 @@
 
 .method public static final c(II)V
     .locals 3
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -198,7 +198,7 @@
     const-string v0, "T?"
 
     .line 1
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
 
     new-array p0, p0, [Ljava/lang/Object;
 
@@ -208,7 +208,7 @@
 
 .method private static final e([BLjava/nio/charset/Charset;)Ljava/lang/String;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -233,14 +233,14 @@
 
     const-string v0, "$this$toTypedArray"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
     const-string v1, "T?"
 
     .line 1
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
 
     new-array v0, v0, [Ljava/lang/Object;
 

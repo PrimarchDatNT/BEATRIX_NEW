@@ -1,14 +1,14 @@
-.class public final Lkotlinx/coroutines/c2$b;
+.class public final Lcotlinx/coroutines/c2$b;
 .super Ljava/lang/Object;
 .source "Job.kt"
 
 # interfaces
-.implements Lkotlin/coroutines/CoroutineContext$b;
+.implements Lcotlin/coroutines/CoroutineContext$b;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/c2;
+    value = Lcotlinx/coroutines/c2;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,13 +19,13 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/coroutines/CoroutineContext$b<",
-        "Lkotlinx/coroutines/c2;",
+        "Lcotlin/coroutines/CoroutineContext$b<",
+        "Lcotlinx/coroutines/c2;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,8 +36,8 @@
     }
     d2 = {
         "kotlinx/coroutines/c2$b",
-        "Lkotlin/coroutines/CoroutineContext$b;",
-        "Lkotlinx/coroutines/c2;",
+        "Lcotlin/coroutines/CoroutineContext$b;",
+        "Lcotlinx/coroutines/c2;",
         "<init>",
         "()V",
         "kotlinx-coroutines-core"
@@ -52,7 +52,7 @@
 
 
 # static fields
-.field static final synthetic a:Lkotlinx/coroutines/c2$b;
+.field static final synthetic a:Lcotlinx/coroutines/c2$b;
 
 
 # direct methods
@@ -60,14 +60,14 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/c2$b;
+    new-instance v0, Lcotlinx/coroutines/c2$b;
 
-    invoke-direct {v0}, Lkotlinx/coroutines/c2$b;-><init>()V
+    invoke-direct {v0}, Lcotlinx/coroutines/c2$b;-><init>()V
 
-    sput-object v0, Lkotlinx/coroutines/c2$b;->a:Lkotlinx/coroutines/c2$b;
+    sput-object v0, Lcotlinx/coroutines/c2$b;->a:Lcotlinx/coroutines/c2$b;
 
     .line 2
-    sget-object v0, Lkotlinx/coroutines/CoroutineExceptionHandler;->t:Lkotlinx/coroutines/CoroutineExceptionHandler$b;
+    sget-object v0, Lcotlinx/coroutines/CoroutineExceptionHandler;->t:Lcotlinx/coroutines/CoroutineExceptionHandler$b;
 
     return-void
 .end method

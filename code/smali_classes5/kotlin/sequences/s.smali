@@ -1,10 +1,10 @@
-.class public final Lkotlin/sequences/s;
+.class public final Lcotlin/sequences/s;
 .super Ljava/lang/Object;
 .source "Sequences.kt"
 
 # interfaces
-.implements Lkotlin/sequences/m;
-.implements Lkotlin/sequences/e;
+.implements Lcotlin/sequences/m;
+.implements Lcotlin/sequences/e;
 
 
 # annotations
@@ -14,9 +14,9 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lkotlin/sequences/m<",
+        "Lcotlin/sequences/m<",
         "TT;>;",
-        "Lkotlin/sequences/e<",
+        "Lcotlin/sequences/e<",
         "TT;>;"
     }
 .end annotation
@@ -25,7 +25,7 @@
     value = "SMAP\nSequences.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Sequences.kt\nkotlin/sequences/SubSequence\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,680:1\n1#2:681\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,21 +35,21 @@
         "\u0000\u001e\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0004\n\u0002\u0010(\n\u0002\u0008\u000e\u0008\u0000\u0018\u0000*\u0004\u0008\u0000\u0010\u00012\u0008\u0012\u0004\u0012\u00028\u00000\u00022\u0008\u0012\u0004\u0012\u00028\u00000\u0003B%\u0012\u000c\u0010\u000f\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0002\u0012\u0006\u0010\r\u001a\u00020\u0004\u0012\u0006\u0010\u0011\u001a\u00020\u0004\u00a2\u0006\u0004\u0008\u0015\u0010\u0016J\u001d\u0010\u0006\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u00022\u0006\u0010\u0005\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u001d\u0010\u0008\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u00022\u0006\u0010\u0005\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u0008\u0010\u0007J\u0016\u0010\n\u001a\u0008\u0012\u0004\u0012\u00028\u00000\tH\u0096\u0002\u00a2\u0006\u0004\u0008\n\u0010\u000bR\u0016\u0010\r\u001a\u00020\u00048\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0008\u0010\u000cR\u001c\u0010\u000f\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u00028\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0006\u0010\u000eR\u0016\u0010\u0011\u001a\u00020\u00048\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0010\u0010\u000cR\u0016\u0010\u0014\u001a\u00020\u00048B@\u0002X\u0082\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0012\u0010\u0013\u00a8\u0006\u0017"
     }
     d2 = {
-        "Lkotlin/sequences/s;",
+        "Lcotlin/sequences/s;",
         "T",
-        "Lkotlin/sequences/m;",
-        "Lkotlin/sequences/e;",
+        "Lcotlin/sequences/m;",
+        "Lcotlin/sequences/e;",
         "",
         "n",
         "a",
-        "(I)Lkotlin/sequences/m;",
+        "(I)Lcotlin/sequences/m;",
         "b",
         "",
         "iterator",
         "()Ljava/util/Iterator;",
         "I",
         "startIndex",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "sequence",
         "c",
         "endIndex",
@@ -57,7 +57,7 @@
         "()I",
         "count",
         "<init>",
-        "(Lkotlin/sequences/m;II)V",
+        "(Lcotlin/sequences/m;II)V",
         "kotlin-stdlib"
     }
     k = 0x1
@@ -70,10 +70,10 @@
 
 
 # instance fields
-.field private final a:Lkotlin/sequences/m;
+.field private final a:Lcotlin/sequences/m;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "TT;>;"
         }
     .end annotation
@@ -85,32 +85,32 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/sequences/m;II)V
+.method public constructor <init>(Lcotlin/sequences/m;II)V
     .locals 2
-    .param p1    # Lkotlin/sequences/m;
+    .param p1    # Lcotlin/sequences/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "+TT;>;II)V"
         }
     .end annotation
 
     const-string v0, "sequence"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkotlin/sequences/s;->a:Lkotlin/sequences/m;
+    iput-object p1, p0, Lcotlin/sequences/s;->a:Lcotlin/sequences/m;
 
-    iput p2, p0, Lkotlin/sequences/s;->b:I
+    iput p2, p0, Lcotlin/sequences/s;->b:I
 
-    iput p3, p0, Lkotlin/sequences/s;->c:I
+    iput p3, p0, Lcotlin/sequences/s;->c:I
 
     const/4 p1, 0x1
 
@@ -237,29 +237,29 @@
     throw p2
 .end method
 
-.method public static final synthetic c(Lkotlin/sequences/s;)I
+.method public static final synthetic c(Lcotlin/sequences/s;)I
     .locals 0
 
     .line 1
-    iget p0, p0, Lkotlin/sequences/s;->c:I
+    iget p0, p0, Lcotlin/sequences/s;->c:I
 
     return p0
 .end method
 
-.method public static final synthetic d(Lkotlin/sequences/s;)Lkotlin/sequences/m;
+.method public static final synthetic d(Lcotlin/sequences/s;)Lcotlin/sequences/m;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lkotlin/sequences/s;->a:Lkotlin/sequences/m;
+    iget-object p0, p0, Lcotlin/sequences/s;->a:Lcotlin/sequences/m;
 
     return-object p0
 .end method
 
-.method public static final synthetic e(Lkotlin/sequences/s;)I
+.method public static final synthetic e(Lcotlin/sequences/s;)I
     .locals 0
 
     .line 1
-    iget p0, p0, Lkotlin/sequences/s;->b:I
+    iget p0, p0, Lcotlin/sequences/s;->b:I
 
     return p0
 .end method
@@ -268,9 +268,9 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lkotlin/sequences/s;->c:I
+    iget v0, p0, Lcotlin/sequences/s;->c:I
 
-    iget v1, p0, Lkotlin/sequences/s;->b:I
+    iget v1, p0, Lcotlin/sequences/s;->b:I
 
     sub-int/2addr v0, v1
 
@@ -279,12 +279,12 @@
 
 
 # virtual methods
-.method public a(I)Lkotlin/sequences/m;
+.method public a(I)Lcotlin/sequences/m;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "TT;>;"
         }
     .end annotation
@@ -293,30 +293,30 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lkotlin/sequences/s;->f()I
+    invoke-direct {p0}, Lcotlin/sequences/s;->f()I
 
     move-result v0
 
     if-lt p1, v0, :cond_0
 
-    invoke-static {}, Lkotlin/sequences/p;->j()Lkotlin/sequences/m;
+    invoke-static {}, Lcotlin/sequences/p;->j()Lcotlin/sequences/m;
 
     move-result-object p1
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlin/sequences/s;
+    new-instance v0, Lcotlin/sequences/s;
 
-    iget-object v1, p0, Lkotlin/sequences/s;->a:Lkotlin/sequences/m;
+    iget-object v1, p0, Lcotlin/sequences/s;->a:Lcotlin/sequences/m;
 
-    iget v2, p0, Lkotlin/sequences/s;->b:I
+    iget v2, p0, Lcotlin/sequences/s;->b:I
 
     add-int/2addr v2, p1
 
-    iget p1, p0, Lkotlin/sequences/s;->c:I
+    iget p1, p0, Lcotlin/sequences/s;->c:I
 
-    invoke-direct {v0, v1, v2, p1}, Lkotlin/sequences/s;-><init>(Lkotlin/sequences/m;II)V
+    invoke-direct {v0, v1, v2, p1}, Lcotlin/sequences/s;-><init>(Lcotlin/sequences/m;II)V
 
     move-object p1, v0
 
@@ -324,12 +324,12 @@
     return-object p1
 .end method
 
-.method public b(I)Lkotlin/sequences/m;
+.method public b(I)Lcotlin/sequences/m;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "TT;>;"
         }
     .end annotation
@@ -338,7 +338,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lkotlin/sequences/s;->f()I
+    invoke-direct {p0}, Lcotlin/sequences/s;->f()I
 
     move-result v0
 
@@ -349,15 +349,15 @@
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlin/sequences/s;
+    new-instance v0, Lcotlin/sequences/s;
 
-    iget-object v1, p0, Lkotlin/sequences/s;->a:Lkotlin/sequences/m;
+    iget-object v1, p0, Lcotlin/sequences/s;->a:Lcotlin/sequences/m;
 
-    iget v2, p0, Lkotlin/sequences/s;->b:I
+    iget v2, p0, Lcotlin/sequences/s;->b:I
 
     add-int/2addr p1, v2
 
-    invoke-direct {v0, v1, v2, p1}, Lkotlin/sequences/s;-><init>(Lkotlin/sequences/m;II)V
+    invoke-direct {v0, v1, v2, p1}, Lcotlin/sequences/s;-><init>(Lcotlin/sequences/m;II)V
 
     :goto_0
     return-object v0
@@ -377,9 +377,9 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/sequences/s$a;
+    new-instance v0, Lcotlin/sequences/s$a;
 
-    invoke-direct {v0, p0}, Lkotlin/sequences/s$a;-><init>(Lkotlin/sequences/s;)V
+    invoke-direct {v0, p0}, Lcotlin/sequences/s$a;-><init>(Lcotlin/sequences/s;)V
 
     return-object v0
 .end method

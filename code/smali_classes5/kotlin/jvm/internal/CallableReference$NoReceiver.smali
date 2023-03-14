@@ -1,4 +1,4 @@
-.class Lkotlin/jvm/internal/CallableReference$NoReceiver;
+.class Lcotlin/jvm/internal/CallableReference$NoReceiver;
 .super Ljava/lang/Object;
 .source "CallableReference.java"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/jvm/internal/CallableReference;
+    value = Lcotlin/jvm/internal/CallableReference;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,13 +16,13 @@
     name = "NoReceiver"
 .end annotation
 
-.annotation build Lkotlin/s0;
+.annotation build Lcotlin/s0;
     version = "1.2"
 .end annotation
 
 
 # static fields
-.field private static final INSTANCE:Lkotlin/jvm/internal/CallableReference$NoReceiver;
+.field private static final INSTANCE:Lcotlin/jvm/internal/CallableReference$NoReceiver;
 
 
 # direct methods
@@ -30,11 +30,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lkotlin/jvm/internal/CallableReference$NoReceiver;
+    new-instance v0, Lcotlin/jvm/internal/CallableReference$NoReceiver;
 
-    invoke-direct {v0}, Lkotlin/jvm/internal/CallableReference$NoReceiver;-><init>()V
+    invoke-direct {v0}, Lcotlin/jvm/internal/CallableReference$NoReceiver;-><init>()V
 
-    sput-object v0, Lkotlin/jvm/internal/CallableReference$NoReceiver;->INSTANCE:Lkotlin/jvm/internal/CallableReference$NoReceiver;
+    sput-object v0, Lcotlin/jvm/internal/CallableReference$NoReceiver;->INSTANCE:Lcotlin/jvm/internal/CallableReference$NoReceiver;
 
     return-void
 .end method
@@ -48,11 +48,11 @@
     return-void
 .end method
 
-.method static synthetic access$000()Lkotlin/jvm/internal/CallableReference$NoReceiver;
+.method static synthetic access$000()Lcotlin/jvm/internal/CallableReference$NoReceiver;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlin/jvm/internal/CallableReference$NoReceiver;->INSTANCE:Lkotlin/jvm/internal/CallableReference$NoReceiver;
+    sget-object v0, Lcotlin/jvm/internal/CallableReference$NoReceiver;->INSTANCE:Lcotlin/jvm/internal/CallableReference$NoReceiver;
 
     return-object v0
 .end method
@@ -66,7 +66,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/jvm/internal/CallableReference$NoReceiver;->INSTANCE:Lkotlin/jvm/internal/CallableReference$NoReceiver;
+    sget-object v0, Lcotlin/jvm/internal/CallableReference$NoReceiver;->INSTANCE:Lcotlin/jvm/internal/CallableReference$NoReceiver;
 
     return-object v0
 .end method

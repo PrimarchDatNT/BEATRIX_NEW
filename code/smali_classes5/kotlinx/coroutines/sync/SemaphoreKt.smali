@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/sync/SemaphoreKt;
+.class public final Lcotlinx/coroutines/sync/SemaphoreKt;
 .super Ljava/lang/Object;
 .source "Semaphore.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -17,17 +17,17 @@
         "",
         "permits",
         "acquiredPermits",
-        "Lkotlinx/coroutines/sync/e;",
+        "Lcotlinx/coroutines/sync/e;",
         "d",
-        "(II)Lkotlinx/coroutines/sync/e;",
+        "(II)Lcotlinx/coroutines/sync/e;",
         "T",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "action",
         "i",
-        "(Lkotlinx/coroutines/sync/e;Lkotlin/jvm/u/a;Lkotlin/coroutines/c;)Ljava/lang/Object;",
-        "Lkotlinx/coroutines/internal/c0;",
+        "(Lcotlinx/coroutines/sync/e;Lcotlin/jvm/u/a;Lcotlin/coroutines/c;)Ljava/lang/Object;",
+        "Lcotlinx/coroutines/internal/c0;",
         "b",
-        "Lkotlinx/coroutines/internal/c0;",
+        "Lcotlinx/coroutines/internal/c0;",
         "CANCELLED$annotations",
         "()V",
         "CANCELLED",
@@ -50,9 +50,9 @@
 
 
 # static fields
-.field private static final a:Lkotlinx/coroutines/internal/c0;
+.field private static final a:Lcotlinx/coroutines/internal/c0;
 
-.field private static final b:Lkotlinx/coroutines/internal/c0;
+.field private static final b:Lcotlinx/coroutines/internal/c0;
 
 .field private static final c:I
 
@@ -62,22 +62,22 @@
     .locals 8
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/internal/c0;
+    new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "RESUMED"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlinx/coroutines/sync/SemaphoreKt;->a:Lkotlinx/coroutines/internal/c0;
+    sput-object v0, Lcotlinx/coroutines/sync/SemaphoreKt;->a:Lcotlinx/coroutines/internal/c0;
 
     .line 2
-    new-instance v0, Lkotlinx/coroutines/internal/c0;
+    new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "CANCELLED"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlinx/coroutines/sync/SemaphoreKt;->b:Lkotlinx/coroutines/internal/c0;
+    sput-object v0, Lcotlinx/coroutines/sync/SemaphoreKt;->b:Lcotlinx/coroutines/internal/c0;
 
     const-string v2, "kotlinx.coroutines.semaphore.segmentSize"
 
@@ -92,11 +92,11 @@
     const/4 v7, 0x0
 
     .line 3
-    invoke-static/range {v2 .. v7}, Lkotlinx/coroutines/internal/e0;->f(Ljava/lang/String;IIIILjava/lang/Object;)I
+    invoke-static/range {v2 .. v7}, Lcotlinx/coroutines/internal/e0;->f(Ljava/lang/String;IIIILjava/lang/Object;)I
 
     move-result v0
 
-    sput v0, Lkotlinx/coroutines/sync/SemaphoreKt;->c:I
+    sput v0, Lcotlinx/coroutines/sync/SemaphoreKt;->c:I
 
     return-void
 .end method
@@ -119,20 +119,20 @@
     return-void
 .end method
 
-.method public static final d(II)Lkotlinx/coroutines/sync/e;
+.method public static final d(II)Lcotlinx/coroutines/sync/e;
     .locals 1
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/sync/f;
+    new-instance v0, Lcotlinx/coroutines/sync/f;
 
-    invoke-direct {v0, p0, p1}, Lkotlinx/coroutines/sync/f;-><init>(II)V
+    invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/sync/f;-><init>(II)V
 
     return-object v0
 .end method
 
-.method public static synthetic e(IIILjava/lang/Object;)Lkotlinx/coroutines/sync/e;
+.method public static synthetic e(IIILjava/lang/Object;)Lcotlinx/coroutines/sync/e;
     .locals 0
 
     and-int/lit8 p2, p2, 0x2
@@ -143,27 +143,27 @@
 
     .line 1
     :cond_0
-    invoke-static {p0, p1}, Lkotlinx/coroutines/sync/SemaphoreKt;->d(II)Lkotlinx/coroutines/sync/e;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/sync/SemaphoreKt;->d(II)Lcotlinx/coroutines/sync/e;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final synthetic f()Lkotlinx/coroutines/internal/c0;
+.method public static final synthetic f()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/sync/SemaphoreKt;->b:Lkotlinx/coroutines/internal/c0;
+    sget-object v0, Lcotlinx/coroutines/sync/SemaphoreKt;->b:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
 .end method
 
-.method public static final synthetic g()Lkotlinx/coroutines/internal/c0;
+.method public static final synthetic g()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/sync/SemaphoreKt;->a:Lkotlinx/coroutines/internal/c0;
+    sget-object v0, Lcotlinx/coroutines/sync/SemaphoreKt;->a:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
 .end method
@@ -172,22 +172,22 @@
     .locals 1
 
     .line 1
-    sget v0, Lkotlinx/coroutines/sync/SemaphoreKt;->c:I
+    sget v0, Lcotlinx/coroutines/sync/SemaphoreKt;->c:I
 
     return v0
 .end method
 
-.method public static final i(Lkotlinx/coroutines/sync/e;Lkotlin/jvm/u/a;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final i(Lcotlinx/coroutines/sync/e;Lcotlin/jvm/u/a;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
-    .param p0    # Lkotlinx/coroutines/sync/e;
+    .param p0    # Lcotlinx/coroutines/sync/e;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -196,10 +196,10 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/sync/e;",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlinx/coroutines/sync/e;",
+            "Lcotlin/jvm/u/a<",
             "+TT;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TT;>;)",
             "Ljava/lang/Object;"
         }
@@ -208,15 +208,15 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p2, Lkotlinx/coroutines/sync/SemaphoreKt$withPermit$1;
+    instance-of v0, p2, Lcotlinx/coroutines/sync/SemaphoreKt$withPermit$1;
 
     if-eqz v0, :cond_0
 
     move-object v0, p2
 
-    check-cast v0, Lkotlinx/coroutines/sync/SemaphoreKt$withPermit$1;
+    check-cast v0, Lcotlinx/coroutines/sync/SemaphoreKt$withPermit$1;
 
-    iget v1, v0, Lkotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->label:I
+    iget v1, v0, Lcotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -226,24 +226,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->label:I
+    iput v1, v0, Lcotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/sync/SemaphoreKt$withPermit$1;
+    new-instance v0, Lcotlinx/coroutines/sync/SemaphoreKt$withPermit$1;
 
-    invoke-direct {v0, p2}, Lkotlinx/coroutines/sync/SemaphoreKt$withPermit$1;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p2}, Lcotlinx/coroutines/sync/SemaphoreKt$withPermit$1;-><init>(Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p2, v0, Lkotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->result:Ljava/lang/Object;
+    iget-object p2, v0, Lcotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->label:I
+    iget v2, v0, Lcotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->label:I
 
     const/4 v3, 0x1
 
@@ -251,17 +251,17 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p0, v0, Lkotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->L$1:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->L$1:Ljava/lang/Object;
 
     move-object p1, p0
 
-    check-cast p1, Lkotlin/jvm/u/a;
+    check-cast p1, Lcotlin/jvm/u/a;
 
-    iget-object p0, v0, Lkotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->L$0:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->L$0:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/sync/e;
+    check-cast p0, Lcotlinx/coroutines/sync/e;
 
-    invoke-static {p2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -277,16 +277,16 @@
 
     .line 3
     :cond_2
-    invoke-static {p2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 4
-    iput-object p0, v0, Lkotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->L$0:Ljava/lang/Object;
 
-    iput-object p1, v0, Lkotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->L$1:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->L$1:Ljava/lang/Object;
 
-    iput v3, v0, Lkotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->label:I
+    iput v3, v0, Lcotlinx/coroutines/sync/SemaphoreKt$withPermit$1;->label:I
 
-    invoke-interface {p0, v0}, Lkotlinx/coroutines/sync/e;->c(Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p0, v0}, Lcotlinx/coroutines/sync/e;->c(Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p2
 
@@ -298,18 +298,18 @@
     :cond_3
     :goto_1
     :try_start_0
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v3}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 6
-    invoke-interface {p0}, Lkotlinx/coroutines/sync/e;->release()V
+    invoke-interface {p0}, Lcotlinx/coroutines/sync/e;->release()V
 
-    invoke-static {v3}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object p1
 
@@ -317,27 +317,27 @@
     move-exception p1
 
     .line 7
-    invoke-static {v3}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 8
-    invoke-interface {p0}, Lkotlinx/coroutines/sync/e;->release()V
+    invoke-interface {p0}, Lcotlinx/coroutines/sync/e;->release()V
 
-    invoke-static {v3}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
     throw p1
 .end method
 
-.method private static final j(Lkotlinx/coroutines/sync/e;Lkotlin/jvm/u/a;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final j(Lcotlinx/coroutines/sync/e;Lcotlin/jvm/u/a;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 1
-    .param p0    # Lkotlinx/coroutines/sync/e;
+    .param p0    # Lcotlinx/coroutines/sync/e;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -347,32 +347,32 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->e(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    invoke-interface {p0, p2}, Lkotlinx/coroutines/sync/e;->c(Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p0, p2}, Lcotlinx/coroutines/sync/e;->c(Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     const/4 p2, 0x2
 
-    invoke-static {p2}, Lkotlin/jvm/internal/c0;->e(I)V
+    invoke-static {p2}, Lcotlin/jvm/internal/c0;->e(I)V
 
     const/4 p2, 0x1
 
-    invoke-static {p2}, Lkotlin/jvm/internal/c0;->e(I)V
+    invoke-static {p2}, Lcotlin/jvm/internal/c0;->e(I)V
 
     .line 2
     :try_start_0
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p2}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {p2}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 3
-    invoke-interface {p0}, Lkotlinx/coroutines/sync/e;->release()V
+    invoke-interface {p0}, Lcotlinx/coroutines/sync/e;->release()V
 
-    invoke-static {p2}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {p2}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object p1
 
@@ -380,12 +380,12 @@
     move-exception p1
 
     .line 4
-    invoke-static {p2}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {p2}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 5
-    invoke-interface {p0}, Lkotlinx/coroutines/sync/e;->release()V
+    invoke-interface {p0}, Lcotlinx/coroutines/sync/e;->release()V
 
-    invoke-static {p2}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {p2}, Lcotlin/jvm/internal/c0;->c(I)V
 
     throw p1
 .end method

@@ -1,10 +1,10 @@
-.class public final Lkotlin/a1;
+.class public final Lcotlin/a1;
 .super Ljava/lang/Object;
 .source "TypeAliases.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,7 +15,7 @@
     }
     d2 = {
         "Ljava/lang/ArithmeticException;",
-        "Lkotlin/s0;",
+        "Lcotlin/s0;",
         "version",
         "1.3",
         "ArithmeticException",
@@ -63,7 +63,7 @@
 # direct methods
 .method public static synthetic a()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -72,7 +72,7 @@
 
 .method public static synthetic b()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -81,7 +81,7 @@
 
 .method public static synthetic c()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -90,7 +90,7 @@
 
 .method public static synthetic d()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -99,7 +99,7 @@
 
 .method public static synthetic e()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -108,7 +108,7 @@
 
 .method public static synthetic f()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -117,7 +117,7 @@
 
 .method public static synthetic g()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -126,7 +126,7 @@
 
 .method public static synthetic h()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -135,7 +135,7 @@
 
 .method public static synthetic i()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -144,7 +144,7 @@
 
 .method public static synthetic j()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -153,7 +153,7 @@
 
 .method public static synthetic k()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -162,7 +162,7 @@
 
 .method public static synthetic l()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -171,7 +171,7 @@
 
 .method public static synthetic m()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -180,7 +180,7 @@
 
 .method public static synthetic n()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -189,7 +189,7 @@
 
 .method public static synthetic o()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 

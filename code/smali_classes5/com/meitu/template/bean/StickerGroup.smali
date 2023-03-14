@@ -34,7 +34,7 @@
     value = "SMAP\nStickerGroup.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StickerGroup.kt\ncom/meitu/template/bean/StickerGroup\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,275:1\n1819#2,2:276\n1819#2,2:278\n*E\n*S KotlinDebug\n*F\n+ 1 StickerGroup.kt\ncom/meitu/template/bean/StickerGroup\n*L\n167#1,2:276\n186#1,2:278\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -48,7 +48,7 @@
         "Lcom/commsource/util/common/j;",
         "Ljava/io/Serializable;",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "calculateGroupProgress",
         "()V",
         "updateGroupDownloadState",
@@ -102,7 +102,7 @@
         "setInternalState",
         "Ljava/util/ArrayList;",
         "Lcom/meitu/template/bean/Sticker;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "stickerList",
         "Ljava/util/ArrayList;",
         "getStickerList",
@@ -455,7 +455,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/meitu/template/bean/StickerGroup$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/meitu/template/bean/StickerGroup$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/meitu/template/bean/StickerGroup;->Companion:Lcom/meitu/template/bean/StickerGroup$a;
 
@@ -566,7 +566,7 @@
     :goto_0
     if-nez v1, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
@@ -1313,7 +1313,7 @@
 
     const-string v1, "localEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget v1, p1, Lcom/meitu/template/bean/StickerGroup;->lockLocalState:I
@@ -1369,7 +1369,7 @@
 
     iget-object v5, p1, Lcom/meitu/template/bean/StickerGroup;->groupName:Ljava/lang/String;
 
-    invoke-static {v2, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1380,7 +1380,7 @@
 
     iget-object v5, p1, Lcom/meitu/template/bean/StickerGroup;->groupCoverImage:Ljava/lang/String;
 
-    invoke-static {v2, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1391,7 +1391,7 @@
 
     iget-object v5, p1, Lcom/meitu/template/bean/StickerGroup;->groupSceneImage:Ljava/lang/String;
 
-    invoke-static {v2, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1402,7 +1402,7 @@
 
     iget-object v5, p1, Lcom/meitu/template/bean/StickerGroup;->groupThumbnail:Ljava/lang/String;
 
-    invoke-static {v2, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1476,7 +1476,7 @@
 
     iget-object v5, p1, Lcom/meitu/template/bean/StickerGroup;->stickerBg:Ljava/lang/String;
 
-    invoke-static {v2, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1487,7 +1487,7 @@
 
     iget-object v5, p1, Lcom/meitu/template/bean/StickerGroup;->stickerCreator:Ljava/lang/String;
 
-    invoke-static {v2, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1562,7 +1562,7 @@
     and-int/2addr v1, v3
 
     .line 22
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1612,7 +1612,7 @@
 
     const-string v1, "nextEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/StickerGroup;->equals(Ljava/lang/Object;)Z

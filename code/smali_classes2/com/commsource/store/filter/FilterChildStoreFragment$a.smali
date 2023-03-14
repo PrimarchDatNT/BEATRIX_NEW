@@ -25,7 +25,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
         "com/commsource/store/filter/FilterChildStoreFragment$a",
         "Ljava/util/Comparator;",
         "Lcom/meitu/template/bean/j;",
-        "Lkotlin/Comparator;",
+        "Lcotlin/Comparator;",
         "o1",
         "o2",
         "",

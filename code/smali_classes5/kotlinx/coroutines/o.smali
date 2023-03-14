@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/o;
+.class public final Lcotlinx/coroutines/o;
 .super Ljava/lang/Object;
 .source "CancellableContinuationImpl.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -18,9 +18,9 @@
         "c",
         "I",
         "RESUMED",
-        "Lkotlinx/coroutines/internal/c0;",
+        "Lcotlinx/coroutines/internal/c0;",
         "d",
-        "Lkotlinx/coroutines/internal/c0;",
+        "Lcotlinx/coroutines/internal/c0;",
         "RESUME_TOKEN$annotations",
         "()V",
         "RESUME_TOKEN",
@@ -46,8 +46,8 @@
 
 .field private static final c:I = 0x2
 
-.field public static final d:Lkotlinx/coroutines/internal/c0;
-    .annotation build Lkotlin/jvm/d;
+.field public static final d:Lcotlinx/coroutines/internal/c0;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -60,13 +60,13 @@
     .locals 2
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/internal/c0;
+    new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "RESUME_TOKEN"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlinx/coroutines/o;->d:Lkotlinx/coroutines/internal/c0;
+    sput-object v0, Lcotlinx/coroutines/o;->d:Lcotlinx/coroutines/internal/c0;
 
     return-void
 .end method

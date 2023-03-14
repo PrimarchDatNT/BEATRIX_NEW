@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/channels/c0$a;
+.class public final Lcotlinx/coroutines/channels/c0$a;
 .super Ljava/lang/Object;
 .source "Channel.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/channels/c0;
+    value = Lcotlinx/coroutines/channels/c0;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
 
 
 # direct methods
-.method public static synthetic a(Lkotlinx/coroutines/channels/c0;Ljava/lang/Throwable;ILjava/lang/Object;)Z
+.method public static synthetic a(Lcotlinx/coroutines/channels/c0;Ljava/lang/Throwable;ILjava/lang/Object;)Z
     .locals 0
 
     if-nez p3, :cond_1
@@ -44,7 +44,7 @@
 
     .line 1
     :cond_0
-    invoke-interface {p0, p1}, Lkotlinx/coroutines/channels/c0;->Q(Ljava/lang/Throwable;)Z
+    invoke-interface {p0, p1}, Lcotlinx/coroutines/channels/c0;->Q(Ljava/lang/Throwable;)Z
 
     move-result p0
 
@@ -63,7 +63,7 @@
 
 .method public static synthetic b()V
     .locals 0
-    .annotation build Lkotlinx/coroutines/s1;
+    .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
     return-void
@@ -71,12 +71,12 @@
 
 .method public static synthetic c()V
     .locals 0
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->ERROR:Lcotlin/DeprecationLevel;
         message = "Will be removed in next releases without replacement"
     .end annotation
 
-    .annotation build Lkotlinx/coroutines/s1;
+    .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
     return-void

@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/channels/ChannelIterator$DefaultImpls;
+.class public final Lcotlinx/coroutines/channels/ChannelIterator$DefaultImpls;
 .super Ljava/lang/Object;
 .source "Channel.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/channels/ChannelIterator;
+    value = Lcotlinx/coroutines/channels/ChannelIterator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "DefaultImpls"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,9 +31,9 @@
 
 
 # direct methods
-.method public static synthetic a(Lkotlinx/coroutines/channels/ChannelIterator;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static synthetic a(Lcotlinx/coroutines/channels/ChannelIterator;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -42,35 +42,35 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/ChannelIterator<",
+            "Lcotlinx/coroutines/channels/ChannelIterator<",
             "+TE;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->HIDDEN:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->HIDDEN:Lcotlin/DeprecationLevel;
         message = "Since 1.3.0, binary compatibility with versions <= 1.2.x"
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "next"
     .end annotation
 
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p1, Lkotlinx/coroutines/channels/ChannelIterator$next0$1;
+    instance-of v0, p1, Lcotlinx/coroutines/channels/ChannelIterator$next0$1;
 
     if-eqz v0, :cond_0
 
     move-object v0, p1
 
-    check-cast v0, Lkotlinx/coroutines/channels/ChannelIterator$next0$1;
+    check-cast v0, Lcotlinx/coroutines/channels/ChannelIterator$next0$1;
 
-    iget v1, v0, Lkotlinx/coroutines/channels/ChannelIterator$next0$1;->label:I
+    iget v1, v0, Lcotlinx/coroutines/channels/ChannelIterator$next0$1;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -80,24 +80,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/channels/ChannelIterator$next0$1;->label:I
+    iput v1, v0, Lcotlinx/coroutines/channels/ChannelIterator$next0$1;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/channels/ChannelIterator$next0$1;
+    new-instance v0, Lcotlinx/coroutines/channels/ChannelIterator$next0$1;
 
-    invoke-direct {v0, p0, p1}, Lkotlinx/coroutines/channels/ChannelIterator$next0$1;-><init>(Lkotlinx/coroutines/channels/ChannelIterator;Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/channels/ChannelIterator$next0$1;-><init>(Lcotlinx/coroutines/channels/ChannelIterator;Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p1, v0, Lkotlinx/coroutines/channels/ChannelIterator$next0$1;->result:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/channels/ChannelIterator$next0$1;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/channels/ChannelIterator$next0$1;->label:I
+    iget v2, v0, Lcotlinx/coroutines/channels/ChannelIterator$next0$1;->label:I
 
     const/4 v3, 0x1
 
@@ -105,11 +105,11 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p0, v0, Lkotlinx/coroutines/channels/ChannelIterator$next0$1;->L$0:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/channels/ChannelIterator$next0$1;->L$0:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/channels/ChannelIterator;
+    check-cast p0, Lcotlinx/coroutines/channels/ChannelIterator;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -125,14 +125,14 @@
 
     .line 3
     :cond_2
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 4
-    iput-object p0, v0, Lkotlinx/coroutines/channels/ChannelIterator$next0$1;->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/channels/ChannelIterator$next0$1;->L$0:Ljava/lang/Object;
 
-    iput v3, v0, Lkotlinx/coroutines/channels/ChannelIterator$next0$1;->label:I
+    iput v3, v0, Lcotlinx/coroutines/channels/ChannelIterator$next0$1;->label:I
 
-    invoke-interface {p0, v0}, Lkotlinx/coroutines/channels/ChannelIterator;->b(Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p0, v0}, Lcotlinx/coroutines/channels/ChannelIterator;->b(Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -151,7 +151,7 @@
     if-eqz p1, :cond_4
 
     .line 5
-    invoke-interface {p0}, Lkotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
+    invoke-interface {p0}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object p0
 
@@ -159,11 +159,11 @@
 
     .line 6
     :cond_4
-    new-instance p0, Lkotlinx/coroutines/channels/ClosedReceiveChannelException;
+    new-instance p0, Lcotlinx/coroutines/channels/ClosedReceiveChannelException;
 
     const-string p1, "Channel was closed"
 
-    invoke-direct {p0, p1}, Lkotlinx/coroutines/channels/ClosedReceiveChannelException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcotlinx/coroutines/channels/ClosedReceiveChannelException;-><init>(Ljava/lang/String;)V
 
     throw p0
 .end method

@@ -1,11 +1,11 @@
-.class final Lkotlinx/coroutines/selects/b$b;
-.super Lkotlinx/coroutines/internal/m;
+.class final Lcotlinx/coroutines/selects/b$b;
+.super Lcotlinx/coroutines/internal/m;
 .source "Select.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/selects/b;
+    value = Lcotlinx/coroutines/selects/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "b"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,13 +24,13 @@
     }
     d2 = {
         "kotlinx/coroutines/selects/b$b",
-        "Lkotlinx/coroutines/internal/m;",
-        "Lkotlinx/coroutines/f1;",
+        "Lcotlinx/coroutines/internal/m;",
+        "Lcotlinx/coroutines/f1;",
         "d",
-        "Lkotlinx/coroutines/f1;",
+        "Lcotlinx/coroutines/f1;",
         "handle",
         "<init>",
-        "(Lkotlinx/coroutines/f1;)V",
+        "(Lcotlinx/coroutines/f1;)V",
         "kotlinx-coroutines-core"
     }
     k = 0x1
@@ -43,8 +43,8 @@
 
 
 # instance fields
-.field public final d:Lkotlinx/coroutines/f1;
-    .annotation build Lkotlin/jvm/d;
+.field public final d:Lcotlinx/coroutines/f1;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -53,17 +53,17 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/f1;)V
+.method public constructor <init>(Lcotlinx/coroutines/f1;)V
     .locals 0
-    .param p1    # Lkotlinx/coroutines/f1;
+    .param p1    # Lcotlinx/coroutines/f1;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
 
     .line 1
-    invoke-direct {p0}, Lkotlinx/coroutines/internal/m;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/internal/m;-><init>()V
 
-    iput-object p1, p0, Lkotlinx/coroutines/selects/b$b;->d:Lkotlinx/coroutines/f1;
+    iput-object p1, p0, Lcotlinx/coroutines/selects/b$b;->d:Lcotlinx/coroutines/f1;
 
     return-void
 .end method

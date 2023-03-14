@@ -1,10 +1,10 @@
 .class final synthetic Lcom/mopub/mobileads/VastVideoViewController$handleIconDisplay$1;
-.super Lkotlin/jvm/internal/MutablePropertyReference0Impl;
+.super Lcotlin/jvm/internal/MutablePropertyReference0Impl;
 .source "VastVideoViewController.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -37,7 +37,7 @@
 
     move-object v1, p1
 
-    invoke-direct/range {v0 .. v5}, Lkotlin/jvm/internal/MutablePropertyReference0Impl;-><init>(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct/range {v0 .. v5}, Lcotlin/jvm/internal/MutablePropertyReference0Impl;-><init>(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
     return-void
 .end method
@@ -49,7 +49,7 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    iget-object v0, p0, Lkotlin/jvm/internal/CallableReference;->receiver:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/jvm/internal/CallableReference;->receiver:Ljava/lang/Object;
 
     check-cast v0, Lcom/mopub/mobileads/VastVideoViewController;
 
@@ -68,7 +68,7 @@
         .end annotation
     .end param
 
-    iget-object v0, p0, Lkotlin/jvm/internal/CallableReference;->receiver:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/jvm/internal/CallableReference;->receiver:Ljava/lang/Object;
 
     check-cast v0, Lcom/mopub/mobileads/VastVideoViewController;
 

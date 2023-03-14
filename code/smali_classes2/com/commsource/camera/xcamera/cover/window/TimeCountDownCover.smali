@@ -16,7 +16,7 @@
     value = "SMAP\nTimeCountDownCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TimeCountDownCover.kt\ncom/commsource/camera/xcamera/cover/window/TimeCountDownCover\n*L\n1#1,54:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;",
         "Lcom/commsource/camera/xcamera/cover/AbsLazyCover;",
         "Lcom/commsource/beautyplus/f0/s4;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "o",
         "()V",
         "",
@@ -53,7 +53,7 @@
         "mTimeLapsAnimationControl",
         "Lcom/commsource/camera/xcamera/BpCameraViewModel;",
         "d",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "E",
         "()Lcom/commsource/camera/xcamera/BpCameraViewModel;",
         "mBpCameraViewModel",
@@ -70,7 +70,7 @@
 
 
 # instance fields
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -93,11 +93,11 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover$mBpCameraViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;->d:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;->d:Lcotlin/w;
 
     return-void
 .end method
@@ -113,9 +113,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 

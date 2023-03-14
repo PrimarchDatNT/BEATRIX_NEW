@@ -1,14 +1,14 @@
-.class public final Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6$1;
-.super Lkotlin/jvm/internal/Lambda;
+.class public final Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6$1;
+.super Lcotlin/jvm/internal/Lambda;
 .source "Zip.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,8 +18,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
         "[TT;>;"
     }
 .end annotation
@@ -28,7 +28,7 @@
     value = "SMAP\nZip.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Zip.kt\nkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6$1\n*L\n1#1,318:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -55,18 +55,18 @@
 
 
 # instance fields
-.field final synthetic this$0:Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6;
+.field final synthetic this$0:Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6;
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6;)V
+.method public constructor <init>(Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6$1;->this$0:Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6$1;->this$0:Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -76,7 +76,7 @@
 .method public bridge synthetic invoke()Ljava/lang/Object;
     .locals 1
 
-    invoke-virtual {p0}, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6$1;->invoke()[Ljava/lang/Object;
+    invoke-virtual {p0}, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6$1;->invoke()[Ljava/lang/Object;
 
     move-result-object v0
 
@@ -95,9 +95,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6$1;->this$0:Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6$1;->this$0:Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6;
 
-    iget-object v0, v0, Lkotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6;->$flows:[Lkotlinx/coroutines/flow/d;
+    iget-object v0, v0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6;->$flows:[Lcotlinx/coroutines/flow/d;
 
     array-length v0, v0
 
@@ -105,7 +105,7 @@
 
     const-string v2, "T?"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
 
     new-array v0, v0, [Ljava/lang/Object;
 

@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
     d2 = {
         "com/commsource/studio/sticker/CustomStickerActivity$a",
         "Lcom/commsource/studio/function/q;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "LLcom/commsource/studio/effect/ImageResult;;",
@@ -108,7 +108,7 @@
 
     const-string v0, "imageResult"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity$a;->a:Lcom/commsource/studio/sticker/CustomStickerActivity;

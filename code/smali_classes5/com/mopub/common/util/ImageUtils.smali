@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -75,7 +75,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -85,7 +85,7 @@
 
     const-string v0, "mutableBitmap"
 
-    invoke-static {v8, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual/range {p0 .. p0}, Landroid/graphics/Bitmap;->getWidth()I
@@ -381,12 +381,12 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "window"
 

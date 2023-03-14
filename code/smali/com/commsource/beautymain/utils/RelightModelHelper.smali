@@ -14,7 +14,7 @@
     value = "SMAP\nRelightModelHelper.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RelightModelHelper.kt\ncom/commsource/beautymain/utils/RelightModelHelper\n*L\n1#1,78:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Lcom/commsource/beautymain/utils/RelightModelHelper$a;",
         "b",
         "(Landroid/content/Context;)Lcom/commsource/beautymain/utils/RelightModelHelper$a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "",
@@ -40,7 +40,7 @@
         "e",
         "(Landroid/content/Context;)V",
         "Lcom/commsource/material/download/b/a;",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "c",
         "()Lcom/commsource/material/download/b/a;",
         "downloadObserver",
@@ -57,7 +57,7 @@
 
 
 # static fields
-.field private static final a:Lkotlin/w;
+.field private static final a:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -83,11 +83,11 @@
     .line 2
     sget-object v1, Lcom/commsource/beautymain/utils/RelightModelHelper$downloadObserver$2;->INSTANCE:Lcom/commsource/beautymain/utils/RelightModelHelper$downloadObserver$2;
 
-    invoke-static {v1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v1
 
-    sput-object v1, Lcom/commsource/beautymain/utils/RelightModelHelper;->a:Lkotlin/w;
+    sput-object v1, Lcom/commsource/beautymain/utils/RelightModelHelper;->a:Lcotlin/w;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -124,7 +124,7 @@
 
     const-string v2, "context.getString(R.stri\u2026relight_online_materials)"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/utils/g;->l(Ljava/lang/String;)V
@@ -162,7 +162,7 @@
 
     move-object v3, p1
 
-    invoke-static/range {v3 .. v8}, Lkotlin/text/m;->A3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
+    invoke-static/range {v3 .. v8}, Lcotlin/text/m;->A3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
 
     move-result v3
 
@@ -176,7 +176,7 @@
 
     const-string v3, "(this as java.lang.String).substring(startIndex)"
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v9, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -224,7 +224,7 @@
     const-string v2, "context"
 
     .line 2
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v1}, Lcom/commsource/beautymain/utils/RelightModelHelper;->b(Landroid/content/Context;)Lcom/commsource/beautymain/utils/RelightModelHelper$a;
 
@@ -322,9 +322,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    sget-object v1, Lcom/commsource/beautymain/utils/RelightModelHelper;->a:Lkotlin/w;
+    sget-object v1, Lcom/commsource/beautymain/utils/RelightModelHelper;->a:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -348,7 +348,7 @@
 
     const-string v1, "context"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v1, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
@@ -385,7 +385,7 @@
 
     const-string v1, "context"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v1, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;

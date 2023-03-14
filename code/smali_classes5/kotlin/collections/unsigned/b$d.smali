@@ -1,5 +1,5 @@
-.class public final Lkotlin/collections/unsigned/b$d;
-.super Lkotlin/collections/c;
+.class public final Lcotlin/collections/unsigned/b$d;
+.super Lcotlin/collections/c;
 .source "_UArraysJvm.kt"
 
 # interfaces
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/collections/unsigned/b;->d([S)Ljava/util/List;
+    value = Lcotlin/collections/unsigned/b;->d([S)Ljava/util/List;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,14 +18,14 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/collections/c<",
-        "Lkotlin/p1;",
+        "Lcotlin/collections/c<",
+        "Lcotlin/p1;",
         ">;",
         "Ljava/util/RandomAccess;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,10 +36,10 @@
     }
     d2 = {
         "kotlin/collections/unsigned/b$d",
-        "Lkotlin/collections/c;",
-        "Lkotlin/p1;",
+        "Lcotlin/collections/c;",
+        "Lcotlin/p1;",
         "Ljava/util/RandomAccess;",
-        "Lkotlin/collections/RandomAccess;",
+        "Lcotlin/collections/RandomAccess;",
         "",
         "isEmpty",
         "()Z",
@@ -76,9 +76,9 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lkotlin/collections/unsigned/b$d;->b:[S
+    iput-object p1, p0, Lcotlin/collections/unsigned/b$d;->b:[S
 
-    invoke-direct {p0}, Lkotlin/collections/c;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/c;-><init>()V
 
     return-void
 .end method
@@ -89,9 +89,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/unsigned/b$d;->b:[S
+    iget-object v0, p0, Lcotlin/collections/unsigned/b$d;->b:[S
 
-    invoke-static {v0}, Lkotlin/q1;->s([S)I
+    invoke-static {v0}, Lcotlin/q1;->s([S)I
 
     move-result v0
 
@@ -102,9 +102,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/unsigned/b$d;->b:[S
+    iget-object v0, p0, Lcotlin/collections/unsigned/b$d;->b:[S
 
-    invoke-static {v0, p1}, Lkotlin/q1;->j([SS)Z
+    invoke-static {v0, p1}, Lcotlin/q1;->j([SS)Z
 
     move-result p1
 
@@ -115,17 +115,17 @@
     .locals 1
 
     .line 1
-    instance-of v0, p1, Lkotlin/p1;
+    instance-of v0, p1, Lcotlin/p1;
 
     if-eqz v0, :cond_0
 
-    check-cast p1, Lkotlin/p1;
+    check-cast p1, Lcotlin/p1;
 
-    invoke-virtual {p1}, Lkotlin/p1;->t0()S
+    invoke-virtual {p1}, Lcotlin/p1;->t0()S
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Lkotlin/collections/unsigned/b$d;->c(S)Z
+    invoke-virtual {p0, p1}, Lcotlin/collections/unsigned/b$d;->c(S)Z
 
     move-result p1
 
@@ -141,9 +141,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/unsigned/b$d;->b:[S
+    iget-object v0, p0, Lcotlin/collections/unsigned/b$d;->b:[S
 
-    invoke-static {v0, p1}, Lkotlin/q1;->q([SI)S
+    invoke-static {v0, p1}, Lcotlin/q1;->q([SI)S
 
     move-result p1
 
@@ -154,11 +154,11 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/collections/unsigned/b$d;->e(I)S
+    invoke-virtual {p0, p1}, Lcotlin/collections/unsigned/b$d;->e(I)S
 
     move-result p1
 
-    invoke-static {p1}, Lkotlin/p1;->f(S)Lkotlin/p1;
+    invoke-static {p1}, Lcotlin/p1;->f(S)Lcotlin/p1;
 
     move-result-object p1
 
@@ -169,9 +169,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/unsigned/b$d;->b:[S
+    iget-object v0, p0, Lcotlin/collections/unsigned/b$d;->b:[S
 
-    invoke-static {v0, p1}, Lkotlin/collections/k;->ef([SS)I
+    invoke-static {v0, p1}, Lcotlin/collections/k;->ef([SS)I
 
     move-result p1
 
@@ -182,9 +182,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/unsigned/b$d;->b:[S
+    iget-object v0, p0, Lcotlin/collections/unsigned/b$d;->b:[S
 
-    invoke-static {v0, p1}, Lkotlin/collections/k;->ih([SS)I
+    invoke-static {v0, p1}, Lcotlin/collections/k;->ih([SS)I
 
     move-result p1
 
@@ -195,17 +195,17 @@
     .locals 1
 
     .line 1
-    instance-of v0, p1, Lkotlin/p1;
+    instance-of v0, p1, Lcotlin/p1;
 
     if-eqz v0, :cond_0
 
-    check-cast p1, Lkotlin/p1;
+    check-cast p1, Lcotlin/p1;
 
-    invoke-virtual {p1}, Lkotlin/p1;->t0()S
+    invoke-virtual {p1}, Lcotlin/p1;->t0()S
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Lkotlin/collections/unsigned/b$d;->h(S)I
+    invoke-virtual {p0, p1}, Lcotlin/collections/unsigned/b$d;->h(S)I
 
     move-result p1
 
@@ -221,9 +221,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/unsigned/b$d;->b:[S
+    iget-object v0, p0, Lcotlin/collections/unsigned/b$d;->b:[S
 
-    invoke-static {v0}, Lkotlin/q1;->y([S)Z
+    invoke-static {v0}, Lcotlin/q1;->y([S)Z
 
     move-result v0
 
@@ -234,17 +234,17 @@
     .locals 1
 
     .line 1
-    instance-of v0, p1, Lkotlin/p1;
+    instance-of v0, p1, Lcotlin/p1;
 
     if-eqz v0, :cond_0
 
-    check-cast p1, Lkotlin/p1;
+    check-cast p1, Lcotlin/p1;
 
-    invoke-virtual {p1}, Lkotlin/p1;->t0()S
+    invoke-virtual {p1}, Lcotlin/p1;->t0()S
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Lkotlin/collections/unsigned/b$d;->i(S)I
+    invoke-virtual {p0, p1}, Lcotlin/collections/unsigned/b$d;->i(S)I
 
     move-result p1
 

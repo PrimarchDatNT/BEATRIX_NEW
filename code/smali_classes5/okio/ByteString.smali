@@ -28,7 +28,7 @@
     value = "SMAP\nByteString.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ByteString.kt\nokio/ByteString\n*L\n1#1,419:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -43,7 +43,7 @@
         "",
         "Ljava/io/ObjectInputStream;",
         "in",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "readObject",
         "(Ljava/io/ObjectInputStream;)V",
         "Ljava/io/ObjectOutputStream;",
@@ -168,7 +168,7 @@
 .field public static final Companion:Lokio/ByteString$Companion;
 
 .field public static final EMPTY:Lokio/ByteString;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -200,7 +200,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lokio/ByteString$Companion;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lokio/ByteString$Companion;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lokio/ByteString;->Companion:Lokio/ByteString$Companion;
 
@@ -223,7 +223,7 @@
 
     const-string v0, "data"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -239,7 +239,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -260,7 +260,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -285,11 +285,11 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "encodeString"
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -310,7 +310,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -327,7 +327,7 @@
 
 .method public static bridge synthetic indexOf$default(Lokio/ByteString;Lokio/ByteString;IILjava/lang/Object;)I
     .locals 0
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     if-nez p4, :cond_1
@@ -359,7 +359,7 @@
 
 .method public static bridge synthetic indexOf$default(Lokio/ByteString;[BIILjava/lang/Object;)I
     .locals 0
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     if-nez p4, :cond_1
@@ -391,7 +391,7 @@
 
 .method public static bridge synthetic lastIndexOf$default(Lokio/ByteString;Lokio/ByteString;IILjava/lang/Object;)I
     .locals 0
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     if-nez p4, :cond_1
@@ -425,7 +425,7 @@
 
 .method public static bridge synthetic lastIndexOf$default(Lokio/ByteString;[BIILjava/lang/Object;)I
     .locals 0
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     if-nez p4, :cond_1
@@ -463,11 +463,11 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "of"
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -488,7 +488,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -509,11 +509,11 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "of"
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -540,11 +540,11 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "read"
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -591,7 +591,7 @@
     const-string v1, "field"
 
     .line 4
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x1
 
@@ -607,7 +607,7 @@
 
 .method public static bridge synthetic substring$default(Lokio/ByteString;IIILjava/lang/Object;)Lokio/ByteString;
     .locals 0
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -676,16 +676,16 @@
 # virtual methods
 .method public final -deprecated_getByte(I)B
     .locals 0
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->ERROR:Lcotlin/DeprecationLevel;
         message = "moved to operator function"
-        replaceWith = .subannotation Lkotlin/q0;
+        replaceWith = .subannotation Lcotlin/q0;
             expression = "this[index]"
             imports = {}
         .end subannotation
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "-deprecated_getByte"
     .end annotation
 
@@ -699,16 +699,16 @@
 
 .method public final -deprecated_size()I
     .locals 1
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->ERROR:Lcotlin/DeprecationLevel;
         message = "moved to val"
-        replaceWith = .subannotation Lkotlin/q0;
+        replaceWith = .subannotation Lcotlin/q0;
             expression = "size"
             imports = {}
         .end subannotation
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "-deprecated_size"
     .end annotation
 
@@ -738,7 +738,7 @@
 
     const-string v1, "ByteBuffer.wrap(data).asReadOnlyBuffer()"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -791,7 +791,7 @@
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-static {p0, p1}, Lokio/internal/ByteStringKt;->commonCompareTo(Lokio/ByteString;Lokio/ByteString;)I
@@ -812,7 +812,7 @@
 
     const-string v0, "algorithm"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lokio/ByteString;
@@ -829,7 +829,7 @@
 
     const-string v1, "MessageDigest.getInstance(algorithm).digest(data)"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v0, p1}, Lokio/ByteString;-><init>([B)V
 
@@ -845,7 +845,7 @@
 
     const-string v0, "suffix"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0, p1}, Lokio/internal/ByteStringKt;->commonEndsWith(Lokio/ByteString;Lokio/ByteString;)Z
@@ -864,7 +864,7 @@
 
     const-string v0, "suffix"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-static {p0, p1}, Lokio/internal/ByteStringKt;->commonEndsWith(Lokio/ByteString;[B)Z
@@ -891,7 +891,7 @@
 
 .method public final getByte(I)B
     .locals 0
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "getByte"
     .end annotation
 
@@ -984,11 +984,11 @@
 
     const-string v0, "algorithm"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "key"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     :try_start_0
@@ -1018,7 +1018,7 @@
 
     const-string v0, "mac.doFinal(data)"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p1, p2}, Lokio/ByteString;-><init>([B)V
     :try_end_0
@@ -1048,7 +1048,7 @@
 
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "HmacSHA1"
 
@@ -1071,7 +1071,7 @@
 
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "HmacSHA256"
 
@@ -1094,7 +1094,7 @@
 
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "HmacSHA512"
 
@@ -1112,7 +1112,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const/4 v0, 0x0
@@ -1134,12 +1134,12 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lokio/ByteString;->internalArray$jvm()[B
@@ -1159,7 +1159,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const/4 v0, 0x0
@@ -1181,12 +1181,12 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-static {p0, p1, p2}, Lokio/internal/ByteStringKt;->commonIndexOf(Lokio/ByteString;[BI)I
@@ -1226,7 +1226,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const/4 v0, 0x0
@@ -1248,12 +1248,12 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lokio/ByteString;->internalArray$jvm()[B
@@ -1273,7 +1273,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const/4 v0, 0x0
@@ -1295,12 +1295,12 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-static {p0, p1, p2}, Lokio/internal/ByteStringKt;->commonLastIndexOf(Lokio/ByteString;[BI)I
@@ -1334,7 +1334,7 @@
 
     const-string v0, "other"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lokio/internal/ByteStringKt;->commonRangeEquals(Lokio/ByteString;ILokio/ByteString;II)Z
@@ -1353,7 +1353,7 @@
 
     const-string v0, "other"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-static {p0, p1, p2, p3, p4}, Lokio/internal/ByteStringKt;->commonRangeEquals(Lokio/ByteString;I[BII)Z
@@ -1432,7 +1432,7 @@
 
 .method public final size()I
     .locals 1
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "size"
     .end annotation
 
@@ -1453,7 +1453,7 @@
 
     const-string v0, "prefix"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0, p1}, Lokio/internal/ByteStringKt;->commonStartsWith(Lokio/ByteString;Lokio/ByteString;)Z
@@ -1472,7 +1472,7 @@
 
     const-string v0, "prefix"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-static {p0, p1}, Lokio/internal/ByteStringKt;->commonStartsWith(Lokio/ByteString;[B)Z
@@ -1493,7 +1493,7 @@
 
     const-string v0, "charset"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lokio/ByteString;->data:[B
@@ -1507,7 +1507,7 @@
 
 .method public substring()Lokio/ByteString;
     .locals 3
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -1528,7 +1528,7 @@
 
 .method public substring(I)Lokio/ByteString;
     .locals 3
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -1549,7 +1549,7 @@
 
 .method public substring(II)Lokio/ByteString;
     .locals 0
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -1642,7 +1642,7 @@
 
     const-string v0, "out"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lokio/ByteString;->data:[B
@@ -1661,7 +1661,7 @@
 
     const-string v0, "buffer"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lokio/ByteString;->data:[B

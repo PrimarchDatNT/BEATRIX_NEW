@@ -1,14 +1,14 @@
-.class final Lkotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;
+.super Lcotlin/jvm/internal/Lambda;
 .source "_Sequences.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/sequences/SequencesKt___SequencesKt$minus$1;->iterator()Ljava/util/Iterator;
+    value = Lcotlin/sequences/SequencesKt___SequencesKt$minus$1;->iterator()Ljava/util/Iterator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,15 +18,15 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "TT;",
         "Ljava/lang/Boolean;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -53,22 +53,22 @@
 
 
 # instance fields
-.field final synthetic $removed:Lkotlin/jvm/internal/Ref$BooleanRef;
+.field final synthetic $removed:Lcotlin/jvm/internal/Ref$BooleanRef;
 
-.field final synthetic this$0:Lkotlin/sequences/SequencesKt___SequencesKt$minus$1;
+.field final synthetic this$0:Lcotlin/sequences/SequencesKt___SequencesKt$minus$1;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/sequences/SequencesKt___SequencesKt$minus$1;Lkotlin/jvm/internal/Ref$BooleanRef;)V
+.method constructor <init>(Lcotlin/sequences/SequencesKt___SequencesKt$minus$1;Lcotlin/jvm/internal/Ref$BooleanRef;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;->this$0:Lkotlin/sequences/SequencesKt___SequencesKt$minus$1;
+    iput-object p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;->this$0:Lcotlin/sequences/SequencesKt___SequencesKt$minus$1;
 
-    iput-object p2, p0, Lkotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;->$removed:Lkotlin/jvm/internal/Ref$BooleanRef;
+    iput-object p2, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;->$removed:Lcotlin/jvm/internal/Ref$BooleanRef;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -79,7 +79,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;->invoke(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;->invoke(Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -99,27 +99,27 @@
     .end annotation
 
     .line 2
-    iget-object v0, p0, Lkotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;->$removed:Lkotlin/jvm/internal/Ref$BooleanRef;
+    iget-object v0, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;->$removed:Lcotlin/jvm/internal/Ref$BooleanRef;
 
-    iget-boolean v0, v0, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
+    iget-boolean v0, v0, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     const/4 v1, 0x1
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lkotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;->this$0:Lkotlin/sequences/SequencesKt___SequencesKt$minus$1;
+    iget-object v0, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;->this$0:Lcotlin/sequences/SequencesKt___SequencesKt$minus$1;
 
-    iget-object v0, v0, Lkotlin/sequences/SequencesKt___SequencesKt$minus$1;->b:Ljava/lang/Object;
+    iget-object v0, v0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1;->b:Ljava/lang/Object;
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    iget-object p1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;->$removed:Lkotlin/jvm/internal/Ref$BooleanRef;
+    iget-object p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;->$removed:Lcotlin/jvm/internal/Ref$BooleanRef;
 
-    iput-boolean v1, p1, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
+    iput-boolean v1, p1, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     const/4 v1, 0x0
 

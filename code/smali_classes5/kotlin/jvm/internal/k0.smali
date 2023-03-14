@@ -1,10 +1,10 @@
-.class public Lkotlin/jvm/internal/k0;
+.class public Lcotlin/jvm/internal/k0;
 .super Ljava/lang/Object;
 .source "MagicApiIntrinsics.java"
 
 
 # annotations
-.annotation build Lkotlin/s0;
+.annotation build Lcotlin/s0;
     version = "1.2"
 .end annotation
 

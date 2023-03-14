@@ -2575,7 +2575,7 @@
 
     invoke-direct {v9, p0}, Lcom/commsource/helpcapture/HelpSelfieActivity$b;-><init>(Lcom/commsource/helpcapture/HelpSelfieActivity;)V
 
-    invoke-static/range {v2 .. v9}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILkotlin/jvm/u/l;Lkotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
+    invoke-static/range {v2 .. v9}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILcotlin/jvm/u/l;Lcotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
 
     move-result-object v1
 

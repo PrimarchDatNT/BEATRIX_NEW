@@ -25,7 +25,7 @@
     value = "SMAP\nShrinkFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ShrinkFragment.kt\ncom/commsource/studio/function/ShrinkFragment$onViewCreated$2\n*L\n1#1,148:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "Lcom/commsource/beautyfilter/NoStickLiveData$a;",
         "",
         "faceIndex",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(Ljava/lang/Integer;)V",
         "app_googleplayRelease"

@@ -1,9 +1,9 @@
 .class final Lkshark/HprofWriter$write$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "HprofWriter.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
@@ -18,15 +18,15 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Lokio/BufferedSink;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -37,7 +37,7 @@
     }
     d2 = {
         "Lokio/BufferedSink;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(Lokio/BufferedSink;)V",
         "<anonymous>"
@@ -67,7 +67,7 @@
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -82,7 +82,7 @@
 
     invoke-virtual {p0, p1}, Lkshark/HprofWriter$write$1;->invoke(Lokio/BufferedSink;)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method
@@ -96,7 +96,7 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object v0, p0, Lkshark/HprofWriter$write$1;->this$0:Lkshark/HprofWriter;

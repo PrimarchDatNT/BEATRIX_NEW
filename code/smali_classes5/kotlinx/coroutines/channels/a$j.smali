@@ -1,14 +1,14 @@
-.class public final Lkotlinx/coroutines/channels/a$j;
+.class public final Lcotlinx/coroutines/channels/a$j;
 .super Ljava/lang/Object;
 .source "AbstractChannel.kt"
 
 # interfaces
-.implements Lkotlinx/coroutines/selects/d;
+.implements Lcotlinx/coroutines/selects/d;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/channels/a;->K()Lkotlinx/coroutines/selects/d;
+    value = Lcotlinx/coroutines/channels/a;->K()Lcotlinx/coroutines/selects/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,12 +19,12 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlinx/coroutines/selects/d<",
+        "Lcotlinx/coroutines/selects/d<",
         "TE;>;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,17 +35,17 @@
     }
     d2 = {
         "kotlinx/coroutines/channels/a$j",
-        "Lkotlinx/coroutines/selects/d;",
+        "Lcotlinx/coroutines/selects/d;",
         "R",
-        "Lkotlinx/coroutines/selects/f;",
+        "Lcotlinx/coroutines/selects/f;",
         "select",
-        "Lkotlin/Function2;",
-        "Lkotlin/coroutines/c;",
+        "Lcotlin/Function2;",
+        "Lcotlin/coroutines/c;",
         "",
         "block",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "k",
-        "(Lkotlinx/coroutines/selects/f;Lkotlin/jvm/u/p;)V",
+        "(Lcotlinx/coroutines/selects/f;Lcotlin/jvm/u/p;)V",
         "kotlinx-coroutines-core"
     }
     k = 0x1
@@ -58,11 +58,11 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlinx/coroutines/channels/a;
+.field final synthetic a:Lcotlinx/coroutines/channels/a;
 
 
 # direct methods
-.method constructor <init>(Lkotlinx/coroutines/channels/a;)V
+.method constructor <init>(Lcotlinx/coroutines/channels/a;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -71,7 +71,7 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lkotlinx/coroutines/channels/a$j;->a:Lkotlinx/coroutines/channels/a;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/a$j;->a:Lcotlinx/coroutines/channels/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -80,13 +80,13 @@
 
 
 # virtual methods
-.method public k(Lkotlinx/coroutines/selects/f;Lkotlin/jvm/u/p;)V
+.method public k(Lcotlinx/coroutines/selects/f;Lcotlin/jvm/u/p;)V
     .locals 2
-    .param p1    # Lkotlinx/coroutines/selects/f;
+    .param p1    # Lcotlinx/coroutines/selects/f;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -95,11 +95,11 @@
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/selects/f<",
+            "Lcotlinx/coroutines/selects/f<",
             "-TR;>;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-TE;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TR;>;+",
             "Ljava/lang/Object;",
             ">;)V"
@@ -107,22 +107,22 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/channels/a$j;->a:Lkotlinx/coroutines/channels/a;
+    iget-object v0, p0, Lcotlinx/coroutines/channels/a$j;->a:Lcotlinx/coroutines/channels/a;
 
     if-eqz p2, :cond_0
 
     const/4 v1, 0x1
 
-    invoke-static {v0, p1, v1, p2}, Lkotlinx/coroutines/channels/a;->R(Lkotlinx/coroutines/channels/a;Lkotlinx/coroutines/selects/f;ILkotlin/jvm/u/p;)V
+    invoke-static {v0, p1, v1, p2}, Lcotlinx/coroutines/channels/a;->R(Lcotlinx/coroutines/channels/a;Lcotlinx/coroutines/selects/f;ILcotlin/jvm/u/p;)V
 
     return-void
 
     :cond_0
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type suspend (kotlin.Any?) -> R"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method

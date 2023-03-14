@@ -14,7 +14,7 @@
     value = "SMAP\nMaskCompositionView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MaskCompositionView.kt\ncom/commsource/studio/MaskCompositionView\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,1045:1\n13506#2,2:1046\n13506#2,2:1048\n*E\n*S KotlinDebug\n*F\n+ 1 MaskCompositionView.kt\ncom/commsource/studio/MaskCompositionView\n*L\n138#1,2:1046\n622#1,2:1048\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "material",
         "",
         "isFromUser",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "u",
         "(Lcom/commsource/studio/i0;Z)V",
         "O",
@@ -99,10 +99,10 @@
         "distance",
         "([FFFF)Z",
         "A",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "endAction",
         "K",
-        "(Lkotlin/jvm/u/a;)V",
+        "(Lcotlin/jvm/u/a;)V",
         "S",
         "Lcom/commsource/studio/MatrixBox;",
         "getMaskCoordinateChangeMatrixBox",
@@ -188,9 +188,9 @@
         "M0",
         "rightValuer",
         "P0",
-        "Lkotlin/jvm/u/a;",
+        "Lcotlin/jvm/u/a;",
         "getRestoreEndAction",
-        "()Lkotlin/jvm/u/a;",
+        "()Lcotlin/jvm/u/a;",
         "setRestoreEndAction",
         "restoreEndAction",
         "O0",
@@ -465,11 +465,11 @@
     .end annotation
 .end field
 
-.field private P0:Lkotlin/jvm/u/a;
+.field private P0:Lcotlin/jvm/u/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -633,7 +633,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/MaskCompositionView$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/MaskCompositionView$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/MaskCompositionView;->Z0:Lcom/commsource/studio/MaskCompositionView$a;
 
@@ -712,7 +712,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const/4 v2, 0x0
@@ -727,7 +727,7 @@
 
     move-object v1, p1
 
-    invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/MaskCompositionView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/MaskCompositionView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -742,7 +742,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const/4 v3, 0x0
@@ -757,7 +757,7 @@
 
     move-object v2, p2
 
-    invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/MaskCompositionView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/MaskCompositionView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -772,12 +772,12 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -853,7 +853,7 @@
 
     move-object v0, p2
 
-    invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/c;-><init>(FFFILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/c;-><init>(FFFILcotlin/jvm/internal/u;)V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->P:Lcom/commsource/studio/c;
 
@@ -872,7 +872,7 @@
 
     move-object v6, p2
 
-    invoke-direct/range {v6 .. v11}, Lcom/commsource/studio/c;-><init>(FFFILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v6 .. v11}, Lcom/commsource/studio/c;-><init>(FFFILcotlin/jvm/internal/u;)V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->Q:Lcom/commsource/studio/c;
 
@@ -1414,7 +1414,7 @@
     .end array-data
 .end method
 
-.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p5, p4, 0x2
@@ -1827,7 +1827,7 @@
 
     const-string v1, "canvas"
 
-    invoke-static {v7, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->N:Lcom/commsource/studio/MatrixBox;
@@ -2552,7 +2552,7 @@
 
     const-string v1, "downEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x2
 
@@ -2802,7 +2802,7 @@
 
     const-string v2, "validAnimator"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->d()Z
 
@@ -3654,17 +3654,17 @@
     return-void
 .end method
 
-.method public final K(Lkotlin/jvm/u/a;)V
+.method public final K(Lcotlin/jvm/u/a;)V
     .locals 12
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -3675,7 +3675,7 @@
 
     const-string v1, "endAction"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->T:Lcom/commsource/studio/MatrixBox;
@@ -3690,7 +3690,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -3700,14 +3700,14 @@
 
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->b0:Landroid/graphics/RectF;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
     .line 2
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3716,7 +3716,7 @@
 
     .line 4
     :cond_0
-    iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->P0:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->P0:Lcotlin/jvm/u/a;
 
     .line 5
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->O0:Lcom/commsource/camera/f1/l;
@@ -3792,7 +3792,7 @@
 
     const/4 v11, 0x0
 
-    invoke-static/range {v3 .. v11}, Lcom/commsource/studio/MatrixBox;->animateToMatrix$default(Lcom/commsource/studio/MatrixBox;Lcom/commsource/studio/MatrixBox;Landroid/graphics/PointF;JLkotlin/jvm/u/a;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v3 .. v11}, Lcom/commsource/studio/MatrixBox;->animateToMatrix$default(Lcom/commsource/studio/MatrixBox;Lcom/commsource/studio/MatrixBox;Landroid/graphics/PointF;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 11
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->O0:Lcom/commsource/camera/f1/l;
@@ -4002,7 +4002,7 @@
 
     div-float/2addr v4, v5
 
-    invoke-static {v1, v4}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v1, v4}, Lcotlin/g2/o;->m(FF)F
 
     move-result v1
 
@@ -4879,13 +4879,13 @@
     return-object v1
 .end method
 
-.method public final getRestoreEndAction()Lkotlin/jvm/u/a;
+.method public final getRestoreEndAction()Lcotlin/jvm/u/a;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -4898,7 +4898,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->P0:Lkotlin/jvm/u/a;
+    iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->P0:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5052,7 +5052,7 @@
 
     const-string v1, "canvas"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
@@ -5449,7 +5449,7 @@
 
     const-string v1, "event"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->r0:Lcom/commsource/studio/i;
@@ -5496,7 +5496,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->f:Landroid/graphics/RectF;
@@ -5519,7 +5519,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->O:[F
@@ -5576,7 +5576,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->n0:Landroid/graphics/RectF;
@@ -5618,7 +5618,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->J:Landroid/graphics/Matrix;
@@ -5671,7 +5671,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->P:Lcom/commsource/studio/c;
@@ -5728,7 +5728,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->o0:Landroid/graphics/RectF;
@@ -5738,17 +5738,17 @@
     return-void
 .end method
 
-.method public final setRestoreEndAction(Lkotlin/jvm/u/a;)V
+.method public final setRestoreEndAction(Lcotlin/jvm/u/a;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -5758,7 +5758,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->P0:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->P0:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5778,7 +5778,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->Q:Lcom/commsource/studio/c;
@@ -5849,7 +5849,7 @@
 
     const-string v3, "AppContext.getContext()"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -5904,7 +5904,7 @@
 
     const/4 v7, 0x0
 
-    invoke-static/range {v2 .. v7}, Lkotlin/text/m;->O4(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;
+    invoke-static/range {v2 .. v7}, Lcotlin/text/m;->O4(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
 
@@ -6190,7 +6190,7 @@
     aget-object v8, v2, v6
 
     .line 18
-    invoke-virtual {v8, v1}, Lcom/commsource/studio/c;->a(F)Lkotlin/Triple;
+    invoke-virtual {v8, v1}, Lcom/commsource/studio/c;->a(F)Lcotlin/Triple;
 
     move-result-object v8
 
@@ -6199,7 +6199,7 @@
     .line 19
     iget-object v9, p0, Lcom/commsource/studio/MaskCompositionView;->E0:Lcom/commsource/studio/MatrixBox;
 
-    invoke-virtual {v8}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v8}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v10
 
@@ -6218,7 +6218,7 @@
     invoke-virtual {v9, v10, v12, v11}, Lcom/commsource/studio/MatrixBox;->postRotate(FFF)V
 
     .line 20
-    invoke-virtual {v8}, Lkotlin/Triple;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v8}, Lcotlin/Triple;->getSecond()Ljava/lang/Object;
 
     move-result-object v9
 
@@ -6233,7 +6233,7 @@
     .line 21
     iget-object v9, p0, Lcom/commsource/studio/MaskCompositionView;->D0:Lcom/commsource/studio/MatrixBox;
 
-    invoke-virtual {v8}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v8}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v10
 
@@ -6253,7 +6253,7 @@
 
     .line 22
     :cond_0
-    invoke-virtual {v8}, Lkotlin/Triple;->getThird()Ljava/lang/Object;
+    invoke-virtual {v8}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
     move-result-object v8
 
@@ -6310,7 +6310,7 @@
 
     aget v2, v2, v5
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/c;->a(F)Lkotlin/Triple;
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/c;->a(F)Lcotlin/Triple;
 
     move-result-object v1
 
@@ -6321,7 +6321,7 @@
     .line 26
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->E0:Lcom/commsource/studio/MatrixBox;
 
-    invoke-virtual {v1}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v5
 
@@ -6334,7 +6334,7 @@
     invoke-virtual {v3, v2, v5}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
     .line 27
-    invoke-virtual {v1}, Lkotlin/Triple;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Triple;->getSecond()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -6349,7 +6349,7 @@
     .line 28
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->D0:Lcom/commsource/studio/MatrixBox;
 
-    invoke-virtual {v1}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v5
 
@@ -6363,7 +6363,7 @@
 
     .line 29
     :cond_3
-    invoke-virtual {v1}, Lkotlin/Triple;->getThird()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -6384,7 +6384,7 @@
 
     aget v3, v3, v4
 
-    invoke-virtual {v1, v3}, Lcom/commsource/studio/c;->a(F)Lkotlin/Triple;
+    invoke-virtual {v1, v3}, Lcom/commsource/studio/c;->a(F)Lcotlin/Triple;
 
     move-result-object v1
 
@@ -6393,7 +6393,7 @@
     .line 32
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->E0:Lcom/commsource/studio/MatrixBox;
 
-    invoke-virtual {v1}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v4
 
@@ -6406,7 +6406,7 @@
     invoke-virtual {v3, v4, v2}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
     .line 33
-    invoke-virtual {v1}, Lkotlin/Triple;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Triple;->getSecond()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -6421,7 +6421,7 @@
     .line 34
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->D0:Lcom/commsource/studio/MatrixBox;
 
-    invoke-virtual {v1}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v4
 
@@ -6435,7 +6435,7 @@
 
     .line 35
     :cond_5
-    invoke-virtual {v1}, Lkotlin/Triple;->getThird()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -6480,7 +6480,7 @@
 
     const-string v1, "downPoint"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/MaskCompositionView;->getViewScaleFractor()F
@@ -6533,11 +6533,11 @@
 
     const-string v1, "basePoint"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "targetPoint"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget v1, Lcom/commsource/studio/MaskCompositionView;->Y0:F
@@ -6659,7 +6659,7 @@
 
     const-string v1, "floatArray"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->N:Lcom/commsource/studio/MatrixBox;

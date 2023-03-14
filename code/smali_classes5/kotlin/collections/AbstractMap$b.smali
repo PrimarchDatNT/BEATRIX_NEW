@@ -1,11 +1,11 @@
-.class public final Lkotlin/collections/AbstractMap$b;
-.super Lkotlin/collections/h;
+.class public final Lcotlin/collections/AbstractMap$b;
+.super Lcotlin/collections/h;
 .source "AbstractMap.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/collections/AbstractMap;->d()Ljava/util/Set;
+    value = Lcotlin/collections/AbstractMap;->d()Ljava/util/Set;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,12 +15,12 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/collections/h<",
+        "Lcotlin/collections/h<",
         "TK;>;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
     }
     d2 = {
         "kotlin/collections/AbstractMap$b",
-        "Lkotlin/collections/h;",
+        "Lcotlin/collections/h;",
         "element",
         "",
         "contains",
@@ -55,11 +55,11 @@
 
 
 # instance fields
-.field final synthetic b:Lkotlin/collections/AbstractMap;
+.field final synthetic b:Lcotlin/collections/AbstractMap;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/collections/AbstractMap;)V
+.method constructor <init>(Lcotlin/collections/AbstractMap;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -68,9 +68,9 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lkotlin/collections/AbstractMap$b;->b:Lkotlin/collections/AbstractMap;
+    iput-object p1, p0, Lcotlin/collections/AbstractMap$b;->b:Lcotlin/collections/AbstractMap;
 
-    invoke-direct {p0}, Lkotlin/collections/h;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/h;-><init>()V
 
     return-void
 .end method
@@ -81,9 +81,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/AbstractMap$b;->b:Lkotlin/collections/AbstractMap;
+    iget-object v0, p0, Lcotlin/collections/AbstractMap$b;->b:Lcotlin/collections/AbstractMap;
 
-    invoke-virtual {v0}, Lkotlin/collections/AbstractMap;->size()I
+    invoke-virtual {v0}, Lcotlin/collections/AbstractMap;->size()I
 
     move-result v0
 
@@ -94,9 +94,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/AbstractMap$b;->b:Lkotlin/collections/AbstractMap;
+    iget-object v0, p0, Lcotlin/collections/AbstractMap$b;->b:Lcotlin/collections/AbstractMap;
 
-    invoke-virtual {v0, p1}, Lkotlin/collections/AbstractMap;->containsKey(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Lcotlin/collections/AbstractMap;->containsKey(Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -117,9 +117,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/AbstractMap$b;->b:Lkotlin/collections/AbstractMap;
+    iget-object v0, p0, Lcotlin/collections/AbstractMap$b;->b:Lcotlin/collections/AbstractMap;
 
-    invoke-virtual {v0}, Lkotlin/collections/AbstractMap;->entrySet()Ljava/util/Set;
+    invoke-virtual {v0}, Lcotlin/collections/AbstractMap;->entrySet()Ljava/util/Set;
 
     move-result-object v0
 
@@ -128,9 +128,9 @@
     move-result-object v0
 
     .line 2
-    new-instance v1, Lkotlin/collections/AbstractMap$b$a;
+    new-instance v1, Lcotlin/collections/AbstractMap$b$a;
 
-    invoke-direct {v1, v0}, Lkotlin/collections/AbstractMap$b$a;-><init>(Ljava/util/Iterator;)V
+    invoke-direct {v1, v0}, Lcotlin/collections/AbstractMap$b$a;-><init>(Ljava/util/Iterator;)V
 
     return-object v1
 .end method

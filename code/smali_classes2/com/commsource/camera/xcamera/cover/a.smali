@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -21,7 +21,7 @@
         "Lcom/commsource/camera/xcamera/cover/f;",
         "Lcom/commsource/camera/xcamera/cover/CoverGroup;",
         "group",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "f",
         "(Lcom/commsource/camera/xcamera/cover/CoverGroup;)V",
         "b",
@@ -129,7 +129,7 @@
 
     const-string v0, "group"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/a;->v()V
@@ -156,7 +156,7 @@
 
     const-string v0, "group"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/a;->a:Lcom/commsource/camera/xcamera/cover/CoverGroup;
@@ -201,7 +201,7 @@
 
     const-string v0, "routerEntity"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -307,7 +307,7 @@
 
     const-string v1, "coverGroup"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     return-object v0
@@ -334,7 +334,7 @@
 
     const-string v0, "clazz"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -348,7 +348,7 @@
 
     const-string v3, "coverGroup"
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/CoverGroup;->getViewModelProvider()Landroidx/lifecycle/ViewModelProvider;
@@ -361,7 +361,7 @@
 
     const-string v3, "coverGroup.viewModelProvider[clazz]"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     new-instance v3, Ljava/lang/StringBuilder;
@@ -430,7 +430,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/a;->a:Lcom/commsource/camera/xcamera/cover/CoverGroup;

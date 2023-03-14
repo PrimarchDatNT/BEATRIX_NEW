@@ -1,9 +1,9 @@
-.class public final Lkotlin/coroutines/intrinsics/a;
-.super Lkotlin/coroutines/intrinsics/b;
+.class public final Lcotlin/coroutines/intrinsics/a;
+.super Lcotlin/coroutines/intrinsics/b;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,18 +27,18 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/coroutines/intrinsics/b;-><init>()V
+    invoke-direct {p0}, Lcotlin/coroutines/intrinsics/b;-><init>()V
 
     return-void
 .end method
 
-.method public static bridge synthetic b(Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+.method public static bridge synthetic b(Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 0
-    .param p0    # Lkotlin/jvm/u/l;
+    .param p0    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -47,41 +47,41 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TT;>;+",
             "Ljava/lang/Object;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TT;>;)",
-            "Lkotlin/coroutines/c<",
-            "Lkotlin/t1;",
+            "Lcotlin/coroutines/c<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt;->b(Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-static {p0, p1}, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt;->b(Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static bridge synthetic c(Lkotlin/jvm/u/p;Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+.method public static bridge synthetic c(Lcotlin/jvm/u/p;Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 0
-    .param p0    # Lkotlin/jvm/u/p;
+    .param p0    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -92,37 +92,37 @@
             "T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-TR;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TT;>;+",
             "Ljava/lang/Object;",
             ">;TR;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TT;>;)",
-            "Lkotlin/coroutines/c<",
-            "Lkotlin/t1;",
+            "Lcotlin/coroutines/c<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0, p1, p2}, Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt;->c(Lkotlin/jvm/u/p;Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-static {p0, p1, p2}, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt;->c(Lcotlin/jvm/u/p;Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static bridge synthetic d(Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+.method public static bridge synthetic d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 0
-    .param p0    # Lkotlin/coroutines/c;
+    .param p0    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -131,21 +131,21 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TT;>;)",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "TT;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt;->d(Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-static {p0}, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p0
 
@@ -157,7 +157,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/b;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/b;->h()Ljava/lang/Object;
 
     move-result-object v0
 

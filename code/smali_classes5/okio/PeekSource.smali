@@ -11,7 +11,7 @@
     value = "SMAP\nPeekSource.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PeekSource.kt\nokio/PeekSource\n*L\n1#1,74:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "Lokio/Timeout;",
         "timeout",
         "()Lokio/Timeout;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "close",
         "()V",
         "",
@@ -88,7 +88,7 @@
 
     const-string v0, "upstream"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -145,7 +145,7 @@
 
     const-string v0, "sink"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-boolean v0, p0, Lokio/PeekSource;->closed:Z
@@ -171,7 +171,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     iget v2, v2, Lokio/Segment;->pos:I
@@ -213,7 +213,7 @@
     if-nez v0, :cond_3
 
     .line 6
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     iget v0, v0, Lokio/Segment;->pos:I

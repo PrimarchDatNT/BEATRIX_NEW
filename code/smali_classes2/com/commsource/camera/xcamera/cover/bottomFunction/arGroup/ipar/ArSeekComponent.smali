@@ -14,7 +14,7 @@
     value = "SMAP\nArSeekComponent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ArSeekComponent.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent\n*L\n1#1,359:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
     d2 = {
         "Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;",
         "Landroid/widget/FrameLayout;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "C",
         "()V",
         "K",
@@ -37,8 +37,8 @@
         "(Z)V",
         "setAnimIndicator",
         "z",
-        "Lkotlin/Function3;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function3;",
+        "Lcotlin/k0;",
         "name",
         "isMakeupEvent",
         "",
@@ -46,11 +46,11 @@
         "isStopTrack",
         "block",
         "setProgressChangeCallback",
-        "(Lkotlin/jvm/u/q;)V",
-        "Lkotlin/Function1;",
+        "(Lcotlin/jvm/u/q;)V",
+        "Lcotlin/Function1;",
         "isEnable",
         "setMusicChangeCallback",
-        "(Lkotlin/jvm/u/l;)V",
+        "(Lcotlin/jvm/u/l;)V",
         "A",
         "isOpen",
         "L",
@@ -76,7 +76,7 @@
         "()Z",
         "setEnbaleMusic",
         "isEnbaleMusic",
-        "Lkotlin/jvm/u/q;",
+        "Lcotlin/jvm/u/q;",
         "progressChangeAction",
         "P",
         "E",
@@ -85,7 +85,7 @@
         "setShowArSeekComponent",
         "isShowArSeekComponent",
         "M",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "musicStateChangeAction",
         "d",
         "I",
@@ -95,7 +95,7 @@
         "anim",
         "Lcom/commsource/beautyplus/f0/cl;",
         "c",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "getInnerBinding",
         "()Lcom/commsource/beautyplus/f0/cl;",
         "innerBinding",
@@ -135,29 +135,29 @@
 
 .field private K:Z
 
-.field private L:Lkotlin/jvm/u/q;
+.field private L:Lcotlin/jvm/u/q;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/q<",
+            "Lcotlin/jvm/u/q<",
             "-",
             "Ljava/lang/Boolean;",
             "-",
             "Ljava/lang/Integer;",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private M:Lkotlin/jvm/u/l;
+.field private M:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -173,11 +173,11 @@
 
 .field private R:Ljava/util/HashMap;
 
-.field private final a:Lkotlin/w;
+.field private final a:Lcotlin/w;
 
 .field private b:Lcom/commsource/beautyplus/f0/cl;
 
-.field private final c:Lkotlin/w;
+.field private final c:Lcotlin/w;
 
 .field private d:I
 
@@ -202,7 +202,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -212,22 +212,22 @@
 
     invoke-direct {p2, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent$vs$2;-><init>(Landroid/content/Context;)V
 
-    invoke-static {p2}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p2}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->a:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->a:Lcotlin/w;
 
     .line 3
     new-instance p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent$innerBinding$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent$innerBinding$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;)V
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->c:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->c:Lcotlin/w;
 
     const/4 p1, -0x1
 
@@ -445,7 +445,7 @@
     return-void
 .end method
 
-.method public static synthetic G(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;Lkotlin/jvm/u/q;ILjava/lang/Object;)V
+.method public static synthetic G(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;Lcotlin/jvm/u/q;ILjava/lang/Object;)V
     .locals 0
 
     const/16 p3, 0x2ec3
@@ -460,7 +460,7 @@
 
     .line 1
     :cond_0
-    invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->setProgressChangeCallback(Lkotlin/jvm/u/q;)V
+    invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->setProgressChangeCallback(Lcotlin/jvm/u/q;)V
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -665,9 +665,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->c:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->c:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -685,9 +685,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->a:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->a:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -728,7 +728,7 @@
     return p0
 .end method
 
-.method public static final synthetic j(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;)Lkotlin/jvm/u/l;
+.method public static final synthetic j(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;)Lcotlin/jvm/u/l;
     .locals 1
 
     const/16 v0, 0x2ee3
@@ -736,14 +736,14 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->M:Lkotlin/jvm/u/l;
+    iget-object p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->M:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 .end method
 
-.method public static final synthetic k(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;)Lkotlin/jvm/u/q;
+.method public static final synthetic k(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;)Lcotlin/jvm/u/q;
     .locals 1
 
     const/16 v0, 0x2ee1
@@ -751,7 +751,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->L:Lkotlin/jvm/u/q;
+    iget-object p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->L:Lcotlin/jvm/u/q;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -914,7 +914,7 @@
     :goto_0
     if-nez v1, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
@@ -945,7 +945,7 @@
     :goto_1
     if-nez v3, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
@@ -985,7 +985,7 @@
     :goto_2
     if-nez v4, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     invoke-virtual {v4}, Ljava/lang/Integer;->intValue()I
@@ -1011,7 +1011,7 @@
     :cond_6
     if-nez v2, :cond_7
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_7
     invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
@@ -1067,7 +1067,7 @@
     return-void
 .end method
 
-.method public static final synthetic u(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;Lkotlin/jvm/u/l;)V
+.method public static final synthetic u(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;Lcotlin/jvm/u/l;)V
     .locals 1
 
     const/16 v0, 0x2ee4
@@ -1075,14 +1075,14 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->M:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->M:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public static final synthetic v(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;Lkotlin/jvm/u/q;)V
+.method public static final synthetic v(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;Lcotlin/jvm/u/q;)V
     .locals 1
 
     const/16 v0, 0x2ee2
@@ -1090,7 +1090,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->L:Lkotlin/jvm/u/q;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->L:Lcotlin/jvm/u/q;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1161,7 +1161,7 @@
     :goto_0
     if-nez v1, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
@@ -1192,7 +1192,7 @@
     :goto_1
     if-nez v3, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
@@ -1232,7 +1232,7 @@
     :goto_2
     if-nez v4, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     invoke-virtual {v4}, Ljava/lang/Integer;->intValue()I
@@ -1258,7 +1258,7 @@
     :cond_6
     if-nez v2, :cond_7
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_7
     invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
@@ -2119,9 +2119,9 @@
     goto :goto_3
 
     :cond_17
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
-    invoke-direct {p1, v8}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v8}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2184,9 +2184,9 @@
     goto :goto_6
 
     :cond_1b
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
-    invoke-direct {p1, v8}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v8}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2244,9 +2244,9 @@
     goto :goto_8
 
     :cond_1f
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
-    invoke-direct {p1, v8}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v8}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2400,19 +2400,19 @@
     return-void
 .end method
 
-.method public final setMusicChangeCallback(Lkotlin/jvm/u/l;)V
+.method public final setMusicChangeCallback(Lcotlin/jvm/u/l;)V
     .locals 2
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -2423,10 +2423,10 @@
 
     const-string v1, "block"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->M:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->M:Lcotlin/jvm/u/l;
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2449,23 +2449,23 @@
     return-void
 .end method
 
-.method public final setProgressChangeCallback(Lkotlin/jvm/u/q;)V
+.method public final setProgressChangeCallback(Lcotlin/jvm/u/q;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/q;
+    .param p1    # Lcotlin/jvm/u/q;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/q<",
+            "Lcotlin/jvm/u/q<",
             "-",
             "Ljava/lang/Boolean;",
             "-",
             "Ljava/lang/Integer;",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -2475,7 +2475,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->L:Lkotlin/jvm/u/q;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->L:Lcotlin/jvm/u/q;
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

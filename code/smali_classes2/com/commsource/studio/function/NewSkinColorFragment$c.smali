@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -162,9 +162,9 @@
 
     .line 5
     :cond_0
-    new-instance p2, Lkotlin/TypeCastException;
+    new-instance p2, Lcotlin/TypeCastException;
 
-    invoke-direct {p2, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, v0}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -172,9 +172,9 @@
 
     .line 6
     :cond_1
-    new-instance p2, Lkotlin/TypeCastException;
+    new-instance p2, Lcotlin/TypeCastException;
 
-    invoke-direct {p2, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, v0}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

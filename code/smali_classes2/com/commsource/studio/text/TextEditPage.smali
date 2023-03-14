@@ -14,7 +14,7 @@
     value = "SMAP\nTextEditPage.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextEditPage.kt\ncom/commsource/studio/text/TextEditPage\n*L\n1#1,224:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
     d2 = {
         "Lcom/commsource/studio/text/TextEditPage;",
         "Landroid/app/Dialog;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "g",
         "()V",
         "",
@@ -43,7 +43,7 @@
         "(Landroid/widget/ImageView;)V",
         "Lcom/commsource/studio/text/TextViewModel;",
         "b",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "f",
         "()Lcom/commsource/studio/text/TextViewModel;",
         "mViewModel",
@@ -90,7 +90,7 @@
 # instance fields
 .field private a:Lcom/commsource/beautyplus/f0/mm;
 
-.field private final b:Lkotlin/w;
+.field private final b:Lcotlin/w;
 
 .field private c:I
 
@@ -107,7 +107,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/text/TextEditPage$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/text/TextEditPage$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/text/TextEditPage;->f:Lcom/commsource/studio/text/TextEditPage$a;
 
@@ -180,7 +180,7 @@
 
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v0, Lcom/res/provider/ResSTYLE;->TextEditPageDialog:I
 
@@ -192,11 +192,11 @@
 
     invoke-direct {v0, p1}, Lcom/commsource/studio/text/TextEditPage$mViewModel$2;-><init>(Lcom/commsource/beautyplus/BaseActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/text/TextEditPage;->b:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/text/TextEditPage;->b:Lcotlin/w;
 
     return-void
 .end method
@@ -285,9 +285,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/text/TextEditPage;->b:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/text/TextEditPage;->b:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -437,7 +437,7 @@
     .line 10
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/mm;->f:Landroid/widget/EditText;
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v3, 0x1
 
@@ -453,7 +453,7 @@
     :cond_2
     iget-object v4, v1, Lcom/commsource/beautyplus/f0/mm;->f:Landroid/widget/EditText;
 
-    invoke-static {v4, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v4, v2}, Landroid/widget/EditText;->setTypeface(Landroid/graphics/Typeface;)V
 
@@ -650,7 +650,7 @@
 
     const-string v1, "view"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v3, 0x0
 
@@ -667,7 +667,7 @@
     move-object v2, p1
 
     .line 1
-    invoke-static/range {v2 .. v9}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v9}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 2
     invoke-virtual {p0}, Landroid/app/Dialog;->show()V

@@ -16,7 +16,7 @@
     value = "SMAP\nColorItemViewHolder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ColorItemViewHolder.kt\ncom/commsource/studio/doodle/ColorItemViewHolder\n*L\n1#1,87:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Lcom/commsource/studio/doodle/a;",
         "Lcom/commsource/widget/h1/f;",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "z",
         "()V",
         "",
@@ -93,11 +93,11 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "parent"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_doodle_color:I
 
@@ -113,7 +113,7 @@
 
     const-string p2, "ItemDoodleColorBinding.bind(itemView)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/a;->p:Lcom/commsource/beautyplus/f0/ie;
 
@@ -238,7 +238,7 @@
 
     const-string v2, "viewBinding.colorItemView"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/view/View;->getWidth()I
 
@@ -311,7 +311,7 @@
 
     const-string v1, "item"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
@@ -355,7 +355,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ie;->a:Lcom/commsource/studio/doodle/ColorItemView;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -368,7 +368,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ie;->a:Lcom/commsource/studio/doodle/ColorItemView;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -394,7 +394,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ie;->a:Lcom/commsource/studio/doodle/ColorItemView;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
 

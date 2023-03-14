@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Integer;)V",
         "com/commsource/studio/ImageStudioActivity$initViewModel$1$25"
@@ -92,11 +92,11 @@
 
     const-string v3, "mViewBinding.spBottom"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v3, "it"
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -110,7 +110,7 @@
 
     const/4 v3, 0x1
 
-    invoke-static {v1, v2, v3, v2}, Lcom/commsource/widget/f1;->n(Lcom/commsource/widget/f1;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {v1, v2, v3, v2}, Lcom/commsource/widget/f1;->n(Lcom/commsource/widget/f1;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$c0;->a:Lcom/commsource/studio/ImageStudioActivity;
@@ -151,7 +151,7 @@
 
     const/4 v8, 0x0
 
-    invoke-static/range {v2 .. v8}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v8}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

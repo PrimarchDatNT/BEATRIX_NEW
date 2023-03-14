@@ -14,7 +14,7 @@
     value = "SMAP\nAutoManualComponent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AutoManualComponent.kt\ncom/commsource/studio/component/AutoManualComponent\n*L\n1#1,100:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "storeOwner",
         "Landroidx/lifecycle/LifecycleOwner;",
         "lifecycleOwner",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "p",
         "(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V",
         "",
@@ -121,7 +121,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -144,7 +144,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -167,7 +167,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/component/ComponentView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -213,14 +213,14 @@
     const-string p2, "ComponentAutoManualBindi\u2026ualMode!!\n        }\n    }"
 
     .line 6
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/component/AutoManualComponent;->J:Lcom/commsource/beautyplus/f0/u1;
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p5, p4, 0x2
@@ -243,7 +243,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p3, p3, 0x2
@@ -342,7 +342,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/studio/component/AutoManualComponent$b;->A()Z
@@ -450,11 +450,11 @@
 
     const-string v1, "storeOwner"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "lifecycleOwner"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     const-class p1, Lcom/commsource/studio/component/AutoManualComponent$b;
@@ -567,7 +567,7 @@
 
     const-string v2, "viewBinding.redPoint"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p1, :cond_0
 

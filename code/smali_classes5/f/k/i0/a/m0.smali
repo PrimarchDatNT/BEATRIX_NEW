@@ -20,7 +20,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -43,7 +43,7 @@
         "H0",
         "F",
         "entity",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a3",
         "(Lcom/commsource/beautymain/data/c;)V",
         "",

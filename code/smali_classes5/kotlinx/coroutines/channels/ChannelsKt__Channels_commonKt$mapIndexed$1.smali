@@ -1,14 +1,14 @@
-.class final Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;
-.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.class final Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;
+.super Lcotlin/coroutines/jvm/internal/SuspendLambda;
 .source "Channels.common.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->X0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/q;)Lkotlinx/coroutines/channels/y;
+    value = Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->X0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/channels/y;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Lkotlin/jvm/u/p<",
-        "Lkotlinx/coroutines/channels/w<",
+        "Lcotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lcotlin/jvm/u/p<",
+        "Lcotlinx/coroutines/channels/w<",
         "-TR;>;",
-        "Lkotlin/coroutines/c<",
+        "Lcotlin/coroutines/c<",
         "-",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;",
         "Ljava/lang/Object;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -43,8 +43,8 @@
     d2 = {
         "E",
         "R",
-        "Lkotlinx/coroutines/channels/w;",
-        "Lkotlin/t1;",
+        "Lcotlinx/coroutines/channels/w;",
+        "Lcotlin/t1;",
         "invoke",
         "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
         "<anonymous>"
@@ -57,7 +57,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt$mapIndexed$1"
     f = "Channels.common.kt"
     i = {
@@ -100,9 +100,9 @@
 
 
 # instance fields
-.field final synthetic $this_mapIndexed:Lkotlinx/coroutines/channels/y;
+.field final synthetic $this_mapIndexed:Lcotlinx/coroutines/channels/y;
 
-.field final synthetic $transform:Lkotlin/jvm/u/q;
+.field final synthetic $transform:Lcotlin/jvm/u/q;
 
 .field I$0:I
 
@@ -116,33 +116,33 @@
 
 .field label:I
 
-.field private p$:Lkotlinx/coroutines/channels/w;
+.field private p$:Lcotlinx/coroutines/channels/w;
 
 
 # direct methods
-.method constructor <init>(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)V
+.method constructor <init>(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->$this_mapIndexed:Lkotlinx/coroutines/channels/y;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->$this_mapIndexed:Lcotlinx/coroutines/channels/y;
 
-    iput-object p2, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->$transform:Lkotlin/jvm/u/q;
+    iput-object p2, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->$transform:Lcotlin/jvm/u/q;
 
     const/4 p1, 0x2
 
-    invoke-direct {p0, p1, p3}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/c;)V
+    invoke-direct {p0, p1, p3}, Lcotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILcotlin/coroutines/c;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+.method public final create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 3
     .param p1    # Ljava/lang/Object;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -150,10 +150,10 @@
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "*>;)",
-            "Lkotlin/coroutines/c<",
-            "Lkotlin/t1;",
+            "Lcotlin/coroutines/c<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -161,17 +161,17 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    new-instance v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;
+    new-instance v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;
 
-    iget-object v1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->$this_mapIndexed:Lkotlinx/coroutines/channels/y;
+    iget-object v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->$this_mapIndexed:Lcotlinx/coroutines/channels/y;
 
-    iget-object v2, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->$transform:Lkotlin/jvm/u/q;
+    iget-object v2, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->$transform:Lcotlin/jvm/u/q;
 
-    invoke-direct {v0, v1, v2, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;-><init>(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)V
+    invoke-direct {v0, v1, v2, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;-><init>(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)V
 
-    check-cast p1, Lkotlinx/coroutines/channels/w;
+    check-cast p1, Lcotlinx/coroutines/channels/w;
 
-    iput-object p1, v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->p$:Lkotlinx/coroutines/channels/w;
+    iput-object p1, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->p$:Lcotlinx/coroutines/channels/w;
 
     return-object v0
 .end method
@@ -179,17 +179,17 @@
 .method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    check-cast p2, Lkotlin/coroutines/c;
+    check-cast p2, Lcotlin/coroutines/c;
 
-    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-virtual {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p1
 
-    check-cast p1, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;
+    check-cast p1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;
 
-    sget-object p2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-virtual {p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -205,12 +205,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 1
-    iget v1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->label:I
+    iget v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->label:I
 
     const/4 v2, 0x3
 
@@ -226,17 +226,17 @@
 
     if-ne v1, v2, :cond_0
 
-    iget-object v1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$2:Ljava/lang/Object;
+    iget-object v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$2:Ljava/lang/Object;
 
-    check-cast v1, Lkotlinx/coroutines/channels/ChannelIterator;
+    check-cast v1, Lcotlinx/coroutines/channels/ChannelIterator;
 
-    iget v5, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->I$0:I
+    iget v5, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->I$0:I
 
-    iget-object v6, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$0:Ljava/lang/Object;
+    iget-object v6, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$0:Ljava/lang/Object;
 
-    check-cast v6, Lkotlinx/coroutines/channels/w;
+    check-cast v6, Lcotlinx/coroutines/channels/w;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     move-object p1, v6
 
@@ -256,23 +256,23 @@
 
     .line 3
     :cond_1
-    iget-object v1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$3:Ljava/lang/Object;
+    iget-object v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$3:Ljava/lang/Object;
 
-    check-cast v1, Lkotlinx/coroutines/channels/w;
+    check-cast v1, Lcotlinx/coroutines/channels/w;
 
-    iget-object v5, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$2:Ljava/lang/Object;
+    iget-object v5, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$2:Ljava/lang/Object;
 
-    check-cast v5, Lkotlinx/coroutines/channels/ChannelIterator;
+    check-cast v5, Lcotlinx/coroutines/channels/ChannelIterator;
 
-    iget-object v6, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$1:Ljava/lang/Object;
+    iget-object v6, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$1:Ljava/lang/Object;
 
-    iget v7, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->I$0:I
+    iget v7, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->I$0:I
 
-    iget-object v8, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$0:Ljava/lang/Object;
+    iget-object v8, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$0:Ljava/lang/Object;
 
-    check-cast v8, Lkotlinx/coroutines/channels/w;
+    check-cast v8, Lcotlinx/coroutines/channels/w;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     move-object v9, p0
 
@@ -285,33 +285,33 @@
     goto/16 :goto_2
 
     :cond_2
-    iget-object v1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$1:Ljava/lang/Object;
+    iget-object v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$1:Ljava/lang/Object;
 
-    check-cast v1, Lkotlinx/coroutines/channels/ChannelIterator;
+    check-cast v1, Lcotlinx/coroutines/channels/ChannelIterator;
 
-    iget v5, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->I$0:I
+    iget v5, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->I$0:I
 
-    iget-object v6, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$0:Ljava/lang/Object;
+    iget-object v6, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$0:Ljava/lang/Object;
 
-    check-cast v6, Lkotlinx/coroutines/channels/w;
+    check-cast v6, Lcotlinx/coroutines/channels/w;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     move-object v7, p0
 
     goto :goto_1
 
     :cond_3
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    iget-object p1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->p$:Lkotlinx/coroutines/channels/w;
+    iget-object p1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->p$:Lcotlinx/coroutines/channels/w;
 
     const/4 v1, 0x0
 
     .line 4
-    iget-object v5, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->$this_mapIndexed:Lkotlinx/coroutines/channels/y;
+    iget-object v5, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->$this_mapIndexed:Lcotlinx/coroutines/channels/y;
 
-    invoke-interface {v5}, Lkotlinx/coroutines/channels/y;->iterator()Lkotlinx/coroutines/channels/ChannelIterator;
+    invoke-interface {v5}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
     move-result-object v5
 
@@ -322,15 +322,15 @@
     const/4 v5, 0x0
 
     :goto_0
-    iput-object p1, v6, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$0:Ljava/lang/Object;
+    iput-object p1, v6, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$0:Ljava/lang/Object;
 
-    iput v5, v6, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->I$0:I
+    iput v5, v6, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->I$0:I
 
-    iput-object v1, v6, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$1:Ljava/lang/Object;
+    iput-object v1, v6, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$1:Ljava/lang/Object;
 
-    iput v4, v6, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->label:I
+    iput v4, v6, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->label:I
 
-    invoke-interface {v1, v6}, Lkotlinx/coroutines/channels/ChannelIterator;->b(Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {v1, v6}, Lcotlinx/coroutines/channels/ChannelIterator;->b(Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object v7
 
@@ -356,32 +356,32 @@
 
     if-eqz p1, :cond_7
 
-    invoke-interface {v1}, Lkotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object p1
 
     .line 5
-    iget-object v8, v7, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->$transform:Lkotlin/jvm/u/q;
+    iget-object v8, v7, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->$transform:Lcotlin/jvm/u/q;
 
-    invoke-static {v5}, Lkotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
+    invoke-static {v5}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
 
     move-result-object v9
 
     add-int/2addr v5, v4
 
-    iput-object v6, v7, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$0:Ljava/lang/Object;
+    iput-object v6, v7, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$0:Ljava/lang/Object;
 
-    iput v5, v7, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->I$0:I
+    iput v5, v7, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->I$0:I
 
-    iput-object p1, v7, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$1:Ljava/lang/Object;
+    iput-object p1, v7, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$1:Ljava/lang/Object;
 
-    iput-object v1, v7, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$2:Ljava/lang/Object;
+    iput-object v1, v7, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$2:Ljava/lang/Object;
 
-    iput-object v6, v7, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$3:Ljava/lang/Object;
+    iput-object v6, v7, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$3:Ljava/lang/Object;
 
-    iput v3, v7, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->label:I
+    iput v3, v7, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->label:I
 
-    invoke-interface {v8, v9, p1, v7}, Lkotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v8, v9, p1, v7}, Lcotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v8
 
@@ -405,17 +405,17 @@
     move-object p1, v10
 
     :goto_2
-    iput-object v6, v9, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$0:Ljava/lang/Object;
+    iput-object v6, v9, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$0:Ljava/lang/Object;
 
-    iput v7, v9, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->I$0:I
+    iput v7, v9, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->I$0:I
 
-    iput-object v8, v9, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$1:Ljava/lang/Object;
+    iput-object v8, v9, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$1:Ljava/lang/Object;
 
-    iput-object v5, v9, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$2:Ljava/lang/Object;
+    iput-object v5, v9, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->L$2:Ljava/lang/Object;
 
-    iput v2, v9, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->label:I
+    iput v2, v9, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$mapIndexed$1;->label:I
 
-    invoke-interface {v1, p1, v9}, Lkotlinx/coroutines/channels/c0;->U(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {v1, p1, v9}, Lcotlinx/coroutines/channels/c0;->U(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -436,7 +436,7 @@
 
     .line 6
     :cond_7
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method

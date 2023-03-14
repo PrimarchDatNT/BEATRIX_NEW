@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -17,18 +17,18 @@
         "Lcom/commsource/editengine/j;",
         "",
         "info",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "(Ljava/lang/Object;)V",
         "T",
-        "Lkotlin/reflect/d;",
+        "Lcotlin/reflect/d;",
         "infoClass",
         "a",
-        "(Lkotlin/reflect/d;)Ljava/lang/Object;",
+        "(Lcotlin/reflect/d;)Ljava/lang/Object;",
         "d",
-        "(Lkotlin/reflect/d;)V",
+        "(Lcotlin/reflect/d;)V",
         "Ljava/util/HashMap;",
-        "Lkotlin/collections/HashMap;",
+        "Lcotlin/collections/HashMap;",
         "Ljava/util/HashMap;",
         "b",
         "()Ljava/util/HashMap;",
@@ -53,7 +53,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/HashMap<",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "*>;",
             "Ljava/lang/Object;",
             ">;"
@@ -84,9 +84,9 @@
 
 
 # virtual methods
-.method public final a(Lkotlin/reflect/d;)Ljava/lang/Object;
+.method public final a(Lcotlin/reflect/d;)Ljava/lang/Object;
     .locals 2
-    .param p1    # Lkotlin/reflect/d;
+    .param p1    # Lcotlin/reflect/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -95,7 +95,7 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "*>;)TT;"
         }
     .end annotation
@@ -109,7 +109,7 @@
 
     const-string v1, "infoClass"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/editengine/j;->a:Ljava/util/HashMap;
@@ -136,7 +136,7 @@
         value = {
             "()",
             "Ljava/util/HashMap<",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "*>;",
             "Ljava/lang/Object;",
             ">;"
@@ -171,7 +171,7 @@
 
     const-string v1, "info"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/editengine/j;->a:Ljava/util/HashMap;
@@ -184,7 +184,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v2}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v2
 
@@ -196,16 +196,16 @@
     return-void
 .end method
 
-.method public final d(Lkotlin/reflect/d;)V
+.method public final d(Lcotlin/reflect/d;)V
     .locals 2
-    .param p1    # Lkotlin/reflect/d;
+    .param p1    # Lcotlin/reflect/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "*>;)V"
         }
     .end annotation
@@ -216,7 +216,7 @@
 
     const-string v1, "infoClass"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/editengine/j;->a:Ljava/util/HashMap;
@@ -239,7 +239,7 @@
         value = {
             "(",
             "Ljava/util/HashMap<",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "*>;",
             "Ljava/lang/Object;",
             ">;)V"
@@ -252,7 +252,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/editengine/j;->a:Ljava/util/HashMap;

@@ -20,7 +20,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -43,7 +43,7 @@
         "(I)Ljava/util/List;",
         "",
         "list",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "Q1",
         "([Lcom/commsource/camera/montage/MontageGroupEntity;)V",
         "entity",

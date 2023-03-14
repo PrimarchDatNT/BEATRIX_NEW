@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "<anonymous>"
@@ -90,9 +90,9 @@
 
     iget-object v3, p0, Lcom/commsource/home/homepagedialog/j$c$c;->a:Lcom/commsource/home/homepagedialog/j$c;
 
-    iget-object v3, v3, Lcom/commsource/home/homepagedialog/j$c;->L:Lkotlin/jvm/internal/Ref$ObjectRef;
+    iget-object v3, v3, Lcom/commsource/home/homepagedialog/j$c;->L:Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iget-object v3, v3, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iget-object v3, v3, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     check-cast v3, Landroid/net/Uri;
 

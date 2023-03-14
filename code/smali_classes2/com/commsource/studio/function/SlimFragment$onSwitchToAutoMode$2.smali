@@ -1,9 +1,9 @@
 .class final Lcom/commsource/studio/function/SlimFragment$onSwitchToAutoMode$2;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "SlimFragment.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
@@ -18,14 +18,14 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
-        "Lkotlin/t1;",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,7 +35,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "()V",
         "<anonymous>"
@@ -50,22 +50,22 @@
 
 
 # instance fields
-.field final synthetic $defaultAutoProgress:Lkotlin/jvm/internal/Ref$IntRef;
+.field final synthetic $defaultAutoProgress:Lcotlin/jvm/internal/Ref$IntRef;
 
 .field final synthetic this$0:Lcom/commsource/studio/function/SlimFragment;
 
 
 # direct methods
-.method constructor <init>(Lcom/commsource/studio/function/SlimFragment;Lkotlin/jvm/internal/Ref$IntRef;)V
+.method constructor <init>(Lcom/commsource/studio/function/SlimFragment;Lcotlin/jvm/internal/Ref$IntRef;)V
     .locals 0
 
     iput-object p1, p0, Lcom/commsource/studio/function/SlimFragment$onSwitchToAutoMode$2;->this$0:Lcom/commsource/studio/function/SlimFragment;
 
-    iput-object p2, p0, Lcom/commsource/studio/function/SlimFragment$onSwitchToAutoMode$2;->$defaultAutoProgress:Lkotlin/jvm/internal/Ref$IntRef;
+    iput-object p2, p0, Lcom/commsource/studio/function/SlimFragment$onSwitchToAutoMode$2;->$defaultAutoProgress:Lcotlin/jvm/internal/Ref$IntRef;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -82,7 +82,7 @@
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/SlimFragment$onSwitchToAutoMode$2;->invoke()V
 
-    sget-object v1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -121,9 +121,9 @@
 
     if-eqz v1, :cond_0
 
-    iget-object v3, p0, Lcom/commsource/studio/function/SlimFragment$onSwitchToAutoMode$2;->$defaultAutoProgress:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object v3, p0, Lcom/commsource/studio/function/SlimFragment$onSwitchToAutoMode$2;->$defaultAutoProgress:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget v3, v3, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v3, v3, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     int-to-float v3, v3
 
@@ -147,7 +147,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v1, v2, v4, v3, v4}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {v1, v2, v4, v3, v4}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 4
     :cond_1

@@ -8,7 +8,7 @@
     value = "SMAP\nDoodleViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DoodleViewModel.kt\ncom/commsource/studio/doodle/DoodleViewModel\n+ 2 _Maps.kt\nkotlin/collections/MapsKt___MapsKt\n*L\n1#1,186:1\n181#2,2:187\n*E\n*S KotlinDebug\n*F\n+ 1 DoodleViewModel.kt\ncom/commsource/studio/doodle/DoodleViewModel\n*L\n43#1,2:187\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,10 +24,10 @@
         "categoryId",
         "Ljava/util/HashMap;",
         "",
-        "Lkotlin/collections/HashMap;",
+        "Lcotlin/collections/HashMap;",
         "Q",
         "(Ljava/lang/String;)Ljava/util/HashMap;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "y",
         "()V",
         "",
@@ -59,7 +59,7 @@
         "r",
         "E",
         "doodleProChangeEvent",
-        "Lkotlin/Pair;",
+        "Lcotlin/Pair;",
         "l",
         "J",
         "selectDoodle",
@@ -269,7 +269,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Landroidx/lifecycle/MutableLiveData<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             ">;>;"
@@ -350,7 +350,7 @@
 
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
@@ -693,7 +693,7 @@
         value = {
             "()",
             "Landroidx/lifecycle/MutableLiveData<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             ">;>;"
@@ -892,7 +892,7 @@
 
     const-string v1, "categoryId"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/h;->a:Ljava/util/HashMap;
@@ -1045,9 +1045,9 @@
     .line 5
     iget-object p1, p0, Lcom/commsource/studio/doodle/h;->l:Landroidx/lifecycle/MutableLiveData;
 
-    new-instance v2, Lkotlin/Pair;
+    new-instance v2, Lcotlin/Pair;
 
-    invoke-direct {v2, v3, v4}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v2, v3, v4}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {p1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
@@ -1108,7 +1108,7 @@
 
     iget-object v6, p0, Lcom/commsource/studio/doodle/h;->n:Ljava/lang/String;
 
-    invoke-static {v5, v6}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v5
 
@@ -1148,11 +1148,11 @@
     :goto_2
     iget-object p1, p0, Lcom/commsource/studio/doodle/h;->l:Landroidx/lifecycle/MutableLiveData;
 
-    new-instance v0, Lkotlin/Pair;
+    new-instance v0, Lcotlin/Pair;
 
     iget-object v2, p0, Lcom/commsource/studio/doodle/h;->n:Ljava/lang/String;
 
-    invoke-direct {v0, v3, v2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, v3, v2}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
@@ -1197,14 +1197,14 @@
     .line 19
     iget-object v0, p0, Lcom/commsource/studio/doodle/h;->l:Landroidx/lifecycle/MutableLiveData;
 
-    new-instance v2, Lkotlin/Pair;
+    new-instance v2, Lcotlin/Pair;
 
     if-nez p1, :cond_a
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_a
-    invoke-direct {v2, p1, v4}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v2, p1, v4}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {v0, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
@@ -1214,9 +1214,9 @@
     :cond_b
     iget-object p1, p0, Lcom/commsource/studio/doodle/h;->l:Landroidx/lifecycle/MutableLiveData;
 
-    new-instance v0, Lkotlin/Pair;
+    new-instance v0, Lcotlin/Pair;
 
-    invoke-direct {v0, v3, v4}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, v3, v4}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
@@ -1282,7 +1282,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->e:Lcom/commsource/beautyfilter/NoStickLiveData;
@@ -1313,7 +1313,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->c:Lcom/commsource/beautyfilter/NoStickLiveData;
@@ -1344,7 +1344,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->d:Lcom/commsource/beautyfilter/NoStickLiveData;
@@ -1394,7 +1394,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/h;->f:Lcom/commsource/beautyfilter/NoStickLiveData;

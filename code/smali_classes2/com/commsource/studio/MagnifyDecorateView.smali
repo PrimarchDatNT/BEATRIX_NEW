@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -18,16 +18,16 @@
         "Landroid/view/View;",
         "Landroid/graphics/Canvas;",
         "canvas",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onDraw",
         "(Landroid/graphics/Canvas;)V",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "a",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "getOnDrawListener",
-        "()Lkotlin/jvm/u/l;",
+        "()Lcotlin/jvm/u/l;",
         "setOnDrawListener",
-        "(Lkotlin/jvm/u/l;)V",
+        "(Lcotlin/jvm/u/l;)V",
         "onDrawListener",
         "Landroid/content/Context;",
         "context",
@@ -51,13 +51,13 @@
 
 
 # instance fields
-.field private a:Lkotlin/jvm/u/l;
+.field private a:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Landroid/graphics/Canvas;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -79,7 +79,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -102,7 +102,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -125,7 +125,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -204,14 +204,14 @@
     return-object v1
 .end method
 
-.method public final getOnDrawListener()Lkotlin/jvm/u/l;
+.method public final getOnDrawListener()Lcotlin/jvm/u/l;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Landroid/graphics/Canvas;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -224,7 +224,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/studio/MagnifyDecorateView;->a:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/studio/MagnifyDecorateView;->a:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -243,20 +243,20 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/studio/MagnifyDecorateView;->a:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/studio/MagnifyDecorateView;->a:Lcotlin/jvm/u/l;
 
     if-eqz v1, :cond_1
 
     if-nez p1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
-    invoke-interface {v1, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 2
     :cond_1
@@ -265,19 +265,19 @@
     return-void
 .end method
 
-.method public final setOnDrawListener(Lkotlin/jvm/u/l;)V
+.method public final setOnDrawListener(Lcotlin/jvm/u/l;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Landroid/graphics/Canvas;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -287,7 +287,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/MagnifyDecorateView;->a:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/studio/MagnifyDecorateView;->a:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

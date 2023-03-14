@@ -14,7 +14,7 @@
     value = "SMAP\nBaseShader.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BaseShader.kt\ncom/commsource/studio/shader/BaseShader\n*L\n1#1,48:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
     d2 = {
         "Lcom/commsource/studio/shader/BaseShader;",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "f",
         "()V",
         "",
@@ -41,7 +41,7 @@
         "I",
         "shaderType",
         "a",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "()I",
         "shaderId",
         "<init>",
@@ -102,7 +102,7 @@
 
 
 # instance fields
-.field private final a:Lkotlin/w;
+.field private final a:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -118,7 +118,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/commsource/studio/shader/BaseShader$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcom/commsource/studio/shader/BaseShader$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lcom/commsource/studio/shader/BaseShader;->k:Lcom/commsource/studio/shader/BaseShader$a;
 
@@ -138,11 +138,11 @@
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/shader/BaseShader$shaderId$2;-><init>(Lcom/commsource/studio/shader/BaseShader;)V
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/shader/BaseShader;->a:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/shader/BaseShader;->a:Lcotlin/w;
 
     return-void
 .end method
@@ -161,9 +161,9 @@
 .method public final b()I
     .locals 1
 
-    iget-object v0, p0, Lcom/commsource/studio/shader/BaseShader;->a:Lkotlin/w;
+    iget-object v0, p0, Lcom/commsource/studio/shader/BaseShader;->a:Lcotlin/w;
 
-    invoke-interface {v0}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 

@@ -8,7 +8,7 @@
     value = "SMAP\nEffectFunctionViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EffectFunctionViewModel.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel\n*L\n1#1,76:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "Landroidx/lifecycle/AndroidViewModel;",
         "Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;",
         "effectFunction",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "G",
         "(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;)V",
         "Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/EffectSuspendFunction;",
@@ -43,7 +43,7 @@
         "B",
         "Landroidx/lifecycle/MutableLiveData;",
         "a",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "y",
         "()Landroidx/lifecycle/MutableLiveData;",
         "effectFunctionChangeEvent",
@@ -72,12 +72,12 @@
 
 
 # instance fields
-.field private final a:Lkotlin/w;
+.field private final a:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final b:Lkotlin/w;
+.field private final b:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -97,7 +97,7 @@
 
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
@@ -105,20 +105,20 @@
     .line 2
     sget-object p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel$effectFunctionChangeEvent$2;->INSTANCE:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel$effectFunctionChangeEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;->a:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;->a:Lcotlin/w;
 
     .line 3
     sget-object p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel$effectSuspendFunctionChangeEvent$2;->INSTANCE:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel$effectSuspendFunctionChangeEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;->b:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;->b:Lcotlin/w;
 
     return-void
 .end method
@@ -138,7 +138,7 @@
 
     const-string v1, "effectFunction"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;->y()Landroidx/lifecycle/MutableLiveData;
@@ -413,9 +413,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;->a:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;->a:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -444,9 +444,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;->b:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;->b:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 

@@ -14,7 +14,7 @@
     value = "SMAP\nCameraFpsRecord.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CameraFpsRecord.kt\ncom/commsource/beautyplus/CameraFpsRecord\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,108:1\n1819#2,2:109\n*E\n*S KotlinDebug\n*F\n+ 1 CameraFpsRecord.kt\ncom/commsource/beautyplus/CameraFpsRecord\n*L\n92#1,2:109\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
         "",
         "",
         "fps",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(I)V",
         "",
@@ -38,7 +38,7 @@
         "()V",
         "Ljava/util/ArrayList;",
         "Lcom/commsource/beautyplus/w;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "a",
         "Ljava/util/ArrayList;",
         "fpsData",
@@ -107,7 +107,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/beautyplus/t$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/beautyplus/t$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/beautyplus/t;->h:Lcom/commsource/beautyplus/t$a;
 

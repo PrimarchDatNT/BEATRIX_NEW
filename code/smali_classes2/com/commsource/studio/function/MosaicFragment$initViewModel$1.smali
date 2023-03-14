@@ -29,7 +29,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -44,7 +44,7 @@
         "kotlin.jvm.PlatformType",
         "",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/util/List;)V"
     }
@@ -109,7 +109,7 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/MosaicFragment$initViewModel$1$1;-><init>(Lcom/commsource/studio/function/MosaicFragment$initViewModel$1;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/studio/function/BaseSubFragment;->c1(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/studio/function/BaseSubFragment;->c1(Lcotlin/jvm/u/a;)V
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

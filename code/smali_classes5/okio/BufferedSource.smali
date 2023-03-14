@@ -8,7 +8,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "()Z",
         "",
         "byteCount",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "require",
         "(J)V",
         "request",
@@ -122,10 +122,10 @@
 
 # virtual methods
 .method public abstract buffer()Lokio/Buffer;
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "moved to val: use getBuffer() instead"
-        replaceWith = .subannotation Lkotlin/q0;
+        replaceWith = .subannotation Lcotlin/q0;
             expression = "buffer"
             imports = {}
         .end subannotation

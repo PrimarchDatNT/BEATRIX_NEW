@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,7 +40,7 @@
     d2 = {
         "",
         "position",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(I)V"
     }
@@ -120,7 +120,7 @@
 
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -143,7 +143,7 @@
 
     const-string v1, "owner.viewBinding.puzzleSelect"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 

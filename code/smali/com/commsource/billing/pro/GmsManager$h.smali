@@ -27,7 +27,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -43,7 +43,7 @@
         "",
         "Lcom/meitu/global/billing/product/data/Product;",
         "t",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "b",
         "(Ljava/util/Map;)V",
         "",
@@ -113,7 +113,7 @@
 
     const-string/jumbo v1, "t"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

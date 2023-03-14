@@ -32,7 +32,7 @@
     value = "SMAP\nCameraTransaction.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CameraTransaction.kt\ncom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2\n*L\n1#1,277:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "Lcom/commsource/camera/xcamera/bean/c;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/camera/xcamera/bean/c;)V"
     }
@@ -156,7 +156,7 @@
 
     const-string v6, "it.faces"
 
-    invoke-static {v5, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     array-length v5, v5
 
@@ -338,7 +338,7 @@
 
     if-nez v3, :cond_6
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     invoke-virtual {v3}, Lcom/meitu/template/bean/ArMaterial;->getNumber()I
@@ -380,7 +380,7 @@
 
     if-nez v3, :cond_8
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_8
     invoke-virtual {v3}, Lcom/meitu/template/bean/Filter;->getFilterId()I
@@ -482,7 +482,7 @@
     .line 28
     new-instance v2, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$a;
 
-    invoke-direct {v2, v5, v1, v1}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$a;-><init>(Lkotlin/jvm/u/a;Lcom/commsource/camera/fastcapture/SelfiePhotoData;Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
+    invoke-direct {v2, v5, v1, v1}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$a;-><init>(Lcotlin/jvm/u/a;Lcom/commsource/camera/fastcapture/SelfiePhotoData;Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
 
     invoke-virtual {p1, v2}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
@@ -606,9 +606,9 @@
 
     move-object v8, p0
 
-    invoke-direct/range {v2 .. v8}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$4;-><init>(Lcom/commsource/camera/fastcapture/SelfiePhotoData;Lkotlin/jvm/u/a;Ljava/lang/String;Landroid/graphics/Bitmap;Lcom/commsource/camera/xcamera/bean/c;Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2;)V
+    invoke-direct/range {v2 .. v8}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$4;-><init>(Lcom/commsource/camera/fastcapture/SelfiePhotoData;Lcotlin/jvm/u/a;Ljava/lang/String;Landroid/graphics/Bitmap;Lcom/commsource/camera/xcamera/bean/c;Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2;)V
 
-    invoke-static {v10, v11}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->i(Lcom/commsource/widget/dialog/delegate/b;Lkotlin/jvm/u/l;)V
+    invoke-static {v10, v11}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->i(Lcom/commsource/widget/dialog/delegate/b;Lcotlin/jvm/u/l;)V
 
     .line 43
     invoke-virtual {v10}, Lf/d/a;->F()V
@@ -625,7 +625,7 @@
 
     if-nez v1, :cond_f
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_f
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
@@ -664,7 +664,7 @@
 
     .line 50
     :cond_11
-    invoke-interface {v5}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v5}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     .line 51
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -685,7 +685,7 @@
 
     const-string v1, "arViewModel.applyArEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
 
@@ -700,7 +700,7 @@
 
     const-string v2, "it"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1, p1}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;->y(Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;Lcom/meitu/template/bean/ArMaterial;)V
 

@@ -1,10 +1,10 @@
-.class public final Lkotlin/jvm/internal/p;
+.class public final Lcotlin/jvm/internal/p;
 .super Ljava/lang/Object;
 .source "PrimitiveCompanionObjects.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -14,7 +14,7 @@
         "\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u000c\n\u0002\u0008\u0005\n\u0002\u0010\u0008\n\u0002\u0008\u0018\u0008\u00c0\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u001f\u0010\u000cR\u0016\u0010\u0005\u001a\u00020\u00028\u0006@\u0006X\u0086T\u00a2\u0006\u0006\n\u0004\u0008\u0003\u0010\u0004R\u0016\u0010\u0007\u001a\u00020\u00028\u0006@\u0006X\u0086T\u00a2\u0006\u0006\n\u0004\u0008\u0006\u0010\u0004R\u001c\u0010\r\u001a\u00020\u00088\u0006@\u0007X\u0087T\u00a2\u0006\u000c\n\u0004\u0008\t\u0010\n\u0012\u0004\u0008\u000b\u0010\u000cR\u001c\u0010\u0010\u001a\u00020\u00028\u0006@\u0007X\u0087T\u00a2\u0006\u000c\n\u0004\u0008\u000e\u0010\u0004\u0012\u0004\u0008\u000f\u0010\u000cR\u0016\u0010\u0012\u001a\u00020\u00028\u0006@\u0006X\u0086T\u00a2\u0006\u0006\n\u0004\u0008\u0011\u0010\u0004R\u0016\u0010\u0014\u001a\u00020\u00028\u0006@\u0006X\u0086T\u00a2\u0006\u0006\n\u0004\u0008\u0013\u0010\u0004R\u001c\u0010\u0017\u001a\u00020\u00028\u0006@\u0007X\u0087T\u00a2\u0006\u000c\n\u0004\u0008\u0015\u0010\u0004\u0012\u0004\u0008\u0016\u0010\u000cR\u0016\u0010\u0019\u001a\u00020\u00028\u0006@\u0006X\u0086T\u00a2\u0006\u0006\n\u0004\u0008\u0018\u0010\u0004R\u0016\u0010\u001b\u001a\u00020\u00028\u0006@\u0006X\u0086T\u00a2\u0006\u0006\n\u0004\u0008\u001a\u0010\u0004R\u001c\u0010\u001e\u001a\u00020\u00088\u0006@\u0007X\u0087T\u00a2\u0006\u000c\n\u0004\u0008\u001c\u0010\n\u0012\u0004\u0008\u001d\u0010\u000c\u00a8\u0006 "
     }
     d2 = {
-        "Lkotlin/jvm/internal/p;",
+        "Lcotlin/jvm/internal/p;",
         "",
         "",
         "g",
@@ -78,7 +78,7 @@
 
 .field public static final j:I = 0x10
 
-.field public static final k:Lkotlin/jvm/internal/p;
+.field public static final k:Lcotlin/jvm/internal/p;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -89,11 +89,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lkotlin/jvm/internal/p;
+    new-instance v0, Lcotlin/jvm/internal/p;
 
-    invoke-direct {v0}, Lkotlin/jvm/internal/p;-><init>()V
+    invoke-direct {v0}, Lcotlin/jvm/internal/p;-><init>()V
 
-    sput-object v0, Lkotlin/jvm/internal/p;->k:Lkotlin/jvm/internal/p;
+    sput-object v0, Lcotlin/jvm/internal/p;->k:Lcotlin/jvm/internal/p;
 
     return-void
 .end method
@@ -109,7 +109,7 @@
 
 .method public static synthetic a()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -118,7 +118,7 @@
 
 .method public static synthetic b()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -127,7 +127,7 @@
 
 .method public static synthetic c()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -136,7 +136,7 @@
 
 .method public static synthetic d()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 

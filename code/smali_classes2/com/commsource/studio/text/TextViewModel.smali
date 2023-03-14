@@ -14,7 +14,7 @@
     value = "SMAP\nTextViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextViewModel.kt\ncom/commsource/studio/text/TextViewModel\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,429:1\n13506#2,2:430\n*E\n*S KotlinDebug\n*F\n+ 1 TextViewModel.kt\ncom/commsource/studio/text/TextViewModel\n*L\n129#1,2:430\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "",
         "T",
         "(Lcom/commsource/studio/text/TextTemplateMaterial;)Z",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "Z",
         "(Lcom/commsource/studio/text/TextTemplateMaterial;)V",
         "Lcom/commsource/studio/text/TextFontMaterial;",
@@ -115,7 +115,7 @@
         "N",
         "styleRefreshEvent",
         "c",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "Q",
         "titleBarStateEvent",
         "j",
@@ -131,7 +131,7 @@
         "(Lcom/commsource/studio/bean/TextLayerInfo;)V",
         "focusTextLayerInfo",
         "Ljava/util/HashMap;",
-        "Lkotlin/collections/HashMap;",
+        "Lcotlin/collections/HashMap;",
         "l",
         "Ljava/util/HashMap;",
         "J",
@@ -187,7 +187,7 @@
     .end annotation
 .end field
 
-.field private final c:Lkotlin/w;
+.field private final c:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -338,7 +338,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/text/TextViewModel$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/text/TextViewModel$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/text/TextViewModel;->p:Lcom/commsource/studio/text/TextViewModel$a;
 
@@ -356,7 +356,7 @@
 
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
@@ -378,11 +378,11 @@
     .line 4
     sget-object p1, Lcom/commsource/studio/text/TextViewModel$titleBarStateEvent$2;->INSTANCE:Lcom/commsource/studio/text/TextViewModel$titleBarStateEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/text/TextViewModel;->c:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/text/TextViewModel;->c:Lcotlin/w;
 
     .line 5
     new-instance p1, Lcom/commsource/beautyfilter/NoStickLiveData;
@@ -1084,9 +1084,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/text/TextViewModel;->c:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/text/TextViewModel;->c:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1136,7 +1136,7 @@
 
     const-string v1, "textFont"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextViewModel;->l:Ljava/util/HashMap;
@@ -1177,7 +1177,7 @@
 
     const-string v1, "template"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextViewModel;->k:Ljava/util/HashMap;
@@ -1219,7 +1219,7 @@
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextViewModel;->m:Lcom/commsource/studio/bean/TextLayerInfo;
 
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1263,7 +1263,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextViewModel;->a:Landroidx/lifecycle/MutableLiveData;
@@ -1313,7 +1313,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextViewModel;->b:Lcom/commsource/beautyfilter/NoStickLiveData;
@@ -1336,7 +1336,7 @@
 
     const-string v1, "textFont"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextViewModel;->l:Ljava/util/HashMap;
@@ -1347,7 +1347,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -1371,7 +1371,7 @@
 
     const-string v1, "template"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextViewModel;->k:Ljava/util/HashMap;
@@ -1409,7 +1409,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextViewModel;->n:Landroidx/lifecycle/MutableLiveData;
@@ -1432,7 +1432,7 @@
 
     const-string v1, "curEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/high16 v1, -0x80000000
 
@@ -1508,7 +1508,7 @@
 
     const-string v1, "curEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextViewModel;->m:Lcom/commsource/studio/bean/TextLayerInfo;
@@ -1862,7 +1862,7 @@
 
     const-string v1, "font"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextFontMaterial;->needDownload()Z
@@ -1999,7 +1999,7 @@
 
     const-string v1, "template"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextViewModel;->m:Lcom/commsource/studio/bean/TextLayerInfo;

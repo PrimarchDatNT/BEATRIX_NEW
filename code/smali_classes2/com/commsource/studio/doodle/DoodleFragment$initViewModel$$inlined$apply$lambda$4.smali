@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Float;)V",
         "com/commsource/studio/doodle/DoodleFragment$initViewModel$10$1"
@@ -169,7 +169,7 @@
 
     invoke-direct {v2, p0, p1}, Lcom/commsource/studio/doodle/DoodleFragment$initViewModel$$inlined$apply$lambda$4$1;-><init>(Lcom/commsource/studio/doodle/DoodleFragment$initViewModel$$inlined$apply$lambda$4;Ljava/lang/Float;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lcotlin/jvm/u/a;)V
 
     .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

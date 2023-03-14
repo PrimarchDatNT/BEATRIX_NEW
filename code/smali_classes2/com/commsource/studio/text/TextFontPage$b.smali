@@ -25,7 +25,7 @@
     value = "SMAP\nTextFontPage.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextFontPage.kt\ncom/commsource/studio/text/TextFontPage$initObserver$2$2\n*L\n1#1,243:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "Lcom/commsource/beautyfilter/NoStickLiveData$a;",
         "Lcom/commsource/studio/text/TextFontMaterial;",
         "o",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(Lcom/commsource/studio/text/TextFontMaterial;)V",
         "app_googleplayRelease",
@@ -126,7 +126,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 

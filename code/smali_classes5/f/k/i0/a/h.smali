@@ -20,7 +20,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "a",
         "()Ljava/util/List;",
         "entity",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "g3",
         "(Lcom/meitu/template/bean/Chat;)V",
         "",

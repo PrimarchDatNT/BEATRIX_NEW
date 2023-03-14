@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/m$a;
+.class public final Lcotlinx/coroutines/m$a;
 .super Ljava/lang/Object;
 .source "CancellableContinuation.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/m;
+    value = Lcotlinx/coroutines/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
 
 
 # direct methods
-.method public static synthetic a(Lkotlinx/coroutines/m;Ljava/lang/Throwable;ILjava/lang/Object;)Z
+.method public static synthetic a(Lcotlinx/coroutines/m;Ljava/lang/Throwable;ILjava/lang/Object;)Z
     .locals 0
 
     if-nez p3, :cond_1
@@ -44,7 +44,7 @@
 
     .line 1
     :cond_0
-    invoke-interface {p0, p1}, Lkotlinx/coroutines/m;->a(Ljava/lang/Throwable;)Z
+    invoke-interface {p0, p1}, Lcotlinx/coroutines/m;->a(Ljava/lang/Throwable;)Z
 
     move-result p0
 
@@ -61,7 +61,7 @@
     throw p0
 .end method
 
-.method public static synthetic b(Lkotlinx/coroutines/m;Ljava/lang/Object;Ljava/lang/Object;ILjava/lang/Object;)Ljava/lang/Object;
+.method public static synthetic b(Lcotlinx/coroutines/m;Ljava/lang/Object;Ljava/lang/Object;ILjava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
     if-nez p4, :cond_1
@@ -74,7 +74,7 @@
 
     .line 1
     :cond_0
-    invoke-interface {p0, p1, p2}, Lkotlinx/coroutines/m;->i(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, p1, p2}, Lcotlinx/coroutines/m;->i(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 

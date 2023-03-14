@@ -25,7 +25,7 @@
     value = "SMAP\nImageLayerStyleFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ImageLayerStyleFragment.kt\ncom/commsource/studio/mixlayer/ImageLayerStyleFragment$initViewModel$1\n*L\n1#1,286:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "Lcom/commsource/beautyfilter/NoStickLiveData$a;",
         "",
         "o",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(Ljava/lang/Boolean;)V",
         "app_googleplayRelease"
@@ -124,7 +124,7 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$initViewModel$1$onAccept$$inlined$let$lambda$1;-><init>(Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$initViewModel$1;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lcotlin/jvm/u/a;)V
 
     goto :goto_0
 
@@ -159,7 +159,7 @@
 
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 

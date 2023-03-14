@@ -1,4 +1,4 @@
-.class public final Lkotlin/a2/a;
+.class public final Lcotlin/a2/a;
 .super Ljava/lang/Object;
 .source "Locks.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nLocks.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Locks.kt\nkotlin/concurrent/LocksKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,74:1\n1#2:75\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,13 +20,13 @@
     d2 = {
         "T",
         "Ljava/util/concurrent/locks/Lock;",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "action",
         "b",
-        "(Ljava/util/concurrent/locks/Lock;Lkotlin/jvm/u/a;)Ljava/lang/Object;",
+        "(Ljava/util/concurrent/locks/Lock;Lcotlin/jvm/u/a;)Ljava/lang/Object;",
         "Ljava/util/concurrent/locks/ReentrantReadWriteLock;",
         "a",
-        "(Ljava/util/concurrent/locks/ReentrantReadWriteLock;Lkotlin/jvm/u/a;)Ljava/lang/Object;",
+        "(Ljava/util/concurrent/locks/ReentrantReadWriteLock;Lcotlin/jvm/u/a;)Ljava/lang/Object;",
         "c",
         "kotlin-stdlib"
     }
@@ -38,13 +38,13 @@
     }
 .end annotation
 
-.annotation build Lkotlin/jvm/g;
+.annotation build Lcotlin/jvm/g;
     name = "LocksKt"
 .end annotation
 
 
 # direct methods
-.method private static final a(Ljava/util/concurrent/locks/ReentrantReadWriteLock;Lkotlin/jvm/u/a;)Ljava/lang/Object;
+.method private static final a(Ljava/util/concurrent/locks/ReentrantReadWriteLock;Lcotlin/jvm/u/a;)Ljava/lang/Object;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -52,12 +52,12 @@
             "Ljava/lang/Object;",
             ">(",
             "Ljava/util/concurrent/locks/ReentrantReadWriteLock;",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/jvm/u/a<",
             "+TT;>;)TT;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -72,18 +72,18 @@
 
     .line 3
     :try_start_0
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 4
     invoke-virtual {p0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;->unlock()V
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object p1
 
@@ -91,17 +91,17 @@
     move-exception p1
 
     .line 5
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 6
     invoke-virtual {p0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;->unlock()V
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     throw p1
 .end method
 
-.method private static final b(Ljava/util/concurrent/locks/Lock;Lkotlin/jvm/u/a;)Ljava/lang/Object;
+.method private static final b(Ljava/util/concurrent/locks/Lock;Lcotlin/jvm/u/a;)Ljava/lang/Object;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -109,12 +109,12 @@
             "Ljava/lang/Object;",
             ">(",
             "Ljava/util/concurrent/locks/Lock;",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/jvm/u/a<",
             "+TT;>;)TT;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -124,18 +124,18 @@
 
     .line 2
     :try_start_0
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 3
     invoke-interface {p0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object p1
 
@@ -143,17 +143,17 @@
     move-exception p1
 
     .line 4
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 5
     invoke-interface {p0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     throw p1
 .end method
 
-.method private static final c(Ljava/util/concurrent/locks/ReentrantReadWriteLock;Lkotlin/jvm/u/a;)Ljava/lang/Object;
+.method private static final c(Ljava/util/concurrent/locks/ReentrantReadWriteLock;Lcotlin/jvm/u/a;)Ljava/lang/Object;
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -161,12 +161,12 @@
             "Ljava/lang/Object;",
             ">(",
             "Ljava/util/concurrent/locks/ReentrantReadWriteLock;",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/jvm/u/a<",
             "+TT;>;)TT;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -218,13 +218,13 @@
 
     .line 6
     :try_start_0
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v3}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
     :goto_2
     if-ge v2, v1, :cond_2
@@ -240,7 +240,7 @@
     :cond_2
     invoke-virtual {p0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;->unlock()V
 
-    invoke-static {v3}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object p1
 
@@ -248,7 +248,7 @@
     move-exception p1
 
     .line 9
-    invoke-static {v3}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
     :goto_3
     if-ge v2, v1, :cond_3
@@ -264,7 +264,7 @@
     :cond_3
     invoke-virtual {p0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;->unlock()V
 
-    invoke-static {v3}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
     throw p1
 .end method

@@ -1,11 +1,11 @@
-.class final Lkotlin/io/h$b$b;
-.super Lkotlin/io/h$c;
+.class final Lcotlin/io/h$b$b;
+.super Lcotlin/io/h$c;
 .source "FileTreeWalk.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/io/h$b;
+    value = Lcotlin/io/h$b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,7 +17,7 @@
     value = "SMAP\nFileTreeWalk.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FileTreeWalk.kt\nkotlin/io/FileTreeWalk$FileTreeWalkIterator$SingleFileState\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,273:1\n1#2:274\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
     }
     d2 = {
         "kotlin/io/h$b$b",
-        "Lkotlin/io/h$c;",
+        "Lcotlin/io/h$c;",
         "Ljava/io/File;",
         "b",
         "()Ljava/io/File;",
@@ -37,7 +37,7 @@
         "visited",
         "rootFile",
         "<init>",
-        "(Lkotlin/io/h$b;Ljava/io/File;)V",
+        "(Lcotlin/io/h$b;Ljava/io/File;)V",
         "kotlin-stdlib"
     }
     k = 0x1
@@ -52,13 +52,13 @@
 # instance fields
 .field private b:Z
 
-.field final synthetic c:Lkotlin/io/h$b;
+.field final synthetic c:Lcotlin/io/h$b;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/io/h$b;Ljava/io/File;)V
+.method public constructor <init>(Lcotlin/io/h$b;Ljava/io/File;)V
     .locals 1
-    .param p1    # Lkotlin/io/h$b;
+    .param p1    # Lcotlin/io/h$b;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -72,12 +72,12 @@
 
     const-string v0, "rootFile"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iput-object p1, p0, Lkotlin/io/h$b$b;->c:Lkotlin/io/h$b;
+    iput-object p1, p0, Lcotlin/io/h$b$b;->c:Lcotlin/io/h$b;
 
-    invoke-direct {p0, p2}, Lkotlin/io/h$c;-><init>(Ljava/io/File;)V
+    invoke-direct {p0, p2}, Lcotlin/io/h$c;-><init>(Ljava/io/File;)V
 
     return-void
 .end method
@@ -90,7 +90,7 @@
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Lkotlin/io/h$b$b;->b:Z
+    iget-boolean v0, p0, Lcotlin/io/h$b$b;->b:Z
 
     if-eqz v0, :cond_0
 
@@ -102,10 +102,10 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Lkotlin/io/h$b$b;->b:Z
+    iput-boolean v0, p0, Lcotlin/io/h$b$b;->b:Z
 
     .line 3
-    invoke-virtual {p0}, Lkotlin/io/h$c;->a()Ljava/io/File;
+    invoke-virtual {p0}, Lcotlin/io/h$c;->a()Ljava/io/File;
 
     move-result-object v0
 

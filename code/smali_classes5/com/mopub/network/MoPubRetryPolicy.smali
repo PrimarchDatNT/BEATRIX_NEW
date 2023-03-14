@@ -10,7 +10,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -91,7 +91,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/mopub/network/MoPubRetryPolicy$Companion;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcom/mopub/network/MoPubRetryPolicy$Companion;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lcom/mopub/network/MoPubRetryPolicy;->Companion:Lcom/mopub/network/MoPubRetryPolicy$Companion;
 
@@ -128,7 +128,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(IIFILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(IIFILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p5, p4, 0x1

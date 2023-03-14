@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0010\u0004\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002\u00a8\u0006\u0003"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "com/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$initView$4$1$1",
@@ -44,18 +44,18 @@
 # instance fields
 .field final synthetic a:Ljava/util/List;
 
-.field final synthetic b:Lkotlin/jvm/internal/Ref$IntRef;
+.field final synthetic b:Lcotlin/jvm/internal/Ref$IntRef;
 
 .field final synthetic c:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h;
 
 
 # direct methods
-.method constructor <init>(Ljava/util/List;Lkotlin/jvm/internal/Ref$IntRef;Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h;)V
+.method constructor <init>(Ljava/util/List;Lcotlin/jvm/internal/Ref$IntRef;Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h;)V
     .locals 0
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->a:Ljava/util/List;
 
-    iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->b:Lkotlin/jvm/internal/Ref$IntRef;
+    iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->b:Lcotlin/jvm/internal/Ref$IntRef;
 
     iput-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->c:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h;
 
@@ -186,11 +186,11 @@
     if-ne v5, v2, :cond_1
 
     .line 7
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->b:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->b:Lcotlin/jvm/internal/Ref$IntRef;
 
     add-int/2addr v4, v2
 
-    iput v4, v1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput v4, v1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     goto :goto_1
 
@@ -223,9 +223,9 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w8;->c:Landroidx/recyclerview/widget/RecyclerView;
 
-    iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->b:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->b:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget v2, v2, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v2, v2, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
@@ -266,7 +266,7 @@
 
     move-result-object v3
 
-    invoke-static {v1, v3}, Lkotlin/collections/s;->O2(Ljava/util/List;Ljava/lang/Object;)I
+    invoke-static {v1, v3}, Lcotlin/collections/s;->O2(Ljava/util/List;Ljava/lang/Object;)I
 
     move-result v1
 
@@ -275,11 +275,11 @@
     if-eq v1, v3, :cond_4
 
     .line 12
-    iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->b:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;->b:Lcotlin/jvm/internal/Ref$IntRef;
 
     add-int/2addr v1, v2
 
-    iput v1, v3, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput v1, v3, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     .line 13
     :cond_4

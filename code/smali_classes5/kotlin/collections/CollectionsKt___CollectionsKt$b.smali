@@ -1,14 +1,14 @@
-.class public final Lkotlin/collections/CollectionsKt___CollectionsKt$b;
+.class public final Lcotlin/collections/CollectionsKt___CollectionsKt$b;
 .super Ljava/lang/Object;
 .source "_Collections.kt"
 
 # interfaces
-.implements Lkotlin/collections/e0;
+.implements Lcotlin/collections/e0;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/collections/CollectionsKt___CollectionsKt;->M2(Ljava/lang/Iterable;Lkotlin/jvm/u/l;)Lkotlin/collections/e0;
+    value = Lcotlin/collections/CollectionsKt___CollectionsKt;->M2(Ljava/lang/Iterable;Lcotlin/jvm/u/l;)Lcotlin/collections/e0;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/collections/e0<",
+        "Lcotlin/collections/e0<",
         "TT;TK;>;"
     }
 .end annotation
@@ -28,7 +28,7 @@
     value = "SMAP\n_Collections.kt\nKotlin\n*S Kotlin\n*F\n+ 1 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt$groupingBy$1\n*L\n1#1,3517:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
     }
     d2 = {
         "kotlin/collections/CollectionsKt___CollectionsKt$b",
-        "Lkotlin/collections/e0;",
+        "Lcotlin/collections/e0;",
         "",
         "b",
         "()Ljava/util/Iterator;",
@@ -60,26 +60,26 @@
 # instance fields
 .field final synthetic a:Ljava/lang/Iterable;
 
-.field final synthetic b:Lkotlin/jvm/u/l;
+.field final synthetic b:Lcotlin/jvm/u/l;
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/Iterable;Lkotlin/jvm/u/l;)V
+.method public constructor <init>(Ljava/lang/Iterable;Lcotlin/jvm/u/l;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Iterable<",
             "+TT;>;",
-            "Lkotlin/jvm/u/l;",
+            "Lcotlin/jvm/u/l;",
             ")V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lkotlin/collections/CollectionsKt___CollectionsKt$b;->a:Ljava/lang/Iterable;
+    iput-object p1, p0, Lcotlin/collections/CollectionsKt___CollectionsKt$b;->a:Ljava/lang/Iterable;
 
-    iput-object p2, p0, Lkotlin/collections/CollectionsKt___CollectionsKt$b;->b:Lkotlin/jvm/u/l;
+    iput-object p2, p0, Lcotlin/collections/CollectionsKt___CollectionsKt$b;->b:Lcotlin/jvm/u/l;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -97,9 +97,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/CollectionsKt___CollectionsKt$b;->b:Lkotlin/jvm/u/l;
+    iget-object v0, p0, Lcotlin/collections/CollectionsKt___CollectionsKt$b;->b:Lcotlin/jvm/u/l;
 
-    invoke-interface {v0, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -120,7 +120,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/CollectionsKt___CollectionsKt$b;->a:Ljava/lang/Iterable;
+    iget-object v0, p0, Lcotlin/collections/CollectionsKt___CollectionsKt$b;->a:Ljava/lang/Iterable;
 
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 

@@ -1,14 +1,14 @@
-.class final synthetic Lkotlin/reflect/ParameterizedTypeImpl$getTypeName$1$1;
-.super Lkotlin/jvm/internal/FunctionReferenceImpl;
+.class final synthetic Lcotlin/reflect/ParameterizedTypeImpl$getTypeName$1$1;
+.super Lcotlin/jvm/internal/FunctionReferenceImpl;
 .source "TypesJVM.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/reflect/ParameterizedTypeImpl;->getTypeName()Ljava/lang/String;
+    value = Lcotlin/reflect/ParameterizedTypeImpl;->getTypeName()Ljava/lang/String;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,15 +18,15 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/FunctionReferenceImpl;",
+        "Lcotlin/jvm/u/l<",
         "Ljava/lang/reflect/Type;",
         "Ljava/lang/String;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -53,18 +53,18 @@
 
 
 # static fields
-.field public static final INSTANCE:Lkotlin/reflect/ParameterizedTypeImpl$getTypeName$1$1;
+.field public static final INSTANCE:Lcotlin/reflect/ParameterizedTypeImpl$getTypeName$1$1;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkotlin/reflect/ParameterizedTypeImpl$getTypeName$1$1;
+    new-instance v0, Lcotlin/reflect/ParameterizedTypeImpl$getTypeName$1$1;
 
-    invoke-direct {v0}, Lkotlin/reflect/ParameterizedTypeImpl$getTypeName$1$1;-><init>()V
+    invoke-direct {v0}, Lcotlin/reflect/ParameterizedTypeImpl$getTypeName$1$1;-><init>()V
 
-    sput-object v0, Lkotlin/reflect/ParameterizedTypeImpl$getTypeName$1$1;->INSTANCE:Lkotlin/reflect/ParameterizedTypeImpl$getTypeName$1$1;
+    sput-object v0, Lcotlin/reflect/ParameterizedTypeImpl$getTypeName$1$1;->INSTANCE:Lcotlin/reflect/ParameterizedTypeImpl$getTypeName$1$1;
 
     return-void
 .end method
@@ -72,7 +72,7 @@
 .method constructor <init>()V
     .locals 6
 
-    const-class v2, Lkotlin/reflect/TypesJVMKt;
+    const-class v2, Lcotlin/reflect/TypesJVMKt;
 
     const/4 v1, 0x1
 
@@ -84,7 +84,7 @@
 
     move-object v0, p0
 
-    invoke-direct/range {v0 .. v5}, Lkotlin/jvm/internal/FunctionReferenceImpl;-><init>(ILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct/range {v0 .. v5}, Lcotlin/jvm/internal/FunctionReferenceImpl;-><init>(ILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
     return-void
 .end method
@@ -97,7 +97,7 @@
     .line 1
     check-cast p1, Ljava/lang/reflect/Type;
 
-    invoke-virtual {p0, p1}, Lkotlin/reflect/ParameterizedTypeImpl$getTypeName$1$1;->invoke(Ljava/lang/reflect/Type;)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Lcotlin/reflect/ParameterizedTypeImpl$getTypeName$1$1;->invoke(Ljava/lang/reflect/Type;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -115,10 +115,10 @@
 
     const-string v0, "p1"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-static {p1}, Lkotlin/reflect/TypesJVMKt;->b(Ljava/lang/reflect/Type;)Ljava/lang/String;
+    invoke-static {p1}, Lcotlin/reflect/TypesJVMKt;->b(Ljava/lang/reflect/Type;)Ljava/lang/String;
 
     move-result-object p1
 

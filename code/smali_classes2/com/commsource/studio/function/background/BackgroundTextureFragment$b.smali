@@ -25,7 +25,7 @@
     value = "SMAP\nBackgroundTextureFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BackgroundTextureFragment.kt\ncom/commsource/studio/function/background/BackgroundTextureFragment$onViewCreated$2$2\n*L\n1#1,200:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "Lcom/commsource/beautyfilter/NoStickLiveData$a;",
         "Lcom/commsource/studio/function/background/TextureMaterial;",
         "material",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(Lcom/commsource/studio/function/background/TextureMaterial;)V",
         "app_googleplayRelease",
@@ -118,7 +118,7 @@
 
     move-result-object v1
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 

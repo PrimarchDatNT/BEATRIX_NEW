@@ -17,7 +17,7 @@
     value = "SMAP\nUndoRedoComponent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UndoRedoComponent.kt\ncom/commsource/studio/component/UndoRedoComponent$UndoRedoViewModel\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,134:1\n1819#2,2:135\n1819#2,2:137\n1819#2,2:139\n*E\n*S KotlinDebug\n*F\n+ 1 UndoRedoComponent.kt\ncom/commsource/studio/component/UndoRedoComponent$UndoRedoViewModel\n*L\n72#1,2:135\n84#1,2:137\n128#1,2:139\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
     d2 = {
         "com/commsource/studio/component/UndoRedoComponent$c",
         "Landroidx/lifecycle/AndroidViewModel;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "E",
         "()V",
         "G",
@@ -51,7 +51,7 @@
         "Ljava/util/LinkedList;",
         "stackActions",
         "Landroidx/lifecycle/MutableLiveData;",
-        "Lkotlin/Pair;",
+        "Lcotlin/Pair;",
         "kotlin.jvm.PlatformType",
         "a",
         "Landroidx/lifecycle/MutableLiveData;",
@@ -84,7 +84,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Landroidx/lifecycle/MutableLiveData<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Boolean;",
             "Ljava/lang/Boolean;",
             ">;>;"
@@ -121,7 +121,7 @@
 
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
@@ -129,11 +129,11 @@
     .line 2
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
-    new-instance v0, Lkotlin/Pair;
+    new-instance v0, Lcotlin/Pair;
 
     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    invoke-direct {v0, v1, v1}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, v1, v1}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-direct {p1, v0}, Landroidx/lifecycle/MutableLiveData;-><init>(Ljava/lang/Object;)V
 
@@ -287,7 +287,7 @@
         value = {
             "()",
             "Landroidx/lifecycle/MutableLiveData<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Boolean;",
             "Ljava/lang/Boolean;",
             ">;>;"
@@ -483,7 +483,7 @@
     .line 2
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->a:Landroidx/lifecycle/MutableLiveData;
 
-    new-instance v2, Lkotlin/Pair;
+    new-instance v2, Lcotlin/Pair;
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -493,7 +493,7 @@
 
     move-result-object p2
 
-    invoke-direct {v2, p1, p2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v2, p1, p2}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
@@ -503,7 +503,7 @@
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->a:Landroidx/lifecycle/MutableLiveData;
 
-    new-instance v2, Lkotlin/Pair;
+    new-instance v2, Lcotlin/Pair;
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -513,7 +513,7 @@
 
     move-result-object p2
 
-    invoke-direct {v2, p1, p2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v2, p1, p2}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
@@ -539,7 +539,7 @@
 
     const-string v1, "stackAction"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$c;->b:Ljava/util/LinkedList;

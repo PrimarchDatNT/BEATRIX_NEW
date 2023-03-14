@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "Lf/k/h/a/l/y/d;",
         "Lcom/meitu/global/billing/purchase/data/MTGPurchase;",
         "purchase",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "b",
         "(Lcom/meitu/global/billing/purchase/data/MTGPurchase;)V",
         "",
@@ -247,7 +247,7 @@
 
     const-string v1, "purchase"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Ljava/lang/StringBuilder;

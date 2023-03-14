@@ -32,7 +32,7 @@
     value = "SMAP\nBeautyFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BeautyFragment.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment$onViewCreated$14\n*L\n1#1,421:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -112,7 +112,7 @@
 
     const-string v2, "beautyViewModel"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/d;->Q()Lcom/commsource/camera/xcamera/cover/e;
 
@@ -120,7 +120,7 @@
 
     const-string v2, "beautyViewModel.applyBeautyEvent"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
 
@@ -128,7 +128,7 @@
 
     check-cast v1, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;
 
-    invoke-static {v1, p2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -161,7 +161,7 @@
 
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;->U:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment$a;
 
-    invoke-static {p2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getBeautyType()I
 
@@ -212,7 +212,7 @@
 
     if-eqz v6, :cond_2
 
-    invoke-static {p2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getBeautyType()I
 
@@ -250,7 +250,7 @@
 
     .line 10
     :cond_4
-    invoke-static {p2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->isEnable()Z
 

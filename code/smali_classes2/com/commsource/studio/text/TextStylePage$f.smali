@@ -20,7 +20,7 @@
     value = "SMAP\nTextStylePage.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextStylePage.kt\ncom/commsource/studio/text/TextStylePage$initView$5\n*L\n1#1,481:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "Landroid/view/View;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onClick",
         "(Landroid/view/View;)V",
         "<anonymous>"
@@ -76,7 +76,7 @@
 
     const-string v2, "it"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1, p1}, Lcom/commsource/studio/text/TextStylePage;->f(Lcom/commsource/studio/text/TextStylePage;Landroid/view/View;)V
 
@@ -110,7 +110,7 @@
 
     const-string v2, "viewBinding.boldView"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/widget/TextView;->isSelected()Z
 

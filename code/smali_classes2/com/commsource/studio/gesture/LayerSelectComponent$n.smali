@@ -20,7 +20,7 @@
     value = "SMAP\nLayerSelectComponent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LayerSelectComponent.kt\ncom/commsource/studio/gesture/LayerSelectComponent$showLayerJumpBubbleTip$1\n*L\n1#1,451:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "<anonymous>"
@@ -132,7 +132,7 @@
 
     if-nez v3, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {v3}, Lcom/commsource/studio/bean/BaseLayerInfo;->getParentKey()Ljava/lang/String;
@@ -145,7 +145,7 @@
 
     check-cast v4, Ljava/lang/String;
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
 
@@ -162,7 +162,7 @@
 
     const-string v4, "contentBinding.tipsBubbleView"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->y(Landroid/view/View;)V
 

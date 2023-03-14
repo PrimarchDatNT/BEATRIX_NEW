@@ -8,7 +8,7 @@
     value = "SMAP\nHprofPrimitiveArrayStripper.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HprofPrimitiveArrayStripper.kt\nkshark/HprofPrimitiveArrayStripper\n+ 2 OnHprofRecordListener.kt\nkshark/OnHprofRecordListener$Companion\n*L\n1#1,93:1\n31#2,8:94\n*E\n*S KotlinDebug\n*F\n+ 1 HprofPrimitiveArrayStripper.kt\nkshark/HprofPrimitiveArrayStripper\n*L\n30#1,8:94\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -66,7 +66,7 @@
 
     const-string p3, "inputHprofFile.name"
 
-    invoke-static {v0, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v3, 0x0
 
@@ -78,7 +78,7 @@
 
     const-string v2, "-stripped.hprof"
 
-    invoke-static/range {v0 .. v5}, Lkotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v0 .. v5}, Lcotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p3
 
@@ -87,7 +87,7 @@
 
     move-result-object p4
 
-    invoke-static {p3, p4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p3, p4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p4
 
@@ -149,11 +149,11 @@
 
     const-string v0, "inputHprofFile"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "outputHprofFile"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v0, Lkshark/Hprof;->J:Lkshark/Hprof$a;
@@ -192,11 +192,11 @@
     :try_start_1
     const-class v2, Lkshark/m;
 
-    invoke-static {v2}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v2}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v2
 
-    invoke-static {v2}, Lkotlin/collections/b1;->f(Ljava/lang/Object;)Ljava/util/Set;
+    invoke-static {v2}, Lcotlin/collections/b1;->f(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object v2
 
@@ -212,7 +212,7 @@
     invoke-virtual {v0, v2, v3}, Lkshark/l;->r(Ljava/util/Set;Lkshark/w;)V
 
     .line 11
-    sget-object v0, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -220,12 +220,12 @@
 
     .line 12
     :try_start_2
-    invoke-static {v1, v0}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {v1, v0}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
 
     .line 13
-    invoke-static {p1, v0}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p1, v0}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     return-object p2
 
@@ -242,7 +242,7 @@
     move-exception v0
 
     :try_start_4
-    invoke-static {v1, p2}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {v1, p2}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     throw v0
     :try_end_4
@@ -260,7 +260,7 @@
     :catchall_3
     move-exception v0
 
-    invoke-static {p1, p2}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p1, p2}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     throw v0
 .end method

@@ -408,7 +408,7 @@
     return-void
 .end method
 
-.method private synthetic Y0(Ljava/lang/String;)Lkotlin/t1;
+.method private synthetic Y0(Ljava/lang/String;)Lcotlin/t1;
     .locals 1
 
     const/16 v0, 0x5ea8
@@ -520,7 +520,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/beautyplus/setting/about/c;-><init>(Lcom/commsource/beautyplus/setting/about/AboutActivity;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/preenv/a;->M(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/preenv/a;->M(Lcotlin/jvm/u/l;)V
 
     .line 10
     :cond_1
@@ -936,10 +936,10 @@
     return-void
 .end method
 
-.method public synthetic Z0(Ljava/lang/String;)Lkotlin/t1;
+.method public synthetic Z0(Ljava/lang/String;)Lcotlin/t1;
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/commsource/beautyplus/setting/about/AboutActivity;->Y0(Ljava/lang/String;)Lkotlin/t1;
+    invoke-direct {p0, p1}, Lcom/commsource/beautyplus/setting/about/AboutActivity;->Y0(Ljava/lang/String;)Lcotlin/t1;
 
     move-result-object p1
 

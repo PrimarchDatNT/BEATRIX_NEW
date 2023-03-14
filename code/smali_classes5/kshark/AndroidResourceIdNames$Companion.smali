@@ -17,7 +17,7 @@
     value = "SMAP\nAndroidResourceIdNames.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AndroidResourceIdNames.kt\nkshark/AndroidResourceIdNames$Companion\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,100:1\n1313#2:101\n1382#2,3:102\n1313#2:105\n1382#2,3:106\n37#3,2:109\n*E\n*S KotlinDebug\n*F\n+ 1 AndroidResourceIdNames.kt\nkshark/AndroidResourceIdNames$Companion\n*L\n58#1:101\n58#1,3:102\n60#1:105\n60#1,3:106\n61#1,2:109\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,16 +29,16 @@
     d2 = {
         "Lkshark/AndroidResourceIdNames$Companion;",
         "",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "",
         "",
         "getResourceTypeName",
         "a",
-        "(Lkotlin/jvm/u/l;)Ljava/lang/Integer;",
+        "(Lcotlin/jvm/u/l;)Ljava/lang/Integer;",
         "getResourceEntryName",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
-        "(Lkotlin/jvm/u/l;Lkotlin/jvm/u/l;)V",
+        "(Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;)V",
         "Lkshark/i;",
         "graph",
         "Lkshark/AndroidResourceIdNames;",
@@ -74,7 +74,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -83,12 +83,12 @@
     return-void
 .end method
 
-.method private final a(Lkotlin/jvm/u/l;)Ljava/lang/Integer;
+.method private final a(Lcotlin/jvm/u/l;)Ljava/lang/Integer;
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
             "Ljava/lang/String;",
@@ -105,7 +105,7 @@
 
     move-result-object v1
 
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -155,7 +155,7 @@
 
 .method private static synthetic b()V
     .locals 0
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     return-void
@@ -174,7 +174,7 @@
 
     const-string v0, "graph"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p1}, Lkshark/i;->getContext()Lkshark/e;
@@ -189,13 +189,13 @@
 
     const-string v2, "AndroidResourceIdNames::class.java.name"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v2, Lkshark/AndroidResourceIdNames$Companion$readFromHeap$1;
 
     invoke-direct {v2, p1}, Lkshark/AndroidResourceIdNames$Companion$readFromHeap$1;-><init>(Lkshark/i;)V
 
-    invoke-virtual {v0, v1, v2}, Lkshark/e;->c(Ljava/lang/String;Lkotlin/jvm/u/a;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Lkshark/e;->c(Ljava/lang/String;Lcotlin/jvm/u/a;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -215,25 +215,25 @@
     return-void
 .end method
 
-.method public final declared-synchronized e(Lkotlin/jvm/u/l;Lkotlin/jvm/u/l;)V
+.method public final declared-synchronized e(Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;)V
     .locals 3
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
             "Ljava/lang/String;",
             ">;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
             "Ljava/lang/String;",
@@ -246,11 +246,11 @@
     :try_start_0
     const-string v0, "getResourceTypeName"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "getResourceEntryName"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {}, Lkshark/AndroidResourceIdNames;->access$getHolderField$cp()Lkshark/AndroidResourceIdNames;
@@ -274,7 +274,7 @@
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 4
-    invoke-direct {p0, p1}, Lkshark/AndroidResourceIdNames$Companion;->a(Lkotlin/jvm/u/l;)Ljava/lang/Integer;
+    invoke-direct {p0, p1}, Lkshark/AndroidResourceIdNames$Companion;->a(Lcotlin/jvm/u/l;)Ljava/lang/Integer;
 
     move-result-object p1
 
@@ -290,7 +290,7 @@
 
     move-result-object v1
 
-    invoke-interface {p2, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -303,7 +303,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v1}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v2, v1}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object v1
 
@@ -319,7 +319,7 @@
 
     const/16 p2, 0xa
 
-    invoke-static {v0, p2}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v0, p2}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v1
 
@@ -342,10 +342,10 @@
     move-result-object v2
 
     .line 9
-    check-cast v2, Lkotlin/Pair;
+    check-cast v2, Lcotlin/Pair;
 
     .line 10
-    invoke-virtual {v2}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -365,14 +365,14 @@
 
     .line 11
     :cond_2
-    invoke-static {p1}, Lkotlin/collections/s;->H5(Ljava/util/Collection;)[I
+    invoke-static {p1}, Lcotlin/collections/s;->H5(Ljava/util/Collection;)[I
 
     move-result-object p1
 
     .line 12
     new-instance v1, Ljava/util/ArrayList;
 
-    invoke-static {v0, p2}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v0, p2}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result p2
 
@@ -395,10 +395,10 @@
     move-result-object v0
 
     .line 14
-    check-cast v0, Lkotlin/Pair;
+    check-cast v0, Lcotlin/Pair;
 
     .line 15
-    invoke-virtual {v0}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -428,7 +428,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, p2, v1}, Lkshark/AndroidResourceIdNames;-><init>([I[Ljava/lang/String;Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, p1, p2, v1}, Lkshark/AndroidResourceIdNames;-><init>([I[Ljava/lang/String;Lcotlin/jvm/internal/u;)V
 
     invoke-static {v0}, Lkshark/AndroidResourceIdNames;->access$setHolderField$cp(Lkshark/AndroidResourceIdNames;)V
     :try_end_1
@@ -442,11 +442,11 @@
     .line 20
     :cond_4
     :try_start_2
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type kotlin.Array<T>"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
     :try_end_2

@@ -3,7 +3,7 @@
 .source "lambda"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # instance fields
@@ -42,7 +42,7 @@
 
     check-cast p1, Lcom/commsource/widget/dialog/delegate/b;
 
-    invoke-virtual {v0, v1, v2, p1}, Lcom/commsource/camera/beauty/h;->m(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+    invoke-virtual {v0, v1, v2, p1}, Lcom/commsource/camera/beauty/h;->m(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
 
     move-result-object p1
 

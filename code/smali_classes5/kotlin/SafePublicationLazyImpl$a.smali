@@ -1,11 +1,11 @@
-.class public final Lkotlin/SafePublicationLazyImpl$a;
+.class public final Lcotlin/SafePublicationLazyImpl$a;
 .super Ljava/lang/Object;
 .source "LazyJVM.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/SafePublicationLazyImpl;
+    value = Lcotlin/SafePublicationLazyImpl;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "kotlin/SafePublicationLazyImpl$a",
         "",
         "Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;",
-        "Lkotlin/SafePublicationLazyImpl;",
+        "Lcotlin/SafePublicationLazyImpl;",
         "kotlin.jvm.PlatformType",
         "valueUpdater",
         "Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;",
@@ -53,11 +53,11 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/SafePublicationLazyImpl$a;-><init>()V
+    invoke-direct {p0}, Lcotlin/SafePublicationLazyImpl$a;-><init>()V
 
     return-void
 .end method

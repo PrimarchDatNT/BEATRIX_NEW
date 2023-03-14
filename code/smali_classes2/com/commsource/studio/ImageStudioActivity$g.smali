@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Landroid/view/View;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onClick",
         "(Landroid/view/View;)V",
         "com/commsource/studio/ImageStudioActivity$initViewBinding$2$3",
@@ -114,7 +114,7 @@
 
     const/4 v3, 0x0
 
-    invoke-static {v0, v1, v3, v2, v3}, Lcom/commsource/studio/ImageStudioViewModel;->H(Lcom/commsource/studio/ImageStudioViewModel;Landroidx/fragment/app/FragmentActivity;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {v0, v1, v3, v2, v3}, Lcom/commsource/studio/ImageStudioViewModel;->H(Lcom/commsource/studio/ImageStudioViewModel;Landroidx/fragment/app/FragmentActivity;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

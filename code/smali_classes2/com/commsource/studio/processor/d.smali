@@ -16,7 +16,7 @@
     value = "SMAP\nEliminatePaintProcessor.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EliminatePaintProcessor.kt\ncom/commsource/studio/processor/EliminatePaintProcessor\n*L\n1#1,22:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Landroid/graphics/Bitmap;",
         "lastEffectBitmap",
         "mask",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "V",
         "(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;)V",
         "<init>",
@@ -93,11 +93,11 @@
 
     const-string v1, "lastEffectBitmap"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "mask"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p1}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
@@ -114,7 +114,7 @@
 
     const-string v1, "image"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, p2}, Lcom/commsource/studio/processor/b;->S(Landroid/graphics/Bitmap;)V
 

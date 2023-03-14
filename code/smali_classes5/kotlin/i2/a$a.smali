@@ -1,11 +1,11 @@
-.class final Lkotlin/i2/a$a;
-.super Lkotlin/i2/o;
+.class final Lcotlin/i2/a$a;
+.super Lcotlin/i2/o;
 .source "TimeSources.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/i2/a;
+    value = Lcotlin/i2/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,24 +24,24 @@
     }
     d2 = {
         "kotlin/i2/a$a",
-        "Lkotlin/i2/o;",
-        "Lkotlin/i2/d;",
+        "Lcotlin/i2/o;",
+        "Lcotlin/i2/d;",
         "a",
         "()D",
         "duration",
         "e",
-        "(D)Lkotlin/i2/o;",
+        "(D)Lcotlin/i2/o;",
         "",
         "D",
         "startedAt",
-        "Lkotlin/i2/a;",
+        "Lcotlin/i2/a;",
         "b",
-        "Lkotlin/i2/a;",
+        "Lcotlin/i2/a;",
         "timeSource",
         "c",
         "offset",
         "<init>",
-        "(DLkotlin/i2/a;DLkotlin/jvm/internal/u;)V",
+        "(DLcotlin/i2/a;DLcotlin/jvm/internal/u;)V",
         "kotlin-stdlib"
     }
     k = 0x1
@@ -56,32 +56,32 @@
 # instance fields
 .field private final a:D
 
-.field private final b:Lkotlin/i2/a;
+.field private final b:Lcotlin/i2/a;
 
 .field private final c:D
 
 
 # direct methods
-.method private constructor <init>(DLkotlin/i2/a;D)V
+.method private constructor <init>(DLcotlin/i2/a;D)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lkotlin/i2/o;-><init>()V
+    invoke-direct {p0}, Lcotlin/i2/o;-><init>()V
 
-    iput-wide p1, p0, Lkotlin/i2/a$a;->a:D
+    iput-wide p1, p0, Lcotlin/i2/a$a;->a:D
 
-    iput-object p3, p0, Lkotlin/i2/a$a;->b:Lkotlin/i2/a;
+    iput-object p3, p0, Lcotlin/i2/a$a;->b:Lcotlin/i2/a;
 
-    iput-wide p4, p0, Lkotlin/i2/a$a;->c:D
+    iput-wide p4, p0, Lcotlin/i2/a$a;->c:D
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(DLkotlin/i2/a;DLkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(DLcotlin/i2/a;DLcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct/range {p0 .. p5}, Lkotlin/i2/a$a;-><init>(DLkotlin/i2/a;D)V
+    invoke-direct/range {p0 .. p5}, Lcotlin/i2/a$a;-><init>(DLcotlin/i2/a;D)V
 
     return-void
 .end method
@@ -92,50 +92,50 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Lkotlin/i2/a$a;->b:Lkotlin/i2/a;
+    iget-object v0, p0, Lcotlin/i2/a$a;->b:Lcotlin/i2/a;
 
-    invoke-virtual {v0}, Lkotlin/i2/a;->c()D
+    invoke-virtual {v0}, Lcotlin/i2/a;->c()D
 
     move-result-wide v0
 
-    iget-wide v2, p0, Lkotlin/i2/a$a;->a:D
+    iget-wide v2, p0, Lcotlin/i2/a$a;->a:D
 
     sub-double/2addr v0, v2
 
-    iget-object v2, p0, Lkotlin/i2/a$a;->b:Lkotlin/i2/a;
+    iget-object v2, p0, Lcotlin/i2/a$a;->b:Lcotlin/i2/a;
 
-    invoke-virtual {v2}, Lkotlin/i2/a;->b()Ljava/util/concurrent/TimeUnit;
+    invoke-virtual {v2}, Lcotlin/i2/a;->b()Ljava/util/concurrent/TimeUnit;
 
     move-result-object v2
 
-    invoke-static {v0, v1, v2}, Lkotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {v0, v1, v2}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide v0
 
-    iget-wide v2, p0, Lkotlin/i2/a$a;->c:D
+    iget-wide v2, p0, Lcotlin/i2/a$a;->c:D
 
-    invoke-static {v0, v1, v2, v3}, Lkotlin/i2/d;->b0(DD)D
+    invoke-static {v0, v1, v2, v3}, Lcotlin/i2/d;->b0(DD)D
 
     move-result-wide v0
 
     return-wide v0
 .end method
 
-.method public e(D)Lkotlin/i2/o;
+.method public e(D)Lcotlin/i2/o;
     .locals 8
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    new-instance v7, Lkotlin/i2/a$a;
+    new-instance v7, Lcotlin/i2/a$a;
 
-    iget-wide v1, p0, Lkotlin/i2/a$a;->a:D
+    iget-wide v1, p0, Lcotlin/i2/a$a;->a:D
 
-    iget-object v3, p0, Lkotlin/i2/a$a;->b:Lkotlin/i2/a;
+    iget-object v3, p0, Lcotlin/i2/a$a;->b:Lcotlin/i2/a;
 
-    iget-wide v4, p0, Lkotlin/i2/a$a;->c:D
+    iget-wide v4, p0, Lcotlin/i2/a$a;->c:D
 
-    invoke-static {v4, v5, p1, p2}, Lkotlin/i2/d;->c0(DD)D
+    invoke-static {v4, v5, p1, p2}, Lcotlin/i2/d;->c0(DD)D
 
     move-result-wide v4
 
@@ -143,7 +143,7 @@
 
     move-object v0, v7
 
-    invoke-direct/range {v0 .. v6}, Lkotlin/i2/a$a;-><init>(DLkotlin/i2/a;DLkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v6}, Lcotlin/i2/a$a;-><init>(DLcotlin/i2/a;DLcotlin/jvm/internal/u;)V
 
     return-object v7
 .end method

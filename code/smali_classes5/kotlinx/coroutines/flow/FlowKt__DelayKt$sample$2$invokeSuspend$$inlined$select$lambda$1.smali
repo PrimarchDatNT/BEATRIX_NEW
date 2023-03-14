@@ -1,14 +1,14 @@
-.class final Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;
-.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.class final Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;
+.super Lcotlin/coroutines/jvm/internal/SuspendLambda;
 .source "Delay.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,19 +18,19 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Lkotlin/jvm/u/p<",
+        "Lcotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lcotlin/jvm/u/p<",
         "Ljava/lang/Object;",
-        "Lkotlin/coroutines/c<",
+        "Lcotlin/coroutines/c<",
         "-",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;",
         "Ljava/lang/Object;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -43,7 +43,7 @@
         "T",
         "L;",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "kotlin/Any",
         "kotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$1$1",
@@ -59,13 +59,13 @@
 
 
 # instance fields
-.field final synthetic $downstream$inlined:Lkotlinx/coroutines/flow/e;
+.field final synthetic $downstream$inlined:Lcotlinx/coroutines/flow/e;
 
-.field final synthetic $lastValue$inlined:Lkotlin/jvm/internal/Ref$ObjectRef;
+.field final synthetic $lastValue$inlined:Lcotlin/jvm/internal/Ref$ObjectRef;
 
-.field final synthetic $ticker$inlined:Lkotlinx/coroutines/channels/y;
+.field final synthetic $ticker$inlined:Lcotlinx/coroutines/channels/y;
 
-.field final synthetic $values$inlined:Lkotlinx/coroutines/channels/y;
+.field final synthetic $values$inlined:Lcotlinx/coroutines/channels/y;
 
 .field label:I
 
@@ -73,33 +73,33 @@
 
 
 # direct methods
-.method constructor <init>(Lkotlin/coroutines/c;Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/y;Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlinx/coroutines/flow/e;)V
+.method constructor <init>(Lcotlin/coroutines/c;Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/y;Lcotlin/jvm/internal/Ref$ObjectRef;Lcotlinx/coroutines/flow/e;)V
     .locals 0
 
-    iput-object p2, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$values$inlined:Lkotlinx/coroutines/channels/y;
+    iput-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$values$inlined:Lcotlinx/coroutines/channels/y;
 
-    iput-object p3, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$ticker$inlined:Lkotlinx/coroutines/channels/y;
+    iput-object p3, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$ticker$inlined:Lcotlinx/coroutines/channels/y;
 
-    iput-object p4, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$lastValue$inlined:Lkotlin/jvm/internal/Ref$ObjectRef;
+    iput-object p4, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$lastValue$inlined:Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iput-object p5, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$downstream$inlined:Lkotlinx/coroutines/flow/e;
+    iput-object p5, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$downstream$inlined:Lcotlinx/coroutines/flow/e;
 
     const/4 p2, 0x2
 
-    invoke-direct {p0, p2, p1}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/c;)V
+    invoke-direct {p0, p2, p1}, Lcotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILcotlin/coroutines/c;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+.method public final create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 7
     .param p1    # Ljava/lang/Object;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -107,10 +107,10 @@
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "*>;)",
-            "Lkotlin/coroutines/c<",
-            "Lkotlin/t1;",
+            "Lcotlin/coroutines/c<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -118,23 +118,23 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    new-instance v6, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;
+    new-instance v6, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;
 
-    iget-object v2, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$values$inlined:Lkotlinx/coroutines/channels/y;
+    iget-object v2, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$values$inlined:Lcotlinx/coroutines/channels/y;
 
-    iget-object v3, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$ticker$inlined:Lkotlinx/coroutines/channels/y;
+    iget-object v3, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$ticker$inlined:Lcotlinx/coroutines/channels/y;
 
-    iget-object v4, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$lastValue$inlined:Lkotlin/jvm/internal/Ref$ObjectRef;
+    iget-object v4, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$lastValue$inlined:Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iget-object v5, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$downstream$inlined:Lkotlinx/coroutines/flow/e;
+    iget-object v5, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$downstream$inlined:Lcotlinx/coroutines/flow/e;
 
     move-object v0, v6
 
     move-object v1, p2
 
-    invoke-direct/range {v0 .. v5}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;-><init>(Lkotlin/coroutines/c;Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/y;Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlinx/coroutines/flow/e;)V
+    invoke-direct/range {v0 .. v5}, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;-><init>(Lcotlin/coroutines/c;Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/y;Lcotlin/jvm/internal/Ref$ObjectRef;Lcotlinx/coroutines/flow/e;)V
 
-    iput-object p1, v6, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->p$0:Ljava/lang/Object;
+    iput-object p1, v6, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->p$0:Ljava/lang/Object;
 
     return-object v6
 .end method
@@ -142,17 +142,17 @@
 .method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    check-cast p2, Lkotlin/coroutines/c;
+    check-cast p2, Lcotlin/coroutines/c;
 
-    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-virtual {p0, p1, p2}, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p1
 
-    check-cast p1, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;
+    check-cast p1, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;
 
-    sget-object p2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-virtual {p1, p2}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -168,46 +168,46 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     .line 1
-    iget v0, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->label:I
+    iget v0, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->label:I
 
     if-nez v0, :cond_1
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    iget-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->p$0:Ljava/lang/Object;
+    iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->p$0:Ljava/lang/Object;
 
     if-nez p1, :cond_0
 
     .line 2
-    iget-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$ticker$inlined:Lkotlinx/coroutines/channels/y;
+    iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$ticker$inlined:Lcotlinx/coroutines/channels/y;
 
-    new-instance v0, Lkotlinx/coroutines/flow/internal/ChildCancelledException;
+    new-instance v0, Lcotlinx/coroutines/flow/internal/ChildCancelledException;
 
-    invoke-direct {v0}, Lkotlinx/coroutines/flow/internal/ChildCancelledException;-><init>()V
+    invoke-direct {v0}, Lcotlinx/coroutines/flow/internal/ChildCancelledException;-><init>()V
 
-    invoke-interface {p1, v0}, Lkotlinx/coroutines/channels/y;->d(Ljava/util/concurrent/CancellationException;)V
+    invoke-interface {p1, v0}, Lcotlinx/coroutines/channels/y;->d(Ljava/util/concurrent/CancellationException;)V
 
     .line 3
-    iget-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$lastValue$inlined:Lkotlin/jvm/internal/Ref$ObjectRef;
+    iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$lastValue$inlined:Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    sget-object v0, Lkotlinx/coroutines/flow/internal/i;->b:Lkotlinx/coroutines/internal/c0;
+    sget-object v0, Lcotlinx/coroutines/flow/internal/i;->b:Lcotlinx/coroutines/internal/c0;
 
-    iput-object v0, p1, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object v0, p1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     goto :goto_0
 
     .line 4
     :cond_0
-    iget-object v0, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$lastValue$inlined:Lkotlin/jvm/internal/Ref$ObjectRef;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$lastValue$inlined:Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iput-object p1, v0, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 5
     :goto_0
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 

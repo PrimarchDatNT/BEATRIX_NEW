@@ -32,7 +32,7 @@
     value = "SMAP\nNewRelightFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewRelightFragment.kt\ncom/commsource/studio/function/relight/NewRelightFragment$onInitComplete$10\n*L\n1#1,687:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Boolean;)V"
     }
@@ -116,7 +116,7 @@
 
     invoke-direct {v6, v8, v7}, Lcom/commsource/util/r0;-><init>(Ljava/lang/String;Ljava/lang/Class;)V
 
-    invoke-static {p1, v6, v5, v2, v5}, Lcom/commsource/util/XFunctionFragmentHelper;->i(Lcom/commsource/util/XFunctionFragmentHelper;Lcom/commsource/util/r0;Lkotlin/jvm/u/l;ILjava/lang/Object;)V
+    invoke-static {p1, v6, v5, v2, v5}, Lcom/commsource/util/XFunctionFragmentHelper;->i(Lcom/commsource/util/XFunctionFragmentHelper;Lcom/commsource/util/r0;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
 
     .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$onInitComplete$10;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
@@ -188,7 +188,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, v4, v5, v1, v5}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p1, v4, v5, v1, v5}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 10
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$onInitComplete$10;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
@@ -236,7 +236,7 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/relight/NewRelightFragment$onInitComplete$10$$special$$inlined$let$lambda$1;-><init>(Lcom/commsource/studio/function/relight/NewRelightFragment$onInitComplete$10;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/studio/function/BaseSubFragment;->Y0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/studio/function/BaseSubFragment;->Y0(Lcotlin/jvm/u/a;)V
 
     goto :goto_0
 
@@ -256,7 +256,7 @@
 
     invoke-direct {v6, v8, v7}, Lcom/commsource/util/r0;-><init>(Ljava/lang/String;Ljava/lang/Class;)V
 
-    invoke-static {p1, v6, v5, v2, v5}, Lcom/commsource/util/XFunctionFragmentHelper;->i(Lcom/commsource/util/XFunctionFragmentHelper;Lcom/commsource/util/r0;Lkotlin/jvm/u/l;ILjava/lang/Object;)V
+    invoke-static {p1, v6, v5, v2, v5}, Lcom/commsource/util/XFunctionFragmentHelper;->i(Lcom/commsource/util/XFunctionFragmentHelper;Lcom/commsource/util/r0;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
 
     .line 15
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$onInitComplete$10;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
@@ -286,7 +286,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, v4, v5, v1, v5}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p1, v4, v5, v1, v5}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 18
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$onInitComplete$10;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
@@ -331,7 +331,7 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/relight/NewRelightFragment$onInitComplete$10$$special$$inlined$let$lambda$2;-><init>(Lcom/commsource/studio/function/relight/NewRelightFragment$onInitComplete$10;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/studio/function/BaseSubFragment;->Y0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/studio/function/BaseSubFragment;->Y0(Lcotlin/jvm/u/a;)V
 
     .line 23
     :cond_5

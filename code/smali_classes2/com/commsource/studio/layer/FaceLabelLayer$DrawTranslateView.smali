@@ -17,7 +17,7 @@
     value = "SMAP\nFaceLabelLayer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FaceLabelLayer.kt\ncom/commsource/studio/layer/FaceLabelLayer$DrawTranslateView\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,205:1\n1828#2,3:206\n*E\n*S KotlinDebug\n*F\n+ 1 FaceLabelLayer.kt\ncom/commsource/studio/layer/FaceLabelLayer$DrawTranslateView\n*L\n114#1,3:206\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Landroid/view/View;",
         "Landroid/graphics/Canvas;",
         "canvas",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onDraw",
         "(Landroid/graphics/Canvas;)V",
         "Landroid/content/Context;",
@@ -72,7 +72,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/FaceLabelLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/FaceLabelLayer;
@@ -227,7 +227,7 @@
 
     if-gez v2, :cond_0
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_0
     check-cast v3, Lcom/commsource/studio/layer/FaceOval;

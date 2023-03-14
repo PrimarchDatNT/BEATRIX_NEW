@@ -8,7 +8,7 @@
     value = "SMAP\nLanguageConfig.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LanguageConfig.kt\ncom/commsource/beautyplus/setting/language/LanguageConfig\n*L\n1#1,157:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,7 +24,7 @@
         "configuration",
         "Ljava/util/Locale;",
         "locale",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "h",
         "(Landroid/content/res/Configuration;Ljava/util/Locale;)V",
         "Landroid/app/Application;",
@@ -50,7 +50,7 @@
         "j",
         "(Ljava/lang/String;)V",
         "Lcom/commsource/util/common/l;",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "f",
         "()Lcom/commsource/util/common/l;",
         "spConfig",
@@ -68,7 +68,7 @@
 
 
 # static fields
-.field private static final a:Lkotlin/w;
+.field private static final a:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -94,11 +94,11 @@
     .line 2
     sget-object v1, Lcom/commsource/beautyplus/setting/language/LanguageConfig$spConfig$2;->INSTANCE:Lcom/commsource/beautyplus/setting/language/LanguageConfig$spConfig$2;
 
-    invoke-static {v1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v1
 
-    sput-object v1, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->a:Lkotlin/w;
+    sput-object v1, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->a:Lcotlin/w;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -180,7 +180,7 @@
 
     const-string v1, "context"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->c()Ljava/lang/String;
@@ -210,7 +210,7 @@
     const-string v3, "locale"
 
     .line 6
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v2, v1}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->h(Landroid/content/res/Configuration;Ljava/util/Locale;)V
 
@@ -221,7 +221,7 @@
 
     const-string v1, "context.createConfigurationContext(configuration)"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -247,7 +247,7 @@
 
     const-string v1, "context"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->c()Ljava/lang/String;
@@ -287,13 +287,13 @@
     if-lt v2, v3, :cond_1
 
     .line 4
-    invoke-static {p1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
     move-result-object v2
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Landroid/content/res/Configuration;->getLocales()Landroid/os/LocaleList;
 
@@ -313,7 +313,7 @@
 
     .line 5
     :cond_1
-    invoke-static {p1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
@@ -348,11 +348,11 @@
 
     move-result-object v3
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v4, "locale"
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v2, v3, v1}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->h(Landroid/content/res/Configuration;Ljava/util/Locale;)V
 
@@ -396,7 +396,7 @@
 
     const-string v2, "it.resources"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
@@ -435,7 +435,7 @@
 
     const-string/jumbo v2, "spConfig.getString(\"languageSetting\", \"\")"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -457,7 +457,7 @@
 
     const-string v1, "context"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "LanguageSetting"
 
@@ -504,7 +504,7 @@
 
     const-string v1, "locale"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -525,7 +525,7 @@
 
     const-string v1, "AppContext.getContext().\u2026Locale(locale)\n        })"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -533,7 +533,7 @@
 
     const-string v1, "AppContext.getContext().\u2026ale)\n        }).resources"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -549,9 +549,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    sget-object v1, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->a:Lkotlin/w;
+    sget-object v1, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->a:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -575,7 +575,7 @@
 
     const-string v1, "application"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/beautyplus/setting/language/LanguageConfig$a;
@@ -605,7 +605,7 @@
 
     const-string v1, "context"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->d(Landroid/content/Context;)Ljava/lang/String;
@@ -635,7 +635,7 @@
     const-string v3, "locale"
 
     .line 6
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v2, v1}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->h(Landroid/content/res/Configuration;Ljava/util/Locale;)V
 
@@ -646,7 +646,7 @@
 
     const-string v1, "context.createConfigurationContext(configuration)"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -672,7 +672,7 @@
 
     const-string v1, "language"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageConfig;->f()Lcom/commsource/util/common/l;

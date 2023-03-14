@@ -1,11 +1,11 @@
-.class public final Lkotlin/a2/b$a;
+.class public final Lcotlin/a2/b$a;
 .super Ljava/lang/Thread;
 .source "Thread.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/a2/b;->b(ZZLjava/lang/ClassLoader;Ljava/lang/String;ILkotlin/jvm/u/a;)Ljava/lang/Thread;
+    value = Lcotlin/a2/b;->b(ZZLjava/lang/ClassLoader;Ljava/lang/String;ILcotlin/jvm/u/a;)Ljava/lang/Thread;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
     d2 = {
         "kotlin/a2/b$a",
         "Ljava/lang/Thread;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "kotlin-stdlib"
@@ -40,15 +40,15 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/jvm/u/a;
+.field final synthetic a:Lcotlin/jvm/u/a;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/jvm/u/a;)V
+.method constructor <init>(Lcotlin/jvm/u/a;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lkotlin/a2/b$a;->a:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcotlin/a2/b$a;->a:Lcotlin/jvm/u/a;
 
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
 
@@ -61,9 +61,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/a2/b$a;->a:Lkotlin/jvm/u/a;
+    iget-object v0, p0, Lcotlin/a2/b$a;->a:Lcotlin/jvm/u/a;
 
-    invoke-interface {v0}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     return-void
 .end method

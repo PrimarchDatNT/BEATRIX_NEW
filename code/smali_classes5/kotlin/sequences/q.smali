@@ -1,10 +1,10 @@
-.class Lkotlin/sequences/q;
+.class Lcotlin/sequences/q;
 .super Ljava/lang/Object;
 .source "SequenceBuilder.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,24 +15,24 @@
     }
     d2 = {
         "T",
-        "Lkotlin/Function2;",
-        "Lkotlin/sequences/o;",
-        "Lkotlin/coroutines/c;",
-        "Lkotlin/t1;",
+        "Lcotlin/Function2;",
+        "Lcotlin/sequences/o;",
+        "Lcotlin/coroutines/c;",
+        "Lcotlin/t1;",
         "",
-        "Lkotlin/q;",
+        "Lcotlin/q;",
         "block",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "e",
-        "(Lkotlin/jvm/u/p;)Lkotlin/sequences/m;",
+        "(Lcotlin/jvm/u/p;)Lcotlin/sequences/m;",
         "builderAction",
         "c",
         "",
         "d",
-        "(Lkotlin/jvm/u/p;)Ljava/util/Iterator;",
+        "(Lcotlin/jvm/u/p;)Ljava/util/Iterator;",
         "b",
         "",
-        "Lkotlin/sequences/State;",
+        "Lcotlin/sequences/State;",
         "a",
         "I",
         "State_NotReady",
@@ -42,16 +42,16 @@
         "State_Ready",
         "f",
         "State_Failed",
-        "Lkotlin/i;",
+        "Lcotlin/i;",
         "message",
         "Use SequenceScope class instead.",
         "replaceWith",
-        "Lkotlin/q0;",
+        "Lcotlin/q0;",
         "imports",
         "expression",
         "SequenceScope<T>",
         "level",
-        "Lkotlin/DeprecationLevel;",
+        "Lcotlin/DeprecationLevel;",
         "ERROR",
         "SequenceBuilder",
         "State",
@@ -92,10 +92,10 @@
 
 .method public static synthetic a()V
     .locals 0
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->ERROR:Lcotlin/DeprecationLevel;
         message = "Use SequenceScope class instead."
-        replaceWith = .subannotation Lkotlin/q0;
+        replaceWith = .subannotation Lcotlin/q0;
             expression = "SequenceScope<T>"
             imports = {}
         .end subannotation
@@ -104,10 +104,10 @@
     return-void
 .end method
 
-.method private static final b(Lkotlin/jvm/u/p;)Ljava/util/Iterator;
+.method private static final b(Lcotlin/jvm/u/p;)Ljava/util/Iterator;
     .locals 0
-    .param p0    # Lkotlin/jvm/u/p;
-        .annotation build Lkotlin/b;
+    .param p0    # Lcotlin/jvm/u/p;
+        .annotation build Lcotlin/b;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -115,13 +115,13 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
-            "Lkotlin/sequences/o<",
+            "Lcotlin/sequences/o<",
             "-TT;>;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;+",
             "Ljava/lang/Object;",
             ">;)",
@@ -130,34 +130,34 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->ERROR:Lcotlin/DeprecationLevel;
         message = "Use \'iterator { }\' function instead."
-        replaceWith = .subannotation Lkotlin/q0;
+        replaceWith = .subannotation Lcotlin/q0;
             expression = "iterator(builderAction)"
             imports = {}
         .end subannotation
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lkotlin/sequences/p;->d(Lkotlin/jvm/u/p;)Ljava/util/Iterator;
+    invoke-static {p0}, Lcotlin/sequences/p;->d(Lcotlin/jvm/u/p;)Ljava/util/Iterator;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final c(Lkotlin/jvm/u/p;)Lkotlin/sequences/m;
+.method private static final c(Lcotlin/jvm/u/p;)Lcotlin/sequences/m;
     .locals 1
-    .param p0    # Lkotlin/jvm/u/p;
-        .annotation build Lkotlin/b;
+    .param p0    # Lcotlin/jvm/u/p;
+        .annotation build Lcotlin/b;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -165,49 +165,49 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
-            "Lkotlin/sequences/o<",
+            "Lcotlin/sequences/o<",
             "-TT;>;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;+",
             "Ljava/lang/Object;",
             ">;)",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "TT;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->ERROR:Lcotlin/DeprecationLevel;
         message = "Use \'sequence { }\' function instead."
-        replaceWith = .subannotation Lkotlin/q0;
+        replaceWith = .subannotation Lcotlin/q0;
             expression = "sequence(builderAction)"
             imports = {}
         .end subannotation
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/sequences/q$a;
+    new-instance v0, Lcotlin/sequences/q$a;
 
-    invoke-direct {v0, p0}, Lkotlin/sequences/q$a;-><init>(Lkotlin/jvm/u/p;)V
+    invoke-direct {v0, p0}, Lcotlin/sequences/q$a;-><init>(Lcotlin/jvm/u/p;)V
 
     return-object v0
 .end method
 
-.method public static d(Lkotlin/jvm/u/p;)Ljava/util/Iterator;
+.method public static d(Lcotlin/jvm/u/p;)Ljava/util/Iterator;
     .locals 1
-    .param p0    # Lkotlin/jvm/u/p;
-        .annotation build Lkotlin/b;
+    .param p0    # Lcotlin/jvm/u/p;
+        .annotation build Lcotlin/b;
         .end annotation
 
         .annotation build Ln/e/a/d;
@@ -218,13 +218,13 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
-            "Lkotlin/sequences/o<",
+            "Lcotlin/sequences/o<",
             "-TT;>;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;+",
             "Ljava/lang/Object;",
             ">;)",
@@ -233,7 +233,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -242,27 +242,27 @@
 
     const-string v0, "block"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/sequences/n;
+    new-instance v0, Lcotlin/sequences/n;
 
-    invoke-direct {v0}, Lkotlin/sequences/n;-><init>()V
+    invoke-direct {v0}, Lcotlin/sequences/n;-><init>()V
 
     .line 2
-    invoke-static {p0, v0, v0}, Lkotlin/coroutines/intrinsics/a;->c(Lkotlin/jvm/u/p;Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-static {p0, v0, v0}, Lcotlin/coroutines/intrinsics/a;->c(Lcotlin/jvm/u/p;Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p0
 
-    invoke-virtual {v0, p0}, Lkotlin/sequences/n;->l(Lkotlin/coroutines/c;)V
+    invoke-virtual {v0, p0}, Lcotlin/sequences/n;->l(Lcotlin/coroutines/c;)V
 
     return-object v0
 .end method
 
-.method public static e(Lkotlin/jvm/u/p;)Lkotlin/sequences/m;
+.method public static e(Lcotlin/jvm/u/p;)Lcotlin/sequences/m;
     .locals 1
-    .param p0    # Lkotlin/jvm/u/p;
-        .annotation build Lkotlin/b;
+    .param p0    # Lcotlin/jvm/u/p;
+        .annotation build Lcotlin/b;
         .end annotation
 
         .annotation build Ln/e/a/d;
@@ -273,22 +273,22 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
-            "Lkotlin/sequences/o<",
+            "Lcotlin/sequences/o<",
             "-TT;>;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;+",
             "Ljava/lang/Object;",
             ">;)",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "TT;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -297,12 +297,12 @@
 
     const-string v0, "block"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/sequences/q$b;
+    new-instance v0, Lcotlin/sequences/q$b;
 
-    invoke-direct {v0, p0}, Lkotlin/sequences/q$b;-><init>(Lkotlin/jvm/u/p;)V
+    invoke-direct {v0, p0}, Lcotlin/sequences/q$b;-><init>(Lcotlin/jvm/u/p;)V
 
     return-object v0
 .end method

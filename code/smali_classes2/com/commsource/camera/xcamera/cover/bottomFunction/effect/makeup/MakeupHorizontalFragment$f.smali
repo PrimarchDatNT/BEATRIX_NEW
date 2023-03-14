@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "Lcom/meitu/template/bean/ArMaterial;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/meitu/template/bean/ArMaterial;)V"
     }
@@ -91,7 +91,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/s9;->c:Landroid/widget/FrameLayout;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -107,7 +107,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/s9;->c:Landroid/widget/FrameLayout;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 

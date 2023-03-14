@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/channels/f0$b;
+.class public final Lcotlinx/coroutines/channels/f0$b;
 .super Ljava/lang/Object;
 .source "Channel.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/channels/f0;
+    value = Lcotlinx/coroutines/channels/f0;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "b"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "",
         "E",
         "value",
-        "Lkotlinx/coroutines/channels/f0;",
+        "Lcotlinx/coroutines/channels/f0;",
         "b",
         "(Ljava/lang/Object;)Ljava/lang/Object;",
         "",
@@ -57,11 +57,11 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlinx/coroutines/channels/f0$b;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/channels/f0$b;-><init>()V
 
     return-void
 .end method
@@ -89,11 +89,11 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/channels/f0$a;
+    new-instance v0, Lcotlinx/coroutines/channels/f0$a;
 
-    invoke-direct {v0, p1}, Lkotlinx/coroutines/channels/f0$a;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v0, p1}, Lcotlinx/coroutines/channels/f0$a;-><init>(Ljava/lang/Throwable;)V
 
-    invoke-static {v0}, Lkotlinx/coroutines/channels/f0;->c(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcotlinx/coroutines/channels/f0;->c(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -115,7 +115,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lkotlinx/coroutines/channels/f0;->c(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcotlinx/coroutines/channels/f0;->c(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

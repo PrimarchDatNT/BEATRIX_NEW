@@ -1,11 +1,11 @@
-.class final Lkotlinx/coroutines/sync/d$e;
-.super Lkotlinx/coroutines/internal/b;
+.class final Lcotlinx/coroutines/sync/d$e;
+.super Lcotlinx/coroutines/internal/b;
 .source "Mutex.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/sync/d;
+    value = Lcotlinx/coroutines/sync/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,11 +15,11 @@
 
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkotlinx/coroutines/sync/d$e$a;
+        Lcotlinx/coroutines/sync/d$e$a;
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,24 +30,24 @@
     }
     d2 = {
         "kotlinx/coroutines/sync/d$e",
-        "Lkotlinx/coroutines/internal/b;",
-        "Lkotlinx/coroutines/internal/d;",
+        "Lcotlinx/coroutines/internal/b;",
+        "Lcotlinx/coroutines/internal/d;",
         "op",
         "",
         "c",
-        "(Lkotlinx/coroutines/internal/d;)Ljava/lang/Object;",
+        "(Lcotlinx/coroutines/internal/d;)Ljava/lang/Object;",
         "failure",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
-        "(Lkotlinx/coroutines/internal/d;Ljava/lang/Object;)V",
-        "Lkotlinx/coroutines/sync/d;",
+        "(Lcotlinx/coroutines/internal/d;Ljava/lang/Object;)V",
+        "Lcotlinx/coroutines/sync/d;",
         "b",
-        "Lkotlinx/coroutines/sync/d;",
+        "Lcotlinx/coroutines/sync/d;",
         "mutex",
         "Ljava/lang/Object;",
         "owner",
         "<init>",
-        "(Lkotlinx/coroutines/sync/d;Ljava/lang/Object;)V",
+        "(Lcotlinx/coroutines/sync/d;Ljava/lang/Object;)V",
         "kotlinx-coroutines-core"
     }
     k = 0x1
@@ -60,8 +60,8 @@
 
 
 # instance fields
-.field public final b:Lkotlinx/coroutines/sync/d;
-    .annotation build Lkotlin/jvm/d;
+.field public final b:Lcotlinx/coroutines/sync/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -69,7 +69,7 @@
 .end field
 
 .field public final c:Ljava/lang/Object;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -78,9 +78,9 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/sync/d;Ljava/lang/Object;)V
+.method public constructor <init>(Lcotlinx/coroutines/sync/d;Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Lkotlinx/coroutines/sync/d;
+    .param p1    # Lcotlinx/coroutines/sync/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -90,20 +90,20 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Lkotlinx/coroutines/internal/b;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/internal/b;-><init>()V
 
-    iput-object p1, p0, Lkotlinx/coroutines/sync/d$e;->b:Lkotlinx/coroutines/sync/d;
+    iput-object p1, p0, Lcotlinx/coroutines/sync/d$e;->b:Lcotlinx/coroutines/sync/d;
 
-    iput-object p2, p0, Lkotlinx/coroutines/sync/d$e;->c:Ljava/lang/Object;
+    iput-object p2, p0, Lcotlinx/coroutines/sync/d$e;->c:Ljava/lang/Object;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public a(Lkotlinx/coroutines/internal/d;Ljava/lang/Object;)V
+.method public a(Lcotlinx/coroutines/internal/d;Ljava/lang/Object;)V
     .locals 2
-    .param p1    # Lkotlinx/coroutines/internal/d;
+    .param p1    # Lcotlinx/coroutines/internal/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -114,7 +114,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/internal/d<",
+            "Lcotlinx/coroutines/internal/d<",
             "*>;",
             "Ljava/lang/Object;",
             ")V"
@@ -124,7 +124,7 @@
     if-eqz p2, :cond_0
 
     .line 1
-    invoke-static {}, Lkotlinx/coroutines/sync/MutexKt;->l()Lkotlinx/coroutines/sync/b;
+    invoke-static {}, Lcotlinx/coroutines/sync/MutexKt;->l()Lcotlinx/coroutines/sync/b;
 
     move-result-object p2
 
@@ -132,44 +132,44 @@
 
     .line 2
     :cond_0
-    iget-object p2, p0, Lkotlinx/coroutines/sync/d$e;->c:Ljava/lang/Object;
+    iget-object p2, p0, Lcotlinx/coroutines/sync/d$e;->c:Ljava/lang/Object;
 
     if-nez p2, :cond_1
 
-    invoke-static {}, Lkotlinx/coroutines/sync/MutexKt;->k()Lkotlinx/coroutines/sync/b;
+    invoke-static {}, Lcotlinx/coroutines/sync/MutexKt;->k()Lcotlinx/coroutines/sync/b;
 
     move-result-object p2
 
     goto :goto_0
 
     :cond_1
-    new-instance v0, Lkotlinx/coroutines/sync/b;
+    new-instance v0, Lcotlinx/coroutines/sync/b;
 
-    invoke-direct {v0, p2}, Lkotlinx/coroutines/sync/b;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p2}, Lcotlinx/coroutines/sync/b;-><init>(Ljava/lang/Object;)V
 
     move-object p2, v0
 
     .line 3
     :goto_0
-    iget-object v0, p0, Lkotlinx/coroutines/sync/d$e;->b:Lkotlinx/coroutines/sync/d;
+    iget-object v0, p0, Lcotlinx/coroutines/sync/d$e;->b:Lcotlinx/coroutines/sync/d;
 
-    sget-object v1, Lkotlinx/coroutines/sync/d;->a:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
+    sget-object v1, Lcotlinx/coroutines/sync/d;->a:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     invoke-virtual {v1, v0, p1, p2}, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Z
 
     return-void
 .end method
 
-.method public c(Lkotlinx/coroutines/internal/d;)Ljava/lang/Object;
+.method public c(Lcotlinx/coroutines/internal/d;)Ljava/lang/Object;
     .locals 3
-    .param p1    # Lkotlinx/coroutines/internal/d;
+    .param p1    # Lcotlinx/coroutines/internal/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/internal/d<",
+            "Lcotlinx/coroutines/internal/d<",
             "*>;)",
             "Ljava/lang/Object;"
         }
@@ -179,16 +179,16 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/sync/d$e$a;
+    new-instance v0, Lcotlinx/coroutines/sync/d$e$a;
 
-    invoke-direct {v0, p0, p1}, Lkotlinx/coroutines/sync/d$e$a;-><init>(Lkotlinx/coroutines/sync/d$e;Lkotlinx/coroutines/internal/d;)V
+    invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/sync/d$e$a;-><init>(Lcotlinx/coroutines/sync/d$e;Lcotlinx/coroutines/internal/d;)V
 
     .line 2
-    iget-object p1, p0, Lkotlinx/coroutines/sync/d$e;->b:Lkotlinx/coroutines/sync/d;
+    iget-object p1, p0, Lcotlinx/coroutines/sync/d$e;->b:Lcotlinx/coroutines/sync/d;
 
-    sget-object v1, Lkotlinx/coroutines/sync/d;->a:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
+    sget-object v1, Lcotlinx/coroutines/sync/d;->a:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
-    invoke-static {}, Lkotlinx/coroutines/sync/MutexKt;->l()Lkotlinx/coroutines/sync/b;
+    invoke-static {}, Lcotlinx/coroutines/sync/MutexKt;->l()Lcotlinx/coroutines/sync/b;
 
     move-result-object v2
 
@@ -198,7 +198,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {}, Lkotlinx/coroutines/sync/MutexKt;->n()Lkotlinx/coroutines/internal/c0;
+    invoke-static {}, Lcotlinx/coroutines/sync/MutexKt;->n()Lcotlinx/coroutines/internal/c0;
 
     move-result-object p1
 
@@ -206,9 +206,9 @@
 
     .line 3
     :cond_0
-    iget-object p1, p0, Lkotlinx/coroutines/sync/d$e;->b:Lkotlinx/coroutines/sync/d;
+    iget-object p1, p0, Lcotlinx/coroutines/sync/d$e;->b:Lcotlinx/coroutines/sync/d;
 
-    invoke-virtual {v0, p1}, Lkotlinx/coroutines/sync/d$e$a;->c(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lcotlinx/coroutines/sync/d$e$a;->c(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

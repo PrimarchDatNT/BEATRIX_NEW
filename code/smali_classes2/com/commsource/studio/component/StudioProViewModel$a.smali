@@ -17,7 +17,7 @@
     value = "SMAP\nStudioProViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StudioProViewModel.kt\ncom/commsource/studio/component/StudioProViewModel$Companion\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,413:1\n1819#2,2:414\n*E\n*S KotlinDebug\n*F\n+ 1 StudioProViewModel.kt\ncom/commsource/studio/component/StudioProViewModel$Companion\n*L\n59#1,2:414\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -65,7 +65,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2

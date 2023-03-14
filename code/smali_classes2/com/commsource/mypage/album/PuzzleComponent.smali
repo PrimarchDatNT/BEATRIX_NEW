@@ -18,7 +18,7 @@
     value = "SMAP\nBpAlbumActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpAlbumActivity.kt\ncom/commsource/mypage/album/PuzzleComponent\n*L\n1#1,1336:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "Lcom/commsource/mypage/album/z$f;",
         "",
         "fromUser",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "s",
         "(Z)V",
         "Lcom/commsource/cloudalbum/bean/CAImageInfo;",
@@ -104,7 +104,7 @@
 
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/mypage/album/BaseAlbumComponent;-><init>(Lcom/commsource/mypage/album/BpAlbumActivity;)V
@@ -235,7 +235,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i;->W:Landroid/widget/LinearLayout;
 
-    invoke-static {p1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v5, 0x8
 
@@ -252,7 +252,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i;->P:Landroid/widget/ImageButton;
 
-    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1, v5}, Landroid/widget/ImageButton;->setVisibility(I)V
 
@@ -267,7 +267,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i;->N:Landroid/widget/ImageButton;
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -282,7 +282,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i;->K:Lcom/commsource/widget/IconFrontView;
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -297,7 +297,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i;->f:Landroid/widget/FrameLayout;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->y(Landroid/view/View;)V
 
@@ -315,7 +315,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i;->W:Landroid/widget/LinearLayout;
 
-    invoke-static {p1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v5, 0x0
 
@@ -332,7 +332,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i;->P:Landroid/widget/ImageButton;
 
-    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1, v5}, Landroid/widget/ImageButton;->setVisibility(I)V
 
@@ -347,7 +347,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i;->N:Landroid/widget/ImageButton;
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -362,7 +362,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i;->K:Lcom/commsource/widget/IconFrontView;
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -377,7 +377,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i;->f:Landroid/widget/FrameLayout;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -447,7 +447,7 @@
 
     const-string v2, "owner.viewBinding.puzzleSelect"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -526,7 +526,7 @@
 
     const-string v2, "owner.viewBinding.puzzleViewSpace"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -704,7 +704,7 @@
 
     const-string v1, "owner.viewBinding.puzzleViewSpace"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -841,7 +841,7 @@
 
     const-string v2, "owner.viewBinding.llPuzzle"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x0
 

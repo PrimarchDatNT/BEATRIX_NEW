@@ -20,7 +20,7 @@
     value = "SMAP\nMontagePreviewCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MontagePreviewCover.kt\ncom/commsource/camera/xcamera/cover/window/MontagePreviewCover\n*L\n1#1,239:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,7 +36,7 @@
         "Landroid/view/View$OnClickListener;",
         "",
         "isShow",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "X",
         "(Z)V",
         "Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;",
@@ -57,7 +57,7 @@
         "W",
         "Lcom/commsource/camera/montage/e0;",
         "O",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "S",
         "()Lcom/commsource/camera/montage/e0;",
         "mMontageMaterialViewModel",
@@ -126,64 +126,64 @@
 
 
 # instance fields
-.field private final J:Lkotlin/w;
+.field private final J:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final K:Lkotlin/w;
+.field private final K:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final L:Lkotlin/w;
+.field private final L:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final M:Lkotlin/w;
+.field private final M:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final N:Lkotlin/w;
+.field private final N:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final O:Lkotlin/w;
+.field private final O:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final P:Lkotlin/w;
+.field private final P:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final Q:Lkotlin/w;
+.field private final Q:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
 .field private R:Z
 
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final f:Lkotlin/w;
+.field private final f:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final g:Lkotlin/w;
+.field private final g:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final p:Lkotlin/w;
+.field private final p:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -201,132 +201,132 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$mBottomFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->d:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->d:Lcotlin/w;
 
     .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$mCameraCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$mCameraCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->f:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->f:Lcotlin/w;
 
     .line 4
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$mArViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$mArViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->g:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->g:Lcotlin/w;
 
     .line 5
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$mMontageDressUpViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$mMontageDressUpViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->p:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->p:Lcotlin/w;
 
     .line 6
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$mBpCameraViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$mBpCameraViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->J:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->J:Lcotlin/w;
 
     .line 7
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$arGiphyMaterialViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$arGiphyMaterialViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->K:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->K:Lcotlin/w;
 
     .line 8
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$cameraFilterViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$cameraFilterViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->L:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->L:Lcotlin/w;
 
     .line 9
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$makeupViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$makeupViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->M:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->M:Lcotlin/w;
 
     .line 10
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$lookViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$lookViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->N:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->N:Lcotlin/w;
 
     .line 11
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$mMontageMaterialViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$mMontageMaterialViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->O:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->O:Lcotlin/w;
 
     .line 12
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$beautyViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$beautyViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->P:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->P:Lcotlin/w;
 
     .line 13
     new-instance v0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$effectFunctionViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$effectFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->Q:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->Q:Lcotlin/w;
 
     return-void
 .end method
@@ -492,14 +492,14 @@
 
     if-nez p1, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     check-cast p1, Lcom/commsource/beautyplus/f0/g4;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/g4;->b:Landroid/widget/FrameLayout;
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1, v2}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
@@ -513,14 +513,14 @@
 
     if-nez p1, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     check-cast p1, Lcom/commsource/beautyplus/f0/g4;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/g4;->b:Landroid/widget/FrameLayout;
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
@@ -536,14 +536,14 @@
 
     if-nez p1, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     check-cast p1, Lcom/commsource/beautyplus/f0/g4;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/g4;->b:Landroid/widget/FrameLayout;
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1, v2}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
@@ -615,7 +615,7 @@
 
     if-nez p1, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     check-cast p1, Lcom/commsource/beautyplus/f0/g4;
@@ -624,7 +624,7 @@
 
     const-string v4, "mViewBinding!!.llMontageDressTip"
 
-    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v5, 0x0
 
@@ -637,7 +637,7 @@
 
     if-nez p1, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     check-cast p1, Lcom/commsource/beautyplus/f0/g4;
@@ -653,14 +653,14 @@
 
     if-nez p1, :cond_4
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
     check-cast p1, Lcom/commsource/beautyplus/f0/g4;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/g4;->c:Landroid/widget/LinearLayout;
 
-    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -668,14 +668,14 @@
 
     if-nez v5, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     check-cast v5, Lcom/commsource/beautyplus/f0/g4;
 
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/g4;->c:Landroid/widget/LinearLayout;
 
-    invoke-static {v5, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Landroid/widget/LinearLayout;->getHeight()I
 
@@ -692,14 +692,14 @@
 
     if-nez p1, :cond_6
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     check-cast p1, Lcom/commsource/beautyplus/f0/g4;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/g4;->c:Landroid/widget/LinearLayout;
 
-    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const v5, 0x3f4ccccd    # 0.8f
 
@@ -709,14 +709,14 @@
 
     if-nez v6, :cond_7
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_7
     check-cast v6, Lcom/commsource/beautyplus/f0/g4;
 
     iget-object v6, v6, Lcom/commsource/beautyplus/f0/g4;->c:Landroid/widget/LinearLayout;
 
-    invoke-static {v6, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v6}, Landroid/widget/LinearLayout;->getWidth()I
 
@@ -735,7 +735,7 @@
 
     if-nez p1, :cond_8
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_8
     check-cast p1, Lcom/commsource/beautyplus/f0/g4;
@@ -751,7 +751,7 @@
 
     if-nez p1, :cond_9
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_9
     check-cast p1, Lcom/commsource/beautyplus/f0/g4;
@@ -767,7 +767,7 @@
 
     if-nez p1, :cond_a
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_a
     check-cast p1, Lcom/commsource/beautyplus/f0/g4;
@@ -808,7 +808,7 @@
 
     if-nez p1, :cond_c
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_c
     check-cast p1, Lcom/commsource/beautyplus/f0/g4;
@@ -856,9 +856,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->K:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->K:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -878,9 +878,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->P:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->P:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -900,9 +900,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->L:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->L:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -922,9 +922,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->Q:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->Q:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -944,9 +944,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->N:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->N:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -966,9 +966,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->g:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->g:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -988,9 +988,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1010,9 +1010,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->J:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->J:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1032,9 +1032,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->f:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->f:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1054,9 +1054,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->p:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->p:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1076,9 +1076,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->O:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->O:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1098,9 +1098,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->M:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->M:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1330,7 +1330,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 

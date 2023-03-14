@@ -16,7 +16,7 @@
     value = "SMAP\nLayerSelectViewHolder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LayerSelectViewHolder.kt\ncom/commsource/studio/gesture/LayerSelectViewHolder\n*L\n1#1,136:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,7 +36,7 @@
         "",
         "",
         "payloads",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "k",
         "(ILcom/commsource/widget/h1/d;Ljava/util/List;)V",
         "Lcom/commsource/camera/b1/b;",
@@ -48,7 +48,7 @@
         "Lcom/commsource/beautyplus/f0/gi;",
         "kotlin.jvm.PlatformType",
         "p",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "x",
         "()Lcom/commsource/beautyplus/f0/gi;",
         "viewBinding",
@@ -75,7 +75,7 @@
     .end annotation
 .end field
 
-.field private final p:Lkotlin/w;
+.field private final p:Lcotlin/w;
 
 
 # direct methods
@@ -92,11 +92,11 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "parent"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_select_layer:I
 
@@ -108,11 +108,11 @@
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/gesture/LayerSelectViewHolder$viewBinding$2;-><init>(Lcom/commsource/studio/gesture/LayerSelectViewHolder;)V
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/gesture/LayerSelectViewHolder;->p:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/gesture/LayerSelectViewHolder;->p:Lcotlin/w;
 
     .line 3
     new-instance p1, Lcom/commsource/camera/b1/b;
@@ -169,7 +169,7 @@
 
     const-string v1, "item"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
@@ -222,7 +222,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->d:Lcom/commsource/comic/widget/StrokeTextView;
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -233,7 +233,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->f:Landroid/widget/ImageView;
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -244,7 +244,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->N:Landroid/widget/TextView;
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -255,7 +255,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->a:Lcom/commsource/studio/function/background/BackgroundView;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -291,7 +291,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->d:Lcom/commsource/comic/widget/StrokeTextView;
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -302,7 +302,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->f:Landroid/widget/ImageView;
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -313,7 +313,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->f:Landroid/widget/ImageView;
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1, v3}, Lcom/commsource/util/l0;->U(Landroid/view/View;I)V
 
@@ -324,7 +324,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->f:Landroid/widget/ImageView;
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v7, 0x0
 
@@ -337,7 +337,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->f:Landroid/widget/ImageView;
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-object v8, Landroid/widget/ImageView$ScaleType;->FIT_CENTER:Landroid/widget/ImageView$ScaleType;
 
@@ -352,7 +352,7 @@
 
     const-string v8, "viewBinding.layerThumbnail"
 
-    invoke-static {v1, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -363,7 +363,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->a:Lcom/commsource/studio/function/background/BackgroundView;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -374,7 +374,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->N:Landroid/widget/TextView;
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -390,7 +390,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->d:Lcom/commsource/comic/widget/StrokeTextView;
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -401,7 +401,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->d:Lcom/commsource/comic/widget/StrokeTextView;
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p3, Lcom/commsource/studio/bean/FilterLayerInfo;
 
@@ -450,7 +450,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->f:Landroid/widget/ImageView;
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -461,7 +461,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->N:Landroid/widget/TextView;
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -472,7 +472,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->N:Landroid/widget/TextView;
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p3, Lcom/commsource/studio/bean/TextLayerInfo;
 
@@ -548,7 +548,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->f:Landroid/widget/ImageView;
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-object v2, Landroid/widget/ImageView$ScaleType;->CENTER_CROP:Landroid/widget/ImageView$ScaleType;
 
@@ -622,7 +622,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->f:Landroid/widget/ImageView;
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x2
 
@@ -718,7 +718,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/gi;->J:Landroid/widget/ImageView;
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -732,7 +732,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/gi;->J:Landroid/widget/ImageView;
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -746,7 +746,7 @@
 
     const-string p2, "viewBinding.selectBg"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz v3, :cond_d
 
@@ -814,9 +814,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectViewHolder;->p:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectViewHolder;->p:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 

@@ -20,7 +20,7 @@
     value = "SMAP\nTestFuncActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TestFuncActivity.kt\ncom/commsource/beautyplus/setting/test/TestFuncActivity$initViews$23\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,395:1\n1819#2,2:396\n*E\n*S KotlinDebug\n*F\n+ 1 TestFuncActivity.kt\ncom/commsource/beautyplus/setting/test/TestFuncActivity$initViews$23\n*L\n323#1,2:396\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "Landroid/view/View;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onClick",
         "(Landroid/view/View;)V",
         "<anonymous>"

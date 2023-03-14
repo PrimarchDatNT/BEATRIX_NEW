@@ -1,10 +1,10 @@
-.class Lkotlin/collections/k1;
+.class Lcotlin/collections/k1;
 .super Ljava/lang/Object;
 .source "_UCollections.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,20 +15,20 @@
     }
     d2 = {
         "",
-        "Lkotlin/b1;",
-        "Lkotlin/c1;",
+        "Lcotlin/b1;",
+        "Lcotlin/c1;",
         "e",
         "(Ljava/util/Collection;)[B",
-        "Lkotlin/f1;",
-        "Lkotlin/g1;",
+        "Lcotlin/f1;",
+        "Lcotlin/g1;",
         "f",
         "(Ljava/util/Collection;)[I",
-        "Lkotlin/j1;",
-        "Lkotlin/k1;",
+        "Lcotlin/j1;",
+        "Lcotlin/k1;",
         "g",
         "(Ljava/util/Collection;)[J",
-        "Lkotlin/p1;",
-        "Lkotlin/q1;",
+        "Lcotlin/p1;",
+        "Lcotlin/q1;",
         "h",
         "(Ljava/util/Collection;)[S",
         "",
@@ -69,25 +69,25 @@
         value = {
             "(",
             "Ljava/lang/Iterable<",
-            "Lkotlin/b1;",
+            "Lcotlin/b1;",
             ">;)I"
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "sumOfUByte"
     .end annotation
 
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     const-string v0, "$this$sum"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -107,22 +107,22 @@
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/b1;
+    check-cast v1, Lcotlin/b1;
 
-    invoke-virtual {v1}, Lkotlin/b1;->t0()B
+    invoke-virtual {v1}, Lcotlin/b1;->t0()B
 
     move-result v1
 
     and-int/lit16 v1, v1, 0xff
 
     .line 2
-    invoke-static {v1}, Lkotlin/f1;->s(I)I
+    invoke-static {v1}, Lcotlin/f1;->s(I)I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    invoke-static {v0}, Lkotlin/f1;->s(I)I
+    invoke-static {v0}, Lcotlin/f1;->s(I)I
 
     move-result v0
 
@@ -142,25 +142,25 @@
         value = {
             "(",
             "Ljava/lang/Iterable<",
-            "Lkotlin/f1;",
+            "Lcotlin/f1;",
             ">;)I"
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "sumOfUInt"
     .end annotation
 
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     const-string v0, "$this$sum"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -180,16 +180,16 @@
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/f1;
+    check-cast v1, Lcotlin/f1;
 
-    invoke-virtual {v1}, Lkotlin/f1;->v0()I
+    invoke-virtual {v1}, Lcotlin/f1;->v0()I
 
     move-result v1
 
     add-int/2addr v0, v1
 
     .line 2
-    invoke-static {v0}, Lkotlin/f1;->s(I)I
+    invoke-static {v0}, Lcotlin/f1;->s(I)I
 
     move-result v0
 
@@ -209,25 +209,25 @@
         value = {
             "(",
             "Ljava/lang/Iterable<",
-            "Lkotlin/j1;",
+            "Lcotlin/j1;",
             ">;)J"
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "sumOfULong"
     .end annotation
 
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     const-string v0, "$this$sum"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -247,16 +247,16 @@
 
     move-result-object v2
 
-    check-cast v2, Lkotlin/j1;
+    check-cast v2, Lcotlin/j1;
 
-    invoke-virtual {v2}, Lkotlin/j1;->v0()J
+    invoke-virtual {v2}, Lcotlin/j1;->v0()J
 
     move-result-wide v2
 
     add-long/2addr v0, v2
 
     .line 2
-    invoke-static {v0, v1}, Lkotlin/j1;->s(J)J
+    invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
 
@@ -276,25 +276,25 @@
         value = {
             "(",
             "Ljava/lang/Iterable<",
-            "Lkotlin/p1;",
+            "Lcotlin/p1;",
             ">;)I"
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "sumOfUShort"
     .end annotation
 
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     const-string v0, "$this$sum"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -314,9 +314,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/p1;
+    check-cast v1, Lcotlin/p1;
 
-    invoke-virtual {v1}, Lkotlin/p1;->t0()S
+    invoke-virtual {v1}, Lcotlin/p1;->t0()S
 
     move-result v1
 
@@ -325,13 +325,13 @@
     and-int/2addr v1, v2
 
     .line 2
-    invoke-static {v1}, Lkotlin/f1;->s(I)I
+    invoke-static {v1}, Lcotlin/f1;->s(I)I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    invoke-static {v0}, Lkotlin/f1;->s(I)I
+    invoke-static {v0}, Lcotlin/f1;->s(I)I
 
     move-result v0
 
@@ -351,15 +351,15 @@
         value = {
             "(",
             "Ljava/util/Collection<",
-            "Lkotlin/b1;",
+            "Lcotlin/b1;",
             ">;)[B"
         }
     .end annotation
 
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -368,14 +368,14 @@
 
     const-string v0, "$this$toUByteArray"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Collection;->size()I
 
     move-result v0
 
-    invoke-static {v0}, Lkotlin/c1;->e(I)[B
+    invoke-static {v0}, Lcotlin/c1;->e(I)[B
 
     move-result-object v0
 
@@ -397,16 +397,16 @@
 
     move-result-object v2
 
-    check-cast v2, Lkotlin/b1;
+    check-cast v2, Lcotlin/b1;
 
-    invoke-virtual {v2}, Lkotlin/b1;->t0()B
+    invoke-virtual {v2}, Lcotlin/b1;->t0()B
 
     move-result v2
 
     add-int/lit8 v3, v1, 0x1
 
     .line 3
-    invoke-static {v0, v1, v2}, Lkotlin/c1;->C([BIB)V
+    invoke-static {v0, v1, v2}, Lcotlin/c1;->C([BIB)V
 
     move v1, v3
 
@@ -426,15 +426,15 @@
         value = {
             "(",
             "Ljava/util/Collection<",
-            "Lkotlin/f1;",
+            "Lcotlin/f1;",
             ">;)[I"
         }
     .end annotation
 
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -443,14 +443,14 @@
 
     const-string v0, "$this$toUIntArray"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Collection;->size()I
 
     move-result v0
 
-    invoke-static {v0}, Lkotlin/g1;->e(I)[I
+    invoke-static {v0}, Lcotlin/g1;->e(I)[I
 
     move-result-object v0
 
@@ -472,16 +472,16 @@
 
     move-result-object v2
 
-    check-cast v2, Lkotlin/f1;
+    check-cast v2, Lcotlin/f1;
 
-    invoke-virtual {v2}, Lkotlin/f1;->v0()I
+    invoke-virtual {v2}, Lcotlin/f1;->v0()I
 
     move-result v2
 
     add-int/lit8 v3, v1, 0x1
 
     .line 3
-    invoke-static {v0, v1, v2}, Lkotlin/g1;->C([III)V
+    invoke-static {v0, v1, v2}, Lcotlin/g1;->C([III)V
 
     move v1, v3
 
@@ -501,15 +501,15 @@
         value = {
             "(",
             "Ljava/util/Collection<",
-            "Lkotlin/j1;",
+            "Lcotlin/j1;",
             ">;)[J"
         }
     .end annotation
 
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -518,14 +518,14 @@
 
     const-string v0, "$this$toULongArray"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Collection;->size()I
 
     move-result v0
 
-    invoke-static {v0}, Lkotlin/k1;->e(I)[J
+    invoke-static {v0}, Lcotlin/k1;->e(I)[J
 
     move-result-object v0
 
@@ -547,16 +547,16 @@
 
     move-result-object v2
 
-    check-cast v2, Lkotlin/j1;
+    check-cast v2, Lcotlin/j1;
 
-    invoke-virtual {v2}, Lkotlin/j1;->v0()J
+    invoke-virtual {v2}, Lcotlin/j1;->v0()J
 
     move-result-wide v2
 
     add-int/lit8 v4, v1, 0x1
 
     .line 3
-    invoke-static {v0, v1, v2, v3}, Lkotlin/k1;->C([JIJ)V
+    invoke-static {v0, v1, v2, v3}, Lcotlin/k1;->C([JIJ)V
 
     move v1, v4
 
@@ -576,15 +576,15 @@
         value = {
             "(",
             "Ljava/util/Collection<",
-            "Lkotlin/p1;",
+            "Lcotlin/p1;",
             ">;)[S"
         }
     .end annotation
 
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -593,14 +593,14 @@
 
     const-string v0, "$this$toUShortArray"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Collection;->size()I
 
     move-result v0
 
-    invoke-static {v0}, Lkotlin/q1;->e(I)[S
+    invoke-static {v0}, Lcotlin/q1;->e(I)[S
 
     move-result-object v0
 
@@ -622,16 +622,16 @@
 
     move-result-object v2
 
-    check-cast v2, Lkotlin/p1;
+    check-cast v2, Lcotlin/p1;
 
-    invoke-virtual {v2}, Lkotlin/p1;->t0()S
+    invoke-virtual {v2}, Lcotlin/p1;->t0()S
 
     move-result v2
 
     add-int/lit8 v3, v1, 0x1
 
     .line 3
-    invoke-static {v0, v1, v2}, Lkotlin/q1;->C([SIS)V
+    invoke-static {v0, v1, v2}, Lcotlin/q1;->C([SIS)V
 
     move v1, v3
 

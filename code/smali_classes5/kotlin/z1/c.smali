@@ -1,10 +1,10 @@
-.class Lkotlin/z1/c;
-.super Lkotlin/z1/b;
+.class Lcotlin/z1/c;
+.super Lcotlin/z1/b;
 .source "_ComparisonsJvm.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -111,17 +111,17 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/z1/b;-><init>()V
+    invoke-direct {p0}, Lcotlin/z1/b;-><init>()V
 
     return-void
 .end method
 
 .method private static final A(BBB)B
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -145,13 +145,13 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p1
@@ -179,10 +179,10 @@
 
 .method private static final C(DD)D
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -196,10 +196,10 @@
 
 .method private static final D(DDD)D
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -221,13 +221,13 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     const-string v0, "other"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p2
@@ -253,10 +253,10 @@
 
 .method private static final F(FF)F
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -270,10 +270,10 @@
 
 .method private static final G(FFF)F
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -295,13 +295,13 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p1
@@ -327,10 +327,10 @@
 
 .method private static final I(II)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -344,10 +344,10 @@
 
 .method private static final J(III)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -369,13 +369,13 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p1
@@ -401,10 +401,10 @@
 
 .method private static final L(JJ)J
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -418,10 +418,10 @@
 
 .method private static final M(JJJ)J
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -443,13 +443,13 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     const-string v0, "other"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p2
@@ -491,7 +491,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -500,11 +500,11 @@
 
     const-string v0, "a"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "b"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0, p1}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
@@ -544,7 +544,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -553,22 +553,22 @@
 
     const-string v0, "a"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "b"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "c"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p1, p2}, Lkotlin/z1/c;->O(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Comparable;
+    invoke-static {p1, p2}, Lcotlin/z1/c;->O(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Comparable;
 
     move-result-object p1
 
-    invoke-static {p0, p1}, Lkotlin/z1/c;->O(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Comparable;
+    invoke-static {p0, p1}, Lcotlin/z1/c;->O(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Comparable;
 
     move-result-object p0
 
@@ -593,7 +593,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -602,11 +602,11 @@
 
     const-string v0, "a"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p1
@@ -618,7 +618,7 @@
 
     aget-object v2, p1, v1
 
-    invoke-static {p0, v2}, Lkotlin/z1/c;->O(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Comparable;
+    invoke-static {p0, v2}, Lcotlin/z1/c;->O(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Comparable;
 
     move-result-object p0
 
@@ -632,10 +632,10 @@
 
 .method private static final R(SS)S
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -651,10 +651,10 @@
 
 .method private static final S(SSS)S
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -678,13 +678,13 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p1
@@ -712,10 +712,10 @@
 
 .method private static final U(BB)B
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -731,10 +731,10 @@
 
 .method private static final V(BBB)B
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -758,13 +758,13 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p1
@@ -792,10 +792,10 @@
 
 .method private static final X(DD)D
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -809,10 +809,10 @@
 
 .method private static final Y(DDD)D
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -834,13 +834,13 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     const-string v0, "other"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p2
@@ -866,10 +866,10 @@
 
 .method private static final a0(FF)F
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -883,10 +883,10 @@
 
 .method private static final b0(FFF)F
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -908,13 +908,13 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p1
@@ -940,10 +940,10 @@
 
 .method private static final d0(II)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -957,10 +957,10 @@
 
 .method private static final e0(III)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -982,13 +982,13 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p1
@@ -1014,10 +1014,10 @@
 
 .method private static final g0(JJ)J
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -1031,10 +1031,10 @@
 
 .method private static final h0(JJJ)J
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -1056,13 +1056,13 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     const-string v0, "other"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p2
@@ -1104,7 +1104,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -1113,11 +1113,11 @@
 
     const-string v0, "a"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "b"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0, p1}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
@@ -1157,7 +1157,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -1166,22 +1166,22 @@
 
     const-string v0, "a"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "b"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "c"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p1, p2}, Lkotlin/z1/c;->j0(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Comparable;
+    invoke-static {p1, p2}, Lcotlin/z1/c;->j0(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Comparable;
 
     move-result-object p1
 
-    invoke-static {p0, p1}, Lkotlin/z1/c;->j0(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Comparable;
+    invoke-static {p0, p1}, Lcotlin/z1/c;->j0(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Comparable;
 
     move-result-object p0
 
@@ -1206,7 +1206,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -1215,11 +1215,11 @@
 
     const-string v0, "a"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p1
@@ -1231,7 +1231,7 @@
 
     aget-object v2, p1, v1
 
-    invoke-static {p0, v2}, Lkotlin/z1/c;->j0(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Comparable;
+    invoke-static {p0, v2}, Lcotlin/z1/c;->j0(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Comparable;
 
     move-result-object p0
 
@@ -1245,10 +1245,10 @@
 
 .method private static final m0(SS)S
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -1264,10 +1264,10 @@
 
 .method private static final n0(SSS)S
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -1291,13 +1291,13 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p1
@@ -1325,10 +1325,10 @@
 
 .method private static final z(BB)B
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 

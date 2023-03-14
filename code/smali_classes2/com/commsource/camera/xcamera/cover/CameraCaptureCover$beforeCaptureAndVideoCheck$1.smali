@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->K(Lkotlin/jvm/u/a;)Z
+    value = Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->K(Lcotlin/jvm/u/a;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Lcom/commsource/camera/xcamera/m;",
         "Lcom/commsource/camera/xcamera/bean/c;",
         "captureResultBean",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "f",
         "(Lcom/commsource/camera/xcamera/bean/c;)V",
         "app_googleplayRelease"
@@ -83,7 +83,7 @@
 
     const-string v1, "captureResultBean"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$beforeCaptureAndVideoCheck$1$onScreenShotTaken$1;

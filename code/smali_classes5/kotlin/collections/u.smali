@@ -1,10 +1,10 @@
-.class Lkotlin/collections/u;
-.super Lkotlin/collections/CollectionsKt__CollectionsKt;
+.class Lcotlin/collections/u;
+.super Lcotlin/collections/CollectionsKt__CollectionsKt;
 .source "Iterables.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,12 +15,12 @@
     }
     d2 = {
         "T",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "",
         "iterator",
         "",
         "X",
-        "(Lkotlin/jvm/u/a;)Ljava/lang/Iterable;",
+        "(Lcotlin/jvm/u/a;)Ljava/lang/Iterable;",
         "",
         "Z",
         "(Ljava/lang/Iterable;)Ljava/lang/Integer;",
@@ -40,9 +40,9 @@
         "c0",
         "(Ljava/lang/Iterable;)Ljava/util/List;",
         "R",
-        "Lkotlin/Pair;",
+        "Lcotlin/Pair;",
         "e0",
-        "(Ljava/lang/Iterable;)Lkotlin/Pair;",
+        "(Ljava/lang/Iterable;)Lcotlin/Pair;",
         "kotlin-stdlib"
     }
     k = 0x5
@@ -59,19 +59,19 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/collections/CollectionsKt__CollectionsKt;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/CollectionsKt__CollectionsKt;-><init>()V
 
     return-void
 .end method
 
-.method private static final X(Lkotlin/jvm/u/a;)Ljava/lang/Iterable;
+.method private static final X(Lcotlin/jvm/u/a;)Ljava/lang/Iterable;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/jvm/u/a<",
             "+",
             "Ljava/util/Iterator<",
             "+TT;>;>;)",
@@ -80,13 +80,13 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/collections/u$a;
+    new-instance v0, Lcotlin/collections/u$a;
 
-    invoke-direct {v0, p0}, Lkotlin/collections/u$a;-><init>(Lkotlin/jvm/u/a;)V
+    invoke-direct {v0, p0}, Lcotlin/collections/u$a;-><init>(Lcotlin/jvm/u/a;)V
 
     return-object v0
 .end method
@@ -107,12 +107,12 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     const-string v0, "$this$collectionSizeOrDefault"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     instance-of v0, p0, Ljava/util/Collection;
@@ -146,7 +146,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -154,7 +154,7 @@
 
     const-string v0, "$this$collectionSizeOrNull"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     instance-of v0, p0, Ljava/util/Collection;
@@ -203,7 +203,7 @@
 
     const-string v0, "$this$convertToSetForSetOperation"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     instance-of v0, p0, Ljava/util/Set;
@@ -224,13 +224,13 @@
 
     check-cast v0, Ljava/util/Collection;
 
-    invoke-static {v0}, Lkotlin/collections/u;->d0(Ljava/util/Collection;)Z
+    invoke-static {v0}, Lcotlin/collections/u;->d0(Ljava/util/Collection;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->G5(Ljava/lang/Iterable;)Ljava/util/HashSet;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->G5(Ljava/lang/Iterable;)Ljava/util/HashSet;
 
     move-result-object p0
 
@@ -243,7 +243,7 @@
 
     .line 3
     :cond_2
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->G5(Ljava/lang/Iterable;)Ljava/util/HashSet;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->G5(Ljava/lang/Iterable;)Ljava/util/HashSet;
 
     move-result-object p0
 
@@ -280,11 +280,11 @@
 
     const-string v0, "$this$convertToSetForSetOperationWith"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     instance-of v0, p0, Ljava/util/Set;
@@ -326,13 +326,13 @@
 
     check-cast p1, Ljava/util/Collection;
 
-    invoke-static {p1}, Lkotlin/collections/u;->d0(Ljava/util/Collection;)Z
+    invoke-static {p1}, Lcotlin/collections/u;->d0(Ljava/util/Collection;)Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->G5(Ljava/lang/Iterable;)Ljava/util/HashSet;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->G5(Ljava/lang/Iterable;)Ljava/util/HashSet;
 
     move-result-object p0
 
@@ -345,7 +345,7 @@
 
     .line 5
     :cond_3
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->G5(Ljava/lang/Iterable;)Ljava/util/HashSet;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->G5(Ljava/lang/Iterable;)Ljava/util/HashSet;
 
     move-result-object p0
 
@@ -378,7 +378,7 @@
 
     const-string v0, "$this$flatten"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/ArrayList;
@@ -404,7 +404,7 @@
     check-cast v1, Ljava/lang/Iterable;
 
     .line 3
-    invoke-static {v0, v1}, Lkotlin/collections/s;->q0(Ljava/util/Collection;Ljava/lang/Iterable;)Z
+    invoke-static {v0, v1}, Lcotlin/collections/s;->q0(Ljava/util/Collection;Ljava/lang/Iterable;)Z
 
     goto :goto_0
 
@@ -448,7 +448,7 @@
     return p0
 .end method
 
-.method public static final e0(Ljava/lang/Iterable;)Lkotlin/Pair;
+.method public static final e0(Ljava/lang/Iterable;)Lcotlin/Pair;
     .locals 4
     .param p0    # Ljava/lang/Iterable;
         .annotation build Ln/e/a/d;
@@ -463,9 +463,9 @@
             ">(",
             "Ljava/lang/Iterable<",
             "+",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TT;+TR;>;>;)",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/util/List<",
             "TT;>;",
             "Ljava/util/List<",
@@ -478,12 +478,12 @@
 
     const-string v0, "$this$unzip"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v0, 0xa
 
     .line 1
-    invoke-static {p0, v0}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {p0, v0}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v0
 
@@ -513,17 +513,17 @@
 
     move-result-object v0
 
-    check-cast v0, Lkotlin/Pair;
+    check-cast v0, Lcotlin/Pair;
 
     .line 5
-    invoke-virtual {v0}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v3
 
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 6
-    invoke-virtual {v0}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -533,7 +533,7 @@
 
     .line 7
     :cond_0
-    invoke-static {v1, v2}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v1, v2}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object p0
 

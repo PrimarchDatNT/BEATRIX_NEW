@@ -14,7 +14,7 @@
     value = "SMAP\nLayerSelectComponent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LayerSelectComponent.kt\ncom/commsource/studio/gesture/LayerSelectComponent\n*L\n1#1,451:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
     d2 = {
         "Lcom/commsource/studio/gesture/LayerSelectComponent;",
         "Landroid/widget/FrameLayout;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "q",
         "()V",
         "y",
@@ -138,7 +138,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/gesture/LayerSelectComponent$g;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/gesture/LayerSelectComponent$g;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/gesture/LayerSelectComponent;->L:Lcom/commsource/studio/gesture/LayerSelectComponent$g;
 
@@ -160,7 +160,7 @@
 
     move-object/from16 v2, p1
 
-    invoke-static {v2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct/range {p0 .. p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
@@ -188,7 +188,7 @@
 
     const-string v2, "ViewModelProvider(contex\u2026dioViewModel::class.java)"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v1, Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -209,7 +209,7 @@
 
     const-string v2, "ViewLayerSelectBinding.i\u2026utInflater.from(context))"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object v1, v0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
@@ -266,7 +266,7 @@
 
     const-string v2, "contentBinding.layerList"
 
-    invoke-static {v5, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v6, 0x0
 
@@ -297,7 +297,7 @@
 
     const-string v1, "contentBinding.ivLayerGuide"
 
-    invoke-static {v12, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v12, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v13, 0x0
 
@@ -450,49 +450,49 @@
     return-void
 
     :cond_1
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v3}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v3}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v1
 
     .line 23
     :cond_2
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v3}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v3}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v1
 
     .line 24
     :cond_3
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v3}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v3}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v1
 
     .line 25
     :cond_4
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v3}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v3}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v1
 
     .line 26
     :cond_5
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v3}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v3}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v1
 
     .line 27
     :cond_6
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v3}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v3}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v1
 .end method
@@ -514,13 +514,13 @@
 
     move-object/from16 v2, p1
 
-    invoke-static {v2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "attributeSet"
 
     move-object/from16 v3, p2
 
-    invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 28
     invoke-direct/range {p0 .. p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -548,7 +548,7 @@
 
     const-string v2, "ViewModelProvider(contex\u2026dioViewModel::class.java)"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v1, Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -569,7 +569,7 @@
 
     const-string v2, "ViewLayerSelectBinding.i\u2026utInflater.from(context))"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object v1, v0, Lcom/commsource/studio/gesture/LayerSelectComponent;->b:Lcom/commsource/beautyplus/f0/ym;
 
@@ -626,7 +626,7 @@
 
     const-string v2, "contentBinding.layerList"
 
-    invoke-static {v5, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v6, 0x0
 
@@ -657,7 +657,7 @@
 
     const-string v1, "contentBinding.ivLayerGuide"
 
-    invoke-static {v12, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v12, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v13, 0x0
 
@@ -810,49 +810,49 @@
     return-void
 
     :cond_1
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v3}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v3}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v1
 
     .line 50
     :cond_2
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v3}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v3}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v1
 
     .line 51
     :cond_3
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v3}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v3}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v1
 
     .line 52
     :cond_4
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v3}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v3}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v1
 
     .line 53
     :cond_5
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v3}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v3}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v1
 
     .line 54
     :cond_6
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v3}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v3}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v1
 .end method
@@ -1046,7 +1046,7 @@
 
     sget-object v2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1214,7 +1214,7 @@
 
     const-string v2, "contentBinding.tipsBubbleView"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1238,7 +1238,7 @@
 
     const-string v2, "contentBinding.layerManageContainer"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-object v2, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
@@ -1293,21 +1293,21 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$1;-><init>(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/LayerManageListLayout;->setLayerInfosChangeListener(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/LayerManageListLayout;->setLayerInfosChangeListener(Lcotlin/jvm/u/l;)V
 
     .line 7
     new-instance v2, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$2;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$2;-><init>(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/LayerManageListLayout;->setLayerInfoDeleteListener(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/LayerManageListLayout;->setLayerInfoDeleteListener(Lcotlin/jvm/u/l;)V
 
     .line 8
     new-instance v2, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$3;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/gesture/LayerSelectComponent$initLayerSelectRv$$inlined$run$lambda$3;-><init>(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/LayerManageListLayout;->setLayerInfoClickListener(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/LayerManageListLayout;->setLayerInfoClickListener(Lcotlin/jvm/u/l;)V
 
     .line 9
     new-instance v2, Lcom/commsource/studio/gesture/LayerSelectComponent$h;
@@ -1365,11 +1365,11 @@
 
     .line 17
     :cond_0
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type androidx.fragment.app.FragmentActivity"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1390,7 +1390,7 @@
 
     const-string v2, "contentBinding.tipsBubbleView"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->z(Landroid/view/View;)Z
 
@@ -1450,7 +1450,7 @@
 
     if-nez v3, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {v3}, Lcom/commsource/studio/bean/BaseLayerInfo;->getParentKey()Ljava/lang/String;
@@ -1463,7 +1463,7 @@
 
     check-cast v4, Ljava/lang/String;
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
 
@@ -1544,7 +1544,7 @@
 
     const-string v1, "contentBinding.ivIndicator"
 
-    invoke-static {v2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v3, 0x0
 
@@ -1556,7 +1556,7 @@
 
     const/4 v8, 0x0
 
-    invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     const/4 v1, 0x2
 
@@ -1570,13 +1570,13 @@
 
     const-string v1, "contentBinding.layerManageContainer"
 
-    invoke-static {v2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v3, 0x0
 
     const/4 v7, 0x6
 
-    invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 4
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;
@@ -1656,7 +1656,7 @@
 
     const-string v6, "contentBinding.tipsBubbleView"
 
-    invoke-static {v5, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Landroid/widget/LinearLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -1678,7 +1678,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/ym;->P:Landroid/widget/LinearLayout;
 
-    invoke-static {v2, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2, v5}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
@@ -1699,7 +1699,7 @@
 
     const-string v8, "contentBinding.layerList"
 
-    invoke-static {v7, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v7}, Landroid/widget/FrameLayout;->getHeight()I
 
@@ -1750,7 +1750,7 @@
 
     iget-object v7, v7, Lcom/commsource/beautyplus/f0/ym;->K:Lcom/commsource/studio/LayerManageListLayout;
 
-    invoke-static {v7, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v7}, Landroid/widget/FrameLayout;->getHeight()I
 
@@ -1782,7 +1782,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ym;->K:Lcom/commsource/studio/LayerManageListLayout;
 
-    invoke-static {v1, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/widget/FrameLayout;->getHeight()I
 
@@ -1809,7 +1809,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ym;->P:Landroid/widget/LinearLayout;
 
-    invoke-static {p1, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1, v2}, Landroid/widget/LinearLayout;->setAlpha(F)V
 
@@ -1820,11 +1820,11 @@
 
     .line 18
     :cond_5
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type android.widget.FrameLayout.LayoutParams"
 
-    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1949,7 +1949,7 @@
 
     const-string v1, "contentBinding.ivIndicator"
 
-    invoke-static {v2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v3, 0x0
 
@@ -1963,7 +1963,7 @@
 
     const/4 v8, 0x0
 
-    invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 5
     :goto_0
@@ -2062,7 +2062,7 @@
 
     const-string v1, "contentBinding.ivIndicator"
 
-    invoke-static {v2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v3, 0x0
 
@@ -2078,7 +2078,7 @@
 
     const/4 v9, 0x0
 
-    invoke-static/range {v2 .. v9}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v9}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 5
     :goto_0
@@ -2133,7 +2133,7 @@
 
     const-string v1, "contentBinding.layerManageContainer"
 
-    invoke-static {v2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-object v1, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
@@ -2151,7 +2151,7 @@
 
     const/4 v8, 0x0
 
-    invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 2
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent;->a:Lcom/commsource/studio/ImageStudioViewModel;

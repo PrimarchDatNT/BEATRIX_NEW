@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
     d2 = {
         "com/commsource/camera/xcamera/cover/montage/a$b",
         "Lcom/commsource/material/download/b/c;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onStart",
         "()V",
         "",
@@ -54,16 +54,16 @@
 # instance fields
 .field final synthetic a:Lcom/commsource/camera/xcamera/cover/montage/a;
 
-.field final synthetic b:Lkotlin/jvm/internal/Ref$ObjectRef;
+.field final synthetic b:Lcotlin/jvm/internal/Ref$ObjectRef;
 
 
 # direct methods
-.method constructor <init>(Lcom/commsource/camera/xcamera/cover/montage/a;Lkotlin/jvm/internal/Ref$ObjectRef;)V
+.method constructor <init>(Lcom/commsource/camera/xcamera/cover/montage/a;Lcotlin/jvm/internal/Ref$ObjectRef;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/internal/Ref$ObjectRef;",
+            "Lcotlin/jvm/internal/Ref$ObjectRef;",
             ")V"
         }
     .end annotation
@@ -71,7 +71,7 @@
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/a$b;->a:Lcom/commsource/camera/xcamera/cover/montage/a;
 
-    iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/montage/a$b;->b:Lkotlin/jvm/internal/Ref$ObjectRef;
+    iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/montage/a$b;->b:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -106,12 +106,12 @@
 
     const-string v1, "e"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/a$b;->b:Lkotlin/jvm/internal/Ref$ObjectRef;
+    iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/a$b;->b:Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iget-object p1, p1, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iget-object p1, p1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     check-cast p1, Ljava/lang/String;
 

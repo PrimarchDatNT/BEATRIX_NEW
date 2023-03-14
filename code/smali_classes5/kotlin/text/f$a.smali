@@ -1,15 +1,15 @@
-.class public final Lkotlin/text/f$a;
+.class public final Lcotlin/text/f$a;
 .super Ljava/lang/Object;
 .source "Strings.kt"
 
 # interfaces
 .implements Ljava/util/Iterator;
-.implements Lkotlin/jvm/internal/x0/a;
+.implements Lcotlin/jvm/internal/x0/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/text/f;->iterator()Ljava/util/Iterator;
+    value = Lcotlin/text/f;->iterator()Ljava/util/Iterator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -21,13 +21,13 @@
     value = {
         "Ljava/lang/Object;",
         "Ljava/util/Iterator<",
-        "Lkotlin/g2/k;",
+        "Lcotlin/g2/k;",
         ">;",
-        "Lkotlin/jvm/internal/x0/a;"
+        "Lcotlin/jvm/internal/x0/a;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,12 +39,12 @@
     d2 = {
         "kotlin/text/f$a",
         "",
-        "Lkotlin/g2/k;",
-        "Lkotlin/t1;",
+        "Lcotlin/g2/k;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "g",
-        "()Lkotlin/g2/k;",
+        "()Lcotlin/g2/k;",
         "",
         "hasNext",
         "()Z",
@@ -63,9 +63,9 @@
         "l",
         "nextSearchIndex",
         "d",
-        "Lkotlin/g2/k;",
+        "Lcotlin/g2/k;",
         "k",
-        "(Lkotlin/g2/k;)V",
+        "(Lcotlin/g2/k;)V",
         "nextItem",
         "i",
         "counter",
@@ -87,18 +87,18 @@
 
 .field private c:I
 
-.field private d:Lkotlin/g2/k;
+.field private d:Lcotlin/g2/k;
     .annotation build Ln/e/a/e;
     .end annotation
 .end field
 
 .field private f:I
 
-.field final synthetic g:Lkotlin/text/f;
+.field final synthetic g:Lcotlin/text/f;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/text/f;)V
+.method constructor <init>(Lcotlin/text/f;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -107,21 +107,21 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lkotlin/text/f$a;->g:Lkotlin/text/f;
+    iput-object p1, p0, Lcotlin/text/f$a;->g:Lcotlin/text/f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
     .line 2
-    iput v0, p0, Lkotlin/text/f$a;->a:I
+    iput v0, p0, Lcotlin/text/f$a;->a:I
 
     .line 3
-    invoke-static {p1}, Lkotlin/text/f;->f(Lkotlin/text/f;)I
+    invoke-static {p1}, Lcotlin/text/f;->f(Lcotlin/text/f;)I
 
     move-result v0
 
-    invoke-static {p1}, Lkotlin/text/f;->d(Lkotlin/text/f;)Ljava/lang/CharSequence;
+    invoke-static {p1}, Lcotlin/text/f;->d(Lcotlin/text/f;)Ljava/lang/CharSequence;
 
     move-result-object p1
 
@@ -131,14 +131,14 @@
 
     const/4 v1, 0x0
 
-    invoke-static {v0, v1, p1}, Lkotlin/g2/o;->B(III)I
+    invoke-static {v0, v1, p1}, Lcotlin/g2/o;->B(III)I
 
     move-result p1
 
-    iput p1, p0, Lkotlin/text/f$a;->b:I
+    iput p1, p0, Lcotlin/text/f$a;->b:I
 
     .line 4
-    iput p1, p0, Lkotlin/text/f$a;->c:I
+    iput p1, p0, Lcotlin/text/f$a;->c:I
 
     return-void
 .end method
@@ -147,27 +147,27 @@
     .locals 6
 
     .line 1
-    iget v0, p0, Lkotlin/text/f$a;->c:I
+    iget v0, p0, Lcotlin/text/f$a;->c:I
 
     const/4 v1, 0x0
 
     if-gez v0, :cond_0
 
     .line 2
-    iput v1, p0, Lkotlin/text/f$a;->a:I
+    iput v1, p0, Lcotlin/text/f$a;->a:I
 
     const/4 v0, 0x0
 
     .line 3
-    iput-object v0, p0, Lkotlin/text/f$a;->d:Lkotlin/g2/k;
+    iput-object v0, p0, Lcotlin/text/f$a;->d:Lcotlin/g2/k;
 
     goto/16 :goto_1
 
     .line 4
     :cond_0
-    iget-object v0, p0, Lkotlin/text/f$a;->g:Lkotlin/text/f;
+    iget-object v0, p0, Lcotlin/text/f$a;->g:Lcotlin/text/f;
 
-    invoke-static {v0}, Lkotlin/text/f;->e(Lkotlin/text/f;)I
+    invoke-static {v0}, Lcotlin/text/f;->e(Lcotlin/text/f;)I
 
     move-result v0
 
@@ -177,26 +177,26 @@
 
     if-lez v0, :cond_1
 
-    iget v0, p0, Lkotlin/text/f$a;->f:I
+    iget v0, p0, Lcotlin/text/f$a;->f:I
 
     add-int/2addr v0, v3
 
-    iput v0, p0, Lkotlin/text/f$a;->f:I
+    iput v0, p0, Lcotlin/text/f$a;->f:I
 
-    iget-object v4, p0, Lkotlin/text/f$a;->g:Lkotlin/text/f;
+    iget-object v4, p0, Lcotlin/text/f$a;->g:Lcotlin/text/f;
 
-    invoke-static {v4}, Lkotlin/text/f;->e(Lkotlin/text/f;)I
+    invoke-static {v4}, Lcotlin/text/f;->e(Lcotlin/text/f;)I
 
     move-result v4
 
     if-ge v0, v4, :cond_2
 
     :cond_1
-    iget v0, p0, Lkotlin/text/f$a;->c:I
+    iget v0, p0, Lcotlin/text/f$a;->c:I
 
-    iget-object v4, p0, Lkotlin/text/f$a;->g:Lkotlin/text/f;
+    iget-object v4, p0, Lcotlin/text/f$a;->g:Lcotlin/text/f;
 
-    invoke-static {v4}, Lkotlin/text/f;->d(Lkotlin/text/f;)Ljava/lang/CharSequence;
+    invoke-static {v4}, Lcotlin/text/f;->d(Lcotlin/text/f;)Ljava/lang/CharSequence;
 
     move-result-object v4
 
@@ -208,84 +208,84 @@
 
     .line 5
     :cond_2
-    iget v0, p0, Lkotlin/text/f$a;->b:I
+    iget v0, p0, Lcotlin/text/f$a;->b:I
 
-    new-instance v1, Lkotlin/g2/k;
+    new-instance v1, Lcotlin/g2/k;
 
-    iget-object v4, p0, Lkotlin/text/f$a;->g:Lkotlin/text/f;
+    iget-object v4, p0, Lcotlin/text/f$a;->g:Lcotlin/text/f;
 
-    invoke-static {v4}, Lkotlin/text/f;->d(Lkotlin/text/f;)Ljava/lang/CharSequence;
+    invoke-static {v4}, Lcotlin/text/f;->d(Lcotlin/text/f;)Ljava/lang/CharSequence;
 
     move-result-object v4
 
-    invoke-static {v4}, Lkotlin/text/StringsKt__StringsKt;->e3(Ljava/lang/CharSequence;)I
+    invoke-static {v4}, Lcotlin/text/StringsKt__StringsKt;->e3(Ljava/lang/CharSequence;)I
 
     move-result v4
 
-    invoke-direct {v1, v0, v4}, Lkotlin/g2/k;-><init>(II)V
+    invoke-direct {v1, v0, v4}, Lcotlin/g2/k;-><init>(II)V
 
-    iput-object v1, p0, Lkotlin/text/f$a;->d:Lkotlin/g2/k;
+    iput-object v1, p0, Lcotlin/text/f$a;->d:Lcotlin/g2/k;
 
     .line 6
-    iput v2, p0, Lkotlin/text/f$a;->c:I
+    iput v2, p0, Lcotlin/text/f$a;->c:I
 
     goto :goto_0
 
     .line 7
     :cond_3
-    iget-object v0, p0, Lkotlin/text/f$a;->g:Lkotlin/text/f;
+    iget-object v0, p0, Lcotlin/text/f$a;->g:Lcotlin/text/f;
 
-    invoke-static {v0}, Lkotlin/text/f;->c(Lkotlin/text/f;)Lkotlin/jvm/u/p;
+    invoke-static {v0}, Lcotlin/text/f;->c(Lcotlin/text/f;)Lcotlin/jvm/u/p;
 
     move-result-object v0
 
-    iget-object v4, p0, Lkotlin/text/f$a;->g:Lkotlin/text/f;
+    iget-object v4, p0, Lcotlin/text/f$a;->g:Lcotlin/text/f;
 
-    invoke-static {v4}, Lkotlin/text/f;->d(Lkotlin/text/f;)Ljava/lang/CharSequence;
+    invoke-static {v4}, Lcotlin/text/f;->d(Lcotlin/text/f;)Ljava/lang/CharSequence;
 
     move-result-object v4
 
-    iget v5, p0, Lkotlin/text/f$a;->c:I
+    iget v5, p0, Lcotlin/text/f$a;->c:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
 
-    invoke-interface {v0, v4, v5}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v4, v5}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkotlin/Pair;
+    check-cast v0, Lcotlin/Pair;
 
     if-nez v0, :cond_4
 
     .line 8
-    iget v0, p0, Lkotlin/text/f$a;->b:I
+    iget v0, p0, Lcotlin/text/f$a;->b:I
 
-    new-instance v1, Lkotlin/g2/k;
+    new-instance v1, Lcotlin/g2/k;
 
-    iget-object v4, p0, Lkotlin/text/f$a;->g:Lkotlin/text/f;
+    iget-object v4, p0, Lcotlin/text/f$a;->g:Lcotlin/text/f;
 
-    invoke-static {v4}, Lkotlin/text/f;->d(Lkotlin/text/f;)Ljava/lang/CharSequence;
+    invoke-static {v4}, Lcotlin/text/f;->d(Lcotlin/text/f;)Ljava/lang/CharSequence;
 
     move-result-object v4
 
-    invoke-static {v4}, Lkotlin/text/StringsKt__StringsKt;->e3(Ljava/lang/CharSequence;)I
+    invoke-static {v4}, Lcotlin/text/StringsKt__StringsKt;->e3(Ljava/lang/CharSequence;)I
 
     move-result v4
 
-    invoke-direct {v1, v0, v4}, Lkotlin/g2/k;-><init>(II)V
+    invoke-direct {v1, v0, v4}, Lcotlin/g2/k;-><init>(II)V
 
-    iput-object v1, p0, Lkotlin/text/f$a;->d:Lkotlin/g2/k;
+    iput-object v1, p0, Lcotlin/text/f$a;->d:Lcotlin/g2/k;
 
     .line 9
-    iput v2, p0, Lkotlin/text/f$a;->c:I
+    iput v2, p0, Lcotlin/text/f$a;->c:I
 
     goto :goto_0
 
     .line 10
     :cond_4
-    invoke-virtual {v0}, Lkotlin/Pair;->component1()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlin/Pair;->component1()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -295,7 +295,7 @@
 
     move-result v2
 
-    invoke-virtual {v0}, Lkotlin/Pair;->component2()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlin/Pair;->component2()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -306,18 +306,18 @@
     move-result v0
 
     .line 11
-    iget v4, p0, Lkotlin/text/f$a;->b:I
+    iget v4, p0, Lcotlin/text/f$a;->b:I
 
-    invoke-static {v4, v2}, Lkotlin/g2/o;->n1(II)Lkotlin/g2/k;
+    invoke-static {v4, v2}, Lcotlin/g2/o;->n1(II)Lcotlin/g2/k;
 
     move-result-object v4
 
-    iput-object v4, p0, Lkotlin/text/f$a;->d:Lkotlin/g2/k;
+    iput-object v4, p0, Lcotlin/text/f$a;->d:Lcotlin/g2/k;
 
     add-int/2addr v2, v0
 
     .line 12
-    iput v2, p0, Lkotlin/text/f$a;->b:I
+    iput v2, p0, Lcotlin/text/f$a;->b:I
 
     if-nez v0, :cond_5
 
@@ -327,11 +327,11 @@
     add-int/2addr v2, v1
 
     .line 13
-    iput v2, p0, Lkotlin/text/f$a;->c:I
+    iput v2, p0, Lcotlin/text/f$a;->c:I
 
     .line 14
     :goto_0
-    iput v3, p0, Lkotlin/text/f$a;->a:I
+    iput v3, p0, Lcotlin/text/f$a;->a:I
 
     :goto_1
     return-void
@@ -343,7 +343,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlin/text/f$a;->f:I
+    iget v0, p0, Lcotlin/text/f$a;->f:I
 
     return v0
 .end method
@@ -352,18 +352,18 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlin/text/f$a;->b:I
+    iget v0, p0, Lcotlin/text/f$a;->b:I
 
     return v0
 .end method
 
-.method public final d()Lkotlin/g2/k;
+.method public final d()Lcotlin/g2/k;
     .locals 1
     .annotation build Ln/e/a/e;
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/f$a;->d:Lkotlin/g2/k;
+    iget-object v0, p0, Lcotlin/text/f$a;->d:Lcotlin/g2/k;
 
     return-object v0
 .end method
@@ -372,7 +372,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlin/text/f$a;->c:I
+    iget v0, p0, Lcotlin/text/f$a;->c:I
 
     return v0
 .end method
@@ -381,34 +381,34 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlin/text/f$a;->a:I
+    iget v0, p0, Lcotlin/text/f$a;->a:I
 
     return v0
 .end method
 
-.method public g()Lkotlin/g2/k;
+.method public g()Lcotlin/g2/k;
     .locals 3
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    iget v0, p0, Lkotlin/text/f$a;->a:I
+    iget v0, p0, Lcotlin/text/f$a;->a:I
 
     const/4 v1, -0x1
 
     if-ne v0, v1, :cond_0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/text/f$a;->a()V
+    invoke-direct {p0}, Lcotlin/text/f$a;->a()V
 
     .line 3
     :cond_0
-    iget v0, p0, Lkotlin/text/f$a;->a:I
+    iget v0, p0, Lcotlin/text/f$a;->a:I
 
     if-eqz v0, :cond_1
 
     .line 4
-    iget-object v0, p0, Lkotlin/text/f$a;->d:Lkotlin/g2/k;
+    iget-object v0, p0, Lcotlin/text/f$a;->d:Lcotlin/g2/k;
 
     const-string v2, "null cannot be cast to non-null type kotlin.ranges.IntRange"
 
@@ -417,10 +417,10 @@
     const/4 v2, 0x0
 
     .line 5
-    iput-object v2, p0, Lkotlin/text/f$a;->d:Lkotlin/g2/k;
+    iput-object v2, p0, Lcotlin/text/f$a;->d:Lcotlin/g2/k;
 
     .line 6
-    iput v1, p0, Lkotlin/text/f$a;->a:I
+    iput v1, p0, Lcotlin/text/f$a;->a:I
 
     return-object v0
 
@@ -437,18 +437,18 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lkotlin/text/f$a;->a:I
+    iget v0, p0, Lcotlin/text/f$a;->a:I
 
     const/4 v1, -0x1
 
     if-ne v0, v1, :cond_0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/text/f$a;->a()V
+    invoke-direct {p0}, Lcotlin/text/f$a;->a()V
 
     .line 3
     :cond_0
-    iget v0, p0, Lkotlin/text/f$a;->a:I
+    iget v0, p0, Lcotlin/text/f$a;->a:I
 
     const/4 v1, 0x1
 
@@ -467,7 +467,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lkotlin/text/f$a;->f:I
+    iput p1, p0, Lcotlin/text/f$a;->f:I
 
     return-void
 .end method
@@ -476,20 +476,20 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lkotlin/text/f$a;->b:I
+    iput p1, p0, Lcotlin/text/f$a;->b:I
 
     return-void
 .end method
 
-.method public final k(Lkotlin/g2/k;)V
+.method public final k(Lcotlin/g2/k;)V
     .locals 0
-    .param p1    # Lkotlin/g2/k;
+    .param p1    # Lcotlin/g2/k;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
 
     .line 1
-    iput-object p1, p0, Lkotlin/text/f$a;->d:Lkotlin/g2/k;
+    iput-object p1, p0, Lcotlin/text/f$a;->d:Lcotlin/g2/k;
 
     return-void
 .end method
@@ -498,7 +498,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lkotlin/text/f$a;->c:I
+    iput p1, p0, Lcotlin/text/f$a;->c:I
 
     return-void
 .end method
@@ -507,7 +507,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lkotlin/text/f$a;->a:I
+    iput p1, p0, Lcotlin/text/f$a;->a:I
 
     return-void
 .end method
@@ -516,7 +516,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/text/f$a;->g()Lkotlin/g2/k;
+    invoke-virtual {p0}, Lcotlin/text/f$a;->g()Lcotlin/g2/k;
 
     move-result-object v0
 

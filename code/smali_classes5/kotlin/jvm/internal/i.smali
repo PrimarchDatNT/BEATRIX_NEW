@@ -1,10 +1,10 @@
-.class public final Lkotlin/jvm/internal/i;
+.class public final Lcotlin/jvm/internal/i;
 .super Ljava/lang/Object;
 .source "ArrayIterators.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -16,37 +16,37 @@
     d2 = {
         "",
         "array",
-        "Lkotlin/collections/q;",
+        "Lcotlin/collections/q;",
         "b",
-        "([B)Lkotlin/collections/q;",
+        "([B)Lcotlin/collections/q;",
         "",
-        "Lkotlin/collections/r;",
+        "Lcotlin/collections/r;",
         "c",
-        "([C)Lkotlin/collections/r;",
+        "([C)Lcotlin/collections/r;",
         "",
-        "Lkotlin/collections/f1;",
+        "Lcotlin/collections/f1;",
         "h",
-        "([S)Lkotlin/collections/f1;",
+        "([S)Lcotlin/collections/f1;",
         "",
-        "Lkotlin/collections/l0;",
+        "Lcotlin/collections/l0;",
         "f",
-        "([I)Lkotlin/collections/l0;",
+        "([I)Lcotlin/collections/l0;",
         "",
-        "Lkotlin/collections/m0;",
+        "Lcotlin/collections/m0;",
         "g",
-        "([J)Lkotlin/collections/m0;",
+        "([J)Lcotlin/collections/m0;",
         "",
-        "Lkotlin/collections/d0;",
+        "Lcotlin/collections/d0;",
         "e",
-        "([F)Lkotlin/collections/d0;",
+        "([F)Lcotlin/collections/d0;",
         "",
-        "Lkotlin/collections/b0;",
+        "Lcotlin/collections/b0;",
         "d",
-        "([D)Lkotlin/collections/b0;",
+        "([D)Lcotlin/collections/b0;",
         "",
-        "Lkotlin/collections/p;",
+        "Lcotlin/collections/p;",
         "a",
-        "([Z)Lkotlin/collections/p;",
+        "([Z)Lcotlin/collections/p;",
         "kotlin-stdlib"
     }
     k = 0x2
@@ -59,7 +59,7 @@
 
 
 # direct methods
-.method public static final a([Z)Lkotlin/collections/p;
+.method public static final a([Z)Lcotlin/collections/p;
     .locals 1
     .param p0    # [Z
         .annotation build Ln/e/a/d;
@@ -70,17 +70,17 @@
 
     const-string v0, "array"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/jvm/internal/a;
+    new-instance v0, Lcotlin/jvm/internal/a;
 
-    invoke-direct {v0, p0}, Lkotlin/jvm/internal/a;-><init>([Z)V
+    invoke-direct {v0, p0}, Lcotlin/jvm/internal/a;-><init>([Z)V
 
     return-object v0
 .end method
 
-.method public static final b([B)Lkotlin/collections/q;
+.method public static final b([B)Lcotlin/collections/q;
     .locals 1
     .param p0    # [B
         .annotation build Ln/e/a/d;
@@ -91,17 +91,17 @@
 
     const-string v0, "array"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/jvm/internal/b;
+    new-instance v0, Lcotlin/jvm/internal/b;
 
-    invoke-direct {v0, p0}, Lkotlin/jvm/internal/b;-><init>([B)V
+    invoke-direct {v0, p0}, Lcotlin/jvm/internal/b;-><init>([B)V
 
     return-object v0
 .end method
 
-.method public static final c([C)Lkotlin/collections/r;
+.method public static final c([C)Lcotlin/collections/r;
     .locals 1
     .param p0    # [C
         .annotation build Ln/e/a/d;
@@ -112,17 +112,17 @@
 
     const-string v0, "array"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/jvm/internal/c;
+    new-instance v0, Lcotlin/jvm/internal/c;
 
-    invoke-direct {v0, p0}, Lkotlin/jvm/internal/c;-><init>([C)V
+    invoke-direct {v0, p0}, Lcotlin/jvm/internal/c;-><init>([C)V
 
     return-object v0
 .end method
 
-.method public static final d([D)Lkotlin/collections/b0;
+.method public static final d([D)Lcotlin/collections/b0;
     .locals 1
     .param p0    # [D
         .annotation build Ln/e/a/d;
@@ -133,17 +133,17 @@
 
     const-string v0, "array"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/jvm/internal/d;
+    new-instance v0, Lcotlin/jvm/internal/d;
 
-    invoke-direct {v0, p0}, Lkotlin/jvm/internal/d;-><init>([D)V
+    invoke-direct {v0, p0}, Lcotlin/jvm/internal/d;-><init>([D)V
 
     return-object v0
 .end method
 
-.method public static final e([F)Lkotlin/collections/d0;
+.method public static final e([F)Lcotlin/collections/d0;
     .locals 1
     .param p0    # [F
         .annotation build Ln/e/a/d;
@@ -154,17 +154,17 @@
 
     const-string v0, "array"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/jvm/internal/e;
+    new-instance v0, Lcotlin/jvm/internal/e;
 
-    invoke-direct {v0, p0}, Lkotlin/jvm/internal/e;-><init>([F)V
+    invoke-direct {v0, p0}, Lcotlin/jvm/internal/e;-><init>([F)V
 
     return-object v0
 .end method
 
-.method public static final f([I)Lkotlin/collections/l0;
+.method public static final f([I)Lcotlin/collections/l0;
     .locals 1
     .param p0    # [I
         .annotation build Ln/e/a/d;
@@ -175,17 +175,17 @@
 
     const-string v0, "array"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/jvm/internal/f;
+    new-instance v0, Lcotlin/jvm/internal/f;
 
-    invoke-direct {v0, p0}, Lkotlin/jvm/internal/f;-><init>([I)V
+    invoke-direct {v0, p0}, Lcotlin/jvm/internal/f;-><init>([I)V
 
     return-object v0
 .end method
 
-.method public static final g([J)Lkotlin/collections/m0;
+.method public static final g([J)Lcotlin/collections/m0;
     .locals 1
     .param p0    # [J
         .annotation build Ln/e/a/d;
@@ -196,17 +196,17 @@
 
     const-string v0, "array"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/jvm/internal/j;
+    new-instance v0, Lcotlin/jvm/internal/j;
 
-    invoke-direct {v0, p0}, Lkotlin/jvm/internal/j;-><init>([J)V
+    invoke-direct {v0, p0}, Lcotlin/jvm/internal/j;-><init>([J)V
 
     return-object v0
 .end method
 
-.method public static final h([S)Lkotlin/collections/f1;
+.method public static final h([S)Lcotlin/collections/f1;
     .locals 1
     .param p0    # [S
         .annotation build Ln/e/a/d;
@@ -217,12 +217,12 @@
 
     const-string v0, "array"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/jvm/internal/k;
+    new-instance v0, Lcotlin/jvm/internal/k;
 
-    invoke-direct {v0, p0}, Lkotlin/jvm/internal/k;-><init>([S)V
+    invoke-direct {v0, p0}, Lcotlin/jvm/internal/k;-><init>([S)V
 
     return-object v0
 .end method

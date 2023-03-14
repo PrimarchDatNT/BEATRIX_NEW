@@ -14,7 +14,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "(Landroid/view/ViewGroup;)Landroidx/databinding/ViewDataBinding;",
         "Lcom/commsource/camera/xcamera/cover/CoverGroup;",
         "group",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "f",
         "(Lcom/commsource/camera/xcamera/cover/CoverGroup;)V",
         "o",
@@ -119,11 +119,11 @@
     return-object p1
 
     :cond_0
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v0, "null cannot be cast to non-null type T"
 
-    invoke-direct {p1, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -148,7 +148,7 @@
 
     const-string v1, "mViewBinding"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     return-object v0
@@ -168,7 +168,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/AbsCover;->b:Landroidx/databinding/ViewDataBinding;
@@ -185,7 +185,7 @@
 
     const-string v0, "group"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->b(Lcom/commsource/camera/xcamera/cover/CoverGroup;)V
@@ -197,7 +197,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -206,13 +206,13 @@
 
     const-string v2, "mViewBinding.root"
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -223,7 +223,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v0}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -245,7 +245,7 @@
 
     const-string v0, "group"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->f(Lcom/commsource/camera/xcamera/cover/CoverGroup;)V
@@ -262,7 +262,7 @@
     if-nez p1, :cond_0
 
     .line 3
-    invoke-static {v0}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v0}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -271,7 +271,7 @@
 
     const-string v1, "mViewBinding.root"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
@@ -288,7 +288,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v0}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v0}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;

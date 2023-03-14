@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/channels/c$f;
-.super Lkotlinx/coroutines/internal/m$c;
+.class public final Lcotlinx/coroutines/channels/c$f;
+.super Lcotlinx/coroutines/internal/m$c;
 .source "LockFreeLinkedList.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/channels/c;->j(Lkotlinx/coroutines/channels/b0;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/channels/c;->j(Lcotlinx/coroutines/channels/b0;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,7 +17,7 @@
     value = "SMAP\nLockFreeLinkedList.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LockFreeLinkedList.kt\nkotlinx/coroutines/internal/LockFreeLinkedListNode$makeCondAddOp$1\n+ 2 AbstractChannel.kt\nkotlinx/coroutines/channels/AbstractSendChannel\n*L\n1#1,657:1\n241#2:658\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,13 +28,13 @@
     }
     d2 = {
         "kotlinx/coroutines/channels/c$f",
-        "Lkotlinx/coroutines/internal/m$c;",
-        "Lkotlinx/coroutines/internal/m;",
-        "Lkotlinx/coroutines/internal/Node;",
+        "Lcotlinx/coroutines/internal/m$c;",
+        "Lcotlinx/coroutines/internal/m;",
+        "Lcotlinx/coroutines/internal/Node;",
         "affected",
         "",
         "j",
-        "(Lkotlinx/coroutines/internal/m;)Ljava/lang/Object;",
+        "(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;",
         "kotlinx-coroutines-core",
         "kotlinx/coroutines/internal/m$f"
     }
@@ -48,21 +48,21 @@
 
 
 # instance fields
-.field final synthetic d:Lkotlinx/coroutines/internal/m;
+.field final synthetic d:Lcotlinx/coroutines/internal/m;
 
-.field final synthetic e:Lkotlinx/coroutines/channels/c;
+.field final synthetic e:Lcotlinx/coroutines/channels/c;
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/internal/m;Lkotlinx/coroutines/internal/m;Lkotlinx/coroutines/channels/c;)V
+.method public constructor <init>(Lcotlinx/coroutines/internal/m;Lcotlinx/coroutines/internal/m;Lcotlinx/coroutines/channels/c;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/channels/c$f;->d:Lkotlinx/coroutines/internal/m;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/c$f;->d:Lcotlinx/coroutines/internal/m;
 
-    iput-object p3, p0, Lkotlinx/coroutines/channels/c$f;->e:Lkotlinx/coroutines/channels/c;
+    iput-object p3, p0, Lcotlinx/coroutines/channels/c$f;->e:Lcotlinx/coroutines/channels/c;
 
     .line 1
-    invoke-direct {p0, p2}, Lkotlinx/coroutines/internal/m$c;-><init>(Lkotlinx/coroutines/internal/m;)V
+    invoke-direct {p0, p2}, Lcotlinx/coroutines/internal/m$c;-><init>(Lcotlinx/coroutines/internal/m;)V
 
     return-void
 .end method
@@ -73,18 +73,18 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lkotlinx/coroutines/internal/m;
+    check-cast p1, Lcotlinx/coroutines/internal/m;
 
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/channels/c$f;->j(Lkotlinx/coroutines/internal/m;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/channels/c$f;->j(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public j(Lkotlinx/coroutines/internal/m;)Ljava/lang/Object;
+.method public j(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;
     .locals 0
-    .param p1    # Lkotlinx/coroutines/internal/m;
+    .param p1    # Lcotlinx/coroutines/internal/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -92,9 +92,9 @@
     .end annotation
 
     .line 1
-    iget-object p1, p0, Lkotlinx/coroutines/channels/c$f;->e:Lkotlinx/coroutines/channels/c;
+    iget-object p1, p0, Lcotlinx/coroutines/channels/c$f;->e:Lcotlinx/coroutines/channels/c;
 
-    invoke-virtual {p1}, Lkotlinx/coroutines/channels/c;->w()Z
+    invoke-virtual {p1}, Lcotlinx/coroutines/channels/c;->w()Z
 
     move-result p1
 
@@ -105,7 +105,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {}, Lkotlinx/coroutines/internal/l;->f()Ljava/lang/Object;
+    invoke-static {}, Lcotlinx/coroutines/internal/l;->f()Ljava/lang/Object;
 
     move-result-object p1
 

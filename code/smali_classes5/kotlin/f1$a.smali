@@ -1,11 +1,11 @@
-.class public final Lkotlin/f1$a;
+.class public final Lcotlin/f1$a;
 .super Ljava/lang/Object;
 .source "UInt.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/f1;
+    value = Lcotlin/f1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
     d2 = {
         "kotlin/f1$a",
         "",
-        "Lkotlin/f1;",
+        "Lcotlin/f1;",
         "MAX_VALUE",
         "I",
         "MIN_VALUE",
@@ -55,11 +55,11 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/f1$a;-><init>()V
+    invoke-direct {p0}, Lcotlin/f1$a;-><init>()V
 
     return-void
 .end method

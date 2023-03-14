@@ -8,7 +8,7 @@
     value = "SMAP\nFaceRelightFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FaceRelightFragment.kt\ncom/commsource/studio/function/relight/FaceRelightFragment\n*L\n1#1,94:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,12 +30,12 @@
         "onCreateView",
         "(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
         "view",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onViewCreated",
         "(Landroid/view/View;Landroid/os/Bundle;)V",
         "Lcom/commsource/beautyplus/f0/ea;",
         "c",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "A",
         "()Lcom/commsource/beautyplus/f0/ea;",
         "mViewBinding",
@@ -58,9 +58,9 @@
 
 
 # instance fields
-.field private final c:Lkotlin/w;
+.field private final c:Lcotlin/w;
 
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
 
 .field private f:Ljava/util/HashMap;
 
@@ -77,22 +77,22 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/relight/FaceRelightFragment$mViewBinding$2;-><init>(Lcom/commsource/studio/function/relight/FaceRelightFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/relight/FaceRelightFragment;->c:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/relight/FaceRelightFragment;->c:Lcotlin/w;
 
     .line 3
     new-instance v0, Lcom/commsource/studio/function/relight/FaceRelightFragment$relightViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/relight/FaceRelightFragment$relightViewModel$2;-><init>(Lcom/commsource/studio/function/relight/FaceRelightFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/relight/FaceRelightFragment;->d:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/relight/FaceRelightFragment;->d:Lcotlin/w;
 
     return-void
 .end method
@@ -104,9 +104,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/relight/FaceRelightFragment;->c:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/relight/FaceRelightFragment;->c:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -124,9 +124,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/relight/FaceRelightFragment;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/relight/FaceRelightFragment;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -196,7 +196,7 @@
 
     const-string p3, "inflater"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/FaceRelightFragment;->A()Lcom/commsource/beautyplus/f0/ea;
@@ -205,7 +205,7 @@
 
     const-string p3, "mViewBinding"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
@@ -249,7 +249,7 @@
 
     const-string v1, "view"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V

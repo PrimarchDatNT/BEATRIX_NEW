@@ -34,7 +34,7 @@
     value = "SMAP\nRelightAutoFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RelightAutoFragment.kt\ncom/commsource/studio/function/relight/RelightAutoFragment$onViewCreated$3\n*L\n1#1,135:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -48,7 +48,7 @@
         "Lcom/commsource/studio/function/relight/b;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/util/List;)V"
     }
@@ -148,7 +148,7 @@
 
     const-string v3, "light1001"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 

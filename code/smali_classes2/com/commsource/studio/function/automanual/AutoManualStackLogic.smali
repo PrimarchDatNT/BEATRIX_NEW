@@ -14,7 +14,7 @@
     value = "SMAP\nAutoManualStackLogic.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AutoManualStackLogic.kt\ncom/commsource/studio/function/automanual/AutoManualStackLogic\n*L\n1#1,328:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,15 +33,15 @@
         "(Lcom/commsource/studio/e;)Z",
         "isEraserMode",
         "inGlThread",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "j",
         "(ZZ)V",
         "l",
         "()V",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "action",
         "m",
-        "(Lkotlin/jvm/u/a;)Z",
+        "(Lcotlin/jvm/u/a;)Z",
         "h",
         "()Z",
         "Lcom/commsource/studio/function/automanual/a;",
@@ -159,11 +159,11 @@
 
     const-string v0, "autoManualResult"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "attachFragment"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -346,7 +346,7 @@
     return-void
 .end method
 
-.method public static synthetic n(Lcom/commsource/studio/function/automanual/AutoManualStackLogic;Lkotlin/jvm/u/a;ILjava/lang/Object;)Z
+.method public static synthetic n(Lcom/commsource/studio/function/automanual/AutoManualStackLogic;Lcotlin/jvm/u/a;ILjava/lang/Object;)Z
     .locals 0
 
     const/16 p3, 0x77d8
@@ -361,7 +361,7 @@
 
     .line 1
     :cond_0
-    invoke-virtual {p0, p1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->m(Lkotlin/jvm/u/a;)Z
+    invoke-virtual {p0, p1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->m(Lcotlin/jvm/u/a;)Z
 
     move-result p0
 
@@ -494,7 +494,7 @@
 
     sget-object v2, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$hasManualEffect$1;->INSTANCE:Lcom/commsource/studio/function/automanual/AutoManualStackLogic$hasManualEffect$1;
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/e0;->f(Lkotlin/jvm/u/l;)Z
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/e0;->f(Lcotlin/jvm/u/l;)Z
 
     move-result v1
 
@@ -608,7 +608,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToAutoMode$1;-><init>(Lcom/commsource/studio/function/automanual/AutoManualStackLogic;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lcotlin/jvm/u/a;)V
 
     goto :goto_0
 
@@ -639,7 +639,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToAutoMode$2;-><init>(Lcom/commsource/studio/function/automanual/AutoManualStackLogic;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lcotlin/jvm/u/a;)V
 
     goto :goto_0
 
@@ -656,7 +656,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToAutoMode$3;-><init>(Lcom/commsource/studio/function/automanual/AutoManualStackLogic;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lcotlin/jvm/u/a;)V
 
     goto :goto_0
 
@@ -683,17 +683,17 @@
     return-void
 .end method
 
-.method public final m(Lkotlin/jvm/u/a;)Z
+.method public final m(Lcotlin/jvm/u/a;)Z
     .locals 5
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)Z"
         }
     .end annotation
@@ -776,9 +776,9 @@
 
     new-instance v3, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToManualMode$2;
 
-    invoke-direct {v3, p0, p1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToManualMode$2;-><init>(Lcom/commsource/studio/function/automanual/AutoManualStackLogic;Lkotlin/jvm/u/a;)V
+    invoke-direct {v3, p0, p1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$onSwitchToManualMode$2;-><init>(Lcom/commsource/studio/function/automanual/AutoManualStackLogic;Lcotlin/jvm/u/a;)V
 
-    invoke-virtual {v1, v3}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v3}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lcotlin/jvm/u/a;)V
 
     .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -805,7 +805,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->c:Lcom/commsource/studio/d;

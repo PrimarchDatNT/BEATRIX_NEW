@@ -1,9 +1,9 @@
 .class final Lkshark/AndroidResourceIdNames$Companion$readFromHeap$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "AndroidResourceIdNames.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
@@ -18,8 +18,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
         "Lkshark/AndroidResourceIdNames;",
         ">;"
     }
@@ -29,7 +29,7 @@
     value = "SMAP\nAndroidResourceIdNames.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AndroidResourceIdNames.kt\nkshark/AndroidResourceIdNames$Companion$readFromHeap$1\n+ 2 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,100:1\n37#2,2:101\n*E\n*S KotlinDebug\n*F\n+ 1 AndroidResourceIdNames.kt\nkshark/AndroidResourceIdNames$Companion$readFromHeap$1\n*L\n80#1,2:101\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -65,7 +65,7 @@
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -100,7 +100,7 @@
 
     const-string v2, "className"
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {v1, v0}, Lkshark/i;->d(Ljava/lang/String;)Lkshark/HeapObject$HeapClass;
 
@@ -119,7 +119,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 5
     :cond_0
@@ -138,7 +138,7 @@
 
     if-nez v3, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {v3}, Lkshark/h;->g()Lkshark/HeapObject$b;
@@ -147,7 +147,7 @@
 
     if-nez v3, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-virtual {v3}, Lkshark/HeapObject$b;->n()Lkshark/m$b$c$g;
@@ -171,7 +171,7 @@
 
     if-nez v0, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     invoke-virtual {v0}, Lkshark/h;->f()Lkshark/HeapObject$HeapObjectArray;
@@ -180,22 +180,22 @@
 
     if-nez v0, :cond_4
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
-    invoke-virtual {v0}, Lkshark/HeapObject$HeapObjectArray;->q()Lkotlin/sequences/m;
+    invoke-virtual {v0}, Lkshark/HeapObject$HeapObjectArray;->q()Lcotlin/sequences/m;
 
     move-result-object v0
 
     .line 8
     sget-object v1, Lkshark/AndroidResourceIdNames$Companion$readFromHeap$1$1$1$names$1;->INSTANCE:Lkshark/AndroidResourceIdNames$Companion$readFromHeap$1$1$1$names$1;
 
-    invoke-static {v0, v1}, Lkotlin/sequences/p;->b1(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v0, v1}, Lcotlin/sequences/p;->b1(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
     .line 9
-    invoke-static {v0}, Lkotlin/sequences/p;->V2(Lkotlin/sequences/m;)Ljava/util/List;
+    invoke-static {v0}, Lcotlin/sequences/p;->V2(Lcotlin/sequences/m;)Ljava/util/List;
 
     move-result-object v0
 
@@ -216,7 +216,7 @@
     .line 12
     new-instance v1, Lkshark/AndroidResourceIdNames;
 
-    invoke-direct {v1, v3, v0, v2}, Lkshark/AndroidResourceIdNames;-><init>([I[Ljava/lang/String;Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v3, v0, v2}, Lkshark/AndroidResourceIdNames;-><init>([I[Ljava/lang/String;Lcotlin/jvm/internal/u;)V
 
     move-object v2, v1
 
@@ -224,21 +224,21 @@
 
     .line 13
     :cond_5
-    new-instance v0, Lkotlin/TypeCastException;
+    new-instance v0, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type kotlin.Array<T>"
 
-    invoke-direct {v0, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v0
 
     .line 14
     :cond_6
-    new-instance v0, Lkotlin/TypeCastException;
+    new-instance v0, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type kshark.HprofRecord.HeapDumpRecord.ObjectRecord.PrimitiveArrayDumpRecord.IntArrayDump"
 
-    invoke-direct {v0, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v0
 

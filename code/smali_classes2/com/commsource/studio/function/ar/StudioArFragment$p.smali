@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
     d2 = {
         "com/commsource/studio/function/ar/StudioArFragment$p",
         "Lcom/commsource/camera/i0$a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "b",
         "()V",
         "L;",
@@ -82,7 +82,7 @@
 
     const-string v1, "text"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$p;->a:Lcom/commsource/camera/i0;
@@ -122,7 +122,7 @@
 
     const/4 v3, 0x0
 
-    invoke-static {p1, v1, v3, v2, v3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p1, v1, v3, v2, v3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

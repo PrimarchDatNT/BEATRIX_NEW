@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -57,7 +57,7 @@
         "a",
         "(Lcom/commsource/beautymain/widget/gesturewidget/e;)Z",
         "c",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "b",
         "(Lcom/commsource/beautymain/widget/gesturewidget/e;)V",
         "onMinorFingerDown",

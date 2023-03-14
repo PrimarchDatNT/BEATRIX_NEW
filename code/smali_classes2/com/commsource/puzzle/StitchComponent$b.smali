@@ -19,7 +19,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
     d2 = {
         "com/commsource/puzzle/StitchComponent$b",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "v",
         "()V",
         "",
@@ -157,7 +157,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/puzzle/StitchComponent$b$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/puzzle/StitchComponent$b$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/puzzle/StitchComponent$b;->p:Lcom/commsource/puzzle/StitchComponent$b$a;
 
@@ -338,7 +338,7 @@
 
     int-to-float p1, p1
 
-    invoke-static {p1, v1}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {p1, v1}, Lcotlin/g2/o;->t(FF)F
 
     move-result p1
 
@@ -354,7 +354,7 @@
 
     int-to-float p1, p1
 
-    invoke-static {p1, v1}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p1, v1}, Lcotlin/g2/o;->m(FF)F
 
     move-result p1
 
@@ -372,7 +372,7 @@
 
     int-to-float p1, p1
 
-    invoke-static {p1, v1}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {p1, v1}, Lcotlin/g2/o;->t(FF)F
 
     move-result p1
 
@@ -388,7 +388,7 @@
 
     int-to-float p1, p1
 
-    invoke-static {p1, v1}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p1, v1}, Lcotlin/g2/o;->m(FF)F
 
     move-result p1
 
@@ -582,7 +582,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/StitchComponent$b;->g:Landroid/graphics/RectF;
@@ -605,7 +605,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/StitchComponent$b;->f:Landroid/graphics/RectF;

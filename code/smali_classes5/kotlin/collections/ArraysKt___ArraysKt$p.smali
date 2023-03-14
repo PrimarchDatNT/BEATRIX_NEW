@@ -1,14 +1,14 @@
-.class public final Lkotlin/collections/ArraysKt___ArraysKt$p;
+.class public final Lcotlin/collections/ArraysKt___ArraysKt$p;
 .super Ljava/lang/Object;
 .source "Sequences.kt"
 
 # interfaces
-.implements Lkotlin/sequences/m;
+.implements Lcotlin/sequences/m;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/collections/ArraysKt___ArraysKt;->d5([D)Lkotlin/sequences/m;
+    value = Lcotlin/collections/ArraysKt___ArraysKt;->d5([D)Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/sequences/m<",
+        "Lcotlin/sequences/m<",
         "Ljava/lang/Double;",
         ">;"
     }
@@ -29,7 +29,7 @@
     value = "SMAP\nSequences.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Sequences.kt\nkotlin/sequences/SequencesKt__SequencesKt$Sequence$1\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,680:1\n23557#2:681\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,7 +40,7 @@
     }
     d2 = {
         "kotlin/collections/ArraysKt___ArraysKt$p",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "",
         "iterator",
         "()Ljava/util/Iterator;",
@@ -64,7 +64,7 @@
 .method public constructor <init>([D)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/collections/ArraysKt___ArraysKt$p;->a:[D
+    iput-object p1, p0, Lcotlin/collections/ArraysKt___ArraysKt$p;->a:[D
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -89,9 +89,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/ArraysKt___ArraysKt$p;->a:[D
+    iget-object v0, p0, Lcotlin/collections/ArraysKt___ArraysKt$p;->a:[D
 
-    invoke-static {v0}, Lkotlin/jvm/internal/i;->d([D)Lkotlin/collections/b0;
+    invoke-static {v0}, Lcotlin/jvm/internal/i;->d([D)Lcotlin/collections/b0;
 
     move-result-object v0
 

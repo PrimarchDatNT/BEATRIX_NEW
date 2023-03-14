@@ -13,7 +13,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "Lcom/commsource/studio/formula/DragToSwitchLayout;",
         "Landroid/widget/FrameLayout;",
         "Landroidx/core/view/NestedScrollingParent;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "()V",
         "Landroid/view/View;",
@@ -72,16 +72,16 @@
         "a",
         "F",
         "curTransX",
-        "Lkotlin/Function1;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function1;",
+        "Lcotlin/k0;",
         "name",
         "isDragLeft",
         "d",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "getOnDragEnd",
-        "()Lkotlin/jvm/u/l;",
+        "()Lcotlin/jvm/u/l;",
         "setOnDragEnd",
-        "(Lkotlin/jvm/u/l;)V",
+        "(Lcotlin/jvm/u/l;)V",
         "onDragEnd",
         "Landroid/content/Context;",
         "context",
@@ -115,10 +115,10 @@
 
 .field private c:Z
 
-.field private d:Lkotlin/jvm/u/l;
+.field private d:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
             "Ljava/lang/Boolean;",
@@ -145,7 +145,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/formula/DragToSwitchLayout$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/formula/DragToSwitchLayout$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/formula/DragToSwitchLayout;->p:Lcom/commsource/studio/formula/DragToSwitchLayout$a;
 
@@ -160,7 +160,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const/4 v2, 0x0
@@ -175,7 +175,7 @@
 
     move-object v1, p1
 
-    invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/formula/DragToSwitchLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/formula/DragToSwitchLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -190,7 +190,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const/4 v3, 0x0
@@ -205,7 +205,7 @@
 
     move-object v2, p2
 
-    invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/formula/DragToSwitchLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/formula/DragToSwitchLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -220,12 +220,12 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -235,7 +235,7 @@
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/formula/DragToSwitchLayout$reboundAnim$1;-><init>(Lcom/commsource/studio/formula/DragToSwitchLayout;)V
 
-    invoke-static {p1}, Lcom/meitu/common/animutil/b;->c(Lkotlin/jvm/u/l;)Lcom/meitu/common/animutil/d;
+    invoke-static {p1}, Lcom/meitu/common/animutil/b;->c(Lcotlin/jvm/u/l;)Lcom/meitu/common/animutil/d;
 
     move-result-object p1
 
@@ -244,7 +244,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p5, p4, 0x2
@@ -329,7 +329,7 @@
     if-eqz v3, :cond_1
 
     .line 3
-    iget-object v3, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->d:Lkotlin/jvm/u/l;
+    iget-object v3, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->d:Lcotlin/jvm/u/l;
 
     if-eqz v3, :cond_1
 
@@ -337,7 +337,7 @@
 
     move-result-object v1
 
-    invoke-interface {v3, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v3, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -464,7 +464,7 @@
 
     const-string v2, "getChildAt(0)"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x0
 
@@ -494,12 +494,12 @@
     return v0
 .end method
 
-.method public final getOnDragEnd()Lkotlin/jvm/u/l;
+.method public final getOnDragEnd()Lcotlin/jvm/u/l;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Ljava/lang/Boolean;",
             "Ljava/lang/Boolean;",
             ">;"
@@ -514,7 +514,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->d:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->d:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -534,7 +534,7 @@
 
     const-string p3, "target"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -561,11 +561,11 @@
 
     const-string v0, "target"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "consumed"
 
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -637,7 +637,7 @@
 
     const-string p3, "target"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -662,11 +662,11 @@
 
     const-string v0, "child"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "target"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -691,11 +691,11 @@
 
     const-string v0, "child"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "target"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     instance-of p1, p2, Landroidx/recyclerview/widget/RecyclerView;
@@ -736,7 +736,7 @@
 
     const-string v1, "target"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Lcom/commsource/studio/formula/DragToSwitchLayout;->e()V
@@ -747,16 +747,16 @@
     return-void
 .end method
 
-.method public final setOnDragEnd(Lkotlin/jvm/u/l;)V
+.method public final setOnDragEnd(Lcotlin/jvm/u/l;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
             "Ljava/lang/Boolean;",
@@ -769,7 +769,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->d:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/studio/formula/DragToSwitchLayout;->d:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

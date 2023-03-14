@@ -1,11 +1,11 @@
-.class public final Lkotlin/g2/t$a;
+.class public final Lcotlin/g2/t$a;
 .super Ljava/lang/Object;
 .source "UIntRange.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/g2/t;
+    value = Lcotlin/g2/t;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,11 +25,11 @@
     d2 = {
         "kotlin/g2/t$a",
         "",
-        "Lkotlin/g2/t;",
+        "Lcotlin/g2/t;",
         "EMPTY",
-        "Lkotlin/g2/t;",
+        "Lcotlin/g2/t;",
         "a",
-        "()Lkotlin/g2/t;",
+        "()Lcotlin/g2/t;",
         "<init>",
         "()V",
         "kotlin-stdlib"
@@ -53,24 +53,24 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/g2/t$a;-><init>()V
+    invoke-direct {p0}, Lcotlin/g2/t$a;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Lkotlin/g2/t;
+.method public final a()Lcotlin/g2/t;
     .locals 1
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlin/g2/t;->j()Lkotlin/g2/t;
+    invoke-static {}, Lcotlin/g2/t;->j()Lcotlin/g2/t;
 
     move-result-object v0
 

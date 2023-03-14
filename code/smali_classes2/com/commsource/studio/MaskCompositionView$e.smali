@@ -17,7 +17,7 @@
     value = "SMAP\nMaskCompositionView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MaskCompositionView.kt\ncom/commsource/studio/MaskCompositionView$validAnimator$1\n*L\n1#1,1045:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "",
         "fraction",
         "value",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(FF)V",
         "app_googleplayRelease"

@@ -17,7 +17,7 @@
     value = "SMAP\nShaderHelper.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ShaderHelper.kt\ncom/commsource/studio/function/background/ShaderHelper$Companion\n*L\n1#1,182:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -63,7 +63,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -188,7 +188,7 @@
 
     const-string v3, "backgroundColor"
 
-    invoke-static {v0, v3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     :try_start_0
@@ -208,7 +208,7 @@
 
     const/4 v9, 0x0
 
-    invoke-static/range {v4 .. v9}, Lkotlin/text/m;->O4(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;
+    invoke-static/range {v4 .. v9}, Lcotlin/text/m;->O4(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;
 
     move-result-object v3
 
@@ -229,7 +229,7 @@
 
     const/4 v9, 0x0
 
-    invoke-static/range {v4 .. v9}, Lkotlin/text/m;->O4(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;
+    invoke-static/range {v4 .. v9}, Lcotlin/text/m;->O4(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;
 
     move-result-object v1
 
@@ -365,7 +365,7 @@
 
     .line 13
     :cond_3
-    invoke-static {v5}, Lkotlin/collections/s;->F5(Ljava/util/Collection;)[F
+    invoke-static {v5}, Lcotlin/collections/s;->F5(Ljava/util/Collection;)[F
 
     move-result-object v5
 
@@ -442,7 +442,7 @@
     aput v1, v11, v6
 
     .line 18
-    invoke-static {v4}, Lkotlin/collections/s;->H5(Ljava/util/Collection;)[I
+    invoke-static {v4}, Lcotlin/collections/s;->H5(Ljava/util/Collection;)[I
 
     move-result-object v12
 
@@ -459,7 +459,7 @@
 
     move-object v8, v1
 
-    invoke-direct/range {v8 .. v17}, Lcom/commsource/studio/function/background/BackgroundType;-><init>(I[F[F[I[FZIILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v8 .. v17}, Lcom/commsource/studio/function/background/BackgroundType;-><init>(I[F[F[I[FZIILcotlin/jvm/internal/u;)V
 
     .line 20
     invoke-virtual {v1, v0}, Lcom/commsource/studio/function/background/BackgroundType;->setBackgroundColor(Lcom/commsource/studio/function/background/BackgroundColor;)V

@@ -1,10 +1,10 @@
-.class Lkotlin/e0;
-.super Lkotlin/d0;
+.class Lcotlin/e0;
+.super Lcotlin/d0;
 .source "BigIntegers.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -64,17 +64,17 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/d0;-><init>()V
+    invoke-direct {p0}, Lcotlin/d0;-><init>()V
 
     return-void
 .end method
 
 .method private static final A(Ljava/math/BigInteger;I)Ljava/math/BigInteger;
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -85,19 +85,19 @@
 
     const-string p1, "this.shiftRight(n)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final B(Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "$this$times"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0, p1}, Ljava/math/BigInteger;->multiply(Ljava/math/BigInteger;)Ljava/math/BigInteger;
@@ -106,17 +106,17 @@
 
     const-string p1, "this.multiply(other)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final C(Ljava/math/BigInteger;)Ljava/math/BigDecimal;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -130,10 +130,10 @@
 
 .method private static final D(Ljava/math/BigInteger;ILjava/math/MathContext;)Ljava/math/BigDecimal;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -164,7 +164,7 @@
 
     const-string p3, "MathContext.UNLIMITED"
 
-    invoke-static {p2, p3}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     :cond_1
@@ -177,10 +177,10 @@
 
 .method private static final F(I)Ljava/math/BigInteger;
     .locals 2
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -193,17 +193,17 @@
 
     const-string v0, "BigInteger.valueOf(this.toLong())"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final G(J)Ljava/math/BigInteger;
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -214,19 +214,19 @@
 
     const-string p1, "BigInteger.valueOf(this)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final H(Ljava/math/BigInteger;)Ljava/math/BigInteger;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "$this$unaryMinus"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Ljava/math/BigInteger;->negate()Ljava/math/BigInteger;
@@ -235,17 +235,17 @@
 
     const-string v0, "this.negate()"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final I(Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -256,17 +256,17 @@
 
     const-string p1, "this.xor(other)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final q(Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -277,23 +277,23 @@
 
     const-string p1, "this.and(other)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final r(Ljava/math/BigInteger;)Ljava/math/BigInteger;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
     const-string v0, "$this$dec"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v0, Ljava/math/BigInteger;->ONE:Ljava/math/BigInteger;
@@ -304,19 +304,19 @@
 
     const-string v0, "this.subtract(BigInteger.ONE)"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final s(Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "$this$div"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0, p1}, Ljava/math/BigInteger;->divide(Ljava/math/BigInteger;)Ljava/math/BigInteger;
@@ -325,23 +325,23 @@
 
     const-string p1, "this.divide(other)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final t(Ljava/math/BigInteger;)Ljava/math/BigInteger;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
     const-string v0, "$this$inc"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v0, Ljava/math/BigInteger;->ONE:Ljava/math/BigInteger;
@@ -352,17 +352,17 @@
 
     const-string v0, "this.add(BigInteger.ONE)"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final u(Ljava/math/BigInteger;)Ljava/math/BigInteger;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -373,19 +373,19 @@
 
     const-string v0, "this.not()"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final v(Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "$this$minus"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0, p1}, Ljava/math/BigInteger;->subtract(Ljava/math/BigInteger;)Ljava/math/BigInteger;
@@ -394,17 +394,17 @@
 
     const-string p1, "this.subtract(other)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final w(Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -415,19 +415,19 @@
 
     const-string p1, "this.or(other)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final x(Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "$this$plus"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0, p1}, Ljava/math/BigInteger;->add(Ljava/math/BigInteger;)Ljava/math/BigInteger;
@@ -436,23 +436,23 @@
 
     const-string p1, "this.add(other)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final y(Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     const-string v0, "$this$rem"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0, p1}, Ljava/math/BigInteger;->remainder(Ljava/math/BigInteger;)Ljava/math/BigInteger;
@@ -461,17 +461,17 @@
 
     const-string p1, "this.remainder(other)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final z(Ljava/math/BigInteger;I)Ljava/math/BigInteger;
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -482,7 +482,7 @@
 
     const-string p1, "this.shiftLeft(n)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method

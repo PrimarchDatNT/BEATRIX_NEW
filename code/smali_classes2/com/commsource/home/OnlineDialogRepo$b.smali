@@ -30,7 +30,7 @@
     value = "SMAP\nOnlineDialogRepo.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnlineDialogRepo.kt\ncom/commsource/home/OnlineDialogRepo$compareLocalDataIfNeed$1\n+ 2 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,394:1\n37#2,2:395\n37#2,2:397\n37#2,2:399\n*E\n*S KotlinDebug\n*F\n+ 1 OnlineDialogRepo.kt\ncom/commsource/home/OnlineDialogRepo$compareLocalDataIfNeed$1\n*L\n332#1,2:395\n335#1,2:397\n338#1,2:399\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -47,7 +47,7 @@
         "insert",
         "update",
         "remove",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V",
         "app_googleplayRelease"

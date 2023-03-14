@@ -1,4 +1,4 @@
-.class public final Lkotlin/i2/d;
+.class public final Lcotlin/i2/d;
 .super Ljava/lang/Object;
 .source "Duration.kt"
 
@@ -9,7 +9,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkotlin/i2/d$a;
+        Lcotlin/i2/d$a;
     }
 .end annotation
 
@@ -17,12 +17,12 @@
     value = {
         "Ljava/lang/Object;",
         "Ljava/lang/Comparable<",
-        "Lkotlin/i2/d;",
+        "Lcotlin/i2/d;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "\u0000h\n\u0002\u0018\u0002\n\u0002\u0010\u000f\n\u0002\u0008\u0006\n\u0002\u0010\u0008\n\u0002\u0008\u0003\n\u0002\u0010\u0006\n\u0002\u0008\u0004\n\u0002\u0010\u000b\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\t\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0010\t\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\n\n\u0002\u0010\u000e\n\u0002\u0008\n\n\u0002\u0010\u0000\n\u0002\u0008#\u0008\u0087@\u0018\u0000 h2\u0008\u0012\u0004\u0012\u00020\u00000\u0001:\u0001RB\u0014\u0008\u0000\u0012\u0006\u0010>\u001a\u00020\u000c\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008g\u0010\u0003J\u0016\u0010\u0002\u001a\u00020\u0000H\u0086\u0002\u00f8\u0001\u0000\u00f8\u0001\u0001\u00a2\u0006\u0004\u0008\u0002\u0010\u0003J\u001b\u0010\u0005\u001a\u00020\u00002\u0006\u0010\u0004\u001a\u00020\u0000H\u0086\u0002\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u001b\u0010\u0007\u001a\u00020\u00002\u0006\u0010\u0004\u001a\u00020\u0000H\u0086\u0002\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0007\u0010\u0006J\u001e\u0010\n\u001a\u00020\u00002\u0006\u0010\t\u001a\u00020\u0008H\u0086\u0002\u00f8\u0001\u0000\u00f8\u0001\u0001\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u001e\u0010\r\u001a\u00020\u00002\u0006\u0010\t\u001a\u00020\u000cH\u0086\u0002\u00f8\u0001\u0000\u00f8\u0001\u0001\u00a2\u0006\u0004\u0008\r\u0010\u0006J\u001e\u0010\u000e\u001a\u00020\u00002\u0006\u0010\t\u001a\u00020\u0008H\u0086\u0002\u00f8\u0001\u0000\u00f8\u0001\u0001\u00a2\u0006\u0004\u0008\u000e\u0010\u000bJ\u001e\u0010\u000f\u001a\u00020\u00002\u0006\u0010\t\u001a\u00020\u000cH\u0086\u0002\u00f8\u0001\u0000\u00f8\u0001\u0001\u00a2\u0006\u0004\u0008\u000f\u0010\u0006J\u001b\u0010\u0010\u001a\u00020\u000c2\u0006\u0010\u0004\u001a\u00020\u0000H\u0086\u0002\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0010\u0010\u0006J\r\u0010\u0012\u001a\u00020\u0011\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\r\u0010\u0014\u001a\u00020\u0011\u00a2\u0006\u0004\u0008\u0014\u0010\u0013J\r\u0010\u0015\u001a\u00020\u0011\u00a2\u0006\u0004\u0008\u0015\u0010\u0013J\r\u0010\u0016\u001a\u00020\u0011\u00a2\u0006\u0004\u0008\u0016\u0010\u0013J\u001b\u0010\u0017\u001a\u00020\u00082\u0006\u0010\u0004\u001a\u00020\u0000H\u0096\u0002\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0017\u0010\u0018J\u009d\u0001\u0010#\u001a\u00028\u0000\"\u0004\u0008\u0000\u0010\u00192u\u0010\"\u001aq\u0012\u0013\u0012\u00110\u0008\u00a2\u0006\u000c\u0008\u001b\u0012\u0008\u0008\u001c\u0012\u0004\u0008\u0008(\u001d\u0012\u0013\u0012\u00110\u0008\u00a2\u0006\u000c\u0008\u001b\u0012\u0008\u0008\u001c\u0012\u0004\u0008\u0008(\u001e\u0012\u0013\u0012\u00110\u0008\u00a2\u0006\u000c\u0008\u001b\u0012\u0008\u0008\u001c\u0012\u0004\u0008\u0008(\u001f\u0012\u0013\u0012\u00110\u0008\u00a2\u0006\u000c\u0008\u001b\u0012\u0008\u0008\u001c\u0012\u0004\u0008\u0008( \u0012\u0013\u0012\u00110\u0008\u00a2\u0006\u000c\u0008\u001b\u0012\u0008\u0008\u001c\u0012\u0004\u0008\u0008(!\u0012\u0004\u0012\u00028\u00000\u001aH\u0086\u0008\u00f8\u0001\u0002\u0082\u0002\n\n\u0008\u0008\u0001\u0012\u0002\u0010\u0001 \u0001\u00a2\u0006\u0004\u0008#\u0010$J\u0088\u0001\u0010&\u001a\u00028\u0000\"\u0004\u0008\u0000\u0010\u00192`\u0010\"\u001a\\\u0012\u0013\u0012\u00110\u0008\u00a2\u0006\u000c\u0008\u001b\u0012\u0008\u0008\u001c\u0012\u0004\u0008\u0008(\u001e\u0012\u0013\u0012\u00110\u0008\u00a2\u0006\u000c\u0008\u001b\u0012\u0008\u0008\u001c\u0012\u0004\u0008\u0008(\u001f\u0012\u0013\u0012\u00110\u0008\u00a2\u0006\u000c\u0008\u001b\u0012\u0008\u0008\u001c\u0012\u0004\u0008\u0008( \u0012\u0013\u0012\u00110\u0008\u00a2\u0006\u000c\u0008\u001b\u0012\u0008\u0008\u001c\u0012\u0004\u0008\u0008(!\u0012\u0004\u0012\u00028\u00000%H\u0086\u0008\u00f8\u0001\u0002\u0082\u0002\n\n\u0008\u0008\u0001\u0012\u0002\u0010\u0001 \u0001\u00a2\u0006\u0004\u0008&\u0010\'Js\u0010)\u001a\u00028\u0000\"\u0004\u0008\u0000\u0010\u00192K\u0010\"\u001aG\u0012\u0013\u0012\u00110\u0008\u00a2\u0006\u000c\u0008\u001b\u0012\u0008\u0008\u001c\u0012\u0004\u0008\u0008(\u001f\u0012\u0013\u0012\u00110\u0008\u00a2\u0006\u000c\u0008\u001b\u0012\u0008\u0008\u001c\u0012\u0004\u0008\u0008( \u0012\u0013\u0012\u00110\u0008\u00a2\u0006\u000c\u0008\u001b\u0012\u0008\u0008\u001c\u0012\u0004\u0008\u0008(!\u0012\u0004\u0012\u00028\u00000(H\u0086\u0008\u00f8\u0001\u0002\u0082\u0002\n\n\u0008\u0008\u0001\u0012\u0002\u0010\u0001 \u0001\u00a2\u0006\u0004\u0008)\u0010*J^\u0010-\u001a\u00028\u0000\"\u0004\u0008\u0000\u0010\u001926\u0010\"\u001a2\u0012\u0013\u0012\u00110,\u00a2\u0006\u000c\u0008\u001b\u0012\u0008\u0008\u001c\u0012\u0004\u0008\u0008( \u0012\u0013\u0012\u00110\u0008\u00a2\u0006\u000c\u0008\u001b\u0012\u0008\u0008\u001c\u0012\u0004\u0008\u0008(!\u0012\u0004\u0012\u00028\u00000+H\u0086\u0008\u00f8\u0001\u0002\u0082\u0002\n\n\u0008\u0008\u0001\u0012\u0002\u0010\u0001 \u0001\u00a2\u0006\u0004\u0008-\u0010.J\u0019\u00102\u001a\u00020\u000c2\n\u00101\u001a\u00060/j\u0002`0\u00a2\u0006\u0004\u00082\u00103J\u0019\u00104\u001a\u00020,2\n\u00101\u001a\u00060/j\u0002`0\u00a2\u0006\u0004\u00084\u00105J\u0019\u00106\u001a\u00020\u00082\n\u00101\u001a\u00060/j\u0002`0\u00a2\u0006\u0004\u00086\u00107J\r\u00108\u001a\u00020,\u00a2\u0006\u0004\u00088\u00109J\r\u0010:\u001a\u00020,\u00a2\u0006\u0004\u0008:\u00109J\u000f\u0010<\u001a\u00020;H\u0016\u00a2\u0006\u0004\u0008<\u0010=J\u0017\u0010?\u001a\u00020\u00082\u0006\u0010>\u001a\u00020\u000cH\u0002\u00a2\u0006\u0004\u0008?\u0010\u0018J#\u0010A\u001a\u00020;2\n\u00101\u001a\u00060/j\u0002`02\u0008\u0008\u0002\u0010@\u001a\u00020\u0008\u00a2\u0006\u0004\u0008A\u0010BJ\r\u0010C\u001a\u00020;\u00a2\u0006\u0004\u0008C\u0010=J\u0010\u0010D\u001a\u00020\u0008H\u00d6\u0001\u00a2\u0006\u0004\u0008D\u0010EJ\u001a\u0010G\u001a\u00020\u00112\u0008\u0010\u0004\u001a\u0004\u0018\u00010FH\u00d6\u0003\u00a2\u0006\u0004\u0008G\u0010HR\u001c\u0010L\u001a\u00020\u00088@@\u0001X\u0081\u0004\u00a2\u0006\u000c\u0012\u0004\u0008J\u0010K\u001a\u0004\u0008I\u0010ER\u0013\u0010N\u001a\u00020\u000c8F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008M\u0010\u0003R\u001c\u0010Q\u001a\u00020\u00088@@\u0001X\u0081\u0004\u00a2\u0006\u000c\u0012\u0004\u0008P\u0010K\u001a\u0004\u0008O\u0010ER\u0016\u0010>\u001a\u00020\u000c8\u0000@\u0000X\u0080\u0004\u00a2\u0006\u0006\n\u0004\u0008R\u0010SR\u001c\u0010V\u001a\u00020\u00088@@\u0001X\u0081\u0004\u00a2\u0006\u000c\u0012\u0004\u0008U\u0010K\u001a\u0004\u0008T\u0010ER\u0013\u0010X\u001a\u00020\u000c8F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008W\u0010\u0003R\u001c\u0010Z\u001a\u00020\u00088@@\u0001X\u0081\u0004\u00a2\u0006\u000c\u0012\u0004\u0008Y\u0010K\u001a\u0004\u0008\u0019\u0010ER\u0013\u0010\\\u001a\u00020\u000c8F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008[\u0010\u0003R\u0019\u0010^\u001a\u00020\u00008F@\u0006\u00f8\u0001\u0000\u00f8\u0001\u0001\u00a2\u0006\u0006\u001a\u0004\u0008]\u0010\u0003R\u0013\u0010`\u001a\u00020\u000c8F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008_\u0010\u0003R\u0013\u0010b\u001a\u00020\u000c8F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008a\u0010\u0003R\u0013\u0010d\u001a\u00020\u000c8F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008c\u0010\u0003R\u0013\u0010f\u001a\u00020\u000c8F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008e\u0010\u0003\u00f8\u0001\u0000\u0082\u0002\u000f\n\u0002\u0008\u0019\n\u0002\u0008!\n\u0005\u0008\u009920\u0001\u00a8\u0006i"
     }
     d2 = {
-        "Lkotlin/i2/d;",
+        "Lcotlin/i2/d;",
         "",
         "v0",
         "(D)D",
@@ -58,8 +58,8 @@
         "n",
         "(DD)I",
         "T",
-        "Lkotlin/Function5;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function5;",
+        "Lcotlin/k0;",
         "name",
         "days",
         "hours",
@@ -68,19 +68,19 @@
         "nanoseconds",
         "action",
         "j0",
-        "(DLkotlin/jvm/u/s;)Ljava/lang/Object;",
-        "Lkotlin/Function4;",
+        "(DLcotlin/jvm/u/s;)Ljava/lang/Object;",
+        "Lcotlin/Function4;",
         "i0",
-        "(DLkotlin/jvm/u/r;)Ljava/lang/Object;",
-        "Lkotlin/Function3;",
+        "(DLcotlin/jvm/u/r;)Ljava/lang/Object;",
+        "Lcotlin/Function3;",
         "h0",
-        "(DLkotlin/jvm/u/q;)Ljava/lang/Object;",
-        "Lkotlin/Function2;",
+        "(DLcotlin/jvm/u/q;)Ljava/lang/Object;",
+        "Lcotlin/Function2;",
         "",
         "g0",
-        "(DLkotlin/jvm/u/p;)Ljava/lang/Object;",
+        "(DLcotlin/jvm/u/p;)Ljava/lang/Object;",
         "Ljava/util/concurrent/TimeUnit;",
-        "Lkotlin/time/DurationUnit;",
+        "Lcotlin/time/DurationUnit;",
         "unit",
         "k0",
         "(DLjava/util/concurrent/TimeUnit;)D",
@@ -147,10 +147,10 @@
     }
 .end annotation
 
-.annotation build Lkotlin/i2/j;
+.annotation build Lcotlin/i2/j;
 .end annotation
 
-.annotation build Lkotlin/s0;
+.annotation build Lcotlin/s0;
     version = "1.3"
 .end annotation
 
@@ -160,7 +160,7 @@
 
 .field private static final c:D
 
-.field public static final d:Lkotlin/i2/d$a;
+.field public static final d:Lcotlin/i2/d$a;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -174,31 +174,31 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    new-instance v0, Lkotlin/i2/d$a;
+    new-instance v0, Lcotlin/i2/d$a;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkotlin/i2/d$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcotlin/i2/d$a;-><init>(Lcotlin/jvm/internal/u;)V
 
-    sput-object v0, Lkotlin/i2/d;->d:Lkotlin/i2/d$a;
+    sput-object v0, Lcotlin/i2/d;->d:Lcotlin/i2/d$a;
 
     const-wide/16 v0, 0x0
 
     .line 1
-    invoke-static {v0, v1}, Lkotlin/i2/d;->o(D)D
+    invoke-static {v0, v1}, Lcotlin/i2/d;->o(D)D
 
     move-result-wide v0
 
-    sput-wide v0, Lkotlin/i2/d;->b:D
+    sput-wide v0, Lcotlin/i2/d;->b:D
 
     const-wide/high16 v0, 0x7ff0000000000000L    # Double.POSITIVE_INFINITY
 
     .line 2
-    invoke-static {v0, v1}, Lkotlin/i2/d;->o(D)D
+    invoke-static {v0, v1}, Lcotlin/i2/d;->o(D)D
 
     move-result-wide v0
 
-    sput-wide v0, Lkotlin/i2/d;->c:D
+    sput-wide v0, Lcotlin/i2/d;->c:D
 
     return-void
 .end method
@@ -209,7 +209,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-wide p1, p0, Lkotlin/i2/d;->a:D
+    iput-wide p1, p0, Lcotlin/i2/d;->a:D
 
     return-void
 .end method
@@ -218,13 +218,13 @@
     .locals 1
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->Y(D)Z
+    invoke-static {p0, p1}, Lcotlin/i2/d;->Y(D)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {p0, p1}, Lkotlin/i2/d;->v0(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->v0(D)D
 
     move-result-wide p0
 
@@ -234,7 +234,7 @@
 
 .method public static synthetic D()V
     .locals 0
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     return-void
@@ -244,7 +244,7 @@
     .locals 2
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->G(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->G(D)D
 
     move-result-wide p0
 
@@ -265,7 +265,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->DAYS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -278,7 +278,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->HOURS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -291,7 +291,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MICROSECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -304,7 +304,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -317,7 +317,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MINUTES:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -330,7 +330,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -343,7 +343,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -352,7 +352,7 @@
 
 .method public static synthetic N()V
     .locals 0
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     return-void
@@ -362,7 +362,7 @@
     .locals 2
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->J(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->J(D)D
 
     move-result-wide p0
 
@@ -379,7 +379,7 @@
 
 .method public static synthetic P()V
     .locals 0
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     return-void
@@ -389,7 +389,7 @@
     .locals 2
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->K(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->K(D)D
 
     move-result-wide p0
 
@@ -404,7 +404,7 @@
 
 .method public static synthetic S()V
     .locals 0
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     return-void
@@ -414,7 +414,7 @@
     .locals 2
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->L(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->L(D)D
 
     move-result-wide p0
 
@@ -506,7 +506,7 @@
     .locals 2
 
     .line 1
-    sget-wide v0, Lkotlin/i2/d;->c:D
+    sget-wide v0, Lcotlin/i2/d;->c:D
 
     return-wide v0
 .end method
@@ -534,7 +534,7 @@
     sub-double/2addr p0, p2
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->o(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->o(D)D
 
     move-result-wide p0
 
@@ -547,7 +547,7 @@
     add-double/2addr p0, p2
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->o(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->o(D)D
 
     move-result-wide p0
 
@@ -606,7 +606,7 @@
     mul-double p0, p0, p2
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->o(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->o(D)D
 
     move-result-wide p0
 
@@ -617,7 +617,7 @@
     .locals 2
 
     .line 1
-    sget-wide v0, Lkotlin/i2/d;->b:D
+    sget-wide v0, Lcotlin/i2/d;->b:D
 
     return-wide v0
 .end method
@@ -630,26 +630,26 @@
     mul-double p0, p0, v0
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->o(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->o(D)D
 
     move-result-wide p0
 
     return-wide p0
 .end method
 
-.method public static final synthetic g(D)Lkotlin/i2/d;
+.method public static final synthetic g(D)Lcotlin/i2/d;
     .locals 1
 
-    new-instance v0, Lkotlin/i2/d;
+    new-instance v0, Lcotlin/i2/d;
 
-    invoke-direct {v0, p0, p1}, Lkotlin/i2/d;-><init>(D)V
+    invoke-direct {v0, p0, p1}, Lcotlin/i2/d;-><init>(D)V
 
     return-object v0
 .end method
 
-.method public static final g0(DLkotlin/jvm/u/p;)Ljava/lang/Object;
+.method public static final g0(DLcotlin/jvm/u/p;)Ljava/lang/Object;
     .locals 2
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -658,7 +658,7 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(D",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Ljava/lang/Long;",
             "-",
@@ -669,10 +669,10 @@
 
     const-string v0, "action"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->L(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->L(D)D
 
     move-result-wide v0
 
@@ -682,7 +682,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, p1}, Lkotlin/i2/d;->R(D)I
+    invoke-static {p0, p1}, Lcotlin/i2/d;->R(D)I
 
     move-result p0
 
@@ -690,16 +690,16 @@
 
     move-result-object p0
 
-    invoke-interface {p2, v0, p0}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v0, p0}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final h0(DLkotlin/jvm/u/q;)Ljava/lang/Object;
+.method public static final h0(DLcotlin/jvm/u/q;)Ljava/lang/Object;
     .locals 2
-    .param p2    # Lkotlin/jvm/u/q;
+    .param p2    # Lcotlin/jvm/u/q;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -708,7 +708,7 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(D",
-            "Lkotlin/jvm/u/q<",
+            "Lcotlin/jvm/u/q<",
             "-",
             "Ljava/lang/Integer;",
             "-",
@@ -721,10 +721,10 @@
 
     const-string v0, "action"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->J(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->J(D)D
 
     move-result-wide v0
 
@@ -734,7 +734,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, p1}, Lkotlin/i2/d;->T(D)I
+    invoke-static {p0, p1}, Lcotlin/i2/d;->T(D)I
 
     move-result v1
 
@@ -742,7 +742,7 @@
 
     move-result-object v1
 
-    invoke-static {p0, p1}, Lkotlin/i2/d;->R(D)I
+    invoke-static {p0, p1}, Lcotlin/i2/d;->R(D)I
 
     move-result p0
 
@@ -750,16 +750,16 @@
 
     move-result-object p0
 
-    invoke-interface {p2, v0, v1, p0}, Lkotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v0, v1, p0}, Lcotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final i0(DLkotlin/jvm/u/r;)Ljava/lang/Object;
+.method public static final i0(DLcotlin/jvm/u/r;)Ljava/lang/Object;
     .locals 3
-    .param p2    # Lkotlin/jvm/u/r;
+    .param p2    # Lcotlin/jvm/u/r;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -768,7 +768,7 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(D",
-            "Lkotlin/jvm/u/r<",
+            "Lcotlin/jvm/u/r<",
             "-",
             "Ljava/lang/Integer;",
             "-",
@@ -783,10 +783,10 @@
 
     const-string v0, "action"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->G(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->G(D)D
 
     move-result-wide v0
 
@@ -796,7 +796,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, p1}, Lkotlin/i2/d;->O(D)I
+    invoke-static {p0, p1}, Lcotlin/i2/d;->O(D)I
 
     move-result v1
 
@@ -804,7 +804,7 @@
 
     move-result-object v1
 
-    invoke-static {p0, p1}, Lkotlin/i2/d;->T(D)I
+    invoke-static {p0, p1}, Lcotlin/i2/d;->T(D)I
 
     move-result v2
 
@@ -812,7 +812,7 @@
 
     move-result-object v2
 
-    invoke-static {p0, p1}, Lkotlin/i2/d;->R(D)I
+    invoke-static {p0, p1}, Lcotlin/i2/d;->R(D)I
 
     move-result p0
 
@@ -820,16 +820,16 @@
 
     move-result-object p0
 
-    invoke-interface {p2, v0, v1, v2, p0}, Lkotlin/jvm/u/r;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v0, v1, v2, p0}, Lcotlin/jvm/u/r;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final j0(DLkotlin/jvm/u/s;)Ljava/lang/Object;
+.method public static final j0(DLcotlin/jvm/u/s;)Ljava/lang/Object;
     .locals 7
-    .param p2    # Lkotlin/jvm/u/s;
+    .param p2    # Lcotlin/jvm/u/s;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -838,7 +838,7 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(D",
-            "Lkotlin/jvm/u/s<",
+            "Lcotlin/jvm/u/s<",
             "-",
             "Ljava/lang/Integer;",
             "-",
@@ -855,10 +855,10 @@
 
     const-string v0, "action"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->F(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->F(D)D
 
     move-result-wide v0
 
@@ -868,7 +868,7 @@
 
     move-result-object v2
 
-    invoke-static {p0, p1}, Lkotlin/i2/d;->E(D)I
+    invoke-static {p0, p1}, Lcotlin/i2/d;->E(D)I
 
     move-result v0
 
@@ -876,7 +876,7 @@
 
     move-result-object v3
 
-    invoke-static {p0, p1}, Lkotlin/i2/d;->O(D)I
+    invoke-static {p0, p1}, Lcotlin/i2/d;->O(D)I
 
     move-result v0
 
@@ -884,7 +884,7 @@
 
     move-result-object v4
 
-    invoke-static {p0, p1}, Lkotlin/i2/d;->T(D)I
+    invoke-static {p0, p1}, Lcotlin/i2/d;->T(D)I
 
     move-result v0
 
@@ -892,7 +892,7 @@
 
     move-result-object v5
 
-    invoke-static {p0, p1}, Lkotlin/i2/d;->R(D)I
+    invoke-static {p0, p1}, Lcotlin/i2/d;->R(D)I
 
     move-result p0
 
@@ -902,7 +902,7 @@
 
     move-object v1, p2
 
-    invoke-interface/range {v1 .. v6}, Lkotlin/jvm/u/s;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface/range {v1 .. v6}, Lcotlin/jvm/u/s;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -918,14 +918,14 @@
 
     const-string v0, "unit"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {}, Lkotlin/i2/e;->a()Ljava/util/concurrent/TimeUnit;
+    invoke-static {}, Lcotlin/i2/e;->a()Ljava/util/concurrent/TimeUnit;
 
     move-result-object v0
 
-    invoke-static {p0, p1, v0, p2}, Lkotlin/i2/h;->b(DLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0, p2}, Lcotlin/i2/h;->b(DLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -952,10 +952,10 @@
 
     const-string v0, "unit"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, p2}, Lcotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -981,7 +981,7 @@
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 2
-    invoke-static {p0, p1}, Lkotlin/i2/d;->Y(D)Z
+    invoke-static {p0, p1}, Lcotlin/i2/d;->Y(D)Z
 
     move-result v1
 
@@ -998,26 +998,26 @@
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 4
-    invoke-static {p0, p1}, Lkotlin/i2/d;->B(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->B(D)D
 
     move-result-wide p0
 
     .line 5
-    invoke-static {p0, p1}, Lkotlin/i2/d;->G(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->G(D)D
 
     move-result-wide v1
 
     double-to-int v1, v1
 
-    invoke-static {p0, p1}, Lkotlin/i2/d;->O(D)I
+    invoke-static {p0, p1}, Lcotlin/i2/d;->O(D)I
 
     move-result v2
 
-    invoke-static {p0, p1}, Lkotlin/i2/d;->T(D)I
+    invoke-static {p0, p1}, Lcotlin/i2/d;->T(D)I
 
     move-result v3
 
-    invoke-static {p0, p1}, Lkotlin/i2/d;->R(D)I
+    invoke-static {p0, p1}, Lcotlin/i2/d;->R(D)I
 
     move-result p0
 
@@ -1110,7 +1110,7 @@
 
     const/16 v2, 0x30
 
-    invoke-static {p1, v1, v2}, Lkotlin/text/m;->P3(Ljava/lang/String;IC)Ljava/lang/String;
+    invoke-static {p1, v1, v2}, Lcotlin/text/m;->P3(Ljava/lang/String;IC)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1127,7 +1127,7 @@
 
     invoke-virtual {v0, p1, v4, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_4
 
@@ -1141,7 +1141,7 @@
 
     invoke-virtual {v0, p1, v4, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_4
 
@@ -1164,7 +1164,7 @@
 
     const-string p1, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
@@ -1186,10 +1186,10 @@
 
     const-string v0, "unit"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, p2}, Lcotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -1204,7 +1204,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/d;->p0(DLjava/util/concurrent/TimeUnit;)J
+    invoke-static {p0, p1, v0}, Lcotlin/i2/d;->p0(DLjava/util/concurrent/TimeUnit;)J
 
     move-result-wide p0
 
@@ -1217,7 +1217,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/d;->p0(DLjava/util/concurrent/TimeUnit;)J
+    invoke-static {p0, p1, v0}, Lcotlin/i2/d;->p0(DLjava/util/concurrent/TimeUnit;)J
 
     move-result-wide p0
 
@@ -1230,7 +1230,7 @@
     div-double/2addr p0, p2
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->o(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->o(D)D
 
     move-result-wide p0
 
@@ -1243,7 +1243,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->X(D)Z
+    invoke-static {p0, p1}, Lcotlin/i2/d;->X(D)Z
 
     move-result v0
 
@@ -1268,11 +1268,11 @@
 
     .line 2
     :cond_1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->B(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->B(D)D
 
     move-result-wide v0
 
-    invoke-static {v0, v1}, Lkotlin/i2/d;->K(D)D
+    invoke-static {v0, v1}, Lcotlin/i2/d;->K(D)D
 
     move-result-wide v0
 
@@ -1405,7 +1405,7 @@
 
     .line 13
     :goto_2
-    invoke-static {p0, p1, v0}, Lkotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide v2
 
@@ -1417,7 +1417,7 @@
     if-eqz v4, :cond_b
 
     .line 15
-    invoke-static {v2, v3}, Lkotlin/i2/k;->b(D)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcotlin/i2/k;->b(D)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1427,7 +1427,7 @@
     if-lez v1, :cond_c
 
     .line 16
-    invoke-static {v2, v3, v1}, Lkotlin/i2/k;->d(DI)Ljava/lang/String;
+    invoke-static {v2, v3, v1}, Lcotlin/i2/k;->d(DI)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1439,11 +1439,11 @@
 
     move-result-wide v6
 
-    invoke-static {p0, p1, v6, v7}, Lkotlin/i2/d;->d0(DD)I
+    invoke-static {p0, p1, v6, v7}, Lcotlin/i2/d;->d0(DD)I
 
     move-result p0
 
-    invoke-static {v2, v3, p0}, Lkotlin/i2/k;->c(DI)Ljava/lang/String;
+    invoke-static {v2, v3, p0}, Lcotlin/i2/k;->c(DI)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1452,7 +1452,7 @@
     invoke-virtual {v5, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 19
-    invoke-static {v0}, Lkotlin/i2/i;->c(Ljava/util/concurrent/TimeUnit;)Ljava/lang/String;
+    invoke-static {v0}, Lcotlin/i2/i;->c(Ljava/util/concurrent/TimeUnit;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1474,7 +1474,7 @@
     div-double/2addr p0, v0
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->o(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->o(D)D
 
     move-result-wide p0
 
@@ -1492,7 +1492,7 @@
 
     const-string v0, "unit"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-ltz p3, :cond_0
 
@@ -1507,7 +1507,7 @@
     if-eqz v0, :cond_3
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->X(D)Z
+    invoke-static {p0, p1}, Lcotlin/i2/d;->X(D)Z
 
     move-result v0
 
@@ -1521,7 +1521,7 @@
 
     .line 2
     :cond_1
-    invoke-static {p0, p1, p2}, Lkotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, p2}, Lcotlin/i2/d;->k0(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -1543,11 +1543,11 @@
 
     const/16 v1, 0xc
 
-    invoke-static {p3, v1}, Lkotlin/g2/o;->u(II)I
+    invoke-static {p3, v1}, Lcotlin/g2/o;->u(II)I
 
     move-result p3
 
-    invoke-static {p0, p1, p3}, Lkotlin/i2/k;->c(DI)Ljava/lang/String;
+    invoke-static {p0, p1, p3}, Lcotlin/i2/k;->c(DI)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1555,7 +1555,7 @@
 
     .line 5
     :cond_2
-    invoke-static {p0, p1}, Lkotlin/i2/k;->b(D)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcotlin/i2/k;->b(D)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1564,7 +1564,7 @@
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 7
-    invoke-static {p2}, Lkotlin/i2/i;->c(Ljava/util/concurrent/TimeUnit;)Ljava/lang/String;
+    invoke-static {p2}, Lcotlin/i2/i;->c(Ljava/util/concurrent/TimeUnit;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1614,7 +1614,7 @@
 
     .line 1
     :cond_0
-    invoke-static {p0, p1, p2, p3}, Lkotlin/i2/d;->t0(DLjava/util/concurrent/TimeUnit;I)Ljava/lang/String;
+    invoke-static {p0, p1, p2, p3}, Lcotlin/i2/d;->t0(DLjava/util/concurrent/TimeUnit;I)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1627,7 +1627,7 @@
     neg-double p0, p0
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/i2/d;->o(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->o(D)D
 
     move-result-wide p0
 
@@ -1637,13 +1637,13 @@
 .method public static w(DLjava/lang/Object;)Z
     .locals 2
 
-    instance-of v0, p2, Lkotlin/i2/d;
+    instance-of v0, p2, Lcotlin/i2/d;
 
     if-eqz v0, :cond_0
 
-    check-cast p2, Lkotlin/i2/d;
+    check-cast p2, Lcotlin/i2/d;
 
-    invoke-virtual {p2}, Lkotlin/i2/d;->x0()D
+    invoke-virtual {p2}, Lcotlin/i2/d;->x0()D
 
     move-result-wide v0
 
@@ -1689,13 +1689,13 @@
     .locals 2
 
     .line 1
-    check-cast p1, Lkotlin/i2/d;
+    check-cast p1, Lcotlin/i2/d;
 
-    invoke-virtual {p1}, Lkotlin/i2/d;->x0()D
+    invoke-virtual {p1}, Lcotlin/i2/d;->x0()D
 
     move-result-wide v0
 
-    invoke-virtual {p0, v0, v1}, Lkotlin/i2/d;->h(D)I
+    invoke-virtual {p0, v0, v1}, Lcotlin/i2/d;->h(D)I
 
     move-result p1
 
@@ -1706,9 +1706,9 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Lkotlin/i2/d;->a:D
+    iget-wide v0, p0, Lcotlin/i2/d;->a:D
 
-    invoke-static {v0, v1, p1}, Lkotlin/i2/d;->w(DLjava/lang/Object;)Z
+    invoke-static {v0, v1, p1}, Lcotlin/i2/d;->w(DLjava/lang/Object;)Z
 
     move-result p1
 
@@ -1719,9 +1719,9 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Lkotlin/i2/d;->a:D
+    iget-wide v0, p0, Lcotlin/i2/d;->a:D
 
-    invoke-static {v0, v1, p1, p2}, Lkotlin/i2/d;->n(DD)I
+    invoke-static {v0, v1, p1, p2}, Lcotlin/i2/d;->n(DD)I
 
     move-result p1
 
@@ -1732,9 +1732,9 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Lkotlin/i2/d;->a:D
+    iget-wide v0, p0, Lcotlin/i2/d;->a:D
 
-    invoke-static {v0, v1}, Lkotlin/i2/d;->U(D)I
+    invoke-static {v0, v1}, Lcotlin/i2/d;->U(D)I
 
     move-result v0
 
@@ -1747,9 +1747,9 @@
     .end annotation
 
     .line 1
-    iget-wide v0, p0, Lkotlin/i2/d;->a:D
+    iget-wide v0, p0, Lcotlin/i2/d;->a:D
 
-    invoke-static {v0, v1}, Lkotlin/i2/d;->s0(D)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcotlin/i2/d;->s0(D)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1759,7 +1759,7 @@
 .method public final synthetic x0()D
     .locals 2
 
-    iget-wide v0, p0, Lkotlin/i2/d;->a:D
+    iget-wide v0, p0, Lcotlin/i2/d;->a:D
 
     return-wide v0
 .end method

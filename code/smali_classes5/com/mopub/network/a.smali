@@ -10,12 +10,12 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     const-string v0, "networkError"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -32,12 +32,12 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     const-string v0, "response"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method

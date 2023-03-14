@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,14 +25,14 @@
     d2 = {
         "kshark/s$a",
         "",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "Lkshark/i;",
         "",
         "",
         "block",
         "Lkshark/s;",
         "a",
-        "(Lkotlin/jvm/u/l;)Lkshark/s;",
+        "(Lcotlin/jvm/u/l;)Lkshark/s;",
         "<init>",
         "()V",
         "shark"
@@ -75,16 +75,16 @@
 
 
 # virtual methods
-.method public final a(Lkotlin/jvm/u/l;)Lkshark/s;
+.method public final a(Lcotlin/jvm/u/l;)Lkshark/s;
     .locals 1
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lkshark/i;",
             "+",
@@ -100,12 +100,12 @@
 
     const-string v0, "block"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lkshark/s$a$a;
 
-    invoke-direct {v0, p1}, Lkshark/s$a$a;-><init>(Lkotlin/jvm/u/l;)V
+    invoke-direct {v0, p1}, Lkshark/s$a$a;-><init>(Lcotlin/jvm/u/l;)V
 
     return-object v0
 .end method

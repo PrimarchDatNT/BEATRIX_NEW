@@ -30,7 +30,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -368,7 +368,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/meitu/template/bean/Doodle$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/meitu/template/bean/Doodle$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/meitu/template/bean/Doodle;->Companion:Lcom/meitu/template/bean/Doodle$a;
 
@@ -1152,7 +1152,7 @@
 
     const-string v1, "localEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/e;->getDownloadState()I
@@ -1219,7 +1219,7 @@
 
     iget-object v5, p1, Lcom/meitu/template/bean/Doodle;->doodleThumbnail:Ljava/lang/String;
 
-    invoke-static {v2, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1315,7 +1315,7 @@
 
     iget-object v5, p1, Lcom/meitu/template/bean/Doodle;->doodleGoodId:Ljava/lang/String;
 
-    invoke-static {v2, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1352,7 +1352,7 @@
 
     iget-object v5, p1, Lcom/meitu/template/bean/Doodle;->doodleFile:Ljava/lang/String;
 
-    invoke-static {v2, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1385,7 +1385,7 @@
 
     .line 23
     :goto_7
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1435,7 +1435,7 @@
 
     const-string v1, "nextEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/Doodle;->equals(Ljava/lang/Object;)Z

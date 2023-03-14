@@ -14,7 +14,7 @@
     value = "SMAP\nBpAlbumActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpAlbumActivity.kt\ncom/commsource/mypage/album/BpAlbumActivity\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,1336:1\n1819#2,2:1337\n*E\n*S KotlinDebug\n*F\n+ 1 BpAlbumActivity.kt\ncom/commsource/mypage/album/BpAlbumActivity\n*L\n196#1,2:1337\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,17 +26,17 @@
     d2 = {
         "Lcom/commsource/mypage/album/BpAlbumActivity;",
         "Lcom/commsource/beautyplus/BaseActivity;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "U0",
         "()V",
         "T0",
-        "Lkotlin/Pair;",
+        "Lcotlin/Pair;",
         "Lcom/commsource/album/provider/BucketInfo;",
         "",
         "Lcom/commsource/cloudalbum/bean/CAImageInfo;",
         "bucketInfoPair",
         "Z0",
-        "(Lkotlin/Pair;)V",
+        "(Lcotlin/Pair;)V",
         "Landroid/os/Bundle;",
         "savedInstanceState",
         "onCreate",
@@ -86,7 +86,7 @@
         "viewBinding",
         "Ljava/util/ArrayList;",
         "Lcom/commsource/mypage/album/BaseAlbumComponent;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "P",
         "Ljava/util/ArrayList;",
         "albumComponents",
@@ -100,7 +100,7 @@
         "albumAdapter",
         "Lcom/commsource/mypage/album/BpAlbumViewModel;",
         "O",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "S0",
         "()Lcom/commsource/mypage/album/BpAlbumViewModel;",
         "viewModel",
@@ -144,7 +144,7 @@
     .end annotation
 .end field
 
-.field private final O:Lkotlin/w;
+.field private final O:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -188,7 +188,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/mypage/album/BpAlbumActivity$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/mypage/album/BpAlbumActivity$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/mypage/album/BpAlbumActivity;->Z:Lcom/commsource/mypage/album/BpAlbumActivity$a;
 
@@ -208,11 +208,11 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/mypage/album/BpAlbumActivity$viewModel$2;-><init>(Lcom/commsource/mypage/album/BpAlbumActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/mypage/album/BpAlbumActivity;->O:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/mypage/album/BpAlbumActivity;->O:Lcotlin/w;
 
     .line 3
     new-instance v0, Ljava/util/ArrayList;
@@ -231,7 +231,7 @@
     return-void
 .end method
 
-.method public static final synthetic N0(Lcom/commsource/mypage/album/BpAlbumActivity;Lkotlin/Pair;)V
+.method public static final synthetic N0(Lcom/commsource/mypage/album/BpAlbumActivity;Lcotlin/Pair;)V
     .locals 1
 
     const/16 v0, 0x6c3
@@ -239,7 +239,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/commsource/mypage/album/BpAlbumActivity;->Z0(Lkotlin/Pair;)V
+    invoke-direct {p0, p1}, Lcom/commsource/mypage/album/BpAlbumActivity;->Z0(Lcotlin/Pair;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -307,7 +307,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i;->d0:Landroidx/recyclerview/widget/RecyclerView;
@@ -324,7 +324,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i;->d0:Landroidx/recyclerview/widget/RecyclerView;
@@ -340,7 +340,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i;->d0:Landroidx/recyclerview/widget/RecyclerView;
@@ -351,7 +351,7 @@
 
     const-string v4, "albumAdapter"
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
@@ -361,7 +361,7 @@
 
     if-nez v1, :cond_5
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i;->e0:Lcom/commsource/widget/CommonScrollbar;
@@ -370,7 +370,7 @@
 
     if-nez v3, :cond_6
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     iget-object v2, v3, Lcom/commsource/beautyplus/f0/i;->d0:Landroidx/recyclerview/widget/RecyclerView;
@@ -479,12 +479,12 @@
     return-void
 .end method
 
-.method private final Z0(Lkotlin/Pair;)V
+.method private final Z0(Lcotlin/Pair;)V
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+",
             "Lcom/commsource/album/provider/BucketInfo;",
             "+",
@@ -506,7 +506,7 @@
     if-eqz p1, :cond_5
 
     .line 1
-    invoke-virtual {p1}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -527,14 +527,14 @@
 
     if-nez v3, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/i;->c:Landroid/widget/TextView;
 
-    invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {p1}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v5
 
@@ -551,12 +551,12 @@
 
     if-nez v3, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/i;->c:Landroid/widget/TextView;
 
-    invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setEnabled(Z)V
 
@@ -565,12 +565,12 @@
 
     if-nez v3, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/i;->c:Landroid/widget/TextView;
 
-    invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
@@ -583,10 +583,10 @@
 
     const-string v4, "albumAdapter"
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
-    invoke-virtual {p1}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -603,7 +603,7 @@
 
     if-nez p1, :cond_4
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i;->d0:Landroidx/recyclerview/widget/RecyclerView;
@@ -618,12 +618,12 @@
 
     if-nez p1, :cond_6
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i;->c:Landroid/widget/TextView;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v1, 0x8
 
@@ -758,7 +758,7 @@
 
     const-string v2, "mAlbumAnimateHelper"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/mypage/album/t;->f()V
@@ -798,7 +798,7 @@
 
     const-string v2, "albumAdapter"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -839,7 +839,7 @@
 
     const-string v2, "viewBinding"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -856,9 +856,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumActivity;->O:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumActivity;->O:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -944,7 +944,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i;->T:Landroid/widget/LinearLayout;
@@ -991,12 +991,12 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i;->N:Landroid/widget/ImageButton;
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1005,12 +1005,12 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i;->K:Lcom/commsource/widget/IconFrontView;
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1022,12 +1022,12 @@
 
     if-nez v1, :cond_4
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i;->N:Landroid/widget/ImageButton;
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1036,12 +1036,12 @@
 
     if-nez v1, :cond_5
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i;->K:Lcom/commsource/widget/IconFrontView;
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1051,7 +1051,7 @@
 
     if-nez v1, :cond_6
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i;->N:Landroid/widget/ImageButton;
@@ -1067,7 +1067,7 @@
 
     if-nez v1, :cond_7
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_7
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i;->K:Lcom/commsource/widget/IconFrontView;
@@ -1083,7 +1083,7 @@
 
     if-nez v1, :cond_8
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_8
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i;->O:Landroid/widget/ImageView;
@@ -1101,7 +1101,7 @@
 
     if-nez v3, :cond_9
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_9
     iget-object v4, p0, Lcom/commsource/mypage/album/BpAlbumActivity;->Q:Lcom/commsource/mypage/g0;
@@ -1134,14 +1134,14 @@
 
     if-nez v1, :cond_a
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_a
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i;->l0:Landroid/widget/TextView;
 
     const-string v3, "viewBinding.tvTryFeatureTips"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/commsource/mypage/album/BpAlbumActivity;->S0()Lcom/commsource/mypage/album/BpAlbumViewModel;
 
@@ -1162,12 +1162,12 @@
 
     if-nez v1, :cond_b
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_b
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i;->l0:Landroid/widget/TextView;
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1273,7 +1273,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/mypage/album/BpAlbumActivity;->T:Lcom/commsource/mypage/album/z;
@@ -1296,7 +1296,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/mypage/album/BpAlbumActivity;->Q:Lcom/commsource/mypage/g0;
@@ -1319,7 +1319,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/mypage/album/BpAlbumActivity;->N:Lcom/commsource/beautyplus/f0/i;
@@ -1356,7 +1356,7 @@
 
     const-string v1, "mAlbumAnimateHelper"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1, p3, p2}, Lcom/commsource/mypage/album/t;->k(Landroid/view/View;Lcom/commsource/cloudalbum/bean/CAImageInfo;)V
@@ -1442,14 +1442,14 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i;->T:Landroid/widget/LinearLayout;
 
     const-string v4, "viewBinding.llAlbumBucketTip"
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
@@ -1505,7 +1505,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/i;->T:Landroid/widget/LinearLayout;
@@ -1844,7 +1844,7 @@
 
     const-string v1, "DataBindingUtil.setConte\u2026layout.activity_bp_album)"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/beautyplus/f0/i;
 
@@ -1885,11 +1885,11 @@
 
     const-string v1, "permissions"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "grantResults"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/FragmentActivity;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V

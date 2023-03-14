@@ -1,4 +1,4 @@
-.class final Lkotlinx/coroutines/v$b;
+.class final Lcotlinx/coroutines/v$b;
 .super Ljava/lang/Object;
 .source "CommonPool.kt"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/v;->L(Ljava/lang/Class;Ljava/util/concurrent/ExecutorService;)Z
+    value = Lcotlinx/coroutines/v;->L(Ljava/lang/Class;Ljava/util/concurrent/ExecutorService;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "<anonymous>"
@@ -41,18 +41,18 @@
 
 
 # static fields
-.field public static final a:Lkotlinx/coroutines/v$b;
+.field public static final a:Lcotlinx/coroutines/v$b;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkotlinx/coroutines/v$b;
+    new-instance v0, Lcotlinx/coroutines/v$b;
 
-    invoke-direct {v0}, Lkotlinx/coroutines/v$b;-><init>()V
+    invoke-direct {v0}, Lcotlinx/coroutines/v$b;-><init>()V
 
-    sput-object v0, Lkotlinx/coroutines/v$b;->a:Lkotlinx/coroutines/v$b;
+    sput-object v0, Lcotlinx/coroutines/v$b;->a:Lcotlinx/coroutines/v$b;
 
     return-void
 .end method

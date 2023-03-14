@@ -17,7 +17,7 @@
     value = "SMAP\nObjectInspectors.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ObjectInspectors.kt\nkshark/ObjectInspectors$Companion\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,156:1\n1365#2,9:157\n1587#2,2:166\n1374#2:168\n1313#2:169\n1382#2,3:170\n*E\n*S KotlinDebug\n*F\n+ 1 ObjectInspectors.kt\nkshark/ObjectInspectors$Companion\n*L\n149#1,9:157\n149#1,2:166\n149#1:168\n150#1:169\n150#1,3:170\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -46,9 +46,9 @@
         "",
         "ANONYMOUS_CLASS_NAME_PATTERN",
         "Ljava/lang/String;",
-        "Lkotlin/text/Regex;",
+        "Lcotlin/text/Regex;",
         "ANONYMOUS_CLASS_NAME_PATTERN_REGEX",
-        "Lkotlin/text/Regex;",
+        "Lcotlin/text/Regex;",
         "<init>",
         "()V",
         "shark"
@@ -72,7 +72,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -107,7 +107,7 @@
 
     const-string v0, "inspectors"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/ArrayList;
@@ -135,7 +135,7 @@
     check-cast v1, Lkshark/ObjectInspectors;
 
     .line 4
-    invoke-virtual {v1}, Lkshark/ObjectInspectors;->getLeakingObjectFilter$shark()Lkotlin/jvm/u/l;
+    invoke-virtual {v1}, Lkshark/ObjectInspectors;->getLeakingObjectFilter$shark()Lcotlin/jvm/u/l;
 
     move-result-object v1
 
@@ -152,7 +152,7 @@
 
     const/16 v1, 0xa
 
-    invoke-static {v0, v1}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v0, v1}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v1
 
@@ -175,12 +175,12 @@
     move-result-object v1
 
     .line 8
-    check-cast v1, Lkotlin/jvm/u/l;
+    check-cast v1, Lcotlin/jvm/u/l;
 
     .line 9
     new-instance v2, Lkshark/ObjectInspectors$a$a;
 
-    invoke-direct {v2, v1}, Lkshark/ObjectInspectors$a$a;-><init>(Lkotlin/jvm/u/l;)V
+    invoke-direct {v2, v1}, Lkshark/ObjectInspectors$a$a;-><init>(Lcotlin/jvm/u/l;)V
 
     .line 10
     invoke-interface {p1, v2}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
@@ -210,7 +210,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/collections/k;->uy([Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v0}, Lcotlin/collections/k;->uy([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v0
 

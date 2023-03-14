@@ -1,11 +1,11 @@
-.class public final Lkotlin/text/MatcherMatchResult$a;
-.super Lkotlin/collections/c;
+.class public final Lcotlin/text/MatcherMatchResult$a;
+.super Lcotlin/collections/c;
 .source "Regex.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/text/MatcherMatchResult;->b()Ljava/util/List;
+    value = Lcotlin/text/MatcherMatchResult;->b()Ljava/util/List;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,13 +15,13 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/collections/c<",
+        "Lcotlin/collections/c<",
         "Ljava/lang/String;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
     }
     d2 = {
         "kotlin/text/MatcherMatchResult$a",
-        "Lkotlin/collections/c;",
+        "Lcotlin/collections/c;",
         "",
         "",
         "index",
@@ -53,11 +53,11 @@
 
 
 # instance fields
-.field final synthetic b:Lkotlin/text/MatcherMatchResult;
+.field final synthetic b:Lcotlin/text/MatcherMatchResult;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/text/MatcherMatchResult;)V
+.method constructor <init>(Lcotlin/text/MatcherMatchResult;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -66,9 +66,9 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lkotlin/text/MatcherMatchResult$a;->b:Lkotlin/text/MatcherMatchResult;
+    iput-object p1, p0, Lcotlin/text/MatcherMatchResult$a;->b:Lcotlin/text/MatcherMatchResult;
 
-    invoke-direct {p0}, Lkotlin/collections/c;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/c;-><init>()V
 
     return-void
 .end method
@@ -79,9 +79,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/MatcherMatchResult$a;->b:Lkotlin/text/MatcherMatchResult;
+    iget-object v0, p0, Lcotlin/text/MatcherMatchResult$a;->b:Lcotlin/text/MatcherMatchResult;
 
-    invoke-static {v0}, Lkotlin/text/MatcherMatchResult;->d(Lkotlin/text/MatcherMatchResult;)Ljava/util/regex/MatchResult;
+    invoke-static {v0}, Lcotlin/text/MatcherMatchResult;->d(Lcotlin/text/MatcherMatchResult;)Ljava/util/regex/MatchResult;
 
     move-result-object v0
 
@@ -98,7 +98,7 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lkotlin/collections/AbstractCollection;->contains(Ljava/lang/Object;)Z
+    invoke-super {p0, p1}, Lcotlin/collections/AbstractCollection;->contains(Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -115,7 +115,7 @@
 
     check-cast p1, Ljava/lang/String;
 
-    invoke-virtual {p0, p1}, Lkotlin/text/MatcherMatchResult$a;->c(Ljava/lang/String;)Z
+    invoke-virtual {p0, p1}, Lcotlin/text/MatcherMatchResult$a;->c(Ljava/lang/String;)Z
 
     move-result p1
 
@@ -133,9 +133,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/MatcherMatchResult$a;->b:Lkotlin/text/MatcherMatchResult;
+    iget-object v0, p0, Lcotlin/text/MatcherMatchResult$a;->b:Lcotlin/text/MatcherMatchResult;
 
-    invoke-static {v0}, Lkotlin/text/MatcherMatchResult;->d(Lkotlin/text/MatcherMatchResult;)Ljava/util/regex/MatchResult;
+    invoke-static {v0}, Lcotlin/text/MatcherMatchResult;->d(Lcotlin/text/MatcherMatchResult;)Ljava/util/regex/MatchResult;
 
     move-result-object v0
 
@@ -158,7 +158,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/text/MatcherMatchResult$a;->e(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Lcotlin/text/MatcherMatchResult$a;->e(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -169,7 +169,7 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lkotlin/collections/c;->indexOf(Ljava/lang/Object;)I
+    invoke-super {p0, p1}, Lcotlin/collections/c;->indexOf(Ljava/lang/Object;)I
 
     move-result p1
 
@@ -180,7 +180,7 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lkotlin/collections/c;->lastIndexOf(Ljava/lang/Object;)I
+    invoke-super {p0, p1}, Lcotlin/collections/c;->lastIndexOf(Ljava/lang/Object;)I
 
     move-result p1
 
@@ -197,7 +197,7 @@
 
     check-cast p1, Ljava/lang/String;
 
-    invoke-virtual {p0, p1}, Lkotlin/text/MatcherMatchResult$a;->h(Ljava/lang/String;)I
+    invoke-virtual {p0, p1}, Lcotlin/text/MatcherMatchResult$a;->h(Ljava/lang/String;)I
 
     move-result p1
 
@@ -219,7 +219,7 @@
 
     check-cast p1, Ljava/lang/String;
 
-    invoke-virtual {p0, p1}, Lkotlin/text/MatcherMatchResult$a;->i(Ljava/lang/String;)I
+    invoke-virtual {p0, p1}, Lcotlin/text/MatcherMatchResult$a;->i(Ljava/lang/String;)I
 
     move-result p1
 

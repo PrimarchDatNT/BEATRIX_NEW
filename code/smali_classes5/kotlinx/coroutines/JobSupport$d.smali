@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/JobSupport$d;
-.super Lkotlinx/coroutines/internal/m$c;
+.class public final Lcotlinx/coroutines/JobSupport$d;
+.super Lcotlinx/coroutines/internal/m$c;
 .source "LockFreeLinkedList.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/JobSupport;->b0(Ljava/lang/Object;Lkotlinx/coroutines/n2;Lkotlinx/coroutines/i2;)Z
+    value = Lcotlinx/coroutines/JobSupport;->b0(Ljava/lang/Object;Lcotlinx/coroutines/n2;Lcotlinx/coroutines/i2;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,7 +17,7 @@
     value = "SMAP\nLockFreeLinkedList.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LockFreeLinkedList.kt\nkotlinx/coroutines/internal/LockFreeLinkedListNode$makeCondAddOp$1\n+ 2 JobSupport.kt\nkotlinx/coroutines/JobSupport\n*L\n1#1,657:1\n521#2:658\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,13 +28,13 @@
     }
     d2 = {
         "kotlinx/coroutines/JobSupport$d",
-        "Lkotlinx/coroutines/internal/m$c;",
-        "Lkotlinx/coroutines/internal/m;",
-        "Lkotlinx/coroutines/internal/Node;",
+        "Lcotlinx/coroutines/internal/m$c;",
+        "Lcotlinx/coroutines/internal/m;",
+        "Lcotlinx/coroutines/internal/Node;",
         "affected",
         "",
         "j",
-        "(Lkotlinx/coroutines/internal/m;)Ljava/lang/Object;",
+        "(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;",
         "kotlinx-coroutines-core",
         "kotlinx/coroutines/internal/m$f"
     }
@@ -48,25 +48,25 @@
 
 
 # instance fields
-.field final synthetic d:Lkotlinx/coroutines/internal/m;
+.field final synthetic d:Lcotlinx/coroutines/internal/m;
 
-.field final synthetic e:Lkotlinx/coroutines/JobSupport;
+.field final synthetic e:Lcotlinx/coroutines/JobSupport;
 
 .field final synthetic f:Ljava/lang/Object;
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/internal/m;Lkotlinx/coroutines/internal/m;Lkotlinx/coroutines/JobSupport;Ljava/lang/Object;)V
+.method public constructor <init>(Lcotlinx/coroutines/internal/m;Lcotlinx/coroutines/internal/m;Lcotlinx/coroutines/JobSupport;Ljava/lang/Object;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/JobSupport$d;->d:Lkotlinx/coroutines/internal/m;
+    iput-object p1, p0, Lcotlinx/coroutines/JobSupport$d;->d:Lcotlinx/coroutines/internal/m;
 
-    iput-object p3, p0, Lkotlinx/coroutines/JobSupport$d;->e:Lkotlinx/coroutines/JobSupport;
+    iput-object p3, p0, Lcotlinx/coroutines/JobSupport$d;->e:Lcotlinx/coroutines/JobSupport;
 
-    iput-object p4, p0, Lkotlinx/coroutines/JobSupport$d;->f:Ljava/lang/Object;
+    iput-object p4, p0, Lcotlinx/coroutines/JobSupport$d;->f:Ljava/lang/Object;
 
     .line 1
-    invoke-direct {p0, p2}, Lkotlinx/coroutines/internal/m$c;-><init>(Lkotlinx/coroutines/internal/m;)V
+    invoke-direct {p0, p2}, Lcotlinx/coroutines/internal/m$c;-><init>(Lcotlinx/coroutines/internal/m;)V
 
     return-void
 .end method
@@ -77,18 +77,18 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lkotlinx/coroutines/internal/m;
+    check-cast p1, Lcotlinx/coroutines/internal/m;
 
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/JobSupport$d;->j(Lkotlinx/coroutines/internal/m;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/JobSupport$d;->j(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public j(Lkotlinx/coroutines/internal/m;)Ljava/lang/Object;
+.method public j(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Lkotlinx/coroutines/internal/m;
+    .param p1    # Lcotlinx/coroutines/internal/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -96,13 +96,13 @@
     .end annotation
 
     .line 1
-    iget-object p1, p0, Lkotlinx/coroutines/JobSupport$d;->e:Lkotlinx/coroutines/JobSupport;
+    iget-object p1, p0, Lcotlinx/coroutines/JobSupport$d;->e:Lcotlinx/coroutines/JobSupport;
 
-    invoke-virtual {p1}, Lkotlinx/coroutines/JobSupport;->D0()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlinx/coroutines/JobSupport;->D0()Ljava/lang/Object;
 
     move-result-object p1
 
-    iget-object v0, p0, Lkotlinx/coroutines/JobSupport$d;->f:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlinx/coroutines/JobSupport$d;->f:Ljava/lang/Object;
 
     if-ne p1, v0, :cond_0
 
@@ -121,7 +121,7 @@
     goto :goto_1
 
     :cond_1
-    invoke-static {}, Lkotlinx/coroutines/internal/l;->f()Ljava/lang/Object;
+    invoke-static {}, Lcotlinx/coroutines/internal/l;->f()Ljava/lang/Object;
 
     move-result-object p1
 

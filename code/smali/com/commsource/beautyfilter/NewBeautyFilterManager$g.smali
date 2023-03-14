@@ -30,7 +30,7 @@
     value = "SMAP\nNewBeautyFilterManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewBeautyFilterManager.kt\ncom/commsource/beautyfilter/NewBeautyFilterManager$compareAndRefreshGroupInfo$compareResult$1\n*L\n1#1,981:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -48,7 +48,7 @@
         "update",
         "remove",
         "remain",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V",
         "app_googleplayRelease"

@@ -1,10 +1,10 @@
-.class public abstract Lkotlin/collections/b;
+.class public abstract Lcotlin/collections/b;
 .super Ljava/lang/Object;
 .source "AbstractIterator.kt"
 
 # interfaces
 .implements Ljava/util/Iterator;
-.implements Lkotlin/jvm/internal/x0/a;
+.implements Lcotlin/jvm/internal/x0/a;
 
 
 # annotations
@@ -16,11 +16,11 @@
         "Ljava/lang/Object;",
         "Ljava/util/Iterator<",
         "TT;>;",
-        "Lkotlin/jvm/internal/x0/a;"
+        "Lcotlin/jvm/internal/x0/a;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "\u0000\"\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010(\n\u0002\u0010\u000b\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0008&\u0018\u0000*\u0004\u0008\u0000\u0010\u00012\u0008\u0012\u0004\u0012\u00028\u00000\u0002B\u0007\u00a2\u0006\u0004\u0008\u0015\u0010\u000bJ\u000f\u0010\u0004\u001a\u00020\u0003H\u0002\u00a2\u0006\u0004\u0008\u0004\u0010\u0005J\u0010\u0010\u0006\u001a\u00020\u0003H\u0096\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0005J\u0010\u0010\u0007\u001a\u00028\u0000H\u0096\u0002\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u000f\u0010\n\u001a\u00020\tH$\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u0017\u0010\r\u001a\u00020\t2\u0006\u0010\u000c\u001a\u00028\u0000H\u0004\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\u000f\u0010\u000f\u001a\u00020\tH\u0004\u00a2\u0006\u0004\u0008\u000f\u0010\u000bR\u0018\u0010\u0011\u001a\u0004\u0018\u00018\u00008\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u000f\u0010\u0010R\u0016\u0010\u0014\u001a\u00020\u00128\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\n\u0010\u0013\u00a8\u0006\u0016"
     }
     d2 = {
-        "Lkotlin/collections/b;",
+        "Lcotlin/collections/b;",
         "T",
         "",
         "",
@@ -39,7 +39,7 @@
         "hasNext",
         "next",
         "()Ljava/lang/Object;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "value",
@@ -48,8 +48,8 @@
         "b",
         "Ljava/lang/Object;",
         "nextValue",
-        "Lkotlin/collections/State;",
-        "Lkotlin/collections/State;",
+        "Lcotlin/collections/State;",
+        "Lcotlin/collections/State;",
         "state",
         "<init>",
         "kotlin-stdlib"
@@ -64,7 +64,7 @@
 
 
 # instance fields
-.field private a:Lkotlin/collections/State;
+.field private a:Lcotlin/collections/State;
 
 .field private b:Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
@@ -83,9 +83,9 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    sget-object v0, Lkotlin/collections/State;->NotReady:Lkotlin/collections/State;
+    sget-object v0, Lcotlin/collections/State;->NotReady:Lcotlin/collections/State;
 
-    iput-object v0, p0, Lkotlin/collections/b;->a:Lkotlin/collections/State;
+    iput-object v0, p0, Lcotlin/collections/b;->a:Lcotlin/collections/State;
 
     return-void
 .end method
@@ -94,17 +94,17 @@
     .locals 2
 
     .line 1
-    sget-object v0, Lkotlin/collections/State;->Failed:Lkotlin/collections/State;
+    sget-object v0, Lcotlin/collections/State;->Failed:Lcotlin/collections/State;
 
-    iput-object v0, p0, Lkotlin/collections/b;->a:Lkotlin/collections/State;
+    iput-object v0, p0, Lcotlin/collections/b;->a:Lcotlin/collections/State;
 
     .line 2
-    invoke-virtual {p0}, Lkotlin/collections/b;->a()V
+    invoke-virtual {p0}, Lcotlin/collections/b;->a()V
 
     .line 3
-    iget-object v0, p0, Lkotlin/collections/b;->a:Lkotlin/collections/State;
+    iget-object v0, p0, Lcotlin/collections/b;->a:Lcotlin/collections/State;
 
-    sget-object v1, Lkotlin/collections/State;->Ready:Lkotlin/collections/State;
+    sget-object v1, Lcotlin/collections/State;->Ready:Lcotlin/collections/State;
 
     if-ne v0, v1, :cond_0
 
@@ -128,9 +128,9 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlin/collections/State;->Done:Lkotlin/collections/State;
+    sget-object v0, Lcotlin/collections/State;->Done:Lcotlin/collections/State;
 
-    iput-object v0, p0, Lkotlin/collections/b;->a:Lkotlin/collections/State;
+    iput-object v0, p0, Lcotlin/collections/b;->a:Lcotlin/collections/State;
 
     return-void
 .end method
@@ -144,12 +144,12 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lkotlin/collections/b;->b:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlin/collections/b;->b:Ljava/lang/Object;
 
     .line 2
-    sget-object p1, Lkotlin/collections/State;->Ready:Lkotlin/collections/State;
+    sget-object p1, Lcotlin/collections/State;->Ready:Lcotlin/collections/State;
 
-    iput-object p1, p0, Lkotlin/collections/b;->a:Lkotlin/collections/State;
+    iput-object p1, p0, Lcotlin/collections/b;->a:Lcotlin/collections/State;
 
     return-void
 .end method
@@ -158,9 +158,9 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/b;->a:Lkotlin/collections/State;
+    iget-object v0, p0, Lcotlin/collections/b;->a:Lcotlin/collections/State;
 
-    sget-object v1, Lkotlin/collections/State;->Failed:Lkotlin/collections/State;
+    sget-object v1, Lcotlin/collections/State;->Failed:Lcotlin/collections/State;
 
     const/4 v2, 0x0
 
@@ -179,7 +179,7 @@
     if-eqz v1, :cond_3
 
     .line 2
-    sget-object v1, Lkotlin/collections/a;->a:[I
+    sget-object v1, Lcotlin/collections/a;->a:[I
 
     invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
 
@@ -194,7 +194,7 @@
     if-eq v0, v1, :cond_1
 
     .line 3
-    invoke-direct {p0}, Lkotlin/collections/b;->d()Z
+    invoke-direct {p0}, Lcotlin/collections/b;->d()Z
 
     move-result v2
 
@@ -231,19 +231,19 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/b;->hasNext()Z
+    invoke-virtual {p0}, Lcotlin/collections/b;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 2
-    sget-object v0, Lkotlin/collections/State;->NotReady:Lkotlin/collections/State;
+    sget-object v0, Lcotlin/collections/State;->NotReady:Lcotlin/collections/State;
 
-    iput-object v0, p0, Lkotlin/collections/b;->a:Lkotlin/collections/State;
+    iput-object v0, p0, Lcotlin/collections/b;->a:Lcotlin/collections/State;
 
     .line 3
-    iget-object v0, p0, Lkotlin/collections/b;->b:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/collections/b;->b:Ljava/lang/Object;
 
     return-object v0
 

@@ -1,9 +1,9 @@
 .class final Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "BodyShapeFragment.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
@@ -18,9 +18,9 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
-        "Lkotlin/t1;",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
@@ -29,7 +29,7 @@
     value = "SMAP\nBodyShapeFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BodyShapeFragment.kt\ncom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,574:1\n13506#2,2:575\n*E\n*S KotlinDebug\n*F\n+ 1 BodyShapeFragment.kt\ncom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1\n*L\n394#1,2:575\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "()V",
         "<anonymous>"
@@ -69,7 +69,7 @@
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -86,7 +86,7 @@
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;->invoke()V
 
-    sget-object v1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -219,7 +219,7 @@
     const-string v6, "bodyResult.apply {\n     \u2026his\n                    }"
 
     .line 14
-    invoke-static {v3, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 15
     const-class v6, Lcom/commsource/camera/d1/g/f;
@@ -252,7 +252,7 @@
 
     const-string v5, "shoulderData.apply { stu\u2026ata.shoulderData = this }"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     const-class v5, Lcom/commsource/camera/d1/g/q;
@@ -401,7 +401,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v1, v2, v4, v3, v4}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {v1, v2, v4, v3, v4}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 33
     :cond_9

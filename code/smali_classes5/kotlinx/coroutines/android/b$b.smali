@@ -1,4 +1,4 @@
-.class final Lkotlinx/coroutines/android/b$b;
+.class final Lcotlinx/coroutines/android/b$b;
 .super Ljava/lang/Object;
 .source "HandlerDispatcher.kt"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/android/b;->i(Landroid/view/Choreographer;Lkotlinx/coroutines/m;)V
+    value = Lcotlinx/coroutines/android/b;->i(Landroid/view/Choreographer;Lcotlinx/coroutines/m;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
     value = "SMAP\nHandlerDispatcher.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HandlerDispatcher.kt\nkotlinx/coroutines/android/HandlerDispatcherKt$postFrameCallback$1\n*L\n1#1,196:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
     d2 = {
         "",
         "nanos",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "doFrame",
         "(J)V",
         "<anonymous>"
@@ -47,14 +47,14 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlinx/coroutines/m;
+.field final synthetic a:Lcotlinx/coroutines/m;
 
 
 # direct methods
-.method constructor <init>(Lkotlinx/coroutines/m;)V
+.method constructor <init>(Lcotlinx/coroutines/m;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/android/b$b;->a:Lkotlinx/coroutines/m;
+    iput-object p1, p0, Lcotlinx/coroutines/android/b$b;->a:Lcotlinx/coroutines/m;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -67,9 +67,9 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/android/b$b;->a:Lkotlinx/coroutines/m;
+    iget-object v0, p0, Lcotlinx/coroutines/android/b$b;->a:Lcotlinx/coroutines/m;
 
-    invoke-static {}, Lkotlinx/coroutines/c1;->g()Lkotlinx/coroutines/m2;
+    invoke-static {}, Lcotlinx/coroutines/c1;->g()Lcotlinx/coroutines/m2;
 
     move-result-object v1
 
@@ -77,7 +77,7 @@
 
     move-result-object p1
 
-    invoke-interface {v0, v1, p1}, Lkotlinx/coroutines/m;->M(Lkotlinx/coroutines/CoroutineDispatcher;Ljava/lang/Object;)V
+    invoke-interface {v0, v1, p1}, Lcotlinx/coroutines/m;->M(Lcotlinx/coroutines/CoroutineDispatcher;Ljava/lang/Object;)V
 
     return-void
 .end method

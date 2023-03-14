@@ -11,7 +11,7 @@
     value = "SMAP\nTestFuncActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TestFuncActivity.kt\ncom/commsource/beautyplus/setting/test/TestFuncActivity\n*L\n1#1,395:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,7 +24,7 @@
         "Lcom/commsource/beautyplus/setting/test/TestFuncActivity;",
         "Lcom/commsource/beautyplus/BaseActivity;",
         "Landroid/view/View$OnClickListener;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "Q0",
         "()V",
         "R0",
@@ -40,7 +40,7 @@
         "(Landroid/view/View;)V",
         "Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;",
         "N",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "P0",
         "()Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;",
         "viewModel",
@@ -57,7 +57,7 @@
 
 
 # instance fields
-.field private final N:Lkotlin/w;
+.field private final N:Lcotlin/w;
 
 .field private O:Ljava/util/HashMap;
 
@@ -74,11 +74,11 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$viewModel$2;-><init>(Lcom/commsource/beautyplus/setting/test/TestFuncActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->N:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->N:Lcotlin/w;
 
     return-void
 .end method
@@ -132,11 +132,11 @@
 
     .line 4
     :cond_0
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type android.app.ActivityManager"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -150,9 +150,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->N:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->N:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -396,7 +396,7 @@
 
     const-string v4, "crashDebug"
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setEnabled(Z)V
 
@@ -407,7 +407,7 @@
 
     check-cast v1, Lcom/commsource/beautyplus/setting/widget/SwitchView;
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {}, Lf/d/i/e;->Z()Z
 
@@ -456,7 +456,7 @@
 
     const-string/jumbo v4, "soMissDebug"
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setEnabled(Z)V
 
@@ -467,7 +467,7 @@
 
     check-cast v1, Lcom/commsource/beautyplus/setting/widget/SwitchView;
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {}, Lf/d/i/e;->n1()Z
 
@@ -1046,7 +1046,7 @@
 
     const-string/jumbo v1, "v"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Landroid/view/View;->getId()I
@@ -1114,7 +1114,7 @@
 
     const-string v2, "Uri.parse(\"beautyplus://\u2026rue&p_sub_style=compare\")"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     invoke-virtual {p1, p0, v1}, Lcom/commsource/beautyplus/router/c;->c(Landroid/app/Activity;Landroid/net/Uri;)Z
@@ -1189,7 +1189,7 @@
 
     const-string v2, "et_input"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 

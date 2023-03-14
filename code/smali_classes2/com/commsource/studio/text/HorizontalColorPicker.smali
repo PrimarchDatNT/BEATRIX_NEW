@@ -8,7 +8,7 @@
     value = "SMAP\nHorizontalColorPicker.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HorizontalColorPicker.kt\ncom/commsource/studio/text/HorizontalColorPicker\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,273:1\n318#2,7:274\n*E\n*S KotlinDebug\n*F\n+ 1 HorizontalColorPicker.kt\ncom/commsource/studio/text/HorizontalColorPicker\n*L\n262#1,7:274\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "Landroid/widget/FrameLayout;",
         "Lcom/commsource/studio/sticker/TextFragment;",
         "fragment",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "G",
         "(Lcom/commsource/studio/sticker/TextFragment;)V",
         "",
@@ -54,16 +54,16 @@
         "bitmap",
         "setImage",
         "(Landroid/graphics/Bitmap;)V",
-        "Lkotlin/Function1;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function1;",
+        "Lcotlin/k0;",
         "name",
         "value",
         "block",
         "A",
-        "(Lkotlin/jvm/u/l;)V",
-        "Lkotlin/Function0;",
+        "(Lcotlin/jvm/u/l;)V",
+        "Lcotlin/Function0;",
         "B",
-        "(Lkotlin/jvm/u/a;)V",
+        "(Lcotlin/jvm/u/a;)V",
         "C",
         "z",
         "D",
@@ -91,7 +91,7 @@
         "d",
         "Z",
         "isEnableClickState",
-        "Lkotlin/jvm/u/a;",
+        "Lcotlin/jvm/u/a;",
         "colorCancelAction",
         "Ljava/util/List;",
         "R",
@@ -111,7 +111,7 @@
         "Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;",
         "layoutManager",
         "L",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "onColorPickMode",
         "Lcom/commsource/studio/sticker/TextFragment;",
         "colorPresetAction",
@@ -141,33 +141,33 @@
 
 
 # instance fields
-.field private J:Lkotlin/jvm/u/a;
+.field private J:Lcotlin/jvm/u/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private K:Lkotlin/jvm/u/a;
+.field private K:Lcotlin/jvm/u/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private L:Lkotlin/jvm/u/l;
+.field private L:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -203,35 +203,35 @@
 
 .field private d:Z
 
-.field private f:Lkotlin/jvm/u/a;
+.field private f:Lcotlin/jvm/u/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private g:Lkotlin/jvm/u/l;
+.field private g:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private p:Lkotlin/jvm/u/l;
+.field private p:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -252,11 +252,11 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "attrs"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -284,7 +284,7 @@
 
     const-string p2, "LayoutColorPickHorizonta\u2026utInflater.from(context))"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->O:Lcom/commsource/beautyplus/f0/il;
 
@@ -328,7 +328,7 @@
 
     const-string v3, "fragment.ownerActivity"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v3, 0x0
 
@@ -412,7 +412,7 @@
 
     const-string v2, "mViewBinding.root"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -429,7 +429,7 @@
     if-nez v0, :cond_0
 
     .line 2
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     const/4 v2, 0x2
@@ -443,13 +443,13 @@
 
     const-string v2, "mViewBinding.colorList"
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v3, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->b:Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;
 
     if-nez v3, :cond_1
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v0, v3}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
@@ -481,7 +481,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/il;->b:Lcom/commsource/studio/doodle/FadingEdgeRecycleView;
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->a:Lcom/commsource/widget/h1/e;
 
@@ -530,7 +530,7 @@
     return-object p0
 .end method
 
-.method public static final synthetic d(Lcom/commsource/studio/text/HorizontalColorPicker;)Lkotlin/jvm/u/a;
+.method public static final synthetic d(Lcom/commsource/studio/text/HorizontalColorPicker;)Lcotlin/jvm/u/a;
     .locals 1
 
     const/16 v0, 0x175d
@@ -538,14 +538,14 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object p0, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->J:Lkotlin/jvm/u/a;
+    iget-object p0, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->J:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 .end method
 
-.method public static final synthetic e(Lcom/commsource/studio/text/HorizontalColorPicker;)Lkotlin/jvm/u/l;
+.method public static final synthetic e(Lcom/commsource/studio/text/HorizontalColorPicker;)Lcotlin/jvm/u/l;
     .locals 1
 
     const/16 v0, 0x175f
@@ -553,14 +553,14 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object p0, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->g:Lkotlin/jvm/u/l;
+    iget-object p0, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->g:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 .end method
 
-.method public static final synthetic f(Lcom/commsource/studio/text/HorizontalColorPicker;)Lkotlin/jvm/u/a;
+.method public static final synthetic f(Lcom/commsource/studio/text/HorizontalColorPicker;)Lcotlin/jvm/u/a;
     .locals 1
 
     const/16 v0, 0x1753
@@ -568,14 +568,14 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object p0, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->f:Lkotlin/jvm/u/a;
+    iget-object p0, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->f:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 .end method
 
-.method public static final synthetic g(Lcom/commsource/studio/text/HorizontalColorPicker;)Lkotlin/jvm/u/l;
+.method public static final synthetic g(Lcom/commsource/studio/text/HorizontalColorPicker;)Lcotlin/jvm/u/l;
     .locals 1
 
     const/16 v0, 0x174d
@@ -583,7 +583,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object p0, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->p:Lkotlin/jvm/u/l;
+    iget-object p0, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->p:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -605,7 +605,7 @@
     return-object p0
 .end method
 
-.method public static final synthetic i(Lcom/commsource/studio/text/HorizontalColorPicker;)Lkotlin/jvm/u/a;
+.method public static final synthetic i(Lcom/commsource/studio/text/HorizontalColorPicker;)Lcotlin/jvm/u/a;
     .locals 1
 
     const/16 v0, 0x175b
@@ -613,7 +613,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object p0, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->K:Lkotlin/jvm/u/a;
+    iget-object p0, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->K:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -635,7 +635,7 @@
     return-object p0
 .end method
 
-.method public static final synthetic k(Lcom/commsource/studio/text/HorizontalColorPicker;)Lkotlin/jvm/u/l;
+.method public static final synthetic k(Lcom/commsource/studio/text/HorizontalColorPicker;)Lcotlin/jvm/u/l;
     .locals 1
 
     const/16 v0, 0x174b
@@ -643,7 +643,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object p0, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->L:Lkotlin/jvm/u/l;
+    iget-object p0, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->L:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -710,7 +710,7 @@
     return-void
 .end method
 
-.method public static final synthetic p(Lcom/commsource/studio/text/HorizontalColorPicker;Lkotlin/jvm/u/a;)V
+.method public static final synthetic p(Lcom/commsource/studio/text/HorizontalColorPicker;Lcotlin/jvm/u/a;)V
     .locals 1
 
     const/16 v0, 0x175e
@@ -718,14 +718,14 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->J:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->J:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public static final synthetic q(Lcom/commsource/studio/text/HorizontalColorPicker;Lkotlin/jvm/u/l;)V
+.method public static final synthetic q(Lcom/commsource/studio/text/HorizontalColorPicker;Lcotlin/jvm/u/l;)V
     .locals 1
 
     const/16 v0, 0x1760
@@ -733,14 +733,14 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->g:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->g:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public static final synthetic r(Lcom/commsource/studio/text/HorizontalColorPicker;Lkotlin/jvm/u/a;)V
+.method public static final synthetic r(Lcom/commsource/studio/text/HorizontalColorPicker;Lcotlin/jvm/u/a;)V
     .locals 1
 
     const/16 v0, 0x1754
@@ -748,14 +748,14 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->f:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->f:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public static final synthetic s(Lcom/commsource/studio/text/HorizontalColorPicker;Lkotlin/jvm/u/l;)V
+.method public static final synthetic s(Lcom/commsource/studio/text/HorizontalColorPicker;Lcotlin/jvm/u/l;)V
     .locals 1
 
     const/16 v0, 0x174e
@@ -763,7 +763,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->p:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->p:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -785,7 +785,7 @@
     return-void
 .end method
 
-.method public static final synthetic u(Lcom/commsource/studio/text/HorizontalColorPicker;Lkotlin/jvm/u/a;)V
+.method public static final synthetic u(Lcom/commsource/studio/text/HorizontalColorPicker;Lcotlin/jvm/u/a;)V
     .locals 1
 
     const/16 v0, 0x175c
@@ -793,7 +793,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->K:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->K:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -815,7 +815,7 @@
     return-void
 .end method
 
-.method public static final synthetic w(Lcom/commsource/studio/text/HorizontalColorPicker;Lkotlin/jvm/u/l;)V
+.method public static final synthetic w(Lcom/commsource/studio/text/HorizontalColorPicker;Lcotlin/jvm/u/l;)V
     .locals 1
 
     const/16 v0, 0x174c
@@ -823,7 +823,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->L:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->L:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -862,19 +862,19 @@
 
 
 # virtual methods
-.method public final A(Lkotlin/jvm/u/l;)V
+.method public final A(Lcotlin/jvm/u/l;)V
     .locals 3
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -885,7 +885,7 @@
 
     const-string v1, "block"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->Q:Z
@@ -917,7 +917,7 @@
 
     .line 5
     :cond_0
-    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->g:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->g:Lcotlin/jvm/u/l;
 
     .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -925,17 +925,17 @@
     return-void
 .end method
 
-.method public final B(Lkotlin/jvm/u/a;)V
+.method public final B(Lcotlin/jvm/u/a;)V
     .locals 2
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -946,10 +946,10 @@
 
     const-string v1, "block"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->f:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->f:Lcotlin/jvm/u/a;
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -957,19 +957,19 @@
     return-void
 .end method
 
-.method public final C(Lkotlin/jvm/u/l;)V
+.method public final C(Lcotlin/jvm/u/l;)V
     .locals 2
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -980,10 +980,10 @@
 
     const-string v1, "block"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->p:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->p:Lcotlin/jvm/u/l;
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -991,17 +991,17 @@
     return-void
 .end method
 
-.method public final D(Lkotlin/jvm/u/a;)V
+.method public final D(Lcotlin/jvm/u/a;)V
     .locals 2
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1012,10 +1012,10 @@
 
     const-string v1, "block"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->K:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->K:Lcotlin/jvm/u/a;
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1041,17 +1041,17 @@
 
     .line 2
     :cond_0
-    iget-object v1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->L:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->L:Lcotlin/jvm/u/l;
 
     if-eqz v1, :cond_1
 
     sget-object v3, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    invoke-interface {v1, v3}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/t1;
+    check-cast v1, Lcotlin/t1;
 
     .line 3
     :cond_1
@@ -1064,7 +1064,7 @@
 
     const-string v3, "mViewBinding.civ"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setSelected(Z)V
 
@@ -1104,11 +1104,11 @@
 
     const-string v1, "fragment"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "color"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->M:Lcom/commsource/studio/sticker/TextFragment;
@@ -1125,19 +1125,19 @@
     return-object p0
 .end method
 
-.method public final I(Lkotlin/jvm/u/l;)V
+.method public final I(Lcotlin/jvm/u/l;)V
     .locals 2
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1148,10 +1148,10 @@
 
     const-string v1, "onColorPick"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->L:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->L:Lcotlin/jvm/u/l;
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1178,7 +1178,7 @@
 
     const-string p3, "color"
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     .line 3
     :cond_0
@@ -1211,7 +1211,7 @@
     const-string v4, "#"
 
     .line 5
-    invoke-static {v1, v4, p3, v2, v3}, Lkotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
+    invoke-static {v1, v4, p3, v2, v3}, Lcotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v2
 
@@ -1251,7 +1251,7 @@
 
     const-string p2, "mViewBinding.colorList"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getWidth()I
 
@@ -1349,7 +1349,7 @@
 
     const-string v2, "mViewBinding.customColor"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, p3}, Landroid/view/View;->setSelected(Z)V
 
@@ -1377,7 +1377,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/il;->f:Lcom/commsource/studio/doodle/ColorItemView;
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1389,7 +1389,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/il;->f:Lcom/commsource/studio/doodle/ColorItemView;
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1421,7 +1421,7 @@
 
     const-string v1, "color"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->N:Ljava/util/List;
@@ -1433,7 +1433,7 @@
 
     const-string v2, "mViewBinding.presetIcon"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p2, :cond_0
 
@@ -1643,7 +1643,7 @@
 
     const-string p3, "color"
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     const-class p3, Lcom/commsource/studio/text/f;
@@ -1739,17 +1739,17 @@
     return-void
 .end method
 
-.method public final z(Lkotlin/jvm/u/a;)V
+.method public final z(Lcotlin/jvm/u/a;)V
     .locals 2
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1760,10 +1760,10 @@
 
     const-string v1, "block"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->J:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker;->J:Lcotlin/jvm/u/a;
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

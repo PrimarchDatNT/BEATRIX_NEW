@@ -736,7 +736,7 @@
 
     invoke-direct {v8, p0}, Lcom/commsource/camera/montage/d0$a$b$b;-><init>(Lcom/commsource/camera/montage/d0$a$b;)V
 
-    invoke-static/range {v1 .. v8}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILkotlin/jvm/u/l;Lkotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
+    invoke-static/range {v1 .. v8}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILcotlin/jvm/u/l;Lcotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
 
     move-result-object p1
 

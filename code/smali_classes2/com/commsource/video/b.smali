@@ -8,7 +8,7 @@
     value = "SMAP\nFullScreenTransitionAnimation.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FullScreenTransitionAnimation.kt\ncom/commsource/video/FullScreenTransitionAnimation\n*L\n1#1,123:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/video/b;",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "i",
         "()V",
         "j",
@@ -115,7 +115,7 @@
 
     const-string v0, "originContainer"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -135,7 +135,7 @@
 
     const-string v1, "originContainer.rootView\u2026indow.ID_ANDROID_CONTENT)"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v0, Landroid/view/ViewGroup;
 
@@ -150,13 +150,13 @@
 
     const-string v3, "rootContent.context"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v3, 0x0
 
     const/4 v4, 0x2
 
-    invoke-direct {v1, v2, v3, v4, v3}, Lcom/commsource/video/view/XVideoContainer;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2, v3, v4, v3}, Lcom/commsource/video/view/XVideoContainer;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcotlin/jvm/internal/u;)V
 
     iput-object v1, p0, Lcom/commsource/video/b;->b:Lcom/commsource/video/view/XVideoContainer;
 
@@ -508,7 +508,7 @@
 
     const/4 v10, 0x0
 
-    invoke-static/range {v5 .. v10}, Lcom/commsource/video/XPlayer;->d(Lcom/commsource/video/XPlayer;Lcom/commsource/video/view/XVideoContainer;Lcom/commsource/video/view/XVideoContainer;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v5 .. v10}, Lcom/commsource/video/XPlayer;->d(Lcom/commsource/video/XPlayer;Lcom/commsource/video/view/XVideoContainer;Lcom/commsource/video/view/XVideoContainer;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 6
     iget-object v1, p0, Lcom/commsource/video/b;->k:Lcom/commsource/camera/f1/l;

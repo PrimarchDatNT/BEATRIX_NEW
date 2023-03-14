@@ -1,14 +1,14 @@
-.class public final Lkotlin/h$a;
+.class public final Lcotlin/h$a;
 .super Ljava/lang/Object;
 .source "Continuation.kt"
 
 # interfaces
-.implements Lkotlin/coroutines/c;
+.implements Lcotlin/coroutines/c;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/h;->m(Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    value = Lcotlin/h;->m(Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/coroutines/c<",
+        "Lcotlin/coroutines/c<",
         "Ljava/lang/Object;",
         ">;"
     }
@@ -29,7 +29,7 @@
     value = "SMAP\nContinuation.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Continuation.kt\nkotlin/coroutines/ContinuationKt$Continuation$1\n+ 2 DeepRecursive.kt\nkotlin/DeepRecursiveScopeImpl\n*L\n1#1,161:1\n184#2,6:162\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,15 +40,15 @@
     }
     d2 = {
         "kotlin/h$a",
-        "Lkotlin/coroutines/c;",
-        "Lkotlin/Result;",
+        "Lcotlin/coroutines/c;",
+        "Lcotlin/Result;",
         "result",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "resumeWith",
         "(Ljava/lang/Object;)V",
-        "Lkotlin/coroutines/CoroutineContext;",
+        "Lcotlin/coroutines/CoroutineContext;",
         "getContext",
-        "()Lkotlin/coroutines/CoroutineContext;",
+        "()Lcotlin/coroutines/CoroutineContext;",
         "context",
         "kotlin-stdlib",
         "kotlin/coroutines/e$a"
@@ -63,26 +63,26 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/coroutines/CoroutineContext;
+.field final synthetic a:Lcotlin/coroutines/CoroutineContext;
 
-.field final synthetic b:Lkotlin/h;
+.field final synthetic b:Lcotlin/h;
 
-.field final synthetic c:Lkotlin/jvm/u/q;
+.field final synthetic c:Lcotlin/jvm/u/q;
 
-.field final synthetic d:Lkotlin/coroutines/c;
+.field final synthetic d:Lcotlin/coroutines/c;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/coroutines/CoroutineContext;Lkotlin/h;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)V
+.method public constructor <init>(Lcotlin/coroutines/CoroutineContext;Lcotlin/h;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/h$a;->a:Lkotlin/coroutines/CoroutineContext;
+    iput-object p1, p0, Lcotlin/h$a;->a:Lcotlin/coroutines/CoroutineContext;
 
-    iput-object p2, p0, Lkotlin/h$a;->b:Lkotlin/h;
+    iput-object p2, p0, Lcotlin/h$a;->b:Lcotlin/h;
 
-    iput-object p3, p0, Lkotlin/h$a;->c:Lkotlin/jvm/u/q;
+    iput-object p3, p0, Lcotlin/h$a;->c:Lcotlin/jvm/u/q;
 
-    iput-object p4, p0, Lkotlin/h$a;->d:Lkotlin/coroutines/c;
+    iput-object p4, p0, Lcotlin/h$a;->d:Lcotlin/coroutines/c;
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -92,13 +92,13 @@
 
 
 # virtual methods
-.method public getContext()Lkotlin/coroutines/CoroutineContext;
+.method public getContext()Lcotlin/coroutines/CoroutineContext;
     .locals 1
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/h$a;->a:Lkotlin/coroutines/CoroutineContext;
+    iget-object v0, p0, Lcotlin/h$a;->a:Lcotlin/coroutines/CoroutineContext;
 
     return-object v0
 .end method
@@ -111,23 +111,23 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lkotlin/h$a;->b:Lkotlin/h;
+    iget-object v0, p0, Lcotlin/h$a;->b:Lcotlin/h;
 
-    iget-object v1, p0, Lkotlin/h$a;->c:Lkotlin/jvm/u/q;
+    iget-object v1, p0, Lcotlin/h$a;->c:Lcotlin/jvm/u/q;
 
-    invoke-static {v0, v1}, Lkotlin/h;->k(Lkotlin/h;Lkotlin/jvm/u/q;)V
+    invoke-static {v0, v1}, Lcotlin/h;->k(Lcotlin/h;Lcotlin/jvm/u/q;)V
 
     .line 2
-    iget-object v0, p0, Lkotlin/h$a;->b:Lkotlin/h;
+    iget-object v0, p0, Lcotlin/h$a;->b:Lcotlin/h;
 
-    iget-object v1, p0, Lkotlin/h$a;->d:Lkotlin/coroutines/c;
+    iget-object v1, p0, Lcotlin/h$a;->d:Lcotlin/coroutines/c;
 
-    invoke-static {v0, v1}, Lkotlin/h;->j(Lkotlin/h;Lkotlin/coroutines/c;)V
+    invoke-static {v0, v1}, Lcotlin/h;->j(Lcotlin/h;Lcotlin/coroutines/c;)V
 
     .line 3
-    iget-object v0, p0, Lkotlin/h$a;->b:Lkotlin/h;
+    iget-object v0, p0, Lcotlin/h$a;->b:Lcotlin/h;
 
-    invoke-static {v0, p1}, Lkotlin/h;->l(Lkotlin/h;Ljava/lang/Object;)V
+    invoke-static {v0, p1}, Lcotlin/h;->l(Lcotlin/h;Ljava/lang/Object;)V
 
     return-void
 .end method

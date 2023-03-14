@@ -1,16 +1,16 @@
-.class public Lkotlin/g2/l;
+.class public Lcotlin/g2/l;
 .super Ljava/lang/Object;
 .source "Progressions.kt"
 
 # interfaces
 .implements Ljava/lang/Iterable;
-.implements Lkotlin/jvm/internal/x0/a;
+.implements Lcotlin/jvm/internal/x0/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkotlin/g2/l$a;
+        Lcotlin/g2/l$a;
     }
 .end annotation
 
@@ -20,11 +20,11 @@
         "Ljava/lang/Iterable<",
         "Ljava/lang/Long;",
         ">;",
-        "Lkotlin/jvm/internal/x0/a;"
+        "Lcotlin/jvm/internal/x0/a;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,12 +34,12 @@
         "\u00004\n\u0002\u0018\u0002\n\u0002\u0010\u001c\n\u0002\u0010\t\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0012\u0008\u0016\u0018\u0000 !2\u0008\u0012\u0004\u0012\u00020\u00020\u0001:\u0001\u0018B!\u0008\u0000\u0012\u0006\u0010\u001d\u001a\u00020\u0002\u0012\u0006\u0010\u001e\u001a\u00020\u0002\u0012\u0006\u0010\u001c\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u001f\u0010 J\u0010\u0010\u0004\u001a\u00020\u0003H\u0096\u0002\u00a2\u0006\u0004\u0008\u0004\u0010\u0005J\u000f\u0010\u0007\u001a\u00020\u0006H\u0016\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u001a\u0010\u000b\u001a\u00020\u00062\u0008\u0010\n\u001a\u0004\u0018\u00010\tH\u0096\u0002\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u000f\u0010\u000e\u001a\u00020\rH\u0016\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ\u000f\u0010\u0011\u001a\u00020\u0010H\u0016\u00a2\u0006\u0004\u0008\u0011\u0010\u0012R\u0019\u0010\u0017\u001a\u00020\u00028\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0013\u0010\u0014\u001a\u0004\u0008\u0015\u0010\u0016R\u0019\u0010\u001a\u001a\u00020\u00028\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0018\u0010\u0014\u001a\u0004\u0008\u0019\u0010\u0016R\u0019\u0010\u001c\u001a\u00020\u00028\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0019\u0010\u0014\u001a\u0004\u0008\u001b\u0010\u0016\u00a8\u0006\""
     }
     d2 = {
-        "Lkotlin/g2/l;",
+        "Lcotlin/g2/l;",
         "",
         "",
-        "Lkotlin/collections/m0;",
+        "Lcotlin/collections/m0;",
         "i",
-        "()Lkotlin/collections/m0;",
+        "()Lcotlin/collections/m0;",
         "",
         "isEmpty",
         "()Z",
@@ -80,7 +80,7 @@
 
 
 # static fields
-.field public static final d:Lkotlin/g2/l$a;
+.field public static final d:Lcotlin/g2/l$a;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -98,13 +98,13 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    new-instance v0, Lkotlin/g2/l$a;
+    new-instance v0, Lcotlin/g2/l$a;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkotlin/g2/l$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcotlin/g2/l$a;-><init>(Lcotlin/jvm/internal/u;)V
 
-    sput-object v0, Lkotlin/g2/l;->d:Lkotlin/g2/l$a;
+    sput-object v0, Lcotlin/g2/l;->d:Lcotlin/g2/l$a;
 
     return-void
 .end method
@@ -128,17 +128,17 @@
     if-eqz v2, :cond_0
 
     .line 2
-    iput-wide p1, p0, Lkotlin/g2/l;->a:J
+    iput-wide p1, p0, Lcotlin/g2/l;->a:J
 
     .line 3
-    invoke-static/range {p1 .. p6}, Lkotlin/internal/m;->d(JJJ)J
+    invoke-static/range {p1 .. p6}, Lcotlin/internal/m;->d(JJJ)J
 
     move-result-wide p1
 
-    iput-wide p1, p0, Lkotlin/g2/l;->b:J
+    iput-wide p1, p0, Lcotlin/g2/l;->b:J
 
     .line 4
-    iput-wide p5, p0, Lkotlin/g2/l;->c:J
+    iput-wide p5, p0, Lcotlin/g2/l;->c:J
 
     return-void
 
@@ -169,7 +169,7 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Lkotlin/g2/l;->a:J
+    iget-wide v0, p0, Lcotlin/g2/l;->a:J
 
     return-wide v0
 .end method
@@ -178,7 +178,7 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Lkotlin/g2/l;->b:J
+    iget-wide v0, p0, Lcotlin/g2/l;->b:J
 
     return-wide v0
 .end method
@@ -191,11 +191,11 @@
     .end param
 
     .line 1
-    instance-of v0, p1, Lkotlin/g2/l;
+    instance-of v0, p1, Lcotlin/g2/l;
 
     if-eqz v0, :cond_2
 
-    invoke-virtual {p0}, Lkotlin/g2/l;->isEmpty()Z
+    invoke-virtual {p0}, Lcotlin/g2/l;->isEmpty()Z
 
     move-result v0
 
@@ -203,36 +203,36 @@
 
     move-object v0, p1
 
-    check-cast v0, Lkotlin/g2/l;
+    check-cast v0, Lcotlin/g2/l;
 
-    invoke-virtual {v0}, Lkotlin/g2/l;->isEmpty()Z
+    invoke-virtual {v0}, Lcotlin/g2/l;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
     :cond_0
-    iget-wide v0, p0, Lkotlin/g2/l;->a:J
+    iget-wide v0, p0, Lcotlin/g2/l;->a:J
 
-    check-cast p1, Lkotlin/g2/l;
+    check-cast p1, Lcotlin/g2/l;
 
-    iget-wide v2, p1, Lkotlin/g2/l;->a:J
-
-    cmp-long v4, v0, v2
-
-    if-nez v4, :cond_2
-
-    iget-wide v0, p0, Lkotlin/g2/l;->b:J
-
-    iget-wide v2, p1, Lkotlin/g2/l;->b:J
+    iget-wide v2, p1, Lcotlin/g2/l;->a:J
 
     cmp-long v4, v0, v2
 
     if-nez v4, :cond_2
 
-    iget-wide v0, p0, Lkotlin/g2/l;->c:J
+    iget-wide v0, p0, Lcotlin/g2/l;->b:J
 
-    iget-wide v2, p1, Lkotlin/g2/l;->c:J
+    iget-wide v2, p1, Lcotlin/g2/l;->b:J
+
+    cmp-long v4, v0, v2
+
+    if-nez v4, :cond_2
+
+    iget-wide v0, p0, Lcotlin/g2/l;->c:J
+
+    iget-wide v2, p1, Lcotlin/g2/l;->c:J
 
     cmp-long p1, v0, v2
 
@@ -254,7 +254,7 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Lkotlin/g2/l;->c:J
+    iget-wide v0, p0, Lcotlin/g2/l;->c:J
 
     return-wide v0
 .end method
@@ -263,7 +263,7 @@
     .locals 9
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/g2/l;->isEmpty()Z
+    invoke-virtual {p0}, Lcotlin/g2/l;->isEmpty()Z
 
     move-result v0
 
@@ -278,7 +278,7 @@
 
     int-to-long v0, v0
 
-    iget-wide v2, p0, Lkotlin/g2/l;->a:J
+    iget-wide v2, p0, Lcotlin/g2/l;->a:J
 
     const/16 v4, 0x20
 
@@ -288,7 +288,7 @@
 
     mul-long v2, v2, v0
 
-    iget-wide v5, p0, Lkotlin/g2/l;->b:J
+    iget-wide v5, p0, Lcotlin/g2/l;->b:J
 
     ushr-long v7, v5, v4
 
@@ -298,7 +298,7 @@
 
     mul-long v0, v0, v2
 
-    iget-wide v2, p0, Lkotlin/g2/l;->c:J
+    iget-wide v2, p0, Lcotlin/g2/l;->c:J
 
     ushr-long v4, v2, v4
 
@@ -312,23 +312,23 @@
     return v0
 .end method
 
-.method public i()Lkotlin/collections/m0;
+.method public i()Lcotlin/collections/m0;
     .locals 8
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    new-instance v7, Lkotlin/g2/m;
+    new-instance v7, Lcotlin/g2/m;
 
-    iget-wide v1, p0, Lkotlin/g2/l;->a:J
+    iget-wide v1, p0, Lcotlin/g2/l;->a:J
 
-    iget-wide v3, p0, Lkotlin/g2/l;->b:J
+    iget-wide v3, p0, Lcotlin/g2/l;->b:J
 
-    iget-wide v5, p0, Lkotlin/g2/l;->c:J
+    iget-wide v5, p0, Lcotlin/g2/l;->c:J
 
     move-object v0, v7
 
-    invoke-direct/range {v0 .. v6}, Lkotlin/g2/m;-><init>(JJJ)V
+    invoke-direct/range {v0 .. v6}, Lcotlin/g2/m;-><init>(JJJ)V
 
     return-object v7
 .end method
@@ -337,7 +337,7 @@
     .locals 7
 
     .line 1
-    iget-wide v0, p0, Lkotlin/g2/l;->c:J
+    iget-wide v0, p0, Lcotlin/g2/l;->c:J
 
     const/4 v2, 0x1
 
@@ -347,9 +347,9 @@
 
     cmp-long v6, v0, v4
 
-    iget-wide v0, p0, Lkotlin/g2/l;->a:J
+    iget-wide v0, p0, Lcotlin/g2/l;->a:J
 
-    iget-wide v4, p0, Lkotlin/g2/l;->b:J
+    iget-wide v4, p0, Lcotlin/g2/l;->b:J
 
     if-lez v6, :cond_0
 
@@ -377,7 +377,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/g2/l;->i()Lkotlin/collections/m0;
+    invoke-virtual {p0}, Lcotlin/g2/l;->i()Lcotlin/collections/m0;
 
     move-result-object v0
 
@@ -390,7 +390,7 @@
     .end annotation
 
     .line 1
-    iget-wide v0, p0, Lkotlin/g2/l;->c:J
+    iget-wide v0, p0, Lcotlin/g2/l;->c:J
 
     const-string v2, " step "
 
@@ -404,7 +404,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-wide v3, p0, Lkotlin/g2/l;->a:J
+    iget-wide v3, p0, Lcotlin/g2/l;->a:J
 
     invoke-virtual {v0, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -412,20 +412,20 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-wide v3, p0, Lkotlin/g2/l;->b:J
+    iget-wide v3, p0, Lcotlin/g2/l;->b:J
 
     invoke-virtual {v0, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-wide v1, p0, Lkotlin/g2/l;->c:J
+    iget-wide v1, p0, Lcotlin/g2/l;->c:J
 
     goto :goto_0
 
     :cond_0
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-wide v3, p0, Lkotlin/g2/l;->a:J
+    iget-wide v3, p0, Lcotlin/g2/l;->a:J
 
     invoke-virtual {v0, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -433,13 +433,13 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-wide v3, p0, Lkotlin/g2/l;->b:J
+    iget-wide v3, p0, Lcotlin/g2/l;->b:J
 
     invoke-virtual {v0, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-wide v1, p0, Lkotlin/g2/l;->c:J
+    iget-wide v1, p0, Lcotlin/g2/l;->c:J
 
     neg-long v1, v1
 

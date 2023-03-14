@@ -8,7 +8,7 @@
     value = "SMAP\nBpCameraPermissionCase.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpCameraPermissionCase.kt\ncom/commsource/camera/xcamera/BpCameraPermissionCase\n+ 2 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,136:1\n37#2,2:137\n*E\n*S KotlinDebug\n*F\n+ 1 BpCameraPermissionCase.kt\ncom/commsource/camera/xcamera/BpCameraPermissionCase\n*L\n52#1,2:137\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/camera/xcamera/f;",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
         "()V",
         "",
@@ -88,7 +88,7 @@
 
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -167,11 +167,11 @@
 
     const-string v0, "permissions"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "grantResults"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
@@ -228,7 +228,7 @@
     .line 4
     aget-object v7, p2, v2
 
-    invoke-static {v10, v7}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v10, v7}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v7
 
@@ -284,7 +284,7 @@
     :cond_2
     aget-object v7, p2, v2
 
-    invoke-static {v9, v7}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v9, v7}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v7
 
@@ -340,7 +340,7 @@
     :cond_4
     aget-object v6, p2, v2
 
-    invoke-static {v10, v6}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v10, v6}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v6
 
@@ -358,7 +358,7 @@
     :cond_5
     aget-object v6, p2, v2
 
-    invoke-static {v9, v6}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v9, v6}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v6
 
@@ -377,7 +377,7 @@
 
     const-string v7, "android.permission.RECORD_AUDIO"
 
-    invoke-static {v7, v6}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v7, v6}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v6
 
@@ -406,7 +406,7 @@
     :cond_7
     aget-object v6, p2, v2
 
-    invoke-static {v10, v6}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v10, v6}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v6
 
@@ -433,7 +433,7 @@
     :cond_8
     aget-object v6, p2, v2
 
-    invoke-static {v9, v6}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v9, v6}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v6
 
@@ -768,7 +768,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/f;->a:Landroidx/lifecycle/MutableLiveData;

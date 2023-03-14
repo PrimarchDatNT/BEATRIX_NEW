@@ -1,11 +1,11 @@
-.class final Lkotlinx/coroutines/c$b;
-.super Lkotlinx/coroutines/k;
+.class final Lcotlinx/coroutines/c$b;
+.super Lcotlinx/coroutines/k;
 .source "Await.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/c;
+    value = Lcotlinx/coroutines/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,7 +17,7 @@
     value = "SMAP\nAwait.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Await.kt\nkotlinx/coroutines/AwaitAll$DisposeHandlersOnCancel\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,117:1\n11416#2,2:118\n*E\n*S KotlinDebug\n*F\n+ 1 Await.kt\nkotlinx/coroutines/AwaitAll$DisposeHandlersOnCancel\n*L\n86#1,2:118\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,8 +28,8 @@
     }
     d2 = {
         "kotlinx/coroutines/c$b",
-        "Lkotlinx/coroutines/k;",
-        "Lkotlin/t1;",
+        "Lcotlinx/coroutines/k;",
+        "Lcotlin/t1;",
         "b",
         "()V",
         "",
@@ -40,12 +40,12 @@
         "toString",
         "()Ljava/lang/String;",
         "",
-        "Lkotlinx/coroutines/c$a;",
-        "Lkotlinx/coroutines/c;",
-        "[Lkotlinx/coroutines/AwaitAll$AwaitAllNode;",
+        "Lcotlinx/coroutines/c$a;",
+        "Lcotlinx/coroutines/c;",
+        "[Lcotlinx/coroutines/AwaitAll$AwaitAllNode;",
         "nodes",
         "<init>",
-        "(Lkotlinx/coroutines/c;[Lkotlinx/coroutines/AwaitAll$AwaitAllNode;)V",
+        "(Lcotlinx/coroutines/c;[Lcotlinx/coroutines/AwaitAll$AwaitAllNode;)V",
         "kotlinx-coroutines-core"
     }
     k = 0x1
@@ -58,40 +58,40 @@
 
 
 # instance fields
-.field private final a:[Lkotlinx/coroutines/c$a;
+.field private final a:[Lcotlinx/coroutines/c$a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "[",
-            "Lkotlinx/coroutines/c<",
+            "Lcotlinx/coroutines/c<",
             "TT;>.a;"
         }
     .end annotation
 .end field
 
-.field final synthetic b:Lkotlinx/coroutines/c;
+.field final synthetic b:Lcotlinx/coroutines/c;
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/c;[Lkotlinx/coroutines/c$a;)V
+.method public constructor <init>(Lcotlinx/coroutines/c;[Lcotlinx/coroutines/c$a;)V
     .locals 0
-    .param p1    # Lkotlinx/coroutines/c;
+    .param p1    # Lcotlinx/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "([",
-            "Lkotlinx/coroutines/c<",
+            "Lcotlinx/coroutines/c<",
             "TT;>.a;)V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lkotlinx/coroutines/c$b;->b:Lkotlinx/coroutines/c;
+    iput-object p1, p0, Lcotlinx/coroutines/c$b;->b:Lcotlinx/coroutines/c;
 
-    invoke-direct {p0}, Lkotlinx/coroutines/k;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/k;-><init>()V
 
-    iput-object p2, p0, Lkotlinx/coroutines/c$b;->a:[Lkotlinx/coroutines/c$a;
+    iput-object p2, p0, Lcotlinx/coroutines/c$b;->a:[Lcotlinx/coroutines/c$a;
 
     return-void
 .end method
@@ -106,7 +106,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Lkotlinx/coroutines/c$b;->b()V
+    invoke-virtual {p0}, Lcotlinx/coroutines/c$b;->b()V
 
     return-void
 .end method
@@ -115,7 +115,7 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/c$b;->a:[Lkotlinx/coroutines/c$a;
+    iget-object v0, p0, Lcotlinx/coroutines/c$b;->a:[Lcotlinx/coroutines/c$a;
 
     .line 2
     array-length v1, v0
@@ -128,11 +128,11 @@
     aget-object v3, v0, v2
 
     .line 3
-    invoke-virtual {v3}, Lkotlinx/coroutines/c$a;->h0()Lkotlinx/coroutines/f1;
+    invoke-virtual {v3}, Lcotlinx/coroutines/c$a;->h0()Lcotlinx/coroutines/f1;
 
     move-result-object v3
 
-    invoke-interface {v3}, Lkotlinx/coroutines/f1;->dispose()V
+    invoke-interface {v3}, Lcotlinx/coroutines/f1;->dispose()V
 
     add-int/lit8 v2, v2, 0x1
 
@@ -148,9 +148,9 @@
     .line 1
     check-cast p1, Ljava/lang/Throwable;
 
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/c$b;->a(Ljava/lang/Throwable;)V
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/c$b;->a(Ljava/lang/Throwable;)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method
@@ -169,7 +169,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lkotlinx/coroutines/c$b;->a:[Lkotlinx/coroutines/c$a;
+    iget-object v1, p0, Lcotlinx/coroutines/c$b;->a:[Lcotlinx/coroutines/c$a;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 

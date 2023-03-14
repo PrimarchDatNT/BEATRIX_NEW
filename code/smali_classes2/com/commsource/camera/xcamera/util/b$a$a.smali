@@ -25,7 +25,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "Lf/k/k/p;",
         "Lcom/commsource/camera/xcamera/bean/b;",
         "t",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "(Lcom/commsource/camera/xcamera/bean/b;)V",
         "",
@@ -114,11 +114,11 @@
     .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/util/b$a$a;->a:Lcom/commsource/camera/xcamera/util/b$a;
 
-    iget-object p1, p1, Lcom/commsource/camera/xcamera/util/b$a;->a:Lkotlin/jvm/u/l;
+    iget-object p1, p1, Lcom/commsource/camera/xcamera/util/b$a;->a:Lcotlin/jvm/u/l;
 
     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -147,11 +147,11 @@
     .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/util/b$a$a;->a:Lcom/commsource/camera/xcamera/util/b$a;
 
-    iget-object p1, p1, Lcom/commsource/camera/xcamera/util/b$a;->a:Lkotlin/jvm/u/l;
+    iget-object p1, p1, Lcom/commsource/camera/xcamera/util/b$a;->a:Lcotlin/jvm/u/l;
 
     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
@@ -167,11 +167,11 @@
     .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/util/b$a$a;->a:Lcom/commsource/camera/xcamera/util/b$a;
 
-    iget-object p1, p1, Lcom/commsource/camera/xcamera/util/b$a;->a:Lkotlin/jvm/u/l;
+    iget-object p1, p1, Lcom/commsource/camera/xcamera/util/b$a;->a:Lcotlin/jvm/u/l;
 
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     :goto_0

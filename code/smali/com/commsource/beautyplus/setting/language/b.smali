@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,14 +41,14 @@
         "dataEvent",
         "Ljava/util/HashMap;",
         "Landroid/content/res/Resources;",
-        "Lkotlin/collections/HashMap;",
+        "Lcotlin/collections/HashMap;",
         "b",
         "Ljava/util/HashMap;",
         "A",
         "()Ljava/util/HashMap;",
         "languageMap",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "a",
         "Ljava/util/ArrayList;",
         "B",
@@ -127,7 +127,7 @@
 
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
@@ -313,7 +313,7 @@
 
     const-string v2, "Locale.SIMPLIFIED_CHINESE"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v2, Lcom/res/provider/ResSTRING;->t_language_zh:I
 
@@ -330,7 +330,7 @@
 
     const-string v2, "Locale.TRADITIONAL_CHINESE"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v2, Lcom/res/provider/ResSTRING;->t_language_tw:I
 
@@ -341,7 +341,7 @@
     aput-object v0, p1, v1
 
     .line 14
-    invoke-static {p1}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {p1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object p1
 
@@ -452,7 +452,7 @@
 
     const-string v1, "locale"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/language/b;->b:Ljava/util/HashMap;

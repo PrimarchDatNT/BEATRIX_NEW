@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/commsource/camera/beauty/h;->i(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+    value = Lcom/commsource/camera/beauty/h;->i(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

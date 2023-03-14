@@ -20,7 +20,7 @@
     value = "SMAP\nDoodleManagerViewHolder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DoodleManagerViewHolder.kt\ncom/commsource/studio/doodle/manager/DoodleManagerViewHolder$2\n*L\n1#1,74:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "Landroid/view/View;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onClick",
         "(Landroid/view/View;)V",
         "<anonymous>"
@@ -80,7 +80,7 @@
 
     const-string v1, "item"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -104,7 +104,7 @@
 
     move-result-object v4
 
-    invoke-static {v4, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v4}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -142,7 +142,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -164,7 +164,7 @@
 
     move-result-object v6
 
-    invoke-static {v6, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v6}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -206,7 +206,7 @@
 
     move-result-object v6
 
-    invoke-static {v6, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v6}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -254,7 +254,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -295,7 +295,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 

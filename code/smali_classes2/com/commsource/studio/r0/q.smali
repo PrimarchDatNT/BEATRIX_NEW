@@ -8,7 +8,7 @@
     value = "SMAP\nHeadScaleRenderProxy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HeadScaleRenderProxy.kt\ncom/commsource/studio/render/HeadScaleRenderProxy\n*L\n1#1,63:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "Lcom/commsource/camera/newrender/renderproxy/n;",
         "Lcom/commsource/camera/d1/g/j;",
         "faceDataBox",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "w",
         "(Lcom/commsource/camera/d1/g/j;)V",
         "i",

@@ -1,14 +1,14 @@
 .class final Lkshark/HeapObject$HeapInstance$readFields$1$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "HeapObject.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkshark/HeapObject$HeapInstance$readFields$1;->invoke(Lkshark/HeapObject$HeapClass;)Lkotlin/sequences/m;
+    value = Lkshark/HeapObject$HeapInstance$readFields$1;->invoke(Lkshark/HeapObject$HeapClass;)Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,8 +18,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Lkshark/m$b$c$a$a;",
         "Lkshark/h;",
         ">;"
@@ -30,7 +30,7 @@
     value = "SMAP\nHeapObject.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HeapObject.kt\nkshark/HeapObject$HeapInstance$readFields$1$1\n*L\n1#1,610:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -72,7 +72,7 @@
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -103,7 +103,7 @@
 
     const-string v0, "fieldRecord"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object v0, p0, Lkshark/HeapObject$HeapInstance$readFields$1$1;->this$0:Lkshark/HeapObject$HeapInstance$readFields$1;
@@ -127,11 +127,11 @@
     .line 3
     iget-object v1, p0, Lkshark/HeapObject$HeapInstance$readFields$1$1;->this$0:Lkshark/HeapObject$HeapInstance$readFields$1;
 
-    iget-object v2, v1, Lkshark/HeapObject$HeapInstance$readFields$1;->$fieldReader:Lkotlin/w;
+    iget-object v2, v1, Lkshark/HeapObject$HeapInstance$readFields$1;->$fieldReader:Lcotlin/w;
 
-    iget-object v1, v1, Lkshark/HeapObject$HeapInstance$readFields$1;->$fieldReader$metadata:Lkotlin/reflect/n;
+    iget-object v1, v1, Lkshark/HeapObject$HeapInstance$readFields$1;->$fieldReader$metadata:Lcotlin/reflect/n;
 
-    invoke-interface {v2}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v2}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 

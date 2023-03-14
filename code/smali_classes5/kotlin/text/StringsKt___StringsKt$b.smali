@@ -1,14 +1,14 @@
-.class public final Lkotlin/text/StringsKt___StringsKt$b;
+.class public final Lcotlin/text/StringsKt___StringsKt$b;
 .super Ljava/lang/Object;
 .source "Sequences.kt"
 
 # interfaces
-.implements Lkotlin/sequences/m;
+.implements Lcotlin/sequences/m;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/text/StringsKt___StringsKt;->V5(Ljava/lang/CharSequence;)Lkotlin/sequences/m;
+    value = Lcotlin/text/StringsKt___StringsKt;->V5(Ljava/lang/CharSequence;)Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/sequences/m<",
+        "Lcotlin/sequences/m<",
         "Ljava/lang/Character;",
         ">;"
     }
@@ -29,7 +29,7 @@
     value = "SMAP\nSequences.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Sequences.kt\nkotlin/sequences/SequencesKt__SequencesKt$Sequence$1\n+ 2 _Strings.kt\nkotlin/text/StringsKt___StringsKt\n*L\n1#1,680:1\n2368#2:681\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,7 +40,7 @@
     }
     d2 = {
         "kotlin/text/StringsKt___StringsKt$b",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "",
         "iterator",
         "()Ljava/util/Iterator;",
@@ -64,7 +64,7 @@
 .method public constructor <init>(Ljava/lang/CharSequence;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/text/StringsKt___StringsKt$b;->a:Ljava/lang/CharSequence;
+    iput-object p1, p0, Lcotlin/text/StringsKt___StringsKt$b;->a:Ljava/lang/CharSequence;
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -89,9 +89,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/StringsKt___StringsKt$b;->a:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lcotlin/text/StringsKt___StringsKt$b;->a:Ljava/lang/CharSequence;
 
-    invoke-static {v0}, Lkotlin/text/StringsKt__StringsKt;->x3(Ljava/lang/CharSequence;)Lkotlin/collections/r;
+    invoke-static {v0}, Lcotlin/text/StringsKt__StringsKt;->x3(Ljava/lang/CharSequence;)Lcotlin/collections/r;
 
     move-result-object v0
 

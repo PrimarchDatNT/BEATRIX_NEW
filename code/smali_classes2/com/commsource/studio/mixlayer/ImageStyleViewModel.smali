@@ -14,7 +14,7 @@
     value = "SMAP\nImageStyleViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ImageStyleViewModel.kt\ncom/commsource/studio/mixlayer/ImageStyleViewModel\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,829:1\n1819#2,2:830\n1819#2,2:832\n1819#2,2:834\n1819#2,2:836\n1819#2,2:838\n1819#2,2:840\n1828#2,3:842\n1828#2,3:845\n1819#2,2:848\n1819#2,2:850\n1828#2,3:852\n*E\n*S KotlinDebug\n*F\n+ 1 ImageStyleViewModel.kt\ncom/commsource/studio/mixlayer/ImageStyleViewModel\n*L\n136#1,2:830\n159#1,2:832\n195#1,2:834\n264#1,2:836\n288#1,2:838\n346#1,2:840\n372#1,3:842\n405#1,3:845\n433#1,2:848\n486#1,2:850\n736#1,3:852\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "fragmentType",
         "Lcom/commsource/studio/bean/ImageLayerInfo;",
         "info",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "G",
         "(ILcom/commsource/studio/bean/ImageLayerInfo;)V",
         "key",
@@ -119,7 +119,7 @@
         "hideColorPickerEvent",
         "Lcom/commsource/beautyfilter/NoStickLiveData;",
         "d",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "V",
         "()Lcom/commsource/beautyfilter/NoStickLiveData;",
         "pickColorStateEvent",
@@ -146,7 +146,7 @@
         "N",
         "()[F",
         "bubbleParam",
-        "Lkotlin/Pair;",
+        "Lcotlin/Pair;",
         "p",
         "applyColorEvent",
         "K",
@@ -235,22 +235,22 @@
 
 
 # instance fields
-.field private final J:Lkotlin/w;
+.field private final J:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final K:Lkotlin/w;
+.field private final K:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final L:Lkotlin/w;
+.field private final L:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final M:Lkotlin/w;
+.field private final M:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -260,7 +260,7 @@
     .end annotation
 .end field
 
-.field private final O:Lkotlin/w;
+.field private final O:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -307,22 +307,22 @@
 
 .field private final Y:[F
 
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final f:Lkotlin/w;
+.field private final f:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final g:Lkotlin/w;
+.field private final g:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final p:Lkotlin/w;
+.field private final p:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -340,7 +340,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->o0:Lcom/commsource/studio/mixlayer/ImageStyleViewModel$a;
 
@@ -706,7 +706,7 @@
     aput-object v5, v1, v18
 
     .line 10
-    invoke-static {v1}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v1
 
@@ -801,7 +801,7 @@
 
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/f;-><init>(Landroid/app/Application;)V
@@ -809,74 +809,74 @@
     .line 2
     sget-object p1, Lcom/commsource/studio/mixlayer/ImageStyleViewModel$pickColorStateEvent$2;->INSTANCE:Lcom/commsource/studio/mixlayer/ImageStyleViewModel$pickColorStateEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->d:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->d:Lcotlin/w;
 
     .line 3
     sget-object p1, Lcom/commsource/studio/mixlayer/ImageStyleViewModel$pickColorChangeEvent$2;->INSTANCE:Lcom/commsource/studio/mixlayer/ImageStyleViewModel$pickColorChangeEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->f:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->f:Lcotlin/w;
 
     .line 4
     sget-object p1, Lcom/commsource/studio/mixlayer/ImageStyleViewModel$pickConfirmColorEvent$2;->INSTANCE:Lcom/commsource/studio/mixlayer/ImageStyleViewModel$pickConfirmColorEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->g:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->g:Lcotlin/w;
 
     .line 5
     sget-object p1, Lcom/commsource/studio/mixlayer/ImageStyleViewModel$applyColorEvent$2;->INSTANCE:Lcom/commsource/studio/mixlayer/ImageStyleViewModel$applyColorEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->p:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->p:Lcotlin/w;
 
     .line 6
     sget-object p1, Lcom/commsource/studio/mixlayer/ImageStyleViewModel$enableShadow$2;->INSTANCE:Lcom/commsource/studio/mixlayer/ImageStyleViewModel$enableShadow$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->J:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->J:Lcotlin/w;
 
     .line 7
     sget-object p1, Lcom/commsource/studio/mixlayer/ImageStyleViewModel$disableFuncEvent$2;->INSTANCE:Lcom/commsource/studio/mixlayer/ImageStyleViewModel$disableFuncEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->K:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->K:Lcotlin/w;
 
     .line 8
     sget-object p1, Lcom/commsource/studio/mixlayer/ImageStyleViewModel$shadowChangeEffect$2;->INSTANCE:Lcom/commsource/studio/mixlayer/ImageStyleViewModel$shadowChangeEffect$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->L:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->L:Lcotlin/w;
 
     .line 9
     sget-object p1, Lcom/commsource/studio/mixlayer/ImageStyleViewModel$synShadowPosEvent$2;->INSTANCE:Lcom/commsource/studio/mixlayer/ImageStyleViewModel$synShadowPosEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->M:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->M:Lcotlin/w;
 
     const/4 p1, 0x3
 
@@ -888,11 +888,11 @@
     .line 11
     sget-object v0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel$bubblePosEvent$2;->INSTANCE:Lcom/commsource/studio/mixlayer/ImageStyleViewModel$bubblePosEvent$2;
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->O:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->O:Lcotlin/w;
 
     .line 12
     new-instance v0, Landroidx/lifecycle/MutableLiveData;
@@ -1686,7 +1686,7 @@
     move-object v1, p2
 
     .line 1
-    invoke-static/range {v1 .. v6}, Lkotlin/collections/k;->t2([FFIIILjava/lang/Object;)V
+    invoke-static/range {v1 .. v6}, Lcotlin/collections/k;->t2([FFIIILjava/lang/Object;)V
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1848,13 +1848,13 @@
 
     if-gez v2, :cond_1
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_1
-    check-cast v4, Lkotlin/Pair;
+    check-cast v4, Lcotlin/Pair;
 
     .line 6
-    invoke-virtual {v4}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v4}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -1863,7 +1863,7 @@
     if-eqz v2, :cond_3
 
     .line 7
-    invoke-virtual {v4}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v4}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -1887,11 +1887,11 @@
 
     .line 10
     :cond_2
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type com.commsource.studio.bean.ImageLayerInfo"
 
-    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2245,7 +2245,7 @@
 
     move-result-object p1
 
-    invoke-static {p3}, Lkotlin/collections/k;->Pd([I)I
+    invoke-static {p3}, Lcotlin/collections/k;->Pd([I)I
 
     move-result v3
 
@@ -2262,7 +2262,7 @@
 
     move-result-object p2
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p2, Ljava/lang/Integer;
 
@@ -2281,7 +2281,7 @@
 
     move-result-object p1
 
-    invoke-static {p3}, Lkotlin/collections/k;->Pd([I)I
+    invoke-static {p3}, Lcotlin/collections/k;->Pd([I)I
 
     move-result v3
 
@@ -2298,7 +2298,7 @@
 
     move-result-object p2
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p2, Ljava/lang/Integer;
 
@@ -2317,7 +2317,7 @@
 
     move-result-object p1
 
-    invoke-static {p3}, Lkotlin/collections/k;->Pd([I)I
+    invoke-static {p3}, Lcotlin/collections/k;->Pd([I)I
 
     move-result v3
 
@@ -2334,7 +2334,7 @@
 
     move-result-object p2
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p2, Ljava/lang/Integer;
 
@@ -2353,7 +2353,7 @@
 
     move-result-object v1
 
-    invoke-static {p3, v2}, Lkotlin/collections/k;->ie([II)Ljava/lang/Integer;
+    invoke-static {p3, v2}, Lcotlin/collections/k;->ie([II)Ljava/lang/Integer;
 
     move-result-object p3
 
@@ -2389,13 +2389,13 @@
 
     move-result-object p3
 
-    new-instance v1, Lkotlin/Pair;
+    new-instance v1, Lcotlin/Pair;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
 
-    invoke-direct {v1, p1, p2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v1, p1, p2}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {p3, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
@@ -2407,7 +2407,7 @@
 
     move-result-object p1
 
-    invoke-static {p3, v2}, Lkotlin/collections/k;->ie([II)Ljava/lang/Integer;
+    invoke-static {p3, v2}, Lcotlin/collections/k;->ie([II)Ljava/lang/Integer;
 
     move-result-object p3
 
@@ -2437,7 +2437,7 @@
 
     move-result-object v1
 
-    invoke-static {p3, v2}, Lkotlin/collections/k;->ie([II)Ljava/lang/Integer;
+    invoke-static {p3, v2}, Lcotlin/collections/k;->ie([II)Ljava/lang/Integer;
 
     move-result-object p3
 
@@ -2488,13 +2488,13 @@
 
     move-result-object p3
 
-    new-instance v1, Lkotlin/Pair;
+    new-instance v1, Lcotlin/Pair;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
 
-    invoke-direct {v1, p1, p2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v1, p1, p2}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {p3, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
@@ -2506,7 +2506,7 @@
 
     move-result-object v1
 
-    invoke-static {p3, v2}, Lkotlin/collections/k;->ie([II)Ljava/lang/Integer;
+    invoke-static {p3, v2}, Lcotlin/collections/k;->ie([II)Ljava/lang/Integer;
 
     move-result-object p3
 
@@ -2542,13 +2542,13 @@
 
     move-result-object p3
 
-    new-instance v1, Lkotlin/Pair;
+    new-instance v1, Lcotlin/Pair;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
 
-    invoke-direct {v1, p1, p2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v1, p1, p2}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {p3, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
@@ -2560,7 +2560,7 @@
 
     move-result-object p1
 
-    invoke-static {p3}, Lkotlin/collections/k;->Pd([I)I
+    invoke-static {p3}, Lcotlin/collections/k;->Pd([I)I
 
     move-result v3
 
@@ -2577,7 +2577,7 @@
 
     move-result-object p2
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p2, Ljava/lang/Integer;
 
@@ -2596,7 +2596,7 @@
 
     move-result-object p1
 
-    invoke-static {p3}, Lkotlin/collections/k;->Pd([I)I
+    invoke-static {p3}, Lcotlin/collections/k;->Pd([I)I
 
     move-result v3
 
@@ -2613,7 +2613,7 @@
 
     move-result-object p2
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p2, Ljava/lang/Integer;
 
@@ -2632,7 +2632,7 @@
 
     move-result-object p1
 
-    invoke-static {p3}, Lkotlin/collections/k;->Pd([I)I
+    invoke-static {p3}, Lcotlin/collections/k;->Pd([I)I
 
     move-result v3
 
@@ -2649,7 +2649,7 @@
 
     move-result-object p2
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p2, Ljava/lang/Integer;
 
@@ -2668,7 +2668,7 @@
 
     move-result-object p1
 
-    invoke-static {p3}, Lkotlin/collections/k;->Pd([I)I
+    invoke-static {p3}, Lcotlin/collections/k;->Pd([I)I
 
     move-result v3
 
@@ -2685,7 +2685,7 @@
 
     move-result-object p2
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p2, Ljava/lang/Integer;
 
@@ -2704,7 +2704,7 @@
 
     move-result-object p1
 
-    invoke-static {p3}, Lkotlin/collections/k;->Pd([I)I
+    invoke-static {p3}, Lcotlin/collections/k;->Pd([I)I
 
     move-result v3
 
@@ -2721,7 +2721,7 @@
 
     move-result-object p2
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p2, Ljava/lang/Integer;
 
@@ -2806,10 +2806,10 @@
 
     move-result-object v2
 
-    check-cast v2, Lkotlin/Pair;
+    check-cast v2, Lcotlin/Pair;
 
     .line 5
-    invoke-virtual {v2}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -2949,10 +2949,10 @@
 
     move-result-object v2
 
-    check-cast v2, Lkotlin/Pair;
+    check-cast v2, Lcotlin/Pair;
 
     .line 5
-    invoke-virtual {v2}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -2961,7 +2961,7 @@
     if-eqz v3, :cond_0
 
     .line 6
-    invoke-virtual {v2}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -2974,11 +2974,11 @@
     goto :goto_0
 
     :cond_1
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type com.commsource.studio.bean.ImageLayerInfo"
 
-    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3147,10 +3147,10 @@
 
     move-result-object v10
 
-    check-cast v10, Lkotlin/Pair;
+    check-cast v10, Lcotlin/Pair;
 
     .line 5
-    invoke-virtual {v10}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v10}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v10
 
@@ -3341,7 +3341,7 @@
         value = {
             "()",
             "Landroidx/lifecycle/MutableLiveData<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Lcom/commsource/studio/bean/ImageLayerInfo;",
             "Ljava/lang/Integer;",
             ">;>;"
@@ -3355,9 +3355,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->p:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->p:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3402,9 +3402,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->O:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->O:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3433,9 +3433,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->K:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->K:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3464,9 +3464,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->J:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->J:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3518,7 +3518,7 @@
 
     const-string v1, "ResourcesUtils.getString\u2026ng.t_divide\n            )"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -3532,7 +3532,7 @@
 
     const-string v1, "ResourcesUtils.getString\u2026t_different\n            )"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -3546,7 +3546,7 @@
 
     const-string v1, "ResourcesUtils.getString\u2026t_hardLight\n            )"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -3560,7 +3560,7 @@
 
     const-string v1, "ResourcesUtils.getString\u2026ring.t_soft\n            )"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -3574,7 +3574,7 @@
 
     const-string v1, "ResourcesUtils.getString\u2026.t_multiply\n            )"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -3588,7 +3588,7 @@
 
     const-string v1, "ResourcesUtils.getString\u2026g.t_overlay\n            )"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -3602,7 +3602,7 @@
 
     const-string v1, "ResourcesUtils.getString\u2026ring.t_burn\n            )"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -3616,7 +3616,7 @@
 
     const-string v1, "ResourcesUtils.getString\u2026ng.t_normal\n            )"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -3630,7 +3630,7 @@
 
     const-string v1, "ResourcesUtils.getString\u2026ng.t_screen\n            )"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 11
     :goto_1
@@ -3697,9 +3697,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->f:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->f:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3728,9 +3728,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3759,9 +3759,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->g:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->g:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3816,9 +3816,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->L:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->L:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3847,9 +3847,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->M:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->M:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3920,13 +3920,13 @@
 
     if-gez v4, :cond_1
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_1
-    check-cast v7, Lkotlin/Pair;
+    check-cast v7, Lcotlin/Pair;
 
     .line 6
-    invoke-virtual {v7}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v9
 
@@ -3935,7 +3935,7 @@
     if-eqz v9, :cond_4
 
     .line 7
-    invoke-virtual {v7}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v9
 
@@ -3958,7 +3958,7 @@
 
     check-cast v10, Lcom/commsource/studio/mixlayer/ImageStyleConfig;
 
-    invoke-static {v9, v10}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v9, v10}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v9
 
@@ -3978,11 +3978,11 @@
 
     .line 10
     :cond_3
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type com.commsource.studio.bean.ImageLayerInfo"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3991,7 +3991,7 @@
     .line 11
     :cond_4
     :goto_1
-    invoke-virtual {v7}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v9
 
@@ -4014,7 +4014,7 @@
 
     if-ne v9, v10, :cond_6
 
-    invoke-virtual {v7}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v7
 
@@ -4075,7 +4075,7 @@
 
     move-result-object v6
 
-    invoke-static {v4, v6}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v4, v6}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v4
 
@@ -4180,9 +4180,9 @@
 
     move-object v5, v3
 
-    check-cast v5, Lkotlin/Pair;
+    check-cast v5, Lcotlin/Pair;
 
-    invoke-virtual {v5}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v5}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v5
 
@@ -4264,10 +4264,10 @@
 
     move-result-object v2
 
-    check-cast v2, Lkotlin/Pair;
+    check-cast v2, Lcotlin/Pair;
 
     .line 5
-    invoke-virtual {v2}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -4983,10 +4983,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lkotlin/Pair;
+    check-cast v0, Lcotlin/Pair;
 
     .line 5
-    invoke-virtual {v0}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -5174,13 +5174,13 @@
 
     if-gez v3, :cond_1
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_1
-    check-cast v5, Lkotlin/Pair;
+    check-cast v5, Lcotlin/Pair;
 
     .line 6
-    invoke-virtual {v5}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v5}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v7
 
@@ -5189,7 +5189,7 @@
     if-eqz v7, :cond_3
 
     .line 7
-    invoke-virtual {v5}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v5}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v7
 
@@ -5208,7 +5208,7 @@
 
     const-string v9, "styleResult.groupStyleConfig[count]"
 
-    invoke-static {v8, v9}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v9}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v8, Lcom/commsource/studio/mixlayer/ImageStyleConfig;
 
@@ -5220,11 +5220,11 @@
 
     .line 9
     :cond_2
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type com.commsource.studio.bean.ImageLayerInfo"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5233,7 +5233,7 @@
     .line 10
     :cond_3
     :goto_1
-    invoke-virtual {v5}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v5}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v7
 
@@ -5252,7 +5252,7 @@
     invoke-virtual {v7, v8}, Lcom/commsource/studio/bean/FocusLayerInfo;->setMixMode(Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;)V
 
     .line 11
-    invoke-virtual {v5}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v5}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v5
 
@@ -5268,7 +5268,7 @@
 
     const-string v7, "styleResult.groupOriAlpha[index]"
 
-    invoke-static {v3, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v3, Ljava/lang/Number;
 
@@ -5341,7 +5341,7 @@
 
     const-string v1, "value"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->S:Lcom/commsource/studio/bean/FocusLayerInfo;
@@ -5377,10 +5377,10 @@
 
     move-result-object v2
 
-    check-cast v2, Lkotlin/Pair;
+    check-cast v2, Lcotlin/Pair;
 
     .line 5
-    invoke-virtual {v2}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -5389,7 +5389,7 @@
     if-eqz v3, :cond_0
 
     .line 6
-    invoke-virtual {v2}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -5408,11 +5408,11 @@
     goto :goto_0
 
     :cond_1
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type com.commsource.studio.bean.ImageLayerInfo"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5498,10 +5498,10 @@
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/Pair;
+    check-cast v1, Lcotlin/Pair;
 
     .line 6
-    invoke-virtual {v1}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -5537,7 +5537,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -5558,7 +5558,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -5679,10 +5679,10 @@
 
     move-result-object v5
 
-    check-cast v5, Lkotlin/Pair;
+    check-cast v5, Lcotlin/Pair;
 
     .line 5
-    invoke-virtual {v5}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v5}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v5
 
@@ -5720,7 +5720,7 @@
 
     move-result-object v5
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v5
 

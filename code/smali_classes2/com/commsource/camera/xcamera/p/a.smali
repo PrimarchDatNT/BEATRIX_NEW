@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "Lcom/meitu/library/camera/MTCamera$c;",
         "newRatio",
         "oldRatio",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "k",
         "(Lcom/meitu/library/camera/MTCamera$c;Lcom/meitu/library/camera/MTCamera$c;)V",
         "S0",
@@ -222,7 +222,7 @@
 
     const-string v1, "currentRatio"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -328,11 +328,11 @@
 
     const-string v1, "newRatio"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "oldRatio"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

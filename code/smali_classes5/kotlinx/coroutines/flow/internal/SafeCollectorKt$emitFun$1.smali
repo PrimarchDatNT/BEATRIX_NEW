@@ -1,15 +1,15 @@
-.class final synthetic Lkotlinx/coroutines/flow/internal/SafeCollectorKt$emitFun$1;
-.super Lkotlin/jvm/internal/FunctionReference;
+.class final synthetic Lcotlinx/coroutines/flow/internal/SafeCollectorKt$emitFun$1;
+.super Lcotlin/jvm/internal/FunctionReference;
 .source "SafeCollector.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/q;
-.implements Lkotlin/coroutines/jvm/internal/j;
+.implements Lcotlin/jvm/u/q;
+.implements Lcotlin/coroutines/jvm/internal/j;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/flow/internal/SafeCollectorKt;
+    value = Lcotlinx/coroutines/flow/internal/SafeCollectorKt;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,24 +19,24 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/FunctionReference;",
-        "Lkotlin/jvm/u/q<",
-        "Lkotlinx/coroutines/flow/e<",
+        "Lcotlin/jvm/internal/FunctionReference;",
+        "Lcotlin/jvm/u/q<",
+        "Lcotlinx/coroutines/flow/e<",
         "-",
         "Ljava/lang/Object;",
         ">;",
         "Ljava/lang/Object;",
-        "Lkotlin/coroutines/c<",
+        "Lcotlin/coroutines/c<",
         "-",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;",
         "Ljava/lang/Object;",
         ">;",
-        "Lkotlin/coroutines/jvm/internal/j;"
+        "Lcotlin/coroutines/jvm/internal/j;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -46,16 +46,16 @@
         "\u0000\u001a\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\n\u001a\u00020\u00072\u000e\u0010\u0002\u001a\n\u0012\u0006\u0012\u0004\u0018\u00010\u00010\u00002\u0017\u0010\u0006\u001a\u0013\u0018\u00010\u0001\u00a2\u0006\u000c\u0008\u0003\u0012\u0008\u0008\u0004\u0012\u0004\u0008\u0008(\u0005H\u0086@\u00a2\u0006\u0004\u0008\u0008\u0010\t"
     }
     d2 = {
-        "Lkotlinx/coroutines/flow/e;",
+        "Lcotlinx/coroutines/flow/e;",
         "",
         "p1",
-        "Lkotlin/k0;",
+        "Lcotlin/k0;",
         "name",
         "value",
         "p2",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
-        "(Lkotlinx/coroutines/flow/e;Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Lcotlinx/coroutines/flow/e;Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "<anonymous>"
     }
     k = 0x3
@@ -73,7 +73,7 @@
 
     const/4 v0, 0x3
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/FunctionReference;-><init>(I)V
+    invoke-direct {p0, v0}, Lcotlin/jvm/internal/FunctionReference;-><init>(I)V
 
     return-void
 .end method
@@ -88,12 +88,12 @@
     return-object v0
 .end method
 
-.method public final getOwner()Lkotlin/reflect/h;
+.method public final getOwner()Lcotlin/reflect/h;
     .locals 1
 
-    const-class v0, Lkotlinx/coroutines/flow/e;
+    const-class v0, Lcotlinx/coroutines/flow/e;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v0
 
@@ -103,7 +103,7 @@
 .method public final getSignature()Ljava/lang/String;
     .locals 1
 
-    const-string v0, "emit(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+    const-string v0, "emit(Ljava/lang/Object;Lcotlin/coroutines/Continuation;)Ljava/lang/Object;"
 
     return-object v0
 .end method
@@ -111,20 +111,20 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    check-cast p1, Lkotlinx/coroutines/flow/e;
+    check-cast p1, Lcotlinx/coroutines/flow/e;
 
-    check-cast p3, Lkotlin/coroutines/c;
+    check-cast p3, Lcotlin/coroutines/c;
 
-    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/flow/internal/SafeCollectorKt$emitFun$1;->invoke(Lkotlinx/coroutines/flow/e;Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2, p3}, Lcotlinx/coroutines/flow/internal/SafeCollectorKt$emitFun$1;->invoke(Lcotlinx/coroutines/flow/e;Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(Lkotlinx/coroutines/flow/e;Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public final invoke(Lcotlinx/coroutines/flow/e;Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Lkotlinx/coroutines/flow/e;
+    .param p1    # Lcotlinx/coroutines/flow/e;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -132,20 +132,20 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/flow/e<",
+            "Lcotlinx/coroutines/flow/e<",
             "Ljava/lang/Object;",
             ">;",
             "Ljava/lang/Object;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Ljava/lang/Object;"
         }
@@ -156,20 +156,20 @@
 
     const/4 v0, 0x0
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->e(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
     .line 1
-    invoke-interface {p1, p2, p3}, Lkotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p1, p2, p3}, Lcotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
     const/4 p2, 0x2
 
-    invoke-static {p2}, Lkotlin/jvm/internal/c0;->e(I)V
+    invoke-static {p2}, Lcotlin/jvm/internal/c0;->e(I)V
 
     const/4 p2, 0x1
 
-    invoke-static {p2}, Lkotlin/jvm/internal/c0;->e(I)V
+    invoke-static {p2}, Lcotlin/jvm/internal/c0;->e(I)V
 
     return-object p1
 .end method

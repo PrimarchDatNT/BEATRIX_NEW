@@ -1,11 +1,11 @@
-.class public final Lkotlin/jvm/internal/v0$a;
+.class public final Lcotlin/jvm/internal/v0$a;
 .super Ljava/lang/Object;
 .source "TypeParameterReference.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/jvm/internal/v0;
+    value = Lcotlin/jvm/internal/v0;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,11 +25,11 @@
     d2 = {
         "kotlin/jvm/internal/v0$a",
         "",
-        "Lkotlin/reflect/s;",
+        "Lcotlin/reflect/s;",
         "typeParameter",
         "",
         "a",
-        "(Lkotlin/reflect/s;)Ljava/lang/String;",
+        "(Lcotlin/reflect/s;)Ljava/lang/String;",
         "<init>",
         "()V",
         "kotlin-stdlib"
@@ -53,20 +53,20 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/jvm/internal/v0$a;-><init>()V
+    invoke-direct {p0}, Lcotlin/jvm/internal/v0$a;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Lkotlin/reflect/s;)Ljava/lang/String;
+.method public final a(Lcotlin/reflect/s;)Ljava/lang/String;
     .locals 3
-    .param p1    # Lkotlin/reflect/s;
+    .param p1    # Lcotlin/reflect/s;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -75,7 +75,7 @@
 
     const-string v0, "typeParameter"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -83,11 +83,11 @@
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 2
-    invoke-interface {p1}, Lkotlin/reflect/s;->j()Lkotlin/reflect/KVariance;
+    invoke-interface {p1}, Lcotlin/reflect/s;->j()Lcotlin/reflect/KVariance;
 
     move-result-object v1
 
-    sget-object v2, Lkotlin/jvm/internal/u0;->a:[I
+    sget-object v2, Lcotlin/jvm/internal/u0;->a:[I
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -121,7 +121,7 @@
 
     .line 5
     :goto_0
-    invoke-interface {p1}, Lkotlin/reflect/s;->getName()Ljava/lang/String;
+    invoke-interface {p1}, Lcotlin/reflect/s;->getName()Ljava/lang/String;
 
     move-result-object p1
 
@@ -134,7 +134,7 @@
 
     const-string v0, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method

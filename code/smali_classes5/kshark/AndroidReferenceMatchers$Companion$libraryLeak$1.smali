@@ -1,14 +1,14 @@
 .class final Lkshark/AndroidReferenceMatchers$Companion$libraryLeak$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "AndroidReferenceMatchers.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkshark/AndroidReferenceMatchers$Companion;->h(Lkshark/ReferencePattern;Ljava/lang/String;Lkotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
+    value = Lkshark/AndroidReferenceMatchers$Companion;->h(Lkshark/ReferencePattern;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,15 +18,15 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Lkshark/i;",
         "Ljava/lang/Boolean;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -53,18 +53,18 @@
 
 
 # instance fields
-.field final synthetic $patternApplies:Lkotlin/jvm/u/l;
+.field final synthetic $patternApplies:Lcotlin/jvm/u/l;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/jvm/u/l;)V
+.method constructor <init>(Lcotlin/jvm/u/l;)V
     .locals 0
 
-    iput-object p1, p0, Lkshark/AndroidReferenceMatchers$Companion$libraryLeak$1;->$patternApplies:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lkshark/AndroidReferenceMatchers$Companion$libraryLeak$1;->$patternApplies:Lcotlin/jvm/u/l;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -97,10 +97,10 @@
 
     const-string v0, "graph"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object v0, p0, Lkshark/AndroidReferenceMatchers$Companion$libraryLeak$1;->$patternApplies:Lkotlin/jvm/u/l;
+    iget-object v0, p0, Lkshark/AndroidReferenceMatchers$Companion$libraryLeak$1;->$patternApplies:Lcotlin/jvm/u/l;
 
     sget-object v1, Lkshark/AndroidBuildMirror;->c:Lkshark/AndroidBuildMirror$Companion;
 
@@ -108,7 +108,7 @@
 
     move-result-object p1
 
-    invoke-interface {v0, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

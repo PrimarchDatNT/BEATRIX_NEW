@@ -32,7 +32,7 @@
     value = "SMAP\nAIBeautyFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AIBeautyFragment.kt\ncom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1$1\n*L\n1#1,208:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "Lf/d/d/o$c;",
         "Lf/d/d/o;",
         "aiBeautyState",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lf/d/d/o$c;)V"
     }
@@ -198,7 +198,7 @@
 
     invoke-direct {v4, v1, p0, p1}, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1$1$$special$$inlined$let$lambda$1;-><init>(Lcom/commsource/studio/processor/j;Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1$1;Lf/d/d/o$c;)V
 
-    invoke-virtual {v2, v4}, Lcom/commsource/studio/function/BaseSubFragment;->Y0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v2, v4}, Lcom/commsource/studio/function/BaseSubFragment;->Y0(Lcotlin/jvm/u/a;)V
 
     .line 10
     :cond_2
@@ -216,7 +216,7 @@
 
     const-string v4, "aiBeautyState.aiBeautyBefore"
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/EffectTranslateLayer;->J0(Landroid/graphics/Bitmap;)V
 
@@ -235,7 +235,7 @@
 
     const-string v2, "aiBeautyState.aiBeautyAfter"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/layer/EffectTranslateLayer;->I0(Landroid/graphics/Bitmap;)V
 

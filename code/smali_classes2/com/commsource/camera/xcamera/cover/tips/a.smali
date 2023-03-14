@@ -11,7 +11,7 @@
     value = "SMAP\nTipsViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TipsViewModel.kt\ncom/commsource/camera/xcamera/cover/tips/TipsViewModel\n*L\n1#1,171:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
         "tips",
         "",
         "duration",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "Q",
         "(Ljava/lang/String;J)V",
         "",
@@ -57,7 +57,7 @@
         "fps",
         "l",
         "Lcom/commsource/camera/xcamera/cover/d;",
-        "Lkotlin/Pair;",
+        "Lcotlin/Pair;",
         "f",
         "Lcom/commsource/camera/xcamera/cover/d;",
         "C",
@@ -119,7 +119,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Landroidx/lifecycle/MutableLiveData<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/String;",
             "Ljava/lang/Long;",
             ">;>;"
@@ -173,7 +173,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lcom/commsource/camera/xcamera/cover/d<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             ">;>;"
@@ -188,7 +188,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lcom/commsource/camera/xcamera/cover/d<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Lcom/meitu/template/bean/Filter;",
             "Ljava/lang/String;",
             ">;>;"
@@ -203,7 +203,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lcom/commsource/camera/xcamera/cover/d<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             ">;>;"
@@ -225,7 +225,7 @@
 
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
@@ -513,7 +513,7 @@
         value = {
             "()",
             "Lcom/commsource/camera/xcamera/cover/d<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             ">;>;"
@@ -541,7 +541,7 @@
         value = {
             "()",
             "Lcom/commsource/camera/xcamera/cover/d<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             ">;>;"
@@ -621,7 +621,7 @@
         value = {
             "()",
             "Landroidx/lifecycle/MutableLiveData<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/String;",
             "Ljava/lang/Long;",
             ">;>;"
@@ -783,9 +783,9 @@
     .line 8
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/tips/a;->g:Lcom/commsource/camera/xcamera/cover/d;
 
-    new-instance p4, Lkotlin/Pair;
+    new-instance p4, Lcotlin/Pair;
 
-    invoke-direct {p4, p1, p2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p4, p1, p2}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {p3, p4}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
@@ -795,9 +795,9 @@
     :cond_3
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/tips/a;->g:Lcom/commsource/camera/xcamera/cover/d;
 
-    new-instance p4, Lkotlin/Pair;
+    new-instance p4, Lcotlin/Pair;
 
-    invoke-direct {p4, p1, p2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p4, p1, p2}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {p3, p4}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
@@ -906,7 +906,7 @@
     .line 4
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/tips/a;->p:Lcom/commsource/camera/xcamera/cover/d;
 
-    new-instance v2, Lkotlin/Pair;
+    new-instance v2, Lcotlin/Pair;
 
     if-eqz p2, :cond_1
 
@@ -916,7 +916,7 @@
     move-object p2, v1
 
     :goto_0
-    invoke-direct {v2, p1, p2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v2, p1, p2}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {p3, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
@@ -926,7 +926,7 @@
     :cond_2
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/tips/a;->p:Lcom/commsource/camera/xcamera/cover/d;
 
-    new-instance v2, Lkotlin/Pair;
+    new-instance v2, Lcotlin/Pair;
 
     if-eqz p2, :cond_3
 
@@ -936,7 +936,7 @@
     move-object p2, v1
 
     :goto_1
-    invoke-direct {v2, p1, p2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v2, p1, p2}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {p3, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
@@ -964,7 +964,7 @@
 
     const-string v1, "multiTips"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p1, :cond_1
 
@@ -988,9 +988,9 @@
     .line 4
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/tips/a;->f:Lcom/commsource/camera/xcamera/cover/d;
 
-    new-instance p4, Lkotlin/Pair;
+    new-instance p4, Lcotlin/Pair;
 
-    invoke-direct {p4, p1, p2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p4, p1, p2}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {p3, p4}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
@@ -1000,9 +1000,9 @@
     :cond_0
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/tips/a;->f:Lcom/commsource/camera/xcamera/cover/d;
 
-    new-instance p4, Lkotlin/Pair;
+    new-instance p4, Lcotlin/Pair;
 
-    invoke-direct {p4, p1, p2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p4, p1, p2}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {p3, p4}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
@@ -1027,7 +1027,7 @@
 
     const-string v1, "tips"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {}, Lcom/commsource/util/g2;->b()Z
@@ -1039,13 +1039,13 @@
     .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/a;->a:Landroidx/lifecycle/MutableLiveData;
 
-    new-instance v2, Lkotlin/Pair;
+    new-instance v2, Lcotlin/Pair;
 
     invoke-static {p2, p3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p2
 
-    invoke-direct {v2, p1, p2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v2, p1, p2}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
@@ -1055,13 +1055,13 @@
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/a;->a:Landroidx/lifecycle/MutableLiveData;
 
-    new-instance v2, Lkotlin/Pair;
+    new-instance v2, Lcotlin/Pair;
 
     invoke-static {p2, p3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p2
 
-    invoke-direct {v2, p1, p2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v2, p1, p2}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
@@ -1161,7 +1161,7 @@
         value = {
             "()",
             "Lcom/commsource/camera/xcamera/cover/d<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Lcom/meitu/template/bean/Filter;",
             "Ljava/lang/String;",
             ">;>;"

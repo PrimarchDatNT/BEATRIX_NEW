@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -115,7 +115,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(JJLjava/lang/String;IILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(JJLjava/lang/String;IILcotlin/jvm/internal/u;)V
     .locals 7
 
     and-int/lit8 p7, p7, 0x4
@@ -326,7 +326,7 @@
 
     iget-object v2, p1, Lcom/commsource/billing/bean/subsconfig/Countdown;->countdownColor:Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 

@@ -15,7 +15,7 @@
     value = "SMAP\nBaseCameraNewActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BaseCameraNewActivity.kt\ncom/commsource/camera/xcamera/BaseCameraNewActivity\n*L\n1#1,357:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
     d2 = {
         "Lcom/commsource/camera/xcamera/BaseCameraNewActivity;",
         "Lcom/commsource/beautyplus/BaseActivity;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "N0",
         "()V",
         "X0",
@@ -160,7 +160,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$b;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$b;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->W:Lcom/commsource/camera/xcamera/BaseCameraNewActivity$b;
 
@@ -327,7 +327,7 @@
 
     const-string v1, "bpCameraViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     return-object v0
@@ -348,7 +348,7 @@
 
     const-string v1, "coverContainer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     return-object v0
@@ -378,7 +378,7 @@
 
     const-string v0, "clazz"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -392,7 +392,7 @@
 
     const-string v3, "viewModelProvider"
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v2, p1}, Landroidx/lifecycle/ViewModelProvider;->get(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -401,7 +401,7 @@
 
     const-string v3, "viewModelProvider[clazz]"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     new-instance v3, Ljava/lang/StringBuilder;
@@ -467,7 +467,7 @@
 
     const-string v1, "viewModelProvider"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     return-object v0
@@ -507,7 +507,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->O:Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -524,7 +524,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->P:Lcom/commsource/camera/xcamera/cover/CoverContainer;
@@ -550,7 +550,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->Q:Landroidx/lifecycle/ViewModelProvider;
@@ -595,7 +595,7 @@
 
     move-object v2, p0
 
-    invoke-direct/range {v1 .. v6}, Lcom/commsource/camera/xcamera/cover/CoverContainer;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v1 .. v6}, Lcom/commsource/camera/xcamera/cover/CoverContainer;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->P:Lcom/commsource/camera/xcamera/cover/CoverContainer;
 
@@ -604,7 +604,7 @@
     const-string v1, "coverContainer"
 
     .line 5
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(Landroid/view/View;)V
@@ -637,21 +637,21 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     new-instance v2, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$onCreate$1;
 
     invoke-direct {v2, p0}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity$onCreate$1;-><init>(Lcom/commsource/camera/xcamera/BaseCameraNewActivity;)V
 
-    invoke-virtual {v0, v2}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->D0(Lkotlin/jvm/u/p;)V
+    invoke-virtual {v0, v2}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->D0(Lcotlin/jvm/u/p;)V
 
     .line 9
     iget-object v0, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->O:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     if-nez v0, :cond_3
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->R0()I
@@ -672,7 +672,7 @@
 
     if-nez v0, :cond_4
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->i0()Landroidx/lifecycle/MutableLiveData;
@@ -730,7 +730,7 @@
 
     if-nez v0, :cond_7
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_7
     invoke-virtual {v0, p1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->E0(Landroid/os/Bundle;)V
@@ -765,7 +765,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->onStop()V
@@ -782,7 +782,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->G0()V
@@ -792,7 +792,7 @@
 
     if-nez v0, :cond_3
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->onStop()V
@@ -804,7 +804,7 @@
 
     if-nez v0, :cond_5
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->onDestroy()V
@@ -855,7 +855,7 @@
 
     const-string v1, "bpCameraViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->G0()V
@@ -906,11 +906,11 @@
 
     const-string v0, "permissions"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "grantResults"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/FragmentActivity;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
@@ -922,7 +922,7 @@
 
     const-string v1, "bpCameraViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0, p1, p2, p3}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->H0(I[Ljava/lang/String;[I)V
@@ -961,7 +961,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->J0()V
@@ -971,7 +971,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->onResume()V
@@ -988,7 +988,7 @@
 
     if-nez v0, :cond_4
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->onResume()V
@@ -1076,7 +1076,7 @@
 
     const-string v1, "bpCameraViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->J0()V
@@ -1131,7 +1131,7 @@
 
     const-string v1, "bpCameraViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->onStop()V

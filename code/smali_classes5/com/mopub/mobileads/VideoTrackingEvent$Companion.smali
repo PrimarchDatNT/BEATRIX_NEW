@@ -17,7 +17,7 @@
     value = "SMAP\nVideoTrackingEvent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VideoTrackingEvent.kt\ncom/mopub/mobileads/VideoTrackingEvent$Companion\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,36:1\n1#2:37\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -57,7 +57,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -97,7 +97,7 @@
 
     const/4 v5, 0x1
 
-    invoke-static {v4, p1, v5}, Lkotlin/text/m;->I1(Ljava/lang/String;Ljava/lang/String;Z)Z
+    invoke-static {v4, p1, v5}, Lcotlin/text/m;->I1(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     move-result v4
 

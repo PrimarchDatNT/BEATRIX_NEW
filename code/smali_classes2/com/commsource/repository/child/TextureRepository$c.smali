@@ -22,7 +22,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,7 +36,7 @@
         "Lcom/google/gson/reflect/TypeToken;",
         "Ljava/util/ArrayList;",
         "Lcom/commsource/studio/function/background/TextureMaterial;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "app_googleplayRelease"
     }
     k = 0x1

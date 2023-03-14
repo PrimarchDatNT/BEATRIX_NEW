@@ -1,14 +1,14 @@
-.class final Lkotlin/collections/unsigned/UArraysKt___UArraysKt$withIndex$4;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlin/collections/unsigned/UArraysKt___UArraysKt$withIndex$4;
+.super Lcotlin/jvm/internal/Lambda;
 .source "_UArrays.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/collections/unsigned/UArraysKt___UArraysKt;->Jc([S)Ljava/lang/Iterable;
+    value = Lcotlin/collections/unsigned/UArraysKt___UArraysKt;->Jc([S)Ljava/lang/Iterable;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
         "Ljava/util/Iterator<",
         "+",
-        "Lkotlin/p1;",
+        "Lcotlin/p1;",
         ">;>;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
     }
     d2 = {
         "",
-        "Lkotlin/p1;",
+        "Lcotlin/p1;",
         "invoke",
         "()Ljava/util/Iterator;",
         "<anonymous>"
@@ -60,11 +60,11 @@
 .method constructor <init>([S)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/collections/unsigned/UArraysKt___UArraysKt$withIndex$4;->$this_withIndex:[S
+    iput-object p1, p0, Lcotlin/collections/unsigned/UArraysKt___UArraysKt$withIndex$4;->$this_withIndex:[S
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -74,7 +74,7 @@
 .method public bridge synthetic invoke()Ljava/lang/Object;
     .locals 1
 
-    invoke-virtual {p0}, Lkotlin/collections/unsigned/UArraysKt___UArraysKt$withIndex$4;->invoke()Ljava/util/Iterator;
+    invoke-virtual {p0}, Lcotlin/collections/unsigned/UArraysKt___UArraysKt$withIndex$4;->invoke()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -87,7 +87,7 @@
         value = {
             "()",
             "Ljava/util/Iterator<",
-            "Lkotlin/p1;",
+            "Lcotlin/p1;",
             ">;"
         }
     .end annotation
@@ -96,9 +96,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/unsigned/UArraysKt___UArraysKt$withIndex$4;->$this_withIndex:[S
+    iget-object v0, p0, Lcotlin/collections/unsigned/UArraysKt___UArraysKt$withIndex$4;->$this_withIndex:[S
 
-    invoke-static {v0}, Lkotlin/q1;->A([S)Lkotlin/collections/n1;
+    invoke-static {v0}, Lcotlin/q1;->A([S)Lcotlin/collections/n1;
 
     move-result-object v0
 

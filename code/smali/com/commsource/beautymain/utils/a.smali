@@ -3,7 +3,7 @@
 .source "lambda"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # instance fields
@@ -30,7 +30,7 @@
 
     check-cast p1, Lcom/commsource/widget/dialog/delegate/b;
 
-    invoke-static {v0, p1}, Lcom/commsource/beautymain/utils/h$a;->d(Landroid/app/Activity;Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+    invoke-static {v0, p1}, Lcom/commsource/beautymain/utils/h$a;->d(Landroid/app/Activity;Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
 
     move-result-object p1
 

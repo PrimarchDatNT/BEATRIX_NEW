@@ -16,7 +16,7 @@
     value = "SMAP\nRemoldFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RemoldFragment.kt\ncom/commsource/studio/function/remold/RemoldFragment\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n+ 3 SparseArray.kt\nandroidx/core/util/SparseArrayKt\n*L\n1#1,278:1\n13506#2,2:279\n13506#2,2:285\n13506#2,2:287\n74#3,4:281\n*E\n*S KotlinDebug\n*F\n+ 1 RemoldFragment.kt\ncom/commsource/studio/function/remold/RemoldFragment\n*L\n94#1,2:279\n178#1,2:285\n256#1,2:287\n178#1,4:281\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Lcom/commsource/studio/effect/remold/b;",
         "Lcom/commsource/studio/effect/remold/RemoldPartEnum;",
         "remoldPartEnum",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "M1",
         "(Lcom/commsource/studio/effect/remold/RemoldPartEnum;)V",
         "",
@@ -88,7 +88,7 @@
         "Lcom/commsource/studio/effect/remold/RemoldPartEnum;",
         "currentSelectPartEnum",
         "Landroid/util/SparseArray;",
-        "Lkotlin/Pair;",
+        "Lcotlin/Pair;",
         "Landroidx/recyclerview/widget/RecyclerView;",
         "Lcom/commsource/widget/h1/e;",
         "e0",
@@ -137,7 +137,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Landroid/util/SparseArray<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Landroidx/recyclerview/widget/RecyclerView;",
             "Lcom/commsource/widget/h1/e;",
             ">;>;"
@@ -352,7 +352,7 @@
 
     const-string v2, "mViewBinding"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/yb;->M:Lcom/commsource/widget/XSeekBar;
@@ -449,14 +449,14 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/yb;->K:Landroidx/recyclerview/widget/RecyclerView;
 
     const-string v3, "mViewBinding.rvTab"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
@@ -474,7 +474,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/yb;->g:Lcom/commsource/widget/LineSelectView;
@@ -499,14 +499,14 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/yb;->p:Landroid/widget/RelativeLayout;
 
     const-string v3, "mViewBinding.llContainer"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/widget/RelativeLayout;->getChildCount()I
 
@@ -522,7 +522,7 @@
 
     if-nez v4, :cond_3
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/yb;->p:Landroid/widget/RelativeLayout;
@@ -533,7 +533,7 @@
 
     const-string v5, "mViewBinding.llContainer.getChildAt(i)"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v4}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -553,9 +553,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/Pair;
+    check-cast v1, Lcotlin/Pair;
 
-    invoke-virtual {v1}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -574,9 +574,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/Pair;
+    check-cast v1, Lcotlin/Pair;
 
-    invoke-virtual {v1}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -595,9 +595,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/Pair;
+    check-cast v1, Lcotlin/Pair;
 
-    invoke-virtual {v1}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -645,7 +645,7 @@
     .line 15
     iget-object v2, p0, Lcom/commsource/studio/function/s/b;->g0:Lcom/commsource/studio/effect/remold/a;
 
-    invoke-static {p1, v2}, Lkotlin/collections/s;->O2(Ljava/util/List;Ljava/lang/Object;)I
+    invoke-static {p1, v2}, Lcotlin/collections/s;->O2(Ljava/util/List;Ljava/lang/Object;)I
 
     move-result v2
 
@@ -659,7 +659,7 @@
 
     if-nez p1, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     invoke-direct {p0, v2, p1}, Lcom/commsource/studio/function/s/b;->L1(ILcom/commsource/studio/effect/remold/a;)V
@@ -700,11 +700,11 @@
 
     .line 21
     :cond_8
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type com.commsource.widget.recyclerview.BaseRecyclerViewAdapter"
 
-    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -968,7 +968,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1032,7 +1032,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v7, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v7
 
@@ -1106,7 +1106,7 @@
 
     if-nez v1, :cond_6
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     invoke-direct {p0, v1}, Lcom/commsource/studio/function/s/b;->M1(Lcom/commsource/studio/effect/remold/RemoldPartEnum;)V
@@ -1130,7 +1130,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/s/b;->f0:Lcom/commsource/studio/effect/remold/b;
@@ -1157,7 +1157,7 @@
 
     const-string v1, "result"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/s/b;->K1()Lcom/commsource/studio/effect/remold/b;
@@ -1271,7 +1271,7 @@
 
     const-string p3, "inflater"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -1307,7 +1307,7 @@
 
     const-string v4, "mActivity"
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p3, v2}, Lcom/commsource/studio/layer/MultiFaceSelectLayer;-><init>(Landroid/content/Context;)V
 
@@ -1334,7 +1334,7 @@
 
     const-string p3, "FragmentStudioRemoldBinding.inflate(inflater)"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/function/s/b;->c0:Lcom/commsource/beautyplus/f0/yb;
 
@@ -1343,7 +1343,7 @@
     if-nez p1, :cond_1
 
     .line 7
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/yb;->i(Landroidx/fragment/app/Fragment;)V
@@ -1367,7 +1367,7 @@
     aget-object v6, v2, v5
 
     .line 11
-    new-instance v7, Lkotlin/Pair;
+    new-instance v7, Lcotlin/Pair;
 
     new-instance v8, Landroidx/recyclerview/widget/RecyclerView;
 
@@ -1381,10 +1381,10 @@
 
     invoke-direct {v9, v10}, Lcom/commsource/widget/h1/e;-><init>(Landroid/content/Context;)V
 
-    invoke-direct {v7, v8, v9}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v7, v8, v9}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 12
-    invoke-virtual {v7}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v8
 
@@ -1398,18 +1398,18 @@
 
     move-result v10
 
-    invoke-direct {v9, v10, v3, v1, v0}, Lcom/commsource/widget/TableLayoutManager;-><init>(FZILkotlin/jvm/internal/u;)V
+    invoke-direct {v9, v10, v3, v1, v0}, Lcom/commsource/widget/TableLayoutManager;-><init>(FZILcotlin/jvm/internal/u;)V
 
     invoke-virtual {v8, v9}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
     .line 13
-    invoke-virtual {v7}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v8
 
     check-cast v8, Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-virtual {v7}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v7}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v9
 
@@ -1418,7 +1418,7 @@
     invoke-virtual {v8, v9}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
     .line 14
-    invoke-virtual {v7}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v7}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v8
 
@@ -1444,12 +1444,12 @@
 
     if-nez v6, :cond_2
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v6, v6, Lcom/commsource/beautyplus/f0/yb;->p:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {v7}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v7
 
@@ -1475,7 +1475,7 @@
 
     if-nez p1, :cond_4
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -1520,7 +1520,7 @@
 
     const-string v1, "view"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
@@ -1532,14 +1532,14 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/yb;->c:Lcom/commsource/studio/component/ContrastComponent;
 
     const-string v1, "mViewBinding.contrast"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
@@ -1548,14 +1548,14 @@
 
     if-nez p1, :cond_1
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/yb;->J:Lcom/commsource/studio/component/PreviewComponent;
 
     const-string v1, "mViewBinding.preview"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
@@ -1564,7 +1564,7 @@
 
     if-nez p1, :cond_2
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/yb;->M:Lcom/commsource/widget/XSeekBar;
@@ -1580,14 +1580,14 @@
 
     if-nez p1, :cond_3
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/yb;->K:Landroidx/recyclerview/widget/RecyclerView;
 
     const-string v1, "mViewBinding.rvTab"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v2, Lcom/commsource/widget/TableLayoutManager;
 
@@ -1599,7 +1599,7 @@
 
     const/4 v6, 0x0
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lcom/commsource/widget/TableLayoutManager;-><init>(FZILkotlin/jvm/internal/u;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lcom/commsource/widget/TableLayoutManager;-><init>(FZILcotlin/jvm/internal/u;)V
 
     invoke-virtual {p1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
@@ -1608,12 +1608,12 @@
 
     if-nez p1, :cond_4
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/yb;->K:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance p2, Lcom/commsource/widget/h1/e;
 
@@ -1626,7 +1626,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lkotlin/collections/k;->t([Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v1}, Lcotlin/collections/k;->t([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v1
 
@@ -1663,7 +1663,7 @@
 
     const-string v1, "viewLifecycleOwner"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v1, Lcom/commsource/studio/function/s/b$e;
 

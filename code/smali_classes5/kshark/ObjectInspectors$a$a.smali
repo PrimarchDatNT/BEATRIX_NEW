@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,15 +45,15 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/jvm/u/l;
+.field final synthetic a:Lcotlin/jvm/u/l;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/jvm/u/l;)V
+.method constructor <init>(Lcotlin/jvm/u/l;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lkshark/ObjectInspectors$a$a;->a:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lkshark/ObjectInspectors$a$a;->a:Lcotlin/jvm/u/l;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -71,12 +71,12 @@
 
     const-string v0, "heapObject"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Lkshark/ObjectInspectors$a$a;->a:Lkotlin/jvm/u/l;
+    iget-object v0, p0, Lkshark/ObjectInspectors$a$a;->a:Lcotlin/jvm/u/l;
 
-    invoke-interface {v0, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

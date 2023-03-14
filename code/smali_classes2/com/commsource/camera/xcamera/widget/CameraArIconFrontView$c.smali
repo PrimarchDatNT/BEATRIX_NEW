@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
     d2 = {
         "com/commsource/camera/xcamera/widget/CameraArIconFrontView$c",
         "Lcom/commsource/util/u2/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "app_googleplayRelease",
@@ -85,7 +85,7 @@
 
     const-string v6, "AppContext.getContext()"
 
-    invoke-static {v5, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v6, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$c;->g:Lcom/commsource/push/bean/h;
 
@@ -95,7 +95,7 @@
 
     const-string v5, "/ar_icon"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->C(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->C(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -171,11 +171,11 @@
     goto :goto_0
 
     :cond_0
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v4, "null cannot be cast to non-null type kotlin.String"
 
-    invoke-direct {v1, v4}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v4}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

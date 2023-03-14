@@ -20,7 +20,7 @@
     value = "SMAP\nCameraGestureCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CameraGestureCover.kt\ncom/commsource/camera/xcamera/cover/CameraGestureCover$initView$2\n*L\n1#1,316:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "Lcom/commsource/camera/mvp/SimpleFocusView$b;",
         "",
         "isFocus",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Z)V",
         "app_googleplayRelease"

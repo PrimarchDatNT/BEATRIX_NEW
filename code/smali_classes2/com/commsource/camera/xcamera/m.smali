@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -23,7 +23,7 @@
         "(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/meitu/core/types/FaceData;",
         "Lcom/commsource/camera/xcamera/bean/c;",
         "captureResultBean",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "f",
         "(Lcom/commsource/camera/xcamera/bean/c;)V",
         "Landroid/graphics/Bitmap;",

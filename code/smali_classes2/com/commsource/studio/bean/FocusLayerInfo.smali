@@ -14,7 +14,7 @@
     value = "SMAP\nFocusLayerInfo.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FocusLayerInfo.kt\ncom/commsource/studio/bean/FocusLayerInfo\n+ 2 Rect.kt\nandroidx/core/graphics/RectKt\n*L\n1#1,365:1\n344#2,3:366\n*E\n*S KotlinDebug\n*F\n+ 1 FocusLayerInfo.kt\ncom/commsource/studio/bean/FocusLayerInfo\n*L\n276#1,3:366\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "",
         "w",
         "h",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "updateSize",
         "(II)V",
         "canvasWidth",
@@ -242,7 +242,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/commsource/studio/bean/FocusLayerInfo$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcom/commsource/studio/bean/FocusLayerInfo$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lcom/commsource/studio/bean/FocusLayerInfo;->Companion:Lcom/commsource/studio/bean/FocusLayerInfo$a;
 
@@ -524,11 +524,11 @@
 
     .line 11
     :cond_0
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v0, "null cannot be cast to non-null type com.commsource.studio.bean.FocusLayerInfo"
 
-    invoke-direct {p1, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -918,7 +918,7 @@
 
     const-string v0, "hitPosition"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x2
 
@@ -1127,7 +1127,7 @@
     div-float/2addr p1, p2
 
     .line 8
-    invoke-static {v0, p1}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v0, p1}, Lcotlin/g2/o;->m(FF)F
 
     move-result p1
 
@@ -1205,7 +1205,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
@@ -1222,7 +1222,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapPosition:Lcom/commsource/studio/layer/Position;
@@ -1239,7 +1239,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->circumscribedRect:Landroid/graphics/RectF;
@@ -1256,7 +1256,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->drawMatrixBox:Lcom/commsource/studio/MatrixBox;
@@ -1313,7 +1313,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->maskCropRectF:Landroid/graphics/RectF;
@@ -1352,7 +1352,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->originBitmapRect:Landroid/graphics/Rect;
@@ -1369,7 +1369,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->position:Lcom/commsource/studio/layer/Position;
@@ -1422,7 +1422,7 @@
 
     const-string v0, "newBitmapRect"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Landroid/graphics/RectF;
@@ -1431,7 +1431,7 @@
 
     invoke-direct {v0, v1}, Landroid/graphics/RectF;-><init>(Landroid/graphics/Rect;)V
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -1577,7 +1577,7 @@
 
     div-float/2addr v1, v2
 
-    invoke-static {p3, v1}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p3, v1}, Lcotlin/g2/o;->m(FF)F
 
     move-result v3
 
@@ -1691,15 +1691,15 @@
 
     const-string v4, "bitmapRect"
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v4, "newMaskCropRectF"
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v4, "bitmapChangeMatrixBox"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v4, v0, Lcom/commsource/studio/bean/FocusLayerInfo;->originBitmapRect:Landroid/graphics/Rect;
@@ -1714,7 +1714,7 @@
 
     iget-object v4, v0, Lcom/commsource/studio/bean/FocusLayerInfo;->originBitmapRect:Landroid/graphics/Rect;
 
-    invoke-static {v4, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v4, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v4
 

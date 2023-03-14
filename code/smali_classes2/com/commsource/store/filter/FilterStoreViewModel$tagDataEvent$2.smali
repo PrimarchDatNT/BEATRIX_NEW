@@ -1,9 +1,9 @@
 .class final Lcom/commsource/store/filter/FilterStoreViewModel$tagDataEvent$2;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "FilterStoreViewModel.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
@@ -18,8 +18,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
         "Landroidx/lifecycle/MutableLiveData<",
         "Ljava/util/ArrayList<",
         "Lcom/commsource/beautyfilter/a;",
@@ -27,7 +27,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,7 +40,7 @@
         "Landroidx/lifecycle/MutableLiveData;",
         "Ljava/util/ArrayList;",
         "Lcom/commsource/beautyfilter/a;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "invoke",
         "()Landroidx/lifecycle/MutableLiveData;",
         "<anonymous>"
@@ -82,7 +82,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, v0}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method

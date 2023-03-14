@@ -14,7 +14,7 @@
     value = "SMAP\nMakeupResult.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MakeupResult.kt\ncom/commsource/studio/effect/MakeupResult\n*L\n1#1,142:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "(I)Landroid/util/SparseArray;",
         "v",
         "applyMakeupMaterials",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "z",
         "(ILandroid/util/SparseArray;)V",
         "applyMakeupColorMaterials",
@@ -132,7 +132,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/effect/m$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/effect/m$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/effect/m;->m:Lcom/commsource/studio/effect/m$a;
 
@@ -223,7 +223,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v1, v3}, Lcom/commsource/repository/child/makeup/h;->q(I)I
@@ -476,7 +476,7 @@
 
     const-string v1, "applyMakeupColorMaterials"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/m;->k:Landroid/util/SparseArray;
@@ -559,7 +559,7 @@
 
     const-string v1, "applyMakeupMaterials"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/m;->j:Landroid/util/SparseArray;

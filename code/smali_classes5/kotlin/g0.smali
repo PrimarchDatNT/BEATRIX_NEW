@@ -1,10 +1,10 @@
-.class Lkotlin/g0;
-.super Lkotlin/f0;
+.class Lcotlin/g0;
+.super Lcotlin/f0;
 .source "Numbers.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -54,23 +54,23 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/f0;-><init>()V
+    invoke-direct {p0}, Lcotlin/f0;-><init>()V
 
     return-void
 .end method
 
 .method private static final j0(B)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -88,16 +88,16 @@
 
 .method private static final k0(S)I
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -117,16 +117,16 @@
 
 .method private static final l0(B)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -142,16 +142,16 @@
 
 .method private static final m0(S)I
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -169,16 +169,16 @@
 
 .method private static final n0(B)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -194,16 +194,16 @@
 
 .method private static final o0(S)I
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -221,10 +221,10 @@
 
 .method public static final p0(BI)B
     .locals 1
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -247,10 +247,10 @@
 
 .method public static final q0(SI)S
     .locals 2
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -275,10 +275,10 @@
 
 .method public static final r0(BI)B
     .locals 1
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -301,10 +301,10 @@
 
 .method public static final s0(SI)S
     .locals 2
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -329,16 +329,16 @@
 
 .method private static final t0(B)B
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -356,16 +356,16 @@
 
 .method private static final u0(S)S
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -385,16 +385,16 @@
 
 .method private static final v0(B)B
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -410,16 +410,16 @@
 
 .method private static final w0(S)S
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 

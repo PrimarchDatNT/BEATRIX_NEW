@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -73,7 +73,7 @@
 
     const-string v1, "param"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/meitu/http/api/FeedbackApi$feedback$1;
@@ -82,7 +82,7 @@
 
     const-string p1, "/v1/feedback"
 
-    invoke-static {p1, v1}, Lf/k/k/u/b;->g(Ljava/lang/String;Lkotlin/jvm/u/l;)Lf/k/k/u/c;
+    invoke-static {p1, v1}, Lf/k/k/u/b;->g(Ljava/lang/String;Lcotlin/jvm/u/l;)Lf/k/k/u/c;
 
     move-result-object p1
 

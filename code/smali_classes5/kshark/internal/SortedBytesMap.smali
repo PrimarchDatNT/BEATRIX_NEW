@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,10 +30,10 @@
         "",
         "h",
         "(J)Z",
-        "Lkotlin/sequences/m;",
-        "Lkotlin/Pair;",
+        "Lcotlin/sequences/m;",
+        "Lcotlin/Pair;",
         "i",
-        "()Lkotlin/sequences/m;",
+        "()Lcotlin/sequences/m;",
         "b",
         "I",
         "bytesPerEntry",
@@ -87,7 +87,7 @@
 
     const-string v0, "sortedEntries"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -291,13 +291,13 @@
     return p1
 .end method
 
-.method public final i()Lkotlin/sequences/m;
+.method public final i()Lcotlin/sequences/m;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
-            "Lkotlin/Pair<",
+            "Lcotlin/sequences/m<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Long;",
             "Lkshark/internal/a;",
             ">;>;"
@@ -312,11 +312,11 @@
 
     const/4 v1, 0x0
 
-    invoke-static {v1, v0}, Lkotlin/g2/o;->n1(II)Lkotlin/g2/k;
+    invoke-static {v1, v0}, Lcotlin/g2/o;->n1(II)Lcotlin/g2/k;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/collections/s;->n1(Ljava/lang/Iterable;)Lkotlin/sequences/m;
+    invoke-static {v0}, Lcotlin/collections/s;->n1(Ljava/lang/Iterable;)Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -325,7 +325,7 @@
 
     invoke-direct {v1, p0}, Lkshark/internal/SortedBytesMap$entrySequence$1;-><init>(Lkshark/internal/SortedBytesMap;)V
 
-    invoke-static {v0, v1}, Lkotlin/sequences/p;->b1(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v0, v1}, Lcotlin/sequences/p;->b1(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 

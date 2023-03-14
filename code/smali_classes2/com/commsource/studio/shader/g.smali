@@ -13,7 +13,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "textureEntity",
         "",
         "textureCoordinates",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "l",
         "(Lcom/commsource/easyeditor/utils/opengl/f;[F)V",
         "matrix",
@@ -60,11 +60,11 @@
 
     const/4 v2, 0x1
 
-    invoke-direct {v0, v1, v2, v1}, Lcom/commsource/studio/shader/d;-><init>(Lcom/commsource/studio/shader/d$a;ILkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1, v2, v1}, Lcom/commsource/studio/shader/d;-><init>(Lcom/commsource/studio/shader/d$a;ILcotlin/jvm/internal/u;)V
 
     new-instance v3, Lcom/commsource/studio/shader/f;
 
-    invoke-direct {v3, v1, v2, v1}, Lcom/commsource/studio/shader/f;-><init>(Lcom/commsource/studio/shader/f$a;ILkotlin/jvm/internal/u;)V
+    invoke-direct {v3, v1, v2, v1}, Lcom/commsource/studio/shader/f;-><init>(Lcom/commsource/studio/shader/f$a;ILcotlin/jvm/internal/u;)V
 
     invoke-direct {p0, v0, v3}, Lcom/commsource/studio/shader/a;-><init>(Lcom/commsource/studio/shader/BaseShader;Lcom/commsource/studio/shader/BaseShader;)V
 
@@ -112,11 +112,11 @@
 
     const-string v1, "textureEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "matrix"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/shader/a;->c()Lcom/commsource/studio/shader/BaseShader;
@@ -172,7 +172,7 @@
 
     const-string v1, "textureEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/shader/a;->c()Lcom/commsource/studio/shader/BaseShader;

@@ -10,7 +10,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
     d2 = {
         "Lkshark/HeapAnalysisException;",
         "Ljava/lang/RuntimeException;",
-        "Lkotlin/RuntimeException;",
+        "Lcotlin/RuntimeException;",
         "",
         "toString",
         "()Ljava/lang/String;",
@@ -57,7 +57,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkshark/HeapAnalysisException$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lkshark/HeapAnalysisException$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lkshark/HeapAnalysisException;->Companion:Lkshark/HeapAnalysisException$a;
 
@@ -73,7 +73,7 @@
 
     const-string v0, "cause"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -100,7 +100,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     new-instance v2, Ljava/io/PrintWriter;
@@ -116,7 +116,7 @@
 
     const-string v1, "stringWriter.toString()"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object v0
 .end method

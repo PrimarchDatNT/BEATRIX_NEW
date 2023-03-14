@@ -1,4 +1,4 @@
-.class public final Lkotlin/i2/k;
+.class public final Lcotlin/i2/k;
 .super Ljava/lang/Object;
 .source "formatToDecimals.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nformatToDecimals.kt\nKotlin\n*S Kotlin\n*F\n+ 1 formatToDecimals.kt\nkotlin/time/FormatToDecimalsKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,42:1\n1#2:43\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -94,7 +94,7 @@
 
     invoke-virtual {v0, v2}, Ljava/text/DecimalFormatSymbols;->setExponentSeparator(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlin/i2/k;->a:Ljava/text/DecimalFormatSymbols;
+    sput-object v0, Lcotlin/i2/k;->a:Ljava/text/DecimalFormatSymbols;
 
     .line 2
     new-instance v0, Ljava/text/DecimalFormatSymbols;
@@ -105,7 +105,7 @@
 
     invoke-virtual {v0, v1}, Ljava/text/DecimalFormatSymbols;->setExponentSeparator(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlin/i2/k;->b:Ljava/text/DecimalFormatSymbols;
+    sput-object v0, Lcotlin/i2/k;->b:Ljava/text/DecimalFormatSymbols;
 
     const/4 v0, 0x4
 
@@ -128,14 +128,14 @@
     goto :goto_0
 
     :cond_0
-    sput-object v1, Lkotlin/i2/k;->c:[Ljava/lang/ThreadLocal;
+    sput-object v1, Lcotlin/i2/k;->c:[Ljava/lang/ThreadLocal;
 
     .line 4
     new-instance v0, Ljava/lang/ThreadLocal;
 
     invoke-direct {v0}, Ljava/lang/ThreadLocal;-><init>()V
 
-    sput-object v0, Lkotlin/i2/k;->d:Ljava/lang/ThreadLocal;
+    sput-object v0, Lcotlin/i2/k;->d:Ljava/lang/ThreadLocal;
 
     return-void
 .end method
@@ -146,7 +146,7 @@
     .line 1
     new-instance v0, Ljava/text/DecimalFormat;
 
-    sget-object v1, Lkotlin/i2/k;->a:Ljava/text/DecimalFormatSymbols;
+    sget-object v1, Lcotlin/i2/k;->a:Ljava/text/DecimalFormatSymbols;
 
     const-string v2, "0"
 
@@ -172,7 +172,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/i2/k;->d:Ljava/lang/ThreadLocal;
+    sget-object v0, Lcotlin/i2/k;->d:Ljava/lang/ThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
 
@@ -185,7 +185,7 @@
     :cond_0
     new-instance v1, Ljava/text/DecimalFormat;
 
-    sget-object v2, Lkotlin/i2/k;->a:Ljava/text/DecimalFormatSymbols;
+    sget-object v2, Lcotlin/i2/k;->a:Ljava/text/DecimalFormatSymbols;
 
     const-string v3, "0E0"
 
@@ -221,13 +221,13 @@
 
     .line 3
     :cond_1
-    sget-object v0, Lkotlin/i2/k;->a:Ljava/text/DecimalFormatSymbols;
+    sget-object v0, Lcotlin/i2/k;->a:Ljava/text/DecimalFormatSymbols;
 
     goto :goto_2
 
     :cond_2
     :goto_1
-    sget-object v0, Lkotlin/i2/k;->b:Ljava/text/DecimalFormatSymbols;
+    sget-object v0, Lcotlin/i2/k;->b:Ljava/text/DecimalFormatSymbols;
 
     :goto_2
     invoke-virtual {v1, v0}, Ljava/text/DecimalFormat;->setDecimalFormatSymbols(Ljava/text/DecimalFormatSymbols;)V
@@ -239,7 +239,7 @@
 
     const-string p1, "scientificFormat.getOrSe\u2026 }\n        .format(value)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
@@ -250,7 +250,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/i2/k;->c:[Ljava/lang/ThreadLocal;
+    sget-object v0, Lcotlin/i2/k;->c:[Ljava/lang/ThreadLocal;
 
     array-length v1, v0
 
@@ -268,7 +268,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {p2}, Lkotlin/i2/k;->a(I)Ljava/text/DecimalFormat;
+    invoke-static {p2}, Lcotlin/i2/k;->a(I)Ljava/text/DecimalFormat;
 
     move-result-object v1
 
@@ -281,7 +281,7 @@
 
     .line 3
     :cond_1
-    invoke-static {p2}, Lkotlin/i2/k;->a(I)Ljava/text/DecimalFormat;
+    invoke-static {p2}, Lcotlin/i2/k;->a(I)Ljava/text/DecimalFormat;
 
     move-result-object v1
 
@@ -293,7 +293,7 @@
 
     const-string p1, "format.format(value)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
@@ -306,7 +306,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-static {v0}, Lkotlin/i2/k;->a(I)Ljava/text/DecimalFormat;
+    invoke-static {v0}, Lcotlin/i2/k;->a(I)Ljava/text/DecimalFormat;
 
     move-result-object v0
 
@@ -320,7 +320,7 @@
 
     const-string p1, "createFormatForDecimals(\u2026 }\n        .format(value)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method

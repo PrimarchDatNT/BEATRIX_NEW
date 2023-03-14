@@ -1,10 +1,10 @@
-.class final synthetic Lkotlinx/coroutines/internal/f0;
+.class final synthetic Lcotlinx/coroutines/internal/f0;
 .super Ljava/lang/Object;
 .source "SystemProps.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -52,7 +52,7 @@
 
     move-result v0
 
-    sput v0, Lkotlinx/coroutines/internal/f0;->a:I
+    sput v0, Lcotlinx/coroutines/internal/f0;->a:I
 
     return-void
 .end method
@@ -61,7 +61,7 @@
     .locals 1
 
     .line 1
-    sget v0, Lkotlinx/coroutines/internal/f0;->a:I
+    sget v0, Lcotlinx/coroutines/internal/f0;->a:I
 
     return v0
 .end method

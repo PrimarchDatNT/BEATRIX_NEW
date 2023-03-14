@@ -1,17 +1,17 @@
-.class public Lkotlin/jvm/internal/FunctionReference;
-.super Lkotlin/jvm/internal/CallableReference;
+.class public Lcotlin/jvm/internal/FunctionReference;
+.super Lcotlin/jvm/internal/CallableReference;
 .source "FunctionReference.java"
 
 # interfaces
-.implements Lkotlin/jvm/internal/b0;
-.implements Lkotlin/reflect/i;
+.implements Lcotlin/jvm/internal/b0;
+.implements Lcotlin/reflect/i;
 
 
 # instance fields
 .field private final arity:I
 
 .field private final flags:I
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 .end field
@@ -22,7 +22,7 @@
     .locals 7
 
     .line 1
-    sget-object v2, Lkotlin/jvm/internal/CallableReference;->NO_RECEIVER:Ljava/lang/Object;
+    sget-object v2, Lcotlin/jvm/internal/CallableReference;->NO_RECEIVER:Ljava/lang/Object;
 
     const/4 v3, 0x0
 
@@ -36,14 +36,14 @@
 
     move v1, p1
 
-    invoke-direct/range {v0 .. v6}, Lkotlin/jvm/internal/FunctionReference;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct/range {v0 .. v6}, Lcotlin/jvm/internal/FunctionReference;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
     return-void
 .end method
 
 .method public constructor <init>(ILjava/lang/Object;)V
     .locals 7
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -62,14 +62,14 @@
     move-object v2, p2
 
     .line 2
-    invoke-direct/range {v0 .. v6}, Lkotlin/jvm/internal/FunctionReference;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct/range {v0 .. v6}, Lcotlin/jvm/internal/FunctionReference;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
     return-void
 .end method
 
 .method public constructor <init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
     .locals 8
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -100,29 +100,29 @@
     move-object v6, p5
 
     .line 3
-    invoke-direct/range {v2 .. v7}, Lkotlin/jvm/internal/CallableReference;-><init>(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;Z)V
+    invoke-direct/range {v2 .. v7}, Lcotlin/jvm/internal/CallableReference;-><init>(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;Z)V
 
     .line 4
-    iput p1, p0, Lkotlin/jvm/internal/FunctionReference;->arity:I
+    iput p1, p0, Lcotlin/jvm/internal/FunctionReference;->arity:I
 
     shr-int/lit8 p1, p6, 0x1
 
     .line 5
-    iput p1, p0, Lkotlin/jvm/internal/FunctionReference;->flags:I
+    iput p1, p0, Lcotlin/jvm/internal/FunctionReference;->flags:I
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected computeReflected()Lkotlin/reflect/c;
+.method protected computeReflected()Lcotlin/reflect/c;
     .locals 1
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lkotlin/jvm/internal/n0;->c(Lkotlin/jvm/internal/FunctionReference;)Lkotlin/reflect/i;
+    invoke-static {p0}, Lcotlin/jvm/internal/n0;->c(Lcotlin/jvm/internal/FunctionReference;)Lcotlin/reflect/i;
 
     move-result-object v0
 
@@ -140,49 +140,35 @@
 
     .line 1
     :cond_0
-    instance-of v1, p1, Lkotlin/jvm/internal/FunctionReference;
+    instance-of v1, p1, Lcotlin/jvm/internal/FunctionReference;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_2
 
     .line 2
-    check-cast p1, Lkotlin/jvm/internal/FunctionReference;
+    check-cast p1, Lcotlin/jvm/internal/FunctionReference;
 
     .line 3
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/h;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/CallableReference;->getOwner()Lcotlin/reflect/h;
 
     move-result-object v1
 
-    invoke-virtual {p1}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/h;
+    invoke-virtual {p1}, Lcotlin/jvm/internal/CallableReference;->getOwner()Lcotlin/reflect/h;
 
     move-result-object v3
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getName()Ljava/lang/String;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/CallableReference;->getName()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {p1}, Lkotlin/jvm/internal/CallableReference;->getName()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getSignature()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {p1}, Lkotlin/jvm/internal/CallableReference;->getSignature()Ljava/lang/String;
+    invoke-virtual {p1}, Lcotlin/jvm/internal/CallableReference;->getName()Ljava/lang/String;
 
     move-result-object v3
 
@@ -192,27 +178,41 @@
 
     if-eqz v1, :cond_1
 
-    iget v1, p0, Lkotlin/jvm/internal/FunctionReference;->flags:I
-
-    iget v3, p1, Lkotlin/jvm/internal/FunctionReference;->flags:I
-
-    if-ne v1, v3, :cond_1
-
-    iget v1, p0, Lkotlin/jvm/internal/FunctionReference;->arity:I
-
-    iget v3, p1, Lkotlin/jvm/internal/FunctionReference;->arity:I
-
-    if-ne v1, v3, :cond_1
-
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getBoundReceiver()Ljava/lang/Object;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/CallableReference;->getSignature()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {p1}, Lkotlin/jvm/internal/CallableReference;->getBoundReceiver()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/jvm/internal/CallableReference;->getSignature()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    iget v1, p0, Lcotlin/jvm/internal/FunctionReference;->flags:I
+
+    iget v3, p1, Lcotlin/jvm/internal/FunctionReference;->flags:I
+
+    if-ne v1, v3, :cond_1
+
+    iget v1, p0, Lcotlin/jvm/internal/FunctionReference;->arity:I
+
+    iget v3, p1, Lcotlin/jvm/internal/FunctionReference;->arity:I
+
+    if-ne v1, v3, :cond_1
+
+    invoke-virtual {p0}, Lcotlin/jvm/internal/CallableReference;->getBoundReceiver()Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-virtual {p1}, Lcotlin/jvm/internal/CallableReference;->getBoundReceiver()Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -228,12 +228,12 @@
 
     .line 4
     :cond_2
-    instance-of v0, p1, Lkotlin/reflect/i;
+    instance-of v0, p1, Lcotlin/reflect/i;
 
     if-eqz v0, :cond_3
 
     .line 5
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->compute()Lkotlin/reflect/c;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/CallableReference;->compute()Lcotlin/reflect/c;
 
     move-result-object v0
 
@@ -251,34 +251,34 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlin/jvm/internal/FunctionReference;->arity:I
+    iget v0, p0, Lcotlin/jvm/internal/FunctionReference;->arity:I
 
     return v0
 .end method
 
-.method protected bridge synthetic getReflected()Lkotlin/reflect/c;
+.method protected bridge synthetic getReflected()Lcotlin/reflect/c;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/FunctionReference;->getReflected()Lkotlin/reflect/i;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/FunctionReference;->getReflected()Lcotlin/reflect/i;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method protected getReflected()Lkotlin/reflect/i;
+.method protected getReflected()Lcotlin/reflect/i;
     .locals 1
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     .line 2
-    invoke-super {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/c;
+    invoke-super {p0}, Lcotlin/jvm/internal/CallableReference;->getReflected()Lcotlin/reflect/c;
 
     move-result-object v0
 
-    check-cast v0, Lkotlin/reflect/i;
+    check-cast v0, Lcotlin/reflect/i;
 
     return-object v0
 .end method
@@ -287,7 +287,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/h;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/CallableReference;->getOwner()Lcotlin/reflect/h;
 
     move-result-object v0
 
@@ -298,7 +298,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getOwner()Lkotlin/reflect/h;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/CallableReference;->getOwner()Lcotlin/reflect/h;
 
     move-result-object v0
 
@@ -309,7 +309,7 @@
     mul-int/lit8 v0, v0, 0x1f
 
     :goto_0
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getName()Ljava/lang/String;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/CallableReference;->getName()Ljava/lang/String;
 
     move-result-object v1
 
@@ -321,7 +321,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getSignature()Ljava/lang/String;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/CallableReference;->getSignature()Ljava/lang/String;
 
     move-result-object v1
 
@@ -336,16 +336,16 @@
 
 .method public isExternal()Z
     .locals 1
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/FunctionReference;->getReflected()Lkotlin/reflect/i;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/FunctionReference;->getReflected()Lcotlin/reflect/i;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/reflect/i;->isExternal()Z
+    invoke-interface {v0}, Lcotlin/reflect/i;->isExternal()Z
 
     move-result v0
 
@@ -354,16 +354,16 @@
 
 .method public isInfix()Z
     .locals 1
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/FunctionReference;->getReflected()Lkotlin/reflect/i;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/FunctionReference;->getReflected()Lcotlin/reflect/i;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/reflect/i;->isInfix()Z
+    invoke-interface {v0}, Lcotlin/reflect/i;->isInfix()Z
 
     move-result v0
 
@@ -372,16 +372,16 @@
 
 .method public isInline()Z
     .locals 1
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/FunctionReference;->getReflected()Lkotlin/reflect/i;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/FunctionReference;->getReflected()Lcotlin/reflect/i;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/reflect/i;->isInline()Z
+    invoke-interface {v0}, Lcotlin/reflect/i;->isInline()Z
 
     move-result v0
 
@@ -390,16 +390,16 @@
 
 .method public isOperator()Z
     .locals 1
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/FunctionReference;->getReflected()Lkotlin/reflect/i;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/FunctionReference;->getReflected()Lcotlin/reflect/i;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/reflect/i;->isOperator()Z
+    invoke-interface {v0}, Lcotlin/reflect/i;->isOperator()Z
 
     move-result v0
 
@@ -408,16 +408,16 @@
 
 .method public isSuspend()Z
     .locals 1
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/FunctionReference;->getReflected()Lkotlin/reflect/i;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/FunctionReference;->getReflected()Lcotlin/reflect/i;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/reflect/i;->isSuspend()Z
+    invoke-interface {v0}, Lcotlin/reflect/i;->isSuspend()Z
 
     move-result v0
 
@@ -428,7 +428,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->compute()Lkotlin/reflect/c;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/CallableReference;->compute()Lcotlin/reflect/c;
 
     move-result-object v0
 
@@ -443,7 +443,7 @@
 
     .line 3
     :cond_0
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getName()Ljava/lang/String;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/CallableReference;->getName()Ljava/lang/String;
 
     move-result-object v0
 
@@ -468,7 +468,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getName()Ljava/lang/String;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/CallableReference;->getName()Ljava/lang/String;
 
     move-result-object v1
 

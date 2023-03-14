@@ -8,7 +8,7 @@
     value = "SMAP\nRtEffectProxy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RtEffectProxy.kt\ncom/commsource/studio/render/RtEffectProxy\n*L\n1#1,162:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/studio/r0/x;",
         "Lcom/commsource/camera/newrender/renderproxy/n;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "h",
         "()V",
         "i",
@@ -166,7 +166,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/r0/x;->i:Lcom/meitu/core/MTRtEffectRender;
@@ -430,7 +430,7 @@
 
     const-string v2, "rtEffectRender.rtEffectMaskTexture"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/k;->c()I
@@ -473,7 +473,7 @@
 
     const-string v2, "rtEffectRender.rtEffectMaskTexture"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/r;->g()I
@@ -671,7 +671,7 @@
     if-nez p1, :cond_0
 
     .line 1
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     iget-object v1, p1, Lcom/meitu/library/renderarch/arch/data/b/d;->e:Lcom/meitu/library/renderarch/arch/data/b/g;

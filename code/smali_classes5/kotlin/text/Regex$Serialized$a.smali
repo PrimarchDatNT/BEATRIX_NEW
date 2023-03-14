@@ -1,11 +1,11 @@
-.class public final Lkotlin/text/Regex$Serialized$a;
+.class public final Lcotlin/text/Regex$Serialized$a;
 .super Ljava/lang/Object;
 .source "Regex.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/text/Regex$Serialized;
+    value = Lcotlin/text/Regex$Serialized;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -51,11 +51,11 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/text/Regex$Serialized$a;-><init>()V
+    invoke-direct {p0}, Lcotlin/text/Regex$Serialized$a;-><init>()V
 
     return-void
 .end method

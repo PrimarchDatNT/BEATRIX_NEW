@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "<anonymous>"
@@ -77,7 +77,7 @@
 
     const-string v2, "mViewBinding.contrast"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/widget/FrameLayout;->getTranslationY()F
 
@@ -143,7 +143,7 @@
 
     const-string v1, "mViewBinding.flSeekContainer"
 
-    invoke-static {v5, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v6, 0x0
 
@@ -155,7 +155,7 @@
 
     const/4 v11, 0x0
 
-    invoke-static/range {v5 .. v11}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v5 .. v11}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1$a;->a:Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1;
@@ -176,7 +176,7 @@
 
     const/16 v10, 0xd
 
-    invoke-static/range {v5 .. v11}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v5 .. v11}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -1,4 +1,4 @@
-.class final synthetic Lkotlinx/coroutines/internal/g0;
+.class final synthetic Lcotlinx/coroutines/internal/g0;
 .super Ljava/lang/Object;
 .source "SystemProps.common.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nSystemProps.common.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SystemProps.common.kt\nkotlinx/coroutines/internal/SystemPropsKt__SystemProps_commonKt\n*L\n1#1,66:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -61,7 +61,7 @@
     move-object v0, p0
 
     .line 1
-    invoke-static/range {v0 .. v6}, Lkotlinx/coroutines/internal/e0;->c(Ljava/lang/String;JJJ)J
+    invoke-static/range {v0 .. v6}, Lcotlinx/coroutines/internal/e0;->c(Ljava/lang/String;JJJ)J
 
     move-result-wide p0
 
@@ -78,14 +78,14 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Lkotlinx/coroutines/internal/e0;->d(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lcotlinx/coroutines/internal/e0;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_2
 
     .line 2
-    invoke-static {v0}, Lkotlin/text/m;->Z0(Ljava/lang/String;)Ljava/lang/Long;
+    invoke-static {v0}, Lcotlin/text/m;->Z0(Ljava/lang/String;)Ljava/lang/Long;
 
     move-result-object p1
 
@@ -197,7 +197,7 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Lkotlinx/coroutines/internal/e0;->d(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lcotlinx/coroutines/internal/e0;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -229,7 +229,7 @@
 
     .line 1
     :cond_1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/internal/e0;->b(Ljava/lang/String;III)I
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/internal/e0;->b(Ljava/lang/String;III)I
 
     move-result p0
 
@@ -262,7 +262,7 @@
     move-wide v1, p1
 
     .line 1
-    invoke-static/range {v0 .. v6}, Lkotlinx/coroutines/internal/e0;->c(Ljava/lang/String;JJJ)J
+    invoke-static/range {v0 .. v6}, Lcotlinx/coroutines/internal/e0;->c(Ljava/lang/String;JJJ)J
 
     move-result-wide p0
 

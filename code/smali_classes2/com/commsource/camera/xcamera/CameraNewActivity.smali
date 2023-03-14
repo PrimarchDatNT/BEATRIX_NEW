@@ -17,7 +17,7 @@
     value = "SMAP\nCameraNewActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CameraNewActivity.kt\ncom/commsource/camera/xcamera/CameraNewActivity\n*L\n1#1,673:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "Landroid/view/View$OnLayoutChangeListener;",
         "Landroid/content/Intent;",
         "intent",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "G1",
         "(Landroid/content/Intent;)V",
         "H1",
@@ -83,7 +83,7 @@
         "(IILandroid/content/Intent;)V",
         "Lcom/commsource/camera/xcamera/cover/confirm/b;",
         "f0",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "A1",
         "()Lcom/commsource/camera/xcamera/cover/confirm/b;",
         "confirmViewModel",
@@ -182,44 +182,44 @@
 
 .field private a0:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;
 
-.field private final b0:Lkotlin/w;
+.field private final b0:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final c0:Lkotlin/w;
+.field private final c0:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final d0:Lkotlin/w;
+.field private final d0:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final e0:Lkotlin/w;
+.field private final e0:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final f0:Lkotlin/w;
+.field private final f0:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final g0:Lkotlin/w;
+.field private final g0:Lcotlin/w;
 
-.field private final h0:Lkotlin/w;
+.field private final h0:Lcotlin/w;
 
-.field private final i0:Lkotlin/w;
+.field private final i0:Lcotlin/w;
 
-.field private final j0:Lkotlin/w;
+.field private final j0:Lcotlin/w;
 
-.field private final k0:Lkotlin/w;
+.field private final k0:Lcotlin/w;
 
-.field private final l0:Lkotlin/w;
+.field private final l0:Lcotlin/w;
 
-.field private final m0:Lkotlin/w;
+.field private final m0:Lcotlin/w;
 
 .field private n0:Ljava/util/HashMap;
 
@@ -236,7 +236,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/camera/xcamera/CameraNewActivity$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/camera/xcamera/CameraNewActivity$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/camera/xcamera/CameraNewActivity;->p0:Lcom/commsource/camera/xcamera/CameraNewActivity$a;
 
@@ -256,132 +256,132 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$bottomFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/CameraNewActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->b0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->b0:Lcotlin/w;
 
     .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/CameraNewActivity$arViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$arViewModel$2;-><init>(Lcom/commsource/camera/xcamera/CameraNewActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->c0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->c0:Lcotlin/w;
 
     .line 4
     new-instance v0, Lcom/commsource/camera/xcamera/CameraNewActivity$cameraCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$cameraCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/CameraNewActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->d0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->d0:Lcotlin/w;
 
     .line 5
     new-instance v0, Lcom/commsource/camera/xcamera/CameraNewActivity$cameraConfigViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$cameraConfigViewModel$2;-><init>(Lcom/commsource/camera/xcamera/CameraNewActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->e0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->e0:Lcotlin/w;
 
     .line 6
     new-instance v0, Lcom/commsource/camera/xcamera/CameraNewActivity$confirmViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$confirmViewModel$2;-><init>(Lcom/commsource/camera/xcamera/CameraNewActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->f0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->f0:Lcotlin/w;
 
     .line 7
     new-instance v0, Lcom/commsource/camera/xcamera/CameraNewActivity$arGiphyMaterialViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$arGiphyMaterialViewModel$2;-><init>(Lcom/commsource/camera/xcamera/CameraNewActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->g0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->g0:Lcotlin/w;
 
     .line 8
     new-instance v0, Lcom/commsource/camera/xcamera/CameraNewActivity$fastCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$fastCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/CameraNewActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->h0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->h0:Lcotlin/w;
 
     .line 9
     new-instance v0, Lcom/commsource/camera/xcamera/CameraNewActivity$effectFunctionViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$effectFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/CameraNewActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->i0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->i0:Lcotlin/w;
 
     .line 10
     new-instance v0, Lcom/commsource/camera/xcamera/CameraNewActivity$popupControllerChain$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$popupControllerChain$2;-><init>(Lcom/commsource/camera/xcamera/CameraNewActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->j0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->j0:Lcotlin/w;
 
     .line 11
     new-instance v0, Lcom/commsource/camera/xcamera/CameraNewActivity$cameraCoverGroup$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$cameraCoverGroup$2;-><init>(Lcom/commsource/camera/xcamera/CameraNewActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->k0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->k0:Lcotlin/w;
 
     .line 12
     new-instance v0, Lcom/commsource/camera/xcamera/CameraNewActivity$logicCoverGroup$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$logicCoverGroup$2;-><init>(Lcom/commsource/camera/xcamera/CameraNewActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->l0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->l0:Lcotlin/w;
 
     .line 13
     new-instance v0, Lcom/commsource/camera/xcamera/CameraNewActivity$selfieConfirmCoverGroup$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$selfieConfirmCoverGroup$2;-><init>(Lcom/commsource/camera/xcamera/CameraNewActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->m0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->m0:Lcotlin/w;
 
     return-void
 .end method
@@ -393,9 +393,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->i0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->i0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -413,9 +413,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->h0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->h0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -433,9 +433,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->l0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->l0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -453,9 +453,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->j0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->j0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -473,9 +473,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->m0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->m0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -541,7 +541,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/router/g;->a(Ljava/lang/String;)Z
@@ -579,11 +579,11 @@
 
     .line 9
     :cond_3
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type com.commsource.beautyplus.router.RouterEntity"
 
-    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -643,11 +643,11 @@
 
     .line 4
     :cond_1
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type com.commsource.beautyplus.router.RouterEntity"
 
-    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -675,7 +675,7 @@
 
     const-string v1, "beautyViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -731,7 +731,7 @@
 
     const-string v1, "filterViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -785,7 +785,7 @@
 
     const-string v1, "lookViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -807,7 +807,7 @@
 
     const-string v1, "makeupViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -944,9 +944,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->g0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->g0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -964,9 +964,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->k0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->k0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -988,9 +988,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->f0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->f0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1482,7 +1482,7 @@
 
     const-string v4, "android.media.action.IMAGE_CAPTURE"
 
-    invoke-static {v4, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v4, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
 
@@ -1531,7 +1531,7 @@
 
     const-string v5, "ar"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v4
 
@@ -1556,7 +1556,7 @@
 
     const-string v4, "look"
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1570,11 +1570,11 @@
 
     .line 11
     :cond_1
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type com.commsource.beautyplus.router.RouterEntity"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2143,7 +2143,7 @@
 
     const-string v2, "arGiphyMaterialViewModel.isTouchingArGiphyEvent"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-object v2, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
@@ -2320,7 +2320,7 @@
 
     const-string v2, "beautyViewModel"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/d;->f0()V
@@ -2340,9 +2340,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->c0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->c0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -2362,9 +2362,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->b0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->b0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -2384,9 +2384,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->d0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->d0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -2406,9 +2406,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->e0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity;->e0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 

@@ -17,7 +17,7 @@
     value = "SMAP\nHprofWriter.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HprofWriter.kt\nkshark/HprofWriter\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,410:1\n1587#2,2:411\n1587#2,2:413\n1587#2,2:415\n10922#3,2:417\n10943#3,2:419\n10929#3,2:421\n10936#3,2:423\n10908#3,2:425\n10915#3,2:427\n10922#3,2:429\n*E\n*S KotlinDebug\n*F\n+ 1 HprofWriter.kt\nkshark/HprofWriter\n*L\n54#1,2:411\n192#1,2:413\n192#1,2:415\n317#1,2:417\n321#1,2:419\n329#1,2:421\n333#1,2:423\n337#1,2:425\n341#1,2:427\n345#1,2:429\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "Lokio/BufferedSink;",
         "Lkshark/b0;",
         "wrapper",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "x",
         "(Lokio/BufferedSink;Lkshark/b0;)V",
         "Lkshark/m;",
@@ -74,11 +74,11 @@
         "m",
         "",
         "tag",
-        "Lkotlin/Function1;",
-        "Lkotlin/q;",
+        "Lcotlin/Function1;",
+        "Lcotlin/q;",
         "block",
         "v",
-        "(Lokio/BufferedSink;ILkotlin/jvm/u/l;)V",
+        "(Lokio/BufferedSink;ILcotlin/jvm/u/l;)V",
         "c",
         "(Lokio/BufferedSink;)V",
         "",
@@ -151,7 +151,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkshark/HprofWriter$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lkshark/HprofWriter$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lkshark/HprofWriter;->f:Lkshark/HprofWriter$a;
 
@@ -180,7 +180,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lokio/BufferedSink;ILkshark/Hprof$HprofVersion;Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lokio/BufferedSink;ILkshark/Hprof$HprofVersion;Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 3
@@ -271,7 +271,7 @@
 
     invoke-direct {v0, p0, p2}, Lkshark/HprofWriter$write$1;-><init>(Lkshark/HprofWriter;Lkshark/m;)V
 
-    invoke-direct {p0, p1, v1, v0}, Lkshark/HprofWriter;->v(Lokio/BufferedSink;ILkotlin/jvm/u/l;)V
+    invoke-direct {p0, p1, v1, v0}, Lkshark/HprofWriter;->v(Lokio/BufferedSink;ILcotlin/jvm/u/l;)V
 
     goto/16 :goto_2
 
@@ -288,7 +288,7 @@
 
     invoke-direct {v0, p0, p2}, Lkshark/HprofWriter$write$2;-><init>(Lkshark/HprofWriter;Lkshark/m;)V
 
-    invoke-direct {p0, p1, v2, v0}, Lkshark/HprofWriter;->v(Lokio/BufferedSink;ILkotlin/jvm/u/l;)V
+    invoke-direct {p0, p1, v2, v0}, Lkshark/HprofWriter;->v(Lokio/BufferedSink;ILcotlin/jvm/u/l;)V
 
     goto/16 :goto_2
 
@@ -305,7 +305,7 @@
 
     invoke-direct {v0, p0, p2}, Lkshark/HprofWriter$write$3;-><init>(Lkshark/HprofWriter;Lkshark/m;)V
 
-    invoke-direct {p0, p1, v3, v0}, Lkshark/HprofWriter;->v(Lokio/BufferedSink;ILkotlin/jvm/u/l;)V
+    invoke-direct {p0, p1, v3, v0}, Lkshark/HprofWriter;->v(Lokio/BufferedSink;ILcotlin/jvm/u/l;)V
 
     goto/16 :goto_2
 
@@ -730,9 +730,9 @@
     goto/16 :goto_2
 
     :cond_12
-    new-instance p1, Lkotlin/NoWhenBranchMatchedException;
+    new-instance p1, Lcotlin/NoWhenBranchMatchedException;
 
-    invoke-direct {p1}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+    invoke-direct {p1}, Lcotlin/NoWhenBranchMatchedException;-><init>()V
 
     throw p1
 
@@ -1344,9 +1344,9 @@
     goto :goto_2
 
     :cond_1f
-    new-instance p1, Lkotlin/NoWhenBranchMatchedException;
+    new-instance p1, Lcotlin/NoWhenBranchMatchedException;
 
-    invoke-direct {p1}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+    invoke-direct {p1}, Lcotlin/NoWhenBranchMatchedException;-><init>()V
 
     throw p1
 
@@ -1415,7 +1415,7 @@
 
     invoke-direct {v0, p2}, Ljava/lang/String;-><init>([C)V
 
-    sget-object p2, Lkotlin/text/d;->c:Ljava/nio/charset/Charset;
+    sget-object p2, Lcotlin/text/d;->c:Ljava/nio/charset/Charset;
 
     invoke-interface {p1, v0, p2}, Lokio/BufferedSink;->writeString(Ljava/lang/String;Ljava/nio/charset/Charset;)Lokio/BufferedSink;
 
@@ -1732,7 +1732,7 @@
     return-void
 .end method
 
-.method private final v(Lokio/BufferedSink;ILkotlin/jvm/u/l;)V
+.method private final v(Lokio/BufferedSink;ILcotlin/jvm/u/l;)V
     .locals 2
     .param p1    # Lokio/BufferedSink;
         .annotation build Ln/e/a/d;
@@ -1743,10 +1743,10 @@
             "(",
             "Lokio/BufferedSink;",
             "I",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lokio/BufferedSink;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1757,7 +1757,7 @@
     .line 2
     iget-object v0, p0, Lkshark/HprofWriter;->a:Lokio/Buffer;
 
-    invoke-interface {p3, v0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 3
     iget-object p3, p0, Lkshark/HprofWriter;->a:Lokio/Buffer;
@@ -2019,7 +2019,7 @@
 
     const-string v0, "values"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lokio/Buffer;
@@ -2057,7 +2057,7 @@
 
     const-string v0, "valuesBuffer.readByteArray()"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
@@ -2071,7 +2071,7 @@
 
     const-string v0, "record"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lkshark/HprofWriter;->b:Lokio/BufferedSink;

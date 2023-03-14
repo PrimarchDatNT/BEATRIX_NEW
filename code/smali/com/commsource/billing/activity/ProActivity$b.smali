@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
     d2 = {
         "com/commsource/billing/activity/ProActivity$b",
         "Landroid/os/CountDownTimer;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onFinish",
         "()V",
         "",
@@ -129,7 +129,7 @@
 
     const-string v2, "mViewBinding.tvLeftTime"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1, p2}, Lcom/commsource/util/h0;->a(J)Ljava/lang/String;
 

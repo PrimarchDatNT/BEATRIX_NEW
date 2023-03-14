@@ -1,13 +1,13 @@
-.class final Lkotlinx/coroutines/b;
+.class final Lcotlinx/coroutines/b;
 .super Ljava/lang/Object;
 .source "CancellableContinuationImpl.kt"
 
 # interfaces
-.implements Lkotlinx/coroutines/q2;
+.implements Lcotlinx/coroutines/q2;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -17,8 +17,8 @@
         "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0005\u0008\u00c2\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u000f\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0003\u0010\u0004\u00a8\u0006\u0007"
     }
     d2 = {
-        "Lkotlinx/coroutines/b;",
-        "Lkotlinx/coroutines/q2;",
+        "Lcotlinx/coroutines/b;",
+        "Lcotlinx/coroutines/q2;",
         "",
         "toString",
         "()Ljava/lang/String;",
@@ -36,7 +36,7 @@
 
 
 # static fields
-.field public static final a:Lkotlinx/coroutines/b;
+.field public static final a:Lcotlinx/coroutines/b;
 
 
 # direct methods
@@ -44,11 +44,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/b;
+    new-instance v0, Lcotlinx/coroutines/b;
 
-    invoke-direct {v0}, Lkotlinx/coroutines/b;-><init>()V
+    invoke-direct {v0}, Lcotlinx/coroutines/b;-><init>()V
 
-    sput-object v0, Lkotlinx/coroutines/b;->a:Lkotlinx/coroutines/b;
+    sput-object v0, Lcotlinx/coroutines/b;->a:Lcotlinx/coroutines/b;
 
     return-void
 .end method

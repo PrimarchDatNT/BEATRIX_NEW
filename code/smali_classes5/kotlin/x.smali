@@ -1,9 +1,9 @@
-.class public final synthetic Lkotlin/x;
+.class public final synthetic Lcotlin/x;
 .super Ljava/lang/Object;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
 .method static synthetic constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Lkotlin/LazyThreadSafetyMode;->values()[Lkotlin/LazyThreadSafetyMode;
+    invoke-static {}, Lcotlin/LazyThreadSafetyMode;->values()[Lcotlin/LazyThreadSafetyMode;
 
     move-result-object v0
 
@@ -36,9 +36,9 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkotlin/x;->a:[I
+    sput-object v0, Lcotlin/x;->a:[I
 
-    sget-object v1, Lkotlin/LazyThreadSafetyMode;->SYNCHRONIZED:Lkotlin/LazyThreadSafetyMode;
+    sget-object v1, Lcotlin/LazyThreadSafetyMode;->SYNCHRONIZED:Lcotlin/LazyThreadSafetyMode;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -48,7 +48,7 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Lkotlin/LazyThreadSafetyMode;->PUBLICATION:Lkotlin/LazyThreadSafetyMode;
+    sget-object v1, Lcotlin/LazyThreadSafetyMode;->PUBLICATION:Lcotlin/LazyThreadSafetyMode;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -58,7 +58,7 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Lkotlin/LazyThreadSafetyMode;->NONE:Lkotlin/LazyThreadSafetyMode;
+    sget-object v1, Lcotlin/LazyThreadSafetyMode;->NONE:Lcotlin/LazyThreadSafetyMode;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

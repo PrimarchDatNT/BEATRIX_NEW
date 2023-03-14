@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/internal/p$b;
+.class public final Lcotlinx/coroutines/internal/p$b;
 .super Ljava/lang/Object;
 .source "LockFreeTaskQueue.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/internal/p;
+    value = Lcotlinx/coroutines/internal/p;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "b"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -44,7 +44,7 @@
 
 # instance fields
 .field public final a:I
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 .end field
 
@@ -56,7 +56,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput p1, p0, Lkotlinx/coroutines/internal/p$b;->a:I
+    iput p1, p0, Lcotlinx/coroutines/internal/p$b;->a:I
 
     return-void
 .end method

@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/commsource/mypage/album/BpAlbumJumpRouter;->g(Landroidx/fragment/app/FragmentActivity;ZLjava/lang/String;Lkotlin/jvm/u/l;)V
+    value = Lcom/commsource/mypage/album/BpAlbumJumpRouter;->g(Landroidx/fragment/app/FragmentActivity;ZLjava/lang/String;Lcotlin/jvm/u/l;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,7 +17,7 @@
     value = "SMAP\nBpAlbumJumpRouter.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpAlbumJumpRouter.kt\ncom/commsource/mypage/album/BpAlbumJumpRouter$h5SelectAspectRatioImage$setting$1$1\n*L\n1#1,600:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "activity",
         "Lcom/commsource/mypage/album/w;",
         "albumJumpInfo",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onImageSelect",
         "(Landroid/app/Activity;Lcom/commsource/mypage/album/w;)V",
         "app_googleplayRelease"
@@ -76,11 +76,11 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "albumJumpInfo"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p2}, Lcom/commsource/mypage/album/w;->h()Landroid/os/Bundle;
@@ -144,7 +144,7 @@
     .line 8
     new-instance p1, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;
 
-    invoke-direct {p1, v5, p2}, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;-><init>(Landroid/content/Intent;Lkotlin/jvm/u/l;)V
+    invoke-direct {p1, v5, p2}, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;-><init>(Landroid/content/Intent;Lcotlin/jvm/u/l;)V
 
     invoke-virtual {v3, p1}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 

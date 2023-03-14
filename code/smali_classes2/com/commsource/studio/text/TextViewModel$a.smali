@@ -17,7 +17,7 @@
     value = "SMAP\nTextViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextViewModel.kt\ncom/commsource/studio/text/TextViewModel$Companion\n*L\n1#1,429:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "",
         "Lcom/commsource/studio/text/TextGroupParam;",
         "textGroupParam",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/studio/text/TextGroupParam;)V",
         "<init>",
@@ -57,7 +57,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -81,7 +81,7 @@
 
     const-string v1, "textGroupParam"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Ljava/util/HashMap;
@@ -557,7 +557,7 @@
     const-string v2, "it"
 
     .line 73
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v2, "text_attributes"
 

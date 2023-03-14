@@ -1,10 +1,10 @@
-.class Lkotlin/text/c;
-.super Lkotlin/text/b;
+.class Lcotlin/text/c;
+.super Lcotlin/text/b;
 .source "Char.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -55,17 +55,17 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/text/b;-><init>()V
+    invoke-direct {p0}, Lcotlin/text/b;-><init>()V
 
     return-void
 .end method
 
 .method public static final E(I)C
     .locals 3
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -110,10 +110,10 @@
 
 .method public static final F(II)C
     .locals 3
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -206,10 +206,10 @@
 
 .method public static final G(C)I
     .locals 3
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -254,15 +254,15 @@
 
 .method public static final H(CI)I
     .locals 3
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/text/c;->J(CI)Ljava/lang/Integer;
+    invoke-static {p0, p1}, Lcotlin/text/c;->J(CI)Ljava/lang/Integer;
 
     move-result-object v0
 
@@ -304,10 +304,10 @@
 
 .method public static final I(C)Ljava/lang/Integer;
     .locals 2
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -343,10 +343,10 @@
 
 .method public static final J(CI)Ljava/lang/Integer;
     .locals 3
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -391,7 +391,7 @@
     const/16 v0, 0x5a
 
     .line 2
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->t(II)I
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result v0
 
@@ -513,7 +513,7 @@
 
     .line 1
     :cond_0
-    invoke-static {p0, p1, p2}, Lkotlin/text/c;->K(CCZ)Z
+    invoke-static {p0, p1, p2}, Lcotlin/text/c;->K(CCZ)Z
 
     move-result p0
 
@@ -548,7 +548,7 @@
 
 .method private static final N(CLjava/lang/String;)Ljava/lang/String;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1

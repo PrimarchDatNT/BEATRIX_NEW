@@ -1,9 +1,9 @@
-.class public final Lkotlin/text/a;
-.super Lkotlin/text/c;
+.class public final Lcotlin/text/a;
+.super Lcotlin/text/c;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,17 +27,17 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/text/c;-><init>()V
+    invoke-direct {p0}, Lcotlin/text/c;-><init>()V
 
     return-void
 .end method
 
 .method public static bridge synthetic a(I)I
     .locals 0
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/text/b;->a(I)I
+    invoke-static {p0}, Lcotlin/text/b;->a(I)I
 
     move-result p0
 

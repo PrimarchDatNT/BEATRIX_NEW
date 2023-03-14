@@ -8,7 +8,7 @@
     value = "SMAP\nVignetteRenderProxy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VignetteRenderProxy.kt\ncom/commsource/studio/render/VignetteRenderProxy\n*L\n1#1,38:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/studio/r0/f0;",
         "Lcom/commsource/studio/r0/s;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "h",
         "()V",
         "",
@@ -64,7 +64,7 @@
 
     const-string v0, "colourResult"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "studio/vignette"
 
@@ -73,7 +73,7 @@
     const/4 v2, 0x2
 
     .line 1
-    invoke-direct {p0, v0, v1, v2, v1}, Lcom/commsource/studio/r0/s;-><init>(Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, v0, v1, v2, v1}, Lcom/commsource/studio/r0/s;-><init>(Ljava/lang/String;Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lcom/commsource/studio/r0/f0;->j:Lcom/commsource/studio/effect/d;
 
@@ -163,7 +163,7 @@
 
     aget v2, v4, v2
 
-    invoke-static {v1, v2}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v1, v2}, Lcotlin/g2/o;->m(FF)F
 
     move-result v1
 

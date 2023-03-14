@@ -1,9 +1,9 @@
 .class final Lkshark/HeapAnalyzer$computeLeakStatuses$previousLeakingIndex$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "HeapAnalyzer.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
@@ -18,15 +18,15 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Ljava/lang/Integer;",
         "Ljava/lang/Integer;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -52,18 +52,18 @@
 
 
 # instance fields
-.field final synthetic $firstLeakingElementIndex:Lkotlin/jvm/internal/Ref$IntRef;
+.field final synthetic $firstLeakingElementIndex:Lcotlin/jvm/internal/Ref$IntRef;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/jvm/internal/Ref$IntRef;)V
+.method constructor <init>(Lcotlin/jvm/internal/Ref$IntRef;)V
     .locals 0
 
-    iput-object p1, p0, Lkshark/HeapAnalyzer$computeLeakStatuses$previousLeakingIndex$1;->$firstLeakingElementIndex:Lkotlin/jvm/internal/Ref$IntRef;
+    iput-object p1, p0, Lkshark/HeapAnalyzer$computeLeakStatuses$previousLeakingIndex$1;->$firstLeakingElementIndex:Lcotlin/jvm/internal/Ref$IntRef;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -76,9 +76,9 @@
     .end annotation
 
     .line 2
-    iget-object v0, p0, Lkshark/HeapAnalyzer$computeLeakStatuses$previousLeakingIndex$1;->$firstLeakingElementIndex:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object v0, p0, Lkshark/HeapAnalyzer$computeLeakStatuses$previousLeakingIndex$1;->$firstLeakingElementIndex:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget v0, v0, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v0, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     if-le p1, v0, :cond_0
 

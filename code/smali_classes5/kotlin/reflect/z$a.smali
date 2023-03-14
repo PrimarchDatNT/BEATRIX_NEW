@@ -1,11 +1,11 @@
-.class public final Lkotlin/reflect/z$a;
+.class public final Lcotlin/reflect/z$a;
 .super Ljava/lang/Object;
 .source "TypesJVM.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/reflect/z;
+    value = Lcotlin/reflect/z;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,11 +25,11 @@
     d2 = {
         "kotlin/reflect/z$a",
         "",
-        "Lkotlin/reflect/z;",
+        "Lcotlin/reflect/z;",
         "STAR",
-        "Lkotlin/reflect/z;",
+        "Lcotlin/reflect/z;",
         "a",
-        "()Lkotlin/reflect/z;",
+        "()Lcotlin/reflect/z;",
         "<init>",
         "()V",
         "kotlin-stdlib"
@@ -53,24 +53,24 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/reflect/z$a;-><init>()V
+    invoke-direct {p0}, Lcotlin/reflect/z$a;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Lkotlin/reflect/z;
+.method public final a()Lcotlin/reflect/z;
     .locals 1
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlin/reflect/z;->h0()Lkotlin/reflect/z;
+    invoke-static {}, Lcotlin/reflect/z;->h0()Lcotlin/reflect/z;
 
     move-result-object v0
 

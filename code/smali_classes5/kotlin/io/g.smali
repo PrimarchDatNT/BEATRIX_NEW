@@ -1,10 +1,10 @@
-.class public final Lkotlin/io/g;
+.class public final Lcotlin/io/g;
 .super Ljava/lang/Object;
 .source "FilePathComponents.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -14,7 +14,7 @@
         "\u00000\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010 \n\u0002\u0008\u0006\n\u0002\u0010\u000e\n\u0002\u0008\u0005\n\u0002\u0010\u000b\n\u0002\u0008\u0010\u0008\u0080\u0008\u0018\u00002\u00020\u0001B\u001f\u0008\u0000\u0012\u0006\u0010\r\u001a\u00020\u0005\u0012\u000c\u0010\u000e\u001a\u0008\u0012\u0004\u0012\u00020\u00050\n\u00a2\u0006\u0004\u0008%\u0010&J\u001d\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0004\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u0010\u0010\u0008\u001a\u00020\u0005H\u00c6\u0003\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\u0016\u0010\u000b\u001a\u0008\u0012\u0004\u0012\u00020\u00050\nH\u00c6\u0003\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ*\u0010\u000f\u001a\u00020\u00002\u0008\u0008\u0002\u0010\r\u001a\u00020\u00052\u000e\u0008\u0002\u0010\u000e\u001a\u0008\u0012\u0004\u0012\u00020\u00050\nH\u00c6\u0001\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J\u0010\u0010\u0012\u001a\u00020\u0011H\u00d6\u0001\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u0010\u0010\u0014\u001a\u00020\u0002H\u00d6\u0001\u00a2\u0006\u0004\u0008\u0014\u0010\u0015J\u001a\u0010\u0018\u001a\u00020\u00172\u0008\u0010\u0016\u001a\u0004\u0018\u00010\u0001H\u00d6\u0003\u00a2\u0006\u0004\u0008\u0018\u0010\u0019R\u0019\u0010\r\u001a\u00020\u00058\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0008\u0010\u001a\u001a\u0004\u0008\u001b\u0010\tR\u0013\u0010\u001e\u001a\u00020\u00178F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008\u001c\u0010\u001dR\u001f\u0010\u000e\u001a\u0008\u0012\u0004\u0012\u00020\u00050\n8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u000b\u0010\u001f\u001a\u0004\u0008 \u0010\u000cR\u0013\u0010\"\u001a\u00020\u00118F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008!\u0010\u0013R\u0013\u0010$\u001a\u00020\u00028F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008#\u0010\u0015\u00a8\u0006\'"
     }
     d2 = {
-        "Lkotlin/io/g;",
+        "Lcotlin/io/g;",
         "",
         "",
         "beginIndex",
@@ -30,7 +30,7 @@
         "root",
         "segments",
         "c",
-        "(Ljava/io/File;Ljava/util/List;)Lkotlin/io/g;",
+        "(Ljava/io/File;Ljava/util/List;)Lcotlin/io/g;",
         "",
         "toString",
         "()Ljava/lang/String;",
@@ -108,40 +108,40 @@
 
     const-string v0, "root"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "segments"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkotlin/io/g;->a:Ljava/io/File;
+    iput-object p1, p0, Lcotlin/io/g;->a:Ljava/io/File;
 
-    iput-object p2, p0, Lkotlin/io/g;->b:Ljava/util/List;
+    iput-object p2, p0, Lcotlin/io/g;->b:Ljava/util/List;
 
     return-void
 .end method
 
-.method public static synthetic d(Lkotlin/io/g;Ljava/io/File;Ljava/util/List;ILjava/lang/Object;)Lkotlin/io/g;
+.method public static synthetic d(Lcotlin/io/g;Ljava/io/File;Ljava/util/List;ILjava/lang/Object;)Lcotlin/io/g;
     .locals 0
 
     and-int/lit8 p4, p3, 0x1
 
     if-eqz p4, :cond_0
 
-    iget-object p1, p0, Lkotlin/io/g;->a:Ljava/io/File;
+    iget-object p1, p0, Lcotlin/io/g;->a:Ljava/io/File;
 
     :cond_0
     and-int/lit8 p3, p3, 0x2
 
     if-eqz p3, :cond_1
 
-    iget-object p2, p0, Lkotlin/io/g;->b:Ljava/util/List;
+    iget-object p2, p0, Lcotlin/io/g;->b:Ljava/util/List;
 
     :cond_1
-    invoke-virtual {p0, p1, p2}, Lkotlin/io/g;->c(Ljava/io/File;Ljava/util/List;)Lkotlin/io/g;
+    invoke-virtual {p0, p1, p2}, Lcotlin/io/g;->c(Ljava/io/File;Ljava/util/List;)Lcotlin/io/g;
 
     move-result-object p0
 
@@ -155,7 +155,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    iget-object v0, p0, Lkotlin/io/g;->a:Ljava/io/File;
+    iget-object v0, p0, Lcotlin/io/g;->a:Ljava/io/File;
 
     return-object v0
 .end method
@@ -174,12 +174,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    iget-object v0, p0, Lkotlin/io/g;->b:Ljava/util/List;
+    iget-object v0, p0, Lcotlin/io/g;->b:Ljava/util/List;
 
     return-object v0
 .end method
 
-.method public final c(Ljava/io/File;Ljava/util/List;)Lkotlin/io/g;
+.method public final c(Ljava/io/File;Ljava/util/List;)Lcotlin/io/g;
     .locals 1
     .param p1    # Ljava/io/File;
         .annotation build Ln/e/a/d;
@@ -197,7 +197,7 @@
             "+",
             "Ljava/io/File;",
             ">;)",
-            "Lkotlin/io/g;"
+            "Lcotlin/io/g;"
         }
     .end annotation
 
@@ -206,15 +206,15 @@
 
     const-string v0, "root"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "segments"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance v0, Lkotlin/io/g;
+    new-instance v0, Lcotlin/io/g;
 
-    invoke-direct {v0, p1, p2}, Lkotlin/io/g;-><init>(Ljava/io/File;Ljava/util/List;)V
+    invoke-direct {v0, p1, p2}, Lcotlin/io/g;-><init>(Ljava/io/File;Ljava/util/List;)V
 
     return-object v0
 .end method
@@ -225,7 +225,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/io/g;->a:Ljava/io/File;
+    iget-object v0, p0, Lcotlin/io/g;->a:Ljava/io/File;
 
     return-object v0
 .end method
@@ -239,27 +239,27 @@
 
     if-eq p0, p1, :cond_1
 
-    instance-of v0, p1, Lkotlin/io/g;
+    instance-of v0, p1, Lcotlin/io/g;
 
     if-eqz v0, :cond_0
 
-    check-cast p1, Lkotlin/io/g;
+    check-cast p1, Lcotlin/io/g;
 
-    iget-object v0, p0, Lkotlin/io/g;->a:Ljava/io/File;
+    iget-object v0, p0, Lcotlin/io/g;->a:Ljava/io/File;
 
-    iget-object v1, p1, Lkotlin/io/g;->a:Ljava/io/File;
+    iget-object v1, p1, Lcotlin/io/g;->a:Ljava/io/File;
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkotlin/io/g;->b:Ljava/util/List;
+    iget-object v0, p0, Lcotlin/io/g;->b:Ljava/util/List;
 
-    iget-object p1, p1, Lkotlin/io/g;->b:Ljava/util/List;
+    iget-object p1, p1, Lcotlin/io/g;->b:Ljava/util/List;
 
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -285,7 +285,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/io/g;->a:Ljava/io/File;
+    iget-object v0, p0, Lcotlin/io/g;->a:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->getPath()Ljava/lang/String;
 
@@ -293,7 +293,7 @@
 
     const-string v1, "root.path"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -313,7 +313,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/io/g;->b:Ljava/util/List;
+    iget-object v0, p0, Lcotlin/io/g;->b:Ljava/util/List;
 
     return-object v0
 .end method
@@ -322,7 +322,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/io/g;->b:Ljava/util/List;
+    iget-object v0, p0, Lcotlin/io/g;->b:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -334,7 +334,7 @@
 .method public hashCode()I
     .locals 3
 
-    iget-object v0, p0, Lkotlin/io/g;->a:Ljava/io/File;
+    iget-object v0, p0, Lcotlin/io/g;->a:Ljava/io/File;
 
     const/4 v1, 0x0
 
@@ -352,7 +352,7 @@
     :goto_0
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v2, p0, Lkotlin/io/g;->b:Ljava/util/List;
+    iget-object v2, p0, Lcotlin/io/g;->b:Ljava/util/List;
 
     if-eqz v2, :cond_1
 
@@ -370,7 +370,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lkotlin/io/g;->a:Ljava/io/File;
+    iget-object v0, p0, Lcotlin/io/g;->a:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->getPath()Ljava/lang/String;
 
@@ -378,7 +378,7 @@
 
     const-string v1, "root.path"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
 
@@ -407,7 +407,7 @@
     if-gt p1, p2, :cond_0
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/io/g;->h()I
+    invoke-virtual {p0}, Lcotlin/io/g;->h()I
 
     move-result v0
 
@@ -416,7 +416,7 @@
     .line 2
     new-instance v0, Ljava/io/File;
 
-    iget-object v1, p0, Lkotlin/io/g;->b:Ljava/util/List;
+    iget-object v1, p0, Lcotlin/io/g;->b:Ljava/util/List;
 
     invoke-interface {v1, p1, p2}, Ljava/util/List;->subList(II)Ljava/util/List;
 
@@ -426,7 +426,7 @@
 
     const-string p1, "File.separator"
 
-    invoke-static {v3, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x0
 
@@ -442,7 +442,7 @@
 
     const/4 v10, 0x0
 
-    invoke-static/range {v2 .. v10}, Lkotlin/collections/s;->X2(Ljava/lang/Iterable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lkotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v2 .. v10}, Lcotlin/collections/s;->X2(Ljava/lang/Iterable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lcotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -472,7 +472,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lkotlin/io/g;->a:Ljava/io/File;
+    iget-object v1, p0, Lcotlin/io/g;->a:Ljava/io/File;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -480,7 +480,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lkotlin/io/g;->b:Ljava/util/List;
+    iget-object v1, p0, Lcotlin/io/g;->b:Ljava/util/List;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 

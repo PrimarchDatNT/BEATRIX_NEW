@@ -8,7 +8,7 @@
     value = "SMAP\nHWGLContext.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HWGLContext.kt\ncom/commsource/editengine/HWGLContext\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,71:1\n1819#2,2:72\n*E\n*S KotlinDebug\n*F\n+ 1 HWGLContext.kt\ncom/commsource/editengine/HWGLContext\n*L\n45#1,2:72\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/editengine/b;",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "g",
         "()V",
         "h",
@@ -125,7 +125,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v1, v2, v3}, Lcom/commsource/studio/s;-><init>(IILkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/commsource/studio/s;-><init>(IILcotlin/jvm/internal/u;)V
 
     iput-object v0, p0, Lcom/commsource/editengine/b;->c:Lcom/commsource/studio/s;
 
@@ -161,7 +161,7 @@
 
     const-string v1, "observer"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Ljava/lang/StringBuilder;
@@ -237,7 +237,7 @@
 
     const-string v3, "this"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2, p1, v1}, Lcom/commsource/studio/shader/n;->k(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
@@ -432,7 +432,7 @@
 
     if-eqz v1, :cond_1
 
-    invoke-static {v1}, Lkotlin/jvm/internal/t0;->a(Ljava/lang/Object;)Ljava/util/Collection;
+    invoke-static {v1}, Lcotlin/jvm/internal/t0;->a(Ljava/lang/Object;)Ljava/util/Collection;
 
     move-result-object v1
 

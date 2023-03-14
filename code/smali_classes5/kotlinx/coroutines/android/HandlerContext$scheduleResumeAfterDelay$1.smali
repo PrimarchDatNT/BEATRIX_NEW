@@ -1,14 +1,14 @@
-.class final Lkotlinx/coroutines/android/HandlerContext$scheduleResumeAfterDelay$1;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlinx/coroutines/android/HandlerContext$scheduleResumeAfterDelay$1;
+.super Lcotlin/jvm/internal/Lambda;
 .source "HandlerDispatcher.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/android/HandlerContext;->b(JLkotlinx/coroutines/m;)V
+    value = Lcotlinx/coroutines/android/HandlerContext;->b(JLcotlinx/coroutines/m;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,15 +18,15 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Ljava/lang/Throwable;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
     d2 = {
         "",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(Ljava/lang/Throwable;)V",
         "<anonymous>"
@@ -55,20 +55,20 @@
 # instance fields
 .field final synthetic $block:Ljava/lang/Runnable;
 
-.field final synthetic this$0:Lkotlinx/coroutines/android/HandlerContext;
+.field final synthetic this$0:Lcotlinx/coroutines/android/HandlerContext;
 
 
 # direct methods
-.method constructor <init>(Lkotlinx/coroutines/android/HandlerContext;Ljava/lang/Runnable;)V
+.method constructor <init>(Lcotlinx/coroutines/android/HandlerContext;Ljava/lang/Runnable;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/android/HandlerContext$scheduleResumeAfterDelay$1;->this$0:Lkotlinx/coroutines/android/HandlerContext;
+    iput-object p1, p0, Lcotlinx/coroutines/android/HandlerContext$scheduleResumeAfterDelay$1;->this$0:Lcotlinx/coroutines/android/HandlerContext;
 
-    iput-object p2, p0, Lkotlinx/coroutines/android/HandlerContext$scheduleResumeAfterDelay$1;->$block:Ljava/lang/Runnable;
+    iput-object p2, p0, Lcotlinx/coroutines/android/HandlerContext$scheduleResumeAfterDelay$1;->$block:Ljava/lang/Runnable;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -81,9 +81,9 @@
     .line 1
     check-cast p1, Ljava/lang/Throwable;
 
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/android/HandlerContext$scheduleResumeAfterDelay$1;->invoke(Ljava/lang/Throwable;)V
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/android/HandlerContext$scheduleResumeAfterDelay$1;->invoke(Ljava/lang/Throwable;)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method
@@ -96,13 +96,13 @@
     .end param
 
     .line 2
-    iget-object p1, p0, Lkotlinx/coroutines/android/HandlerContext$scheduleResumeAfterDelay$1;->this$0:Lkotlinx/coroutines/android/HandlerContext;
+    iget-object p1, p0, Lcotlinx/coroutines/android/HandlerContext$scheduleResumeAfterDelay$1;->this$0:Lcotlinx/coroutines/android/HandlerContext;
 
-    invoke-static {p1}, Lkotlinx/coroutines/android/HandlerContext;->E(Lkotlinx/coroutines/android/HandlerContext;)Landroid/os/Handler;
+    invoke-static {p1}, Lcotlinx/coroutines/android/HandlerContext;->E(Lcotlinx/coroutines/android/HandlerContext;)Landroid/os/Handler;
 
     move-result-object p1
 
-    iget-object v0, p0, Lkotlinx/coroutines/android/HandlerContext$scheduleResumeAfterDelay$1;->$block:Ljava/lang/Runnable;
+    iget-object v0, p0, Lcotlinx/coroutines/android/HandlerContext$scheduleResumeAfterDelay$1;->$block:Ljava/lang/Runnable;
 
     invoke-virtual {p1, v0}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 

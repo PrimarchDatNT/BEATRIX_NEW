@@ -28,9 +28,9 @@
 
     iget-object v0, p0, Lcom/commsource/mypage/x;->a:Lcom/commsource/mypage/g0;
 
-    check-cast p1, Lkotlin/Pair;
+    check-cast p1, Lcotlin/Pair;
 
-    invoke-virtual {v0, p1}, Lcom/commsource/mypage/g0;->n0(Lkotlin/Pair;)V
+    invoke-virtual {v0, p1}, Lcom/commsource/mypage/g0;->n0(Lcotlin/Pair;)V
 
     return-void
 .end method

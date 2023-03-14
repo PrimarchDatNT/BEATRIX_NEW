@@ -1,14 +1,14 @@
-.class final Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;
-.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.class final Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;
+.super Lcotlin/coroutines/jvm/internal/SuspendLambda;
 .source "Merge.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;->o(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;->o(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,12 +18,12 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Lkotlin/jvm/u/p<",
-        "Lkotlinx/coroutines/m0;",
-        "Lkotlin/coroutines/c<",
+        "Lcotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lcotlin/jvm/u/p<",
+        "Lcotlinx/coroutines/m0;",
+        "Lcotlin/coroutines/c<",
         "-",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;",
         "Ljava/lang/Object;",
         ">;"
@@ -34,7 +34,7 @@
     value = "SMAP\nMerge.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Merge.kt\nkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3\n+ 2 Collect.kt\nkotlinx/coroutines/flow/FlowKt__CollectKt\n*L\n1#1,98:1\n73#2,3:99\n*E\n*S KotlinDebug\n*F\n+ 1 Merge.kt\nkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3\n*L\n26#1,3:99\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -46,8 +46,8 @@
     d2 = {
         "T",
         "R",
-        "Lkotlinx/coroutines/m0;",
-        "Lkotlin/t1;",
+        "Lcotlinx/coroutines/m0;",
+        "Lcotlin/t1;",
         "invoke",
         "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
         "<anonymous>"
@@ -60,7 +60,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3"
     f = "Merge.kt"
     i = {
@@ -86,7 +86,7 @@
 
 
 # instance fields
-.field final synthetic $collector:Lkotlinx/coroutines/flow/e;
+.field final synthetic $collector:Lcotlinx/coroutines/flow/e;
 
 .field L$0:Ljava/lang/Object;
 
@@ -96,35 +96,35 @@
 
 .field label:I
 
-.field private p$:Lkotlinx/coroutines/m0;
+.field private p$:Lcotlinx/coroutines/m0;
 
-.field final synthetic this$0:Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;
+.field final synthetic this$0:Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;
 
 
 # direct methods
-.method constructor <init>(Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)V
+.method constructor <init>(Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->this$0:Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->this$0:Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;
 
-    iput-object p2, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->$collector:Lkotlinx/coroutines/flow/e;
+    iput-object p2, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->$collector:Lcotlinx/coroutines/flow/e;
 
     const/4 p1, 0x2
 
-    invoke-direct {p0, p1, p3}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/c;)V
+    invoke-direct {p0, p1, p3}, Lcotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILcotlin/coroutines/c;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+.method public final create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 3
     .param p1    # Ljava/lang/Object;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -132,10 +132,10 @@
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "*>;)",
-            "Lkotlin/coroutines/c<",
-            "Lkotlin/t1;",
+            "Lcotlin/coroutines/c<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -143,17 +143,17 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    new-instance v0, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;
+    new-instance v0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;
 
-    iget-object v1, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->this$0:Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;
+    iget-object v1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->this$0:Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;
 
-    iget-object v2, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->$collector:Lkotlinx/coroutines/flow/e;
+    iget-object v2, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->$collector:Lcotlinx/coroutines/flow/e;
 
-    invoke-direct {v0, v1, v2, p2}, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;-><init>(Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)V
+    invoke-direct {v0, v1, v2, p2}, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;-><init>(Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)V
 
-    check-cast p1, Lkotlinx/coroutines/m0;
+    check-cast p1, Lcotlinx/coroutines/m0;
 
-    iput-object p1, v0, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->p$:Lkotlinx/coroutines/m0;
+    iput-object p1, v0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->p$:Lcotlinx/coroutines/m0;
 
     return-object v0
 .end method
@@ -161,17 +161,17 @@
 .method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    check-cast p2, Lkotlin/coroutines/c;
+    check-cast p2, Lcotlin/coroutines/c;
 
-    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-virtual {p0, p1, p2}, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p1
 
-    check-cast p1, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;
+    check-cast p1, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;
 
-    sget-object p2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-virtual {p1, p2}, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -187,12 +187,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 1
-    iget v1, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->label:I
+    iget v1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->label:I
 
     const/4 v2, 0x1
 
@@ -200,19 +200,19 @@
 
     if-ne v1, v2, :cond_0
 
-    iget-object v0, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->L$2:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->L$2:Ljava/lang/Object;
 
-    check-cast v0, Lkotlinx/coroutines/flow/d;
+    check-cast v0, Lcotlinx/coroutines/flow/d;
 
-    iget-object v0, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->L$1:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->L$1:Ljava/lang/Object;
 
-    check-cast v0, Lkotlin/jvm/internal/Ref$ObjectRef;
+    check-cast v0, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iget-object v0, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->L$0:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->L$0:Ljava/lang/Object;
 
-    check-cast v0, Lkotlinx/coroutines/m0;
+    check-cast v0, Lcotlinx/coroutines/m0;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -228,38 +228,38 @@
 
     .line 3
     :cond_1
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    iget-object p1, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->p$:Lkotlinx/coroutines/m0;
+    iget-object p1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->p$:Lcotlinx/coroutines/m0;
 
     .line 4
-    new-instance v1, Lkotlin/jvm/internal/Ref$ObjectRef;
+    new-instance v1, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    invoke-direct {v1}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+    invoke-direct {v1}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
     const/4 v3, 0x0
 
-    iput-object v3, v1, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object v3, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 5
-    iget-object v3, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->this$0:Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;
+    iget-object v3, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->this$0:Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;
 
-    iget-object v3, v3, Lkotlinx/coroutines/flow/internal/ChannelFlowOperator;->c:Lkotlinx/coroutines/flow/d;
+    iget-object v3, v3, Lcotlinx/coroutines/flow/internal/ChannelFlowOperator;->c:Lcotlinx/coroutines/flow/d;
 
     .line 6
-    new-instance v4, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3$invokeSuspend$$inlined$collect$1;
+    new-instance v4, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3$invokeSuspend$$inlined$collect$1;
 
-    invoke-direct {v4, p0, p1, v1}, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3$invokeSuspend$$inlined$collect$1;-><init>(Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;Lkotlinx/coroutines/m0;Lkotlin/jvm/internal/Ref$ObjectRef;)V
+    invoke-direct {v4, p0, p1, v1}, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3$invokeSuspend$$inlined$collect$1;-><init>(Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;Lcotlinx/coroutines/m0;Lcotlin/jvm/internal/Ref$ObjectRef;)V
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->L$0:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->L$0:Ljava/lang/Object;
 
-    iput-object v1, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->L$1:Ljava/lang/Object;
+    iput-object v1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->L$1:Ljava/lang/Object;
 
-    iput-object v3, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->L$2:Ljava/lang/Object;
+    iput-object v3, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->L$2:Ljava/lang/Object;
 
-    iput v2, p0, Lkotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->label:I
+    iput v2, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;->label:I
 
-    invoke-interface {v3, v4, p0}, Lkotlinx/coroutines/flow/d;->a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {v3, v4, p0}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -270,7 +270,7 @@
     .line 7
     :cond_2
     :goto_0
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method

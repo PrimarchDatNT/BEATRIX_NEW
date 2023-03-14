@@ -8,7 +8,7 @@
     value = "SMAP\nRouterManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RouterManager.kt\ncom/commsource/beautyplus/router/RouterManager\n*L\n1#1,714:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,7 +24,7 @@
         "originRouterEntity",
         "Landroid/net/Uri$Builder;",
         "uriBuilder",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "g",
         "(Lcom/commsource/beautyplus/router/RouterEntity;Landroid/net/Uri$Builder;)V",
         "d",
@@ -1283,12 +1283,12 @@
 
     const-string v1, "pathString"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "m_selfie"
 
     .line 1
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1296,7 +1296,7 @@
 
     const-string v1, "m_video"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1304,7 +1304,7 @@
 
     const-string v1, "m_movie"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -1349,7 +1349,7 @@
     const/4 v4, 0x0
 
     .line 1
-    invoke-static {p1, v2, v1, v3, v4}, Lkotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
+    invoke-static {p1, v2, v1, v3, v4}, Lcotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v2
 
@@ -1357,7 +1357,7 @@
 
     const-string v2, "beautyplus://8"
 
-    invoke-static {p1, v2, v1, v3, v4}, Lkotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
+    invoke-static {p1, v2, v1, v3, v4}, Lcotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v2
 
@@ -1365,7 +1365,7 @@
 
     const-string v2, "beautyplus://p_subscription"
 
-    invoke-static {p1, v2, v1, v3, v4}, Lkotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
+    invoke-static {p1, v2, v1, v3, v4}, Lcotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result p1
 
@@ -1420,7 +1420,7 @@
 
     move-object v5, v11
 
-    invoke-direct/range {v5 .. v10}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v5 .. v10}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     const/4 v5, 0x0
 
@@ -1447,7 +1447,7 @@
 
     move-object v6, v4
 
-    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     .line 7
     invoke-virtual {v1, v2, v4}, Lcom/commsource/beautyplus/router/c;->a(Lcom/commsource/beautyplus/router/e;Lcom/commsource/beautyplus/router/h;)V
@@ -1464,7 +1464,7 @@
 
     move-object v6, v4
 
-    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     .line 10
     invoke-virtual {v1, v2, v4}, Lcom/commsource/beautyplus/router/c;->a(Lcom/commsource/beautyplus/router/e;Lcom/commsource/beautyplus/router/h;)V
@@ -1481,19 +1481,19 @@
     .line 12
     new-instance v13, Lcom/commsource/beautyplus/router/h;
 
-    new-array v7, v3, [Lkotlin/Pair;
+    new-array v7, v3, [Lcotlin/Pair;
 
-    new-instance v8, Lkotlin/Pair;
+    new-instance v8, Lcotlin/Pair;
 
     const-string v9, "minVersion"
 
     const-string v14, "*"
 
-    invoke-direct {v8, v9, v14}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v8, v9, v14}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     aput-object v8, v7, v5
 
-    invoke-static {v7}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v7}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v10
 
@@ -1507,24 +1507,24 @@
 
     move-object v7, v13
 
-    invoke-direct/range {v7 .. v12}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v7 .. v12}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     aput-object v13, v6, v5
 
     .line 13
     new-instance v7, Lcom/commsource/beautyplus/router/h;
 
-    new-array v8, v3, [Lkotlin/Pair;
+    new-array v8, v3, [Lcotlin/Pair;
 
-    new-instance v9, Lkotlin/Pair;
+    new-instance v9, Lcotlin/Pair;
 
     const-string v10, "androidMinVersion"
 
-    invoke-direct {v9, v10, v14}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v9, v10, v14}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     aput-object v9, v8, v5
 
-    invoke-static {v8}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v8}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v18
 
@@ -1538,7 +1538,7 @@
 
     move-object v15, v7
 
-    invoke-direct/range {v15 .. v20}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v15 .. v20}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     aput-object v7, v6, v3
 
@@ -1567,7 +1567,7 @@
 
     move-object v7, v13
 
-    invoke-direct/range {v7 .. v12}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v7 .. v12}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     aput-object v13, v6, v5
 
@@ -1592,7 +1592,7 @@
 
     move-object v6, v12
 
-    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     .line 20
     invoke-virtual {v1, v2, v12}, Lcom/commsource/beautyplus/router/c;->a(Lcom/commsource/beautyplus/router/e;Lcom/commsource/beautyplus/router/h;)V
@@ -1609,7 +1609,7 @@
 
     move-object v6, v12
 
-    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     .line 23
     invoke-virtual {v1, v2, v12}, Lcom/commsource/beautyplus/router/c;->a(Lcom/commsource/beautyplus/router/e;Lcom/commsource/beautyplus/router/h;)V
@@ -1634,7 +1634,7 @@
 
     move-object v7, v6
 
-    invoke-direct/range {v7 .. v12}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v7 .. v12}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     .line 26
     invoke-virtual {v1, v2, v6}, Lcom/commsource/beautyplus/router/c;->a(Lcom/commsource/beautyplus/router/e;Lcom/commsource/beautyplus/router/h;)V
@@ -1657,7 +1657,7 @@
 
     move-object v6, v12
 
-    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     .line 29
     invoke-virtual {v1, v2, v12}, Lcom/commsource/beautyplus/router/c;->a(Lcom/commsource/beautyplus/router/e;Lcom/commsource/beautyplus/router/h;)V
@@ -1674,7 +1674,7 @@
 
     move-object v6, v12
 
-    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     .line 32
     invoke-virtual {v1, v2, v12}, Lcom/commsource/beautyplus/router/c;->a(Lcom/commsource/beautyplus/router/e;Lcom/commsource/beautyplus/router/h;)V
@@ -1695,7 +1695,7 @@
 
     move-object v6, v12
 
-    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     aput-object v12, v4, v5
 
@@ -1712,7 +1712,7 @@
 
     move-object v13, v6
 
-    invoke-direct/range {v13 .. v18}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v13 .. v18}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     aput-object v6, v4, v3
 
@@ -1733,7 +1733,7 @@
 
     move-object v6, v12
 
-    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     aput-object v12, v4, v5
 
@@ -1756,7 +1756,7 @@
 
     move-object v6, v12
 
-    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     aput-object v12, v4, v5
 
@@ -1777,7 +1777,7 @@
 
     move-object v6, v12
 
-    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     aput-object v12, v4, v5
 
@@ -1798,7 +1798,7 @@
 
     move-object v6, v4
 
-    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     .line 48
     invoke-virtual {v1, v2, v4}, Lcom/commsource/beautyplus/router/c;->a(Lcom/commsource/beautyplus/router/e;Lcom/commsource/beautyplus/router/h;)V
@@ -1817,7 +1817,7 @@
 
     move-object v6, v4
 
-    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     .line 51
     invoke-virtual {v1, v2, v4}, Lcom/commsource/beautyplus/router/c;->a(Lcom/commsource/beautyplus/router/e;Lcom/commsource/beautyplus/router/h;)V
@@ -1834,7 +1834,7 @@
 
     move-object v6, v4
 
-    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     .line 54
     invoke-virtual {v1, v2, v4}, Lcom/commsource/beautyplus/router/c;->a(Lcom/commsource/beautyplus/router/e;Lcom/commsource/beautyplus/router/h;)V
@@ -1851,7 +1851,7 @@
 
     move-object v6, v4
 
-    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     .line 57
     invoke-virtual {v1, v2, v4}, Lcom/commsource/beautyplus/router/c;->a(Lcom/commsource/beautyplus/router/e;Lcom/commsource/beautyplus/router/h;)V
@@ -1870,7 +1870,7 @@
 
     move-object v6, v4
 
-    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v6 .. v11}, Lcom/commsource/beautyplus/router/h;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     aput-object v4, v3, v5
 
@@ -1898,7 +1898,7 @@
 
     const-string v1, "originRouterEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Ljava/lang/StringBuilder;
@@ -1934,7 +1934,7 @@
 
     const-string v5, "beautyplus"
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -2082,7 +2082,7 @@
     if-eqz v5, :cond_5
 
     .line 16
-    invoke-static {v1, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/beautyplus/router/g;->f(Lcom/commsource/beautyplus/router/RouterEntity;Landroid/net/Uri$Builder;)V
 
@@ -2099,7 +2099,7 @@
     if-eqz v5, :cond_5
 
     .line 18
-    invoke-static {v1, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/beautyplus/router/g;->e(Lcom/commsource/beautyplus/router/RouterEntity;Landroid/net/Uri$Builder;)V
 
@@ -2116,7 +2116,7 @@
     if-eqz v5, :cond_5
 
     .line 20
-    invoke-static {v1, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/beautyplus/router/g;->d(Lcom/commsource/beautyplus/router/RouterEntity;Landroid/net/Uri$Builder;)V
 
@@ -2210,7 +2210,7 @@
 
     .line 27
     :goto_1
-    invoke-static {v1, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/beautyplus/router/g;->g(Lcom/commsource/beautyplus/router/RouterEntity;Landroid/net/Uri$Builder;)V
 
@@ -2245,7 +2245,7 @@
 
     .line 31
     :goto_2
-    invoke-static {v1, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/beautyplus/router/g;->h(Lcom/commsource/beautyplus/router/RouterEntity;Landroid/net/Uri$Builder;)V
 
@@ -2307,7 +2307,7 @@
 
     const-string/jumbo v5, "uriBuilder.build()"
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p1, v1}, Lcom/commsource/beautyplus/router/RouterEntity;-><init>(Landroid/net/Uri;)V
 

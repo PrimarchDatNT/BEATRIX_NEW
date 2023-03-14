@@ -1,10 +1,10 @@
-.class Lkotlin/i2/i;
-.super Lkotlin/i2/h;
+.class Lcotlin/i2/i;
+.super Lcotlin/i2/h;
 .source "DurationUnit.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,7 +15,7 @@
     }
     d2 = {
         "Ljava/util/concurrent/TimeUnit;",
-        "Lkotlin/time/DurationUnit;",
+        "Lcotlin/time/DurationUnit;",
         "",
         "c",
         "(Ljava/util/concurrent/TimeUnit;)Ljava/lang/String;",
@@ -35,7 +35,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/i2/h;-><init>()V
+    invoke-direct {p0}, Lcotlin/i2/h;-><init>()V
 
     return-void
 .end method
@@ -46,10 +46,10 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -58,10 +58,10 @@
 
     const-string v0, "$this$shortName"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    sget-object v0, Lkotlin/i2/f;->a:[I
+    sget-object v0, Lcotlin/i2/f;->a:[I
 
     invoke-virtual {p0}, Ljava/util/concurrent/TimeUnit;->ordinal()I
 
@@ -72,9 +72,9 @@
     packed-switch p0, :pswitch_data_0
 
     .line 2
-    new-instance p0, Lkotlin/NoWhenBranchMatchedException;
+    new-instance p0, Lcotlin/NoWhenBranchMatchedException;
 
-    invoke-direct {p0}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+    invoke-direct {p0}, Lcotlin/NoWhenBranchMatchedException;-><init>()V
 
     throw p0
 

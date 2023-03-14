@@ -14,7 +14,7 @@
     value = "SMAP\nLanguageActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LanguageActivity.kt\ncom/commsource/beautyplus/setting/language/LanguageActivity\n*L\n1#1,106:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
         "Lcom/commsource/beautyplus/BaseActivity;",
         "Landroid/os/Bundle;",
         "savedInstanceState",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onCreate",
         "(Landroid/os/Bundle;)V",
         "onBackPressed",
@@ -39,7 +39,7 @@
         "(Landroid/content/Intent;)V",
         "Lcom/commsource/beautyplus/setting/language/b;",
         "N",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "P0",
         "()Lcom/commsource/beautyplus/setting/language/b;",
         "mViewModel",
@@ -74,17 +74,17 @@
 
 
 # instance fields
-.field private final N:Lkotlin/w;
+.field private final N:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final O:Lkotlin/w;
+.field private final O:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final P:Lkotlin/w;
+.field private final P:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -104,7 +104,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/beautyplus/setting/language/LanguageActivity$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/beautyplus/setting/language/LanguageActivity$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->S:Lcom/commsource/beautyplus/setting/language/LanguageActivity$a;
 
@@ -124,33 +124,33 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/setting/language/LanguageActivity$mViewModel$2;-><init>(Lcom/commsource/beautyplus/setting/language/LanguageActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->N:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->N:Lcotlin/w;
 
     .line 3
     new-instance v0, Lcom/commsource/beautyplus/setting/language/LanguageActivity$mViewBinding$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/setting/language/LanguageActivity$mViewBinding$2;-><init>(Lcom/commsource/beautyplus/setting/language/LanguageActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->O:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->O:Lcotlin/w;
 
     .line 4
     new-instance v0, Lcom/commsource/beautyplus/setting/language/LanguageActivity$mAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/setting/language/LanguageActivity$mAdapter$2;-><init>(Lcom/commsource/beautyplus/setting/language/LanguageActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->P:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->P:Lcotlin/w;
 
     return-void
 .end method
@@ -235,9 +235,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->P:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->P:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -257,9 +257,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->O:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->O:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -279,9 +279,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->N:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->N:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -375,7 +375,7 @@
 
     const-string v1, "mViewBinding"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
@@ -411,7 +411,7 @@
 
     const-string v1, "mViewBinding.rv"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/language/LanguageActivity;->N0()Lcom/commsource/widget/h1/e;
 
@@ -426,7 +426,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/m0;->a:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
 

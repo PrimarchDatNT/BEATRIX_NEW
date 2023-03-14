@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/k1$d;
-.super Lkotlinx/coroutines/internal/k0;
+.class public final Lcotlinx/coroutines/k1$d;
+.super Lcotlinx/coroutines/internal/k0;
 .source "EventLoop.common.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/k1;
+    value = Lcotlinx/coroutines/k1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,13 +15,13 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlinx/coroutines/internal/k0<",
-        "Lkotlinx/coroutines/k1$c;",
+        "Lcotlinx/coroutines/internal/k0<",
+        "Lcotlinx/coroutines/k1$c;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,8 +32,8 @@
     }
     d2 = {
         "kotlinx/coroutines/k1$d",
-        "Lkotlinx/coroutines/internal/k0;",
-        "Lkotlinx/coroutines/k1$c;",
+        "Lcotlinx/coroutines/internal/k0;",
+        "Lcotlinx/coroutines/k1$c;",
         "",
         "b",
         "J",
@@ -53,7 +53,7 @@
 
 # instance fields
 .field public b:J
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 .end field
 
@@ -63,9 +63,9 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lkotlinx/coroutines/internal/k0;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/internal/k0;-><init>()V
 
-    iput-wide p1, p0, Lkotlinx/coroutines/k1$d;->b:J
+    iput-wide p1, p0, Lcotlinx/coroutines/k1$d;->b:J
 
     return-void
 .end method

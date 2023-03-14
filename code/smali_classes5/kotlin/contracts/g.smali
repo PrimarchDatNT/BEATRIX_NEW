@@ -1,13 +1,13 @@
-.class public interface abstract Lkotlin/contracts/g;
+.class public interface abstract Lcotlin/contracts/g;
 .super Ljava/lang/Object;
 .source "Effect.kt"
 
 # interfaces
-.implements Lkotlin/contracts/i;
+.implements Lcotlin/contracts/i;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -17,8 +17,8 @@
         "\u0000\n\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0008g\u0018\u00002\u00020\u0001\u00a8\u0006\u0002"
     }
     d2 = {
-        "Lkotlin/contracts/g;",
-        "Lkotlin/contracts/i;",
+        "Lcotlin/contracts/g;",
+        "Lcotlin/contracts/i;",
         "kotlin-stdlib"
     }
     k = 0x1
@@ -29,12 +29,12 @@
     }
 .end annotation
 
-.annotation build Lkotlin/contracts/f;
+.annotation build Lcotlin/contracts/f;
 .end annotation
 
-.annotation build Lkotlin/internal/b;
+.annotation build Lcotlin/internal/b;
 .end annotation
 
-.annotation build Lkotlin/s0;
+.annotation build Lcotlin/s0;
     version = "1.3"
 .end annotation

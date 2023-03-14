@@ -11,7 +11,7 @@
     value = "SMAP\nMatrixBox.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MatrixBox.kt\ncom/commsource/studio/MatrixBox\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,485:1\n13506#2,2:486\n*E\n*S KotlinDebug\n*F\n+ 1 MatrixBox.kt\ncom/commsource/studio/MatrixBox\n*L\n219#1,2:486\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,7 +24,7 @@
         "Lcom/commsource/studio/MatrixBox;",
         "Ljava/io/Serializable;",
         "matrixBox",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "set",
         "(Lcom/commsource/studio/MatrixBox;)V",
         "Landroid/graphics/Matrix;",
@@ -92,16 +92,16 @@
         "animateMatrixBox",
         "",
         "animateDuration",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "updateAction",
         "endAction",
         "animateByMatrix",
-        "(Lcom/commsource/studio/MatrixBox;JLkotlin/jvm/u/a;Lkotlin/jvm/u/a;)V",
+        "(Lcom/commsource/studio/MatrixBox;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;)V",
         "targetMatrix",
         "Landroid/graphics/PointF;",
         "imageSize",
         "animateToMatrix",
-        "(Lcom/commsource/studio/MatrixBox;Landroid/graphics/PointF;JLkotlin/jvm/u/a;Lkotlin/jvm/u/a;)V",
+        "(Lcom/commsource/studio/MatrixBox;Landroid/graphics/PointF;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;)V",
         "cancel",
         "copy",
         "",
@@ -225,7 +225,7 @@
 
     const-string v0, "targetMatrix"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -273,7 +273,7 @@
 
     const-string v0, "matrixBox"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -312,7 +312,7 @@
     return-void
 .end method
 
-.method public static synthetic animateByMatrix$default(Lcom/commsource/studio/MatrixBox;Lcom/commsource/studio/MatrixBox;JLkotlin/jvm/u/a;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+.method public static synthetic animateByMatrix$default(Lcom/commsource/studio/MatrixBox;Lcom/commsource/studio/MatrixBox;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
     .locals 6
 
     const/16 p7, 0x6e9b
@@ -359,14 +359,14 @@
     move-object v1, p1
 
     .line 1
-    invoke-virtual/range {v0 .. v5}, Lcom/commsource/studio/MatrixBox;->animateByMatrix(Lcom/commsource/studio/MatrixBox;JLkotlin/jvm/u/a;Lkotlin/jvm/u/a;)V
+    invoke-virtual/range {v0 .. v5}, Lcom/commsource/studio/MatrixBox;->animateByMatrix(Lcom/commsource/studio/MatrixBox;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;)V
 
     invoke-static {p7}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public static synthetic animateToMatrix$default(Lcom/commsource/studio/MatrixBox;Lcom/commsource/studio/MatrixBox;Landroid/graphics/PointF;JLkotlin/jvm/u/a;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+.method public static synthetic animateToMatrix$default(Lcom/commsource/studio/MatrixBox;Lcom/commsource/studio/MatrixBox;Landroid/graphics/PointF;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
     .locals 7
 
     const/16 v0, 0x6e9d
@@ -434,7 +434,7 @@
     move-object p8, v2
 
     .line 1
-    invoke-virtual/range {p2 .. p8}, Lcom/commsource/studio/MatrixBox;->animateToMatrix(Lcom/commsource/studio/MatrixBox;Landroid/graphics/PointF;JLkotlin/jvm/u/a;Lkotlin/jvm/u/a;)V
+    invoke-virtual/range {p2 .. p8}, Lcom/commsource/studio/MatrixBox;->animateToMatrix(Lcom/commsource/studio/MatrixBox;Landroid/graphics/PointF;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -536,17 +536,17 @@
 
 
 # virtual methods
-.method public final animateByMatrix(Lcom/commsource/studio/MatrixBox;JLkotlin/jvm/u/a;Lkotlin/jvm/u/a;)V
+.method public final animateByMatrix(Lcom/commsource/studio/MatrixBox;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;)V
     .locals 16
     .param p1    # Lcom/commsource/studio/MatrixBox;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p4    # Lkotlin/jvm/u/a;
+    .param p4    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p5    # Lkotlin/jvm/u/a;
+    .param p5    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
@@ -555,11 +555,11 @@
             "(",
             "Lcom/commsource/studio/MatrixBox;",
             "J",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -574,7 +574,7 @@
 
     const-string v1, "animateMatrixBox"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, v0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
@@ -680,7 +680,7 @@
 
     move-object/from16 v8, p5
 
-    invoke-direct/range {v0 .. v8}, Lcom/commsource/studio/MatrixBox$a;-><init>(Lcom/commsource/studio/MatrixBox;FFFFLcom/commsource/studio/MatrixBox;Lkotlin/jvm/u/a;Lkotlin/jvm/u/a;)V
+    invoke-direct/range {v0 .. v8}, Lcom/commsource/studio/MatrixBox$a;-><init>(Lcom/commsource/studio/MatrixBox;FFFFLcom/commsource/studio/MatrixBox;Lcotlin/jvm/u/a;Lcotlin/jvm/u/a;)V
 
     invoke-virtual {v9, v10}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
@@ -689,7 +689,7 @@
 
     move-object v0, v10
 
-    invoke-direct/range {v0 .. v8}, Lcom/commsource/studio/MatrixBox$b;-><init>(Lcom/commsource/studio/MatrixBox;FFFFLcom/commsource/studio/MatrixBox;Lkotlin/jvm/u/a;Lkotlin/jvm/u/a;)V
+    invoke-direct/range {v0 .. v8}, Lcom/commsource/studio/MatrixBox$b;-><init>(Lcom/commsource/studio/MatrixBox;FFFFLcom/commsource/studio/MatrixBox;Lcotlin/jvm/u/a;Lcotlin/jvm/u/a;)V
 
     invoke-virtual {v9, v10}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
@@ -713,7 +713,7 @@
     .end array-data
 .end method
 
-.method public final animateToMatrix(Lcom/commsource/studio/MatrixBox;Landroid/graphics/PointF;JLkotlin/jvm/u/a;Lkotlin/jvm/u/a;)V
+.method public final animateToMatrix(Lcom/commsource/studio/MatrixBox;Landroid/graphics/PointF;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;)V
     .locals 33
     .param p1    # Lcom/commsource/studio/MatrixBox;
         .annotation build Ln/e/a/d;
@@ -723,11 +723,11 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p5    # Lkotlin/jvm/u/a;
+    .param p5    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p6    # Lkotlin/jvm/u/a;
+    .param p6    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
@@ -737,11 +737,11 @@
             "Lcom/commsource/studio/MatrixBox;",
             "Landroid/graphics/PointF;",
             "J",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -758,7 +758,7 @@
 
     const-string v2, "targetMatrix"
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v2, Lcom/commsource/studio/MatrixBox;
@@ -966,7 +966,7 @@
 
     move-object/from16 v16, p6
 
-    invoke-direct/range {v0 .. v16}, Lcom/commsource/studio/MatrixBox$c;-><init>(Lcom/commsource/studio/MatrixBox;JFFFFFFFFFFLcom/commsource/studio/MatrixBox;Lkotlin/jvm/u/a;Lkotlin/jvm/u/a;)V
+    invoke-direct/range {v0 .. v16}, Lcom/commsource/studio/MatrixBox$c;-><init>(Lcom/commsource/studio/MatrixBox;JFFFFFFFFFFLcom/commsource/studio/MatrixBox;Lcotlin/jvm/u/a;Lcotlin/jvm/u/a;)V
 
     move-object/from16 v0, v28
 
@@ -987,7 +987,7 @@
 
     move-object/from16 v15, p5
 
-    invoke-direct/range {v0 .. v16}, Lcom/commsource/studio/MatrixBox$d;-><init>(Lcom/commsource/studio/MatrixBox;JFFFFFFFFFFLcom/commsource/studio/MatrixBox;Lkotlin/jvm/u/a;Lkotlin/jvm/u/a;)V
+    invoke-direct/range {v0 .. v16}, Lcom/commsource/studio/MatrixBox$d;-><init>(Lcom/commsource/studio/MatrixBox;JFFFFFFFFFFLcom/commsource/studio/MatrixBox;Lcotlin/jvm/u/a;Lcotlin/jvm/u/a;)V
 
     move-object/from16 v1, v31
 
@@ -1181,7 +1181,7 @@
 
     iget-object v4, p1, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1731,7 +1731,7 @@
 
     const-string v1, "rectFloatArray"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v1, p1
@@ -1772,7 +1772,7 @@
 
     const-string v1, "matrixBox"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
@@ -1907,7 +1907,7 @@
 
     const-string v1, "matrixBox"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
@@ -2054,7 +2054,7 @@
 
     const-string v1, "position"
 
-    invoke-static {p5, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 17
     invoke-virtual {p5}, Lcom/commsource/studio/layer/Position;->getCenterOffset()Landroid/graphics/PointF;
@@ -2146,7 +2146,7 @@
 
     const-string v1, "matrix"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
@@ -2187,7 +2187,7 @@
 
     const-string v1, "matrixBox"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;

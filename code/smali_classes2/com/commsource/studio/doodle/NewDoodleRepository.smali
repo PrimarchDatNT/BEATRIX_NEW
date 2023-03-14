@@ -8,7 +8,7 @@
     value = "SMAP\nNewDoodleRepository.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewDoodleRepository.kt\ncom/commsource/studio/doodle/NewDoodleRepository\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 _Maps.kt\nkotlin/collections/MapsKt___MapsKt\n*L\n1#1,700:1\n734#2:701\n825#2,2:702\n734#2:704\n825#2,2:705\n1819#2:707\n1819#2,2:708\n1820#2:710\n1819#2,2:711\n1819#2,2:713\n1819#2:715\n734#2:716\n825#2,2:717\n1820#2:719\n734#2:722\n825#2,2:723\n1819#2:725\n734#2:726\n825#2,2:727\n1820#2:729\n1819#2,2:730\n734#2:732\n825#2,2:733\n734#2:735\n825#2,2:736\n181#3,2:720\n*E\n*S KotlinDebug\n*F\n+ 1 NewDoodleRepository.kt\ncom/commsource/studio/doodle/NewDoodleRepository\n*L\n234#1:701\n234#1,2:702\n240#1:704\n240#1,2:705\n267#1:707\n267#1,2:708\n267#1:710\n372#1,2:711\n376#1,2:713\n379#1:715\n379#1:716\n379#1,2:717\n379#1:719\n634#1:722\n634#1,2:723\n636#1:725\n636#1:726\n636#1,2:727\n636#1:729\n660#1,2:730\n679#1:732\n679#1,2:733\n697#1:735\n697#1,2:736\n617#1,2:720\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/studio/doodle/NewDoodleRepository;",
         "Lcom/commsource/repository/MaterialRepository;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "b0",
         "()V",
         "",
@@ -42,11 +42,11 @@
         "E",
         "(Ljava/util/List;Ljava/util/List;)V",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "tempListDoodle",
         "Ljava/util/HashMap;",
         "",
-        "Lkotlin/collections/HashMap;",
+        "Lcotlin/collections/HashMap;",
         "tempCategoryMap",
         "d0",
         "(Ljava/util/ArrayList;Ljava/util/HashMap;)Ljava/util/ArrayList;",
@@ -98,7 +98,7 @@
         "()Z",
         "com/commsource/studio/doodle/NewDoodleRepository$doodleCategoryComparator$2$a",
         "t",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "M",
         "()Lcom/commsource/studio/doodle/NewDoodleRepository$doodleCategoryComparator$2$a;",
         "doodleCategoryComparator",
@@ -172,9 +172,9 @@
 
 .field private static final k:Ljava/lang/String;
 
-.field private static final l:Lkotlin/w;
+.field private static final l:Lcotlin/w;
 
-.field private static final m:Lkotlin/w;
+.field private static final m:Lcotlin/w;
 
 .field private static volatile n:Z
 
@@ -208,9 +208,9 @@
     .end annotation
 .end field
 
-.field private static final s:Lkotlin/w;
+.field private static final s:Lcotlin/w;
 
-.field private static final t:Lkotlin/w;
+.field private static final t:Lcotlin/w;
 
 .field private static u:Ljava/util/HashMap;
     .annotation system Ldalvik/annotation/Signature;
@@ -302,20 +302,20 @@
     .line 3
     sget-object v2, Lcom/commsource/studio/doodle/NewDoodleRepository$doodleDao$2;->INSTANCE:Lcom/commsource/studio/doodle/NewDoodleRepository$doodleDao$2;
 
-    invoke-static {v2}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v2}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v2
 
-    sput-object v2, Lcom/commsource/studio/doodle/NewDoodleRepository;->l:Lkotlin/w;
+    sput-object v2, Lcom/commsource/studio/doodle/NewDoodleRepository;->l:Lcotlin/w;
 
     .line 4
     sget-object v2, Lcom/commsource/studio/doodle/NewDoodleRepository$doodleCategoryDao$2;->INSTANCE:Lcom/commsource/studio/doodle/NewDoodleRepository$doodleCategoryDao$2;
 
-    invoke-static {v2}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v2}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v2
 
-    sput-object v2, Lcom/commsource/studio/doodle/NewDoodleRepository;->m:Lkotlin/w;
+    sput-object v2, Lcom/commsource/studio/doodle/NewDoodleRepository;->m:Lcotlin/w;
 
     const/4 v2, 0x1
 
@@ -351,20 +351,20 @@
 
     invoke-direct {v2, v1}, Lcom/commsource/studio/doodle/NewDoodleRepository$doodleComparator$2;-><init>(Lcom/commsource/studio/doodle/NewDoodleRepository;)V
 
-    invoke-static {v2}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v2}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v1
 
-    sput-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->s:Lkotlin/w;
+    sput-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->s:Lcotlin/w;
 
     .line 11
     sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository$doodleCategoryComparator$2;->INSTANCE:Lcom/commsource/studio/doodle/NewDoodleRepository$doodleCategoryComparator$2;
 
-    invoke-static {v1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v1
 
-    sput-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->t:Lkotlin/w;
+    sput-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->t:Lcotlin/w;
 
     .line 12
     new-instance v1, Ljava/util/HashMap;
@@ -550,7 +550,7 @@
 
     const-string v10, "-2"
 
-    invoke-static {v9, v10}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v9, v10}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v9
 
@@ -566,7 +566,7 @@
 
     const-string v11, "-1"
 
-    invoke-static {v9, v11}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v9, v11}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v9
 
@@ -614,7 +614,7 @@
 
     move-result-object v2
 
-    invoke-static {v10, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v10, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -626,7 +626,7 @@
 
     const-string v10, "-7"
 
-    invoke-static {v2, v10}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v10}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -644,7 +644,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v15}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v15}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -668,7 +668,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v14}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v14}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -692,7 +692,7 @@
 
     .line 17
     :cond_7
-    invoke-static {v9}, Lkotlin/jvm/internal/t0;->g(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v9}, Lcotlin/jvm/internal/t0;->g(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v2
 
@@ -701,7 +701,7 @@
 
     move-result-object v9
 
-    invoke-static {v9, v15}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v9, v15}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v9
 
@@ -720,7 +720,7 @@
 
     move-result-object v9
 
-    invoke-static {v9, v14}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v9, v14}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v9
 
@@ -753,7 +753,7 @@
 
     const/4 v10, 0x2
 
-    invoke-static {v0, v9, v13, v10, v8}, Lkotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
+    invoke-static {v0, v9, v13, v10, v8}, Lcotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v0
 
@@ -805,7 +805,7 @@
 
     const-string v9, "-8"
 
-    invoke-static {v7, v9}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v7, v9}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v7
 
@@ -885,9 +885,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->t:Lkotlin/w;
+    sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->t:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -905,9 +905,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->m:Lkotlin/w;
+    sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->m:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -925,9 +925,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->s:Lkotlin/w;
+    sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->s:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -945,9 +945,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->l:Lkotlin/w;
+    sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->l:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1358,7 +1358,7 @@
 
     .line 7
     :cond_3
-    invoke-static {v4}, Lkotlin/jvm/internal/t0;->g(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v4}, Lcotlin/jvm/internal/t0;->g(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v1
 
@@ -1461,7 +1461,7 @@
 
     .line 6
     :cond_3
-    invoke-static {v4}, Lkotlin/jvm/internal/t0;->g(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v4}, Lcotlin/jvm/internal/t0;->g(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v1
 
@@ -1599,7 +1599,7 @@
 
     invoke-direct {p1, p2}, Lcom/commsource/studio/doodle/NewDoodleRepository$f;-><init>(Ljava/util/HashMap;)V
 
-    invoke-static {v1, p1}, Lkotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
+    invoke-static {v1, p1}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1627,7 +1627,7 @@
 
     invoke-direct {v1}, Lcom/commsource/studio/doodle/NewDoodleRepository$g;-><init>()V
 
-    invoke-static {p1, v1}, Lkotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
+    invoke-static {p1, v1}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1655,7 +1655,7 @@
 
     invoke-direct {v1}, Lcom/commsource/studio/doodle/NewDoodleRepository$h;-><init>()V
 
-    invoke-static {p1, v1}, Lkotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
+    invoke-static {p1, v1}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1681,7 +1681,7 @@
     .line 1
     sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository$i;->a:Lcom/commsource/studio/doodle/NewDoodleRepository$i;
 
-    invoke-static {p1, v1}, Lkotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
+    invoke-static {p1, v1}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1707,7 +1707,7 @@
     .line 1
     sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository$j;->a:Lcom/commsource/studio/doodle/NewDoodleRepository$j;
 
-    invoke-static {p1, v1}, Lkotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
+    invoke-static {p1, v1}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1905,11 +1905,11 @@
 
     const-string v1, "event"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "doodle"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Ljava/util/HashMap;
@@ -1982,7 +1982,7 @@
 
     const-string v1, "material"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v1, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
@@ -2016,7 +2016,7 @@
 
     const-string v1, "material"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/studio/doodle/NewDoodleRepository;->X(Lcom/commsource/studio/doodle/DoodleMaterial;)Z
@@ -2237,7 +2237,7 @@
     :cond_1
     sget-object v2, Lcom/commsource/studio/doodle/NewDoodleRepository$c;->a:Lcom/commsource/studio/doodle/NewDoodleRepository$c;
 
-    invoke-static {v5, v2}, Lkotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
+    invoke-static {v5, v2}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
     if-eqz v4, :cond_2
 
@@ -2314,7 +2314,7 @@
 
     const-string v14, "BP_cat"
 
-    invoke-static {v12, v14, v11, v13, v10}, Lkotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
+    invoke-static {v12, v14, v11, v13, v10}, Lcotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v10
 
@@ -2377,7 +2377,7 @@
 
     move-result-object v10
 
-    invoke-static {v15, v10}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v15, v10}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v10
 
@@ -2452,7 +2452,7 @@
     if-eqz v9, :cond_c
 
     .line 25
-    invoke-static {v9}, Lkotlin/collections/s;->L5(Ljava/util/Collection;)Ljava/util/List;
+    invoke-static {v9}, Lcotlin/collections/s;->L5(Ljava/util/Collection;)Ljava/util/List;
 
     move-result-object v9
 
@@ -2656,7 +2656,7 @@
 
     const-string v6, "-6"
 
-    invoke-static {v5, v6}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v5
 
@@ -2670,7 +2670,7 @@
 
     const-string v7, "-8"
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v5
 
@@ -2682,7 +2682,7 @@
 
     const-string v7, "-5"
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v5
 
@@ -2698,7 +2698,7 @@
 
     const/4 v9, 0x0
 
-    invoke-static {v5, v8, v6, v7, v9}, Lkotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
+    invoke-static {v5, v8, v6, v7, v9}, Lcotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v5
 
@@ -2783,7 +2783,7 @@
 
     const-string v1, "doodleMaterial"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->isInternal()Z
@@ -2897,7 +2897,7 @@
 
     const-string v10, "BP_cat"
 
-    invoke-static {v7, v10, v4, v8, v9}, Lkotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
+    invoke-static {v7, v10, v4, v8, v9}, Lcotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v7
 
@@ -2947,7 +2947,7 @@
 
     const-string v1, "material"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v1, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
@@ -3028,7 +3028,7 @@
 
     const-string v1, "doodle"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/studio/doodle/NewDoodleRepository$k;
@@ -3066,7 +3066,7 @@
 
     const-string v1, "list"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/studio/doodle/NewDoodleRepository$e;

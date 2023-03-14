@@ -17,7 +17,7 @@
     value = "SMAP\nDoodleFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DoodleFragment.kt\ncom/commsource/studio/doodle/DoodleFragment$initListener$1$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,774:1\n1828#2,2:775\n734#2:777\n825#2,2:778\n1830#2:780\n*E\n*S KotlinDebug\n*F\n+ 1 DoodleFragment.kt\ncom/commsource/studio/doodle/DoodleFragment$initListener$1$1\n*L\n395#1,2:775\n395#1:777\n395#1,2:778\n395#1:780\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Lcom/commsource/util/delegate/process/a;",
         "",
         "doodleId",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
         "(Ljava/lang/String;)V",
         "app_googleplayRelease"
@@ -141,7 +141,7 @@
 
     if-gez v6, :cond_1
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_1
     check-cast v7, Lcom/commsource/studio/doodle/j;
@@ -184,7 +184,7 @@
 
     move-result-object v11
 
-    invoke-static {v11, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v11, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v11
 

@@ -14,7 +14,7 @@
     value = "SMAP\nHeapAnalysis.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HeapAnalysis.kt\nkshark/ApplicationLeak\n*L\n1#1,316:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -105,7 +105,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkshark/ApplicationLeak$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lkshark/ApplicationLeak$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lkshark/ApplicationLeak;->Companion:Lkshark/ApplicationLeak$a;
 
@@ -129,12 +129,12 @@
 
     const-string v0, "leakTraces"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, v0}, Lkshark/Leak;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {p0, v0}, Lkshark/Leak;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lkshark/ApplicationLeak;->leakTraces:Ljava/util/List;
 
@@ -204,7 +204,7 @@
 
     const-string v0, "leakTraces"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Lkshark/ApplicationLeak;
 
@@ -236,7 +236,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -286,18 +286,18 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/collections/s;->o2(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {v0}, Lcotlin/collections/s;->o2(Ljava/util/List;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lkshark/LeakTrace;
 
     .line 2
-    invoke-virtual {v0}, Lkshark/LeakTrace;->getSuspectReferenceSubpath()Lkotlin/sequences/m;
+    invoke-virtual {v0}, Lkshark/LeakTrace;->getSuspectReferenceSubpath()Lcotlin/sequences/m;
 
     move-result-object v1
 
-    invoke-static {v1}, Lkotlin/sequences/p;->w0(Lkotlin/sequences/m;)Ljava/lang/Object;
+    invoke-static {v1}, Lcotlin/sequences/p;->w0(Lcotlin/sequences/m;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -363,7 +363,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/collections/s;->o2(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {v0}, Lcotlin/collections/s;->o2(Ljava/util/List;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -408,7 +408,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     iget-object v1, p0, Lkshark/ApplicationLeak;->retainedHeapByteSize:Ljava/lang/Integer;

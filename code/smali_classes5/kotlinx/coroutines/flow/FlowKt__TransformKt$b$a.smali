@@ -1,14 +1,14 @@
-.class public final Lkotlinx/coroutines/flow/FlowKt__TransformKt$b$a;
+.class public final Lcotlinx/coroutines/flow/FlowKt__TransformKt$b$a;
 .super Ljava/lang/Object;
 .source "Collect.kt"
 
 # interfaces
-.implements Lkotlinx/coroutines/flow/e;
+.implements Lcotlinx/coroutines/flow/e;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/FlowKt__TransformKt$b;->a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/flow/FlowKt__TransformKt$b;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlinx/coroutines/flow/e<",
+        "Lcotlinx/coroutines/flow/e<",
         "TT;>;"
     }
 .end annotation
@@ -28,7 +28,7 @@
     value = "SMAP\nCollect.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Collect.kt\nkotlinx/coroutines/flow/FlowKt__CollectKt$collect$3\n+ 2 Transform.kt\nkotlinx/coroutines/flow/FlowKt__TransformKt\n+ 3 FlowExceptions.common.kt\nkotlinx/coroutines/flow/internal/FlowExceptions_commonKt\n*L\n1#1,136:1\n66#2:137\n67#2:142\n32#3,4:138\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,11 +39,11 @@
     }
     d2 = {
         "kotlinx/coroutines/flow/FlowKt__TransformKt$b$a",
-        "Lkotlinx/coroutines/flow/e;",
+        "Lcotlinx/coroutines/flow/e;",
         "value",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "emit",
-        "(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "kotlinx-coroutines-core",
         "kotlinx/coroutines/flow/FlowKt__TransformKt$$special$$inlined$collect$7"
     }
@@ -57,18 +57,18 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlinx/coroutines/flow/e;
+.field final synthetic a:Lcotlinx/coroutines/flow/e;
 
-.field final synthetic b:Lkotlin/jvm/internal/Ref$IntRef;
+.field final synthetic b:Lcotlin/jvm/internal/Ref$IntRef;
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/flow/e;Lkotlin/jvm/internal/Ref$IntRef;)V
+.method public constructor <init>(Lcotlinx/coroutines/flow/e;Lcotlin/jvm/internal/Ref$IntRef;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__TransformKt$b$a;->a:Lkotlinx/coroutines/flow/e;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__TransformKt$b$a;->a:Lcotlinx/coroutines/flow/e;
 
-    iput-object p2, p0, Lkotlinx/coroutines/flow/FlowKt__TransformKt$b$a;->b:Lkotlin/jvm/internal/Ref$IntRef;
+    iput-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__TransformKt$b$a;->b:Lcotlin/jvm/internal/Ref$IntRef;
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -78,9 +78,9 @@
 
 
 # virtual methods
-.method public emit(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -88,27 +88,27 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/flow/FlowKt__TransformKt$b$a;->a:Lkotlinx/coroutines/flow/e;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__TransformKt$b$a;->a:Lcotlinx/coroutines/flow/e;
 
-    iget-object v1, p0, Lkotlinx/coroutines/flow/FlowKt__TransformKt$b$a;->b:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__TransformKt$b$a;->b:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget v2, v1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v2, v1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     add-int/lit8 v3, v2, 0x1
 
-    iput v3, v1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput v3, v1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     if-ltz v2, :cond_1
 
-    new-instance v1, Lkotlin/collections/i0;
+    new-instance v1, Lcotlin/collections/i0;
 
-    invoke-direct {v1, v2, p1}, Lkotlin/collections/i0;-><init>(ILjava/lang/Object;)V
+    invoke-direct {v1, v2, p1}, Lcotlin/collections/i0;-><init>(ILjava/lang/Object;)V
 
-    invoke-interface {v0, v1, p2}, Lkotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {v0, v1, p2}, Lcotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object p2
 
@@ -118,7 +118,7 @@
 
     .line 2
     :cond_0
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 

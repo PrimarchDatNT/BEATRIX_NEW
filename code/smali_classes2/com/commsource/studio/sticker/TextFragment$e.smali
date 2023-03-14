@@ -32,7 +32,7 @@
     value = "SMAP\nTextFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextFragment.kt\ncom/commsource/studio/sticker/TextFragment$onViewCreated$7\n+ 2 View.kt\nandroidx/core/view/ViewKt\n*L\n1#1,312:1\n251#2:313\n*E\n*S KotlinDebug\n*F\n+ 1 TextFragment.kt\ncom/commsource/studio/sticker/TextFragment$onViewCreated$7\n*L\n126#1:313\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "state",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Integer;)V"
     }
@@ -93,7 +93,7 @@
 
     const-string v2, "mViewBinding.newTemplate"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {v1}, Landroid/view/View;->getVisibility()I
@@ -151,7 +151,7 @@
 
     iget-object v3, p1, Lcom/commsource/beautyplus/f0/cc;->M:Landroid/widget/TextView;
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x0
 
@@ -163,7 +163,7 @@
 
     const/4 v9, 0x0
 
-    invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     goto :goto_4
 
@@ -180,7 +180,7 @@
 
     const-string v1, "studioBinding.formulaVersionTip"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
@@ -188,7 +188,7 @@
 
     const-string v1, "studioBinding.formulaVersionTip.root"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/view/View;->getHeight()I
 
@@ -213,7 +213,7 @@
 
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/cc;->M:Landroid/widget/TextView;
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     neg-float v4, p1
 
@@ -225,7 +225,7 @@
 
     const/4 v9, 0x0
 
-    invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 7
     :cond_5

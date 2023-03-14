@@ -8,7 +8,7 @@
     value = "SMAP\nWaterMarkFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 WaterMarkFragment.kt\ncom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment\n*L\n1#1,114:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,17 +29,17 @@
         "Landroid/view/View;",
         "onCreateView",
         "(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "K",
         "()V",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "action",
         "x",
-        "(Lkotlin/jvm/u/a;)V",
+        "(Lcotlin/jvm/u/a;)V",
         "z",
         "Lcom/commsource/widget/h1/e;",
         "d",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "H",
         "()Lcom/commsource/widget/h1/e;",
         "mAdapter",
@@ -89,44 +89,44 @@
 
 
 # instance fields
-.field private final J:Lkotlin/w;
+.field private final J:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final K:Lkotlin/w;
+.field private final K:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final L:Lkotlin/w;
+.field private final L:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final M:Lkotlin/w;
+.field private final M:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
 .field private N:Ljava/util/HashMap;
 
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final f:Lkotlin/w;
+.field private final f:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final g:Lkotlin/w;
+.field private final g:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final p:Lkotlin/w;
+.field private final p:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -144,88 +144,88 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$mAdapter$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->d:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->d:Lcotlin/w;
 
     .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$layoutManager$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$layoutManager$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->f:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->f:Lcotlin/w;
 
     .line 4
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$mViewBinding$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$mViewBinding$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->g:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->g:Lcotlin/w;
 
     .line 5
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$waterMarkViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$waterMarkViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->p:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->p:Lcotlin/w;
 
     .line 6
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$bottomFunctionViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$bottomFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->J:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->J:Lcotlin/w;
 
     .line 7
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$cameraCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$cameraCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->K:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->K:Lcotlin/w;
 
     .line 8
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$cameraConfigViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$cameraConfigViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->L:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->L:Lcotlin/w;
 
     .line 9
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$confirmBottomFunctionViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$confirmBottomFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->M:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->M:Lcotlin/w;
 
     return-void
 .end method
@@ -271,9 +271,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->J:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->J:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -293,9 +293,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->K:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->K:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -315,9 +315,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->L:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->L:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -337,9 +337,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->M:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->M:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -359,9 +359,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->f:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->f:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -381,9 +381,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -403,9 +403,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->g:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->g:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -425,9 +425,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->p:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->p:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -480,7 +480,7 @@
 
     const-string v2, "mViewBinding.rv"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->G()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
 
@@ -495,7 +495,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/kc;->d:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->H()Lcom/commsource/widget/h1/e;
 
@@ -523,7 +523,7 @@
 
     const-string v2, "bottomFunctionViewModel"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->B()Landroidx/lifecycle/MutableLiveData;
 
@@ -606,7 +606,7 @@
 
     const-string p3, "inflater"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->K()V
@@ -618,7 +618,7 @@
 
     const-string p3, "mViewBinding"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
@@ -727,17 +727,17 @@
     return-object v1
 .end method
 
-.method public x(Lkotlin/jvm/u/a;)V
+.method public x(Lcotlin/jvm/u/a;)V
     .locals 4
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -748,10 +748,10 @@
 
     const-string v1, "action"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-super {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/a;->x(Lkotlin/jvm/u/a;)V
+    invoke-super {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/a;->x(Lcotlin/jvm/u/a;)V
 
     .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->I()Lcom/commsource/beautyplus/f0/kc;
@@ -760,7 +760,7 @@
 
     const-string v1, "mViewBinding"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
@@ -783,7 +783,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
@@ -791,7 +791,7 @@
 
     const-string v2, "mViewBinding.root"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/meitu/library/p/f/i;->x()I
 
@@ -810,7 +810,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
@@ -856,17 +856,17 @@
     return-void
 .end method
 
-.method public z(Lkotlin/jvm/u/a;)V
+.method public z(Lcotlin/jvm/u/a;)V
     .locals 4
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -877,7 +877,7 @@
 
     const-string v1, "action"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->I()Lcom/commsource/beautyplus/f0/kc;
@@ -886,7 +886,7 @@
 
     const-string v2, "mViewBinding"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
@@ -909,7 +909,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
@@ -957,7 +957,7 @@
     .line 6
     new-instance v2, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$a;
 
-    invoke-direct {v2, p1}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$a;-><init>(Lkotlin/jvm/u/a;)V
+    invoke-direct {v2, p1}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$a;-><init>(Lcotlin/jvm/u/a;)V
 
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 

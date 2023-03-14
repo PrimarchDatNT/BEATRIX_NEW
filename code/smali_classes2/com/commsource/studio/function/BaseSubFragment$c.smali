@@ -20,7 +20,7 @@
     value = "SMAP\nBaseSubFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BaseSubFragment.kt\ncom/commsource/studio/function/BaseSubFragment$callbackInitComplete$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,1162:1\n1819#2,2:1163\n*E\n*S KotlinDebug\n*F\n+ 1 BaseSubFragment.kt\ncom/commsource/studio/function/BaseSubFragment$callbackInitComplete$1\n*L\n300#1,2:1163\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
     d2 = {
         "Lcom/commsource/studio/effect/t;",
         "T",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "<anonymous>"
@@ -108,10 +108,10 @@
 
     move-result-object v2
 
-    check-cast v2, Lkotlin/jvm/u/a;
+    check-cast v2, Lcotlin/jvm/u/a;
 
     .line 5
-    invoke-interface {v2}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v2}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     goto :goto_0
 

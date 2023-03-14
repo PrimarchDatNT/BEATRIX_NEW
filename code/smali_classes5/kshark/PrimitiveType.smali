@@ -22,7 +22,7 @@
     value = "SMAP\nPrimitiveType.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PrimitiveType.kt\nkshark/PrimitiveType\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,35:1\n8888#2:36\n9221#2,3:37\n8888#2:40\n9221#2,3:41\n*E\n*S KotlinDebug\n*F\n+ 1 PrimitiveType.kt\nkshark/PrimitiveType\n*L\n31#1:36\n31#1,3:37\n33#1:40\n33#1,3:41\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -246,7 +246,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkshark/PrimitiveType$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lkshark/PrimitiveType$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lkshark/PrimitiveType;->Companion:Lkshark/PrimitiveType$a;
 
@@ -285,7 +285,7 @@
 
     move-result-object v5
 
-    invoke-static {v6, v5}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v6, v5}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object v5
 
@@ -296,7 +296,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v1}, Lkotlin/collections/q0;->B0(Ljava/lang/Iterable;)Ljava/util/Map;
+    invoke-static {v1}, Lcotlin/collections/q0;->B0(Ljava/lang/Iterable;)Ljava/util/Map;
 
     move-result-object v0
 
@@ -329,7 +329,7 @@
 
     move-result-object v5
 
-    invoke-static {v5, v3}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v5, v3}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object v3
 
@@ -340,7 +340,7 @@
     goto :goto_1
 
     :cond_1
-    invoke-static {v1}, Lkotlin/collections/q0;->B0(Ljava/lang/Iterable;)Ljava/util/Map;
+    invoke-static {v1}, Lcotlin/collections/q0;->B0(Ljava/lang/Iterable;)Ljava/util/Map;
 
     move-result-object v0
 

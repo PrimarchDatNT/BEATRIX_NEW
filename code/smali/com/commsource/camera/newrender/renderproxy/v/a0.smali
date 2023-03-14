@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -16,7 +16,7 @@
     d2 = {
         "Lcom/commsource/camera/newrender/renderproxy/v/a0;",
         "Lcom/commsource/camera/newrender/renderproxy/v/v;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a0",
         "()V",
         "z0",
@@ -114,11 +114,11 @@
 
     .line 5
     :cond_1
-    new-instance v0, Lkotlin/TypeCastException;
+    new-instance v0, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type android.hardware.SensorManager"
 
-    invoke-direct {v0, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -214,7 +214,7 @@
 
     const-string v2, "getArRenderProxy()"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/m;->Z()Lcom/meitu/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
 

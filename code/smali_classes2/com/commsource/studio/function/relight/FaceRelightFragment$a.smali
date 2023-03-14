@@ -32,7 +32,7 @@
     value = "SMAP\nFaceRelightFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FaceRelightFragment.kt\ncom/commsource/studio/function/relight/FaceRelightFragment$onViewCreated$1\n*L\n1#1,94:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Integer;)V"
     }
@@ -142,7 +142,7 @@
 
     const-string v1, "relightViewModel.manualEffect.faceLights[it]"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/studio/function/relight/d;
 

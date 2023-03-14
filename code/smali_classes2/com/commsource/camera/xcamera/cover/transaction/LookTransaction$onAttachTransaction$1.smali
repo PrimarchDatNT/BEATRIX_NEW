@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "Lcom/meitu/template/bean/LookMaterial;",
         "kotlin.jvm.PlatformType",
         "lookMaterial",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/meitu/template/bean/LookMaterial;)V"
     }
@@ -112,7 +112,7 @@
 
     invoke-direct {v2, p0, p1}, Lcom/commsource/camera/xcamera/cover/transaction/LookTransaction$onAttachTransaction$1$1;-><init>(Lcom/commsource/camera/xcamera/cover/transaction/LookTransaction$onAttachTransaction$1;Lcom/meitu/template/bean/LookMaterial;)V
 
-    invoke-virtual {v1, p1, v2}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->v1(Lcom/meitu/template/bean/LookMaterial;Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, p1, v2}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->v1(Lcom/meitu/template/bean/LookMaterial;Lcotlin/jvm/u/a;)V
 
     .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

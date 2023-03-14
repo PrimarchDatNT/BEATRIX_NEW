@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -102,7 +102,7 @@
     const-string v0, "entity"
 
     .line 1
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;->a()I
 
@@ -192,7 +192,7 @@
 
     const-string v2, "arViewModel"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x1
 
@@ -263,11 +263,11 @@
 
     .line 18
     :cond_2
-    new-instance p2, Lkotlin/TypeCastException;
+    new-instance p2, Lcotlin/TypeCastException;
 
     const-string v0, "null cannot be cast to non-null type androidx.fragment.app.FragmentActivity"
 
-    invoke-direct {p2, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, v0}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

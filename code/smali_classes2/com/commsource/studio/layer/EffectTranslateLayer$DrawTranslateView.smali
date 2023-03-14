@@ -17,7 +17,7 @@
     value = "SMAP\nEffectTranslateLayer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EffectTranslateLayer.kt\ncom/commsource/studio/layer/EffectTranslateLayer$DrawTranslateView\n*L\n1#1,189:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Landroid/view/View;",
         "Landroid/graphics/Canvas;",
         "canvas",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onDraw",
         "(Landroid/graphics/Canvas;)V",
         "Landroid/content/Context;",
@@ -72,7 +72,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/EffectTranslateLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/EffectTranslateLayer;

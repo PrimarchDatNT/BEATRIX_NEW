@@ -20,7 +20,7 @@
     value = "SMAP\nAutoManualStackLogic.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AutoManualStackLogic.kt\ncom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction\n*L\n1#1,328:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
     d2 = {
         "Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;",
         "Lcom/commsource/studio/v;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "i",
         "()V",
         "k",
@@ -123,7 +123,7 @@
 
     if-nez p2, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {p1, p2}, Lcom/commsource/studio/function/automanual/d;->e(Lcom/commsource/easyeditor/utils/opengl/f;)V
@@ -407,7 +407,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction$redo$1;-><init>(Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lcotlin/jvm/u/a;)V
 
     .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
@@ -461,7 +461,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction$undo$1;-><init>(Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lcotlin/jvm/u/a;)V
 
     .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$UndoRedoAction;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;

@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "",
         "fraction",
         "value",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(FF)V",
         "Lcom/commsource/camera/f1/l;",
@@ -151,7 +151,7 @@
 
     const-string v1, "mViewBinding.contrast"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0, p2}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
@@ -166,7 +166,7 @@
 
     const-string v1, "mViewBinding.preview"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0, p2}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 

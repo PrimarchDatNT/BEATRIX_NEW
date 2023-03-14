@@ -17,7 +17,7 @@
     value = "SMAP\nAndroidReferenceMatchers.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AndroidReferenceMatchers.kt\nkshark/AndroidReferenceMatchers$SMART_COVER_MANAGER\n*L\n1#1,1327:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "",
         "Lkshark/z;",
         "references",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "add$shark",
         "(Ljava/util/List;)V",
         "add",
@@ -59,7 +59,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, p1, p2, v0}, Lkshark/AndroidReferenceMatchers;-><init>(Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, p1, p2, v0}, Lkshark/AndroidReferenceMatchers;-><init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -83,7 +83,7 @@
 
     const-string v0, "references"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v0, Lkshark/AndroidReferenceMatchers;->Companion:Lkshark/AndroidReferenceMatchers$Companion;
@@ -98,7 +98,7 @@
     const-string v4, "SmartCoverManager$CallbackRegister is a callback held by a native ref, and SmartCoverManager ends up leaking an activity context."
 
     .line 3
-    invoke-virtual {v0, v2, v3, v4, v1}, Lkshark/AndroidReferenceMatchers$Companion;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
+    invoke-virtual {v0, v2, v3, v4, v1}, Lkshark/AndroidReferenceMatchers$Companion;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object v0
 

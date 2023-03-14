@@ -17,7 +17,7 @@
     value = "SMAP\nOnAnalysisProgressListener.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnAnalysisProgressListener.kt\nkshark/OnAnalysisProgressListener$Companion\n*L\n1#1,49:1\n43#1,5:50\n*E\n*S KotlinDebug\n*F\n+ 1 OnAnalysisProgressListener.kt\nkshark/OnAnalysisProgressListener$Companion\n*L\n28#1,5:50\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,13 +29,13 @@
     d2 = {
         "kshark/OnAnalysisProgressListener$a",
         "",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "Lkshark/OnAnalysisProgressListener$Step;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "block",
         "Lkshark/OnAnalysisProgressListener;",
         "b",
-        "(Lkotlin/jvm/u/l;)Lkshark/OnAnalysisProgressListener;",
+        "(Lcotlin/jvm/u/l;)Lkshark/OnAnalysisProgressListener;",
         "a",
         "Lkshark/OnAnalysisProgressListener;",
         "()Lkshark/OnAnalysisProgressListener;",
@@ -106,19 +106,19 @@
     return-object v0
 .end method
 
-.method public final b(Lkotlin/jvm/u/l;)Lkshark/OnAnalysisProgressListener;
+.method public final b(Lcotlin/jvm/u/l;)Lkshark/OnAnalysisProgressListener;
     .locals 1
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lkshark/OnAnalysisProgressListener$Step;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Lkshark/OnAnalysisProgressListener;"
         }
@@ -129,12 +129,12 @@
 
     const-string v0, "block"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lkshark/OnAnalysisProgressListener$a$b;
 
-    invoke-direct {v0, p1}, Lkshark/OnAnalysisProgressListener$a$b;-><init>(Lkotlin/jvm/u/l;)V
+    invoke-direct {v0, p1}, Lkshark/OnAnalysisProgressListener$a$b;-><init>(Lcotlin/jvm/u/l;)V
 
     return-object v0
 .end method

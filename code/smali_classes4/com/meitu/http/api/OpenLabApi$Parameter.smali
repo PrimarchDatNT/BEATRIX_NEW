@@ -16,7 +16,7 @@
     name = "Parameter"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -96,7 +96,7 @@
 
     move-object v0, p0
 
-    invoke-direct/range {v0 .. v5}, Lcom/meitu/http/api/OpenLabApi$Parameter;-><init>(Ljava/lang/String;IIILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v5}, Lcom/meitu/http/api/OpenLabApi$Parameter;-><init>(Ljava/lang/String;IIILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -110,7 +110,7 @@
 
     const-string v0, "version"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -124,7 +124,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/String;IIILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Ljava/lang/String;IIILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p5, p4, 0x1
@@ -252,7 +252,7 @@
 
     const-string v1, "version"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v1, Lcom/meitu/http/api/OpenLabApi$Parameter;
 
@@ -286,7 +286,7 @@
 
     iget-object v2, p1, Lcom/meitu/http/api/OpenLabApi$Parameter;->version:Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -449,7 +449,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/meitu/http/api/OpenLabApi$Parameter;->version:Ljava/lang/String;

@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Landroidx/room/migration/Migration;",
         "Landroidx/sqlite/db/SupportSQLiteDatabase;",
         "database",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "migrate",
         "(Landroidx/sqlite/db/SupportSQLiteDatabase;)V",
         "app_googleplayRelease"
@@ -66,7 +66,7 @@
 
     const-string v1, "database"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `DOODLE_MATERIAL_DUFFLE` (`m_id` TEXT NOT NULL,`icon` TEXT, `name` TEXT, `file` TEXT, `is_new_time` INTEGER NOT NULL DEFAULT(0), `is_new` Integer not null default(0), `ended_at` Integer not null default(0), `download_type` INTEGER not null default(1), `paid_type` INTEGER not null default(0), `PaidSort` INTEGER not null default(0), `sort` INTEGER not null default(0), `downloadState` INTEGER NOT NULL, `CanEditColor` INTEGER NOT NULL DEFAULT(0), `ListDisplay` INTEGER NOT NULL DEFAULT(0), `Hot` INTEGER NOT NULL DEFAULT(0), `HotSort` INTEGER NOT NULL DEFAULT(0), `internalState` INTEGER NOT NULL, `CategoryId` TEXT,`DoodleCollectState` INTEGER NOT NULL DEFAULT(0), `DoodleCollectTime` INTEGER NOT NULL DEFAULT(0), `NeedShow` INTEGER NOT NULL DEFAULT(0), `localInsertTime` INTEGER NOT NULL DEFAULT(0), PRIMARY KEY(`m_id`))"
 

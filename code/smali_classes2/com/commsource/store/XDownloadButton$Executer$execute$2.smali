@@ -1,9 +1,9 @@
 .class final Lcom/commsource/store/XDownloadButton$Executer$execute$2;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "XDownloadButton.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
@@ -18,15 +18,15 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Landroid/view/View;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -37,7 +37,7 @@
     }
     d2 = {
         "Landroid/view/View;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(Landroid/view/View;)V",
         "<anonymous>"
@@ -52,18 +52,18 @@
 
 
 # instance fields
-.field final synthetic $task:Lkotlin/jvm/u/a;
+.field final synthetic $task:Lcotlin/jvm/u/a;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/jvm/u/a;)V
+.method constructor <init>(Lcotlin/jvm/u/a;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$2;->$task:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$2;->$task:Lcotlin/jvm/u/a;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -82,7 +82,7 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/XDownloadButton$Executer$execute$2;->invoke(Landroid/view/View;)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -102,12 +102,12 @@
 
     const-string v1, "$receiver"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object p1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$2;->$task:Lkotlin/jvm/u/a;
+    iget-object p1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$2;->$task:Lcotlin/jvm/u/a;
 
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

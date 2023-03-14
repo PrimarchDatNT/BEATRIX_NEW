@@ -13,7 +13,7 @@
     name = "b"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "clipRect",
         "Landroid/graphics/PointF;",
         "lineEndPoint",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Landroid/graphics/RectF;Landroid/graphics/PointF;)V",
         "app_googleplayRelease"

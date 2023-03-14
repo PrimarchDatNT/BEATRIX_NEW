@@ -1,14 +1,14 @@
-.class public interface abstract Lkotlin/jvm/internal/x0/g$a;
+.class public interface abstract Lcotlin/jvm/internal/x0/g$a;
 .super Ljava/lang/Object;
 .source "KMarkers.kt"
 
 # interfaces
-.implements Lkotlin/jvm/internal/x0/a;
+.implements Lcotlin/jvm/internal/x0/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/jvm/internal/x0/g;
+    value = Lcotlin/jvm/internal/x0/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,7 +16,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
     }
     d2 = {
         "kotlin/jvm/internal/x0/g$a",
-        "Lkotlin/jvm/internal/x0/a;",
+        "Lcotlin/jvm/internal/x0/a;",
         "kotlin-stdlib"
     }
     k = 0x1

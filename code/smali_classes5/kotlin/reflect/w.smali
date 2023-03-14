@@ -1,10 +1,10 @@
-.class public final Lkotlin/reflect/w;
+.class public final Lcotlin/reflect/w;
 .super Ljava/lang/Object;
 .source "typeOf.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,9 +15,9 @@
     }
     d2 = {
         "T",
-        "Lkotlin/reflect/r;",
+        "Lcotlin/reflect/r;",
         "a",
-        "()Lkotlin/reflect/r;",
+        "()Lcotlin/reflect/r;",
         "kotlin-stdlib"
     }
     k = 0x2
@@ -30,21 +30,21 @@
 
 
 # direct methods
-.method public static final synthetic a()Lkotlin/reflect/r;
+.method public static final synthetic a()Lcotlin/reflect/r;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">()",
-            "Lkotlin/reflect/r;"
+            "Lcotlin/reflect/r;"
         }
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 

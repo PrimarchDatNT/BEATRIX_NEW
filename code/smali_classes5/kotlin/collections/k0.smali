@@ -1,10 +1,10 @@
-.class public final Lkotlin/collections/k0;
+.class public final Lcotlin/collections/k0;
 .super Ljava/lang/Object;
 .source "Iterators.kt"
 
 # interfaces
 .implements Ljava/util/Iterator;
-.implements Lkotlin/jvm/internal/x0/a;
+.implements Lcotlin/jvm/internal/x0/a;
 
 
 # annotations
@@ -15,13 +15,13 @@
         ">",
         "Ljava/lang/Object;",
         "Ljava/util/Iterator<",
-        "Lkotlin/collections/i0<",
+        "Lcotlin/collections/i0<",
         "+TT;>;>;",
-        "Lkotlin/jvm/internal/x0/a;"
+        "Lcotlin/jvm/internal/x0/a;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,15 +31,15 @@
         "\u0000\u001e\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010(\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0004\n\u0002\u0010\u0008\n\u0002\u0008\u0008\u0008\u0000\u0018\u0000*\u0006\u0008\u0000\u0010\u0001 \u00012\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00028\u00000\u00030\u0002B\u0015\u0012\u000c\u0010\u000e\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0002\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J\u0010\u0010\u0005\u001a\u00020\u0004H\u0086\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u0016\u0010\u0007\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0003H\u0086\u0002\u00a2\u0006\u0004\u0008\u0007\u0010\u0008R\u0016\u0010\u000b\u001a\u00020\t8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0007\u0010\nR\u001c\u0010\u000e\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u00028\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u000c\u0010\r\u00a8\u0006\u0011"
     }
     d2 = {
-        "Lkotlin/collections/k0;",
+        "Lcotlin/collections/k0;",
         "T",
         "",
-        "Lkotlin/collections/i0;",
+        "Lcotlin/collections/i0;",
         "",
         "hasNext",
         "()Z",
         "a",
-        "()Lkotlin/collections/i0;",
+        "()Lcotlin/collections/i0;",
         "",
         "I",
         "index",
@@ -89,24 +89,24 @@
 
     const-string v0, "iterator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkotlin/collections/k0;->b:Ljava/util/Iterator;
+    iput-object p1, p0, Lcotlin/collections/k0;->b:Ljava/util/Iterator;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Lkotlin/collections/i0;
+.method public final a()Lcotlin/collections/i0;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/collections/i0<",
+            "Lcotlin/collections/i0<",
             "TT;>;"
         }
     .end annotation
@@ -115,26 +115,26 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/collections/i0;
+    new-instance v0, Lcotlin/collections/i0;
 
-    iget v1, p0, Lkotlin/collections/k0;->a:I
+    iget v1, p0, Lcotlin/collections/k0;->a:I
 
     add-int/lit8 v2, v1, 0x1
 
-    iput v2, p0, Lkotlin/collections/k0;->a:I
+    iput v2, p0, Lcotlin/collections/k0;->a:I
 
     if-gez v1, :cond_0
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_0
-    iget-object v2, p0, Lkotlin/collections/k0;->b:Ljava/util/Iterator;
+    iget-object v2, p0, Lcotlin/collections/k0;->b:Ljava/util/Iterator;
 
     invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
-    invoke-direct {v0, v1, v2}, Lkotlin/collections/i0;-><init>(ILjava/lang/Object;)V
+    invoke-direct {v0, v1, v2}, Lcotlin/collections/i0;-><init>(ILjava/lang/Object;)V
 
     return-object v0
 .end method
@@ -143,7 +143,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/k0;->b:Ljava/util/Iterator;
+    iget-object v0, p0, Lcotlin/collections/k0;->b:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -156,7 +156,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/k0;->a()Lkotlin/collections/i0;
+    invoke-virtual {p0}, Lcotlin/collections/k0;->a()Lcotlin/collections/i0;
 
     move-result-object v0
 

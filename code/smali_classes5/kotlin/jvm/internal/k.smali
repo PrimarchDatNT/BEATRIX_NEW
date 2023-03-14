@@ -1,10 +1,10 @@
-.class final Lkotlin/jvm/internal/k;
-.super Lkotlin/collections/f1;
+.class final Lcotlin/jvm/internal/k;
+.super Lcotlin/collections/f1;
 .source "ArrayIterators.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -14,8 +14,8 @@
         "\u0000(\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\n\n\u0002\u0008\u0002\n\u0002\u0010\u0017\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0006\u0008\u0002\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010\n\u001a\u00020\u0008\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J\u0010\u0010\u0003\u001a\u00020\u0002H\u0096\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u000f\u0010\u0006\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\u0006\u0010\u0007R\u0016\u0010\n\u001a\u00020\u00088\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0006\u0010\tR\u0016\u0010\u000e\u001a\u00020\u000b8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u000c\u0010\r\u00a8\u0006\u0011"
     }
     d2 = {
-        "Lkotlin/jvm/internal/k;",
-        "Lkotlin/collections/f1;",
+        "Lcotlin/jvm/internal/k;",
+        "Lcotlin/collections/f1;",
         "",
         "hasNext",
         "()Z",
@@ -58,12 +58,12 @@
 
     const-string v0, "array"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0}, Lkotlin/collections/f1;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/f1;-><init>()V
 
-    iput-object p1, p0, Lkotlin/jvm/internal/k;->b:[S
+    iput-object p1, p0, Lcotlin/jvm/internal/k;->b:[S
 
     return-void
 .end method
@@ -75,13 +75,13 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Lkotlin/jvm/internal/k;->b:[S
+    iget-object v0, p0, Lcotlin/jvm/internal/k;->b:[S
 
-    iget v1, p0, Lkotlin/jvm/internal/k;->a:I
+    iget v1, p0, Lcotlin/jvm/internal/k;->a:I
 
     add-int/lit8 v2, v1, 0x1
 
-    iput v2, p0, Lkotlin/jvm/internal/k;->a:I
+    iput v2, p0, Lcotlin/jvm/internal/k;->a:I
 
     aget-short v0, v0, v1
     :try_end_0
@@ -92,11 +92,11 @@
     :catch_0
     move-exception v0
 
-    iget v1, p0, Lkotlin/jvm/internal/k;->a:I
+    iget v1, p0, Lcotlin/jvm/internal/k;->a:I
 
     add-int/lit8 v1, v1, -0x1
 
-    iput v1, p0, Lkotlin/jvm/internal/k;->a:I
+    iput v1, p0, Lcotlin/jvm/internal/k;->a:I
 
     new-instance v1, Ljava/util/NoSuchElementException;
 
@@ -113,9 +113,9 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lkotlin/jvm/internal/k;->a:I
+    iget v0, p0, Lcotlin/jvm/internal/k;->a:I
 
-    iget-object v1, p0, Lkotlin/jvm/internal/k;->b:[S
+    iget-object v1, p0, Lcotlin/jvm/internal/k;->b:[S
 
     array-length v1, v1
 

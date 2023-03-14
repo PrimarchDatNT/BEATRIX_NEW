@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/e;
-.super Lkotlinx/coroutines/k1;
+.class public final Lcotlinx/coroutines/e;
+.super Lcotlinx/coroutines/k1;
 .source "EventLoop.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -14,8 +14,8 @@
         "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0008\u0000\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010\u0007\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0008\u0010\tR\u001c\u0010\u0007\u001a\u00020\u00028\u0014@\u0014X\u0094\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0003\u0010\u0004\u001a\u0004\u0008\u0005\u0010\u0006\u00a8\u0006\n"
     }
     d2 = {
-        "Lkotlinx/coroutines/e;",
-        "Lkotlinx/coroutines/k1;",
+        "Lcotlinx/coroutines/e;",
+        "Lcotlinx/coroutines/k1;",
         "Ljava/lang/Thread;",
         "p",
         "Ljava/lang/Thread;",
@@ -51,9 +51,9 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Lkotlinx/coroutines/k1;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/k1;-><init>()V
 
-    iput-object p1, p0, Lkotlinx/coroutines/e;->p:Ljava/lang/Thread;
+    iput-object p1, p0, Lcotlinx/coroutines/e;->p:Ljava/lang/Thread;
 
     return-void
 .end method
@@ -66,7 +66,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/e;->p:Ljava/lang/Thread;
+    iget-object v0, p0, Lcotlinx/coroutines/e;->p:Ljava/lang/Thread;
 
     return-object v0
 .end method

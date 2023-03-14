@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "T",
         "",
         "element",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "addIfEmpty",
         "(Ljava/util/List;Ljava/lang/Object;)V",
         "<init>",
@@ -109,7 +109,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -425,7 +425,7 @@
     const-string p1, "currentCESettingsHash"
 
     .line 35
-    invoke-static {v3, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     move-object v2, p0
 

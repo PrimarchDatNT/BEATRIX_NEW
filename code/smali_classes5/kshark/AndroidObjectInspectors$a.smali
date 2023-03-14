@@ -17,7 +17,7 @@
     value = "SMAP\nAndroidObjectInspectors.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AndroidObjectInspectors.kt\nkshark/AndroidObjectInspectors$Companion\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,591:1\n1365#2,9:592\n1587#2,2:601\n1374#2:603\n1313#2:604\n1382#2,3:605\n*E\n*S KotlinDebug\n*F\n+ 1 AndroidObjectInspectors.kt\nkshark/AndroidObjectInspectors$Companion\n*L\n511#1,9:592\n511#1,2:601\n511#1:603\n512#1:604\n512#1,3:605\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -66,7 +66,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -101,7 +101,7 @@
 
     const-string v0, "inspectors"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/ArrayList;
@@ -129,7 +129,7 @@
     check-cast v1, Lkshark/AndroidObjectInspectors;
 
     .line 4
-    invoke-virtual {v1}, Lkshark/AndroidObjectInspectors;->getLeakingObjectFilter$shark()Lkotlin/jvm/u/l;
+    invoke-virtual {v1}, Lkshark/AndroidObjectInspectors;->getLeakingObjectFilter$shark()Lcotlin/jvm/u/l;
 
     move-result-object v1
 
@@ -146,7 +146,7 @@
 
     const/16 v1, 0xa
 
-    invoke-static {v0, v1}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v0, v1}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v1
 
@@ -169,12 +169,12 @@
     move-result-object v1
 
     .line 8
-    check-cast v1, Lkotlin/jvm/u/l;
+    check-cast v1, Lcotlin/jvm/u/l;
 
     .line 9
     new-instance v2, Lkshark/AndroidObjectInspectors$a$a;
 
-    invoke-direct {v2, v1}, Lkshark/AndroidObjectInspectors$a$a;-><init>(Lkotlin/jvm/u/l;)V
+    invoke-direct {v2, v1}, Lkshark/AndroidObjectInspectors$a$a;-><init>(Lcotlin/jvm/u/l;)V
 
     .line 10
     invoke-interface {p1, v2}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
@@ -210,7 +210,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkotlin/collections/s;->r4(Ljava/util/Collection;[Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v0, v1}, Lcotlin/collections/s;->r4(Ljava/util/Collection;[Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v0
 

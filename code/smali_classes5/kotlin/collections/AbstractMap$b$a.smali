@@ -1,15 +1,15 @@
-.class public final Lkotlin/collections/AbstractMap$b$a;
+.class public final Lcotlin/collections/AbstractMap$b$a;
 .super Ljava/lang/Object;
 .source "AbstractMap.kt"
 
 # interfaces
 .implements Ljava/util/Iterator;
-.implements Lkotlin/jvm/internal/x0/a;
+.implements Lcotlin/jvm/internal/x0/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/collections/AbstractMap$b;->iterator()Ljava/util/Iterator;
+    value = Lcotlin/collections/AbstractMap$b;->iterator()Ljava/util/Iterator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,11 +22,11 @@
         "Ljava/lang/Object;",
         "Ljava/util/Iterator<",
         "TK;>;",
-        "Lkotlin/jvm/internal/x0/a;"
+        "Lcotlin/jvm/internal/x0/a;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -63,7 +63,7 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lkotlin/collections/AbstractMap$b$a;->a:Ljava/util/Iterator;
+    iput-object p1, p0, Lcotlin/collections/AbstractMap$b$a;->a:Ljava/util/Iterator;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -76,7 +76,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/AbstractMap$b$a;->a:Ljava/util/Iterator;
+    iget-object v0, p0, Lcotlin/collections/AbstractMap$b$a;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -94,7 +94,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/AbstractMap$b$a;->a:Ljava/util/Iterator;
+    iget-object v0, p0, Lcotlin/collections/AbstractMap$b$a;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 

@@ -20,7 +20,7 @@
     value = "SMAP\nHprofInMemoryIndex.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HprofInMemoryIndex.kt\nkshark/internal/HprofInMemoryIndex$Builder\n*L\n1#1,406:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,7 +36,7 @@
         "position",
         "Lkshark/m;",
         "record",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(JLkshark/m;)V",
         "Lkshark/x;",
@@ -63,7 +63,7 @@
         "c",
         "positionSize",
         "",
-        "Lkotlin/reflect/d;",
+        "Lcotlin/reflect/d;",
         "Lkshark/d;",
         "m",
         "indexedGcRootsTypes",
@@ -162,7 +162,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/Set<",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "+",
             "Lkshark/d;",
             ">;>;"
@@ -183,7 +183,7 @@
             "(ZJIIII",
             "Ljava/util/Set<",
             "+",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "+",
             "Lkshark/d;",
             ">;>;)V"
@@ -196,7 +196,7 @@
 
     const-string v2, "indexedGcRootsTypes"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -264,7 +264,7 @@
 
     move/from16 v5, p4
 
-    invoke-direct/range {v2 .. v9}, Lkshark/internal/h;-><init>(IZIDILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v2 .. v9}, Lkshark/internal/h;-><init>(IZIDILcotlin/jvm/internal/u;)V
 
     iput-object v12, v0, Lkshark/internal/HprofInMemoryIndex$a;->f:Lkshark/internal/h;
 
@@ -277,7 +277,7 @@
 
     move/from16 v5, p5
 
-    invoke-direct/range {v2 .. v9}, Lkshark/internal/h;-><init>(IZIDILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v2 .. v9}, Lkshark/internal/h;-><init>(IZIDILcotlin/jvm/internal/u;)V
 
     iput-object v12, v0, Lkshark/internal/HprofInMemoryIndex$a;->g:Lkshark/internal/h;
 
@@ -292,7 +292,7 @@
 
     move/from16 v5, p6
 
-    invoke-direct/range {v2 .. v9}, Lkshark/internal/h;-><init>(IZIDILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v2 .. v9}, Lkshark/internal/h;-><init>(IZIDILcotlin/jvm/internal/u;)V
 
     iput-object v12, v0, Lkshark/internal/HprofInMemoryIndex$a;->h:Lkshark/internal/h;
 
@@ -307,7 +307,7 @@
 
     move/from16 v5, p7
 
-    invoke-direct/range {v2 .. v9}, Lkshark/internal/h;-><init>(IZIDILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v2 .. v9}, Lkshark/internal/h;-><init>(IZIDILcotlin/jvm/internal/u;)V
 
     iput-object v10, v0, Lkshark/internal/HprofInMemoryIndex$a;->i:Lkshark/internal/h;
 
@@ -346,7 +346,7 @@
 
     const-string v0, "record"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     instance-of v0, p3, Lkshark/m$f;
@@ -405,7 +405,7 @@
 
     const/4 v7, 0x0
 
-    invoke-static/range {v2 .. v7}, Lkotlin/text/m;->h2(Ljava/lang/String;CCZILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v2 .. v7}, Lcotlin/text/m;->h2(Ljava/lang/String;CCZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -496,7 +496,7 @@
 
     move-result-object p3
 
-    invoke-static {p3}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {p3}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object p3
 
@@ -736,7 +736,7 @@
     move-object v10, p1
 
     .line 10
-    invoke-direct/range {v1 .. v12}, Lkshark/internal/HprofInMemoryIndex;-><init>(ILkshark/internal/hppc/LongObjectScatterMap;Lkshark/internal/hppc/LongLongScatterMap;Lkshark/internal/SortedBytesMap;Lkshark/internal/SortedBytesMap;Lkshark/internal/SortedBytesMap;Lkshark/internal/SortedBytesMap;Ljava/util/List;Lkshark/x;Ljava/util/Set;Lkotlin/jvm/internal/u;)V
+    invoke-direct/range {v1 .. v12}, Lkshark/internal/HprofInMemoryIndex;-><init>(ILkshark/internal/hppc/LongObjectScatterMap;Lkshark/internal/hppc/LongLongScatterMap;Lkshark/internal/SortedBytesMap;Lkshark/internal/SortedBytesMap;Lkshark/internal/SortedBytesMap;Lkshark/internal/SortedBytesMap;Ljava/util/List;Lkshark/x;Ljava/util/Set;Lcotlin/jvm/internal/u;)V
 
     return-object v0
 .end method

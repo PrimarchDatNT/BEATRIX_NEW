@@ -40,7 +40,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -53,16 +53,16 @@
         "Lkshark/AndroidObjectInspectors;",
         "",
         "Lkshark/u;",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "Lkshark/HeapObject;",
-        "Lkotlin/k0;",
+        "Lcotlin/k0;",
         "name",
         "heapObject",
         "",
         "leakingObjectFilter",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "getLeakingObjectFilter$shark",
-        "()Lkotlin/jvm/u/l;",
+        "()Lcotlin/jvm/u/l;",
         "<init>",
         "(Ljava/lang/String;I)V",
         "Companion",
@@ -152,10 +152,10 @@
 
 
 # instance fields
-.field private final leakingObjectFilter:Lkotlin/jvm/u/l;
+.field private final leakingObjectFilter:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Lkshark/HeapObject;",
             "Ljava/lang/Boolean;",
             ">;"
@@ -397,7 +397,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkshark/AndroidObjectInspectors$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lkshark/AndroidObjectInspectors$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lkshark/AndroidObjectInspectors;->Companion:Lkshark/AndroidObjectInspectors$a;
 
@@ -417,14 +417,14 @@
 
     const-string v3, "EnumSet.allOf(AndroidObjectInspectors::class.java)"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0, v2}, Lkshark/AndroidObjectInspectors$a;->a(Ljava/util/Set;)Ljava/util/List;
 
     move-result-object v0
 
     .line 3
-    invoke-static {v1, v0}, Lkotlin/collections/s;->o4(Ljava/util/Collection;Ljava/lang/Iterable;)Ljava/util/List;
+    invoke-static {v1, v0}, Lcotlin/collections/s;->o4(Ljava/util/Collection;Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object v0
 
@@ -447,7 +447,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -495,12 +495,12 @@
 
 
 # virtual methods
-.method public getLeakingObjectFilter$shark()Lkotlin/jvm/u/l;
+.method public getLeakingObjectFilter$shark()Lcotlin/jvm/u/l;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Lkshark/HeapObject;",
             "Ljava/lang/Boolean;",
             ">;"
@@ -511,7 +511,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkshark/AndroidObjectInspectors;->leakingObjectFilter:Lkotlin/jvm/u/l;
+    iget-object v0, p0, Lkshark/AndroidObjectInspectors;->leakingObjectFilter:Lcotlin/jvm/u/l;
 
     return-object v0
 .end method

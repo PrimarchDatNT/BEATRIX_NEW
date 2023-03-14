@@ -13,7 +13,7 @@
     name = "b"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -42,14 +42,14 @@
         "h",
         "Lcom/commsource/material/download/c/f;",
         "simpleDownloadListener",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
         "(Lcom/commsource/material/download/c/f;)V",
         "Lcom/commsource/material/download/b/b;",
         "c",
         "(Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b;",
         "",
-        "Lkotlin/Triple;",
+        "Lcotlin/Triple;",
         "Ljava/util/List;",
         "f",
         "()Ljava/util/List;",
@@ -95,7 +95,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lkotlin/Triple<",
+            "Lcotlin/Triple<",
             "Lcom/commsource/material/download/c/c;",
             "Lcom/commsource/material/download/c/f;",
             "Lcom/commsource/material/d;",
@@ -174,22 +174,22 @@
 
     const-string v1, "task"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "queue"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-nez p3, :cond_0
 
     .line 1
     iget-object p3, p0, Lcom/commsource/material/download/b/b$b;->d:Ljava/util/List;
 
-    new-instance v1, Lkotlin/Triple;
+    new-instance v1, Lcotlin/Triple;
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, p1, v2, p2}, Lkotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v1, p1, v2, p2}, Lcotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-interface {p3, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -199,13 +199,13 @@
     :cond_0
     iget-object v1, p0, Lcom/commsource/material/download/b/b$b;->d:Ljava/util/List;
 
-    new-instance v2, Lkotlin/Triple;
+    new-instance v2, Lcotlin/Triple;
 
     new-instance v3, Lcom/commsource/material/download/c/f;
 
     invoke-direct {v3, p3}, Lcom/commsource/material/download/c/f;-><init>(Lcom/commsource/material/download/b/c;)V
 
-    invoke-direct {v2, p1, v3, p2}, Lkotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v2, p1, v3, p2}, Lcotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -231,7 +231,7 @@
 
     const-string v1, "onDownloadListener"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/material/download/b/b;
@@ -280,7 +280,7 @@
 
     const-string v1, "simpleDownloadListener"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     check-cast p1, Lcom/commsource/material/download/b/c;
@@ -316,7 +316,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lkotlin/Triple<",
+            "Lcotlin/Triple<",
             "Lcom/commsource/material/download/c/c;",
             "Lcom/commsource/material/download/c/f;",
             "Lcom/commsource/material/d;",
@@ -416,7 +416,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lkotlin/Triple<",
+            "Lcotlin/Triple<",
             "Lcom/commsource/material/download/c/c;",
             "Lcom/commsource/material/download/c/f;",
             "Lcom/commsource/material/d;",
@@ -430,7 +430,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/material/download/b/b$b;->d:Ljava/util/List;

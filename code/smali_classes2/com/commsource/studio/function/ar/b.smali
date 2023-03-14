@@ -22,7 +22,7 @@
     value = "SMAP\nStudioArFunctionViewHolder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StudioArFunctionViewHolder.kt\ncom/commsource/studio/function/ar/StudioArFunctionViewHolder\n*L\n1#1,56:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -42,7 +42,7 @@
         "",
         "",
         "payloads",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "k",
         "(ILcom/commsource/widget/h1/d;Ljava/util/List;)V",
         "Lcom/commsource/widget/IconFrontView;",
@@ -95,7 +95,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/function/ar/b$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/function/ar/b$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/function/ar/b;->J:Lcom/commsource/studio/function/ar/b$a;
 
@@ -117,7 +117,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v0, Lcom/commsource/studio/function/ar/b;->J:Lcom/commsource/studio/function/ar/b$a;
@@ -139,7 +139,7 @@
 
     const-string p2, "itemView.findViewById<Ic\u2026FrontView>(R.id.ifv_icon)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/widget/IconFrontView;
 
@@ -274,7 +274,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/ar/b;->p:Lcom/commsource/widget/IconFrontView;

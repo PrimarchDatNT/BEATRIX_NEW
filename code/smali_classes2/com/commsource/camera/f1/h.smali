@@ -8,7 +8,7 @@
     value = "SMAP\nXAnimHelper.kt\nKotlin\n*S Kotlin\n*F\n+ 1 XAnimHelper.kt\ncom/commsource/camera/util/XAnimHelper\n*L\n1#1,57:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Landroid/view/ViewPropertyAnimator;",
         "animator",
         "rt",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "g",
         "(Landroid/view/ViewPropertyAnimator;Ljava/lang/Object;)V",
         "c",
@@ -134,7 +134,7 @@
 
     const-string v3, "animRtCalzz.getDeclaredC\u2026tructor(View::class.java)"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-virtual {v1, v2}, Ljava/lang/reflect/Constructor;->setAccessible(Z)V
@@ -192,7 +192,7 @@
 
     const-string v2, "animClazz.getDeclaredField(\"mRTBackend\")"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x1
 
@@ -234,7 +234,7 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v1, Lcom/commsource/camera/f1/h;->a:Landroidx/core/app/FrameMetricsAggregator;
@@ -269,7 +269,7 @@
 
     const-string v3, "view.animate()"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v1, p1}, Lcom/commsource/camera/f1/h;->b(Landroid/view/View;)Ljava/lang/Object;
 
@@ -314,7 +314,7 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v1, Lcom/commsource/camera/f1/h;->a:Landroidx/core/app/FrameMetricsAggregator;
@@ -340,7 +340,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sput-object p1, Lcom/commsource/camera/f1/h;->a:Landroidx/core/app/FrameMetricsAggregator;

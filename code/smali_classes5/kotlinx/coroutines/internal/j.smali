@@ -1,4 +1,4 @@
-.class public final Lkotlinx/coroutines/internal/j;
+.class public final Lcotlinx/coroutines/internal/j;
 .super Ljava/lang/Object;
 .source "InlineList.kt"
 
@@ -13,7 +13,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -23,17 +23,17 @@
         "\u00002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0000\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0008\u0008\u0080@\u0018\u0000*\u0004\u0008\u0000\u0010\u00012\u00020\u0002B\u0016\u0012\n\u0008\u0002\u0010\u0017\u001a\u0004\u0018\u00010\u0002\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0018\u0010\u0019J!\u0010\u0004\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u00002\u0006\u0010\u0003\u001a\u00028\u0000H\u0086\u0002\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0004\u0010\u0005J$\u0010\t\u001a\u00020\u00072\u0012\u0010\u0008\u001a\u000e\u0012\u0004\u0012\u00028\u0000\u0012\u0004\u0012\u00020\u00070\u0006H\u0086\u0008\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0010\u0010\u000c\u001a\u00020\u000bH\u00d6\u0001\u00a2\u0006\u0004\u0008\u000c\u0010\rJ\u0010\u0010\u000f\u001a\u00020\u000eH\u00d6\u0001\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J\u001a\u0010\u0013\u001a\u00020\u00122\u0008\u0010\u0011\u001a\u0004\u0018\u00010\u0002H\u00d6\u0003\u00a2\u0006\u0004\u0008\u0013\u0010\u0014R\u0018\u0010\u0017\u001a\u0004\u0018\u00010\u00028\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0015\u0010\u0016\u00f8\u0001\u0000\u0082\u0002\u0004\n\u0002\u0008\u0019\u00a8\u0006\u001a"
     }
     d2 = {
-        "Lkotlinx/coroutines/internal/j;",
+        "Lcotlinx/coroutines/internal/j;",
         "E",
         "",
         "element",
         "h",
         "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
-        "Lkotlin/Function1;",
-        "Lkotlin/t1;",
+        "Lcotlin/Function1;",
+        "Lcotlin/t1;",
         "action",
         "f",
-        "(Ljava/lang/Object;Lkotlin/jvm/u/l;)V",
+        "(Ljava/lang/Object;Lcotlin/jvm/u/l;)V",
         "",
         "toString",
         "()Ljava/lang/String;",
@@ -75,12 +75,12 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkotlinx/coroutines/internal/j;->a:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/internal/j;->a:Ljava/lang/Object;
 
     return-void
 .end method
 
-.method public static final synthetic a(Ljava/lang/Object;)Lkotlinx/coroutines/internal/j;
+.method public static final synthetic a(Ljava/lang/Object;)Lcotlinx/coroutines/internal/j;
     .locals 1
     .param p0    # Ljava/lang/Object;
         .annotation build Ln/e/a/e;
@@ -89,9 +89,9 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    new-instance v0, Lkotlinx/coroutines/internal/j;
+    new-instance v0, Lcotlinx/coroutines/internal/j;
 
-    invoke-direct {v0, p0}, Lkotlinx/coroutines/internal/j;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p0}, Lcotlinx/coroutines/internal/j;-><init>(Ljava/lang/Object;)V
 
     return-object v0
 .end method
@@ -108,7 +108,7 @@
     return-object p0
 .end method
 
-.method public static synthetic c(Ljava/lang/Object;ILkotlin/jvm/internal/u;)Ljava/lang/Object;
+.method public static synthetic c(Ljava/lang/Object;ILcotlin/jvm/internal/u;)Ljava/lang/Object;
     .locals 0
 
     and-int/lit8 p1, p1, 0x1
@@ -119,7 +119,7 @@
 
     .line 1
     :cond_0
-    invoke-static {p0}, Lkotlinx/coroutines/internal/j;->b(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Lcotlinx/coroutines/internal/j;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -133,17 +133,17 @@
         .end annotation
     .end param
 
-    instance-of v0, p1, Lkotlinx/coroutines/internal/j;
+    instance-of v0, p1, Lcotlinx/coroutines/internal/j;
 
     if-eqz v0, :cond_0
 
-    check-cast p1, Lkotlinx/coroutines/internal/j;
+    check-cast p1, Lcotlinx/coroutines/internal/j;
 
-    invoke-virtual {p1}, Lkotlinx/coroutines/internal/j;->j()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlinx/coroutines/internal/j;->j()Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p0
 
@@ -170,16 +170,16 @@
         .end annotation
     .end param
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p0
 
     return p0
 .end method
 
-.method public static final f(Ljava/lang/Object;Lkotlin/jvm/u/l;)V
+.method public static final f(Ljava/lang/Object;Lcotlin/jvm/u/l;)V
     .locals 2
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -187,9 +187,9 @@
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -204,7 +204,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-interface {p1, p0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
@@ -229,7 +229,7 @@
 
     move-result-object v1
 
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v0, v0, -0x1
 
@@ -241,11 +241,11 @@
 
     .line 5
     :cond_3
-    new-instance p0, Lkotlin/TypeCastException;
+    new-instance p0, Lcotlin/TypeCastException;
 
     const-string p1, "null cannot be cast to non-null type kotlin.collections.ArrayList<E> /* = java.util.ArrayList<E> */"
 
-    invoke-direct {p0, p1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -283,7 +283,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlinx/coroutines/p0;->b()Z
+    invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v0
 
@@ -309,7 +309,7 @@
     if-nez p0, :cond_2
 
     .line 2
-    invoke-static {p1}, Lkotlinx/coroutines/internal/j;->b(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcotlinx/coroutines/internal/j;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -331,7 +331,7 @@
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 5
-    invoke-static {p0}, Lkotlinx/coroutines/internal/j;->b(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Lcotlinx/coroutines/internal/j;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -339,11 +339,11 @@
 
     .line 6
     :cond_3
-    new-instance p0, Lkotlin/TypeCastException;
+    new-instance p0, Lcotlin/TypeCastException;
 
     const-string p1, "null cannot be cast to non-null type kotlin.collections.ArrayList<E> /* = java.util.ArrayList<E> */"
 
-    invoke-direct {p0, p1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p0
 
@@ -362,7 +362,7 @@
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 10
-    invoke-static {v0}, Lkotlinx/coroutines/internal/j;->b(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcotlinx/coroutines/internal/j;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -402,9 +402,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/internal/j;->a:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlinx/coroutines/internal/j;->a:Ljava/lang/Object;
 
-    invoke-static {v0, p1}, Lkotlinx/coroutines/internal/j;->d(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lcotlinx/coroutines/internal/j;->d(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -415,9 +415,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/internal/j;->a:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlinx/coroutines/internal/j;->a:Ljava/lang/Object;
 
-    invoke-static {v0}, Lkotlinx/coroutines/internal/j;->g(Ljava/lang/Object;)I
+    invoke-static {v0}, Lcotlinx/coroutines/internal/j;->g(Ljava/lang/Object;)I
 
     move-result v0
 
@@ -429,7 +429,7 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    iget-object v0, p0, Lkotlinx/coroutines/internal/j;->a:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlinx/coroutines/internal/j;->a:Ljava/lang/Object;
 
     return-object v0
 .end method
@@ -438,9 +438,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/internal/j;->a:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlinx/coroutines/internal/j;->a:Ljava/lang/Object;
 
-    invoke-static {v0}, Lkotlinx/coroutines/internal/j;->i(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0}, Lcotlinx/coroutines/internal/j;->i(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 

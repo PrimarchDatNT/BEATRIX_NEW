@@ -1,9 +1,9 @@
 .class final Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "StitchComponent.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
@@ -18,15 +18,15 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Ljava/lang/Float;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
     d2 = {
         "",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(F)V",
         "<anonymous>"
@@ -64,7 +64,7 @@
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -87,7 +87,7 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$1;->invoke(F)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -130,9 +130,9 @@
     .line 4
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;
 
-    iget-object v2, v1, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->$isNeedScaleAnim:Lkotlin/jvm/internal/Ref$BooleanRef;
+    iget-object v2, v1, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->$isNeedScaleAnim:Lcotlin/jvm/internal/Ref$BooleanRef;
 
-    iget-boolean v2, v2, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
+    iget-boolean v2, v2, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     if-eqz v2, :cond_0
 
@@ -150,9 +150,9 @@
     .line 6
     iget-object v4, p0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;
 
-    iget-object v5, v4, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->$scaledX:Lkotlin/jvm/internal/Ref$FloatRef;
+    iget-object v5, v4, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->$scaledX:Lcotlin/jvm/internal/Ref$FloatRef;
 
-    iget v5, v5, Lkotlin/jvm/internal/Ref$FloatRef;->element:F
+    iget v5, v5, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
     sub-float/2addr v5, v3
 
@@ -165,9 +165,9 @@
     div-float v5, v6, v5
 
     .line 7
-    iget-object v7, v4, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->$scaledY:Lkotlin/jvm/internal/Ref$FloatRef;
+    iget-object v7, v4, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->$scaledY:Lcotlin/jvm/internal/Ref$FloatRef;
 
-    iget v7, v7, Lkotlin/jvm/internal/Ref$FloatRef;->element:F
+    iget v7, v7, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
     sub-float/2addr v7, v3
 
@@ -206,9 +206,9 @@
     :cond_0
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;
 
-    iget-object v2, v1, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->$isNeedTranslateAnim:Lkotlin/jvm/internal/Ref$BooleanRef;
+    iget-object v2, v1, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->$isNeedTranslateAnim:Lcotlin/jvm/internal/Ref$BooleanRef;
 
-    iget-boolean v2, v2, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
+    iget-boolean v2, v2, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     if-eqz v2, :cond_1
 
@@ -221,15 +221,15 @@
 
     iget-object v2, p0, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;
 
-    iget-object v3, v2, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->$transX:Lkotlin/jvm/internal/Ref$FloatRef;
+    iget-object v3, v2, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->$transX:Lcotlin/jvm/internal/Ref$FloatRef;
 
-    iget v3, v3, Lkotlin/jvm/internal/Ref$FloatRef;->element:F
+    iget v3, v3, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
     mul-float v3, v3, p1
 
-    iget-object v2, v2, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->$transY:Lkotlin/jvm/internal/Ref$FloatRef;
+    iget-object v2, v2, Lcom/commsource/puzzle/StitchComponent$StitchImageView$fixImagePosition$1;->$transY:Lcotlin/jvm/internal/Ref$FloatRef;
 
-    iget v2, v2, Lkotlin/jvm/internal/Ref$FloatRef;->element:F
+    iget v2, v2, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
     mul-float p1, p1, v2
 

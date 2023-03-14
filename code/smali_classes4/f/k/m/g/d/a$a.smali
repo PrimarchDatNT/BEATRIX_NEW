@@ -17,7 +17,7 @@
     value = "SMAP\nSubsHelper.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SubsHelper.kt\ncom/meitu/ipstore/gplaysubs/utils/SubsHelper$Companion\n*L\n1#1,56:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -57,7 +57,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -110,7 +110,7 @@
 
     .line 5
     :cond_0
-    sget-object v2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -137,7 +137,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

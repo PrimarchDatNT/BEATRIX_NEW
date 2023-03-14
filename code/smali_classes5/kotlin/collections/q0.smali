@@ -1,9 +1,9 @@
-.class public final Lkotlin/collections/q0;
-.super Lkotlin/collections/u0;
+.class public final Lcotlin/collections/q0;
+.super Lcotlin/collections/u0;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/collections/u0;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/u0;-><init>()V
 
     return-void
 .end method
@@ -49,7 +49,7 @@
             ">(",
             "Ljava/lang/Iterable<",
             "+",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;>;)",
             "Ljava/util/Map<",
             "TK;TV;>;"
@@ -59,7 +59,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/t0;->B0(Ljava/lang/Iterable;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/t0;->B0(Ljava/lang/Iterable;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -84,20 +84,20 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/t0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlin/collections/t0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static bridge varargs synthetic W([Lkotlin/Pair;)Ljava/util/Map;
+.method public static bridge varargs synthetic W([Lcotlin/Pair;)Ljava/util/Map;
     .locals 0
-    .param p0    # [Lkotlin/Pair;
+    .param p0    # [Lcotlin/Pair;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -108,7 +108,7 @@
             "V:",
             "Ljava/lang/Object;",
             ">([",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;)",
             "Ljava/util/Map<",
             "TK;TV;>;"
@@ -118,20 +118,20 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/t0;->W([Lkotlin/Pair;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/t0;->W([Lcotlin/Pair;)Ljava/util/Map;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static bridge synthetic c(Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+.method public static bridge synthetic c(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 0
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -144,21 +144,21 @@
             ">(",
             "Ljava/util/Map<",
             "TK;TV;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TK;+TV;>;)",
             "Ljava/util/Map<",
             "TK;TV;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "withDefaultMutable"
     .end annotation
 
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/r0;->c(Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+    invoke-static {p0, p1}, Lcotlin/collections/r0;->c(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -167,23 +167,23 @@
 
 .method public static bridge synthetic j(I)I
     .locals 0
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/s0;->j(I)I
+    invoke-static {p0}, Lcotlin/collections/s0;->j(I)I
 
     move-result p0
 
     return p0
 .end method
 
-.method public static bridge synthetic o0(Ljava/util/Map;Lkotlin/Pair;)Ljava/util/Map;
+.method public static bridge synthetic o0(Ljava/util/Map;Lcotlin/Pair;)Ljava/util/Map;
     .locals 0
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/Pair;
+    .param p1    # Lcotlin/Pair;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -196,7 +196,7 @@
             ">(",
             "Ljava/util/Map<",
             "+TK;+TV;>;",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;)",
             "Ljava/util/Map<",
             "TK;TV;>;"
@@ -206,7 +206,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/t0;->o0(Ljava/util/Map;Lkotlin/Pair;)Ljava/util/Map;
+    invoke-static {p0, p1}, Lcotlin/collections/t0;->o0(Ljava/util/Map;Lcotlin/Pair;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -236,7 +236,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/s0;->q(Ljava/util/Map;)Ljava/util/SortedMap;
+    invoke-static {p0}, Lcotlin/collections/s0;->q(Ljava/util/Map;)Ljava/util/SortedMap;
 
     move-result-object p0
 
@@ -260,7 +260,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {}, Lkotlin/collections/t0;->z()Ljava/util/Map;
+    invoke-static {}, Lcotlin/collections/t0;->z()Ljava/util/Map;
 
     move-result-object v0
 

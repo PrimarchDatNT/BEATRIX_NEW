@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/commsource/studio/processor/StyleProcessor;->B0(Lcom/commsource/studio/bean/f;ZLkotlin/jvm/u/a;)V
+    value = Lcom/commsource/studio/processor/StyleProcessor;->B0(Lcom/commsource/studio/bean/f;ZLcotlin/jvm/u/a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "<anonymous>"
@@ -43,16 +43,16 @@
 # instance fields
 .field final synthetic a:Lcom/commsource/studio/processor/StyleProcessor;
 
-.field final synthetic b:Lkotlin/jvm/u/a;
+.field final synthetic b:Lcotlin/jvm/u/a;
 
 
 # direct methods
-.method constructor <init>(Lcom/commsource/studio/processor/StyleProcessor;Lkotlin/jvm/u/a;)V
+.method constructor <init>(Lcom/commsource/studio/processor/StyleProcessor;Lcotlin/jvm/u/a;)V
     .locals 0
 
     iput-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor$h;->a:Lcom/commsource/studio/processor/StyleProcessor;
 
-    iput-object p2, p0, Lcom/commsource/studio/processor/StyleProcessor$h;->b:Lkotlin/jvm/u/a;
+    iput-object p2, p0, Lcom/commsource/studio/processor/StyleProcessor$h;->b:Lcotlin/jvm/u/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -69,15 +69,15 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor$h;->b:Lkotlin/jvm/u/a;
+    iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor$h;->b:Lcotlin/jvm/u/a;
 
     if-eqz v1, :cond_0
 
-    invoke-interface {v1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/t1;
+    check-cast v1, Lcotlin/t1;
 
     .line 2
     :cond_0

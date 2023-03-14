@@ -1,10 +1,10 @@
-.class public final Lkotlin/collections/SlidingWindowKt;
+.class public final Lcotlin/collections/SlidingWindowKt;
 .super Ljava/lang/Object;
 .source "SlidingWindow.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -17,17 +17,17 @@
         "",
         "size",
         "step",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(II)V",
         "T",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "",
         "partialWindows",
         "reuseBuffer",
         "",
         "c",
-        "(Lkotlin/sequences/m;IIZZ)Lkotlin/sequences/m;",
+        "(Lcotlin/sequences/m;IIZZ)Lcotlin/sequences/m;",
         "",
         "iterator",
         "b",
@@ -148,7 +148,7 @@
 
     const-string v0, "iterator"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
@@ -157,13 +157,13 @@
 
     if-nez v0, :cond_0
 
-    sget-object p0, Lkotlin/collections/c0;->a:Lkotlin/collections/c0;
+    sget-object p0, Lcotlin/collections/c0;->a:Lcotlin/collections/c0;
 
     return-object p0
 
     .line 2
     :cond_0
-    new-instance v7, Lkotlin/collections/SlidingWindowKt$windowedIterator$1;
+    new-instance v7, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;
 
     const/4 v6, 0x0
 
@@ -179,18 +179,18 @@
 
     move v5, p3
 
-    invoke-direct/range {v0 .. v6}, Lkotlin/collections/SlidingWindowKt$windowedIterator$1;-><init>(IILjava/util/Iterator;ZZLkotlin/coroutines/c;)V
+    invoke-direct/range {v0 .. v6}, Lcotlin/collections/SlidingWindowKt$windowedIterator$1;-><init>(IILjava/util/Iterator;ZZLcotlin/coroutines/c;)V
 
-    invoke-static {v7}, Lkotlin/sequences/p;->d(Lkotlin/jvm/u/p;)Ljava/util/Iterator;
+    invoke-static {v7}, Lcotlin/sequences/p;->d(Lcotlin/jvm/u/p;)Ljava/util/Iterator;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final c(Lkotlin/sequences/m;IIZZ)Lkotlin/sequences/m;
+.method public static final c(Lcotlin/sequences/m;IIZZ)Lcotlin/sequences/m;
     .locals 7
-    .param p0    # Lkotlin/sequences/m;
+    .param p0    # Lcotlin/sequences/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -199,9 +199,9 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "+TT;>;IIZZ)",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Ljava/util/List<",
             "TT;>;>;"
         }
@@ -212,13 +212,13 @@
 
     const-string v0, "$this$windowedSequence"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p1, p2}, Lkotlin/collections/SlidingWindowKt;->a(II)V
+    invoke-static {p1, p2}, Lcotlin/collections/SlidingWindowKt;->a(II)V
 
     .line 2
-    new-instance v0, Lkotlin/collections/SlidingWindowKt$a;
+    new-instance v0, Lcotlin/collections/SlidingWindowKt$a;
 
     move-object v1, v0
 
@@ -232,7 +232,7 @@
 
     move v6, p4
 
-    invoke-direct/range {v1 .. v6}, Lkotlin/collections/SlidingWindowKt$a;-><init>(Lkotlin/sequences/m;IIZZ)V
+    invoke-direct/range {v1 .. v6}, Lcotlin/collections/SlidingWindowKt$a;-><init>(Lcotlin/sequences/m;IIZZ)V
 
     return-object v0
 .end method

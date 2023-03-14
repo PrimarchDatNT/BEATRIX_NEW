@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/commsource/studio/StudioTabLayout;->setOnItemClickLister(Lkotlin/jvm/u/p;)V
+    value = Lcom/commsource/studio/StudioTabLayout;->setOnItemClickLister(Lcotlin/jvm/u/p;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -47,14 +47,14 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/jvm/u/p;
+.field final synthetic a:Lcotlin/jvm/u/p;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/jvm/u/p;)V
+.method constructor <init>(Lcotlin/jvm/u/p;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout$b;->a:Lkotlin/jvm/u/p;
+    iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout$b;->a:Lcotlin/jvm/u/p;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -79,7 +79,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout$b;->a:Lkotlin/jvm/u/p;
+    iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout$b;->a:Lcotlin/jvm/u/p;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -87,7 +87,7 @@
 
     const-string v2, "item"
 
-    invoke-static {p2, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -97,7 +97,7 @@
 
     check-cast p2, Lcom/commsource/studio/sub/SubTabEnum;
 
-    invoke-interface {v1, p1, p2}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1, p2}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 p1, 0x0
 
@@ -108,11 +108,11 @@
 
     .line 3
     :cond_0
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type com.commsource.studio.sub.SubTabEnum"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

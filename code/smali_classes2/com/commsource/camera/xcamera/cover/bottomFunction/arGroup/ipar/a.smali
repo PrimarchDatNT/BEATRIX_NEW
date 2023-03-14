@@ -22,7 +22,7 @@
     value = "SMAP\nArTopTabViewHolder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ArTopTabViewHolder.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArTopTabViewHolder\n*L\n1#1,160:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -37,7 +37,7 @@
         "Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArTabFunction;",
         "Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;",
         "adapter",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "J",
         "(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;)V",
         "",
@@ -192,7 +192,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a;->W:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a$a;
 
@@ -214,11 +214,11 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "parent"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_ar_top_bar:I
 
@@ -331,7 +331,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     check-cast v0, Lcom/commsource/beautyplus/f0/id;
@@ -352,7 +352,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/id;->c:Lcom/commsource/widget/IconFrontView;
@@ -364,7 +364,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/id;->f:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/NewMarqueeTextView;
@@ -376,7 +376,7 @@
 
     if-nez p1, :cond_3
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/id;->f:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/NewMarqueeTextView;
@@ -408,14 +408,14 @@
 
     const-string v2, "mViewBinding"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/id;->b:Landroid/widget/RelativeLayout;
 
     const-string v2, "mViewBinding.flEffectTab"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->S()Z
 
@@ -478,14 +478,14 @@
 
     if-nez p2, :cond_1
 
-    invoke-static {p4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/id;->a:Lcom/commsource/widget/round/RoundFrameLayout;
 
     const-string v0, "mViewBinding.flBackground"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/commsource/widget/round/RoundFrameLayout;->getDelegate()Lcom/commsource/widget/round/a;
 
@@ -493,7 +493,7 @@
 
     const-string v0, "mViewBinding.flBackground.delegate"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const v0, 0x4dffffff    # 5.3687088E8f
 
@@ -543,7 +543,7 @@
 
     if-nez p2, :cond_2
 
-    invoke-static {p4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/id;->f:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/NewMarqueeTextView;
@@ -555,7 +555,7 @@
 
     if-nez p2, :cond_3
 
-    invoke-static {p4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/id;->f:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/NewMarqueeTextView;
@@ -586,7 +586,7 @@
 
     if-nez p2, :cond_5
 
-    invoke-static {p4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/id;->f:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/NewMarqueeTextView;
@@ -598,7 +598,7 @@
 
     if-nez p2, :cond_6
 
-    invoke-static {p4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/id;->f:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/NewMarqueeTextView;
@@ -621,7 +621,7 @@
 
     if-nez p2, :cond_7
 
-    invoke-static {p4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_7
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/id;->c:Lcom/commsource/widget/IconFrontView;
@@ -635,7 +635,7 @@
 
     if-nez p2, :cond_8
 
-    invoke-static {p4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_8
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/id;->f:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/NewMarqueeTextView;
@@ -655,7 +655,7 @@
 
     if-nez p2, :cond_a
 
-    invoke-static {p4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_a
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/id;->f:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/NewMarqueeTextView;
@@ -693,7 +693,7 @@
 
     if-nez p2, :cond_b
 
-    invoke-static {p4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_b
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/id;->c:Lcom/commsource/widget/IconFrontView;
@@ -711,7 +711,7 @@
 
     if-nez p2, :cond_c
 
-    invoke-static {p4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_c
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/id;->f:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/NewMarqueeTextView;
@@ -762,7 +762,7 @@
 
     const-string v2, "mViewBinding"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -890,7 +890,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a;->Q:Lcom/commsource/camera/f1/n;
@@ -913,7 +913,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a;->P:Lcom/commsource/camera/f1/n;
@@ -951,7 +951,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a;->O:Lcom/commsource/camera/f1/n;
@@ -989,7 +989,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a;->p:Lcom/commsource/beautyplus/f0/id;
@@ -1012,7 +1012,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/a;->S:Ljava/lang/String;
@@ -1095,7 +1095,7 @@
 
     const-string v1, "item"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
@@ -1133,14 +1133,14 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/id;->f:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/NewMarqueeTextView;
 
     const-string v4, "mViewBinding.tv"
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getPaint()Landroid/text/TextPaint;
 
@@ -1159,7 +1159,7 @@
 
     int-to-float v5, v5
 
-    invoke-static {v2, v5}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v2, v5}, Lcotlin/g2/o;->t(FF)F
 
     move-result v2
 
@@ -1216,7 +1216,7 @@
 
     if-nez v5, :cond_1
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/id;->f:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/NewMarqueeTextView;
@@ -1245,7 +1245,7 @@
 
     move-result-object v2
 
-    invoke-static {p3, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p3, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p3
 
@@ -1276,7 +1276,7 @@
 
     if-nez p3, :cond_4
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/id;->c:Lcom/commsource/widget/IconFrontView;
@@ -1298,12 +1298,12 @@
 
     if-nez p3, :cond_5
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/id;->f:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/NewMarqueeTextView;
 
-    invoke-static {p3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -1332,11 +1332,11 @@
 
     .line 17
     :cond_6
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type com.commsource.camera.xcamera.cover.bottomFunction.effect.EffectTabAdapter"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

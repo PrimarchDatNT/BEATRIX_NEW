@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
         "Lcom/meitu/library/camera/MTCamera$s;",
         "targetDefinedPreviewSize",
         "previewSize",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "r",
         "(Lcom/meitu/library/camera/MTCamera$s;Lcom/meitu/library/camera/MTCamera$s;)V",
         "app_googleplayRelease"

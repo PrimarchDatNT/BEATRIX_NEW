@@ -181,13 +181,13 @@
 
     const/4 v1, 0x7
 
-    new-array v1, v1, [Lkotlin/reflect/d;
+    new-array v1, v1, [Lcotlin/reflect/d;
 
     .line 4
     const-class v3, Lkshark/d$e;
 
     .line 5
-    invoke-static {v3}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v3}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v3
 
@@ -196,7 +196,7 @@
     const-class v2, Lkshark/d$f;
 
     .line 6
-    invoke-static {v2}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v2}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v2
 
@@ -209,7 +209,7 @@
     const-class v4, Lkshark/d$i;
 
     .line 7
-    invoke-static {v4}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v4}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v4
 
@@ -220,7 +220,7 @@
     const-class v4, Lkshark/d$k;
 
     .line 8
-    invoke-static {v4}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v4}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v4
 
@@ -231,7 +231,7 @@
     const-class v4, Lkshark/d$l;
 
     .line 9
-    invoke-static {v4}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v4}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v4
 
@@ -242,7 +242,7 @@
     const-class v4, Lkshark/d$m;
 
     .line 10
-    invoke-static {v4}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v4}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v4
 
@@ -253,7 +253,7 @@
     const-class v4, Lkshark/d$g;
 
     .line 11
-    invoke-static {v4}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v4}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v4
 
@@ -265,7 +265,7 @@
     const/4 v4, 0x0
 
     .line 13
-    invoke-static {v1}, Lkotlin/collections/b1;->u([Ljava/lang/Object;)Ljava/util/Set;
+    invoke-static {v1}, Lcotlin/collections/b1;->u([Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object v1
 
@@ -314,11 +314,11 @@
     .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/analysis/l;->c:Lkshark/i;
 
-    invoke-interface {v0}, Lkshark/i;->j()Lkotlin/sequences/m;
+    invoke-interface {v0}, Lkshark/i;->j()Lcotlin/sequences/m;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -435,11 +435,11 @@
     .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/analysis/l;->c:Lkshark/i;
 
-    invoke-interface {v0}, Lkshark/i;->b()Lkotlin/sequences/m;
+    invoke-interface {v0}, Lkshark/i;->b()Lcotlin/sequences/m;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -737,12 +737,12 @@
     .line 2
     iget-object v0, p0, Lcom/kwai/koom/javaoom/analysis/l;->c:Lkshark/i;
 
-    invoke-interface {v0}, Lkshark/i;->f()Lkotlin/sequences/m;
+    invoke-interface {v0}, Lkshark/i;->f()Lcotlin/sequences/m;
 
     move-result-object v0
 
     .line 3
-    invoke-interface {v0}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -782,12 +782,12 @@
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lkshark/HeapObject$HeapClass;->k()Lkotlin/sequences/m;
+    invoke-virtual {v4}, Lkshark/HeapObject$HeapClass;->k()Lcotlin/sequences/m;
 
     move-result-object v4
 
     .line 9
-    invoke-static {v2, v3, v4}, Lcom/kwai/koom/javaoom/analysis/e;->g(JLkotlin/sequences/m;)V
+    invoke-static {v2, v3, v4}, Lcom/kwai/koom/javaoom/analysis/e;->g(JLcotlin/sequences/m;)V
 
     .line 10
     iget-object v2, p0, Lcom/kwai/koom/javaoom/analysis/l;->d:Ljava/util/List;
@@ -960,21 +960,21 @@
     const/4 v3, 0x1
 
     .line 6
-    invoke-virtual {v1, v0, v2, v3}, Lkshark/HeapAnalyzer;->l(Lkshark/HeapAnalyzer$a;Ljava/util/Set;Z)Lkotlin/Pair;
+    invoke-virtual {v1, v0, v2, v3}, Lkshark/HeapAnalyzer;->l(Lkshark/HeapAnalyzer$a;Ljava/util/Set;Z)Lcotlin/Pair;
 
     move-result-object v0
 
     .line 7
     new-instance v1, Landroid/util/Pair;
 
-    invoke-virtual {v0}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/util/List;
 
     .line 8
-    invoke-virtual {v0}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v0
 

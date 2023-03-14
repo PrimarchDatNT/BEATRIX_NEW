@@ -15,7 +15,7 @@
     value = "SMAP\nHeapAnalyzer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HeapAnalyzer.kt\nkshark/HeapAnalyzer\n+ 2 SharkLog.kt\nkshark/SharkLog\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 4 _Sequences.kt\nkotlin/sequences/SequencesKt___SequencesKt\n+ 5 Maps.kt\nkotlin/collections/MapsKt__MapsKt\n+ 6 _Maps.kt\nkotlin/collections/MapsKt___MapsKt\n*L\n1#1,600:1\n32#2,3:601\n32#2,3:604\n32#2,3:607\n32#2,3:610\n32#2,3:615\n32#2,3:632\n32#2,3:635\n32#2,3:638\n32#2,3:668\n1587#3,2:613\n1587#3,2:620\n1313#3:622\n1382#3,3:623\n1587#3,2:626\n1313#3:628\n1382#3,3:629\n1596#3,2:641\n240#3,2:643\n1598#3:659\n1313#3:671\n1382#3,3:672\n1587#3:675\n1587#3,2:676\n1588#3:678\n1323#3:679\n1354#3,4:680\n1323#3:684\n1354#3,4:685\n1313#3:689\n1382#3,3:690\n1084#4,2:618\n118#4,2:693\n118#4,2:695\n305#5,7:645\n305#5,7:652\n65#6:660\n90#6,3:661\n65#6:664\n90#6,3:665\n*E\n*S KotlinDebug\n*F\n+ 1 HeapAnalyzer.kt\nkshark/HeapAnalyzer\n*L\n152#1,3:601\n158#1,3:604\n181#1,3:607\n199#1,3:610\n246#1,3:615\n352#1,3:632\n365#1,3:635\n370#1,3:638\n421#1,3:668\n229#1,2:613\n296#1,2:620\n330#1:622\n330#1,3:623\n331#1,2:626\n346#1:628\n346#1,3:629\n373#1,2:641\n373#1,2:643\n373#1:659\n429#1:671\n429#1,3:672\n434#1:675\n434#1,2:676\n434#1:678\n442#1:679\n442#1,4:680\n470#1:684\n470#1,4:685\n513#1:689\n513#1,3:690\n267#1,2:618\n521#1,2:693\n540#1,2:695\n373#1,7:645\n373#1,7:652\n413#1:660\n413#1,3:661\n416#1:664\n416#1,3:665\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -58,11 +58,11 @@
         "",
         "leakingObjectIds",
         "enableSameInstanceThreshold",
-        "Lkotlin/Pair;",
+        "Lcotlin/Pair;",
         "Lkshark/ApplicationLeak;",
         "Lkshark/LibraryLeak;",
         "l",
-        "(Lkshark/HeapAnalyzer$a;Ljava/util/Set;Z)Lkotlin/Pair;",
+        "(Lkshark/HeapAnalyzer$a;Ljava/util/Set;Z)Lcotlin/Pair;",
         "Lkshark/internal/f;",
         "inputPathResults",
         "k",
@@ -73,7 +73,7 @@
         "pathIndex",
         "Lkshark/HeapAnalyzer$b$b;",
         "parentNode",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "r",
         "(Lkshark/internal/f;Ljava/util/List;ILkshark/HeapAnalyzer$b$b;)V",
         "",
@@ -85,7 +85,7 @@
         "j",
         "(Lkshark/HeapAnalyzer$a;Lkshark/internal/PathFinder$a;)Ljava/util/List;",
         "g",
-        "(Lkshark/HeapAnalyzer$a;Lkshark/internal/PathFinder$a;)Lkotlin/Pair;",
+        "(Lkshark/HeapAnalyzer$a;Lkshark/internal/PathFinder$a;)Lcotlin/Pair;",
         "Lkshark/HeapObject;",
         "pathHeapObjects",
         "Lkshark/LeakTraceObject;",
@@ -104,7 +104,7 @@
         "reporter",
         "leakingWins",
         "p",
-        "(Lkshark/v;Z)Lkotlin/Pair;",
+        "(Lkshark/v;Z)Lcotlin/Pair;",
         "heap",
         "o",
         "(Lkshark/HeapObject;)Ljava/lang/String;",
@@ -145,7 +145,7 @@
 
     const-string v0, "listener"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -163,7 +163,7 @@
     if-eqz v0, :cond_0
 
     .line 1
-    invoke-static {}, Lkotlin/collections/s;->E()Ljava/util/List;
+    invoke-static {}, Lcotlin/collections/s;->E()Ljava/util/List;
 
     move-result-object v0
 
@@ -194,7 +194,7 @@
     if-eqz v0, :cond_2
 
     .line 2
-    invoke-static {}, Lkotlin/collections/s;->E()Ljava/util/List;
+    invoke-static {}, Lcotlin/collections/s;->E()Ljava/util/List;
 
     move-result-object v0
 
@@ -248,7 +248,7 @@
     if-eqz v0, :cond_0
 
     .line 1
-    invoke-static {}, Lkotlin/collections/s;->E()Ljava/util/List;
+    invoke-static {}, Lcotlin/collections/s;->E()Ljava/util/List;
 
     move-result-object v0
 
@@ -279,7 +279,7 @@
     if-eqz v0, :cond_2
 
     .line 2
-    invoke-static {}, Lkotlin/collections/s;->E()Ljava/util/List;
+    invoke-static {}, Lcotlin/collections/s;->E()Ljava/util/List;
 
     move-result-object v0
 
@@ -399,31 +399,31 @@
 
     move-object v11, p1
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v3, "graph"
 
-    invoke-static {v0, v3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v3, "leakingObjectFinder"
 
     move-object/from16 v7, p3
 
-    invoke-static {v7, v3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v3, "referenceMatchers"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v3, "objectInspectors"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v3, "metadataExtractor"
 
     move-object/from16 v6, p7
 
-    invoke-static {v6, v3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {}, Ljava/lang/System;->nanoTime()J
@@ -553,27 +553,27 @@
 
     const-string v2, "heapDumpFile"
 
-    invoke-static {v9, v2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v9, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v2, "leakingObjectFinder"
 
     move-object/from16 v4, p2
 
-    invoke-static {v4, v2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v2, "referenceMatchers"
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v2, "objectInspectors"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v2, "metadataExtractor"
 
     move-object/from16 v3, p6
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {}, Ljava/lang/System;->nanoTime()J
@@ -705,7 +705,7 @@
 
     .line 13
     :try_start_3
-    invoke-static {v12, v0}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {v12, v0}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_3
 
@@ -735,7 +735,7 @@
     move-object v2, v0
 
     :try_start_5
-    invoke-static {v12, v1}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {v12, v1}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     throw v2
     :try_end_5
@@ -803,21 +803,21 @@
 
     const-string v4, "$this$analyzeGraph"
 
-    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v4, "metadataExtractor"
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v4, "leakingObjectFinder"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v4, "heapDumpFile"
 
     move-object/from16 v6, p4
 
-    invoke-static {v6, v4}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v4}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v4, v0, Lkshark/HeapAnalyzer;->a:Lkshark/OnAnalysisProgressListener;
@@ -854,11 +854,11 @@
     const/4 v3, 0x0
 
     .line 5
-    invoke-virtual {p0, p1, v2, v3}, Lkshark/HeapAnalyzer;->l(Lkshark/HeapAnalyzer$a;Ljava/util/Set;Z)Lkotlin/Pair;
+    invoke-virtual {p0, p1, v2, v3}, Lkshark/HeapAnalyzer;->l(Lkshark/HeapAnalyzer$a;Ljava/util/Set;Z)Lcotlin/Pair;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lkotlin/Pair;->component1()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Pair;->component1()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -866,7 +866,7 @@
 
     check-cast v12, Ljava/util/List;
 
-    invoke-virtual {v1}, Lkotlin/Pair;->component2()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Pair;->component2()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -935,18 +935,18 @@
 
     move-object/from16 v3, p1
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v2, "pathHeapObjects"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v2, Ljava/util/ArrayList;
 
     const/16 v4, 0xa
 
-    invoke-static {v1, v4}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v1, v4}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v5
 
@@ -1031,7 +1031,7 @@
     .line 9
     new-instance v5, Ljava/util/ArrayList;
 
-    invoke-static {v1, v4}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v1, v4}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v4
 
@@ -1060,7 +1060,7 @@
     if-gez v4, :cond_3
 
     .line 11
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_3
     check-cast v6, Lkshark/HeapObject;
@@ -1077,9 +1077,9 @@
 
     move-result-object v4
 
-    check-cast v4, Lkotlin/Pair;
+    check-cast v4, Lcotlin/Pair;
 
-    invoke-virtual {v4}, Lkotlin/Pair;->component1()Ljava/lang/Object;
+    invoke-virtual {v4}, Lcotlin/Pair;->component1()Ljava/lang/Object;
 
     move-result-object v9
 
@@ -1087,7 +1087,7 @@
 
     check-cast v16, Lkshark/LeakTraceObject$LeakingStatus;
 
-    invoke-virtual {v4}, Lkotlin/Pair;->component2()Ljava/lang/Object;
+    invoke-virtual {v4}, Lcotlin/Pair;->component2()Ljava/lang/Object;
 
     move-result-object v4
 
@@ -1168,7 +1168,7 @@
     return-object v5
 .end method
 
-.method public final g(Lkshark/HeapAnalyzer$a;Lkshark/internal/PathFinder$a;)Lkotlin/Pair;
+.method public final g(Lkshark/HeapAnalyzer$a;Lkshark/internal/PathFinder$a;)Lcotlin/Pair;
     .locals 13
     .param p1    # Lkshark/HeapAnalyzer$a;
         .annotation build Ln/e/a/d;
@@ -1184,7 +1184,7 @@
             "Lkshark/HeapAnalyzer$a;",
             "Lkshark/internal/PathFinder$a;",
             ")",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/util/List<",
             "Lkshark/ApplicationLeak;",
             ">;",
@@ -1199,11 +1199,11 @@
 
     const-string v0, "$this$buildLeakTraces"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "pathFindingResults"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v0, Lkshark/a0;->b:Lkshark/a0;
@@ -1377,7 +1377,7 @@
 
     if-gez v4, :cond_3
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_3
     check-cast v5, Lkshark/internal/f;
@@ -1475,7 +1475,7 @@
     move-result-object v11
 
     .line 28
-    invoke-static {v7}, Lkotlin/collections/s;->a3(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {v7}, Lcotlin/collections/s;->a3(Ljava/util/List;)Ljava/lang/Object;
 
     move-result-object v7
 
@@ -1579,7 +1579,7 @@
 
     invoke-direct {v7}, Ljava/util/ArrayList;-><init>()V
 
-    invoke-static {v4, v7}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v4, v7}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object v7
 
@@ -1588,9 +1588,9 @@
 
     .line 42
     :cond_9
-    check-cast v7, Lkotlin/Pair;
+    check-cast v7, Lcotlin/Pair;
 
-    invoke-virtual {v7}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v7}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v4
 
@@ -1636,11 +1636,11 @@
 
     .line 50
     :cond_c
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type kshark.internal.ReferencePathNode.RootNode"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
@@ -1729,16 +1729,16 @@
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/Pair;
+    check-cast v1, Lcotlin/Pair;
 
     .line 58
-    invoke-virtual {v1}, Lkotlin/Pair;->component1()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Pair;->component1()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lkshark/LibraryLeakReferenceMatcher;
 
-    invoke-virtual {v1}, Lkotlin/Pair;->component2()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Pair;->component2()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1779,7 +1779,7 @@
 
     .line 63
     :cond_10
-    invoke-static {p1, p2}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {p1, p2}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object p1
 
@@ -1817,18 +1817,18 @@
 
     const-string v0, "shortestChildPath"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "leakTraceObjects"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     const/16 v1, 0xa
 
-    invoke-static {p1, v1}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {p1, v1}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v1
 
@@ -1857,7 +1857,7 @@
     if-gez v1, :cond_0
 
     .line 3
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_0
     check-cast v2, Lkshark/internal/f$a;
@@ -1914,7 +1914,7 @@
             "Lkshark/v;",
             ">;)",
             "Ljava/util/List<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Lkshark/LeakTraceObject$LeakingStatus;",
             "Ljava/lang/String;",
             ">;>;"
@@ -1930,7 +1930,7 @@
 
     const-string v2, "leakReporters"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface/range {p1 .. p1}, Ljava/util/List;->size()I
@@ -1942,20 +1942,20 @@
     sub-int/2addr v2, v3
 
     .line 2
-    new-instance v4, Lkotlin/jvm/internal/Ref$IntRef;
+    new-instance v4, Lcotlin/jvm/internal/Ref$IntRef;
 
-    invoke-direct {v4}, Lkotlin/jvm/internal/Ref$IntRef;-><init>()V
+    invoke-direct {v4}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
 
     const/4 v5, -0x1
 
-    iput v5, v4, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput v5, v4, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     .line 3
-    new-instance v5, Lkotlin/jvm/internal/Ref$IntRef;
+    new-instance v5, Lcotlin/jvm/internal/Ref$IntRef;
 
-    invoke-direct {v5}, Lkotlin/jvm/internal/Ref$IntRef;-><init>()V
+    invoke-direct {v5}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
 
-    iput v2, v5, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput v2, v5, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     .line 4
     new-instance v6, Ljava/util/ArrayList;
@@ -1997,14 +1997,14 @@
 
     .line 6
     :goto_1
-    invoke-virtual {v0, v10, v13}, Lkshark/HeapAnalyzer;->p(Lkshark/v;Z)Lkotlin/Pair;
+    invoke-virtual {v0, v10, v13}, Lkshark/HeapAnalyzer;->p(Lkshark/v;Z)Lcotlin/Pair;
 
     move-result-object v10
 
     if-ne v9, v2, :cond_3
 
     .line 7
-    invoke-virtual {v10}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v10}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v13
 
@@ -2035,7 +2035,7 @@
 
     invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v10}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v10}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v10
 
@@ -2047,16 +2047,16 @@
 
     move-result-object v10
 
-    invoke-static {v11, v10}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v11, v10}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object v10
 
     goto :goto_2
 
     :cond_1
-    new-instance v1, Lkotlin/NoWhenBranchMatchedException;
+    new-instance v1, Lcotlin/NoWhenBranchMatchedException;
 
-    invoke-direct {v1}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+    invoke-direct {v1}, Lcotlin/NoWhenBranchMatchedException;-><init>()V
 
     throw v1
 
@@ -2066,7 +2066,7 @@
 
     const-string v11, "This is the leaking object"
 
-    invoke-static {v10, v11}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v10, v11}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object v10
 
@@ -2076,7 +2076,7 @@
     invoke-virtual {v6, v10}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 11
-    invoke-virtual {v10}, Lkotlin/Pair;->component1()Ljava/lang/Object;
+    invoke-virtual {v10}, Lcotlin/Pair;->component1()Ljava/lang/Object;
 
     move-result-object v10
 
@@ -2088,10 +2088,10 @@
     if-ne v10, v11, :cond_4
 
     .line 13
-    iput v9, v4, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput v9, v4, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     .line 14
-    iput v2, v5, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput v2, v5, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     goto :goto_3
 
@@ -2101,12 +2101,12 @@
 
     if-ne v10, v11, :cond_5
 
-    iget v10, v5, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v10, v5, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     if-ne v10, v2, :cond_5
 
     .line 16
-    iput v9, v5, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput v9, v5, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     :cond_5
     :goto_3
@@ -2120,7 +2120,7 @@
 
     const/16 v9, 0xa
 
-    invoke-static {v1, v9}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v1, v9}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v9
 
@@ -2166,7 +2166,7 @@
 
     .line 21
     :cond_7
-    iget v1, v4, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v1, v4, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     const/4 v9, 0x0
 
@@ -2180,15 +2180,15 @@
 
     move-result-object v13
 
-    check-cast v13, Lkotlin/Pair;
+    check-cast v13, Lcotlin/Pair;
 
-    invoke-virtual {v13}, Lkotlin/Pair;->component1()Ljava/lang/Object;
+    invoke-virtual {v13}, Lcotlin/Pair;->component1()Ljava/lang/Object;
 
     move-result-object v14
 
     check-cast v14, Lkshark/LeakTraceObject$LeakingStatus;
 
-    invoke-virtual {v13}, Lkotlin/Pair;->component2()Ljava/lang/Object;
+    invoke-virtual {v13}, Lcotlin/Pair;->component2()Ljava/lang/Object;
 
     move-result-object v13
 
@@ -2203,14 +2203,14 @@
 
     new-instance v11, Lkshark/HeapAnalyzer$computeLeakStatuses$nextNotLeakingIndex$1;
 
-    invoke-direct {v11, v4}, Lkshark/HeapAnalyzer$computeLeakStatuses$nextNotLeakingIndex$1;-><init>(Lkotlin/jvm/internal/Ref$IntRef;)V
+    invoke-direct {v11, v4}, Lkshark/HeapAnalyzer$computeLeakStatuses$nextNotLeakingIndex$1;-><init>(Lcotlin/jvm/internal/Ref$IntRef;)V
 
-    invoke-static {v8, v11}, Lkotlin/sequences/p;->o(Ljava/lang/Object;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v8, v11}, Lcotlin/sequences/p;->o(Ljava/lang/Object;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v8
 
     .line 24
-    invoke-interface {v8}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v8}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v8
 
@@ -2236,9 +2236,9 @@
 
     move-result-object v12
 
-    check-cast v12, Lkotlin/Pair;
+    check-cast v12, Lcotlin/Pair;
 
-    invoke-virtual {v12}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v12}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v12
 
@@ -2308,16 +2308,16 @@
 
     move-result-object v8
 
-    invoke-static {v3, v8}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v3, v8}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object v3
 
     goto :goto_8
 
     :cond_9
-    new-instance v1, Lkotlin/NoWhenBranchMatchedException;
+    new-instance v1, Lcotlin/NoWhenBranchMatchedException;
 
-    invoke-direct {v1}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+    invoke-direct {v1}, Lcotlin/NoWhenBranchMatchedException;-><init>()V
 
     throw v1
 
@@ -2339,7 +2339,7 @@
 
     move-result-object v8
 
-    invoke-static {v3, v8}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v3, v8}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object v3
 
@@ -2361,7 +2361,7 @@
 
     move-result-object v8
 
-    invoke-static {v3, v8}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v3, v8}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object v3
 
@@ -2396,7 +2396,7 @@
 
     .line 34
     :cond_e
-    iget v1, v5, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v1, v5, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     const/4 v3, 0x1
 
@@ -2414,15 +2414,15 @@
 
     move-result-object v3
 
-    check-cast v3, Lkotlin/Pair;
+    check-cast v3, Lcotlin/Pair;
 
-    invoke-virtual {v3}, Lkotlin/Pair;->component1()Ljava/lang/Object;
+    invoke-virtual {v3}, Lcotlin/Pair;->component1()Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Lkshark/LeakTraceObject$LeakingStatus;
 
-    invoke-virtual {v3}, Lkotlin/Pair;->component2()Ljava/lang/Object;
+    invoke-virtual {v3}, Lcotlin/Pair;->component2()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -2437,14 +2437,14 @@
 
     new-instance v9, Lkshark/HeapAnalyzer$computeLeakStatuses$previousLeakingIndex$1;
 
-    invoke-direct {v9, v5}, Lkshark/HeapAnalyzer$computeLeakStatuses$previousLeakingIndex$1;-><init>(Lkotlin/jvm/internal/Ref$IntRef;)V
+    invoke-direct {v9, v5}, Lkshark/HeapAnalyzer$computeLeakStatuses$previousLeakingIndex$1;-><init>(Lcotlin/jvm/internal/Ref$IntRef;)V
 
-    invoke-static {v8, v9}, Lkotlin/sequences/p;->o(Ljava/lang/Object;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v8, v9}, Lcotlin/sequences/p;->o(Ljava/lang/Object;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v8
 
     .line 37
-    invoke-interface {v8}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v8}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v8
 
@@ -2470,9 +2470,9 @@
 
     move-result-object v11
 
-    check-cast v11, Lkotlin/Pair;
+    check-cast v11, Lcotlin/Pair;
 
-    invoke-virtual {v11}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v11}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v11
 
@@ -2526,9 +2526,9 @@
     if-eq v4, v13, :cond_11
 
     .line 42
-    new-instance v1, Lkotlin/NoWhenBranchMatchedException;
+    new-instance v1, Lcotlin/NoWhenBranchMatchedException;
 
-    invoke-direct {v1}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+    invoke-direct {v1}, Lcotlin/NoWhenBranchMatchedException;-><init>()V
 
     throw v1
 
@@ -2561,7 +2561,7 @@
 
     move-result-object v3
 
-    invoke-static {v12, v3}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v12, v3}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object v3
 
@@ -2587,7 +2587,7 @@
 
     move-result-object v3
 
-    invoke-static {v12, v3}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v12, v3}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object v3
 
@@ -2640,11 +2640,11 @@
 
     const-string v0, "$this$computeRetainedSizes"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "pathFindingResults"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lkshark/HeapAnalyzer$a;->a()Z
@@ -2698,7 +2698,7 @@
 
     sget-object v3, Lkshark/HeapAnalyzer$computeRetainedSizes$nativeSizes$1;->INSTANCE:Lkshark/HeapAnalyzer$computeRetainedSizes$nativeSizes$1;
 
-    invoke-static {v2, v3}, Lkotlin/collections/q0;->c(Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+    invoke-static {v2, v3}, Lcotlin/collections/q0;->c(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
 
     move-result-object v2
 
@@ -2707,19 +2707,19 @@
 
     move-result-object v3
 
-    invoke-interface {v3}, Lkshark/i;->f()Lkotlin/sequences/m;
+    invoke-interface {v3}, Lkshark/i;->f()Lcotlin/sequences/m;
 
     move-result-object v3
 
     .line 10
     sget-object v4, Lkshark/HeapAnalyzer$computeRetainedSizes$2;->INSTANCE:Lkshark/HeapAnalyzer$computeRetainedSizes$2;
 
-    invoke-static {v3, v4}, Lkotlin/sequences/p;->i0(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v3, v4}, Lcotlin/sequences/p;->i0(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v3
 
     .line 11
-    invoke-interface {v3}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v3}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
 
@@ -2867,7 +2867,7 @@
     if-eqz v8, :cond_2
 
     .line 21
-    invoke-static {v2, v4}, Lkotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v2, v4}, Lcotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v8
 
@@ -2931,7 +2931,7 @@
 
     sget-object v3, Lkshark/HeapAnalyzer$computeRetainedSizes$sizeByDominator$1;->INSTANCE:Lkshark/HeapAnalyzer$computeRetainedSizes$sizeByDominator$1;
 
-    invoke-static {v1, v3}, Lkotlin/collections/q0;->c(Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+    invoke-static {v1, v3}, Lcotlin/collections/q0;->c(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
 
     move-result-object v1
 
@@ -2985,7 +2985,7 @@
 
     if-nez v8, :cond_7
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 31
     :cond_7
@@ -2998,7 +2998,7 @@
 
     move-result-object v9
 
-    invoke-static {v1, v9}, Lkotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1, v9}, Lcotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
 
@@ -3034,23 +3034,23 @@
 
     invoke-direct {v4, p1, v3, v1, v2}, Lkshark/HeapAnalyzer$computeRetainedSizes$5;-><init>(Lkshark/HeapAnalyzer$a;Ljava/util/Set;Ljava/util/Map;Ljava/util/Map;)V
 
-    invoke-virtual {p2, v4}, Lkshark/internal/hppc/LongLongScatterMap;->l(Lkotlin/jvm/u/p;)V
+    invoke-virtual {p2, v4}, Lkshark/internal/hppc/LongLongScatterMap;->l(Lcotlin/jvm/u/p;)V
 
     .line 36
-    new-instance p1, Lkotlin/jvm/internal/Ref$BooleanRef;
+    new-instance p1, Lcotlin/jvm/internal/Ref$BooleanRef;
 
-    invoke-direct {p1}, Lkotlin/jvm/internal/Ref$BooleanRef;-><init>()V
+    invoke-direct {p1}, Lcotlin/jvm/internal/Ref$BooleanRef;-><init>()V
 
     .line 37
     :cond_9
-    iput-boolean v5, p1, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
+    iput-boolean v5, p1, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     .line 38
     new-instance v2, Ljava/util/ArrayList;
 
     const/16 v3, 0xa
 
-    invoke-static {v0, v3}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v0, v3}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v4
 
@@ -3131,7 +3131,7 @@
 
     move-result-object v4
 
-    invoke-static {v1, v4}, Lkotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1, v4}, Lcotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 
@@ -3159,7 +3159,7 @@
 
     move-result-object v6
 
-    invoke-static {v1, v6}, Lkotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1, v6}, Lcotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v6
 
@@ -3185,13 +3185,13 @@
     const/4 v4, 0x1
 
     .line 49
-    iput-boolean v4, p1, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
+    iput-boolean v4, p1, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     goto :goto_5
 
     .line 50
     :cond_c
-    iget-boolean v2, p1, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
+    iget-boolean v2, p1, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     if-nez v2, :cond_9
 
@@ -3201,7 +3201,7 @@
     .line 52
     new-instance p1, Ljava/util/ArrayList;
 
-    invoke-static {v0, v3}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v0, v3}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result p2
 
@@ -3241,7 +3241,7 @@
 
     if-nez v0, :cond_d
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_d
     check-cast v0, Ljava/lang/Number;
@@ -3286,7 +3286,7 @@
 
     const-string v0, "inputPathResults"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v0, Lkshark/a0;->b:Lkshark/a0;
@@ -3409,7 +3409,7 @@
     return-object p1
 .end method
 
-.method public final l(Lkshark/HeapAnalyzer$a;Ljava/util/Set;Z)Lkotlin/Pair;
+.method public final l(Lkshark/HeapAnalyzer$a;Ljava/util/Set;Z)Lcotlin/Pair;
     .locals 5
     .param p1    # Lkshark/HeapAnalyzer$a;
         .annotation build Ln/e/a/d;
@@ -3426,7 +3426,7 @@
             "Ljava/util/Set<",
             "Ljava/lang/Long;",
             ">;Z)",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/util/List<",
             "Lkshark/ApplicationLeak;",
             ">;",
@@ -3441,11 +3441,11 @@
 
     const-string v0, "$this$findLeaks"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "leakingObjectIds"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v0, Lkshark/a0;->b:Lkshark/a0;
@@ -3521,7 +3521,7 @@
 
     .line 8
     :cond_1
-    invoke-virtual {p0, p1, p3}, Lkshark/HeapAnalyzer;->g(Lkshark/HeapAnalyzer$a;Lkshark/internal/PathFinder$a;)Lkotlin/Pair;
+    invoke-virtual {p0, p1, p3}, Lkshark/HeapAnalyzer;->g(Lkshark/HeapAnalyzer$a;Lkshark/internal/PathFinder$a;)Lcotlin/Pair;
 
     move-result-object p1
 
@@ -3550,11 +3550,11 @@
 
     const-string v0, "parentNode"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "outputPathResults"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lkshark/HeapAnalyzer$b$b;->b()Ljava/util/Map;
@@ -3639,7 +3639,7 @@
 
     const-string v0, "heap"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     instance-of v0, p1, Lkshark/HeapObject$HeapClass;
@@ -3698,14 +3698,14 @@
     return-object p1
 
     :cond_3
-    new-instance p1, Lkotlin/NoWhenBranchMatchedException;
+    new-instance p1, Lcotlin/NoWhenBranchMatchedException;
 
-    invoke-direct {p1}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+    invoke-direct {p1}, Lcotlin/NoWhenBranchMatchedException;-><init>()V
 
     throw p1
 .end method
 
-.method public final p(Lkshark/v;Z)Lkotlin/Pair;
+.method public final p(Lkshark/v;Z)Lcotlin/Pair;
     .locals 11
     .param p1    # Lkshark/v;
         .annotation build Ln/e/a/d;
@@ -3716,7 +3716,7 @@
             "(",
             "Lkshark/v;",
             "Z)",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Lkshark/LeakTraceObject$LeakingStatus;",
             "Ljava/lang/String;",
             ">;"
@@ -3728,7 +3728,7 @@
 
     const-string v0, "reporter"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v0, Lkshark/LeakTraceObject$LeakingStatus;->UNKNOWN:Lkshark/LeakTraceObject$LeakingStatus;
@@ -3770,7 +3770,7 @@
 
     const-string v2, " and "
 
-    invoke-static/range {v1 .. v9}, Lkotlin/collections/s;->X2(Ljava/lang/Iterable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lkotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v9}, Lcotlin/collections/s;->X2(Ljava/lang/Iterable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lcotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -3811,7 +3811,7 @@
     const-string v3, " and "
 
     .line 7
-    invoke-static/range {v2 .. v10}, Lkotlin/collections/s;->X2(Ljava/lang/Iterable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lkotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v2 .. v10}, Lcotlin/collections/s;->X2(Ljava/lang/Iterable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lcotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -3871,7 +3871,7 @@
     .line 13
     :cond_3
     :goto_1
-    invoke-static {v0, v1}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v0, v1}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object p1
 
@@ -3925,15 +3925,15 @@
 
     const-string v0, "pathNode"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "path"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "parentNode"
 
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p2, p3}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -3947,7 +3947,7 @@
     move-result-wide v0
 
     .line 2
-    invoke-static {p2}, Lkotlin/collections/s;->G(Ljava/util/List;)I
+    invoke-static {p2}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result v2
 
@@ -3995,7 +3995,7 @@
 
     invoke-direct {v2, v0, v1, p4}, Lkshark/HeapAnalyzer$updateTrie$childNode$1;-><init>(JLkshark/HeapAnalyzer$b$b;)V
 
-    invoke-interface {v2}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v2}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p4
 

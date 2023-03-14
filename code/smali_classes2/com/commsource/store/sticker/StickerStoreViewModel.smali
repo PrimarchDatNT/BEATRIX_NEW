@@ -8,7 +8,7 @@
     value = "SMAP\nStickerStoreViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StickerStoreViewModel.kt\ncom/commsource/store/sticker/StickerStoreViewModel\n*L\n1#1,60:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/store/sticker/StickerStoreViewModel;",
         "Landroidx/lifecycle/AndroidViewModel;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "H",
         "()V",
         "",
@@ -33,7 +33,7 @@
         "needShowGroupId",
         "Landroidx/lifecycle/MutableLiveData;",
         "h",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "F",
         "()Landroidx/lifecycle/MutableLiveData;",
         "uiReplyEvent",
@@ -89,27 +89,27 @@
 
 .field private c:I
 
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final e:Lkotlin/w;
+.field private final e:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final f:Lkotlin/w;
+.field private final f:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final g:Lkotlin/w;
+.field private final g:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final h:Lkotlin/w;
+.field private final h:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -138,7 +138,7 @@
 
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
@@ -156,47 +156,47 @@
     .line 4
     sget-object p1, Lcom/commsource/store/sticker/StickerStoreViewModel$tagDataEvent$2;->INSTANCE:Lcom/commsource/store/sticker/StickerStoreViewModel$tagDataEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->d:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->d:Lcotlin/w;
 
     .line 5
     sget-object p1, Lcom/commsource/store/sticker/StickerStoreViewModel$subscribeEvent$2;->INSTANCE:Lcom/commsource/store/sticker/StickerStoreViewModel$subscribeEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->e:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->e:Lcotlin/w;
 
     .line 6
     sget-object p1, Lcom/commsource/store/sticker/StickerStoreViewModel$subscribeResultEvent$2;->INSTANCE:Lcom/commsource/store/sticker/StickerStoreViewModel$subscribeResultEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->f:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->f:Lcotlin/w;
 
     .line 7
     sget-object p1, Lcom/commsource/store/sticker/StickerStoreViewModel$stickerThumbEvent$2;->INSTANCE:Lcom/commsource/store/sticker/StickerStoreViewModel$stickerThumbEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->g:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->g:Lcotlin/w;
 
     .line 8
     sget-object p1, Lcom/commsource/store/sticker/StickerStoreViewModel$uiReplyEvent$2;->INSTANCE:Lcom/commsource/store/sticker/StickerStoreViewModel$uiReplyEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->h:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->h:Lcotlin/w;
 
     .line 9
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
@@ -243,9 +243,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->g:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->g:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -274,9 +274,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->e:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->e:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -305,9 +305,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->f:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->f:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -337,9 +337,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -368,9 +368,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->h:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreViewModel;->h:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 

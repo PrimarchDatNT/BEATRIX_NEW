@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "endTranslationY",
         "q",
         "fraction",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "b",
         "(F)V",
         "x",
@@ -411,7 +411,7 @@
 
     const-string v1, "canvas"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/o;->a:Landroid/graphics/drawable/Drawable;

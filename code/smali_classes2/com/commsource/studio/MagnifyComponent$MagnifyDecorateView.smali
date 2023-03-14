@@ -17,7 +17,7 @@
     value = "SMAP\nMagnifyComponent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MagnifyComponent.kt\ncom/commsource/studio/MagnifyComponent$MagnifyDecorateView\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,236:1\n1819#2,2:237\n*E\n*S KotlinDebug\n*F\n+ 1 MagnifyComponent.kt\ncom/commsource/studio/MagnifyComponent$MagnifyDecorateView\n*L\n213#1,2:237\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "h",
         "oldw",
         "oldh",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onSizeChanged",
         "(IIII)V",
         "Landroid/graphics/Canvas;",
@@ -102,7 +102,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -133,7 +133,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -164,7 +164,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-direct {p0, p2, p3, p4}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -407,7 +407,7 @@
     if-nez p1, :cond_3
 
     .line 8
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     invoke-interface {v2, p1}, Lcom/commsource/studio/p0;->d(Landroid/graphics/Canvas;)V

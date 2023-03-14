@@ -1,14 +1,14 @@
-.class final synthetic Lkotlin/reflect/TypesJVMKt$typeToString$unwrap$1;
-.super Lkotlin/jvm/internal/FunctionReferenceImpl;
+.class final synthetic Lcotlin/reflect/TypesJVMKt$typeToString$unwrap$1;
+.super Lcotlin/jvm/internal/FunctionReferenceImpl;
 .source "TypesJVM.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/reflect/TypesJVMKt;->j(Ljava/lang/reflect/Type;)Ljava/lang/String;
+    value = Lcotlin/reflect/TypesJVMKt;->j(Ljava/lang/reflect/Type;)Ljava/lang/String;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,8 +18,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/FunctionReferenceImpl;",
+        "Lcotlin/jvm/u/l<",
         "Ljava/lang/Class<",
         "+",
         "Ljava/lang/Object;",
@@ -29,7 +29,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -56,18 +56,18 @@
 
 
 # static fields
-.field public static final INSTANCE:Lkotlin/reflect/TypesJVMKt$typeToString$unwrap$1;
+.field public static final INSTANCE:Lcotlin/reflect/TypesJVMKt$typeToString$unwrap$1;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkotlin/reflect/TypesJVMKt$typeToString$unwrap$1;
+    new-instance v0, Lcotlin/reflect/TypesJVMKt$typeToString$unwrap$1;
 
-    invoke-direct {v0}, Lkotlin/reflect/TypesJVMKt$typeToString$unwrap$1;-><init>()V
+    invoke-direct {v0}, Lcotlin/reflect/TypesJVMKt$typeToString$unwrap$1;-><init>()V
 
-    sput-object v0, Lkotlin/reflect/TypesJVMKt$typeToString$unwrap$1;->INSTANCE:Lkotlin/reflect/TypesJVMKt$typeToString$unwrap$1;
+    sput-object v0, Lcotlin/reflect/TypesJVMKt$typeToString$unwrap$1;->INSTANCE:Lcotlin/reflect/TypesJVMKt$typeToString$unwrap$1;
 
     return-void
 .end method
@@ -87,7 +87,7 @@
 
     move-object v0, p0
 
-    invoke-direct/range {v0 .. v5}, Lkotlin/jvm/internal/FunctionReferenceImpl;-><init>(ILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct/range {v0 .. v5}, Lcotlin/jvm/internal/FunctionReferenceImpl;-><init>(ILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
     return-void
 .end method
@@ -112,7 +112,7 @@
 
     const-string v0, "p1"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
@@ -127,7 +127,7 @@
 
     check-cast p1, Ljava/lang/Class;
 
-    invoke-virtual {p0, p1}, Lkotlin/reflect/TypesJVMKt$typeToString$unwrap$1;->invoke(Ljava/lang/Class;)Ljava/lang/Class;
+    invoke-virtual {p0, p1}, Lcotlin/reflect/TypesJVMKt$typeToString$unwrap$1;->invoke(Ljava/lang/Class;)Ljava/lang/Class;
 
     move-result-object p1
 

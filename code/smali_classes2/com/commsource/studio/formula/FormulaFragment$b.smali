@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "recyclerView",
         "",
         "newState",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onScrollStateChanged",
         "(Landroidx/recyclerview/widget/RecyclerView;I)V",
         "dx",
@@ -89,7 +89,7 @@
 
     const-string v1, "recyclerView"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
@@ -134,7 +134,7 @@
 
     const-string p3, "recyclerView"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-boolean p1, p0, Lcom/commsource/studio/formula/FormulaFragment$b;->a:Z

@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -242,7 +242,7 @@
 
     const-string v0, "graph"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v0, Lkshark/AndroidBuildMirror;->c:Lkshark/AndroidBuildMirror$Companion;
@@ -263,7 +263,7 @@
 
     const/4 v2, 0x4
 
-    new-array v2, v2, [Lkotlin/Pair;
+    new-array v2, v2, [Lcotlin/Pair;
 
     .line 4
     invoke-virtual {v0}, Lkshark/AndroidBuildMirror;->b()I
@@ -276,7 +276,7 @@
 
     const-string v4, "Build.VERSION.SDK_INT"
 
-    invoke-static {v4, v3}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v4, v3}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object v3
 
@@ -291,7 +291,7 @@
 
     const-string v3, "Build.MANUFACTURER"
 
-    invoke-static {v3, v0}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v3, v0}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object v0
 
@@ -302,7 +302,7 @@
     const-string v0, "LeakCanary version"
 
     .line 6
-    invoke-static {v0, v1}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v0, v1}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object v0
 
@@ -313,7 +313,7 @@
     const-string v0, "App process name"
 
     .line 7
-    invoke-static {v0, p1}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v0, p1}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object p1
 
@@ -322,7 +322,7 @@
     aput-object p1, v2, v0
 
     .line 8
-    invoke-static {v2}, Lkotlin/collections/q0;->W([Lkotlin/Pair;)Ljava/util/Map;
+    invoke-static {v2}, Lcotlin/collections/q0;->W([Lcotlin/Pair;)Ljava/util/Map;
 
     move-result-object p1
 

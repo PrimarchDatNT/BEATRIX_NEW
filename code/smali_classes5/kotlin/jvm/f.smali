@@ -1,4 +1,4 @@
-.class public interface abstract annotation Lkotlin/jvm/f;
+.class public interface abstract annotation Lcotlin/jvm/f;
 .super Ljava/lang/Object;
 .source "JvmPlatformAnnotations.kt"
 
@@ -18,20 +18,20 @@
     value = {}
 .end annotation
 
-.annotation runtime Lkotlin/annotation/a;
+.annotation runtime Lcotlin/annotation/a;
 .end annotation
 
-.annotation runtime Lkotlin/annotation/c;
-    value = .enum Lkotlin/annotation/AnnotationRetention;->SOURCE:Lkotlin/annotation/AnnotationRetention;
+.annotation runtime Lcotlin/annotation/c;
+    value = .enum Lcotlin/annotation/AnnotationRetention;->SOURCE:Lcotlin/annotation/AnnotationRetention;
 .end annotation
 
-.annotation runtime Lkotlin/annotation/d;
+.annotation runtime Lcotlin/annotation/d;
     allowedTargets = {
-        .enum Lkotlin/annotation/AnnotationTarget;->FILE:Lkotlin/annotation/AnnotationTarget;
+        .enum Lcotlin/annotation/AnnotationTarget;->FILE:Lcotlin/annotation/AnnotationTarget;
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0010\u001b\n\u0002\u0008\u0003\u0008\u0087\u0002\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u00a8\u0006\u0004"
     }
     d2 = {
-        "Lkotlin/jvm/f;",
+        "Lcotlin/jvm/f;",
         "",
         "<init>",
         "()V",

@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "result",
         "",
         "imagePath",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(ILjava/lang/String;)V",
         "com/commsource/mypage/album/BpAlbumViewModel$onSelectImage$1$2"
@@ -159,7 +159,7 @@
     move-object v1, v8
 
     .line 9
-    invoke-direct/range {v1 .. v7}, Lcom/commsource/mypage/album/w;-><init>(Lcom/commsource/mypage/album/AlbumSetting;Lcom/commsource/cloudalbum/bean/CAImageInfo;Landroid/os/Bundle;IILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v1 .. v7}, Lcom/commsource/mypage/album/w;-><init>(Lcom/commsource/mypage/album/AlbumSetting;Lcom/commsource/cloudalbum/bean/CAImageInfo;Landroid/os/Bundle;IILcotlin/jvm/internal/u;)V
 
     .line 10
     invoke-interface {p1, v0, v8}, Lcom/commsource/mypage/album/OnImageSelectCallback;->onImageSelect(Landroid/app/Activity;Lcom/commsource/mypage/album/w;)V

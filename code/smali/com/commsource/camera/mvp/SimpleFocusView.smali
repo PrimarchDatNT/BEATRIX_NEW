@@ -18,7 +18,7 @@
     value = "SMAP\nSimpleFocusView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SimpleFocusView.kt\ncom/commsource/camera/mvp/SimpleFocusView\n*L\n1#1,159:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Lcom/commsource/camera/mvp/SimpleFocusView;",
         "Landroid/view/View;",
         "Lcom/meitu/library/camera/p/c/a$j;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "p",
         "()V",
         "o",
@@ -65,7 +65,7 @@
         "(Z)V",
         "isShouldShowFocusView",
         "Landroid/graphics/Paint;",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "getFocusPaint",
         "()Landroid/graphics/Paint;",
         "focusPaint",
@@ -143,9 +143,9 @@
 
 .field private N:Ljava/util/HashMap;
 
-.field private final a:Lkotlin/w;
+.field private final a:Lcotlin/w;
 
-.field private final b:Lkotlin/w;
+.field private final b:Lcotlin/w;
 
 .field private c:Z
 
@@ -173,7 +173,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/camera/mvp/SimpleFocusView$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/camera/mvp/SimpleFocusView$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/camera/mvp/SimpleFocusView;->P:Lcom/commsource/camera/mvp/SimpleFocusView$a;
 
@@ -197,14 +197,14 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const/4 v0, 0x0
 
     const/4 v1, 0x2
 
-    invoke-direct {p0, p1, v0, v1, v0}, Lcom/commsource/camera/mvp/SimpleFocusView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, p1, v0, v1, v0}, Lcom/commsource/camera/mvp/SimpleFocusView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -219,7 +219,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .line 1
@@ -228,20 +228,20 @@
     .line 2
     sget-object p1, Lcom/commsource/camera/mvp/SimpleFocusView$focusPaint$2;->INSTANCE:Lcom/commsource/camera/mvp/SimpleFocusView$focusPaint$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->a:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->a:Lcotlin/w;
 
     .line 3
     sget-object p1, Lcom/commsource/camera/mvp/SimpleFocusView$wavePaint$2;->INSTANCE:Lcom/commsource/camera/mvp/SimpleFocusView$wavePaint$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->b:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->b:Lcotlin/w;
 
     .line 4
     new-instance p1, Lcom/commsource/camera/mvp/SimpleFocusView$c;
@@ -312,7 +312,7 @@
     .end array-data
 .end method
 
-.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p3, p3, 0x2
@@ -350,9 +350,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->a:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->a:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -370,9 +370,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->b:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->b:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -488,7 +488,7 @@
 
     const-string v1, "rect"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Ljava/lang/StringBuilder;
@@ -517,7 +517,7 @@
     if-nez p1, :cond_0
 
     .line 3
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     const/4 v1, 0x1
@@ -544,7 +544,7 @@
 
     const-string v1, "rect"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->p:Z
@@ -591,7 +591,7 @@
 
     const-string v1, "rect"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Ljava/lang/StringBuilder;
@@ -620,7 +620,7 @@
     if-nez p1, :cond_0
 
     .line 3
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     const/4 v1, 0x0
@@ -833,7 +833,7 @@
 
     const-string v1, "canvas"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
@@ -1002,7 +1002,7 @@
 
     const-string v1, "listener"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/mvp/SimpleFocusView;->J:Lcom/commsource/camera/mvp/SimpleFocusView$b;

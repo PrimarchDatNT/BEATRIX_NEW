@@ -29,7 +29,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -42,7 +42,7 @@
         "",
         "Lcom/commsource/puzzle/patchedworld/t/a;",
         "puzzleBeans",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/util/List;)V"
     }
@@ -94,7 +94,7 @@
 
     const-string v1, "puzzleBeans"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$d;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;

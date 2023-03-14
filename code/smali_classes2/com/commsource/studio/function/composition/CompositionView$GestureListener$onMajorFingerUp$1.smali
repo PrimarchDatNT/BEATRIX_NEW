@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "<anonymous>"
@@ -168,7 +168,7 @@
 
     const/4 v10, 0x0
 
-    invoke-static/range {v3 .. v10}, Lcom/commsource/studio/MatrixBox;->animateByMatrix$default(Lcom/commsource/studio/MatrixBox;Lcom/commsource/studio/MatrixBox;JLkotlin/jvm/u/a;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v3 .. v10}, Lcom/commsource/studio/MatrixBox;->animateByMatrix$default(Lcom/commsource/studio/MatrixBox;Lcom/commsource/studio/MatrixBox;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

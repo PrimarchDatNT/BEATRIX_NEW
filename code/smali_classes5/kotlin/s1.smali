@@ -1,10 +1,10 @@
-.class public final Lkotlin/s1;
+.class public final Lcotlin/s1;
 .super Ljava/lang/Object;
 .source "UShort.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,7 +15,7 @@
     }
     d2 = {
         "",
-        "Lkotlin/p1;",
+        "Lcotlin/p1;",
         "a",
         "(B)S",
         "",
@@ -41,20 +41,20 @@
 # direct methods
 .method private static final a(B)S
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     int-to-short p0, p0
 
     .line 1
-    invoke-static {p0}, Lkotlin/p1;->s(S)S
+    invoke-static {p0}, Lcotlin/p1;->s(S)S
 
     move-result p0
 
@@ -63,20 +63,20 @@
 
 .method private static final b(I)S
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     int-to-short p0, p0
 
     .line 1
-    invoke-static {p0}, Lkotlin/p1;->s(S)S
+    invoke-static {p0}, Lcotlin/p1;->s(S)S
 
     move-result p0
 
@@ -85,13 +85,13 @@
 
 .method private static final c(J)S
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -100,7 +100,7 @@
     int-to-short p0, p1
 
     .line 1
-    invoke-static {p0}, Lkotlin/p1;->s(S)S
+    invoke-static {p0}, Lcotlin/p1;->s(S)S
 
     move-result p0
 
@@ -109,18 +109,18 @@
 
 .method private static final d(S)S
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lkotlin/p1;->s(S)S
+    invoke-static {p0}, Lcotlin/p1;->s(S)S
 
     move-result p0
 

@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Landroid/animation/AnimatorListenerAdapter;",
         "Landroid/animation/Animator;",
         "animation",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onAnimationEnd",
         "(Landroid/animation/Animator;)V",
         "app_googleplayRelease",
@@ -80,9 +80,9 @@
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment$a$a;->a:Lcom/commsource/studio/function/BaseSubFragment$a;
 
-    iget-object p1, p1, Lcom/commsource/studio/function/BaseSubFragment$a;->c:Lkotlin/jvm/u/a;
+    iget-object p1, p1, Lcom/commsource/studio/function/BaseSubFragment$a;->c:Lcotlin/jvm/u/a;
 
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

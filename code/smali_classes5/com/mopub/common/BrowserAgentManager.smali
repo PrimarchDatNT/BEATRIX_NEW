@@ -10,7 +10,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "getBrowserAgent",
         "()Lcom/mopub/common/BrowserAgentManager$BrowserAgent;",
         "browserAgent",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "setBrowserAgent",
         "(Lcom/mopub/common/BrowserAgentManager$BrowserAgent;)V",
         "adServerBrowserAgent",
@@ -94,7 +94,7 @@
 
 .method public static final getBrowserAgent()Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
     .locals 1
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -120,7 +120,7 @@
     .annotation runtime Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     return-void
@@ -131,11 +131,11 @@
     .annotation runtime Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .annotation runtime Lkotlin/i;
+    .annotation runtime Lcotlin/i;
         message = ""
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .line 1
@@ -160,12 +160,12 @@
     .annotation runtime Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     const-string v0, "browserAgent"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sput-object p0, Lcom/mopub/common/BrowserAgentManager;->browserAgent:Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
@@ -184,12 +184,12 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     const-string v0, "adServerBrowserAgent"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-boolean v0, Lcom/mopub/common/BrowserAgentManager;->isBrowserAgentOverriddenByClient:Z

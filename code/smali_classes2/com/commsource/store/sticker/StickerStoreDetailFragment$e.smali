@@ -32,7 +32,7 @@
     value = "SMAP\nStickerStoreDetailFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StickerStoreDetailFragment.kt\ncom/commsource/store/sticker/StickerStoreDetailFragment$initView$3\n*L\n1#1,218:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "Lcom/meitu/template/bean/StickerGroup;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/meitu/template/bean/StickerGroup;)V"
     }
@@ -142,7 +142,7 @@
     aput-object p1, v4, v5
 
     .line 8
-    invoke-static {v4}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v4}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v4
 
@@ -157,7 +157,7 @@
     aput-object p1, v3, v5
 
     .line 9
-    invoke-static {v3}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v3}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object p1
 

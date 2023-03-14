@@ -1,4 +1,4 @@
-.class public final Lkotlin/reflect/e;
+.class public final Lcotlin/reflect/e;
 .super Ljava/lang/Object;
 .source "KClasses.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nKClasses.kt\nKotlin\n*S Kotlin\n*F\n+ 1 KClasses.kt\nkotlin/reflect/KClasses\n+ 2 KClassesImpl.kt\nkotlin/reflect/KClassesImplKt\n*L\n1#1,48:1\n9#2:49\n*E\n*S KotlinDebug\n*F\n+ 1 KClasses.kt\nkotlin/reflect/KClasses\n*L\n26#1:49\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,10 +20,10 @@
     d2 = {
         "",
         "T",
-        "Lkotlin/reflect/d;",
+        "Lcotlin/reflect/d;",
         "value",
         "a",
-        "(Lkotlin/reflect/d;Ljava/lang/Object;)Ljava/lang/Object;",
+        "(Lcotlin/reflect/d;Ljava/lang/Object;)Ljava/lang/Object;",
         "b",
         "kotlin-stdlib"
     }
@@ -35,15 +35,15 @@
     }
 .end annotation
 
-.annotation build Lkotlin/jvm/g;
+.annotation build Lcotlin/jvm/g;
     name = "KClasses"
 .end annotation
 
 
 # direct methods
-.method public static final a(Lkotlin/reflect/d;Ljava/lang/Object;)Ljava/lang/Object;
+.method public static final a(Lcotlin/reflect/d;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
-    .param p0    # Lkotlin/reflect/d;
+    .param p0    # Lcotlin/reflect/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -56,23 +56,23 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "TT;>;",
             "Ljava/lang/Object;",
             ")TT;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/g;
+    .annotation build Lcotlin/internal/g;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -81,10 +81,10 @@
 
     const-string v0, "$this$cast"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p0, p1}, Lkotlin/reflect/d;->c(Ljava/lang/Object;)Z
+    invoke-interface {p0, p1}, Lcotlin/reflect/d;->c(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -110,7 +110,7 @@
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 4
-    invoke-interface {p0}, Lkotlin/reflect/d;->r()Ljava/lang/String;
+    invoke-interface {p0}, Lcotlin/reflect/d;->r()Ljava/lang/String;
 
     move-result-object p0
 
@@ -126,9 +126,9 @@
     throw p1
 .end method
 
-.method public static final b(Lkotlin/reflect/d;Ljava/lang/Object;)Ljava/lang/Object;
+.method public static final b(Lcotlin/reflect/d;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p0    # Lkotlin/reflect/d;
+    .param p0    # Lcotlin/reflect/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -141,23 +141,23 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "TT;>;",
             "Ljava/lang/Object;",
             ")TT;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/g;
+    .annotation build Lcotlin/internal/g;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -166,10 +166,10 @@
 
     const-string v0, "$this$safeCast"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p0, p1}, Lkotlin/reflect/d;->c(Ljava/lang/Object;)Z
+    invoke-interface {p0, p1}, Lcotlin/reflect/d;->c(Ljava/lang/Object;)Z
 
     move-result p0
 

@@ -18,7 +18,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "Landroidx/lifecycle/LifecycleObserver;",
         "",
         "viewShowState",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "A",
         "(I)V",
         "Landroid/view/View;",
@@ -139,7 +139,7 @@
 
     const-string v0, "ViewModelProvider(contex\u2026entViewModel::class.java)"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p2, Lcom/commsource/home/NewHomeContentViewModel;
 
@@ -169,11 +169,11 @@
 
     .line 7
     :cond_1
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type com.commsource.beautyplus.BaseActivity"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -279,7 +279,7 @@
 
     const-string v0, "view"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x2
 

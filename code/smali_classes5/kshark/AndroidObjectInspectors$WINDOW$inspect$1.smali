@@ -1,9 +1,9 @@
 .class final Lkshark/AndroidObjectInspectors$WINDOW$inspect$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "AndroidObjectInspectors.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
@@ -18,11 +18,11 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/p<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/p<",
         "Lkshark/v;",
         "Lkshark/HeapObject$HeapInstance;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
@@ -31,7 +31,7 @@
     value = "SMAP\nAndroidObjectInspectors.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AndroidObjectInspectors.kt\nkshark/AndroidObjectInspectors$WINDOW$inspect$1\n*L\n1#1,591:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -44,7 +44,7 @@
         "Lkshark/v;",
         "Lkshark/HeapObject$HeapInstance;",
         "instance",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(Lkshark/v;Lkshark/HeapObject$HeapInstance;)V",
         "<anonymous>"
@@ -80,7 +80,7 @@
 
     const/4 v0, 0x2
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, v0}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -97,7 +97,7 @@
 
     invoke-virtual {p0, p1, p2}, Lkshark/AndroidObjectInspectors$WINDOW$inspect$1;->invoke(Lkshark/v;Lkshark/HeapObject$HeapInstance;)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method
@@ -115,11 +115,11 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "instance"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "android.view.Window"
 
@@ -132,7 +132,7 @@
 
     if-nez p2, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 3
     :cond_0
@@ -146,7 +146,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z

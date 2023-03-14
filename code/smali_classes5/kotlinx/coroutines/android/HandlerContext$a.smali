@@ -1,14 +1,14 @@
-.class public final Lkotlinx/coroutines/android/HandlerContext$a;
+.class public final Lcotlinx/coroutines/android/HandlerContext$a;
 .super Ljava/lang/Object;
 .source "HandlerDispatcher.kt"
 
 # interfaces
-.implements Lkotlinx/coroutines/f1;
+.implements Lcotlinx/coroutines/f1;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/android/HandlerContext;->q(JLjava/lang/Runnable;)Lkotlinx/coroutines/f1;
+    value = Lcotlinx/coroutines/android/HandlerContext;->q(JLjava/lang/Runnable;)Lcotlinx/coroutines/f1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,8 +27,8 @@
     }
     d2 = {
         "kotlinx/coroutines/android/HandlerContext$a",
-        "Lkotlinx/coroutines/f1;",
-        "Lkotlin/t1;",
+        "Lcotlinx/coroutines/f1;",
+        "Lcotlin/t1;",
         "dispose",
         "()V",
         "kotlinx-coroutines-android"
@@ -43,13 +43,13 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlinx/coroutines/android/HandlerContext;
+.field final synthetic a:Lcotlinx/coroutines/android/HandlerContext;
 
 .field final synthetic b:Ljava/lang/Runnable;
 
 
 # direct methods
-.method constructor <init>(Lkotlinx/coroutines/android/HandlerContext;Ljava/lang/Runnable;)V
+.method constructor <init>(Lcotlinx/coroutines/android/HandlerContext;Ljava/lang/Runnable;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -60,9 +60,9 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lkotlinx/coroutines/android/HandlerContext$a;->a:Lkotlinx/coroutines/android/HandlerContext;
+    iput-object p1, p0, Lcotlinx/coroutines/android/HandlerContext$a;->a:Lcotlinx/coroutines/android/HandlerContext;
 
-    iput-object p2, p0, Lkotlinx/coroutines/android/HandlerContext$a;->b:Ljava/lang/Runnable;
+    iput-object p2, p0, Lcotlinx/coroutines/android/HandlerContext$a;->b:Ljava/lang/Runnable;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -75,13 +75,13 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/android/HandlerContext$a;->a:Lkotlinx/coroutines/android/HandlerContext;
+    iget-object v0, p0, Lcotlinx/coroutines/android/HandlerContext$a;->a:Lcotlinx/coroutines/android/HandlerContext;
 
-    invoke-static {v0}, Lkotlinx/coroutines/android/HandlerContext;->E(Lkotlinx/coroutines/android/HandlerContext;)Landroid/os/Handler;
+    invoke-static {v0}, Lcotlinx/coroutines/android/HandlerContext;->E(Lcotlinx/coroutines/android/HandlerContext;)Landroid/os/Handler;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkotlinx/coroutines/android/HandlerContext$a;->b:Ljava/lang/Runnable;
+    iget-object v1, p0, Lcotlinx/coroutines/android/HandlerContext$a;->b:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 

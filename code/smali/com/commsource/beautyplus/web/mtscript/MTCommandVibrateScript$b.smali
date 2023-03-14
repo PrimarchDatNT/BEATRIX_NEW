@@ -25,7 +25,7 @@
     value = "SMAP\nMTCommandVibrateScript.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MTCommandVibrateScript.kt\ncom/commsource/beautyplus/web/mtscript/MTCommandVibrateScript$execute$1\n*L\n1#1,49:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,7 +40,7 @@
         "Lcom/commsource/beautyplus/web/mtscript/MTCommandVibrateScript$Model;",
         "Lcom/meitu/webview/mtscript/i;",
         "model",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
         "(Lcom/commsource/beautyplus/web/mtscript/MTCommandVibrateScript$Model;)V",
         "app_googleplayRelease"

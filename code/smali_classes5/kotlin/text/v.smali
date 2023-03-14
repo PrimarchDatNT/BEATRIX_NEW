@@ -1,10 +1,10 @@
-.class Lkotlin/text/v;
-.super Lkotlin/text/StringsKt__StringsKt;
+.class Lcotlin/text/v;
+.super Lcotlin/text/StringsKt__StringsKt;
 .source "_StringsJvm.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -23,14 +23,14 @@
         "Ljava/util/SortedSet;",
         "Q5",
         "(Ljava/lang/CharSequence;)Ljava/util/SortedSet;",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "Ljava/math/BigDecimal;",
         "selector",
         "O5",
-        "(Ljava/lang/CharSequence;Lkotlin/jvm/u/l;)Ljava/math/BigDecimal;",
+        "(Ljava/lang/CharSequence;Lcotlin/jvm/u/l;)Ljava/math/BigDecimal;",
         "Ljava/math/BigInteger;",
         "P5",
-        "(Ljava/lang/CharSequence;Lkotlin/jvm/u/l;)Ljava/math/BigInteger;",
+        "(Ljava/lang/CharSequence;Lcotlin/jvm/u/l;)Ljava/math/BigInteger;",
         "kotlin-stdlib"
     }
     k = 0x5
@@ -47,14 +47,14 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/text/StringsKt__StringsKt;-><init>()V
+    invoke-direct {p0}, Lcotlin/text/StringsKt__StringsKt;-><init>()V
 
     return-void
 .end method
 
 .method private static final N5(Ljava/lang/CharSequence;I)C
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -65,13 +65,13 @@
     return p0
 .end method
 
-.method private static final O5(Ljava/lang/CharSequence;Lkotlin/jvm/u/l;)Ljava/math/BigDecimal;
+.method private static final O5(Ljava/lang/CharSequence;Lcotlin/jvm/u/l;)Ljava/math/BigDecimal;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/CharSequence;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Character;",
             "+",
@@ -81,17 +81,17 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/j0;
+    .annotation build Lcotlin/j0;
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "sumOfBigDecimal"
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -106,7 +106,7 @@
 
     const-string v2, "BigDecimal.valueOf(this.toLong())"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     :goto_0
@@ -125,7 +125,7 @@
 
     move-result-object v2
 
-    invoke-interface {p1, v2}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -137,7 +137,7 @@
 
     const-string v2, "this.add(other)"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     add-int/lit8 v0, v0, 0x1
 
@@ -147,13 +147,13 @@
     return-object v1
 .end method
 
-.method private static final P5(Ljava/lang/CharSequence;Lkotlin/jvm/u/l;)Ljava/math/BigInteger;
+.method private static final P5(Ljava/lang/CharSequence;Lcotlin/jvm/u/l;)Ljava/math/BigInteger;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/CharSequence;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Character;",
             "+",
@@ -163,17 +163,17 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/j0;
+    .annotation build Lcotlin/j0;
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "sumOfBigInteger"
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -188,7 +188,7 @@
 
     const-string v2, "BigInteger.valueOf(this.toLong())"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     :goto_0
@@ -207,7 +207,7 @@
 
     move-result-object v2
 
-    invoke-interface {p1, v2}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -219,7 +219,7 @@
 
     const-string v2, "this.add(other)"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     add-int/lit8 v0, v0, 0x1
 
@@ -251,14 +251,14 @@
 
     const-string v0, "$this$toSortedSet"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/TreeSet;
 
     invoke-direct {v0}, Ljava/util/TreeSet;-><init>()V
 
-    invoke-static {p0, v0}, Lkotlin/text/StringsKt___StringsKt;->P8(Ljava/lang/CharSequence;Ljava/util/Collection;)Ljava/util/Collection;
+    invoke-static {p0, v0}, Lcotlin/text/StringsKt___StringsKt;->P8(Ljava/lang/CharSequence;Ljava/util/Collection;)Ljava/util/Collection;
 
     move-result-object p0
 

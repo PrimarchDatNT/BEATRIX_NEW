@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -17,7 +17,7 @@
         "Lcom/commsource/studio/effect/d;",
         "Lcom/commsource/studio/effect/t;",
         "colourResult",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "r",
         "(Lcom/commsource/studio/effect/d;)V",
         "p",
@@ -84,7 +84,7 @@
 
     const-string v0, "adjustEffectEnum"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Lcom/commsource/studio/effect/t;-><init>()V
@@ -96,7 +96,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/commsource/studio/sub/AdjustEffectEnum;FILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcom/commsource/studio/sub/AdjustEffectEnum;FILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p3, p3, 0x2
@@ -292,7 +292,7 @@
 
     const-string v1, "adjustEffectEnum"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v1, Lcom/commsource/studio/effect/d;
 
@@ -381,7 +381,7 @@
 
     const-string v1, "colourResult"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget p1, p1, Lcom/commsource/studio/effect/d;->f:F

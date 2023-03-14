@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Landroid/view/View;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onClick",
         "(Landroid/view/View;)V",
         "<anonymous>"
@@ -260,11 +260,11 @@
 
     .line 12
     :cond_7
-    new-instance v0, Lkotlin/TypeCastException;
+    new-instance v0, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type android.graphics.drawable.GradientDrawable"
 
-    invoke-direct {v0, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

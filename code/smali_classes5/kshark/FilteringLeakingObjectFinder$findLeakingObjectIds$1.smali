@@ -1,9 +1,9 @@
 .class final Lkshark/FilteringLeakingObjectFinder$findLeakingObjectIds$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "FilteringLeakingObjectFinder.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
@@ -18,8 +18,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Lkshark/HeapObject;",
         "Ljava/lang/Boolean;",
         ">;"
@@ -30,7 +30,7 @@
     value = "SMAP\nFilteringLeakingObjectFinder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FilteringLeakingObjectFinder.kt\nkshark/FilteringLeakingObjectFinder$findLeakingObjectIds$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,31:1\n1495#2,3:32\n*E\n*S KotlinDebug\n*F\n+ 1 FilteringLeakingObjectFinder.kt\nkshark/FilteringLeakingObjectFinder$findLeakingObjectIds$1\n*L\n24#1,3:32\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -68,7 +68,7 @@
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -101,7 +101,7 @@
 
     const-string v0, "heapObject"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object v0, p0, Lkshark/FilteringLeakingObjectFinder$findLeakingObjectIds$1;->this$0:Lkshark/FilteringLeakingObjectFinder;

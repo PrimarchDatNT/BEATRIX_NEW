@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "getBitmap",
         "(Ljava/lang/String;)Landroid/graphics/Bitmap;",
         "bitmap",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "putBitmap",
         "(Ljava/lang/String;Landroid/graphics/Bitmap;)V",
         "mopub-sdk-networking_release"
@@ -77,7 +77,7 @@
 
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lcom/mopub/network/Networking$getImageLoader$1$1$1;->$imageCache:Lcom/mopub/network/Networking$getImageLoader$1$1$imageCache$1;
@@ -104,11 +104,11 @@
 
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "bitmap"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lcom/mopub/network/Networking$getImageLoader$1$1$1;->$imageCache:Lcom/mopub/network/Networking$getImageLoader$1$1$imageCache$1;

@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/internal/f;
+.class public final Lcotlinx/coroutines/internal/f;
 .super Ljava/lang/Object;
 .source "Concurrent.common.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,

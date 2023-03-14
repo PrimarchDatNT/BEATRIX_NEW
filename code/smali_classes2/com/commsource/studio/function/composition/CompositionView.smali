@@ -17,7 +17,7 @@
     value = "SMAP\nCompitionView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CompitionView.kt\ncom/commsource/studio/function/composition/CompositionView\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,782:1\n1819#2,2:783\n1819#2,2:785\n11298#3:787\n11633#3,3:788\n*E\n*S KotlinDebug\n*F\n+ 1 CompitionView.kt\ncom/commsource/studio/function/composition/CompositionView\n*L\n582#1,2:783\n760#1,2:785\n193#1:787\n193#1,3:788\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Landroid/view/View;",
         "",
         "anim",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "F",
         "(Z)V",
         "G",
@@ -278,7 +278,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/function/composition/CompositionView$b;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/function/composition/CompositionView$b;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/function/composition/CompositionView;->e0:Lcom/commsource/studio/function/composition/CompositionView$b;
 
@@ -305,7 +305,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -328,7 +328,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -351,7 +351,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -544,7 +544,7 @@
 
     const-string v7, "bitmap"
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v6, v4, v5}, Lcom/commsource/studio/function/composition/CompositionView$a;-><init>(Lcom/commsource/studio/function/composition/CompositionView$AdjustEnum;Landroid/graphics/Bitmap;)V
 
@@ -1140,7 +1140,7 @@
 
     const/4 v13, 0x0
 
-    invoke-static/range {v6 .. v13}, Lcom/commsource/studio/MatrixBox;->animateByMatrix$default(Lcom/commsource/studio/MatrixBox;Lcom/commsource/studio/MatrixBox;JLkotlin/jvm/u/a;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v6 .. v13}, Lcom/commsource/studio/MatrixBox;->animateByMatrix$default(Lcom/commsource/studio/MatrixBox;Lcom/commsource/studio/MatrixBox;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 36
     :cond_b
@@ -2220,9 +2220,9 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    new-instance v7, Lkotlin/jvm/internal/Ref$FloatRef;
+    new-instance v7, Lcotlin/jvm/internal/Ref$FloatRef;
 
-    invoke-direct {v7}, Lkotlin/jvm/internal/Ref$FloatRef;-><init>()V
+    invoke-direct {v7}, Lcotlin/jvm/internal/Ref$FloatRef;-><init>()V
 
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CompositionView;->b:Lcom/commsource/studio/MatrixBox;
 
@@ -2230,7 +2230,7 @@
 
     move-result v1
 
-    iput v1, v7, Lkotlin/jvm/internal/Ref$FloatRef;->element:F
+    iput v1, v7, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
     .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CompositionView;->b:Lcom/commsource/studio/MatrixBox;
@@ -2240,7 +2240,7 @@
     move-result v8
 
     .line 3
-    iget v1, v7, Lkotlin/jvm/internal/Ref$FloatRef;->element:F
+    iget v1, v7, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
     const/16 v2, 0x168
 
@@ -2255,11 +2255,11 @@
     add-float/2addr v1, v2
 
     .line 4
-    iput v1, v7, Lkotlin/jvm/internal/Ref$FloatRef;->element:F
+    iput v1, v7, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
     .line 5
     :cond_0
-    iget v1, v7, Lkotlin/jvm/internal/Ref$FloatRef;->element:F
+    iget v1, v7, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
     cmpl-float v3, v1, p1
 
@@ -2268,7 +2268,7 @@
     sub-float/2addr v1, v2
 
     .line 6
-    iput v1, v7, Lkotlin/jvm/internal/Ref$FloatRef;->element:F
+    iput v1, v7, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
     .line 7
     :cond_1
@@ -2295,7 +2295,7 @@
 
     move v6, p1
 
-    invoke-direct/range {v1 .. v6}, Lcom/commsource/studio/function/composition/CompositionView$c;-><init>(Lcom/commsource/studio/function/composition/CompositionView;FFLkotlin/jvm/internal/Ref$FloatRef;F)V
+    invoke-direct/range {v1 .. v6}, Lcom/commsource/studio/function/composition/CompositionView$c;-><init>(Lcom/commsource/studio/function/composition/CompositionView;FFLcotlin/jvm/internal/Ref$FloatRef;F)V
 
     invoke-virtual {v9, v10}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
@@ -2304,7 +2304,7 @@
 
     move-object v1, v10
 
-    invoke-direct/range {v1 .. v6}, Lcom/commsource/studio/function/composition/CompositionView$d;-><init>(Lcom/commsource/studio/function/composition/CompositionView;FFLkotlin/jvm/internal/Ref$FloatRef;F)V
+    invoke-direct/range {v1 .. v6}, Lcom/commsource/studio/function/composition/CompositionView$d;-><init>(Lcom/commsource/studio/function/composition/CompositionView;FFLcotlin/jvm/internal/Ref$FloatRef;F)V
 
     invoke-virtual {v9, v10}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
@@ -2564,7 +2564,7 @@
 
     const-string v3, "rotateAnimator"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
 
@@ -2944,7 +2944,7 @@
 
     if-nez v3, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getWidth()I
@@ -2955,7 +2955,7 @@
 
     if-nez v4, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-virtual {v4}, Landroid/graphics/Bitmap;->getHeight()I
@@ -2968,7 +2968,7 @@
 
     iget-object v3, p0, Lcom/commsource/studio/function/composition/CompositionView;->g:Landroid/graphics/RectF;
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -3279,7 +3279,7 @@
 
     const-string v1, "canvas"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
@@ -3340,7 +3340,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v1, p1}, Lcom/commsource/studio/i;->C(Landroid/view/MotionEvent;)Z
@@ -3366,7 +3366,7 @@
 
     const-string v1, "value"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CompositionView;->S:Lcom/commsource/easyeditor/entity/CropEnum;
@@ -3433,7 +3433,7 @@
 
     move-result v3
 
-    invoke-static {v3}, Lkotlin/e2/b;->H0(F)I
+    invoke-static {v3}, Lcotlin/e2/b;->H0(F)I
 
     move-result v3
 
@@ -3441,7 +3441,7 @@
 
     move-result p1
 
-    invoke-static {p1}, Lkotlin/e2/b;->H0(F)I
+    invoke-static {p1}, Lcotlin/e2/b;->H0(F)I
 
     move-result p1
 
@@ -3472,7 +3472,7 @@
 
     if-nez v2, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getWidth()I
@@ -3483,7 +3483,7 @@
 
     if-nez v3, :cond_4
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getHeight()I
@@ -3934,7 +3934,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     iget-object v4, p0, Lcom/commsource/studio/function/composition/CompositionView;->c:Lcom/commsource/studio/MatrixBox;

@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -18,7 +18,7 @@
         "Lcom/commsource/util/common/l;",
         "",
         "key",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "U",
         "(Ljava/lang/String;)V",
         "O",
@@ -55,7 +55,7 @@
         "q",
         "DOODLE_COLOR_CONFIG_FILE",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "n",
         "Ljava/util/ArrayList;",
         "L",
@@ -221,7 +221,7 @@
     move-result-object v1
 
     .line 3
-    invoke-static {v1}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v1
 
@@ -561,7 +561,7 @@
 
     const-string v2, "getString(PRE_RELEASE_KEY_DOODLE, \"\")"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -583,7 +583,7 @@
 
     const-string v1, "doodle"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Doodle;->getDoodleId()I
@@ -732,7 +732,7 @@
 
     const-string v1, "key"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "PRE_RELEASE_KEY_DOODLE"
 
@@ -758,7 +758,7 @@
 
     const-string v1, "updateTag"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "DOODLE_REQUEST_TAG"
 

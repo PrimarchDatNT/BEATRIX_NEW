@@ -17,7 +17,7 @@
     value = "SMAP\nOnlineDialogRepo.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnlineDialogRepo.kt\ncom/commsource/home/OnlineDialogRepo$fetchOnlineData$1$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,394:1\n1819#2,2:395\n37#3,2:397\n*E\n*S KotlinDebug\n*F\n+ 1 OnlineDialogRepo.kt\ncom/commsource/home/OnlineDialogRepo$fetchOnlineData$1$1\n*L\n106#1,2:395\n109#1,2:397\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
     d2 = {
         "com/commsource/home/OnlineDialogRepo$d",
         "Lcom/commsource/util/u2/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "app_googleplayRelease"

@@ -11,7 +11,7 @@
     value = "SMAP\nSubConfigInfo.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SubConfigInfo.kt\ncom/commsource/billing/bean/subsconfig/SubConfigInfo\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,42:1\n1819#2,2:43\n1819#2,2:45\n*E\n*S KotlinDebug\n*F\n+ 1 SubConfigInfo.kt\ncom/commsource/billing/bean/subsconfig/SubConfigInfo\n*L\n26#1,2:43\n34#1,2:45\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "Lcom/commsource/billing/bean/subsconfig/Config;",
         "getPromotionConfig",
         "()Lcom/commsource/billing/bean/subsconfig/Config;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "setConfigContentColor",
         "()V",
         "",
@@ -76,7 +76,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -96,7 +96,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -112,7 +112,7 @@
 
     const/4 v1, 0x3
 
-    invoke-direct {p0, v0, v0, v1, v0}, Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;-><init>(Ljava/util/List;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, v0, v0, v1, v0}, Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;-><init>(Ljava/util/List;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -149,7 +149,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/util/List;Ljava/util/List;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Ljava/util/List;Ljava/util/List;ILcotlin/jvm/internal/u;)V
     .locals 1
 
     and-int/lit8 p4, p3, 0x1
@@ -318,7 +318,7 @@
 
     iget-object v2, p1, Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;->promotionConfig:Ljava/util/List;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -328,7 +328,7 @@
 
     iget-object p1, p1, Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;->activityConfigs:Ljava/util/List;
 
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 

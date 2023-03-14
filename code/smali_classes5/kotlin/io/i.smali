@@ -1,9 +1,9 @@
-.class public final synthetic Lkotlin/io/i;
+.class public final synthetic Lcotlin/io/i;
 .super Ljava/lang/Object;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
 .method static synthetic constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Lkotlin/io/FileWalkDirection;->values()[Lkotlin/io/FileWalkDirection;
+    invoke-static {}, Lcotlin/io/FileWalkDirection;->values()[Lcotlin/io/FileWalkDirection;
 
     move-result-object v0
 
@@ -36,9 +36,9 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkotlin/io/i;->a:[I
+    sput-object v0, Lcotlin/io/i;->a:[I
 
-    sget-object v1, Lkotlin/io/FileWalkDirection;->TOP_DOWN:Lkotlin/io/FileWalkDirection;
+    sget-object v1, Lcotlin/io/FileWalkDirection;->TOP_DOWN:Lcotlin/io/FileWalkDirection;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -48,7 +48,7 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Lkotlin/io/FileWalkDirection;->BOTTOM_UP:Lkotlin/io/FileWalkDirection;
+    sget-object v1, Lcotlin/io/FileWalkDirection;->BOTTOM_UP:Lcotlin/io/FileWalkDirection;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

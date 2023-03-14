@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "Lcom/commsource/camera/f1/l$b;",
         "Lcom/commsource/camera/f1/l;",
         "animation",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
         "(Lcom/commsource/camera/f1/l;)V",
         "a",
@@ -151,7 +151,7 @@
 
     const-string v1, "mViewBinding.tv"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/d$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/d;
 
@@ -176,7 +176,7 @@
 
     const-string v1, "mViewBinding.flBackground"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/d$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/d;
 
@@ -201,7 +201,7 @@
 
     const-string v1, "mViewBinding.llContent"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/d$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/d;
 
@@ -226,7 +226,7 @@
 
     const-string v1, "mViewBinding.vNewTag"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/d$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/d;
 

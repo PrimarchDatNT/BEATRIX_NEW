@@ -16,7 +16,7 @@
     value = "SMAP\nVideoControllCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VideoControllCover.kt\ncom/commsource/video/cover/VideoControllCover\n*L\n1#1,168:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Lcom/commsource/video/cover/VideoControllCover;",
         "Lcom/commsource/video/cover/a;",
         "Lcom/commsource/beautyplus/f0/um;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "o",
         "()V",
         "",
@@ -55,7 +55,7 @@
         "(Ljava/lang/String;)V",
         "timeFormat",
         "Lcom/commsource/video/decoder/d;",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "u",
         "()Lcom/commsource/video/decoder/d;",
         "positionTimer",
@@ -89,7 +89,7 @@
 
 
 # instance fields
-.field private final e:Lkotlin/w;
+.field private final e:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -122,11 +122,11 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/video/cover/VideoControllCover$positionTimer$2;-><init>(Lcom/commsource/video/cover/VideoControllCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/video/cover/VideoControllCover;->e:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/video/cover/VideoControllCover;->e:Lcotlin/w;
 
     return-void
 .end method
@@ -836,9 +836,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/video/cover/VideoControllCover;->e:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/video/cover/VideoControllCover;->e:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 

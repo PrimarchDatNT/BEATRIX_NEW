@@ -1,10 +1,10 @@
-.class public final Lkotlin/io/o;
+.class public final Lcotlin/io/o;
 .super Ljava/lang/Object;
 .source "Serializable.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,

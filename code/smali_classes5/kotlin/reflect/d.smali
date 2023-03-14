@@ -1,17 +1,17 @@
-.class public interface abstract Lkotlin/reflect/d;
+.class public interface abstract Lcotlin/reflect/d;
 .super Ljava/lang/Object;
 .source "KClass.kt"
 
 # interfaces
-.implements Lkotlin/reflect/h;
-.implements Lkotlin/reflect/b;
-.implements Lkotlin/reflect/g;
+.implements Lcotlin/reflect/h;
+.implements Lcotlin/reflect/b;
+.implements Lcotlin/reflect/g;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkotlin/reflect/d$a;
+        Lcotlin/reflect/d$a;
     }
 .end annotation
 
@@ -21,13 +21,13 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lkotlin/reflect/h;",
-        "Lkotlin/reflect/b;",
-        "Lkotlin/reflect/g;"
+        "Lcotlin/reflect/h;",
+        "Lcotlin/reflect/b;",
+        "Lcotlin/reflect/g;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -37,12 +37,12 @@
         "\u0000`\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0004\n\u0002\u0010\u0008\n\u0002\u0008\u0007\n\u0002\u0010\u001e\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0008\t\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0016\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0008f\u0018\u0000*\u0008\u0008\u0000\u0010\u0002*\u00020\u00012\u00020\u00032\u00020\u00042\u00020\u0005J\u0019\u0010\u0008\u001a\u00020\u00072\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u0001H\'\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\u001a\u0010\u000b\u001a\u00020\u00072\u0008\u0010\n\u001a\u0004\u0018\u00010\u0001H\u00a6\u0002\u00a2\u0006\u0004\u0008\u000b\u0010\tJ\u000f\u0010\r\u001a\u00020\u000cH&\u00a2\u0006\u0004\u0008\r\u0010\u000eR\u001c\u0010\u0013\u001a\u00020\u00078&@\'X\u00a7\u0004\u00a2\u0006\u000c\u0012\u0004\u0008\u0011\u0010\u0012\u001a\u0004\u0008\u000f\u0010\u0010R \u0010\u0018\u001a\u000c\u0012\u0008\u0012\u0006\u0012\u0002\u0008\u00030\u00150\u00148&@&X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0016\u0010\u0017R\u001c\u0010\u001b\u001a\u00020\u00078&@\'X\u00a7\u0004\u00a2\u0006\u000c\u0012\u0004\u0008\u001a\u0010\u0012\u001a\u0004\u0008\u0019\u0010\u0010R\"\u0010!\u001a\u0008\u0012\u0004\u0012\u00020\u001d0\u001c8&@\'X\u00a7\u0004\u00a2\u0006\u000c\u0012\u0004\u0008 \u0010\u0012\u001a\u0004\u0008\u001e\u0010\u001fR\u001c\u0010\"\u001a\u00020\u00078&@\'X\u00a7\u0004\u00a2\u0006\u000c\u0012\u0004\u0008#\u0010\u0012\u001a\u0004\u0008\"\u0010\u0010R*\u0010&\u001a\u0010\u0012\u000c\u0012\n\u0012\u0006\u0008\u0001\u0012\u00028\u00000\u00000\u001c8&@\'X\u00a7\u0004\u00a2\u0006\u000c\u0012\u0004\u0008%\u0010\u0012\u001a\u0004\u0008$\u0010\u001fR\u001e\u0010+\u001a\u0004\u0018\u00010\'8&@\'X\u00a7\u0004\u00a2\u0006\u000c\u0012\u0004\u0008*\u0010\u0012\u001a\u0004\u0008(\u0010)R\u0018\u0010/\u001a\u0004\u0018\u00010,8&@&X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008-\u0010.R\"\u00102\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00028\u0000000\u00148&@&X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u00081\u0010\u0017R\u001c\u00105\u001a\u00020\u00078&@\'X\u00a7\u0004\u00a2\u0006\u000c\u0012\u0004\u00084\u0010\u0012\u001a\u0004\u00083\u0010\u0010R\u001c\u00106\u001a\u00020\u00078&@\'X\u00a7\u0004\u00a2\u0006\u000c\u0012\u0004\u00087\u0010\u0012\u001a\u0004\u00086\u0010\u0010R \u00109\u001a\u000c\u0012\u0008\u0012\u0006\u0012\u0002\u0008\u00030\u00000\u00148&@&X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u00088\u0010\u0017R\u0018\u0010<\u001a\u0004\u0018\u00018\u00008&@&X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008:\u0010;R\u0018\u0010>\u001a\u0004\u0018\u00010,8&@&X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008=\u0010.R\u001c\u0010A\u001a\u00020\u00078&@\'X\u00a7\u0004\u00a2\u0006\u000c\u0012\u0004\u0008@\u0010\u0012\u001a\u0004\u0008?\u0010\u0010R\u001c\u0010D\u001a\u00020\u00078&@\'X\u00a7\u0004\u00a2\u0006\u000c\u0012\u0004\u0008C\u0010\u0012\u001a\u0004\u0008B\u0010\u0010R\u001c\u0010E\u001a\u00020\u00078&@\'X\u00a7\u0004\u00a2\u0006\u000c\u0012\u0004\u0008F\u0010\u0012\u001a\u0004\u0008E\u0010\u0010R\"\u0010J\u001a\u0008\u0012\u0004\u0012\u00020G0\u001c8&@\'X\u00a7\u0004\u00a2\u0006\u000c\u0012\u0004\u0008I\u0010\u0012\u001a\u0004\u0008H\u0010\u001f\u00a8\u0006K"
     }
     d2 = {
-        "Lkotlin/reflect/d;",
+        "Lcotlin/reflect/d;",
         "",
         "T",
-        "Lkotlin/reflect/h;",
-        "Lkotlin/reflect/b;",
-        "Lkotlin/reflect/g;",
+        "Lcotlin/reflect/h;",
+        "Lcotlin/reflect/b;",
+        "Lcotlin/reflect/g;",
         "value",
         "",
         "c",
@@ -58,7 +58,7 @@
         "()V",
         "isFun",
         "",
-        "Lkotlin/reflect/c;",
+        "Lcotlin/reflect/c;",
         "d",
         "()Ljava/util/Collection;",
         "members",
@@ -66,7 +66,7 @@
         "isSealed$annotations",
         "isSealed",
         "",
-        "Lkotlin/reflect/r;",
+        "Lcotlin/reflect/r;",
         "u",
         "()Ljava/util/List;",
         "getSupertypes$annotations",
@@ -76,16 +76,16 @@
         "h",
         "getSealedSubclasses$annotations",
         "sealedSubclasses",
-        "Lkotlin/reflect/KVisibility;",
+        "Lcotlin/reflect/KVisibility;",
         "getVisibility",
-        "()Lkotlin/reflect/KVisibility;",
+        "()Lcotlin/reflect/KVisibility;",
         "getVisibility$annotations",
         "visibility",
         "",
         "t",
         "()Ljava/lang/String;",
         "simpleName",
-        "Lkotlin/reflect/i;",
+        "Lcotlin/reflect/i;",
         "b",
         "constructors",
         "i",
@@ -108,7 +108,7 @@
         "isData",
         "isFinal",
         "isFinal$annotations",
-        "Lkotlin/reflect/s;",
+        "Lcotlin/reflect/s;",
         "getTypeParameters",
         "getTypeParameters$annotations",
         "typeParameters",
@@ -129,7 +129,7 @@
         value = {
             "()",
             "Ljava/util/Collection<",
-            "Lkotlin/reflect/i<",
+            "Lcotlin/reflect/i<",
             "TT;>;>;"
         }
     .end annotation
@@ -143,7 +143,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 .end method
@@ -153,7 +153,7 @@
         value = {
             "()",
             "Ljava/util/Collection<",
-            "Lkotlin/reflect/c<",
+            "Lcotlin/reflect/c<",
             "*>;>;"
         }
     .end annotation
@@ -167,7 +167,7 @@
         value = {
             "()",
             "Ljava/util/Collection<",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "*>;>;"
         }
     .end annotation
@@ -188,7 +188,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lkotlin/reflect/s;",
+            "Lcotlin/reflect/s;",
             ">;"
         }
     .end annotation
@@ -197,7 +197,7 @@
     .end annotation
 .end method
 
-.method public abstract getVisibility()Lkotlin/reflect/KVisibility;
+.method public abstract getVisibility()Lcotlin/reflect/KVisibility;
     .annotation build Ln/e/a/e;
     .end annotation
 .end method
@@ -207,7 +207,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "+TT;>;>;"
         }
     .end annotation
@@ -266,7 +266,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lkotlin/reflect/r;",
+            "Lcotlin/reflect/r;",
             ">;"
         }
     .end annotation

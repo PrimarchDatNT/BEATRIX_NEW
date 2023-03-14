@@ -1,11 +1,11 @@
-.class final Lkotlinx/coroutines/channels/r$a;
+.class final Lcotlinx/coroutines/channels/r$a;
 .super Ljava/lang/Object;
 .source "ConflatedChannel.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/channels/r;
+    value = Lcotlinx/coroutines/channels/r;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,9 +25,9 @@
     d2 = {
         "kotlinx/coroutines/channels/r$a",
         "",
-        "Lkotlinx/coroutines/internal/c0;",
+        "Lcotlinx/coroutines/internal/c0;",
         "EMPTY",
-        "Lkotlinx/coroutines/internal/c0;",
+        "Lcotlinx/coroutines/internal/c0;",
         "EMPTY$annotations",
         "()V",
         "<init>",
@@ -52,11 +52,11 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlinx/coroutines/channels/r$a;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/channels/r$a;-><init>()V
 
     return-void
 .end method

@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Landroidx/room/migration/Migration;",
         "Landroidx/sqlite/db/SupportSQLiteDatabase;",
         "database",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "migrate",
         "(Landroidx/sqlite/db/SupportSQLiteDatabase;)V",
         "app_googleplayRelease"
@@ -66,7 +66,7 @@
 
     const-string v1, "database"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `MOSAIC_LOCAL_ENTITY` (`mosaic_id` TEXT NOT NULL, `download_type` INTEGER NOT NULL, `mosaic_name` TEXT, `mosaic_thumbnail` TEXT, `is_available` INTEGER NOT NULL, `status` INTEGER NOT NULL, `file` TEXT, `material_md5` TEXT, `sort` INTEGER NOT NULL, `is_paid` INTEGER NOT NULL, `goods_id` TEXT, `paid_icon` TEXT, PRIMARY KEY(`mosaic_id`))"
 

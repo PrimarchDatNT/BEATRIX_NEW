@@ -1,9 +1,9 @@
-.class public final synthetic Lkotlinx/coroutines/scheduling/a;
+.class public final synthetic Lcotlinx/coroutines/scheduling/a;
 .super Ljava/lang/Object;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
 .method static synthetic constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->values()[Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    invoke-static {}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->values()[Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     move-result-object v0
 
@@ -36,9 +36,9 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkotlinx/coroutines/scheduling/a;->a:[I
+    sput-object v0, Lcotlinx/coroutines/scheduling/a;->a:[I
 
-    sget-object v1, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->PARKING:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object v1, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->PARKING:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -48,7 +48,7 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->BLOCKING:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object v1, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->BLOCKING:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -58,7 +58,7 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->CPU_ACQUIRED:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object v1, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->CPU_ACQUIRED:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -68,7 +68,7 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->DORMANT:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object v1, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->DORMANT:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -78,7 +78,7 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->TERMINATED:Lkotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
+    sget-object v1, Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;->TERMINATED:Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

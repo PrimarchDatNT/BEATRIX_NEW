@@ -8,7 +8,7 @@
     value = "SMAP\nMakeupGroup.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MakeupGroup.kt\ncom/commsource/repository/child/makeup/MakeupGroup\n*L\n1#1,36:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
         "()Z",
         "Ljava/util/ArrayList;",
         "Lcom/commsource/repository/child/makeup/h;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "d",
         "Ljava/util/ArrayList;",
         "a",
@@ -106,7 +106,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {p0, v0, v1, v2}, Lcom/commsource/repository/child/makeup/e;-><init>(IILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, v0, v1, v2}, Lcom/commsource/repository/child/makeup/e;-><init>(IILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -136,7 +136,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(IILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(IILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p2, p2, 0x1

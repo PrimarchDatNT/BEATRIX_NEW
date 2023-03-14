@@ -8,7 +8,7 @@
     value = "SMAP\nNewSkinColorResult.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewSkinColorResult.kt\ncom/commsource/studio/effect/NewSkinColorResult\n*L\n1#1,28:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,

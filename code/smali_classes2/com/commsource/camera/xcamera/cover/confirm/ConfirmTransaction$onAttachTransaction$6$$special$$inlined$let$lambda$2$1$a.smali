@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
     d2 = {
         "com/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$onAttachTransaction$6$$special$$inlined$let$lambda$2$1$a",
         "Lcom/commsource/util/delegate/process/i;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "()V",
         "app_googleplayRelease",
@@ -74,9 +74,9 @@
 
     iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$onAttachTransaction$6$$special$$inlined$let$lambda$2$1;->this$0:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$onAttachTransaction$6$$special$$inlined$let$lambda$2;
 
-    iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$onAttachTransaction$6$$special$$inlined$let$lambda$2;->$it$inlined:Lkotlin/Pair;
+    iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$onAttachTransaction$6$$special$$inlined$let$lambda$2;->$it$inlined:Lcotlin/Pair;
 
-    invoke-virtual {v2}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 

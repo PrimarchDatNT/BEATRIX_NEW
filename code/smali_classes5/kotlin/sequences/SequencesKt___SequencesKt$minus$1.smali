@@ -1,14 +1,14 @@
-.class public final Lkotlin/sequences/SequencesKt___SequencesKt$minus$1;
+.class public final Lcotlin/sequences/SequencesKt___SequencesKt$minus$1;
 .super Ljava/lang/Object;
 .source "_Sequences.kt"
 
 # interfaces
-.implements Lkotlin/sequences/m;
+.implements Lcotlin/sequences/m;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/sequences/SequencesKt___SequencesKt;->U1(Lkotlin/sequences/m;Ljava/lang/Object;)Lkotlin/sequences/m;
+    value = Lcotlin/sequences/SequencesKt___SequencesKt;->U1(Lcotlin/sequences/m;Ljava/lang/Object;)Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,12 +19,12 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/sequences/m<",
+        "Lcotlin/sequences/m<",
         "TT;>;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,7 +35,7 @@
     }
     d2 = {
         "kotlin/sequences/SequencesKt___SequencesKt$minus$1",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "",
         "iterator",
         "()Ljava/util/Iterator;",
@@ -51,18 +51,18 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/sequences/m;
+.field final synthetic a:Lcotlin/sequences/m;
 
 .field final synthetic b:Ljava/lang/Object;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/sequences/m;Ljava/lang/Object;)V
+.method constructor <init>(Lcotlin/sequences/m;Ljava/lang/Object;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "+TT;>;",
             "Ljava/lang/Object;",
             ")V"
@@ -70,9 +70,9 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$minus$1;->a:Lkotlin/sequences/m;
+    iput-object p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1;->a:Lcotlin/sequences/m;
 
-    iput-object p2, p0, Lkotlin/sequences/SequencesKt___SequencesKt$minus$1;->b:Ljava/lang/Object;
+    iput-object p2, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1;->b:Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -95,26 +95,26 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/jvm/internal/Ref$BooleanRef;
+    new-instance v0, Lcotlin/jvm/internal/Ref$BooleanRef;
 
-    invoke-direct {v0}, Lkotlin/jvm/internal/Ref$BooleanRef;-><init>()V
+    invoke-direct {v0}, Lcotlin/jvm/internal/Ref$BooleanRef;-><init>()V
 
     const/4 v1, 0x0
 
-    iput-boolean v1, v0, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
+    iput-boolean v1, v0, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     .line 2
-    iget-object v1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$minus$1;->a:Lkotlin/sequences/m;
+    iget-object v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1;->a:Lcotlin/sequences/m;
 
-    new-instance v2, Lkotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;
+    new-instance v2, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;
 
-    invoke-direct {v2, p0, v0}, Lkotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;-><init>(Lkotlin/sequences/SequencesKt___SequencesKt$minus$1;Lkotlin/jvm/internal/Ref$BooleanRef;)V
+    invoke-direct {v2, p0, v0}, Lcotlin/sequences/SequencesKt___SequencesKt$minus$1$iterator$1;-><init>(Lcotlin/sequences/SequencesKt___SequencesKt$minus$1;Lcotlin/jvm/internal/Ref$BooleanRef;)V
 
-    invoke-static {v1, v2}, Lkotlin/sequences/p;->i0(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v1, v2}, Lcotlin/sequences/p;->i0(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 

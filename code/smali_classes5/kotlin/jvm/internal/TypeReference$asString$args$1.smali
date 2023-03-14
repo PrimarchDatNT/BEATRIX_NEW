@@ -1,14 +1,14 @@
-.class final Lkotlin/jvm/internal/TypeReference$asString$args$1;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlin/jvm/internal/TypeReference$asString$args$1;
+.super Lcotlin/jvm/internal/Lambda;
 .source "TypeReference.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/jvm/internal/TypeReference;->j()Ljava/lang/String;
+    value = Lcotlin/jvm/internal/TypeReference;->j()Ljava/lang/String;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,15 +18,15 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
-        "Lkotlin/reflect/t;",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
+        "Lcotlin/reflect/t;",
         "Ljava/lang/CharSequence;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,11 +36,11 @@
         "\u0000\u000e\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\r\n\u0002\u0008\u0003\u0010\u0005\u001a\u00020\u00022\u0006\u0010\u0001\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0003\u0010\u0004"
     }
     d2 = {
-        "Lkotlin/reflect/t;",
+        "Lcotlin/reflect/t;",
         "it",
         "",
         "invoke",
-        "(Lkotlin/reflect/t;)Ljava/lang/CharSequence;",
+        "(Lcotlin/reflect/t;)Ljava/lang/CharSequence;",
         "<anonymous>"
     }
     k = 0x3
@@ -53,27 +53,27 @@
 
 
 # instance fields
-.field final synthetic this$0:Lkotlin/jvm/internal/TypeReference;
+.field final synthetic this$0:Lcotlin/jvm/internal/TypeReference;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/jvm/internal/TypeReference;)V
+.method constructor <init>(Lcotlin/jvm/internal/TypeReference;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/jvm/internal/TypeReference$asString$args$1;->this$0:Lkotlin/jvm/internal/TypeReference;
+    iput-object p1, p0, Lcotlin/jvm/internal/TypeReference$asString$args$1;->this$0:Lcotlin/jvm/internal/TypeReference;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final invoke(Lkotlin/reflect/t;)Ljava/lang/CharSequence;
+.method public final invoke(Lcotlin/reflect/t;)Ljava/lang/CharSequence;
     .locals 1
-    .param p1    # Lkotlin/reflect/t;
+    .param p1    # Lcotlin/reflect/t;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -82,12 +82,12 @@
 
     const-string v0, "it"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object v0, p0, Lkotlin/jvm/internal/TypeReference$asString$args$1;->this$0:Lkotlin/jvm/internal/TypeReference;
+    iget-object v0, p0, Lcotlin/jvm/internal/TypeReference$asString$args$1;->this$0:Lcotlin/jvm/internal/TypeReference;
 
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/TypeReference;->f(Lkotlin/jvm/internal/TypeReference;Lkotlin/reflect/t;)Ljava/lang/String;
+    invoke-static {v0, p1}, Lcotlin/jvm/internal/TypeReference;->f(Lcotlin/jvm/internal/TypeReference;Lcotlin/reflect/t;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -98,9 +98,9 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lkotlin/reflect/t;
+    check-cast p1, Lcotlin/reflect/t;
 
-    invoke-virtual {p0, p1}, Lkotlin/jvm/internal/TypeReference$asString$args$1;->invoke(Lkotlin/reflect/t;)Ljava/lang/CharSequence;
+    invoke-virtual {p0, p1}, Lcotlin/jvm/internal/TypeReference$asString$args$1;->invoke(Lcotlin/reflect/t;)Ljava/lang/CharSequence;
 
     move-result-object p1
 

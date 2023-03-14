@@ -1,4 +1,4 @@
-.class public final Lkotlinx/coroutines/o1;
+.class public final Lcotlinx/coroutines/o1;
 .super Ljava/lang/Object;
 .source "Exceptions.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nExceptions.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Exceptions.kt\nkotlinx/coroutines/ExceptionsKt\n*L\n1#1,76:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -23,11 +23,11 @@
         "",
         "cause",
         "Ljava/util/concurrent/CancellationException;",
-        "Lkotlinx/coroutines/CancellationException;",
+        "Lcotlinx/coroutines/CancellationException;",
         "a",
         "(Ljava/lang/String;Ljava/lang/Throwable;)Ljava/util/concurrent/CancellationException;",
         "other",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "b",
         "(Ljava/lang/Throwable;Ljava/lang/Throwable;)V",
         "CancellationException",
@@ -78,7 +78,7 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/l;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
+    invoke-static {p0, p1}, Lcotlin/l;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
     return-void
 .end method

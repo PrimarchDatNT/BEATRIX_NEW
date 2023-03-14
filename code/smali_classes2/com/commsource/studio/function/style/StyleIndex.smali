@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
         "",
         "recommendIndex",
         "index",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "setSelectPosition",
         "(II)V",
         "getSelectPosition",
@@ -137,7 +137,7 @@
 
     move-object v0, p0
 
-    invoke-direct/range {v0 .. v8}, Lcom/commsource/studio/function/style/StyleIndex;-><init>(Ljava/lang/String;IILjava/lang/String;Lcom/commsource/studio/bean/f;Lcom/commsource/studio/bean/g;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v8}, Lcom/commsource/studio/function/style/StyleIndex;-><init>(Ljava/lang/String;IILjava/lang/String;Lcom/commsource/studio/bean/f;Lcom/commsource/studio/bean/g;ILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -179,7 +179,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/String;IILjava/lang/String;Lcom/commsource/studio/bean/f;Lcom/commsource/studio/bean/g;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Ljava/lang/String;IILjava/lang/String;Lcom/commsource/studio/bean/f;Lcom/commsource/studio/bean/g;ILcotlin/jvm/internal/u;)V
     .locals 5
 
     and-int/lit8 p8, p7, 0x1
@@ -543,7 +543,7 @@
 
     iget-object v2, p1, Lcom/commsource/studio/function/style/StyleIndex;->styleId:Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -565,7 +565,7 @@
 
     iget-object v2, p1, Lcom/commsource/studio/function/style/StyleIndex;->categoryIdWhenSelect:Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -575,7 +575,7 @@
 
     iget-object v2, p1, Lcom/commsource/studio/function/style/StyleIndex;->style:Lcom/commsource/studio/bean/f;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -585,7 +585,7 @@
 
     iget-object p1, p1, Lcom/commsource/studio/function/style/StyleIndex;->styleCategory:Lcom/commsource/studio/bean/g;
 
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 

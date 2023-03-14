@@ -16,7 +16,7 @@
     name = "b"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "com/commsource/billing/pro/GmsManager$b",
         "Lcom/commsource/billing/b$c;",
         "onIabManagerListener",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/billing/b$c;)V",
         "b",

@@ -1,14 +1,14 @@
-.class public final Lkotlinx/coroutines/flow/internal/CombineKt$asChannel$1$a;
+.class public final Lcotlinx/coroutines/flow/internal/CombineKt$asChannel$1$a;
 .super Ljava/lang/Object;
 .source "Collect.kt"
 
 # interfaces
-.implements Lkotlinx/coroutines/flow/e;
+.implements Lcotlinx/coroutines/flow/e;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/internal/CombineKt$asChannel$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/flow/internal/CombineKt$asChannel$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlinx/coroutines/flow/e<",
+        "Lcotlinx/coroutines/flow/e<",
         "Ljava/lang/Object;",
         ">;"
     }
@@ -29,7 +29,7 @@
     value = "SMAP\nCollect.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Collect.kt\nkotlinx/coroutines/flow/FlowKt__CollectKt$collect$3\n+ 2 Combine.kt\nkotlinx/coroutines/flow/internal/CombineKt$asChannel$1\n*L\n1#1,136:1\n139#2:137\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,11 +40,11 @@
     }
     d2 = {
         "kotlinx/coroutines/flow/internal/CombineKt$asChannel$1$a",
-        "Lkotlinx/coroutines/flow/e;",
+        "Lcotlinx/coroutines/flow/e;",
         "value",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "emit",
-        "(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "kotlinx-coroutines-core",
         "kotlinx/coroutines/flow/FlowKt__CollectKt$collect$3"
     }
@@ -58,14 +58,14 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlinx/coroutines/channels/w;
+.field final synthetic a:Lcotlinx/coroutines/channels/w;
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/channels/w;)V
+.method public constructor <init>(Lcotlinx/coroutines/channels/w;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$asChannel$1$a;->a:Lkotlinx/coroutines/channels/w;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$asChannel$1$a;->a:Lcotlinx/coroutines/channels/w;
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -75,9 +75,9 @@
 
 
 # virtual methods
-.method public emit(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 1
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -85,9 +85,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/flow/internal/CombineKt$asChannel$1$a;->a:Lkotlinx/coroutines/channels/w;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/internal/CombineKt$asChannel$1$a;->a:Lcotlinx/coroutines/channels/w;
 
-    invoke-interface {v0}, Lkotlinx/coroutines/channels/w;->b()Lkotlinx/coroutines/channels/c0;
+    invoke-interface {v0}, Lcotlinx/coroutines/channels/w;->b()Lcotlinx/coroutines/channels/c0;
 
     move-result-object v0
 
@@ -96,14 +96,14 @@
     goto :goto_0
 
     :cond_0
-    sget-object p1, Lkotlinx/coroutines/flow/internal/i;->a:Lkotlinx/coroutines/internal/c0;
+    sget-object p1, Lcotlinx/coroutines/flow/internal/i;->a:Lcotlinx/coroutines/internal/c0;
 
     :goto_0
-    invoke-interface {v0, p1, p2}, Lkotlinx/coroutines/channels/c0;->U(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Lcotlinx/coroutines/channels/c0;->U(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object p2
 
@@ -112,7 +112,7 @@
     return-object p1
 
     :cond_1
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method

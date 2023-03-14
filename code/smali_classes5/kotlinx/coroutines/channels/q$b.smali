@@ -1,11 +1,11 @@
-.class final Lkotlinx/coroutines/channels/q$b;
+.class final Lcotlinx/coroutines/channels/q$b;
 .super Ljava/lang/Object;
 .source "ConflatedBroadcastChannel.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/channels/q;
+    value = Lcotlinx/coroutines/channels/q;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "b"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,17 +25,17 @@
     d2 = {
         "kotlinx/coroutines/channels/q$b",
         "",
-        "Lkotlinx/coroutines/channels/q$a;",
+        "Lcotlinx/coroutines/channels/q$a;",
         "CLOSED",
-        "Lkotlinx/coroutines/channels/q$a;",
+        "Lcotlinx/coroutines/channels/q$a;",
         "CLOSED$annotations",
         "()V",
-        "Lkotlinx/coroutines/channels/q$c;",
+        "Lcotlinx/coroutines/channels/q$c;",
         "INITIAL_STATE",
-        "Lkotlinx/coroutines/channels/q$c;",
-        "Lkotlinx/coroutines/internal/c0;",
+        "Lcotlinx/coroutines/channels/q$c;",
+        "Lcotlinx/coroutines/internal/c0;",
         "UNDEFINED",
-        "Lkotlinx/coroutines/internal/c0;",
+        "Lcotlinx/coroutines/internal/c0;",
         "UNDEFINED$annotations",
         "<init>",
         "kotlinx-coroutines-core"
@@ -59,11 +59,11 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlinx/coroutines/channels/q$b;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/channels/q$b;-><init>()V
 
     return-void
 .end method

@@ -8,7 +8,7 @@
     value = "SMAP\nCleanOilProxy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CleanOilProxy.kt\ncom/commsource/studio/render/CleanOilProxy\n*L\n1#1,51:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "Lcom/commsource/studio/r0/x;",
         "Lcom/commsource/camera/d1/g/l;",
         "hairMaskData",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "J",
         "(Lcom/commsource/camera/d1/g/l;)V",
         "",
@@ -82,7 +82,7 @@
 
     const-string v0, "configPath"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/r0/x;-><init>(Ljava/lang/String;)V
@@ -110,7 +110,7 @@
 
     const-string v2, "rtEffectRender.rtEffectMaskTexture"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/l;->d()I

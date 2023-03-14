@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
     d2 = {
         "com/commsource/studio/doodle/ColorPickerLayer$ColorPickView$a",
         "Lcom/commsource/util/u2/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "app_googleplayRelease"
@@ -104,7 +104,7 @@
 
     const-string v3, "BitmapFactory.decodeReso\u2026t_color_picker_mask_icon)"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1, v2}, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->j(Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;Landroid/graphics/Bitmap;)V
 
@@ -125,7 +125,7 @@
 
     const-string v3, "BitmapFactory.decodeReso\u2026dit_color_picker_bg_icon)"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1, v2}, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->k(Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;Landroid/graphics/Bitmap;)V
 
@@ -146,7 +146,7 @@
 
     const-string v3, "BitmapFactory.decodeReso\u2026it_color_picker_aim_icon)"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1, v2}, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;->i(Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;Landroid/graphics/Bitmap;)V
 

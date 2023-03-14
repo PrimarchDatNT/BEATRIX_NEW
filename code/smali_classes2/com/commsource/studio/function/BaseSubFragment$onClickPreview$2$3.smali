@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
     d2 = {
         "Lcom/commsource/studio/effect/t;",
         "T",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "<anonymous>"
@@ -125,7 +125,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2$3$1;-><init>(Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2$3;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/editengine/f;->m(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/editengine/f;->m(Lcotlin/jvm/u/a;)V
 
     .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

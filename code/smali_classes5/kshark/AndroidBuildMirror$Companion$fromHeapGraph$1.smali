@@ -1,9 +1,9 @@
 .class final Lkshark/AndroidBuildMirror$Companion$fromHeapGraph$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "AndroidBuildMirror.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
@@ -18,8 +18,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
         "Lkshark/AndroidBuildMirror;",
         ">;"
     }
@@ -29,7 +29,7 @@
     value = "SMAP\nAndroidBuildMirror.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AndroidBuildMirror.kt\nkshark/AndroidBuildMirror$Companion$fromHeapGraph$1\n*L\n1#1,41:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -65,7 +65,7 @@
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -99,7 +99,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 3
     :cond_0
@@ -113,7 +113,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     const-string v2, "MANUFACTURER"
@@ -125,7 +125,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-virtual {v0}, Lkshark/h;->c()Lkshark/j;
@@ -179,7 +179,7 @@
 
     if-nez v1, :cond_6
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     invoke-virtual {v1}, Lkshark/h;->c()Lkshark/j;
@@ -192,7 +192,7 @@
 
     if-nez v1, :cond_7
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_7
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
@@ -208,7 +208,7 @@
 
     if-nez v0, :cond_8
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_8
     invoke-direct {v2, v0, v1}, Lkshark/AndroidBuildMirror;-><init>(Ljava/lang/String;I)V
@@ -224,7 +224,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v2, v1, v3, v0, v1}, Lkshark/AndroidBuildMirror;-><init>(Ljava/lang/String;IILkotlin/jvm/internal/u;)V
+    invoke-direct {v2, v1, v3, v0, v1}, Lkshark/AndroidBuildMirror;-><init>(Ljava/lang/String;IILcotlin/jvm/internal/u;)V
 
     :goto_3
     return-object v2

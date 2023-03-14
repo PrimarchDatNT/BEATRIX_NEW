@@ -13,7 +13,7 @@
     name = "DiskLruCacheListener"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "key",
         "",
         "content",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onGetComplete",
         "(Ljava/lang/String;[B)V",
         "",
@@ -57,11 +57,11 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method
 
 .method public abstract onPutComplete(Z)V
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method

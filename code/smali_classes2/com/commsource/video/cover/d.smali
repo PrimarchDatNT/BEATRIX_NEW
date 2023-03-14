@@ -16,7 +16,7 @@
     value = "SMAP\nVideoTitleCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VideoTitleCover.kt\ncom/commsource/video/cover/VideoTitleCover\n*L\n1#1,49:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Lcom/commsource/video/cover/d;",
         "Lcom/commsource/video/cover/a;",
         "Lcom/commsource/beautyplus/f0/wm;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "o",
         "()V",
         "",

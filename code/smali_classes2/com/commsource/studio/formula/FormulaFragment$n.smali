@@ -36,7 +36,7 @@
     value = "SMAP\nFormulaFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FormulaFragment.kt\ncom/commsource/studio/formula/FormulaFragment$visibleRecentCallback$1\n*L\n1#1,485:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -52,7 +52,7 @@
         "Lcom/commsource/widget/h1/f;",
         "",
         "viewHolder",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Integer;Lcom/commsource/widget/h1/f;)V"
     }
@@ -115,7 +115,7 @@
     const-string p1, "viewHolder"
 
     .line 2
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
 
@@ -219,7 +219,7 @@
 
     const-string p2, "SpmAnalytics.transFormulaCatId(categoryId)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p2, "tem_tag"
 
@@ -234,11 +234,11 @@
 
     .line 10
     :cond_4
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type com.commsource.studio.formula.JsFormula"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

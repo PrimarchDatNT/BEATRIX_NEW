@@ -17,7 +17,7 @@
     value = "SMAP\nBaseCameraNewActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BaseCameraNewActivity.kt\ncom/commsource/camera/xcamera/BaseCameraNewActivity$executeRequestPermission$1\n*L\n1#1,357:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "results",
         "",
         "isRequestResult",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "i",
         "(Ljava/util/List;Z)V",
         "app_googleplayRelease"
@@ -76,7 +76,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, p3, p1, p2, v0}, Lcom/commsource/util/q2/d;-><init>(Ljava/util/List;ZILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, p3, p1, p2, v0}, Lcom/commsource/util/q2/d;-><init>(Ljava/util/List;ZILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -133,7 +133,7 @@
 
     move-result-object v5
 
-    invoke-static {v5, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v5, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v5
 
@@ -173,7 +173,7 @@
 
     const-string v7, "android.permission.RECORD_AUDIO"
 
-    invoke-static {v6, v7}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v6, v7}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v6
 
@@ -214,7 +214,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, v6}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v7, v6}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v7
 

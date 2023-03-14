@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Lcom/commsource/util/delegate/process/PaidFilterProcess;",
         "",
         "isSubscribeSuccess",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "g",
         "(Z)V",
         "app_googleplayRelease"

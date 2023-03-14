@@ -10,7 +10,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -61,7 +61,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/mopub/mobileads/factories/MediaPlayerFactory$Companion;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcom/mopub/mobileads/factories/MediaPlayerFactory$Companion;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lcom/mopub/mobileads/factories/MediaPlayerFactory;->Companion:Lcom/mopub/mobileads/factories/MediaPlayerFactory$Companion;
 
@@ -115,7 +115,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Landroidx/media2/player/MediaPlayer;

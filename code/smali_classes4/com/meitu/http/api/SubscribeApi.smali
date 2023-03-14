@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -68,7 +68,7 @@
 
     const-string v2, "/v1/manual_unlock"
 
-    invoke-static {v2, v1}, Lf/k/k/u/b;->b(Ljava/lang/String;Lkotlin/jvm/u/l;)Lf/k/k/u/c;
+    invoke-static {v2, v1}, Lf/k/k/u/b;->b(Ljava/lang/String;Lcotlin/jvm/u/l;)Lf/k/k/u/c;
 
     move-result-object v1
 

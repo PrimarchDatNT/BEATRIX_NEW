@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -21,7 +21,7 @@
         "Lcom/commsource/video/cover/c;",
         "Lcom/commsource/video/view/XVideoUIGroup;",
         "uiGroup",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "h",
         "(Lcom/commsource/video/view/XVideoUIGroup;)V",
         "d",

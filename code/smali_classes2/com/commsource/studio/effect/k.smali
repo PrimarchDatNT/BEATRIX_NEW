@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -19,7 +19,7 @@
         "Landroid/graphics/Bitmap;",
         "j",
         "()Landroid/graphics/Bitmap;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "b",
         "()V",
         "",

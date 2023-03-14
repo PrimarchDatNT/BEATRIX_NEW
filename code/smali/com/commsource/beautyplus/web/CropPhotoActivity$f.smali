@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
     d2 = {
         "com/commsource/beautyplus/web/CropPhotoActivity$f",
         "Lcom/commsource/util/u2/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "app_googleplayRelease"
@@ -105,7 +105,7 @@
     if-lt v5, v6, :cond_1
 
     .line 2
-    invoke-static {v2, v6}, Lkotlin/g2/o;->n(II)I
+    invoke-static {v2, v6}, Lcotlin/g2/o;->n(II)I
 
     move-result v1
 
@@ -118,7 +118,7 @@
 
     if-nez v5, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v5}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->j()Ljava/lang/String;
@@ -174,7 +174,7 @@
     float-to-int v2, v5
 
     .line 5
-    invoke-static {v1, v2}, Lkotlin/g2/o;->n(II)I
+    invoke-static {v1, v2}, Lcotlin/g2/o;->n(II)I
 
     move-result v1
 
@@ -187,7 +187,7 @@
 
     if-nez v5, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-virtual {v5}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->j()Ljava/lang/String;
@@ -216,7 +216,7 @@
     float-to-int v1, v1
 
     .line 7
-    invoke-static {v7, v1}, Lkotlin/g2/o;->n(II)I
+    invoke-static {v7, v1}, Lcotlin/g2/o;->n(II)I
 
     move-result v1
 
@@ -229,7 +229,7 @@
 
     if-nez v5, :cond_4
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
     invoke-virtual {v5}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->j()Ljava/lang/String;

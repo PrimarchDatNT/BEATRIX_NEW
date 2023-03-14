@@ -15,7 +15,7 @@
     value = "SMAP\nCameraSwitchButton.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CameraSwitchButton.kt\ncom/commsource/camera/xcamera/widget/CameraSwitchButton\n*L\n1#1,155:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "",
         "isOpen",
         "withAnima",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "k",
         "(ZZ)V",
         "j",
@@ -67,7 +67,7 @@
         "mWidth",
         "Landroid/graphics/Paint;",
         "N",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "getBackgroundClosePaint",
         "()Landroid/graphics/Paint;",
         "backgroundClosePaint",
@@ -171,22 +171,22 @@
     .end annotation
 .end field
 
-.field private final L:Lkotlin/w;
+.field private final L:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final M:Lkotlin/w;
+.field private final M:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final N:Lkotlin/w;
+.field private final N:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final O:Lkotlin/w;
+.field private final O:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -241,7 +241,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$b;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$b;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->W:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$b;
 
@@ -283,7 +283,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const/4 v2, 0x0
@@ -298,7 +298,7 @@
 
     move-object v1, p1
 
-    invoke-direct/range {v0 .. v5}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v5}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -313,7 +313,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const/4 v3, 0x0
@@ -328,7 +328,7 @@
 
     move-object v2, p2
 
-    invoke-direct/range {v0 .. v5}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v5}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -343,12 +343,12 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -416,40 +416,40 @@
     .line 11
     sget-object p1, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$gradient$2;->INSTANCE:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$gradient$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->L:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->L:Lcotlin/w;
 
     .line 12
     new-instance p1, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$backgroundOpenPaint$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$backgroundOpenPaint$2;-><init>(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;)V
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->M:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->M:Lcotlin/w;
 
     .line 13
     sget-object p1, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$backgroundClosePaint$2;->INSTANCE:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$backgroundClosePaint$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->N:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->N:Lcotlin/w;
 
     .line 14
     sget-object p1, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$indicatorPaint$2;->INSTANCE:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$indicatorPaint$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->O:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->O:Lcotlin/w;
 
     const/4 p1, 0x2
 
@@ -507,7 +507,7 @@
     .end array-data
 .end method
 
-.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p5, p4, 0x2
@@ -731,9 +731,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->N:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->N:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -770,9 +770,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->M:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->M:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -841,9 +841,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->L:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->L:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -863,9 +863,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->O:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->O:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1123,7 +1123,7 @@
 
     const-string v1, "canvas"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
@@ -1283,7 +1283,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->J:Lcom/commsource/camera/f1/n;
@@ -1306,7 +1306,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->d:Landroid/graphics/RectF;
@@ -1329,7 +1329,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->p:Lcom/commsource/camera/f1/n;
@@ -1367,7 +1367,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->f:Landroid/graphics/RectF;
@@ -1390,7 +1390,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->g:Lcom/commsource/camera/f1/n;
@@ -1477,7 +1477,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->K:Lcom/commsource/camera/f1/n;

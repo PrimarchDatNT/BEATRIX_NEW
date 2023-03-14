@@ -1,11 +1,11 @@
-.class final Lkotlin/q1$a;
-.super Lkotlin/collections/n1;
+.class final Lcotlin/q1$a;
+.super Lcotlin/collections/n1;
 .source "UShortArray.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/q1;
+    value = Lcotlin/q1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,11 +24,11 @@
     }
     d2 = {
         "kotlin/q1$a",
-        "Lkotlin/collections/n1;",
+        "Lcotlin/collections/n1;",
         "",
         "hasNext",
         "()Z",
-        "Lkotlin/p1;",
+        "Lcotlin/p1;",
         "b",
         "()S",
         "",
@@ -67,12 +67,12 @@
 
     const-string v0, "array"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0}, Lkotlin/collections/n1;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/n1;-><init>()V
 
-    iput-object p1, p0, Lkotlin/q1$a;->b:[S
+    iput-object p1, p0, Lcotlin/q1$a;->b:[S
 
     return-void
 .end method
@@ -83,9 +83,9 @@
     .locals 3
 
     .line 1
-    iget v0, p0, Lkotlin/q1$a;->a:I
+    iget v0, p0, Lcotlin/q1$a;->a:I
 
-    iget-object v1, p0, Lkotlin/q1$a;->b:[S
+    iget-object v1, p0, Lcotlin/q1$a;->b:[S
 
     array-length v2, v1
 
@@ -93,11 +93,11 @@
 
     add-int/lit8 v2, v0, 0x1
 
-    iput v2, p0, Lkotlin/q1$a;->a:I
+    iput v2, p0, Lcotlin/q1$a;->a:I
 
     aget-short v0, v1, v0
 
-    invoke-static {v0}, Lkotlin/p1;->s(S)S
+    invoke-static {v0}, Lcotlin/p1;->s(S)S
 
     move-result v0
 
@@ -106,7 +106,7 @@
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
-    iget v1, p0, Lkotlin/q1$a;->a:I
+    iget v1, p0, Lcotlin/q1$a;->a:I
 
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -121,9 +121,9 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lkotlin/q1$a;->a:I
+    iget v0, p0, Lcotlin/q1$a;->a:I
 
-    iget-object v1, p0, Lkotlin/q1$a;->b:[S
+    iget-object v1, p0, Lcotlin/q1$a;->b:[S
 
     array-length v1, v1
 

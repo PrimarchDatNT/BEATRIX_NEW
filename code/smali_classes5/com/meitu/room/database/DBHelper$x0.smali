@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Landroidx/room/migration/Migration;",
         "Landroidx/sqlite/db/SupportSQLiteDatabase;",
         "database",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "migrate",
         "(Landroidx/sqlite/db/SupportSQLiteDatabase;)V",
         "app_googleplayRelease"
@@ -66,7 +66,7 @@
 
     const-string v1, "database"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `FORMULA_MATERIAL_DUFFLE` (`FormulaId` TEXT NOT NULL, `FormulaThumbnail` TEXT, `FormulaConfig` TEXT, `PaidState` INTEGER NOT NULL, `ProductsInfo` TEXT, `IconRatio` TEXT, `CreateTime` INTEGER NOT NULL, `HotState` INTEGER NOT NULL, `HotSort` INTEGER NOT NULL, `RecommendState` INTEGER NOT NULL, `RecommendSort` INTEGER NOT NULL, `NewState` INTEGER NOT NULL, `EndedAt` INTEGER NOT NULL, `Sort` TEXT, `RecentUseTime` INTEGER NOT NULL, `CategoryId` TEXT, `DownloadState` INTEGER NOT NULL, `InternalState` INTEGER NOT NULL, PRIMARY KEY(`FormulaId`))"
 

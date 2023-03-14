@@ -29,7 +29,7 @@
     value = "SMAP\nNewDoodleRepository.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewDoodleRepository.kt\ncom/commsource/studio/doodle/NewDoodleRepository$sortAllCategory$allCategoryDoodles$1$1\n*L\n1#1,700:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -42,7 +42,7 @@
         "com/commsource/studio/doodle/NewDoodleRepository$f",
         "Ljava/util/Comparator;",
         "Lcom/commsource/studio/doodle/DoodleMaterial;",
-        "Lkotlin/Comparator;",
+        "Lcotlin/Comparator;",
         "o1",
         "o2",
         "",
@@ -161,7 +161,7 @@
 
     move-result-object v5
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v4
 
@@ -232,7 +232,7 @@
 
     move-result p2
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->t(II)I
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result p1
 
@@ -306,7 +306,7 @@
 
     move-result p2
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->t(II)I
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result p1
 

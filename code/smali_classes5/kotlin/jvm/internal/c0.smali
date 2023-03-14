@@ -1,4 +1,4 @@
-.class public Lkotlin/jvm/internal/c0;
+.class public Lcotlin/jvm/internal/c0;
 .super Ljava/lang/Object;
 .source "InlineMarker.java"
 

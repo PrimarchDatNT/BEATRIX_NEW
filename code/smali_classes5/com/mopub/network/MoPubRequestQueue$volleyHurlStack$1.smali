@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -140,7 +140,7 @@
 
     const-string v1, "ResponseHeader.USER_AGENT.key"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/mopub/network/MoPubRequestQueue$volleyHurlStack$1;->$userAgent:Ljava/lang/String;
 
@@ -153,7 +153,7 @@
 
     const-string p2, "super.executeRequest(req\u2026st, newAdditionalHeaders)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method

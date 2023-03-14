@@ -1,10 +1,10 @@
-.class public final Lkotlin/l;
-.super Lkotlin/m;
+.class public final Lcotlin/l;
+.super Lcotlin/m;
 .source "Exceptions.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/m;-><init>()V
+    invoke-direct {p0}, Lcotlin/m;-><init>()V
 
     return-void
 .end method
@@ -42,14 +42,14 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/internal/e;
+    .annotation build Lcotlin/internal/e;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/m;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
+    invoke-static {p0, p1}, Lcotlin/m;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
     return-void
 .end method

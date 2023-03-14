@@ -21,7 +21,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -37,7 +37,7 @@
         "Lcom/google/gson/stream/JsonWriter;",
         "jsonWriter",
         "clazz",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "write",
         "(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Class;)V",
         "Lcom/google/gson/stream/JsonReader;",

@@ -1,4 +1,4 @@
-.class public abstract Lkotlin/random/e;
+.class public abstract Lcotlin/random/e;
 .super Ljava/lang/Object;
 .source "Random.kt"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkotlin/random/e$a;
+        Lcotlin/random/e$a;
     }
 .end annotation
 
@@ -14,7 +14,7 @@
     value = "SMAP\nRandom.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Random.kt\nkotlin/random/Random\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,377:1\n1#2:378\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,7 +24,7 @@
         "\u00008\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u0008\n\u0002\u0008\n\n\u0002\u0010\t\n\u0002\u0008\u0006\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0006\n\u0002\u0008\u0006\n\u0002\u0010\u0007\n\u0002\u0008\u0002\n\u0002\u0010\u0012\n\u0002\u0008\u000e\u0008\'\u0018\u0000 \u00042\u00020\u0001:\u0001.B\u0007\u00a2\u0006\u0004\u0008,\u0010-J\u0017\u0010\u0004\u001a\u00020\u00022\u0006\u0010\u0003\u001a\u00020\u0002H&\u00a2\u0006\u0004\u0008\u0004\u0010\u0005J\u000f\u0010\u0006\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u0017\u0010\t\u001a\u00020\u00022\u0006\u0010\u0008\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\t\u0010\u0005J\u001f\u0010\u000b\u001a\u00020\u00022\u0006\u0010\n\u001a\u00020\u00022\u0006\u0010\u0008\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u000f\u0010\u000e\u001a\u00020\rH\u0016\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ\u0017\u0010\u0010\u001a\u00020\r2\u0006\u0010\u0008\u001a\u00020\rH\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u0011J\u001f\u0010\u0012\u001a\u00020\r2\u0006\u0010\n\u001a\u00020\r2\u0006\u0010\u0008\u001a\u00020\rH\u0016\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u000f\u0010\u0015\u001a\u00020\u0014H\u0016\u00a2\u0006\u0004\u0008\u0015\u0010\u0016J\u000f\u0010\u0018\u001a\u00020\u0017H\u0016\u00a2\u0006\u0004\u0008\u0018\u0010\u0019J\u0017\u0010\u001a\u001a\u00020\u00172\u0006\u0010\u0008\u001a\u00020\u0017H\u0016\u00a2\u0006\u0004\u0008\u001a\u0010\u001bJ\u001f\u0010\u001c\u001a\u00020\u00172\u0006\u0010\n\u001a\u00020\u00172\u0006\u0010\u0008\u001a\u00020\u0017H\u0016\u00a2\u0006\u0004\u0008\u001c\u0010\u001dJ\u000f\u0010\u001f\u001a\u00020\u001eH\u0016\u00a2\u0006\u0004\u0008\u001f\u0010 J+\u0010%\u001a\u00020!2\u0006\u0010\"\u001a\u00020!2\u0008\u0008\u0002\u0010#\u001a\u00020\u00022\u0008\u0008\u0002\u0010$\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008%\u0010&J\u0017\u0010\'\u001a\u00020!2\u0006\u0010\"\u001a\u00020!H\u0016\u00a2\u0006\u0004\u0008\'\u0010(J\u0017\u0010*\u001a\u00020!2\u0006\u0010)\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008*\u0010+\u00a8\u0006/"
     }
     d2 = {
-        "Lkotlin/random/e;",
+        "Lcotlin/random/e;",
         "",
         "",
         "bitCount",
@@ -81,15 +81,15 @@
     }
 .end annotation
 
-.annotation build Lkotlin/s0;
+.annotation build Lcotlin/s0;
     version = "1.3"
 .end annotation
 
 
 # static fields
-.field private static final a:Lkotlin/random/e;
+.field private static final a:Lcotlin/random/e;
 
-.field public static final b:Lkotlin/random/e$a;
+.field public static final b:Lcotlin/random/e$a;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -99,22 +99,22 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    new-instance v0, Lkotlin/random/e$a;
+    new-instance v0, Lcotlin/random/e$a;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkotlin/random/e$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcotlin/random/e$a;-><init>(Lcotlin/jvm/internal/u;)V
 
-    sput-object v0, Lkotlin/random/e;->b:Lkotlin/random/e$a;
+    sput-object v0, Lcotlin/random/e;->b:Lcotlin/random/e$a;
 
     .line 1
-    sget-object v0, Lkotlin/internal/l;->a:Lkotlin/internal/k;
+    sget-object v0, Lcotlin/internal/l;->a:Lcotlin/internal/k;
 
-    invoke-virtual {v0}, Lkotlin/internal/k;->b()Lkotlin/random/e;
+    invoke-virtual {v0}, Lcotlin/internal/k;->b()Lcotlin/random/e;
 
     move-result-object v0
 
-    sput-object v0, Lkotlin/random/e;->a:Lkotlin/random/e;
+    sput-object v0, Lcotlin/random/e;->a:Lcotlin/random/e;
 
     return-void
 .end method
@@ -128,16 +128,16 @@
     return-void
 .end method
 
-.method public static final synthetic a()Lkotlin/random/e;
+.method public static final synthetic a()Lcotlin/random/e;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlin/random/e;->a:Lkotlin/random/e;
+    sget-object v0, Lcotlin/random/e;->a:Lcotlin/random/e;
 
     return-object v0
 .end method
 
-.method public static synthetic g(Lkotlin/random/e;[BIIILjava/lang/Object;)[B
+.method public static synthetic g(Lcotlin/random/e;[BIIILjava/lang/Object;)[B
     .locals 0
 
     if-nez p5, :cond_2
@@ -157,7 +157,7 @@
     array-length p3, p1
 
     :cond_1
-    invoke-virtual {p0, p1, p2, p3}, Lkotlin/random/e;->f([BII)[B
+    invoke-virtual {p0, p1, p2, p3}, Lcotlin/random/e;->f([BII)[B
 
     move-result-object p0
 
@@ -185,7 +185,7 @@
     const/4 v0, 0x1
 
     .line 1
-    invoke-virtual {p0, v0}, Lkotlin/random/e;->b(I)I
+    invoke-virtual {p0, v0}, Lcotlin/random/e;->b(I)I
 
     move-result v1
 
@@ -208,7 +208,7 @@
     .line 1
     new-array p1, p1, [B
 
-    invoke-virtual {p0, p1}, Lkotlin/random/e;->e([B)[B
+    invoke-virtual {p0, p1}, Lcotlin/random/e;->e([B)[B
 
     move-result-object p1
 
@@ -226,14 +226,14 @@
 
     const-string v0, "array"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
 
-    invoke-virtual {p0, p1, v1, v0}, Lkotlin/random/e;->f([BII)[B
+    invoke-virtual {p0, p1, v1, v0}, Lcotlin/random/e;->f([BII)[B
 
     move-result-object p1
 
@@ -251,7 +251,7 @@
 
     const-string v0, "array"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p1
@@ -310,7 +310,7 @@
     if-ge v2, v0, :cond_4
 
     .line 3
-    invoke-virtual {p0}, Lkotlin/random/e;->l()I
+    invoke-virtual {p0}, Lcotlin/random/e;->l()I
 
     move-result v3
 
@@ -358,7 +358,7 @@
     mul-int/lit8 v0, p3, 0x8
 
     .line 8
-    invoke-virtual {p0, v0}, Lkotlin/random/e;->b(I)I
+    invoke-virtual {p0, v0}, Lcotlin/random/e;->b(I)I
 
     move-result v0
 
@@ -466,17 +466,17 @@
     const/16 v0, 0x1a
 
     .line 1
-    invoke-virtual {p0, v0}, Lkotlin/random/e;->b(I)I
+    invoke-virtual {p0, v0}, Lcotlin/random/e;->b(I)I
 
     move-result v0
 
     const/16 v1, 0x1b
 
-    invoke-virtual {p0, v1}, Lkotlin/random/e;->b(I)I
+    invoke-virtual {p0, v1}, Lcotlin/random/e;->b(I)I
 
     move-result v1
 
-    invoke-static {v0, v1}, Lkotlin/random/d;->d(II)D
+    invoke-static {v0, v1}, Lcotlin/random/d;->d(II)D
 
     move-result-wide v0
 
@@ -489,7 +489,7 @@
     const-wide/16 v0, 0x0
 
     .line 1
-    invoke-virtual {p0, v0, v1, p1, p2}, Lkotlin/random/e;->j(DD)D
+    invoke-virtual {p0, v0, v1, p1, p2}, Lcotlin/random/e;->j(DD)D
 
     move-result-wide p1
 
@@ -500,7 +500,7 @@
     .locals 6
 
     .line 1
-    invoke-static {p1, p2, p3, p4}, Lkotlin/random/f;->d(DD)V
+    invoke-static {p1, p2, p3, p4}, Lcotlin/random/f;->d(DD)V
 
     sub-double v0, p3, p1
 
@@ -558,7 +558,7 @@
     if-eqz v3, :cond_2
 
     .line 3
-    invoke-virtual {p0}, Lkotlin/random/e;->h()D
+    invoke-virtual {p0}, Lcotlin/random/e;->h()D
 
     move-result-wide v0
 
@@ -582,7 +582,7 @@
 
     .line 4
     :cond_2
-    invoke-virtual {p0}, Lkotlin/random/e;->h()D
+    invoke-virtual {p0}, Lcotlin/random/e;->h()D
 
     move-result-wide v2
 
@@ -612,7 +612,7 @@
     const/16 v0, 0x18
 
     .line 1
-    invoke-virtual {p0, v0}, Lkotlin/random/e;->b(I)I
+    invoke-virtual {p0, v0}, Lcotlin/random/e;->b(I)I
 
     move-result v0
 
@@ -633,7 +633,7 @@
     const/16 v0, 0x20
 
     .line 1
-    invoke-virtual {p0, v0}, Lkotlin/random/e;->b(I)I
+    invoke-virtual {p0, v0}, Lcotlin/random/e;->b(I)I
 
     move-result v0
 
@@ -646,7 +646,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-virtual {p0, v0, p1}, Lkotlin/random/e;->n(II)I
+    invoke-virtual {p0, v0, p1}, Lcotlin/random/e;->n(II)I
 
     move-result p1
 
@@ -657,7 +657,7 @@
     .locals 3
 
     .line 1
-    invoke-static {p1, p2}, Lkotlin/random/f;->e(II)V
+    invoke-static {p1, p2}, Lcotlin/random/f;->e(II)V
 
     sub-int v0, p2, p1
 
@@ -672,7 +672,7 @@
     .line 2
     :cond_0
     :goto_0
-    invoke-virtual {p0}, Lkotlin/random/e;->l()I
+    invoke-virtual {p0}, Lcotlin/random/e;->l()I
 
     move-result v0
 
@@ -694,12 +694,12 @@
     if-ne p2, v0, :cond_3
 
     .line 3
-    invoke-static {v0}, Lkotlin/random/f;->g(I)I
+    invoke-static {v0}, Lcotlin/random/f;->g(I)I
 
     move-result p2
 
     .line 4
-    invoke-virtual {p0, p2}, Lkotlin/random/e;->b(I)I
+    invoke-virtual {p0, p2}, Lcotlin/random/e;->b(I)I
 
     move-result p2
 
@@ -707,7 +707,7 @@
 
     .line 5
     :cond_3
-    invoke-virtual {p0}, Lkotlin/random/e;->l()I
+    invoke-virtual {p0}, Lcotlin/random/e;->l()I
 
     move-result p2
 
@@ -736,7 +736,7 @@
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/random/e;->l()I
+    invoke-virtual {p0}, Lcotlin/random/e;->l()I
 
     move-result v0
 
@@ -746,7 +746,7 @@
 
     shl-long/2addr v0, v2
 
-    invoke-virtual {p0}, Lkotlin/random/e;->l()I
+    invoke-virtual {p0}, Lcotlin/random/e;->l()I
 
     move-result v2
 
@@ -763,7 +763,7 @@
     const-wide/16 v0, 0x0
 
     .line 1
-    invoke-virtual {p0, v0, v1, p1, p2}, Lkotlin/random/e;->q(JJ)J
+    invoke-virtual {p0, v0, v1, p1, p2}, Lcotlin/random/e;->q(JJ)J
 
     move-result-wide p1
 
@@ -774,7 +774,7 @@
     .locals 9
 
     .line 1
-    invoke-static {p1, p2, p3, p4}, Lkotlin/random/f;->f(JJ)V
+    invoke-static {p1, p2, p3, p4}, Lcotlin/random/f;->f(JJ)V
 
     sub-long v0, p3, p1
 
@@ -807,12 +807,12 @@
     if-eqz p3, :cond_0
 
     .line 2
-    invoke-static {p3}, Lkotlin/random/f;->g(I)I
+    invoke-static {p3}, Lcotlin/random/f;->g(I)I
 
     move-result p3
 
     .line 3
-    invoke-virtual {p0, p3}, Lkotlin/random/e;->b(I)I
+    invoke-virtual {p0, p3}, Lcotlin/random/e;->b(I)I
 
     move-result p3
 
@@ -827,7 +827,7 @@
     if-ne v1, v4, :cond_1
 
     .line 4
-    invoke-virtual {p0}, Lkotlin/random/e;->l()I
+    invoke-virtual {p0}, Lcotlin/random/e;->l()I
 
     move-result p3
 
@@ -835,12 +835,12 @@
 
     .line 5
     :cond_1
-    invoke-static {v1}, Lkotlin/random/f;->g(I)I
+    invoke-static {v1}, Lcotlin/random/f;->g(I)I
 
     move-result p3
 
     .line 6
-    invoke-virtual {p0, p3}, Lkotlin/random/e;->b(I)I
+    invoke-virtual {p0, p3}, Lcotlin/random/e;->b(I)I
 
     move-result p3
 
@@ -848,7 +848,7 @@
 
     shl-long p3, v0, p4
 
-    invoke-virtual {p0}, Lkotlin/random/e;->l()I
+    invoke-virtual {p0}, Lcotlin/random/e;->l()I
 
     move-result v0
 
@@ -860,7 +860,7 @@
 
     .line 7
     :cond_2
-    invoke-virtual {p0}, Lkotlin/random/e;->o()J
+    invoke-virtual {p0}, Lcotlin/random/e;->o()J
 
     move-result-wide p3
 
@@ -891,7 +891,7 @@
     .line 9
     :cond_3
     :goto_2
-    invoke-virtual {p0}, Lkotlin/random/e;->o()J
+    invoke-virtual {p0}, Lcotlin/random/e;->o()J
 
     move-result-wide v0
 

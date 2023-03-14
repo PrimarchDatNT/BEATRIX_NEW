@@ -23,7 +23,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
         "Ljava/util/HashMap;",
         "",
         "",
-        "Lkotlin/collections/HashMap;",
+        "Lcotlin/collections/HashMap;",
         "app_googleplayRelease"
     }
     k = 0x1

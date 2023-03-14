@@ -8,7 +8,7 @@
     value = "SMAP\nBackgroundFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BackgroundFragment.kt\ncom/commsource/studio/function/background/BackgroundFragment\n*L\n1#1,207:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "Lcom/commsource/studio/sub/BaseSubTabFragment;",
         "",
         "isStartDrag",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "f0",
         "(Z)V",
         "e0",
@@ -44,7 +44,7 @@
         "G",
         "Lcom/commsource/studio/doodle/ColorPickerLayer;",
         "O",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "b0",
         "()Lcom/commsource/studio/doodle/ColorPickerLayer;",
         "colorPickerLayer",
@@ -81,11 +81,11 @@
 # instance fields
 .field private L:I
 
-.field private final M:Lkotlin/w;
+.field private final M:Lcotlin/w;
 
-.field private final N:Lkotlin/w;
+.field private final N:Lcotlin/w;
 
-.field private final O:Lkotlin/w;
+.field private final O:Lcotlin/w;
 
 .field private P:Ljava/util/HashMap;
 
@@ -119,33 +119,33 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/background/BackgroundFragment$mViewBinding$2;-><init>(Lcom/commsource/studio/function/background/BackgroundFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundFragment;->M:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundFragment;->M:Lcotlin/w;
 
     .line 4
     new-instance v0, Lcom/commsource/studio/function/background/BackgroundFragment$backgroundViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/background/BackgroundFragment$backgroundViewModel$2;-><init>(Lcom/commsource/studio/function/background/BackgroundFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundFragment;->N:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundFragment;->N:Lcotlin/w;
 
     .line 5
     new-instance v0, Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2;-><init>(Lcom/commsource/studio/function/background/BackgroundFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundFragment;->O:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundFragment;->O:Lcotlin/w;
 
     return-void
 .end method
@@ -268,9 +268,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment;->N:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment;->N:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -288,9 +288,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment;->O:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment;->O:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -308,9 +308,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment;->M:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment;->M:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -504,7 +504,7 @@
 
     const-string p3, "inflater"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->d0()Lcom/commsource/beautyplus/f0/gb;
@@ -541,11 +541,11 @@
 
     .line 4
     :cond_0
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p3, "null cannot be cast to non-null type com.commsource.beautyplus.BaseActivity"
 
-    invoke-direct {p1, p3}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p3}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -585,7 +585,7 @@
 
     const-string v1, "view"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
@@ -691,7 +691,7 @@
     aput-object v5, v3, v4
 
     .line 13
-    invoke-static {v3}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v3}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v3
 
@@ -752,7 +752,7 @@
 
     const-string v1, "mViewBinding.vp"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1, p2}, Landroidx/viewpager2/widget/ViewPager2;->setUserInputEnabled(Z)V
 
@@ -763,7 +763,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/gb;->d:Landroidx/viewpager2/widget/ViewPager2;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance p2, Lcom/commsource/studio/function/background/BackgroundFragment$b;
 

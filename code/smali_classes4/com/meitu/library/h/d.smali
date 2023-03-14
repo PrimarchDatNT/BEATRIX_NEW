@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -197,7 +197,7 @@
 
     const-string v1, "context"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/meitu/library/g/e;
@@ -338,7 +338,7 @@
 
     const-string v8, "vivo Y17T"
 
-    invoke-static {v8, v2, v7}, Lkotlin/text/m;->I1(Ljava/lang/String;Ljava/lang/String;Z)Z
+    invoke-static {v8, v2, v7}, Lcotlin/text/m;->I1(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     move-result v2
 

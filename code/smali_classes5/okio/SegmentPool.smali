@@ -8,7 +8,7 @@
     value = "SMAP\nSegmentPool.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SegmentPool.kt\nokio/SegmentPool\n*L\n1#1,63:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,7 +24,7 @@
         "take",
         "()Lokio/Segment;",
         "segment",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "recycle",
         "(Lokio/Segment;)V",
         "",
@@ -52,12 +52,12 @@
 .field public static final MAX_SIZE:J = 0x10000L
 
 .field public static byteCount:J
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 .end field
 
 .field public static next:Lokio/Segment;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -94,12 +94,12 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     const-string v0, "segment"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lokio/Segment;->next:Lokio/Segment;
@@ -179,7 +179,7 @@
     sput-object p0, Lokio/SegmentPool;->next:Lokio/Segment;
 
     .line 10
-    sget-object p0, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -212,7 +212,7 @@
 
 .method public static final take()Lokio/Segment;
     .locals 6
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;

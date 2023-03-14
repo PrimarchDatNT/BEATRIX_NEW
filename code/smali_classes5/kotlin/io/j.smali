@@ -1,9 +1,9 @@
-.class public final Lkotlin/io/j;
-.super Lkotlin/io/FilesKt__UtilsKt;
+.class public final Lcotlin/io/j;
+.super Lcotlin/io/FilesKt__UtilsKt;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/io/FilesKt__UtilsKt;-><init>()V
+    invoke-direct {p0}, Lcotlin/io/FilesKt__UtilsKt;-><init>()V
 
     return-void
 .end method

@@ -1,11 +1,11 @@
-.class public final Lkotlin/text/k$b;
+.class public final Lcotlin/text/k$b;
 .super Ljava/lang/Object;
 .source "MatchResult.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/text/k;
+    value = Lcotlin/text/k;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "b"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,13 +40,13 @@
         "",
         "l",
         "()Ljava/util/List;",
-        "Lkotlin/text/k;",
-        "Lkotlin/text/k;",
+        "Lcotlin/text/k;",
+        "Lcotlin/text/k;",
         "k",
-        "()Lkotlin/text/k;",
+        "()Lcotlin/text/k;",
         "match",
         "<init>",
-        "(Lkotlin/text/k;)V",
+        "(Lcotlin/text/k;)V",
         "kotlin-stdlib"
     }
     k = 0x1
@@ -59,43 +59,43 @@
 
 
 # instance fields
-.field private final a:Lkotlin/text/k;
+.field private final a:Lcotlin/text/k;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/text/k;)V
+.method public constructor <init>(Lcotlin/text/k;)V
     .locals 1
-    .param p1    # Lkotlin/text/k;
+    .param p1    # Lcotlin/text/k;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
 
     const-string v0, "match"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkotlin/text/k$b;->a:Lkotlin/text/k;
+    iput-object p1, p0, Lcotlin/text/k$b;->a:Lcotlin/text/k;
 
     return-void
 .end method
 
 .method private final a()Ljava/lang/String;
     .locals 2
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/text/k$b;->k()Lkotlin/text/k;
+    invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/text/k;->b()Ljava/util/List;
+    invoke-interface {v0}, Lcotlin/text/k;->b()Ljava/util/List;
 
     move-result-object v0
 
@@ -112,15 +112,15 @@
 
 .method private final b()Ljava/lang/String;
     .locals 2
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/text/k$b;->k()Lkotlin/text/k;
+    invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/text/k;->b()Ljava/util/List;
+    invoke-interface {v0}, Lcotlin/text/k;->b()Ljava/util/List;
 
     move-result-object v0
 
@@ -137,15 +137,15 @@
 
 .method private final c()Ljava/lang/String;
     .locals 2
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/text/k$b;->k()Lkotlin/text/k;
+    invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/text/k;->b()Ljava/util/List;
+    invoke-interface {v0}, Lcotlin/text/k;->b()Ljava/util/List;
 
     move-result-object v0
 
@@ -162,15 +162,15 @@
 
 .method private final d()Ljava/lang/String;
     .locals 2
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/text/k$b;->k()Lkotlin/text/k;
+    invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/text/k;->b()Ljava/util/List;
+    invoke-interface {v0}, Lcotlin/text/k;->b()Ljava/util/List;
 
     move-result-object v0
 
@@ -187,15 +187,15 @@
 
 .method private final e()Ljava/lang/String;
     .locals 2
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/text/k$b;->k()Lkotlin/text/k;
+    invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/text/k;->b()Ljava/util/List;
+    invoke-interface {v0}, Lcotlin/text/k;->b()Ljava/util/List;
 
     move-result-object v0
 
@@ -212,15 +212,15 @@
 
 .method private final f()Ljava/lang/String;
     .locals 2
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/text/k$b;->k()Lkotlin/text/k;
+    invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/text/k;->b()Ljava/util/List;
+    invoke-interface {v0}, Lcotlin/text/k;->b()Ljava/util/List;
 
     move-result-object v0
 
@@ -237,15 +237,15 @@
 
 .method private final g()Ljava/lang/String;
     .locals 2
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/text/k$b;->k()Lkotlin/text/k;
+    invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/text/k;->b()Ljava/util/List;
+    invoke-interface {v0}, Lcotlin/text/k;->b()Ljava/util/List;
 
     move-result-object v0
 
@@ -262,15 +262,15 @@
 
 .method private final h()Ljava/lang/String;
     .locals 2
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/text/k$b;->k()Lkotlin/text/k;
+    invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/text/k;->b()Ljava/util/List;
+    invoke-interface {v0}, Lcotlin/text/k;->b()Ljava/util/List;
 
     move-result-object v0
 
@@ -287,15 +287,15 @@
 
 .method private final i()Ljava/lang/String;
     .locals 2
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/text/k$b;->k()Lkotlin/text/k;
+    invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/text/k;->b()Ljava/util/List;
+    invoke-interface {v0}, Lcotlin/text/k;->b()Ljava/util/List;
 
     move-result-object v0
 
@@ -312,15 +312,15 @@
 
 .method private final j()Ljava/lang/String;
     .locals 2
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/text/k$b;->k()Lkotlin/text/k;
+    invoke-virtual {p0}, Lcotlin/text/k$b;->k()Lcotlin/text/k;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/text/k;->b()Ljava/util/List;
+    invoke-interface {v0}, Lcotlin/text/k;->b()Ljava/util/List;
 
     move-result-object v0
 
@@ -337,13 +337,13 @@
 
 
 # virtual methods
-.method public final k()Lkotlin/text/k;
+.method public final k()Lcotlin/text/k;
     .locals 1
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/k$b;->a:Lkotlin/text/k;
+    iget-object v0, p0, Lcotlin/text/k$b;->a:Lcotlin/text/k;
 
     return-object v0
 .end method
@@ -363,15 +363,15 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/k$b;->a:Lkotlin/text/k;
+    iget-object v0, p0, Lcotlin/text/k$b;->a:Lcotlin/text/k;
 
-    invoke-interface {v0}, Lkotlin/text/k;->b()Ljava/util/List;
+    invoke-interface {v0}, Lcotlin/text/k;->b()Ljava/util/List;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkotlin/text/k$b;->a:Lkotlin/text/k;
+    iget-object v1, p0, Lcotlin/text/k$b;->a:Lcotlin/text/k;
 
-    invoke-interface {v1}, Lkotlin/text/k;->b()Ljava/util/List;
+    invoke-interface {v1}, Lcotlin/text/k;->b()Ljava/util/List;
 
     move-result-object v1
 

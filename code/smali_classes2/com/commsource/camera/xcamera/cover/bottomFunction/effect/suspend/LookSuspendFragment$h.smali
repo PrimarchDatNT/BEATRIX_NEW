@@ -32,7 +32,7 @@
     value = "SMAP\nLookSuspendFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LookSuspendFragment.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/LookSuspendFragment$onViewCreated$2\n*L\n1#1,407:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "Lcom/meitu/template/bean/LookMaterial;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/meitu/template/bean/LookMaterial;)V"
     }

@@ -1,5 +1,5 @@
-.class Lkotlin/io/FilesKt__UtilsKt;
-.super Lkotlin/io/l;
+.class Lcotlin/io/FilesKt__UtilsKt;
+.super Lcotlin/io/l;
 .source "Utils.kt"
 
 
@@ -8,7 +8,7 @@
     value = "SMAP\nUtils.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Utils.kt\nkotlin/io/FilesKt__UtilsKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 _Sequences.kt\nkotlin/sequences/SequencesKt___SequencesKt\n*L\n1#1,473:1\n1#2:474\n1227#3,3:475\n*E\n*S KotlinDebug\n*F\n+ 1 Utils.kt\nkotlin/io/FilesKt__UtilsKt\n*L\n347#1,3:475\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,12 +41,12 @@
         "bufferSize",
         "P",
         "(Ljava/io/File;Ljava/io/File;ZI)Ljava/io/File;",
-        "Lkotlin/Function2;",
+        "Lcotlin/Function2;",
         "Ljava/io/IOException;",
-        "Lkotlin/io/OnErrorAction;",
+        "Lcotlin/io/OnErrorAction;",
         "onError",
         "N",
-        "(Ljava/io/File;Ljava/io/File;ZLkotlin/jvm/u/p;)Z",
+        "(Ljava/io/File;Ljava/io/File;ZLcotlin/jvm/u/p;)Z",
         "V",
         "(Ljava/io/File;)Z",
         "other",
@@ -58,9 +58,9 @@
         "X",
         "b0",
         "(Ljava/io/File;)Ljava/io/File;",
-        "Lkotlin/io/g;",
+        "Lcotlin/io/g;",
         "d0",
-        "(Lkotlin/io/g;)Lkotlin/io/g;",
+        "(Lcotlin/io/g;)Lcotlin/io/g;",
         "",
         "c0",
         "(Ljava/util/List;)Ljava/util/List;",
@@ -93,12 +93,12 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/io/l;-><init>()V
+    invoke-direct {p0}, Lcotlin/io/l;-><init>()V
 
     return-void
 .end method
 
-.method public static final N(Ljava/io/File;Ljava/io/File;ZLkotlin/jvm/u/p;)Z
+.method public static final N(Ljava/io/File;Ljava/io/File;ZLcotlin/jvm/u/p;)Z
     .locals 11
     .param p0    # Ljava/io/File;
         .annotation build Ln/e/a/d;
@@ -108,7 +108,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/jvm/u/p;
+    .param p3    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -118,28 +118,28 @@
             "Ljava/io/File;",
             "Ljava/io/File;",
             "Z",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Ljava/io/File;",
             "-",
             "Ljava/io/IOException;",
             "+",
-            "Lkotlin/io/OnErrorAction;",
+            "Lcotlin/io/OnErrorAction;",
             ">;)Z"
         }
     .end annotation
 
     const-string v0, "$this$copyRecursively"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "target"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "onError"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
@@ -153,7 +153,7 @@
     if-nez v0, :cond_1
 
     .line 2
-    new-instance p1, Lkotlin/io/NoSuchFileException;
+    new-instance p1, Lcotlin/io/NoSuchFileException;
 
     const/4 v5, 0x0
 
@@ -167,15 +167,15 @@
 
     move-object v4, p0
 
-    invoke-direct/range {v3 .. v8}, Lkotlin/io/NoSuchFileException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v3 .. v8}, Lcotlin/io/NoSuchFileException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
-    invoke-interface {p3, p0, p1}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p0, p1}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
-    check-cast p0, Lkotlin/io/OnErrorAction;
+    check-cast p0, Lcotlin/io/OnErrorAction;
 
-    sget-object p1, Lkotlin/io/OnErrorAction;->TERMINATE:Lkotlin/io/OnErrorAction;
+    sget-object p1, Lcotlin/io/OnErrorAction;->TERMINATE:Lcotlin/io/OnErrorAction;
 
     if-eq p0, p1, :cond_0
 
@@ -190,19 +190,19 @@
     .line 3
     :cond_1
     :try_start_0
-    invoke-static {p0}, Lkotlin/io/l;->M(Ljava/io/File;)Lkotlin/io/h;
+    invoke-static {p0}, Lcotlin/io/l;->M(Ljava/io/File;)Lcotlin/io/h;
 
     move-result-object v0
 
-    new-instance v3, Lkotlin/io/FilesKt__UtilsKt$copyRecursively$2;
+    new-instance v3, Lcotlin/io/FilesKt__UtilsKt$copyRecursively$2;
 
-    invoke-direct {v3, p3}, Lkotlin/io/FilesKt__UtilsKt$copyRecursively$2;-><init>(Lkotlin/jvm/u/p;)V
+    invoke-direct {v3, p3}, Lcotlin/io/FilesKt__UtilsKt$copyRecursively$2;-><init>(Lcotlin/jvm/u/p;)V
 
-    invoke-virtual {v0, v3}, Lkotlin/io/h;->k(Lkotlin/jvm/u/p;)Lkotlin/io/h;
+    invoke-virtual {v0, v3}, Lcotlin/io/h;->k(Lcotlin/jvm/u/p;)Lcotlin/io/h;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkotlin/io/h;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Lcotlin/io/h;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -228,7 +228,7 @@
     if-nez v4, :cond_3
 
     .line 5
-    new-instance v10, Lkotlin/io/NoSuchFileException;
+    new-instance v10, Lcotlin/io/NoSuchFileException;
 
     const/4 v6, 0x0
 
@@ -242,15 +242,15 @@
 
     move-object v5, v3
 
-    invoke-direct/range {v4 .. v9}, Lkotlin/io/NoSuchFileException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v4 .. v9}, Lcotlin/io/NoSuchFileException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
-    invoke-interface {p3, v3, v10}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v3, v10}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
-    check-cast v3, Lkotlin/io/OnErrorAction;
+    check-cast v3, Lcotlin/io/OnErrorAction;
 
-    sget-object v4, Lkotlin/io/OnErrorAction;->TERMINATE:Lkotlin/io/OnErrorAction;
+    sget-object v4, Lcotlin/io/OnErrorAction;->TERMINATE:Lcotlin/io/OnErrorAction;
 
     if-ne v3, v4, :cond_2
 
@@ -258,7 +258,7 @@
 
     .line 6
     :cond_3
-    invoke-static {v3, p0}, Lkotlin/io/FilesKt__UtilsKt;->n0(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
+    invoke-static {v3, p0}, Lcotlin/io/FilesKt__UtilsKt;->n0(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -303,7 +303,7 @@
     if-eqz v4, :cond_6
 
     .line 10
-    invoke-static {v5}, Lkotlin/io/FilesKt__UtilsKt;->V(Ljava/io/File;)Z
+    invoke-static {v5}, Lcotlin/io/FilesKt__UtilsKt;->V(Ljava/io/File;)Z
 
     move-result v4
 
@@ -328,19 +328,19 @@
     if-eqz v4, :cond_8
 
     .line 12
-    new-instance v4, Lkotlin/io/FileAlreadyExistsException;
+    new-instance v4, Lcotlin/io/FileAlreadyExistsException;
 
     const-string v6, "The destination file already exists."
 
-    invoke-direct {v4, v3, v5, v6}, Lkotlin/io/FileAlreadyExistsException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
+    invoke-direct {v4, v3, v5, v6}, Lcotlin/io/FileAlreadyExistsException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
 
-    invoke-interface {p3, v5, v4}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v5, v4}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
-    check-cast v3, Lkotlin/io/OnErrorAction;
+    check-cast v3, Lcotlin/io/OnErrorAction;
 
-    sget-object v4, Lkotlin/io/OnErrorAction;->TERMINATE:Lkotlin/io/OnErrorAction;
+    sget-object v4, Lcotlin/io/OnErrorAction;->TERMINATE:Lcotlin/io/OnErrorAction;
 
     if-ne v3, v4, :cond_2
 
@@ -371,7 +371,7 @@
     move v6, p2
 
     .line 15
-    invoke-static/range {v4 .. v9}, Lkotlin/io/FilesKt__UtilsKt;->Q(Ljava/io/File;Ljava/io/File;ZIILjava/lang/Object;)Ljava/io/File;
+    invoke-static/range {v4 .. v9}, Lcotlin/io/FilesKt__UtilsKt;->Q(Ljava/io/File;Ljava/io/File;ZIILjava/lang/Object;)Ljava/io/File;
 
     move-result-object v4
 
@@ -394,15 +394,15 @@
 
     invoke-direct {v4, v5}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
-    invoke-interface {p3, v3, v4}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v3, v4}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
-    check-cast v3, Lkotlin/io/OnErrorAction;
+    check-cast v3, Lcotlin/io/OnErrorAction;
 
-    sget-object v4, Lkotlin/io/OnErrorAction;->TERMINATE:Lkotlin/io/OnErrorAction;
+    sget-object v4, Lcotlin/io/OnErrorAction;->TERMINATE:Lcotlin/io/OnErrorAction;
     :try_end_0
-    .catch Lkotlin/io/TerminateException; {:try_start_0 .. :try_end_0} :catch_0
+    .catch Lcotlin/io/TerminateException; {:try_start_0 .. :try_end_0} :catch_0
 
     if-ne v3, v4, :cond_2
 
@@ -415,7 +415,7 @@
     return v2
 .end method
 
-.method public static synthetic O(Ljava/io/File;Ljava/io/File;ZLkotlin/jvm/u/p;ILjava/lang/Object;)Z
+.method public static synthetic O(Ljava/io/File;Ljava/io/File;ZLcotlin/jvm/u/p;ILjava/lang/Object;)Z
     .locals 0
 
     and-int/lit8 p5, p4, 0x2
@@ -430,10 +430,10 @@
     if-eqz p4, :cond_1
 
     .line 1
-    sget-object p3, Lkotlin/io/FilesKt__UtilsKt$copyRecursively$1;->INSTANCE:Lkotlin/io/FilesKt__UtilsKt$copyRecursively$1;
+    sget-object p3, Lcotlin/io/FilesKt__UtilsKt$copyRecursively$1;->INSTANCE:Lcotlin/io/FilesKt__UtilsKt$copyRecursively$1;
 
     :cond_1
-    invoke-static {p0, p1, p2, p3}, Lkotlin/io/FilesKt__UtilsKt;->N(Ljava/io/File;Ljava/io/File;ZLkotlin/jvm/u/p;)Z
+    invoke-static {p0, p1, p2, p3}, Lcotlin/io/FilesKt__UtilsKt;->N(Ljava/io/File;Ljava/io/File;ZLcotlin/jvm/u/p;)Z
 
     move-result p0
 
@@ -455,11 +455,11 @@
 
     const-string v0, "$this$copyTo"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "target"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
@@ -488,21 +488,21 @@
 
     .line 4
     :cond_0
-    new-instance p2, Lkotlin/io/FileAlreadyExistsException;
+    new-instance p2, Lcotlin/io/FileAlreadyExistsException;
 
     const-string p3, "Tried to overwrite the destination, but failed to delete it."
 
-    invoke-direct {p2, p0, p1, p3}, Lkotlin/io/FileAlreadyExistsException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
+    invoke-direct {p2, p0, p1, p3}, Lcotlin/io/FileAlreadyExistsException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
 
     throw p2
 
     .line 5
     :cond_1
-    new-instance p2, Lkotlin/io/FileAlreadyExistsException;
+    new-instance p2, Lcotlin/io/FileAlreadyExistsException;
 
     const-string p3, "The destination file already exists."
 
-    invoke-direct {p2, p0, p1, p3}, Lkotlin/io/FileAlreadyExistsException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
+    invoke-direct {p2, p0, p1, p3}, Lcotlin/io/FileAlreadyExistsException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
 
     throw p2
 
@@ -526,11 +526,11 @@
 
     .line 8
     :cond_3
-    new-instance p2, Lkotlin/io/FileSystemException;
+    new-instance p2, Lcotlin/io/FileSystemException;
 
     const-string p3, "Failed to create target directory."
 
-    invoke-direct {p2, p0, p1, p3}, Lkotlin/io/FileSystemException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
+    invoke-direct {p2, p0, p1, p3}, Lcotlin/io/FileSystemException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
 
     throw p2
 
@@ -560,7 +560,7 @@
 
     .line 12
     :try_start_1
-    invoke-static {p2, p0, p3}, Lkotlin/io/a;->k(Ljava/io/InputStream;Ljava/io/OutputStream;I)J
+    invoke-static {p2, p0, p3}, Lcotlin/io/a;->k(Ljava/io/InputStream;Ljava/io/OutputStream;I)J
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -568,12 +568,12 @@
 
     .line 13
     :try_start_2
-    invoke-static {p0, p3}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p0, p3}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
 
     .line 14
-    invoke-static {p2, p3}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p2, p3}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     :goto_1
     return-object p1
@@ -591,7 +591,7 @@
     move-exception p3
 
     :try_start_4
-    invoke-static {p0, p1}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p0, p1}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     throw p3
     :try_end_4
@@ -609,13 +609,13 @@
     :catchall_3
     move-exception p1
 
-    invoke-static {p2, p0}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p2, p0}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     throw p1
 
     .line 17
     :cond_6
-    new-instance p1, Lkotlin/io/NoSuchFileException;
+    new-instance p1, Lcotlin/io/NoSuchFileException;
 
     const/4 v2, 0x0
 
@@ -629,7 +629,7 @@
 
     move-object v1, p0
 
-    invoke-direct/range {v0 .. v5}, Lkotlin/io/NoSuchFileException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v5}, Lcotlin/io/NoSuchFileException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     throw p1
 .end method
@@ -652,7 +652,7 @@
 
     .line 1
     :cond_1
-    invoke-static {p0, p1, p2, p3}, Lkotlin/io/FilesKt__UtilsKt;->P(Ljava/io/File;Ljava/io/File;ZI)Ljava/io/File;
+    invoke-static {p0, p1, p2, p3}, Lcotlin/io/FilesKt__UtilsKt;->P(Ljava/io/File;Ljava/io/File;ZI)Ljava/io/File;
 
     move-result-object p0
 
@@ -673,7 +673,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
+    .annotation runtime Lcotlin/i;
         message = "Avoid creating temporary directories in the default temp location with this function due to too wide permissions on the newly created directory. Use kotlin.io.path.createTempDirectory instead."
     .end annotation
 
@@ -682,7 +682,7 @@
 
     const-string v0, "prefix"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0, p1, p2}, Ljava/io/File;->createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
@@ -702,7 +702,7 @@
     const-string p1, "dir"
 
     .line 4
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 
@@ -760,7 +760,7 @@
 
     .line 1
     :cond_2
-    invoke-static {p0, p1, p2}, Lkotlin/io/FilesKt__UtilsKt;->R(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
+    invoke-static {p0, p1, p2}, Lcotlin/io/FilesKt__UtilsKt;->R(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
 
     move-result-object p0
 
@@ -781,7 +781,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
+    .annotation runtime Lcotlin/i;
         message = "Avoid creating temporary files in the default temp location with this function due to too wide permissions on the newly created file. Use kotlin.io.path.createTempFile instead or resort to java.io.File.createTempFile."
     .end annotation
 
@@ -790,7 +790,7 @@
 
     const-string v0, "prefix"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0, p1, p2}, Ljava/io/File;->createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
@@ -799,7 +799,7 @@
 
     const-string p1, "File.createTempFile(prefix, suffix, directory)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
@@ -831,7 +831,7 @@
 
     .line 1
     :cond_2
-    invoke-static {p0, p1, p2}, Lkotlin/io/FilesKt__UtilsKt;->T(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
+    invoke-static {p0, p1, p2}, Lcotlin/io/FilesKt__UtilsKt;->T(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
 
     move-result-object p0
 
@@ -847,15 +847,15 @@
 
     const-string v0, "$this$deleteRecursively"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0}, Lkotlin/io/l;->L(Ljava/io/File;)Lkotlin/io/h;
+    invoke-static {p0}, Lcotlin/io/l;->L(Ljava/io/File;)Lcotlin/io/h;
 
     move-result-object p0
 
     .line 2
-    invoke-interface {p0}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
@@ -917,31 +917,31 @@
 
     const-string v0, "$this$endsWith"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0}, Lkotlin/io/k;->f(Ljava/io/File;)Lkotlin/io/g;
+    invoke-static {p0}, Lcotlin/io/k;->f(Ljava/io/File;)Lcotlin/io/g;
 
     move-result-object v0
 
     .line 2
-    invoke-static {p1}, Lkotlin/io/k;->f(Ljava/io/File;)Lkotlin/io/g;
+    invoke-static {p1}, Lcotlin/io/k;->f(Ljava/io/File;)Lcotlin/io/g;
 
     move-result-object v1
 
     .line 3
-    invoke-virtual {v1}, Lkotlin/io/g;->i()Z
+    invoke-virtual {v1}, Lcotlin/io/g;->i()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
     .line 4
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p0
 
@@ -949,11 +949,11 @@
 
     .line 5
     :cond_0
-    invoke-virtual {v0}, Lkotlin/io/g;->h()I
+    invoke-virtual {v0}, Lcotlin/io/g;->h()I
 
     move-result p0
 
-    invoke-virtual {v1}, Lkotlin/io/g;->h()I
+    invoke-virtual {v1}, Lcotlin/io/g;->h()I
 
     move-result p1
 
@@ -967,11 +967,11 @@
 
     .line 6
     :cond_1
-    invoke-virtual {v0}, Lkotlin/io/g;->g()Ljava/util/List;
+    invoke-virtual {v0}, Lcotlin/io/g;->g()Ljava/util/List;
 
     move-result-object p1
 
-    invoke-virtual {v0}, Lkotlin/io/g;->h()I
+    invoke-virtual {v0}, Lcotlin/io/g;->h()I
 
     move-result v0
 
@@ -979,7 +979,7 @@
 
     move-result-object p0
 
-    invoke-virtual {v1}, Lkotlin/io/g;->g()Ljava/util/List;
+    invoke-virtual {v1}, Lcotlin/io/g;->g()Ljava/util/List;
 
     move-result-object p1
 
@@ -1004,18 +1004,18 @@
 
     const-string v0, "$this$endsWith"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p0, v0}, Lkotlin/io/FilesKt__UtilsKt;->W(Ljava/io/File;Ljava/io/File;)Z
+    invoke-static {p0, v0}, Lcotlin/io/FilesKt__UtilsKt;->W(Ljava/io/File;Ljava/io/File;)Z
 
     move-result p0
 
@@ -1033,7 +1033,7 @@
 
     const-string v0, "$this$extension"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Ljava/io/File;->getName()Ljava/lang/String;
@@ -1042,13 +1042,13 @@
 
     const-string v0, "name"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v0, 0x2e
 
     const-string v1, ""
 
-    invoke-static {p0, v0, v1}, Lkotlin/text/m;->j5(Ljava/lang/String;CLjava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v0, v1}, Lcotlin/text/m;->j5(Ljava/lang/String;CLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1066,7 +1066,7 @@
 
     const-string v0, "$this$invariantSeparatorsPath"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-char v0, Ljava/io/File;->separatorChar:C
@@ -1081,7 +1081,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-char v4, Ljava/io/File;->separatorChar:C
 
@@ -1093,7 +1093,7 @@
 
     const/4 v8, 0x0
 
-    invoke-static/range {v3 .. v8}, Lkotlin/text/m;->h2(Ljava/lang/String;CCZILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v3 .. v8}, Lcotlin/text/m;->h2(Ljava/lang/String;CCZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1104,7 +1104,7 @@
 
     move-result-object p0
 
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     :goto_0
     return-object p0
@@ -1121,7 +1121,7 @@
 
     const-string v0, "$this$nameWithoutExtension"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Ljava/io/File;->getName()Ljava/lang/String;
@@ -1130,7 +1130,7 @@
 
     const-string v0, "name"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "."
 
@@ -1138,7 +1138,7 @@
 
     const/4 v2, 0x2
 
-    invoke-static {p0, v0, v1, v2, v1}, Lkotlin/text/m;->u5(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0, v0, v1, v2, v1}, Lcotlin/text/m;->u5(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1156,22 +1156,22 @@
 
     const-string v0, "$this$normalize"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0}, Lkotlin/io/k;->f(Ljava/io/File;)Lkotlin/io/g;
+    invoke-static {p0}, Lcotlin/io/k;->f(Ljava/io/File;)Lcotlin/io/g;
 
     move-result-object p0
 
-    invoke-virtual {p0}, Lkotlin/io/g;->e()Ljava/io/File;
+    invoke-virtual {p0}, Lcotlin/io/g;->e()Ljava/io/File;
 
     move-result-object v0
 
-    invoke-virtual {p0}, Lkotlin/io/g;->g()Ljava/util/List;
+    invoke-virtual {p0}, Lcotlin/io/g;->g()Ljava/util/List;
 
     move-result-object p0
 
-    invoke-static {p0}, Lkotlin/io/FilesKt__UtilsKt;->c0(Ljava/util/List;)Ljava/util/List;
+    invoke-static {p0}, Lcotlin/io/FilesKt__UtilsKt;->c0(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v1
 
@@ -1179,7 +1179,7 @@
 
     const-string p0, "File.separator"
 
-    invoke-static {v2, p0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, p0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v3, 0x0
 
@@ -1195,11 +1195,11 @@
 
     const/4 v9, 0x0
 
-    invoke-static/range {v1 .. v9}, Lkotlin/collections/s;->X2(Ljava/lang/Iterable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lkotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v9}, Lcotlin/collections/s;->X2(Ljava/lang/Iterable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lcotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
 
-    invoke-static {v0, p0}, Lkotlin/io/FilesKt__UtilsKt;->i0(Ljava/io/File;Ljava/lang/String;)Ljava/io/File;
+    invoke-static {v0, p0}, Lcotlin/io/FilesKt__UtilsKt;->i0(Ljava/io/File;Ljava/lang/String;)Ljava/io/File;
 
     move-result-object p0
 
@@ -1288,7 +1288,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {v0}, Lkotlin/collections/s;->a3(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {v0}, Lcotlin/collections/s;->a3(Ljava/util/List;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -1298,7 +1298,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1344,25 +1344,25 @@
     return-object v0
 .end method
 
-.method private static final d0(Lkotlin/io/g;)Lkotlin/io/g;
+.method private static final d0(Lcotlin/io/g;)Lcotlin/io/g;
     .locals 2
 
     .line 1
-    new-instance v0, Lkotlin/io/g;
+    new-instance v0, Lcotlin/io/g;
 
-    invoke-virtual {p0}, Lkotlin/io/g;->e()Ljava/io/File;
+    invoke-virtual {p0}, Lcotlin/io/g;->e()Ljava/io/File;
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lkotlin/io/g;->g()Ljava/util/List;
+    invoke-virtual {p0}, Lcotlin/io/g;->g()Ljava/util/List;
 
     move-result-object p0
 
-    invoke-static {p0}, Lkotlin/io/FilesKt__UtilsKt;->c0(Ljava/util/List;)Ljava/util/List;
+    invoke-static {p0}, Lcotlin/io/FilesKt__UtilsKt;->c0(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p0
 
-    invoke-direct {v0, v1, p0}, Lkotlin/io/g;-><init>(Ljava/io/File;Ljava/util/List;)V
+    invoke-direct {v0, v1, p0}, Lcotlin/io/g;-><init>(Ljava/io/File;Ljava/util/List;)V
 
     return-object v0
 .end method
@@ -1382,16 +1382,16 @@
 
     const-string v0, "$this$relativeTo"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "base"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/io/File;
 
-    invoke-static {p0, p1}, Lkotlin/io/FilesKt__UtilsKt;->n0(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcotlin/io/FilesKt__UtilsKt;->n0(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1415,14 +1415,14 @@
 
     const-string v0, "$this$relativeToOrNull"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "base"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/io/FilesKt__UtilsKt;->o0(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcotlin/io/FilesKt__UtilsKt;->o0(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1458,14 +1458,14 @@
 
     const-string v0, "$this$relativeToOrSelf"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "base"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/io/FilesKt__UtilsKt;->o0(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcotlin/io/FilesKt__UtilsKt;->o0(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1496,14 +1496,14 @@
 
     const-string v0, "$this$resolve"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "relative"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p1}, Lkotlin/io/k;->d(Ljava/io/File;)Z
+    invoke-static {p1}, Lcotlin/io/k;->d(Ljava/io/File;)Z
 
     move-result v0
 
@@ -1519,7 +1519,7 @@
 
     const-string v0, "this.toString()"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
@@ -1546,7 +1546,7 @@
 
     const/4 v3, 0x0
 
-    invoke-static {p0, v0, v1, v2, v3}, Lkotlin/text/m;->W2(Ljava/lang/CharSequence;CZILjava/lang/Object;)Z
+    invoke-static {p0, v0, v1, v2, v3}, Lcotlin/text/m;->W2(Ljava/lang/CharSequence;CZILjava/lang/Object;)Z
 
     move-result v0
 
@@ -1614,18 +1614,18 @@
 
     const-string v0, "$this$resolve"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "relative"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p0, v0}, Lkotlin/io/FilesKt__UtilsKt;->h0(Ljava/io/File;Ljava/io/File;)Ljava/io/File;
+    invoke-static {p0, v0}, Lcotlin/io/FilesKt__UtilsKt;->h0(Ljava/io/File;Ljava/io/File;)Ljava/io/File;
 
     move-result-object p0
 
@@ -1647,19 +1647,19 @@
 
     const-string v0, "$this$resolveSibling"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "relative"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0}, Lkotlin/io/k;->f(Ljava/io/File;)Lkotlin/io/g;
+    invoke-static {p0}, Lcotlin/io/k;->f(Ljava/io/File;)Lcotlin/io/g;
 
     move-result-object p0
 
     .line 2
-    invoke-virtual {p0}, Lkotlin/io/g;->h()I
+    invoke-virtual {p0}, Lcotlin/io/g;->h()I
 
     move-result v0
 
@@ -1676,27 +1676,27 @@
     :cond_0
     const/4 v0, 0x0
 
-    invoke-virtual {p0}, Lkotlin/io/g;->h()I
+    invoke-virtual {p0}, Lcotlin/io/g;->h()I
 
     move-result v1
 
     add-int/lit8 v1, v1, -0x1
 
-    invoke-virtual {p0, v0, v1}, Lkotlin/io/g;->j(II)Ljava/io/File;
+    invoke-virtual {p0, v0, v1}, Lcotlin/io/g;->j(II)Ljava/io/File;
 
     move-result-object v0
 
     .line 3
     :goto_0
-    invoke-virtual {p0}, Lkotlin/io/g;->e()Ljava/io/File;
+    invoke-virtual {p0}, Lcotlin/io/g;->e()Ljava/io/File;
 
     move-result-object p0
 
-    invoke-static {p0, v0}, Lkotlin/io/FilesKt__UtilsKt;->h0(Ljava/io/File;Ljava/io/File;)Ljava/io/File;
+    invoke-static {p0, v0}, Lcotlin/io/FilesKt__UtilsKt;->h0(Ljava/io/File;Ljava/io/File;)Ljava/io/File;
 
     move-result-object p0
 
-    invoke-static {p0, p1}, Lkotlin/io/FilesKt__UtilsKt;->h0(Ljava/io/File;Ljava/io/File;)Ljava/io/File;
+    invoke-static {p0, p1}, Lcotlin/io/FilesKt__UtilsKt;->h0(Ljava/io/File;Ljava/io/File;)Ljava/io/File;
 
     move-result-object p0
 
@@ -1718,18 +1718,18 @@
 
     const-string v0, "$this$resolveSibling"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "relative"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p0, v0}, Lkotlin/io/FilesKt__UtilsKt;->j0(Ljava/io/File;Ljava/io/File;)Ljava/io/File;
+    invoke-static {p0, v0}, Lcotlin/io/FilesKt__UtilsKt;->j0(Ljava/io/File;Ljava/io/File;)Ljava/io/File;
 
     move-result-object p0
 
@@ -1749,32 +1749,32 @@
 
     const-string v0, "$this$startsWith"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0}, Lkotlin/io/k;->f(Ljava/io/File;)Lkotlin/io/g;
+    invoke-static {p0}, Lcotlin/io/k;->f(Ljava/io/File;)Lcotlin/io/g;
 
     move-result-object p0
 
     .line 2
-    invoke-static {p1}, Lkotlin/io/k;->f(Ljava/io/File;)Lkotlin/io/g;
+    invoke-static {p1}, Lcotlin/io/k;->f(Ljava/io/File;)Lcotlin/io/g;
 
     move-result-object p1
 
     .line 3
-    invoke-virtual {p0}, Lkotlin/io/g;->e()Ljava/io/File;
+    invoke-virtual {p0}, Lcotlin/io/g;->e()Ljava/io/File;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Lkotlin/io/g;->e()Ljava/io/File;
+    invoke-virtual {p1}, Lcotlin/io/g;->e()Ljava/io/File;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -1788,11 +1788,11 @@
 
     .line 4
     :cond_0
-    invoke-virtual {p0}, Lkotlin/io/g;->h()I
+    invoke-virtual {p0}, Lcotlin/io/g;->h()I
 
     move-result v0
 
-    invoke-virtual {p1}, Lkotlin/io/g;->h()I
+    invoke-virtual {p1}, Lcotlin/io/g;->h()I
 
     move-result v2
 
@@ -1802,11 +1802,11 @@
 
     .line 5
     :cond_1
-    invoke-virtual {p0}, Lkotlin/io/g;->g()Ljava/util/List;
+    invoke-virtual {p0}, Lcotlin/io/g;->g()Ljava/util/List;
 
     move-result-object p0
 
-    invoke-virtual {p1}, Lkotlin/io/g;->h()I
+    invoke-virtual {p1}, Lcotlin/io/g;->h()I
 
     move-result v0
 
@@ -1814,7 +1814,7 @@
 
     move-result-object p0
 
-    invoke-virtual {p1}, Lkotlin/io/g;->g()Ljava/util/List;
+    invoke-virtual {p1}, Lcotlin/io/g;->g()Ljava/util/List;
 
     move-result-object p1
 
@@ -1839,18 +1839,18 @@
 
     const-string v0, "$this$startsWith"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p0, v0}, Lkotlin/io/FilesKt__UtilsKt;->l0(Ljava/io/File;Ljava/io/File;)Z
+    invoke-static {p0, v0}, Lcotlin/io/FilesKt__UtilsKt;->l0(Ljava/io/File;Ljava/io/File;)Z
 
     move-result p0
 
@@ -1872,14 +1872,14 @@
 
     const-string v0, "$this$toRelativeString"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "base"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/io/FilesKt__UtilsKt;->o0(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcotlin/io/FilesKt__UtilsKt;->o0(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1923,33 +1923,33 @@
     .locals 17
 
     .line 1
-    invoke-static/range {p0 .. p0}, Lkotlin/io/k;->f(Ljava/io/File;)Lkotlin/io/g;
+    invoke-static/range {p0 .. p0}, Lcotlin/io/k;->f(Ljava/io/File;)Lcotlin/io/g;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/io/FilesKt__UtilsKt;->d0(Lkotlin/io/g;)Lkotlin/io/g;
+    invoke-static {v0}, Lcotlin/io/FilesKt__UtilsKt;->d0(Lcotlin/io/g;)Lcotlin/io/g;
 
     move-result-object v0
 
     .line 2
-    invoke-static/range {p1 .. p1}, Lkotlin/io/k;->f(Ljava/io/File;)Lkotlin/io/g;
+    invoke-static/range {p1 .. p1}, Lcotlin/io/k;->f(Ljava/io/File;)Lcotlin/io/g;
 
     move-result-object v1
 
-    invoke-static {v1}, Lkotlin/io/FilesKt__UtilsKt;->d0(Lkotlin/io/g;)Lkotlin/io/g;
+    invoke-static {v1}, Lcotlin/io/FilesKt__UtilsKt;->d0(Lcotlin/io/g;)Lcotlin/io/g;
 
     move-result-object v1
 
     .line 3
-    invoke-virtual {v0}, Lkotlin/io/g;->e()Ljava/io/File;
+    invoke-virtual {v0}, Lcotlin/io/g;->e()Ljava/io/File;
 
     move-result-object v2
 
-    invoke-virtual {v1}, Lkotlin/io/g;->e()Ljava/io/File;
+    invoke-virtual {v1}, Lcotlin/io/g;->e()Ljava/io/File;
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1963,12 +1963,12 @@
 
     .line 4
     :cond_0
-    invoke-virtual {v1}, Lkotlin/io/g;->h()I
+    invoke-virtual {v1}, Lcotlin/io/g;->h()I
 
     move-result v2
 
     .line 5
-    invoke-virtual {v0}, Lkotlin/io/g;->h()I
+    invoke-virtual {v0}, Lcotlin/io/g;->h()I
 
     move-result v4
 
@@ -1983,7 +1983,7 @@
     if-ge v5, v6, :cond_1
 
     .line 7
-    invoke-virtual {v0}, Lkotlin/io/g;->g()Ljava/util/List;
+    invoke-virtual {v0}, Lcotlin/io/g;->g()Ljava/util/List;
 
     move-result-object v7
 
@@ -1993,7 +1993,7 @@
 
     check-cast v7, Ljava/io/File;
 
-    invoke-virtual {v1}, Lkotlin/io/g;->g()Ljava/util/List;
+    invoke-virtual {v1}, Lcotlin/io/g;->g()Ljava/util/List;
 
     move-result-object v8
 
@@ -2003,7 +2003,7 @@
 
     check-cast v8, Ljava/io/File;
 
-    invoke-static {v7, v8}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v7, v8}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v7
 
@@ -2025,7 +2025,7 @@
 
     .line 9
     :goto_1
-    invoke-virtual {v1}, Lkotlin/io/g;->g()Ljava/util/List;
+    invoke-virtual {v1}, Lcotlin/io/g;->g()Ljava/util/List;
 
     move-result-object v8
 
@@ -2041,7 +2041,7 @@
 
     const-string v9, ".."
 
-    invoke-static {v8, v9}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v8, v9}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v8
 
@@ -2079,11 +2079,11 @@
 
     .line 13
     :cond_5
-    invoke-virtual {v0}, Lkotlin/io/g;->g()Ljava/util/List;
+    invoke-virtual {v0}, Lcotlin/io/g;->g()Ljava/util/List;
 
     move-result-object v0
 
-    invoke-static {v0, v5}, Lkotlin/collections/s;->P1(Ljava/lang/Iterable;I)Ljava/util/List;
+    invoke-static {v0, v5}, Lcotlin/collections/s;->P1(Ljava/lang/Iterable;I)Ljava/util/List;
 
     move-result-object v7
 
@@ -2091,7 +2091,7 @@
 
     const-string v0, "File.separator"
 
-    invoke-static {v9, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v9, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v10, 0x0
 
@@ -2109,7 +2109,7 @@
 
     move-object v8, v6
 
-    invoke-static/range {v7 .. v16}, Lkotlin/collections/s;->V2(Ljava/lang/Iterable;Ljava/lang/Appendable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lkotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/Appendable;
+    invoke-static/range {v7 .. v16}, Lcotlin/collections/s;->V2(Ljava/lang/Iterable;Ljava/lang/Appendable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lcotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/Appendable;
 
     .line 14
     :cond_6

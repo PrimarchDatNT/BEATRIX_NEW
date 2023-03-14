@@ -32,7 +32,7 @@
     value = "SMAP\nBeautyAcneSuspendFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BeautyAcneSuspendFragment.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/suspend/BeautyAcneSuspendFragment$onViewCreated$2\n*L\n1#1,169:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;",
         "kotlin.jvm.PlatformType",
         "beautyEntity",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;)V"
     }

@@ -32,7 +32,7 @@
     value = "SMAP\nLookGuideDialog.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LookGuideDialog.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog$bindView$1\n*L\n1#1,162:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "t",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "b",
         "(Ljava/lang/Integer;)V"
     }

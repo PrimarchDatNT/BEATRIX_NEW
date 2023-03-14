@@ -12,7 +12,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "()I",
         "C",
         "B",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "A",
         "()V",
         "Ljava/lang/Runnable;",
@@ -89,7 +89,7 @@
 
     const/4 v2, 0x3
 
-    invoke-direct {p0, v0, v1, v2, v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;-><init>(Landroid/view/View;ZILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, v0, v1, v2, v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;-><init>(Landroid/view/View;ZILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -118,7 +118,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroid/view/View;ZILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Landroid/view/View;ZILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p4, p3, 0x1
@@ -191,7 +191,7 @@
 
     const-string v2, "mBinding.tvTips"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v2, Lcom/res/provider/ResSTRING;->search_online_filter:I
 
@@ -216,7 +216,7 @@
 
     const-string v4, "dialog"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 

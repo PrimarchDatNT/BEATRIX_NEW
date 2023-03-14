@@ -1,10 +1,10 @@
-.class Lkotlin/coroutines/intrinsics/b;
-.super Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt;
+.class Lcotlin/coroutines/intrinsics/b;
+.super Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt;
 .source "Intrinsics.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,12 +15,12 @@
     }
     d2 = {
         "T",
-        "Lkotlin/Function1;",
-        "Lkotlin/coroutines/c;",
+        "Lcotlin/Function1;",
+        "Lcotlin/coroutines/c;",
         "",
         "block",
         "j",
-        "(Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "h",
         "()Ljava/lang/Object;",
         "getCOROUTINE_SUSPENDED$annotations",
@@ -42,7 +42,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt;-><init>()V
+    invoke-direct {p0}, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt;-><init>()V
 
     return-void
 .end method
@@ -53,52 +53,52 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/coroutines/intrinsics/CoroutineSingletons;->COROUTINE_SUSPENDED:Lkotlin/coroutines/intrinsics/CoroutineSingletons;
+    sget-object v0, Lcotlin/coroutines/intrinsics/CoroutineSingletons;->COROUTINE_SUSPENDED:Lcotlin/coroutines/intrinsics/CoroutineSingletons;
 
     return-object v0
 .end method
 
 .method public static synthetic i()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     return-void
 .end method
 
-.method private static final j(Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final j(Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TT;>;+",
             "Ljava/lang/Object;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TT;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     .line 1
-    new-instance p0, Lkotlin/NotImplementedError;
+    new-instance p0, Lcotlin/NotImplementedError;
 
     const-string p1, "Implementation of suspendCoroutineUninterceptedOrReturn is intrinsic"
 
-    invoke-direct {p0, p1}, Lkotlin/NotImplementedError;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcotlin/NotImplementedError;-><init>(Ljava/lang/String;)V
 
     throw p0
 .end method

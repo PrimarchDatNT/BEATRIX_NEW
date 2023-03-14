@@ -18,7 +18,7 @@
     value = "SMAP\nTextGroupParam.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextGroupParam.kt\ncom/commsource/studio/text/TextGroupParam\n*L\n1#1,583:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -37,7 +37,7 @@
         "temp",
         "",
         "replaceFont",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "replaceTemplate",
         "(Lcom/commsource/studio/text/TextTemplate;Z)V",
         "Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;",
@@ -458,7 +458,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/text/TextGroupParam$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/text/TextGroupParam$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/text/TextGroupParam;->Companion:Lcom/commsource/studio/text/TextGroupParam$a;
 
@@ -471,7 +471,7 @@
 
     const-string v2, "ResourcesUtils.getString\u2026tring.t_enter_characters)"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sput-object v1, Lcom/commsource/studio/text/TextGroupParam;->defaultText:Ljava/lang/String;
 
@@ -549,7 +549,7 @@
 
     const-string v0, "template"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 17
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -622,7 +622,7 @@
 
     const-string v1, "ar/configuration.plist"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->C(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->C(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -768,11 +768,11 @@
     return-object v1
 
     :cond_0
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type com.commsource.studio.text.TextGroupParam"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -792,7 +792,7 @@
 
     const-string v1, "enum"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
@@ -924,7 +924,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     check-cast p1, Lcom/commsource/studio/text/TextGroupParam;
@@ -933,10 +933,10 @@
 
     if-nez v5, :cond_3
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
-    invoke-static {v2, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -954,7 +954,7 @@
 
     iget-object v4, p1, Lcom/commsource/studio/text/TextGroupParam;->text:Ljava/lang/String;
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -972,7 +972,7 @@
 
     iget-object v4, p1, Lcom/commsource/studio/text/TextGroupParam;->configPath:Ljava/lang/String;
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -990,7 +990,7 @@
 
     iget-object v4, p1, Lcom/commsource/studio/text/TextGroupParam;->fontId:Ljava/lang/String;
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -2571,7 +2571,7 @@
 
     const-string v2, "template"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2791,7 +2791,7 @@
 
     const-string v1, "temp"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
@@ -2823,7 +2823,7 @@
 
     const-string v1, "ar/configuration.plist"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->C(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->C(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -2930,7 +2930,7 @@
 
     const-string v1, "enum"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
@@ -2965,7 +2965,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -2986,7 +2986,7 @@
 
     if-nez p1, :cond_2
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3012,7 +3012,7 @@
 
     if-nez p1, :cond_4
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3038,7 +3038,7 @@
 
     if-nez p1, :cond_6
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3064,7 +3064,7 @@
 
     if-nez p1, :cond_8
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_8
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3095,7 +3095,7 @@
 
     if-nez p1, :cond_a
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_a
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3134,7 +3134,7 @@
 
     if-nez p1, :cond_d
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_d
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3155,7 +3155,7 @@
 
     if-nez p1, :cond_f
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_f
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3181,7 +3181,7 @@
 
     if-nez p1, :cond_11
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_11
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3207,7 +3207,7 @@
 
     if-nez p1, :cond_13
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_13
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3233,7 +3233,7 @@
 
     if-nez p1, :cond_15
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_15
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3259,7 +3259,7 @@
 
     if-nez p1, :cond_17
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_17
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3285,7 +3285,7 @@
 
     if-nez p1, :cond_19
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_19
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3324,7 +3324,7 @@
 
     if-nez p1, :cond_1c
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1c
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3350,7 +3350,7 @@
 
     if-nez p1, :cond_1e
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1e
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3376,7 +3376,7 @@
 
     if-nez p1, :cond_20
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_20
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3407,7 +3407,7 @@
 
     if-nez p1, :cond_22
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_22
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3433,7 +3433,7 @@
 
     if-nez p1, :cond_24
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_24
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3459,7 +3459,7 @@
 
     if-nez p1, :cond_26
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_26
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3495,7 +3495,7 @@
 
     if-nez p1, :cond_29
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_29
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3521,7 +3521,7 @@
 
     if-nez p1, :cond_2b
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2b
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3547,7 +3547,7 @@
 
     if-nez p1, :cond_2d
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2d
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3574,7 +3574,7 @@
 
     if-nez p1, :cond_30
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_30
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3595,7 +3595,7 @@
 
     if-nez p1, :cond_32
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_32
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3621,7 +3621,7 @@
 
     if-nez p1, :cond_34
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_34
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3647,7 +3647,7 @@
 
     if-nez p1, :cond_36
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_36
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3673,7 +3673,7 @@
 
     if-nez p1, :cond_38
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_38
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3712,7 +3712,7 @@
 
     if-nez p1, :cond_3b
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3b
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3733,7 +3733,7 @@
 
     if-nez p1, :cond_3d
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3d
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3759,7 +3759,7 @@
 
     if-nez p1, :cond_3f
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3f
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3785,7 +3785,7 @@
 
     if-nez p1, :cond_41
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_41
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -3811,7 +3811,7 @@
 
     if-nez p1, :cond_43
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_43
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplate;->getStyles()Lcom/commsource/studio/text/j;
@@ -4043,7 +4043,7 @@
 
     const-string v1, "enum"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p2}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
@@ -4994,7 +4994,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextGroupParam;->template:Lcom/commsource/studio/text/TextTemplate;
@@ -5160,7 +5160,7 @@
 
     move-object/from16 v3, p1
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v2, Lcom/commsource/studio/text/j;
@@ -5186,7 +5186,7 @@
 
     if-nez v5, :cond_1
 
-    invoke-static {v6}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v6}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v5}, Lcom/commsource/studio/text/TextTemplate;->getFontId()Ljava/lang/String;
@@ -5213,7 +5213,7 @@
 
     if-nez v5, :cond_3
 
-    invoke-static {v6}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v6}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v5}, Lcom/commsource/studio/text/TextTemplate;->getFontId()Ljava/lang/String;
@@ -5454,7 +5454,7 @@
 
     aget v8, v8, v9
 
-    invoke-static {v5, v8}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v5, v8}, Lcotlin/g2/o;->m(FF)F
 
     move-result v5
 
@@ -5466,7 +5466,7 @@
 
     aget v8, v8, v10
 
-    invoke-static {v5, v8}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v5, v8}, Lcotlin/g2/o;->t(FF)F
 
     move-result v5
 
@@ -5565,7 +5565,7 @@
 
     aget v11, v11, v9
 
-    invoke-static {v8, v11}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v8, v11}, Lcotlin/g2/o;->m(FF)F
 
     move-result v8
 
@@ -5575,7 +5575,7 @@
 
     aget v11, v11, v10
 
-    invoke-static {v8, v11}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v8, v11}, Lcotlin/g2/o;->t(FF)F
 
     move-result v8
 
@@ -5603,7 +5603,7 @@
 
     aget v8, v8, v9
 
-    invoke-static {v5, v8}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v5, v8}, Lcotlin/g2/o;->m(FF)F
 
     move-result v5
 
@@ -5613,7 +5613,7 @@
 
     aget v8, v8, v10
 
-    invoke-static {v5, v8}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v5, v8}, Lcotlin/g2/o;->t(FF)F
 
     move-result v5
 
@@ -5832,7 +5832,7 @@
 
     aget v5, v5, v9
 
-    invoke-static {v4, v5}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v4, v5}, Lcotlin/g2/o;->m(FF)F
 
     move-result v4
 
@@ -5842,7 +5842,7 @@
 
     aget v5, v5, v10
 
-    invoke-static {v4, v5}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v4, v5}, Lcotlin/g2/o;->t(FF)F
 
     move-result v4
 
@@ -5864,7 +5864,7 @@
 
     aget v5, v5, v9
 
-    invoke-static {v4, v5}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v4, v5}, Lcotlin/g2/o;->m(FF)F
 
     move-result v4
 
@@ -5874,7 +5874,7 @@
 
     aget v5, v5, v10
 
-    invoke-static {v4, v5}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v4, v5}, Lcotlin/g2/o;->t(FF)F
 
     move-result v4
 
@@ -5900,7 +5900,7 @@
 
     if-nez v3, :cond_4
 
-    invoke-static {v6}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v6}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {v3, v2}, Lcom/commsource/studio/text/TextTemplate;->setStyles(Lcom/commsource/studio/text/j;)V
@@ -6008,7 +6008,7 @@
     const-string v14, "#"
 
     .line 95
-    invoke-static/range {v12 .. v17}, Lkotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v12 .. v17}, Lcotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -6059,7 +6059,7 @@
 
     const-string v14, "#"
 
-    invoke-static/range {v12 .. v17}, Lkotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v12 .. v17}, Lcotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -6128,7 +6128,7 @@
 
     const-string v14, "#"
 
-    invoke-static/range {v12 .. v17}, Lkotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v12 .. v17}, Lcotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -6206,7 +6206,7 @@
 
     const-string v14, "#"
 
-    invoke-static/range {v12 .. v17}, Lkotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v12 .. v17}, Lcotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3
 

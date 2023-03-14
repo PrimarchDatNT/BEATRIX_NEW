@@ -32,7 +32,7 @@
     value = "SMAP\nMovieFlareFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MovieFlareFragment.kt\ncom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment$initView$2\n*L\n1#1,194:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -255,7 +255,7 @@
 
     aput-object v1, p2, v2
 
-    invoke-static {p2}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {p2}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object p2
 

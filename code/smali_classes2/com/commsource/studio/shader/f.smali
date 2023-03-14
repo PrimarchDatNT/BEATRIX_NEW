@@ -10,7 +10,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "()Ljava/lang/String;",
         "",
         "programId",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
         "(I)V",
         "e",
@@ -72,7 +72,7 @@
 
     const/4 v1, 0x1
 
-    invoke-direct {p0, v0, v1, v0}, Lcom/commsource/studio/shader/f;-><init>(Lcom/commsource/studio/shader/f$a;ILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, v0, v1, v0}, Lcom/commsource/studio/shader/f;-><init>(Lcom/commsource/studio/shader/f$a;ILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -86,7 +86,7 @@
 
     const-string v0, "params"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const v0, 0x8b30
 
@@ -98,7 +98,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/commsource/studio/shader/f$a;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcom/commsource/studio/shader/f$a;ILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p2, p2, 0x1

@@ -1,15 +1,15 @@
-.class public final Lkotlin/sequences/SequencesKt___SequencesKt$a;
+.class public final Lcotlin/sequences/SequencesKt___SequencesKt$a;
 .super Ljava/lang/Object;
 .source "Iterables.kt"
 
 # interfaces
 .implements Ljava/lang/Iterable;
-.implements Lkotlin/jvm/internal/x0/a;
+.implements Lcotlin/jvm/internal/x0/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/sequences/SequencesKt___SequencesKt;->G(Lkotlin/sequences/m;)Ljava/lang/Iterable;
+    value = Lcotlin/sequences/SequencesKt___SequencesKt;->G(Lcotlin/sequences/m;)Ljava/lang/Iterable;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,7 +22,7 @@
         "Ljava/lang/Object;",
         "Ljava/lang/Iterable<",
         "TT;>;",
-        "Lkotlin/jvm/internal/x0/a;"
+        "Lcotlin/jvm/internal/x0/a;"
     }
 .end annotation
 
@@ -30,7 +30,7 @@
     value = "SMAP\nIterables.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Iterables.kt\nkotlin/collections/CollectionsKt__IterablesKt$Iterable$1\n+ 2 _Sequences.kt\nkotlin/sequences/SequencesKt___SequencesKt\n*L\n1#1,93:1\n2714#2:94\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -58,14 +58,14 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/sequences/m;
+.field final synthetic a:Lcotlin/sequences/m;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/sequences/m;)V
+.method public constructor <init>(Lcotlin/sequences/m;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$a;->a:Lkotlin/sequences/m;
+    iput-object p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$a;->a:Lcotlin/sequences/m;
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -89,9 +89,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/sequences/SequencesKt___SequencesKt$a;->a:Lkotlin/sequences/m;
+    iget-object v0, p0, Lcotlin/sequences/SequencesKt___SequencesKt$a;->a:Lcotlin/sequences/m;
 
-    invoke-interface {v0}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 

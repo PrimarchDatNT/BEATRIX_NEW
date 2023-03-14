@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
         "Lcom/mopub/common/DiskLruCache;",
         "getVideoCache",
         "()Lcom/mopub/common/DiskLruCache;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "clearAndNullVideoCache",
         "()V",
         "<init>",
@@ -93,7 +93,7 @@
     .annotation runtime Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .line 1
@@ -113,7 +113,7 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .line 1
@@ -135,7 +135,7 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -160,7 +160,7 @@
     .annotation build Landroidx/annotation/AnyThread;
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -181,7 +181,7 @@
     .annotation runtime Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -206,7 +206,7 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .line 1
@@ -232,7 +232,7 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .line 1
@@ -258,7 +258,7 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .line 2

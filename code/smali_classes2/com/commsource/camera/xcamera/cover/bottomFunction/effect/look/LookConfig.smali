@@ -14,7 +14,7 @@
     value = "SMAP\nLookConfig.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LookConfig.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig\n*L\n1#1,63:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "h",
         "()Z",
         "boolean",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "k",
         "(Z)V",
         "",
@@ -47,7 +47,7 @@
         "m",
         "Lcom/commsource/util/common/l;",
         "a",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "f",
         "()Lcom/commsource/util/common/l;",
         "spConfig",
@@ -65,7 +65,7 @@
 
 
 # static fields
-.field private static final b:Lkotlin/w;
+.field private static final b:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -98,7 +98,7 @@
 
 
 # instance fields
-.field private final a:Lkotlin/w;
+.field private final a:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -116,20 +116,20 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig$a;
 
     .line 1
-    sget-object v1, Lkotlin/LazyThreadSafetyMode;->SYNCHRONIZED:Lkotlin/LazyThreadSafetyMode;
+    sget-object v1, Lcotlin/LazyThreadSafetyMode;->SYNCHRONIZED:Lcotlin/LazyThreadSafetyMode;
 
     sget-object v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig$Companion$instance$2;->INSTANCE:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig$Companion$instance$2;
 
-    invoke-static {v1, v2}, Lkotlin/y;->b(Lkotlin/LazyThreadSafetyMode;Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v1, v2}, Lcotlin/y;->b(Lcotlin/LazyThreadSafetyMode;Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v1
 
-    sput-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig;->b:Lkotlin/w;
+    sput-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig;->b:Lcotlin/w;
 
     const-string v1, "UPDATE_KEY"
 
@@ -163,20 +163,20 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    sget-object v0, Lkotlin/LazyThreadSafetyMode;->SYNCHRONIZED:Lkotlin/LazyThreadSafetyMode;
+    sget-object v0, Lcotlin/LazyThreadSafetyMode;->SYNCHRONIZED:Lcotlin/LazyThreadSafetyMode;
 
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig$spConfig$2;->INSTANCE:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig$spConfig$2;
 
-    invoke-static {v0, v1}, Lkotlin/y;->b(Lkotlin/LazyThreadSafetyMode;Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0, v1}, Lcotlin/y;->b(Lcotlin/LazyThreadSafetyMode;Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig;->a:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig;->a:Lcotlin/w;
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 3
@@ -215,7 +215,7 @@
     return-object v1
 .end method
 
-.method public static final synthetic c()Lkotlin/w;
+.method public static final synthetic c()Lcotlin/w;
     .locals 2
 
     const/16 v0, 0x40f4
@@ -223,7 +223,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig;->b:Lkotlin/w;
+    sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig;->b:Lcotlin/w;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -271,9 +271,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig;->a:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig;->a:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -308,7 +308,7 @@
 
     const-string v2, "spConfig.getString(UPDATE_KEY, \"\")"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

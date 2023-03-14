@@ -20,7 +20,7 @@
     value = "SMAP\nGLEraserRender.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GLEraserRender.kt\ncom/commsource/editengine/GLEraserRender$addObserver$2$1\n*L\n1#1,333:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,7 +40,7 @@
         "(L;L;)Z",
         "viewPortX",
         "viewPortY",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "motionEvent",
         "kotlin/Float",
         "(L;L;V)L;",
@@ -157,7 +157,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->a(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
@@ -335,7 +335,7 @@
 
     const-string p2, "motionEvent"
 
-    invoke-static {p3, p2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p2, 0x2
 
@@ -452,7 +452,7 @@
 
     const/4 v0, 0x0
 
-    invoke-static {p3, v1, v0, p2, v0}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p3, v1, v0, p2, v0}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 9
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -473,7 +473,7 @@
 
     const-string p2, "motionEvent"
 
-    invoke-static {p3, p2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p2, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
@@ -657,7 +657,7 @@
 
     const/4 v0, 0x0
 
-    invoke-static {p3, v1, v0, p2, v0}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p3, v1, v0, p2, v0}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 11
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -678,7 +678,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->e(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
@@ -826,7 +826,7 @@
 
     const/4 p4, 0x0
 
-    invoke-static {p2, v0, p5, p1, p4}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p2, v0, p5, p1, p4}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 11
     iget-object p1, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;

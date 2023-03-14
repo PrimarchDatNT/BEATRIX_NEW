@@ -25,7 +25,7 @@
     value = "SMAP\nImageStudioActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ImageStudioActivity.kt\ncom/commsource/studio/ImageStudioActivity$initViewModel$4\n*L\n1#1,1536:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "Lcom/commsource/beautyfilter/NoStickLiveData$a;",
         "",
         "isNormal",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(Ljava/lang/Boolean;)V",
         "app_googleplayRelease"
@@ -146,7 +146,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v1, v2, v3, p1, v4}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {v1, v2, v3, p1, v4}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 4
     :cond_1

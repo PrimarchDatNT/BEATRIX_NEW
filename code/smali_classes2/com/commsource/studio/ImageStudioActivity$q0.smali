@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "Landroidx/databinding/ViewDataBinding;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lf/d/a;)V"
     }
@@ -88,7 +88,7 @@
 
     const/4 v4, 0x2
 
-    invoke-static {v1, v2, v3, v4, v3}, Lcom/commsource/studio/ImageStudioViewModel;->H(Lcom/commsource/studio/ImageStudioViewModel;Landroidx/fragment/app/FragmentActivity;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {v1, v2, v3, v4, v3}, Lcom/commsource/studio/ImageStudioViewModel;->H(Lcom/commsource/studio/ImageStudioViewModel;Landroidx/fragment/app/FragmentActivity;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 2
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V

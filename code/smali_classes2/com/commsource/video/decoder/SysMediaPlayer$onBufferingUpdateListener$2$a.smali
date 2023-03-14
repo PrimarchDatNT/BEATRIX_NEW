@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "mp",
         "",
         "percent",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onBufferingUpdate",
         "(Landroid/media/MediaPlayer;I)V",
         "<anonymous>"
@@ -81,7 +81,7 @@
 
     iget-object p2, p2, Lcom/commsource/video/decoder/SysMediaPlayer$onBufferingUpdateListener$2;->this$0:Lcom/commsource/video/decoder/SysMediaPlayer;
 
-    invoke-virtual {p2}, Lcom/commsource/video/decoder/a;->u()Lkotlin/jvm/u/l;
+    invoke-virtual {p2}, Lcom/commsource/video/decoder/a;->u()Lcotlin/jvm/u/l;
 
     move-result-object p2
 
@@ -99,11 +99,11 @@
 
     move-result-object v0
 
-    invoke-interface {p2, v0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
-    check-cast p2, Lkotlin/t1;
+    check-cast p2, Lcotlin/t1;
 
     .line 3
     :cond_0

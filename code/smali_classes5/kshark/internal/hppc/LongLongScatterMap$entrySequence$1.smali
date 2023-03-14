@@ -1,14 +1,14 @@
 .class final Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "LongLongScatterMap.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkshark/internal/hppc/LongLongScatterMap;->k()Lkotlin/sequences/m;
+    value = Lkshark/internal/hppc/LongLongScatterMap;->k()Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,9 +18,9 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
-        "Lkotlin/Pair<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
+        "Lcotlin/Pair<",
         "+",
         "Ljava/lang/Long;",
         "+",
@@ -29,7 +29,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,10 +39,10 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0010\t\n\u0002\u0008\u0003\u0010\u0004\u001a\u0010\u0012\u0004\u0012\u00020\u0001\u0012\u0004\u0012\u00020\u0001\u0018\u00010\u0000H\n\u00a2\u0006\u0004\u0008\u0002\u0010\u0003"
     }
     d2 = {
-        "Lkotlin/Pair;",
+        "Lcotlin/Pair;",
         "",
         "invoke",
-        "()Lkotlin/Pair;",
+        "()Lcotlin/Pair;",
         "<anonymous>"
     }
     k = 0x3
@@ -57,24 +57,24 @@
 # instance fields
 .field final synthetic $max:I
 
-.field final synthetic $slot:Lkotlin/jvm/internal/Ref$IntRef;
+.field final synthetic $slot:Lcotlin/jvm/internal/Ref$IntRef;
 
 .field final synthetic this$0:Lkshark/internal/hppc/LongLongScatterMap;
 
 
 # direct methods
-.method constructor <init>(Lkshark/internal/hppc/LongLongScatterMap;Lkotlin/jvm/internal/Ref$IntRef;I)V
+.method constructor <init>(Lkshark/internal/hppc/LongLongScatterMap;Lcotlin/jvm/internal/Ref$IntRef;I)V
     .locals 0
 
     iput-object p1, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->this$0:Lkshark/internal/hppc/LongLongScatterMap;
 
-    iput-object p2, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->$slot:Lkotlin/jvm/internal/Ref$IntRef;
+    iput-object p2, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->$slot:Lcotlin/jvm/internal/Ref$IntRef;
 
     iput p3, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->$max:I
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -85,19 +85,19 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->invoke()Lkotlin/Pair;
+    invoke-virtual {p0}, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->invoke()Lcotlin/Pair;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public final invoke()Lkotlin/Pair;
+.method public final invoke()Lcotlin/Pair;
     .locals 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Long;",
             "Ljava/lang/Long;",
             ">;"
@@ -108,9 +108,9 @@
     .end annotation
 
     .line 2
-    iget-object v0, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->$slot:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object v0, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->$slot:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget v1, v0, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v1, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     iget v2, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->$max:I
 
@@ -121,13 +121,13 @@
     add-int/lit8 v1, v1, 0x1
 
     .line 3
-    iput v1, v0, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput v1, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     .line 4
     :goto_0
-    iget-object v0, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->$slot:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object v0, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->$slot:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget v0, v0, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v0, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     iget v1, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->$max:I
 
@@ -140,9 +140,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->$slot:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object v1, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->$slot:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget v2, v1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v2, v1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     aget-wide v5, v0, v2
 
@@ -161,9 +161,9 @@
 
     move-result-object v1
 
-    iget-object v2, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->$slot:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object v2, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->$slot:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget v2, v2, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v2, v2, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     aget-wide v2, v1, v2
 
@@ -171,7 +171,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v0, v1}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object v0
 
@@ -181,15 +181,15 @@
     add-int/lit8 v2, v2, 0x1
 
     .line 7
-    iput v2, v1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput v2, v1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     goto :goto_0
 
     .line 8
     :cond_1
-    iget-object v0, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->$slot:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object v0, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->$slot:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget v0, v0, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v0, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     iget v1, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->$max:I
 
@@ -204,13 +204,13 @@
     if-eqz v0, :cond_2
 
     .line 9
-    iget-object v0, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->$slot:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object v0, p0, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;->$slot:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget v1, v0, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v1, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     add-int/lit8 v1, v1, 0x1
 
-    iput v1, v0, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput v1, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     .line 10
     invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -231,7 +231,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v0, v1}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object v0
 

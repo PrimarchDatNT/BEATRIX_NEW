@@ -276,12 +276,12 @@
     return-void
 .end method
 
-.method public static g(JLkotlin/sequences/m;)V
+.method public static g(JLcotlin/sequences/m;)V
     .locals 10
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(J",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Lkshark/HeapObject$HeapClass;",
             ">;)V"
         }
@@ -313,7 +313,7 @@
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 3
-    invoke-interface {p2}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {p2}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
@@ -338,7 +338,7 @@
 
     .line 6
     :cond_1
-    invoke-interface {p2}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {p2}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
 

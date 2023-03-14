@@ -17,7 +17,7 @@
     value = "SMAP\nHeapObject.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HeapObject.kt\nkshark/HeapObject$HeapClass\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 _Sequences.kt\nkotlin/sequences/SequencesKt___SequencesKt\n*L\n1#1,610:1\n1871#2,5:611\n1026#3,2:616\n1026#3,2:618\n*E\n*S KotlinDebug\n*F\n+ 1 HeapObject.kt\nkshark/HeapObject$HeapClass\n*L\n120#1,5:611\n163#1,2:616\n170#1,2:618\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,10 +41,10 @@
         "Lkshark/m$b$c$a;",
         "z",
         "()Lkshark/m$b$c$a;",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "Lkshark/h;",
         "B",
-        "()Lkotlin/sequences/m;",
+        "()Lcotlin/sequences/m;",
         "",
         "fieldName",
         "A",
@@ -75,7 +75,7 @@
         "s",
         "simpleName",
         "c",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "_classHierarchy",
         "Lkshark/HeapObject$HeapInstance;",
         "n",
@@ -118,10 +118,10 @@
 
 
 # instance fields
-.field private c:Lkotlin/sequences/m;
+.field private c:Lcotlin/sequences/m;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Lkshark/HeapObject$HeapClass;",
             ">;"
         }
@@ -149,16 +149,16 @@
 
     const-string v0, "hprofGraph"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "indexedObject"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, v0}, Lkshark/HeapObject;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {p0, v0}, Lkshark/HeapObject;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lkshark/HeapObject$HeapClass;->d:Lkshark/HprofHeapGraph;
 
@@ -191,7 +191,7 @@
 
     const-string v0, "fieldName"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lkshark/HeapObject$HeapClass;->z()Lkshark/m$b$c$a;
@@ -230,7 +230,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -272,12 +272,12 @@
     return-object p1
 .end method
 
-.method public final B()Lkotlin/sequences/m;
+.method public final B()Lcotlin/sequences/m;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Lkshark/h;",
             ">;"
         }
@@ -295,7 +295,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/collections/s;->n1(Ljava/lang/Iterable;)Lkotlin/sequences/m;
+    invoke-static {v0}, Lcotlin/collections/s;->n1(Ljava/lang/Iterable;)Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -304,7 +304,7 @@
 
     invoke-direct {v1, p0}, Lkshark/HeapObject$HeapClass$readStaticFields$1;-><init>(Lkshark/HeapObject$HeapClass;)V
 
-    invoke-static {v0, v1}, Lkotlin/sequences/p;->b1(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v0, v1}, Lcotlin/sequences/p;->b1(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -320,15 +320,15 @@
 
     const-string v0, "superclass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0}, Lkshark/HeapObject$HeapClass;->k()Lkotlin/sequences/m;
+    invoke-virtual {p0}, Lkshark/HeapObject$HeapClass;->k()Lcotlin/sequences/m;
 
     move-result-object v0
 
     .line 2
-    invoke-interface {v0}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -385,15 +385,15 @@
 
     const-string v0, "subclass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p1}, Lkshark/HeapObject$HeapClass;->k()Lkotlin/sequences/m;
+    invoke-virtual {p1}, Lkshark/HeapObject$HeapClass;->k()Lcotlin/sequences/m;
 
     move-result-object p1
 
     .line 2
-    invoke-interface {p1}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
@@ -483,7 +483,7 @@
 
     const-string v0, "fieldName"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0, p1}, Lkshark/HeapObject$HeapClass;->A(Ljava/lang/String;)Lkshark/h;
@@ -493,12 +493,12 @@
     return-object p1
 .end method
 
-.method public final k()Lkotlin/sequences/m;
+.method public final k()Lcotlin/sequences/m;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Lkshark/HeapObject$HeapClass;",
             ">;"
         }
@@ -508,37 +508,37 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkshark/HeapObject$HeapClass;->c:Lkotlin/sequences/m;
+    iget-object v0, p0, Lkshark/HeapObject$HeapClass;->c:Lcotlin/sequences/m;
 
     if-nez v0, :cond_0
 
     .line 2
     sget-object v0, Lkshark/HeapObject$HeapClass$classHierarchy$1;->INSTANCE:Lkshark/HeapObject$HeapClass$classHierarchy$1;
 
-    invoke-static {p0, v0}, Lkotlin/sequences/p;->o(Ljava/lang/Object;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {p0, v0}, Lcotlin/sequences/p;->o(Ljava/lang/Object;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkshark/HeapObject$HeapClass;->c:Lkotlin/sequences/m;
+    iput-object v0, p0, Lkshark/HeapObject$HeapClass;->c:Lcotlin/sequences/m;
 
     .line 3
     :cond_0
-    iget-object v0, p0, Lkshark/HeapObject$HeapClass;->c:Lkotlin/sequences/m;
+    iget-object v0, p0, Lkshark/HeapObject$HeapClass;->c:Lcotlin/sequences/m;
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     return-object v0
 .end method
 
-.method public final l()Lkotlin/sequences/m;
+.method public final l()Lcotlin/sequences/m;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Lkshark/HeapObject$HeapInstance;",
             ">;"
         }
@@ -550,7 +550,7 @@
     .line 1
     iget-object v0, p0, Lkshark/HeapObject$HeapClass;->d:Lkshark/HprofHeapGraph;
 
-    invoke-virtual {v0}, Lkshark/HprofHeapGraph;->f()Lkotlin/sequences/m;
+    invoke-virtual {v0}, Lkshark/HprofHeapGraph;->f()Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -558,7 +558,7 @@
 
     invoke-direct {v1, p0}, Lkshark/HeapObject$HeapClass$directInstances$1;-><init>(Lkshark/HeapObject$HeapClass;)V
 
-    invoke-static {v0, v1}, Lkotlin/sequences/p;->i0(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v0, v1}, Lcotlin/sequences/p;->i0(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -578,12 +578,12 @@
     return v0
 .end method
 
-.method public final n()Lkotlin/sequences/m;
+.method public final n()Lcotlin/sequences/m;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Lkshark/HeapObject$HeapInstance;",
             ">;"
         }
@@ -602,7 +602,7 @@
     .line 2
     iget-object v0, p0, Lkshark/HeapObject$HeapClass;->d:Lkshark/HprofHeapGraph;
 
-    invoke-virtual {v0}, Lkshark/HprofHeapGraph;->f()Lkotlin/sequences/m;
+    invoke-virtual {v0}, Lkshark/HprofHeapGraph;->f()Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -610,7 +610,7 @@
 
     invoke-direct {v1, p0}, Lkshark/HeapObject$HeapClass$instances$1;-><init>(Lkshark/HeapObject$HeapClass;)V
 
-    invoke-static {v0, v1}, Lkotlin/sequences/p;->i0(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v0, v1}, Lcotlin/sequences/p;->i0(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -618,7 +618,7 @@
 
     .line 3
     :cond_0
-    invoke-static {}, Lkotlin/sequences/p;->j()Lkotlin/sequences/m;
+    invoke-static {}, Lcotlin/sequences/p;->j()Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -639,7 +639,7 @@
     .line 2
     iget-object v0, p0, Lkshark/HeapObject$HeapClass;->d:Lkshark/HprofHeapGraph;
 
-    invoke-virtual {v0}, Lkshark/HprofHeapGraph;->f()Lkotlin/sequences/m;
+    invoke-virtual {v0}, Lkshark/HprofHeapGraph;->f()Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -647,11 +647,11 @@
 
     invoke-direct {v1, p0}, Lkshark/HeapObject$HeapClass$instancesCount$1;-><init>(Lkshark/HeapObject$HeapClass;)V
 
-    invoke-static {v0, v1}, Lkotlin/sequences/p;->i0(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v0, v1}, Lcotlin/sequences/p;->i0(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/sequences/p;->Z(Lkotlin/sequences/m;)I
+    invoke-static {v0}, Lcotlin/sequences/p;->Z(Lcotlin/sequences/m;)I
 
     move-result v0
 
@@ -683,12 +683,12 @@
     return-object v0
 .end method
 
-.method public final q()Lkotlin/sequences/m;
+.method public final q()Lcotlin/sequences/m;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Lkshark/HeapObject$HeapObjectArray;",
             ">;"
         }
@@ -707,7 +707,7 @@
     .line 2
     iget-object v0, p0, Lkshark/HeapObject$HeapClass;->d:Lkshark/HprofHeapGraph;
 
-    invoke-virtual {v0}, Lkshark/HprofHeapGraph;->j()Lkotlin/sequences/m;
+    invoke-virtual {v0}, Lkshark/HprofHeapGraph;->j()Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -715,7 +715,7 @@
 
     invoke-direct {v1, p0}, Lkshark/HeapObject$HeapClass$objectArrayInstances$1;-><init>(Lkshark/HeapObject$HeapClass;)V
 
-    invoke-static {v0, v1}, Lkotlin/sequences/p;->i0(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v0, v1}, Lcotlin/sequences/p;->i0(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -723,7 +723,7 @@
 
     .line 3
     :cond_0
-    invoke-static {}, Lkotlin/sequences/p;->j()Lkotlin/sequences/m;
+    invoke-static {}, Lcotlin/sequences/p;->j()Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -731,12 +731,12 @@
     return-object v0
 .end method
 
-.method public final r()Lkotlin/sequences/m;
+.method public final r()Lcotlin/sequences/m;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Lkshark/HeapObject$b;",
             ">;"
         }
@@ -770,7 +770,7 @@
     .line 3
     iget-object v1, p0, Lkshark/HeapObject$HeapClass;->d:Lkshark/HprofHeapGraph;
 
-    invoke-virtual {v1}, Lkshark/HprofHeapGraph;->b()Lkotlin/sequences/m;
+    invoke-virtual {v1}, Lkshark/HprofHeapGraph;->b()Lcotlin/sequences/m;
 
     move-result-object v1
 
@@ -778,7 +778,7 @@
 
     invoke-direct {v2, v0}, Lkshark/HeapObject$HeapClass$primitiveArrayInstances$1;-><init>(Lkshark/PrimitiveType;)V
 
-    invoke-static {v1, v2}, Lkotlin/sequences/p;->i0(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v1, v2}, Lcotlin/sequences/p;->i0(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -786,7 +786,7 @@
 
     .line 4
     :cond_0
-    invoke-static {}, Lkotlin/sequences/p;->j()Lkotlin/sequences/m;
+    invoke-static {}, Lcotlin/sequences/p;->j()Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -813,12 +813,12 @@
     return-object v0
 .end method
 
-.method public final t()Lkotlin/sequences/m;
+.method public final t()Lcotlin/sequences/m;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Lkshark/HeapObject$HeapClass;",
             ">;"
         }
@@ -830,7 +830,7 @@
     .line 1
     iget-object v0, p0, Lkshark/HeapObject$HeapClass;->d:Lkshark/HprofHeapGraph;
 
-    invoke-virtual {v0}, Lkshark/HprofHeapGraph;->g()Lkotlin/sequences/m;
+    invoke-virtual {v0}, Lkshark/HprofHeapGraph;->g()Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -838,7 +838,7 @@
 
     invoke-direct {v1, p0}, Lkshark/HeapObject$HeapClass$subclasses$1;-><init>(Lkshark/HeapObject$HeapClass;)V
 
-    invoke-static {v0, v1}, Lkotlin/sequences/p;->i0(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v0, v1}, Lcotlin/sequences/p;->i0(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -915,11 +915,11 @@
     return-object v0
 
     :cond_1
-    new-instance v0, Lkotlin/TypeCastException;
+    new-instance v0, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type kshark.HeapObject.HeapClass"
 
-    invoke-direct {v0, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -940,7 +940,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v0, v1, v2, v3, v4}, Lkotlin/text/m;->H1(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
+    invoke-static {v0, v1, v2, v3, v4}, Lcotlin/text/m;->H1(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v0
 
@@ -1060,7 +1060,7 @@
 
     move-result-object v2
 
-    invoke-static {v3, v2}, Lkotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v3, v2}, Lcotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 

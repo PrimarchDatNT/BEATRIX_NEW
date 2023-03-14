@@ -1,15 +1,15 @@
-.class public final Lkotlin/collections/ArraysKt___ArraysKt$a;
+.class public final Lcotlin/collections/ArraysKt___ArraysKt$a;
 .super Ljava/lang/Object;
 .source "Iterables.kt"
 
 # interfaces
 .implements Ljava/lang/Iterable;
-.implements Lkotlin/jvm/internal/x0/a;
+.implements Lcotlin/jvm/internal/x0/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/collections/ArraysKt___ArraysKt;->Y4([Ljava/lang/Object;)Ljava/lang/Iterable;
+    value = Lcotlin/collections/ArraysKt___ArraysKt;->Y4([Ljava/lang/Object;)Ljava/lang/Iterable;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,7 +22,7 @@
         "Ljava/lang/Object;",
         "Ljava/lang/Iterable<",
         "TT;>;",
-        "Lkotlin/jvm/internal/x0/a;"
+        "Lcotlin/jvm/internal/x0/a;"
     }
 .end annotation
 
@@ -30,7 +30,7 @@
     value = "SMAP\nIterables.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Iterables.kt\nkotlin/collections/CollectionsKt__IterablesKt$Iterable$1\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,93:1\n23423#2:94\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -65,7 +65,7 @@
 .method public constructor <init>([Ljava/lang/Object;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/collections/ArraysKt___ArraysKt$a;->a:[Ljava/lang/Object;
+    iput-object p1, p0, Lcotlin/collections/ArraysKt___ArraysKt$a;->a:[Ljava/lang/Object;
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -89,9 +89,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/ArraysKt___ArraysKt$a;->a:[Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/collections/ArraysKt___ArraysKt$a;->a:[Ljava/lang/Object;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/h;->a([Ljava/lang/Object;)Ljava/util/Iterator;
+    invoke-static {v0}, Lcotlin/jvm/internal/h;->a([Ljava/lang/Object;)Ljava/util/Iterator;
 
     move-result-object v0
 

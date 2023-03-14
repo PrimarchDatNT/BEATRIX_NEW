@@ -14,7 +14,7 @@
     value = "SMAP\nByteArrayTimSort.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ByteArrayTimSort.kt\nkshark/internal/aosp/ByteArrayTimSort\n*L\n1#1,1078:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "",
         "runBase",
         "runLen",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "n",
         "(II)V",
         "j",
@@ -119,7 +119,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkshark/internal/i/b$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lkshark/internal/i/b$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lkshark/internal/i/b;->m:Lkshark/internal/i/b$a;
 
@@ -224,7 +224,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>([BLkshark/internal/i/a;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>([BLkshark/internal/i/a;ILcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 1
@@ -304,7 +304,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     array-length v0, v0
@@ -372,7 +372,7 @@
 
     if-nez p1, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     return-object p1

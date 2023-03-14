@@ -1,14 +1,14 @@
-.class final Lkotlin/collections/ArraysKt___ArraysKt$withIndex$6;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlin/collections/ArraysKt___ArraysKt$withIndex$6;
+.super Lcotlin/jvm/internal/Lambda;
 .source "_Arrays.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/collections/ArraysKt___ArraysKt;->mz([F)Ljava/lang/Iterable;
+    value = Lcotlin/collections/ArraysKt___ArraysKt;->mz([F)Ljava/lang/Iterable;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,8 +18,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
         "Ljava/util/Iterator<",
         "+",
         "Ljava/lang/Float;",
@@ -27,7 +27,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -60,11 +60,11 @@
 .method constructor <init>([F)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/collections/ArraysKt___ArraysKt$withIndex$6;->$this_withIndex:[F
+    iput-object p1, p0, Lcotlin/collections/ArraysKt___ArraysKt$withIndex$6;->$this_withIndex:[F
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -74,7 +74,7 @@
 .method public bridge synthetic invoke()Ljava/lang/Object;
     .locals 1
 
-    invoke-virtual {p0}, Lkotlin/collections/ArraysKt___ArraysKt$withIndex$6;->invoke()Ljava/util/Iterator;
+    invoke-virtual {p0}, Lcotlin/collections/ArraysKt___ArraysKt$withIndex$6;->invoke()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -96,9 +96,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/ArraysKt___ArraysKt$withIndex$6;->$this_withIndex:[F
+    iget-object v0, p0, Lcotlin/collections/ArraysKt___ArraysKt$withIndex$6;->$this_withIndex:[F
 
-    invoke-static {v0}, Lkotlin/jvm/internal/i;->e([F)Lkotlin/collections/d0;
+    invoke-static {v0}, Lcotlin/jvm/internal/i;->e([F)Lcotlin/collections/d0;
 
     move-result-object v0
 

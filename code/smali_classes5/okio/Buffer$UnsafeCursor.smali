@@ -20,7 +20,7 @@
     value = "SMAP\nBuffer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Buffer.kt\nokio/Buffer$UnsafeCursor\n+ 2 -Util.kt\nokio/-Util\n*L\n1#1,2216:1\n72#2:2217\n*E\n*S KotlinDebug\n*F\n+ 1 Buffer.kt\nokio/Buffer$UnsafeCursor\n*L\n2134#1:2217\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "minByteCount",
         "expandBuffer",
         "(I)J",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "close",
         "()V",
         "end",
@@ -78,7 +78,7 @@
 
 # instance fields
 .field public buffer:Lokio/Buffer;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -86,7 +86,7 @@
 .end field
 
 .field public data:[B
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -94,24 +94,24 @@
 .end field
 
 .field public end:I
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 .end field
 
 .field public offset:J
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 .end field
 
 .field public readWrite:Z
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 .end field
 
 .field private segment:Lokio/Segment;
 
 .field public start:I
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 .end field
 
@@ -378,7 +378,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v2}, Lokio/Buffer;->size()J
@@ -501,7 +501,7 @@
 
     if-nez v10, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     iget-object v10, v10, Lokio/Segment;->prev:Lokio/Segment;
@@ -509,7 +509,7 @@
     if-nez v10, :cond_2
 
     .line 5
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     iget v11, v10, Lokio/Segment;->limit:I
@@ -765,7 +765,7 @@
 
     if-nez v6, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     iget v6, v6, Lokio/Segment;->pos:I
@@ -817,7 +817,7 @@
     if-nez v6, :cond_4
 
     .line 10
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
     iget v3, v6, Lokio/Segment;->limit:I
@@ -854,7 +854,7 @@
     if-nez v5, :cond_6
 
     .line 12
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     iget-object v5, v5, Lokio/Segment;->prev:Lokio/Segment;
@@ -862,7 +862,7 @@
     if-nez v5, :cond_7
 
     .line 13
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_7
     iget v1, v5, Lokio/Segment;->limit:I
@@ -890,7 +890,7 @@
 
     if-nez v6, :cond_a
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_a
     iget-boolean v3, v6, Lokio/Segment;->shared:Z
@@ -921,7 +921,7 @@
 
     if-nez v0, :cond_c
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_c
     invoke-virtual {v0}, Lokio/Segment;->pop()Lokio/Segment;
@@ -936,7 +936,7 @@
     if-nez v6, :cond_e
 
     .line 22
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_e
     iget-object v0, v6, Lokio/Segment;->data:[B
@@ -989,7 +989,7 @@
     new-instance v1, Ljava/lang/ArrayIndexOutOfBoundsException;
 
     .line 31
-    sget-object v2, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
+    sget-object v2, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     const/4 v2, 0x2
 
@@ -1027,7 +1027,7 @@
 
     const-string p2, "java.lang.String.format(format, *args)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 32
     invoke-direct {v1, p1}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>(Ljava/lang/String;)V

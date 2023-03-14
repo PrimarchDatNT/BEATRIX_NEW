@@ -18,7 +18,7 @@
     value = "SMAP\nHprof.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Hprof.kt\nkshark/Hprof\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,101:1\n8888#2:102\n9221#2,3:103\n*E\n*S KotlinDebug\n*F\n+ 1 Hprof.kt\nkshark/Hprof\n*L\n59#1:102\n59#1,3:103\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
     d2 = {
         "Lkshark/Hprof;",
         "Ljava/io/Closeable;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "close",
         "()V",
         "",
@@ -118,7 +118,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkshark/Hprof$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lkshark/Hprof$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lkshark/Hprof;->J:Lkshark/Hprof$a;
 
@@ -149,7 +149,7 @@
 
     move-result-object v5
 
-    invoke-static {v5, v4}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v5, v4}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object v4
 
@@ -161,7 +161,7 @@
 
     .line 5
     :cond_0
-    invoke-static {v1}, Lkotlin/collections/q0;->B0(Ljava/lang/Iterable;)Ljava/util/Map;
+    invoke-static {v1}, Lcotlin/collections/q0;->B0(Ljava/lang/Iterable;)Ljava/util/Map;
 
     move-result-object v0
 
@@ -191,7 +191,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/nio/channels/FileChannel;Lokio/BufferedSource;Lkshark/l;JLkshark/Hprof$HprofVersion;JLkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Ljava/nio/channels/FileChannel;Lokio/BufferedSource;Lkshark/l;JLkshark/Hprof$HprofVersion;JLcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2

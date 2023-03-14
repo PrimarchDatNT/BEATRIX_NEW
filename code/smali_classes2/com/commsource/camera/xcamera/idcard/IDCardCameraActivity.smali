@@ -11,7 +11,7 @@
     value = "SMAP\nIDCardCameraActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 IDCardCameraActivity.kt\ncom/commsource/camera/xcamera/idcard/IDCardCameraActivity\n*L\n1#1,102:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,7 +24,7 @@
         "Lcom/commsource/camera/xcamera/idcard/IDCardCameraActivity;",
         "Lcom/commsource/camera/xcamera/BaseCameraNewActivity;",
         "Landroid/view/View$OnLayoutChangeListener;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "X0",
         "()V",
         "Y0",
@@ -268,7 +268,7 @@
 
     move-object v3, p0
 
-    invoke-direct/range {v2 .. v7}, Lcom/commsource/camera/xcamera/cover/CoverGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v2 .. v7}, Lcom/commsource/camera/xcamera/cover/CoverGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
 
     .line 4
     invoke-virtual {v8, p0}, Lcom/commsource/camera/xcamera/cover/CoverGroup;->i(Landroidx/fragment/app/FragmentActivity;)Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
@@ -512,7 +512,7 @@
 
     const-string p6, "bottomFunctionViewModel"
 
-    invoke-static {p6}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p6}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {p3}, Landroid/view/View;->getHeight()I
@@ -528,7 +528,7 @@
 
     const-string p6, "cameraConfigViewModel"
 
-    invoke-static {p6}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p6}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     sub-int/2addr p4, p2

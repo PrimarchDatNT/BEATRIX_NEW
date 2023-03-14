@@ -1,11 +1,11 @@
-.class public final Lkotlin/random/b$a;
+.class public final Lcotlin/random/b$a;
 .super Ljava/lang/ThreadLocal;
 .source "PlatformRandom.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/random/b;-><init>()V
+    value = Lcotlin/random/b;-><init>()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -21,7 +21,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -76,7 +76,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/random/b$a;->a()Ljava/util/Random;
+    invoke-virtual {p0}, Lcotlin/random/b$a;->a()Ljava/util/Random;
 
     move-result-object v0
 

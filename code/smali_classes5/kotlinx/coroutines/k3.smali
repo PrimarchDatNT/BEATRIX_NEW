@@ -1,4 +1,4 @@
-.class public final Lkotlinx/coroutines/k3;
+.class public final Lcotlinx/coroutines/k3;
 .super Ljava/lang/Object;
 .source "ThreadPoolDispatcher.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nThreadPoolDispatcher.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ThreadPoolDispatcher.kt\nkotlinx/coroutines/ThreadPoolDispatcherKt\n*L\n1#1,91:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,13 +20,13 @@
     d2 = {
         "",
         "name",
-        "Lkotlinx/coroutines/ExecutorCoroutineDispatcher;",
+        "Lcotlinx/coroutines/ExecutorCoroutineDispatcher;",
         "b",
-        "(Ljava/lang/String;)Lkotlinx/coroutines/ExecutorCoroutineDispatcher;",
+        "(Ljava/lang/String;)Lcotlinx/coroutines/ExecutorCoroutineDispatcher;",
         "",
         "nThreads",
         "a",
-        "(ILjava/lang/String;)Lkotlinx/coroutines/ExecutorCoroutineDispatcher;",
+        "(ILjava/lang/String;)Lcotlinx/coroutines/ExecutorCoroutineDispatcher;",
         "kotlinx-coroutines-core"
     }
     k = 0x2
@@ -39,13 +39,13 @@
 
 
 # direct methods
-.method public static final a(ILjava/lang/String;)Lkotlinx/coroutines/ExecutorCoroutineDispatcher;
+.method public static final a(ILjava/lang/String;)Lcotlinx/coroutines/ExecutorCoroutineDispatcher;
     .locals 1
     .param p1    # Ljava/lang/String;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlinx/coroutines/r2;
+    .annotation build Lcotlinx/coroutines/r2;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -64,9 +64,9 @@
     if-eqz v0, :cond_1
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/j3;
+    new-instance v0, Lcotlinx/coroutines/j3;
 
-    invoke-direct {v0, p0, p1}, Lkotlinx/coroutines/j3;-><init>(ILjava/lang/String;)V
+    invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/j3;-><init>(ILjava/lang/String;)V
 
     return-object v0
 
@@ -101,13 +101,13 @@
     throw p1
 .end method
 
-.method public static final b(Ljava/lang/String;)Lkotlinx/coroutines/ExecutorCoroutineDispatcher;
+.method public static final b(Ljava/lang/String;)Lcotlinx/coroutines/ExecutorCoroutineDispatcher;
     .locals 1
     .param p0    # Ljava/lang/String;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlinx/coroutines/r2;
+    .annotation build Lcotlinx/coroutines/r2;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -116,7 +116,7 @@
     const/4 v0, 0x1
 
     .line 1
-    invoke-static {v0, p0}, Lkotlinx/coroutines/k3;->a(ILjava/lang/String;)Lkotlinx/coroutines/ExecutorCoroutineDispatcher;
+    invoke-static {v0, p0}, Lcotlinx/coroutines/k3;->a(ILjava/lang/String;)Lcotlinx/coroutines/ExecutorCoroutineDispatcher;
 
     move-result-object p0
 

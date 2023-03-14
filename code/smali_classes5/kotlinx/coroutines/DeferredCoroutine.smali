@@ -1,10 +1,10 @@
-.class Lkotlinx/coroutines/DeferredCoroutine;
-.super Lkotlinx/coroutines/a;
+.class Lcotlinx/coroutines/DeferredCoroutine;
+.super Lcotlinx/coroutines/a;
 .source "Builders.common.kt"
 
 # interfaces
-.implements Lkotlinx/coroutines/t0;
-.implements Lkotlinx/coroutines/selects/d;
+.implements Lcotlinx/coroutines/t0;
+.implements Lcotlinx/coroutines/selects/d;
 
 
 # annotations
@@ -13,16 +13,16 @@
         "<T:",
         "Ljava/lang/Object;",
         ">",
-        "Lkotlinx/coroutines/a<",
+        "Lcotlinx/coroutines/a<",
         "TT;>;",
-        "Lkotlinx/coroutines/t0<",
+        "Lcotlinx/coroutines/t0<",
         "TT;>;",
-        "Lkotlinx/coroutines/selects/d<",
+        "Lcotlinx/coroutines/selects/d<",
         "TT;>;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,34 +32,34 @@
         "\u0000@\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0004\u0008\u0012\u0018\u0000*\u0004\u0008\u0000\u0010\u00012\u0008\u0012\u0004\u0012\u00028\u00000\u00022\u0008\u0012\u0004\u0012\u00028\u00000\u00032\u0008\u0012\u0004\u0012\u00028\u00000\u0004B\u0017\u0012\u0006\u0010\u0017\u001a\u00020\u0016\u0012\u0006\u0010\u0019\u001a\u00020\u0018\u00a2\u0006\u0004\u0008\u001a\u0010\u001bJ\u000f\u0010\u0005\u001a\u00028\u0000H\u0016\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u0013\u0010\u0007\u001a\u00028\u0000H\u0096@\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0007\u0010\u0008JJ\u0010\u0011\u001a\u00020\u0010\"\u0004\u0008\u0001\u0010\t2\u000c\u0010\u000b\u001a\u0008\u0012\u0004\u0012\u00028\u00010\n2\"\u0010\u000f\u001a\u001e\u0008\u0001\u0012\u0004\u0012\u00028\u0000\u0012\n\u0012\u0008\u0012\u0004\u0012\u00028\u00010\r\u0012\u0006\u0012\u0004\u0018\u00010\u000e0\u000cH\u0016\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0011\u0010\u0012R\u001c\u0010\u0015\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u00048V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0013\u0010\u0014\u0082\u0002\u0004\n\u0002\u0008\u0019\u00a8\u0006\u001c"
     }
     d2 = {
-        "Lkotlinx/coroutines/DeferredCoroutine;",
+        "Lcotlinx/coroutines/DeferredCoroutine;",
         "T",
-        "Lkotlinx/coroutines/a;",
-        "Lkotlinx/coroutines/t0;",
-        "Lkotlinx/coroutines/selects/d;",
+        "Lcotlinx/coroutines/a;",
+        "Lcotlinx/coroutines/t0;",
+        "Lcotlinx/coroutines/selects/d;",
         "h",
         "()Ljava/lang/Object;",
         "r",
-        "(Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "R",
-        "Lkotlinx/coroutines/selects/f;",
+        "Lcotlinx/coroutines/selects/f;",
         "select",
-        "Lkotlin/Function2;",
-        "Lkotlin/coroutines/c;",
+        "Lcotlin/Function2;",
+        "Lcotlin/coroutines/c;",
         "",
         "block",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "k",
-        "(Lkotlinx/coroutines/selects/f;Lkotlin/jvm/u/p;)V",
+        "(Lcotlinx/coroutines/selects/f;Lcotlin/jvm/u/p;)V",
         "H",
-        "()Lkotlinx/coroutines/selects/d;",
+        "()Lcotlinx/coroutines/selects/d;",
         "onAwait",
-        "Lkotlin/coroutines/CoroutineContext;",
+        "Lcotlin/coroutines/CoroutineContext;",
         "parentContext",
         "",
         "active",
         "<init>",
-        "(Lkotlin/coroutines/CoroutineContext;Z)V",
+        "(Lcotlin/coroutines/CoroutineContext;Z)V",
         "kotlinx-coroutines-core"
     }
     k = 0x1
@@ -72,31 +72,31 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/coroutines/CoroutineContext;Z)V
+.method public constructor <init>(Lcotlin/coroutines/CoroutineContext;Z)V
     .locals 0
-    .param p1    # Lkotlin/coroutines/CoroutineContext;
+    .param p1    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lkotlinx/coroutines/a;-><init>(Lkotlin/coroutines/CoroutineContext;Z)V
+    invoke-direct {p0, p1, p2}, Lcotlinx/coroutines/a;-><init>(Lcotlin/coroutines/CoroutineContext;Z)V
 
     return-void
 .end method
 
-.method static synthetic x1(Lkotlinx/coroutines/DeferredCoroutine;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method static synthetic x1(Lcotlinx/coroutines/DeferredCoroutine;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
 
-    instance-of v0, p1, Lkotlinx/coroutines/DeferredCoroutine$await$1;
+    instance-of v0, p1, Lcotlinx/coroutines/DeferredCoroutine$await$1;
 
     if-eqz v0, :cond_0
 
     move-object v0, p1
 
-    check-cast v0, Lkotlinx/coroutines/DeferredCoroutine$await$1;
+    check-cast v0, Lcotlinx/coroutines/DeferredCoroutine$await$1;
 
-    iget v1, v0, Lkotlinx/coroutines/DeferredCoroutine$await$1;->label:I
+    iget v1, v0, Lcotlinx/coroutines/DeferredCoroutine$await$1;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -106,24 +106,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/DeferredCoroutine$await$1;->label:I
+    iput v1, v0, Lcotlinx/coroutines/DeferredCoroutine$await$1;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/DeferredCoroutine$await$1;
+    new-instance v0, Lcotlinx/coroutines/DeferredCoroutine$await$1;
 
-    invoke-direct {v0, p0, p1}, Lkotlinx/coroutines/DeferredCoroutine$await$1;-><init>(Lkotlinx/coroutines/DeferredCoroutine;Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/DeferredCoroutine$await$1;-><init>(Lcotlinx/coroutines/DeferredCoroutine;Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p1, v0, Lkotlinx/coroutines/DeferredCoroutine$await$1;->result:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/DeferredCoroutine$await$1;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/DeferredCoroutine$await$1;->label:I
+    iget v2, v0, Lcotlinx/coroutines/DeferredCoroutine$await$1;->label:I
 
     const/4 v3, 0x1
 
@@ -131,11 +131,11 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p0, v0, Lkotlinx/coroutines/DeferredCoroutine$await$1;->L$0:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/DeferredCoroutine$await$1;->L$0:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/DeferredCoroutine;
+    check-cast p0, Lcotlinx/coroutines/DeferredCoroutine;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -149,13 +149,13 @@
     throw p0
 
     :cond_2
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    iput-object p0, v0, Lkotlinx/coroutines/DeferredCoroutine$await$1;->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/DeferredCoroutine$await$1;->L$0:Ljava/lang/Object;
 
-    iput v3, v0, Lkotlinx/coroutines/DeferredCoroutine$await$1;->label:I
+    iput v3, v0, Lcotlinx/coroutines/DeferredCoroutine$await$1;->label:I
 
-    invoke-virtual {p0, v0}, Lkotlinx/coroutines/JobSupport;->e0(Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Lcotlinx/coroutines/JobSupport;->e0(Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -170,12 +170,12 @@
 
 
 # virtual methods
-.method public H()Lkotlinx/coroutines/selects/d;
+.method public H()Lcotlinx/coroutines/selects/d;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlinx/coroutines/selects/d<",
+            "Lcotlinx/coroutines/selects/d<",
             "TT;>;"
         }
     .end annotation
@@ -195,20 +195,20 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlinx/coroutines/JobSupport;->u0()Ljava/lang/Object;
+    invoke-virtual {p0}, Lcotlinx/coroutines/JobSupport;->u0()Ljava/lang/Object;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public k(Lkotlinx/coroutines/selects/f;Lkotlin/jvm/u/p;)V
+.method public k(Lcotlinx/coroutines/selects/f;Lcotlin/jvm/u/p;)V
     .locals 0
-    .param p1    # Lkotlinx/coroutines/selects/f;
+    .param p1    # Lcotlinx/coroutines/selects/f;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -217,11 +217,11 @@
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/selects/f<",
+            "Lcotlinx/coroutines/selects/f<",
             "-TR;>;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-TT;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TR;>;+",
             "Ljava/lang/Object;",
             ">;)V"
@@ -229,21 +229,21 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/JobSupport;->b1(Lkotlinx/coroutines/selects/f;Lkotlin/jvm/u/p;)V
+    invoke-virtual {p0, p1, p2}, Lcotlinx/coroutines/JobSupport;->b1(Lcotlinx/coroutines/selects/f;Lcotlin/jvm/u/p;)V
 
     return-void
 .end method
 
-.method public r(Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public r(Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TT;>;)",
             "Ljava/lang/Object;"
         }
@@ -252,7 +252,7 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlinx/coroutines/DeferredCoroutine;->x1(Lkotlinx/coroutines/DeferredCoroutine;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/DeferredCoroutine;->x1(Lcotlinx/coroutines/DeferredCoroutine;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 

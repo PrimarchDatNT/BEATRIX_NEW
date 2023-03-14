@@ -13,7 +13,7 @@
     name = "INPUT_METHOD_MANAGER"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Lkshark/AndroidObjectInspectors;",
         "Lkshark/v;",
         "reporter",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "inspect",
         "(Lkshark/v;)V",
         "shark"
@@ -53,7 +53,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, p1, p2, v0}, Lkshark/AndroidObjectInspectors;-><init>(Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, p1, p2, v0}, Lkshark/AndroidObjectInspectors;-><init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -69,14 +69,14 @@
 
     const-string v0, "reporter"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v0, Lkshark/AndroidObjectInspectors$INPUT_METHOD_MANAGER$inspect$1;->INSTANCE:Lkshark/AndroidObjectInspectors$INPUT_METHOD_MANAGER$inspect$1;
 
     const-string v1, "android.view.inputmethod.InputMethodManager"
 
-    invoke-virtual {p1, v1, v0}, Lkshark/v;->g(Ljava/lang/String;Lkotlin/jvm/u/p;)V
+    invoke-virtual {p1, v1, v0}, Lkshark/v;->g(Ljava/lang/String;Lcotlin/jvm/u/p;)V
 
     return-void
 .end method

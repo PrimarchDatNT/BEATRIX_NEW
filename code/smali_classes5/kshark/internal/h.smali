@@ -14,7 +14,7 @@
     value = "SMAP\nUnsortedByteEntries.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UnsortedByteEntries.kt\nkshark/internal/UnsortedByteEntries\n*L\n1#1,196:1\n99#1:197\n99#1:198\n99#1:199\n99#1:200\n96#1:201\n96#1:202\n96#1:203\n96#1:204\n96#1:205\n96#1:206\n96#1:207\n96#1:208\n*E\n*S KotlinDebug\n*F\n+ 1 UnsortedByteEntries.kt\nkshark/internal/UnsortedByteEntries\n*L\n89#1:197\n90#1:198\n91#1:199\n92#1:200\n106#1:201\n107#1:202\n108#1:203\n109#1:204\n110#1:205\n111#1:206\n112#1:207\n113#1:208\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -42,7 +42,7 @@
         "q",
         "([BI)J",
         "newCapacity",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "n",
         "(I)V",
         "key",
@@ -154,7 +154,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(IZIDILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(IZIDILcotlin/jvm/internal/u;)V
     .locals 6
 
     and-int/lit8 p7, p6, 0x4
@@ -602,7 +602,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 4
     :cond_1
@@ -642,7 +642,7 @@
 
     const-string v2, "java.util.Arrays.copyOf(this, newSize)"
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     :cond_2
     const/4 v2, 0x0

@@ -32,7 +32,7 @@
     value = "SMAP\nTopBarCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TopBarCover.kt\ncom/commsource/camera/xcamera/cover/TopBarCover$initViewModel$6\n*L\n1#1,464:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Boolean;)V"
     }
@@ -104,7 +104,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w4;->f:Lcom/commsource/widget/IconFrontView;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/high16 v1, 0x3f800000    # 1.0f
 
@@ -139,7 +139,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w4;->f:Lcom/commsource/widget/IconFrontView;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/high16 v1, 0x3f000000    # 0.5f
 

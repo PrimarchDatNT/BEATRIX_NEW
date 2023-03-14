@@ -32,7 +32,7 @@
     value = "SMAP\nDoodlePagerFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DoodlePagerFragment.kt\ncom/commsource/studio/doodle/DoodlePagerFragment$initViewModel$3\n*L\n1#1,314:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "Lcom/commsource/studio/doodle/DoodleMaterial;",
         "kotlin.jvm.PlatformType",
         "doodle",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/studio/doodle/DoodleMaterial;)V"
     }
@@ -122,7 +122,7 @@
 
     const-string v5, "-1"
 
-    invoke-static {v3, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
 
@@ -225,7 +225,7 @@
 
     move-result-object v5
 
-    invoke-static {v3, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
 

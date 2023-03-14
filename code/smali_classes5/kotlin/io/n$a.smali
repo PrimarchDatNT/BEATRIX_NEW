@@ -1,15 +1,15 @@
-.class public final Lkotlin/io/n$a;
+.class public final Lcotlin/io/n$a;
 .super Ljava/lang/Object;
 .source "ReadWrite.kt"
 
 # interfaces
 .implements Ljava/util/Iterator;
-.implements Lkotlin/jvm/internal/x0/a;
+.implements Lcotlin/jvm/internal/x0/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/io/n;->iterator()Ljava/util/Iterator;
+    value = Lcotlin/io/n;->iterator()Ljava/util/Iterator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -23,11 +23,11 @@
         "Ljava/util/Iterator<",
         "Ljava/lang/String;",
         ">;",
-        "Lkotlin/jvm/internal/x0/a;"
+        "Lcotlin/jvm/internal/x0/a;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -66,11 +66,11 @@
 
 .field private b:Z
 
-.field final synthetic c:Lkotlin/io/n;
+.field final synthetic c:Lcotlin/io/n;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/io/n;)V
+.method constructor <init>(Lcotlin/io/n;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -79,7 +79,7 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lkotlin/io/n$a;->c:Lkotlin/io/n;
+    iput-object p1, p0, Lcotlin/io/n$a;->c:Lcotlin/io/n;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -94,22 +94,22 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/io/n$a;->hasNext()Z
+    invoke-virtual {p0}, Lcotlin/io/n$a;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 2
-    iget-object v0, p0, Lkotlin/io/n$a;->a:Ljava/lang/String;
+    iget-object v0, p0, Lcotlin/io/n$a;->a:Ljava/lang/String;
 
     const/4 v1, 0x0
 
     .line 3
-    iput-object v1, p0, Lkotlin/io/n$a;->a:Ljava/lang/String;
+    iput-object v1, p0, Lcotlin/io/n$a;->a:Ljava/lang/String;
 
     .line 4
-    invoke-static {v0}, Lkotlin/jvm/internal/f0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lcotlin/jvm/internal/f0;->m(Ljava/lang/Object;)V
 
     return-object v0
 
@@ -126,20 +126,20 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lkotlin/io/n$a;->a:Ljava/lang/String;
+    iget-object v0, p0, Lcotlin/io/n$a;->a:Ljava/lang/String;
 
     const/4 v1, 0x1
 
     if-nez v0, :cond_0
 
-    iget-boolean v0, p0, Lkotlin/io/n$a;->b:Z
+    iget-boolean v0, p0, Lcotlin/io/n$a;->b:Z
 
     if-nez v0, :cond_0
 
     .line 2
-    iget-object v0, p0, Lkotlin/io/n$a;->c:Lkotlin/io/n;
+    iget-object v0, p0, Lcotlin/io/n$a;->c:Lcotlin/io/n;
 
-    invoke-static {v0}, Lkotlin/io/n;->c(Lkotlin/io/n;)Ljava/io/BufferedReader;
+    invoke-static {v0}, Lcotlin/io/n;->c(Lcotlin/io/n;)Ljava/io/BufferedReader;
 
     move-result-object v0
 
@@ -147,16 +147,16 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkotlin/io/n$a;->a:Ljava/lang/String;
+    iput-object v0, p0, Lcotlin/io/n$a;->a:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
     .line 3
-    iput-boolean v1, p0, Lkotlin/io/n$a;->b:Z
+    iput-boolean v1, p0, Lcotlin/io/n$a;->b:Z
 
     .line 4
     :cond_0
-    iget-object v0, p0, Lkotlin/io/n$a;->a:Ljava/lang/String;
+    iget-object v0, p0, Lcotlin/io/n$a;->a:Ljava/lang/String;
 
     if-eqz v0, :cond_1
 
@@ -173,7 +173,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/io/n$a;->a()Ljava/lang/String;
+    invoke-virtual {p0}, Lcotlin/io/n$a;->a()Ljava/lang/String;
 
     move-result-object v0
 

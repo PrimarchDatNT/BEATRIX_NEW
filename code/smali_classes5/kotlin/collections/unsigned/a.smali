@@ -1,9 +1,9 @@
-.class public final Lkotlin/collections/unsigned/a;
-.super Lkotlin/collections/unsigned/UArraysKt___UArraysKt;
+.class public final Lcotlin/collections/unsigned/a;
+.super Lcotlin/collections/unsigned/UArraysKt___UArraysKt;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/collections/unsigned/UArraysKt___UArraysKt;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/unsigned/UArraysKt___UArraysKt;-><init>()V
 
     return-void
 .end method
@@ -39,17 +39,17 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/unsigned/UArraysKt___UArraysKt;->L0([B)Ljava/lang/String;
+    invoke-static {p0}, Lcotlin/collections/unsigned/UArraysKt___UArraysKt;->L0([B)Ljava/lang/String;
 
     move-result-object p0
 
@@ -62,17 +62,17 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/unsigned/UArraysKt___UArraysKt;->O0([I)Ljava/lang/String;
+    invoke-static {p0}, Lcotlin/collections/unsigned/UArraysKt___UArraysKt;->O0([I)Ljava/lang/String;
 
     move-result-object p0
 
@@ -85,17 +85,17 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/unsigned/UArraysKt___UArraysKt;->P0([S)Ljava/lang/String;
+    invoke-static {p0}, Lcotlin/collections/unsigned/UArraysKt___UArraysKt;->P0([S)Ljava/lang/String;
 
     move-result-object p0
 
@@ -108,17 +108,17 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/unsigned/UArraysKt___UArraysKt;->R0([J)Ljava/lang/String;
+    invoke-static {p0}, Lcotlin/collections/unsigned/UArraysKt___UArraysKt;->R0([J)Ljava/lang/String;
 
     move-result-object p0
 
@@ -135,14 +135,14 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/unsigned/UArraysKt___UArraysKt;->u0([S[S)Z
+    invoke-static {p0, p1}, Lcotlin/collections/unsigned/UArraysKt___UArraysKt;->u0([S[S)Z
 
     move-result p0
 
@@ -159,14 +159,14 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/unsigned/UArraysKt___UArraysKt;->v0([I[I)Z
+    invoke-static {p0, p1}, Lcotlin/collections/unsigned/UArraysKt___UArraysKt;->v0([I[I)Z
 
     move-result p0
 
@@ -183,14 +183,14 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/unsigned/UArraysKt___UArraysKt;->x0([B[B)Z
+    invoke-static {p0, p1}, Lcotlin/collections/unsigned/UArraysKt___UArraysKt;->x0([B[B)Z
 
     move-result p0
 
@@ -207,14 +207,14 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/unsigned/UArraysKt___UArraysKt;->z0([J[J)Z
+    invoke-static {p0, p1}, Lcotlin/collections/unsigned/UArraysKt___UArraysKt;->z0([J[J)Z
 
     move-result p0
 

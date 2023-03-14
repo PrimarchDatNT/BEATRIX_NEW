@@ -1,4 +1,4 @@
-.class Lkotlin/collections/o;
+.class Lcotlin/collections/o;
 .super Ljava/lang/Object;
 .source "ArraysUtilJVM.java"
 

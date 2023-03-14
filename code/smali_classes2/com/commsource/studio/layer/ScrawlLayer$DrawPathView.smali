@@ -13,7 +13,7 @@
     name = "DrawPathView"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Landroid/view/View;",
         "Landroid/graphics/Canvas;",
         "canvas",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onDraw",
         "(Landroid/graphics/Canvas;)V",
         "Landroid/content/Context;",
@@ -68,7 +68,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/ScrawlLayer$DrawPathView;->a:Lcom/commsource/studio/layer/ScrawlLayer;
@@ -203,7 +203,7 @@
 
     if-nez p1, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-virtual {v1, p1}, Lcom/commsource/studio/layer/ScrawlLayer;->d(Landroid/graphics/Canvas;)V

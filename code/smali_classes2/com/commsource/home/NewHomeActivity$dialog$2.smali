@@ -1,9 +1,9 @@
 .class final Lcom/commsource/home/NewHomeActivity$dialog$2;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "NewHomeActivity.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
@@ -18,14 +18,14 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
         "Lcom/commsource/widget/dialog/delegate/b;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -77,7 +77,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, v0}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -96,7 +96,7 @@
     .line 2
     sget-object v1, Lcom/commsource/home/NewHomeActivity$dialog$2$1;->INSTANCE:Lcom/commsource/home/NewHomeActivity$dialog$2$1;
 
-    invoke-static {v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->j(Lkotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
+    invoke-static {v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->j(Lcotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
 
     move-result-object v1
 

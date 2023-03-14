@@ -1,10 +1,10 @@
-.class Lkotlin/collections/z;
-.super Lkotlin/collections/y;
+.class Lcotlin/collections/z;
+.super Lcotlin/collections/y;
 .source "ReversedViews.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/collections/y;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/y;-><init>()V
 
     return-void
 .end method
@@ -50,7 +50,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/collections/z;->a1(Ljava/util/List;I)I
+    invoke-static {p0, p1}, Lcotlin/collections/z;->a1(Ljava/util/List;I)I
 
     move-result p0
 
@@ -61,7 +61,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/collections/z;->b1(Ljava/util/List;I)I
+    invoke-static {p0, p1}, Lcotlin/collections/z;->b1(Ljava/util/List;I)I
 
     move-result p0
 
@@ -91,12 +91,12 @@
 
     const-string v0, "$this$asReversed"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/collections/z0;
+    new-instance v0, Lcotlin/collections/z0;
 
-    invoke-direct {v0, p0}, Lkotlin/collections/z0;-><init>(Ljava/util/List;)V
+    invoke-direct {v0, p0}, Lcotlin/collections/z0;-><init>(Ljava/util/List;)V
 
     return-object v0
 .end method
@@ -119,7 +119,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "asReversedMutable"
     .end annotation
 
@@ -128,12 +128,12 @@
 
     const-string v0, "$this$asReversed"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/collections/y0;
+    new-instance v0, Lcotlin/collections/y0;
 
-    invoke-direct {v0, p0}, Lkotlin/collections/y0;-><init>(Ljava/util/List;)V
+    invoke-direct {v0, p0}, Lcotlin/collections/y0;-><init>(Ljava/util/List;)V
 
     return-object v0
 .end method
@@ -149,7 +149,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lkotlin/collections/s;->G(Ljava/util/List;)I
+    invoke-static {p0}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result v0
 
@@ -157,7 +157,7 @@
 
     if-lt v0, p1, :cond_0
 
-    invoke-static {p0}, Lkotlin/collections/s;->G(Ljava/util/List;)I
+    invoke-static {p0}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result p0
 
@@ -184,13 +184,13 @@
 
     const/4 p1, 0x0
 
-    new-instance v2, Lkotlin/g2/k;
+    new-instance v2, Lcotlin/g2/k;
 
-    invoke-static {p0}, Lkotlin/collections/s;->G(Ljava/util/List;)I
+    invoke-static {p0}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result p0
 
-    invoke-direct {v2, p1, p0}, Lkotlin/g2/k;-><init>(II)V
+    invoke-direct {v2, p1, p0}, Lcotlin/g2/k;-><init>(II)V
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -253,13 +253,13 @@
 
     const/4 p1, 0x0
 
-    new-instance v2, Lkotlin/g2/k;
+    new-instance v2, Lcotlin/g2/k;
 
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result p0
 
-    invoke-direct {v2, p1, p0}, Lkotlin/g2/k;-><init>(II)V
+    invoke-direct {v2, p1, p0}, Lcotlin/g2/k;-><init>(II)V
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 

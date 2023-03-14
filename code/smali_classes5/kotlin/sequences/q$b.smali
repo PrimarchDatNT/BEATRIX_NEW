@@ -1,14 +1,14 @@
-.class public final Lkotlin/sequences/q$b;
+.class public final Lcotlin/sequences/q$b;
 .super Ljava/lang/Object;
 .source "Sequences.kt"
 
 # interfaces
-.implements Lkotlin/sequences/m;
+.implements Lcotlin/sequences/m;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/sequences/q;->e(Lkotlin/jvm/u/p;)Lkotlin/sequences/m;
+    value = Lcotlin/sequences/q;->e(Lcotlin/jvm/u/p;)Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/sequences/m<",
+        "Lcotlin/sequences/m<",
         "TT;>;"
     }
 .end annotation
@@ -28,7 +28,7 @@
     value = "SMAP\nSequences.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Sequences.kt\nkotlin/sequences/SequencesKt__SequencesKt$Sequence$1\n+ 2 SequenceBuilder.kt\nkotlin/sequences/SequencesKt__SequenceBuilderKt\n*L\n1#1,680:1\n25#2:681\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
     }
     d2 = {
         "kotlin/sequences/q$b",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "",
         "iterator",
         "()Ljava/util/Iterator;",
@@ -56,14 +56,14 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/jvm/u/p;
+.field final synthetic a:Lcotlin/jvm/u/p;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/u/p;)V
+.method public constructor <init>(Lcotlin/jvm/u/p;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/sequences/q$b;->a:Lkotlin/jvm/u/p;
+    iput-object p1, p0, Lcotlin/sequences/q$b;->a:Lcotlin/jvm/u/p;
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -87,9 +87,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/sequences/q$b;->a:Lkotlin/jvm/u/p;
+    iget-object v0, p0, Lcotlin/sequences/q$b;->a:Lcotlin/jvm/u/p;
 
-    invoke-static {v0}, Lkotlin/sequences/p;->d(Lkotlin/jvm/u/p;)Ljava/util/Iterator;
+    invoke-static {v0}, Lcotlin/sequences/p;->d(Lcotlin/jvm/u/p;)Ljava/util/Iterator;
 
     move-result-object v0
 

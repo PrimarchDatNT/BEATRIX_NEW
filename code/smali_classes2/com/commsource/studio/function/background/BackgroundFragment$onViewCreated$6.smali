@@ -32,7 +32,7 @@
     value = "SMAP\nBackgroundFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BackgroundFragment.kt\ncom/commsource/studio/function/background/BackgroundFragment$onViewCreated$6\n*L\n1#1,207:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Boolean;)V"
     }
@@ -109,7 +109,7 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/background/BackgroundFragment$onViewCreated$6$$special$$inlined$let$lambda$1;-><init>(Lcom/commsource/studio/function/background/BackgroundFragment$onViewCreated$6;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lcotlin/jvm/u/a;)V
 
     goto :goto_0
 

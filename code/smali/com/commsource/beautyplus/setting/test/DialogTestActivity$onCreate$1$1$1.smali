@@ -1,9 +1,9 @@
 .class final Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "DialogTestActivity.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
@@ -18,15 +18,15 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Lcom/commsource/widget/dialog/delegate/d/g;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -37,7 +37,7 @@
     }
     d2 = {
         "Lcom/commsource/widget/dialog/delegate/d/g;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(Lcom/commsource/widget/dialog/delegate/d/g;)V",
         "<anonymous>"
@@ -63,7 +63,7 @@
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -82,7 +82,7 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1;->invoke(Lcom/commsource/widget/dialog/delegate/d/g;)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -102,7 +102,7 @@
 
     const-string v1, "$receiver"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1;->this$0:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;
@@ -146,7 +146,7 @@
     move-object v2, v1
 
     .line 5
-    invoke-direct/range {v2 .. v7}, Lcom/commsource/widget/dialog/delegate/d/f;-><init>(Lcom/commsource/video/c;FLkotlin/jvm/u/l;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v2 .. v7}, Lcom/commsource/widget/dialog/delegate/d/f;-><init>(Lcom/commsource/video/c;FLcotlin/jvm/u/l;ILcotlin/jvm/internal/u;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/dialog/delegate/d/g;->N(Lcom/commsource/widget/dialog/delegate/d/f;)V
 
@@ -189,7 +189,7 @@
 
     move-object v2, v1
 
-    invoke-direct/range {v2 .. v9}, Lcom/commsource/widget/dialog/delegate/d/e;-><init>(Ljava/lang/String;Landroid/graphics/drawable/Drawable;Landroid/graphics/Bitmap;FLkotlin/jvm/u/l;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v2 .. v9}, Lcom/commsource/widget/dialog/delegate/d/e;-><init>(Ljava/lang/String;Landroid/graphics/drawable/Drawable;Landroid/graphics/Bitmap;FLcotlin/jvm/u/l;ILcotlin/jvm/internal/u;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/dialog/delegate/d/g;->M(Lcom/commsource/widget/dialog/delegate/d/e;)V
 
@@ -228,7 +228,7 @@
 
     const-string v2, "mViewBinding.etTitle"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/widget/EditText;->getEditableText()Landroid/text/Editable;
 
@@ -275,7 +275,7 @@
 
     const-string v2, "mViewBinding.etSubtitle"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/widget/EditText;->getEditableText()Landroid/text/Editable;
 
@@ -322,7 +322,7 @@
 
     const-string v2, "mViewBinding.etContent"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/widget/EditText;->getEditableText()Landroid/text/Editable;
 
@@ -361,7 +361,7 @@
     .line 15
     sget-object v1, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1$1;->INSTANCE:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1$1;
 
-    invoke-static {p1, v3, v1, v2, v3}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->f(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lkotlin/jvm/u/l;ILjava/lang/Object;)V
+    invoke-static {p1, v3, v1, v2, v3}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->f(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
 
     .line 16
     :cond_5
@@ -386,7 +386,7 @@
     .line 17
     sget-object v1, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1$2;->INSTANCE:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1$2;
 
-    invoke-static {p1, v3, v1, v2, v3}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->d(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lkotlin/jvm/u/l;ILjava/lang/Object;)V
+    invoke-static {p1, v3, v1, v2, v3}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->d(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
 
     .line 18
     :cond_6
@@ -413,7 +413,7 @@
 
     const-string v2, "Join us"
 
-    invoke-static {p1, v2, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->g(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-static {p1, v2, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->g(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
     .line 20
     :cond_7
@@ -431,7 +431,7 @@
 
     const-string v2, "mViewBinding.xsbg"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->getForwardPosition()I
 

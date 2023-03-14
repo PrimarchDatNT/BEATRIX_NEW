@@ -1,4 +1,4 @@
-.class Lkotlin/collections/r0;
+.class Lcotlin/collections/r0;
 .super Ljava/lang/Object;
 .source "MapWithDefault.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nMapWithDefault.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MapWithDefault.kt\nkotlin/collections/MapsKt__MapWithDefaultKt\n+ 2 Maps.kt\nkotlin/collections/MapsKt__MapsKt\n*L\n1#1,104:1\n325#2,6:105\n*E\n*S KotlinDebug\n*F\n+ 1 MapWithDefault.kt\nkotlin/collections/MapsKt__MapWithDefaultKt\n*L\n24#1,6:105\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,12 +24,12 @@
         "key",
         "a",
         "(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;",
-        "Lkotlin/Function1;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function1;",
+        "Lcotlin/k0;",
         "name",
         "defaultValue",
         "b",
-        "(Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;",
+        "(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;",
         "",
         "c",
         "kotlin-stdlib"
@@ -71,26 +71,26 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "getOrImplicitDefaultNullable"
     .end annotation
 
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     const-string v0, "$this$getOrImplicitDefault"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    instance-of v0, p0, Lkotlin/collections/o0;
+    instance-of v0, p0, Lcotlin/collections/o0;
 
     if-eqz v0, :cond_0
 
     .line 2
-    check-cast p0, Lkotlin/collections/o0;
+    check-cast p0, Lcotlin/collections/o0;
 
-    invoke-interface {p0, p1}, Lkotlin/collections/o0;->B0(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, p1}, Lcotlin/collections/o0;->B0(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -144,13 +144,13 @@
     return-object v0
 .end method
 
-.method public static final b(Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+.method public static final b(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 1
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -163,7 +163,7 @@
             ">(",
             "Ljava/util/Map<",
             "TK;+TV;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TK;+TV;>;)",
             "Ljava/util/Map<",
             "TK;TV;>;"
@@ -175,24 +175,24 @@
 
     const-string v0, "$this$withDefault"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "defaultValue"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    instance-of v0, p0, Lkotlin/collections/o0;
+    instance-of v0, p0, Lcotlin/collections/o0;
 
     if-eqz v0, :cond_0
 
-    check-cast p0, Lkotlin/collections/o0;
+    check-cast p0, Lcotlin/collections/o0;
 
-    invoke-interface {p0}, Lkotlin/collections/o0;->o()Ljava/util/Map;
+    invoke-interface {p0}, Lcotlin/collections/o0;->o()Ljava/util/Map;
 
     move-result-object p0
 
-    invoke-static {p0, p1}, Lkotlin/collections/r0;->b(Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+    invoke-static {p0, p1}, Lcotlin/collections/r0;->b(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -200,9 +200,9 @@
 
     .line 2
     :cond_0
-    new-instance v0, Lkotlin/collections/p0;
+    new-instance v0, Lcotlin/collections/p0;
 
-    invoke-direct {v0, p0, p1}, Lkotlin/collections/p0;-><init>(Ljava/util/Map;Lkotlin/jvm/u/l;)V
+    invoke-direct {v0, p0, p1}, Lcotlin/collections/p0;-><init>(Ljava/util/Map;Lcotlin/jvm/u/l;)V
 
     move-object p0, v0
 
@@ -210,13 +210,13 @@
     return-object p0
 .end method
 
-.method public static c(Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+.method public static c(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 1
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -229,14 +229,14 @@
             ">(",
             "Ljava/util/Map<",
             "TK;TV;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TK;+TV;>;)",
             "Ljava/util/Map<",
             "TK;TV;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "withDefaultMutable"
     .end annotation
 
@@ -245,24 +245,24 @@
 
     const-string v0, "$this$withDefault"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "defaultValue"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    instance-of v0, p0, Lkotlin/collections/w0;
+    instance-of v0, p0, Lcotlin/collections/w0;
 
     if-eqz v0, :cond_0
 
-    check-cast p0, Lkotlin/collections/w0;
+    check-cast p0, Lcotlin/collections/w0;
 
-    invoke-interface {p0}, Lkotlin/collections/w0;->o()Ljava/util/Map;
+    invoke-interface {p0}, Lcotlin/collections/w0;->o()Ljava/util/Map;
 
     move-result-object p0
 
-    invoke-static {p0, p1}, Lkotlin/collections/q0;->c(Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+    invoke-static {p0, p1}, Lcotlin/collections/q0;->c(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -270,9 +270,9 @@
 
     .line 2
     :cond_0
-    new-instance v0, Lkotlin/collections/x0;
+    new-instance v0, Lcotlin/collections/x0;
 
-    invoke-direct {v0, p0, p1}, Lkotlin/collections/x0;-><init>(Ljava/util/Map;Lkotlin/jvm/u/l;)V
+    invoke-direct {v0, p0, p1}, Lcotlin/collections/x0;-><init>(Ljava/util/Map;Lcotlin/jvm/u/l;)V
 
     move-object p0, v0
 

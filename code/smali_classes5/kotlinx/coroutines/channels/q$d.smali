@@ -1,14 +1,14 @@
-.class final Lkotlinx/coroutines/channels/q$d;
-.super Lkotlinx/coroutines/channels/r;
+.class final Lcotlinx/coroutines/channels/q$d;
+.super Lcotlinx/coroutines/channels/r;
 .source "ConflatedBroadcastChannel.kt"
 
 # interfaces
-.implements Lkotlinx/coroutines/channels/y;
+.implements Lcotlinx/coroutines/channels/y;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/channels/q;
+    value = Lcotlinx/coroutines/channels/q;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -21,14 +21,14 @@
         "<E:",
         "Ljava/lang/Object;",
         ">",
-        "Lkotlinx/coroutines/channels/r<",
+        "Lcotlinx/coroutines/channels/r<",
         "TE;>;",
-        "Lkotlinx/coroutines/channels/y<",
+        "Lcotlinx/coroutines/channels/y<",
         "TE;>;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,23 +40,23 @@
     d2 = {
         "kotlinx/coroutines/channels/q$d",
         "E",
-        "Lkotlinx/coroutines/channels/r;",
-        "Lkotlinx/coroutines/channels/y;",
+        "Lcotlinx/coroutines/channels/r;",
+        "Lcotlinx/coroutines/channels/y;",
         "",
         "wasClosed",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "f0",
         "(Z)V",
         "element",
         "",
         "z",
         "(Ljava/lang/Object;)Ljava/lang/Object;",
-        "Lkotlinx/coroutines/channels/q;",
+        "Lcotlinx/coroutines/channels/q;",
         "p",
-        "Lkotlinx/coroutines/channels/q;",
+        "Lcotlinx/coroutines/channels/q;",
         "broadcastChannel",
         "<init>",
-        "(Lkotlinx/coroutines/channels/q;)V",
+        "(Lcotlinx/coroutines/channels/q;)V",
         "kotlinx-coroutines-core"
     }
     k = 0x1
@@ -69,10 +69,10 @@
 
 
 # instance fields
-.field private final p:Lkotlinx/coroutines/channels/q;
+.field private final p:Lcotlinx/coroutines/channels/q;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlinx/coroutines/channels/q<",
+            "Lcotlinx/coroutines/channels/q<",
             "TE;>;"
         }
     .end annotation
@@ -80,24 +80,24 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/channels/q;)V
+.method public constructor <init>(Lcotlinx/coroutines/channels/q;)V
     .locals 0
-    .param p1    # Lkotlinx/coroutines/channels/q;
+    .param p1    # Lcotlinx/coroutines/channels/q;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/channels/q<",
+            "Lcotlinx/coroutines/channels/q<",
             "TE;>;)V"
         }
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lkotlinx/coroutines/channels/r;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/channels/r;-><init>()V
 
-    iput-object p1, p0, Lkotlinx/coroutines/channels/q$d;->p:Lkotlinx/coroutines/channels/q;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/q$d;->p:Lcotlinx/coroutines/channels/q;
 
     return-void
 .end method
@@ -110,9 +110,9 @@
     if-eqz p1, :cond_0
 
     .line 1
-    iget-object p1, p0, Lkotlinx/coroutines/channels/q$d;->p:Lkotlinx/coroutines/channels/q;
+    iget-object p1, p0, Lcotlinx/coroutines/channels/q$d;->p:Lcotlinx/coroutines/channels/q;
 
-    invoke-static {p1, p0}, Lkotlinx/coroutines/channels/q;->c(Lkotlinx/coroutines/channels/q;Lkotlinx/coroutines/channels/q$d;)V
+    invoke-static {p1, p0}, Lcotlinx/coroutines/channels/q;->c(Lcotlinx/coroutines/channels/q;Lcotlinx/coroutines/channels/q$d;)V
 
     :cond_0
     return-void
@@ -131,7 +131,7 @@
     .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Lkotlinx/coroutines/channels/r;->z(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-super {p0, p1}, Lcotlinx/coroutines/channels/r;->z(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

@@ -1,10 +1,10 @@
-.class final synthetic Lkotlinx/coroutines/channels/ChannelsKt__ChannelsKt;
+.class final synthetic Lcotlinx/coroutines/channels/ChannelsKt__ChannelsKt;
 .super Ljava/lang/Object;
 .source "Channels.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,11 +15,11 @@
     }
     d2 = {
         "E",
-        "Lkotlinx/coroutines/channels/c0;",
+        "Lcotlinx/coroutines/channels/c0;",
         "element",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
-        "(Lkotlinx/coroutines/channels/c0;Ljava/lang/Object;)V",
+        "(Lcotlinx/coroutines/channels/c0;Ljava/lang/Object;)V",
         "kotlinx-coroutines-core"
     }
     k = 0x5
@@ -33,9 +33,9 @@
 
 
 # direct methods
-.method public static final a(Lkotlinx/coroutines/channels/c0;Ljava/lang/Object;)V
+.method public static final a(Lcotlinx/coroutines/channels/c0;Ljava/lang/Object;)V
     .locals 2
-    .param p0    # Lkotlinx/coroutines/channels/c0;
+    .param p0    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -44,13 +44,13 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/c0<",
+            "Lcotlinx/coroutines/channels/c0<",
             "-TE;>;TE;)V"
         }
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1}, Lkotlinx/coroutines/channels/c0;->offer(Ljava/lang/Object;)Z
+    invoke-interface {p0, p1}, Lcotlinx/coroutines/channels/c0;->offer(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -60,15 +60,15 @@
 
     .line 2
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/channels/ChannelsKt__ChannelsKt$sendBlocking$1;
+    new-instance v0, Lcotlinx/coroutines/channels/ChannelsKt__ChannelsKt$sendBlocking$1;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p0, p1, v1}, Lkotlinx/coroutines/channels/ChannelsKt__ChannelsKt$sendBlocking$1;-><init>(Lkotlinx/coroutines/channels/c0;Ljava/lang/Object;Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p0, p1, v1}, Lcotlinx/coroutines/channels/ChannelsKt__ChannelsKt$sendBlocking$1;-><init>(Lcotlinx/coroutines/channels/c0;Ljava/lang/Object;Lcotlin/coroutines/c;)V
 
     const/4 p0, 0x1
 
-    invoke-static {v1, v0, p0, v1}, Lkotlinx/coroutines/f;->h(Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1, v0, p0, v1}, Lcotlinx/coroutines/f;->h(Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method

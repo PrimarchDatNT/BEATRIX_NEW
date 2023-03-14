@@ -1,4 +1,4 @@
-.class public final Lkotlinx/coroutines/flow/internal/SafeCollector_commonKt;
+.class public final Lcotlinx/coroutines/flow/internal/SafeCollector_commonKt;
 .super Ljava/lang/Object;
 .source "SafeCollector.common.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nSafeCollector.common.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SafeCollector.common.kt\nkotlinx/coroutines/flow/internal/SafeCollector_commonKt\n*L\n1#1,112:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -18,26 +18,26 @@
         "\u00008\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u001a\u001f\u0010\u0004\u001a\u00020\u0003*\u0006\u0012\u0002\u0008\u00030\u00002\u0006\u0010\u0002\u001a\u00020\u0001H\u0001\u00a2\u0006\u0004\u0008\u0004\u0010\u0005\u001a\"\u0010\u0008\u001a\u0004\u0018\u00010\u0006*\u0004\u0018\u00010\u00062\u0008\u0010\u0007\u001a\u0004\u0018\u00010\u0006H\u0080\u0010\u00a2\u0006\u0004\u0008\u0008\u0010\t\u001aP\u0010\u0012\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0011\"\u0004\u0008\u0000\u0010\n2/\u0008\u0005\u0010\u0010\u001a)\u0008\u0001\u0012\n\u0012\u0008\u0012\u0004\u0012\u00028\u00000\u000c\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00030\r\u0012\u0006\u0012\u0004\u0018\u00010\u000e0\u000b\u00a2\u0006\u0002\u0008\u000fH\u0081\u0008\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0012\u0010\u0013\u0082\u0002\u0004\n\u0002\u0008\u0019\u00a8\u0006\u0014"
     }
     d2 = {
-        "Lkotlinx/coroutines/flow/internal/SafeCollector;",
-        "Lkotlin/coroutines/CoroutineContext;",
+        "Lcotlinx/coroutines/flow/internal/SafeCollector;",
+        "Lcotlin/coroutines/CoroutineContext;",
         "currentContext",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
-        "(Lkotlinx/coroutines/flow/internal/SafeCollector;Lkotlin/coroutines/CoroutineContext;)V",
-        "Lkotlinx/coroutines/c2;",
+        "(Lcotlinx/coroutines/flow/internal/SafeCollector;Lcotlin/coroutines/CoroutineContext;)V",
+        "Lcotlinx/coroutines/c2;",
         "collectJob",
         "b",
-        "(Lkotlinx/coroutines/c2;Lkotlinx/coroutines/c2;)Lkotlinx/coroutines/c2;",
+        "(Lcotlinx/coroutines/c2;Lcotlinx/coroutines/c2;)Lcotlinx/coroutines/c2;",
         "T",
-        "Lkotlin/Function2;",
-        "Lkotlinx/coroutines/flow/e;",
-        "Lkotlin/coroutines/c;",
+        "Lcotlin/Function2;",
+        "Lcotlinx/coroutines/flow/e;",
+        "Lcotlin/coroutines/c;",
         "",
-        "Lkotlin/q;",
+        "Lcotlin/q;",
         "block",
-        "Lkotlinx/coroutines/flow/d;",
+        "Lcotlinx/coroutines/flow/d;",
         "c",
-        "(Lkotlin/jvm/u/p;)Lkotlinx/coroutines/flow/d;",
+        "(Lcotlin/jvm/u/p;)Lcotlinx/coroutines/flow/d;",
         "kotlinx-coroutines-core"
     }
     k = 0x2
@@ -50,27 +50,27 @@
 
 
 # direct methods
-.method public static final a(Lkotlinx/coroutines/flow/internal/SafeCollector;Lkotlin/coroutines/CoroutineContext;)V
+.method public static final a(Lcotlinx/coroutines/flow/internal/SafeCollector;Lcotlin/coroutines/CoroutineContext;)V
     .locals 2
-    .param p0    # Lkotlinx/coroutines/flow/internal/SafeCollector;
+    .param p0    # Lcotlinx/coroutines/flow/internal/SafeCollector;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/CoroutineContext;
+    .param p1    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/flow/internal/SafeCollector<",
+            "Lcotlinx/coroutines/flow/internal/SafeCollector<",
             "*>;",
-            "Lkotlin/coroutines/CoroutineContext;",
+            "Lcotlin/coroutines/CoroutineContext;",
             ")V"
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "checkContext"
     .end annotation
 
@@ -81,11 +81,11 @@
 
     move-result-object v0
 
-    new-instance v1, Lkotlinx/coroutines/flow/internal/SafeCollector_commonKt$checkContext$result$1;
+    new-instance v1, Lcotlinx/coroutines/flow/internal/SafeCollector_commonKt$checkContext$result$1;
 
-    invoke-direct {v1, p0}, Lkotlinx/coroutines/flow/internal/SafeCollector_commonKt$checkContext$result$1;-><init>(Lkotlinx/coroutines/flow/internal/SafeCollector;)V
+    invoke-direct {v1, p0}, Lcotlinx/coroutines/flow/internal/SafeCollector_commonKt$checkContext$result$1;-><init>(Lcotlinx/coroutines/flow/internal/SafeCollector;)V
 
-    invoke-interface {p1, v0, v1}, Lkotlin/coroutines/CoroutineContext;->fold(Ljava/lang/Object;Lkotlin/jvm/u/p;)Ljava/lang/Object;
+    invoke-interface {p1, v0, v1}, Lcotlin/coroutines/CoroutineContext;->fold(Ljava/lang/Object;Lcotlin/jvm/u/p;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -96,7 +96,7 @@
     move-result v0
 
     .line 2
-    iget v1, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->collectContextSize:I
+    iget v1, p0, Lcotlinx/coroutines/flow/internal/SafeCollector;->collectContextSize:I
 
     if-ne v0, v1, :cond_0
 
@@ -117,7 +117,7 @@
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 4
-    iget-object p0, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->collectContext:Lkotlin/coroutines/CoroutineContext;
+    iget-object p0, p0, Lcotlinx/coroutines/flow/internal/SafeCollector;->collectContext:Lcotlin/coroutines/CoroutineContext;
 
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -156,13 +156,13 @@
     throw p1
 .end method
 
-.method public static final b(Lkotlinx/coroutines/c2;Lkotlinx/coroutines/c2;)Lkotlinx/coroutines/c2;
+.method public static final b(Lcotlinx/coroutines/c2;Lcotlinx/coroutines/c2;)Lcotlinx/coroutines/c2;
     .locals 1
-    .param p0    # Lkotlinx/coroutines/c2;
+    .param p0    # Lcotlinx/coroutines/c2;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/c2;
+    .param p1    # Lcotlinx/coroutines/c2;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
@@ -183,7 +183,7 @@
 
     .line 1
     :cond_1
-    instance-of v0, p0, Lkotlinx/coroutines/internal/y;
+    instance-of v0, p0, Lcotlinx/coroutines/internal/y;
 
     if-nez v0, :cond_2
 
@@ -191,19 +191,19 @@
 
     .line 2
     :cond_2
-    check-cast p0, Lkotlinx/coroutines/internal/y;
+    check-cast p0, Lcotlinx/coroutines/internal/y;
 
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/y;->x1()Lkotlinx/coroutines/c2;
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/y;->x1()Lcotlinx/coroutines/c2;
 
     move-result-object p0
 
     goto :goto_0
 .end method
 
-.method public static final c(Lkotlin/jvm/u/p;)Lkotlinx/coroutines/flow/d;
+.method public static final c(Lcotlin/jvm/u/p;)Lcotlinx/coroutines/flow/d;
     .locals 1
-    .param p0    # Lkotlin/jvm/u/p;
-        .annotation build Lkotlin/b;
+    .param p0    # Lcotlin/jvm/u/p;
+        .annotation build Lcotlin/b;
         .end annotation
 
         .annotation build Ln/e/a/d;
@@ -214,31 +214,31 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
-            "Lkotlinx/coroutines/flow/e<",
+            "Lcotlinx/coroutines/flow/e<",
             "-TT;>;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;+",
             "Ljava/lang/Object;",
             ">;)",
-            "Lkotlinx/coroutines/flow/d<",
+            "Lcotlinx/coroutines/flow/d<",
             "TT;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/flow/internal/SafeCollector_commonKt$unsafeFlow$1;
+    new-instance v0, Lcotlinx/coroutines/flow/internal/SafeCollector_commonKt$unsafeFlow$1;
 
-    invoke-direct {v0, p0}, Lkotlinx/coroutines/flow/internal/SafeCollector_commonKt$unsafeFlow$1;-><init>(Lkotlin/jvm/u/p;)V
+    invoke-direct {v0, p0}, Lcotlinx/coroutines/flow/internal/SafeCollector_commonKt$unsafeFlow$1;-><init>(Lcotlin/jvm/u/p;)V
 
     return-object v0
 .end method

@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
     d2 = {
         "com/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$4$1$a",
         "Lcom/commsource/util/delegate/process/i;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "()V",
         "app_googleplayRelease",
@@ -88,9 +88,9 @@
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$4$1;->this$0:Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$4;
 
-    iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$4;->$fastCaptureAction:Lkotlin/jvm/u/a;
+    iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$$special$$inlined$let$lambda$4;->$fastCaptureAction:Lcotlin/jvm/u/a;
 
-    invoke-interface {v1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

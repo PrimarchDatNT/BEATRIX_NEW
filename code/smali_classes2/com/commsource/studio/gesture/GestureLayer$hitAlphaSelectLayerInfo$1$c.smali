@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0010\u0004\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002\u00a8\u0006\u0003"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "com/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1$$special$$inlined$let$lambda$2",
@@ -99,11 +99,11 @@
     .line 2
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1$c;->b:Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1;
 
-    iget-object v1, v1, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1;->$hitTask:Lkotlin/jvm/u/l;
+    iget-object v1, v1, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1;->$hitTask:Lcotlin/jvm/u/l;
 
     iget-object v2, p0, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1$c;->a:Lcom/commsource/studio/bean/FocusLayerInfo;
 
-    invoke-interface {v1, v2}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 3
     :cond_0

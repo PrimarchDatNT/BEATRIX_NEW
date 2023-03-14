@@ -1,11 +1,11 @@
-.class final Lkotlinx/coroutines/sync/d$d;
-.super Lkotlinx/coroutines/internal/k;
+.class final Lcotlinx/coroutines/sync/d$d;
+.super Lcotlinx/coroutines/internal/k;
 .source "Mutex.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/sync/d;
+    value = Lcotlinx/coroutines/sync/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "d"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,7 +24,7 @@
     }
     d2 = {
         "kotlinx/coroutines/sync/d$d",
-        "Lkotlinx/coroutines/internal/k;",
+        "Lcotlinx/coroutines/internal/k;",
         "",
         "toString",
         "()Ljava/lang/String;",
@@ -47,7 +47,7 @@
 
 # instance fields
 .field public d:Ljava/lang/Object;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -64,9 +64,9 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Lkotlinx/coroutines/internal/k;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/internal/k;-><init>()V
 
-    iput-object p1, p0, Lkotlinx/coroutines/sync/d$d;->d:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/sync/d$d;->d:Ljava/lang/Object;
 
     return-void
 .end method
@@ -87,7 +87,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lkotlinx/coroutines/sync/d$d;->d:Ljava/lang/Object;
+    iget-object v1, p0, Lcotlinx/coroutines/sync/d$d;->d:Ljava/lang/Object;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 

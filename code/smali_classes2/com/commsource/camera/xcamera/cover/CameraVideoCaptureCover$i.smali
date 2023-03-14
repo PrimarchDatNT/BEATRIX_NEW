@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;->W(Lkotlin/jvm/u/l;)V
+    value = Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;->W(Lcotlin/jvm/u/l;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
     d2 = {
         "com/commsource/camera/xcamera/cover/CameraVideoCaptureCover$i",
         "Lcom/commsource/util/u2/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "app_googleplayRelease"
@@ -42,16 +42,16 @@
 # instance fields
 .field final synthetic g:Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;
 
-.field final synthetic p:Lkotlin/jvm/u/l;
+.field final synthetic p:Lcotlin/jvm/u/l;
 
 
 # direct methods
-.method constructor <init>(Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;Lkotlin/jvm/u/l;Ljava/lang/String;)V
+.method constructor <init>(Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;Lcotlin/jvm/u/l;Ljava/lang/String;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l;",
+            "Lcotlin/jvm/u/l;",
             "Ljava/lang/String;",
             ")V"
         }
@@ -60,7 +60,7 @@
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$i;->g:Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;
 
-    iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$i;->p:Lkotlin/jvm/u/l;
+    iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$i;->p:Lcotlin/jvm/u/l;
 
     invoke-direct {p0, p3}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
 

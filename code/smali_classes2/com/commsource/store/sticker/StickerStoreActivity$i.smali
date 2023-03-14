@@ -25,7 +25,7 @@
     value = "SMAP\nStickerStoreActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StickerStoreActivity.kt\ncom/commsource/store/sticker/StickerStoreActivity$initObserver$6\n*L\n1#1,297:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "Lcom/commsource/beautyfilter/NoStickLiveData$a;",
         "",
         "isSuccess",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(Ljava/lang/Boolean;)V",
         "app_googleplayRelease"

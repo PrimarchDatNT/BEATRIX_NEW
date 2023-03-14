@@ -8,7 +8,7 @@
     value = "SMAP\nLongLongScatterMap.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LongLongScatterMap.kt\nkshark/internal/hppc/LongLongScatterMap\n*L\n1#1,404:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
         "",
         "fromKeys",
         "fromValues",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "s",
         "([J[J)V",
         "arraySize",
@@ -50,14 +50,14 @@
         "p",
         "(I)J",
         "m",
-        "Lkotlin/Function2;",
+        "Lcotlin/Function2;",
         "block",
         "l",
-        "(Lkotlin/jvm/u/p;)V",
-        "Lkotlin/sequences/m;",
-        "Lkotlin/Pair;",
+        "(Lcotlin/jvm/u/p;)V",
+        "Lcotlin/sequences/m;",
+        "Lcotlin/Pair;",
         "k",
-        "()Lkotlin/sequences/m;",
+        "()Lcotlin/sequences/m;",
         "",
         "i",
         "(J)Z",
@@ -257,14 +257,14 @@
     iput-object v1, p0, Lkshark/internal/hppc/LongLongScatterMap;->b:[J
 
     .line 9
-    sget-object v0, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
+    sget-object v0, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     .line 10
     sget-object v0, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
 
     const-string v1, "Locale.ROOT"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x2
 
@@ -303,7 +303,7 @@
 
     const-string v0, "java.lang.String.format(locale, format, *args)"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     new-instance v0, Ljava/lang/RuntimeException;
@@ -624,13 +624,13 @@
     return-void
 .end method
 
-.method public final k()Lkotlin/sequences/m;
+.method public final k()Lcotlin/sequences/m;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
-            "Lkotlin/Pair<",
+            "Lcotlin/sequences/m<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Long;",
             "Ljava/lang/Long;",
             ">;>;"
@@ -646,48 +646,48 @@
     add-int/lit8 v0, v0, 0x1
 
     .line 2
-    new-instance v1, Lkotlin/jvm/internal/Ref$IntRef;
+    new-instance v1, Lcotlin/jvm/internal/Ref$IntRef;
 
-    invoke-direct {v1}, Lkotlin/jvm/internal/Ref$IntRef;-><init>()V
+    invoke-direct {v1}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
 
     const/4 v2, -0x1
 
-    iput v2, v1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput v2, v1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     .line 3
     new-instance v2, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;
 
-    invoke-direct {v2, p0, v1, v0}, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;-><init>(Lkshark/internal/hppc/LongLongScatterMap;Lkotlin/jvm/internal/Ref$IntRef;I)V
+    invoke-direct {v2, p0, v1, v0}, Lkshark/internal/hppc/LongLongScatterMap$entrySequence$1;-><init>(Lkshark/internal/hppc/LongLongScatterMap;Lcotlin/jvm/internal/Ref$IntRef;I)V
 
-    invoke-static {v2}, Lkotlin/sequences/p;->p(Lkotlin/jvm/u/a;)Lkotlin/sequences/m;
+    invoke-static {v2}, Lcotlin/sequences/p;->p(Lcotlin/jvm/u/a;)Lcotlin/sequences/m;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public final l(Lkotlin/jvm/u/p;)V
+.method public final l(Lcotlin/jvm/u/p;)V
     .locals 7
-    .param p1    # Lkotlin/jvm/u/p;
+    .param p1    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Ljava/lang/Long;",
             "-",
             "Ljava/lang/Long;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "block"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget v0, p0, Lkshark/internal/hppc/LongLongScatterMap;->d:I
@@ -728,7 +728,7 @@
 
     move-result-object v3
 
-    invoke-interface {p1, v2, v3}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v3}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
@@ -755,7 +755,7 @@
 
     move-result-object v3
 
-    invoke-interface {p1, v2, v3}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v3}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 

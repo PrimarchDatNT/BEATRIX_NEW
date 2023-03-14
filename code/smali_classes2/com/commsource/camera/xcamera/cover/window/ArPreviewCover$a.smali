@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,7 +40,7 @@
     d2 = {
         "Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;",
         "entity",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/b1;)V"
     }
@@ -216,7 +216,7 @@
 
     if-nez v1, :cond_4
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
     check-cast v1, Lcom/commsource/beautyplus/f0/u2;

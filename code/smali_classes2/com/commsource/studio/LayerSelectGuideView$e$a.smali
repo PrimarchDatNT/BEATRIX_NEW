@@ -27,7 +27,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -100,13 +100,13 @@
 
     const-string v1, "o2"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
     move-result p2
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->t(II)I
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result p1
 

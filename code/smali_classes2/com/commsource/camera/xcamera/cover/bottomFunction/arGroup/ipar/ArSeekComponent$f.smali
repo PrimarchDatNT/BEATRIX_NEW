@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "<anonymous parameter 0>",
         "",
         "isChecked",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onCheckedChanged",
         "(Landroid/widget/CompoundButton;Z)V",
         "<anonymous>"
@@ -88,7 +88,7 @@
     :cond_0
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent$f;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;
 
-    invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->j(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;)Lkotlin/jvm/u/l;
+    invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;->j(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent;)Lcotlin/jvm/u/l;
 
     move-result-object v0
 
@@ -98,11 +98,11 @@
 
     move-result-object p2
 
-    invoke-interface {v0, p2}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
-    check-cast p2, Lkotlin/t1;
+    check-cast p2, Lcotlin/t1;
 
     .line 3
     :cond_1

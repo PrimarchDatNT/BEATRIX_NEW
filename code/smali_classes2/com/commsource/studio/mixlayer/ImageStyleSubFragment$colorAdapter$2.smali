@@ -1,9 +1,9 @@
 .class final Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "ImageStyleSubFragment.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
@@ -18,8 +18,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
         "Lcom/commsource/widget/h1/e;",
         ">;"
     }
@@ -29,7 +29,7 @@
     value = "SMAP\nImageStyleSubFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ImageStyleSubFragment.kt\ncom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2\n*L\n1#1,461:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -65,7 +65,7 @@
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -104,7 +104,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lkotlin/collections/s;->P([Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v3}, Lcotlin/collections/s;->P([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v3
 

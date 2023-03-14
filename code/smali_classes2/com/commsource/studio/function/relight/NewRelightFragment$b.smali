@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Lcom/commsource/camera/f1/l$a;",
         "Lcom/commsource/camera/f1/l;",
         "animation",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "b",
         "(Lcom/commsource/camera/f1/l;)V",
         "",
@@ -160,7 +160,7 @@
 
     const-string v1, "mViewBinding.contrast"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2, p1}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
@@ -175,7 +175,7 @@
 
     const-string v1, "mViewBinding.preview"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2, p1}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
@@ -190,7 +190,7 @@
 
     const-string v1, "mViewBinding.autoManual"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2, p1}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 

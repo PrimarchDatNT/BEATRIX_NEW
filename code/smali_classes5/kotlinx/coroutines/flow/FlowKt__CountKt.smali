@@ -1,4 +1,4 @@
-.class final synthetic Lkotlinx/coroutines/flow/FlowKt__CountKt;
+.class final synthetic Lcotlinx/coroutines/flow/FlowKt__CountKt;
 .super Ljava/lang/Object;
 .source "Count.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nCount.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Count.kt\nkotlinx/coroutines/flow/FlowKt__CountKt\n+ 2 Collect.kt\nkotlinx/coroutines/flow/FlowKt__CollectKt\n*L\n1#1,40:1\n73#2,3:41\n73#2,3:44\n*E\n*S KotlinDebug\n*F\n+ 1 Count.kt\nkotlinx/coroutines/flow/FlowKt__CountKt\n*L\n19#1,3:41\n32#1,3:44\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -19,17 +19,17 @@
     }
     d2 = {
         "T",
-        "Lkotlinx/coroutines/flow/d;",
+        "Lcotlinx/coroutines/flow/d;",
         "",
         "a",
-        "(Lkotlinx/coroutines/flow/d;Lkotlin/coroutines/c;)Ljava/lang/Object;",
-        "Lkotlin/Function2;",
-        "Lkotlin/coroutines/c;",
+        "(Lcotlinx/coroutines/flow/d;Lcotlin/coroutines/c;)Ljava/lang/Object;",
+        "Lcotlin/Function2;",
+        "Lcotlin/coroutines/c;",
         "",
         "",
         "predicate",
         "b",
-        "(Lkotlinx/coroutines/flow/d;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "kotlinx-coroutines-core"
     }
     k = 0x5
@@ -43,13 +43,13 @@
 
 
 # direct methods
-.method public static final a(Lkotlinx/coroutines/flow/d;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final a(Lcotlinx/coroutines/flow/d;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
-    .param p0    # Lkotlinx/coroutines/flow/d;
+    .param p0    # Lcotlinx/coroutines/flow/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -58,9 +58,9 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/flow/d<",
+            "Lcotlinx/coroutines/flow/d<",
             "+TT;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Integer;",
             ">;)",
@@ -68,21 +68,21 @@
         }
     .end annotation
 
-    .annotation build Lkotlinx/coroutines/s1;
+    .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p1, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$1;
+    instance-of v0, p1, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$1;
 
     if-eqz v0, :cond_0
 
     move-object v0, p1
 
-    check-cast v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$1;
+    check-cast v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$1;
 
-    iget v1, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$1;->label:I
+    iget v1, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$1;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -92,24 +92,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$1;->label:I
+    iput v1, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$1;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$1;
+    new-instance v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$1;
 
-    invoke-direct {v0, p1}, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$1;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p1}, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$1;-><init>(Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$1;->result:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$1;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$1;->label:I
+    iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$1;->label:I
 
     const/4 v3, 0x1
 
@@ -117,19 +117,19 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$1;->L$2:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$1;->L$2:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/flow/d;
+    check-cast p0, Lcotlinx/coroutines/flow/d;
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$1;->L$1:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$1;->L$1:Ljava/lang/Object;
 
-    check-cast p0, Lkotlin/jvm/internal/Ref$IntRef;
+    check-cast p0, Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget-object v0, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$1;->L$0:Ljava/lang/Object;
+    iget-object v0, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$1;->L$0:Ljava/lang/Object;
 
-    check-cast v0, Lkotlinx/coroutines/flow/d;
+    check-cast v0, Lcotlinx/coroutines/flow/d;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -145,31 +145,31 @@
 
     .line 3
     :cond_2
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 4
-    new-instance p1, Lkotlin/jvm/internal/Ref$IntRef;
+    new-instance p1, Lcotlin/jvm/internal/Ref$IntRef;
 
-    invoke-direct {p1}, Lkotlin/jvm/internal/Ref$IntRef;-><init>()V
+    invoke-direct {p1}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
 
     const/4 v2, 0x0
 
-    iput v2, p1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput v2, p1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     .line 5
-    new-instance v2, Lkotlinx/coroutines/flow/FlowKt__CountKt$a;
+    new-instance v2, Lcotlinx/coroutines/flow/FlowKt__CountKt$a;
 
-    invoke-direct {v2, p1}, Lkotlinx/coroutines/flow/FlowKt__CountKt$a;-><init>(Lkotlin/jvm/internal/Ref$IntRef;)V
+    invoke-direct {v2, p1}, Lcotlinx/coroutines/flow/FlowKt__CountKt$a;-><init>(Lcotlin/jvm/internal/Ref$IntRef;)V
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$1;->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$1;->L$0:Ljava/lang/Object;
 
-    iput-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$1;->L$1:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$1;->L$1:Ljava/lang/Object;
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$1;->L$2:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$1;->L$2:Ljava/lang/Object;
 
-    iput v3, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$1;->label:I
+    iput v3, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$1;->label:I
 
-    invoke-interface {p0, v2, v0}, Lkotlinx/coroutines/flow/d;->a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p0, v2, v0}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -182,26 +182,26 @@
 
     .line 6
     :goto_1
-    iget p0, p0, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget p0, p0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    invoke-static {p0}, Lkotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
+    invoke-static {p0}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final b(Lkotlinx/coroutines/flow/d;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final b(Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
-    .param p0    # Lkotlinx/coroutines/flow/d;
+    .param p0    # Lcotlinx/coroutines/flow/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/p;
+    .param p1    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -210,17 +210,17 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/flow/d<",
+            "Lcotlinx/coroutines/flow/d<",
             "+TT;>;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-TT;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Boolean;",
             ">;+",
             "Ljava/lang/Object;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Integer;",
             ">;)",
@@ -228,21 +228,21 @@
         }
     .end annotation
 
-    .annotation build Lkotlinx/coroutines/s1;
+    .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p2, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$3;
+    instance-of v0, p2, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$3;
 
     if-eqz v0, :cond_0
 
     move-object v0, p2
 
-    check-cast v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$3;
+    check-cast v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$3;
 
-    iget v1, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$3;->label:I
+    iget v1, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$3;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -252,24 +252,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$3;->label:I
+    iput v1, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$3;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$3;
+    new-instance v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$3;
 
-    invoke-direct {v0, p2}, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$3;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p2}, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$3;-><init>(Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p2, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$3;->result:Ljava/lang/Object;
+    iget-object p2, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$3;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$3;->label:I
+    iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$3;->label:I
 
     const/4 v3, 0x1
 
@@ -277,23 +277,23 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$3;->L$3:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$3;->L$3:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/flow/d;
+    check-cast p0, Lcotlinx/coroutines/flow/d;
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$3;->L$2:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$3;->L$2:Ljava/lang/Object;
 
-    check-cast p0, Lkotlin/jvm/internal/Ref$IntRef;
+    check-cast p0, Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$3;->L$1:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$3;->L$1:Ljava/lang/Object;
 
-    check-cast p1, Lkotlin/jvm/u/p;
+    check-cast p1, Lcotlin/jvm/u/p;
 
-    iget-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$3;->L$0:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$3;->L$0:Ljava/lang/Object;
 
-    check-cast p1, Lkotlinx/coroutines/flow/d;
+    check-cast p1, Lcotlinx/coroutines/flow/d;
 
-    invoke-static {p2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -309,33 +309,33 @@
 
     .line 3
     :cond_2
-    invoke-static {p2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 4
-    new-instance p2, Lkotlin/jvm/internal/Ref$IntRef;
+    new-instance p2, Lcotlin/jvm/internal/Ref$IntRef;
 
-    invoke-direct {p2}, Lkotlin/jvm/internal/Ref$IntRef;-><init>()V
+    invoke-direct {p2}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
 
     const/4 v2, 0x0
 
-    iput v2, p2, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput v2, p2, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     .line 5
-    new-instance v2, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$$inlined$collect$2;
+    new-instance v2, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$$inlined$collect$2;
 
-    invoke-direct {v2, p1, p2}, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$$inlined$collect$2;-><init>(Lkotlin/jvm/u/p;Lkotlin/jvm/internal/Ref$IntRef;)V
+    invoke-direct {v2, p1, p2}, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$$inlined$collect$2;-><init>(Lcotlin/jvm/u/p;Lcotlin/jvm/internal/Ref$IntRef;)V
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$3;->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$3;->L$0:Ljava/lang/Object;
 
-    iput-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$3;->L$1:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$3;->L$1:Ljava/lang/Object;
 
-    iput-object p2, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$3;->L$2:Ljava/lang/Object;
+    iput-object p2, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$3;->L$2:Ljava/lang/Object;
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$3;->L$3:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$3;->L$3:Ljava/lang/Object;
 
-    iput v3, v0, Lkotlinx/coroutines/flow/FlowKt__CountKt$count$3;->label:I
+    iput v3, v0, Lcotlinx/coroutines/flow/FlowKt__CountKt$count$3;->label:I
 
-    invoke-interface {p0, v2, v0}, Lkotlinx/coroutines/flow/d;->a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p0, v2, v0}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -348,9 +348,9 @@
 
     .line 6
     :goto_1
-    iget p0, p0, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget p0, p0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    invoke-static {p0}, Lkotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
+    invoke-static {p0}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
 
     move-result-object p0
 

@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/channels/f0$a;
+.class public final Lcotlinx/coroutines/channels/f0$a;
 .super Ljava/lang/Object;
 .source "Channel.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/channels/f0;
+    value = Lcotlinx/coroutines/channels/f0;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,7 +17,7 @@
     value = "SMAP\nChannel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Channel.kt\nkotlinx/coroutines/channels/ValueOrClosed$Closed\n*L\n1#1,590:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -58,7 +58,7 @@
 
 # instance fields
 .field public final a:Ljava/lang/Throwable;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -77,7 +77,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkotlinx/coroutines/channels/f0$a;->a:Ljava/lang/Throwable;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/f0$a;->a:Ljava/lang/Throwable;
 
     return-void
 .end method
@@ -92,17 +92,17 @@
     .end param
 
     .line 1
-    instance-of v0, p1, Lkotlinx/coroutines/channels/f0$a;
+    instance-of v0, p1, Lcotlinx/coroutines/channels/f0$a;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkotlinx/coroutines/channels/f0$a;->a:Ljava/lang/Throwable;
+    iget-object v0, p0, Lcotlinx/coroutines/channels/f0$a;->a:Ljava/lang/Throwable;
 
-    check-cast p1, Lkotlinx/coroutines/channels/f0$a;
+    check-cast p1, Lcotlinx/coroutines/channels/f0$a;
 
-    iget-object p1, p1, Lkotlinx/coroutines/channels/f0$a;->a:Ljava/lang/Throwable;
+    iget-object p1, p1, Lcotlinx/coroutines/channels/f0$a;->a:Ljava/lang/Throwable;
 
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -123,7 +123,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/channels/f0$a;->a:Ljava/lang/Throwable;
+    iget-object v0, p0, Lcotlinx/coroutines/channels/f0$a;->a:Ljava/lang/Throwable;
 
     if-eqz v0, :cond_0
 
@@ -154,7 +154,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lkotlinx/coroutines/channels/f0$a;->a:Ljava/lang/Throwable;
+    iget-object v1, p0, Lcotlinx/coroutines/channels/f0$a;->a:Ljava/lang/Throwable;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 

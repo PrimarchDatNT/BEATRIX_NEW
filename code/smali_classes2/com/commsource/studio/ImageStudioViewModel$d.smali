@@ -17,7 +17,7 @@
     value = "SMAP\nImageStudioViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ImageStudioViewModel.kt\ncom/commsource/studio/ImageStudioViewModel$initCanvasContainer$2$2\n*L\n1#1,1745:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Lcom/commsource/studio/bean/c;",
         "Lcom/commsource/studio/bean/BaseLayerInfo;",
         "layerInfo",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/studio/bean/BaseLayerInfo;)V",
         "d",
@@ -94,7 +94,7 @@
 
     const-string v1, "layerInfo"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {}, Lf/d/i/o;->o0()Z
@@ -242,7 +242,7 @@
 
     const-string v1, "layerInfo"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel$d;->a:Lcom/commsource/studio/ImageStudioViewModel;
@@ -272,11 +272,11 @@
 
     const-string v1, "layerInfo"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "groupLayerInfo"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel$d;->a:Lcom/commsource/studio/ImageStudioViewModel;
@@ -318,7 +318,7 @@
 
     const-string v1, "groupLayerInfo"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/bean/GroupLayerInfo;->getSubLayerInfos()Ljava/util/ArrayList;
@@ -378,11 +378,11 @@
 
     const-string v1, "layerInfo"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "groupLayerInfo"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel$d;->a:Lcom/commsource/studio/ImageStudioViewModel;

@@ -15,7 +15,7 @@
     value = "SMAP\nMagnifyComponent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MagnifyComponent.kt\ncom/commsource/studio/MagnifyComponent\n*L\n1#1,236:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "motionEvent",
         "Lcom/commsource/studio/layer/BaseLayer;",
         "layer",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "h",
         "(FFLandroid/view/MotionEvent;Lcom/commsource/studio/layer/BaseLayer;)V",
         "g",
@@ -81,7 +81,7 @@
         "MAGNIFY_MAGIN_HORIZON",
         "Lcom/commsource/studio/MagnifyComponent$a;",
         "Q",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "getViewModel",
         "()Lcom/commsource/studio/MagnifyComponent$a;",
         "viewModel",
@@ -168,7 +168,7 @@
     .end annotation
 .end field
 
-.field private final Q:Lkotlin/w;
+.field private final Q:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -197,7 +197,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -220,7 +220,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -243,7 +243,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/component/ComponentView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -280,7 +280,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p3, p0, v1}, Lcom/commsource/studio/MagnifyComponent$MagnifyDecorateView;-><init>(Lcom/commsource/studio/MagnifyComponent;Landroid/content/Context;)V
 
@@ -307,11 +307,11 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/MagnifyComponent$viewModel$2;-><init>(Lcom/commsource/studio/MagnifyComponent;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/MagnifyComponent;->Q:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/MagnifyComponent;->Q:Lcotlin/w;
 
     .line 11
     invoke-virtual {p0, p3, p1, p1}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;II)V
@@ -591,7 +591,7 @@
 
     const/16 v16, 0x0
 
-    invoke-static/range {v9 .. v16}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v9 .. v16}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 12
     iget-object v1, v0, Lcom/commsource/studio/MagnifyComponent;->p:Lcom/commsource/studio/MagnifyGLView;
@@ -612,7 +612,7 @@
 
     move-object/from16 v17, v1
 
-    invoke-static/range {v17 .. v24}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v17 .. v24}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 13
     :cond_1
@@ -641,7 +641,7 @@
 
     const/4 v14, 0x0
 
-    invoke-static/range {v8 .. v14}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v8 .. v14}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 16
     :cond_3
@@ -657,7 +657,7 @@
 
     const/16 v21, 0x0
 
-    invoke-static/range {v15 .. v21}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v15 .. v21}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 17
     iput-boolean v7, v0, Lcom/commsource/studio/MagnifyComponent;->O:Z
@@ -757,7 +757,7 @@
 
     const-string v2, "layerScrollViewModel"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -887,9 +887,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/MagnifyComponent;->Q:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/MagnifyComponent;->Q:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -917,11 +917,11 @@
 
     const-string v1, "shareContext"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "disFBOEntity"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/studio/MagnifyComponent$b;
@@ -983,11 +983,11 @@
 
     const-string v1, "storeOwner"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "lifecycleOwner"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/component/ComponentView;->p(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V
@@ -1030,7 +1030,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/MagnifyComponent;->P:Lcom/commsource/studio/component/d;

@@ -1,15 +1,15 @@
-.class final Lkotlin/collections/EmptyMap;
+.class final Lcotlin/collections/EmptyMap;
 .super Ljava/lang/Object;
 .source "Maps.kt"
 
 # interfaces
 .implements Ljava/util/Map;
 .implements Ljava/io/Serializable;
-.implements Lkotlin/jvm/internal/x0/a;
+.implements Lcotlin/jvm/internal/x0/a;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -19,12 +19,12 @@
         "\u0000T\n\u0002\u0018\u0002\n\u0002\u0010$\n\u0002\u0010\u0000\n\u0002\u0010\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u000b\n\u0002\u0010\u001e\n\u0002\u0008\u0003\n\u0002\u0010\t\n\u0002\u0008\u0004\n\u0002\u0010\"\n\u0002\u0008\u0003\n\u0002\u0010&\n\u0002\u0008\u0005\u0008\u00c2\u0002\u0018\u00002\u0010\u0012\u0006\u0012\u0004\u0018\u00010\u0002\u0012\u0004\u0012\u00020\u00030\u00012\u00060\u0004j\u0002`\u0005B\t\u0008\u0002\u00a2\u0006\u0004\u0008+\u0010,J\u000f\u0010\u0006\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u001a\u0010\n\u001a\u00020\t2\u0008\u0010\u0008\u001a\u0004\u0018\u00010\u0002H\u0096\u0002\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u000f\u0010\r\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\u000f\u0010\u0010\u001a\u00020\u000fH\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u0011J\u000f\u0010\u0012\u001a\u00020\tH\u0016\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u0019\u0010\u0015\u001a\u00020\t2\u0008\u0010\u0014\u001a\u0004\u0018\u00010\u0002H\u0016\u00a2\u0006\u0004\u0008\u0015\u0010\u000bJ\u0017\u0010\u0017\u001a\u00020\t2\u0006\u0010\u0016\u001a\u00020\u0003H\u0016\u00a2\u0006\u0004\u0008\u0017\u0010\u0018J\u001c\u0010\u0019\u001a\u0004\u0018\u00010\u00032\u0008\u0010\u0014\u001a\u0004\u0018\u00010\u0002H\u0096\u0002\u00a2\u0006\u0004\u0008\u0019\u0010\u001aR\u001c\u0010\u001e\u001a\u0008\u0012\u0004\u0012\u00020\u00030\u001b8V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u001c\u0010\u001dR\u0016\u0010 \u001a\u00020\u001f8\u0002@\u0002X\u0082T\u00a2\u0006\u0006\n\u0004\u0008 \u0010!R\u0016\u0010#\u001a\u00020\u000c8V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\"\u0010\u000eR\u001e\u0010\'\u001a\n\u0012\u0006\u0012\u0004\u0018\u00010\u00020$8V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008%\u0010&R*\u0010*\u001a\u0016\u0012\u0012\u0012\u0010\u0012\u0006\u0012\u0004\u0018\u00010\u0002\u0012\u0004\u0012\u00020\u00030(0$8V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008)\u0010&\u00a8\u0006-"
     }
     d2 = {
-        "Lkotlin/collections/EmptyMap;",
+        "Lcotlin/collections/EmptyMap;",
         "",
         "",
         "",
         "Ljava/io/Serializable;",
-        "Lkotlin/io/Serializable;",
+        "Lcotlin/io/Serializable;",
         "readResolve",
         "()Ljava/lang/Object;",
         "other",
@@ -76,7 +76,7 @@
 
 
 # static fields
-.field public static final INSTANCE:Lkotlin/collections/EmptyMap;
+.field public static final INSTANCE:Lcotlin/collections/EmptyMap;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -89,11 +89,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lkotlin/collections/EmptyMap;
+    new-instance v0, Lcotlin/collections/EmptyMap;
 
-    invoke-direct {v0}, Lkotlin/collections/EmptyMap;-><init>()V
+    invoke-direct {v0}, Lcotlin/collections/EmptyMap;-><init>()V
 
-    sput-object v0, Lkotlin/collections/EmptyMap;->INSTANCE:Lkotlin/collections/EmptyMap;
+    sput-object v0, Lcotlin/collections/EmptyMap;->INSTANCE:Lcotlin/collections/EmptyMap;
 
     return-void
 .end method
@@ -111,7 +111,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlin/collections/EmptyMap;->INSTANCE:Lkotlin/collections/EmptyMap;
+    sget-object v0, Lcotlin/collections/EmptyMap;->INSTANCE:Lcotlin/collections/EmptyMap;
 
     return-object v0
 .end method
@@ -152,7 +152,7 @@
 
     check-cast p1, Ljava/lang/Void;
 
-    invoke-virtual {p0, p1}, Lkotlin/collections/EmptyMap;->containsValue(Ljava/lang/Void;)Z
+    invoke-virtual {p0, p1}, Lcotlin/collections/EmptyMap;->containsValue(Ljava/lang/Void;)Z
 
     move-result p1
 
@@ -173,7 +173,7 @@
 
     const-string v0, "value"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -192,7 +192,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/EmptyMap;->getEntries()Ljava/util/Set;
+    invoke-virtual {p0}, Lcotlin/collections/EmptyMap;->getEntries()Ljava/util/Set;
 
     move-result-object v0
 
@@ -234,7 +234,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/collections/EmptyMap;->get(Ljava/lang/Object;)Ljava/lang/Void;
+    invoke-virtual {p0, p1}, Lcotlin/collections/EmptyMap;->get(Ljava/lang/Object;)Ljava/lang/Void;
 
     move-result-object p1
 
@@ -270,7 +270,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/collections/EmptySet;->INSTANCE:Lkotlin/collections/EmptySet;
+    sget-object v0, Lcotlin/collections/EmptySet;->INSTANCE:Lcotlin/collections/EmptySet;
 
     return-object v0
 .end method
@@ -290,7 +290,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/collections/EmptySet;->INSTANCE:Lkotlin/collections/EmptySet;
+    sget-object v0, Lcotlin/collections/EmptySet;->INSTANCE:Lcotlin/collections/EmptySet;
 
     return-object v0
 .end method
@@ -309,7 +309,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/collections/EmptyList;->INSTANCE:Lkotlin/collections/EmptyList;
+    sget-object v0, Lcotlin/collections/EmptyList;->INSTANCE:Lcotlin/collections/EmptyList;
 
     return-object v0
 .end method
@@ -342,7 +342,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/EmptyMap;->getKeys()Ljava/util/Set;
+    invoke-virtual {p0}, Lcotlin/collections/EmptyMap;->getKeys()Ljava/util/Set;
 
     move-result-object v0
 
@@ -401,7 +401,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/EmptyMap;->getSize()I
+    invoke-virtual {p0}, Lcotlin/collections/EmptyMap;->getSize()I
 
     move-result v0
 
@@ -422,7 +422,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/EmptyMap;->getValues()Ljava/util/Collection;
+    invoke-virtual {p0}, Lcotlin/collections/EmptyMap;->getValues()Ljava/util/Collection;
 
     move-result-object v0
 

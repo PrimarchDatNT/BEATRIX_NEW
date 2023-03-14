@@ -1,9 +1,9 @@
-.class public final Lkotlin/collections/s;
-.super Lkotlin/collections/CollectionsKt___CollectionsKt;
+.class public final Lcotlin/collections/s;
+.super Lcotlin/collections/CollectionsKt___CollectionsKt;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,7 +35,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;-><init>()V
 
     return-void
 .end method
@@ -55,14 +55,14 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {}, Lkotlin/collections/CollectionsKt__CollectionsKt;->E()Ljava/util/List;
+    invoke-static {}, Lcotlin/collections/CollectionsKt__CollectionsKt;->E()Ljava/util/List;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public static bridge synthetic F(Ljava/util/Collection;)Lkotlin/g2/k;
+.method public static bridge synthetic F(Ljava/util/Collection;)Lcotlin/g2/k;
     .locals 0
     .param p0    # Ljava/util/Collection;
         .annotation build Ln/e/a/d;
@@ -73,14 +73,14 @@
             "(",
             "Ljava/util/Collection<",
             "*>;)",
-            "Lkotlin/g2/k;"
+            "Lcotlin/g2/k;"
         }
     .end annotation
 
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt__CollectionsKt;->F(Ljava/util/Collection;)Lkotlin/g2/k;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt__CollectionsKt;->F(Ljava/util/Collection;)Lcotlin/g2/k;
 
     move-result-object p0
 
@@ -105,7 +105,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->F5(Ljava/util/Collection;)[F
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->F5(Ljava/util/Collection;)[F
 
     move-result-object p0
 
@@ -128,7 +128,7 @@
         }
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt__CollectionsKt;->G(Ljava/util/List;)I
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt__CollectionsKt;->G(Ljava/util/List;)I
 
     move-result p0
 
@@ -154,7 +154,7 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/CollectionsKt___CollectionsKt;->H2(Ljava/util/List;I)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlin/collections/CollectionsKt___CollectionsKt;->H2(Ljava/util/List;I)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -179,7 +179,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->H5(Ljava/util/Collection;)[I
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->H5(Ljava/util/Collection;)[I
 
     move-result-object p0
 
@@ -207,7 +207,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->I5(Ljava/lang/Iterable;)Ljava/util/List;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->I5(Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object p0
 
@@ -230,7 +230,7 @@
         }
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/CollectionsKt___CollectionsKt;->J1(Ljava/lang/Iterable;Ljava/lang/Object;)Z
+    invoke-static {p0, p1}, Lcotlin/collections/CollectionsKt___CollectionsKt;->J1(Ljava/lang/Iterable;Ljava/lang/Object;)Z
 
     move-result p0
 
@@ -253,7 +253,7 @@
         }
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->K1(Ljava/lang/Iterable;)I
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->K1(Ljava/lang/Iterable;)I
 
     move-result p0
 
@@ -279,7 +279,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt__CollectionsKt;->L([Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt__CollectionsKt;->L([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p0
 
@@ -307,7 +307,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->L5(Ljava/util/Collection;)Ljava/util/List;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->L5(Ljava/util/Collection;)Ljava/util/List;
 
     move-result-object p0
 
@@ -335,7 +335,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->M5(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->M5(Ljava/lang/Iterable;)Ljava/util/Set;
 
     move-result-object p0
 
@@ -358,17 +358,17 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/y;->N0(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/y;->N0(Ljava/util/List;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -396,7 +396,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->N1(Ljava/lang/Iterable;)Ljava/util/List;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->N1(Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object p0
 
@@ -424,7 +424,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->N5(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->N5(Ljava/lang/Iterable;)Ljava/util/Set;
 
     move-result-object p0
 
@@ -447,7 +447,7 @@
         }
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/CollectionsKt___CollectionsKt;->O2(Ljava/util/List;Ljava/lang/Object;)I
+    invoke-static {p0, p1}, Lcotlin/collections/CollectionsKt___CollectionsKt;->O2(Ljava/util/List;Ljava/lang/Object;)I
 
     move-result p0
 
@@ -473,20 +473,20 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt__CollectionsKt;->P([Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt__CollectionsKt;->P([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static bridge synthetic P0(Ljava/lang/Iterable;Lkotlin/jvm/u/l;)Z
+.method public static bridge synthetic P0(Ljava/lang/Iterable;Lcotlin/jvm/u/l;)Z
     .locals 0
     .param p0    # Ljava/lang/Iterable;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -497,14 +497,14 @@
             ">(",
             "Ljava/lang/Iterable<",
             "+TT;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;",
             "Ljava/lang/Boolean;",
             ">;)Z"
         }
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/y;->P0(Ljava/lang/Iterable;Lkotlin/jvm/u/l;)Z
+    invoke-static {p0, p1}, Lcotlin/collections/y;->P0(Ljava/lang/Iterable;Lcotlin/jvm/u/l;)Z
 
     move-result p0
 
@@ -532,7 +532,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/CollectionsKt___CollectionsKt;->P1(Ljava/lang/Iterable;I)Ljava/util/List;
+    invoke-static {p0, p1}, Lcotlin/collections/CollectionsKt___CollectionsKt;->P1(Ljava/lang/Iterable;I)Ljava/util/List;
 
     move-result-object p0
 
@@ -560,7 +560,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt__CollectionsKt;->Q(Ljava/util/List;)Ljava/util/List;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt__CollectionsKt;->Q(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p0
 
@@ -583,7 +583,7 @@
         }
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->S4(Ljava/lang/Iterable;)Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->S4(Ljava/lang/Iterable;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -606,7 +606,7 @@
         }
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/CollectionsKt___CollectionsKt;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlin/collections/CollectionsKt___CollectionsKt;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -615,22 +615,22 @@
 
 .method public static bridge synthetic V()V
     .locals 0
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
-    invoke-static {}, Lkotlin/collections/CollectionsKt__CollectionsKt;->V()V
+    invoke-static {}, Lcotlin/collections/CollectionsKt__CollectionsKt;->V()V
 
     return-void
 .end method
 
-.method public static bridge synthetic V2(Ljava/lang/Iterable;Ljava/lang/Appendable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lkotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/Appendable;
+.method public static bridge synthetic V2(Ljava/lang/Iterable;Ljava/lang/Appendable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lcotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/Appendable;
     .locals 0
 
-    invoke-static/range {p0 .. p9}, Lkotlin/collections/CollectionsKt___CollectionsKt;->V2(Ljava/lang/Iterable;Ljava/lang/Appendable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lkotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/Appendable;
+    invoke-static/range {p0 .. p9}, Lcotlin/collections/CollectionsKt___CollectionsKt;->V2(Ljava/lang/Iterable;Ljava/lang/Appendable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lcotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/Appendable;
 
     move-result-object p0
 
@@ -653,14 +653,14 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     .annotation build Ln/e/a/e;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->V3(Ljava/lang/Iterable;)Ljava/lang/Comparable;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->V3(Ljava/lang/Iterable;)Ljava/lang/Comparable;
 
     move-result-object p0
 
@@ -669,22 +669,22 @@
 
 .method public static bridge synthetic W()V
     .locals 0
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
-    invoke-static {}, Lkotlin/collections/CollectionsKt__CollectionsKt;->W()V
+    invoke-static {}, Lcotlin/collections/CollectionsKt__CollectionsKt;->W()V
 
     return-void
 .end method
 
-.method public static bridge synthetic X2(Ljava/lang/Iterable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lkotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/String;
+.method public static bridge synthetic X2(Ljava/lang/Iterable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lcotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/String;
     .locals 0
 
-    invoke-static/range {p0 .. p8}, Lkotlin/collections/CollectionsKt___CollectionsKt;->X2(Ljava/lang/Iterable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lkotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {p0 .. p8}, Lcotlin/collections/CollectionsKt___CollectionsKt;->X2(Ljava/lang/Iterable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lcotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -710,7 +710,7 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->X4(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->X4(Ljava/util/List;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -733,10 +733,10 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/u;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {p0, p1}, Lcotlin/collections/u;->Y(Ljava/lang/Iterable;I)I
 
     move-result p0
 
@@ -764,7 +764,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/u;->a0(Ljava/lang/Iterable;)Ljava/util/Collection;
+    invoke-static {p0}, Lcotlin/collections/u;->a0(Ljava/lang/Iterable;)Ljava/util/Collection;
 
     move-result-object p0
 
@@ -787,7 +787,7 @@
         }
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->a3(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->a3(Ljava/util/List;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -821,7 +821,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/a0;->c1(Ljava/lang/Iterable;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, p1}, Lcotlin/collections/a0;->c1(Ljava/lang/Iterable;Ljava/lang/Class;)Ljava/util/List;
 
     move-result-object p0
 
@@ -849,7 +849,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->d5(Ljava/lang/Iterable;)Ljava/util/List;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->d5(Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object p0
 
@@ -872,7 +872,7 @@
         }
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/a0;->e1(Ljava/util/List;)V
+    invoke-static {p0}, Lcotlin/collections/a0;->e1(Ljava/util/List;)V
 
     return-void
 .end method
@@ -898,7 +898,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/v;->f0(Ljava/util/Enumeration;)Ljava/util/Iterator;
+    invoke-static {p0}, Lcotlin/collections/v;->f0(Ljava/util/Enumeration;)Ljava/util/Iterator;
 
     move-result-object p0
 
@@ -926,7 +926,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->f2(Ljava/lang/Iterable;)Ljava/util/List;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->f2(Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object p0
 
@@ -960,7 +960,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/CollectionsKt___CollectionsKt;->h5(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
+    invoke-static {p0, p1}, Lcotlin/collections/CollectionsKt___CollectionsKt;->h5(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
 
     move-result-object p0
 
@@ -982,7 +982,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/t;->k(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {p0}, Lcotlin/collections/t;->k(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p0
 
@@ -1005,12 +1005,12 @@
         }
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/x;->m0(Ljava/util/List;)V
+    invoke-static {p0}, Lcotlin/collections/x;->m0(Ljava/util/List;)V
 
     return-void
 .end method
 
-.method public static bridge synthetic n1(Ljava/lang/Iterable;)Lkotlin/sequences/m;
+.method public static bridge synthetic n1(Ljava/lang/Iterable;)Lcotlin/sequences/m;
     .locals 0
     .param p0    # Ljava/lang/Iterable;
         .annotation build Ln/e/a/d;
@@ -1023,7 +1023,7 @@
             ">(",
             "Ljava/lang/Iterable<",
             "+TT;>;)",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "TT;>;"
         }
     .end annotation
@@ -1031,7 +1031,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->n1(Ljava/lang/Iterable;)Lkotlin/sequences/m;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->n1(Ljava/lang/Iterable;)Lcotlin/sequences/m;
 
     move-result-object p0
 
@@ -1054,7 +1054,7 @@
         }
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->o2(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->o2(Ljava/util/List;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -1088,7 +1088,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/CollectionsKt___CollectionsKt;->o4(Ljava/util/Collection;Ljava/lang/Iterable;)Ljava/util/List;
+    invoke-static {p0, p1}, Lcotlin/collections/CollectionsKt___CollectionsKt;->o4(Ljava/util/Collection;Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object p0
 
@@ -1117,7 +1117,7 @@
         }
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/x;->p0(Ljava/util/List;Ljava/util/Comparator;)V
+    invoke-static {p0, p1}, Lcotlin/collections/x;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
     return-void
 .end method
@@ -1144,7 +1144,7 @@
         }
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/y;->q0(Ljava/util/Collection;Ljava/lang/Iterable;)Z
+    invoke-static {p0, p1}, Lcotlin/collections/y;->q0(Ljava/util/Collection;Ljava/lang/Iterable;)Z
 
     move-result p0
 
@@ -1170,20 +1170,20 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt__CollectionsKt;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt__CollectionsKt;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static bridge synthetic r0(Ljava/util/Collection;Lkotlin/sequences/m;)Z
+.method public static bridge synthetic r0(Ljava/util/Collection;Lcotlin/sequences/m;)Z
     .locals 0
     .param p0    # Ljava/util/Collection;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/sequences/m;
+    .param p1    # Lcotlin/sequences/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1194,12 +1194,12 @@
             ">(",
             "Ljava/util/Collection<",
             "-TT;>;",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "+TT;>;)Z"
         }
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/y;->r0(Ljava/util/Collection;Lkotlin/sequences/m;)Z
+    invoke-static {p0, p1}, Lcotlin/collections/y;->r0(Ljava/util/Collection;Lcotlin/sequences/m;)Z
 
     move-result p0
 
@@ -1225,7 +1225,7 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    invoke-static {p0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->r2(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->r2(Ljava/util/List;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -1257,7 +1257,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/CollectionsKt___CollectionsKt;->r4(Ljava/util/Collection;[Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {p0, p1}, Lcotlin/collections/CollectionsKt___CollectionsKt;->r4(Ljava/util/Collection;[Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p0
 
@@ -1285,7 +1285,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/collections/CollectionsKt___CollectionsKt;->w5(Ljava/lang/Iterable;I)Ljava/util/List;
+    invoke-static {p0, p1}, Lcotlin/collections/CollectionsKt___CollectionsKt;->w5(Ljava/lang/Iterable;I)Ljava/util/List;
 
     move-result-object p0
 
@@ -1295,7 +1295,7 @@
 .method public static bridge synthetic x(Ljava/util/List;Ljava/lang/Comparable;IIILjava/lang/Object;)I
     .locals 0
 
-    invoke-static/range {p0 .. p5}, Lkotlin/collections/CollectionsKt__CollectionsKt;->x(Ljava/util/List;Ljava/lang/Comparable;IIILjava/lang/Object;)I
+    invoke-static/range {p0 .. p5}, Lcotlin/collections/CollectionsKt__CollectionsKt;->x(Ljava/util/List;Ljava/lang/Comparable;IIILjava/lang/Object;)I
 
     move-result p0
 

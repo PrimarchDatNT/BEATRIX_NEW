@@ -8,7 +8,7 @@
     value = "SMAP\nTextTemplateStyle.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextTemplateStyle.kt\ncom/commsource/studio/text/TextTemplateStyle\n*L\n1#1,80:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,

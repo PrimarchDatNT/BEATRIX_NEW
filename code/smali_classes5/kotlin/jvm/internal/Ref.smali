@@ -1,4 +1,4 @@
-.class public Lkotlin/jvm/internal/Ref;
+.class public Lcotlin/jvm/internal/Ref;
 .super Ljava/lang/Object;
 .source "Ref.java"
 
@@ -6,15 +6,15 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkotlin/jvm/internal/Ref$BooleanRef;,
-        Lkotlin/jvm/internal/Ref$CharRef;,
-        Lkotlin/jvm/internal/Ref$DoubleRef;,
-        Lkotlin/jvm/internal/Ref$FloatRef;,
-        Lkotlin/jvm/internal/Ref$LongRef;,
-        Lkotlin/jvm/internal/Ref$IntRef;,
-        Lkotlin/jvm/internal/Ref$ShortRef;,
-        Lkotlin/jvm/internal/Ref$ByteRef;,
-        Lkotlin/jvm/internal/Ref$ObjectRef;
+        Lcotlin/jvm/internal/Ref$BooleanRef;,
+        Lcotlin/jvm/internal/Ref$CharRef;,
+        Lcotlin/jvm/internal/Ref$DoubleRef;,
+        Lcotlin/jvm/internal/Ref$FloatRef;,
+        Lcotlin/jvm/internal/Ref$LongRef;,
+        Lcotlin/jvm/internal/Ref$IntRef;,
+        Lcotlin/jvm/internal/Ref$ShortRef;,
+        Lcotlin/jvm/internal/Ref$ByteRef;,
+        Lcotlin/jvm/internal/Ref$ObjectRef;
     }
 .end annotation
 

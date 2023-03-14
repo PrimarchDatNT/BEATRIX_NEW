@@ -8,7 +8,7 @@
     value = "SMAP\nObjectReporter.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ObjectReporter.kt\nkshark/ObjectReporter\n*L\n1#1,65:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,19 +20,19 @@
     d2 = {
         "Lkshark/v;",
         "",
-        "Lkotlin/reflect/d;",
+        "Lcotlin/reflect/d;",
         "expectedClass",
-        "Lkotlin/Function2;",
+        "Lcotlin/Function2;",
         "Lkshark/HeapObject$HeapInstance;",
-        "Lkotlin/t1;",
-        "Lkotlin/q;",
+        "Lcotlin/t1;",
+        "Lcotlin/q;",
         "block",
         "h",
-        "(Lkotlin/reflect/d;Lkotlin/jvm/u/p;)V",
+        "(Lcotlin/reflect/d;Lcotlin/jvm/u/p;)V",
         "",
         "expectedClassName",
         "g",
-        "(Ljava/lang/String;Lkotlin/jvm/u/p;)V",
+        "(Ljava/lang/String;Lcotlin/jvm/u/p;)V",
         "",
         "d",
         "()Ljava/util/Set;",
@@ -40,7 +40,7 @@
         "()V",
         "likelyLeakingReasons",
         "Ljava/util/LinkedHashSet;",
-        "Lkotlin/collections/LinkedHashSet;",
+        "Lcotlin/collections/LinkedHashSet;",
         "a",
         "Ljava/util/LinkedHashSet;",
         "b",
@@ -124,7 +124,7 @@
 
     const-string v0, "heapObject"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -157,9 +157,9 @@
 
 .method public static synthetic f()V
     .locals 0
-    .annotation runtime Lkotlin/i;
+    .annotation runtime Lcotlin/i;
         message = "Replace likelyLeakingReasons with leakingReasons"
-        replaceWith = .subannotation Lkotlin/q0;
+        replaceWith = .subannotation Lcotlin/q0;
             expression = "leakingReasons"
             imports = {}
         .end subannotation
@@ -261,13 +261,13 @@
     return-object v0
 .end method
 
-.method public final g(Ljava/lang/String;Lkotlin/jvm/u/p;)V
+.method public final g(Ljava/lang/String;Lcotlin/jvm/u/p;)V
     .locals 2
     .param p1    # Ljava/lang/String;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -275,23 +275,23 @@
         value = {
             "(",
             "Ljava/lang/String;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Lkshark/v;",
             "-",
             "Lkshark/HeapObject$HeapInstance;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "expectedClassName"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "block"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lkshark/v;->d:Lkshark/HeapObject;
@@ -312,49 +312,49 @@
     if-eqz p1, :cond_0
 
     .line 3
-    invoke-interface {p2, p0, v0}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0, v0}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
     return-void
 .end method
 
-.method public final h(Lkotlin/reflect/d;Lkotlin/jvm/u/p;)V
+.method public final h(Lcotlin/reflect/d;Lcotlin/jvm/u/p;)V
     .locals 1
-    .param p1    # Lkotlin/reflect/d;
+    .param p1    # Lcotlin/reflect/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "+",
             "Ljava/lang/Object;",
             ">;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Lkshark/v;",
             "-",
             "Lkshark/HeapObject$HeapInstance;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "expectedClass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "block"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p1}, Lkotlin/jvm/a;->c(Lkotlin/reflect/d;)Ljava/lang/Class;
+    invoke-static {p1}, Lcotlin/jvm/a;->c(Lcotlin/reflect/d;)Ljava/lang/Class;
 
     move-result-object p1
 
@@ -364,9 +364,9 @@
 
     const-string v0, "expectedClass.java.name"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {p0, p1, p2}, Lkshark/v;->g(Ljava/lang/String;Lkotlin/jvm/u/p;)V
+    invoke-virtual {p0, p1, p2}, Lkshark/v;->g(Ljava/lang/String;Lcotlin/jvm/u/p;)V
 
     return-void
 .end method

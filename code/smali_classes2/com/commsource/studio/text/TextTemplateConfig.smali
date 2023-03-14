@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -124,7 +124,7 @@
 
     move-object v0, p0
 
-    invoke-direct/range {v0 .. v10}, Lcom/commsource/studio/text/TextTemplateConfig;-><init>(ZZZZZZZZILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v10}, Lcom/commsource/studio/text/TextTemplateConfig;-><init>(ZZZZZZZZILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -154,7 +154,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(ZZZZZZZZILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(ZZZZZZZZILcotlin/jvm/internal/u;)V
     .locals 9
 
     move/from16 v0, p9

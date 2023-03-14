@@ -17,7 +17,7 @@
     value = "SMAP\nBaseBpCameraViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BaseBpCameraViewModel.kt\ncom/commsource/camera/xcamera/BaseBpCameraViewModel\n*L\n1#1,1218:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
         "arCameraBuilder",
         "",
         "focusViewId",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "x0",
         "(Lcom/meitu/library/camera/MTCamera$e;Lcom/meitu/library/d/a/a$e;I)V",
         "Landroid/app/Activity;",
@@ -79,13 +79,13 @@
         "grantResults",
         "H0",
         "(I[Ljava/lang/String;[I)V",
-        "Lkotlin/Function2;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function2;",
+        "Lcotlin/k0;",
         "name",
         "arcameraBuilder",
         "onCameraAddNode",
         "D0",
-        "(Lkotlin/jvm/u/p;)V",
+        "(Lcotlin/jvm/u/p;)V",
         "",
         "a1",
         "()Z",
@@ -215,7 +215,7 @@
         "r0",
         "previewSizeEvent",
         "cameraRatioEvent",
-        "Lkotlin/jvm/u/p;",
+        "Lcotlin/jvm/u/p;",
         "cameraApiEvent",
         "Lcom/meitu/library/d/c/a;",
         "Lcom/meitu/library/d/c/a;",
@@ -236,11 +236,11 @@
         "Lcom/meitu/library/camera/statistics/e;",
         "Lcom/meitu/library/camera/statistics/e;",
         "mCameraStatisticsManager",
-        "Lkotlin/Function1;",
-        "Lkotlin/jvm/u/l;",
-        "()Lkotlin/jvm/u/l;",
+        "Lcotlin/Function1;",
+        "Lcotlin/jvm/u/l;",
+        "()Lcotlin/jvm/u/l;",
         "R0",
-        "(Lkotlin/jvm/u/l;)V",
+        "(Lcotlin/jvm/u/l;)V",
         "onVideoRecordState",
         "Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;",
         "J",
@@ -435,15 +435,15 @@
 
 .field private f:Lcom/meitu/library/n/a/n/a;
 
-.field private f0:Lkotlin/jvm/u/p;
+.field private f0:Lcotlin/jvm/u/p;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Lcom/meitu/library/camera/MTCamera$e;",
             "-",
             "Lcom/meitu/library/d/a/a$e;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -462,13 +462,13 @@
     .end annotation
 .end field
 
-.field private g0:Lkotlin/jvm/u/l;
+.field private g0:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -627,7 +627,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$d;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$d;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->v0:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$d;
 
@@ -650,7 +650,7 @@
 
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/base/BaseVm;-><init>(Landroid/app/Application;)V
@@ -752,7 +752,7 @@
 
     move-object v0, p1
 
-    invoke-direct/range {v0 .. v9}, Lcom/commsource/camera/xcamera/i;-><init>(Ljava/lang/String;IIIIIIILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v9}, Lcom/commsource/camera/xcamera/i;-><init>(Ljava/lang/String;IIIIIIILcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->i0:Lcom/commsource/camera/xcamera/i;
 
@@ -855,7 +855,7 @@
 
     const-string v1, "mArCoreCameraRenderManager"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -877,7 +877,7 @@
 
     const-string v1, "mCameraRenderManager"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1082,7 +1082,7 @@
 
     const-string v2, "builder.build()"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1135,7 +1135,7 @@
 
     const-string v2, "fpsBuilder.setTimeConsum\u2026llectEnable(true).build()"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->W:Lcom/meitu/library/renderarch/arch/input/camerainput/f;
 
@@ -1151,7 +1151,7 @@
 
     const-string v3, "mRenderFpsManager"
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1, v2}, Lcom/meitu/library/renderarch/arch/input/camerainput/a$j;->v(Lcom/meitu/library/renderarch/arch/input/camerainput/f;)Lcom/meitu/library/renderarch/arch/input/camerainput/a$j;
@@ -1167,7 +1167,7 @@
 
     const-string v3, "lifecycleEglEngine"
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v1, v2}, Lcom/meitu/library/renderarch/arch/input/camerainput/a$j;->s(Lcom/meitu/library/n/a/o/e;)Lcom/meitu/library/renderarch/arch/input/camerainput/a$j;
@@ -1194,7 +1194,7 @@
 
     const-string v2, "MTCameraRenderManager.Bu\u2026\n                .build()"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->V:Lcom/meitu/library/renderarch/arch/input/camerainput/e;
 
@@ -1205,7 +1205,7 @@
 
     const-string v3, "mCameraRenderManager"
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-direct {v2, p1, p2, v1}, Lcom/meitu/library/camera/component/preview/b$b;-><init>(Ljava/lang/Object;ILcom/meitu/library/renderarch/arch/input/camerainput/a;)V
@@ -1217,7 +1217,7 @@
 
     const-string p2, "builder.build()"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1238,7 +1238,7 @@
 
     const-string v2, "camera"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/MTCamera;->A0(Ljava/lang/String;)Z
@@ -1373,7 +1373,7 @@
 
     new-instance v3, Lcom/commsource/camera/xcamera/c;
 
-    invoke-direct {v3, v2}, Lcom/commsource/camera/xcamera/c;-><init>(Lkotlin/jvm/u/s;)V
+    invoke-direct {v3, v2}, Lcom/commsource/camera/xcamera/c;-><init>(Lcotlin/jvm/u/s;)V
 
     move-object v2, v3
 
@@ -1468,7 +1468,7 @@
 
     const-string v1, "arCoreCameraSwitchController"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1492,7 +1492,7 @@
 
     const-string v2, "arCoreCameraSwitchController"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->A()Z
@@ -1550,7 +1550,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-interface {v1}, Lcom/meitu/library/camera/MTCamera$h;->m()Z
@@ -1593,21 +1593,21 @@
     return-void
 .end method
 
-.method public final D0(Lkotlin/jvm/u/p;)V
+.method public final D0(Lcotlin/jvm/u/p;)V
     .locals 2
-    .param p1    # Lkotlin/jvm/u/p;
+    .param p1    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Lcom/meitu/library/camera/MTCamera$e;",
             "-",
             "Lcom/meitu/library/d/a/a$e;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1618,10 +1618,10 @@
 
     const-string v1, "onCameraAddNode"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->f0:Lkotlin/jvm/u/p;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->f0:Lcotlin/jvm/u/p;
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1652,7 +1652,7 @@
 
     const-string v2, "arCoreCameraSwitchController"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/library/d/f/a;->F(Landroid/os/Bundle;)V
@@ -1698,7 +1698,7 @@
 
     const-string v2, "arCoreCameraSwitchController"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->H()V
@@ -1727,11 +1727,11 @@
 
     const-string v1, "permissions"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "grantResults"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
@@ -1740,7 +1740,7 @@
 
     const-string v2, "arCoreCameraSwitchController"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1, p1, p2, p3}, Lcom/meitu/library/d/f/a;->I(I[Ljava/lang/String;[I)V
@@ -1764,7 +1764,7 @@
 
     const-string v1, "outState"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d:Lcom/meitu/library/d/f/a;
@@ -1773,7 +1773,7 @@
 
     const-string v2, "arCoreCameraSwitchController"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/library/d/f/a;->K(Landroid/os/Bundle;)V
@@ -1798,7 +1798,7 @@
 
     const-string v2, "arCoreCameraSwitchController"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->L()V
@@ -1823,7 +1823,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/n/a/n/a;->M()V
@@ -1833,7 +1833,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/library/n/a/n/a;->N()V
@@ -1861,11 +1861,11 @@
 
     const-string v1, "cameraBuilder"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "arCameraBuilder"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->j0:Lcom/commsource/camera/xcamera/b;
@@ -1954,7 +1954,7 @@
 
     const-string v2, "camera"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/MTCamera;->z0(I)V
@@ -2017,7 +2017,7 @@
 
     const-string v3, "arCoreCameraSwitchController"
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->y()Z
@@ -2041,7 +2041,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v1}, Lcom/meitu/library/camera/MTCamera;->Y()Z
@@ -2054,7 +2054,7 @@
 
     if-nez v1, :cond_4
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {v1}, Lcom/meitu/library/camera/MTCamera;->W()Z
@@ -2094,7 +2094,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->r0:Landroidx/lifecycle/MutableLiveData;
@@ -2175,7 +2175,7 @@
 
     const-string v2, "arCoreCameraSwitchController"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2183,19 +2183,19 @@
     return-object v1
 .end method
 
-.method public final R0(Lkotlin/jvm/u/l;)V
+.method public final R0(Lcotlin/jvm/u/l;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -2205,7 +2205,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->g0:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->g0:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2228,7 +2228,7 @@
 
     const-string v2, "mArCoreCameraRenderManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2250,7 +2250,7 @@
 
     const-string v2, "mCameraZoomer"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/p/a;->x(Z)V
@@ -2337,7 +2337,7 @@
 
     const-string v2, "arCoreCameraSwitchController"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->A()Z
@@ -2353,7 +2353,7 @@
 
     const-string v2, "mArCoreCameraRenderManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/library/d/d/a/b/a;->v3()Lcom/meitu/library/d/d/a/a;
@@ -2372,7 +2372,7 @@
 
     const-string v2, "mCameraRenderManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v1}, Lcom/meitu/library/renderarch/arch/input/camerainput/e;->z3()Lcom/meitu/library/n/a/f;
@@ -2397,7 +2397,7 @@
 
     const-string v2, "off"
 
-    invoke-static {v2, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -2455,7 +2455,7 @@
 
     const-string v1, "path"
 
-    invoke-static {p4, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->a0:Lcom/meitu/library/camera/p/d/b;
@@ -2533,7 +2533,7 @@
 
     const-string v4, "arCoreCameraSwitchController"
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {p3}, Lcom/meitu/library/d/f/a;->y()Z
@@ -2568,7 +2568,7 @@
 
     if-nez p1, :cond_4
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/a;->n()Lcom/meitu/library/camera/MTCamera$s;
@@ -2583,7 +2583,7 @@
     const-string p3, "XT1053"
 
     .line 18
-    invoke-static {p3, p1, p4}, Lkotlin/text/m;->I1(Ljava/lang/String;Ljava/lang/String;Z)Z
+    invoke-static {p3, p1, p4}, Lcotlin/text/m;->I1(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     move-result p1
 
@@ -2593,7 +2593,7 @@
 
     if-nez p1, :cond_5
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/a;->n()Lcom/meitu/library/camera/MTCamera$s;
@@ -2610,7 +2610,7 @@
 
     if-nez p1, :cond_6
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/a;->n()Lcom/meitu/library/camera/MTCamera$s;
@@ -2628,7 +2628,7 @@
 
     if-nez p1, :cond_8
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_8
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/a;->n()Lcom/meitu/library/camera/MTCamera$s;
@@ -2645,7 +2645,7 @@
 
     if-nez p1, :cond_9
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_9
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/a;->n()Lcom/meitu/library/camera/MTCamera$s;
@@ -2718,7 +2718,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->y()Z
@@ -2734,7 +2734,7 @@
 
     const-string v2, "mArCoreCameraPreviewManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/library/camera/component/preview/a;->A2()V
@@ -2747,7 +2747,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->z()Z
@@ -2763,7 +2763,7 @@
 
     const-string v2, "mYuvView"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {v1}, Lcom/meitu/library/camera/component/preview/a;->A2()V
@@ -2823,7 +2823,7 @@
 
     const-string v2, "arCoreCameraSwitchController"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->A()Z
@@ -2839,7 +2839,7 @@
 
     const-string v2, "mArCoreCameraRenderManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/library/d/d/a/b/a;->v3()Lcom/meitu/library/d/d/a/a;
@@ -2858,7 +2858,7 @@
 
     const-string v2, "mCameraRenderManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v1}, Lcom/meitu/library/renderarch/arch/input/camerainput/e;->z3()Lcom/meitu/library/n/a/f;
@@ -2952,7 +2952,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->y()Z
@@ -2968,7 +2968,7 @@
 
     const-string v2, "mArCoreCameraPreviewManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/library/camera/component/preview/a;->E2()V
@@ -2981,7 +2981,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->z()Z
@@ -2997,7 +2997,7 @@
 
     const-string v2, "mYuvView"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {v1}, Lcom/meitu/library/camera/component/preview/a;->E2()V
@@ -3057,7 +3057,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->y()Z
@@ -3073,7 +3073,7 @@
 
     const-string v3, "arCoreCamera"
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/library/d/a/a;->C()Z
@@ -3101,7 +3101,7 @@
 
     const-string v3, "camera"
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v1}, Lcom/meitu/library/camera/MTCamera;->P0()Z
@@ -3123,7 +3123,7 @@
 
     if-nez v4, :cond_4
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {v4}, Lcom/meitu/library/d/f/a;->A()Z
@@ -3183,7 +3183,7 @@
 
     const-string v2, "mCameraRenderManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3206,7 +3206,7 @@
 
     const-string v1, "flashMode"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->b:Lcom/meitu/library/camera/MTCamera;
@@ -3215,7 +3215,7 @@
 
     const-string v2, "camera"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/MTCamera;->A0(Ljava/lang/String;)Z
@@ -3283,7 +3283,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v2}, Lcom/meitu/library/d/f/a;->y()Z
@@ -3307,7 +3307,7 @@
 
     if-nez p1, :cond_2
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {p1}, Lcom/meitu/library/d/f/a;->Q()Z
@@ -3322,7 +3322,7 @@
 
     if-nez p1, :cond_4
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {p1}, Lcom/meitu/library/d/f/a;->R()Z
@@ -3365,7 +3365,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/camera/MTCamera;->L()Lcom/meitu/library/camera/MTCamera$r;
@@ -3382,7 +3382,7 @@
 
     if-nez v3, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v3, v1}, Lcom/meitu/library/camera/MTCamera;->H0(Lcom/meitu/library/camera/MTCamera$r;)Z
@@ -3485,7 +3485,7 @@
 
     const-string v2, "arCoreCameraSwitchController"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->y()Z
@@ -3513,7 +3513,7 @@
 
     const-string v2, "mCameraRenderManager"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     const/4 v2, 0x0
@@ -3596,7 +3596,7 @@
 
     new-instance v1, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$o;
 
-    invoke-direct {v1, v6}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$o;-><init>(Lkotlin/jvm/u/a;)V
+    invoke-direct {v1, v6}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$o;-><init>(Lcotlin/jvm/u/a;)V
 
     const-wide/16 v2, 0x32
 
@@ -3606,7 +3606,7 @@
 
     .line 12
     :cond_5
-    invoke-interface {v6}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v6}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     .line 13
     :goto_1
@@ -3759,7 +3759,7 @@
 
     const-string v2, "lifecycleEglEngine"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3816,7 +3816,7 @@
     if-nez v1, :cond_0
 
     .line 2
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-interface {v1}, Lcom/meitu/library/camera/MTCamera$h;->j()I
@@ -3850,7 +3850,7 @@
     if-nez v1, :cond_0
 
     .line 2
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-interface {v1}, Lcom/meitu/library/camera/MTCamera$h;->i()I
@@ -3895,7 +3895,7 @@
 
     const-string v2, "arCoreCameraSwitchController"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->G()V
@@ -3921,7 +3921,7 @@
 
     const-string v2, "arCoreCameraSwitchController"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->J()V
@@ -3956,7 +3956,7 @@
 
     const-string v2, "arCoreCameraSwitchController"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/library/d/f/a;->N()V
@@ -3968,14 +3968,14 @@
     return-void
 .end method
 
-.method public final p0()Lkotlin/jvm/u/l;
+.method public final p0()Lcotlin/jvm/u/l;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -3988,7 +3988,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->g0:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->g0:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4155,7 +4155,7 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "initCamera"
 
@@ -4178,7 +4178,7 @@
 
     const-string v2, "LifecycleEglEngineUtil.g\u2026ustomLifecycleEglEngine()"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->f:Lcom/meitu/library/n/a/n/a;
 
@@ -4219,7 +4219,7 @@
 
     const-string v4, "ArCoreInfoHitTestProvider.Builder().build()"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object v3, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->S:Lcom/meitu/library/d/b/c;
 
@@ -4235,7 +4235,7 @@
 
     if-nez v4, :cond_0
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v3, v4}, Lcom/meitu/library/camera/q/a;->g(Lcom/meitu/library/camera/q/a;)V
@@ -4250,7 +4250,7 @@
 
     if-nez v4, :cond_1
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-direct {v3, v4}, Lcom/commsource/camera/newrender/renderproxy/v/f0;-><init>(Lcom/meitu/library/d/b/c;)V
@@ -4280,7 +4280,7 @@
     const-string v4, "mCameraZoomer"
 
     .line 17
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v1, v3}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
@@ -4297,7 +4297,7 @@
     const-string v4, "mYuvView"
 
     .line 19
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v1, v3}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
@@ -4309,7 +4309,7 @@
 
     if-nez v3, :cond_4
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {v1, v3}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
@@ -4325,7 +4325,7 @@
 
     const-string v6, "lifecycleEglEngine"
 
-    invoke-static {v6}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v6}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     invoke-virtual {v3, v5}, Lcom/meitu/library/renderarch/arch/input/camerainput/a$j;->s(Lcom/meitu/library/n/a/o/e;)Lcom/meitu/library/renderarch/arch/input/camerainput/a$j;
@@ -4361,7 +4361,7 @@
 
     const-string v6, "MTArCoreCameraRenderMana\u2026                 .build()"
 
-    invoke-static {v3, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object v3, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->Y:Lcom/meitu/library/d/d/a/b/a;
 
@@ -4373,7 +4373,7 @@
     if-nez v3, :cond_6
 
     .line 26
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     .line 27
     :cond_6
@@ -4386,7 +4386,7 @@
 
     const-string p3, "MTArCoreCameraPreviewMan\u2026Manager\n        ).build()"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->X:Lcom/meitu/library/d/c/a;
 
@@ -4395,7 +4395,7 @@
 
     if-nez p1, :cond_7
 
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_7
     invoke-virtual {v2, p1}, Lcom/meitu/library/d/a/a$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/d/a/a$e;
@@ -4407,7 +4407,7 @@
 
     const-string p3, "mArCoreCameraPreviewManager"
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_8
     invoke-virtual {v2, p1}, Lcom/meitu/library/d/a/a$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/d/a/a$e;
@@ -4471,7 +4471,7 @@
 
     if-nez p2, :cond_b
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_b
     invoke-virtual {p1, p2}, Lcom/commsource/camera/xcamera/a;->t(Lcom/meitu/library/renderarch/arch/input/camerainput/e;)V
@@ -4504,7 +4504,7 @@
 
     const-string p2, "mCameraConfig"
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_c
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/MTCamera$e;->e(Lcom/meitu/library/camera/MTCamera$f;)Lcom/meitu/library/camera/MTCamera$e;
@@ -4516,7 +4516,7 @@
 
     const-string p2, "arCoreCameraConfig"
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_d
     invoke-virtual {v2, p1}, Lcom/meitu/library/d/a/a$e;->d(Lcom/meitu/library/d/a/a$a;)Lcom/meitu/library/d/a/a$e;
@@ -4528,7 +4528,7 @@
 
     if-nez p1, :cond_e
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_e
     invoke-virtual {p1}, Lcom/meitu/library/d/f/a;->u()Lcom/meitu/library/d/f/a$c;
@@ -4542,7 +4542,7 @@
 
     if-nez p1, :cond_f
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_f
     invoke-virtual {p1}, Lcom/meitu/library/d/f/a;->t()Lcom/meitu/library/d/f/a$b;
@@ -4552,15 +4552,15 @@
     invoke-virtual {v2, p1}, Lcom/meitu/library/d/a/a$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/d/a/a$e;
 
     .line 53
-    iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->f0:Lkotlin/jvm/u/p;
+    iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->f0:Lcotlin/jvm/u/p;
 
     if-eqz p1, :cond_10
 
-    invoke-interface {p1, v1, v2}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1, v2}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 54
     :cond_10
@@ -4590,7 +4590,7 @@
 
     const-string p2, "arCameraBuilder.build()"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->c:Lcom/meitu/library/d/a/a;
 
@@ -4634,7 +4634,7 @@
 
     const-string p2, "MTCameraStatisticsManage\u2026er.getInstance()).build()"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->Z:Lcom/meitu/library/camera/statistics/e;
 
@@ -4643,7 +4643,7 @@
     const-string p2, "mCameraStatisticsManager"
 
     .line 63
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_11
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
@@ -4655,7 +4655,7 @@
 
     const-string p2, "cameraBuilder.build()"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->b:Lcom/meitu/library/camera/MTCamera;
 
@@ -4679,7 +4679,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-interface {v1}, Lcom/meitu/library/camera/MTCamera$h;->C()Z
@@ -4715,7 +4715,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-interface {v1}, Lcom/meitu/library/camera/MTCamera$h;->G()Z

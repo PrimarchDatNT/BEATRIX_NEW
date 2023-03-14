@@ -1,4 +1,4 @@
-.class public interface abstract Lkotlin/f2/d;
+.class public interface abstract Lcotlin/f2/d;
 .super Ljava/lang/Object;
 .source "Interfaces.kt"
 
@@ -15,7 +15,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,15 +25,15 @@
         "\u0000\u0016\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0008\u00e7\u0080\u0001\u0018\u0000*\u0006\u0008\u0000\u0010\u0001 \u0000*\u0006\u0008\u0001\u0010\u0002 \u00012\u00020\u0003J$\u0010\u0007\u001a\u00028\u00012\u0006\u0010\u0004\u001a\u00028\u00002\n\u0010\u0006\u001a\u0006\u0012\u0002\u0008\u00030\u0005H\u00a6\u0002\u00a2\u0006\u0004\u0008\u0007\u0010\u0008\u00a8\u0006\t"
     }
     d2 = {
-        "Lkotlin/f2/d;",
+        "Lcotlin/f2/d;",
         "T",
         "D",
         "",
         "thisRef",
-        "Lkotlin/reflect/n;",
+        "Lcotlin/reflect/n;",
         "property",
         "a",
-        "(Ljava/lang/Object;Lkotlin/reflect/n;)Ljava/lang/Object;",
+        "(Ljava/lang/Object;Lcotlin/reflect/n;)Ljava/lang/Object;",
         "kotlin-stdlib"
     }
     k = 0x1
@@ -44,21 +44,21 @@
     }
 .end annotation
 
-.annotation build Lkotlin/s0;
+.annotation build Lcotlin/s0;
     version = "1.4"
 .end annotation
 
 
 # virtual methods
-.method public abstract a(Ljava/lang/Object;Lkotlin/reflect/n;)Ljava/lang/Object;
-    .param p2    # Lkotlin/reflect/n;
+.method public abstract a(Ljava/lang/Object;Lcotlin/reflect/n;)Ljava/lang/Object;
+    .param p2    # Lcotlin/reflect/n;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
-            "Lkotlin/reflect/n<",
+            "Lcotlin/reflect/n<",
             "*>;)TD;"
         }
     .end annotation

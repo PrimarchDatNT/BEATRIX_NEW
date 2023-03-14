@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Landroid/animation/AnimatorListenerAdapter;",
         "Landroid/animation/Animator;",
         "animation",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onAnimationCancel",
         "(Landroid/animation/Animator;)V",
         "onAnimationEnd",
@@ -73,7 +73,7 @@
 
     const-string v1, "animation"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p1, p0, Lcom/commsource/studio/j$d;->a:Ljava/lang/Runnable;
@@ -102,7 +102,7 @@
 
     const-string v1, "animation"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p1, p0, Lcom/commsource/studio/j$d;->a:Ljava/lang/Runnable;

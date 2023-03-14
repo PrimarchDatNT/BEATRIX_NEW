@@ -22,7 +22,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -37,7 +37,7 @@
         "T",
         "Lcom/mopub/network/MoPubNetworkError;",
         "networkError",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onErrorResponse",
         "(Lcom/mopub/network/MoPubNetworkError;)V",
         "response",
@@ -60,7 +60,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method
 
@@ -75,6 +75,6 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 .end method

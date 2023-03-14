@@ -209,7 +209,7 @@
 
     sget-object v5, Lcom/commsource/beautymain/utils/b;->a:Lcom/commsource/beautymain/utils/b;
 
-    invoke-direct {v3, v6, v4, v5}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-direct {v3, v6, v4, v5}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lcotlin/jvm/u/l;)V
 
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -227,7 +227,7 @@
 
     invoke-direct {v5, p2}, Lcom/commsource/beautymain/utils/a;-><init>(Landroid/app/Activity;)V
 
-    invoke-direct {v3, v2, v4, v5}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-direct {v3, v2, v4, v5}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lcotlin/jvm/u/l;)V
 
     .line 21
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -393,7 +393,7 @@
     return-void
 .end method
 
-.method static synthetic c(Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+.method static synthetic c(Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
     .locals 1
 
     const/16 v0, 0x6438
@@ -411,7 +411,7 @@
     return-object p0
 .end method
 
-.method static synthetic d(Landroid/app/Activity;Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+.method static synthetic d(Landroid/app/Activity;Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
     .locals 1
 
     const/16 v0, 0x6437

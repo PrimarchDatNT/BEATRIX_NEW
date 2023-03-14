@@ -1,14 +1,14 @@
-.class final Lkotlin/text/MatcherMatchResult$groups$1$iterator$1;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlin/text/MatcherMatchResult$groups$1$iterator$1;
+.super Lcotlin/jvm/internal/Lambda;
 .source "Regex.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/text/MatcherMatchResult$groups$1;->iterator()Ljava/util/Iterator;
+    value = Lcotlin/text/MatcherMatchResult$groups$1;->iterator()Ljava/util/Iterator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,15 +18,15 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Ljava/lang/Integer;",
-        "Lkotlin/text/h;",
+        "Lcotlin/text/h;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,9 +38,9 @@
     d2 = {
         "",
         "it",
-        "Lkotlin/text/h;",
+        "Lcotlin/text/h;",
         "invoke",
-        "(I)Lkotlin/text/h;",
+        "(I)Lcotlin/text/h;",
         "<anonymous>"
     }
     k = 0x3
@@ -53,18 +53,18 @@
 
 
 # instance fields
-.field final synthetic this$0:Lkotlin/text/MatcherMatchResult$groups$1;
+.field final synthetic this$0:Lcotlin/text/MatcherMatchResult$groups$1;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/text/MatcherMatchResult$groups$1;)V
+.method constructor <init>(Lcotlin/text/MatcherMatchResult$groups$1;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/text/MatcherMatchResult$groups$1$iterator$1;->this$0:Lkotlin/text/MatcherMatchResult$groups$1;
+    iput-object p1, p0, Lcotlin/text/MatcherMatchResult$groups$1$iterator$1;->this$0:Lcotlin/text/MatcherMatchResult$groups$1;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -81,22 +81,22 @@
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Lkotlin/text/MatcherMatchResult$groups$1$iterator$1;->invoke(I)Lkotlin/text/h;
+    invoke-virtual {p0, p1}, Lcotlin/text/MatcherMatchResult$groups$1$iterator$1;->invoke(I)Lcotlin/text/h;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(I)Lkotlin/text/h;
+.method public final invoke(I)Lcotlin/text/h;
     .locals 1
     .annotation build Ln/e/a/e;
     .end annotation
 
     .line 2
-    iget-object v0, p0, Lkotlin/text/MatcherMatchResult$groups$1$iterator$1;->this$0:Lkotlin/text/MatcherMatchResult$groups$1;
+    iget-object v0, p0, Lcotlin/text/MatcherMatchResult$groups$1$iterator$1;->this$0:Lcotlin/text/MatcherMatchResult$groups$1;
 
-    invoke-virtual {v0, p1}, Lkotlin/text/MatcherMatchResult$groups$1;->get(I)Lkotlin/text/h;
+    invoke-virtual {v0, p1}, Lcotlin/text/MatcherMatchResult$groups$1;->get(I)Lcotlin/text/h;
 
     move-result-object p1
 

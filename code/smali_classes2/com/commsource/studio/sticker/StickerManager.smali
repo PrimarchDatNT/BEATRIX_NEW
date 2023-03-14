@@ -11,7 +11,7 @@
     value = "SMAP\nStickerManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StickerManager.kt\ncom/commsource/studio/sticker/StickerManager\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,978:1\n1828#2,3:979\n1517#2:982\n1588#2,2:983\n1828#2,2:985\n1828#2,3:987\n1830#2:990\n1590#2:991\n1819#2,2:992\n1819#2,2:994\n1819#2,2:996\n1819#2,2:998\n1819#2,2:1000\n1819#2,2:1002\n1517#2:1004\n1588#2,2:1005\n734#2:1007\n825#2,2:1008\n1819#2:1010\n734#2:1011\n825#2,2:1012\n1820#2:1014\n1590#2:1015\n734#2:1016\n825#2,2:1017\n1819#2,2:1019\n1819#2,2:1021\n1819#2,2:1023\n734#2:1025\n825#2,2:1026\n1819#2,2:1028\n1819#2,2:1030\n1517#2:1032\n1588#2,3:1033\n1711#2,3:1036\n734#2:1039\n825#2,2:1040\n1517#2:1042\n1588#2,3:1043\n734#2:1046\n825#2,2:1047\n734#2:1049\n825#2,2:1050\n1517#2:1052\n1588#2,3:1053\n734#2:1056\n825#2,2:1057\n1819#2,2:1059\n1819#2,2:1061\n1819#2,2:1063\n1819#2,2:1065\n734#2:1067\n825#2,2:1068\n734#2:1070\n825#2,2:1071\n734#2:1073\n825#2,2:1074\n1819#2,2:1076\n318#2,7:1078\n*E\n*S KotlinDebug\n*F\n+ 1 StickerManager.kt\ncom/commsource/studio/sticker/StickerManager\n*L\n90#1,3:979\n93#1:982\n93#1,2:983\n93#1,2:985\n93#1,3:987\n93#1:990\n93#1:991\n114#1,2:992\n128#1,2:994\n142#1,2:996\n164#1,2:998\n165#1,2:1000\n166#1,2:1002\n195#1:1004\n195#1,2:1005\n195#1:1007\n195#1,2:1008\n195#1:1010\n195#1:1011\n195#1,2:1012\n195#1:1014\n195#1:1015\n262#1:1016\n262#1,2:1017\n415#1,2:1019\n459#1,2:1021\n498#1,2:1023\n516#1:1025\n516#1,2:1026\n528#1,2:1028\n539#1,2:1030\n552#1:1032\n552#1,3:1033\n554#1,3:1036\n556#1:1039\n556#1,2:1040\n564#1:1042\n564#1,3:1043\n566#1:1046\n566#1,2:1047\n580#1:1049\n580#1,2:1050\n581#1:1052\n581#1,3:1053\n582#1:1056\n582#1,2:1057\n589#1,2:1059\n601#1,2:1061\n716#1,2:1063\n746#1,2:1065\n799#1:1067\n799#1,2:1068\n806#1:1070\n806#1,2:1071\n859#1:1073\n859#1,2:1074\n866#1,2:1076\n954#1,7:1078\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -23,7 +23,7 @@
     d2 = {
         "Lcom/commsource/studio/sticker/StickerManager;",
         "Lcom/commsource/repository/e;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "V",
         "()V",
         "Landroid/util/SparseArray;",
@@ -128,7 +128,7 @@
         "Landroid/util/SparseArray;",
         "mStickerGroupMap",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "j",
         "Ljava/util/ArrayList;",
         "allGroupSortList",
@@ -480,7 +480,7 @@
     .line 5
     sget-object v6, Lcom/commsource/studio/sticker/StickerManager$c;->a:Lcom/commsource/studio/sticker/StickerManager$c;
 
-    invoke-static {v5, v6}, Lkotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
+    invoke-static {v5, v6}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
     .line 6
     invoke-virtual {v2, v5}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
@@ -490,7 +490,7 @@
 
     const/16 v7, 0xa
 
-    invoke-static {v5, v7}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v5, v7}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v7
 
@@ -658,7 +658,7 @@
     :cond_5
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager$d;->a:Lcom/commsource/studio/sticker/StickerManager$d;
 
-    invoke-static {v15, v1}, Lkotlin/collections/s;->h5(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
+    invoke-static {v15, v1}, Lcotlin/collections/s;->h5(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
 
     move-result-object v1
 
@@ -755,7 +755,7 @@
     :cond_a
     sget-object v10, Lcom/commsource/studio/sticker/StickerManager$e;->a:Lcom/commsource/studio/sticker/StickerManager$e;
 
-    invoke-static {v11, v10}, Lkotlin/collections/s;->h5(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
+    invoke-static {v11, v10}, Lcotlin/collections/s;->h5(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
 
     move-result-object v10
 
@@ -853,7 +853,7 @@
 
     invoke-direct {v7, v3, v0}, Lcom/commsource/studio/sticker/StickerManager$a;-><init>(Ljava/util/ArrayList;Landroid/util/SparseArray;)V
 
-    invoke-static {v1, v7}, Lkotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
+    invoke-static {v1, v7}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
     .line 31
     invoke-virtual {v5, v1}, Lcom/meitu/template/bean/m;->l(Ljava/util/List;)V
@@ -970,7 +970,7 @@
 
     invoke-direct {v1, v3, v0}, Lcom/commsource/studio/sticker/StickerManager$b;-><init>(Ljava/util/ArrayList;Landroid/util/SparseArray;)V
 
-    invoke-static {v5, v1}, Lkotlin/collections/s;->h5(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
+    invoke-static {v5, v1}, Lcotlin/collections/s;->h5(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
 
     move-result-object v0
 
@@ -1033,7 +1033,7 @@
     const-string v1, "compareResult"
 
     .line 4
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -1111,7 +1111,7 @@
     const-string v0, "compareResult"
 
     .line 4
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     invoke-interface {p2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -1186,7 +1186,7 @@
     const-string v1, "compareResult"
 
     .line 4
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -2028,7 +2028,7 @@
 
     const-string v1, "stickerGroup"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$i;
@@ -2058,7 +2058,7 @@
 
     const-string v1, "sticker"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "beau_sticker_download_req"
 
@@ -2142,11 +2142,11 @@
 
     const-string v1, "stickerGroup"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "source"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
@@ -2390,7 +2390,7 @@
     :cond_2
     sget-object v2, Lcom/commsource/studio/sticker/StickerManager$j;->a:Lcom/commsource/studio/sticker/StickerManager$j;
 
-    invoke-static {v7, v2}, Lkotlin/collections/s;->h5(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
+    invoke-static {v7, v2}, Lcotlin/collections/s;->h5(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
 
     move-result-object v2
 
@@ -2398,7 +2398,7 @@
     invoke-virtual {v6, v2}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     .line 14
-    sget-object v2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v2, Lcotlin/t1;->a:Lcotlin/t1;
 
     if-eqz v5, :cond_3
 
@@ -2468,7 +2468,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lkotlin/collections/s;->L5(Ljava/util/Collection;)Ljava/util/List;
+    invoke-static {v2}, Lcotlin/collections/s;->L5(Ljava/util/Collection;)Ljava/util/List;
 
     move-result-object v2
 
@@ -2605,7 +2605,7 @@
 
     const/4 v11, 0x5
 
-    invoke-static {v6, v11}, Lkotlin/collections/s;->w5(Ljava/lang/Iterable;I)Ljava/util/List;
+    invoke-static {v6, v11}, Lcotlin/collections/s;->w5(Ljava/lang/Iterable;I)Ljava/util/List;
 
     move-result-object v6
 
@@ -2614,7 +2614,7 @@
     .line 32
     new-instance v11, Ljava/util/ArrayList;
 
-    invoke-static {v6, v8}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v6, v8}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v12
 
@@ -2768,7 +2768,7 @@
     goto :goto_8
 
     :cond_14
-    invoke-static {v6}, Lkotlin/collections/s;->L5(Ljava/util/Collection;)Ljava/util/List;
+    invoke-static {v6}, Lcotlin/collections/s;->L5(Ljava/util/Collection;)Ljava/util/List;
 
     move-result-object v2
 
@@ -2790,7 +2790,7 @@
 
     move-result-object v6
 
-    invoke-static {v6}, Lkotlin/collections/s;->I5(Ljava/lang/Iterable;)Ljava/util/List;
+    invoke-static {v6}, Lcotlin/collections/s;->I5(Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object v6
 
@@ -2807,7 +2807,7 @@
     .line 48
     new-instance v11, Ljava/util/ArrayList;
 
-    invoke-static {v6, v8}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v6, v8}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v12
 
@@ -3020,7 +3020,7 @@
 
     .line 59
     :cond_21
-    invoke-static {v11}, Lkotlin/collections/s;->L5(Ljava/util/Collection;)Ljava/util/List;
+    invoke-static {v11}, Lcotlin/collections/s;->L5(Ljava/util/Collection;)Ljava/util/List;
 
     move-result-object v0
 
@@ -3083,7 +3083,7 @@
     :cond_24
     new-instance v3, Ljava/util/ArrayList;
 
-    invoke-static {v0, v8}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v0, v8}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v6
 
@@ -3171,7 +3171,7 @@
 
     .line 72
     :cond_27
-    invoke-static {v0}, Lkotlin/collections/s;->L5(Ljava/util/Collection;)Ljava/util/List;
+    invoke-static {v0}, Lcotlin/collections/s;->L5(Ljava/util/Collection;)Ljava/util/List;
 
     move-result-object v0
 
@@ -3227,7 +3227,7 @@
     .line 78
     invoke-virtual {v4, v9, v1}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
-    sget-object v0, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
 
     :cond_2b
     if-eqz v5, :cond_2c
@@ -3235,7 +3235,7 @@
     .line 79
     invoke-virtual {v4, v9, v5}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
-    sget-object v0, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
 
     :cond_2c
     const v0, 0x8860
@@ -3287,14 +3287,14 @@
 
     const-string v1, "sticker"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;
 
     invoke-direct {v1, p1, p2}, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;-><init>(Lcom/meitu/template/bean/Sticker;I)V
 
-    invoke-static {v1}, Lcom/commsource/material/download/b/e;->a(Lkotlin/jvm/u/l;)Lcom/commsource/material/download/b/d;
+    invoke-static {v1}, Lcom/commsource/material/download/b/e;->a(Lcotlin/jvm/u/l;)Lcom/commsource/material/download/b/d;
 
     move-result-object p1
 
@@ -3655,7 +3655,7 @@
 
     const-string v1, "sticker"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/material/download/c/d;
@@ -3705,7 +3705,7 @@
     move-object v2, v1
 
     .line 4
-    invoke-direct/range {v2 .. v8}, Lcom/commsource/material/download/c/d;-><init>(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v2 .. v8}, Lcom/commsource/material/download/c/d;-><init>(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;ILcotlin/jvm/internal/u;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3863,7 +3863,7 @@
 
     if-gez v7, :cond_0
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_0
     check-cast v8, Lcom/meitu/template/bean/m;
@@ -3884,7 +3884,7 @@
 
     const/16 v7, 0xa
 
-    invoke-static {v1, v7}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v1, v7}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v7
 
@@ -3938,7 +3938,7 @@
 
     if-gez v9, :cond_2
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_2
     check-cast v10, Lcom/meitu/template/bean/StickerGroup;
@@ -3987,7 +3987,7 @@
 
     if-gez v13, :cond_3
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_3
     check-cast v14, Lcom/meitu/template/bean/Sticker;
@@ -4031,7 +4031,7 @@
 
     .line 26
     :cond_5
-    sget-object v7, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v7, Lcotlin/t1;->a:Lcotlin/t1;
 
     goto :goto_4
 
@@ -4329,7 +4329,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -4340,7 +4340,7 @@
 
     move-result-object p1
 
-    invoke-interface {v1, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
@@ -4348,7 +4348,7 @@
     :cond_0
     new-instance v2, Lcom/commsource/studio/sticker/StickerManager$l;
 
-    invoke-direct {v2, v1, p1}, Lcom/commsource/studio/sticker/StickerManager$l;-><init>(Lkotlin/jvm/u/l;I)V
+    invoke-direct {v2, v1, p1}, Lcom/commsource/studio/sticker/StickerManager$l;-><init>(Lcotlin/jvm/u/l;I)V
 
     invoke-static {v2}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
@@ -4372,7 +4372,7 @@
 
     const-string v1, "sticker"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$m;
@@ -4487,7 +4487,7 @@
 
     const-string v1, "sticker"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Sticker;->isFormulaSticker()Z
@@ -4636,7 +4636,7 @@
 
     const-string v1, "sticker"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Sticker;->getGroupId()I
@@ -4864,7 +4864,7 @@
 
     const-string v1, "group"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$p;
@@ -4894,7 +4894,7 @@
 
     const-string v1, "sticker"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, -0x8
 
@@ -5034,7 +5034,7 @@
     if-lt v4, v5, :cond_5
 
     .line 15
-    invoke-static {v1}, Lkotlin/collections/s;->G(Ljava/util/List;)I
+    invoke-static {v1}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result v4
 
@@ -5044,7 +5044,7 @@
 
     const-string v5, "stickers.removeAt(stickers.lastIndex)"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v4, Lcom/meitu/template/bean/Sticker;
 
@@ -5090,7 +5090,7 @@
 
     const-string v1, "sticker"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$q;
@@ -5124,11 +5124,11 @@
 
     const-string v1, "event"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "sticker"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p2}, Lcom/meitu/template/bean/Sticker;->getGroupId()I
@@ -5235,7 +5235,7 @@
 
     const-string v1, "source"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -5392,7 +5392,7 @@
 
     const-string v1, "material"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v1, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;

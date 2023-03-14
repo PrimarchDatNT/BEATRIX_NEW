@@ -1,38 +1,38 @@
-.class public Lkotlin/jvm/internal/MutablePropertyReference2Impl;
-.super Lkotlin/jvm/internal/MutablePropertyReference2;
+.class public Lcotlin/jvm/internal/MutablePropertyReference2Impl;
+.super Lcotlin/jvm/internal/MutablePropertyReference2;
 .source "MutablePropertyReference2Impl.java"
 
 
 # direct methods
 .method public constructor <init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     .line 2
-    invoke-direct {p0, p1, p2, p3, p4}, Lkotlin/jvm/internal/MutablePropertyReference2;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcotlin/jvm/internal/MutablePropertyReference2;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
     return-void
 .end method
 
-.method public constructor <init>(Lkotlin/reflect/h;Ljava/lang/String;Ljava/lang/String;)V
+.method public constructor <init>(Lcotlin/reflect/h;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
     .line 1
     move-object v0, p1
 
-    check-cast v0, Lkotlin/jvm/internal/r;
+    check-cast v0, Lcotlin/jvm/internal/r;
 
-    invoke-interface {v0}, Lkotlin/jvm/internal/r;->q()Ljava/lang/Class;
+    invoke-interface {v0}, Lcotlin/jvm/internal/r;->q()Ljava/lang/Class;
 
     move-result-object v0
 
-    instance-of p1, p1, Lkotlin/reflect/d;
+    instance-of p1, p1, Lcotlin/reflect/d;
 
     xor-int/lit8 p1, p1, 0x1
 
-    invoke-direct {p0, v0, p2, p3, p1}, Lkotlin/jvm/internal/MutablePropertyReference2;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct {p0, v0, p2, p3, p1}, Lcotlin/jvm/internal/MutablePropertyReference2;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
     return-void
 .end method
@@ -43,7 +43,7 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/MutablePropertyReference2;->getGetter()Lkotlin/reflect/q$a;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/MutablePropertyReference2;->getGetter()Lcotlin/reflect/q$a;
 
     move-result-object v0
 
@@ -59,7 +59,7 @@
 
     aput-object p2, v1, p1
 
-    invoke-interface {v0, v1}, Lkotlin/reflect/c;->call([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Lcotlin/reflect/c;->call([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -70,7 +70,7 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/MutablePropertyReference2;->getSetter()Lkotlin/reflect/m$a;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/MutablePropertyReference2;->getSetter()Lcotlin/reflect/m$a;
 
     move-result-object v0
 
@@ -90,7 +90,7 @@
 
     aput-object p3, v1, p1
 
-    invoke-interface {v0, v1}, Lkotlin/reflect/c;->call([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Lcotlin/reflect/c;->call([Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method

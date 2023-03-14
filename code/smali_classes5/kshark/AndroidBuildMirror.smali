@@ -10,7 +10,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -68,7 +68,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkshark/AndroidBuildMirror$Companion;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lkshark/AndroidBuildMirror$Companion;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lkshark/AndroidBuildMirror;->c:Lkshark/AndroidBuildMirror$Companion;
 
@@ -84,7 +84,7 @@
 
     const/4 v2, 0x3
 
-    invoke-direct {p0, v0, v1, v2, v0}, Lkshark/AndroidBuildMirror;-><init>(Ljava/lang/String;IILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, v0, v1, v2, v0}, Lkshark/AndroidBuildMirror;-><init>(Ljava/lang/String;IILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -98,7 +98,7 @@
 
     const-string v0, "manufacturer"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -110,7 +110,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/String;IILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Ljava/lang/String;IILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p4, p3, 0x1

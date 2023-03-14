@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/internal/MainDispatcherFactory$a;
+.class public final Lcotlinx/coroutines/internal/MainDispatcherFactory$a;
 .super Ljava/lang/Object;
 .source "MainDispatcherFactory.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/internal/MainDispatcherFactory;
+    value = Lcotlinx/coroutines/internal/MainDispatcherFactory;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
 
 
 # direct methods
-.method public static a(Lkotlinx/coroutines/internal/MainDispatcherFactory;)Ljava/lang/String;
+.method public static a(Lcotlinx/coroutines/internal/MainDispatcherFactory;)Ljava/lang/String;
     .locals 0
     .annotation build Ln/e/a/e;
     .end annotation

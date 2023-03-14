@@ -14,7 +14,7 @@
     value = "SMAP\nTeethWhiteProxy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TeethWhiteProxy.kt\ncom/commsource/studio/render/TeethWhiteProxy\n*L\n1#1,28:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -73,7 +73,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/r0/e0$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/r0/e0$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/r0/e0;->m:Lcom/commsource/studio/r0/e0$a;
 
@@ -91,7 +91,7 @@
 
     const-string v0, "configPath"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/r0/x;-><init>(Ljava/lang/String;)V

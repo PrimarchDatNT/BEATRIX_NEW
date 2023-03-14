@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Landroid/animation/ValueAnimator;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onAnimationUpdate",
         "(Landroid/animation/ValueAnimator;)V",
         "<anonymous>"
@@ -70,7 +70,7 @@
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/SeekComponent$c;->a:Lcom/commsource/studio/component/SeekComponent;
 
-    invoke-virtual {v1}, Lcom/commsource/studio/component/SeekComponent;->getOnTransitionYChange()Lkotlin/jvm/u/l;
+    invoke-virtual {v1}, Lcom/commsource/studio/component/SeekComponent;->getOnTransitionYChange()Lcotlin/jvm/u/l;
 
     move-result-object v1
 
@@ -90,7 +90,7 @@
 
     const-string v4, "it"
 
-    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedFraction()F
 
@@ -106,11 +106,11 @@
 
     move-result-object p1
 
-    invoke-interface {v1, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 2
     :cond_0

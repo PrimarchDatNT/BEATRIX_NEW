@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "progress",
         "",
         "leftDx",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "C",
         "(IF)V",
         "",
@@ -83,7 +83,7 @@
     .line 2
     iget-object p2, p0, Lcom/commsource/studio/component/SeekComponent$a;->a:Lcom/commsource/studio/component/SeekComponent$b;
 
-    invoke-virtual {p2}, Lcom/commsource/studio/component/SeekComponent$b;->f()Lkotlin/jvm/u/l;
+    invoke-virtual {p2}, Lcom/commsource/studio/component/SeekComponent$b;->f()Lcotlin/jvm/u/l;
 
     move-result-object p2
 
@@ -93,11 +93,11 @@
 
     move-result-object p1
 
-    invoke-interface {p2, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 3
     :cond_0
@@ -134,7 +134,7 @@
     .line 2
     iget-object p2, p0, Lcom/commsource/studio/component/SeekComponent$a;->a:Lcom/commsource/studio/component/SeekComponent$b;
 
-    invoke-virtual {p2}, Lcom/commsource/studio/component/SeekComponent$b;->e()Lkotlin/jvm/u/p;
+    invoke-virtual {p2}, Lcom/commsource/studio/component/SeekComponent$b;->e()Lcotlin/jvm/u/p;
 
     move-result-object p2
 
@@ -148,11 +148,11 @@
 
     move-result-object p3
 
-    invoke-interface {p2, p1, p3}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1, p3}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 3
     :cond_0
@@ -174,7 +174,7 @@
     .line 2
     iget-object p2, p0, Lcom/commsource/studio/component/SeekComponent$a;->a:Lcom/commsource/studio/component/SeekComponent$b;
 
-    invoke-virtual {p2}, Lcom/commsource/studio/component/SeekComponent$b;->g()Lkotlin/jvm/u/l;
+    invoke-virtual {p2}, Lcom/commsource/studio/component/SeekComponent$b;->g()Lcotlin/jvm/u/l;
 
     move-result-object p2
 
@@ -184,11 +184,11 @@
 
     move-result-object p1
 
-    invoke-interface {p2, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 3
     :cond_0

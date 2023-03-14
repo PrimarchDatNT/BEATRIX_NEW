@@ -1,11 +1,11 @@
-.class final Lkotlinx/coroutines/selects/b$c;
-.super Lkotlinx/coroutines/internal/v;
+.class final Lcotlinx/coroutines/selects/b$c;
+.super Lcotlinx/coroutines/internal/v;
 .source "Select.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/selects/b;
+    value = Lcotlinx/coroutines/selects/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "c"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,20 +24,20 @@
     }
     d2 = {
         "kotlinx/coroutines/selects/b$c",
-        "Lkotlinx/coroutines/internal/v;",
+        "Lcotlinx/coroutines/internal/v;",
         "",
         "affected",
         "c",
         "(Ljava/lang/Object;)Ljava/lang/Object;",
-        "Lkotlinx/coroutines/internal/d;",
+        "Lcotlinx/coroutines/internal/d;",
         "a",
-        "()Lkotlinx/coroutines/internal/d;",
+        "()Lcotlinx/coroutines/internal/d;",
         "atomicOp",
-        "Lkotlinx/coroutines/internal/m$d;",
-        "Lkotlinx/coroutines/internal/m$d;",
+        "Lcotlinx/coroutines/internal/m$d;",
+        "Lcotlinx/coroutines/internal/m$d;",
         "otherOp",
         "<init>",
-        "(Lkotlinx/coroutines/internal/m$d;)V",
+        "(Lcotlinx/coroutines/internal/m$d;)V",
         "kotlinx-coroutines-core"
     }
     k = 0x1
@@ -50,8 +50,8 @@
 
 
 # instance fields
-.field public final a:Lkotlinx/coroutines/internal/m$d;
-    .annotation build Lkotlin/jvm/d;
+.field public final a:Lcotlinx/coroutines/internal/m$d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -60,29 +60,29 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/internal/m$d;)V
+.method public constructor <init>(Lcotlinx/coroutines/internal/m$d;)V
     .locals 0
-    .param p1    # Lkotlinx/coroutines/internal/m$d;
+    .param p1    # Lcotlinx/coroutines/internal/m$d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
 
     .line 1
-    invoke-direct {p0}, Lkotlinx/coroutines/internal/v;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/internal/v;-><init>()V
 
-    iput-object p1, p0, Lkotlinx/coroutines/selects/b$c;->a:Lkotlinx/coroutines/internal/m$d;
+    iput-object p1, p0, Lcotlinx/coroutines/selects/b$c;->a:Lcotlinx/coroutines/internal/m$d;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public a()Lkotlinx/coroutines/internal/d;
+.method public a()Lcotlinx/coroutines/internal/d;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlinx/coroutines/internal/d<",
+            "Lcotlinx/coroutines/internal/d<",
             "*>;"
         }
     .end annotation
@@ -91,9 +91,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/selects/b$c;->a:Lkotlinx/coroutines/internal/m$d;
+    iget-object v0, p0, Lcotlinx/coroutines/selects/b$c;->a:Lcotlinx/coroutines/internal/m$d;
 
-    invoke-virtual {v0}, Lkotlinx/coroutines/internal/m$d;->a()Lkotlinx/coroutines/internal/d;
+    invoke-virtual {v0}, Lcotlinx/coroutines/internal/m$d;->a()Lcotlinx/coroutines/internal/d;
 
     move-result-object v0
 
@@ -112,32 +112,32 @@
     if-eqz p1, :cond_1
 
     .line 1
-    check-cast p1, Lkotlinx/coroutines/selects/b;
+    check-cast p1, Lcotlinx/coroutines/selects/b;
 
     .line 2
-    iget-object v0, p0, Lkotlinx/coroutines/selects/b$c;->a:Lkotlinx/coroutines/internal/m$d;
+    iget-object v0, p0, Lcotlinx/coroutines/selects/b$c;->a:Lcotlinx/coroutines/internal/m$d;
 
-    invoke-virtual {v0}, Lkotlinx/coroutines/internal/m$d;->d()V
+    invoke-virtual {v0}, Lcotlinx/coroutines/internal/m$d;->d()V
 
     .line 3
-    iget-object v0, p0, Lkotlinx/coroutines/selects/b$c;->a:Lkotlinx/coroutines/internal/m$d;
+    iget-object v0, p0, Lcotlinx/coroutines/selects/b$c;->a:Lcotlinx/coroutines/internal/m$d;
 
-    invoke-virtual {v0}, Lkotlinx/coroutines/internal/m$d;->a()Lkotlinx/coroutines/internal/d;
+    invoke-virtual {v0}, Lcotlinx/coroutines/internal/m$d;->a()Lcotlinx/coroutines/internal/d;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lkotlinx/coroutines/internal/d;->e(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcotlinx/coroutines/internal/d;->e(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
     .line 4
-    iget-object v1, p0, Lkotlinx/coroutines/selects/b$c;->a:Lkotlinx/coroutines/internal/m$d;
+    iget-object v1, p0, Lcotlinx/coroutines/selects/b$c;->a:Lcotlinx/coroutines/internal/m$d;
 
-    iget-object v1, v1, Lkotlinx/coroutines/internal/m$d;->c:Lkotlinx/coroutines/internal/m$a;
+    iget-object v1, v1, Lcotlinx/coroutines/internal/m$d;->c:Lcotlinx/coroutines/internal/m$a;
 
     goto :goto_0
 
@@ -146,7 +146,7 @@
 
     .line 5
     :goto_0
-    sget-object v2, Lkotlinx/coroutines/selects/b;->f:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
+    sget-object v2, Lcotlinx/coroutines/selects/b;->f:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     invoke-virtual {v2, p1, p0, v1}, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -154,11 +154,11 @@
 
     .line 6
     :cond_1
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v0, "null cannot be cast to non-null type kotlinx.coroutines.selects.SelectBuilderImpl<*>"
 
-    invoke-direct {p1, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method

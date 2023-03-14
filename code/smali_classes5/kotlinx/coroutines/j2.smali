@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/j2;
+.class public final Lcotlinx/coroutines/j2;
 .super Ljava/lang/Object;
 .source "JobSupport.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,9 +22,9 @@
         "f",
         "I",
         "FALSE",
-        "Lkotlinx/coroutines/internal/c0;",
+        "Lcotlinx/coroutines/internal/c0;",
         "c",
-        "Lkotlinx/coroutines/internal/c0;",
+        "Lcotlinx/coroutines/internal/c0;",
         "COMPLETING_RETRY$annotations",
         "()V",
         "COMPLETING_RETRY",
@@ -34,9 +34,9 @@
         "d",
         "TOO_LATE_TO_CANCEL$annotations",
         "TOO_LATE_TO_CANCEL",
-        "Lkotlinx/coroutines/i1;",
+        "Lcotlinx/coroutines/i1;",
         "j",
-        "Lkotlinx/coroutines/i1;",
+        "Lcotlinx/coroutines/i1;",
         "EMPTY_ACTIVE$annotations",
         "EMPTY_ACTIVE",
         "g",
@@ -64,19 +64,19 @@
 
 
 # static fields
-.field private static final a:Lkotlinx/coroutines/internal/c0;
+.field private static final a:Lcotlinx/coroutines/internal/c0;
 
-.field public static final b:Lkotlinx/coroutines/internal/c0;
-    .annotation build Lkotlin/jvm/d;
+.field public static final b:Lcotlinx/coroutines/internal/c0;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private static final c:Lkotlinx/coroutines/internal/c0;
+.field private static final c:Lcotlinx/coroutines/internal/c0;
 
-.field private static final d:Lkotlinx/coroutines/internal/c0;
+.field private static final d:Lcotlinx/coroutines/internal/c0;
 
 .field private static final e:I = -0x1
 
@@ -84,11 +84,11 @@
 
 .field private static final g:I = 0x1
 
-.field private static final h:Lkotlinx/coroutines/internal/c0;
+.field private static final h:Lcotlinx/coroutines/internal/c0;
 
-.field private static final i:Lkotlinx/coroutines/i1;
+.field private static final i:Lcotlinx/coroutines/i1;
 
-.field private static final j:Lkotlinx/coroutines/i1;
+.field private static final j:Lcotlinx/coroutines/i1;
 
 
 # direct methods
@@ -96,67 +96,67 @@
     .locals 2
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/internal/c0;
+    new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "COMPLETING_ALREADY"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlinx/coroutines/j2;->a:Lkotlinx/coroutines/internal/c0;
+    sput-object v0, Lcotlinx/coroutines/j2;->a:Lcotlinx/coroutines/internal/c0;
 
     .line 2
-    new-instance v0, Lkotlinx/coroutines/internal/c0;
+    new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "COMPLETING_WAITING_CHILDREN"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlinx/coroutines/j2;->b:Lkotlinx/coroutines/internal/c0;
+    sput-object v0, Lcotlinx/coroutines/j2;->b:Lcotlinx/coroutines/internal/c0;
 
     .line 3
-    new-instance v0, Lkotlinx/coroutines/internal/c0;
+    new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "COMPLETING_RETRY"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlinx/coroutines/j2;->c:Lkotlinx/coroutines/internal/c0;
+    sput-object v0, Lcotlinx/coroutines/j2;->c:Lcotlinx/coroutines/internal/c0;
 
     .line 4
-    new-instance v0, Lkotlinx/coroutines/internal/c0;
+    new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "TOO_LATE_TO_CANCEL"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlinx/coroutines/j2;->d:Lkotlinx/coroutines/internal/c0;
+    sput-object v0, Lcotlinx/coroutines/j2;->d:Lcotlinx/coroutines/internal/c0;
 
     .line 5
-    new-instance v0, Lkotlinx/coroutines/internal/c0;
+    new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "SEALED"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlinx/coroutines/j2;->h:Lkotlinx/coroutines/internal/c0;
+    sput-object v0, Lcotlinx/coroutines/j2;->h:Lcotlinx/coroutines/internal/c0;
 
     .line 6
-    new-instance v0, Lkotlinx/coroutines/i1;
+    new-instance v0, Lcotlinx/coroutines/i1;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/i1;-><init>(Z)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/i1;-><init>(Z)V
 
-    sput-object v0, Lkotlinx/coroutines/j2;->i:Lkotlinx/coroutines/i1;
+    sput-object v0, Lcotlinx/coroutines/j2;->i:Lcotlinx/coroutines/i1;
 
     .line 7
-    new-instance v0, Lkotlinx/coroutines/i1;
+    new-instance v0, Lcotlinx/coroutines/i1;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/i1;-><init>(Z)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/i1;-><init>(Z)V
 
-    sput-object v0, Lkotlinx/coroutines/j2;->j:Lkotlinx/coroutines/i1;
+    sput-object v0, Lcotlinx/coroutines/j2;->j:Lcotlinx/coroutines/i1;
 
     return-void
 .end method
@@ -203,56 +203,56 @@
     return-void
 .end method
 
-.method public static final synthetic h()Lkotlinx/coroutines/internal/c0;
+.method public static final synthetic h()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/j2;->a:Lkotlinx/coroutines/internal/c0;
+    sget-object v0, Lcotlinx/coroutines/j2;->a:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
 .end method
 
-.method public static final synthetic i()Lkotlinx/coroutines/internal/c0;
+.method public static final synthetic i()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/j2;->c:Lkotlinx/coroutines/internal/c0;
+    sget-object v0, Lcotlinx/coroutines/j2;->c:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
 .end method
 
-.method public static final synthetic j()Lkotlinx/coroutines/i1;
+.method public static final synthetic j()Lcotlinx/coroutines/i1;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/j2;->j:Lkotlinx/coroutines/i1;
+    sget-object v0, Lcotlinx/coroutines/j2;->j:Lcotlinx/coroutines/i1;
 
     return-object v0
 .end method
 
-.method public static final synthetic k()Lkotlinx/coroutines/i1;
+.method public static final synthetic k()Lcotlinx/coroutines/i1;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/j2;->i:Lkotlinx/coroutines/i1;
+    sget-object v0, Lcotlinx/coroutines/j2;->i:Lcotlinx/coroutines/i1;
 
     return-object v0
 .end method
 
-.method public static final synthetic l()Lkotlinx/coroutines/internal/c0;
+.method public static final synthetic l()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/j2;->h:Lkotlinx/coroutines/internal/c0;
+    sget-object v0, Lcotlinx/coroutines/j2;->h:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
 .end method
 
-.method public static final synthetic m()Lkotlinx/coroutines/internal/c0;
+.method public static final synthetic m()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/j2;->d:Lkotlinx/coroutines/internal/c0;
+    sget-object v0, Lcotlinx/coroutines/j2;->d:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
 .end method
@@ -267,15 +267,15 @@
     .end annotation
 
     .line 1
-    instance-of v0, p0, Lkotlinx/coroutines/w1;
+    instance-of v0, p0, Lcotlinx/coroutines/w1;
 
     if-eqz v0, :cond_0
 
-    new-instance v0, Lkotlinx/coroutines/x1;
+    new-instance v0, Lcotlinx/coroutines/x1;
 
-    check-cast p0, Lkotlinx/coroutines/w1;
+    check-cast p0, Lcotlinx/coroutines/w1;
 
-    invoke-direct {v0, p0}, Lkotlinx/coroutines/x1;-><init>(Lkotlinx/coroutines/w1;)V
+    invoke-direct {v0, p0}, Lcotlinx/coroutines/x1;-><init>(Lcotlinx/coroutines/w1;)V
 
     move-object p0, v0
 
@@ -293,7 +293,7 @@
     .end annotation
 
     .line 1
-    instance-of v0, p0, Lkotlinx/coroutines/x1;
+    instance-of v0, p0, Lcotlinx/coroutines/x1;
 
     if-nez v0, :cond_0
 
@@ -305,11 +305,11 @@
     move-object v0, p0
 
     :goto_0
-    check-cast v0, Lkotlinx/coroutines/x1;
+    check-cast v0, Lcotlinx/coroutines/x1;
 
     if-eqz v0, :cond_1
 
-    iget-object v0, v0, Lkotlinx/coroutines/x1;->a:Lkotlinx/coroutines/w1;
+    iget-object v0, v0, Lcotlinx/coroutines/x1;->a:Lcotlinx/coroutines/w1;
 
     if-eqz v0, :cond_1
 

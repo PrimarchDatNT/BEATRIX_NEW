@@ -13,7 +13,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "()Z",
         "c",
         "obj",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "l",
         "(Ljava/lang/Object;)V",
         "j",
@@ -41,12 +41,12 @@
         "o",
         "m",
         "k",
-        "Lkotlin/Function1;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function1;",
+        "Lcotlin/k0;",
         "name",
         "action",
         "f",
-        "(Lkotlin/jvm/u/l;)Z",
+        "(Lcotlin/jvm/u/l;)Z",
         "",
         "startPosition",
         "offset",
@@ -199,16 +199,16 @@
 .method public abstract e(II)V
 .end method
 
-.method public final f(Lkotlin/jvm/u/l;)Z
+.method public final f(Lcotlin/jvm/u/l;)Z
     .locals 6
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;",
             "Ljava/lang/Boolean;",
             ">;)Z"
@@ -217,7 +217,7 @@
 
     const-string v0, "action"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget v0, p0, Lcom/commsource/studio/e0;->c:I
@@ -242,7 +242,7 @@
 
     move-result-object v4
 
-    invoke-interface {p1, v4}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v4}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 

@@ -1,11 +1,11 @@
-.class public final Lkotlin/g2/a$a;
+.class public final Lcotlin/g2/a$a;
 .super Ljava/lang/Object;
 .source "Progressions.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/g2/a;
+    value = Lcotlin/g2/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,9 +30,9 @@
         "rangeEnd",
         "",
         "step",
-        "Lkotlin/g2/a;",
+        "Lcotlin/g2/a;",
         "a",
-        "(CCI)Lkotlin/g2/a;",
+        "(CCI)Lcotlin/g2/a;",
         "<init>",
         "()V",
         "kotlin-stdlib"
@@ -56,26 +56,26 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/g2/a$a;-><init>()V
+    invoke-direct {p0}, Lcotlin/g2/a$a;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(CCI)Lkotlin/g2/a;
+.method public final a(CCI)Lcotlin/g2/a;
     .locals 1
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/g2/a;
+    new-instance v0, Lcotlin/g2/a;
 
-    invoke-direct {v0, p1, p2, p3}, Lkotlin/g2/a;-><init>(CCI)V
+    invoke-direct {v0, p1, p2, p3}, Lcotlin/g2/a;-><init>(CCI)V
 
     return-object v0
 .end method

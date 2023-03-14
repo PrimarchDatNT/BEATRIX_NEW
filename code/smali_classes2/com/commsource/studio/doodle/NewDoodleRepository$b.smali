@@ -20,7 +20,7 @@
     value = "SMAP\nNewDoodleRepository.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewDoodleRepository.kt\ncom/commsource/studio/doodle/NewDoodleRepository$download$1\n*L\n1#1,700:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
     d2 = {
         "com/commsource/studio/doodle/NewDoodleRepository$b",
         "Lcom/commsource/material/download/b/c;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onStart",
         "()V",
         "",
@@ -40,7 +40,7 @@
         "a",
         "(I)V",
         "Ljava/lang/Exception;",
-        "Lkotlin/Exception;",
+        "Lcotlin/Exception;",
         "e",
         "onError",
         "(Ljava/lang/Exception;)V",
@@ -116,7 +116,7 @@
 
     const-string v1, "e"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/NewDoodleRepository$b;->a:Lcom/commsource/studio/doodle/DoodleMaterial;

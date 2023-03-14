@@ -1,11 +1,11 @@
-.class final Lkotlinx/coroutines/sync/d$a;
-.super Lkotlinx/coroutines/sync/d$c;
+.class final Lcotlinx/coroutines/sync/d$a;
+.super Lcotlinx/coroutines/sync/d$c;
 .source "Mutex.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/sync/d;
+    value = Lcotlinx/coroutines/sync/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,24 +24,24 @@
     }
     d2 = {
         "kotlinx/coroutines/sync/d$a",
-        "Lkotlinx/coroutines/sync/d$c;",
+        "Lcotlinx/coroutines/sync/d$c;",
         "",
         "g0",
         "()Ljava/lang/Object;",
         "token",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "f0",
         "(Ljava/lang/Object;)V",
         "",
         "toString",
         "()Ljava/lang/String;",
-        "Lkotlinx/coroutines/m;",
+        "Lcotlinx/coroutines/m;",
         "f",
-        "Lkotlinx/coroutines/m;",
+        "Lcotlinx/coroutines/m;",
         "cont",
         "owner",
         "<init>",
-        "(Ljava/lang/Object;Lkotlinx/coroutines/m;)V",
+        "(Ljava/lang/Object;Lcotlinx/coroutines/m;)V",
         "kotlinx-coroutines-core"
     }
     k = 0x1
@@ -54,16 +54,16 @@
 
 
 # instance fields
-.field public final f:Lkotlinx/coroutines/m;
+.field public final f:Lcotlinx/coroutines/m;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlinx/coroutines/m<",
-            "Lkotlin/t1;",
+            "Lcotlinx/coroutines/m<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -72,13 +72,13 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/Object;Lkotlinx/coroutines/m;)V
+.method public constructor <init>(Ljava/lang/Object;Lcotlinx/coroutines/m;)V
     .locals 0
     .param p1    # Ljava/lang/Object;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # Lkotlinx/coroutines/m;
+    .param p2    # Lcotlinx/coroutines/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -86,17 +86,17 @@
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lkotlinx/coroutines/m<",
+            "Lcotlinx/coroutines/m<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Lkotlinx/coroutines/sync/d$c;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcotlinx/coroutines/sync/d$c;-><init>(Ljava/lang/Object;)V
 
-    iput-object p2, p0, Lkotlinx/coroutines/sync/d$a;->f:Lkotlinx/coroutines/m;
+    iput-object p2, p0, Lcotlinx/coroutines/sync/d$a;->f:Lcotlinx/coroutines/m;
 
     return-void
 .end method
@@ -111,9 +111,9 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/sync/d$a;->f:Lkotlinx/coroutines/m;
+    iget-object v0, p0, Lcotlinx/coroutines/sync/d$a;->f:Lcotlinx/coroutines/m;
 
-    invoke-interface {v0, p1}, Lkotlinx/coroutines/m;->Y(Ljava/lang/Object;)V
+    invoke-interface {v0, p1}, Lcotlinx/coroutines/m;->Y(Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -124,15 +124,15 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/sync/d$a;->f:Lkotlinx/coroutines/m;
+    iget-object v0, p0, Lcotlinx/coroutines/sync/d$a;->f:Lcotlinx/coroutines/m;
 
-    sget-object v1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
     const/4 v2, 0x0
 
     const/4 v3, 0x2
 
-    invoke-static {v0, v1, v2, v3, v2}, Lkotlinx/coroutines/m$a;->b(Lkotlinx/coroutines/m;Ljava/lang/Object;Ljava/lang/Object;ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0, v1, v2, v3, v2}, Lcotlinx/coroutines/m$a;->b(Lcotlinx/coroutines/m;Ljava/lang/Object;Ljava/lang/Object;ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -153,7 +153,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lkotlinx/coroutines/sync/d$c;->d:Ljava/lang/Object;
+    iget-object v1, p0, Lcotlinx/coroutines/sync/d$c;->d:Ljava/lang/Object;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -161,7 +161,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lkotlinx/coroutines/sync/d$a;->f:Lkotlinx/coroutines/m;
+    iget-object v1, p0, Lcotlinx/coroutines/sync/d$a;->f:Lcotlinx/coroutines/m;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 

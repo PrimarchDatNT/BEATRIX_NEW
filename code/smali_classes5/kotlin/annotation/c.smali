@@ -1,4 +1,4 @@
-.class public interface abstract annotation Lkotlin/annotation/c;
+.class public interface abstract annotation Lcotlin/annotation/c;
 .super Ljava/lang/Object;
 .source "Annotations.kt"
 
@@ -8,8 +8,8 @@
 
 # annotations
 .annotation system Ldalvik/annotation/AnnotationDefault;
-    value = .subannotation Lkotlin/annotation/c;
-        value = .enum Lkotlin/annotation/AnnotationRetention;->RUNTIME:Lkotlin/annotation/AnnotationRetention;
+    value = .subannotation Lcotlin/annotation/c;
+        value = .enum Lcotlin/annotation/AnnotationRetention;->RUNTIME:Lcotlin/annotation/AnnotationRetention;
     .end subannotation
 .end annotation
 
@@ -23,13 +23,13 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/annotation/d;
+.annotation runtime Lcotlin/annotation/d;
     allowedTargets = {
-        .enum Lkotlin/annotation/AnnotationTarget;->ANNOTATION_CLASS:Lkotlin/annotation/AnnotationTarget;
+        .enum Lcotlin/annotation/AnnotationTarget;->ANNOTATION_CLASS:Lcotlin/annotation/AnnotationTarget;
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,13 +39,13 @@
         "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0010\u001b\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0008\u0087\u0002\u0018\u00002\u00020\u0001B\u0011\u0012\u0008\u0008\u0002\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006R\u0013\u0010\u0003\u001a\u00020\u00028\u0006@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008\u0003\u0010\u0004\u00a8\u0006\u0007"
     }
     d2 = {
-        "Lkotlin/annotation/c;",
+        "Lcotlin/annotation/c;",
         "",
-        "Lkotlin/annotation/AnnotationRetention;",
+        "Lcotlin/annotation/AnnotationRetention;",
         "value",
-        "()Lkotlin/annotation/AnnotationRetention;",
+        "()Lcotlin/annotation/AnnotationRetention;",
         "<init>",
-        "(Lkotlin/annotation/AnnotationRetention;)V",
+        "(Lcotlin/annotation/AnnotationRetention;)V",
         "kotlin-stdlib"
     }
     k = 0x1
@@ -58,5 +58,5 @@
 
 
 # virtual methods
-.method public abstract value()Lkotlin/annotation/AnnotationRetention;
+.method public abstract value()Lcotlin/annotation/AnnotationRetention;
 .end method

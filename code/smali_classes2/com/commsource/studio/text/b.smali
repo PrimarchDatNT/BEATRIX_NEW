@@ -18,7 +18,7 @@
     value = "SMAP\nDecorateFrame.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DecorateFrame.kt\ncom/commsource/studio/text/DecorateFrame\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 SparseArray.kt\nandroidx/core/util/SparseArrayKt\n+ 4 Rect.kt\nandroidx/core/graphics/RectKt\n*L\n1#1,851:1\n1819#2,2:852\n1828#2,3:854\n1828#2,3:861\n1819#2,2:872\n1819#2:879\n1820#2:881\n74#3,4:857\n74#3,4:864\n74#3,4:868\n74#3,4:874\n337#4:878\n337#4:880\n*E\n*S KotlinDebug\n*F\n+ 1 DecorateFrame.kt\ncom/commsource/studio/text/DecorateFrame\n*L\n240#1,2:852\n260#1,3:854\n345#1,3:861\n375#1,2:872\n744#1:879\n744#1:881\n260#1,4:857\n345#1,4:864\n375#1,4:868\n420#1,4:874\n736#1:878\n744#1:880\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -43,7 +43,7 @@
         "iconBar",
         "Landroid/graphics/Matrix;",
         "matrix",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "p",
         "(Lcom/commsource/studio/w;Landroid/graphics/Matrix;)V",
         "targetArray",
@@ -102,23 +102,23 @@
         "n",
         "([Lcom/commsource/studio/IconObj;)V",
         "u",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "action",
         "m",
-        "(ILkotlin/jvm/u/a;)V",
-        "Lkotlin/Function4;",
-        "Lkotlin/k0;",
+        "(ILcotlin/jvm/u/a;)V",
+        "Lcotlin/Function4;",
+        "Lcotlin/k0;",
         "name",
         "scaleFactor",
         "angle",
         "centerX",
         "centerY",
         "o",
-        "(ILkotlin/jvm/u/r;)V",
-        "Lkotlin/Function3;",
+        "(ILcotlin/jvm/u/r;)V",
+        "Lcotlin/Function3;",
         "endAction",
         "w",
-        "(Lkotlin/jvm/u/q;Lkotlin/jvm/u/a;)V",
+        "(Lcotlin/jvm/u/q;Lcotlin/jvm/u/a;)V",
         "C",
         "()[F",
         "M",
@@ -411,7 +411,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/text/b$b;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/text/b$b;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/text/b;->q0:Lcom/commsource/studio/text/b$b;
 
@@ -722,7 +722,7 @@
 
     const-string v0, "attachLayer"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 28
     invoke-direct {p0}, Lcom/commsource/studio/text/b;-><init>()V
@@ -755,7 +755,7 @@
 
     const-string v2, "attachLayer"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -945,7 +945,7 @@
 
     if-nez v5, :cond_1
 
-    invoke-static {v6}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v6}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v5}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
@@ -962,7 +962,7 @@
 
     if-nez v5, :cond_2
 
-    invoke-static {v6}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v6}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v5}, Lcom/commsource/studio/layer/BaseLayer;->u()Lcom/commsource/studio/MatrixBox;
@@ -1278,7 +1278,7 @@
 
     const-string p2, "attachLayer"
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1, v1}, Lcom/commsource/studio/layer/BaseLayer;->T([F)V
@@ -1517,7 +1517,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v2}, Lcom/commsource/studio/layer/BaseLayer;->y()F
@@ -1528,7 +1528,7 @@
 
     if-nez v4, :cond_1
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v4}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
@@ -1602,7 +1602,7 @@
 
     if-nez v12, :cond_2
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v12}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
@@ -1620,7 +1620,7 @@
 
     if-nez v12, :cond_3
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v12}, Lcom/commsource/studio/layer/BaseLayer;->u()Lcom/commsource/studio/MatrixBox;
@@ -1638,7 +1638,7 @@
 
     if-nez v12, :cond_4
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {v12}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -1745,7 +1745,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v2}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
@@ -1762,7 +1762,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v2}, Lcom/commsource/studio/layer/BaseLayer;->y()F
@@ -1776,7 +1776,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v2}, Lcom/commsource/studio/layer/BaseLayer;->y()F
@@ -1787,7 +1787,7 @@
 
     if-nez v4, :cond_3
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v4}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
@@ -2185,7 +2185,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v2}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
@@ -2202,7 +2202,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v2}, Lcom/commsource/studio/layer/BaseLayer;->y()F
@@ -2344,7 +2344,7 @@
     .end array-data
 .end method
 
-.method public static synthetic x(Lcom/commsource/studio/text/b;Lkotlin/jvm/u/q;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+.method public static synthetic x(Lcom/commsource/studio/text/b;Lcotlin/jvm/u/q;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
     .locals 0
 
     const/16 p4, 0x577e
@@ -2359,7 +2359,7 @@
 
     .line 1
     :cond_0
-    invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/text/b;->w(Lkotlin/jvm/u/q;Lkotlin/jvm/u/a;)V
+    invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/text/b;->w(Lcotlin/jvm/u/q;Lcotlin/jvm/u/a;)V
 
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2489,7 +2489,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
@@ -2507,7 +2507,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->u()Lcom/commsource/studio/MatrixBox;
@@ -2773,7 +2773,7 @@
 
     const-string v4, "attachLayer"
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v3}, Lcom/commsource/studio/layer/BaseLayer;->L()Landroid/graphics/RectF;
@@ -2872,7 +2872,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/b;->a:Lcom/commsource/studio/layer/BaseLayer;
@@ -2959,7 +2959,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/b;->d0:[[F
@@ -3087,7 +3087,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/b;->Q:Landroid/graphics/RectF;
@@ -3110,7 +3110,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/b;->R:Landroid/graphics/RectF;
@@ -3166,7 +3166,7 @@
 
     const-string v2, "blackCoverAnimator"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
 
@@ -3242,7 +3242,7 @@
 
     if-nez v9, :cond_0
 
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v9}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
@@ -3259,7 +3259,7 @@
 
     if-nez v9, :cond_1
 
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v9}, Lcom/commsource/studio/layer/BaseLayer;->y()F
@@ -3312,7 +3312,7 @@
 
     if-nez v8, :cond_3
 
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v8}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
@@ -3329,7 +3329,7 @@
 
     if-nez v8, :cond_4
 
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {v8}, Lcom/commsource/studio/layer/BaseLayer;->y()F
@@ -3359,7 +3359,7 @@
 
     if-nez v9, :cond_5
 
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     invoke-virtual {v9}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
@@ -3376,7 +3376,7 @@
 
     if-nez v9, :cond_6
 
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     invoke-virtual {v9}, Lcom/commsource/studio/layer/BaseLayer;->y()F
@@ -3420,14 +3420,14 @@
 
     const/high16 v10, 0x3f800000    # 1.0f
 
-    invoke-static {v9, v10}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v9, v10}, Lcotlin/g2/o;->m(FF)F
 
     move-result v9
 
     div-float/2addr v7, v8
 
     .line 14
-    invoke-static {v7, v10}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v7, v10}, Lcotlin/g2/o;->m(FF)F
 
     move-result v7
 
@@ -3654,17 +3654,17 @@
     return-void
 .end method
 
-.method public final m(ILkotlin/jvm/u/a;)V
+.method public final m(ILcotlin/jvm/u/a;)V
     .locals 5
-    .param p2    # Lkotlin/jvm/u/a;
+    .param p2    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -3687,7 +3687,7 @@
 
     const/4 v4, 0x1
 
-    invoke-direct {v2, p0, p2, v4, v3}, Lcom/commsource/studio/text/b$d;-><init>(Lcom/commsource/studio/text/b;Lkotlin/jvm/u/a;ILjava/lang/String;)V
+    invoke-direct {v2, p0, p2, v4, v3}, Lcom/commsource/studio/text/b$d;-><init>(Lcom/commsource/studio/text/b;Lcotlin/jvm/u/a;ILjava/lang/String;)V
 
     const/16 p2, 0x10
 
@@ -3738,7 +3738,7 @@
 
     const-string v1, "objs"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/b;->c:Lcom/commsource/studio/w;
@@ -3767,16 +3767,16 @@
     return-void
 .end method
 
-.method public final o(ILkotlin/jvm/u/r;)V
+.method public final o(ILcotlin/jvm/u/r;)V
     .locals 5
-    .param p2    # Lkotlin/jvm/u/r;
+    .param p2    # Lcotlin/jvm/u/r;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
-            "Lkotlin/jvm/u/r<",
+            "Lcotlin/jvm/u/r<",
             "-",
             "Ljava/lang/Float;",
             "-",
@@ -3785,7 +3785,7 @@
             "Ljava/lang/Float;",
             "-",
             "Ljava/lang/Float;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -3809,7 +3809,7 @@
 
     const-string v4, "ResourcesUtils.getString\u2026.string.edit_icon_rotate)"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v4, 0x9
 
@@ -3844,7 +3844,7 @@
     invoke-virtual {v2, v3}, Lcom/commsource/studio/x;->o(I)V
 
     .line 8
-    invoke-virtual {v2, p2}, Lcom/commsource/studio/n;->v(Lkotlin/jvm/u/r;)V
+    invoke-virtual {v2, p2}, Lcom/commsource/studio/n;->v(Lcotlin/jvm/u/r;)V
 
     .line 9
     invoke-virtual {v1, p1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
@@ -3868,7 +3868,7 @@
 
     const-string v1, "focus"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/commsource/studio/text/b;->g0:Lcom/commsource/studio/i$e;
 
@@ -3902,15 +3902,15 @@
 
     const-string v1, "firstDownEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "secondDownEvent"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "focus"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/commsource/studio/text/b;->g0:Lcom/commsource/studio/i$e;
 
@@ -4096,7 +4096,7 @@
 
     const-string v1, "touchEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/commsource/studio/text/b;->g0:Lcom/commsource/studio/i$e;
 
@@ -4122,7 +4122,7 @@
 
     const-string v1, "downEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/commsource/studio/text/b;->g0:Lcom/commsource/studio/i$e;
 
@@ -4148,7 +4148,7 @@
 
     const-string v1, "upEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/commsource/studio/text/b;->g0:Lcom/commsource/studio/i$e;
 
@@ -4174,7 +4174,7 @@
 
     const-string v1, "downEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
@@ -4232,7 +4232,7 @@
 
     if-gez v4, :cond_0
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_0
     check-cast v5, Lcom/commsource/studio/x;
@@ -4392,11 +4392,11 @@
 
     const-string p4, "downEvent"
 
-    invoke-static {p1, p4}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p4}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "moveEvent"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x1
 
@@ -4613,11 +4613,11 @@
 
     const-string v1, "downEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "upEvent"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/commsource/studio/text/b;->g0:Lcom/commsource/studio/i$e;
 
@@ -4647,11 +4647,11 @@
 
     const-string v1, "downEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "upEvent"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p2, p0, Lcom/commsource/studio/text/b;->T:Lcom/commsource/studio/bean/FocusLayerInfo;
@@ -4833,7 +4833,7 @@
 
     const-string v1, "gestureDetector"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/commsource/studio/text/b;->g0:Lcom/commsource/studio/i$e;
 
@@ -4893,7 +4893,7 @@
 
     const-string v1, "canvas"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/b;->T:Lcom/commsource/studio/bean/FocusLayerInfo;
@@ -4910,7 +4910,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v2}, Lcom/commsource/studio/layer/BaseLayer;->y()F
@@ -4921,7 +4921,7 @@
 
     if-nez v4, :cond_1
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v4}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
@@ -5046,7 +5046,7 @@
 
     const-string v6, "blackCoverAnimator"
 
-    invoke-static {v2, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Landroid/animation/ValueAnimator;->isRunning()Z
 
@@ -5145,7 +5145,7 @@
 
     if-nez v2, :cond_5
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     invoke-virtual {v2}, Lcom/commsource/studio/layer/BaseLayer;->y()F
@@ -5156,7 +5156,7 @@
 
     if-nez v4, :cond_6
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     invoke-virtual {v4}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
@@ -5194,7 +5194,7 @@
 
     if-gez v4, :cond_7
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_7
     check-cast v6, Lcom/commsource/studio/x;
@@ -5387,30 +5387,30 @@
     return-void
 .end method
 
-.method public final w(Lkotlin/jvm/u/q;Lkotlin/jvm/u/a;)V
+.method public final w(Lcotlin/jvm/u/q;Lcotlin/jvm/u/a;)V
     .locals 7
-    .param p1    # Lkotlin/jvm/u/q;
+    .param p1    # Lcotlin/jvm/u/q;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/a;
+    .param p2    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/q<",
+            "Lcotlin/jvm/u/q<",
             "-",
             "Ljava/lang/Float;",
             "-",
             "Ljava/lang/Float;",
             "-",
             "Ljava/lang/Float;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -5459,10 +5459,10 @@
     invoke-virtual {v4, v1}, Lcom/commsource/studio/m;->y(I)V
 
     .line 5
-    invoke-virtual {v4, p1}, Lcom/commsource/studio/m;->z(Lkotlin/jvm/u/q;)V
+    invoke-virtual {v4, p1}, Lcom/commsource/studio/m;->z(Lcotlin/jvm/u/q;)V
 
     .line 6
-    invoke-virtual {v4, p2}, Lcom/commsource/studio/m;->A(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v4, p2}, Lcom/commsource/studio/m;->A(Lcotlin/jvm/u/a;)V
 
     .line 7
     invoke-interface {v3, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -5494,7 +5494,7 @@
 
     const-string v2, "attachLayer"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -1,9 +1,9 @@
-.class public final Lkotlinx/coroutines/channels/o;
+.class public final Lcotlinx/coroutines/channels/o;
 .super Ljava/lang/Object;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,26 +31,26 @@
 
 
 # direct methods
-.method public static final A(Lkotlinx/coroutines/channels/y;)Lkotlin/jvm/u/l;
+.method public static final A(Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "*>;)",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Ljava/lang/Throwable;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -58,29 +58,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->A(Lkotlinx/coroutines/channels/y;)Lkotlin/jvm/u/l;
+    invoke-static {p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->A(Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final A0(Lkotlinx/coroutines/channels/y;Ljava/lang/Object;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final A0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/q;
+    .param p2    # Lcotlin/jvm/u/q;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -88,24 +88,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->z0(Lkotlinx/coroutines/channels/y;Ljava/lang/Object;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->z0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final A1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final A1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -114,13 +114,13 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Boolean;",
             ">;)",
@@ -128,8 +128,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -137,33 +137,33 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->A1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->A1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final varargs B([Lkotlinx/coroutines/channels/y;)Lkotlin/jvm/u/l;
+.method public static final varargs B([Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
     .locals 0
-    .param p0    # [Lkotlinx/coroutines/channels/y;
+    .param p0    # [Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "([",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "*>;)",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Ljava/lang/Throwable;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -171,24 +171,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->B([Lkotlinx/coroutines/channels/y;)Lkotlin/jvm/u/l;
+    invoke-static {p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->B([Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final B0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final B0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -199,11 +199,11 @@
             "K:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TK;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/util/Map<",
             "TK;+",
@@ -213,8 +213,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -222,29 +222,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->B0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->B0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final B1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final B1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -252,20 +252,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->A1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->A1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final C(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final C(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -274,9 +274,9 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Integer;",
             ">;)",
@@ -284,8 +284,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -293,28 +293,28 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->C(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->C(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final C0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final C0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -327,13 +327,13 @@
             "V:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TK;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TV;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/util/Map<",
             "TK;+",
@@ -343,8 +343,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -352,16 +352,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->C0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->C0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final C1(Lkotlinx/coroutines/channels/y;)Lkotlinx/coroutines/selects/d;
+.method public static final C1(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/selects/d;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -370,38 +370,38 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;)",
-            "Lkotlinx/coroutines/selects/d<",
+            "Lcotlinx/coroutines/selects/d<",
             "TE;>;"
         }
     .end annotation
 
-    .annotation build Lkotlinx/coroutines/s1;
+    .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->C1(Lkotlinx/coroutines/channels/y;)Lkotlinx/coroutines/selects/d;
+    invoke-static {p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->C1(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/selects/d;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final D(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final D(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -410,13 +410,13 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Integer;",
             ">;)",
@@ -424,8 +424,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -433,29 +433,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->D(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->D(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final D0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final D0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -463,24 +463,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->B0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->B0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final D1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final D1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -489,15 +489,15 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+",
             "Ljava/util/List<",
             "+TE;>;+",
@@ -507,8 +507,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -516,29 +516,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->D1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->D1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final E(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final E(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -546,33 +546,33 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->D(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->D(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final E0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final E0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -580,29 +580,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->C0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->C0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final E1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final E1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -610,16 +610,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->D1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->D1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final F(Lkotlinx/coroutines/channels/y;)Lkotlinx/coroutines/channels/y;
+.method public static final F(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -628,15 +628,15 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;)",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "TE;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -644,16 +644,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->F(Lkotlinx/coroutines/channels/y;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->F(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final F0(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final F0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -661,11 +661,11 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -680,18 +680,18 @@
             "-TK;",
             "Ljava/util/List<",
             "TE;>;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TM;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TK;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TM;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -699,20 +699,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->F0(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->F0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final F1(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final F1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -721,39 +721,39 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lkotlinx/coroutines/s1;
+    .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
     .annotation build Ln/e/a/e;
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->F1(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->F1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final G(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+.method public static final G(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/CoroutineContext;
+    .param p1    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -764,22 +764,22 @@
             "K:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/CoroutineContext;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/coroutines/CoroutineContext;",
+            "Lcotlin/jvm/u/p<",
             "-TE;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TK;>;+",
             "Ljava/lang/Object;",
             ">;)",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "TE;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -787,16 +787,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final G0(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final G0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -804,15 +804,15 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/jvm/u/l;
+    .param p3    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p4    # Lkotlin/coroutines/c;
+    .param p4    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -829,20 +829,20 @@
             "-TK;",
             "Ljava/util/List<",
             "TV;>;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TM;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TK;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TV;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TM;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -850,24 +850,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G0(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final G1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final G1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/p;
+    .param p1    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -876,18 +876,18 @@
             "<S:",
             "Ljava/lang/Object;",
             "E::TS;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-TS;-TE;+TS;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TS;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -895,27 +895,27 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic H(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+.method public static synthetic H(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->H(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->H(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final H0(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final H0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -923,16 +923,16 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -940,29 +940,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->F0(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->F0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final H1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final H1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/p;
+    .param p1    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -970,20 +970,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final I(Lkotlinx/coroutines/channels/y;ILkotlin/coroutines/CoroutineContext;)Lkotlinx/coroutines/channels/y;
+.method public static final I(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/CoroutineContext;
+    .param p2    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -992,17 +992,17 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;I",
-            "Lkotlin/coroutines/CoroutineContext;",
+            "Lcotlin/coroutines/CoroutineContext;",
             ")",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "TE;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1010,16 +1010,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->I(Lkotlinx/coroutines/channels/y;ILkotlin/coroutines/CoroutineContext;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->I(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final I0(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final I0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1027,20 +1027,20 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/jvm/u/l;
+    .param p3    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p4    # Lkotlin/coroutines/c;
+    .param p4    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1048,24 +1048,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G0(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final I1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final I1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/q;
+    .param p1    # Lcotlin/jvm/u/q;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1074,20 +1074,20 @@
             "<S:",
             "Ljava/lang/Object;",
             "E::TS;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/q<",
+            "Lcotlin/jvm/u/q<",
             "-",
             "Ljava/lang/Integer;",
             "-TS;-TE;+TS;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TS;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1095,31 +1095,31 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->I1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->I1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic J(Lkotlinx/coroutines/channels/y;ILkotlin/coroutines/CoroutineContext;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+.method public static synthetic J(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/CoroutineContext;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->J(Lkotlinx/coroutines/channels/y;ILkotlin/coroutines/CoroutineContext;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->J(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/CoroutineContext;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final J0(Lkotlinx/coroutines/channels/y;Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final J0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1128,9 +1128,9 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TE;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Integer;",
             ">;)",
@@ -1138,8 +1138,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1147,29 +1147,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->J0(Lkotlinx/coroutines/channels/y;Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->J0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final J1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final J1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/q;
+    .param p1    # Lcotlin/jvm/u/q;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1177,24 +1177,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->I1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->I1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final K(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+.method public static final K(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/CoroutineContext;
+    .param p1    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1203,24 +1203,24 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/CoroutineContext;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/coroutines/CoroutineContext;",
+            "Lcotlin/jvm/u/p<",
             "-TE;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Boolean;",
             ">;+",
             "Ljava/lang/Object;",
             ">;)",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "TE;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1228,24 +1228,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->K(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->K(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final K0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final K0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1254,13 +1254,13 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Integer;",
             ">;)",
@@ -1268,8 +1268,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1277,16 +1277,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->K0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->K0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final K1(Lkotlinx/coroutines/channels/y;)Lkotlinx/coroutines/channels/y;
+.method public static final K1(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1295,15 +1295,15 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;)",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "TE;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1311,40 +1311,40 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->K1(Lkotlinx/coroutines/channels/y;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->K1(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic L(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+.method public static synthetic L(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->L(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->L(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final L0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final L0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1352,16 +1352,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->K0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->K0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final L1(Lkotlinx/coroutines/channels/c0;Ljava/lang/Object;)V
+.method public static final L1(Lcotlinx/coroutines/channels/c0;Ljava/lang/Object;)V
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/c0;
+    .param p0    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1370,24 +1370,24 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/c0<",
+            "Lcotlinx/coroutines/channels/c0<",
             "-TE;>;TE;)V"
         }
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__ChannelsKt;->a(Lkotlinx/coroutines/channels/c0;Ljava/lang/Object;)V
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__ChannelsKt;->a(Lcotlinx/coroutines/channels/c0;Ljava/lang/Object;)V
 
     return-void
 .end method
 
-.method public static final M(Lkotlinx/coroutines/channels/y;ILkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final M(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1396,16 +1396,16 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;I",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1413,24 +1413,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M(Lkotlinx/coroutines/channels/y;ILkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final M0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final M0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1439,13 +1439,13 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Integer;",
             ">;)",
@@ -1453,8 +1453,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1462,20 +1462,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final M1(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final M1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1484,16 +1484,16 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1501,24 +1501,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->L1(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->L1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final N(Lkotlinx/coroutines/channels/y;ILkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final N(Lcotlinx/coroutines/channels/y;ILcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1527,20 +1527,20 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;I",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
             "+TE;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1548,29 +1548,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->N(Lkotlinx/coroutines/channels/y;ILkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->N(Lcotlinx/coroutines/channels/y;ILcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final N0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final N0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1578,24 +1578,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final N1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final N1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1604,20 +1604,20 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1625,29 +1625,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final O(Lkotlinx/coroutines/channels/y;ILkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final O(Lcotlinx/coroutines/channels/y;ILcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1655,20 +1655,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->N(Lkotlinx/coroutines/channels/y;ILkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->N(Lcotlinx/coroutines/channels/y;ILcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final O0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final O0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1677,16 +1677,16 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1694,29 +1694,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->O0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->O0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final O1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final O1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1724,20 +1724,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final P(Lkotlinx/coroutines/channels/y;ILkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final P(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1746,16 +1746,16 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;I",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1763,24 +1763,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P(Lkotlinx/coroutines/channels/y;ILkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final P0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final P0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1789,20 +1789,20 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1810,20 +1810,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final P1(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final P1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1832,16 +1832,16 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1849,24 +1849,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->O1(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->O1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final Q(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+.method public static final Q(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/CoroutineContext;
+    .param p1    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1875,24 +1875,24 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/CoroutineContext;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/coroutines/CoroutineContext;",
+            "Lcotlin/jvm/u/p<",
             "-TE;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Boolean;",
             ">;+",
             "Ljava/lang/Object;",
             ">;)",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "TE;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1900,29 +1900,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Q(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Q(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final Q0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final Q0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1930,24 +1930,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final Q1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final Q1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1956,20 +1956,20 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -1977,31 +1977,31 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic R(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+.method public static synthetic R(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->R(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->R(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final R0(Lkotlinx/coroutines/channels/y;Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final R0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2010,9 +2010,9 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TE;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Integer;",
             ">;)",
@@ -2020,8 +2020,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2029,29 +2029,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->R0(Lkotlinx/coroutines/channels/y;Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->R0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final R1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final R1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2059,24 +2059,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final S(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/q;)Lkotlinx/coroutines/channels/y;
+.method public static final S(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/CoroutineContext;
+    .param p1    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/q;
+    .param p2    # Lcotlin/jvm/u/q;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2085,26 +2085,26 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/CoroutineContext;",
-            "Lkotlin/jvm/u/q<",
+            "Lcotlin/coroutines/CoroutineContext;",
+            "Lcotlin/jvm/u/q<",
             "-",
             "Ljava/lang/Integer;",
             "-TE;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Boolean;",
             ">;+",
             "Ljava/lang/Object;",
             ">;)",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "TE;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2112,20 +2112,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->S(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/q;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->S(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final S0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final S0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2134,16 +2134,16 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2151,24 +2151,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->S0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->S0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final S1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final S1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2177,13 +2177,13 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Integer;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Integer;",
             ">;)",
@@ -2191,8 +2191,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2200,35 +2200,35 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->R1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->R1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic T(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/q;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+.method public static synthetic T(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/q;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final T0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final T0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2237,20 +2237,20 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2258,29 +2258,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final T1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final T1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2288,16 +2288,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->R1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->R1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final U(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final U(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2305,11 +2305,11 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2320,22 +2320,22 @@
             "C::",
             "Ljava/util/Collection<",
             "-TE;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TC;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Ljava/lang/Integer;",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2343,29 +2343,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->U(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->U(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final U0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final U0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2373,24 +2373,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final U1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final U1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2399,13 +2399,13 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Double;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Double;",
             ">;)",
@@ -2413,8 +2413,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2422,28 +2422,28 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final V(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final V(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/channels/c0;
+    .param p1    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2452,24 +2452,24 @@
             "<E:",
             "Ljava/lang/Object;",
             "C::",
-            "Lkotlinx/coroutines/channels/c0<",
+            "Lcotlinx/coroutines/channels/c0<",
             "-TE;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TC;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Ljava/lang/Integer;",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2477,24 +2477,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->V(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->V(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final V0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+.method public static final V0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/CoroutineContext;
+    .param p1    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2505,22 +2505,22 @@
             "R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/CoroutineContext;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/coroutines/CoroutineContext;",
+            "Lcotlin/jvm/u/p<",
             "-TE;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TR;>;+",
             "Ljava/lang/Object;",
             ">;)",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "TR;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2528,29 +2528,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->V0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->V0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final V1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final V1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2558,16 +2558,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final W(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final W(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2575,16 +2575,16 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2592,31 +2592,31 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->U(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->U(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic W0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+.method public static synthetic W0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->W0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->W0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final W1(Lkotlinx/coroutines/channels/y;ILkotlin/coroutines/CoroutineContext;)Lkotlinx/coroutines/channels/y;
+.method public static final W1(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/CoroutineContext;
+    .param p2    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2625,17 +2625,17 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;I",
-            "Lkotlin/coroutines/CoroutineContext;",
+            "Lcotlin/coroutines/CoroutineContext;",
             ")",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "TE;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2643,33 +2643,33 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->V1(Lkotlinx/coroutines/channels/y;ILkotlin/coroutines/CoroutineContext;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->V1(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final X(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final X(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/channels/c0;
+    .param p1    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2677,24 +2677,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->V(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->V(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final X0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/q;)Lkotlinx/coroutines/channels/y;
+.method public static final X0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/CoroutineContext;
+    .param p1    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/q;
+    .param p2    # Lcotlin/jvm/u/q;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2705,24 +2705,24 @@
             "R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/CoroutineContext;",
-            "Lkotlin/jvm/u/q<",
+            "Lcotlin/coroutines/CoroutineContext;",
+            "Lcotlin/jvm/u/q<",
             "-",
             "Ljava/lang/Integer;",
             "-TE;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TR;>;+",
             "Ljava/lang/Object;",
             ">;)",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "TR;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2730,35 +2730,35 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->X0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/q;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->X0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic X1(Lkotlinx/coroutines/channels/y;ILkotlin/coroutines/CoroutineContext;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+.method public static synthetic X1(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/CoroutineContext;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->W1(Lkotlinx/coroutines/channels/y;ILkotlin/coroutines/CoroutineContext;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->W1(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/CoroutineContext;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final Y(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+.method public static final Y(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/CoroutineContext;
+    .param p1    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2767,24 +2767,24 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/CoroutineContext;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/coroutines/CoroutineContext;",
+            "Lcotlin/jvm/u/p<",
             "-TE;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Boolean;",
             ">;+",
             "Ljava/lang/Object;",
             ">;)",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "TE;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2792,35 +2792,35 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Y(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Y(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic Y0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/q;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+.method public static synthetic Y0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Y0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/q;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Y0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final Y1(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+.method public static final Y1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/CoroutineContext;
+    .param p1    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2829,24 +2829,24 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/CoroutineContext;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/coroutines/CoroutineContext;",
+            "Lcotlin/jvm/u/p<",
             "-TE;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Boolean;",
             ">;+",
             "Ljava/lang/Object;",
             ">;)",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "TE;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2854,35 +2854,35 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->X1(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->X1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic Z(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+.method public static synthetic Z(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Z(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Z(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final Z0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/q;)Lkotlinx/coroutines/channels/y;
+.method public static final Z0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/CoroutineContext;
+    .param p1    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/q;
+    .param p2    # Lcotlin/jvm/u/q;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2893,24 +2893,24 @@
             "R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/CoroutineContext;",
-            "Lkotlin/jvm/u/q<",
+            "Lcotlin/coroutines/CoroutineContext;",
+            "Lcotlin/jvm/u/q<",
             "-",
             "Ljava/lang/Integer;",
             "-TE;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TR;>;+",
             "Ljava/lang/Object;",
             ">;)",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "TR;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2918,35 +2918,35 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Z0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/q;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Z0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic Z1(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+.method public static synthetic Z1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Y1(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Y1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final a(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final a(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2955,13 +2955,13 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Boolean;",
             ">;)",
@@ -2969,8 +2969,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -2978,16 +2978,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final a0(Lkotlinx/coroutines/channels/y;)Lkotlinx/coroutines/channels/y;
+.method public static final a0(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2996,15 +2996,15 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;)",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "TE;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3012,35 +3012,35 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a0(Lkotlinx/coroutines/channels/y;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a0(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic a1(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/q;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+.method public static synthetic a1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a1(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/q;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final a2(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final a2(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/channels/c0;
+    .param p1    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3049,18 +3049,18 @@
             "<E:",
             "Ljava/lang/Object;",
             "C::",
-            "Lkotlinx/coroutines/channels/c0<",
+            "Lcotlinx/coroutines/channels/c0<",
             "-TE;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TC;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3068,29 +3068,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Z1(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Z1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final b(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final b(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3098,16 +3098,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final b0(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final b0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3115,7 +3115,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3126,16 +3126,16 @@
             "C::",
             "Ljava/util/Collection<",
             "-TE;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TC;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3143,16 +3143,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->b0(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->b0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final b1(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final b1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3160,11 +3160,11 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3177,20 +3177,20 @@
             "C::",
             "Ljava/util/Collection<",
             "-TR;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TC;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Ljava/lang/Integer;",
             "-TE;+TR;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3198,16 +3198,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->b1(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->b1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final b2(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final b2(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3215,7 +3215,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3226,16 +3226,16 @@
             "C::",
             "Ljava/util/Collection<",
             "-TE;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TC;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3243,20 +3243,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a2(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a2(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final c(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final c(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3265,9 +3265,9 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Boolean;",
             ">;)",
@@ -3275,8 +3275,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3284,24 +3284,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final c0(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final c0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/channels/c0;
+    .param p1    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3310,18 +3310,18 @@
             "<E:",
             "Ljava/lang/Object;",
             "C::",
-            "Lkotlinx/coroutines/channels/c0<",
+            "Lcotlinx/coroutines/channels/c0<",
             "-TE;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TC;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3329,28 +3329,28 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c0(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final c1(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final c1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/channels/c0;
+    .param p1    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3361,22 +3361,22 @@
             "R:",
             "Ljava/lang/Object;",
             "C::",
-            "Lkotlinx/coroutines/channels/c0<",
+            "Lcotlinx/coroutines/channels/c0<",
             "-TR;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TC;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Ljava/lang/Integer;",
             "-TE;+TR;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3384,20 +3384,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c1(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final c2(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final c2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3406,9 +3406,9 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/util/List<",
             "+TE;>;>;)",
@@ -3420,24 +3420,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->b2(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->b2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final d(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final d(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3446,13 +3446,13 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Boolean;",
             ">;)",
@@ -3460,8 +3460,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3469,16 +3469,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final d0(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final d0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3486,11 +3486,11 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3501,20 +3501,20 @@
             "C::",
             "Ljava/util/Collection<",
             "-TE;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TC;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3522,16 +3522,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d0(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final d1(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final d1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3539,16 +3539,16 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3556,16 +3556,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->b1(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->b1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final d2(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final d2(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3573,7 +3573,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3586,18 +3586,18 @@
             "M::",
             "Ljava/util/Map<",
             "-TK;-TV;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;>;TM;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TM;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3605,29 +3605,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c2(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c2(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final e(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final e(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3635,28 +3635,28 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final e0(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final e0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/channels/c0;
+    .param p1    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3665,22 +3665,22 @@
             "<E:",
             "Ljava/lang/Object;",
             "C::",
-            "Lkotlinx/coroutines/channels/c0<",
+            "Lcotlinx/coroutines/channels/c0<",
             "-TE;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TC;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3688,33 +3688,33 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->e0(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->e0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final e1(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final e1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/channels/c0;
+    .param p1    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3722,20 +3722,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c1(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final e2(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final e2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3746,11 +3746,11 @@
             "V:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/util/Map<",
             "TK;+TV;>;>;)",
@@ -3758,8 +3758,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3767,24 +3767,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d2(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final f(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final f(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3797,13 +3797,13 @@
             "V:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/util/Map<",
             "TK;+TV;>;>;)",
@@ -3811,8 +3811,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3820,16 +3820,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final f0(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final f0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3837,16 +3837,16 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3854,16 +3854,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d0(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final f1(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final f1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3871,11 +3871,11 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3888,20 +3888,20 @@
             "C::",
             "Ljava/util/Collection<",
             "-TR;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TC;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Ljava/lang/Integer;",
             "-TE;+TR;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3909,20 +3909,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f1(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final f2(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final f2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3931,9 +3931,9 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/util/List<",
             "TE;>;>;)",
@@ -3941,8 +3941,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3950,29 +3950,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->e2(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->e2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final g(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final g(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -3980,33 +3980,33 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final g0(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final g0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/channels/c0;
+    .param p1    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4014,28 +4014,28 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->e0(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->e0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final g1(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final g1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/channels/c0;
+    .param p1    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4046,22 +4046,22 @@
             "R:",
             "Ljava/lang/Object;",
             "C::",
-            "Lkotlinx/coroutines/channels/c0<",
+            "Lcotlinx/coroutines/channels/c0<",
             "-TR;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TC;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Ljava/lang/Integer;",
             "-TE;+TR;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4069,20 +4069,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->g1(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->g1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final g2(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final g2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4091,9 +4091,9 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/util/Set<",
             "TE;>;>;)",
@@ -4101,8 +4101,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4110,24 +4110,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f2(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final h(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final h(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4138,11 +4138,11 @@
             "K:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TK;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/util/Map<",
             "TK;+TE;>;>;)",
@@ -4150,8 +4150,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4159,16 +4159,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final h0(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final h0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4176,11 +4176,11 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4191,20 +4191,20 @@
             "C::",
             "Ljava/util/Collection<",
             "-TE;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TC;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4212,16 +4212,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h0(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final h1(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final h1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4229,16 +4229,16 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4246,20 +4246,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f1(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final h2(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final h2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4268,9 +4268,9 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/util/Set<",
             "+TE;>;>;)",
@@ -4278,8 +4278,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4287,28 +4287,28 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->g2(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->g2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final i(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final i(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4321,13 +4321,13 @@
             "V:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TK;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TV;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/util/Map<",
             "TK;+TV;>;>;)",
@@ -4335,8 +4335,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4344,28 +4344,28 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final i0(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final i0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/channels/c0;
+    .param p1    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4374,22 +4374,22 @@
             "<E:",
             "Ljava/lang/Object;",
             "C::",
-            "Lkotlinx/coroutines/channels/c0<",
+            "Lcotlinx/coroutines/channels/c0<",
             "-TE;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TC;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4397,33 +4397,33 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i0(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final i1(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final i1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/channels/c0;
+    .param p1    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4431,20 +4431,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->g1(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->g1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final i2(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;)Lkotlinx/coroutines/channels/y;
+.method public static final i2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/CoroutineContext;
+    .param p1    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4453,18 +4453,18 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/CoroutineContext;",
+            "Lcotlin/coroutines/CoroutineContext;",
             ")",
-            "Lkotlinx/coroutines/channels/y<",
-            "Lkotlin/collections/i0<",
+            "Lcotlinx/coroutines/channels/y<",
+            "Lcotlin/collections/i0<",
             "TE;>;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4472,29 +4472,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h2(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final j(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final j(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4502,16 +4502,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final j0(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final j0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4519,16 +4519,16 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4536,24 +4536,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h0(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final j1(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+.method public static final j1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/CoroutineContext;
+    .param p1    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4564,22 +4564,22 @@
             "R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/CoroutineContext;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/coroutines/CoroutineContext;",
+            "Lcotlin/jvm/u/p<",
             "-TE;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TR;>;+",
             "Ljava/lang/Object;",
             ">;)",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "TR;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4587,44 +4587,44 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->j1(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->j1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic j2(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+.method public static synthetic j2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i2(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final k(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final k(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4632,33 +4632,33 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final k0(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final k0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/channels/c0;
+    .param p1    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4666,31 +4666,31 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i0(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic k1(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+.method public static synthetic k1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->k1(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->k1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final k2(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/y;)Lkotlinx/coroutines/channels/y;
+.method public static final k2(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/channels/y;
+    .param p1    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4701,18 +4701,18 @@
             "R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TR;>;)",
-            "Lkotlinx/coroutines/channels/y<",
-            "Lkotlin/Pair<",
+            "Lcotlinx/coroutines/channels/y<",
+            "Lcotlin/Pair<",
             "TE;TR;>;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4720,16 +4720,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->j2(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/y;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->j2(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final l(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final l(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4737,11 +4737,11 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4754,18 +4754,18 @@
             "M::",
             "Ljava/util/Map<",
             "-TK;-TE;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TM;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TK;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TM;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4773,24 +4773,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final l0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final l0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4799,20 +4799,20 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4820,16 +4820,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final l1(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final l1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4837,11 +4837,11 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4854,18 +4854,18 @@
             "C::",
             "Ljava/util/Collection<",
             "-TR;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TC;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TR;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4873,28 +4873,28 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l1(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final l2(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+.method public static final l2(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/channels/y;
+    .param p1    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/CoroutineContext;
+    .param p2    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/jvm/u/p;
+    .param p3    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4907,20 +4907,20 @@
             "V:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TR;>;",
-            "Lkotlin/coroutines/CoroutineContext;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/coroutines/CoroutineContext;",
+            "Lcotlin/jvm/u/p<",
             "-TE;-TR;+TV;>;)",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "TV;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4928,16 +4928,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->k2(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->k2(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final m(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final m(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4945,15 +4945,15 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/jvm/u/l;
+    .param p3    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p4    # Lkotlin/coroutines/c;
+    .param p4    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -4968,20 +4968,20 @@
             "M::",
             "Ljava/util/Map<",
             "-TK;-TV;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TM;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TK;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TV;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TM;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -4989,29 +4989,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->m(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->m(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final m0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final m0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5019,28 +5019,28 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final m1(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final m1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/channels/c0;
+    .param p1    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5051,20 +5051,20 @@
             "R:",
             "Ljava/lang/Object;",
             "C::",
-            "Lkotlinx/coroutines/channels/c0<",
+            "Lcotlinx/coroutines/channels/c0<",
             "-TR;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TC;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TR;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5072,27 +5072,27 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->m1(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->m1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic m2(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+.method public static synthetic m2(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
     .line 1
-    invoke-static/range {p0 .. p5}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l2(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+    invoke-static/range {p0 .. p5}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l2(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final n(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final n(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5100,16 +5100,16 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5117,24 +5117,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final n0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final n0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5143,20 +5143,20 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5164,16 +5164,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->n0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->n0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final n1(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final n1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5181,16 +5181,16 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5198,16 +5198,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l1(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final o(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final o(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5215,20 +5215,20 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/jvm/u/l;
+    .param p3    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p4    # Lkotlin/coroutines/c;
+    .param p4    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5236,29 +5236,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->m(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->m(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final o0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final o0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5266,33 +5266,33 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->n0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->n0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final o1(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final o1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/channels/c0;
+    .param p1    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5300,16 +5300,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->m1(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->m1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final p(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final p(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5317,11 +5317,11 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5336,20 +5336,20 @@
             "M::",
             "Ljava/util/Map<",
             "-TK;-TV;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TM;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TM;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5357,20 +5357,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final p0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final p0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5379,16 +5379,16 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5396,16 +5396,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final p1(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final p1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5413,11 +5413,11 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5430,18 +5430,18 @@
             "C::",
             "Ljava/util/Collection<",
             "-TR;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TC;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TR;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5449,16 +5449,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p1(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final q(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final q(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5466,16 +5466,16 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5483,24 +5483,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p(Lkotlinx/coroutines/channels/y;Ljava/util/Map;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final q0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final q0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5509,20 +5509,20 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5530,28 +5530,28 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->q0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->q0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final q1(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final q1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/channels/c0;
+    .param p1    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5562,20 +5562,20 @@
             "R:",
             "Ljava/lang/Object;",
             "C::",
-            "Lkotlinx/coroutines/channels/c0<",
+            "Lcotlinx/coroutines/channels/c0<",
             "-TR;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TC;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TR;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5583,16 +5583,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->q1(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->q1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final r(Lkotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
+.method public static final r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5603,38 +5603,38 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "*>;",
             "Ljava/lang/Throwable;",
             ")V"
         }
     .end annotation
 
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->r(Lkotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-void
 .end method
 
-.method private static final r0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final r0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5642,16 +5642,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->q0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->q0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final r1(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final r1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5659,16 +5659,16 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5676,20 +5676,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p1(Lkotlinx/coroutines/channels/y;Ljava/util/Collection;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final s(Lkotlinx/coroutines/channels/i;Lkotlin/jvm/u/l;)Ljava/lang/Object;
+.method public static final s(Lcotlinx/coroutines/channels/i;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/i;
+    .param p0    # Lcotlinx/coroutines/channels/i;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5700,33 +5700,33 @@
             "R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/i<",
+            "Lcotlinx/coroutines/channels/i<",
             "TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;+TR;>;)TR;"
         }
     .end annotation
 
-    .annotation build Lkotlinx/coroutines/r2;
+    .annotation build Lcotlinx/coroutines/r2;
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->s(Lkotlinx/coroutines/channels/i;Lkotlin/jvm/u/l;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->s(Lcotlinx/coroutines/channels/i;Lcotlin/jvm/u/l;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final s0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final s0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5735,16 +5735,16 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5752,33 +5752,33 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->s0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->s0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final s1(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final s1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlinx/coroutines/channels/c0;
+    .param p1    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5786,20 +5786,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->q1(Lkotlinx/coroutines/channels/y;Lkotlinx/coroutines/channels/c0;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->q1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final t(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;)Ljava/lang/Object;
+.method public static final t(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5810,37 +5810,37 @@
             "R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;+TR;>;)TR;"
         }
     .end annotation
 
-    .annotation build Lkotlinx/coroutines/s1;
+    .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final t0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final t0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5849,20 +5849,20 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5870,24 +5870,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final t1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final t1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5898,18 +5898,18 @@
             "R::",
             "Ljava/lang/Comparable<",
             "-TR;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TR;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5917,24 +5917,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final u(Lkotlinx/coroutines/channels/i;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final u(Lcotlinx/coroutines/channels/i;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/i;
+    .param p0    # Lcotlinx/coroutines/channels/i;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -5943,50 +5943,50 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/i<",
+            "Lcotlinx/coroutines/channels/i<",
             "TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lkotlinx/coroutines/r2;
+    .annotation build Lcotlinx/coroutines/r2;
     .end annotation
 
     .annotation build Ln/e/a/e;
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->u(Lkotlinx/coroutines/channels/i;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->u(Lcotlinx/coroutines/channels/i;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final u0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final u0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -5994,29 +5994,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t0(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final u1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final u1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -6024,24 +6024,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final v(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final v(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -6050,45 +6050,45 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lkotlinx/coroutines/s1;
+    .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
     .annotation build Ln/e/a/e;
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->v(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->v(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final v0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+.method public static final v0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/CoroutineContext;
+    .param p1    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -6099,24 +6099,24 @@
             "R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/CoroutineContext;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/coroutines/CoroutineContext;",
+            "Lcotlin/jvm/u/p<",
             "-TE;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TR;>;>;+",
             "Ljava/lang/Object;",
             ">;)",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "TR;>;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -6124,16 +6124,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->v0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->v0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final v1(Lkotlinx/coroutines/channels/y;Ljava/util/Comparator;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final v1(Lcotlinx/coroutines/channels/y;Ljava/util/Comparator;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -6141,7 +6141,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -6150,18 +6150,18 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
             "Ljava/util/Comparator<",
             "-TE;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -6169,63 +6169,63 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->v1(Lkotlinx/coroutines/channels/y;Ljava/util/Comparator;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->v1(Lcotlinx/coroutines/channels/y;Ljava/util/Comparator;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final w(Lkotlinx/coroutines/channels/i;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final w(Lcotlinx/coroutines/channels/i;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/i;
+    .param p0    # Lcotlinx/coroutines/channels/i;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlinx/coroutines/r2;
+    .annotation build Lcotlinx/coroutines/r2;
     .end annotation
 
     .annotation build Ln/e/a/e;
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->u(Lkotlinx/coroutines/channels/i;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->u(Lcotlinx/coroutines/channels/i;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic w0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+.method public static synthetic w0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->w0(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+    invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->w0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final w1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final w1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -6236,18 +6236,18 @@
             "R::",
             "Ljava/lang/Comparable<",
             "-TR;>;>(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TR;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -6255,52 +6255,52 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->w1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->w1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final x(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final x(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlinx/coroutines/s1;
+    .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
     .annotation build Ln/e/a/e;
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->v(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->v(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final x0(Lkotlinx/coroutines/channels/y;Ljava/lang/Object;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final x0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -6311,18 +6311,18 @@
             "R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TR;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-TR;-TE;+TR;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TR;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -6330,29 +6330,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->x0(Lkotlinx/coroutines/channels/y;Ljava/lang/Object;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->x0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final x1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final x1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -6360,24 +6360,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->w1(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->w1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final y(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final y(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -6386,24 +6386,24 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
-            "Lkotlin/collections/i0<",
+            "Lcotlin/collections/i0<",
             "+TE;>;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -6411,29 +6411,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->y(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->y(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final y0(Lkotlinx/coroutines/channels/y;Ljava/lang/Object;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final y0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -6441,16 +6441,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->x0(Lkotlinx/coroutines/channels/y;Ljava/lang/Object;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->x0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final y1(Lkotlinx/coroutines/channels/y;Ljava/util/Comparator;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final y1(Lcotlinx/coroutines/channels/y;Ljava/util/Comparator;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -6458,7 +6458,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -6467,18 +6467,18 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
             "Ljava/util/Comparator<",
             "-TE;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TE;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -6486,29 +6486,29 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->y1(Lkotlinx/coroutines/channels/y;Ljava/util/Comparator;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->y1(Lcotlinx/coroutines/channels/y;Ljava/util/Comparator;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final z(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final z(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -6516,24 +6516,24 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->y(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->y(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final z0(Lkotlinx/coroutines/channels/y;Ljava/lang/Object;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final z0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/q;
+    .param p2    # Lcotlin/jvm/u/q;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -6544,20 +6544,20 @@
             "R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;TR;",
-            "Lkotlin/jvm/u/q<",
+            "Lcotlin/jvm/u/q<",
             "-",
             "Ljava/lang/Integer;",
             "-TR;-TE;+TR;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TR;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -6565,20 +6565,20 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->z0(Lkotlinx/coroutines/channels/y;Ljava/lang/Object;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->z0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final z1(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final z1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/channels/y;
+    .param p0    # Lcotlinx/coroutines/channels/y;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -6587,9 +6587,9 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Boolean;",
             ">;)",
@@ -6597,8 +6597,8 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
@@ -6606,7 +6606,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->z1(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->z1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 

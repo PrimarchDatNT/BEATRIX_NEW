@@ -1,5 +1,5 @@
-.class Lkotlin/text/s;
-.super Lkotlin/text/r;
+.class Lcotlin/text/s;
+.super Lcotlin/text/r;
 .source "StringNumberConversionsJVM.kt"
 
 
@@ -8,7 +8,7 @@
     value = "SMAP\nStringNumberConversionsJVM.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StringNumberConversionsJVM.kt\nkotlin/text/StringsKt__StringNumberConversionsJVMKt\n*L\n1#1,281:1\n272#1,7:282\n272#1,7:289\n272#1,7:296\n272#1,7:303\n*E\n*S KotlinDebug\n*F\n+ 1 StringNumberConversionsJVM.kt\nkotlin/text/StringsKt__StringNumberConversionsJVMKt\n*L\n149#1,7:282\n156#1,7:289\n236#1,7:296\n247#1,7:303\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -80,10 +80,10 @@
         "x0",
         "T",
         "str",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "parse",
         "t0",
-        "(Ljava/lang/String;Lkotlin/jvm/u/l;)Ljava/lang/Object;",
+        "(Ljava/lang/String;Lcotlin/jvm/u/l;)Ljava/lang/Object;",
         "kotlin-stdlib"
     }
     k = 0x5
@@ -100,7 +100,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/text/r;-><init>()V
+    invoke-direct {p0}, Lcotlin/text/r;-><init>()V
 
     return-void
 .end method
@@ -111,7 +111,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -120,12 +120,12 @@
 
     const-string v0, "$this$toBigIntegerOrNull"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v0, 0xa
 
     .line 1
-    invoke-static {p0, v0}, Lkotlin/text/s;->B0(Ljava/lang/String;I)Ljava/math/BigInteger;
+    invoke-static {p0, v0}, Lcotlin/text/s;->B0(Ljava/lang/String;I)Ljava/math/BigInteger;
 
     move-result-object p0
 
@@ -138,7 +138,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -147,10 +147,10 @@
 
     const-string v0, "$this$toBigIntegerOrNull"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p1}, Lkotlin/text/a;->a(I)I
+    invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     .line 2
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -187,7 +187,7 @@
 
     move-result v3
 
-    invoke-static {v3, p1}, Lkotlin/text/b;->b(CI)I
+    invoke-static {v3, p1}, Lcotlin/text/b;->b(CI)I
 
     move-result v3
 
@@ -206,7 +206,7 @@
 
     move-result v0
 
-    invoke-static {v0, p1}, Lkotlin/text/b;->b(CI)I
+    invoke-static {v0, p1}, Lcotlin/text/b;->b(CI)I
 
     move-result v0
 
@@ -218,7 +218,7 @@
     :cond_3
     new-instance v0, Ljava/math/BigInteger;
 
-    invoke-static {p1}, Lkotlin/text/a;->a(I)I
+    invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
 
@@ -232,14 +232,14 @@
 
 .method private static final synthetic C0(Ljava/lang/String;)Z
     .locals 0
-    .annotation runtime Lkotlin/i;
+    .annotation runtime Lcotlin/i;
         message = "Use Kotlin compiler 1.4 to avoid deprecation warning."
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation runtime Lkotlin/j;
+    .annotation runtime Lcotlin/j;
         hiddenSince = "1.4"
     .end annotation
 
@@ -253,14 +253,14 @@
 
 .method private static final D0(Ljava/lang/String;)Z
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "toBooleanNullable"
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -274,7 +274,7 @@
 
 .method private static final E0(Ljava/lang/String;)B
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -287,15 +287,15 @@
 
 .method private static final F0(Ljava/lang/String;I)B
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lkotlin/text/a;->a(I)I
+    invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
 
@@ -308,7 +308,7 @@
 
 .method private static final G0(Ljava/lang/String;)D
     .locals 2
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -325,7 +325,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -334,15 +334,15 @@
 
     const-string v0, "$this$toDoubleOrNull"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
     .line 1
     :try_start_0
-    sget-object v1, Lkotlin/text/l;->a:Lkotlin/text/Regex;
+    sget-object v1, Lcotlin/text/l;->a:Lcotlin/text/Regex;
 
-    invoke-virtual {v1, p0}, Lkotlin/text/Regex;->matches(Ljava/lang/CharSequence;)Z
+    invoke-virtual {v1, p0}, Lcotlin/text/Regex;->matches(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
@@ -368,7 +368,7 @@
 
 .method private static final I0(Ljava/lang/String;)F
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -385,7 +385,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -394,15 +394,15 @@
 
     const-string v0, "$this$toFloatOrNull"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
     .line 1
     :try_start_0
-    sget-object v1, Lkotlin/text/l;->a:Lkotlin/text/Regex;
+    sget-object v1, Lcotlin/text/l;->a:Lcotlin/text/Regex;
 
-    invoke-virtual {v1, p0}, Lkotlin/text/Regex;->matches(Ljava/lang/CharSequence;)Z
+    invoke-virtual {v1, p0}, Lcotlin/text/Regex;->matches(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
@@ -428,7 +428,7 @@
 
 .method private static final K0(Ljava/lang/String;)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -441,15 +441,15 @@
 
 .method private static final L0(Ljava/lang/String;I)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lkotlin/text/a;->a(I)I
+    invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
 
@@ -462,7 +462,7 @@
 
 .method private static final M0(Ljava/lang/String;)J
     .locals 2
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -475,15 +475,15 @@
 
 .method private static final N0(Ljava/lang/String;I)J
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lkotlin/text/a;->a(I)I
+    invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
 
@@ -496,7 +496,7 @@
 
 .method private static final O0(Ljava/lang/String;)S
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -509,15 +509,15 @@
 
 .method private static final P0(Ljava/lang/String;I)S
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lkotlin/text/a;->a(I)I
+    invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
 
@@ -530,19 +530,19 @@
 
 .method private static final Q0(BI)Ljava/lang/String;
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lkotlin/text/a;->a(I)I
+    invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
 
-    invoke-static {p1}, Lkotlin/text/a;->a(I)I
+    invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
 
@@ -552,22 +552,22 @@
 
     const-string p1, "java.lang.Integer.toStri\u2026(this, checkRadix(radix))"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final R0(II)Ljava/lang/String;
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lkotlin/text/a;->a(I)I
+    invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
 
@@ -577,22 +577,22 @@
 
     const-string p1, "java.lang.Integer.toStri\u2026(this, checkRadix(radix))"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final S0(JI)Ljava/lang/String;
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     .line 1
-    invoke-static {p2}, Lkotlin/text/a;->a(I)I
+    invoke-static {p2}, Lcotlin/text/a;->a(I)I
 
     move-result p2
 
@@ -602,26 +602,26 @@
 
     const-string p1, "java.lang.Long.toString(this, checkRadix(radix))"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final T0(SI)Ljava/lang/String;
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lkotlin/text/a;->a(I)I
+    invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
 
-    invoke-static {p1}, Lkotlin/text/a;->a(I)I
+    invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
 
@@ -631,12 +631,12 @@
 
     const-string p1, "java.lang.Integer.toStri\u2026(this, checkRadix(radix))"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
-.method private static final t0(Ljava/lang/String;Lkotlin/jvm/u/l;)Ljava/lang/Object;
+.method private static final t0(Ljava/lang/String;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -644,7 +644,7 @@
             "Ljava/lang/Object;",
             ">(",
             "Ljava/lang/String;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/String;",
             "+TT;>;)TT;"
@@ -655,16 +655,16 @@
 
     .line 1
     :try_start_0
-    sget-object v1, Lkotlin/text/l;->a:Lkotlin/text/Regex;
+    sget-object v1, Lcotlin/text/l;->a:Lcotlin/text/Regex;
 
-    invoke-virtual {v1, p0}, Lkotlin/text/Regex;->matches(Ljava/lang/CharSequence;)Z
+    invoke-virtual {v1, p0}, Lcotlin/text/Regex;->matches(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
     .line 2
-    invoke-interface {p1, p0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
     :try_end_0
@@ -679,10 +679,10 @@
 
 .method private static final u0(Ljava/lang/String;)Ljava/math/BigDecimal;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -696,10 +696,10 @@
 
 .method private static final v0(Ljava/lang/String;Ljava/math/MathContext;)Ljava/math/BigDecimal;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -717,7 +717,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -726,15 +726,15 @@
 
     const-string v0, "$this$toBigDecimalOrNull"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
     .line 1
     :try_start_0
-    sget-object v1, Lkotlin/text/l;->a:Lkotlin/text/Regex;
+    sget-object v1, Lcotlin/text/l;->a:Lcotlin/text/Regex;
 
-    invoke-virtual {v1, p0}, Lkotlin/text/Regex;->matches(Ljava/lang/CharSequence;)Z
+    invoke-virtual {v1, p0}, Lcotlin/text/Regex;->matches(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
@@ -764,7 +764,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -773,19 +773,19 @@
 
     const-string v0, "$this$toBigDecimalOrNull"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "mathContext"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
     .line 1
     :try_start_0
-    sget-object v1, Lkotlin/text/l;->a:Lkotlin/text/Regex;
+    sget-object v1, Lcotlin/text/l;->a:Lcotlin/text/Regex;
 
-    invoke-virtual {v1, p0}, Lkotlin/text/Regex;->matches(Ljava/lang/CharSequence;)Z
+    invoke-virtual {v1, p0}, Lcotlin/text/Regex;->matches(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
@@ -807,10 +807,10 @@
 
 .method private static final y0(Ljava/lang/String;)Ljava/math/BigInteger;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -824,17 +824,17 @@
 
 .method private static final z0(Ljava/lang/String;I)Ljava/math/BigInteger;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
     .line 1
     new-instance v0, Ljava/math/BigInteger;
 
-    invoke-static {p1}, Lkotlin/text/a;->a(I)I
+    invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
 

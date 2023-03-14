@@ -20,7 +20,7 @@
     value = "SMAP\nLayerSelectViewHolder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LayerSelectViewHolder.kt\ncom/commsource/studio/gesture/LayerSelectViewHolder$onBindViewHolder$1\n*L\n1#1,136:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -84,7 +84,7 @@
 
     const-string v0, "event"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
@@ -125,11 +125,11 @@
 
     .line 5
     :cond_0
-    new-instance p2, Lkotlin/TypeCastException;
+    new-instance p2, Lcotlin/TypeCastException;
 
     const-string v0, "null cannot be cast to non-null type com.commsource.widget.recyclerview.BaseRecyclerViewAdapter"
 
-    invoke-direct {p2, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, v0}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

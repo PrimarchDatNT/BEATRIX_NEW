@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
     d2 = {
         "com/commsource/mypage/album/BpAlbumViewModel$g",
         "Lcom/commsource/util/u2/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "app_googleplayRelease"
@@ -108,7 +108,7 @@
 
     const-string v4, "info.dirID"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2, v3}, Lcom/commsource/mypage/album/BpAlbumViewModel$a;->b(Ljava/lang/String;)V
 
@@ -119,7 +119,7 @@
 
     move-result-object v2
 
-    new-instance v3, Lkotlin/Pair;
+    new-instance v3, Lcotlin/Pair;
 
     iget-object v4, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$g;->p:Lcom/commsource/album/provider/BucketInfo;
 
@@ -127,13 +127,13 @@
 
     const-string v6, "caImageInfoList"
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5, v1}, Lcom/commsource/mypage/album/BpAlbumViewModel;->C(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v1
 
-    invoke-direct {v3, v4, v1}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v3, v4, v1}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {v2, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 

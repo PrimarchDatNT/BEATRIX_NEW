@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -113,17 +113,17 @@
     .line 2
     iget-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker$f;->a:Lcom/commsource/studio/text/HorizontalColorPicker;
 
-    invoke-static {p1}, Lcom/commsource/studio/text/HorizontalColorPicker;->f(Lcom/commsource/studio/text/HorizontalColorPicker;)Lkotlin/jvm/u/a;
+    invoke-static {p1}, Lcom/commsource/studio/text/HorizontalColorPicker;->f(Lcom/commsource/studio/text/HorizontalColorPicker;)Lcotlin/jvm/u/a;
 
     move-result-object p1
 
     if-eqz p1, :cond_5
 
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     goto :goto_1
 
@@ -139,7 +139,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, p2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -150,7 +150,7 @@
     const-string v1, "-2"
 
     .line 4
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -159,17 +159,17 @@
     .line 5
     iget-object p2, p0, Lcom/commsource/studio/text/HorizontalColorPicker$f;->a:Lcom/commsource/studio/text/HorizontalColorPicker;
 
-    invoke-static {p2}, Lcom/commsource/studio/text/HorizontalColorPicker;->d(Lcom/commsource/studio/text/HorizontalColorPicker;)Lkotlin/jvm/u/a;
+    invoke-static {p2}, Lcom/commsource/studio/text/HorizontalColorPicker;->d(Lcom/commsource/studio/text/HorizontalColorPicker;)Lcotlin/jvm/u/a;
 
     move-result-object p2
 
     if-eqz p2, :cond_1
 
-    invoke-interface {p2}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p2}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p2
 
-    check-cast p2, Lkotlin/t1;
+    check-cast p2, Lcotlin/t1;
 
     .line 6
     :cond_1
@@ -189,7 +189,7 @@
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/text/HorizontalColorPicker$f;->a:Lcom/commsource/studio/text/HorizontalColorPicker;
 
-    invoke-static {v1}, Lcom/commsource/studio/text/HorizontalColorPicker;->e(Lcom/commsource/studio/text/HorizontalColorPicker;)Lkotlin/jvm/u/l;
+    invoke-static {v1}, Lcom/commsource/studio/text/HorizontalColorPicker;->e(Lcom/commsource/studio/text/HorizontalColorPicker;)Lcotlin/jvm/u/l;
 
     move-result-object v1
 
@@ -203,11 +203,11 @@
 
     move-result-object p2
 
-    invoke-interface {v1, p2}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
-    check-cast p2, Lkotlin/t1;
+    check-cast p2, Lcotlin/t1;
 
     .line 8
     :cond_3

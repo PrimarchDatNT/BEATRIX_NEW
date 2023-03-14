@@ -1,10 +1,10 @@
-.class public final Lkotlin/coroutines/jvm/internal/a;
+.class public final Lcotlin/coroutines/jvm/internal/a;
 .super Ljava/lang/Object;
 .source "boxing.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -57,7 +57,7 @@
     }
 .end annotation
 
-.annotation build Lkotlin/jvm/g;
+.annotation build Lcotlin/jvm/g;
     name = "Boxing"
 .end annotation
 
@@ -65,10 +65,10 @@
 # direct methods
 .method public static final a(Z)Ljava/lang/Boolean;
     .locals 0
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -85,10 +85,10 @@
 
 .method public static final b(B)Ljava/lang/Byte;
     .locals 0
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -105,10 +105,10 @@
 
 .method public static final c(C)Ljava/lang/Character;
     .locals 1
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -125,10 +125,10 @@
 
 .method public static final d(D)Ljava/lang/Double;
     .locals 1
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -145,10 +145,10 @@
 
 .method public static final e(F)Ljava/lang/Float;
     .locals 1
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -165,10 +165,10 @@
 
 .method public static final f(I)Ljava/lang/Integer;
     .locals 1
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -185,10 +185,10 @@
 
 .method public static final g(J)Ljava/lang/Long;
     .locals 1
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -205,10 +205,10 @@
 
 .method public static final h(S)Ljava/lang/Short;
     .locals 1
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 

@@ -24,7 +24,7 @@
         "Ljava/lang/Object;",
         "Landroidx/lifecycle/Observer<",
         "Ljava/util/List<",
-        "Lkotlin/Pair<",
+        "Lcotlin/Pair<",
         "+",
         "Ljava/lang/Integer;",
         "+",
@@ -33,7 +33,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -44,13 +44,13 @@
     }
     d2 = {
         "",
-        "Lkotlin/Pair;",
+        "Lcotlin/Pair;",
         "",
         "kotlin.jvm.PlatformType",
         "Landroid/graphics/Bitmap;",
         "",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/util/List;)V"
     }
@@ -86,7 +86,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Integer;",
             "Landroid/graphics/Bitmap;",
             ">;>;)V"
@@ -108,7 +108,7 @@
 
     const-string v2, "it"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, p1}, Lcom/commsource/puzzle/StitchComponent;->setImageData(Ljava/util/List;)V
 

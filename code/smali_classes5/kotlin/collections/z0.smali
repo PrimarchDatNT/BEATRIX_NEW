@@ -1,5 +1,5 @@
-.class Lkotlin/collections/z0;
-.super Lkotlin/collections/c;
+.class Lcotlin/collections/z0;
+.super Lcotlin/collections/c;
 .source "ReversedViews.kt"
 
 
@@ -9,12 +9,12 @@
         "<T:",
         "Ljava/lang/Object;",
         ">",
-        "Lkotlin/collections/c<",
+        "Lcotlin/collections/c<",
         "TT;>;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,9 +24,9 @@
         "\u0000\u001a\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0003\n\u0002\u0010 \n\u0002\u0008\u0008\u0008\u0012\u0018\u0000*\u0006\u0008\u0000\u0010\u0001 \u00012\u0008\u0012\u0004\u0012\u00028\u00000\u0002B\u0015\u0012\u000c\u0010\n\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0007\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\u0018\u0010\u0005\u001a\u00028\u00002\u0006\u0010\u0004\u001a\u00020\u0003H\u0096\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006R\u001c\u0010\n\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u00078\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0008\u0010\tR\u0016\u0010\u000c\u001a\u00020\u00038V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0008\u0010\u000b\u00a8\u0006\u000f"
     }
     d2 = {
-        "Lkotlin/collections/z0;",
+        "Lcotlin/collections/z0;",
         "T",
-        "Lkotlin/collections/c;",
+        "Lcotlin/collections/c;",
         "",
         "index",
         "get",
@@ -78,12 +78,12 @@
 
     const-string v0, "delegate"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0}, Lkotlin/collections/c;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/c;-><init>()V
 
-    iput-object p1, p0, Lkotlin/collections/z0;->b:Ljava/util/List;
+    iput-object p1, p0, Lcotlin/collections/z0;->b:Ljava/util/List;
 
     return-void
 .end method
@@ -94,7 +94,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/z0;->b:Ljava/util/List;
+    iget-object v0, p0, Lcotlin/collections/z0;->b:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -112,9 +112,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/z0;->b:Ljava/util/List;
+    iget-object v0, p0, Lcotlin/collections/z0;->b:Ljava/util/List;
 
-    invoke-static {p0, p1}, Lkotlin/collections/z;->W0(Ljava/util/List;I)I
+    invoke-static {p0, p1}, Lcotlin/collections/z;->W0(Ljava/util/List;I)I
 
     move-result p1
 

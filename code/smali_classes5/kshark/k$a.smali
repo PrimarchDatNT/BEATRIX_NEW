@@ -20,7 +20,7 @@
     value = "SMAP\nOnHprofRecordListener.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnHprofRecordListener.kt\nkshark/OnHprofRecordListener$Companion$invoke$1\n+ 2 HprofPrimitiveArrayStripper.kt\nkshark/HprofPrimitiveArrayStripper\n*L\n1#1,40:1\n43#2,45:41\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,7 +36,7 @@
         "position",
         "Lkshark/m;",
         "record",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(JLkshark/m;)V",
         "shark",
@@ -78,7 +78,7 @@
 
     const-string p1, "record"
 
-    invoke-static {p3, p1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     instance-of p1, p3, Lkshark/m$a;

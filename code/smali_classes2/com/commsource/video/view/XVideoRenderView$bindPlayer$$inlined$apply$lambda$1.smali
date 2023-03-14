@@ -1,9 +1,9 @@
 .class final Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "XVideoRenderView.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
@@ -18,16 +18,16 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/p<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/p<",
         "Ljava/lang/Integer;",
         "Ljava/lang/Integer;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,7 +40,7 @@
         "",
         "videoWidth",
         "videoHeight",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(II)V",
         "com/commsource/video/view/XVideoRenderView$bindPlayer$1$1",
@@ -67,7 +67,7 @@
 
     const/4 p1, 0x2
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -96,7 +96,7 @@
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$1;->invoke(II)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -141,7 +141,7 @@
     .line 6
     iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$1;->this$0:Lcom/commsource/video/view/XVideoRenderView;
 
-    invoke-virtual {v1}, Lcom/commsource/video/view/XVideoRenderView;->getOnVideoSizeChange()Lkotlin/jvm/u/p;
+    invoke-virtual {v1}, Lcom/commsource/video/view/XVideoRenderView;->getOnVideoSizeChange()Lcotlin/jvm/u/p;
 
     move-result-object v1
 
@@ -155,11 +155,11 @@
 
     move-result-object p2
 
-    invoke-interface {v1, p1, p2}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1, p2}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 7
     :cond_0

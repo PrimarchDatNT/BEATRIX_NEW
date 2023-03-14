@@ -20,7 +20,7 @@
     value = "SMAP\nOneTouchBeautyFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OneTouchBeautyFragment.kt\ncom/commsource/studio/function/OneTouchBeautyFragment$onInitComplete$1\n*L\n1#1,123:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
         "leftDx",
         "",
         "fromUser",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "O",
         "(IFZ)V",
         "i",
@@ -149,7 +149,7 @@
     invoke-virtual {p3, p1}, Lcom/commsource/studio/processor/i;->S(F)V
 
     .line 4
-    invoke-static {p3, v1, v3, v2, v3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p3, v1, v3, v2, v3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 5
     :cond_0
@@ -203,7 +203,7 @@
     const/4 p1, 0x3
 
     .line 4
-    invoke-static {p3, v2, v3, p1, v3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p3, v2, v3, p1, v3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 5
     :cond_0

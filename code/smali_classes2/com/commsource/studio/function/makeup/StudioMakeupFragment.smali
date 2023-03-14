@@ -22,7 +22,7 @@
     value = "SMAP\nStudioMakeupFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StudioMakeupFragment.kt\ncom/commsource/studio/function/makeup/StudioMakeupFragment\n*L\n1#1,821:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,7 +35,7 @@
         "Lcom/commsource/studio/function/makeup/StudioMakeupFragment;",
         "Lcom/commsource/studio/function/BaseSubFragment;",
         "Lcom/commsource/studio/effect/m;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "H1",
         "()V",
         "",
@@ -83,7 +83,7 @@
         "p2",
         "Lcom/commsource/beautyplus/f0/qb;",
         "e0",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "S1",
         "()Lcom/commsource/beautyplus/f0/qb;",
         "mViewBinding",
@@ -203,37 +203,37 @@
 
 
 # instance fields
-.field private final c0:Lkotlin/w;
+.field private final c0:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final d0:Lkotlin/w;
+.field private final d0:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final e0:Lkotlin/w;
+.field private final e0:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final f0:Lkotlin/w;
+.field private final f0:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final g0:Lkotlin/w;
+.field private final g0:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final h0:Lkotlin/w;
+.field private final h0:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final i0:Lkotlin/w;
+.field private final i0:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -256,7 +256,7 @@
     .end annotation
 .end field
 
-.field private final l0:Lkotlin/w;
+.field private final l0:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -273,12 +273,12 @@
 
 .field private o0:I
 
-.field private final p0:Lkotlin/w;
+.field private final p0:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final q0:Lkotlin/w;
+.field private final q0:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -304,108 +304,108 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupViewModel$2;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->c0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->c0:Lcotlin/w;
 
     .line 3
     new-instance v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$tipsViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$tipsViewModel$2;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->d0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->d0:Lcotlin/w;
 
     .line 4
     new-instance v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$mViewBinding$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$mViewBinding$2;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->e0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->e0:Lcotlin/w;
 
     .line 5
     new-instance v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$mGroupAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$mGroupAdapter$2;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->f0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->f0:Lcotlin/w;
 
     .line 6
     new-instance v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$mGroupLayoutManager$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$mGroupLayoutManager$2;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->g0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->g0:Lcotlin/w;
 
     .line 7
     new-instance v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$mVpAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$mVpAdapter$2;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->h0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->h0:Lcotlin/w;
 
     .line 8
     new-instance v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$studioProViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$studioProViewModel$2;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->i0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->i0:Lcotlin/w;
 
     .line 9
     sget-object v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$itemDecoration$2;->INSTANCE:Lcom/commsource/studio/function/makeup/StudioMakeupFragment$itemDecoration$2;
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->l0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->l0:Lcotlin/w;
 
     .line 10
     new-instance v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$fm$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$fm$2;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->p0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->p0:Lcotlin/w;
 
     .line 11
     new-instance v0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->q0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->q0:Lcotlin/w;
 
     return-void
 .end method
@@ -685,7 +685,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
@@ -706,7 +706,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {v1, v2}, Landroidx/fragment/app/FragmentTransaction;->hide(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
@@ -738,7 +738,7 @@
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->n0:Lcom/commsource/repository/child/makeup/e;
 
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -846,7 +846,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/qb;->d:Lcom/commsource/widget/round/RoundFrameLayout;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -860,7 +860,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/qb;->d:Lcom/commsource/widget/round/RoundFrameLayout;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -871,7 +871,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/qb;->d:Lcom/commsource/widget/round/RoundFrameLayout;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/widget/round/RoundFrameLayout;->getDelegate()Lcom/commsource/widget/round/a;
 
@@ -879,7 +879,7 @@
 
     const-string v2, "mViewBinding.flColor.delegate"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
@@ -922,7 +922,7 @@
 
     const-string v4, "mViewBinding.rlFloating"
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -933,7 +933,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/qb;->M:Landroid/widget/RelativeLayout;
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v5, 0x0
 
@@ -948,7 +948,7 @@
 
     const-string v6, "mViewBinding.tvFloating"
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -959,7 +959,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/qb;->M:Landroid/widget/RelativeLayout;
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/high16 v4, 0x41f00000    # 30.0f
 
@@ -1103,7 +1103,7 @@
     if-nez p1, :cond_0
 
     .line 6
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->isAdded()Z
@@ -1135,7 +1135,7 @@
 
     if-nez p2, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {p1, p2}, Landroidx/fragment/app/FragmentTransaction;->show(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
@@ -1169,7 +1169,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     invoke-virtual {p1, p3, v1, p2}, Landroidx/fragment/app/FragmentTransaction;->add(ILandroidx/fragment/app/Fragment;Ljava/lang/String;)Landroidx/fragment/app/FragmentTransaction;
@@ -1387,7 +1387,7 @@
 
     const/4 v7, 0x0
 
-    invoke-static/range {v1 .. v7}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v1 .. v7}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1470,7 +1470,7 @@
 
     move-result-object v1
 
-    new-instance v2, Lkotlin/Pair;
+    new-instance v2, Lcotlin/Pair;
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->V1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
@@ -1486,7 +1486,7 @@
 
     sget-object v4, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-direct {v2, v3, v4}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v2, v3, v4}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
@@ -1557,7 +1557,7 @@
 
     const-string v3, "ownerActivity"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->t0()Lcom/commsource/studio/sub/SubModuleEnum;
 
@@ -1573,7 +1573,7 @@
 
     sget-object v5, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onClickConfirm$1;->INSTANCE:Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onClickConfirm$1;
 
-    invoke-virtual {v1, v2, v3, v4, v5}, Lcom/commsource/studio/component/StudioProViewModel;->G(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Lcom/commsource/studio/effect/t;Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2, v3, v4, v5}, Lcom/commsource/studio/component/StudioProViewModel;->G(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Lcom/commsource/studio/effect/t;Lcotlin/jvm/u/l;)V
 
     goto :goto_0
 
@@ -1747,9 +1747,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->p0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->p0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1812,9 +1812,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->l0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->l0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1851,9 +1851,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->f0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->f0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1873,9 +1873,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->g0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->g0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1895,9 +1895,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->e0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->e0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1917,9 +1917,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->h0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->h0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1948,9 +1948,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->q0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->q0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1970,9 +1970,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->c0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->c0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1992,9 +1992,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->i0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->i0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -2014,9 +2014,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->d0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->d0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -2070,7 +2070,7 @@
 
     const-string v1, "value"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2292,7 +2292,7 @@
 
     const-string p3, "inflater"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -2322,7 +2322,7 @@
 
     const-string v0, "mActivity"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p1, p3}, Lcom/commsource/studio/layer/MultiFaceSelectLayer;-><init>(Landroid/content/Context;)V
 
@@ -2355,7 +2355,7 @@
 
     const-string p3, "mViewBinding"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/qb;->i(Landroidx/fragment/app/Fragment;)V
 
@@ -2364,7 +2364,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
@@ -2408,7 +2408,7 @@
 
     const-string v1, "view"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
@@ -2422,7 +2422,7 @@
 
     const-string p2, "mViewBinding.contrast"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
@@ -2435,7 +2435,7 @@
 
     const-string p2, "mViewBinding.preview"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
@@ -2471,7 +2471,7 @@
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$1;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
 
-    invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->m1(Lkotlin/jvm/u/l;)V
+    invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->m1(Lcotlin/jvm/u/l;)V
 
     .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -2482,11 +2482,11 @@
 
     move-result-object p1
 
-    new-instance p2, Lkotlin/Pair;
+    new-instance p2, Lcotlin/Pair;
 
     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    invoke-direct {p2, v1, v1}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p2, v1, v1}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
@@ -2499,7 +2499,7 @@
 
     const-string p2, "mViewBinding.rvGroup"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->R1()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
 
@@ -2527,7 +2527,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/qb;->N:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->Q1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/b;
 
@@ -2544,7 +2544,7 @@
 
     const-string p2, "mViewBinding.vp"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1, v2}, Landroidx/viewpager2/widget/ViewPager2;->setUserInputEnabled(Z)V
 
@@ -2555,7 +2555,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/qb;->P:Landroidx/viewpager2/widget/ViewPager2;
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->T1()Lcom/commsource/studio/function/makeup/StudioMakeupFragment$a;
 
@@ -2685,7 +2685,7 @@
 
     const-string p2, "MakeupRepository.get()"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/commsource/camera/a1/h;->m()Landroidx/lifecycle/MutableLiveData;
 
@@ -2716,7 +2716,7 @@
 
     const-string v1, "viewLifecycleOwner"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v3, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$10;
 
@@ -2815,13 +2815,13 @@
 
     move-result-object p2
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v1, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$15;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$15;-><init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)V
 
-    invoke-virtual {p1, p2, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->b(Landroidx/lifecycle/LifecycleOwner;Lkotlin/jvm/u/l;)V
+    invoke-virtual {p1, p2, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->b(Landroidx/lifecycle/LifecycleOwner;Lcotlin/jvm/u/l;)V
 
     .line 26
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->V1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
@@ -2933,7 +2933,7 @@
 
     const-string v4, "mViewBinding.llMakeupScrollTips"
 
-    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/high16 v5, 0x3f000000    # 0.5f
 
@@ -2943,7 +2943,7 @@
 
     iget-object v6, v6, Lcom/commsource/beautyplus/f0/qb;->p:Landroid/widget/RelativeLayout;
 
-    invoke-static {v6, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v6}, Landroid/widget/RelativeLayout;->getHeight()I
 
@@ -2962,7 +2962,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/qb;->p:Landroid/widget/RelativeLayout;
 
-    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
 
@@ -2970,7 +2970,7 @@
 
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/qb;->p:Landroid/widget/RelativeLayout;
 
-    invoke-static {v5, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Landroid/widget/RelativeLayout;->getWidth()I
 

@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "info",
         "Landroid/view/View;",
         "v",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onSelect",
         "(IILLcom/commsource/cloudalbum/bean/CAImageInfo;;Landroid/view/View;)V",
         "om/commsource/mypage/album/BpAlbumActivity.initAlbumRV.1.",
@@ -82,11 +82,11 @@
 
     const-string v1, "info"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "v"
 
-    invoke-static {p4, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b;->a:Lcom/commsource/mypage/album/BpAlbumActivity;

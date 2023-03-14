@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -21,17 +21,17 @@
         "Landroid/app/Application$ActivityLifecycleCallbacks;",
         "Landroid/app/Application;",
         "application",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "h",
         "(Landroid/app/Application;)V",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "",
-        "Lkotlin/k0;",
+        "Lcotlin/k0;",
         "name",
         "isForeground",
         "callback",
         "j",
-        "(Lkotlin/jvm/u/l;)V",
+        "(Lcotlin/jvm/u/l;)V",
         "Landroid/app/Activity;",
         "g",
         "()Landroid/app/Activity;",
@@ -67,7 +67,7 @@
         "p",
         "isInForeground",
         "d",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "appForeBackgroundCallback",
         "",
         "c",
@@ -100,13 +100,13 @@
 
 .field private static c:I
 
-.field private static d:Lkotlin/jvm/u/l;
+.field private static d:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -166,11 +166,11 @@
     return-void
 .end method
 
-.method public static final synthetic a(Lf/m/a/e;)Lkotlin/jvm/u/l;
+.method public static final synthetic a(Lf/m/a/e;)Lcotlin/jvm/u/l;
     .locals 0
 
     .line 1
-    sget-object p0, Lf/m/a/e;->d:Lkotlin/jvm/u/l;
+    sget-object p0, Lf/m/a/e;->d:Lcotlin/jvm/u/l;
 
     return-object p0
 .end method
@@ -193,11 +193,11 @@
     return p0
 .end method
 
-.method public static final synthetic d(Lf/m/a/e;Lkotlin/jvm/u/l;)V
+.method public static final synthetic d(Lf/m/a/e;Lcotlin/jvm/u/l;)V
     .locals 0
 
     .line 1
-    sput-object p1, Lf/m/a/e;->d:Lkotlin/jvm/u/l;
+    sput-object p1, Lf/m/a/e;->d:Lcotlin/jvm/u/l;
 
     return-void
 .end method
@@ -256,7 +256,7 @@
 
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-boolean v0, Lf/m/a/e;->b:Z
@@ -286,29 +286,29 @@
     return v0
 .end method
 
-.method public final j(Lkotlin/jvm/u/l;)V
+.method public final j(Lcotlin/jvm/u/l;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "callback"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    sput-object p1, Lf/m/a/e;->d:Lkotlin/jvm/u/l;
+    sput-object p1, Lf/m/a/e;->d:Lcotlin/jvm/u/l;
 
     return-void
 .end method
@@ -326,7 +326,7 @@
 
     const-string p2, "activity"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -340,7 +340,7 @@
 
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -354,7 +354,7 @@
 
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -368,7 +368,7 @@
 
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -386,11 +386,11 @@
 
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "outState"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -404,7 +404,7 @@
 
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/lang/ref/WeakReference;
@@ -458,7 +458,7 @@
 
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget p1, Lf/m/a/e;->c:I

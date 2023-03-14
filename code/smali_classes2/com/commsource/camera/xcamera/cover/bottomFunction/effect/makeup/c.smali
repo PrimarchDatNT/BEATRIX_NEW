@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -62,7 +62,7 @@
 
     const/4 v2, 0x3
 
-    invoke-direct {p0, v0, v1, v2, v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/c;-><init>(Lcom/commsource/repository/child/makeup/h;ZILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, v0, v1, v2, v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/c;-><init>(Lcom/commsource/repository/child/makeup/h;ZILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -84,7 +84,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/commsource/repository/child/makeup/h;ZILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcom/commsource/repository/child/makeup/h;ZILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p4, p3, 0x1

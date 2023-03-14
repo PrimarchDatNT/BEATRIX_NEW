@@ -17,7 +17,7 @@
     value = "SMAP\nCommonVertexShader.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CommonVertexShader.kt\ncom/commsource/studio/shader/CommonVertexShader$ParamsCollection\n*L\n1#1,126:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -142,7 +142,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     array-length v1, v1
@@ -256,7 +256,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     array-length v1, v1

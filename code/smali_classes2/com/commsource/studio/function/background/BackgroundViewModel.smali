@@ -14,7 +14,7 @@
     value = "SMAP\nBackgroundViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BackgroundViewModel.kt\ncom/commsource/studio/function/background/BackgroundViewModel\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,494:1\n768#2,11:495\n1819#2,2:506\n768#2,11:508\n1819#2,2:519\n13506#3,2:521\n*E\n*S KotlinDebug\n*F\n+ 1 BackgroundViewModel.kt\ncom/commsource/studio/function/background/BackgroundViewModel\n*L\n292#1,11:495\n292#1,2:506\n292#1,11:508\n292#1,2:519\n369#1,2:521\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
         "Lcom/commsource/studio/f;",
         "Lcom/commsource/easyeditor/entity/CropEnum;",
         "cropEnum",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "B",
         "(Lcom/commsource/easyeditor/entity/CropEnum;)V",
         "",
@@ -69,7 +69,7 @@
         "Landroidx/lifecycle/MutableLiveData;",
         "",
         "M",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "Q",
         "()Landroidx/lifecycle/MutableLiveData;",
         "texturesDataEvent",
@@ -92,7 +92,7 @@
         "H",
         "cropListChangeEvent",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "Ljava/util/ArrayList;",
         "cropList",
         "P",
@@ -101,7 +101,7 @@
         "Ljava/util/HashMap;",
         "",
         "",
-        "Lkotlin/collections/HashMap;",
+        "Lcotlin/collections/HashMap;",
         "f",
         "Ljava/util/HashMap;",
         "()Ljava/util/HashMap;",
@@ -120,11 +120,11 @@
         "()Lcom/commsource/studio/function/background/BackgroundType;",
         "a0",
         "defaultBackgroundType",
-        "Lkotlin/Pair;",
-        "Lkotlin/Pair;",
-        "()Lkotlin/Pair;",
+        "Lcotlin/Pair;",
+        "Lcotlin/Pair;",
+        "()Lcotlin/Pair;",
         "b0",
-        "(Lkotlin/Pair;)V",
+        "(Lcotlin/Pair;)V",
         "spacePoint",
         "Landroid/app/Application;",
         "application",
@@ -160,42 +160,42 @@
 
 
 # instance fields
-.field private final J:Lkotlin/w;
+.field private final J:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final K:Lkotlin/w;
+.field private final K:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final L:Lkotlin/w;
+.field private final L:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final M:Lkotlin/w;
+.field private final M:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final N:Lkotlin/w;
+.field private final N:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final O:Lkotlin/w;
+.field private final O:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final P:Lkotlin/w;
+.field private final P:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final Q:Lkotlin/w;
+.field private final Q:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -229,10 +229,10 @@
     .end annotation
 .end field
 
-.field private U:Lkotlin/Pair;
+.field private U:Lcotlin/Pair;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Integer;",
             "Ljava/lang/Integer;",
             ">;"
@@ -243,7 +243,7 @@
     .end annotation
 .end field
 
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -262,12 +262,12 @@
     .end annotation
 .end field
 
-.field private final g:Lkotlin/w;
+.field private final g:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final p:Lkotlin/w;
+.field private final p:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -285,7 +285,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/function/background/BackgroundViewModel$b;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/function/background/BackgroundViewModel$b;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/function/background/BackgroundViewModel;->W:Lcom/commsource/studio/function/background/BackgroundViewModel$b;
 
@@ -421,7 +421,7 @@
     move-result-object v1
 
     .line 2
-    invoke-static {v1}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v1
 
@@ -441,7 +441,7 @@
 
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/f;-><init>(Landroid/app/Application;)V
@@ -451,11 +451,11 @@
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/function/background/BackgroundViewModel$studioViewModel$2;-><init>(Lcom/commsource/studio/function/background/BackgroundViewModel;)V
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->d:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->d:Lcotlin/w;
 
     .line 3
     new-instance p1, Ljava/util/HashMap;
@@ -467,92 +467,92 @@
     .line 4
     sget-object p1, Lcom/commsource/studio/function/background/BackgroundViewModel$applyBackgroundAspectRatioEvent$2;->INSTANCE:Lcom/commsource/studio/function/background/BackgroundViewModel$applyBackgroundAspectRatioEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->g:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->g:Lcotlin/w;
 
     .line 5
     sget-object p1, Lcom/commsource/studio/function/background/BackgroundViewModel$applyBackgroundTypeEvent$2;->INSTANCE:Lcom/commsource/studio/function/background/BackgroundViewModel$applyBackgroundTypeEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->p:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->p:Lcotlin/w;
 
     .line 6
     sget-object p1, Lcom/commsource/studio/function/background/BackgroundViewModel$applyBackgroundTextureEvent$2;->INSTANCE:Lcom/commsource/studio/function/background/BackgroundViewModel$applyBackgroundTextureEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->J:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->J:Lcotlin/w;
 
     .line 7
     sget-object p1, Lcom/commsource/studio/function/background/BackgroundViewModel$colorsDataEvent$2;->INSTANCE:Lcom/commsource/studio/function/background/BackgroundViewModel$colorsDataEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->K:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->K:Lcotlin/w;
 
     .line 8
     sget-object p1, Lcom/commsource/studio/function/background/BackgroundViewModel$gradientDataEvent$2;->INSTANCE:Lcom/commsource/studio/function/background/BackgroundViewModel$gradientDataEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->L:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->L:Lcotlin/w;
 
     .line 9
     sget-object p1, Lcom/commsource/studio/function/background/BackgroundViewModel$texturesDataEvent$2;->INSTANCE:Lcom/commsource/studio/function/background/BackgroundViewModel$texturesDataEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->M:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->M:Lcotlin/w;
 
     .line 10
     sget-object p1, Lcom/commsource/studio/function/background/BackgroundViewModel$pickColorChangeEvent$2;->INSTANCE:Lcom/commsource/studio/function/background/BackgroundViewModel$pickColorChangeEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->N:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->N:Lcotlin/w;
 
     .line 11
     sget-object p1, Lcom/commsource/studio/function/background/BackgroundViewModel$pickConfirmColorEvent$2;->INSTANCE:Lcom/commsource/studio/function/background/BackgroundViewModel$pickConfirmColorEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->O:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->O:Lcotlin/w;
 
     .line 12
     sget-object p1, Lcom/commsource/studio/function/background/BackgroundViewModel$defaultPickColorEvent$2;->INSTANCE:Lcom/commsource/studio/function/background/BackgroundViewModel$defaultPickColorEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->P:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->P:Lcotlin/w;
 
     .line 13
     sget-object p1, Lcom/commsource/studio/function/background/BackgroundViewModel$pickColorStateEvent$2;->INSTANCE:Lcom/commsource/studio/function/background/BackgroundViewModel$pickColorStateEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->Q:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->Q:Lcotlin/w;
 
     .line 14
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
@@ -578,7 +578,7 @@
     aput-object v0, p1, v1
 
     .line 17
-    invoke-static {p1}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {p1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object p1
 
@@ -594,11 +594,11 @@
     invoke-static {v0, p1}, Lcom/commsource/util/c2;->f(Ljava/lang/String;Ljava/lang/Runnable;)V
 
     .line 19
-    new-instance p1, Lkotlin/Pair;
+    new-instance p1, Lcotlin/Pair;
 
-    invoke-direct {p1, v2, v2}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p1, v2, v2}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->U:Lkotlin/Pair;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->U:Lcotlin/Pair;
 
     return-void
 .end method
@@ -685,7 +685,7 @@
     if-ne v4, v5, :cond_2
 
     .line 8
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Float;->floatValue()F
 
@@ -786,7 +786,7 @@
 
     const-string v4, "targetMatrix"
 
-    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v3, p1}, Lcom/commsource/studio/MatrixBox;-><init>(Landroid/graphics/Matrix;)V
 
@@ -885,7 +885,7 @@
 
     .line 29
     :cond_2
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Float;->floatValue()F
 
@@ -1045,7 +1045,7 @@
 
     const-string v3, "newCanvasInitMatrix"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p1, v2}, Lcom/commsource/studio/MatrixBox;-><init>(Landroid/graphics/Matrix;)V
 
@@ -1212,7 +1212,7 @@
     const/high16 v1, 0x3f800000    # 1.0f
 
     .line 6
-    invoke-static {p1, v1}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p1, v1}, Lcotlin/g2/o;->m(FF)F
 
     move-result v3
 
@@ -1328,22 +1328,22 @@
     aput-object v2, p1, v1
 
     .line 11
-    invoke-static {p1}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {p1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->T:Ljava/util/ArrayList;
 
     .line 12
-    new-instance p1, Lkotlin/Pair;
+    new-instance p1, Lcotlin/Pair;
 
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
 
-    invoke-direct {p1, v11, v1}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p1, v11, v1}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->U:Lkotlin/Pair;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->U:Lcotlin/Pair;
 
     goto :goto_0
 
@@ -1396,22 +1396,22 @@
     aput-object v2, p1, v1
 
     .line 22
-    invoke-static {p1}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {p1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->T:Ljava/util/ArrayList;
 
     .line 23
-    new-instance p1, Lkotlin/Pair;
+    new-instance p1, Lcotlin/Pair;
 
     invoke-static {v9}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
 
-    invoke-direct {p1, v11, v1}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p1, v11, v1}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->U:Lkotlin/Pair;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->U:Lcotlin/Pair;
 
     .line 24
     :goto_0
@@ -1477,9 +1477,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->g:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->g:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1508,9 +1508,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->J:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->J:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1539,9 +1539,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->p:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->p:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1571,9 +1571,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->K:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->K:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1646,9 +1646,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->P:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->P:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1678,9 +1678,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->L:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->L:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1709,9 +1709,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->N:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->N:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1740,9 +1740,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->Q:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->Q:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1771,9 +1771,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->O:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->O:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1784,12 +1784,12 @@
     return-object v1
 .end method
 
-.method public final O()Lkotlin/Pair;
+.method public final O()Lcotlin/Pair;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Integer;",
             "Ljava/lang/Integer;",
             ">;"
@@ -1804,7 +1804,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->U:Lkotlin/Pair;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->U:Lcotlin/Pair;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1820,9 +1820,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1852,9 +1852,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->M:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->M:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1905,7 +1905,7 @@
 
     const-string v1, "bitmap"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->S:Lcom/commsource/studio/function/background/BackgroundType;
@@ -2140,7 +2140,7 @@
 
     const-string v1, "aspectRatio"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundViewModel;->P()Lcom/commsource/studio/ImageStudioViewModel;
@@ -2228,7 +2228,7 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/background/BackgroundViewModel$onSelectAspectRatio$1;-><init>(Lcom/commsource/studio/function/background/BackgroundViewModel;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lcotlin/jvm/u/a;)V
 
     .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2249,7 +2249,7 @@
 
     const-string v1, "backgroundType"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundViewModel;->P()Lcom/commsource/studio/ImageStudioViewModel;
@@ -2278,7 +2278,7 @@
     move-object v1, v2
 
     :goto_0
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -2329,7 +2329,7 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/background/BackgroundViewModel$onSelectColor$1;-><init>(Lcom/commsource/studio/function/background/BackgroundViewModel;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lcotlin/jvm/u/a;)V
 
     goto :goto_1
 
@@ -2374,7 +2374,7 @@
 
     const/4 v8, 0x0
 
-    invoke-static/range {v3 .. v8}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v3 .. v8}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 9
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundViewModel;->P()Lcom/commsource/studio/ImageStudioViewModel;
@@ -2430,7 +2430,7 @@
     move-object v1, v2
 
     :goto_0
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -2481,7 +2481,7 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/background/BackgroundViewModel$onSelectTexture$1;-><init>(Lcom/commsource/studio/function/background/BackgroundViewModel;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lcotlin/jvm/u/a;)V
 
     goto :goto_1
 
@@ -2527,7 +2527,7 @@
 
     const/4 v8, 0x0
 
-    invoke-static/range {v3 .. v8}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v3 .. v8}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundViewModel;->P()Lcom/commsource/studio/ImageStudioViewModel;
@@ -2558,7 +2558,7 @@
 
     const-string v1, "bgLayerInfo"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/bean/BgLayerInfo;->getBackgroundType()Lcom/commsource/studio/function/background/BackgroundType;
@@ -2650,16 +2650,16 @@
     return-void
 .end method
 
-.method public final b0(Lkotlin/Pair;)V
+.method public final b0(Lcotlin/Pair;)V
     .locals 2
-    .param p1    # Lkotlin/Pair;
+    .param p1    # Lcotlin/Pair;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Integer;",
             "Ljava/lang/Integer;",
             ">;)V"
@@ -2672,10 +2672,10 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->U:Lkotlin/Pair;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->U:Lcotlin/Pair;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2704,7 +2704,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundViewModel;->f:Ljava/util/HashMap;
@@ -2771,11 +2771,11 @@
 
     const-string v1, "storeOwner"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "lifecycleOwner"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/f;->p(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V

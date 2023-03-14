@@ -1,14 +1,14 @@
-.class final Lkotlinx/coroutines/channels/ProduceKt$awaitClose$4$1;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlinx/coroutines/channels/ProduceKt$awaitClose$4$1;
+.super Lcotlin/jvm/internal/Lambda;
 .source "Produce.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/channels/ProduceKt;->a(Lkotlinx/coroutines/channels/w;Lkotlin/jvm/u/a;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/channels/ProduceKt;->a(Lcotlinx/coroutines/channels/w;Lcotlin/jvm/u/a;Lcotlin/coroutines/c;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,10 +18,10 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Ljava/lang/Throwable;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
@@ -30,7 +30,7 @@
     value = "SMAP\nProduce.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Produce.kt\nkotlinx/coroutines/channels/ProduceKt$awaitClose$4$1\n*L\n1#1,145:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -42,7 +42,7 @@
     d2 = {
         "",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(Ljava/lang/Throwable;)V",
         "<anonymous>"
@@ -57,18 +57,18 @@
 
 
 # instance fields
-.field final synthetic $cont:Lkotlinx/coroutines/m;
+.field final synthetic $cont:Lcotlinx/coroutines/m;
 
 
 # direct methods
-.method constructor <init>(Lkotlinx/coroutines/m;)V
+.method constructor <init>(Lcotlinx/coroutines/m;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/channels/ProduceKt$awaitClose$4$1;->$cont:Lkotlinx/coroutines/m;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/ProduceKt$awaitClose$4$1;->$cont:Lcotlinx/coroutines/m;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -80,9 +80,9 @@
 
     check-cast p1, Ljava/lang/Throwable;
 
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/channels/ProduceKt$awaitClose$4$1;->invoke(Ljava/lang/Throwable;)V
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/channels/ProduceKt$awaitClose$4$1;->invoke(Ljava/lang/Throwable;)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method
@@ -95,17 +95,17 @@
     .end param
 
     .line 1
-    iget-object p1, p0, Lkotlinx/coroutines/channels/ProduceKt$awaitClose$4$1;->$cont:Lkotlinx/coroutines/m;
+    iget-object p1, p0, Lcotlinx/coroutines/channels/ProduceKt$awaitClose$4$1;->$cont:Lcotlinx/coroutines/m;
 
-    sget-object v0, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
 
-    sget-object v1, Lkotlin/Result;->Companion:Lkotlin/Result$a;
+    sget-object v1, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
-    invoke-static {v0}, Lkotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    invoke-interface {p1, v0}, Lkotlin/coroutines/c;->resumeWith(Ljava/lang/Object;)V
+    invoke-interface {p1, v0}, Lcotlin/coroutines/c;->resumeWith(Ljava/lang/Object;)V
 
     return-void
 .end method

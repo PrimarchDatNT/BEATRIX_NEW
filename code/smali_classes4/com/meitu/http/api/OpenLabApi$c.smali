@@ -29,7 +29,7 @@
     value = "SMAP\nOpenLabApi.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OpenLabApi.kt\ncom/meitu/http/api/OpenLabApi$getBitmapFromCloud$2\n*L\n1#1,153:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -43,7 +43,7 @@
         "Lf/k/k/p;",
         "Lcom/meitu/http/api/OpenLabApi$LabResponse;",
         "t",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "(Lcom/meitu/http/api/OpenLabApi$LabResponse;)V",
         "",

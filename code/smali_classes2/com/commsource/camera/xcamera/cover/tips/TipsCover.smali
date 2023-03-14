@@ -16,7 +16,7 @@
     value = "SMAP\nTipsCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TipsCover.kt\ncom/commsource/camera/xcamera/cover/tips/TipsCover\n*L\n1#1,230:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Lcom/commsource/beautyplus/f0/u4;",
         "Landroid/graphics/Rect;",
         "cameraViewPort",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "H",
         "(Landroid/graphics/Rect;)V",
         "",
@@ -73,7 +73,7 @@
         "translationYValuer",
         "Lcom/commsource/camera/xcamera/cover/tips/a;",
         "d",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "J",
         "()Lcom/commsource/camera/xcamera/cover/tips/a;",
         "tipsViewModel",
@@ -95,9 +95,9 @@
 
 
 # instance fields
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
 
-.field private final f:Lkotlin/w;
+.field private final f:Lcotlin/w;
 
 .field private g:Lcom/commsource/camera/f1/n;
     .annotation build Ln/e/a/d;
@@ -117,22 +117,22 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/tips/TipsCover$tipsViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/tips/TipsCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover;->d:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover;->d:Lcotlin/w;
 
     .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover$cameraCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/tips/TipsCover$cameraCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/tips/TipsCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover;->f:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover;->f:Lcotlin/w;
 
     .line 4
     new-instance v0, Lcom/commsource/camera/f1/n;
@@ -272,9 +272,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover;->f:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover;->f:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -292,9 +292,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -333,14 +333,14 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     check-cast v1, Lcom/commsource/beautyplus/f0/u4;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u4;->a:Lcom/commsource/widget/round/RoundFrameLayout;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -354,14 +354,14 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     check-cast v1, Lcom/commsource/beautyplus/f0/u4;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u4;->a:Lcom/commsource/widget/round/RoundFrameLayout;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -372,14 +372,14 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     check-cast v1, Lcom/commsource/beautyplus/f0/u4;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u4;->a:Lcom/commsource/widget/round/RoundFrameLayout;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/widget/round/RoundFrameLayout;->getDelegate()Lcom/commsource/widget/round/a;
 
@@ -387,7 +387,7 @@
 
     const-string v2, "mViewBinding!!.flColor.delegate"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p4}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
@@ -403,7 +403,7 @@
 
     if-nez v1, :cond_4
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
     check-cast v1, Lcom/commsource/beautyplus/f0/u4;
@@ -435,7 +435,7 @@
 
     if-nez v1, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     check-cast v1, Lcom/commsource/beautyplus/f0/u4;
@@ -444,7 +444,7 @@
 
     const-string v4, "mViewBinding!!.rlFloating"
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -455,14 +455,14 @@
 
     if-nez v1, :cond_6
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     check-cast v1, Lcom/commsource/beautyplus/f0/u4;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u4;->b:Landroid/widget/RelativeLayout;
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v5, 0x0
 
@@ -475,7 +475,7 @@
 
     if-nez v1, :cond_7
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_7
     check-cast v1, Lcom/commsource/beautyplus/f0/u4;
@@ -484,7 +484,7 @@
 
     const-string v6, "mViewBinding!!.tvFloating"
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -495,7 +495,7 @@
 
     if-nez v1, :cond_8
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_8
     check-cast v1, Lcom/commsource/beautyplus/f0/u4;
@@ -545,14 +545,14 @@
 
     if-nez v1, :cond_c
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_c
     check-cast v1, Lcom/commsource/beautyplus/f0/u4;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u4;->b:Landroid/widget/RelativeLayout;
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/high16 v4, 0x41f00000    # 30.0f
 
@@ -576,7 +576,7 @@
 
     if-nez v1, :cond_e
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_e
     check-cast v1, Lcom/commsource/beautyplus/f0/u4;
@@ -697,7 +697,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     check-cast v1, Lcom/commsource/beautyplus/f0/u4;
@@ -729,7 +729,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     check-cast v1, Lcom/commsource/beautyplus/f0/u4;
@@ -738,7 +738,7 @@
 
     const-string v4, "mViewBinding!!.tvTips"
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -749,14 +749,14 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     check-cast v1, Lcom/commsource/beautyplus/f0/u4;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u4;->f:Lcom/commsource/comic/widget/StrokeTextView;
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -767,7 +767,7 @@
 
     if-nez p1, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     check-cast p1, Lcom/commsource/beautyplus/f0/u4;
@@ -847,7 +847,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover;->g:Lcom/commsource/camera/f1/n;
@@ -1033,11 +1033,11 @@
 
     const-string v1, "fullRect"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "cameraViewPort"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->t(Landroid/graphics/Rect;Landroid/graphics/Rect;)V
@@ -1064,7 +1064,7 @@
 
     const-string v1, "cameraViewPort"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->u(Landroid/graphics/Rect;F)V

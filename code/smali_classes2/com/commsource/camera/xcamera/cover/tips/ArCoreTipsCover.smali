@@ -16,7 +16,7 @@
     value = "SMAP\nArCoreTipsCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ArCoreTipsCover.kt\ncom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover\n*L\n1#1,90:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;",
         "Lcom/commsource/camera/xcamera/cover/AbsLazyCover;",
         "Lcom/commsource/beautyplus/f0/yk;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "o",
         "()V",
         "",
@@ -42,7 +42,7 @@
         "(I)V",
         "Lcom/commsource/camera/xcamera/cover/tips/a;",
         "d",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "F",
         "()Lcom/commsource/camera/xcamera/cover/tips/a;",
         "tipsViewModel",
@@ -64,9 +64,9 @@
 
 
 # instance fields
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
 
-.field private final f:Lkotlin/w;
+.field private final f:Lcotlin/w;
 
 
 # direct methods
@@ -81,22 +81,22 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover$tipsViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;->d:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;->d:Lcotlin/w;
 
     .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover$arViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover$arViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;->f:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;->f:Lcotlin/w;
 
     return-void
 .end method
@@ -108,9 +108,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;->f:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;->f:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -128,9 +128,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 

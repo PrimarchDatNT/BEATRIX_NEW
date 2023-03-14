@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "",
         "progress",
         "scrollX",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "b",
         "(II)V",
         "L;",
@@ -117,7 +117,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/kb;->f:Landroid/widget/TextView;
 
-    invoke-static {v1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -133,7 +133,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/kb;->f:Landroid/widget/TextView;
 
-    invoke-static {v1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -146,7 +146,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/kb;->f:Landroid/widget/TextView;
 
-    invoke-static {v1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Ljava/lang/StringBuilder;
 

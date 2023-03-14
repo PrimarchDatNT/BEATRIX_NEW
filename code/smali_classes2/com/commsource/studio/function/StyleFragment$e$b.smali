@@ -20,7 +20,7 @@
     value = "SMAP\nStyleFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StyleFragment.kt\ncom/commsource/studio/function/StyleFragment$initViewModel$1$1\n*L\n1#1,649:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "<anonymous>"
@@ -108,7 +108,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lkotlin/collections/s;->O2(Ljava/util/List;Ljava/lang/Object;)I
+    invoke-static {v1, v2}, Lcotlin/collections/s;->O2(Ljava/util/List;Ljava/lang/Object;)I
 
     move-result v1
 

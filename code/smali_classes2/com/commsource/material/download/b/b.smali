@@ -18,7 +18,7 @@
     value = "SMAP\nMaterialRequest.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MaterialRequest.kt\ncom/commsource/material/download/request/MaterialRequest\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,385:1\n1819#2,2:386\n1819#2,2:388\n*E\n*S KotlinDebug\n*F\n+ 1 MaterialRequest.kt\ncom/commsource/material/download/request/MaterialRequest\n*L\n377#1,2:386\n380#1,2:388\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,7 +35,7 @@
         "()F",
         "Lcom/commsource/material/download/b/c;",
         "onDownloadListener",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "h",
         "(Lcom/commsource/material/download/b/c;)V",
         "",
@@ -51,7 +51,7 @@
         "d",
         "(Lcom/commsource/material/DownloadTask;)V",
         "Ljava/lang/Exception;",
-        "Lkotlin/Exception;",
+        "Lcotlin/Exception;",
         "e",
         "a",
         "(Lcom/commsource/material/DownloadTask;Ljava/lang/Exception;)V",
@@ -134,7 +134,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/material/download/b/b$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/material/download/b/b$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/material/download/b/b;->e:Lcom/commsource/material/download/b/b$a;
 
@@ -152,7 +152,7 @@
 
     const-string v0, "executor"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -185,7 +185,7 @@
 
     const-string v2, "taskProgressMap.values"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z
@@ -272,11 +272,11 @@
 
     const-string v1, "task"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "e"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p1, p0, Lcom/commsource/material/download/b/b;->a:Lcom/commsource/material/download/b/c;
@@ -309,11 +309,11 @@
 
     const-string v1, "task"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "path"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p2, p0, Lcom/commsource/material/download/b/b;->b:Ljava/util/concurrent/ConcurrentHashMap;
@@ -353,7 +353,7 @@
     if-nez p1, :cond_0
 
     .line 4
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-interface {p1}, Lcom/commsource/material/download/b/c;->onSuccess()V
@@ -378,7 +378,7 @@
 
     const-string v1, "task"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/b;->b:Ljava/util/concurrent/ConcurrentHashMap;
@@ -414,7 +414,7 @@
 
     const-string v1, "task"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -435,7 +435,7 @@
 
     const-string v1, "task"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/b;->b:Ljava/util/concurrent/ConcurrentHashMap;
@@ -523,16 +523,16 @@
 
     move-result-object v2
 
-    check-cast v2, Lkotlin/Triple;
+    check-cast v2, Lcotlin/Triple;
 
     .line 3
-    invoke-virtual {v2}, Lkotlin/Triple;->getThird()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/commsource/material/d;
 
-    invoke-virtual {v2}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -572,10 +572,10 @@
 
     move-result-object v2
 
-    check-cast v2, Lkotlin/Triple;
+    check-cast v2, Lcotlin/Triple;
 
     .line 6
-    invoke-virtual {v2}, Lkotlin/Triple;->getThird()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -634,7 +634,7 @@
 
     const-string v1, "ActivityStackManager.getInstance()"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/k;->g()Landroid/app/Activity;
 
@@ -792,17 +792,17 @@
 
     move-result-object v2
 
-    check-cast v2, Lkotlin/Triple;
+    check-cast v2, Lcotlin/Triple;
 
     .line 2
-    invoke-virtual {v2}, Lkotlin/Triple;->getThird()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/commsource/material/d;
 
     .line 3
-    invoke-virtual {v2}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v4
 
@@ -823,7 +823,7 @@
     .line 4
     iget-object v3, p0, Lcom/commsource/material/download/b/b;->b:Ljava/util/concurrent/ConcurrentHashMap;
 
-    invoke-virtual {v2}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v5
 
@@ -840,7 +840,7 @@
     invoke-virtual {v3, v5, v4}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
-    invoke-virtual {v2}, Lkotlin/Triple;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Triple;->getSecond()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -849,7 +849,7 @@
     if-eqz v3, :cond_1
 
     .line 6
-    invoke-virtual {v2}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v4
 
@@ -859,7 +859,7 @@
 
     .line 7
     :cond_1
-    invoke-virtual {v2}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -877,13 +877,13 @@
     if-eqz v3, :cond_2
 
     .line 9
-    invoke-virtual {v2}, Lkotlin/Triple;->getThird()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/commsource/material/d;
 
-    invoke-virtual {v2}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -895,13 +895,13 @@
 
     .line 10
     :cond_2
-    invoke-virtual {v2}, Lkotlin/Triple;->getThird()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/commsource/material/d;
 
-    invoke-virtual {v2}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -935,7 +935,7 @@
 
     if-eqz v5, :cond_6
 
-    invoke-virtual {v2}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v5
 
@@ -952,7 +952,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v2}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v6
 
@@ -965,11 +965,11 @@
     goto :goto_2
 
     :cond_5
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type com.commsource.material.download.task.CommonDownloadTask"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -980,7 +980,7 @@
     :goto_2
     iget-object v5, p0, Lcom/commsource/material/download/b/b;->b:Ljava/util/concurrent/ConcurrentHashMap;
 
-    invoke-virtual {v2}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v6
 
@@ -997,7 +997,7 @@
     invoke-interface {v5, v6, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 16
-    invoke-virtual {v2}, Lkotlin/Triple;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Triple;->getSecond()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -1016,11 +1016,11 @@
 
     .line 19
     :cond_8
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type com.commsource.material.download.task.BaseDownloadTask"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

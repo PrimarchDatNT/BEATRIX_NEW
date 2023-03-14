@@ -1,14 +1,14 @@
-.class public final Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;
-.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.class public final Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;
+.super Lcotlin/coroutines/jvm/internal/SuspendLambda;
 .source "Zip.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/q;
+.implements Lcotlin/jvm/u/q;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;->a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,14 +18,14 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Lkotlin/jvm/u/q<",
-        "Lkotlinx/coroutines/flow/e<",
+        "Lcotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lcotlin/jvm/u/q<",
+        "Lcotlinx/coroutines/flow/e<",
         "-TR;>;[",
         "Ljava/lang/Object;",
-        "Lkotlin/coroutines/c<",
+        "Lcotlin/coroutines/c<",
         "-",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;",
         "Ljava/lang/Object;",
         ">;"
@@ -36,7 +36,7 @@
     value = "SMAP\nZip.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Zip.kt\nkotlinx/coroutines/flow/FlowKt__ZipKt$combine$5$2\n+ 2 Zip.kt\nkotlinx/coroutines/flow/FlowKt__ZipKt\n*L\n1#1,318:1\n166#2,6:319\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -48,10 +48,10 @@
     d2 = {
         "T",
         "R",
-        "LLkotlinx/coroutines/flow/FlowCollector;;",
+        "LLcotlinx/coroutines/flow/FlowCollector;;",
         "L;",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
         "otlinx/coroutines/flow/FlowKt__MigrationKt.combine..inlined.unsafeFlow.2.lambda.",
@@ -65,7 +65,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.flow.FlowKt__MigrationKt$combine$$inlined$combine$2$3"
     f = "Zip.kt"
     i = {
@@ -96,31 +96,31 @@
 
 .field label:I
 
-.field private p$:Lkotlinx/coroutines/flow/e;
+.field private p$:Lcotlinx/coroutines/flow/e;
 
 .field private p$0:[Ljava/lang/Object;
 
-.field final synthetic this$0:Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;
+.field final synthetic this$0:Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/coroutines/c;Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;)V
+.method public constructor <init>(Lcotlin/coroutines/c;Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;)V
     .locals 0
 
-    iput-object p2, p0, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->this$0:Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;
+    iput-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->this$0:Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;
 
     const/4 p2, 0x3
 
-    invoke-direct {p0, p2, p1}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/c;)V
+    invoke-direct {p0, p2, p1}, Lcotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILcotlin/coroutines/c;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final create(Lkotlinx/coroutines/flow/e;[Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+.method public final create(Lcotlinx/coroutines/flow/e;[Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 2
-    .param p1    # Lkotlinx/coroutines/flow/e;
+    .param p1    # Lcotlinx/coroutines/flow/e;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -128,22 +128,22 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/flow/e<",
+            "Lcotlinx/coroutines/flow/e<",
             "-TR;>;[",
             "Ljava/lang/Object;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
-            "Lkotlin/coroutines/c<",
-            "Lkotlin/t1;",
+            "Lcotlin/coroutines/c<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -151,15 +151,15 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    new-instance v0, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;
+    new-instance v0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;
 
-    iget-object v1, p0, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->this$0:Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;
+    iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->this$0:Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;
 
-    invoke-direct {v0, p3, v1}, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;-><init>(Lkotlin/coroutines/c;Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;)V
+    invoke-direct {v0, p3, v1}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;-><init>(Lcotlin/coroutines/c;Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;)V
 
-    iput-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->p$:Lkotlinx/coroutines/flow/e;
+    iput-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->p$:Lcotlinx/coroutines/flow/e;
 
-    iput-object p2, v0, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->p$0:[Ljava/lang/Object;
+    iput-object p2, v0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->p$0:[Ljava/lang/Object;
 
     return-object v0
 .end method
@@ -167,21 +167,21 @@
 .method public final invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    check-cast p1, Lkotlinx/coroutines/flow/e;
+    check-cast p1, Lcotlinx/coroutines/flow/e;
 
     check-cast p2, [Ljava/lang/Object;
 
-    check-cast p3, Lkotlin/coroutines/c;
+    check-cast p3, Lcotlin/coroutines/c;
 
-    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->create(Lkotlinx/coroutines/flow/e;[Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-virtual {p0, p1, p2, p3}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->create(Lcotlinx/coroutines/flow/e;[Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p1
 
-    check-cast p1, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;
+    check-cast p1, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;
 
-    sget-object p2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-virtual {p1, p2}, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -197,12 +197,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 1
-    iget v1, p0, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->label:I
+    iget v1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->label:I
 
     const/4 v2, 0x1
 
@@ -210,15 +210,15 @@
 
     if-ne v1, v2, :cond_0
 
-    iget-object v0, p0, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->L$1:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->L$1:Ljava/lang/Object;
 
     check-cast v0, [Ljava/lang/Object;
 
-    iget-object v0, p0, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->L$0:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->L$0:Ljava/lang/Object;
 
-    check-cast v0, Lkotlinx/coroutines/flow/e;
+    check-cast v0, Lcotlinx/coroutines/flow/e;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -234,16 +234,16 @@
 
     .line 3
     :cond_1
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    iget-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->p$:Lkotlinx/coroutines/flow/e;
+    iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->p$:Lcotlinx/coroutines/flow/e;
 
-    iget-object v1, p0, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->p$0:[Ljava/lang/Object;
+    iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->p$0:[Ljava/lang/Object;
 
     .line 4
-    iget-object v3, p0, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->this$0:Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;
+    iget-object v3, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->this$0:Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;
 
-    iget-object v4, v3, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;->b:Lkotlin/jvm/u/s;
+    iget-object v4, v3, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;->b:Lcotlin/jvm/u/s;
 
     const/4 v3, 0x0
 
@@ -265,18 +265,18 @@
 
     move-object v9, p0
 
-    invoke-interface/range {v4 .. v9}, Lkotlin/jvm/u/s;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface/range {v4 .. v9}, Lcotlin/jvm/u/s;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     .line 9
-    iput-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->L$0:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->L$0:Ljava/lang/Object;
 
-    iput-object v1, p0, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->L$1:Ljava/lang/Object;
+    iput-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->L$1:Ljava/lang/Object;
 
-    iput v2, p0, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->label:I
+    iput v2, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->label:I
 
-    invoke-interface {p1, v3, p0}, Lkotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p1, v3, p0}, Lcotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -286,7 +286,7 @@
 
     :cond_2
     :goto_0
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method
@@ -300,14 +300,14 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    iget-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->p$:Lkotlinx/coroutines/flow/e;
+    iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->p$:Lcotlinx/coroutines/flow/e;
 
-    iget-object v0, p0, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->p$0:[Ljava/lang/Object;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->p$0:[Ljava/lang/Object;
 
     .line 1
-    iget-object v1, p0, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->this$0:Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;
+    iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2$3;->this$0:Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;
 
-    iget-object v2, v1, Lkotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;->b:Lkotlin/jvm/u/s;
+    iget-object v2, v1, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$combine$2;->b:Lcotlin/jvm/u/s;
 
     const/4 v1, 0x0
 
@@ -331,20 +331,20 @@
 
     move-object v7, p0
 
-    invoke-interface/range {v2 .. v7}, Lkotlin/jvm/u/s;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface/range {v2 .. v7}, Lcotlin/jvm/u/s;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     .line 6
-    invoke-static {v1}, Lkotlin/jvm/internal/c0;->e(I)V
+    invoke-static {v1}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    invoke-interface {p1, v0, p0}, Lkotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p1, v0, p0}, Lcotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
-    invoke-static {v9}, Lkotlin/jvm/internal/c0;->e(I)V
+    invoke-static {v9}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    invoke-static {v8}, Lkotlin/jvm/internal/c0;->e(I)V
+    invoke-static {v8}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method

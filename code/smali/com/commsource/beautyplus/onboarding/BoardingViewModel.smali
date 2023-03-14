@@ -14,7 +14,7 @@
     value = "SMAP\nBoardingViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BoardingViewModel.kt\ncom/commsource/beautyplus/onboarding/BoardingViewModel\n*L\n1#1,205:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
         "Landroidx/lifecycle/AndroidViewModel;",
         "",
         "isAsiaCountry",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "F",
         "(Z)V",
         "E",
@@ -43,7 +43,7 @@
         "()Ljava/util/List;",
         "Landroidx/lifecycle/MutableLiveData;",
         "a",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "z",
         "()Landroidx/lifecycle/MutableLiveData;",
         "asiaCountry",
@@ -54,7 +54,7 @@
         "(Lcom/commsource/beautyplus/onboarding/b/a;)V",
         "selectGallery",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "b",
         "Ljava/util/ArrayList;",
         "galleryList",
@@ -83,7 +83,7 @@
 
 
 # instance fields
-.field private final a:Lkotlin/w;
+.field private final a:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -116,7 +116,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/beautyplus/onboarding/BoardingViewModel$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/beautyplus/onboarding/BoardingViewModel$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/beautyplus/onboarding/BoardingViewModel;->f:Lcom/commsource/beautyplus/onboarding/BoardingViewModel$a;
 
@@ -134,7 +134,7 @@
 
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
@@ -142,11 +142,11 @@
     .line 2
     sget-object p1, Lcom/commsource/beautyplus/onboarding/BoardingViewModel$asiaCountry$2;->INSTANCE:Lcom/commsource/beautyplus/onboarding/BoardingViewModel$asiaCountry$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/BoardingViewModel;->a:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/BoardingViewModel;->a:Lcotlin/w;
 
     .line 3
     new-instance p1, Ljava/util/ArrayList;
@@ -448,14 +448,14 @@
 
     move-result-object v14
 
-    invoke-static {v14, v10}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v14, v10}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 7
     invoke-static/range {v16 .. v16}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v10
 
-    invoke-static {v10, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v10, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     invoke-direct {v12, v13, v4, v14, v10}, Lcom/commsource/beautyplus/onboarding/b/a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -561,14 +561,14 @@
 
     move-result-object v14
 
-    invoke-static {v14, v10}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v14, v10}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     invoke-static/range {v16 .. v16}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v10
 
-    invoke-static {v10, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v10, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 20
     invoke-direct {v11, v12, v13, v14, v10}, Lcom/commsource/beautyplus/onboarding/b/a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -674,7 +674,7 @@
 
     move-result-object v11
 
-    invoke-static {v11, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v11, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v8, Lcom/res/provider/ResSTRING;->t_welcome_way_you_like:I
 
@@ -683,7 +683,7 @@
 
     move-result-object v8
 
-    invoke-static {v8, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 32
     invoke-direct {v3, v4, v10, v11, v8}, Lcom/commsource/beautyplus/onboarding/b/a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -777,7 +777,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v2, Lcom/res/provider/ResSTRING;->t_welcome_have_fun:I
 
@@ -788,7 +788,7 @@
 
     const-string v8, "ResourcesUtils.getString\u2026tring.t_welcome_have_fun)"
 
-    invoke-static {v2, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 43
     invoke-direct {v3, v4, v6, v7, v2}, Lcom/commsource/beautyplus/onboarding/b/a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -868,14 +868,14 @@
 
     move-result-object v14
 
-    invoke-static {v14, v10}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v14, v10}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 52
     invoke-static/range {v16 .. v16}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v10
 
-    invoke-static {v10, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v10, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 53
     invoke-direct {v11, v12, v13, v14, v10}, Lcom/commsource/beautyplus/onboarding/b/a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -980,7 +980,7 @@
 
     move-result-object v11
 
-    invoke-static {v11, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v11, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v8, Lcom/res/provider/ResSTRING;->t_welcome_way_you_like:I
 
@@ -989,7 +989,7 @@
 
     move-result-object v8
 
-    invoke-static {v8, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 65
     invoke-direct {v3, v4, v10, v11, v8}, Lcom/commsource/beautyplus/onboarding/b/a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -1083,7 +1083,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v2, Lcom/res/provider/ResSTRING;->t_welcome_have_fun:I
 
@@ -1094,7 +1094,7 @@
 
     const-string v8, "ResourcesUtils.getString\u2026tring.t_welcome_have_fun)"
 
-    invoke-static {v2, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 76
     invoke-direct {v3, v4, v6, v7, v2}, Lcom/commsource/beautyplus/onboarding/b/a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -1263,9 +1263,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/BoardingViewModel;->a:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/BoardingViewModel;->a:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 

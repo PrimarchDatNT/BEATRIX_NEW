@@ -21,7 +21,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,7 +35,7 @@
         "Lcom/commsource/beautyfilter/NoStickLiveData$a;",
         "Lcom/commsource/beautymain/utils/RelightModelHelper$a;",
         "o",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(Lcom/commsource/beautymain/utils/RelightModelHelper$a;)V",
         "app_googleplayRelease"
@@ -144,7 +144,7 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/RelightFragment$onViewCreated$3$onAccept$1;-><init>(Lcom/commsource/studio/function/RelightFragment$onViewCreated$3;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/studio/function/BaseSubFragment;->Y0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/studio/function/BaseSubFragment;->Y0(Lcotlin/jvm/u/a;)V
 
     .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

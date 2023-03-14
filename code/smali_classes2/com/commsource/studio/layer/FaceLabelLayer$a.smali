@@ -17,7 +17,7 @@
     value = "SMAP\nFaceLabelLayer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FaceLabelLayer.kt\ncom/commsource/studio/layer/FaceLabelLayer$FaceLabelStack\n*L\n1#1,205:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "",
         "Lcom/commsource/studio/layer/FaceOval$b;",
         "data",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
         "(Ljava/util/List;)V",
         "e",

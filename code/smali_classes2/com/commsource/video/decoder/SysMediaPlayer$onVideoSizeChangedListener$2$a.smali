@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "",
         "width",
         "height",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onVideoSizeChanged",
         "(Landroid/media/MediaPlayer;II)V",
         "<anonymous>"
@@ -75,7 +75,7 @@
 
     iget-object v0, v0, Lcom/commsource/video/decoder/SysMediaPlayer$onVideoSizeChangedListener$2;->this$0:Lcom/commsource/video/decoder/SysMediaPlayer;
 
-    invoke-virtual {v0}, Lcom/commsource/video/decoder/a;->z()Lkotlin/jvm/u/p;
+    invoke-virtual {v0}, Lcom/commsource/video/decoder/a;->z()Lcotlin/jvm/u/p;
 
     move-result-object v0
 
@@ -89,11 +89,11 @@
 
     move-result-object p3
 
-    invoke-interface {v0, p2, p3}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p2, p3}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
-    check-cast p2, Lkotlin/t1;
+    check-cast p2, Lcotlin/t1;
 
     .line 2
     :cond_0

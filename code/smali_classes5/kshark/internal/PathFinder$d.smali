@@ -31,7 +31,7 @@
     value = "SMAP\nComparisons.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Comparisons.kt\nkotlin/comparisons/ComparisonsKt__ComparisonsKt$compareBy$2\n+ 2 PathFinder.kt\nkshark/internal/PathFinder\n*L\n1#1,319:1\n487#2:320\n487#2:321\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -94,7 +94,7 @@
 
     move-result-object p2
 
-    invoke-static {p1, p2}, Lkotlin/z1/a;->g(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
+    invoke-static {p1, p2}, Lcotlin/z1/a;->g(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
 
     move-result p1
 

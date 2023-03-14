@@ -15,7 +15,7 @@
     value = "SMAP\nGestureLayer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GestureLayer.kt\ncom/commsource/studio/gesture/GestureLayer\n+ 2 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 4 ExtensionUtils.kt\ncom/commsource/util/ExtensionUtilsKt\n*L\n1#1,745:1\n37#2,2:746\n768#3,11:748\n768#3,11:768\n541#4,3:759\n541#4,5:762\n545#4:767\n541#4,5:779\n*E\n*S KotlinDebug\n*F\n+ 1 GestureLayer.kt\ncom/commsource/studio/gesture/GestureLayer\n*L\n560#1,2:746\n638#1,11:748\n668#1,11:768\n639#1,3:759\n639#1,5:762\n639#1:767\n669#1,5:779\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "",
         "distanceX",
         "distanceY",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "D0",
         "(FF)V",
         "Lcom/commsource/studio/bean/FocusLayerInfo;",
@@ -59,21 +59,21 @@
         "y0",
         "(Lcom/commsource/studio/bean/ImageLayerInfo;)V",
         "Lcom/commsource/studio/bean/TextLayerInfo;",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "afterCallBack",
         "z0",
-        "(Lcom/commsource/studio/bean/TextLayerInfo;Lkotlin/jvm/u/a;)V",
+        "(Lcom/commsource/studio/bean/TextLayerInfo;Lcotlin/jvm/u/a;)V",
         "Landroid/view/MotionEvent;",
         "downEvent",
         "Q0",
         "(Landroid/view/MotionEvent;)V",
         "P0",
-        "Lkotlin/Function1;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function1;",
+        "Lcotlin/k0;",
         "name",
         "hitTask",
         "O0",
-        "([FLkotlin/jvm/u/l;)V",
+        "([FLcotlin/jvm/u/l;)V",
         "Lcom/commsource/studio/MatrixBox;",
         "matrixBox",
         "Z",
@@ -219,7 +219,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;-><init>(Landroid/content/Context;)V
@@ -263,7 +263,7 @@
 
     move-object v1, p1
 
-    invoke-direct/range {v1 .. v8}, Lcom/commsource/studio/u;-><init>(FFFFLcom/commsource/studio/MatrixBox;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v1 .. v8}, Lcom/commsource/studio/u;-><init>(FFFFLcom/commsource/studio/MatrixBox;ILcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer;->N:Lcom/commsource/studio/u;
 
@@ -291,7 +291,7 @@
     return-void
 .end method
 
-.method public static synthetic A0(Lcom/commsource/studio/gesture/GestureLayer;Lcom/commsource/studio/bean/TextLayerInfo;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+.method public static synthetic A0(Lcom/commsource/studio/gesture/GestureLayer;Lcom/commsource/studio/bean/TextLayerInfo;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
     .locals 0
 
     const p4, 0x995e
@@ -306,7 +306,7 @@
 
     .line 1
     :cond_0
-    invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/gesture/GestureLayer;->z0(Lcom/commsource/studio/bean/TextLayerInfo;Lkotlin/jvm/u/a;)V
+    invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/gesture/GestureLayer;->z0(Lcom/commsource/studio/bean/TextLayerInfo;Lcotlin/jvm/u/a;)V
 
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -341,7 +341,7 @@
 
     const/4 v7, 0x0
 
-    invoke-virtual {v0, v7, v1}, Lcom/commsource/studio/text/b;->m(ILkotlin/jvm/u/a;)V
+    invoke-virtual {v0, v7, v1}, Lcom/commsource/studio/text/b;->m(ILcotlin/jvm/u/a;)V
 
     .line 4
     iget-object v0, p0, Lcom/commsource/studio/gesture/GestureLayer;->L:Lcom/commsource/studio/text/b;
@@ -354,7 +354,7 @@
 
     const/4 v8, 0x2
 
-    invoke-static {v0, v1, v2, v8, v2}, Lcom/commsource/studio/text/b;->x(Lcom/commsource/studio/text/b;Lkotlin/jvm/u/q;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {v0, v1, v2, v8, v2}, Lcom/commsource/studio/text/b;->x(Lcom/commsource/studio/text/b;Lcotlin/jvm/u/q;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -369,7 +369,7 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -510,7 +510,7 @@
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/studio/gesture/GestureLayer$attachToDecorateFrame$$inlined$let$lambda$5;-><init>(Lcom/commsource/studio/gesture/GestureLayer;Lcom/commsource/studio/bean/FocusLayerInfo;)V
 
-    invoke-virtual {v0, v8, v1}, Lcom/commsource/studio/text/b;->o(ILkotlin/jvm/u/r;)V
+    invoke-virtual {v0, v8, v1}, Lcom/commsource/studio/text/b;->o(ILcotlin/jvm/u/r;)V
 
     goto :goto_0
 
@@ -573,7 +573,7 @@
 
     check-cast v1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -687,30 +687,30 @@
 
     .line 5
     :cond_1
-    invoke-static {v3}, Lkotlin/collections/s;->K1(Ljava/lang/Iterable;)I
+    invoke-static {v3}, Lcotlin/collections/s;->K1(Ljava/lang/Iterable;)I
 
     move-result v2
 
     const/4 v4, 0x0
 
-    invoke-static {v4, v2}, Lkotlin/g2/o;->n1(II)Lkotlin/g2/k;
+    invoke-static {v4, v2}, Lcotlin/g2/o;->n1(II)Lcotlin/g2/k;
 
     move-result-object v2
 
-    invoke-static {v2}, Lkotlin/g2/o;->K0(Lkotlin/g2/i;)Lkotlin/g2/i;
+    invoke-static {v2}, Lcotlin/g2/o;->K0(Lcotlin/g2/i;)Lcotlin/g2/i;
 
     move-result-object v2
 
     .line 6
-    invoke-virtual {v2}, Lkotlin/g2/i;->c()I
+    invoke-virtual {v2}, Lcotlin/g2/i;->c()I
 
     move-result v5
 
-    invoke-virtual {v2}, Lkotlin/g2/i;->e()I
+    invoke-virtual {v2}, Lcotlin/g2/i;->e()I
 
     move-result v6
 
-    invoke-virtual {v2}, Lkotlin/g2/i;->h()I
+    invoke-virtual {v2}, Lcotlin/g2/i;->h()I
 
     move-result v2
 
@@ -725,7 +725,7 @@
 
     .line 7
     :goto_1
-    invoke-static {v3, v5}, Lkotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
+    invoke-static {v3, v5}, Lcotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
 
     move-result-object v7
 
@@ -779,28 +779,28 @@
     invoke-direct {v8, v9}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
     .line 12
-    invoke-static {v8}, Lkotlin/collections/s;->K1(Ljava/lang/Iterable;)I
+    invoke-static {v8}, Lcotlin/collections/s;->K1(Ljava/lang/Iterable;)I
 
     move-result v9
 
-    invoke-static {v4, v9}, Lkotlin/g2/o;->n1(II)Lkotlin/g2/k;
+    invoke-static {v4, v9}, Lcotlin/g2/o;->n1(II)Lcotlin/g2/k;
 
     move-result-object v9
 
-    invoke-static {v9}, Lkotlin/g2/o;->K0(Lkotlin/g2/i;)Lkotlin/g2/i;
+    invoke-static {v9}, Lcotlin/g2/o;->K0(Lcotlin/g2/i;)Lcotlin/g2/i;
 
     move-result-object v9
 
     .line 13
-    invoke-virtual {v9}, Lkotlin/g2/i;->c()I
+    invoke-virtual {v9}, Lcotlin/g2/i;->c()I
 
     move-result v10
 
-    invoke-virtual {v9}, Lkotlin/g2/i;->e()I
+    invoke-virtual {v9}, Lcotlin/g2/i;->e()I
 
     move-result v11
 
-    invoke-virtual {v9}, Lkotlin/g2/i;->h()I
+    invoke-virtual {v9}, Lcotlin/g2/i;->h()I
 
     move-result v9
 
@@ -815,14 +815,14 @@
 
     .line 14
     :goto_2
-    invoke-static {v8, v10}, Lkotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
+    invoke-static {v8, v10}, Lcotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
 
     move-result-object v12
 
-    check-cast v12, Lkotlin/Pair;
+    check-cast v12, Lcotlin/Pair;
 
     .line 15
-    invoke-virtual {v12}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v12}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v13
 
@@ -835,7 +835,7 @@
     if-eqz v13, :cond_5
 
     .line 16
-    invoke-virtual {v12}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v12}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v12
 
@@ -864,7 +864,7 @@
     const/4 v8, 0x0
 
     :goto_3
-    invoke-static {v7, v8}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v7, v8}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v8
 
@@ -872,7 +872,7 @@
 
     iget-object v8, p0, Lcom/commsource/studio/gesture/GestureLayer;->P:Lcom/commsource/studio/bean/FocusLayerInfo;
 
-    invoke-static {v8, v7}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v8, v7}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v8
 
@@ -957,28 +957,28 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-static {v2}, Lkotlin/collections/s;->K1(Ljava/lang/Iterable;)I
+    invoke-static {v2}, Lcotlin/collections/s;->K1(Ljava/lang/Iterable;)I
 
     move-result v3
 
-    invoke-static {v1, v3}, Lkotlin/g2/o;->n1(II)Lkotlin/g2/k;
+    invoke-static {v1, v3}, Lcotlin/g2/o;->n1(II)Lcotlin/g2/k;
 
     move-result-object v1
 
-    invoke-static {v1}, Lkotlin/g2/o;->K0(Lkotlin/g2/i;)Lkotlin/g2/i;
+    invoke-static {v1}, Lcotlin/g2/o;->K0(Lcotlin/g2/i;)Lcotlin/g2/i;
 
     move-result-object v1
 
     .line 5
-    invoke-virtual {v1}, Lkotlin/g2/i;->c()I
+    invoke-virtual {v1}, Lcotlin/g2/i;->c()I
 
     move-result v3
 
-    invoke-virtual {v1}, Lkotlin/g2/i;->e()I
+    invoke-virtual {v1}, Lcotlin/g2/i;->e()I
 
     move-result v4
 
-    invoke-virtual {v1}, Lkotlin/g2/i;->h()I
+    invoke-virtual {v1}, Lcotlin/g2/i;->h()I
 
     move-result v1
 
@@ -993,7 +993,7 @@
 
     .line 6
     :goto_1
-    invoke-static {v2, v3}, Lkotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
+    invoke-static {v2, v3}, Lcotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
 
     move-result-object v5
 
@@ -1354,23 +1354,23 @@
     return-object v1
 .end method
 
-.method public final O0([FLkotlin/jvm/u/l;)V
+.method public final O0([FLcotlin/jvm/u/l;)V
     .locals 3
     .param p1    # [F
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "([F",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/studio/bean/FocusLayerInfo;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1381,11 +1381,11 @@
 
     const-string v1, "hitPosition"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "hitTask"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/gesture/GestureLayer;->E0([F)Ljava/util/List;
@@ -1395,9 +1395,9 @@
     .line 2
     new-instance v2, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1;
 
-    invoke-direct {v2, p0, v1, p2, p1}, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1;-><init>(Lcom/commsource/studio/gesture/GestureLayer;Ljava/util/List;Lkotlin/jvm/u/l;[F)V
+    invoke-direct {v2, p0, v1, p2, p1}, Lcom/commsource/studio/gesture/GestureLayer$hitAlphaSelectLayerInfo$1;-><init>(Lcom/commsource/studio/gesture/GestureLayer;Ljava/util/List;Lcotlin/jvm/u/l;[F)V
 
-    invoke-virtual {p0, v2}, Lcom/commsource/studio/layer/BaseLayer;->f0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p0, v2}, Lcom/commsource/studio/layer/BaseLayer;->f0(Lcotlin/jvm/u/a;)V
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1418,7 +1418,7 @@
 
     const-string v1, "downEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x2
 
@@ -1479,7 +1479,7 @@
 
     invoke-direct {v2, p1, p0, v1}, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnMultiSelectMode$$inlined$let$lambda$1;-><init>(Lcom/commsource/studio/bean/GroupLayerInfo;Lcom/commsource/studio/gesture/GestureLayer;[F)V
 
-    invoke-virtual {p0, v1, v2}, Lcom/commsource/studio/gesture/GestureLayer;->O0([FLkotlin/jvm/u/l;)V
+    invoke-virtual {p0, v1, v2}, Lcom/commsource/studio/gesture/GestureLayer;->O0([FLcotlin/jvm/u/l;)V
 
     .line 7
     :cond_1
@@ -1501,7 +1501,7 @@
 
     const-string v1, "downEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x2
 
@@ -1551,7 +1551,7 @@
 
     invoke-direct {v2, p0, p1}, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnNormalMode$1;-><init>(Lcom/commsource/studio/gesture/GestureLayer;Landroid/view/MotionEvent;)V
 
-    invoke-virtual {p0, v1, v2}, Lcom/commsource/studio/gesture/GestureLayer;->O0([FLkotlin/jvm/u/l;)V
+    invoke-virtual {p0, v1, v2}, Lcom/commsource/studio/gesture/GestureLayer;->O0([FLcotlin/jvm/u/l;)V
 
     .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1608,11 +1608,11 @@
 
     .line 5
     :cond_1
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type com.commsource.studio.bean.FocusLayerInfo"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1644,7 +1644,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1701,7 +1701,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer;->M:Lcom/commsource/studio/text/b;
@@ -1724,7 +1724,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer;->O:Lcom/commsource/studio/b;
@@ -1766,7 +1766,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer;->L:Lcom/commsource/studio/text/b;
@@ -1854,7 +1854,7 @@
 
     const-string v1, "matrixBox"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;->Z(Lcom/commsource/studio/MatrixBox;)V
@@ -1933,7 +1933,7 @@
 
     const-string v1, "layerInfo"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -1971,7 +1971,7 @@
 
     const/4 v13, 0x0
 
-    invoke-static/range {v8 .. v13}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v8 .. v13}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -2001,13 +2001,13 @@
     return-void
 .end method
 
-.method public final z0(Lcom/commsource/studio/bean/TextLayerInfo;Lkotlin/jvm/u/a;)V
+.method public final z0(Lcom/commsource/studio/bean/TextLayerInfo;Lcotlin/jvm/u/a;)V
     .locals 14
     .param p1    # Lcom/commsource/studio/bean/TextLayerInfo;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/a;
+    .param p2    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
@@ -2015,8 +2015,8 @@
         value = {
             "(",
             "Lcom/commsource/studio/bean/TextLayerInfo;",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -2029,7 +2029,7 @@
 
     const-string v0, "layerInfo"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -2063,7 +2063,7 @@
 
     move-object/from16 v1, p2
 
-    invoke-direct {v11, p0, p1, v1}, Lcom/commsource/studio/gesture/GestureLayer$addTextInfoAndRequestFocus$1;-><init>(Lcom/commsource/studio/gesture/GestureLayer;Lcom/commsource/studio/bean/TextLayerInfo;Lkotlin/jvm/u/a;)V
+    invoke-direct {v11, p0, p1, v1}, Lcom/commsource/studio/gesture/GestureLayer$addTextInfoAndRequestFocus$1;-><init>(Lcom/commsource/studio/gesture/GestureLayer;Lcom/commsource/studio/bean/TextLayerInfo;Lcotlin/jvm/u/a;)V
 
     const/4 v9, 0x0
 
@@ -2073,7 +2073,7 @@
 
     const/4 v13, 0x0
 
-    invoke-static/range {v8 .. v13}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v8 .. v13}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 3
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->a(I)V

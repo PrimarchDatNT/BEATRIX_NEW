@@ -16,7 +16,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "Lcom/commsource/beautyplus/j0/a;",
         "",
         "source",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "(Ljava/lang/String;)V",
         "a",

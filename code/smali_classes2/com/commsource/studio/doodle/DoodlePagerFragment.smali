@@ -8,7 +8,7 @@
     value = "SMAP\nDoodlePagerFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DoodlePagerFragment.kt\ncom/commsource/studio/doodle/DoodlePagerFragment\n*L\n1#1,314:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/studio/doodle/DoodlePagerFragment;",
         "Lcom/commsource/beautyplus/i0/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "T",
         "()V",
         "U",
@@ -45,7 +45,7 @@
         "m",
         "Lcom/commsource/widget/h1/e;",
         "d",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "M",
         "()Lcom/commsource/widget/h1/e;",
         "mAdapter",
@@ -98,9 +98,9 @@
 
 
 # instance fields
-.field private final J:Lkotlin/w;
+.field private final J:Lcotlin/w;
 
-.field private final K:Lkotlin/w;
+.field private final K:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -111,7 +111,7 @@
 
 .field private c:Lcom/commsource/beautyplus/f0/s7;
 
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
 
 .field private f:Lcom/commsource/studio/doodle/j;
     .annotation build Ln/e/a/e;
@@ -120,7 +120,7 @@
 
 .field private g:I
 
-.field private final p:Lkotlin/w;
+.field private final p:Lcotlin/w;
 
 
 # direct methods
@@ -135,44 +135,44 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/doodle/DoodlePagerFragment$mAdapter$2;-><init>(Lcom/commsource/studio/doodle/DoodlePagerFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment;->d:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment;->d:Lcotlin/w;
 
     .line 3
     new-instance v0, Lcom/commsource/studio/doodle/DoodlePagerFragment$mViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/doodle/DoodlePagerFragment$mViewModel$2;-><init>(Lcom/commsource/studio/doodle/DoodlePagerFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment;->p:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment;->p:Lcotlin/w;
 
     .line 4
     new-instance v0, Lcom/commsource/studio/doodle/DoodlePagerFragment$studioViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/doodle/DoodlePagerFragment$studioViewModel$2;-><init>(Lcom/commsource/studio/doodle/DoodlePagerFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment;->J:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment;->J:Lcotlin/w;
 
     .line 5
     new-instance v0, Lcom/commsource/studio/doodle/DoodlePagerFragment$tracker$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/doodle/DoodlePagerFragment$tracker$2;-><init>(Lcom/commsource/studio/doodle/DoodlePagerFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment;->K:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment;->K:Lcotlin/w;
 
     return-void
 .end method
@@ -191,7 +191,7 @@
 
     const-string v1, "binding"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -353,14 +353,14 @@
 
     const-string v2, "binding"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s7;->b:Lcom/commsource/beautyplus/f0/s1;
 
     const-string v2, "binding.promptView"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
@@ -368,7 +368,7 @@
 
     const-string v2, "binding.promptView.root"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -460,7 +460,7 @@
 
     move-result-object v6
 
-    invoke-static {v5, v6}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v5
 
@@ -536,9 +536,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -556,9 +556,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment;->p:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment;->p:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -576,9 +576,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment;->J:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment;->J:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -618,14 +618,14 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/s7;->c:Landroidx/recyclerview/widget/RecyclerView;
 
     const-string v4, "binding.rv"
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v5, Landroidx/recyclerview/widget/GridLayoutManager;
 
@@ -642,7 +642,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/s7;->c:Landroidx/recyclerview/widget/RecyclerView;
@@ -658,12 +658,12 @@
 
     if-nez v2, :cond_3
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/s7;->c:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0}, Lcom/commsource/studio/doodle/DoodlePagerFragment;->M()Lcom/commsource/widget/h1/e;
 
@@ -680,12 +680,12 @@
 
     if-nez v5, :cond_4
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object v3, v5, Lcom/commsource/beautyplus/f0/s7;->c:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2, v3}, Lcom/commsource/util/h1;->f(Landroidx/recyclerview/widget/RecyclerView;)V
 
@@ -775,7 +775,7 @@
 
     const-string v4, "viewLifecycleOwner"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     new-instance v5, Lcom/commsource/studio/doodle/DoodlePagerFragment$c;
@@ -795,7 +795,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     new-instance v3, Lcom/commsource/studio/doodle/DoodlePagerFragment$d;
@@ -837,7 +837,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v3, Lcom/commsource/studio/doodle/DoodlePagerFragment$f;
 
@@ -901,7 +901,7 @@
     :goto_0
     const-string v3, "-1"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -960,7 +960,7 @@
 
     if-nez v3, :cond_1
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/s7;->b:Lcom/commsource/beautyplus/f0/s1;
@@ -980,7 +980,7 @@
 
     if-nez v3, :cond_2
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/s7;->b:Lcom/commsource/beautyplus/f0/s1;
@@ -1037,7 +1037,7 @@
 
     if-nez v2, :cond_4
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/s7;->b:Lcom/commsource/beautyplus/f0/s1;
@@ -1051,14 +1051,14 @@
 
     if-nez v1, :cond_5
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s7;->b:Lcom/commsource/beautyplus/f0/s1;
 
     const-string v2, "binding.promptView"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
@@ -1066,7 +1066,7 @@
 
     const-string v3, "binding.promptView.root"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1075,12 +1075,12 @@
 
     if-nez v1, :cond_6
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s7;->b:Lcom/commsource/beautyplus/f0/s1;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
@@ -1105,18 +1105,18 @@
 
     if-nez v1, :cond_8
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_8
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s7;->a:Lcom/commsource/beautyplus/f0/q6;
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object v1
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1128,18 +1128,18 @@
 
     if-nez v1, :cond_a
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_a
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s7;->a:Lcom/commsource/beautyplus/f0/q6;
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object v1
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1233,9 +1233,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment;->K:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment;->K:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1301,14 +1301,14 @@
 
     const-string v3, "binding"
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/s7;->c:Landroidx/recyclerview/widget/RecyclerView;
 
     const-string v3, "binding.rv"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/h1;->g(Landroidx/recyclerview/widget/RecyclerView;)V
 
@@ -1341,7 +1341,7 @@
 
     const-string p3, "inflater"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/s7;->c(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/s7;
@@ -1350,7 +1350,7 @@
 
     const-string p3, "FragmentDoodlePagerBinding.inflate(inflater)"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment;->c:Lcom/commsource/beautyplus/f0/s7;
 
@@ -1359,7 +1359,7 @@
     const-string p3, "binding"
 
     .line 2
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -1404,7 +1404,7 @@
 
     const-string v1, "view"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V

@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -23,7 +23,7 @@
         "source",
         "",
         "byteCount",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "write",
         "(Lokio/Buffer;J)V",
         "flush",
@@ -69,7 +69,7 @@
 
     const-string v0, "delegate"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -83,16 +83,16 @@
 # virtual methods
 .method public final -deprecated_delegate()Lokio/Sink;
     .locals 1
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->ERROR:Lcotlin/DeprecationLevel;
         message = "moved to val"
-        replaceWith = .subannotation Lkotlin/q0;
+        replaceWith = .subannotation Lcotlin/q0;
             expression = "delegate"
             imports = {}
         .end subannotation
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "-deprecated_delegate"
     .end annotation
 
@@ -123,7 +123,7 @@
 
 .method public final delegate()Lokio/Sink;
     .locals 1
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "delegate"
     .end annotation
 
@@ -220,7 +220,7 @@
 
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lokio/ForwardingSink;->delegate:Lokio/Sink;

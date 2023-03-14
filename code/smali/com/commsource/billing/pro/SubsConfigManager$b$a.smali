@@ -29,7 +29,7 @@
     value = "SMAP\nSubsConfigManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SubsConfigManager.kt\ncom/commsource/billing/pro/SubsConfigManager$requestSubsConfigInfo$1$execute$1\n*L\n1#1,225:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -44,7 +44,7 @@
         "Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;",
         "",
         "throwable",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "b",
         "(Ljava/lang/Throwable;)V",
         "Lokhttp3/Response;",

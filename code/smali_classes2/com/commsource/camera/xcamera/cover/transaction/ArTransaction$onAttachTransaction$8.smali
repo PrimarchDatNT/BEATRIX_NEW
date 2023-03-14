@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,7 +40,7 @@
     d2 = {
         "Lcom/meitu/template/bean/ArMaterial;",
         "material",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/meitu/template/bean/ArMaterial;)V"
     }
@@ -133,7 +133,7 @@
 
     invoke-direct/range {v3 .. v8}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$onAttachTransaction$8$1;-><init>(Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$onAttachTransaction$8;Lcom/commsource/beautyplus/advert/ArPopWindowBean;Lcom/meitu/template/bean/ArMaterial;J)V
 
-    invoke-static {v2, v9}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->i(Lcom/commsource/widget/dialog/delegate/b;Lkotlin/jvm/u/l;)V
+    invoke-static {v2, v9}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->i(Lcom/commsource/widget/dialog/delegate/b;Lcotlin/jvm/u/l;)V
 
     .line 8
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$onAttachTransaction$8;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;

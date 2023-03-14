@@ -20,7 +20,7 @@
     value = "SMAP\nEditSubTabFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EditSubTabFragment.kt\ncom/commsource/studio/sub/EditSubTabFragment$initGuideView$1\n*L\n1#1,101:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
     d2 = {
         "com/commsource/studio/sub/e$a",
         "Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onGlobalLayout",
         "()V",
         "app_googleplayRelease"
@@ -108,7 +108,7 @@
 
     const-string v5, "mActivity"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v3, v4}, Lcom/commsource/studio/AdjustGuideView;-><init>(Landroid/content/Context;)V
 
@@ -137,7 +137,7 @@
 
     const-string v6, "viewBinding.root"
 
-    invoke-static {v5, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Landroid/view/View;->getTranslationY()F
 
@@ -145,7 +145,7 @@
 
     sub-float/2addr v1, v5
 
-    invoke-static {v1}, Lkotlin/e2/b;->H0(F)I
+    invoke-static {v1}, Lcotlin/e2/b;->H0(F)I
 
     move-result v1
 
@@ -168,7 +168,7 @@
 
     const-string v2, "viewBinding.rvFunction"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/view/ViewGroup;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 

@@ -8,7 +8,7 @@
     value = "SMAP\nTextStylePage.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextStylePage.kt\ncom/commsource/studio/text/TextStylePage\n*L\n1#1,481:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/studio/text/TextStylePage;",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "l",
         "()V",
         "t",
@@ -67,7 +67,7 @@
         "()Landroid/view/View;",
         "Lcom/commsource/studio/text/TextViewModel;",
         "a",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "j",
         "()Lcom/commsource/studio/text/TextViewModel;",
         "mViewModel",
@@ -101,7 +101,7 @@
 
 
 # instance fields
-.field private final a:Lkotlin/w;
+.field private final a:Lcotlin/w;
 
 .field private b:Lcom/commsource/beautyplus/f0/ck;
 
@@ -130,11 +130,11 @@
 
     const-string v0, "fragment"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "curAttr"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -148,11 +148,11 @@
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/text/TextStylePage$mViewModel$2;-><init>(Lcom/commsource/studio/text/TextStylePage;)V
 
-    invoke-static {p2}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p2}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p2
 
-    iput-object p2, p0, Lcom/commsource/studio/text/TextStylePage;->a:Lkotlin/w;
+    iput-object p2, p0, Lcom/commsource/studio/text/TextStylePage;->a:Lcotlin/w;
 
     .line 3
     invoke-virtual {p1}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
@@ -175,7 +175,7 @@
 
     const-string p2, "DataBindingUtil.inflate(\u2026_style_page, null, false)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/beautyplus/f0/ck;
 
@@ -301,9 +301,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->a:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->a:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -342,40 +342,40 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/text/TextStylePage;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->A(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->A(Lcotlin/jvm/u/l;)V
 
     .line 4
     new-instance v2, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$2;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$2;-><init>(Lcom/commsource/studio/text/TextStylePage;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->C(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->C(Lcotlin/jvm/u/l;)V
 
     .line 5
     new-instance v2, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$3;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$3;-><init>(Lcom/commsource/studio/text/TextStylePage;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->I(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->I(Lcotlin/jvm/u/l;)V
 
     .line 6
     new-instance v2, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$4;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$4;-><init>(Lcom/commsource/studio/text/TextStylePage;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->z(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->z(Lcotlin/jvm/u/a;)V
 
     .line 7
     new-instance v2, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$5;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$5;-><init>(Lcom/commsource/studio/text/TextStylePage;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->D(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->D(Lcotlin/jvm/u/a;)V
 
     .line 8
     sget-object v2, Lcom/commsource/studio/text/TextStylePage$initView$1$6;->INSTANCE:Lcom/commsource/studio/text/TextStylePage$initView$1$6;
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->B(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->B(Lcotlin/jvm/u/a;)V
 
     .line 9
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
@@ -874,7 +874,7 @@
 
     const-string v1, "viewBinding.disablePanelPrompt"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
@@ -882,7 +882,7 @@
 
     sget-object v2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -909,7 +909,7 @@
 
     const-string v2, "viewBinding.disablePrompt"
 
-    invoke-static {p2, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v2, Lcom/res/provider/ResSTRING;->t_edit_text_unable_use:I
 
@@ -919,7 +919,7 @@
 
     const-string v3, "ResourcesUtils.getString\u2026g.t_edit_text_unable_use)"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v3, 0x1
 
@@ -945,7 +945,7 @@
 
     const-string v1, "java.lang.String.format(this, *args)"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -973,7 +973,7 @@
 
     const-string v4, "viewBinding.seekBar1Title"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -984,7 +984,7 @@
 
     const-string v5, "viewBinding.seekBar1"
 
-    invoke-static {v3, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -995,7 +995,7 @@
 
     const-string v6, "viewBinding.seekBar2Title"
 
-    invoke-static {v3, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1006,7 +1006,7 @@
 
     const-string v7, "viewBinding.seekBar2"
 
-    invoke-static {v3, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1017,7 +1017,7 @@
 
     const-string v8, "viewBinding.seekBar3Title"
 
-    invoke-static {v3, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1028,7 +1028,7 @@
 
     const-string v9, "viewBinding.seekBar3"
 
-    invoke-static {v3, v9}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v9}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1039,7 +1039,7 @@
 
     const-string v10, "viewBinding.textStyleBar"
 
-    invoke-static {v3, v10}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v10}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1050,7 +1050,7 @@
 
     const-string v11, "viewBinding.colorPicker"
 
-    invoke-static {v3, v11}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v11}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1061,7 +1061,7 @@
 
     const-string v12, "viewBinding.bottomSpace"
 
-    invoke-static {v3, v12}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v12}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1214,7 +1214,7 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->d:Lcom/commsource/studio/text/HorizontalColorPicker;
 
-    invoke-static {v3, v11}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v11}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1245,7 +1245,7 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->S:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    invoke-static {v3, v10}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v10}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1254,7 +1254,7 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->S:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    invoke-static {v3, v10}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v10}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz v1, :cond_3
 
@@ -1275,7 +1275,7 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->L:Landroid/widget/TextView;
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1284,7 +1284,7 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v3, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1300,7 +1300,7 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->L:Landroid/widget/TextView;
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz v1, :cond_5
 
@@ -1355,7 +1355,7 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->N:Landroid/widget/TextView;
 
-    invoke-static {v3, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1364,7 +1364,7 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->M:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v3, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1380,7 +1380,7 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->N:Landroid/widget/TextView;
 
-    invoke-static {v3, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz v1, :cond_7
 
@@ -1435,7 +1435,7 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->P:Landroid/widget/TextView;
 
-    invoke-static {v3, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1444,7 +1444,7 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->O:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v3, v9}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v9}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1453,7 +1453,7 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->b:Landroid/view/View;
 
-    invoke-static {v3, v12}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v12}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1469,7 +1469,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/ck;->P:Landroid/widget/TextView;
 
-    invoke-static {v2, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz v1, :cond_b
 
@@ -1547,7 +1547,7 @@
 
     const-string v2, "viewBinding.underLineView"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v3, 0x0
 
@@ -1580,7 +1580,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->T:Lcom/commsource/widget/IconFrontView;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x1
 
@@ -1592,7 +1592,7 @@
 
     iget-object v7, v7, Lcom/commsource/beautyplus/f0/ck;->T:Lcom/commsource/widget/IconFrontView;
 
-    invoke-static {v7, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v7}, Landroid/widget/TextView;->isSelected()Z
 
@@ -1623,7 +1623,7 @@
 
     const-string v2, "viewBinding.boldView"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p1, :cond_2
 
@@ -1652,7 +1652,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->a:Lcom/commsource/widget/IconFrontView;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v4}, Lcom/commsource/util/l0;->n(I)I
 
@@ -1662,7 +1662,7 @@
 
     iget-object v9, v9, Lcom/commsource/beautyplus/f0/ck;->a:Lcom/commsource/widget/IconFrontView;
 
-    invoke-static {v9, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v9, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v9}, Landroid/widget/TextView;->isSelected()Z
 
@@ -1689,7 +1689,7 @@
 
     const-string v2, "viewBinding.italicView"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p1, :cond_4
 
@@ -1718,7 +1718,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->p:Lcom/commsource/widget/IconFrontView;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v4}, Lcom/commsource/util/l0;->n(I)I
 
@@ -1728,7 +1728,7 @@
 
     iget-object v9, v9, Lcom/commsource/beautyplus/f0/ck;->p:Lcom/commsource/widget/IconFrontView;
 
-    invoke-static {v9, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v9, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v9}, Landroid/widget/TextView;->isSelected()Z
 
@@ -1755,7 +1755,7 @@
 
     const-string v2, "viewBinding.strikeThroughView"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p1, :cond_6
 
@@ -1784,7 +1784,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ck;->Q:Lcom/commsource/widget/IconFrontView;
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v4}, Lcom/commsource/util/l0;->n(I)I
 
@@ -1794,7 +1794,7 @@
 
     iget-object v6, v6, Lcom/commsource/beautyplus/f0/ck;->Q:Lcom/commsource/widget/IconFrontView;
 
-    invoke-static {v6, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v6}, Landroid/widget/TextView;->isSelected()Z
 
@@ -2170,19 +2170,19 @@
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v5, v0, Lcom/commsource/beautyplus/f0/ck;->L:Landroid/widget/TextView;
 
-    invoke-static {v5, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     sget-object v0, Lcom/commsource/studio/text/TextConfig;->B:Lcom/commsource/studio/text/TextConfig;
@@ -2285,13 +2285,13 @@
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v2, v0, Lcom/commsource/beautyplus/f0/ck;->L:Landroid/widget/TextView;
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v0, Lcom/res/provider/ResSTRING;->t_thickness:I
 
@@ -2301,7 +2301,7 @@
 
     const-string v0, "ResourcesUtils.getString(R.string.t_thickness)"
 
-    invoke-static {v3, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 16
     sget-object v0, Lcom/commsource/studio/text/TextConfig;->B:Lcom/commsource/studio/text/TextConfig;
@@ -2405,19 +2405,19 @@
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v5, v0, Lcom/commsource/beautyplus/f0/ck;->L:Landroid/widget/TextView;
 
-    invoke-static {v5, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 23
     sget-object v11, Lcom/commsource/studio/text/TextConfig;->B:Lcom/commsource/studio/text/TextConfig;
@@ -2472,13 +2472,13 @@
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->M:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v1, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v2, v0, Lcom/commsource/beautyplus/f0/ck;->N:Landroid/widget/TextView;
 
-    invoke-static {v2, v15}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v15}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v0, Lcom/res/provider/ResSTRING;->t_rounded_corner:I
 
@@ -2488,7 +2488,7 @@
 
     const-string v0, "ResourcesUtils.getString\u2026.string.t_rounded_corner)"
 
-    invoke-static {v3, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 26
     invoke-virtual {v11}, Lcom/commsource/studio/text/TextConfig;->R()[I
@@ -2538,13 +2538,13 @@
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->O:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v1, v14}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v14}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v2, v0, Lcom/commsource/beautyplus/f0/ck;->P:Landroid/widget/TextView;
 
-    invoke-static {v2, v13}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v13}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v0, Lcom/res/provider/ResSTRING;->t_margin:I
 
@@ -2554,7 +2554,7 @@
 
     const-string v0, "ResourcesUtils.getString(R.string.t_margin)"
 
-    invoke-static {v3, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz v9, :cond_d
 
@@ -2625,19 +2625,19 @@
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v5, v0, Lcom/commsource/beautyplus/f0/ck;->L:Landroid/widget/TextView;
 
-    invoke-static {v5, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 37
     sget-object v11, Lcom/commsource/studio/text/TextConfig;->B:Lcom/commsource/studio/text/TextConfig;
@@ -2692,13 +2692,13 @@
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->M:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v1, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v2, v0, Lcom/commsource/beautyplus/f0/ck;->N:Landroid/widget/TextView;
 
-    invoke-static {v2, v15}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v15}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v0, Lcom/res/provider/ResSTRING;->t_text_blur:I
 
@@ -2708,7 +2708,7 @@
 
     const-string v0, "ResourcesUtils.getString(R.string.t_text_blur)"
 
-    invoke-static {v3, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 40
     invoke-virtual {v11}, Lcom/commsource/studio/text/TextConfig;->R()[I
@@ -2758,13 +2758,13 @@
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->O:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v1, v14}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v14}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v2, v0, Lcom/commsource/beautyplus/f0/ck;->P:Landroid/widget/TextView;
 
-    invoke-static {v2, v13}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v13}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v0, Lcom/res/provider/ResSTRING;->t_space:I
 
@@ -2774,7 +2774,7 @@
 
     const-string v0, "ResourcesUtils.getString(R.string.t_space)"
 
-    invoke-static {v3, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 44
     invoke-virtual {v11}, Lcom/commsource/studio/text/TextConfig;->S()[I
@@ -2859,13 +2859,13 @@
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v2, v0, Lcom/commsource/beautyplus/f0/ck;->L:Landroid/widget/TextView;
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v0, Lcom/res/provider/ResSTRING;->t_line_spacing:I
 
@@ -2875,7 +2875,7 @@
 
     const-string v0, "ResourcesUtils.getString(R.string.t_line_spacing)"
 
-    invoke-static {v3, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 50
     sget-object v11, Lcom/commsource/studio/text/TextConfig;->B:Lcom/commsource/studio/text/TextConfig;
@@ -2927,13 +2927,13 @@
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->M:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v1, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v2, v0, Lcom/commsource/beautyplus/f0/ck;->N:Landroid/widget/TextView;
 
-    invoke-static {v2, v15}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v15}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v0, Lcom/res/provider/ResSTRING;->t_character_spacing:I
 
@@ -2943,7 +2943,7 @@
 
     const-string v0, "ResourcesUtils.getString\u2026ring.t_character_spacing)"
 
-    invoke-static {v3, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 54
     invoke-virtual {v11}, Lcom/commsource/studio/text/TextConfig;->S()[I
@@ -3050,7 +3050,7 @@
 
     const-string v2, "viewBinding.root"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3070,7 +3070,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextStylePage;->d:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;

@@ -8,7 +8,7 @@
     value = "SMAP\nWaterMarkViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 WaterMarkViewModel.kt\ncom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkViewModel\n*L\n1#1,87:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "Landroidx/lifecycle/AndroidViewModel;",
         "Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;",
         "waterEntity",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "y",
         "(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;)V",
         "Lcom/commsource/camera/fastcapture/SelfiePhotoData;",
@@ -120,7 +120,7 @@
 
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
@@ -339,7 +339,7 @@
 
     const-string v1, "waterEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Landroidx/lifecycle/AndroidViewModel;->getApplication()Landroid/app/Application;

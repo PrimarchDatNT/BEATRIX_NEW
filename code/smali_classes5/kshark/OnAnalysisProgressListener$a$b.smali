@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkshark/OnAnalysisProgressListener$a;->b(Lkotlin/jvm/u/l;)Lkshark/OnAnalysisProgressListener;
+    value = Lkshark/OnAnalysisProgressListener$a;->b(Lcotlin/jvm/u/l;)Lkshark/OnAnalysisProgressListener;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
     value = "SMAP\nOnAnalysisProgressListener.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnAnalysisProgressListener.kt\nkshark/OnAnalysisProgressListener$Companion$invoke$1\n*L\n1#1,49:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "Lkshark/OnAnalysisProgressListener;",
         "Lkshark/OnAnalysisProgressListener$Step;",
         "step",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lkshark/OnAnalysisProgressListener$Step;)V",
         "shark"
@@ -49,15 +49,15 @@
 
 
 # instance fields
-.field final synthetic b:Lkotlin/jvm/u/l;
+.field final synthetic b:Lcotlin/jvm/u/l;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/u/l;)V
+.method public constructor <init>(Lcotlin/jvm/u/l;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lkshark/OnAnalysisProgressListener$a$b;->b:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lkshark/OnAnalysisProgressListener$a$b;->b:Lcotlin/jvm/u/l;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -75,12 +75,12 @@
 
     const-string v0, "step"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Lkshark/OnAnalysisProgressListener$a$b;->b:Lkotlin/jvm/u/l;
+    iget-object v0, p0, Lkshark/OnAnalysisProgressListener$a$b;->b:Lcotlin/jvm/u/l;
 
-    invoke-interface {v0, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method

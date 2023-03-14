@@ -8,7 +8,7 @@
     value = "SMAP\nXVideoRenderView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 XVideoRenderView.kt\ncom/commsource/video/view/XVideoRenderView\n*L\n1#1,252:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/video/view/XVideoRenderView;",
         "Landroid/widget/FrameLayout;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "g",
         "()V",
         "",
@@ -41,7 +41,7 @@
         "k",
         "Lcom/commsource/video/decoder/a;",
         "K",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "getPlayer",
         "()Lcom/commsource/video/decoder/a;",
         "player",
@@ -50,13 +50,13 @@
         "getRender",
         "()Lcom/commsource/video/render/a;",
         "render",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "p",
-        "Lkotlin/jvm/u/a;",
+        "Lcotlin/jvm/u/a;",
         "getEnterFullScreen",
-        "()Lkotlin/jvm/u/a;",
+        "()Lcotlin/jvm/u/a;",
         "setEnterFullScreen",
-        "(Lkotlin/jvm/u/a;)V",
+        "(Lcotlin/jvm/u/a;)V",
         "enterFullScreen",
         "Lcom/commsource/video/view/XVideoUIGroup;",
         "M",
@@ -69,15 +69,15 @@
         "()I",
         "setVideoWidth",
         "videoWidth",
-        "Lkotlin/Function1;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function1;",
+        "Lcotlin/k0;",
         "name",
         "d",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "getOnVideoUiStateChange",
-        "()Lkotlin/jvm/u/l;",
+        "()Lcotlin/jvm/u/l;",
         "setOnVideoUiStateChange",
-        "(Lkotlin/jvm/u/l;)V",
+        "(Lcotlin/jvm/u/l;)V",
         "onVideoUiStateChange",
         "videoEvent",
         "getOnVideoEventChange",
@@ -98,12 +98,12 @@
         "c",
         "getUiState",
         "setUiState",
-        "Lkotlin/Function2;",
-        "Lkotlin/jvm/u/p;",
+        "Lcotlin/Function2;",
+        "Lcotlin/jvm/u/p;",
         "getOnVideoSizeChange",
-        "()Lkotlin/jvm/u/p;",
+        "()Lcotlin/jvm/u/p;",
         "setOnVideoSizeChange",
-        "(Lkotlin/jvm/u/p;)V",
+        "(Lcotlin/jvm/u/p;)V",
         "onVideoSizeChange",
         "Landroid/content/Context;",
         "context",
@@ -128,17 +128,17 @@
     .end annotation
 .end field
 
-.field private final K:Lkotlin/w;
+.field private final K:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final L:Lkotlin/w;
+.field private final L:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final M:Lkotlin/w;
+.field private final M:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -151,13 +151,13 @@
 
 .field private c:I
 
-.field private d:Lkotlin/jvm/u/l;
+.field private d:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -166,15 +166,15 @@
     .end annotation
 .end field
 
-.field private f:Lkotlin/jvm/u/p;
+.field private f:Lcotlin/jvm/u/p;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Ljava/lang/Integer;",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -183,13 +183,13 @@
     .end annotation
 .end field
 
-.field private g:Lkotlin/jvm/u/l;
+.field private g:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -198,11 +198,11 @@
     .end annotation
 .end field
 
-.field private p:Lkotlin/jvm/u/a;
+.field private p:Lcotlin/jvm/u/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -219,14 +219,14 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const/4 v0, 0x0
 
     const/4 v1, 0x2
 
-    invoke-direct {p0, p1, v0, v1, v0}, Lcom/commsource/video/view/XVideoRenderView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, p1, v0, v1, v0}, Lcom/commsource/video/view/XVideoRenderView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -241,12 +241,12 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -254,33 +254,33 @@
     .line 3
     sget-object p2, Lcom/commsource/video/view/XVideoRenderView$player$2;->INSTANCE:Lcom/commsource/video/view/XVideoRenderView$player$2;
 
-    invoke-static {p2}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p2}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p2
 
-    iput-object p2, p0, Lcom/commsource/video/view/XVideoRenderView;->K:Lkotlin/w;
+    iput-object p2, p0, Lcom/commsource/video/view/XVideoRenderView;->K:Lcotlin/w;
 
     .line 4
     new-instance p2, Lcom/commsource/video/view/XVideoRenderView$render$2;
 
     invoke-direct {p2, p0, p1}, Lcom/commsource/video/view/XVideoRenderView$render$2;-><init>(Lcom/commsource/video/view/XVideoRenderView;Landroid/content/Context;)V
 
-    invoke-static {p2}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p2}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p2
 
-    iput-object p2, p0, Lcom/commsource/video/view/XVideoRenderView;->L:Lkotlin/w;
+    iput-object p2, p0, Lcom/commsource/video/view/XVideoRenderView;->L:Lcotlin/w;
 
     .line 5
     new-instance p2, Lcom/commsource/video/view/XVideoRenderView$videoUiGroup$2;
 
     invoke-direct {p2, p0, p1}, Lcom/commsource/video/view/XVideoRenderView$videoUiGroup$2;-><init>(Lcom/commsource/video/view/XVideoRenderView;Landroid/content/Context;)V
 
-    invoke-static {p2}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p2}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/video/view/XVideoRenderView;->M:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/video/view/XVideoRenderView;->M:Lcotlin/w;
 
     .line 6
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoRenderView;->getRender()Lcom/commsource/video/render/a;
@@ -340,7 +340,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p3, p3, 0x2
@@ -612,42 +612,42 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$1;-><init>(Lcom/commsource/video/view/XVideoRenderView;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->G(Lkotlin/jvm/u/p;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->G(Lcotlin/jvm/u/p;)V
 
     .line 4
     new-instance v2, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$2;
 
     invoke-direct {v2, p0}, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$2;-><init>(Lcom/commsource/video/view/XVideoRenderView;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->E(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->E(Lcotlin/jvm/u/l;)V
 
     .line 5
     new-instance v2, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$3;
 
     invoke-direct {v2, p0}, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$3;-><init>(Lcom/commsource/video/view/XVideoRenderView;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->F(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->F(Lcotlin/jvm/u/l;)V
 
     .line 6
     new-instance v2, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$4;
 
     invoke-direct {v2, p0}, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$4;-><init>(Lcom/commsource/video/view/XVideoRenderView;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->D(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->D(Lcotlin/jvm/u/l;)V
 
     .line 7
     new-instance v2, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$5;
 
     invoke-direct {v2, p0}, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$5;-><init>(Lcom/commsource/video/view/XVideoRenderView;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->C(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->C(Lcotlin/jvm/u/l;)V
 
     .line 8
     new-instance v2, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$6;
 
     invoke-direct {v2, p0}, Lcom/commsource/video/view/XVideoRenderView$bindPlayer$$inlined$apply$lambda$6;-><init>(Lcom/commsource/video/view/XVideoRenderView;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->B(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->B(Lcotlin/jvm/u/l;)V
 
     .line 9
     invoke-direct {p0}, Lcom/commsource/video/view/XVideoRenderView;->g()V
@@ -658,13 +658,13 @@
     return-void
 .end method
 
-.method public final getEnterFullScreen()Lkotlin/jvm/u/a;
+.method public final getEnterFullScreen()Lcotlin/jvm/u/a;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -677,21 +677,21 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->p:Lkotlin/jvm/u/a;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->p:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 .end method
 
-.method public final getOnVideoEventChange()Lkotlin/jvm/u/l;
+.method public final getOnVideoEventChange()Lcotlin/jvm/u/l;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -704,22 +704,22 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->g:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->g:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 .end method
 
-.method public final getOnVideoSizeChange()Lkotlin/jvm/u/p;
+.method public final getOnVideoSizeChange()Lcotlin/jvm/u/p;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "Ljava/lang/Integer;",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -732,21 +732,21 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->f:Lkotlin/jvm/u/p;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->f:Lcotlin/jvm/u/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 .end method
 
-.method public final getOnVideoUiStateChange()Lkotlin/jvm/u/l;
+.method public final getOnVideoUiStateChange()Lcotlin/jvm/u/l;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -759,7 +759,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->d:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->d:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -775,9 +775,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->K:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->K:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -797,9 +797,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->L:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->L:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -866,9 +866,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->M:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->M:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -907,7 +907,7 @@
 
     const-string v1, "videoUIPackage"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoRenderView;->getVideoUiGroup()Lcom/commsource/video/view/XVideoUIGroup;
@@ -937,7 +937,7 @@
     const/4 v1, 0x0
 
     .line 2
-    iput-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->d:Lkotlin/jvm/u/l;
+    iput-object v1, p0, Lcom/commsource/video/view/XVideoRenderView;->d:Lcotlin/jvm/u/l;
 
     .line 3
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoRenderView;->getRender()Lcom/commsource/video/render/a;
@@ -967,22 +967,22 @@
     const/4 v2, 0x0
 
     .line 2
-    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->G(Lkotlin/jvm/u/p;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->G(Lcotlin/jvm/u/p;)V
 
     .line 3
-    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->E(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->E(Lcotlin/jvm/u/l;)V
 
     .line 4
-    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->D(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->D(Lcotlin/jvm/u/l;)V
 
     .line 5
-    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->C(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->C(Lcotlin/jvm/u/l;)V
 
     .line 6
-    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->B(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->B(Lcotlin/jvm/u/l;)V
 
     .line 7
-    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->F(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/video/decoder/a;->F(Lcotlin/jvm/u/l;)V
 
     .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1014,17 +1014,17 @@
     return-void
 .end method
 
-.method public final setEnterFullScreen(Lkotlin/jvm/u/a;)V
+.method public final setEnterFullScreen(Lcotlin/jvm/u/a;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1034,26 +1034,26 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/video/view/XVideoRenderView;->p:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/video/view/XVideoRenderView;->p:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public final setOnVideoEventChange(Lkotlin/jvm/u/l;)V
+.method public final setOnVideoEventChange(Lcotlin/jvm/u/l;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1063,28 +1063,28 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/video/view/XVideoRenderView;->g:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/video/view/XVideoRenderView;->g:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public final setOnVideoSizeChange(Lkotlin/jvm/u/p;)V
+.method public final setOnVideoSizeChange(Lcotlin/jvm/u/p;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/p;
+    .param p1    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Ljava/lang/Integer;",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1094,26 +1094,26 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/video/view/XVideoRenderView;->f:Lkotlin/jvm/u/p;
+    iput-object p1, p0, Lcom/commsource/video/view/XVideoRenderView;->f:Lcotlin/jvm/u/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public final setOnVideoUiStateChange(Lkotlin/jvm/u/l;)V
+.method public final setOnVideoUiStateChange(Lcotlin/jvm/u/l;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1123,7 +1123,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/video/view/XVideoRenderView;->d:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/video/view/XVideoRenderView;->d:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

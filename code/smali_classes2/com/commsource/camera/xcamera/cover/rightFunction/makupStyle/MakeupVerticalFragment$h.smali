@@ -32,7 +32,7 @@
     value = "SMAP\nMakeupVerticalFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MakeupVerticalFragment.kt\ncom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupVerticalFragment$onViewCreated$6\n*L\n1#1,516:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "Lcom/commsource/repository/child/makeup/h;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/repository/child/makeup/h;)V"
     }

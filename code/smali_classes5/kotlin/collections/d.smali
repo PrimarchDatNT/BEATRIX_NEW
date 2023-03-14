@@ -1,10 +1,10 @@
-.class public abstract Lkotlin/collections/d;
+.class public abstract Lcotlin/collections/d;
 .super Ljava/util/AbstractCollection;
 .source "AbstractMutableCollection.kt"
 
 # interfaces
 .implements Ljava/util/Collection;
-.implements Lkotlin/jvm/internal/x0/b;
+.implements Lcotlin/jvm/internal/x0/b;
 
 
 # annotations
@@ -17,11 +17,11 @@
         "TE;>;",
         "Ljava/util/Collection<",
         "TE;>;",
-        "Lkotlin/jvm/internal/x0/b;"
+        "Lcotlin/jvm/internal/x0/b;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "\u0000\u0018\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u001f\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0005\u0008\'\u0018\u0000*\u0004\u0008\u0000\u0010\u00012\u0008\u0012\u0004\u0012\u00028\u00000\u00022\u0008\u0012\u0004\u0012\u00028\u00000\u0003B\t\u0008\u0004\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\u0017\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0004\u001a\u00028\u0000H&\u00a2\u0006\u0004\u0008\u0006\u0010\u0007\u00a8\u0006\n"
     }
     d2 = {
-        "Lkotlin/collections/d;",
+        "Lcotlin/collections/d;",
         "E",
         "",
         "Ljava/util/AbstractCollection;",
@@ -51,7 +51,7 @@
     }
 .end annotation
 
-.annotation build Lkotlin/s0;
+.annotation build Lcotlin/s0;
     version = "1.1"
 .end annotation
 
@@ -83,7 +83,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/d;->b()I
+    invoke-virtual {p0}, Lcotlin/collections/d;->b()I
 
     move-result v0
 

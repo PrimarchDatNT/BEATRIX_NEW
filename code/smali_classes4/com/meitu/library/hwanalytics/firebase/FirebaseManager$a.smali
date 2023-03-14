@@ -29,7 +29,7 @@
     value = "SMAP\nFirebaseManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FirebaseManager.kt\ncom/meitu/library/hwanalytics/firebase/FirebaseManager$init$1\n*L\n1#1,110:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "queryDocumentSnapshots",
         "Lcom/google/firebase/firestore/FirebaseFirestoreException;",
         "e",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "b",
         "(Lcom/google/firebase/firestore/c0;Lcom/google/firebase/firestore/FirebaseFirestoreException;)V",
         "hwanalytics_release"
@@ -166,7 +166,7 @@
     const-string v1, "change"
 
     .line 4
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/google/firebase/firestore/DocumentChange;->e()Lcom/google/firebase/firestore/DocumentChange$Type;
 
@@ -183,7 +183,7 @@
 
     const-string v2, "change.document"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/google/firebase/firestore/b0;->t()Ljava/util/Map;
 
@@ -214,7 +214,7 @@
     const-string v4, "event"
 
     .line 7
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -245,7 +245,7 @@
 
     if-nez v1, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     invoke-static {v3, v1}, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->a(Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;Ljava/lang/String;)V
@@ -257,7 +257,7 @@
 
     move-result-object p2
 
-    invoke-static {p2, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/google/firebase/firestore/DocumentSnapshot;->F()Lcom/google/firebase/firestore/h;
 

@@ -25,7 +25,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "Lf/k/k/p;",
         "Lcom/commsource/camera/xcamera/bean/b;",
         "t",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "(Lcom/commsource/camera/xcamera/bean/b;)V",
         "Lokhttp3/Response;",

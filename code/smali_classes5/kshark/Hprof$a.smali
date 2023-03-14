@@ -17,7 +17,7 @@
     value = "SMAP\nHprof.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Hprof.kt\nkshark/Hprof$Companion\n+ 2 SharkLog.kt\nkshark/SharkLog\n*L\n1#1,101:1\n32#2,3:102\n*E\n*S KotlinDebug\n*F\n+ 1 Hprof.kt\nkshark/Hprof$Companion\n*L\n86#1,3:102\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -62,7 +62,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -84,7 +84,7 @@
 
     const-string v0, "hprofFile"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Ljava/io/File;->length()J
@@ -210,7 +210,7 @@
 
     const-string v5, "source"
 
-    invoke-static {v3, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v4, v3, p1, v0, v1}, Lkshark/l;-><init>(Lokio/BufferedSource;IJ)V
 
@@ -220,7 +220,7 @@
     const-string v0, "channel"
 
     .line 16
-    invoke-static {v2, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -231,7 +231,7 @@
     move-object v10, v0
 
     .line 17
-    invoke-direct/range {v1 .. v10}, Lkshark/Hprof;-><init>(Ljava/nio/channels/FileChannel;Lokio/BufferedSource;Lkshark/l;JLkshark/Hprof$HprofVersion;JLkotlin/jvm/internal/u;)V
+    invoke-direct/range {v1 .. v10}, Lkshark/Hprof;-><init>(Ljava/nio/channels/FileChannel;Lokio/BufferedSource;Lkshark/l;JLkshark/Hprof$HprofVersion;JLcotlin/jvm/internal/u;)V
 
     return-object p1
 

@@ -1,4 +1,4 @@
-.class public final Lkotlin/t;
+.class public final Lcotlin/t;
 .super Ljava/lang/Object;
 .source "KotlinVersion.kt"
 
@@ -9,7 +9,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkotlin/t$a;
+        Lcotlin/t$a;
     }
 .end annotation
 
@@ -17,12 +17,12 @@
     value = {
         "Ljava/lang/Object;",
         "Ljava/lang/Comparable<",
-        "Lkotlin/t;",
+        "Lcotlin/t;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "\u0000&\n\u0002\u0018\u0002\n\u0002\u0010\u000f\n\u0002\u0010\u0008\n\u0002\u0008\u0005\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0016\u0008\u0007\u0018\u0000 \u00062\u0008\u0012\u0004\u0012\u00020\u00000\u0001:\u0001\u0012B\u001f\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u0012\u0006\u0010\u0004\u001a\u00020\u0002\u0012\u0006\u0010\u0005\u001a\u00020\u0002\u00a2\u0006\u0004\u0008 \u0010!B\u0019\u0008\u0016\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u0012\u0006\u0010\u0004\u001a\u00020\u0002\u00a2\u0006\u0004\u0008 \u0010\"J\'\u0010\u0006\u001a\u00020\u00022\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0004\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u000f\u0010\t\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\t\u0010\nJ\u001a\u0010\u000e\u001a\u00020\r2\u0008\u0010\u000c\u001a\u0004\u0018\u00010\u000bH\u0096\u0002\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ\u000f\u0010\u0010\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u0011J\u0018\u0010\u0012\u001a\u00020\u00022\u0006\u0010\u000c\u001a\u00020\u0000H\u0096\u0002\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u001d\u0010\u0014\u001a\u00020\r2\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0004\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0014\u0010\u0015J%\u0010\u0016\u001a\u00020\r2\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0004\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0016\u0010\u0017R\u0016\u0010\u0019\u001a\u00020\u00028\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0012\u0010\u0018R\u0019\u0010\u0005\u001a\u00020\u00028\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u001a\u0010\u0018\u001a\u0004\u0008\u001b\u0010\u0011R\u0019\u0010\u0004\u001a\u00020\u00028\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u001c\u0010\u0018\u001a\u0004\u0008\u001d\u0010\u0011R\u0019\u0010\u0003\u001a\u00020\u00028\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u001e\u0010\u0018\u001a\u0004\u0008\u001f\u0010\u0011\u00a8\u0006#"
     }
     d2 = {
-        "Lkotlin/t;",
+        "Lcotlin/t;",
         "",
         "",
         "major",
@@ -51,7 +51,7 @@
         "hashCode",
         "()I",
         "a",
-        "(Lkotlin/t;)I",
+        "(Lcotlin/t;)I",
         "n",
         "(II)Z",
         "o",
@@ -77,7 +77,7 @@
     }
 .end annotation
 
-.annotation build Lkotlin/s0;
+.annotation build Lcotlin/s0;
     version = "1.1"
 .end annotation
 
@@ -85,15 +85,15 @@
 # static fields
 .field public static final f:I = 0xff
 
-.field public static final g:Lkotlin/t;
-    .annotation build Lkotlin/jvm/d;
+.field public static final g:Lcotlin/t;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field public static final p:Lkotlin/t$a;
+.field public static final p:Lcotlin/t$a;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -113,20 +113,20 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    new-instance v0, Lkotlin/t$a;
+    new-instance v0, Lcotlin/t$a;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkotlin/t$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcotlin/t$a;-><init>(Lcotlin/jvm/internal/u;)V
 
-    sput-object v0, Lkotlin/t;->p:Lkotlin/t$a;
+    sput-object v0, Lcotlin/t;->p:Lcotlin/t$a;
 
     .line 1
-    invoke-static {}, Lkotlin/u;->a()Lkotlin/t;
+    invoke-static {}, Lcotlin/u;->a()Lcotlin/t;
 
     move-result-object v0
 
-    sput-object v0, Lkotlin/t;->g:Lkotlin/t;
+    sput-object v0, Lcotlin/t;->g:Lcotlin/t;
 
     return-void
 .end method
@@ -137,7 +137,7 @@
     const/4 v0, 0x0
 
     .line 3
-    invoke-direct {p0, p1, p2, v0}, Lkotlin/t;-><init>(III)V
+    invoke-direct {p0, p1, p2, v0}, Lcotlin/t;-><init>(III)V
 
     return-void
 .end method
@@ -148,18 +148,18 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput p1, p0, Lkotlin/t;->b:I
+    iput p1, p0, Lcotlin/t;->b:I
 
-    iput p2, p0, Lkotlin/t;->c:I
+    iput p2, p0, Lcotlin/t;->c:I
 
-    iput p3, p0, Lkotlin/t;->d:I
+    iput p3, p0, Lcotlin/t;->d:I
 
     .line 2
-    invoke-direct {p0, p1, p2, p3}, Lkotlin/t;->p(III)I
+    invoke-direct {p0, p1, p2, p3}, Lcotlin/t;->p(III)I
 
     move-result p1
 
-    iput p1, p0, Lkotlin/t;->a:I
+    iput p1, p0, Lcotlin/t;->a:I
 
     return-void
 .end method
@@ -251,21 +251,21 @@
 
 
 # virtual methods
-.method public a(Lkotlin/t;)I
+.method public a(Lcotlin/t;)I
     .locals 1
-    .param p1    # Lkotlin/t;
+    .param p1    # Lcotlin/t;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget v0, p0, Lkotlin/t;->a:I
+    iget v0, p0, Lcotlin/t;->a:I
 
-    iget p1, p1, Lkotlin/t;->a:I
+    iget p1, p1, Lcotlin/t;->a:I
 
     sub-int/2addr v0, p1
 
@@ -276,9 +276,9 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lkotlin/t;
+    check-cast p1, Lcotlin/t;
 
-    invoke-virtual {p0, p1}, Lkotlin/t;->a(Lkotlin/t;)I
+    invoke-virtual {p0, p1}, Lcotlin/t;->a(Lcotlin/t;)I
 
     move-result p1
 
@@ -300,23 +300,23 @@
 
     .line 1
     :cond_0
-    instance-of v1, p1, Lkotlin/t;
+    instance-of v1, p1, Lcotlin/t;
 
     if-nez v1, :cond_1
 
     const/4 p1, 0x0
 
     :cond_1
-    check-cast p1, Lkotlin/t;
+    check-cast p1, Lcotlin/t;
 
     const/4 v1, 0x0
 
     if-eqz p1, :cond_3
 
     .line 2
-    iget v2, p0, Lkotlin/t;->a:I
+    iget v2, p0, Lcotlin/t;->a:I
 
-    iget p1, p1, Lkotlin/t;->a:I
+    iget p1, p1, Lcotlin/t;->a:I
 
     if-ne v2, p1, :cond_2
 
@@ -336,7 +336,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlin/t;->b:I
+    iget v0, p0, Lcotlin/t;->b:I
 
     return v0
 .end method
@@ -345,7 +345,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlin/t;->c:I
+    iget v0, p0, Lcotlin/t;->c:I
 
     return v0
 .end method
@@ -354,7 +354,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlin/t;->d:I
+    iget v0, p0, Lcotlin/t;->d:I
 
     return v0
 .end method
@@ -363,7 +363,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlin/t;->a:I
+    iget v0, p0, Lcotlin/t;->a:I
 
     return v0
 .end method
@@ -372,13 +372,13 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlin/t;->b:I
+    iget v0, p0, Lcotlin/t;->b:I
 
     if-gt v0, p1, :cond_1
 
     if-ne v0, p1, :cond_0
 
-    iget p1, p0, Lkotlin/t;->c:I
+    iget p1, p0, Lcotlin/t;->c:I
 
     if-lt p1, p2, :cond_0
 
@@ -401,19 +401,19 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlin/t;->b:I
+    iget v0, p0, Lcotlin/t;->b:I
 
     if-gt v0, p1, :cond_1
 
     if-ne v0, p1, :cond_0
 
-    iget p1, p0, Lkotlin/t;->c:I
+    iget p1, p0, Lcotlin/t;->c:I
 
     if-gt p1, p2, :cond_1
 
     if-ne p1, p2, :cond_0
 
-    iget p1, p0, Lkotlin/t;->d:I
+    iget p1, p0, Lcotlin/t;->d:I
 
     if-lt p1, p3, :cond_0
 
@@ -442,7 +442,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget v1, p0, Lkotlin/t;->b:I
+    iget v1, p0, Lcotlin/t;->b:I
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -450,13 +450,13 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    iget v2, p0, Lkotlin/t;->c:I
+    iget v2, p0, Lcotlin/t;->c:I
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    iget v1, p0, Lkotlin/t;->d:I
+    iget v1, p0, Lcotlin/t;->d:I
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 

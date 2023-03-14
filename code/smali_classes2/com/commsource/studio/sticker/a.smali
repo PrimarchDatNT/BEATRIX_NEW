@@ -14,7 +14,7 @@
     value = "SMAP\nCustomStickerViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CustomStickerViewModel.kt\ncom/commsource/studio/sticker/CustomStickerViewModel\n+ 2 Color.kt\nandroidx/core/graphics/ColorKt\n*L\n1#1,125:1\n111#2:126\n*E\n*S KotlinDebug\n*F\n+ 1 CustomStickerViewModel.kt\ncom/commsource/studio/sticker/CustomStickerViewModel\n*L\n60#1:126\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,20 +26,20 @@
     d2 = {
         "Lcom/commsource/studio/sticker/a;",
         "Lcom/commsource/studio/f;",
-        "Lkotlin/Function0;",
-        "Lkotlin/t1;",
+        "Lcotlin/Function0;",
+        "Lcotlin/t1;",
         "action",
         "C",
-        "(Lkotlin/jvm/u/a;)V",
+        "(Lcotlin/jvm/u/a;)V",
         "Landroid/graphics/Bitmap;",
         "originBitmap",
         "maskBitmap",
         "",
         "isSticker",
-        "Lkotlin/Pair;",
+        "Lcotlin/Pair;",
         "Landroid/graphics/Rect;",
         "A",
-        "(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;Z)Lkotlin/Pair;",
+        "(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;Z)Lcotlin/Pair;",
         "D",
         "(Landroid/graphics/Bitmap;)V",
         "Landroid/app/Application;",
@@ -85,7 +85,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/sticker/a$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/sticker/a$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/sticker/a;->g:Lcom/commsource/studio/sticker/a$a;
 
@@ -103,7 +103,7 @@
 
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/f;-><init>(Landroid/app/Application;)V
@@ -111,7 +111,7 @@
     return-void
 .end method
 
-.method public static synthetic B(Lcom/commsource/studio/sticker/a;Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;ZILjava/lang/Object;)Lkotlin/Pair;
+.method public static synthetic B(Lcom/commsource/studio/sticker/a;Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;ZILjava/lang/Object;)Lcotlin/Pair;
     .locals 0
 
     const p5, 0x9c4b
@@ -126,7 +126,7 @@
 
     .line 1
     :cond_0
-    invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/sticker/a;->A(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;Z)Lkotlin/Pair;
+    invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/sticker/a;->A(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;Z)Lcotlin/Pair;
 
     move-result-object p0
 
@@ -137,7 +137,7 @@
 
 
 # virtual methods
-.method public final A(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;Z)Lkotlin/Pair;
+.method public final A(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;Z)Lcotlin/Pair;
     .locals 16
     .param p1    # Landroid/graphics/Bitmap;
         .annotation build Ln/e/a/d;
@@ -156,7 +156,7 @@
             "Landroid/graphics/Bitmap;",
             "Landroid/graphics/Bitmap;",
             "Z)",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Landroid/graphics/Bitmap;",
             "Landroid/graphics/Rect;",
             ">;"
@@ -176,11 +176,11 @@
 
     const-string v3, "originBitmap"
 
-    invoke-static {v0, v3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v3, "maskBitmap"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
@@ -196,7 +196,7 @@
     const-string v5, "oriBitmap"
 
     .line 2
-    invoke-static {v3, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -485,26 +485,26 @@
     invoke-static {v3}, Lcom/meitu/library/p/e/a;->T(Landroid/graphics/Bitmap;)V
 
     .line 29
-    new-instance v0, Lkotlin/Pair;
+    new-instance v0, Lcotlin/Pair;
 
-    invoke-direct {v0, v6, v1}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, v6, v1}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v0
 .end method
 
-.method public final C(Lkotlin/jvm/u/a;)V
+.method public final C(Lcotlin/jvm/u/a;)V
     .locals 2
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -515,7 +515,7 @@
 
     const-string v1, "action"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -538,7 +538,7 @@
 
     const-string v1, "maskBitmap"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/meitu/template/bean/Sticker;
@@ -598,11 +598,11 @@
     move-object v8, p1
 
     .line 8
-    invoke-static/range {v6 .. v11}, Lcom/commsource/studio/sticker/a;->B(Lcom/commsource/studio/sticker/a;Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;ZILjava/lang/Object;)Lkotlin/Pair;
+    invoke-static/range {v6 .. v11}, Lcom/commsource/studio/sticker/a;->B(Lcom/commsource/studio/sticker/a;Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;ZILjava/lang/Object;)Lcotlin/Pair;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object p1
 

@@ -1,10 +1,10 @@
-.class public final Lkotlin/io/b;
+.class public final Lcotlin/io/b;
 .super Ljava/lang/Object;
 .source "Closeable.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -17,14 +17,14 @@
         "Ljava/io/Closeable;",
         "T",
         "R",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "block",
         "Requires newer compiler version to be inlined correctly.",
         "b",
-        "(Ljava/io/Closeable;Lkotlin/jvm/u/l;)Ljava/lang/Object;",
+        "(Ljava/io/Closeable;Lcotlin/jvm/u/l;)Ljava/lang/Object;",
         "",
         "cause",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/io/Closeable;Ljava/lang/Throwable;)V",
         "kotlin-stdlib"
@@ -37,7 +37,7 @@
     }
 .end annotation
 
-.annotation build Lkotlin/jvm/g;
+.annotation build Lcotlin/jvm/g;
     name = "CloseableKt"
 .end annotation
 
@@ -53,10 +53,10 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -85,13 +85,13 @@
     move-exception p0
 
     .line 3
-    invoke-static {p1, p0}, Lkotlin/l;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
+    invoke-static {p1, p0}, Lcotlin/l;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
     :goto_0
     return-void
 .end method
 
-.method private static final b(Ljava/io/Closeable;Lkotlin/jvm/u/l;)Ljava/lang/Object;
+.method private static final b(Ljava/io/Closeable;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -100,12 +100,12 @@
             "R:",
             "Ljava/lang/Object;",
             ">(TT;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+TR;>;)TR;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const/4 v0, 0x0
@@ -114,16 +114,16 @@
 
     .line 1
     :try_start_0
-    invoke-interface {p1, p0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v1}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v1}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 2
-    invoke-static {v1, v1, v0}, Lkotlin/internal/l;->a(III)Z
+    invoke-static {v1, v1, v0}, Lcotlin/internal/l;->a(III)Z
 
     move-result v0
 
@@ -131,7 +131,7 @@
 
     const/4 v0, 0x0
 
-    invoke-static {p0, v0}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p0, v0}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     goto :goto_0
 
@@ -146,7 +146,7 @@
 
     .line 4
     :goto_0
-    invoke-static {v1}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object p1
 
@@ -163,10 +163,10 @@
     move-exception v2
 
     .line 6
-    invoke-static {v1}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v1}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 7
-    invoke-static {v1, v1, v0}, Lkotlin/internal/l;->a(III)Z
+    invoke-static {v1, v1, v0}, Lcotlin/internal/l;->a(III)Z
 
     move-result v0
 
@@ -184,13 +184,13 @@
 
     .line 9
     :cond_2
-    invoke-static {p0, p1}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p0, p1}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     .line 10
     :catchall_2
     :cond_3
     :goto_1
-    invoke-static {v1}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v1}, Lcotlin/jvm/internal/c0;->c(I)V
 
     throw v2
 .end method

@@ -8,7 +8,7 @@
     value = "SMAP\nExternalStorageUtils.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ExternalStorageUtils.kt\ncom/commsource/util/ExternalStorageUtils\n*L\n1#1,67:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -117,7 +117,7 @@
 
     const-string v1, "path"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Landroid/graphics/BitmapFactory$Options;

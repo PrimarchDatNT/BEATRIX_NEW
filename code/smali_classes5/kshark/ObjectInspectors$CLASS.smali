@@ -17,7 +17,7 @@
     value = "SMAP\nObjectInspectors.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ObjectInspectors.kt\nkshark/ObjectInspectors$CLASS\n*L\n1#1,156:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Lkshark/ObjectInspectors;",
         "Lkshark/v;",
         "reporter",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "inspect",
         "(Lkshark/v;)V",
         "shark"
@@ -57,7 +57,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, p1, p2, v0}, Lkshark/ObjectInspectors;-><init>(Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, p1, p2, v0}, Lkshark/ObjectInspectors;-><init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -73,7 +73,7 @@
 
     const-string v0, "reporter"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lkshark/v;->a()Lkshark/HeapObject;

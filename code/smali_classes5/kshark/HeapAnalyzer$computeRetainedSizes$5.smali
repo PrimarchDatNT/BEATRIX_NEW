@@ -1,9 +1,9 @@
 .class final Lkshark/HeapAnalyzer$computeRetainedSizes$5;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "HeapAnalyzer.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
@@ -18,16 +18,16 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/p<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/p<",
         "Ljava/lang/Long;",
         "Ljava/lang/Long;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,7 +40,7 @@
         "",
         "instanceId",
         "dominatorId",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(JJ)V",
         "<anonymous>"
@@ -78,7 +78,7 @@
 
     const/4 p1, 0x2
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -103,7 +103,7 @@
 
     invoke-virtual {p0, v0, v1, p1, p2}, Lkshark/HeapAnalyzer$computeRetainedSizes$5;->invoke(JJ)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method
@@ -131,7 +131,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0, v1}, Lcotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -148,7 +148,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lkotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1, v2}, Lcotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -257,9 +257,9 @@
     throw p2
 
     :cond_3
-    new-instance p1, Lkotlin/NoWhenBranchMatchedException;
+    new-instance p1, Lcotlin/NoWhenBranchMatchedException;
 
-    invoke-direct {p1}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+    invoke-direct {p1}, Lcotlin/NoWhenBranchMatchedException;-><init>()V
 
     throw p1
 

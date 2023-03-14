@@ -19,7 +19,7 @@
     value = "SMAP\nVideoPlayComponent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VideoPlayComponent.kt\ncom/commsource/widget/VideoPlayComponent\n*L\n1#1,336:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,17 +33,17 @@
         "Landroid/widget/FrameLayout;",
         "Landroid/view/TextureView$SurfaceTextureListener;",
         "Landroid/media/MediaPlayer$OnErrorListener;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "n",
         "()V",
         "",
         "state",
         "y",
         "(I)V",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "runnable",
         "w",
-        "(Lkotlin/jvm/u/a;)V",
+        "(Lcotlin/jvm/u/a;)V",
         "",
         "path",
         "q",
@@ -133,9 +133,9 @@
         "Landroid/os/HandlerThread;",
         "mediaHandlerThread",
         "Q",
-        "Lkotlin/jvm/u/a;",
+        "Lcotlin/jvm/u/a;",
         "getOnStartRenderCallback",
-        "()Lkotlin/jvm/u/a;",
+        "()Lcotlin/jvm/u/a;",
         "setOnStartRenderCallback",
         "onStartRenderCallback",
         "Landroid/media/MediaPlayer$OnCompletionListener;",
@@ -188,11 +188,11 @@
     .end annotation
 .end field
 
-.field private Q:Lkotlin/jvm/u/a;
+.field private Q:Lcotlin/jvm/u/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -232,7 +232,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
@@ -325,7 +325,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -418,7 +418,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 23
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -750,7 +750,7 @@
     if-nez v1, :cond_4
 
     .line 8
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
     invoke-virtual {v1}, Landroid/os/HandlerThread;->start()V
@@ -762,7 +762,7 @@
 
     if-nez v2, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     invoke-virtual {v2}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
@@ -873,7 +873,7 @@
 
     const-string v3, "context"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
@@ -882,7 +882,7 @@
     if-nez p1, :cond_6
 
     .line 10
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     invoke-virtual {v2, p1}, Landroid/content/res/AssetManager;->openFd(Ljava/lang/String;)Landroid/content/res/AssetFileDescriptor;
@@ -1003,7 +1003,7 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/widget/VideoPlayComponent$play$1;-><init>(Lcom/commsource/widget/VideoPlayComponent;)V
 
-    invoke-direct {p0, v1}, Lcom/commsource/widget/VideoPlayComponent;->w(Lkotlin/jvm/u/a;)V
+    invoke-direct {p0, v1}, Lcom/commsource/widget/VideoPlayComponent;->w(Lcotlin/jvm/u/a;)V
 
     .line 4
     :cond_0
@@ -1049,13 +1049,13 @@
     return-void
 .end method
 
-.method private final w(Lkotlin/jvm/u/a;)V
+.method private final w(Lcotlin/jvm/u/a;)V
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1086,7 +1086,7 @@
 
     new-instance v2, Lcom/commsource/widget/e1;
 
-    invoke-direct {v2, p1}, Lcom/commsource/widget/e1;-><init>(Lkotlin/jvm/u/a;)V
+    invoke-direct {v2, p1}, Lcom/commsource/widget/e1;-><init>(Lcotlin/jvm/u/a;)V
 
     move-object p1, v2
 
@@ -1225,13 +1225,13 @@
     return-object v1
 .end method
 
-.method public final getOnStartRenderCallback()Lkotlin/jvm/u/a;
+.method public final getOnStartRenderCallback()Lcotlin/jvm/u/a;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -1244,7 +1244,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/widget/VideoPlayComponent;->Q:Lkotlin/jvm/u/a;
+    iget-object v1, p0, Lcom/commsource/widget/VideoPlayComponent;->Q:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1320,7 +1320,7 @@
 
     const-string p3, "surface"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/widget/VideoPlayComponent;->g:Landroid/graphics/SurfaceTexture;
@@ -1367,7 +1367,7 @@
 
     const-string v1, "surface"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1390,7 +1390,7 @@
 
     const-string p3, "surface"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1411,7 +1411,7 @@
 
     const-string v1, "surface"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Lcom/commsource/widget/VideoPlayComponent;->A()V
@@ -1486,7 +1486,7 @@
 
     invoke-direct {v2, v1, p0}, Lcom/commsource/widget/VideoPlayComponent$pause$$inlined$let$lambda$1;-><init>(Landroid/media/MediaPlayer;Lcom/commsource/widget/VideoPlayComponent;)V
 
-    invoke-direct {p0, v2}, Lcom/commsource/widget/VideoPlayComponent;->w(Lkotlin/jvm/u/a;)V
+    invoke-direct {p0, v2}, Lcom/commsource/widget/VideoPlayComponent;->w(Lcotlin/jvm/u/a;)V
 
     .line 5
     :cond_1
@@ -1529,17 +1529,17 @@
     return-void
 .end method
 
-.method public final setOnStartRenderCallback(Lkotlin/jvm/u/a;)V
+.method public final setOnStartRenderCallback(Lcotlin/jvm/u/a;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1549,7 +1549,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/widget/VideoPlayComponent;->Q:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/widget/VideoPlayComponent;->Q:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1645,7 +1645,7 @@
 
     invoke-direct {v2, v1, p0}, Lcom/commsource/widget/VideoPlayComponent$resume$$inlined$let$lambda$1;-><init>(Landroid/media/MediaPlayer;Lcom/commsource/widget/VideoPlayComponent;)V
 
-    invoke-direct {p0, v2}, Lcom/commsource/widget/VideoPlayComponent;->w(Lkotlin/jvm/u/a;)V
+    invoke-direct {p0, v2}, Lcom/commsource/widget/VideoPlayComponent;->w(Lcotlin/jvm/u/a;)V
 
     .line 5
     :cond_1
@@ -1667,7 +1667,7 @@
 
     const-string v1, "videoPath"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, -0x1
 
@@ -1729,7 +1729,7 @@
 
     invoke-direct {v2, v1, p0}, Lcom/commsource/widget/VideoPlayComponent$stop$$inlined$let$lambda$1;-><init>(Landroid/media/MediaPlayer;Lcom/commsource/widget/VideoPlayComponent;)V
 
-    invoke-direct {p0, v2}, Lcom/commsource/widget/VideoPlayComponent;->w(Lkotlin/jvm/u/a;)V
+    invoke-direct {p0, v2}, Lcom/commsource/widget/VideoPlayComponent;->w(Lcotlin/jvm/u/a;)V
 
     .line 5
     :cond_1

@@ -1,14 +1,14 @@
 .class final Lcom/commsource/studio/ImageStudioViewModel$addImageFromAlbum$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "ImageStudioViewModel.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/commsource/studio/ImageStudioViewModel;->G(Landroidx/fragment/app/FragmentActivity;Lkotlin/jvm/u/a;)V
+    value = Lcom/commsource/studio/ImageStudioViewModel;->G(Landroidx/fragment/app/FragmentActivity;Lcotlin/jvm/u/a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,15 +18,15 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Lcom/commsource/cloudalbum/bean/CAImageInfo;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
     d2 = {
         "Lcom/commsource/cloudalbum/bean/CAImageInfo;",
         "info",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(Lcom/commsource/cloudalbum/bean/CAImageInfo;)V",
         "<anonymous>"
@@ -53,22 +53,22 @@
 
 
 # instance fields
-.field final synthetic $endAction:Lkotlin/jvm/u/a;
+.field final synthetic $endAction:Lcotlin/jvm/u/a;
 
 .field final synthetic this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
 
 # direct methods
-.method constructor <init>(Lcom/commsource/studio/ImageStudioViewModel;Lkotlin/jvm/u/a;)V
+.method constructor <init>(Lcom/commsource/studio/ImageStudioViewModel;Lcotlin/jvm/u/a;)V
     .locals 0
 
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel$addImageFromAlbum$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
-    iput-object p2, p0, Lcom/commsource/studio/ImageStudioViewModel$addImageFromAlbum$1;->$endAction:Lkotlin/jvm/u/a;
+    iput-object p2, p0, Lcom/commsource/studio/ImageStudioViewModel$addImageFromAlbum$1;->$endAction:Lcotlin/jvm/u/a;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -87,7 +87,7 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioViewModel$addImageFromAlbum$1;->invoke(Lcom/commsource/cloudalbum/bean/CAImageInfo;)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -107,7 +107,7 @@
 
     const-string v1, "info"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$addImageFromAlbum$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
@@ -192,7 +192,7 @@
 
     const/4 v8, 0x0
 
-    invoke-static/range {v2 .. v8}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v8}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 9
     :cond_0

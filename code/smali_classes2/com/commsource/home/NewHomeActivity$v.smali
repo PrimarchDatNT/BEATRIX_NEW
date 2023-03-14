@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Landroid/os/CountDownTimer;",
         "",
         "millisUntilFinished",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onTick",
         "(J)V",
         "onFinish",
@@ -113,7 +113,7 @@
 
     const-string v3, "subscribeViewModel"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/commsource/billing/activity/SubscribeViewModel;->z0()Lcom/commsource/billing/SubUserType;
 

@@ -12,7 +12,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,16 +28,16 @@
         "",
         "D",
         "()I",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "A",
         "()V",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "X",
-        "Lkotlin/jvm/u/a;",
+        "Lcotlin/jvm/u/a;",
         "J",
-        "()Lkotlin/jvm/u/a;",
+        "()Lcotlin/jvm/u/a;",
         "K",
-        "(Lkotlin/jvm/u/a;)V",
+        "(Lcotlin/jvm/u/a;)V",
         "cancel",
         "<init>",
         "app_googleplayRelease"
@@ -52,11 +52,11 @@
 
 
 # instance fields
-.field private X:Lkotlin/jvm/u/a;
+.field private X:Lcotlin/jvm/u/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -208,13 +208,13 @@
     return-object v1
 .end method
 
-.method public final J()Lkotlin/jvm/u/a;
+.method public final J()Lcotlin/jvm/u/a;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -227,24 +227,24 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/widget/dialog/h0;->X:Lkotlin/jvm/u/a;
+    iget-object v1, p0, Lcom/commsource/widget/dialog/h0;->X:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 .end method
 
-.method public final K(Lkotlin/jvm/u/a;)V
+.method public final K(Lcotlin/jvm/u/a;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -254,7 +254,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/widget/dialog/h0;->X:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/widget/dialog/h0;->X:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

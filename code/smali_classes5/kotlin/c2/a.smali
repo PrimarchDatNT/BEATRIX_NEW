@@ -1,10 +1,10 @@
-.class public final Lkotlin/c2/a;
+.class public final Lcotlin/c2/a;
 .super Ljava/lang/Object;
 .source "AutoCloseable.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -17,13 +17,13 @@
         "Ljava/lang/AutoCloseable;",
         "T",
         "R",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "block",
         "b",
-        "(Ljava/lang/AutoCloseable;Lkotlin/jvm/u/l;)Ljava/lang/Object;",
+        "(Ljava/lang/AutoCloseable;Lcotlin/jvm/u/l;)Ljava/lang/Object;",
         "",
         "cause",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/AutoCloseable;Ljava/lang/Throwable;)V",
         "kotlin-stdlib-jdk7"
@@ -37,7 +37,7 @@
     pn = "kotlin"
 .end annotation
 
-.annotation build Lkotlin/jvm/g;
+.annotation build Lcotlin/jvm/g;
     name = "AutoCloseableKt"
 .end annotation
 
@@ -53,10 +53,10 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -91,7 +91,7 @@
     return-void
 .end method
 
-.method private static final b(Ljava/lang/AutoCloseable;Lkotlin/jvm/u/l;)Ljava/lang/Object;
+.method private static final b(Ljava/lang/AutoCloseable;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -100,15 +100,15 @@
             "R:",
             "Ljava/lang/Object;",
             ">(TT;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+TR;>;)TR;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -116,20 +116,20 @@
 
     .line 1
     :try_start_0
-    invoke-interface {p1, p0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
     const/4 v1, 0x0
 
     .line 2
-    invoke-static {p0, v1}, Lkotlin/c2/a;->a(Ljava/lang/AutoCloseable;Ljava/lang/Throwable;)V
+    invoke-static {p0, v1}, Lcotlin/c2/a;->a(Ljava/lang/AutoCloseable;Ljava/lang/Throwable;)V
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object p1
 
@@ -146,12 +146,12 @@
     move-exception v1
 
     .line 4
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 5
-    invoke-static {p0, p1}, Lkotlin/c2/a;->a(Ljava/lang/AutoCloseable;Ljava/lang/Throwable;)V
+    invoke-static {p0, p1}, Lcotlin/c2/a;->a(Ljava/lang/AutoCloseable;Ljava/lang/Throwable;)V
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     throw v1
 .end method

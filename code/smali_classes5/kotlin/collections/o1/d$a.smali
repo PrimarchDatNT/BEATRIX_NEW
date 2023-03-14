@@ -1,11 +1,11 @@
-.class final Lkotlin/collections/o1/d$a;
+.class final Lcotlin/collections/o1/d$a;
 .super Ljava/lang/Object;
 .source "MapBuilder.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/collections/o1/d;
+    value = Lcotlin/collections/o1/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -59,31 +59,31 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/collections/o1/d$a;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/o1/d$a;-><init>()V
 
     return-void
 .end method
 
-.method public static final synthetic a(Lkotlin/collections/o1/d$a;I)I
+.method public static final synthetic a(Lcotlin/collections/o1/d$a;I)I
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lkotlin/collections/o1/d$a;->c(I)I
+    invoke-direct {p0, p1}, Lcotlin/collections/o1/d$a;->c(I)I
 
     move-result p0
 
     return p0
 .end method
 
-.method public static final synthetic b(Lkotlin/collections/o1/d$a;I)I
+.method public static final synthetic b(Lcotlin/collections/o1/d$a;I)I
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lkotlin/collections/o1/d$a;->d(I)I
+    invoke-direct {p0, p1}, Lcotlin/collections/o1/d$a;->d(I)I
 
     move-result p0
 
@@ -96,7 +96,7 @@
     const/4 v0, 0x1
 
     .line 1
-    invoke-static {p1, v0}, Lkotlin/g2/o;->n(II)I
+    invoke-static {p1, v0}, Lcotlin/g2/o;->n(II)I
 
     move-result p1
 

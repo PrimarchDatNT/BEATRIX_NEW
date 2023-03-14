@@ -17,7 +17,7 @@
     value = "SMAP\nDoodleFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DoodleFragment.kt\ncom/commsource/studio/doodle/DoodleFragment$initListener$3\n*L\n1#1,774:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Landroidx/viewpager/widget/ViewPager$SimpleOnPageChangeListener;",
         "",
         "position",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onPageSelected",
         "(I)V",
         "app_googleplayRelease"
@@ -232,11 +232,11 @@
 
     .line 14
     :cond_5
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type com.commsource.studio.doodle.NewDoodleCategory"
 
-    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

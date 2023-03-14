@@ -1,14 +1,14 @@
-.class public final Lkotlin/sequences/SequencesKt___SequencesKt$minus$2;
+.class public final Lcotlin/sequences/SequencesKt___SequencesKt$minus$2;
 .super Ljava/lang/Object;
 .source "_Sequences.kt"
 
 # interfaces
-.implements Lkotlin/sequences/m;
+.implements Lcotlin/sequences/m;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/sequences/SequencesKt___SequencesKt;->W1(Lkotlin/sequences/m;[Ljava/lang/Object;)Lkotlin/sequences/m;
+    value = Lcotlin/sequences/SequencesKt___SequencesKt;->W1(Lcotlin/sequences/m;[Ljava/lang/Object;)Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,12 +19,12 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/sequences/m<",
+        "Lcotlin/sequences/m<",
         "TT;>;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,7 +35,7 @@
     }
     d2 = {
         "kotlin/sequences/SequencesKt___SequencesKt$minus$2",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "",
         "iterator",
         "()Ljava/util/Iterator;",
@@ -51,18 +51,18 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/sequences/m;
+.field final synthetic a:Lcotlin/sequences/m;
 
 .field final synthetic b:[Ljava/lang/Object;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/sequences/m;[Ljava/lang/Object;)V
+.method constructor <init>(Lcotlin/sequences/m;[Ljava/lang/Object;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "+TT;>;[",
             "Ljava/lang/Object;",
             ")V"
@@ -70,9 +70,9 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$minus$2;->a:Lkotlin/sequences/m;
+    iput-object p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$2;->a:Lcotlin/sequences/m;
 
-    iput-object p2, p0, Lkotlin/sequences/SequencesKt___SequencesKt$minus$2;->b:[Ljava/lang/Object;
+    iput-object p2, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$2;->b:[Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -95,24 +95,24 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/sequences/SequencesKt___SequencesKt$minus$2;->b:[Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$2;->b:[Ljava/lang/Object;
 
-    invoke-static {v0}, Lkotlin/collections/k;->ky([Ljava/lang/Object;)Ljava/util/HashSet;
+    invoke-static {v0}, Lcotlin/collections/k;->ky([Ljava/lang/Object;)Ljava/util/HashSet;
 
     move-result-object v0
 
     .line 2
-    iget-object v1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$minus$2;->a:Lkotlin/sequences/m;
+    iget-object v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$minus$2;->a:Lcotlin/sequences/m;
 
-    new-instance v2, Lkotlin/sequences/SequencesKt___SequencesKt$minus$2$iterator$1;
+    new-instance v2, Lcotlin/sequences/SequencesKt___SequencesKt$minus$2$iterator$1;
 
-    invoke-direct {v2, v0}, Lkotlin/sequences/SequencesKt___SequencesKt$minus$2$iterator$1;-><init>(Ljava/util/HashSet;)V
+    invoke-direct {v2, v0}, Lcotlin/sequences/SequencesKt___SequencesKt$minus$2$iterator$1;-><init>(Ljava/util/HashSet;)V
 
-    invoke-static {v1, v2}, Lkotlin/sequences/SequencesKt___SequencesKt;->n0(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v1, v2}, Lcotlin/sequences/SequencesKt___SequencesKt;->n0(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 

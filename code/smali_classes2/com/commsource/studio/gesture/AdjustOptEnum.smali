@@ -18,7 +18,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -456,7 +456,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {v1, v0}, Lcom/commsource/studio/gesture/AdjustOptEnum$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v0}, Lcom/commsource/studio/gesture/AdjustOptEnum$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/gesture/AdjustOptEnum;->Companion:Lcom/commsource/studio/gesture/AdjustOptEnum$a;
 
@@ -477,7 +477,7 @@
     aput-object v16, v0, v11
 
     .line 14
-    invoke-static {v0}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v0}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v0
 
@@ -490,7 +490,7 @@
     aput-object v15, v0, v4
 
     .line 15
-    invoke-static {v0}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v0}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v0
 

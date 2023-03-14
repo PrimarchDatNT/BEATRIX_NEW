@@ -20,7 +20,7 @@
     value = "SMAP\nDoodlePagerFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DoodlePagerFragment.kt\ncom/commsource/studio/doodle/DoodlePagerFragment$initView$2\n*L\n1#1,314:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "item",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(ZILcom/commsource/widget/h1/d;)V"
     }
@@ -88,7 +88,7 @@
     const-string p1, "item"
 
     .line 1
-    invoke-static {p3, p1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p3}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -176,11 +176,11 @@
 
     .line 13
     :cond_2
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p3, "null cannot be cast to non-null type com.commsource.studio.doodle.DoodleMaterial"
 
-    invoke-direct {p1, p3}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p3}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

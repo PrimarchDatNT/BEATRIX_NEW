@@ -1,11 +1,11 @@
-.class public final Lkotlin/contracts/c$a;
+.class public final Lcotlin/contracts/c$a;
 .super Ljava/lang/Object;
 .source "ContractBuilder.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/contracts/c;
+    value = Lcotlin/contracts/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
 
 
 # direct methods
-.method public static synthetic a(Lkotlin/contracts/c;Lkotlin/r;Lkotlin/contracts/InvocationKind;ILjava/lang/Object;)Lkotlin/contracts/a;
+.method public static synthetic a(Lcotlin/contracts/c;Lcotlin/r;Lcotlin/contracts/InvocationKind;ILjava/lang/Object;)Lcotlin/contracts/a;
     .locals 0
 
     if-nez p4, :cond_1
@@ -41,10 +41,10 @@
     if-eqz p3, :cond_0
 
     .line 1
-    sget-object p2, Lkotlin/contracts/InvocationKind;->UNKNOWN:Lkotlin/contracts/InvocationKind;
+    sget-object p2, Lcotlin/contracts/InvocationKind;->UNKNOWN:Lcotlin/contracts/InvocationKind;
 
     :cond_0
-    invoke-interface {p0, p1, p2}, Lkotlin/contracts/c;->d(Lkotlin/r;Lkotlin/contracts/InvocationKind;)Lkotlin/contracts/a;
+    invoke-interface {p0, p1, p2}, Lcotlin/contracts/c;->d(Lcotlin/r;Lcotlin/contracts/InvocationKind;)Lcotlin/contracts/a;
 
     move-result-object p0
 

@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "viewPortY",
         "LLandroid/view/MotionEvent;;",
         "motionEvent",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onStartSingleFingerScroll",
         "(FFLLandroid/view/MotionEvent;;)V",
         "L;",
@@ -84,7 +84,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->a(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
@@ -107,7 +107,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->b(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
@@ -130,7 +130,7 @@
 
     const-string p2, "motionEvent"
 
-    invoke-static {p3, p2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p2, p0, Lcom/commsource/studio/sticker/EraserFragment$b;->a:Lcom/commsource/studio/sticker/EraserFragment;
@@ -143,7 +143,7 @@
 
     const-string p3, "mViewBinding.contrast"
 
-    invoke-static {p2, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 p3, 0x2c
 
@@ -155,7 +155,7 @@
 
     const/4 v2, 0x2
 
-    invoke-static {p2, v0, v1, v2, v1}, Lcom/commsource/util/l0;->m0(Landroid/view/View;FLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p2, v0, v1, v2, v1}, Lcom/commsource/util/l0;->m0(Landroid/view/View;FLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 2
     iget-object p2, p0, Lcom/commsource/studio/sticker/EraserFragment$b;->a:Lcom/commsource/studio/sticker/EraserFragment;
@@ -168,13 +168,13 @@
 
     const-string v0, "mViewBinding.undoRedo"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p3}, Lcom/commsource/util/l0;->p(I)F
 
     move-result p3
 
-    invoke-static {p2, p3, v1, v2, v1}, Lcom/commsource/util/l0;->m0(Landroid/view/View;FLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p2, p3, v1, v2, v1}, Lcom/commsource/util/l0;->m0(Landroid/view/View;FLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 3
     iget-object p2, p0, Lcom/commsource/studio/sticker/EraserFragment$b;->a:Lcom/commsource/studio/sticker/EraserFragment;
@@ -203,7 +203,7 @@
 
     const/4 p3, 0x1
 
-    invoke-static {p2, p3, v1, v2, v1}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p2, p3, v1, v2, v1}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -224,7 +224,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->e(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
@@ -256,7 +256,7 @@
 
     const-string p3, "mViewBinding.contrast"
 
-    invoke-static {p2, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p3, 0x0
 
@@ -264,7 +264,7 @@
 
     const/4 p5, 0x2
 
-    invoke-static {p2, p3, p4, p5, p4}, Lcom/commsource/util/l0;->o0(Landroid/view/View;FLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p2, p3, p4, p5, p4}, Lcom/commsource/util/l0;->o0(Landroid/view/View;FLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 2
     iget-object p2, p0, Lcom/commsource/studio/sticker/EraserFragment$b;->a:Lcom/commsource/studio/sticker/EraserFragment;
@@ -277,9 +277,9 @@
 
     const-string v0, "mViewBinding.undoRedo"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {p2, p3, p4, p5, p4}, Lcom/commsource/util/l0;->o0(Landroid/view/View;FLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p2, p3, p4, p5, p4}, Lcom/commsource/util/l0;->o0(Landroid/view/View;FLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 3
     iget-object p2, p0, Lcom/commsource/studio/sticker/EraserFragment$b;->a:Lcom/commsource/studio/sticker/EraserFragment;
@@ -308,7 +308,7 @@
 
     const/4 p3, 0x1
 
-    invoke-static {p2, p3, p4, p5, p4}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p2, p3, p4, p5, p4}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

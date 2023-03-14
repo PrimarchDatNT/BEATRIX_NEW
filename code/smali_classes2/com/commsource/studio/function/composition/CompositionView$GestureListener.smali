@@ -17,7 +17,7 @@
     value = "SMAP\nCompitionView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CompitionView.kt\ncom/commsource/studio/function/composition/CompositionView$GestureListener\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,782:1\n1819#2,2:783\n*E\n*S KotlinDebug\n*F\n+ 1 CompitionView.kt\ncom/commsource/studio/function/composition/CompositionView$GestureListener\n*L\n309#1,2:783\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -101,7 +101,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
@@ -118,7 +118,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getHeight()I
@@ -149,7 +149,7 @@
 
     const-string v0, "focus"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/composition/CompositionView$GestureListener;->c:Lcom/commsource/studio/function/composition/CompositionView;
@@ -251,7 +251,7 @@
 
     const-string v1, "downEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CompositionView$GestureListener;->c:Lcom/commsource/studio/function/composition/CompositionView;
@@ -460,11 +460,11 @@
 
     const-string v1, "downEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "moveEvent"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p1, p0, Lcom/commsource/studio/function/composition/CompositionView$GestureListener;->c:Lcom/commsource/studio/function/composition/CompositionView;
@@ -544,7 +544,7 @@
 
     iget p1, p1, Landroid/graphics/RectF;->bottom:F
 
-    invoke-static {p3, p1}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {p3, p1}, Lcotlin/g2/o;->t(FF)F
 
     move-result p1
 
@@ -556,7 +556,7 @@
 
     move-result-object p4
 
-    invoke-static {p4, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p4}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -568,7 +568,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -580,7 +580,7 @@
 
     add-float/2addr p3, p4
 
-    invoke-static {p1, p3}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p1, p3}, Lcotlin/g2/o;->m(FF)F
 
     move-result p1
 
@@ -609,7 +609,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -621,7 +621,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -633,13 +633,13 @@
 
     sub-float/2addr p4, v1
 
-    invoke-static {p3, p4}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {p3, p4}, Lcotlin/g2/o;->t(FF)F
 
     move-result p3
 
     iget p1, p1, Landroid/graphics/RectF;->top:F
 
-    invoke-static {p3, p1}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p3, p1}, Lcotlin/g2/o;->m(FF)F
 
     move-result p1
 
@@ -662,7 +662,7 @@
 
     iget p1, p1, Landroid/graphics/RectF;->right:F
 
-    invoke-static {p4, p1}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {p4, p1}, Lcotlin/g2/o;->t(FF)F
 
     move-result p1
 
@@ -674,7 +674,7 @@
 
     move-result-object p4
 
-    invoke-static {p4, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p4}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -686,7 +686,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -698,7 +698,7 @@
 
     add-float/2addr p3, p4
 
-    invoke-static {p1, p3}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p1, p3}, Lcotlin/g2/o;->m(FF)F
 
     move-result p1
 
@@ -727,7 +727,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -739,7 +739,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -751,13 +751,13 @@
 
     sub-float/2addr p3, v1
 
-    invoke-static {p4, p3}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {p4, p3}, Lcotlin/g2/o;->t(FF)F
 
     move-result p3
 
     iget p1, p1, Landroid/graphics/RectF;->left:F
 
-    invoke-static {p3, p1}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p3, p1}, Lcotlin/g2/o;->m(FF)F
 
     move-result p1
 
@@ -846,7 +846,7 @@
 
     iget p3, p1, Landroid/graphics/RectF;->right:F
 
-    invoke-static {v6, p3}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v6, p3}, Lcotlin/g2/o;->t(FF)F
 
     move-result p3
 
@@ -858,7 +858,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v7}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -870,7 +870,7 @@
 
     move-result-object v8
 
-    invoke-static {v8, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v8}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -882,7 +882,7 @@
 
     add-float/2addr v6, v7
 
-    invoke-static {p3, v6}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p3, v6}, Lcotlin/g2/o;->m(FF)F
 
     move-result p3
 
@@ -897,7 +897,7 @@
 
     iget p4, p1, Landroid/graphics/RectF;->bottom:F
 
-    invoke-static {v6, p4}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v6, p4}, Lcotlin/g2/o;->t(FF)F
 
     move-result p4
 
@@ -909,7 +909,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v7}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -921,7 +921,7 @@
 
     move-result-object v8
 
-    invoke-static {v8, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v8}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -933,7 +933,7 @@
 
     add-float/2addr v6, v7
 
-    invoke-static {p4, v6}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p4, v6}, Lcotlin/g2/o;->m(FF)F
 
     move-result p4
 
@@ -963,7 +963,7 @@
 
     iget p3, p1, Landroid/graphics/RectF;->right:F
 
-    invoke-static {p2, p3}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {p2, p3}, Lcotlin/g2/o;->t(FF)F
 
     move-result p2
 
@@ -975,7 +975,7 @@
 
     move-result-object v6
 
-    invoke-static {v6, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v6}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -987,7 +987,7 @@
 
     move-result-object v6
 
-    invoke-static {v6, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v6}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -999,7 +999,7 @@
 
     add-float/2addr p3, v4
 
-    invoke-static {p2, p3}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p2, p3}, Lcotlin/g2/o;->m(FF)F
 
     move-result p2
 
@@ -1012,7 +1012,7 @@
 
     iget p1, p1, Landroid/graphics/RectF;->bottom:F
 
-    invoke-static {p2, p1}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {p2, p1}, Lcotlin/g2/o;->t(FF)F
 
     move-result p1
 
@@ -1024,7 +1024,7 @@
 
     move-result-object p3
 
-    invoke-static {p3, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p3}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -1036,7 +1036,7 @@
 
     move-result-object p4
 
-    invoke-static {p4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p4}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -1048,7 +1048,7 @@
 
     add-float/2addr p2, p3
 
-    invoke-static {p1, p2}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p1, p2}, Lcotlin/g2/o;->m(FF)F
 
     move-result p1
 
@@ -1137,7 +1137,7 @@
 
     iget p3, p1, Landroid/graphics/RectF;->right:F
 
-    invoke-static {v6, p3}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v6, p3}, Lcotlin/g2/o;->t(FF)F
 
     move-result p3
 
@@ -1149,7 +1149,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v7}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -1161,7 +1161,7 @@
 
     move-result-object v8
 
-    invoke-static {v8, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v8}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -1173,7 +1173,7 @@
 
     add-float/2addr v6, v7
 
-    invoke-static {p3, v6}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p3, v6}, Lcotlin/g2/o;->m(FF)F
 
     move-result p3
 
@@ -1194,7 +1194,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v7}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -1206,7 +1206,7 @@
 
     move-result-object v8
 
-    invoke-static {v8, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v8}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -1218,13 +1218,13 @@
 
     sub-float/2addr p4, v7
 
-    invoke-static {v6, p4}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v6, p4}, Lcotlin/g2/o;->t(FF)F
 
     move-result p4
 
     iget v6, p1, Landroid/graphics/RectF;->top:F
 
-    invoke-static {p4, v6}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p4, v6}, Lcotlin/g2/o;->m(FF)F
 
     move-result p4
 
@@ -1258,7 +1258,7 @@
 
     iget p3, p1, Landroid/graphics/RectF;->right:F
 
-    invoke-static {p2, p3}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {p2, p3}, Lcotlin/g2/o;->t(FF)F
 
     move-result p2
 
@@ -1270,7 +1270,7 @@
 
     move-result-object v6
 
-    invoke-static {v6, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v6}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -1282,7 +1282,7 @@
 
     move-result-object v6
 
-    invoke-static {v6, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v6}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -1294,7 +1294,7 @@
 
     add-float/2addr p3, v4
 
-    invoke-static {p2, p3}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p2, p3}, Lcotlin/g2/o;->m(FF)F
 
     move-result p2
 
@@ -1313,7 +1313,7 @@
 
     move-result-object p4
 
-    invoke-static {p4, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p4}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -1325,7 +1325,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -1337,13 +1337,13 @@
 
     sub-float/2addr p3, p4
 
-    invoke-static {p2, p3}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {p2, p3}, Lcotlin/g2/o;->t(FF)F
 
     move-result p2
 
     iget p1, p1, Landroid/graphics/RectF;->top:F
 
-    invoke-static {p2, p1}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p2, p1}, Lcotlin/g2/o;->m(FF)F
 
     move-result p1
 
@@ -1438,7 +1438,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v7}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -1450,7 +1450,7 @@
 
     move-result-object v8
 
-    invoke-static {v8, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v8}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -1462,13 +1462,13 @@
 
     sub-float/2addr p3, v7
 
-    invoke-static {v6, p3}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v6, p3}, Lcotlin/g2/o;->t(FF)F
 
     move-result p3
 
     iget v6, p1, Landroid/graphics/RectF;->left:F
 
-    invoke-static {p3, v6}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p3, v6}, Lcotlin/g2/o;->m(FF)F
 
     move-result p3
 
@@ -1483,7 +1483,7 @@
 
     iget p4, p1, Landroid/graphics/RectF;->bottom:F
 
-    invoke-static {v6, p4}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v6, p4}, Lcotlin/g2/o;->t(FF)F
 
     move-result p4
 
@@ -1495,7 +1495,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v7}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -1507,7 +1507,7 @@
 
     move-result-object v8
 
-    invoke-static {v8, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v8}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -1519,7 +1519,7 @@
 
     add-float/2addr v6, v7
 
-    invoke-static {p4, v6}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p4, v6}, Lcotlin/g2/o;->m(FF)F
 
     move-result p4
 
@@ -1559,7 +1559,7 @@
 
     move-result-object v6
 
-    invoke-static {v6, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v6}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -1571,7 +1571,7 @@
 
     move-result-object v6
 
-    invoke-static {v6, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v6}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -1583,13 +1583,13 @@
 
     sub-float/2addr p3, v4
 
-    invoke-static {p2, p3}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {p2, p3}, Lcotlin/g2/o;->t(FF)F
 
     move-result p2
 
     iget p3, p1, Landroid/graphics/RectF;->left:F
 
-    invoke-static {p2, p3}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p2, p3}, Lcotlin/g2/o;->m(FF)F
 
     move-result p2
 
@@ -1602,7 +1602,7 @@
 
     iget p1, p1, Landroid/graphics/RectF;->bottom:F
 
-    invoke-static {p2, p1}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {p2, p1}, Lcotlin/g2/o;->t(FF)F
 
     move-result p1
 
@@ -1614,7 +1614,7 @@
 
     move-result-object p3
 
-    invoke-static {p3, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p3}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -1626,7 +1626,7 @@
 
     move-result-object p4
 
-    invoke-static {p4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p4}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -1638,7 +1638,7 @@
 
     add-float/2addr p2, p3
 
-    invoke-static {p1, p2}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p1, p2}, Lcotlin/g2/o;->m(FF)F
 
     move-result p1
 
@@ -1733,7 +1733,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v7}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -1745,7 +1745,7 @@
 
     move-result-object v8
 
-    invoke-static {v8, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v8}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -1757,13 +1757,13 @@
 
     sub-float/2addr p3, v7
 
-    invoke-static {v6, p3}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v6, p3}, Lcotlin/g2/o;->t(FF)F
 
     move-result p3
 
     iget v6, p1, Landroid/graphics/RectF;->left:F
 
-    invoke-static {p3, v6}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p3, v6}, Lcotlin/g2/o;->m(FF)F
 
     move-result p3
 
@@ -1784,7 +1784,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v7}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -1796,7 +1796,7 @@
 
     move-result-object v8
 
-    invoke-static {v8, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v8}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -1808,13 +1808,13 @@
 
     sub-float/2addr p4, v7
 
-    invoke-static {v6, p4}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v6, p4}, Lcotlin/g2/o;->t(FF)F
 
     move-result p4
 
     iget v6, p1, Landroid/graphics/RectF;->top:F
 
-    invoke-static {p4, v6}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p4, v6}, Lcotlin/g2/o;->m(FF)F
 
     move-result p4
 
@@ -1850,7 +1850,7 @@
 
     move-result-object v6
 
-    invoke-static {v6, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v6}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -1862,7 +1862,7 @@
 
     move-result-object v6
 
-    invoke-static {v6, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v6}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -1874,13 +1874,13 @@
 
     sub-float/2addr p3, v4
 
-    invoke-static {p2, p3}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {p2, p3}, Lcotlin/g2/o;->t(FF)F
 
     move-result p2
 
     iget p3, p1, Landroid/graphics/RectF;->left:F
 
-    invoke-static {p2, p3}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p2, p3}, Lcotlin/g2/o;->m(FF)F
 
     move-result p2
 
@@ -1899,7 +1899,7 @@
 
     move-result-object p4
 
-    invoke-static {p4, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p4}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -1911,7 +1911,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -1923,13 +1923,13 @@
 
     sub-float/2addr p3, p4
 
-    invoke-static {p2, p3}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {p2, p3}, Lcotlin/g2/o;->t(FF)F
 
     move-result p2
 
     iget p1, p1, Landroid/graphics/RectF;->top:F
 
-    invoke-static {p2, p1}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {p2, p1}, Lcotlin/g2/o;->m(FF)F
 
     move-result p1
 

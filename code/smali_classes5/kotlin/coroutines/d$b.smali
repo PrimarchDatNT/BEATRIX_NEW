@@ -1,14 +1,14 @@
-.class public final Lkotlin/coroutines/d$b;
+.class public final Lcotlin/coroutines/d$b;
 .super Ljava/lang/Object;
 .source "ContinuationInterceptor.kt"
 
 # interfaces
-.implements Lkotlin/coroutines/CoroutineContext$b;
+.implements Lcotlin/coroutines/CoroutineContext$b;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/coroutines/d;
+    value = Lcotlin/coroutines/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,13 +19,13 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/coroutines/CoroutineContext$b<",
-        "Lkotlin/coroutines/d;",
+        "Lcotlin/coroutines/CoroutineContext$b<",
+        "Lcotlin/coroutines/d;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,8 +36,8 @@
     }
     d2 = {
         "kotlin/coroutines/d$b",
-        "Lkotlin/coroutines/CoroutineContext$b;",
-        "Lkotlin/coroutines/d;",
+        "Lcotlin/coroutines/CoroutineContext$b;",
+        "Lcotlin/coroutines/d;",
         "<init>",
         "()V",
         "kotlin-stdlib"
@@ -52,7 +52,7 @@
 
 
 # static fields
-.field static final synthetic a:Lkotlin/coroutines/d$b;
+.field static final synthetic a:Lcotlin/coroutines/d$b;
 
 
 # direct methods
@@ -60,11 +60,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lkotlin/coroutines/d$b;
+    new-instance v0, Lcotlin/coroutines/d$b;
 
-    invoke-direct {v0}, Lkotlin/coroutines/d$b;-><init>()V
+    invoke-direct {v0}, Lcotlin/coroutines/d$b;-><init>()V
 
-    sput-object v0, Lkotlin/coroutines/d$b;->a:Lkotlin/coroutines/d$b;
+    sput-object v0, Lcotlin/coroutines/d$b;->a:Lcotlin/coroutines/d$b;
 
     return-void
 .end method

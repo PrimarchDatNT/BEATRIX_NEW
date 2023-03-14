@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "",
         "width",
         "height",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/video/render/c;II)V",
         "format",
@@ -84,7 +84,7 @@
 
     const-string p3, "renderHolder"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p3, p0, Lcom/commsource/video/view/XVideoRenderView$render$2$a;->a:Lcom/commsource/video/view/XVideoRenderView$render$2;
@@ -119,7 +119,7 @@
 
     const-string p3, "renderHolder"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -140,7 +140,7 @@
 
     const-string v1, "renderHolder"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p1, p0, Lcom/commsource/video/view/XVideoRenderView$render$2$a;->a:Lcom/commsource/video/view/XVideoRenderView$render$2;

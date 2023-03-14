@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;
-.super Lkotlin/coroutines/jvm/internal/ContinuationImpl;
+.class public final Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;
+.super Lcotlin/coroutines/jvm/internal/ContinuationImpl;
 .source "Reduce.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/FlowKt__ReduceKt;->e(Lkotlinx/coroutines/flow/d;Ljava/lang/Object;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/flow/FlowKt__ReduceKt;->e(Lcotlinx/coroutines/flow/d;Ljava/lang/Object;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,7 +17,7 @@
     value = "SMAP\nReduce.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Reduce.kt\nkotlinx/coroutines/flow/FlowKt__ReduceKt\n*L\n1#1,158:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,14 +29,14 @@
     d2 = {
         "T",
         "R",
-        "Lkotlinx/coroutines/flow/d;",
+        "Lcotlinx/coroutines/flow/d;",
         "initial",
-        "Lkotlin/Function3;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function3;",
+        "Lcotlin/k0;",
         "name",
         "acc",
         "value",
-        "Lkotlin/coroutines/c;",
+        "Lcotlin/coroutines/c;",
         "",
         "operation",
         "continuation",
@@ -50,7 +50,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.flow.FlowKt__ReduceKt"
     f = "Reduce.kt"
     i = {
@@ -98,10 +98,10 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/coroutines/c;)V
+.method public constructor <init>(Lcotlin/coroutines/c;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {p0, p1}, Lcotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lcotlin/coroutines/c;)V
 
     return-void
 .end method
@@ -117,19 +117,19 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->result:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->result:Ljava/lang/Object;
 
-    iget p1, p0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->label:I
+    iget p1, p0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->label:I
 
     const/high16 v0, -0x80000000
 
     or-int/2addr p1, v0
 
-    iput p1, p0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->label:I
+    iput p1, p0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->label:I
 
     const/4 p1, 0x0
 
-    invoke-static {p1, p1, p1, p0}, Lkotlinx/coroutines/flow/f;->O0(Lkotlinx/coroutines/flow/d;Ljava/lang/Object;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p1, p1, p1, p0}, Lcotlinx/coroutines/flow/f;->O0(Lcotlinx/coroutines/flow/d;Ljava/lang/Object;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 

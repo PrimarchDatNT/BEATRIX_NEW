@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/internal/j0;
+.class public final Lcotlinx/coroutines/internal/j0;
 .super Ljava/lang/Object;
 .source "ThreadLocal.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,

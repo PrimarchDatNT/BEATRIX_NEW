@@ -1,12 +1,12 @@
-.class public final Lkotlin/collections/j;
-.super Lkotlin/collections/e;
+.class public final Lcotlin/collections/j;
+.super Lcotlin/collections/e;
 .source "ArrayDeque.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkotlin/collections/j$a;
+        Lcotlin/collections/j$a;
     }
 .end annotation
 
@@ -15,7 +15,7 @@
         "<E:",
         "Ljava/lang/Object;",
         ">",
-        "Lkotlin/collections/e<",
+        "Lcotlin/collections/e<",
         "TE;>;"
     }
 .end annotation
@@ -24,7 +24,7 @@
     value = "SMAP\nArrayDeque.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ArrayDeque.kt\nkotlin/collections/ArrayDeque\n+ 2 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,567:1\n467#1,51:568\n467#1,51:619\n37#2,2:670\n*E\n*S KotlinDebug\n*F\n+ 1 ArrayDeque.kt\nkotlin/collections/ArrayDeque\n*L\n462#1,51:568\n464#1,51:619\n47#1,2:670\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,12 +34,12 @@
         "\u0000D\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u000e\n\u0002\u0010\u001e\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\u0008%\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0011\n\u0002\u0010\u0000\n\u0002\u0008\u0010\u0008\u0007\u0018\u0000 S*\u0004\u0008\u0000\u0010\u00012\u0008\u0012\u0004\u0012\u00028\u00000\u0002:\u0001OB\u0011\u0008\u0016\u0012\u0006\u0010P\u001a\u00020\u0003\u00a2\u0006\u0004\u0008Q\u0010\u0007B\t\u0008\u0016\u00a2\u0006\u0004\u0008Q\u0010>B\u0017\u0008\u0016\u0012\u000c\u0010\u0015\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0014\u00a2\u0006\u0004\u0008Q\u0010RJ\u0017\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0004\u001a\u00020\u0003H\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u0017\u0010\t\u001a\u00020\u00052\u0006\u0010\u0008\u001a\u00020\u0003H\u0002\u00a2\u0006\u0004\u0008\t\u0010\u0007J\u0018\u0010\u000b\u001a\u00028\u00002\u0006\u0010\n\u001a\u00020\u0003H\u0083\u0008\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u0017\u0010\u000e\u001a\u00020\u00032\u0006\u0010\r\u001a\u00020\u0003H\u0002\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ\u0017\u0010\u0010\u001a\u00020\u00032\u0006\u0010\r\u001a\u00020\u0003H\u0002\u00a2\u0006\u0004\u0008\u0010\u0010\u000fJ\u0018\u0010\u0011\u001a\u00020\u00032\u0006\u0010\r\u001a\u00020\u0003H\u0083\u0008\u00a2\u0006\u0004\u0008\u0011\u0010\u000fJ\u0017\u0010\u0012\u001a\u00020\u00032\u0006\u0010\r\u001a\u00020\u0003H\u0002\u00a2\u0006\u0004\u0008\u0012\u0010\u000fJ\u0017\u0010\u0013\u001a\u00020\u00032\u0006\u0010\r\u001a\u00020\u0003H\u0002\u00a2\u0006\u0004\u0008\u0013\u0010\u000fJ%\u0010\u0016\u001a\u00020\u00052\u0006\u0010\n\u001a\u00020\u00032\u000c\u0010\u0015\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0014H\u0002\u00a2\u0006\u0004\u0008\u0016\u0010\u0017J$\u0010\u001b\u001a\u00020\u00192\u0012\u0010\u001a\u001a\u000e\u0012\u0004\u0012\u00028\u0000\u0012\u0004\u0012\u00020\u00190\u0018H\u0082\u0008\u00a2\u0006\u0004\u0008\u001b\u0010\u001cJ\u000f\u0010\u001d\u001a\u00020\u0019H\u0016\u00a2\u0006\u0004\u0008\u001d\u0010\u001eJ\r\u0010\u001f\u001a\u00028\u0000\u00a2\u0006\u0004\u0008\u001f\u0010 J\u000f\u0010!\u001a\u0004\u0018\u00018\u0000\u00a2\u0006\u0004\u0008!\u0010 J\r\u0010\"\u001a\u00028\u0000\u00a2\u0006\u0004\u0008\"\u0010 J\u000f\u0010#\u001a\u0004\u0018\u00018\u0000\u00a2\u0006\u0004\u0008#\u0010 J\u0015\u0010%\u001a\u00020\u00052\u0006\u0010$\u001a\u00028\u0000\u00a2\u0006\u0004\u0008%\u0010&J\u0015\u0010\'\u001a\u00020\u00052\u0006\u0010$\u001a\u00028\u0000\u00a2\u0006\u0004\u0008\'\u0010&J\r\u0010(\u001a\u00028\u0000\u00a2\u0006\u0004\u0008(\u0010 J\u000f\u0010)\u001a\u0004\u0018\u00018\u0000\u00a2\u0006\u0004\u0008)\u0010 J\r\u0010*\u001a\u00028\u0000\u00a2\u0006\u0004\u0008*\u0010 J\u000f\u0010+\u001a\u0004\u0018\u00018\u0000\u00a2\u0006\u0004\u0008+\u0010 J\u0017\u0010,\u001a\u00020\u00192\u0006\u0010$\u001a\u00028\u0000H\u0016\u00a2\u0006\u0004\u0008,\u0010-J\u001f\u0010,\u001a\u00020\u00052\u0006\u0010\r\u001a\u00020\u00032\u0006\u0010$\u001a\u00028\u0000H\u0016\u00a2\u0006\u0004\u0008,\u0010.J\u001d\u0010/\u001a\u00020\u00192\u000c\u0010\u0015\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0014H\u0016\u00a2\u0006\u0004\u0008/\u00100J%\u0010/\u001a\u00020\u00192\u0006\u0010\r\u001a\u00020\u00032\u000c\u0010\u0015\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0014H\u0016\u00a2\u0006\u0004\u0008/\u00101J\u0018\u00102\u001a\u00028\u00002\u0006\u0010\r\u001a\u00020\u0003H\u0096\u0002\u00a2\u0006\u0004\u00082\u0010\u000cJ \u00103\u001a\u00028\u00002\u0006\u0010\r\u001a\u00020\u00032\u0006\u0010$\u001a\u00028\u0000H\u0096\u0002\u00a2\u0006\u0004\u00083\u00104J\u0018\u00105\u001a\u00020\u00192\u0006\u0010$\u001a\u00028\u0000H\u0096\u0002\u00a2\u0006\u0004\u00085\u0010-J\u0017\u00106\u001a\u00020\u00032\u0006\u0010$\u001a\u00028\u0000H\u0016\u00a2\u0006\u0004\u00086\u00107J\u0017\u00108\u001a\u00020\u00032\u0006\u0010$\u001a\u00028\u0000H\u0016\u00a2\u0006\u0004\u00088\u00107J\u0017\u00109\u001a\u00020\u00192\u0006\u0010$\u001a\u00028\u0000H\u0016\u00a2\u0006\u0004\u00089\u0010-J\u0017\u0010:\u001a\u00028\u00002\u0006\u0010\r\u001a\u00020\u0003H\u0016\u00a2\u0006\u0004\u0008:\u0010\u000cJ\u001d\u0010;\u001a\u00020\u00192\u000c\u0010\u0015\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0014H\u0016\u00a2\u0006\u0004\u0008;\u00100J\u001d\u0010<\u001a\u00020\u00192\u000c\u0010\u0015\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0014H\u0016\u00a2\u0006\u0004\u0008<\u00100J\u000f\u0010=\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008=\u0010>JO\u0010F\u001a\u00020\u00052>\u0010E\u001a:\u0012\u0013\u0012\u00110\u0003\u00a2\u0006\u000c\u0008@\u0012\u0008\u0008A\u0012\u0004\u0008\u0008(B\u0012\u001b\u0012\u0019\u0012\u0006\u0012\u0004\u0018\u00010D0C\u00a2\u0006\u000c\u0008@\u0012\u0008\u0008A\u0012\u0004\u0008\u0008(\u0015\u0012\u0004\u0012\u00020\u00050?H\u0000\u00a2\u0006\u0004\u0008F\u0010GR$\u0010L\u001a\u00020\u00032\u0006\u0010H\u001a\u00020\u00038\u0016@RX\u0096\u000e\u00a2\u0006\u000c\n\u0004\u0008:\u0010I\u001a\u0004\u0008J\u0010KR\u001e\u0010N\u001a\n\u0012\u0006\u0012\u0004\u0018\u00010D0C8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008J\u0010MR\u0016\u0010B\u001a\u00020\u00038\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008O\u0010I\u00a8\u0006T"
     }
     d2 = {
-        "Lkotlin/collections/j;",
+        "Lcotlin/collections/j;",
         "E",
-        "Lkotlin/collections/e;",
+        "Lcotlin/collections/e;",
         "",
         "minCapacity",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "y",
         "(I)V",
         "newCapacity",
@@ -58,11 +58,11 @@
         "elements",
         "s",
         "(ILjava/util/Collection;)V",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "",
         "predicate",
         "z",
-        "(Lkotlin/jvm/u/l;)Z",
+        "(Lcotlin/jvm/u/l;)Z",
         "isEmpty",
         "()Z",
         "first",
@@ -97,15 +97,15 @@
         "retainAll",
         "clear",
         "()V",
-        "Lkotlin/Function2;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function2;",
+        "Lcotlin/k0;",
         "name",
         "head",
         "",
         "",
         "structure",
         "V",
-        "(Lkotlin/jvm/u/p;)V",
+        "(Lcotlin/jvm/u/p;)V",
         "<set-?>",
         "I",
         "b",
@@ -128,13 +128,13 @@
     }
 .end annotation
 
-.annotation build Lkotlin/s0;
+.annotation build Lcotlin/s0;
     version = "1.4"
 .end annotation
 
-.annotation build Lkotlin/x1;
+.annotation build Lcotlin/x1;
     markerClass = {
-        Lkotlin/o;
+        Lcotlin/o;
     }
 .end annotation
 
@@ -146,7 +146,7 @@
 
 .field private static final g:I = 0xa
 
-.field public static final p:Lkotlin/collections/j$a;
+.field public static final p:Lcotlin/collections/j$a;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -164,20 +164,20 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    new-instance v0, Lkotlin/collections/j$a;
+    new-instance v0, Lcotlin/collections/j$a;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkotlin/collections/j$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcotlin/collections/j$a;-><init>(Lcotlin/jvm/internal/u;)V
 
-    sput-object v0, Lkotlin/collections/j;->p:Lkotlin/collections/j$a;
+    sput-object v0, Lcotlin/collections/j;->p:Lcotlin/collections/j$a;
 
     const/4 v0, 0x0
 
     new-array v0, v0, [Ljava/lang/Object;
 
     .line 1
-    sput-object v0, Lkotlin/collections/j;->d:[Ljava/lang/Object;
+    sput-object v0, Lcotlin/collections/j;->d:[Ljava/lang/Object;
 
     return-void
 .end method
@@ -186,11 +186,11 @@
     .locals 1
 
     .line 6
-    invoke-direct {p0}, Lkotlin/collections/e;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/e;-><init>()V
 
-    sget-object v0, Lkotlin/collections/j;->d:[Ljava/lang/Object;
+    sget-object v0, Lcotlin/collections/j;->d:[Ljava/lang/Object;
 
-    iput-object v0, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iput-object v0, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     return-void
 .end method
@@ -199,12 +199,12 @@
     .locals 3
 
     .line 1
-    invoke-direct {p0}, Lkotlin/collections/e;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/e;-><init>()V
 
     if-nez p1, :cond_0
 
     .line 2
-    sget-object p1, Lkotlin/collections/j;->d:[Ljava/lang/Object;
+    sget-object p1, Lcotlin/collections/j;->d:[Ljava/lang/Object;
 
     goto :goto_0
 
@@ -216,7 +216,7 @@
 
     .line 4
     :goto_0
-    iput-object p1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iput-object p1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     return-void
 
@@ -259,10 +259,10 @@
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 7
-    invoke-direct {p0}, Lkotlin/collections/e;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/e;-><init>()V
 
     const/4 v0, 0x0
 
@@ -277,12 +277,12 @@
 
     invoke-static {p1, v1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    iput-object p1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iput-object p1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     .line 9
     array-length v1, p1
 
-    iput v1, p0, Lkotlin/collections/j;->c:I
+    iput v1, p0, Lcotlin/collections/j;->c:I
 
     .line 10
     array-length p1, p1
@@ -294,9 +294,9 @@
     :cond_0
     if-eqz v0, :cond_1
 
-    sget-object p1, Lkotlin/collections/j;->d:[Ljava/lang/Object;
+    sget-object p1, Lcotlin/collections/j;->d:[Ljava/lang/Object;
 
-    iput-object p1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iput-object p1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     :cond_1
     return-void
@@ -306,9 +306,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
-    invoke-static {v0}, Lkotlin/collections/ArraysKt___ArraysKt;->Rd([Ljava/lang/Object;)I
+    invoke-static {v0}, Lcotlin/collections/ArraysKt___ArraysKt;->Rd([Ljava/lang/Object;)I
 
     move-result v0
 
@@ -333,11 +333,11 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v0
 
@@ -348,79 +348,79 @@
 
 .method private final Q(I)I
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v0
 
     add-int/2addr v0, p1
 
-    invoke-static {p0, v0}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v0}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result p1
 
     return p1
 .end method
 
-.method public static final synthetic e(Lkotlin/collections/j;)[Ljava/lang/Object;
+.method public static final synthetic e(Lcotlin/collections/j;)[Ljava/lang/Object;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object p0, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     return-object p0
 .end method
 
-.method public static final synthetic h(Lkotlin/collections/j;)I
+.method public static final synthetic h(Lcotlin/collections/j;)I
     .locals 0
 
     .line 1
-    iget p0, p0, Lkotlin/collections/j;->a:I
+    iget p0, p0, Lcotlin/collections/j;->a:I
 
     return p0
 .end method
 
-.method public static final synthetic i(Lkotlin/collections/j;)I
+.method public static final synthetic i(Lcotlin/collections/j;)I
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result p0
 
     return p0
 .end method
 
-.method public static final synthetic j(Lkotlin/collections/j;I)I
+.method public static final synthetic j(Lcotlin/collections/j;I)I
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lkotlin/collections/j;->C(I)I
+    invoke-direct {p0, p1}, Lcotlin/collections/j;->C(I)I
 
     move-result p0
 
     return p0
 .end method
 
-.method public static final synthetic k(Lkotlin/collections/j;I)I
+.method public static final synthetic k(Lcotlin/collections/j;I)I
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lkotlin/collections/j;->l0(I)I
+    invoke-direct {p0, p1}, Lcotlin/collections/j;->l0(I)I
 
     move-result p0
 
     return p0
 .end method
 
-.method public static final synthetic l(Lkotlin/collections/j;I)I
+.method public static final synthetic l(Lcotlin/collections/j;I)I
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lkotlin/collections/j;->m0(I)I
+    invoke-direct {p0, p1}, Lcotlin/collections/j;->m0(I)I
 
     move-result p0
 
@@ -433,7 +433,7 @@
     if-gez p1, :cond_0
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v0, v0
 
@@ -443,11 +443,11 @@
     return p1
 .end method
 
-.method public static final synthetic m(Lkotlin/collections/j;[Ljava/lang/Object;)V
+.method public static final synthetic m(Lcotlin/collections/j;[Ljava/lang/Object;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iput-object p1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     return-void
 .end method
@@ -456,7 +456,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v1, v0
 
@@ -470,20 +470,20 @@
     return p1
 .end method
 
-.method public static final synthetic q(Lkotlin/collections/j;I)V
+.method public static final synthetic q(Lcotlin/collections/j;I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Lkotlin/collections/j;->a:I
+    iput p1, p0, Lcotlin/collections/j;->a:I
 
     return-void
 .end method
 
-.method public static final synthetic r(Lkotlin/collections/j;I)V
+.method public static final synthetic r(Lcotlin/collections/j;I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Lkotlin/collections/j;->c:I
+    iput p1, p0, Lcotlin/collections/j;->c:I
 
     return-void
 .end method
@@ -504,7 +504,7 @@
     move-result-object v0
 
     .line 2
-    iget-object v1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v1, v1
 
@@ -522,7 +522,7 @@
 
     .line 4
     :cond_0
-    iget-object v2, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -539,7 +539,7 @@
     const/4 p1, 0x0
 
     .line 5
-    iget v1, p0, Lkotlin/collections/j;->a:I
+    iget v1, p0, Lcotlin/collections/j;->a:I
 
     :goto_2
     if-ge p1, v1, :cond_3
@@ -555,7 +555,7 @@
 
     .line 7
     :cond_2
-    iget-object v2, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -570,7 +570,7 @@
     .line 8
     :cond_3
     :goto_3
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result p1
 
@@ -580,7 +580,7 @@
 
     add-int/2addr p1, p2
 
-    iput p1, p0, Lkotlin/collections/j;->c:I
+    iput p1, p0, Lcotlin/collections/j;->c:I
 
     return-void
 .end method
@@ -592,32 +592,32 @@
     new-array p1, p1, [Ljava/lang/Object;
 
     .line 2
-    iget-object v0, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
-    iget v1, p0, Lkotlin/collections/j;->a:I
+    iget v1, p0, Lcotlin/collections/j;->a:I
 
     array-length v2, v0
 
     const/4 v3, 0x0
 
-    invoke-static {v0, p1, v3, v1, v2}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v0, p1, v3, v1, v2}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 3
-    iget-object v0, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v1, v0
 
-    iget v2, p0, Lkotlin/collections/j;->a:I
+    iget v2, p0, Lcotlin/collections/j;->a:I
 
     sub-int/2addr v1, v2
 
-    invoke-static {v0, p1, v1, v3, v2}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v0, p1, v1, v3, v2}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 4
-    iput v3, p0, Lkotlin/collections/j;->a:I
+    iput v3, p0, Lcotlin/collections/j;->a:I
 
     .line 5
-    iput-object p1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iput-object p1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     return-void
 .end method
@@ -628,9 +628,9 @@
     if-nez p1, :cond_0
 
     .line 1
-    iget-object p1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object p1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
-    invoke-static {p1}, Lkotlin/collections/ArraysKt___ArraysKt;->Rd([Ljava/lang/Object;)I
+    invoke-static {p1}, Lcotlin/collections/ArraysKt___ArraysKt;->Rd([Ljava/lang/Object;)I
 
     move-result p1
 
@@ -649,7 +649,7 @@
     if-ltz p1, :cond_2
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v1, v0
 
@@ -659,35 +659,35 @@
 
     .line 2
     :cond_0
-    sget-object v1, Lkotlin/collections/j;->d:[Ljava/lang/Object;
+    sget-object v1, Lcotlin/collections/j;->d:[Ljava/lang/Object;
 
     if-ne v0, v1, :cond_1
 
     const/16 v0, 0xa
 
     .line 3
-    invoke-static {p1, v0}, Lkotlin/g2/o;->n(II)I
+    invoke-static {p1, v0}, Lcotlin/g2/o;->n(II)I
 
     move-result p1
 
     new-array p1, p1, [Ljava/lang/Object;
 
-    iput-object p1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iput-object p1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     return-void
 
     .line 4
     :cond_1
-    sget-object v1, Lkotlin/collections/j;->p:Lkotlin/collections/j$a;
+    sget-object v1, Lcotlin/collections/j;->p:Lcotlin/collections/j$a;
 
     array-length v0, v0
 
-    invoke-virtual {v1, v0, p1}, Lkotlin/collections/j$a;->a(II)I
+    invoke-virtual {v1, v0, p1}, Lcotlin/collections/j$a;->a(II)I
 
     move-result p1
 
     .line 5
-    invoke-direct {p0, p1}, Lkotlin/collections/j;->u(I)V
+    invoke-direct {p0, p1}, Lcotlin/collections/j;->u(I)V
 
     return-void
 
@@ -702,12 +702,12 @@
     throw p1
 .end method
 
-.method private final z(Lkotlin/jvm/u/l;)Z
+.method private final z(Lcotlin/jvm/u/l;)Z
     .locals 11
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;",
             "Ljava/lang/Boolean;",
             ">;)Z"
@@ -715,7 +715,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/j;->isEmpty()Z
+    invoke-virtual {p0}, Lcotlin/collections/j;->isEmpty()Z
 
     move-result v0
 
@@ -723,7 +723,7 @@
 
     if-nez v0, :cond_9
 
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v0
 
@@ -747,27 +747,27 @@
 
     .line 2
     :cond_1
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v3
 
     add-int/2addr v3, v0
 
-    invoke-static {p0, v3}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v3}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v0
 
     .line 3
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v3
 
     .line 4
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v4
 
@@ -776,7 +776,7 @@
     if-ge v4, v0, :cond_4
 
     .line 5
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v4
 
@@ -784,14 +784,14 @@
     if-ge v4, v0, :cond_3
 
     .line 6
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v6
 
     aget-object v6, v6, v4
 
     .line 7
-    invoke-interface {p1, v6}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v6}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v7
 
@@ -804,7 +804,7 @@
     if-eqz v7, :cond_2
 
     .line 8
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v7
 
@@ -826,21 +826,21 @@
 
     .line 9
     :cond_3
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-static {p1, v5, v3, v0}, Lkotlin/collections/n;->n2([Ljava/lang/Object;Ljava/lang/Object;II)V
+    invoke-static {p1, v5, v3, v0}, Lcotlin/collections/n;->n2([Ljava/lang/Object;Ljava/lang/Object;II)V
 
     goto :goto_7
 
     .line 10
     :cond_4
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v4
 
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v6
 
@@ -852,21 +852,21 @@
     if-ge v4, v6, :cond_6
 
     .line 11
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v8
 
     aget-object v8, v8, v4
 
     .line 12
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v9
 
     aput-object v5, v9, v4
 
     .line 13
-    invoke-interface {p1, v8}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v8}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
 
@@ -879,7 +879,7 @@
     if-eqz v9, :cond_5
 
     .line 14
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v9
 
@@ -901,7 +901,7 @@
 
     .line 15
     :cond_6
-    invoke-static {p0, v3}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v3}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v3
 
@@ -909,21 +909,21 @@
     if-ge v1, v0, :cond_8
 
     .line 16
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v4
 
     aget-object v4, v4, v1
 
     .line 17
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v6
 
     aput-object v5, v6, v1
 
     .line 18
-    invoke-interface {p1, v4}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v4}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v6
 
@@ -936,14 +936,14 @@
     if-eqz v6, :cond_7
 
     .line 19
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v6
 
     aput-object v4, v6, v3
 
     .line 20
-    invoke-static {p0, v3}, Lkotlin/collections/j;->j(Lkotlin/collections/j;I)I
+    invoke-static {p0, v3}, Lcotlin/collections/j;->j(Lcotlin/collections/j;I)I
 
     move-result v3
 
@@ -964,17 +964,17 @@
     if-eqz v1, :cond_9
 
     .line 21
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result p1
 
     sub-int/2addr v3, p1
 
-    invoke-static {p0, v3}, Lkotlin/collections/j;->k(Lkotlin/collections/j;I)I
+    invoke-static {p0, v3}, Lcotlin/collections/j;->k(Lcotlin/collections/j;I)I
 
     move-result p1
 
-    invoke-static {p0, p1}, Lkotlin/collections/j;->r(Lkotlin/collections/j;I)V
+    invoke-static {p0, p1}, Lcotlin/collections/j;->r(Lcotlin/collections/j;I)V
 
     :cond_9
     :goto_8
@@ -995,7 +995,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/j;->isEmpty()Z
+    invoke-virtual {p0}, Lcotlin/collections/j;->isEmpty()Z
 
     move-result v0
 
@@ -1006,9 +1006,9 @@
     goto :goto_0
 
     :cond_0
-    iget v0, p0, Lkotlin/collections/j;->a:I
+    iget v0, p0, Lcotlin/collections/j;->a:I
 
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1018,46 +1018,46 @@
     return-object v0
 .end method
 
-.method public final V(Lkotlin/jvm/u/p;)V
+.method public final V(Lcotlin/jvm/u/p;)V
     .locals 14
-    .param p1    # Lkotlin/jvm/u/p;
+    .param p1    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Ljava/lang/Integer;",
             "-[",
             "Ljava/lang/Object;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "structure"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v1
 
     add-int/2addr v1, v0
 
-    invoke-static {p0, v1}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v1}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v6
 
     .line 2
-    invoke-virtual {p0}, Lkotlin/collections/j;->isEmpty()Z
+    invoke-virtual {p0}, Lcotlin/collections/j;->isEmpty()Z
 
     move-result v0
 
@@ -1066,7 +1066,7 @@
     if-eqz v0, :cond_0
 
     .line 3
-    iget v0, p0, Lkotlin/collections/j;->a:I
+    iget v0, p0, Lcotlin/collections/j;->a:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1074,25 +1074,25 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    invoke-interface {p1, v0, v1}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0, v1}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 
     .line 4
     :cond_0
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
     new-array v0, v0, [Ljava/lang/Object;
 
     .line 5
-    iget v10, p0, Lkotlin/collections/j;->a:I
+    iget v10, p0, Lcotlin/collections/j;->a:I
 
     if-ge v10, v6, :cond_1
 
     .line 6
-    iget-object v2, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     const/4 v4, 0x0
 
@@ -1104,22 +1104,22 @@
 
     move v5, v10
 
-    invoke-static/range {v2 .. v8}, Lkotlin/collections/k;->l1([Ljava/lang/Object;[Ljava/lang/Object;IIIILjava/lang/Object;)[Ljava/lang/Object;
+    invoke-static/range {v2 .. v8}, Lcotlin/collections/k;->l1([Ljava/lang/Object;[Ljava/lang/Object;IIIILjava/lang/Object;)[Ljava/lang/Object;
 
     .line 7
-    iget v1, p0, Lkotlin/collections/j;->a:I
+    iget v1, p0, Lcotlin/collections/j;->a:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
 
-    invoke-interface {p1, v1, v0}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1, v0}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
     .line 8
     :cond_1
-    iget-object v7, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v7, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     const/4 v9, 0x0
 
@@ -1131,23 +1131,23 @@
 
     move-object v8, v0
 
-    invoke-static/range {v7 .. v13}, Lkotlin/collections/k;->l1([Ljava/lang/Object;[Ljava/lang/Object;IIIILjava/lang/Object;)[Ljava/lang/Object;
+    invoke-static/range {v7 .. v13}, Lcotlin/collections/k;->l1([Ljava/lang/Object;[Ljava/lang/Object;IIIILjava/lang/Object;)[Ljava/lang/Object;
 
     .line 9
-    iget-object v2, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v3, v2
 
-    iget v4, p0, Lkotlin/collections/j;->a:I
+    iget v4, p0, Lcotlin/collections/j;->a:I
 
     sub-int/2addr v3, v4
 
-    invoke-static {v2, v0, v3, v1, v6}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v2, v0, v3, v1, v6}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 10
-    iget v1, p0, Lkotlin/collections/j;->a:I
+    iget v1, p0, Lcotlin/collections/j;->a:I
 
-    iget-object v2, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v2, v2
 
@@ -1157,7 +1157,7 @@
 
     move-result-object v1
 
-    invoke-interface {p1, v1, v0}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1, v0}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :goto_0
     return-void
@@ -1175,7 +1175,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/j;->isEmpty()Z
+    invoke-virtual {p0}, Lcotlin/collections/j;->isEmpty()Z
 
     move-result v0
 
@@ -1186,21 +1186,21 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {p0}, Lkotlin/collections/s;->G(Ljava/util/List;)I
+    invoke-static {p0}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result v0
 
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v1
 
     add-int/2addr v1, v0
 
-    invoke-static {p0, v1}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v1}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v0
 
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1219,23 +1219,23 @@
     .end annotation
 
     .line 2
-    sget-object v0, Lkotlin/collections/c;->a:Lkotlin/collections/c$a;
+    sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v1
 
-    invoke-virtual {v0, p1, v1}, Lkotlin/collections/c$a;->c(II)V
+    invoke-virtual {v0, p1, v1}, Lcotlin/collections/c$a;->c(II)V
 
     .line 3
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
     if-ne p1, v0, :cond_0
 
     .line 4
-    invoke-virtual {p0, p2}, Lkotlin/collections/j;->addLast(Ljava/lang/Object;)V
+    invoke-virtual {p0, p2}, Lcotlin/collections/j;->addLast(Ljava/lang/Object;)V
 
     return-void
 
@@ -1243,13 +1243,13 @@
     if-nez p1, :cond_1
 
     .line 5
-    invoke-virtual {p0, p2}, Lkotlin/collections/j;->addFirst(Ljava/lang/Object;)V
+    invoke-virtual {p0, p2}, Lcotlin/collections/j;->addFirst(Ljava/lang/Object;)V
 
     return-void
 
     .line 6
     :cond_1
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
@@ -1257,21 +1257,21 @@
 
     add-int/2addr v0, v1
 
-    invoke-direct {p0, v0}, Lkotlin/collections/j;->y(I)V
+    invoke-direct {p0, v0}, Lcotlin/collections/j;->y(I)V
 
     .line 7
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v0
 
     add-int/2addr v0, p1
 
-    invoke-static {p0, v0}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v0}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v0
 
     .line 8
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v2
 
@@ -1284,24 +1284,24 @@
     if-ge p1, v2, :cond_3
 
     .line 9
-    invoke-direct {p0, v0}, Lkotlin/collections/j;->v(I)I
+    invoke-direct {p0, v0}, Lcotlin/collections/j;->v(I)I
 
     move-result p1
 
     .line 10
-    iget v0, p0, Lkotlin/collections/j;->a:I
+    iget v0, p0, Lcotlin/collections/j;->a:I
 
-    invoke-direct {p0, v0}, Lkotlin/collections/j;->v(I)I
+    invoke-direct {p0, v0}, Lcotlin/collections/j;->v(I)I
 
     move-result v0
 
     .line 11
-    iget v2, p0, Lkotlin/collections/j;->a:I
+    iget v2, p0, Lcotlin/collections/j;->a:I
 
     if-lt p1, v2, :cond_2
 
     .line 12
-    iget-object v3, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v3, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     aget-object v4, v3, v2
 
@@ -1312,22 +1312,22 @@
     add-int/lit8 v5, p1, 0x1
 
     .line 13
-    invoke-static {v3, v3, v2, v4, v5}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v3, v3, v2, v4, v5}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     goto :goto_0
 
     .line 14
     :cond_2
-    iget-object v4, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v4, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     add-int/lit8 v5, v2, -0x1
 
     array-length v6, v4
 
-    invoke-static {v4, v4, v5, v2, v6}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v4, v4, v5, v2, v6}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 15
-    iget-object v2, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v4, v2
 
@@ -1340,54 +1340,54 @@
     add-int/lit8 v4, p1, 0x1
 
     .line 16
-    invoke-static {v2, v2, v3, v1, v4}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v2, v2, v3, v1, v4}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 17
     :goto_0
-    iget-object v2, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     aput-object p2, v2, p1
 
     .line 18
-    iput v0, p0, Lkotlin/collections/j;->a:I
+    iput v0, p0, Lcotlin/collections/j;->a:I
 
     goto :goto_2
 
     .line 19
     :cond_3
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result p1
 
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v2
 
     add-int/2addr v2, p1
 
-    invoke-static {p0, v2}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v2}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result p1
 
     if-ge v0, p1, :cond_4
 
     .line 20
-    iget-object v2, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     add-int/lit8 v3, v0, 0x1
 
-    invoke-static {v2, v2, v3, v0, p1}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v2, v2, v3, v0, p1}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     goto :goto_1
 
     .line 21
     :cond_4
-    iget-object v2, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
-    invoke-static {v2, v2, v1, v3, p1}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v2, v2, v1, v3, p1}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 22
-    iget-object p1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object p1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v2, p1
 
@@ -1404,23 +1404,23 @@
 
     sub-int/2addr v3, v1
 
-    invoke-static {p1, p1, v2, v0, v3}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {p1, p1, v2, v0, v3}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 24
     :goto_1
-    iget-object p1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object p1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     aput-object p2, p1, v0
 
     .line 25
     :goto_2
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result p1
 
     add-int/2addr p1, v1
 
-    iput p1, p0, Lkotlin/collections/j;->c:I
+    iput p1, p0, Lcotlin/collections/j;->c:I
 
     return-void
 .end method
@@ -1434,7 +1434,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/collections/j;->addLast(Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, Lcotlin/collections/j;->addLast(Ljava/lang/Object;)V
 
     const/4 p1, 0x1
 
@@ -1457,16 +1457,16 @@
 
     const-string v0, "elements"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
-    sget-object v0, Lkotlin/collections/c;->a:Lkotlin/collections/c$a;
+    sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v1
 
-    invoke-virtual {v0, p1, v1}, Lkotlin/collections/c$a;->c(II)V
+    invoke-virtual {v0, p1, v1}, Lcotlin/collections/c$a;->c(II)V
 
     .line 5
     invoke-interface {p2}, Ljava/util/Collection;->isEmpty()Z
@@ -1481,14 +1481,14 @@
 
     .line 6
     :cond_0
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
     if-ne p1, v0, :cond_1
 
     .line 7
-    invoke-virtual {p0, p2}, Lkotlin/collections/j;->addAll(Ljava/util/Collection;)Z
+    invoke-virtual {p0, p2}, Lcotlin/collections/j;->addAll(Ljava/util/Collection;)Z
 
     move-result p1
 
@@ -1496,7 +1496,7 @@
 
     .line 8
     :cond_1
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
@@ -1506,31 +1506,31 @@
 
     add-int/2addr v0, v2
 
-    invoke-direct {p0, v0}, Lkotlin/collections/j;->y(I)V
+    invoke-direct {p0, v0}, Lcotlin/collections/j;->y(I)V
 
     .line 9
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v2
 
     add-int/2addr v2, v0
 
-    invoke-static {p0, v2}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v2}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v0
 
     .line 10
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v2
 
     add-int/2addr v2, p1
 
-    invoke-static {p0, v2}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v2}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v2
 
@@ -1540,7 +1540,7 @@
     move-result v3
 
     .line 12
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v4
 
@@ -1553,7 +1553,7 @@
     if-ge p1, v4, :cond_6
 
     .line 13
-    iget p1, p0, Lkotlin/collections/j;->a:I
+    iget p1, p0, Lcotlin/collections/j;->a:I
 
     sub-int v0, p1, v3
 
@@ -1562,15 +1562,15 @@
     if-ltz v0, :cond_2
 
     .line 14
-    iget-object v1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
-    invoke-static {v1, v1, v0, p1, v2}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v1, v1, v0, p1, v2}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     goto :goto_0
 
     .line 15
     :cond_2
-    iget-object v4, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v4, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v6, v4
 
@@ -1586,7 +1586,7 @@
     if-lt v7, v6, :cond_3
 
     .line 17
-    invoke-static {v4, v4, v0, p1, v2}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v4, v4, v0, p1, v2}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     goto :goto_0
 
@@ -1594,67 +1594,67 @@
     add-int v6, p1, v7
 
     .line 18
-    invoke-static {v4, v4, v0, p1, v6}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v4, v4, v0, p1, v6}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 19
-    iget-object p1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object p1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
-    iget v4, p0, Lkotlin/collections/j;->a:I
+    iget v4, p0, Lcotlin/collections/j;->a:I
 
     add-int/2addr v4, v7
 
-    invoke-static {p1, p1, v1, v4, v2}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {p1, p1, v1, v4, v2}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     goto :goto_0
 
     .line 20
     :cond_4
-    iget-object v4, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v4, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v6, v4
 
-    invoke-static {v4, v4, v0, p1, v6}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v4, v4, v0, p1, v6}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     if-lt v3, v2, :cond_5
 
     .line 21
-    iget-object p1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object p1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v4, p1
 
     sub-int/2addr v4, v3
 
-    invoke-static {p1, p1, v4, v1, v2}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {p1, p1, v4, v1, v2}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     goto :goto_0
 
     .line 22
     :cond_5
-    iget-object p1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object p1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v4, p1
 
     sub-int/2addr v4, v3
 
-    invoke-static {p1, p1, v4, v1, v3}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {p1, p1, v4, v1, v3}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 23
-    iget-object p1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object p1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
-    invoke-static {p1, p1, v1, v3, v2}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {p1, p1, v1, v3, v2}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 24
     :goto_0
-    iput v0, p0, Lkotlin/collections/j;->a:I
+    iput v0, p0, Lcotlin/collections/j;->a:I
 
     sub-int/2addr v2, v3
 
     .line 25
-    invoke-direct {p0, v2}, Lkotlin/collections/j;->l0(I)I
+    invoke-direct {p0, v2}, Lcotlin/collections/j;->l0(I)I
 
     move-result p1
 
-    invoke-direct {p0, p1, p2}, Lkotlin/collections/j;->s(ILjava/util/Collection;)V
+    invoke-direct {p0, p1, p2}, Lcotlin/collections/j;->s(ILjava/util/Collection;)V
 
     goto :goto_2
 
@@ -1666,14 +1666,14 @@
     add-int/2addr v3, v0
 
     .line 26
-    iget-object v4, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v4, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v6, v4
 
     if-gt v3, v6, :cond_7
 
     .line 27
-    invoke-static {v4, v4, p1, v2, v0}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v4, v4, p1, v2, v0}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     goto :goto_1
 
@@ -1688,7 +1688,7 @@
 
     sub-int/2addr p1, v1
 
-    invoke-static {v4, v4, p1, v2, v0}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v4, v4, p1, v2, v0}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     goto :goto_1
 
@@ -1701,23 +1701,23 @@
     sub-int v3, v0, v3
 
     .line 31
-    invoke-static {v4, v4, v1, v3, v0}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v4, v4, v1, v3, v0}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 32
-    iget-object v0, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
-    invoke-static {v0, v0, p1, v2, v3}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v0, v0, p1, v2, v3}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     goto :goto_1
 
     .line 33
     :cond_9
-    iget-object v4, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v4, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
-    invoke-static {v4, v4, v3, v1, v0}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v4, v4, v3, v1, v0}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 34
-    iget-object v0, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v4, v0
 
@@ -1730,7 +1730,7 @@
 
     array-length v1, v0
 
-    invoke-static {v0, v0, p1, v2, v1}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v0, v0, p1, v2, v1}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     goto :goto_1
 
@@ -1742,20 +1742,20 @@
 
     array-length v6, v0
 
-    invoke-static {v0, v0, v1, v4, v6}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v0, v0, v1, v4, v6}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 37
-    iget-object v0, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v1, v0
 
     sub-int/2addr v1, v3
 
-    invoke-static {v0, v0, p1, v2, v1}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v0, v0, p1, v2, v1}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 38
     :goto_1
-    invoke-direct {p0, v2, p2}, Lkotlin/collections/j;->s(ILjava/util/Collection;)V
+    invoke-direct {p0, v2, p2}, Lcotlin/collections/j;->s(ILjava/util/Collection;)V
 
     :goto_2
     return v5
@@ -1777,7 +1777,7 @@
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
@@ -1792,7 +1792,7 @@
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
@@ -1802,24 +1802,24 @@
 
     add-int/2addr v0, v1
 
-    invoke-direct {p0, v0}, Lkotlin/collections/j;->y(I)V
+    invoke-direct {p0, v0}, Lcotlin/collections/j;->y(I)V
 
     .line 3
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v1
 
     add-int/2addr v1, v0
 
-    invoke-static {p0, v1}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v1}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v0
 
-    invoke-direct {p0, v0, p1}, Lkotlin/collections/j;->s(ILjava/util/Collection;)V
+    invoke-direct {p0, v0, p1}, Lcotlin/collections/j;->s(ILjava/util/Collection;)V
 
     const/4 p1, 0x1
 
@@ -1835,36 +1835,36 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
     add-int/lit8 v0, v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/collections/j;->y(I)V
+    invoke-direct {p0, v0}, Lcotlin/collections/j;->y(I)V
 
     .line 2
-    iget v0, p0, Lkotlin/collections/j;->a:I
+    iget v0, p0, Lcotlin/collections/j;->a:I
 
-    invoke-direct {p0, v0}, Lkotlin/collections/j;->v(I)I
+    invoke-direct {p0, v0}, Lcotlin/collections/j;->v(I)I
 
     move-result v0
 
-    iput v0, p0, Lkotlin/collections/j;->a:I
+    iput v0, p0, Lcotlin/collections/j;->a:I
 
     .line 3
-    iget-object v1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     aput-object p1, v1, v0
 
     .line 4
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result p1
 
     add-int/lit8 p1, p1, 0x1
 
-    iput p1, p0, Lkotlin/collections/j;->c:I
+    iput p1, p0, Lcotlin/collections/j;->c:I
 
     return-void
 .end method
@@ -1878,41 +1878,41 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
     add-int/lit8 v0, v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/collections/j;->y(I)V
+    invoke-direct {p0, v0}, Lcotlin/collections/j;->y(I)V
 
     .line 2
-    iget-object v0, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v1
 
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v2
 
     add-int/2addr v2, v1
 
-    invoke-static {p0, v2}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v2}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v1
 
     aput-object p1, v0, v1
 
     .line 3
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result p1
 
     add-int/lit8 p1, p1, 0x1
 
-    iput p1, p0, Lkotlin/collections/j;->c:I
+    iput p1, p0, Lcotlin/collections/j;->c:I
 
     return-void
 .end method
@@ -1921,7 +1921,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlin/collections/j;->c:I
+    iget v0, p0, Lcotlin/collections/j;->c:I
 
     return v0
 .end method
@@ -1935,23 +1935,23 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/collections/c;->a:Lkotlin/collections/c$a;
+    sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v1
 
-    invoke-virtual {v0, p1, v1}, Lkotlin/collections/c$a;->b(II)V
+    invoke-virtual {v0, p1, v1}, Lcotlin/collections/c$a;->b(II)V
 
     .line 2
-    invoke-static {p0}, Lkotlin/collections/s;->G(Ljava/util/List;)I
+    invoke-static {p0}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result v0
 
     if-ne p1, v0, :cond_0
 
     .line 3
-    invoke-virtual {p0}, Lkotlin/collections/j;->removeLast()Ljava/lang/Object;
+    invoke-virtual {p0}, Lcotlin/collections/j;->removeLast()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -1961,7 +1961,7 @@
     if-nez p1, :cond_1
 
     .line 4
-    invoke-virtual {p0}, Lkotlin/collections/j;->removeFirst()Ljava/lang/Object;
+    invoke-virtual {p0}, Lcotlin/collections/j;->removeFirst()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -1969,25 +1969,25 @@
 
     .line 5
     :cond_1
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v0
 
     add-int/2addr v0, p1
 
-    invoke-static {p0, v0}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v0}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v0
 
     .line 6
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v1
 
     aget-object v1, v1, v0
 
     .line 7
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v2
 
@@ -2002,27 +2002,27 @@
     if-ge p1, v2, :cond_3
 
     .line 8
-    iget p1, p0, Lkotlin/collections/j;->a:I
+    iget p1, p0, Lcotlin/collections/j;->a:I
 
     if-lt v0, p1, :cond_2
 
     .line 9
-    iget-object v2, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     add-int/lit8 v5, p1, 0x1
 
-    invoke-static {v2, v2, v5, p1, v0}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v2, v2, v5, p1, v0}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     goto :goto_0
 
     .line 10
     :cond_2
-    iget-object p1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object p1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
-    invoke-static {p1, p1, v3, v5, v0}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {p1, p1, v3, v5, v0}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 11
-    iget-object p1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object p1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v0, p1
 
@@ -2033,7 +2033,7 @@
     aput-object v0, p1, v5
 
     .line 12
-    iget v0, p0, Lkotlin/collections/j;->a:I
+    iget v0, p0, Lcotlin/collections/j;->a:I
 
     add-int/lit8 v2, v0, 0x1
 
@@ -2041,66 +2041,66 @@
 
     sub-int/2addr v5, v3
 
-    invoke-static {p1, p1, v2, v0, v5}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {p1, p1, v2, v0, v5}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 13
     :goto_0
-    iget-object p1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object p1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
-    iget v0, p0, Lkotlin/collections/j;->a:I
+    iget v0, p0, Lcotlin/collections/j;->a:I
 
     aput-object v4, p1, v0
 
     .line 14
-    invoke-direct {p0, v0}, Lkotlin/collections/j;->C(I)I
+    invoke-direct {p0, v0}, Lcotlin/collections/j;->C(I)I
 
     move-result p1
 
-    iput p1, p0, Lkotlin/collections/j;->a:I
+    iput p1, p0, Lcotlin/collections/j;->a:I
 
     goto :goto_2
 
     .line 15
     :cond_3
-    invoke-static {p0}, Lkotlin/collections/s;->G(Ljava/util/List;)I
+    invoke-static {p0}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result p1
 
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v2
 
     add-int/2addr v2, p1
 
-    invoke-static {p0, v2}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v2}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result p1
 
     if-gt v0, p1, :cond_4
 
     .line 16
-    iget-object v2, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     add-int/lit8 v5, v0, 0x1
 
     add-int/lit8 v6, p1, 0x1
 
-    invoke-static {v2, v2, v0, v5, v6}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v2, v2, v0, v5, v6}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     goto :goto_1
 
     .line 17
     :cond_4
-    iget-object v2, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     add-int/lit8 v6, v0, 0x1
 
     array-length v7, v2
 
-    invoke-static {v2, v2, v0, v6, v7}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v2, v2, v0, v6, v7}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 18
-    iget-object v0, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v2, v0
 
@@ -2113,23 +2113,23 @@
     add-int/lit8 v2, p1, 0x1
 
     .line 19
-    invoke-static {v0, v0, v5, v3, v2}, Lkotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v0, v0, v5, v3, v2}, Lcotlin/collections/k;->c1([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 20
     :goto_1
-    iget-object v0, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     aput-object v4, v0, p1
 
     .line 21
     :goto_2
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result p1
 
     sub-int/2addr p1, v3
 
-    iput p1, p0, Lkotlin/collections/j;->c:I
+    iput p1, p0, Lcotlin/collections/j;->c:I
 
     return-object v1
 .end method
@@ -2138,22 +2138,22 @@
     .locals 6
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v1
 
     add-int/2addr v1, v0
 
-    invoke-static {p0, v1}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v1}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v0
 
     .line 2
-    iget v1, p0, Lkotlin/collections/j;->a:I
+    iget v1, p0, Lcotlin/collections/j;->a:I
 
     const/4 v2, 0x0
 
@@ -2162,9 +2162,9 @@
     if-ge v1, v0, :cond_0
 
     .line 3
-    iget-object v4, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v4, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
-    invoke-static {v4, v3, v1, v0}, Lkotlin/collections/n;->n2([Ljava/lang/Object;Ljava/lang/Object;II)V
+    invoke-static {v4, v3, v1, v0}, Lcotlin/collections/n;->n2([Ljava/lang/Object;Ljava/lang/Object;II)V
 
     goto :goto_0
 
@@ -2179,26 +2179,26 @@
     if-eqz v1, :cond_1
 
     .line 5
-    iget-object v1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
-    iget v4, p0, Lkotlin/collections/j;->a:I
+    iget v4, p0, Lcotlin/collections/j;->a:I
 
     array-length v5, v1
 
-    invoke-static {v1, v3, v4, v5}, Lkotlin/collections/n;->n2([Ljava/lang/Object;Ljava/lang/Object;II)V
+    invoke-static {v1, v3, v4, v5}, Lcotlin/collections/n;->n2([Ljava/lang/Object;Ljava/lang/Object;II)V
 
     .line 6
-    iget-object v1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
-    invoke-static {v1, v3, v2, v0}, Lkotlin/collections/n;->n2([Ljava/lang/Object;Ljava/lang/Object;II)V
+    invoke-static {v1, v3, v2, v0}, Lcotlin/collections/n;->n2([Ljava/lang/Object;Ljava/lang/Object;II)V
 
     .line 7
     :cond_1
     :goto_0
-    iput v2, p0, Lkotlin/collections/j;->a:I
+    iput v2, p0, Lcotlin/collections/j;->a:I
 
     .line 8
-    iput v2, p0, Lkotlin/collections/j;->c:I
+    iput v2, p0, Lcotlin/collections/j;->c:I
 
     return-void
 .end method
@@ -2207,7 +2207,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/collections/j;->indexOf(Ljava/lang/Object;)I
+    invoke-virtual {p0, p1}, Lcotlin/collections/j;->indexOf(Ljava/lang/Object;)I
 
     move-result p1
 
@@ -2235,15 +2235,15 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/j;->isEmpty()Z
+    invoke-virtual {p0}, Lcotlin/collections/j;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    iget v0, p0, Lkotlin/collections/j;->a:I
+    iget v0, p0, Lcotlin/collections/j;->a:I
 
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v1
 
@@ -2270,26 +2270,26 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/collections/c;->a:Lkotlin/collections/c$a;
+    sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v1
 
-    invoke-virtual {v0, p1, v1}, Lkotlin/collections/c$a;->b(II)V
+    invoke-virtual {v0, p1, v1}, Lcotlin/collections/c$a;->b(II)V
 
     .line 2
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v0
 
     add-int/2addr v0, p1
 
-    invoke-static {p0, v0}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v0}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result p1
 
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v0
 
@@ -2302,22 +2302,22 @@
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v1
 
     add-int/2addr v1, v0
 
-    invoke-static {p0, v1}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v1}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v0
 
     .line 2
-    iget v1, p0, Lkotlin/collections/j;->a:I
+    iget v1, p0, Lcotlin/collections/j;->a:I
 
     if-ge v1, v0, :cond_1
 
@@ -2325,17 +2325,17 @@
     if-ge v1, v0, :cond_5
 
     .line 3
-    iget-object v2, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     aget-object v2, v2, v1
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    iget p1, p0, Lkotlin/collections/j;->a:I
+    iget p1, p0, Lcotlin/collections/j;->a:I
 
     :goto_1
     sub-int/2addr v1, p1
@@ -2351,7 +2351,7 @@
     if-lt v1, v0, :cond_5
 
     .line 4
-    iget-object v2, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length v2, v2
 
@@ -2359,17 +2359,17 @@
     if-ge v1, v2, :cond_3
 
     .line 5
-    iget-object v3, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v3, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     aget-object v3, v3, v1
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
 
     if-eqz v3, :cond_2
 
-    iget p1, p0, Lkotlin/collections/j;->a:I
+    iget p1, p0, Lcotlin/collections/j;->a:I
 
     goto :goto_1
 
@@ -2385,23 +2385,23 @@
     if-ge v1, v0, :cond_5
 
     .line 6
-    iget-object v2, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     aget-object v2, v2, v1
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_4
 
-    iget-object p1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object p1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length p1, p1
 
     add-int/2addr v1, p1
 
-    iget p1, p0, Lkotlin/collections/j;->a:I
+    iget p1, p0, Lcotlin/collections/j;->a:I
 
     goto :goto_1
 
@@ -2420,7 +2420,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
@@ -2446,27 +2446,27 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/j;->isEmpty()Z
+    invoke-virtual {p0}, Lcotlin/collections/j;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    invoke-static {p0}, Lkotlin/collections/s;->G(Ljava/util/List;)I
+    invoke-static {p0}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result v0
 
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v1
 
     add-int/2addr v1, v0
 
-    invoke-static {p0, v1}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v1}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v0
 
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v1
 
@@ -2488,22 +2488,22 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v1
 
     add-int/2addr v1, v0
 
-    invoke-static {p0, v1}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v1}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v0
 
     .line 2
-    iget v1, p0, Lkotlin/collections/j;->a:I
+    iget v1, p0, Lcotlin/collections/j;->a:I
 
     if-ge v1, v0, :cond_1
 
@@ -2513,17 +2513,17 @@
 
     .line 3
     :goto_0
-    iget-object v2, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     aget-object v2, v2, v0
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    iget p1, p0, Lkotlin/collections/j;->a:I
+    iget p1, p0, Lcotlin/collections/j;->a:I
 
     :goto_1
     sub-int/2addr v0, p1
@@ -2546,23 +2546,23 @@
     if-ltz v0, :cond_3
 
     .line 4
-    iget-object v1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     aget-object v1, v1, v0
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    iget-object p1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object p1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     array-length p1, p1
 
     add-int/2addr v0, p1
 
-    iget p1, p0, Lkotlin/collections/j;->a:I
+    iget p1, p0, Lcotlin/collections/j;->a:I
 
     goto :goto_1
 
@@ -2573,29 +2573,29 @@
 
     .line 5
     :cond_3
-    iget-object v0, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
-    invoke-static {v0}, Lkotlin/collections/ArraysKt___ArraysKt;->Rd([Ljava/lang/Object;)I
+    invoke-static {v0}, Lcotlin/collections/ArraysKt___ArraysKt;->Rd([Ljava/lang/Object;)I
 
     move-result v0
 
-    iget v1, p0, Lkotlin/collections/j;->a:I
+    iget v1, p0, Lcotlin/collections/j;->a:I
 
     if-lt v0, v1, :cond_5
 
     .line 6
     :goto_3
-    iget-object v2, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     aget-object v2, v2, v0
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_4
 
-    iget p1, p0, Lkotlin/collections/j;->a:I
+    iget p1, p0, Lcotlin/collections/j;->a:I
 
     goto :goto_1
 
@@ -2624,7 +2624,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/j;->isEmpty()Z
+    invoke-virtual {p0}, Lcotlin/collections/j;->isEmpty()Z
 
     move-result v0
 
@@ -2635,7 +2635,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p0}, Lkotlin/collections/j;->removeFirst()Ljava/lang/Object;
+    invoke-virtual {p0}, Lcotlin/collections/j;->removeFirst()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -2655,7 +2655,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/j;->isEmpty()Z
+    invoke-virtual {p0}, Lcotlin/collections/j;->isEmpty()Z
 
     move-result v0
 
@@ -2666,7 +2666,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p0}, Lkotlin/collections/j;->removeLast()Ljava/lang/Object;
+    invoke-virtual {p0}, Lcotlin/collections/j;->removeLast()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -2678,7 +2678,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/collections/j;->indexOf(Ljava/lang/Object;)I
+    invoke-virtual {p0, p1}, Lcotlin/collections/j;->indexOf(Ljava/lang/Object;)I
 
     move-result p1
 
@@ -2692,7 +2692,7 @@
 
     .line 2
     :cond_0
-    invoke-virtual {p0, p1}, Lkotlin/collections/e;->remove(I)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Lcotlin/collections/e;->remove(I)Ljava/lang/Object;
 
     const/4 p1, 0x1
 
@@ -2717,10 +2717,10 @@
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/j;->isEmpty()Z
+    invoke-virtual {p0}, Lcotlin/collections/j;->isEmpty()Z
 
     move-result v0
 
@@ -2728,7 +2728,7 @@
 
     if-nez v0, :cond_9
 
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v0
 
@@ -2752,27 +2752,27 @@
 
     .line 2
     :cond_1
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v3
 
     add-int/2addr v3, v0
 
-    invoke-static {p0, v3}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v3}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v0
 
     .line 3
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v3
 
     .line 4
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v4
 
@@ -2781,7 +2781,7 @@
     if-ge v4, v0, :cond_4
 
     .line 5
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v4
 
@@ -2789,7 +2789,7 @@
     if-ge v4, v0, :cond_3
 
     .line 6
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v6
 
@@ -2805,7 +2805,7 @@
     if-eqz v7, :cond_2
 
     .line 8
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v7
 
@@ -2827,21 +2827,21 @@
 
     .line 9
     :cond_3
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-static {p1, v5, v3, v0}, Lkotlin/collections/n;->n2([Ljava/lang/Object;Ljava/lang/Object;II)V
+    invoke-static {p1, v5, v3, v0}, Lcotlin/collections/n;->n2([Ljava/lang/Object;Ljava/lang/Object;II)V
 
     goto :goto_7
 
     .line 10
     :cond_4
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v4
 
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v6
 
@@ -2853,14 +2853,14 @@
     if-ge v4, v6, :cond_6
 
     .line 11
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v8
 
     aget-object v8, v8, v4
 
     .line 12
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v9
 
@@ -2876,7 +2876,7 @@
     if-eqz v9, :cond_5
 
     .line 14
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v9
 
@@ -2898,7 +2898,7 @@
 
     .line 15
     :cond_6
-    invoke-static {p0, v3}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v3}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v3
 
@@ -2906,14 +2906,14 @@
     if-ge v1, v0, :cond_8
 
     .line 16
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v4
 
     aget-object v4, v4, v1
 
     .line 17
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v6
 
@@ -2929,14 +2929,14 @@
     if-eqz v6, :cond_7
 
     .line 19
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v6
 
     aput-object v4, v6, v3
 
     .line 20
-    invoke-static {p0, v3}, Lkotlin/collections/j;->j(Lkotlin/collections/j;I)I
+    invoke-static {p0, v3}, Lcotlin/collections/j;->j(Lcotlin/collections/j;I)I
 
     move-result v3
 
@@ -2957,17 +2957,17 @@
     if-eqz v1, :cond_9
 
     .line 21
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result p1
 
     sub-int/2addr v3, p1
 
-    invoke-static {p0, v3}, Lkotlin/collections/j;->k(Lkotlin/collections/j;I)I
+    invoke-static {p0, v3}, Lcotlin/collections/j;->k(Lcotlin/collections/j;I)I
 
     move-result p1
 
-    invoke-static {p0, p1}, Lkotlin/collections/j;->r(Lkotlin/collections/j;I)V
+    invoke-static {p0, p1}, Lcotlin/collections/j;->r(Lcotlin/collections/j;I)V
 
     :cond_9
     :goto_8
@@ -2983,45 +2983,45 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/j;->isEmpty()Z
+    invoke-virtual {p0}, Lcotlin/collections/j;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 2
-    iget v0, p0, Lkotlin/collections/j;->a:I
+    iget v0, p0, Lcotlin/collections/j;->a:I
 
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v1
 
     aget-object v0, v1, v0
 
     .line 3
-    iget-object v1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
-    iget v2, p0, Lkotlin/collections/j;->a:I
+    iget v2, p0, Lcotlin/collections/j;->a:I
 
     const/4 v3, 0x0
 
     aput-object v3, v1, v2
 
     .line 4
-    invoke-direct {p0, v2}, Lkotlin/collections/j;->C(I)I
+    invoke-direct {p0, v2}, Lcotlin/collections/j;->C(I)I
 
     move-result v1
 
-    iput v1, p0, Lkotlin/collections/j;->a:I
+    iput v1, p0, Lcotlin/collections/j;->a:I
 
     .line 5
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v1
 
     add-int/lit8 v1, v1, -0x1
 
-    iput v1, p0, Lkotlin/collections/j;->c:I
+    iput v1, p0, Lcotlin/collections/j;->c:I
 
     return-object v0
 
@@ -3045,49 +3045,49 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/j;->isEmpty()Z
+    invoke-virtual {p0}, Lcotlin/collections/j;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 2
-    invoke-static {p0}, Lkotlin/collections/s;->G(Ljava/util/List;)I
+    invoke-static {p0}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result v0
 
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v1
 
     add-int/2addr v1, v0
 
-    invoke-static {p0, v1}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v1}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v0
 
     .line 3
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v1
 
     aget-object v1, v1, v0
 
     .line 4
-    iget-object v2, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     const/4 v3, 0x0
 
     aput-object v3, v2, v0
 
     .line 5
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
     add-int/lit8 v0, v0, -0x1
 
-    iput v0, p0, Lkotlin/collections/j;->c:I
+    iput v0, p0, Lcotlin/collections/j;->c:I
 
     return-object v1
 
@@ -3120,10 +3120,10 @@
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/j;->isEmpty()Z
+    invoke-virtual {p0}, Lcotlin/collections/j;->isEmpty()Z
 
     move-result v0
 
@@ -3131,7 +3131,7 @@
 
     if-nez v0, :cond_9
 
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v0
 
@@ -3155,27 +3155,27 @@
 
     .line 2
     :cond_1
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v0
 
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v3
 
     add-int/2addr v3, v0
 
-    invoke-static {p0, v3}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v3}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v0
 
     .line 3
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v3
 
     .line 4
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v4
 
@@ -3184,7 +3184,7 @@
     if-ge v4, v0, :cond_4
 
     .line 5
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v4
 
@@ -3192,7 +3192,7 @@
     if-ge v4, v0, :cond_3
 
     .line 6
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v6
 
@@ -3206,7 +3206,7 @@
     if-eqz v7, :cond_2
 
     .line 8
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v7
 
@@ -3228,21 +3228,21 @@
 
     .line 9
     :cond_3
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-static {p1, v5, v3, v0}, Lkotlin/collections/n;->n2([Ljava/lang/Object;Ljava/lang/Object;II)V
+    invoke-static {p1, v5, v3, v0}, Lcotlin/collections/n;->n2([Ljava/lang/Object;Ljava/lang/Object;II)V
 
     goto :goto_7
 
     .line 10
     :cond_4
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v4
 
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v6
 
@@ -3254,14 +3254,14 @@
     if-ge v4, v6, :cond_6
 
     .line 11
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v8
 
     aget-object v8, v8, v4
 
     .line 12
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v9
 
@@ -3275,7 +3275,7 @@
     if-eqz v9, :cond_5
 
     .line 14
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v9
 
@@ -3297,7 +3297,7 @@
 
     .line 15
     :cond_6
-    invoke-static {p0, v3}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v3}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result v3
 
@@ -3305,14 +3305,14 @@
     if-ge v1, v0, :cond_8
 
     .line 16
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v4
 
     aget-object v4, v4, v1
 
     .line 17
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v6
 
@@ -3326,14 +3326,14 @@
     if-eqz v6, :cond_7
 
     .line 19
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v6
 
     aput-object v4, v6, v3
 
     .line 20
-    invoke-static {p0, v3}, Lkotlin/collections/j;->j(Lkotlin/collections/j;I)I
+    invoke-static {p0, v3}, Lcotlin/collections/j;->j(Lcotlin/collections/j;I)I
 
     move-result v3
 
@@ -3354,17 +3354,17 @@
     if-eqz v1, :cond_9
 
     .line 21
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result p1
 
     sub-int/2addr v3, p1
 
-    invoke-static {p0, v3}, Lkotlin/collections/j;->k(Lkotlin/collections/j;I)I
+    invoke-static {p0, v3}, Lcotlin/collections/j;->k(Lcotlin/collections/j;I)I
 
     move-result p1
 
-    invoke-static {p0, p1}, Lkotlin/collections/j;->r(Lkotlin/collections/j;I)V
+    invoke-static {p0, p1}, Lcotlin/collections/j;->r(Lcotlin/collections/j;I)V
 
     :cond_9
     :goto_8
@@ -3380,34 +3380,34 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/collections/c;->a:Lkotlin/collections/c$a;
+    sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
-    invoke-virtual {p0}, Lkotlin/collections/e;->size()I
+    invoke-virtual {p0}, Lcotlin/collections/e;->size()I
 
     move-result v1
 
-    invoke-virtual {v0, p1, v1}, Lkotlin/collections/c$a;->b(II)V
+    invoke-virtual {v0, p1, v1}, Lcotlin/collections/c$a;->b(II)V
 
     .line 2
-    invoke-static {p0}, Lkotlin/collections/j;->h(Lkotlin/collections/j;)I
+    invoke-static {p0}, Lcotlin/collections/j;->h(Lcotlin/collections/j;)I
 
     move-result v0
 
     add-int/2addr v0, p1
 
-    invoke-static {p0, v0}, Lkotlin/collections/j;->l(Lkotlin/collections/j;I)I
+    invoke-static {p0, v0}, Lcotlin/collections/j;->l(Lcotlin/collections/j;I)I
 
     move-result p1
 
     .line 3
-    invoke-static {p0}, Lkotlin/collections/j;->e(Lkotlin/collections/j;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/collections/j;->e(Lcotlin/collections/j;)[Ljava/lang/Object;
 
     move-result-object v0
 
     aget-object v0, v0, p1
 
     .line 4
-    iget-object v1, p0, Lkotlin/collections/j;->b:[Ljava/lang/Object;
+    iget-object v1, p0, Lcotlin/collections/j;->b:[Ljava/lang/Object;
 
     aput-object p2, v1, p1
 

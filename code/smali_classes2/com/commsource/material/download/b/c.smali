@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -16,7 +16,7 @@
     d2 = {
         "Lcom/commsource/material/download/b/c;",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onStart",
         "()V",
         "",
@@ -24,7 +24,7 @@
         "a",
         "(I)V",
         "Ljava/lang/Exception;",
-        "Lkotlin/Exception;",
+        "Lcotlin/Exception;",
         "e",
         "onError",
         "(Ljava/lang/Exception;)V",

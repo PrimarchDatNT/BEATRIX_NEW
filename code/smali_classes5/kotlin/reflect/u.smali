@@ -1,9 +1,9 @@
-.class public final synthetic Lkotlin/reflect/u;
+.class public final synthetic Lcotlin/reflect/u;
 .super Ljava/lang/Object;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
 .method static synthetic constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Lkotlin/reflect/KVariance;->values()[Lkotlin/reflect/KVariance;
+    invoke-static {}, Lcotlin/reflect/KVariance;->values()[Lcotlin/reflect/KVariance;
 
     move-result-object v0
 
@@ -36,9 +36,9 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkotlin/reflect/u;->a:[I
+    sput-object v0, Lcotlin/reflect/u;->a:[I
 
-    sget-object v1, Lkotlin/reflect/KVariance;->INVARIANT:Lkotlin/reflect/KVariance;
+    sget-object v1, Lcotlin/reflect/KVariance;->INVARIANT:Lcotlin/reflect/KVariance;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -48,7 +48,7 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Lkotlin/reflect/KVariance;->IN:Lkotlin/reflect/KVariance;
+    sget-object v1, Lcotlin/reflect/KVariance;->IN:Lcotlin/reflect/KVariance;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -58,7 +58,7 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Lkotlin/reflect/KVariance;->OUT:Lkotlin/reflect/KVariance;
+    sget-object v1, Lcotlin/reflect/KVariance;->OUT:Lcotlin/reflect/KVariance;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

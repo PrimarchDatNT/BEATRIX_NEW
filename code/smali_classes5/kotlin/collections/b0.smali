@@ -1,10 +1,10 @@
-.class public abstract Lkotlin/collections/b0;
+.class public abstract Lcotlin/collections/b0;
 .super Ljava/lang/Object;
 .source "Iterators.kt"
 
 # interfaces
 .implements Ljava/util/Iterator;
-.implements Lkotlin/jvm/internal/x0/a;
+.implements Lcotlin/jvm/internal/x0/a;
 
 
 # annotations
@@ -14,11 +14,11 @@
         "Ljava/util/Iterator<",
         "Ljava/lang/Double;",
         ">;",
-        "Lkotlin/jvm/internal/x0/a;"
+        "Lcotlin/jvm/internal/x0/a;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
         "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0010(\n\u0002\u0010\u0006\n\u0002\u0008\u0007\u0008&\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u0010\u0010\u0003\u001a\u00020\u0002H\u0086\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u000f\u0010\u0005\u001a\u00020\u0002H&\u00a2\u0006\u0004\u0008\u0005\u0010\u0006\u00a8\u0006\t"
     }
     d2 = {
-        "Lkotlin/collections/b0;",
+        "Lcotlin/collections/b0;",
         "",
         "",
         "a",
@@ -66,7 +66,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/b0;->b()D
+    invoke-virtual {p0}, Lcotlin/collections/b0;->b()D
 
     move-result-wide v0
 
@@ -84,7 +84,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/b0;->a()Ljava/lang/Double;
+    invoke-virtual {p0}, Lcotlin/collections/b0;->a()Ljava/lang/Double;
 
     move-result-object v0
 

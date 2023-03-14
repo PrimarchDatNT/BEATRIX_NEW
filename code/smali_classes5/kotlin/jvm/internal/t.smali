@@ -1,4 +1,4 @@
-.class public final Lkotlin/jvm/internal/t;
+.class public final Lcotlin/jvm/internal/t;
 .super Ljava/lang/Object;
 .source "CollectionToArray.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nCollectionToArray.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CollectionToArray.kt\nkotlin/jvm/internal/CollectionToArray\n*L\n1#1,82:1\n57#1,23:83\n57#1,23:106\n*E\n*S KotlinDebug\n*F\n+ 1 CollectionToArray.kt\nkotlin/jvm/internal/CollectionToArray\n*L\n19#1,23:83\n31#1,23:106\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,15 +26,15 @@
         "(Ljava/util/Collection;)[Ljava/lang/Object;",
         "b",
         "(Ljava/util/Collection;[Ljava/lang/Object;)[Ljava/lang/Object;",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "empty",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "",
         "alloc",
-        "Lkotlin/Function2;",
+        "Lcotlin/Function2;",
         "trim",
         "c",
-        "(Ljava/util/Collection;Lkotlin/jvm/u/a;Lkotlin/jvm/u/l;Lkotlin/jvm/u/p;)[Ljava/lang/Object;",
+        "(Ljava/util/Collection;Lcotlin/jvm/u/a;Lcotlin/jvm/u/l;Lcotlin/jvm/u/p;)[Ljava/lang/Object;",
         "I",
         "MAX_SIZE",
         "[Ljava/lang/Object;",
@@ -49,7 +49,7 @@
     }
 .end annotation
 
-.annotation build Lkotlin/jvm/g;
+.annotation build Lcotlin/jvm/g;
     name = "CollectionToArray"
 .end annotation
 
@@ -69,7 +69,7 @@
     new-array v0, v0, [Ljava/lang/Object;
 
     .line 1
-    sput-object v0, Lkotlin/jvm/internal/t;->a:[Ljava/lang/Object;
+    sput-object v0, Lcotlin/jvm/internal/t;->a:[Ljava/lang/Object;
 
     return-void
 .end method
@@ -89,7 +89,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "toArray"
     .end annotation
 
@@ -98,7 +98,7 @@
 
     const-string v0, "collection"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Collection;->size()I
@@ -109,7 +109,7 @@
 
     .line 2
     :goto_0
-    sget-object p0, Lkotlin/jvm/internal/t;->a:[Ljava/lang/Object;
+    sget-object p0, Lcotlin/jvm/internal/t;->a:[Ljava/lang/Object;
 
     goto :goto_3
 
@@ -194,7 +194,7 @@
 
     const-string v1, "Arrays.copyOf(result, newSize)"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_4
 
@@ -213,7 +213,7 @@
 
     const-string v0, "Arrays.copyOf(result, size)"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     :goto_3
     return-object p0
@@ -246,7 +246,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "toArray"
     .end annotation
 
@@ -255,7 +255,7 @@
 
     const-string v0, "collection"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
@@ -391,7 +391,7 @@
 
     const-string v2, "Arrays.copyOf(result, newSize)"
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_3
 
@@ -418,7 +418,7 @@
 
     const-string p0, "Arrays.copyOf(result, size)"
 
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     :cond_8
     :goto_2
@@ -431,24 +431,24 @@
     goto :goto_0
 .end method
 
-.method private static final c(Ljava/util/Collection;Lkotlin/jvm/u/a;Lkotlin/jvm/u/l;Lkotlin/jvm/u/p;)[Ljava/lang/Object;
+.method private static final c(Ljava/util/Collection;Lcotlin/jvm/u/a;Lcotlin/jvm/u/l;Lcotlin/jvm/u/p;)[Ljava/lang/Object;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/util/Collection<",
             "*>;",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/jvm/u/a<",
             "[",
             "Ljava/lang/Object;",
             ">;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
             "[",
             "Ljava/lang/Object;",
             ">;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-[",
             "Ljava/lang/Object;",
             "-",
@@ -468,7 +468,7 @@
     if-nez v0, :cond_0
 
     .line 2
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p0
 
@@ -489,7 +489,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p0
 
@@ -503,7 +503,7 @@
 
     move-result-object p1
 
-    invoke-interface {p2, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -569,7 +569,7 @@
 
     const-string p2, "Arrays.copyOf(result, newSize)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_2
 
@@ -585,7 +585,7 @@
 
     move-result-object p0
 
-    invoke-interface {p3, p1, p0}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p1, p0}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 

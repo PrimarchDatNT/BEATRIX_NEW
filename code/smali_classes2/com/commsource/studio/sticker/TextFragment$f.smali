@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "Lcom/commsource/studio/text/TextGroupParam;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/studio/text/TextGroupParam;)V"
     }
@@ -83,13 +83,13 @@
 
     const-string v2, "it"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x0
 
     const/4 v3, 0x2
 
-    invoke-static {v1, p1, v2, v3, v2}, Lcom/commsource/studio/sticker/TextFragment;->d0(Lcom/commsource/studio/sticker/TextFragment;Lcom/commsource/studio/text/TextGroupParam;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {v1, p1, v2, v3, v2}, Lcom/commsource/studio/sticker/TextFragment;->d0(Lcom/commsource/studio/sticker/TextFragment;Lcom/commsource/studio/text/TextGroupParam;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

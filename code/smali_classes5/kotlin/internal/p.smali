@@ -1,10 +1,10 @@
-.class public final Lkotlin/internal/p;
+.class public final Lcotlin/internal/p;
 .super Ljava/lang/Object;
 .source "UProgressionUtil.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -14,12 +14,12 @@
         "\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0010\t\n\u0000\u001a*\u0010\u0001\u001a\u00020\u00002\u0006\u0010\u0001\u001a\u00020\u00002\u0006\u0010\u0002\u001a\u00020\u00002\u0006\u0010\u0003\u001a\u00020\u0000H\u0002\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0001\u0010\u0004\u001a*\u0010\u0002\u001a\u00020\u00052\u0006\u0010\u0001\u001a\u00020\u00052\u0006\u0010\u0002\u001a\u00020\u00052\u0006\u0010\u0003\u001a\u00020\u0005H\u0002\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0002\u0010\u0006\u001a*\u0010\u000b\u001a\u00020\u00002\u0006\u0010\u0007\u001a\u00020\u00002\u0006\u0010\u0008\u001a\u00020\u00002\u0006\u0010\n\u001a\u00020\tH\u0001\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u000b\u0010\u0004\u001a*\u0010\u0003\u001a\u00020\u00052\u0006\u0010\u0007\u001a\u00020\u00052\u0006\u0010\u0008\u001a\u00020\u00052\u0006\u0010\n\u001a\u00020\u000cH\u0001\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0003\u0010\u0006\u0082\u0002\u0004\n\u0002\u0008\u0019\u00a8\u0006\r"
     }
     d2 = {
-        "Lkotlin/f1;",
+        "Lcotlin/f1;",
         "a",
         "b",
         "c",
         "(III)I",
-        "Lkotlin/j1;",
+        "Lcotlin/j1;",
         "(JJJ)J",
         "start",
         "end",
@@ -43,23 +43,23 @@
     .locals 1
 
     .line 1
-    invoke-static {p0, p2}, Lkotlin/v1;->e(II)I
+    invoke-static {p0, p2}, Lcotlin/v1;->e(II)I
 
     move-result p0
 
     .line 2
-    invoke-static {p1, p2}, Lkotlin/v1;->e(II)I
+    invoke-static {p1, p2}, Lcotlin/v1;->e(II)I
 
     move-result p1
 
     .line 3
-    invoke-static {p0, p1}, Lkotlin/v1;->c(II)I
+    invoke-static {p0, p1}, Lcotlin/v1;->c(II)I
 
     move-result v0
 
     sub-int/2addr p0, p1
 
-    invoke-static {p0}, Lkotlin/f1;->s(I)I
+    invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
 
@@ -70,7 +70,7 @@
     :cond_0
     add-int/2addr p0, p2
 
-    invoke-static {p0}, Lkotlin/f1;->s(I)I
+    invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
 
@@ -82,23 +82,23 @@
     .locals 1
 
     .line 1
-    invoke-static {p0, p1, p4, p5}, Lkotlin/v1;->i(JJ)J
+    invoke-static {p0, p1, p4, p5}, Lcotlin/v1;->i(JJ)J
 
     move-result-wide p0
 
     .line 2
-    invoke-static {p2, p3, p4, p5}, Lkotlin/v1;->i(JJ)J
+    invoke-static {p2, p3, p4, p5}, Lcotlin/v1;->i(JJ)J
 
     move-result-wide p2
 
     .line 3
-    invoke-static {p0, p1, p2, p3}, Lkotlin/v1;->g(JJ)I
+    invoke-static {p0, p1, p2, p3}, Lcotlin/v1;->g(JJ)I
 
     move-result v0
 
     sub-long/2addr p0, p2
 
-    invoke-static {p0, p1}, Lkotlin/j1;->s(J)J
+    invoke-static {p0, p1}, Lcotlin/j1;->s(J)J
 
     move-result-wide p0
 
@@ -109,7 +109,7 @@
     :cond_0
     add-long/2addr p0, p4
 
-    invoke-static {p0, p1}, Lkotlin/j1;->s(J)J
+    invoke-static {p0, p1}, Lcotlin/j1;->s(J)J
 
     move-result-wide p0
 
@@ -119,10 +119,10 @@
 
 .method public static final c(JJJ)J
     .locals 7
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -133,7 +133,7 @@
     if-lez v2, :cond_1
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlin/v1;->g(JJ)I
+    invoke-static {p0, p1, p2, p3}, Lcotlin/v1;->g(JJ)I
 
     move-result v0
 
@@ -142,7 +142,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {p4, p5}, Lkotlin/j1;->s(J)J
+    invoke-static {p4, p5}, Lcotlin/j1;->s(J)J
 
     move-result-wide v5
 
@@ -150,13 +150,13 @@
 
     move-wide v3, p0
 
-    invoke-static/range {v1 .. v6}, Lkotlin/internal/p;->b(JJJ)J
+    invoke-static/range {v1 .. v6}, Lcotlin/internal/p;->b(JJJ)J
 
     move-result-wide p0
 
     sub-long/2addr p2, p0
 
-    invoke-static {p2, p3}, Lkotlin/j1;->s(J)J
+    invoke-static {p2, p3}, Lcotlin/j1;->s(J)J
 
     move-result-wide p2
 
@@ -166,7 +166,7 @@
     if-gez v2, :cond_3
 
     .line 2
-    invoke-static {p0, p1, p2, p3}, Lkotlin/v1;->g(JJ)I
+    invoke-static {p0, p1, p2, p3}, Lcotlin/v1;->g(JJ)I
 
     move-result v0
 
@@ -177,7 +177,7 @@
     :cond_2
     neg-long p4, p4
 
-    invoke-static {p4, p5}, Lkotlin/j1;->s(J)J
+    invoke-static {p4, p5}, Lcotlin/j1;->s(J)J
 
     move-result-wide v4
 
@@ -185,13 +185,13 @@
 
     move-wide v2, p2
 
-    invoke-static/range {v0 .. v5}, Lkotlin/internal/p;->b(JJJ)J
+    invoke-static/range {v0 .. v5}, Lcotlin/internal/p;->b(JJJ)J
 
     move-result-wide p0
 
     add-long/2addr p2, p0
 
-    invoke-static {p2, p3}, Lkotlin/j1;->s(J)J
+    invoke-static {p2, p3}, Lcotlin/j1;->s(J)J
 
     move-result-wide p2
 
@@ -211,17 +211,17 @@
 
 .method public static final d(III)I
     .locals 1
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     if-lez p2, :cond_1
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/v1;->c(II)I
+    invoke-static {p0, p1}, Lcotlin/v1;->c(II)I
 
     move-result v0
 
@@ -230,17 +230,17 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {p2}, Lkotlin/f1;->s(I)I
+    invoke-static {p2}, Lcotlin/f1;->s(I)I
 
     move-result p2
 
-    invoke-static {p1, p0, p2}, Lkotlin/internal/p;->a(III)I
+    invoke-static {p1, p0, p2}, Lcotlin/internal/p;->a(III)I
 
     move-result p0
 
     sub-int/2addr p1, p0
 
-    invoke-static {p1}, Lkotlin/f1;->s(I)I
+    invoke-static {p1}, Lcotlin/f1;->s(I)I
 
     move-result p1
 
@@ -250,7 +250,7 @@
     if-gez p2, :cond_3
 
     .line 2
-    invoke-static {p0, p1}, Lkotlin/v1;->c(II)I
+    invoke-static {p0, p1}, Lcotlin/v1;->c(II)I
 
     move-result v0
 
@@ -261,17 +261,17 @@
     :cond_2
     neg-int p2, p2
 
-    invoke-static {p2}, Lkotlin/f1;->s(I)I
+    invoke-static {p2}, Lcotlin/f1;->s(I)I
 
     move-result p2
 
-    invoke-static {p0, p1, p2}, Lkotlin/internal/p;->a(III)I
+    invoke-static {p0, p1, p2}, Lcotlin/internal/p;->a(III)I
 
     move-result p0
 
     add-int/2addr p1, p0
 
-    invoke-static {p1}, Lkotlin/f1;->s(I)I
+    invoke-static {p1}, Lcotlin/f1;->s(I)I
 
     move-result p1
 

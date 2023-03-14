@@ -13,7 +13,7 @@
     name = "d"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "",
         "Lcom/commsource/studio/i;",
         "gestureDetector",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "setGestureDetector",
         "(Lcom/commsource/studio/i;)V",
         "Landroid/view/MotionEvent;",

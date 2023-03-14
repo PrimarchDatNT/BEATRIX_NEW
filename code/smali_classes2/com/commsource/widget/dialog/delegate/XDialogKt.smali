@@ -8,7 +8,7 @@
     value = "SMAP\nXDialog.kt\nKotlin\n*S Kotlin\n*F\n+ 1 XDialog.kt\ncom/commsource/widget/dialog/delegate/XDialogKt\n*L\n1#1,370:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,16 +27,16 @@
         "closeEnable",
         "",
         "mode",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "Lcom/commsource/widget/dialog/delegate/b;",
-        "Lkotlin/k0;",
+        "Lcotlin/k0;",
         "name",
         "dialog",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "negativeClick",
         "positiveClick",
         "k",
-        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILkotlin/jvm/u/l;Lkotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;",
+        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILcotlin/jvm/u/l;Lcotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;",
         "Lcom/commsource/home/entity/DialogDataEntity;",
         "Landroid/app/Activity;",
         "ctx",
@@ -46,15 +46,15 @@
         "()V",
         "onClick",
         "t",
-        "(Lkotlin/jvm/u/l;)V",
+        "(Lcotlin/jvm/u/l;)V",
         "s",
         "r",
-        "Lkotlin/q;",
+        "Lcotlin/q;",
         "j",
-        "(Lkotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;",
+        "(Lcotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;",
         "Lcom/commsource/widget/dialog/delegate/d/g;",
         "i",
-        "(Lcom/commsource/widget/dialog/delegate/b;Lkotlin/jvm/u/l;)V",
+        "(Lcom/commsource/widget/dialog/delegate/b;Lcotlin/jvm/u/l;)V",
         "Lcom/commsource/widget/dialog/delegate/d/a;",
         "h",
         "(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;)V",
@@ -64,7 +64,7 @@
         "(Lcom/commsource/widget/dialog/delegate/d/a;Z)V",
         "text",
         "e",
-        "(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lkotlin/jvm/u/l;)V",
+        "(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;)V",
         "g",
         "c",
         "T",
@@ -96,7 +96,7 @@
 
     const-string v1, "$this$CloseButton"
 
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/widget/dialog/delegate/d/a;->v(Z)V
@@ -124,7 +124,7 @@
 
     const-string v1, "$this$Content"
 
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/delegate/d/a;->g()Ljava/util/List;
@@ -147,7 +147,7 @@
     return-void
 .end method
 
-.method public static final c(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lkotlin/jvm/u/l;)V
+.method public static final c(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;)V
     .locals 3
     .param p0    # Lcom/commsource/widget/dialog/delegate/d/a;
         .annotation build Ln/e/a/d;
@@ -157,7 +157,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -166,10 +166,10 @@
             "(",
             "Lcom/commsource/widget/dialog/delegate/d/a;",
             "Ljava/lang/String;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/widget/dialog/delegate/b;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -180,15 +180,15 @@
 
     const-string v1, "$this$NegativeButton"
 
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "text"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "onClick"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/delegate/d/a;->c()Ljava/util/List;
@@ -199,7 +199,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2, p1, p2}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-direct {v1, v2, p1, p2}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lcotlin/jvm/u/l;)V
 
     invoke-interface {p0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -209,7 +209,7 @@
     return-void
 .end method
 
-.method public static synthetic d(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lkotlin/jvm/u/l;ILjava/lang/Object;)V
+.method public static synthetic d(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
     .locals 1
 
     const/16 p4, 0x29db
@@ -236,14 +236,14 @@
     sget-object p2, Lcom/commsource/widget/dialog/delegate/XDialogKt$NegativeButton$1;->INSTANCE:Lcom/commsource/widget/dialog/delegate/XDialogKt$NegativeButton$1;
 
     :cond_1
-    invoke-static {p0, p1, p2}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->c(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-static {p0, p1, p2}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->c(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public static final e(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lkotlin/jvm/u/l;)V
+.method public static final e(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;)V
     .locals 3
     .param p0    # Lcom/commsource/widget/dialog/delegate/d/a;
         .annotation build Ln/e/a/d;
@@ -253,7 +253,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -262,10 +262,10 @@
             "(",
             "Lcom/commsource/widget/dialog/delegate/d/a;",
             "Ljava/lang/String;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/widget/dialog/delegate/b;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -276,15 +276,15 @@
 
     const-string v1, "$this$PositiveButton"
 
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "text"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "onClick"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/delegate/d/a;->c()Ljava/util/List;
@@ -295,7 +295,7 @@
 
     const/4 v2, 0x1
 
-    invoke-direct {v1, v2, p1, p2}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-direct {v1, v2, p1, p2}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lcotlin/jvm/u/l;)V
 
     invoke-interface {p0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -305,7 +305,7 @@
     return-void
 .end method
 
-.method public static synthetic f(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lkotlin/jvm/u/l;ILjava/lang/Object;)V
+.method public static synthetic f(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
     .locals 1
 
     const/16 p4, 0x29d8
@@ -332,14 +332,14 @@
     sget-object p2, Lcom/commsource/widget/dialog/delegate/XDialogKt$PositiveButton$1;->INSTANCE:Lcom/commsource/widget/dialog/delegate/XDialogKt$PositiveButton$1;
 
     :cond_1
-    invoke-static {p0, p1, p2}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->e(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-static {p0, p1, p2}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->e(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public static final g(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lkotlin/jvm/u/l;)V
+.method public static final g(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;)V
     .locals 3
     .param p0    # Lcom/commsource/widget/dialog/delegate/d/a;
         .annotation build Ln/e/a/d;
@@ -349,7 +349,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -358,10 +358,10 @@
             "(",
             "Lcom/commsource/widget/dialog/delegate/d/a;",
             "Ljava/lang/String;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/widget/dialog/delegate/b;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -372,15 +372,15 @@
 
     const-string v1, "$this$ProButton"
 
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "text"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "onClick"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/delegate/d/a;->c()Ljava/util/List;
@@ -391,7 +391,7 @@
 
     const/4 v2, 0x2
 
-    invoke-direct {v1, v2, p1, p2}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-direct {v1, v2, p1, p2}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lcotlin/jvm/u/l;)V
 
     invoke-interface {p0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -418,7 +418,7 @@
 
     const-string v1, "$this$Title"
 
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p1, :cond_0
 
@@ -437,13 +437,13 @@
     return-void
 .end method
 
-.method public static final i(Lcom/commsource/widget/dialog/delegate/b;Lkotlin/jvm/u/l;)V
+.method public static final i(Lcom/commsource/widget/dialog/delegate/b;Lcotlin/jvm/u/l;)V
     .locals 4
     .param p0    # Lcom/commsource/widget/dialog/delegate/b;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -451,10 +451,10 @@
         value = {
             "(",
             "Lcom/commsource/widget/dialog/delegate/b;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/widget/dialog/delegate/d/g;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -465,11 +465,11 @@
 
     const-string v1, "$this$VideoPictureTips"
 
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "content"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/widget/dialog/delegate/d/g;
@@ -478,13 +478,13 @@
 
     const/4 v3, 0x3
 
-    invoke-direct {v1, v2, v2, v3, v2}, Lcom/commsource/widget/dialog/delegate/d/g;-><init>(Lcom/commsource/widget/dialog/delegate/d/f;Lcom/commsource/widget/dialog/delegate/d/e;ILkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2, v2, v3, v2}, Lcom/commsource/widget/dialog/delegate/d/g;-><init>(Lcom/commsource/widget/dialog/delegate/d/f;Lcom/commsource/widget/dialog/delegate/d/e;ILcotlin/jvm/internal/u;)V
 
     invoke-static {v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->p(Lcom/commsource/widget/dialog/delegate/d/a;)Lcom/commsource/widget/dialog/delegate/d/a;
 
     move-result-object v1
 
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     check-cast v1, Lcom/commsource/widget/dialog/delegate/d/g;
 
@@ -500,19 +500,19 @@
     return-void
 .end method
 
-.method public static final j(Lkotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
+.method public static final j(Lcotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
     .locals 2
-    .param p0    # Lkotlin/jvm/u/l;
+    .param p0    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/widget/dialog/delegate/b;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Lcom/commsource/widget/dialog/delegate/b;"
         }
@@ -527,21 +527,21 @@
 
     const-string v1, "content"
 
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/widget/dialog/delegate/b;
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/delegate/b;-><init>()V
 
-    invoke-interface {p0, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 .end method
 
-.method public static final k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILkotlin/jvm/u/l;Lkotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
+.method public static final k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILcotlin/jvm/u/l;Lcotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
     .locals 11
     .param p0    # Ljava/lang/String;
         .annotation build Ln/e/a/e;
@@ -563,11 +563,11 @@
         .annotation runtime Lcom/commsource/widget/dialog/delegate/d/b;
         .end annotation
     .end param
-    .param p6    # Lkotlin/jvm/u/l;
+    .param p6    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p7    # Lkotlin/jvm/u/l;
+    .param p7    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
@@ -579,15 +579,15 @@
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             "ZI",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/widget/dialog/delegate/b;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/widget/dialog/delegate/b;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Lcom/commsource/widget/dialog/delegate/b;"
         }
@@ -621,9 +621,9 @@
 
     move v9, p4
 
-    invoke-direct/range {v1 .. v9}, Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/u/l;Ljava/lang/String;Lkotlin/jvm/u/l;IZ)V
+    invoke-direct/range {v1 .. v9}, Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;Ljava/lang/String;Lcotlin/jvm/u/l;IZ)V
 
-    invoke-static {v10}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->j(Lkotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
+    invoke-static {v10}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->j(Lcotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
 
     move-result-object v1
 
@@ -632,7 +632,7 @@
     return-object v1
 .end method
 
-.method public static synthetic l(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILkotlin/jvm/u/l;Lkotlin/jvm/u/l;ILjava/lang/Object;)Lcom/commsource/widget/dialog/delegate/b;
+.method public static synthetic l(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILcotlin/jvm/u/l;Lcotlin/jvm/u/l;ILjava/lang/Object;)Lcom/commsource/widget/dialog/delegate/b;
     .locals 2
 
     const/16 p9, 0x29cb
@@ -698,7 +698,7 @@
 
     .line 1
     :cond_7
-    invoke-static/range {p0 .. p7}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILkotlin/jvm/u/l;Lkotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
+    invoke-static/range {p0 .. p7}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILcotlin/jvm/u/l;Lcotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
 
     move-result-object p0
 
@@ -726,11 +726,11 @@
 
     const-string v1, "$this$createOnlinePopupDialog"
 
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "ctx"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/home/entity/DialogDataEntity;->getPopupConfig()Lcom/commsource/home/entity/PopupConfig;
@@ -745,9 +745,9 @@
     .line 3
     new-instance p1, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1;
 
-    invoke-direct {p1, p0, v1, v2}, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1;-><init>(Lcom/commsource/home/entity/DialogDataEntity;Lcom/commsource/home/entity/PopupConfig;Lkotlin/jvm/u/l;)V
+    invoke-direct {p1, p0, v1, v2}, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1;-><init>(Lcom/commsource/home/entity/DialogDataEntity;Lcom/commsource/home/entity/PopupConfig;Lcotlin/jvm/u/l;)V
 
-    invoke-static {p1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->j(Lkotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
+    invoke-static {p1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->j(Lcotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
 
     move-result-object p0
 
@@ -774,7 +774,7 @@
 
     const-string p2, "ActivityStackManager.getInstance()"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/k;->g()Landroid/app/Activity;
 
@@ -782,7 +782,7 @@
 
     const-string p2, "ActivityStackManager.getInstance().topActivity"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     :cond_0
     invoke-static {p0, p1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->m(Lcom/commsource/home/entity/DialogDataEntity;Landroid/app/Activity;)Lcom/commsource/widget/dialog/delegate/b;
@@ -817,7 +817,7 @@
 
     const-string v1, "$this$popupBottomSheet"
 
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v1, Lcom/res/provider/ResSTYLE;->up_down_animation:I
 
@@ -890,7 +890,7 @@
 
     const-string v1, "$this$popupCenter"
 
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v1, Lcom/res/provider/ResSTYLE;->center_zoom_in_animation:I
 
@@ -983,7 +983,7 @@
     .line 1
     sget-object v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$showAppUpdate$1;->INSTANCE:Lcom/commsource/widget/dialog/delegate/XDialogKt$showAppUpdate$1;
 
-    invoke-static {v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->j(Lkotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
+    invoke-static {v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->j(Lcotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
 
     move-result-object v1
 
@@ -1006,7 +1006,7 @@
     .line 1
     sget-object v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$showGooglePlayError$1;->INSTANCE:Lcom/commsource/widget/dialog/delegate/XDialogKt$showGooglePlayError$1;
 
-    invoke-static {v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->j(Lkotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
+    invoke-static {v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->j(Lcotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
 
     move-result-object v1
 
@@ -1029,7 +1029,7 @@
     .line 1
     sget-object v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$showNetError$1;->INSTANCE:Lcom/commsource/widget/dialog/delegate/XDialogKt$showNetError$1;
 
-    invoke-static {v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->j(Lkotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
+    invoke-static {v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->j(Lcotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
 
     move-result-object v1
 
@@ -1042,19 +1042,19 @@
     return-void
 .end method
 
-.method public static final t(Lkotlin/jvm/u/l;)V
+.method public static final t(Lcotlin/jvm/u/l;)V
     .locals 2
-    .param p0    # Lkotlin/jvm/u/l;
+    .param p0    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/widget/dialog/delegate/b;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1065,14 +1065,14 @@
 
     const-string v1, "onClick"
 
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$showNetRetry$1;
 
-    invoke-direct {v1, p0}, Lcom/commsource/widget/dialog/delegate/XDialogKt$showNetRetry$1;-><init>(Lkotlin/jvm/u/l;)V
+    invoke-direct {v1, p0}, Lcom/commsource/widget/dialog/delegate/XDialogKt$showNetRetry$1;-><init>(Lcotlin/jvm/u/l;)V
 
-    invoke-static {v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->j(Lkotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
+    invoke-static {v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->j(Lcotlin/jvm/u/l;)Lcom/commsource/widget/dialog/delegate/b;
 
     move-result-object p0
 

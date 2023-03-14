@@ -1,9 +1,9 @@
 .class final Lcom/meitu/room/database/DBHelper$dataBase$2;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "DBHelper.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
@@ -18,8 +18,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
         "Lcom/meitu/room/database/MTBeautyplusDatabase;",
         ">;"
     }
@@ -29,7 +29,7 @@
     value = "SMAP\nDBHelper.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DBHelper.kt\ncom/meitu/room/database/DBHelper$dataBase$2\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,505:1\n1819#2,2:506\n*E\n*S KotlinDebug\n*F\n+ 1 DBHelper.kt\ncom/meitu/room/database/DBHelper$dataBase$2\n*L\n36#1,2:506\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -81,7 +81,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, v0}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -117,7 +117,7 @@
 
     const-string v2, "Room.databaseBuilder(App\u2026.allowMainThreadQueries()"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x1
 

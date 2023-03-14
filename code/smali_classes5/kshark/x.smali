@@ -8,7 +8,7 @@
     value = "SMAP\nProguardMapping.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ProguardMapping.kt\nkshark/ProguardMapping\n*L\n1#1,35:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,11 +30,11 @@
         "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
         "obfuscatedName",
         "clearName",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/String;Ljava/lang/String;)V",
         "Ljava/util/LinkedHashMap;",
-        "Lkotlin/collections/LinkedHashMap;",
+        "Lcotlin/collections/LinkedHashMap;",
         "Ljava/util/LinkedHashMap;",
         "obfuscatedToClearNamesMap",
         "<init>",
@@ -95,11 +95,11 @@
 
     const-string v0, "obfuscatedName"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "clearName"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lkshark/x;->a:Ljava/util/LinkedHashMap;
@@ -120,7 +120,7 @@
 
     const-string v0, "obfuscatedClassName"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lkshark/x;->a:Ljava/util/LinkedHashMap;
@@ -154,11 +154,11 @@
 
     const-string v0, "obfuscatedClass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "obfuscatedField"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lkshark/x;->a:Ljava/util/LinkedHashMap;

@@ -1,10 +1,10 @@
-.class Lkotlin/a0;
-.super Lkotlin/z;
+.class Lcotlin/a0;
+.super Lcotlin/z;
 .source "Lazy.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -16,15 +16,15 @@
     d2 = {
         "T",
         "value",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "e",
-        "(Ljava/lang/Object;)Lkotlin/w;",
+        "(Ljava/lang/Object;)Lcotlin/w;",
         "",
         "thisRef",
-        "Lkotlin/reflect/n;",
+        "Lcotlin/reflect/n;",
         "property",
         "d",
-        "(Lkotlin/w;Ljava/lang/Object;Lkotlin/reflect/n;)Ljava/lang/Object;",
+        "(Lcotlin/w;Ljava/lang/Object;Lcotlin/reflect/n;)Ljava/lang/Object;",
         "kotlin-stdlib"
     }
     k = 0x5
@@ -41,49 +41,49 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/z;-><init>()V
+    invoke-direct {p0}, Lcotlin/z;-><init>()V
 
     return-void
 .end method
 
-.method private static final d(Lkotlin/w;Ljava/lang/Object;Lkotlin/reflect/n;)Ljava/lang/Object;
+.method private static final d(Lcotlin/w;Ljava/lang/Object;Lcotlin/reflect/n;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/w<",
+            "Lcotlin/w<",
             "+TT;>;",
             "Ljava/lang/Object;",
-            "Lkotlin/reflect/n<",
+            "Lcotlin/reflect/n<",
             "*>;)TT;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string p1, "$this$getValue"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p0}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {p0}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final e(Ljava/lang/Object;)Lkotlin/w;
+.method public static final e(Ljava/lang/Object;)Lcotlin/w;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(TT;)",
-            "Lkotlin/w<",
+            "Lcotlin/w<",
             "TT;>;"
         }
     .end annotation
@@ -92,9 +92,9 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/InitializedLazyImpl;
+    new-instance v0, Lcotlin/InitializedLazyImpl;
 
-    invoke-direct {v0, p0}, Lkotlin/InitializedLazyImpl;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p0}, Lcotlin/InitializedLazyImpl;-><init>(Ljava/lang/Object;)V
 
     return-object v0
 .end method

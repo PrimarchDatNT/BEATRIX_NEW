@@ -30,7 +30,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -264,7 +264,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/meitu/template/bean/Sticker$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/meitu/template/bean/Sticker$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/meitu/template/bean/Sticker;->Companion:Lcom/meitu/template/bean/Sticker$a;
 
@@ -381,11 +381,11 @@
 
     .line 4
     :cond_0
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type com.meitu.template.bean.Sticker"
 
-    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1045,7 +1045,7 @@
 
     const-string v1, "localEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/e;->getDownloadState()I
@@ -1093,7 +1093,7 @@
 
     iget-object v2, p1, Lcom/meitu/template/bean/Sticker;->stickerThumbnail:Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1164,7 +1164,7 @@
 
     iget-object p1, p1, Lcom/meitu/template/bean/Sticker;->stickerFile:Ljava/lang/String;
 
-    invoke-static {v2, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -1236,7 +1236,7 @@
 
     const-string v1, "nextEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/Sticker;->equals(Ljava/lang/Object;)Z

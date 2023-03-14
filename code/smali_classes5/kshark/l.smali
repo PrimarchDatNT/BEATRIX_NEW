@@ -14,7 +14,7 @@
     value = "SMAP\nHprofReader.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HprofReader.kt\nkshark/HprofReader\n*L\n1#1,989:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -70,7 +70,7 @@
         "",
         "a",
         "()Z",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "O",
         "(J)V",
         "",
@@ -107,7 +107,7 @@
         "()Lkshark/m$b$b;",
         "Q",
         "",
-        "Lkotlin/reflect/d;",
+        "Lcotlin/reflect/d;",
         "Lkshark/m;",
         "recordTypes",
         "Lkshark/w;",
@@ -310,7 +310,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkshark/l$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lkshark/l$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lkshark/l;->h0:Lkshark/l$a;
 
@@ -454,7 +454,7 @@
 
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -485,11 +485,11 @@
 
     move-result-object p2
 
-    invoke-static {p3, p2}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {p3, p2}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object p2
 
-    invoke-static {p1, p2}, Lkotlin/collections/q0;->o0(Ljava/util/Map;Lkotlin/Pair;)Ljava/util/Map;
+    invoke-static {p1, p2}, Lcotlin/collections/q0;->o0(Ljava/util/Map;Lcotlin/Pair;)Ljava/util/Map;
 
     move-result-object p1
 
@@ -498,7 +498,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lokio/BufferedSource;IJILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lokio/BufferedSource;IJILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p5, p5, 0x4
@@ -584,7 +584,7 @@
 
     const-string p2, "source.readString(byteCount.toLong(), charset)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
@@ -653,7 +653,7 @@
 
     const-string p2, "source.readUtf8(byteCount)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
@@ -916,7 +916,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lkotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0, p1}, Lcotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -1058,7 +1058,7 @@
 
     const-string v0, "source.readByteArray(byteCount.toLong())"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
@@ -1069,7 +1069,7 @@
     .line 1
     sget v0, Lkshark/l;->g:I
 
-    sget-object v1, Lkotlin/text/d;->c:Ljava/nio/charset/Charset;
+    sget-object v1, Lcotlin/text/d;->c:Ljava/nio/charset/Charset;
 
     invoke-direct {p0, v0, v1}, Lkshark/l;->G(ILjava/nio/charset/Charset;)Ljava/lang/String;
 
@@ -1092,7 +1092,7 @@
 
     mul-int v0, v0, p1
 
-    sget-object p1, Lkotlin/text/d;->c:Ljava/nio/charset/Charset;
+    sget-object p1, Lcotlin/text/d;->c:Ljava/nio/charset/Charset;
 
     invoke-direct {p0, v0, p1}, Lkshark/l;->G(ILjava/nio/charset/Charset;)Ljava/lang/String;
 
@@ -1106,16 +1106,16 @@
 
     const-string v0, "(this as java.lang.String).toCharArray()"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 
     :cond_0
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v0, "null cannot be cast to non-null type java.lang.String"
 
-    invoke-direct {p1, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -1124,7 +1124,7 @@
     .locals 2
 
     .line 1
-    sget-object v0, Lkotlin/jvm/internal/v;->h:Lkotlin/jvm/internal/v;
+    sget-object v0, Lcotlin/jvm/internal/v;->h:Lcotlin/jvm/internal/v;
 
     invoke-direct {p0}, Lkshark/l;->y()J
 
@@ -1166,7 +1166,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlin/jvm/internal/y;->h:Lkotlin/jvm/internal/y;
+    sget-object v0, Lcotlin/jvm/internal/y;->h:Lcotlin/jvm/internal/y;
 
     invoke-direct {p0}, Lkshark/l;->w()I
 
@@ -1726,7 +1726,7 @@
 
     move-result-object v5
 
-    invoke-static {v0, v5}, Lkotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0, v5}, Lcotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -2276,7 +2276,7 @@
 
     move-result-object v15
 
-    invoke-static {v14, v15}, Lkotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v14, v15}, Lcotlin/collections/q0;->K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v14
 
@@ -2338,7 +2338,7 @@
             "(",
             "Ljava/util/Set<",
             "+",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "+",
             "Lkshark/m;",
             ">;>;",
@@ -2355,16 +2355,16 @@
 
     const-string v3, "recordTypes"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v3, "listener"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     const-class v3, Lkshark/m;
 
-    invoke-static {v3}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v3}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v3
 
@@ -2377,7 +2377,7 @@
     .line 2
     const-class v6, Lkshark/m$f;
 
-    invoke-static {v6}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v6}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v6
 
@@ -2404,7 +2404,7 @@
     .line 3
     const-class v7, Lkshark/m$c;
 
-    invoke-static {v7}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v7}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v7
 
@@ -2431,7 +2431,7 @@
     .line 4
     const-class v8, Lkshark/m$a;
 
-    invoke-static {v8}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v8}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v8
 
@@ -2458,7 +2458,7 @@
     .line 5
     const-class v9, Lkshark/m$d;
 
-    invoke-static {v9}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v9}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v9
 
@@ -2485,7 +2485,7 @@
     .line 6
     const-class v10, Lkshark/m$e;
 
-    invoke-static {v10}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v10}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v10
 
@@ -2512,7 +2512,7 @@
     .line 7
     const-class v11, Lkshark/m$b;
 
-    invoke-static {v11}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v11}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v11
 
@@ -2539,7 +2539,7 @@
     .line 8
     const-class v12, Lkshark/m$b$a;
 
-    invoke-static {v12}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v12}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v12
 
@@ -2566,7 +2566,7 @@
     .line 9
     const-class v3, Lkshark/m$b$b;
 
-    invoke-static {v3}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v3}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v3
 
@@ -2593,7 +2593,7 @@
     .line 10
     const-class v11, Lkshark/m$b$c;
 
-    invoke-static {v11}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v11}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v11
 
@@ -2620,7 +2620,7 @@
     .line 11
     const-class v13, Lkshark/m$b$c$a;
 
-    invoke-static {v13}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v13}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v13
 
@@ -2645,7 +2645,7 @@
     :goto_13
     const-class v14, Lkshark/m$b$c$b;
 
-    invoke-static {v14}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v14}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v14
 
@@ -2658,7 +2658,7 @@
     .line 13
     const-class v15, Lkshark/m$b$c$c;
 
-    invoke-static {v15}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v15}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v15
 
@@ -2683,7 +2683,7 @@
     :goto_15
     const-class v16, Lkshark/m$b$c$d;
 
-    invoke-static/range {v16 .. v16}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static/range {v16 .. v16}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v4
 
@@ -2696,7 +2696,7 @@
     .line 15
     const-class v16, Lkshark/m$b$c$e;
 
-    invoke-static/range {v16 .. v16}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static/range {v16 .. v16}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v5
 
@@ -2723,7 +2723,7 @@
 
     move/from16 v17, v6
 
-    invoke-static/range {v16 .. v16}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static/range {v16 .. v16}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v6
 
@@ -2736,7 +2736,7 @@
     .line 17
     const-class v11, Lkshark/m$b$c$g;
 
-    invoke-static {v11}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v11}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v11
 
@@ -2763,7 +2763,7 @@
 
     move/from16 v18, v7
 
-    invoke-static/range {v16 .. v16}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static/range {v16 .. v16}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v7
 
@@ -2958,7 +2958,7 @@
 
     const-string v8, "java.lang.String.format(this, *args)"
 
-    invoke-static {v2, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2990,7 +2990,7 @@
 
     move-result-object v5
 
-    invoke-static {v5, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

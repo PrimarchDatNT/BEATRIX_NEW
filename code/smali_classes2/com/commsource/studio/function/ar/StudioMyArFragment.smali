@@ -8,7 +8,7 @@
     value = "SMAP\nStudioMyArFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StudioMyArFragment.kt\ncom/commsource/studio/function/ar/StudioMyArFragment\n*L\n1#1,154:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,12 +30,12 @@
         "onCreateView",
         "(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
         "view",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onViewCreated",
         "(Landroid/view/View;Landroid/os/Bundle;)V",
         "Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;",
         "c",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "B",
         "()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;",
         "arViewModel",
@@ -81,19 +81,19 @@
 # instance fields
 .field private J:Ljava/util/HashMap;
 
-.field private final c:Lkotlin/w;
+.field private final c:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
 .field private d:I
 
-.field private final f:Lkotlin/w;
+.field private final f:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final g:Lkotlin/w;
+.field private final g:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -116,33 +116,33 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/ar/StudioMyArFragment$arViewModel$2;-><init>(Lcom/commsource/studio/function/ar/StudioMyArFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment;->c:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment;->c:Lcotlin/w;
 
     .line 3
     new-instance v0, Lcom/commsource/studio/function/ar/StudioMyArFragment$adapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/ar/StudioMyArFragment$adapter$2;-><init>(Lcom/commsource/studio/function/ar/StudioMyArFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment;->f:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment;->f:Lcotlin/w;
 
     .line 4
     new-instance v0, Lcom/commsource/studio/function/ar/StudioMyArFragment$rv$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/ar/StudioMyArFragment$rv$2;-><init>(Lcom/commsource/studio/function/ar/StudioMyArFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment;->g:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment;->g:Lcotlin/w;
 
     return-void
 .end method
@@ -188,9 +188,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment;->f:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment;->f:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -210,9 +210,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment;->c:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment;->c:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -264,9 +264,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment;->g:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment;->g:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -334,7 +334,7 @@
 
     const-string p3, "inflater"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/StudioMyArFragment;->E()Landroidx/recyclerview/widget/RecyclerView;
@@ -379,7 +379,7 @@
 
     const-string v1, "view"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
@@ -419,7 +419,7 @@
 
     const-string p2, "ArMaterialRepository.getInstance()"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->H()Landroidx/lifecycle/MutableLiveData;
 
@@ -468,7 +468,7 @@
 
     const-string p2, "arViewModel"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->h0()Landroidx/lifecycle/MutableLiveData;
 
@@ -489,7 +489,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->j0()Landroidx/lifecycle/MutableLiveData;
 
@@ -510,7 +510,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->f0()Landroidx/lifecycle/MutableLiveData;
 
@@ -531,7 +531,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->E()Landroidx/lifecycle/MutableLiveData;
 
@@ -552,7 +552,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->R()Landroidx/lifecycle/MutableLiveData;
 

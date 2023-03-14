@@ -1,4 +1,4 @@
-.class public interface abstract Lkotlinx/coroutines/sync/c;
+.class public interface abstract Lcotlinx/coroutines/sync/c;
 .super Ljava/lang/Object;
 .source "Mutex.kt"
 
@@ -6,11 +6,11 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkotlinx/coroutines/sync/c$a;
+        Lcotlinx/coroutines/sync/c$a;
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,24 +20,24 @@
         "\u0000\"\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0008f\u0018\u00002\u00020\u0001J\u001b\u0010\u0004\u001a\u00020\u00032\n\u0008\u0002\u0010\u0002\u001a\u0004\u0018\u00010\u0001H&\u00a2\u0006\u0004\u0008\u0004\u0010\u0005J\u001f\u0010\u0007\u001a\u00020\u00062\n\u0008\u0002\u0010\u0002\u001a\u0004\u0018\u00010\u0001H\u00a6@\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u0017\u0010\t\u001a\u00020\u00032\u0006\u0010\u0002\u001a\u00020\u0001H&\u00a2\u0006\u0004\u0008\t\u0010\u0005J\u001b\u0010\n\u001a\u00020\u00062\n\u0008\u0002\u0010\u0002\u001a\u0004\u0018\u00010\u0001H&\u00a2\u0006\u0004\u0008\n\u0010\u000bR\u0016\u0010\u000e\u001a\u00020\u00038&@&X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u000c\u0010\rR$\u0010\u0012\u001a\u0010\u0012\u0006\u0012\u0004\u0018\u00010\u0001\u0012\u0004\u0012\u00020\u00000\u000f8&@&X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0010\u0010\u0011\u0082\u0002\u0004\n\u0002\u0008\u0019\u00a8\u0006\u0013"
     }
     d2 = {
-        "Lkotlinx/coroutines/sync/c;",
+        "Lcotlinx/coroutines/sync/c;",
         "",
         "owner",
         "",
         "a",
         "(Ljava/lang/Object;)Z",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
-        "(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "e",
         "d",
         "(Ljava/lang/Object;)V",
         "b",
         "()Z",
         "isLocked",
-        "Lkotlinx/coroutines/selects/e;",
+        "Lcotlinx/coroutines/selects/e;",
         "f",
-        "()Lkotlinx/coroutines/selects/e;",
+        "()Lcotlinx/coroutines/selects/e;",
         "onLock",
         "kotlinx-coroutines-core"
     }
@@ -61,12 +61,12 @@
 .method public abstract b()Z
 .end method
 
-.method public abstract c(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public abstract c(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .param p1    # Ljava/lang/Object;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -74,9 +74,9 @@
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Ljava/lang/Object;"
         }
@@ -100,13 +100,13 @@
     .end param
 .end method
 
-.method public abstract f()Lkotlinx/coroutines/selects/e;
+.method public abstract f()Lcotlinx/coroutines/selects/e;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlinx/coroutines/selects/e<",
+            "Lcotlinx/coroutines/selects/e<",
             "Ljava/lang/Object;",
-            "Lkotlinx/coroutines/sync/c;",
+            "Lcotlinx/coroutines/sync/c;",
             ">;"
         }
     .end annotation

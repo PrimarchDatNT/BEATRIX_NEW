@@ -1,4 +1,4 @@
-.class public final Lkotlinx/coroutines/internal/ExceptionsConstuctorKt$a;
+.class public final Lcotlinx/coroutines/internal/ExceptionsConstuctorKt$a;
 .super Ljava/lang/Object;
 .source "Comparisons.kt"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/internal/ExceptionsConstuctorKt;->f(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+    value = Lcotlinx/coroutines/internal/ExceptionsConstuctorKt;->f(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -31,7 +31,7 @@
     value = "SMAP\nComparisons.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Comparisons.kt\nkotlin/comparisons/ComparisonsKt__ComparisonsKt$compareByDescending$1\n+ 2 ExceptionsConstuctor.kt\nkotlinx/coroutines/internal/ExceptionsConstuctorKt\n*L\n1#1,319:1\n41#2:320\n41#2:321\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -106,7 +106,7 @@
 
     move-result-object p1
 
-    invoke-static {p2, p1}, Lkotlin/z1/a;->g(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
+    invoke-static {p2, p1}, Lcotlin/z1/a;->g(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
 
     move-result p1
 

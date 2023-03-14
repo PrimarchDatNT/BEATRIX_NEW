@@ -11,7 +11,7 @@
     value = "SMAP\nGzipSink.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GzipSink.kt\nokio/GzipSink\n+ 2 -Util.kt\nokio/-Util\n+ 3 RealBufferedSink.kt\nokio/RealBufferedSink\n*L\n1#1,153:1\n72#2:154\n32#3:155\n*E\n*S KotlinDebug\n*F\n+ 1 GzipSink.kt\nokio/GzipSink\n*L\n132#1:154\n64#1:155\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -23,7 +23,7 @@
     d2 = {
         "Lokio/GzipSink;",
         "Lokio/Sink;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "writeFooter",
         "()V",
         "Lokio/Buffer;",
@@ -94,7 +94,7 @@
 
     const-string v0, "sink"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -169,7 +169,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     :goto_0
@@ -213,7 +213,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     goto :goto_0
 
@@ -257,16 +257,16 @@
 # virtual methods
 .method public final -deprecated_deflater()Ljava/util/zip/Deflater;
     .locals 1
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->ERROR:Lcotlin/DeprecationLevel;
         message = "moved to val"
-        replaceWith = .subannotation Lkotlin/q0;
+        replaceWith = .subannotation Lcotlin/q0;
             expression = "deflater"
             imports = {}
         .end subannotation
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "-deprecated_deflater"
     .end annotation
 
@@ -368,7 +368,7 @@
 
 .method public final deflater()Ljava/util/zip/Deflater;
     .locals 1
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "deflater"
     .end annotation
 
@@ -426,7 +426,7 @@
 
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v0, 0x0
 

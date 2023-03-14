@@ -1,9 +1,9 @@
-.class public final synthetic Lkotlinx/coroutines/channels/e0;
+.class public final synthetic Lcotlinx/coroutines/channels/e0;
 .super Ljava/lang/Object;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
 .method static synthetic constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Lkotlinx/coroutines/channels/TickerMode;->values()[Lkotlinx/coroutines/channels/TickerMode;
+    invoke-static {}, Lcotlinx/coroutines/channels/TickerMode;->values()[Lcotlinx/coroutines/channels/TickerMode;
 
     move-result-object v0
 
@@ -36,9 +36,9 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkotlinx/coroutines/channels/e0;->a:[I
+    sput-object v0, Lcotlinx/coroutines/channels/e0;->a:[I
 
-    sget-object v1, Lkotlinx/coroutines/channels/TickerMode;->FIXED_PERIOD:Lkotlinx/coroutines/channels/TickerMode;
+    sget-object v1, Lcotlinx/coroutines/channels/TickerMode;->FIXED_PERIOD:Lcotlinx/coroutines/channels/TickerMode;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -48,7 +48,7 @@
 
     aput v2, v0, v1
 
-    sget-object v1, Lkotlinx/coroutines/channels/TickerMode;->FIXED_DELAY:Lkotlinx/coroutines/channels/TickerMode;
+    sget-object v1, Lcotlinx/coroutines/channels/TickerMode;->FIXED_DELAY:Lcotlinx/coroutines/channels/TickerMode;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 

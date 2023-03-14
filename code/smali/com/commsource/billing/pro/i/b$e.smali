@@ -20,7 +20,7 @@
     value = "SMAP\nGmsProCore.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GmsProCore.kt\ncom/commsource/billing/pro/gms/GmsProCore$querySubscribeProducts$1\n*L\n1#1,256:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,7 +35,7 @@
         "",
         "Lcom/meitu/global/billing/product/data/Product;",
         "productInfo",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "F",
         "(Ljava/util/List;)V",
         "",
@@ -164,7 +164,7 @@
 
     const-string v4, "info.productId"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {v2, v3, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

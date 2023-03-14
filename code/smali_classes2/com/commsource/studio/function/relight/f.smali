@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "()Lcom/commsource/studio/function/relight/c;",
         "biasLight",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "a",
         "Ljava/util/ArrayList;",
         "()Ljava/util/ArrayList;",
@@ -122,7 +122,7 @@
 
     move-object v2, v11
 
-    invoke-direct/range {v2 .. v10}, Lcom/commsource/studio/function/relight/e;-><init>(FFFIIIILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v2 .. v10}, Lcom/commsource/studio/function/relight/e;-><init>(FFFIIIILcotlin/jvm/internal/u;)V
 
     invoke-direct {v1, v11}, Lcom/commsource/studio/function/relight/c;-><init>(Lcom/commsource/studio/function/relight/e;)V
 
@@ -137,7 +137,7 @@
 
     move-object v2, v11
 
-    invoke-direct/range {v2 .. v10}, Lcom/commsource/studio/function/relight/e;-><init>(FFFIIIILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v2 .. v10}, Lcom/commsource/studio/function/relight/e;-><init>(FFFIIIILcotlin/jvm/internal/u;)V
 
     .line 5
     new-instance v2, Lcom/commsource/studio/function/relight/e;
@@ -160,7 +160,7 @@
 
     move-object v12, v2
 
-    invoke-direct/range {v12 .. v20}, Lcom/commsource/studio/function/relight/e;-><init>(FFFIIIILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v12 .. v20}, Lcom/commsource/studio/function/relight/e;-><init>(FFFIIIILcotlin/jvm/internal/u;)V
 
     .line 6
     invoke-direct {v1, v11, v2}, Lcom/commsource/studio/function/relight/a;-><init>(Lcom/commsource/studio/function/relight/e;Lcom/commsource/studio/function/relight/e;)V

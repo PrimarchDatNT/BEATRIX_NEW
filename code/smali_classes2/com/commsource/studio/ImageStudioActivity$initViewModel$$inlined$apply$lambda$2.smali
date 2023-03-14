@@ -32,7 +32,7 @@
     value = "SMAP\nImageStudioActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ImageStudioActivity.kt\ncom/commsource/studio/ImageStudioActivity$initViewModel$1$2\n+ 2 View.kt\nandroidx/core/view/ViewKt\n*L\n1#1,1536:1\n251#2:1537\n*E\n*S KotlinDebug\n*F\n+ 1 ImageStudioActivity.kt\ncom/commsource/studio/ImageStudioActivity$initViewModel$1$2\n*L\n418#1:1537\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "state",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Integer;)V",
         "com/commsource/studio/ImageStudioActivity$initViewModel$1$2"
@@ -136,7 +136,7 @@
 
     iget-object v9, v9, Lcom/commsource/beautyplus/f0/k0;->U:Lcom/commsource/widget/IconFrontView;
 
-    invoke-static {v9, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v9, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v5, 0x0
 
@@ -171,13 +171,13 @@
 
     iget-object v9, v9, Lcom/commsource/beautyplus/f0/k0;->P:Lcom/commsource/beautyplus/f0/u6;
 
-    invoke-static {v9, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v9, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v9}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object v9
 
-    invoke-static {v9, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v9, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     invoke-virtual {v9}, Landroid/view/View;->getVisibility()I
@@ -203,13 +203,13 @@
 
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/k0;->P:Lcom/commsource/beautyplus/f0/u6;
 
-    invoke-static {v5, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object v9
 
-    invoke-static {v9, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v9, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v5, 0x64
 
@@ -227,7 +227,7 @@
 
     const/4 v15, 0x0
 
-    invoke-static/range {v9 .. v15}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v9 .. v15}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 6
     iget-object v5, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
@@ -238,7 +238,7 @@
 
     iget-object v6, v5, Lcom/commsource/beautyplus/f0/k0;->h0:Landroid/widget/LinearLayout;
 
-    invoke-static {v6, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v7, 0x0
 
@@ -250,7 +250,7 @@
 
     const/4 v12, 0x0
 
-    invoke-static/range {v6 .. v12}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v6 .. v12}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 7
     iget-object v4, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
@@ -265,7 +265,7 @@
 
     check-cast v5, Lcom/commsource/studio/gesture/LayerSelectComponent;
 
-    invoke-static {v5, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v6, 0x0
 
@@ -277,7 +277,7 @@
 
     const/4 v11, 0x0
 
-    invoke-static/range {v5 .. v11}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v5 .. v11}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 8
     iget-object v3, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
@@ -292,7 +292,7 @@
 
     check-cast v4, Lcom/commsource/studio/component/UndoRedoComponent;
 
-    invoke-static {v4, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v5, 0x0
 
@@ -304,7 +304,7 @@
 
     const/4 v10, 0x0
 
-    invoke-static/range {v4 .. v10}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v4 .. v10}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     goto/16 :goto_6
 
@@ -319,7 +319,7 @@
 
     iget-object v6, v6, Lcom/commsource/beautyplus/f0/k0;->U:Lcom/commsource/widget/IconFrontView;
 
-    invoke-static {v6, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v6}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -332,13 +332,13 @@
 
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/k0;->P:Lcom/commsource/beautyplus/f0/u6;
 
-    invoke-static {v5, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object v5
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v5}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -351,13 +351,13 @@
 
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/k0;->P:Lcom/commsource/beautyplus/f0/u6;
 
-    invoke-static {v5, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object v9
 
-    invoke-static {v9, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v9, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v10, 0x0
 
@@ -369,7 +369,7 @@
 
     const/4 v15, 0x0
 
-    invoke-static/range {v9 .. v15}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v9 .. v15}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 12
     iget-object v5, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
@@ -380,13 +380,13 @@
 
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/k0;->P:Lcom/commsource/beautyplus/f0/u6;
 
-    invoke-static {v5, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object v5
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Landroid/view/View;->getHeight()I
 
@@ -440,7 +440,7 @@
 
     iget-object v8, v6, Lcom/commsource/beautyplus/f0/k0;->h0:Landroid/widget/LinearLayout;
 
-    invoke-static {v8, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     neg-float v4, v5
 
@@ -454,7 +454,7 @@
 
     move v9, v4
 
-    invoke-static/range {v8 .. v14}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v8 .. v14}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 16
     iget-object v5, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
@@ -467,7 +467,7 @@
 
     check-cast v9, Lcom/commsource/studio/gesture/LayerSelectComponent;
 
-    invoke-static {v9, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v9, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v11, 0x0
 
@@ -479,7 +479,7 @@
 
     move v10, v4
 
-    invoke-static/range {v9 .. v15}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v9 .. v15}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 17
     iget-object v3, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
@@ -494,9 +494,9 @@
 
     check-cast v9, Lcom/commsource/studio/component/UndoRedoComponent;
 
-    invoke-static {v9, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v9, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static/range {v9 .. v15}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v9 .. v15}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 18
     :cond_8

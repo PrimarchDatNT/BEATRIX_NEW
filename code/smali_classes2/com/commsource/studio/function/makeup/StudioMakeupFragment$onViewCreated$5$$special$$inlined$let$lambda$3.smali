@@ -1,9 +1,9 @@
 .class final Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5$$special$$inlined$let$lambda$3;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "StudioMakeupFragment.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
@@ -18,14 +18,14 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
-        "Lkotlin/t1;",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,7 +35,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0010\u0004\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002\u00a8\u0006\u0003"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "()V",
         "com/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5$$special$$inlined$let$lambda$2",
@@ -51,7 +51,7 @@
 
 
 # instance fields
-.field final synthetic $alpha$inlined:Lkotlin/jvm/internal/Ref$ObjectRef;
+.field final synthetic $alpha$inlined:Lcotlin/jvm/internal/Ref$ObjectRef;
 
 .field final synthetic $it:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;
 
@@ -65,14 +65,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;Lkotlin/jvm/internal/Ref$ObjectRef;ILcom/commsource/repository/child/makeup/h;Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5;)V
+.method constructor <init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;Lcotlin/jvm/internal/Ref$ObjectRef;ILcom/commsource/repository/child/makeup/h;Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5;)V
     .locals 0
 
     iput-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5$$special$$inlined$let$lambda$3;->$it:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;
 
     iput-object p2, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5$$special$$inlined$let$lambda$3;->$jni$inlined:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
-    iput-object p3, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5$$special$$inlined$let$lambda$3;->$alpha$inlined:Lkotlin/jvm/internal/Ref$ObjectRef;
+    iput-object p3, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5$$special$$inlined$let$lambda$3;->$alpha$inlined:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iput p4, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5$$special$$inlined$let$lambda$3;->$makeupType$inlined:I
 
@@ -82,7 +82,7 @@
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -99,7 +99,7 @@
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5$$special$$inlined$let$lambda$3;->invoke()V
 
-    sget-object v1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -160,15 +160,15 @@
     move-result v7
 
     .line 8
-    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5$$special$$inlined$let$lambda$3;->$alpha$inlined:Lkotlin/jvm/internal/Ref$ObjectRef;
+    iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$5$$special$$inlined$let$lambda$3;->$alpha$inlined:Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iget-object v1, v1, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iget-object v1, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     check-cast v1, Ljava/lang/Integer;
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I

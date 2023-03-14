@@ -918,7 +918,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/autocamera/AutoCameraActivity$c;-><init>(Lcom/commsource/autocamera/AutoCameraActivity;)V
 
-    invoke-virtual {v1, p0, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->b(Landroidx/lifecycle/LifecycleOwner;Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, p0, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->b(Landroidx/lifecycle/LifecycleOwner;Lcotlin/jvm/u/l;)V
 
     .line 21
     invoke-virtual {v0}, Lcom/commsource/material/ImageSegmentExecutor;->l()Lcom/commsource/material/download/b/a;
@@ -933,7 +933,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/autocamera/AutoCameraActivity$d;-><init>(Lcom/commsource/autocamera/AutoCameraActivity;)V
 
-    invoke-virtual {v1, p0, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->b(Landroidx/lifecycle/LifecycleOwner;Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, p0, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->b(Landroidx/lifecycle/LifecycleOwner;Lcotlin/jvm/u/l;)V
 
     .line 22
     invoke-virtual {v0}, Lcom/commsource/material/ImageSegmentExecutor;->l()Lcom/commsource/material/download/b/a;
@@ -948,7 +948,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/autocamera/AutoCameraActivity$e;-><init>(Lcom/commsource/autocamera/AutoCameraActivity;)V
 
-    invoke-virtual {v1, p0, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->b(Landroidx/lifecycle/LifecycleOwner;Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, p0, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->b(Landroidx/lifecycle/LifecycleOwner;Lcotlin/jvm/u/l;)V
 
     .line 23
     sget-object v1, Lcom/commsource/material/download/SegmentModel;->Human:Lcom/commsource/material/download/SegmentModel;

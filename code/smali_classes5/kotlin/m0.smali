@@ -1,4 +1,4 @@
-.class Lkotlin/m0;
+.class Lcotlin/m0;
 .super Ljava/lang/Object;
 .source "AssertionsJVM.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nAssertionsJVM.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AssertionsJVM.kt\nkotlin/PreconditionsKt__AssertionsJVMKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,39:1\n1#2:40\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,14 +20,14 @@
     d2 = {
         "",
         "value",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Z)V",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "",
         "lazyMessage",
         "b",
-        "(ZLkotlin/jvm/u/a;)V",
+        "(ZLcotlin/jvm/u/a;)V",
         "kotlin-stdlib"
     }
     k = 0x5
@@ -51,25 +51,25 @@
 
 .method private static final a(Z)V
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     return-void
 .end method
 
-.method private static final b(ZLkotlin/jvm/u/a;)V
+.method private static final b(ZLcotlin/jvm/u/a;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/jvm/u/a<",
             "+",
             "Ljava/lang/Object;",
             ">;)V"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     return-void

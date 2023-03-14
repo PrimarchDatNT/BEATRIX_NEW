@@ -15,7 +15,7 @@
     value = "SMAP\nAsyncTimeout.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AsyncTimeout.kt\nokio/AsyncTimeout\n*L\n1#1,369:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "now",
         "remainingNanos",
         "(J)J",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "enter",
         "()V",
         "",
@@ -99,7 +99,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lokio/AsyncTimeout$Companion;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lokio/AsyncTimeout$Companion;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lokio/AsyncTimeout;->Companion:Lokio/AsyncTimeout$Companion;
 
@@ -338,7 +338,7 @@
 
     const-string v0, "cause"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-virtual {p0}, Lokio/AsyncTimeout;->exit()Z
@@ -423,7 +423,7 @@
 
     const-string v0, "sink"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lokio/AsyncTimeout$sink$1;
@@ -444,7 +444,7 @@
 
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lokio/AsyncTimeout$source$1;

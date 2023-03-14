@@ -1,14 +1,14 @@
-.class final Lkotlin/io/FilesKt__UtilsKt$copyRecursively$1;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlin/io/FilesKt__UtilsKt$copyRecursively$1;
+.super Lcotlin/jvm/internal/Lambda;
 .source "Utils.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/io/FilesKt__UtilsKt;->O(Ljava/io/File;Ljava/io/File;ZLkotlin/jvm/u/p;ILjava/lang/Object;)Z
+    value = Lcotlin/io/FilesKt__UtilsKt;->O(Ljava/io/File;Ljava/io/File;ZLcotlin/jvm/u/p;ILjava/lang/Object;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,18 +45,18 @@
 
 
 # static fields
-.field public static final INSTANCE:Lkotlin/io/FilesKt__UtilsKt$copyRecursively$1;
+.field public static final INSTANCE:Lcotlin/io/FilesKt__UtilsKt$copyRecursively$1;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkotlin/io/FilesKt__UtilsKt$copyRecursively$1;
+    new-instance v0, Lcotlin/io/FilesKt__UtilsKt$copyRecursively$1;
 
-    invoke-direct {v0}, Lkotlin/io/FilesKt__UtilsKt$copyRecursively$1;-><init>()V
+    invoke-direct {v0}, Lcotlin/io/FilesKt__UtilsKt$copyRecursively$1;-><init>()V
 
-    sput-object v0, Lkotlin/io/FilesKt__UtilsKt$copyRecursively$1;->INSTANCE:Lkotlin/io/FilesKt__UtilsKt$copyRecursively$1;
+    sput-object v0, Lcotlin/io/FilesKt__UtilsKt$copyRecursively$1;->INSTANCE:Lcotlin/io/FilesKt__UtilsKt$copyRecursively$1;
 
     return-void
 .end method
@@ -66,7 +66,7 @@
 
     const/4 v0, 0x2
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, v0}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -80,7 +80,7 @@
 
     check-cast p2, Ljava/io/IOException;
 
-    invoke-virtual {p0, p1, p2}, Lkotlin/io/FilesKt__UtilsKt$copyRecursively$1;->invoke(Ljava/io/File;Ljava/io/IOException;)Ljava/lang/Void;
+    invoke-virtual {p0, p1, p2}, Lcotlin/io/FilesKt__UtilsKt$copyRecursively$1;->invoke(Ljava/io/File;Ljava/io/IOException;)Ljava/lang/Void;
 
     move-result-object p1
 
@@ -102,11 +102,11 @@
 
     const-string v0, "<anonymous parameter 0>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "exception"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     throw p2

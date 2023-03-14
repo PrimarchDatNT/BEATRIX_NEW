@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Landroid/animation/AnimatorListenerAdapter;",
         "Landroid/animation/Animator;",
         "animation",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onAnimationStart",
         "(Landroid/animation/Animator;)V",
         "onAnimationEnd",
@@ -83,7 +83,7 @@
 
     const-string v1, "mViewBinding.viewBg"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Landroid/view/View;->getTranslationX()F
 
@@ -164,7 +164,7 @@
     :goto_0
     iget-object v0, p0, Lcom/commsource/studio/text/TextTabView$b;->a:Lcom/commsource/studio/text/TextTabView;
 
-    invoke-virtual {v0}, Lcom/commsource/studio/text/TextTabView;->getCallBack()Lkotlin/jvm/u/l;
+    invoke-virtual {v0}, Lcom/commsource/studio/text/TextTabView;->getCallBack()Lcotlin/jvm/u/l;
 
     move-result-object v0
 
@@ -180,11 +180,11 @@
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkotlin/t1;
+    check-cast v0, Lcotlin/t1;
 
     .line 7
     :cond_1
@@ -230,7 +230,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/qm;->g:Landroid/widget/TextView;
 
-    invoke-static {v0, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
 
@@ -247,7 +247,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/qm;->c:Landroid/widget/TextView;
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
 
@@ -267,7 +267,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/qm;->g:Landroid/widget/TextView;
 
-    invoke-static {v0, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
 
@@ -284,7 +284,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/qm;->c:Landroid/widget/TextView;
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
 

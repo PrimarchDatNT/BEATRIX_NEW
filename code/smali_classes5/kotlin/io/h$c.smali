@@ -1,11 +1,11 @@
-.class abstract Lkotlin/io/h$c;
+.class abstract Lcotlin/io/h$c;
 .super Ljava/lang/Object;
 .source "FileTreeWalk.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/io/h;
+    value = Lcotlin/io/h;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "c"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -61,12 +61,12 @@
 
     const-string v0, "root"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkotlin/io/h$c;->a:Ljava/io/File;
+    iput-object p1, p0, Lcotlin/io/h$c;->a:Ljava/io/File;
 
     return-void
 .end method
@@ -79,7 +79,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/io/h$c;->a:Ljava/io/File;
+    iget-object v0, p0, Lcotlin/io/h$c;->a:Ljava/io/File;
 
     return-object v0
 .end method

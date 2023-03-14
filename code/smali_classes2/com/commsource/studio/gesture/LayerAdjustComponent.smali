@@ -8,7 +8,7 @@
     value = "SMAP\nLayerAdjustComponent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LayerAdjustComponent.kt\ncom/commsource/studio/gesture/LayerAdjustComponent\n*L\n1#1,447:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/studio/gesture/LayerAdjustComponent;",
         "Landroid/widget/FrameLayout;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "j",
         "()V",
         "",
@@ -119,11 +119,11 @@
 
     const-string v0, "ctx"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "attributeSet"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -156,7 +156,7 @@
 
     const-string p2, "ViewModelProvider(contex\u2026dioViewModel::class.java)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -188,7 +188,7 @@
 
     const-string p2, "LayoutGroupBubbleTipBind\u2026utInflater.from(context))"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->p:Lcom/commsource/beautyplus/f0/kl;
 
@@ -196,11 +196,11 @@
 
     .line 6
     :cond_0
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type androidx.fragment.app.FragmentActivity"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -324,9 +324,9 @@
     check-cast v2, Landroid/view/ViewGroup$MarginLayoutParams;
 
     .line 4
-    new-instance v3, Lkotlin/jvm/internal/Ref$FloatRef;
+    new-instance v3, Lcotlin/jvm/internal/Ref$FloatRef;
 
-    invoke-direct {v3}, Lkotlin/jvm/internal/Ref$FloatRef;-><init>()V
+    invoke-direct {v3}, Lcotlin/jvm/internal/Ref$FloatRef;-><init>()V
 
     invoke-virtual {v8}, Landroid/view/ViewGroup;->getWidth()I
 
@@ -338,16 +338,16 @@
 
     div-float/2addr v4, v5
 
-    iput v4, v3, Lkotlin/jvm/internal/Ref$FloatRef;->element:F
+    iput v4, v3, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
     .line 5
-    new-instance v4, Lkotlin/jvm/internal/Ref$FloatRef;
+    new-instance v4, Lcotlin/jvm/internal/Ref$FloatRef;
 
-    invoke-direct {v4}, Lkotlin/jvm/internal/Ref$FloatRef;-><init>()V
+    invoke-direct {v4}, Lcotlin/jvm/internal/Ref$FloatRef;-><init>()V
 
     const/4 v6, 0x0
 
-    iput v6, v4, Lkotlin/jvm/internal/Ref$FloatRef;->element:F
+    iput v6, v4, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
     const/4 v7, 0x0
 
@@ -420,7 +420,7 @@
 
     sub-float/2addr v10, v11
 
-    iput v10, v3, Lkotlin/jvm/internal/Ref$FloatRef;->element:F
+    iput v10, v3, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
     .line 11
     :cond_0
@@ -456,7 +456,7 @@
 
     sub-float/2addr v7, v5
 
-    iput v7, v3, Lkotlin/jvm/internal/Ref$FloatRef;->element:F
+    iput v7, v3, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
     .line 14
     :cond_1
@@ -531,7 +531,7 @@
 
     int-to-float v1, v1
 
-    iput v1, v4, Lkotlin/jvm/internal/Ref$FloatRef;->element:F
+    iput v1, v4, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
     goto :goto_0
 
@@ -571,7 +571,7 @@
 
     move-object v7, p2
 
-    invoke-direct/range {v1 .. v7}, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;-><init>(Landroidx/recyclerview/widget/RecyclerView;Lkotlin/jvm/internal/Ref$FloatRef;Lkotlin/jvm/internal/Ref$FloatRef;Lcom/commsource/studio/gesture/LayerAdjustComponent;[FLcom/commsource/studio/bean/FocusLayerInfo;)V
+    invoke-direct/range {v1 .. v7}, Lcom/commsource/studio/gesture/LayerAdjustComponent$b;-><init>(Landroidx/recyclerview/widget/RecyclerView;Lcotlin/jvm/internal/Ref$FloatRef;Lcotlin/jvm/internal/Ref$FloatRef;Lcom/commsource/studio/gesture/LayerAdjustComponent;[FLcom/commsource/studio/bean/FocusLayerInfo;)V
 
     invoke-virtual {v8, v9}, Landroid/view/ViewGroup;->post(Ljava/lang/Runnable;)Z
 
@@ -579,11 +579,11 @@
 
     .line 23
     :cond_4
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type android.view.ViewGroup.MarginLayoutParams"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -629,7 +629,7 @@
 
     const-string v2, "groupBubbleTipBinding.tipsBubbleView"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -674,7 +674,7 @@
     const-string v1, "animate"
 
     .line 12
-    invoke-static {v2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v3, 0x15e
 
@@ -926,7 +926,7 @@
 
     const-string v3, "groupBubbleTipBinding.tipsBubbleView"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v2}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -967,7 +967,7 @@
 
     if-nez v7, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {v7}, Landroid/view/ViewGroup;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -985,7 +985,7 @@
 
     iget-object v9, v9, Lcom/commsource/beautyplus/f0/kl;->c:Landroid/widget/LinearLayout;
 
-    invoke-static {v9, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v9, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v9}, Landroid/widget/LinearLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -1002,7 +1002,7 @@
 
     const-string v10, "groupBubbleTipBinding.ivBubbleIndictor"
 
-    invoke-static {v8, v10}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v10}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v8}, Landroid/widget/ImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -1021,7 +1021,7 @@
 
     const-string v13, "groupBubbleTipBinding.tipContent"
 
-    invoke-static {v12, v13}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v12, v13}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v12}, Landroid/widget/TextView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -1036,7 +1036,7 @@
 
     if-nez v11, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-virtual {v11}, Landroid/view/ViewGroup;->getTop()I
@@ -1047,7 +1047,7 @@
 
     if-nez v14, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     invoke-virtual {v14}, Landroid/view/ViewGroup;->getHeight()I
@@ -1075,7 +1075,7 @@
 
     if-nez v11, :cond_4
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
     invoke-virtual {v11}, Landroid/view/ViewGroup;->getWidth()I
@@ -1095,7 +1095,7 @@
 
     if-nez v7, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     invoke-virtual {v7}, Landroid/view/ViewGroup;->getRight()I
@@ -1141,7 +1141,7 @@
 
     if-nez v7, :cond_7
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_7
     invoke-virtual {v7}, Landroid/view/ViewGroup;->getLeft()I
@@ -1183,7 +1183,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/kl;->c:Landroid/widget/LinearLayout;
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, v9}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
@@ -1192,7 +1192,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/kl;->a:Landroid/widget/ImageView;
 
-    invoke-static {v1, v10}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v10}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, v8}, Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
@@ -1201,7 +1201,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/kl;->b:Landroid/widget/TextView;
 
-    invoke-static {v1, v13}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v13}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, v12}, Landroid/widget/TextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
@@ -1212,9 +1212,9 @@
 
     .line 35
     :cond_8
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v11}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v11}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1222,9 +1222,9 @@
 
     .line 36
     :cond_9
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v11}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v11}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1232,9 +1232,9 @@
 
     .line 37
     :cond_a
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v8}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v8}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1242,9 +1242,9 @@
 
     .line 38
     :cond_b
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
-    invoke-direct {v1, v8}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v8}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1336,7 +1336,7 @@
 
     const-string v2, "groupBubbleTipBinding.tipsBubbleView"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->z(Landroid/view/View;)Z
 
@@ -1377,11 +1377,11 @@
 
     const-string v1, "anchor"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "focusLayerInfo"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent;->c:Landroidx/recyclerview/widget/RecyclerView;
@@ -1681,11 +1681,11 @@
 
     .line 38
     :cond_a
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type com.commsource.widget.recyclerview.BaseRecyclerViewAdapter"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

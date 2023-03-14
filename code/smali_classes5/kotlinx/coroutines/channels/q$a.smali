@@ -1,11 +1,11 @@
-.class final Lkotlinx/coroutines/channels/q$a;
+.class final Lcotlinx/coroutines/channels/q$a;
 .super Ljava/lang/Object;
 .source "ConflatedBroadcastChannel.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/channels/q;
+    value = Lcotlinx/coroutines/channels/q;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -48,7 +48,7 @@
 
 # instance fields
 .field public final a:Ljava/lang/Throwable;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -67,7 +67,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkotlinx/coroutines/channels/q$a;->a:Ljava/lang/Throwable;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/q$a;->a:Ljava/lang/Throwable;
 
     return-void
 .end method
@@ -80,18 +80,18 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/channels/q$a;->a:Ljava/lang/Throwable;
+    iget-object v0, p0, Lcotlinx/coroutines/channels/q$a;->a:Ljava/lang/Throwable;
 
     if-eqz v0, :cond_0
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/channels/ClosedSendChannelException;
+    new-instance v0, Lcotlinx/coroutines/channels/ClosedSendChannelException;
 
     const-string v1, "Channel was closed"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/channels/ClosedSendChannelException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/channels/ClosedSendChannelException;-><init>(Ljava/lang/String;)V
 
     :goto_0
     return-object v0
@@ -103,7 +103,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/channels/q$a;->a:Ljava/lang/Throwable;
+    iget-object v0, p0, Lcotlinx/coroutines/channels/q$a;->a:Ljava/lang/Throwable;
 
     if-eqz v0, :cond_0
 

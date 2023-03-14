@@ -1,11 +1,11 @@
-.class public final Lkotlin/reflect/t$a;
+.class public final Lcotlin/reflect/t$a;
 .super Ljava/lang/Object;
 .source "KTypeProjection.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/reflect/t;
+    value = Lcotlin/reflect/t;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,18 +25,18 @@
     d2 = {
         "kotlin/reflect/t$a",
         "",
-        "Lkotlin/reflect/r;",
+        "Lcotlin/reflect/r;",
         "type",
-        "Lkotlin/reflect/t;",
+        "Lcotlin/reflect/t;",
         "e",
-        "(Lkotlin/reflect/r;)Lkotlin/reflect/t;",
+        "(Lcotlin/reflect/r;)Lcotlin/reflect/t;",
         "a",
         "b",
         "c",
-        "()Lkotlin/reflect/t;",
+        "()Lcotlin/reflect/t;",
         "STAR",
         "star",
-        "Lkotlin/reflect/t;",
+        "Lcotlin/reflect/t;",
         "getStar$annotations",
         "()V",
         "<init>",
@@ -61,18 +61,18 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/reflect/t$a;-><init>()V
+    invoke-direct {p0}, Lcotlin/reflect/t$a;-><init>()V
 
     return-void
 .end method
 
 .method public static synthetic d()V
     .locals 0
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     return-void
@@ -80,13 +80,13 @@
 
 
 # virtual methods
-.method public final a(Lkotlin/reflect/r;)Lkotlin/reflect/t;
+.method public final a(Lcotlin/reflect/r;)Lcotlin/reflect/t;
     .locals 2
-    .param p1    # Lkotlin/reflect/r;
+    .param p1    # Lcotlin/reflect/r;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -94,25 +94,25 @@
 
     const-string v0, "type"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/reflect/t;
+    new-instance v0, Lcotlin/reflect/t;
 
-    sget-object v1, Lkotlin/reflect/KVariance;->IN:Lkotlin/reflect/KVariance;
+    sget-object v1, Lcotlin/reflect/KVariance;->IN:Lcotlin/reflect/KVariance;
 
-    invoke-direct {v0, v1, p1}, Lkotlin/reflect/t;-><init>(Lkotlin/reflect/KVariance;Lkotlin/reflect/r;)V
+    invoke-direct {v0, v1, p1}, Lcotlin/reflect/t;-><init>(Lcotlin/reflect/KVariance;Lcotlin/reflect/r;)V
 
     return-object v0
 .end method
 
-.method public final b(Lkotlin/reflect/r;)Lkotlin/reflect/t;
+.method public final b(Lcotlin/reflect/r;)Lcotlin/reflect/t;
     .locals 2
-    .param p1    # Lkotlin/reflect/r;
+    .param p1    # Lcotlin/reflect/r;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -120,36 +120,36 @@
 
     const-string v0, "type"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/reflect/t;
+    new-instance v0, Lcotlin/reflect/t;
 
-    sget-object v1, Lkotlin/reflect/KVariance;->OUT:Lkotlin/reflect/KVariance;
+    sget-object v1, Lcotlin/reflect/KVariance;->OUT:Lcotlin/reflect/KVariance;
 
-    invoke-direct {v0, v1, p1}, Lkotlin/reflect/t;-><init>(Lkotlin/reflect/KVariance;Lkotlin/reflect/r;)V
+    invoke-direct {v0, v1, p1}, Lcotlin/reflect/t;-><init>(Lcotlin/reflect/KVariance;Lcotlin/reflect/r;)V
 
     return-object v0
 .end method
 
-.method public final c()Lkotlin/reflect/t;
+.method public final c()Lcotlin/reflect/t;
     .locals 1
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/reflect/t;->c:Lkotlin/reflect/t;
+    sget-object v0, Lcotlin/reflect/t;->c:Lcotlin/reflect/t;
 
     return-object v0
 .end method
 
-.method public final e(Lkotlin/reflect/r;)Lkotlin/reflect/t;
+.method public final e(Lcotlin/reflect/r;)Lcotlin/reflect/t;
     .locals 2
-    .param p1    # Lkotlin/reflect/r;
+    .param p1    # Lcotlin/reflect/r;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -157,14 +157,14 @@
 
     const-string v0, "type"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/reflect/t;
+    new-instance v0, Lcotlin/reflect/t;
 
-    sget-object v1, Lkotlin/reflect/KVariance;->INVARIANT:Lkotlin/reflect/KVariance;
+    sget-object v1, Lcotlin/reflect/KVariance;->INVARIANT:Lcotlin/reflect/KVariance;
 
-    invoke-direct {v0, v1, p1}, Lkotlin/reflect/t;-><init>(Lkotlin/reflect/KVariance;Lkotlin/reflect/r;)V
+    invoke-direct {v0, v1, p1}, Lcotlin/reflect/t;-><init>(Lcotlin/reflect/KVariance;Lcotlin/reflect/r;)V
 
     return-object v0
 .end method

@@ -8,7 +8,7 @@
     value = "SMAP\nStickerItemTouchCallBack.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StickerItemTouchCallBack.kt\ncom/commsource/studio/sticker/manage/StickerItemTouchCallBack\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,147:1\n1819#2,2:148\n*E\n*S KotlinDebug\n*F\n+ 1 StickerItemTouchCallBack.kt\ncom/commsource/studio/sticker/manage/StickerItemTouchCallBack\n*L\n136#1,2:148\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "getSwipeEscapeVelocity",
         "(F)F",
         "direction",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onSwiped",
         "(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V",
         "Landroid/graphics/Canvas;",
@@ -60,7 +60,7 @@
         "actionType",
         "Lcom/commsource/studio/sticker/StickerViewModel;",
         "b",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "()Lcom/commsource/studio/sticker/StickerViewModel;",
         "mViewModel",
         "Landroidx/recyclerview/widget/RecyclerView;",
@@ -81,7 +81,7 @@
 # instance fields
 .field private a:I
 
-.field private final b:Lkotlin/w;
+.field private final b:Lcotlin/w;
 
 .field private final c:Landroidx/recyclerview/widget/RecyclerView;
     .annotation build Ln/e/a/d;
@@ -99,7 +99,7 @@
 
     const-string v0, "recyclerView"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/ItemTouchHelper$Callback;-><init>()V
@@ -116,11 +116,11 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/sticker/manage/StickerItemTouchCallBack$mViewModel$2;-><init>(Lcom/commsource/studio/sticker/manage/StickerItemTouchCallBack;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/sticker/manage/StickerItemTouchCallBack;->b:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/sticker/manage/StickerItemTouchCallBack;->b:Lcotlin/w;
 
     .line 4
     new-instance v0, Lcom/commsource/studio/sticker/manage/StickerItemTouchCallBack$a;
@@ -139,9 +139,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/sticker/manage/StickerItemTouchCallBack;->b:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/sticker/manage/StickerItemTouchCallBack;->b:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -188,11 +188,11 @@
 
     const-string v1, "recyclerView"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "viewHolder"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
@@ -206,7 +206,7 @@
 
     const-string v2, "viewHolder.itemView"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x0
 
@@ -280,7 +280,7 @@
     const-string v3, "it"
 
     .line 10
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -314,11 +314,11 @@
 
     .line 13
     :cond_3
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type com.meitu.template.bean.StickerGroup"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -341,11 +341,11 @@
 
     .line 16
     :cond_5
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type com.commsource.widget.recyclerview.BaseRecyclerViewAdapter"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -376,11 +376,11 @@
 
     const-string v1, "recyclerView"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "viewHolder"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x3
 
@@ -426,7 +426,7 @@
 
     const-string v1, "viewHolder"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -487,15 +487,15 @@
 
     const-string v1, "c"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "recyclerView"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "viewHolder"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x1
 
@@ -530,7 +530,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, p6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, p6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -557,7 +557,7 @@
 
     move-result-object p5
 
-    invoke-static {p5, p6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, p6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p5}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -608,7 +608,7 @@
 
     const-string v4, "adapter.items[index]"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v3, Lcom/commsource/widget/h1/d;
 
@@ -635,7 +635,7 @@
 
     move-result-object v4
 
-    invoke-static {v4, p6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, p6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v4}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -672,11 +672,11 @@
 
     .line 11
     :cond_4
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type com.meitu.template.bean.StickerGroup"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -694,7 +694,7 @@
 
     move-result-object p4
 
-    invoke-static {p4, p6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, p6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p4}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -713,7 +713,7 @@
 
     move-result-object p3
 
-    invoke-static {p3, p6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p3}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -738,7 +738,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, p6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -757,7 +757,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, p6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -774,11 +774,11 @@
 
     .line 18
     :cond_7
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type com.commsource.widget.recyclerview.BaseRecyclerViewAdapter"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -822,15 +822,15 @@
 
     const-string v1, "recyclerView"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "viewHolder"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "target"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     instance-of v1, p2, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;
@@ -863,7 +863,7 @@
 
     move-result-object v4
 
-    invoke-static {v4, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v4}, Lcom/commsource/widget/h1/e;->h()Ljava/util/List;
 
@@ -890,7 +890,7 @@
 
     move-result-object v5
 
-    invoke-static {v5, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/widget/h1/e;->h()Ljava/util/List;
 
@@ -993,7 +993,7 @@
 
     const-string v0, "viewHolder"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V

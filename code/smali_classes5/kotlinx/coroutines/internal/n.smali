@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/internal/n;
+.class public final Lcotlinx/coroutines/internal/n;
 .super Ljava/lang/Object;
 .source "LockFreeLinkedList.common.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
 
 # static fields
 .field public static final a:Ljava/lang/Object;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -46,13 +46,13 @@
     .locals 2
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/internal/c0;
+    new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "REMOVE_PREPARED"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlinx/coroutines/internal/n;->a:Ljava/lang/Object;
+    sput-object v0, Lcotlinx/coroutines/internal/n;->a:Ljava/lang/Object;
 
     return-void
 .end method

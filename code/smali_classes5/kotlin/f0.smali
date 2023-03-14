@@ -1,10 +1,10 @@
-.class Lkotlin/f0;
-.super Lkotlin/e0;
+.class Lcotlin/f0;
+.super Lcotlin/e0;
 .source "NumbersJVM.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,17 +29,17 @@
         "g0",
         "(D)J",
         "i0",
-        "Lkotlin/Double$Companion;",
+        "Lcotlin/Double$Companion;",
         "bits",
         "P",
-        "(Lkotlin/jvm/internal/v;J)D",
+        "(Lcotlin/jvm/internal/v;J)D",
         "",
         "f0",
         "(F)I",
         "h0",
-        "Lkotlin/Float$Companion;",
+        "Lcotlin/Float$Companion;",
         "Q",
-        "(Lkotlin/jvm/internal/y;I)F",
+        "(Lcotlin/jvm/internal/y;I)F",
         "L",
         "(I)I",
         "J",
@@ -76,23 +76,23 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/e0;-><init>()V
+    invoke-direct {p0}, Lcotlin/e0;-><init>()V
 
     return-void
 .end method
 
 .method private static final J(I)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -106,16 +106,16 @@
 
 .method private static final K(J)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -129,16 +129,16 @@
 
 .method private static final L(I)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -152,16 +152,16 @@
 
 .method private static final M(J)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -175,16 +175,16 @@
 
 .method private static final N(I)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -198,16 +198,16 @@
 
 .method private static final O(J)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -219,12 +219,12 @@
     return p0
 .end method
 
-.method private static final P(Lkotlin/jvm/internal/v;J)D
+.method private static final P(Lcotlin/jvm/internal/v;J)D
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -236,12 +236,12 @@
     return-wide p0
 .end method
 
-.method private static final Q(Lkotlin/jvm/internal/y;I)F
+.method private static final Q(Lcotlin/jvm/internal/y;I)F
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -255,7 +255,7 @@
 
 .method private static final R(D)Z
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -284,7 +284,7 @@
 
 .method private static final S(F)Z
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -313,7 +313,7 @@
 
 .method private static final T(D)Z
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -326,7 +326,7 @@
 
 .method private static final U(F)Z
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -339,7 +339,7 @@
 
 .method private static final V(D)Z
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -352,7 +352,7 @@
 
 .method private static final W(F)Z
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -365,13 +365,13 @@
 
 .method private static final X(II)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -385,13 +385,13 @@
 
 .method private static final Y(JI)J
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -405,13 +405,13 @@
 
 .method private static final Z(II)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -425,13 +425,13 @@
 
 .method private static final a0(JI)J
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -445,16 +445,16 @@
 
 .method private static final b0(I)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -468,16 +468,16 @@
 
 .method private static final c0(J)J
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -491,16 +491,16 @@
 
 .method private static final d0(I)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -514,16 +514,16 @@
 
 .method private static final e0(J)J
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
-    .annotation build Lkotlin/x1;
+    .annotation build Lcotlin/x1;
         markerClass = {
-            Lkotlin/o;
+            Lcotlin/o;
         }
     .end annotation
 
@@ -537,10 +537,10 @@
 
 .method private static final f0(F)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -554,10 +554,10 @@
 
 .method private static final g0(D)J
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -571,10 +571,10 @@
 
 .method private static final h0(F)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -588,10 +588,10 @@
 
 .method private static final i0(D)J
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 

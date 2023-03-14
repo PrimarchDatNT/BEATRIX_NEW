@@ -20,7 +20,7 @@
     value = "SMAP\nOutPushDialogController.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OutPushDialogController.kt\ncom/commsource/home/homepagedialog/OutPushDialogController$handleFbDeepLink$1\n*L\n1#1,402:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "Lcom/facebook/applinks/AppLinkData$CompletionHandler;",
         "Lcom/facebook/applinks/AppLinkData;",
         "appLinkData",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onDeferredAppLinkDataFetched",
         "(Lcom/facebook/applinks/AppLinkData;)V",
         "app_googleplayRelease"
@@ -131,7 +131,7 @@
 
     const-string v4, "it.toString()"
 
-    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v2, v3, p1, v1}, Lcom/commsource/home/homepagedialog/j;->l(Lcom/commsource/home/homepagedialog/j;Lcom/commsource/push/NotificationBarPush;Ljava/lang/String;Z)V
 

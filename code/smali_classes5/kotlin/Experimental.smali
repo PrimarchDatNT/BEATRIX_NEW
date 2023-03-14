@@ -1,4 +1,4 @@
-.class public interface abstract annotation Lkotlin/Experimental;
+.class public interface abstract annotation Lcotlin/Experimental;
 .super Ljava/lang/Object;
 .source "Experimental.kt"
 
@@ -8,14 +8,14 @@
 
 # annotations
 .annotation system Ldalvik/annotation/AnnotationDefault;
-    value = .subannotation Lkotlin/Experimental;
-        level = .enum Lkotlin/Experimental$Level;->ERROR:Lkotlin/Experimental$Level;
+    value = .subannotation Lcotlin/Experimental;
+        level = .enum Lcotlin/Experimental$Level;->ERROR:Lcotlin/Experimental$Level;
     .end subannotation
 .end annotation
 
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkotlin/Experimental$Level;
+        Lcotlin/Experimental$Level;
     }
 .end annotation
 
@@ -29,17 +29,17 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/annotation/c;
-    value = .enum Lkotlin/annotation/AnnotationRetention;->BINARY:Lkotlin/annotation/AnnotationRetention;
+.annotation runtime Lcotlin/annotation/c;
+    value = .enum Lcotlin/annotation/AnnotationRetention;->BINARY:Lcotlin/annotation/AnnotationRetention;
 .end annotation
 
-.annotation runtime Lkotlin/annotation/d;
+.annotation runtime Lcotlin/annotation/d;
     allowedTargets = {
-        .enum Lkotlin/annotation/AnnotationTarget;->ANNOTATION_CLASS:Lkotlin/annotation/AnnotationTarget;
+        .enum Lcotlin/annotation/AnnotationTarget;->ANNOTATION_CLASS:Lcotlin/annotation/AnnotationTarget;
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -49,13 +49,13 @@
         "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0010\u001b\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0008\u0087\u0002\u0018\u00002\u00020\u0001:\u0001\u0007B\u0011\u0012\u0008\u0008\u0002\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006R\u0013\u0010\u0003\u001a\u00020\u00028\u0006@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008\u0003\u0010\u0004\u00f8\u0001\u0000\u0082\u0002\u0007\n\u0005\u0008\u009120\u0001\u00a8\u0006\u0008"
     }
     d2 = {
-        "Lkotlin/Experimental;",
+        "Lcotlin/Experimental;",
         "",
-        "Lkotlin/Experimental$Level;",
+        "Lcotlin/Experimental$Level;",
         "level",
-        "()Lkotlin/Experimental$Level;",
+        "()Lcotlin/Experimental$Level;",
         "<init>",
-        "(Lkotlin/Experimental$Level;)V",
+        "(Lcotlin/Experimental$Level;)V",
         "Level",
         "kotlin-stdlib"
     }
@@ -67,15 +67,15 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/i;
+.annotation runtime Lcotlin/i;
     message = "Please use RequiresOptIn instead."
 .end annotation
 
-.annotation build Lkotlin/s0;
+.annotation build Lcotlin/s0;
     version = "1.2"
 .end annotation
 
 
 # virtual methods
-.method public abstract level()Lkotlin/Experimental$Level;
+.method public abstract level()Lcotlin/Experimental$Level;
 .end method

@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "view",
         "L;",
         "isOpen",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onStateChange",
         "(Lcom/commsource/beautyplus/setting/widget/SwitchView;L;)V",
         "kotlin/Boolean",
@@ -97,7 +97,7 @@
 
     invoke-direct {v1, p0, p2}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$initViews$$inlined$run$lambda$3$1;-><init>(Lcom/commsource/beautyplus/setting/test/TestFuncActivity$initViews$$inlined$run$lambda$3;Lcom/commsource/widget/s0;)V
 
-    invoke-virtual {v0, v1}, Lcom/commsource/camera/xcamera/util/b;->b(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v0, v1}, Lcom/commsource/camera/xcamera/util/b;->b(Lcotlin/jvm/u/l;)V
 
     goto :goto_0
 

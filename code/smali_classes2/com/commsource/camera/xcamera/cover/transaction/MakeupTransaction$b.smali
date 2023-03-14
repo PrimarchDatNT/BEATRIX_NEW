@@ -33,7 +33,7 @@
     value = "SMAP\nMakeupTransaction.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MakeupTransaction.kt\ncom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$onAttachTransaction$2\n*L\n1#1,201:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -47,7 +47,7 @@
         "Lcom/commsource/repository/child/makeup/h;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Landroid/util/SparseArray;)V"
     }
@@ -216,7 +216,7 @@
 
     const-string v6, "material"
 
-    invoke-static {v4, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5, v3, v4}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->w1(ILcom/commsource/repository/child/makeup/h;)V
 

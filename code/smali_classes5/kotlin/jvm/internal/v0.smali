@@ -1,15 +1,15 @@
-.class public final Lkotlin/jvm/internal/v0;
+.class public final Lcotlin/jvm/internal/v0;
 .super Ljava/lang/Object;
 .source "TypeParameterReference.kt"
 
 # interfaces
-.implements Lkotlin/reflect/s;
+.implements Lcotlin/reflect/s;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkotlin/jvm/internal/v0$a;
+        Lcotlin/jvm/internal/v0$a;
     }
 .end annotation
 
@@ -17,7 +17,7 @@
     value = "SMAP\nTypeParameterReference.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TypeParameterReference.kt\nkotlin/jvm/internal/TypeParameterReference\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,58:1\n1#2:59\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,12 +27,12 @@
         "\u0000@\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0014\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0008\u0007\u0018\u0000 \u00062\u00020\u0001:\u0001\"B)\u0012\u0008\u0010\u0015\u001a\u0004\u0018\u00010\u0008\u0012\u0006\u0010\u0019\u001a\u00020\u0010\u0012\u0006\u0010*\u001a\u00020%\u0012\u0006\u0010!\u001a\u00020\n\u00a2\u0006\u0004\u0008+\u0010,J\u001b\u0010\u0006\u001a\u00020\u00052\u000c\u0010\u0004\u001a\u0008\u0012\u0004\u0012\u00020\u00030\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u001a\u0010\u000b\u001a\u00020\n2\u0008\u0010\t\u001a\u0004\u0018\u00010\u0008H\u0096\u0002\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u000f\u0010\u000e\u001a\u00020\rH\u0016\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ\u000f\u0010\u0011\u001a\u00020\u0010H\u0016\u00a2\u0006\u0004\u0008\u0011\u0010\u0012R\u0018\u0010\u0015\u001a\u0004\u0018\u00010\u00088\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0013\u0010\u0014R\u001c\u0010\u0019\u001a\u00020\u00108\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0016\u0010\u0017\u001a\u0004\u0008\u0018\u0010\u0012R\"\u0010\u0004\u001a\u0008\u0012\u0004\u0012\u00020\u00030\u00028V@\u0016X\u0096\u0004\u00a2\u0006\u000c\u0012\u0004\u0008\u001c\u0010\u001d\u001a\u0004\u0008\u001a\u0010\u001bR\u001c\u0010!\u001a\u00020\n8\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u0008\u001e\u0010\u001f\u001a\u0004\u0008\u001e\u0010 R\u001e\u0010$\u001a\n\u0012\u0004\u0012\u00020\u0003\u0018\u00010\u00028\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\"\u0010#R\u001c\u0010*\u001a\u00020%8\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u0008&\u0010\'\u001a\u0004\u0008(\u0010)\u00a8\u0006-"
     }
     d2 = {
-        "Lkotlin/jvm/internal/v0;",
-        "Lkotlin/reflect/s;",
+        "Lcotlin/jvm/internal/v0;",
+        "Lcotlin/reflect/s;",
         "",
-        "Lkotlin/reflect/r;",
+        "Lcotlin/reflect/r;",
         "upperBounds",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "g",
         "(Ljava/util/List;)V",
         "",
@@ -64,14 +64,14 @@
         "a",
         "Ljava/util/List;",
         "bounds",
-        "Lkotlin/reflect/KVariance;",
+        "Lcotlin/reflect/KVariance;",
         "d",
-        "Lkotlin/reflect/KVariance;",
+        "Lcotlin/reflect/KVariance;",
         "j",
-        "()Lkotlin/reflect/KVariance;",
+        "()Lcotlin/reflect/KVariance;",
         "variance",
         "<init>",
-        "(Ljava/lang/Object;Ljava/lang/String;Lkotlin/reflect/KVariance;Z)V",
+        "(Ljava/lang/Object;Ljava/lang/String;Lcotlin/reflect/KVariance;Z)V",
         "kotlin-stdlib"
     }
     k = 0x1
@@ -82,13 +82,13 @@
     }
 .end annotation
 
-.annotation build Lkotlin/s0;
+.annotation build Lcotlin/s0;
     version = "1.4"
 .end annotation
 
 
 # static fields
-.field public static final g:Lkotlin/jvm/internal/v0$a;
+.field public static final g:Lcotlin/jvm/internal/v0$a;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -100,7 +100,7 @@
         value = {
             "Ljava/util/List<",
             "+",
-            "Lkotlin/reflect/r;",
+            "Lcotlin/reflect/r;",
             ">;"
         }
     .end annotation
@@ -113,7 +113,7 @@
     .end annotation
 .end field
 
-.field private final d:Lkotlin/reflect/KVariance;
+.field private final d:Lcotlin/reflect/KVariance;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -125,18 +125,18 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    new-instance v0, Lkotlin/jvm/internal/v0$a;
+    new-instance v0, Lcotlin/jvm/internal/v0$a;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkotlin/jvm/internal/v0$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcotlin/jvm/internal/v0$a;-><init>(Lcotlin/jvm/internal/u;)V
 
-    sput-object v0, Lkotlin/jvm/internal/v0;->g:Lkotlin/jvm/internal/v0$a;
+    sput-object v0, Lcotlin/jvm/internal/v0;->g:Lcotlin/jvm/internal/v0$a;
 
     return-void
 .end method
 
-.method public constructor <init>(Ljava/lang/Object;Ljava/lang/String;Lkotlin/reflect/KVariance;Z)V
+.method public constructor <init>(Ljava/lang/Object;Ljava/lang/String;Lcotlin/reflect/KVariance;Z)V
     .locals 1
     .param p1    # Ljava/lang/Object;
         .annotation build Ln/e/a/e;
@@ -146,29 +146,29 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/reflect/KVariance;
+    .param p3    # Lcotlin/reflect/KVariance;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
 
     const-string v0, "name"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "variance"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkotlin/jvm/internal/v0;->b:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlin/jvm/internal/v0;->b:Ljava/lang/Object;
 
-    iput-object p2, p0, Lkotlin/jvm/internal/v0;->c:Ljava/lang/String;
+    iput-object p2, p0, Lcotlin/jvm/internal/v0;->c:Ljava/lang/String;
 
-    iput-object p3, p0, Lkotlin/jvm/internal/v0;->d:Lkotlin/reflect/KVariance;
+    iput-object p3, p0, Lcotlin/jvm/internal/v0;->d:Lcotlin/reflect/KVariance;
 
-    iput-boolean p4, p0, Lkotlin/jvm/internal/v0;->f:Z
+    iput-boolean p4, p0, Lcotlin/jvm/internal/v0;->f:Z
 
     return-void
 .end method
@@ -189,31 +189,31 @@
     .end param
 
     .line 1
-    instance-of v0, p1, Lkotlin/jvm/internal/v0;
+    instance-of v0, p1, Lcotlin/jvm/internal/v0;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkotlin/jvm/internal/v0;->b:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/jvm/internal/v0;->b:Ljava/lang/Object;
 
-    check-cast p1, Lkotlin/jvm/internal/v0;
+    check-cast p1, Lcotlin/jvm/internal/v0;
 
-    iget-object v1, p1, Lkotlin/jvm/internal/v0;->b:Ljava/lang/Object;
+    iget-object v1, p1, Lcotlin/jvm/internal/v0;->b:Ljava/lang/Object;
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lkotlin/jvm/internal/v0;->getName()Ljava/lang/String;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/v0;->getName()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Lkotlin/jvm/internal/v0;->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Lcotlin/jvm/internal/v0;->getName()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -234,7 +234,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Lkotlin/jvm/internal/v0;->f:Z
+    iget-boolean v0, p0, Lcotlin/jvm/internal/v0;->f:Z
 
     return v0
 .end method
@@ -250,22 +250,22 @@
             "(",
             "Ljava/util/List<",
             "+",
-            "Lkotlin/reflect/r;",
+            "Lcotlin/reflect/r;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "upperBounds"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Lkotlin/jvm/internal/v0;->a:Ljava/util/List;
+    iget-object v0, p0, Lcotlin/jvm/internal/v0;->a:Ljava/util/List;
 
     if-nez v0, :cond_0
 
     .line 2
-    iput-object p1, p0, Lkotlin/jvm/internal/v0;->a:Ljava/util/List;
+    iput-object p1, p0, Lcotlin/jvm/internal/v0;->a:Ljava/util/List;
 
     return-void
 
@@ -306,7 +306,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/jvm/internal/v0;->c:Ljava/lang/String;
+    iget-object v0, p0, Lcotlin/jvm/internal/v0;->c:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -317,7 +317,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lkotlin/reflect/r;",
+            "Lcotlin/reflect/r;",
             ">;"
         }
     .end annotation
@@ -326,7 +326,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/jvm/internal/v0;->a:Ljava/util/List;
+    iget-object v0, p0, Lcotlin/jvm/internal/v0;->a:Ljava/util/List;
 
     if-eqz v0, :cond_0
 
@@ -335,15 +335,15 @@
     :cond_0
     const-class v0, Ljava/lang/Object;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/n0;->l(Ljava/lang/Class;)Lkotlin/reflect/r;
+    invoke-static {v0}, Lcotlin/jvm/internal/n0;->l(Ljava/lang/Class;)Lcotlin/reflect/r;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/collections/s;->k(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v0}, Lcotlin/collections/s;->k(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkotlin/jvm/internal/v0;->a:Ljava/util/List;
+    iput-object v0, p0, Lcotlin/jvm/internal/v0;->a:Ljava/util/List;
 
     :goto_0
     return-object v0
@@ -353,7 +353,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lkotlin/jvm/internal/v0;->b:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/jvm/internal/v0;->b:Ljava/lang/Object;
 
     if-eqz v0, :cond_0
 
@@ -369,7 +369,7 @@
     :goto_0
     mul-int/lit8 v0, v0, 0x1f
 
-    invoke-virtual {p0}, Lkotlin/jvm/internal/v0;->getName()Ljava/lang/String;
+    invoke-virtual {p0}, Lcotlin/jvm/internal/v0;->getName()Ljava/lang/String;
 
     move-result-object v1
 
@@ -382,13 +382,13 @@
     return v0
 .end method
 
-.method public j()Lkotlin/reflect/KVariance;
+.method public j()Lcotlin/reflect/KVariance;
     .locals 1
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/jvm/internal/v0;->d:Lkotlin/reflect/KVariance;
+    iget-object v0, p0, Lcotlin/jvm/internal/v0;->d:Lcotlin/reflect/KVariance;
 
     return-object v0
 .end method
@@ -399,9 +399,9 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/jvm/internal/v0;->g:Lkotlin/jvm/internal/v0$a;
+    sget-object v0, Lcotlin/jvm/internal/v0;->g:Lcotlin/jvm/internal/v0$a;
 
-    invoke-virtual {v0, p0}, Lkotlin/jvm/internal/v0$a;->a(Lkotlin/reflect/s;)Ljava/lang/String;
+    invoke-virtual {v0, p0}, Lcotlin/jvm/internal/v0$a;->a(Lcotlin/reflect/s;)Ljava/lang/String;
 
     move-result-object v0
 

@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/selects/WhileSelectKt$whileSelect$1;
-.super Lkotlin/coroutines/jvm/internal/ContinuationImpl;
+.class public final Lcotlinx/coroutines/selects/WhileSelectKt$whileSelect$1;
+.super Lcotlin/coroutines/jvm/internal/ContinuationImpl;
 .source "WhileSelect.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/selects/WhileSelectKt;->a(Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/selects/WhileSelectKt;->a(Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,7 +17,7 @@
     value = "SMAP\nWhileSelect.kt\nKotlin\n*S Kotlin\n*F\n+ 1 WhileSelect.kt\nkotlinx/coroutines/selects/WhileSelectKt\n*L\n1#1,33:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,17 +27,17 @@
         "\u0000$\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0000\n\u0002\u0008\u0002\u0010\t\u001a\u0004\u0018\u00010\u00082\u001f\u0008\u0004\u0010\u0005\u001a\u0019\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00020\u0001\u0012\u0004\u0012\u00020\u00030\u0000\u00a2\u0006\u0002\u0008\u00042\u000c\u0010\u0007\u001a\u0008\u0012\u0004\u0012\u00020\u00030\u0006H\u0087H\u00a2\u0006\u0004\u0008\t\u0010\n"
     }
     d2 = {
-        "Lkotlin/Function1;",
-        "Lkotlinx/coroutines/selects/a;",
+        "Lcotlin/Function1;",
+        "Lcotlinx/coroutines/selects/a;",
         "",
-        "Lkotlin/t1;",
-        "Lkotlin/q;",
+        "Lcotlin/t1;",
+        "Lcotlin/q;",
         "builder",
-        "Lkotlin/coroutines/c;",
+        "Lcotlin/coroutines/c;",
         "continuation",
         "",
         "whileSelect",
-        "(Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;"
+        "(Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;"
     }
     k = 0x3
     mv = {
@@ -47,7 +47,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.selects.WhileSelectKt"
     f = "WhileSelect.kt"
     i = {
@@ -75,10 +75,10 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/coroutines/c;)V
+.method public constructor <init>(Lcotlin/coroutines/c;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {p0, p1}, Lcotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lcotlin/coroutines/c;)V
 
     return-void
 .end method
@@ -94,19 +94,19 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    iput-object p1, p0, Lkotlinx/coroutines/selects/WhileSelectKt$whileSelect$1;->result:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/selects/WhileSelectKt$whileSelect$1;->result:Ljava/lang/Object;
 
-    iget p1, p0, Lkotlinx/coroutines/selects/WhileSelectKt$whileSelect$1;->label:I
+    iget p1, p0, Lcotlinx/coroutines/selects/WhileSelectKt$whileSelect$1;->label:I
 
     const/high16 v0, -0x80000000
 
     or-int/2addr p1, v0
 
-    iput p1, p0, Lkotlinx/coroutines/selects/WhileSelectKt$whileSelect$1;->label:I
+    iput p1, p0, Lcotlinx/coroutines/selects/WhileSelectKt$whileSelect$1;->label:I
 
     const/4 p1, 0x0
 
-    invoke-static {p1, p0}, Lkotlinx/coroutines/selects/WhileSelectKt;->a(Lkotlin/jvm/u/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p1, p0}, Lcotlinx/coroutines/selects/WhileSelectKt;->a(Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 

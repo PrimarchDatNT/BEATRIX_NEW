@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Landroidx/room/migration/Migration;",
         "Landroidx/sqlite/db/SupportSQLiteDatabase;",
         "database",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "migrate",
         "(Landroidx/sqlite/db/SupportSQLiteDatabase;)V",
         "app_googleplayRelease"
@@ -66,7 +66,7 @@
 
     const-string v1, "database"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `NEW_FILTER` (`FilterId` INTEGER NOT NULL, `FilterThumbnail` TEXT, `FilterNewName` TEXT, `FilterOldName` TEXT, `FilterShopThumbnail` TEXT, `IsFilterRecommend` INTEGER NOT NULL, `FilterFileUrl` TEXT, `FilterSort` INTEGER NOT NULL, `CollectedState` INTEGER NOT NULL, `CollectedTime` INTEGER NOT NULL, `InternalState` INTEGER NOT NULL, `DownloadState` INTEGER NOT NULL, `GroupId` INTEGER NOT NULL, `FilterDefaultAlpha` INTEGER NOT NULL, `AlphaInCamera` INTEGER NOT NULL, `NeedNewMode` INTEGER NOT NULL, `NeedBodyMask` INTEGER NOT NULL, `NeedHairMode` INTEGER NOT NULL, `ShowState` INTEGER NOT NULL, PRIMARY KEY(`FilterId`))"
 

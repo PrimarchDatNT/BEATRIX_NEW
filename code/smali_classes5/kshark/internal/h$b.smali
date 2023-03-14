@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -84,11 +84,11 @@
 
     const-string v0, "o1Array"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "o2Array"
 
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lkshark/internal/h$b;->a:Lkshark/internal/h;
@@ -141,7 +141,7 @@
     move-result p1
 
     .line 6
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->t(II)I
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result p1
 

@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "velocityY",
         "onFlingFromLeftToRight",
         "onFlingFromRightToLeft",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "(F)V",
         "<init>",
@@ -92,7 +92,7 @@
 
     move-result-object v1
 
-    invoke-static {p1}, Lkotlin/e2/b;->H0(F)I
+    invoke-static {p1}, Lcotlin/e2/b;->H0(F)I
 
     move-result p1
 
@@ -201,11 +201,11 @@
 
     const-string v0, "downEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "moveEvent"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p1, p0, Lcom/commsource/studio/StudioTabLayout$a;->c:Lcom/commsource/studio/StudioTabLayout;
@@ -216,7 +216,7 @@
 
     const-string p2, "scrollChangeAnimator"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->isRunning()Z
 
@@ -259,7 +259,7 @@
 
     move-result p2
 
-    invoke-static {p3}, Lkotlin/e2/b;->H0(F)I
+    invoke-static {p3}, Lcotlin/e2/b;->H0(F)I
 
     move-result p3
 

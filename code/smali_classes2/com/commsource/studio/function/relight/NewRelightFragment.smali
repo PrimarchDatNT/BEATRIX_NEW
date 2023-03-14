@@ -22,7 +22,7 @@
     value = "SMAP\nNewRelightFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewRelightFragment.kt\ncom/commsource/studio/function/relight/NewRelightFragment\n*L\n1#1,687:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -42,7 +42,7 @@
         "",
         "j2",
         "(Lcom/meitu/core/types/FaceData;I)Z",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "i2",
         "()V",
         "Lcom/commsource/studio/function/relight/b;",
@@ -88,7 +88,7 @@
         "G",
         "Lcom/commsource/studio/function/relight/g;",
         "h0",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "h2",
         "()Lcom/commsource/studio/function/relight/g;",
         "relightViewModel",
@@ -179,9 +179,9 @@
 
 .field private g0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
-.field private final h0:Lkotlin/w;
+.field private final h0:Lcotlin/w;
 
-.field private final i0:Lkotlin/w;
+.field private final i0:Lcotlin/w;
 
 .field private final j0:Lcom/commsource/camera/f1/l;
 
@@ -189,9 +189,9 @@
 
 .field private final l0:Lcom/commsource/camera/f1/n;
 
-.field private final m0:Lkotlin/w;
+.field private final m0:Lcotlin/w;
 
-.field private final n0:Lkotlin/w;
+.field private final n0:Lcotlin/w;
 
 .field private o0:Ljava/util/HashMap;
 
@@ -208,7 +208,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/function/relight/NewRelightFragment$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/function/relight/NewRelightFragment$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/function/relight/NewRelightFragment;->q0:Lcom/commsource/studio/function/relight/NewRelightFragment$a;
 
@@ -257,22 +257,22 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/relight/NewRelightFragment$relightViewModel$2;-><init>(Lcom/commsource/studio/function/relight/NewRelightFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->h0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->h0:Lcotlin/w;
 
     .line 5
     new-instance v0, Lcom/commsource/studio/function/relight/NewRelightFragment$functionHelper$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/relight/NewRelightFragment$functionHelper$2;-><init>(Lcom/commsource/studio/function/relight/NewRelightFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->i0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->i0:Lcotlin/w;
 
     const/4 v0, 0x2
 
@@ -322,22 +322,22 @@
     .line 11
     sget-object v0, Lcom/commsource/studio/function/relight/NewRelightFragment$autoProcessor$2;->INSTANCE:Lcom/commsource/studio/function/relight/NewRelightFragment$autoProcessor$2;
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->m0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->m0:Lcotlin/w;
 
     .line 12
     new-instance v0, Lcom/commsource/studio/function/relight/NewRelightFragment$manualProcessor$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/relight/NewRelightFragment$manualProcessor$2;-><init>(Lcom/commsource/studio/function/relight/NewRelightFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->n0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->n0:Lcotlin/w;
 
     return-void
 
@@ -473,7 +473,7 @@
 
     const-string v1, "mViewBinding"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -512,7 +512,7 @@
 
     const-string v1, "relightLayer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1070,7 +1070,7 @@
 
     const-string v6, "faceLights[i]"
 
-    invoke-static {v5, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v5, Lcom/commsource/studio/function/relight/d;
 
@@ -1228,7 +1228,7 @@
 
     invoke-direct {v2, p0, p1}, Lcom/commsource/studio/function/relight/NewRelightFragment$applyAutoEffect$1;-><init>(Lcom/commsource/studio/function/relight/NewRelightFragment;Lcom/commsource/studio/function/relight/b;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
     .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/relight/NewRelightFragment;->d2()Lcom/commsource/studio/function/relight/NewRelightFragment$autoProcessor$2$a;
@@ -1241,7 +1241,7 @@
 
     const/4 v3, 0x3
 
-    invoke-static {p1, v1, v2, v3, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p1, v1, v2, v3, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1271,7 +1271,7 @@
 
     invoke-direct {p3, p2, p0, p1}, Lcom/commsource/studio/function/relight/NewRelightFragment$applyManualEffect$$inlined$run$lambda$1;-><init>(Lcom/commsource/studio/function/relight/NewRelightFragment$manualProcessor$2$a;Lcom/commsource/studio/function/relight/NewRelightFragment;Ljava/util/HashMap;)V
 
-    invoke-virtual {p2, p3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p2, p3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
     const/4 p1, 0x0
 
@@ -1280,7 +1280,7 @@
     const/4 v1, 0x3
 
     .line 4
-    invoke-static {p2, p1, p3, v1, p3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p2, p1, p3, v1, p3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1295,9 +1295,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->m0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->m0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1315,9 +1315,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->i0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->i0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1335,9 +1335,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->n0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->n0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1355,9 +1355,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->h0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->h0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1516,7 +1516,7 @@
 
     move-object/from16 v19, v20
 
-    invoke-direct/range {v11 .. v19}, Lcom/commsource/studio/function/relight/e;-><init>(FFFIIIILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v11 .. v19}, Lcom/commsource/studio/function/relight/e;-><init>(FFFIIIILcotlin/jvm/internal/u;)V
 
     invoke-direct {v10, v7, v9}, Lcom/commsource/studio/function/relight/d;-><init>(Lcom/commsource/studio/function/relight/e;Z)V
 
@@ -1600,7 +1600,7 @@
 
     const-string v11, "relightLayer"
 
-    invoke-static {v11}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v11}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v10}, Lcom/commsource/studio/function/relight/d;->f()Lcom/commsource/studio/function/relight/e;
@@ -2370,7 +2370,7 @@
 
     const-string v3, "viewLifecycleOwner"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v3, Lcom/commsource/studio/function/relight/NewRelightFragment$i;
 
@@ -2524,7 +2524,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->c0:Lcom/commsource/studio/effect/c;
@@ -2572,7 +2572,7 @@
 
     const-string p3, "inflater"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p3, 0x0
 
@@ -2586,7 +2586,7 @@
 
     const-string v2, "mActivity"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v0, v1}, Lcom/commsource/studio/function/relight/NewRelightLayer;-><init>(Landroid/content/Context;)V
 
@@ -2602,7 +2602,7 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/relight/NewRelightFragment$onCreateView$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/function/relight/NewRelightFragment;)V
 
-    invoke-virtual {v0, v1}, Lcom/commsource/studio/function/relight/NewRelightLayer;->F0(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v0, v1}, Lcom/commsource/studio/function/relight/NewRelightLayer;->F0(Lcotlin/jvm/u/l;)V
 
     .line 5
     iput-object v0, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->f0:Lcom/commsource/studio/function/relight/NewRelightLayer;
@@ -2619,7 +2619,7 @@
 
     const-string p3, "FragmentNewStudioRelightBinding.inflate(inflater)"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment;->d0:Lcom/commsource/beautyplus/f0/w9;
 
@@ -2628,7 +2628,7 @@
     if-nez p1, :cond_0
 
     .line 8
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/w9;->i(Landroidx/fragment/app/Fragment;)V
@@ -2638,7 +2638,7 @@
 
     if-nez p1, :cond_1
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -2687,7 +2687,7 @@
 
     move-object/from16 v3, p1
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v2, v0, Lcom/commsource/studio/function/relight/NewRelightFragment;->d0:Lcom/commsource/beautyplus/f0/w9;
@@ -2696,14 +2696,14 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/w9;->b:Lcom/commsource/studio/component/ContrastComponent;
 
     const-string v5, "mViewBinding.contrast"
 
-    invoke-static {v2, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0, v2}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
@@ -2712,14 +2712,14 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/w9;->d:Lcom/commsource/studio/component/PreviewComponent;
 
     const-string v6, "mViewBinding.preview"
 
-    invoke-static {v2, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0, v2}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
@@ -2728,14 +2728,14 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/w9;->a:Lcom/commsource/studio/component/AutoManualComponent;
 
     const-string v7, "mViewBinding.autoManual"
 
-    invoke-static {v2, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0, v2}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
@@ -2808,7 +2808,7 @@
 
     move-result-object v9
 
-    invoke-static {v9, v10}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v9, v10}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v9}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
@@ -2859,7 +2859,7 @@
 
     move-result-object v9
 
-    invoke-static {v9, v10}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v9, v10}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v9}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
@@ -2932,7 +2932,7 @@
 
     const-string v14, "mActivity"
 
-    invoke-static {v13, v14}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v13, v14}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v2, v0, v13}, Lcom/commsource/studio/function/relight/NewRelightFragment$l;-><init>(Lcom/commsource/studio/function/relight/NewRelightFragment;Landroid/content/Context;)V
 
@@ -2978,7 +2978,7 @@
 
     if-nez v15, :cond_c
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_c
     iget-object v15, v15, Lcom/commsource/beautyplus/f0/w9;->a:Lcom/commsource/studio/component/AutoManualComponent;
@@ -3148,7 +3148,7 @@
 
     if-nez v1, :cond_12
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_12
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w9;->a:Lcom/commsource/studio/component/AutoManualComponent;
@@ -3160,12 +3160,12 @@
 
     if-nez v1, :cond_13
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_13
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w9;->b:Lcom/commsource/studio/component/ContrastComponent;
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v8}, Lcom/commsource/util/l0;->p(I)F
 
@@ -3178,12 +3178,12 @@
 
     if-nez v1, :cond_14
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_14
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w9;->d:Lcom/commsource/studio/component/PreviewComponent;
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v8}, Lcom/commsource/util/l0;->p(I)F
 
@@ -3196,12 +3196,12 @@
 
     if-nez v1, :cond_15
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_15
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w9;->a:Lcom/commsource/studio/component/AutoManualComponent;
 
-    invoke-static {v1, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v8}, Lcom/commsource/util/l0;->p(I)F
 
@@ -3227,7 +3227,7 @@
 
     invoke-direct {v2, v5, v4}, Lcom/commsource/util/r0;-><init>(Ljava/lang/String;Ljava/lang/Class;)V
 
-    invoke-static {v1, v2, v11, v12, v11}, Lcom/commsource/util/XFunctionFragmentHelper;->i(Lcom/commsource/util/XFunctionFragmentHelper;Lcom/commsource/util/r0;Lkotlin/jvm/u/l;ILjava/lang/Object;)V
+    invoke-static {v1, v2, v11, v12, v11}, Lcom/commsource/util/XFunctionFragmentHelper;->i(Lcom/commsource/util/XFunctionFragmentHelper;Lcom/commsource/util/r0;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
 
     goto :goto_9
 
@@ -3237,12 +3237,12 @@
 
     if-nez v1, :cond_17
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_17
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w9;->b:Lcom/commsource/studio/component/ContrastComponent;
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v2, Lcom/commsource/studio/function/relight/NewRelightFragment;->p0:F
 
@@ -3253,12 +3253,12 @@
 
     if-nez v1, :cond_18
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_18
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w9;->d:Lcom/commsource/studio/component/PreviewComponent;
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
@@ -3267,12 +3267,12 @@
 
     if-nez v1, :cond_19
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_19
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w9;->a:Lcom/commsource/studio/component/AutoManualComponent;
 
-    invoke-static {v1, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
@@ -3294,7 +3294,7 @@
 
     invoke-direct {v2, v5, v4}, Lcom/commsource/util/r0;-><init>(Ljava/lang/String;Ljava/lang/Class;)V
 
-    invoke-static {v1, v2, v11, v12, v11}, Lcom/commsource/util/XFunctionFragmentHelper;->i(Lcom/commsource/util/XFunctionFragmentHelper;Lcom/commsource/util/r0;Lkotlin/jvm/u/l;ILjava/lang/Object;)V
+    invoke-static {v1, v2, v11, v12, v11}, Lcom/commsource/util/XFunctionFragmentHelper;->i(Lcom/commsource/util/XFunctionFragmentHelper;Lcom/commsource/util/r0;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
 
     .line 49
     :goto_9

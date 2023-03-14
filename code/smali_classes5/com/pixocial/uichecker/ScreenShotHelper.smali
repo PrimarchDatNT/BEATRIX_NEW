@@ -15,7 +15,7 @@
     value = "SMAP\nScreenShotHelper.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ScreenShotHelper.kt\ncom/pixocial/uichecker/ScreenShotHelper\n*L\n1#1,242:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "",
         "Landroid/net/Uri;",
         "contentUri",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "l",
         "(Landroid/net/Uri;)V",
         "",
@@ -46,20 +46,20 @@
         "()V",
         "a",
         "Landroid/app/Application;",
-        "Lkotlin/Function1;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function1;",
+        "Lcotlin/k0;",
         "name",
         "path",
         "f",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "k",
-        "()Lkotlin/jvm/u/l;",
+        "()Lcotlin/jvm/u/l;",
         "p",
-        "(Lkotlin/jvm/u/l;)V",
+        "(Lcotlin/jvm/u/l;)V",
         "screenShotListener",
         "Lcom/pixocial/uichecker/ScreenShotHelper$b;",
         "d",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "j",
         "()Lcom/pixocial/uichecker/ScreenShotHelper$b;",
         "internalContentObserver",
@@ -116,17 +116,17 @@
 
 .field private c:Ljava/lang/String;
 
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
 
-.field private final e:Lkotlin/w;
+.field private final e:Lcotlin/w;
 
-.field private f:Lkotlin/jvm/u/l;
+.field private f:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/String;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -150,7 +150,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/pixocial/uichecker/ScreenShotHelper$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcom/pixocial/uichecker/ScreenShotHelper$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lcom/pixocial/uichecker/ScreenShotHelper;->l:Lcom/pixocial/uichecker/ScreenShotHelper$a;
 
@@ -225,22 +225,22 @@
 
     invoke-direct {v0, p0}, Lcom/pixocial/uichecker/ScreenShotHelper$internalContentObserver$2;-><init>(Lcom/pixocial/uichecker/ScreenShotHelper;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->d:Lkotlin/w;
+    iput-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->d:Lcotlin/w;
 
     .line 4
     new-instance v0, Lcom/pixocial/uichecker/ScreenShotHelper$externalContentObserver$2;
 
     invoke-direct {v0, p0}, Lcom/pixocial/uichecker/ScreenShotHelper$externalContentObserver$2;-><init>(Lcom/pixocial/uichecker/ScreenShotHelper;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->e:Lkotlin/w;
+    iput-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->e:Lcotlin/w;
 
     const/4 v0, 0x1
 
@@ -337,7 +337,7 @@
 
     const-string v1, "(this as java.lang.String).toLowerCase()"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     sget-object v1, Lcom/pixocial/uichecker/ScreenShotHelper;->k:[Ljava/lang/String;
@@ -354,7 +354,7 @@
     const/4 v6, 0x0
 
     .line 4
-    invoke-static {p1, v5, v0, v2, v6}, Lkotlin/text/m;->T2(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
+    invoke-static {p1, v5, v0, v2, v6}, Lcotlin/text/m;->T2(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
 
     move-result v5
 
@@ -377,9 +377,9 @@
 .method private final i()Lcom/pixocial/uichecker/ScreenShotHelper$b;
     .locals 1
 
-    iget-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->e:Lkotlin/w;
+    iget-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->e:Lcotlin/w;
 
-    invoke-interface {v0}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -391,9 +391,9 @@
 .method private final j()Lcom/pixocial/uichecker/ScreenShotHelper$b;
     .locals 1
 
-    iget-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->d:Lkotlin/w;
+    iget-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->d:Lcotlin/w;
 
-    invoke-interface {v0}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -460,7 +460,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v2}, Landroid/app/Application;->getContentResolver()Landroid/content/ContentResolver;
@@ -481,7 +481,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v1}, Landroid/app/Application;->getContentResolver()Landroid/content/ContentResolver;
@@ -563,7 +563,7 @@
 
     const-string v3, "cursor.getString(dataIndex)"
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 18
     invoke-interface {v0, v1}, Landroid/database/Cursor;->getLong(I)J
@@ -769,7 +769,7 @@
 
     const-string v3, ".pending"
 
-    invoke-static {p1, v3, v1, v0, v2}, Lkotlin/text/m;->T2(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
+    invoke-static {p1, v3, v1, v0, v2}, Lcotlin/text/m;->T2(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
 
     move-result p1
 
@@ -792,14 +792,14 @@
     return v0
 .end method
 
-.method public final k()Lkotlin/jvm/u/l;
+.method public final k()Lcotlin/jvm/u/l;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Ljava/lang/String;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -808,7 +808,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->f:Lkotlin/jvm/u/l;
+    iget-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->f:Lcotlin/jvm/u/l;
 
     return-object v0
 .end method
@@ -824,7 +824,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-boolean v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->g:Z
@@ -907,25 +907,25 @@
     return-void
 .end method
 
-.method public final p(Lkotlin/jvm/u/l;)V
+.method public final p(Lcotlin/jvm/u/l;)V
     .locals 0
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/String;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->f:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->f:Lcotlin/jvm/u/l;
 
     return-void
 .end method
@@ -945,7 +945,7 @@
     .line 2
     :cond_0
     :try_start_0
-    sget-object v0, Lkotlin/Result;->Companion:Lkotlin/Result$a;
+    sget-object v0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
     .line 3
     iget-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->a:Landroid/app/Application;
@@ -957,7 +957,7 @@
     if-nez v0, :cond_1
 
     :try_start_1
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v0}, Landroid/app/Application;->getContentResolver()Landroid/content/ContentResolver;
@@ -975,7 +975,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v0}, Landroid/app/Application;->getContentResolver()Landroid/content/ContentResolver;
@@ -989,10 +989,10 @@
     invoke-virtual {v0, v1}, Landroid/content/ContentResolver;->unregisterContentObserver(Landroid/database/ContentObserver;)V
 
     .line 5
-    sget-object v0, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
 
     .line 6
-    invoke-static {v0}, Lkotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -1001,13 +1001,13 @@
     :catchall_0
     move-exception v0
 
-    sget-object v1, Lkotlin/Result;->Companion:Lkotlin/Result$a;
+    sget-object v1, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
-    invoke-static {v0}, Lkotlin/r0;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
+    invoke-static {v0}, Lcotlin/r0;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
 
     :goto_0
     const/4 v0, 0x0

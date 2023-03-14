@@ -3,7 +3,7 @@
 .source "lambda"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # static fields
@@ -38,7 +38,7 @@
 
     check-cast p1, Lcom/commsource/widget/dialog/delegate/b;
 
-    invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/NewArGroupPanel;->x(Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+    invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/NewArGroupPanel;->x(Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
 
     move-result-object p1
 

@@ -1,10 +1,10 @@
-.class final synthetic Lkotlin/io/LineReader$readLine$1;
-.super Lkotlin/jvm/internal/MutablePropertyReference0Impl;
+.class final synthetic Lcotlin/io/LineReader$readLine$1;
+.super Lcotlin/jvm/internal/MutablePropertyReference0Impl;
 .source "Console.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,10 +22,10 @@
 
 
 # direct methods
-.method constructor <init>(Lkotlin/io/m;)V
+.method constructor <init>(Lcotlin/io/m;)V
     .locals 6
 
-    const-class v2, Lkotlin/io/m;
+    const-class v2, Lcotlin/io/m;
 
     const-string v3, "decoder"
 
@@ -37,7 +37,7 @@
 
     move-object v1, p1
 
-    invoke-direct/range {v0 .. v5}, Lkotlin/jvm/internal/MutablePropertyReference0Impl;-><init>(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct/range {v0 .. v5}, Lcotlin/jvm/internal/MutablePropertyReference0Impl;-><init>(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
     return-void
 .end method
@@ -49,12 +49,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    iget-object v0, p0, Lkotlin/jvm/internal/CallableReference;->receiver:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/jvm/internal/CallableReference;->receiver:Ljava/lang/Object;
 
-    check-cast v0, Lkotlin/io/m;
+    check-cast v0, Lcotlin/io/m;
 
     .line 1
-    invoke-static {v0}, Lkotlin/io/m;->a(Lkotlin/io/m;)Ljava/nio/charset/CharsetDecoder;
+    invoke-static {v0}, Lcotlin/io/m;->a(Lcotlin/io/m;)Ljava/nio/charset/CharsetDecoder;
 
     move-result-object v0
 
@@ -68,14 +68,14 @@
         .end annotation
     .end param
 
-    iget-object v0, p0, Lkotlin/jvm/internal/CallableReference;->receiver:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlin/jvm/internal/CallableReference;->receiver:Ljava/lang/Object;
 
-    check-cast v0, Lkotlin/io/m;
+    check-cast v0, Lcotlin/io/m;
 
     .line 1
     check-cast p1, Ljava/nio/charset/CharsetDecoder;
 
-    invoke-static {v0, p1}, Lkotlin/io/m;->b(Lkotlin/io/m;Ljava/nio/charset/CharsetDecoder;)V
+    invoke-static {v0, p1}, Lcotlin/io/m;->b(Lcotlin/io/m;Ljava/nio/charset/CharsetDecoder;)V
 
     return-void
 .end method

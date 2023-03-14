@@ -1,4 +1,4 @@
-.class final synthetic Lkotlinx/coroutines/flow/FlowKt__ReduceKt;
+.class final synthetic Lcotlinx/coroutines/flow/FlowKt__ReduceKt;
 .super Ljava/lang/Object;
 .source "Reduce.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nReduce.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Reduce.kt\nkotlinx/coroutines/flow/FlowKt__ReduceKt\n+ 2 Collect.kt\nkotlinx/coroutines/flow/FlowKt__CollectKt\n*L\n1#1,158:1\n73#2,3:159\n73#2,3:162\n73#2,3:165\n73#2,3:168\n73#2,3:171\n73#2,3:174\n73#2,3:177\n73#2,3:180\n73#2,3:183\n*E\n*S KotlinDebug\n*F\n+ 1 Reduce.kt\nkotlinx/coroutines/flow/FlowKt__ReduceKt\n*L\n24#1,3:159\n47#1,3:162\n47#1,3:165\n60#1,3:168\n76#1,3:171\n90#1,3:174\n109#1,3:177\n130#1,3:180\n147#1,3:183\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,31 +20,31 @@
     d2 = {
         "S",
         "T",
-        "Lkotlinx/coroutines/flow/d;",
-        "Lkotlin/Function3;",
-        "Lkotlin/k0;",
+        "Lcotlinx/coroutines/flow/d;",
+        "Lcotlin/Function3;",
+        "Lcotlin/k0;",
         "name",
         "accumulator",
         "value",
-        "Lkotlin/coroutines/c;",
+        "Lcotlin/coroutines/c;",
         "",
         "operation",
         "g",
-        "(Lkotlinx/coroutines/flow/d;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "R",
         "initial",
         "acc",
         "e",
-        "(Lkotlinx/coroutines/flow/d;Ljava/lang/Object;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Lcotlinx/coroutines/flow/d;Ljava/lang/Object;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "h",
-        "(Lkotlinx/coroutines/flow/d;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Lcotlinx/coroutines/flow/d;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "i",
         "a",
-        "Lkotlin/Function2;",
+        "Lcotlin/Function2;",
         "",
         "predicate",
         "b",
-        "(Lkotlinx/coroutines/flow/d;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "c",
         "d",
         "kotlinx-coroutines-core"
@@ -60,13 +60,13 @@
 
 
 # direct methods
-.method public static final a(Lkotlinx/coroutines/flow/d;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final a(Lcotlinx/coroutines/flow/d;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
-    .param p0    # Lkotlinx/coroutines/flow/d;
+    .param p0    # Lcotlinx/coroutines/flow/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -75,9 +75,9 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/flow/d<",
+            "Lcotlinx/coroutines/flow/d<",
             "+TT;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TT;>;)",
             "Ljava/lang/Object;"
         }
@@ -86,15 +86,15 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p1, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;
+    instance-of v0, p1, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;
 
     if-eqz v0, :cond_0
 
     move-object v0, p1
 
-    check-cast v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;
+    check-cast v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;
 
-    iget v1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->label:I
+    iget v1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -104,24 +104,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->label:I
+    iput v1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;
+    new-instance v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;
 
-    invoke-direct {v0, p1}, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p1}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;-><init>(Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->result:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->label:I
+    iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->label:I
 
     const/4 v3, 0x1
 
@@ -129,22 +129,22 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->L$2:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->L$2:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/flow/d;
+    check-cast p0, Lcotlinx/coroutines/flow/d;
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->L$1:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->L$1:Ljava/lang/Object;
 
-    check-cast p0, Lkotlin/jvm/internal/Ref$ObjectRef;
+    check-cast p0, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iget-object v0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->L$0:Ljava/lang/Object;
+    iget-object v0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->L$0:Ljava/lang/Object;
 
-    check-cast v0, Lkotlinx/coroutines/flow/d;
+    check-cast v0, Lcotlinx/coroutines/flow/d;
 
     :try_start_0
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
     :try_end_0
-    .catch Lkotlinx/coroutines/flow/internal/AbortFlowException; {:try_start_0 .. :try_end_0} :catch_0
+    .catch Lcotlinx/coroutines/flow/internal/AbortFlowException; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_1
 
@@ -165,36 +165,36 @@
 
     .line 3
     :cond_2
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 4
-    new-instance p1, Lkotlin/jvm/internal/Ref$ObjectRef;
+    new-instance p1, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    invoke-direct {p1}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+    invoke-direct {p1}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
-    sget-object v2, Lkotlinx/coroutines/flow/internal/i;->a:Lkotlinx/coroutines/internal/c0;
+    sget-object v2, Lcotlinx/coroutines/flow/internal/i;->a:Lcotlinx/coroutines/internal/c0;
 
-    iput-object v2, p1, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object v2, p1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 5
     :try_start_1
-    new-instance v2, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$a;
+    new-instance v2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$a;
 
-    invoke-direct {v2, p1}, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$a;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;)V
+    invoke-direct {v2, p1}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$a;-><init>(Lcotlin/jvm/internal/Ref$ObjectRef;)V
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->L$0:Ljava/lang/Object;
 
-    iput-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->L$1:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->L$1:Ljava/lang/Object;
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->L$2:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->L$2:Ljava/lang/Object;
 
-    iput v3, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->label:I
+    iput v3, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$1;->label:I
 
-    invoke-interface {p0, v2, v0}, Lkotlinx/coroutines/flow/d;->a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p0, v2, v0}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
     :try_end_1
-    .catch Lkotlinx/coroutines/flow/internal/AbortFlowException; {:try_start_1 .. :try_end_1} :catch_1
+    .catch Lcotlinx/coroutines/flow/internal/AbortFlowException; {:try_start_1 .. :try_end_1} :catch_1
 
     if-ne p0, v1, :cond_3
 
@@ -206,9 +206,9 @@
 
     .line 6
     :goto_1
-    iget-object p0, p0, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iget-object p0, p0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    sget-object p1, Lkotlinx/coroutines/flow/internal/i;->a:Lkotlinx/coroutines/internal/c0;
+    sget-object p1, Lcotlinx/coroutines/flow/internal/i;->a:Lcotlinx/coroutines/internal/c0;
 
     if-eq p0, p1, :cond_4
 
@@ -224,17 +224,17 @@
     throw p0
 .end method
 
-.method public static final b(Lkotlinx/coroutines/flow/d;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final b(Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
-    .param p0    # Lkotlinx/coroutines/flow/d;
+    .param p0    # Lcotlinx/coroutines/flow/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/p;
+    .param p1    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -243,17 +243,17 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/flow/d<",
+            "Lcotlinx/coroutines/flow/d<",
             "+TT;>;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-TT;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Boolean;",
             ">;+",
             "Ljava/lang/Object;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TT;>;)",
             "Ljava/lang/Object;"
         }
@@ -262,15 +262,15 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p2, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;
+    instance-of v0, p2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;
 
     if-eqz v0, :cond_0
 
     move-object v0, p2
 
-    check-cast v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;
+    check-cast v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;
 
-    iget v1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->label:I
+    iget v1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -280,24 +280,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->label:I
+    iput v1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;
+    new-instance v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;
 
-    invoke-direct {v0, p2}, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p2}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;-><init>(Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p2, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->result:Ljava/lang/Object;
+    iget-object p2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->label:I
+    iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->label:I
 
     const/4 v3, 0x1
 
@@ -305,26 +305,26 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->L$3:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->L$3:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/flow/d;
+    check-cast p0, Lcotlinx/coroutines/flow/d;
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->L$2:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->L$2:Ljava/lang/Object;
 
-    check-cast p0, Lkotlin/jvm/internal/Ref$ObjectRef;
+    check-cast p0, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iget-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->L$1:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->L$1:Ljava/lang/Object;
 
-    check-cast p1, Lkotlin/jvm/u/p;
+    check-cast p1, Lcotlin/jvm/u/p;
 
-    iget-object v0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->L$0:Ljava/lang/Object;
+    iget-object v0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->L$0:Ljava/lang/Object;
 
-    check-cast v0, Lkotlinx/coroutines/flow/d;
+    check-cast v0, Lcotlinx/coroutines/flow/d;
 
     :try_start_0
-    invoke-static {p2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
     :try_end_0
-    .catch Lkotlinx/coroutines/flow/internal/AbortFlowException; {:try_start_0 .. :try_end_0} :catch_0
+    .catch Lcotlinx/coroutines/flow/internal/AbortFlowException; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_1
 
@@ -345,38 +345,38 @@
 
     .line 3
     :cond_2
-    invoke-static {p2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 4
-    new-instance p2, Lkotlin/jvm/internal/Ref$ObjectRef;
+    new-instance p2, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    invoke-direct {p2}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+    invoke-direct {p2}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
-    sget-object v2, Lkotlinx/coroutines/flow/internal/i;->a:Lkotlinx/coroutines/internal/c0;
+    sget-object v2, Lcotlinx/coroutines/flow/internal/i;->a:Lcotlinx/coroutines/internal/c0;
 
-    iput-object v2, p2, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object v2, p2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 5
     :try_start_1
-    new-instance v2, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$$inlined$collect$2;
+    new-instance v2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$$inlined$collect$2;
 
-    invoke-direct {v2, p1, p2}, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$$inlined$collect$2;-><init>(Lkotlin/jvm/u/p;Lkotlin/jvm/internal/Ref$ObjectRef;)V
+    invoke-direct {v2, p1, p2}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$$inlined$collect$2;-><init>(Lcotlin/jvm/u/p;Lcotlin/jvm/internal/Ref$ObjectRef;)V
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->L$0:Ljava/lang/Object;
 
-    iput-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->L$1:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->L$1:Ljava/lang/Object;
 
-    iput-object p2, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->L$2:Ljava/lang/Object;
+    iput-object p2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->L$2:Ljava/lang/Object;
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->L$3:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->L$3:Ljava/lang/Object;
 
-    iput v3, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->label:I
+    iput v3, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$first$3;->label:I
 
-    invoke-interface {p0, v2, v0}, Lkotlinx/coroutines/flow/d;->a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p0, v2, v0}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
     :try_end_1
-    .catch Lkotlinx/coroutines/flow/internal/AbortFlowException; {:try_start_1 .. :try_end_1} :catch_1
+    .catch Lcotlinx/coroutines/flow/internal/AbortFlowException; {:try_start_1 .. :try_end_1} :catch_1
 
     if-ne p0, v1, :cond_3
 
@@ -388,9 +388,9 @@
 
     .line 6
     :goto_1
-    iget-object p0, p0, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iget-object p0, p0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    sget-object p2, Lkotlinx/coroutines/flow/internal/i;->a:Lkotlinx/coroutines/internal/c0;
+    sget-object p2, Lcotlinx/coroutines/flow/internal/i;->a:Lcotlinx/coroutines/internal/c0;
 
     if-eq p0, p2, :cond_4
 
@@ -418,13 +418,13 @@
     throw p0
 .end method
 
-.method public static final c(Lkotlinx/coroutines/flow/d;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final c(Lcotlinx/coroutines/flow/d;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
-    .param p0    # Lkotlinx/coroutines/flow/d;
+    .param p0    # Lcotlinx/coroutines/flow/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -433,9 +433,9 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/flow/d<",
+            "Lcotlinx/coroutines/flow/d<",
             "+TT;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TT;>;)",
             "Ljava/lang/Object;"
         }
@@ -444,15 +444,15 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p1, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;
+    instance-of v0, p1, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;
 
     if-eqz v0, :cond_0
 
     move-object v0, p1
 
-    check-cast v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;
+    check-cast v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;
 
-    iget v1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->label:I
+    iget v1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -462,24 +462,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->label:I
+    iput v1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;
+    new-instance v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;
 
-    invoke-direct {v0, p1}, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p1}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;-><init>(Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->result:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->label:I
+    iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->label:I
 
     const/4 v3, 0x1
 
@@ -487,22 +487,22 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->L$2:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->L$2:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/flow/d;
+    check-cast p0, Lcotlinx/coroutines/flow/d;
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->L$1:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->L$1:Ljava/lang/Object;
 
-    check-cast p0, Lkotlin/jvm/internal/Ref$ObjectRef;
+    check-cast p0, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iget-object v0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->L$0:Ljava/lang/Object;
+    iget-object v0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->L$0:Ljava/lang/Object;
 
-    check-cast v0, Lkotlinx/coroutines/flow/d;
+    check-cast v0, Lcotlinx/coroutines/flow/d;
 
     :try_start_0
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
     :try_end_0
-    .catch Lkotlinx/coroutines/flow/internal/AbortFlowException; {:try_start_0 .. :try_end_0} :catch_1
+    .catch Lcotlinx/coroutines/flow/internal/AbortFlowException; {:try_start_0 .. :try_end_0} :catch_1
 
     goto :goto_1
 
@@ -518,36 +518,36 @@
 
     .line 3
     :cond_2
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 4
-    new-instance p1, Lkotlin/jvm/internal/Ref$ObjectRef;
+    new-instance p1, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    invoke-direct {p1}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+    invoke-direct {p1}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
     const/4 v2, 0x0
 
-    iput-object v2, p1, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object v2, p1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 5
     :try_start_1
-    new-instance v2, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$b;
+    new-instance v2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$b;
 
-    invoke-direct {v2, p1}, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$b;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;)V
+    invoke-direct {v2, p1}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$b;-><init>(Lcotlin/jvm/internal/Ref$ObjectRef;)V
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->L$0:Ljava/lang/Object;
 
-    iput-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->L$1:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->L$1:Ljava/lang/Object;
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->L$2:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->L$2:Ljava/lang/Object;
 
-    iput v3, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->label:I
+    iput v3, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1;->label:I
 
-    invoke-interface {p0, v2, v0}, Lkotlinx/coroutines/flow/d;->a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p0, v2, v0}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
     :try_end_1
-    .catch Lkotlinx/coroutines/flow/internal/AbortFlowException; {:try_start_1 .. :try_end_1} :catch_0
+    .catch Lcotlinx/coroutines/flow/internal/AbortFlowException; {:try_start_1 .. :try_end_1} :catch_0
 
     if-ne p0, v1, :cond_3
 
@@ -560,22 +560,22 @@
     .line 6
     :catch_1
     :goto_1
-    iget-object p0, p0, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iget-object p0, p0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     return-object p0
 .end method
 
-.method public static final d(Lkotlinx/coroutines/flow/d;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final d(Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
-    .param p0    # Lkotlinx/coroutines/flow/d;
+    .param p0    # Lcotlinx/coroutines/flow/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/p;
+    .param p1    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -584,17 +584,17 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/flow/d<",
+            "Lcotlinx/coroutines/flow/d<",
             "+TT;>;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-TT;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/lang/Boolean;",
             ">;+",
             "Ljava/lang/Object;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TT;>;)",
             "Ljava/lang/Object;"
         }
@@ -603,15 +603,15 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p2, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;
+    instance-of v0, p2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;
 
     if-eqz v0, :cond_0
 
     move-object v0, p2
 
-    check-cast v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;
+    check-cast v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;
 
-    iget v1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->label:I
+    iget v1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -621,24 +621,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->label:I
+    iput v1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;
+    new-instance v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;
 
-    invoke-direct {v0, p2}, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p2}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;-><init>(Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p2, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->result:Ljava/lang/Object;
+    iget-object p2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->label:I
+    iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->label:I
 
     const/4 v3, 0x1
 
@@ -646,26 +646,26 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->L$3:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->L$3:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/flow/d;
+    check-cast p0, Lcotlinx/coroutines/flow/d;
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->L$2:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->L$2:Ljava/lang/Object;
 
-    check-cast p0, Lkotlin/jvm/internal/Ref$ObjectRef;
+    check-cast p0, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iget-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->L$1:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->L$1:Ljava/lang/Object;
 
-    check-cast p1, Lkotlin/jvm/u/p;
+    check-cast p1, Lcotlin/jvm/u/p;
 
-    iget-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->L$0:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->L$0:Ljava/lang/Object;
 
-    check-cast p1, Lkotlinx/coroutines/flow/d;
+    check-cast p1, Lcotlinx/coroutines/flow/d;
 
     :try_start_0
-    invoke-static {p2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
     :try_end_0
-    .catch Lkotlinx/coroutines/flow/internal/AbortFlowException; {:try_start_0 .. :try_end_0} :catch_1
+    .catch Lcotlinx/coroutines/flow/internal/AbortFlowException; {:try_start_0 .. :try_end_0} :catch_1
 
     goto :goto_1
 
@@ -681,38 +681,38 @@
 
     .line 3
     :cond_2
-    invoke-static {p2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 4
-    new-instance p2, Lkotlin/jvm/internal/Ref$ObjectRef;
+    new-instance p2, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    invoke-direct {p2}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+    invoke-direct {p2}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
     const/4 v2, 0x0
 
-    iput-object v2, p2, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object v2, p2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 5
     :try_start_1
-    new-instance v2, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$$inlined$collect$2;
+    new-instance v2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$$inlined$collect$2;
 
-    invoke-direct {v2, p1, p2}, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$$inlined$collect$2;-><init>(Lkotlin/jvm/u/p;Lkotlin/jvm/internal/Ref$ObjectRef;)V
+    invoke-direct {v2, p1, p2}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$$inlined$collect$2;-><init>(Lcotlin/jvm/u/p;Lcotlin/jvm/internal/Ref$ObjectRef;)V
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->L$0:Ljava/lang/Object;
 
-    iput-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->L$1:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->L$1:Ljava/lang/Object;
 
-    iput-object p2, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->L$2:Ljava/lang/Object;
+    iput-object p2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->L$2:Ljava/lang/Object;
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->L$3:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->L$3:Ljava/lang/Object;
 
-    iput v3, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->label:I
+    iput v3, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3;->label:I
 
-    invoke-interface {p0, v2, v0}, Lkotlinx/coroutines/flow/d;->a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p0, v2, v0}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
     :try_end_1
-    .catch Lkotlinx/coroutines/flow/internal/AbortFlowException; {:try_start_1 .. :try_end_1} :catch_0
+    .catch Lcotlinx/coroutines/flow/internal/AbortFlowException; {:try_start_1 .. :try_end_1} :catch_0
 
     if-ne p0, v1, :cond_3
 
@@ -725,22 +725,22 @@
     .line 6
     :catch_1
     :goto_1
-    iget-object p0, p0, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iget-object p0, p0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     return-object p0
 .end method
 
-.method public static final e(Lkotlinx/coroutines/flow/d;Ljava/lang/Object;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final e(Lcotlinx/coroutines/flow/d;Ljava/lang/Object;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
-    .param p0    # Lkotlinx/coroutines/flow/d;
+    .param p0    # Lcotlinx/coroutines/flow/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/q;
+    .param p2    # Lcotlin/jvm/u/q;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -751,35 +751,35 @@
             "R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/flow/d<",
+            "Lcotlinx/coroutines/flow/d<",
             "+TT;>;TR;",
-            "Lkotlin/jvm/u/q<",
+            "Lcotlin/jvm/u/q<",
             "-TR;-TT;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TR;>;+",
             "Ljava/lang/Object;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TR;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lkotlinx/coroutines/s1;
+    .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p3, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;
+    instance-of v0, p3, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;
 
     if-eqz v0, :cond_0
 
     move-object v0, p3
 
-    check-cast v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;
+    check-cast v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;
 
-    iget v1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->label:I
+    iget v1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -789,24 +789,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->label:I
+    iput v1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;
+    new-instance v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;
 
-    invoke-direct {v0, p3}, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p3}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;-><init>(Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p3, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->result:Ljava/lang/Object;
+    iget-object p3, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->label:I
+    iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->label:I
 
     const/4 v3, 0x1
 
@@ -814,25 +814,25 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$4:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$4:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/flow/d;
+    check-cast p0, Lcotlinx/coroutines/flow/d;
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$3:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$3:Ljava/lang/Object;
 
-    check-cast p0, Lkotlin/jvm/internal/Ref$ObjectRef;
+    check-cast p0, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iget-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$2:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$2:Ljava/lang/Object;
 
-    check-cast p1, Lkotlin/jvm/u/q;
+    check-cast p1, Lcotlin/jvm/u/q;
 
-    iget-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$1:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$1:Ljava/lang/Object;
 
-    iget-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$0:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$0:Ljava/lang/Object;
 
-    check-cast p1, Lkotlinx/coroutines/flow/d;
+    check-cast p1, Lcotlinx/coroutines/flow/d;
 
-    invoke-static {p3}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p3}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -848,33 +848,33 @@
 
     .line 3
     :cond_2
-    invoke-static {p3}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p3}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 4
-    new-instance p3, Lkotlin/jvm/internal/Ref$ObjectRef;
+    new-instance p3, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    invoke-direct {p3}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+    invoke-direct {p3}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
-    iput-object p1, p3, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object p1, p3, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 5
-    new-instance v2, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$$inlined$collect$1;
+    new-instance v2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$$inlined$collect$1;
 
-    invoke-direct {v2, p3, p2}, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$$inlined$collect$1;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlin/jvm/u/q;)V
+    invoke-direct {v2, p3, p2}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$$inlined$collect$1;-><init>(Lcotlin/jvm/internal/Ref$ObjectRef;Lcotlin/jvm/u/q;)V
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$0:Ljava/lang/Object;
 
-    iput-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$1:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$1:Ljava/lang/Object;
 
-    iput-object p2, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$2:Ljava/lang/Object;
+    iput-object p2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$2:Ljava/lang/Object;
 
-    iput-object p3, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$3:Ljava/lang/Object;
+    iput-object p3, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$3:Ljava/lang/Object;
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$4:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->L$4:Ljava/lang/Object;
 
-    iput v3, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->label:I
+    iput v3, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1;->label:I
 
-    invoke-interface {p0, v2, v0}, Lkotlinx/coroutines/flow/d;->a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p0, v2, v0}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -887,74 +887,74 @@
 
     .line 6
     :goto_1
-    iget-object p0, p0, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iget-object p0, p0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     return-object p0
 .end method
 
-.method private static final f(Lkotlinx/coroutines/flow/d;Ljava/lang/Object;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method private static final f(Lcotlinx/coroutines/flow/d;Ljava/lang/Object;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 1
-    .param p0    # Lkotlinx/coroutines/flow/d;
+    .param p0    # Lcotlinx/coroutines/flow/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/q;
+    .param p2    # Lcotlin/jvm/u/q;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/coroutines/c;
+    .param p3    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlinx/coroutines/s1;
+    .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
     .annotation build Ln/e/a/e;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/jvm/internal/Ref$ObjectRef;
+    new-instance v0, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    invoke-direct {v0}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+    invoke-direct {v0}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
-    iput-object p1, v0, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 2
-    new-instance p1, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$$inlined$collect$1;
+    new-instance p1, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$$inlined$collect$1;
 
-    invoke-direct {p1, v0, p2}, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$fold$$inlined$collect$1;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlin/jvm/u/q;)V
+    invoke-direct {p1, v0, p2}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$fold$$inlined$collect$1;-><init>(Lcotlin/jvm/internal/Ref$ObjectRef;Lcotlin/jvm/u/q;)V
 
     const/4 p2, 0x0
 
-    invoke-static {p2}, Lkotlin/jvm/internal/c0;->e(I)V
+    invoke-static {p2}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    invoke-interface {p0, p1, p3}, Lkotlinx/coroutines/flow/d;->a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p0, p1, p3}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     const/4 p0, 0x2
 
-    invoke-static {p0}, Lkotlin/jvm/internal/c0;->e(I)V
+    invoke-static {p0}, Lcotlin/jvm/internal/c0;->e(I)V
 
     const/4 p0, 0x1
 
-    invoke-static {p0}, Lkotlin/jvm/internal/c0;->e(I)V
+    invoke-static {p0}, Lcotlin/jvm/internal/c0;->e(I)V
 
     .line 3
-    iget-object p0, v0, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     return-object p0
 .end method
 
-.method public static final g(Lkotlinx/coroutines/flow/d;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final g(Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
-    .param p0    # Lkotlinx/coroutines/flow/d;
+    .param p0    # Lcotlinx/coroutines/flow/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/q;
+    .param p1    # Lcotlin/jvm/u/q;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -963,35 +963,35 @@
             "<S:",
             "Ljava/lang/Object;",
             "T::TS;>(",
-            "Lkotlinx/coroutines/flow/d<",
+            "Lcotlinx/coroutines/flow/d<",
             "+TT;>;",
-            "Lkotlin/jvm/u/q<",
+            "Lcotlin/jvm/u/q<",
             "-TS;-TT;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TS;>;+",
             "Ljava/lang/Object;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TS;>;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lkotlinx/coroutines/s1;
+    .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p2, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;
+    instance-of v0, p2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;
 
     if-eqz v0, :cond_0
 
     move-object v0, p2
 
-    check-cast v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;
+    check-cast v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;
 
-    iget v1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->label:I
+    iget v1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -1001,24 +1001,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->label:I
+    iput v1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;
+    new-instance v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;
 
-    invoke-direct {v0, p2}, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p2}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;-><init>(Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p2, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->result:Ljava/lang/Object;
+    iget-object p2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->label:I
+    iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->label:I
 
     const/4 v3, 0x1
 
@@ -1026,23 +1026,23 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->L$3:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->L$3:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/flow/d;
+    check-cast p0, Lcotlinx/coroutines/flow/d;
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->L$2:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->L$2:Ljava/lang/Object;
 
-    check-cast p0, Lkotlin/jvm/internal/Ref$ObjectRef;
+    check-cast p0, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iget-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->L$1:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->L$1:Ljava/lang/Object;
 
-    check-cast p1, Lkotlin/jvm/u/q;
+    check-cast p1, Lcotlin/jvm/u/q;
 
-    iget-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->L$0:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->L$0:Ljava/lang/Object;
 
-    check-cast p1, Lkotlinx/coroutines/flow/d;
+    check-cast p1, Lcotlinx/coroutines/flow/d;
 
-    invoke-static {p2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -1058,33 +1058,33 @@
 
     .line 3
     :cond_2
-    invoke-static {p2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 4
-    new-instance p2, Lkotlin/jvm/internal/Ref$ObjectRef;
+    new-instance p2, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    invoke-direct {p2}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+    invoke-direct {p2}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
-    sget-object v2, Lkotlinx/coroutines/flow/internal/i;->a:Lkotlinx/coroutines/internal/c0;
+    sget-object v2, Lcotlinx/coroutines/flow/internal/i;->a:Lcotlinx/coroutines/internal/c0;
 
-    iput-object v2, p2, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object v2, p2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 5
-    new-instance v2, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$$inlined$collect$1;
+    new-instance v2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$$inlined$collect$1;
 
-    invoke-direct {v2, p2, p1}, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$$inlined$collect$1;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlin/jvm/u/q;)V
+    invoke-direct {v2, p2, p1}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$$inlined$collect$1;-><init>(Lcotlin/jvm/internal/Ref$ObjectRef;Lcotlin/jvm/u/q;)V
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->L$0:Ljava/lang/Object;
 
-    iput-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->L$1:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->L$1:Ljava/lang/Object;
 
-    iput-object p2, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->L$2:Ljava/lang/Object;
+    iput-object p2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->L$2:Ljava/lang/Object;
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->L$3:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->L$3:Ljava/lang/Object;
 
-    iput v3, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->label:I
+    iput v3, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1;->label:I
 
-    invoke-interface {p0, v2, v0}, Lkotlinx/coroutines/flow/d;->a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p0, v2, v0}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -1097,9 +1097,9 @@
 
     .line 6
     :goto_1
-    iget-object p0, p0, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iget-object p0, p0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    sget-object p1, Lkotlinx/coroutines/flow/internal/i;->a:Lkotlinx/coroutines/internal/c0;
+    sget-object p1, Lcotlinx/coroutines/flow/internal/i;->a:Lcotlinx/coroutines/internal/c0;
 
     if-eq p0, p1, :cond_4
 
@@ -1115,13 +1115,13 @@
     throw p0
 .end method
 
-.method public static final h(Lkotlinx/coroutines/flow/d;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final h(Lcotlinx/coroutines/flow/d;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
-    .param p0    # Lkotlinx/coroutines/flow/d;
+    .param p0    # Lcotlinx/coroutines/flow/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1130,9 +1130,9 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/flow/d<",
+            "Lcotlinx/coroutines/flow/d<",
             "+TT;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TT;>;)",
             "Ljava/lang/Object;"
         }
@@ -1141,15 +1141,15 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p1, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;
+    instance-of v0, p1, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;
 
     if-eqz v0, :cond_0
 
     move-object v0, p1
 
-    check-cast v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;
+    check-cast v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;
 
-    iget v1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->label:I
+    iget v1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -1159,24 +1159,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->label:I
+    iput v1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;
+    new-instance v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;
 
-    invoke-direct {v0, p1}, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p1}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;-><init>(Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->result:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->label:I
+    iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->label:I
 
     const/4 v3, 0x1
 
@@ -1184,19 +1184,19 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->L$2:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->L$2:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/flow/d;
+    check-cast p0, Lcotlinx/coroutines/flow/d;
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->L$1:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->L$1:Ljava/lang/Object;
 
-    check-cast p0, Lkotlin/jvm/internal/Ref$ObjectRef;
+    check-cast p0, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iget-object v0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->L$0:Ljava/lang/Object;
+    iget-object v0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->L$0:Ljava/lang/Object;
 
-    check-cast v0, Lkotlinx/coroutines/flow/d;
+    check-cast v0, Lcotlinx/coroutines/flow/d;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -1212,31 +1212,31 @@
 
     .line 3
     :cond_2
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 4
-    new-instance p1, Lkotlin/jvm/internal/Ref$ObjectRef;
+    new-instance p1, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    invoke-direct {p1}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+    invoke-direct {p1}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
-    sget-object v2, Lkotlinx/coroutines/flow/internal/i;->a:Lkotlinx/coroutines/internal/c0;
+    sget-object v2, Lcotlinx/coroutines/flow/internal/i;->a:Lcotlinx/coroutines/internal/c0;
 
-    iput-object v2, p1, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object v2, p1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 5
-    new-instance v2, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$c;
+    new-instance v2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$c;
 
-    invoke-direct {v2, p1}, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$c;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;)V
+    invoke-direct {v2, p1}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$c;-><init>(Lcotlin/jvm/internal/Ref$ObjectRef;)V
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->L$0:Ljava/lang/Object;
 
-    iput-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->L$1:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->L$1:Ljava/lang/Object;
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->L$2:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->L$2:Ljava/lang/Object;
 
-    iput v3, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->label:I
+    iput v3, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$single$1;->label:I
 
-    invoke-interface {p0, v2, v0}, Lkotlinx/coroutines/flow/d;->a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p0, v2, v0}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -1249,9 +1249,9 @@
 
     .line 6
     :goto_1
-    iget-object p0, p0, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iget-object p0, p0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    sget-object p1, Lkotlinx/coroutines/flow/internal/i;->a:Lkotlinx/coroutines/internal/c0;
+    sget-object p1, Lcotlinx/coroutines/flow/internal/i;->a:Lcotlinx/coroutines/internal/c0;
 
     if-eq p0, p1, :cond_4
 
@@ -1267,13 +1267,13 @@
     throw p0
 .end method
 
-.method public static final i(Lkotlinx/coroutines/flow/d;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final i(Lcotlinx/coroutines/flow/d;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
-    .param p0    # Lkotlinx/coroutines/flow/d;
+    .param p0    # Lcotlinx/coroutines/flow/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1282,9 +1282,9 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/flow/d<",
+            "Lcotlinx/coroutines/flow/d<",
             "+TT;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TT;>;)",
             "Ljava/lang/Object;"
         }
@@ -1293,15 +1293,15 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p1, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;
+    instance-of v0, p1, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;
 
     if-eqz v0, :cond_0
 
     move-object v0, p1
 
-    check-cast v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;
+    check-cast v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;
 
-    iget v1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->label:I
+    iget v1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -1311,24 +1311,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->label:I
+    iput v1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;
+    new-instance v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;
 
-    invoke-direct {v0, p1}, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p1}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;-><init>(Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->result:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->label:I
+    iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->label:I
 
     const/4 v3, 0x1
 
@@ -1336,19 +1336,19 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->L$2:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->L$2:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/flow/d;
+    check-cast p0, Lcotlinx/coroutines/flow/d;
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->L$1:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->L$1:Ljava/lang/Object;
 
-    check-cast p0, Lkotlin/jvm/internal/Ref$ObjectRef;
+    check-cast p0, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iget-object v0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->L$0:Ljava/lang/Object;
+    iget-object v0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->L$0:Ljava/lang/Object;
 
-    check-cast v0, Lkotlinx/coroutines/flow/d;
+    check-cast v0, Lcotlinx/coroutines/flow/d;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -1364,31 +1364,31 @@
 
     .line 3
     :cond_2
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 4
-    new-instance p1, Lkotlin/jvm/internal/Ref$ObjectRef;
+    new-instance p1, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    invoke-direct {p1}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+    invoke-direct {p1}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
     const/4 v2, 0x0
 
-    iput-object v2, p1, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object v2, p1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 5
-    new-instance v2, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$d;
+    new-instance v2, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$d;
 
-    invoke-direct {v2, p1}, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$d;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;)V
+    invoke-direct {v2, p1}, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$d;-><init>(Lcotlin/jvm/internal/Ref$ObjectRef;)V
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->L$0:Ljava/lang/Object;
 
-    iput-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->L$1:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->L$1:Ljava/lang/Object;
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->L$2:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->L$2:Ljava/lang/Object;
 
-    iput v3, v0, Lkotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->label:I
+    iput v3, v0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1;->label:I
 
-    invoke-interface {p0, v2, v0}, Lkotlinx/coroutines/flow/d;->a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p0, v2, v0}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -1401,7 +1401,7 @@
 
     .line 6
     :goto_1
-    iget-object p0, p0, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iget-object p0, p0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     return-object p0
 .end method

@@ -12,7 +12,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
         "",
         "Lcom/commsource/studio/effect/d;",
         "colourEntities",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "N",
         "(Ljava/util/List;)V",
         "Ljava/util/List;",
@@ -153,7 +153,7 @@
 
     const-string v1, "colourEntities"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/AdjustProcessor;->N:Ljava/util/List;
@@ -163,7 +163,7 @@
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/studio/processor/AdjustProcessor$updateEffect$1;-><init>(Lcom/commsource/studio/processor/AdjustProcessor;Ljava/util/List;)V
 
-    invoke-virtual {p0, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p0, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

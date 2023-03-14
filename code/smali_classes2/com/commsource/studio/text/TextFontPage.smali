@@ -8,7 +8,7 @@
     value = "SMAP\nTextFontPage.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextFontPage.kt\ncom/commsource/studio/text/TextFontPage\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,243:1\n318#2,7:244\n*E\n*S KotlinDebug\n*F\n+ 1 TextFontPage.kt\ncom/commsource/studio/text/TextFontPage\n*L\n222#1,7:244\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/studio/text/TextFontPage;",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "j",
         "()V",
         "m",
@@ -31,7 +31,7 @@
         "l",
         "Lcom/commsource/studio/text/TextViewModel;",
         "b",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "h",
         "()Lcom/commsource/studio/text/TextViewModel;",
         "mViewModel",
@@ -70,9 +70,9 @@
 
 
 # instance fields
-.field private final a:Lkotlin/w;
+.field private final a:Lcotlin/w;
 
-.field private final b:Lkotlin/w;
+.field private final b:Lcotlin/w;
 
 .field private final c:Lcom/commsource/beautyplus/f0/ef;
 
@@ -104,7 +104,7 @@
 
     const-string v0, "fragment"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -116,22 +116,22 @@
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/text/TextFontPage$fontAdapter$2;-><init>(Lcom/commsource/studio/text/TextFontPage;)V
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/text/TextFontPage;->a:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/text/TextFontPage;->a:Lcotlin/w;
 
     .line 3
     new-instance p1, Lcom/commsource/studio/text/TextFontPage$mViewModel$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/text/TextFontPage$mViewModel$2;-><init>(Lcom/commsource/studio/text/TextFontPage;)V
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/text/TextFontPage;->b:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/text/TextFontPage;->b:Lcotlin/w;
 
     .line 4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -155,7 +155,7 @@
 
     const-string v0, "DataBindingUtil.inflate(\u2026,\n            false\n    )"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/beautyplus/f0/ef;
 
@@ -266,9 +266,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/text/TextFontPage;->a:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/text/TextFontPage;->a:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -286,9 +286,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/text/TextFontPage;->b:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/text/TextFontPage;->b:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -343,7 +343,7 @@
 
     const-string v4, "fragment.viewLifecycleOwner"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v5, Lcom/commsource/studio/text/TextFontPage$a;
 
@@ -362,7 +362,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v5, Lcom/commsource/studio/text/TextFontPage$b;
 
@@ -381,7 +381,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v3, Lcom/commsource/studio/text/TextFontPage$c;
 
@@ -517,7 +517,7 @@
     const-string v7, "curItem"
 
     .line 7
-    invoke-static {v6, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v6}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -543,7 +543,7 @@
 
     move-result-object v7
 
-    invoke-static {v6, v7}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v6, v7}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v6
 
@@ -554,11 +554,11 @@
     goto :goto_2
 
     :cond_2
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type com.commsource.studio.text.TextFontMaterial"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -641,7 +641,7 @@
 
     const-string v2, "viewBinding.root"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -727,7 +727,7 @@
 
     const-string v2, "viewBinding.fontRv"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v2, p0, Lcom/commsource/studio/text/TextFontPage;->d:Lcom/commsource/util/common/b;
 

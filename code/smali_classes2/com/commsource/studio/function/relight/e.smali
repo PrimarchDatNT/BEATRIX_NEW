@@ -8,7 +8,7 @@
     value = "SMAP\nLightSource.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LightSource.kt\ncom/commsource/studio/function/relight/LightSource\n*L\n1#1,141:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
         "centerY",
         "radius",
         "lightSize",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "n",
         "(FFFF)V",
         "pointX",
@@ -206,7 +206,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(FFFIIIILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(FFFIIIILcotlin/jvm/internal/u;)V
     .locals 9
 
     and-int/lit8 v0, p7, 0x1

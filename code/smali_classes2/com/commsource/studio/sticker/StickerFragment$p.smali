@@ -21,7 +21,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,7 +35,7 @@
         "Lcom/commsource/beautyfilter/NoStickLiveData$a;",
         "",
         "o",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(Ljava/lang/Boolean;)V",
         "app_googleplayRelease"
@@ -131,7 +131,7 @@
 
     const-string v2, "ownerActivity"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerFragment$p;->c:Lcom/commsource/studio/sticker/StickerFragment;

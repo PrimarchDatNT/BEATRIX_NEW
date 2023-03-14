@@ -20,7 +20,7 @@
     value = "SMAP\nCameraVideoCaptureCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CameraVideoCaptureCover.kt\ncom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$initViewModel$2\n*L\n1#1,443:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
     d2 = {
         "com/commsource/camera/xcamera/cover/CameraVideoCaptureCover$initViewModel$2",
         "Lcom/commsource/camera/xcamera/l;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onVideoStart",
         "()V",
         "",
@@ -98,7 +98,7 @@
 
     move-object/from16 v4, p5
 
-    invoke-static {v4, v2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$initViewModel$2;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;
@@ -315,7 +315,7 @@
 
     invoke-direct {v3, p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$initViewModel$2$onVideoComplete$2;-><init>(Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$initViewModel$2;)V
 
-    invoke-static {v2, v3}, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;->H(Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;Lkotlin/jvm/u/l;)V
+    invoke-static {v2, v3}, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;->H(Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;Lcotlin/jvm/u/l;)V
 
     .line 15
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V

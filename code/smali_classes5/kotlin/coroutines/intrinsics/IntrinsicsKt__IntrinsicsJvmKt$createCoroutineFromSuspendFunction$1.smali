@@ -1,11 +1,11 @@
-.class public final Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;
-.super Lkotlin/coroutines/jvm/internal/RestrictedContinuationImpl;
+.class public final Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;
+.super Lcotlin/coroutines/jvm/internal/RestrictedContinuationImpl;
 .source "IntrinsicsJvm.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt;->a(Lkotlin/coroutines/c;Lkotlin/jvm/u/l;)Lkotlin/coroutines/c;
+    value = Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt;->a(Lcotlin/coroutines/c;Lcotlin/jvm/u/l;)Lcotlin/coroutines/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,7 +17,7 @@
     value = "SMAP\nIntrinsicsJvm.kt\nKotlin\n*S Kotlin\n*F\n+ 1 IntrinsicsJvm.kt\nkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1\n*L\n1#1,204:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,8 +28,8 @@
     }
     d2 = {
         "kotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1",
-        "Lkotlin/coroutines/jvm/internal/RestrictedContinuationImpl;",
-        "Lkotlin/Result;",
+        "Lcotlin/coroutines/jvm/internal/RestrictedContinuationImpl;",
+        "Lcotlin/Result;",
         "",
         "result",
         "invokeSuspend",
@@ -49,23 +49,23 @@
 
 
 # instance fields
-.field final synthetic $block:Lkotlin/jvm/u/l;
+.field final synthetic $block:Lcotlin/jvm/u/l;
 
-.field final synthetic $completion:Lkotlin/coroutines/c;
+.field final synthetic $completion:Lcotlin/coroutines/c;
 
 .field private label:I
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/u/l;Lkotlin/coroutines/c;Lkotlin/coroutines/c;)V
+.method public constructor <init>(Lcotlin/jvm/u/l;Lcotlin/coroutines/c;Lcotlin/coroutines/c;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;->$block:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;->$block:Lcotlin/jvm/u/l;
 
-    iput-object p2, p0, Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;->$completion:Lkotlin/coroutines/c;
+    iput-object p2, p0, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;->$completion:Lcotlin/coroutines/c;
 
-    invoke-direct {p0, p3}, Lkotlin/coroutines/jvm/internal/RestrictedContinuationImpl;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {p0, p3}, Lcotlin/coroutines/jvm/internal/RestrictedContinuationImpl;-><init>(Lcotlin/coroutines/c;)V
 
     return-void
 .end method
@@ -82,7 +82,7 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;->label:I
+    iget v0, p0, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;->label:I
 
     const/4 v1, 0x1
 
@@ -93,10 +93,10 @@
     const/4 v0, 0x2
 
     .line 2
-    iput v0, p0, Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;->label:I
+    iput v0, p0, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;->label:I
 
     .line 3
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -116,15 +116,15 @@
 
     .line 5
     :cond_1
-    iput v1, p0, Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;->label:I
+    iput v1, p0, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;->label:I
 
     .line 6
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 7
-    iget-object p1, p0, Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;->$block:Lkotlin/jvm/u/l;
+    iget-object p1, p0, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;->$block:Lcotlin/jvm/u/l;
 
-    invoke-interface {p1, p0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

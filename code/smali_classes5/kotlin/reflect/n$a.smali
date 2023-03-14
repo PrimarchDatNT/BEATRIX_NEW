@@ -1,11 +1,11 @@
-.class public interface abstract Lkotlin/reflect/n$a;
+.class public interface abstract Lcotlin/reflect/n$a;
 .super Ljava/lang/Object;
 .source "KProperty.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/reflect/n;
+    value = Lcotlin/reflect/n;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,7 +22,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,9 +35,9 @@
         "kotlin/reflect/n$a",
         "V",
         "",
-        "Lkotlin/reflect/n;",
+        "Lcotlin/reflect/n;",
         "a",
-        "()Lkotlin/reflect/n;",
+        "()Lcotlin/reflect/n;",
         "property",
         "kotlin-stdlib"
     }
@@ -51,11 +51,11 @@
 
 
 # virtual methods
-.method public abstract a()Lkotlin/reflect/n;
+.method public abstract a()Lcotlin/reflect/n;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/reflect/n<",
+            "Lcotlin/reflect/n<",
             "TV;>;"
         }
     .end annotation

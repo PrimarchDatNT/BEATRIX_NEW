@@ -1,22 +1,22 @@
-.class final Lkotlin/io/n;
+.class final Lcotlin/io/n;
 .super Ljava/lang/Object;
 .source "ReadWrite.kt"
 
 # interfaces
-.implements Lkotlin/sequences/m;
+.implements Lcotlin/sequences/m;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/sequences/m<",
+        "Lcotlin/sequences/m<",
         "Ljava/lang/String;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,8 +26,8 @@
         "\u0000\u001c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0010(\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0008\u0002\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001B\u000f\u0012\u0006\u0010\t\u001a\u00020\u0006\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u0016\u0010\u0004\u001a\u0008\u0012\u0004\u0012\u00020\u00020\u0003H\u0096\u0002\u00a2\u0006\u0004\u0008\u0004\u0010\u0005R\u0016\u0010\t\u001a\u00020\u00068\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0007\u0010\u0008\u00a8\u0006\u000c"
     }
     d2 = {
-        "Lkotlin/io/n;",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/io/n;",
+        "Lcotlin/sequences/m;",
         "",
         "",
         "iterator",
@@ -63,21 +63,21 @@
 
     const-string v0, "reader"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkotlin/io/n;->a:Ljava/io/BufferedReader;
+    iput-object p1, p0, Lcotlin/io/n;->a:Ljava/io/BufferedReader;
 
     return-void
 .end method
 
-.method public static final synthetic c(Lkotlin/io/n;)Ljava/io/BufferedReader;
+.method public static final synthetic c(Lcotlin/io/n;)Ljava/io/BufferedReader;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lkotlin/io/n;->a:Ljava/io/BufferedReader;
+    iget-object p0, p0, Lcotlin/io/n;->a:Ljava/io/BufferedReader;
 
     return-object p0
 .end method
@@ -99,9 +99,9 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/io/n$a;
+    new-instance v0, Lcotlin/io/n$a;
 
-    invoke-direct {v0, p0}, Lkotlin/io/n$a;-><init>(Lkotlin/io/n;)V
+    invoke-direct {v0, p0}, Lcotlin/io/n$a;-><init>(Lcotlin/io/n;)V
 
     return-object v0
 .end method

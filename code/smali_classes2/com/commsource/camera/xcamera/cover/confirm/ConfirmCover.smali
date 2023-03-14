@@ -20,7 +20,7 @@
     value = "SMAP\nConfirmCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ConfirmCover.kt\ncom/commsource/camera/xcamera/cover/confirm/ConfirmCover\n*L\n1#1,990:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,7 +36,7 @@
         "Landroid/view/View$OnClickListener;",
         "Lcom/commsource/camera/fastcapture/SelfiePhotoData;",
         "selfiePhotoData",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "i0",
         "(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V",
         "h0",
@@ -58,10 +58,10 @@
         "saveMode",
         "f0",
         "(I)V",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "action",
         "N",
-        "(Lkotlin/jvm/u/a;)Z",
+        "(Lcotlin/jvm/u/a;)Z",
         "isShow",
         "d0",
         "Landroid/view/View;",
@@ -96,7 +96,7 @@
         "(Landroid/view/KeyEvent;)Z",
         "Lcom/commsource/camera/xcamera/BpCameraViewModel;",
         "f",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "T",
         "()Lcom/commsource/camera/xcamera/BpCameraViewModel;",
         "bpCameraViewModel",
@@ -170,47 +170,47 @@
 
 
 # instance fields
-.field private final J:Lkotlin/w;
+.field private final J:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final K:Lkotlin/w;
+.field private final K:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final L:Lkotlin/w;
+.field private final L:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final M:Lkotlin/w;
+.field private final M:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final N:Lkotlin/w;
+.field private final N:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final O:Lkotlin/w;
+.field private final O:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final P:Lkotlin/w;
+.field private final P:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final Q:Lkotlin/w;
+.field private final Q:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final R:Lkotlin/w;
+.field private final R:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -219,19 +219,19 @@
 
 .field private T:Z
 
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
 
-.field private final f:Lkotlin/w;
+.field private final f:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final g:Lkotlin/w;
+.field private final g:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final p:Lkotlin/w;
+.field private final p:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -249,143 +249,143 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$fastCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->d:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->d:Lcotlin/w;
 
     .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$bpCameraViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$bpCameraViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->f:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->f:Lcotlin/w;
 
     .line 4
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$bottomFunctionViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$bottomFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->g:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->g:Lcotlin/w;
 
     .line 5
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$cameraConfigViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$cameraConfigViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->p:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->p:Lcotlin/w;
 
     .line 6
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$cameraCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$cameraCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->J:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->J:Lcotlin/w;
 
     .line 7
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$confirmViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$confirmViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->K:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->K:Lcotlin/w;
 
     .line 8
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$confirmBottomFunctionViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$confirmBottomFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->L:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->L:Lcotlin/w;
 
     .line 9
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$waterMarkViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$waterMarkViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->M:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->M:Lcotlin/w;
 
     .line 10
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$arViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$arViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->N:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->N:Lcotlin/w;
 
     .line 11
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$makeupViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$makeupViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->O:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->O:Lcotlin/w;
 
     .line 12
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$aiBeautyViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$aiBeautyViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->P:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->P:Lcotlin/w;
 
     .line 13
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$beautyViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$beautyViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->Q:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->Q:Lcotlin/w;
 
     .line 14
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$proViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$proViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->R:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->R:Lcotlin/w;
 
     .line 15
     new-instance v0, Landroid/graphics/Rect;
@@ -609,7 +609,7 @@
 
     if-nez v5, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-virtual {v5}, Lcom/meitu/template/bean/Filter;->getFilterId()I
@@ -769,7 +769,7 @@
 
     const-string v4, "mViewBinding.backText"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3, p1}, Lcom/commsource/comic/widget/StrokeTextView;->setStroke(Z)V
 
@@ -788,7 +788,7 @@
 
     const-string v4, "mViewBinding.flareText"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3, p1}, Lcom/commsource/comic/widget/StrokeTextView;->setStroke(Z)V
 
@@ -817,7 +817,7 @@
 
     const-string v4, "mViewBinding.editText"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3, p1}, Lcom/commsource/comic/widget/StrokeTextView;->setStroke(Z)V
 
@@ -841,7 +841,7 @@
 
     const-string v2, "mViewBinding.shareText"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, p1}, Lcom/commsource/comic/widget/StrokeTextView;->setStroke(Z)V
 
@@ -852,13 +852,13 @@
     return-void
 .end method
 
-.method private final N(Lkotlin/jvm/u/a;)Z
+.method private final N(Lcotlin/jvm/u/a;)Z
     .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)Z"
         }
     .end annotation
@@ -895,7 +895,7 @@
 
     const-string v3, "it"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2, v1}, Lcom/commsource/util/delegate/process/g$a;->b(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Z
 
@@ -930,7 +930,7 @@
 
     new-instance v3, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$b;
 
-    invoke-direct {v3, v1, v1, p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$b;-><init>(Lcom/commsource/camera/fastcapture/SelfiePhotoData;Lcom/commsource/camera/fastcapture/SelfiePhotoData;Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;Lkotlin/jvm/u/a;)V
+    invoke-direct {v3, v1, v1, p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$b;-><init>(Lcom/commsource/camera/fastcapture/SelfiePhotoData;Lcom/commsource/camera/fastcapture/SelfiePhotoData;Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;Lcotlin/jvm/u/a;)V
 
     invoke-virtual {v2, v3}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
@@ -1009,7 +1009,7 @@
     const-string v4, "it"
 
     .line 5
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
 
@@ -1224,7 +1224,7 @@
 
     const-string v6, "coverGroup.mActivity.intent"
 
-    invoke-static {p1, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -1232,7 +1232,7 @@
 
     const-string v6, "android.media.action.IMAGE_CAPTURE"
 
-    invoke-static {v6, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v6, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -1420,7 +1420,7 @@
 
     const-string v6, "arViewModel.applyArEvent"
 
-    invoke-static {p1, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
 
@@ -1582,11 +1582,11 @@
     goto :goto_8
 
     :cond_e
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type com.commsource.beautyplus.router.RouterEntity"
 
-    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1682,9 +1682,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -2057,7 +2057,7 @@
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$onClickSave$1;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;I)V
 
-    invoke-direct {p0, v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->N(Lkotlin/jvm/u/a;)Z
+    invoke-direct {p0, v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->N(Lcotlin/jvm/u/a;)Z
 
     move-result v1
 
@@ -2185,14 +2185,14 @@
     .line 10
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v2}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
     .line 11
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x0
 
@@ -2208,7 +2208,7 @@
     .line 13
     iget-object p1, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v2, "Has Face"
 
@@ -2229,7 +2229,7 @@
     .line 16
     iget-object p1, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/high16 v1, 0x3f800000    # 1.0f
 
@@ -2253,7 +2253,7 @@
     .line 19
     iget-object p1, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/high16 v1, 0x3f000000    # 0.5f
 
@@ -2265,7 +2265,7 @@
     :cond_2
     iget-object p1, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -2348,7 +2348,7 @@
     .line 7
     iget-object v3, v2, Lcom/commsource/beautyplus/f0/o4;->U:Landroid/widget/RelativeLayout;
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -2358,7 +2358,7 @@
     :cond_1
     iget-object v3, v2, Lcom/commsource/beautyplus/f0/o4;->U:Landroid/widget/RelativeLayout;
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -2379,7 +2379,7 @@
 
     const-string v4, "mViewBinding.shareContainer"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -2388,7 +2388,7 @@
 
     const-string v4, "mViewBinding.editContainer"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -2548,7 +2548,7 @@
 
     const-string v1, "mViewBinding.tvMontageTipContainer"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -2620,7 +2620,7 @@
     if-nez p1, :cond_2
 
     .line 2
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/bean/c;->b()Landroid/graphics/Bitmap;
@@ -2771,7 +2771,7 @@
     const-string p1, "this"
 
     .line 15
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->h0(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
 
@@ -2788,7 +2788,7 @@
 
     const-string v6, "it.faces"
 
-    invoke-static {v5, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     array-length v5, v5
 
@@ -3171,9 +3171,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->P:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->P:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3193,9 +3193,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->N:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->N:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3215,9 +3215,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->Q:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->Q:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3237,9 +3237,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->g:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->g:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3259,9 +3259,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->f:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->f:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3281,9 +3281,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->J:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->J:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3303,9 +3303,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->p:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->p:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3325,9 +3325,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->L:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->L:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3347,9 +3347,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->K:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->K:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3369,9 +3369,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->O:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->O:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3391,9 +3391,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->R:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->R:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3413,9 +3413,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->M:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->M:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -3774,7 +3774,7 @@
     move-object v1, v2
 
     :goto_0
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -3826,7 +3826,7 @@
     move-object v1, v2
 
     :goto_1
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -3860,7 +3860,7 @@
     move-object v1, v2
 
     :goto_2
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -3937,7 +3937,7 @@
     move-object v1, v2
 
     :goto_3
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -3967,7 +3967,7 @@
     move-object v1, v2
 
     :goto_4
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -3992,7 +3992,7 @@
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
     :cond_b
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -4071,15 +4071,15 @@
 
     .line 21
     :cond_d
-    new-instance v1, Lkotlin/jvm/internal/Ref$ObjectRef;
+    new-instance v1, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    invoke-direct {v1}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+    invoke-direct {v1}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
     new-instance v2, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$s;
 
     invoke-direct {v2, p1, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$s;-><init>(Lcom/commsource/camera/fastcapture/SelfiePhotoData;Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
 
-    iput-object v2, v1, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object v2, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 22
     invoke-static {}, Lf/d/d/p;->P()I
@@ -4096,7 +4096,7 @@
     .line 24
     new-instance v2, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$a;
 
-    invoke-direct {v2, p1, v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$a;-><init>(Lcom/commsource/widget/dialog/g0;Lkotlin/jvm/internal/Ref$ObjectRef;)V
+    invoke-direct {v2, p1, v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$a;-><init>(Lcom/commsource/widget/dialog/g0;Lcotlin/jvm/internal/Ref$ObjectRef;)V
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/dialog/g0;->I(Landroid/view/View$OnClickListener;)V
 
@@ -4128,7 +4128,7 @@
 
     .line 27
     :cond_e
-    iget-object p1, v1, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iget-object p1, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     check-cast p1, Ljava/lang/Runnable;
 
@@ -4296,11 +4296,11 @@
 
     const-string v1, "fullRect"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "cameraViewPort"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->t(Landroid/graphics/Rect;Landroid/graphics/Rect;)V
@@ -4324,7 +4324,7 @@
 
     const-string v1, "cameraViewPort"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->u(Landroid/graphics/Rect;F)V

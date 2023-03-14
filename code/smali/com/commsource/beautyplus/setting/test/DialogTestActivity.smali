@@ -8,7 +8,7 @@
     value = "SMAP\nDialogTestActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DialogTestActivity.kt\ncom/commsource/beautyplus/setting/test/DialogTestActivity\n*L\n1#1,93:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,12 +22,12 @@
         "Lcom/commsource/beautyplus/BaseActivity;",
         "Landroid/os/Bundle;",
         "savedInstanceState",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onCreate",
         "(Landroid/os/Bundle;)V",
         "Lcom/commsource/beautyplus/f0/s;",
         "N",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "N0",
         "()Lcom/commsource/beautyplus/f0/s;",
         "mViewBinding",
@@ -45,7 +45,7 @@
 
 
 # instance fields
-.field private final N:Lkotlin/w;
+.field private final N:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -65,11 +65,11 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$mViewBinding$2;-><init>(Lcom/commsource/beautyplus/setting/test/DialogTestActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity;->N:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity;->N:Lcotlin/w;
 
     return-void
 .end method
@@ -154,9 +154,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity;->N:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity;->N:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -188,7 +188,7 @@
 
     const-string v1, "mViewBinding"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 

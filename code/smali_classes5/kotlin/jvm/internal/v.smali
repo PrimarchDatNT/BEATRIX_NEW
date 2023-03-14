@@ -1,10 +1,10 @@
-.class public final Lkotlin/jvm/internal/v;
+.class public final Lcotlin/jvm/internal/v;
 .super Ljava/lang/Object;
 .source "PrimitiveCompanionObjects.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -14,7 +14,7 @@
         "\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u0006\n\u0002\u0008\r\n\u0002\u0010\u0008\n\u0002\u0008\u000f\u0008\u00c0\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u001e\u0010\u000bJ\r\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\r\u0010\u0005\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0004J\r\u0010\u0006\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0004J\r\u0010\u0007\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0007\u0010\u0004J\r\u0010\u0008\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0008\u0010\u0004R\u001c\u0010\u000c\u001a\u00020\u00028\u0006@\u0007X\u0087T\u00a2\u0006\u000c\n\u0004\u0008\u0005\u0010\t\u0012\u0004\u0008\n\u0010\u000bR\u001c\u0010\u000f\u001a\u00020\u00028\u0006@\u0007X\u0087T\u00a2\u0006\u000c\n\u0004\u0008\r\u0010\t\u0012\u0004\u0008\u000e\u0010\u000bR\u001c\u0010\u0013\u001a\u00020\u00108\u0006@\u0007X\u0087T\u00a2\u0006\u000c\n\u0004\u0008\u0008\u0010\u0011\u0012\u0004\u0008\u0012\u0010\u000bR\u001c\u0010\u0016\u001a\u00020\u00028\u0006@\u0007X\u0087T\u00a2\u0006\u000c\n\u0004\u0008\u0014\u0010\t\u0012\u0004\u0008\u0015\u0010\u000bR\u001c\u0010\u0018\u001a\u00020\u00028\u0006@\u0007X\u0087T\u00a2\u0006\u000c\n\u0004\u0008\u0007\u0010\t\u0012\u0004\u0008\u0017\u0010\u000bR\u001c\u0010\u001b\u001a\u00020\u00108\u0006@\u0007X\u0087T\u00a2\u0006\u000c\n\u0004\u0008\u0019\u0010\u0011\u0012\u0004\u0008\u001a\u0010\u000bR\u001c\u0010\u001d\u001a\u00020\u00028\u0006@\u0007X\u0087T\u00a2\u0006\u000c\n\u0004\u0008\u0003\u0010\t\u0012\u0004\u0008\u001c\u0010\u000b\u00a8\u0006\u001f"
     }
     d2 = {
-        "Lkotlin/jvm/internal/v;",
+        "Lcotlin/jvm/internal/v;",
         "",
         "",
         "c",
@@ -71,7 +71,7 @@
 
 .field public static final g:I = 0x40
 
-.field public static final h:Lkotlin/jvm/internal/v;
+.field public static final h:Lcotlin/jvm/internal/v;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -82,11 +82,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lkotlin/jvm/internal/v;
+    new-instance v0, Lcotlin/jvm/internal/v;
 
-    invoke-direct {v0}, Lkotlin/jvm/internal/v;-><init>()V
+    invoke-direct {v0}, Lcotlin/jvm/internal/v;-><init>()V
 
-    sput-object v0, Lkotlin/jvm/internal/v;->h:Lkotlin/jvm/internal/v;
+    sput-object v0, Lcotlin/jvm/internal/v;->h:Lcotlin/jvm/internal/v;
 
     return-void
 .end method
@@ -102,7 +102,7 @@
 
 .method public static synthetic b()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -111,7 +111,7 @@
 
 .method public static synthetic d()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -120,7 +120,7 @@
 
 .method public static synthetic f()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -129,7 +129,7 @@
 
 .method public static synthetic h()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -138,7 +138,7 @@
 
 .method public static synthetic j()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -147,7 +147,7 @@
 
 .method public static synthetic k()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -156,7 +156,7 @@
 
 .method public static synthetic l()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 

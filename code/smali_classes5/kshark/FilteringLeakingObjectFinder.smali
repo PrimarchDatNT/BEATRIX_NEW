@@ -13,7 +13,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -80,7 +80,7 @@
 
     const-string v0, "filters"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -123,10 +123,10 @@
 
     const-string v0, "graph"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p1}, Lkshark/i;->a()Lkotlin/sequences/m;
+    invoke-interface {p1}, Lkshark/i;->a()Lcotlin/sequences/m;
 
     move-result-object p1
 
@@ -135,19 +135,19 @@
 
     invoke-direct {v0, p0}, Lkshark/FilteringLeakingObjectFinder$findLeakingObjectIds$1;-><init>(Lkshark/FilteringLeakingObjectFinder;)V
 
-    invoke-static {p1, v0}, Lkotlin/sequences/p;->i0(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {p1, v0}, Lcotlin/sequences/p;->i0(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object p1
 
     .line 3
     sget-object v0, Lkshark/FilteringLeakingObjectFinder$findLeakingObjectIds$2;->INSTANCE:Lkshark/FilteringLeakingObjectFinder$findLeakingObjectIds$2;
 
-    invoke-static {p1, v0}, Lkotlin/sequences/p;->b1(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {p1, v0}, Lcotlin/sequences/p;->b1(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object p1
 
     .line 4
-    invoke-static {p1}, Lkotlin/sequences/p;->Y2(Lkotlin/sequences/m;)Ljava/util/Set;
+    invoke-static {p1}, Lcotlin/sequences/p;->Y2(Lcotlin/sequences/m;)Ljava/util/Set;
 
     move-result-object p1
 

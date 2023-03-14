@@ -8,7 +8,7 @@
     value = "SMAP\nPipe.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Pipe.kt\nokio/Pipe\n+ 2 Timeout.kt\nokio/Timeout\n*L\n1#1,216:1\n204#2,30:217\n*E\n*S KotlinDebug\n*F\n+ 1 Pipe.kt\nokio/Pipe\n*L\n199#1,30:217\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -21,12 +21,12 @@
         "Lokio/Pipe;",
         "",
         "Lokio/Sink;",
-        "Lkotlin/Function1;",
-        "Lkotlin/t1;",
-        "Lkotlin/q;",
+        "Lcotlin/Function1;",
+        "Lcotlin/t1;",
+        "Lcotlin/q;",
         "block",
         "forward",
-        "(Lokio/Sink;Lkotlin/jvm/u/l;)V",
+        "(Lokio/Sink;Lcotlin/jvm/u/l;)V",
         "sink",
         "fold",
         "(Lokio/Sink;)V",
@@ -177,24 +177,24 @@
     throw p2
 .end method
 
-.method public static final synthetic access$forward(Lokio/Pipe;Lokio/Sink;Lkotlin/jvm/u/l;)V
+.method public static final synthetic access$forward(Lokio/Pipe;Lokio/Sink;Lcotlin/jvm/u/l;)V
     .locals 0
     .param p1    # Lokio/Sink;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lokio/Pipe;->forward(Lokio/Sink;Lkotlin/jvm/u/l;)V
+    invoke-direct {p0, p1, p2}, Lokio/Pipe;->forward(Lokio/Sink;Lcotlin/jvm/u/l;)V
 
     return-void
 .end method
 
-.method private final forward(Lokio/Sink;Lkotlin/jvm/u/l;)V
+.method private final forward(Lokio/Sink;Lcotlin/jvm/u/l;)V
     .locals 13
     .param p1    # Lokio/Sink;
         .annotation build Ln/e/a/d;
@@ -204,10 +204,10 @@
         value = {
             "(",
             "Lokio/Sink;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lokio/Sink;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -288,11 +288,11 @@
     .line 8
     :cond_0
     :try_start_0
-    invoke-interface {p2, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v5}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v5}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 9
     invoke-virtual {v0, v2, v3, v6}, Lokio/Timeout;->timeout(JLjava/util/concurrent/TimeUnit;)Lokio/Timeout;
@@ -308,7 +308,7 @@
     invoke-virtual {v0, v7, v8}, Lokio/Timeout;->deadlineNanoTime(J)Lokio/Timeout;
 
     :cond_1
-    invoke-static {v5}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v5}, Lcotlin/jvm/internal/c0;->c(I)V
 
     goto :goto_0
 
@@ -316,7 +316,7 @@
     move-exception p1
 
     .line 12
-    invoke-static {v5}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v5}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 13
     sget-object p2, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
@@ -334,7 +334,7 @@
     invoke-virtual {v0, v7, v8}, Lokio/Timeout;->deadlineNanoTime(J)Lokio/Timeout;
 
     :cond_2
-    invoke-static {v5}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v5}, Lcotlin/jvm/internal/c0;->c(I)V
 
     throw p1
 
@@ -356,11 +356,11 @@
     .line 18
     :cond_4
     :try_start_1
-    invoke-interface {p2, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    invoke-static {v5}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v5}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 19
     invoke-virtual {v0, v2, v3, v6}, Lokio/Timeout;->timeout(JLjava/util/concurrent/TimeUnit;)Lokio/Timeout;
@@ -376,7 +376,7 @@
     invoke-virtual {v0}, Lokio/Timeout;->clearDeadline()Lokio/Timeout;
 
     :cond_5
-    invoke-static {v5}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v5}, Lcotlin/jvm/internal/c0;->c(I)V
 
     :goto_0
     return-void
@@ -385,7 +385,7 @@
     move-exception p1
 
     .line 22
-    invoke-static {v5}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v5}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 23
     sget-object p2, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
@@ -403,7 +403,7 @@
     invoke-virtual {v0}, Lokio/Timeout;->clearDeadline()Lokio/Timeout;
 
     :cond_6
-    invoke-static {v5}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v5}, Lcotlin/jvm/internal/c0;->c(I)V
 
     throw p1
 .end method
@@ -412,16 +412,16 @@
 # virtual methods
 .method public final -deprecated_sink()Lokio/Sink;
     .locals 1
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->ERROR:Lcotlin/DeprecationLevel;
         message = "moved to val"
-        replaceWith = .subannotation Lkotlin/q0;
+        replaceWith = .subannotation Lcotlin/q0;
             expression = "sink"
             imports = {}
         .end subannotation
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "-deprecated_sink"
     .end annotation
 
@@ -436,16 +436,16 @@
 
 .method public final -deprecated_source()Lokio/Source;
     .locals 1
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->ERROR:Lcotlin/DeprecationLevel;
         message = "moved to val"
-        replaceWith = .subannotation Lkotlin/q0;
+        replaceWith = .subannotation Lcotlin/q0;
             expression = "source"
             imports = {}
         .end subannotation
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "-deprecated_source"
     .end annotation
 
@@ -472,7 +472,7 @@
 
     const-string v0, "sink"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     :goto_0
@@ -547,7 +547,7 @@
     invoke-virtual {v4}, Ljava/lang/Object;->notifyAll()V
 
     .line 11
-    sget-object v4, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v4, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_2
 
@@ -594,11 +594,11 @@
 
     if-nez v1, :cond_3
 
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type java.lang.Object"
 
-    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
@@ -606,7 +606,7 @@
     invoke-virtual {v1}, Ljava/lang/Object;->notifyAll()V
 
     .line 19
-    sget-object v1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
@@ -625,11 +625,11 @@
     .line 21
     :cond_4
     :try_start_4
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type java.lang.Object"
 
-    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
@@ -740,7 +740,7 @@
 
 .method public final sink()Lokio/Sink;
     .locals 1
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "sink"
     .end annotation
 
@@ -755,7 +755,7 @@
 
 .method public final source()Lokio/Source;
     .locals 1
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "source"
     .end annotation
 

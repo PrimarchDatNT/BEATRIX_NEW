@@ -1,4 +1,4 @@
-.class public final Lkotlinx/coroutines/t3/a$b$b;
+.class public final Lcotlinx/coroutines/t3/a$b$b;
 .super Ljava/lang/Object;
 .source "Runnable.kt"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/t3/a$b;->b(JLkotlinx/coroutines/m;)V
+    value = Lcotlinx/coroutines/t3/a$b;->b(JLcotlinx/coroutines/m;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
     value = "SMAP\nRunnable.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Runnable.kt\nkotlinx/coroutines/RunnableKt$Runnable$1\n+ 2 TestCoroutineContext.kt\nkotlinx/coroutines/test/TestCoroutineContext$Dispatcher\n*L\n1#1,18:1\n229#2,2:19\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0010\u0004\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002\u00a8\u0006\u0003"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "kotlinx/coroutines/y2$a",
@@ -46,18 +46,18 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlinx/coroutines/t3/a$b;
+.field final synthetic a:Lcotlinx/coroutines/t3/a$b;
 
-.field final synthetic b:Lkotlinx/coroutines/m;
+.field final synthetic b:Lcotlinx/coroutines/m;
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/t3/a$b;Lkotlinx/coroutines/m;)V
+.method public constructor <init>(Lcotlinx/coroutines/t3/a$b;Lcotlinx/coroutines/m;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/t3/a$b$b;->a:Lkotlinx/coroutines/t3/a$b;
+    iput-object p1, p0, Lcotlinx/coroutines/t3/a$b$b;->a:Lcotlinx/coroutines/t3/a$b;
 
-    iput-object p2, p0, Lkotlinx/coroutines/t3/a$b$b;->b:Lkotlinx/coroutines/m;
+    iput-object p2, p0, Lcotlinx/coroutines/t3/a$b$b;->b:Lcotlinx/coroutines/m;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -70,13 +70,13 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/t3/a$b$b;->b:Lkotlinx/coroutines/m;
+    iget-object v0, p0, Lcotlinx/coroutines/t3/a$b$b;->b:Lcotlinx/coroutines/m;
 
-    iget-object v1, p0, Lkotlinx/coroutines/t3/a$b$b;->a:Lkotlinx/coroutines/t3/a$b;
+    iget-object v1, p0, Lcotlinx/coroutines/t3/a$b$b;->a:Lcotlinx/coroutines/t3/a$b;
 
-    sget-object v2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v2, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-interface {v0, v1, v2}, Lkotlinx/coroutines/m;->M(Lkotlinx/coroutines/CoroutineDispatcher;Ljava/lang/Object;)V
+    invoke-interface {v0, v1, v2}, Lcotlinx/coroutines/m;->M(Lcotlinx/coroutines/CoroutineDispatcher;Ljava/lang/Object;)V
 
     return-void
 .end method

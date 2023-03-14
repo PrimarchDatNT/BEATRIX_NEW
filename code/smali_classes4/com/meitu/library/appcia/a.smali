@@ -10,7 +10,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
         "Lcom/meitu/library/appcia/g/b;",
         "f",
         "()Lcom/meitu/library/appcia/g/b;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "k",
         "()V",
         "Lcom/meitu/library/appcia/diskspace/c/a$b;",
@@ -173,7 +173,7 @@
 
     const-string v1, "callback"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v1, Lcom/meitu/library/appcia/a;->b:Lcom/meitu/library/appcia/director/Director;
@@ -341,7 +341,7 @@
 
     const-string v1, "application"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/meitu/library/appcia/a$a;

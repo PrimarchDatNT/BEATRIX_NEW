@@ -1,4 +1,4 @@
-.class public final enum Lkotlin/contracts/InvocationKind;
+.class public final enum Lcotlin/contracts/InvocationKind;
 .super Ljava/lang/Enum;
 .source "ContractBuilder.kt"
 
@@ -7,12 +7,12 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Enum<",
-        "Lkotlin/contracts/InvocationKind;",
+        "Lcotlin/contracts/InvocationKind;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\u0008\u0007\u0008\u0087\u0001\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00000\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0002\u0010\u0003j\u0002\u0008\u0004j\u0002\u0008\u0005j\u0002\u0008\u0006j\u0002\u0008\u0007\u00a8\u0006\u0008"
     }
     d2 = {
-        "Lkotlin/contracts/InvocationKind;",
+        "Lcotlin/contracts/InvocationKind;",
         "",
         "<init>",
         "(Ljava/lang/String;I)V",
@@ -40,37 +40,37 @@
     }
 .end annotation
 
-.annotation build Lkotlin/contracts/f;
+.annotation build Lcotlin/contracts/f;
 .end annotation
 
-.annotation build Lkotlin/internal/b;
+.annotation build Lcotlin/internal/b;
 .end annotation
 
-.annotation build Lkotlin/s0;
+.annotation build Lcotlin/s0;
     version = "1.3"
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkotlin/contracts/InvocationKind;
+.field private static final synthetic $VALUES:[Lcotlin/contracts/InvocationKind;
 
-.field public static final enum AT_LEAST_ONCE:Lkotlin/contracts/InvocationKind;
-    .annotation build Lkotlin/internal/b;
+.field public static final enum AT_LEAST_ONCE:Lcotlin/contracts/InvocationKind;
+    .annotation build Lcotlin/internal/b;
     .end annotation
 .end field
 
-.field public static final enum AT_MOST_ONCE:Lkotlin/contracts/InvocationKind;
-    .annotation build Lkotlin/internal/b;
+.field public static final enum AT_MOST_ONCE:Lcotlin/contracts/InvocationKind;
+    .annotation build Lcotlin/internal/b;
     .end annotation
 .end field
 
-.field public static final enum EXACTLY_ONCE:Lkotlin/contracts/InvocationKind;
-    .annotation build Lkotlin/internal/b;
+.field public static final enum EXACTLY_ONCE:Lcotlin/contracts/InvocationKind;
+    .annotation build Lcotlin/internal/b;
     .end annotation
 .end field
 
-.field public static final enum UNKNOWN:Lkotlin/contracts/InvocationKind;
-    .annotation build Lkotlin/internal/b;
+.field public static final enum UNKNOWN:Lcotlin/contracts/InvocationKind;
+    .annotation build Lcotlin/internal/b;
     .end annotation
 .end field
 
@@ -81,57 +81,57 @@
 
     const/4 v0, 0x4
 
-    new-array v0, v0, [Lkotlin/contracts/InvocationKind;
+    new-array v0, v0, [Lcotlin/contracts/InvocationKind;
 
-    new-instance v1, Lkotlin/contracts/InvocationKind;
+    new-instance v1, Lcotlin/contracts/InvocationKind;
 
     const-string v2, "AT_MOST_ONCE"
 
     const/4 v3, 0x0
 
-    invoke-direct {v1, v2, v3}, Lkotlin/contracts/InvocationKind;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v1, v2, v3}, Lcotlin/contracts/InvocationKind;-><init>(Ljava/lang/String;I)V
 
-    sput-object v1, Lkotlin/contracts/InvocationKind;->AT_MOST_ONCE:Lkotlin/contracts/InvocationKind;
+    sput-object v1, Lcotlin/contracts/InvocationKind;->AT_MOST_ONCE:Lcotlin/contracts/InvocationKind;
 
     aput-object v1, v0, v3
 
-    new-instance v1, Lkotlin/contracts/InvocationKind;
+    new-instance v1, Lcotlin/contracts/InvocationKind;
 
     const-string v2, "AT_LEAST_ONCE"
 
     const/4 v3, 0x1
 
-    invoke-direct {v1, v2, v3}, Lkotlin/contracts/InvocationKind;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v1, v2, v3}, Lcotlin/contracts/InvocationKind;-><init>(Ljava/lang/String;I)V
 
-    sput-object v1, Lkotlin/contracts/InvocationKind;->AT_LEAST_ONCE:Lkotlin/contracts/InvocationKind;
+    sput-object v1, Lcotlin/contracts/InvocationKind;->AT_LEAST_ONCE:Lcotlin/contracts/InvocationKind;
 
     aput-object v1, v0, v3
 
-    new-instance v1, Lkotlin/contracts/InvocationKind;
+    new-instance v1, Lcotlin/contracts/InvocationKind;
 
     const-string v2, "EXACTLY_ONCE"
 
     const/4 v3, 0x2
 
-    invoke-direct {v1, v2, v3}, Lkotlin/contracts/InvocationKind;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v1, v2, v3}, Lcotlin/contracts/InvocationKind;-><init>(Ljava/lang/String;I)V
 
-    sput-object v1, Lkotlin/contracts/InvocationKind;->EXACTLY_ONCE:Lkotlin/contracts/InvocationKind;
+    sput-object v1, Lcotlin/contracts/InvocationKind;->EXACTLY_ONCE:Lcotlin/contracts/InvocationKind;
 
     aput-object v1, v0, v3
 
-    new-instance v1, Lkotlin/contracts/InvocationKind;
+    new-instance v1, Lcotlin/contracts/InvocationKind;
 
     const-string v2, "UNKNOWN"
 
     const/4 v3, 0x3
 
-    invoke-direct {v1, v2, v3}, Lkotlin/contracts/InvocationKind;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v1, v2, v3}, Lcotlin/contracts/InvocationKind;-><init>(Ljava/lang/String;I)V
 
-    sput-object v1, Lkotlin/contracts/InvocationKind;->UNKNOWN:Lkotlin/contracts/InvocationKind;
+    sput-object v1, Lcotlin/contracts/InvocationKind;->UNKNOWN:Lcotlin/contracts/InvocationKind;
 
     aput-object v1, v0, v3
 
-    sput-object v0, Lkotlin/contracts/InvocationKind;->$VALUES:[Lkotlin/contracts/InvocationKind;
+    sput-object v0, Lcotlin/contracts/InvocationKind;->$VALUES:[Lcotlin/contracts/InvocationKind;
 
     return-void
 .end method
@@ -150,30 +150,30 @@
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkotlin/contracts/InvocationKind;
+.method public static valueOf(Ljava/lang/String;)Lcotlin/contracts/InvocationKind;
     .locals 1
 
-    const-class v0, Lkotlin/contracts/InvocationKind;
+    const-class v0, Lcotlin/contracts/InvocationKind;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object p0
 
-    check-cast p0, Lkotlin/contracts/InvocationKind;
+    check-cast p0, Lcotlin/contracts/InvocationKind;
 
     return-object p0
 .end method
 
-.method public static values()[Lkotlin/contracts/InvocationKind;
+.method public static values()[Lcotlin/contracts/InvocationKind;
     .locals 1
 
-    sget-object v0, Lkotlin/contracts/InvocationKind;->$VALUES:[Lkotlin/contracts/InvocationKind;
+    sget-object v0, Lcotlin/contracts/InvocationKind;->$VALUES:[Lcotlin/contracts/InvocationKind;
 
-    invoke-virtual {v0}, [Lkotlin/contracts/InvocationKind;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lcotlin/contracts/InvocationKind;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkotlin/contracts/InvocationKind;
+    check-cast v0, [Lcotlin/contracts/InvocationKind;
 
     return-object v0
 .end method

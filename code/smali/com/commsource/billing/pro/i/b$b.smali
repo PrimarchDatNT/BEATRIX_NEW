@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "",
         "Lcom/meitu/global/billing/purchase/data/MTGPurchase;",
         "purchases",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "F",
         "(Ljava/util/List;)V",
         "",
@@ -106,11 +106,11 @@
     move-result v2
 
     .line 3
-    new-instance v3, Lkotlin/jvm/internal/Ref$IntRef;
+    new-instance v3, Lcotlin/jvm/internal/Ref$IntRef;
 
-    invoke-direct {v3}, Lkotlin/jvm/internal/Ref$IntRef;-><init>()V
+    invoke-direct {v3}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
 
-    iput v1, v3, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput v1, v3, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     .line 4
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -137,7 +137,7 @@
 
     new-instance v5, Lcom/commsource/billing/pro/i/b$b$a;
 
-    invoke-direct {v5, p0, v3, v2}, Lcom/commsource/billing/pro/i/b$b$a;-><init>(Lcom/commsource/billing/pro/i/b$b;Lkotlin/jvm/internal/Ref$IntRef;I)V
+    invoke-direct {v5, p0, v3, v2}, Lcom/commsource/billing/pro/i/b$b$a;-><init>(Lcom/commsource/billing/pro/i/b$b;Lcotlin/jvm/internal/Ref$IntRef;I)V
 
     invoke-virtual {v4, v1, v5}, Lf/k/h/a/h;->a(Lcom/meitu/global/billing/purchase/data/MTGPurchase;Lf/k/h/a/l/y/c;)V
 

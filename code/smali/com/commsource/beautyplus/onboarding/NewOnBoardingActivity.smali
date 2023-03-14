@@ -14,7 +14,7 @@
     value = "SMAP\nNewOnBoardingActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewOnBoardingActivity.kt\ncom/commsource/beautyplus/onboarding/NewOnBoardingActivity\n*L\n1#1,521:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
     d2 = {
         "Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;",
         "Lcom/commsource/beautyplus/BaseActivity;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "o1",
         "()V",
         "m1",
@@ -59,7 +59,7 @@
         "leftBanner",
         "Lcom/commsource/billing/activity/SubscribeViewModel;",
         "O",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "j1",
         "()Lcom/commsource/billing/activity/SubscribeViewModel;",
         "subViewModel",
@@ -110,9 +110,9 @@
 # instance fields
 .field private N:Lcom/commsource/beautyplus/f0/s0;
 
-.field private final O:Lkotlin/w;
+.field private final O:Lcotlin/w;
 
-.field private final P:Lkotlin/w;
+.field private final P:Lcotlin/w;
 
 .field private Q:Z
 
@@ -141,7 +141,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->Y:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$a;
 
@@ -161,22 +161,22 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$subViewModel$2;-><init>(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->O:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->O:Lcotlin/w;
 
     .line 3
     new-instance v0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$mViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$mViewModel$2;-><init>(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->P:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->P:Lcotlin/w;
 
     const/4 v0, 0x1
 
@@ -230,7 +230,7 @@
 
     const-string v1, "mViewBinding"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -504,9 +504,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->P:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->P:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -524,9 +524,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->O:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->O:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -602,7 +602,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->U:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
@@ -660,7 +660,7 @@
 
     if-nez v3, :cond_4
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object v2, v3, Lcom/commsource/beautyplus/f0/s0;->U:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
@@ -673,7 +673,7 @@
 
     invoke-direct {v4, p0, v1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$goNext$1;-><init>(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;Lcom/commsource/beautyplus/onboarding/b/a;)V
 
-    invoke-virtual {v2, v3, v4}, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->q(Ljava/lang/String;Lkotlin/jvm/u/a;)V
+    invoke-virtual {v2, v3, v4}, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->q(Ljava/lang/String;Lcotlin/jvm/u/a;)V
 
     .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -695,14 +695,14 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->Q:Lcom/commsource/widget/AutoFitTextView;
 
     const-string v3, "mViewBinding.tvSub"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v3, Lcom/res/provider/ResSTRING;->t_continue:I
 
@@ -717,7 +717,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->b:Landroid/widget/FrameLayout;
@@ -733,7 +733,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->b:Landroid/widget/FrameLayout;
@@ -749,7 +749,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->O:Landroid/widget/TextView;
@@ -765,7 +765,7 @@
 
     if-nez v1, :cond_4
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->N:Landroid/widget/TextView;
@@ -781,7 +781,7 @@
 
     if-nez v1, :cond_5
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->S:Landroid/widget/TextView;
@@ -797,7 +797,7 @@
 
     if-nez v1, :cond_6
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->f:Lcom/commsource/widget/PressImageView;
@@ -813,7 +813,7 @@
 
     if-nez v1, :cond_7
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_7
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->U:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
@@ -902,7 +902,7 @@
 
     const-string/jumbo v2, "subViewModel"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v2, "OnboardingPage"
 
@@ -1012,7 +1012,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/s0;->f:Lcom/commsource/widget/PressImageView;
@@ -1033,7 +1033,7 @@
 
     if-nez v2, :cond_4
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/s0;->f:Lcom/commsource/widget/PressImageView;
@@ -1061,7 +1061,7 @@
 
     if-nez v4, :cond_5
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/s0;->d:Lcom/commsource/beautyplus/onboarding/ImageTransformationView;
@@ -1073,7 +1073,7 @@
 
     if-nez v4, :cond_6
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/s0;->d:Lcom/commsource/beautyplus/onboarding/ImageTransformationView;
@@ -1085,7 +1085,7 @@
 
     if-nez v4, :cond_7
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_7
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/s0;->d:Lcom/commsource/beautyplus/onboarding/ImageTransformationView;
@@ -1124,7 +1124,7 @@
 
     if-nez v6, :cond_8
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_8
     iget-object v6, v6, Lcom/commsource/beautyplus/f0/s0;->U:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
@@ -1136,7 +1136,7 @@
 
     if-nez v4, :cond_9
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_9
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/s0;->U:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
@@ -1161,7 +1161,7 @@
 
     if-nez v1, :cond_a
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_a
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->J:Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;
@@ -1178,14 +1178,14 @@
 
     if-nez v1, :cond_b
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_b
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->a:Landroidx/cardview/widget/CardView;
 
     const-string v2, "mViewBinding.cbIconContent"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1194,14 +1194,14 @@
 
     if-nez v1, :cond_c
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_c
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->T:Landroid/view/View;
 
     const-string v2, "mViewBinding.vShadow"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1255,19 +1255,19 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/s0;->R:Lcom/commsource/widget/AutoFitTextView;
 
-    invoke-static {v2, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v9, 0x2
 
     invoke-virtual {v2, v9}, Landroid/widget/TextView;->setMaxLines(I)V
 
     .line 5
-    sget-object v2, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
+    sget-object v2, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     sget v2, Lcom/res/provider/ResSTRING;->t_onboarding_price:I
 
@@ -1278,7 +1278,7 @@
 
     const-string v10, "ResourcesUtils.getString\u2026tring.t_onboarding_price)"
 
-    invoke-static {v2, v10}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v10}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v10, 0x3
 
@@ -1318,7 +1318,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -1326,7 +1326,7 @@
     if-lez v1, :cond_2
 
     .line 11
-    sget-object v2, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
+    sget-object v2, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     sget v2, Lcom/res/provider/ResSTRING;->t_sub_year_per_month_price:I
 
@@ -1337,7 +1337,7 @@
 
     const-string v9, "ResourcesUtils.getString\u2026sub_year_per_month_price)"
 
-    invoke-static {v2, v9}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v9}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-array v9, v6, [Ljava/lang/Object;
 
@@ -1357,13 +1357,13 @@
 
     move-result-object p1
 
-    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 15
     :cond_2
-    sget-object v2, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
+    sget-object v2, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     sget v2, Lcom/res/provider/ResSTRING;->t_sub_price_tip:I
 
@@ -1374,7 +1374,7 @@
 
     const-string v9, "ResourcesUtils.getString(R.string.t_sub_price_tip)"
 
-    invoke-static {v2, v9}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v9}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-array v9, v6, [Ljava/lang/Object;
 
@@ -1394,7 +1394,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     :goto_0
@@ -1402,12 +1402,12 @@
 
     if-nez v2, :cond_3
 
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/s0;->R:Lcom/commsource/widget/AutoFitTextView;
 
-    invoke-static {v2, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -1421,14 +1421,14 @@
 
     if-nez p1, :cond_4
 
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/s0;->p:Lcom/commsource/widget/RotateLoadingView;
 
     const-string v2, "mViewBinding.rlv"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1437,12 +1437,12 @@
 
     if-nez p1, :cond_5
 
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/s0;->R:Lcom/commsource/widget/AutoFitTextView;
 
-    invoke-static {p1, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1451,12 +1451,12 @@
 
     if-nez p1, :cond_6
 
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/s0;->Q:Lcom/commsource/widget/AutoFitTextView;
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1468,12 +1468,12 @@
 
     if-nez p1, :cond_8
 
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_8
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/s0;->Q:Lcom/commsource/widget/AutoFitTextView;
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v1, Lcom/res/provider/ResSTRING;->t_continue:I
 
@@ -1487,7 +1487,7 @@
 
     .line 25
     :cond_9
-    sget-object p1, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
+    sget-object p1, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     sget p1, Lcom/res/provider/ResSTRING;->free_use_7_day:I
 
@@ -1498,7 +1498,7 @@
 
     const-string v2, "ResourcesUtils.getString(R.string.free_use_7_day)"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-array v2, v6, [Ljava/lang/Object;
 
@@ -1518,19 +1518,19 @@
 
     move-result-object p1
 
-    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 29
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_a
 
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_a
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->Q:Lcom/commsource/widget/AutoFitTextView;
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -1756,14 +1756,14 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->g:Landroid/widget/LinearLayout;
 
     const-string v4, "mViewBinding.llBottom"
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1772,14 +1772,14 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->M:Landroid/widget/TextView;
 
     const-string v4, "mViewBinding.tvNext"
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1788,14 +1788,14 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->R:Lcom/commsource/widget/AutoFitTextView;
 
     const-string v4, "mViewBinding.tvSubPrice"
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroidx/appcompat/widget/AppCompatTextView;->getText()Ljava/lang/CharSequence;
 
@@ -1815,12 +1815,12 @@
 
     if-nez v1, :cond_4
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->p:Lcom/commsource/widget/RotateLoadingView;
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1832,12 +1832,12 @@
 
     if-nez v1, :cond_6
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->R:Lcom/commsource/widget/AutoFitTextView;
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1846,14 +1846,14 @@
 
     if-nez v1, :cond_7
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_7
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->Q:Lcom/commsource/widget/AutoFitTextView;
 
     const-string v4, "mViewBinding.tvSub"
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1862,12 +1862,12 @@
 
     if-nez v1, :cond_8
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_8
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->p:Lcom/commsource/widget/RotateLoadingView;
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1942,7 +1942,7 @@
     if-nez v6, :cond_a
 
     .line 23
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_a
     invoke-virtual {v1, v5, v6}, Lcom/meitu/library/hwanalytics/spm/e/a;->a(Ljava/lang/String;Ljava/lang/String;)V
@@ -1958,7 +1958,7 @@
     if-nez v8, :cond_c
 
     .line 25
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_c
     invoke-virtual {v1, v7, v8}, Lcom/meitu/library/hwanalytics/spm/e/a;->a(Ljava/lang/String;Ljava/lang/String;)V
@@ -1981,7 +1981,7 @@
     if-nez v6, :cond_e
 
     .line 28
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_e
     invoke-virtual {v1, v5, v6}, Lcom/meitu/library/hwanalytics/spm/e/a;->a(Ljava/lang/String;Ljava/lang/String;)V
@@ -2004,7 +2004,7 @@
     if-nez v6, :cond_10
 
     .line 31
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_10
     invoke-virtual {v1, v5, v6}, Lcom/meitu/library/hwanalytics/spm/e/a;->a(Ljava/lang/String;Ljava/lang/String;)V
@@ -2027,7 +2027,7 @@
     if-nez v4, :cond_12
 
     .line 34
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_12
     invoke-virtual {v1, v5, v4}, Lcom/meitu/library/hwanalytics/spm/e/a;->a(Ljava/lang/String;Ljava/lang/String;)V
@@ -2081,14 +2081,14 @@
 
     if-nez v4, :cond_15
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_15
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/s0;->J:Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;
 
     const-string v5, "mViewBinding.rvBanner"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v4, v1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
@@ -2116,7 +2116,7 @@
 
     if-nez v2, :cond_16
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_16
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/s0;->J:Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;
@@ -2132,7 +2132,7 @@
 
     if-nez v1, :cond_17
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_17
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->J:Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;
@@ -2172,14 +2172,14 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/s0;->a:Landroidx/cardview/widget/CardView;
 
     const-string v1, "mViewBinding.cbIconContent"
 
-    invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x0
 
@@ -2191,21 +2191,21 @@
 
     const/4 v9, 0x0
 
-    invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/s0;->T:Landroid/view/View;
 
     const-string v1, "mViewBinding.vShadow"
 
-    invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x0
 
@@ -2217,14 +2217,14 @@
 
     const/4 v9, 0x0
 
-    invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->U:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
@@ -2236,7 +2236,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->K:Lcom/commsource/beautyplus/onboarding/NewTextPageView;
@@ -2250,7 +2250,7 @@
 
     const-string v4, "ResourcesUtils.getString\u2026ing.t_welcome_edit_photo)"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v4, Lcom/res/provider/ResSTRING;->t_welcome_gergeous:I
 
@@ -2261,7 +2261,7 @@
 
     const-string v5, "ResourcesUtils.getString\u2026tring.t_welcome_gergeous)"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 7
     invoke-virtual {v1, v3, v4}, Lcom/commsource/beautyplus/onboarding/NewTextPageView;->k(Ljava/lang/String;Ljava/lang/String;)V
@@ -2271,14 +2271,14 @@
 
     if-nez v1, :cond_4
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/s0;->d:Lcom/commsource/beautyplus/onboarding/ImageTransformationView;
 
     const-string v1, "mViewBinding.ivBg"
 
-    invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x0
 
@@ -2290,21 +2290,21 @@
 
     const/4 v9, 0x0
 
-    invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 9
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->N:Lcom/commsource/beautyplus/f0/s0;
 
     if-nez v1, :cond_5
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/s0;->J:Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;
 
     const-string v1, "mViewBinding.rvBanner"
 
-    invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x0
 
@@ -2318,7 +2318,7 @@
 
     const/4 v10, 0x0
 
-    invoke-static/range {v3 .. v10}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v3 .. v10}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     const/4 v1, 0x2
 
@@ -2369,7 +2369,7 @@
 
     if-nez v1, :cond_6
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->J:Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;
@@ -2701,7 +2701,7 @@
 
     const-string/jumbo v1, "subViewModel"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string/jumbo v1, "x"
 
@@ -2717,7 +2717,7 @@
 
     const-string v1, "DataBindingUtil.setConte\u2026activity_new_on_boarding)"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/beautyplus/f0/s0;
 
@@ -2771,7 +2771,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->U:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
@@ -2783,7 +2783,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->J:Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;

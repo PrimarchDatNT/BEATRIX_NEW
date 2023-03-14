@@ -8,7 +8,7 @@
     value = "SMAP\nFormulaConfig.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FormulaConfig.kt\ncom/commsource/studio/formula/FormulaConfig\n*L\n1#1,106:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "P",
         "()Z",
         "isShow",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "Q",
         "(Z)V",
         "",
@@ -360,11 +360,11 @@
 
     const-string v1, "wrapper"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "formulaProduct"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Ljava/lang/StringBuilder;
@@ -423,7 +423,7 @@
 
     const-string v1, "jsFormula"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/formula/JsFormula;->isInternal()Z
@@ -443,7 +443,7 @@
 
     const-string v1, "PathUtil.getAssetPath(jsFormula.formulaConfig)"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

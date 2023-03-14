@@ -32,7 +32,7 @@
     value = "SMAP\nProCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ProCover.kt\ncom/commsource/camera/xcamera/cover/ProCover$initViewModel$8\n*L\n1#1,556:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "Lcom/meitu/template/bean/Filter;",
         "kotlin.jvm.PlatformType",
         "filter",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/meitu/template/bean/Filter;)V"
     }
@@ -95,7 +95,7 @@
 
     const-string v2, "mBottomFunctionViewModel.bottomFunctionChangeEvent"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
 
@@ -202,7 +202,7 @@
     aput-object p1, v2, v6
 
     .line 8
-    invoke-static {v2}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v2}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object p1
 

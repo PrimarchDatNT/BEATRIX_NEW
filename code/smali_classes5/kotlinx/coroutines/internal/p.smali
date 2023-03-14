@@ -1,4 +1,4 @@
-.class public final Lkotlinx/coroutines/internal/p;
+.class public final Lcotlinx/coroutines/internal/p;
 .super Ljava/lang/Object;
 .source "LockFreeTaskQueue.kt"
 
@@ -6,8 +6,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkotlinx/coroutines/internal/p$b;,
-        Lkotlinx/coroutines/internal/p$a;
+        Lcotlinx/coroutines/internal/p$b;,
+        Lcotlinx/coroutines/internal/p$a;
     }
 .end annotation
 
@@ -24,7 +24,7 @@
     value = "SMAP\nLockFreeTaskQueue.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LockFreeTaskQueue.kt\nkotlinx/coroutines/internal/LockFreeTaskQueueCore\n+ 2 LockFreeTaskQueue.kt\nkotlinx/coroutines/internal/LockFreeTaskQueueCore$Companion\n+ 3 AtomicFU.common.kt\nkotlinx/atomicfu/AtomicFU_commonKt\n*L\n1#1,308:1\n299#2,3:309\n299#2,3:312\n299#2,3:321\n299#2,3:326\n299#2,3:331\n299#2,3:340\n299#2,3:343\n396#3,4:315\n387#3,2:319\n387#3,2:324\n387#3,2:329\n418#3,4:334\n92#3,2:338\n*E\n*S KotlinDebug\n*F\n+ 1 LockFreeTaskQueue.kt\nkotlinx/coroutines/internal/LockFreeTaskQueueCore\n*L\n91#1,3:309\n92#1,3:312\n105#1,3:321\n165#1,3:326\n199#1,3:331\n231#1,3:340\n247#1,3:343\n95#1,4:315\n105#1,2:319\n165#1,2:324\n199#1,2:329\n217#1,4:334\n223#1,2:338\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,25 +34,25 @@
         "\u00008\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0010\t\n\u0002\u0008\u0006\n\u0002\u0010\u000b\n\u0002\u0008\t\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010 \n\u0002\u0008\u0011\u0008\u0000\u0018\u0000 0*\u0008\u0008\u0000\u0010\u0002*\u00020\u00012\u00020\u0001:\u0002\u0017\u0013B\u0017\u0012\u0006\u0010%\u001a\u00020\u0003\u0012\u0006\u0010+\u001a\u00020\u0014\u00a2\u0006\u0004\u0008.\u0010/J3\u0010\u0007\u001a\u0016\u0012\u0004\u0012\u00028\u0000\u0018\u00010\u0000j\n\u0012\u0004\u0012\u00028\u0000\u0018\u0001`\u00062\u0006\u0010\u0004\u001a\u00020\u00032\u0006\u0010\u0005\u001a\u00028\u0000H\u0002\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J3\u0010\u000b\u001a\u0016\u0012\u0004\u0012\u00028\u0000\u0018\u00010\u0000j\n\u0012\u0004\u0012\u00028\u0000\u0018\u0001`\u00062\u0006\u0010\t\u001a\u00020\u00032\u0006\u0010\n\u001a\u00020\u0003H\u0002\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u000f\u0010\u000e\u001a\u00020\rH\u0002\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ\'\u0010\u0011\u001a\u0012\u0012\u0004\u0012\u00028\u00000\u0000j\u0008\u0012\u0004\u0012\u00028\u0000`\u00062\u0006\u0010\u0010\u001a\u00020\rH\u0002\u00a2\u0006\u0004\u0008\u0011\u0010\u0012J\'\u0010\u0013\u001a\u0012\u0012\u0004\u0012\u00028\u00000\u0000j\u0008\u0012\u0004\u0012\u00028\u0000`\u00062\u0006\u0010\u0010\u001a\u00020\rH\u0002\u00a2\u0006\u0004\u0008\u0013\u0010\u0012J\r\u0010\u0015\u001a\u00020\u0014\u00a2\u0006\u0004\u0008\u0015\u0010\u0016J\u0015\u0010\u0017\u001a\u00020\u00032\u0006\u0010\u0005\u001a\u00028\u0000\u00a2\u0006\u0004\u0008\u0017\u0010\u0018J\u000f\u0010\u0019\u001a\u0004\u0018\u00010\u0001\u00a2\u0006\u0004\u0008\u0019\u0010\u001aJ\u0013\u0010\u001b\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0000\u00a2\u0006\u0004\u0008\u001b\u0010\u001cJ-\u0010!\u001a\u0008\u0012\u0004\u0012\u00028\u00010 \"\u0004\u0008\u0001\u0010\u001d2\u0012\u0010\u001f\u001a\u000e\u0012\u0004\u0012\u00028\u0000\u0012\u0004\u0012\u00028\u00010\u001e\u00a2\u0006\u0004\u0008!\u0010\"J\r\u0010#\u001a\u00020\u0014\u00a2\u0006\u0004\u0008#\u0010\u0016R\u0016\u0010%\u001a\u00020\u00038\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0011\u0010$R\u0013\u0010(\u001a\u00020\u00038F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008&\u0010\'R\u0016\u0010)\u001a\u00020\u00038\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0017\u0010$R\u0016\u0010+\u001a\u00020\u00148\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0015\u0010*R\u0013\u0010-\u001a\u00020\u00148F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008,\u0010\u0016\u00a8\u00061"
     }
     d2 = {
-        "Lkotlinx/coroutines/internal/p;",
+        "Lcotlinx/coroutines/internal/p;",
         "",
         "E",
         "",
         "index",
         "element",
-        "Lkotlinx/coroutines/internal/Core;",
+        "Lcotlinx/coroutines/internal/Core;",
         "e",
-        "(ILjava/lang/Object;)Lkotlinx/coroutines/internal/p;",
+        "(ILjava/lang/Object;)Lcotlinx/coroutines/internal/p;",
         "oldHead",
         "newHead",
         "m",
-        "(II)Lkotlinx/coroutines/internal/p;",
+        "(II)Lcotlinx/coroutines/internal/p;",
         "",
         "j",
         "()J",
         "state",
         "c",
-        "(J)Lkotlinx/coroutines/internal/p;",
+        "(J)Lcotlinx/coroutines/internal/p;",
         "b",
         "",
         "d",
@@ -62,13 +62,13 @@
         "l",
         "()Ljava/lang/Object;",
         "k",
-        "()Lkotlinx/coroutines/internal/p;",
+        "()Lcotlinx/coroutines/internal/p;",
         "R",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "transform",
         "",
         "i",
-        "(Lkotlin/jvm/u/l;)Ljava/util/List;",
+        "(Lcotlin/jvm/u/l;)Ljava/util/List;",
         "g",
         "I",
         "capacity",
@@ -123,8 +123,8 @@
 
 .field public static final r:I = 0x400
 
-.field public static final s:Lkotlinx/coroutines/internal/c0;
-    .annotation build Lkotlin/jvm/d;
+.field public static final s:Lcotlinx/coroutines/internal/c0;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -137,7 +137,7 @@
 
 .field public static final v:I = 0x2
 
-.field public static final w:Lkotlinx/coroutines/internal/p$a;
+.field public static final w:Lcotlinx/coroutines/internal/p$a;
 
 
 # instance fields
@@ -158,24 +158,24 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    const-class v0, Lkotlinx/coroutines/internal/p;
+    const-class v0, Lcotlinx/coroutines/internal/p;
 
-    new-instance v1, Lkotlinx/coroutines/internal/p$a;
+    new-instance v1, Lcotlinx/coroutines/internal/p$a;
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lkotlinx/coroutines/internal/p$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcotlinx/coroutines/internal/p$a;-><init>(Lcotlin/jvm/internal/u;)V
 
-    sput-object v1, Lkotlinx/coroutines/internal/p;->w:Lkotlinx/coroutines/internal/p$a;
+    sput-object v1, Lcotlinx/coroutines/internal/p;->w:Lcotlinx/coroutines/internal/p$a;
 
     .line 1
-    new-instance v1, Lkotlinx/coroutines/internal/c0;
+    new-instance v1, Lcotlinx/coroutines/internal/c0;
 
     const-string v2, "REMOVE_FROZEN"
 
-    invoke-direct {v1, v2}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v1, Lkotlinx/coroutines/internal/p;->s:Lkotlinx/coroutines/internal/c0;
+    sput-object v1, Lcotlinx/coroutines/internal/p;->s:Lcotlinx/coroutines/internal/c0;
 
     const-class v1, Ljava/lang/Object;
 
@@ -185,7 +185,7 @@
 
     move-result-object v1
 
-    sput-object v1, Lkotlinx/coroutines/internal/p;->e:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
+    sput-object v1, Lcotlinx/coroutines/internal/p;->e:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     const-string v1, "_state"
 
@@ -193,7 +193,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkotlinx/coroutines/internal/p;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
+    sput-object v0, Lcotlinx/coroutines/internal/p;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
     return-void
 .end method
@@ -204,31 +204,31 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput p1, p0, Lkotlinx/coroutines/internal/p;->c:I
+    iput p1, p0, Lcotlinx/coroutines/internal/p;->c:I
 
-    iput-boolean p2, p0, Lkotlinx/coroutines/internal/p;->d:Z
+    iput-boolean p2, p0, Lcotlinx/coroutines/internal/p;->d:Z
 
     add-int/lit8 p2, p1, -0x1
 
     .line 2
-    iput p2, p0, Lkotlinx/coroutines/internal/p;->a:I
+    iput p2, p0, Lcotlinx/coroutines/internal/p;->a:I
 
     const/4 v0, 0x0
 
     .line 3
-    iput-object v0, p0, Lkotlinx/coroutines/internal/p;->_next:Ljava/lang/Object;
+    iput-object v0, p0, Lcotlinx/coroutines/internal/p;->_next:Ljava/lang/Object;
 
     const-wide/16 v0, 0x0
 
     .line 4
-    iput-wide v0, p0, Lkotlinx/coroutines/internal/p;->_state:J
+    iput-wide v0, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
     .line 5
     new-instance v0, Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-direct {v0, p1}, Ljava/util/concurrent/atomic/AtomicReferenceArray;-><init>(I)V
 
-    iput-object v0, p0, Lkotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iput-object v0, p0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     const/4 v0, 0x0
 
@@ -286,26 +286,26 @@
     throw p1
 .end method
 
-.method private final b(J)Lkotlinx/coroutines/internal/p;
+.method private final b(J)Lcotlinx/coroutines/internal/p;
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(J)",
-            "Lkotlinx/coroutines/internal/p<",
+            "Lcotlinx/coroutines/internal/p<",
             "TE;>;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/internal/p;
+    new-instance v0, Lcotlinx/coroutines/internal/p;
 
-    iget v1, p0, Lkotlinx/coroutines/internal/p;->c:I
+    iget v1, p0, Lcotlinx/coroutines/internal/p;->c:I
 
     mul-int/lit8 v1, v1, 0x2
 
-    iget-boolean v2, p0, Lkotlinx/coroutines/internal/p;->d:Z
+    iget-boolean v2, p0, Lcotlinx/coroutines/internal/p;->d:Z
 
-    invoke-direct {v0, v1, v2}, Lkotlinx/coroutines/internal/p;-><init>(IZ)V
+    invoke-direct {v0, v1, v2}, Lcotlinx/coroutines/internal/p;-><init>(IZ)V
 
     const-wide/32 v1, 0x3fffffff
 
@@ -329,7 +329,7 @@
 
     .line 2
     :goto_0
-    iget v3, p0, Lkotlinx/coroutines/internal/p;->a:I
+    iget v3, p0, Lcotlinx/coroutines/internal/p;->a:I
 
     and-int v4, v2, v3
 
@@ -338,7 +338,7 @@
     if-eq v4, v5, :cond_1
 
     .line 3
-    iget-object v4, p0, Lkotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iget-object v4, p0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     and-int/2addr v3, v2
 
@@ -351,15 +351,15 @@
     goto :goto_1
 
     :cond_0
-    new-instance v3, Lkotlinx/coroutines/internal/p$b;
+    new-instance v3, Lcotlinx/coroutines/internal/p$b;
 
-    invoke-direct {v3, v2}, Lkotlinx/coroutines/internal/p$b;-><init>(I)V
+    invoke-direct {v3, v2}, Lcotlinx/coroutines/internal/p$b;-><init>(I)V
 
     .line 4
     :goto_1
-    iget-object v4, v0, Lkotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iget-object v4, v0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
-    iget v5, v0, Lkotlinx/coroutines/internal/p;->a:I
+    iget v5, v0, Lcotlinx/coroutines/internal/p;->a:I
 
     and-int/2addr v5, v2
 
@@ -371,34 +371,34 @@
 
     .line 5
     :cond_1
-    sget-object v1, Lkotlinx/coroutines/internal/p;->w:Lkotlinx/coroutines/internal/p$a;
+    sget-object v1, Lcotlinx/coroutines/internal/p;->w:Lcotlinx/coroutines/internal/p$a;
 
     const-wide/high16 v2, 0x1000000000000000L
 
-    invoke-virtual {v1, p1, p2, v2, v3}, Lkotlinx/coroutines/internal/p$a;->e(JJ)J
+    invoke-virtual {v1, p1, p2, v2, v3}, Lcotlinx/coroutines/internal/p$a;->e(JJ)J
 
     move-result-wide p1
 
-    iput-wide p1, v0, Lkotlinx/coroutines/internal/p;->_state:J
+    iput-wide p1, v0, Lcotlinx/coroutines/internal/p;->_state:J
 
     return-object v0
 .end method
 
-.method private final c(J)Lkotlinx/coroutines/internal/p;
+.method private final c(J)Lcotlinx/coroutines/internal/p;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(J)",
-            "Lkotlinx/coroutines/internal/p<",
+            "Lcotlinx/coroutines/internal/p<",
             "TE;>;"
         }
     .end annotation
 
     .line 1
     :goto_0
-    iget-object v0, p0, Lkotlinx/coroutines/internal/p;->_next:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlinx/coroutines/internal/p;->_next:Ljava/lang/Object;
 
-    check-cast v0, Lkotlinx/coroutines/internal/p;
+    check-cast v0, Lcotlinx/coroutines/internal/p;
 
     if-eqz v0, :cond_0
 
@@ -406,11 +406,11 @@
 
     .line 2
     :cond_0
-    sget-object v0, Lkotlinx/coroutines/internal/p;->e:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
+    sget-object v0, Lcotlinx/coroutines/internal/p;->e:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     const/4 v1, 0x0
 
-    invoke-direct {p0, p1, p2}, Lkotlinx/coroutines/internal/p;->b(J)Lkotlinx/coroutines/internal/p;
+    invoke-direct {p0, p1, p2}, Lcotlinx/coroutines/internal/p;->b(J)Lcotlinx/coroutines/internal/p;
 
     move-result-object v2
 
@@ -419,20 +419,20 @@
     goto :goto_0
 .end method
 
-.method private final e(ILjava/lang/Object;)Lkotlinx/coroutines/internal/p;
+.method private final e(ILjava/lang/Object;)Lcotlinx/coroutines/internal/p;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(ITE;)",
-            "Lkotlinx/coroutines/internal/p<",
+            "Lcotlinx/coroutines/internal/p<",
             "TE;>;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iget-object v0, p0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
-    iget v1, p0, Lkotlinx/coroutines/internal/p;->a:I
+    iget v1, p0, Lcotlinx/coroutines/internal/p;->a:I
 
     and-int/2addr v1, p1
 
@@ -441,20 +441,20 @@
     move-result-object v0
 
     .line 2
-    instance-of v1, v0, Lkotlinx/coroutines/internal/p$b;
+    instance-of v1, v0, Lcotlinx/coroutines/internal/p$b;
 
     if-eqz v1, :cond_0
 
-    check-cast v0, Lkotlinx/coroutines/internal/p$b;
+    check-cast v0, Lcotlinx/coroutines/internal/p$b;
 
-    iget v0, v0, Lkotlinx/coroutines/internal/p$b;->a:I
+    iget v0, v0, Lcotlinx/coroutines/internal/p$b;->a:I
 
     if-ne v0, p1, :cond_0
 
     .line 3
-    iget-object v0, p0, Lkotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iget-object v0, p0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
-    iget v1, p0, Lkotlinx/coroutines/internal/p;->a:I
+    iget v1, p0, Lcotlinx/coroutines/internal/p;->a:I
 
     and-int/2addr p1, v1
 
@@ -473,7 +473,7 @@
 
     .line 1
     :cond_0
-    iget-wide v2, p0, Lkotlinx/coroutines/internal/p;->_state:J
+    iget-wide v2, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
     const-wide/high16 v0, 0x1000000000000000L
 
@@ -491,7 +491,7 @@
     or-long v6, v2, v0
 
     .line 2
-    sget-object v0, Lkotlinx/coroutines/internal/p;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
+    sget-object v0, Lcotlinx/coroutines/internal/p;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
     move-object v1, p0
 
@@ -506,22 +506,22 @@
     return-wide v6
 .end method
 
-.method private final m(II)Lkotlinx/coroutines/internal/p;
+.method private final m(II)Lcotlinx/coroutines/internal/p;
     .locals 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(II)",
-            "Lkotlinx/coroutines/internal/p<",
+            "Lcotlinx/coroutines/internal/p<",
             "TE;>;"
         }
     .end annotation
 
     .line 1
     :cond_0
-    iget-wide v2, p0, Lkotlinx/coroutines/internal/p;->_state:J
+    iget-wide v2, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
     .line 2
-    sget-object v0, Lkotlinx/coroutines/internal/p;->w:Lkotlinx/coroutines/internal/p$a;
+    sget-object v0, Lcotlinx/coroutines/internal/p;->w:Lcotlinx/coroutines/internal/p$a;
 
     const-wide/32 v4, 0x3fffffff
 
@@ -534,7 +534,7 @@
     long-to-int v6, v4
 
     .line 3
-    invoke-static {}, Lkotlinx/coroutines/p0;->b()Z
+    invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v4
 
@@ -569,7 +569,7 @@
     if-eqz v1, :cond_4
 
     .line 4
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/p;->k()Lkotlinx/coroutines/internal/p;
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/p;->k()Lcotlinx/coroutines/internal/p;
 
     move-result-object p1
 
@@ -577,9 +577,9 @@
 
     .line 5
     :cond_4
-    sget-object v1, Lkotlinx/coroutines/internal/p;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
+    sget-object v1, Lcotlinx/coroutines/internal/p;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
-    invoke-virtual {v0, v2, v3, p2}, Lkotlinx/coroutines/internal/p$a;->b(JI)J
+    invoke-virtual {v0, v2, v3, p2}, Lcotlinx/coroutines/internal/p$a;->b(JI)J
 
     move-result-wide v4
 
@@ -594,9 +594,9 @@
     if-eqz v0, :cond_0
 
     .line 6
-    iget-object p1, p0, Lkotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iget-object p1, p0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
-    iget p2, p0, Lkotlinx/coroutines/internal/p;->a:I
+    iget p2, p0, Lcotlinx/coroutines/internal/p;->a:I
 
     and-int/2addr p2, v6
 
@@ -623,7 +623,7 @@
 
     .line 1
     :cond_0
-    iget-wide v2, p0, Lkotlinx/coroutines/internal/p;->_state:J
+    iget-wide v2, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
     const-wide/high16 v0, 0x3000000000000000L    # 1.727233711018889E-77
 
@@ -636,9 +636,9 @@
     if-eqz v4, :cond_1
 
     .line 2
-    sget-object p1, Lkotlinx/coroutines/internal/p;->w:Lkotlinx/coroutines/internal/p$a;
+    sget-object p1, Lcotlinx/coroutines/internal/p;->w:Lcotlinx/coroutines/internal/p$a;
 
-    invoke-virtual {p1, v2, v3}, Lkotlinx/coroutines/internal/p$a;->a(J)I
+    invoke-virtual {p1, v2, v3}, Lcotlinx/coroutines/internal/p$a;->a(J)I
 
     move-result p1
 
@@ -646,7 +646,7 @@
 
     .line 3
     :cond_1
-    sget-object v0, Lkotlinx/coroutines/internal/p;->w:Lkotlinx/coroutines/internal/p$a;
+    sget-object v0, Lcotlinx/coroutines/internal/p;->w:Lcotlinx/coroutines/internal/p$a;
 
     const-wide/32 v4, 0x3fffffff
 
@@ -669,7 +669,7 @@
     long-to-int v9, v4
 
     .line 4
-    iget v10, p0, Lkotlinx/coroutines/internal/p;->a:I
+    iget v10, p0, Lcotlinx/coroutines/internal/p;->a:I
 
     add-int/lit8 v4, v9, 0x2
 
@@ -685,13 +685,13 @@
 
     .line 5
     :cond_2
-    iget-boolean v4, p0, Lkotlinx/coroutines/internal/p;->d:Z
+    iget-boolean v4, p0, Lcotlinx/coroutines/internal/p;->d:Z
 
     const v5, 0x3fffffff    # 1.9999999f
 
     if-nez v4, :cond_4
 
-    iget-object v4, p0, Lkotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iget-object v4, p0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     and-int v12, v9, v10
 
@@ -702,7 +702,7 @@
     if-eqz v4, :cond_4
 
     .line 6
-    iget v0, p0, Lkotlinx/coroutines/internal/p;->c:I
+    iget v0, p0, Lcotlinx/coroutines/internal/p;->c:I
 
     const/16 v2, 0x400
 
@@ -725,9 +725,9 @@
     and-int/2addr v1, v5
 
     .line 7
-    sget-object v4, Lkotlinx/coroutines/internal/p;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
+    sget-object v4, Lcotlinx/coroutines/internal/p;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
-    invoke-virtual {v0, v2, v3, v1}, Lkotlinx/coroutines/internal/p$a;->c(JI)J
+    invoke-virtual {v0, v2, v3, v1}, Lcotlinx/coroutines/internal/p$a;->c(JI)J
 
     move-result-wide v11
 
@@ -744,7 +744,7 @@
     if-eqz v0, :cond_0
 
     .line 8
-    iget-object v0, p0, Lkotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iget-object v0, p0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     and-int v1, v9, v10
 
@@ -754,7 +754,7 @@
 
     .line 9
     :goto_0
-    iget-wide v1, v0, Lkotlinx/coroutines/internal/p;->_state:J
+    iget-wide v1, v0, Lcotlinx/coroutines/internal/p;->_state:J
 
     const-wide/high16 v3, 0x1000000000000000L
 
@@ -768,11 +768,11 @@
 
     .line 10
     :cond_5
-    invoke-virtual {v0}, Lkotlinx/coroutines/internal/p;->k()Lkotlinx/coroutines/internal/p;
+    invoke-virtual {v0}, Lcotlinx/coroutines/internal/p;->k()Lcotlinx/coroutines/internal/p;
 
     move-result-object v0
 
-    invoke-direct {v0, v9, p1}, Lkotlinx/coroutines/internal/p;->e(ILjava/lang/Object;)Lkotlinx/coroutines/internal/p;
+    invoke-direct {v0, v9, p1}, Lcotlinx/coroutines/internal/p;->e(ILjava/lang/Object;)Lcotlinx/coroutines/internal/p;
 
     move-result-object v0
 
@@ -790,7 +790,7 @@
 
     .line 1
     :cond_0
-    iget-wide v2, p0, Lkotlinx/coroutines/internal/p;->_state:J
+    iget-wide v2, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
     const-wide/high16 v0, 0x2000000000000000L
 
@@ -823,7 +823,7 @@
     or-long v4, v2, v0
 
     .line 2
-    sget-object v0, Lkotlinx/coroutines/internal/p;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
+    sget-object v0, Lcotlinx/coroutines/internal/p;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
     move-object v1, p0
 
@@ -840,7 +840,7 @@
     .locals 6
 
     .line 1
-    iget-wide v0, p0, Lkotlinx/coroutines/internal/p;->_state:J
+    iget-wide v0, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
     const-wide/32 v2, 0x3fffffff
 
@@ -875,7 +875,7 @@
     .locals 5
 
     .line 1
-    iget-wide v0, p0, Lkotlinx/coroutines/internal/p;->_state:J
+    iget-wide v0, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
     const-wide/high16 v2, 0x2000000000000000L
 
@@ -902,7 +902,7 @@
     .locals 7
 
     .line 1
-    iget-wide v0, p0, Lkotlinx/coroutines/internal/p;->_state:J
+    iget-wide v0, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
     const-wide/32 v2, 0x3fffffff
 
@@ -932,9 +932,9 @@
     return v4
 .end method
 
-.method public final i(Lkotlin/jvm/u/l;)Ljava/util/List;
+.method public final i(Lcotlin/jvm/u/l;)Ljava/util/List;
     .locals 7
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -943,7 +943,7 @@
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TE;+TR;>;)",
             "Ljava/util/List<",
             "TR;>;"
@@ -956,12 +956,12 @@
     .line 1
     new-instance v0, Ljava/util/ArrayList;
 
-    iget v1, p0, Lkotlinx/coroutines/internal/p;->c:I
+    iget v1, p0, Lcotlinx/coroutines/internal/p;->c:I
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
     .line 2
-    iget-wide v1, p0, Lkotlinx/coroutines/internal/p;->_state:J
+    iget-wide v1, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
     const-wide/32 v3, 0x3fffffff
 
@@ -985,7 +985,7 @@
 
     .line 3
     :goto_0
-    iget v1, p0, Lkotlinx/coroutines/internal/p;->a:I
+    iget v1, p0, Lcotlinx/coroutines/internal/p;->a:I
 
     and-int v3, v4, v1
 
@@ -994,7 +994,7 @@
     if-eq v3, v5, :cond_1
 
     .line 4
-    iget-object v3, p0, Lkotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iget-object v3, p0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     and-int/2addr v1, v4
 
@@ -1005,11 +1005,11 @@
     if-eqz v1, :cond_0
 
     .line 5
-    instance-of v3, v1, Lkotlinx/coroutines/internal/p$b;
+    instance-of v3, v1, Lcotlinx/coroutines/internal/p$b;
 
     if-nez v3, :cond_0
 
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1024,12 +1024,12 @@
     return-object v0
 .end method
 
-.method public final k()Lkotlinx/coroutines/internal/p;
+.method public final k()Lcotlinx/coroutines/internal/p;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlinx/coroutines/internal/p<",
+            "Lcotlinx/coroutines/internal/p<",
             "TE;>;"
         }
     .end annotation
@@ -1038,11 +1038,11 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lkotlinx/coroutines/internal/p;->j()J
+    invoke-direct {p0}, Lcotlinx/coroutines/internal/p;->j()J
 
     move-result-wide v0
 
-    invoke-direct {p0, v0, v1}, Lkotlinx/coroutines/internal/p;->c(J)Lkotlinx/coroutines/internal/p;
+    invoke-direct {p0, v0, v1}, Lcotlinx/coroutines/internal/p;->c(J)Lcotlinx/coroutines/internal/p;
 
     move-result-object v0
 
@@ -1057,7 +1057,7 @@
     .line 1
     :cond_0
     :goto_0
-    iget-wide v2, p0, Lkotlinx/coroutines/internal/p;->_state:J
+    iget-wide v2, p0, Lcotlinx/coroutines/internal/p;->_state:J
 
     const-wide/high16 v0, 0x1000000000000000L
 
@@ -1070,13 +1070,13 @@
     if-eqz v6, :cond_1
 
     .line 2
-    sget-object v0, Lkotlinx/coroutines/internal/p;->s:Lkotlinx/coroutines/internal/c0;
+    sget-object v0, Lcotlinx/coroutines/internal/p;->s:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
 
     .line 3
     :cond_1
-    sget-object v0, Lkotlinx/coroutines/internal/p;->w:Lkotlinx/coroutines/internal/p$a;
+    sget-object v0, Lcotlinx/coroutines/internal/p;->w:Lcotlinx/coroutines/internal/p$a;
 
     const-wide/32 v4, 0x3fffffff
 
@@ -1099,7 +1099,7 @@
     long-to-int v1, v4
 
     .line 4
-    iget v4, p0, Lkotlinx/coroutines/internal/p;->a:I
+    iget v4, p0, Lcotlinx/coroutines/internal/p;->a:I
 
     and-int/2addr v1, v4
 
@@ -1113,7 +1113,7 @@
 
     .line 5
     :cond_2
-    iget-object v1, p0, Lkotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iget-object v1, p0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     and-int/2addr v4, v6
 
@@ -1124,7 +1124,7 @@
     if-nez v8, :cond_3
 
     .line 6
-    iget-boolean v0, p0, Lkotlinx/coroutines/internal/p;->d:Z
+    iget-boolean v0, p0, Lcotlinx/coroutines/internal/p;->d:Z
 
     if-eqz v0, :cond_0
 
@@ -1132,7 +1132,7 @@
 
     .line 7
     :cond_3
-    instance-of v1, v8, Lkotlinx/coroutines/internal/p$b;
+    instance-of v1, v8, Lcotlinx/coroutines/internal/p$b;
 
     if-eqz v1, :cond_4
 
@@ -1146,9 +1146,9 @@
     and-int v9, v1, v4
 
     .line 8
-    sget-object v1, Lkotlinx/coroutines/internal/p;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
+    sget-object v1, Lcotlinx/coroutines/internal/p;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
-    invoke-virtual {v0, v2, v3, v9}, Lkotlinx/coroutines/internal/p$a;->b(JI)J
+    invoke-virtual {v0, v2, v3, v9}, Lcotlinx/coroutines/internal/p$a;->b(JI)J
 
     move-result-wide v4
 
@@ -1163,9 +1163,9 @@
     if-eqz v0, :cond_5
 
     .line 9
-    iget-object v0, p0, Lkotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iget-object v0, p0, Lcotlinx/coroutines/internal/p;->b:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
-    iget v1, p0, Lkotlinx/coroutines/internal/p;->a:I
+    iget v1, p0, Lcotlinx/coroutines/internal/p;->a:I
 
     and-int/2addr v1, v6
 
@@ -1175,7 +1175,7 @@
 
     .line 10
     :cond_5
-    iget-boolean v0, p0, Lkotlinx/coroutines/internal/p;->d:Z
+    iget-boolean v0, p0, Lcotlinx/coroutines/internal/p;->d:Z
 
     if-nez v0, :cond_6
 
@@ -1186,7 +1186,7 @@
 
     .line 11
     :goto_1
-    invoke-direct {v0, v6, v9}, Lkotlinx/coroutines/internal/p;->m(II)Lkotlinx/coroutines/internal/p;
+    invoke-direct {v0, v6, v9}, Lcotlinx/coroutines/internal/p;->m(II)Lcotlinx/coroutines/internal/p;
 
     move-result-object v0
 

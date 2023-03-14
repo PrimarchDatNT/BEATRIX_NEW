@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/n1;
+.class public final Lcotlinx/coroutines/n1;
 .super Ljava/lang/Object;
 .source "EventLoop.common.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,9 +31,9 @@
         "MAX_DELAY_NS",
         "b",
         "SCHEDULE_OK",
-        "Lkotlinx/coroutines/internal/c0;",
+        "Lcotlinx/coroutines/internal/c0;",
         "h",
-        "Lkotlinx/coroutines/internal/c0;",
+        "Lcotlinx/coroutines/internal/c0;",
         "CLOSED_EMPTY$annotations",
         "()V",
         "CLOSED_EMPTY",
@@ -43,7 +43,7 @@
         "DISPOSED_TASK$annotations",
         "DISPOSED_TASK",
         "T",
-        "Lkotlinx/coroutines/internal/p;",
+        "Lcotlinx/coroutines/internal/p;",
         "Queue",
         "kotlinx-coroutines-core"
     }
@@ -57,7 +57,7 @@
 
 
 # static fields
-.field private static final a:Lkotlinx/coroutines/internal/c0;
+.field private static final a:Lcotlinx/coroutines/internal/c0;
 
 .field private static final b:I = 0x0
 
@@ -71,7 +71,7 @@
 
 .field private static final g:J = 0x3fffffffffffffffL
 
-.field private static final h:Lkotlinx/coroutines/internal/c0;
+.field private static final h:Lcotlinx/coroutines/internal/c0;
 
 
 # direct methods
@@ -79,22 +79,22 @@
     .locals 2
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/internal/c0;
+    new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "REMOVED_TASK"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlinx/coroutines/n1;->a:Lkotlinx/coroutines/internal/c0;
+    sput-object v0, Lcotlinx/coroutines/n1;->a:Lcotlinx/coroutines/internal/c0;
 
     .line 2
-    new-instance v0, Lkotlinx/coroutines/internal/c0;
+    new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "CLOSED_EMPTY"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlinx/coroutines/n1;->h:Lkotlinx/coroutines/internal/c0;
+    sput-object v0, Lcotlinx/coroutines/n1;->h:Lcotlinx/coroutines/internal/c0;
 
     return-void
 .end method
@@ -111,20 +111,20 @@
     return-void
 .end method
 
-.method public static final synthetic c()Lkotlinx/coroutines/internal/c0;
+.method public static final synthetic c()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/n1;->h:Lkotlinx/coroutines/internal/c0;
+    sget-object v0, Lcotlinx/coroutines/n1;->h:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
 .end method
 
-.method public static final synthetic d()Lkotlinx/coroutines/internal/c0;
+.method public static final synthetic d()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/n1;->a:Lkotlinx/coroutines/internal/c0;
+    sget-object v0, Lcotlinx/coroutines/n1;->a:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
 .end method

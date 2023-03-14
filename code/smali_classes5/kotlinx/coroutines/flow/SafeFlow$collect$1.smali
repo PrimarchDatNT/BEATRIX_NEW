@@ -1,11 +1,11 @@
-.class final Lkotlinx/coroutines/flow/SafeFlow$collect$1;
-.super Lkotlin/coroutines/jvm/internal/ContinuationImpl;
+.class final Lcotlinx/coroutines/flow/SafeFlow$collect$1;
+.super Lcotlin/coroutines/jvm/internal/ContinuationImpl;
 .source "Builders.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/SafeFlow;->a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/flow/SafeFlow;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,14 +24,14 @@
     }
     d2 = {
         "T",
-        "Lkotlinx/coroutines/flow/e;",
+        "Lcotlinx/coroutines/flow/e;",
         "collector",
-        "Lkotlin/coroutines/c;",
-        "Lkotlin/t1;",
+        "Lcotlin/coroutines/c;",
+        "Lcotlin/t1;",
         "continuation",
         "",
         "collect",
-        "(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;"
+        "(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;"
     }
     k = 0x3
     mv = {
@@ -41,7 +41,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.flow.SafeFlow"
     f = "Builders.kt"
     i = {
@@ -77,16 +77,16 @@
 
 .field synthetic result:Ljava/lang/Object;
 
-.field final synthetic this$0:Lkotlinx/coroutines/flow/SafeFlow;
+.field final synthetic this$0:Lcotlinx/coroutines/flow/SafeFlow;
 
 
 # direct methods
-.method constructor <init>(Lkotlinx/coroutines/flow/SafeFlow;Lkotlin/coroutines/c;)V
+.method constructor <init>(Lcotlinx/coroutines/flow/SafeFlow;Lcotlin/coroutines/c;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/SafeFlow$collect$1;->this$0:Lkotlinx/coroutines/flow/SafeFlow;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/SafeFlow$collect$1;->this$0:Lcotlinx/coroutines/flow/SafeFlow;
 
-    invoke-direct {p0, p2}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {p0, p2}, Lcotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lcotlin/coroutines/c;)V
 
     return-void
 .end method
@@ -102,21 +102,21 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/SafeFlow$collect$1;->result:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/SafeFlow$collect$1;->result:Ljava/lang/Object;
 
-    iget p1, p0, Lkotlinx/coroutines/flow/SafeFlow$collect$1;->label:I
+    iget p1, p0, Lcotlinx/coroutines/flow/SafeFlow$collect$1;->label:I
 
     const/high16 v0, -0x80000000
 
     or-int/2addr p1, v0
 
-    iput p1, p0, Lkotlinx/coroutines/flow/SafeFlow$collect$1;->label:I
+    iput p1, p0, Lcotlinx/coroutines/flow/SafeFlow$collect$1;->label:I
 
-    iget-object p1, p0, Lkotlinx/coroutines/flow/SafeFlow$collect$1;->this$0:Lkotlinx/coroutines/flow/SafeFlow;
+    iget-object p1, p0, Lcotlinx/coroutines/flow/SafeFlow$collect$1;->this$0:Lcotlinx/coroutines/flow/SafeFlow;
 
     const/4 v0, 0x0
 
-    invoke-virtual {p1, v0, p0}, Lkotlinx/coroutines/flow/SafeFlow;->a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-virtual {p1, v0, p0}, Lcotlinx/coroutines/flow/SafeFlow;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 

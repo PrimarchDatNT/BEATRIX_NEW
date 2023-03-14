@@ -32,7 +32,7 @@
     value = "SMAP\nStudioMyArFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StudioMyArFragment.kt\ncom/commsource/studio/function/ar/StudioMyArFragment$onViewCreated$8\n*L\n1#1,154:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Integer;)V"
     }
@@ -102,7 +102,7 @@
 
     const-string v2, "adapter.items"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -125,7 +125,7 @@
 
     const-string v5, "it"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v4}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -154,11 +154,11 @@
     goto :goto_0
 
     :cond_1
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type com.meitu.template.bean.ArMaterial"
 
-    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -191,9 +191,9 @@
 
     move-result-object p1
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {p1, v3}, Lkotlin/collections/s;->O2(Ljava/util/List;Ljava/lang/Object;)I
+    invoke-static {p1, v3}, Lcotlin/collections/s;->O2(Ljava/util/List;Ljava/lang/Object;)I
 
     move-result p1
 

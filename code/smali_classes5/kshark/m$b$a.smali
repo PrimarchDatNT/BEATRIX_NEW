@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -60,12 +60,12 @@
 
     const-string v0, "gcRoot"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, v0}, Lkshark/m$b;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {p0, v0}, Lkshark/m$b;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lkshark/m$b$a;->a:Lkshark/d;
 

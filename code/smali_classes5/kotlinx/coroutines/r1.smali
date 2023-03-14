@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/r1;
+.class public final Lcotlinx/coroutines/r1;
 .super Ljava/lang/Object;
 .source "Executors.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,15 +15,15 @@
     }
     d2 = {
         "Ljava/util/concurrent/ExecutorService;",
-        "Lkotlinx/coroutines/ExecutorCoroutineDispatcher;",
+        "Lcotlinx/coroutines/ExecutorCoroutineDispatcher;",
         "c",
-        "(Ljava/util/concurrent/ExecutorService;)Lkotlinx/coroutines/ExecutorCoroutineDispatcher;",
+        "(Ljava/util/concurrent/ExecutorService;)Lcotlinx/coroutines/ExecutorCoroutineDispatcher;",
         "Ljava/util/concurrent/Executor;",
-        "Lkotlinx/coroutines/CoroutineDispatcher;",
+        "Lcotlinx/coroutines/CoroutineDispatcher;",
         "b",
-        "(Ljava/util/concurrent/Executor;)Lkotlinx/coroutines/CoroutineDispatcher;",
+        "(Ljava/util/concurrent/Executor;)Lcotlinx/coroutines/CoroutineDispatcher;",
         "a",
-        "(Lkotlinx/coroutines/CoroutineDispatcher;)Ljava/util/concurrent/Executor;",
+        "(Lcotlinx/coroutines/CoroutineDispatcher;)Ljava/util/concurrent/Executor;",
         "kotlinx-coroutines-core"
     }
     k = 0x2
@@ -36,9 +36,9 @@
 
 
 # direct methods
-.method public static final a(Lkotlinx/coroutines/CoroutineDispatcher;)Ljava/util/concurrent/Executor;
+.method public static final a(Lcotlinx/coroutines/CoroutineDispatcher;)Ljava/util/concurrent/Executor;
     .locals 1
-    .param p0    # Lkotlinx/coroutines/CoroutineDispatcher;
+    .param p0    # Lcotlinx/coroutines/CoroutineDispatcher;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -46,7 +46,7 @@
     .end annotation
 
     .line 1
-    instance-of v0, p0, Lkotlinx/coroutines/ExecutorCoroutineDispatcher;
+    instance-of v0, p0, Lcotlinx/coroutines/ExecutorCoroutineDispatcher;
 
     if-nez v0, :cond_0
 
@@ -58,11 +58,11 @@
     move-object v0, p0
 
     :goto_0
-    check-cast v0, Lkotlinx/coroutines/ExecutorCoroutineDispatcher;
+    check-cast v0, Lcotlinx/coroutines/ExecutorCoroutineDispatcher;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0}, Lkotlinx/coroutines/ExecutorCoroutineDispatcher;->A()Ljava/util/concurrent/Executor;
+    invoke-virtual {v0}, Lcotlinx/coroutines/ExecutorCoroutineDispatcher;->A()Ljava/util/concurrent/Executor;
 
     move-result-object v0
 
@@ -71,21 +71,21 @@
     goto :goto_1
 
     :cond_1
-    new-instance v0, Lkotlinx/coroutines/b1;
+    new-instance v0, Lcotlinx/coroutines/b1;
 
-    invoke-direct {v0, p0}, Lkotlinx/coroutines/b1;-><init>(Lkotlinx/coroutines/CoroutineDispatcher;)V
+    invoke-direct {v0, p0}, Lcotlinx/coroutines/b1;-><init>(Lcotlinx/coroutines/CoroutineDispatcher;)V
 
     :goto_1
     return-object v0
 .end method
 
-.method public static final b(Ljava/util/concurrent/Executor;)Lkotlinx/coroutines/CoroutineDispatcher;
+.method public static final b(Ljava/util/concurrent/Executor;)Lcotlinx/coroutines/CoroutineDispatcher;
     .locals 1
     .param p0    # Ljava/util/concurrent/Executor;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "from"
     .end annotation
 
@@ -93,7 +93,7 @@
     .end annotation
 
     .line 1
-    instance-of v0, p0, Lkotlinx/coroutines/b1;
+    instance-of v0, p0, Lcotlinx/coroutines/b1;
 
     if-nez v0, :cond_0
 
@@ -105,32 +105,32 @@
     move-object v0, p0
 
     :goto_0
-    check-cast v0, Lkotlinx/coroutines/b1;
+    check-cast v0, Lcotlinx/coroutines/b1;
 
     if-eqz v0, :cond_1
 
-    iget-object v0, v0, Lkotlinx/coroutines/b1;->a:Lkotlinx/coroutines/CoroutineDispatcher;
+    iget-object v0, v0, Lcotlinx/coroutines/b1;->a:Lcotlinx/coroutines/CoroutineDispatcher;
 
     if-eqz v0, :cond_1
 
     goto :goto_1
 
     :cond_1
-    new-instance v0, Lkotlinx/coroutines/q1;
+    new-instance v0, Lcotlinx/coroutines/q1;
 
-    invoke-direct {v0, p0}, Lkotlinx/coroutines/q1;-><init>(Ljava/util/concurrent/Executor;)V
+    invoke-direct {v0, p0}, Lcotlinx/coroutines/q1;-><init>(Ljava/util/concurrent/Executor;)V
 
     :goto_1
     return-object v0
 .end method
 
-.method public static final c(Ljava/util/concurrent/ExecutorService;)Lkotlinx/coroutines/ExecutorCoroutineDispatcher;
+.method public static final c(Ljava/util/concurrent/ExecutorService;)Lcotlinx/coroutines/ExecutorCoroutineDispatcher;
     .locals 1
     .param p0    # Ljava/util/concurrent/ExecutorService;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "from"
     .end annotation
 
@@ -138,9 +138,9 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/q1;
+    new-instance v0, Lcotlinx/coroutines/q1;
 
-    invoke-direct {v0, p0}, Lkotlinx/coroutines/q1;-><init>(Ljava/util/concurrent/Executor;)V
+    invoke-direct {v0, p0}, Lcotlinx/coroutines/q1;-><init>(Ljava/util/concurrent/Executor;)V
 
     return-object v0
 .end method

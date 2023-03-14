@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/q;
-.super Lkotlinx/coroutines/z;
+.class public final Lcotlinx/coroutines/q;
+.super Lcotlinx/coroutines/z;
 .source "CompletedExceptionally.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -14,18 +14,18 @@
         "\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0003\n\u0002\u0008\u0005\u0008\u0000\u0018\u00002\u00020\u0001B%\u0012\n\u0010\u0006\u001a\u0006\u0012\u0002\u0008\u00030\u0005\u0012\u0008\u0010\u0008\u001a\u0004\u0018\u00010\u0007\u0012\u0006\u0010\t\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\r\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004\u00a8\u0006\u000c"
     }
     d2 = {
-        "Lkotlinx/coroutines/q;",
-        "Lkotlinx/coroutines/z;",
+        "Lcotlinx/coroutines/q;",
+        "Lcotlinx/coroutines/z;",
         "",
         "c",
         "()Z",
-        "Lkotlin/coroutines/c;",
+        "Lcotlin/coroutines/c;",
         "continuation",
         "",
         "cause",
         "handled",
         "<init>",
-        "(Lkotlin/coroutines/c;Ljava/lang/Throwable;Z)V",
+        "(Lcotlin/coroutines/c;Ljava/lang/Throwable;Z)V",
         "kotlinx-coroutines-core"
     }
     k = 0x1
@@ -49,7 +49,7 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    const-class v0, Lkotlinx/coroutines/q;
+    const-class v0, Lcotlinx/coroutines/q;
 
     const-string v1, "_resumed"
 
@@ -57,14 +57,14 @@
 
     move-result-object v0
 
-    sput-object v0, Lkotlinx/coroutines/q;->c:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
+    sput-object v0, Lcotlinx/coroutines/q;->c:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
     return-void
 .end method
 
-.method public constructor <init>(Lkotlin/coroutines/c;Ljava/lang/Throwable;Z)V
+.method public constructor <init>(Lcotlin/coroutines/c;Ljava/lang/Throwable;Z)V
     .locals 2
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -75,7 +75,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "*>;",
             "Ljava/lang/Throwable;",
             "Z)V"
@@ -111,12 +111,12 @@
     invoke-direct {p2, p1}, Ljava/util/concurrent/CancellationException;-><init>(Ljava/lang/String;)V
 
     :goto_0
-    invoke-direct {p0, p2, p3}, Lkotlinx/coroutines/z;-><init>(Ljava/lang/Throwable;Z)V
+    invoke-direct {p0, p2, p3}, Lcotlinx/coroutines/z;-><init>(Ljava/lang/Throwable;Z)V
 
     const/4 p1, 0x0
 
     .line 2
-    iput p1, p0, Lkotlinx/coroutines/q;->_resumed:I
+    iput p1, p0, Lcotlinx/coroutines/q;->_resumed:I
 
     return-void
 .end method
@@ -127,7 +127,7 @@
     .locals 3
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/q;->c:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
+    sget-object v0, Lcotlinx/coroutines/q;->c:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
     const/4 v1, 0x0
 

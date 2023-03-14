@@ -8,7 +8,7 @@
     value = "SMAP\nXVideoContainer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 XVideoContainer.kt\ncom/commsource/video/view/XVideoContainer\n*L\n1#1,251:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "Landroid/widget/FrameLayout;",
         "Lcom/commsource/video/view/XVideoRenderView;",
         "render",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "h",
         "(Lcom/commsource/video/view/XVideoRenderView;)V",
         "m",
@@ -117,14 +117,14 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const/4 v0, 0x0
 
     const/4 v1, 0x2
 
-    invoke-direct {p0, p1, v0, v1, v0}, Lcom/commsource/video/view/XVideoContainer;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, p1, v0, v1, v0}, Lcom/commsource/video/view/XVideoContainer;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -139,12 +139,12 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -196,7 +196,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p3, p3, 0x2
@@ -276,21 +276,21 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/video/view/XVideoContainer$registerVideoListener$1;-><init>(Lcom/commsource/video/view/XVideoContainer;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setOnVideoUiStateChange(Lkotlin/jvm/u/l;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setOnVideoUiStateChange(Lcotlin/jvm/u/l;)V
 
     .line 2
     new-instance v1, Lcom/commsource/video/view/XVideoContainer$registerVideoListener$2;
 
     invoke-direct {v1, p0}, Lcom/commsource/video/view/XVideoContainer$registerVideoListener$2;-><init>(Lcom/commsource/video/view/XVideoContainer;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setOnVideoEventChange(Lkotlin/jvm/u/l;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setOnVideoEventChange(Lcotlin/jvm/u/l;)V
 
     .line 3
     new-instance v1, Lcom/commsource/video/view/XVideoContainer$registerVideoListener$3;
 
     invoke-direct {v1, p0}, Lcom/commsource/video/view/XVideoContainer$registerVideoListener$3;-><init>(Lcom/commsource/video/view/XVideoContainer;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setEnterFullScreen(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setEnterFullScreen(Lcotlin/jvm/u/a;)V
 
     .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -308,13 +308,13 @@
     const/4 v1, 0x0
 
     .line 1
-    invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setOnVideoUiStateChange(Lkotlin/jvm/u/l;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setOnVideoUiStateChange(Lcotlin/jvm/u/l;)V
 
     .line 2
-    invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setOnVideoEventChange(Lkotlin/jvm/u/l;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setOnVideoEventChange(Lcotlin/jvm/u/l;)V
 
     .line 3
-    invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setEnterFullScreen(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setEnterFullScreen(Lcotlin/jvm/u/a;)V
 
     .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -406,7 +406,7 @@
 
     const-string v1, "playSource"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p2, :cond_0
 
@@ -433,13 +433,13 @@
 
     const-string v2, "context"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x2
 
     const/4 v3, 0x0
 
-    invoke-direct {p2, v1, v3, v2, v3}, Lcom/commsource/video/view/XVideoRenderView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILkotlin/jvm/internal/u;)V
+    invoke-direct {p2, v1, v3, v2, v3}, Lcom/commsource/video/view/XVideoRenderView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcotlin/jvm/internal/u;)V
 
     .line 5
     iget-object v1, p0, Lcom/commsource/video/view/XVideoContainer;->a:Landroid/widget/FrameLayout;
@@ -530,11 +530,11 @@
 
     const-string v1, "coverPath"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "placeHolder"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -586,7 +586,7 @@
 
     const-string v1, "preContainer"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoContainer;->i()V

@@ -1,10 +1,10 @@
-.class public final Lkotlin/collections/j1;
-.super Lkotlin/collections/k1;
+.class public final Lcotlin/collections/j1;
+.super Lcotlin/collections/k1;
 .source "_UCollections.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/collections/k1;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/k1;-><init>()V
 
     return-void
 .end method

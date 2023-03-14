@@ -1,11 +1,11 @@
-.class public final Lkotlin/text/CharDirectionality$a;
+.class public final Lcotlin/text/CharDirectionality$a;
 .super Ljava/lang/Object;
 .source "CharDirectionality.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/text/CharDirectionality;
+    value = Lcotlin/text/CharDirectionality;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,12 +27,12 @@
         "",
         "",
         "directionality",
-        "Lkotlin/text/CharDirectionality;",
+        "Lcotlin/text/CharDirectionality;",
         "b",
-        "(I)Lkotlin/text/CharDirectionality;",
+        "(I)Lcotlin/text/CharDirectionality;",
         "",
         "directionalityMap$delegate",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "a",
         "()Ljava/util/Map;",
         "directionalityMap",
@@ -59,11 +59,11 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/text/CharDirectionality$a;-><init>()V
+    invoke-direct {p0}, Lcotlin/text/CharDirectionality$a;-><init>()V
 
     return-void
 .end method
@@ -75,18 +75,18 @@
             "()",
             "Ljava/util/Map<",
             "Ljava/lang/Integer;",
-            "Lkotlin/text/CharDirectionality;",
+            "Lcotlin/text/CharDirectionality;",
             ">;"
         }
     .end annotation
 
-    invoke-static {}, Lkotlin/text/CharDirectionality;->access$getDirectionalityMap$cp()Lkotlin/w;
+    invoke-static {}, Lcotlin/text/CharDirectionality;->access$getDirectionalityMap$cp()Lcotlin/w;
 
     move-result-object v0
 
-    sget-object v1, Lkotlin/text/CharDirectionality;->Companion:Lkotlin/text/CharDirectionality$a;
+    sget-object v1, Lcotlin/text/CharDirectionality;->Companion:Lcotlin/text/CharDirectionality$a;
 
-    invoke-interface {v0}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -97,13 +97,13 @@
 
 
 # virtual methods
-.method public final b(I)Lkotlin/text/CharDirectionality;
+.method public final b(I)Lcotlin/text/CharDirectionality;
     .locals 3
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lkotlin/text/CharDirectionality$a;->a()Ljava/util/Map;
+    invoke-direct {p0}, Lcotlin/text/CharDirectionality$a;->a()Ljava/util/Map;
 
     move-result-object v0
 
@@ -115,7 +115,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkotlin/text/CharDirectionality;
+    check-cast v0, Lcotlin/text/CharDirectionality;
 
     if-eqz v0, :cond_0
 

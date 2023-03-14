@@ -1,4 +1,4 @@
-.class final Lkotlin/z1/b$a;
+.class final Lcotlin/z1/b$a;
 .super Ljava/lang/Object;
 .source "Comparisons.kt"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/z1/b;->d([Lkotlin/jvm/u/l;)Ljava/util/Comparator;
+    value = Lcotlin/z1/b;->d([Lcotlin/jvm/u/l;)Ljava/util/Comparator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,7 +27,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -56,14 +56,14 @@
 
 
 # instance fields
-.field final synthetic a:[Lkotlin/jvm/u/l;
+.field final synthetic a:[Lcotlin/jvm/u/l;
 
 
 # direct methods
-.method constructor <init>([Lkotlin/jvm/u/l;)V
+.method constructor <init>([Lcotlin/jvm/u/l;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/z1/b$a;->a:[Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcotlin/z1/b$a;->a:[Lcotlin/jvm/u/l;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -81,9 +81,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/z1/b$a;->a:[Lkotlin/jvm/u/l;
+    iget-object v0, p0, Lcotlin/z1/b$a;->a:[Lcotlin/jvm/u/l;
 
-    invoke-static {p1, p2, v0}, Lkotlin/z1/b;->a(Ljava/lang/Object;Ljava/lang/Object;[Lkotlin/jvm/u/l;)I
+    invoke-static {p1, p2, v0}, Lcotlin/z1/b;->a(Ljava/lang/Object;Ljava/lang/Object;[Lcotlin/jvm/u/l;)I
 
     move-result p1
 

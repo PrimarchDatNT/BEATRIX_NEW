@@ -1,5 +1,5 @@
-.class public final Lkotlin/collections/v0;
-.super Lkotlin/collections/c;
+.class public final Lcotlin/collections/v0;
+.super Lcotlin/collections/c;
 .source "SlidingWindow.kt"
 
 # interfaces
@@ -12,13 +12,13 @@
         "<E:",
         "Ljava/lang/Object;",
         ">",
-        "Lkotlin/collections/c<",
+        "Lcotlin/collections/c<",
         "TE;>;",
         "Ljava/util/RandomAccess;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,15 +28,15 @@
         "\u0000*\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0010 \n\u0002\u0008\t\u0008\u0000\u0018\u0000*\u0006\u0008\u0000\u0010\u0001 \u00012\u0008\u0012\u0004\u0012\u00028\u00000\u00022\u00060\u0003j\u0002`\u0004B\u0015\u0012\u000c\u0010\u0013\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0010\u00a2\u0006\u0004\u0008\u0017\u0010\u0018J\u001d\u0010\t\u001a\u00020\u00082\u0006\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0007\u001a\u00020\u0005\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0018\u0010\u000c\u001a\u00028\u00002\u0006\u0010\u000b\u001a\u00020\u0005H\u0096\u0002\u00a2\u0006\u0004\u0008\u000c\u0010\rR\u0016\u0010\u0006\u001a\u00020\u00058\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u000e\u0010\u000fR\u001c\u0010\u0013\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u00108\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0011\u0010\u0012R\u0016\u0010\u0015\u001a\u00020\u00058V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u000e\u0010\u0014R\u0016\u0010\u0016\u001a\u00020\u00058\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\t\u0010\u000f\u00a8\u0006\u0019"
     }
     d2 = {
-        "Lkotlin/collections/v0;",
+        "Lcotlin/collections/v0;",
         "E",
-        "Lkotlin/collections/c;",
+        "Lcotlin/collections/c;",
         "Ljava/util/RandomAccess;",
-        "Lkotlin/collections/RandomAccess;",
+        "Lcotlin/collections/RandomAccess;",
         "",
         "fromIndex",
         "toIndex",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "(II)V",
         "index",
@@ -96,12 +96,12 @@
 
     const-string v0, "list"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0}, Lkotlin/collections/c;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/c;-><init>()V
 
-    iput-object p1, p0, Lkotlin/collections/v0;->d:Ljava/util/List;
+    iput-object p1, p0, Lcotlin/collections/v0;->d:Ljava/util/List;
 
     return-void
 .end method
@@ -112,7 +112,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlin/collections/v0;->c:I
+    iget v0, p0, Lcotlin/collections/v0;->c:I
 
     return v0
 .end method
@@ -121,23 +121,23 @@
     .locals 2
 
     .line 1
-    sget-object v0, Lkotlin/collections/c;->a:Lkotlin/collections/c$a;
+    sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
-    iget-object v1, p0, Lkotlin/collections/v0;->d:Ljava/util/List;
+    iget-object v1, p0, Lcotlin/collections/v0;->d:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v1
 
-    invoke-virtual {v0, p1, p2, v1}, Lkotlin/collections/c$a;->d(III)V
+    invoke-virtual {v0, p1, p2, v1}, Lcotlin/collections/c$a;->d(III)V
 
     .line 2
-    iput p1, p0, Lkotlin/collections/v0;->b:I
+    iput p1, p0, Lcotlin/collections/v0;->b:I
 
     sub-int/2addr p2, p1
 
     .line 3
-    iput p2, p0, Lkotlin/collections/v0;->c:I
+    iput p2, p0, Lcotlin/collections/v0;->c:I
 
     return-void
 .end method
@@ -151,16 +151,16 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/collections/c;->a:Lkotlin/collections/c$a;
+    sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
-    iget v1, p0, Lkotlin/collections/v0;->c:I
+    iget v1, p0, Lcotlin/collections/v0;->c:I
 
-    invoke-virtual {v0, p1, v1}, Lkotlin/collections/c$a;->b(II)V
+    invoke-virtual {v0, p1, v1}, Lcotlin/collections/c$a;->b(II)V
 
     .line 2
-    iget-object v0, p0, Lkotlin/collections/v0;->d:Ljava/util/List;
+    iget-object v0, p0, Lcotlin/collections/v0;->d:Ljava/util/List;
 
-    iget v1, p0, Lkotlin/collections/v0;->b:I
+    iget v1, p0, Lcotlin/collections/v0;->b:I
 
     add-int/2addr v1, p1
 

@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/selects/a$a;
+.class public final Lcotlinx/coroutines/selects/a$a;
 .super Ljava/lang/Object;
 .source "Select.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/selects/a;
+    value = Lcotlinx/coroutines/selects/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,13 +31,13 @@
 
 
 # direct methods
-.method public static a(Lkotlinx/coroutines/selects/a;Lkotlinx/coroutines/selects/e;Lkotlin/jvm/u/p;)V
+.method public static a(Lcotlinx/coroutines/selects/a;Lcotlinx/coroutines/selects/e;Lcotlin/jvm/u/p;)V
     .locals 1
-    .param p1    # Lkotlinx/coroutines/selects/e;
+    .param p1    # Lcotlinx/coroutines/selects/e;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -50,13 +50,13 @@
             "Q:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/selects/a<",
+            "Lcotlinx/coroutines/selects/a<",
             "-TR;>;",
-            "Lkotlinx/coroutines/selects/e<",
+            "Lcotlinx/coroutines/selects/e<",
             "-TP;+TQ;>;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-TQ;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TR;>;+",
             "Ljava/lang/Object;",
             ">;)V"
@@ -66,7 +66,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-interface {p0, p1, v0, p2}, Lkotlinx/coroutines/selects/a;->f(Lkotlinx/coroutines/selects/e;Ljava/lang/Object;Lkotlin/jvm/u/p;)V
+    invoke-interface {p0, p1, v0, p2}, Lcotlinx/coroutines/selects/a;->f(Lcotlinx/coroutines/selects/e;Ljava/lang/Object;Lcotlin/jvm/u/p;)V
 
     return-void
 .end method

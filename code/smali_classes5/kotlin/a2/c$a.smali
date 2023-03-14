@@ -1,11 +1,11 @@
-.class public final Lkotlin/a2/c$a;
+.class public final Lcotlin/a2/c$a;
 .super Ljava/util/TimerTask;
 .source "Timer.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/a2/c;->p(Lkotlin/jvm/u/l;)Ljava/util/TimerTask;
+    value = Lcotlin/a2/c;->p(Lcotlin/jvm/u/l;)Ljava/util/TimerTask;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,7 +17,7 @@
     value = "SMAP\nTimer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Timer.kt\nkotlin/concurrent/TimersKt$timerTask$1\n*L\n1#1,148:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
     d2 = {
         "kotlin/a2/c$a",
         "Ljava/util/TimerTask;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "kotlin-stdlib"
@@ -44,15 +44,15 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/jvm/u/l;
+.field final synthetic a:Lcotlin/jvm/u/l;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/u/l;)V
+.method public constructor <init>(Lcotlin/jvm/u/l;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lkotlin/a2/c$a;->a:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcotlin/a2/c$a;->a:Lcotlin/jvm/u/l;
 
     invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
 
@@ -65,9 +65,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/a2/c$a;->a:Lkotlin/jvm/u/l;
+    iget-object v0, p0, Lcotlin/a2/c$a;->a:Lcotlin/jvm/u/l;
 
-    invoke-interface {v0, p0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method

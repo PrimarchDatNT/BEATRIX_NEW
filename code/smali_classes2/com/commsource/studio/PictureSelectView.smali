@@ -14,7 +14,7 @@
     value = "SMAP\nPictureSelectView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PictureSelectView.kt\ncom/commsource/studio/PictureSelectView\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 ExtensionUtils.kt\ncom/commsource/util/ExtensionUtilsKt\n+ 4 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,509:1\n768#2,11:510\n1819#2,2:521\n1819#2,2:539\n1819#2,2:541\n1819#2,2:545\n541#3,5:523\n541#3,3:528\n541#3,5:531\n545#3:536\n13527#4,2:537\n13527#4,2:543\n*E\n*S KotlinDebug\n*F\n+ 1 PictureSelectView.kt\ncom/commsource/studio/PictureSelectView\n*L\n168#1,11:510\n168#1,2:521\n467#1,2:539\n472#1,2:541\n491#1,2:545\n328#1,5:523\n337#1,3:528\n337#1,5:531\n337#1:536\n461#1,2:537\n485#1,2:543\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,15 +33,15 @@
         "",
         "isConfirmPictureMode",
         "isOnlyUserPicture",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "Lcom/commsource/studio/h0;",
-        "Lkotlin/k0;",
+        "Lcotlin/k0;",
         "name",
         "wrapper",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "callback",
         "r",
-        "(Lcom/commsource/studio/ImageStudioViewModel;Lcom/commsource/studio/bean/a;ZZLkotlin/jvm/u/l;)V",
+        "(Lcom/commsource/studio/ImageStudioViewModel;Lcom/commsource/studio/bean/a;ZZLcotlin/jvm/u/l;)V",
         "",
         "getVisibleHeight",
         "()F",
@@ -67,7 +67,7 @@
         "onTouchEvent",
         "(Landroid/view/MotionEvent;)Z",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "pictureAnimationWrappers",
         "q",
         "(Ljava/util/ArrayList;)Ljava/util/ArrayList;",
@@ -96,7 +96,7 @@
         "confirmRectF",
         "Landroid/graphics/Paint;",
         "S",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "getConfirmPaint",
         "()Landroid/graphics/Paint;",
         "confirmPaint",
@@ -165,7 +165,7 @@
         "a",
         "pictureLayerWrappers",
         "p",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "selectPictureCallback",
         "Landroid/graphics/PaintFlagsDrawFilter;",
         "f",
@@ -235,7 +235,7 @@
     .end annotation
 .end field
 
-.field private final S:Lkotlin/w;
+.field private final S:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -245,12 +245,12 @@
     .end annotation
 .end field
 
-.field private final U:Lkotlin/w;
+.field private final U:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final V:Lkotlin/w;
+.field private final V:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -296,13 +296,13 @@
     .end annotation
 .end field
 
-.field private p:Lkotlin/jvm/u/l;
+.field private p:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/studio/h0;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -321,7 +321,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/PictureSelectView$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/PictureSelectView$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/PictureSelectView;->c0:Lcom/commsource/studio/PictureSelectView$a;
 
@@ -339,7 +339,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -362,7 +362,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -385,7 +385,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -513,11 +513,11 @@
     .line 18
     sget-object p1, Lcom/commsource/studio/PictureSelectView$confirmPaint$2;->INSTANCE:Lcom/commsource/studio/PictureSelectView$confirmPaint$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->S:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->S:Lcotlin/w;
 
     sget p1, Lcom/res/provider/ResSTRING;->dialog_confirm:I
 
@@ -533,20 +533,20 @@
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/PictureSelectView$textPaint$2;-><init>(Lcom/commsource/studio/PictureSelectView;)V
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->U:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->U:Lcotlin/w;
 
     .line 21
     sget-object p1, Lcom/commsource/studio/PictureSelectView$selectPaint$2;->INSTANCE:Lcom/commsource/studio/PictureSelectView$selectPaint$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->V:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->V:Lcotlin/w;
 
     return-void
 
@@ -646,7 +646,7 @@
     return-void
 .end method
 
-.method public static synthetic s(Lcom/commsource/studio/PictureSelectView;Lcom/commsource/studio/ImageStudioViewModel;Lcom/commsource/studio/bean/a;ZZLkotlin/jvm/u/l;ILjava/lang/Object;)V
+.method public static synthetic s(Lcom/commsource/studio/PictureSelectView;Lcom/commsource/studio/ImageStudioViewModel;Lcom/commsource/studio/bean/a;ZZLcotlin/jvm/u/l;ILjava/lang/Object;)V
     .locals 8
 
     const/16 p7, 0x930
@@ -688,7 +688,7 @@
     move-object v7, p5
 
     .line 1
-    invoke-virtual/range {v2 .. v7}, Lcom/commsource/studio/PictureSelectView;->r(Lcom/commsource/studio/ImageStudioViewModel;Lcom/commsource/studio/bean/a;ZZLkotlin/jvm/u/l;)V
+    invoke-virtual/range {v2 .. v7}, Lcom/commsource/studio/PictureSelectView;->r(Lcom/commsource/studio/ImageStudioViewModel;Lcom/commsource/studio/bean/a;ZZLcotlin/jvm/u/l;)V
 
     invoke-static {p7}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -779,7 +779,7 @@
 
     const-string v1, "index"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Ljava/util/ArrayList;
@@ -950,9 +950,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->S:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->S:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1036,9 +1036,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->V:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->V:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1092,9 +1092,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->U:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->U:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1567,7 +1567,7 @@
 
     const-string v1, "index"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Ljava/util/ArrayList;
@@ -1728,7 +1728,7 @@
 
     if-eqz v2, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/t0;->a(Ljava/lang/Object;)Ljava/util/Collection;
+    invoke-static {v2}, Lcotlin/jvm/internal/t0;->a(Ljava/lang/Object;)Ljava/util/Collection;
 
     move-result-object v2
 
@@ -1842,7 +1842,7 @@
 
     const-string v1, "canvas"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
@@ -2037,7 +2037,7 @@
 
     const-string v1, "event"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
@@ -2093,28 +2093,28 @@
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->a:Ljava/util/ArrayList;
 
     .line 7
-    invoke-static {v1}, Lkotlin/collections/s;->K1(Ljava/lang/Iterable;)I
+    invoke-static {v1}, Lcotlin/collections/s;->K1(Ljava/lang/Iterable;)I
 
     move-result v5
 
-    invoke-static {v4, v5}, Lkotlin/g2/o;->n1(II)Lkotlin/g2/k;
+    invoke-static {v4, v5}, Lcotlin/g2/o;->n1(II)Lcotlin/g2/k;
 
     move-result-object v5
 
-    invoke-static {v5}, Lkotlin/g2/o;->K0(Lkotlin/g2/i;)Lkotlin/g2/i;
+    invoke-static {v5}, Lcotlin/g2/o;->K0(Lcotlin/g2/i;)Lcotlin/g2/i;
 
     move-result-object v5
 
     .line 8
-    invoke-virtual {v5}, Lkotlin/g2/i;->c()I
+    invoke-virtual {v5}, Lcotlin/g2/i;->c()I
 
     move-result v6
 
-    invoke-virtual {v5}, Lkotlin/g2/i;->e()I
+    invoke-virtual {v5}, Lcotlin/g2/i;->e()I
 
     move-result v7
 
-    invoke-virtual {v5}, Lkotlin/g2/i;->h()I
+    invoke-virtual {v5}, Lcotlin/g2/i;->h()I
 
     move-result v5
 
@@ -2129,7 +2129,7 @@
 
     .line 9
     :goto_0
-    invoke-static {v1, v6}, Lkotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
+    invoke-static {v1, v6}, Lcotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
 
     move-result-object v8
 
@@ -2150,7 +2150,7 @@
 
     .line 11
     :cond_2
-    iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->p:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->p:Lcotlin/jvm/u/l;
 
     if-eqz v1, :cond_4
 
@@ -2158,18 +2158,18 @@
 
     if-nez v5, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
-    invoke-interface {v1, v5}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v5}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/t1;
+    check-cast v1, Lcotlin/t1;
 
     .line 12
     :cond_4
-    iput-object v3, p0, Lcom/commsource/studio/PictureSelectView;->p:Lkotlin/jvm/u/l;
+    iput-object v3, p0, Lcom/commsource/studio/PictureSelectView;->p:Lcotlin/jvm/u/l;
 
     .line 13
     :cond_5
@@ -2177,28 +2177,28 @@
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView;->a:Ljava/util/ArrayList;
 
     .line 14
-    invoke-static {v1}, Lkotlin/collections/s;->K1(Ljava/lang/Iterable;)I
+    invoke-static {v1}, Lcotlin/collections/s;->K1(Ljava/lang/Iterable;)I
 
     move-result v5
 
-    invoke-static {v4, v5}, Lkotlin/g2/o;->n1(II)Lkotlin/g2/k;
+    invoke-static {v4, v5}, Lcotlin/g2/o;->n1(II)Lcotlin/g2/k;
 
     move-result-object v5
 
-    invoke-static {v5}, Lkotlin/g2/o;->K0(Lkotlin/g2/i;)Lkotlin/g2/i;
+    invoke-static {v5}, Lcotlin/g2/o;->K0(Lcotlin/g2/i;)Lcotlin/g2/i;
 
     move-result-object v5
 
     .line 15
-    invoke-virtual {v5}, Lkotlin/g2/i;->c()I
+    invoke-virtual {v5}, Lcotlin/g2/i;->c()I
 
     move-result v6
 
-    invoke-virtual {v5}, Lkotlin/g2/i;->e()I
+    invoke-virtual {v5}, Lcotlin/g2/i;->e()I
 
     move-result v7
 
-    invoke-virtual {v5}, Lkotlin/g2/i;->h()I
+    invoke-virtual {v5}, Lcotlin/g2/i;->h()I
 
     move-result v5
 
@@ -2213,7 +2213,7 @@
 
     .line 16
     :goto_2
-    invoke-static {v1, v6}, Lkotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
+    invoke-static {v1, v6}, Lcotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
 
     move-result-object v8
 
@@ -2282,28 +2282,28 @@
     iget-object p1, p0, Lcom/commsource/studio/PictureSelectView;->a:Ljava/util/ArrayList;
 
     .line 24
-    invoke-static {p1}, Lkotlin/collections/s;->K1(Ljava/lang/Iterable;)I
+    invoke-static {p1}, Lcotlin/collections/s;->K1(Ljava/lang/Iterable;)I
 
     move-result v1
 
-    invoke-static {v4, v1}, Lkotlin/g2/o;->n1(II)Lkotlin/g2/k;
+    invoke-static {v4, v1}, Lcotlin/g2/o;->n1(II)Lcotlin/g2/k;
 
     move-result-object v1
 
-    invoke-static {v1}, Lkotlin/g2/o;->K0(Lkotlin/g2/i;)Lkotlin/g2/i;
+    invoke-static {v1}, Lcotlin/g2/o;->K0(Lcotlin/g2/i;)Lcotlin/g2/i;
 
     move-result-object v1
 
     .line 25
-    invoke-virtual {v1}, Lkotlin/g2/i;->c()I
+    invoke-virtual {v1}, Lcotlin/g2/i;->c()I
 
     move-result v4
 
-    invoke-virtual {v1}, Lkotlin/g2/i;->e()I
+    invoke-virtual {v1}, Lcotlin/g2/i;->e()I
 
     move-result v5
 
-    invoke-virtual {v1}, Lkotlin/g2/i;->h()I
+    invoke-virtual {v1}, Lcotlin/g2/i;->h()I
 
     move-result v1
 
@@ -2318,7 +2318,7 @@
 
     .line 26
     :goto_3
-    invoke-static {p1, v4}, Lkotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
+    invoke-static {p1, v4}, Lcotlin/collections/s;->T1(Ljava/lang/Iterable;I)Ljava/lang/Object;
 
     move-result-object v6
 
@@ -2339,19 +2339,19 @@
 
     .line 28
     :cond_9
-    iget-object p1, p0, Lcom/commsource/studio/PictureSelectView;->p:Lkotlin/jvm/u/l;
+    iget-object p1, p0, Lcom/commsource/studio/PictureSelectView;->p:Lcotlin/jvm/u/l;
 
     if-eqz p1, :cond_a
 
-    invoke-interface {p1, v8}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v8}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 29
     :cond_a
-    iput-object v3, p0, Lcom/commsource/studio/PictureSelectView;->p:Lkotlin/jvm/u/l;
+    iput-object v3, p0, Lcom/commsource/studio/PictureSelectView;->p:Lcotlin/jvm/u/l;
 
     .line 30
     :goto_4
@@ -2420,14 +2420,14 @@
 
     const-string v1, "pictureAnimationWrappers"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/studio/PictureSelectView$b;
 
     invoke-direct {v1}, Lcom/commsource/studio/PictureSelectView$b;-><init>()V
 
-    invoke-static {p1, v1}, Lkotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
+    invoke-static {p1, v1}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
     .line 2
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
@@ -2545,7 +2545,7 @@
 
     invoke-direct {v1}, Lcom/commsource/studio/PictureSelectView$c;-><init>()V
 
-    invoke-static {p1, v1}, Lkotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
+    invoke-static {p1, v1}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
     .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2553,7 +2553,7 @@
     return-object p1
 .end method
 
-.method public final r(Lcom/commsource/studio/ImageStudioViewModel;Lcom/commsource/studio/bean/a;ZZLkotlin/jvm/u/l;)V
+.method public final r(Lcom/commsource/studio/ImageStudioViewModel;Lcom/commsource/studio/bean/a;ZZLcotlin/jvm/u/l;)V
     .locals 15
     .param p1    # Lcom/commsource/studio/ImageStudioViewModel;
         .annotation build Ln/e/a/d;
@@ -2563,7 +2563,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p5    # Lkotlin/jvm/u/l;
+    .param p5    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2573,10 +2573,10 @@
             "Lcom/commsource/studio/ImageStudioViewModel;",
             "Lcom/commsource/studio/bean/a;",
             "ZZ",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/studio/h0;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -2597,15 +2597,15 @@
 
     const-string v4, "studioViewModel"
 
-    invoke-static {v0, v4}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v4, "layerInfoManager"
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v4, "callback"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-boolean v4, v8, Lcom/commsource/studio/PictureSelectView;->J:Z
@@ -2819,7 +2819,7 @@
 
     const-string v13, "pictureInfos[i]"
 
-    invoke-static {v12, v13}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v12, v13}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v12, Lcom/commsource/studio/bean/PictureLayerInfo;
 
@@ -2829,7 +2829,7 @@
 
     const-string v14, "pictureDatas[i]"
 
-    invoke-static {v13, v14}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v13, v14}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v13, Lcom/commsource/studio/bean/d;
 
@@ -2942,7 +2942,7 @@
 
     .line 29
     :cond_8
-    iput-object v3, v8, Lcom/commsource/studio/PictureSelectView;->p:Lkotlin/jvm/u/l;
+    iput-object v3, v8, Lcom/commsource/studio/PictureSelectView;->p:Lcotlin/jvm/u/l;
 
     .line 30
     invoke-virtual {p0, v6}, Landroid/view/View;->setAlpha(F)V
@@ -2964,7 +2964,7 @@
 
     move-object v0, p0
 
-    invoke-static/range {v0 .. v7}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v0 .. v7}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 32
     invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V

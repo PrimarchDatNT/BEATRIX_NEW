@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Landroid/animation/ValueAnimator;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onAnimationUpdate",
         "(Landroid/animation/ValueAnimator;)V",
         "<anonymous>"
@@ -70,7 +70,7 @@
     const-string v1, "it"
 
     .line 1
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
@@ -84,17 +84,17 @@
     .line 3
     iget-object v1, p0, Lcom/meitu/common/animutil/d$a;->a:Lcom/meitu/common/animutil/d;
 
-    invoke-virtual {v1}, Lcom/meitu/common/animutil/d;->B()Lkotlin/jvm/u/l;
+    invoke-virtual {v1}, Lcom/meitu/common/animutil/d;->B()Lcotlin/jvm/u/l;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    invoke-interface {v1, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     goto :goto_0
 
@@ -107,17 +107,17 @@
     .line 5
     iget-object v1, p0, Lcom/meitu/common/animutil/d$a;->a:Lcom/meitu/common/animutil/d;
 
-    invoke-virtual {v1}, Lcom/meitu/common/animutil/d;->A()Lkotlin/jvm/u/l;
+    invoke-virtual {v1}, Lcom/meitu/common/animutil/d;->A()Lcotlin/jvm/u/l;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    invoke-interface {v1, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 6
     :cond_1

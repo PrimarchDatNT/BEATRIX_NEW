@@ -8,7 +8,7 @@
     value = "SMAP\nStickerGroupItemDecoration.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StickerGroupItemDecoration.kt\ncom/commsource/studio/sticker/StickerGroupItemDecoration\n*L\n1#1,27:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,12 +26,12 @@
         "parent",
         "Landroidx/recyclerview/widget/RecyclerView$State;",
         "state",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onDrawOver",
         "(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V",
         "Landroid/graphics/Paint;",
         "a",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "()Landroid/graphics/Paint;",
         "paint",
         "<init>",
@@ -48,7 +48,7 @@
 
 
 # instance fields
-.field private final a:Lkotlin/w;
+.field private final a:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -64,11 +64,11 @@
     .line 2
     sget-object v0, Lcom/commsource/studio/sticker/StickerGroupItemDecoration$paint$2;->INSTANCE:Lcom/commsource/studio/sticker/StickerGroupItemDecoration$paint$2;
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/sticker/StickerGroupItemDecoration;->a:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/sticker/StickerGroupItemDecoration;->a:Lcotlin/w;
 
     return-void
 .end method
@@ -84,9 +84,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/sticker/StickerGroupItemDecoration;->a:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/sticker/StickerGroupItemDecoration;->a:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -118,15 +118,15 @@
 
     const-string v1, "c"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "parent"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "state"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;->onDrawOver(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
@@ -145,7 +145,7 @@
 
     const-string v1, "viewholder.itemView"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p3}, Landroid/view/View;->getLeft()I
 
@@ -169,7 +169,7 @@
 
     iget-object p2, p2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/view/View;->getLeft()I
 

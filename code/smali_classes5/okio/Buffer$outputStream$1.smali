@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Ljava/io/OutputStream;",
         "",
         "b",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "write",
         "(I)V",
         "",
@@ -132,7 +132,7 @@
 
     const-string v0, "data"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object v0, p0, Lokio/Buffer$outputStream$1;->this$0:Lokio/Buffer;

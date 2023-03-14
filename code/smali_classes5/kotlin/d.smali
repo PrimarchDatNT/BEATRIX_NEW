@@ -1,10 +1,10 @@
-.class public final Lkotlin/d;
+.class public final Lcotlin/d;
 .super Ljava/lang/Object;
 .source "CharCode.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -37,20 +37,20 @@
 # direct methods
 .method private static final a(I)C
     .locals 3
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     const/4 v0, 0x0
 
     .line 1
-    invoke-static {v0}, Lkotlin/d;->b(C)I
+    invoke-static {v0}, Lcotlin/d;->b(C)I
 
     move-result v0
 
@@ -58,7 +58,7 @@
 
     const v0, 0xffff
 
-    invoke-static {v0}, Lkotlin/d;->b(C)I
+    invoke-static {v0}, Lcotlin/d;->b(C)I
 
     move-result v1
 
@@ -67,7 +67,7 @@
     int-to-short p0, p0
 
     .line 2
-    invoke-static {p0}, Lkotlin/p1;->s(S)S
+    invoke-static {p0}, Lcotlin/p1;->s(S)S
 
     move-result p0
 
@@ -104,7 +104,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Lkotlin/d;->c(C)I
+    invoke-static {p0}, Lcotlin/d;->c(C)I
 
     move-result p0
 
@@ -119,13 +119,13 @@
 
 .method public static synthetic d(C)V
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 

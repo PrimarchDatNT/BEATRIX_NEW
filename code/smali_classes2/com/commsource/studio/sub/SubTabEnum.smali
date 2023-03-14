@@ -22,7 +22,7 @@
     value = "SMAP\nSubTabEnum.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SubTabEnum.kt\ncom/commsource/studio/sub/SubTabEnum\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,235:1\n1819#2,2:236\n*E\n*S KotlinDebug\n*F\n+ 1 SubTabEnum.kt\ncom/commsource/studio/sub/SubTabEnum\n*L\n222#1,2:236\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -444,7 +444,7 @@
 
     const/4 v4, 0x0
 
-    invoke-direct {v2, v4}, Lcom/commsource/studio/sub/SubTabEnum$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v2, v4}, Lcom/commsource/studio/sub/SubTabEnum$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v2, Lcom/commsource/studio/sub/SubTabEnum;->Companion:Lcom/commsource/studio/sub/SubTabEnum$a;
 
@@ -505,7 +505,7 @@
     aput-object v12, v4, v13
 
     .line 27
-    invoke-static {v4}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v4}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v4
 
@@ -641,7 +641,7 @@
     aput-object v1, v4, v2
 
     .line 49
-    invoke-static {v4}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v4}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v1
 
@@ -900,7 +900,7 @@
 
     const-string v2, "SubModuleEnum.newSubModuleEnum.entries"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;

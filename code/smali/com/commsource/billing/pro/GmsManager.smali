@@ -16,7 +16,7 @@
     value = "SMAP\nGmsManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GmsManager.kt\ncom/commsource/billing/pro/GmsManager\n*L\n1#1,546:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
     d2 = {
         "Lcom/commsource/billing/pro/GmsManager;",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "n",
         "()V",
         "Lcom/meitu/global/billing/purchase/data/MTGPurchase;",
@@ -115,7 +115,7 @@
         "Landroidx/lifecycle/MutableLiveData;",
         "",
         "d",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "h",
         "()Landroidx/lifecycle/MutableLiveData;",
         "purchaseData",
@@ -151,7 +151,7 @@
     .end annotation
 .end field
 
-.field private static final h:Lkotlin/w;
+.field private static final h:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -166,12 +166,12 @@
 
 .field private c:Lcom/commsource/billing/pro/b;
 
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final e:Lkotlin/w;
+.field private final e:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -202,20 +202,20 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/billing/pro/GmsManager$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/billing/pro/GmsManager$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/billing/pro/GmsManager;->i:Lcom/commsource/billing/pro/GmsManager$a;
 
     .line 1
-    sget-object v1, Lkotlin/LazyThreadSafetyMode;->SYNCHRONIZED:Lkotlin/LazyThreadSafetyMode;
+    sget-object v1, Lcotlin/LazyThreadSafetyMode;->SYNCHRONIZED:Lcotlin/LazyThreadSafetyMode;
 
     sget-object v2, Lcom/commsource/billing/pro/GmsManager$Companion$instance$2;->INSTANCE:Lcom/commsource/billing/pro/GmsManager$Companion$instance$2;
 
-    invoke-static {v1, v2}, Lkotlin/y;->b(Lkotlin/LazyThreadSafetyMode;Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v1, v2}, Lcotlin/y;->b(Lcotlin/LazyThreadSafetyMode;Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v1
 
-    sput-object v1, Lcom/commsource/billing/pro/GmsManager;->h:Lkotlin/w;
+    sput-object v1, Lcom/commsource/billing/pro/GmsManager;->h:Lcotlin/w;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -245,20 +245,20 @@
     .line 4
     sget-object v0, Lcom/commsource/billing/pro/GmsManager$purchaseData$2;->INSTANCE:Lcom/commsource/billing/pro/GmsManager$purchaseData$2;
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/billing/pro/GmsManager;->d:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/billing/pro/GmsManager;->d:Lcotlin/w;
 
     .line 5
     sget-object v0, Lcom/commsource/billing/pro/GmsManager$subscribeResultEvent$2;->INSTANCE:Lcom/commsource/billing/pro/GmsManager$subscribeResultEvent$2;
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/billing/pro/GmsManager;->e:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/billing/pro/GmsManager;->e:Lcotlin/w;
 
     .line 6
     new-instance v0, Landroidx/lifecycle/MutableLiveData;
@@ -270,7 +270,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 7
@@ -307,7 +307,7 @@
 
     const-string v1, "mGmsProCore"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     new-instance v8, Lcom/commsource/billing/pro/GmsManager$j;
@@ -451,11 +451,11 @@
 
     .line 9
     :cond_0
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type com.meitu.global.billing.purchase.data.SubsPurchase"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -483,7 +483,7 @@
     return-void
 .end method
 
-.method public static final synthetic a()Lkotlin/w;
+.method public static final synthetic a()Lcotlin/w;
     .locals 2
 
     const/16 v0, 0x134f
@@ -491,7 +491,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    sget-object v1, Lcom/commsource/billing/pro/GmsManager;->h:Lkotlin/w;
+    sget-object v1, Lcom/commsource/billing/pro/GmsManager;->h:Lcotlin/w;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -587,7 +587,7 @@
 
     const-string v2, "UserOrderManager.getProvider()"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {v1}, Lf/k/h/a/l/p;->o()Lcom/meitu/global/billing/purchase/data/SubsPurchase;
 
@@ -604,7 +604,7 @@
     const-string v2, "orderId"
 
     .line 3
-    invoke-static {v8, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {v8}, Ljava/lang/CharSequence;->length()I
 
@@ -647,7 +647,7 @@
     move-object v2, v8
 
     .line 4
-    invoke-static/range {v2 .. v7}, Lkotlin/text/m;->n3(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
+    invoke-static/range {v2 .. v7}, Lcotlin/text/m;->n3(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
 
     move-result v1
 
@@ -660,7 +660,7 @@
 
     const-string v1, "(this as java.lang.Strin\u2026ing(startIndex, endIndex)"
 
-    invoke-static {v8, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     :cond_1
     const-string/jumbo v1, "zdf"
@@ -689,7 +689,7 @@
 
     const-string v3, "originalOrderId"
 
-    invoke-static {v8, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, v2, v8}, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->h(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
@@ -847,7 +847,7 @@
 
     const-string v1, "onRestorePurchaseListener"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->b:Lcom/commsource/billing/pro/GmsManager$c;
@@ -923,7 +923,7 @@
 
     const-string v1, "context"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p1}, Lcom/meitu/library/p/h/a;->b(Landroid/content/Context;)Z
@@ -980,7 +980,7 @@
 
     const-string v1, "context"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p1}, Lcom/meitu/library/p/h/a;->b(Landroid/content/Context;)Z
@@ -1026,7 +1026,7 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->c:Lcom/commsource/billing/pro/b;
@@ -1035,7 +1035,7 @@
 
     const-string v2, "mGmsProCore"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     new-instance v2, Lcom/commsource/billing/pro/GmsManager$k;
@@ -1088,7 +1088,7 @@
 
     const-string v1, "listener"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->c:Lcom/commsource/billing/pro/b;
@@ -1097,7 +1097,7 @@
 
     const-string v2, "mGmsProCore"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-interface {v1, p1}, Lcom/commsource/billing/pro/b;->g(Lf/k/h/a/l/y/c;)V
@@ -1127,9 +1127,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1184,9 +1184,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->e:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->e:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1210,7 +1210,7 @@
 
     const-string v1, "context"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->f:Landroidx/lifecycle/MutableLiveData;
@@ -1246,7 +1246,7 @@
     move-result-object v2
 
     .line 3
-    sget-object v3, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
+    sget-object v3, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     const/4 v3, 0x2
 
@@ -1272,7 +1272,7 @@
 
     const-string v2, "java.lang.String.format(format, *args)"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     :goto_1
@@ -1312,7 +1312,7 @@
 
     const-string v2, "UserOrderManager.getProvider()"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {v1}, Lf/k/h/a/l/p;->o()Lcom/meitu/global/billing/purchase/data/SubsPurchase;
 
@@ -1497,11 +1497,11 @@
 
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "productId"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p1}, Lcom/meitu/library/p/h/a;->b(Landroid/content/Context;)Z
@@ -1542,7 +1542,7 @@
 
     const-string v0, "mGmsProCore"
 
-    invoke-static {v0}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v0}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     new-instance v12, Lcom/commsource/billing/pro/GmsManager$e;
@@ -1584,7 +1584,7 @@
 
     const-string v1, "id"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1632,7 +1632,7 @@
 
     const-string v1, "productIds"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->c:Lcom/commsource/billing/pro/b;
@@ -1641,7 +1641,7 @@
 
     const-string v2, "mGmsProCore"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     new-instance v2, Lcom/commsource/billing/pro/GmsManager$f;
@@ -1672,7 +1672,7 @@
 
     const-string v2, "mGmsProCore"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     new-instance v2, Lcom/commsource/billing/pro/GmsManager$g;
@@ -1733,7 +1733,7 @@
 
     const-string v1, "productIds"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager;->c:Lcom/commsource/billing/pro/b;
@@ -1742,7 +1742,7 @@
 
     const-string v2, "mGmsProCore"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     new-instance v2, Lcom/commsource/billing/pro/GmsManager$i;
@@ -1794,7 +1794,7 @@
 
     const-string v1, "mGmsProCore"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     new-instance v1, Lcom/commsource/billing/pro/GmsManager$h;

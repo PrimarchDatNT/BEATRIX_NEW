@@ -17,7 +17,7 @@
     value = "SMAP\nSegmentedByteString.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SegmentedByteString.kt\nokio/SegmentedByteString$Companion\n*L\n1#1,325:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -59,7 +59,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -81,7 +81,7 @@
 
     const-string v0, "buffer"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lokio/Buffer;->size()J
@@ -109,7 +109,7 @@
     if-nez v0, :cond_0
 
     .line 3
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     iget v4, v0, Lokio/Segment;->limit:I
@@ -159,7 +159,7 @@
     if-nez p1, :cond_3
 
     .line 9
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     iget-object v5, p1, Lokio/Segment;->data:[B
@@ -207,7 +207,7 @@
 
     const/4 p2, 0x0
 
-    invoke-direct {p1, v0, v2, p2}, Lokio/SegmentedByteString;-><init>([[B[ILkotlin/jvm/internal/u;)V
+    invoke-direct {p1, v0, v2, p2}, Lokio/SegmentedByteString;-><init>([[B[ILcotlin/jvm/internal/u;)V
 
     return-object p1
 .end method

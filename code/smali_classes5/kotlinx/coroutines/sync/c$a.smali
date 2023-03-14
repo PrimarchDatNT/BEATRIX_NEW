@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/sync/c$a;
+.class public final Lcotlinx/coroutines/sync/c$a;
 .super Ljava/lang/Object;
 .source "Mutex.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/sync/c;
+    value = Lcotlinx/coroutines/sync/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
 
 
 # direct methods
-.method public static synthetic a(Lkotlinx/coroutines/sync/c;Ljava/lang/Object;Lkotlin/coroutines/c;ILjava/lang/Object;)Ljava/lang/Object;
+.method public static synthetic a(Lcotlinx/coroutines/sync/c;Ljava/lang/Object;Lcotlin/coroutines/c;ILjava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
     if-nez p4, :cond_1
@@ -44,7 +44,7 @@
 
     .line 1
     :cond_0
-    invoke-interface {p0, p1, p2}, Lkotlinx/coroutines/sync/c;->c(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p0, p1, p2}, Lcotlinx/coroutines/sync/c;->c(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -61,7 +61,7 @@
     throw p0
 .end method
 
-.method public static synthetic b(Lkotlinx/coroutines/sync/c;Ljava/lang/Object;ILjava/lang/Object;)Z
+.method public static synthetic b(Lcotlinx/coroutines/sync/c;Ljava/lang/Object;ILjava/lang/Object;)Z
     .locals 0
 
     if-nez p3, :cond_1
@@ -74,7 +74,7 @@
 
     .line 1
     :cond_0
-    invoke-interface {p0, p1}, Lkotlinx/coroutines/sync/c;->a(Ljava/lang/Object;)Z
+    invoke-interface {p0, p1}, Lcotlinx/coroutines/sync/c;->a(Ljava/lang/Object;)Z
 
     move-result p0
 
@@ -91,7 +91,7 @@
     throw p0
 .end method
 
-.method public static synthetic c(Lkotlinx/coroutines/sync/c;Ljava/lang/Object;ILjava/lang/Object;)V
+.method public static synthetic c(Lcotlinx/coroutines/sync/c;Ljava/lang/Object;ILjava/lang/Object;)V
     .locals 0
 
     if-nez p3, :cond_1
@@ -104,7 +104,7 @@
 
     .line 1
     :cond_0
-    invoke-interface {p0, p1}, Lkotlinx/coroutines/sync/c;->d(Ljava/lang/Object;)V
+    invoke-interface {p0, p1}, Lcotlinx/coroutines/sync/c;->d(Ljava/lang/Object;)V
 
     return-void
 

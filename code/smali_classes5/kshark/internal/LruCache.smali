@@ -19,7 +19,7 @@
     value = "SMAP\nLruCache.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LruCache.kt\nkshark/internal/LruCache\n*L\n1#1,77:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,7 +40,7 @@
         "k",
         "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
         "l",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "()V",
         "",
@@ -380,7 +380,7 @@
 
     .line 3
     :goto_0
-    sget-object v1, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
+    sget-object v1, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     const/4 v1, 0x4
 
@@ -436,7 +436,7 @@
 
     const-string v1, "java.lang.String.format(format, *args)"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object v0
 .end method

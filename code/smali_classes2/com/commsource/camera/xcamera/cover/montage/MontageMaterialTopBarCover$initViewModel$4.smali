@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,7 +40,7 @@
     d2 = {
         "",
         "aBoolean",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Boolean;)V"
     }
@@ -107,7 +107,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$initViewModel$4$1;-><init>(Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$initViewModel$4;)V
 
-    invoke-virtual {p1, v1, v2}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->j(Landroidx/fragment/app/FragmentActivity;Lkotlin/jvm/u/l;)V
+    invoke-virtual {p1, v1, v2}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->j(Landroidx/fragment/app/FragmentActivity;Lcotlin/jvm/u/l;)V
 
     .line 3
     :cond_0

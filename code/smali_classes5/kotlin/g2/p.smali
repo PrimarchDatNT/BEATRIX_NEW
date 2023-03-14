@@ -1,10 +1,10 @@
-.class Lkotlin/g2/p;
+.class Lcotlin/g2/p;
 .super Ljava/lang/Object;
 .source "Ranges.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -17,16 +17,16 @@
         "",
         "T",
         "that",
-        "Lkotlin/g2/g;",
+        "Lcotlin/g2/g;",
         "e",
-        "(Ljava/lang/Comparable;Ljava/lang/Comparable;)Lkotlin/g2/g;",
+        "(Ljava/lang/Comparable;Ljava/lang/Comparable;)Lcotlin/g2/g;",
         "",
-        "Lkotlin/g2/f;",
+        "Lcotlin/g2/f;",
         "c",
-        "(DD)Lkotlin/g2/f;",
+        "(DD)Lcotlin/g2/f;",
         "",
         "d",
-        "(FF)Lkotlin/g2/f;",
+        "(FF)Lcotlin/g2/f;",
         "",
         "",
         "R",
@@ -37,7 +37,7 @@
         "isPositive",
         "",
         "step",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(ZLjava/lang/Number;)V",
         "kotlin-stdlib"
@@ -70,7 +70,7 @@
 
     const-string v0, "step"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p0, :cond_0
 
@@ -112,30 +112,30 @@
             "R::",
             "Ljava/lang/Iterable<",
             "+TT;>;:",
-            "Lkotlin/g2/g<",
+            "Lcotlin/g2/g<",
             "TT;>;>(TR;TT;)Z"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     const-string v0, "$this$contains"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p1, :cond_0
 
     .line 1
-    check-cast p0, Lkotlin/g2/g;
+    check-cast p0, Lcotlin/g2/g;
 
     check-cast p1, Ljava/lang/Comparable;
 
-    invoke-interface {p0, p1}, Lkotlin/g2/g;->contains(Ljava/lang/Comparable;)Z
+    invoke-interface {p0, p1}, Lcotlin/g2/g;->contains(Ljava/lang/Comparable;)Z
 
     move-result p0
 
@@ -152,18 +152,18 @@
     return p0
 .end method
 
-.method public static final c(DD)Lkotlin/g2/f;
+.method public static final c(DD)Lcotlin/g2/f;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(DD)",
-            "Lkotlin/g2/f<",
+            "Lcotlin/g2/f<",
             "Ljava/lang/Double;",
             ">;"
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -171,25 +171,25 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/g2/d;
+    new-instance v0, Lcotlin/g2/d;
 
-    invoke-direct {v0, p0, p1, p2, p3}, Lkotlin/g2/d;-><init>(DD)V
+    invoke-direct {v0, p0, p1, p2, p3}, Lcotlin/g2/d;-><init>(DD)V
 
     return-object v0
 .end method
 
-.method public static final d(FF)Lkotlin/g2/f;
+.method public static final d(FF)Lcotlin/g2/f;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(FF)",
-            "Lkotlin/g2/f<",
+            "Lcotlin/g2/f<",
             "Ljava/lang/Float;",
             ">;"
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -197,14 +197,14 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/g2/e;
+    new-instance v0, Lcotlin/g2/e;
 
-    invoke-direct {v0, p0, p1}, Lkotlin/g2/e;-><init>(FF)V
+    invoke-direct {v0, p0, p1}, Lcotlin/g2/e;-><init>(FF)V
 
     return-object v0
 .end method
 
-.method public static final e(Ljava/lang/Comparable;Ljava/lang/Comparable;)Lkotlin/g2/g;
+.method public static final e(Ljava/lang/Comparable;Ljava/lang/Comparable;)Lcotlin/g2/g;
     .locals 1
     .param p0    # Ljava/lang/Comparable;
         .annotation build Ln/e/a/d;
@@ -219,7 +219,7 @@
             "<T::",
             "Ljava/lang/Comparable<",
             "-TT;>;>(TT;TT;)",
-            "Lkotlin/g2/g<",
+            "Lcotlin/g2/g<",
             "TT;>;"
         }
     .end annotation
@@ -229,16 +229,16 @@
 
     const-string v0, "$this$rangeTo"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "that"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/g2/h;
+    new-instance v0, Lcotlin/g2/h;
 
-    invoke-direct {v0, p0, p1}, Lkotlin/g2/h;-><init>(Ljava/lang/Comparable;Ljava/lang/Comparable;)V
+    invoke-direct {v0, p0, p1}, Lcotlin/g2/h;-><init>(Ljava/lang/Comparable;Ljava/lang/Comparable;)V
 
     return-object v0
 .end method

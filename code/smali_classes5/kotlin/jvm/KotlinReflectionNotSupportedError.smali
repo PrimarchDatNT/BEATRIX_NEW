@@ -1,10 +1,10 @@
-.class public Lkotlin/jvm/KotlinReflectionNotSupportedError;
+.class public Lcotlin/jvm/KotlinReflectionNotSupportedError;
 .super Ljava/lang/Error;
 .source "KotlinReflectionNotSupportedError.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -14,7 +14,7 @@
         "\u0000\u001c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0010\u0003\n\u0002\u0008\u0004\u0008\u0016\u0018\u00002\u00020\u0001B\t\u0008\u0016\u00a2\u0006\u0004\u0008\u0002\u0010\u0003B\u0013\u0008\u0016\u0012\u0008\u0010\u0005\u001a\u0004\u0018\u00010\u0004\u00a2\u0006\u0004\u0008\u0002\u0010\u0006B\u001d\u0008\u0016\u0012\u0008\u0010\u0005\u001a\u0004\u0018\u00010\u0004\u0012\u0008\u0010\u0008\u001a\u0004\u0018\u00010\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\tB\u0013\u0008\u0016\u0012\u0008\u0010\u0008\u001a\u0004\u0018\u00010\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\n\u00a8\u0006\u000b"
     }
     d2 = {
-        "Lkotlin/jvm/KotlinReflectionNotSupportedError;",
+        "Lcotlin/jvm/KotlinReflectionNotSupportedError;",
         "Ljava/lang/Error;",
         "<init>",
         "()V",

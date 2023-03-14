@@ -1,10 +1,10 @@
-.class public final Lkotlin/collections/n0;
+.class public final Lcotlin/collections/n0;
 .super Ljava/lang/Object;
 .source "MapAccessors.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -18,19 +18,19 @@
         "V1",
         "",
         "",
-        "Lkotlin/internal/d;",
+        "Lcotlin/internal/d;",
         "",
         "thisRef",
-        "Lkotlin/reflect/n;",
+        "Lcotlin/reflect/n;",
         "property",
         "a",
-        "(Ljava/util/Map;Ljava/lang/Object;Lkotlin/reflect/n;)Ljava/lang/Object;",
+        "(Ljava/util/Map;Ljava/lang/Object;Lcotlin/reflect/n;)Ljava/lang/Object;",
         "",
         "b",
         "value",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
-        "(Ljava/util/Map;Ljava/lang/Object;Lkotlin/reflect/n;Ljava/lang/Object;)V",
+        "(Ljava/util/Map;Ljava/lang/Object;Lcotlin/reflect/n;Ljava/lang/Object;)V",
         "kotlin-stdlib"
     }
     k = 0x2
@@ -41,13 +41,13 @@
     }
 .end annotation
 
-.annotation build Lkotlin/jvm/g;
+.annotation build Lcotlin/jvm/g;
     name = "MapAccessorsKt"
 .end annotation
 
 
 # direct methods
-.method private static final a(Ljava/util/Map;Ljava/lang/Object;Lkotlin/reflect/n;)Ljava/lang/Object;
+.method private static final a(Ljava/util/Map;Ljava/lang/Object;Lcotlin/reflect/n;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -59,31 +59,31 @@
             "Ljava/lang/String;",
             "+TV;>;",
             "Ljava/lang/Object;",
-            "Lkotlin/reflect/n<",
+            "Lcotlin/reflect/n<",
             "*>;)TV1;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string p1, "$this$getValue"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p2}, Lkotlin/reflect/c;->getName()Ljava/lang/String;
+    invoke-interface {p2}, Lcotlin/reflect/c;->getName()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {p0, p1}, Lkotlin/collections/r0;->a(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlin/collections/r0;->a(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final b(Ljava/util/Map;Ljava/lang/Object;Lkotlin/reflect/n;)Ljava/lang/Object;
+.method private static final b(Ljava/util/Map;Ljava/lang/Object;Lcotlin/reflect/n;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -95,35 +95,35 @@
             "Ljava/lang/String;",
             "+TV;>;",
             "Ljava/lang/Object;",
-            "Lkotlin/reflect/n<",
+            "Lcotlin/reflect/n<",
             "*>;)TV1;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "getVar"
     .end annotation
 
     const-string p1, "$this$getValue"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p2}, Lkotlin/reflect/c;->getName()Ljava/lang/String;
+    invoke-interface {p2}, Lcotlin/reflect/c;->getName()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {p0, p1}, Lkotlin/collections/r0;->a(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlin/collections/r0;->a(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final c(Ljava/util/Map;Ljava/lang/Object;Lkotlin/reflect/n;Ljava/lang/Object;)V
+.method private static final c(Ljava/util/Map;Ljava/lang/Object;Lcotlin/reflect/n;Ljava/lang/Object;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -135,20 +135,20 @@
             "Ljava/lang/String;",
             "-TV;>;",
             "Ljava/lang/Object;",
-            "Lkotlin/reflect/n<",
+            "Lcotlin/reflect/n<",
             "*>;TV;)V"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string p1, "$this$setValue"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p2}, Lkotlin/reflect/c;->getName()Ljava/lang/String;
+    invoke-interface {p2}, Lcotlin/reflect/c;->getName()Ljava/lang/String;
 
     move-result-object p1
 

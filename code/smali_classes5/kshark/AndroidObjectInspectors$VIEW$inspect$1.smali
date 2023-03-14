@@ -1,9 +1,9 @@
 .class final Lkshark/AndroidObjectInspectors$VIEW$inspect$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "AndroidObjectInspectors.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
@@ -18,11 +18,11 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/p<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/p<",
         "Lkshark/v;",
         "Lkshark/HeapObject$HeapInstance;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
@@ -31,7 +31,7 @@
     value = "SMAP\nAndroidObjectInspectors.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AndroidObjectInspectors.kt\nkshark/AndroidObjectInspectors$VIEW$inspect$1\n*L\n1#1,591:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -44,7 +44,7 @@
         "Lkshark/v;",
         "Lkshark/HeapObject$HeapInstance;",
         "instance",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(Lkshark/v;Lkshark/HeapObject$HeapInstance;)V",
         "<anonymous>"
@@ -80,7 +80,7 @@
 
     const/4 v0, 0x2
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, v0}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -97,7 +97,7 @@
 
     invoke-virtual {p0, p1, p2}, Lkshark/AndroidObjectInspectors$VIEW$inspect$1;->invoke(Lkshark/v;Lkshark/HeapObject$HeapInstance;)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method
@@ -119,11 +119,11 @@
 
     move-object/from16 v2, p1
 
-    invoke-static {v2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "instance"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "android.view.View"
 
@@ -136,7 +136,7 @@
 
     if-nez v3, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v3}, Lkshark/h;->c()Lkshark/j;
@@ -169,7 +169,7 @@
     :goto_0
     if-nez v5, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-virtual {v5}, Lkshark/j;->f()Ljava/lang/Integer;
@@ -178,7 +178,7 @@
 
     if-nez v5, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 5
     :cond_3
@@ -195,7 +195,7 @@
 
     if-nez v8, :cond_4
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
     invoke-virtual {v8}, Lkshark/h;->c()Lkshark/j;
@@ -215,7 +215,7 @@
 
     if-nez v9, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     invoke-virtual {v9}, Lkshark/h;->c()Lkshark/j;
@@ -228,7 +228,7 @@
 
     if-nez v9, :cond_6
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     invoke-virtual {v9}, Lkshark/HeapObject;->c()Lkshark/HeapObject$HeapInstance;
@@ -237,7 +237,7 @@
 
     if-nez v9, :cond_7
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 8
     :cond_7
@@ -333,7 +333,7 @@
     move-result-object v6
 
     .line 13
-    invoke-static {v10, v9}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v10, v9}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v15
 
@@ -427,7 +427,7 @@
     :goto_3
     sget-object v2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-static {v6, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v6, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -470,7 +470,7 @@
 
     if-nez v2, :cond_e
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_e
     invoke-virtual {v2}, Lkshark/HeapObject;->c()Lkshark/HeapObject$HeapInstance;
@@ -479,7 +479,7 @@
 
     if-nez v2, :cond_f
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 21
     :cond_f
@@ -498,7 +498,7 @@
 
     if-nez v3, :cond_10
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_10
     invoke-virtual {v3}, Lkshark/h;->c()Lkshark/j;
@@ -676,7 +676,7 @@
 
     if-nez v0, :cond_16
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_16
     invoke-virtual {v0}, Lkshark/h;->c()Lkshark/j;
@@ -689,7 +689,7 @@
 
     if-nez v0, :cond_17
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_17
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I

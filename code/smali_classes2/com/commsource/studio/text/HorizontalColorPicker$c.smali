@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Landroid/view/View;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onClick",
         "(Landroid/view/View;)V",
         "<anonymous>"
@@ -81,7 +81,7 @@
     .line 2
     iget-object v0, p0, Lcom/commsource/studio/text/HorizontalColorPicker$c;->a:Lcom/commsource/studio/text/HorizontalColorPicker;
 
-    invoke-static {v0}, Lcom/commsource/studio/text/HorizontalColorPicker;->g(Lcom/commsource/studio/text/HorizontalColorPicker;)Lkotlin/jvm/u/l;
+    invoke-static {v0}, Lcom/commsource/studio/text/HorizontalColorPicker;->g(Lcom/commsource/studio/text/HorizontalColorPicker;)Lcotlin/jvm/u/l;
 
     move-result-object v0
 
@@ -97,11 +97,11 @@
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkotlin/t1;
+    check-cast v0, Lcotlin/t1;
 
     .line 3
     :cond_0

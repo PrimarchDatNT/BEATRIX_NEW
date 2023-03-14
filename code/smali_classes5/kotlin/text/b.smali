@@ -1,10 +1,10 @@
-.class Lkotlin/text/b;
+.class Lcotlin/text/b;
 .super Ljava/lang/Object;
 .source "CharJVM.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -56,13 +56,13 @@
         "(CI)I",
         "a",
         "(I)I",
-        "Lkotlin/text/CharCategory;",
+        "Lcotlin/text/CharCategory;",
         "c",
-        "(C)Lkotlin/text/CharCategory;",
+        "(C)Lcotlin/text/CharCategory;",
         "category",
-        "Lkotlin/text/CharDirectionality;",
+        "Lcotlin/text/CharDirectionality;",
         "d",
-        "(C)Lkotlin/text/CharDirectionality;",
+        "(C)Lcotlin/text/CharDirectionality;",
         "directionality",
         "kotlin-stdlib"
     }
@@ -87,7 +87,7 @@
 
 .method private static final A(C)C
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -100,13 +100,13 @@
 
 .method private static final B(C)Ljava/lang/String;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -127,7 +127,7 @@
 
     const-string v0, "(this as java.lang.Strin\u2026.toUpperCase(Locale.ROOT)"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
@@ -138,10 +138,10 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -150,7 +150,7 @@
 
     const-string v0, "locale"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0}, Ljava/lang/String;->valueOf(C)Ljava/lang/String;
@@ -167,20 +167,20 @@
 
     const-string p1, "(this as java.lang.String).toUpperCase(locale)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final D(C)C
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -194,7 +194,7 @@
 
 .method public static a(I)I
     .locals 5
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     const/4 v0, 0x2
@@ -225,9 +225,9 @@
 
     invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    new-instance p0, Lkotlin/g2/k;
+    new-instance p0, Lcotlin/g2/k;
 
-    invoke-direct {p0, v0, v1}, Lkotlin/g2/k;-><init>(II)V
+    invoke-direct {p0, v0, v1}, Lcotlin/g2/k;-><init>(II)V
 
     invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -251,38 +251,38 @@
     return p0
 .end method
 
-.method public static final c(C)Lkotlin/text/CharCategory;
+.method public static final c(C)Lcotlin/text/CharCategory;
     .locals 1
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/text/CharCategory;->Companion:Lkotlin/text/CharCategory$a;
+    sget-object v0, Lcotlin/text/CharCategory;->Companion:Lcotlin/text/CharCategory$a;
 
     invoke-static {p0}, Ljava/lang/Character;->getType(C)I
 
     move-result p0
 
-    invoke-virtual {v0, p0}, Lkotlin/text/CharCategory$a;->b(I)Lkotlin/text/CharCategory;
+    invoke-virtual {v0, p0}, Lcotlin/text/CharCategory$a;->b(I)Lcotlin/text/CharCategory;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final d(C)Lkotlin/text/CharDirectionality;
+.method public static final d(C)Lcotlin/text/CharDirectionality;
     .locals 1
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/text/CharDirectionality;->Companion:Lkotlin/text/CharDirectionality$a;
+    sget-object v0, Lcotlin/text/CharDirectionality;->Companion:Lcotlin/text/CharDirectionality$a;
 
     invoke-static {p0}, Ljava/lang/Character;->getDirectionality(C)B
 
     move-result p0
 
-    invoke-virtual {v0, p0}, Lkotlin/text/CharDirectionality$a;->b(I)Lkotlin/text/CharDirectionality;
+    invoke-virtual {v0, p0}, Lcotlin/text/CharDirectionality$a;->b(I)Lcotlin/text/CharDirectionality;
 
     move-result-object p0
 
@@ -291,7 +291,7 @@
 
 .method private static final e(C)Z
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -304,7 +304,7 @@
 
 .method private static final f(C)Z
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -317,7 +317,7 @@
 
 .method private static final g(C)Z
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -330,7 +330,7 @@
 
 .method private static final h(C)Z
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -343,7 +343,7 @@
 
 .method private static final i(C)Z
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -356,7 +356,7 @@
 
 .method private static final j(C)Z
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -369,7 +369,7 @@
 
 .method private static final k(C)Z
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -382,7 +382,7 @@
 
 .method private static final l(C)Z
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -395,7 +395,7 @@
 
 .method private static final m(C)Z
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -408,7 +408,7 @@
 
 .method private static final n(C)Z
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -421,7 +421,7 @@
 
 .method private static final o(C)Z
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -434,7 +434,7 @@
 
 .method private static final p(C)Z
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -447,7 +447,7 @@
 
 .method private static final q(C)Z
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -491,13 +491,13 @@
 
 .method private static final s(C)Ljava/lang/String;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -518,7 +518,7 @@
 
     const-string v0, "(this as java.lang.Strin\u2026.toLowerCase(Locale.ROOT)"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
@@ -529,10 +529,10 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -541,7 +541,7 @@
 
     const-string v0, "locale"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0}, Ljava/lang/String;->valueOf(C)Ljava/lang/String;
@@ -558,20 +558,20 @@
 
     const-string p1, "(this as java.lang.String).toLowerCase(locale)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
 .method private static final u(C)C
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -585,10 +585,10 @@
 
 .method public static final v(C)Ljava/lang/String;
     .locals 5
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -612,7 +612,7 @@
 
     const-string v3, "(this as java.lang.Strin\u2026.toUpperCase(Locale.ROOT)"
 
-    invoke-static {v0, v3}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {v0}, Ljava/lang/String;->length()I
@@ -645,7 +645,7 @@
 
     const-string v3, "(this as java.lang.String).substring(startIndex)"
 
-    invoke-static {v0, v3}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0, v1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
@@ -655,7 +655,7 @@
 
     const-string v1, "(this as java.lang.Strin\u2026.toLowerCase(Locale.ROOT)"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -695,10 +695,10 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -707,10 +707,10 @@
 
     const-string v0, "locale"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/text/b;->C(CLjava/util/Locale;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcotlin/text/b;->C(CLjava/util/Locale;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -747,7 +747,7 @@
 
     const-string v0, "(this as java.lang.String).substring(startIndex)"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1, v1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
@@ -759,7 +759,7 @@
 
     const-string v0, "(this as java.lang.Strin\u2026.toLowerCase(Locale.ROOT)"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -796,9 +796,9 @@
 
     const-string v1, "(this as java.lang.Strin\u2026.toUpperCase(Locale.ROOT)"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -823,13 +823,13 @@
 
 .method private static final x(C)C
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -843,7 +843,7 @@
 
 .method private static final y(C)C
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -856,7 +856,7 @@
 
 .method private static final z(C)C
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1

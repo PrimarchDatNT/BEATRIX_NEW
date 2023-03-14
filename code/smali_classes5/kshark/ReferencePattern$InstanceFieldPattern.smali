@@ -19,7 +19,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -92,7 +92,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkshark/ReferencePattern$InstanceFieldPattern$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lkshark/ReferencePattern$InstanceFieldPattern$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lkshark/ReferencePattern$InstanceFieldPattern;->Companion:Lkshark/ReferencePattern$InstanceFieldPattern$a;
 
@@ -112,16 +112,16 @@
 
     const-string v0, "className"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "fieldName"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, v0}, Lkshark/ReferencePattern;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {p0, v0}, Lkshark/ReferencePattern;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lkshark/ReferencePattern$InstanceFieldPattern;->className:Ljava/lang/String;
 
@@ -191,11 +191,11 @@
 
     const-string v0, "className"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "fieldName"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Lkshark/ReferencePattern$InstanceFieldPattern;
 
@@ -223,7 +223,7 @@
 
     iget-object v1, p1, Lkshark/ReferencePattern$InstanceFieldPattern;->className:Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -233,7 +233,7 @@
 
     iget-object p1, p1, Lkshark/ReferencePattern$InstanceFieldPattern;->fieldName:Ljava/lang/String;
 
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 

@@ -1,4 +1,4 @@
-.class final Lkotlinx/coroutines/v$a;
+.class final Lcotlinx/coroutines/v$a;
 .super Ljava/lang/Object;
 .source "CommonPool.kt"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/v;->E()Ljava/util/concurrent/ExecutorService;
+    value = Lcotlinx/coroutines/v;->E()Ljava/util/concurrent/ExecutorService;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
     value = "SMAP\nCommonPool.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CommonPool.kt\nkotlinx/coroutines/CommonPool$createPlainPool$1\n*L\n1#1,142:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -55,7 +55,7 @@
 .method constructor <init>(Ljava/util/concurrent/atomic/AtomicInteger;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/v$a;->a:Ljava/util/concurrent/atomic/AtomicInteger;
+    iput-object p1, p0, Lcotlinx/coroutines/v$a;->a:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -80,7 +80,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v2, p0, Lkotlinx/coroutines/v$a;->a:Ljava/util/concurrent/atomic/AtomicInteger;
+    iget-object v2, p0, Lcotlinx/coroutines/v$a;->a:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v2}, Ljava/util/concurrent/atomic/AtomicInteger;->incrementAndGet()I
 

@@ -16,7 +16,7 @@
     value = "SMAP\nDoodleManagerViewHolder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DoodleManagerViewHolder.kt\ncom/commsource/studio/doodle/manager/DoodleManagerViewHolder\n*L\n1#1,74:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;",
         "Lcom/commsource/widget/h1/f;",
         "Lcom/commsource/studio/doodle/manager/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "C",
         "()V",
         "B",
@@ -55,7 +55,7 @@
         "context",
         "Lcom/commsource/studio/doodle/h;",
         "J",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "A",
         "()Lcom/commsource/studio/doodle/h;",
         "mViewModel",
@@ -75,7 +75,7 @@
 
 
 # instance fields
-.field private final J:Lkotlin/w;
+.field private final J:Lcotlin/w;
 
 .field private final K:Landroid/content/Context;
     .annotation build Ln/e/a/d;
@@ -99,11 +99,11 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "parent"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_doodle_manager:I
 
@@ -126,11 +126,11 @@
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder$mViewModel$2;-><init>(Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;)V
 
-    invoke-static {p2}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p2}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p2
 
-    iput-object p2, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->J:Lkotlin/w;
+    iput-object p2, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->J:Lcotlin/w;
 
     .line 4
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
@@ -163,9 +163,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->J:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->J:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -190,7 +190,7 @@
 
     const-string v2, "viewBinding.doodleCollect"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v2, Lcom/res/provider/ResSTRING;->if_doodle_collect:I
 
@@ -211,7 +211,7 @@
 
     const-string v3, "item"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -267,7 +267,7 @@
 
     const-string v2, "viewBinding.selectItem"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
 
@@ -275,7 +275,7 @@
 
     const-string v4, "item"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -325,7 +325,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -358,13 +358,13 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/me;->d:Lcom/commsource/widget/IconFrontView;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
 
     move-result-object v2
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -481,7 +481,7 @@
 
     const-string v1, "item"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V

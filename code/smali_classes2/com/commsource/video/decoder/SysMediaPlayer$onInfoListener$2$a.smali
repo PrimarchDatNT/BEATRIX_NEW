@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -151,7 +151,7 @@
 
     iget-object p2, p2, Lcom/commsource/video/decoder/SysMediaPlayer$onInfoListener$2;->this$0:Lcom/commsource/video/decoder/SysMediaPlayer;
 
-    invoke-virtual {p2}, Lcom/commsource/video/decoder/a;->y()Lkotlin/jvm/u/l;
+    invoke-virtual {p2}, Lcom/commsource/video/decoder/a;->y()Lcotlin/jvm/u/l;
 
     move-result-object p2
 
@@ -163,11 +163,11 @@
 
     move-result-object p3
 
-    invoke-interface {p2, p3}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
-    check-cast p2, Lkotlin/t1;
+    check-cast p2, Lcotlin/t1;
 
     :cond_2
     :goto_0

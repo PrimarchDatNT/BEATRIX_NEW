@@ -17,7 +17,7 @@
     value = "SMAP\nTestFuncFloatingWinService.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TestFuncFloatingWinService.kt\ncom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$ProcessStatusChangeBroadcastReceiver\n*L\n1#1,149:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "context",
         "Landroid/content/Intent;",
         "intent",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onReceive",
         "(Landroid/content/Context;Landroid/content/Intent;)V",
         "Ljava/lang/ref/WeakReference;",
@@ -77,7 +77,7 @@
 
     const-string v0, "service"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V

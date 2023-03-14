@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -163,7 +163,7 @@
     aput-object v2, v1, v3
 
     .line 13
-    invoke-static {v1}, Lkotlin/collections/s;->P([Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v1}, Lcotlin/collections/s;->P([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v1
 

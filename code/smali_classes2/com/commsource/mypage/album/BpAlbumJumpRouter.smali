@@ -8,7 +8,7 @@
     value = "SMAP\nBpAlbumJumpRouter.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpAlbumJumpRouter.kt\ncom/commsource/mypage/album/BpAlbumJumpRouter\n*L\n1#1,600:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,7 +24,7 @@
         "activity",
         "",
         "mFunMode",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "r",
         "(Landroid/app/Activity;I)V",
         "i",
@@ -44,24 +44,24 @@
         "backHome",
         "s",
         "(Landroid/app/Activity;Z)V",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "Lcom/commsource/cloudalbum/bean/CAImageInfo;",
-        "Lkotlin/k0;",
+        "Lcotlin/k0;",
         "name",
         "info",
         "imageCallback",
         "m",
-        "(Landroidx/fragment/app/FragmentActivity;Lkotlin/jvm/u/l;)V",
-        "Lkotlin/Function2;",
+        "(Landroidx/fragment/app/FragmentActivity;Lcotlin/jvm/u/l;)V",
+        "Lcotlin/Function2;",
         "faceIndex",
         "k",
-        "(Landroidx/fragment/app/FragmentActivity;Lkotlin/jvm/u/p;)V",
+        "(Landroidx/fragment/app/FragmentActivity;Lcotlin/jvm/u/p;)V",
         "j",
         "p",
         "needFace",
         "ratioString",
         "g",
-        "(Landroidx/fragment/app/FragmentActivity;ZLjava/lang/String;Lkotlin/jvm/u/l;)V",
+        "(Landroidx/fragment/app/FragmentActivity;ZLjava/lang/String;Lcotlin/jvm/u/l;)V",
         "Lcom/commsource/beautyplus/router/RouterEntity;",
         "routerEntity",
         "u",
@@ -214,13 +214,13 @@
 
 
 # virtual methods
-.method public final a(Landroidx/fragment/app/FragmentActivity;Lkotlin/jvm/u/l;)V
+.method public final a(Landroidx/fragment/app/FragmentActivity;Lcotlin/jvm/u/l;)V
     .locals 8
     .param p1    # Landroidx/fragment/app/FragmentActivity;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -228,10 +228,10 @@
         value = {
             "(",
             "Landroidx/fragment/app/FragmentActivity;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/cloudalbum/bean/CAImageInfo;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -242,11 +242,11 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "imageCallback"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
@@ -304,7 +304,7 @@
     .line 12
     new-instance v3, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;
 
-    invoke-direct {v3, v2, p2}, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;-><init>(Landroid/content/Intent;Lkotlin/jvm/u/l;)V
+    invoke-direct {v3, v2, p2}, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;-><init>(Landroid/content/Intent;Lcotlin/jvm/u/l;)V
 
     .line 13
     invoke-virtual {v1, v3}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
@@ -345,11 +345,11 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "albumSetting"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p2}, Lcom/commsource/mypage/album/AlbumSetting;->getBackUpDownAnimate()Z
@@ -390,7 +390,7 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
@@ -465,7 +465,7 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
@@ -545,7 +545,7 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
@@ -621,7 +621,7 @@
     return-void
 .end method
 
-.method public final g(Landroidx/fragment/app/FragmentActivity;ZLjava/lang/String;Lkotlin/jvm/u/l;)V
+.method public final g(Landroidx/fragment/app/FragmentActivity;ZLjava/lang/String;Lcotlin/jvm/u/l;)V
     .locals 8
     .param p1    # Landroidx/fragment/app/FragmentActivity;
         .annotation build Ln/e/a/d;
@@ -631,7 +631,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p4    # Lkotlin/jvm/u/l;
+    .param p4    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -641,10 +641,10 @@
             "Landroidx/fragment/app/FragmentActivity;",
             "Z",
             "Ljava/lang/String;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/cloudalbum/bean/CAImageInfo;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -655,11 +655,11 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "imageCallback"
 
-    invoke-static {p4, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
@@ -742,7 +742,7 @@
     .line 19
     new-instance p3, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;
 
-    invoke-direct {p3, v1, p4}, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;-><init>(Landroid/content/Intent;Lkotlin/jvm/u/l;)V
+    invoke-direct {p3, v1, p4}, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;-><init>(Landroid/content/Intent;Lcotlin/jvm/u/l;)V
 
     .line 20
     invoke-virtual {p2, p3}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
@@ -783,11 +783,11 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "endAnchorPath"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
@@ -825,7 +825,7 @@
 
     const-string v2, "PathUtil.getHelpSelfiePathPrefix()"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setFilterPathPrefix(Ljava/lang/String;)V
 
@@ -879,7 +879,7 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
@@ -933,13 +933,13 @@
     return-void
 .end method
 
-.method public final j(Landroidx/fragment/app/FragmentActivity;Lkotlin/jvm/u/l;)V
+.method public final j(Landroidx/fragment/app/FragmentActivity;Lcotlin/jvm/u/l;)V
     .locals 8
     .param p1    # Landroidx/fragment/app/FragmentActivity;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -947,10 +947,10 @@
         value = {
             "(",
             "Landroidx/fragment/app/FragmentActivity;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/cloudalbum/bean/CAImageInfo;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -961,11 +961,11 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "imageCallback"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
@@ -1026,7 +1026,7 @@
     .line 13
     new-instance v3, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;
 
-    invoke-direct {v3, v2, p2}, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;-><init>(Landroid/content/Intent;Lkotlin/jvm/u/l;)V
+    invoke-direct {v3, v2, p2}, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;-><init>(Landroid/content/Intent;Lcotlin/jvm/u/l;)V
 
     .line 14
     invoke-virtual {v1, v3}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
@@ -1050,13 +1050,13 @@
     return-void
 .end method
 
-.method public final k(Landroidx/fragment/app/FragmentActivity;Lkotlin/jvm/u/p;)V
+.method public final k(Landroidx/fragment/app/FragmentActivity;Lcotlin/jvm/u/p;)V
     .locals 8
     .param p1    # Landroidx/fragment/app/FragmentActivity;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/p;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1064,12 +1064,12 @@
         value = {
             "(",
             "Landroidx/fragment/app/FragmentActivity;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Lcom/commsource/cloudalbum/bean/CAImageInfo;",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1080,11 +1080,11 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "imageCallback"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
@@ -1133,7 +1133,7 @@
 
     const-string v2, "ResourcesUtils.getString\u2026ontage_choose_face_photo)"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setSelectImageTips(Ljava/lang/String;)V
 
@@ -1164,7 +1164,7 @@
     .line 16
     new-instance v3, Lcom/commsource/mypage/album/AlbumReturnOneFaceImageCallback$a;
 
-    invoke-direct {v3, v2, p2}, Lcom/commsource/mypage/album/AlbumReturnOneFaceImageCallback$a;-><init>(Landroid/content/Intent;Lkotlin/jvm/u/p;)V
+    invoke-direct {v3, v2, p2}, Lcom/commsource/mypage/album/AlbumReturnOneFaceImageCallback$a;-><init>(Landroid/content/Intent;Lcotlin/jvm/u/p;)V
 
     .line 17
     invoke-virtual {v1, v3}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
@@ -1201,7 +1201,7 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/mypage/album/AlbumSetting;
@@ -1244,13 +1244,13 @@
     return-void
 .end method
 
-.method public final m(Landroidx/fragment/app/FragmentActivity;Lkotlin/jvm/u/l;)V
+.method public final m(Landroidx/fragment/app/FragmentActivity;Lcotlin/jvm/u/l;)V
     .locals 8
     .param p1    # Landroidx/fragment/app/FragmentActivity;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1258,10 +1258,10 @@
         value = {
             "(",
             "Landroidx/fragment/app/FragmentActivity;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/cloudalbum/bean/CAImageInfo;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1272,11 +1272,11 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "imageCallback"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
@@ -1343,7 +1343,7 @@
     .line 15
     new-instance v3, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;
 
-    invoke-direct {v3, v2, p2}, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;-><init>(Landroid/content/Intent;Lkotlin/jvm/u/l;)V
+    invoke-direct {v3, v2, p2}, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;-><init>(Landroid/content/Intent;Lcotlin/jvm/u/l;)V
 
     .line 16
     invoke-virtual {v1, v3}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
@@ -1384,11 +1384,11 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "routerEntity"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
@@ -1449,7 +1449,7 @@
 
     const-string p3, "ResourcesUtils.getString\u2026ing.select_to_try_filter)"
 
-    invoke-static {p2, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -1463,7 +1463,7 @@
 
     const-string p3, "ResourcesUtils.getString\u2026ng.select_to_try_feature)"
 
-    invoke-static {p2, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 11
     :goto_0
@@ -1503,13 +1503,13 @@
     return-void
 .end method
 
-.method public final p(Landroidx/fragment/app/FragmentActivity;Lkotlin/jvm/u/l;)V
+.method public final p(Landroidx/fragment/app/FragmentActivity;Lcotlin/jvm/u/l;)V
     .locals 8
     .param p1    # Landroidx/fragment/app/FragmentActivity;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1517,10 +1517,10 @@
         value = {
             "(",
             "Landroidx/fragment/app/FragmentActivity;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lcom/commsource/cloudalbum/bean/CAImageInfo;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1531,11 +1531,11 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "imageCallback"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
@@ -1594,7 +1594,7 @@
     .line 13
     new-instance v3, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;
 
-    invoke-direct {v3, v2, p2}, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;-><init>(Landroid/content/Intent;Lkotlin/jvm/u/l;)V
+    invoke-direct {v3, v2, p2}, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;-><init>(Landroid/content/Intent;Lcotlin/jvm/u/l;)V
 
     .line 14
     invoke-virtual {v1, v3}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
@@ -1631,7 +1631,7 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/mypage/album/AlbumSetting;
@@ -1687,7 +1687,7 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Landroid/os/Bundle;
@@ -1790,7 +1790,7 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;
@@ -1883,7 +1883,7 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v4, Lcom/commsource/mypage/album/AlbumSetting;

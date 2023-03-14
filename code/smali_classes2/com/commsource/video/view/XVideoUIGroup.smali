@@ -8,7 +8,7 @@
     value = "SMAP\nXVideoUIGroup.kt\nKotlin\n*S Kotlin\n*F\n+ 1 XVideoUIGroup.kt\ncom/commsource/video/view/XVideoUIGroup\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,146:1\n1819#2,2:147\n1819#2,2:149\n1819#2,2:151\n1819#2,2:153\n1819#2,2:155\n1819#2,2:157\n1819#2,2:159\n1819#2,2:161\n1819#2,2:163\n*E\n*S KotlinDebug\n*F\n+ 1 XVideoUIGroup.kt\ncom/commsource/video/view/XVideoUIGroup\n*L\n45#1,2:147\n51#1,2:149\n105#1,2:151\n111#1,2:153\n117#1,2:155\n123#1,2:157\n129#1,2:159\n135#1,2:161\n141#1,2:163\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "Landroid/widget/FrameLayout;",
         "Lcom/commsource/video/f;",
         "uiPackage",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "(Lcom/commsource/video/f;)V",
         "d",
@@ -66,12 +66,12 @@
         "setGestureCover",
         "(Lcom/commsource/video/cover/GestureVideoCover;)V",
         "gestureCover",
-        "Lkotlin/Function0;",
-        "Lkotlin/jvm/u/a;",
+        "Lcotlin/Function0;",
+        "Lcotlin/jvm/u/a;",
         "getRequestCurrentPosition",
-        "()Lkotlin/jvm/u/a;",
+        "()Lcotlin/jvm/u/a;",
         "setRequestCurrentPosition",
-        "(Lkotlin/jvm/u/a;)V",
+        "(Lcotlin/jvm/u/a;)V",
         "requestCurrentPosition",
         "getRequestPause",
         "setRequestPause",
@@ -84,15 +84,15 @@
         "f",
         "setPlaying",
         "isPlaying",
-        "Lkotlin/Function1;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function1;",
+        "Lcotlin/k0;",
         "name",
         "J",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "getRequestSeekTo",
-        "()Lkotlin/jvm/u/l;",
+        "()Lcotlin/jvm/u/l;",
         "setRequestSeekTo",
-        "(Lkotlin/jvm/u/l;)V",
+        "(Lcotlin/jvm/u/l;)V",
         "requestSeekTo",
         "getRequestFullScreen",
         "setRequestFullScreen",
@@ -118,13 +118,13 @@
 
 
 # instance fields
-.field private J:Lkotlin/jvm/u/l;
+.field private J:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -145,10 +145,10 @@
     .end annotation
 .end field
 
-.field private c:Lkotlin/jvm/u/a;
+.field private c:Lcotlin/jvm/u/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/jvm/u/a<",
             "Ljava/lang/Boolean;",
             ">;"
         }
@@ -158,13 +158,13 @@
     .end annotation
 .end field
 
-.field private d:Lkotlin/jvm/u/l;
+.field private d:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -173,11 +173,11 @@
     .end annotation
 .end field
 
-.field private f:Lkotlin/jvm/u/a;
+.field private f:Lcotlin/jvm/u/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -186,11 +186,11 @@
     .end annotation
 .end field
 
-.field private g:Lkotlin/jvm/u/a;
+.field private g:Lcotlin/jvm/u/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -199,11 +199,11 @@
     .end annotation
 .end field
 
-.field private p:Lkotlin/jvm/u/a;
+.field private p:Lcotlin/jvm/u/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -220,14 +220,14 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const/4 v0, 0x0
 
     const/4 v1, 0x2
 
-    invoke-direct {p0, p1, v0, v1, v0}, Lcom/commsource/video/view/XVideoUIGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, p1, v0, v1, v0}, Lcom/commsource/video/view/XVideoUIGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -242,12 +242,12 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -262,7 +262,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p3, p3, 0x2
@@ -362,7 +362,7 @@
 
     const-string v1, "uiPackage"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lcom/commsource/video/f;->d()Ljava/util/List;
@@ -510,12 +510,12 @@
     return-void
 .end method
 
-.method public final f()Lkotlin/jvm/u/a;
+.method public final f()Lcotlin/jvm/u/a;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/jvm/u/a<",
             "Ljava/lang/Boolean;",
             ">;"
         }
@@ -529,7 +529,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->c:Lkotlin/jvm/u/a;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->c:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -544,11 +544,11 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->c:Lkotlin/jvm/u/a;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->c:Lcotlin/jvm/u/a;
 
     if-eqz v1, :cond_0
 
-    invoke-interface {v1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -588,13 +588,13 @@
     return-object v1
 .end method
 
-.method public final getRequestCurrentPosition()Lkotlin/jvm/u/a;
+.method public final getRequestCurrentPosition()Lcotlin/jvm/u/a;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -607,21 +607,21 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->p:Lkotlin/jvm/u/a;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->p:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 .end method
 
-.method public final getRequestFullScreen()Lkotlin/jvm/u/l;
+.method public final getRequestFullScreen()Lcotlin/jvm/u/l;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -634,20 +634,20 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->d:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->d:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 .end method
 
-.method public final getRequestPause()Lkotlin/jvm/u/a;
+.method public final getRequestPause()Lcotlin/jvm/u/a;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -660,21 +660,21 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->g:Lkotlin/jvm/u/a;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->g:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 .end method
 
-.method public final getRequestSeekTo()Lkotlin/jvm/u/l;
+.method public final getRequestSeekTo()Lcotlin/jvm/u/l;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -687,20 +687,20 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->J:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->J:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 .end method
 
-.method public final getRequestStart()Lkotlin/jvm/u/a;
+.method public final getRequestStart()Lcotlin/jvm/u/a;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -713,7 +713,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->f:Lkotlin/jvm/u/a;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->f:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1107,15 +1107,15 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->p:Lkotlin/jvm/u/a;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->p:Lcotlin/jvm/u/a;
 
     if-eqz v1, :cond_0
 
-    invoke-interface {v1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/t1;
+    check-cast v1, Lcotlin/t1;
 
     .line 2
     :cond_0
@@ -1132,7 +1132,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->d:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->d:Lcotlin/jvm/u/l;
 
     if-eqz v1, :cond_0
 
@@ -1140,11 +1140,11 @@
 
     move-result-object p1
 
-    invoke-interface {v1, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 2
     :cond_0
@@ -1161,15 +1161,15 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->g:Lkotlin/jvm/u/a;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->g:Lcotlin/jvm/u/a;
 
     if-eqz v1, :cond_0
 
-    invoke-interface {v1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/t1;
+    check-cast v1, Lcotlin/t1;
 
     .line 2
     :cond_0
@@ -1191,7 +1191,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->J:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->J:Lcotlin/jvm/u/l;
 
     if-eqz v1, :cond_0
 
@@ -1199,11 +1199,11 @@
 
     move-result-object p1
 
-    invoke-interface {v1, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 2
     :cond_0
@@ -1225,7 +1225,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/video/view/XVideoUIGroup;->b:Lcom/commsource/video/cover/GestureVideoCover;
@@ -1235,16 +1235,16 @@
     return-void
 .end method
 
-.method public final setPlaying(Lkotlin/jvm/u/a;)V
+.method public final setPlaying(Lcotlin/jvm/u/a;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/jvm/u/a<",
             "Ljava/lang/Boolean;",
             ">;)V"
         }
@@ -1255,24 +1255,24 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/video/view/XVideoUIGroup;->c:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/video/view/XVideoUIGroup;->c:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public final setRequestCurrentPosition(Lkotlin/jvm/u/a;)V
+.method public final setRequestCurrentPosition(Lcotlin/jvm/u/a;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1282,26 +1282,26 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/video/view/XVideoUIGroup;->p:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/video/view/XVideoUIGroup;->p:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public final setRequestFullScreen(Lkotlin/jvm/u/l;)V
+.method public final setRequestFullScreen(Lcotlin/jvm/u/l;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1311,24 +1311,24 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/video/view/XVideoUIGroup;->d:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/video/view/XVideoUIGroup;->d:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public final setRequestPause(Lkotlin/jvm/u/a;)V
+.method public final setRequestPause(Lcotlin/jvm/u/a;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1338,26 +1338,26 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/video/view/XVideoUIGroup;->g:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/video/view/XVideoUIGroup;->g:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public final setRequestSeekTo(Lkotlin/jvm/u/l;)V
+.method public final setRequestSeekTo(Lcotlin/jvm/u/l;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1367,24 +1367,24 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/video/view/XVideoUIGroup;->J:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/video/view/XVideoUIGroup;->J:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public final setRequestStart(Lkotlin/jvm/u/a;)V
+.method public final setRequestStart(Lcotlin/jvm/u/a;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1394,7 +1394,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/video/view/XVideoUIGroup;->f:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/video/view/XVideoUIGroup;->f:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1428,15 +1428,15 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->f:Lkotlin/jvm/u/a;
+    iget-object v1, p0, Lcom/commsource/video/view/XVideoUIGroup;->f:Lcotlin/jvm/u/a;
 
     if-eqz v1, :cond_0
 
-    invoke-interface {v1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/t1;
+    check-cast v1, Lcotlin/t1;
 
     .line 2
     :cond_0

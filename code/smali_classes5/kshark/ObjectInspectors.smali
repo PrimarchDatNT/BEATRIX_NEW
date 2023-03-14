@@ -31,7 +31,7 @@
     value = "SMAP\nObjectInspectors.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ObjectInspectors.kt\nkshark/ObjectInspectors\n*L\n1#1,156:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -44,16 +44,16 @@
         "Lkshark/ObjectInspectors;",
         "",
         "Lkshark/u;",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "Lkshark/HeapObject;",
-        "Lkotlin/k0;",
+        "Lcotlin/k0;",
         "name",
         "heapObject",
         "",
         "leakingObjectFilter",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "getLeakingObjectFilter$shark",
-        "()Lkotlin/jvm/u/l;",
+        "()Lcotlin/jvm/u/l;",
         "<init>",
         "(Ljava/lang/String;I)V",
         "Companion",
@@ -81,7 +81,7 @@
 
 .field private static final ANONYMOUS_CLASS_NAME_PATTERN:Ljava/lang/String; = "^.+\\$\\d+$"
 
-.field private static final ANONYMOUS_CLASS_NAME_PATTERN_REGEX:Lkotlin/text/Regex;
+.field private static final ANONYMOUS_CLASS_NAME_PATTERN_REGEX:Lcotlin/text/Regex;
 
 .field public static final enum CLASS:Lkshark/ObjectInspectors;
 
@@ -108,10 +108,10 @@
 
 
 # instance fields
-.field private final leakingObjectFilter:Lkotlin/jvm/u/l;
+.field private final leakingObjectFilter:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Lkshark/HeapObject;",
             "Ljava/lang/Boolean;",
             ">;"
@@ -197,18 +197,18 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkshark/ObjectInspectors$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lkshark/ObjectInspectors$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lkshark/ObjectInspectors;->Companion:Lkshark/ObjectInspectors$a;
 
     .line 1
-    new-instance v1, Lkotlin/text/Regex;
+    new-instance v1, Lcotlin/text/Regex;
 
     const-string v2, "^.+\\$\\d+$"
 
-    invoke-direct {v1, v2}, Lkotlin/text/Regex;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/text/Regex;-><init>(Ljava/lang/String;)V
 
-    sput-object v1, Lkshark/ObjectInspectors;->ANONYMOUS_CLASS_NAME_PATTERN_REGEX:Lkotlin/text/Regex;
+    sput-object v1, Lkshark/ObjectInspectors;->ANONYMOUS_CLASS_NAME_PATTERN_REGEX:Lcotlin/text/Regex;
 
     .line 2
     const-class v1, Lkshark/ObjectInspectors;
@@ -219,7 +219,7 @@
 
     const-string v2, "EnumSet.allOf(ObjectInspectors::class.java)"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0, v1}, Lkshark/ObjectInspectors$a;->a(Ljava/util/Set;)Ljava/util/List;
 
@@ -244,7 +244,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -253,11 +253,11 @@
     return-void
 .end method
 
-.method public static final synthetic access$getANONYMOUS_CLASS_NAME_PATTERN_REGEX$cp()Lkotlin/text/Regex;
+.method public static final synthetic access$getANONYMOUS_CLASS_NAME_PATTERN_REGEX$cp()Lcotlin/text/Regex;
     .locals 1
 
     .line 1
-    sget-object v0, Lkshark/ObjectInspectors;->ANONYMOUS_CLASS_NAME_PATTERN_REGEX:Lkotlin/text/Regex;
+    sget-object v0, Lkshark/ObjectInspectors;->ANONYMOUS_CLASS_NAME_PATTERN_REGEX:Lcotlin/text/Regex;
 
     return-object v0
 .end method
@@ -301,12 +301,12 @@
 
 
 # virtual methods
-.method public getLeakingObjectFilter$shark()Lkotlin/jvm/u/l;
+.method public getLeakingObjectFilter$shark()Lcotlin/jvm/u/l;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Lkshark/HeapObject;",
             "Ljava/lang/Boolean;",
             ">;"
@@ -317,7 +317,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkshark/ObjectInspectors;->leakingObjectFilter:Lkotlin/jvm/u/l;
+    iget-object v0, p0, Lkshark/ObjectInspectors;->leakingObjectFilter:Lcotlin/jvm/u/l;
 
     return-object v0
 .end method

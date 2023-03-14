@@ -16,7 +16,7 @@
     name = "b"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "",
         "width",
         "height",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onSurfaceTextureAvailable",
         "(Landroid/graphics/SurfaceTexture;II)V",
         "onSurfaceTextureSizeChanged",
@@ -91,7 +91,7 @@
 
     const-string v1, "surface"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView$b;->a:Lcom/commsource/video/render/RenderTextureView;
@@ -132,7 +132,7 @@
 
     const-string v1, "surface"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView$b;->a:Lcom/commsource/video/render/RenderTextureView;
@@ -161,7 +161,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -240,7 +240,7 @@
 
     const-string v1, "surface"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView$b;->a:Lcom/commsource/video/render/RenderTextureView;
@@ -283,7 +283,7 @@
 
     const-string v1, "surface"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

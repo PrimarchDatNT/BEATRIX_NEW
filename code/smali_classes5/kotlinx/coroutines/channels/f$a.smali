@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/channels/f$a;
+.class public final Lcotlinx/coroutines/channels/f$a;
 .super Ljava/lang/Object;
 .source "Actor.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/channels/f;
+    value = Lcotlinx/coroutines/channels/f;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,24 +31,24 @@
 
 
 # direct methods
-.method public static synthetic a(Lkotlinx/coroutines/channels/f;)V
+.method public static synthetic a(Lcotlinx/coroutines/channels/f;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/f<",
+            "Lcotlinx/coroutines/channels/f<",
             "TE;>;)V"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->HIDDEN:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->HIDDEN:Lcotlin/DeprecationLevel;
         message = "Since 1.2.0, binary compatibility with versions <= 1.1.x"
     .end annotation
 
-    invoke-static {p0}, Lkotlinx/coroutines/channels/y$a;->a(Lkotlinx/coroutines/channels/y;)V
+    invoke-static {p0}, Lcotlinx/coroutines/channels/y$a;->a(Lcotlinx/coroutines/channels/y;)V
 
     return-void
 .end method

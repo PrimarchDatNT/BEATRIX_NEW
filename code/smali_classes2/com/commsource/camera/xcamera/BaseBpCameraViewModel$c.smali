@@ -20,7 +20,7 @@
     value = "SMAP\nBaseBpCameraViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BaseBpCameraViewModel.kt\ncom/commsource/camera/xcamera/BaseBpCameraViewModel$BpVideoRecordListener\n*L\n1#1,1218:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "Lcom/meitu/library/camera/p/d/b$f;",
         "",
         "time",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(J)V",
         "",
@@ -170,7 +170,7 @@
 
     const-string p1, "recordResultData.videoFile"
 
-    invoke-static {v8, p1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     invoke-interface/range {v3 .. v8}, Lcom/commsource/camera/xcamera/l;->a(IIJLjava/lang/String;)V
@@ -190,7 +190,7 @@
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->b:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
-    invoke-virtual {p1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->p0()Lkotlin/jvm/u/l;
+    invoke-virtual {p1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->p0()Lcotlin/jvm/u/l;
 
     move-result-object p1
 
@@ -198,11 +198,11 @@
 
     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 11
     :cond_1
@@ -237,7 +237,7 @@
     :cond_0
     iget-object v0, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->b:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
-    invoke-virtual {v0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->p0()Lkotlin/jvm/u/l;
+    invoke-virtual {v0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->p0()Lcotlin/jvm/u/l;
 
     move-result-object v0
 
@@ -245,11 +245,11 @@
 
     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    invoke-interface {v0, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkotlin/t1;
+    check-cast v0, Lcotlin/t1;
 
     .line 3
     :cond_1
@@ -296,7 +296,7 @@
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->b:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
-    invoke-virtual {v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->p0()Lkotlin/jvm/u/l;
+    invoke-virtual {v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->p0()Lcotlin/jvm/u/l;
 
     move-result-object v1
 
@@ -304,11 +304,11 @@
 
     sget-object v2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-interface {v1, v2}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/t1;
+    check-cast v1, Lcotlin/t1;
 
     .line 5
     :cond_1

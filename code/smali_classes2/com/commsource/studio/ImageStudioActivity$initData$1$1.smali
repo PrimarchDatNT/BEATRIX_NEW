@@ -17,7 +17,7 @@
     value = "SMAP\nImageStudioActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ImageStudioActivity.kt\ncom/commsource/studio/ImageStudioActivity$initData$1$1\n*L\n1#1,1536:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
     d2 = {
         "com/commsource/studio/ImageStudioActivity$initData$1$1",
         "Lcom/commsource/util/u2/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "app_googleplayRelease"
@@ -95,7 +95,7 @@
 
     const-string v3, "this@ImageStudioActivity.intent"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->I1(Landroid/content/Intent;)Z
 
@@ -125,7 +125,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->n1(Landroid/content/Intent;)Z
 
@@ -190,7 +190,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/ImageStudioActivity$initData$1$1$execute$3;-><init>(Lcom/commsource/studio/ImageStudioActivity$initData$1$1;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lcotlin/jvm/u/a;)V
 
     .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

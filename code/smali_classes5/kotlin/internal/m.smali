@@ -1,10 +1,10 @@
-.class public final Lkotlin/internal/m;
+.class public final Lcotlin/internal/m;
 .super Ljava/lang/Object;
 .source "progressionUtil.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,17 +45,17 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p2}, Lkotlin/internal/m;->e(II)I
+    invoke-static {p0, p2}, Lcotlin/internal/m;->e(II)I
 
     move-result p0
 
-    invoke-static {p1, p2}, Lkotlin/internal/m;->e(II)I
+    invoke-static {p1, p2}, Lcotlin/internal/m;->e(II)I
 
     move-result p1
 
     sub-int/2addr p0, p1
 
-    invoke-static {p0, p2}, Lkotlin/internal/m;->e(II)I
+    invoke-static {p0, p2}, Lcotlin/internal/m;->e(II)I
 
     move-result p0
 
@@ -66,17 +66,17 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p4, p5}, Lkotlin/internal/m;->f(JJ)J
+    invoke-static {p0, p1, p4, p5}, Lcotlin/internal/m;->f(JJ)J
 
     move-result-wide p0
 
-    invoke-static {p2, p3, p4, p5}, Lkotlin/internal/m;->f(JJ)J
+    invoke-static {p2, p3, p4, p5}, Lcotlin/internal/m;->f(JJ)J
 
     move-result-wide p2
 
     sub-long/2addr p0, p2
 
-    invoke-static {p0, p1, p4, p5}, Lkotlin/internal/m;->f(JJ)J
+    invoke-static {p0, p1, p4, p5}, Lcotlin/internal/m;->f(JJ)J
 
     move-result-wide p0
 
@@ -85,7 +85,7 @@
 
 .method public static final c(III)I
     .locals 0
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     if-lez p2, :cond_1
@@ -96,7 +96,7 @@
 
     .line 1
     :cond_0
-    invoke-static {p1, p0, p2}, Lkotlin/internal/m;->a(III)I
+    invoke-static {p1, p0, p2}, Lcotlin/internal/m;->a(III)I
 
     move-result p0
 
@@ -115,7 +115,7 @@
     neg-int p2, p2
 
     .line 2
-    invoke-static {p0, p1, p2}, Lkotlin/internal/m;->a(III)I
+    invoke-static {p0, p1, p2}, Lcotlin/internal/m;->a(III)I
 
     move-result p0
 
@@ -137,7 +137,7 @@
 
 .method public static final d(JJJ)J
     .locals 7
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     const-wide/16 v0, 0x0
@@ -160,7 +160,7 @@
     move-wide v4, p4
 
     .line 1
-    invoke-static/range {v0 .. v5}, Lkotlin/internal/m;->b(JJJ)J
+    invoke-static/range {v0 .. v5}, Lcotlin/internal/m;->b(JJJ)J
 
     move-result-wide p0
 
@@ -185,7 +185,7 @@
     move-wide v3, p2
 
     .line 2
-    invoke-static/range {v1 .. v6}, Lkotlin/internal/m;->b(JJJ)J
+    invoke-static/range {v1 .. v6}, Lcotlin/internal/m;->b(JJJ)J
 
     move-result-wide p0
 

@@ -34,7 +34,7 @@
     value = "SMAP\nWaterMarkFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 WaterMarkFragment.kt\ncom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$initView$5\n*L\n1#1,114:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -48,7 +48,7 @@
         "Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/util/List;)V"
     }

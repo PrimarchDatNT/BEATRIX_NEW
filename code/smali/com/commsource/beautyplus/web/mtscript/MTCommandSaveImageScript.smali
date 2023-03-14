@@ -11,7 +11,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
         "Lcom/meitu/webview/mtscript/i;",
         "Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$Model;",
         "model",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "K",
         "(Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$Model;)V",
         "L",
@@ -78,7 +78,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript;->h:Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$a;
 

@@ -1,20 +1,20 @@
-.class public interface abstract Lkotlin/jvm/internal/a0;
+.class public interface abstract Lcotlin/jvm/internal/a0;
 .super Ljava/lang/Object;
 .source "FunctionAdapter.java"
 
 
 # annotations
-.annotation build Lkotlin/s0;
+.annotation build Lcotlin/s0;
     version = "1.4"
 .end annotation
 
 
 # virtual methods
-.method public abstract a()Lkotlin/r;
+.method public abstract a()Lcotlin/r;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/r<",
+            "Lcotlin/r<",
             "*>;"
         }
     .end annotation

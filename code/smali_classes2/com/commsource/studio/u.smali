@@ -8,7 +8,7 @@
     value = "SMAP\nGestureAdjustHelper.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GestureAdjustHelper.kt\ncom/commsource/studio/GestureAdjustHelper\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,331:1\n13506#2,2:332\n13506#2,2:334\n*E\n*S KotlinDebug\n*F\n+ 1 GestureAdjustHelper.kt\ncom/commsource/studio/GestureAdjustHelper\n*L\n114#1,2:332\n248#1,2:334\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/studio/u;",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "()V",
         "",
@@ -180,7 +180,7 @@
 
     move-object v0, p0
 
-    invoke-direct/range {v0 .. v7}, Lcom/commsource/studio/u;-><init>(FFFFLcom/commsource/studio/MatrixBox;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v7}, Lcom/commsource/studio/u;-><init>(FFFFLcom/commsource/studio/MatrixBox;ILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -198,7 +198,7 @@
 
     const-string v2, "positionMatrix"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -236,7 +236,7 @@
 
     move-object v1, v7
 
-    invoke-direct/range {v1 .. v6}, Lcom/commsource/studio/c;-><init>(FFFILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v1 .. v6}, Lcom/commsource/studio/c;-><init>(FFFILcotlin/jvm/internal/u;)V
 
     iput-object v7, v0, Lcom/commsource/studio/u;->c:Lcom/commsource/studio/c;
 
@@ -255,7 +255,7 @@
 
     move-object v8, v1
 
-    invoke-direct/range {v8 .. v13}, Lcom/commsource/studio/c;-><init>(FFFILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v8 .. v13}, Lcom/commsource/studio/c;-><init>(FFFILcotlin/jvm/internal/u;)V
 
     iput-object v1, v0, Lcom/commsource/studio/u;->d:Lcom/commsource/studio/c;
 
@@ -341,7 +341,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(FFFFLcom/commsource/studio/MatrixBox;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(FFFFLcom/commsource/studio/MatrixBox;ILcotlin/jvm/internal/u;)V
     .locals 3
 
     and-int/lit8 p7, p6, 0x1
@@ -557,7 +557,7 @@
     aget-object v8, v2, v6
 
     .line 17
-    invoke-virtual {v8, v1}, Lcom/commsource/studio/c;->a(F)Lkotlin/Triple;
+    invoke-virtual {v8, v1}, Lcom/commsource/studio/c;->a(F)Lcotlin/Triple;
 
     move-result-object v8
 
@@ -566,7 +566,7 @@
     .line 18
     iget-object v9, p0, Lcom/commsource/studio/u;->q:Lcom/commsource/studio/MatrixBox;
 
-    invoke-virtual {v8}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v8}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v10
 
@@ -585,7 +585,7 @@
     invoke-virtual {v9, v10, v12, v11}, Lcom/commsource/studio/MatrixBox;->postRotate(FFF)V
 
     .line 19
-    invoke-virtual {v8}, Lkotlin/Triple;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v8}, Lcotlin/Triple;->getSecond()Ljava/lang/Object;
 
     move-result-object v9
 
@@ -600,7 +600,7 @@
     .line 20
     iget-object v9, p0, Lcom/commsource/studio/u;->i:Lcom/commsource/studio/MatrixBox;
 
-    invoke-virtual {v8}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v8}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v10
 
@@ -620,7 +620,7 @@
 
     .line 21
     :cond_4
-    invoke-virtual {v8}, Lkotlin/Triple;->getThird()Ljava/lang/Object;
+    invoke-virtual {v8}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
     move-result-object v8
 
@@ -646,7 +646,7 @@
 
     aget v2, v2, v3
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/c;->a(F)Lkotlin/Triple;
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/c;->a(F)Lcotlin/Triple;
 
     move-result-object v1
 
@@ -657,7 +657,7 @@
     .line 24
     iget-object v3, p0, Lcom/commsource/studio/u;->q:Lcom/commsource/studio/MatrixBox;
 
-    invoke-virtual {v1}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v5
 
@@ -670,7 +670,7 @@
     invoke-virtual {v3, v2, v5}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
     .line 25
-    invoke-virtual {v1}, Lkotlin/Triple;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Triple;->getSecond()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -685,7 +685,7 @@
     .line 26
     iget-object v3, p0, Lcom/commsource/studio/u;->i:Lcom/commsource/studio/MatrixBox;
 
-    invoke-virtual {v1}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v5
 
@@ -699,7 +699,7 @@
 
     .line 27
     :cond_7
-    invoke-virtual {v1}, Lkotlin/Triple;->getThird()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -720,7 +720,7 @@
 
     aget v3, v3, v4
 
-    invoke-virtual {v1, v3}, Lcom/commsource/studio/c;->a(F)Lkotlin/Triple;
+    invoke-virtual {v1, v3}, Lcom/commsource/studio/c;->a(F)Lcotlin/Triple;
 
     move-result-object v1
 
@@ -729,7 +729,7 @@
     .line 30
     iget-object v3, p0, Lcom/commsource/studio/u;->q:Lcom/commsource/studio/MatrixBox;
 
-    invoke-virtual {v1}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v4
 
@@ -742,7 +742,7 @@
     invoke-virtual {v3, v4, v2}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
     .line 31
-    invoke-virtual {v1}, Lkotlin/Triple;->getSecond()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Triple;->getSecond()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -757,7 +757,7 @@
     .line 32
     iget-object v3, p0, Lcom/commsource/studio/u;->i:Lcom/commsource/studio/MatrixBox;
 
-    invoke-virtual {v1}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v4
 
@@ -771,7 +771,7 @@
 
     .line 33
     :cond_9
-    invoke-virtual {v1}, Lkotlin/Triple;->getThird()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1031,7 +1031,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/u;->q:Lcom/commsource/studio/MatrixBox;
@@ -1069,7 +1069,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/u;->d:Lcom/commsource/studio/c;
@@ -1148,7 +1148,7 @@
 
     const-string v1, "layerInfo"
 
-    invoke-static {p4, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p4}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
@@ -1284,7 +1284,7 @@
 
     aget p1, p1, v3
 
-    invoke-virtual {p4, p1}, Lcom/commsource/studio/c;->a(F)Lkotlin/Triple;
+    invoke-virtual {p4, p1}, Lcom/commsource/studio/c;->a(F)Lcotlin/Triple;
 
     .line 19
     iget-object p1, p0, Lcom/commsource/studio/u;->d:Lcom/commsource/studio/c;
@@ -1324,7 +1324,7 @@
 
     aget p2, p2, v4
 
-    invoke-virtual {p1, p2}, Lcom/commsource/studio/c;->a(F)Lkotlin/Triple;
+    invoke-virtual {p1, p2}, Lcom/commsource/studio/c;->a(F)Lcotlin/Triple;
 
     .line 25
     iget-object p1, p0, Lcom/commsource/studio/u;->e:[Lcom/commsource/studio/c;
@@ -1349,7 +1349,7 @@
 
     move-result v1
 
-    invoke-virtual {p4, v1}, Lcom/commsource/studio/c;->a(F)Lkotlin/Triple;
+    invoke-virtual {p4, v1}, Lcom/commsource/studio/c;->a(F)Lcotlin/Triple;
 
     add-int/lit8 p3, p3, 0x1
 
@@ -1591,7 +1591,7 @@
 
     iget v3, p0, Lcom/commsource/studio/u;->p:F
 
-    invoke-static {v2, v3}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v2, v3}, Lcotlin/g2/o;->m(FF)F
 
     move-result v2
 
@@ -1695,7 +1695,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/u;->c:Lcom/commsource/studio/c;

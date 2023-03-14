@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -109,7 +109,7 @@
 
     const-string v1, "entity"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0, p2}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->A(Lcom/commsource/studio/function/background/BackgroundTextureFragment;Lcom/commsource/studio/function/background/TextureMaterial;)V
 

@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "viewPortY",
         "LLandroid/view/MotionEvent;;",
         "motionEvent",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onSingleFingerDown",
         "(FFLLandroid/view/MotionEvent;;)V",
         "onSingleFingerScroll",
@@ -90,7 +90,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/MagnifyComponent$c;->b:Lcom/commsource/studio/MagnifyComponent;
@@ -122,7 +122,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/MagnifyComponent$c;->b:Lcom/commsource/studio/MagnifyComponent;
@@ -154,7 +154,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/MagnifyComponent$c;->b:Lcom/commsource/studio/MagnifyComponent;
@@ -186,7 +186,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->e(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
@@ -226,7 +226,7 @@
 
     const/4 v6, 0x0
 
-    invoke-static/range {v0 .. v6}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v0 .. v6}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 2
     :cond_0
@@ -246,7 +246,7 @@
 
     const/4 v6, 0x0
 
-    invoke-static/range {v0 .. v6}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v0 .. v6}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 3
     iget-object p2, p0, Lcom/commsource/studio/MagnifyComponent$c;->b:Lcom/commsource/studio/MagnifyComponent;

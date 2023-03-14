@@ -11,7 +11,7 @@
     value = "SMAP\nAppSingletonInspector.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AppSingletonInspector.kt\nkshark/AppSingletonInspector\n+ 2 _Sequences.kt\nkotlin/sequences/SequencesKt___SequencesKt\n*L\n1#1,23:1\n1084#2,2:24\n*E\n*S KotlinDebug\n*F\n+ 1 AppSingletonInspector.kt\nkshark/AppSingletonInspector\n*L\n16#1,2:24\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
         "Lkshark/u;",
         "Lkshark/v;",
         "reporter",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "inspect",
         "(Lkshark/v;)V",
         "",
@@ -60,7 +60,7 @@
 
     const-string v0, "singletonClasses"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -81,7 +81,7 @@
 
     const-string v0, "reporter"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lkshark/v;->a()Lkshark/HeapObject;
@@ -103,12 +103,12 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkshark/HeapObject$HeapClass;->k()Lkotlin/sequences/m;
+    invoke-virtual {v0}, Lkshark/HeapObject$HeapClass;->k()Lcotlin/sequences/m;
 
     move-result-object v0
 
     .line 3
-    invoke-interface {v0}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -133,7 +133,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lkotlin/collections/k;->P7([Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lcotlin/collections/k;->P7([Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 

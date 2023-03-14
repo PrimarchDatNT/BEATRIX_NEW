@@ -23,7 +23,7 @@
         ">",
         "Ljava/lang/Object;",
         "Landroidx/lifecycle/Observer<",
-        "Lkotlin/Pair<",
+        "Lcotlin/Pair<",
         "+",
         "Ljava/lang/Integer;",
         "+",
@@ -32,7 +32,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -42,14 +42,14 @@
         "\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0010\u0006\u001a\u00020\u00052F\u0010\u0004\u001aB\u0012\u000c\u0012\n \u0002*\u0004\u0018\u00010\u00010\u0001\u0012\u000c\u0012\n \u0002*\u0004\u0018\u00010\u00030\u0003 \u0002* \u0012\u000c\u0012\n \u0002*\u0004\u0018\u00010\u00010\u0001\u0012\u000c\u0012\n \u0002*\u0004\u0018\u00010\u00030\u0003\u0018\u00010\u00000\u0000H\n\u00a2\u0006\u0004\u0008\u0006\u0010\u0007"
     }
     d2 = {
-        "Lkotlin/Pair;",
+        "Lcotlin/Pair;",
         "",
         "kotlin.jvm.PlatformType",
         "Landroid/graphics/Bitmap;",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
-        "(Lkotlin/Pair;)V"
+        "(Lcotlin/Pair;)V"
     }
     k = 0x3
     mv = {
@@ -77,12 +77,12 @@
 
 
 # virtual methods
-.method public final a(Lkotlin/Pair;)V
+.method public final a(Lcotlin/Pair;)V
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Integer;",
             "Landroid/graphics/Bitmap;",
             ">;)V"
@@ -113,9 +113,9 @@
 
     const-string v2, "it"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v1, p1}, Lcom/commsource/puzzle/StitchComponent;->I(Lkotlin/Pair;)V
+    invoke-virtual {v1, p1}, Lcom/commsource/puzzle/StitchComponent;->I(Lcotlin/Pair;)V
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -131,9 +131,9 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    check-cast p1, Lkotlin/Pair;
+    check-cast p1, Lcotlin/Pair;
 
-    invoke-virtual {p0, p1}, Lcom/commsource/puzzle/ImageStitchFragment$b;->a(Lkotlin/Pair;)V
+    invoke-virtual {p0, p1}, Lcom/commsource/puzzle/ImageStitchFragment$b;->a(Lcotlin/Pair;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

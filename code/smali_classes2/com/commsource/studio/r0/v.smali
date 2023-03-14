@@ -8,7 +8,7 @@
     value = "SMAP\nProgressEffectRenderProxy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ProgressEffectRenderProxy.kt\ncom/commsource/studio/render/ProgressEffectRenderProxy\n*L\n1#1,64:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/studio/r0/v;",
         "Lcom/commsource/camera/newrender/renderproxy/n;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "h",
         "()V",
         "i",
@@ -122,7 +122,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/r0/v;->h:Lcom/commsource/easyeditor/utils/opengl/f;
@@ -149,7 +149,7 @@
 
     const-string v1, "TextureHelper.createFBO(width, height)"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object v0, p0, Lcom/commsource/studio/r0/v;->h:Lcom/commsource/easyeditor/utils/opengl/f;
 
@@ -171,7 +171,7 @@
 
     const-string v1, "maxEffectFBOEntity"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/easyeditor/utils/opengl/f;->k()V
@@ -203,7 +203,7 @@
 
     const-string p7, "maxEffectFBOEntity"
 
-    invoke-static {p7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     const p7, 0x8d40
@@ -260,7 +260,7 @@
 
     const-string v1, "maxEffectFBOEntity"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     return-object v0

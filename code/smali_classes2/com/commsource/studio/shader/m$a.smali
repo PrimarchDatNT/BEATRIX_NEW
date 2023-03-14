@@ -20,7 +20,7 @@
     value = "SMAP\nPaintPathProgram.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PaintPathProgram.kt\ncom/commsource/studio/shader/PaintPathProgram$drawOnMove$1$2\n*L\n1#1,205:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0010\u0004\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002\u00a8\u0006\u0003"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "com/commsource/studio/shader/PaintPathProgram$drawOnMove$1$2",
@@ -52,7 +52,7 @@
 
 .field final synthetic b:[F
 
-.field final synthetic c:Lkotlin/jvm/internal/Ref$FloatRef;
+.field final synthetic c:Lcotlin/jvm/internal/Ref$FloatRef;
 
 .field final synthetic d:[S
 
@@ -64,14 +64,14 @@
 
 
 # direct methods
-.method constructor <init>([F[FLkotlin/jvm/internal/Ref$FloatRef;[SLcom/commsource/studio/shader/m;ZFF)V
+.method constructor <init>([F[FLcotlin/jvm/internal/Ref$FloatRef;[SLcom/commsource/studio/shader/m;ZFF)V
     .locals 0
 
     iput-object p1, p0, Lcom/commsource/studio/shader/m$a;->a:[F
 
     iput-object p2, p0, Lcom/commsource/studio/shader/m$a;->b:[F
 
-    iput-object p3, p0, Lcom/commsource/studio/shader/m$a;->c:Lkotlin/jvm/internal/Ref$FloatRef;
+    iput-object p3, p0, Lcom/commsource/studio/shader/m$a;->c:Lcotlin/jvm/internal/Ref$FloatRef;
 
     iput-object p4, p0, Lcom/commsource/studio/shader/m$a;->d:[S
 
@@ -212,9 +212,9 @@
 
     move-result-object v1
 
-    iget-object v2, p0, Lcom/commsource/studio/shader/m$a;->c:Lkotlin/jvm/internal/Ref$FloatRef;
+    iget-object v2, p0, Lcom/commsource/studio/shader/m$a;->c:Lcotlin/jvm/internal/Ref$FloatRef;
 
-    iget v2, v2, Lkotlin/jvm/internal/Ref$FloatRef;->element:F
+    iget v2, v2, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/shader/l$a;->d(F)V
 

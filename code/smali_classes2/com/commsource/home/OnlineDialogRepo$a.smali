@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -114,7 +114,7 @@
 
     move-result p2
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->t(II)I
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result p1
 
@@ -140,7 +140,7 @@
 
     move-result p1
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->t(II)I
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result p1
 

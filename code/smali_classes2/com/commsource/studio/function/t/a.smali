@@ -16,7 +16,7 @@
     value = "SMAP\nNewSkinColorViewHolder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewSkinColorViewHolder.kt\ncom/commsource/studio/function/skin/NewSkinColorViewHolder\n*L\n1#1,50:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,7 +36,7 @@
         "",
         "",
         "payloads",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "k",
         "(ILcom/commsource/widget/h1/d;Ljava/util/List;)V",
         "Lcom/commsource/beautyplus/f0/qh;",
@@ -99,7 +99,7 @@
     const-string p2, "ItemNewSkinColorBinding.\u2026tePendingBindings()\n    }"
 
     .line 4
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/function/t/a;->p:Lcom/commsource/beautyplus/f0/qh;
 
@@ -136,7 +136,7 @@
 
     const-string v1, "item"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
@@ -214,7 +214,7 @@
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/qh;->a:Landroid/widget/ImageView;
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -226,7 +226,7 @@
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/qh;->a:Landroid/widget/ImageView;
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -238,7 +238,7 @@
 
     const-string v1, "viewBinding.tvName"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/t/c;->d()Ljava/lang/String;
 
@@ -260,7 +260,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/qh;->f:Lcom/commsource/widget/round/RoundIconfontTextView;
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -272,7 +272,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/qh;->f:Lcom/commsource/widget/round/RoundIconfontTextView;
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 

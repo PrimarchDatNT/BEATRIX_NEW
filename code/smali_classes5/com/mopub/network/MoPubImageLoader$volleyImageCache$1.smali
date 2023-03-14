@@ -20,7 +20,7 @@
     value = "SMAP\nMoPubImageLoader.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MoPubImageLoader.kt\ncom/mopub/network/MoPubImageLoader$volleyImageCache$1\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,78:1\n1#2:79\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
         "getBitmap",
         "(Ljava/lang/String;)Landroid/graphics/Bitmap;",
         "bitmap",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "putBitmap",
         "(Ljava/lang/String;Landroid/graphics/Bitmap;)V",
         "mopub-sdk-networking_release"

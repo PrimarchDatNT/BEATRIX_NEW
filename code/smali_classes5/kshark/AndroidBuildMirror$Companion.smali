@@ -13,7 +13,7 @@
     name = "Companion"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -53,7 +53,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -75,7 +75,7 @@
 
     const-string v0, "graph"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p1}, Lkshark/i;->getContext()Lkshark/e;
@@ -90,13 +90,13 @@
 
     const-string v2, "AndroidBuildMirror::class.java.name"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v2, Lkshark/AndroidBuildMirror$Companion$fromHeapGraph$1;
 
     invoke-direct {v2, p1}, Lkshark/AndroidBuildMirror$Companion$fromHeapGraph$1;-><init>(Lkshark/i;)V
 
-    invoke-virtual {v0, v1, v2}, Lkshark/e;->c(Ljava/lang/String;Lkotlin/jvm/u/a;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Lkshark/e;->c(Ljava/lang/String;Lcotlin/jvm/u/a;)Ljava/lang/Object;
 
     move-result-object p1
 

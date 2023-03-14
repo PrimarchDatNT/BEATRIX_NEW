@@ -22,7 +22,7 @@
     value = "SMAP\nVastResource.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VastResource.kt\ncom/mopub/mobileads/VastResource\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,206:1\n1#2:207\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,7 +36,7 @@
         "Ljava/io/Serializable;",
         "Lcom/mopub/mobileads/VastWebView;",
         "webView",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "initializeWebView",
         "(Lcom/mopub/mobileads/VastWebView;)V",
         "",
@@ -182,7 +182,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/mopub/mobileads/VastResource$Companion;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcom/mopub/mobileads/VastResource$Companion;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lcom/mopub/mobileads/VastResource;->Companion:Lcom/mopub/mobileads/VastResource$Companion;
 
@@ -202,7 +202,7 @@
     move-result-object v0
 
     .line 2
-    invoke-static {v0}, Lkotlin/collections/s;->L([Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v0}, Lcotlin/collections/s;->L([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v0
 
@@ -211,7 +211,7 @@
     const-string v0, "application/x-javascript"
 
     .line 3
-    invoke-static {v0}, Lkotlin/collections/s;->k(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v0}, Lcotlin/collections/s;->k(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v0
 
@@ -237,15 +237,15 @@
 
     const-string v0, "resource"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "type"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "creativeType"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -287,7 +287,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -312,7 +312,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -364,7 +364,7 @@
 
     move-result-object v3
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -852,7 +852,7 @@
 
     const-string v0, "webView"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getHtmlResourceValue()Ljava/lang/String;

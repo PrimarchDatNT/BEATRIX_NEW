@@ -14,7 +14,7 @@
     value = "SMAP\nRelightProcessor.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RelightProcessor.kt\ncom/commsource/studio/processor/RelightProcessor\n*L\n1#1,83:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
     d2 = {
         "Lcom/commsource/studio/processor/k;",
         "Lcom/commsource/studio/processor/BaseEffectProcessor;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "",
@@ -79,7 +79,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/processor/k$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/processor/k$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/processor/k;->N:Lcom/commsource/studio/processor/k$a;
 
@@ -160,7 +160,7 @@
 
     const-string v2, "/MTLight3D"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->C(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->C(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -200,7 +200,7 @@
 
     const-string v5, "AppContext.getContext()"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v4}, Landroid/content/Context;->getCacheDir()Ljava/io/File;
 
@@ -208,7 +208,7 @@
 
     const-string v5, "AppContext.getContext().cacheDir"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v4}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
@@ -382,7 +382,7 @@
 
     const-string v1, "disFBO"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p1, p0, Lcom/commsource/studio/processor/k;->M:Lcom/meitu/core/processor/Light3DProcessor;

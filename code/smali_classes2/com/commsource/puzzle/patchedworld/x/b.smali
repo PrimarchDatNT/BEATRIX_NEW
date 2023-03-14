@@ -748,7 +748,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Integer;",
             "Landroid/graphics/Bitmap;",
             ">;>;"
@@ -822,7 +822,7 @@
     if-eqz v4, :cond_0
 
     .line 6
-    new-instance v4, Lkotlin/Pair;
+    new-instance v4, Lcotlin/Pair;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -832,7 +832,7 @@
 
     move-result-object v3
 
-    invoke-direct {v4, v5, v3}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v4, v5, v3}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-interface {v1, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 

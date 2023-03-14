@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/channels/l$b;
+.class public final Lcotlinx/coroutines/channels/l$b;
 .super Ljava/lang/Object;
 .source "Channel.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/channels/l;
+    value = Lcotlinx/coroutines/channels/l;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "b"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -75,7 +75,7 @@
 
 .field private static final g:I
 
-.field static final synthetic h:Lkotlinx/coroutines/channels/l$b;
+.field static final synthetic h:Lcotlinx/coroutines/channels/l$b;
 
 
 # direct methods
@@ -83,11 +83,11 @@
     .locals 4
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/channels/l$b;
+    new-instance v0, Lcotlinx/coroutines/channels/l$b;
 
-    invoke-direct {v0}, Lkotlinx/coroutines/channels/l$b;-><init>()V
+    invoke-direct {v0}, Lcotlinx/coroutines/channels/l$b;-><init>()V
 
-    sput-object v0, Lkotlinx/coroutines/channels/l$b;->h:Lkotlinx/coroutines/channels/l$b;
+    sput-object v0, Lcotlinx/coroutines/channels/l$b;->h:Lcotlinx/coroutines/channels/l$b;
 
     const-string v0, "kotlinx.coroutines.channels.defaultBuffer"
 
@@ -98,11 +98,11 @@
     const v3, 0x7ffffffe
 
     .line 2
-    invoke-static {v0, v1, v2, v3}, Lkotlinx/coroutines/internal/e0;->b(Ljava/lang/String;III)I
+    invoke-static {v0, v1, v2, v3}, Lcotlinx/coroutines/internal/e0;->b(Ljava/lang/String;III)I
 
     move-result v0
 
-    sput v0, Lkotlinx/coroutines/channels/l$b;->g:I
+    sput v0, Lcotlinx/coroutines/channels/l$b;->g:I
 
     return-void
 .end method
@@ -122,7 +122,7 @@
     .locals 1
 
     .line 1
-    sget v0, Lkotlinx/coroutines/channels/l$b;->g:I
+    sget v0, Lcotlinx/coroutines/channels/l$b;->g:I
 
     return v0
 .end method

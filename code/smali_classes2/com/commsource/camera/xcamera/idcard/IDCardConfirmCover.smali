@@ -16,7 +16,7 @@
     value = "SMAP\nIDCardConfirmCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 IDCardConfirmCover.kt\ncom/commsource/camera/xcamera/idcard/IDCardConfirmCover\n*L\n1#1,99:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "",
         "q",
         "()I",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "v",
         "()V",
         "Landroid/graphics/Rect;",
@@ -43,7 +43,7 @@
         "x",
         "Lcom/commsource/camera/xcamera/BpCameraViewModel;",
         "c",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "D",
         "()Lcom/commsource/camera/xcamera/BpCameraViewModel;",
         "bpCameraViewModel",
@@ -65,12 +65,12 @@
 
 
 # instance fields
-.field private final c:Lkotlin/w;
+.field private final c:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -88,22 +88,22 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$bpCameraViewModel$2;-><init>(Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover;->c:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover;->c:Lcotlin/w;
 
     .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$bottomFunctionViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$bottomFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover;->d:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover;->d:Lcotlin/w;
 
     return-void
 .end method
@@ -119,9 +119,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -141,9 +141,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover;->c:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover;->c:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -186,11 +186,11 @@
 
     const-string v1, "fullRect"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "cameraViewPort"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->t(Landroid/graphics/Rect;Landroid/graphics/Rect;)V
@@ -221,7 +221,7 @@
 
     const-string v1, "mViewBinding.ivConfirm"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget p2, p2, Landroid/graphics/Rect;->top:I
 
@@ -253,7 +253,7 @@
 
     const-string v2, "mViewBinding.backText"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x0
 
@@ -277,7 +277,7 @@
 
     const-string v2, "bottomFunctionViewModel"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->B()Landroidx/lifecycle/MutableLiveData;
 

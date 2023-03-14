@@ -8,7 +8,7 @@
     value = "SMAP\nDoodleManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DoodleManager.kt\ncom/commsource/studio/doodle/DoodleManager\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,109:1\n734#2:110\n825#2,2:111\n734#2:113\n825#2,2:114\n734#2:116\n825#2,2:117\n734#2:119\n825#2,2:120\n734#2:122\n825#2,2:123\n734#2:125\n825#2,2:126\n*E\n*S KotlinDebug\n*F\n+ 1 DoodleManager.kt\ncom/commsource/studio/doodle/DoodleManager\n*L\n27#1:110\n27#1,2:111\n35#1:113\n35#1,2:114\n44#1:116\n44#1,2:117\n52#1:119\n52#1,2:120\n83#1:122\n83#1,2:123\n90#1:125\n90#1,2:126\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,13 +22,13 @@
         "",
         "Lcom/meitu/template/bean/Doodle;",
         "doodle",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "h",
         "(Lcom/meitu/template/bean/Doodle;)V",
         "",
         "categoryId",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "f",
         "(I)Ljava/util/ArrayList;",
         "i",
@@ -280,7 +280,7 @@
 
     const-string v1, "doodle"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/studio/doodle/d$a;
@@ -861,7 +861,7 @@
 
     const-string v1, "doodle"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/studio/doodle/d$c;

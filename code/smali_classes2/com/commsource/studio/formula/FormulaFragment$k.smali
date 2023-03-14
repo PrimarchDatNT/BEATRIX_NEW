@@ -23,7 +23,7 @@
         ">",
         "Ljava/lang/Object;",
         "Landroidx/lifecycle/Observer<",
-        "Lkotlin/Pair<",
+        "Lcotlin/Pair<",
         "+",
         "Ljava/util/List<",
         "+",
@@ -40,7 +40,7 @@
     value = "SMAP\nFormulaFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FormulaFragment.kt\ncom/commsource/studio/formula/FormulaFragment$initViewModel$1$5\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,485:1\n1819#2,2:486\n*E\n*S KotlinDebug\n*F\n+ 1 FormulaFragment.kt\ncom/commsource/studio/formula/FormulaFragment$initViewModel$1$5\n*L\n299#1,2:486\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -50,15 +50,15 @@
         "\u0000\u001c\n\u0002\u0018\u0002\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0007\u001a\u00020\u00062>\u0010\u0005\u001a:\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00020\u0001\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00030\u0001 \u0004*\u001c\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00020\u0001\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00030\u0001\u0018\u00010\u00000\u0000H\n\u00a2\u0006\u0004\u0008\u0007\u0010\u0008\u00a8\u0006\t"
     }
     d2 = {
-        "Lkotlin/Pair;",
+        "Lcotlin/Pair;",
         "",
         "Lcom/commsource/studio/formula/FormulaCategory;",
         "Lcom/commsource/studio/formula/JsFormula;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
-        "(Lkotlin/Pair;)V",
+        "(Lcotlin/Pair;)V",
         "com/commsource/studio/formula/FormulaFragment$initViewModel$1$5"
     }
     k = 0x3
@@ -87,12 +87,12 @@
 
 
 # virtual methods
-.method public final a(Lkotlin/Pair;)V
+.method public final a(Lcotlin/Pair;)V
     .locals 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+",
             "Ljava/util/List<",
             "Lcom/commsource/studio/formula/FormulaCategory;",
@@ -114,7 +114,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -130,7 +130,7 @@
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     .line 3
-    invoke-virtual {p1}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -168,7 +168,7 @@
 
     const-string v8, "-9"
 
-    invoke-static {v7, v8}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v7, v8}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v7
 
@@ -217,7 +217,7 @@
 
     .line 9
     :cond_2
-    invoke-virtual {p1}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -267,7 +267,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -325,9 +325,9 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    check-cast p1, Lkotlin/Pair;
+    check-cast p1, Lcotlin/Pair;
 
-    invoke-virtual {p0, p1}, Lcom/commsource/studio/formula/FormulaFragment$k;->a(Lkotlin/Pair;)V
+    invoke-virtual {p0, p1}, Lcom/commsource/studio/formula/FormulaFragment$k;->a(Lcotlin/Pair;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -8,7 +8,7 @@
     value = "SMAP\nFastCaptureViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FastCaptureViewModel.kt\ncom/commsource/camera/xcamera/FastCaptureViewModel\n*L\n1#1,73:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "Lcom/commsource/beautyplus/base/BaseVm;",
         "Lcom/commsource/camera/fastcapture/SelfiePhotoData;",
         "selfiePhotoData",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "y",
         "(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V",
         "",
@@ -122,7 +122,7 @@
 
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/base/BaseVm;-><init>(Landroid/app/Application;)V
@@ -146,7 +146,7 @@
 
     const-string v1, "FastCaptureController.getInstance()"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Lcom/commsource/camera/fastcapture/i;->c()Landroidx/lifecycle/MutableLiveData;
 
@@ -281,7 +281,7 @@
 
     const-string v2, "fastCaptureController"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/i;->e()Z
 
@@ -354,7 +354,7 @@
 
     const-string v1, "selfiePhotoData"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/FastCaptureViewModel;->f:Lcom/commsource/camera/fastcapture/i;

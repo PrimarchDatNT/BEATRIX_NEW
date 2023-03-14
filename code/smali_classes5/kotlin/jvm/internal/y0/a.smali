@@ -1,10 +1,10 @@
-.class public final Lkotlin/jvm/internal/y0/a;
+.class public final Lcotlin/jvm/internal/y0/a;
 .super Ljava/lang/Object;
 .source "monitor.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -16,7 +16,7 @@
     d2 = {
         "",
         "monitor",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Object;)V",
         "b",

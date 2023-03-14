@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,7 +36,7 @@
         "velocityY",
         "onFlingFromLeftToRight",
         "(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onSingleTap",
         "(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)V",
         "onMajorFingerUp",
@@ -197,7 +197,7 @@
 
     sget-object p4, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-static {p2, p4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, p4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p2
 
@@ -348,7 +348,7 @@
 
     sget-object p4, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-static {p2, p4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, p4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p2
 
@@ -585,7 +585,7 @@
 
     const-string v0, "bottomFunctionViewModel.shrinkSubFunctionEvent"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 

@@ -1,13 +1,13 @@
-.class final Lkotlinx/coroutines/i1;
+.class final Lcotlinx/coroutines/i1;
 .super Ljava/lang/Object;
 .source "JobSupport.kt"
 
 # interfaces
-.implements Lkotlinx/coroutines/w1;
+.implements Lcotlinx/coroutines/w1;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -17,8 +17,8 @@
         "\u0000 \n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0008\u0002\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010\u0008\u001a\u00020\u0005\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ\u000f\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0003\u0010\u0004R\u001c\u0010\u0008\u001a\u00020\u00058\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0006\u0010\u0007\u001a\u0004\u0008\u0008\u0010\tR\u0018\u0010\r\u001a\u0004\u0018\u00010\n8V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u000b\u0010\u000c\u00a8\u0006\u0010"
     }
     d2 = {
-        "Lkotlinx/coroutines/i1;",
-        "Lkotlinx/coroutines/w1;",
+        "Lcotlinx/coroutines/i1;",
+        "Lcotlinx/coroutines/w1;",
         "",
         "toString",
         "()Ljava/lang/String;",
@@ -27,9 +27,9 @@
         "Z",
         "isActive",
         "()Z",
-        "Lkotlinx/coroutines/n2;",
+        "Lcotlinx/coroutines/n2;",
         "e",
-        "()Lkotlinx/coroutines/n2;",
+        "()Lcotlinx/coroutines/n2;",
         "list",
         "<init>",
         "(Z)V",
@@ -55,14 +55,14 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-boolean p1, p0, Lkotlinx/coroutines/i1;->a:Z
+    iput-boolean p1, p0, Lcotlinx/coroutines/i1;->a:Z
 
     return-void
 .end method
 
 
 # virtual methods
-.method public e()Lkotlinx/coroutines/n2;
+.method public e()Lcotlinx/coroutines/n2;
     .locals 1
     .annotation build Ln/e/a/e;
     .end annotation
@@ -76,7 +76,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Lkotlinx/coroutines/i1;->a:Z
+    iget-boolean v0, p0, Lcotlinx/coroutines/i1;->a:Z
 
     return v0
 .end method
@@ -95,7 +95,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lkotlinx/coroutines/i1;->isActive()Z
+    invoke-virtual {p0}, Lcotlinx/coroutines/i1;->isActive()Z
 
     move-result v1
 

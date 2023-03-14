@@ -1,14 +1,14 @@
-.class public final Lkotlin/collections/CollectionsKt__CollectionsKt$binarySearchBy$1;
-.super Lkotlin/jvm/internal/Lambda;
+.class public final Lcotlin/collections/CollectionsKt__CollectionsKt$binarySearchBy$1;
+.super Lcotlin/jvm/internal/Lambda;
 .source "Collections.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/collections/CollectionsKt__CollectionsKt;->z(Ljava/util/List;Ljava/lang/Comparable;IILkotlin/jvm/u/l;)I
+    value = Lcotlin/collections/CollectionsKt__CollectionsKt;->z(Ljava/util/List;Ljava/lang/Comparable;IILcotlin/jvm/u/l;)I
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,8 +18,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "TT;",
         "Ljava/lang/Integer;",
         ">;"
@@ -30,7 +30,7 @@
     value = "SMAP\nCollections.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Collections.kt\nkotlin/collections/CollectionsKt__CollectionsKt$binarySearchBy$1\n*L\n1#1,467:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -61,20 +61,20 @@
 # instance fields
 .field final synthetic $key:Ljava/lang/Comparable;
 
-.field final synthetic $selector:Lkotlin/jvm/u/l;
+.field final synthetic $selector:Lcotlin/jvm/u/l;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/u/l;Ljava/lang/Comparable;)V
+.method public constructor <init>(Lcotlin/jvm/u/l;Ljava/lang/Comparable;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/collections/CollectionsKt__CollectionsKt$binarySearchBy$1;->$selector:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcotlin/collections/CollectionsKt__CollectionsKt$binarySearchBy$1;->$selector:Lcotlin/jvm/u/l;
 
-    iput-object p2, p0, Lkotlin/collections/CollectionsKt__CollectionsKt$binarySearchBy$1;->$key:Ljava/lang/Comparable;
+    iput-object p2, p0, Lcotlin/collections/CollectionsKt__CollectionsKt$binarySearchBy$1;->$key:Ljava/lang/Comparable;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -90,17 +90,17 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/CollectionsKt__CollectionsKt$binarySearchBy$1;->$selector:Lkotlin/jvm/u/l;
+    iget-object v0, p0, Lcotlin/collections/CollectionsKt__CollectionsKt$binarySearchBy$1;->$selector:Lcotlin/jvm/u/l;
 
-    invoke-interface {v0, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Ljava/lang/Comparable;
 
-    iget-object v0, p0, Lkotlin/collections/CollectionsKt__CollectionsKt$binarySearchBy$1;->$key:Ljava/lang/Comparable;
+    iget-object v0, p0, Lcotlin/collections/CollectionsKt__CollectionsKt$binarySearchBy$1;->$key:Ljava/lang/Comparable;
 
-    invoke-static {p1, v0}, Lkotlin/z1/a;->g(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
+    invoke-static {p1, v0}, Lcotlin/z1/a;->g(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
 
     move-result p1
 
@@ -110,7 +110,7 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    invoke-virtual {p0, p1}, Lkotlin/collections/CollectionsKt__CollectionsKt$binarySearchBy$1;->invoke(Ljava/lang/Object;)I
+    invoke-virtual {p0, p1}, Lcotlin/collections/CollectionsKt__CollectionsKt$binarySearchBy$1;->invoke(Ljava/lang/Object;)I
 
     move-result p1
 

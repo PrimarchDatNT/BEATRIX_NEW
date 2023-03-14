@@ -27,7 +27,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -106,7 +106,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/mopub/common/BrowserAgentManager$BrowserAgent$Companion;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcom/mopub/common/BrowserAgentManager$BrowserAgent$Companion;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lcom/mopub/common/BrowserAgentManager$BrowserAgent;->Companion:Lcom/mopub/common/BrowserAgentManager$BrowserAgent$Companion;
 
@@ -133,7 +133,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;

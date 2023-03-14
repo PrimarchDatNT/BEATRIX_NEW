@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/channels/e;
+.class public final Lcotlinx/coroutines/channels/e;
 .super Ljava/lang/Object;
 .source "Actor.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,30 +15,30 @@
     }
     d2 = {
         "E",
-        "Lkotlinx/coroutines/m0;",
-        "Lkotlin/coroutines/CoroutineContext;",
+        "Lcotlinx/coroutines/m0;",
+        "Lcotlin/coroutines/CoroutineContext;",
         "context",
         "",
         "capacity",
-        "Lkotlinx/coroutines/CoroutineStart;",
+        "Lcotlinx/coroutines/CoroutineStart;",
         "start",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "",
-        "Lkotlin/k0;",
+        "Lcotlin/k0;",
         "name",
         "cause",
-        "Lkotlin/t1;",
-        "Lkotlinx/coroutines/CompletionHandler;",
+        "Lcotlin/t1;",
+        "Lcotlinx/coroutines/CompletionHandler;",
         "onCompletion",
-        "Lkotlin/Function2;",
-        "Lkotlinx/coroutines/channels/f;",
-        "Lkotlin/coroutines/c;",
+        "Lcotlin/Function2;",
+        "Lcotlinx/coroutines/channels/f;",
+        "Lcotlin/coroutines/c;",
         "",
-        "Lkotlin/q;",
+        "Lcotlin/q;",
         "block",
-        "Lkotlinx/coroutines/channels/c0;",
+        "Lcotlinx/coroutines/channels/c0;",
         "a",
-        "(Lkotlinx/coroutines/m0;Lkotlin/coroutines/CoroutineContext;ILkotlinx/coroutines/CoroutineStart;Lkotlin/jvm/u/l;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/c0;",
+        "(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;ILcotlinx/coroutines/CoroutineStart;Lcotlin/jvm/u/l;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/c0;",
         "kotlinx-coroutines-core"
     }
     k = 0x2
@@ -51,25 +51,25 @@
 
 
 # direct methods
-.method public static final a(Lkotlinx/coroutines/m0;Lkotlin/coroutines/CoroutineContext;ILkotlinx/coroutines/CoroutineStart;Lkotlin/jvm/u/l;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/c0;
+.method public static final a(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;ILcotlinx/coroutines/CoroutineStart;Lcotlin/jvm/u/l;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/c0;
     .locals 1
-    .param p0    # Lkotlinx/coroutines/m0;
+    .param p0    # Lcotlinx/coroutines/m0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/CoroutineContext;
+    .param p1    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlinx/coroutines/CoroutineStart;
+    .param p3    # Lcotlinx/coroutines/CoroutineStart;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p4    # Lkotlin/jvm/u/l;
+    .param p4    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p5    # Lkotlin/jvm/u/p;
+    .param p5    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -78,82 +78,82 @@
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/m0;",
-            "Lkotlin/coroutines/CoroutineContext;",
+            "Lcotlinx/coroutines/m0;",
+            "Lcotlin/coroutines/CoroutineContext;",
             "I",
-            "Lkotlinx/coroutines/CoroutineStart;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlinx/coroutines/CoroutineStart;",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Throwable;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
-            "Lkotlinx/coroutines/channels/f<",
+            "Lcotlinx/coroutines/channels/f<",
             "TE;>;-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;+",
             "Ljava/lang/Object;",
             ">;)",
-            "Lkotlinx/coroutines/channels/c0<",
+            "Lcotlinx/coroutines/channels/c0<",
             "TE;>;"
         }
     .end annotation
 
-    .annotation build Lkotlinx/coroutines/r2;
+    .annotation build Lcotlinx/coroutines/r2;
     .end annotation
 
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/h0;->d(Lkotlinx/coroutines/m0;Lkotlin/coroutines/CoroutineContext;)Lkotlin/coroutines/CoroutineContext;
+    invoke-static {p0, p1}, Lcotlinx/coroutines/h0;->d(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;)Lcotlin/coroutines/CoroutineContext;
 
     move-result-object p0
 
     .line 2
-    invoke-static {p2}, Lkotlinx/coroutines/channels/n;->a(I)Lkotlinx/coroutines/channels/l;
+    invoke-static {p2}, Lcotlinx/coroutines/channels/n;->a(I)Lcotlinx/coroutines/channels/l;
 
     move-result-object p1
 
     .line 3
-    invoke-virtual {p3}, Lkotlinx/coroutines/CoroutineStart;->isLazy()Z
+    invoke-virtual {p3}, Lcotlinx/coroutines/CoroutineStart;->isLazy()Z
 
     move-result p2
 
     if-eqz p2, :cond_0
 
     .line 4
-    new-instance p2, Lkotlinx/coroutines/channels/s;
+    new-instance p2, Lcotlinx/coroutines/channels/s;
 
-    invoke-direct {p2, p0, p1, p5}, Lkotlinx/coroutines/channels/s;-><init>(Lkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/channels/l;Lkotlin/jvm/u/p;)V
+    invoke-direct {p2, p0, p1, p5}, Lcotlinx/coroutines/channels/s;-><init>(Lcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/channels/l;Lcotlin/jvm/u/p;)V
 
     goto :goto_0
 
     .line 5
     :cond_0
-    new-instance p2, Lkotlinx/coroutines/channels/d;
+    new-instance p2, Lcotlinx/coroutines/channels/d;
 
     const/4 v0, 0x1
 
-    invoke-direct {p2, p0, p1, v0}, Lkotlinx/coroutines/channels/d;-><init>(Lkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/channels/l;Z)V
+    invoke-direct {p2, p0, p1, v0}, Lcotlinx/coroutines/channels/d;-><init>(Lcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/channels/l;Z)V
 
     :goto_0
     if-eqz p4, :cond_1
 
     .line 6
-    invoke-virtual {p2, p4}, Lkotlinx/coroutines/JobSupport;->z(Lkotlin/jvm/u/l;)Lkotlinx/coroutines/f1;
+    invoke-virtual {p2, p4}, Lcotlinx/coroutines/JobSupport;->z(Lcotlin/jvm/u/l;)Lcotlinx/coroutines/f1;
 
     .line 7
     :cond_1
-    invoke-virtual {p2, p3, p2, p5}, Lkotlinx/coroutines/a;->v1(Lkotlinx/coroutines/CoroutineStart;Ljava/lang/Object;Lkotlin/jvm/u/p;)V
+    invoke-virtual {p2, p3, p2, p5}, Lcotlinx/coroutines/a;->v1(Lcotlinx/coroutines/CoroutineStart;Ljava/lang/Object;Lcotlin/jvm/u/p;)V
 
     return-object p2
 .end method
 
-.method public static synthetic b(Lkotlinx/coroutines/m0;Lkotlin/coroutines/CoroutineContext;ILkotlinx/coroutines/CoroutineStart;Lkotlin/jvm/u/l;Lkotlin/jvm/u/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/c0;
+.method public static synthetic b(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;ILcotlinx/coroutines/CoroutineStart;Lcotlin/jvm/u/l;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/c0;
     .locals 6
 
     and-int/lit8 p7, p6, 0x1
@@ -161,7 +161,7 @@
     if-eqz p7, :cond_0
 
     .line 1
-    sget-object p1, Lkotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lkotlin/coroutines/EmptyCoroutineContext;
+    sget-object p1, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     :cond_0
     move-object v1, p1
@@ -185,7 +185,7 @@
     if-eqz p1, :cond_2
 
     .line 2
-    sget-object p3, Lkotlinx/coroutines/CoroutineStart;->DEFAULT:Lkotlinx/coroutines/CoroutineStart;
+    sget-object p3, Lcotlinx/coroutines/CoroutineStart;->DEFAULT:Lcotlinx/coroutines/CoroutineStart;
 
     :cond_2
     move-object v3, p3
@@ -204,7 +204,7 @@
     move-object v5, p5
 
     .line 3
-    invoke-static/range {v0 .. v5}, Lkotlinx/coroutines/channels/e;->a(Lkotlinx/coroutines/m0;Lkotlin/coroutines/CoroutineContext;ILkotlinx/coroutines/CoroutineStart;Lkotlin/jvm/u/l;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/c0;
+    invoke-static/range {v0 .. v5}, Lcotlinx/coroutines/channels/e;->a(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;ILcotlinx/coroutines/CoroutineStart;Lcotlin/jvm/u/l;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/c0;
 
     move-result-object p0
 

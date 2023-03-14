@@ -16,7 +16,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "Lcom/commsource/camera/l0;",
         "",
         "currentRule",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "(I)V",
         "animalType",
@@ -251,7 +251,7 @@
 
     const-string v1, "rectF"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget p2, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$a;->a:I
@@ -440,7 +440,7 @@
 
     const-string v1, "event"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x2
 

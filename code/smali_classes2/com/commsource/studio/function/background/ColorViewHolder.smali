@@ -22,7 +22,7 @@
     value = "SMAP\nColorViewHolder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ColorViewHolder.kt\ncom/commsource/studio/function/background/ColorViewHolder\n*L\n1#1,51:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -42,13 +42,13 @@
         "",
         "",
         "payloads",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "k",
         "(ILcom/commsource/widget/h1/d;Ljava/util/List;)V",
         "Lcom/commsource/beautyplus/f0/md;",
         "kotlin.jvm.PlatformType",
         "p",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "v",
         "()Lcom/commsource/beautyplus/f0/md;",
         "mViewBinding",
@@ -81,7 +81,7 @@
 
 
 # instance fields
-.field private final p:Lkotlin/w;
+.field private final p:Lcotlin/w;
 
 
 # direct methods
@@ -96,7 +96,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/function/background/ColorViewHolder$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/function/background/ColorViewHolder$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/function/background/ColorViewHolder;->K:Lcom/commsource/studio/function/background/ColorViewHolder$a;
 
@@ -126,11 +126,11 @@
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/function/background/ColorViewHolder$mViewBinding$2;-><init>(Lcom/commsource/studio/function/background/ColorViewHolder;)V
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/function/background/ColorViewHolder;->p:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/ColorViewHolder;->p:Lcotlin/w;
 
     return-void
 .end method
@@ -221,7 +221,7 @@
 
     const-string v1, "getAdapter()"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p3}, Lcom/commsource/widget/h1/e;->j()Ljava/lang/Object;
 
@@ -229,7 +229,7 @@
 
     const-string v1, "NEED_STROKE"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p3
 
@@ -265,7 +265,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/md;->b:Landroid/widget/ImageView;
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -279,7 +279,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/md;->b:Landroid/widget/ImageView;
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -317,7 +317,7 @@
 
     const-string p3, "itemView"
 
-    invoke-static {p2, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2, p1}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
@@ -334,9 +334,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/ColorViewHolder;->p:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/ColorViewHolder;->p:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 

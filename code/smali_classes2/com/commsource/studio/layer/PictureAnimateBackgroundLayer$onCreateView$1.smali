@@ -17,7 +17,7 @@
     value = "SMAP\nPictureAnimateBackgroundLayer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PictureAnimateBackgroundLayer.kt\ncom/commsource/studio/layer/PictureAnimateBackgroundLayer$onCreateView$1\n*L\n1#1,30:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Landroid/view/View;",
         "Landroid/graphics/Canvas;",
         "canvas",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onDraw",
         "(Landroid/graphics/Canvas;)V",
         "app_googleplayRelease"
@@ -86,7 +86,7 @@
 
     const-string v1, "canvas"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const v1, 0xf4f4f4
 
@@ -102,21 +102,21 @@
     .line 2
     iget-object p1, p0, Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer$onCreateView$1;->a:Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer;
 
-    invoke-virtual {p1}, Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer;->p0()Lkotlin/jvm/u/a;
+    invoke-virtual {p1}, Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer;->p0()Lcotlin/jvm/u/a;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
     .line 3
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     .line 4
     iget-object p1, p0, Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer$onCreateView$1;->a:Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer;
 
     const/4 v1, 0x0
 
-    invoke-virtual {p1, v1}, Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer;->q0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer;->q0(Lcotlin/jvm/u/a;)V
 
     .line 5
     :cond_0

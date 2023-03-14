@@ -17,7 +17,7 @@
     value = "SMAP\nGestureLayer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GestureLayer.kt\ncom/commsource/studio/gesture/GestureLayer$FrameView\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,745:1\n1819#2,2:746\n1819#2,2:748\n*E\n*S KotlinDebug\n*F\n+ 1 GestureLayer.kt\ncom/commsource/studio/gesture/GestureLayer$FrameView\n*L\n50#1,2:746\n50#1,2:748\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Landroid/view/View;",
         "Landroid/graphics/Canvas;",
         "canvas",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onDraw",
         "(Landroid/graphics/Canvas;)V",
         "Landroid/content/Context;",
@@ -72,7 +72,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
@@ -166,7 +166,7 @@
 
     const-string v1, "canvas"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v1, Lcom/commsource/studio/PictureTransitionView;->P:Lcom/commsource/studio/PictureTransitionView$a;
@@ -248,7 +248,7 @@
 
     move-result-object v8
 
-    check-cast v8, Lkotlin/Pair;
+    check-cast v8, Lcotlin/Pair;
 
     .line 9
     iget-object v9, p0, Lcom/commsource/studio/gesture/GestureLayer$FrameView;->a:Lcom/commsource/studio/gesture/GestureLayer;
@@ -257,7 +257,7 @@
 
     move-result-object v9
 
-    invoke-virtual {v8}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v8}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v8
 
@@ -280,7 +280,7 @@
 
     move-result-object v8
 
-    invoke-static {v8, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v8, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v8
 
@@ -497,16 +497,16 @@
 
     move-result-object v8
 
-    check-cast v8, Lkotlin/Pair;
+    check-cast v8, Lcotlin/Pair;
 
     .line 27
-    invoke-virtual {v8}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v8}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v9
 
     check-cast v9, Lcom/commsource/studio/bean/FocusLayerInfo;
 
-    invoke-static {v1, v9}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v9}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v9
 
@@ -521,7 +521,7 @@
 
     move-result-object v9
 
-    invoke-virtual {v8}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v8}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v8
 
@@ -637,7 +637,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 

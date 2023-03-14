@@ -1,10 +1,10 @@
-.class public final Lkotlin/t1;
+.class public final Lcotlin/t1;
 .super Ljava/lang/Object;
 .source "Unit.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -14,7 +14,7 @@
         "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0005\u0008\u00c6\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u000f\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0003\u0010\u0004\u00a8\u0006\u0007"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "",
         "",
         "toString",
@@ -33,7 +33,7 @@
 
 
 # static fields
-.field public static final a:Lkotlin/t1;
+.field public static final a:Lcotlin/t1;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -44,11 +44,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lkotlin/t1;
+    new-instance v0, Lcotlin/t1;
 
-    invoke-direct {v0}, Lkotlin/t1;-><init>()V
+    invoke-direct {v0}, Lcotlin/t1;-><init>()V
 
-    sput-object v0, Lkotlin/t1;->a:Lkotlin/t1;
+    sput-object v0, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-void
 .end method

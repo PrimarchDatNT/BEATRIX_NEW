@@ -1,9 +1,9 @@
-.class public final Lkotlin/e2/b;
-.super Lkotlin/e2/d;
+.class public final Lcotlin/e2/b;
+.super Lcotlin/e2/d;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,18 +33,18 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/e2/d;-><init>()V
+    invoke-direct {p0}, Lcotlin/e2/d;-><init>()V
 
     return-void
 .end method
 
 .method public static bridge synthetic H0(F)I
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
-    invoke-static {p0}, Lkotlin/e2/d;->H0(F)I
+    invoke-static {p0}, Lcotlin/e2/d;->H0(F)I
 
     move-result p0
 
@@ -53,7 +53,7 @@
 
 .method public static synthetic c1()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
@@ -62,7 +62,7 @@
 
 .method public static synthetic d1()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 

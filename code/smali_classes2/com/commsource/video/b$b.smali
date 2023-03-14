@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
         "",
         "fraction",
         "value",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(FF)V",
         "Lcom/commsource/camera/f1/l;",
@@ -104,7 +104,7 @@
 
     const/4 v6, 0x0
 
-    invoke-static/range {v1 .. v6}, Lcom/commsource/video/XPlayer;->d(Lcom/commsource/video/XPlayer;Lcom/commsource/video/view/XVideoContainer;Lcom/commsource/video/view/XVideoContainer;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v1 .. v6}, Lcom/commsource/video/XPlayer;->d(Lcom/commsource/video/XPlayer;Lcom/commsource/video/view/XVideoContainer;Lcom/commsource/video/view/XVideoContainer;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 3
     iget-object p1, p0, Lcom/commsource/video/b$b;->a:Lcom/commsource/video/b;

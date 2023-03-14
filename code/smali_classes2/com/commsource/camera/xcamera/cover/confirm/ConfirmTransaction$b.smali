@@ -32,7 +32,7 @@
     value = "SMAP\nConfirmTransaction.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ConfirmTransaction.kt\ncom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$onAttachTransaction$10\n+ 2 RouterEntity.kt\ncom/commsource/beautyplus/router/RouterEntity\n*L\n1#1,421:1\n108#2:422\n*E\n*S KotlinDebug\n*F\n+ 1 ConfirmTransaction.kt\ncom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$onAttachTransaction$10\n*L\n295#1:422\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "path",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/String;)V"
     }
@@ -148,7 +148,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFaceCount()I

@@ -20,7 +20,7 @@
     value = "SMAP\nNewHomeActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewHomeActivity.kt\ncom/commsource/home/NewHomeActivity$initView$2\n+ 2 View.kt\nandroidx/core/view/ViewKt\n*L\n1#1,1044:1\n251#2:1045\n*E\n*S KotlinDebug\n*F\n+ 1 NewHomeActivity.kt\ncom/commsource/home/NewHomeActivity$initView$2\n*L\n342#1:1045\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "Landroid/view/View;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onClick",
         "(Landroid/view/View;)V",
         "<anonymous>"
@@ -104,7 +104,7 @@
 
     const-string v1, "mViewBinding.vSettingRed"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     invoke-virtual {v0}, Landroid/view/View;->getVisibility()I
@@ -137,7 +137,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/q0;->W:Landroid/view/View;
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 

@@ -1,14 +1,14 @@
-.class final Lkotlin/text/StringsKt__StringsKt$rangesDelimitedBy$4;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlin/text/StringsKt__StringsKt$rangesDelimitedBy$4;
+.super Lcotlin/jvm/internal/Lambda;
 .source "Strings.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/text/StringsKt__StringsKt;->T3(Ljava/lang/CharSequence;[Ljava/lang/String;IZI)Lkotlin/sequences/m;
+    value = Lcotlin/text/StringsKt__StringsKt;->T3(Ljava/lang/CharSequence;[Ljava/lang/String;IZI)Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,11 +18,11 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/p<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/p<",
         "Ljava/lang/CharSequence;",
         "Ljava/lang/Integer;",
-        "Lkotlin/Pair<",
+        "Lcotlin/Pair<",
         "+",
         "Ljava/lang/Integer;",
         "+",
@@ -35,7 +35,7 @@
     value = "SMAP\nStrings.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Strings.kt\nkotlin/text/StringsKt__StringsKt$rangesDelimitedBy$4\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,1381:1\n1#2:1382\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -48,9 +48,9 @@
         "",
         "",
         "currentIndex",
-        "Lkotlin/Pair;",
+        "Lcotlin/Pair;",
         "invoke",
-        "(Ljava/lang/CharSequence;I)Lkotlin/Pair;",
+        "(Ljava/lang/CharSequence;I)Lcotlin/Pair;",
         "<anonymous>"
     }
     k = 0x3
@@ -72,13 +72,13 @@
 .method constructor <init>(Ljava/util/List;Z)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/text/StringsKt__StringsKt$rangesDelimitedBy$4;->$delimitersList:Ljava/util/List;
+    iput-object p1, p0, Lcotlin/text/StringsKt__StringsKt$rangesDelimitedBy$4;->$delimitersList:Ljava/util/List;
 
-    iput-boolean p2, p0, Lkotlin/text/StringsKt__StringsKt$rangesDelimitedBy$4;->$ignoreCase:Z
+    iput-boolean p2, p0, Lcotlin/text/StringsKt__StringsKt$rangesDelimitedBy$4;->$ignoreCase:Z
 
     const/4 p1, 0x2
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -96,14 +96,14 @@
 
     move-result p2
 
-    invoke-virtual {p0, p1, p2}, Lkotlin/text/StringsKt__StringsKt$rangesDelimitedBy$4;->invoke(Ljava/lang/CharSequence;I)Lkotlin/Pair;
+    invoke-virtual {p0, p1, p2}, Lcotlin/text/StringsKt__StringsKt$rangesDelimitedBy$4;->invoke(Ljava/lang/CharSequence;I)Lcotlin/Pair;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(Ljava/lang/CharSequence;I)Lkotlin/Pair;
+.method public final invoke(Ljava/lang/CharSequence;I)Lcotlin/Pair;
     .locals 3
     .param p1    # Ljava/lang/CharSequence;
         .annotation build Ln/e/a/d;
@@ -114,7 +114,7 @@
             "(",
             "Ljava/lang/CharSequence;",
             "I)",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Integer;",
             "Ljava/lang/Integer;",
             ">;"
@@ -126,26 +126,26 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/StringsKt__StringsKt$rangesDelimitedBy$4;->$delimitersList:Ljava/util/List;
+    iget-object v0, p0, Lcotlin/text/StringsKt__StringsKt$rangesDelimitedBy$4;->$delimitersList:Ljava/util/List;
 
-    iget-boolean v1, p0, Lkotlin/text/StringsKt__StringsKt$rangesDelimitedBy$4;->$ignoreCase:Z
+    iget-boolean v1, p0, Lcotlin/text/StringsKt__StringsKt$rangesDelimitedBy$4;->$ignoreCase:Z
 
     const/4 v2, 0x0
 
-    invoke-static {p1, v0, p2, v1, v2}, Lkotlin/text/StringsKt__StringsKt;->K2(Ljava/lang/CharSequence;Ljava/util/Collection;IZZ)Lkotlin/Pair;
+    invoke-static {p1, v0, p2, v1, v2}, Lcotlin/text/StringsKt__StringsKt;->K2(Ljava/lang/CharSequence;Ljava/util/Collection;IZZ)Lcotlin/Pair;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object p2
 
-    invoke-virtual {p1}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -159,7 +159,7 @@
 
     move-result-object p1
 
-    invoke-static {p2, p1}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {p2, p1}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object p1
 

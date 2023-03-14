@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "Lcom/commsource/camera/f1/l$b;",
         "Lcom/commsource/camera/f1/l;",
         "animation",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
         "(Lcom/commsource/camera/f1/l;)V",
         "a",
@@ -122,7 +122,7 @@
 
     const-string v1, "mViewBinding.vp"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -137,7 +137,7 @@
 
     const-string v1, "mViewBinding.rvTitle"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -187,7 +187,7 @@
 
     const-string v1, "mViewBinding.rvMakeup"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -205,7 +205,7 @@
 
     const-string v1, "mViewBinding.vp"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -220,7 +220,7 @@
 
     const-string v1, "mViewBinding.rvTitle"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -260,7 +260,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/s9;->J:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;
 
@@ -283,7 +283,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/s9;->J:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;
 
@@ -309,7 +309,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/s9;->J:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;
 
@@ -332,7 +332,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/s9;->J:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;
 
@@ -367,7 +367,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/s9;->N:Landroidx/viewpager2/widget/ViewPager2;
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;
 
@@ -390,7 +390,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/s9;->N:Landroidx/viewpager2/widget/ViewPager2;
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;
 
@@ -416,7 +416,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/s9;->N:Landroidx/viewpager2/widget/ViewPager2;
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;
 
@@ -439,7 +439,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/s9;->N:Landroidx/viewpager2/widget/ViewPager2;
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;
 

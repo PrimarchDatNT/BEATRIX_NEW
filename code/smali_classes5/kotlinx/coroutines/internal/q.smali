@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/internal/q;
+.class public final Lcotlinx/coroutines/internal/q;
 .super Ljava/lang/Object;
 .source "LockFreeTaskQueue.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,7 +15,7 @@
     }
     d2 = {
         "E",
-        "Lkotlinx/coroutines/internal/p;",
+        "Lcotlinx/coroutines/internal/p;",
         "Core",
         "kotlinx-coroutines-core"
     }

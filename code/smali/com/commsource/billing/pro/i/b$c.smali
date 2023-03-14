@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "Lf/k/h/a/l/y/d;",
         "Lcom/meitu/global/billing/purchase/data/MTGPurchase;",
         "purchase",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "b",
         "(Lcom/meitu/global/billing/purchase/data/MTGPurchase;)V",
         "",

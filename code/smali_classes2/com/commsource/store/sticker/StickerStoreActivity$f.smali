@@ -32,7 +32,7 @@
     value = "SMAP\nStickerStoreActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StickerStoreActivity.kt\ncom/commsource/store/sticker/StickerStoreActivity$initObserver$3\n*L\n1#1,297:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "Lcom/meitu/template/bean/StickerGroup;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/meitu/template/bean/StickerGroup;)V"
     }
@@ -116,7 +116,7 @@
 
     const-string p1, "viewBinding.detailContainer"
 
-    invoke-static {v2, p1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     const-class v3, Lcom/commsource/store/sticker/StickerStoreDetailFragment;

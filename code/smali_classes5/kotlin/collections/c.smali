@@ -1,19 +1,19 @@
-.class public abstract Lkotlin/collections/c;
-.super Lkotlin/collections/AbstractCollection;
+.class public abstract Lcotlin/collections/c;
+.super Lcotlin/collections/AbstractCollection;
 .source "AbstractList.kt"
 
 # interfaces
 .implements Ljava/util/List;
-.implements Lkotlin/jvm/internal/x0/a;
+.implements Lcotlin/jvm/internal/x0/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkotlin/collections/c$d;,
-        Lkotlin/collections/c$b;,
-        Lkotlin/collections/c$c;,
-        Lkotlin/collections/c$a;
+        Lcotlin/collections/c$d;,
+        Lcotlin/collections/c$b;,
+        Lcotlin/collections/c$c;,
+        Lcotlin/collections/c$a;
     }
 .end annotation
 
@@ -22,11 +22,11 @@
         "<E:",
         "Ljava/lang/Object;",
         ">",
-        "Lkotlin/collections/AbstractCollection<",
+        "Lcotlin/collections/AbstractCollection<",
         "TE;>;",
         "Ljava/util/List<",
         "TE;>;",
-        "Lkotlin/jvm/internal/x0/a;"
+        "Lcotlin/jvm/internal/x0/a;"
     }
 .end annotation
 
@@ -34,7 +34,7 @@
     value = "SMAP\nAbstractList.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AbstractList.kt\nkotlin/collections/AbstractList\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,157:1\n318#2,7:158\n346#2,7:165\n*E\n*S KotlinDebug\n*F\n+ 1 AbstractList.kt\nkotlin/collections/AbstractList\n*L\n27#1,7:158\n29#1,7:165\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -44,9 +44,9 @@
         "\u00004\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010 \n\u0002\u0010\u0008\n\u0002\u0008\u0003\n\u0002\u0010(\n\u0002\u0008\u0006\n\u0002\u0010*\n\u0002\u0008\u0007\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u000c\u0008\'\u0018\u0000 \"*\u0006\u0008\u0000\u0010\u0001 \u00012\u0008\u0012\u0004\u0012\u00028\u00000\u00022\u0008\u0012\u0004\u0012\u00028\u00000\u0003:\u0004\"\u001e#$B\t\u0008\u0004\u00a2\u0006\u0004\u0008 \u0010!J\u0018\u0010\u0006\u001a\u00028\u00002\u0006\u0010\u0005\u001a\u00020\u0004H\u00a6\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u0016\u0010\t\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0008H\u0096\u0002\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0017\u0010\u000c\u001a\u00020\u00042\u0006\u0010\u000b\u001a\u00028\u0000H\u0016\u00a2\u0006\u0004\u0008\u000c\u0010\rJ\u0017\u0010\u000e\u001a\u00020\u00042\u0006\u0010\u000b\u001a\u00028\u0000H\u0016\u00a2\u0006\u0004\u0008\u000e\u0010\rJ\u0015\u0010\u0010\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u000fH\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u0011J\u001d\u0010\u0010\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u000f2\u0006\u0010\u0005\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u0012J%\u0010\u0015\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u00032\u0006\u0010\u0013\u001a\u00020\u00042\u0006\u0010\u0014\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u0015\u0010\u0016J\u001a\u0010\u001a\u001a\u00020\u00192\u0008\u0010\u0018\u001a\u0004\u0018\u00010\u0017H\u0096\u0002\u00a2\u0006\u0004\u0008\u001a\u0010\u001bJ\u000f\u0010\u001c\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u001c\u0010\u001dR\u0016\u0010\u001f\u001a\u00020\u00048&@&X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u001e\u0010\u001d\u00a8\u0006%"
     }
     d2 = {
-        "Lkotlin/collections/c;",
+        "Lcotlin/collections/c;",
         "E",
-        "Lkotlin/collections/AbstractCollection;",
+        "Lcotlin/collections/AbstractCollection;",
         "",
         "",
         "index",
@@ -91,13 +91,13 @@
     }
 .end annotation
 
-.annotation build Lkotlin/s0;
+.annotation build Lcotlin/s0;
     version = "1.1"
 .end annotation
 
 
 # static fields
-.field public static final a:Lkotlin/collections/c$a;
+.field public static final a:Lcotlin/collections/c$a;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -107,13 +107,13 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    new-instance v0, Lkotlin/collections/c$a;
+    new-instance v0, Lcotlin/collections/c$a;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkotlin/collections/c$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcotlin/collections/c$a;-><init>(Lcotlin/jvm/internal/u;)V
 
-    sput-object v0, Lkotlin/collections/c;->a:Lkotlin/collections/c$a;
+    sput-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
     return-void
 .end method
@@ -122,7 +122,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lkotlin/collections/AbstractCollection;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/AbstractCollection;-><init>()V
 
     return-void
 .end method
@@ -193,11 +193,11 @@
 
     .line 2
     :cond_1
-    sget-object v0, Lkotlin/collections/c;->a:Lkotlin/collections/c$a;
+    sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
     check-cast p1, Ljava/util/Collection;
 
-    invoke-virtual {v0, p0, p1}, Lkotlin/collections/c$a;->e(Ljava/util/Collection;Ljava/util/Collection;)Z
+    invoke-virtual {v0, p0, p1}, Lcotlin/collections/c$a;->e(Ljava/util/Collection;Ljava/util/Collection;)Z
 
     move-result p1
 
@@ -216,9 +216,9 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlin/collections/c;->a:Lkotlin/collections/c$a;
+    sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
-    invoke-virtual {v0, p0}, Lkotlin/collections/c$a;->f(Ljava/util/Collection;)I
+    invoke-virtual {v0, p0}, Lcotlin/collections/c$a;->f(Ljava/util/Collection;)I
 
     move-result v0
 
@@ -247,7 +247,7 @@
     move-result-object v2
 
     .line 2
-    invoke-static {v2, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -281,9 +281,9 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/collections/c$b;
+    new-instance v0, Lcotlin/collections/c$b;
 
-    invoke-direct {v0, p0}, Lkotlin/collections/c$b;-><init>(Lkotlin/collections/c;)V
+    invoke-direct {v0, p0}, Lcotlin/collections/c$b;-><init>(Lcotlin/collections/c;)V
 
     return-object v0
 .end method
@@ -314,7 +314,7 @@
     move-result-object v1
 
     .line 4
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -348,11 +348,11 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/collections/c$c;
+    new-instance v0, Lcotlin/collections/c$c;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p0, v1}, Lkotlin/collections/c$c;-><init>(Lkotlin/collections/c;I)V
+    invoke-direct {v0, p0, v1}, Lcotlin/collections/c$c;-><init>(Lcotlin/collections/c;I)V
 
     return-object v0
 .end method
@@ -371,9 +371,9 @@
     .end annotation
 
     .line 2
-    new-instance v0, Lkotlin/collections/c$c;
+    new-instance v0, Lcotlin/collections/c$c;
 
-    invoke-direct {v0, p0, p1}, Lkotlin/collections/c$c;-><init>(Lkotlin/collections/c;I)V
+    invoke-direct {v0, p0, p1}, Lcotlin/collections/c$c;-><init>(Lcotlin/collections/c;I)V
 
     return-object v0
 .end method
@@ -426,9 +426,9 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/collections/c$d;
+    new-instance v0, Lcotlin/collections/c$d;
 
-    invoke-direct {v0, p0, p1, p2}, Lkotlin/collections/c$d;-><init>(Lkotlin/collections/c;II)V
+    invoke-direct {v0, p0, p1, p2}, Lcotlin/collections/c$d;-><init>(Lcotlin/collections/c;II)V
 
     return-object v0
 .end method

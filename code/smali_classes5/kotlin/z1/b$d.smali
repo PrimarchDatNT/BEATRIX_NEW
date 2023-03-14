@@ -1,4 +1,4 @@
-.class public final Lkotlin/z1/b$d;
+.class public final Lcotlin/z1/b$d;
 .super Ljava/lang/Object;
 .source "Comparisons.kt"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/z1/b;->f(Lkotlin/jvm/u/l;)Ljava/util/Comparator;
+    value = Lcotlin/z1/b;->f(Lcotlin/jvm/u/l;)Ljava/util/Comparator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -31,7 +31,7 @@
     value = "SMAP\nComparisons.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Comparisons.kt\nkotlin/comparisons/ComparisonsKt__ComparisonsKt$compareByDescending$1\n*L\n1#1,319:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -60,14 +60,14 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/jvm/u/l;
+.field final synthetic a:Lcotlin/jvm/u/l;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/u/l;)V
+.method public constructor <init>(Lcotlin/jvm/u/l;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/z1/b$d;->a:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcotlin/z1/b$d;->a:Lcotlin/jvm/u/l;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -85,23 +85,23 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/z1/b$d;->a:Lkotlin/jvm/u/l;
+    iget-object v0, p0, Lcotlin/z1/b$d;->a:Lcotlin/jvm/u/l;
 
-    invoke-interface {v0, p2}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
     check-cast p2, Ljava/lang/Comparable;
 
-    iget-object v0, p0, Lkotlin/z1/b$d;->a:Lkotlin/jvm/u/l;
+    iget-object v0, p0, Lcotlin/z1/b$d;->a:Lcotlin/jvm/u/l;
 
-    invoke-interface {v0, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Ljava/lang/Comparable;
 
-    invoke-static {p2, p1}, Lkotlin/z1/a;->g(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
+    invoke-static {p2, p1}, Lcotlin/z1/a;->g(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
 
     move-result p1
 

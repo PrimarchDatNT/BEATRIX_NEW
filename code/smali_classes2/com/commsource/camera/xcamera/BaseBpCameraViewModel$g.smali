@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "session",
         "Lcom/meitu/library/d/a/a$c;",
         "arCoreCameraInfo",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "h1",
         "(Lcom/meitu/library/d/a/a;Lcom/google/ar/core/Session;Lcom/meitu/library/d/a/a$c;)V",
         "Lcom/google/ar/core/TrackingState;",

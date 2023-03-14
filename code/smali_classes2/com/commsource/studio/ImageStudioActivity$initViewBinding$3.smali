@@ -1,9 +1,9 @@
 .class final Lcom/commsource/studio/ImageStudioActivity$initViewBinding$3;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "ImageStudioActivity.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
@@ -18,16 +18,16 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/p<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/p<",
         "Ljava/lang/Integer;",
         "Lcom/commsource/studio/sub/SubTabEnum;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "position",
         "Lcom/commsource/studio/sub/SubTabEnum;",
         "enum",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(ILcom/commsource/studio/sub/SubTabEnum;)V",
         "<anonymous>"
@@ -67,7 +67,7 @@
 
     const/4 p1, 0x2
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -92,7 +92,7 @@
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/ImageStudioActivity$initViewBinding$3;->invoke(ILcom/commsource/studio/sub/SubTabEnum;)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -112,7 +112,7 @@
 
     const-string v0, "enum"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$initViewBinding$3;->this$0:Lcom/commsource/studio/ImageStudioActivity;
@@ -147,7 +147,7 @@
 
     const-string v1, "mViewBinding.formulaTip"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
@@ -155,7 +155,7 @@
 
     const-string v1, "mViewBinding.formulaTip.root"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 

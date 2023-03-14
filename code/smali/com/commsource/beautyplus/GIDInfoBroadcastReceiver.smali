@@ -8,7 +8,7 @@
     value = "SMAP\nGIDInfoBroadcastReceiver.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GIDInfoBroadcastReceiver.kt\ncom/commsource/beautyplus/GIDInfoBroadcastReceiver\n*L\n1#1,34:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,7 +24,7 @@
         "context",
         "Landroid/content/Intent;",
         "intent",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onReceive",
         "(Landroid/content/Context;Landroid/content/Intent;)V",
         "",
@@ -82,11 +82,11 @@
 
     const-string v1, "context"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "intent"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/GIDInfoBroadcastReceiver;->a:Ljava/lang/String;
@@ -102,7 +102,7 @@
 
     sget-object v2, Lcom/meitu/library/j/f/f;->b:Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -158,7 +158,7 @@
 
     const-string v3, "gidInfo"
 
-    invoke-static {p2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/meitu/library/j/f/b;->getId()Ljava/lang/String;
 

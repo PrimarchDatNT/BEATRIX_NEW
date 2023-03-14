@@ -1,10 +1,10 @@
-.class Lkotlin/collections/c1;
+.class Lcotlin/collections/c1;
 .super Ljava/lang/Object;
 .source "SetsJVM.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,17 +20,17 @@
         "f",
         "(Ljava/lang/Object;)Ljava/util/Set;",
         "E",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "",
-        "Lkotlin/t1;",
-        "Lkotlin/q;",
+        "Lcotlin/t1;",
+        "Lcotlin/q;",
         "builderAction",
         "c",
-        "(Lkotlin/jvm/u/l;)Ljava/util/Set;",
+        "(Lcotlin/jvm/u/l;)Ljava/util/Set;",
         "",
         "capacity",
         "b",
-        "(ILkotlin/jvm/u/l;)Ljava/util/Set;",
+        "(ILcotlin/jvm/u/l;)Ljava/util/Set;",
         "d",
         "()Ljava/util/Set;",
         "e",
@@ -44,7 +44,7 @@
         "h",
         "([Ljava/lang/Object;)Ljava/util/TreeSet;",
         "Ljava/util/Comparator;",
-        "Lkotlin/Comparator;",
+        "Lcotlin/Comparator;",
         "comparator",
         "g",
         "(Ljava/util/Comparator;[Ljava/lang/Object;)Ljava/util/TreeSet;",
@@ -87,13 +87,13 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -102,102 +102,102 @@
 
     const-string v0, "builder"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    check-cast p0, Lkotlin/collections/o1/h;
+    check-cast p0, Lcotlin/collections/o1/h;
 
-    invoke-virtual {p0}, Lkotlin/collections/o1/h;->c()Ljava/util/Set;
+    invoke-virtual {p0}, Lcotlin/collections/o1/h;->c()Ljava/util/Set;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final b(ILkotlin/jvm/u/l;)Ljava/util/Set;
+.method private static final b(ILcotlin/jvm/u/l;)Ljava/util/Set;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
             "Ljava/lang/Object;",
             ">(I",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/util/Set<",
             "TE;>;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Ljava/util/Set<",
             "TE;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lkotlin/collections/c1;->e(I)Ljava/util/Set;
+    invoke-static {p0}, Lcotlin/collections/c1;->e(I)Ljava/util/Set;
 
     move-result-object p0
 
-    invoke-interface {p1, p0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {p0}, Lkotlin/collections/c1;->a(Ljava/util/Set;)Ljava/util/Set;
+    invoke-static {p0}, Lcotlin/collections/c1;->a(Ljava/util/Set;)Ljava/util/Set;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final c(Lkotlin/jvm/u/l;)Ljava/util/Set;
+.method private static final c(Lcotlin/jvm/u/l;)Ljava/util/Set;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/util/Set<",
             "TE;>;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Ljava/util/Set<",
             "TE;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlin/collections/c1;->d()Ljava/util/Set;
+    invoke-static {}, Lcotlin/collections/c1;->d()Ljava/util/Set;
 
     move-result-object v0
 
-    invoke-interface {p0, v0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {v0}, Lkotlin/collections/c1;->a(Ljava/util/Set;)Ljava/util/Set;
+    invoke-static {v0}, Lcotlin/collections/c1;->a(Ljava/util/Set;)Ljava/util/Set;
 
     move-result-object p0
 
@@ -216,13 +216,13 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -230,9 +230,9 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/collections/o1/h;
+    new-instance v0, Lcotlin/collections/o1/h;
 
-    invoke-direct {v0}, Lkotlin/collections/o1/h;-><init>()V
+    invoke-direct {v0}, Lcotlin/collections/o1/h;-><init>()V
 
     return-object v0
 .end method
@@ -249,13 +249,13 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -263,9 +263,9 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/collections/o1/h;
+    new-instance v0, Lcotlin/collections/o1/h;
 
-    invoke-direct {v0, p0}, Lkotlin/collections/o1/h;-><init>(I)V
+    invoke-direct {v0, p0}, Lcotlin/collections/o1/h;-><init>(I)V
 
     return-object v0
 .end method
@@ -292,7 +292,7 @@
 
     const-string v0, "java.util.Collections.singleton(element)"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
@@ -324,18 +324,18 @@
 
     const-string v0, "comparator"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/TreeSet;
 
     invoke-direct {v0, p0}, Ljava/util/TreeSet;-><init>(Ljava/util/Comparator;)V
 
-    invoke-static {p1, v0}, Lkotlin/collections/ArraysKt___ArraysKt;->Zx([Ljava/lang/Object;Ljava/util/Collection;)Ljava/util/Collection;
+    invoke-static {p1, v0}, Lcotlin/collections/ArraysKt___ArraysKt;->Zx([Ljava/lang/Object;Ljava/util/Collection;)Ljava/util/Collection;
 
     move-result-object p0
 
@@ -365,14 +365,14 @@
 
     const-string v0, "elements"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/TreeSet;
 
     invoke-direct {v0}, Ljava/util/TreeSet;-><init>()V
 
-    invoke-static {p0, v0}, Lkotlin/collections/ArraysKt___ArraysKt;->Zx([Ljava/lang/Object;Ljava/util/Collection;)Ljava/util/Collection;
+    invoke-static {p0, v0}, Lcotlin/collections/ArraysKt___ArraysKt;->Zx([Ljava/lang/Object;Ljava/util/Collection;)Ljava/util/Collection;
 
     move-result-object p0
 

@@ -1,10 +1,10 @@
-.class public final Lkotlin/internal/l;
+.class public final Lcotlin/internal/l;
 .super Ljava/lang/Object;
 .source "PlatformImplementations.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,8 +28,8 @@
         "",
         "a",
         "(III)Z",
-        "Lkotlin/internal/k;",
-        "Lkotlin/internal/k;",
+        "Lcotlin/internal/k;",
+        "Lcotlin/internal/k;",
         "IMPLEMENTATIONS",
         "kotlin-stdlib"
     }
@@ -43,8 +43,8 @@
 
 
 # static fields
-.field public static final a:Lkotlin/internal/k;
-    .annotation build Lkotlin/jvm/d;
+.field public static final a:Lcotlin/internal/k;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -57,9 +57,9 @@
     .locals 12
 
     .line 1
-    const-class v0, Lkotlin/internal/k;
+    const-class v0, Lcotlin/internal/k;
 
-    invoke-static {}, Lkotlin/internal/l;->c()I
+    invoke-static {}, Lcotlin/internal/l;->c()I
 
     move-result v1
 
@@ -89,14 +89,14 @@
 
     move-result-object v7
 
-    invoke-static {v7, v6}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v6}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_1
 
     if-eqz v7, :cond_0
 
     :try_start_1
-    check-cast v7, Lkotlin/internal/k;
+    check-cast v7, Lcotlin/internal/k;
 
     goto/16 :goto_4
 
@@ -153,7 +153,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, v2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     throw v7
     :try_end_2
@@ -172,14 +172,14 @@
 
     move-result-object v7
 
-    invoke-static {v7, v6}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v6}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
     :try_end_3
     .catch Ljava/lang/ClassNotFoundException; {:try_start_3 .. :try_end_3} :catch_3
 
     if-eqz v7, :cond_1
 
     :try_start_4
-    check-cast v7, Lkotlin/internal/k;
+    check-cast v7, Lcotlin/internal/k;
 
     goto/16 :goto_4
 
@@ -236,7 +236,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, v2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     throw v7
     :try_end_5
@@ -262,7 +262,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
     :try_end_6
     .catch Ljava/lang/ClassNotFoundException; {:try_start_6 .. :try_end_6} :catch_5
 
@@ -271,7 +271,7 @@
     :try_start_7
     move-object v7, v1
 
-    check-cast v7, Lkotlin/internal/k;
+    check-cast v7, Lcotlin/internal/k;
 
     goto/16 :goto_4
 
@@ -328,7 +328,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     throw v1
     :try_end_8
@@ -347,7 +347,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
     :try_end_9
     .catch Ljava/lang/ClassNotFoundException; {:try_start_9 .. :try_end_9} :catch_7
 
@@ -356,7 +356,7 @@
     :try_start_a
     move-object v7, v1
 
-    check-cast v7, Lkotlin/internal/k;
+    check-cast v7, Lcotlin/internal/k;
 
     goto :goto_4
 
@@ -413,7 +413,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     throw v0
     :try_end_b
@@ -422,30 +422,30 @@
     .line 6
     :catch_7
     :cond_5
-    new-instance v7, Lkotlin/internal/k;
+    new-instance v7, Lcotlin/internal/k;
 
-    invoke-direct {v7}, Lkotlin/internal/k;-><init>()V
+    invoke-direct {v7}, Lcotlin/internal/k;-><init>()V
 
     .line 7
     :goto_4
-    sput-object v7, Lkotlin/internal/l;->a:Lkotlin/internal/k;
+    sput-object v7, Lcotlin/internal/l;->a:Lcotlin/internal/k;
 
     return-void
 .end method
 
 .method public static final a(III)Z
     .locals 1
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/t;->g:Lkotlin/t;
+    sget-object v0, Lcotlin/t;->g:Lcotlin/t;
 
-    invoke-virtual {v0, p0, p1, p2}, Lkotlin/t;->o(III)Z
+    invoke-virtual {v0, p0, p1, p2}, Lcotlin/t;->o(III)Z
 
     move-result p0
 
@@ -464,7 +464,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "T"
@@ -473,7 +473,7 @@
 
     .line 1
     :try_start_0
-    invoke-static {v1, v0}, Lkotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
+    invoke-static {v1, v0}, Lcotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/ClassCastException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -494,7 +494,7 @@
     const/4 v2, 0x4
 
     .line 3
-    invoke-static {v2, v0}, Lkotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
+    invoke-static {v2, v0}, Lcotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
 
     const-class v0, Ljava/lang/Object;
 
@@ -533,7 +533,7 @@
 
     const-string v0, "ClassCastException(\"Inst\u2026baseTypeCL\").initCause(e)"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -565,7 +565,7 @@
     move-object v1, v0
 
     .line 2
-    invoke-static/range {v1 .. v6}, Lkotlin/text/m;->m3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
+    invoke-static/range {v1 .. v6}, Lcotlin/text/m;->m3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
 
     move-result v8
 
@@ -602,7 +602,7 @@
     move v3, v10
 
     .line 4
-    invoke-static/range {v1 .. v6}, Lkotlin/text/m;->m3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
+    invoke-static/range {v1 .. v6}, Lcotlin/text/m;->m3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
 
     move-result v1
 
@@ -627,7 +627,7 @@
 
     const-string v4, "(this as java.lang.Strin\u2026ing(startIndex, endIndex)"
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 7
     invoke-static {v0, v3}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
@@ -636,7 +636,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, v4}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     :try_start_1

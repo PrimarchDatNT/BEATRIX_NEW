@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,11 +34,11 @@
         "transaction",
         "b",
         "(Lcom/commsource/camera/xcamera/cover/f;)Lcom/commsource/camera/xcamera/cover/CoverGroup$a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "()V",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "e",
         "Ljava/util/ArrayList;",
         "f",
@@ -137,7 +137,7 @@
 
     const-string v0, "cc"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -193,7 +193,7 @@
 
     const-string v1, "cover"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->b:Ljava/util/ArrayList;
@@ -231,7 +231,7 @@
 
     const-string v1, "transaction"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->c:Ljava/util/ArrayList;
@@ -368,7 +368,7 @@
 
     sget-object v2, Lcom/commsource/camera/xcamera/cover/CoverGroup$a$a;->a:Lcom/commsource/camera/xcamera/cover/CoverGroup$a$a;
 
-    invoke-static {v1, v2}, Lkotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
+    invoke-static {v1, v2}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
     .line 12
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->e:Ljava/util/ArrayList;
@@ -394,7 +394,7 @@
 
     sget-object v2, Lcom/commsource/camera/xcamera/cover/CoverGroup$a$b;->a:Lcom/commsource/camera/xcamera/cover/CoverGroup$a$b;
 
-    invoke-static {v1, v2}, Lkotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
+    invoke-static {v1, v2}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
     .line 16
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->a:Lcom/commsource/camera/xcamera/cover/CoverGroup;
@@ -417,7 +417,7 @@
 
     const-string v3, "ViewModelProviders.of(ro\u2026figViewModel::class.java)"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v2, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
@@ -624,7 +624,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->d:Ljava/util/ArrayList;
@@ -655,7 +655,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->b:Ljava/util/ArrayList;
@@ -686,7 +686,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->e:Ljava/util/ArrayList;
@@ -717,7 +717,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->c:Ljava/util/ArrayList;

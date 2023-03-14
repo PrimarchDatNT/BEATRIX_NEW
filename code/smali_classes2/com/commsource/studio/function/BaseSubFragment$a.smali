@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/commsource/studio/function/BaseSubFragment;->I(Landroid/view/View;Lkotlin/jvm/u/a;)V
+    value = Lcom/commsource/studio/function/BaseSubFragment;->I(Landroid/view/View;Lcotlin/jvm/u/a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
     d2 = {
         "Lcom/commsource/studio/effect/t;",
         "T",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "com/commsource/studio/function/BaseSubFragment$animateIn$1$1",
@@ -48,18 +48,18 @@
 
 .field final synthetic b:Lcom/commsource/studio/function/BaseSubFragment;
 
-.field final synthetic c:Lkotlin/jvm/u/a;
+.field final synthetic c:Lcotlin/jvm/u/a;
 
 
 # direct methods
-.method constructor <init>(Landroid/view/View;Lcom/commsource/studio/function/BaseSubFragment;Lkotlin/jvm/u/a;)V
+.method constructor <init>(Landroid/view/View;Lcom/commsource/studio/function/BaseSubFragment;Lcotlin/jvm/u/a;)V
     .locals 0
 
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment$a;->a:Landroid/view/View;
 
     iput-object p2, p0, Lcom/commsource/studio/function/BaseSubFragment$a;->b:Lcom/commsource/studio/function/BaseSubFragment;
 
-    iput-object p3, p0, Lcom/commsource/studio/function/BaseSubFragment$a;->c:Lkotlin/jvm/u/a;
+    iput-object p3, p0, Lcom/commsource/studio/function/BaseSubFragment$a;->c:Lcotlin/jvm/u/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

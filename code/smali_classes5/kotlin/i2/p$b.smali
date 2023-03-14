@@ -1,14 +1,14 @@
-.class public final Lkotlin/i2/p$b;
+.class public final Lcotlin/i2/p$b;
 .super Ljava/lang/Object;
 .source "TimeSource.kt"
 
 # interfaces
-.implements Lkotlin/i2/p;
+.implements Lcotlin/i2/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/i2/p;
+    value = Lcotlin/i2/p;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,7 +16,7 @@
     name = "b"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,13 +27,13 @@
     }
     d2 = {
         "kotlin/i2/p$b",
-        "Lkotlin/i2/p;",
+        "Lcotlin/i2/p;",
         "",
         "toString",
         "()Ljava/lang/String;",
-        "Lkotlin/i2/o;",
+        "Lcotlin/i2/o;",
         "a",
-        "()Lkotlin/i2/o;",
+        "()Lcotlin/i2/o;",
         "<init>",
         "()V",
         "kotlin-stdlib"
@@ -48,14 +48,14 @@
 
 
 # static fields
-.field public static final c:Lkotlin/i2/p$b;
+.field public static final c:Lcotlin/i2/p$b;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
 
 # instance fields
-.field private final synthetic b:Lkotlin/i2/m;
+.field private final synthetic b:Lcotlin/i2/m;
 
 
 # direct methods
@@ -63,11 +63,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lkotlin/i2/p$b;
+    new-instance v0, Lcotlin/i2/p$b;
 
-    invoke-direct {v0}, Lkotlin/i2/p$b;-><init>()V
+    invoke-direct {v0}, Lcotlin/i2/p$b;-><init>()V
 
-    sput-object v0, Lkotlin/i2/p$b;->c:Lkotlin/i2/p$b;
+    sput-object v0, Lcotlin/i2/p$b;->c:Lcotlin/i2/p$b;
 
     return-void
 .end method
@@ -78,23 +78,23 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    sget-object v0, Lkotlin/i2/m;->c:Lkotlin/i2/m;
+    sget-object v0, Lcotlin/i2/m;->c:Lcotlin/i2/m;
 
-    iput-object v0, p0, Lkotlin/i2/p$b;->b:Lkotlin/i2/m;
+    iput-object v0, p0, Lcotlin/i2/p$b;->b:Lcotlin/i2/m;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public a()Lkotlin/i2/o;
+.method public a()Lcotlin/i2/o;
     .locals 1
     .annotation build Ln/e/a/d;
     .end annotation
 
-    iget-object v0, p0, Lkotlin/i2/p$b;->b:Lkotlin/i2/m;
+    iget-object v0, p0, Lcotlin/i2/p$b;->b:Lcotlin/i2/m;
 
-    invoke-virtual {v0}, Lkotlin/i2/b;->a()Lkotlin/i2/o;
+    invoke-virtual {v0}, Lcotlin/i2/b;->a()Lcotlin/i2/o;
 
     move-result-object v0
 
@@ -107,9 +107,9 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/i2/m;->c:Lkotlin/i2/m;
+    sget-object v0, Lcotlin/i2/m;->c:Lcotlin/i2/m;
 
-    invoke-virtual {v0}, Lkotlin/i2/m;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Lcotlin/i2/m;->toString()Ljava/lang/String;
 
     move-result-object v0
 

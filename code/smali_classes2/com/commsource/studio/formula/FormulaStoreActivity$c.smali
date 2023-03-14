@@ -34,7 +34,7 @@
     value = "SMAP\nFormulaStoreActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FormulaStoreActivity.kt\ncom/commsource/studio/formula/FormulaStoreActivity$initObserver$2\n*L\n1#1,187:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -48,7 +48,7 @@
         "Lcom/commsource/studio/formula/FormulaCategory;",
         "kotlin.jvm.PlatformType",
         "source",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/util/List;)V"
     }
@@ -145,7 +145,7 @@
 
     const-string v2, "viewBinding.vp"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v2, Lcom/commsource/studio/formula/FormulaStoreActivity$c$a;
 

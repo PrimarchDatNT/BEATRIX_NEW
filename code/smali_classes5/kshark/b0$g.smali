@@ -13,7 +13,7 @@
     name = "g"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -68,7 +68,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, v0}, Lkshark/b0;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {p0, v0}, Lkshark/b0;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput p1, p0, Lkshark/b0$g;->c:I
 

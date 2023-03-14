@@ -8,7 +8,7 @@
     value = "SMAP\nMaterialQueryHelper.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MaterialQueryHelper.kt\ncom/commsource/repository/MaterialQueryHelper\n*L\n1#1,57:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "",
         "Ljava/lang/Runnable;",
         "runnable",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Runnable;)V",
         "d",
@@ -111,7 +111,7 @@
 
     const-string v1, "runnable"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-boolean v1, p0, Lcom/commsource/repository/f;->c:Z
@@ -243,7 +243,7 @@
     invoke-virtual {v2}, Ljava/util/LinkedList;->clear()V
 
     .line 6
-    sget-object v2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

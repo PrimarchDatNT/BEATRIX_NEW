@@ -1,14 +1,14 @@
-.class final Lkotlinx/coroutines/channels/g$a;
-.super Lkotlinx/coroutines/channels/a;
+.class final Lcotlinx/coroutines/channels/g$a;
+.super Lcotlinx/coroutines/channels/a;
 .source "ArrayBroadcastChannel.kt"
 
 # interfaces
-.implements Lkotlinx/coroutines/channels/y;
+.implements Lcotlinx/coroutines/channels/y;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/channels/g;
+    value = Lcotlinx/coroutines/channels/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -21,9 +21,9 @@
         "<E:",
         "Ljava/lang/Object;",
         ">",
-        "Lkotlinx/coroutines/channels/a<",
+        "Lcotlinx/coroutines/channels/a<",
         "TE;>;",
-        "Lkotlinx/coroutines/channels/y<",
+        "Lcotlinx/coroutines/channels/y<",
         "TE;>;"
     }
 .end annotation
@@ -32,7 +32,7 @@
     value = "SMAP\nArrayBroadcastChannel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ArrayBroadcastChannel.kt\nkotlinx/coroutines/channels/ArrayBroadcastChannel$Subscriber\n+ 2 Concurrent.kt\nkotlinx/coroutines/internal/ConcurrentKt\n*L\n1#1,375:1\n17#2:376\n17#2:377\n17#2:378\n*E\n*S KotlinDebug\n*F\n+ 1 ArrayBroadcastChannel.kt\nkotlinx/coroutines/channels/ArrayBroadcastChannel$Subscriber\n*L\n224#1:376\n273#1:377\n302#1:378\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -44,8 +44,8 @@
     d2 = {
         "kotlinx/coroutines/channels/g$a",
         "E",
-        "Lkotlinx/coroutines/channels/a;",
-        "Lkotlinx/coroutines/channels/y;",
+        "Lcotlinx/coroutines/channels/a;",
+        "Lcotlinx/coroutines/channels/y;",
         "",
         "r0",
         "()Z",
@@ -53,15 +53,15 @@
         "s0",
         "()Ljava/lang/Object;",
         "wasClosed",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "f0",
         "(Z)V",
         "p0",
         "i0",
-        "Lkotlinx/coroutines/selects/f;",
+        "Lcotlinx/coroutines/selects/f;",
         "select",
         "j0",
-        "(Lkotlinx/coroutines/selects/f;)Ljava/lang/Object;",
+        "(Lcotlinx/coroutines/selects/f;)Ljava/lang/Object;",
         "",
         "value",
         "q0",
@@ -72,7 +72,7 @@
         "w",
         "isBufferFull",
         "Ljava/util/concurrent/locks/ReentrantLock;",
-        "Lkotlinx/coroutines/internal/ReentrantLock;",
+        "Lcotlinx/coroutines/internal/ReentrantLock;",
         "c",
         "Ljava/util/concurrent/locks/ReentrantLock;",
         "subLock",
@@ -82,12 +82,12 @@
         "isBufferAlwaysFull",
         "c0",
         "isBufferAlwaysEmpty",
-        "Lkotlinx/coroutines/channels/g;",
+        "Lcotlinx/coroutines/channels/g;",
         "d",
-        "Lkotlinx/coroutines/channels/g;",
+        "Lcotlinx/coroutines/channels/g;",
         "broadcastChannel",
         "<init>",
-        "(Lkotlinx/coroutines/channels/g;)V",
+        "(Lcotlinx/coroutines/channels/g;)V",
         "kotlinx-coroutines-core"
     }
     k = 0x1
@@ -104,10 +104,10 @@
 
 .field private final c:Ljava/util/concurrent/locks/ReentrantLock;
 
-.field private final d:Lkotlinx/coroutines/channels/g;
+.field private final d:Lcotlinx/coroutines/channels/g;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlinx/coroutines/channels/g<",
+            "Lcotlinx/coroutines/channels/g<",
             "TE;>;"
         }
     .end annotation
@@ -115,36 +115,36 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/channels/g;)V
+.method public constructor <init>(Lcotlinx/coroutines/channels/g;)V
     .locals 2
-    .param p1    # Lkotlinx/coroutines/channels/g;
+    .param p1    # Lcotlinx/coroutines/channels/g;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/channels/g<",
+            "Lcotlinx/coroutines/channels/g<",
             "TE;>;)V"
         }
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lkotlinx/coroutines/channels/a;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/channels/a;-><init>()V
 
-    iput-object p1, p0, Lkotlinx/coroutines/channels/g$a;->d:Lkotlinx/coroutines/channels/g;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/g$a;->d:Lcotlinx/coroutines/channels/g;
 
     .line 2
     new-instance p1, Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-direct {p1}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
 
-    iput-object p1, p0, Lkotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
 
     const-wide/16 v0, 0x0
 
     .line 3
-    iput-wide v0, p0, Lkotlinx/coroutines/channels/g$a;->_subHead:J
+    iput-wide v0, p0, Lcotlinx/coroutines/channels/g$a;->_subHead:J
 
     return-void
 .end method
@@ -153,7 +153,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lkotlinx/coroutines/channels/c;->m()Lkotlinx/coroutines/channels/p;
+    invoke-virtual {p0}, Lcotlinx/coroutines/channels/c;->m()Lcotlinx/coroutines/channels/p;
 
     move-result-object v0
 
@@ -165,15 +165,15 @@
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Lkotlinx/coroutines/channels/g$a;->d0()Z
+    invoke-virtual {p0}, Lcotlinx/coroutines/channels/g$a;->d0()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lkotlinx/coroutines/channels/g$a;->d:Lkotlinx/coroutines/channels/g;
+    iget-object v0, p0, Lcotlinx/coroutines/channels/g$a;->d:Lcotlinx/coroutines/channels/g;
 
-    invoke-virtual {v0}, Lkotlinx/coroutines/channels/c;->m()Lkotlinx/coroutines/channels/p;
+    invoke-virtual {v0}, Lcotlinx/coroutines/channels/c;->m()Lcotlinx/coroutines/channels/p;
 
     move-result-object v0
 
@@ -191,21 +191,21 @@
     .locals 6
 
     .line 1
-    invoke-virtual {p0}, Lkotlinx/coroutines/channels/g$a;->q0()J
+    invoke-virtual {p0}, Lcotlinx/coroutines/channels/g$a;->q0()J
 
     move-result-wide v0
 
     .line 2
-    iget-object v2, p0, Lkotlinx/coroutines/channels/g$a;->d:Lkotlinx/coroutines/channels/g;
+    iget-object v2, p0, Lcotlinx/coroutines/channels/g$a;->d:Lcotlinx/coroutines/channels/g;
 
-    invoke-virtual {v2}, Lkotlinx/coroutines/channels/c;->m()Lkotlinx/coroutines/channels/p;
+    invoke-virtual {v2}, Lcotlinx/coroutines/channels/c;->m()Lcotlinx/coroutines/channels/p;
 
     move-result-object v2
 
     .line 3
-    iget-object v3, p0, Lkotlinx/coroutines/channels/g$a;->d:Lkotlinx/coroutines/channels/g;
+    iget-object v3, p0, Lcotlinx/coroutines/channels/g$a;->d:Lcotlinx/coroutines/channels/g;
 
-    invoke-static {v3}, Lkotlinx/coroutines/channels/g;->R(Lkotlinx/coroutines/channels/g;)J
+    invoke-static {v3}, Lcotlinx/coroutines/channels/g;->R(Lcotlinx/coroutines/channels/g;)J
 
     move-result-wide v3
 
@@ -219,7 +219,7 @@
 
     .line 4
     :cond_0
-    invoke-virtual {p0}, Lkotlinx/coroutines/channels/c;->m()Lkotlinx/coroutines/channels/p;
+    invoke-virtual {p0}, Lcotlinx/coroutines/channels/c;->m()Lcotlinx/coroutines/channels/p;
 
     move-result-object v2
 
@@ -229,21 +229,21 @@
     goto :goto_1
 
     :cond_1
-    sget-object v2, Lkotlinx/coroutines/channels/b;->f:Ljava/lang/Object;
+    sget-object v2, Lcotlinx/coroutines/channels/b;->f:Ljava/lang/Object;
 
     :goto_1
     return-object v2
 
     .line 5
     :cond_2
-    iget-object v2, p0, Lkotlinx/coroutines/channels/g$a;->d:Lkotlinx/coroutines/channels/g;
+    iget-object v2, p0, Lcotlinx/coroutines/channels/g$a;->d:Lcotlinx/coroutines/channels/g;
 
-    invoke-static {v2, v0, v1}, Lkotlinx/coroutines/channels/g;->N(Lkotlinx/coroutines/channels/g;J)Ljava/lang/Object;
+    invoke-static {v2, v0, v1}, Lcotlinx/coroutines/channels/g;->N(Lcotlinx/coroutines/channels/g;J)Ljava/lang/Object;
 
     move-result-object v0
 
     .line 6
-    invoke-virtual {p0}, Lkotlinx/coroutines/channels/c;->m()Lkotlinx/coroutines/channels/p;
+    invoke-virtual {p0}, Lcotlinx/coroutines/channels/c;->m()Lcotlinx/coroutines/channels/p;
 
     move-result-object v1
 
@@ -269,13 +269,13 @@
     .locals 5
 
     .line 1
-    invoke-virtual {p0}, Lkotlinx/coroutines/channels/g$a;->q0()J
+    invoke-virtual {p0}, Lcotlinx/coroutines/channels/g$a;->q0()J
 
     move-result-wide v0
 
-    iget-object v2, p0, Lkotlinx/coroutines/channels/g$a;->d:Lkotlinx/coroutines/channels/g;
+    iget-object v2, p0, Lcotlinx/coroutines/channels/g$a;->d:Lcotlinx/coroutines/channels/g;
 
-    invoke-static {v2}, Lkotlinx/coroutines/channels/g;->R(Lkotlinx/coroutines/channels/g;)J
+    invoke-static {v2}, Lcotlinx/coroutines/channels/g;->R(Lcotlinx/coroutines/channels/g;)J
 
     move-result-wide v2
 
@@ -300,32 +300,32 @@
     if-eqz p1, :cond_0
 
     .line 1
-    iget-object p1, p0, Lkotlinx/coroutines/channels/g$a;->d:Lkotlinx/coroutines/channels/g;
+    iget-object p1, p0, Lcotlinx/coroutines/channels/g$a;->d:Lcotlinx/coroutines/channels/g;
 
     const/4 v0, 0x1
 
     const/4 v1, 0x0
 
-    invoke-static {p1, v1, p0, v0, v1}, Lkotlinx/coroutines/channels/g;->i0(Lkotlinx/coroutines/channels/g;Lkotlinx/coroutines/channels/g$a;Lkotlinx/coroutines/channels/g$a;ILjava/lang/Object;)V
+    invoke-static {p1, v1, p0, v0, v1}, Lcotlinx/coroutines/channels/g;->i0(Lcotlinx/coroutines/channels/g;Lcotlinx/coroutines/channels/g$a;Lcotlinx/coroutines/channels/g$a;ILjava/lang/Object;)V
 
     .line 2
-    iget-object p1, p0, Lkotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
+    iget-object p1, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 3
     invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;->lock()V
 
     .line 4
     :try_start_0
-    iget-object v0, p0, Lkotlinx/coroutines/channels/g$a;->d:Lkotlinx/coroutines/channels/g;
+    iget-object v0, p0, Lcotlinx/coroutines/channels/g$a;->d:Lcotlinx/coroutines/channels/g;
 
-    invoke-static {v0}, Lkotlinx/coroutines/channels/g;->R(Lkotlinx/coroutines/channels/g;)J
+    invoke-static {v0}, Lcotlinx/coroutines/channels/g;->R(Lcotlinx/coroutines/channels/g;)J
 
     move-result-wide v0
 
-    invoke-virtual {p0, v0, v1}, Lkotlinx/coroutines/channels/g$a;->t0(J)V
+    invoke-virtual {p0, v0, v1}, Lcotlinx/coroutines/channels/g$a;->t0(J)V
 
     .line 5
-    sget-object v0, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -351,19 +351,19 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
+    iget-object v0, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 2
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
 
     .line 3
     :try_start_0
-    invoke-direct {p0}, Lkotlinx/coroutines/channels/g$a;->s0()Ljava/lang/Object;
+    invoke-direct {p0}, Lcotlinx/coroutines/channels/g$a;->s0()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 4
-    instance-of v2, v1, Lkotlinx/coroutines/channels/p;
+    instance-of v2, v1, Lcotlinx/coroutines/channels/p;
 
     const/4 v3, 0x1
 
@@ -373,7 +373,7 @@
 
     .line 5
     :cond_0
-    sget-object v2, Lkotlinx/coroutines/channels/b;->f:Ljava/lang/Object;
+    sget-object v2, Lcotlinx/coroutines/channels/b;->f:Ljava/lang/Object;
 
     if-ne v1, v2, :cond_1
 
@@ -384,7 +384,7 @@
 
     .line 6
     :cond_1
-    invoke-virtual {p0}, Lkotlinx/coroutines/channels/g$a;->q0()J
+    invoke-virtual {p0}, Lcotlinx/coroutines/channels/g$a;->q0()J
 
     move-result-wide v4
 
@@ -393,7 +393,7 @@
     add-long/2addr v4, v6
 
     .line 7
-    invoke-virtual {p0, v4, v5}, Lkotlinx/coroutines/channels/g$a;->t0(J)V
+    invoke-virtual {p0, v4, v5}, Lcotlinx/coroutines/channels/g$a;->t0(J)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -404,7 +404,7 @@
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 9
-    instance-of v0, v1, Lkotlinx/coroutines/channels/p;
+    instance-of v0, v1, Lcotlinx/coroutines/channels/p;
 
     const/4 v4, 0x0
 
@@ -418,17 +418,17 @@
     move-object v0, v1
 
     :goto_2
-    check-cast v0, Lkotlinx/coroutines/channels/p;
+    check-cast v0, Lcotlinx/coroutines/channels/p;
 
     if-eqz v0, :cond_3
 
-    iget-object v0, v0, Lkotlinx/coroutines/channels/p;->d:Ljava/lang/Throwable;
+    iget-object v0, v0, Lcotlinx/coroutines/channels/p;->d:Ljava/lang/Throwable;
 
-    invoke-virtual {p0, v0}, Lkotlinx/coroutines/channels/c;->Q(Ljava/lang/Throwable;)Z
+    invoke-virtual {p0, v0}, Lcotlinx/coroutines/channels/c;->Q(Ljava/lang/Throwable;)Z
 
     .line 10
     :cond_3
-    invoke-virtual {p0}, Lkotlinx/coroutines/channels/g$a;->p0()Z
+    invoke-virtual {p0}, Lcotlinx/coroutines/channels/g$a;->p0()Z
 
     move-result v0
 
@@ -443,11 +443,11 @@
     if-eqz v3, :cond_5
 
     .line 11
-    iget-object v0, p0, Lkotlinx/coroutines/channels/g$a;->d:Lkotlinx/coroutines/channels/g;
+    iget-object v0, p0, Lcotlinx/coroutines/channels/g$a;->d:Lcotlinx/coroutines/channels/g;
 
     const/4 v2, 0x3
 
-    invoke-static {v0, v4, v4, v2, v4}, Lkotlinx/coroutines/channels/g;->i0(Lkotlinx/coroutines/channels/g;Lkotlinx/coroutines/channels/g$a;Lkotlinx/coroutines/channels/g$a;ILjava/lang/Object;)V
+    invoke-static {v0, v4, v4, v2, v4}, Lcotlinx/coroutines/channels/g;->i0(Lcotlinx/coroutines/channels/g;Lcotlinx/coroutines/channels/g$a;Lcotlinx/coroutines/channels/g$a;ILjava/lang/Object;)V
 
     :cond_5
     return-object v1
@@ -461,16 +461,16 @@
     throw v1
 .end method
 
-.method protected j0(Lkotlinx/coroutines/selects/f;)Ljava/lang/Object;
+.method protected j0(Lcotlinx/coroutines/selects/f;)Ljava/lang/Object;
     .locals 8
-    .param p1    # Lkotlinx/coroutines/selects/f;
+    .param p1    # Lcotlinx/coroutines/selects/f;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/selects/f<",
+            "Lcotlinx/coroutines/selects/f<",
             "*>;)",
             "Ljava/lang/Object;"
         }
@@ -480,19 +480,19 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
+    iget-object v0, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 2
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
 
     .line 3
     :try_start_0
-    invoke-direct {p0}, Lkotlinx/coroutines/channels/g$a;->s0()Ljava/lang/Object;
+    invoke-direct {p0}, Lcotlinx/coroutines/channels/g$a;->s0()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 4
-    instance-of v2, v1, Lkotlinx/coroutines/channels/p;
+    instance-of v2, v1, Lcotlinx/coroutines/channels/p;
 
     const/4 v3, 0x1
 
@@ -504,7 +504,7 @@
 
     .line 5
     :cond_0
-    sget-object v2, Lkotlinx/coroutines/channels/b;->f:Ljava/lang/Object;
+    sget-object v2, Lcotlinx/coroutines/channels/b;->f:Ljava/lang/Object;
 
     if-ne v1, v2, :cond_1
 
@@ -512,14 +512,14 @@
 
     .line 6
     :cond_1
-    invoke-interface {p1}, Lkotlinx/coroutines/selects/f;->o()Z
+    invoke-interface {p1}, Lcotlinx/coroutines/selects/f;->o()Z
 
     move-result p1
 
     if-nez p1, :cond_2
 
     .line 7
-    invoke-static {}, Lkotlinx/coroutines/selects/g;->g()Ljava/lang/Object;
+    invoke-static {}, Lcotlinx/coroutines/selects/g;->g()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -527,7 +527,7 @@
 
     .line 8
     :cond_2
-    invoke-virtual {p0}, Lkotlinx/coroutines/channels/g$a;->q0()J
+    invoke-virtual {p0}, Lcotlinx/coroutines/channels/g$a;->q0()J
 
     move-result-wide v4
 
@@ -536,7 +536,7 @@
     add-long/2addr v4, v6
 
     .line 9
-    invoke-virtual {p0, v4, v5}, Lkotlinx/coroutines/channels/g$a;->t0(J)V
+    invoke-virtual {p0, v4, v5}, Lcotlinx/coroutines/channels/g$a;->t0(J)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -547,7 +547,7 @@
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 11
-    instance-of p1, v1, Lkotlinx/coroutines/channels/p;
+    instance-of p1, v1, Lcotlinx/coroutines/channels/p;
 
     const/4 v0, 0x0
 
@@ -561,17 +561,17 @@
     move-object p1, v1
 
     :goto_1
-    check-cast p1, Lkotlinx/coroutines/channels/p;
+    check-cast p1, Lcotlinx/coroutines/channels/p;
 
     if-eqz p1, :cond_4
 
-    iget-object p1, p1, Lkotlinx/coroutines/channels/p;->d:Ljava/lang/Throwable;
+    iget-object p1, p1, Lcotlinx/coroutines/channels/p;->d:Ljava/lang/Throwable;
 
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/channels/c;->Q(Ljava/lang/Throwable;)Z
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/channels/c;->Q(Ljava/lang/Throwable;)Z
 
     .line 12
     :cond_4
-    invoke-virtual {p0}, Lkotlinx/coroutines/channels/g$a;->p0()Z
+    invoke-virtual {p0}, Lcotlinx/coroutines/channels/g$a;->p0()Z
 
     move-result p1
 
@@ -586,11 +586,11 @@
     if-eqz v3, :cond_6
 
     .line 13
-    iget-object p1, p0, Lkotlinx/coroutines/channels/g$a;->d:Lkotlinx/coroutines/channels/g;
+    iget-object p1, p0, Lcotlinx/coroutines/channels/g$a;->d:Lcotlinx/coroutines/channels/g;
 
     const/4 v2, 0x3
 
-    invoke-static {p1, v0, v0, v2, v0}, Lkotlinx/coroutines/channels/g;->i0(Lkotlinx/coroutines/channels/g;Lkotlinx/coroutines/channels/g$a;Lkotlinx/coroutines/channels/g$a;ILjava/lang/Object;)V
+    invoke-static {p1, v0, v0, v2, v0}, Lcotlinx/coroutines/channels/g;->i0(Lcotlinx/coroutines/channels/g;Lcotlinx/coroutines/channels/g$a;Lcotlinx/coroutines/channels/g$a;ILjava/lang/Object;)V
 
     :cond_6
     return-object v1
@@ -615,7 +615,7 @@
 
     .line 1
     :goto_0
-    invoke-direct {p0}, Lkotlinx/coroutines/channels/g$a;->r0()Z
+    invoke-direct {p0}, Lcotlinx/coroutines/channels/g$a;->r0()Z
 
     move-result v3
 
@@ -624,7 +624,7 @@
     if-eqz v3, :cond_a
 
     .line 2
-    iget-object v3, p0, Lkotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
+    iget-object v3, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-virtual {v3}, Ljava/util/concurrent/locks/ReentrantLock;->tryLock()Z
 
@@ -637,12 +637,12 @@
     .line 3
     :cond_0
     :try_start_0
-    invoke-direct {p0}, Lkotlinx/coroutines/channels/g$a;->s0()Ljava/lang/Object;
+    invoke-direct {p0}, Lcotlinx/coroutines/channels/g$a;->s0()Ljava/lang/Object;
 
     move-result-object v3
 
     .line 4
-    sget-object v5, Lkotlinx/coroutines/channels/b;->f:Ljava/lang/Object;
+    sget-object v5, Lcotlinx/coroutines/channels/b;->f:Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -650,7 +650,7 @@
 
     .line 5
     :cond_1
-    iget-object v3, p0, Lkotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
+    iget-object v3, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-virtual {v3}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
@@ -659,21 +659,21 @@
     .line 6
     :cond_2
     :try_start_1
-    instance-of v5, v3, Lkotlinx/coroutines/channels/p;
+    instance-of v5, v3, Lcotlinx/coroutines/channels/p;
 
     if-eqz v5, :cond_4
 
     .line 7
     move-object v4, v3
 
-    check-cast v4, Lkotlinx/coroutines/channels/p;
+    check-cast v4, Lcotlinx/coroutines/channels/p;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 8
     :cond_3
     :goto_1
-    iget-object v0, p0, Lkotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
+    iget-object v0, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
@@ -682,14 +682,14 @@
     .line 9
     :cond_4
     :try_start_2
-    invoke-virtual {p0}, Lkotlinx/coroutines/channels/a;->I()Lkotlinx/coroutines/channels/z;
+    invoke-virtual {p0}, Lcotlinx/coroutines/channels/a;->I()Lcotlinx/coroutines/channels/z;
 
     move-result-object v5
 
     if-eqz v5, :cond_3
 
     .line 10
-    instance-of v6, v5, Lkotlinx/coroutines/channels/p;
+    instance-of v6, v5, Lcotlinx/coroutines/channels/p;
 
     if-eqz v6, :cond_5
 
@@ -697,20 +697,20 @@
 
     .line 11
     :cond_5
-    invoke-interface {v5, v3, v4}, Lkotlinx/coroutines/channels/z;->v(Ljava/lang/Object;Lkotlinx/coroutines/internal/m$d;)Lkotlinx/coroutines/internal/c0;
+    invoke-interface {v5, v3, v4}, Lcotlinx/coroutines/channels/z;->v(Ljava/lang/Object;Lcotlinx/coroutines/internal/m$d;)Lcotlinx/coroutines/internal/c0;
 
     move-result-object v4
 
     if-eqz v4, :cond_1
 
     .line 12
-    invoke-static {}, Lkotlinx/coroutines/p0;->b()Z
+    invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v2
 
     if-eqz v2, :cond_8
 
-    sget-object v2, Lkotlinx/coroutines/o;->d:Lkotlinx/coroutines/internal/c0;
+    sget-object v2, Lcotlinx/coroutines/o;->d:Lcotlinx/coroutines/internal/c0;
 
     if-ne v4, v2, :cond_6
 
@@ -736,7 +736,7 @@
     .line 13
     :cond_8
     :goto_3
-    invoke-virtual {p0}, Lkotlinx/coroutines/channels/g$a;->q0()J
+    invoke-virtual {p0}, Lcotlinx/coroutines/channels/g$a;->q0()J
 
     move-result-wide v6
 
@@ -745,22 +745,22 @@
     add-long/2addr v6, v8
 
     .line 14
-    invoke-virtual {p0, v6, v7}, Lkotlinx/coroutines/channels/g$a;->t0(J)V
+    invoke-virtual {p0, v6, v7}, Lcotlinx/coroutines/channels/g$a;->t0(J)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
     .line 15
-    iget-object v2, p0, Lkotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
+    iget-object v2, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-virtual {v2}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
     if-nez v5, :cond_9
 
     .line 16
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_9
-    invoke-interface {v5, v3}, Lkotlinx/coroutines/channels/z;->k(Ljava/lang/Object;)V
+    invoke-interface {v5, v3}, Lcotlinx/coroutines/channels/z;->k(Ljava/lang/Object;)V
 
     const/4 v2, 0x1
 
@@ -770,7 +770,7 @@
     move-exception v0
 
     .line 17
-    iget-object v1, p0, Lkotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
+    iget-object v1, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
@@ -781,9 +781,9 @@
     if-eqz v4, :cond_b
 
     .line 18
-    iget-object v0, v4, Lkotlinx/coroutines/channels/p;->d:Ljava/lang/Throwable;
+    iget-object v0, v4, Lcotlinx/coroutines/channels/p;->d:Ljava/lang/Throwable;
 
-    invoke-virtual {p0, v0}, Lkotlinx/coroutines/channels/c;->Q(Ljava/lang/Throwable;)Z
+    invoke-virtual {p0, v0}, Lcotlinx/coroutines/channels/c;->Q(Ljava/lang/Throwable;)Z
 
     :cond_b
     return v2
@@ -793,7 +793,7 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Lkotlinx/coroutines/channels/g$a;->_subHead:J
+    iget-wide v0, p0, Lcotlinx/coroutines/channels/g$a;->_subHead:J
 
     return-wide v0
 .end method
@@ -802,7 +802,7 @@
     .locals 0
 
     .line 1
-    iput-wide p1, p0, Lkotlinx/coroutines/channels/g$a;->_subHead:J
+    iput-wide p1, p0, Lcotlinx/coroutines/channels/g$a;->_subHead:J
 
     return-void
 .end method

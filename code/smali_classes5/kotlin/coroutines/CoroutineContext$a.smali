@@ -1,14 +1,14 @@
-.class public interface abstract Lkotlin/coroutines/CoroutineContext$a;
+.class public interface abstract Lcotlin/coroutines/CoroutineContext$a;
 .super Ljava/lang/Object;
 .source "CoroutineContext.kt"
 
 # interfaces
-.implements Lkotlin/coroutines/CoroutineContext;
+.implements Lcotlin/coroutines/CoroutineContext;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/coroutines/CoroutineContext;
+    value = Lcotlin/coroutines/CoroutineContext;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,11 +18,11 @@
 
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkotlin/coroutines/CoroutineContext$a$a;
+        Lcotlin/coroutines/CoroutineContext$a$a;
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,23 +33,23 @@
     }
     d2 = {
         "kotlin/coroutines/CoroutineContext$a",
-        "Lkotlin/coroutines/CoroutineContext;",
-        "Lkotlin/coroutines/CoroutineContext$a;",
+        "Lcotlin/coroutines/CoroutineContext;",
+        "Lcotlin/coroutines/CoroutineContext$a;",
         "E",
-        "Lkotlin/coroutines/CoroutineContext$b;",
+        "Lcotlin/coroutines/CoroutineContext$b;",
         "key",
         "get",
-        "(Lkotlin/coroutines/CoroutineContext$b;)Lkotlin/coroutines/CoroutineContext$a;",
+        "(Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext$a;",
         "R",
         "initial",
-        "Lkotlin/Function2;",
+        "Lcotlin/Function2;",
         "operation",
         "fold",
-        "(Ljava/lang/Object;Lkotlin/jvm/u/p;)Ljava/lang/Object;",
+        "(Ljava/lang/Object;Lcotlin/jvm/u/p;)Ljava/lang/Object;",
         "minusKey",
-        "(Lkotlin/coroutines/CoroutineContext$b;)Lkotlin/coroutines/CoroutineContext;",
+        "(Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext;",
         "getKey",
-        "()Lkotlin/coroutines/CoroutineContext$b;",
+        "()Lcotlin/coroutines/CoroutineContext$b;",
         "kotlin-stdlib"
     }
     k = 0x1
@@ -62,8 +62,8 @@
 
 
 # virtual methods
-.method public abstract fold(Ljava/lang/Object;Lkotlin/jvm/u/p;)Ljava/lang/Object;
-    .param p2    # Lkotlin/jvm/u/p;
+.method public abstract fold(Ljava/lang/Object;Lcotlin/jvm/u/p;)Ljava/lang/Object;
+    .param p2    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -72,25 +72,25 @@
             "<R:",
             "Ljava/lang/Object;",
             ">(TR;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-TR;-",
-            "Lkotlin/coroutines/CoroutineContext$a;",
+            "Lcotlin/coroutines/CoroutineContext$a;",
             "+TR;>;)TR;"
         }
     .end annotation
 .end method
 
-.method public abstract get(Lkotlin/coroutines/CoroutineContext$b;)Lkotlin/coroutines/CoroutineContext$a;
-    .param p1    # Lkotlin/coroutines/CoroutineContext$b;
+.method public abstract get(Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext$a;
+    .param p1    # Lcotlin/coroutines/CoroutineContext$b;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E::",
-            "Lkotlin/coroutines/CoroutineContext$a;",
+            "Lcotlin/coroutines/CoroutineContext$a;",
             ">(",
-            "Lkotlin/coroutines/CoroutineContext$b<",
+            "Lcotlin/coroutines/CoroutineContext$b<",
             "TE;>;)TE;"
         }
     .end annotation
@@ -99,11 +99,11 @@
     .end annotation
 .end method
 
-.method public abstract getKey()Lkotlin/coroutines/CoroutineContext$b;
+.method public abstract getKey()Lcotlin/coroutines/CoroutineContext$b;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/coroutines/CoroutineContext$b<",
+            "Lcotlin/coroutines/CoroutineContext$b<",
             "*>;"
         }
     .end annotation
@@ -112,17 +112,17 @@
     .end annotation
 .end method
 
-.method public abstract minusKey(Lkotlin/coroutines/CoroutineContext$b;)Lkotlin/coroutines/CoroutineContext;
-    .param p1    # Lkotlin/coroutines/CoroutineContext$b;
+.method public abstract minusKey(Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext;
+    .param p1    # Lcotlin/coroutines/CoroutineContext$b;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/coroutines/CoroutineContext$b<",
+            "Lcotlin/coroutines/CoroutineContext$b<",
             "*>;)",
-            "Lkotlin/coroutines/CoroutineContext;"
+            "Lcotlin/coroutines/CoroutineContext;"
         }
     .end annotation
 

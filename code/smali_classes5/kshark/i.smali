@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,9 +35,9 @@
         "h",
         "()Ljava/util/List;",
         "gcRoots",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "a",
-        "()Lkotlin/sequences/m;",
+        "()Lcotlin/sequences/m;",
         "objects",
         "",
         "i",
@@ -70,11 +70,11 @@
 
 
 # virtual methods
-.method public abstract a()Lkotlin/sequences/m;
+.method public abstract a()Lcotlin/sequences/m;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Lkshark/HeapObject;",
             ">;"
         }
@@ -84,11 +84,11 @@
     .end annotation
 .end method
 
-.method public abstract b()Lkotlin/sequences/m;
+.method public abstract b()Lcotlin/sequences/m;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Lkshark/HeapObject$b;",
             ">;"
         }
@@ -121,11 +121,11 @@
     .end annotation
 .end method
 
-.method public abstract f()Lkotlin/sequences/m;
+.method public abstract f()Lcotlin/sequences/m;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Lkshark/HeapObject$HeapInstance;",
             ">;"
         }
@@ -135,11 +135,11 @@
     .end annotation
 .end method
 
-.method public abstract g()Lkotlin/sequences/m;
+.method public abstract g()Lcotlin/sequences/m;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Lkshark/HeapObject$HeapClass;",
             ">;"
         }
@@ -171,11 +171,11 @@
 .method public abstract i()I
 .end method
 
-.method public abstract j()Lkotlin/sequences/m;
+.method public abstract j()Lcotlin/sequences/m;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Lkshark/HeapObject$HeapObjectArray;",
             ">;"
         }

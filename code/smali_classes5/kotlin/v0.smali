@@ -1,10 +1,10 @@
-.class Lkotlin/v0;
-.super Lkotlin/u0;
+.class Lcotlin/v0;
+.super Lcotlin/u0;
 .source "Synchronized.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -17,10 +17,10 @@
         "R",
         "",
         "lock",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "block",
         "l",
-        "(Ljava/lang/Object;Lkotlin/jvm/u/a;)Ljava/lang/Object;",
+        "(Ljava/lang/Object;Lcotlin/jvm/u/a;)Ljava/lang/Object;",
         "kotlin-stdlib"
     }
     k = 0x5
@@ -37,12 +37,12 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/u0;-><init>()V
+    invoke-direct {p0}, Lcotlin/u0;-><init>()V
 
     return-void
 .end method
 
-.method private static final l(Ljava/lang/Object;Lkotlin/jvm/u/a;)Ljava/lang/Object;
+.method private static final l(Ljava/lang/Object;Lcotlin/jvm/u/a;)Ljava/lang/Object;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -50,12 +50,12 @@
             "Ljava/lang/Object;",
             ">(",
             "Ljava/lang/Object;",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/jvm/u/a<",
             "+TR;>;)TR;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -65,18 +65,18 @@
 
     .line 2
     :try_start_0
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 3
     monitor-exit p0
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object p1
 
@@ -84,12 +84,12 @@
     move-exception p1
 
     .line 4
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 5
     monitor-exit p0
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     throw p1
 .end method

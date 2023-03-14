@@ -82,7 +82,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -97,7 +97,7 @@
         "",
         "Lkshark/z;",
         "references",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "add$shark",
         "(Ljava/util/List;)V",
         "add",
@@ -196,10 +196,10 @@
 
 .field public static final enum ACTIVITY_MANAGER_MCONTEXT:Lkshark/AndroidReferenceMatchers;
 
-.field private static final ALWAYS:Lkotlin/jvm/u/l;
+.field private static final ALWAYS:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Lkshark/AndroidBuildMirror;",
             "Ljava/lang/Boolean;",
             ">;"
@@ -1242,14 +1242,14 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkshark/AndroidReferenceMatchers$Companion;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lkshark/AndroidReferenceMatchers$Companion;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lkshark/AndroidReferenceMatchers;->Companion:Lkshark/AndroidReferenceMatchers$Companion;
 
     .line 1
     sget-object v0, Lkshark/AndroidReferenceMatchers$Companion$ALWAYS$1;->INSTANCE:Lkshark/AndroidReferenceMatchers$Companion$ALWAYS$1;
 
-    sput-object v0, Lkshark/AndroidReferenceMatchers;->ALWAYS:Lkotlin/jvm/u/l;
+    sput-object v0, Lkshark/AndroidReferenceMatchers;->ALWAYS:Lcotlin/jvm/u/l;
 
     return-void
 .end method
@@ -1268,7 +1268,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -1277,11 +1277,11 @@
     return-void
 .end method
 
-.method public static final synthetic access$getALWAYS$cp()Lkotlin/jvm/u/l;
+.method public static final synthetic access$getALWAYS$cp()Lcotlin/jvm/u/l;
     .locals 1
 
     .line 1
-    sget-object v0, Lkshark/AndroidReferenceMatchers;->ALWAYS:Lkotlin/jvm/u/l;
+    sget-object v0, Lkshark/AndroidReferenceMatchers;->ALWAYS:Lcotlin/jvm/u/l;
 
     return-object v0
 .end method

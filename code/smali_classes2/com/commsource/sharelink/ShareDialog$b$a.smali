@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
     d2 = {
         "com/commsource/sharelink/ShareDialog$b$a",
         "Lcom/commsource/util/delegate/process/i;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "()V",
         "app_googleplayRelease",

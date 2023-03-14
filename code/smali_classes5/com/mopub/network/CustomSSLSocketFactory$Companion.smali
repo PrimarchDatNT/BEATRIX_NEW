@@ -13,7 +13,7 @@
     name = "Companion"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "sslSocket",
         "",
         "host",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "verifyServerName",
         "(Ljavax/net/ssl/SSLSocket;Ljava/lang/String;)V",
         "<init>",
@@ -60,7 +60,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -73,7 +73,7 @@
 # virtual methods
 .method public final getDefault(I)Lcom/mopub/network/CustomSSLSocketFactory;
     .locals 2
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -84,7 +84,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/mopub/network/CustomSSLSocketFactory;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcom/mopub/network/CustomSSLSocketFactory;-><init>(Lcotlin/jvm/internal/u;)V
 
     .line 2
     invoke-static {p1, v1}, Landroid/net/SSLCertificateSocketFactory;->getDefault(ILandroid/net/SSLSessionCache;)Ljavax/net/ssl/SSLSocketFactory;
@@ -115,12 +115,12 @@
         }
     .end annotation
 
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     const-string v0, "sslSocket"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Ljavax/net/ssl/SSLSocket;->startHandshake()V

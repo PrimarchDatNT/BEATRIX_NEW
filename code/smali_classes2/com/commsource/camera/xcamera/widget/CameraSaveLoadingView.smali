@@ -15,7 +15,7 @@
     value = "SMAP\nCameraSaveLoadingView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CameraSaveLoadingView.kt\ncom/commsource/camera/xcamera/widget/CameraSaveLoadingView\n*L\n1#1,248:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Landroid/view/View;",
         "Landroid/graphics/Canvas;",
         "canvas",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onDraw",
         "(Landroid/graphics/Canvas;)V",
         "",
@@ -47,7 +47,7 @@
         "(IIII)V",
         "Landroid/graphics/LinearGradient;",
         "J",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "getGradient",
         "()Landroid/graphics/LinearGradient;",
         "gradient",
@@ -146,12 +146,12 @@
 
 
 # instance fields
-.field private final J:Lkotlin/w;
+.field private final J:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final K:Lkotlin/w;
+.field private final K:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -173,17 +173,17 @@
 
 .field private R:Ljava/util/HashMap;
 
-.field private final a:Lkotlin/w;
+.field private final a:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final b:Lkotlin/w;
+.field private final b:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final c:Lkotlin/w;
+.field private final c:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -212,7 +212,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->V:Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$a;
 
@@ -261,7 +261,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -269,29 +269,29 @@
     .line 2
     sget-object p1, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$loadingCenterDrawable$2;->INSTANCE:Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$loadingCenterDrawable$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->a:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->a:Lcotlin/w;
 
     .line 3
     sget-object p1, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$downloadCenterDrawable$2;->INSTANCE:Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$downloadCenterDrawable$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->b:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->b:Lcotlin/w;
 
     .line 4
     sget-object p1, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$tickCenterDrawable$2;->INSTANCE:Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$tickCenterDrawable$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->c:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->c:Lcotlin/w;
 
     const/4 p1, 0x2
 
@@ -418,22 +418,22 @@
     .line 19
     sget-object p1, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$gradient$2;->INSTANCE:Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$gradient$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->J:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->J:Lcotlin/w;
 
     .line 20
     new-instance p1, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$backgroundPaint$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$backgroundPaint$2;-><init>(Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;)V
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->K:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->K:Lcotlin/w;
 
     const/4 p1, 0x1
 
@@ -642,9 +642,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->K:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->K:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -679,9 +679,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->b:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->b:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -701,9 +701,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->J:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->J:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -753,9 +753,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->a:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->a:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -839,9 +839,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->c:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->c:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1107,7 +1107,7 @@
 
     const-string v2, "loadingAnimator"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->d()Z
 
@@ -1145,7 +1145,7 @@
 
     const-string v1, "canvas"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I

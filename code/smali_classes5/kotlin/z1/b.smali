@@ -1,10 +1,10 @@
-.class Lkotlin/z1/b;
+.class Lcotlin/z1/b;
 .super Ljava/lang/Object;
 .source "Comparisons.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -18,42 +18,42 @@
         "a",
         "b",
         "",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "",
         "selectors",
         "",
         "j",
-        "(Ljava/lang/Object;Ljava/lang/Object;[Lkotlin/jvm/functions/Function1;)I",
+        "(Ljava/lang/Object;Ljava/lang/Object;[Lcotlin/jvm/functions/Function1;)I",
         "k",
         "selector",
         "i",
-        "(Ljava/lang/Object;Ljava/lang/Object;Lkotlin/jvm/u/l;)I",
+        "(Ljava/lang/Object;Ljava/lang/Object;Lcotlin/jvm/u/l;)I",
         "K",
         "Ljava/util/Comparator;",
-        "Lkotlin/Comparator;",
+        "Lcotlin/Comparator;",
         "comparator",
         "h",
-        "(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/Comparator;Lkotlin/jvm/u/l;)I",
+        "(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/Comparator;Lcotlin/jvm/u/l;)I",
         "g",
         "(Ljava/lang/Comparable;Ljava/lang/Comparable;)I",
         "d",
-        "([Lkotlin/jvm/functions/Function1;)Ljava/util/Comparator;",
+        "([Lcotlin/jvm/functions/Function1;)Ljava/util/Comparator;",
         "c",
-        "(Lkotlin/jvm/u/l;)Ljava/util/Comparator;",
-        "(Ljava/util/Comparator;Lkotlin/jvm/u/l;)Ljava/util/Comparator;",
+        "(Lcotlin/jvm/u/l;)Ljava/util/Comparator;",
+        "(Ljava/util/Comparator;Lcotlin/jvm/u/l;)Ljava/util/Comparator;",
         "f",
         "e",
         "u",
         "t",
-        "(Ljava/util/Comparator;Ljava/util/Comparator;Lkotlin/jvm/u/l;)Ljava/util/Comparator;",
+        "(Ljava/util/Comparator;Ljava/util/Comparator;Lcotlin/jvm/u/l;)Ljava/util/Comparator;",
         "w",
         "v",
-        "Lkotlin/Function2;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function2;",
+        "Lcotlin/k0;",
         "name",
         "comparison",
         "x",
-        "(Ljava/util/Comparator;Lkotlin/jvm/u/p;)Ljava/util/Comparator;",
+        "(Ljava/util/Comparator;Lcotlin/jvm/u/p;)Ljava/util/Comparator;",
         "s",
         "(Ljava/util/Comparator;Ljava/util/Comparator;)Ljava/util/Comparator;",
         "y",
@@ -88,18 +88,18 @@
     return-void
 .end method
 
-.method public static final synthetic a(Ljava/lang/Object;Ljava/lang/Object;[Lkotlin/jvm/u/l;)I
+.method public static final synthetic a(Ljava/lang/Object;Ljava/lang/Object;[Lcotlin/jvm/u/l;)I
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlin/z1/b;->k(Ljava/lang/Object;Ljava/lang/Object;[Lkotlin/jvm/u/l;)I
+    invoke-static {p0, p1, p2}, Lcotlin/z1/b;->k(Ljava/lang/Object;Ljava/lang/Object;[Lcotlin/jvm/u/l;)I
 
     move-result p0
 
     return p0
 .end method
 
-.method private static final b(Ljava/util/Comparator;Lkotlin/jvm/u/l;)Ljava/util/Comparator;
+.method private static final b(Ljava/util/Comparator;Lcotlin/jvm/u/l;)Ljava/util/Comparator;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -110,32 +110,32 @@
             ">(",
             "Ljava/util/Comparator<",
             "-TK;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+TK;>;)",
             "Ljava/util/Comparator<",
             "TT;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/z1/b$c;
+    new-instance v0, Lcotlin/z1/b$c;
 
-    invoke-direct {v0, p0, p1}, Lkotlin/z1/b$c;-><init>(Ljava/util/Comparator;Lkotlin/jvm/u/l;)V
+    invoke-direct {v0, p0, p1}, Lcotlin/z1/b$c;-><init>(Ljava/util/Comparator;Lcotlin/jvm/u/l;)V
 
     return-object v0
 .end method
 
-.method private static final c(Lkotlin/jvm/u/l;)Ljava/util/Comparator;
+.method private static final c(Lcotlin/jvm/u/l;)Ljava/util/Comparator;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+",
             "Ljava/lang/Comparable<",
             "*>;>;)",
@@ -144,20 +144,20 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/z1/b$b;
+    new-instance v0, Lcotlin/z1/b$b;
 
-    invoke-direct {v0, p0}, Lkotlin/z1/b$b;-><init>(Lkotlin/jvm/u/l;)V
+    invoke-direct {v0, p0}, Lcotlin/z1/b$b;-><init>(Lcotlin/jvm/u/l;)V
 
     return-object v0
 .end method
 
-.method public static final varargs d([Lkotlin/jvm/u/l;)Ljava/util/Comparator;
+.method public static final varargs d([Lcotlin/jvm/u/l;)Ljava/util/Comparator;
     .locals 1
-    .param p0    # [Lkotlin/jvm/u/l;
+    .param p0    # [Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -166,7 +166,7 @@
             "<T:",
             "Ljava/lang/Object;",
             ">([",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+",
             "Ljava/lang/Comparable<",
             "*>;>;)",
@@ -180,7 +180,7 @@
 
     const-string v0, "selectors"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p0
@@ -198,9 +198,9 @@
     if-eqz v0, :cond_1
 
     .line 2
-    new-instance v0, Lkotlin/z1/b$a;
+    new-instance v0, Lcotlin/z1/b$a;
 
-    invoke-direct {v0, p0}, Lkotlin/z1/b$a;-><init>([Lkotlin/jvm/u/l;)V
+    invoke-direct {v0, p0}, Lcotlin/z1/b$a;-><init>([Lcotlin/jvm/u/l;)V
 
     return-object v0
 
@@ -219,7 +219,7 @@
     throw p0
 .end method
 
-.method private static final e(Ljava/util/Comparator;Lkotlin/jvm/u/l;)Ljava/util/Comparator;
+.method private static final e(Ljava/util/Comparator;Lcotlin/jvm/u/l;)Ljava/util/Comparator;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -230,32 +230,32 @@
             ">(",
             "Ljava/util/Comparator<",
             "-TK;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+TK;>;)",
             "Ljava/util/Comparator<",
             "TT;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/z1/b$e;
+    new-instance v0, Lcotlin/z1/b$e;
 
-    invoke-direct {v0, p0, p1}, Lkotlin/z1/b$e;-><init>(Ljava/util/Comparator;Lkotlin/jvm/u/l;)V
+    invoke-direct {v0, p0, p1}, Lcotlin/z1/b$e;-><init>(Ljava/util/Comparator;Lcotlin/jvm/u/l;)V
 
     return-object v0
 .end method
 
-.method private static final f(Lkotlin/jvm/u/l;)Ljava/util/Comparator;
+.method private static final f(Lcotlin/jvm/u/l;)Ljava/util/Comparator;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+",
             "Ljava/lang/Comparable<",
             "*>;>;)",
@@ -264,13 +264,13 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/z1/b$d;
+    new-instance v0, Lcotlin/z1/b$d;
 
-    invoke-direct {v0, p0}, Lkotlin/z1/b$d;-><init>(Lkotlin/jvm/u/l;)V
+    invoke-direct {v0, p0}, Lcotlin/z1/b$d;-><init>(Lcotlin/jvm/u/l;)V
 
     return-object v0
 .end method
@@ -322,7 +322,7 @@
     return p0
 .end method
 
-.method private static final h(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/Comparator;Lkotlin/jvm/u/l;)I
+.method private static final h(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/Comparator;Lcotlin/jvm/u/l;)I
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -333,20 +333,20 @@
             ">(TT;TT;",
             "Ljava/util/Comparator<",
             "-TK;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+TK;>;)I"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-interface {p3, p0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
-    invoke-interface {p3, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -357,46 +357,46 @@
     return p0
 .end method
 
-.method private static final i(Ljava/lang/Object;Ljava/lang/Object;Lkotlin/jvm/u/l;)I
+.method private static final i(Ljava/lang/Object;Ljava/lang/Object;Lcotlin/jvm/u/l;)I
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(TT;TT;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+",
             "Ljava/lang/Comparable<",
             "*>;>;)I"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-interface {p2, p0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Ljava/lang/Comparable;
 
-    invoke-interface {p2, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Ljava/lang/Comparable;
 
-    invoke-static {p0, p1}, Lkotlin/z1/a;->g(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
+    invoke-static {p0, p1}, Lcotlin/z1/a;->g(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
 
     move-result p0
 
     return p0
 .end method
 
-.method public static final varargs j(Ljava/lang/Object;Ljava/lang/Object;[Lkotlin/jvm/u/l;)I
+.method public static final varargs j(Ljava/lang/Object;Ljava/lang/Object;[Lcotlin/jvm/u/l;)I
     .locals 1
-    .param p2    # [Lkotlin/jvm/u/l;
+    .param p2    # [Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -405,7 +405,7 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(TT;TT;[",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+",
             "Ljava/lang/Comparable<",
             "*>;>;)I"
@@ -414,7 +414,7 @@
 
     const-string v0, "selectors"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p2
@@ -432,7 +432,7 @@
     if-eqz v0, :cond_1
 
     .line 2
-    invoke-static {p0, p1, p2}, Lkotlin/z1/b;->k(Ljava/lang/Object;Ljava/lang/Object;[Lkotlin/jvm/u/l;)I
+    invoke-static {p0, p1, p2}, Lcotlin/z1/b;->k(Ljava/lang/Object;Ljava/lang/Object;[Lcotlin/jvm/u/l;)I
 
     move-result p0
 
@@ -453,14 +453,14 @@
     throw p0
 .end method
 
-.method private static final k(Ljava/lang/Object;Ljava/lang/Object;[Lkotlin/jvm/u/l;)I
+.method private static final k(Ljava/lang/Object;Ljava/lang/Object;[Lcotlin/jvm/u/l;)I
     .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(TT;TT;[",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+",
             "Ljava/lang/Comparable<",
             "*>;>;)I"
@@ -480,21 +480,21 @@
     aget-object v3, p2, v2
 
     .line 2
-    invoke-interface {v3, p0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v3, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Ljava/lang/Comparable;
 
     .line 3
-    invoke-interface {v3, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v3, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/Comparable;
 
     .line 4
-    invoke-static {v4, v3}, Lkotlin/z1/a;->g(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
+    invoke-static {v4, v3}, Lcotlin/z1/a;->g(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
 
     move-result v3
 
@@ -527,7 +527,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/z1/e;->a:Lkotlin/z1/e;
+    sget-object v0, Lcotlin/z1/e;->a:Lcotlin/z1/e;
 
     const-string v1, "null cannot be cast to non-null type kotlin.Comparator<T> /* = java.util.Comparator<T> */"
 
@@ -548,15 +548,15 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlin/z1/b;->l()Ljava/util/Comparator;
+    invoke-static {}, Lcotlin/z1/b;->l()Ljava/util/Comparator;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/z1/b;->n(Ljava/util/Comparator;)Ljava/util/Comparator;
+    invoke-static {v0}, Lcotlin/z1/b;->n(Ljava/util/Comparator;)Ljava/util/Comparator;
 
     move-result-object v0
 
@@ -586,12 +586,12 @@
 
     const-string v0, "comparator"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/z1/b$f;
+    new-instance v0, Lcotlin/z1/b$f;
 
-    invoke-direct {v0, p0}, Lkotlin/z1/b$f;-><init>(Ljava/util/Comparator;)V
+    invoke-direct {v0, p0}, Lcotlin/z1/b$f;-><init>(Ljava/util/Comparator;)V
 
     return-object v0
 .end method
@@ -608,15 +608,15 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlin/z1/b;->l()Ljava/util/Comparator;
+    invoke-static {}, Lcotlin/z1/b;->l()Ljava/util/Comparator;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/z1/b;->p(Ljava/util/Comparator;)Ljava/util/Comparator;
+    invoke-static {v0}, Lcotlin/z1/b;->p(Ljava/util/Comparator;)Ljava/util/Comparator;
 
     move-result-object v0
 
@@ -646,12 +646,12 @@
 
     const-string v0, "comparator"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/z1/b$g;
+    new-instance v0, Lcotlin/z1/b$g;
 
-    invoke-direct {v0, p0}, Lkotlin/z1/b$g;-><init>(Ljava/util/Comparator;)V
+    invoke-direct {v0, p0}, Lcotlin/z1/b$g;-><init>(Ljava/util/Comparator;)V
 
     return-object v0
 .end method
@@ -672,7 +672,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/z1/f;->a:Lkotlin/z1/f;
+    sget-object v0, Lcotlin/z1/f;->a:Lcotlin/z1/f;
 
     const-string v1, "null cannot be cast to non-null type kotlin.Comparator<T> /* = java.util.Comparator<T> */"
 
@@ -704,16 +704,16 @@
 
     const-string v0, "$this$reversed"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    instance-of v0, p0, Lkotlin/z1/g;
+    instance-of v0, p0, Lcotlin/z1/g;
 
     if-eqz v0, :cond_0
 
-    check-cast p0, Lkotlin/z1/g;
+    check-cast p0, Lcotlin/z1/g;
 
-    invoke-virtual {p0}, Lkotlin/z1/g;->a()Ljava/util/Comparator;
+    invoke-virtual {p0}, Lcotlin/z1/g;->a()Ljava/util/Comparator;
 
     move-result-object p0
 
@@ -721,9 +721,9 @@
 
     .line 2
     :cond_0
-    sget-object v0, Lkotlin/z1/e;->a:Lkotlin/z1/e;
+    sget-object v0, Lcotlin/z1/e;->a:Lcotlin/z1/e;
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -731,7 +731,7 @@
 
     if-eqz v1, :cond_1
 
-    sget-object p0, Lkotlin/z1/f;->a:Lkotlin/z1/f;
+    sget-object p0, Lcotlin/z1/f;->a:Lcotlin/z1/f;
 
     invoke-static {p0, v2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
@@ -739,9 +739,9 @@
 
     .line 3
     :cond_1
-    sget-object v1, Lkotlin/z1/f;->a:Lkotlin/z1/f;
+    sget-object v1, Lcotlin/z1/f;->a:Lcotlin/z1/f;
 
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -753,9 +753,9 @@
 
     .line 4
     :cond_2
-    new-instance v0, Lkotlin/z1/g;
+    new-instance v0, Lcotlin/z1/g;
 
-    invoke-direct {v0, p0}, Lkotlin/z1/g;-><init>(Ljava/util/Comparator;)V
+    invoke-direct {v0, p0}, Lcotlin/z1/g;-><init>(Ljava/util/Comparator;)V
 
     :goto_0
     move-object p0, v0
@@ -793,21 +793,21 @@
 
     const-string v0, "$this$then"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "comparator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/z1/b$h;
+    new-instance v0, Lcotlin/z1/b$h;
 
-    invoke-direct {v0, p0, p1}, Lkotlin/z1/b$h;-><init>(Ljava/util/Comparator;Ljava/util/Comparator;)V
+    invoke-direct {v0, p0, p1}, Lcotlin/z1/b$h;-><init>(Ljava/util/Comparator;Ljava/util/Comparator;)V
 
     return-object v0
 .end method
 
-.method private static final t(Ljava/util/Comparator;Ljava/util/Comparator;Lkotlin/jvm/u/l;)Ljava/util/Comparator;
+.method private static final t(Ljava/util/Comparator;Ljava/util/Comparator;Lcotlin/jvm/u/l;)Ljava/util/Comparator;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -820,25 +820,25 @@
             "TT;>;",
             "Ljava/util/Comparator<",
             "-TK;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+TK;>;)",
             "Ljava/util/Comparator<",
             "TT;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/z1/b$j;
+    new-instance v0, Lcotlin/z1/b$j;
 
-    invoke-direct {v0, p0, p1, p2}, Lkotlin/z1/b$j;-><init>(Ljava/util/Comparator;Ljava/util/Comparator;Lkotlin/jvm/u/l;)V
+    invoke-direct {v0, p0, p1, p2}, Lcotlin/z1/b$j;-><init>(Ljava/util/Comparator;Ljava/util/Comparator;Lcotlin/jvm/u/l;)V
 
     return-object v0
 .end method
 
-.method private static final u(Ljava/util/Comparator;Lkotlin/jvm/u/l;)Ljava/util/Comparator;
+.method private static final u(Ljava/util/Comparator;Lcotlin/jvm/u/l;)Ljava/util/Comparator;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -847,7 +847,7 @@
             ">(",
             "Ljava/util/Comparator<",
             "TT;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+",
             "Ljava/lang/Comparable<",
             "*>;>;)",
@@ -856,18 +856,18 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/z1/b$i;
+    new-instance v0, Lcotlin/z1/b$i;
 
-    invoke-direct {v0, p0, p1}, Lkotlin/z1/b$i;-><init>(Ljava/util/Comparator;Lkotlin/jvm/u/l;)V
+    invoke-direct {v0, p0, p1}, Lcotlin/z1/b$i;-><init>(Ljava/util/Comparator;Lcotlin/jvm/u/l;)V
 
     return-object v0
 .end method
 
-.method private static final v(Ljava/util/Comparator;Ljava/util/Comparator;Lkotlin/jvm/u/l;)Ljava/util/Comparator;
+.method private static final v(Ljava/util/Comparator;Ljava/util/Comparator;Lcotlin/jvm/u/l;)Ljava/util/Comparator;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -880,25 +880,25 @@
             "TT;>;",
             "Ljava/util/Comparator<",
             "-TK;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+TK;>;)",
             "Ljava/util/Comparator<",
             "TT;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/z1/b$l;
+    new-instance v0, Lcotlin/z1/b$l;
 
-    invoke-direct {v0, p0, p1, p2}, Lkotlin/z1/b$l;-><init>(Ljava/util/Comparator;Ljava/util/Comparator;Lkotlin/jvm/u/l;)V
+    invoke-direct {v0, p0, p1, p2}, Lcotlin/z1/b$l;-><init>(Ljava/util/Comparator;Ljava/util/Comparator;Lcotlin/jvm/u/l;)V
 
     return-object v0
 .end method
 
-.method private static final w(Ljava/util/Comparator;Lkotlin/jvm/u/l;)Ljava/util/Comparator;
+.method private static final w(Ljava/util/Comparator;Lcotlin/jvm/u/l;)Ljava/util/Comparator;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -907,7 +907,7 @@
             ">(",
             "Ljava/util/Comparator<",
             "TT;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+",
             "Ljava/lang/Comparable<",
             "*>;>;)",
@@ -916,18 +916,18 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/z1/b$k;
+    new-instance v0, Lcotlin/z1/b$k;
 
-    invoke-direct {v0, p0, p1}, Lkotlin/z1/b$k;-><init>(Ljava/util/Comparator;Lkotlin/jvm/u/l;)V
+    invoke-direct {v0, p0, p1}, Lcotlin/z1/b$k;-><init>(Ljava/util/Comparator;Lcotlin/jvm/u/l;)V
 
     return-object v0
 .end method
 
-.method private static final x(Ljava/util/Comparator;Lkotlin/jvm/u/p;)Ljava/util/Comparator;
+.method private static final x(Ljava/util/Comparator;Lcotlin/jvm/u/p;)Ljava/util/Comparator;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -936,7 +936,7 @@
             ">(",
             "Ljava/util/Comparator<",
             "TT;>;",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-TT;-TT;",
             "Ljava/lang/Integer;",
             ">;)",
@@ -945,13 +945,13 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/z1/b$m;
+    new-instance v0, Lcotlin/z1/b$m;
 
-    invoke-direct {v0, p0, p1}, Lkotlin/z1/b$m;-><init>(Ljava/util/Comparator;Lkotlin/jvm/u/p;)V
+    invoke-direct {v0, p0, p1}, Lcotlin/z1/b$m;-><init>(Ljava/util/Comparator;Lcotlin/jvm/u/p;)V
 
     return-object v0
 .end method
@@ -985,16 +985,16 @@
 
     const-string v0, "$this$thenDescending"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "comparator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/z1/b$n;
+    new-instance v0, Lcotlin/z1/b$n;
 
-    invoke-direct {v0, p0, p1}, Lkotlin/z1/b$n;-><init>(Ljava/util/Comparator;Ljava/util/Comparator;)V
+    invoke-direct {v0, p0, p1}, Lcotlin/z1/b$n;-><init>(Ljava/util/Comparator;Ljava/util/Comparator;)V
 
     return-object v0
 .end method

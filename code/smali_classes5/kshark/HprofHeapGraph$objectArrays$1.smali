@@ -1,14 +1,14 @@
 .class final Lkshark/HprofHeapGraph$objectArrays$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "HprofHeapGraph.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkshark/HprofHeapGraph;->j()Lkotlin/sequences/m;
+    value = Lkshark/HprofHeapGraph;->j()Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,9 +18,9 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
-        "Lkotlin/Pair<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
+        "Lcotlin/Pair<",
         "+",
         "Ljava/lang/Long;",
         "+",
@@ -31,7 +31,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,13 +41,13 @@
         "\u0000\u0016\n\u0002\u0018\u0002\n\u0002\u0010\t\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0007\u001a\u00020\u00042\u0012\u0010\u0003\u001a\u000e\u0012\u0004\u0012\u00020\u0001\u0012\u0004\u0012\u00020\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0005\u0010\u0006"
     }
     d2 = {
-        "Lkotlin/Pair;",
+        "Lcotlin/Pair;",
         "",
         "Lkshark/internal/d$c;",
         "it",
         "Lkshark/HeapObject$HeapObjectArray;",
         "invoke",
-        "(Lkotlin/Pair;)Lkshark/HeapObject$HeapObjectArray;",
+        "(Lcotlin/Pair;)Lkshark/HeapObject$HeapObjectArray;",
         "<anonymous>"
     }
     k = 0x3
@@ -71,7 +71,7 @@
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -82,25 +82,25 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lkotlin/Pair;
+    check-cast p1, Lcotlin/Pair;
 
-    invoke-virtual {p0, p1}, Lkshark/HprofHeapGraph$objectArrays$1;->invoke(Lkotlin/Pair;)Lkshark/HeapObject$HeapObjectArray;
+    invoke-virtual {p0, p1}, Lkshark/HprofHeapGraph$objectArrays$1;->invoke(Lcotlin/Pair;)Lkshark/HeapObject$HeapObjectArray;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(Lkotlin/Pair;)Lkshark/HeapObject$HeapObjectArray;
+.method public final invoke(Lcotlin/Pair;)Lkshark/HeapObject$HeapObjectArray;
     .locals 7
-    .param p1    # Lkotlin/Pair;
+    .param p1    # Lcotlin/Pair;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Long;",
             "Lkshark/internal/d$c;",
             ">;)",
@@ -113,10 +113,10 @@
 
     const-string v0, "it"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-virtual {p1}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -127,7 +127,7 @@
     move-result-wide v4
 
     .line 3
-    invoke-virtual {p1}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object p1
 

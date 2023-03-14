@@ -16,7 +16,7 @@
     value = "SMAP\nFastCaptureTransitionCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FastCaptureTransitionCover.kt\ncom/commsource/camera/xcamera/cover/FastCaptureTransitionCover\n*L\n1#1,51:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Lcom/commsource/camera/xcamera/cover/FastCaptureTransitionCover;",
         "Lcom/commsource/camera/xcamera/cover/AbsLazyCover;",
         "Lcom/commsource/beautyplus/f0/s3;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "o",
         "()V",
         "",
@@ -39,7 +39,7 @@
         "x",
         "Lcom/commsource/camera/xcamera/FastCaptureViewModel;",
         "f",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "F",
         "()Lcom/commsource/camera/xcamera/FastCaptureViewModel;",
         "fastCaptureViewModel",
@@ -61,12 +61,12 @@
 
 
 # instance fields
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final f:Lkotlin/w;
+.field private final f:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -84,22 +84,22 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/FastCaptureTransitionCover$fastAnimationController$2;-><init>(Lcom/commsource/camera/xcamera/cover/FastCaptureTransitionCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/FastCaptureTransitionCover;->d:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/FastCaptureTransitionCover;->d:Lcotlin/w;
 
     .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/FastCaptureTransitionCover$fastCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/FastCaptureTransitionCover$fastCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/FastCaptureTransitionCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/FastCaptureTransitionCover;->f:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/FastCaptureTransitionCover;->f:Lcotlin/w;
 
     return-void
 .end method
@@ -115,9 +115,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/FastCaptureTransitionCover;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/FastCaptureTransitionCover;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -137,9 +137,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/FastCaptureTransitionCover;->f:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/FastCaptureTransitionCover;->f:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 

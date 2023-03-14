@@ -1,4 +1,4 @@
-.class public final Lkotlinx/coroutines/q0;
+.class public final Lcotlinx/coroutines/q0;
 .super Ljava/lang/Object;
 .source "DebugStrings.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nDebugStrings.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DebugStrings.kt\nkotlinx/coroutines/DebugStringsKt\n*L\n1#1,21:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -18,10 +18,10 @@
         "\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0006\u001a\u0017\u0010\u0002\u001a\u00020\u0001*\u0006\u0012\u0002\u0008\u00030\u0000H\u0000\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\"\u001a\u0010\u0007\u001a\u00020\u0001*\u00020\u00048@@\u0000X\u0080\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0005\u0010\u0006\"\u001a\u0010\t\u001a\u00020\u0001*\u00020\u00048@@\u0000X\u0080\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0008\u0010\u0006\u00a8\u0006\n"
     }
     d2 = {
-        "Lkotlin/coroutines/c;",
+        "Lcotlin/coroutines/c;",
         "",
         "c",
-        "(Lkotlin/coroutines/c;)Ljava/lang/String;",
+        "(Lcotlin/coroutines/c;)Ljava/lang/String;",
         "",
         "b",
         "(Ljava/lang/Object;)Ljava/lang/String;",
@@ -82,16 +82,16 @@
     return-object p0
 .end method
 
-.method public static final c(Lkotlin/coroutines/c;)Ljava/lang/String;
+.method public static final c(Lcotlin/coroutines/c;)Ljava/lang/String;
     .locals 3
-    .param p0    # Lkotlin/coroutines/c;
+    .param p0    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "*>;)",
             "Ljava/lang/String;"
         }
@@ -101,7 +101,7 @@
     .end annotation
 
     .line 1
-    instance-of v0, p0, Lkotlinx/coroutines/w0;
+    instance-of v0, p0, Lcotlinx/coroutines/w0;
 
     if-eqz v0, :cond_0
 
@@ -116,7 +116,7 @@
 
     .line 2
     :try_start_0
-    sget-object v1, Lkotlin/Result;->Companion:Lkotlin/Result$a;
+    sget-object v1, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -126,7 +126,7 @@
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    invoke-static {p0}, Lkotlinx/coroutines/q0;->b(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Lcotlinx/coroutines/q0;->b(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -136,7 +136,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lkotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
     :try_end_0
@@ -147,18 +147,18 @@
     :catchall_0
     move-exception v1
 
-    sget-object v2, Lkotlin/Result;->Companion:Lkotlin/Result$a;
+    sget-object v2, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
-    invoke-static {v1}, Lkotlin/r0;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
+    invoke-static {v1}, Lcotlin/r0;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-static {v1}, Lkotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
     :goto_0
-    invoke-static {v1}, Lkotlin/Result;->exceptionOrNull-impl(Ljava/lang/Object;)Ljava/lang/Throwable;
+    invoke-static {v1}, Lcotlin/Result;->exceptionOrNull-impl(Ljava/lang/Object;)Ljava/lang/Throwable;
 
     move-result-object v2
 
@@ -183,7 +183,7 @@
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    invoke-static {p0}, Lkotlinx/coroutines/q0;->b(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Lcotlinx/coroutines/q0;->b(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
 

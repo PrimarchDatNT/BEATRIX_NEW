@@ -38,7 +38,7 @@
     value = "SMAP\nDoodleMaterial.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DoodleMaterial.kt\ncom/commsource/studio/doodle/DoodleMaterial\n*L\n1#1,239:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -469,7 +469,7 @@
 
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->id:Ljava/lang/String;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -1237,14 +1237,14 @@
 
     const-string v1, "localEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->icon:Ljava/lang/String;
 
     iget-object v2, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->icon:Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1258,7 +1258,7 @@
 
     iget-object v3, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->file:Lcom/commsource/repository/FileObject;
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1275,7 +1275,7 @@
 
     iget-object v3, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->file:Lcom/commsource/repository/FileObject;
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1325,7 +1325,7 @@
 
     iget-object v3, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->name:Ljava/lang/String;
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1336,7 +1336,7 @@
 
     iget-object v3, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->file:Lcom/commsource/repository/FileObject;
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1540,7 +1540,7 @@
 
     iget-object p1, p1, Lcom/commsource/studio/doodle/DoodleMaterial;->categoryId:Ljava/lang/String;
 
-    invoke-static {v2, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -1584,7 +1584,7 @@
 
     const-string v1, "nextEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->equals(Ljava/lang/Object;)Z
@@ -1849,7 +1849,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/DoodleMaterial;->id:Ljava/lang/String;

@@ -1,14 +1,14 @@
-.class final Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;
-.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.class final Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;
+.super Lcotlin/coroutines/jvm/internal/SuspendLambda;
 .source "Delay.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/FlowKt__DelayKt;->c(Lkotlinx/coroutines/m0;JJ)Lkotlinx/coroutines/channels/y;
+    value = Lcotlinx/coroutines/flow/FlowKt__DelayKt;->c(Lcotlinx/coroutines/m0;JJ)Lcotlinx/coroutines/channels/y;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,22 +18,22 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Lkotlin/jvm/u/p<",
-        "Lkotlinx/coroutines/channels/w<",
+        "Lcotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lcotlin/jvm/u/p<",
+        "Lcotlinx/coroutines/channels/w<",
         "-",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;",
-        "Lkotlin/coroutines/c<",
+        "Lcotlin/coroutines/c<",
         "-",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;",
         "Ljava/lang/Object;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -43,8 +43,8 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0004\u001a\u00020\u0001*\u0008\u0012\u0004\u0012\u00020\u00010\u0000H\u008a@\u00a2\u0006\u0004\u0008\u0002\u0010\u0003"
     }
     d2 = {
-        "Lkotlinx/coroutines/channels/w;",
-        "Lkotlin/t1;",
+        "Lcotlinx/coroutines/channels/w;",
+        "Lcotlin/t1;",
         "invoke",
         "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
         "<anonymous>"
@@ -57,7 +57,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.flow.FlowKt__DelayKt$fixedPeriodTicker$3"
     f = "Delay.kt"
     i = {
@@ -93,33 +93,33 @@
 
 .field label:I
 
-.field private p$:Lkotlinx/coroutines/channels/w;
+.field private p$:Lcotlinx/coroutines/channels/w;
 
 
 # direct methods
-.method constructor <init>(JJLkotlin/coroutines/c;)V
+.method constructor <init>(JJLcotlin/coroutines/c;)V
     .locals 0
 
-    iput-wide p1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->$initialDelayMillis:J
+    iput-wide p1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->$initialDelayMillis:J
 
-    iput-wide p3, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->$delayMillis:J
+    iput-wide p3, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->$delayMillis:J
 
     const/4 p1, 0x2
 
-    invoke-direct {p0, p1, p5}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/c;)V
+    invoke-direct {p0, p1, p5}, Lcotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILcotlin/coroutines/c;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+.method public final create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 7
     .param p1    # Ljava/lang/Object;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -127,10 +127,10 @@
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "*>;)",
-            "Lkotlin/coroutines/c<",
-            "Lkotlin/t1;",
+            "Lcotlin/coroutines/c<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -138,21 +138,21 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    new-instance v6, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;
+    new-instance v6, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;
 
-    iget-wide v1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->$initialDelayMillis:J
+    iget-wide v1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->$initialDelayMillis:J
 
-    iget-wide v3, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->$delayMillis:J
+    iget-wide v3, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->$delayMillis:J
 
     move-object v0, v6
 
     move-object v5, p2
 
-    invoke-direct/range {v0 .. v5}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;-><init>(JJLkotlin/coroutines/c;)V
+    invoke-direct/range {v0 .. v5}, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;-><init>(JJLcotlin/coroutines/c;)V
 
-    check-cast p1, Lkotlinx/coroutines/channels/w;
+    check-cast p1, Lcotlinx/coroutines/channels/w;
 
-    iput-object p1, v6, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->p$:Lkotlinx/coroutines/channels/w;
+    iput-object p1, v6, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->p$:Lcotlinx/coroutines/channels/w;
 
     return-object v6
 .end method
@@ -160,17 +160,17 @@
 .method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    check-cast p2, Lkotlin/coroutines/c;
+    check-cast p2, Lcotlin/coroutines/c;
 
-    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-virtual {p0, p1, p2}, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p1
 
-    check-cast p1, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;
+    check-cast p1, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;
 
-    sget-object p2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-virtual {p1, p2}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -186,12 +186,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 1
-    iget v1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->label:I
+    iget v1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->label:I
 
     const/4 v2, 0x3
 
@@ -208,11 +208,11 @@
     if-ne v1, v2, :cond_1
 
     :cond_0
-    iget-object v1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->L$0:Ljava/lang/Object;
+    iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->L$0:Ljava/lang/Object;
 
-    check-cast v1, Lkotlinx/coroutines/channels/w;
+    check-cast v1, Lcotlinx/coroutines/channels/w;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -228,29 +228,29 @@
 
     .line 3
     :cond_2
-    iget-object v1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->L$0:Ljava/lang/Object;
+    iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->L$0:Ljava/lang/Object;
 
-    check-cast v1, Lkotlinx/coroutines/channels/w;
+    check-cast v1, Lcotlinx/coroutines/channels/w;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     move-object p1, p0
 
     goto :goto_1
 
     :cond_3
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    iget-object v1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->p$:Lkotlinx/coroutines/channels/w;
+    iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->p$:Lcotlinx/coroutines/channels/w;
 
     .line 4
-    iget-wide v5, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->$initialDelayMillis:J
+    iget-wide v5, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->$initialDelayMillis:J
 
-    iput-object v1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->L$0:Ljava/lang/Object;
+    iput-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->L$0:Ljava/lang/Object;
 
-    iput v4, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->label:I
+    iput v4, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->label:I
 
-    invoke-static {v5, v6, p0}, Lkotlinx/coroutines/v0;->a(JLkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {v5, v6, p0}, Lcotlinx/coroutines/v0;->a(JLcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -264,17 +264,17 @@
 
     .line 5
     :cond_5
-    invoke-interface {v1}, Lkotlinx/coroutines/channels/w;->b()Lkotlinx/coroutines/channels/c0;
+    invoke-interface {v1}, Lcotlinx/coroutines/channels/w;->b()Lcotlinx/coroutines/channels/c0;
 
     move-result-object v4
 
-    sget-object v5, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v5, Lcotlin/t1;->a:Lcotlin/t1;
 
-    iput-object v1, p1, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->L$0:Ljava/lang/Object;
+    iput-object v1, p1, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->L$0:Ljava/lang/Object;
 
-    iput v3, p1, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->label:I
+    iput v3, p1, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->label:I
 
-    invoke-interface {v4, v5, p1}, Lkotlinx/coroutines/channels/c0;->U(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {v4, v5, p1}, Lcotlinx/coroutines/channels/c0;->U(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object v4
 
@@ -285,13 +285,13 @@
     .line 6
     :cond_6
     :goto_1
-    iget-wide v4, p1, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->$delayMillis:J
+    iget-wide v4, p1, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->$delayMillis:J
 
-    iput-object v1, p1, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->L$0:Ljava/lang/Object;
+    iput-object v1, p1, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->L$0:Ljava/lang/Object;
 
-    iput v2, p1, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->label:I
+    iput v2, p1, Lcotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$3;->label:I
 
-    invoke-static {v4, v5, p1}, Lkotlinx/coroutines/v0;->a(JLkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {v4, v5, p1}, Lcotlinx/coroutines/v0;->a(JLcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object v4
 

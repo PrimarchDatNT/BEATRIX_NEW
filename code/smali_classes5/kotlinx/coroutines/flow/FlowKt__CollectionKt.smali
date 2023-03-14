@@ -1,4 +1,4 @@
-.class final synthetic Lkotlinx/coroutines/flow/FlowKt__CollectionKt;
+.class final synthetic Lcotlinx/coroutines/flow/FlowKt__CollectionKt;
 .super Ljava/lang/Object;
 .source "Collection.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nCollection.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Collection.kt\nkotlinx/coroutines/flow/FlowKt__CollectionKt\n+ 2 Collect.kt\nkotlinx/coroutines/flow/FlowKt__CollectKt\n*L\n1#1,31:1\n73#2,3:32\n*E\n*S KotlinDebug\n*F\n+ 1 Collection.kt\nkotlinx/coroutines/flow/FlowKt__CollectionKt\n*L\n26#1,3:32\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -19,20 +19,20 @@
     }
     d2 = {
         "T",
-        "Lkotlinx/coroutines/flow/d;",
+        "Lcotlinx/coroutines/flow/d;",
         "",
         "destination",
         "",
         "b",
-        "(Lkotlinx/coroutines/flow/d;Ljava/util/List;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Lcotlinx/coroutines/flow/d;Ljava/util/List;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "",
         "",
         "d",
-        "(Lkotlinx/coroutines/flow/d;Ljava/util/Set;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Lcotlinx/coroutines/flow/d;Ljava/util/Set;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "",
         "C",
         "a",
-        "(Lkotlinx/coroutines/flow/d;Ljava/util/Collection;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Lcotlinx/coroutines/flow/d;Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "kotlinx-coroutines-core"
     }
     k = 0x5
@@ -46,9 +46,9 @@
 
 
 # direct methods
-.method public static final a(Lkotlinx/coroutines/flow/d;Ljava/util/Collection;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final a(Lcotlinx/coroutines/flow/d;Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
-    .param p0    # Lkotlinx/coroutines/flow/d;
+    .param p0    # Lcotlinx/coroutines/flow/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -56,7 +56,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -67,9 +67,9 @@
             "C::",
             "Ljava/util/Collection<",
             "-TT;>;>(",
-            "Lkotlinx/coroutines/flow/d<",
+            "Lcotlinx/coroutines/flow/d<",
             "+TT;>;TC;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TC;>;)",
             "Ljava/lang/Object;"
         }
@@ -78,15 +78,15 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p2, Lkotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;
+    instance-of v0, p2, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;
 
     if-eqz v0, :cond_0
 
     move-object v0, p2
 
-    check-cast v0, Lkotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;
+    check-cast v0, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;
 
-    iget v1, v0, Lkotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->label:I
+    iget v1, v0, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -96,24 +96,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->label:I
+    iput v1, v0, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;
+    new-instance v0, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;
 
-    invoke-direct {v0, p2}, Lkotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p2}, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;-><init>(Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p2, v0, Lkotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->result:Ljava/lang/Object;
+    iget-object p2, v0, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->label:I
+    iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->label:I
 
     const/4 v3, 0x1
 
@@ -121,21 +121,21 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->L$2:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->L$2:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/flow/d;
+    check-cast p0, Lcotlinx/coroutines/flow/d;
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->L$1:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->L$1:Ljava/lang/Object;
 
     move-object p1, p0
 
     check-cast p1, Ljava/util/Collection;
 
-    iget-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->L$0:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->L$0:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/flow/d;
+    check-cast p0, Lcotlinx/coroutines/flow/d;
 
-    invoke-static {p2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -151,22 +151,22 @@
 
     .line 3
     :cond_2
-    invoke-static {p2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 4
-    new-instance p2, Lkotlinx/coroutines/flow/FlowKt__CollectionKt$a;
+    new-instance p2, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$a;
 
-    invoke-direct {p2, p1}, Lkotlinx/coroutines/flow/FlowKt__CollectionKt$a;-><init>(Ljava/util/Collection;)V
+    invoke-direct {p2, p1}, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$a;-><init>(Ljava/util/Collection;)V
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->L$0:Ljava/lang/Object;
 
-    iput-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->L$1:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->L$1:Ljava/lang/Object;
 
-    iput-object p0, v0, Lkotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->L$2:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->L$2:Ljava/lang/Object;
 
-    iput v3, v0, Lkotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->label:I
+    iput v3, v0, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1;->label:I
 
-    invoke-interface {p0, p2, v0}, Lkotlinx/coroutines/flow/d;->a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p0, p2, v0}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -179,9 +179,9 @@
     return-object p1
 .end method
 
-.method public static final b(Lkotlinx/coroutines/flow/d;Ljava/util/List;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final b(Lcotlinx/coroutines/flow/d;Ljava/util/List;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/flow/d;
+    .param p0    # Lcotlinx/coroutines/flow/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -189,7 +189,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -198,11 +198,11 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/flow/d<",
+            "Lcotlinx/coroutines/flow/d<",
             "+TT;>;",
             "Ljava/util/List<",
             "TT;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/util/List<",
             "+TT;>;>;)",
@@ -214,14 +214,14 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/flow/f;->L1(Lkotlinx/coroutines/flow/d;Ljava/util/Collection;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/flow/f;->L1(Lcotlinx/coroutines/flow/d;Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic c(Lkotlinx/coroutines/flow/d;Ljava/util/List;Lkotlin/coroutines/c;ILjava/lang/Object;)Ljava/lang/Object;
+.method public static synthetic c(Lcotlinx/coroutines/flow/d;Ljava/util/List;Lcotlin/coroutines/c;ILjava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
     and-int/lit8 p3, p3, 0x1
@@ -234,16 +234,16 @@
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     :cond_0
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/flow/f;->M1(Lkotlinx/coroutines/flow/d;Ljava/util/List;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/flow/f;->M1(Lcotlinx/coroutines/flow/d;Ljava/util/List;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final d(Lkotlinx/coroutines/flow/d;Ljava/util/Set;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final d(Lcotlinx/coroutines/flow/d;Ljava/util/Set;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/flow/d;
+    .param p0    # Lcotlinx/coroutines/flow/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -251,7 +251,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -260,11 +260,11 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/flow/d<",
+            "Lcotlinx/coroutines/flow/d<",
             "+TT;>;",
             "Ljava/util/Set<",
             "TT;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/util/Set<",
             "+TT;>;>;)",
@@ -276,14 +276,14 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/flow/f;->L1(Lkotlinx/coroutines/flow/d;Ljava/util/Collection;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/flow/f;->L1(Lcotlinx/coroutines/flow/d;Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic e(Lkotlinx/coroutines/flow/d;Ljava/util/Set;Lkotlin/coroutines/c;ILjava/lang/Object;)Ljava/lang/Object;
+.method public static synthetic e(Lcotlinx/coroutines/flow/d;Ljava/util/Set;Lcotlin/coroutines/c;ILjava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
     and-int/lit8 p3, p3, 0x1
@@ -296,7 +296,7 @@
     invoke-direct {p1}, Ljava/util/LinkedHashSet;-><init>()V
 
     :cond_0
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/flow/f;->O1(Lkotlinx/coroutines/flow/d;Ljava/util/Set;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lcotlinx/coroutines/flow/f;->O1(Lcotlinx/coroutines/flow/d;Ljava/util/Set;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
 

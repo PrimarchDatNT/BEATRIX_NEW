@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "Landroidx/databinding/ViewDataBinding;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lf/d/a;)V"
     }
@@ -102,13 +102,13 @@
 
     const-string v3, "ownerActivity"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v3, Lcom/commsource/studio/formula/FormulaFragment$applyFormula$1$1;
 
     invoke-direct {v3, p0}, Lcom/commsource/studio/formula/FormulaFragment$applyFormula$1$1;-><init>(Lcom/commsource/studio/formula/FormulaFragment$applyFormula$1;)V
 
-    invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/ImageStudioViewModel;->G(Landroidx/fragment/app/FragmentActivity;Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/ImageStudioViewModel;->G(Landroidx/fragment/app/FragmentActivity;Lcotlin/jvm/u/a;)V
 
     .line 2
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V

@@ -20,7 +20,7 @@
     value = "SMAP\nVideoControllCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VideoControllCover.kt\ncom/commsource/video/cover/VideoControllCover$initView$3\n*L\n1#1,168:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,7 +36,7 @@
         "progress",
         "",
         "leftDx",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "C",
         "(IF)V",
         "",

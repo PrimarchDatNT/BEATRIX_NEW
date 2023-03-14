@@ -8,7 +8,7 @@
     value = "SMAP\nMultiRenderProxy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MultiRenderProxy.kt\ncom/commsource/studio/render/MultiRenderProxy\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,65:1\n1819#2,2:66\n1819#2,2:68\n1819#2,2:70\n1819#2,2:72\n1819#2,2:74\n1819#2,2:76\n*E\n*S KotlinDebug\n*F\n+ 1 MultiRenderProxy.kt\ncom/commsource/studio/render/MultiRenderProxy\n*L\n20#1,2:66\n24#1,2:68\n28#1,2:70\n32#1,2:72\n48#1,2:74\n62#1,2:76\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/studio/r0/t;",
         "Lcom/commsource/camera/newrender/renderproxy/n;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "i",
         "()V",
         "Lcom/meitu/library/renderarch/arch/data/b/d;",

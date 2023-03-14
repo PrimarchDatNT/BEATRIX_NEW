@@ -10,7 +10,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
         "",
         "a",
         "()Z",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "()V",
         "i",
@@ -80,7 +80,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/commsource/studio/effect/t$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcom/commsource/studio/effect/t$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lcom/commsource/studio/effect/t;->d:Lcom/commsource/studio/effect/t$a;
 

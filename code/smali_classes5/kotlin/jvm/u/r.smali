@@ -1,9 +1,9 @@
-.class public interface abstract Lkotlin/jvm/u/r;
+.class public interface abstract Lcotlin/jvm/u/r;
 .super Ljava/lang/Object;
 .source "Functions.kt"
 
 # interfaces
-.implements Lkotlin/r;
+.implements Lcotlin/r;
 
 
 # annotations
@@ -21,12 +21,12 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lkotlin/r<",
+        "Lcotlin/r<",
         "TR;>;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,13 +36,13 @@
         "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0008f\u0018\u0000*\u0006\u0008\u0000\u0010\u0001 \u0000*\u0006\u0008\u0001\u0010\u0002 \u0000*\u0006\u0008\u0002\u0010\u0003 \u0000*\u0006\u0008\u0003\u0010\u0004 \u0000*\u0006\u0008\u0004\u0010\u0005 \u00012\u0008\u0012\u0004\u0012\u00028\u00040\u0006J0\u0010\u000b\u001a\u00028\u00042\u0006\u0010\u0007\u001a\u00028\u00002\u0006\u0010\u0008\u001a\u00028\u00012\u0006\u0010\t\u001a\u00028\u00022\u0006\u0010\n\u001a\u00028\u0003H\u00a6\u0002\u00a2\u0006\u0004\u0008\u000b\u0010\u000c\u00a8\u0006\r"
     }
     d2 = {
-        "Lkotlin/jvm/u/r;",
+        "Lcotlin/jvm/u/r;",
         "P1",
         "P2",
         "P3",
         "P4",
         "R",
-        "Lkotlin/r;",
+        "Lcotlin/r;",
         "p1",
         "p2",
         "p3",

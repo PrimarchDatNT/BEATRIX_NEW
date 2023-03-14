@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -110,7 +110,7 @@
 
     move-object v0, p0
 
-    invoke-direct/range {v0 .. v6}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v6}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -144,7 +144,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IILcotlin/jvm/internal/u;)V
     .locals 1
 
     and-int/lit8 p6, p5, 0x1
@@ -344,7 +344,7 @@
 
     iget-object v2, p1, Lcom/commsource/billing/bean/subsconfig/ContentConfig;->picture:Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -354,7 +354,7 @@
 
     iget-object v2, p1, Lcom/commsource/billing/bean/subsconfig/ContentConfig;->title:Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -364,7 +364,7 @@
 
     iget-object v2, p1, Lcom/commsource/billing/bean/subsconfig/ContentConfig;->titleColor:Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 

@@ -8,7 +8,7 @@
     value = "SMAP\nViewTouchDelegate.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ViewTouchDelegate.kt\ncom/meitu/common/utils/ViewTouchDelegate\n+ 2 Iterators.kt\nkotlin/collections/CollectionsKt__IteratorsKt\n*L\n1#1,65:1\n32#2,2:66\n*E\n*S KotlinDebug\n*F\n+ 1 ViewTouchDelegate.kt\ncom/meitu/common/utils/ViewTouchDelegate\n*L\n17#1,2:66\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Landroid/graphics/Rect;",
         "bound",
         "delegateView",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Landroid/graphics/Rect;Landroid/view/View;)V",
         "Landroid/view/MotionEvent;",
@@ -38,7 +38,7 @@
         "onTouchEvent",
         "(Landroid/view/MotionEvent;)Z",
         "Ljava/util/LinkedHashMap;",
-        "Lkotlin/collections/LinkedHashMap;",
+        "Lcotlin/collections/LinkedHashMap;",
         "Ljava/util/LinkedHashMap;",
         "viewMaps",
         "c",
@@ -89,11 +89,11 @@
 
     const-string v0, "bound"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "delegateView"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1, p2}, Landroid/view/TouchDelegate;-><init>(Landroid/graphics/Rect;Landroid/view/View;)V
@@ -116,7 +116,7 @@
 
     const-string p2, "ViewConfiguration.get(delegateView.context)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/view/ViewConfiguration;->getScaledTouchSlop()I
 
@@ -211,11 +211,11 @@
 
     const-string v1, "bound"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "delegateView"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget v1, p0, Lf/k/c/c/g;->c:I
@@ -250,7 +250,7 @@
 
     const-string v1, "event"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F

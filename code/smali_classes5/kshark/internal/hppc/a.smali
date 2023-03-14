@@ -8,7 +8,7 @@
     value = "SMAP\nHHPC.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HHPC.kt\nkshark/internal/hppc/HHPC\n*L\n1#1,100:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -165,14 +165,14 @@
 
     .line 3
     :cond_1
-    sget-object v0, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
+    sget-object v0, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     .line 4
     sget-object v0, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
 
     const-string v1, "Locale.ROOT"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x2
 
@@ -209,7 +209,7 @@
 
     const-string p2, "java.lang.String.format(locale, format, *args)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     new-instance p2, Ljava/lang/RuntimeException;
@@ -252,14 +252,14 @@
 
     .line 1
     :cond_0
-    sget-object p1, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
+    sget-object p1, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     .line 2
     sget-object p1, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
 
     const-string v1, "Locale.ROOT"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x2
 
@@ -294,7 +294,7 @@
 
     const-string p2, "java.lang.String.format(locale, format, *args)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     new-instance p2, Ljava/lang/RuntimeException;

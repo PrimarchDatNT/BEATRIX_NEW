@@ -1,18 +1,18 @@
-.class final Lkotlinx/coroutines/sync/f;
-.super Lkotlinx/coroutines/internal/a0;
+.class final Lcotlinx/coroutines/sync/f;
+.super Lcotlinx/coroutines/internal/a0;
 .source "Semaphore.kt"
 
 # interfaces
-.implements Lkotlinx/coroutines/sync/e;
+.implements Lcotlinx/coroutines/sync/e;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlinx/coroutines/internal/a0<",
-        "Lkotlinx/coroutines/sync/g;",
+        "Lcotlinx/coroutines/internal/a0<",
+        "Lcotlinx/coroutines/sync/g;",
         ">;",
-        "Lkotlinx/coroutines/sync/e;"
+        "Lcotlinx/coroutines/sync/e;"
     }
 .end annotation
 
@@ -20,7 +20,7 @@
     value = "SMAP\nSemaphore.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Semaphore.kt\nkotlinx/coroutines/sync/SemaphoreImpl\n+ 2 AtomicFU.common.kt\nkotlinx/atomicfu/AtomicFU_commonKt\n+ 3 CancellableContinuation.kt\nkotlinx/coroutines/CancellableContinuationKt\n+ 4 Semaphore.kt\nkotlinx/coroutines/sync/SemaphoreSegment\n+ 5 CompletionHandler.kt\nkotlinx/coroutines/CompletionHandlerKt\n*L\n1#1,217:1\n276#2,2:218\n296#2,4:220\n231#3,3:224\n234#3,2:232\n189#4,4:227\n195#4:234\n19#5:231\n*E\n*S KotlinDebug\n*F\n+ 1 Semaphore.kt\nkotlinx/coroutines/sync/SemaphoreImpl\n*L\n116#1,2:218\n134#1,4:220\n139#1,3:224\n139#1,2:232\n139#1,4:227\n159#1:234\n139#1:231\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,21 +30,21 @@
         "\u00000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\t\n\u0002\u0008\u0004\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u0008\n\u0002\u0008\u000c\u0008\u0002\u0018\u00002\u00020\u00012\u0008\u0012\u0004\u0012\u00020\u00030\u0002B\u0017\u0012\u0006\u0010\u0017\u001a\u00020\u0011\u0012\u0006\u0010\u001a\u001a\u00020\u0011\u00a2\u0006\u0004\u0008\u001b\u0010\u001cJ!\u0010\u0007\u001a\u00020\u00032\u0006\u0010\u0005\u001a\u00020\u00042\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u0003H\u0016\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u000f\u0010\n\u001a\u00020\tH\u0016\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u0013\u0010\r\u001a\u00020\u000cH\u0096@\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\u000f\u0010\u000f\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J\r\u0010\u0012\u001a\u00020\u0011\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u0013\u0010\u0014\u001a\u00020\u000cH\u0082@\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0014\u0010\u000eJ\u000f\u0010\u0015\u001a\u00020\u000cH\u0000\u00a2\u0006\u0004\u0008\u0015\u0010\u0010R\u0016\u0010\u0017\u001a\u00020\u00118\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\r\u0010\u0016R\u0016\u0010\u0019\u001a\u00020\u00118V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0018\u0010\u0013\u0082\u0002\u0004\n\u0002\u0008\u0019\u00a8\u0006\u001d"
     }
     d2 = {
-        "Lkotlinx/coroutines/sync/f;",
-        "Lkotlinx/coroutines/sync/e;",
-        "Lkotlinx/coroutines/internal/a0;",
-        "Lkotlinx/coroutines/sync/g;",
+        "Lcotlinx/coroutines/sync/f;",
+        "Lcotlinx/coroutines/sync/e;",
+        "Lcotlinx/coroutines/internal/a0;",
+        "Lcotlinx/coroutines/sync/g;",
         "",
         "id",
         "prev",
         "p",
-        "(JLkotlinx/coroutines/sync/g;)Lkotlinx/coroutines/sync/g;",
+        "(JLcotlinx/coroutines/sync/g;)Lcotlinx/coroutines/sync/g;",
         "",
         "b",
         "()Z",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
-        "(Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "release",
         "()V",
         "",
@@ -92,7 +92,7 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    const-class v0, Lkotlinx/coroutines/sync/f;
+    const-class v0, Lcotlinx/coroutines/sync/f;
 
     const-string v1, "_availablePermits"
 
@@ -100,7 +100,7 @@
 
     move-result-object v1
 
-    sput-object v1, Lkotlinx/coroutines/sync/f;->d:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
+    sput-object v1, Lcotlinx/coroutines/sync/f;->d:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
     const-string v1, "enqIdx"
 
@@ -108,7 +108,7 @@
 
     move-result-object v1
 
-    sput-object v1, Lkotlinx/coroutines/sync/f;->e:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
+    sput-object v1, Lcotlinx/coroutines/sync/f;->e:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
     const-string v1, "deqIdx"
 
@@ -116,7 +116,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkotlinx/coroutines/sync/f;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
+    sput-object v0, Lcotlinx/coroutines/sync/f;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
     return-void
 .end method
@@ -125,9 +125,9 @@
     .locals 3
 
     .line 1
-    invoke-direct {p0}, Lkotlinx/coroutines/internal/a0;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/internal/a0;-><init>()V
 
-    iput p1, p0, Lkotlinx/coroutines/sync/f;->c:I
+    iput p1, p0, Lcotlinx/coroutines/sync/f;->c:I
 
     const/4 v0, 0x1
 
@@ -164,15 +164,15 @@
     sub-int/2addr p1, p2
 
     .line 2
-    iput p1, p0, Lkotlinx/coroutines/sync/f;->_availablePermits:I
+    iput p1, p0, Lcotlinx/coroutines/sync/f;->_availablePermits:I
 
     const-wide/16 p1, 0x0
 
     .line 3
-    iput-wide p1, p0, Lkotlinx/coroutines/sync/f;->enqIdx:J
+    iput-wide p1, p0, Lcotlinx/coroutines/sync/f;->enqIdx:J
 
     .line 4
-    iput-wide p1, p0, Lkotlinx/coroutines/sync/f;->deqIdx:J
+    iput-wide p1, p0, Lcotlinx/coroutines/sync/f;->deqIdx:J
 
     return-void
 
@@ -229,28 +229,28 @@
     throw p2
 .end method
 
-.method public static final synthetic l(Lkotlinx/coroutines/sync/f;Lkotlinx/coroutines/sync/g;J)Lkotlinx/coroutines/sync/g;
+.method public static final synthetic l(Lcotlinx/coroutines/sync/f;Lcotlinx/coroutines/sync/g;J)Lcotlinx/coroutines/sync/g;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/internal/a0;->e(Lkotlinx/coroutines/internal/z;J)Lkotlinx/coroutines/internal/z;
+    invoke-virtual {p0, p1, p2, p3}, Lcotlinx/coroutines/internal/a0;->e(Lcotlinx/coroutines/internal/z;J)Lcotlinx/coroutines/internal/z;
 
     move-result-object p0
 
-    check-cast p0, Lkotlinx/coroutines/sync/g;
+    check-cast p0, Lcotlinx/coroutines/sync/g;
 
     return-object p0
 .end method
 
-.method public static final synthetic m(Lkotlinx/coroutines/sync/f;)Lkotlinx/coroutines/sync/g;
+.method public static final synthetic m(Lcotlinx/coroutines/sync/f;)Lcotlinx/coroutines/sync/g;
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/a0;->g()Lkotlinx/coroutines/internal/z;
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/a0;->g()Lcotlinx/coroutines/internal/z;
 
     move-result-object p0
 
-    check-cast p0, Lkotlinx/coroutines/sync/g;
+    check-cast p0, Lcotlinx/coroutines/sync/g;
 
     return-object p0
 .end method
@@ -261,7 +261,7 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lkotlinx/coroutines/sync/f;->_availablePermits:I
+    iget v0, p0, Lcotlinx/coroutines/sync/f;->_availablePermits:I
 
     const/4 v1, 0x0
 
@@ -277,7 +277,7 @@
 
     .line 1
     :cond_0
-    iget v0, p0, Lkotlinx/coroutines/sync/f;->_availablePermits:I
+    iget v0, p0, Lcotlinx/coroutines/sync/f;->_availablePermits:I
 
     if-gtz v0, :cond_1
 
@@ -287,7 +287,7 @@
 
     .line 2
     :cond_1
-    sget-object v1, Lkotlinx/coroutines/sync/f;->d:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
+    sget-object v1, Lcotlinx/coroutines/sync/f;->d:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
     add-int/lit8 v2, v0, -0x1
 
@@ -302,18 +302,18 @@
     return v0
 .end method
 
-.method public c(Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public c(Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Ljava/lang/Object;"
         }
@@ -323,7 +323,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/sync/f;->d:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
+    sget-object v0, Lcotlinx/coroutines/sync/f;->d:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
     invoke-virtual {v0, p0}, Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;->getAndDecrement(Ljava/lang/Object;)I
 
@@ -332,17 +332,17 @@
     if-lez v0, :cond_0
 
     .line 2
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 
     .line 3
     :cond_0
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/sync/f;->n(Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/sync/f;->n(Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -352,36 +352,36 @@
 
     .line 4
     :cond_1
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method
 
-.method public bridge synthetic j(JLkotlinx/coroutines/internal/z;)Lkotlinx/coroutines/internal/z;
+.method public bridge synthetic j(JLcotlinx/coroutines/internal/z;)Lcotlinx/coroutines/internal/z;
     .locals 0
 
     .line 1
-    check-cast p3, Lkotlinx/coroutines/sync/g;
+    check-cast p3, Lcotlinx/coroutines/sync/g;
 
-    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/sync/f;->p(JLkotlinx/coroutines/sync/g;)Lkotlinx/coroutines/sync/g;
+    invoke-virtual {p0, p1, p2, p3}, Lcotlinx/coroutines/sync/f;->p(JLcotlinx/coroutines/sync/g;)Lcotlinx/coroutines/sync/g;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method final synthetic n(Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method final synthetic n(Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 6
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Ljava/lang/Object;"
         }
@@ -391,28 +391,28 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lkotlin/coroutines/intrinsics/a;->d(Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-static {p1}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlinx/coroutines/p;->b(Lkotlin/coroutines/c;)Lkotlinx/coroutines/n;
+    invoke-static {v0}, Lcotlinx/coroutines/p;->b(Lcotlin/coroutines/c;)Lcotlinx/coroutines/n;
 
     move-result-object v0
 
     .line 2
-    invoke-static {p0}, Lkotlinx/coroutines/sync/f;->m(Lkotlinx/coroutines/sync/f;)Lkotlinx/coroutines/sync/g;
+    invoke-static {p0}, Lcotlinx/coroutines/sync/f;->m(Lcotlinx/coroutines/sync/f;)Lcotlinx/coroutines/sync/g;
 
     move-result-object v1
 
     .line 3
-    sget-object v2, Lkotlinx/coroutines/sync/f;->e:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
+    sget-object v2, Lcotlinx/coroutines/sync/f;->e:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
     invoke-virtual {v2, p0}, Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;->getAndIncrement(Ljava/lang/Object;)J
 
     move-result-wide v2
 
     .line 4
-    invoke-static {}, Lkotlinx/coroutines/sync/SemaphoreKt;->h()I
+    invoke-static {}, Lcotlinx/coroutines/sync/SemaphoreKt;->h()I
 
     move-result v4
 
@@ -420,12 +420,12 @@
 
     div-long v4, v2, v4
 
-    invoke-static {p0, v1, v4, v5}, Lkotlinx/coroutines/sync/f;->l(Lkotlinx/coroutines/sync/f;Lkotlinx/coroutines/sync/g;J)Lkotlinx/coroutines/sync/g;
+    invoke-static {p0, v1, v4, v5}, Lcotlinx/coroutines/sync/f;->l(Lcotlinx/coroutines/sync/f;Lcotlinx/coroutines/sync/g;J)Lcotlinx/coroutines/sync/g;
 
     move-result-object v1
 
     .line 5
-    invoke-static {}, Lkotlinx/coroutines/sync/SemaphoreKt;->h()I
+    invoke-static {}, Lcotlinx/coroutines/sync/SemaphoreKt;->h()I
 
     move-result v4
 
@@ -438,13 +438,13 @@
     if-eqz v1, :cond_1
 
     .line 6
-    iget-object v2, v1, Lkotlinx/coroutines/sync/g;->d:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iget-object v2, v1, Lcotlinx/coroutines/sync/g;->d:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-virtual {v2, v3}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
-    invoke-static {}, Lkotlinx/coroutines/sync/SemaphoreKt;->g()Lkotlinx/coroutines/internal/c0;
+    invoke-static {}, Lcotlinx/coroutines/sync/SemaphoreKt;->g()Lcotlinx/coroutines/internal/c0;
 
     move-result-object v4
 
@@ -453,7 +453,7 @@
     const/4 v2, 0x0
 
     .line 7
-    iget-object v4, v1, Lkotlinx/coroutines/sync/g;->d:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iget-object v4, v1, Lcotlinx/coroutines/sync/g;->d:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-virtual {v4, v3, v2, v0}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->compareAndSet(ILjava/lang/Object;Ljava/lang/Object;)Z
 
@@ -465,41 +465,41 @@
 
     .line 8
     :cond_0
-    new-instance v2, Lkotlinx/coroutines/sync/a;
+    new-instance v2, Lcotlinx/coroutines/sync/a;
 
-    invoke-direct {v2, p0, v1, v3}, Lkotlinx/coroutines/sync/a;-><init>(Lkotlinx/coroutines/sync/f;Lkotlinx/coroutines/sync/g;I)V
+    invoke-direct {v2, p0, v1, v3}, Lcotlinx/coroutines/sync/a;-><init>(Lcotlinx/coroutines/sync/f;Lcotlinx/coroutines/sync/g;I)V
 
-    invoke-interface {v0, v2}, Lkotlinx/coroutines/m;->s(Lkotlin/jvm/u/l;)V
+    invoke-interface {v0, v2}, Lcotlinx/coroutines/m;->s(Lcotlin/jvm/u/l;)V
 
     goto :goto_1
 
     .line 9
     :cond_1
     :goto_0
-    sget-object v1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
-    sget-object v2, Lkotlin/Result;->Companion:Lkotlin/Result$a;
+    sget-object v2, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
-    invoke-static {v1}, Lkotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lkotlin/coroutines/c;->resumeWith(Ljava/lang/Object;)V
+    invoke-interface {v0, v1}, Lcotlin/coroutines/c;->resumeWith(Ljava/lang/Object;)V
 
     .line 10
     :goto_1
-    invoke-virtual {v0}, Lkotlinx/coroutines/n;->v()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlinx/coroutines/n;->v()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 11
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     if-ne v0, v1, :cond_2
 
-    invoke-static {p1}, Lkotlin/coroutines/jvm/internal/f;->c(Lkotlin/coroutines/c;)V
+    invoke-static {p1}, Lcotlin/coroutines/jvm/internal/f;->c(Lcotlin/coroutines/c;)V
 
     :cond_2
     return-object v0
@@ -510,10 +510,10 @@
 
     .line 1
     :cond_0
-    iget v0, p0, Lkotlinx/coroutines/sync/f;->_availablePermits:I
+    iget v0, p0, Lcotlinx/coroutines/sync/f;->_availablePermits:I
 
     .line 2
-    iget v1, p0, Lkotlinx/coroutines/sync/f;->c:I
+    iget v1, p0, Lcotlinx/coroutines/sync/f;->c:I
 
     if-ge v0, v1, :cond_1
 
@@ -530,7 +530,7 @@
     add-int/lit8 v1, v0, 0x1
 
     .line 3
-    sget-object v2, Lkotlinx/coroutines/sync/f;->d:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
+    sget-object v2, Lcotlinx/coroutines/sync/f;->d:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
     invoke-virtual {v2, p0, v0, v1}, Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;->compareAndSet(Ljava/lang/Object;II)Z
 
@@ -550,7 +550,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget v1, p0, Lkotlinx/coroutines/sync/f;->c:I
+    iget v1, p0, Lcotlinx/coroutines/sync/f;->c:I
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -569,9 +569,9 @@
     throw v1
 .end method
 
-.method public p(JLkotlinx/coroutines/sync/g;)Lkotlinx/coroutines/sync/g;
+.method public p(JLcotlinx/coroutines/sync/g;)Lcotlinx/coroutines/sync/g;
     .locals 1
-    .param p3    # Lkotlinx/coroutines/sync/g;
+    .param p3    # Lcotlinx/coroutines/sync/g;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
@@ -579,9 +579,9 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/sync/g;
+    new-instance v0, Lcotlinx/coroutines/sync/g;
 
-    invoke-direct {v0, p1, p2, p3}, Lkotlinx/coroutines/sync/g;-><init>(JLkotlinx/coroutines/sync/g;)V
+    invoke-direct {v0, p1, p2, p3}, Lcotlinx/coroutines/sync/g;-><init>(JLcotlinx/coroutines/sync/g;)V
 
     return-object v0
 .end method
@@ -592,21 +592,21 @@
     .line 1
     :cond_0
     :goto_0
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/a0;->d()Lkotlinx/coroutines/internal/z;
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/a0;->d()Lcotlinx/coroutines/internal/z;
 
     move-result-object v0
 
-    check-cast v0, Lkotlinx/coroutines/sync/g;
+    check-cast v0, Lcotlinx/coroutines/sync/g;
 
     .line 2
-    sget-object v1, Lkotlinx/coroutines/sync/f;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
+    sget-object v1, Lcotlinx/coroutines/sync/f;->f:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
     invoke-virtual {v1, p0}, Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;->getAndIncrement(Ljava/lang/Object;)J
 
     move-result-wide v1
 
     .line 3
-    invoke-static {}, Lkotlinx/coroutines/sync/SemaphoreKt;->h()I
+    invoke-static {}, Lcotlinx/coroutines/sync/SemaphoreKt;->h()I
 
     move-result v3
 
@@ -614,16 +614,16 @@
 
     div-long v3, v1, v3
 
-    invoke-virtual {p0, v0, v3, v4}, Lkotlinx/coroutines/internal/a0;->f(Lkotlinx/coroutines/internal/z;J)Lkotlinx/coroutines/internal/z;
+    invoke-virtual {p0, v0, v3, v4}, Lcotlinx/coroutines/internal/a0;->f(Lcotlinx/coroutines/internal/z;J)Lcotlinx/coroutines/internal/z;
 
     move-result-object v0
 
-    check-cast v0, Lkotlinx/coroutines/sync/g;
+    check-cast v0, Lcotlinx/coroutines/sync/g;
 
     if-eqz v0, :cond_0
 
     .line 4
-    invoke-static {}, Lkotlinx/coroutines/sync/SemaphoreKt;->h()I
+    invoke-static {}, Lcotlinx/coroutines/sync/SemaphoreKt;->h()I
 
     move-result v3
 
@@ -634,12 +634,12 @@
     long-to-int v2, v1
 
     .line 5
-    invoke-static {}, Lkotlinx/coroutines/sync/SemaphoreKt;->g()Lkotlinx/coroutines/internal/c0;
+    invoke-static {}, Lcotlinx/coroutines/sync/SemaphoreKt;->g()Lcotlinx/coroutines/internal/c0;
 
     move-result-object v1
 
     .line 6
-    iget-object v0, v0, Lkotlinx/coroutines/sync/g;->d:Ljava/util/concurrent/atomic/AtomicReferenceArray;
+    iget-object v0, v0, Lcotlinx/coroutines/sync/g;->d:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-virtual {v0, v2, v1}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->getAndSet(ILjava/lang/Object;)Ljava/lang/Object;
 
@@ -651,7 +651,7 @@
 
     .line 7
     :cond_1
-    invoke-static {}, Lkotlinx/coroutines/sync/SemaphoreKt;->f()Lkotlinx/coroutines/internal/c0;
+    invoke-static {}, Lcotlinx/coroutines/sync/SemaphoreKt;->f()Lcotlinx/coroutines/internal/c0;
 
     move-result-object v1
 
@@ -661,17 +661,17 @@
 
     .line 8
     :cond_2
-    check-cast v0, Lkotlinx/coroutines/m;
+    check-cast v0, Lcotlinx/coroutines/m;
 
-    sget-object v1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
-    sget-object v2, Lkotlin/Result;->Companion:Lkotlin/Result$a;
+    sget-object v2, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
-    invoke-static {v1}, Lkotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lkotlin/coroutines/c;->resumeWith(Ljava/lang/Object;)V
+    invoke-interface {v0, v1}, Lcotlin/coroutines/c;->resumeWith(Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -680,7 +680,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlinx/coroutines/sync/f;->o()I
+    invoke-virtual {p0}, Lcotlinx/coroutines/sync/f;->o()I
 
     move-result v0
 
@@ -690,7 +690,7 @@
 
     .line 2
     :cond_0
-    invoke-virtual {p0}, Lkotlinx/coroutines/sync/f;->q()V
+    invoke-virtual {p0}, Lcotlinx/coroutines/sync/f;->q()V
 
     return-void
 .end method

@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
         "previewParams",
         "",
         "ratio",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "x",
         "(Lcom/meitu/library/camera/MTCamera$r;I)V",
         "",
@@ -108,7 +108,7 @@
 
     const-string v0, "flashMode"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -130,7 +130,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/String;IIIIIIILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Ljava/lang/String;IIIIIIILcotlin/jvm/internal/u;)V
     .locals 9
 
     and-int/lit8 v0, p8, 0x20
@@ -414,7 +414,7 @@
 
     iget-object v2, p1, Lcom/commsource/camera/xcamera/i;->a:Ljava/lang/String;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -518,7 +518,7 @@
 
     move-object v3, p1
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v1, Lcom/commsource/camera/xcamera/i;
 
@@ -867,7 +867,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/i;->a:Ljava/lang/String;

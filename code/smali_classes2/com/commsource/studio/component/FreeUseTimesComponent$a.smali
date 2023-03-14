@@ -32,7 +32,7 @@
     value = "SMAP\nFreeUseTimesComponent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FreeUseTimesComponent.kt\ncom/commsource/studio/component/FreeUseTimesComponent$onInitOwner$1\n*L\n1#1,32:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/String;)V"
     }
@@ -95,7 +95,7 @@
 
     const-string v2, "mViewBinding.tv"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 

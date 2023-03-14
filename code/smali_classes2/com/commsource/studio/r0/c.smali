@@ -8,7 +8,7 @@
     value = "SMAP\nBeautyRemoldRenderProxy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BeautyRemoldRenderProxy.kt\ncom/commsource/studio/render/BeautyRemoldRenderProxy\n*L\n1#1,142:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/studio/r0/c;",
         "Lcom/commsource/studio/r0/t;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "h",
         "()V",
         "Landroid/util/SparseArray;",
@@ -132,7 +132,7 @@
 
     const-string v4, "ArMaterialUtil.generateRemoldParams()"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {v1, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -176,7 +176,7 @@
 
     const-string v1, "params"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Landroid/util/SparseArray;->size()I
@@ -222,7 +222,7 @@
     :pswitch_0
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -243,7 +243,7 @@
     :pswitch_1
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -258,7 +258,7 @@
     .line 7
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -279,7 +279,7 @@
     :pswitch_2
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -302,7 +302,7 @@
     :pswitch_3
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -323,7 +323,7 @@
     :pswitch_4
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -344,7 +344,7 @@
     :pswitch_5
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -365,7 +365,7 @@
     :pswitch_6
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -386,7 +386,7 @@
     :pswitch_7
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -482,7 +482,7 @@
     :pswitch_b
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -503,7 +503,7 @@
     :pswitch_c
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -524,7 +524,7 @@
     :pswitch_d
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -545,7 +545,7 @@
     :pswitch_e
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -566,7 +566,7 @@
     :pswitch_f
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -587,7 +587,7 @@
     :pswitch_10
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -605,7 +605,7 @@
     :pswitch_11
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -625,7 +625,7 @@
     :pswitch_12
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -645,7 +645,7 @@
     :pswitch_13
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -665,7 +665,7 @@
     :pswitch_14
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 
@@ -683,7 +683,7 @@
     :pswitch_15
     iget-object v5, p0, Lcom/commsource/studio/r0/c;->h:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/camera/newrender/renderproxy/m;->f0()Lcom/commsource/camera/newrender/renderproxy/v/z;
 

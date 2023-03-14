@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "<anonymous>"
@@ -71,7 +71,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1$isBlock$1;-><init>(Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;)V
 
-    invoke-static {v1, v2}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->C(Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;Lkotlin/jvm/u/a;)Z
+    invoke-static {v1, v2}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->C(Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;Lcotlin/jvm/u/a;)Z
 
     move-result v1
 
@@ -88,7 +88,7 @@
 
     const-string v3, "mViewBinding.cb"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x1
 
@@ -187,7 +187,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/c3;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, v4}, Landroid/view/View;->setEnabled(Z)V
 

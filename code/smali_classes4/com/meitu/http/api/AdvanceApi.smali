@@ -11,7 +11,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "Lcom/meitu/http/api/AdvanceApi$a;",
         "Ljava/util/ArrayList;",
         "Lcom/commsource/beautyplus/miniapp/k;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "c",
         "()Lf/k/k/u/c;",
         "",
@@ -89,7 +89,7 @@
 
     const-string p1, "/v1/advanced_switch"
 
-    invoke-static {p1, v1}, Lf/k/k/u/b;->b(Ljava/lang/String;Lkotlin/jvm/u/l;)Lf/k/k/u/c;
+    invoke-static {p1, v1}, Lf/k/k/u/b;->b(Ljava/lang/String;Lcotlin/jvm/u/l;)Lf/k/k/u/c;
 
     move-result-object p1
 

@@ -8,7 +8,7 @@
     value = "SMAP\nDoodleLayerInfo.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DoodleLayerInfo.kt\ncom/commsource/studio/bean/DoodleLayerInfo\n*L\n1#1,19:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -96,7 +96,7 @@
 
     const-string v0, "doodle"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Lcom/commsource/studio/bean/ImageLayerInfo;-><init>()V

@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/commsource/beautyplus/armaterial/i;->H(Lkotlin/jvm/u/a;)V
+    value = Lcom/commsource/beautyplus/armaterial/i;->H(Lcotlin/jvm/u/a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,19 +15,19 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/jvm/u/a;
+.field final synthetic a:Lcotlin/jvm/u/a;
 
 .field final synthetic b:Lcom/commsource/beautyplus/armaterial/i;
 
 
 # direct methods
-.method constructor <init>(Lcom/commsource/beautyplus/armaterial/i;Lkotlin/jvm/u/a;)V
+.method constructor <init>(Lcom/commsource/beautyplus/armaterial/i;Lcotlin/jvm/u/a;)V
     .locals 0
 
     .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/armaterial/i$f;->b:Lcom/commsource/beautyplus/armaterial/i;
 
-    iput-object p2, p0, Lcom/commsource/beautyplus/armaterial/i$f;->a:Lkotlin/jvm/u/a;
+    iput-object p2, p0, Lcom/commsource/beautyplus/armaterial/i$f;->a:Lcotlin/jvm/u/a;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -47,9 +47,9 @@
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
     .line 2
-    iget-object p1, p0, Lcom/commsource/beautyplus/armaterial/i$f;->a:Lkotlin/jvm/u/a;
+    iget-object p1, p0, Lcom/commsource/beautyplus/armaterial/i$f;->a:Lcotlin/jvm/u/a;
 
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

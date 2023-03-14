@@ -1,11 +1,11 @@
-.class final Lkotlinx/coroutines/channels/q$c;
+.class final Lcotlinx/coroutines/channels/q$c;
 .super Ljava/lang/Object;
 .source "ConflatedBroadcastChannel.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/channels/q;
+    value = Lcotlinx/coroutines/channels/q;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,7 +22,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,12 +39,12 @@
         "Ljava/lang/Object;",
         "value",
         "",
-        "Lkotlinx/coroutines/channels/q$d;",
+        "Lcotlinx/coroutines/channels/q$d;",
         "b",
-        "[Lkotlinx/coroutines/channels/ConflatedBroadcastChannel$Subscriber;",
+        "[Lcotlinx/coroutines/channels/ConflatedBroadcastChannel$Subscriber;",
         "subscribers",
         "<init>",
-        "(Ljava/lang/Object;[Lkotlinx/coroutines/channels/ConflatedBroadcastChannel$Subscriber;)V",
+        "(Ljava/lang/Object;[Lcotlinx/coroutines/channels/ConflatedBroadcastChannel$Subscriber;)V",
         "kotlinx-coroutines-core"
     }
     k = 0x1
@@ -58,23 +58,23 @@
 
 # instance fields
 .field public final a:Ljava/lang/Object;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/e;
     .end annotation
 .end field
 
-.field public final b:[Lkotlinx/coroutines/channels/q$d;
+.field public final b:[Lcotlinx/coroutines/channels/q$d;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "[",
-            "Lkotlinx/coroutines/channels/q$d<",
+            "Lcotlinx/coroutines/channels/q$d<",
             "TE;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -83,13 +83,13 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/Object;[Lkotlinx/coroutines/channels/q$d;)V
+.method public constructor <init>(Ljava/lang/Object;[Lcotlinx/coroutines/channels/q$d;)V
     .locals 0
     .param p1    # Ljava/lang/Object;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # [Lkotlinx/coroutines/channels/q$d;
+    .param p2    # [Lcotlinx/coroutines/channels/q$d;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
@@ -98,7 +98,7 @@
             "(",
             "Ljava/lang/Object;",
             "[",
-            "Lkotlinx/coroutines/channels/q$d<",
+            "Lcotlinx/coroutines/channels/q$d<",
             "TE;>;)V"
         }
     .end annotation
@@ -106,9 +106,9 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkotlinx/coroutines/channels/q$c;->a:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/q$c;->a:Ljava/lang/Object;
 
-    iput-object p2, p0, Lkotlinx/coroutines/channels/q$c;->b:[Lkotlinx/coroutines/channels/q$d;
+    iput-object p2, p0, Lcotlinx/coroutines/channels/q$c;->b:[Lcotlinx/coroutines/channels/q$d;
 
     return-void
 .end method

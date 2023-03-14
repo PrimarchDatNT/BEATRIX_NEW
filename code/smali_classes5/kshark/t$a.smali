@@ -17,7 +17,7 @@
     value = "SMAP\nMetadataExtractor.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MetadataExtractor.kt\nkshark/MetadataExtractor$Companion\n*L\n1#1,39:1\n34#1,3:40\n*E\n*S KotlinDebug\n*F\n+ 1 MetadataExtractor.kt\nkshark/MetadataExtractor$Companion\n*L\n19#1,3:40\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,14 +29,14 @@
     d2 = {
         "kshark/t$a",
         "",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "Lkshark/i;",
         "",
         "",
         "block",
         "Lkshark/t;",
         "b",
-        "(Lkotlin/jvm/u/l;)Lkshark/t;",
+        "(Lcotlin/jvm/u/l;)Lkshark/t;",
         "a",
         "Lkshark/t;",
         "()Lkshark/t;",
@@ -107,16 +107,16 @@
     return-object v0
 .end method
 
-.method public final b(Lkotlin/jvm/u/l;)Lkshark/t;
+.method public final b(Lcotlin/jvm/u/l;)Lkshark/t;
     .locals 1
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lkshark/i;",
             "+",
@@ -133,12 +133,12 @@
 
     const-string v0, "block"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lkshark/t$a$b;
 
-    invoke-direct {v0, p1}, Lkshark/t$a$b;-><init>(Lkotlin/jvm/u/l;)V
+    invoke-direct {v0, p1}, Lkshark/t$a$b;-><init>(Lcotlin/jvm/u/l;)V
 
     return-object v0
 .end method

@@ -8,7 +8,7 @@
     value = "SMAP\nTextFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextFragment.kt\ncom/commsource/studio/sticker/TextFragment\n*L\n1#1,312:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,11 +22,11 @@
         "Lcom/commsource/studio/sub/BaseSubTabFragment;",
         "Lcom/commsource/studio/text/TextGroupParam;",
         "textGroupParam",
-        "Lkotlin/Function0;",
-        "Lkotlin/t1;",
+        "Lcotlin/Function0;",
+        "Lcotlin/t1;",
         "afterCallBack",
         "b0",
-        "(Lcom/commsource/studio/text/TextGroupParam;Lkotlin/jvm/u/a;)V",
+        "(Lcom/commsource/studio/text/TextGroupParam;Lcotlin/jvm/u/a;)V",
         "e0",
         "()V",
         "Landroid/view/LayoutInflater;",
@@ -50,7 +50,7 @@
         "alphaAnimateView",
         "callback",
         "E",
-        "(ILandroid/view/View;Lkotlin/jvm/u/a;)V",
+        "(ILandroid/view/View;Lcotlin/jvm/u/a;)V",
         "Lcom/commsource/studio/text/TextTemplatePanel;",
         "N",
         "Lcom/commsource/studio/text/TextTemplatePanel;",
@@ -71,7 +71,7 @@
         "stylePanel",
         "Lcom/commsource/studio/text/TextViewModel;",
         "P",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "f0",
         "()Lcom/commsource/studio/text/TextViewModel;",
         "mViewModel",
@@ -96,7 +96,7 @@
 
 .field private O:Lcom/commsource/studio/text/TextStylePanel;
 
-.field private final P:Lkotlin/w;
+.field private final P:Lcotlin/w;
 
 .field private Q:Ljava/util/HashMap;
 
@@ -130,16 +130,16 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/sticker/TextFragment$mViewModel$2;-><init>(Lcom/commsource/studio/sticker/TextFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/sticker/TextFragment;->P:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/sticker/TextFragment;->P:Lcotlin/w;
 
     return-void
 .end method
 
-.method public static final synthetic T(Lcom/commsource/studio/sticker/TextFragment;Lcom/commsource/studio/text/TextGroupParam;Lkotlin/jvm/u/a;)V
+.method public static final synthetic T(Lcom/commsource/studio/sticker/TextFragment;Lcom/commsource/studio/text/TextGroupParam;Lcotlin/jvm/u/a;)V
     .locals 1
 
     const/16 v0, 0x7a6
@@ -147,7 +147,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/commsource/studio/sticker/TextFragment;->b0(Lcom/commsource/studio/text/TextGroupParam;Lkotlin/jvm/u/a;)V
+    invoke-direct {p0, p1, p2}, Lcom/commsource/studio/sticker/TextFragment;->b0(Lcom/commsource/studio/text/TextGroupParam;Lcotlin/jvm/u/a;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -168,7 +168,7 @@
 
     const-string v1, "mViewBinding"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -268,7 +268,7 @@
     return-void
 .end method
 
-.method private final b0(Lcom/commsource/studio/text/TextGroupParam;Lkotlin/jvm/u/a;)V
+.method private final b0(Lcom/commsource/studio/text/TextGroupParam;Lcotlin/jvm/u/a;)V
     .locals 12
     .annotation build Landroidx/annotation/UiThread;
     .end annotation
@@ -277,8 +277,8 @@
         value = {
             "(",
             "Lcom/commsource/studio/text/TextGroupParam;",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -425,9 +425,9 @@
 
     new-instance v2, Lcom/commsource/studio/sticker/TextFragment$addTextOnRandom$1;
 
-    invoke-direct {v2, p0, p2}, Lcom/commsource/studio/sticker/TextFragment$addTextOnRandom$1;-><init>(Lcom/commsource/studio/sticker/TextFragment;Lkotlin/jvm/u/a;)V
+    invoke-direct {v2, p0, p2}, Lcom/commsource/studio/sticker/TextFragment$addTextOnRandom$1;-><init>(Lcom/commsource/studio/sticker/TextFragment;Lcotlin/jvm/u/a;)V
 
-    invoke-virtual {p1, v1, v2}, Lcom/commsource/studio/gesture/GestureLayer;->z0(Lcom/commsource/studio/bean/TextLayerInfo;Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v1, v2}, Lcom/commsource/studio/gesture/GestureLayer;->z0(Lcom/commsource/studio/bean/TextLayerInfo;Lcotlin/jvm/u/a;)V
 
     .line 12
     :goto_1
@@ -436,7 +436,7 @@
     return-void
 .end method
 
-.method static synthetic d0(Lcom/commsource/studio/sticker/TextFragment;Lcom/commsource/studio/text/TextGroupParam;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+.method static synthetic d0(Lcom/commsource/studio/sticker/TextFragment;Lcom/commsource/studio/text/TextGroupParam;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
     .locals 0
 
     const/16 p4, 0x799
@@ -451,7 +451,7 @@
 
     .line 1
     :cond_0
-    invoke-direct {p0, p1, p2}, Lcom/commsource/studio/sticker/TextFragment;->b0(Lcom/commsource/studio/text/TextGroupParam;Lkotlin/jvm/u/a;)V
+    invoke-direct {p0, p1, p2}, Lcom/commsource/studio/sticker/TextFragment;->b0(Lcom/commsource/studio/text/TextGroupParam;Lcotlin/jvm/u/a;)V
 
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -487,7 +487,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cc;->M:Landroid/widget/TextView;
@@ -511,7 +511,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cc;->M:Landroid/widget/TextView;
@@ -536,9 +536,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment;->P:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment;->P:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -568,14 +568,14 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cc;->M:Landroid/widget/TextView;
 
     const-string v3, "mViewBinding.newTemplate"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -594,12 +594,12 @@
 
     if-nez v6, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v2, v6, Lcom/commsource/beautyplus/f0/cc;->M:Landroid/widget/TextView;
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     aput-object v2, v4, v5
 
@@ -611,13 +611,13 @@
     return-void
 .end method
 
-.method public E(ILandroid/view/View;Lkotlin/jvm/u/a;)V
+.method public E(ILandroid/view/View;Lcotlin/jvm/u/a;)V
     .locals 2
     .param p2    # Landroid/view/View;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p3    # Lkotlin/jvm/u/a;
+    .param p3    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
@@ -625,8 +625,8 @@
         value = {
             "(I",
             "Landroid/view/View;",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -638,9 +638,9 @@
     .line 1
     new-instance v1, Lcom/commsource/studio/sticker/TextFragment$animateOut$1;
 
-    invoke-direct {v1, p0, p3}, Lcom/commsource/studio/sticker/TextFragment$animateOut$1;-><init>(Lcom/commsource/studio/sticker/TextFragment;Lkotlin/jvm/u/a;)V
+    invoke-direct {v1, p0, p3}, Lcom/commsource/studio/sticker/TextFragment$animateOut$1;-><init>(Lcom/commsource/studio/sticker/TextFragment;Lcotlin/jvm/u/a;)V
 
-    invoke-super {p0, p1, p2, v1}, Lcom/commsource/studio/sub/BaseSubTabFragment;->E(ILandroid/view/View;Lkotlin/jvm/u/a;)V
+    invoke-super {p0, p1, p2, v1}, Lcom/commsource/studio/sub/BaseSubTabFragment;->E(ILandroid/view/View;Lcotlin/jvm/u/a;)V
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -674,7 +674,7 @@
 
     const-string v2, "mViewBinding"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cc;->O:Lcom/commsource/studio/text/TextTabView;
@@ -833,7 +833,7 @@
     const-string v7, "BP_TEX_00000000"
 
     .line 6
-    invoke-static {v3, v7}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, v7}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v7
 
@@ -899,7 +899,7 @@
 
     const-string v4, "mViewBinding"
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cc;->O:Lcom/commsource/studio/text/TextTabView;
@@ -934,13 +934,13 @@
     invoke-direct {v1, v4}, Lcom/commsource/studio/text/TextGroupParam;-><init>(Lcom/commsource/studio/text/TextTemplate;)V
 
     .line 16
-    new-instance v4, Lkotlin/jvm/internal/Ref$ObjectRef;
+    new-instance v4, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    invoke-direct {v4}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+    invoke-direct {v4}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
     const/4 v5, 0x0
 
-    iput-object v5, v4, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object v5, v4, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     if-eqz v3, :cond_6
 
@@ -974,7 +974,7 @@
     if-eqz v3, :cond_7
 
     .line 21
-    iput-object v6, v4, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object v6, v4, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     goto :goto_1
 
@@ -1016,9 +1016,9 @@
 
     new-instance v5, Lcom/commsource/studio/sticker/TextFragment$onFirstEnter$$inlined$let$lambda$1;
 
-    invoke-direct {v5, v1, v4, p0}, Lcom/commsource/studio/sticker/TextFragment$onFirstEnter$$inlined$let$lambda$1;-><init>(Lcom/commsource/studio/text/TextGroupParam;Lkotlin/jvm/internal/Ref$ObjectRef;Lcom/commsource/studio/sticker/TextFragment;)V
+    invoke-direct {v5, v1, v4, p0}, Lcom/commsource/studio/sticker/TextFragment$onFirstEnter$$inlined$let$lambda$1;-><init>(Lcom/commsource/studio/text/TextGroupParam;Lcotlin/jvm/internal/Ref$ObjectRef;Lcom/commsource/studio/sticker/TextFragment;)V
 
-    invoke-virtual {v3, v5}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v3, v5}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lcotlin/jvm/u/a;)V
 
     .line 27
     :cond_9
@@ -1075,7 +1075,7 @@
 
     const-string p3, "inflater"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/cc;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/cc;
@@ -1084,7 +1084,7 @@
 
     const-string p3, "FragmentStudioTextBinding.inflate(inflater)"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/sticker/TextFragment;->M:Lcom/commsource/beautyplus/f0/cc;
 
@@ -1093,7 +1093,7 @@
     if-nez p1, :cond_0
 
     .line 2
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/cc;->i(Landroidx/fragment/app/Fragment;)V
@@ -1105,7 +1105,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-direct {p1, v0, p0}, Lcom/commsource/studio/text/TextTemplatePanel;-><init>(Lcom/commsource/beautyplus/f0/cc;Lcom/commsource/studio/sticker/TextFragment;)V
@@ -1119,7 +1119,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-direct {p1, v0, p0}, Lcom/commsource/studio/text/TextStylePanel;-><init>(Lcom/commsource/beautyplus/f0/cc;Lcom/commsource/studio/sticker/TextFragment;)V
@@ -1131,7 +1131,7 @@
 
     if-nez p1, :cond_3
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -1176,7 +1176,7 @@
 
     const-string v1, "view"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
@@ -1191,7 +1191,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/cc;->O:Lcom/commsource/studio/text/TextTabView;
@@ -1200,7 +1200,7 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/sticker/TextFragment$onViewCreated$1;-><init>(Lcom/commsource/studio/sticker/TextFragment;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/studio/text/TextTabView;->setCallBack(Lkotlin/jvm/u/l;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/studio/text/TextTabView;->setCallBack(Lcotlin/jvm/u/l;)V
 
     .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -1275,7 +1275,7 @@
 
     const-string v2, "viewLifecycleOwner"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     new-instance v2, Lcom/commsource/studio/sticker/TextFragment$d;
@@ -1347,7 +1347,7 @@
 
     if-nez p1, :cond_1
 
-    invoke-static {p2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/cc;->M:Landroid/widget/TextView;

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;->W(Lkotlin/jvm/u/l;)V
+    value = Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;->W(Lcotlin/jvm/u/l;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "<anonymous>"
@@ -43,16 +43,16 @@
 # instance fields
 .field final synthetic a:Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;
 
-.field final synthetic b:Lkotlin/jvm/u/l;
+.field final synthetic b:Lcotlin/jvm/u/l;
 
 
 # direct methods
-.method constructor <init>(Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;Lkotlin/jvm/u/l;)V
+.method constructor <init>(Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;Lcotlin/jvm/u/l;)V
     .locals 0
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$j;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;
 
-    iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$j;->b:Lkotlin/jvm/u/l;
+    iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$j;->b:Lcotlin/jvm/u/l;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -69,7 +69,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$j;->b:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$j;->b:Lcotlin/jvm/u/l;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$j;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;
 
@@ -93,9 +93,9 @@
 
     const-string v3, "bpCameraViewModel.mMulti\u2026rdHelper.videoSessions[0]"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-interface {v1, v2}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$j;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;

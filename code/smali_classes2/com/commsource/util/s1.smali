@@ -8,7 +8,7 @@
     value = "SMAP\nRatioParseTool.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RatioParseTool.kt\ncom/commsource/util/RatioParseTool\n*L\n1#1,96:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -474,7 +474,7 @@
 
     const-string v1, "path"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Ljava/io/FileInputStream;
@@ -494,14 +494,14 @@
     move-result-object p1
 
     .line 3
-    sget-object v2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     const/4 v2, 0x0
 
     .line 4
-    invoke-static {v1, v2}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {v1, v2}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -522,7 +522,7 @@
     :catchall_1
     move-exception v2
 
-    invoke-static {v1, p1}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {v1, p1}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -548,7 +548,7 @@
 
     const-string v3, "path"
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v3, 0x2
 
@@ -574,7 +574,7 @@
     const-string v6, "videoEditor"
 
     .line 3
-    invoke-static {v5, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/meitu/media/tools/editor/f;->getVideoWidth()I
 

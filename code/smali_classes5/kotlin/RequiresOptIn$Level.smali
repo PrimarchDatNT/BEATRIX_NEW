@@ -1,11 +1,11 @@
-.class public final enum Lkotlin/RequiresOptIn$Level;
+.class public final enum Lcotlin/RequiresOptIn$Level;
 .super Ljava/lang/Enum;
 .source "OptIn.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/RequiresOptIn;
+    value = Lcotlin/RequiresOptIn;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,12 +16,12 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Enum<",
-        "Lkotlin/RequiresOptIn$Level;",
+        "Lcotlin/RequiresOptIn$Level;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\u0008\u0005\u0008\u0086\u0001\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00000\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0002\u0010\u0003j\u0002\u0008\u0004j\u0002\u0008\u0005\u00a8\u0006\u0006"
     }
     d2 = {
-        "Lkotlin/RequiresOptIn$Level;",
+        "Lcotlin/RequiresOptIn$Level;",
         "",
         "<init>",
         "(Ljava/lang/String;I)V",
@@ -49,11 +49,11 @@
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkotlin/RequiresOptIn$Level;
+.field private static final synthetic $VALUES:[Lcotlin/RequiresOptIn$Level;
 
-.field public static final enum ERROR:Lkotlin/RequiresOptIn$Level;
+.field public static final enum ERROR:Lcotlin/RequiresOptIn$Level;
 
-.field public static final enum WARNING:Lkotlin/RequiresOptIn$Level;
+.field public static final enum WARNING:Lcotlin/RequiresOptIn$Level;
 
 
 # direct methods
@@ -62,33 +62,33 @@
 
     const/4 v0, 0x2
 
-    new-array v0, v0, [Lkotlin/RequiresOptIn$Level;
+    new-array v0, v0, [Lcotlin/RequiresOptIn$Level;
 
-    new-instance v1, Lkotlin/RequiresOptIn$Level;
+    new-instance v1, Lcotlin/RequiresOptIn$Level;
 
     const-string v2, "WARNING"
 
     const/4 v3, 0x0
 
-    invoke-direct {v1, v2, v3}, Lkotlin/RequiresOptIn$Level;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v1, v2, v3}, Lcotlin/RequiresOptIn$Level;-><init>(Ljava/lang/String;I)V
 
-    sput-object v1, Lkotlin/RequiresOptIn$Level;->WARNING:Lkotlin/RequiresOptIn$Level;
+    sput-object v1, Lcotlin/RequiresOptIn$Level;->WARNING:Lcotlin/RequiresOptIn$Level;
 
     aput-object v1, v0, v3
 
-    new-instance v1, Lkotlin/RequiresOptIn$Level;
+    new-instance v1, Lcotlin/RequiresOptIn$Level;
 
     const-string v2, "ERROR"
 
     const/4 v3, 0x1
 
-    invoke-direct {v1, v2, v3}, Lkotlin/RequiresOptIn$Level;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v1, v2, v3}, Lcotlin/RequiresOptIn$Level;-><init>(Ljava/lang/String;I)V
 
-    sput-object v1, Lkotlin/RequiresOptIn$Level;->ERROR:Lkotlin/RequiresOptIn$Level;
+    sput-object v1, Lcotlin/RequiresOptIn$Level;->ERROR:Lcotlin/RequiresOptIn$Level;
 
     aput-object v1, v0, v3
 
-    sput-object v0, Lkotlin/RequiresOptIn$Level;->$VALUES:[Lkotlin/RequiresOptIn$Level;
+    sput-object v0, Lcotlin/RequiresOptIn$Level;->$VALUES:[Lcotlin/RequiresOptIn$Level;
 
     return-void
 .end method
@@ -107,30 +107,30 @@
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkotlin/RequiresOptIn$Level;
+.method public static valueOf(Ljava/lang/String;)Lcotlin/RequiresOptIn$Level;
     .locals 1
 
-    const-class v0, Lkotlin/RequiresOptIn$Level;
+    const-class v0, Lcotlin/RequiresOptIn$Level;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object p0
 
-    check-cast p0, Lkotlin/RequiresOptIn$Level;
+    check-cast p0, Lcotlin/RequiresOptIn$Level;
 
     return-object p0
 .end method
 
-.method public static values()[Lkotlin/RequiresOptIn$Level;
+.method public static values()[Lcotlin/RequiresOptIn$Level;
     .locals 1
 
-    sget-object v0, Lkotlin/RequiresOptIn$Level;->$VALUES:[Lkotlin/RequiresOptIn$Level;
+    sget-object v0, Lcotlin/RequiresOptIn$Level;->$VALUES:[Lcotlin/RequiresOptIn$Level;
 
-    invoke-virtual {v0}, [Lkotlin/RequiresOptIn$Level;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lcotlin/RequiresOptIn$Level;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkotlin/RequiresOptIn$Level;
+    check-cast v0, [Lcotlin/RequiresOptIn$Level;
 
     return-object v0
 .end method

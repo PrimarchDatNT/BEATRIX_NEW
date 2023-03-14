@@ -1,10 +1,10 @@
-.class public final Lkotlin/text/e;
+.class public final Lcotlin/text/e;
 .super Ljava/lang/Object;
 .source "Charsets.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
     }
 .end annotation
 
-.annotation build Lkotlin/jvm/g;
+.annotation build Lcotlin/jvm/g;
     name = "CharsetsKt"
 .end annotation
 
@@ -37,7 +37,7 @@
 # direct methods
 .method private static final a(Ljava/lang/String;)Ljava/nio/charset/Charset;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -47,7 +47,7 @@
 
     const-string v0, "Charset.forName(charsetName)"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method

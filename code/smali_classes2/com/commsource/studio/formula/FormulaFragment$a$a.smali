@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Lcom/commsource/util/delegate/process/c;",
         "",
         "formulaId",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
         "(Ljava/lang/String;)V",
         "app_googleplayRelease"
@@ -77,7 +77,7 @@
 
     const-string v1, "formulaId"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/studio/formula/FormulaFragment$a$a$a;

@@ -20,7 +20,7 @@
     value = "SMAP\nArPerformanceRecorder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ArPerformanceRecorder.kt\ncom/commsource/camera/xcamera/util/ArPerformanceRecorder$recordFpsTask$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,99:1\n1819#2,2:100\n1819#2,2:102\n*E\n*S KotlinDebug\n*F\n+ 1 ArPerformanceRecorder.kt\ncom/commsource/camera/xcamera/util/ArPerformanceRecorder$recordFpsTask$1\n*L\n64#1,2:100\n69#1,2:102\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "<anonymous>"
@@ -175,7 +175,7 @@
 
     if-nez v4, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 9
     :cond_2
@@ -229,7 +229,7 @@
     if-nez v3, :cond_6
 
     .line 11
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     iget-object v2, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder$a;->a:Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;
@@ -243,7 +243,7 @@
     if-nez v3, :cond_7
 
     .line 12
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_7
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -255,7 +255,7 @@
     if-nez v3, :cond_8
 
     .line 13
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_8
     iget-object v1, p0, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder$a;->a:Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;
@@ -327,7 +327,7 @@
 
     if-nez v1, :cond_a
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_a
     invoke-interface {v1, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z

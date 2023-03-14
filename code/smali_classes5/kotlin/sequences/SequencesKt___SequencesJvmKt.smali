@@ -1,10 +1,10 @@
-.class Lkotlin/sequences/SequencesKt___SequencesJvmKt;
-.super Lkotlin/sequences/SequencesKt__SequencesKt;
+.class Lcotlin/sequences/SequencesKt___SequencesJvmKt;
+.super Lcotlin/sequences/SequencesKt__SequencesKt;
 .source "_SequencesJvm.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,33 +15,33 @@
     }
     d2 = {
         "R",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "Ljava/lang/Class;",
         "klass",
         "x",
-        "(Lkotlin/sequences/m;Ljava/lang/Class;)Lkotlin/sequences/m;",
+        "(Lcotlin/sequences/m;Ljava/lang/Class;)Lcotlin/sequences/m;",
         "",
         "C",
         "destination",
         "y",
-        "(Lkotlin/sequences/m;Ljava/util/Collection;Ljava/lang/Class;)Ljava/util/Collection;",
+        "(Lcotlin/sequences/m;Ljava/util/Collection;Ljava/lang/Class;)Ljava/util/Collection;",
         "",
         "T",
         "Ljava/util/SortedSet;",
         "B",
-        "(Lkotlin/sequences/m;)Ljava/util/SortedSet;",
+        "(Lcotlin/sequences/m;)Ljava/util/SortedSet;",
         "Ljava/util/Comparator;",
-        "Lkotlin/Comparator;",
+        "Lcotlin/Comparator;",
         "comparator",
-        "(Lkotlin/sequences/m;Ljava/util/Comparator;)Ljava/util/SortedSet;",
-        "Lkotlin/Function1;",
+        "(Lcotlin/sequences/m;Ljava/util/Comparator;)Ljava/util/SortedSet;",
+        "Lcotlin/Function1;",
         "Ljava/math/BigDecimal;",
         "selector",
         "z",
-        "(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Ljava/math/BigDecimal;",
+        "(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Ljava/math/BigDecimal;",
         "Ljava/math/BigInteger;",
         "A",
-        "(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Ljava/math/BigInteger;",
+        "(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Ljava/math/BigInteger;",
         "kotlin-stdlib"
     }
     k = 0x5
@@ -58,21 +58,21 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/sequences/SequencesKt__SequencesKt;-><init>()V
+    invoke-direct {p0}, Lcotlin/sequences/SequencesKt__SequencesKt;-><init>()V
 
     return-void
 .end method
 
-.method private static final A(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Ljava/math/BigInteger;
+.method private static final A(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Ljava/math/BigInteger;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "+TT;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+",
             "Ljava/math/BigInteger;",
             ">;)",
@@ -80,17 +80,17 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/j0;
+    .annotation build Lcotlin/j0;
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "sumOfBigInteger"
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -105,10 +105,10 @@
 
     const-string v1, "BigInteger.valueOf(this.toLong())"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-interface {p0}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
@@ -124,7 +124,7 @@
     move-result-object v1
 
     .line 3
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -136,7 +136,7 @@
 
     const-string v1, "this.add(other)"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -144,9 +144,9 @@
     return-object v0
 .end method
 
-.method public static final B(Lkotlin/sequences/m;)Ljava/util/SortedSet;
+.method public static final B(Lcotlin/sequences/m;)Ljava/util/SortedSet;
     .locals 1
-    .param p0    # Lkotlin/sequences/m;
+    .param p0    # Lcotlin/sequences/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -155,7 +155,7 @@
             "<T::",
             "Ljava/lang/Comparable<",
             "-TT;>;>(",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "+TT;>;)",
             "Ljava/util/SortedSet<",
             "TT;>;"
@@ -167,14 +167,14 @@
 
     const-string v0, "$this$toSortedSet"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/TreeSet;
 
     invoke-direct {v0}, Ljava/util/TreeSet;-><init>()V
 
-    invoke-static {p0, v0}, Lkotlin/sequences/SequencesKt___SequencesKt;->T2(Lkotlin/sequences/m;Ljava/util/Collection;)Ljava/util/Collection;
+    invoke-static {p0, v0}, Lcotlin/sequences/SequencesKt___SequencesKt;->T2(Lcotlin/sequences/m;Ljava/util/Collection;)Ljava/util/Collection;
 
     move-result-object p0
 
@@ -183,9 +183,9 @@
     return-object p0
 .end method
 
-.method public static final C(Lkotlin/sequences/m;Ljava/util/Comparator;)Ljava/util/SortedSet;
+.method public static final C(Lcotlin/sequences/m;Ljava/util/Comparator;)Ljava/util/SortedSet;
     .locals 1
-    .param p0    # Lkotlin/sequences/m;
+    .param p0    # Lcotlin/sequences/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -198,7 +198,7 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "+TT;>;",
             "Ljava/util/Comparator<",
             "-TT;>;)",
@@ -212,18 +212,18 @@
 
     const-string v0, "$this$toSortedSet"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "comparator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/TreeSet;
 
     invoke-direct {v0, p1}, Ljava/util/TreeSet;-><init>(Ljava/util/Comparator;)V
 
-    invoke-static {p0, v0}, Lkotlin/sequences/SequencesKt___SequencesKt;->T2(Lkotlin/sequences/m;Ljava/util/Collection;)Ljava/util/Collection;
+    invoke-static {p0, v0}, Lcotlin/sequences/SequencesKt___SequencesKt;->T2(Lcotlin/sequences/m;Ljava/util/Collection;)Ljava/util/Collection;
 
     move-result-object p0
 
@@ -232,9 +232,9 @@
     return-object p0
 .end method
 
-.method public static final x(Lkotlin/sequences/m;Ljava/lang/Class;)Lkotlin/sequences/m;
+.method public static final x(Lcotlin/sequences/m;Ljava/lang/Class;)Lcotlin/sequences/m;
     .locals 1
-    .param p0    # Lkotlin/sequences/m;
+    .param p0    # Lcotlin/sequences/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -247,11 +247,11 @@
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "*>;",
             "Ljava/lang/Class<",
             "TR;>;)",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "TR;>;"
         }
     .end annotation
@@ -261,18 +261,18 @@
 
     const-string v0, "$this$filterIsInstance"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "klass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/sequences/SequencesKt___SequencesJvmKt$filterIsInstance$1;
+    new-instance v0, Lcotlin/sequences/SequencesKt___SequencesJvmKt$filterIsInstance$1;
 
-    invoke-direct {v0, p1}, Lkotlin/sequences/SequencesKt___SequencesJvmKt$filterIsInstance$1;-><init>(Ljava/lang/Class;)V
+    invoke-direct {v0, p1}, Lcotlin/sequences/SequencesKt___SequencesJvmKt$filterIsInstance$1;-><init>(Ljava/lang/Class;)V
 
-    invoke-static {p0, v0}, Lkotlin/sequences/p;->i0(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {p0, v0}, Lcotlin/sequences/p;->i0(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object p0
 
@@ -283,9 +283,9 @@
     return-object p0
 .end method
 
-.method public static final y(Lkotlin/sequences/m;Ljava/util/Collection;Ljava/lang/Class;)Ljava/util/Collection;
+.method public static final y(Lcotlin/sequences/m;Ljava/util/Collection;Ljava/lang/Class;)Ljava/util/Collection;
     .locals 2
-    .param p0    # Lkotlin/sequences/m;
+    .param p0    # Lcotlin/sequences/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -304,7 +304,7 @@
             "-TR;>;R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "*>;TC;",
             "Ljava/lang/Class<",
             "TR;>;)TC;"
@@ -316,18 +316,18 @@
 
     const-string v0, "$this$filterIsInstanceTo"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "destination"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "klass"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p0}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
@@ -357,16 +357,16 @@
     return-object p1
 .end method
 
-.method private static final z(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Ljava/math/BigDecimal;
+.method private static final z(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Ljava/math/BigDecimal;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "+TT;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+",
             "Ljava/math/BigDecimal;",
             ">;)",
@@ -374,17 +374,17 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/j0;
+    .annotation build Lcotlin/j0;
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "sumOfBigDecimal"
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
@@ -399,10 +399,10 @@
 
     const-string v1, "BigDecimal.valueOf(this.toLong())"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-interface {p0}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
@@ -418,7 +418,7 @@
     move-result-object v1
 
     .line 3
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -430,7 +430,7 @@
 
     const-string v1, "this.add(other)"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto :goto_0
 

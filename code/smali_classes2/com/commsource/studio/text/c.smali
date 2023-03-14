@@ -11,7 +11,7 @@
     value = "SMAP\nTextEditPage.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextEditPage.kt\ncom/commsource/studio/text/FitTextWatcher\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,224:1\n1819#2,2:225\n*E\n*S KotlinDebug\n*F\n+ 1 TextEditPage.kt\ncom/commsource/studio/text/FitTextWatcher\n*L\n195#1,2:225\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "(Ljava/lang/String;FF)F",
         "Landroid/text/Editable;",
         "s",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "afterTextChanged",
         "(Landroid/text/Editable;)V",
         "",
@@ -99,7 +99,7 @@
 
     const-string v0, "textEdit"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -282,7 +282,7 @@
 
     const-string v1, "str"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/c;->a:Landroid/text/TextPaint;
@@ -310,7 +310,7 @@
     const/4 v5, 0x0
 
     .line 2
-    invoke-static {p1, v1, v2, v3, v5}, Lkotlin/text/m;->T2(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
+    invoke-static {p1, v1, v2, v3, v5}, Lcotlin/text/m;->T2(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
 
     move-result v3
 
@@ -333,7 +333,7 @@
 
     move-object v6, p1
 
-    invoke-static/range {v6 .. v11}, Lkotlin/text/m;->O4(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;
+    invoke-static/range {v6 .. v11}, Lcotlin/text/m;->O4(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;
 
     move-result-object v1
 

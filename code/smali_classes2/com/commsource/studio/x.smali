@@ -14,7 +14,7 @@
     value = "SMAP\nIconObj.kt\nKotlin\n*S Kotlin\n*F\n+ 1 IconObj.kt\ncom/commsource/studio/IconObj\n+ 2 Rect.kt\nandroidx/core/graphics/RectKt\n*L\n1#1,139:1\n344#2,3:140\n344#2,3:143\n*E\n*S KotlinDebug\n*F\n+ 1 IconObj.kt\ncom/commsource/studio/IconObj\n*L\n41#1,3:140\n78#1,3:143\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "",
         "touchX",
         "touchY",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "(FF)V",
         "d",
@@ -74,13 +74,13 @@
         "f",
         "Landroid/text/TextPaint;",
         "textPaint",
-        "Lkotlin/Function2;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function2;",
+        "Lcotlin/k0;",
         "name",
-        "Lkotlin/jvm/u/p;",
-        "()Lkotlin/jvm/u/p;",
+        "Lcotlin/jvm/u/p;",
+        "()Lcotlin/jvm/u/p;",
         "s",
-        "(Lkotlin/jvm/u/p;)V",
+        "(Lcotlin/jvm/u/p;)V",
         "onTap",
         "Landroid/graphics/drawable/Drawable;",
         "g",
@@ -146,15 +146,15 @@
 
 .field private i:Landroid/graphics/Paint;
 
-.field private j:Lkotlin/jvm/u/p;
+.field private j:Lcotlin/jvm/u/p;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Ljava/lang/Float;",
             "-",
             "Ljava/lang/Float;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -187,7 +187,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/x$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/x$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/x;->p:Lcom/commsource/studio/x$a;
 
@@ -401,7 +401,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(ILjava/lang/String;Ljava/lang/Integer;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(ILjava/lang/String;Ljava/lang/Integer;ILcotlin/jvm/internal/u;)V
     .locals 1
 
     and-int/lit8 p5, p4, 0x2
@@ -495,7 +495,7 @@
 
     const-string v1, "canvas"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
@@ -712,15 +712,15 @@
     return v1
 .end method
 
-.method public final l()Lkotlin/jvm/u/p;
+.method public final l()Lcotlin/jvm/u/p;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "Ljava/lang/Float;",
             "Ljava/lang/Float;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -733,7 +733,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/studio/x;->j:Lkotlin/jvm/u/p;
+    iget-object v1, p0, Lcom/commsource/studio/x;->j:Lcotlin/jvm/u/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -871,21 +871,21 @@
     return-void
 .end method
 
-.method public final s(Lkotlin/jvm/u/p;)V
+.method public final s(Lcotlin/jvm/u/p;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/p;
+    .param p1    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Ljava/lang/Float;",
             "-",
             "Ljava/lang/Float;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -895,7 +895,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/x;->j:Lkotlin/jvm/u/p;
+    iput-object p1, p0, Lcom/commsource/studio/x;->j:Lcotlin/jvm/u/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

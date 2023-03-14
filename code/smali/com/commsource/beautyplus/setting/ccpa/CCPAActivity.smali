@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -18,7 +18,7 @@
         "Lcom/commsource/beautyplus/BaseActivity;",
         "",
         "isOpen",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "O0",
         "(Z)V",
         "Landroid/os/Bundle;",
@@ -91,7 +91,7 @@
 
     const-string v3, "MoPubInitializer.getInstance()"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/meitu/hwbusinesskit/mopub/MoPubInitializer;->getSdkState()I
 
@@ -367,7 +367,7 @@
 
     const-string v2, "findViewById<SwitchView>\u2026id.switch_choose_country)"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v1, Lcom/commsource/beautyplus/setting/widget/SwitchView;
 

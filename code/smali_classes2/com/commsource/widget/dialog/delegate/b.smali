@@ -18,7 +18,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,7 +40,7 @@
         "D",
         "()I",
         "B",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "A",
         "()V",
         "onDestroyView",
@@ -109,7 +109,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/widget/dialog/delegate/b$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/widget/dialog/delegate/b$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/widget/dialog/delegate/b;->c0:Lcom/commsource/widget/dialog/delegate/b$a;
 
@@ -188,7 +188,7 @@
 
     const-string v3, "mBinding.flContent"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->h(Landroid/widget/FrameLayout;)V
 
@@ -436,7 +436,7 @@
 
     const-string v1, "super.onCreateDialog(savedInstanceState)"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/b;->X:Lcom/commsource/widget/dialog/delegate/DialogDelegate;

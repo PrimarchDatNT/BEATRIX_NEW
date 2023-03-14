@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "deviceOrientation",
         "Lcom/meitu/library/n/a/s/a$b;",
         "detectedData",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
         "(Landroid/graphics/Bitmap;ILcom/meitu/library/n/a/s/a$b;)V",
         "effectFrame",

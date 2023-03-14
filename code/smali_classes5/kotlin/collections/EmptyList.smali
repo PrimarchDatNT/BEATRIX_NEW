@@ -1,4 +1,4 @@
-.class public final Lkotlin/collections/EmptyList;
+.class public final Lcotlin/collections/EmptyList;
 .super Ljava/lang/Object;
 .source "Collections.kt"
 
@@ -6,11 +6,11 @@
 .implements Ljava/util/List;
 .implements Ljava/io/Serializable;
 .implements Ljava/util/RandomAccess;
-.implements Lkotlin/jvm/internal/x0/a;
+.implements Lcotlin/jvm/internal/x0/a;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,13 +20,13 @@
         "\u0000\\\n\u0002\u0018\u0002\n\u0002\u0010 \n\u0002\u0010\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0007\n\u0002\u0010\u001e\n\u0002\u0008\t\n\u0002\u0010(\n\u0002\u0008\u0002\n\u0002\u0010*\n\u0002\u0008\t\n\u0002\u0010\t\n\u0002\u0008\u0005\u0008\u00c0\u0002\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u00012\u00060\u0003j\u0002`\u00042\u00060\u0005j\u0002`\u0006B\t\u0008\u0002\u00a2\u0006\u0004\u00083\u00104J\u000f\u0010\u0008\u001a\u00020\u0007H\u0002\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\u001a\u0010\u000c\u001a\u00020\u000b2\u0008\u0010\n\u001a\u0004\u0018\u00010\u0007H\u0096\u0002\u00a2\u0006\u0004\u0008\u000c\u0010\rJ\u000f\u0010\u000f\u001a\u00020\u000eH\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J\u000f\u0010\u0012\u001a\u00020\u0011H\u0016\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u000f\u0010\u0014\u001a\u00020\u000bH\u0016\u00a2\u0006\u0004\u0008\u0014\u0010\u0015J\u0018\u0010\u0017\u001a\u00020\u000b2\u0006\u0010\u0016\u001a\u00020\u0002H\u0096\u0002\u00a2\u0006\u0004\u0008\u0017\u0010\u0018J\u001d\u0010\u001b\u001a\u00020\u000b2\u000c\u0010\u001a\u001a\u0008\u0012\u0004\u0012\u00020\u00020\u0019H\u0016\u00a2\u0006\u0004\u0008\u001b\u0010\u001cJ\u0018\u0010\u001e\u001a\u00020\u00022\u0006\u0010\u001d\u001a\u00020\u000eH\u0096\u0002\u00a2\u0006\u0004\u0008\u001e\u0010\u001fJ\u0017\u0010 \u001a\u00020\u000e2\u0006\u0010\u0016\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008 \u0010!J\u0017\u0010\"\u001a\u00020\u000e2\u0006\u0010\u0016\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\"\u0010!J\u0016\u0010$\u001a\u0008\u0012\u0004\u0012\u00020\u00020#H\u0096\u0002\u00a2\u0006\u0004\u0008$\u0010%J\u0015\u0010\'\u001a\u0008\u0012\u0004\u0012\u00020\u00020&H\u0016\u00a2\u0006\u0004\u0008\'\u0010(J\u001d\u0010\'\u001a\u0008\u0012\u0004\u0012\u00020\u00020&2\u0006\u0010\u001d\u001a\u00020\u000eH\u0016\u00a2\u0006\u0004\u0008\'\u0010)J%\u0010,\u001a\u0008\u0012\u0004\u0012\u00020\u00020\u00012\u0006\u0010*\u001a\u00020\u000e2\u0006\u0010+\u001a\u00020\u000eH\u0016\u00a2\u0006\u0004\u0008,\u0010-R\u0016\u0010/\u001a\u00020\u000e8V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008.\u0010\u0010R\u0016\u00101\u001a\u0002008\u0002@\u0002X\u0082T\u00a2\u0006\u0006\n\u0004\u00081\u00102\u00a8\u00065"
     }
     d2 = {
-        "Lkotlin/collections/EmptyList;",
+        "Lcotlin/collections/EmptyList;",
         "",
         "",
         "Ljava/io/Serializable;",
-        "Lkotlin/io/Serializable;",
+        "Lcotlin/io/Serializable;",
         "Ljava/util/RandomAccess;",
-        "Lkotlin/collections/RandomAccess;",
+        "Lcotlin/collections/RandomAccess;",
         "",
         "readResolve",
         "()Ljava/lang/Object;",
@@ -85,7 +85,7 @@
 
 
 # static fields
-.field public static final INSTANCE:Lkotlin/collections/EmptyList;
+.field public static final INSTANCE:Lcotlin/collections/EmptyList;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -98,11 +98,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lkotlin/collections/EmptyList;
+    new-instance v0, Lcotlin/collections/EmptyList;
 
-    invoke-direct {v0}, Lkotlin/collections/EmptyList;-><init>()V
+    invoke-direct {v0}, Lcotlin/collections/EmptyList;-><init>()V
 
-    sput-object v0, Lkotlin/collections/EmptyList;->INSTANCE:Lkotlin/collections/EmptyList;
+    sput-object v0, Lcotlin/collections/EmptyList;->INSTANCE:Lcotlin/collections/EmptyList;
 
     return-void
 .end method
@@ -120,7 +120,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlin/collections/EmptyList;->INSTANCE:Lkotlin/collections/EmptyList;
+    sget-object v0, Lcotlin/collections/EmptyList;->INSTANCE:Lcotlin/collections/EmptyList;
 
     return-object v0
 .end method
@@ -221,7 +221,7 @@
 
     check-cast p1, Ljava/lang/Void;
 
-    invoke-virtual {p0, p1}, Lkotlin/collections/EmptyList;->contains(Ljava/lang/Void;)Z
+    invoke-virtual {p0, p1}, Lcotlin/collections/EmptyList;->contains(Ljava/lang/Void;)Z
 
     move-result p1
 
@@ -242,7 +242,7 @@
 
     const-string v0, "element"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -258,7 +258,7 @@
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
@@ -303,7 +303,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/collections/EmptyList;->get(I)Ljava/lang/Void;
+    invoke-virtual {p0, p1}, Lcotlin/collections/EmptyList;->get(I)Ljava/lang/Void;
 
     move-result-object p1
 
@@ -367,7 +367,7 @@
 
     check-cast p1, Ljava/lang/Void;
 
-    invoke-virtual {p0, p1}, Lkotlin/collections/EmptyList;->indexOf(Ljava/lang/Void;)I
+    invoke-virtual {p0, p1}, Lcotlin/collections/EmptyList;->indexOf(Ljava/lang/Void;)I
 
     move-result p1
 
@@ -388,7 +388,7 @@
 
     const-string v0, "element"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, -0x1
 
@@ -409,7 +409,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/collections/c0;->a:Lkotlin/collections/c0;
+    sget-object v0, Lcotlin/collections/c0;->a:Lcotlin/collections/c0;
 
     return-object v0
 .end method
@@ -424,7 +424,7 @@
 
     check-cast p1, Ljava/lang/Void;
 
-    invoke-virtual {p0, p1}, Lkotlin/collections/EmptyList;->lastIndexOf(Ljava/lang/Void;)I
+    invoke-virtual {p0, p1}, Lcotlin/collections/EmptyList;->lastIndexOf(Ljava/lang/Void;)I
 
     move-result p1
 
@@ -445,7 +445,7 @@
 
     const-string v0, "element"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, -0x1
 
@@ -458,7 +458,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/collections/c0;->a:Lkotlin/collections/c0;
+    sget-object v0, Lcotlin/collections/c0;->a:Lcotlin/collections/c0;
 
     return-object v0
 .end method
@@ -471,7 +471,7 @@
     if-nez p1, :cond_0
 
     .line 2
-    sget-object p1, Lkotlin/collections/c0;->a:Lkotlin/collections/c0;
+    sget-object p1, Lcotlin/collections/c0;->a:Lcotlin/collections/c0;
 
     return-object p1
 
@@ -586,7 +586,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/EmptyList;->getSize()I
+    invoke-virtual {p0}, Lcotlin/collections/EmptyList;->getSize()I
 
     move-result v0
 
@@ -636,7 +636,7 @@
 .method public toArray()[Ljava/lang/Object;
     .locals 1
 
-    invoke-static {p0}, Lkotlin/jvm/internal/t;->a(Ljava/util/Collection;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/jvm/internal/t;->a(Ljava/util/Collection;)[Ljava/lang/Object;
 
     move-result-object v0
 
@@ -653,7 +653,7 @@
         }
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/t;->b(Ljava/util/Collection;[Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/t;->b(Ljava/util/Collection;[Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
 

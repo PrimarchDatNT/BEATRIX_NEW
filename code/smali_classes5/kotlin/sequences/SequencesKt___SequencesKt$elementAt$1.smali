@@ -1,14 +1,14 @@
-.class final Lkotlin/sequences/SequencesKt___SequencesKt$elementAt$1;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlin/sequences/SequencesKt___SequencesKt$elementAt$1;
+.super Lcotlin/jvm/internal/Lambda;
 .source "_Sequences.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/sequences/SequencesKt___SequencesKt;->f0(Lkotlin/sequences/m;I)Ljava/lang/Object;
+    value = Lcotlin/sequences/SequencesKt___SequencesKt;->f0(Lcotlin/sequences/m;I)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,14 +18,14 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Ljava/lang/Integer;",
         "TT;>;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -59,11 +59,11 @@
 .method constructor <init>(I)V
     .locals 0
 
-    iput p1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$elementAt$1;->$index:I
+    iput p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$elementAt$1;->$index:I
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -89,7 +89,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget v1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$elementAt$1;->$index:I
+    iget v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$elementAt$1;->$index:I
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -115,7 +115,7 @@
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Lkotlin/sequences/SequencesKt___SequencesKt$elementAt$1;->invoke(I)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt$elementAt$1;->invoke(I)Ljava/lang/Object;
 
     move-result-object p1
 

@@ -1,14 +1,14 @@
-.class final Lkotlin/text/CharDirectionality$Companion$directionalityMap$2;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlin/text/CharDirectionality$Companion$directionalityMap$2;
+.super Lcotlin/jvm/internal/Lambda;
 .source "CharDirectionality.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/text/CharDirectionality;
+    value = Lcotlin/text/CharDirectionality;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,12 +18,12 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
         "Ljava/util/Map<",
         "Ljava/lang/Integer;",
         "+",
-        "Lkotlin/text/CharDirectionality;",
+        "Lcotlin/text/CharDirectionality;",
         ">;>;"
     }
 .end annotation
@@ -32,7 +32,7 @@
     value = "SMAP\nCharDirectionality.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CharDirectionality.kt\nkotlin/text/CharDirectionality$Companion$directionalityMap$2\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,123:1\n8774#2,2:124\n9034#2,4:126\n*E\n*S KotlinDebug\n*F\n+ 1 CharDirectionality.kt\nkotlin/text/CharDirectionality$Companion$directionalityMap$2\n*L\n118#1,2:124\n118#1,4:126\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -44,7 +44,7 @@
     d2 = {
         "",
         "",
-        "Lkotlin/text/CharDirectionality;",
+        "Lcotlin/text/CharDirectionality;",
         "invoke",
         "()Ljava/util/Map;",
         "<anonymous>"
@@ -59,18 +59,18 @@
 
 
 # static fields
-.field public static final INSTANCE:Lkotlin/text/CharDirectionality$Companion$directionalityMap$2;
+.field public static final INSTANCE:Lcotlin/text/CharDirectionality$Companion$directionalityMap$2;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkotlin/text/CharDirectionality$Companion$directionalityMap$2;
+    new-instance v0, Lcotlin/text/CharDirectionality$Companion$directionalityMap$2;
 
-    invoke-direct {v0}, Lkotlin/text/CharDirectionality$Companion$directionalityMap$2;-><init>()V
+    invoke-direct {v0}, Lcotlin/text/CharDirectionality$Companion$directionalityMap$2;-><init>()V
 
-    sput-object v0, Lkotlin/text/CharDirectionality$Companion$directionalityMap$2;->INSTANCE:Lkotlin/text/CharDirectionality$Companion$directionalityMap$2;
+    sput-object v0, Lcotlin/text/CharDirectionality$Companion$directionalityMap$2;->INSTANCE:Lcotlin/text/CharDirectionality$Companion$directionalityMap$2;
 
     return-void
 .end method
@@ -80,7 +80,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, v0}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -91,7 +91,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/text/CharDirectionality$Companion$directionalityMap$2;->invoke()Ljava/util/Map;
+    invoke-virtual {p0}, Lcotlin/text/CharDirectionality$Companion$directionalityMap$2;->invoke()Ljava/util/Map;
 
     move-result-object v0
 
@@ -105,7 +105,7 @@
             "()",
             "Ljava/util/Map<",
             "Ljava/lang/Integer;",
-            "Lkotlin/text/CharDirectionality;",
+            "Lcotlin/text/CharDirectionality;",
             ">;"
         }
     .end annotation
@@ -114,20 +114,20 @@
     .end annotation
 
     .line 2
-    invoke-static {}, Lkotlin/text/CharDirectionality;->values()[Lkotlin/text/CharDirectionality;
+    invoke-static {}, Lcotlin/text/CharDirectionality;->values()[Lcotlin/text/CharDirectionality;
 
     move-result-object v0
 
     .line 3
     array-length v1, v0
 
-    invoke-static {v1}, Lkotlin/collections/q0;->j(I)I
+    invoke-static {v1}, Lcotlin/collections/q0;->j(I)I
 
     move-result v1
 
     const/16 v2, 0x10
 
-    invoke-static {v1, v2}, Lkotlin/g2/o;->n(II)I
+    invoke-static {v1, v2}, Lcotlin/g2/o;->n(II)I
 
     move-result v1
 
@@ -147,7 +147,7 @@
     aget-object v4, v0, v3
 
     .line 6
-    invoke-virtual {v4}, Lkotlin/text/CharDirectionality;->getValue()I
+    invoke-virtual {v4}, Lcotlin/text/CharDirectionality;->getValue()I
 
     move-result v5
 

@@ -1,9 +1,9 @@
-.class public final Lkotlin/c0;
-.super Lkotlin/g0;
+.class public final Lcotlin/c0;
+.super Lcotlin/g0;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/g0;-><init>()V
+    invoke-direct {p0}, Lcotlin/g0;-><init>()V
 
     return-void
 .end method

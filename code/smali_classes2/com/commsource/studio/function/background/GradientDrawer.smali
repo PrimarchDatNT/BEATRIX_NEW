@@ -8,7 +8,7 @@
     value = "SMAP\nGradientDrawer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GradientDrawer.kt\ncom/commsource/studio/function/background/GradientDrawer\n*L\n1#1,81:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "",
         "Landroid/graphics/Canvas;",
         "canvas",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "m",
         "(Landroid/graphics/Canvas;)V",
         "Lcom/commsource/studio/function/background/BackgroundType;",
@@ -36,7 +36,7 @@
         "(II)V",
         "Landroid/graphics/Paint;",
         "d",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "k",
         "()Landroid/graphics/Paint;",
         "strokePaint",
@@ -100,17 +100,17 @@
 
 .field private b:I
 
-.field private final c:Lkotlin/w;
+.field private final c:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final e:Lkotlin/w;
+.field private final e:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -150,7 +150,7 @@
 
     const-string v0, "parent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -160,29 +160,29 @@
     .line 2
     sget-object p1, Lcom/commsource/studio/function/background/GradientDrawer$backgroundPaint$2;->INSTANCE:Lcom/commsource/studio/function/background/GradientDrawer$backgroundPaint$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->c:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->c:Lcotlin/w;
 
     .line 3
     sget-object p1, Lcom/commsource/studio/function/background/GradientDrawer$strokePaint$2;->INSTANCE:Lcom/commsource/studio/function/background/GradientDrawer$strokePaint$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->d:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->d:Lcotlin/w;
 
     .line 4
     sget-object p1, Lcom/commsource/studio/function/background/GradientDrawer$selectPaint$2;->INSTANCE:Lcom/commsource/studio/function/background/GradientDrawer$selectPaint$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->e:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->e:Lcotlin/w;
 
     .line 5
     new-instance p1, Landroid/graphics/Path;
@@ -242,9 +242,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->c:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->c:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -360,9 +360,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->e:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->e:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -399,9 +399,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -440,7 +440,7 @@
 
     const-string v1, "canvas"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->g:Lcom/commsource/studio/function/background/BackgroundType;
@@ -769,7 +769,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/GradientDrawer;->h:Lcom/commsource/studio/function/background/c;

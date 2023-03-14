@@ -21,7 +21,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,7 +36,7 @@
         "Lcom/commsource/camera/newrender/renderproxy/m;",
         "Lcom/commsource/easyeditor/utils/opengl/f;",
         "disFBO",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "s",
         "(Lcom/commsource/easyeditor/utils/opengl/f;)V",
         "app_googleplayRelease"
@@ -88,7 +88,7 @@
 
     const-string v1, "disFBO"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;

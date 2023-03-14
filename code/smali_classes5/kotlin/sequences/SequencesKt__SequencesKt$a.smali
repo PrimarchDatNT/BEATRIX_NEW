@@ -1,14 +1,14 @@
-.class public final Lkotlin/sequences/SequencesKt__SequencesKt$a;
+.class public final Lcotlin/sequences/SequencesKt__SequencesKt$a;
 .super Ljava/lang/Object;
 .source "Sequences.kt"
 
 # interfaces
-.implements Lkotlin/sequences/m;
+.implements Lcotlin/sequences/m;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/sequences/SequencesKt__SequencesKt;->g(Lkotlin/jvm/u/a;)Lkotlin/sequences/m;
+    value = Lcotlin/sequences/SequencesKt__SequencesKt;->g(Lcotlin/jvm/u/a;)Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/sequences/m<",
+        "Lcotlin/sequences/m<",
         "TT;>;"
     }
 .end annotation
@@ -28,7 +28,7 @@
     value = "SMAP\nSequences.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Sequences.kt\nkotlin/sequences/SequencesKt__SequencesKt$Sequence$1\n*L\n1#1,680:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
     }
     d2 = {
         "kotlin/sequences/SequencesKt__SequencesKt$a",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "",
         "iterator",
         "()Ljava/util/Iterator;",
@@ -55,15 +55,15 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/jvm/u/a;
+.field final synthetic a:Lcotlin/jvm/u/a;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/u/a;)V
+.method public constructor <init>(Lcotlin/jvm/u/a;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lkotlin/sequences/SequencesKt__SequencesKt$a;->a:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcotlin/sequences/SequencesKt__SequencesKt$a;->a:Lcotlin/jvm/u/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -86,9 +86,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/sequences/SequencesKt__SequencesKt$a;->a:Lkotlin/jvm/u/a;
+    iget-object v0, p0, Lcotlin/sequences/SequencesKt__SequencesKt$a;->a:Lcotlin/jvm/u/a;
 
-    invoke-interface {v0}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v0
 

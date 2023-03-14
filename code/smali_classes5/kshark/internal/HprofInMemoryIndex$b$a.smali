@@ -20,7 +20,7 @@
     value = "SMAP\nOnHprofRecordListener.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnHprofRecordListener.kt\nkshark/OnHprofRecordListener$Companion$invoke$1\n+ 2 HprofInMemoryIndex.kt\nkshark/internal/HprofInMemoryIndex$Companion\n*L\n1#1,40:1\n383#2,7:41\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,7 +36,7 @@
         "position",
         "Lkshark/m;",
         "record",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(JLkshark/m;)V",
         "shark",
@@ -52,26 +52,26 @@
 
 
 # instance fields
-.field final synthetic b:Lkotlin/jvm/internal/Ref$IntRef;
+.field final synthetic b:Lcotlin/jvm/internal/Ref$IntRef;
 
-.field final synthetic c:Lkotlin/jvm/internal/Ref$IntRef;
+.field final synthetic c:Lcotlin/jvm/internal/Ref$IntRef;
 
-.field final synthetic d:Lkotlin/jvm/internal/Ref$IntRef;
+.field final synthetic d:Lcotlin/jvm/internal/Ref$IntRef;
 
-.field final synthetic e:Lkotlin/jvm/internal/Ref$IntRef;
+.field final synthetic e:Lcotlin/jvm/internal/Ref$IntRef;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/internal/Ref$IntRef;Lkotlin/jvm/internal/Ref$IntRef;Lkotlin/jvm/internal/Ref$IntRef;Lkotlin/jvm/internal/Ref$IntRef;)V
+.method public constructor <init>(Lcotlin/jvm/internal/Ref$IntRef;Lcotlin/jvm/internal/Ref$IntRef;Lcotlin/jvm/internal/Ref$IntRef;Lcotlin/jvm/internal/Ref$IntRef;)V
     .locals 0
 
-    iput-object p1, p0, Lkshark/internal/HprofInMemoryIndex$b$a;->b:Lkotlin/jvm/internal/Ref$IntRef;
+    iput-object p1, p0, Lkshark/internal/HprofInMemoryIndex$b$a;->b:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iput-object p2, p0, Lkshark/internal/HprofInMemoryIndex$b$a;->c:Lkotlin/jvm/internal/Ref$IntRef;
+    iput-object p2, p0, Lkshark/internal/HprofInMemoryIndex$b$a;->c:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iput-object p3, p0, Lkshark/internal/HprofInMemoryIndex$b$a;->d:Lkotlin/jvm/internal/Ref$IntRef;
+    iput-object p3, p0, Lkshark/internal/HprofInMemoryIndex$b$a;->d:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iput-object p4, p0, Lkshark/internal/HprofInMemoryIndex$b$a;->e:Lkotlin/jvm/internal/Ref$IntRef;
+    iput-object p4, p0, Lkshark/internal/HprofInMemoryIndex$b$a;->e:Lcotlin/jvm/internal/Ref$IntRef;
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -90,20 +90,20 @@
 
     const-string p1, "record"
 
-    invoke-static {p3, p1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     instance-of p1, p3, Lkshark/m$c;
 
     if-eqz p1, :cond_0
 
-    iget-object p1, p0, Lkshark/internal/HprofInMemoryIndex$b$a;->b:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object p1, p0, Lkshark/internal/HprofInMemoryIndex$b$a;->b:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget p2, p1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget p2, p1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     add-int/lit8 p2, p2, 0x1
 
-    iput p2, p1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput p2, p1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     goto :goto_0
 
@@ -113,13 +113,13 @@
 
     if-eqz p1, :cond_1
 
-    iget-object p1, p0, Lkshark/internal/HprofInMemoryIndex$b$a;->c:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object p1, p0, Lkshark/internal/HprofInMemoryIndex$b$a;->c:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget p2, p1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget p2, p1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     add-int/lit8 p2, p2, 0x1
 
-    iput p2, p1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput p2, p1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     goto :goto_0
 
@@ -129,13 +129,13 @@
 
     if-eqz p1, :cond_2
 
-    iget-object p1, p0, Lkshark/internal/HprofInMemoryIndex$b$a;->d:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object p1, p0, Lkshark/internal/HprofInMemoryIndex$b$a;->d:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget p2, p1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget p2, p1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     add-int/lit8 p2, p2, 0x1
 
-    iput p2, p1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput p2, p1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     goto :goto_0
 
@@ -145,13 +145,13 @@
 
     if-eqz p1, :cond_3
 
-    iget-object p1, p0, Lkshark/internal/HprofInMemoryIndex$b$a;->e:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object p1, p0, Lkshark/internal/HprofInMemoryIndex$b$a;->e:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget p2, p1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget p2, p1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     add-int/lit8 p2, p2, 0x1
 
-    iput p2, p1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput p2, p1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     :cond_3
     :goto_0

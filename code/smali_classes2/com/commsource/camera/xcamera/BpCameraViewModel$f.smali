@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/commsource/camera/xcamera/BpCameraViewModel;->u1(Lcom/meitu/template/bean/k;Lkotlin/jvm/u/a;)V
+    value = Lcom/commsource/camera/xcamera/BpCameraViewModel;->u1(Lcom/meitu/template/bean/k;Lcotlin/jvm/u/a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
     d2 = {
         "com/commsource/camera/xcamera/BpCameraViewModel$f",
         "Lcom/commsource/camera/newrender/renderproxy/m$c;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "",
@@ -51,17 +51,17 @@
 
 .field final synthetic b:Lcom/meitu/template/bean/k;
 
-.field final synthetic c:Lkotlin/jvm/u/a;
+.field final synthetic c:Lcotlin/jvm/u/a;
 
 
 # direct methods
-.method constructor <init>(Lcom/commsource/camera/xcamera/BpCameraViewModel;Lcom/meitu/template/bean/k;Lkotlin/jvm/u/a;)V
+.method constructor <init>(Lcom/commsource/camera/xcamera/BpCameraViewModel;Lcom/meitu/template/bean/k;Lcotlin/jvm/u/a;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/meitu/template/bean/k;",
-            "Lkotlin/jvm/u/a;",
+            "Lcotlin/jvm/u/a;",
             ")V"
         }
     .end annotation
@@ -71,7 +71,7 @@
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$f;->b:Lcom/meitu/template/bean/k;
 
-    iput-object p3, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$f;->c:Lkotlin/jvm/u/a;
+    iput-object p3, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$f;->c:Lcotlin/jvm/u/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

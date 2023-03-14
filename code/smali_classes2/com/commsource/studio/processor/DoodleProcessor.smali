@@ -11,7 +11,7 @@
     value = "SMAP\nDoodleProcessor.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DoodleProcessor.kt\ncom/commsource/studio/processor/DoodleProcessor\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,479:1\n1819#2,2:480\n*E\n*S KotlinDebug\n*F\n+ 1 DoodleProcessor.kt\ncom/commsource/studio/processor/DoodleProcessor\n*L\n298#1,2:480\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
         "penSize",
         "v0",
         "(F)F",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d0",
         "()V",
         "Lcom/meitu/core/magicpen/NativeGLMagicPen;",
@@ -80,19 +80,19 @@
         "()Z",
         "b",
         "clear",
-        "Lkotlin/Function2;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function2;",
+        "Lcotlin/k0;",
         "name",
         "bitmap",
         "",
         "rect",
         "callback",
         "o0",
-        "(Lkotlin/jvm/u/p;)V",
+        "(Lcotlin/jvm/u/p;)V",
         "g0",
         "()Landroid/graphics/Bitmap;",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "N",
         "Ljava/util/ArrayList;",
         "redoStack",
@@ -332,7 +332,7 @@
 
     const-string v1, "doodleViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -354,7 +354,7 @@
 
     const-string v1, "magicPen"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -599,7 +599,7 @@
 
     const-string v2, "doodleViewModel"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/h;->E()Landroidx/lifecycle/MutableLiveData;
@@ -693,7 +693,7 @@
 
     const-string v8, "getContext()"
 
-    invoke-static {v7, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v7}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
@@ -808,7 +808,7 @@
     const-string v7, "singleTexturePath"
 
     .line 14
-    invoke-static {v13, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v13, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v9, 0x0
 
@@ -822,7 +822,7 @@
 
     move-object v7, v13
 
-    invoke-static/range {v7 .. v12}, Lkotlin/text/m;->n3(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
+    invoke-static/range {v7 .. v12}, Lcotlin/text/m;->n3(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
 
     move-result v7
 
@@ -841,7 +841,7 @@
     move-object v7, v13
 
     .line 15
-    invoke-static/range {v7 .. v12}, Lkotlin/text/m;->A3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
+    invoke-static/range {v7 .. v12}, Lcotlin/text/m;->A3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
 
     move-result v5
 
@@ -854,7 +854,7 @@
 
     const-string v7, "(this as java.lang.String).substring(startIndex)"
 
-    invoke-static {v5, v7}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 17
     new-instance v7, Ljava/lang/StringBuilder;
@@ -1050,7 +1050,7 @@
     const-string v3, "singleTexturePath"
 
     .line 12
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v5, 0x0
 
@@ -1064,7 +1064,7 @@
 
     move-object v3, v1
 
-    invoke-static/range {v3 .. v8}, Lkotlin/text/m;->n3(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
+    invoke-static/range {v3 .. v8}, Lcotlin/text/m;->n3(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
 
     move-result v3
 
@@ -1085,7 +1085,7 @@
     move-object v3, v1
 
     .line 13
-    invoke-static/range {v3 .. v8}, Lkotlin/text/m;->A3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
+    invoke-static/range {v3 .. v8}, Lcotlin/text/m;->A3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
 
     move-result v3
 
@@ -1098,7 +1098,7 @@
 
     const-string v3, "(this as java.lang.String).substring(startIndex)"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 15
     new-instance v3, Ljava/lang/StringBuilder;
@@ -1272,7 +1272,7 @@
 
     const-string v1, "fragment"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
@@ -1291,7 +1291,7 @@
 
     const-string v2, "ViewModelProvider(fragme\u2026dleViewModel::class.java)"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v1, Lcom/commsource/studio/doodle/h;
 
@@ -1314,7 +1314,7 @@
 
     const-string v2, "ViewModelProvider(fragme\u2026edoViewModel::class.java)"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v1, Lcom/commsource/studio/component/UndoRedoComponent$c;
 
@@ -1368,7 +1368,7 @@
     const-string v2, "magicPen"
 
     .line 3
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -1388,7 +1388,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v1, p0}, Lcom/commsource/studio/component/UndoRedoComponent$c;->F(Lcom/commsource/studio/v;)V
@@ -1398,7 +1398,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     const/4 v2, 0x3
@@ -1433,7 +1433,7 @@
 
     const-string v1, "doodleWrapper"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->Y:Z
@@ -1644,7 +1644,7 @@
 
     if-nez v9, :cond_7
 
-    invoke-static {v10}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v10}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_7
     invoke-direct {p0, v9, v2, v4, v1}, Lcom/commsource/studio/processor/DoodleProcessor;->r0(Lcom/meitu/core/magicpen/NativeGLMagicPen;Ljava/lang/String;ZLjava/lang/String;)V
@@ -1762,7 +1762,7 @@
 
     if-nez v2, :cond_9
 
-    invoke-static {v10}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v10}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_9
     invoke-direct {p0, v2, p1, v4, v1}, Lcom/commsource/studio/processor/DoodleProcessor;->q0(Lcom/meitu/core/magicpen/NativeGLMagicPen;Ljava/lang/String;ZLjava/lang/String;)V
@@ -1775,7 +1775,7 @@
 
     if-nez p1, :cond_b
 
-    invoke-static {v10}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v10}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_b
     invoke-direct {p0, p1, v5, v3, v1}, Lcom/commsource/studio/processor/DoodleProcessor;->q0(Lcom/meitu/core/magicpen/NativeGLMagicPen;Ljava/lang/String;ZLjava/lang/String;)V
@@ -1801,7 +1801,7 @@
 
     const-string v2, "magicPen"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->CanUndo()Z
@@ -1832,7 +1832,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     const/4 v4, 0x1
@@ -1846,7 +1846,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     const/4 v3, 0x0
@@ -1881,7 +1881,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->GLRelease()Z
@@ -1891,7 +1891,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v2}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->Release()Z
@@ -1913,7 +1913,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     const/4 v4, 0x0
@@ -1925,7 +1925,7 @@
 
     if-nez v2, :cond_3
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     const/4 v3, 0x3
@@ -1959,7 +1959,7 @@
 
     const-string v2, "magicPen"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {p1}, Landroid/graphics/Color;->red(I)I
@@ -1998,7 +1998,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->Release()Z
@@ -2008,7 +2008,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->GLRelease()Z
@@ -2078,7 +2078,7 @@
 
     const-string v2, "TextureHelper.loadBitmapFromFbo(disFBOEntity)"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2099,7 +2099,7 @@
 
     const-string v2, "magicPen"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->CanRedo()Z
@@ -2127,7 +2127,7 @@
 
     const-string v2, "undoRedoViewModel"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2147,7 +2147,7 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/processor/DoodleProcessor$redo$1;-><init>(Lcom/commsource/studio/processor/DoodleProcessor;)V
 
-    invoke-virtual {p0, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p0, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
     const/4 v1, 0x0
 
@@ -2156,7 +2156,7 @@
     const/4 v3, 0x3
 
     .line 2
-    invoke-static {p0, v1, v2, v3, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p0, v1, v2, v3, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2233,7 +2233,7 @@
     .line 2
     iget-object v2, p0, Lcom/commsource/studio/processor/DoodleProcessor;->M:Ljava/util/ArrayList;
 
-    invoke-static {v2}, Lkotlin/collections/s;->N1(Ljava/lang/Iterable;)Ljava/util/List;
+    invoke-static {v2}, Lcotlin/collections/s;->N1(Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object v2
 
@@ -2282,7 +2282,7 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/processor/DoodleProcessor$undo$1;-><init>(Lcom/commsource/studio/processor/DoodleProcessor;)V
 
-    invoke-virtual {p0, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p0, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
     const/4 v1, 0x0
 
@@ -2291,7 +2291,7 @@
     const/4 v3, 0x3
 
     .line 2
-    invoke-static {p0, v1, v2, v3, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p0, v1, v2, v3, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2312,7 +2312,7 @@
 
     const-string v1, "background"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
@@ -2321,7 +2321,7 @@
 
     const-string v2, "magicPen"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->backGroundInit(Landroid/graphics/Bitmap;)Z
@@ -2441,20 +2441,20 @@
     return v1
 .end method
 
-.method public final o0(Lkotlin/jvm/u/p;)V
+.method public final o0(Lcotlin/jvm/u/p;)V
     .locals 7
-    .param p1    # Lkotlin/jvm/u/p;
+    .param p1    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Landroid/graphics/Bitmap;",
             "-[F",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -2465,7 +2465,7 @@
 
     const-string v1, "callback"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
@@ -2474,7 +2474,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->resultIsFixedEffect()Z
@@ -2494,7 +2494,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->RenderForSave2Bitmap()Landroid/graphics/Bitmap;
@@ -2532,7 +2532,7 @@
     aput v3, v2, v5
 
     .line 5
-    invoke-interface {p1, v1, v2}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1, v2}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
@@ -2542,7 +2542,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->RenderForSave2Rect()[F
@@ -2575,7 +2575,7 @@
 
     if-nez v3, :cond_4
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {v3, v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->RenderForSave2RectBitmap([F)Landroid/graphics/Bitmap;
@@ -2583,7 +2583,7 @@
     move-result-object v2
 
     .line 9
-    invoke-interface {p1, v2, v1}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v1}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
@@ -2591,7 +2591,7 @@
     const/4 v1, 0x0
 
     .line 10
-    invoke-interface {p1, v1, v1}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1, v1}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     :goto_0
@@ -2628,7 +2628,7 @@
 
     const-string v1, "disFBO"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->j()Z
@@ -2666,7 +2666,7 @@
 
     const-string v1, "magicPen"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
@@ -2755,7 +2755,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->T:Lcom/commsource/studio/component/UndoRedoComponent$c;

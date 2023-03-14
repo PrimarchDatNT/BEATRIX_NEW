@@ -15,7 +15,7 @@
     value = "SMAP\nDownloadTask.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DownloadTask.kt\ncom/commsource/material/DownloadTask\n*L\n1#1,114:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
     d2 = {
         "Lcom/commsource/material/DownloadTask;",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "q",
         "()V",
         "r",
@@ -62,7 +62,7 @@
         "isDownloading",
         "Lf/k/k/f;",
         "b",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "j",
         "()Lf/k/k/f;",
         "httpRequest",
@@ -98,7 +98,7 @@
     .end annotation
 .end field
 
-.field private final b:Lkotlin/w;
+.field private final b:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -130,7 +130,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/material/DownloadTask$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/material/DownloadTask$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/material/DownloadTask;->j:Lcom/commsource/material/DownloadTask$a;
 
@@ -152,11 +152,11 @@
 
     const-string v0, "downloadUrl"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "targetPath"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -170,11 +170,11 @@
 
     invoke-direct {p1, p0}, Lcom/commsource/material/DownloadTask$httpRequest$2;-><init>(Lcom/commsource/material/DownloadTask;)V
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/material/DownloadTask;->b:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/material/DownloadTask;->b:Lcotlin/w;
 
     const/4 p1, -0x1
 
@@ -273,9 +273,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/material/DownloadTask;->b:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/material/DownloadTask;->b:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 

@@ -1,14 +1,14 @@
-.class public final Lkotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;
+.class public final Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;
 .super Ljava/lang/Object;
 .source "Collect.kt"
 
 # interfaces
-.implements Lkotlinx/coroutines/flow/e;
+.implements Lcotlinx/coroutines/flow/e;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/FlowKt__CollectKt;->d(Lkotlinx/coroutines/flow/d;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/flow/FlowKt__CollectKt;->d(Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlinx/coroutines/flow/e<",
+        "Lcotlinx/coroutines/flow/e<",
         "TT;>;"
     }
 .end annotation
@@ -28,7 +28,7 @@
     value = "SMAP\nCollect.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Collect.kt\nkotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2\n+ 2 FlowExceptions.common.kt\nkotlinx/coroutines/flow/internal/FlowExceptions_commonKt\n*L\n1#1,136:1\n32#2,4:137\n*E\n*S KotlinDebug\n*F\n+ 1 Collect.kt\nkotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2\n*L\n87#1,4:137\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,11 +39,11 @@
     }
     d2 = {
         "kotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2",
-        "Lkotlinx/coroutines/flow/e;",
+        "Lcotlinx/coroutines/flow/e;",
         "value",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "emit",
-        "(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "",
         "a",
         "I",
@@ -62,15 +62,15 @@
 # instance fields
 .field private a:I
 
-.field final synthetic b:Lkotlin/jvm/u/q;
+.field final synthetic b:Lcotlin/jvm/u/q;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/u/q;)V
+.method public constructor <init>(Lcotlin/jvm/u/q;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->b:Lkotlin/jvm/u/q;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->b:Lcotlin/jvm/u/q;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -79,9 +79,9 @@
 
 
 # virtual methods
-.method public a(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public a(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 3
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -90,24 +90,24 @@
 
     const/4 v0, 0x4
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->e(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    new-instance v0, Lkotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2$emit$1;
+    new-instance v0, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2$emit$1;
 
-    invoke-direct {v0, p0, p2}, Lkotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2$emit$1;-><init>(Lkotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p0, p2}, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2$emit$1;-><init>(Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;Lcotlin/coroutines/c;)V
 
     const/4 v0, 0x5
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->e(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->b:Lkotlin/jvm/u/q;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->b:Lcotlin/jvm/u/q;
 
-    iget v1, p0, Lkotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->a:I
+    iget v1, p0, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->a:I
 
     add-int/lit8 v2, v1, 0x1
 
-    iput v2, p0, Lkotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->a:I
+    iput v2, p0, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->a:I
 
     if-ltz v1, :cond_0
 
@@ -117,7 +117,7 @@
     move-result-object v1
 
     .line 3
-    invoke-interface {v0, v1, p1, p2}, Lkotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1, p1, p2}, Lcotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -134,18 +134,18 @@
     throw p1
 .end method
 
-.method public emit(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 3
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Ljava/lang/Object;"
         }
@@ -155,23 +155,23 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->b:Lkotlin/jvm/u/q;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->b:Lcotlin/jvm/u/q;
 
-    iget v1, p0, Lkotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->a:I
+    iget v1, p0, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->a:I
 
     add-int/lit8 v2, v1, 0x1
 
-    iput v2, p0, Lkotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->a:I
+    iput v2, p0, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;->a:I
 
     if-ltz v1, :cond_0
 
     .line 2
-    invoke-static {v1}, Lkotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
+    invoke-static {v1}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
 
     move-result-object v1
 
     .line 3
-    invoke-interface {v0, v1, p1, p2}, Lkotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1, p1, p2}, Lcotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

@@ -1,11 +1,11 @@
-.class final Lkotlin/coroutines/h$a;
+.class final Lcotlin/coroutines/h$a;
 .super Ljava/lang/Object;
 .source "SafeContinuationJvm.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/coroutines/h;
+    value = Lcotlin/coroutines/h;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "kotlin/coroutines/h$a",
         "",
         "Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;",
-        "Lkotlin/coroutines/h;",
+        "Lcotlin/coroutines/h;",
         "kotlin.jvm.PlatformType",
         "RESULT",
         "Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;",
@@ -54,11 +54,11 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/coroutines/h$a;-><init>()V
+    invoke-direct {p0}, Lcotlin/coroutines/h$a;-><init>()V
 
     return-void
 .end method

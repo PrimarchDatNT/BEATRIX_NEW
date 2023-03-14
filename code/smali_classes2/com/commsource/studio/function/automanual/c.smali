@@ -8,7 +8,7 @@
     value = "SMAP\nGLManualProcessorModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GLManualProcessorModel.kt\ncom/commsource/studio/function/automanual/GLManualProcessorModel\n*L\n1#1,81:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
         "()Lcom/commsource/studio/e;",
         "Lcom/commsource/easyeditor/utils/opengl/f;",
         "fboEntity",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(Lcom/commsource/easyeditor/utils/opengl/f;)V",
         "autoManualState",
@@ -84,7 +84,7 @@
 
     const-string v0, "glPaintProcessor"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/automanual/d;-><init>(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
@@ -96,7 +96,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/commsource/studio/processor/f;Lcom/commsource/studio/layer/PaintMaskLayer;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcom/commsource/studio/processor/f;Lcom/commsource/studio/layer/PaintMaskLayer;ILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p3, p3, 0x2
@@ -242,7 +242,7 @@
 
     const/4 v6, 0x0
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lcom/commsource/studio/g;-><init>(Landroid/graphics/Bitmap;ZILkotlin/jvm/internal/u;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lcom/commsource/studio/g;-><init>(Landroid/graphics/Bitmap;ZILcotlin/jvm/internal/u;)V
 
     invoke-virtual {v0, v2}, Lcom/commsource/studio/e;->r(Lcom/commsource/studio/g;)V
 
@@ -261,7 +261,7 @@
 
     move-result-object v1
 
-    invoke-direct {v2, v1, v4, v5, v6}, Lcom/commsource/studio/g;-><init>(Landroid/graphics/Bitmap;ZILkotlin/jvm/internal/u;)V
+    invoke-direct {v2, v1, v4, v5, v6}, Lcom/commsource/studio/g;-><init>(Landroid/graphics/Bitmap;ZILcotlin/jvm/internal/u;)V
 
     invoke-virtual {v0, v2}, Lcom/commsource/studio/e;->p(Lcom/commsource/studio/g;)V
 
@@ -298,7 +298,7 @@
 
     const-string v0, "fboEntity"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/function/automanual/d;->e(Lcom/commsource/easyeditor/utils/opengl/f;)V
@@ -324,7 +324,7 @@
 
     const-string v0, "autoManualState"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/e;->i()Z

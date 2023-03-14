@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/internal/w;
+.class public final Lcotlinx/coroutines/internal/w;
 .super Ljava/lang/Object;
 .source "ProbesSupport.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,10 +15,10 @@
     }
     d2 = {
         "T",
-        "Lkotlin/coroutines/c;",
+        "Lcotlin/coroutines/c;",
         "completion",
         "a",
-        "(Lkotlin/coroutines/c;)Lkotlin/coroutines/c;",
+        "(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;",
         "kotlinx-coroutines-core"
     }
     k = 0x2
@@ -31,9 +31,9 @@
 
 
 # direct methods
-.method public static final a(Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+.method public static final a(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 0
-    .param p0    # Lkotlin/coroutines/c;
+    .param p0    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -42,9 +42,9 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TT;>;)",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "TT;>;"
         }
     .end annotation
@@ -53,7 +53,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lkotlin/coroutines/jvm/internal/f;->a(Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-static {p0}, Lcotlin/coroutines/jvm/internal/f;->a(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p0
 

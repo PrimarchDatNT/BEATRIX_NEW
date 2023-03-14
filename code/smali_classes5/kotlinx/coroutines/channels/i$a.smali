@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/channels/i$a;
+.class public final Lcotlinx/coroutines/channels/i$a;
 .super Ljava/lang/Object;
 .source "BroadcastChannel.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/channels/i;
+    value = Lcotlinx/coroutines/channels/i;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
 
 
 # direct methods
-.method public static synthetic a(Lkotlinx/coroutines/channels/i;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
+.method public static synthetic a(Lcotlinx/coroutines/channels/i;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
     .locals 0
 
     if-nez p3, :cond_1
@@ -44,7 +44,7 @@
 
     .line 1
     :cond_0
-    invoke-interface {p0, p1}, Lkotlinx/coroutines/channels/i;->d(Ljava/util/concurrent/CancellationException;)V
+    invoke-interface {p0, p1}, Lcotlinx/coroutines/channels/i;->d(Ljava/util/concurrent/CancellationException;)V
 
     return-void
 
@@ -59,7 +59,7 @@
     throw p0
 .end method
 
-.method public static synthetic b(Lkotlinx/coroutines/channels/i;Ljava/lang/Throwable;ILjava/lang/Object;)Z
+.method public static synthetic b(Lcotlinx/coroutines/channels/i;Ljava/lang/Throwable;ILjava/lang/Object;)Z
     .locals 0
 
     if-nez p3, :cond_1
@@ -72,7 +72,7 @@
 
     .line 1
     :cond_0
-    invoke-interface {p0, p1}, Lkotlinx/coroutines/channels/i;->a(Ljava/lang/Throwable;)Z
+    invoke-interface {p0, p1}, Lcotlinx/coroutines/channels/i;->a(Ljava/lang/Throwable;)Z
 
     move-result p0
 

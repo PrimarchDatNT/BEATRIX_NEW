@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0010\u0004\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002\u00a8\u0006\u0003"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "com/commsource/camera/xcamera/BpCameraViewModel$$special$$inlined$let$lambda$1",
@@ -46,7 +46,7 @@
 
 .field final synthetic b:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
-.field final synthetic c:Lkotlin/jvm/internal/Ref$ObjectRef;
+.field final synthetic c:Lcotlin/jvm/internal/Ref$ObjectRef;
 
 .field final synthetic d:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
@@ -56,14 +56,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;Lkotlin/jvm/internal/Ref$ObjectRef;Lcom/commsource/camera/xcamera/BpCameraViewModel;ILcom/commsource/repository/child/makeup/h;)V
+.method constructor <init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;Lcotlin/jvm/internal/Ref$ObjectRef;Lcom/commsource/camera/xcamera/BpCameraViewModel;ILcom/commsource/repository/child/makeup/h;)V
     .locals 0
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$h;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$h;->b:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
-    iput-object p3, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$h;->c:Lkotlin/jvm/internal/Ref$ObjectRef;
+    iput-object p3, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$h;->c:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iput-object p4, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$h;->d:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
@@ -122,15 +122,15 @@
 
     move-result v7
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$h;->c:Lkotlin/jvm/internal/Ref$ObjectRef;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$h;->c:Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iget-object v1, v1, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iget-object v1, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     check-cast v1, Ljava/lang/Integer;
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I

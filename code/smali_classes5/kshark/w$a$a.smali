@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkshark/w$a;->a(Lkotlin/jvm/u/p;)Lkshark/w;
+    value = Lkshark/w$a;->a(Lcotlin/jvm/u/p;)Lkshark/w;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
     value = "SMAP\nOnHprofRecordListener.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnHprofRecordListener.kt\nkshark/OnHprofRecordListener$Companion$invoke$1\n*L\n1#1,40:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,7 +36,7 @@
         "position",
         "Lkshark/m;",
         "record",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(JLkshark/m;)V",
         "shark"
@@ -51,15 +51,15 @@
 
 
 # instance fields
-.field final synthetic b:Lkotlin/jvm/u/p;
+.field final synthetic b:Lcotlin/jvm/u/p;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/u/p;)V
+.method public constructor <init>(Lcotlin/jvm/u/p;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lkshark/w$a$a;->b:Lkotlin/jvm/u/p;
+    iput-object p1, p0, Lkshark/w$a$a;->b:Lcotlin/jvm/u/p;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -77,16 +77,16 @@
 
     const-string v0, "record"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Lkshark/w$a$a;->b:Lkotlin/jvm/u/p;
+    iget-object v0, p0, Lkshark/w$a$a;->b:Lcotlin/jvm/u/p;
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
-    invoke-interface {v0, p1, p3}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p3}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method

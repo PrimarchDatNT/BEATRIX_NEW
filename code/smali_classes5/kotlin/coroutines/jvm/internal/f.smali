@@ -1,10 +1,10 @@
-.class public final Lkotlin/coroutines/jvm/internal/f;
+.class public final Lcotlin/coroutines/jvm/internal/f;
 .super Ljava/lang/Object;
 .source "DebugProbes.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,14 +15,14 @@
     }
     d2 = {
         "T",
-        "Lkotlin/coroutines/c;",
+        "Lcotlin/coroutines/c;",
         "completion",
         "a",
-        "(Lkotlin/coroutines/c;)Lkotlin/coroutines/c;",
+        "(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;",
         "frame",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "b",
-        "(Lkotlin/coroutines/c;)V",
+        "(Lcotlin/coroutines/c;)V",
         "c",
         "kotlin-stdlib"
     }
@@ -36,9 +36,9 @@
 
 
 # direct methods
-.method public static final a(Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+.method public static final a(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 1
-    .param p0    # Lkotlin/coroutines/c;
+    .param p0    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -47,14 +47,14 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TT;>;)",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "TT;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -63,57 +63,57 @@
 
     const-string v0, "completion"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
-.method public static final b(Lkotlin/coroutines/c;)V
+.method public static final b(Lcotlin/coroutines/c;)V
     .locals 1
-    .param p0    # Lkotlin/coroutines/c;
+    .param p0    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "*>;)V"
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     const-string v0, "frame"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public static final c(Lkotlin/coroutines/c;)V
+.method public static final c(Lcotlin/coroutines/c;)V
     .locals 1
-    .param p0    # Lkotlin/coroutines/c;
+    .param p0    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "*>;)V"
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     const-string v0, "frame"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method

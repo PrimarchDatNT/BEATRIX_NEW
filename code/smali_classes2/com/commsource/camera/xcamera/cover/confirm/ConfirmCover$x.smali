@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
     d2 = {
         "",
         "currentAngle",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(F)V",
         "com/commsource/camera/xcamera/cover/confirm/ConfirmCover$updateSelfiePhotoDataAfterCapture$2$1"

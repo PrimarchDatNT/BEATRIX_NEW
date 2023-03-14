@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/channels/c$e;
-.super Lkotlinx/coroutines/internal/m$e;
+.class public final Lcotlinx/coroutines/channels/c$e;
+.super Lcotlinx/coroutines/internal/m$e;
 .source "AbstractChannel.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/channels/c;
+    value = Lcotlinx/coroutines/channels/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,8 +18,8 @@
         "<E:",
         "Ljava/lang/Object;",
         ">",
-        "Lkotlinx/coroutines/internal/m$e<",
-        "Lkotlinx/coroutines/channels/z<",
+        "Lcotlinx/coroutines/internal/m$e<",
+        "Lcotlinx/coroutines/channels/z<",
         "-TE;>;>;"
     }
 .end annotation
@@ -28,7 +28,7 @@
     value = "SMAP\nAbstractChannel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AbstractChannel.kt\nkotlinx/coroutines/channels/AbstractSendChannel$TryOfferDesc\n*L\n1#1,1075:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,25 +40,25 @@
     d2 = {
         "kotlinx/coroutines/channels/c$e",
         "E",
-        "Lkotlinx/coroutines/internal/m$e;",
-        "Lkotlinx/coroutines/channels/z;",
-        "Lkotlinx/coroutines/internal/RemoveFirstDesc;",
-        "Lkotlinx/coroutines/internal/m;",
+        "Lcotlinx/coroutines/internal/m$e;",
+        "Lcotlinx/coroutines/channels/z;",
+        "Lcotlinx/coroutines/internal/RemoveFirstDesc;",
+        "Lcotlinx/coroutines/internal/m;",
         "affected",
         "",
         "e",
-        "(Lkotlinx/coroutines/internal/m;)Ljava/lang/Object;",
-        "Lkotlinx/coroutines/internal/m$d;",
-        "Lkotlinx/coroutines/internal/PrepareOp;",
+        "(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;",
+        "Lcotlinx/coroutines/internal/m$d;",
+        "Lcotlinx/coroutines/internal/PrepareOp;",
         "prepareOp",
         "j",
-        "(Lkotlinx/coroutines/internal/m$d;)Ljava/lang/Object;",
+        "(Lcotlinx/coroutines/internal/m$d;)Ljava/lang/Object;",
         "Ljava/lang/Object;",
         "element",
-        "Lkotlinx/coroutines/internal/k;",
+        "Lcotlinx/coroutines/internal/k;",
         "queue",
         "<init>",
-        "(Ljava/lang/Object;Lkotlinx/coroutines/internal/k;)V",
+        "(Ljava/lang/Object;Lcotlinx/coroutines/internal/k;)V",
         "kotlinx-coroutines-core"
     }
     k = 0x1
@@ -78,39 +78,39 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/Object;Lkotlinx/coroutines/internal/k;)V
+.method public constructor <init>(Ljava/lang/Object;Lcotlinx/coroutines/internal/k;)V
     .locals 0
-    .param p2    # Lkotlinx/coroutines/internal/k;
+    .param p2    # Lcotlinx/coroutines/internal/k;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TE;",
-            "Lkotlinx/coroutines/internal/k;",
+            "Lcotlinx/coroutines/internal/k;",
             ")V"
         }
     .end annotation
 
     .line 1
-    invoke-direct {p0, p2}, Lkotlinx/coroutines/internal/m$e;-><init>(Lkotlinx/coroutines/internal/m;)V
+    invoke-direct {p0, p2}, Lcotlinx/coroutines/internal/m$e;-><init>(Lcotlinx/coroutines/internal/m;)V
 
-    iput-object p1, p0, Lkotlinx/coroutines/channels/c$e;->e:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/c$e;->e:Ljava/lang/Object;
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected e(Lkotlinx/coroutines/internal/m;)Ljava/lang/Object;
+.method protected e(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Lkotlinx/coroutines/internal/m;
+    .param p1    # Lcotlinx/coroutines/internal/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -118,7 +118,7 @@
     .end annotation
 
     .line 1
-    instance-of v0, p1, Lkotlinx/coroutines/channels/p;
+    instance-of v0, p1, Lcotlinx/coroutines/channels/p;
 
     if-eqz v0, :cond_0
 
@@ -126,11 +126,11 @@
 
     .line 2
     :cond_0
-    instance-of p1, p1, Lkotlinx/coroutines/channels/z;
+    instance-of p1, p1, Lcotlinx/coroutines/channels/z;
 
     if-nez p1, :cond_1
 
-    sget-object p1, Lkotlinx/coroutines/channels/b;->e:Ljava/lang/Object;
+    sget-object p1, Lcotlinx/coroutines/channels/b;->e:Ljava/lang/Object;
 
     goto :goto_0
 
@@ -141,9 +141,9 @@
     return-object p1
 .end method
 
-.method public j(Lkotlinx/coroutines/internal/m$d;)Ljava/lang/Object;
+.method public j(Lcotlinx/coroutines/internal/m$d;)Ljava/lang/Object;
     .locals 2
-    .param p1    # Lkotlinx/coroutines/internal/m$d;
+    .param p1    # Lcotlinx/coroutines/internal/m$d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -151,23 +151,23 @@
     .end annotation
 
     .line 1
-    iget-object v0, p1, Lkotlinx/coroutines/internal/m$d;->a:Lkotlinx/coroutines/internal/m;
+    iget-object v0, p1, Lcotlinx/coroutines/internal/m$d;->a:Lcotlinx/coroutines/internal/m;
 
     if-eqz v0, :cond_5
 
-    check-cast v0, Lkotlinx/coroutines/channels/z;
+    check-cast v0, Lcotlinx/coroutines/channels/z;
 
     .line 2
-    iget-object v1, p0, Lkotlinx/coroutines/channels/c$e;->e:Ljava/lang/Object;
+    iget-object v1, p0, Lcotlinx/coroutines/channels/c$e;->e:Ljava/lang/Object;
 
-    invoke-interface {v0, v1, p1}, Lkotlinx/coroutines/channels/z;->v(Ljava/lang/Object;Lkotlinx/coroutines/internal/m$d;)Lkotlinx/coroutines/internal/c0;
+    invoke-interface {v0, v1, p1}, Lcotlinx/coroutines/channels/z;->v(Ljava/lang/Object;Lcotlinx/coroutines/internal/m$d;)Lcotlinx/coroutines/internal/c0;
 
     move-result-object p1
 
     if-eqz p1, :cond_4
 
     .line 3
-    sget-object v0, Lkotlinx/coroutines/internal/c;->b:Ljava/lang/Object;
+    sget-object v0, Lcotlinx/coroutines/internal/c;->b:Ljava/lang/Object;
 
     if-ne p1, v0, :cond_0
 
@@ -175,13 +175,13 @@
 
     .line 4
     :cond_0
-    invoke-static {}, Lkotlinx/coroutines/p0;->b()Z
+    invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    sget-object v0, Lkotlinx/coroutines/o;->d:Lkotlinx/coroutines/internal/c0;
+    sget-object v0, Lcotlinx/coroutines/o;->d:Lcotlinx/coroutines/internal/c0;
 
     if-ne p1, v0, :cond_1
 
@@ -212,17 +212,17 @@
 
     .line 5
     :cond_4
-    sget-object p1, Lkotlinx/coroutines/internal/n;->a:Ljava/lang/Object;
+    sget-object p1, Lcotlinx/coroutines/internal/n;->a:Ljava/lang/Object;
 
     return-object p1
 
     .line 6
     :cond_5
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v0, "null cannot be cast to non-null type kotlinx.coroutines.channels.ReceiveOrClosed<E>"
 
-    invoke-direct {p1, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method

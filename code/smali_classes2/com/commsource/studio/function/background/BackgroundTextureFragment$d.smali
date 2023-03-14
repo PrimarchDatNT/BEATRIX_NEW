@@ -34,7 +34,7 @@
     value = "SMAP\nBackgroundTextureFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BackgroundTextureFragment.kt\ncom/commsource/studio/function/background/BackgroundTextureFragment$onViewCreated$1\n*L\n1#1,200:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -48,7 +48,7 @@
         "Lcom/commsource/studio/function/background/TextureMaterial;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/util/List;)V"
     }
@@ -114,7 +114,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v3}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v3
 

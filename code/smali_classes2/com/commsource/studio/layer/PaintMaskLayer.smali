@@ -20,7 +20,7 @@
     value = "SMAP\nPaintMaskLayer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PaintMaskLayer.kt\ncom/commsource/studio/layer/PaintMaskLayer\n*L\n1#1,404:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -34,7 +34,7 @@
         "Lcom/commsource/studio/layer/c;",
         "Lcom/commsource/studio/p0;",
         "Lcom/commsource/studio/layer/c$a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "S0",
         "()V",
         "T0",
@@ -77,18 +77,18 @@
         "O0",
         "(Z)V",
         "isNeedDrawPath",
-        "Lkotlin/Function2;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function2;",
+        "Lcotlin/k0;",
         "name",
         "isEraser",
         "Landroid/graphics/Bitmap;",
         "maskBitmap",
         "d0",
-        "Lkotlin/jvm/u/p;",
+        "Lcotlin/jvm/u/p;",
         "G0",
-        "()Lkotlin/jvm/u/p;",
+        "()Lcotlin/jvm/u/p;",
         "Q0",
-        "(Lkotlin/jvm/u/p;)V",
+        "(Lcotlin/jvm/u/p;)V",
         "paintMaskConfirmCallback",
         "Lcom/commsource/beautymain/widget/gesturewidget/g;",
         "W",
@@ -195,15 +195,15 @@
 
 .field private c0:Z
 
-.field private d0:Lkotlin/jvm/u/p;
+.field private d0:Lcotlin/jvm/u/p;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Ljava/lang/Boolean;",
             "-",
             "Landroid/graphics/Bitmap;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -232,7 +232,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/layer/PaintMaskLayer$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/layer/PaintMaskLayer$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/layer/PaintMaskLayer;->i0:Lcom/commsource/studio/layer/PaintMaskLayer$a;
 
@@ -250,7 +250,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/c;-><init>(Landroid/content/Context;)V
@@ -634,15 +634,15 @@
     return v1
 .end method
 
-.method public final G0()Lkotlin/jvm/u/p;
+.method public final G0()Lcotlin/jvm/u/p;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "Ljava/lang/Boolean;",
             "Landroid/graphics/Bitmap;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -655,7 +655,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->d0:Lkotlin/jvm/u/p;
+    iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->d0:Lcotlin/jvm/u/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -794,21 +794,21 @@
     return-void
 .end method
 
-.method public final Q0(Lkotlin/jvm/u/p;)V
+.method public final Q0(Lcotlin/jvm/u/p;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/p;
+    .param p1    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Ljava/lang/Boolean;",
             "-",
             "Landroid/graphics/Bitmap;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -818,7 +818,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->d0:Lkotlin/jvm/u/p;
+    iput-object p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->d0:Lcotlin/jvm/u/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -963,7 +963,7 @@
 
     const-string v1, "canvas"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->a0:Z
@@ -1005,7 +1005,7 @@
 
     const-string v3, "maskCanvas"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2, v1}, Lcom/commsource/studio/layer/l;->d(Landroid/graphics/Canvas;)V
 
@@ -1018,7 +1018,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->V:Landroid/graphics/Paint;
@@ -1074,7 +1074,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/layer/BaseLayer;->P(FF)Z
@@ -1102,7 +1102,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/layer/BaseLayer;->P(FF)Z
@@ -1136,7 +1136,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/layer/BaseLayer;->P(FF)Z
@@ -1168,11 +1168,11 @@
 
     const-string v1, "storeOwner"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "lifecycleOwner"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/layer/c;->p(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V
@@ -1302,7 +1302,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->e(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
@@ -1405,7 +1405,7 @@
     .line 12
     iget-object p2, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->S:Lcom/commsource/studio/layer/n;
 
-    invoke-static {p1, p4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2, p1}, Lcom/commsource/studio/layer/l;->d(Landroid/graphics/Canvas;)V
 
@@ -1435,7 +1435,7 @@
 
     const-string p5, "maskCanvas"
 
-    invoke-static {p1, p5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2, p1}, Lcom/commsource/studio/layer/l;->d(Landroid/graphics/Canvas;)V
 
@@ -1451,7 +1451,7 @@
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/layer/PaintMaskLayer$onStopSingleFinger$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/layer/PaintMaskLayer;)V
 
-    invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;->f0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;->f0(Lcotlin/jvm/u/a;)V
 
     .line 18
     :cond_6
@@ -1507,7 +1507,7 @@
     .line 24
     iget-object p5, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->S:Lcom/commsource/studio/layer/n;
 
-    invoke-static {p2, p4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p5, p2}, Lcom/commsource/studio/layer/l;->d(Landroid/graphics/Canvas;)V
 
@@ -1528,7 +1528,7 @@
 
     if-eqz p1, :cond_7
 
-    iget-object p2, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->d0:Lkotlin/jvm/u/p;
+    iget-object p2, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->d0:Lcotlin/jvm/u/p;
 
     if-eqz p2, :cond_7
 
@@ -1540,13 +1540,13 @@
 
     const-string p5, "this"
 
-    invoke-static {p1, p5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-interface {p2, p4, p1}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p4, p1}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 28
     :cond_7

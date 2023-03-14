@@ -1,10 +1,10 @@
-.class Lkotlin/e2/c;
+.class Lcotlin/e2/c;
 .super Ljava/lang/Object;
 .source "MathH.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,

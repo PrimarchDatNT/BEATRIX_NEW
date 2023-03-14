@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/commsource/studio/text/b;->m(ILkotlin/jvm/u/a;)V
+    value = Lcom/commsource/studio/text/b;->m(ILcotlin/jvm/u/a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
         "",
         "touchX",
         "touchY",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "n",
         "(FF)V",
         "app_googleplayRelease"
@@ -45,16 +45,16 @@
 # instance fields
 .field final synthetic q:Lcom/commsource/studio/text/b;
 
-.field final synthetic r:Lkotlin/jvm/u/a;
+.field final synthetic r:Lcotlin/jvm/u/a;
 
 
 # direct methods
-.method constructor <init>(Lcom/commsource/studio/text/b;Lkotlin/jvm/u/a;ILjava/lang/String;)V
+.method constructor <init>(Lcom/commsource/studio/text/b;Lcotlin/jvm/u/a;ILjava/lang/String;)V
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a;",
+            "Lcotlin/jvm/u/a;",
             "I",
             "Ljava/lang/String;",
             ")V"
@@ -64,7 +64,7 @@
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/b$d;->q:Lcom/commsource/studio/text/b;
 
-    iput-object p2, p0, Lcom/commsource/studio/text/b$d;->r:Lkotlin/jvm/u/a;
+    iput-object p2, p0, Lcom/commsource/studio/text/b$d;->r:Lcotlin/jvm/u/a;
 
     const/4 v3, 0x0
 
@@ -78,7 +78,7 @@
 
     move-object v2, p4
 
-    invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/x;-><init>(ILjava/lang/String;Ljava/lang/Integer;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/x;-><init>(ILjava/lang/String;Ljava/lang/Integer;ILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -102,15 +102,15 @@
     if-eqz p2, :cond_0
 
     .line 2
-    iget-object p2, p0, Lcom/commsource/studio/text/b$d;->r:Lkotlin/jvm/u/a;
+    iget-object p2, p0, Lcom/commsource/studio/text/b$d;->r:Lcotlin/jvm/u/a;
 
     if-eqz p2, :cond_0
 
-    invoke-interface {p2}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p2}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p2
 
-    check-cast p2, Lkotlin/t1;
+    check-cast p2, Lcotlin/t1;
 
     .line 3
     :cond_0

@@ -1,14 +1,14 @@
-.class public final Lkotlinx/coroutines/k0$a;
+.class public final Lcotlinx/coroutines/k0$a;
 .super Ljava/lang/Object;
 .source "CoroutineContext.kt"
 
 # interfaces
-.implements Lkotlin/coroutines/CoroutineContext$b;
+.implements Lcotlin/coroutines/CoroutineContext$b;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/k0;
+    value = Lcotlinx/coroutines/k0;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,13 +19,13 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/coroutines/CoroutineContext$b<",
-        "Lkotlinx/coroutines/k0;",
+        "Lcotlin/coroutines/CoroutineContext$b<",
+        "Lcotlinx/coroutines/k0;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,8 +36,8 @@
     }
     d2 = {
         "kotlinx/coroutines/k0$a",
-        "Lkotlin/coroutines/CoroutineContext$b;",
-        "Lkotlinx/coroutines/k0;",
+        "Lcotlin/coroutines/CoroutineContext$b;",
+        "Lcotlinx/coroutines/k0;",
         "<init>",
         "()V",
         "kotlinx-coroutines-core"
@@ -61,11 +61,11 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlinx/coroutines/k0$a;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/k0$a;-><init>()V
 
     return-void
 .end method

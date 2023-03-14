@@ -1,4 +1,4 @@
-.class public final Lkotlin/jvm/internal/Ref$CharRef;
+.class public final Lcotlin/jvm/internal/Ref$CharRef;
 .super Ljava/lang/Object;
 .source "Ref.java"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/jvm/internal/Ref;
+    value = Lcotlin/jvm/internal/Ref;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -37,7 +37,7 @@
     .locals 1
 
     .line 1
-    iget-char v0, p0, Lkotlin/jvm/internal/Ref$CharRef;->element:C
+    iget-char v0, p0, Lcotlin/jvm/internal/Ref$CharRef;->element:C
 
     invoke-static {v0}, Ljava/lang/String;->valueOf(C)Ljava/lang/String;
 

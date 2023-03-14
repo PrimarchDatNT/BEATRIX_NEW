@@ -17,7 +17,7 @@
     value = "SMAP\nAndroidReferenceMatchers.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AndroidReferenceMatchers.kt\nkshark/AndroidReferenceMatchers$Companion\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,1327:1\n1587#2,2:1328\n*E\n*S KotlinDebug\n*F\n+ 1 AndroidReferenceMatchers.kt\nkshark/AndroidReferenceMatchers$Companion\n*L\n1246#1,2:1328\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,14 +33,14 @@
         "referencePattern",
         "",
         "description",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "Lkshark/AndroidBuildMirror;",
         "",
-        "Lkotlin/q;",
+        "Lcotlin/q;",
         "patternApplies",
         "Lkshark/LibraryLeakReferenceMatcher;",
         "h",
-        "(Lkshark/ReferencePattern;Ljava/lang/String;Lkotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;",
+        "(Lkshark/ReferencePattern;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;",
         "",
         "Lkshark/AndroidReferenceMatchers;",
         "referenceMatchers",
@@ -51,10 +51,10 @@
         "className",
         "fieldName",
         "k",
-        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;",
+        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;",
         "f",
         "i",
-        "(Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;",
+        "(Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;",
         "Lkshark/n;",
         "d",
         "(Ljava/lang/String;Ljava/lang/String;)Lkshark/n;",
@@ -67,7 +67,7 @@
         "c",
         "ignoredReferencesOnly",
         "ALWAYS",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "HUAWEI",
         "Ljava/lang/String;",
         "LEAK_CANARY_THREAD_NAME",
@@ -103,7 +103,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -112,7 +112,7 @@
     return-void
 .end method
 
-.method public static synthetic g(Lkshark/AndroidReferenceMatchers$Companion;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/u/l;ILjava/lang/Object;)Lkshark/LibraryLeakReferenceMatcher;
+.method public static synthetic g(Lkshark/AndroidReferenceMatchers$Companion;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)Lkshark/LibraryLeakReferenceMatcher;
     .locals 0
 
     and-int/lit8 p6, p5, 0x4
@@ -127,26 +127,26 @@
     if-eqz p5, :cond_1
 
     .line 1
-    invoke-static {}, Lkshark/AndroidReferenceMatchers;->access$getALWAYS$cp()Lkotlin/jvm/u/l;
+    invoke-static {}, Lkshark/AndroidReferenceMatchers;->access$getALWAYS$cp()Lcotlin/jvm/u/l;
 
     move-result-object p4
 
     :cond_1
-    invoke-virtual {p0, p1, p2, p3, p4}, Lkshark/AndroidReferenceMatchers$Companion;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
+    invoke-virtual {p0, p1, p2, p3, p4}, Lkshark/AndroidReferenceMatchers$Companion;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private final h(Lkshark/ReferencePattern;Ljava/lang/String;Lkotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
+.method private final h(Lkshark/ReferencePattern;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lkshark/ReferencePattern;",
             "Ljava/lang/String;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lkshark/AndroidBuildMirror;",
             "Ljava/lang/Boolean;",
@@ -161,15 +161,15 @@
     .line 2
     new-instance v1, Lkshark/AndroidReferenceMatchers$Companion$libraryLeak$1;
 
-    invoke-direct {v1, p3}, Lkshark/AndroidReferenceMatchers$Companion$libraryLeak$1;-><init>(Lkotlin/jvm/u/l;)V
+    invoke-direct {v1, p3}, Lkshark/AndroidReferenceMatchers$Companion$libraryLeak$1;-><init>(Lcotlin/jvm/u/l;)V
 
     .line 3
-    invoke-direct {v0, p1, p2, v1}, Lkshark/LibraryLeakReferenceMatcher;-><init>(Lkshark/ReferencePattern;Ljava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-direct {v0, p1, p2, v1}, Lkshark/LibraryLeakReferenceMatcher;-><init>(Lkshark/ReferencePattern;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
     return-object v0
 .end method
 
-.method public static synthetic j(Lkshark/AndroidReferenceMatchers$Companion;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/u/l;ILjava/lang/Object;)Lkshark/LibraryLeakReferenceMatcher;
+.method public static synthetic j(Lkshark/AndroidReferenceMatchers$Companion;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)Lkshark/LibraryLeakReferenceMatcher;
     .locals 0
 
     and-int/lit8 p5, p4, 0x2
@@ -184,19 +184,19 @@
     if-eqz p4, :cond_1
 
     .line 1
-    invoke-static {}, Lkshark/AndroidReferenceMatchers;->access$getALWAYS$cp()Lkotlin/jvm/u/l;
+    invoke-static {}, Lkshark/AndroidReferenceMatchers;->access$getALWAYS$cp()Lcotlin/jvm/u/l;
 
     move-result-object p3
 
     :cond_1
-    invoke-virtual {p0, p1, p2, p3}, Lkshark/AndroidReferenceMatchers$Companion;->i(Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
+    invoke-virtual {p0, p1, p2, p3}, Lkshark/AndroidReferenceMatchers$Companion;->i(Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic l(Lkshark/AndroidReferenceMatchers$Companion;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/u/l;ILjava/lang/Object;)Lkshark/LibraryLeakReferenceMatcher;
+.method public static synthetic l(Lkshark/AndroidReferenceMatchers$Companion;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)Lkshark/LibraryLeakReferenceMatcher;
     .locals 0
 
     and-int/lit8 p6, p5, 0x4
@@ -211,12 +211,12 @@
     if-eqz p5, :cond_1
 
     .line 1
-    invoke-static {}, Lkshark/AndroidReferenceMatchers;->access$getALWAYS$cp()Lkotlin/jvm/u/l;
+    invoke-static {}, Lkshark/AndroidReferenceMatchers;->access$getALWAYS$cp()Lcotlin/jvm/u/l;
 
     move-result-object p4
 
     :cond_1
-    invoke-virtual {p0, p1, p2, p3, p4}, Lkshark/AndroidReferenceMatchers$Companion;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
+    invoke-virtual {p0, p1, p2, p3, p4}, Lkshark/AndroidReferenceMatchers$Companion;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object p0
 
@@ -249,7 +249,7 @@
 
     const-string v0, "referenceMatchers"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/ArrayList;
@@ -308,7 +308,7 @@
 
     const-string v2, "EnumSet.allOf(AndroidRef\u2026enceMatchers::class.java)"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0, v1}, Lkshark/AndroidReferenceMatchers$Companion;->a(Ljava/util/Set;)Ljava/util/List;
 
@@ -356,7 +356,7 @@
 
     const-string v2, "EnumSet.of(\n            \u2026MESSAGE_QUEUE\n          )"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     invoke-virtual {v0, v1}, Lkshark/AndroidReferenceMatchers$Companion;->a(Ljava/util/Set;)Ljava/util/List;
@@ -381,11 +381,11 @@
 
     const-string v0, "className"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "fieldName"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lkshark/n;
@@ -410,7 +410,7 @@
 
     const-string v0, "threadName"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lkshark/n;
@@ -424,7 +424,7 @@
     return-object v0
 .end method
 
-.method public final f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
+.method public final f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
     .locals 1
     .param p1    # Ljava/lang/String;
         .annotation build Ln/e/a/d;
@@ -438,7 +438,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p4    # Lkotlin/jvm/u/l;
+    .param p4    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -448,7 +448,7 @@
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lkshark/AndroidBuildMirror;",
             "Ljava/lang/Boolean;",
@@ -462,33 +462,33 @@
 
     const-string v0, "className"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "fieldName"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "description"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "patternApplies"
 
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lkshark/ReferencePattern$InstanceFieldPattern;
 
     invoke-direct {v0, p1, p2}, Lkshark/ReferencePattern$InstanceFieldPattern;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-direct {p0, v0, p3, p4}, Lkshark/AndroidReferenceMatchers$Companion;->h(Lkshark/ReferencePattern;Ljava/lang/String;Lkotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
+    invoke-direct {p0, v0, p3, p4}, Lkshark/AndroidReferenceMatchers$Companion;->h(Lkshark/ReferencePattern;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final i(Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
+.method public final i(Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
     .locals 1
     .param p1    # Ljava/lang/String;
         .annotation build Ln/e/a/d;
@@ -498,7 +498,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p3    # Lkotlin/jvm/u/l;
+    .param p3    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -507,7 +507,7 @@
             "(",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lkshark/AndroidBuildMirror;",
             "Ljava/lang/Boolean;",
@@ -521,29 +521,29 @@
 
     const-string v0, "className"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "description"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "patternApplies"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lkshark/ReferencePattern$NativeGlobalVariablePattern;
 
     invoke-direct {v0, p1}, Lkshark/ReferencePattern$NativeGlobalVariablePattern;-><init>(Ljava/lang/String;)V
 
-    invoke-direct {p0, v0, p2, p3}, Lkshark/AndroidReferenceMatchers$Companion;->h(Lkshark/ReferencePattern;Ljava/lang/String;Lkotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
+    invoke-direct {p0, v0, p2, p3}, Lkshark/AndroidReferenceMatchers$Companion;->h(Lkshark/ReferencePattern;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
+.method public final k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
     .locals 1
     .param p1    # Ljava/lang/String;
         .annotation build Ln/e/a/d;
@@ -557,7 +557,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p4    # Lkotlin/jvm/u/l;
+    .param p4    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -567,7 +567,7 @@
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Lkshark/AndroidBuildMirror;",
             "Ljava/lang/Boolean;",
@@ -581,26 +581,26 @@
 
     const-string v0, "className"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "fieldName"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "description"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "patternApplies"
 
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lkshark/ReferencePattern$StaticFieldPattern;
 
     invoke-direct {v0, p1, p2}, Lkshark/ReferencePattern$StaticFieldPattern;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-direct {p0, v0, p3, p4}, Lkshark/AndroidReferenceMatchers$Companion;->h(Lkshark/ReferencePattern;Ljava/lang/String;Lkotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
+    invoke-direct {p0, v0, p3, p4}, Lkshark/AndroidReferenceMatchers$Companion;->h(Lkshark/ReferencePattern;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object p1
 

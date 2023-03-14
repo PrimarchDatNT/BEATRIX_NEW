@@ -20,7 +20,7 @@
     value = "SMAP\nNewDoodleRepository.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewDoodleRepository.kt\ncom/commsource/studio/doodle/NewDoodleRepository$onBuildVersionControlPoint$1$onUpdate$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,700:1\n1828#2,2:701\n1828#2,3:703\n1830#2:706\n1819#2,2:707\n1819#2,2:709\n*E\n*S KotlinDebug\n*F\n+ 1 NewDoodleRepository.kt\ncom/commsource/studio/doodle/NewDoodleRepository$onBuildVersionControlPoint$1$onUpdate$1\n*L\n156#1,2:701\n156#1,3:703\n156#1:706\n172#1,2:707\n183#1,2:709\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "<anonymous>"
@@ -111,7 +111,7 @@
 
     const-string v2, "GsonHelper.fromJsonNoExc\u2026oodleCategory>>(){}.type)"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v1, Ljava/util/ArrayList;
 
@@ -144,7 +144,7 @@
 
     if-gez v5, :cond_0
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_0
     check-cast v6, Lcom/commsource/studio/doodle/j;
@@ -190,7 +190,7 @@
 
     if-gez v8, :cond_1
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_1
     check-cast v9, Lcom/commsource/studio/doodle/DoodleMaterial;

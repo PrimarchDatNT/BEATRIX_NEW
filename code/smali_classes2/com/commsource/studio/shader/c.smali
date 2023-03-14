@@ -13,7 +13,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "",
         "srcTextureId",
         "effectTextureId",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "k",
         "(II)V",
         "<init>",
@@ -57,11 +57,11 @@
 
     const/4 v2, 0x1
 
-    invoke-direct {v0, v1, v2, v1}, Lcom/commsource/studio/shader/e;-><init>(Lcom/commsource/studio/shader/e$a;ILkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1, v2, v1}, Lcom/commsource/studio/shader/e;-><init>(Lcom/commsource/studio/shader/e$a;ILcotlin/jvm/internal/u;)V
 
     new-instance v3, Lcom/commsource/studio/shader/b;
 
-    invoke-direct {v3, v1, v2, v1}, Lcom/commsource/studio/shader/b;-><init>(Lcom/commsource/studio/shader/b$a;ILkotlin/jvm/internal/u;)V
+    invoke-direct {v3, v1, v2, v1}, Lcom/commsource/studio/shader/b;-><init>(Lcom/commsource/studio/shader/b$a;ILcotlin/jvm/internal/u;)V
 
     invoke-direct {p0, v0, v3}, Lcom/commsource/studio/shader/a;-><init>(Lcom/commsource/studio/shader/BaseShader;Lcom/commsource/studio/shader/BaseShader;)V
 

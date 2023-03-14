@@ -1,11 +1,11 @@
-.class final Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;
-.super Lkotlin/coroutines/jvm/internal/ContinuationImpl;
+.class final Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;
+.super Lcotlin/coroutines/jvm/internal/ContinuationImpl;
 .source "TickerChannels.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/channels/TickerChannelsKt;->b(JJLkotlinx/coroutines/channels/c0;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/channels/TickerChannelsKt;->b(JJLcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,14 +26,14 @@
         "",
         "delayMillis",
         "initialDelayMillis",
-        "Lkotlinx/coroutines/channels/c0;",
-        "Lkotlin/t1;",
+        "Lcotlinx/coroutines/channels/c0;",
+        "Lcotlin/t1;",
         "channel",
-        "Lkotlin/coroutines/c;",
+        "Lcotlin/coroutines/c;",
         "continuation",
         "",
         "fixedPeriodTicker",
-        "(JJLkotlinx/coroutines/channels/c0;Lkotlin/coroutines/c;)Ljava/lang/Object;"
+        "(JJLcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;"
     }
     k = 0x3
     mv = {
@@ -43,7 +43,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.channels.TickerChannelsKt"
     f = "TickerChannels.kt"
     i = {
@@ -157,10 +157,10 @@
 
 
 # direct methods
-.method constructor <init>(Lkotlin/coroutines/c;)V
+.method constructor <init>(Lcotlin/coroutines/c;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {p0, p1}, Lcotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lcotlin/coroutines/c;)V
 
     return-void
 .end method
@@ -176,15 +176,15 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    iput-object p1, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->result:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->result:Ljava/lang/Object;
 
-    iget p1, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
+    iget p1, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
 
     const/high16 v0, -0x80000000
 
     or-int/2addr p1, v0
 
-    iput p1, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
+    iput p1, p0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
 
     const-wide/16 v0, 0x0
 
@@ -194,7 +194,7 @@
 
     move-object v5, p0
 
-    invoke-static/range {v0 .. v5}, Lkotlinx/coroutines/channels/TickerChannelsKt;->b(JJLkotlinx/coroutines/channels/c0;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static/range {v0 .. v5}, Lcotlinx/coroutines/channels/TickerChannelsKt;->b(JJLcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 

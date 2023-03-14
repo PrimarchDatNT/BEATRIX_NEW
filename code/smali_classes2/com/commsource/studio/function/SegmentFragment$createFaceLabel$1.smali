@@ -17,7 +17,7 @@
     value = "SMAP\nSegmentFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SegmentFragment.kt\ncom/commsource/studio/function/SegmentFragment$createFaceLabel$1\n*L\n1#1,506:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Lcom/commsource/studio/layer/FaceLabelLayer;",
         "Lcom/commsource/studio/layer/FaceOval;",
         "label",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "w0",
         "(Lcom/commsource/studio/layer/FaceOval;)V",
         "app_googleplayRelease"
@@ -83,7 +83,7 @@
 
     const-string v1, "label"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$createFaceLabel$1;->R:Lcom/commsource/studio/function/SegmentFragment;
@@ -159,7 +159,7 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/SegmentFragment$createFaceLabel$1$onFaceLabelClick$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/function/SegmentFragment$createFaceLabel$1;)V
 
-    invoke-static {p1, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->i(Lcom/commsource/widget/dialog/delegate/b;Lkotlin/jvm/u/l;)V
+    invoke-static {p1, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->i(Lcom/commsource/widget/dialog/delegate/b;Lcotlin/jvm/u/l;)V
 
     .line 11
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$createFaceLabel$1;->R:Lcom/commsource/studio/function/SegmentFragment;

@@ -1,14 +1,14 @@
-.class final Lkotlin/sequences/SequencesKt___SequencesKt$filterIndexed$1;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlin/sequences/SequencesKt___SequencesKt$filterIndexed$1;
+.super Lcotlin/jvm/internal/Lambda;
 .source "_Sequences.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/sequences/SequencesKt___SequencesKt;->j0(Lkotlin/sequences/m;Lkotlin/jvm/u/p;)Lkotlin/sequences/m;
+    value = Lcotlin/sequences/SequencesKt___SequencesKt;->j0(Lcotlin/sequences/m;Lcotlin/jvm/u/p;)Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
-        "Lkotlin/collections/i0<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
+        "Lcotlin/collections/i0<",
         "+TT;>;",
         "Ljava/lang/Boolean;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,11 +38,11 @@
     }
     d2 = {
         "T",
-        "Lkotlin/collections/i0;",
+        "Lcotlin/collections/i0;",
         "it",
         "",
         "invoke",
-        "(Lkotlin/collections/i0;)Z",
+        "(Lcotlin/collections/i0;)Z",
         "<anonymous>"
     }
     k = 0x3
@@ -55,18 +55,18 @@
 
 
 # instance fields
-.field final synthetic $predicate:Lkotlin/jvm/u/p;
+.field final synthetic $predicate:Lcotlin/jvm/u/p;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/jvm/u/p;)V
+.method constructor <init>(Lcotlin/jvm/u/p;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$filterIndexed$1;->$predicate:Lkotlin/jvm/u/p;
+    iput-object p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$filterIndexed$1;->$predicate:Lcotlin/jvm/u/p;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -76,9 +76,9 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    check-cast p1, Lkotlin/collections/i0;
+    check-cast p1, Lcotlin/collections/i0;
 
-    invoke-virtual {p0, p1}, Lkotlin/sequences/SequencesKt___SequencesKt$filterIndexed$1;->invoke(Lkotlin/collections/i0;)Z
+    invoke-virtual {p0, p1}, Lcotlin/sequences/SequencesKt___SequencesKt$filterIndexed$1;->invoke(Lcotlin/collections/i0;)Z
 
     move-result p1
 
@@ -89,28 +89,28 @@
     return-object p1
 .end method
 
-.method public final invoke(Lkotlin/collections/i0;)Z
+.method public final invoke(Lcotlin/collections/i0;)Z
     .locals 2
-    .param p1    # Lkotlin/collections/i0;
+    .param p1    # Lcotlin/collections/i0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/collections/i0<",
+            "Lcotlin/collections/i0<",
             "+TT;>;)Z"
         }
     .end annotation
 
     const-string v0, "it"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Lkotlin/sequences/SequencesKt___SequencesKt$filterIndexed$1;->$predicate:Lkotlin/jvm/u/p;
+    iget-object v0, p0, Lcotlin/sequences/SequencesKt___SequencesKt$filterIndexed$1;->$predicate:Lcotlin/jvm/u/p;
 
-    invoke-virtual {p1}, Lkotlin/collections/i0;->e()I
+    invoke-virtual {p1}, Lcotlin/collections/i0;->e()I
 
     move-result v1
 
@@ -118,11 +118,11 @@
 
     move-result-object v1
 
-    invoke-virtual {p1}, Lkotlin/collections/i0;->f()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/collections/i0;->f()Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-interface {v0, v1, p1}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1, p1}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

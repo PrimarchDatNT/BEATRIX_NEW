@@ -17,7 +17,7 @@
     value = "SMAP\nBaseBpCameraViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BaseBpCameraViewModel.kt\ncom/commsource/camera/xcamera/BaseBpCameraViewModel$addCameraNodes$1\n*L\n1#1,1218:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
         "camera",
         "Lcom/meitu/library/camera/MTCamera$h;",
         "info",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "D",
         "(Lcom/meitu/library/camera/MTCamera;Lcom/meitu/library/camera/MTCamera$h;)V",
         "b",

@@ -8,7 +8,7 @@
     value = "SMAP\nAdjustResult.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AdjustResult.kt\ncom/commsource/studio/effect/AdjustResult\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,30:1\n13506#2,2:31\n*E\n*S KotlinDebug\n*F\n+ 1 AdjustResult.kt\ncom/commsource/studio/effect/AdjustResult\n*L\n17#1,2:31\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,

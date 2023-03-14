@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
         "",
         "fraction",
         "value",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(FF)V",
         "Lcom/commsource/camera/f1/l;",
@@ -100,13 +100,13 @@
 
     const-string v3, "mBinding.videoContainer1"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v3, Lcom/commsource/video/DemoDialog$bindView$2$1$onAnimationEnd$1;
 
     invoke-direct {v3, p0}, Lcom/commsource/video/DemoDialog$bindView$2$1$onAnimationEnd$1;-><init>(Lcom/commsource/video/DemoDialog$bindView$2$1;)V
 
-    invoke-virtual {p1, v2, v1, v3}, Lcom/commsource/video/XPlayer;->c(Lcom/commsource/video/view/XVideoContainer;Lcom/commsource/video/view/XVideoContainer;Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v2, v1, v3}, Lcom/commsource/video/XPlayer;->c(Lcom/commsource/video/view/XVideoContainer;Lcom/commsource/video/view/XVideoContainer;Lcotlin/jvm/u/a;)V
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

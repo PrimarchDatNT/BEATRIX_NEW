@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/scheduling/CoroutineScheduler$a;
+.class public final Lcotlinx/coroutines/scheduling/CoroutineScheduler$a;
 .super Ljava/lang/Object;
 .source "CoroutineScheduler.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/scheduling/CoroutineScheduler;
+    value = Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -37,9 +37,9 @@
         "CREATED_MASK",
         "MAX_SUPPORTED_POOL_SIZE",
         "MIN_SUPPORTED_POOL_SIZE",
-        "Lkotlinx/coroutines/internal/c0;",
+        "Lcotlinx/coroutines/internal/c0;",
         "NOT_IN_STACK",
-        "Lkotlinx/coroutines/internal/c0;",
+        "Lcotlinx/coroutines/internal/c0;",
         "PARKED",
         "PARKED_INDEX_MASK",
         "PARKED_VERSION_INC",
@@ -68,11 +68,11 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlinx/coroutines/scheduling/CoroutineScheduler$a;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$a;-><init>()V
 
     return-void
 .end method

@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/m3;
+.class public final Lcotlinx/coroutines/m3;
 .super Ljava/lang/Object;
 .source "TimeSource.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -19,11 +19,11 @@
         "()J",
         "c",
         "Ljava/lang/Runnable;",
-        "Lkotlinx/coroutines/Runnable;",
+        "Lcotlinx/coroutines/Runnable;",
         "block",
         "k",
         "(Ljava/lang/Runnable;)Ljava/lang/Runnable;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "g",
         "()V",
         "h",
@@ -38,12 +38,12 @@
         "thread",
         "i",
         "(Ljava/lang/Thread;)V",
-        "Lkotlinx/coroutines/l3;",
-        "Lkotlinx/coroutines/l3;",
+        "Lcotlinx/coroutines/l3;",
+        "Lcotlinx/coroutines/l3;",
         "b",
-        "()Lkotlinx/coroutines/l3;",
+        "()Lcotlinx/coroutines/l3;",
         "f",
-        "(Lkotlinx/coroutines/l3;)V",
+        "(Lcotlinx/coroutines/l3;)V",
         "timeSource",
         "kotlinx-coroutines-core"
     }
@@ -57,7 +57,7 @@
 
 
 # static fields
-.field private static a:Lkotlinx/coroutines/l3;
+.field private static a:Lcotlinx/coroutines/l3;
     .annotation build Ln/e/a/e;
     .end annotation
 .end field
@@ -66,17 +66,17 @@
 # direct methods
 .method private static final a()J
     .locals 2
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlinx/coroutines/m3;->b()Lkotlinx/coroutines/l3;
+    invoke-static {}, Lcotlinx/coroutines/m3;->b()Lcotlinx/coroutines/l3;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lkotlinx/coroutines/l3;->a()J
+    invoke-interface {v0}, Lcotlinx/coroutines/l3;->a()J
 
     move-result-wide v0
 
@@ -91,30 +91,30 @@
     return-wide v0
 .end method
 
-.method public static final b()Lkotlinx/coroutines/l3;
+.method public static final b()Lcotlinx/coroutines/l3;
     .locals 1
     .annotation build Ln/e/a/e;
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/m3;->a:Lkotlinx/coroutines/l3;
+    sget-object v0, Lcotlinx/coroutines/m3;->a:Lcotlinx/coroutines/l3;
 
     return-object v0
 .end method
 
 .method private static final c()J
     .locals 2
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlinx/coroutines/m3;->b()Lkotlinx/coroutines/l3;
+    invoke-static {}, Lcotlinx/coroutines/m3;->b()Lcotlinx/coroutines/l3;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lkotlinx/coroutines/l3;->b()J
+    invoke-interface {v0}, Lcotlinx/coroutines/l3;->b()J
 
     move-result-wide v0
 
@@ -131,17 +131,17 @@
 
 .method private static final d(Ljava/lang/Object;J)V
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlinx/coroutines/m3;->b()Lkotlinx/coroutines/l3;
+    invoke-static {}, Lcotlinx/coroutines/m3;->b()Lcotlinx/coroutines/l3;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0, p0, p1, p2}, Lkotlinx/coroutines/l3;->e(Ljava/lang/Object;J)V
+    invoke-interface {v0, p0, p1, p2}, Lcotlinx/coroutines/l3;->e(Ljava/lang/Object;J)V
 
     goto :goto_0
 
@@ -154,48 +154,48 @@
 
 .method private static final e()V
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlinx/coroutines/m3;->b()Lkotlinx/coroutines/l3;
+    invoke-static {}, Lcotlinx/coroutines/m3;->b()Lcotlinx/coroutines/l3;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lkotlinx/coroutines/l3;->i()V
+    invoke-interface {v0}, Lcotlinx/coroutines/l3;->i()V
 
     :cond_0
     return-void
 .end method
 
-.method public static final f(Lkotlinx/coroutines/l3;)V
+.method public static final f(Lcotlinx/coroutines/l3;)V
     .locals 0
-    .param p0    # Lkotlinx/coroutines/l3;
+    .param p0    # Lcotlinx/coroutines/l3;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
 
     .line 1
-    sput-object p0, Lkotlinx/coroutines/m3;->a:Lkotlinx/coroutines/l3;
+    sput-object p0, Lcotlinx/coroutines/m3;->a:Lcotlinx/coroutines/l3;
 
     return-void
 .end method
 
 .method private static final g()V
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlinx/coroutines/m3;->b()Lkotlinx/coroutines/l3;
+    invoke-static {}, Lcotlinx/coroutines/m3;->b()Lcotlinx/coroutines/l3;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lkotlinx/coroutines/l3;->g()V
+    invoke-interface {v0}, Lcotlinx/coroutines/l3;->g()V
 
     :cond_0
     return-void
@@ -203,17 +203,17 @@
 
 .method private static final h()V
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlinx/coroutines/m3;->b()Lkotlinx/coroutines/l3;
+    invoke-static {}, Lcotlinx/coroutines/m3;->b()Lcotlinx/coroutines/l3;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lkotlinx/coroutines/l3;->c()V
+    invoke-interface {v0}, Lcotlinx/coroutines/l3;->c()V
 
     :cond_0
     return-void
@@ -221,17 +221,17 @@
 
 .method private static final i(Ljava/lang/Thread;)V
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlinx/coroutines/m3;->b()Lkotlinx/coroutines/l3;
+    invoke-static {}, Lcotlinx/coroutines/m3;->b()Lcotlinx/coroutines/l3;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0, p0}, Lkotlinx/coroutines/l3;->d(Ljava/lang/Thread;)V
+    invoke-interface {v0, p0}, Lcotlinx/coroutines/l3;->d(Ljava/lang/Thread;)V
 
     goto :goto_0
 
@@ -244,17 +244,17 @@
 
 .method private static final j()V
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlinx/coroutines/m3;->b()Lkotlinx/coroutines/l3;
+    invoke-static {}, Lcotlinx/coroutines/m3;->b()Lcotlinx/coroutines/l3;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lkotlinx/coroutines/l3;->f()V
+    invoke-interface {v0}, Lcotlinx/coroutines/l3;->f()V
 
     :cond_0
     return-void
@@ -262,17 +262,17 @@
 
 .method private static final k(Ljava/lang/Runnable;)Ljava/lang/Runnable;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlinx/coroutines/m3;->b()Lkotlinx/coroutines/l3;
+    invoke-static {}, Lcotlinx/coroutines/m3;->b()Lcotlinx/coroutines/l3;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0, p0}, Lkotlinx/coroutines/l3;->h(Ljava/lang/Runnable;)Ljava/lang/Runnable;
+    invoke-interface {v0, p0}, Lcotlinx/coroutines/l3;->h(Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     move-result-object v0
 

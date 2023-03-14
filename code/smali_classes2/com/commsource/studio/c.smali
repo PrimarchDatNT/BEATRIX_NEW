@@ -8,7 +8,7 @@
     value = "SMAP\nGestureAdjustHelper.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GestureAdjustHelper.kt\ncom/commsource/studio/AlignCondition\n*L\n1#1,331:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,11 +22,11 @@
         "",
         "",
         "currentValue",
-        "Lkotlin/Triple;",
+        "Lcotlin/Triple;",
         "",
         "a",
-        "(F)Lkotlin/Triple;",
-        "Lkotlin/t1;",
+        "(F)Lcotlin/Triple;",
+        "Lcotlin/t1;",
         "b",
         "(F)V",
         "Z",
@@ -85,7 +85,7 @@
 
     move-object v0, p0
 
-    invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/c;-><init>(FFFILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/c;-><init>(FFFILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -105,7 +105,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(FFFILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(FFFILcotlin/jvm/internal/u;)V
     .locals 1
 
     and-int/lit8 p5, p4, 0x1
@@ -139,12 +139,12 @@
 
 
 # virtual methods
-.method public final a(F)Lkotlin/Triple;
+.method public final a(F)Lcotlin/Triple;
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(F)",
-            "Lkotlin/Triple<",
+            "Lcotlin/Triple<",
             "Ljava/lang/Float;",
             "Ljava/lang/Boolean;",
             "Ljava/lang/Boolean;",
@@ -208,7 +208,7 @@
     iput-boolean p1, p0, Lcom/commsource/studio/c;->a:Z
 
     .line 5
-    new-instance p1, Lkotlin/Triple;
+    new-instance p1, Lcotlin/Triple;
 
     invoke-virtual {p0}, Lcom/commsource/studio/c;->c()F
 
@@ -222,19 +222,19 @@
 
     move-result-object v3
 
-    invoke-direct {p1, v3, v0, v1}, Lkotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p1, v3, v0, v1}, Lcotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     goto :goto_1
 
     .line 6
     :cond_1
-    new-instance p1, Lkotlin/Triple;
+    new-instance p1, Lcotlin/Triple;
 
     invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v0
 
-    invoke-direct {p1, v0, v1, v1}, Lkotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p1, v0, v1, v1}, Lcotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 7
     :goto_1
@@ -264,13 +264,13 @@
     iput-boolean p1, p0, Lcom/commsource/studio/c;->a:Z
 
     .line 10
-    new-instance p1, Lkotlin/Triple;
+    new-instance p1, Lcotlin/Triple;
 
     invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v1
 
-    invoke-direct {p1, v1, v0, v0}, Lkotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p1, v1, v0, v0}, Lcotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Landroid/view/View;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onClick",
         "(Landroid/view/View;)V",
         "<anonymous>"
@@ -131,7 +131,7 @@
 
     invoke-direct {v4, p0}, Lcom/commsource/studio/LayerSelectGuideView$1$1;-><init>(Lcom/commsource/studio/LayerSelectGuideView$1;)V
 
-    invoke-static {v0, v1, v2, v3, v4}, Lcom/commsource/util/l0;->c(Landroid/view/View;ZJLkotlin/jvm/u/a;)V
+    invoke-static {v0, v1, v2, v3, v4}, Lcom/commsource/util/l0;->c(Landroid/view/View;ZJLcotlin/jvm/u/a;)V
 
     .line 8
     :goto_0

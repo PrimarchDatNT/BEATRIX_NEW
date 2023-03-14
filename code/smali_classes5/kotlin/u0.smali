@@ -1,10 +1,10 @@
-.class Lkotlin/u0;
+.class Lcotlin/u0;
 .super Ljava/lang/Object;
 .source "Standard.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,18 +22,18 @@
         "b",
         "(Ljava/lang/String;)Ljava/lang/Void;",
         "R",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "block",
         "h",
-        "(Lkotlin/jvm/u/a;)Ljava/lang/Object;",
+        "(Lcotlin/jvm/u/a;)Ljava/lang/Object;",
         "T",
-        "Lkotlin/Function1;",
-        "Lkotlin/q;",
+        "Lcotlin/Function1;",
+        "Lcotlin/q;",
         "g",
-        "(Ljava/lang/Object;Lkotlin/jvm/u/l;)Ljava/lang/Object;",
+        "(Ljava/lang/Object;Lcotlin/jvm/u/l;)Ljava/lang/Object;",
         "receiver",
         "k",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
         "c",
         "e",
@@ -45,7 +45,7 @@
         "times",
         "action",
         "f",
-        "(ILkotlin/jvm/u/l;)V",
+        "(ILcotlin/jvm/u/l;)V",
         "kotlin-stdlib"
     }
     k = 0x5
@@ -69,28 +69,28 @@
 
 .method private static final a()Ljava/lang/Void;
     .locals 3
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/NotImplementedError;
+    new-instance v0, Lcotlin/NotImplementedError;
 
     const/4 v1, 0x0
 
     const/4 v2, 0x1
 
-    invoke-direct {v0, v1, v2, v1}, Lkotlin/NotImplementedError;-><init>(Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1, v2, v1}, Lcotlin/NotImplementedError;-><init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     throw v0
 .end method
 
 .method private static final b(Ljava/lang/String;)Ljava/lang/Void;
     .locals 3
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/NotImplementedError;
+    new-instance v0, Lcotlin/NotImplementedError;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -106,62 +106,62 @@
 
     move-result-object p0
 
-    invoke-direct {v0, p0}, Lkotlin/NotImplementedError;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Lcotlin/NotImplementedError;-><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
 
-.method private static final c(Ljava/lang/Object;Lkotlin/jvm/u/l;)Ljava/lang/Object;
+.method private static final c(Ljava/lang/Object;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(TT;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)TT;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     .line 1
-    invoke-interface {p1, p0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object p0
 .end method
 
-.method private static final d(Ljava/lang/Object;Lkotlin/jvm/u/l;)Ljava/lang/Object;
+.method private static final d(Ljava/lang/Object;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(TT;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)TT;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-interface {p1, p0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object p0
 .end method
 
-.method private static final e(Ljava/lang/Object;Lkotlin/jvm/u/l;)Ljava/lang/Object;
+.method private static final e(Ljava/lang/Object;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -170,36 +170,36 @@
             "R:",
             "Ljava/lang/Object;",
             ">(TT;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+TR;>;)TR;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-interface {p1, p0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final f(ILkotlin/jvm/u/l;)V
+.method private static final f(ILcotlin/jvm/u/l;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const/4 v0, 0x0
@@ -212,7 +212,7 @@
 
     move-result-object v1
 
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v0, v0, 0x1
 
@@ -222,7 +222,7 @@
     return-void
 .end method
 
-.method private static final g(Ljava/lang/Object;Lkotlin/jvm/u/l;)Ljava/lang/Object;
+.method private static final g(Ljava/lang/Object;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -231,68 +231,68 @@
             "R:",
             "Ljava/lang/Object;",
             ">(TT;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+TR;>;)TR;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-interface {p1, p0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final h(Lkotlin/jvm/u/a;)Ljava/lang/Object;
+.method private static final h(Lcotlin/jvm/u/a;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/jvm/u/a<",
             "+TR;>;)TR;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p0}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final i(Ljava/lang/Object;Lkotlin/jvm/u/l;)Ljava/lang/Object;
+.method private static final i(Ljava/lang/Object;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(TT;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;",
             "Ljava/lang/Boolean;",
             ">;)TT;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     .line 1
-    invoke-interface {p1, p0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -313,29 +313,29 @@
     return-object p0
 .end method
 
-.method private static final j(Ljava/lang/Object;Lkotlin/jvm/u/l;)Ljava/lang/Object;
+.method private static final j(Ljava/lang/Object;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(TT;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;",
             "Ljava/lang/Boolean;",
             ">;)TT;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     .line 1
-    invoke-interface {p1, p0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -356,7 +356,7 @@
     return-object p0
 .end method
 
-.method private static final k(Ljava/lang/Object;Lkotlin/jvm/u/l;)Ljava/lang/Object;
+.method private static final k(Ljava/lang/Object;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -365,16 +365,16 @@
             "R:",
             "Ljava/lang/Object;",
             ">(TT;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;+TR;>;)TR;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-interface {p1, p0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 

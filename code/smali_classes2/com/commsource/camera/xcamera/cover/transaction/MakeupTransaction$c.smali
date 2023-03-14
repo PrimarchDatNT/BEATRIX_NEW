@@ -32,7 +32,7 @@
     value = "SMAP\nMakeupTransaction.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MakeupTransaction.kt\ncom/commsource/camera/xcamera/cover/transaction/MakeupTransaction$onAttachTransaction$3\n*L\n1#1,201:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/c;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/c;)V"
     }
@@ -110,7 +110,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v2}, Lcom/commsource/repository/child/makeup/h;->W()Z
@@ -165,7 +165,7 @@
 
     move-result-object v2
 
-    new-instance v4, Lkotlin/Pair;
+    new-instance v4, Lcotlin/Pair;
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -179,7 +179,7 @@
 
     move-result-object v1
 
-    invoke-direct {v4, v3, v1}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v4, v3, v1}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {v2, v4}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
@@ -197,7 +197,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/c;->b()Z

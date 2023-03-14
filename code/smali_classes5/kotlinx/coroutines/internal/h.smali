@@ -1,4 +1,4 @@
-.class public final Lkotlinx/coroutines/internal/h;
+.class public final Lcotlinx/coroutines/internal/h;
 .super Ljava/lang/Object;
 .source "FastServiceLoader.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nFastServiceLoader.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FastServiceLoader.kt\nkotlinx/coroutines/internal/FastServiceLoader\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 _Strings.kt\nkotlin/text/StringsKt___StringsKt\n*L\n1#1,161:1\n77#1,5:162\n77#1,5:167\n131#1,13:188\n134#1,3:201\n1265#2,12:172\n1360#2:184\n1429#2,3:185\n960#3,2:204\n*E\n*S KotlinDebug\n*F\n+ 1 FastServiceLoader.kt\nkotlinx/coroutines/internal/FastServiceLoader\n*L\n60#1,5:162\n61#1,5:167\n117#1,13:188\n117#1,3:201\n99#1,12:172\n101#1:184\n101#1,3:185\n153#1,2:204\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -18,15 +18,15 @@
         "\u0000D\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010 \n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u000b\u0008\u00c0\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008&\u0010\'J(\u0010\u0007\u001a\u0004\u0018\u00010\u00032\u000c\u0010\u0004\u001a\u0008\u0012\u0004\u0012\u00020\u00030\u00022\u0006\u0010\u0006\u001a\u00020\u0005H\u0082\u0008\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J1\u0010\u000e\u001a\u0008\u0012\u0004\u0012\u00028\u00000\r\"\u0004\u0008\u0000\u0010\t2\u000c\u0010\n\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u00022\u0006\u0010\u000c\u001a\u00020\u000bH\u0002\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ3\u0010\u0011\u001a\u00028\u0000\"\u0004\u0008\u0000\u0010\t2\u0006\u0010\u0010\u001a\u00020\u00052\u0006\u0010\u000c\u001a\u00020\u000b2\u000c\u0010\n\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0002H\u0002\u00a2\u0006\u0004\u0008\u0011\u0010\u0012J\u001d\u0010\u0015\u001a\u0008\u0012\u0004\u0012\u00020\u00050\r2\u0006\u0010\u0014\u001a\u00020\u0013H\u0002\u00a2\u0006\u0004\u0008\u0015\u0010\u0016J.\u0010\u001b\u001a\u00028\u0000\"\u0004\u0008\u0000\u0010\u0017*\u00020\u00182\u0012\u0010\u001a\u001a\u000e\u0012\u0004\u0012\u00020\u0018\u0012\u0004\u0012\u00028\u00000\u0019H\u0082\u0008\u00a2\u0006\u0004\u0008\u001b\u0010\u001cJ\u001d\u0010\u001f\u001a\u0008\u0012\u0004\u0012\u00020\u00050\r2\u0006\u0010\u001e\u001a\u00020\u001dH\u0002\u00a2\u0006\u0004\u0008\u001f\u0010 J\u0015\u0010!\u001a\u0008\u0012\u0004\u0012\u00020\u00030\rH\u0000\u00a2\u0006\u0004\u0008!\u0010\"J1\u0010#\u001a\u0008\u0012\u0004\u0012\u00028\u00000\r\"\u0004\u0008\u0000\u0010\t2\u000c\u0010\n\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u00022\u0006\u0010\u000c\u001a\u00020\u000bH\u0000\u00a2\u0006\u0004\u0008#\u0010\u000fR\u0016\u0010%\u001a\u00020\u00058\u0002@\u0002X\u0082T\u00a2\u0006\u0006\n\u0004\u0008\u0007\u0010$\u00a8\u0006("
     }
     d2 = {
-        "Lkotlinx/coroutines/internal/h;",
+        "Lcotlinx/coroutines/internal/h;",
         "",
         "Ljava/lang/Class;",
-        "Lkotlinx/coroutines/internal/MainDispatcherFactory;",
+        "Lcotlinx/coroutines/internal/MainDispatcherFactory;",
         "baseClass",
         "",
         "serviceClass",
         "a",
-        "(Ljava/lang/Class;Ljava/lang/String;)Lkotlinx/coroutines/internal/MainDispatcherFactory;",
+        "(Ljava/lang/Class;Ljava/lang/String;)Lcotlinx/coroutines/internal/MainDispatcherFactory;",
         "S",
         "service",
         "Ljava/lang/ClassLoader;",
@@ -43,10 +43,10 @@
         "(Ljava/net/URL;)Ljava/util/List;",
         "R",
         "Ljava/util/jar/JarFile;",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "block",
         "h",
-        "(Ljava/util/jar/JarFile;Lkotlin/jvm/u/l;)Ljava/lang/Object;",
+        "(Ljava/util/jar/JarFile;Lcotlin/jvm/u/l;)Ljava/lang/Object;",
         "Ljava/io/BufferedReader;",
         "r",
         "g",
@@ -72,7 +72,7 @@
 # static fields
 .field private static final a:Ljava/lang/String; = "META-INF/services/"
 
-.field public static final b:Lkotlinx/coroutines/internal/h;
+.field public static final b:Lcotlinx/coroutines/internal/h;
 
 
 # direct methods
@@ -80,11 +80,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/internal/h;
+    new-instance v0, Lcotlinx/coroutines/internal/h;
 
-    invoke-direct {v0}, Lkotlinx/coroutines/internal/h;-><init>()V
+    invoke-direct {v0}, Lcotlinx/coroutines/internal/h;-><init>()V
 
-    sput-object v0, Lkotlinx/coroutines/internal/h;->b:Lkotlinx/coroutines/internal/h;
+    sput-object v0, Lcotlinx/coroutines/internal/h;->b:Lcotlinx/coroutines/internal/h;
 
     return-void
 .end method
@@ -98,17 +98,17 @@
     return-void
 .end method
 
-.method private final a(Ljava/lang/Class;Ljava/lang/String;)Lkotlinx/coroutines/internal/MainDispatcherFactory;
+.method private final a(Ljava/lang/Class;Ljava/lang/String;)Lcotlinx/coroutines/internal/MainDispatcherFactory;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Class<",
-            "Lkotlinx/coroutines/internal/MainDispatcherFactory;",
+            "Lcotlinx/coroutines/internal/MainDispatcherFactory;",
             ">;",
             "Ljava/lang/String;",
             ")",
-            "Lkotlinx/coroutines/internal/MainDispatcherFactory;"
+            "Lcotlinx/coroutines/internal/MainDispatcherFactory;"
         }
     .end annotation
 
@@ -143,7 +143,7 @@
 
     move-result-object p1
 
-    check-cast p1, Lkotlinx/coroutines/internal/MainDispatcherFactory;
+    check-cast p1, Lcotlinx/coroutines/internal/MainDispatcherFactory;
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -254,7 +254,7 @@
 
     .line 1
     :try_start_0
-    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/internal/h;->e(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/List;
+    invoke-virtual {p0, p1, p2}, Lcotlinx/coroutines/internal/h;->e(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/List;
 
     move-result-object p1
     :try_end_0
@@ -268,7 +268,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lkotlin/collections/s;->I5(Ljava/lang/Iterable;)Ljava/util/List;
+    invoke-static {p1}, Lcotlin/collections/s;->I5(Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object p1
 
@@ -303,7 +303,7 @@
     const/4 v4, 0x0
 
     .line 2
-    invoke-static {v0, v1, v2, v3, v4}, Lkotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
+    invoke-static {v0, v1, v2, v3, v4}, Lcotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v1
 
@@ -312,20 +312,20 @@
     const-string p1, "jar:file:"
 
     .line 3
-    invoke-static {v0, p1, v4, v3, v4}, Lkotlin/text/m;->i5(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, p1, v4, v3, v4}, Lcotlin/text/m;->i5(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
     const/16 v1, 0x21
 
-    invoke-static {p1, v1, v4, v3, v4}, Lkotlin/text/m;->p5(Ljava/lang/String;CLjava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1, v1, v4, v3, v4}, Lcotlin/text/m;->p5(Ljava/lang/String;CLjava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
     const-string v1, "!/"
 
     .line 4
-    invoke-static {v0, v1, v4, v3, v4}, Lkotlin/text/m;->i5(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, v1, v4, v3, v4}, Lcotlin/text/m;->i5(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -358,16 +358,16 @@
 
     .line 7
     :try_start_1
-    sget-object v0, Lkotlinx/coroutines/internal/h;->b:Lkotlinx/coroutines/internal/h;
+    sget-object v0, Lcotlinx/coroutines/internal/h;->b:Lcotlinx/coroutines/internal/h;
 
-    invoke-direct {v0, p1}, Lkotlinx/coroutines/internal/h;->g(Ljava/io/BufferedReader;)Ljava/util/List;
+    invoke-direct {v0, p1}, Lcotlinx/coroutines/internal/h;->g(Ljava/io/BufferedReader;)Ljava/util/List;
 
     move-result-object v0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
     :try_start_2
-    invoke-static {p1, v4}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p1, v4}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_3
 
@@ -398,7 +398,7 @@
     move-exception v2
 
     :try_start_5
-    invoke-static {p1, v0}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {p1, v0}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     throw v2
     :try_end_5
@@ -429,7 +429,7 @@
     move-exception v0
 
     .line 14
-    invoke-static {p1, v0}, Lkotlin/l;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
+    invoke-static {p1, v0}, Lcotlin/l;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
     .line 15
     throw p1
@@ -450,16 +450,16 @@
 
     .line 17
     :try_start_8
-    sget-object p1, Lkotlinx/coroutines/internal/h;->b:Lkotlinx/coroutines/internal/h;
+    sget-object p1, Lcotlinx/coroutines/internal/h;->b:Lcotlinx/coroutines/internal/h;
 
-    invoke-direct {p1, v0}, Lkotlinx/coroutines/internal/h;->g(Ljava/io/BufferedReader;)Ljava/util/List;
+    invoke-direct {p1, v0}, Lcotlinx/coroutines/internal/h;->g(Ljava/io/BufferedReader;)Ljava/util/List;
 
     move-result-object p1
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_6
 
     .line 18
-    invoke-static {v0, v4}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {v0, v4}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     return-object p1
 
@@ -474,7 +474,7 @@
     :catchall_7
     move-exception v1
 
-    invoke-static {v0, p1}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {v0, p1}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     throw v1
 .end method
@@ -513,13 +513,13 @@
     const/4 v4, 0x0
 
     .line 3
-    invoke-static {v1, v3, v4, v2, v4}, Lkotlin/text/m;->q5(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static {v1, v3, v4, v2, v4}, Lcotlin/text/m;->q5(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_7
 
-    invoke-static {v1}, Lkotlin/text/m;->v5(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    invoke-static {v1}, Lcotlin/text/m;->v5(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     move-result-object v1
 
@@ -630,24 +630,24 @@
 
     .line 9
     :cond_7
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v0, "null cannot be cast to non-null type kotlin.CharSequence"
 
-    invoke-direct {p1, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
     .line 10
     :cond_8
-    invoke-static {v0}, Lkotlin/collections/s;->I5(Ljava/lang/Iterable;)Ljava/util/List;
+    invoke-static {v0}, Lcotlin/collections/s;->I5(Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method private final h(Ljava/util/jar/JarFile;Lkotlin/jvm/u/l;)Ljava/lang/Object;
+.method private final h(Ljava/util/jar/JarFile;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 2
     .param p1    # Ljava/util/jar/JarFile;
         .annotation build Ln/e/a/d;
@@ -659,7 +659,7 @@
             "Ljava/lang/Object;",
             ">(",
             "Ljava/util/jar/JarFile;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/util/jar/JarFile;",
             "+TR;>;)TR;"
@@ -670,13 +670,13 @@
 
     .line 1
     :try_start_0
-    invoke-interface {p2, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 2
     :try_start_1
@@ -685,7 +685,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 3
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object p2
 
@@ -708,7 +708,7 @@
     move-exception v1
 
     .line 6
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 7
     :try_start_3
@@ -717,7 +717,7 @@
     .catchall {:try_start_3 .. :try_end_3} :catchall_3
 
     .line 8
-    invoke-static {v0}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     throw v1
 
@@ -725,7 +725,7 @@
     move-exception p1
 
     .line 9
-    invoke-static {p2, p1}, Lkotlin/l;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
+    invoke-static {p2, p1}, Lcotlin/l;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
     .line 10
     throw p2
@@ -739,7 +739,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lkotlinx/coroutines/internal/MainDispatcherFactory;",
+            "Lcotlinx/coroutines/internal/MainDispatcherFactory;",
             ">;"
         }
     .end annotation
@@ -748,10 +748,10 @@
     .end annotation
 
     .line 1
-    const-class v0, Lkotlinx/coroutines/internal/MainDispatcherFactory;
+    const-class v0, Lcotlinx/coroutines/internal/MainDispatcherFactory;
 
     .line 2
-    invoke-static {}, Lkotlinx/coroutines/internal/i;->a()Z
+    invoke-static {}, Lcotlinx/coroutines/internal/i;->a()Z
 
     move-result v1
 
@@ -762,7 +762,7 @@
 
     move-result-object v1
 
-    invoke-direct {p0, v0, v1}, Lkotlinx/coroutines/internal/h;->c(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/List;
+    invoke-direct {p0, v0, v1}, Lcotlinx/coroutines/internal/h;->c(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/List;
 
     move-result-object v0
 
@@ -814,7 +814,7 @@
 
     move-result-object v2
 
-    check-cast v2, Lkotlinx/coroutines/internal/MainDispatcherFactory;
+    check-cast v2, Lcotlinx/coroutines/internal/MainDispatcherFactory;
     :try_end_1
     .catch Ljava/lang/ClassNotFoundException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -863,7 +863,7 @@
 
     move-result-object v2
 
-    check-cast v2, Lkotlinx/coroutines/internal/MainDispatcherFactory;
+    check-cast v2, Lcotlinx/coroutines/internal/MainDispatcherFactory;
     :try_end_3
     .catch Ljava/lang/ClassNotFoundException; {:try_start_3 .. :try_end_3} :catch_1
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
@@ -892,7 +892,7 @@
 
     move-result-object v1
 
-    invoke-direct {p0, v0, v1}, Lkotlinx/coroutines/internal/h;->c(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/List;
+    invoke-direct {p0, v0, v1}, Lcotlinx/coroutines/internal/h;->c(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/List;
 
     move-result-object v1
 
@@ -959,7 +959,7 @@
 
     const-string v1, "java.util.Collections.list(this)"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     new-instance v1, Ljava/util/ArrayList;
@@ -986,20 +986,20 @@
     check-cast v2, Ljava/net/URL;
 
     .line 7
-    sget-object v3, Lkotlinx/coroutines/internal/h;->b:Lkotlinx/coroutines/internal/h;
+    sget-object v3, Lcotlinx/coroutines/internal/h;->b:Lcotlinx/coroutines/internal/h;
 
-    invoke-direct {v3, v2}, Lkotlinx/coroutines/internal/h;->f(Ljava/net/URL;)Ljava/util/List;
+    invoke-direct {v3, v2}, Lcotlinx/coroutines/internal/h;->f(Ljava/net/URL;)Ljava/util/List;
 
     move-result-object v2
 
     .line 8
-    invoke-static {v1, v2}, Lkotlin/collections/s;->q0(Ljava/util/Collection;Ljava/lang/Iterable;)Z
+    invoke-static {v1, v2}, Lcotlin/collections/s;->q0(Ljava/util/Collection;Ljava/lang/Iterable;)Z
 
     goto :goto_0
 
     .line 9
     :cond_0
-    invoke-static {v1}, Lkotlin/collections/s;->N5(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {v1}, Lcotlin/collections/s;->N5(Ljava/lang/Iterable;)Ljava/util/Set;
 
     move-result-object v0
 
@@ -1017,7 +1017,7 @@
 
     const/16 v2, 0xa
 
-    invoke-static {v0, v2}, Lkotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
+    invoke-static {v0, v2}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
 
     move-result v2
 
@@ -1043,9 +1043,9 @@
     check-cast v2, Ljava/lang/String;
 
     .line 14
-    sget-object v3, Lkotlinx/coroutines/internal/h;->b:Lkotlinx/coroutines/internal/h;
+    sget-object v3, Lcotlinx/coroutines/internal/h;->b:Lcotlinx/coroutines/internal/h;
 
-    invoke-direct {v3, v2, p2, p1}, Lkotlinx/coroutines/internal/h;->b(Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-direct {v3, v2, p2, p1}, Lcotlinx/coroutines/internal/h;->b(Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v2
 

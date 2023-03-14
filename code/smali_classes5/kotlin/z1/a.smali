@@ -1,9 +1,9 @@
-.class public final Lkotlin/z1/a;
-.super Lkotlin/z1/d;
+.class public final Lcotlin/z1/a;
+.super Lcotlin/z1/d;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/z1/d;-><init>()V
+    invoke-direct {p0}, Lcotlin/z1/d;-><init>()V
 
     return-void
 .end method
@@ -51,7 +51,7 @@
         }
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/z1/b;->g(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
+    invoke-static {p0, p1}, Lcotlin/z1/b;->g(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
 
     move-result p0
 
@@ -73,7 +73,7 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    invoke-static {}, Lkotlin/z1/b;->q()Ljava/util/Comparator;
+    invoke-static {}, Lcotlin/z1/b;->q()Ljava/util/Comparator;
 
     move-result-object v0
 

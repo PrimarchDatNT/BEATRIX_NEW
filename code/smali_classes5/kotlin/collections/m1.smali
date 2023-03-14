@@ -1,10 +1,10 @@
-.class public abstract Lkotlin/collections/m1;
+.class public abstract Lcotlin/collections/m1;
 .super Ljava/lang/Object;
 .source "UIterators.kt"
 
 # interfaces
 .implements Ljava/util/Iterator;
-.implements Lkotlin/jvm/internal/x0/a;
+.implements Lcotlin/jvm/internal/x0/a;
 
 
 # annotations
@@ -12,13 +12,13 @@
     value = {
         "Ljava/lang/Object;",
         "Ljava/util/Iterator<",
-        "Lkotlin/j1;",
+        "Lcotlin/j1;",
         ">;",
-        "Lkotlin/jvm/internal/x0/a;"
+        "Lcotlin/jvm/internal/x0/a;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,9 +28,9 @@
         "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0010(\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0008\'\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u0016\u0010\u0003\u001a\u00020\u0002H\u0086\u0002\u00f8\u0001\u0000\u00f8\u0001\u0001\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u0015\u0010\u0005\u001a\u00020\u0002H&\u00f8\u0001\u0000\u00f8\u0001\u0001\u00a2\u0006\u0004\u0008\u0005\u0010\u0004\u00f8\u0001\u0000\u0082\u0002\u0008\n\u0002\u0008\u0019\n\u0002\u0008!\u00a8\u0006\u0008"
     }
     d2 = {
-        "Lkotlin/collections/m1;",
+        "Lcotlin/collections/m1;",
         "",
-        "Lkotlin/j1;",
+        "Lcotlin/j1;",
         "a",
         "()J",
         "b",
@@ -46,10 +46,10 @@
     }
 .end annotation
 
-.annotation build Lkotlin/p;
+.annotation build Lcotlin/p;
 .end annotation
 
-.annotation build Lkotlin/s0;
+.annotation build Lcotlin/s0;
     version = "1.3"
 .end annotation
 
@@ -70,7 +70,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/m1;->b()J
+    invoke-virtual {p0}, Lcotlin/collections/m1;->b()J
 
     move-result-wide v0
 
@@ -84,11 +84,11 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/m1;->a()J
+    invoke-virtual {p0}, Lcotlin/collections/m1;->a()J
 
     move-result-wide v0
 
-    invoke-static {v0, v1}, Lkotlin/j1;->f(J)Lkotlin/j1;
+    invoke-static {v0, v1}, Lcotlin/j1;->f(J)Lcotlin/j1;
 
     move-result-object v0
 

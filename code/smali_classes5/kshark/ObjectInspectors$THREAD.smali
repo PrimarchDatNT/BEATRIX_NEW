@@ -13,7 +13,7 @@
     name = "THREAD"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Lkshark/ObjectInspectors;",
         "Lkshark/v;",
         "reporter",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "inspect",
         "(Lkshark/v;)V",
         "shark"
@@ -53,7 +53,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, p1, p2, v0}, Lkshark/ObjectInspectors;-><init>(Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, p1, p2, v0}, Lkshark/ObjectInspectors;-><init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -69,18 +69,18 @@
 
     const-string v0, "reporter"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     const-class v0, Ljava/lang/Thread;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v0
 
     sget-object v1, Lkshark/ObjectInspectors$THREAD$inspect$1;->INSTANCE:Lkshark/ObjectInspectors$THREAD$inspect$1;
 
-    invoke-virtual {p1, v0, v1}, Lkshark/v;->h(Lkotlin/reflect/d;Lkotlin/jvm/u/p;)V
+    invoke-virtual {p1, v0, v1}, Lkshark/v;->h(Lcotlin/reflect/d;Lcotlin/jvm/u/p;)V
 
     return-void
 .end method

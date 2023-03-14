@@ -1,14 +1,14 @@
 .class final Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "ImageStudioViewModel.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/commsource/studio/ImageStudioViewModel;->J1(Ljava/util/List;ZLkotlin/jvm/u/a;)V
+    value = Lcom/commsource/studio/ImageStudioViewModel;->J1(Ljava/util/List;ZLcotlin/jvm/u/a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,9 +18,9 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
-        "Lkotlin/t1;",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
@@ -29,7 +29,7 @@
     value = "SMAP\nImageStudioViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ImageStudioViewModel.kt\ncom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,1745:1\n1819#2,2:1746\n*E\n*S KotlinDebug\n*F\n+ 1 ImageStudioViewModel.kt\ncom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1\n*L\n1288#1,2:1746\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "()V",
         "<anonymous>"
@@ -58,13 +58,13 @@
 
 .field final synthetic $oldKey:Ljava/lang/String;
 
-.field final synthetic $refreshedCallback:Lkotlin/jvm/u/a;
+.field final synthetic $refreshedCallback:Lcotlin/jvm/u/a;
 
 .field final synthetic this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
 
 # direct methods
-.method constructor <init>(Lcom/commsource/studio/ImageStudioViewModel;Ljava/util/List;Ljava/lang/String;Lkotlin/jvm/u/a;)V
+.method constructor <init>(Lcom/commsource/studio/ImageStudioViewModel;Ljava/util/List;Ljava/lang/String;Lcotlin/jvm/u/a;)V
     .locals 0
 
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
@@ -73,11 +73,11 @@
 
     iput-object p3, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->$oldKey:Ljava/lang/String;
 
-    iput-object p4, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->$refreshedCallback:Lkotlin/jvm/u/a;
+    iput-object p4, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->$refreshedCallback:Lcotlin/jvm/u/a;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -94,7 +94,7 @@
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->invoke()V
 
-    sget-object v1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -136,7 +136,7 @@
 
     const-string v2, "layerInfoManager.pictureDataMap.entries"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -223,7 +223,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {v2}, Lcom/commsource/studio/y;->e()Landroid/graphics/Bitmap;
@@ -236,7 +236,7 @@
 
     const-string v5, "TextureHelper.createFboW\u2026.value.imageData!!.image)"
 
-    invoke-static {v2, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     invoke-virtual {v3, v4, v2}, Lcom/commsource/editengine/d;->g(Ljava/lang/String;Lcom/commsource/easyeditor/utils/opengl/f;)V
@@ -346,7 +346,7 @@
 
     const/4 v8, 0x0
 
-    invoke-static/range {v2 .. v8}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v8}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 19
     iget-object v9, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
@@ -361,7 +361,7 @@
 
     const/4 v14, 0x0
 
-    invoke-static/range {v9 .. v14}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v9 .. v14}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 20
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
@@ -395,15 +395,15 @@
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->Q()V
 
     .line 23
-    iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->$refreshedCallback:Lkotlin/jvm/u/a;
+    iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$refreshLayerInfos$1;->$refreshedCallback:Lcotlin/jvm/u/a;
 
     if-eqz v1, :cond_4
 
-    invoke-interface {v1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/t1;
+    check-cast v1, Lcotlin/t1;
 
     .line 24
     :cond_4

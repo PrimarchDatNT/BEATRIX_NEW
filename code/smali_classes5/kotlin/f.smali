@@ -1,10 +1,10 @@
-.class public final Lkotlin/f;
+.class public final Lcotlin/f;
 .super Ljava/lang/Object;
 .source "DeepRecursive.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -16,20 +16,20 @@
     d2 = {
         "T",
         "R",
-        "Lkotlin/e;",
+        "Lcotlin/e;",
         "value",
         "c",
-        "(Lkotlin/e;Ljava/lang/Object;)Ljava/lang/Object;",
-        "Lkotlin/Result;",
+        "(Lcotlin/e;Ljava/lang/Object;)Ljava/lang/Object;",
+        "Lcotlin/Result;",
         "",
         "a",
         "Ljava/lang/Object;",
         "UNDEFINED_RESULT",
-        "Lkotlin/Function3;",
-        "Lkotlin/g;",
-        "Lkotlin/coroutines/c;",
-        "Lkotlin/q;",
-        "Lkotlin/o;",
+        "Lcotlin/Function3;",
+        "Lcotlin/g;",
+        "Lcotlin/coroutines/c;",
+        "Lcotlin/q;",
+        "Lcotlin/o;",
         "DeepRecursiveFunctionBlock",
         "kotlin-stdlib"
     }
@@ -51,24 +51,24 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlin/Result;->Companion:Lkotlin/Result$a;
+    sget-object v0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lkotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
 
-    sput-object v0, Lkotlin/f;->a:Ljava/lang/Object;
+    invoke-static {v0}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    sput-object v0, Lcotlin/f;->a:Ljava/lang/Object;
 
     return-void
 .end method
 
 .method private static synthetic a()V
     .locals 0
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
     return-void
@@ -78,14 +78,14 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlin/f;->a:Ljava/lang/Object;
+    sget-object v0, Lcotlin/f;->a:Ljava/lang/Object;
 
     return-object v0
 .end method
 
-.method public static final c(Lkotlin/e;Ljava/lang/Object;)Ljava/lang/Object;
+.method public static final c(Lcotlin/e;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p0    # Lkotlin/e;
+    .param p0    # Lcotlin/e;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -96,32 +96,32 @@
             "R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/e<",
+            "Lcotlin/e<",
             "TT;TR;>;TT;)TR;"
         }
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.4"
     .end annotation
 
     const-string v0, "$this$invoke"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/h;
+    new-instance v0, Lcotlin/h;
 
-    invoke-virtual {p0}, Lkotlin/e;->a()Lkotlin/jvm/u/q;
+    invoke-virtual {p0}, Lcotlin/e;->a()Lcotlin/jvm/u/q;
 
     move-result-object p0
 
-    invoke-direct {v0, p0, p1}, Lkotlin/h;-><init>(Lkotlin/jvm/u/q;Ljava/lang/Object;)V
+    invoke-direct {v0, p0, p1}, Lcotlin/h;-><init>(Lcotlin/jvm/u/q;Ljava/lang/Object;)V
 
-    invoke-virtual {v0}, Lkotlin/h;->n()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlin/h;->n()Ljava/lang/Object;
 
     move-result-object p0
 

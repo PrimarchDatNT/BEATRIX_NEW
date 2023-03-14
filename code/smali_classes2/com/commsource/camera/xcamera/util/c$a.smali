@@ -17,7 +17,7 @@
     value = "SMAP\nEffectUseLogger.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EffectUseLogger.kt\ncom/commsource/camera/xcamera/util/EffectUseLogger$Companion\n*L\n1#1,302:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -37,7 +37,7 @@
         "faceIndex",
         "Ljava/util/HashMap;",
         "",
-        "Lkotlin/collections/HashMap;",
+        "Lcotlin/collections/HashMap;",
         "b",
         "(Landroid/util/SparseArray;Landroid/util/SparseArray;I)Ljava/util/HashMap;",
         "Lcom/commsource/camera/fastcapture/SelfiePhotoData;",
@@ -72,7 +72,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2

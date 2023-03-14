@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/channels/y$a;
+.class public final Lcotlinx/coroutines/channels/y$a;
 .super Ljava/lang/Object;
 .source "Channel.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/channels/y;
+    value = Lcotlinx/coroutines/channels/y;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,32 +31,32 @@
 
 
 # direct methods
-.method public static synthetic a(Lkotlinx/coroutines/channels/y;)V
+.method public static synthetic a(Lcotlinx/coroutines/channels/y;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/channels/y<",
+            "Lcotlinx/coroutines/channels/y<",
             "+TE;>;)V"
         }
     .end annotation
 
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->HIDDEN:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->HIDDEN:Lcotlin/DeprecationLevel;
         message = "Since 1.2.0, binary compatibility with versions <= 1.1.x"
     .end annotation
 
     const/4 v0, 0x0
 
     .line 1
-    invoke-interface {p0, v0}, Lkotlinx/coroutines/channels/y;->d(Ljava/util/concurrent/CancellationException;)V
+    invoke-interface {p0, v0}, Lcotlinx/coroutines/channels/y;->d(Ljava/util/concurrent/CancellationException;)V
 
     return-void
 .end method
 
-.method public static synthetic b(Lkotlinx/coroutines/channels/y;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
+.method public static synthetic b(Lcotlinx/coroutines/channels/y;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
     .locals 0
 
     if-nez p3, :cond_1
@@ -69,7 +69,7 @@
 
     .line 1
     :cond_0
-    invoke-interface {p0, p1}, Lkotlinx/coroutines/channels/y;->d(Ljava/util/concurrent/CancellationException;)V
+    invoke-interface {p0, p1}, Lcotlinx/coroutines/channels/y;->d(Ljava/util/concurrent/CancellationException;)V
 
     return-void
 
@@ -84,7 +84,7 @@
     throw p0
 .end method
 
-.method public static synthetic c(Lkotlinx/coroutines/channels/y;Ljava/lang/Throwable;ILjava/lang/Object;)Z
+.method public static synthetic c(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;ILjava/lang/Object;)Z
     .locals 0
 
     if-nez p3, :cond_1
@@ -97,7 +97,7 @@
 
     .line 1
     :cond_0
-    invoke-interface {p0, p1}, Lkotlinx/coroutines/channels/y;->a(Ljava/lang/Throwable;)Z
+    invoke-interface {p0, p1}, Lcotlinx/coroutines/channels/y;->a(Ljava/lang/Throwable;)Z
 
     move-result p0
 
@@ -116,7 +116,7 @@
 
 .method public static synthetic d()V
     .locals 0
-    .annotation build Lkotlinx/coroutines/s1;
+    .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
     return-void
@@ -124,7 +124,7 @@
 
 .method public static synthetic e()V
     .locals 0
-    .annotation build Lkotlinx/coroutines/s1;
+    .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
     return-void
@@ -132,7 +132,7 @@
 
 .method public static synthetic f()V
     .locals 0
-    .annotation build Lkotlinx/coroutines/y1;
+    .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
     return-void
@@ -140,10 +140,10 @@
 
 .method public static synthetic g()V
     .locals 0
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->WARNING:Lcotlin/DeprecationLevel;
         message = "Deprecated in favor of onReceiveOrClosed and onReceiveOrNull extension"
-        replaceWith = .subannotation Lkotlin/q0;
+        replaceWith = .subannotation Lcotlin/q0;
             expression = "onReceiveOrNull"
             imports = {
                 "kotlinx.coroutines.channels.onReceiveOrNull"
@@ -151,10 +151,10 @@
         .end subannotation
     .end annotation
 
-    .annotation build Lkotlin/internal/g;
+    .annotation build Lcotlin/internal/g;
     .end annotation
 
-    .annotation build Lkotlinx/coroutines/r2;
+    .annotation build Lcotlinx/coroutines/r2;
     .end annotation
 
     return-void

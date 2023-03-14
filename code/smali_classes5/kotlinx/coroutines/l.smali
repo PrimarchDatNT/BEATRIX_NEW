@@ -1,23 +1,23 @@
-.class public abstract Lkotlinx/coroutines/l;
+.class public abstract Lcotlinx/coroutines/l;
 .super Ljava/lang/Object;
 .source "CompletionHandler.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/u/l<",
         "Ljava/lang/Throwable;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,14 +27,14 @@
         "\u0000 \n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0008 \u0018\u00002#\u0012\u0015\u0012\u0013\u0018\u00010\u0002\u00a2\u0006\u000c\u0008\u0003\u0012\u0008\u0008\u0004\u0012\u0004\u0008\u0008(\u0005\u0012\u0004\u0012\u00020\u00060\u0001j\u0002`\u0007B\u0007\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u001a\u0010\u0008\u001a\u00020\u00062\u0008\u0010\u0005\u001a\u0004\u0018\u00010\u0002H\u00a6\u0002\u00a2\u0006\u0004\u0008\u0008\u0010\t\u00a8\u0006\u000c"
     }
     d2 = {
-        "Lkotlinx/coroutines/l;",
-        "Lkotlin/Function1;",
+        "Lcotlinx/coroutines/l;",
+        "Lcotlin/Function1;",
         "",
-        "Lkotlin/k0;",
+        "Lcotlin/k0;",
         "name",
         "cause",
-        "Lkotlin/t1;",
-        "Lkotlinx/coroutines/CompletionHandler;",
+        "Lcotlin/t1;",
+        "Lcotlinx/coroutines/CompletionHandler;",
         "a",
         "(Ljava/lang/Throwable;)V",
         "<init>",

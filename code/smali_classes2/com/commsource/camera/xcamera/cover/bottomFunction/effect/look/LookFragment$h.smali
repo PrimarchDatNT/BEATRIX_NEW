@@ -34,7 +34,7 @@
     value = "SMAP\nLookFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LookFragment.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$initView$4\n*L\n1#1,526:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -48,7 +48,7 @@
         "Lcom/meitu/template/bean/LookMaterial;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/util/List;)V"
     }
@@ -96,13 +96,13 @@
     if-eqz p1, :cond_1
 
     .line 1
-    new-instance v1, Lkotlin/jvm/internal/Ref$IntRef;
+    new-instance v1, Lcotlin/jvm/internal/Ref$IntRef;
 
-    invoke-direct {v1}, Lkotlin/jvm/internal/Ref$IntRef;-><init>()V
+    invoke-direct {v1}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
 
     const/4 v2, 0x0
 
-    iput v2, v1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput v2, v1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     .line 2
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
@@ -129,7 +129,7 @@
 
     aput-object v6, v5, v2
 
-    invoke-static {v5}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v5}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v2
 
@@ -238,7 +238,7 @@
 
     new-instance v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;
 
-    invoke-direct {v3, p1, v1, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;-><init>(Ljava/util/List;Lkotlin/jvm/internal/Ref$IntRef;Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h;)V
+    invoke-direct {v3, p1, v1, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h$a;-><init>(Ljava/util/List;Lcotlin/jvm/internal/Ref$IntRef;Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$h;)V
 
     invoke-static {v2, v3}, Lcom/commsource/util/g2;->i(Landroid/content/Context;Ljava/lang/Runnable;)V
 

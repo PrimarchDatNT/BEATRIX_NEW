@@ -16,7 +16,7 @@
     value = "SMAP\nIDCardFillLightCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 IDCardFillLightCover.kt\ncom/commsource/camera/xcamera/idcard/IDCardFillLightCover\n*L\n1#1,58:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,13 +32,13 @@
         "",
         "q",
         "()I",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "v",
         "()V",
         "x",
         "Lcom/commsource/camera/xcamera/BpCameraViewModel;",
         "c",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "C",
         "()Lcom/commsource/camera/xcamera/BpCameraViewModel;",
         "bpCameraViewModel",
@@ -60,12 +60,12 @@
 
 
 # instance fields
-.field private final c:Lkotlin/w;
+.field private final c:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -83,22 +83,22 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover$bpCameraViewModel$2;-><init>(Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover;->c:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover;->c:Lcotlin/w;
 
     .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover$confitViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover$confitViewModel$2;-><init>(Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover;->d:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover;->d:Lcotlin/w;
 
     return-void
 .end method
@@ -114,9 +114,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover;->c:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover;->c:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -136,9 +136,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 

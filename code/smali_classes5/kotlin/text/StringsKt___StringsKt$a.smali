@@ -1,15 +1,15 @@
-.class public final Lkotlin/text/StringsKt___StringsKt$a;
+.class public final Lcotlin/text/StringsKt___StringsKt$a;
 .super Ljava/lang/Object;
 .source "Iterables.kt"
 
 # interfaces
 .implements Ljava/lang/Iterable;
-.implements Lkotlin/jvm/internal/x0/a;
+.implements Lcotlin/jvm/internal/x0/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/text/StringsKt___StringsKt;->U5(Ljava/lang/CharSequence;)Ljava/lang/Iterable;
+    value = Lcotlin/text/StringsKt___StringsKt;->U5(Ljava/lang/CharSequence;)Ljava/lang/Iterable;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -23,7 +23,7 @@
         "Ljava/lang/Iterable<",
         "Ljava/lang/Character;",
         ">;",
-        "Lkotlin/jvm/internal/x0/a;"
+        "Lcotlin/jvm/internal/x0/a;"
     }
 .end annotation
 
@@ -31,7 +31,7 @@
     value = "SMAP\nIterables.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Iterables.kt\nkotlin/collections/CollectionsKt__IterablesKt$Iterable$1\n+ 2 _Strings.kt\nkotlin/text/StringsKt___StringsKt\n*L\n1#1,93:1\n2360#2:94\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -66,7 +66,7 @@
 .method public constructor <init>(Ljava/lang/CharSequence;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/text/StringsKt___StringsKt$a;->a:Ljava/lang/CharSequence;
+    iput-object p1, p0, Lcotlin/text/StringsKt___StringsKt$a;->a:Ljava/lang/CharSequence;
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -91,9 +91,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/StringsKt___StringsKt$a;->a:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lcotlin/text/StringsKt___StringsKt$a;->a:Ljava/lang/CharSequence;
 
-    invoke-static {v0}, Lkotlin/text/StringsKt__StringsKt;->x3(Ljava/lang/CharSequence;)Lkotlin/collections/r;
+    invoke-static {v0}, Lcotlin/text/StringsKt__StringsKt;->x3(Ljava/lang/CharSequence;)Lcotlin/collections/r;
 
     move-result-object v0
 

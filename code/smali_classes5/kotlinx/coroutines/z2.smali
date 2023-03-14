@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/z2;
+.class public final Lcotlinx/coroutines/z2;
 .super Ljava/lang/Object;
 .source "SchedulerTask.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -14,17 +14,17 @@
         "\u0000\u001c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u001a\u0018\u0010\u0003\u001a\u00020\u0002*\u00060\u0000j\u0002`\u0001H\u0080\u0008\u00a2\u0006\u0004\u0008\u0003\u0010\u0004\"(\u0010\u000b\u001a\u00060\u0000j\u0002`\u0001*\u00060\u0005j\u0002`\u00068@@\u0000X\u0080\u0004\u00a2\u0006\u000c\u0012\u0004\u0008\t\u0010\n\u001a\u0004\u0008\u0007\u0010\u0008*\u000c\u0008\u0000\u0010\u000c\"\u00020\u00052\u00020\u0005*\u000c\u0008\u0000\u0010\r\"\u00020\u00002\u00020\u0000\u00a8\u0006\u000e"
     }
     d2 = {
-        "Lkotlinx/coroutines/scheduling/i;",
-        "Lkotlinx/coroutines/SchedulerTaskContext;",
-        "Lkotlin/t1;",
+        "Lcotlinx/coroutines/scheduling/i;",
+        "Lcotlinx/coroutines/SchedulerTaskContext;",
+        "Lcotlin/t1;",
         "a",
-        "(Lkotlinx/coroutines/scheduling/i;)V",
-        "Lkotlinx/coroutines/scheduling/h;",
-        "Lkotlinx/coroutines/SchedulerTask;",
+        "(Lcotlinx/coroutines/scheduling/i;)V",
+        "Lcotlinx/coroutines/scheduling/h;",
+        "Lcotlinx/coroutines/SchedulerTask;",
         "b",
-        "(Lkotlinx/coroutines/scheduling/h;)Lkotlinx/coroutines/scheduling/i;",
+        "(Lcotlinx/coroutines/scheduling/h;)Lcotlinx/coroutines/scheduling/i;",
         "taskContext$annotations",
-        "(Lkotlinx/coroutines/scheduling/h;)V",
+        "(Lcotlinx/coroutines/scheduling/h;)V",
         "taskContext",
         "SchedulerTask",
         "SchedulerTaskContext",
@@ -40,22 +40,22 @@
 
 
 # direct methods
-.method public static final a(Lkotlinx/coroutines/scheduling/i;)V
+.method public static final a(Lcotlinx/coroutines/scheduling/i;)V
     .locals 0
-    .param p0    # Lkotlinx/coroutines/scheduling/i;
+    .param p0    # Lcotlinx/coroutines/scheduling/i;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
 
     .line 1
-    invoke-interface {p0}, Lkotlinx/coroutines/scheduling/i;->i()V
+    invoke-interface {p0}, Lcotlinx/coroutines/scheduling/i;->i()V
 
     return-void
 .end method
 
-.method public static final b(Lkotlinx/coroutines/scheduling/h;)Lkotlinx/coroutines/scheduling/i;
+.method public static final b(Lcotlinx/coroutines/scheduling/h;)Lcotlinx/coroutines/scheduling/i;
     .locals 0
-    .param p0    # Lkotlinx/coroutines/scheduling/h;
+    .param p0    # Lcotlinx/coroutines/scheduling/h;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -63,12 +63,12 @@
     .end annotation
 
     .line 1
-    iget-object p0, p0, Lkotlinx/coroutines/scheduling/h;->b:Lkotlinx/coroutines/scheduling/i;
+    iget-object p0, p0, Lcotlinx/coroutines/scheduling/h;->b:Lcotlinx/coroutines/scheduling/i;
 
     return-object p0
 .end method
 
-.method public static synthetic c(Lkotlinx/coroutines/scheduling/h;)V
+.method public static synthetic c(Lcotlinx/coroutines/scheduling/h;)V
     .locals 0
 
     return-void

@@ -1,9 +1,9 @@
 .class final Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "FormulaViewModel.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/a;
+.implements Lcotlin/jvm/u/a;
 
 
 # annotations
@@ -18,10 +18,10 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/a<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/a<",
         "Landroidx/lifecycle/MediatorLiveData<",
-        "Lkotlin/Pair<",
+        "Lcotlin/Pair<",
         "+",
         "Ljava/util/List<",
         "+",
@@ -38,7 +38,7 @@
     value = "SMAP\nFormulaViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FormulaViewModel.kt\ncom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2\n*L\n1#1,213:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -49,7 +49,7 @@
     }
     d2 = {
         "Landroidx/lifecycle/MediatorLiveData;",
-        "Lkotlin/Pair;",
+        "Lcotlin/Pair;",
         "",
         "Lcom/commsource/studio/formula/FormulaCategory;",
         "Lcom/commsource/studio/formula/JsFormula;",
@@ -78,7 +78,7 @@
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -91,7 +91,7 @@
         value = {
             "()",
             "Landroidx/lifecycle/MediatorLiveData<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/util/List<",
             "Lcom/commsource/studio/formula/FormulaCategory;",
             ">;",

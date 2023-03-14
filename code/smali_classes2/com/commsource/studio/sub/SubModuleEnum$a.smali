@@ -17,7 +17,7 @@
     value = "SMAP\nSubModuleEnum.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SubModuleEnum.kt\ncom/commsource/studio/sub/SubModuleEnum$Companion\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,774:1\n1819#2,2:775\n*E\n*S KotlinDebug\n*F\n+ 1 SubModuleEnum.kt\ncom/commsource/studio/sub/SubModuleEnum$Companion\n*L\n724#1,2:775\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "",
         "",
         "oldVersion",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "k",
         "(I)V",
         "id",
@@ -48,13 +48,13 @@
         "c",
         "()Landroid/util/SparseArray;",
         "Ljava/util/HashMap;",
-        "Lkotlin/collections/HashMap;",
+        "Lcotlin/collections/HashMap;",
         "dictMap",
         "Ljava/util/HashMap;",
         "b",
         "()Ljava/util/HashMap;",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "paidSubModules",
         "Ljava/util/ArrayList;",
         "h",
@@ -92,7 +92,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -413,7 +413,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v7, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v7
 
@@ -458,7 +458,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v7, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v7
 
@@ -507,7 +507,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v7, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v7
 
@@ -539,7 +539,7 @@
     const-string v3, "f_relight"
 
     .line 9
-    invoke-static {p1, v3, v4, v2, v1}, Lkotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
+    invoke-static {p1, v3, v4, v2, v1}, Lcotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v2
 
@@ -641,7 +641,7 @@
 
     const-string v2, "newSubModuleEnum.entries"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -669,7 +669,7 @@
 
     const-string v4, "it.value"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v3, Ljava/lang/Number;
 
@@ -677,7 +677,7 @@
 
     move-result v3
 
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->t(II)I
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result v3
 

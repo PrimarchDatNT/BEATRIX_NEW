@@ -17,7 +17,7 @@
     value = "SMAP\nSubTabEnum.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SubTabEnum.kt\ncom/commsource/studio/sub/SubTabEnum$Companion\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,235:1\n13506#2,2:236\n13506#2,2:238\n*E\n*S KotlinDebug\n*F\n+ 1 SubTabEnum.kt\ncom/commsource/studio/sub/SubTabEnum$Companion\n*L\n186#1,2:236\n195#1,2:238\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -43,7 +43,7 @@
         "d",
         "(Lcom/commsource/studio/sub/SubModuleEnum;)Lcom/commsource/studio/sub/SubTabEnum;",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "editFunctions",
         "Ljava/util/ArrayList;",
         "b",
@@ -73,7 +73,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -305,7 +305,7 @@
 
     move-result-object v6
 
-    invoke-static {v6, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v6, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v6
 

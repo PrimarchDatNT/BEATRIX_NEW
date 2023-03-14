@@ -31,7 +31,7 @@
     value = "SMAP\nNewDoodleRepository.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewDoodleRepository.kt\ncom/commsource/studio/doodle/NewDoodleRepository$doodleComparator$2$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,700:1\n1828#2,2:701\n1828#2,3:703\n1830#2:706\n37#3,2:707\n37#3,2:709\n37#3,2:711\n*E\n*S KotlinDebug\n*F\n+ 1 NewDoodleRepository.kt\ncom/commsource/studio/doodle/NewDoodleRepository$doodleComparator$2$1\n*L\n74#1,2:701\n74#1,3:703\n74#1:706\n97#1,2:707\n105#1,2:709\n106#1,2:711\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -55,7 +55,7 @@
         "inserts",
         "update",
         "remove",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "s",
         "(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V",
         "",
@@ -125,7 +125,7 @@
 
     const-string v1, "onlineData"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Ljava/util/ArrayList;
@@ -156,7 +156,7 @@
 
     if-gez v4, :cond_0
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_0
     check-cast v5, Lcom/commsource/studio/doodle/j;
@@ -193,7 +193,7 @@
 
     if-gez v7, :cond_1
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_1
     check-cast v8, Lcom/commsource/studio/doodle/DoodleMaterial;

@@ -16,7 +16,7 @@
     value = "SMAP\nRemoldTabViewHolder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RemoldTabViewHolder.kt\ncom/commsource/studio/function/remold/RemoldTabViewHolder\n*L\n1#1,27:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,7 +36,7 @@
         "",
         "",
         "payloads",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "k",
         "(ILcom/commsource/widget/h1/d;Ljava/util/List;)V",
         "Lcom/commsource/beautyplus/f0/ok;",
@@ -90,7 +90,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     check-cast p1, Lcom/commsource/beautyplus/f0/ok;
@@ -149,7 +149,7 @@
 
     const-string v2, "mViewBinding.tvName"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x0
 

@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
     d2 = {
         "com/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$d",
         "Lcom/commsource/util/u2/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "app_googleplayRelease"
@@ -91,22 +91,22 @@
     move-result-object v1
 
     .line 2
-    new-instance v2, Lkotlin/jvm/internal/Ref$BooleanRef;
+    new-instance v2, Lcotlin/jvm/internal/Ref$BooleanRef;
 
-    invoke-direct {v2}, Lkotlin/jvm/internal/Ref$BooleanRef;-><init>()V
+    invoke-direct {v2}, Lcotlin/jvm/internal/Ref$BooleanRef;-><init>()V
 
     const/4 v3, 0x0
 
-    iput-boolean v3, v2, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
+    iput-boolean v3, v2, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     .line 3
-    new-instance v3, Lkotlin/jvm/internal/Ref$ObjectRef;
+    new-instance v3, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    invoke-direct {v3}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+    invoke-direct {v3}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
     const/4 v4, 0x0
 
-    iput-object v4, v3, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object v4, v3, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     if-eqz v1, :cond_0
 
@@ -115,7 +115,7 @@
 
     move-result-object v4
 
-    iput-object v4, v3, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object v4, v3, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 5
     check-cast v4, Ljava/lang/String;
@@ -123,7 +123,7 @@
     invoke-static {v1, v4}, Lcom/meitu/library/p/g/b;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6
-    iget-object v1, v3, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iget-object v1, v3, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     check-cast v1, Ljava/lang/String;
 
@@ -132,13 +132,13 @@
     const/4 v1, 0x1
 
     .line 7
-    iput-boolean v1, v2, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
+    iput-boolean v1, v2, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     .line 8
     :cond_0
     new-instance v1, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$d$a;
 
-    invoke-direct {v1, p0, v2, v3}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$d$a;-><init>(Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$d;Lkotlin/jvm/internal/Ref$BooleanRef;Lkotlin/jvm/internal/Ref$ObjectRef;)V
+    invoke-direct {v1, p0, v2, v3}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$d$a;-><init>(Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveImageScript$d;Lcotlin/jvm/internal/Ref$BooleanRef;Lcotlin/jvm/internal/Ref$ObjectRef;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
     :try_end_0

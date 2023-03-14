@@ -1,4 +1,4 @@
-.class public interface abstract annotation Lkotlin/q0;
+.class public interface abstract annotation Lcotlin/q0;
 .super Ljava/lang/Object;
 .source "Annotations.kt"
 
@@ -18,18 +18,18 @@
     value = {}
 .end annotation
 
-.annotation runtime Lkotlin/annotation/a;
+.annotation runtime Lcotlin/annotation/a;
 .end annotation
 
-.annotation runtime Lkotlin/annotation/c;
-    value = .enum Lkotlin/annotation/AnnotationRetention;->BINARY:Lkotlin/annotation/AnnotationRetention;
+.annotation runtime Lcotlin/annotation/c;
+    value = .enum Lcotlin/annotation/AnnotationRetention;->BINARY:Lcotlin/annotation/AnnotationRetention;
 .end annotation
 
-.annotation runtime Lkotlin/annotation/d;
+.annotation runtime Lcotlin/annotation/d;
     allowedTargets = {}
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0010\u001b\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0010\u0011\n\u0002\u0008\u0005\u0008\u0087\u0002\u0018\u00002\u00020\u0001B#\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u0012\u0012\u0010\u0006\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020\u00020\u0005\"\u00020\u0002\u00a2\u0006\u0004\u0008\u0008\u0010\tR\u0013\u0010\u0003\u001a\u00020\u00028\u0006@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008\u0003\u0010\u0004R\u001b\u0010\u0006\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020\u00020\u00058\u0006@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008\u0006\u0010\u0007\u00a8\u0006\n"
     }
     d2 = {
-        "Lkotlin/q0;",
+        "Lcotlin/q0;",
         "",
         "",
         "expression",
@@ -48,7 +48,7 @@
         "imports",
         "()[Ljava/lang/String;",
         "<init>",
-        "(Ljava/lang/String;Lkotlin/Array;)V",
+        "(Ljava/lang/String;Lcotlin/Array;)V",
         "kotlin-stdlib"
     }
     k = 0x1

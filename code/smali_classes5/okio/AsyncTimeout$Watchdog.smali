@@ -17,7 +17,7 @@
     value = "SMAP\nAsyncTimeout.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AsyncTimeout.kt\nokio/AsyncTimeout$Watchdog\n*L\n1#1,369:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
     d2 = {
         "Lokio/AsyncTimeout$Watchdog;",
         "Ljava/lang/Thread;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "<init>",
@@ -110,7 +110,7 @@
     .line 6
     :cond_1
     :try_start_3
-    sget-object v2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 

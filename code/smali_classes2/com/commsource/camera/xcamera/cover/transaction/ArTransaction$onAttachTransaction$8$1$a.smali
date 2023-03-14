@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "Landroid/content/DialogInterface$OnCancelListener;",
         "Landroid/content/DialogInterface;",
         "dialog",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onCancel",
         "(Landroid/content/DialogInterface;)V",
         "app_googleplayRelease"

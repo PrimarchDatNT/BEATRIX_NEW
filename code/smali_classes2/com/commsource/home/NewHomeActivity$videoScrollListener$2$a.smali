@@ -17,7 +17,7 @@
     value = "SMAP\nNewHomeActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewHomeActivity.kt\ncom/commsource/home/NewHomeActivity$videoScrollListener$2$1\n*L\n1#1,1044:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Lcom/commsource/util/t2/d;",
         "",
         "position",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "l",
         "(I)V",
         "o",
@@ -118,7 +118,7 @@
 
     const-string v1, "bannerViewHolder.item"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -159,7 +159,7 @@
 
     const-string v1, "viewHolder.itemView"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v1, Lcom/commsource/beautyplus/R$id;->video_container:I
 
@@ -179,7 +179,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {v0}, Lcom/commsource/home/entity/h;->d()Ljava/lang/String;
@@ -244,7 +244,7 @@
 
     const-string v3, "bannerViewHolder.item"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -329,7 +329,7 @@
 
     const-string v2, "bannerViewHolder.item"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -355,7 +355,7 @@
 
     const-string v1, "viewHolder.itemView"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v1, Lcom/commsource/beautyplus/R$id;->video_container:I
 
@@ -413,7 +413,7 @@
 
     const-string v2, "bannerViewHolder.item"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -439,7 +439,7 @@
 
     const-string v1, "viewHolder.itemView"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v1, Lcom/commsource/beautyplus/R$id;->video_container:I
 

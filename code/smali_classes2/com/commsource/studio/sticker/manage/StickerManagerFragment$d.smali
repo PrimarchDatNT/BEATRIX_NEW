@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -80,7 +80,7 @@
 
     const-string v1, "viewBinding.stickerGroupRv"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
@@ -119,7 +119,7 @@
     const-string v1, "event"
 
     .line 4
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
@@ -174,7 +174,7 @@
     const-string v1, "eveyItem"
 
     .line 6
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -213,11 +213,11 @@
 
     .line 10
     :cond_2
-    new-instance p2, Lkotlin/TypeCastException;
+    new-instance p2, Lcotlin/TypeCastException;
 
     const-string v0, "null cannot be cast to non-null type com.meitu.template.bean.StickerGroup"
 
-    invoke-direct {p2, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, v0}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -232,11 +232,11 @@
 
     .line 12
     :cond_4
-    new-instance p2, Lkotlin/TypeCastException;
+    new-instance p2, Lcotlin/TypeCastException;
 
     const-string v0, "null cannot be cast to non-null type androidx.recyclerview.widget.LinearLayoutManager"
 
-    invoke-direct {p2, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, v0}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -17,7 +17,7 @@
     value = "SMAP\nHeapObject.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HeapObject.kt\nkshark/HeapObject$HeapPrimitiveArray\n*L\n1#1,610:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -103,16 +103,16 @@
 
     const-string v0, "hprofGraph"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "indexedObject"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, v0}, Lkshark/HeapObject;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {p0, v0}, Lkshark/HeapObject;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lkshark/HeapObject$b;->c:Lkshark/HprofHeapGraph;
 
@@ -176,7 +176,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     return-object v0
@@ -204,7 +204,7 @@
 
     const-string v3, "Locale.US"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz v1, :cond_0
 
@@ -214,7 +214,7 @@
 
     const-string v2, "(this as java.lang.String).toLowerCase(locale)"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -229,11 +229,11 @@
     return-object v0
 
     :cond_0
-    new-instance v0, Lkotlin/TypeCastException;
+    new-instance v0, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type java.lang.String"
 
-    invoke-direct {v0, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -456,9 +456,9 @@
     return v0
 
     :cond_7
-    new-instance v0, Lkotlin/NoWhenBranchMatchedException;
+    new-instance v0, Lcotlin/NoWhenBranchMatchedException;
 
-    invoke-direct {v0}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+    invoke-direct {v0}, Lcotlin/NoWhenBranchMatchedException;-><init>()V
 
     throw v0
 .end method

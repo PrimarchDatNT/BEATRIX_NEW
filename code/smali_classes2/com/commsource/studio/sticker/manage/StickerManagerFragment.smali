@@ -8,7 +8,7 @@
     value = "SMAP\nStickerManagerFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StickerManagerFragment.kt\ncom/commsource/studio/sticker/manage/StickerManagerFragment\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,136:1\n1819#2,2:137\n*E\n*S KotlinDebug\n*F\n+ 1 StickerManagerFragment.kt\ncom/commsource/studio/sticker/manage/StickerManagerFragment\n*L\n120#1,2:137\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/studio/sticker/manage/StickerManagerFragment;",
         "Lcom/commsource/beautyplus/i0/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "H",
         "()V",
         "F",
@@ -47,7 +47,7 @@
         "stickerAdapter",
         "Lcom/commsource/studio/sticker/StickerViewModel;",
         "g",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "G",
         "()Lcom/commsource/studio/sticker/StickerViewModel;",
         "mViewModel",
@@ -74,7 +74,7 @@
 
 .field private f:Lcom/commsource/widget/h1/c;
 
-.field private final g:Lkotlin/w;
+.field private final g:Lcotlin/w;
 
 .field private p:Ljava/util/HashMap;
 
@@ -93,7 +93,7 @@
 
     const-string v1, "AdapterDataBuilder.create()"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object v0, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;->f:Lcom/commsource/widget/h1/c;
 
@@ -102,11 +102,11 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/sticker/manage/StickerManagerFragment$mViewModel$2;-><init>(Lcom/commsource/studio/sticker/manage/StickerManagerFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;->g:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;->g:Lcotlin/w;
 
     return-void
 .end method
@@ -125,7 +125,7 @@
 
     const-string v1, "stickerAdapter"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -147,7 +147,7 @@
 
     const-string v1, "viewBinding"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -247,7 +247,7 @@
 
     const-string v3, "stickerAdapter"
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v3, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;->f:Lcom/commsource/widget/h1/c;
@@ -275,9 +275,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;->g:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;->g:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -307,7 +307,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -338,14 +338,14 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/oa;->f:Landroidx/recyclerview/widget/RecyclerView;
 
     const-string v3, "viewBinding.stickerGroupRv"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v4, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/TimingScrollLayoutManager;
 
@@ -353,7 +353,7 @@
 
     const-string v6, "mActivity"
 
-    invoke-static {v5, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v4, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/TimingScrollLayoutManager;-><init>(Landroid/content/Context;)V
 
@@ -373,12 +373,12 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/oa;->f:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v4, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;->d:Lcom/commsource/widget/h1/e;
 
@@ -386,7 +386,7 @@
 
     if-nez v4, :cond_3
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v1, v4}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
@@ -396,7 +396,7 @@
 
     if-nez v1, :cond_4
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/oa;->f:Landroidx/recyclerview/widget/RecyclerView;
@@ -416,12 +416,12 @@
 
     if-nez v6, :cond_5
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     iget-object v6, v6, Lcom/commsource/beautyplus/f0/oa;->f:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v6, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v4, v6}, Lcom/commsource/studio/sticker/manage/StickerItemTouchCallBack;-><init>(Landroidx/recyclerview/widget/RecyclerView;)V
 
@@ -432,7 +432,7 @@
 
     if-nez v3, :cond_6
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/oa;->f:Landroidx/recyclerview/widget/RecyclerView;
@@ -444,7 +444,7 @@
 
     if-nez v3, :cond_7
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_7
     invoke-virtual {v3, v1}, Lcom/commsource/widget/h1/e;->P(Ljava/lang/Object;)V
@@ -454,7 +454,7 @@
 
     if-nez v1, :cond_8
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_8
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/oa;->b:Landroid/view/View;
@@ -470,7 +470,7 @@
 
     if-nez v1, :cond_9
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_9
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/oa;->f:Landroidx/recyclerview/widget/RecyclerView;
@@ -486,7 +486,7 @@
 
     if-nez v1, :cond_a
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_a
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/oa;->f:Landroidx/recyclerview/widget/RecyclerView;
@@ -502,7 +502,7 @@
 
     if-nez v1, :cond_b
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_b
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/oa;->a:Lcom/commsource/widget/IconFrontView;
@@ -524,7 +524,7 @@
 
     const-string v3, "viewLifecycleOwner"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v3, Lcom/commsource/studio/sticker/manage/StickerManagerFragment$g;
 
@@ -593,7 +593,7 @@
 
     const-string p3, "inflater"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/oa;->c(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/oa;
@@ -602,7 +602,7 @@
 
     const-string p3, "FragmentStickerManagerBinding.inflate(inflater)"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;->c:Lcom/commsource/beautyplus/f0/oa;
 
@@ -611,7 +611,7 @@
     const-string p3, "viewBinding"
 
     .line 2
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -694,7 +694,7 @@
 
     const-string v0, "view"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;->H()V

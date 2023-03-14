@@ -17,7 +17,7 @@
     value = "SMAP\nBrightenEyesFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BrightenEyesFragment.kt\ncom/commsource/studio/function/BrightenEyesFragment$onGlResourceInit$2$1\n*L\n1#1,298:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Lcom/commsource/studio/function/automanual/e;",
         "Lcom/commsource/easyeditor/utils/opengl/f;",
         "fboEntity",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
         "(Lcom/commsource/easyeditor/utils/opengl/f;)V",
         "Lcom/commsource/studio/e;",
@@ -80,7 +80,7 @@
 
     const-string v1, "fboEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/function/automanual/e;->d(Lcom/commsource/easyeditor/utils/opengl/f;)V
@@ -127,7 +127,7 @@
 
     const-string v1, "autoManualState"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/function/automanual/e;->e(Lcom/commsource/studio/e;)V

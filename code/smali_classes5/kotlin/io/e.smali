@@ -1,10 +1,10 @@
-.class public final Lkotlin/io/e;
+.class public final Lcotlin/io/e;
 .super Ljava/lang/Object;
 .source "Exceptions.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -37,7 +37,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlin/io/e;->b(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1, p2}, Lcotlin/io/e;->b(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -103,7 +103,7 @@
 
     const-string p1, "sb.toString()"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method

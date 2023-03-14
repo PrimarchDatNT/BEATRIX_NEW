@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/commsource/editengine/d;->t(ZLkotlin/jvm/u/a;)V
+    value = Lcom/commsource/editengine/d;->t(ZLcotlin/jvm/u/a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
     }
     d2 = {
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "run",
         "()V",
         "<anonymous>"
@@ -43,16 +43,16 @@
 # instance fields
 .field final synthetic a:Lcom/commsource/editengine/d;
 
-.field final synthetic b:Lkotlin/jvm/u/a;
+.field final synthetic b:Lcotlin/jvm/u/a;
 
 
 # direct methods
-.method constructor <init>(Lcom/commsource/editengine/d;Lkotlin/jvm/u/a;)V
+.method constructor <init>(Lcom/commsource/editengine/d;Lcotlin/jvm/u/a;)V
     .locals 0
 
     iput-object p1, p0, Lcom/commsource/editengine/d$c;->a:Lcom/commsource/editengine/d;
 
-    iput-object p2, p0, Lcom/commsource/editengine/d$c;->b:Lkotlin/jvm/u/a;
+    iput-object p2, p0, Lcom/commsource/editengine/d$c;->b:Lcotlin/jvm/u/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -88,13 +88,13 @@
 
     if-eqz v1, :cond_1
 
-    iget-object v2, p0, Lcom/commsource/editengine/d$c;->b:Lkotlin/jvm/u/a;
+    iget-object v2, p0, Lcom/commsource/editengine/d$c;->b:Lcotlin/jvm/u/a;
 
     if-eqz v2, :cond_0
 
     new-instance v3, Lcom/commsource/editengine/e;
 
-    invoke-direct {v3, v2}, Lcom/commsource/editengine/e;-><init>(Lkotlin/jvm/u/a;)V
+    invoke-direct {v3, v2}, Lcom/commsource/editengine/e;-><init>(Lcotlin/jvm/u/a;)V
 
     move-object v2, v3
 

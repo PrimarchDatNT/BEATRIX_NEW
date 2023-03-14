@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
         "",
         "touchX",
         "touchY",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "n",
         "(FF)V",
         "app_googleplayRelease",
@@ -74,7 +74,7 @@
     move-object v3, p2
 
     .line 1
-    invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/x;-><init>(ILjava/lang/String;Ljava/lang/Integer;ILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/x;-><init>(ILjava/lang/String;Ljava/lang/Integer;ILcotlin/jvm/internal/u;)V
 
     return-void
 .end method

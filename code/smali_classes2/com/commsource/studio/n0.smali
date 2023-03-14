@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -288,7 +288,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lkotlin/g2/o;->n(II)I
+    invoke-static {v1, v2}, Lcotlin/g2/o;->n(II)I
 
     move-result v1
 
@@ -350,7 +350,7 @@
 
     add-float/2addr v6, v8
 
-    invoke-static {v2, v6}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v2, v6}, Lcotlin/g2/o;->m(FF)F
 
     move-result v2
 
@@ -386,7 +386,7 @@
 
     add-float/2addr v1, v3
 
-    invoke-static {v2, v1}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v2, v1}, Lcotlin/g2/o;->m(FF)F
 
     move-result v1
 

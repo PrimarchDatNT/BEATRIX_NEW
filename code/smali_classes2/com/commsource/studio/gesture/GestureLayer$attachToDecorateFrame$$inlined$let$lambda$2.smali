@@ -1,9 +1,9 @@
 .class final Lcom/commsource/studio/gesture/GestureLayer$attachToDecorateFrame$$inlined$let$lambda$2;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "GestureLayer.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/q;
+.implements Lcotlin/jvm/u/q;
 
 
 # annotations
@@ -18,17 +18,17 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/q<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/q<",
         "Ljava/lang/Float;",
         "Ljava/lang/Float;",
         "Ljava/lang/Float;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -42,7 +42,7 @@
         "scaleFactor",
         "centerX",
         "centerY",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(FFF)V",
         "com/commsource/studio/gesture/GestureLayer$attachToDecorateFrame$1$2",
@@ -73,7 +73,7 @@
 
     const/4 p1, 0x3
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -108,7 +108,7 @@
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/gesture/GestureLayer$attachToDecorateFrame$$inlined$let$lambda$2;->invoke(FFF)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -13,7 +13,7 @@
     name = "HeapObjectArray"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,10 +31,10 @@
         "Lkshark/m$b$c$e;",
         "r",
         "()Lkshark/m$b$c$e;",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "Lkshark/j;",
         "q",
-        "()Lkotlin/sequences/m;",
+        "()Lcotlin/sequences/m;",
         "",
         "toString",
         "()Ljava/lang/String;",
@@ -113,16 +113,16 @@
 
     const-string v0, "hprofGraph"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "indexedObject"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, v0}, Lkshark/HeapObject;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {p0, v0}, Lkshark/HeapObject;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lkshark/HeapObject$HeapObjectArray;->c:Lkshark/HprofHeapGraph;
 
@@ -202,11 +202,11 @@
     return-object v0
 
     :cond_0
-    new-instance v0, Lkotlin/TypeCastException;
+    new-instance v0, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type kshark.HeapObject.HeapClass"
 
-    invoke-direct {v0, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -309,12 +309,12 @@
     return v0
 .end method
 
-.method public final q()Lkotlin/sequences/m;
+.method public final q()Lcotlin/sequences/m;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Lkshark/j;",
             ">;"
         }
@@ -332,7 +332,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/collections/k;->g5([J)Lkotlin/sequences/m;
+    invoke-static {v0}, Lcotlin/collections/k;->g5([J)Lcotlin/sequences/m;
 
     move-result-object v0
 
@@ -341,7 +341,7 @@
 
     invoke-direct {v1, p0}, Lkshark/HeapObject$HeapObjectArray$readElements$1;-><init>(Lkshark/HeapObject$HeapObjectArray;)V
 
-    invoke-static {v0, v1}, Lkotlin/sequences/p;->b1(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v0, v1}, Lcotlin/sequences/p;->b1(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 

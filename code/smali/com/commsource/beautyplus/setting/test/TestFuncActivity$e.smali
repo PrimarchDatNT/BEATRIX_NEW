@@ -25,7 +25,7 @@
     value = "SMAP\nTestFuncActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TestFuncActivity.kt\ncom/commsource/beautyplus/setting/test/TestFuncActivity$initViewModel$5\n*L\n1#1,395:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
         "Lcom/commsource/beautyfilter/NoStickLiveData$a;",
         "",
         "count",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(Ljava/lang/Integer;)V",
         "app_googleplayRelease"
@@ -129,7 +129,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "SO \u4e22\u5931\uff08\u518d\u70b9\u6587\u5b575\u6b21\u4ee5\u5f00\u542f/\u5173\u95ed\uff09"
 
@@ -148,7 +148,7 @@
 
     const-string/jumbo v2, "soMissDebug"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v3, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$e;->c:Lcom/commsource/beautyplus/setting/test/TestFuncActivity;
 
@@ -158,7 +158,7 @@
 
     check-cast v3, Lcom/commsource/beautyplus/setting/widget/SwitchView;
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->c()Z
 
@@ -177,7 +177,7 @@
 
     check-cast p1, Lcom/commsource/beautyplus/setting/widget/SwitchView;
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->c()Z
 
@@ -199,7 +199,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v2, Ljava/lang/StringBuilder;
 

@@ -17,7 +17,7 @@
     value = "SMAP\nStudioProViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StudioProViewModel.kt\ncom/commsource/studio/component/StudioProViewModel\n+ 2 SparseArray.kt\nandroidx/core/util/SparseArrayKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,413:1\n57#2:414\n57#2:415\n1819#3,2:416\n*E\n*S KotlinDebug\n*F\n+ 1 StudioProViewModel.kt\ncom/commsource/studio/component/StudioProViewModel\n*L\n183#1:414\n194#1:415\n227#1,2:416\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "Lcom/commsource/studio/component/StudioProViewModel;",
         "Landroidx/lifecycle/AndroidViewModel;",
         "Landroidx/lifecycle/LifecycleObserver;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "E",
         "()V",
         "M",
@@ -42,27 +42,27 @@
         "(Lcom/commsource/studio/sub/SubModuleEnum;Lcom/commsource/studio/effect/t;)V",
         "Landroidx/fragment/app/FragmentActivity;",
         "activity",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "",
-        "Lkotlin/k0;",
+        "Lcotlin/k0;",
         "name",
         "isSubscribe",
         "action",
         "G",
-        "(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Lcom/commsource/studio/effect/t;Lkotlin/jvm/u/l;)V",
+        "(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Lcom/commsource/studio/effect/t;Lcotlin/jvm/u/l;)V",
         "",
         "source",
         "H",
-        "(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/String;Lkotlin/jvm/u/l;)V",
+        "(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/String;Lcotlin/jvm/u/l;)V",
         "",
         "multiSource",
         "imageCachePath",
         "I",
-        "(Landroidx/fragment/app/FragmentActivity;[Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/u/l;)V",
+        "(Landroidx/fragment/app/FragmentActivity;[Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)V",
         "onResume",
         "Landroidx/lifecycle/MutableLiveData;",
         "c",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "z",
         "()Landroidx/lifecycle/MutableLiveData;",
         "freeUseTimesTipsEvent",
@@ -139,22 +139,22 @@
 
 
 # instance fields
-.field private final a:Lkotlin/w;
+.field private final a:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final b:Lkotlin/w;
+.field private final b:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final c:Lkotlin/w;
+.field private final c:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -177,7 +177,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/component/StudioProViewModel$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/component/StudioProViewModel$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/component/StudioProViewModel;->O:Lcom/commsource/studio/component/StudioProViewModel$a;
 
@@ -195,7 +195,7 @@
 
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
@@ -203,38 +203,38 @@
     .line 2
     sget-object p1, Lcom/commsource/studio/component/StudioProViewModel$showProEvent$2;->INSTANCE:Lcom/commsource/studio/component/StudioProViewModel$showProEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/component/StudioProViewModel;->a:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/component/StudioProViewModel;->a:Lcotlin/w;
 
     .line 3
     sget-object p1, Lcom/commsource/studio/component/StudioProViewModel$proSubscribeBackEvent$2;->INSTANCE:Lcom/commsource/studio/component/StudioProViewModel$proSubscribeBackEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/component/StudioProViewModel;->b:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/component/StudioProViewModel;->b:Lcotlin/w;
 
     .line 4
     sget-object p1, Lcom/commsource/studio/component/StudioProViewModel$freeUseTimesTipsEvent$2;->INSTANCE:Lcom/commsource/studio/component/StudioProViewModel$freeUseTimesTipsEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/component/StudioProViewModel;->c:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/component/StudioProViewModel;->c:Lcotlin/w;
 
     .line 5
     sget-object p1, Lcom/commsource/studio/component/StudioProViewModel$onThingInTheEndEvent$2;->INSTANCE:Lcom/commsource/studio/component/StudioProViewModel$onThingInTheEndEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/studio/component/StudioProViewModel;->d:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/studio/component/StudioProViewModel;->d:Lcotlin/w;
 
     return-void
 .end method
@@ -307,7 +307,7 @@
     return-void
 .end method
 
-.method public static synthetic J(Lcom/commsource/studio/component/StudioProViewModel;Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Lcom/commsource/studio/effect/t;Lkotlin/jvm/u/l;ILjava/lang/Object;)V
+.method public static synthetic J(Lcom/commsource/studio/component/StudioProViewModel;Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Lcom/commsource/studio/effect/t;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
     .locals 0
 
     const p6, 0x9294
@@ -322,14 +322,14 @@
 
     .line 1
     :cond_0
-    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/component/StudioProViewModel;->G(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Lcom/commsource/studio/effect/t;Lkotlin/jvm/u/l;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/component/StudioProViewModel;->G(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Lcom/commsource/studio/effect/t;Lcotlin/jvm/u/l;)V
 
     invoke-static {p6}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public static synthetic K(Lcom/commsource/studio/component/StudioProViewModel;Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/String;Lkotlin/jvm/u/l;ILjava/lang/Object;)V
+.method public static synthetic K(Lcom/commsource/studio/component/StudioProViewModel;Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
     .locals 1
 
     const p6, 0x9294
@@ -358,14 +358,14 @@
 
     .line 2
     :cond_1
-    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/component/StudioProViewModel;->H(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/component/StudioProViewModel;->H(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
     invoke-static {p6}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 .end method
 
-.method public static synthetic L(Lcom/commsource/studio/component/StudioProViewModel;Landroidx/fragment/app/FragmentActivity;[Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/u/l;ILjava/lang/Object;)V
+.method public static synthetic L(Lcom/commsource/studio/component/StudioProViewModel;Landroidx/fragment/app/FragmentActivity;[Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
     .locals 2
 
     const p6, 0x9294
@@ -389,7 +389,7 @@
 
     .line 1
     :cond_1
-    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/component/StudioProViewModel;->I(Landroidx/fragment/app/FragmentActivity;[Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/component/StudioProViewModel;->I(Landroidx/fragment/app/FragmentActivity;[Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
     invoke-static {p6}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -467,9 +467,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/component/StudioProViewModel;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/component/StudioProViewModel;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -498,9 +498,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/component/StudioProViewModel;->b:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/component/StudioProViewModel;->b:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -529,9 +529,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/component/StudioProViewModel;->a:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/component/StudioProViewModel;->a:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -585,7 +585,7 @@
     return-void
 .end method
 
-.method public final G(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Lcom/commsource/studio/effect/t;Lkotlin/jvm/u/l;)V
+.method public final G(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Lcom/commsource/studio/effect/t;Lcotlin/jvm/u/l;)V
     .locals 2
     .param p1    # Landroidx/fragment/app/FragmentActivity;
         .annotation build Ln/e/a/d;
@@ -599,7 +599,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p4    # Lkotlin/jvm/u/l;
+    .param p4    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
@@ -609,10 +609,10 @@
             "Landroidx/fragment/app/FragmentActivity;",
             "Lcom/commsource/studio/sub/SubModuleEnum;",
             "Lcom/commsource/studio/effect/t;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -623,15 +623,15 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "subModuleEnum"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "imageResult"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v1, Lcom/commsource/studio/component/StudioProViewModel;->O:Lcom/commsource/studio/component/StudioProViewModel$a;
@@ -640,7 +640,7 @@
 
     move-result-object p3
 
-    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/component/StudioProViewModel;->H(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/component/StudioProViewModel;->H(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -648,7 +648,7 @@
     return-void
 .end method
 
-.method public final H(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/String;Lkotlin/jvm/u/l;)V
+.method public final H(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/String;Lcotlin/jvm/u/l;)V
     .locals 18
     .param p1    # Landroidx/fragment/app/FragmentActivity;
         .annotation build Ln/e/a/d;
@@ -662,7 +662,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p4    # Lkotlin/jvm/u/l;
+    .param p4    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
@@ -672,10 +672,10 @@
             "Landroidx/fragment/app/FragmentActivity;",
             "Lcom/commsource/studio/sub/SubModuleEnum;",
             "Ljava/lang/String;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -694,11 +694,11 @@
 
     const-string v5, "activity"
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v5, "subModuleEnum"
 
-    invoke-static {v2, v5}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v5}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v5, Lcom/commsource/util/p2/c;
@@ -722,7 +722,7 @@
     move-object v8, v6
 
     :goto_0
-    invoke-direct {v1, v0, v7, v3, v8}, Lcom/commsource/studio/component/StudioProViewModel$b;-><init>(Lcom/commsource/studio/component/StudioProViewModel;Lkotlin/jvm/u/l;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v7, v3, v8}, Lcom/commsource/studio/component/StudioProViewModel$b;-><init>(Lcom/commsource/studio/component/StudioProViewModel;Lcotlin/jvm/u/l;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 3
     iget-object v3, v0, Lcom/commsource/studio/component/StudioProViewModel;->f:Lcom/commsource/studio/effect/t;
@@ -942,11 +942,11 @@
 
     .line 23
     :cond_7
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type com.commsource.studio.effect.MakeupResult"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     const v2, 0x9294
 
@@ -969,7 +969,7 @@
 
     sget-object v3, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -999,7 +999,7 @@
     return-void
 .end method
 
-.method public final I(Landroidx/fragment/app/FragmentActivity;[Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/u/l;)V
+.method public final I(Landroidx/fragment/app/FragmentActivity;[Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)V
     .locals 3
     .param p1    # Landroidx/fragment/app/FragmentActivity;
         .annotation build Ln/e/a/d;
@@ -1013,7 +1013,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p4    # Lkotlin/jvm/u/l;
+    .param p4    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
@@ -1024,10 +1024,10 @@
             "[",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Boolean;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1038,11 +1038,11 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "multiSource"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/util/p2/c;
@@ -1054,7 +1054,7 @@
 
     const-string v2, ""
 
-    invoke-direct {p1, p0, p4, v2}, Lcom/commsource/studio/component/StudioProViewModel$c;-><init>(Lcom/commsource/studio/component/StudioProViewModel;Lkotlin/jvm/u/l;Ljava/lang/String;)V
+    invoke-direct {p1, p0, p4, v2}, Lcom/commsource/studio/component/StudioProViewModel$c;-><init>(Lcom/commsource/studio/component/StudioProViewModel;Lcotlin/jvm/u/l;Ljava/lang/String;)V
 
     .line 3
     invoke-virtual {p1, p2}, Lcom/commsource/util/delegate/process/m;->j([Ljava/lang/String;)V
@@ -1072,7 +1072,7 @@
 
     sget-object p4, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-static {p2, p4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, p4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p2
 
@@ -1137,7 +1137,7 @@
 
     move-object/from16 v4, p1
 
-    invoke-static {v4, v3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v3, Ljava/util/HashSet;
@@ -1590,7 +1590,7 @@
 
     move-result-object v4
 
-    invoke-static {v4, v3}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v3}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v5, "mids_material"
 
@@ -1636,7 +1636,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v3, "mids_material_tag"
 
@@ -1659,11 +1659,11 @@
 
     .line 53
     :cond_e
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v3, "null cannot be cast to non-null type com.commsource.studio.effect.MakeupResult"
 
-    invoke-direct {v1, v3}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v3}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1715,11 +1715,11 @@
 
     .line 57
     :cond_10
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type com.commsource.studio.effect.ArResult"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     const v2, 0x928c
 
@@ -1801,11 +1801,11 @@
 
     .line 64
     :cond_14
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type com.commsource.studio.effect.MosaicResult"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     const v2, 0x928c
 
@@ -1933,11 +1933,11 @@
 
     .line 83
     :cond_1c
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type com.commsource.studio.effect.StyleResult"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     const v2, 0x928c
 
@@ -1977,11 +1977,11 @@
 
     .line 87
     :cond_1e
-    new-instance v1, Lkotlin/TypeCastException;
+    new-instance v1, Lcotlin/TypeCastException;
 
     const-string v2, "null cannot be cast to non-null type com.commsource.studio.effect.NewSkinColorResult"
 
-    invoke-direct {v1, v2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     const v2, 0x928c
 
@@ -2026,9 +2026,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/component/StudioProViewModel;->c:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/component/StudioProViewModel;->c:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 

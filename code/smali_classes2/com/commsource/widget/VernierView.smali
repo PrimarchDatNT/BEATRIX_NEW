@@ -14,7 +14,7 @@
     value = "SMAP\nVernierView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VernierView.kt\ncom/commsource/widget/VernierView\n*L\n1#1,366:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
         "Landroid/view/View;",
         "",
         "dx",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "p",
         "(F)V",
         "l",
@@ -80,7 +80,7 @@
         "getRightFadingEdgeStrength",
         "Landroid/widget/OverScroller;",
         "L",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "getScroller",
         "()Landroid/widget/OverScroller;",
         "scroller",
@@ -163,11 +163,11 @@
     .end annotation
 .end field
 
-.field private final L:Lkotlin/w;
+.field private final L:Lcotlin/w;
 
-.field private final M:Lkotlin/w;
+.field private final M:Lcotlin/w;
 
-.field private final N:Lkotlin/w;
+.field private final N:Lcotlin/w;
 
 .field private O:I
 
@@ -200,7 +200,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/widget/VernierView$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/widget/VernierView$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/widget/VernierView;->S:Lcom/commsource/widget/VernierView$a;
 
@@ -225,7 +225,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const/4 v2, 0x0
@@ -240,7 +240,7 @@
 
     move-object v1, p1
 
-    invoke-direct/range {v0 .. v5}, Lcom/commsource/widget/VernierView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v5}, Lcom/commsource/widget/VernierView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -255,7 +255,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const/4 v3, 0x0
@@ -270,7 +270,7 @@
 
     move-object v2, p2
 
-    invoke-direct/range {v0 .. v5}, Lcom/commsource/widget/VernierView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v5}, Lcom/commsource/widget/VernierView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -285,12 +285,12 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -324,36 +324,36 @@
 
     invoke-direct {p2, p1}, Lcom/commsource/widget/VernierView$scroller$2;-><init>(Landroid/content/Context;)V
 
-    invoke-static {p2}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p2}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p2
 
-    iput-object p2, p0, Lcom/commsource/widget/VernierView;->L:Lkotlin/w;
+    iput-object p2, p0, Lcom/commsource/widget/VernierView;->L:Lcotlin/w;
 
     .line 8
     new-instance p2, Lcom/commsource/widget/VernierView$xGestureDetector$2;
 
     invoke-direct {p2, p0, p1}, Lcom/commsource/widget/VernierView$xGestureDetector$2;-><init>(Lcom/commsource/widget/VernierView;Landroid/content/Context;)V
 
-    invoke-static {p2}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p2}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/widget/VernierView;->M:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/widget/VernierView;->M:Lcotlin/w;
 
     .line 9
     sget-object p1, Lcom/commsource/widget/VernierView$normalPaint$2;->INSTANCE:Lcom/commsource/widget/VernierView$normalPaint$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/widget/VernierView;->N:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/widget/VernierView;->N:Lcotlin/w;
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p5, p4, 0x2
@@ -460,9 +460,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/widget/VernierView;->N:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/widget/VernierView;->N:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -480,9 +480,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/widget/VernierView;->L:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/widget/VernierView;->L:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -523,9 +523,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/widget/VernierView;->M:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/widget/VernierView;->M:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 

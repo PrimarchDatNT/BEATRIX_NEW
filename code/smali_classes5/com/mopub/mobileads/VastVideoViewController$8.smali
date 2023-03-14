@@ -20,7 +20,7 @@
     value = "SMAP\nVastVideoViewController.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VastVideoViewController.kt\ncom/mopub/mobileads/VastVideoViewController$8\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,772:1\n1#2:773\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -72,7 +72,7 @@
     const-string p1, "event"
 
     .line 1
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 

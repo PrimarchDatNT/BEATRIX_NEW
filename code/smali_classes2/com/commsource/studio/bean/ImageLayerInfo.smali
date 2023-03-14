@@ -11,7 +11,7 @@
     value = "SMAP\nImageLayerInfo.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ImageLayerInfo.kt\ncom/commsource/studio/bean/ImageLayerInfo\n*L\n1#1,25:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -67,7 +67,7 @@
         "onMinorFingerDown",
         "onMinorFingerUp",
         "onScroll",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onShowPress",
         "(Landroid/view/MotionEvent;)V",
         "onSingleTap",
@@ -209,11 +209,11 @@
 
     .line 4
     :cond_0
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v0, "null cannot be cast to non-null type com.commsource.studio.bean.ImageLayerInfo"
 
-    invoke-direct {p1, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -281,7 +281,7 @@
 
     const-string v0, "focus"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->$$delegate_0:Lcom/commsource/studio/i$e;
 
@@ -309,15 +309,15 @@
 
     const-string v0, "firstDownEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "secondDownEvent"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "focus"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->$$delegate_0:Lcom/commsource/studio/i$e;
 
@@ -461,7 +461,7 @@
 
     const-string v0, "touchEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->$$delegate_0:Lcom/commsource/studio/i$e;
 
@@ -481,7 +481,7 @@
 
     const-string v0, "downEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->$$delegate_0:Lcom/commsource/studio/i$e;
 
@@ -501,7 +501,7 @@
 
     const-string v0, "upEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->$$delegate_0:Lcom/commsource/studio/i$e;
 
@@ -521,7 +521,7 @@
 
     const-string v0, "downEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->$$delegate_0:Lcom/commsource/studio/i$e;
 
@@ -561,11 +561,11 @@
 
     const-string v0, "downEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "moveEvent"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->$$delegate_0:Lcom/commsource/studio/i$e;
 
@@ -655,11 +655,11 @@
 
     const-string v0, "downEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "upEvent"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->$$delegate_0:Lcom/commsource/studio/i$e;
 
@@ -683,11 +683,11 @@
 
     const-string v0, "downEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "upEvent"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->$$delegate_0:Lcom/commsource/studio/i$e;
 
@@ -717,7 +717,7 @@
 
     const-string v0, "gestureDetector"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->$$delegate_0:Lcom/commsource/studio/i$e;
 
@@ -735,7 +735,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->imageStyleConfig:Lcom/commsource/studio/mixlayer/ImageStyleConfig;
@@ -752,7 +752,7 @@
 
     const-string v0, "<set-?>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->texturePath:Ljava/lang/String;

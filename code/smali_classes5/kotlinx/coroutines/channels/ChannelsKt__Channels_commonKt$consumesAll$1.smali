@@ -1,14 +1,14 @@
-.class final Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumesAll$1;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumesAll$1;
+.super Lcotlin/jvm/internal/Lambda;
 .source "Channels.common.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->B([Lkotlinx/coroutines/channels/y;)Lkotlin/jvm/u/l;
+    value = Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->B([Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,10 +18,10 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Ljava/lang/Throwable;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
@@ -30,7 +30,7 @@
     value = "SMAP\nChannels.common.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Channels.common.kt\nkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumesAll$1\n+ 2 Exceptions.kt\nkotlinx/coroutines/ExceptionsKt\n*L\n1#1,2196:1\n75#2:2197\n*E\n*S KotlinDebug\n*F\n+ 1 Channels.common.kt\nkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumesAll$1\n*L\n144#1:2197\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -42,7 +42,7 @@
     d2 = {
         "",
         "cause",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(Ljava/lang/Throwable;)V",
         "<anonymous>"
@@ -57,18 +57,18 @@
 
 
 # instance fields
-.field final synthetic $channels:[Lkotlinx/coroutines/channels/y;
+.field final synthetic $channels:[Lcotlinx/coroutines/channels/y;
 
 
 # direct methods
-.method constructor <init>([Lkotlinx/coroutines/channels/y;)V
+.method constructor <init>([Lcotlinx/coroutines/channels/y;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumesAll$1;->$channels:[Lkotlinx/coroutines/channels/y;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumesAll$1;->$channels:[Lcotlinx/coroutines/channels/y;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -80,9 +80,9 @@
 
     check-cast p1, Ljava/lang/Throwable;
 
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumesAll$1;->invoke(Ljava/lang/Throwable;)V
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumesAll$1;->invoke(Ljava/lang/Throwable;)V
 
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method
@@ -95,7 +95,7 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumesAll$1;->$channels:[Lkotlinx/coroutines/channels/y;
+    iget-object v0, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumesAll$1;->$channels:[Lcotlinx/coroutines/channels/y;
 
     array-length v1, v0
 
@@ -110,7 +110,7 @@
 
     .line 2
     :try_start_0
-    invoke-static {v4, p1}, Lkotlinx/coroutines/channels/o;->r(Lkotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
+    invoke-static {v4, p1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -127,7 +127,7 @@
 
     .line 3
     :cond_0
-    invoke-static {v2, v4}, Lkotlin/l;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
+    invoke-static {v2, v4}, Lcotlin/l;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
     :goto_1
     add-int/lit8 v3, v3, 0x1

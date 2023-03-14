@@ -16,7 +16,7 @@
     value = "SMAP\nRelightFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RelightFragment.kt\ncom/commsource/studio/function/RelightFragment\n*L\n1#1,318:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Lcom/commsource/studio/function/RelightFragment;",
         "Lcom/commsource/studio/function/BaseSubFragment;",
         "Lcom/commsource/studio/effect/c;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "M1",
         "()V",
         "Q1",
@@ -49,10 +49,10 @@
         "(Landroid/view/View;Landroid/os/Bundle;)V",
         "K0",
         "animationView",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "action",
         "I",
-        "(Landroid/view/View;Lkotlin/jvm/u/a;)V",
+        "(Landroid/view/View;Lcotlin/jvm/u/a;)V",
         "K",
         "Q",
         "G0",
@@ -85,7 +85,7 @@
         "panelHeight",
         "Lcom/commsource/comic/widget/c;",
         "h0",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "L1",
         "()Lcom/commsource/comic/widget/c;",
         "mDownloadProgressDialog",
@@ -126,7 +126,7 @@
 
 .field private g0:Lcom/commsource/studio/layer/RelightLayer;
 
-.field private final h0:Lkotlin/w;
+.field private final h0:Lcotlin/w;
 
 .field private i0:Ljava/util/HashMap;
 
@@ -163,11 +163,11 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/RelightFragment$mDownloadProgressDialog$2;-><init>(Lcom/commsource/studio/function/RelightFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/RelightFragment;->h0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/RelightFragment;->h0:Lcotlin/w;
 
     return-void
 .end method
@@ -203,7 +203,7 @@
 
     const-string v1, "mViewBinding"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -225,7 +225,7 @@
 
     const-string v1, "relightLayer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -330,9 +330,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment;->h0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment;->h0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -365,7 +365,7 @@
 
     const-string v3, "relightLayer"
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -584,7 +584,7 @@
 
     const-string v3, "mViewBinding"
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/wb;->p:Landroid/widget/RelativeLayout;
@@ -716,13 +716,13 @@
     return-void
 .end method
 
-.method public I(Landroid/view/View;Lkotlin/jvm/u/a;)V
+.method public I(Landroid/view/View;Lcotlin/jvm/u/a;)V
     .locals 2
     .param p1    # Landroid/view/View;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/a;
+    .param p2    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -730,8 +730,8 @@
         value = {
             "(",
             "Landroid/view/View;",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -742,7 +742,7 @@
 
     const-string v0, "action"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/RelightFragment;->d0:Lcom/commsource/beautyplus/f0/wb;
@@ -751,12 +751,12 @@
 
     const-string v1, "mViewBinding"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/wb;->b:Landroid/widget/FrameLayout;
 
-    invoke-super {p0, v0, p2}, Lcom/commsource/studio/function/BaseSubFragment;->I(Landroid/view/View;Lkotlin/jvm/u/a;)V
+    invoke-super {p0, v0, p2}, Lcom/commsource/studio/function/BaseSubFragment;->I(Landroid/view/View;Lcotlin/jvm/u/a;)V
 
     .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -781,13 +781,13 @@
     return-object v1
 .end method
 
-.method public K(Landroid/view/View;Lkotlin/jvm/u/a;)V
+.method public K(Landroid/view/View;Lcotlin/jvm/u/a;)V
     .locals 2
     .param p1    # Landroid/view/View;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/a;
+    .param p2    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -795,8 +795,8 @@
         value = {
             "(",
             "Landroid/view/View;",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -807,7 +807,7 @@
 
     const-string v0, "action"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/RelightFragment;->d0:Lcom/commsource/beautyplus/f0/wb;
@@ -816,12 +816,12 @@
 
     const-string v1, "mViewBinding"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/wb;->b:Landroid/widget/FrameLayout;
 
-    invoke-super {p0, v0, p2}, Lcom/commsource/studio/function/BaseSubFragment;->K(Landroid/view/View;Lkotlin/jvm/u/a;)V
+    invoke-super {p0, v0, p2}, Lcom/commsource/studio/function/BaseSubFragment;->K(Landroid/view/View;Lcotlin/jvm/u/a;)V
 
     .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -996,7 +996,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/RelightFragment;->f0:Lcom/commsource/studio/effect/c;
@@ -1023,14 +1023,14 @@
 
     const-string v2, "mViewBinding"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/wb;->p:Landroid/widget/RelativeLayout;
 
     const-string v2, "mViewBinding.rlUserGuide"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1070,7 +1070,7 @@
 
     const-string v1, "routerEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment;->d0:Lcom/commsource/beautyplus/f0/wb;
@@ -1079,7 +1079,7 @@
 
     const-string v2, "mViewBinding"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/wb;->L:Lcom/commsource/widget/XSeekBar;
@@ -1174,7 +1174,7 @@
 
     const-string p3, "inflater"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p3, 0x0
 
@@ -1188,7 +1188,7 @@
 
     const-string v2, "mActivity"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v0, v1}, Lcom/commsource/studio/layer/RelightLayer;-><init>(Landroid/content/Context;)V
 
@@ -1204,7 +1204,7 @@
 
     invoke-direct {p3, p0}, Lcom/commsource/studio/function/RelightFragment$onCreateView$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/function/RelightFragment;)V
 
-    invoke-virtual {v0, p3}, Lcom/commsource/studio/layer/RelightLayer;->H0(Lkotlin/jvm/u/p;)V
+    invoke-virtual {v0, p3}, Lcom/commsource/studio/layer/RelightLayer;->H0(Lcotlin/jvm/u/p;)V
 
     .line 5
     iput-object v0, p0, Lcom/commsource/studio/function/RelightFragment;->g0:Lcom/commsource/studio/layer/RelightLayer;
@@ -1216,7 +1216,7 @@
 
     const-string p3, "FragmentStudioRelightBinding.inflate(inflater)"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/function/RelightFragment;->d0:Lcom/commsource/beautyplus/f0/wb;
 
@@ -1225,7 +1225,7 @@
     if-nez p1, :cond_0
 
     .line 7
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/wb;->i(Landroidx/fragment/app/Fragment;)V
@@ -1235,7 +1235,7 @@
 
     if-nez p1, :cond_1
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -1280,7 +1280,7 @@
 
     const-string v1, "view"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment;->d0:Lcom/commsource/beautyplus/f0/wb;
@@ -1289,14 +1289,14 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/wb;->a:Lcom/commsource/studio/component/ContrastComponent;
 
     const-string v3, "mViewBinding.contrast"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
@@ -1305,14 +1305,14 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/wb;->f:Lcom/commsource/studio/component/PreviewComponent;
 
     const-string v3, "mViewBinding.preview"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
@@ -1321,7 +1321,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/wb;->L:Lcom/commsource/widget/XSeekBar;
@@ -1349,7 +1349,7 @@
 
     const-string v4, "viewLifecycleOwner"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v5, Lcom/commsource/studio/function/RelightFragment$d;
 
@@ -1370,7 +1370,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v5, Lcom/commsource/studio/function/RelightFragment$onViewCreated$3;
 
@@ -1391,7 +1391,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v3, Lcom/commsource/studio/function/RelightFragment$e;
 

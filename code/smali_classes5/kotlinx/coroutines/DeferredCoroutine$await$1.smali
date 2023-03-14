@@ -1,11 +1,11 @@
-.class final Lkotlinx/coroutines/DeferredCoroutine$await$1;
-.super Lkotlin/coroutines/jvm/internal/ContinuationImpl;
+.class final Lcotlinx/coroutines/DeferredCoroutine$await$1;
+.super Lcotlin/coroutines/jvm/internal/ContinuationImpl;
 .source "Builders.common.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/DeferredCoroutine;->r(Lkotlin/coroutines/c;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/DeferredCoroutine;->r(Lcotlin/coroutines/c;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,11 +24,11 @@
     }
     d2 = {
         "T",
-        "Lkotlin/coroutines/c;",
+        "Lcotlin/coroutines/c;",
         "continuation",
         "",
         "await",
-        "(Lkotlin/coroutines/c;)Ljava/lang/Object;"
+        "(Lcotlin/coroutines/c;)Ljava/lang/Object;"
     }
     k = 0x3
     mv = {
@@ -38,7 +38,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.DeferredCoroutine"
     f = "Builders.common.kt"
     i = {
@@ -64,16 +64,16 @@
 
 .field synthetic result:Ljava/lang/Object;
 
-.field final synthetic this$0:Lkotlinx/coroutines/DeferredCoroutine;
+.field final synthetic this$0:Lcotlinx/coroutines/DeferredCoroutine;
 
 
 # direct methods
-.method constructor <init>(Lkotlinx/coroutines/DeferredCoroutine;Lkotlin/coroutines/c;)V
+.method constructor <init>(Lcotlinx/coroutines/DeferredCoroutine;Lcotlin/coroutines/c;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/DeferredCoroutine$await$1;->this$0:Lkotlinx/coroutines/DeferredCoroutine;
+    iput-object p1, p0, Lcotlinx/coroutines/DeferredCoroutine$await$1;->this$0:Lcotlinx/coroutines/DeferredCoroutine;
 
-    invoke-direct {p0, p2}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {p0, p2}, Lcotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lcotlin/coroutines/c;)V
 
     return-void
 .end method
@@ -89,19 +89,19 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    iput-object p1, p0, Lkotlinx/coroutines/DeferredCoroutine$await$1;->result:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/DeferredCoroutine$await$1;->result:Ljava/lang/Object;
 
-    iget p1, p0, Lkotlinx/coroutines/DeferredCoroutine$await$1;->label:I
+    iget p1, p0, Lcotlinx/coroutines/DeferredCoroutine$await$1;->label:I
 
     const/high16 v0, -0x80000000
 
     or-int/2addr p1, v0
 
-    iput p1, p0, Lkotlinx/coroutines/DeferredCoroutine$await$1;->label:I
+    iput p1, p0, Lcotlinx/coroutines/DeferredCoroutine$await$1;->label:I
 
-    iget-object p1, p0, Lkotlinx/coroutines/DeferredCoroutine$await$1;->this$0:Lkotlinx/coroutines/DeferredCoroutine;
+    iget-object p1, p0, Lcotlinx/coroutines/DeferredCoroutine$await$1;->this$0:Lcotlinx/coroutines/DeferredCoroutine;
 
-    invoke-static {p1, p0}, Lkotlinx/coroutines/DeferredCoroutine;->x1(Lkotlinx/coroutines/DeferredCoroutine;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p1, p0}, Lcotlinx/coroutines/DeferredCoroutine;->x1(Lcotlinx/coroutines/DeferredCoroutine;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 

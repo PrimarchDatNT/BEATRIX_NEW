@@ -17,7 +17,7 @@
     value = "SMAP\nLayerManageListLayout.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LayerManageListLayout.kt\ncom/commsource/studio/LayerManageListLayout$DragLayerInfoItem\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,1278:1\n1819#2,2:1279\n1819#2,2:1281\n1819#2,2:1283\n1828#2,3:1285\n1828#2,3:1288\n1828#2,3:1291\n1819#2,2:1294\n1828#2,3:1296\n1828#2,3:1299\n1819#2,2:1302\n1819#2,2:1304\n1828#2,3:1306\n*E\n*S KotlinDebug\n*F\n+ 1 LayerManageListLayout.kt\ncom/commsource/studio/LayerManageListLayout$DragLayerInfoItem\n*L\n615#1,2:1279\n626#1,2:1281\n641#1,2:1283\n705#1,3:1285\n705#1,3:1288\n761#1,3:1291\n761#1,2:1294\n849#1,3:1296\n869#1,3:1299\n890#1,2:1302\n896#1,2:1304\n1033#1,3:1306\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "",
         "dx",
         "dy",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
         "(II)V",
         "",
@@ -72,7 +72,7 @@
         "o",
         "Lcom/commsource/studio/bean/BaseLayerInfo;",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "a",
         "Ljava/util/ArrayList;",
         "attachLayerInfos",
@@ -151,7 +151,7 @@
 
     const-string v0, "dragLayerInfo"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
@@ -394,7 +394,7 @@
 
     const/4 v10, 0x0
 
-    invoke-static/range {v2 .. v10}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v10}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 3
     :cond_0
@@ -422,7 +422,7 @@
     .line 5
     iget-object v3, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->h:Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
 
@@ -478,7 +478,7 @@
 
     const/4 v11, 0x0
 
-    invoke-static/range {v3 .. v11}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v3 .. v11}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     goto :goto_0
 
@@ -512,7 +512,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -520,7 +520,7 @@
 
     if-nez v1, :cond_7
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -561,7 +561,7 @@
 
     move-result-object v1
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p3
 
@@ -575,7 +575,7 @@
 
     move-result-object p1
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -691,7 +691,7 @@
 
     if-gez v5, :cond_1
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_1
     check-cast v6, Lcom/commsource/studio/bean/BaseLayerInfo;
@@ -750,7 +750,7 @@
     add-int/lit8 v5, v5, -0x1
 
     .line 6
-    invoke-static {v5, v4}, Lkotlin/g2/o;->n(II)I
+    invoke-static {v5, v4}, Lcotlin/g2/o;->n(II)I
 
     move-result v5
 
@@ -944,7 +944,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     check-cast v2, Lcom/commsource/studio/d0;
@@ -981,7 +981,7 @@
 
     if-nez v3, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     check-cast v3, Lcom/commsource/studio/d0;
@@ -1114,7 +1114,7 @@
 
     invoke-direct {v2, p1}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem$onContainerEndAttachDrag$1$1;-><init>(Lcom/commsource/studio/d0;)V
 
-    invoke-virtual {p1, v1, v2}, Lcom/commsource/studio/d0;->b(FLkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v1, v2}, Lcom/commsource/studio/d0;->b(FLcotlin/jvm/u/a;)V
 
     .line 5
     :cond_0
@@ -1171,7 +1171,7 @@
     move v3, p3
 
     .line 3
-    invoke-static/range {v1 .. v9}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v1 .. v9}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 4
     invoke-virtual {p1, v10}, Lcom/commsource/studio/d0;->z(Z)V
@@ -1192,7 +1192,7 @@
     const/4 v1, 0x0
 
     .line 6
-    invoke-static {p1, p2, v1, p3, v1}, Lcom/commsource/studio/d0;->c(Lcom/commsource/studio/d0;FLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p1, p2, v1, p3, v1}, Lcom/commsource/studio/d0;->c(Lcom/commsource/studio/d0;FLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 7
     :cond_0
@@ -1250,7 +1250,7 @@
 
     move-object v1, p1
 
-    invoke-static/range {v1 .. v9}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v1 .. v9}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 3
     invoke-virtual {p1}, Lcom/commsource/studio/d0;->g()Landroid/view/ViewGroup;
@@ -1388,7 +1388,7 @@
     .line 8
     iget-object p1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->c:[Landroid/graphics/Point;
 
-    invoke-static {p2, v3}, Lkotlin/g2/o;->u(II)I
+    invoke-static {p2, v3}, Lcotlin/g2/o;->u(II)I
 
     move-result p2
 
@@ -1408,7 +1408,7 @@
 
     const/4 v9, 0x0
 
-    invoke-static/range {v1 .. v9}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v1 .. v9}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     goto :goto_0
 
@@ -1432,7 +1432,7 @@
 
     const/4 v9, 0x0
 
-    invoke-static/range {v1 .. v9}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v1 .. v9}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 10
     :cond_2
@@ -1715,7 +1715,7 @@
 
     const/16 v18, 0x0
 
-    invoke-static/range {v10 .. v18}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v10 .. v18}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 7
     :cond_1
@@ -1840,7 +1840,7 @@
 
     .line 13
     :cond_4
-    invoke-static {v5, v9}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v5, v9}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v9
 
@@ -1899,7 +1899,7 @@
 
     const/16 v18, 0x0
 
-    invoke-static/range {v10 .. v18}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v10 .. v18}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 15
     :cond_5
@@ -2183,7 +2183,7 @@
 
     const/4 v13, 0x0
 
-    invoke-static/range {v5 .. v13}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v5 .. v13}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 28
     :cond_c
@@ -2263,7 +2263,7 @@
     .line 4
     iget-object v3, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->h:Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
 
@@ -2443,7 +2443,7 @@
 
     const/16 v17, 0x0
 
-    invoke-static/range {v9 .. v17}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v9 .. v17}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 11
     :cond_1
@@ -2471,7 +2471,7 @@
 
     if-gez v3, :cond_2
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_2
     check-cast v4, Lcom/commsource/studio/bean/BaseLayerInfo;
@@ -2509,7 +2509,7 @@
     .line 15
     iget-object v4, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->c:[Landroid/graphics/Point;
 
-    invoke-static {v3, v7}, Lkotlin/g2/o;->u(II)I
+    invoke-static {v3, v7}, Lcotlin/g2/o;->u(II)I
 
     move-result v3
 
@@ -2529,7 +2529,7 @@
 
     const/16 v18, 0x0
 
-    invoke-static/range {v10 .. v18}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v10 .. v18}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     goto :goto_1
 
@@ -2553,7 +2553,7 @@
 
     const/16 v18, 0x0
 
-    invoke-static/range {v10 .. v18}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v10 .. v18}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     :cond_4
     :goto_1
@@ -2658,7 +2658,7 @@
 
     if-gez v4, :cond_8
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_8
     check-cast v9, Lcom/commsource/studio/bean/BaseLayerInfo;
@@ -2694,7 +2694,7 @@
     .line 26
     iget-object v11, v0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->c:[Landroid/graphics/Point;
 
-    invoke-static {v4, v7}, Lkotlin/g2/o;->u(II)I
+    invoke-static {v4, v7}, Lcotlin/g2/o;->u(II)I
 
     move-result v4
 
@@ -2968,7 +2968,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static {v3, v4}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v3, v4}, Lcotlin/g2/o;->m(FF)F
 
     move-result v3
 
@@ -3081,7 +3081,7 @@
 
     invoke-direct {v5, v1, p0}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem$onEndDrag$$inlined$let$lambda$1;-><init>(Lcom/commsource/studio/d0;Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;)V
 
-    invoke-virtual {v4, v5}, Lcom/commsource/studio/gesture/a;->C(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v4, v5}, Lcom/commsource/studio/gesture/a;->C(Lcotlin/jvm/u/a;)V
 
     .line 8
     invoke-virtual {v1}, Lcom/commsource/studio/d0;->p()Z
@@ -3161,7 +3161,7 @@
 
     if-gez v6, :cond_3
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_3
     check-cast v7, Lcom/commsource/studio/bean/BaseLayerInfo;
@@ -3169,7 +3169,7 @@
     .line 16
     iget-object v9, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->h:Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    invoke-static {v7, v9}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v7, v9}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v9
 
@@ -3329,7 +3329,7 @@
 
     const/4 v12, 0x0
 
-    invoke-static/range {v4 .. v12}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v4 .. v12}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 30
     :cond_9
@@ -3366,7 +3366,7 @@
 
     div-int/lit8 v4, v4, 0x2
 
-    invoke-static {v4, v2}, Lkotlin/g2/o;->n(II)I
+    invoke-static {v4, v2}, Lcotlin/g2/o;->n(II)I
 
     move-result v4
 
@@ -3493,13 +3493,13 @@
 
     if-gez v6, :cond_0
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_0
-    check-cast v7, Lkotlin/Pair;
+    check-cast v7, Lcotlin/Pair;
 
     .line 9
-    invoke-virtual {v7}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v9
 
@@ -3507,7 +3507,7 @@
 
     iget-object v10, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->h:Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    invoke-static {v9, v10}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v9, v10}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v9
 
@@ -3516,7 +3516,7 @@
     if-eqz v9, :cond_1
 
     .line 10
-    invoke-virtual {v7}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v9
 
@@ -3543,7 +3543,7 @@
 
     move-result-object v9
 
-    invoke-virtual {v7}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v10
 
@@ -3551,7 +3551,7 @@
 
     .line 12
     :cond_1
-    invoke-virtual {v7}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v9
 
@@ -3582,7 +3582,7 @@
     .line 13
     iget-object v6, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->a:Ljava/util/ArrayList;
 
-    invoke-virtual {v7}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v7
 
@@ -3629,13 +3629,13 @@
 
     if-gez v5, :cond_3
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_3
-    check-cast v6, Lkotlin/Pair;
+    check-cast v6, Lcotlin/Pair;
 
     .line 17
-    invoke-virtual {v6}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v6}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v8
 
@@ -3656,7 +3656,7 @@
     invoke-direct {p0, v8, v9, v10}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->n(Lcom/commsource/studio/bean/BaseLayerInfo;II)V
 
     .line 18
-    invoke-virtual {v6}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v6}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v8
 
@@ -3699,7 +3699,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v6}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v6}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v8
 
@@ -3708,7 +3708,7 @@
     .line 20
     iget-object v5, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->a:Ljava/util/ArrayList;
 
-    invoke-virtual {v6}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v6}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v6
 
@@ -3775,7 +3775,7 @@
 
     const/4 v13, 0x0
 
-    invoke-static/range {v5 .. v13}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v5 .. v13}, Lcom/commsource/studio/d0;->e(Lcom/commsource/studio/d0;IIZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 24
     :cond_6

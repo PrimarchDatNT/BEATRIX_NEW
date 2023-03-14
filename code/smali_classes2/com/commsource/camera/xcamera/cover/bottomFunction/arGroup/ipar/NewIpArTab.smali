@@ -8,7 +8,7 @@
     value = "SMAP\nNewIpArTab.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewIpArTab.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/NewIpArTab\n*L\n1#1,124:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -22,7 +22,7 @@
         "",
         "",
         "pos",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "j",
         "(I)V",
         "k",
@@ -33,7 +33,7 @@
         "()Lcom/meitu/template/bean/ArMaterialGroup;",
         "Lcom/commsource/beautyplus/f0/qc;",
         "a",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "g",
         "()Lcom/commsource/beautyplus/f0/qc;",
         "mViewBinding",
@@ -76,7 +76,7 @@
 
 
 # instance fields
-.field private final a:Lkotlin/w;
+.field private final a:Lcotlin/w;
     .annotation build Ln/e/a/e;
     .end annotation
 .end field
@@ -85,7 +85,7 @@
 
 .field private final c:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;
 
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
 
 .field private final e:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
@@ -114,11 +114,11 @@
 
     const-string v0, "viewStubProxy"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "bindFragment"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -132,11 +132,11 @@
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/NewIpArTab$mViewBinding$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/NewIpArTab;)V
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/NewIpArTab;->a:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/NewIpArTab;->a:Lcotlin/w;
 
     .line 3
     new-instance p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;
@@ -158,11 +158,11 @@
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/NewIpArTab$contentAdapter$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/NewIpArTab;)V
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/NewIpArTab;->d:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/NewIpArTab;->d:Lcotlin/w;
 
     .line 5
     new-instance p1, Landroidx/lifecycle/ViewModelProvider;
@@ -181,7 +181,7 @@
 
     const-string p2, "ViewModelProvider(bindFr\u2026(ArViewModel::class.java)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
@@ -244,9 +244,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/NewIpArTab;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/NewIpArTab;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -323,9 +323,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/NewIpArTab;->a:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/NewIpArTab;->a:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 

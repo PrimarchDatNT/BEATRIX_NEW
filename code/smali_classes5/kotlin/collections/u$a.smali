@@ -1,15 +1,15 @@
-.class public final Lkotlin/collections/u$a;
+.class public final Lcotlin/collections/u$a;
 .super Ljava/lang/Object;
 .source "Iterables.kt"
 
 # interfaces
 .implements Ljava/lang/Iterable;
-.implements Lkotlin/jvm/internal/x0/a;
+.implements Lcotlin/jvm/internal/x0/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/collections/u;->X(Lkotlin/jvm/u/a;)Ljava/lang/Iterable;
+    value = Lcotlin/collections/u;->X(Lcotlin/jvm/u/a;)Ljava/lang/Iterable;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,7 +22,7 @@
         "Ljava/lang/Object;",
         "Ljava/lang/Iterable<",
         "TT;>;",
-        "Lkotlin/jvm/internal/x0/a;"
+        "Lcotlin/jvm/internal/x0/a;"
     }
 .end annotation
 
@@ -30,7 +30,7 @@
     value = "SMAP\nIterables.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Iterables.kt\nkotlin/collections/CollectionsKt__IterablesKt$Iterable$1\n*L\n1#1,93:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -57,15 +57,15 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/jvm/u/a;
+.field final synthetic a:Lcotlin/jvm/u/a;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/u/a;)V
+.method public constructor <init>(Lcotlin/jvm/u/a;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lkotlin/collections/u$a;->a:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcotlin/collections/u$a;->a:Lcotlin/jvm/u/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -88,9 +88,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/u$a;->a:Lkotlin/jvm/u/a;
+    iget-object v0, p0, Lcotlin/collections/u$a;->a:Lcotlin/jvm/u/a;
 
-    invoke-interface {v0}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v0
 

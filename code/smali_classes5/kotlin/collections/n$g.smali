@@ -1,5 +1,5 @@
-.class public final Lkotlin/collections/n$g;
-.super Lkotlin/collections/c;
+.class public final Lcotlin/collections/n$g;
+.super Lcotlin/collections/c;
 .source "_ArraysJvm.kt"
 
 # interfaces
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/collections/n;->v([Z)Ljava/util/List;
+    value = Lcotlin/collections/n;->v([Z)Ljava/util/List;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,14 +18,14 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/collections/c<",
+        "Lcotlin/collections/c<",
         "Ljava/lang/Boolean;",
         ">;",
         "Ljava/util/RandomAccess;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,10 +36,10 @@
     }
     d2 = {
         "kotlin/collections/n$g",
-        "Lkotlin/collections/c;",
+        "Lcotlin/collections/c;",
         "",
         "Ljava/util/RandomAccess;",
-        "Lkotlin/collections/RandomAccess;",
+        "Lcotlin/collections/RandomAccess;",
         "isEmpty",
         "()Z",
         "element",
@@ -75,9 +75,9 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lkotlin/collections/n$g;->b:[Z
+    iput-object p1, p0, Lcotlin/collections/n$g;->b:[Z
 
-    invoke-direct {p0}, Lkotlin/collections/c;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/c;-><init>()V
 
     return-void
 .end method
@@ -88,7 +88,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/n$g;->b:[Z
+    iget-object v0, p0, Lcotlin/collections/n$g;->b:[Z
 
     array-length v0, v0
 
@@ -99,9 +99,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/n$g;->b:[Z
+    iget-object v0, p0, Lcotlin/collections/n$g;->b:[Z
 
-    invoke-static {v0, p1}, Lkotlin/collections/ArraysKt___ArraysKt;->R7([ZZ)Z
+    invoke-static {v0, p1}, Lcotlin/collections/ArraysKt___ArraysKt;->R7([ZZ)Z
 
     move-result p1
 
@@ -122,7 +122,7 @@
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Lkotlin/collections/n$g;->c(Z)Z
+    invoke-virtual {p0, p1}, Lcotlin/collections/n$g;->c(Z)Z
 
     move-result p1
 
@@ -140,7 +140,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/n$g;->b:[Z
+    iget-object v0, p0, Lcotlin/collections/n$g;->b:[Z
 
     aget-boolean p1, v0, p1
 
@@ -155,7 +155,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/collections/n$g;->e(I)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1}, Lcotlin/collections/n$g;->e(I)Ljava/lang/Boolean;
 
     move-result-object p1
 
@@ -166,9 +166,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/n$g;->b:[Z
+    iget-object v0, p0, Lcotlin/collections/n$g;->b:[Z
 
-    invoke-static {v0, p1}, Lkotlin/collections/ArraysKt___ArraysKt;->ff([ZZ)I
+    invoke-static {v0, p1}, Lcotlin/collections/ArraysKt___ArraysKt;->ff([ZZ)I
 
     move-result p1
 
@@ -179,9 +179,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/n$g;->b:[Z
+    iget-object v0, p0, Lcotlin/collections/n$g;->b:[Z
 
-    invoke-static {v0, p1}, Lkotlin/collections/ArraysKt___ArraysKt;->jh([ZZ)I
+    invoke-static {v0, p1}, Lcotlin/collections/ArraysKt___ArraysKt;->jh([ZZ)I
 
     move-result p1
 
@@ -202,7 +202,7 @@
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Lkotlin/collections/n$g;->h(Z)I
+    invoke-virtual {p0, p1}, Lcotlin/collections/n$g;->h(Z)I
 
     move-result p1
 
@@ -218,7 +218,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/n$g;->b:[Z
+    iget-object v0, p0, Lcotlin/collections/n$g;->b:[Z
 
     array-length v0, v0
 
@@ -249,7 +249,7 @@
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Lkotlin/collections/n$g;->i(Z)I
+    invoke-virtual {p0, p1}, Lcotlin/collections/n$g;->i(Z)I
 
     move-result p1
 

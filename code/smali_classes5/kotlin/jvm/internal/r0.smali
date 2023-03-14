@@ -1,4 +1,4 @@
-.class public Lkotlin/jvm/internal/r0;
+.class public Lcotlin/jvm/internal/r0;
 .super Ljava/lang/Object;
 .source "SpreadBuilder.java"
 
@@ -27,7 +27,7 @@
 
     invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(I)V
 
-    iput-object v0, p0, Lkotlin/jvm/internal/r0;->a:Ljava/util/ArrayList;
+    iput-object v0, p0, Lcotlin/jvm/internal/r0;->a:Ljava/util/ArrayList;
 
     return-void
 .end method
@@ -38,7 +38,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/jvm/internal/r0;->a:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcotlin/jvm/internal/r0;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -67,7 +67,7 @@
     if-lez v0, :cond_4
 
     .line 4
-    iget-object v0, p0, Lkotlin/jvm/internal/r0;->a:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcotlin/jvm/internal/r0;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
@@ -80,7 +80,7 @@
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->ensureCapacity(I)V
 
     .line 5
-    iget-object v0, p0, Lkotlin/jvm/internal/r0;->a:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcotlin/jvm/internal/r0;->a:Ljava/util/ArrayList;
 
     invoke-static {v0, p1}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
 
@@ -93,7 +93,7 @@
     if-eqz v0, :cond_2
 
     .line 7
-    iget-object v0, p0, Lkotlin/jvm/internal/r0;->a:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcotlin/jvm/internal/r0;->a:Ljava/util/ArrayList;
 
     check-cast p1, Ljava/util/Collection;
 
@@ -126,7 +126,7 @@
     move-result-object v0
 
     .line 10
-    iget-object v1, p0, Lkotlin/jvm/internal/r0;->a:Ljava/util/ArrayList;
+    iget-object v1, p0, Lcotlin/jvm/internal/r0;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -149,7 +149,7 @@
     if-eqz v0, :cond_4
 
     .line 13
-    iget-object v0, p0, Lkotlin/jvm/internal/r0;->a:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcotlin/jvm/internal/r0;->a:Ljava/util/ArrayList;
 
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -194,7 +194,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/jvm/internal/r0;->a:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcotlin/jvm/internal/r0;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
@@ -207,7 +207,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlin/jvm/internal/r0;->a:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcotlin/jvm/internal/r0;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 

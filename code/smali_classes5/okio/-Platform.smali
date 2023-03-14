@@ -8,7 +8,7 @@
     value = "SMAP\n-Platform.kt\nKotlin\n*S Kotlin\n*F\n+ 1 -Platform.kt\nokio/-Platform\n*L\n1#1,41:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
         "dest",
         "destPos",
         "length",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "arraycopy",
         "([BI[BII)V",
         "",
@@ -35,13 +35,13 @@
         "(Ljava/lang/String;)[B",
         "Ljava/lang/ArrayIndexOutOfBoundsException;",
         "ArrayIndexOutOfBoundsException",
-        "Lkotlin/jvm/d;",
+        "Lcotlin/jvm/d;",
         "JvmField",
-        "Lkotlin/jvm/g;",
+        "Lcotlin/jvm/g;",
         "JvmName",
-        "Lkotlin/jvm/h;",
+        "Lcotlin/jvm/h;",
         "JvmOverloads",
-        "Lkotlin/jvm/k;",
+        "Lcotlin/jvm/k;",
         "JvmStatic",
         "jvm"
     }
@@ -53,7 +53,7 @@
     }
 .end annotation
 
-.annotation build Lkotlin/jvm/g;
+.annotation build Lcotlin/jvm/g;
     name = "-Platform"
 .end annotation
 
@@ -72,11 +72,11 @@
 
     const-string v0, "src"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "dest"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0, p1, p2, p3, p4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
@@ -95,10 +95,10 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    sget-object v0, Lkotlin/text/d;->a:Ljava/nio/charset/Charset;
+    sget-object v0, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
 
@@ -106,7 +106,7 @@
 
     const-string v0, "(this as java.lang.String).getBytes(charset)"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
@@ -122,10 +122,10 @@
 
     const-string v0, "$receiver"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    sget-object v0, Lkotlin/text/d;->a:Ljava/nio/charset/Charset;
+    sget-object v0, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     new-instance v1, Ljava/lang/String;
 

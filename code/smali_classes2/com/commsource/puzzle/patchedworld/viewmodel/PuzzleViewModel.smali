@@ -8,7 +8,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Landroidx/lifecycle/MutableLiveData<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Integer;",
             "Landroid/graphics/Bitmap;",
             ">;>;"
@@ -134,7 +134,7 @@
         value = {
             "Landroidx/lifecycle/MutableLiveData<",
             "Ljava/util/List<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Integer;",
             "Landroid/graphics/Bitmap;",
             ">;>;>;"
@@ -352,7 +352,7 @@
             "()",
             "Landroidx/lifecycle/MutableLiveData<",
             "Ljava/util/List<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Integer;",
             "Landroid/graphics/Bitmap;",
             ">;>;>;"
@@ -569,7 +569,7 @@
         value = {
             "()",
             "Landroidx/lifecycle/MutableLiveData<",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Integer;",
             "Landroid/graphics/Bitmap;",
             ">;>;"

@@ -1,14 +1,14 @@
-.class final Lkotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;
-.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.class final Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;
+.super Lcotlin/coroutines/jvm/internal/SuspendLambda;
 .source "ChannelFlow.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/internal/UndispatchedContextCollector;-><init>(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/CoroutineContext;)V
+    value = Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector;-><init>(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/CoroutineContext;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,19 +18,19 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Lkotlin/jvm/u/p<",
+        "Lcotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lcotlin/jvm/u/p<",
         "TT;",
-        "Lkotlin/coroutines/c<",
+        "Lcotlin/coroutines/c<",
         "-",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;",
         "Ljava/lang/Object;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -42,7 +42,7 @@
     d2 = {
         "T",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "invoke",
         "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
         "<anonymous>"
@@ -55,7 +55,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.flow.internal.UndispatchedContextCollector$emitRef$1"
     f = "ChannelFlow.kt"
     i = {
@@ -75,7 +75,7 @@
 
 
 # instance fields
-.field final synthetic $downstream:Lkotlinx/coroutines/flow/e;
+.field final synthetic $downstream:Lcotlinx/coroutines/flow/e;
 
 .field L$0:Ljava/lang/Object;
 
@@ -85,27 +85,27 @@
 
 
 # direct methods
-.method constructor <init>(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)V
+.method constructor <init>(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->$downstream:Lkotlinx/coroutines/flow/e;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->$downstream:Lcotlinx/coroutines/flow/e;
 
     const/4 p1, 0x2
 
-    invoke-direct {p0, p1, p2}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/c;)V
+    invoke-direct {p0, p1, p2}, Lcotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILcotlin/coroutines/c;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+.method public final create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 2
     .param p1    # Ljava/lang/Object;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -113,10 +113,10 @@
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "*>;)",
-            "Lkotlin/coroutines/c<",
-            "Lkotlin/t1;",
+            "Lcotlin/coroutines/c<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -124,13 +124,13 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    new-instance v0, Lkotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;
+    new-instance v0, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;
 
-    iget-object v1, p0, Lkotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->$downstream:Lkotlinx/coroutines/flow/e;
+    iget-object v1, p0, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->$downstream:Lcotlinx/coroutines/flow/e;
 
-    invoke-direct {v0, v1, p2}, Lkotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;-><init>(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)V
+    invoke-direct {v0, v1, p2}, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;-><init>(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)V
 
-    iput-object p1, v0, Lkotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->p$0:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->p$0:Ljava/lang/Object;
 
     return-object v0
 .end method
@@ -138,17 +138,17 @@
 .method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    check-cast p2, Lkotlin/coroutines/c;
+    check-cast p2, Lcotlin/coroutines/c;
 
-    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-virtual {p0, p1, p2}, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p1
 
-    check-cast p1, Lkotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;
+    check-cast p1, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;
 
-    sget-object p2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-virtual {p1, p2}, Lkotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -164,12 +164,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 1
-    iget v1, p0, Lkotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->label:I
+    iget v1, p0, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->label:I
 
     const/4 v2, 0x1
 
@@ -177,7 +177,7 @@
 
     if-ne v1, v2, :cond_0
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -191,17 +191,17 @@
     throw p1
 
     :cond_1
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    iget-object p1, p0, Lkotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->p$0:Ljava/lang/Object;
+    iget-object p1, p0, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->p$0:Ljava/lang/Object;
 
-    iget-object v1, p0, Lkotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->$downstream:Lkotlinx/coroutines/flow/e;
+    iget-object v1, p0, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->$downstream:Lcotlinx/coroutines/flow/e;
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->L$0:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->L$0:Ljava/lang/Object;
 
-    iput v2, p0, Lkotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->label:I
+    iput v2, p0, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector$emitRef$1;->label:I
 
-    invoke-interface {v1, p1, p0}, Lkotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {v1, p1, p0}, Lcotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -211,7 +211,7 @@
 
     :cond_2
     :goto_0
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method

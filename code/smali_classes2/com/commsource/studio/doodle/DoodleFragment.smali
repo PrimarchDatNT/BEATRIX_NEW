@@ -8,7 +8,7 @@
     value = "SMAP\nDoodleFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DoodleFragment.kt\ncom/commsource/studio/doodle/DoodleFragment\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,774:1\n318#2,7:775\n*E\n*S KotlinDebug\n*F\n+ 1 DoodleFragment.kt\ncom/commsource/studio/doodle/DoodleFragment\n*L\n730#1,7:775\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/studio/doodle/DoodleFragment;",
         "Lcom/commsource/studio/sub/BaseSubTabFragment;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "y0",
         "()V",
         "x0",
@@ -55,10 +55,10 @@
         "view",
         "onViewCreated",
         "(Landroid/view/View;Landroid/os/Bundle;)V",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "endAction",
         "D0",
-        "(Lkotlin/jvm/u/a;)V",
+        "(Lcotlin/jvm/u/a;)V",
         "",
         "isConfirm",
         "s0",
@@ -91,7 +91,7 @@
         "tempEditSelectLayerInfo",
         "Lcom/commsource/studio/doodle/b;",
         "Q",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "t0",
         "()Lcom/commsource/studio/doodle/b;",
         "doodleAlphaViewModel",
@@ -156,9 +156,9 @@
 
 .field private O:Lcom/commsource/studio/layer/ScrawlLayer;
 
-.field private final P:Lkotlin/w;
+.field private final P:Lcotlin/w;
 
-.field private final Q:Lkotlin/w;
+.field private final Q:Lcotlin/w;
 
 .field private R:Lcom/commsource/widget/h1/e;
 
@@ -214,22 +214,22 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/doodle/DoodleFragment$mViewModel$2;-><init>(Lcom/commsource/studio/doodle/DoodleFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/doodle/DoodleFragment;->P:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/doodle/DoodleFragment;->P:Lcotlin/w;
 
     .line 4
     new-instance v0, Lcom/commsource/studio/doodle/DoodleFragment$doodleAlphaViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/doodle/DoodleFragment$doodleAlphaViewModel$2;-><init>(Lcom/commsource/studio/doodle/DoodleFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/doodle/DoodleFragment;->Q:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/doodle/DoodleFragment;->Q:Lcotlin/w;
 
     const v0, 0x43898000    # 275.0f
 
@@ -280,7 +280,7 @@
 
     const-string v3, "viewLifecycleOwner"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v4, Lcom/commsource/studio/doodle/DoodleFragment$j;
 
@@ -299,7 +299,7 @@
 
     move-result-object v4
 
-    invoke-static {v4, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v5, Lcom/commsource/studio/doodle/DoodleFragment$k;
 
@@ -397,13 +397,13 @@
 
     move-result-object v4
 
-    invoke-static {v4, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v5, Lcom/commsource/studio/doodle/DoodleFragment$initViewModel$$inlined$run$lambda$1;
 
     invoke-direct {v5, p0}, Lcom/commsource/studio/doodle/DoodleFragment$initViewModel$$inlined$run$lambda$1;-><init>(Lcom/commsource/studio/doodle/DoodleFragment;)V
 
-    invoke-virtual {v2, v4, v5}, Lcom/commsource/beautyfilter/NoStickLiveData;->b(Landroidx/lifecycle/LifecycleOwner;Lkotlin/jvm/u/l;)V
+    invoke-virtual {v2, v4, v5}, Lcom/commsource/beautyfilter/NoStickLiveData;->b(Landroidx/lifecycle/LifecycleOwner;Lcotlin/jvm/u/l;)V
 
     .line 10
     invoke-virtual {v1}, Lcom/commsource/material/download/b/a;->c()Lcom/commsource/beautyfilter/NoStickLiveData;
@@ -414,7 +414,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v3, Lcom/commsource/studio/doodle/DoodleFragment$i;
 
@@ -565,7 +565,7 @@
     return-void
 .end method
 
-.method public static synthetic E0(Lcom/commsource/studio/doodle/DoodleFragment;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+.method public static synthetic E0(Lcom/commsource/studio/doodle/DoodleFragment;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
     .locals 0
 
     const/16 p3, 0x31fa
@@ -580,7 +580,7 @@
 
     .line 1
     :cond_0
-    invoke-virtual {p0, p1}, Lcom/commsource/studio/doodle/DoodleFragment;->D0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p0, p1}, Lcom/commsource/studio/doodle/DoodleFragment;->D0(Lcotlin/jvm/u/a;)V
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -620,7 +620,7 @@
 
     const-string v4, "mCategoryAdapter"
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v2}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
@@ -638,7 +638,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v2, v1}, Lcom/commsource/studio/doodle/f;->b(Ljava/util/List;)V
@@ -648,7 +648,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v1}, Landroidx/viewpager/widget/PagerAdapter;->notifyDataSetChanged()V
@@ -741,7 +741,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/f;->a()Ljava/util/List;
@@ -780,7 +780,7 @@
 
     move-result-object v6
 
-    invoke-static {v6, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v6, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v6
 
@@ -826,7 +826,7 @@
 
     if-nez v7, :cond_4
 
-    invoke-static {v8}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v8}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object v7, v7, Lcom/commsource/beautyplus/f0/o7;->P:Landroidx/viewpager/widget/ViewPager;
@@ -838,7 +838,7 @@
 
     if-nez v5, :cond_5
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     invoke-virtual {v5}, Lcom/commsource/studio/doodle/f;->a()Ljava/util/List;
@@ -862,7 +862,7 @@
 
     const-string v7, "mCategoryAdapter"
 
-    invoke-static {v7}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v7}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     invoke-virtual {v5, v2}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
@@ -897,7 +897,7 @@
 
     move-result-object v7
 
-    invoke-static {v7, p2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v7, p2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v7
 
@@ -953,7 +953,7 @@
 
     if-nez p1, :cond_c
 
-    invoke-static {v8}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v8}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_c
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/o7;->K:Lcom/commsource/widget/LineSelectView;
@@ -1101,7 +1101,7 @@
 
     const-string v1, "mCategoryAdapter"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1123,7 +1123,7 @@
 
     const-string v1, "mViewBinding"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1162,7 +1162,7 @@
 
     const-string v1, "mVpAdapter"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1199,7 +1199,7 @@
 
     const-string v1, "scrawlLayer"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1405,7 +1405,7 @@
 
     check-cast v1, Lcom/commsource/studio/doodle/i;
 
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1429,7 +1429,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/o7;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
@@ -1458,12 +1458,12 @@
 
     if-nez v2, :cond_3
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/o7;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
-    invoke-static {v2, v6, v5, v6}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->G(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {v2, v6, v5, v6}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->G(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     goto :goto_0
 
@@ -1473,12 +1473,12 @@
 
     if-nez v2, :cond_5
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/o7;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
-    invoke-static {v2, v6, v5, v6}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->w(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;Lkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {v2, v6, v5, v6}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->w(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 11
     :goto_0
@@ -1514,7 +1514,7 @@
 
     invoke-direct {v2, p0, p1, v1}, Lcom/commsource/studio/doodle/DoodleFragment$applyDoodle$1;-><init>(Lcom/commsource/studio/doodle/DoodleFragment;Lcom/commsource/studio/doodle/i;Lcom/commsource/studio/doodle/DoodleMaterial;)V
 
-    invoke-virtual {p0, v2}, Lcom/commsource/studio/doodle/DoodleFragment;->D0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p0, v2}, Lcom/commsource/studio/doodle/DoodleFragment;->D0(Lcotlin/jvm/u/a;)V
 
     .line 14
     new-instance v2, Ljava/util/HashMap;
@@ -1577,7 +1577,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o7;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
@@ -1589,14 +1589,14 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o7;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
     const-string v2, "mViewBinding.colorPickView"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1609,7 +1609,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/doodle/DoodleFragment$applyEraser$1;-><init>(Lcom/commsource/studio/doodle/DoodleFragment;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lcotlin/jvm/u/a;)V
 
     .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1624,9 +1624,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment;->Q:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment;->Q:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1644,9 +1644,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment;->P:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment;->P:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1671,7 +1671,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o7;->J:Landroid/widget/ImageView;
@@ -1689,7 +1689,7 @@
 
     const-string v3, "mCategoryAdapter"
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     const-class v3, Lcom/commsource/studio/doodle/j;
@@ -1705,7 +1705,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o7;->K:Lcom/commsource/widget/LineSelectView;
@@ -1723,7 +1723,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o7;->P:Landroidx/viewpager/widget/ViewPager;
@@ -1782,14 +1782,14 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o7;->N:Landroidx/recyclerview/widget/RecyclerView;
 
     const-string v3, "mViewBinding.rvGroup"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v4, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
 
@@ -1806,7 +1806,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o7;->N:Landroidx/recyclerview/widget/RecyclerView;
@@ -1822,12 +1822,12 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o7;->N:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v4, 0x0
 
@@ -1838,12 +1838,12 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o7;->N:Landroidx/recyclerview/widget/RecyclerView;
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v3, p0, Lcom/commsource/studio/doodle/DoodleFragment;->R:Lcom/commsource/widget/h1/e;
 
@@ -1851,7 +1851,7 @@
 
     const-string v4, "mCategoryAdapter"
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
@@ -1865,7 +1865,7 @@
 
     const-string v4, "childFragmentManager"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v1, v3}, Lcom/commsource/studio/doodle/f;-><init>(Landroidx/fragment/app/FragmentManager;)V
 
@@ -1876,14 +1876,14 @@
 
     if-nez v1, :cond_5
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o7;->P:Landroidx/viewpager/widget/ViewPager;
 
     const-string v3, "mViewBinding.vpDoodle"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v4, p0, Lcom/commsource/studio/doodle/DoodleFragment;->S:Lcom/commsource/studio/doodle/f;
 
@@ -1891,7 +1891,7 @@
 
     const-string v5, "mVpAdapter"
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     invoke-virtual {v1, v4}, Landroidx/viewpager/widget/ViewPager;->setAdapter(Landroidx/viewpager/widget/PagerAdapter;)V
@@ -1901,12 +1901,12 @@
 
     if-nez v1, :cond_7
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_7
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o7;->P:Landroidx/viewpager/widget/ViewPager;
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1, v6}, Landroidx/viewpager/widget/ViewPager;->setOffscreenPageLimit(I)V
 
@@ -1930,7 +1930,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o7;->L:Lcom/commsource/studio/component/PaintEraserComponent;
@@ -2004,7 +2004,7 @@
 
     if-nez v3, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v2, v3, Lcom/commsource/beautyplus/f0/o7;->L:Lcom/commsource/studio/component/PaintEraserComponent;
@@ -2045,9 +2045,9 @@
     return v1
 .end method
 
-.method public final D0(Lkotlin/jvm/u/a;)V
+.method public final D0(Lcotlin/jvm/u/a;)V
     .locals 3
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
@@ -2057,8 +2057,8 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -2075,11 +2075,11 @@
     if-eqz p1, :cond_0
 
     .line 2
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 3
     :cond_0
@@ -2095,9 +2095,9 @@
 
     new-instance v2, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;
 
-    invoke-direct {v2, p0, p1}, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;-><init>(Lcom/commsource/studio/doodle/DoodleFragment;Lkotlin/jvm/u/a;)V
+    invoke-direct {v2, p0, p1}, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;-><init>(Lcom/commsource/studio/doodle/DoodleFragment;Lcotlin/jvm/u/a;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lcotlin/jvm/u/a;)V
 
     .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2326,7 +2326,7 @@
 
     const-string p3, "inflater"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance p3, Lcom/commsource/studio/layer/ScrawlLayer;
@@ -2335,7 +2335,7 @@
 
     const-string v1, "mActivity"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p3, v0}, Lcom/commsource/studio/layer/ScrawlLayer;-><init>(Landroid/content/Context;)V
 
@@ -2357,7 +2357,7 @@
 
     const-string p3, "FragmentDoodleBinding.inflate(inflater)"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/DoodleFragment;->M:Lcom/commsource/beautyplus/f0/o7;
 
@@ -2395,7 +2395,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/o7;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
@@ -2446,21 +2446,21 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/doodle/DoodleFragment$onCreateView$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/doodle/DoodleFragment;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->q(Lkotlin/jvm/u/l;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->q(Lcotlin/jvm/u/l;)V
 
     .line 14
     new-instance v1, Lcom/commsource/studio/doodle/DoodleFragment$onCreateView$$inlined$apply$lambda$2;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/doodle/DoodleFragment$onCreateView$$inlined$apply$lambda$2;-><init>(Lcom/commsource/studio/doodle/DoodleFragment;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->r(Lkotlin/jvm/u/l;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->r(Lcotlin/jvm/u/l;)V
 
     .line 15
     new-instance v1, Lcom/commsource/studio/doodle/DoodleFragment$onCreateView$$inlined$apply$lambda$3;
 
     invoke-direct {v1, p1, p0}, Lcom/commsource/studio/doodle/DoodleFragment$onCreateView$$inlined$apply$lambda$3;-><init>(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;Lcom/commsource/studio/doodle/DoodleFragment;)V
 
-    invoke-virtual {p1, v1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->A(Lkotlin/jvm/u/l;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->A(Lcotlin/jvm/u/l;)V
 
     const/4 v1, -0x1
 
@@ -2479,7 +2479,7 @@
 
     if-nez p1, :cond_3
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/o7;->i(Landroidx/fragment/app/Fragment;)V
@@ -2489,7 +2489,7 @@
 
     if-nez p1, :cond_4
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
@@ -2499,7 +2499,7 @@
 
     if-nez p1, :cond_5
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/o7;->L:Lcom/commsource/studio/component/PaintEraserComponent;
@@ -2513,7 +2513,7 @@
 
     if-nez p1, :cond_6
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -2590,12 +2590,12 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o7;->p:Landroid/widget/ImageView;
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -2607,12 +2607,12 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o7;->p:Landroid/widget/ImageView;
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -2640,7 +2640,7 @@
 
     const-string v1, "view"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
@@ -2662,7 +2662,7 @@
 
     const/4 v8, 0x0
 
-    invoke-static/range {v2 .. v8}, Lcom/commsource/studio/ImageStudioViewModel;->F1(Lcom/commsource/studio/ImageStudioViewModel;ZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v8}, Lcom/commsource/studio/ImageStudioViewModel;->F1(Lcom/commsource/studio/ImageStudioViewModel;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 3
     invoke-direct {p0}, Lcom/commsource/studio/doodle/DoodleFragment;->y0()V
@@ -2717,7 +2717,7 @@
 
     const-string v2, "mViewBinding"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o7;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
@@ -2750,7 +2750,7 @@
 
     const/4 v9, 0x0
 
-    invoke-static/range {v3 .. v9}, Lcom/commsource/studio/ImageStudioViewModel;->F1(Lcom/commsource/studio/ImageStudioViewModel;ZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v3 .. v9}, Lcom/commsource/studio/ImageStudioViewModel;->F1(Lcom/commsource/studio/ImageStudioViewModel;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

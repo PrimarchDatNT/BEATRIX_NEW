@@ -1,4 +1,4 @@
-.class public final Lkotlin/z1/b$m;
+.class public final Lcotlin/z1/b$m;
 .super Ljava/lang/Object;
 .source "Comparisons.kt"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/z1/b;->x(Ljava/util/Comparator;Lkotlin/jvm/u/p;)Ljava/util/Comparator;
+    value = Lcotlin/z1/b;->x(Ljava/util/Comparator;Lcotlin/jvm/u/p;)Ljava/util/Comparator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -31,7 +31,7 @@
     value = "SMAP\nComparisons.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Comparisons.kt\nkotlin/comparisons/ComparisonsKt__ComparisonsKt$thenComparator$1\n*L\n1#1,319:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -62,16 +62,16 @@
 # instance fields
 .field final synthetic a:Ljava/util/Comparator;
 
-.field final synthetic b:Lkotlin/jvm/u/p;
+.field final synthetic b:Lcotlin/jvm/u/p;
 
 
 # direct methods
-.method public constructor <init>(Ljava/util/Comparator;Lkotlin/jvm/u/p;)V
+.method public constructor <init>(Ljava/util/Comparator;Lcotlin/jvm/u/p;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/z1/b$m;->a:Ljava/util/Comparator;
+    iput-object p1, p0, Lcotlin/z1/b$m;->a:Ljava/util/Comparator;
 
-    iput-object p2, p0, Lkotlin/z1/b$m;->b:Lkotlin/jvm/u/p;
+    iput-object p2, p0, Lcotlin/z1/b$m;->b:Lcotlin/jvm/u/p;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -89,7 +89,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/z1/b$m;->a:Ljava/util/Comparator;
+    iget-object v0, p0, Lcotlin/z1/b$m;->a:Ljava/util/Comparator;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
 
@@ -101,9 +101,9 @@
 
     .line 2
     :cond_0
-    iget-object v0, p0, Lkotlin/z1/b$m;->b:Lkotlin/jvm/u/p;
+    iget-object v0, p0, Lcotlin/z1/b$m;->b:Lcotlin/jvm/u/p;
 
-    invoke-interface {v0, p1, p2}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

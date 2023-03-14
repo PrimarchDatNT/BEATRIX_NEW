@@ -1,14 +1,14 @@
-.class final Lkotlin/sequences/SequencesKt__SequencesKt$flatten$3;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlin/sequences/SequencesKt__SequencesKt$flatten$3;
+.super Lcotlin/jvm/internal/Lambda;
 .source "Sequences.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/sequences/SequencesKt__SequencesKt;->m(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    value = Lcotlin/sequences/SequencesKt__SequencesKt;->m(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,13 +18,13 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "TT;TT;>;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -51,18 +51,18 @@
 
 
 # static fields
-.field public static final INSTANCE:Lkotlin/sequences/SequencesKt__SequencesKt$flatten$3;
+.field public static final INSTANCE:Lcotlin/sequences/SequencesKt__SequencesKt$flatten$3;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkotlin/sequences/SequencesKt__SequencesKt$flatten$3;
+    new-instance v0, Lcotlin/sequences/SequencesKt__SequencesKt$flatten$3;
 
-    invoke-direct {v0}, Lkotlin/sequences/SequencesKt__SequencesKt$flatten$3;-><init>()V
+    invoke-direct {v0}, Lcotlin/sequences/SequencesKt__SequencesKt$flatten$3;-><init>()V
 
-    sput-object v0, Lkotlin/sequences/SequencesKt__SequencesKt$flatten$3;->INSTANCE:Lkotlin/sequences/SequencesKt__SequencesKt$flatten$3;
+    sput-object v0, Lcotlin/sequences/SequencesKt__SequencesKt$flatten$3;->INSTANCE:Lcotlin/sequences/SequencesKt__SequencesKt$flatten$3;
 
     return-void
 .end method
@@ -72,7 +72,7 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, v0}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method

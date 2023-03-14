@@ -1,14 +1,14 @@
-.class abstract Lkotlinx/coroutines/sync/d$c;
-.super Lkotlinx/coroutines/internal/m;
+.class abstract Lcotlinx/coroutines/sync/d$c;
+.super Lcotlinx/coroutines/internal/m;
 .source "Mutex.kt"
 
 # interfaces
-.implements Lkotlinx/coroutines/f1;
+.implements Lcotlinx/coroutines/f1;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/sync/d;
+    value = Lcotlinx/coroutines/sync/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,7 +16,7 @@
     name = "c"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,9 +27,9 @@
     }
     d2 = {
         "kotlinx/coroutines/sync/d$c",
-        "Lkotlinx/coroutines/internal/m;",
-        "Lkotlinx/coroutines/f1;",
-        "Lkotlin/t1;",
+        "Lcotlinx/coroutines/internal/m;",
+        "Lcotlinx/coroutines/f1;",
+        "Lcotlin/t1;",
         "dispose",
         "()V",
         "",
@@ -55,7 +55,7 @@
 
 # instance fields
 .field public final d:Ljava/lang/Object;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -72,9 +72,9 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Lkotlinx/coroutines/internal/m;-><init>()V
+    invoke-direct {p0}, Lcotlinx/coroutines/internal/m;-><init>()V
 
-    iput-object p1, p0, Lkotlinx/coroutines/sync/d$c;->d:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/sync/d$c;->d:Ljava/lang/Object;
 
     return-void
 .end method
@@ -85,7 +85,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lkotlinx/coroutines/internal/m;->X()Z
+    invoke-virtual {p0}, Lcotlinx/coroutines/internal/m;->X()Z
 
     return-void
 .end method

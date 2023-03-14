@@ -1,14 +1,14 @@
-.class final Lkotlinx/coroutines/flow/FlowKt__ErrorsKt$retry$4;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlinx/coroutines/flow/FlowKt__ErrorsKt$retry$4;
+.super Lcotlin/jvm/internal/Lambda;
 .source "Errors.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/FlowKt__ErrorsKt;->j(Lkotlinx/coroutines/flow/d;ILkotlin/jvm/u/l;ILjava/lang/Object;)Lkotlinx/coroutines/flow/d;
+    value = Lcotlinx/coroutines/flow/FlowKt__ErrorsKt;->j(Lcotlinx/coroutines/flow/d;ILcotlin/jvm/u/l;ILjava/lang/Object;)Lcotlinx/coroutines/flow/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,15 +18,15 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Ljava/lang/Throwable;",
         "Ljava/lang/Boolean;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -54,18 +54,18 @@
 
 
 # static fields
-.field public static final INSTANCE:Lkotlinx/coroutines/flow/FlowKt__ErrorsKt$retry$4;
+.field public static final INSTANCE:Lcotlinx/coroutines/flow/FlowKt__ErrorsKt$retry$4;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkotlinx/coroutines/flow/FlowKt__ErrorsKt$retry$4;
+    new-instance v0, Lcotlinx/coroutines/flow/FlowKt__ErrorsKt$retry$4;
 
-    invoke-direct {v0}, Lkotlinx/coroutines/flow/FlowKt__ErrorsKt$retry$4;-><init>()V
+    invoke-direct {v0}, Lcotlinx/coroutines/flow/FlowKt__ErrorsKt$retry$4;-><init>()V
 
-    sput-object v0, Lkotlinx/coroutines/flow/FlowKt__ErrorsKt$retry$4;->INSTANCE:Lkotlinx/coroutines/flow/FlowKt__ErrorsKt$retry$4;
+    sput-object v0, Lcotlinx/coroutines/flow/FlowKt__ErrorsKt$retry$4;->INSTANCE:Lcotlinx/coroutines/flow/FlowKt__ErrorsKt$retry$4;
 
     return-void
 .end method
@@ -75,7 +75,7 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, v0}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -87,7 +87,7 @@
 
     check-cast p1, Ljava/lang/Throwable;
 
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/flow/FlowKt__ErrorsKt$retry$4;->invoke(Ljava/lang/Throwable;)Z
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/flow/FlowKt__ErrorsKt$retry$4;->invoke(Ljava/lang/Throwable;)Z
 
     move-result p1
 

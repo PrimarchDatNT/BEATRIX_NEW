@@ -1,4 +1,4 @@
-.class public final Lkotlinx/coroutines/AwaitKt;
+.class public final Lcotlinx/coroutines/AwaitKt;
 .super Ljava/lang/Object;
 .source "Await.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nAwait.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Await.kt\nkotlinx/coroutines/AwaitKt\n+ 2 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n+ 3 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n+ 4 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,117:1\n37#2,2:118\n11416#3,2:120\n1642#4,2:122\n*E\n*S KotlinDebug\n*F\n+ 1 Await.kt\nkotlinx/coroutines/AwaitKt\n*L\n38#1,2:118\n47#1,2:120\n56#1,2:122\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,19 +20,19 @@
     d2 = {
         "T",
         "",
-        "Lkotlinx/coroutines/t0;",
+        "Lcotlinx/coroutines/t0;",
         "deferreds",
         "",
         "b",
-        "([Lkotlinx/coroutines/Deferred;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "([Lcotlinx/coroutines/Deferred;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "",
         "a",
-        "(Ljava/util/Collection;Lkotlin/coroutines/c;)Ljava/lang/Object;",
-        "Lkotlinx/coroutines/c2;",
+        "(Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;",
+        "Lcotlinx/coroutines/c2;",
         "jobs",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
-        "([Lkotlinx/coroutines/Job;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "([Lcotlinx/coroutines/Job;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "c",
         "kotlinx-coroutines-core"
     }
@@ -46,13 +46,13 @@
 
 
 # direct methods
-.method public static final a(Ljava/util/Collection;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final a(Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
     .param p0    # Ljava/util/Collection;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -63,9 +63,9 @@
             ">(",
             "Ljava/util/Collection<",
             "+",
-            "Lkotlinx/coroutines/t0<",
+            "Lcotlinx/coroutines/t0<",
             "+TT;>;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/util/List<",
             "+TT;>;>;)",
@@ -76,15 +76,15 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p1, Lkotlinx/coroutines/AwaitKt$awaitAll$2;
+    instance-of v0, p1, Lcotlinx/coroutines/AwaitKt$awaitAll$2;
 
     if-eqz v0, :cond_0
 
     move-object v0, p1
 
-    check-cast v0, Lkotlinx/coroutines/AwaitKt$awaitAll$2;
+    check-cast v0, Lcotlinx/coroutines/AwaitKt$awaitAll$2;
 
-    iget v1, v0, Lkotlinx/coroutines/AwaitKt$awaitAll$2;->label:I
+    iget v1, v0, Lcotlinx/coroutines/AwaitKt$awaitAll$2;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -94,24 +94,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/AwaitKt$awaitAll$2;->label:I
+    iput v1, v0, Lcotlinx/coroutines/AwaitKt$awaitAll$2;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/AwaitKt$awaitAll$2;
+    new-instance v0, Lcotlinx/coroutines/AwaitKt$awaitAll$2;
 
-    invoke-direct {v0, p1}, Lkotlinx/coroutines/AwaitKt$awaitAll$2;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p1}, Lcotlinx/coroutines/AwaitKt$awaitAll$2;-><init>(Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p1, v0, Lkotlinx/coroutines/AwaitKt$awaitAll$2;->result:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/AwaitKt$awaitAll$2;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/AwaitKt$awaitAll$2;->label:I
+    iget v2, v0, Lcotlinx/coroutines/AwaitKt$awaitAll$2;->label:I
 
     const/4 v3, 0x1
 
@@ -119,11 +119,11 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p0, v0, Lkotlinx/coroutines/AwaitKt$awaitAll$2;->L$0:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/AwaitKt$awaitAll$2;->L$0:Ljava/lang/Object;
 
     check-cast p0, Ljava/util/Collection;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_1
 
@@ -139,7 +139,7 @@
 
     .line 3
     :cond_2
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 4
     invoke-interface {p0}, Ljava/util/Collection;->isEmpty()Z
@@ -148,7 +148,7 @@
 
     if-eqz p1, :cond_3
 
-    invoke-static {}, Lkotlin/collections/s;->E()Ljava/util/List;
+    invoke-static {}, Lcotlin/collections/s;->E()Ljava/util/List;
 
     move-result-object p0
 
@@ -157,7 +157,7 @@
     :cond_3
     const/4 p1, 0x0
 
-    new-array p1, p1, [Lkotlinx/coroutines/t0;
+    new-array p1, p1, [Lcotlinx/coroutines/t0;
 
     .line 5
     invoke-interface {p0, p1}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
@@ -166,18 +166,18 @@
 
     if-eqz p1, :cond_5
 
-    check-cast p1, [Lkotlinx/coroutines/t0;
+    check-cast p1, [Lcotlinx/coroutines/t0;
 
     .line 6
-    new-instance v2, Lkotlinx/coroutines/c;
+    new-instance v2, Lcotlinx/coroutines/c;
 
-    invoke-direct {v2, p1}, Lkotlinx/coroutines/c;-><init>([Lkotlinx/coroutines/t0;)V
+    invoke-direct {v2, p1}, Lcotlinx/coroutines/c;-><init>([Lcotlinx/coroutines/t0;)V
 
-    iput-object p0, v0, Lkotlinx/coroutines/AwaitKt$awaitAll$2;->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/AwaitKt$awaitAll$2;->L$0:Ljava/lang/Object;
 
-    iput v3, v0, Lkotlinx/coroutines/AwaitKt$awaitAll$2;->label:I
+    iput v3, v0, Lcotlinx/coroutines/AwaitKt$awaitAll$2;->label:I
 
-    invoke-virtual {v2, v0}, Lkotlinx/coroutines/c;->b(Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-virtual {v2, v0}, Lcotlinx/coroutines/c;->b(Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -196,22 +196,22 @@
 
     .line 7
     :cond_5
-    new-instance p0, Lkotlin/TypeCastException;
+    new-instance p0, Lcotlin/TypeCastException;
 
     const-string p1, "null cannot be cast to non-null type kotlin.Array<T>"
 
-    invoke-direct {p0, p1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
 
-.method public static final b([Lkotlinx/coroutines/t0;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final b([Lcotlinx/coroutines/t0;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
-    .param p0    # [Lkotlinx/coroutines/t0;
+    .param p0    # [Lcotlinx/coroutines/t0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -220,9 +220,9 @@
             "<T:",
             "Ljava/lang/Object;",
             ">([",
-            "Lkotlinx/coroutines/t0<",
+            "Lcotlinx/coroutines/t0<",
             "+TT;>;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
             "Ljava/util/List<",
             "+TT;>;>;)",
@@ -233,15 +233,15 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p1, Lkotlinx/coroutines/AwaitKt$awaitAll$1;
+    instance-of v0, p1, Lcotlinx/coroutines/AwaitKt$awaitAll$1;
 
     if-eqz v0, :cond_0
 
     move-object v0, p1
 
-    check-cast v0, Lkotlinx/coroutines/AwaitKt$awaitAll$1;
+    check-cast v0, Lcotlinx/coroutines/AwaitKt$awaitAll$1;
 
-    iget v1, v0, Lkotlinx/coroutines/AwaitKt$awaitAll$1;->label:I
+    iget v1, v0, Lcotlinx/coroutines/AwaitKt$awaitAll$1;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -251,24 +251,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/AwaitKt$awaitAll$1;->label:I
+    iput v1, v0, Lcotlinx/coroutines/AwaitKt$awaitAll$1;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/AwaitKt$awaitAll$1;
+    new-instance v0, Lcotlinx/coroutines/AwaitKt$awaitAll$1;
 
-    invoke-direct {v0, p1}, Lkotlinx/coroutines/AwaitKt$awaitAll$1;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p1}, Lcotlinx/coroutines/AwaitKt$awaitAll$1;-><init>(Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p1, v0, Lkotlinx/coroutines/AwaitKt$awaitAll$1;->result:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/AwaitKt$awaitAll$1;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/AwaitKt$awaitAll$1;->label:I
+    iget v2, v0, Lcotlinx/coroutines/AwaitKt$awaitAll$1;->label:I
 
     const/4 v3, 0x1
 
@@ -276,11 +276,11 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p0, v0, Lkotlinx/coroutines/AwaitKt$awaitAll$1;->L$0:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/AwaitKt$awaitAll$1;->L$0:Ljava/lang/Object;
 
-    check-cast p0, [Lkotlinx/coroutines/t0;
+    check-cast p0, [Lcotlinx/coroutines/t0;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_2
 
@@ -296,7 +296,7 @@
 
     .line 3
     :cond_2
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 4
     array-length p1, p0
@@ -313,22 +313,22 @@
     :goto_1
     if-eqz p1, :cond_4
 
-    invoke-static {}, Lkotlin/collections/s;->E()Ljava/util/List;
+    invoke-static {}, Lcotlin/collections/s;->E()Ljava/util/List;
 
     move-result-object p0
 
     goto :goto_3
 
     :cond_4
-    new-instance p1, Lkotlinx/coroutines/c;
+    new-instance p1, Lcotlinx/coroutines/c;
 
-    invoke-direct {p1, p0}, Lkotlinx/coroutines/c;-><init>([Lkotlinx/coroutines/t0;)V
+    invoke-direct {p1, p0}, Lcotlinx/coroutines/c;-><init>([Lcotlinx/coroutines/t0;)V
 
-    iput-object p0, v0, Lkotlinx/coroutines/AwaitKt$awaitAll$1;->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/AwaitKt$awaitAll$1;->L$0:Ljava/lang/Object;
 
-    iput v3, v0, Lkotlinx/coroutines/AwaitKt$awaitAll$1;->label:I
+    iput v3, v0, Lcotlinx/coroutines/AwaitKt$awaitAll$1;->label:I
 
-    invoke-virtual {p1, v0}, Lkotlinx/coroutines/c;->b(Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Lcotlinx/coroutines/c;->b(Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -346,13 +346,13 @@
     return-object p0
 .end method
 
-.method public static final c(Ljava/util/Collection;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final c(Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 7
     .param p0    # Ljava/util/Collection;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -361,11 +361,11 @@
             "(",
             "Ljava/util/Collection<",
             "+",
-            "Lkotlinx/coroutines/c2;",
+            "Lcotlinx/coroutines/c2;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Ljava/lang/Object;"
         }
@@ -374,15 +374,15 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p1, Lkotlinx/coroutines/AwaitKt$joinAll$3;
+    instance-of v0, p1, Lcotlinx/coroutines/AwaitKt$joinAll$3;
 
     if-eqz v0, :cond_0
 
     move-object v0, p1
 
-    check-cast v0, Lkotlinx/coroutines/AwaitKt$joinAll$3;
+    check-cast v0, Lcotlinx/coroutines/AwaitKt$joinAll$3;
 
-    iget v1, v0, Lkotlinx/coroutines/AwaitKt$joinAll$3;->label:I
+    iget v1, v0, Lcotlinx/coroutines/AwaitKt$joinAll$3;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -392,24 +392,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/AwaitKt$joinAll$3;->label:I
+    iput v1, v0, Lcotlinx/coroutines/AwaitKt$joinAll$3;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/AwaitKt$joinAll$3;
+    new-instance v0, Lcotlinx/coroutines/AwaitKt$joinAll$3;
 
-    invoke-direct {v0, p1}, Lkotlinx/coroutines/AwaitKt$joinAll$3;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p1}, Lcotlinx/coroutines/AwaitKt$joinAll$3;-><init>(Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p1, v0, Lkotlinx/coroutines/AwaitKt$joinAll$3;->result:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/AwaitKt$joinAll$3;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/AwaitKt$joinAll$3;->label:I
+    iget v2, v0, Lcotlinx/coroutines/AwaitKt$joinAll$3;->label:I
 
     const/4 v3, 0x1
 
@@ -417,25 +417,25 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p0, v0, Lkotlinx/coroutines/AwaitKt$joinAll$3;->L$4:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/AwaitKt$joinAll$3;->L$4:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/c2;
+    check-cast p0, Lcotlinx/coroutines/c2;
 
-    iget-object p0, v0, Lkotlinx/coroutines/AwaitKt$joinAll$3;->L$3:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/AwaitKt$joinAll$3;->L$3:Ljava/lang/Object;
 
-    iget-object p0, v0, Lkotlinx/coroutines/AwaitKt$joinAll$3;->L$2:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/AwaitKt$joinAll$3;->L$2:Ljava/lang/Object;
 
     check-cast p0, Ljava/util/Iterator;
 
-    iget-object v2, v0, Lkotlinx/coroutines/AwaitKt$joinAll$3;->L$1:Ljava/lang/Object;
+    iget-object v2, v0, Lcotlinx/coroutines/AwaitKt$joinAll$3;->L$1:Ljava/lang/Object;
 
     check-cast v2, Ljava/lang/Iterable;
 
-    iget-object v4, v0, Lkotlinx/coroutines/AwaitKt$joinAll$3;->L$0:Ljava/lang/Object;
+    iget-object v4, v0, Lcotlinx/coroutines/AwaitKt$joinAll$3;->L$0:Ljava/lang/Object;
 
     check-cast v4, Ljava/util/Collection;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     move-object p1, v4
 
@@ -459,7 +459,7 @@
     throw p0
 
     :cond_2
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 2
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -490,22 +490,22 @@
 
     move-object v5, v4
 
-    check-cast v5, Lkotlinx/coroutines/c2;
+    check-cast v5, Lcotlinx/coroutines/c2;
 
     .line 3
-    iput-object p1, v1, Lkotlinx/coroutines/AwaitKt$joinAll$3;->L$0:Ljava/lang/Object;
+    iput-object p1, v1, Lcotlinx/coroutines/AwaitKt$joinAll$3;->L$0:Ljava/lang/Object;
 
-    iput-object v0, v1, Lkotlinx/coroutines/AwaitKt$joinAll$3;->L$1:Ljava/lang/Object;
+    iput-object v0, v1, Lcotlinx/coroutines/AwaitKt$joinAll$3;->L$1:Ljava/lang/Object;
 
-    iput-object p0, v1, Lkotlinx/coroutines/AwaitKt$joinAll$3;->L$2:Ljava/lang/Object;
+    iput-object p0, v1, Lcotlinx/coroutines/AwaitKt$joinAll$3;->L$2:Ljava/lang/Object;
 
-    iput-object v4, v1, Lkotlinx/coroutines/AwaitKt$joinAll$3;->L$3:Ljava/lang/Object;
+    iput-object v4, v1, Lcotlinx/coroutines/AwaitKt$joinAll$3;->L$3:Ljava/lang/Object;
 
-    iput-object v5, v1, Lkotlinx/coroutines/AwaitKt$joinAll$3;->L$4:Ljava/lang/Object;
+    iput-object v5, v1, Lcotlinx/coroutines/AwaitKt$joinAll$3;->L$4:Ljava/lang/Object;
 
-    iput v3, v1, Lkotlinx/coroutines/AwaitKt$joinAll$3;->label:I
+    iput v3, v1, Lcotlinx/coroutines/AwaitKt$joinAll$3;->label:I
 
-    invoke-interface {v5, v1}, Lkotlinx/coroutines/c2;->I(Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {v5, v1}, Lcotlinx/coroutines/c2;->I(Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object v4
 
@@ -515,28 +515,28 @@
 
     .line 4
     :cond_4
-    sget-object p0, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p0
 .end method
 
-.method public static final d([Lkotlinx/coroutines/c2;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final d([Lcotlinx/coroutines/c2;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 7
-    .param p0    # [Lkotlinx/coroutines/c2;
+    .param p0    # [Lcotlinx/coroutines/c2;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/coroutines/c;
+    .param p1    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "([",
-            "Lkotlinx/coroutines/c2;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlinx/coroutines/c2;",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Ljava/lang/Object;"
         }
@@ -545,15 +545,15 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p1, Lkotlinx/coroutines/AwaitKt$joinAll$1;
+    instance-of v0, p1, Lcotlinx/coroutines/AwaitKt$joinAll$1;
 
     if-eqz v0, :cond_0
 
     move-object v0, p1
 
-    check-cast v0, Lkotlinx/coroutines/AwaitKt$joinAll$1;
+    check-cast v0, Lcotlinx/coroutines/AwaitKt$joinAll$1;
 
-    iget v1, v0, Lkotlinx/coroutines/AwaitKt$joinAll$1;->label:I
+    iget v1, v0, Lcotlinx/coroutines/AwaitKt$joinAll$1;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -563,24 +563,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/AwaitKt$joinAll$1;->label:I
+    iput v1, v0, Lcotlinx/coroutines/AwaitKt$joinAll$1;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/AwaitKt$joinAll$1;
+    new-instance v0, Lcotlinx/coroutines/AwaitKt$joinAll$1;
 
-    invoke-direct {v0, p1}, Lkotlinx/coroutines/AwaitKt$joinAll$1;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p1}, Lcotlinx/coroutines/AwaitKt$joinAll$1;-><init>(Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p1, v0, Lkotlinx/coroutines/AwaitKt$joinAll$1;->result:Ljava/lang/Object;
+    iget-object p1, v0, Lcotlinx/coroutines/AwaitKt$joinAll$1;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/AwaitKt$joinAll$1;->label:I
+    iget v2, v0, Lcotlinx/coroutines/AwaitKt$joinAll$1;->label:I
 
     const/4 v3, 0x1
 
@@ -588,31 +588,31 @@
 
     if-ne v2, v3, :cond_1
 
-    iget-object p0, v0, Lkotlinx/coroutines/AwaitKt$joinAll$1;->L$4:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/AwaitKt$joinAll$1;->L$4:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/c2;
+    check-cast p0, Lcotlinx/coroutines/c2;
 
-    iget-object p0, v0, Lkotlinx/coroutines/AwaitKt$joinAll$1;->L$3:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/AwaitKt$joinAll$1;->L$3:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/c2;
+    check-cast p0, Lcotlinx/coroutines/c2;
 
-    iget p0, v0, Lkotlinx/coroutines/AwaitKt$joinAll$1;->I$1:I
+    iget p0, v0, Lcotlinx/coroutines/AwaitKt$joinAll$1;->I$1:I
 
-    iget v2, v0, Lkotlinx/coroutines/AwaitKt$joinAll$1;->I$0:I
+    iget v2, v0, Lcotlinx/coroutines/AwaitKt$joinAll$1;->I$0:I
 
-    iget-object v4, v0, Lkotlinx/coroutines/AwaitKt$joinAll$1;->L$2:Ljava/lang/Object;
+    iget-object v4, v0, Lcotlinx/coroutines/AwaitKt$joinAll$1;->L$2:Ljava/lang/Object;
 
-    check-cast v4, [Lkotlinx/coroutines/c2;
+    check-cast v4, [Lcotlinx/coroutines/c2;
 
-    iget-object v5, v0, Lkotlinx/coroutines/AwaitKt$joinAll$1;->L$1:Ljava/lang/Object;
+    iget-object v5, v0, Lcotlinx/coroutines/AwaitKt$joinAll$1;->L$1:Ljava/lang/Object;
 
-    check-cast v5, [Lkotlinx/coroutines/c2;
+    check-cast v5, [Lcotlinx/coroutines/c2;
 
-    iget-object v6, v0, Lkotlinx/coroutines/AwaitKt$joinAll$1;->L$0:Ljava/lang/Object;
+    iget-object v6, v0, Lcotlinx/coroutines/AwaitKt$joinAll$1;->L$0:Ljava/lang/Object;
 
-    check-cast v6, [Lkotlinx/coroutines/c2;
+    check-cast v6, [Lcotlinx/coroutines/c2;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     move-object p1, v4
 
@@ -638,7 +638,7 @@
     throw p0
 
     :cond_2
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 2
     array-length p1, p0
@@ -665,23 +665,23 @@
     aget-object v6, p1, p0
 
     .line 3
-    iput-object v0, v2, Lkotlinx/coroutines/AwaitKt$joinAll$1;->L$0:Ljava/lang/Object;
+    iput-object v0, v2, Lcotlinx/coroutines/AwaitKt$joinAll$1;->L$0:Ljava/lang/Object;
 
-    iput-object v1, v2, Lkotlinx/coroutines/AwaitKt$joinAll$1;->L$1:Ljava/lang/Object;
+    iput-object v1, v2, Lcotlinx/coroutines/AwaitKt$joinAll$1;->L$1:Ljava/lang/Object;
 
-    iput-object p1, v2, Lkotlinx/coroutines/AwaitKt$joinAll$1;->L$2:Ljava/lang/Object;
+    iput-object p1, v2, Lcotlinx/coroutines/AwaitKt$joinAll$1;->L$2:Ljava/lang/Object;
 
-    iput v5, v2, Lkotlinx/coroutines/AwaitKt$joinAll$1;->I$0:I
+    iput v5, v2, Lcotlinx/coroutines/AwaitKt$joinAll$1;->I$0:I
 
-    iput p0, v2, Lkotlinx/coroutines/AwaitKt$joinAll$1;->I$1:I
+    iput p0, v2, Lcotlinx/coroutines/AwaitKt$joinAll$1;->I$1:I
 
-    iput-object v6, v2, Lkotlinx/coroutines/AwaitKt$joinAll$1;->L$3:Ljava/lang/Object;
+    iput-object v6, v2, Lcotlinx/coroutines/AwaitKt$joinAll$1;->L$3:Ljava/lang/Object;
 
-    iput-object v6, v2, Lkotlinx/coroutines/AwaitKt$joinAll$1;->L$4:Ljava/lang/Object;
+    iput-object v6, v2, Lcotlinx/coroutines/AwaitKt$joinAll$1;->L$4:Ljava/lang/Object;
 
-    iput v3, v2, Lkotlinx/coroutines/AwaitKt$joinAll$1;->label:I
+    iput v3, v2, Lcotlinx/coroutines/AwaitKt$joinAll$1;->label:I
 
-    invoke-interface {v6, v2}, Lkotlinx/coroutines/c2;->I(Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {v6, v2}, Lcotlinx/coroutines/c2;->I(Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object v6
 
@@ -697,7 +697,7 @@
 
     .line 4
     :cond_4
-    sget-object p0, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p0
 .end method

@@ -31,7 +31,7 @@
     value = "SMAP\nTextFontRepository.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextFontRepository.kt\ncom/commsource/repository/child/TextFontRepository$textFontComparator$2$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,323:1\n1819#2,12:324\n1820#2:336\n37#3,2:337\n37#3,2:339\n37#3,2:341\n*E\n*S KotlinDebug\n*F\n+ 1 TextFontRepository.kt\ncom/commsource/repository/child/TextFontRepository$textFontComparator$2$1\n*L\n78#1,12:324\n78#1:336\n91#1,2:337\n92#1,2:339\n93#1,2:341\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -55,7 +55,7 @@
         "inserts",
         "update",
         "remove",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "s",
         "(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V",
         "",
@@ -125,7 +125,7 @@
 
     const-string v1, "onlineData"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Ljava/util/ArrayList;
@@ -180,7 +180,7 @@
 
     if-gez v4, :cond_1
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_1
     check-cast v5, Lcom/commsource/studio/text/TextFontMaterial;

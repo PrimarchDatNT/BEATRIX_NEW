@@ -1,11 +1,11 @@
-.class final Lkotlinx/coroutines/channels/c$c;
-.super Lkotlinx/coroutines/channels/c$b;
+.class final Lcotlinx/coroutines/channels/c$c;
+.super Lcotlinx/coroutines/channels/c$b;
 .source "AbstractChannel.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlinx/coroutines/channels/c;
+    value = Lcotlinx/coroutines/channels/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,12 +18,12 @@
         "<E:",
         "Ljava/lang/Object;",
         ">",
-        "Lkotlinx/coroutines/channels/c$b<",
+        "Lcotlinx/coroutines/channels/c$b<",
         "TE;>;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,18 +35,18 @@
     d2 = {
         "kotlinx/coroutines/channels/c$c",
         "E",
-        "Lkotlinx/coroutines/channels/c$b;",
-        "Lkotlinx/coroutines/internal/m;",
+        "Lcotlinx/coroutines/channels/c$b;",
+        "Lcotlinx/coroutines/internal/m;",
         "affected",
         "next",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "f",
-        "(Lkotlinx/coroutines/internal/m;Lkotlinx/coroutines/internal/m;)V",
-        "Lkotlinx/coroutines/internal/k;",
+        "(Lcotlinx/coroutines/internal/m;Lcotlinx/coroutines/internal/m;)V",
+        "Lcotlinx/coroutines/internal/k;",
         "queue",
         "element",
         "<init>",
-        "(Lkotlinx/coroutines/internal/k;Ljava/lang/Object;)V",
+        "(Lcotlinx/coroutines/internal/k;Ljava/lang/Object;)V",
         "kotlinx-coroutines-core"
     }
     k = 0x1
@@ -59,55 +59,55 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/internal/k;Ljava/lang/Object;)V
+.method public constructor <init>(Lcotlinx/coroutines/internal/k;Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Lkotlinx/coroutines/internal/k;
+    .param p1    # Lcotlinx/coroutines/internal/k;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/internal/k;",
+            "Lcotlinx/coroutines/internal/k;",
             "TE;)V"
         }
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lkotlinx/coroutines/channels/c$b;-><init>(Lkotlinx/coroutines/internal/k;Ljava/lang/Object;)V
+    invoke-direct {p0, p1, p2}, Lcotlinx/coroutines/channels/c$b;-><init>(Lcotlinx/coroutines/internal/k;Ljava/lang/Object;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected f(Lkotlinx/coroutines/internal/m;Lkotlinx/coroutines/internal/m;)V
+.method protected f(Lcotlinx/coroutines/internal/m;Lcotlinx/coroutines/internal/m;)V
     .locals 0
-    .param p1    # Lkotlinx/coroutines/internal/m;
+    .param p1    # Lcotlinx/coroutines/internal/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlinx/coroutines/internal/m;
+    .param p2    # Lcotlinx/coroutines/internal/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
 
     .line 1
-    invoke-super {p0, p1, p2}, Lkotlinx/coroutines/internal/m$b;->f(Lkotlinx/coroutines/internal/m;Lkotlinx/coroutines/internal/m;)V
+    invoke-super {p0, p1, p2}, Lcotlinx/coroutines/internal/m$b;->f(Lcotlinx/coroutines/internal/m;Lcotlinx/coroutines/internal/m;)V
 
     .line 2
-    instance-of p2, p1, Lkotlinx/coroutines/channels/c$a;
+    instance-of p2, p1, Lcotlinx/coroutines/channels/c$a;
 
     if-nez p2, :cond_0
 
     const/4 p1, 0x0
 
     :cond_0
-    check-cast p1, Lkotlinx/coroutines/channels/c$a;
+    check-cast p1, Lcotlinx/coroutines/channels/c$a;
 
     if-eqz p1, :cond_1
 
-    invoke-virtual {p1}, Lkotlinx/coroutines/internal/m;->X()Z
+    invoke-virtual {p1}, Lcotlinx/coroutines/internal/m;->X()Z
 
     :cond_1
     return-void

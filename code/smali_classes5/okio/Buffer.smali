@@ -21,7 +21,7 @@
     value = "SMAP\nBuffer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Buffer.kt\nokio/Buffer\n+ 2 -Util.kt\nokio/-Util\n*L\n1#1,2216:1\n1395#1,20:2220\n1395#1,20:2276\n1395#1:2296\n1397#1,8:2298\n1407#1,8:2307\n1395#1,20:2316\n75#2:2217\n72#2:2218\n72#2:2219\n63#2:2240\n63#2:2241\n63#2:2242\n63#2:2243\n63#2:2244\n63#2:2245\n63#2:2246\n63#2:2247\n63#2:2248\n63#2:2249\n63#2:2250\n63#2:2251\n69#2:2252\n69#2:2253\n66#2:2254\n66#2:2255\n66#2:2256\n66#2:2257\n66#2:2258\n66#2:2259\n66#2:2260\n66#2:2261\n63#2:2262\n63#2:2263\n75#2:2264\n63#2:2265\n63#2:2266\n63#2:2267\n63#2:2268\n63#2:2269\n63#2:2270\n63#2:2271\n63#2:2272\n63#2:2273\n63#2:2274\n72#2:2275\n75#2:2297\n75#2:2306\n75#2:2315\n*E\n*S KotlinDebug\n*F\n+ 1 Buffer.kt\nokio/Buffer\n*L\n287#1,20:2220\n1432#1,20:2276\n1467#1:2296\n1467#1,8:2298\n1467#1,8:2307\n1503#1,20:2316\n135#1:2217\n194#1:2218\n232#1:2219\n302#1:2240\n302#1:2241\n307#1:2242\n307#1:2243\n330#1:2244\n331#1:2245\n332#1:2246\n333#1:2247\n337#1:2248\n338#1:2249\n339#1:2250\n340#1:2251\n363#1:2252\n364#1:2253\n368#1:2254\n369#1:2255\n370#1:2256\n371#1:2257\n372#1:2258\n373#1:2259\n374#1:2260\n375#1:2261\n577#1:2262\n601#1:2263\n710#1:2264\n743#1:2265\n745#1:2266\n749#1:2267\n751#1:2268\n755#1:2269\n757#1:2270\n761#1:2271\n763#1:2272\n784#1:2273\n787#1:2274\n883#1:2275\n1467#1:2297\n1467#1:2306\n1467#1:2315\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -42,16 +42,16 @@
         "byteCount",
         "",
         "forever",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "readFrom",
         "(Ljava/io/InputStream;JZ)V",
         "T",
         "fromIndex",
-        "Lkotlin/Function2;",
+        "Lcotlin/Function2;",
         "Lokio/Segment;",
         "lambda",
         "seek",
-        "(JLkotlin/jvm/u/p;)Ljava/lang/Object;",
+        "(JLcotlin/jvm/u/p;)Ljava/lang/Object;",
         "segment",
         "",
         "segmentPos",
@@ -270,7 +270,7 @@
 
 # instance fields
 .field public head:Lokio/Segment;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/e;
@@ -288,12 +288,12 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lokio/Buffer$Companion;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lokio/Buffer$Companion;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lokio/Buffer;->Companion:Lokio/Buffer$Companion;
 
     .line 1
-    sget-object v0, Lkotlin/text/d;->a:Ljava/nio/charset/Charset;
+    sget-object v0, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     const-string v1, "0123456789abcdef"
 
@@ -303,7 +303,7 @@
 
     const-string v1, "(this as java.lang.String).getBytes(charset)"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sput-object v0, Lokio/Buffer;->DIGITS:[B
 
@@ -327,7 +327,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -431,7 +431,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     :goto_0
@@ -453,7 +453,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     goto :goto_0
 
@@ -467,7 +467,7 @@
 
     const-string v1, "messageDigest.digest()"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v0, p1}, Lokio/ByteString;-><init>([B)V
 
@@ -515,7 +515,7 @@
 
     if-nez p2, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     :goto_0
@@ -537,7 +537,7 @@
 
     if-nez p2, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     goto :goto_0
 
@@ -551,7 +551,7 @@
 
     const-string v0, "mac.doFinal()"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p1, p2}, Lokio/ByteString;-><init>([B)V
     :try_end_0
@@ -589,7 +589,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 8
     :cond_0
@@ -636,7 +636,7 @@
 
 .method public static bridge synthetic readAndWriteUnsafe$default(Lokio/Buffer;Lokio/Buffer$UnsafeCursor;ILjava/lang/Object;)Lokio/Buffer$UnsafeCursor;
     .locals 0
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -753,7 +753,7 @@
 
 .method public static bridge synthetic readUnsafe$default(Lokio/Buffer;Lokio/Buffer$UnsafeCursor;ILjava/lang/Object;)Lokio/Buffer$UnsafeCursor;
     .locals 0
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -776,14 +776,14 @@
     return-object p0
 .end method
 
-.method private final seek(JLkotlin/jvm/u/p;)Ljava/lang/Object;
+.method private final seek(JLcotlin/jvm/u/p;)Ljava/lang/Object;
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(J",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Lokio/Segment;",
             "-",
@@ -823,7 +823,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 5
     :cond_0
@@ -845,7 +845,7 @@
 
     move-result-object p1
 
-    invoke-interface {p3, v0, p1}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v0, p1}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -875,7 +875,7 @@
 
     move-result-object p1
 
-    invoke-interface {p3, v0, p1}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v0, p1}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -887,7 +887,7 @@
 
     if-nez v0, :cond_4
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
     move-wide v1, v3
@@ -904,7 +904,7 @@
 
     move-result-object p2
 
-    invoke-interface {p3, p1, p2}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p1, p2}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -937,7 +937,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -962,16 +962,16 @@
 # virtual methods
 .method public final -deprecated_getByte(J)B
     .locals 0
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->ERROR:Lcotlin/DeprecationLevel;
         message = "moved to operator function"
-        replaceWith = .subannotation Lkotlin/q0;
+        replaceWith = .subannotation Lcotlin/q0;
             expression = "this[index]"
             imports = {}
         .end subannotation
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "-deprecated_getByte"
     .end annotation
 
@@ -985,16 +985,16 @@
 
 .method public final -deprecated_size()J
     .locals 2
-    .annotation runtime Lkotlin/i;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
+    .annotation runtime Lcotlin/i;
+        level = .enum Lcotlin/DeprecationLevel;->ERROR:Lcotlin/DeprecationLevel;
         message = "moved to val"
-        replaceWith = .subannotation Lkotlin/q0;
+        replaceWith = .subannotation Lcotlin/q0;
             expression = "size"
             imports = {}
         .end subannotation
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "-deprecated_size"
     .end annotation
 
@@ -1061,7 +1061,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {v1}, Lokio/Segment;->sharedCopy()Lokio/Segment;
@@ -1073,7 +1073,7 @@
     if-nez v1, :cond_2
 
     .line 5
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     iget-object v2, v0, Lokio/Buffer;->head:Lokio/Segment;
@@ -1083,14 +1083,14 @@
     if-nez v2, :cond_3
 
     .line 6
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     iget-object v1, v0, Lokio/Buffer;->head:Lokio/Segment;
 
     if-nez v1, :cond_4
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
     iget-object v1, v1, Lokio/Segment;->prev:Lokio/Segment;
@@ -1102,7 +1102,7 @@
 
     if-nez v1, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     iget-object v1, v1, Lokio/Segment;->next:Lokio/Segment;
@@ -1118,19 +1118,19 @@
 
     if-nez v2, :cond_6
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     iget-object v2, v2, Lokio/Segment;->prev:Lokio/Segment;
 
     if-nez v2, :cond_7
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_7
     if-nez v1, :cond_8
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_8
     invoke-virtual {v1}, Lokio/Segment;->sharedCopy()Lokio/Segment;
@@ -1179,14 +1179,14 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     iget-object v2, v2, Lokio/Segment;->prev:Lokio/Segment;
 
     if-nez v2, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 3
     :cond_2
@@ -1225,7 +1225,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -1262,7 +1262,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -1299,7 +1299,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -1307,7 +1307,7 @@
 
     const-string v0, "out"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-wide v1, p0, Lokio/Buffer;->size:J
@@ -1334,7 +1334,7 @@
     if-nez v2, :cond_1
 
     .line 3
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     iget v3, v2, Lokio/Segment;->limit:I
@@ -1369,7 +1369,7 @@
     if-nez v2, :cond_3
 
     .line 5
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     iget v3, v2, Lokio/Segment;->pos:I
@@ -1425,7 +1425,7 @@
 
     const-string v0, "out"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     iget-wide v1, p0, Lokio/Buffer;->size:J
@@ -1459,7 +1459,7 @@
     if-nez v2, :cond_1
 
     .line 13
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     iget v3, v2, Lokio/Segment;->limit:I
@@ -1494,7 +1494,7 @@
     if-nez v2, :cond_3
 
     .line 15
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     invoke-virtual {v2}, Lokio/Segment;->sharedCopy()Lokio/Segment;
@@ -1543,14 +1543,14 @@
     if-nez p2, :cond_5
 
     .line 22
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     iget-object p2, p2, Lokio/Segment;->prev:Lokio/Segment;
 
     if-nez p2, :cond_6
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     invoke-virtual {p2, v3}, Lokio/Segment;->push(Lokio/Segment;)Lokio/Segment;
@@ -1672,7 +1672,7 @@
 
     if-nez v3, :cond_4
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 4
     :cond_4
@@ -1680,7 +1680,7 @@
 
     if-nez v1, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 5
     :cond_5
@@ -1760,7 +1760,7 @@
 
     if-nez v3, :cond_8
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 12
     :cond_8
@@ -1777,7 +1777,7 @@
 
     if-nez v1, :cond_a
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 15
     :cond_a
@@ -1831,7 +1831,7 @@
 
 .method public final getByte(J)B
     .locals 6
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "getByte"
     .end annotation
 
@@ -1875,7 +1875,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 6
     :cond_0
@@ -1895,7 +1895,7 @@
     if-nez v0, :cond_2
 
     .line 7
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     iget-object v3, v0, Lokio/Segment;->data:[B
@@ -1936,7 +1936,7 @@
     if-nez v0, :cond_4
 
     .line 9
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
     iget-object v3, v0, Lokio/Segment;->data:[B
@@ -1961,7 +1961,7 @@
 
     if-nez v0, :cond_6
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     move-wide v1, v3
@@ -1974,7 +1974,7 @@
     const-wide/16 v1, -0x1
 
     .line 11
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     iget-object v3, v0, Lokio/Segment;->data:[B
 
@@ -2032,7 +2032,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 6
     :cond_2
@@ -2059,7 +2059,7 @@
 
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "HmacSHA1"
 
@@ -2082,7 +2082,7 @@
 
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "HmacSHA256"
 
@@ -2105,7 +2105,7 @@
 
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "HmacSHA512"
 
@@ -2232,7 +2232,7 @@
 
     if-nez v4, :cond_4
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 8
     :cond_4
@@ -2331,7 +2331,7 @@
 
     if-nez v4, :cond_8
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_8
     move-wide p2, v0
@@ -2430,7 +2430,7 @@
 
     if-nez v4, :cond_d
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_d
     move-wide p2, v0
@@ -2446,7 +2446,7 @@
 
     if-nez v4, :cond_10
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_10
     move-wide v0, v5
@@ -2511,7 +2511,7 @@
 
     const-string v0, "bytes"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v0, 0x0
 
@@ -2543,7 +2543,7 @@
 
     move-object/from16 v3, p1
 
-    invoke-static {v3, v2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 26
     invoke-virtual/range {p1 .. p1}, Lokio/ByteString;->size()I
@@ -2613,7 +2613,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 31
     :cond_2
@@ -2760,7 +2760,7 @@
 
     if-nez v7, :cond_6
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     move-wide v0, v13
@@ -2924,7 +2924,7 @@
 
     if-nez v6, :cond_c
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_c
     move-wide v0, v7
@@ -2951,7 +2951,7 @@
 
     if-nez v2, :cond_10
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_10
     move-object/from16 v6, p0
@@ -3015,7 +3015,7 @@
 
     const-string v0, "targetBytes"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v0, 0x0
 
@@ -3036,7 +3036,7 @@
 
     const-string v0, "targetBytes"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v0, 0x0
 
@@ -3093,7 +3093,7 @@
 
     if-nez v4, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 6
     :cond_1
@@ -3202,7 +3202,7 @@
 
     if-nez v4, :cond_6
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     move-wide p2, v0
@@ -3291,7 +3291,7 @@
 
     if-nez v4, :cond_b
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_b
     move-wide p2, v0
@@ -3396,7 +3396,7 @@
 
     if-nez v4, :cond_10
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_10
     move-wide p2, v0
@@ -3481,7 +3481,7 @@
 
     if-nez v4, :cond_15
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_15
     move-wide p2, v0
@@ -3497,7 +3497,7 @@
 
     if-nez v4, :cond_18
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_18
     move-wide v0, v7
@@ -3609,7 +3609,7 @@
 
     const-string v0, "bytes"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p3}, Lokio/ByteString;->size()I
@@ -3640,7 +3640,7 @@
 
     const-string v0, "bytes"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -3730,7 +3730,7 @@
 
     const-string v0, "sink"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 11
     iget-object v0, p0, Lokio/Buffer;->head:Lokio/Segment;
@@ -3808,7 +3808,7 @@
 
     const-string v0, "sink"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p1
@@ -3831,7 +3831,7 @@
 
     const-string v0, "sink"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     array-length v0, p1
@@ -3916,7 +3916,7 @@
 
     const-string v0, "sink"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v0, 0x0
 
@@ -3999,7 +3999,7 @@
 
     const-string v0, "sink"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-wide v0, p0, Lokio/Buffer;->size:J
@@ -4019,7 +4019,7 @@
 
 .method public final readAndWriteUnsafe()Lokio/Buffer$UnsafeCursor;
     .locals 2
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -4042,7 +4042,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -4050,7 +4050,7 @@
 
     const-string v0, "unsafeCursor"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p1, Lokio/Buffer$UnsafeCursor;->buffer:Lokio/Buffer;
@@ -4114,7 +4114,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 3
     :cond_0
@@ -4345,7 +4345,7 @@
 
     if-nez v10, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 3
     :cond_1
@@ -4581,7 +4581,7 @@
 
     const-string v0, "input"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide v0, 0x7fffffffffffffffL
 
@@ -4610,7 +4610,7 @@
 
     const-string v0, "input"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -4676,7 +4676,7 @@
 
     const-string v0, "sink"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-wide v0, p0, Lokio/Buffer;->size:J
@@ -4716,7 +4716,7 @@
 
     const-string v0, "sink"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -4784,7 +4784,7 @@
 
     if-nez v6, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 3
     :cond_1
@@ -5021,7 +5021,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 3
     :cond_0
@@ -5203,7 +5203,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 3
     :cond_0
@@ -5445,7 +5445,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 3
     :cond_0
@@ -5578,7 +5578,7 @@
 
     const-string v0, "charset"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v0, 0x0
 
@@ -5623,7 +5623,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 4
     :cond_2
@@ -5740,7 +5740,7 @@
 
     const-string v0, "charset"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-wide v0, p0, Lokio/Buffer;->size:J
@@ -5754,7 +5754,7 @@
 
 .method public final readUnsafe()Lokio/Buffer$UnsafeCursor;
     .locals 2
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -5777,7 +5777,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -5785,7 +5785,7 @@
 
     const-string v0, "unsafeCursor"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p1, Lokio/Buffer$UnsafeCursor;->buffer:Lokio/Buffer;
@@ -5835,7 +5835,7 @@
     .line 1
     iget-wide v0, p0, Lokio/Buffer;->size:J
 
-    sget-object v2, Lkotlin/text/d;->a:Ljava/nio/charset/Charset;
+    sget-object v2, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     invoke-virtual {p0, v0, v1, v2}, Lokio/Buffer;->readString(JLjava/nio/charset/Charset;)Ljava/lang/String;
 
@@ -5856,7 +5856,7 @@
     .end annotation
 
     .line 2
-    sget-object v0, Lkotlin/text/d;->a:Ljava/nio/charset/Charset;
+    sget-object v0, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     invoke-virtual {p0, p1, p2, v0}, Lokio/Buffer;->readString(JLjava/nio/charset/Charset;)Ljava/lang/String;
 
@@ -6485,7 +6485,7 @@
 
     const-string v0, "options"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -6535,7 +6535,7 @@
 
     move-object/from16 v1, p1
 
-    invoke-static {v1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     move-object/from16 v0, p0
 
@@ -6632,14 +6632,14 @@
     if-nez v10, :cond_4
 
     .line 10
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
     iget-object v5, v10, Lokio/Segment;->next:Lokio/Segment;
 
     if-nez v5, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 11
     :cond_5
@@ -6746,7 +6746,7 @@
 
     if-nez v10, :cond_d
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 19
     :cond_d
@@ -6859,7 +6859,7 @@
 
 .method public final size()J
     .locals 2
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "size"
     .end annotation
 
@@ -7114,7 +7114,7 @@
     if-nez v1, :cond_2
 
     .line 6
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     iget-object v1, v1, Lokio/Segment;->prev:Lokio/Segment;
@@ -7122,7 +7122,7 @@
     if-nez v1, :cond_3
 
     .line 7
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     iget v2, v1, Lokio/Segment;->limit:I
@@ -7177,7 +7177,7 @@
 
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->remaining()I
@@ -7247,7 +7247,7 @@
 
     const-string v0, "byteString"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     invoke-virtual {p1, p0}, Lokio/ByteString;->write$jvm(Lokio/Buffer;)V
@@ -7266,7 +7266,7 @@
 
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     array-length v0, p1
@@ -7291,7 +7291,7 @@
 
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     array-length v0, p1
@@ -7386,7 +7386,7 @@
 
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     :goto_0
     const-wide/16 v0, 0x0
@@ -7453,7 +7453,7 @@
 
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -7490,7 +7490,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     iget v1, v1, Lokio/Segment;->limit:I
@@ -7499,7 +7499,7 @@
 
     if-nez v2, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     iget v2, v2, Lokio/Segment;->pos:I
@@ -7519,7 +7519,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_3
     iget-object v1, v1, Lokio/Segment;->prev:Lokio/Segment;
@@ -7572,7 +7572,7 @@
 
     if-nez v0, :cond_6
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_6
     long-to-int v2, p2
@@ -7601,7 +7601,7 @@
 
     if-nez v1, :cond_8
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_8
     long-to-int v2, p2
@@ -7619,7 +7619,7 @@
     if-nez v1, :cond_a
 
     .line 29
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_a
     iget v2, v1, Lokio/Segment;->limit:I
@@ -7657,7 +7657,7 @@
     if-nez v4, :cond_c
 
     .line 35
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_c
     iget-object v4, v4, Lokio/Segment;->prev:Lokio/Segment;
@@ -7665,7 +7665,7 @@
     if-nez v4, :cond_d
 
     .line 36
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_d
     invoke-virtual {v4, v1}, Lokio/Segment;->push(Lokio/Segment;)Lokio/Segment;
@@ -7726,7 +7726,7 @@
 
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v0, 0x0
 
@@ -8651,11 +8651,11 @@
 
     const-string v0, "string"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "charset"
 
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -8701,9 +8701,9 @@
     if-eqz v0, :cond_5
 
     .line 5
-    sget-object v0, Lkotlin/text/d;->a:Ljava/nio/charset/Charset;
+    sget-object v0, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -8723,7 +8723,7 @@
 
     const-string p2, "(this as java.lang.Strin\u2026ing(startIndex, endIndex)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p1, :cond_4
 
@@ -8733,7 +8733,7 @@
 
     const-string p2, "(this as java.lang.String).getBytes(charset)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 7
     array-length p2, p1
@@ -8746,11 +8746,11 @@
 
     .line 8
     :cond_4
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type java.lang.String"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
@@ -8864,11 +8864,11 @@
 
     const-string v0, "string"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "charset"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-virtual {p1}, Ljava/lang/String;->length()I
@@ -8918,7 +8918,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -8953,7 +8953,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -8961,7 +8961,7 @@
 
     const-string v0, "out"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-wide v1, p0, Lokio/Buffer;->size:J
@@ -8986,7 +8986,7 @@
     if-nez v0, :cond_1
 
     .line 3
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     iget v1, v0, Lokio/Segment;->limit:I
@@ -9064,7 +9064,7 @@
 
     const-string v0, "string"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-virtual {p1}, Ljava/lang/String;->length()I
@@ -9091,7 +9091,7 @@
 
     const-string v0, "string"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 

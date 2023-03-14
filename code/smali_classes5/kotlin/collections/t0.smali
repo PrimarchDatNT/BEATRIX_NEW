@@ -1,5 +1,5 @@
-.class Lkotlin/collections/t0;
-.super Lkotlin/collections/s0;
+.class Lcotlin/collections/t0;
+.super Lcotlin/collections/s0;
 .source "Maps.kt"
 
 
@@ -8,7 +8,7 @@
     value = "SMAP\nMaps.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Maps.kt\nkotlin/collections/MapsKt__MapsKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,787:1\n386#1:797\n397#1:802\n494#1,6:807\n519#1,6:813\n1#2:788\n1206#3,4:789\n1206#3,4:793\n1206#3,4:798\n1206#3,4:803\n*E\n*S KotlinDebug\n*F\n+ 1 Maps.kt\nkotlin/collections/MapsKt__MapsKt\n*L\n436#1:797\n451#1:802\n509#1,6:807\n534#1,6:813\n386#1,4:789\n397#1,4:793\n436#1,4:798\n451#1,4:803\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,46 +24,46 @@
         "z",
         "()Ljava/util/Map;",
         "",
-        "Lkotlin/Pair;",
+        "Lcotlin/Pair;",
         "pairs",
         "W",
-        "([Lkotlin/Pair;)Ljava/util/Map;",
+        "([Lcotlin/Pair;)Ljava/util/Map;",
         "",
         "i0",
         "j0",
         "Ljava/util/HashMap;",
-        "Lkotlin/collections/HashMap;",
+        "Lcotlin/collections/HashMap;",
         "L",
         "()Ljava/util/HashMap;",
         "M",
-        "([Lkotlin/Pair;)Ljava/util/HashMap;",
+        "([Lcotlin/Pair;)Ljava/util/HashMap;",
         "Ljava/util/LinkedHashMap;",
-        "Lkotlin/collections/LinkedHashMap;",
+        "Lcotlin/collections/LinkedHashMap;",
         "R",
         "()Ljava/util/LinkedHashMap;",
         "S",
-        "([Lkotlin/Pair;)Ljava/util/LinkedHashMap;",
-        "Lkotlin/Function1;",
-        "Lkotlin/t1;",
-        "Lkotlin/q;",
+        "([Lcotlin/Pair;)Ljava/util/LinkedHashMap;",
+        "Lcotlin/Function1;",
+        "Lcotlin/t1;",
+        "Lcotlin/q;",
         "builderAction",
         "t",
-        "(Lkotlin/jvm/u/l;)Ljava/util/Map;",
+        "(Lcotlin/jvm/u/l;)Ljava/util/Map;",
         "",
         "capacity",
         "s",
-        "(ILkotlin/jvm/u/l;)Ljava/util/Map;",
+        "(ILcotlin/jvm/u/l;)Ljava/util/Map;",
         "",
         "O",
         "(Ljava/util/Map;)Z",
         "P",
         "l0",
         "(Ljava/util/Map;)Ljava/util/Map;",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "defaultValue",
         "N",
-        "(Ljava/util/Map;Lkotlin/jvm/u/a;)Ljava/lang/Object;",
-        "Lkotlin/internal/i;",
+        "(Ljava/util/Map;Lcotlin/jvm/u/a;)Ljava/lang/Object;",
+        "Lcotlin/internal/i;",
         "key",
         "w",
         "(Ljava/util/Map;Ljava/lang/Object;)Z",
@@ -80,9 +80,9 @@
         "(Ljava/util/Map$Entry;)Ljava/lang/Object;",
         "v",
         "K0",
-        "(Ljava/util/Map$Entry;)Lkotlin/Pair;",
+        "(Ljava/util/Map$Entry;)Lcotlin/Pair;",
         "H",
-        "(Ljava/util/Map;Ljava/lang/Object;Lkotlin/jvm/u/a;)Ljava/lang/Object;",
+        "(Ljava/util/Map;Ljava/lang/Object;Lcotlin/jvm/u/a;)Ljava/lang/Object;",
         "I",
         "J",
         "",
@@ -94,18 +94,18 @@
         "destination",
         "transform",
         "Y",
-        "(Ljava/util/Map;Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;",
+        "(Ljava/util/Map;Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;",
         "U",
         "y0",
-        "(Ljava/util/Map;[Lkotlin/Pair;)V",
+        "(Ljava/util/Map;[Lcotlin/Pair;)V",
         "",
         "w0",
         "(Ljava/util/Map;Ljava/lang/Iterable;)V",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "x0",
-        "(Ljava/util/Map;Lkotlin/sequences/m;)V",
+        "(Ljava/util/Map;Lcotlin/sequences/m;)V",
         "X",
-        "(Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;",
+        "(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;",
         "T",
         "predicate",
         "B",
@@ -120,28 +120,28 @@
         "(Ljava/lang/Iterable;Ljava/util/Map;)Ljava/util/Map;",
         "H0",
         "I0",
-        "([Lkotlin/Pair;Ljava/util/Map;)Ljava/util/Map;",
+        "([Lcotlin/Pair;Ljava/util/Map;)Ljava/util/Map;",
         "F0",
-        "(Lkotlin/sequences/m;)Ljava/util/Map;",
+        "(Lcotlin/sequences/m;)Ljava/util/Map;",
         "G0",
-        "(Lkotlin/sequences/m;Ljava/util/Map;)Ljava/util/Map;",
+        "(Lcotlin/sequences/m;Ljava/util/Map;)Ljava/util/Map;",
         "D0",
         "J0",
         "E0",
         "(Ljava/util/Map;Ljava/util/Map;)Ljava/util/Map;",
         "pair",
         "o0",
-        "(Ljava/util/Map;Lkotlin/Pair;)Ljava/util/Map;",
+        "(Ljava/util/Map;Lcotlin/Pair;)Ljava/util/Map;",
         "m0",
         "(Ljava/util/Map;Ljava/lang/Iterable;)Ljava/util/Map;",
         "q0",
-        "(Ljava/util/Map;[Lkotlin/Pair;)Ljava/util/Map;",
+        "(Ljava/util/Map;[Lcotlin/Pair;)Ljava/util/Map;",
         "p0",
-        "(Ljava/util/Map;Lkotlin/sequences/m;)Ljava/util/Map;",
+        "(Ljava/util/Map;Lcotlin/sequences/m;)Ljava/util/Map;",
         "map",
         "n0",
         "t0",
-        "(Ljava/util/Map;Lkotlin/Pair;)V",
+        "(Ljava/util/Map;Lcotlin/Pair;)V",
         "r0",
         "v0",
         "u0",
@@ -177,18 +177,18 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/collections/s0;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/s0;-><init>()V
 
     return-void
 .end method
 
-.method public static final A(Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+.method public static final A(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 3
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -201,7 +201,7 @@
             ">(",
             "Ljava/util/Map<",
             "+TK;+TV;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/util/Map$Entry<",
             "+TK;+TV;>;",
@@ -217,11 +217,11 @@
 
     const-string v0, "$this$filter"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "predicate"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
@@ -252,7 +252,7 @@
     check-cast v1, Ljava/util/Map$Entry;
 
     .line 3
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -295,12 +295,12 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "$this$set"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -308,13 +308,13 @@
     return-void
 .end method
 
-.method public static final B(Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+.method public static final B(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 3
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -327,7 +327,7 @@
             ">(",
             "Ljava/util/Map<",
             "+TK;+TV;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TK;",
             "Ljava/lang/Boolean;",
             ">;)",
@@ -341,11 +341,11 @@
 
     const-string v0, "$this$filterKeys"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "predicate"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
@@ -380,7 +380,7 @@
 
     move-result-object v2
 
-    invoke-interface {p1, v2}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -424,7 +424,7 @@
             ">(",
             "Ljava/lang/Iterable<",
             "+",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;>;)",
             "Ljava/util/Map<",
             "TK;TV;>;"
@@ -436,7 +436,7 @@
 
     const-string v0, "$this$toMap"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     instance-of v0, p0, Ljava/util/Collection;
@@ -465,13 +465,13 @@
 
     move-result v0
 
-    invoke-static {v0}, Lkotlin/collections/q0;->j(I)I
+    invoke-static {v0}, Lcotlin/collections/q0;->j(I)I
 
     move-result v0
 
     invoke-direct {v1, v0}, Ljava/util/LinkedHashMap;-><init>(I)V
 
-    invoke-static {p0, v1}, Lkotlin/collections/t0;->C0(Ljava/lang/Iterable;Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0, v1}, Lcotlin/collections/t0;->C0(Ljava/lang/Iterable;Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -503,9 +503,9 @@
     move-result-object p0
 
     :goto_0
-    check-cast p0, Lkotlin/Pair;
+    check-cast p0, Lcotlin/Pair;
 
-    invoke-static {p0}, Lkotlin/collections/s0;->k(Lkotlin/Pair;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/s0;->k(Lcotlin/Pair;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -513,7 +513,7 @@
 
     .line 5
     :cond_2
-    invoke-static {}, Lkotlin/collections/q0;->z()Ljava/util/Map;
+    invoke-static {}, Lcotlin/collections/q0;->z()Ljava/util/Map;
 
     move-result-object p0
 
@@ -526,24 +526,24 @@
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    invoke-static {p0, v0}, Lkotlin/collections/t0;->C0(Ljava/lang/Iterable;Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0, v0}, Lcotlin/collections/t0;->C0(Ljava/lang/Iterable;Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
-    invoke-static {p0}, Lkotlin/collections/t0;->k0(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/t0;->k0(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final C(Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+.method public static final C(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 3
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -556,7 +556,7 @@
             ">(",
             "Ljava/util/Map<",
             "+TK;+TV;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/util/Map$Entry<",
             "+TK;+TV;>;",
@@ -572,11 +572,11 @@
 
     const-string v0, "$this$filterNot"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "predicate"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
@@ -607,7 +607,7 @@
     check-cast v1, Ljava/util/Map$Entry;
 
     .line 3
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -657,7 +657,7 @@
             "-TK;-TV;>;>(",
             "Ljava/lang/Iterable<",
             "+",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;>;TM;)TM;"
         }
     .end annotation
@@ -667,19 +667,19 @@
 
     const-string v0, "$this$toMap"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "destination"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p1, p0}, Lkotlin/collections/t0;->w0(Ljava/util/Map;Ljava/lang/Iterable;)V
+    invoke-static {p1, p0}, Lcotlin/collections/t0;->w0(Ljava/util/Map;Ljava/lang/Iterable;)V
 
     return-object p1
 .end method
 
-.method public static final D(Ljava/util/Map;Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+.method public static final D(Ljava/util/Map;Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 2
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
@@ -689,7 +689,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -704,7 +704,7 @@
             "-TK;-TV;>;>(",
             "Ljava/util/Map<",
             "+TK;+TV;>;TM;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/util/Map$Entry<",
             "+TK;+TV;>;",
@@ -718,15 +718,15 @@
 
     const-string v0, "$this$filterNotTo"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "destination"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "predicate"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -752,7 +752,7 @@
     check-cast v0, Ljava/util/Map$Entry;
 
     .line 2
-    invoke-interface {p2, v0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -801,7 +801,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -810,7 +810,7 @@
 
     const-string v0, "$this$toMap"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Map;->size()I
@@ -824,7 +824,7 @@
     if-eq v0, v1, :cond_0
 
     .line 2
-    invoke-static {p0}, Lkotlin/collections/t0;->J0(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/t0;->J0(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -832,7 +832,7 @@
 
     .line 3
     :cond_0
-    invoke-static {p0}, Lkotlin/collections/s0;->o(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/s0;->o(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -840,7 +840,7 @@
 
     .line 4
     :cond_1
-    invoke-static {}, Lkotlin/collections/q0;->z()Ljava/util/Map;
+    invoke-static {}, Lcotlin/collections/q0;->z()Ljava/util/Map;
 
     move-result-object p0
 
@@ -848,7 +848,7 @@
     return-object p0
 .end method
 
-.method public static final E(Ljava/util/Map;Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+.method public static final E(Ljava/util/Map;Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 2
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
@@ -858,7 +858,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -873,7 +873,7 @@
             "-TK;-TV;>;>(",
             "Ljava/util/Map<",
             "+TK;+TV;>;TM;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/util/Map$Entry<",
             "+TK;+TV;>;",
@@ -887,15 +887,15 @@
 
     const-string v0, "$this$filterTo"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "destination"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "predicate"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -921,7 +921,7 @@
     check-cast v0, Ljava/util/Map$Entry;
 
     .line 2
-    invoke-interface {p2, v0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -974,7 +974,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -983,11 +983,11 @@
 
     const-string v0, "$this$toMap"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "destination"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p1, p0}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
@@ -995,13 +995,13 @@
     return-object p1
 .end method
 
-.method public static final F(Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+.method public static final F(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 3
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1014,7 +1014,7 @@
             ">(",
             "Ljava/util/Map<",
             "+TK;+TV;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TV;",
             "Ljava/lang/Boolean;",
             ">;)",
@@ -1028,11 +1028,11 @@
 
     const-string v0, "$this$filterValues"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "predicate"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
@@ -1067,7 +1067,7 @@
 
     move-result-object v2
 
-    invoke-interface {p1, v2}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -1096,9 +1096,9 @@
     return-object v0
 .end method
 
-.method public static final F0(Lkotlin/sequences/m;)Ljava/util/Map;
+.method public static final F0(Lcotlin/sequences/m;)Ljava/util/Map;
     .locals 1
-    .param p0    # Lkotlin/sequences/m;
+    .param p0    # Lcotlin/sequences/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1109,9 +1109,9 @@
             "V:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "+",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;>;)",
             "Ljava/util/Map<",
             "TK;TV;>;"
@@ -1123,18 +1123,18 @@
 
     const-string v0, "$this$toMap"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    invoke-static {p0, v0}, Lkotlin/collections/t0;->G0(Lkotlin/sequences/m;Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0, v0}, Lcotlin/collections/t0;->G0(Lcotlin/sequences/m;Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
-    invoke-static {p0}, Lkotlin/collections/t0;->k0(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/t0;->k0(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -1155,12 +1155,12 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "$this$get"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1170,9 +1170,9 @@
     return-object p0
 .end method
 
-.method public static final G0(Lkotlin/sequences/m;Ljava/util/Map;)Ljava/util/Map;
+.method public static final G0(Lcotlin/sequences/m;Ljava/util/Map;)Ljava/util/Map;
     .locals 1
-    .param p0    # Lkotlin/sequences/m;
+    .param p0    # Lcotlin/sequences/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1189,9 +1189,9 @@
             "M::",
             "Ljava/util/Map<",
             "-TK;-TV;>;>(",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "+",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;>;TM;)TM;"
         }
     .end annotation
@@ -1201,19 +1201,19 @@
 
     const-string v0, "$this$toMap"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "destination"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p1, p0}, Lkotlin/collections/t0;->x0(Ljava/util/Map;Lkotlin/sequences/m;)V
+    invoke-static {p1, p0}, Lcotlin/collections/t0;->x0(Ljava/util/Map;Lcotlin/sequences/m;)V
 
     return-object p1
 .end method
 
-.method private static final H(Ljava/util/Map;Ljava/lang/Object;Lkotlin/jvm/u/a;)Ljava/lang/Object;
+.method private static final H(Ljava/util/Map;Ljava/lang/Object;Lcotlin/jvm/u/a;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1224,12 +1224,12 @@
             ">(",
             "Ljava/util/Map<",
             "TK;+TV;>;TK;",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/jvm/u/a<",
             "+TV;>;)TV;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -1242,7 +1242,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-interface {p2}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p2}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p0
 
@@ -1250,9 +1250,9 @@
     return-object p0
 .end method
 
-.method public static final H0([Lkotlin/Pair;)Ljava/util/Map;
+.method public static final H0([Lcotlin/Pair;)Ljava/util/Map;
     .locals 2
-    .param p0    # [Lkotlin/Pair;
+    .param p0    # [Lcotlin/Pair;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1263,7 +1263,7 @@
             "V:",
             "Ljava/lang/Object;",
             ">([",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;)",
             "Ljava/util/Map<",
             "TK;TV;>;"
@@ -1275,7 +1275,7 @@
 
     const-string v0, "$this$toMap"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p0
@@ -1291,13 +1291,13 @@
 
     array-length v1, p0
 
-    invoke-static {v1}, Lkotlin/collections/q0;->j(I)I
+    invoke-static {v1}, Lcotlin/collections/q0;->j(I)I
 
     move-result v1
 
     invoke-direct {v0, v1}, Ljava/util/LinkedHashMap;-><init>(I)V
 
-    invoke-static {p0, v0}, Lkotlin/collections/t0;->I0([Lkotlin/Pair;Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0, v0}, Lcotlin/collections/t0;->I0([Lcotlin/Pair;Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -1309,7 +1309,7 @@
     .line 3
     aget-object p0, p0, v0
 
-    invoke-static {p0}, Lkotlin/collections/s0;->k(Lkotlin/Pair;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/s0;->k(Lcotlin/Pair;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -1317,7 +1317,7 @@
 
     .line 4
     :cond_1
-    invoke-static {}, Lkotlin/collections/q0;->z()Ljava/util/Map;
+    invoke-static {}, Lcotlin/collections/q0;->z()Ljava/util/Map;
 
     move-result-object p0
 
@@ -1325,13 +1325,13 @@
     return-object p0
 .end method
 
-.method public static final I(Ljava/util/Map;Ljava/lang/Object;Lkotlin/jvm/u/a;)Ljava/lang/Object;
+.method public static final I(Ljava/util/Map;Ljava/lang/Object;Lcotlin/jvm/u/a;)Ljava/lang/Object;
     .locals 1
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/a;
+    .param p2    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1344,18 +1344,18 @@
             ">(",
             "Ljava/util/Map<",
             "TK;+TV;>;TK;",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/jvm/u/a<",
             "+TV;>;)TV;"
         }
     .end annotation
 
     const-string v0, "$this$getOrElseNullable"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "defaultValue"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1372,7 +1372,7 @@
     if-nez p0, :cond_0
 
     .line 3
-    invoke-interface {p2}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p2}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p0
 
@@ -1382,9 +1382,9 @@
     return-object v0
 .end method
 
-.method public static final I0([Lkotlin/Pair;Ljava/util/Map;)Ljava/util/Map;
+.method public static final I0([Lcotlin/Pair;Ljava/util/Map;)Ljava/util/Map;
     .locals 1
-    .param p0    # [Lkotlin/Pair;
+    .param p0    # [Lcotlin/Pair;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1401,7 +1401,7 @@
             "M::",
             "Ljava/util/Map<",
             "-TK;-TV;>;>([",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;TM;)TM;"
         }
     .end annotation
@@ -1411,25 +1411,25 @@
 
     const-string v0, "$this$toMap"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "destination"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p1, p0}, Lkotlin/collections/t0;->y0(Ljava/util/Map;[Lkotlin/Pair;)V
+    invoke-static {p1, p0}, Lcotlin/collections/t0;->y0(Ljava/util/Map;[Lcotlin/Pair;)V
 
     return-object p1
 .end method
 
-.method public static final J(Ljava/util/Map;Ljava/lang/Object;Lkotlin/jvm/u/a;)Ljava/lang/Object;
+.method public static final J(Ljava/util/Map;Ljava/lang/Object;Lcotlin/jvm/u/a;)Ljava/lang/Object;
     .locals 1
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/a;
+    .param p2    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1442,18 +1442,18 @@
             ">(",
             "Ljava/util/Map<",
             "TK;TV;>;TK;",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/jvm/u/a<",
             "+TV;>;)TV;"
         }
     .end annotation
 
     const-string v0, "$this$getOrPut"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "defaultValue"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1463,7 +1463,7 @@
     if-nez v0, :cond_0
 
     .line 2
-    invoke-interface {p2}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p2}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1494,7 +1494,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -1503,7 +1503,7 @@
 
     const-string v0, "$this$toMutableMap"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
@@ -1531,23 +1531,23 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     const-string v0, "$this$getValue"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/collections/r0;->a(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlin/collections/r0;->a(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final K0(Ljava/util/Map$Entry;)Lkotlin/Pair;
+.method private static final K0(Ljava/util/Map$Entry;)Lcotlin/Pair;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1558,16 +1558,16 @@
             ">(",
             "Ljava/util/Map$Entry<",
             "+TK;+TV;>;)",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "TK;TV;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/Pair;
+    new-instance v0, Lcotlin/Pair;
 
     invoke-interface {p0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
@@ -1577,7 +1577,7 @@
 
     move-result-object p0
 
-    invoke-direct {v0, v1, p0}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, v1, p0}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-object v0
 .end method
@@ -1596,10 +1596,10 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -1611,9 +1611,9 @@
     return-object v0
 .end method
 
-.method public static final varargs M([Lkotlin/Pair;)Ljava/util/HashMap;
+.method public static final varargs M([Lcotlin/Pair;)Ljava/util/HashMap;
     .locals 2
-    .param p0    # [Lkotlin/Pair;
+    .param p0    # [Lcotlin/Pair;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1624,7 +1624,7 @@
             "V:",
             "Ljava/lang/Object;",
             ">([",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;)",
             "Ljava/util/HashMap<",
             "TK;TV;>;"
@@ -1636,25 +1636,25 @@
 
     const-string v0, "pairs"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/HashMap;
 
     array-length v1, p0
 
-    invoke-static {v1}, Lkotlin/collections/q0;->j(I)I
+    invoke-static {v1}, Lcotlin/collections/q0;->j(I)I
 
     move-result v1
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
-    invoke-static {v0, p0}, Lkotlin/collections/t0;->y0(Ljava/util/Map;[Lkotlin/Pair;)V
+    invoke-static {v0, p0}, Lcotlin/collections/t0;->y0(Ljava/util/Map;[Lcotlin/Pair;)V
 
     return-object v0
 .end method
 
-.method private static final N(Ljava/util/Map;Lkotlin/jvm/u/a;)Ljava/lang/Object;
+.method private static final N(Ljava/util/Map;Lcotlin/jvm/u/a;)Ljava/lang/Object;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1663,15 +1663,15 @@
             "**>;:TR;R:",
             "Ljava/lang/Object;",
             ">(TM;",
-            "Lkotlin/jvm/u/a<",
+            "Lcotlin/jvm/u/a<",
             "+TR;>;)TR;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -1682,7 +1682,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p0
 
@@ -1704,7 +1704,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -1731,10 +1731,10 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -1779,12 +1779,12 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "$this$iterator"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -1812,10 +1812,10 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -1827,9 +1827,9 @@
     return-object v0
 .end method
 
-.method public static final varargs S([Lkotlin/Pair;)Ljava/util/LinkedHashMap;
+.method public static final varargs S([Lcotlin/Pair;)Ljava/util/LinkedHashMap;
     .locals 2
-    .param p0    # [Lkotlin/Pair;
+    .param p0    # [Lcotlin/Pair;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1840,7 +1840,7 @@
             "V:",
             "Ljava/lang/Object;",
             ">([",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;)",
             "Ljava/util/LinkedHashMap<",
             "TK;TV;>;"
@@ -1852,20 +1852,20 @@
 
     const-string v0, "pairs"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     array-length v1, p0
 
-    invoke-static {v1}, Lkotlin/collections/q0;->j(I)I
+    invoke-static {v1}, Lcotlin/collections/q0;->j(I)I
 
     move-result v1
 
     invoke-direct {v0, v1}, Ljava/util/LinkedHashMap;-><init>(I)V
 
-    invoke-static {p0, v0}, Lkotlin/collections/t0;->I0([Lkotlin/Pair;Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0, v0}, Lcotlin/collections/t0;->I0([Lcotlin/Pair;Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -1874,13 +1874,13 @@
     return-object p0
 .end method
 
-.method public static final T(Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+.method public static final T(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 3
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1895,7 +1895,7 @@
             ">(",
             "Ljava/util/Map<",
             "+TK;+TV;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/util/Map$Entry<",
             "+TK;+TV;>;+TR;>;)",
@@ -1909,11 +1909,11 @@
 
     const-string v0, "$this$mapKeys"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "transform"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
@@ -1922,7 +1922,7 @@
 
     move-result v1
 
-    invoke-static {v1}, Lkotlin/collections/q0;->j(I)I
+    invoke-static {v1}, Lcotlin/collections/q0;->j(I)I
 
     move-result v1
 
@@ -1950,7 +1950,7 @@
     move-result-object v1
 
     .line 4
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -1969,7 +1969,7 @@
     return-object v0
 .end method
 
-.method public static final U(Ljava/util/Map;Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+.method public static final U(Ljava/util/Map;Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 2
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
@@ -1979,7 +1979,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1996,7 +1996,7 @@
             "-TR;-TV;>;>(",
             "Ljava/util/Map<",
             "+TK;+TV;>;TM;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/util/Map$Entry<",
             "+TK;+TV;>;+TR;>;)TM;"
@@ -2008,15 +2008,15 @@
 
     const-string v0, "$this$mapKeysTo"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "destination"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "transform"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -2040,7 +2040,7 @@
     move-result-object v0
 
     .line 3
-    invoke-interface {p2, v0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -2073,20 +2073,20 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlin/collections/q0;->z()Ljava/util/Map;
+    invoke-static {}, Lcotlin/collections/q0;->z()Ljava/util/Map;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public static varargs W([Lkotlin/Pair;)Ljava/util/Map;
+.method public static varargs W([Lcotlin/Pair;)Ljava/util/Map;
     .locals 2
-    .param p0    # [Lkotlin/Pair;
+    .param p0    # [Lcotlin/Pair;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2097,7 +2097,7 @@
             "V:",
             "Ljava/lang/Object;",
             ">([",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;)",
             "Ljava/util/Map<",
             "TK;TV;>;"
@@ -2109,7 +2109,7 @@
 
     const-string v0, "pairs"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p0
@@ -2120,20 +2120,20 @@
 
     array-length v1, p0
 
-    invoke-static {v1}, Lkotlin/collections/q0;->j(I)I
+    invoke-static {v1}, Lcotlin/collections/q0;->j(I)I
 
     move-result v1
 
     invoke-direct {v0, v1}, Ljava/util/LinkedHashMap;-><init>(I)V
 
-    invoke-static {p0, v0}, Lkotlin/collections/t0;->I0([Lkotlin/Pair;Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0, v0}, Lcotlin/collections/t0;->I0([Lcotlin/Pair;Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
     goto :goto_0
 
     :cond_0
-    invoke-static {}, Lkotlin/collections/q0;->z()Ljava/util/Map;
+    invoke-static {}, Lcotlin/collections/q0;->z()Ljava/util/Map;
 
     move-result-object p0
 
@@ -2141,13 +2141,13 @@
     return-object p0
 .end method
 
-.method public static final X(Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+.method public static final X(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 3
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2162,7 +2162,7 @@
             ">(",
             "Ljava/util/Map<",
             "+TK;+TV;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/util/Map$Entry<",
             "+TK;+TV;>;+TR;>;)",
@@ -2176,11 +2176,11 @@
 
     const-string v0, "$this$mapValues"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "transform"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
@@ -2189,7 +2189,7 @@
 
     move-result v1
 
-    invoke-static {v1}, Lkotlin/collections/q0;->j(I)I
+    invoke-static {v1}, Lcotlin/collections/q0;->j(I)I
 
     move-result v1
 
@@ -2226,7 +2226,7 @@
 
     move-result-object v2
 
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -2238,7 +2238,7 @@
     return-object v0
 .end method
 
-.method public static final Y(Ljava/util/Map;Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+.method public static final Y(Ljava/util/Map;Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 2
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
@@ -2248,7 +2248,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2265,7 +2265,7 @@
             "-TK;-TR;>;>(",
             "Ljava/util/Map<",
             "+TK;+TV;>;TM;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/util/Map$Entry<",
             "+TK;+TV;>;+TR;>;)TM;"
@@ -2277,15 +2277,15 @@
 
     const-string v0, "$this$mapValuesTo"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "destination"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "transform"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -2318,7 +2318,7 @@
 
     move-result-object v1
 
-    invoke-interface {p2, v0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -2356,7 +2356,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -2365,14 +2365,14 @@
 
     const-string v0, "$this$minus"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "keys"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0}, Lkotlin/collections/t0;->J0(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/t0;->J0(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -2380,9 +2380,9 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lkotlin/collections/y;->G0(Ljava/util/Collection;Ljava/lang/Iterable;)Z
+    invoke-static {v0, p1}, Lcotlin/collections/y;->G0(Ljava/util/Collection;Ljava/lang/Iterable;)Z
 
-    invoke-static {p0}, Lkotlin/collections/t0;->k0(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/t0;->k0(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -2409,7 +2409,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -2418,29 +2418,29 @@
 
     const-string v0, "$this$minus"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0}, Lkotlin/collections/t0;->J0(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/t0;->J0(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
     invoke-interface {p0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {p0}, Lkotlin/collections/t0;->k0(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/t0;->k0(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final b0(Ljava/util/Map;Lkotlin/sequences/m;)Ljava/util/Map;
+.method public static final b0(Ljava/util/Map;Lcotlin/sequences/m;)Ljava/util/Map;
     .locals 1
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/sequences/m;
+    .param p1    # Lcotlin/sequences/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2453,14 +2453,14 @@
             ">(",
             "Ljava/util/Map<",
             "+TK;+TV;>;",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "+TK;>;)",
             "Ljava/util/Map<",
             "TK;TV;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -2469,14 +2469,14 @@
 
     const-string v0, "$this$minus"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "keys"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0}, Lkotlin/collections/t0;->J0(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/t0;->J0(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -2484,9 +2484,9 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lkotlin/collections/y;->I0(Ljava/util/Collection;Lkotlin/sequences/m;)Z
+    invoke-static {v0, p1}, Lcotlin/collections/y;->I0(Ljava/util/Collection;Lcotlin/sequences/m;)Z
 
-    invoke-static {p0}, Lkotlin/collections/t0;->k0(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/t0;->k0(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -2517,7 +2517,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -2526,14 +2526,14 @@
 
     const-string v0, "$this$minus"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "keys"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0}, Lkotlin/collections/t0;->J0(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/t0;->J0(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -2541,9 +2541,9 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lkotlin/collections/y;->J0(Ljava/util/Collection;[Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lcotlin/collections/y;->J0(Ljava/util/Collection;[Ljava/lang/Object;)Z
 
-    invoke-static {p0}, Lkotlin/collections/t0;->k0(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/t0;->k0(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -2566,23 +2566,23 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     const-string v0, "$this$minusAssign"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object p0
 
-    invoke-static {p0, p1}, Lkotlin/collections/y;->G0(Ljava/util/Collection;Ljava/lang/Iterable;)Z
+    invoke-static {p0, p1}, Lcotlin/collections/y;->G0(Ljava/util/Collection;Ljava/lang/Iterable;)Z
 
     return-void
 .end method
@@ -2601,16 +2601,16 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     const-string v0, "$this$minusAssign"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -2618,7 +2618,7 @@
     return-void
 .end method
 
-.method private static final f0(Ljava/util/Map;Lkotlin/sequences/m;)V
+.method private static final f0(Ljava/util/Map;Lcotlin/sequences/m;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -2629,28 +2629,28 @@
             ">(",
             "Ljava/util/Map<",
             "TK;TV;>;",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "+TK;>;)V"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     const-string v0, "$this$minusAssign"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object p0
 
-    invoke-static {p0, p1}, Lkotlin/collections/y;->I0(Ljava/util/Collection;Lkotlin/sequences/m;)Z
+    invoke-static {p0, p1}, Lcotlin/collections/y;->I0(Ljava/util/Collection;Lcotlin/sequences/m;)Z
 
     return-void
 .end method
@@ -2669,23 +2669,23 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
     const-string v0, "$this$minusAssign"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object p0
 
-    invoke-static {p0, p1}, Lkotlin/collections/y;->J0(Ljava/util/Collection;[Ljava/lang/Object;)Z
+    invoke-static {p0, p1}, Lcotlin/collections/y;->J0(Ljava/util/Collection;[Ljava/lang/Object;)Z
 
     return-void
 .end method
@@ -2707,16 +2707,16 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/jvm/g;
+    .annotation build Lcotlin/jvm/g;
         name = "mutableIterator"
     .end annotation
 
     const-string v0, "$this$iterator"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -2744,10 +2744,10 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -2759,9 +2759,9 @@
     return-object v0
 .end method
 
-.method public static final varargs j0([Lkotlin/Pair;)Ljava/util/Map;
+.method public static final varargs j0([Lcotlin/Pair;)Ljava/util/Map;
     .locals 2
-    .param p0    # [Lkotlin/Pair;
+    .param p0    # [Lcotlin/Pair;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -2772,7 +2772,7 @@
             "V:",
             "Ljava/lang/Object;",
             ">([",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;)",
             "Ljava/util/Map<",
             "TK;TV;>;"
@@ -2784,20 +2784,20 @@
 
     const-string v0, "pairs"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     array-length v1, p0
 
-    invoke-static {v1}, Lkotlin/collections/q0;->j(I)I
+    invoke-static {v1}, Lcotlin/collections/q0;->j(I)I
 
     move-result v1
 
     invoke-direct {v0, v1}, Ljava/util/LinkedHashMap;-><init>(I)V
 
-    invoke-static {v0, p0}, Lkotlin/collections/t0;->y0(Ljava/util/Map;[Lkotlin/Pair;)V
+    invoke-static {v0, p0}, Lcotlin/collections/t0;->y0(Ljava/util/Map;[Lcotlin/Pair;)V
 
     return-object v0
 .end method
@@ -2827,7 +2827,7 @@
 
     const-string v0, "$this$optimizeReadOnlyMap"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Map;->size()I
@@ -2844,7 +2844,7 @@
 
     .line 2
     :cond_0
-    invoke-static {p0}, Lkotlin/collections/s0;->o(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/s0;->o(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -2852,7 +2852,7 @@
 
     .line 3
     :cond_1
-    invoke-static {}, Lkotlin/collections/q0;->z()Ljava/util/Map;
+    invoke-static {}, Lcotlin/collections/q0;->z()Ljava/util/Map;
 
     move-result-object p0
 
@@ -2876,7 +2876,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     if-eqz p0, :cond_0
@@ -2885,7 +2885,7 @@
 
     .line 1
     :cond_0
-    invoke-static {}, Lkotlin/collections/q0;->z()Ljava/util/Map;
+    invoke-static {}, Lcotlin/collections/q0;->z()Ljava/util/Map;
 
     move-result-object p0
 
@@ -2914,7 +2914,7 @@
             "+TK;+TV;>;",
             "Ljava/lang/Iterable<",
             "+",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;>;)",
             "Ljava/util/Map<",
             "TK;TV;>;"
@@ -2926,11 +2926,11 @@
 
     const-string v0, "$this$plus"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "pairs"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Map;->isEmpty()Z
@@ -2939,7 +2939,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lkotlin/collections/q0;->B0(Ljava/lang/Iterable;)Ljava/util/Map;
+    invoke-static {p1}, Lcotlin/collections/q0;->B0(Ljava/lang/Iterable;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -2950,7 +2950,7 @@
 
     invoke-direct {v0, p0}, Ljava/util/LinkedHashMap;-><init>(Ljava/util/Map;)V
 
-    invoke-static {v0, p1}, Lkotlin/collections/t0;->w0(Ljava/util/Map;Ljava/lang/Iterable;)V
+    invoke-static {v0, p1}, Lcotlin/collections/t0;->w0(Ljava/util/Map;Ljava/lang/Iterable;)V
 
     move-object p0, v0
 
@@ -2989,11 +2989,11 @@
 
     const-string v0, "$this$plus"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "map"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
@@ -3005,13 +3005,13 @@
     return-object v0
 .end method
 
-.method public static o0(Ljava/util/Map;Lkotlin/Pair;)Ljava/util/Map;
+.method public static o0(Ljava/util/Map;Lcotlin/Pair;)Ljava/util/Map;
     .locals 1
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/Pair;
+    .param p1    # Lcotlin/Pair;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3024,7 +3024,7 @@
             ">(",
             "Ljava/util/Map<",
             "+TK;+TV;>;",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;)",
             "Ljava/util/Map<",
             "TK;TV;>;"
@@ -3036,11 +3036,11 @@
 
     const-string v0, "$this$plus"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "pair"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Map;->isEmpty()Z
@@ -3049,7 +3049,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lkotlin/collections/s0;->k(Lkotlin/Pair;)Ljava/util/Map;
+    invoke-static {p1}, Lcotlin/collections/s0;->k(Lcotlin/Pair;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -3060,11 +3060,11 @@
 
     invoke-direct {v0, p0}, Ljava/util/LinkedHashMap;-><init>(Ljava/util/Map;)V
 
-    invoke-virtual {p1}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object p0
 
-    invoke-virtual {p1}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -3076,13 +3076,13 @@
     return-object p0
 .end method
 
-.method public static final p0(Ljava/util/Map;Lkotlin/sequences/m;)Ljava/util/Map;
+.method public static final p0(Ljava/util/Map;Lcotlin/sequences/m;)Ljava/util/Map;
     .locals 1
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/sequences/m;
+    .param p1    # Lcotlin/sequences/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3095,9 +3095,9 @@
             ">(",
             "Ljava/util/Map<",
             "+TK;+TV;>;",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "+",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;>;)",
             "Ljava/util/Map<",
             "TK;TV;>;"
@@ -3109,33 +3109,33 @@
 
     const-string v0, "$this$plus"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "pairs"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0, p0}, Ljava/util/LinkedHashMap;-><init>(Ljava/util/Map;)V
 
-    invoke-static {v0, p1}, Lkotlin/collections/t0;->x0(Ljava/util/Map;Lkotlin/sequences/m;)V
+    invoke-static {v0, p1}, Lcotlin/collections/t0;->x0(Ljava/util/Map;Lcotlin/sequences/m;)V
 
-    invoke-static {v0}, Lkotlin/collections/t0;->k0(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {v0}, Lcotlin/collections/t0;->k0(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final q0(Ljava/util/Map;[Lkotlin/Pair;)Ljava/util/Map;
+.method public static final q0(Ljava/util/Map;[Lcotlin/Pair;)Ljava/util/Map;
     .locals 1
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # [Lkotlin/Pair;
+    .param p1    # [Lcotlin/Pair;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3148,7 +3148,7 @@
             ">(",
             "Ljava/util/Map<",
             "+TK;+TV;>;[",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;)",
             "Ljava/util/Map<",
             "TK;TV;>;"
@@ -3160,11 +3160,11 @@
 
     const-string v0, "$this$plus"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "pairs"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Map;->isEmpty()Z
@@ -3173,7 +3173,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lkotlin/collections/t0;->H0([Lkotlin/Pair;)Ljava/util/Map;
+    invoke-static {p1}, Lcotlin/collections/t0;->H0([Lcotlin/Pair;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -3184,7 +3184,7 @@
 
     invoke-direct {v0, p0}, Ljava/util/LinkedHashMap;-><init>(Ljava/util/Map;)V
 
-    invoke-static {v0, p1}, Lkotlin/collections/t0;->y0(Ljava/util/Map;[Lkotlin/Pair;)V
+    invoke-static {v0, p1}, Lcotlin/collections/t0;->y0(Ljava/util/Map;[Lcotlin/Pair;)V
 
     move-object p0, v0
 
@@ -3205,28 +3205,28 @@
             "-TK;-TV;>;",
             "Ljava/lang/Iterable<",
             "+",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;>;)V"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "$this$plusAssign"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/collections/t0;->w0(Ljava/util/Map;Ljava/lang/Iterable;)V
+    invoke-static {p0, p1}, Lcotlin/collections/t0;->w0(Ljava/util/Map;Ljava/lang/Iterable;)V
 
     return-void
 .end method
 
-.method private static final s(ILkotlin/jvm/u/l;)Ljava/util/Map;
+.method private static final s(ILcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 0
-    .param p1    # Lkotlin/jvm/u/l;
-        .annotation build Lkotlin/b;
+    .param p1    # Lcotlin/jvm/u/l;
+        .annotation build Lcotlin/b;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3236,35 +3236,35 @@
             "V:",
             "Ljava/lang/Object;",
             ">(I",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/util/Map<",
             "TK;TV;>;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Ljava/util/Map<",
             "TK;TV;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lkotlin/collections/s0;->h(I)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/s0;->h(I)Ljava/util/Map;
 
     move-result-object p0
 
-    invoke-interface {p1, p0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {p0}, Lkotlin/collections/s0;->d(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/collections/s0;->d(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
@@ -3287,12 +3287,12 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "$this$plusAssign"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0, p1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
@@ -3300,10 +3300,10 @@
     return-void
 .end method
 
-.method private static final t(Lkotlin/jvm/u/l;)Ljava/util/Map;
+.method private static final t(Lcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 1
-    .param p0    # Lkotlin/jvm/u/l;
-        .annotation build Lkotlin/b;
+    .param p0    # Lcotlin/jvm/u/l;
+        .annotation build Lcotlin/b;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3313,42 +3313,42 @@
             "V:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/util/Map<",
             "TK;TV;>;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Ljava/util/Map<",
             "TK;TV;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/o;
+    .annotation build Lcotlin/o;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlin/collections/s0;->g()Ljava/util/Map;
+    invoke-static {}, Lcotlin/collections/s0;->g()Ljava/util/Map;
 
     move-result-object v0
 
-    invoke-interface {p0, v0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {v0}, Lkotlin/collections/s0;->d(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {v0}, Lcotlin/collections/s0;->d(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final t0(Ljava/util/Map;Lkotlin/Pair;)V
+.method private static final t0(Ljava/util/Map;Lcotlin/Pair;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -3359,24 +3359,24 @@
             ">(",
             "Ljava/util/Map<",
             "-TK;-TV;>;",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;)V"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "$this$plusAssign"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p1}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -3399,12 +3399,12 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "$this$component1"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -3414,7 +3414,7 @@
     return-object p0
 .end method
 
-.method private static final u0(Ljava/util/Map;Lkotlin/sequences/m;)V
+.method private static final u0(Ljava/util/Map;Lcotlin/sequences/m;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -3425,22 +3425,22 @@
             ">(",
             "Ljava/util/Map<",
             "-TK;-TV;>;",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "+",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;>;)V"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "$this$plusAssign"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/collections/t0;->x0(Ljava/util/Map;Lkotlin/sequences/m;)V
+    invoke-static {p0, p1}, Lcotlin/collections/t0;->x0(Ljava/util/Map;Lcotlin/sequences/m;)V
 
     return-void
 .end method
@@ -3459,12 +3459,12 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "$this$component2"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
@@ -3474,7 +3474,7 @@
     return-object p0
 .end method
 
-.method private static final v0(Ljava/util/Map;[Lkotlin/Pair;)V
+.method private static final v0(Ljava/util/Map;[Lcotlin/Pair;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -3485,20 +3485,20 @@
             ">(",
             "Ljava/util/Map<",
             "-TK;-TV;>;[",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;)V"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "$this$plusAssign"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/collections/t0;->y0(Ljava/util/Map;[Lkotlin/Pair;)V
+    invoke-static {p0, p1}, Lcotlin/collections/t0;->y0(Ljava/util/Map;[Lcotlin/Pair;)V
 
     return-void
 .end method
@@ -3517,12 +3517,12 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "$this$contains"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -3553,18 +3553,18 @@
             "-TK;-TV;>;",
             "Ljava/lang/Iterable<",
             "+",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;>;)V"
         }
     .end annotation
 
     const-string v0, "$this$putAll"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "pairs"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -3582,13 +3582,13 @@
 
     move-result-object v0
 
-    check-cast v0, Lkotlin/Pair;
+    check-cast v0, Lcotlin/Pair;
 
-    invoke-virtual {v0}, Lkotlin/Pair;->component1()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlin/Pair;->component1()Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-virtual {v0}, Lkotlin/Pair;->component2()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlin/Pair;->component2()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -3613,7 +3613,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "null cannot be cast to non-null type kotlin.collections.Map<K, *>"
@@ -3628,13 +3628,13 @@
     return p0
 .end method
 
-.method public static final x0(Ljava/util/Map;Lkotlin/sequences/m;)V
+.method public static final x0(Ljava/util/Map;Lcotlin/sequences/m;)V
     .locals 2
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/sequences/m;
+    .param p1    # Lcotlin/sequences/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3647,23 +3647,23 @@
             ">(",
             "Ljava/util/Map<",
             "-TK;-TV;>;",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "+",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;>;)V"
         }
     .end annotation
 
     const-string v0, "$this$putAll"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "pairs"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p1}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
@@ -3678,13 +3678,13 @@
 
     move-result-object v0
 
-    check-cast v0, Lkotlin/Pair;
+    check-cast v0, Lcotlin/Pair;
 
-    invoke-virtual {v0}, Lkotlin/Pair;->component1()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlin/Pair;->component1()Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-virtual {v0}, Lkotlin/Pair;->component2()Ljava/lang/Object;
+    invoke-virtual {v0}, Lcotlin/Pair;->component2()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -3711,7 +3711,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -3722,13 +3722,13 @@
     return p0
 .end method
 
-.method public static final y0(Ljava/util/Map;[Lkotlin/Pair;)V
+.method public static final y0(Ljava/util/Map;[Lcotlin/Pair;)V
     .locals 4
     .param p0    # Ljava/util/Map;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # [Lkotlin/Pair;
+    .param p1    # [Lcotlin/Pair;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -3741,18 +3741,18 @@
             ">(",
             "Ljava/util/Map<",
             "-TK;-TV;>;[",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "+TK;+TV;>;)V"
         }
     .end annotation
 
     const-string v0, "$this$putAll"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "pairs"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p1
@@ -3764,11 +3764,11 @@
 
     aget-object v2, p1, v1
 
-    invoke-virtual {v2}, Lkotlin/Pair;->component1()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Pair;->component1()Ljava/lang/Object;
 
     move-result-object v3
 
-    invoke-virtual {v2}, Lkotlin/Pair;->component2()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcotlin/Pair;->component2()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -3801,7 +3801,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/collections/EmptyMap;->INSTANCE:Lkotlin/collections/EmptyMap;
+    sget-object v0, Lcotlin/collections/EmptyMap;->INSTANCE:Lcotlin/collections/EmptyMap;
 
     const-string v1, "null cannot be cast to non-null type kotlin.collections.Map<K, V>"
 
@@ -3824,7 +3824,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "null cannot be cast to non-null type kotlin.collections.MutableMap<K, V>"
@@ -3832,7 +3832,7 @@
     .line 1
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    invoke-static {p0}, Lkotlin/jvm/internal/t0;->k(Ljava/lang/Object;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/jvm/internal/t0;->k(Ljava/lang/Object;)Ljava/util/Map;
 
     move-result-object p0
 

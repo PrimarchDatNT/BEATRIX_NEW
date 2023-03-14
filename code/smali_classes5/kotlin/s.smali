@@ -1,10 +1,10 @@
-.class public final Lkotlin/s;
+.class public final Lcotlin/s;
 .super Ljava/lang/Object;
 .source "HashCode.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,10 +32,10 @@
 # direct methods
 .method private static final a(Ljava/lang/Object;)I
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 

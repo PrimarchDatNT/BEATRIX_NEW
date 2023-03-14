@@ -14,7 +14,7 @@
     value = "SMAP\nTimeout.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Timeout.kt\nokio/Timeout\n*L\n1#1,256:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -43,17 +43,17 @@
         "clearTimeout",
         "()Lokio/Timeout;",
         "clearDeadline",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "throwIfReached",
         "()V",
         "monitor",
         "waitUntilNotified",
         "(Ljava/lang/Object;)V",
         "other",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "block",
         "intersectWith",
-        "(Lokio/Timeout;Lkotlin/jvm/u/a;)V",
+        "(Lokio/Timeout;Lcotlin/jvm/u/a;)V",
         "J",
         "Z",
         "<init>",
@@ -73,7 +73,7 @@
 .field public static final Companion:Lokio/Timeout$Companion;
 
 .field public static final NONE:Lokio/Timeout;
-    .annotation build Lkotlin/jvm/d;
+    .annotation build Lcotlin/jvm/d;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -97,7 +97,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lokio/Timeout$Companion;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lokio/Timeout$Companion;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lokio/Timeout;->Companion:Lokio/Timeout$Companion;
 
@@ -159,7 +159,7 @@
 
     const-string v0, "unit"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v0, 0x0
 
@@ -274,13 +274,13 @@
     return v0
 .end method
 
-.method public final intersectWith(Lokio/Timeout;Lkotlin/jvm/u/a;)V
+.method public final intersectWith(Lokio/Timeout;Lcotlin/jvm/u/a;)V
     .locals 11
     .param p1    # Lokio/Timeout;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/a;
+    .param p2    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -288,19 +288,19 @@
         value = {
             "(",
             "Lokio/Timeout;",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "block"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lokio/Timeout;->timeoutNanos()J
@@ -365,11 +365,11 @@
     .line 7
     :cond_0
     :try_start_0
-    invoke-interface {p2}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p2}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v3}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 8
     invoke-virtual {p0, v0, v1, v4}, Lokio/Timeout;->timeout(JLjava/util/concurrent/TimeUnit;)Lokio/Timeout;
@@ -385,7 +385,7 @@
     invoke-virtual {p0, v5, v6}, Lokio/Timeout;->deadlineNanoTime(J)Lokio/Timeout;
 
     :cond_1
-    invoke-static {v3}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
     goto :goto_0
 
@@ -393,7 +393,7 @@
     move-exception p2
 
     .line 11
-    invoke-static {v3}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 12
     sget-object v2, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
@@ -411,7 +411,7 @@
     invoke-virtual {p0, v5, v6}, Lokio/Timeout;->deadlineNanoTime(J)Lokio/Timeout;
 
     :cond_2
-    invoke-static {v3}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
     throw p2
 
@@ -433,11 +433,11 @@
     .line 17
     :cond_4
     :try_start_1
-    invoke-interface {p2}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p2}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    invoke-static {v3}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 18
     invoke-virtual {p0, v0, v1, v4}, Lokio/Timeout;->timeout(JLjava/util/concurrent/TimeUnit;)Lokio/Timeout;
@@ -453,7 +453,7 @@
     invoke-virtual {p0}, Lokio/Timeout;->clearDeadline()Lokio/Timeout;
 
     :cond_5
-    invoke-static {v3}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
     :goto_0
     return-void
@@ -462,7 +462,7 @@
     move-exception p2
 
     .line 21
-    invoke-static {v3}, Lkotlin/jvm/internal/c0;->d(I)V
+    invoke-static {v3}, Lcotlin/jvm/internal/c0;->d(I)V
 
     .line 22
     sget-object v2, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
@@ -480,7 +480,7 @@
     invoke-virtual {p0}, Lokio/Timeout;->clearDeadline()Lokio/Timeout;
 
     :cond_6
-    invoke-static {v3}, Lkotlin/jvm/internal/c0;->c(I)V
+    invoke-static {v3}, Lcotlin/jvm/internal/c0;->c(I)V
 
     throw p2
 .end method
@@ -564,7 +564,7 @@
 
     const-string v0, "unit"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v0, 0x0
 
@@ -641,7 +641,7 @@
 
     const-string v0, "monitor"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     :try_start_0

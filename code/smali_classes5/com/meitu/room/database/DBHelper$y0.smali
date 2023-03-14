@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Landroidx/room/migration/Migration;",
         "Landroidx/sqlite/db/SupportSQLiteDatabase;",
         "database",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "migrate",
         "(Landroidx/sqlite/db/SupportSQLiteDatabase;)V",
         "app_googleplayRelease"
@@ -66,7 +66,7 @@
 
     const-string v1, "database"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `ONLINE_DIALOG_ENTITY` (`Rid` TEXT NOT NULL, `SubStatus` INTEGER NOT NULL, `UserStatus` INTEGER NOT NULL, `DeviceLevel` INTEGER NOT NULL, `Weight` INTEGER NOT NULL, `Bout` INTEGER NOT NULL, `Number` INTEGER NOT NULL, `TriggerType` INTEGER NOT NULL, `PopupType` INTEGER NOT NULL, `PopupConfig` TEXT, `createdAt` INTEGER NOT NULL, `updateAt` INTEGER NOT NULL, PRIMARY KEY(`Rid`))"
 

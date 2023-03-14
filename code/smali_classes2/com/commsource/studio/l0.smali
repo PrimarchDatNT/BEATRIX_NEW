@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -19,7 +19,7 @@
     d2 = {
         "Lcom/commsource/studio/l0;",
         "Lcom/commsource/easyeditor/utils/opengl/c;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "x",
         "()V",
         "Ljava/lang/Runnable;",
@@ -65,7 +65,7 @@
 
     const-string v0, "eglThread"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -129,7 +129,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/l0;->a:Lcom/commsource/easyeditor/utils/opengl/e;

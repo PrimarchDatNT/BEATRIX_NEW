@@ -14,7 +14,7 @@
     value = "SMAP\nCameraCaptureViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CameraCaptureViewModel.kt\ncom/commsource/camera/xcamera/cover/CameraCaptureViewModel\n*L\n1#1,231:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "",
         "P",
         "(I)Z",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "X",
         "(I)V",
         "U",
@@ -60,7 +60,7 @@
         "T",
         "Landroidx/lifecycle/MutableLiveData;",
         "e",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "G",
         "()Landroidx/lifecycle/MutableLiveData;",
         "h5ArEvent",
@@ -115,12 +115,12 @@
 
 
 # instance fields
-.field private final a:Lkotlin/w;
+.field private final a:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final b:Lkotlin/w;
+.field private final b:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -130,17 +130,17 @@
     .end annotation
 .end field
 
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final e:Lkotlin/w;
+.field private final e:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
 
-.field private final f:Lkotlin/w;
+.field private final f:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -158,7 +158,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->k:Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$a;
 
@@ -191,7 +191,7 @@
 
     const-string v0, "application"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
@@ -199,20 +199,20 @@
     .line 2
     sget-object p1, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$cameraCaptureModeEvent$2;->INSTANCE:Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$cameraCaptureModeEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->a:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->a:Lcotlin/w;
 
     .line 3
     sget-object p1, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$cameraVideoChangeEvent$2;->INSTANCE:Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$cameraVideoChangeEvent$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->b:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->b:Lcotlin/w;
 
     const/4 p1, 0x0
 
@@ -226,29 +226,29 @@
     .line 5
     sget-object v0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$cameraResetEvent$2;->INSTANCE:Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$cameraResetEvent$2;
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->d:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->d:Lcotlin/w;
 
     .line 6
     sget-object v0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$h5ArEvent$2;->INSTANCE:Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$h5ArEvent$2;
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->e:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->e:Lcotlin/w;
 
     .line 7
     sget-object v0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$h5LookEvent$2;->INSTANCE:Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$h5LookEvent$2;
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->f:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->f:Lcotlin/w;
 
     .line 8
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->D()Landroidx/lifecycle/MutableLiveData;
@@ -454,9 +454,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->a:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->a:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -485,9 +485,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -516,9 +516,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->b:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->b:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -547,9 +547,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->e:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->e:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -578,9 +578,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->f:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->f:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -631,7 +631,7 @@
     const-string v2, "it"
 
     .line 2
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 

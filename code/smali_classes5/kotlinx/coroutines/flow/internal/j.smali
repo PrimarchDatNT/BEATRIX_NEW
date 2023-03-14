@@ -1,9 +1,9 @@
-.class public final Lkotlinx/coroutines/flow/internal/j;
+.class public final Lcotlinx/coroutines/flow/internal/j;
 .super Ljava/lang/Object;
 .source "SendingCollector.kt"
 
 # interfaces
-.implements Lkotlinx/coroutines/flow/e;
+.implements Lcotlinx/coroutines/flow/e;
 
 
 # annotations
@@ -13,12 +13,12 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lkotlinx/coroutines/flow/e<",
+        "Lcotlinx/coroutines/flow/e<",
         "TT;>;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,19 +28,19 @@
         "\u0000\u001c\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0008\u0007\u0018\u0000*\u0004\u0008\u0000\u0010\u00012\u0008\u0012\u0004\u0012\u00028\u00000\u0002B\u0015\u0012\u000c\u0010\n\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0007\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u001b\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00028\u0000H\u0096@\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0005\u0010\u0006R\u001c\u0010\n\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u00078\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0008\u0010\t\u0082\u0002\u0004\n\u0002\u0008\u0019\u00a8\u0006\r"
     }
     d2 = {
-        "Lkotlinx/coroutines/flow/internal/j;",
+        "Lcotlinx/coroutines/flow/internal/j;",
         "T",
-        "Lkotlinx/coroutines/flow/e;",
+        "Lcotlinx/coroutines/flow/e;",
         "value",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "emit",
-        "(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;",
-        "Lkotlinx/coroutines/channels/c0;",
+        "(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;",
+        "Lcotlinx/coroutines/channels/c0;",
         "a",
-        "Lkotlinx/coroutines/channels/c0;",
+        "Lcotlinx/coroutines/channels/c0;",
         "channel",
         "<init>",
-        "(Lkotlinx/coroutines/channels/c0;)V",
+        "(Lcotlinx/coroutines/channels/c0;)V",
         "kotlinx-coroutines-core"
     }
     k = 0x1
@@ -51,15 +51,15 @@
     }
 .end annotation
 
-.annotation build Lkotlinx/coroutines/y1;
+.annotation build Lcotlinx/coroutines/y1;
 .end annotation
 
 
 # instance fields
-.field private final a:Lkotlinx/coroutines/channels/c0;
+.field private final a:Lcotlinx/coroutines/channels/c0;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlinx/coroutines/channels/c0<",
+            "Lcotlinx/coroutines/channels/c0<",
             "TT;>;"
         }
     .end annotation
@@ -67,16 +67,16 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/channels/c0;)V
+.method public constructor <init>(Lcotlinx/coroutines/channels/c0;)V
     .locals 0
-    .param p1    # Lkotlinx/coroutines/channels/c0;
+    .param p1    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/channels/c0<",
+            "Lcotlinx/coroutines/channels/c0<",
             "-TT;>;)V"
         }
     .end annotation
@@ -84,25 +84,25 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/j;->a:Lkotlinx/coroutines/channels/c0;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/internal/j;->a:Lcotlinx/coroutines/channels/c0;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public emit(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 1
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Ljava/lang/Object;"
         }
@@ -112,13 +112,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/flow/internal/j;->a:Lkotlinx/coroutines/channels/c0;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/internal/j;->a:Lcotlinx/coroutines/channels/c0;
 
-    invoke-interface {v0, p1, p2}, Lkotlinx/coroutines/channels/c0;->U(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Lcotlinx/coroutines/channels/c0;->U(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object p2
 
@@ -127,7 +127,7 @@
     return-object p1
 
     :cond_0
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method

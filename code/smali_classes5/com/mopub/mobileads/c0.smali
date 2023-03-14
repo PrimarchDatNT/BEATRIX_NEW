@@ -10,7 +10,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     return-void
@@ -18,7 +18,7 @@
 
 .method public static $default$onAdDismissed(Lcom/mopub/mobileads/AdLifecycleListener$FullscreenInteractionListener;)V
     .locals 0
-    .annotation runtime Lkotlin/jvm/b;
+    .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
     return-void

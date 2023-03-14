@@ -32,7 +32,7 @@
     value = "SMAP\nStickerFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StickerFragment.kt\ncom/commsource/studio/sticker/StickerFragment$initViewModel$11\n+ 2 View.kt\nandroidx/core/view/ViewKt\n*L\n1#1,720:1\n251#2:721\n*E\n*S KotlinDebug\n*F\n+ 1 StickerFragment.kt\ncom/commsource/studio/sticker/StickerFragment$initViewModel$11\n*L\n459#1:721\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Boolean;)V"
     }
@@ -108,7 +108,7 @@
 
     sget-object v2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -169,7 +169,7 @@
 
     const-string v1, "mViewBinding.colorPickView"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     invoke-virtual {v0}, Landroid/view/View;->getVisibility()I
@@ -201,7 +201,7 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/sticker/StickerFragment$initViewModel$11$1;-><init>(Lcom/commsource/studio/sticker/StickerFragment$initViewModel$11;)V
 
-    invoke-virtual {v0, v1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->F(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v0, v1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->F(Lcotlin/jvm/u/a;)V
 
     .line 8
     :cond_2

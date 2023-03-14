@@ -8,7 +8,7 @@
     value = "SMAP\nBgLayerInfo.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BgLayerInfo.kt\ncom/commsource/studio/bean/BgLayerInfo\n*L\n1#1,118:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
         "",
         "imageWidth",
         "imageHeight",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "setBackgroundSize",
         "(FII)V",
         "",
@@ -192,11 +192,11 @@
     return-object p1
 
     :cond_0
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type com.commsource.studio.bean.BgLayerInfo"
 
-    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -249,7 +249,7 @@
 
     iget-object v4, p1, Lcom/commsource/studio/bean/BgLayerInfo;->backgroundType:Lcom/commsource/studio/function/background/BackgroundType;
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -268,7 +268,7 @@
 
     iget-object v4, p1, Lcom/commsource/studio/bean/BgLayerInfo;->backgroundTexture:Lcom/commsource/studio/function/background/BackgroundTexture;
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -330,7 +330,7 @@
 
     move-result-object p1
 
-    invoke-static {v2, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -512,7 +512,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    invoke-static {p2, p3}, Lkotlin/g2/o;->u(II)I
+    invoke-static {p2, p3}, Lcotlin/g2/o;->u(II)I
 
     move-result p2
 
@@ -530,7 +530,7 @@
     div-float/2addr p2, p1
 
     .line 3
-    invoke-static {p2}, Lkotlin/e2/b;->H0(F)I
+    invoke-static {p2}, Lcotlin/e2/b;->H0(F)I
 
     move-result p1
 
@@ -544,7 +544,7 @@
     mul-float p3, p3, p1
 
     .line 4
-    invoke-static {p3}, Lkotlin/e2/b;->H0(F)I
+    invoke-static {p3}, Lcotlin/e2/b;->H0(F)I
 
     move-result p1
 
@@ -611,7 +611,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/BgLayerInfo;->cropEnum:Lcom/commsource/easyeditor/entity/CropEnum;

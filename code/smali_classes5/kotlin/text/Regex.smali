@@ -1,4 +1,4 @@
-.class public final Lkotlin/text/Regex;
+.class public final Lcotlin/text/Regex;
 .super Ljava/lang/Object;
 .source "Regex.kt"
 
@@ -9,8 +9,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkotlin/text/Regex$Serialized;,
-        Lkotlin/text/Regex$a;
+        Lcotlin/text/Regex$Serialized;,
+        Lcotlin/text/Regex$a;
     }
 .end annotation
 
@@ -18,7 +18,7 @@
     value = "SMAP\nRegex.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Regex.kt\nkotlin/text/Regex\n+ 2 Regex.kt\nkotlin/text/RegexKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,320:1\n22#2,3:321\n1#3:324\n*E\n*S KotlinDebug\n*F\n+ 1 Regex.kt\nkotlin/text/Regex\n*L\n104#1,3:321\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,9 +28,9 @@
         "\u0000d\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0002\n\u0002\u0010\r\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010 \n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0010\"\n\u0002\u0018\u0002\n\u0002\u0008\u000f\u0018\u0000 82\u00060\u0001j\u0002`\u0002:\u00029:B\u0011\u0008\u0001\u0012\u0006\u0010\'\u001a\u00020$\u00a2\u0006\u0004\u00082\u00103B\u0011\u0008\u0016\u0012\u0006\u0010*\u001a\u00020\u0016\u00a2\u0006\u0004\u00082\u00104B\u0019\u0008\u0016\u0012\u0006\u0010*\u001a\u00020\u0016\u0012\u0006\u00105\u001a\u00020,\u00a2\u0006\u0004\u00082\u00106B\u001f\u0008\u0016\u0012\u0006\u0010*\u001a\u00020\u0016\u0012\u000c\u00101\u001a\u0008\u0012\u0004\u0012\u00020,0+\u00a2\u0006\u0004\u00082\u00107J\u000f\u0010\u0004\u001a\u00020\u0003H\u0002\u00a2\u0006\u0004\u0008\u0004\u0010\u0005J\u0018\u0010\t\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u0006H\u0086\u0004\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0015\u0010\u000b\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u0006\u00a2\u0006\u0004\u0008\u000b\u0010\nJ!\u0010\u000f\u001a\u0004\u0018\u00010\u000e2\u0006\u0010\u0007\u001a\u00020\u00062\u0008\u0008\u0002\u0010\r\u001a\u00020\u000c\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J%\u0010\u0012\u001a\u0008\u0012\u0004\u0012\u00020\u000e0\u00112\u0006\u0010\u0007\u001a\u00020\u00062\u0008\u0008\u0002\u0010\r\u001a\u00020\u000c\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u0017\u0010\u0014\u001a\u0004\u0018\u00010\u000e2\u0006\u0010\u0007\u001a\u00020\u0006\u00a2\u0006\u0004\u0008\u0014\u0010\u0015J\u001d\u0010\u0018\u001a\u00020\u00162\u0006\u0010\u0007\u001a\u00020\u00062\u0006\u0010\u0017\u001a\u00020\u0016\u00a2\u0006\u0004\u0008\u0018\u0010\u0019J)\u0010\u0018\u001a\u00020\u00162\u0006\u0010\u0007\u001a\u00020\u00062\u0012\u0010\u001b\u001a\u000e\u0012\u0004\u0012\u00020\u000e\u0012\u0004\u0012\u00020\u00060\u001a\u00a2\u0006\u0004\u0008\u0018\u0010\u001cJ\u001d\u0010\u001d\u001a\u00020\u00162\u0006\u0010\u0007\u001a\u00020\u00062\u0006\u0010\u0017\u001a\u00020\u0016\u00a2\u0006\u0004\u0008\u001d\u0010\u0019J%\u0010 \u001a\u0008\u0012\u0004\u0012\u00020\u00160\u001f2\u0006\u0010\u0007\u001a\u00020\u00062\u0008\u0008\u0002\u0010\u001e\u001a\u00020\u000c\u00a2\u0006\u0004\u0008 \u0010!J\u000f\u0010\"\u001a\u00020\u0016H\u0016\u00a2\u0006\u0004\u0008\"\u0010#J\r\u0010%\u001a\u00020$\u00a2\u0006\u0004\u0008%\u0010&R\u0016\u0010\'\u001a\u00020$8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\'\u0010(R\u0013\u0010*\u001a\u00020\u00168F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008)\u0010#R\u001e\u0010-\u001a\n\u0012\u0004\u0012\u00020,\u0018\u00010+8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008-\u0010.R\u0019\u00101\u001a\u0008\u0012\u0004\u0012\u00020,0+8F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008/\u00100\u00a8\u0006;"
     }
     d2 = {
-        "Lkotlin/text/Regex;",
+        "Lcotlin/text/Regex;",
         "Ljava/io/Serializable;",
-        "Lkotlin/io/Serializable;",
+        "Lcotlin/io/Serializable;",
         "",
         "writeReplace",
         "()Ljava/lang/Object;",
@@ -42,21 +42,21 @@
         "containsMatchIn",
         "",
         "startIndex",
-        "Lkotlin/text/k;",
+        "Lcotlin/text/k;",
         "find",
-        "(Ljava/lang/CharSequence;I)Lkotlin/text/k;",
-        "Lkotlin/sequences/m;",
+        "(Ljava/lang/CharSequence;I)Lcotlin/text/k;",
+        "Lcotlin/sequences/m;",
         "findAll",
-        "(Ljava/lang/CharSequence;I)Lkotlin/sequences/m;",
+        "(Ljava/lang/CharSequence;I)Lcotlin/sequences/m;",
         "matchEntire",
-        "(Ljava/lang/CharSequence;)Lkotlin/text/k;",
+        "(Ljava/lang/CharSequence;)Lcotlin/text/k;",
         "",
         "replacement",
         "replace",
         "(Ljava/lang/CharSequence;Ljava/lang/String;)Ljava/lang/String;",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "transform",
-        "(Ljava/lang/CharSequence;Lkotlin/jvm/u/l;)Ljava/lang/String;",
+        "(Ljava/lang/CharSequence;Lcotlin/jvm/u/l;)Ljava/lang/String;",
         "replaceFirst",
         "limit",
         "",
@@ -72,7 +72,7 @@
         "getPattern",
         "pattern",
         "",
-        "Lkotlin/text/RegexOption;",
+        "Lcotlin/text/RegexOption;",
         "_options",
         "Ljava/util/Set;",
         "getOptions",
@@ -82,7 +82,7 @@
         "(Ljava/util/regex/Pattern;)V",
         "(Ljava/lang/String;)V",
         "option",
-        "(Ljava/lang/String;Lkotlin/text/RegexOption;)V",
+        "(Ljava/lang/String;Lcotlin/text/RegexOption;)V",
         "(Ljava/lang/String;Ljava/util/Set;)V",
         "Companion",
         "a",
@@ -99,7 +99,7 @@
 
 
 # static fields
-.field public static final Companion:Lkotlin/text/Regex$a;
+.field public static final Companion:Lcotlin/text/Regex$a;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -111,7 +111,7 @@
         value = {
             "Ljava/util/Set<",
             "+",
-            "Lkotlin/text/RegexOption;",
+            "Lcotlin/text/RegexOption;",
             ">;"
         }
     .end annotation
@@ -124,13 +124,13 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    new-instance v0, Lkotlin/text/Regex$a;
+    new-instance v0, Lcotlin/text/Regex$a;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkotlin/text/Regex$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lcotlin/text/Regex$a;-><init>(Lcotlin/jvm/internal/u;)V
 
-    sput-object v0, Lkotlin/text/Regex;->Companion:Lkotlin/text/Regex$a;
+    sput-object v0, Lcotlin/text/Regex;->Companion:Lcotlin/text/Regex$a;
 
     return-void
 .end method
@@ -144,7 +144,7 @@
 
     const-string v0, "pattern"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-static {p1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
@@ -153,9 +153,9 @@
 
     const-string v0, "Pattern.compile(pattern)"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {p0, p1}, Lkotlin/text/Regex;-><init>(Ljava/util/regex/Pattern;)V
+    invoke-direct {p0, p1}, Lcotlin/text/Regex;-><init>(Ljava/util/regex/Pattern;)V
 
     return-void
 .end method
@@ -176,27 +176,27 @@
             "Ljava/lang/String;",
             "Ljava/util/Set<",
             "+",
-            "Lkotlin/text/RegexOption;",
+            "Lcotlin/text/RegexOption;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "pattern"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "options"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
-    sget-object v0, Lkotlin/text/Regex;->Companion:Lkotlin/text/Regex$a;
+    sget-object v0, Lcotlin/text/Regex;->Companion:Lcotlin/text/Regex$a;
 
-    invoke-static {p2}, Lkotlin/text/RegexKt;->f(Ljava/lang/Iterable;)I
+    invoke-static {p2}, Lcotlin/text/RegexKt;->f(Ljava/lang/Iterable;)I
 
     move-result p2
 
-    invoke-static {v0, p2}, Lkotlin/text/Regex$a;->a(Lkotlin/text/Regex$a;I)I
+    invoke-static {v0, p2}, Lcotlin/text/Regex$a;->a(Lcotlin/text/Regex$a;I)I
 
     move-result p2
 
@@ -206,40 +206,40 @@
 
     const-string p2, "Pattern.compile(pattern,\u2026odeCase(options.toInt()))"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {p0, p1}, Lkotlin/text/Regex;-><init>(Ljava/util/regex/Pattern;)V
+    invoke-direct {p0, p1}, Lcotlin/text/Regex;-><init>(Ljava/util/regex/Pattern;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Ljava/lang/String;Lkotlin/text/RegexOption;)V
+.method public constructor <init>(Ljava/lang/String;Lcotlin/text/RegexOption;)V
     .locals 1
     .param p1    # Ljava/lang/String;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/text/RegexOption;
+    .param p2    # Lcotlin/text/RegexOption;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
 
     const-string v0, "pattern"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "option"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    sget-object v0, Lkotlin/text/Regex;->Companion:Lkotlin/text/Regex$a;
+    sget-object v0, Lcotlin/text/Regex;->Companion:Lcotlin/text/Regex$a;
 
-    invoke-virtual {p2}, Lkotlin/text/RegexOption;->getValue()I
+    invoke-virtual {p2}, Lcotlin/text/RegexOption;->getValue()I
 
     move-result p2
 
-    invoke-static {v0, p2}, Lkotlin/text/Regex$a;->a(Lkotlin/text/Regex$a;I)I
+    invoke-static {v0, p2}, Lcotlin/text/Regex$a;->a(Lcotlin/text/Regex$a;I)I
 
     move-result p2
 
@@ -249,9 +249,9 @@
 
     const-string p2, "Pattern.compile(pattern,\u2026nicodeCase(option.value))"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {p0, p1}, Lkotlin/text/Regex;-><init>(Ljava/util/regex/Pattern;)V
+    invoke-direct {p0, p1}, Lcotlin/text/Regex;-><init>(Ljava/util/regex/Pattern;)V
 
     return-void
 .end method
@@ -262,22 +262,22 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     const-string v0, "nativePattern"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
+    iput-object p1, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     return-void
 .end method
 
-.method public static synthetic find$default(Lkotlin/text/Regex;Ljava/lang/CharSequence;IILjava/lang/Object;)Lkotlin/text/k;
+.method public static synthetic find$default(Lcotlin/text/Regex;Ljava/lang/CharSequence;IILjava/lang/Object;)Lcotlin/text/k;
     .locals 0
 
     and-int/lit8 p3, p3, 0x2
@@ -288,14 +288,14 @@
 
     .line 1
     :cond_0
-    invoke-virtual {p0, p1, p2}, Lkotlin/text/Regex;->find(Ljava/lang/CharSequence;I)Lkotlin/text/k;
+    invoke-virtual {p0, p1, p2}, Lcotlin/text/Regex;->find(Ljava/lang/CharSequence;I)Lcotlin/text/k;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic findAll$default(Lkotlin/text/Regex;Ljava/lang/CharSequence;IILjava/lang/Object;)Lkotlin/sequences/m;
+.method public static synthetic findAll$default(Lcotlin/text/Regex;Ljava/lang/CharSequence;IILjava/lang/Object;)Lcotlin/sequences/m;
     .locals 0
 
     and-int/lit8 p3, p3, 0x2
@@ -306,14 +306,14 @@
 
     .line 1
     :cond_0
-    invoke-virtual {p0, p1, p2}, Lkotlin/text/Regex;->findAll(Ljava/lang/CharSequence;I)Lkotlin/sequences/m;
+    invoke-virtual {p0, p1, p2}, Lcotlin/text/Regex;->findAll(Ljava/lang/CharSequence;I)Lcotlin/sequences/m;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic split$default(Lkotlin/text/Regex;Ljava/lang/CharSequence;IILjava/lang/Object;)Ljava/util/List;
+.method public static synthetic split$default(Lcotlin/text/Regex;Ljava/lang/CharSequence;IILjava/lang/Object;)Ljava/util/List;
     .locals 0
 
     and-int/lit8 p3, p3, 0x2
@@ -324,7 +324,7 @@
 
     .line 1
     :cond_0
-    invoke-virtual {p0, p1, p2}, Lkotlin/text/Regex;->split(Ljava/lang/CharSequence;I)Ljava/util/List;
+    invoke-virtual {p0, p1, p2}, Lcotlin/text/Regex;->split(Ljava/lang/CharSequence;I)Ljava/util/List;
 
     move-result-object p0
 
@@ -335,9 +335,9 @@
     .locals 3
 
     .line 1
-    new-instance v0, Lkotlin/text/Regex$Serialized;
+    new-instance v0, Lcotlin/text/Regex$Serialized;
 
-    iget-object v1, p0, Lkotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
+    iget-object v1, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v1}, Ljava/util/regex/Pattern;->pattern()Ljava/lang/String;
 
@@ -345,15 +345,15 @@
 
     const-string v2, "nativePattern.pattern()"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    iget-object v2, p0, Lkotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
+    iget-object v2, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v2}, Ljava/util/regex/Pattern;->flags()I
 
     move-result v2
 
-    invoke-direct {v0, v1, v2}, Lkotlin/text/Regex$Serialized;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lcotlin/text/Regex$Serialized;-><init>(Ljava/lang/String;I)V
 
     return-object v0
 .end method
@@ -369,10 +369,10 @@
 
     const-string v0, "input"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
+    iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
@@ -385,7 +385,7 @@
     return p1
 .end method
 
-.method public final find(Ljava/lang/CharSequence;I)Lkotlin/text/k;
+.method public final find(Ljava/lang/CharSequence;I)Lcotlin/text/k;
     .locals 2
     .param p1    # Ljava/lang/CharSequence;
         .annotation build Ln/e/a/d;
@@ -396,10 +396,10 @@
 
     const-string v0, "input"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
+    iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
@@ -407,16 +407,16 @@
 
     const-string v1, "nativePattern.matcher(input)"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {v0, p2, p1}, Lkotlin/text/RegexKt;->a(Ljava/util/regex/Matcher;ILjava/lang/CharSequence;)Lkotlin/text/k;
+    invoke-static {v0, p2, p1}, Lcotlin/text/RegexKt;->a(Ljava/util/regex/Matcher;ILjava/lang/CharSequence;)Lcotlin/text/k;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final findAll(Ljava/lang/CharSequence;I)Lkotlin/sequences/m;
+.method public final findAll(Ljava/lang/CharSequence;I)Lcotlin/sequences/m;
     .locals 3
     .param p1    # Ljava/lang/CharSequence;
         .annotation build Ln/e/a/d;
@@ -427,8 +427,8 @@
             "(",
             "Ljava/lang/CharSequence;",
             "I)",
-            "Lkotlin/sequences/m<",
-            "Lkotlin/text/k;",
+            "Lcotlin/sequences/m<",
+            "Lcotlin/text/k;",
             ">;"
         }
     .end annotation
@@ -438,7 +438,7 @@
 
     const-string v0, "input"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-ltz p2, :cond_0
 
@@ -450,13 +450,13 @@
     if-gt p2, v0, :cond_0
 
     .line 2
-    new-instance v0, Lkotlin/text/Regex$findAll$1;
+    new-instance v0, Lcotlin/text/Regex$findAll$1;
 
-    invoke-direct {v0, p0, p1, p2}, Lkotlin/text/Regex$findAll$1;-><init>(Lkotlin/text/Regex;Ljava/lang/CharSequence;I)V
+    invoke-direct {v0, p0, p1, p2}, Lcotlin/text/Regex$findAll$1;-><init>(Lcotlin/text/Regex;Ljava/lang/CharSequence;I)V
 
-    sget-object p1, Lkotlin/text/Regex$findAll$2;->INSTANCE:Lkotlin/text/Regex$findAll$2;
+    sget-object p1, Lcotlin/text/Regex$findAll$2;->INSTANCE:Lcotlin/text/Regex$findAll$2;
 
-    invoke-static {v0, p1}, Lkotlin/sequences/p;->q(Lkotlin/jvm/u/a;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v0, p1}, Lcotlin/sequences/p;->q(Lcotlin/jvm/u/a;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object p1
 
@@ -501,7 +501,7 @@
         value = {
             "()",
             "Ljava/util/Set<",
-            "Lkotlin/text/RegexOption;",
+            "Lcotlin/text/RegexOption;",
             ">;"
         }
     .end annotation
@@ -510,32 +510,32 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/Regex;->_options:Ljava/util/Set;
+    iget-object v0, p0, Lcotlin/text/Regex;->_options:Ljava/util/Set;
 
     if-eqz v0, :cond_0
 
     goto :goto_0
 
     :cond_0
-    iget-object v0, p0, Lkotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
+    iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0}, Ljava/util/regex/Pattern;->flags()I
 
     move-result v0
 
     .line 2
-    const-class v1, Lkotlin/text/RegexOption;
+    const-class v1, Lcotlin/text/RegexOption;
 
     invoke-static {v1}, Ljava/util/EnumSet;->allOf(Ljava/lang/Class;)Ljava/util/EnumSet;
 
     move-result-object v1
 
     .line 3
-    new-instance v2, Lkotlin/text/Regex$fromInt$$inlined$apply$lambda$1;
+    new-instance v2, Lcotlin/text/Regex$fromInt$$inlined$apply$lambda$1;
 
-    invoke-direct {v2, v0}, Lkotlin/text/Regex$fromInt$$inlined$apply$lambda$1;-><init>(I)V
+    invoke-direct {v2, v0}, Lcotlin/text/Regex$fromInt$$inlined$apply$lambda$1;-><init>(I)V
 
-    invoke-static {v1, v2}, Lkotlin/collections/s;->P0(Ljava/lang/Iterable;Lkotlin/jvm/u/l;)Z
+    invoke-static {v1, v2}, Lcotlin/collections/s;->P0(Ljava/lang/Iterable;Lcotlin/jvm/u/l;)Z
 
     .line 4
     invoke-static {v1}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
@@ -544,10 +544,10 @@
 
     const-string v1, "Collections.unmodifiable\u2026mask == it.value }\n    })"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
-    iput-object v0, p0, Lkotlin/text/Regex;->_options:Ljava/util/Set;
+    iput-object v0, p0, Lcotlin/text/Regex;->_options:Ljava/util/Set;
 
     :goto_0
     return-object v0
@@ -559,7 +559,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
+    iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0}, Ljava/util/regex/Pattern;->pattern()Ljava/lang/String;
 
@@ -567,12 +567,12 @@
 
     const-string v1, "nativePattern.pattern()"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object v0
 .end method
 
-.method public final matchEntire(Ljava/lang/CharSequence;)Lkotlin/text/k;
+.method public final matchEntire(Ljava/lang/CharSequence;)Lcotlin/text/k;
     .locals 2
     .param p1    # Ljava/lang/CharSequence;
         .annotation build Ln/e/a/d;
@@ -583,10 +583,10 @@
 
     const-string v0, "input"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
+    iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
@@ -594,9 +594,9 @@
 
     const-string v1, "nativePattern.matcher(input)"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {v0, p1}, Lkotlin/text/RegexKt;->c(Ljava/util/regex/Matcher;Ljava/lang/CharSequence;)Lkotlin/text/k;
+    invoke-static {v0, p1}, Lcotlin/text/RegexKt;->c(Ljava/util/regex/Matcher;Ljava/lang/CharSequence;)Lcotlin/text/k;
 
     move-result-object p1
 
@@ -612,10 +612,10 @@
 
     const-string v0, "input"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
+    iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
@@ -643,14 +643,14 @@
 
     const-string v0, "input"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "replacement"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
+    iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
@@ -662,18 +662,18 @@
 
     const-string p2, "nativePattern.matcher(in\u2026).replaceAll(replacement)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
 
-.method public final replace(Ljava/lang/CharSequence;Lkotlin/jvm/u/l;)Ljava/lang/String;
+.method public final replace(Ljava/lang/CharSequence;Lcotlin/jvm/u/l;)Ljava/lang/String;
     .locals 5
     .param p1    # Ljava/lang/CharSequence;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/jvm/u/l;
+    .param p2    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -681,9 +681,9 @@
         value = {
             "(",
             "Ljava/lang/CharSequence;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
-            "Lkotlin/text/k;",
+            "Lcotlin/text/k;",
             "+",
             "Ljava/lang/CharSequence;",
             ">;)",
@@ -696,11 +696,11 @@
 
     const-string v0, "input"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "transform"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -709,7 +709,7 @@
     const/4 v2, 0x0
 
     .line 2
-    invoke-static {p0, p1, v0, v1, v2}, Lkotlin/text/Regex;->find$default(Lkotlin/text/Regex;Ljava/lang/CharSequence;IILjava/lang/Object;)Lkotlin/text/k;
+    invoke-static {p0, p1, v0, v1, v2}, Lcotlin/text/Regex;->find$default(Lcotlin/text/Regex;Ljava/lang/CharSequence;IILjava/lang/Object;)Lcotlin/text/k;
 
     move-result-object v1
 
@@ -727,14 +727,14 @@
 
     .line 5
     :cond_0
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->m(Ljava/lang/Object;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->m(Ljava/lang/Object;)V
 
     .line 6
-    invoke-interface {v1}, Lkotlin/text/k;->X1()Lkotlin/g2/k;
+    invoke-interface {v1}, Lcotlin/text/k;->X1()Lcotlin/g2/k;
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lkotlin/g2/k;->m()Ljava/lang/Integer;
+    invoke-virtual {v4}, Lcotlin/g2/k;->m()Ljava/lang/Integer;
 
     move-result-object v4
 
@@ -745,7 +745,7 @@
     invoke-virtual {v3, p1, v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;
 
     .line 7
-    invoke-interface {p2, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -754,11 +754,11 @@
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 8
-    invoke-interface {v1}, Lkotlin/text/k;->X1()Lkotlin/g2/k;
+    invoke-interface {v1}, Lcotlin/text/k;->X1()Lcotlin/g2/k;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkotlin/g2/k;->l()Ljava/lang/Integer;
+    invoke-virtual {v0}, Lcotlin/g2/k;->l()Ljava/lang/Integer;
 
     move-result-object v0
 
@@ -769,7 +769,7 @@
     add-int/lit8 v0, v0, 0x1
 
     .line 9
-    invoke-interface {v1}, Lkotlin/text/k;->next()Lkotlin/text/k;
+    invoke-interface {v1}, Lcotlin/text/k;->next()Lcotlin/text/k;
 
     move-result-object v1
 
@@ -791,7 +791,7 @@
 
     const-string p2, "sb.toString()"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 
@@ -819,14 +819,14 @@
 
     const-string v0, "input"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "replacement"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
+    iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
@@ -838,7 +838,7 @@
 
     const-string p2, "nativePattern.matcher(in\u2026replaceFirst(replacement)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
@@ -865,7 +865,7 @@
 
     const-string v0, "input"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -884,7 +884,7 @@
     if-eqz v2, :cond_6
 
     .line 1
-    iget-object v2, p0, Lkotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
+    iget-object v2, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v2, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
@@ -909,7 +909,7 @@
 
     if-lez p2, :cond_2
 
-    invoke-static {p2, v4}, Lkotlin/g2/o;->u(II)I
+    invoke-static {p2, v4}, Lcotlin/g2/o;->u(II)I
 
     move-result v4
 
@@ -983,7 +983,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lkotlin/collections/s;->k(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {p1}, Lcotlin/collections/s;->k(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
 
@@ -1026,7 +1026,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
+    iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     return-object v0
 .end method
@@ -1037,7 +1037,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
+    iget-object v0, p0, Lcotlin/text/Regex;->nativePattern:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0}, Ljava/util/regex/Pattern;->toString()Ljava/lang/String;
 
@@ -1045,7 +1045,7 @@
 
     const-string v1, "nativePattern.toString()"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object v0
 .end method

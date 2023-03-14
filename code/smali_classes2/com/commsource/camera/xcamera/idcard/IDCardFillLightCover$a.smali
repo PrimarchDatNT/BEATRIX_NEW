@@ -32,7 +32,7 @@
     value = "SMAP\nIDCardFillLightCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 IDCardFillLightCover.kt\ncom/commsource/camera/xcamera/idcard/IDCardFillLightCover$initView$1\n*L\n1#1,58:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "Lcom/commsource/camera/xcamera/n;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/camera/xcamera/n;)V"
     }
@@ -169,7 +169,7 @@
 
     const-string v1, "mViewBinding.mVFillLight"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/high16 v2, 0x3f800000    # 1.0f
 
@@ -186,7 +186,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/u3;->a:Landroid/view/View;
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 

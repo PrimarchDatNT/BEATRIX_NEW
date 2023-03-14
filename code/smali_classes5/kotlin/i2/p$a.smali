@@ -1,11 +1,11 @@
-.class public final Lkotlin/i2/p$a;
+.class public final Lcotlin/i2/p$a;
 .super Ljava/lang/Object;
 .source "TimeSource.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/i2/p;
+    value = Lcotlin/i2/p;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,7 +39,7 @@
 
 
 # static fields
-.field static final synthetic a:Lkotlin/i2/p$a;
+.field static final synthetic a:Lcotlin/i2/p$a;
 
 
 # direct methods
@@ -47,11 +47,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lkotlin/i2/p$a;
+    new-instance v0, Lcotlin/i2/p$a;
 
-    invoke-direct {v0}, Lkotlin/i2/p$a;-><init>()V
+    invoke-direct {v0}, Lcotlin/i2/p$a;-><init>()V
 
-    sput-object v0, Lkotlin/i2/p$a;->a:Lkotlin/i2/p$a;
+    sput-object v0, Lcotlin/i2/p$a;->a:Lcotlin/i2/p$a;
 
     return-void
 .end method

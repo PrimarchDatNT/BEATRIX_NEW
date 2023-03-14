@@ -33,7 +33,7 @@
     value = "SMAP\nFilterChildStoreFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FilterChildStoreFragment.kt\ncom/commsource/store/filter/FilterChildStoreFragment$onViewCreated$9\n*L\n1#1,162:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,9 +45,9 @@
     d2 = {
         "Ljava/util/ArrayList;",
         "Lcom/commsource/beautyfilter/a;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/util/ArrayList;)V"
     }
@@ -132,7 +132,7 @@
 
     const-string v1, "it[position]"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/beautyfilter/a;
 

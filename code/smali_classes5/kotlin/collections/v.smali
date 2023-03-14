@@ -1,10 +1,10 @@
-.class Lkotlin/collections/v;
-.super Lkotlin/collections/u;
+.class Lcotlin/collections/v;
+.super Lcotlin/collections/u;
 .source "IteratorsJVM.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,7 +35,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/collections/u;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/u;-><init>()V
 
     return-void
 .end method
@@ -63,12 +63,12 @@
 
     const-string v0, "$this$iterator"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/collections/v$a;
+    new-instance v0, Lcotlin/collections/v$a;
 
-    invoke-direct {v0, p0}, Lkotlin/collections/v$a;-><init>(Ljava/util/Enumeration;)V
+    invoke-direct {v0, p0}, Lcotlin/collections/v$a;-><init>(Ljava/util/Enumeration;)V
 
     return-object v0
 .end method

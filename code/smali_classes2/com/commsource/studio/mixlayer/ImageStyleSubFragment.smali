@@ -14,7 +14,7 @@
     value = "SMAP\nImageStyleSubFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ImageStyleSubFragment.kt\ncom/commsource/studio/mixlayer/ImageStyleSubFragment\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,461:1\n1828#2,3:462\n*E\n*S KotlinDebug\n*F\n+ 1 ImageStyleSubFragment.kt\ncom/commsource/studio/mixlayer/ImageStyleSubFragment\n*L\n435#1,3:462\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
     d2 = {
         "Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;",
         "Lcom/commsource/beautyplus/i0/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "Y",
         "()V",
         "X",
@@ -69,7 +69,7 @@
         "onResume",
         "Lcom/commsource/studio/mixlayer/ImageStyleViewModel;",
         "f",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "V",
         "()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;",
         "imageStyleViewModel",
@@ -134,7 +134,7 @@
 
 .field private K:Z
 
-.field private final L:Lkotlin/w;
+.field private final L:Lcotlin/w;
 
 .field private M:Ljava/util/HashMap;
 
@@ -142,9 +142,9 @@
 
 .field private d:Lcom/commsource/beautyplus/f0/u8;
 
-.field private final f:Lkotlin/w;
+.field private final f:Lcotlin/w;
 
-.field private final g:Lkotlin/w;
+.field private final g:Lcotlin/w;
 
 .field private p:Lcom/commsource/studio/bean/FocusLayerInfo;
 
@@ -161,7 +161,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->S:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$a;
 
@@ -186,33 +186,33 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$imageStyleViewModel$2;-><init>(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->f:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->f:Lcotlin/w;
 
     .line 4
     new-instance v0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$studioViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$studioViewModel$2;-><init>(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->g:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->g:Lcotlin/w;
 
     .line 5
     new-instance v0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2;-><init>(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->L:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->L:Lcotlin/w;
 
     return-void
 .end method
@@ -278,7 +278,7 @@
 
     const-string v1, "mViewBinding"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -518,13 +518,13 @@
 
     if-gez v2, :cond_0
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_0
-    check-cast v7, Lkotlin/Pair;
+    check-cast v7, Lcotlin/Pair;
 
     .line 5
-    invoke-virtual {v7}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+    invoke-virtual {v7}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -569,7 +569,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v4, v6, v5, v6}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {v2, v4, v6, v5, v6}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     :cond_4
     move v2, v8
@@ -622,7 +622,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, v4, v6, v5, v6}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p1, v4, v6, v5, v6}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 14
     :cond_9
@@ -660,9 +660,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->L:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->L:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -680,9 +680,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->f:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->f:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -700,9 +700,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->g:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->g:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -727,7 +727,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u8;->f:Landroidx/recyclerview/widget/RecyclerView;
@@ -795,7 +795,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u8;->c:Lcom/commsource/widget/IconFrontView;
@@ -811,7 +811,7 @@
 
     if-nez v1, :cond_4
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u8;->d:Lcom/commsource/studio/doodle/ColorItemView;
@@ -888,12 +888,12 @@
 
     if-nez v5, :cond_0
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->a:Lcom/commsource/studio/doodle/ColorItemView;
 
-    invoke-static {v5, v10}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v10}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0xb
 
@@ -904,12 +904,12 @@
 
     if-nez v5, :cond_1
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->p:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v5, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v5, v12}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->e0(Landroid/view/View;I)V
 
@@ -918,12 +918,12 @@
 
     if-nez v5, :cond_2
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->K:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v5, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v5, v6}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->e0(Landroid/view/View;I)V
 
@@ -932,12 +932,12 @@
 
     if-nez v5, :cond_3
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->L:Landroid/widget/TextView;
 
-    invoke-static {v5, v13}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v13}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v5}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -946,12 +946,12 @@
 
     if-nez v5, :cond_4
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->K:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v5, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v5}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -960,7 +960,7 @@
 
     if-nez v5, :cond_5
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->p:Lcom/commsource/widget/XSeekBar;
@@ -972,12 +972,12 @@
 
     if-nez v5, :cond_6
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->J:Landroid/widget/TextView;
 
-    invoke-static {v5, v9}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v9}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v7, Lcom/res/provider/ResSTRING;->t_blur:I
 
@@ -992,12 +992,12 @@
 
     if-nez v5, :cond_7
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_7
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->L:Landroid/widget/TextView;
 
-    invoke-static {v5, v13}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v13}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v8}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -1013,12 +1013,12 @@
 
     if-nez v5, :cond_9
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_9
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->L:Landroid/widget/TextView;
 
-    invoke-static {v5, v13}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v13}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v5}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1027,12 +1027,12 @@
 
     if-nez v5, :cond_a
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_a
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->K:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v5, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v5}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1041,12 +1041,12 @@
 
     if-nez v5, :cond_b
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_b
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->J:Landroid/widget/TextView;
 
-    invoke-static {v5, v9}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v9}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget v9, Lcom/res/provider/ResSTRING;->t_thickness:I
 
@@ -1061,12 +1061,12 @@
 
     if-nez v5, :cond_c
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_c
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->L:Landroid/widget/TextView;
 
-    invoke-static {v5, v13}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v13}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v8}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -1079,7 +1079,7 @@
 
     if-nez v5, :cond_d
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_d
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->p:Lcom/commsource/widget/XSeekBar;
@@ -1091,12 +1091,12 @@
 
     if-nez v5, :cond_e
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_e
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->a:Lcom/commsource/studio/doodle/ColorItemView;
 
-    invoke-static {v5, v10}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v10}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v5, v7}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->e0(Landroid/view/View;I)V
 
@@ -1105,12 +1105,12 @@
 
     if-nez v5, :cond_f
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_f
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->p:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v5, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v7, 0x4
 
@@ -1121,12 +1121,12 @@
 
     if-nez v5, :cond_10
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_10
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->K:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v5, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v5, v11}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->e0(Landroid/view/View;I)V
 
@@ -1138,12 +1138,12 @@
 
     if-nez v5, :cond_12
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_12
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->a:Lcom/commsource/studio/doodle/ColorItemView;
 
-    invoke-static {v5, v10}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v10}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0xc
 
@@ -1154,12 +1154,12 @@
 
     if-nez v5, :cond_13
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_13
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->J:Landroid/widget/TextView;
 
-    invoke-static {v5, v9}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v9}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v8}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -1172,12 +1172,12 @@
 
     if-nez v5, :cond_14
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_14
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/u8;->p:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v5, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0xa
 
@@ -1200,12 +1200,12 @@
 
     if-nez v1, :cond_16
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_16
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u8;->p:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v1}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->P(Lcom/commsource/widget/XSeekBar;)V
 
@@ -1214,12 +1214,12 @@
 
     if-nez v1, :cond_17
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_17
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u8;->K:Lcom/commsource/widget/XSeekBar;
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v1}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->P(Lcom/commsource/widget/XSeekBar;)V
 
@@ -1251,7 +1251,7 @@
 
     const-string v3, "viewLifecycleOwner"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v3, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$f;
 
@@ -1389,11 +1389,11 @@
     return p1
 
     :cond_0
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type kotlin.Int"
 
-    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1408,11 +1408,11 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    new-instance v1, Lkotlin/jvm/internal/Ref$IntRef;
+    new-instance v1, Lcotlin/jvm/internal/Ref$IntRef;
 
-    invoke-direct {v1}, Lkotlin/jvm/internal/Ref$IntRef;-><init>()V
+    invoke-direct {v1}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
 
-    iput p2, v1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput p2, v1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     .line 2
     iget v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->c:I
@@ -1435,7 +1435,7 @@
 
     new-array p3, v3, [I
 
-    iget v1, v1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v1, v1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     const/4 v2, 0x0
 
@@ -1454,7 +1454,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {p1, v2, p2, v4, p2}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static {p1, v2, p2, v4, p2}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     goto :goto_1
 
@@ -1479,7 +1479,7 @@
     float-to-int p2, p2
 
     .line 5
-    iput p2, v1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput p2, v1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     :cond_2
     if-eqz p3, :cond_3
@@ -1491,9 +1491,9 @@
 
     new-instance v2, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$onProgressChange$1;
 
-    invoke-direct {v2, p0, p1, v1, p3}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$onProgressChange$1;-><init>(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;ILkotlin/jvm/internal/Ref$IntRef;Z)V
+    invoke-direct {v2, p0, p1, v1, p3}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$onProgressChange$1;-><init>(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;ILcotlin/jvm/internal/Ref$IntRef;Z)V
 
-    invoke-virtual {p2, v2}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p2, v2}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lcotlin/jvm/u/a;)V
 
     goto :goto_1
 
@@ -1505,7 +1505,7 @@
 
     new-instance v2, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$k;
 
-    invoke-direct {v2, p0, p1, v1, p3}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$k;-><init>(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;ILkotlin/jvm/internal/Ref$IntRef;Z)V
+    invoke-direct {v2, p0, p1, v1, p3}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$k;-><init>(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;ILcotlin/jvm/internal/Ref$IntRef;Z)V
 
     invoke-virtual {p2, v2}, Lcom/commsource/studio/ImageStudioViewModel;->G1(Ljava/lang/Runnable;)V
 
@@ -1576,7 +1576,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u8;->p:Lcom/commsource/widget/XSeekBar;
@@ -1590,14 +1590,14 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u8;->J:Landroid/widget/TextView;
 
     const-string v4, "mViewBinding.seekBar1Title"
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/high16 v4, 0x3f800000    # 1.0f
 
@@ -1620,7 +1620,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u8;->K:Lcom/commsource/widget/XSeekBar;
@@ -1632,14 +1632,14 @@
 
     if-nez v1, :cond_4
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u8;->L:Landroid/widget/TextView;
 
     const-string v6, "mViewBinding.seekBar2Title"
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p1, :cond_5
 
@@ -1679,14 +1679,14 @@
 
     if-nez p1, :cond_7
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_7
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/u8;->d:Lcom/commsource/studio/doodle/ColorItemView;
 
     const-string v1, "mViewBinding.pickedIcon"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
@@ -1717,14 +1717,14 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/u8;->p:Lcom/commsource/widget/XSeekBar;
 
     const-string v4, "mViewBinding.seekBar1"
 
-    invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v2}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->a0(Landroid/view/View;)I
 
@@ -1765,14 +1765,14 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/u8;->K:Lcom/commsource/widget/XSeekBar;
 
     const-string v3, "mViewBinding.seekBar2"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v2}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->a0(Landroid/view/View;)I
 
@@ -1818,14 +1818,14 @@
 
     if-nez v3, :cond_0
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/u8;->f:Landroidx/recyclerview/widget/RecyclerView;
 
     const-string v5, "mViewBinding.rvColorList"
 
-    invoke-static {v3, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v3}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->a0(Landroid/view/View;)I
 
@@ -1855,14 +1855,14 @@
 
     if-nez v8, :cond_1
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v8, v8, Lcom/commsource/beautyplus/f0/u8;->a:Lcom/commsource/studio/doodle/ColorItemView;
 
     const-string v9, "mViewBinding.civ"
 
-    invoke-static {v8, v9}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v9}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v8}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->a0(Landroid/view/View;)I
 
@@ -1885,14 +1885,14 @@
 
     if-nez v3, :cond_2
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/u8;->d:Lcom/commsource/studio/doodle/ColorItemView;
 
     const-string v7, "mViewBinding.pickedIcon"
 
-    invoke-static {v3, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1901,12 +1901,12 @@
 
     if-nez v3, :cond_3
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/u8;->d:Lcom/commsource/studio/doodle/ColorItemView;
 
-    invoke-static {v3, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3, v5}, Landroid/view/View;->setSelected(Z)V
 
@@ -1915,7 +1915,7 @@
 
     if-nez v3, :cond_4
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/u8;->d:Lcom/commsource/studio/doodle/ColorItemView;
@@ -1950,7 +1950,7 @@
 
     if-nez v2, :cond_6
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/u8;->f:Landroidx/recyclerview/widget/RecyclerView;
@@ -1971,14 +1971,14 @@
 
     if-nez v3, :cond_8
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_8
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/u8;->p:Lcom/commsource/widget/XSeekBar;
 
     const-string v6, "mViewBinding.seekBar1"
 
-    invoke-static {v3, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v3}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->a0(Landroid/view/View;)I
 
@@ -1999,7 +1999,7 @@
 
     if-nez v3, :cond_9
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_9
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/u8;->p:Lcom/commsource/widget/XSeekBar;
@@ -2026,14 +2026,14 @@
 
     if-nez v3, :cond_c
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_c
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/u8;->K:Lcom/commsource/widget/XSeekBar;
 
     const-string v5, "mViewBinding.seekBar2"
 
-    invoke-static {v3, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v3}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->a0(Landroid/view/View;)I
 
@@ -2054,7 +2054,7 @@
 
     if-nez v3, :cond_d
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_d
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/u8;->K:Lcom/commsource/widget/XSeekBar;
@@ -2128,7 +2128,7 @@
 
     const-string p3, "inflater"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/u8;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/u8;
@@ -2137,7 +2137,7 @@
 
     const-string p3, "FragmentImageStyleSubBinding.inflate(inflater)"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d:Lcom/commsource/beautyplus/f0/u8;
 
@@ -2167,7 +2167,7 @@
 
     const-string p3, "mViewBinding"
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -2176,7 +2176,7 @@
 
     const-string p3, "mViewBinding.root"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2232,7 +2232,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/u8;->p:Lcom/commsource/widget/XSeekBar;
@@ -2313,7 +2313,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/u8;->f:Landroidx/recyclerview/widget/RecyclerView;
@@ -2348,7 +2348,7 @@
 
     const-string v0, "view"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->Y()V

@@ -20,9 +20,9 @@
 
     .line 1
     :try_start_0
-    sget-object v0, Lkotlin/t;->g:Lkotlin/t;
+    sget-object v0, Lcotlin/t;->g:Lcotlin/t;
 
-    invoke-virtual {v0}, Lkotlin/t;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Lcotlin/t;->toString()Ljava/lang/String;
 
     move-result-object v0
     :try_end_0

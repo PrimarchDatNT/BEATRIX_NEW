@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -16,7 +16,7 @@
     d2 = {
         "Lcom/commsource/studio/doodle/FadingEdgeRecycleView;",
         "Landroidx/recyclerview/widget/RecyclerView;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "ensureBottomGlow",
         "()V",
         "",
@@ -84,11 +84,11 @@
 
     const-string v0, "ctx"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "attrs"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -102,7 +102,7 @@
 
     const-string p2, "ctx.obtainStyledAttribut\u2026le.FadingEdgeRecycleView)"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p2, 0x3
 
@@ -251,7 +251,7 @@
     const-string v2, "mBottomGlow"
 
     .line 2
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getMeasuredWidth()I

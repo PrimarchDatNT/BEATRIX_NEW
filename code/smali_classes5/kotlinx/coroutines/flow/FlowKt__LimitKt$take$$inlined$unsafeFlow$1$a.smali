@@ -1,14 +1,14 @@
-.class public final Lkotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;
+.class public final Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;
 .super Ljava/lang/Object;
 .source "Collect.kt"
 
 # interfaces
-.implements Lkotlinx/coroutines/flow/e;
+.implements Lcotlinx/coroutines/flow/e;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1;->a(Lkotlinx/coroutines/flow/e;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlinx/coroutines/flow/e<",
+        "Lcotlinx/coroutines/flow/e<",
         "TT;>;"
     }
 .end annotation
@@ -28,7 +28,7 @@
     value = "SMAP\nCollect.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Collect.kt\nkotlinx/coroutines/flow/FlowKt__CollectKt$collect$3\n+ 2 Limit.kt\nkotlinx/coroutines/flow/FlowKt__LimitKt\n*L\n1#1,136:1\n58#2,4:137\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,11 +39,11 @@
     }
     d2 = {
         "kotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a",
-        "Lkotlinx/coroutines/flow/e;",
+        "Lcotlinx/coroutines/flow/e;",
         "value",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "emit",
-        "(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "kotlinx-coroutines-core",
         "kotlinx/coroutines/flow/FlowKt__LimitKt$$special$$inlined$collect$3"
     }
@@ -57,22 +57,22 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlinx/coroutines/flow/e;
+.field final synthetic a:Lcotlinx/coroutines/flow/e;
 
-.field final synthetic b:Lkotlin/jvm/internal/Ref$IntRef;
+.field final synthetic b:Lcotlin/jvm/internal/Ref$IntRef;
 
-.field final synthetic c:Lkotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1;
+.field final synthetic c:Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1;
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/flow/e;Lkotlin/jvm/internal/Ref$IntRef;Lkotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1;)V
+.method public constructor <init>(Lcotlinx/coroutines/flow/e;Lcotlin/jvm/internal/Ref$IntRef;Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;->a:Lkotlinx/coroutines/flow/e;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;->a:Lcotlinx/coroutines/flow/e;
 
-    iput-object p2, p0, Lkotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;->b:Lkotlin/jvm/internal/Ref$IntRef;
+    iput-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;->b:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iput-object p3, p0, Lkotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;->c:Lkotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1;
+    iput-object p3, p0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;->c:Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1;
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -82,9 +82,9 @@
 
 
 # virtual methods
-.method public emit(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 2
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -92,28 +92,28 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;->b:Lkotlin/jvm/internal/Ref$IntRef;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;->b:Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget v1, v0, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v1, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     add-int/lit8 v1, v1, 0x1
 
-    iput v1, v0, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput v1, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    iget-object v0, p0, Lkotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;->c:Lkotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;->c:Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1;
 
-    iget v0, v0, Lkotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1;->b:I
+    iget v0, v0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1;->b:I
 
     if-ge v1, v0, :cond_1
 
     .line 2
-    iget-object v0, p0, Lkotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;->a:Lkotlinx/coroutines/flow/e;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;->a:Lcotlinx/coroutines/flow/e;
 
-    invoke-interface {v0, p1, p2}, Lkotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Lcotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object p2
 
@@ -122,19 +122,19 @@
     return-object p1
 
     :cond_0
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     goto :goto_0
 
     .line 3
     :cond_1
-    iget-object v0, p0, Lkotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;->a:Lkotlinx/coroutines/flow/e;
+    iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$a;->a:Lcotlinx/coroutines/flow/e;
 
-    invoke-static {v0, p1, p2}, Lkotlinx/coroutines/flow/FlowKt__LimitKt;->c(Lkotlinx/coroutines/flow/e;Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {v0, p1, p2}, Lcotlinx/coroutines/flow/FlowKt__LimitKt;->c(Lcotlinx/coroutines/flow/e;Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object p2
 
@@ -143,7 +143,7 @@
     return-object p1
 
     :cond_2
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     :goto_0
     return-object p1

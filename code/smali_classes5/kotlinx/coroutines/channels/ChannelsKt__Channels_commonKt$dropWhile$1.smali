@@ -1,14 +1,14 @@
-.class final Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;
-.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.class final Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;
+.super Lcotlin/coroutines/jvm/internal/SuspendLambda;
 .source "Channels.common.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->K(Lkotlinx/coroutines/channels/y;Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+    value = Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->K(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Lkotlin/jvm/u/p<",
-        "Lkotlinx/coroutines/channels/w<",
+        "Lcotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lcotlin/jvm/u/p<",
+        "Lcotlinx/coroutines/channels/w<",
         "-TE;>;",
-        "Lkotlin/coroutines/c<",
+        "Lcotlin/coroutines/c<",
         "-",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;",
         "Ljava/lang/Object;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -42,8 +42,8 @@
     }
     d2 = {
         "E",
-        "Lkotlinx/coroutines/channels/w;",
-        "Lkotlin/t1;",
+        "Lcotlinx/coroutines/channels/w;",
+        "Lcotlin/t1;",
         "invoke",
         "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
         "<anonymous>"
@@ -56,7 +56,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt$dropWhile$1"
     f = "Channels.common.kt"
     i = {
@@ -101,9 +101,9 @@
 
 
 # instance fields
-.field final synthetic $predicate:Lkotlin/jvm/u/p;
+.field final synthetic $predicate:Lcotlin/jvm/u/p;
 
-.field final synthetic $this_dropWhile:Lkotlinx/coroutines/channels/y;
+.field final synthetic $this_dropWhile:Lcotlinx/coroutines/channels/y;
 
 .field L$0:Ljava/lang/Object;
 
@@ -113,33 +113,33 @@
 
 .field label:I
 
-.field private p$:Lkotlinx/coroutines/channels/w;
+.field private p$:Lcotlinx/coroutines/channels/w;
 
 
 # direct methods
-.method constructor <init>(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)V
+.method constructor <init>(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->$this_dropWhile:Lkotlinx/coroutines/channels/y;
+    iput-object p1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->$this_dropWhile:Lcotlinx/coroutines/channels/y;
 
-    iput-object p2, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->$predicate:Lkotlin/jvm/u/p;
+    iput-object p2, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->$predicate:Lcotlin/jvm/u/p;
 
     const/4 p1, 0x2
 
-    invoke-direct {p0, p1, p3}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/c;)V
+    invoke-direct {p0, p1, p3}, Lcotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILcotlin/coroutines/c;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+.method public final create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 3
     .param p1    # Ljava/lang/Object;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -147,10 +147,10 @@
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "*>;)",
-            "Lkotlin/coroutines/c<",
-            "Lkotlin/t1;",
+            "Lcotlin/coroutines/c<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -158,17 +158,17 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    new-instance v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;
+    new-instance v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;
 
-    iget-object v1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->$this_dropWhile:Lkotlinx/coroutines/channels/y;
+    iget-object v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->$this_dropWhile:Lcotlinx/coroutines/channels/y;
 
-    iget-object v2, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->$predicate:Lkotlin/jvm/u/p;
+    iget-object v2, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->$predicate:Lcotlin/jvm/u/p;
 
-    invoke-direct {v0, v1, v2, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;-><init>(Lkotlinx/coroutines/channels/y;Lkotlin/jvm/u/p;Lkotlin/coroutines/c;)V
+    invoke-direct {v0, v1, v2, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;-><init>(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)V
 
-    check-cast p1, Lkotlinx/coroutines/channels/w;
+    check-cast p1, Lcotlinx/coroutines/channels/w;
 
-    iput-object p1, v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->p$:Lkotlinx/coroutines/channels/w;
+    iput-object p1, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->p$:Lcotlinx/coroutines/channels/w;
 
     return-object v0
 .end method
@@ -176,17 +176,17 @@
 .method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    check-cast p2, Lkotlin/coroutines/c;
+    check-cast p2, Lcotlin/coroutines/c;
 
-    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-virtual {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p1
 
-    check-cast p1, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;
+    check-cast p1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;
 
-    sget-object p2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-virtual {p1, p2}, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -202,12 +202,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 1
-    iget v1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->label:I
+    iget v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->label:I
 
     const/4 v2, 0x5
 
@@ -231,15 +231,15 @@
 
     if-ne v1, v2, :cond_0
 
-    iget-object v1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$2:Ljava/lang/Object;
+    iget-object v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$2:Ljava/lang/Object;
 
-    check-cast v1, Lkotlinx/coroutines/channels/ChannelIterator;
+    check-cast v1, Lcotlinx/coroutines/channels/ChannelIterator;
 
-    iget-object v4, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
+    iget-object v4, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
 
-    check-cast v4, Lkotlinx/coroutines/channels/w;
+    check-cast v4, Lcotlinx/coroutines/channels/w;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     move-object p1, v1
 
@@ -263,15 +263,15 @@
 
     .line 3
     :cond_1
-    iget-object v1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
+    iget-object v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
 
-    check-cast v1, Lkotlinx/coroutines/channels/ChannelIterator;
+    check-cast v1, Lcotlinx/coroutines/channels/ChannelIterator;
 
-    iget-object v4, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
+    iget-object v4, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
 
-    check-cast v4, Lkotlinx/coroutines/channels/w;
+    check-cast v4, Lcotlinx/coroutines/channels/w;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     move-object v8, v4
 
@@ -284,11 +284,11 @@
     goto/16 :goto_5
 
     :cond_2
-    iget-object v1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
+    iget-object v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
 
-    check-cast v1, Lkotlinx/coroutines/channels/w;
+    check-cast v1, Lcotlinx/coroutines/channels/w;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     move-object v8, v1
 
@@ -299,17 +299,17 @@
     goto/16 :goto_3
 
     :cond_3
-    iget-object v1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$2:Ljava/lang/Object;
+    iget-object v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$2:Ljava/lang/Object;
 
-    check-cast v1, Lkotlinx/coroutines/channels/ChannelIterator;
+    check-cast v1, Lcotlinx/coroutines/channels/ChannelIterator;
 
-    iget-object v7, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
+    iget-object v7, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
 
-    iget-object v8, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
+    iget-object v8, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
 
-    check-cast v8, Lkotlinx/coroutines/channels/w;
+    check-cast v8, Lcotlinx/coroutines/channels/w;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     move-object v9, v7
 
@@ -322,15 +322,15 @@
     goto :goto_2
 
     :cond_4
-    iget-object v1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
+    iget-object v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
 
-    check-cast v1, Lkotlinx/coroutines/channels/ChannelIterator;
+    check-cast v1, Lcotlinx/coroutines/channels/ChannelIterator;
 
-    iget-object v7, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
+    iget-object v7, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
 
-    check-cast v7, Lkotlinx/coroutines/channels/w;
+    check-cast v7, Lcotlinx/coroutines/channels/w;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     move-object v8, v7
 
@@ -343,14 +343,14 @@
     goto :goto_1
 
     :cond_5
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    iget-object p1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->p$:Lkotlinx/coroutines/channels/w;
+    iget-object p1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->p$:Lcotlinx/coroutines/channels/w;
 
     .line 4
-    iget-object v1, p0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->$this_dropWhile:Lkotlinx/coroutines/channels/y;
+    iget-object v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->$this_dropWhile:Lcotlinx/coroutines/channels/y;
 
-    invoke-interface {v1}, Lkotlinx/coroutines/channels/y;->iterator()Lkotlinx/coroutines/channels/ChannelIterator;
+    invoke-interface {v1}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
     move-result-object v1
 
@@ -359,13 +359,13 @@
     move-object p1, p0
 
     :goto_0
-    iput-object v7, p1, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
+    iput-object v7, p1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
 
-    iput-object v1, p1, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
+    iput-object v1, p1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
 
-    iput v6, p1, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->label:I
+    iput v6, p1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->label:I
 
-    invoke-interface {v1, p1}, Lkotlinx/coroutines/channels/ChannelIterator;->b(Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Lcotlinx/coroutines/channels/ChannelIterator;->b(Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object v8
 
@@ -395,22 +395,22 @@
 
     if-eqz p1, :cond_9
 
-    invoke-interface {v7}, Lkotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
+    invoke-interface {v7}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object p1
 
     .line 5
-    iget-object v9, v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->$predicate:Lkotlin/jvm/u/p;
+    iget-object v9, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->$predicate:Lcotlin/jvm/u/p;
 
-    iput-object v8, v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
+    iput-object v8, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
 
-    iput-object p1, v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
 
-    iput-object v7, v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$2:Ljava/lang/Object;
+    iput-object v7, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$2:Ljava/lang/Object;
 
-    iput v5, v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->label:I
+    iput v5, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->label:I
 
-    invoke-interface {v9, p1, v0}, Lkotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v9, p1, v0}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
 
@@ -435,13 +435,13 @@
     if-nez p1, :cond_8
 
     .line 6
-    iput-object v8, v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
+    iput-object v8, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
 
-    iput-object v9, v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
+    iput-object v9, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
 
-    iput v4, v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->label:I
+    iput v4, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->label:I
 
-    invoke-interface {v8, v9, v0}, Lkotlinx/coroutines/channels/c0;->U(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {v8, v9, v0}, Lcotlinx/coroutines/channels/c0;->U(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -463,20 +463,20 @@
     .line 7
     :cond_9
     :goto_3
-    iget-object p1, v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->$this_dropWhile:Lkotlinx/coroutines/channels/y;
+    iget-object p1, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->$this_dropWhile:Lcotlinx/coroutines/channels/y;
 
-    invoke-interface {p1}, Lkotlinx/coroutines/channels/y;->iterator()Lkotlinx/coroutines/channels/ChannelIterator;
+    invoke-interface {p1}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
     move-result-object p1
 
     :goto_4
-    iput-object v8, v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
+    iput-object v8, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
 
-    iput-object p1, v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
 
-    iput v3, v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->label:I
+    iput v3, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->label:I
 
-    invoke-interface {p1, v0}, Lkotlinx/coroutines/channels/ChannelIterator;->b(Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Lcotlinx/coroutines/channels/ChannelIterator;->b(Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object v4
 
@@ -500,20 +500,20 @@
 
     if-eqz p1, :cond_c
 
-    invoke-interface {v4}, Lkotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
+    invoke-interface {v4}, Lcotlinx/coroutines/channels/ChannelIterator;->next()Ljava/lang/Object;
 
     move-result-object p1
 
     .line 8
-    iput-object v8, v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
+    iput-object v8, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$0:Ljava/lang/Object;
 
-    iput-object p1, v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$1:Ljava/lang/Object;
 
-    iput-object v4, v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$2:Ljava/lang/Object;
+    iput-object v4, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->L$2:Ljava/lang/Object;
 
-    iput v2, v0, Lkotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->label:I
+    iput v2, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$dropWhile$1;->label:I
 
-    invoke-interface {v8, p1, v0}, Lkotlinx/coroutines/channels/c0;->U(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {v8, p1, v0}, Lcotlinx/coroutines/channels/c0;->U(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -528,7 +528,7 @@
 
     .line 9
     :cond_c
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method

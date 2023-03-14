@@ -1,10 +1,10 @@
-.class Lkotlin/sequences/r;
-.super Lkotlin/sequences/q;
+.class Lcotlin/sequences/r;
+.super Lcotlin/sequences/q;
 .source "SequencesJVM.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -16,9 +16,9 @@
     d2 = {
         "T",
         "Ljava/util/Enumeration;",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "f",
-        "(Ljava/util/Enumeration;)Lkotlin/sequences/m;",
+        "(Ljava/util/Enumeration;)Lcotlin/sequences/m;",
         "kotlin-stdlib"
     }
     k = 0x5
@@ -35,12 +35,12 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/sequences/q;-><init>()V
+    invoke-direct {p0}, Lcotlin/sequences/q;-><init>()V
 
     return-void
 .end method
 
-.method private static final f(Ljava/util/Enumeration;)Lkotlin/sequences/m;
+.method private static final f(Ljava/util/Enumeration;)Lcotlin/sequences/m;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -49,20 +49,20 @@
             ">(",
             "Ljava/util/Enumeration<",
             "TT;>;)",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "TT;>;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lkotlin/collections/s;->f0(Ljava/util/Enumeration;)Ljava/util/Iterator;
+    invoke-static {p0}, Lcotlin/collections/s;->f0(Ljava/util/Enumeration;)Ljava/util/Iterator;
 
     move-result-object p0
 
-    invoke-static {p0}, Lkotlin/sequences/p;->h(Ljava/util/Iterator;)Lkotlin/sequences/m;
+    invoke-static {p0}, Lcotlin/sequences/p;->h(Ljava/util/Iterator;)Lcotlin/sequences/m;
 
     move-result-object p0
 

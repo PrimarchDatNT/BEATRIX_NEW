@@ -14,7 +14,7 @@
     value = "SMAP\nSoftHairRenderProxy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SoftHairRenderProxy.kt\ncom/commsource/camera/newrender/renderproxy/SoftHairRenderProxy\n*L\n1#1,107:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
     d2 = {
         "Lcom/commsource/camera/newrender/renderproxy/u;",
         "Lcom/commsource/camera/newrender/renderproxy/n;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "x",
         "()V",
         "Lcom/commsource/camera/d1/g/l;",
@@ -105,7 +105,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/u$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/u$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/camera/newrender/renderproxy/u;->l:Lcom/commsource/camera/newrender/renderproxy/u$a;
 

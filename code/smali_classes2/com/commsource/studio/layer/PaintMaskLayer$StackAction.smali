@@ -16,7 +16,7 @@
     name = "StackAction"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
     d2 = {
         "Lcom/commsource/studio/layer/PaintMaskLayer$StackAction;",
         "Lcom/commsource/studio/v;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "i",
         "()V",
         "k",
@@ -179,7 +179,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/layer/PaintMaskLayer$StackAction$redo$1;-><init>(Lcom/commsource/studio/layer/PaintMaskLayer$StackAction;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/BaseLayer;->f0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/BaseLayer;->f0(Lcotlin/jvm/u/a;)V
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -220,7 +220,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/layer/PaintMaskLayer$StackAction$undo$1;-><init>(Lcom/commsource/studio/layer/PaintMaskLayer$StackAction;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/BaseLayer;->f0(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/BaseLayer;->f0(Lcotlin/jvm/u/a;)V
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -25,7 +25,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,7 +38,7 @@
         "com/commsource/repository/child/TextFontRepository$e",
         "Ljava/util/Comparator;",
         "Lcom/commsource/studio/text/TextFontMaterial;",
-        "Lkotlin/Comparator;",
+        "Lcotlin/Comparator;",
         "o1",
         "o2",
         "",
@@ -156,7 +156,7 @@
 
     move-result p2
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->t(II)I
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->t(II)I
 
     move-result p1
 

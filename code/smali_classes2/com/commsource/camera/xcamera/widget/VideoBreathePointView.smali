@@ -14,7 +14,7 @@
     value = "SMAP\nVideoBreathePointView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VideoBreathePointView.kt\ncom/commsource/camera/xcamera/widget/VideoBreathePointView\n*L\n1#1,136:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
     d2 = {
         "Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;",
         "Landroid/view/View;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "f",
         "()V",
         "",
@@ -64,7 +64,7 @@
         "mStrokeWidth",
         "Landroid/text/TextPaint;",
         "L",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "getMProgressPaint",
         "()Landroid/text/TextPaint;",
         "mProgressPaint",
@@ -119,11 +119,11 @@
 # instance fields
 .field private J:I
 
-.field private final K:Lkotlin/w;
+.field private final K:Lcotlin/w;
 
-.field private final L:Lkotlin/w;
+.field private final L:Lcotlin/w;
 
-.field private final M:Lkotlin/w;
+.field private final M:Lcotlin/w;
 
 .field private N:Ljava/util/HashMap;
 
@@ -154,7 +154,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$b;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$b;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->R:Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$b;
 
@@ -169,7 +169,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const/4 v2, 0x0
@@ -184,7 +184,7 @@
 
     move-object v1, p1
 
-    invoke-direct/range {v0 .. v5}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v5}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -199,7 +199,7 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const/4 v3, 0x0
@@ -214,7 +214,7 @@
 
     move-object v2, p2
 
-    invoke-direct/range {v0 .. v5}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/u;)V
+    invoke-direct/range {v0 .. v5}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -229,12 +229,12 @@
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .annotation build Lkotlin/jvm/h;
+    .annotation build Lcotlin/jvm/h;
     .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -264,7 +264,7 @@
 
     const-string p3, "setDuration(1000)"
 
-    invoke-static {p2, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p3, -0x1
 
@@ -280,7 +280,7 @@
     const-string p2, "ValueAnimator.ofFloat(1f\u2026lidate()\n        })\n    }"
 
     .line 6
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->c:Landroid/animation/ValueAnimator;
 
@@ -329,31 +329,31 @@
     .line 11
     sget-object p1, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$mBreathePaint$2;->INSTANCE:Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$mBreathePaint$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->K:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->K:Lcotlin/w;
 
     .line 12
     sget-object p1, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$mProgressPaint$2;->INSTANCE:Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$mProgressPaint$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->L:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->L:Lcotlin/w;
 
     .line 13
     new-instance p1, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$mStrokePaint$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$mStrokePaint$2;-><init>(Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;)V
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->M:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->M:Lcotlin/w;
 
     return-void
 
@@ -365,7 +365,7 @@
     .end array-data
 .end method
 
-.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p5, p4, 0x2
@@ -442,9 +442,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->K:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->K:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -462,9 +462,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->L:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->L:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -482,9 +482,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->M:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->M:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -638,7 +638,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     const/16 v2, 0xff
@@ -707,7 +707,7 @@
 
     invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    sget-object v1, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
+    sget-object v1, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
     new-instance v1, Ljava/util/Locale;
 
@@ -739,7 +739,7 @@
 
     const-string v1, "java.lang.String.format(locale, format, *args)"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -771,7 +771,7 @@
 
     const-string v1, "canvas"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
@@ -808,7 +808,7 @@
 
     if-nez v4, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
@@ -871,7 +871,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     iget-object p2, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->a:Ljava/lang/String;
@@ -931,7 +931,7 @@
 
     if-nez p3, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {p3}, Landroid/text/TextPaint;->descent()F
@@ -944,7 +944,7 @@
 
     if-nez p4, :cond_1
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {p4}, Landroid/text/TextPaint;->ascent()F

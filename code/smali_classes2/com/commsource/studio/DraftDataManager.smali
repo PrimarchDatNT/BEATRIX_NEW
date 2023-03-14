@@ -16,7 +16,7 @@
     value = "SMAP\nDraftDataManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DraftDataManager.kt\ncom/commsource/studio/DraftDataManager\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,461:1\n1819#2,2:462\n1819#2,2:464\n768#2,11:466\n1819#2,2:477\n1819#2:479\n768#2,11:480\n1819#2,2:491\n1820#2:493\n1819#2:494\n768#2,11:495\n1819#2,2:506\n1820#2:508\n768#2,11:509\n1819#2,2:520\n1819#2:522\n768#2,11:523\n1819#2,2:534\n1820#2:536\n1819#2:537\n768#2,11:538\n1819#2,2:549\n1820#2:551\n1819#2,2:552\n*E\n*S KotlinDebug\n*F\n+ 1 DraftDataManager.kt\ncom/commsource/studio/DraftDataManager\n*L\n139#1,2:462\n191#1,2:464\n295#1,11:466\n295#1,2:477\n301#1:479\n301#1,11:480\n301#1,2:491\n301#1:493\n309#1:494\n309#1,11:495\n309#1,2:506\n309#1:508\n319#1,11:509\n319#1,2:520\n325#1:522\n325#1,11:523\n325#1,2:534\n325#1:536\n333#1:537\n333#1,11:538\n333#1,2:549\n333#1:551\n344#1,2:552\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "i",
         "()Ljava/lang/String;",
         "data",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "q",
         "(Ljava/lang/String;)V",
         "Lcom/commsource/studio/DraftDataManager$DraftData;",
@@ -56,7 +56,7 @@
         "Lcom/commsource/studio/bean/PictureLayerInfo;",
         "picLayerInfo",
         "Ljava/util/HashMap;",
-        "Lkotlin/collections/HashMap;",
+        "Lcotlin/collections/HashMap;",
         "g",
         "(Lcom/commsource/studio/bean/PictureLayerInfo;)Ljava/util/HashMap;",
         "j",
@@ -147,7 +147,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/studio/DraftDataManager$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/studio/DraftDataManager$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/DraftDataManager;->i:Lcom/commsource/studio/DraftDataManager$a;
 
@@ -894,7 +894,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -905,7 +905,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
@@ -968,7 +968,7 @@
     const-string v2, "dirName"
 
     .line 4
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -994,7 +994,7 @@
     move-result-object v1
 
     .line 2
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/google/gson/JsonElement;->getAsInt()I
 
@@ -1085,7 +1085,7 @@
     invoke-virtual {v2, v1}, Landroid/graphics/Matrix;->setValues([F)V
 
     .line 7
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
@@ -1153,7 +1153,7 @@
 
     const-string v3, "JsonParser().parse(this.serializeString)"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/google/gson/JsonElement;->getAsJsonArray()Lcom/google/gson/JsonArray;
 
@@ -1161,7 +1161,7 @@
 
     const-string v3, "JsonParser().parse(this.\u2026ializeString).asJsonArray"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 13
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -1185,7 +1185,7 @@
     const-string v4, "it"
 
     .line 14
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Lcom/google/gson/JsonElement;->getAsJsonObject()Lcom/google/gson/JsonObject;
 
@@ -1199,7 +1199,7 @@
 
     const-string v5, "it.asJsonObject.get(\"first\")"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v4}, Lcom/commsource/studio/DraftDataManager;->k(Lcom/google/gson/JsonElement;)Lcom/commsource/studio/bean/BaseLayerInfo;
 
@@ -1282,9 +1282,9 @@
 
     move-result-object v5
 
-    new-instance v6, Lkotlin/Pair;
+    new-instance v6, Lcotlin/Pair;
 
-    invoke-direct {v6, v4, v3}, Lkotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v6, v4, v3}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     invoke-virtual {v5, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -1294,7 +1294,7 @@
     const-string v1, "GsonUtils.getInstance().\u2026  }\n                    }"
 
     .line 24
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
@@ -1371,7 +1371,7 @@
     const-string v1, "GsonUtils.getInstance()\n\u2026  }\n                    }"
 
     .line 31
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
@@ -1420,7 +1420,7 @@
     const-string v1, "GsonUtils.getInstance().\u2026at)\n                    }"
 
     .line 35
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
@@ -1467,7 +1467,7 @@
     invoke-virtual {v2, v1}, Landroid/graphics/Matrix;->setValues([F)V
 
     .line 39
-    invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
@@ -1516,7 +1516,7 @@
     const-string v1, "(GsonUtils.getInstance()\u2026at)\n                    }"
 
     .line 43
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
@@ -1540,7 +1540,7 @@
 
     const-string v1, "GsonUtils.getInstance().\u2026 BgLayerInfo::class.java)"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
@@ -1572,7 +1572,7 @@
 
     const-string v3, "element.get(\"layerInfos\")"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/google/gson/JsonElement;->getAsJsonArray()Lcom/google/gson/JsonArray;
 
@@ -1600,7 +1600,7 @@
 
     const-string v4, "(element.get(\"extraInfo\"\u2026as JsonObject).entrySet()"
 
-    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -1631,7 +1631,7 @@
 
     const-string v6, "it.value"
 
-    invoke-static {v4, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v4, Lcom/google/gson/JsonElement;
 
@@ -1661,7 +1661,7 @@
 
     const-string v6, "array[index]"
 
-    invoke-static {v5, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v5}, Lcom/commsource/studio/DraftDataManager;->k(Lcom/google/gson/JsonElement;)Lcom/commsource/studio/bean/BaseLayerInfo;
 
@@ -1689,11 +1689,11 @@
 
     .line 12
     :cond_2
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type com.google.gson.JsonObject"
 
-    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2357,7 +2357,7 @@
     if-eqz v2, :cond_4
 
     .line 5
-    sget-object v4, Lkotlin/text/d;->a:Ljava/nio/charset/Charset;
+    sget-object v4, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     if-eqz p1, :cond_3
 
@@ -2367,7 +2367,7 @@
 
     const-string v4, "(this as java.lang.String).getBytes(charset)"
 
-    invoke-static {p1, v4}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2, p1}, Ljava/io/OutputStream;->write([B)V
 
@@ -2500,13 +2500,13 @@
 
     .line 3
     :try_start_1
-    invoke-static {v1}, Lkotlin/io/a;->p(Ljava/io/InputStream;)[B
+    invoke-static {v1}, Lcotlin/io/a;->p(Ljava/io/InputStream;)[B
 
     move-result-object v5
 
     if-eqz v5, :cond_0
 
-    sget-object v6, Lkotlin/text/d;->a:Ljava/nio/charset/Charset;
+    sget-object v6, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     new-instance v7, Ljava/lang/String;
 
@@ -2527,7 +2527,7 @@
 
     :goto_0
     :try_start_2
-    sget-object v4, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v4, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
@@ -2601,7 +2601,7 @@
 
     const-string v3, "JsonParser().parse(this)"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/google/gson/JsonElement;->getAsJsonObject()Lcom/google/gson/JsonObject;
 
@@ -2616,7 +2616,7 @@
 
     const-string v4, "this.get(\"curStep\")"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Lcom/google/gson/JsonElement;->getAsJsonObject()Lcom/google/gson/JsonObject;
 
@@ -2624,7 +2624,7 @@
 
     const-string v4, "this.get(\"curStep\").asJsonObject"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v3}, Lcom/commsource/studio/DraftDataManager;->l(Lcom/google/gson/JsonObject;)Lcom/commsource/studio/bean/Step;
 
@@ -2644,7 +2644,7 @@
 
     const-string v6, "this.get(\"bkSteps\")"
 
-    invoke-static {v5, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/google/gson/JsonElement;->getAsJsonArray()Lcom/google/gson/JsonArray;
 
@@ -2667,7 +2667,7 @@
 
     const-string v9, "bkArray[index]"
 
-    invoke-static {v8, v9}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v9}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v8}, Lcom/google/gson/JsonElement;->getAsJsonObject()Lcom/google/gson/JsonObject;
 
@@ -2675,7 +2675,7 @@
 
     const-string v9, "bkArray[index].asJsonObject"
 
-    invoke-static {v8, v9}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v9}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v8}, Lcom/commsource/studio/DraftDataManager;->l(Lcom/google/gson/JsonObject;)Lcom/commsource/studio/bean/Step;
 
@@ -2702,7 +2702,7 @@
 
     const-string v6, "this.get(\"fwSteps\")"
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/google/gson/JsonElement;->getAsJsonArray()Lcom/google/gson/JsonArray;
 
@@ -2723,7 +2723,7 @@
 
     const-string v8, "fwArray[index]"
 
-    invoke-static {v7, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v7}, Lcom/google/gson/JsonElement;->getAsJsonObject()Lcom/google/gson/JsonObject;
 
@@ -2731,7 +2731,7 @@
 
     const-string v8, "fwArray[index].asJsonObject"
 
-    invoke-static {v7, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v7}, Lcom/commsource/studio/DraftDataManager;->l(Lcom/google/gson/JsonObject;)Lcom/commsource/studio/bean/Step;
 
@@ -2841,7 +2841,7 @@
 
     const-string v3, "this.looper"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v2, p0, v1}, Lcom/commsource/studio/DraftDataManager$b;-><init>(Lcom/commsource/studio/DraftDataManager;Landroid/os/Looper;)V
 
@@ -2896,7 +2896,7 @@
 
     const-string v1, "data"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/DraftDataManager;->b:Ljava/lang/Object;

@@ -1,14 +1,14 @@
-.class final Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;
-.super Lkotlin/coroutines/jvm/internal/RestrictedSuspendLambda;
+.class final Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;
+.super Lcotlin/coroutines/jvm/internal/RestrictedSuspendLambda;
 .source "_Sequences.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/sequences/SequencesKt___SequencesKt;->o2(Lkotlin/sequences/m;Ljava/lang/Object;Lkotlin/jvm/u/q;)Lkotlin/sequences/m;
+    value = Lcotlin/sequences/SequencesKt___SequencesKt;->o2(Lcotlin/sequences/m;Ljava/lang/Object;Lcotlin/jvm/u/q;)Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/coroutines/jvm/internal/RestrictedSuspendLambda;",
-        "Lkotlin/jvm/u/p<",
-        "Lkotlin/sequences/o<",
+        "Lcotlin/coroutines/jvm/internal/RestrictedSuspendLambda;",
+        "Lcotlin/jvm/u/p<",
+        "Lcotlin/sequences/o<",
         "-TR;>;",
-        "Lkotlin/coroutines/c<",
+        "Lcotlin/coroutines/c<",
         "-",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;",
         "Ljava/lang/Object;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -43,8 +43,8 @@
     d2 = {
         "T",
         "R",
-        "Lkotlin/sequences/o;",
-        "Lkotlin/t1;",
+        "Lcotlin/sequences/o;",
+        "Lcotlin/t1;",
         "invoke",
         "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
         "<anonymous>"
@@ -57,7 +57,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlin.sequences.SequencesKt___SequencesKt$runningFoldIndexed$1"
     f = "_Sequences.kt"
     i = {
@@ -89,9 +89,9 @@
 # instance fields
 .field final synthetic $initial:Ljava/lang/Object;
 
-.field final synthetic $operation:Lkotlin/jvm/u/q;
+.field final synthetic $operation:Lcotlin/jvm/u/q;
 
-.field final synthetic $this_runningFoldIndexed:Lkotlin/sequences/m;
+.field final synthetic $this_runningFoldIndexed:Lcotlin/sequences/m;
 
 .field I$0:I
 
@@ -105,31 +105,31 @@
 
 
 # direct methods
-.method constructor <init>(Lkotlin/sequences/m;Ljava/lang/Object;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)V
+.method constructor <init>(Lcotlin/sequences/m;Ljava/lang/Object;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$this_runningFoldIndexed:Lkotlin/sequences/m;
+    iput-object p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$this_runningFoldIndexed:Lcotlin/sequences/m;
 
-    iput-object p2, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$initial:Ljava/lang/Object;
+    iput-object p2, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$initial:Ljava/lang/Object;
 
-    iput-object p3, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$operation:Lkotlin/jvm/u/q;
+    iput-object p3, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$operation:Lcotlin/jvm/u/q;
 
     const/4 p1, 0x2
 
-    invoke-direct {p0, p1, p4}, Lkotlin/coroutines/jvm/internal/RestrictedSuspendLambda;-><init>(ILkotlin/coroutines/c;)V
+    invoke-direct {p0, p1, p4}, Lcotlin/coroutines/jvm/internal/RestrictedSuspendLambda;-><init>(ILcotlin/coroutines/c;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+.method public final create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 4
     .param p1    # Ljava/lang/Object;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -137,10 +137,10 @@
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "*>;)",
-            "Lkotlin/coroutines/c<",
-            "Lkotlin/t1;",
+            "Lcotlin/coroutines/c<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -150,19 +150,19 @@
 
     const-string v0, "completion"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance v0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;
+    new-instance v0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;
 
-    iget-object v1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$this_runningFoldIndexed:Lkotlin/sequences/m;
+    iget-object v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$this_runningFoldIndexed:Lcotlin/sequences/m;
 
-    iget-object v2, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$initial:Ljava/lang/Object;
+    iget-object v2, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$initial:Ljava/lang/Object;
 
-    iget-object v3, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$operation:Lkotlin/jvm/u/q;
+    iget-object v3, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$operation:Lcotlin/jvm/u/q;
 
-    invoke-direct {v0, v1, v2, v3, p2}, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;-><init>(Lkotlin/sequences/m;Ljava/lang/Object;Lkotlin/jvm/u/q;Lkotlin/coroutines/c;)V
+    invoke-direct {v0, v1, v2, v3, p2}, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;-><init>(Lcotlin/sequences/m;Ljava/lang/Object;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)V
 
-    iput-object p1, v0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$0:Ljava/lang/Object;
+    iput-object p1, v0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$0:Ljava/lang/Object;
 
     return-object v0
 .end method
@@ -170,17 +170,17 @@
 .method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    check-cast p2, Lkotlin/coroutines/c;
+    check-cast p2, Lcotlin/coroutines/c;
 
-    invoke-virtual {p0, p1, p2}, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-virtual {p0, p1, p2}, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;
+    check-cast p1, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;
 
-    sget-object p2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-virtual {p1, p2}, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -196,12 +196,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 1
-    iget v1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->label:I
+    iget v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->label:I
 
     const/4 v2, 0x2
 
@@ -213,19 +213,19 @@
 
     if-ne v1, v2, :cond_0
 
-    iget v1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->I$0:I
+    iget v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->I$0:I
 
-    iget-object v3, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$2:Ljava/lang/Object;
+    iget-object v3, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$2:Ljava/lang/Object;
 
     check-cast v3, Ljava/util/Iterator;
 
-    iget-object v4, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$1:Ljava/lang/Object;
+    iget-object v4, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$1:Ljava/lang/Object;
 
-    iget-object v5, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$0:Ljava/lang/Object;
+    iget-object v5, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$0:Ljava/lang/Object;
 
-    check-cast v5, Lkotlin/sequences/o;
+    check-cast v5, Lcotlin/sequences/o;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     move p1, v1
 
@@ -245,31 +245,31 @@
 
     .line 3
     :cond_1
-    iget-object v1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$0:Ljava/lang/Object;
+    iget-object v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$0:Ljava/lang/Object;
 
-    check-cast v1, Lkotlin/sequences/o;
+    check-cast v1, Lcotlin/sequences/o;
 
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_0
 
     :cond_2
-    invoke-static {p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    iget-object p1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$0:Ljava/lang/Object;
+    iget-object p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$0:Ljava/lang/Object;
 
     move-object v1, p1
 
-    check-cast v1, Lkotlin/sequences/o;
+    check-cast v1, Lcotlin/sequences/o;
 
     .line 4
-    iget-object p1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$initial:Ljava/lang/Object;
+    iget-object p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$initial:Ljava/lang/Object;
 
-    iput-object v1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$0:Ljava/lang/Object;
+    iput-object v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$0:Ljava/lang/Object;
 
-    iput v3, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->label:I
+    iput v3, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->label:I
 
-    invoke-virtual {v1, p1, p0}, Lkotlin/sequences/o;->b(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, p0}, Lcotlin/sequences/o;->b(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -282,12 +282,12 @@
     const/4 p1, 0x0
 
     .line 5
-    iget-object v3, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$initial:Ljava/lang/Object;
+    iget-object v3, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$initial:Ljava/lang/Object;
 
     .line 6
-    iget-object v4, p0, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$this_runningFoldIndexed:Lkotlin/sequences/m;
+    iget-object v4, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$this_runningFoldIndexed:Lcotlin/sequences/m;
 
-    invoke-interface {v4}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v4}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
 
@@ -312,35 +312,35 @@
     move-result-object v6
 
     .line 7
-    iget-object v7, v4, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$operation:Lkotlin/jvm/u/q;
+    iget-object v7, v4, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->$operation:Lcotlin/jvm/u/q;
 
     add-int/lit8 v8, p1, 0x1
 
     if-gez p1, :cond_4
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_4
-    invoke-static {p1}, Lkotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
+    invoke-static {p1}, Lcotlin/coroutines/jvm/internal/a;->f(I)Ljava/lang/Integer;
 
     move-result-object p1
 
-    invoke-interface {v7, p1, v1, v6}, Lkotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v7, p1, v1, v6}, Lcotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     .line 8
-    iput-object v5, v4, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$0:Ljava/lang/Object;
+    iput-object v5, v4, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$0:Ljava/lang/Object;
 
-    iput-object p1, v4, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$1:Ljava/lang/Object;
+    iput-object p1, v4, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$1:Ljava/lang/Object;
 
-    iput-object v3, v4, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$2:Ljava/lang/Object;
+    iput-object v3, v4, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->L$2:Ljava/lang/Object;
 
-    iput v8, v4, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->I$0:I
+    iput v8, v4, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->I$0:I
 
-    iput v2, v4, Lkotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->label:I
+    iput v2, v4, Lcotlin/sequences/SequencesKt___SequencesKt$runningFoldIndexed$1;->label:I
 
-    invoke-virtual {v5, p1, v4}, Lkotlin/sequences/o;->b(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-virtual {v5, p1, v4}, Lcotlin/sequences/o;->b(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -357,7 +357,7 @@
 
     .line 9
     :cond_6
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 .end method

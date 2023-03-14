@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -68,11 +68,11 @@
 
     const-string v1, "activity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "routerEntity"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "photo_type"
 
@@ -95,7 +95,7 @@
     const-string v5, "photo_user"
 
     .line 3
-    invoke-static {v5, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v5, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v5
 
@@ -104,7 +104,7 @@
     if-eqz v5, :cond_1
 
     .line 4
-    invoke-static {v2, v1, v4}, Lkotlin/text/m;->I1(Ljava/lang/String;Ljava/lang/String;Z)Z
+    invoke-static {v2, v1, v4}, Lcotlin/text/m;->I1(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     move-result v1
 
@@ -138,7 +138,7 @@
 
     if-nez v3, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-virtual {v5, v3}, Lcom/commsource/beautyplus/router/i;->a(Ljava/lang/String;)Ljava/lang/String;

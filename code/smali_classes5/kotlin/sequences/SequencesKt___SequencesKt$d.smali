@@ -1,14 +1,14 @@
-.class public final Lkotlin/sequences/SequencesKt___SequencesKt$d;
+.class public final Lcotlin/sequences/SequencesKt___SequencesKt$d;
 .super Ljava/lang/Object;
 .source "_Sequences.kt"
 
 # interfaces
-.implements Lkotlin/sequences/m;
+.implements Lcotlin/sequences/m;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/sequences/SequencesKt___SequencesKt;->D2(Lkotlin/sequences/m;Ljava/util/Comparator;)Lkotlin/sequences/m;
+    value = Lcotlin/sequences/SequencesKt___SequencesKt;->D2(Lcotlin/sequences/m;Ljava/util/Comparator;)Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,12 +19,12 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/sequences/m<",
+        "Lcotlin/sequences/m<",
         "TT;>;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,7 +35,7 @@
     }
     d2 = {
         "kotlin/sequences/SequencesKt___SequencesKt$d",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "",
         "iterator",
         "()Ljava/util/Iterator;",
@@ -51,18 +51,18 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/sequences/m;
+.field final synthetic a:Lcotlin/sequences/m;
 
 .field final synthetic b:Ljava/util/Comparator;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/sequences/m;Ljava/util/Comparator;)V
+.method constructor <init>(Lcotlin/sequences/m;Ljava/util/Comparator;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "+TT;>;",
             "Ljava/util/Comparator;",
             ")V"
@@ -70,9 +70,9 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$d;->a:Lkotlin/sequences/m;
+    iput-object p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$d;->a:Lcotlin/sequences/m;
 
-    iput-object p2, p0, Lkotlin/sequences/SequencesKt___SequencesKt$d;->b:Ljava/util/Comparator;
+    iput-object p2, p0, Lcotlin/sequences/SequencesKt___SequencesKt$d;->b:Ljava/util/Comparator;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -95,16 +95,16 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/sequences/SequencesKt___SequencesKt$d;->a:Lkotlin/sequences/m;
+    iget-object v0, p0, Lcotlin/sequences/SequencesKt___SequencesKt$d;->a:Lcotlin/sequences/m;
 
-    invoke-static {v0}, Lkotlin/sequences/p;->W2(Lkotlin/sequences/m;)Ljava/util/List;
+    invoke-static {v0}, Lcotlin/sequences/p;->W2(Lcotlin/sequences/m;)Ljava/util/List;
 
     move-result-object v0
 
     .line 2
-    iget-object v1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$d;->b:Ljava/util/Comparator;
+    iget-object v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$d;->b:Ljava/util/Comparator;
 
-    invoke-static {v0, v1}, Lkotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
+    invoke-static {v0, v1}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
     .line 3
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;

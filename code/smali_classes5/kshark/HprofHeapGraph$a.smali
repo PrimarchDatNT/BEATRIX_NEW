@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -30,7 +30,7 @@
         "Lkshark/x;",
         "proguardMapping",
         "",
-        "Lkotlin/reflect/d;",
+        "Lcotlin/reflect/d;",
         "Lkshark/d;",
         "indexedGcRootTypes",
         "Lkshark/i;",
@@ -59,7 +59,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -86,14 +86,14 @@
 
     const/16 p3, 0x9
 
-    new-array p3, p3, [Lkotlin/reflect/d;
+    new-array p3, p3, [Lcotlin/reflect/d;
 
     const/4 p4, 0x0
 
     .line 1
     const-class v0, Lkshark/d$e;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v0
 
@@ -104,7 +104,7 @@
     .line 2
     const-class v0, Lkshark/d$d;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v0
 
@@ -113,7 +113,7 @@
     .line 3
     const-class p4, Lkshark/d$f;
 
-    invoke-static {p4}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {p4}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object p4
 
@@ -126,7 +126,7 @@
     .line 4
     const-class v0, Lkshark/d$h;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v0
 
@@ -135,7 +135,7 @@
     .line 5
     const-class p4, Lkshark/d$i;
 
-    invoke-static {p4}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {p4}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object p4
 
@@ -146,7 +146,7 @@
     .line 6
     const-class p5, Lkshark/d$k;
 
-    invoke-static {p5}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {p5}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object p5
 
@@ -157,7 +157,7 @@
     .line 7
     const-class p5, Lkshark/d$l;
 
-    invoke-static {p5}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {p5}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object p5
 
@@ -168,7 +168,7 @@
     .line 8
     const-class p5, Lkshark/d$m;
 
-    invoke-static {p5}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {p5}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object p5
 
@@ -179,14 +179,14 @@
     .line 9
     const-class p5, Lkshark/d$g;
 
-    invoke-static {p5}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {p5}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object p5
 
     aput-object p5, p3, p4
 
     .line 10
-    invoke-static {p3}, Lkotlin/collections/b1;->u([Ljava/lang/Object;)Ljava/util/Set;
+    invoke-static {p3}, Lcotlin/collections/b1;->u([Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p3
 
@@ -221,7 +221,7 @@
             "Lkshark/x;",
             "Ljava/util/Set<",
             "+",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "+",
             "Lkshark/d;",
             ">;>;)",
@@ -234,11 +234,11 @@
 
     const-string v0, "hprof"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "indexedGcRootTypes"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v0, Lkshark/internal/HprofInMemoryIndex;->l:Lkshark/internal/HprofInMemoryIndex$b;

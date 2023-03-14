@@ -1,10 +1,10 @@
-.class Lkotlin/text/o;
-.super Lkotlin/text/StringsKt__IndentKt;
+.class Lcotlin/text/o;
+.super Lcotlin/text/StringsKt__IndentKt;
 .source "RegexExtensionsJVM.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,9 +15,9 @@
     }
     d2 = {
         "Ljava/util/regex/Pattern;",
-        "Lkotlin/text/Regex;",
+        "Lcotlin/text/Regex;",
         "s",
-        "(Ljava/util/regex/Pattern;)Lkotlin/text/Regex;",
+        "(Ljava/util/regex/Pattern;)Lcotlin/text/Regex;",
         "kotlin-stdlib"
     }
     k = 0x5
@@ -34,20 +34,20 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/text/StringsKt__IndentKt;-><init>()V
+    invoke-direct {p0}, Lcotlin/text/StringsKt__IndentKt;-><init>()V
 
     return-void
 .end method
 
-.method private static final s(Ljava/util/regex/Pattern;)Lkotlin/text/Regex;
+.method private static final s(Ljava/util/regex/Pattern;)Lcotlin/text/Regex;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlin/text/Regex;
+    new-instance v0, Lcotlin/text/Regex;
 
-    invoke-direct {v0, p0}, Lkotlin/text/Regex;-><init>(Ljava/util/regex/Pattern;)V
+    invoke-direct {v0, p0}, Lcotlin/text/Regex;-><init>(Ljava/util/regex/Pattern;)V
 
     return-object v0
 .end method

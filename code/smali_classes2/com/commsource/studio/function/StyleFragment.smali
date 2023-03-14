@@ -16,7 +16,7 @@
     value = "SMAP\nStyleFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StyleFragment.kt\ncom/commsource/studio/function/StyleFragment\n+ 2 _Maps.kt\nkotlin/collections/MapsKt___MapsKt\n+ 3 View.kt\nandroidx/core/view/ViewKt\n*L\n1#1,649:1\n181#2,2:650\n293#3:652\n*E\n*S KotlinDebug\n*F\n+ 1 StyleFragment.kt\ncom/commsource/studio/function/StyleFragment\n*L\n336#1,2:650\n641#1:652\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,14 +29,14 @@
         "Lcom/commsource/studio/function/StyleFragment;",
         "Lcom/commsource/studio/function/BaseSubFragment;",
         "Lcom/commsource/studio/effect/w;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "i2",
         "()V",
         "Lcom/commsource/studio/bean/f;",
         "style",
         "Ljava/util/ArrayList;",
         "Lcom/commsource/studio/component/SeekComponent$b;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "X1",
         "(Lcom/commsource/studio/bean/f;)Ljava/util/ArrayList;",
         "",
@@ -98,7 +98,7 @@
         "rvGroupAdapter",
         "Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;",
         "m0",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "a2",
         "()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;",
         "childLayoutManager",
@@ -174,11 +174,11 @@
 
 .field private l0:I
 
-.field private final m0:Lkotlin/w;
+.field private final m0:Lcotlin/w;
 
-.field private final n0:Lkotlin/w;
+.field private final n0:Lcotlin/w;
 
-.field private final o0:Lkotlin/w;
+.field private final o0:Lcotlin/w;
 
 .field private p0:Ljava/util/HashMap;
 
@@ -218,31 +218,31 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/StyleFragment$childLayoutManager$2;-><init>(Lcom/commsource/studio/function/StyleFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/StyleFragment;->m0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/StyleFragment;->m0:Lcotlin/w;
 
     .line 6
     new-instance v0, Lcom/commsource/studio/function/StyleFragment$groupLayoutManager$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/StyleFragment$groupLayoutManager$2;-><init>(Lcom/commsource/studio/function/StyleFragment;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/StyleFragment;->n0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/StyleFragment;->n0:Lcotlin/w;
 
     .line 7
     sget-object v0, Lcom/commsource/studio/function/StyleFragment$styleItemDecoration$2;->INSTANCE:Lcom/commsource/studio/function/StyleFragment$styleItemDecoration$2;
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/studio/function/StyleFragment;->o0:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/studio/function/StyleFragment;->o0:Lcotlin/w;
 
     return-void
 .end method
@@ -323,7 +323,7 @@
 
     const-string v1, "mViewBinding"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -345,7 +345,7 @@
 
     const-string v1, "mViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -382,7 +382,7 @@
 
     const-string v1, "rvChildAdapter"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -404,7 +404,7 @@
 
     const-string v1, "rvGroupAdapter"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -748,21 +748,21 @@
     .line 11
     sget-object v4, Lcom/commsource/studio/function/StyleFragment$createSeekWrappers$1$1$1;->INSTANCE:Lcom/commsource/studio/function/StyleFragment$createSeekWrappers$1$1$1;
 
-    invoke-virtual {v3, v4}, Lcom/commsource/studio/component/SeekComponent$b;->o(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v3, v4}, Lcom/commsource/studio/component/SeekComponent$b;->o(Lcotlin/jvm/u/l;)V
 
     .line 12
     new-instance v4, Lcom/commsource/studio/function/StyleFragment$createSeekWrappers$$inlined$forEach$lambda$1;
 
     invoke-direct {v4, v2, p0, v1}, Lcom/commsource/studio/function/StyleFragment$createSeekWrappers$$inlined$forEach$lambda$1;-><init>(Ljava/util/Map$Entry;Lcom/commsource/studio/function/StyleFragment;Ljava/util/ArrayList;)V
 
-    invoke-virtual {v3, v4}, Lcom/commsource/studio/component/SeekComponent$b;->n(Lkotlin/jvm/u/p;)V
+    invoke-virtual {v3, v4}, Lcom/commsource/studio/component/SeekComponent$b;->n(Lcotlin/jvm/u/p;)V
 
     .line 13
     new-instance v4, Lcom/commsource/studio/function/StyleFragment$createSeekWrappers$$inlined$forEach$lambda$2;
 
     invoke-direct {v4, v2, p0, v1}, Lcom/commsource/studio/function/StyleFragment$createSeekWrappers$$inlined$forEach$lambda$2;-><init>(Ljava/util/Map$Entry;Lcom/commsource/studio/function/StyleFragment;Ljava/util/ArrayList;)V
 
-    invoke-virtual {v3, v4}, Lcom/commsource/studio/component/SeekComponent$b;->p(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v3, v4}, Lcom/commsource/studio/component/SeekComponent$b;->p(Lcotlin/jvm/u/l;)V
 
     .line 14
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -830,9 +830,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->m0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->m0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -850,9 +850,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->n0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->n0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -870,9 +870,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->o0:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->o0:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -897,14 +897,14 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ec;->c:Landroid/widget/FrameLayout;
 
     const-string v3, "mViewBinding.flAnimation"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {v1}, Landroid/view/View;->getVisibility()I
@@ -936,12 +936,12 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object v4, v1, Lcom/commsource/beautyplus/f0/ec;->c:Landroid/widget/FrameLayout;
 
-    invoke-static {v4, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v5, 0x0
 
@@ -953,21 +953,21 @@
 
     const/4 v10, 0x0
 
-    invoke-static/range {v4 .. v10}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v4 .. v10}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     if-nez v1, :cond_4
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ec;->f:Lcom/airbnb/lottie/LottieAnimationView;
 
     const-string v3, "mViewBinding.lavPrism"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/airbnb/lottie/LottieAnimationView;->v()Z
 
@@ -980,7 +980,7 @@
 
     if-nez v1, :cond_5
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ec;->f:Lcom/airbnb/lottie/LottieAnimationView;
@@ -1008,7 +1008,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/studio/function/StyleViewModel;->I()Z
@@ -1022,7 +1022,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     const/4 v3, 0x0
@@ -1034,7 +1034,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v1}, Lcom/commsource/studio/function/StyleViewModel;->z()Lcom/commsource/camera/xcamera/cover/e;
@@ -1056,7 +1056,7 @@
 
     const-string v3, "1STY00000000"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1077,7 +1077,7 @@
 
     invoke-direct {v4, p0}, Lcom/commsource/studio/function/StyleFragment$hideTempBitmapOnProcessEnd$1;-><init>(Lcom/commsource/studio/function/StyleFragment;)V
 
-    invoke-virtual {v2, v1, v3, v4}, Lcom/commsource/studio/processor/StyleProcessor;->B0(Lcom/commsource/studio/bean/f;ZLkotlin/jvm/u/a;)V
+    invoke-virtual {v2, v1, v3, v4}, Lcom/commsource/studio/processor/StyleProcessor;->B0(Lcom/commsource/studio/bean/f;ZLcotlin/jvm/u/a;)V
 
     .line 6
     :cond_5
@@ -1100,14 +1100,14 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ec;->p:Lcom/commsource/studio/component/PreviewComponent;
 
     const-string v3, "mViewBinding.preview"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
@@ -1116,14 +1116,14 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ec;->b:Lcom/commsource/studio/component/ContrastComponent;
 
     const-string v3, "mViewBinding.contrast"
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
@@ -1132,7 +1132,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ec;->L:Landroidx/recyclerview/widget/RecyclerView;
@@ -1162,7 +1162,7 @@
 
     const-string v4, "rvGroupAdapter"
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     const-class v4, Lcom/commsource/studio/bean/g;
@@ -1185,7 +1185,7 @@
 
     if-nez v1, :cond_4
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ec;->K:Landroidx/recyclerview/widget/RecyclerView;
@@ -1215,7 +1215,7 @@
 
     const-string v4, "rvChildAdapter"
 
-    invoke-static {v4}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v4}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_5
     const-class v4, Lcom/commsource/studio/bean/f;
@@ -1238,7 +1238,7 @@
 
     if-nez v1, :cond_6
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_6
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ec;->K:Landroidx/recyclerview/widget/RecyclerView;
@@ -1254,7 +1254,7 @@
 
     if-nez v1, :cond_7
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_7
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ec;->M:Lcom/commsource/studio/component/SeekComponent;
@@ -1263,14 +1263,14 @@
 
     invoke-direct {v3, p0}, Lcom/commsource/studio/function/StyleFragment$initUI$4;-><init>(Lcom/commsource/studio/function/StyleFragment;)V
 
-    invoke-virtual {v1, v3}, Lcom/commsource/studio/component/SeekComponent;->setOnTransitionYChange(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v3}, Lcom/commsource/studio/component/SeekComponent;->setOnTransitionYChange(Lcotlin/jvm/u/l;)V
 
     .line 15
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
     if-nez v1, :cond_8
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_8
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ec;->M:Lcom/commsource/studio/component/SeekComponent;
@@ -1279,7 +1279,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/StyleFragment$initUI$5;-><init>(Lcom/commsource/studio/function/StyleFragment;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/component/SeekComponent;->setOnTargetTransitionYChange(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/component/SeekComponent;->setOnTargetTransitionYChange(Lcotlin/jvm/u/l;)V
 
     .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1297,7 +1297,7 @@
     const-string v1, "1STY00000022"
 
     .line 1
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1305,7 +1305,7 @@
 
     const-string v1, "1STY00000023"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1313,7 +1313,7 @@
 
     const-string v1, "1STY00000024"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1321,7 +1321,7 @@
 
     const-string v1, "1STY00000025"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1329,7 +1329,7 @@
 
     const-string v1, "1STY00000026"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1337,7 +1337,7 @@
 
     const-string v1, "1STY00000027"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1345,7 +1345,7 @@
 
     const-string v1, "1STY00000028"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1353,7 +1353,7 @@
 
     const-string v1, "1STY00000030"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1361,7 +1361,7 @@
 
     const-string v1, "1STY00000031"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1369,7 +1369,7 @@
 
     const-string v1, "1STY00000032"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -1415,12 +1415,12 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ec;->c:Landroid/widget/FrameLayout;
 
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
@@ -1440,12 +1440,12 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v4, v1, Lcom/commsource/beautyplus/f0/ec;->c:Landroid/widget/FrameLayout;
 
-    invoke-static {v4, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v5, 0x0
 
@@ -1461,7 +1461,7 @@
 
     const/4 v11, 0x0
 
-    invoke-static/range {v4 .. v11}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v4 .. v11}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1496,7 +1496,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/studio/function/StyleViewModel;->C()Landroid/graphics/Bitmap;
@@ -1512,14 +1512,14 @@
 
     if-nez v4, :cond_1
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/ec;->O:Landroid/widget/FrameLayout;
 
     const-string v6, "mViewBinding.transitionContainer"
 
-    invoke-static {v4, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v4}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
@@ -1528,7 +1528,7 @@
 
     if-nez v4, :cond_2
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/ec;->N:Landroid/widget/ImageView;
@@ -1540,14 +1540,14 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v5}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v5}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ec;->N:Landroid/widget/ImageView;
 
     const-string v4, "mViewBinding.tempTranslate"
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v4, Landroid/graphics/Matrix;
 
@@ -1595,7 +1595,7 @@
 
     if-nez v1, :cond_4
 
-    invoke-static {v3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_4
     invoke-virtual {v1, v2}, Lcom/commsource/studio/function/StyleViewModel;->O(Z)V
@@ -1621,7 +1621,7 @@
 
     const-string v2, "rvChildAdapter"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/widget/h1/e;->e()Ljava/lang/Object;
@@ -1691,7 +1691,7 @@
 
     move v4, p3
 
-    invoke-static/range {v2 .. v7}, Lcom/commsource/studio/processor/StyleProcessor;->C0(Lcom/commsource/studio/processor/StyleProcessor;Lcom/commsource/studio/bean/f;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v7}, Lcom/commsource/studio/processor/StyleProcessor;->C0(Lcom/commsource/studio/processor/StyleProcessor;Lcom/commsource/studio/bean/f;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     .line 6
     :cond_4
@@ -1769,7 +1769,7 @@
     if-ne v2, v3, :cond_3
 
     .line 6
-    invoke-static {p2, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -1782,7 +1782,7 @@
 
     .line 8
     :cond_2
-    invoke-static {p2, v4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -1810,7 +1810,7 @@
 
     const-string v2, "1STY00000021"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -1819,7 +1819,7 @@
     const-string p1, "t_style_shift"
 
     .line 12
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -1834,7 +1834,7 @@
     const-string p1, "t_blur"
 
     .line 14
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -1849,7 +1849,7 @@
     const-string p1, "beauty_main_dispersion"
 
     .line 16
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -1862,7 +1862,7 @@
 
     .line 18
     :cond_6
-    invoke-static {p2, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -1875,7 +1875,7 @@
 
     .line 20
     :cond_7
-    invoke-static {p2, v4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -1903,7 +1903,7 @@
 
     const-string v3, "1STY00000012"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1912,7 +1912,7 @@
     const-string p1, "beauty_main_aiming_size"
 
     .line 24
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -1940,14 +1940,14 @@
 
     const-string v3, "1STY00000018"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_c
 
     .line 29
-    invoke-static {p2, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -1962,7 +1962,7 @@
     const-string p1, "t_texture"
 
     .line 31
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -1986,7 +1986,7 @@
     if-eqz p1, :cond_f
 
     .line 34
-    invoke-static {p2, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -2001,7 +2001,7 @@
     const-string p1, "t_style_skyline"
 
     .line 36
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -2014,7 +2014,7 @@
 
     .line 38
     :cond_e
-    invoke-static {p2, v4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -2027,7 +2027,7 @@
 
     .line 40
     :cond_f
-    invoke-static {p2, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -2040,7 +2040,7 @@
 
     .line 42
     :cond_10
-    invoke-static {p2, v4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -2065,7 +2065,7 @@
     if-ne v2, v3, :cond_12
 
     .line 46
-    invoke-static {p2, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -2087,7 +2087,7 @@
     if-ne p1, v2, :cond_14
 
     .line 49
-    invoke-static {p2, v5}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -2100,7 +2100,7 @@
 
     .line 51
     :cond_13
-    invoke-static {p2, v4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -2160,7 +2160,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/studio/function/StyleViewModel;->G()Landroidx/lifecycle/MutableLiveData;
@@ -2182,7 +2182,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/studio/function/StyleViewModel;->z()Lcom/commsource/camera/xcamera/cover/e;
@@ -2204,7 +2204,7 @@
 
     if-nez v1, :cond_2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {v1}, Lcom/commsource/studio/function/StyleViewModel;->E()Lcom/commsource/camera/xcamera/cover/e;
@@ -2226,7 +2226,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_3
     invoke-virtual {v1}, Lcom/commsource/studio/function/StyleViewModel;->B()Lcom/commsource/camera/xcamera/cover/e;
@@ -2302,7 +2302,7 @@
 
     const-string v1, "ownerActivity"
 
-    invoke-static {v5, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->t0()Lcom/commsource/studio/sub/SubModuleEnum;
 
@@ -2318,7 +2318,7 @@
 
     const/4 v10, 0x0
 
-    invoke-static/range {v4 .. v10}, Lcom/commsource/studio/component/StudioProViewModel;->K(Lcom/commsource/studio/component/StudioProViewModel;Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/String;Lkotlin/jvm/u/l;ILjava/lang/Object;)V
+    invoke-static/range {v4 .. v10}, Lcom/commsource/studio/component/StudioProViewModel;->K(Lcom/commsource/studio/component/StudioProViewModel;Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
 
     .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2408,28 +2408,28 @@
 
     invoke-direct {v2, v1, p0}, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/processor/StyleProcessor;Lcom/commsource/studio/function/StyleFragment;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lkotlin/jvm/u/a;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
     .line 5
     new-instance v2, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$2;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$2;-><init>(Lcom/commsource/studio/function/StyleFragment;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/StyleProcessor;->a1(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/StyleProcessor;->a1(Lcotlin/jvm/u/l;)V
 
     .line 6
     new-instance v2, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$3;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$3;-><init>(Lcom/commsource/studio/function/StyleFragment;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/StyleProcessor;->X0(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/StyleProcessor;->X0(Lcotlin/jvm/u/l;)V
 
     .line 7
     new-instance v2, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$4;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$4;-><init>(Lcom/commsource/studio/function/StyleFragment;)V
 
-    invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/StyleProcessor;->Y0(Lkotlin/jvm/u/l;)V
+    invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/StyleProcessor;->Y0(Lcotlin/jvm/u/l;)V
 
     .line 8
     iput-object v1, p0, Lcom/commsource/studio/function/StyleFragment;->f0:Lcom/commsource/studio/processor/StyleProcessor;
@@ -2521,7 +2521,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/StyleFragment;->e0:Lcom/commsource/studio/effect/w;
@@ -2603,7 +2603,7 @@
 
     const-string p3, "inflater"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance p3, Landroidx/lifecycle/ViewModelProvider;
@@ -2618,7 +2618,7 @@
 
     const-string v0, "ViewModelProvider(this).\u2026yleViewModel::class.java)"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p3, Lcom/commsource/studio/function/StyleViewModel;
 
@@ -2635,7 +2635,7 @@
 
     const-string v1, "mViewModel"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p3, v0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
@@ -2647,7 +2647,7 @@
 
     const-string p3, "FragmentStyleBinding.inflate(inflater)"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/function/StyleFragment;->d0:Lcom/commsource/beautyplus/f0/ec;
 
@@ -2656,7 +2656,7 @@
     if-nez p1, :cond_1
 
     .line 4
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_1
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/ec;->i(Landroidx/fragment/app/Fragment;)V
@@ -2666,7 +2666,7 @@
 
     if-nez p1, :cond_2
 
-    invoke-static {p3}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_2
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -2675,7 +2675,7 @@
 
     const-string p3, "mViewBinding.root"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2753,7 +2753,7 @@
 
     const-string v1, "view"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V

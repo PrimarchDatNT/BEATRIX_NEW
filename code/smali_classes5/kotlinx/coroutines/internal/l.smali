@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/internal/l;
+.class public final Lcotlinx/coroutines/internal/l;
 .super Ljava/lang/Object;
 .source "LockFreeLinkedList.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,10 +15,10 @@
     }
     d2 = {
         "",
-        "Lkotlinx/coroutines/internal/m;",
-        "Lkotlinx/coroutines/internal/Node;",
+        "Lcotlinx/coroutines/internal/m;",
+        "Lcotlinx/coroutines/internal/Node;",
         "h",
-        "(Ljava/lang/Object;)Lkotlinx/coroutines/internal/m;",
+        "(Ljava/lang/Object;)Lcotlinx/coroutines/internal/m;",
         "",
         "c",
         "I",
@@ -41,15 +41,15 @@
         "g",
         "LIST_EMPTY$annotations",
         "LIST_EMPTY",
-        "Lkotlinx/coroutines/internal/m$a;",
+        "Lcotlinx/coroutines/internal/m$a;",
         "AbstractAtomicDesc",
         "T",
-        "Lkotlinx/coroutines/internal/m$b;",
+        "Lcotlinx/coroutines/internal/m$b;",
         "AddLastDesc",
         "Node",
-        "Lkotlinx/coroutines/internal/m$d;",
+        "Lcotlinx/coroutines/internal/m$d;",
         "PrepareOp",
-        "Lkotlinx/coroutines/internal/m$e;",
+        "Lcotlinx/coroutines/internal/m$e;",
         "RemoveFirstDesc",
         "kotlinx-coroutines-core"
     }
@@ -85,29 +85,29 @@
     .locals 2
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/internal/c0;
+    new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "CONDITION_FALSE"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlinx/coroutines/internal/l;->d:Ljava/lang/Object;
+    sput-object v0, Lcotlinx/coroutines/internal/l;->d:Ljava/lang/Object;
 
     .line 2
-    new-instance v0, Lkotlinx/coroutines/internal/c0;
+    new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "LIST_EMPTY"
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/c0;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkotlinx/coroutines/internal/l;->e:Ljava/lang/Object;
+    sput-object v0, Lcotlinx/coroutines/internal/l;->e:Ljava/lang/Object;
 
     return-void
 .end method
 
 .method public static synthetic a()V
     .locals 0
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     return-void
@@ -115,7 +115,7 @@
 
 .method public static synthetic b()V
     .locals 0
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     return-void
@@ -123,7 +123,7 @@
 
 .method public static synthetic c()V
     .locals 0
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     return-void
@@ -131,7 +131,7 @@
 
 .method public static synthetic d()V
     .locals 0
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     return-void
@@ -139,7 +139,7 @@
 
 .method public static synthetic e()V
     .locals 0
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     return-void
@@ -151,7 +151,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/internal/l;->d:Ljava/lang/Object;
+    sget-object v0, Lcotlinx/coroutines/internal/l;->d:Ljava/lang/Object;
 
     return-object v0
 .end method
@@ -162,25 +162,25 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/internal/l;->e:Ljava/lang/Object;
+    sget-object v0, Lcotlinx/coroutines/internal/l;->e:Ljava/lang/Object;
 
     return-object v0
 .end method
 
-.method public static final h(Ljava/lang/Object;)Lkotlinx/coroutines/internal/m;
+.method public static final h(Ljava/lang/Object;)Lcotlinx/coroutines/internal/m;
     .locals 1
     .param p0    # Ljava/lang/Object;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    instance-of v0, p0, Lkotlinx/coroutines/internal/x;
+    instance-of v0, p0, Lcotlinx/coroutines/internal/x;
 
     if-nez v0, :cond_0
 
@@ -192,11 +192,11 @@
     move-object v0, p0
 
     :goto_0
-    check-cast v0, Lkotlinx/coroutines/internal/x;
+    check-cast v0, Lcotlinx/coroutines/internal/x;
 
     if-eqz v0, :cond_1
 
-    iget-object v0, v0, Lkotlinx/coroutines/internal/x;->a:Lkotlinx/coroutines/internal/m;
+    iget-object v0, v0, Lcotlinx/coroutines/internal/x;->a:Lcotlinx/coroutines/internal/m;
 
     if-eqz v0, :cond_1
 
@@ -207,17 +207,17 @@
 
     move-object v0, p0
 
-    check-cast v0, Lkotlinx/coroutines/internal/m;
+    check-cast v0, Lcotlinx/coroutines/internal/m;
 
     :goto_1
     return-object v0
 
     :cond_2
-    new-instance p0, Lkotlin/TypeCastException;
+    new-instance p0, Lcotlin/TypeCastException;
 
     const-string v0, "null cannot be cast to non-null type kotlinx.coroutines.internal.Node /* = kotlinx.coroutines.internal.LockFreeLinkedListNode */"
 
-    invoke-direct {p0, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p0
 .end method

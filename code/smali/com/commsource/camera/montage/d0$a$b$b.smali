@@ -3,7 +3,7 @@
 .source "MontageMaterialPageFragment.java"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
@@ -19,9 +19,9 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/u/l<",
         "Lcom/commsource/widget/dialog/delegate/b;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;"
     }
 .end annotation
@@ -45,7 +45,7 @@
 
 
 # virtual methods
-.method public a(Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+.method public a(Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
     .locals 1
 
     const v0, 0x96ea
@@ -73,7 +73,7 @@
     .line 1
     check-cast p1, Lcom/commsource/widget/dialog/delegate/b;
 
-    invoke-virtual {p0, p1}, Lcom/commsource/camera/montage/d0$a$b$b;->a(Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+    invoke-virtual {p0, p1}, Lcom/commsource/camera/montage/d0$a$b$b;->a(Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
 
     move-result-object p1
 

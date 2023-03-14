@@ -1,10 +1,10 @@
-.class Lkotlin/collections/w;
-.super Lkotlin/collections/v;
+.class Lcotlin/collections/w;
+.super Lcotlin/collections/v;
 .source "Iterators.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -18,13 +18,13 @@
         "",
         "h0",
         "(Ljava/util/Iterator;)Ljava/util/Iterator;",
-        "Lkotlin/collections/i0;",
+        "Lcotlin/collections/i0;",
         "i0",
-        "Lkotlin/Function1;",
-        "Lkotlin/t1;",
+        "Lcotlin/Function1;",
+        "Lcotlin/t1;",
         "operation",
         "g0",
-        "(Ljava/util/Iterator;Lkotlin/jvm/u/l;)V",
+        "(Ljava/util/Iterator;Lcotlin/jvm/u/l;)V",
         "kotlin-stdlib"
     }
     k = 0x5
@@ -41,18 +41,18 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lkotlin/collections/v;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/v;-><init>()V
 
     return-void
 .end method
 
-.method public static final g0(Ljava/util/Iterator;Lkotlin/jvm/u/l;)V
+.method public static final g0(Ljava/util/Iterator;Lcotlin/jvm/u/l;)V
     .locals 1
     .param p0    # Ljava/util/Iterator;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -63,20 +63,20 @@
             ">(",
             "Ljava/util/Iterator<",
             "+TT;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-TT;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "$this$forEach"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "operation"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     :goto_0
@@ -90,7 +90,7 @@
 
     move-result-object v0
 
-    invoke-interface {p1, v0}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
@@ -112,12 +112,12 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     const-string v0, "$this$iterator"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
@@ -136,7 +136,7 @@
             "Ljava/util/Iterator<",
             "+TT;>;)",
             "Ljava/util/Iterator<",
-            "Lkotlin/collections/i0<",
+            "Lcotlin/collections/i0<",
             "TT;>;>;"
         }
     .end annotation
@@ -146,12 +146,12 @@
 
     const-string v0, "$this$withIndex"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/collections/k0;
+    new-instance v0, Lcotlin/collections/k0;
 
-    invoke-direct {v0, p0}, Lkotlin/collections/k0;-><init>(Ljava/util/Iterator;)V
+    invoke-direct {v0, p0}, Lcotlin/collections/k0;-><init>(Ljava/util/Iterator;)V
 
     return-object v0
 .end method

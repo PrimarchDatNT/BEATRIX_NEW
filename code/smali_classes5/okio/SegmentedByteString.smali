@@ -14,7 +14,7 @@
     value = "SMAP\nSegmentedByteString.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SegmentedByteString.kt\nokio/SegmentedByteString\n*L\n1#1,325:1\n257#1,12:326\n257#1,12:338\n257#1,12:350\n257#1,12:362\n257#1,12:374\n279#1,14:386\n279#1,14:400\n257#1,12:414\n*E\n*S KotlinDebug\n*F\n+ 1 SegmentedByteString.kt\nokio/SegmentedByteString\n*L\n107#1,12:326\n117#1,12:338\n178#1,12:350\n189#1,12:362\n195#1,12:374\n217#1,14:386\n236#1,14:400\n308#1,12:414\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,20 +32,20 @@
         "(I)I",
         "toByteString",
         "()Lokio/ByteString;",
-        "Lkotlin/Function3;",
+        "Lcotlin/Function3;",
         "",
-        "Lkotlin/k0;",
+        "Lcotlin/k0;",
         "name",
         "data",
         "offset",
         "byteCount",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "action",
         "forEachSegment",
-        "(Lkotlin/jvm/u/q;)V",
+        "(Lcotlin/jvm/u/q;)V",
         "beginIndex",
         "endIndex",
-        "(IILkotlin/jvm/u/q;)V",
+        "(IILcotlin/jvm/u/q;)V",
         "Ljava/lang/Object;",
         "writeReplace",
         "()Ljava/lang/Object;",
@@ -156,7 +156,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lokio/SegmentedByteString$Companion;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lokio/SegmentedByteString$Companion;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lokio/SegmentedByteString;->Companion:Lokio/SegmentedByteString$Companion;
 
@@ -182,7 +182,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>([[B[ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>([[B[ILcotlin/jvm/internal/u;)V
     .locals 0
     .param p1    # [[B
         .annotation build Ln/e/a/d;
@@ -210,17 +210,17 @@
     return p0
 .end method
 
-.method private final forEachSegment(IILkotlin/jvm/u/q;)V
+.method private final forEachSegment(IILcotlin/jvm/u/q;)V
     .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(II",
-            "Lkotlin/jvm/u/q<",
+            "Lcotlin/jvm/u/q<",
             "-[B-",
             "Ljava/lang/Integer;",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -302,7 +302,7 @@
 
     move-result-object v4
 
-    invoke-interface {p3, v1, v3, v4}, Lkotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v1, v3, v4}, Lcotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/2addr p1, v2
 
@@ -314,17 +314,17 @@
     return-void
 .end method
 
-.method private final forEachSegment(Lkotlin/jvm/u/q;)V
+.method private final forEachSegment(Lcotlin/jvm/u/q;)V
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/q<",
+            "Lcotlin/jvm/u/q<",
             "-[B-",
             "Ljava/lang/Integer;",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -376,7 +376,7 @@
 
     move-result-object v2
 
-    invoke-interface {p1, v5, v3, v2}, Lkotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v5, v3, v2}, Lcotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v1, v1, 0x1
 
@@ -445,11 +445,11 @@
     return-object v0
 
     :cond_0
-    new-instance v0, Lkotlin/TypeCastException;
+    new-instance v0, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type java.lang.Object"
 
-    invoke-direct {v0, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -520,7 +520,7 @@
 
     const-string v0, "algorithm"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p1}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
@@ -585,7 +585,7 @@
 
     const-string v1, "digest.digest()"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v0, p1}, Lokio/ByteString;-><init>([B)V
 
@@ -801,11 +801,11 @@
 
     const-string v0, "algorithm"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "key"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     :try_start_0
@@ -882,7 +882,7 @@
 
     const-string v0, "mac.doFinal()"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p1, p2}, Lokio/ByteString;-><init>([B)V
     :try_end_0
@@ -910,7 +910,7 @@
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Lokio/SegmentedByteString;->toByteString()Lokio/ByteString;
@@ -1011,7 +1011,7 @@
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Lokio/SegmentedByteString;->toByteString()Lokio/ByteString;
@@ -1034,7 +1034,7 @@
 
     const-string v0, "other"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -1160,7 +1160,7 @@
 
     const-string v0, "other"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -1297,7 +1297,7 @@
 
     const-string v0, "charset"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Lokio/SegmentedByteString;->toByteString()Lokio/ByteString;
@@ -1408,7 +1408,7 @@
 
     const-string v5, "java.util.Arrays.copyOfR\u2026this, fromIndex, toIndex)"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v4, [[B
 
@@ -1730,7 +1730,7 @@
 
     const-string v0, "out"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lokio/SegmentedByteString;->getSegments()[[B
@@ -1793,7 +1793,7 @@
 
     const-string v0, "buffer"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lokio/SegmentedByteString;->getSegments()[[B
@@ -1867,14 +1867,14 @@
     if-nez v2, :cond_1
 
     .line 10
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     iget-object v2, v2, Lokio/Segment;->prev:Lokio/Segment;
 
     if-nez v2, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
     invoke-virtual {v2, v4}, Lokio/Segment;->push(Lokio/Segment;)Lokio/Segment;

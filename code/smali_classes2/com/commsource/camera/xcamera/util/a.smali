@@ -8,7 +8,7 @@
     value = "SMAP\nArMaterialInfoFactory.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ArMaterialInfoFactory.kt\ncom/commsource/camera/xcamera/util/ArMaterialInfoFactory\n*L\n1#1,315:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -397,7 +397,7 @@
     const-string v10, "configuration.plist"
 
     .line 11
-    invoke-static/range {v8 .. v13}, Lkotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v8 .. v13}, Lcotlin/text/m;->i2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v8
 
@@ -465,7 +465,7 @@
     if-nez v4, :cond_6
 
     .line 16
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2, v5}, Lcom/commsource/camera/param/MakeupParam;->setArCoreType(I)V
 
@@ -473,7 +473,7 @@
     if-eqz p3, :cond_7
 
     .line 17
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual/range {p3 .. p3}, Lcom/commsource/camera/xcamera/bean/a;->j()I
 
@@ -502,7 +502,7 @@
 
     .line 21
     :cond_7
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual/range {p2 .. p2}, Lcom/meitu/template/bean/ArMaterial;->isBgm()Z
 
@@ -794,7 +794,7 @@
 
     const-string v1, "arMaterial"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
@@ -818,7 +818,7 @@
 
     const-string v4, "AppContext.getContext()"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v3, p1, p2}, Lcom/commsource/camera/xcamera/util/a;->f(Landroid/content/Context;Lcom/meitu/template/bean/ArMaterial;Lcom/commsource/camera/xcamera/bean/a;)Lcom/commsource/camera/param/MakeupParam;
 
@@ -1018,7 +1018,7 @@
 
     const-string v1, "arMaterial"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v1, Lcom/commsource/camera/xcamera/bean/a;
@@ -1090,7 +1090,7 @@
 
     const-string v4, "AppContext.getContext()"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 

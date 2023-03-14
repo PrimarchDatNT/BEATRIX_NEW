@@ -32,7 +32,7 @@
     value = "SMAP\nStudioMyArFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StudioMyArFragment.kt\ncom/commsource/studio/function/ar/StudioMyArFragment$onViewCreated$1\n*L\n1#1,154:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "Lcom/meitu/template/bean/ArMaterialGroup;",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/meitu/template/bean/ArMaterialGroup;)V"
     }
@@ -119,7 +119,7 @@
 
     const-string v3, "it.next()"
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v2, Lcom/meitu/template/bean/ArMaterial;
 
@@ -172,7 +172,7 @@
 
     aput-object v7, v3, v6
 
-    invoke-static {v3}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v3}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v3
 
@@ -208,7 +208,7 @@
     aput-object v6, v3, v7
 
     .line 16
-    invoke-static {v3}, Lkotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
+    invoke-static {v3}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v3
 

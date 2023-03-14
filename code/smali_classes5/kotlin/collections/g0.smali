@@ -1,4 +1,4 @@
-.class Lkotlin/collections/g0;
+.class Lcotlin/collections/g0;
 .super Ljava/lang/Object;
 .source "GroupingJVM.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nGroupingJVM.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GroupingJVM.kt\nkotlin/collections/GroupingKt__GroupingJVMKt\n+ 2 Grouping.kt\nkotlin/collections/GroupingKt__GroupingKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 4 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,52:1\n142#2,2:53\n80#2,4:55\n85#2:60\n1#3:59\n1819#4,2:61\n*E\n*S KotlinDebug\n*F\n+ 1 GroupingJVM.kt\nkotlin/collections/GroupingKt__GroupingJVMKt\n*L\n22#1,2:53\n22#1,4:55\n22#1:60\n48#1,2:61\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,19 +20,19 @@
     d2 = {
         "T",
         "K",
-        "Lkotlin/collections/e0;",
+        "Lcotlin/collections/e0;",
         "",
         "",
         "a",
-        "(Lkotlin/collections/e0;)Ljava/util/Map;",
+        "(Lcotlin/collections/e0;)Ljava/util/Map;",
         "V",
         "R",
         "",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "",
         "f",
         "b",
-        "(Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;",
+        "(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;",
         "kotlin-stdlib"
     }
     k = 0x5
@@ -54,9 +54,9 @@
     return-void
 .end method
 
-.method public static final a(Lkotlin/collections/e0;)Ljava/util/Map;
+.method public static final a(Lcotlin/collections/e0;)Ljava/util/Map;
     .locals 6
-    .param p0    # Lkotlin/collections/e0;
+    .param p0    # Lcotlin/collections/e0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -67,7 +67,7 @@
             "K:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/collections/e0<",
+            "Lcotlin/collections/e0<",
             "TT;+TK;>;)",
             "Ljava/util/Map<",
             "TK;",
@@ -76,7 +76,7 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
@@ -85,7 +85,7 @@
 
     const-string v0, "$this$eachCount"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
@@ -93,7 +93,7 @@
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
     .line 2
-    invoke-interface {p0}, Lkotlin/collections/e0;->b()Ljava/util/Iterator;
+    invoke-interface {p0}, Lcotlin/collections/e0;->b()Ljava/util/Iterator;
 
     move-result-object v1
 
@@ -109,7 +109,7 @@
     move-result-object v2
 
     .line 3
-    invoke-interface {p0, v2}, Lkotlin/collections/e0;->a(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, v2}, Lcotlin/collections/e0;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -140,19 +140,19 @@
     if-eqz v5, :cond_1
 
     .line 6
-    new-instance v3, Lkotlin/jvm/internal/Ref$IntRef;
+    new-instance v3, Lcotlin/jvm/internal/Ref$IntRef;
 
-    invoke-direct {v3}, Lkotlin/jvm/internal/Ref$IntRef;-><init>()V
+    invoke-direct {v3}, Lcotlin/jvm/internal/Ref$IntRef;-><init>()V
 
     :cond_1
-    check-cast v3, Lkotlin/jvm/internal/Ref$IntRef;
+    check-cast v3, Lcotlin/jvm/internal/Ref$IntRef;
 
     .line 7
-    iget v5, v3, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v5, v3, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     add-int/2addr v5, v4
 
-    iput v5, v3, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iput v5, v3, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     invoke-interface {v0, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -185,7 +185,7 @@
 
     invoke-static {v1, v2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    invoke-static {v1}, Lkotlin/jvm/internal/t0;->m(Ljava/lang/Object;)Ljava/util/Map$Entry;
+    invoke-static {v1}, Lcotlin/jvm/internal/t0;->m(Ljava/lang/Object;)Ljava/util/Map$Entry;
 
     move-result-object v2
 
@@ -193,9 +193,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/jvm/internal/Ref$IntRef;
+    check-cast v1, Lcotlin/jvm/internal/Ref$IntRef;
 
-    iget v1, v1, Lkotlin/jvm/internal/Ref$IntRef;->element:I
+    iget v1, v1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -206,14 +206,14 @@
     goto :goto_2
 
     :cond_3
-    invoke-static {v0}, Lkotlin/jvm/internal/t0;->k(Ljava/lang/Object;)Ljava/util/Map;
+    invoke-static {v0}, Lcotlin/jvm/internal/t0;->k(Ljava/lang/Object;)Ljava/util/Map;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private static final b(Ljava/util/Map;Lkotlin/jvm/u/l;)Ljava/util/Map;
+.method private static final b(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -226,7 +226,7 @@
             ">(",
             "Ljava/util/Map<",
             "TK;TV;>;",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/util/Map$Entry<",
             "+TK;+TV;>;+TR;>;)",
@@ -235,10 +235,10 @@
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/p0;
+    .annotation build Lcotlin/p0;
     .end annotation
 
     .line 1
@@ -269,11 +269,11 @@
     .line 3
     invoke-static {v1, v2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    invoke-static {v1}, Lkotlin/jvm/internal/t0;->m(Ljava/lang/Object;)Ljava/util/Map$Entry;
+    invoke-static {v1}, Lcotlin/jvm/internal/t0;->m(Ljava/lang/Object;)Ljava/util/Map$Entry;
 
     move-result-object v2
 
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -287,7 +287,7 @@
     .line 4
     invoke-static {p0, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    invoke-static {p0}, Lkotlin/jvm/internal/t0;->k(Ljava/lang/Object;)Ljava/util/Map;
+    invoke-static {p0}, Lcotlin/jvm/internal/t0;->k(Ljava/lang/Object;)Ljava/util/Map;
 
     move-result-object p0
 

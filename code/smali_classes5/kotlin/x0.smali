@@ -1,10 +1,10 @@
-.class public final Lkotlin/x0;
+.class public final Lcotlin/x0;
 .super Ljava/lang/Object;
 .source "Suspend.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,12 +15,12 @@
     }
     d2 = {
         "R",
-        "Lkotlin/Function1;",
-        "Lkotlin/coroutines/c;",
+        "Lcotlin/Function1;",
+        "Lcotlin/coroutines/c;",
         "",
         "block",
         "a",
-        "(Lkotlin/jvm/u/l;)Lkotlin/jvm/u/l;",
+        "(Lcotlin/jvm/u/l;)Lcotlin/jvm/u/l;",
         "kotlin-stdlib"
     }
     k = 0x2
@@ -33,31 +33,31 @@
 
 
 # direct methods
-.method private static final a(Lkotlin/jvm/u/l;)Lkotlin/jvm/u/l;
+.method private static final a(Lcotlin/jvm/u/l;)Lcotlin/jvm/u/l;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-TR;>;+",
             "Ljava/lang/Object;",
             ">;)",
-            "Lkotlin/jvm/u/l<",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/jvm/u/l<",
+            "Lcotlin/coroutines/c<",
             "-TR;>;",
             "Ljava/lang/Object;",
             ">;"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 

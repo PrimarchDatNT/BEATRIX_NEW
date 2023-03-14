@@ -1,10 +1,10 @@
-.class public final Lkotlin/r1;
+.class public final Lcotlin/r1;
 .super Ljava/lang/Object;
 .source "UShortArray.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -16,12 +16,12 @@
     d2 = {
         "",
         "size",
-        "Lkotlin/Function1;",
-        "Lkotlin/p1;",
+        "Lcotlin/Function1;",
+        "Lcotlin/p1;",
         "init",
-        "Lkotlin/q1;",
+        "Lcotlin/q1;",
         "a",
-        "(ILkotlin/jvm/u/l;)[S",
+        "(ILcotlin/jvm/u/l;)[S",
         "elements",
         "b",
         "([S)[S",
@@ -37,26 +37,26 @@
 
 
 # direct methods
-.method private static final a(ILkotlin/jvm/u/l;)[S
+.method private static final a(ILcotlin/jvm/u/l;)[S
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/p1;",
+            "Lcotlin/p1;",
             ">;)[S"
         }
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -72,13 +72,13 @@
 
     move-result-object v2
 
-    invoke-interface {p1, v2}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
-    check-cast v2, Lkotlin/p1;
+    check-cast v2, Lcotlin/p1;
 
-    invoke-virtual {v2}, Lkotlin/p1;->t0()S
+    invoke-virtual {v2}, Lcotlin/p1;->t0()S
 
     move-result v2
 
@@ -89,7 +89,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lkotlin/q1;->h([S)[S
+    invoke-static {v0}, Lcotlin/q1;->h([S)[S
 
     move-result-object p0
 
@@ -98,13 +98,13 @@
 
 .method private static final varargs b([S)[S
     .locals 0
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/p;
+    .annotation build Lcotlin/p;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 

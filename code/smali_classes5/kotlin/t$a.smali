@@ -1,11 +1,11 @@
-.class public final Lkotlin/t$a;
+.class public final Lcotlin/t$a;
 .super Ljava/lang/Object;
 .source "KotlinVersion.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/t;
+    value = Lcotlin/t;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,9 +25,9 @@
     d2 = {
         "kotlin/t$a",
         "",
-        "Lkotlin/t;",
+        "Lcotlin/t;",
         "CURRENT",
-        "Lkotlin/t;",
+        "Lcotlin/t;",
         "",
         "MAX_COMPONENT_VALUE",
         "I",
@@ -54,11 +54,11 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/t$a;-><init>()V
+    invoke-direct {p0}, Lcotlin/t$a;-><init>()V
 
     return-void
 .end method

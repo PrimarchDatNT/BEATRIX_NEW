@@ -2009,7 +2009,7 @@
     return-void
 .end method
 
-.method private synthetic m0(Lkotlin/Pair;)V
+.method private synthetic m0(Lcotlin/Pair;)V
     .locals 1
 
     const/16 v0, 0x60c4
@@ -2019,7 +2019,7 @@
     if-eqz p1, :cond_0
 
     .line 1
-    invoke-virtual {p1}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -2710,10 +2710,10 @@
     return-void
 .end method
 
-.method public synthetic n0(Lkotlin/Pair;)V
+.method public synthetic n0(Lcotlin/Pair;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/commsource/mypage/g0;->m0(Lkotlin/Pair;)V
+    invoke-direct {p0, p1}, Lcom/commsource/mypage/g0;->m0(Lcotlin/Pair;)V
 
     return-void
 .end method

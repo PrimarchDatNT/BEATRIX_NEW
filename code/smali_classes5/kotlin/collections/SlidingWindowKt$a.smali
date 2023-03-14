@@ -1,14 +1,14 @@
-.class public final Lkotlin/collections/SlidingWindowKt$a;
+.class public final Lcotlin/collections/SlidingWindowKt$a;
 .super Ljava/lang/Object;
 .source "Sequences.kt"
 
 # interfaces
-.implements Lkotlin/sequences/m;
+.implements Lcotlin/sequences/m;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/collections/SlidingWindowKt;->c(Lkotlin/sequences/m;IIZZ)Lkotlin/sequences/m;
+    value = Lcotlin/collections/SlidingWindowKt;->c(Lcotlin/sequences/m;IIZZ)Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/sequences/m<",
+        "Lcotlin/sequences/m<",
         "Ljava/util/List<",
         "+TT;>;>;"
     }
@@ -29,7 +29,7 @@
     value = "SMAP\nSequences.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Sequences.kt\nkotlin/sequences/SequencesKt__SequencesKt$Sequence$1\n+ 2 SlidingWindow.kt\nkotlin/collections/SlidingWindowKt\n*L\n1#1,680:1\n19#2:681\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,7 +40,7 @@
     }
     d2 = {
         "kotlin/collections/SlidingWindowKt$a",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "",
         "iterator",
         "()Ljava/util/Iterator;",
@@ -57,7 +57,7 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/sequences/m;
+.field final synthetic a:Lcotlin/sequences/m;
 
 .field final synthetic b:I
 
@@ -69,18 +69,18 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/sequences/m;IIZZ)V
+.method public constructor <init>(Lcotlin/sequences/m;IIZZ)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/collections/SlidingWindowKt$a;->a:Lkotlin/sequences/m;
+    iput-object p1, p0, Lcotlin/collections/SlidingWindowKt$a;->a:Lcotlin/sequences/m;
 
-    iput p2, p0, Lkotlin/collections/SlidingWindowKt$a;->b:I
+    iput p2, p0, Lcotlin/collections/SlidingWindowKt$a;->b:I
 
-    iput p3, p0, Lkotlin/collections/SlidingWindowKt$a;->c:I
+    iput p3, p0, Lcotlin/collections/SlidingWindowKt$a;->c:I
 
-    iput-boolean p4, p0, Lkotlin/collections/SlidingWindowKt$a;->d:Z
+    iput-boolean p4, p0, Lcotlin/collections/SlidingWindowKt$a;->d:Z
 
-    iput-boolean p5, p0, Lkotlin/collections/SlidingWindowKt$a;->e:Z
+    iput-boolean p5, p0, Lcotlin/collections/SlidingWindowKt$a;->e:Z
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -105,21 +105,21 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/collections/SlidingWindowKt$a;->a:Lkotlin/sequences/m;
+    iget-object v0, p0, Lcotlin/collections/SlidingWindowKt$a;->a:Lcotlin/sequences/m;
 
-    invoke-interface {v0}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
-    iget v1, p0, Lkotlin/collections/SlidingWindowKt$a;->b:I
+    iget v1, p0, Lcotlin/collections/SlidingWindowKt$a;->b:I
 
-    iget v2, p0, Lkotlin/collections/SlidingWindowKt$a;->c:I
+    iget v2, p0, Lcotlin/collections/SlidingWindowKt$a;->c:I
 
-    iget-boolean v3, p0, Lkotlin/collections/SlidingWindowKt$a;->d:Z
+    iget-boolean v3, p0, Lcotlin/collections/SlidingWindowKt$a;->d:Z
 
-    iget-boolean v4, p0, Lkotlin/collections/SlidingWindowKt$a;->e:Z
+    iget-boolean v4, p0, Lcotlin/collections/SlidingWindowKt$a;->e:Z
 
-    invoke-static {v0, v1, v2, v3, v4}, Lkotlin/collections/SlidingWindowKt;->b(Ljava/util/Iterator;IIZZ)Ljava/util/Iterator;
+    invoke-static {v0, v1, v2, v3, v4}, Lcotlin/collections/SlidingWindowKt;->b(Ljava/util/Iterator;IIZZ)Ljava/util/Iterator;
 
     move-result-object v0
 

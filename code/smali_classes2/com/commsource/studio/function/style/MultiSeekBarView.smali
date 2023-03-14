@@ -16,7 +16,7 @@
     value = "SMAP\nMultiSeekBarView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MultiSeekBarView.kt\ncom/commsource/studio/function/style/MultiSeekBarView\n+ 2 _Maps.kt\nkotlin/collections/MapsKt___MapsKt\n*L\n1#1,168:1\n181#2,2:169\n*E\n*S KotlinDebug\n*F\n+ 1 MultiSeekBarView.kt\ncom/commsource/studio/function/style/MultiSeekBarView\n*L\n51#1,2:169\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
     d2 = {
         "Lcom/commsource/studio/function/style/MultiSeekBarView;",
         "Landroid/widget/LinearLayout;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "()V",
         "Lcom/commsource/studio/bean/f;",
@@ -288,7 +288,7 @@
 
     if-nez p1, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     .line 4
     :cond_2
@@ -390,7 +390,7 @@
 
     const-string v6, "ItemStyleSeekbarBinding.\u2026utInflater.from(context))"
 
-    invoke-static {v5, v6}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     iget-object v6, p0, Lcom/commsource/studio/function/style/MultiSeekBarView;->b:Ljava/util/List;
@@ -404,7 +404,7 @@
 
     const-string v7, "viewBinding.root"
 
-    invoke-static {v6, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     iget-object v7, v5, Lcom/commsource/beautyplus/f0/ek;->a:Lcom/commsource/widget/XSeekBar;
@@ -452,7 +452,7 @@
 
     const-string v5, "seekBarBindings[i].root"
 
-    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 18
     invoke-virtual {p1}, Ljava/util/LinkedHashMap;->size()I

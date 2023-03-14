@@ -1,15 +1,15 @@
-.class public final Lkotlin/collections/EmptySet;
+.class public final Lcotlin/collections/EmptySet;
 .super Ljava/lang/Object;
 .source "Sets.kt"
 
 # interfaces
 .implements Ljava/util/Set;
 .implements Ljava/io/Serializable;
-.implements Lkotlin/jvm/internal/x0/a;
+.implements Lcotlin/jvm/internal/x0/a;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -19,11 +19,11 @@
         "\u0000L\n\u0002\u0018\u0002\n\u0002\u0010\"\n\u0002\u0010\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0007\n\u0002\u0010\u001e\n\u0002\u0008\u0003\n\u0002\u0010(\n\u0002\u0008\u0002\n\u0002\u0010\t\n\u0002\u0008\u0007\u0008\u00c0\u0002\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u00012\u00060\u0003j\u0002`\u0004B\t\u0008\u0002\u00a2\u0006\u0004\u0008#\u0010$J\u000f\u0010\u0006\u001a\u00020\u0005H\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u001a\u0010\n\u001a\u00020\t2\u0008\u0010\u0008\u001a\u0004\u0018\u00010\u0005H\u0096\u0002\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u000f\u0010\r\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\u000f\u0010\u0010\u001a\u00020\u000fH\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u0011J\u000f\u0010\u0012\u001a\u00020\tH\u0016\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u0018\u0010\u0015\u001a\u00020\t2\u0006\u0010\u0014\u001a\u00020\u0002H\u0096\u0002\u00a2\u0006\u0004\u0008\u0015\u0010\u0016J\u001d\u0010\u0019\u001a\u00020\t2\u000c\u0010\u0018\u001a\u0008\u0012\u0004\u0012\u00020\u00020\u0017H\u0016\u00a2\u0006\u0004\u0008\u0019\u0010\u001aJ\u0016\u0010\u001c\u001a\u0008\u0012\u0004\u0012\u00020\u00020\u001bH\u0096\u0002\u00a2\u0006\u0004\u0008\u001c\u0010\u001dR\u0016\u0010\u001f\u001a\u00020\u001e8\u0002@\u0002X\u0082T\u00a2\u0006\u0006\n\u0004\u0008\u001f\u0010 R\u0016\u0010\"\u001a\u00020\u000c8V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008!\u0010\u000e\u00a8\u0006%"
     }
     d2 = {
-        "Lkotlin/collections/EmptySet;",
+        "Lcotlin/collections/EmptySet;",
         "",
         "",
         "Ljava/io/Serializable;",
-        "Lkotlin/io/Serializable;",
+        "Lcotlin/io/Serializable;",
         "",
         "readResolve",
         "()Ljava/lang/Object;",
@@ -68,7 +68,7 @@
 
 
 # static fields
-.field public static final INSTANCE:Lkotlin/collections/EmptySet;
+.field public static final INSTANCE:Lcotlin/collections/EmptySet;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -81,11 +81,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lkotlin/collections/EmptySet;
+    new-instance v0, Lcotlin/collections/EmptySet;
 
-    invoke-direct {v0}, Lkotlin/collections/EmptySet;-><init>()V
+    invoke-direct {v0}, Lcotlin/collections/EmptySet;-><init>()V
 
-    sput-object v0, Lkotlin/collections/EmptySet;->INSTANCE:Lkotlin/collections/EmptySet;
+    sput-object v0, Lcotlin/collections/EmptySet;->INSTANCE:Lcotlin/collections/EmptySet;
 
     return-void
 .end method
@@ -103,7 +103,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlin/collections/EmptySet;->INSTANCE:Lkotlin/collections/EmptySet;
+    sget-object v0, Lcotlin/collections/EmptySet;->INSTANCE:Lcotlin/collections/EmptySet;
 
     return-object v0
 .end method
@@ -168,7 +168,7 @@
 
     check-cast p1, Ljava/lang/Void;
 
-    invoke-virtual {p0, p1}, Lkotlin/collections/EmptySet;->contains(Ljava/lang/Void;)Z
+    invoke-virtual {p0, p1}, Lcotlin/collections/EmptySet;->contains(Ljava/lang/Void;)Z
 
     move-result p1
 
@@ -189,7 +189,7 @@
 
     const-string v0, "element"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -205,7 +205,7 @@
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
@@ -276,7 +276,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/collections/c0;->a:Lkotlin/collections/c0;
+    sget-object v0, Lcotlin/collections/c0;->a:Lcotlin/collections/c0;
 
     return-object v0
 .end method
@@ -321,7 +321,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/EmptySet;->getSize()I
+    invoke-virtual {p0}, Lcotlin/collections/EmptySet;->getSize()I
 
     move-result v0
 
@@ -331,7 +331,7 @@
 .method public toArray()[Ljava/lang/Object;
     .locals 1
 
-    invoke-static {p0}, Lkotlin/jvm/internal/t;->a(Ljava/util/Collection;)[Ljava/lang/Object;
+    invoke-static {p0}, Lcotlin/jvm/internal/t;->a(Ljava/util/Collection;)[Ljava/lang/Object;
 
     move-result-object v0
 
@@ -348,7 +348,7 @@
         }
     .end annotation
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/t;->b(Ljava/util/Collection;[Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/t;->b(Ljava/util/Collection;[Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
 

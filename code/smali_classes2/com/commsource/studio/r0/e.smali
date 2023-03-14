@@ -8,7 +8,7 @@
     value = "SMAP\nBrightenEyesCppRenderProxy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BrightenEyesCppRenderProxy.kt\ncom/commsource/studio/render/BrightenEyesCppRenderProxy\n*L\n1#1,27:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -23,7 +23,7 @@
         "Lcom/commsource/easyeditor/utils/opengl/f;",
         "srcFBOEntity",
         "disFBOEntity",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "y",
         "(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V",
         "",
@@ -71,11 +71,11 @@
 
     const-string v1, "srcFBOEntity"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "disFBOEntity"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     const-class p2, Lcom/commsource/camera/d1/g/j;

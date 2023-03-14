@@ -1,9 +1,9 @@
-.class public final synthetic Lkotlin/i2/f;
+.class public final synthetic Lcotlin/i2/f;
 .super Ljava/lang/Object;
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -36,7 +36,7 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkotlin/i2/f;->a:[I
+    sput-object v0, Lcotlin/i2/f;->a:[I
 
     sget-object v1, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 

@@ -1,11 +1,11 @@
-.class public final Lkotlin/text/CharCategory$a;
+.class public final Lcotlin/text/CharCategory$a;
 .super Ljava/lang/Object;
 .source "CharCategory.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/text/CharCategory;
+    value = Lcotlin/text/CharCategory;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,12 +27,12 @@
         "",
         "",
         "category",
-        "Lkotlin/text/CharCategory;",
+        "Lcotlin/text/CharCategory;",
         "b",
-        "(I)Lkotlin/text/CharCategory;",
+        "(I)Lcotlin/text/CharCategory;",
         "",
         "categoryMap$delegate",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "a",
         "()Ljava/util/Map;",
         "categoryMap",
@@ -59,11 +59,11 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/text/CharCategory$a;-><init>()V
+    invoke-direct {p0}, Lcotlin/text/CharCategory$a;-><init>()V
 
     return-void
 .end method
@@ -75,18 +75,18 @@
             "()",
             "Ljava/util/Map<",
             "Ljava/lang/Integer;",
-            "Lkotlin/text/CharCategory;",
+            "Lcotlin/text/CharCategory;",
             ">;"
         }
     .end annotation
 
-    invoke-static {}, Lkotlin/text/CharCategory;->access$getCategoryMap$cp()Lkotlin/w;
+    invoke-static {}, Lcotlin/text/CharCategory;->access$getCategoryMap$cp()Lcotlin/w;
 
     move-result-object v0
 
-    sget-object v1, Lkotlin/text/CharCategory;->Companion:Lkotlin/text/CharCategory$a;
+    sget-object v1, Lcotlin/text/CharCategory;->Companion:Lcotlin/text/CharCategory$a;
 
-    invoke-interface {v0}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -97,13 +97,13 @@
 
 
 # virtual methods
-.method public final b(I)Lkotlin/text/CharCategory;
+.method public final b(I)Lcotlin/text/CharCategory;
     .locals 3
     .annotation build Ln/e/a/d;
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lkotlin/text/CharCategory$a;->a()Ljava/util/Map;
+    invoke-direct {p0}, Lcotlin/text/CharCategory$a;->a()Ljava/util/Map;
 
     move-result-object v0
 
@@ -115,7 +115,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkotlin/text/CharCategory;
+    check-cast v0, Lcotlin/text/CharCategory;
 
     if-eqz v0, :cond_0
 

@@ -180,7 +180,7 @@
     return-void
 .end method
 
-.method private synthetic g(Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+.method private synthetic g(Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
     .locals 5
 
     const/16 v0, 0x676d
@@ -297,7 +297,7 @@
     return-object p1
 .end method
 
-.method private synthetic i(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+.method private synthetic i(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
     .locals 3
 
     const/16 v0, 0x676c
@@ -365,7 +365,7 @@
     return-void
 .end method
 
-.method private synthetic l(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+.method private synthetic l(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
     .locals 4
 
     const/16 v0, 0x676a
@@ -470,7 +470,7 @@
     return-object p1
 .end method
 
-.method private synthetic n(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+.method private synthetic n(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
     .locals 3
 
     const/16 v0, 0x6769
@@ -768,40 +768,40 @@
     return-void
 .end method
 
-.method public synthetic h(Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+.method public synthetic h(Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/commsource/camera/beauty/h;->g(Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+    invoke-direct {p0, p1, p2}, Lcom/commsource/camera/beauty/h;->g(Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public synthetic j(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+.method public synthetic j(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/commsource/camera/beauty/h;->i(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+    invoke-direct {p0, p1, p2}, Lcom/commsource/camera/beauty/h;->i(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public synthetic m(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+.method public synthetic m(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
     .locals 0
 
-    invoke-direct {p0, p1, p2, p3}, Lcom/commsource/camera/beauty/h;->l(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+    invoke-direct {p0, p1, p2, p3}, Lcom/commsource/camera/beauty/h;->l(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public synthetic o(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+.method public synthetic o(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
     .locals 0
 
-    invoke-direct {p0, p1, p2, p3}, Lcom/commsource/camera/beauty/h;->n(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+    invoke-direct {p0, p1, p2, p3}, Lcom/commsource/camera/beauty/h;->n(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/camera/beauty/h$c;Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
 
     move-result-object p1
 
@@ -1117,7 +1117,7 @@
 
     invoke-direct {v4, p0, p4}, Lcom/commsource/camera/beauty/c;-><init>(Lcom/commsource/camera/beauty/h;Lcom/commsource/camera/beauty/h$c;)V
 
-    invoke-direct {v2, v0, v3, v4}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-direct {v2, v0, v3, v4}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lcotlin/jvm/u/l;)V
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -1220,7 +1220,7 @@
 
     invoke-direct {v5, p0, p1}, Lcom/commsource/camera/beauty/g;-><init>(Lcom/commsource/camera/beauty/h;Landroidx/fragment/app/FragmentActivity;)V
 
-    invoke-direct {v3, v0, v4, v5}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-direct {v3, v0, v4, v5}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lcotlin/jvm/u/l;)V
 
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -1378,7 +1378,7 @@
 
     invoke-direct {v5, p0, p1, p4}, Lcom/commsource/camera/beauty/e;-><init>(Lcom/commsource/camera/beauty/h;Landroidx/fragment/app/FragmentActivity;Lcom/commsource/camera/beauty/h$c;)V
 
-    invoke-direct {v3, v0, v4, v5}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-direct {v3, v0, v4, v5}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lcotlin/jvm/u/l;)V
 
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -1481,7 +1481,7 @@
 
     invoke-direct {v5, p0, p1, p4}, Lcom/commsource/camera/beauty/d;-><init>(Lcom/commsource/camera/beauty/h;Landroidx/fragment/app/FragmentActivity;Lcom/commsource/camera/beauty/h$c;)V
 
-    invoke-direct {v3, v0, v4, v5}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lkotlin/jvm/u/l;)V
+    invoke-direct {v3, v0, v4, v5}, Lcom/commsource/widget/dialog/delegate/c;-><init>(ILjava/lang/String;Lcotlin/jvm/u/l;)V
 
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 

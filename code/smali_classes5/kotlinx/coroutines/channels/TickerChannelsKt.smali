@@ -1,4 +1,4 @@
-.class public final Lkotlinx/coroutines/channels/TickerChannelsKt;
+.class public final Lcotlinx/coroutines/channels/TickerChannelsKt;
 .super Ljava/lang/Object;
 .source "TickerChannels.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nTickerChannels.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TickerChannels.kt\nkotlinx/coroutines/channels/TickerChannelsKt\n*L\n1#1,112:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -21,18 +21,18 @@
         "",
         "delayMillis",
         "initialDelayMillis",
-        "Lkotlin/coroutines/CoroutineContext;",
+        "Lcotlin/coroutines/CoroutineContext;",
         "context",
-        "Lkotlinx/coroutines/channels/TickerMode;",
+        "Lcotlinx/coroutines/channels/TickerMode;",
         "mode",
-        "Lkotlinx/coroutines/channels/y;",
-        "Lkotlin/t1;",
+        "Lcotlinx/coroutines/channels/y;",
+        "Lcotlin/t1;",
         "c",
-        "(JJLkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/channels/TickerMode;)Lkotlinx/coroutines/channels/y;",
-        "Lkotlinx/coroutines/channels/c0;",
+        "(JJLcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/channels/TickerMode;)Lcotlinx/coroutines/channels/y;",
+        "Lcotlinx/coroutines/channels/c0;",
         "channel",
         "b",
-        "(JJLkotlinx/coroutines/channels/c0;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "(JJLcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;",
         "a",
         "kotlinx-coroutines-core"
     }
@@ -46,26 +46,26 @@
 
 
 # direct methods
-.method static final synthetic a(JJLkotlinx/coroutines/channels/c0;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method static final synthetic a(JJLcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 8
-    .param p4    # Lkotlinx/coroutines/channels/c0;
+    .param p4    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p5    # Lkotlin/coroutines/c;
+    .param p5    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(JJ",
-            "Lkotlinx/coroutines/channels/c0<",
+            "Lcotlinx/coroutines/channels/c0<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Ljava/lang/Object;"
         }
@@ -74,15 +74,15 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    instance-of v0, p5, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;
+    instance-of v0, p5, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;
 
     if-eqz v0, :cond_0
 
     move-object v0, p5
 
-    check-cast v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;
+    check-cast v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;
 
-    iget v1, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->label:I
+    iget v1, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->label:I
 
     const/high16 v2, -0x80000000
 
@@ -92,24 +92,24 @@
 
     sub-int/2addr v1, v2
 
-    iput v1, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->label:I
+    iput v1, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;
+    new-instance v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;
 
-    invoke-direct {v0, p5}, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p5}, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;-><init>(Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object p5, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->result:Ljava/lang/Object;
+    iget-object p5, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 1
-    iget v2, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->label:I
+    iget v2, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->label:I
 
     const/4 v3, 0x3
 
@@ -125,15 +125,15 @@
 
     if-ne v2, v3, :cond_2
 
-    iget-object p0, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->L$0:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->L$0:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/channels/c0;
+    check-cast p0, Lcotlinx/coroutines/channels/c0;
 
-    iget-wide p1, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$1:J
+    iget-wide p1, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$1:J
 
-    iget-wide p3, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$0:J
+    iget-wide p3, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$0:J
 
-    invoke-static {p5}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p5}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     :cond_1
     move-wide v6, p3
@@ -158,46 +158,46 @@
 
     .line 3
     :cond_3
-    iget-object p0, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->L$0:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->L$0:Ljava/lang/Object;
 
-    check-cast p0, Lkotlinx/coroutines/channels/c0;
+    check-cast p0, Lcotlinx/coroutines/channels/c0;
 
-    iget-wide p1, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$1:J
+    iget-wide p1, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$1:J
 
-    iget-wide p3, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$0:J
+    iget-wide p3, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$0:J
 
-    invoke-static {p5}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p5}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_2
 
     :cond_4
-    iget-object p0, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->L$0:Ljava/lang/Object;
+    iget-object p0, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->L$0:Ljava/lang/Object;
 
     move-object p4, p0
 
-    check-cast p4, Lkotlinx/coroutines/channels/c0;
+    check-cast p4, Lcotlinx/coroutines/channels/c0;
 
-    iget-wide p2, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$1:J
+    iget-wide p2, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$1:J
 
-    iget-wide p0, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$0:J
+    iget-wide p0, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$0:J
 
-    invoke-static {p5}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p5}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_1
 
     :cond_5
-    invoke-static {p5}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {p5}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 4
-    iput-wide p0, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$0:J
+    iput-wide p0, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$0:J
 
-    iput-wide p2, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$1:J
+    iput-wide p2, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$1:J
 
-    iput-object p4, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->L$0:Ljava/lang/Object;
+    iput-object p4, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->L$0:Ljava/lang/Object;
 
-    iput v5, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->label:I
+    iput v5, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->label:I
 
-    invoke-static {p2, p3, v0}, Lkotlinx/coroutines/v0;->a(JLkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p2, p3, v0}, Lcotlinx/coroutines/v0;->a(JLcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p5
 
@@ -208,17 +208,17 @@
     .line 5
     :cond_6
     :goto_1
-    sget-object p5, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p5, Lcotlin/t1;->a:Lcotlin/t1;
 
-    iput-wide p0, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$0:J
+    iput-wide p0, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$0:J
 
-    iput-wide p2, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$1:J
+    iput-wide p2, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$1:J
 
-    iput-object p4, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->L$0:Ljava/lang/Object;
+    iput-object p4, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->L$0:Ljava/lang/Object;
 
-    iput v4, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->label:I
+    iput v4, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->label:I
 
-    invoke-interface {p4, p5, v0}, Lkotlinx/coroutines/channels/c0;->U(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p4, p5, v0}, Lcotlinx/coroutines/channels/c0;->U(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p5
 
@@ -237,15 +237,15 @@
 
     .line 6
     :goto_2
-    iput-wide p3, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$0:J
+    iput-wide p3, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$0:J
 
-    iput-wide p1, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$1:J
+    iput-wide p1, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->J$1:J
 
-    iput-object p0, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->L$0:Ljava/lang/Object;
 
-    iput v3, v0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->label:I
+    iput v3, v0, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;->label:I
 
-    invoke-static {p3, p4, v0}, Lkotlinx/coroutines/v0;->a(JLkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p3, p4, v0}, Lcotlinx/coroutines/v0;->a(JLcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p5
 
@@ -254,26 +254,26 @@
     return-object v1
 .end method
 
-.method static final synthetic b(JJLkotlinx/coroutines/channels/c0;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method static final synthetic b(JJLcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 21
-    .param p4    # Lkotlinx/coroutines/channels/c0;
+    .param p4    # Lcotlinx/coroutines/channels/c0;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p5    # Lkotlin/coroutines/c;
+    .param p5    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(JJ",
-            "Lkotlinx/coroutines/channels/c0<",
+            "Lcotlinx/coroutines/channels/c0<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "-",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)",
             "Ljava/lang/Object;"
         }
@@ -286,15 +286,15 @@
 
     move-object/from16 v2, p5
 
-    instance-of v3, v2, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;
+    instance-of v3, v2, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;
 
     if-eqz v3, :cond_0
 
     move-object v3, v2
 
-    check-cast v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;
+    check-cast v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;
 
-    iget v4, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
+    iget v4, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
 
     const/high16 v5, -0x80000000
 
@@ -304,24 +304,24 @@
 
     sub-int/2addr v4, v5
 
-    iput v4, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
+    iput v4, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
 
     goto :goto_0
 
     :cond_0
-    new-instance v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;
+    new-instance v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;
 
-    invoke-direct {v3, v2}, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v3, v2}, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;-><init>(Lcotlin/coroutines/c;)V
 
     :goto_0
-    iget-object v2, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->result:Ljava/lang/Object;
+    iget-object v2, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->result:Ljava/lang/Object;
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v4
 
     .line 1
-    iget v5, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
+    iget v5, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
 
     const/4 v6, 0x4
 
@@ -341,23 +341,23 @@
 
     if-ne v5, v6, :cond_1
 
-    iget-wide v0, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$5:J
+    iget-wide v0, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$5:J
 
-    iget-wide v0, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$4:J
+    iget-wide v0, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$4:J
 
-    iget-wide v0, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$3:J
+    iget-wide v0, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$3:J
 
-    iget-wide v9, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$2:J
+    iget-wide v9, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$2:J
 
-    iget-object v5, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->L$0:Ljava/lang/Object;
+    iget-object v5, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->L$0:Ljava/lang/Object;
 
-    check-cast v5, Lkotlinx/coroutines/channels/c0;
+    check-cast v5, Lcotlinx/coroutines/channels/c0;
 
-    iget-wide v11, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$1:J
+    iget-wide v11, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$1:J
 
-    iget-wide v13, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$0:J
+    iget-wide v13, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$0:J
 
-    invoke-static {v2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {v2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto/16 :goto_6
 
@@ -373,59 +373,59 @@
 
     .line 3
     :cond_2
-    iget-wide v0, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$6:J
+    iget-wide v0, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$6:J
 
-    iget-wide v0, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$5:J
+    iget-wide v0, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$5:J
 
-    iget-wide v0, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$4:J
+    iget-wide v0, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$4:J
 
-    iget-wide v0, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$3:J
+    iget-wide v0, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$3:J
 
-    iget-wide v9, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$2:J
+    iget-wide v9, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$2:J
 
-    iget-object v5, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->L$0:Ljava/lang/Object;
+    iget-object v5, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->L$0:Ljava/lang/Object;
 
-    check-cast v5, Lkotlinx/coroutines/channels/c0;
+    check-cast v5, Lcotlinx/coroutines/channels/c0;
 
-    iget-wide v11, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$1:J
+    iget-wide v11, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$1:J
 
-    iget-wide v13, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$0:J
+    iget-wide v13, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$0:J
 
-    invoke-static {v2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {v2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     const/4 v8, 0x3
 
     goto/16 :goto_6
 
     :cond_3
-    iget-wide v0, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$3:J
+    iget-wide v0, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$3:J
 
-    iget-wide v9, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$2:J
+    iget-wide v9, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$2:J
 
-    iget-object v5, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->L$0:Ljava/lang/Object;
+    iget-object v5, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->L$0:Ljava/lang/Object;
 
-    check-cast v5, Lkotlinx/coroutines/channels/c0;
+    check-cast v5, Lcotlinx/coroutines/channels/c0;
 
-    iget-wide v11, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$1:J
+    iget-wide v11, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$1:J
 
-    iget-wide v13, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$0:J
+    iget-wide v13, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$0:J
 
-    invoke-static {v2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {v2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto/16 :goto_4
 
     :cond_4
-    iget-wide v0, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$2:J
+    iget-wide v0, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$2:J
 
-    iget-object v5, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->L$0:Ljava/lang/Object;
+    iget-object v5, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->L$0:Ljava/lang/Object;
 
-    check-cast v5, Lkotlinx/coroutines/channels/c0;
+    check-cast v5, Lcotlinx/coroutines/channels/c0;
 
-    iget-wide v9, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$1:J
+    iget-wide v9, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$1:J
 
-    iget-wide v11, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$0:J
+    iget-wide v11, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$0:J
 
-    invoke-static {v2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {v2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     move-object v2, v5
 
@@ -438,20 +438,20 @@
     goto :goto_2
 
     :cond_5
-    invoke-static {v2}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static {v2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     .line 4
-    invoke-static {}, Lkotlinx/coroutines/m3;->b()Lkotlinx/coroutines/l3;
+    invoke-static {}, Lcotlinx/coroutines/m3;->b()Lcotlinx/coroutines/l3;
 
     move-result-object v2
 
     if-eqz v2, :cond_6
 
-    invoke-interface {v2}, Lkotlinx/coroutines/l3;->b()J
+    invoke-interface {v2}, Lcotlinx/coroutines/l3;->b()J
 
     move-result-wide v10
 
-    invoke-static {v10, v11}, Lkotlin/coroutines/jvm/internal/a;->g(J)Ljava/lang/Long;
+    invoke-static {v10, v11}, Lcotlin/coroutines/jvm/internal/a;->g(J)Ljava/lang/Long;
 
     move-result-object v2
 
@@ -469,7 +469,7 @@
     move-result-wide v10
 
     :goto_1
-    invoke-static/range {p2 .. p3}, Lkotlinx/coroutines/n1;->f(J)J
+    invoke-static/range {p2 .. p3}, Lcotlinx/coroutines/n1;->f(J)J
 
     move-result-wide v12
 
@@ -478,19 +478,19 @@
     move-wide/from16 v12, p0
 
     .line 5
-    iput-wide v12, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$0:J
+    iput-wide v12, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$0:J
 
-    iput-wide v0, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$1:J
+    iput-wide v0, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$1:J
 
     move-object/from16 v2, p4
 
-    iput-object v2, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->L$0:Ljava/lang/Object;
+    iput-object v2, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->L$0:Ljava/lang/Object;
 
-    iput-wide v10, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$2:J
+    iput-wide v10, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$2:J
 
-    iput v9, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
+    iput v9, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
 
-    invoke-static {v0, v1, v3}, Lkotlinx/coroutines/v0;->a(JLkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {v0, v1, v3}, Lcotlinx/coroutines/v0;->a(JLcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object v5
 
@@ -505,7 +505,7 @@
 
     .line 6
     :goto_2
-    invoke-static {v11, v12}, Lkotlinx/coroutines/n1;->f(J)J
+    invoke-static {v11, v12}, Lcotlinx/coroutines/n1;->f(J)J
 
     move-result-wide v13
 
@@ -513,21 +513,21 @@
     add-long/2addr v9, v13
 
     .line 7
-    sget-object v5, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v5, Lcotlin/t1;->a:Lcotlin/t1;
 
-    iput-wide v11, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$0:J
+    iput-wide v11, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$0:J
 
-    iput-wide v0, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$1:J
+    iput-wide v0, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$1:J
 
-    iput-object v2, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->L$0:Ljava/lang/Object;
+    iput-object v2, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->L$0:Ljava/lang/Object;
 
-    iput-wide v9, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$2:J
+    iput-wide v9, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$2:J
 
-    iput-wide v13, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$3:J
+    iput-wide v13, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$3:J
 
-    iput v8, v3, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
+    iput v8, v3, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
 
-    invoke-interface {v2, v5, v3}, Lkotlinx/coroutines/channels/c0;->U(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {v2, v5, v3}, Lcotlinx/coroutines/channels/c0;->U(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object v5
 
@@ -548,17 +548,17 @@
 
     .line 8
     :goto_4
-    invoke-static {}, Lkotlinx/coroutines/m3;->b()Lkotlinx/coroutines/l3;
+    invoke-static {}, Lcotlinx/coroutines/m3;->b()Lcotlinx/coroutines/l3;
 
     move-result-object v2
 
     if-eqz v2, :cond_9
 
-    invoke-interface {v2}, Lkotlinx/coroutines/l3;->b()J
+    invoke-interface {v2}, Lcotlinx/coroutines/l3;->b()J
 
     move-result-wide v15
 
-    invoke-static/range {v15 .. v16}, Lkotlin/coroutines/jvm/internal/a;->g(J)Ljava/lang/Long;
+    invoke-static/range {v15 .. v16}, Lcotlin/coroutines/jvm/internal/a;->g(J)Ljava/lang/Long;
 
     move-result-object v2
 
@@ -587,7 +587,7 @@
     const-wide/16 v8, 0x0
 
     .line 9
-    invoke-static {v2, v3, v8, v9}, Lkotlin/g2/o;->o(JJ)J
+    invoke-static {v2, v3, v8, v9}, Lcotlin/g2/o;->o(JJ)J
 
     move-result-wide v2
 
@@ -613,39 +613,39 @@
     move-wide/from16 v17, v6
 
     .line 11
-    invoke-static {v8, v9}, Lkotlinx/coroutines/n1;->e(J)J
+    invoke-static {v8, v9}, Lcotlinx/coroutines/n1;->e(J)J
 
     move-result-wide v6
 
     move-object v10, v15
 
-    iput-wide v13, v10, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$0:J
+    iput-wide v13, v10, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$0:J
 
-    iput-wide v11, v10, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$1:J
+    iput-wide v11, v10, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$1:J
 
-    iput-object v5, v10, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->L$0:Ljava/lang/Object;
+    iput-object v5, v10, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->L$0:Ljava/lang/Object;
 
-    iput-wide v2, v10, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$2:J
+    iput-wide v2, v10, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$2:J
 
-    iput-wide v0, v10, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$3:J
+    iput-wide v0, v10, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$3:J
 
     move-wide/from16 p1, v2
 
     move-wide/from16 v2, v17
 
-    iput-wide v2, v10, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$4:J
+    iput-wide v2, v10, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$4:J
 
     move-wide/from16 v2, p3
 
-    iput-wide v2, v10, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$5:J
+    iput-wide v2, v10, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$5:J
 
-    iput-wide v8, v10, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$6:J
+    iput-wide v8, v10, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$6:J
 
     const/4 v8, 0x3
 
-    iput v8, v10, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
+    iput v8, v10, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
 
-    invoke-static {v6, v7, v10}, Lkotlinx/coroutines/v0;->a(JLkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {v6, v7, v10}, Lcotlinx/coroutines/v0;->a(JLcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -682,33 +682,33 @@
     move-wide/from16 v6, v19
 
     .line 12
-    invoke-static {v6, v7}, Lkotlinx/coroutines/n1;->e(J)J
+    invoke-static {v6, v7}, Lcotlinx/coroutines/n1;->e(J)J
 
     move-result-wide v8
 
-    iput-wide v13, v10, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$0:J
+    iput-wide v13, v10, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$0:J
 
-    iput-wide v11, v10, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$1:J
+    iput-wide v11, v10, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$1:J
 
-    iput-object v5, v10, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->L$0:Ljava/lang/Object;
+    iput-object v5, v10, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->L$0:Ljava/lang/Object;
 
     move-wide/from16 v17, v11
 
     move-wide/from16 v11, p1
 
-    iput-wide v11, v10, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$2:J
+    iput-wide v11, v10, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$2:J
 
-    iput-wide v0, v10, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$3:J
+    iput-wide v0, v10, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$3:J
 
-    iput-wide v2, v10, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$4:J
+    iput-wide v2, v10, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$4:J
 
-    iput-wide v6, v10, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$5:J
+    iput-wide v6, v10, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->J$5:J
 
     const/4 v2, 0x4
 
-    iput v2, v10, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
+    iput v2, v10, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
 
-    invoke-static {v8, v9, v10}, Lkotlinx/coroutines/v0;->a(JLkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {v8, v9, v10}, Lcotlinx/coroutines/v0;->a(JLcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -737,29 +737,29 @@
     goto/16 :goto_3
 .end method
 
-.method public static final c(JJLkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/channels/TickerMode;)Lkotlinx/coroutines/channels/y;
+.method public static final c(JJLcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/channels/TickerMode;)Lcotlinx/coroutines/channels/y;
     .locals 11
-    .param p4    # Lkotlin/coroutines/CoroutineContext;
+    .param p4    # Lcotlin/coroutines/CoroutineContext;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p5    # Lkotlinx/coroutines/channels/TickerMode;
+    .param p5    # Lcotlinx/coroutines/channels/TickerMode;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(JJ",
-            "Lkotlin/coroutines/CoroutineContext;",
-            "Lkotlinx/coroutines/channels/TickerMode;",
+            "Lcotlin/coroutines/CoroutineContext;",
+            "Lcotlinx/coroutines/channels/TickerMode;",
             ")",
-            "Lkotlinx/coroutines/channels/y<",
-            "Lkotlin/t1;",
+            "Lcotlinx/coroutines/channels/y<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
 
-    .annotation build Lkotlinx/coroutines/r2;
+    .annotation build Lcotlinx/coroutines/r2;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -804,19 +804,19 @@
     if-eqz v0, :cond_2
 
     .line 1
-    sget-object v7, Lkotlinx/coroutines/u1;->a:Lkotlinx/coroutines/u1;
+    sget-object v7, Lcotlinx/coroutines/u1;->a:Lcotlinx/coroutines/u1;
 
-    invoke-static {}, Lkotlinx/coroutines/c1;->h()Lkotlinx/coroutines/CoroutineDispatcher;
+    invoke-static {}, Lcotlinx/coroutines/c1;->h()Lcotlinx/coroutines/CoroutineDispatcher;
 
     move-result-object v0
 
     move-object v1, p4
 
-    invoke-virtual {v0, p4}, Lkotlin/coroutines/a;->plus(Lkotlin/coroutines/CoroutineContext;)Lkotlin/coroutines/CoroutineContext;
+    invoke-virtual {v0, p4}, Lcotlin/coroutines/a;->plus(Lcotlin/coroutines/CoroutineContext;)Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v9
 
-    new-instance v10, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;
+    new-instance v10, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;
 
     const/4 v6, 0x0
 
@@ -828,9 +828,9 @@
 
     move-wide v4, p2
 
-    invoke-direct/range {v0 .. v6}, Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3;-><init>(Lkotlinx/coroutines/channels/TickerMode;JJLkotlin/coroutines/c;)V
+    invoke-direct/range {v0 .. v6}, Lcotlinx/coroutines/channels/TickerChannelsKt$ticker$3;-><init>(Lcotlinx/coroutines/channels/TickerMode;JJLcotlin/coroutines/c;)V
 
-    invoke-static {v7, v9, v8, v10}, Lkotlinx/coroutines/channels/ProduceKt;->c(Lkotlinx/coroutines/m0;Lkotlin/coroutines/CoroutineContext;ILkotlin/jvm/u/p;)Lkotlinx/coroutines/channels/y;
+    invoke-static {v7, v9, v8, v10}, Lcotlinx/coroutines/channels/ProduceKt;->c(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;ILcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object v0
 
@@ -893,7 +893,7 @@
     throw v1
 .end method
 
-.method public static synthetic d(JJLkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/channels/TickerMode;ILjava/lang/Object;)Lkotlinx/coroutines/channels/y;
+.method public static synthetic d(JJLcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/channels/TickerMode;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
     and-int/lit8 p7, p6, 0x2
@@ -908,7 +908,7 @@
     if-eqz p7, :cond_1
 
     .line 1
-    sget-object p4, Lkotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lkotlin/coroutines/EmptyCoroutineContext;
+    sget-object p4, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     :cond_1
     and-int/lit8 p6, p6, 0x8
@@ -916,10 +916,10 @@
     if-eqz p6, :cond_2
 
     .line 2
-    sget-object p5, Lkotlinx/coroutines/channels/TickerMode;->FIXED_PERIOD:Lkotlinx/coroutines/channels/TickerMode;
+    sget-object p5, Lcotlinx/coroutines/channels/TickerMode;->FIXED_PERIOD:Lcotlinx/coroutines/channels/TickerMode;
 
     :cond_2
-    invoke-static/range {p0 .. p5}, Lkotlinx/coroutines/channels/TickerChannelsKt;->c(JJLkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/channels/TickerMode;)Lkotlinx/coroutines/channels/y;
+    invoke-static/range {p0 .. p5}, Lcotlinx/coroutines/channels/TickerChannelsKt;->c(JJLcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/channels/TickerMode;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
 

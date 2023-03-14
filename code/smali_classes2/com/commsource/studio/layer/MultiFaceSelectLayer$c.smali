@@ -32,7 +32,7 @@
     value = "SMAP\nMultiFaceSelectLayer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MultiFaceSelectLayer.kt\ncom/commsource/studio/layer/MultiFaceSelectLayer$onInitOwner$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,179:1\n1828#2,3:180\n*E\n*S KotlinDebug\n*F\n+ 1 MultiFaceSelectLayer.kt\ncom/commsource/studio/layer/MultiFaceSelectLayer$onInitOwner$1\n*L\n103#1,3:180\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "",
         "kotlin.jvm.PlatformType",
         "it",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Ljava/lang/Integer;)V"
     }
@@ -113,7 +113,7 @@
 
     if-gez v2, :cond_0
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_0
     check-cast v3, Lcom/commsource/studio/layer/FaceOval;

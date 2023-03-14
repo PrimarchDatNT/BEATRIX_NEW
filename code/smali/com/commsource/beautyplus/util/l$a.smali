@@ -17,7 +17,7 @@
     value = "SMAP\nFontUtils.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FontUtils.kt\ncom/commsource/beautyplus/util/FontUtils$Companion\n*L\n1#1,36:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -37,7 +37,7 @@
         "a",
         "(Ljava/lang/String;Z)Landroid/graphics/Typeface;",
         "Ljava/util/HashMap;",
-        "Lkotlin/collections/HashMap;",
+        "Lcotlin/collections/HashMap;",
         "fontMap",
         "Ljava/util/HashMap;",
         "<init>",
@@ -63,7 +63,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -136,7 +136,7 @@
 
     .line 3
     :try_start_0
-    sget-object v2, Lkotlin/Result;->Companion:Lkotlin/Result$a;
+    sget-object v2, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
     if-eqz p2, :cond_1
 
@@ -147,7 +147,7 @@
 
     const-string v2, "AppContext.getContext()"
 
-    invoke-static {p2, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
@@ -169,10 +169,10 @@
     move-object v1, p1
 
     .line 6
-    sget-object p1, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     .line 7
-    invoke-static {p1}, Lkotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -181,13 +181,13 @@
     :catchall_0
     move-exception p1
 
-    sget-object p2, Lkotlin/Result;->Companion:Lkotlin/Result$a;
+    sget-object p2, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
-    invoke-static {p1}, Lkotlin/r0;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
+    invoke-static {p1}, Lcotlin/r0;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-static {p1}, Lkotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     :cond_2

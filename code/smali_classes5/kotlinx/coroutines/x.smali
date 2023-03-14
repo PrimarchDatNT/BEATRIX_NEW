@@ -1,4 +1,4 @@
-.class public final Lkotlinx/coroutines/x;
+.class public final Lcotlinx/coroutines/x;
 .super Ljava/lang/Object;
 .source "CompletableDeferred.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nCompletableDeferred.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CompletableDeferred.kt\nkotlinx/coroutines/CompletableDeferredKt\n*L\n1#1,93:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -19,19 +19,19 @@
     }
     d2 = {
         "T",
-        "Lkotlinx/coroutines/w;",
-        "Lkotlin/Result;",
+        "Lcotlinx/coroutines/w;",
+        "Lcotlin/Result;",
         "result",
         "",
         "d",
-        "(Lkotlinx/coroutines/w;Ljava/lang/Object;)Z",
-        "Lkotlinx/coroutines/c2;",
+        "(Lcotlinx/coroutines/w;Ljava/lang/Object;)Z",
+        "Lcotlinx/coroutines/c2;",
         "parent",
         "b",
-        "(Lkotlinx/coroutines/c2;)Lkotlinx/coroutines/w;",
+        "(Lcotlinx/coroutines/c2;)Lcotlinx/coroutines/w;",
         "value",
         "a",
-        "(Ljava/lang/Object;)Lkotlinx/coroutines/w;",
+        "(Ljava/lang/Object;)Lcotlinx/coroutines/w;",
         "kotlinx-coroutines-core"
     }
     k = 0x2
@@ -44,14 +44,14 @@
 
 
 # direct methods
-.method public static final a(Ljava/lang/Object;)Lkotlinx/coroutines/w;
+.method public static final a(Ljava/lang/Object;)Lcotlinx/coroutines/w;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(TT;)",
-            "Lkotlinx/coroutines/w<",
+            "Lcotlinx/coroutines/w<",
             "TT;>;"
         }
     .end annotation
@@ -60,20 +60,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/CompletableDeferredImpl;
+    new-instance v0, Lcotlinx/coroutines/CompletableDeferredImpl;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkotlinx/coroutines/CompletableDeferredImpl;-><init>(Lkotlinx/coroutines/c2;)V
+    invoke-direct {v0, v1}, Lcotlinx/coroutines/CompletableDeferredImpl;-><init>(Lcotlinx/coroutines/c2;)V
 
-    invoke-virtual {v0, p0}, Lkotlinx/coroutines/CompletableDeferredImpl;->D(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p0}, Lcotlinx/coroutines/CompletableDeferredImpl;->D(Ljava/lang/Object;)Z
 
     return-object v0
 .end method
 
-.method public static final b(Lkotlinx/coroutines/c2;)Lkotlinx/coroutines/w;
+.method public static final b(Lcotlinx/coroutines/c2;)Lcotlinx/coroutines/w;
     .locals 1
-    .param p0    # Lkotlinx/coroutines/c2;
+    .param p0    # Lcotlinx/coroutines/c2;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
@@ -82,9 +82,9 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/c2;",
+            "Lcotlinx/coroutines/c2;",
             ")",
-            "Lkotlinx/coroutines/w<",
+            "Lcotlinx/coroutines/w<",
             "TT;>;"
         }
     .end annotation
@@ -93,14 +93,14 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/CompletableDeferredImpl;
+    new-instance v0, Lcotlinx/coroutines/CompletableDeferredImpl;
 
-    invoke-direct {v0, p0}, Lkotlinx/coroutines/CompletableDeferredImpl;-><init>(Lkotlinx/coroutines/c2;)V
+    invoke-direct {v0, p0}, Lcotlinx/coroutines/CompletableDeferredImpl;-><init>(Lcotlinx/coroutines/c2;)V
 
     return-object v0
 .end method
 
-.method public static synthetic c(Lkotlinx/coroutines/c2;ILjava/lang/Object;)Lkotlinx/coroutines/w;
+.method public static synthetic c(Lcotlinx/coroutines/c2;ILjava/lang/Object;)Lcotlinx/coroutines/w;
     .locals 0
 
     and-int/lit8 p1, p1, 0x1
@@ -111,16 +111,16 @@
 
     .line 1
     :cond_0
-    invoke-static {p0}, Lkotlinx/coroutines/x;->b(Lkotlinx/coroutines/c2;)Lkotlinx/coroutines/w;
+    invoke-static {p0}, Lcotlinx/coroutines/x;->b(Lcotlinx/coroutines/c2;)Lcotlinx/coroutines/w;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final d(Lkotlinx/coroutines/w;Ljava/lang/Object;)Z
+.method public static final d(Lcotlinx/coroutines/w;Ljava/lang/Object;)Z
     .locals 1
-    .param p0    # Lkotlinx/coroutines/w;
+    .param p0    # Lcotlinx/coroutines/w;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -133,31 +133,31 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlinx/coroutines/w<",
+            "Lcotlinx/coroutines/w<",
             "TT;>;",
             "Ljava/lang/Object;",
             ")Z"
         }
     .end annotation
 
-    .annotation build Lkotlinx/coroutines/s1;
+    .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lkotlin/Result;->exceptionOrNull-impl(Ljava/lang/Object;)Ljava/lang/Throwable;
+    invoke-static {p1}, Lcotlin/Result;->exceptionOrNull-impl(Ljava/lang/Object;)Ljava/lang/Throwable;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    invoke-interface {p0, p1}, Lkotlinx/coroutines/w;->D(Ljava/lang/Object;)Z
+    invoke-interface {p0, p1}, Lcotlinx/coroutines/w;->D(Ljava/lang/Object;)Z
 
     move-result p0
 
     goto :goto_0
 
     :cond_0
-    invoke-interface {p0, v0}, Lkotlinx/coroutines/w;->e(Ljava/lang/Throwable;)Z
+    invoke-interface {p0, v0}, Lcotlinx/coroutines/w;->e(Ljava/lang/Throwable;)Z
 
     move-result p0
 

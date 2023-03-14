@@ -3,7 +3,7 @@
 .source "lambda"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # instance fields
@@ -36,7 +36,7 @@
 
     check-cast p1, Lcom/commsource/widget/dialog/delegate/b;
 
-    invoke-virtual {v0, v1, p1}, Lcom/commsource/widget/dialog/s0/t$a;->h(Lcom/commsource/widget/dialog/s0/t;Lcom/commsource/widget/dialog/delegate/b;)Lkotlin/t1;
+    invoke-virtual {v0, v1, p1}, Lcom/commsource/widget/dialog/s0/t$a;->h(Lcom/commsource/widget/dialog/s0/t;Lcom/commsource/widget/dialog/delegate/b;)Lcotlin/t1;
 
     move-result-object p1
 

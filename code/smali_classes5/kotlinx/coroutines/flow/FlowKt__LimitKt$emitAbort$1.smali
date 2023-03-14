@@ -1,11 +1,11 @@
-.class final Lkotlinx/coroutines/flow/FlowKt__LimitKt$emitAbort$1;
-.super Lkotlin/coroutines/jvm/internal/ContinuationImpl;
+.class final Lcotlinx/coroutines/flow/FlowKt__LimitKt$emitAbort$1;
+.super Lcotlin/coroutines/jvm/internal/ContinuationImpl;
 .source "Limit.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/FlowKt__LimitKt;->c(Lkotlinx/coroutines/flow/e;Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/flow/FlowKt__LimitKt;->c(Lcotlinx/coroutines/flow/e;Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -24,10 +24,10 @@
     }
     d2 = {
         "T",
-        "Lkotlinx/coroutines/flow/e;",
+        "Lcotlinx/coroutines/flow/e;",
         "value",
-        "Lkotlin/coroutines/c;",
-        "Lkotlin/t1;",
+        "Lcotlin/coroutines/c;",
+        "Lcotlin/t1;",
         "continuation",
         "",
         "emitAbort"
@@ -40,7 +40,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.flow.FlowKt__LimitKt"
     f = "Limit.kt"
     i = {
@@ -73,10 +73,10 @@
 
 
 # direct methods
-.method constructor <init>(Lkotlin/coroutines/c;)V
+.method constructor <init>(Lcotlin/coroutines/c;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {p0, p1}, Lcotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lcotlin/coroutines/c;)V
 
     return-void
 .end method
@@ -92,19 +92,19 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__LimitKt$emitAbort$1;->result:Ljava/lang/Object;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$emitAbort$1;->result:Ljava/lang/Object;
 
-    iget p1, p0, Lkotlinx/coroutines/flow/FlowKt__LimitKt$emitAbort$1;->label:I
+    iget p1, p0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$emitAbort$1;->label:I
 
     const/high16 v0, -0x80000000
 
     or-int/2addr p1, v0
 
-    iput p1, p0, Lkotlinx/coroutines/flow/FlowKt__LimitKt$emitAbort$1;->label:I
+    iput p1, p0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$emitAbort$1;->label:I
 
     const/4 p1, 0x0
 
-    invoke-static {p1, p1, p0}, Lkotlinx/coroutines/flow/FlowKt__LimitKt;->c(Lkotlinx/coroutines/flow/e;Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p1, p1, p0}, Lcotlinx/coroutines/flow/FlowKt__LimitKt;->c(Lcotlinx/coroutines/flow/e;Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
 

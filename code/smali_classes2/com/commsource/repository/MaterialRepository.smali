@@ -12,7 +12,7 @@
     value = "SMAP\nMaterialRepository.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MaterialRepository.kt\ncom/commsource/repository/MaterialRepository\n*L\n1#1,41:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -26,7 +26,7 @@
         "Lcom/commsource/repository/VersionController;",
         "Lcom/commsource/repository/b;",
         "Lcom/commsource/repository/e;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
         "()V",
         "b",
@@ -47,7 +47,7 @@
         "versionKey",
         "Lcom/meitu/room/database/MTBeautyplusDatabase;",
         "g",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "m",
         "()Lcom/meitu/room/database/MTBeautyplusDatabase;",
         "db",
@@ -65,7 +65,7 @@
 
 
 # instance fields
-.field private final g:Lkotlin/w;
+.field private final g:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -88,7 +88,7 @@
 
     const-string v0, "versionKey"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/repository/VersionController;-><init>(ILjava/lang/String;)V
@@ -100,11 +100,11 @@
     .line 2
     sget-object p1, Lcom/commsource/repository/MaterialRepository$db$2;->INSTANCE:Lcom/commsource/repository/MaterialRepository$db$2;
 
-    invoke-static {p1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/commsource/repository/MaterialRepository;->g:Lkotlin/w;
+    iput-object p1, p0, Lcom/commsource/repository/MaterialRepository;->g:Lcotlin/w;
 
     return-void
 .end method
@@ -157,9 +157,9 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    iget-object v0, p0, Lcom/commsource/repository/MaterialRepository;->g:Lkotlin/w;
+    iget-object v0, p0, Lcom/commsource/repository/MaterialRepository;->g:Lcotlin/w;
 
-    invoke-interface {v0}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 

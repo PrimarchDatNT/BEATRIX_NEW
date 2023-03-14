@@ -17,7 +17,7 @@
     value = "SMAP\nDispersionLayer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DispersionLayer.kt\ncom/commsource/studio/layer/DispersionLayer\n*L\n1#1,189:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "Lcom/commsource/studio/layer/c$a;",
         "",
         "point",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "J0",
         "([F)V",
         "Lcom/commsource/studio/MatrixBox;",
@@ -76,16 +76,16 @@
         "N0",
         "(Z)V",
         "isShowFirstTips",
-        "Lkotlin/Function1;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function1;",
+        "Lcotlin/k0;",
         "name",
         "center",
         "a0",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "K0",
-        "()Lkotlin/jvm/u/l;",
+        "()Lcotlin/jvm/u/l;",
         "M0",
-        "(Lkotlin/jvm/u/l;)V",
+        "(Lcotlin/jvm/u/l;)V",
         "centerPointChangeAction",
         "F",
         "centerLineWidth",
@@ -134,12 +134,12 @@
 
 .field private Z:Z
 
-.field private a0:Lkotlin/jvm/u/l;
+.field private a0:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-[F",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -165,7 +165,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/c;-><init>(Landroid/content/Context;)V
@@ -436,13 +436,13 @@
 
     move-result v3
 
-    invoke-static {v2, v3}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v2, v3}, Lcotlin/g2/o;->t(FF)F
 
     move-result v2
 
     const/4 v3, 0x0
 
-    invoke-static {v2, v3}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v2, v3}, Lcotlin/g2/o;->m(FF)F
 
     move-result v2
 
@@ -457,11 +457,11 @@
 
     move-result v4
 
-    invoke-static {v2, v4}, Lkotlin/g2/o;->t(FF)F
+    invoke-static {v2, v4}, Lcotlin/g2/o;->t(FF)F
 
     move-result v2
 
-    invoke-static {v2, v3}, Lkotlin/g2/o;->m(FF)F
+    invoke-static {v2, v3}, Lcotlin/g2/o;->m(FF)F
 
     move-result v2
 
@@ -505,14 +505,14 @@
 
 
 # virtual methods
-.method public final K0()Lkotlin/jvm/u/l;
+.method public final K0()Lcotlin/jvm/u/l;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "[F",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -525,7 +525,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer;->a0:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer;->a0:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -547,18 +547,18 @@
     return v1
 .end method
 
-.method public final M0(Lkotlin/jvm/u/l;)V
+.method public final M0(Lcotlin/jvm/u/l;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-[F",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -568,7 +568,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->a0:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->a0:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -652,7 +652,7 @@
 
     const-string v1, "matrixBox"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;->Z(Lcom/commsource/studio/MatrixBox;)V
@@ -706,7 +706,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-boolean p3, p0, Lcom/commsource/studio/layer/DispersionLayer;->b0:Z
@@ -729,17 +729,17 @@
     invoke-direct {p0, p3}, Lcom/commsource/studio/layer/DispersionLayer;->J0([F)V
 
     .line 5
-    iget-object p2, p0, Lcom/commsource/studio/layer/DispersionLayer;->a0:Lkotlin/jvm/u/l;
+    iget-object p2, p0, Lcom/commsource/studio/layer/DispersionLayer;->a0:Lcotlin/jvm/u/l;
 
     if-eqz p2, :cond_0
 
     iget-object p3, p0, Lcom/commsource/studio/layer/DispersionLayer;->Y:[F
 
-    invoke-interface {p2, p3}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
-    check-cast p2, Lkotlin/t1;
+    check-cast p2, Lcotlin/t1;
 
     .line 6
     :cond_0
@@ -765,7 +765,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p3, p0, Lcom/commsource/studio/layer/DispersionLayer;->Y:[F
@@ -783,17 +783,17 @@
     invoke-direct {p0, p3}, Lcom/commsource/studio/layer/DispersionLayer;->J0([F)V
 
     .line 4
-    iget-object p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->a0:Lkotlin/jvm/u/l;
+    iget-object p1, p0, Lcom/commsource/studio/layer/DispersionLayer;->a0:Lcotlin/jvm/u/l;
 
     if-eqz p1, :cond_0
 
     iget-object p2, p0, Lcom/commsource/studio/layer/DispersionLayer;->Y:[F
 
-    invoke-interface {p1, p2}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 5
     :cond_0
@@ -815,7 +815,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p3, p0, Lcom/commsource/studio/layer/DispersionLayer;->Y:[F
@@ -833,17 +833,17 @@
     invoke-direct {p0, p3}, Lcom/commsource/studio/layer/DispersionLayer;->J0([F)V
 
     .line 4
-    iget-object p2, p0, Lcom/commsource/studio/layer/DispersionLayer;->a0:Lkotlin/jvm/u/l;
+    iget-object p2, p0, Lcom/commsource/studio/layer/DispersionLayer;->a0:Lcotlin/jvm/u/l;
 
     if-eqz p2, :cond_0
 
     iget-object p3, p0, Lcom/commsource/studio/layer/DispersionLayer;->Y:[F
 
-    invoke-interface {p2, p3}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p3}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
-    check-cast p2, Lkotlin/t1;
+    check-cast p2, Lcotlin/t1;
 
     .line 5
     :cond_0
@@ -882,7 +882,7 @@
 
     const-string v1, "motionEvent"
 
-    invoke-static {p3, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->e(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
@@ -921,17 +921,17 @@
     invoke-direct {p0, p4}, Lcom/commsource/studio/layer/DispersionLayer;->J0([F)V
 
     .line 4
-    iget-object p2, p0, Lcom/commsource/studio/layer/DispersionLayer;->a0:Lkotlin/jvm/u/l;
+    iget-object p2, p0, Lcom/commsource/studio/layer/DispersionLayer;->a0:Lcotlin/jvm/u/l;
 
     if-eqz p2, :cond_0
 
     iget-object p4, p0, Lcom/commsource/studio/layer/DispersionLayer;->Y:[F
 
-    invoke-interface {p2, p4}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p4}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
-    check-cast p2, Lkotlin/t1;
+    check-cast p2, Lcotlin/t1;
 
     .line 5
     :cond_0

@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -18,7 +18,7 @@
         "",
         "Lcom/commsource/video/render/b;",
         "renderCallback",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "setRenderCallback",
         "(Lcom/commsource/video/render/b;)V",
         "",

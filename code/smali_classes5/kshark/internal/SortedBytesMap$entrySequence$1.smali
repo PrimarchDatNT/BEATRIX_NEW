@@ -1,14 +1,14 @@
 .class final Lkshark/internal/SortedBytesMap$entrySequence$1;
-.super Lkotlin/jvm/internal/Lambda;
+.super Lcotlin/jvm/internal/Lambda;
 .source "SortedBytesMap.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/l;
+.implements Lcotlin/jvm/u/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkshark/internal/SortedBytesMap;->i()Lkotlin/sequences/m;
+    value = Lkshark/internal/SortedBytesMap;->i()Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,10 +18,10 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/l<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/l<",
         "Ljava/lang/Integer;",
-        "Lkotlin/Pair<",
+        "Lcotlin/Pair<",
         "+",
         "Ljava/lang/Long;",
         "+",
@@ -30,7 +30,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -42,11 +42,11 @@
     d2 = {
         "",
         "keyIndex",
-        "Lkotlin/Pair;",
+        "Lcotlin/Pair;",
         "",
         "Lkshark/internal/a;",
         "invoke",
-        "(I)Lkotlin/Pair;",
+        "(I)Lcotlin/Pair;",
         "<anonymous>"
     }
     k = 0x3
@@ -70,7 +70,7 @@
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, p1}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -87,19 +87,19 @@
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Lkshark/internal/SortedBytesMap$entrySequence$1;->invoke(I)Lkotlin/Pair;
+    invoke-virtual {p0, p1}, Lkshark/internal/SortedBytesMap$entrySequence$1;->invoke(I)Lcotlin/Pair;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(I)Lkotlin/Pair;
+.method public final invoke(I)Lcotlin/Pair;
     .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)",
-            "Lkotlin/Pair<",
+            "Lcotlin/Pair<",
             "Ljava/lang/Long;",
             "Lkshark/internal/a;",
             ">;"
@@ -159,7 +159,7 @@
 
     invoke-direct {v1, v2, v0, v3, v4}, Lkshark/internal/a;-><init>([BIIZ)V
 
-    invoke-static {p1, v1}, Lkotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {p1, v1}, Lcotlin/z0;->a(Ljava/lang/Object;Ljava/lang/Object;)Lcotlin/Pair;
 
     move-result-object p1
 

@@ -8,7 +8,7 @@
     value = "SMAP\nMTEffectRenderProxy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MTEffectRenderProxy.kt\ncom/commsource/studio/render/MTEffectRenderProxy\n*L\n1#1,54:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,7 +20,7 @@
     d2 = {
         "Lcom/commsource/studio/r0/s;",
         "Lcom/commsource/camera/newrender/renderproxy/n;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "h",
         "()V",
         "",
@@ -87,7 +87,7 @@
 
     const/4 v1, 0x3
 
-    invoke-direct {p0, v0, v0, v1, v0}, Lcom/commsource/studio/r0/s;-><init>(Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+    invoke-direct {p0, v0, v0, v1, v0}, Lcom/commsource/studio/r0/s;-><init>(Ljava/lang/String;Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     return-void
 .end method
@@ -105,7 +105,7 @@
 
     const-string v0, "configName"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Lcom/commsource/camera/newrender/renderproxy/n;-><init>()V
@@ -117,7 +117,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Ljava/lang/String;Ljava/lang/String;ILcotlin/jvm/internal/u;)V
     .locals 0
 
     and-int/lit8 p4, p3, 0x1
@@ -210,7 +210,7 @@
 
     const-string v2, "mtEffectRender"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/core/MTFilterGLRender;->releaseGL()V
@@ -235,7 +235,7 @@
 
     const-string v1, "mtEffectRender"
 
-    invoke-static {v1}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     move v1, p1
@@ -272,7 +272,7 @@
 
     const-string v1, "materialPath"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/r0/s;->g:Lcom/meitu/render/b;
@@ -281,7 +281,7 @@
 
     const-string v2, "mtEffectRender"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     new-instance v2, Ljava/lang/StringBuilder;
@@ -347,7 +347,7 @@
 
     const-string v2, "mtEffectRender"
 
-    invoke-static {v2}, Lkotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -387,7 +387,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/r0/s;->g:Lcom/meitu/render/b;

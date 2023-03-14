@@ -25,7 +25,7 @@
     value = "SMAP\nBackgroundAdjustFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BackgroundAdjustFragment.kt\ncom/commsource/studio/function/background/BackgroundAdjustFragment$tracker$2$1\n*L\n1#1,494:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -45,7 +45,7 @@
         "int",
         "Landroidx/recyclerview/widget/RecyclerView$ViewHolder;",
         "viewHolder",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "o",
         "(Ljava/lang/Integer;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V",
         "app_googleplayRelease"

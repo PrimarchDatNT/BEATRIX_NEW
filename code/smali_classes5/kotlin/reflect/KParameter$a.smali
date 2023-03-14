@@ -1,11 +1,11 @@
-.class public final Lkotlin/reflect/KParameter$a;
+.class public final Lcotlin/reflect/KParameter$a;
 .super Ljava/lang/Object;
 .source "KParameter.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/reflect/KParameter;
+    value = Lcotlin/reflect/KParameter;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
 # direct methods
 .method public static synthetic a()V
     .locals 0
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 

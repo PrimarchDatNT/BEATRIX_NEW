@@ -1,5 +1,5 @@
-.class final Lkotlin/collections/c$d;
-.super Lkotlin/collections/c;
+.class final Lcotlin/collections/c$d;
+.super Lcotlin/collections/c;
 .source "AbstractList.kt"
 
 # interfaces
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/collections/c;
+    value = Lcotlin/collections/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -21,13 +21,13 @@
         "<E:",
         "Ljava/lang/Object;",
         ">",
-        "Lkotlin/collections/c<",
+        "Lcotlin/collections/c<",
         "TE;>;",
         "Ljava/util/RandomAccess;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,9 +39,9 @@
     d2 = {
         "kotlin/collections/c$d",
         "E",
-        "Lkotlin/collections/c;",
+        "Lcotlin/collections/c;",
         "Ljava/util/RandomAccess;",
-        "Lkotlin/collections/RandomAccess;",
+        "Lcotlin/collections/RandomAccess;",
         "",
         "index",
         "get",
@@ -54,11 +54,11 @@
         "d",
         "fromIndex",
         "c",
-        "Lkotlin/collections/c;",
+        "Lcotlin/collections/c;",
         "list",
         "toIndex",
         "<init>",
-        "(Lkotlin/collections/c;II)V",
+        "(Lcotlin/collections/c;II)V",
         "kotlin-stdlib"
     }
     k = 0x1
@@ -73,10 +73,10 @@
 # instance fields
 .field private b:I
 
-.field private final c:Lkotlin/collections/c;
+.field private final c:Lcotlin/collections/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/collections/c<",
+            "Lcotlin/collections/c<",
             "TE;>;"
         }
     .end annotation
@@ -86,44 +86,44 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/collections/c;II)V
+.method public constructor <init>(Lcotlin/collections/c;II)V
     .locals 1
-    .param p1    # Lkotlin/collections/c;
+    .param p1    # Lcotlin/collections/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/collections/c<",
+            "Lcotlin/collections/c<",
             "+TE;>;II)V"
         }
     .end annotation
 
     const-string v0, "list"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0}, Lkotlin/collections/c;-><init>()V
+    invoke-direct {p0}, Lcotlin/collections/c;-><init>()V
 
-    iput-object p1, p0, Lkotlin/collections/c$d;->c:Lkotlin/collections/c;
+    iput-object p1, p0, Lcotlin/collections/c$d;->c:Lcotlin/collections/c;
 
-    iput p2, p0, Lkotlin/collections/c$d;->d:I
+    iput p2, p0, Lcotlin/collections/c$d;->d:I
 
     .line 2
-    sget-object v0, Lkotlin/collections/c;->a:Lkotlin/collections/c$a;
+    sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
-    invoke-virtual {p1}, Lkotlin/collections/AbstractCollection;->size()I
+    invoke-virtual {p1}, Lcotlin/collections/AbstractCollection;->size()I
 
     move-result p1
 
-    invoke-virtual {v0, p2, p3, p1}, Lkotlin/collections/c$a;->d(III)V
+    invoke-virtual {v0, p2, p3, p1}, Lcotlin/collections/c$a;->d(III)V
 
     sub-int/2addr p3, p2
 
     .line 3
-    iput p3, p0, Lkotlin/collections/c$d;->b:I
+    iput p3, p0, Lcotlin/collections/c$d;->b:I
 
     return-void
 .end method
@@ -134,7 +134,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lkotlin/collections/c$d;->b:I
+    iget v0, p0, Lcotlin/collections/c$d;->b:I
 
     return v0
 .end method
@@ -148,20 +148,20 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lkotlin/collections/c;->a:Lkotlin/collections/c$a;
+    sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
-    iget v1, p0, Lkotlin/collections/c$d;->b:I
+    iget v1, p0, Lcotlin/collections/c$d;->b:I
 
-    invoke-virtual {v0, p1, v1}, Lkotlin/collections/c$a;->b(II)V
+    invoke-virtual {v0, p1, v1}, Lcotlin/collections/c$a;->b(II)V
 
     .line 2
-    iget-object v0, p0, Lkotlin/collections/c$d;->c:Lkotlin/collections/c;
+    iget-object v0, p0, Lcotlin/collections/c$d;->c:Lcotlin/collections/c;
 
-    iget v1, p0, Lkotlin/collections/c$d;->d:I
+    iget v1, p0, Lcotlin/collections/c$d;->d:I
 
     add-int/2addr v1, p1
 
-    invoke-virtual {v0, v1}, Lkotlin/collections/c;->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lcotlin/collections/c;->get(I)Ljava/lang/Object;
 
     move-result-object p1
 

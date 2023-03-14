@@ -28,7 +28,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -112,9 +112,9 @@
 
     const-string v2, "colorAdapter.items"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {v1}, Lkotlin/collections/s;->G(Ljava/util/List;)I
+    invoke-static {v1}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result v1
 
@@ -133,7 +133,7 @@
 
     move-result-object p1
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -144,7 +144,7 @@
     .line 3
     iget-object p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$g;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
-    invoke-static {p1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->e(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;)Lkotlin/jvm/u/l;
+    invoke-static {p1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->e(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;)Lcotlin/jvm/u/l;
 
     move-result-object p1
 
@@ -160,20 +160,20 @@
 
     move-result-object v1
 
-    invoke-interface {p1, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     goto :goto_0
 
     :cond_0
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type kotlin.String"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

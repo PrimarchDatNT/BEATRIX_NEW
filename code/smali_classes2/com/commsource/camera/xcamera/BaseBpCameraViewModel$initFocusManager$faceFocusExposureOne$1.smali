@@ -1,9 +1,9 @@
 .class final synthetic Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$initFocusManager$faceFocusExposureOne$1;
-.super Lkotlin/jvm/internal/FunctionReference;
+.super Lcotlin/jvm/internal/FunctionReference;
 .source "BaseBpCameraViewModel.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/s;
+.implements Lcotlin/jvm/u/s;
 
 
 # annotations
@@ -18,8 +18,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/FunctionReference;",
-        "Lkotlin/jvm/u/s<",
+        "Lcotlin/jvm/internal/FunctionReference;",
+        "Lcotlin/jvm/u/s<",
         "[B",
         "Ljava/lang/Integer;",
         "Ljava/lang/Integer;",
@@ -30,7 +30,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
     }
     d2 = {
         "",
-        "Lkotlin/k0;",
+        "Lcotlin/k0;",
         "name",
         "p0",
         "kotlin.jvm.PlatformType",
@@ -93,7 +93,7 @@
 
     const/4 v0, 0x5
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/FunctionReference;-><init>(I)V
+    invoke-direct {p0, v0}, Lcotlin/jvm/internal/FunctionReference;-><init>(I)V
 
     return-void
 .end method
@@ -114,7 +114,7 @@
     return-object v0
 .end method
 
-.method public final getOwner()Lkotlin/reflect/h;
+.method public final getOwner()Lcotlin/reflect/h;
     .locals 2
 
     const v0, 0x87f1
@@ -123,7 +123,7 @@
 
     const-class v1, Lcom/meitu/mtlab/beautyplus/utils/FaceDetectUtil;
 
-    invoke-static {v1}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v1}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v1
 

@@ -1,10 +1,10 @@
-.class public final Lkotlin/io/d;
+.class public final Lcotlin/io/d;
 .super Ljava/lang/Object;
 .source "Constants.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
     }
 .end annotation
 
-.annotation build Lkotlin/jvm/g;
+.annotation build Lcotlin/jvm/g;
     name = "ConstantsKt"
 .end annotation
 

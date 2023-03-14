@@ -18,7 +18,7 @@
     value = "SMAP\nMultiFaceEffectProcessor.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MultiFaceEffectProcessor.kt\ncom/commsource/studio/processor/MultiFaceEffectProcessor\n*L\n1#1,117:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -32,7 +32,7 @@
         "Lcom/commsource/camera/newrender/renderproxy/n;",
         "R",
         "Lcom/commsource/studio/processor/m;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "()V",
         "c",
@@ -100,7 +100,7 @@
 
     const-string v0, "renderProxy"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/processor/m;-><init>(Lcom/commsource/camera/newrender/renderproxy/n;)V
@@ -184,7 +184,7 @@
 
     const-string v2, "srcFBO"
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-nez v1, :cond_0
 
@@ -540,7 +540,7 @@
 
     invoke-direct {v0, p1, p0}, Lcom/commsource/studio/processor/MultiFaceEffectProcessor$selectFaceIndex$$inlined$let$lambda$1;-><init>(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/studio/processor/MultiFaceEffectProcessor;)V
 
-    invoke-virtual {p0, v0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p0, v0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
     :cond_0
     return-void
@@ -667,7 +667,7 @@
 
     const-string v0, "fboEntity"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->r(Lcom/commsource/easyeditor/utils/opengl/f;)V
@@ -696,7 +696,7 @@
 
     const-string v0, "disFBO"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->j()Z
@@ -716,7 +716,7 @@
     if-nez v2, :cond_1
 
     .line 3
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->e()Lcom/commsource/easyeditor/utils/opengl/f;
@@ -737,7 +737,7 @@
 
     move-object v1, p0
 
-    invoke-static/range {v1 .. v8}, Lcom/commsource/studio/processor/BaseEffectProcessor;->w(Lcom/commsource/studio/processor/BaseEffectProcessor;Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/camera/newrender/renderproxy/n;ZLkotlin/jvm/u/a;ILjava/lang/Object;)V
+    invoke-static/range {v1 .. v8}, Lcom/commsource/studio/processor/BaseEffectProcessor;->w(Lcom/commsource/studio/processor/BaseEffectProcessor;Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/camera/newrender/renderproxy/n;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
     goto :goto_0
 

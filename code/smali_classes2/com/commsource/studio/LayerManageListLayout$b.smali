@@ -17,7 +17,7 @@
     value = "SMAP\nLayerManageListLayout.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LayerManageListLayout.kt\ncom/commsource/studio/LayerManageListLayout$GestureListener\n*L\n1#1,1278:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -55,7 +55,7 @@
         "velocityY",
         "onFlingFromBottomToTop",
         "onFlingFromTopToBottom",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "d",
         "(F)V",
         "f",
@@ -274,7 +274,7 @@
 
     move-result-object v2
 
-    invoke-static {p1}, Lkotlin/e2/b;->H0(F)I
+    invoke-static {p1}, Lcotlin/e2/b;->H0(F)I
 
     move-result p1
 
@@ -364,7 +364,7 @@
 
     const-string v1, "downEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
@@ -380,7 +380,7 @@
 
     move-result v1
 
-    invoke-static {v1}, Lkotlin/e2/b;->H0(F)I
+    invoke-static {v1}, Lcotlin/e2/b;->H0(F)I
 
     move-result v1
 
@@ -398,7 +398,7 @@
 
     add-float/2addr p1, v2
 
-    invoke-static {p1}, Lkotlin/e2/b;->H0(F)I
+    invoke-static {p1}, Lcotlin/e2/b;->H0(F)I
 
     move-result p1
 
@@ -460,7 +460,7 @@
 
     const-string v1, "downEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
@@ -571,11 +571,11 @@
 
     const-string v1, "downEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "moveEvent"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
@@ -716,7 +716,7 @@
 
     move-result p2
 
-    invoke-static {p2}, Lkotlin/e2/b;->H0(F)I
+    invoke-static {p2}, Lcotlin/e2/b;->H0(F)I
 
     move-result p2
 
@@ -734,7 +734,7 @@
 
     add-float/2addr p1, p3
 
-    invoke-static {p1}, Lkotlin/e2/b;->H0(F)I
+    invoke-static {p1}, Lcotlin/e2/b;->H0(F)I
 
     move-result p1
 
@@ -793,7 +793,7 @@
 
     move-result p2
 
-    invoke-static {p4}, Lkotlin/e2/b;->H0(F)I
+    invoke-static {p4}, Lcotlin/e2/b;->H0(F)I
 
     move-result p3
 
@@ -843,18 +843,18 @@
 
     const-string v1, "downEvent"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v1, "upEvent"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
 
-    invoke-static {v1}, Lkotlin/e2/b;->H0(F)I
+    invoke-static {v1}, Lcotlin/e2/b;->H0(F)I
 
     move-result v1
 
@@ -872,7 +872,7 @@
 
     add-float/2addr v2, v3
 
-    invoke-static {v2}, Lkotlin/e2/b;->H0(F)I
+    invoke-static {v2}, Lcotlin/e2/b;->H0(F)I
 
     move-result v2
 
@@ -885,17 +885,17 @@
     .line 2
     iget-object v2, p0, Lcom/commsource/studio/LayerManageListLayout$b;->g:Lcom/commsource/studio/LayerManageListLayout;
 
-    invoke-virtual {v2}, Lcom/commsource/studio/LayerManageListLayout;->getLayerInfoClickListener()Lkotlin/jvm/u/l;
+    invoke-virtual {v2}, Lcom/commsource/studio/LayerManageListLayout;->getLayerInfoClickListener()Lcotlin/jvm/u/l;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    invoke-interface {v2, v1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v2, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lkotlin/t1;
+    check-cast v1, Lcotlin/t1;
 
     .line 3
     :cond_0

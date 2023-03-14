@@ -1,4 +1,4 @@
-.class final Lkotlin/z1/b$f;
+.class final Lcotlin/z1/b$f;
 .super Ljava/lang/Object;
 .source "Comparisons.kt"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/z1/b;->n(Ljava/util/Comparator;)Ljava/util/Comparator;
+    value = Lcotlin/z1/b;->n(Ljava/util/Comparator;)Ljava/util/Comparator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,7 +27,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -63,7 +63,7 @@
 .method constructor <init>(Ljava/util/Comparator;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlin/z1/b$f;->a:Ljava/util/Comparator;
+    iput-object p1, p0, Lcotlin/z1/b$f;->a:Ljava/util/Comparator;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -110,7 +110,7 @@
 
     .line 1
     :cond_2
-    iget-object v0, p0, Lkotlin/z1/b$f;->a:Ljava/util/Comparator;
+    iget-object v0, p0, Lcotlin/z1/b$f;->a:Ljava/util/Comparator;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
 

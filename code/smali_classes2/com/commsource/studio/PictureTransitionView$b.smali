@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
         "",
         "fraction",
         "value",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(FF)V",
         "Lcom/commsource/camera/f1/l;",
@@ -86,17 +86,17 @@
     .line 2
     iget-object p1, p0, Lcom/commsource/studio/PictureTransitionView$b;->a:Lcom/commsource/studio/PictureTransitionView;
 
-    invoke-virtual {p1}, Lcom/commsource/studio/PictureTransitionView;->getEndAction()Lkotlin/jvm/u/a;
+    invoke-virtual {p1}, Lcom/commsource/studio/PictureTransitionView;->getEndAction()Lcotlin/jvm/u/a;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 3
     :cond_0
@@ -104,7 +104,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p1, v1}, Lcom/commsource/studio/PictureTransitionView;->setEndAction(Lkotlin/jvm/u/a;)V
+    invoke-virtual {p1, v1}, Lcom/commsource/studio/PictureTransitionView;->setEndAction(Lcotlin/jvm/u/a;)V
 
     .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

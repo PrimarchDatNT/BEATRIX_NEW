@@ -1,11 +1,11 @@
-.class abstract Lkotlin/io/h$a;
-.super Lkotlin/io/h$c;
+.class abstract Lcotlin/io/h$a;
+.super Lcotlin/io/h$c;
 .source "FileTreeWalk.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/io/h;
+    value = Lcotlin/io/h;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,7 +17,7 @@
     value = "SMAP\nFileTreeWalk.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FileTreeWalk.kt\nkotlin/io/FileTreeWalk$DirectoryState\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,273:1\n1#2:274\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,7 +28,7 @@
     }
     d2 = {
         "kotlin/io/h$a",
-        "Lkotlin/io/h$c;",
+        "Lcotlin/io/h$c;",
         "Ljava/io/File;",
         "rootDir",
         "<init>",
@@ -54,10 +54,10 @@
 
     const-string v0, "rootDir"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0, p1}, Lkotlin/io/h$c;-><init>(Ljava/io/File;)V
+    invoke-direct {p0, p1}, Lcotlin/io/h$c;-><init>(Ljava/io/File;)V
 
     return-void
 .end method

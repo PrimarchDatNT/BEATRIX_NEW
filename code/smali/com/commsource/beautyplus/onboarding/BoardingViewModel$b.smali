@@ -16,7 +16,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "",
         "p0",
         "p1",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "(DD)V",
         "onFailed",
@@ -216,7 +216,7 @@
 
     const-string p3, "BPLocationUtils.getLocat\u2026(AppContext.getContext())"
 
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/meitu/countrylocation/LocationBean;->getCountry_code()Ljava/lang/String;
 

@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -65,7 +65,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
@@ -168,7 +168,7 @@
     move-object v2, p2
 
     .line 4
-    invoke-static/range {v2 .. v7}, Lkotlin/text/m;->A3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
+    invoke-static/range {v2 .. v7}, Lcotlin/text/m;->A3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
 
     move-result p1
 
@@ -184,14 +184,14 @@
     const-string p4, " "
 
     .line 6
-    invoke-static {p4, p1}, Lkotlin/text/m;->e2(Ljava/lang/CharSequence;I)Ljava/lang/String;
+    invoke-static {p4, p1}, Lcotlin/text/m;->e2(Ljava/lang/CharSequence;I)Ljava/lang/String;
 
     move-result-object p1
 
     const-string p4, "~"
 
     .line 7
-    invoke-static {p4, p3}, Lkotlin/text/m;->e2(Ljava/lang/CharSequence;I)Ljava/lang/String;
+    invoke-static {p4, p3}, Lcotlin/text/m;->e2(Ljava/lang/CharSequence;I)Ljava/lang/String;
 
     move-result-object p3
 

@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -19,7 +19,7 @@
     d2 = {
         "Lcom/commsource/editengine/f;",
         "Lcom/commsource/easyeditor/utils/opengl/a;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
         "()V",
         "Lcom/commsource/easyeditor/utils/opengl/f;",
@@ -40,10 +40,10 @@
         "onSurfaceCreated",
         "onDestroy",
         "l",
-        "Lkotlin/Function0;",
+        "Lcotlin/Function0;",
         "afterRender",
         "m",
-        "(Lkotlin/jvm/u/a;)V",
+        "(Lcotlin/jvm/u/a;)V",
         "Landroid/graphics/Point;",
         "Landroid/graphics/Point;",
         "k",
@@ -405,7 +405,7 @@
 
     move-result v5
 
-    invoke-static {v5}, Lkotlin/e2/b;->H0(F)I
+    invoke-static {v5}, Lcotlin/e2/b;->H0(F)I
 
     move-result v5
 
@@ -413,7 +413,7 @@
 
     move-result v1
 
-    invoke-static {v1}, Lkotlin/e2/b;->H0(F)I
+    invoke-static {v1}, Lcotlin/e2/b;->H0(F)I
 
     move-result v1
 
@@ -460,7 +460,7 @@
 
     const-string v1, "eglProvider"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/editengine/f;->d:Lcom/commsource/editengine/b;
@@ -630,17 +630,17 @@
     return-void
 .end method
 
-.method public final m(Lkotlin/jvm/u/a;)V
+.method public final m(Lcotlin/jvm/u/a;)V
     .locals 3
-    .param p1    # Lkotlin/jvm/u/a;
+    .param p1    # Lcotlin/jvm/u/a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/a<",
-            "Lkotlin/t1;",
+            "Lcotlin/jvm/u/a<",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -651,7 +651,7 @@
 
     const-string v1, "afterRender"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/editengine/f;->d:Lcom/commsource/editengine/b;
@@ -664,7 +664,7 @@
 
     new-instance v2, Lcom/commsource/editengine/f$a;
 
-    invoke-direct {v2, p1}, Lcom/commsource/editengine/f$a;-><init>(Lkotlin/jvm/u/a;)V
+    invoke-direct {v2, p1}, Lcom/commsource/editengine/f$a;-><init>(Lcotlin/jvm/u/a;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/easyeditor/utils/opengl/e;->F(Ljava/lang/Runnable;)V
 
@@ -688,7 +688,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/editengine/f;->p:Lcom/commsource/studio/MatrixBox;

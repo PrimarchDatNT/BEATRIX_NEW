@@ -17,7 +17,7 @@
     value = "SMAP\nHeapObject.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HeapObject.kt\nkshark/HeapObject$HeapInstance\n+ 2 _Sequences.kt\nkotlin/sequences/SequencesKt___SequencesKt\n*L\n1#1,610:1\n1026#2,2:611\n1026#2,2:613\n140#2,2:615\n*E\n*S KotlinDebug\n*F\n+ 1 HeapObject.kt\nkshark/HeapObject$HeapInstance\n*L\n325#1,2:611\n339#1,2:613\n365#1,2:615\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -37,10 +37,10 @@
         "",
         "r",
         "(Ljava/lang/String;)Z",
-        "Lkotlin/reflect/d;",
+        "Lcotlin/reflect/d;",
         "expectedClass",
         "s",
-        "(Lkotlin/reflect/d;)Z",
+        "(Lcotlin/reflect/d;)Z",
         "Lkshark/HeapObject$HeapClass;",
         "t",
         "(Lkshark/HeapObject$HeapClass;)Z",
@@ -49,15 +49,15 @@
         "fieldName",
         "Lkshark/h;",
         "x",
-        "(Lkotlin/reflect/d;Ljava/lang/String;)Lkshark/h;",
+        "(Lcotlin/reflect/d;Ljava/lang/String;)Lkshark/h;",
         "declaringClassName",
         "w",
         "(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;",
         "k",
         "j",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "y",
-        "()Lkotlin/sequences/m;",
+        "()Lcotlin/sequences/m;",
         "v",
         "()Ljava/lang/String;",
         "toString",
@@ -114,7 +114,7 @@
 
 
 # static fields
-.field static final synthetic g:[Lkotlin/reflect/n;
+.field static final synthetic g:[Lcotlin/reflect/n;
 
 
 # instance fields
@@ -136,13 +136,13 @@
 
     const/4 v0, 0x1
 
-    new-array v0, v0, [Lkotlin/reflect/n;
+    new-array v0, v0, [Lcotlin/reflect/n;
 
-    new-instance v1, Lkotlin/jvm/internal/PropertyReference0Impl;
+    new-instance v1, Lcotlin/jvm/internal/PropertyReference0Impl;
 
     const-class v2, Lkshark/HeapObject$HeapInstance;
 
-    invoke-static {v2}, Lkotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {v2}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object v2
 
@@ -150,9 +150,9 @@
 
     const-string v4, "<v#0>"
 
-    invoke-direct {v1, v2, v3, v4}, Lkotlin/jvm/internal/PropertyReference0Impl;-><init>(Lkotlin/reflect/h;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v2, v3, v4}, Lcotlin/jvm/internal/PropertyReference0Impl;-><init>(Lcotlin/reflect/h;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v1}, Lkotlin/jvm/internal/n0;->q(Lkotlin/jvm/internal/PropertyReference0;)Lkotlin/reflect/o;
+    invoke-static {v1}, Lcotlin/jvm/internal/n0;->q(Lcotlin/jvm/internal/PropertyReference0;)Lcotlin/reflect/o;
 
     move-result-object v1
 
@@ -160,7 +160,7 @@
 
     aput-object v1, v0, v2
 
-    sput-object v0, Lkshark/HeapObject$HeapInstance;->g:[Lkotlin/reflect/n;
+    sput-object v0, Lkshark/HeapObject$HeapInstance;->g:[Lcotlin/reflect/n;
 
     return-void
 .end method
@@ -178,16 +178,16 @@
 
     const-string v0, "hprofGraph"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "indexedObject"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, v0}, Lkshark/HeapObject;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {p0, v0}, Lkshark/HeapObject;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lkshark/HeapObject$HeapInstance;->c:Lkshark/HprofHeapGraph;
 
@@ -257,11 +257,11 @@
 
     const-string v0, "declaringClassName"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "fieldName"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0, p1, p2}, Lkshark/HeapObject$HeapInstance;->w(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
@@ -271,9 +271,9 @@
     return-object p1
 .end method
 
-.method public final k(Lkotlin/reflect/d;Ljava/lang/String;)Lkshark/h;
+.method public final k(Lcotlin/reflect/d;Ljava/lang/String;)Lkshark/h;
     .locals 1
-    .param p1    # Lkotlin/reflect/d;
+    .param p1    # Lcotlin/reflect/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -284,7 +284,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "+",
             "Ljava/lang/Object;",
             ">;",
@@ -299,14 +299,14 @@
 
     const-string v0, "declaringClass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "fieldName"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Lkshark/HeapObject$HeapInstance;->x(Lkotlin/reflect/d;Ljava/lang/String;)Lkshark/h;
+    invoke-virtual {p0, p1, p2}, Lkshark/HeapObject$HeapInstance;->x(Lcotlin/reflect/d;Ljava/lang/String;)Lkshark/h;
 
     move-result-object p1
 
@@ -364,11 +364,11 @@
     return-object v0
 
     :cond_0
-    new-instance v0, Lkotlin/TypeCastException;
+    new-instance v0, Lcotlin/TypeCastException;
 
     const-string v1, "null cannot be cast to non-null type kshark.HeapObject.HeapClass"
 
-    invoke-direct {v0, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -435,19 +435,19 @@
 
     const-string v0, "className"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lkshark/HeapObject$HeapInstance;->n()Lkshark/HeapObject$HeapClass;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkshark/HeapObject$HeapClass;->k()Lkotlin/sequences/m;
+    invoke-virtual {v0}, Lkshark/HeapObject$HeapClass;->k()Lcotlin/sequences/m;
 
     move-result-object v0
 
     .line 2
-    invoke-interface {v0}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -469,7 +469,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -486,26 +486,26 @@
     return p1
 .end method
 
-.method public final s(Lkotlin/reflect/d;)Z
+.method public final s(Lcotlin/reflect/d;)Z
     .locals 1
-    .param p1    # Lkotlin/reflect/d;
+    .param p1    # Lcotlin/reflect/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "*>;)Z"
         }
     .end annotation
 
     const-string v0, "expectedClass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p1}, Lkotlin/jvm/a;->c(Lkotlin/reflect/d;)Ljava/lang/Class;
+    invoke-static {p1}, Lcotlin/jvm/a;->c(Lcotlin/reflect/d;)Ljava/lang/Class;
 
     move-result-object p1
 
@@ -515,7 +515,7 @@
 
     const-string v0, "expectedClass.java.name"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, p1}, Lkshark/HeapObject$HeapInstance;->r(Ljava/lang/String;)Z
 
@@ -533,19 +533,19 @@
 
     const-string v0, "expectedClass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Lkshark/HeapObject$HeapInstance;->n()Lkshark/HeapObject$HeapClass;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkshark/HeapObject$HeapClass;->k()Lkotlin/sequences/m;
+    invoke-virtual {v0}, Lkshark/HeapObject$HeapClass;->k()Lcotlin/sequences/m;
 
     move-result-object v0
 
     .line 2
-    invoke-interface {v0}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -651,7 +651,7 @@
 
     const-string v1, "java.lang.String"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -716,7 +716,7 @@
 
     if-nez v4, :cond_4
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
     invoke-virtual {v4}, Lkshark/h;->c()Lkshark/j;
@@ -729,7 +729,7 @@
 
     if-nez v4, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     invoke-virtual {v4}, Lkshark/HeapObject;->h()Lkshark/m$b$c;
@@ -817,7 +817,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2, v0}, Lkotlin/collections/k;->H1([CII)[C
+    invoke-static {v1, v2, v0}, Lcotlin/collections/k;->H1([CII)[C
 
     move-result-object v0
 
@@ -860,7 +860,7 @@
 
     const-string v2, "Charset.forName(\"UTF-8\")"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v2, Ljava/lang/String;
 
@@ -887,7 +887,7 @@
 
     if-nez v1, :cond_b
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_b
     invoke-virtual {v1}, Lkshark/h;->c()Lkshark/j;
@@ -936,19 +936,19 @@
 
     const-string v0, "declaringClassName"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "fieldName"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0}, Lkshark/HeapObject$HeapInstance;->y()Lkotlin/sequences/m;
+    invoke-virtual {p0}, Lkshark/HeapObject$HeapInstance;->y()Lcotlin/sequences/m;
 
     move-result-object v0
 
     .line 2
-    invoke-interface {v0}, Lkotlin/sequences/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -976,7 +976,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, p1}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
 
@@ -986,7 +986,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, p2}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1014,9 +1014,9 @@
     return-object v1
 .end method
 
-.method public final x(Lkotlin/reflect/d;Ljava/lang/String;)Lkshark/h;
+.method public final x(Lcotlin/reflect/d;Ljava/lang/String;)Lkshark/h;
     .locals 1
-    .param p1    # Lkotlin/reflect/d;
+    .param p1    # Lcotlin/reflect/d;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -1027,7 +1027,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/reflect/d<",
+            "Lcotlin/reflect/d<",
             "+",
             "Ljava/lang/Object;",
             ">;",
@@ -1042,14 +1042,14 @@
 
     const-string v0, "declaringClass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "fieldName"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p1}, Lkotlin/jvm/a;->c(Lkotlin/reflect/d;)Ljava/lang/Class;
+    invoke-static {p1}, Lcotlin/jvm/a;->c(Lcotlin/reflect/d;)Ljava/lang/Class;
 
     move-result-object p1
 
@@ -1059,7 +1059,7 @@
 
     const-string v0, "declaringClass.java.name"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, p1, p2}, Lkshark/HeapObject$HeapInstance;->w(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
@@ -1068,12 +1068,12 @@
     return-object p1
 .end method
 
-.method public final y()Lkotlin/sequences/m;
+.method public final y()Lcotlin/sequences/m;
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "Lkshark/h;",
             ">;"
         }
@@ -1087,11 +1087,11 @@
 
     invoke-direct {v0, p0}, Lkshark/HeapObject$HeapInstance$readFields$fieldReader$2;-><init>(Lkshark/HeapObject$HeapInstance;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    sget-object v1, Lkshark/HeapObject$HeapInstance;->g:[Lkotlin/reflect/n;
+    sget-object v1, Lkshark/HeapObject$HeapInstance;->g:[Lcotlin/reflect/n;
 
     const/4 v2, 0x0
 
@@ -1102,21 +1102,21 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lkshark/HeapObject$HeapClass;->k()Lkotlin/sequences/m;
+    invoke-virtual {v2}, Lkshark/HeapObject$HeapClass;->k()Lcotlin/sequences/m;
 
     move-result-object v2
 
     .line 3
     new-instance v3, Lkshark/HeapObject$HeapInstance$readFields$1;
 
-    invoke-direct {v3, p0, v0, v1}, Lkshark/HeapObject$HeapInstance$readFields$1;-><init>(Lkshark/HeapObject$HeapInstance;Lkotlin/w;Lkotlin/reflect/n;)V
+    invoke-direct {v3, p0, v0, v1}, Lkshark/HeapObject$HeapInstance$readFields$1;-><init>(Lkshark/HeapObject$HeapInstance;Lcotlin/w;Lcotlin/reflect/n;)V
 
-    invoke-static {v2, v3}, Lkotlin/sequences/p;->b1(Lkotlin/sequences/m;Lkotlin/jvm/u/l;)Lkotlin/sequences/m;
+    invoke-static {v2, v3}, Lcotlin/sequences/p;->b1(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
     .line 4
-    invoke-static {v0}, Lkotlin/sequences/p;->l(Lkotlin/sequences/m;)Lkotlin/sequences/m;
+    invoke-static {v0}, Lcotlin/sequences/p;->l(Lcotlin/sequences/m;)Lcotlin/sequences/m;
 
     move-result-object v0
 

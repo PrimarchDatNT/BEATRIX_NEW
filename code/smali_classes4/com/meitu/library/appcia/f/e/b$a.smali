@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -151,7 +151,7 @@
 
 .method public static synthetic a()V
     .locals 1
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     const v0, 0xcd96
@@ -165,7 +165,7 @@
 
 .method public static synthetic b()V
     .locals 1
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     const v0, 0xcd98
@@ -179,7 +179,7 @@
 
 .method public static synthetic c()V
     .locals 1
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     const v0, 0xcd9a
@@ -193,7 +193,7 @@
 
 .method public static synthetic d()V
     .locals 1
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     const v0, 0xcd94
@@ -207,7 +207,7 @@
 
 .method public static synthetic e()V
     .locals 1
-    .annotation runtime Lkotlin/jvm/k;
+    .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
     const v0, 0xcd92

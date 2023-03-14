@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/f0;
+.class public final Lcotlinx/coroutines/f0;
 .super Ljava/lang/Object;
 .source "CompletionHandler.common.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,16 +15,16 @@
     }
     d2 = {
         "T",
-        "Lkotlin/Function1;",
+        "Lcotlin/Function1;",
         "",
-        "Lkotlin/k0;",
+        "Lcotlin/k0;",
         "name",
         "cause",
-        "Lkotlin/t1;",
-        "Lkotlinx/coroutines/CompletionHandler;",
+        "Lcotlin/t1;",
+        "Lcotlinx/coroutines/CompletionHandler;",
         "",
         "a",
-        "(Lkotlin/jvm/u/l;)Z",
+        "(Lcotlin/jvm/u/l;)Z",
         "CompletionHandler",
         "kotlinx-coroutines-core"
     }
@@ -38,9 +38,9 @@
 
 
 # direct methods
-.method public static final synthetic a(Lkotlin/jvm/u/l;)Z
+.method public static final synthetic a(Lcotlin/jvm/u/l;)Z
     .locals 2
-    .param p0    # Lkotlin/jvm/u/l;
+    .param p0    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -49,10 +49,10 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Throwable;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)Z"
         }
     .end annotation
@@ -62,7 +62,7 @@
     const-string v1, "T"
 
     .line 1
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
 
     instance-of p0, p0, Ljava/lang/Object;
 

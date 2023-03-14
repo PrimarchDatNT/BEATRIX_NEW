@@ -1,10 +1,10 @@
-.class public final Lkotlin/io/a;
+.class public final Lcotlin/io/a;
 .super Ljava/lang/Object;
 .source "IOStreams.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -15,9 +15,9 @@
     }
     d2 = {
         "Ljava/io/BufferedInputStream;",
-        "Lkotlin/collections/q;",
+        "Lcotlin/collections/q;",
         "o",
-        "(Ljava/io/BufferedInputStream;)Lkotlin/collections/q;",
+        "(Ljava/io/BufferedInputStream;)Lcotlin/collections/q;",
         "",
         "Ljava/nio/charset/Charset;",
         "charset",
@@ -71,7 +71,7 @@
     }
 .end annotation
 
-.annotation build Lkotlin/jvm/g;
+.annotation build Lcotlin/jvm/g;
     name = "ByteStreamsKt"
 .end annotation
 
@@ -79,7 +79,7 @@
 # direct methods
 .method private static final a(Ljava/io/InputStream;I)Ljava/io/BufferedInputStream;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -104,7 +104,7 @@
 
 .method private static final b(Ljava/io/OutputStream;I)Ljava/io/BufferedOutputStream;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -189,7 +189,7 @@
 
 .method private static final e(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/io/BufferedReader;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -226,7 +226,7 @@
     if-eqz p2, :cond_0
 
     .line 1
-    sget-object p1, Lkotlin/text/d;->a:Ljava/nio/charset/Charset;
+    sget-object p1, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     :cond_0
     new-instance p2, Ljava/io/InputStreamReader;
@@ -256,7 +256,7 @@
 
 .method private static final g(Ljava/io/OutputStream;Ljava/nio/charset/Charset;)Ljava/io/BufferedWriter;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -293,7 +293,7 @@
     if-eqz p2, :cond_0
 
     .line 1
-    sget-object p1, Lkotlin/text/d;->a:Ljava/nio/charset/Charset;
+    sget-object p1, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     :cond_0
     new-instance p2, Ljava/io/OutputStreamWriter;
@@ -323,7 +323,7 @@
 
 .method private static final i(Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/io/ByteArrayInputStream;
     .locals 2
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -339,7 +339,7 @@
 
     const-string p1, "(this as java.lang.String).getBytes(charset)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v0, p0}, Ljava/io/ByteArrayInputStream;-><init>([B)V
 
@@ -354,7 +354,7 @@
     if-eqz p2, :cond_0
 
     .line 1
-    sget-object p1, Lkotlin/text/d;->a:Ljava/nio/charset/Charset;
+    sget-object p1, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     :cond_0
     new-instance p2, Ljava/io/ByteArrayInputStream;
@@ -369,7 +369,7 @@
 
     const-string p1, "(this as java.lang.String).getBytes(charset)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p2, p0}, Ljava/io/ByteArrayInputStream;-><init>([B)V
 
@@ -389,11 +389,11 @@
 
     const-string v0, "$this$copyTo"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "out"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-array p2, p2, [B
@@ -439,7 +439,7 @@
 
     .line 1
     :cond_0
-    invoke-static {p0, p1, p2}, Lkotlin/io/a;->k(Ljava/io/InputStream;Ljava/io/OutputStream;I)J
+    invoke-static {p0, p1, p2}, Lcotlin/io/a;->k(Ljava/io/InputStream;Ljava/io/OutputStream;I)J
 
     move-result-wide p0
 
@@ -448,7 +448,7 @@
 
 .method private static final m([B)Ljava/io/ByteArrayInputStream;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -461,7 +461,7 @@
 
 .method private static final n([BII)Ljava/io/ByteArrayInputStream;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -472,7 +472,7 @@
     return-object v0
 .end method
 
-.method public static final o(Ljava/io/BufferedInputStream;)Lkotlin/collections/q;
+.method public static final o(Ljava/io/BufferedInputStream;)Lcotlin/collections/q;
     .locals 1
     .param p0    # Ljava/io/BufferedInputStream;
         .annotation build Ln/e/a/d;
@@ -483,12 +483,12 @@
 
     const-string v0, "$this$iterator"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Lkotlin/io/a$a;
+    new-instance v0, Lcotlin/io/a$a;
 
-    invoke-direct {v0, p0}, Lkotlin/io/a$a;-><init>(Ljava/io/BufferedInputStream;)V
+    invoke-direct {v0, p0}, Lcotlin/io/a$a;-><init>(Ljava/io/BufferedInputStream;)V
 
     return-object v0
 .end method
@@ -499,7 +499,7 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -508,7 +508,7 @@
 
     const-string v0, "$this$readBytes"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/io/ByteArrayOutputStream;
@@ -532,7 +532,7 @@
     const/4 v3, 0x0
 
     .line 2
-    invoke-static {p0, v0, v1, v2, v3}, Lkotlin/io/a;->l(Ljava/io/InputStream;Ljava/io/OutputStream;IILjava/lang/Object;)J
+    invoke-static {p0, v0, v1, v2, v3}, Lcotlin/io/a;->l(Ljava/io/InputStream;Ljava/io/OutputStream;IILjava/lang/Object;)J
 
     .line 3
     invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
@@ -541,7 +541,7 @@
 
     const-string v0, "buffer.toByteArray()"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
@@ -552,9 +552,9 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation runtime Lkotlin/i;
+    .annotation runtime Lcotlin/i;
         message = "Use readBytes() overload without estimatedSize parameter"
-        replaceWith = .subannotation Lkotlin/q0;
+        replaceWith = .subannotation Lcotlin/q0;
             expression = "readBytes()"
             imports = {}
         .end subannotation
@@ -565,7 +565,7 @@
 
     const-string v0, "$this$readBytes"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Ljava/io/ByteArrayOutputStream;
@@ -587,7 +587,7 @@
     const/4 v2, 0x0
 
     .line 2
-    invoke-static {p0, v0, p1, v1, v2}, Lkotlin/io/a;->l(Ljava/io/InputStream;Ljava/io/OutputStream;IILjava/lang/Object;)J
+    invoke-static {p0, v0, p1, v1, v2}, Lcotlin/io/a;->l(Ljava/io/InputStream;Ljava/io/OutputStream;IILjava/lang/Object;)J
 
     .line 3
     invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
@@ -596,7 +596,7 @@
 
     const-string p1, "buffer.toByteArray()"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
@@ -612,7 +612,7 @@
 
     .line 1
     :cond_0
-    invoke-static {p0, p1}, Lkotlin/io/a;->q(Ljava/io/InputStream;I)[B
+    invoke-static {p0, p1}, Lcotlin/io/a;->q(Ljava/io/InputStream;I)[B
 
     move-result-object p0
 
@@ -621,7 +621,7 @@
 
 .method private static final s(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/io/InputStreamReader;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -640,7 +640,7 @@
     if-eqz p2, :cond_0
 
     .line 1
-    sget-object p1, Lkotlin/text/d;->a:Ljava/nio/charset/Charset;
+    sget-object p1, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     :cond_0
     new-instance p2, Ljava/io/InputStreamReader;
@@ -652,7 +652,7 @@
 
 .method private static final u(Ljava/io/OutputStream;Ljava/nio/charset/Charset;)Ljava/io/OutputStreamWriter;
     .locals 1
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
     .line 1
@@ -671,7 +671,7 @@
     if-eqz p2, :cond_0
 
     .line 1
-    sget-object p1, Lkotlin/text/d;->a:Ljava/nio/charset/Charset;
+    sget-object p1, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     :cond_0
     new-instance p2, Ljava/io/OutputStreamWriter;

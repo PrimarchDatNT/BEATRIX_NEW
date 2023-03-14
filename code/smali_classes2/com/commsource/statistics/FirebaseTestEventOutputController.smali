@@ -10,7 +10,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -38,9 +38,9 @@
 
 
 # static fields
-.field private static final a:Lkotlin/w;
+.field private static final a:Lcotlin/w;
 
-.field private static final b:Lkotlin/w;
+.field private static final b:Lcotlin/w;
 
 .field public static final c:Lcom/commsource/statistics/FirebaseTestEventOutputController$a;
 
@@ -57,27 +57,27 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Lcom/commsource/statistics/FirebaseTestEventOutputController$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v1, v2}, Lcom/commsource/statistics/FirebaseTestEventOutputController$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/statistics/FirebaseTestEventOutputController;->c:Lcom/commsource/statistics/FirebaseTestEventOutputController$a;
 
     .line 1
     sget-object v1, Lcom/commsource/statistics/FirebaseTestEventOutputController$Companion$testFilePath$2;->INSTANCE:Lcom/commsource/statistics/FirebaseTestEventOutputController$Companion$testFilePath$2;
 
-    invoke-static {v1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v1
 
-    sput-object v1, Lcom/commsource/statistics/FirebaseTestEventOutputController;->a:Lkotlin/w;
+    sput-object v1, Lcom/commsource/statistics/FirebaseTestEventOutputController;->a:Lcotlin/w;
 
     .line 2
     sget-object v1, Lcom/commsource/statistics/FirebaseTestEventOutputController$Companion$writeFileExecutor$2;->INSTANCE:Lcom/commsource/statistics/FirebaseTestEventOutputController$Companion$writeFileExecutor$2;
 
-    invoke-static {v1}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v1
 
-    sput-object v1, Lcom/commsource/statistics/FirebaseTestEventOutputController;->b:Lkotlin/w;
+    sput-object v1, Lcom/commsource/statistics/FirebaseTestEventOutputController;->b:Lcotlin/w;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -93,7 +93,7 @@
     return-void
 .end method
 
-.method public static final synthetic a()Lkotlin/w;
+.method public static final synthetic a()Lcotlin/w;
     .locals 2
 
     const/16 v0, 0x2f38
@@ -101,14 +101,14 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    sget-object v1, Lcom/commsource/statistics/FirebaseTestEventOutputController;->a:Lkotlin/w;
+    sget-object v1, Lcom/commsource/statistics/FirebaseTestEventOutputController;->a:Lcotlin/w;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 .end method
 
-.method public static final synthetic b()Lkotlin/w;
+.method public static final synthetic b()Lcotlin/w;
     .locals 2
 
     const/16 v0, 0x2f39
@@ -116,7 +116,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    sget-object v1, Lcom/commsource/statistics/FirebaseTestEventOutputController;->b:Lkotlin/w;
+    sget-object v1, Lcom/commsource/statistics/FirebaseTestEventOutputController;->b:Lcotlin/w;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

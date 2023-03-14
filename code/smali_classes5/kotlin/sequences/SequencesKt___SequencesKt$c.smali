@@ -1,14 +1,14 @@
-.class public final Lkotlin/sequences/SequencesKt___SequencesKt$c;
+.class public final Lcotlin/sequences/SequencesKt___SequencesKt$c;
 .super Ljava/lang/Object;
 .source "_Sequences.kt"
 
 # interfaces
-.implements Lkotlin/sequences/m;
+.implements Lcotlin/sequences/m;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/sequences/SequencesKt___SequencesKt;->z2(Lkotlin/sequences/m;)Lkotlin/sequences/m;
+    value = Lcotlin/sequences/SequencesKt___SequencesKt;->z2(Lcotlin/sequences/m;)Lcotlin/sequences/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,12 +19,12 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/sequences/m<",
+        "Lcotlin/sequences/m<",
         "TT;>;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,7 +35,7 @@
     }
     d2 = {
         "kotlin/sequences/SequencesKt___SequencesKt$c",
-        "Lkotlin/sequences/m;",
+        "Lcotlin/sequences/m;",
         "",
         "iterator",
         "()Ljava/util/Iterator;",
@@ -51,22 +51,22 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/sequences/m;
+.field final synthetic a:Lcotlin/sequences/m;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/sequences/m;)V
+.method constructor <init>(Lcotlin/sequences/m;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/sequences/m<",
+            "Lcotlin/sequences/m<",
             "+TT;>;)V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lkotlin/sequences/SequencesKt___SequencesKt$c;->a:Lkotlin/sequences/m;
+    iput-object p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$c;->a:Lcotlin/sequences/m;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -89,14 +89,14 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/sequences/SequencesKt___SequencesKt$c;->a:Lkotlin/sequences/m;
+    iget-object v0, p0, Lcotlin/sequences/SequencesKt___SequencesKt$c;->a:Lcotlin/sequences/m;
 
-    invoke-static {v0}, Lkotlin/sequences/p;->W2(Lkotlin/sequences/m;)Ljava/util/List;
+    invoke-static {v0}, Lcotlin/sequences/p;->W2(Lcotlin/sequences/m;)Ljava/util/List;
 
     move-result-object v0
 
     .line 2
-    invoke-static {v0}, Lkotlin/collections/s;->m0(Ljava/util/List;)V
+    invoke-static {v0}, Lcotlin/collections/s;->m0(Ljava/util/List;)V
 
     .line 3
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;

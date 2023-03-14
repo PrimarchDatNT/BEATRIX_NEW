@@ -1,14 +1,14 @@
-.class final Lkotlin/coroutines/CombinedContext$toString$1;
-.super Lkotlin/jvm/internal/Lambda;
+.class final Lcotlin/coroutines/CombinedContext$toString$1;
+.super Lcotlin/jvm/internal/Lambda;
 .source "CoroutineContextImpl.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/coroutines/CombinedContext;->toString()Ljava/lang/String;
+    value = Lcotlin/coroutines/CombinedContext;->toString()Ljava/lang/String;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Lkotlin/jvm/u/p<",
+        "Lcotlin/jvm/internal/Lambda;",
+        "Lcotlin/jvm/u/p<",
         "Ljava/lang/String;",
-        "Lkotlin/coroutines/CoroutineContext$a;",
+        "Lcotlin/coroutines/CoroutineContext$a;",
         "Ljava/lang/String;",
         ">;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -39,10 +39,10 @@
     d2 = {
         "",
         "acc",
-        "Lkotlin/coroutines/CoroutineContext$a;",
+        "Lcotlin/coroutines/CoroutineContext$a;",
         "element",
         "invoke",
-        "(Ljava/lang/String;Lkotlin/coroutines/CoroutineContext$a;)Ljava/lang/String;",
+        "(Ljava/lang/String;Lcotlin/coroutines/CoroutineContext$a;)Ljava/lang/String;",
         "<anonymous>"
     }
     k = 0x3
@@ -55,18 +55,18 @@
 
 
 # static fields
-.field public static final INSTANCE:Lkotlin/coroutines/CombinedContext$toString$1;
+.field public static final INSTANCE:Lcotlin/coroutines/CombinedContext$toString$1;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkotlin/coroutines/CombinedContext$toString$1;
+    new-instance v0, Lcotlin/coroutines/CombinedContext$toString$1;
 
-    invoke-direct {v0}, Lkotlin/coroutines/CombinedContext$toString$1;-><init>()V
+    invoke-direct {v0}, Lcotlin/coroutines/CombinedContext$toString$1;-><init>()V
 
-    sput-object v0, Lkotlin/coroutines/CombinedContext$toString$1;->INSTANCE:Lkotlin/coroutines/CombinedContext$toString$1;
+    sput-object v0, Lcotlin/coroutines/CombinedContext$toString$1;->INSTANCE:Lcotlin/coroutines/CombinedContext$toString$1;
 
     return-void
 .end method
@@ -76,7 +76,7 @@
 
     const/4 v0, 0x2
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+    invoke-direct {p0, v0}, Lcotlin/jvm/internal/Lambda;-><init>(I)V
 
     return-void
 .end method
@@ -89,22 +89,22 @@
     .line 1
     check-cast p1, Ljava/lang/String;
 
-    check-cast p2, Lkotlin/coroutines/CoroutineContext$a;
+    check-cast p2, Lcotlin/coroutines/CoroutineContext$a;
 
-    invoke-virtual {p0, p1, p2}, Lkotlin/coroutines/CombinedContext$toString$1;->invoke(Ljava/lang/String;Lkotlin/coroutines/CoroutineContext$a;)Ljava/lang/String;
+    invoke-virtual {p0, p1, p2}, Lcotlin/coroutines/CombinedContext$toString$1;->invoke(Ljava/lang/String;Lcotlin/coroutines/CoroutineContext$a;)Ljava/lang/String;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(Ljava/lang/String;Lkotlin/coroutines/CoroutineContext$a;)Ljava/lang/String;
+.method public final invoke(Ljava/lang/String;Lcotlin/coroutines/CoroutineContext$a;)Ljava/lang/String;
     .locals 1
     .param p1    # Ljava/lang/String;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/CoroutineContext$a;
+    .param p2    # Lcotlin/coroutines/CoroutineContext$a;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -113,11 +113,11 @@
 
     const-string v0, "acc"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "element"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I

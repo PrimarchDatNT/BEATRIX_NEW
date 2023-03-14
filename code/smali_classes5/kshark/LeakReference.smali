@@ -13,7 +13,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -71,7 +71,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkshark/LeakReference$a;-><init>(Lkotlin/jvm/internal/u;)V
+    invoke-direct {v0, v1}, Lkshark/LeakReference$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     sput-object v0, Lkshark/LeakReference;->Companion:Lkshark/LeakReference$a;
 
@@ -100,7 +100,7 @@
 
     const-string v0, "originObject"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lkshark/LeakTraceReference;
@@ -110,7 +110,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     sget-object v2, Lkshark/o;->a:[I
@@ -143,9 +143,9 @@
     goto :goto_0
 
     :cond_1
-    new-instance p1, Lkotlin/NoWhenBranchMatchedException;
+    new-instance p1, Lcotlin/NoWhenBranchMatchedException;
 
-    invoke-direct {p1}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+    invoke-direct {p1}, Lcotlin/NoWhenBranchMatchedException;-><init>()V
 
     throw p1
 
@@ -171,7 +171,7 @@
 
     if-nez v2, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
+    invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_5
     const-string v3, ""

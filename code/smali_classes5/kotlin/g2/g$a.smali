@@ -1,11 +1,11 @@
-.class public final Lkotlin/g2/g$a;
+.class public final Lcotlin/g2/g$a;
 .super Ljava/lang/Object;
 .source "Range.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/g2/g;
+    value = Lcotlin/g2/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,9 +31,9 @@
 
 
 # direct methods
-.method public static a(Lkotlin/g2/g;Ljava/lang/Comparable;)Z
+.method public static a(Lcotlin/g2/g;Ljava/lang/Comparable;)Z
     .locals 1
-    .param p0    # Lkotlin/g2/g;
+    .param p0    # Lcotlin/g2/g;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -46,17 +46,17 @@
             "<T::",
             "Ljava/lang/Comparable<",
             "-TT;>;>(",
-            "Lkotlin/g2/g<",
+            "Lcotlin/g2/g<",
             "TT;>;TT;)Z"
         }
     .end annotation
 
     const-string v0, "value"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-interface {p0}, Lkotlin/g2/g;->getStart()Ljava/lang/Comparable;
+    invoke-interface {p0}, Lcotlin/g2/g;->getStart()Ljava/lang/Comparable;
 
     move-result-object v0
 
@@ -66,7 +66,7 @@
 
     if-ltz v0, :cond_0
 
-    invoke-interface {p0}, Lkotlin/g2/g;->getEndInclusive()Ljava/lang/Comparable;
+    invoke-interface {p0}, Lcotlin/g2/g;->getEndInclusive()Ljava/lang/Comparable;
 
     move-result-object p0
 
@@ -87,9 +87,9 @@
     return p0
 .end method
 
-.method public static b(Lkotlin/g2/g;)Z
+.method public static b(Lcotlin/g2/g;)Z
     .locals 1
-    .param p0    # Lkotlin/g2/g;
+    .param p0    # Lcotlin/g2/g;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -98,17 +98,17 @@
             "<T::",
             "Ljava/lang/Comparable<",
             "-TT;>;>(",
-            "Lkotlin/g2/g<",
+            "Lcotlin/g2/g<",
             "TT;>;)Z"
         }
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Lkotlin/g2/g;->getStart()Ljava/lang/Comparable;
+    invoke-interface {p0}, Lcotlin/g2/g;->getStart()Ljava/lang/Comparable;
 
     move-result-object v0
 
-    invoke-interface {p0}, Lkotlin/g2/g;->getEndInclusive()Ljava/lang/Comparable;
+    invoke-interface {p0}, Lcotlin/g2/g;->getEndInclusive()Ljava/lang/Comparable;
 
     move-result-object p0
 

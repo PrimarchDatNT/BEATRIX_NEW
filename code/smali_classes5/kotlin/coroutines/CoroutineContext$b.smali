@@ -1,11 +1,11 @@
-.class public interface abstract Lkotlin/coroutines/CoroutineContext$b;
+.class public interface abstract Lcotlin/coroutines/CoroutineContext$b;
 .super Ljava/lang/Object;
 .source "CoroutineContext.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/coroutines/CoroutineContext;
+    value = Lcotlin/coroutines/CoroutineContext;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,13 +16,13 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<E::",
-        "Lkotlin/coroutines/CoroutineContext$a;",
+        "Lcotlin/coroutines/CoroutineContext$a;",
         ">",
         "Ljava/lang/Object;"
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
     }
     d2 = {
         "kotlin/coroutines/CoroutineContext$b",
-        "Lkotlin/coroutines/CoroutineContext$a;",
+        "Lcotlin/coroutines/CoroutineContext$a;",
         "E",
         "",
         "kotlin-stdlib"

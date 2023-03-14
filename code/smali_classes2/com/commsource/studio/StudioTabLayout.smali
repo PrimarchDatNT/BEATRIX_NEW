@@ -14,7 +14,7 @@
     value = "SMAP\nStudioTabLayout.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StudioTabLayout.kt\ncom/commsource/studio/StudioTabLayout\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,280:1\n1828#2,3:281\n1819#2,2:284\n1828#2,3:286\n1828#2,3:289\n1828#2,3:292\n*E\n*S KotlinDebug\n*F\n+ 1 StudioTabLayout.kt\ncom/commsource/studio/StudioTabLayout\n*L\n95#1,3:281\n114#1,2:284\n124#1,3:286\n145#1,3:289\n212#1,3:292\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "",
         "Landroid/graphics/Point;",
         "viewLengths",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "i",
         "(Ljava/util/List;)V",
         "j",
@@ -40,10 +40,10 @@
         "Lcom/commsource/studio/sub/SubTabEnum;",
         "tabEnums",
         "setTabEnums",
-        "Lkotlin/Function2;",
+        "Lcotlin/Function2;",
         "action",
         "setOnItemClickLister",
-        "(Lkotlin/jvm/u/p;)V",
+        "(Lcotlin/jvm/u/p;)V",
         "w",
         "h",
         "oldw",
@@ -69,7 +69,7 @@
         "(Lcom/commsource/studio/sub/SubTabEnum;)V",
         "selectTabEnum",
         "Ljava/util/ArrayList;",
-        "Lkotlin/collections/ArrayList;",
+        "Lcotlin/collections/ArrayList;",
         "f",
         "Ljava/util/ArrayList;",
         "getCurrentViewLengths",
@@ -97,16 +97,16 @@
         "getTargetViewLengths",
         "setTargetViewLengths",
         "targetViewLengths",
-        "Lkotlin/Function1;",
-        "Lkotlin/k0;",
+        "Lcotlin/Function1;",
+        "Lcotlin/k0;",
         "name",
         "offset",
         "L",
-        "Lkotlin/jvm/u/l;",
+        "Lcotlin/jvm/u/l;",
         "getOnScrollOffsetChange",
-        "()Lkotlin/jvm/u/l;",
+        "()Lcotlin/jvm/u/l;",
         "setOnScrollOffsetChange",
-        "(Lkotlin/jvm/u/l;)V",
+        "(Lcotlin/jvm/u/l;)V",
         "onScrollOffsetChange",
         "Landroid/animation/ValueAnimator;",
         "kotlin.jvm.PlatformType",
@@ -149,13 +149,13 @@
 
 .field private K:Lcom/commsource/util/p0;
 
-.field private L:Lkotlin/jvm/u/l;
+.field private L:Lcotlin/jvm/u/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -241,7 +241,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -264,7 +264,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -287,7 +287,7 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -354,7 +354,7 @@
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/StudioTabLayout$$special$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/StudioTabLayout;)V
 
-    invoke-virtual {p1, p2}, Lcom/commsource/util/p0;->j(Lkotlin/jvm/u/l;)V
+    invoke-virtual {p1, p2}, Lcom/commsource/util/p0;->j(Lcotlin/jvm/u/l;)V
 
     .line 12
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->K:Lcom/commsource/util/p0;
@@ -474,7 +474,7 @@
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->d:Ljava/util/ArrayList;
 
-    invoke-static {v1}, Lkotlin/collections/s;->a3(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {v1}, Lcotlin/collections/s;->a3(Ljava/util/List;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -545,7 +545,7 @@
 
     if-gez v2, :cond_0
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_0
     check-cast v4, Lcom/commsource/studio/sub/g;
@@ -618,7 +618,7 @@
 
     if-gez v2, :cond_0
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_0
     check-cast v3, Lcom/commsource/studio/sub/g;
@@ -698,7 +698,7 @@
 
     const-string v5, "studioTabViewHolder.itemView"
 
-    invoke-static {v3, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v5, p0, Lcom/commsource/studio/StudioTabLayout;->f:Ljava/util/ArrayList;
 
@@ -877,14 +877,14 @@
     return-object v1
 .end method
 
-.method public final getOnScrollOffsetChange()Lkotlin/jvm/u/l;
+.method public final getOnScrollOffsetChange()Lcotlin/jvm/u/l;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -897,7 +897,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->L:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->L:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1046,7 +1046,7 @@
 
     if-gez v5, :cond_1
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_1
     check-cast v6, Lcom/commsource/widget/h1/d;
@@ -1215,7 +1215,7 @@
 
     const-string v1, "lengthChangeAnimator"
 
-    invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v1, 0xfa
 
@@ -1277,7 +1277,7 @@
 
     const-string v1, "ev"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->M:Lcom/commsource/studio/i;
@@ -1331,7 +1331,7 @@
 
     const-string v1, "event"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->M:Lcom/commsource/studio/i;
@@ -1366,7 +1366,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->f:Ljava/util/ArrayList;
@@ -1398,7 +1398,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->b:Ljava/util/ArrayList;
@@ -1408,21 +1408,21 @@
     return-void
 .end method
 
-.method public final setOnItemClickLister(Lkotlin/jvm/u/p;)V
+.method public final setOnItemClickLister(Lcotlin/jvm/u/p;)V
     .locals 4
-    .param p1    # Lkotlin/jvm/u/p;
+    .param p1    # Lcotlin/jvm/u/p;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/p<",
+            "Lcotlin/jvm/u/p<",
             "-",
             "Ljava/lang/Integer;",
             "-",
             "Lcom/commsource/studio/sub/SubTabEnum;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1433,7 +1433,7 @@
 
     const-string v1, "action"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->c:Ljava/util/ArrayList;
@@ -1459,7 +1459,7 @@
     .line 3
     new-instance v3, Lcom/commsource/studio/StudioTabLayout$b;
 
-    invoke-direct {v3, p1}, Lcom/commsource/studio/StudioTabLayout$b;-><init>(Lkotlin/jvm/u/p;)V
+    invoke-direct {v3, p1}, Lcom/commsource/studio/StudioTabLayout$b;-><init>(Lcotlin/jvm/u/p;)V
 
     invoke-virtual {v2, v3}, Lcom/commsource/widget/h1/f;->q(Lcom/commsource/widget/h1/f$a;)V
 
@@ -1472,19 +1472,19 @@
     return-void
 .end method
 
-.method public final setOnScrollOffsetChange(Lkotlin/jvm/u/l;)V
+.method public final setOnScrollOffsetChange(Lcotlin/jvm/u/l;)V
     .locals 1
-    .param p1    # Lkotlin/jvm/u/l;
+    .param p1    # Lcotlin/jvm/u/l;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l<",
+            "Lcotlin/jvm/u/l<",
             "-",
             "Ljava/lang/Integer;",
-            "Lkotlin/t1;",
+            "Lcotlin/t1;",
             ">;)V"
         }
     .end annotation
@@ -1494,7 +1494,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->L:Lkotlin/jvm/u/l;
+    iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->L:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1512,7 +1512,7 @@
     iput p1, p0, Lcom/commsource/studio/StudioTabLayout;->a:I
 
     .line 2
-    iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->L:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->L:Lcotlin/jvm/u/l;
 
     if-eqz v1, :cond_0
 
@@ -1520,11 +1520,11 @@
 
     move-result-object p1
 
-    invoke-interface {v1, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 3
     :cond_0
@@ -1574,7 +1574,7 @@
 
     const-string v1, "tabEnums"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout;->f:Ljava/util/ArrayList;
@@ -1610,7 +1610,7 @@
 
     if-gez v1, :cond_0
 
-    invoke-static {}, Lkotlin/collections/s;->W()V
+    invoke-static {}, Lcotlin/collections/s;->W()V
 
     :cond_0
     check-cast v3, Lcom/commsource/studio/sub/SubTabEnum;
@@ -1634,7 +1634,7 @@
 
     const-string v7, "context"
 
-    invoke-static {v6, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v3, v6, p0}, Lcom/commsource/studio/sub/g;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;)V
 
@@ -1658,7 +1658,7 @@
 
     const-string v5, "vh.itemView"
 
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     int-to-float v5, v2
 
@@ -1731,7 +1731,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->d:Ljava/util/ArrayList;
@@ -1762,7 +1762,7 @@
 
     const-string v1, "<set-?>"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout;->c:Ljava/util/ArrayList;

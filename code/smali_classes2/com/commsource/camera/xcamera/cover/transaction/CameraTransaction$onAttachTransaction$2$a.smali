@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Lcom/commsource/util/delegate/process/g;",
         "",
         "isSubscribeSuccess",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(Z)V",
         "app_googleplayRelease"
@@ -42,17 +42,17 @@
 
 
 # instance fields
-.field final synthetic d:Lkotlin/jvm/u/a;
+.field final synthetic d:Lcotlin/jvm/u/a;
 
 .field final synthetic e:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/jvm/u/a;Lcom/commsource/camera/fastcapture/SelfiePhotoData;Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
+.method constructor <init>(Lcotlin/jvm/u/a;Lcom/commsource/camera/fastcapture/SelfiePhotoData;Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$a;->d:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$a;->d:Lcotlin/jvm/u/a;
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$a;->e:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
@@ -73,9 +73,9 @@
     if-eqz p1, :cond_0
 
     .line 1
-    iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$a;->d:Lkotlin/jvm/u/a;
+    iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction$onAttachTransaction$2$a;->d:Lcotlin/jvm/u/a;
 
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     .line 2
     :cond_0

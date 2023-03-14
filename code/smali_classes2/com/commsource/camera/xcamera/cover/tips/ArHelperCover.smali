@@ -22,7 +22,7 @@
     value = "SMAP\nArHelperCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ArHelperCover.kt\ncom/commsource/camera/xcamera/cover/tips/ArHelperCover\n*L\n1#1,251:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,7 +40,7 @@
         "",
         "y",
         "x",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "M",
         "(Landroid/view/View;II)V",
         "",
@@ -59,7 +59,7 @@
         "J",
         "Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;",
         "d",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "H",
         "()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;",
         "arViewModel",
@@ -86,9 +86,9 @@
 
 
 # instance fields
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
 
-.field private final f:Lkotlin/w;
+.field private final f:Lcotlin/w;
 
 .field private final g:Landroid/os/Handler;
 
@@ -105,22 +105,22 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$arViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->d:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->d:Lcotlin/w;
 
     .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$bpCameraViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$bpCameraViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->f:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->f:Lcotlin/w;
 
     .line 4
     new-instance v0, Landroid/os/Handler;
@@ -192,9 +192,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -212,9 +212,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->f:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->f:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -526,11 +526,11 @@
 
     .line 5
     :cond_2
-    new-instance p1, Lkotlin/TypeCastException;
+    new-instance p1, Lcotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type android.view.ViewGroup.MarginLayoutParams"
 
-    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

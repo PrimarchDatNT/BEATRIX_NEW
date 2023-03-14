@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/commsource/studio/ImageStudioActivity;->d1(Landroid/view/View;Lkotlin/jvm/u/a;)V
+    value = Lcom/commsource/studio/ImageStudioActivity;->d1(Landroid/view/View;Lcotlin/jvm/u/a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Landroid/animation/AnimatorListenerAdapter;",
         "Landroid/animation/Animator;",
         "animation",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onAnimationEnd",
         "(Landroid/animation/Animator;)V",
         "app_googleplayRelease",
@@ -43,14 +43,14 @@
 
 
 # instance fields
-.field final synthetic a:Lkotlin/jvm/u/a;
+.field final synthetic a:Lcotlin/jvm/u/a;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/jvm/u/a;)V
+.method constructor <init>(Lcotlin/jvm/u/a;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$c;->a:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$c;->a:Lcotlin/jvm/u/a;
 
     .line 1
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -72,15 +72,15 @@
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$c;->a:Lkotlin/jvm/u/a;
+    iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$c;->a:Lcotlin/jvm/u/a;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkotlin/t1;
+    check-cast v0, Lcotlin/t1;
 
     .line 2
     :cond_0

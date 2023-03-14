@@ -1,10 +1,10 @@
-.class public final Lkotlinx/coroutines/channels/j;
+.class public final Lcotlinx/coroutines/channels/j;
 .super Ljava/lang/Object;
 .source "BroadcastChannel.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -17,9 +17,9 @@
         "E",
         "",
         "capacity",
-        "Lkotlinx/coroutines/channels/i;",
+        "Lcotlinx/coroutines/channels/i;",
         "a",
-        "(I)Lkotlinx/coroutines/channels/i;",
+        "(I)Lcotlinx/coroutines/channels/i;",
         "kotlinx-coroutines-core"
     }
     k = 0x2
@@ -32,19 +32,19 @@
 
 
 # direct methods
-.method public static final a(I)Lkotlinx/coroutines/channels/i;
+.method public static final a(I)Lcotlinx/coroutines/channels/i;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
             "Ljava/lang/Object;",
             ">(I)",
-            "Lkotlinx/coroutines/channels/i<",
+            "Lcotlinx/coroutines/channels/i<",
             "TE;>;"
         }
     .end annotation
 
-    .annotation build Lkotlinx/coroutines/s1;
+    .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
     .annotation build Ln/e/a/d;
@@ -65,9 +65,9 @@
     if-eq p0, v0, :cond_0
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/channels/g;
+    new-instance v0, Lcotlinx/coroutines/channels/g;
 
-    invoke-direct {v0, p0}, Lkotlinx/coroutines/channels/g;-><init>(I)V
+    invoke-direct {v0, p0}, Lcotlinx/coroutines/channels/g;-><init>(I)V
 
     goto :goto_0
 
@@ -93,23 +93,23 @@
 
     .line 4
     :cond_2
-    new-instance v0, Lkotlinx/coroutines/channels/q;
+    new-instance v0, Lcotlinx/coroutines/channels/q;
 
-    invoke-direct {v0}, Lkotlinx/coroutines/channels/q;-><init>()V
+    invoke-direct {v0}, Lcotlinx/coroutines/channels/q;-><init>()V
 
     goto :goto_0
 
     .line 5
     :cond_3
-    new-instance v0, Lkotlinx/coroutines/channels/g;
+    new-instance v0, Lcotlinx/coroutines/channels/g;
 
-    sget-object p0, Lkotlinx/coroutines/channels/l;->v:Lkotlinx/coroutines/channels/l$b;
+    sget-object p0, Lcotlinx/coroutines/channels/l;->v:Lcotlinx/coroutines/channels/l$b;
 
-    invoke-virtual {p0}, Lkotlinx/coroutines/channels/l$b;->a()I
+    invoke-virtual {p0}, Lcotlinx/coroutines/channels/l$b;->a()I
 
     move-result p0
 
-    invoke-direct {v0, p0}, Lkotlinx/coroutines/channels/g;-><init>(I)V
+    invoke-direct {v0, p0}, Lcotlinx/coroutines/channels/g;-><init>(I)V
 
     :goto_0
     return-object v0

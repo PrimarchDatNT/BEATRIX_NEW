@@ -1,14 +1,14 @@
-.class final Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;
-.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.class final Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;
+.super Lcotlin/coroutines/jvm/internal/SuspendLambda;
 .source "Combine.kt"
 
 # interfaces
-.implements Lkotlin/jvm/u/p;
+.implements Lcotlin/jvm/u/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/internal/CombineKt;->g(Lkotlinx/coroutines/flow/e;Lkotlinx/coroutines/flow/d;Lkotlinx/coroutines/flow/d;Lkotlin/jvm/u/r;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/flow/internal/CombineKt;->g(Lcotlinx/coroutines/flow/e;Lcotlinx/coroutines/flow/d;Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/r;Lcotlin/coroutines/c;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,12 +18,12 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Lkotlin/jvm/u/p<",
-        "Lkotlinx/coroutines/m0;",
-        "Lkotlin/coroutines/c<",
+        "Lcotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lcotlin/jvm/u/p<",
+        "Lcotlinx/coroutines/m0;",
+        "Lcotlin/coroutines/c<",
         "-",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         ">;",
         "Ljava/lang/Object;",
         ">;"
@@ -34,7 +34,7 @@
     value = "SMAP\nCombine.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Combine.kt\nkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2\n+ 2 Select.kt\nkotlinx/coroutines/selects/SelectKt\n+ 3 Combine.kt\nkotlinx/coroutines/flow/internal/CombineKt\n*L\n1#1,142:1\n203#2,4:143\n207#2,5:163\n84#3,8:147\n84#3,8:155\n*E\n*S KotlinDebug\n*F\n+ 1 Combine.kt\nkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2\n*L\n28#1,4:143\n28#1,5:163\n28#1,8:147\n28#1,8:155\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -47,8 +47,8 @@
         "T1",
         "T2",
         "R",
-        "Lkotlinx/coroutines/m0;",
-        "Lkotlin/t1;",
+        "Lcotlinx/coroutines/m0;",
+        "Lcotlin/t1;",
         "invoke",
         "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
         "<anonymous>"
@@ -61,7 +61,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.flow.internal.CombineKt$combineTransformInternal$2"
     f = "Combine.kt"
     i = {
@@ -99,13 +99,13 @@
 
 
 # instance fields
-.field final synthetic $first:Lkotlinx/coroutines/flow/d;
+.field final synthetic $first:Lcotlinx/coroutines/flow/d;
 
-.field final synthetic $second:Lkotlinx/coroutines/flow/d;
+.field final synthetic $second:Lcotlinx/coroutines/flow/d;
 
-.field final synthetic $this_combineTransformInternal:Lkotlinx/coroutines/flow/e;
+.field final synthetic $this_combineTransformInternal:Lcotlinx/coroutines/flow/e;
 
-.field final synthetic $transform:Lkotlin/jvm/u/r;
+.field final synthetic $transform:Lcotlin/jvm/u/r;
 
 .field L$0:Ljava/lang/Object;
 
@@ -125,37 +125,37 @@
 
 .field label:I
 
-.field private p$:Lkotlinx/coroutines/m0;
+.field private p$:Lcotlinx/coroutines/m0;
 
 
 # direct methods
-.method constructor <init>(Lkotlinx/coroutines/flow/e;Lkotlinx/coroutines/flow/d;Lkotlinx/coroutines/flow/d;Lkotlin/jvm/u/r;Lkotlin/coroutines/c;)V
+.method constructor <init>(Lcotlinx/coroutines/flow/e;Lcotlinx/coroutines/flow/d;Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/r;Lcotlin/coroutines/c;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$this_combineTransformInternal:Lkotlinx/coroutines/flow/e;
+    iput-object p1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$this_combineTransformInternal:Lcotlinx/coroutines/flow/e;
 
-    iput-object p2, p0, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$first:Lkotlinx/coroutines/flow/d;
+    iput-object p2, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$first:Lcotlinx/coroutines/flow/d;
 
-    iput-object p3, p0, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$second:Lkotlinx/coroutines/flow/d;
+    iput-object p3, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$second:Lcotlinx/coroutines/flow/d;
 
-    iput-object p4, p0, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$transform:Lkotlin/jvm/u/r;
+    iput-object p4, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$transform:Lcotlin/jvm/u/r;
 
     const/4 p1, 0x2
 
-    invoke-direct {p0, p1, p5}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/c;)V
+    invoke-direct {p0, p1, p5}, Lcotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILcotlin/coroutines/c;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+.method public final create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 7
     .param p1    # Ljava/lang/Object;
         .annotation build Ln/e/a/e;
         .end annotation
     .end param
-    .param p2    # Lkotlin/coroutines/c;
+    .param p2    # Lcotlin/coroutines/c;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -163,10 +163,10 @@
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lkotlin/coroutines/c<",
+            "Lcotlin/coroutines/c<",
             "*>;)",
-            "Lkotlin/coroutines/c<",
-            "Lkotlin/t1;",
+            "Lcotlin/coroutines/c<",
+            "Lcotlin/t1;",
             ">;"
         }
     .end annotation
@@ -174,25 +174,25 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    new-instance v6, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;
+    new-instance v6, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;
 
-    iget-object v1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$this_combineTransformInternal:Lkotlinx/coroutines/flow/e;
+    iget-object v1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$this_combineTransformInternal:Lcotlinx/coroutines/flow/e;
 
-    iget-object v2, p0, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$first:Lkotlinx/coroutines/flow/d;
+    iget-object v2, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$first:Lcotlinx/coroutines/flow/d;
 
-    iget-object v3, p0, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$second:Lkotlinx/coroutines/flow/d;
+    iget-object v3, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$second:Lcotlinx/coroutines/flow/d;
 
-    iget-object v4, p0, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$transform:Lkotlin/jvm/u/r;
+    iget-object v4, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$transform:Lcotlin/jvm/u/r;
 
     move-object v0, v6
 
     move-object v5, p2
 
-    invoke-direct/range {v0 .. v5}, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;-><init>(Lkotlinx/coroutines/flow/e;Lkotlinx/coroutines/flow/d;Lkotlinx/coroutines/flow/d;Lkotlin/jvm/u/r;Lkotlin/coroutines/c;)V
+    invoke-direct/range {v0 .. v5}, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;-><init>(Lcotlinx/coroutines/flow/e;Lcotlinx/coroutines/flow/d;Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/r;Lcotlin/coroutines/c;)V
 
-    check-cast p1, Lkotlinx/coroutines/m0;
+    check-cast p1, Lcotlinx/coroutines/m0;
 
-    iput-object p1, v6, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->p$:Lkotlinx/coroutines/m0;
+    iput-object p1, v6, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->p$:Lcotlinx/coroutines/m0;
 
     return-object v6
 .end method
@@ -200,17 +200,17 @@
 .method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    check-cast p2, Lkotlin/coroutines/c;
+    check-cast p2, Lcotlin/coroutines/c;
 
-    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->create(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    invoke-virtual {p0, p1, p2}, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p1
 
-    check-cast p1, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;
+    check-cast p1, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;
 
-    sget-object p2, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object p2, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-virtual {p1, p2}, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -228,12 +228,12 @@
 
     move-object/from16 v1, p0
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 1
-    iget v2, v1, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->label:I
+    iget v2, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->label:I
 
     const/4 v3, 0x1
 
@@ -241,39 +241,39 @@
 
     if-ne v2, v3, :cond_0
 
-    iget-object v2, v1, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$7:Ljava/lang/Object;
+    iget-object v2, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$7:Ljava/lang/Object;
 
-    check-cast v2, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;
+    check-cast v2, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;
 
-    iget-object v2, v1, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$6:Ljava/lang/Object;
+    iget-object v2, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$6:Ljava/lang/Object;
 
-    check-cast v2, Lkotlin/jvm/internal/Ref$BooleanRef;
+    check-cast v2, Lcotlin/jvm/internal/Ref$BooleanRef;
 
-    iget-object v4, v1, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$5:Ljava/lang/Object;
+    iget-object v4, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$5:Ljava/lang/Object;
 
-    check-cast v4, Lkotlin/jvm/internal/Ref$BooleanRef;
+    check-cast v4, Lcotlin/jvm/internal/Ref$BooleanRef;
 
-    iget-object v5, v1, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$4:Ljava/lang/Object;
+    iget-object v5, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$4:Ljava/lang/Object;
 
-    check-cast v5, Lkotlin/jvm/internal/Ref$ObjectRef;
+    check-cast v5, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iget-object v6, v1, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$3:Ljava/lang/Object;
+    iget-object v6, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$3:Ljava/lang/Object;
 
-    check-cast v6, Lkotlin/jvm/internal/Ref$ObjectRef;
+    check-cast v6, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    iget-object v7, v1, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$2:Ljava/lang/Object;
+    iget-object v7, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$2:Ljava/lang/Object;
 
-    check-cast v7, Lkotlinx/coroutines/channels/y;
+    check-cast v7, Lcotlinx/coroutines/channels/y;
 
-    iget-object v8, v1, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$1:Ljava/lang/Object;
+    iget-object v8, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$1:Ljava/lang/Object;
 
-    check-cast v8, Lkotlinx/coroutines/channels/y;
+    check-cast v8, Lcotlinx/coroutines/channels/y;
 
-    iget-object v9, v1, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$0:Ljava/lang/Object;
+    iget-object v9, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$0:Ljava/lang/Object;
 
-    check-cast v9, Lkotlinx/coroutines/m0;
+    check-cast v9, Lcotlinx/coroutines/m0;
 
-    invoke-static/range {p1 .. p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static/range {p1 .. p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     move-object v14, v2
 
@@ -305,55 +305,55 @@
 
     .line 3
     :cond_1
-    invoke-static/range {p1 .. p1}, Lkotlin/r0;->n(Ljava/lang/Object;)V
+    invoke-static/range {p1 .. p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    iget-object v2, v1, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->p$:Lkotlinx/coroutines/m0;
+    iget-object v2, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->p$:Lcotlinx/coroutines/m0;
 
     .line 4
-    iget-object v4, v1, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$first:Lkotlinx/coroutines/flow/d;
+    iget-object v4, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$first:Lcotlinx/coroutines/flow/d;
 
-    invoke-static {v2, v4}, Lkotlinx/coroutines/flow/internal/CombineKt;->b(Lkotlinx/coroutines/m0;Lkotlinx/coroutines/flow/d;)Lkotlinx/coroutines/channels/y;
+    invoke-static {v2, v4}, Lcotlinx/coroutines/flow/internal/CombineKt;->b(Lcotlinx/coroutines/m0;Lcotlinx/coroutines/flow/d;)Lcotlinx/coroutines/channels/y;
 
     move-result-object v4
 
     .line 5
-    iget-object v5, v1, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$second:Lkotlinx/coroutines/flow/d;
+    iget-object v5, v1, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->$second:Lcotlinx/coroutines/flow/d;
 
-    invoke-static {v2, v5}, Lkotlinx/coroutines/flow/internal/CombineKt;->b(Lkotlinx/coroutines/m0;Lkotlinx/coroutines/flow/d;)Lkotlinx/coroutines/channels/y;
+    invoke-static {v2, v5}, Lcotlinx/coroutines/flow/internal/CombineKt;->b(Lcotlinx/coroutines/m0;Lcotlinx/coroutines/flow/d;)Lcotlinx/coroutines/channels/y;
 
     move-result-object v5
 
     .line 6
-    new-instance v6, Lkotlin/jvm/internal/Ref$ObjectRef;
+    new-instance v6, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    invoke-direct {v6}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+    invoke-direct {v6}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
     const/4 v7, 0x0
 
-    iput-object v7, v6, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object v7, v6, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 7
-    new-instance v8, Lkotlin/jvm/internal/Ref$ObjectRef;
+    new-instance v8, Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    invoke-direct {v8}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+    invoke-direct {v8}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
 
-    iput-object v7, v8, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+    iput-object v7, v8, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     .line 8
-    new-instance v7, Lkotlin/jvm/internal/Ref$BooleanRef;
+    new-instance v7, Lcotlin/jvm/internal/Ref$BooleanRef;
 
-    invoke-direct {v7}, Lkotlin/jvm/internal/Ref$BooleanRef;-><init>()V
+    invoke-direct {v7}, Lcotlin/jvm/internal/Ref$BooleanRef;-><init>()V
 
     const/4 v9, 0x0
 
-    iput-boolean v9, v7, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
+    iput-boolean v9, v7, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     .line 9
-    new-instance v10, Lkotlin/jvm/internal/Ref$BooleanRef;
+    new-instance v10, Lcotlin/jvm/internal/Ref$BooleanRef;
 
-    invoke-direct {v10}, Lkotlin/jvm/internal/Ref$BooleanRef;-><init>()V
+    invoke-direct {v10}, Lcotlin/jvm/internal/Ref$BooleanRef;-><init>()V
 
-    iput-boolean v9, v10, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
+    iput-boolean v9, v10, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     move-object v9, v2
 
@@ -375,11 +375,11 @@
 
     .line 10
     :goto_0
-    iget-boolean v0, v15, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
+    iget-boolean v0, v15, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     if-eqz v0, :cond_3
 
-    iget-boolean v0, v14, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
+    iget-boolean v0, v14, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     if-nez v0, :cond_2
 
@@ -387,41 +387,41 @@
 
     .line 11
     :cond_2
-    sget-object v0, Lkotlin/t1;->a:Lkotlin/t1;
+    sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object v0
 
     .line 12
     :cond_3
     :goto_1
-    iput-object v9, v8, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$0:Ljava/lang/Object;
+    iput-object v9, v8, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$0:Ljava/lang/Object;
 
-    iput-object v10, v8, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$1:Ljava/lang/Object;
+    iput-object v10, v8, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$1:Ljava/lang/Object;
 
-    iput-object v11, v8, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$2:Ljava/lang/Object;
+    iput-object v11, v8, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$2:Ljava/lang/Object;
 
-    iput-object v12, v8, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$3:Ljava/lang/Object;
+    iput-object v12, v8, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$3:Ljava/lang/Object;
 
-    iput-object v13, v8, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$4:Ljava/lang/Object;
+    iput-object v13, v8, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$4:Ljava/lang/Object;
 
-    iput-object v15, v8, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$5:Ljava/lang/Object;
+    iput-object v15, v8, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$5:Ljava/lang/Object;
 
-    iput-object v14, v8, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$6:Ljava/lang/Object;
+    iput-object v14, v8, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$6:Ljava/lang/Object;
 
-    iput-object v8, v8, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$7:Ljava/lang/Object;
+    iput-object v8, v8, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->L$7:Ljava/lang/Object;
 
-    iput v3, v8, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->label:I
+    iput v3, v8, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;->label:I
 
     .line 13
-    new-instance v7, Lkotlinx/coroutines/selects/b;
+    new-instance v7, Lcotlinx/coroutines/selects/b;
 
-    invoke-direct {v7, v8}, Lkotlinx/coroutines/selects/b;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {v7, v8}, Lcotlinx/coroutines/selects/b;-><init>(Lcotlin/coroutines/c;)V
 
     .line 14
     :try_start_0
-    iget-boolean v0, v15, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
+    iget-boolean v0, v15, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
-    new-instance v16, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$1;
+    new-instance v16, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
@@ -456,7 +456,7 @@
     move-object/from16 v12, v20
 
     :try_start_1
-    invoke-direct/range {v4 .. v12}, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$1;-><init>(Lkotlin/coroutines/c;Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;Lkotlin/jvm/internal/Ref$BooleanRef;Lkotlinx/coroutines/channels/y;Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlin/jvm/internal/Ref$BooleanRef;Lkotlinx/coroutines/channels/y;)V
+    invoke-direct/range {v4 .. v12}, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$1;-><init>(Lcotlin/coroutines/c;Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;Lcotlin/jvm/internal/Ref$BooleanRef;Lcotlinx/coroutines/channels/y;Lcotlin/jvm/internal/Ref$ObjectRef;Lcotlin/jvm/internal/Ref$ObjectRef;Lcotlin/jvm/internal/Ref$BooleanRef;Lcotlinx/coroutines/channels/y;)V
 
     if-eqz v0, :cond_4
 
@@ -466,11 +466,11 @@
 
     .line 15
     :cond_4
-    invoke-interface/range {v19 .. v19}, Lkotlinx/coroutines/channels/y;->K()Lkotlinx/coroutines/selects/d;
+    invoke-interface/range {v19 .. v19}, Lcotlinx/coroutines/channels/y;->K()Lcotlinx/coroutines/selects/d;
 
     move-result-object v0
 
-    new-instance v12, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$2;
+    new-instance v12, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$2;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
@@ -499,17 +499,17 @@
     move-object/from16 v13, v20
 
     :try_start_2
-    invoke-direct/range {v4 .. v13}, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$2;-><init>(Lkotlin/jvm/u/p;Lkotlin/coroutines/c;Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;Lkotlin/jvm/internal/Ref$BooleanRef;Lkotlinx/coroutines/channels/y;Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlin/jvm/internal/Ref$BooleanRef;Lkotlinx/coroutines/channels/y;)V
+    invoke-direct/range {v4 .. v13}, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$2;-><init>(Lcotlin/jvm/u/p;Lcotlin/coroutines/c;Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;Lcotlin/jvm/internal/Ref$BooleanRef;Lcotlinx/coroutines/channels/y;Lcotlin/jvm/internal/Ref$ObjectRef;Lcotlin/jvm/internal/Ref$ObjectRef;Lcotlin/jvm/internal/Ref$BooleanRef;Lcotlinx/coroutines/channels/y;)V
 
     move-object/from16 v4, v22
 
-    invoke-interface {v3, v0, v4}, Lkotlinx/coroutines/selects/a;->x(Lkotlinx/coroutines/selects/d;Lkotlin/jvm/u/p;)V
+    invoke-interface {v3, v0, v4}, Lcotlinx/coroutines/selects/a;->x(Lcotlinx/coroutines/selects/d;Lcotlin/jvm/u/p;)V
 
     .line 16
     :goto_2
-    iget-boolean v0, v14, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
+    iget-boolean v0, v14, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
-    new-instance v13, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$3;
+    new-instance v13, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$3;
 
     const/4 v5, 0x0
 
@@ -529,7 +529,7 @@
 
     move-object/from16 v12, v20
 
-    invoke-direct/range {v4 .. v12}, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$3;-><init>(Lkotlin/coroutines/c;Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;Lkotlin/jvm/internal/Ref$BooleanRef;Lkotlinx/coroutines/channels/y;Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlin/jvm/internal/Ref$BooleanRef;Lkotlinx/coroutines/channels/y;)V
+    invoke-direct/range {v4 .. v12}, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$3;-><init>(Lcotlin/coroutines/c;Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;Lcotlin/jvm/internal/Ref$BooleanRef;Lcotlinx/coroutines/channels/y;Lcotlin/jvm/internal/Ref$ObjectRef;Lcotlin/jvm/internal/Ref$ObjectRef;Lcotlin/jvm/internal/Ref$BooleanRef;Lcotlinx/coroutines/channels/y;)V
 
     if-eqz v0, :cond_5
 
@@ -537,11 +537,11 @@
 
     .line 17
     :cond_5
-    invoke-interface/range {v20 .. v20}, Lkotlinx/coroutines/channels/y;->K()Lkotlinx/coroutines/selects/d;
+    invoke-interface/range {v20 .. v20}, Lcotlinx/coroutines/channels/y;->K()Lcotlinx/coroutines/selects/d;
 
     move-result-object v0
 
-    new-instance v12, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$4;
+    new-instance v12, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$4;
 
     const/4 v6, 0x0
 
@@ -567,9 +567,9 @@
 
     move-object/from16 v13, v20
 
-    invoke-direct/range {v4 .. v13}, Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$4;-><init>(Lkotlin/jvm/u/p;Lkotlin/coroutines/c;Lkotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;Lkotlin/jvm/internal/Ref$BooleanRef;Lkotlinx/coroutines/channels/y;Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlin/jvm/internal/Ref$BooleanRef;Lkotlinx/coroutines/channels/y;)V
+    invoke-direct/range {v4 .. v13}, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2$invokeSuspend$$inlined$select$lambda$4;-><init>(Lcotlin/jvm/u/p;Lcotlin/coroutines/c;Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;Lcotlin/jvm/internal/Ref$BooleanRef;Lcotlinx/coroutines/channels/y;Lcotlin/jvm/internal/Ref$ObjectRef;Lcotlin/jvm/internal/Ref$ObjectRef;Lcotlin/jvm/internal/Ref$BooleanRef;Lcotlinx/coroutines/channels/y;)V
 
-    invoke-interface {v3, v0, v1}, Lkotlinx/coroutines/selects/a;->x(Lkotlinx/coroutines/selects/d;Lkotlin/jvm/u/p;)V
+    invoke-interface {v3, v0, v1}, Lcotlinx/coroutines/selects/a;->x(Lcotlinx/coroutines/selects/d;Lcotlin/jvm/u/p;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -605,22 +605,22 @@
 
     .line 18
     :goto_4
-    invoke-virtual {v3, v0}, Lkotlinx/coroutines/selects/b;->n0(Ljava/lang/Throwable;)V
+    invoke-virtual {v3, v0}, Lcotlinx/coroutines/selects/b;->n0(Ljava/lang/Throwable;)V
 
     .line 19
     :goto_5
-    invoke-virtual {v3}, Lkotlinx/coroutines/selects/b;->m0()Ljava/lang/Object;
+    invoke-virtual {v3}, Lcotlinx/coroutines/selects/b;->m0()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 20
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
+    invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
 
     if-ne v0, v1, :cond_6
 
-    invoke-static/range {v17 .. v17}, Lkotlin/coroutines/jvm/internal/f;->c(Lkotlin/coroutines/c;)V
+    invoke-static/range {v17 .. v17}, Lcotlin/coroutines/jvm/internal/f;->c(Lcotlin/coroutines/c;)V
 
     :cond_6
     if-ne v0, v2, :cond_7

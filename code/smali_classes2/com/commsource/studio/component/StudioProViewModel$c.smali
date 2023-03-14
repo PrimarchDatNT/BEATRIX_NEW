@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/commsource/studio/component/StudioProViewModel;->I(Landroidx/fragment/app/FragmentActivity;[Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/u/l;)V
+    value = Lcom/commsource/studio/component/StudioProViewModel;->I(Landroidx/fragment/app/FragmentActivity;[Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -27,7 +27,7 @@
         "Lcom/commsource/util/delegate/process/m;",
         "",
         "isSubcribe",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "h",
         "(Z)V",
         "app_googleplayRelease"
@@ -44,16 +44,16 @@
 # instance fields
 .field final synthetic e:Lcom/commsource/studio/component/StudioProViewModel;
 
-.field final synthetic f:Lkotlin/jvm/u/l;
+.field final synthetic f:Lcotlin/jvm/u/l;
 
 
 # direct methods
-.method constructor <init>(Lcom/commsource/studio/component/StudioProViewModel;Lkotlin/jvm/u/l;Ljava/lang/String;)V
+.method constructor <init>(Lcom/commsource/studio/component/StudioProViewModel;Lcotlin/jvm/u/l;Ljava/lang/String;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/jvm/u/l;",
+            "Lcotlin/jvm/u/l;",
             "Ljava/lang/String;",
             ")V"
         }
@@ -62,7 +62,7 @@
     .line 1
     iput-object p1, p0, Lcom/commsource/studio/component/StudioProViewModel$c;->e:Lcom/commsource/studio/component/StudioProViewModel;
 
-    iput-object p2, p0, Lcom/commsource/studio/component/StudioProViewModel$c;->f:Lkotlin/jvm/u/l;
+    iput-object p2, p0, Lcom/commsource/studio/component/StudioProViewModel$c;->f:Lcotlin/jvm/u/l;
 
     invoke-direct {p0, p3}, Lcom/commsource/util/delegate/process/m;-><init>(Ljava/lang/String;)V
 
@@ -107,7 +107,7 @@
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
     .line 3
-    iget-object v1, p0, Lcom/commsource/studio/component/StudioProViewModel$c;->f:Lkotlin/jvm/u/l;
+    iget-object v1, p0, Lcom/commsource/studio/component/StudioProViewModel$c;->f:Lcotlin/jvm/u/l;
 
     if-eqz v1, :cond_0
 
@@ -115,11 +115,11 @@
 
     move-result-object p1
 
-    invoke-interface {v1, p1}, Lkotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lkotlin/t1;
+    check-cast p1, Lcotlin/t1;
 
     .line 4
     :cond_0

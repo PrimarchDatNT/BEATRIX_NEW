@@ -1,10 +1,10 @@
-.class public final Lkotlin/jvm/internal/h0;
+.class public final Lcotlin/jvm/internal/h0;
 .super Ljava/lang/Object;
 .source "localVariableReferences.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -33,7 +33,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lkotlin/jvm/internal/h0;->b()Ljava/lang/Void;
+    invoke-static {}, Lcotlin/jvm/internal/h0;->b()Ljava/lang/Void;
 
     move-result-object v0
 

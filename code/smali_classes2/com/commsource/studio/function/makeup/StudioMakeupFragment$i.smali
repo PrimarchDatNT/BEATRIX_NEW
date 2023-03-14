@@ -17,7 +17,7 @@
     value = "SMAP\nStudioMakeupFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StudioMakeupFragment.kt\ncom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$6\n*L\n1#1,821:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -31,7 +31,7 @@
         "Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;",
         "",
         "position",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onPageSelected",
         "(I)V",
         "app_googleplayRelease"

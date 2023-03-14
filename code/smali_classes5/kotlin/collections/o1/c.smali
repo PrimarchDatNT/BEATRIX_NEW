@@ -1,4 +1,4 @@
-.class public final Lkotlin/collections/o1/c;
+.class public final Lcotlin/collections/o1/c;
 .super Ljava/lang/Object;
 .source "ListBuilder.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nListBuilder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ListBuilder.kt\nkotlin/collections/builders/ListBuilderKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,350:1\n1#2:351\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -41,7 +41,7 @@
         "e",
         "([Ljava/lang/Object;I)[Ljava/lang/Object;",
         "index",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "f",
         "([Ljava/lang/Object;I)V",
         "fromIndex",
@@ -64,7 +64,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lkotlin/collections/o1/c;->h([Ljava/lang/Object;IILjava/util/List;)Z
+    invoke-static {p0, p1, p2, p3}, Lcotlin/collections/o1/c;->h([Ljava/lang/Object;IILjava/util/List;)Z
 
     move-result p0
 
@@ -75,7 +75,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlin/collections/o1/c;->i([Ljava/lang/Object;II)I
+    invoke-static {p0, p1, p2}, Lcotlin/collections/o1/c;->i([Ljava/lang/Object;II)I
 
     move-result p0
 
@@ -86,7 +86,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlin/collections/o1/c;->j([Ljava/lang/Object;II)Ljava/lang/String;
+    invoke-static {p0, p1, p2}, Lcotlin/collections/o1/c;->j([Ljava/lang/Object;II)Ljava/lang/String;
 
     move-result-object p0
 
@@ -157,7 +157,7 @@
 
     const-string v0, "$this$copyOfUninitializedElements"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p0, p1}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -166,7 +166,7 @@
 
     const-string p1, "java.util.Arrays.copyOf(this, newSize)"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "null cannot be cast to non-null type kotlin.Array<T>"
 
@@ -191,7 +191,7 @@
 
     const-string v0, "$this$resetAt"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -217,13 +217,13 @@
 
     const-string v0, "$this$resetRange"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     :goto_0
     if-ge p1, p2, :cond_0
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/collections/o1/c;->f([Ljava/lang/Object;I)V
+    invoke-static {p0, p1}, Lcotlin/collections/o1/c;->f([Ljava/lang/Object;I)V
 
     add-int/lit8 p1, p1, 0x1
 
@@ -273,7 +273,7 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
 
@@ -403,7 +403,7 @@
 
     const-string p1, "sb.toString()"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method

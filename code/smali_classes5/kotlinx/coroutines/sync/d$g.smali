@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/sync/d$g;
-.super Lkotlinx/coroutines/internal/m$c;
+.class public final Lcotlinx/coroutines/sync/d$g;
+.super Lcotlinx/coroutines/internal/m$c;
 .source "LockFreeLinkedList.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/sync/d;->h(Ljava/lang/Object;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    value = Lcotlinx/coroutines/sync/d;->h(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,7 +17,7 @@
     value = "SMAP\nLockFreeLinkedList.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LockFreeLinkedList.kt\nkotlinx/coroutines/internal/LockFreeLinkedListNode$makeCondAddOp$1\n+ 2 Mutex.kt\nkotlinx/coroutines/sync/MutexImpl\n*L\n1#1,657:1\n210#2:658\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,13 +28,13 @@
     }
     d2 = {
         "kotlinx/coroutines/sync/d$g",
-        "Lkotlinx/coroutines/internal/m$c;",
-        "Lkotlinx/coroutines/internal/m;",
-        "Lkotlinx/coroutines/internal/Node;",
+        "Lcotlinx/coroutines/internal/m$c;",
+        "Lcotlinx/coroutines/internal/m;",
+        "Lcotlinx/coroutines/internal/Node;",
         "affected",
         "",
         "j",
-        "(Lkotlinx/coroutines/internal/m;)Ljava/lang/Object;",
+        "(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;",
         "kotlinx-coroutines-core",
         "kotlinx/coroutines/sync/MutexImpl$$special$$inlined$loop$lambda$1"
     }
@@ -48,37 +48,37 @@
 
 
 # instance fields
-.field final synthetic d:Lkotlinx/coroutines/internal/m;
+.field final synthetic d:Lcotlinx/coroutines/internal/m;
 
 .field final synthetic e:Ljava/lang/Object;
 
-.field final synthetic f:Lkotlinx/coroutines/m;
+.field final synthetic f:Lcotlinx/coroutines/m;
 
-.field final synthetic g:Lkotlinx/coroutines/sync/d$a;
+.field final synthetic g:Lcotlinx/coroutines/sync/d$a;
 
-.field final synthetic h:Lkotlinx/coroutines/sync/d;
+.field final synthetic h:Lcotlinx/coroutines/sync/d;
 
 .field final synthetic i:Ljava/lang/Object;
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/internal/m;Lkotlinx/coroutines/internal/m;Ljava/lang/Object;Lkotlinx/coroutines/m;Lkotlinx/coroutines/sync/d$a;Lkotlinx/coroutines/sync/d;Ljava/lang/Object;)V
+.method public constructor <init>(Lcotlinx/coroutines/internal/m;Lcotlinx/coroutines/internal/m;Ljava/lang/Object;Lcotlinx/coroutines/m;Lcotlinx/coroutines/sync/d$a;Lcotlinx/coroutines/sync/d;Ljava/lang/Object;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/sync/d$g;->d:Lkotlinx/coroutines/internal/m;
+    iput-object p1, p0, Lcotlinx/coroutines/sync/d$g;->d:Lcotlinx/coroutines/internal/m;
 
-    iput-object p3, p0, Lkotlinx/coroutines/sync/d$g;->e:Ljava/lang/Object;
+    iput-object p3, p0, Lcotlinx/coroutines/sync/d$g;->e:Ljava/lang/Object;
 
-    iput-object p4, p0, Lkotlinx/coroutines/sync/d$g;->f:Lkotlinx/coroutines/m;
+    iput-object p4, p0, Lcotlinx/coroutines/sync/d$g;->f:Lcotlinx/coroutines/m;
 
-    iput-object p5, p0, Lkotlinx/coroutines/sync/d$g;->g:Lkotlinx/coroutines/sync/d$a;
+    iput-object p5, p0, Lcotlinx/coroutines/sync/d$g;->g:Lcotlinx/coroutines/sync/d$a;
 
-    iput-object p6, p0, Lkotlinx/coroutines/sync/d$g;->h:Lkotlinx/coroutines/sync/d;
+    iput-object p6, p0, Lcotlinx/coroutines/sync/d$g;->h:Lcotlinx/coroutines/sync/d;
 
-    iput-object p7, p0, Lkotlinx/coroutines/sync/d$g;->i:Ljava/lang/Object;
+    iput-object p7, p0, Lcotlinx/coroutines/sync/d$g;->i:Ljava/lang/Object;
 
     .line 1
-    invoke-direct {p0, p2}, Lkotlinx/coroutines/internal/m$c;-><init>(Lkotlinx/coroutines/internal/m;)V
+    invoke-direct {p0, p2}, Lcotlinx/coroutines/internal/m$c;-><init>(Lcotlinx/coroutines/internal/m;)V
 
     return-void
 .end method
@@ -89,18 +89,18 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lkotlinx/coroutines/internal/m;
+    check-cast p1, Lcotlinx/coroutines/internal/m;
 
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/sync/d$g;->j(Lkotlinx/coroutines/internal/m;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/sync/d$g;->j(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public j(Lkotlinx/coroutines/internal/m;)Ljava/lang/Object;
+.method public j(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Lkotlinx/coroutines/internal/m;
+    .param p1    # Lcotlinx/coroutines/internal/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -108,11 +108,11 @@
     .end annotation
 
     .line 1
-    iget-object p1, p0, Lkotlinx/coroutines/sync/d$g;->h:Lkotlinx/coroutines/sync/d;
+    iget-object p1, p0, Lcotlinx/coroutines/sync/d$g;->h:Lcotlinx/coroutines/sync/d;
 
-    iget-object p1, p1, Lkotlinx/coroutines/sync/d;->_state:Ljava/lang/Object;
+    iget-object p1, p1, Lcotlinx/coroutines/sync/d;->_state:Ljava/lang/Object;
 
-    iget-object v0, p0, Lkotlinx/coroutines/sync/d$g;->e:Ljava/lang/Object;
+    iget-object v0, p0, Lcotlinx/coroutines/sync/d$g;->e:Ljava/lang/Object;
 
     if-ne p1, v0, :cond_0
 
@@ -131,7 +131,7 @@
     goto :goto_1
 
     :cond_1
-    invoke-static {}, Lkotlinx/coroutines/internal/l;->f()Ljava/lang/Object;
+    invoke-static {}, Lcotlinx/coroutines/internal/l;->f()Ljava/lang/Object;
 
     move-result-object p1
 

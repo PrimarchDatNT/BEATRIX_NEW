@@ -1,10 +1,10 @@
-.class Lkotlin/i2/h;
+.class Lcotlin/i2/h;
 .super Ljava/lang/Object;
 .source "DurationUnitJvm.kt"
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -17,15 +17,15 @@
         "",
         "value",
         "Ljava/util/concurrent/TimeUnit;",
-        "Lkotlin/time/DurationUnit;",
+        "Lcotlin/time/DurationUnit;",
         "sourceUnit",
         "targetUnit",
         "b",
         "(DLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/TimeUnit;)D",
-        "Lkotlin/s0;",
+        "Lcotlin/s0;",
         "version",
         "1.3",
-        "Lkotlin/i2/j;",
+        "Lcotlin/i2/j;",
         "DurationUnit",
         "kotlin-stdlib"
     }
@@ -50,10 +50,10 @@
 
 .method public static synthetic a()V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -70,20 +70,20 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     const-string v0, "sourceUnit"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "targetUnit"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-wide/16 v0, 0x1
 

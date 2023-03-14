@@ -1,11 +1,11 @@
-.class public final Lkotlinx/coroutines/internal/m$f;
-.super Lkotlinx/coroutines/internal/m$c;
+.class public final Lcotlinx/coroutines/internal/m$f;
+.super Lcotlinx/coroutines/internal/m$c;
 .source "LockFreeLinkedList.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/internal/m;->V(Lkotlinx/coroutines/internal/m;Lkotlin/jvm/u/a;)Lkotlinx/coroutines/internal/m$c;
+    value = Lcotlinx/coroutines/internal/m;->V(Lcotlinx/coroutines/internal/m;Lcotlin/jvm/u/a;)Lcotlinx/coroutines/internal/m$c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,7 +17,7 @@
     value = "SMAP\nLockFreeLinkedList.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LockFreeLinkedList.kt\nkotlinx/coroutines/internal/LockFreeLinkedListNode$makeCondAddOp$1\n*L\n1#1,657:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,13 +28,13 @@
     }
     d2 = {
         "kotlinx/coroutines/internal/m$f",
-        "Lkotlinx/coroutines/internal/m$c;",
-        "Lkotlinx/coroutines/internal/m;",
-        "Lkotlinx/coroutines/internal/Node;",
+        "Lcotlinx/coroutines/internal/m$c;",
+        "Lcotlinx/coroutines/internal/m;",
+        "Lcotlinx/coroutines/internal/Node;",
         "affected",
         "",
         "j",
-        "(Lkotlinx/coroutines/internal/m;)Ljava/lang/Object;",
+        "(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;",
         "kotlinx-coroutines-core"
     }
     k = 0x1
@@ -47,21 +47,21 @@
 
 
 # instance fields
-.field final synthetic d:Lkotlin/jvm/u/a;
+.field final synthetic d:Lcotlin/jvm/u/a;
 
-.field final synthetic e:Lkotlinx/coroutines/internal/m;
+.field final synthetic e:Lcotlinx/coroutines/internal/m;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/u/a;Lkotlinx/coroutines/internal/m;Lkotlinx/coroutines/internal/m;)V
+.method public constructor <init>(Lcotlin/jvm/u/a;Lcotlinx/coroutines/internal/m;Lcotlinx/coroutines/internal/m;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lkotlinx/coroutines/internal/m$f;->d:Lkotlin/jvm/u/a;
+    iput-object p1, p0, Lcotlinx/coroutines/internal/m$f;->d:Lcotlin/jvm/u/a;
 
-    iput-object p2, p0, Lkotlinx/coroutines/internal/m$f;->e:Lkotlinx/coroutines/internal/m;
+    iput-object p2, p0, Lcotlinx/coroutines/internal/m$f;->e:Lcotlinx/coroutines/internal/m;
 
-    invoke-direct {p0, p3}, Lkotlinx/coroutines/internal/m$c;-><init>(Lkotlinx/coroutines/internal/m;)V
+    invoke-direct {p0, p3}, Lcotlinx/coroutines/internal/m$c;-><init>(Lcotlinx/coroutines/internal/m;)V
 
     return-void
 .end method
@@ -72,18 +72,18 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lkotlinx/coroutines/internal/m;
+    check-cast p1, Lcotlinx/coroutines/internal/m;
 
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/internal/m$f;->j(Lkotlinx/coroutines/internal/m;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Lcotlinx/coroutines/internal/m$f;->j(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public j(Lkotlinx/coroutines/internal/m;)Ljava/lang/Object;
+.method public j(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;
     .locals 0
-    .param p1    # Lkotlinx/coroutines/internal/m;
+    .param p1    # Lcotlinx/coroutines/internal/m;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
@@ -91,9 +91,9 @@
     .end annotation
 
     .line 1
-    iget-object p1, p0, Lkotlinx/coroutines/internal/m$f;->d:Lkotlin/jvm/u/a;
+    iget-object p1, p0, Lcotlinx/coroutines/internal/m$f;->d:Lcotlin/jvm/u/a;
 
-    invoke-interface {p1}, Lkotlin/jvm/u/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -110,7 +110,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {}, Lkotlinx/coroutines/internal/l;->f()Ljava/lang/Object;
+    invoke-static {}, Lcotlinx/coroutines/internal/l;->f()Ljava/lang/Object;
 
     move-result-object p1
 

@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -16,7 +16,7 @@
     d2 = {
         "Lcom/commsource/studio/q0/b;",
         "",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "b",
         "()V",
         "Landroidx/lifecycle/MutableLiveData;",

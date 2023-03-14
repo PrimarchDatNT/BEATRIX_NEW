@@ -17,7 +17,7 @@
     value = "SMAP\nCameraVideoCaptureCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CameraVideoCaptureCover.kt\ncom/commsource/camera/xcamera/cover/CameraVideoCaptureCover$gotoVideoConfirm$2\n*L\n1#1,443:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
     d2 = {
         "com/commsource/camera/xcamera/cover/CameraVideoCaptureCover$a",
         "Lcom/commsource/util/delegate/process/n;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "l",
         "()V",
         "",
@@ -249,7 +249,7 @@
     const-string v3, "session"
 
     .line 4
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/commsource/camera/r0$c;->B()I
 

@@ -20,7 +20,7 @@
     value = "SMAP\nNewTextPageView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewTextPageView.kt\ncom/commsource/beautyplus/onboarding/NewTextPageView$transformAnimation$1\n*L\n1#1,93:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,7 +35,7 @@
         "",
         "fraction",
         "value",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "e",
         "(FF)V",
         "Lcom/commsource/camera/f1/l;",
@@ -211,7 +211,7 @@
 
     const-string/jumbo v1, "showView.root"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewTextPageView$a;->a:Lcom/commsource/beautyplus/onboarding/NewTextPageView;
 

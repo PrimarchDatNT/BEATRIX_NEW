@@ -31,7 +31,7 @@
     value = "SMAP\nNewHomeContentViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewHomeContentViewModel.kt\ncom/commsource/home/NewHomeContentViewModel$1\n*L\n1#1,354:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -44,7 +44,7 @@
         "Lcom/commsource/home/entity/e;",
         "kotlin.jvm.PlatformType",
         "homeContentEntity",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "a",
         "(Lcom/commsource/home/entity/e;)V"
     }

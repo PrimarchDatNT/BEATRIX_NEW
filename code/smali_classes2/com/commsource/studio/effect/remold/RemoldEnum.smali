@@ -12,7 +12,7 @@
     }
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -801,7 +801,7 @@
     return-void
 .end method
 
-.method synthetic constructor <init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;ILkotlin/jvm/internal/u;)V
+.method synthetic constructor <init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;ILcotlin/jvm/internal/u;)V
     .locals 10
 
     and-int/lit8 v0, p9, 0x10

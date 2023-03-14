@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "recyclerView",
         "",
         "newState",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "onScrollStateChanged",
         "(Landroidx/recyclerview/widget/RecyclerView;I)V",
         "app_googleplayRelease",
@@ -79,7 +79,7 @@
 
     const-string v1, "recyclerView"
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x1
 

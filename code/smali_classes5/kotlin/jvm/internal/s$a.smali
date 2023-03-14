@@ -1,11 +1,11 @@
-.class public final Lkotlin/jvm/internal/s$a;
+.class public final Lcotlin/jvm/internal/s$a;
 .super Ljava/lang/Object;
 .source "ClassReference.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/jvm/internal/s;
+    value = Lcotlin/jvm/internal/s;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,7 +17,7 @@
     value = "SMAP\nClassReference.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ClassReference.kt\nkotlin/jvm/internal/ClassReference$Companion\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,201:1\n1#2:202\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -40,12 +40,12 @@
         "c",
         "(Ljava/lang/Object;Ljava/lang/Class;)Z",
         "",
-        "Lkotlin/r;",
+        "Lcotlin/r;",
         "",
         "FUNCTION_CLASSES",
         "Ljava/util/Map;",
         "Ljava/util/HashMap;",
-        "Lkotlin/collections/HashMap;",
+        "Lcotlin/collections/HashMap;",
         "classFqNames",
         "Ljava/util/HashMap;",
         "primitiveFqNames",
@@ -74,11 +74,11 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/jvm/internal/s$a;-><init>()V
+    invoke-direct {p0}, Lcotlin/jvm/internal/s$a;-><init>()V
 
     return-void
 .end method
@@ -105,7 +105,7 @@
 
     const-string v0, "jClass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Ljava/lang/Class;->isAnonymousClass()Z
@@ -144,7 +144,7 @@
     const-string v0, "componentType"
 
     .line 5
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Class;->isPrimitive()Z
 
@@ -152,7 +152,7 @@
 
     if-eqz v0, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/s;->y()Ljava/util/HashMap;
+    invoke-static {}, Lcotlin/jvm/internal/s;->y()Ljava/util/HashMap;
 
     move-result-object v0
 
@@ -196,7 +196,7 @@
 
     .line 6
     :cond_4
-    invoke-static {}, Lkotlin/jvm/internal/s;->y()Ljava/util/HashMap;
+    invoke-static {}, Lcotlin/jvm/internal/s;->y()Ljava/util/HashMap;
 
     move-result-object v0
 
@@ -245,7 +245,7 @@
 
     const-string v0, "jClass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Ljava/lang/Class;->isAnonymousClass()Z
@@ -289,7 +289,7 @@
 
     if-eqz v1, :cond_1
 
-    invoke-static {v0, v5}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v5}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v6, Ljava/lang/StringBuilder;
 
@@ -307,7 +307,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1, v2, v4, v2}, Lkotlin/text/m;->i5(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, v1, v2, v4, v2}, Lcotlin/text/m;->i5(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -323,7 +323,7 @@
 
     if-eqz p1, :cond_2
 
-    invoke-static {v0, v5}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v5}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -341,7 +341,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1, v2, v4, v2}, Lkotlin/text/m;->i5(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, p1, v2, v4, v2}, Lcotlin/text/m;->i5(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -359,11 +359,11 @@
 
     .line 6
     :cond_3
-    invoke-static {v0, v5}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v5}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 p1, 0x24
 
-    invoke-static {v0, p1, v2, v4, v2}, Lkotlin/text/m;->h5(Ljava/lang/String;CLjava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, p1, v2, v4, v2}, Lcotlin/text/m;->h5(Ljava/lang/String;CLjava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -385,7 +385,7 @@
     const-string v0, "componentType"
 
     .line 9
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Class;->isPrimitive()Z
 
@@ -393,7 +393,7 @@
 
     if-eqz v0, :cond_5
 
-    invoke-static {}, Lkotlin/jvm/internal/s;->A()Ljava/util/Map;
+    invoke-static {}, Lcotlin/jvm/internal/s;->A()Ljava/util/Map;
 
     move-result-object v0
 
@@ -428,7 +428,7 @@
 
     .line 10
     :cond_6
-    invoke-static {}, Lkotlin/jvm/internal/s;->A()Ljava/util/Map;
+    invoke-static {}, Lcotlin/jvm/internal/s;->A()Ljava/util/Map;
 
     move-result-object v0
 
@@ -479,10 +479,10 @@
 
     const-string v0, "jClass"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {}, Lkotlin/jvm/internal/s;->z()Ljava/util/Map;
+    invoke-static {}, Lcotlin/jvm/internal/s;->z()Ljava/util/Map;
 
     move-result-object v0
 
@@ -503,7 +503,7 @@
     move-result p2
 
     .line 2
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/t0;->B(Ljava/lang/Object;I)Z
+    invoke-static {p1, p2}, Lcotlin/jvm/internal/t0;->B(Ljava/lang/Object;I)Z
 
     move-result p1
 
@@ -517,11 +517,11 @@
 
     if-eqz v0, :cond_1
 
-    invoke-static {p2}, Lkotlin/jvm/a;->g(Ljava/lang/Class;)Lkotlin/reflect/d;
+    invoke-static {p2}, Lcotlin/jvm/a;->g(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object p2
 
-    invoke-static {p2}, Lkotlin/jvm/a;->e(Lkotlin/reflect/d;)Ljava/lang/Class;
+    invoke-static {p2}, Lcotlin/jvm/a;->e(Lcotlin/reflect/d;)Ljava/lang/Class;
 
     move-result-object p2
 

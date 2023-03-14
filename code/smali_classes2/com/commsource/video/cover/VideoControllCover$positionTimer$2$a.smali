@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -25,7 +25,7 @@
     d2 = {
         "com/commsource/video/cover/VideoControllCover$positionTimer$2$a",
         "Lcom/commsource/video/decoder/d;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "g",
         "()V",
         "app_googleplayRelease"

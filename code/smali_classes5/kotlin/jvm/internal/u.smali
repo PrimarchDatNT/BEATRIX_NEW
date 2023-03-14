@@ -1,4 +1,4 @@
-.class final Lkotlin/jvm/internal/u;
+.class final Lcotlin/jvm/internal/u;
 .super Ljava/lang/Object;
 .source "DefaultConstructorMarker.java"
 

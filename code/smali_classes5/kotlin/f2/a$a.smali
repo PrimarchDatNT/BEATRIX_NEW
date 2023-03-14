@@ -1,11 +1,11 @@
-.class public final Lkotlin/f2/a$a;
-.super Lkotlin/f2/c;
+.class public final Lcotlin/f2/a$a;
+.super Lcotlin/f2/c;
 .source "Delegates.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/f2/a;->b(Ljava/lang/Object;Lkotlin/jvm/u/q;)Lkotlin/f2/f;
+    value = Lcotlin/f2/a;->b(Ljava/lang/Object;Lcotlin/jvm/u/q;)Lcotlin/f2/f;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkotlin/f2/c<",
+        "Lcotlin/f2/c<",
         "TT;>;"
     }
 .end annotation
@@ -24,7 +24,7 @@
     value = "SMAP\nDelegates.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Delegates.kt\nkotlin/properties/Delegates$observable$1\n*L\n1#1,70:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -35,14 +35,14 @@
     }
     d2 = {
         "kotlin/f2/a$a",
-        "Lkotlin/f2/c;",
-        "Lkotlin/reflect/n;",
+        "Lcotlin/f2/c;",
+        "Lcotlin/reflect/n;",
         "property",
         "oldValue",
         "newValue",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "c",
-        "(Lkotlin/reflect/n;Ljava/lang/Object;Ljava/lang/Object;)V",
+        "(Lcotlin/reflect/n;Ljava/lang/Object;Ljava/lang/Object;)V",
         "kotlin-stdlib"
     }
     k = 0x1
@@ -55,49 +55,49 @@
 
 
 # instance fields
-.field final synthetic b:Lkotlin/jvm/u/q;
+.field final synthetic b:Lcotlin/jvm/u/q;
 
 .field final synthetic c:Ljava/lang/Object;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/u/q;Ljava/lang/Object;Ljava/lang/Object;)V
+.method public constructor <init>(Lcotlin/jvm/u/q;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lkotlin/f2/a$a;->b:Lkotlin/jvm/u/q;
+    iput-object p1, p0, Lcotlin/f2/a$a;->b:Lcotlin/jvm/u/q;
 
-    iput-object p2, p0, Lkotlin/f2/a$a;->c:Ljava/lang/Object;
+    iput-object p2, p0, Lcotlin/f2/a$a;->c:Ljava/lang/Object;
 
-    invoke-direct {p0, p3}, Lkotlin/f2/c;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p3}, Lcotlin/f2/c;-><init>(Ljava/lang/Object;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected c(Lkotlin/reflect/n;Ljava/lang/Object;Ljava/lang/Object;)V
+.method protected c(Lcotlin/reflect/n;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
-    .param p1    # Lkotlin/reflect/n;
+    .param p1    # Lcotlin/reflect/n;
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/reflect/n<",
+            "Lcotlin/reflect/n<",
             "*>;TT;TT;)V"
         }
     .end annotation
 
     const-string v0, "property"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Lkotlin/f2/a$a;->b:Lkotlin/jvm/u/q;
+    iget-object v0, p0, Lcotlin/f2/a$a;->b:Lcotlin/jvm/u/q;
 
-    invoke-interface {v0, p1, p2, p3}, Lkotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2, p3}, Lcotlin/jvm/u/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method

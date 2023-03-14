@@ -13,7 +13,7 @@
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "source",
         "",
         "byteCount",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "write",
         "(Lokio/Buffer;J)V",
         "jvm"
@@ -87,7 +87,7 @@
 
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
     :goto_0
     const-wide/16 v0, 0x0

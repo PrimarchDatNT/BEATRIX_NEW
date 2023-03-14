@@ -1,11 +1,11 @@
-.class public final Lkotlin/i2/d$a;
+.class public final Lcotlin/i2/d$a;
 .super Ljava/lang/Object;
 .source "Duration.kt"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkotlin/i2/d;
+    value = Lcotlin/i2/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,7 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -28,12 +28,12 @@
         "",
         "value",
         "Ljava/util/concurrent/TimeUnit;",
-        "Lkotlin/time/DurationUnit;",
+        "Lcotlin/time/DurationUnit;",
         "sourceUnit",
         "targetUnit",
         "a",
         "(DLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/TimeUnit;)D",
-        "Lkotlin/i2/d;",
+        "Lcotlin/i2/d;",
         "INFINITE",
         "D",
         "b",
@@ -63,11 +63,11 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/u;)V
+.method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lkotlin/i2/d$a;-><init>()V
+    invoke-direct {p0}, Lcotlin/i2/d$a;-><init>()V
 
     return-void
 .end method
@@ -87,14 +87,14 @@
 
     const-string v0, "sourceUnit"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "targetUnit"
 
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p1, p2, p3, p4}, Lkotlin/i2/h;->b(DLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/TimeUnit;)D
+    invoke-static {p1, p2, p3, p4}, Lcotlin/i2/h;->b(DLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/TimeUnit;)D
 
     move-result-wide p1
 
@@ -105,7 +105,7 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Lkotlin/i2/d;->a()D
+    invoke-static {}, Lcotlin/i2/d;->a()D
 
     move-result-wide v0
 
@@ -116,7 +116,7 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Lkotlin/i2/d;->f()D
+    invoke-static {}, Lcotlin/i2/d;->f()D
 
     move-result-wide v0
 

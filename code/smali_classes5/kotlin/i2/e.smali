@@ -1,4 +1,4 @@
-.class public final Lkotlin/i2/e;
+.class public final Lcotlin/i2/e;
 .super Ljava/lang/Object;
 .source "Duration.kt"
 
@@ -8,7 +8,7 @@
     value = "SMAP\nDuration.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Duration.kt\nkotlin/time/DurationKt\n*L\n1#1,488:1\n12#1:489\n*E\n*S KotlinDebug\n*F\n+ 1 Duration.kt\nkotlin/time/DurationKt\n*L\n362#1:489\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -20,9 +20,9 @@
     d2 = {
         "",
         "Ljava/util/concurrent/TimeUnit;",
-        "Lkotlin/time/DurationUnit;",
+        "Lcotlin/time/DurationUnit;",
         "unit",
-        "Lkotlin/i2/d;",
+        "Lcotlin/i2/d;",
         "W",
         "(ILjava/util/concurrent/TimeUnit;)D",
         "",
@@ -100,7 +100,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MINUTES:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, v0}, Lkotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, v0}, Lcotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
 
     move-result-wide v0
 
@@ -113,7 +113,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MINUTES:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -122,10 +122,10 @@
 
 .method public static synthetic C(D)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -134,10 +134,10 @@
 
 .method public static synthetic D(I)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -146,10 +146,10 @@
 
 .method public static synthetic E(J)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -162,7 +162,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -175,7 +175,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, v0}, Lkotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, v0}, Lcotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
 
     move-result-wide v0
 
@@ -188,7 +188,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -197,10 +197,10 @@
 
 .method public static synthetic I(D)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -209,10 +209,10 @@
 
 .method public static synthetic J(I)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -221,10 +221,10 @@
 
 .method public static synthetic K(J)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -237,7 +237,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -250,7 +250,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, v0}, Lkotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, v0}, Lcotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
 
     move-result-wide v0
 
@@ -263,7 +263,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -272,10 +272,10 @@
 
 .method public static synthetic O(D)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -284,10 +284,10 @@
 
 .method public static synthetic P(I)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -296,10 +296,10 @@
 
 .method public static synthetic Q(J)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -323,18 +323,18 @@
 
 .method private static final T(DD)D
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     .line 1
-    invoke-static {p2, p3, p0, p1}, Lkotlin/i2/d;->e0(DD)D
+    invoke-static {p2, p3, p0, p1}, Lcotlin/i2/d;->e0(DD)D
 
     move-result-wide p0
 
@@ -343,18 +343,18 @@
 
 .method private static final U(ID)D
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/internal/f;
+    .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     .line 1
-    invoke-static {p1, p2, p0}, Lkotlin/i2/d;->f0(DI)D
+    invoke-static {p1, p2, p0}, Lcotlin/i2/d;->f0(DI)D
 
     move-result-wide p0
 
@@ -367,26 +367,26 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     const-string v0, "unit"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 
     .line 2
-    invoke-static {p0, p1, p2, v0}, Lkotlin/i2/h;->b(DLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, p2, v0}, Lcotlin/i2/h;->b(DLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
-    invoke-static {p0, p1}, Lkotlin/i2/d;->o(D)D
+    invoke-static {p0, p1}, Lcotlin/i2/d;->o(D)D
 
     move-result-wide p0
 
@@ -399,21 +399,21 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     const-string v0, "unit"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     int-to-double v0, p0
 
     .line 1
-    invoke-static {v0, v1, p1}, Lkotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {v0, v1, p1}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -426,21 +426,21 @@
         .annotation build Ln/e/a/d;
         .end annotation
     .end param
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
     const-string v0, "unit"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     long-to-double p0, p0
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, p2}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -451,7 +451,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lkotlin/i2/e;->R()Ljava/util/concurrent/TimeUnit;
+    invoke-static {}, Lcotlin/i2/e;->R()Ljava/util/concurrent/TimeUnit;
 
     move-result-object v0
 
@@ -464,7 +464,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->DAYS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -477,7 +477,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->DAYS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, v0}, Lkotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, v0}, Lcotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
 
     move-result-wide v0
 
@@ -490,7 +490,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->DAYS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -499,10 +499,10 @@
 
 .method public static synthetic e(D)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -511,10 +511,10 @@
 
 .method public static synthetic f(I)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -523,10 +523,10 @@
 
 .method public static synthetic g(J)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -539,7 +539,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->HOURS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -552,7 +552,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->HOURS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, v0}, Lkotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, v0}, Lcotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
 
     move-result-wide v0
 
@@ -565,7 +565,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->HOURS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -574,10 +574,10 @@
 
 .method public static synthetic k(D)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -586,10 +586,10 @@
 
 .method public static synthetic l(I)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -598,10 +598,10 @@
 
 .method public static synthetic m(J)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -614,7 +614,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MICROSECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -627,7 +627,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MICROSECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, v0}, Lkotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, v0}, Lcotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
 
     move-result-wide v0
 
@@ -640,7 +640,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MICROSECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -649,10 +649,10 @@
 
 .method public static synthetic q(D)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -661,10 +661,10 @@
 
 .method public static synthetic r(I)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -673,10 +673,10 @@
 
 .method public static synthetic s(J)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -689,7 +689,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -702,7 +702,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, v0}, Lkotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, v0}, Lcotlin/i2/e;->W(ILjava/util/concurrent/TimeUnit;)D
 
     move-result-wide v0
 
@@ -715,7 +715,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/e;->X(JLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 
@@ -724,10 +724,10 @@
 
 .method public static synthetic w(D)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -736,10 +736,10 @@
 
 .method public static synthetic x(I)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -748,10 +748,10 @@
 
 .method public static synthetic y(J)V
     .locals 0
-    .annotation build Lkotlin/i2/j;
+    .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Lkotlin/s0;
+    .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
@@ -764,7 +764,7 @@
     .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MINUTES:Ljava/util/concurrent/TimeUnit;
 
-    invoke-static {p0, p1, v0}, Lkotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
+    invoke-static {p0, p1, v0}, Lcotlin/i2/e;->V(DLjava/util/concurrent/TimeUnit;)D
 
     move-result-wide p0
 

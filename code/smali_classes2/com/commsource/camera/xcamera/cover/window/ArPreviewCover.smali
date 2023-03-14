@@ -16,7 +16,7 @@
     value = "SMAP\nArPreviewCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ArPreviewCover.kt\ncom/commsource/camera/xcamera/cover/window/ArPreviewCover\n*L\n1#1,103:1\n*E\n"
 .end annotation
 
-.annotation runtime Lkotlin/b0;
+.annotation runtime Lcotlin/b0;
     bv = {
         0x1,
         0x0,
@@ -29,7 +29,7 @@
         "Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;",
         "Lcom/commsource/camera/xcamera/cover/AbsLazyCover;",
         "Lcom/commsource/beautyplus/f0/u2;",
-        "Lkotlin/t1;",
+        "Lcotlin/t1;",
         "o",
         "()V",
         "",
@@ -39,7 +39,7 @@
         "x",
         "Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;",
         "d",
-        "Lkotlin/w;",
+        "Lcotlin/w;",
         "E",
         "()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;",
         "mArViewModel",
@@ -56,7 +56,7 @@
 
 
 # instance fields
-.field private final d:Lkotlin/w;
+.field private final d:Lcotlin/w;
     .annotation build Ln/e/a/d;
     .end annotation
 .end field
@@ -74,11 +74,11 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$mArViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;)V
 
-    invoke-static {v0}, Lkotlin/y;->c(Lkotlin/jvm/u/a;)Lkotlin/w;
+    invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;->d:Lkotlin/w;
+    iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;->d:Lcotlin/w;
 
     return-void
 .end method
@@ -94,9 +94,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;->d:Lkotlin/w;
+    iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;->d:Lcotlin/w;
 
-    invoke-interface {v1}, Lkotlin/w;->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Lcotlin/w;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
