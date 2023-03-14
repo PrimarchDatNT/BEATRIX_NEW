@@ -491,7 +491,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/m0;->b:Lcom/commsource/widget/title/XTitleBar;
 
-    const v1, 0x7f0f09e2
+    sget v1, Lcom/res/provider/ResSTRING;->t_language:I
 
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 

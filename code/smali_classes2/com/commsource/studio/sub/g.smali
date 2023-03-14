@@ -185,7 +185,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c0193
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_studio_tab:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -460,7 +460,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/ak;->c:Lcom/commsource/widget/IconFrontView;
 
-    const v7, 0x7f060010
+    sget v7, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
     invoke-static {v7}, Lcom/commsource/util/u1;->b(I)I
 
@@ -634,7 +634,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/ak;->f:Landroid/widget/TextView;
 
-    const v3, 0x7f060005
+    sget v3, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->b(I)I
 
@@ -1103,7 +1103,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ak;->f:Landroid/widget/TextView;
 
-    const v1, 0x7f060010
+    sget v1, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 

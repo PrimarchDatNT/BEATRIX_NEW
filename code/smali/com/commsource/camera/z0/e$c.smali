@@ -66,7 +66,7 @@
     invoke-virtual {v0}, Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;->destroyShowedAd()V
 
     :cond_0
-    const v0, 0x7f0f004c
+    sget v0, Lcom/res/provider/ResSTRING;->ad_slot_ar_rewardedvideo_ad:I
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
@@ -452,7 +452,7 @@
 
     invoke-interface {v1, v2}, Lf/k/m/d$a;->c(Ljava/lang/String;)V
 
-    const v1, 0x7f0f004c
+    sget v1, Lcom/res/provider/ResSTRING;->ad_slot_ar_rewardedvideo_ad:I
 
     .line 20
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;

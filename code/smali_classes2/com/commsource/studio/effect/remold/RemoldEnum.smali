@@ -168,9 +168,9 @@
 
     const/4 v5, 0x1
 
-    const v6, 0x7f0f0537
+    sget v6, Lcom/res/provider/ResSTRING;->if_studio_remold_face_slim:I
 
-    const v7, 0x7f0f08b1
+    sget v7, Lcom/res/provider/ResSTRING;->slim:I
 
     const-string v8, "\u7626\u8138"
 
@@ -197,9 +197,9 @@
 
     const/4 v15, 0x2
 
-    const v16, 0x7f0f0516
+    sget v16, Lcom/res/provider/ResSTRING;->if_remold_face_width:I
 
-    const v17, 0x7f0f019d
+    sget v17, Lcom/res/provider/ResSTRING;->beauty_remold_face_width:I
 
     const-string v18, "\u8138\u5bbd"
 
@@ -226,9 +226,9 @@
 
     const/4 v7, 0x3
 
-    const v8, 0x7f0f0538
+    sget v8, Lcom/res/provider/ResSTRING;->if_studio_remold_jaw:I
 
-    const v9, 0x7f0f0568
+    sget v9, Lcom/res/provider/ResSTRING;->jaw:I
 
     const-string v10, "\u524a\u988c\u9aa8"
 
@@ -255,9 +255,9 @@
 
     const/4 v7, 0x4
 
-    const v8, 0x7f0f0512
+    sget v8, Lcom/res/provider/ResSTRING;->if_remold_chin:I
 
-    const v9, 0x7f0f022a
+    sget v9, Lcom/res/provider/ResSTRING;->chin:I
 
     const-string v10, "\u4e0b\u5df4"
 
@@ -282,9 +282,9 @@
 
     const/4 v7, 0x5
 
-    const v8, 0x7f0f0536
+    sget v8, Lcom/res/provider/ResSTRING;->if_studio_remold_bottom_half:I
 
-    const v9, 0x7f0f05a2
+    sget v9, Lcom/res/provider/ResSTRING;->lower_face:I
 
     const-string v10, "\u4e0b\u5ead"
 
@@ -309,9 +309,9 @@
 
     const/4 v7, 0x6
 
-    const v8, 0x7f0f04f2
+    sget v8, Lcom/res/provider/ResSTRING;->if_hair_line:I
 
-    const v9, 0x7f0f0429
+    sget v9, Lcom/res/provider/ResSTRING;->hair_line:I
 
     const-string v10, "\u53d1\u9645\u7ebf"
 
@@ -336,9 +336,9 @@
 
     const/4 v7, 0x7
 
-    const v8, 0x7f0f051c
+    sget v8, Lcom/res/provider/ResSTRING;->if_remold_size:I
 
-    const v9, 0x7f0f07a0
+    sget v9, Lcom/res/provider/ResSTRING;->resize:I
 
     const-string v10, "\u5927\u773c"
 
@@ -363,9 +363,9 @@
 
     const/16 v7, 0x8
 
-    const v8, 0x7f0f0514
+    sget v8, Lcom/res/provider/ResSTRING;->if_remold_eye_height:I
 
-    const v9, 0x7f0f019a
+    sget v9, Lcom/res/provider/ResSTRING;->beauty_remold_eye_height:I
 
     const-string v10, "\u773c\u9ad8"
 
@@ -390,9 +390,9 @@
 
     const/16 v7, 0x9
 
-    const v8, 0x7f0f0515
+    sget v8, Lcom/res/provider/ResSTRING;->if_remold_eye_width:I
 
-    const v9, 0x7f0f0199
+    sget v9, Lcom/res/provider/ResSTRING;->beauty_remold_eye_distance:I
 
     const-string v10, "\u773c\u8ddd"
 
@@ -417,9 +417,9 @@
 
     const/16 v7, 0xa
 
-    const v8, 0x7f0f0513
+    sget v8, Lcom/res/provider/ResSTRING;->if_remold_eye_angle:I
 
-    const v9, 0x7f0f00a2
+    sget v9, Lcom/res/provider/ResSTRING;->angle:I
 
     const-string v10, "\u773c\u775b\u89d2\u5ea6"
 
@@ -444,9 +444,9 @@
 
     const/16 v7, 0xb
 
-    const v8, 0x7f0f04df
+    sget v8, Lcom/res/provider/ResSTRING;->if_eye_brow_height:I
 
-    const v9, 0x7f0f0350
+    sget v9, Lcom/res/provider/ResSTRING;->eye_brow_height:I
 
     const-string v10, "\u7709\u6bdb\u9ad8\u5ea6"
 
@@ -471,9 +471,9 @@
 
     const/16 v7, 0xc
 
-    const v8, 0x7f0f04e0
+    sget v8, Lcom/res/provider/ResSTRING;->if_eye_brow_rotate:I
 
-    const v9, 0x7f0f00a2
+    sget v9, Lcom/res/provider/ResSTRING;->angle:I
 
     const-string v10, "\u7709\u6bdb\u89d2\u5ea6"
 
@@ -498,9 +498,9 @@
 
     const/16 v7, 0xd
 
-    const v8, 0x7f0f0530
+    sget v8, Lcom/res/provider/ResSTRING;->if_studio_eye_brow_size:I
 
-    const v9, 0x7f0f0353
+    sget v9, Lcom/res/provider/ResSTRING;->eye_brow_size:I
 
     const-string v10, "\u7709\u6bdb\u539a\u5ea6"
 
@@ -525,9 +525,9 @@
 
     const/16 v7, 0xe
 
-    const v8, 0x7f0f051c
+    sget v8, Lcom/res/provider/ResSTRING;->if_remold_size:I
 
-    const v9, 0x7f0f06c0
+    sget v9, Lcom/res/provider/ResSTRING;->nose:I
 
     const-string v10, "\u7626\u9f3b"
 
@@ -552,9 +552,9 @@
 
     const/16 v7, 0xf
 
-    const v8, 0x7f0f051b
+    sget v8, Lcom/res/provider/ResSTRING;->if_remold_nose_up:I
 
-    const v9, 0x7f0f01a6
+    sget v9, Lcom/res/provider/ResSTRING;->beauty_remold_up:I
 
     const-string v10, "\u9f3b\u5b50\u63d0\u5347"
 
@@ -579,9 +579,9 @@
 
     const/16 v7, 0x10
 
-    const v8, 0x7f0f053b
+    sget v8, Lcom/res/provider/ResSTRING;->if_studio_remold_nose_wing:I
 
-    const v9, 0x7f0f0688
+    sget v9, Lcom/res/provider/ResSTRING;->narrow:I
 
     const-string v10, "\u7f29\u5c0f\u9f3b\u7ffc"
 
@@ -606,9 +606,9 @@
 
     const/16 v7, 0x11
 
-    const v8, 0x7f0f0518
+    sget v8, Lcom/res/provider/ResSTRING;->if_remold_nose_bridge:I
 
-    const v9, 0x7f0f0198
+    sget v9, Lcom/res/provider/ResSTRING;->beauty_remold_bridge_of_nose:I
 
     const-string v10, "\u9f3b\u6881"
 
@@ -633,9 +633,9 @@
 
     const/16 v7, 0x12
 
-    const v8, 0x7f0f051a
+    sget v8, Lcom/res/provider/ResSTRING;->if_remold_nose_tip:I
 
-    const v9, 0x7f0f01a2
+    sget v9, Lcom/res/provider/ResSTRING;->beauty_remold_nose_tip:I
 
     const-string v10, "\u9f3b\u5c16"
 
@@ -660,9 +660,9 @@
 
     const/16 v7, 0x13
 
-    const v8, 0x7f0f051c
+    sget v8, Lcom/res/provider/ResSTRING;->if_remold_size:I
 
-    const v9, 0x7f0f08a1
+    sget v9, Lcom/res/provider/ResSTRING;->size:I
 
     const-string v10, "\u5634\u5507\u5927\u5c0f"
 
@@ -687,9 +687,9 @@
 
     const/16 v7, 0x14
 
-    const v8, 0x7f0f053c
+    sget v8, Lcom/res/provider/ResSTRING;->if_studio_remold_smile:I
 
-    const v9, 0x7f0f08b6
+    sget v9, Lcom/res/provider/ResSTRING;->smile:I
 
     const-string v10, "\u5fae\u7b11"
 
@@ -716,9 +716,9 @@
 
     const/16 v7, 0x15
 
-    const v8, 0x7f0f0539
+    sget v8, Lcom/res/provider/ResSTRING;->if_studio_remold_mouth_height:I
 
-    const v9, 0x7f0f0736
+    sget v9, Lcom/res/provider/ResSTRING;->position:I
 
     const-string v10, "\u5507\u9ad8"
 
@@ -745,9 +745,9 @@
 
     const/16 v7, 0x16
 
-    const v8, 0x7f0f053a
+    sget v8, Lcom/res/provider/ResSTRING;->if_studio_remold_mouth_thin:I
 
-    const v9, 0x7f0f01a5
+    sget v9, Lcom/res/provider/ResSTRING;->beauty_remold_thick:I
 
     const-string v10, "\u4e30\u5507"
 

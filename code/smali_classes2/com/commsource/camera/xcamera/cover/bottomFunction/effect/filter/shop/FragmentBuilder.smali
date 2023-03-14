@@ -173,14 +173,14 @@
 
     if-eqz v0, :cond_0
 
-    const p2, 0x7f010013
+    sget p2, Lcom/res/provider/ResANIM;->beauty_bottom_menu_up:I
 
     :cond_0
     and-int/lit8 p4, p4, 0x4
 
     if-eqz p4, :cond_1
 
-    const p3, 0x7f010012
+    sget p3, Lcom/res/provider/ResANIM;->beauty_bottom_menu_down:I
 
     .line 1
     :cond_1
@@ -202,14 +202,14 @@
 
     if-eqz v0, :cond_0
 
-    const p2, 0x7f010013
+    sget p2, Lcom/res/provider/ResANIM;->beauty_bottom_menu_up:I
 
     :cond_0
     and-int/lit8 p4, p4, 0x4
 
     if-eqz p4, :cond_1
 
-    const p3, 0x7f010012
+    sget p3, Lcom/res/provider/ResANIM;->beauty_bottom_menu_down:I
 
     .line 1
     :cond_1
@@ -233,14 +233,14 @@
 
     if-eqz v0, :cond_0
 
-    const p3, 0x7f010013
+    sget p3, Lcom/res/provider/ResANIM;->beauty_bottom_menu_up:I
 
     :cond_0
     and-int/lit8 p5, p5, 0x8
 
     if-eqz p5, :cond_1
 
-    const p4, 0x7f010012
+    sget p4, Lcom/res/provider/ResANIM;->beauty_bottom_menu_down:I
 
     .line 1
     :cond_1
@@ -264,9 +264,9 @@
 
     if-eqz v0, :cond_0
 
-    const p4, 0x7f010013
+    sget p4, Lcom/res/provider/ResANIM;->beauty_bottom_menu_up:I
 
-    const v4, 0x7f010013
+    sget v4, Lcom/res/provider/ResANIM;->beauty_bottom_menu_up:I
 
     goto :goto_0
 
@@ -278,9 +278,9 @@
 
     if-eqz p4, :cond_1
 
-    const p5, 0x7f010012
+    sget p5, Lcom/res/provider/ResANIM;->beauty_bottom_menu_down:I
 
-    const v5, 0x7f010012
+    sget v5, Lcom/res/provider/ResANIM;->beauty_bottom_menu_down:I
 
     goto :goto_1
 
@@ -317,9 +317,9 @@
 
     if-eqz v0, :cond_0
 
-    const p4, 0x7f010013
+    sget p4, Lcom/res/provider/ResANIM;->beauty_bottom_menu_up:I
 
-    const v4, 0x7f010013
+    sget v4, Lcom/res/provider/ResANIM;->beauty_bottom_menu_up:I
 
     goto :goto_0
 
@@ -331,9 +331,9 @@
 
     if-eqz p4, :cond_1
 
-    const p5, 0x7f010012
+    sget p5, Lcom/res/provider/ResANIM;->beauty_bottom_menu_down:I
 
-    const v5, 0x7f010012
+    sget v5, Lcom/res/provider/ResANIM;->beauty_bottom_menu_down:I
 
     goto :goto_1
 

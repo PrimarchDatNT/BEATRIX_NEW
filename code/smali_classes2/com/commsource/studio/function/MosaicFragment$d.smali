@@ -149,7 +149,7 @@
 
     if-eq p1, v2, :cond_1
 
-    const p1, 0x7f0f033f
+    sget p1, Lcom/res/provider/ResSTRING;->error_network:I
 
     .line 5
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V

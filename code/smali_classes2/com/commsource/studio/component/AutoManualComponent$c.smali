@@ -168,12 +168,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f0f011d
+    sget p1, Lcom/res/provider/ResSTRING;->beautify_hand_operator:I
 
     goto :goto_1
 
     :cond_1
-    const p1, 0x7f0f011c
+    sget p1, Lcom/res/provider/ResSTRING;->beautify_auto_operator:I
 
     :goto_1
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

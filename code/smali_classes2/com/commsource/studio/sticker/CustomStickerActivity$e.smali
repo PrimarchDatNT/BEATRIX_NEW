@@ -79,7 +79,7 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v0, 0x7f0f0553
+    sget v0, Lcom/res/provider/ResSTRING;->image_bad:I
 
     .line 1
     invoke-static {v0}, Lf/k/c/c/f;->r(I)V

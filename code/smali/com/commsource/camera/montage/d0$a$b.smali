@@ -709,7 +709,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f0f06c9
+    sget p1, Lcom/res/provider/ResSTRING;->not_support_this_group:I
 
     .line 2
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -718,7 +718,7 @@
 
     const/4 v2, 0x0
 
-    const p1, 0x7f0f01d0
+    sget p1, Lcom/res/provider/ResSTRING;->bec_wallet_text19:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -883,7 +883,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0905c2
+    sget v1, Lcom/res/provider/ResID;->skin_material_icon:I
 
     .line 1
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -894,7 +894,7 @@
 
     iput-object v1, p0, Lcom/commsource/camera/montage/d0$a$b;->g:Landroid/widget/ImageView;
 
-    const v1, 0x7f09043d
+    sget v1, Lcom/res/provider/ResID;->montage_download_icon:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -905,7 +905,7 @@
 
     iput-object v1, p0, Lcom/commsource/camera/montage/d0$a$b;->f:Landroid/widget/ImageView;
 
-    const v1, 0x7f09043e
+    sget v1, Lcom/res/provider/ResID;->montage_download_progress:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -916,7 +916,7 @@
 
     iput-object v1, p0, Lcom/commsource/camera/montage/d0$a$b;->h:Lcom/commsource/widget/CircleDownloadProgressView;
 
-    const v1, 0x7f0905c1
+    sget v1, Lcom/res/provider/ResID;->skin_material_container:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -927,7 +927,7 @@
 
     iput-object v1, p0, Lcom/commsource/camera/montage/d0$a$b;->d:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f090151
+    sget v1, Lcom/res/provider/ResID;->common_material_container:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -938,7 +938,7 @@
 
     iput-object v1, p0, Lcom/commsource/camera/montage/d0$a$b;->e:Landroid/widget/RelativeLayout;
 
-    const v1, 0x7f090444
+    sget v1, Lcom/res/provider/ResID;->montage_material_icon:I
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -949,7 +949,7 @@
 
     iput-object v1, p0, Lcom/commsource/camera/montage/d0$a$b;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f09043c
+    sget v1, Lcom/res/provider/ResID;->montage_ai_icon:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -960,7 +960,7 @@
 
     iput-object v1, p0, Lcom/commsource/camera/montage/d0$a$b;->b:Landroid/widget/ImageView;
 
-    const v1, 0x7f09005f
+    sget v1, Lcom/res/provider/ResID;->ai_and_adjust:I
 
     .line 8
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -971,7 +971,7 @@
 
     iput-object v1, p0, Lcom/commsource/camera/montage/d0$a$b;->c:Lcom/commsource/widget/SelectImageView;
 
-    const v1, 0x7f090446
+    sget v1, Lcom/res/provider/ResID;->montage_paid_icon:I
 
     .line 9
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -982,7 +982,7 @@
 
     iput-object v1, p0, Lcom/commsource/camera/montage/d0$a$b;->i:Landroid/widget/ImageView;
 
-    const v1, 0x7f090447
+    sget v1, Lcom/res/provider/ResID;->montage_red_dot:I
 
     .line 10
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1167,7 +1167,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f08028d
+    sget v1, Lcom/res/provider/ResDRAWABLE;->montage_radius_20_fb5986:I
 
     invoke-static {p1, v1}, Lcom/commsource/util/u1;->h(Landroid/content/res/Resources;I)Landroid/graphics/drawable/Drawable;
 
@@ -1262,7 +1262,7 @@
     .line 16
     iget-object p1, p0, Lcom/commsource/camera/montage/d0$a$b;->c:Lcom/commsource/widget/SelectImageView;
 
-    const v1, 0x7f08028a
+    sget v1, Lcom/res/provider/ResDRAWABLE;->montage_bg_add_drawable:I
 
     invoke-virtual {p1, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
@@ -1320,7 +1320,7 @@
     .line 23
     iget-object p1, p0, Lcom/commsource/camera/montage/d0$a$b;->c:Lcom/commsource/widget/SelectImageView;
 
-    const v1, 0x7f08034d
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_montage_adjust_icon:I
 
     invoke-virtual {p1, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
@@ -1353,7 +1353,7 @@
 
     move-result v1
 
-    const v5, 0x7f080324
+    sget v5, Lcom/res/provider/ResDRAWABLE;->selfie_cartoon_icon_material_placeholder:I
 
     if-eqz v1, :cond_7
 
@@ -1406,7 +1406,7 @@
     .line 34
     iget-object p1, p0, Lcom/commsource/camera/montage/d0$a$b;->c:Lcom/commsource/widget/SelectImageView;
 
-    const v1, 0x7f080354
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_montage_glass_icon:I
 
     invoke-virtual {p1, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
@@ -1550,7 +1550,7 @@
     .line 44
     iget-object p1, p0, Lcom/commsource/camera/montage/d0$a$b;->b:Landroid/widget/ImageView;
 
-    const v1, 0x7f08034e
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_montage_ai_icon:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1560,7 +1560,7 @@
     :cond_6
     iget-object p1, p0, Lcom/commsource/camera/montage/d0$a$b;->b:Landroid/widget/ImageView;
 
-    const v1, 0x7f08034f
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_montage_ai_icon_gray:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

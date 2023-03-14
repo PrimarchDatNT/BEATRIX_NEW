@@ -116,7 +116,7 @@
 
     if-eqz v1, :cond_0
 
-    const p1, 0x7f0f0082
+    sget p1, Lcom/res/provider/ResSTRING;->ai_editor_saved:I
 
     .line 6
     invoke-static {p1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;

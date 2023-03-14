@@ -472,7 +472,7 @@
 
     if-eqz v2, :cond_2
 
-    const v2, 0x7f0f0a76
+    sget v2, Lcom/res/provider/ResSTRING;->t_toast_beauty_flawless_thin:I
 
     .line 4
     invoke-static {v2}, Lf/k/c/c/f;->r(I)V

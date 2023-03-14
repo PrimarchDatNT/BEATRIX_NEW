@@ -89,7 +89,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c016e
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_new_makeup_none:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -164,13 +164,13 @@
 
     move-result p3
 
-    const v1, 0x7f060005
+    sget v1, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
-    const v2, 0x7f0f04fa
+    sget v2, Lcom/res/provider/ResSTRING;->if_look_select:I
 
-    const v3, 0x7f0f04f9
+    sget v3, Lcom/res/provider/ResSTRING;->if_look_normal:I
 
-    const v4, 0x7f060225
+    sget v4, Lcom/res/provider/ResCOLOR;->white:I
 
     const-string v5, "mViewBinding.flSelectMask.delegate"
 
@@ -222,7 +222,7 @@
 
     invoke-static {p2, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p3, 0x7f06008b
+    sget p3, Lcom/res/provider/ResCOLOR;->color_5c5c5c:I
 
     invoke-static {p3}, Lcom/commsource/util/u1;->b(I)I
 
@@ -337,7 +337,7 @@
 
     invoke-static {p2, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p3, 0x7f060101
+    sget p3, Lcom/res/provider/ResCOLOR;->color_dbdbdb:I
 
     invoke-static {p3}, Lcom/commsource/util/u1;->b(I)I
 
@@ -364,7 +364,7 @@
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/mh;->a:Lcom/commsource/widget/round/RoundIconfontTextView;
 
-    const p3, 0x7f060034
+    sget p3, Lcom/res/provider/ResCOLOR;->black:I
 
     invoke-static {p3}, Lcom/commsource/util/u1;->b(I)I
 
@@ -387,7 +387,7 @@
 
     invoke-static {p2, v5}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p3, 0x7f060131
+    sget p3, Lcom/res/provider/ResCOLOR;->color_f8f8f8:I
 
     invoke-static {p3}, Lcom/commsource/util/u1;->b(I)I
 

@@ -711,7 +711,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0050
+    sget v2, Lcom/res/provider/ResSTRING;->ad_slot_launch_ad:I
 
     invoke-virtual {v1, v2}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 
@@ -946,7 +946,7 @@
 
     const/4 p1, 0x0
 
-    const v0, 0x7f01000e
+    sget v0, Lcom/res/provider/ResANIM;->alpha_out:I
 
     .line 7
     invoke-virtual {p0, p1, v0}, Landroid/app/Activity;->overridePendingTransition(II)V

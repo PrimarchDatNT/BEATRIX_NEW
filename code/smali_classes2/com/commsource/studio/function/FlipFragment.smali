@@ -185,9 +185,9 @@
 
     move-result v1
 
-    const v2, 0x7f060137
+    sget v2, Lcom/res/provider/ResCOLOR;->color_fa64b0:I
 
-    const v3, 0x7f06006b
+    sget v3, Lcom/res/provider/ResCOLOR;->color_333333:I
 
     if-eqz v1, :cond_0
 

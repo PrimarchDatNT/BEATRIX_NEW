@@ -130,7 +130,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0f07c8
+    sget v1, Lcom/res/provider/ResSTRING;->save_image_failure:I
 
     .line 7
     invoke-static {v1}, Lf/k/c/c/f;->w(I)V

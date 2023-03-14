@@ -242,7 +242,7 @@
 
     if-eqz v0, :cond_6
 
-    const v1, 0x7f0f01f3
+    sget v1, Lcom/res/provider/ResSTRING;->camera_beauty:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

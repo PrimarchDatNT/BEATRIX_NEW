@@ -133,7 +133,7 @@
     .line 3
     invoke-virtual {p1, v1}, Lcom/commsource/widget/dialog/delegate/d/a;->v(Z)V
 
-    const v1, 0x7f0f087a
+    sget v1, Lcom/res/provider/ResSTRING;->share:I
 
     .line 4
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

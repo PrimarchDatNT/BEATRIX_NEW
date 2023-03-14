@@ -160,7 +160,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0426
+    sget v2, Lcom/res/provider/ResSTRING;->hair_cancel:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

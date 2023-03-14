@@ -131,7 +131,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f090303
+    sget v1, Lcom/res/provider/ResID;->iv_back:I
 
     .line 1
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -333,7 +333,7 @@
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/s0/t$a;-><init>()V
 
-    const v2, 0x7f0f0364
+    sget v2, Lcom/res/provider/ResSTRING;->failed_to_load:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -344,7 +344,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f06d1
+    sget v2, Lcom/res/provider/ResSTRING;->ok:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -393,7 +393,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0f0054
+    sget v1, Lcom/res/provider/ResSTRING;->ad_slot_selfie_save_icon:I
 
     .line 1
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -509,7 +509,7 @@
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c0047
+    sget p1, Lcom/res/provider/ResLAYOUT;->advert_image_share_activity_layout:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V

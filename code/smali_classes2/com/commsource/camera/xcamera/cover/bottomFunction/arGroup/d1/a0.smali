@@ -1830,7 +1830,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f06003d
+    sget v1, Lcom/res/provider/ResCOLOR;->black70:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 
@@ -1850,7 +1850,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f06006b
+    sget v1, Lcom/res/provider/ResCOLOR;->color_333333:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 
@@ -2786,7 +2786,7 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v0, 0x7f0c00db
+    sget v0, Lcom/res/provider/ResLAYOUT;->fragment_ar_search:I
 
     const/4 v1, 0x0
 

@@ -38,7 +38,7 @@
     :cond_0
     new-instance v1, Landroid/app/Dialog;
 
-    const v3, 0x7f100255
+    sget v3, Lcom/res/provider/ResSTYLE;->homeBannerAdFeedbackDialog:I
 
     invoke-direct {v1, p0, v3}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
@@ -47,7 +47,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0c00c0
+    sget v4, Lcom/res/provider/ResLAYOUT;->dialog_home_banner_ad_feedback:I
 
     const/4 v5, 0x0
 
@@ -60,7 +60,7 @@
 
     move-result p0
 
-    const v3, 0x7f0903f7
+    sget v3, Lcom/res/provider/ResID;->ll_subscribe:I
 
     if-eqz p0, :cond_1
 
@@ -92,7 +92,7 @@
 
     if-eqz p1, :cond_2
 
-    const p0, 0x7f0906b9
+    sget p0, Lcom/res/provider/ResID;->tv_cooperation:I
 
     .line 11
     invoke-virtual {v2, p0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -105,7 +105,7 @@
 
     invoke-virtual {p0, v4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p0, 0x7f09072b
+    sget p0, Lcom/res/provider/ResID;->tv_report:I
 
     .line 12
     invoke-virtual {v2, p0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

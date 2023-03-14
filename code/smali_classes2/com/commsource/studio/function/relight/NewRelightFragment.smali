@@ -3030,7 +3030,7 @@
 
     move-result v2
 
-    const v13, 0x7f0f09d1
+    sget v13, Lcom/res/provider/ResSTRING;->t_highlight_noface_tip:I
 
     sparse-switch v2, :sswitch_data_0
 

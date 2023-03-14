@@ -980,7 +980,7 @@
     .line 3
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->a:Landroid/content/Context;
 
-    const v2, 0x7f0f042d
+    sget v2, Lcom/res/provider/ResSTRING;->hand_over_model:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -990,7 +990,7 @@
 
     const-string v4, "HELP_SELFIE"
 
-    const v5, 0x7f080286
+    sget v5, Lcom/res/provider/ResDRAWABLE;->miniapp_shortcut_handover_icon:I
 
     invoke-static {v1, v4, v2, v5, v3}, Lcom/meitu/shortcut/core/h;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Class;)V
 
@@ -1712,7 +1712,7 @@
     .line 4
     iget-object v3, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
-    const v4, 0x7f090372
+    sget v4, Lcom/res/provider/ResID;->iv_shortcut_enter:I
 
     invoke-virtual {v3, v4}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

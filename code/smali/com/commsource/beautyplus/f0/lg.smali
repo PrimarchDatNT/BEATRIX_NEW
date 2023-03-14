@@ -39,14 +39,14 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/lg;->J:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0905b2
+    sget v2, Lcom/res/provider/ResID;->shadowBg:I
 
     const/4 v3, 0x3
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0907be
+    sget v2, Lcom/res/provider/ResID;->v_divide:I
 
     const/4 v3, 0x4
 
@@ -210,7 +210,7 @@
 
     const/4 v3, 0x0
 
-    const v0, 0x7f060013
+    sget v0, Lcom/res/provider/ResCOLOR;->White:I
 
     invoke-static {v2, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

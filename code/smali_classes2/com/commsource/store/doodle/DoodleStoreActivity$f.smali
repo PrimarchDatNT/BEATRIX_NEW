@@ -84,7 +84,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    const v1, 0x7f0904d6
+    sget v1, Lcom/res/provider/ResID;->refreshIcon:I
 
     if-nez p1, :cond_1
 
@@ -122,7 +122,7 @@
     goto :goto_1
 
     :cond_2
-    const p1, 0x7f0f033f
+    sget p1, Lcom/res/provider/ResSTRING;->error_network:I
 
     .line 6
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V

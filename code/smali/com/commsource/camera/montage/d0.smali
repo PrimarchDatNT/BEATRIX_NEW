@@ -239,7 +239,7 @@
 
     iput-object v0, p0, Lcom/commsource/camera/montage/d0;->K:Lcom/commsource/camera/montage/e0;
 
-    const v0, 0x7f0c0168
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_montage_page:I
 
     const/4 v1, 0x0
 
@@ -292,7 +292,7 @@
     .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/montage/f0;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    const p2, 0x7f090442
+    sget p2, Lcom/res/provider/ResID;->montage_material_container:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

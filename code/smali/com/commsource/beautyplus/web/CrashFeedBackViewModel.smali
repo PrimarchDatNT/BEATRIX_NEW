@@ -132,7 +132,7 @@
     .line 4
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f0f0371
+    sget v2, Lcom/res/provider/ResSTRING;->feed_back_complaint:I
 
     .line 5
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

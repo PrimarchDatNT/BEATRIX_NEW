@@ -167,7 +167,7 @@
 
     invoke-direct {p3}, Lcom/commsource/widget/dialog/delegate/d/g;-><init>()V
 
-    const v1, 0x7f0f09d6
+    sget v1, Lcom/res/provider/ResSTRING;->t_how_to_improve:I
 
     .line 13
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -181,7 +181,7 @@
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    const v3, 0x7f0f098f
+    sget v3, Lcom/res/provider/ResSTRING;->t_expect_feedback:I
 
     .line 15
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -201,7 +201,7 @@
     .line 18
     new-instance v3, Lcom/commsource/widget/dialog/delegate/c;
 
-    const v4, 0x7f0f0a02
+    sget v4, Lcom/res/provider/ResSTRING;->t_not_now:I
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -216,7 +216,7 @@
     .line 19
     new-instance v3, Lcom/commsource/widget/dialog/delegate/c;
 
-    const v4, 0x7f0f0a35
+    sget v4, Lcom/res/provider/ResSTRING;->t_send_feedback:I
 
     .line 20
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -343,7 +343,7 @@
 
     const-string v1, "android.intent.action.VIEW"
 
-    const v2, 0x7f0f08c2
+    sget v2, Lcom/res/provider/ResSTRING;->software_grade_url:I
 
     .line 39
     invoke-virtual {p2, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -376,7 +376,7 @@
     .line 42
     invoke-static {p2}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    const p2, 0x7f0f06dd
+    sget p2, Lcom/res/provider/ResSTRING;->open_failed:I
 
     .line 43
     invoke-static {p2}, Lf/k/c/c/f;->w(I)V

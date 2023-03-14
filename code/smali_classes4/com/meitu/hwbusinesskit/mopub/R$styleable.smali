@@ -1141,7 +1141,7 @@
 
     new-array v9, v1, [I
 
-    const v10, 0x7f04004b
+    sget v10, Lcom/res/provider/ResATTR;->allowStacking:I
 
     aput v10, v9, v4
 
@@ -1267,7 +1267,7 @@
 
     new-array v7, v1, [I
 
-    const v9, 0x7f040283
+    sget v9, Lcom/res/provider/ResATTR;->moPubAdSize:I
 
     aput v9, v7, v4
 
@@ -1281,7 +1281,7 @@
 
     new-array v7, v1, [I
 
-    const v9, 0x7f0403b4
+    sget v9, Lcom/res/provider/ResATTR;->state_above_anchor:I
 
     aput v9, v7, v4
 
@@ -1357,7 +1357,7 @@
 
     new-array v0, v1, [I
 
-    const v1, 0x7f04019d
+    sget v1, Lcom/res/provider/ResATTR;->gradientOrientation:I
 
     aput v1, v0, v4
 

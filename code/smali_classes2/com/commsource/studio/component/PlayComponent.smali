@@ -373,7 +373,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i2;->a:Lcom/commsource/widget/IconFrontView;
 
-    const v2, 0x7f0f00dd
+    sget v2, Lcom/res/provider/ResSTRING;->ar_pause:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -418,7 +418,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i2;->a:Lcom/commsource/widget/IconFrontView;
 
-    const v2, 0x7f0f00de
+    sget v2, Lcom/res/provider/ResSTRING;->ar_play:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 

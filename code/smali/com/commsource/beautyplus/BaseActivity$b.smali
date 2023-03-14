@@ -126,7 +126,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f0f0050
+    sget v3, Lcom/res/provider/ResSTRING;->ad_slot_launch_ad:I
 
     invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

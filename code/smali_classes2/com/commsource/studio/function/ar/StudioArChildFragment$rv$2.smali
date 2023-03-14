@@ -97,7 +97,7 @@
     :cond_0
     invoke-direct {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f090540
+    sget v2, Lcom/res/provider/ResID;->rv:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setId(I)V

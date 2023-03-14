@@ -116,7 +116,7 @@
     move-object p3, v0
 
     :goto_0
-    const v1, 0x7f0900e4
+    sget v1, Lcom/res/provider/ResID;->btn_hot_area:I
 
     if-nez p3, :cond_1
 

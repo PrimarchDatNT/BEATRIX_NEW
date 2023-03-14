@@ -96,7 +96,7 @@
     .line 2
     new-instance v1, Lcom/commsource/camera/f1/o;
 
-    const v2, 0x7f080366
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_video_center_pause_icon:I
 
     invoke-direct {v1, v2}, Lcom/commsource/camera/f1/o;-><init>(I)V
 

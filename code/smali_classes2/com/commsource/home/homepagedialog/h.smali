@@ -110,7 +110,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0f06c4
+    sget v3, Lcom/res/provider/ResSTRING;->not_enough_memory:I
 
     .line 2
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -121,7 +121,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0f02db
+    sget v3, Lcom/res/provider/ResSTRING;->dialog_i_konw:I
 
     .line 3
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

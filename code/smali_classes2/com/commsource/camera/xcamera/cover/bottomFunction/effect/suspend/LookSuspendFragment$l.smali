@@ -133,7 +133,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/y8;->d:Lcom/commsource/comic/widget/StrokeTextView;
 
-    const v1, 0x7f0f05a3
+    sget v1, Lcom/res/provider/ResSTRING;->make_up:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -189,7 +189,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/y8;->d:Lcom/commsource/comic/widget/StrokeTextView;
 
-    const v0, 0x7f0f011e
+    sget v0, Lcom/res/provider/ResSTRING;->beauty:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

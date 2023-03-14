@@ -177,7 +177,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0c01de
+    sget v0, Lcom/res/provider/ResLAYOUT;->permission_item_view:I
 
     const/4 v1, 0x0
 

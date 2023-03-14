@@ -139,7 +139,7 @@
 
     const/4 p1, 0x0
 
-    const v1, 0x7f100242
+    sget v1, Lcom/res/provider/ResSTYLE;->baseDialog:I
 
     .line 2
     invoke-virtual {p0, p1, v1}, Lcom/commsource/widget/dialog/i0;->setStyle(II)V
@@ -173,7 +173,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f100243
+    sget v2, Lcom/res/provider/ResSTYLE;->center_zoom_in_animation:I
 
     invoke-virtual {v1, v2}, Landroid/view/Window;->setWindowAnimations(I)V
 
@@ -205,7 +205,7 @@
     .line 1
     invoke-virtual {p0, p3}, Lcom/commsource/widget/dialog/i0;->setCancelable(Z)V
 
-    const v0, 0x7f0c00b7
+    sget v0, Lcom/res/provider/ResLAYOUT;->dialog_ai_guide:I
 
     const/4 v1, 0x0
 
@@ -330,7 +330,7 @@
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/e5;->a:Lcom/commsource/widget/PressTextView;
 
-    const v1, 0x7f0f0a13
+    sget v1, Lcom/res/provider/ResSTRING;->t_portrait_turn_on:I
 
     invoke-virtual {p2, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -339,7 +339,7 @@
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/e5;->d:Lcom/commsource/widget/PressTextView;
 
-    const v1, 0x7f0f09ef
+    sget v1, Lcom/res/provider/ResSTRING;->t_later:I
 
     invoke-virtual {p2, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -352,7 +352,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f08017e
+    sget p2, Lcom/res/provider/ResDRAWABLE;->edit_cutout_img_guide:I
 
     .line 6
     invoke-virtual {p1, p2}, Lcom/commsource/util/u0$d;->k(I)Lcom/commsource/util/u0$d;

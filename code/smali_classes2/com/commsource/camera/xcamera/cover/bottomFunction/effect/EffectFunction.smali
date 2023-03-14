@@ -126,9 +126,9 @@
 
     const-string v5, "LOOK"
 
-    const v6, 0x7f0f04d7
+    sget v6, Lcom/res/provider/ResSTRING;->if_effect_tab_look:I
 
-    const v7, 0x7f0f01ff
+    sget v7, Lcom/res/provider/ResSTRING;->camera_look:I
 
     move-object v2, v9
 
@@ -151,9 +151,9 @@
 
     const-string v13, "BEAUTY"
 
-    const v14, 0x7f0f04d5
+    sget v14, Lcom/res/provider/ResSTRING;->if_effect_tab_beauty:I
 
-    const v15, 0x7f0f01f3
+    sget v15, Lcom/res/provider/ResSTRING;->camera_beauty:I
 
     move-object v10, v2
 
@@ -176,9 +176,9 @@
 
     const-string v7, "MAKEUP"
 
-    const v8, 0x7f0f04d8
+    sget v8, Lcom/res/provider/ResSTRING;->if_effect_tab_makeup:I
 
-    const v9, 0x7f0f0200
+    sget v9, Lcom/res/provider/ResSTRING;->camera_makeup:I
 
     move-object v4, v2
 
@@ -201,9 +201,9 @@
 
     const-string v7, "FILTER"
 
-    const v8, 0x7f0f04d6
+    sget v8, Lcom/res/provider/ResSTRING;->if_effect_tab_filter:I
 
-    const v9, 0x7f0f01f8
+    sget v9, Lcom/res/provider/ResSTRING;->camera_filter:I
 
     move-object v4, v2
 

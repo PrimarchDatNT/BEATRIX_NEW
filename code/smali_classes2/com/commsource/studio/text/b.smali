@@ -3678,7 +3678,7 @@
 
     new-instance v2, Lcom/commsource/studio/text/b$d;
 
-    const v3, 0x7f0f04b4
+    sget v3, Lcom/res/provider/ResSTRING;->if_edit_icon_boxDelete:I
 
     .line 2
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -3707,7 +3707,7 @@
 
     invoke-virtual {v2, p2}, Lcom/commsource/studio/x;->q(F)V
 
-    const p2, 0x7f0600e0
+    sget p2, Lcom/res/provider/ResCOLOR;->color_b3ffffff:I
 
     .line 5
     invoke-static {p2}, Lcom/commsource/util/u1;->b(I)I
@@ -3800,7 +3800,7 @@
     .line 2
     new-instance v2, Lcom/commsource/studio/n;
 
-    const v3, 0x7f0f0312
+    sget v3, Lcom/res/provider/ResSTRING;->edit_icon_rotate:I
 
     .line 3
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -3834,7 +3834,7 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/x;->q(F)V
 
-    const v3, 0x7f0600e0
+    sget v3, Lcom/res/provider/ResCOLOR;->color_b3ffffff:I
 
     .line 7
     invoke-static {v3}, Lcom/commsource/util/u1;->b(I)I

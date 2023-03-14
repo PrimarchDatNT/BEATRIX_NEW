@@ -93,7 +93,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f100240
+    sget v0, Lcom/res/provider/ResSTYLE;->arDialog:I
 
     .line 2
     invoke-direct {p0, p1, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
@@ -1080,7 +1080,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0c00c6
+    sget v1, Lcom/res/provider/ResLAYOUT;->dialog_new_feature_test:I
 
     const/4 v2, 0x0
 
@@ -1113,7 +1113,7 @@
     .line 7
     invoke-virtual {p0, v3}, Landroid/app/Dialog;->setCancelable(Z)V
 
-    const v1, 0x7f090329
+    sget v1, Lcom/res/provider/ResID;->iv_feature_title:I
 
     .line 8
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1124,7 +1124,7 @@
 
     iput-object v1, p0, Lcom/commsource/widget/dialog/k0;->M:Lcom/commsource/widget/AutoFitTextView;
 
-    const v1, 0x7f0906d1
+    sget v1, Lcom/res/provider/ResID;->tv_feature_content:I
 
     .line 9
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1135,7 +1135,7 @@
 
     iput-object v1, p0, Lcom/commsource/widget/dialog/k0;->N:Lcom/commsource/widget/AutoFitTextView;
 
-    const v1, 0x7f090359
+    sget v1, Lcom/res/provider/ResID;->iv_new_feature:I
 
     .line 10
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1146,7 +1146,7 @@
 
     iput-object v1, p0, Lcom/commsource/widget/dialog/k0;->O:Lcom/commsource/widget/CircleImageView;
 
-    const v1, 0x7f090165
+    sget v1, Lcom/res/provider/ResID;->content_scroll:I
 
     .line 11
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1157,7 +1157,7 @@
 
     iput-object v1, p0, Lcom/commsource/widget/dialog/k0;->P:Landroid/widget/ScrollView;
 
-    const v1, 0x7f090197
+    sget v1, Lcom/res/provider/ResID;->dialog_video_view:I
 
     .line 12
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1168,7 +1168,7 @@
 
     iput-object v1, p0, Lcom/commsource/widget/dialog/k0;->Q:Lcom/commsource/widget/VideoPlayView;
 
-    const v1, 0x7f090377
+    sget v1, Lcom/res/provider/ResID;->iv_show:I
 
     .line 13
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1179,7 +1179,7 @@
 
     iput-object v1, p0, Lcom/commsource/widget/dialog/k0;->S:Landroid/widget/ImageView;
 
-    const v1, 0x7f090117
+    sget v1, Lcom/res/provider/ResID;->cdv_count:I
 
     .line 14
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1190,7 +1190,7 @@
 
     iput-object v1, p0, Lcom/commsource/widget/dialog/k0;->T:Lcom/commsource/widget/CountDownView;
 
-    const v1, 0x7f0904b6
+    sget v1, Lcom/res/provider/ResID;->ps_feature_former:I
 
     .line 15
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1201,7 +1201,7 @@
 
     iput-object v1, p0, Lcom/commsource/widget/dialog/k0;->Y:Lcom/commsource/widget/PressTextView;
 
-    const v1, 0x7f0904b7
+    sget v1, Lcom/res/provider/ResID;->ps_feature_latter:I
 
     .line 16
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1212,7 +1212,7 @@
 
     iput-object v1, p0, Lcom/commsource/widget/dialog/k0;->Z:Lcom/commsource/widget/PressTextView;
 
-    const v1, 0x7f0906d3
+    sget v1, Lcom/res/provider/ResID;->tv_feature_tryit:I
 
     .line 17
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1223,7 +1223,7 @@
 
     iput-object v1, p0, Lcom/commsource/widget/dialog/k0;->a0:Lcom/commsource/widget/PressTextView;
 
-    const v1, 0x7f0906d2
+    sget v1, Lcom/res/provider/ResID;->tv_feature_skip:I
 
     .line 18
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1291,18 +1291,18 @@
     .line 26
     iget-object v1, p0, Lcom/commsource/widget/dialog/k0;->Y:Lcom/commsource/widget/PressTextView;
 
-    const v4, 0x7f0f02bf
+    sget v4, Lcom/res/provider/ResSTRING;->d_score_interest:I
 
-    const v5, 0x7f0f02c0
+    sget v5, Lcom/res/provider/ResSTRING;->d_score_not_interest:I
 
     if-eqz v3, :cond_1
 
-    const v3, 0x7f0f02bf
+    sget v3, Lcom/res/provider/ResSTRING;->d_score_interest:I
 
     goto :goto_0
 
     :cond_1
-    const v3, 0x7f0f02c0
+    sget v3, Lcom/res/provider/ResSTRING;->d_score_not_interest:I
 
     .line 27
     :goto_0
@@ -1325,18 +1325,18 @@
 
     iget-boolean v6, p0, Lcom/commsource/widget/dialog/k0;->f0:Z
 
-    const v7, 0x7f08011b
+    sget v7, Lcom/res/provider/ResDRAWABLE;->common_new_feature_test_interest_icon:I
 
-    const v8, 0x7f08011c
+    sget v8, Lcom/res/provider/ResDRAWABLE;->common_new_feature_test_notinterest_icon:I
 
     if-eqz v6, :cond_2
 
-    const v6, 0x7f08011b
+    sget v6, Lcom/res/provider/ResDRAWABLE;->common_new_feature_test_interest_icon:I
 
     goto :goto_1
 
     :cond_2
-    const v6, 0x7f08011c
+    sget v6, Lcom/res/provider/ResDRAWABLE;->common_new_feature_test_notinterest_icon:I
 
     :goto_1
     invoke-static {v3, v6}, Lcom/commsource/util/u1;->h(Landroid/content/res/Resources;I)Landroid/graphics/drawable/Drawable;
@@ -1353,7 +1353,7 @@
 
     if-eqz v3, :cond_3
 
-    const v4, 0x7f0f02c0
+    sget v4, Lcom/res/provider/ResSTRING;->d_score_not_interest:I
 
     .line 33
     :cond_3
@@ -1378,7 +1378,7 @@
 
     if-eqz v4, :cond_4
 
-    const v7, 0x7f08011c
+    sget v7, Lcom/res/provider/ResDRAWABLE;->common_new_feature_test_notinterest_icon:I
 
     :cond_4
     invoke-static {v3, v7}, Lcom/commsource/util/u1;->h(Landroid/content/res/Resources;I)Landroid/graphics/drawable/Drawable;

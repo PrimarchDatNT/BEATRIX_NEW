@@ -82,7 +82,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0f08c5
+    sget v1, Lcom/res/provider/ResSTRING;->space_unable_to_edit:I
 
     .line 1
     invoke-static {v1}, Lf/k/c/c/f;->h(I)V

@@ -455,7 +455,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0f0302
+    sget v1, Lcom/res/provider/ResSTRING;->easy_editor_content:I
 
     .line 1
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -480,7 +480,7 @@
 
     move-result v1
 
-    const v2, 0x7f0f06be
+    sget v2, Lcom/res/provider/ResSTRING;->normal_editor_content:I
 
     .line 4
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1689,7 +1689,7 @@
     .line 2
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    const v2, 0x7f0f08c2
+    sget v2, Lcom/res/provider/ResSTRING;->software_grade_url:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1715,7 +1715,7 @@
     .line 5
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    const v1, 0x7f0f06dd
+    sget v1, Lcom/res/provider/ResSTRING;->open_failed:I
 
     .line 6
     invoke-static {v1}, Lf/k/c/c/f;->h(I)V
@@ -1808,7 +1808,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080217
+    sget v3, Lcom/res/provider/ResDRAWABLE;->img_miniapp_click_animator:I
 
     .line 3
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1875,7 +1875,7 @@
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/s0/t$a;-><init>()V
 
-    const v2, 0x7f0f06cb
+    sget v2, Lcom/res/provider/ResSTRING;->not_the_latest_version:I
 
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1885,7 +1885,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0aeb
+    sget v2, Lcom/res/provider/ResSTRING;->update_beautyplus_version:I
 
     .line 2
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1903,7 +1903,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0aef
+    sget v2, Lcom/res/provider/ResSTRING;->update_push_ok:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1923,7 +1923,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f06b2
+    sget v2, Lcom/res/provider/ResSTRING;->no_next_time:I
 
     .line 6
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2328,7 +2328,7 @@
 
     if-nez p1, :cond_4
 
-    const p1, 0x7f0f004b
+    sget p1, Lcom/res/provider/ResSTRING;->ad_slot_album:I
 
     .line 19
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2337,7 +2337,7 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->preloadAdvert(Ljava/lang/String;)V
 
-    const p1, 0x7f0f0053
+    sget p1, Lcom/res/provider/ResSTRING;->ad_slot_save_via_selfie:I
 
     .line 20
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2415,7 +2415,7 @@
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c01c7
+    sget p1, Lcom/res/provider/ResLAYOUT;->mini_app_activity:I
 
     .line 2
     invoke-static {p0, p1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;

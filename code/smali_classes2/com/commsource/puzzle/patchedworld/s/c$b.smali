@@ -32,7 +32,7 @@
     .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0902b0
+    sget v0, Lcom/res/provider/ResID;->ifv_icon:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -43,7 +43,7 @@
 
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/s/c$b;->a:Lcom/commsource/widget/IconFrontView;
 
-    const v0, 0x7f090709
+    sget v0, Lcom/res/provider/ResID;->tv_name:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

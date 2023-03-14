@@ -462,7 +462,7 @@
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    const v0, 0x7f080181
+    sget v0, Lcom/res/provider/ResDRAWABLE;->edit_easy_editor_tap_tips_icon:I
 
     .line 33
     invoke-static {v0}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;
@@ -555,7 +555,7 @@
     .line 45
     new-instance p1, Landroid/text/StaticLayout;
 
-    const p2, 0x7f0f0a9f
+    sget p2, Lcom/res/provider/ResSTRING;->tap_to_edit:I
 
     invoke-static {p2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

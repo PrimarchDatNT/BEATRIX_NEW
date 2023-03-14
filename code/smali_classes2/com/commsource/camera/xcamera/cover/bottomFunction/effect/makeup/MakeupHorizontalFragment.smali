@@ -576,7 +576,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/s9;->M:Landroid/widget/TextView;
 
-    const v2, 0x7f0f05bb
+    sget v2, Lcom/res/provider/ResSTRING;->makeup_ar_tips:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 

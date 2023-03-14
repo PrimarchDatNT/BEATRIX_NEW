@@ -100,7 +100,7 @@
     .line 4
     invoke-virtual {v1, v2, v3}, Landroidx/appcompat/widget/AppCompatTextView;->setTextSize(IF)V
 
-    const v2, 0x7f060225
+    sget v2, Lcom/res/provider/ResCOLOR;->white:I
 
     .line 5
     invoke-static {v2}, Lcom/commsource/util/l0;->P(I)I
@@ -109,7 +109,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v2, 0x7f0f04f8
+    sget v2, Lcom/res/provider/ResSTRING;->if_look_download:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V

@@ -44,42 +44,42 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/j3;->L:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0904fc
+    sget v2, Lcom/res/provider/ResID;->rl_bottom_bar:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904fd
+    sget v2, Lcom/res/provider/ResID;->rl_camera_bar:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09056a
+    sget v2, Lcom/res/provider/ResID;->s_cb:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09031e
+    sget v2, Lcom/res/provider/ResID;->iv_delete_video:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090384
+    sget v2, Lcom/res/provider/ResID;->iv_video_finish:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900c2
+    sget v2, Lcom/res/provider/ResID;->bpv_recording_progress:I
 
     const/4 v3, 0x6
 

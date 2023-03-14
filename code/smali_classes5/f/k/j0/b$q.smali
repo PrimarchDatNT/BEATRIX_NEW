@@ -2509,7 +2509,7 @@
 
     new-array v10, v1, [I
 
-    const v11, 0x7f04004b
+    sget v11, Lcom/res/provider/ResATTR;->allowStacking:I
 
     aput v11, v10, v4
 
@@ -2621,7 +2621,7 @@
 
     new-array v12, v1, [I
 
-    const v13, 0x7f04019b
+    sget v13, Lcom/res/provider/ResATTR;->gifMoviewViewStyle:I
 
     aput v13, v12, v4
 
@@ -2659,7 +2659,7 @@
 
     new-array v6, v1, [I
 
-    const v12, 0x7f040063
+    sget v12, Lcom/res/provider/ResATTR;->behavior_autoHide:I
 
     aput v12, v6, v4
 
@@ -2715,7 +2715,7 @@
 
     new-array v6, v1, [I
 
-    const v9, 0x7f04004a
+    sget v9, Lcom/res/provider/ResATTR;->allowShortcuts:I
 
     aput v9, v6, v4
 
@@ -2855,7 +2855,7 @@
 
     new-array v11, v1, [I
 
-    const v12, 0x7f040283
+    sget v12, Lcom/res/provider/ResATTR;->moPubAdSize:I
 
     aput v12, v11, v4
 
@@ -2875,7 +2875,7 @@
 
     new-array v11, v1, [I
 
-    const v12, 0x7f0403b4
+    sget v12, Lcom/res/provider/ResATTR;->state_above_anchor:I
 
     aput v12, v11, v4
 
@@ -2907,7 +2907,7 @@
 
     new-array v6, v1, [I
 
-    const v11, 0x7f0401cf
+    sget v11, Lcom/res/provider/ResATTR;->insetForeground:I
 
     aput v11, v6, v4
 
@@ -2915,7 +2915,7 @@
 
     new-array v6, v1, [I
 
-    const v11, 0x7f040066
+    sget v11, Lcom/res/provider/ResATTR;->behavior_overlapTop:I
 
     aput v11, v6, v4
 
@@ -2937,7 +2937,7 @@
 
     new-array v6, v1, [I
 
-    const v8, 0x7f040185
+    sget v8, Lcom/res/provider/ResATTR;->featureType:I
 
     aput v8, v6, v4
 
@@ -3051,7 +3051,7 @@
 
     new-array v0, v1, [I
 
-    const v6, 0x7f04019d
+    sget v6, Lcom/res/provider/ResATTR;->gradientOrientation:I
 
     aput v6, v0, v4
 

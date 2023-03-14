@@ -502,7 +502,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0aa0
+    sget v2, Lcom/res/provider/ResSTRING;->tap_to_select_face:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

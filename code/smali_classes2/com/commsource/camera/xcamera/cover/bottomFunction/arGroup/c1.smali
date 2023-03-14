@@ -563,7 +563,7 @@
 
     if-eqz v1, :cond_1
 
-    const p1, 0x7f0f0a03
+    sget p1, Lcom/res/provider/ResSTRING;->t_not_support_material_tip:I
 
     .line 4
     invoke-static {p1}, Lf/k/c/c/f;->l(I)V

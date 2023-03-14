@@ -155,7 +155,7 @@
 
     int-to-float p1, p1
 
-    const p2, 0x7f07016c
+    sget p2, Lcom/res/provider/ResDIMEN;->top_bar_height:I
 
     invoke-static {p2}, Lcom/meitu/library/p/d/b;->e(I)F
 

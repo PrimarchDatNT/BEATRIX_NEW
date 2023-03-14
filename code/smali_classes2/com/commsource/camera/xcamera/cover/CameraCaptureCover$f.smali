@@ -204,7 +204,7 @@
     if-nez p1, :cond_4
 
     :goto_2
-    const p1, 0x7f0f063e
+    sget p1, Lcom/res/provider/ResSTRING;->montage_take_face_failed_tip:I
 
     .line 10
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -221,7 +221,7 @@
     return-void
 
     :cond_4
-    const p1, 0x7f0f0635
+    sget p1, Lcom/res/provider/ResSTRING;->montage_multi_face_try_again:I
 
     .line 12
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

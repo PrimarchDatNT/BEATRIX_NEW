@@ -228,7 +228,7 @@
 
     if-eqz v6, :cond_1
 
-    const v6, 0x7f0f084a
+    sget v6, Lcom/res/provider/ResSTRING;->selfie_unface_tips:I
 
     .line 12
     invoke-static {v6}, Lf/k/c/c/f;->r(I)V
@@ -263,7 +263,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ya;->N:Lcom/commsource/widget/PressTextView;
 
-    const v5, 0x7f0f02c4
+    sget v5, Lcom/res/provider/ResSTRING;->date_enter:I
 
     invoke-virtual {p1, v5}, Landroid/widget/TextView;->setText(I)V
 

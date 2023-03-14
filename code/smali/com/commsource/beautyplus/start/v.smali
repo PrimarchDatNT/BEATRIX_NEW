@@ -1223,7 +1223,7 @@
     .line 7
     iget-object v1, p0, Lcom/commsource/beautyplus/start/v;->a:Landroid/content/Context;
 
-    const v3, 0x7f0f0055
+    sget v3, Lcom/res/provider/ResSTRING;->ad_slot_selfiesave:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

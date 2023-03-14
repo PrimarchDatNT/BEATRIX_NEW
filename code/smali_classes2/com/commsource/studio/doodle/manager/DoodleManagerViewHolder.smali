@@ -105,7 +105,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c0141
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_doodle_manager:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -192,7 +192,7 @@
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v2, 0x7f0f049f
+    sget v2, Lcom/res/provider/ResSTRING;->if_doodle_collect:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -233,12 +233,12 @@
 
     if-ne v2, v3, :cond_0
 
-    const v2, 0x7f06013a
+    sget v2, Lcom/res/provider/ResCOLOR;->color_fb5986:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0600eb
+    sget v2, Lcom/res/provider/ResCOLOR;->color_c4c4c4:I
 
     :goto_0
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
@@ -339,12 +339,12 @@
 
     if-eqz v3, :cond_2
 
-    const v3, 0x7f060034
+    sget v3, Lcom/res/provider/ResCOLOR;->black:I
 
     goto :goto_1
 
     :cond_2
-    const v3, 0x7f060080
+    sget v3, Lcom/res/provider/ResCOLOR;->color_4d333333:I
 
     :goto_1
     invoke-static {v3}, Lcom/commsource/util/u1;->b(I)I
@@ -378,12 +378,12 @@
 
     if-eqz v2, :cond_3
 
-    const v2, 0x7f0f04a2
+    sget v2, Lcom/res/provider/ResSTRING;->if_doodle_manage_sel:I
 
     goto :goto_2
 
     :cond_3
-    const v2, 0x7f0f04a1
+    sget v2, Lcom/res/provider/ResSTRING;->if_doodle_manage_not_sel:I
 
     :goto_2
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -523,7 +523,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0801ab
+    sget p2, Lcom/res/provider/ResDRAWABLE;->edit_sticker_icon_placeholder:I
 
     .line 3
     invoke-virtual {p1, p2}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;

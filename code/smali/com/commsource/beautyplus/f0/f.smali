@@ -44,119 +44,119 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/f;->W:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f09066d
+    sget v2, Lcom/res/provider/ResID;->transparentBg:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090067
+    sget v2, Lcom/res/provider/ResID;->ai_editor_effect_view:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901b6
+    sget v2, Lcom/res/provider/ResID;->effect_process_view:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090064
+    sget v2, Lcom/res/provider/ResID;->ai_editor_back:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090065
+    sget v2, Lcom/res/provider/ResID;->ai_editor_contrast:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090779
+    sget v2, Lcom/res/provider/ResID;->vCover:I
 
     const/4 v3, 0x6
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090406
+    sget v2, Lcom/res/provider/ResID;->loading_progress:I
 
     const/4 v3, 0x7
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904a4
+    sget v2, Lcom/res/provider/ResID;->process_prompt:I
 
     const/16 v3, 0x8
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906a8
+    sget v2, Lcom/res/provider/ResID;->tv_cancel:I
 
     const/16 v3, 0x9
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090047
+    sget v2, Lcom/res/provider/ResID;->ad_editor_time_limit:I
 
     const/16 v3, 0xa
 
     .line 12
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090068
+    sget v2, Lcom/res/provider/ResID;->ai_editor_saved:I
 
     const/16 v3, 0xb
 
     .line 13
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090796
+    sget v2, Lcom/res/provider/ResID;->vSaveBtnShadow:I
 
     const/16 v3, 0xc
 
     .line 14
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09056d
+    sget v2, Lcom/res/provider/ResID;->save_btn:I
 
     const/16 v3, 0xd
 
     .line 15
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09056e
+    sget v2, Lcom/res/provider/ResID;->save_click_barrier:I
 
     const/16 v3, 0xe
 
     .line 16
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09012e
+    sget v2, Lcom/res/provider/ResID;->clickBarrier:I
 
     const/16 v3, 0xf
 
     .line 17
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0907c2
+    sget v2, Lcom/res/provider/ResID;->v_line:I
 
     const/16 v3, 0x10
 
     .line 18
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090048
+    sget v2, Lcom/res/provider/ResID;->ad_editor_time_limit_tip:I
 
     const/16 v3, 0x11
 

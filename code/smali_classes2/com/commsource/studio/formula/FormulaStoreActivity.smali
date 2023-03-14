@@ -602,9 +602,9 @@
     .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    const v1, 0x7f010038
+    sget v1, Lcom/res/provider/ResANIM;->slide_left_in:I
 
-    const v2, 0x7f01003d
+    sget v2, Lcom/res/provider/ResANIM;->slide_right_out:I
 
     .line 2
     invoke-virtual {p0, v1, v2}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -629,14 +629,14 @@
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f01003c
+    sget p1, Lcom/res/provider/ResANIM;->slide_right_in:I
 
-    const v1, 0x7f010039
+    sget v1, Lcom/res/provider/ResANIM;->slide_left_out:I
 
     .line 2
     invoke-virtual {p0, p1, v1}, Landroid/app/Activity;->overridePendingTransition(II)V
 
-    const p1, 0x7f0c0030
+    sget p1, Lcom/res/provider/ResLAYOUT;->activity_formula_shop:I
 
     .line 3
     invoke-static {p0, p1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
@@ -707,7 +707,7 @@
 
     move-result-object p1
 
-    const v4, 0x7f0904d6
+    sget v4, Lcom/res/provider/ResID;->refreshIcon:I
 
     const-string v5, "error"
 

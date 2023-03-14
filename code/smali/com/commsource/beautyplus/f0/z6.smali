@@ -39,63 +39,63 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/z6;->O:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090084
+    sget v2, Lcom/res/provider/ResID;->ar_giphy_rl:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090310
+    sget v2, Lcom/res/provider/ResID;->iv_close:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901c2
+    sget v2, Lcom/res/provider/ResID;->et:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906a8
+    sget v2, Lcom/res/provider/ResID;->tv_cancel:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090085
+    sget v2, Lcom/res/provider/ResID;->ar_giphy_title_tv:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904d5
+    sget v2, Lcom/res/provider/ResID;->refresh:I
 
     const/4 v3, 0x6
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090540
+    sget v2, Lcom/res/provider/ResID;->rv:I
 
     const/4 v3, 0x7
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09048d
+    sget v2, Lcom/res/provider/ResID;->pb_refresh:I
 
     const/16 v3, 0x8
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906cc
+    sget v2, Lcom/res/provider/ResID;->tv_empty:I
 
     const/16 v3, 0x9
 

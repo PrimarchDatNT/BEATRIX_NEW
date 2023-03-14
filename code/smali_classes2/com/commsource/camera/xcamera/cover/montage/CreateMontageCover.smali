@@ -939,7 +939,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c0093
+    sget v0, Lcom/res/provider/ResLAYOUT;->cover_create_montage:I
 
     return v0
 .end method

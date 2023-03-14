@@ -39,133 +39,133 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/bm;->Y:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0907c9
+    sget v2, Lcom/res/provider/ResID;->v_top:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09051a
+    sget v2, Lcom/res/provider/ResID;->rl_mini_content:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09052f
+    sget v2, Lcom/res/provider/ResID;->rl_top_bar:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090356
+    sget v2, Lcom/res/provider/ResID;->iv_mini_logo:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906fd
+    sget v2, Lcom/res/provider/ResID;->tv_mini_app:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090355
+    sget v2, Lcom/res/provider/ResID;->iv_mini_arrow_down:I
 
     const/4 v3, 0x6
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900da
+    sget v2, Lcom/res/provider/ResID;->btg_change_mode:I
 
     const/4 v3, 0x7
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090553
+    sget v2, Lcom/res/provider/ResID;->rv_feature:I
 
     const/16 v3, 0x8
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900b8
+    sget v2, Lcom/res/provider/ResID;->bottom_bar:I
 
     const/16 v3, 0x9
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900ba
+    sget v2, Lcom/res/provider/ResID;->bottom_bar_bg:I
 
     const/16 v3, 0xa
 
     .line 12
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0903a4
+    sget v2, Lcom/res/provider/ResID;->line:I
 
     const/16 v3, 0xb
 
     .line 13
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090266
+    sget v2, Lcom/res/provider/ResID;->go_camera:I
 
     const/16 v3, 0xc
 
     .line 14
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090265
+    sget v2, Lcom/res/provider/ResID;->go_album_container:I
 
     const/16 v3, 0xd
 
     .line 15
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090264
+    sget v2, Lcom/res/provider/ResID;->go_album:I
 
     const/16 v3, 0xe
 
     .line 16
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906e1
+    sget v2, Lcom/res/provider/ResID;->tv_go_album:I
 
     const/16 v3, 0xf
 
     .line 17
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090268
+    sget v2, Lcom/res/provider/ResID;->go_mini_container:I
 
     const/16 v3, 0x10
 
     .line 18
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090267
+    sget v2, Lcom/res/provider/ResID;->go_mini:I
 
     const/16 v3, 0x11
 
     .line 19
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906e2
+    sget v2, Lcom/res/provider/ResID;->tv_go_mini:I
 
     const/16 v3, 0x12
 
     .line 20
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09030f
+    sget v2, Lcom/res/provider/ResID;->iv_click_animator:I
 
     const/16 v3, 0x13
 

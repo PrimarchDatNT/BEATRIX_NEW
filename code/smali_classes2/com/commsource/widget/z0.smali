@@ -433,7 +433,7 @@
     .line 8
     check-cast v4, Landroid/widget/ImageView;
 
-    const p1, 0x7f06003a
+    sget p1, Lcom/res/provider/ResCOLOR;->black50:I
 
     .line 9
     invoke-static {p1}, Lcom/commsource/util/l0;->P(I)I

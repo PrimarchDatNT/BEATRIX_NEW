@@ -61,7 +61,7 @@
     .line 1
     sput-boolean v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->l:Z
 
-    const v1, 0x7f07006d
+    sget v1, Lcom/res/provider/ResDIMEN;->camera_bottom_min_height:I
 
     .line 2
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->e(I)F
@@ -72,7 +72,7 @@
 
     sput v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->m:I
 
-    const v1, 0x7f07006c
+    sget v1, Lcom/res/provider/ResDIMEN;->camera_bottom_fragment_min_height_full_screen:I
 
     .line 3
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->e(I)F
@@ -141,7 +141,7 @@
 
     :cond_1
     :goto_0
-    const v1, 0x7f07006b
+    sget v1, Lcom/res/provider/ResDIMEN;->camera_bottom_fragment_min_height:I
 
     .line 7
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->e(I)F

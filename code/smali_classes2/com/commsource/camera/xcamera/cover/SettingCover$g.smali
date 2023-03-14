@@ -133,7 +133,7 @@
 
     move-result-object v3
 
-    const p1, 0x7f0f0368
+    sget p1, Lcom/res/provider/ResSTRING;->fast_capture_on:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -213,7 +213,7 @@
 
     move-result-object v4
 
-    const p1, 0x7f0f0369
+    sget p1, Lcom/res/provider/ResSTRING;->fast_selfie_off:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

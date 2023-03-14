@@ -152,7 +152,7 @@
     .line 6
     invoke-virtual {v6, v5}, Lcom/commsource/studio/doodle/j;->l(I)V
 
-    const v5, 0x7f0f02ee
+    sget v5, Lcom/res/provider/ResSTRING;->doodle_base_category:I
 
     .line 7
     invoke-static {v5}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

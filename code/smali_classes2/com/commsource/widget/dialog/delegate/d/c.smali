@@ -119,7 +119,7 @@
 
     move-object/from16 v0, p0
 
-    const v1, 0x7f0c00ca
+    sget v1, Lcom/res/provider/ResLAYOUT;->dialog_progress:I
 
     const/4 v2, 0x0
 

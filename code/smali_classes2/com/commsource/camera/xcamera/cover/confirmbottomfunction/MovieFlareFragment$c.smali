@@ -241,7 +241,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f0f056d
+    sget v4, Lcom/res/provider/ResSTRING;->join_to_unlock_all_exclusive_effects:I
 
     invoke-virtual {v1, v4}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 

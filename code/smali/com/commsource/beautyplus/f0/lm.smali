@@ -39,42 +39,42 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/lm;->N:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090501
+    sget v2, Lcom/res/provider/ResID;->rl_common_dialog_b_content:I
 
     const/4 v3, 0x3
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090313
+    sget v2, Lcom/res/provider/ResID;->iv_common_dialog_b:I
 
     const/4 v3, 0x4
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090383
+    sget v2, Lcom/res/provider/ResID;->iv_video:I
 
     const/4 v3, 0x5
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090759
+    sget v2, Lcom/res/provider/ResID;->tv_title:I
 
     const/4 v3, 0x6
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906b6
+    sget v2, Lcom/res/provider/ResID;->tv_content:I
 
     const/4 v3, 0x7
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090314
+    sget v2, Lcom/res/provider/ResID;->iv_common_dialog_b_close:I
 
     const/16 v3, 0x8
 
@@ -276,7 +276,7 @@
 
     const/4 v4, 0x0
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v3, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -286,7 +286,7 @@
 
     iget-object v0, v1, Lcom/commsource/beautyplus/f0/km;->g:Lcom/commsource/widget/PressTextView;
 
-    const v13, 0x7f06013a
+    sget v13, Lcom/res/provider/ResCOLOR;->color_fb5986:I
 
     invoke-static {v0, v13}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

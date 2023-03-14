@@ -74,7 +74,7 @@
     .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$c;->g:Lcom/commsource/puzzle/StitchComponent;
 
-    const v2, 0x7f0802c7
+    sget v2, Lcom/res/provider/ResDRAWABLE;->puzzle_handle_icon_up:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->a(I)Landroid/graphics/Bitmap;
 
@@ -85,7 +85,7 @@
     .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$c;->g:Lcom/commsource/puzzle/StitchComponent;
 
-    const v2, 0x7f0802c6
+    sget v2, Lcom/res/provider/ResDRAWABLE;->puzzle_handle_icon_down:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->a(I)Landroid/graphics/Bitmap;
 
@@ -96,7 +96,7 @@
     .line 3
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$c;->g:Lcom/commsource/puzzle/StitchComponent;
 
-    const v2, 0x7f0802c8
+    sget v2, Lcom/res/provider/ResDRAWABLE;->puzzle_handle_icon_up_down:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->a(I)Landroid/graphics/Bitmap;
 

@@ -433,7 +433,7 @@
 
     const/4 v1, 0x5
 
-    const v2, 0x7f080353
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_montage_function_add_icon:I
 
     invoke-direct {v0, v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;-><init>(II)V
 

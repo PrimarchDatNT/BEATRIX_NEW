@@ -628,7 +628,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0f0a31
+    sget p3, Lcom/res/provider/ResSTRING;->t_select_image_continues:I
 
     invoke-static {p3}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
@@ -707,14 +707,14 @@
     goto :goto_1
 
     :cond_4
-    const v1, 0x7f0f09df
+    sget v1, Lcom/res/provider/ResSTRING;->t_import_photo:I
 
     .line 21
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0f09de
+    sget v2, Lcom/res/provider/ResSTRING;->t_import:I
 
     .line 22
     invoke-static {v2}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
@@ -726,7 +726,7 @@
 
     invoke-direct {v3, p0, p1, p2, p3}, Lcom/commsource/studio/formula/FormulaFragment$applyFormula$1;-><init>(Lcom/commsource/studio/formula/FormulaFragment;Lcom/commsource/studio/formula/JsFormula;ZZ)V
 
-    const p1, 0x7f0f0820
+    sget p1, Lcom/res/provider/ResSTRING;->selfie_ai_cancel:I
 
     .line 24
     invoke-static {p1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;

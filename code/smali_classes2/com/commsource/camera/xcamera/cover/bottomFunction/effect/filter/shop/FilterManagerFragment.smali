@@ -899,7 +899,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c00ea
+    sget v0, Lcom/res/provider/ResLAYOUT;->fragment_filter_manager:I
 
     const/4 v1, 0x0
 

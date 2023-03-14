@@ -5645,7 +5645,7 @@
 
     move-result-object v1
 
-    const v5, 0x7f0f02bc
+    sget v5, Lcom/res/provider/ResSTRING;->cur_filter_no_support_makeup:I
 
     invoke-static {v5}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

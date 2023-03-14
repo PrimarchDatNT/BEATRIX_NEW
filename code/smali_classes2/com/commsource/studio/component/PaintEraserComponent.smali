@@ -341,7 +341,7 @@
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f0f0534
+    sget p2, Lcom/res/provider/ResSTRING;->if_studio_paint:I
 
     .line 18
     invoke-static {p2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -363,7 +363,7 @@
     goto :goto_1
 
     :cond_1
-    const p2, 0x7f0f052f
+    sget p2, Lcom/res/provider/ResSTRING;->if_studio_eraser:I
 
     .line 20
     invoke-static {p2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

@@ -111,7 +111,7 @@
     .line 52
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch;->y1:Z
 
-    const v1, 0x7f060224
+    sget v1, Lcom/res/provider/ResCOLOR;->transparent:I
 
     .line 53
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
@@ -185,7 +185,7 @@
     .line 26
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch;->y1:Z
 
-    const v2, 0x7f060224
+    sget v2, Lcom/res/provider/ResCOLOR;->transparent:I
 
     .line 27
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
@@ -345,7 +345,7 @@
     .line 12
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch;->y1:Z
 
-    const v1, 0x7f060224
+    sget v1, Lcom/res/provider/ResCOLOR;->transparent:I
 
     .line 13
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I

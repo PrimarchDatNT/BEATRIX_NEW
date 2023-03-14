@@ -459,7 +459,7 @@
 
     new-array v4, v4, [Ljava/lang/Integer;
 
-    const v5, 0x7f0f09cb
+    sget v5, Lcom/res/provider/ResSTRING;->t_highlight_face:I
 
     .line 12
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -468,7 +468,7 @@
 
     aput-object v5, v4, v1
 
-    const v5, 0x7f0f09c6
+    sget v5, Lcom/res/provider/ResSTRING;->t_highlight_background:I
 
     .line 13
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -477,7 +477,7 @@
 
     aput-object v5, v4, v2
 
-    const v2, 0x7f0f09c5
+    sget v2, Lcom/res/provider/ResSTRING;->t_highlight_atmosphere:I
 
     .line 14
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

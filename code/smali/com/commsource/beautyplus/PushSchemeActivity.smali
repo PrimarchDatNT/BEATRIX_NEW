@@ -500,7 +500,7 @@
     :goto_2
     const/4 v2, 0x2
 
-    const v3, 0x7f0f009a
+    sget v3, Lcom/res/provider/ResSTRING;->alert_dialog_img_edit_back_title:I
 
     if-ne v1, v2, :cond_7
 
@@ -510,7 +510,7 @@
     goto :goto_3
 
     :cond_7
-    const v1, 0x7f0f0922
+    sget v1, Lcom/res/provider/ResSTRING;->sure_want_to_discard_video:I
 
     .line 22
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -523,7 +523,7 @@
 
     if-eqz v1, :cond_8
 
-    const v1, 0x7f0f0099
+    sget v1, Lcom/res/provider/ResSTRING;->alert_dialog_edit_back_tips:I
 
     .line 24
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -534,7 +534,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f034c
+    sget v2, Lcom/res/provider/ResSTRING;->exit:I
 
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -544,7 +544,7 @@
 
     invoke-direct {v3, p0, p1}, Lcom/commsource/beautyplus/i;-><init>(Lcom/commsource/beautyplus/PushSchemeActivity;Landroid/content/Intent;)V
 
-    const p1, 0x7f0f0212
+    sget p1, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 26
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

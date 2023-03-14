@@ -98,7 +98,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c017a
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_select_layer:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -190,12 +190,12 @@
 
     if-nez p1, :cond_0
 
-    const v2, 0x7f0f04bd
+    sget v2, Lcom/res/provider/ResSTRING;->if_edit_lock:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0f04c1
+    sget v2, Lcom/res/provider/ResSTRING;->if_edit_sort:I
 
     :goto_0
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
@@ -277,7 +277,7 @@
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/gi;->M:Lcom/commsource/widget/IconFrontView;
 
-    const v1, 0x7f0f04a9
+    sget v1, Lcom/res/provider/ResSTRING;->if_edit_bg_subicon:I
 
     invoke-virtual {p3, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -422,7 +422,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->M:Lcom/commsource/widget/IconFrontView;
 
-    const v2, 0x7f0f04af
+    sget v2, Lcom/res/provider/ResSTRING;->if_edit_filter_subicon:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -518,7 +518,7 @@
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/gi;->M:Lcom/commsource/widget/IconFrontView;
 
-    const v1, 0x7f0f04c3
+    sget v1, Lcom/res/provider/ResSTRING;->if_edit_text_subicon:I
 
     invoke-virtual {p3, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -537,7 +537,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->M:Lcom/commsource/widget/IconFrontView;
 
-    const v2, 0x7f0f04c0
+    sget v2, Lcom/res/provider/ResSTRING;->if_edit_pic_subicon:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -576,7 +576,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->M:Lcom/commsource/widget/IconFrontView;
 
-    const v2, 0x7f0f04c2
+    sget v2, Lcom/res/provider/ResSTRING;->if_edit_sticker_subicon:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -639,7 +639,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/gi;->M:Lcom/commsource/widget/IconFrontView;
 
-    const v2, 0x7f0f04ac
+    sget v2, Lcom/res/provider/ResSTRING;->if_edit_doodle_subicon:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -750,7 +750,7 @@
 
     if-eqz v3, :cond_d
 
-    const p2, 0x7f06016a
+    sget p2, Lcom/res/provider/ResCOLOR;->color_fff0f7:I
 
     .line 50
     invoke-static {p2}, Lcom/commsource/util/u1;->b(I)I
@@ -760,7 +760,7 @@
     goto :goto_5
 
     :cond_d
-    const p2, 0x7f060225
+    sget p2, Lcom/res/provider/ResCOLOR;->white:I
 
     .line 51
     invoke-static {p2}, Lcom/commsource/util/u1;->b(I)I

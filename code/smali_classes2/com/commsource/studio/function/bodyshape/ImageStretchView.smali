@@ -513,7 +513,7 @@
 
     iput-object p2, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->c0:Landroid/graphics/Rect;
 
-    const p2, 0x7f080184
+    sget p2, Lcom/res/provider/ResDRAWABLE;->edit_height_icon:I
 
     .line 22
     invoke-static {p2}, Lcom/commsource/util/u1;->a(I)Landroid/graphics/Bitmap;
@@ -522,7 +522,7 @@
 
     iput-object p2, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->d0:Landroid/graphics/Bitmap;
 
-    const p2, 0x7f0f0436
+    sget p2, Lcom/res/provider/ResSTRING;->height_drag_to_select_area:I
 
     .line 23
     invoke-static {p2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

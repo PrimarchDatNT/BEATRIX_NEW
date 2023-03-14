@@ -37,7 +37,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0600dd
+    sget v1, Lcom/res/provider/ResCOLOR;->color_b3202020:I
 
     .line 1
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
@@ -54,7 +54,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/view/ViewGroup;)V
     .locals 2
 
-    const v0, 0x7f0c0145
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_edit_function:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -418,7 +418,7 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f080155
+    sget v1, Lcom/res/provider/ResDRAWABLE;->easy_editor_edit_item_bg:I
 
     .line 2
     invoke-static {v1}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;

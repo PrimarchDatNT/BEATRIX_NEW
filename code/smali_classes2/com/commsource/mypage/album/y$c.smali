@@ -52,14 +52,14 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0f0abe
+    sget v1, Lcom/res/provider/ResSTRING;->toast_image_damaged_please_choose_again:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0f06d1
+    sget v2, Lcom/res/provider/ResSTRING;->ok:I
 
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -103,14 +103,14 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0f0abe
+    sget v1, Lcom/res/provider/ResSTRING;->toast_image_damaged_please_choose_again:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0f06d1
+    sget v2, Lcom/res/provider/ResSTRING;->ok:I
 
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -147,14 +147,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0f0abd
+    sget v1, Lcom/res/provider/ResSTRING;->toast_image_aspect_ratio_too_big:I
 
     .line 1
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0f06d1
+    sget v2, Lcom/res/provider/ResSTRING;->ok:I
 
     .line 2
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -177,7 +177,7 @@
 
     invoke-direct/range {v3 .. v8}, Lcom/commsource/mypage/album/l;-><init>(Lcom/commsource/mypage/album/y$g;Ljava/lang/String;Lcom/meitu/core/types/FaceData;II)V
 
-    const v3, 0x7f0f0212
+    sget v3, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 3
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

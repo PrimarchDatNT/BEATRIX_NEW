@@ -204,7 +204,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0c01fa
+    sget v0, Lcom/res/provider/ResLAYOUT;->uxkit_widget__rect_color_item:I
 
     const/4 v1, 0x0
 
@@ -219,7 +219,7 @@
 
     invoke-direct {v0, v1, p1}, Lcom/meitu/library/uxkit/widget/color/b$d;-><init>(Lcom/meitu/library/uxkit/widget/color/b;Landroid/view/View;)V
 
-    const v1, 0x7f090311
+    sget v1, Lcom/res/provider/ResID;->iv_color:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -230,7 +230,7 @@
 
     invoke-static {v0, v1}, Lcom/meitu/library/uxkit/widget/color/b$d;->b(Lcom/meitu/library/uxkit/widget/color/b$d;Landroid/widget/ImageView;)Landroid/widget/ImageView;
 
-    const v1, 0x7f090312
+    sget v1, Lcom/res/provider/ResID;->iv_color_selected:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

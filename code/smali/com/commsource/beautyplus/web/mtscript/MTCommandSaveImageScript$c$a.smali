@@ -79,7 +79,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0f07ce
+    sget v1, Lcom/res/provider/ResSTRING;->save_to_album:I
 
     .line 2
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V

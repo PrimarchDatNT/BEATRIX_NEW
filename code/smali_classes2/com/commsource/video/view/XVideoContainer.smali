@@ -248,7 +248,7 @@
     .line 1
     new-instance p2, Landroid/graphics/drawable/ColorDrawable;
 
-    const p3, 0x7f060007
+    sget p3, Lcom/res/provider/ResCOLOR;->Gray_Background:I
 
     invoke-static {p3}, Lcom/commsource/util/l0;->P(I)I
 

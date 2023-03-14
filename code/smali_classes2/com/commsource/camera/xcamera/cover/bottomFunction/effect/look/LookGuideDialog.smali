@@ -468,7 +468,7 @@
 
     new-array v1, v7, [Ljava/lang/Integer;
 
-    const v8, 0x7f08033b
+    sget v8, Lcom/res/provider/ResDRAWABLE;->selfie_look_blink_img:I
 
     .line 7
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -477,7 +477,7 @@
 
     aput-object v8, v1, v6
 
-    const v6, 0x7f08033e
+    sget v6, Lcom/res/provider/ResDRAWABLE;->selfie_look_film_img:I
 
     .line 8
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -486,7 +486,7 @@
 
     aput-object v6, v1, v2
 
-    const v2, 0x7f080344
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_look_honey_img:I
 
     .line 9
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -495,7 +495,7 @@
 
     aput-object v2, v1, v5
 
-    const v2, 0x7f080342
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_look_gray_img:I
 
     .line 10
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -504,7 +504,7 @@
 
     aput-object v2, v1, v4
 
-    const v2, 0x7f08033a
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_look_black_img:I
 
     .line 11
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -530,7 +530,7 @@
 
     new-array v1, v7, [Ljava/lang/Integer;
 
-    const v8, 0x7f08033f
+    sget v8, Lcom/res/provider/ResDRAWABLE;->selfie_look_gleam_img_style2:I
 
     .line 14
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -539,7 +539,7 @@
 
     aput-object v8, v1, v6
 
-    const v6, 0x7f08033d
+    sget v6, Lcom/res/provider/ResDRAWABLE;->selfie_look_fairy_img_style2:I
 
     .line 15
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -548,7 +548,7 @@
 
     aput-object v6, v1, v2
 
-    const v2, 0x7f080348
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_look_sunkiss_img_style2:I
 
     .line 16
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -557,7 +557,7 @@
 
     aput-object v2, v1, v5
 
-    const v2, 0x7f080340
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_look_grain_img_style2:I
 
     .line 17
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -566,7 +566,7 @@
 
     aput-object v2, v1, v4
 
-    const v2, 0x7f080345
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_look_jaguar_img_style2:I
 
     .line 18
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -585,7 +585,7 @@
     :cond_1
     new-array v1, v7, [Ljava/lang/Integer;
 
-    const v8, 0x7f08033c
+    sget v8, Lcom/res/provider/ResDRAWABLE;->selfie_look_celeb_img_style3:I
 
     .line 20
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -594,7 +594,7 @@
 
     aput-object v8, v1, v6
 
-    const v6, 0x7f080347
+    sget v6, Lcom/res/provider/ResDRAWABLE;->selfie_look_sculped_img_style3:I
 
     .line 21
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -603,7 +603,7 @@
 
     aput-object v6, v1, v2
 
-    const v2, 0x7f080346
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_look_nudist_img_style3:I
 
     .line 22
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -612,7 +612,7 @@
 
     aput-object v2, v1, v5
 
-    const v2, 0x7f080343
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_look_gray_img_style3:I
 
     .line 23
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -621,7 +621,7 @@
 
     aput-object v2, v1, v4
 
-    const v2, 0x7f080341
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_look_grain_img_style3:I
 
     .line 24
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -775,7 +775,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c00c4
+    sget v0, Lcom/res/provider/ResLAYOUT;->dialog_look_guide:I
 
     return v0
 .end method

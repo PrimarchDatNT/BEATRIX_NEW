@@ -319,7 +319,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->j0:Lcom/commsource/widget/PressTextView;
 
-    const v2, 0x7f0f0181
+    sget v2, Lcom/res/provider/ResSTRING;->beauty_main_tab_beauty:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -328,7 +328,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->L:Lcom/commsource/widget/IconFrontView;
 
-    const v2, 0x7f0f047c
+    sget v2, Lcom/res/provider/ResSTRING;->if_beauty:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -361,7 +361,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->j0:Lcom/commsource/widget/PressTextView;
 
-    const v3, 0x7f0f0182
+    sget v3, Lcom/res/provider/ResSTRING;->beauty_main_tab_edit:I
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -370,7 +370,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->L:Lcom/commsource/widget/IconFrontView;
 
-    const v3, 0x7f0f0476
+    sget v3, Lcom/res/provider/ResSTRING;->if_adjust:I
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -838,7 +838,7 @@
     .line 3
     invoke-virtual {v1, p1}, Lcom/commsource/sharelink/b;->p(Z)V
 
-    const v2, 0x7f0f09db
+    sget v2, Lcom/res/provider/ResSTRING;->t_image_saved:I
 
     .line 4
     invoke-static {v2}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
@@ -909,7 +909,7 @@
 
     if-ge v0, v1, :cond_0
 
-    const v0, 0x7f0f068b
+    sget v0, Lcom/res/provider/ResSTRING;->need_face:I
 
     .line 2
     invoke-static {v0}, Lf/k/c/c/f;->r(I)V
@@ -3342,14 +3342,14 @@
 
     if-eqz v2, :cond_3
 
-    const v2, 0x7f0f009a
+    sget v2, Lcom/res/provider/ResSTRING;->alert_dialog_img_edit_back_title:I
 
     .line 12
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f0f034c
+    sget v3, Lcom/res/provider/ResSTRING;->exit:I
 
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3359,7 +3359,7 @@
 
     invoke-direct {v4, v1}, Lcom/commsource/easyeditor/x;-><init>(Ljava/lang/Runnable;)V
 
-    const v1, 0x7f0f0212
+    sget v1, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 13
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -3392,7 +3392,7 @@
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c002c
+    sget p1, Lcom/res/provider/ResLAYOUT;->activity_easy_editor:I
 
     .line 2
     invoke-static {p0, p1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;

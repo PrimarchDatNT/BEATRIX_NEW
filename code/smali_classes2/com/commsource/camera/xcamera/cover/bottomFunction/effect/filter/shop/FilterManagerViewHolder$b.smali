@@ -221,12 +221,12 @@
 
     if-ne v1, v2, :cond_1
 
-    const v1, 0x7f08032a
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_filter_manager_icon_collected:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f080329
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_filter_manager_icon:I
 
     :goto_1
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V

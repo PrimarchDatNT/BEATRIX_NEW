@@ -519,7 +519,7 @@
 
     iput-object p1, p0, Lcom/commsource/studio/PictureSelectView;->S:Lkotlin/w;
 
-    const p1, 0x7f0f02d5
+    sget p1, Lcom/res/provider/ResSTRING;->dialog_confirm:I
 
     .line 19
     invoke-static {p1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;

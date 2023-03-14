@@ -114,7 +114,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c015d
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_layer_manage_group_container:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/studio/gesture/a;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -438,9 +438,9 @@
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/gesture/a;->F(Z)V
 
-    const v1, 0x7f060008
+    sget v1, Lcom/res/provider/ResCOLOR;->Gray_C:I
 
-    const v2, 0x7f060007
+    sget v2, Lcom/res/provider/ResCOLOR;->Gray_Background:I
 
     if-eqz p1, :cond_0
 
@@ -511,7 +511,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/mg;->f:Lcom/commsource/widget/AutoFitTextView;
 
-    const v1, 0x7f060006
+    sget v1, Lcom/res/provider/ResCOLOR;->Gray_B:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 
@@ -777,7 +777,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/mg;->c:Lcom/commsource/widget/IconFrontView;
 
-    const p2, 0x7f0f04c1
+    sget p2, Lcom/res/provider/ResSTRING;->if_edit_sort:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 

@@ -250,7 +250,7 @@
 
     const/4 v12, 0x0
 
-    const v3, 0x7f060225
+    sget v3, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v11, v3}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -285,7 +285,7 @@
 
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/k5;->d:Lcom/commsource/widget/PressTextView;
 
-    const v5, 0x7f06013a
+    sget v5, Lcom/res/provider/ResCOLOR;->color_fb5986:I
 
     invoke-static {v3, v5}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

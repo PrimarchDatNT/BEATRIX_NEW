@@ -1630,7 +1630,7 @@
     goto :goto_0
 
     :pswitch_0
-    const p1, 0x7f0f021c
+    sget p1, Lcom/res/provider/ResSTRING;->category_meishi:I
 
     .line 2
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1640,7 +1640,7 @@
     goto :goto_0
 
     :pswitch_1
-    const p1, 0x7f0f0218
+    sget p1, Lcom/res/provider/ResSTRING;->category_dianying:I
 
     .line 3
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1650,7 +1650,7 @@
     goto :goto_0
 
     :pswitch_2
-    const p1, 0x7f0f0219
+    sget p1, Lcom/res/provider/ResSTRING;->category_jiaopian:I
 
     .line 4
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1660,7 +1660,7 @@
     goto :goto_0
 
     :pswitch_3
-    const p1, 0x7f0f021d
+    sget p1, Lcom/res/provider/ResSTRING;->category_rixi:I
 
     .line 5
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1670,7 +1670,7 @@
     goto :goto_0
 
     :pswitch_4
-    const p1, 0x7f0f021b
+    sget p1, Lcom/res/provider/ResSTRING;->category_jindian:I
 
     .line 6
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1680,7 +1680,7 @@
     goto :goto_0
 
     :pswitch_5
-    const p1, 0x7f0f021e
+    sget p1, Lcom/res/provider/ResSTRING;->category_ziran:I
 
     .line 7
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1690,7 +1690,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0f036a
+    sget p1, Lcom/res/provider/ResSTRING;->favorites:I
 
     .line 8
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1700,7 +1700,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0f03ac
+    sget p1, Lcom/res/provider/ResSTRING;->filter_recommend:I
 
     .line 9
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1710,7 +1710,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f0f021a
+    sget p1, Lcom/res/provider/ResSTRING;->category_jiari:I
 
     .line 10
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1720,7 +1720,7 @@
     goto :goto_0
 
     :cond_3
-    const p1, 0x7f0f03b3
+    sget p1, Lcom/res/provider/ResSTRING;->filter_shop_premium:I
 
     .line 11
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1730,7 +1730,7 @@
     goto :goto_0
 
     :cond_4
-    const p1, 0x7f0f0934
+    sget p1, Lcom/res/provider/ResSTRING;->t_all:I
 
     .line 12
     invoke-static {p1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;

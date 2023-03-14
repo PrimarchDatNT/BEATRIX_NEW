@@ -312,7 +312,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w4;->b:Lcom/commsource/widget/IconFrontView;
 
-    const v1, 0x7f0f0841
+    sget v1, Lcom/res/provider/ResSTRING;->selfie_top_icon_back:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 

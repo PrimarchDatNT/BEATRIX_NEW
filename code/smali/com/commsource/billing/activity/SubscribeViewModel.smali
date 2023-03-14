@@ -4080,7 +4080,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f08fe
+    sget v3, Lcom/res/provider/ResSTRING;->sub_day:I
 
     invoke-virtual {v2, v3}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 
@@ -4175,13 +4175,13 @@
 
     new-instance v2, Lcom/commsource/billing/bean/subsconfig/ContentConfig;
 
-    const v3, 0x7f0f08fa
+    sget v3, Lcom/res/provider/ResSTRING;->sub_access_content:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v5, 0x7f0803cc
+    sget v5, Lcom/res/provider/ResDRAWABLE;->vip_icon_celestial:I
 
     const/4 v6, 0x0
 
@@ -4200,7 +4200,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0803cd
+    sget v5, Lcom/res/provider/ResDRAWABLE;->vip_icon_element:I
 
     invoke-direct {v2, v6, v4, v7, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4215,7 +4215,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0803cf
+    sget v5, Lcom/res/provider/ResDRAWABLE;->vip_icon_firm:I
 
     invoke-direct {v2, v6, v4, v7, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4230,7 +4230,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0803d1
+    sget v5, Lcom/res/provider/ResDRAWABLE;->vip_icon_primary:I
 
     invoke-direct {v2, v6, v4, v7, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4245,7 +4245,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0803ca
+    sget v5, Lcom/res/provider/ResDRAWABLE;->vip_icon_aquarelle:I
 
     invoke-direct {v2, v6, v4, v7, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4260,7 +4260,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0803d5
+    sget v5, Lcom/res/provider/ResDRAWABLE;->vip_icon_rouge:I
 
     invoke-direct {v2, v6, v4, v7, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4275,7 +4275,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0803ce
+    sget v5, Lcom/res/provider/ResDRAWABLE;->vip_icon_film_leak:I
 
     invoke-direct {v2, v6, v4, v7, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4290,7 +4290,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0803d2
+    sget v5, Lcom/res/provider/ResDRAWABLE;->vip_icon_pulse:I
 
     invoke-direct {v2, v6, v4, v7, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4305,7 +4305,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0803d0
+    sget v5, Lcom/res/provider/ResDRAWABLE;->vip_icon_lens:I
 
     invoke-direct {v2, v6, v4, v7, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4320,7 +4320,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0803cb
+    sget v5, Lcom/res/provider/ResDRAWABLE;->vip_icon_canvas:I
 
     invoke-direct {v2, v6, v4, v7, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4335,7 +4335,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0803d4
+    sget v5, Lcom/res/provider/ResDRAWABLE;->vip_icon_retro:I
 
     invoke-direct {v2, v6, v4, v7, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4350,7 +4350,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0803d3
+    sget v4, Lcom/res/provider/ResDRAWABLE;->vip_icon_relight:I
 
     invoke-direct {v2, v6, v3, v7, v4}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4400,31 +4400,31 @@
 
     move-result v2
 
-    const v5, 0x7f0f01ff
+    sget v5, Lcom/res/provider/ResSTRING;->camera_look:I
 
-    const v6, 0x7f0f00dc
+    sget v6, Lcom/res/provider/ResSTRING;->ar_panel_title:I
 
-    const v9, 0x7f0f0991
+    sget v9, Lcom/res/provider/ResSTRING;->t_eyeMakeup:I
 
-    const v10, 0x7f0f09c4
+    sget v10, Lcom/res/provider/ResSTRING;->t_highlight:I
 
-    const v11, 0x7f0f05b5
+    sget v11, Lcom/res/provider/ResSTRING;->make_up_part_feature_lip:I
 
-    const v12, 0x7f0f0986
+    sget v12, Lcom/res/provider/ResSTRING;->t_edit_teethcorrection_upper:I
 
-    const v13, 0x7f0f0160
+    sget v13, Lcom/res/provider/ResSTRING;->beauty_main_elimination:I
 
-    const v14, 0x7f0f0172
+    sget v14, Lcom/res/provider/ResSTRING;->beauty_main_remove_wrinkle:I
 
-    const v15, 0x7f0f038e
+    sget v15, Lcom/res/provider/ResSTRING;->filter:I
 
-    const v16, 0x7f0f096b
+    sget v16, Lcom/res/provider/ResSTRING;->t_edit_concealer:I
 
-    const v17, 0x7f0f0930
+    sget v17, Lcom/res/provider/ResSTRING;->t_ai_beauty_upper:I
 
-    const v18, 0x7f0f0170
+    sget v18, Lcom/res/provider/ResSTRING;->beauty_main_remold:I
 
-    const v19, 0x7f0f0a29
+    sget v19, Lcom/res/provider/ResSTRING;->t_reshape_upper:I
 
     const-string v1, "#FFFFFF"
 
@@ -4464,7 +4464,7 @@
 
     move-result-object v3
 
-    const v8, 0x7f08020d
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_body_tunner:I
 
     invoke-direct {v4, v7, v3, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4479,7 +4479,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f080210
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_filter:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4494,7 +4494,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f080219
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_reshape:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4509,7 +4509,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f080213
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_hd_retouch:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4524,7 +4524,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f080214
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_lipstick:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4539,7 +4539,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f080216
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_makeup:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4554,7 +4554,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f08020e
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_concealer:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4569,7 +4569,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f080218
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_remover:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4584,7 +4584,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f08021b
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_teethcorrect:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4599,7 +4599,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f080211
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_firm:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4614,7 +4614,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f080215
+    sget v5, Lcom/res/provider/ResDRAWABLE;->img_look:I
 
     invoke-direct {v3, v7, v4, v1, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4629,7 +4629,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0801fa
+    sget v5, Lcom/res/provider/ResDRAWABLE;->img_3d_highlight:I
 
     invoke-direct {v3, v7, v4, v1, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4644,7 +4644,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0801fb
+    sget v5, Lcom/res/provider/ResDRAWABLE;->img_ar:I
 
     invoke-direct {v3, v7, v4, v1, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4655,13 +4655,13 @@
 
     new-instance v3, Lcom/commsource/billing/bean/subsconfig/ContentConfig;
 
-    const v4, 0x7f0f0089
+    sget v4, Lcom/res/provider/ResSTRING;->ai_enhancement:I
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v5, 0x7f08020f
+    sget v5, Lcom/res/provider/ResDRAWABLE;->img_enhance:I
 
     invoke-direct {v3, v7, v4, v1, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4672,13 +4672,13 @@
 
     new-instance v3, Lcom/commsource/billing/bean/subsconfig/ContentConfig;
 
-    const v4, 0x7f0f0428
+    sget v4, Lcom/res/provider/ResSTRING;->hair_dye:I
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v5, 0x7f080212
+    sget v5, Lcom/res/provider/ResDRAWABLE;->img_hair_dye:I
 
     invoke-direct {v3, v7, v4, v1, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4689,13 +4689,13 @@
 
     new-instance v3, Lcom/commsource/billing/bean/subsconfig/ContentConfig;
 
-    const v4, 0x7f0f0a6c
+    sget v4, Lcom/res/provider/ResSTRING;->t_text:I
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v5, 0x7f08021c
+    sget v5, Lcom/res/provider/ResDRAWABLE;->img_text:I
 
     invoke-direct {v3, v7, v4, v1, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4706,13 +4706,13 @@
 
     new-instance v3, Lcom/commsource/billing/bean/subsconfig/ContentConfig;
 
-    const v4, 0x7f0f017e
+    sget v4, Lcom/res/provider/ResSTRING;->beauty_main_stickers:I
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v5, 0x7f08021a
+    sget v5, Lcom/res/provider/ResDRAWABLE;->img_sticker:I
 
     invoke-direct {v3, v7, v4, v1, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4731,7 +4731,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f0801fe
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_asia_body_tunner:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4746,7 +4746,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f080209
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_asia_reshape:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4761,7 +4761,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f080204
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_asia_hd_retouch:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4776,7 +4776,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f0801ff
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_asia_concealer:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4791,7 +4791,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f080201
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_asia_filter:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4806,7 +4806,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f080202
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_asia_firm:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4821,7 +4821,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f080208
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_asia_remover:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4836,7 +4836,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f08020b
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_asia_teethcorrect:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4851,7 +4851,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f080205
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_asia_lipstick:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4866,7 +4866,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f0801fc
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_asia_3d_highlight:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4881,7 +4881,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f080207
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_asia_makeup:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4892,13 +4892,13 @@
 
     new-instance v3, Lcom/commsource/billing/bean/subsconfig/ContentConfig;
 
-    const v4, 0x7f0f0089
+    sget v4, Lcom/res/provider/ResSTRING;->ai_enhancement:I
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v8, 0x7f080200
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_asia_enhance:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4909,13 +4909,13 @@
 
     new-instance v3, Lcom/commsource/billing/bean/subsconfig/ContentConfig;
 
-    const v4, 0x7f0f017e
+    sget v4, Lcom/res/provider/ResSTRING;->beauty_main_stickers:I
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v8, 0x7f08020a
+    sget v8, Lcom/res/provider/ResDRAWABLE;->img_asia_sticker:I
 
     invoke-direct {v3, v7, v4, v1, v8}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4930,7 +4930,7 @@
 
     move-result-object v4
 
-    const v6, 0x7f0801fd
+    sget v6, Lcom/res/provider/ResDRAWABLE;->img_asia_ar:I
 
     invoke-direct {v3, v7, v4, v1, v6}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4945,7 +4945,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f080206
+    sget v5, Lcom/res/provider/ResDRAWABLE;->img_asia_look:I
 
     invoke-direct {v3, v7, v4, v1, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4956,13 +4956,13 @@
 
     new-instance v3, Lcom/commsource/billing/bean/subsconfig/ContentConfig;
 
-    const v4, 0x7f0f0a6c
+    sget v4, Lcom/res/provider/ResSTRING;->t_text:I
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v5, 0x7f08020c
+    sget v5, Lcom/res/provider/ResDRAWABLE;->img_asia_text:I
 
     invoke-direct {v3, v7, v4, v1, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -4973,13 +4973,13 @@
 
     new-instance v3, Lcom/commsource/billing/bean/subsconfig/ContentConfig;
 
-    const v4, 0x7f0f0428
+    sget v4, Lcom/res/provider/ResSTRING;->hair_dye:I
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v5, 0x7f080203
+    sget v5, Lcom/res/provider/ResDRAWABLE;->img_asia_hair_dye:I
 
     invoke-direct {v3, v7, v4, v1, v5}, Lcom/commsource/billing/bean/subsconfig/ContentConfig;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -5198,7 +5198,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f0759
+    sget v3, Lcom/res/provider/ResSTRING;->purchase_restore_failed:I
 
     invoke-virtual {v2, v3}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 
@@ -5316,7 +5316,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f0a0f
+    sget v3, Lcom/res/provider/ResSTRING;->t_per_month:I
 
     invoke-virtual {v2, v3}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 
@@ -5629,7 +5629,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0901
+    sget v2, Lcom/res/provider/ResSTRING;->sub_failed_to_purchase:I
 
     invoke-virtual {v1, v2}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 
@@ -6575,7 +6575,7 @@
 
     if-ne v1, v2, :cond_0
 
-    const v1, 0x7f0f0990
+    sget v1, Lcom/res/provider/ResSTRING;->t_explore_again:I
 
     .line 2
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -6587,7 +6587,7 @@
     return-object v1
 
     :cond_0
-    const v1, 0x7f0f08fb
+    sget v1, Lcom/res/provider/ResSTRING;->sub_access_features:I
 
     .line 3
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

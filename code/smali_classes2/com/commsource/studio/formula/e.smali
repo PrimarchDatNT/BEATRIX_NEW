@@ -95,7 +95,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c0181
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_shop_formula:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -325,7 +325,7 @@
     .line 16
     new-instance p3, Landroid/graphics/drawable/ColorDrawable;
 
-    const v1, 0x7f06000c
+    sget v1, Lcom/res/provider/ResCOLOR;->Gray_PlaceHolder:I
 
     invoke-static {v1}, Lcom/commsource/util/l0;->P(I)I
 

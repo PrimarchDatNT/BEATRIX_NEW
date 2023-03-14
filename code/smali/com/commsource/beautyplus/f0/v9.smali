@@ -54,28 +54,28 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/v9;->Q:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0901f9
+    sget v2, Lcom/res/provider/ResID;->fl_bottom:I
 
     const/4 v3, 0x7
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09057b
+    sget v2, Lcom/res/provider/ResID;->sb_shade:I
 
     const/16 v3, 0x8
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090578
+    sget v2, Lcom/res/provider/ResID;->sb_intensity:I
 
     const/16 v3, 0x9
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090566
+    sget v2, Lcom/res/provider/ResID;->rv_skin_color:I
 
     const/16 v3, 0xa
 
@@ -370,7 +370,7 @@
 
     const/4 v9, 0x0
 
-    const v0, 0x7f06000b
+    sget v0, Lcom/res/provider/ResCOLOR;->Gray_E:I
 
     invoke-static {v8, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -407,7 +407,7 @@
     .line 15
     iget-object v8, v1, Lcom/commsource/beautyplus/f0/v9;->M:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v8, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

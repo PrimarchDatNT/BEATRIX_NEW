@@ -651,7 +651,7 @@
 
     iget-boolean v2, p0, Lcom/commsource/studio/shader/m;->m:Z
 
-    const v2, 0x7f080140
+    sget v2, Lcom/res/provider/ResDRAWABLE;->cover:I
 
     invoke-static {v1, v2}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

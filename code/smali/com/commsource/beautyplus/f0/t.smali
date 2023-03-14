@@ -44,112 +44,112 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/t;->V:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090607
+    sget v2, Lcom/res/provider/ResID;->switchVideo:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090603
+    sget v2, Lcom/res/provider/ResID;->switchPicture:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090606
+    sget v2, Lcom/res/provider/ResID;->switchTitle:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901ca
+    sget v2, Lcom/res/provider/ResID;->et_title:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090605
+    sget v2, Lcom/res/provider/ResID;->switchSubtitle:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901c9
+    sget v2, Lcom/res/provider/ResID;->et_subtitle:I
 
     const/4 v3, 0x6
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090602
+    sget v2, Lcom/res/provider/ResID;->switchContent:I
 
     const/4 v3, 0x7
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901c7
+    sget v2, Lcom/res/provider/ResID;->et_content:I
 
     const/16 v3, 0x8
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090600
+    sget v2, Lcom/res/provider/ResID;->switchCancel:I
 
     const/16 v3, 0x9
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901c6
+    sget v2, Lcom/res/provider/ResID;->et_cancel:I
 
     const/16 v3, 0xa
 
     .line 12
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090601
+    sget v2, Lcom/res/provider/ResID;->switchConfirm:I
 
     const/16 v3, 0xb
 
     .line 13
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901c3
+    sget v2, Lcom/res/provider/ResID;->etConfirm:I
 
     const/16 v3, 0xc
 
     .line 14
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090604
+    sget v2, Lcom/res/provider/ResID;->switchPro:I
 
     const/16 v3, 0xd
 
     .line 15
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901c4
+    sget v2, Lcom/res/provider/ResID;->etPro:I
 
     const/16 v3, 0xe
 
     .line 16
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09080b
+    sget v2, Lcom/res/provider/ResID;->xsbg:I
 
     const/16 v3, 0xf
 
     .line 17
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09067b
+    sget v2, Lcom/res/provider/ResID;->tvShow:I
 
     const/16 v3, 0x10
 

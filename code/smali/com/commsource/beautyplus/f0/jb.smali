@@ -54,56 +54,56 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/jb;->X:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0905ee
+    sget v2, Lcom/res/provider/ResID;->stretchView:I
 
     const/16 v3, 0xa
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902c2
+    sget v2, Lcom/res/provider/ResID;->imageTranslate:I
 
     const/16 v3, 0xb
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090519
+    sget v2, Lcom/res/provider/ResID;->rl_manual:I
 
     const/16 v3, 0xc
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090808
+    sget v2, Lcom/res/provider/ResID;->xsb_manual:I
 
     const/16 v3, 0xd
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904f7
+    sget v2, Lcom/res/provider/ResID;->rl_auto:I
 
     const/16 v3, 0xe
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090805
+    sget v2, Lcom/res/provider/ResID;->xsb_auto:I
 
     const/16 v3, 0xf
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09054a
+    sget v2, Lcom/res/provider/ResID;->rv_auto:I
 
     const/16 v3, 0x10
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09052e
+    sget v2, Lcom/res/provider/ResID;->rl_top:I
 
     const/16 v3, 0x11
 
@@ -461,7 +461,7 @@
 
     const/4 v5, 0x0
 
-    const v3, 0x7f060225
+    sget v3, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v4, v3}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

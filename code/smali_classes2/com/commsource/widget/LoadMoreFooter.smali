@@ -22,7 +22,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0c01e8
+    sget p2, Lcom/res/provider/ResLAYOUT;->refresh_footer:I
 
     const/4 p3, 0x0
 

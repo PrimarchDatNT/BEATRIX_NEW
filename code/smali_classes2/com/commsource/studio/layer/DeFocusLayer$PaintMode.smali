@@ -93,9 +93,9 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x7f0f0127
+    sget v5, Lcom/res/provider/ResSTRING;->beauty_defocus_effects:I
 
-    const v6, 0x7f0f047d
+    sget v6, Lcom/res/provider/ResSTRING;->if_blur:I
 
     .line 1
     invoke-direct {v2, v3, v4, v5, v6}, Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;-><init>(Ljava/lang/String;III)V
@@ -110,9 +110,9 @@
 
     const/4 v4, 0x1
 
-    const v5, 0x7f0f00ff
+    sget v5, Lcom/res/provider/ResSTRING;->auto_select:I
 
-    const v6, 0x7f0f0313
+    sget v6, Lcom/res/provider/ResSTRING;->edit_icon_select_auto:I
 
     .line 2
     invoke-direct {v2, v3, v4, v5, v6}, Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;-><init>(Ljava/lang/String;III)V
@@ -127,9 +127,9 @@
 
     const/4 v4, 0x2
 
-    const v5, 0x7f0f012d
+    sget v5, Lcom/res/provider/ResSTRING;->beauty_defocus_select_zone:I
 
-    const v6, 0x7f0f030a
+    sget v6, Lcom/res/provider/ResSTRING;->edit_icon_cutout_paint:I
 
     .line 3
     invoke-direct {v2, v3, v4, v5, v6}, Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;-><init>(Ljava/lang/String;III)V
@@ -144,9 +144,9 @@
 
     const/4 v4, 0x3
 
-    const v5, 0x7f0f098d
+    sget v5, Lcom/res/provider/ResSTRING;->t_erase_district:I
 
-    const v6, 0x7f0f0309
+    sget v6, Lcom/res/provider/ResSTRING;->edit_icon_cutout_eraser:I
 
     .line 4
     invoke-direct {v2, v3, v4, v5, v6}, Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;-><init>(Ljava/lang/String;III)V

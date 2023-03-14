@@ -128,7 +128,7 @@
 
     if-nez v1, :cond_0
 
-    const p1, 0x7f0f09f2
+    sget p1, Lcom/res/provider/ResSTRING;->t_layers_limited:I
 
     .line 2
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V

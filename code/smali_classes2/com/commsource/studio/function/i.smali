@@ -87,7 +87,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c0169
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_mosaic_layout:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -117,7 +117,7 @@
 
     check-cast p1, Lcom/bumptech/glide/request/g;
 
-    const p2, 0x7f0802ab
+    sget p2, Lcom/res/provider/ResDRAWABLE;->placeholder_mosaic:I
 
     .line 3
     invoke-virtual {p1, p2}, Lcom/bumptech/glide/request/a;->w0(I)Lcom/bumptech/glide/request/a;

@@ -34,7 +34,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f1000d1
+    sget v0, Lcom/res/provider/ResSTYLE;->FullScreenDialogStyle:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
@@ -150,7 +150,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/o6;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f0800e3
+    sget v1, Lcom/res/provider/ResDRAWABLE;->common_checkbox_icon:I
 
     .line 5
     invoke-static {v1}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;
@@ -581,7 +581,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0c00d4
+    sget v1, Lcom/res/provider/ResLAYOUT;->dialog_user_protocol_layout:I
 
     const/4 v2, 0x0
 

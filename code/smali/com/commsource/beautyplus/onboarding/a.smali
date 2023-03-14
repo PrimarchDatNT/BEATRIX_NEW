@@ -246,7 +246,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0c01f4
+    sget v2, Lcom/res/provider/ResLAYOUT;->sub_banner_item_layout:I
 
     const/4 v3, 0x0
 

@@ -359,7 +359,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0003
+    sget v2, Lcom/res/provider/ResRAW;->timing:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/common/n;->e(I)V
 

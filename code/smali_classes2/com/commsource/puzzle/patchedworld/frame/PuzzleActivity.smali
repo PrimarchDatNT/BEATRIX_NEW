@@ -685,7 +685,7 @@
     .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/sharelink/b;->p(Z)V
 
-    const v2, 0x7f0f09db
+    sget v2, Lcom/res/provider/ResSTRING;->t_image_saved:I
 
     .line 4
     invoke-static {v2}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
@@ -1223,14 +1223,14 @@
 
     move-result-object v3
 
-    const v5, 0x7f09024f
+    sget v5, Lcom/res/provider/ResID;->fragment_container:I
 
     .line 4
     const-class v6, Lcom/commsource/puzzle/ImageStitchFragment;
 
-    const v7, 0x7f01000c
+    sget v7, Lcom/res/provider/ResANIM;->alpha_300_in:I
 
-    const v8, 0x7f01000d
+    sget v8, Lcom/res/provider/ResANIM;->alpha_300_out:I
 
     move-object v4, p0
 
@@ -1305,9 +1305,9 @@
     .line 10
     const-class v3, Lcom/commsource/puzzle/ImageStitchFragment;
 
-    const v4, 0x7f01000c
+    sget v4, Lcom/res/provider/ResANIM;->alpha_300_in:I
 
-    const v5, 0x7f01000d
+    sget v5, Lcom/res/provider/ResANIM;->alpha_300_out:I
 
     .line 11
     invoke-virtual {p1, v3, v4, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->b(Ljava/lang/Class;II)V
@@ -1395,7 +1395,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c01e3
+    sget v0, Lcom/res/provider/ResLAYOUT;->puzzle_activity:I
 
     return v0
 .end method
@@ -1861,14 +1861,14 @@
     if-eq v1, v3, :cond_6
 
     :cond_5
-    const v1, 0x7f0f009a
+    sget v1, Lcom/res/provider/ResSTRING;->alert_dialog_img_edit_back_title:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0f06d1
+    sget v2, Lcom/res/provider/ResSTRING;->ok:I
 
     .line 5
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1880,7 +1880,7 @@
 
     invoke-direct {v3, p0}, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$a;-><init>(Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;)V
 
-    const v4, 0x7f0f0212
+    sget v4, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 7
     invoke-virtual {p0, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2002,11 +2002,11 @@
 
     move-result p1
 
-    const v1, 0x7f090303
+    sget v1, Lcom/res/provider/ResID;->iv_back:I
 
     if-eq p1, v1, :cond_3
 
-    const v1, 0x7f09036e
+    sget v1, Lcom/res/provider/ResID;->iv_save:I
 
     if-eq p1, v1, :cond_0
 

@@ -38,7 +38,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0c0127
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_abtest_group:I
 
     .line 1
     invoke-direct {p0, p1, v0, p2}, Lf/k/c/b/d;-><init>(Landroid/content/Context;ILjava/util/List;)V

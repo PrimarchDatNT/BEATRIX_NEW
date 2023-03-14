@@ -81,9 +81,9 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x7f0f0479
+    sget v5, Lcom/res/provider/ResSTRING;->if_ar_panel_icon:I
 
-    const v6, 0x7f0f0a33
+    sget v6, Lcom/res/provider/ResSTRING;->t_selfie_switch_bar_ar:I
 
     .line 1
     invoke-direct {v2, v3, v4, v5, v6}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArTabFunction;-><init>(Ljava/lang/String;III)V
@@ -98,9 +98,9 @@
 
     const/4 v4, 0x1
 
-    const v5, 0x7f0f04f6
+    sget v5, Lcom/res/provider/ResSTRING;->if_ipar_panel_icon:I
 
-    const v6, 0x7f0f0566
+    sget v6, Lcom/res/provider/ResSTRING;->ipar_panel_title:I
 
     .line 2
     invoke-direct {v2, v3, v4, v5, v6}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArTabFunction;-><init>(Ljava/lang/String;III)V

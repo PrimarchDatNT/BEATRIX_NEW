@@ -119,9 +119,9 @@
     .line 4
     new-instance v1, Lcom/commsource/studio/i0;
 
-    const v2, 0x7f08018d
+    sget v2, Lcom/res/provider/ResDRAWABLE;->edit_img_trim_shape_rectangle:I
 
-    const v3, 0x7f0801ef
+    sget v3, Lcom/res/provider/ResDRAWABLE;->ic_rect:I
 
     const/4 v4, 0x0
 
@@ -134,9 +134,9 @@
     .line 5
     new-instance v1, Lcom/commsource/studio/i0;
 
-    const v2, 0x7f08018e
+    sget v2, Lcom/res/provider/ResDRAWABLE;->edit_img_trim_shape_triangle:I
 
-    const v3, 0x7f0801f4
+    sget v3, Lcom/res/provider/ResDRAWABLE;->ic_triangle:I
 
     const-string v4, "3.1:2.68"
 
@@ -149,9 +149,9 @@
     .line 6
     new-instance v1, Lcom/commsource/studio/i0;
 
-    const v2, 0x7f08018b
+    sget v2, Lcom/res/provider/ResDRAWABLE;->edit_img_trim_shape_heart:I
 
-    const v3, 0x7f0801e5
+    sget v3, Lcom/res/provider/ResDRAWABLE;->ic_heart:I
 
     const-string v4, "2.89:2.7"
 
@@ -164,9 +164,9 @@
     .line 7
     new-instance v1, Lcom/commsource/studio/i0;
 
-    const v2, 0x7f08018c
+    sget v2, Lcom/res/provider/ResDRAWABLE;->edit_img_trim_shape_oval:I
 
-    const v3, 0x7f0801ee
+    sget v3, Lcom/res/provider/ResDRAWABLE;->ic_oval:I
 
     const-string v4, "1:1"
 

@@ -44,42 +44,42 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/zi;->L:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090276
+    sget v2, Lcom/res/provider/ResID;->group_image:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090803
+    sget v2, Lcom/res/provider/ResID;->xdb:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090291
+    sget v2, Lcom/res/provider/ResID;->hotArea:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906e4
+    sget v2, Lcom/res/provider/ResID;->tv_group_name:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09049a
+    sget v2, Lcom/res/provider/ResID;->premiumIcon:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902ee
+    sget v2, Lcom/res/provider/ResID;->ivColorRing:I
 
     const/4 v3, 0x6
 

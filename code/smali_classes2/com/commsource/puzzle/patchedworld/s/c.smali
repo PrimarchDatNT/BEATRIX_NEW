@@ -285,7 +285,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0c018d
+    sget v1, Lcom/res/provider/ResLAYOUT;->item_studio_background_crop_select:I
 
     const/4 v2, 0x0
 

@@ -462,7 +462,7 @@
 
     sput-object v1, Lcom/commsource/studio/text/TextGroupParam;->Companion:Lcom/commsource/studio/text/TextGroupParam$a;
 
-    const v1, 0x7f0f098c
+    sget v1, Lcom/res/provider/ResSTRING;->t_enter_characters:I
 
     .line 1
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

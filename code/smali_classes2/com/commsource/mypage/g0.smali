@@ -312,7 +312,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0f06ca
+    sget v0, Lcom/res/provider/ResSTRING;->not_supprot_gif:I
 
     .line 2
     invoke-static {v0}, Lf/k/c/c/f;->w(I)V
@@ -1475,14 +1475,14 @@
 
     invoke-virtual {v2}, Lcom/commsource/mypage/album/BpAlbumViewModel;->T()V
 
-    const v2, 0x7f0f02ce
+    sget v2, Lcom/res/provider/ResSTRING;->delete_photo:I
 
     .line 5
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f0f02d5
+    sget v3, Lcom/res/provider/ResSTRING;->dialog_confirm:I
 
     invoke-virtual {p0, v3}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -1492,7 +1492,7 @@
 
     invoke-direct {v4, p0, v1}, Lcom/commsource/mypage/i;-><init>(Lcom/commsource/mypage/g0;Ljava/util/List;)V
 
-    const v1, 0x7f0f0212
+    sget v1, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -1657,7 +1657,7 @@
     .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
-    const v2, 0x7f010017
+    sget v2, Lcom/res/provider/ResANIM;->beauty_one_key_start_anim:I
 
     invoke-static {v1, v2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -1674,7 +1674,7 @@
     .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
-    const v2, 0x7f010015
+    sget v2, Lcom/res/provider/ResANIM;->beauty_one_key_start2_anim:I
 
     invoke-static {v1, v2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -1691,7 +1691,7 @@
     .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
-    const v2, 0x7f010016
+    sget v2, Lcom/res/provider/ResANIM;->beauty_one_key_start3_anim:I
 
     invoke-static {v1, v2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -2193,7 +2193,7 @@
 
     :cond_3
     :goto_0
-    const p1, 0x7f0f070a
+    sget p1, Lcom/res/provider/ResSTRING;->pic_to_small:I
 
     .line 7
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
@@ -2481,7 +2481,7 @@
 
     if-eqz v1, :cond_0
 
-    const v2, 0x7f09035e
+    sget v2, Lcom/res/provider/ResID;->iv_photo:I
 
     .line 2
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2778,7 +2778,7 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v0, 0x7f0c00e0
+    sget v0, Lcom/res/provider/ResLAYOUT;->fragment_big_photo:I
 
     const/4 v1, 0x0
 

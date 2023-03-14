@@ -191,7 +191,7 @@
 
     const/4 v4, 0x1
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v3, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -201,7 +201,7 @@
 
     iget-object v7, v1, Lcom/commsource/beautyplus/f0/aj;->a:Landroid/widget/FrameLayout;
 
-    const v13, 0x7f06006a
+    sget v13, Lcom/res/provider/ResCOLOR;->color_33000000:I
 
     invoke-static {v7, v13}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

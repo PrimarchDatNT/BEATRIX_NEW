@@ -371,12 +371,12 @@
 
     if-eqz p1, :cond_0
 
-    const v2, 0x7f080322
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_camera_delete_video_icon_white:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f080321
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_camera_delete_video_icon:I
 
     :goto_0
     invoke-virtual {v1, v2}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
@@ -397,12 +397,12 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f080367
+    sget p1, Lcom/res/provider/ResDRAWABLE;->selfie_video_finish_full_icon:I
 
     goto :goto_1
 
     :cond_2
-    const p1, 0x7f080368
+    sget p1, Lcom/res/provider/ResDRAWABLE;->selfie_video_finish_icon:I
 
     :goto_1
     invoke-virtual {v1, p1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
@@ -2012,7 +2012,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c008f
+    sget v0, Lcom/res/provider/ResLAYOUT;->cover_camera_video_capture:I
 
     return v0
 .end method

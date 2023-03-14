@@ -193,19 +193,19 @@
 
     const-string v3, "ResourcesUtils.getString(R.string.t_continue_edit)"
 
-    const v4, 0x7f0f094d
+    sget v4, Lcom/res/provider/ResSTRING;->t_continue_edit:I
 
     const-string v5, "BEAUTY_EDITOR"
 
     const-string v6, "ResourcesUtils.getString(R.string.puzzle)"
 
-    const v7, 0x7f0f0765
+    sget v7, Lcom/res/provider/ResSTRING;->puzzle:I
 
-    const v8, 0x7f0f0328
+    sget v8, Lcom/res/provider/ResSTRING;->edit_share_icon_new:I
 
     const-string v9, "PUZZLE_IMAGE"
 
-    const v10, 0x7f0f0327
+    sget v10, Lcom/res/provider/ResSTRING;->edit_share_icon_collage:I
 
     if-eqz v2, :cond_0
 
@@ -248,9 +248,9 @@
     .line 6
     new-instance v2, Lcom/commsource/sharelink/d;
 
-    const v3, 0x7f0f0326
+    sget v3, Lcom/res/provider/ResSTRING;->edit_share_icon_camera:I
 
-    const v4, 0x7f0f094e
+    sget v4, Lcom/res/provider/ResSTRING;->t_continue_snap:I
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -292,7 +292,7 @@
     .line 9
     new-instance v2, Lcom/commsource/sharelink/d;
 
-    const v3, 0x7f0f094c
+    sget v3, Lcom/res/provider/ResSTRING;->t_continue_collage:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -309,7 +309,7 @@
     .line 10
     new-instance v2, Lcom/commsource/sharelink/d;
 
-    const v3, 0x7f0f045c
+    sget v3, Lcom/res/provider/ResSTRING;->home_new_pic_edit:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -366,9 +366,9 @@
     :goto_0
     new-instance v2, Lcom/commsource/sharelink/d;
 
-    const v3, 0x7f0f0329
+    sget v3, Lcom/res/provider/ResSTRING;->edit_share_icon_share:I
 
-    const v4, 0x7f0f087a
+    sget v4, Lcom/res/provider/ResSTRING;->share:I
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

@@ -193,7 +193,7 @@
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v2, 0x7f0f080e
+    sget v2, Lcom/res/provider/ResSTRING;->search_online_filter:I
 
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -336,7 +336,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f100254
+    sget v0, Lcom/res/provider/ResSTYLE;->guideDialogAnimations:I
 
     return v0
 .end method
@@ -351,7 +351,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f100253
+    sget v0, Lcom/res/provider/ResSTYLE;->guideDialog:I
 
     return v0
 .end method
@@ -366,7 +366,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c00bf
+    sget v0, Lcom/res/provider/ResLAYOUT;->dialog_filter_shop:I
 
     return v0
 .end method

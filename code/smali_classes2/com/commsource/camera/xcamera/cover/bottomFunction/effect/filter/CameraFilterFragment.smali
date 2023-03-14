@@ -2008,7 +2008,7 @@
 
     check-cast v3, Lcom/commsource/widget/IconFrontView;
 
-    const v5, 0x7f0f0486
+    sget v5, Lcom/res/provider/ResSTRING;->if_camera_filter_highlight:I
 
     invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(I)V
 
@@ -2021,7 +2021,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v5, 0x7f0f0793
+    sget v5, Lcom/res/provider/ResSTRING;->remove_filter:I
 
     invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(I)V
 
@@ -2037,7 +2037,7 @@
 
     check-cast v3, Lcom/commsource/widget/IconFrontView;
 
-    const v5, 0x7f0f0488
+    sget v5, Lcom/res/provider/ResSTRING;->if_camera_filter_normal:I
 
     invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(I)V
 
@@ -2050,7 +2050,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v5, 0x7f0f025c
+    sget v5, Lcom/res/provider/ResSTRING;->collect_filter:I
 
     invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(I)V
 
@@ -2073,7 +2073,7 @@
 
     move-result-object v5
 
-    const v1, 0x7f0f0056
+    sget v1, Lcom/res/provider/ResSTRING;->add_collect:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -2099,7 +2099,7 @@
 
     move-result-object v11
 
-    const v1, 0x7f0f0217
+    sget v1, Lcom/res/provider/ResSTRING;->cancle_collect:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

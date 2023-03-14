@@ -38,7 +38,7 @@
     .line 3
     iput-boolean v0, p0, Lcom/commsource/widget/IconFrontView;->d:Z
 
-    const v0, 0x7f06007f
+    sget v0, Lcom/res/provider/ResCOLOR;->color_4d000000:I
 
     .line 4
     invoke-static {v0}, Lcom/meitu/library/p/d/b;->d(I)I
@@ -82,7 +82,7 @@
     .line 9
     iput-boolean v1, p0, Lcom/commsource/widget/IconFrontView;->d:Z
 
-    const v2, 0x7f06007f
+    sget v2, Lcom/res/provider/ResCOLOR;->color_4d000000:I
 
     .line 10
     invoke-static {v2}, Lcom/meitu/library/p/d/b;->d(I)I

@@ -249,7 +249,7 @@
 
     move-result p1
 
-    const v2, 0x7f090413
+    sget v2, Lcom/res/provider/ResID;->mIvBack:I
 
     if-ne p1, v2, :cond_0
 
@@ -308,7 +308,7 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v0, 0x7f0c00f0
+    sget v0, Lcom/res/provider/ResLAYOUT;->fragment_help_selfie_confirm:I
 
     const/4 v1, 0x0
 

@@ -82,7 +82,7 @@
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ArSeekComponent$vs$2;->$context:Landroid/content/Context;
 
-    const v3, 0x7f0c01a2
+    sget v3, Lcom/res/provider/ResLAYOUT;->layout_ar_seek_new:I
 
     invoke-direct {v1, v2, v3}, Landroid/view/ViewStub;-><init>(Landroid/content/Context;I)V
 

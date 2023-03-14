@@ -103,7 +103,7 @@
 
     sput-object v1, Lcom/commsource/widget/CircleImageView;->j0:Landroid/graphics/Bitmap$Config;
 
-    const v1, 0x7f060035
+    sget v1, Lcom/res/provider/ResCOLOR;->black10:I
 
     .line 3
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->d(I)I

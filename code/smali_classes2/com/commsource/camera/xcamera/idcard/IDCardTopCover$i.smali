@@ -113,7 +113,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/y3;->b:Lcom/commsource/widget/IconFrontView;
 
-    const v1, 0x7f0f083d
+    sget v1, Lcom/res/provider/ResSTRING;->selfie_setting_icon_time_off:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -141,7 +141,7 @@
 
     move-result-object v1
 
-    const p1, 0x7f0f0202
+    sget p1, Lcom/res/provider/ResSTRING;->camera_popup_setting_timing_normal:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -182,7 +182,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/y3;->b:Lcom/commsource/widget/IconFrontView;
 
-    const v1, 0x7f0f083b
+    sget v1, Lcom/res/provider/ResSTRING;->selfie_setting_icon_time_3s:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -210,7 +210,7 @@
 
     move-result-object v1
 
-    const p1, 0x7f0f0203
+    sget p1, Lcom/res/provider/ResSTRING;->camera_popup_setting_timming_3:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -251,7 +251,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/y3;->b:Lcom/commsource/widget/IconFrontView;
 
-    const v1, 0x7f0f083c
+    sget v1, Lcom/res/provider/ResSTRING;->selfie_setting_icon_time_6s:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -279,7 +279,7 @@
 
     move-result-object v1
 
-    const p1, 0x7f0f0204
+    sget p1, Lcom/res/provider/ResSTRING;->camera_popup_setting_timming_6:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

@@ -44,7 +44,7 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/hj;->f:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0906bf
+    sget v2, Lcom/res/provider/ResID;->tv_creator:I
 
     const/4 v3, 0x1
 

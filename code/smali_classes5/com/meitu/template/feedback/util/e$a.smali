@@ -84,7 +84,7 @@
     .line 6
     iget-object v4, p0, Lcom/meitu/template/feedback/util/e$a;->p:Landroid/content/Context;
 
-    const v5, 0x7f0f073b
+    sget v5, Lcom/res/provider/ResSTRING;->pre_verify_debug:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -112,7 +112,7 @@
 
     iget-object v5, p0, Lcom/meitu/template/feedback/util/e$a;->p:Landroid/content/Context;
 
-    const v6, 0x7f0f0739
+    sget v6, Lcom/res/provider/ResSTRING;->pre_verify:I
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -90,7 +90,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f01bb
+    sget v3, Lcom/res/provider/ResSTRING;->beauty_update_material:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

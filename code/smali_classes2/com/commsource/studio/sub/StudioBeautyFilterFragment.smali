@@ -1046,7 +1046,7 @@
 
     move-result-object v1
 
-    const p1, 0x7f0f0056
+    sget p1, Lcom/res/provider/ResSTRING;->add_collect:I
 
     .line 6
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1072,7 +1072,7 @@
 
     move-result-object v7
 
-    const p1, 0x7f0f0217
+    sget p1, Lcom/res/provider/ResSTRING;->cancle_collect:I
 
     .line 9
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

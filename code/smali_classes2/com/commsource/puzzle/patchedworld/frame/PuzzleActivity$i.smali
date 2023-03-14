@@ -83,21 +83,21 @@
 
     invoke-static {v0}, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;->R0(Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;)V
 
-    const v0, 0x7f0f0ae1
+    sget v0, Lcom/res/provider/ResSTRING;->unable_to_save:I
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v0, 0x7f0f0ae2
+    sget v0, Lcom/res/provider/ResSTRING;->unable_to_save_explain:I
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v0, 0x7f0f0230
+    sget v0, Lcom/res/provider/ResSTRING;->clean_now:I
 
     .line 4
     invoke-static {v0}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
@@ -109,7 +109,7 @@
 
     invoke-direct {v4, p0}, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$i$a;-><init>(Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$i;)V
 
-    const v0, 0x7f0f0ae3
+    sget v0, Lcom/res/provider/ResSTRING;->unable_to_save_later:I
 
     .line 6
     invoke-static {v0}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;

@@ -123,7 +123,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e;->M:Lcom/commsource/aieditor/AiEditorSaveView;
 
-    const v3, 0x7f0802e3
+    sget v3, Lcom/res/provider/ResDRAWABLE;->radius_25_fb5986:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;
 

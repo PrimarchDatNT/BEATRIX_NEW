@@ -1395,7 +1395,7 @@
 
     const-string v1, "ResourcesUtils.getString\u2026ics_selfiesave_save_mode)"
 
-    const v3, 0x7f0f0606
+    sget v3, Lcom/res/provider/ResSTRING;->meitu_statistics_selfiesave_save_mode:I
 
     if-eqz p1, :cond_5
 
@@ -1461,7 +1461,7 @@
 
     invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0f0605
+    sget v1, Lcom/res/provider/ResSTRING;->meitu_statistics_selfiesave_save_fast_capture:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -1485,7 +1485,7 @@
 
     invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0f0607
+    sget v1, Lcom/res/provider/ResSTRING;->meitu_statistics_selfiesave_save_share:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -1509,7 +1509,7 @@
 
     invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0f0609
+    sget v1, Lcom/res/provider/ResSTRING;->meitu_statistics_selfiesave_save_volume:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -1533,7 +1533,7 @@
 
     invoke-static {v3, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0f0608
+    sget v1, Lcom/res/provider/ResSTRING;->meitu_statistics_selfiesave_save_tick:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

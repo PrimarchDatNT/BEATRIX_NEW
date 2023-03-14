@@ -701,7 +701,7 @@
 
     if-lt p1, v0, :cond_5
 
-    const p1, 0x7f0f08c0
+    sget p1, Lcom/res/provider/ResSTRING;->so_miss:I
 
     .line 14
     invoke-static {p1}, Lf/k/c/c/f;->h(I)V
@@ -709,7 +709,7 @@
     goto :goto_0
 
     :cond_5
-    const p1, 0x7f0f08bf
+    sget p1, Lcom/res/provider/ResSTRING;->so_load_fail:I
 
     .line 15
     invoke-static {p1}, Lf/k/c/c/f;->h(I)V

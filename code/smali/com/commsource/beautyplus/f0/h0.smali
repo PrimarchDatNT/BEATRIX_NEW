@@ -60,7 +60,7 @@
 
     new-array v3, v3, [I
 
-    const v5, 0x7f0c0124
+    sget v5, Lcom/res/provider/ResLAYOUT;->help_selfie_guide:I
 
     aput v5, v3, v6
 
@@ -73,161 +73,161 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/h0;->e0:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090100
+    sget v2, Lcom/res/provider/ResID;->cameraLayout_bg:I
 
     const/4 v3, 0x3
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090417
+    sget v2, Lcom/res/provider/ResID;->mMTCameraLayout:I
 
     const/4 v3, 0x4
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09040f
+    sget v2, Lcom/res/provider/ResID;->mFocusView:I
 
     const/4 v3, 0x5
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0905a5
+    sget v2, Lcom/res/provider/ResID;->selfie_anchor_container:I
 
     const/4 v3, 0x6
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900bd
+    sget v2, Lcom/res/provider/ResID;->bottom_layout_view:I
 
     const/4 v3, 0x7
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09006d
+    sget v2, Lcom/res/provider/ResID;->album_container:I
 
     const/16 v3, 0x8
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090072
+    sget v2, Lcom/res/provider/ResID;->album_function:I
 
     const/16 v3, 0x9
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09048f
+    sget v2, Lcom/res/provider/ResID;->pic_count:I
 
     const/16 v3, 0xa
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09062a
+    sget v2, Lcom/res/provider/ResID;->take_photo:I
 
     const/16 v3, 0xb
 
     .line 12
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09062b
+    sget v2, Lcom/res/provider/ResID;->take_photo_style2:I
 
     const/16 v3, 0xc
 
     .line 13
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904b1
+    sget v2, Lcom/res/provider/ResID;->promptView:I
 
     const/16 v3, 0xd
 
     .line 14
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090439
+    sget v2, Lcom/res/provider/ResID;->modelPrompt:I
 
     const/16 v3, 0xe
 
     .line 15
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090738
+    sget v2, Lcom/res/provider/ResID;->tv_shortcut_enter:I
 
     const/16 v3, 0xf
 
     .line 16
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090372
+    sget v2, Lcom/res/provider/ResID;->iv_shortcut_enter:I
 
     const/16 v3, 0x10
 
     .line 17
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090287
+    sget v2, Lcom/res/provider/ResID;->help_selfie_gridview:I
 
     const/16 v3, 0x11
 
     .line 18
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090413
+    sget v2, Lcom/res/provider/ResID;->mIvBack:I
 
     const/16 v3, 0x12
 
     .line 19
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090285
+    sget v2, Lcom/res/provider/ResID;->help_guide_icon:I
 
     const/16 v3, 0x13
 
     .line 20
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0905a7
+    sget v2, Lcom/res/provider/ResID;->selfie_give_other:I
 
     const/16 v3, 0x14
 
     .line 21
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09027c
+    sget v2, Lcom/res/provider/ResID;->guide_bg:I
 
     const/16 v3, 0x15
 
     .line 22
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09027d
+    sget v2, Lcom/res/provider/ResID;->guide_container_hot_area:I
 
     const/16 v3, 0x16
 
     .line 23
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09025e
+    sget v2, Lcom/res/provider/ResID;->give_other__hot_area:I
 
     const/16 v3, 0x17
 
     .line 24
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09025a
+    sget v2, Lcom/res/provider/ResID;->generate_anchor_barrier:I
 
     const/16 v3, 0x18
 
     .line 25
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0905aa
+    sget v2, Lcom/res/provider/ResID;->selfie_result_container:I
 
     const/16 v3, 0x19
 
@@ -610,7 +610,7 @@
 
     const/4 v3, 0x0
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v2, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -620,7 +620,7 @@
 
     iget-object v0, p0, Lcom/commsource/beautyplus/f0/g0;->f:Landroid/widget/FrameLayout;
 
-    const v6, 0x7f0600f4
+    sget v6, Lcom/res/provider/ResCOLOR;->color_cccccc:I
 
     invoke-static {v0, v6}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

@@ -34,7 +34,7 @@
     .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    const p1, 0x7f090379
+    sget p1, Lcom/res/provider/ResID;->iv_thumb:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -45,7 +45,7 @@
 
     iput-object p1, p0, Lcom/commsource/mypage/i0$a;->a:Landroid/widget/ImageView;
 
-    const p1, 0x7f090112
+    sget p1, Lcom/res/provider/ResID;->cb_select:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -56,7 +56,7 @@
 
     iput-object p1, p0, Lcom/commsource/mypage/i0$a;->b:Landroid/widget/CheckBox;
 
-    const p1, 0x7f09031d
+    sget p1, Lcom/res/provider/ResID;->iv_default_select:I
 
     .line 5
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

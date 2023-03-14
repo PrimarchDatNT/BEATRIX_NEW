@@ -822,7 +822,7 @@
     .line 11
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity;->b0:Lcom/commsource/home/a;
 
-    const v2, 0x7f060224
+    sget v2, Lcom/res/provider/ResCOLOR;->transparent:I
 
     if-eqz v1, :cond_4
 
@@ -839,7 +839,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f06003e
+    sget v3, Lcom/res/provider/ResCOLOR;->black80:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -879,7 +879,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f06006e
+    sget v3, Lcom/res/provider/ResCOLOR;->color_33ffffff:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1619,7 +1619,7 @@
     .line 3
     invoke-static {v1}, Lf/d/i/o;->H0(Ljava/lang/String;)V
 
-    const v1, 0x7f0c003b
+    sget v1, Lcom/res/provider/ResLAYOUT;->activity_new_home:I
 
     .line 4
     invoke-static {p0, v1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
@@ -1700,7 +1700,7 @@
 
     move-result-object v1
 
-    const v5, 0x7f0c0046
+    sget v5, Lcom/res/provider/ResLAYOUT;->adsorbent_layout:I
 
     .line 12
     invoke-static {v1, v5, v2, v4}, Landroidx/databinding/DataBindingUtil;->inflate(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroidx/databinding/ViewDataBinding;
@@ -1905,7 +1905,7 @@
     :cond_f
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/q0;->K:Landroid/widget/ImageView;
 
-    const v2, 0x7f080119
+    sget v2, Lcom/res/provider/ResDRAWABLE;->common_logo_beta_circle_icon:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -3355,7 +3355,7 @@
     :cond_2
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/q0;->T:Lcom/commsource/widget/PressAutoFitTextView;
 
-    const v2, 0x7f0f045c
+    sget v2, Lcom/res/provider/ResSTRING;->home_new_pic_edit:I
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -3369,7 +3369,7 @@
     :cond_3
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/q0;->U:Lcom/commsource/widget/PressAutoFitTextView;
 
-    const v1, 0x7f0f0613
+    sget v1, Lcom/res/provider/ResSTRING;->mini_app:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -3381,14 +3381,14 @@
     .line 10
     iget-object v1, p1, Lcom/commsource/beautyplus/f0/y0;->K:Lcom/commsource/widget/BoldTextView;
 
-    const v2, 0x7f0f08f9
+    sget v2, Lcom/res/provider/ResSTRING;->sub_7_day_try:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
     .line 11
     iget-object v1, p1, Lcom/commsource/beautyplus/f0/y0;->M:Lcom/commsource/widget/GradientTextView;
 
-    const v2, 0x7f0f0192
+    sget v2, Lcom/res/provider/ResSTRING;->beauty_plus_premium:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 

@@ -80,9 +80,9 @@
 
     const/4 v4, 0x1
 
-    const v6, 0x7f0f015e
+    sget v6, Lcom/res/provider/ResSTRING;->beauty_main_edit_scale_original:I
 
-    const v7, 0x7f0f04d0
+    sget v7, Lcom/res/provider/ResSTRING;->if_ee_crop_origin:I
 
     const-string v8, "\u539f\u59cb"
 
@@ -109,9 +109,9 @@
 
     const/16 v16, 0x2
 
-    const v18, 0x7f0f015d
+    sget v18, Lcom/res/provider/ResSTRING;->beauty_main_edit_scale_free:I
 
-    const v19, 0x7f0f04cf
+    sget v19, Lcom/res/provider/ResSTRING;->if_ee_crop_free:I
 
     const-string v20, "\u81ea\u7531"
 
@@ -136,9 +136,9 @@
 
     const/4 v4, 0x3
 
-    const v6, 0x7f0f015f
+    sget v6, Lcom/res/provider/ResSTRING;->beauty_main_edit_scale_square:I
 
-    const v7, 0x7f0f04c7
+    sget v7, Lcom/res/provider/ResSTRING;->if_ee_crop_1_1:I
 
     const-string v8, "1:1"
 
@@ -159,9 +159,9 @@
 
     const/16 v27, 0x4
 
-    const v29, 0x7f0f015c
+    sget v29, Lcom/res/provider/ResSTRING;->beauty_main_edit_scale_9_16:I
 
-    const v30, 0x7f0f04ce
+    sget v30, Lcom/res/provider/ResSTRING;->if_ee_crop_9_16:I
 
     const-string v31, "9:16"
 
@@ -186,9 +186,9 @@
 
     const/4 v4, 0x5
 
-    const v6, 0x7f0f0156
+    sget v6, Lcom/res/provider/ResSTRING;->beauty_main_edit_scale_16_9:I
 
-    const v7, 0x7f0f04c6
+    sget v7, Lcom/res/provider/ResSTRING;->if_ee_crop_16_9:I
 
     const-string v8, "16:9"
 
@@ -213,9 +213,9 @@
 
     const/16 v27, 0x6
 
-    const v29, 0x7f0f0157
+    sget v29, Lcom/res/provider/ResSTRING;->beauty_main_edit_scale_2_3:I
 
-    const v30, 0x7f0f04c8
+    sget v30, Lcom/res/provider/ResSTRING;->if_ee_crop_2_3:I
 
     const-string v31, "2:3"
 
@@ -240,9 +240,9 @@
 
     const/4 v4, 0x7
 
-    const v6, 0x7f0f0158
+    sget v6, Lcom/res/provider/ResSTRING;->beauty_main_edit_scale_3_2:I
 
-    const v7, 0x7f0f04c9
+    sget v7, Lcom/res/provider/ResSTRING;->if_ee_crop_3_2:I
 
     const-string v8, "3:2"
 
@@ -267,9 +267,9 @@
 
     const/16 v27, 0x8
 
-    const v29, 0x7f0f0159
+    sget v29, Lcom/res/provider/ResSTRING;->beauty_main_edit_scale_3_4:I
 
-    const v30, 0x7f0f04ca
+    sget v30, Lcom/res/provider/ResSTRING;->if_ee_crop_3_4:I
 
     const-string v31, "3:4"
 
@@ -294,9 +294,9 @@
 
     const/16 v4, 0xb
 
-    const v6, 0x7f0f015b
+    sget v6, Lcom/res/provider/ResSTRING;->beauty_main_edit_scale_4_5:I
 
-    const v7, 0x7f0f04cc
+    sget v7, Lcom/res/provider/ResSTRING;->if_ee_crop_4_5:I
 
     const-string v8, "4:5"
 
@@ -321,9 +321,9 @@
 
     const/16 v27, 0x9
 
-    const v29, 0x7f0f015a
+    sget v29, Lcom/res/provider/ResSTRING;->beauty_main_edit_scale_4_3:I
 
-    const v30, 0x7f0f04cb
+    sget v30, Lcom/res/provider/ResSTRING;->if_ee_crop_4_3:I
 
     const-string v31, "4:3"
 
@@ -346,9 +346,9 @@
 
     const/16 v4, 0xa
 
-    const v6, 0x7f0f096d
+    sget v6, Lcom/res/provider/ResSTRING;->t_edit_equal_padding:I
 
-    const v7, 0x7f0f04d0
+    sget v7, Lcom/res/provider/ResSTRING;->if_ee_crop_origin:I
 
     const-string v8, "\u539f\u59cb"
 

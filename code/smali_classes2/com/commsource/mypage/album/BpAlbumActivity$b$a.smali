@@ -242,7 +242,7 @@
 
     :cond_5
     :goto_0
-    const p1, 0x7f0f070a
+    sget p1, Lcom/res/provider/ResSTRING;->pic_to_small:I
 
     .line 12
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V

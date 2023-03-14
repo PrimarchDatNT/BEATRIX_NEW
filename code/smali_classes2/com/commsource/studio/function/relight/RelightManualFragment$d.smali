@@ -121,7 +121,7 @@
 
     if-gtz v2, :cond_0
 
-    const p1, 0x7f0f09d1
+    sget p1, Lcom/res/provider/ResSTRING;->t_highlight_noface_tip:I
 
     .line 2
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V

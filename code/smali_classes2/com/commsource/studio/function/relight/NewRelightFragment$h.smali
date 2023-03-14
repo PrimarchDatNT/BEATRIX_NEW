@@ -340,7 +340,7 @@
 
     if-eqz p1, :cond_8
 
-    const p1, 0x7f0f09cf
+    sget p1, Lcom/res/provider/ResSTRING;->t_highlight_move_position:I
 
     .line 18
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V

@@ -150,7 +150,7 @@
 
     if-eqz v1, :cond_4
 
-    const v2, 0x7f0f02c4
+    sget v2, Lcom/res/provider/ResSTRING;->date_enter:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 

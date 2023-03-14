@@ -1189,14 +1189,14 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0f0759
+    sget p1, Lcom/res/provider/ResSTRING;->purchase_restore_failed:I
 
     .line 2
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
 
-    const v0, 0x7f0f08c3
+    sget v0, Lcom/res/provider/ResSTRING;->solve_now:I
 
     .line 3
     invoke-static {v0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1245,7 +1245,7 @@
 
     const/4 p1, 0x1
 
-    const v1, 0x7f0f02d5
+    sget v1, Lcom/res/provider/ResSTRING;->dialog_confirm:I
 
     if-nez p3, :cond_0
 

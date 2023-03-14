@@ -154,7 +154,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0c0020
+    sget v1, Lcom/res/provider/ResLAYOUT;->activity_ai_editor_process:I
 
     .line 1
     invoke-static {p0, v1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
@@ -542,7 +542,7 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0f07cd
+    sget p1, Lcom/res/provider/ResSTRING;->save_share_save_fail:I
 
     .line 9
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -599,22 +599,22 @@
 
     if-eq v1, v2, :cond_1
 
-    const v1, 0x7f08027f
+    sget v1, Lcom/res/provider/ResDRAWABLE;->miniapp_remove_bg_icon:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f080280
+    sget v1, Lcom/res/provider/ResDRAWABLE;->miniapp_removepeople_icon:I
 
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f08027e
+    sget v1, Lcom/res/provider/ResDRAWABLE;->miniapp_nightphoto_icon:I
 
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f080281
+    sget v1, Lcom/res/provider/ResDRAWABLE;->miniapp_restore_icon:I
 
     .line 4
     :goto_0
@@ -1190,11 +1190,11 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0f0081
+    sget v1, Lcom/res/provider/ResSTRING;->ai_editor_retry:I
 
-    const v2, 0x7f0f006d
+    sget v2, Lcom/res/provider/ResSTRING;->ai_editor_cancel:I
 
-    const v3, 0x7f0f0070
+    sget v3, Lcom/res/provider/ResSTRING;->ai_editor_i_know:I
 
     const/4 v4, 0x1
 
@@ -1216,7 +1216,7 @@
 
     const-string/jumbo p1, "sever_error"
 
-    const v3, 0x7f0f007d
+    sget v3, Lcom/res/provider/ResSTRING;->ai_editor_process_fail:I
 
     .line 5
     new-instance v6, Lcom/commsource/aieditor/k;
@@ -1233,7 +1233,7 @@
     :cond_1
     const-string/jumbo p1, "unknown_error"
 
-    const v1, 0x7f0f0087
+    sget v1, Lcom/res/provider/ResSTRING;->ai_editor_unkown_error:I
 
     .line 7
     new-instance v6, Lcom/commsource/aieditor/m;
@@ -1244,16 +1244,16 @@
 
     move-object v8, v6
 
-    const v1, 0x7f0f0070
+    sget v1, Lcom/res/provider/ResSTRING;->ai_editor_i_know:I
 
-    const v3, 0x7f0f0087
+    sget v3, Lcom/res/provider/ResSTRING;->ai_editor_unkown_error:I
 
     goto :goto_1
 
     :cond_2
     const-string p1, "network_error"
 
-    const v3, 0x7f0f007a
+    sget v3, Lcom/res/provider/ResSTRING;->ai_editor_need_network:I
 
     .line 8
     new-instance v6, Lcom/commsource/aieditor/l;
@@ -1270,7 +1270,7 @@
     :cond_3
     const-string p1, "photo_error"
 
-    const v1, 0x7f0f007b
+    sget v1, Lcom/res/provider/ResSTRING;->ai_editor_need_people:I
 
     const/4 v2, 0x0
 
@@ -1283,18 +1283,18 @@
 
     move-object v8, v6
 
-    const v1, 0x7f0f0070
+    sget v1, Lcom/res/provider/ResSTRING;->ai_editor_i_know:I
 
-    const v3, 0x7f0f007b
+    sget v3, Lcom/res/provider/ResSTRING;->ai_editor_need_people:I
 
     goto :goto_1
 
     :cond_4
     const-string/jumbo p1, "wait_error"
 
-    const v3, 0x7f0f0080
+    sget v3, Lcom/res/provider/ResSTRING;->ai_editor_remain_prompt:I
 
-    const v1, 0x7f0f007f
+    sget v1, Lcom/res/provider/ResSTRING;->ai_editor_remain_confirm:I
 
     .line 11
     new-instance v6, Lcom/commsource/aieditor/i;

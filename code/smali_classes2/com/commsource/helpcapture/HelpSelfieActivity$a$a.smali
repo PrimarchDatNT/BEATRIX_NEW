@@ -150,7 +150,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/oc;->b:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    const v1, 0x7f060112
+    sget v1, Lcom/res/provider/ResCOLOR;->color_e6000000:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setBackgroundResource(I)V

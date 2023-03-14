@@ -44,42 +44,42 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/pd;->L:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0902fb
+    sget v2, Lcom/res/provider/ResID;->ivThumb:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900ac
+    sget v2, Lcom/res/provider/ResID;->biv:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090363
+    sget v2, Lcom/res/provider/ResID;->iv_pro:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090116
+    sget v2, Lcom/res/provider/ResID;->cdpv_progress:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902f1
+    sget v2, Lcom/res/provider/ResID;->ivDownload:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902f6
+    sget v2, Lcom/res/provider/ResID;->ivNew:I
 
     const/4 v3, 0x6
 

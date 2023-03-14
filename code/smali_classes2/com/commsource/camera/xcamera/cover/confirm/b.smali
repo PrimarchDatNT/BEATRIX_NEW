@@ -4288,7 +4288,7 @@
 
     if-nez p2, :cond_2
 
-    const p2, 0x7f0f0055
+    sget p2, Lcom/res/provider/ResSTRING;->ad_slot_selfiesave:I
 
     .line 3
     invoke-static {p2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

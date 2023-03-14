@@ -1081,7 +1081,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0f00aa
+    sget v1, Lcom/res/provider/ResSTRING;->app_name:I
 
     .line 1
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

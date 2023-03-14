@@ -419,7 +419,7 @@
 
     const/16 v1, 0x8
 
-    const v0, 0x7f0800f9
+    sget v0, Lcom/res/provider/ResDRAWABLE;->common_corner_premium_white:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -470,7 +470,7 @@
 
     const/4 v1, 0x6
 
-    const v0, 0x7f0f04be
+    sget v0, Lcom/res/provider/ResSTRING;->if_edit_more:I
 
     invoke-static {v0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

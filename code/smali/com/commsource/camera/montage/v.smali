@@ -591,11 +591,11 @@
 
     const/16 v5, 0x38d
 
-    const v6, 0x7f0f0629
+    sget v6, Lcom/res/provider/ResSTRING;->montage_adjust_size:I
 
     const-wide/high16 v7, 0x4024000000000000L    # 10.0
 
-    const v9, 0x7f0f0627
+    sget v9, Lcom/res/provider/ResSTRING;->montage_adjust_height:I
 
     if-eq p0, v5, :cond_3
 
@@ -603,7 +603,7 @@
 
     const-wide/high16 v10, 0x4014000000000000L    # 5.0
 
-    const v12, 0x7f0f0626
+    sget v12, Lcom/res/provider/ResSTRING;->montage_adjust_distance:I
 
     if-eq p0, v5, :cond_2
 
@@ -668,7 +668,7 @@
 
     move-result-object p0
 
-    const v5, 0x7f0f062a
+    sget v5, Lcom/res/provider/ResSTRING;->montage_adjust_thickness:I
 
     invoke-virtual {p0, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -847,7 +847,7 @@
 
     move-result-object p0
 
-    const v5, 0x7f0f0628
+    sget v5, Lcom/res/provider/ResSTRING;->montage_adjust_length:I
 
     invoke-virtual {p0, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -860,7 +860,7 @@
 
     move-result-object p0
 
-    const v5, 0x7f0f062b
+    sget v5, Lcom/res/provider/ResSTRING;->montage_adjust_width:I
 
     invoke-virtual {p0, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

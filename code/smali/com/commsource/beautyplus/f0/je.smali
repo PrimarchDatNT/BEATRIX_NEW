@@ -44,7 +44,7 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/je;->f:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f09013c
+    sget v2, Lcom/res/provider/ResID;->color_Item_view:I
 
     const/4 v3, 0x1
 

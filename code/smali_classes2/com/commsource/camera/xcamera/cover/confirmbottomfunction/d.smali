@@ -108,7 +108,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c016a
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_movie_flare:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -253,7 +253,7 @@
 
     check-cast p1, Lcom/commsource/widget/IconFrontView;
 
-    const p3, 0x7f0f04fd
+    sget p3, Lcom/res/provider/ResSTRING;->if_movie_halo:I
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 
@@ -270,7 +270,7 @@
 
     check-cast p1, Lcom/commsource/widget/PressStrokeTextView;
 
-    const p3, 0x7f0f07ad
+    sget p3, Lcom/res/provider/ResSTRING;->round:I
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 
@@ -305,7 +305,7 @@
 
     check-cast p1, Lcom/commsource/widget/IconFrontView;
 
-    const p3, 0x7f0f04fe
+    sget p3, Lcom/res/provider/ResSTRING;->if_movie_halo_1:I
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 
@@ -322,7 +322,7 @@
 
     check-cast p1, Lcom/commsource/widget/PressStrokeTextView;
 
-    const p3, 0x7f0f0acd
+    sget p3, Lcom/res/provider/ResSTRING;->triangle:I
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 
@@ -357,7 +357,7 @@
 
     check-cast p1, Lcom/commsource/widget/IconFrontView;
 
-    const p3, 0x7f0f04ff
+    sget p3, Lcom/res/provider/ResSTRING;->if_movie_halo_2:I
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 
@@ -374,7 +374,7 @@
 
     check-cast p1, Lcom/commsource/widget/PressStrokeTextView;
 
-    const p3, 0x7f0f043e
+    sget p3, Lcom/res/provider/ResSTRING;->hexagon:I
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 
@@ -407,7 +407,7 @@
 
     check-cast p1, Lcom/commsource/widget/IconFrontView;
 
-    const p3, 0x7f0f0500
+    sget p3, Lcom/res/provider/ResSTRING;->if_movie_halo_3:I
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 
@@ -424,7 +424,7 @@
 
     check-cast p1, Lcom/commsource/widget/PressStrokeTextView;
 
-    const p3, 0x7f0f0434
+    sget p3, Lcom/res/provider/ResSTRING;->heart:I
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 

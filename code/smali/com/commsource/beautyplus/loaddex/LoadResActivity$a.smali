@@ -95,7 +95,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f01000e
+    sget v2, Lcom/res/provider/ResANIM;->alpha_out:I
 
     invoke-virtual {v0, v1, v2}, Landroid/app/Activity;->overridePendingTransition(II)V
 

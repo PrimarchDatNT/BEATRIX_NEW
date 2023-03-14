@@ -59,7 +59,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0f00a5
+    sget v1, Lcom/res/provider/ResSTRING;->apm_pre_app_key:I
 
     invoke-virtual {p0, v1}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 
@@ -68,7 +68,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0f00a4
+    sget v1, Lcom/res/provider/ResSTRING;->apm_app_key:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/app/Application;->getString(I)Ljava/lang/String;
@@ -83,12 +83,12 @@
 
     if-eqz v2, :cond_2
 
-    const v2, 0x7f0f00a6
+    sget v2, Lcom/res/provider/ResSTRING;->apm_pre_psw:I
 
     goto :goto_1
 
     :cond_2
-    const v2, 0x7f0f00a8
+    sget v2, Lcom/res/provider/ResSTRING;->apm_psw:I
 
     :goto_1
     invoke-virtual {p0, v2}, Landroid/app/Application;->getString(I)Ljava/lang/String;
@@ -102,7 +102,7 @@
 
     if-eqz v3, :cond_3
 
-    const v3, 0x7f0f00a7
+    sget v3, Lcom/res/provider/ResSTRING;->apm_pre_publickey:I
 
     invoke-virtual {p0, v3}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 
@@ -111,7 +111,7 @@
     goto :goto_2
 
     :cond_3
-    const v3, 0x7f0f00a9
+    sget v3, Lcom/res/provider/ResSTRING;->apm_publickey:I
 
     .line 6
     invoke-virtual {p0, v3}, Landroid/app/Application;->getString(I)Ljava/lang/String;

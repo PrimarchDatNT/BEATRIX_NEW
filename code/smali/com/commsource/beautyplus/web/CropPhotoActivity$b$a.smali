@@ -72,7 +72,7 @@
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/BaseActivity;->r0()V
 
-    const v1, 0x7f0f07c8
+    sget v1, Lcom/res/provider/ResSTRING;->save_image_failure:I
 
     .line 2
     invoke-static {v1}, Lf/k/c/c/f;->w(I)V

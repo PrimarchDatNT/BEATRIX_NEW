@@ -44,35 +44,35 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/zj;->M:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0902b0
+    sget v2, Lcom/res/provider/ResID;->ifv_icon:I
 
     const/4 v3, 0x3
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090343
+    sget v2, Lcom/res/provider/ResID;->iv_icon:I
 
     const/4 v3, 0x4
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090709
+    sget v2, Lcom/res/provider/ResID;->tv_name:I
 
     const/4 v3, 0x5
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090386
+    sget v2, Lcom/res/provider/ResID;->iv_vip:I
 
     const/4 v3, 0x6
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0903fd
+    sget v2, Lcom/res/provider/ResID;->ll_tips:I
 
     const/4 v3, 0x7
 
@@ -261,7 +261,7 @@
 
     const/4 v4, 0x0
 
-    const v0, 0x7f06013a
+    sget v0, Lcom/res/provider/ResCOLOR;->color_fb5986:I
 
     invoke-static {v3, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -288,7 +288,7 @@
 
     const/4 v14, 0x1
 
-    const v0, 0x7f060093
+    sget v0, Lcom/res/provider/ResCOLOR;->color_666666:I
 
     invoke-static {v13, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

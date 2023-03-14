@@ -543,7 +543,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0f095f
+    sget v4, Lcom/res/provider/ResSTRING;->t_download_all:I
 
     .line 5
     invoke-static {v4}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -586,13 +586,13 @@
     goto :goto_0
 
     :cond_0
-    const v4, 0x7f0f09ac
+    sget v4, Lcom/res/provider/ResSTRING;->t_free_trial:I
 
     goto :goto_1
 
     :cond_1
     :goto_0
-    const v4, 0x7f0f0a89
+    sget v4, Lcom/res/provider/ResSTRING;->t_use_now:I
 
     :goto_1
     invoke-static {v4}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;

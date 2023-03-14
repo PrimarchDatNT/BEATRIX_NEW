@@ -32,7 +32,7 @@
     .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    const p1, 0x7f090365
+    sget p1, Lcom/res/provider/ResID;->iv_puzzle:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -43,7 +43,7 @@
 
     iput-object p1, p0, Lcom/commsource/mypage/m0/c$b;->a:Landroid/widget/ImageView;
 
-    const p1, 0x7f0904cd
+    sget p1, Lcom/res/provider/ResID;->pv_puzzle_delete:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

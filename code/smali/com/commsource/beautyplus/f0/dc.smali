@@ -44,70 +44,70 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/dc;->U:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090232
+    sget v2, Lcom/res/provider/ResID;->fl_tab:I
 
     const/4 v3, 0x5
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901a2
+    sget v2, Lcom/res/provider/ResID;->divider:I
 
     const/4 v3, 0x6
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090630
+    sget v2, Lcom/res/provider/ResID;->templatePanel:I
 
     const/4 v3, 0x7
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090247
+    sget v2, Lcom/res/provider/ResID;->fontPanel:I
 
     const/16 v3, 0x8
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09008b
+    sget v2, Lcom/res/provider/ResID;->attrBar:I
 
     const/16 v3, 0x9
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09008c
+    sget v2, Lcom/res/provider/ResID;->attr_line_divider:I
 
     const/16 v3, 0xa
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0905f1
+    sget v2, Lcom/res/provider/ResID;->style_page_container:I
 
     const/16 v3, 0xb
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900f7
+    sget v2, Lcom/res/provider/ResID;->bubble:I
 
     const/16 v3, 0xc
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900f8
+    sget v2, Lcom/res/provider/ResID;->bubbleProgress:I
 
     const/16 v3, 0xd
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090308
+    sget v2, Lcom/res/provider/ResID;->iv_blur_bg:I
 
     const/16 v3, 0xe
 
@@ -377,7 +377,7 @@
 
     const/4 v5, 0x0
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v4, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -387,7 +387,7 @@
 
     iget-object v0, v1, Lcom/commsource/beautyplus/f0/cc;->M:Landroid/widget/TextView;
 
-    const v3, 0x7f06005b
+    sget v3, Lcom/res/provider/ResCOLOR;->color_1a000000:I
 
     invoke-static {v0, v3}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -410,7 +410,7 @@
 
     const/4 v15, 0x0
 
-    const v0, 0x7f06012d
+    sget v0, Lcom/res/provider/ResCOLOR;->color_f5f5f5:I
 
     invoke-static {v14, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

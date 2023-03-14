@@ -70,7 +70,7 @@
 
     new-array v3, v3, [I
 
-    const v5, 0x7f0c00ca
+    sget v5, Lcom/res/provider/ResLAYOUT;->dialog_progress:I
 
     aput v5, v3, v6
 
@@ -85,21 +85,21 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/h5;->Q:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090696
+    sget v2, Lcom/res/provider/ResID;->tv_ar_guide_later:I
 
     const/4 v3, 0x5
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090108
+    sget v2, Lcom/res/provider/ResID;->card_ar_guide:I
 
     const/4 v3, 0x6
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0907cf
+    sget v2, Lcom/res/provider/ResID;->video_ar_guide:I
 
     const/4 v3, 0x7
 
@@ -434,7 +434,7 @@
 
     move-result-object v7
 
-    const v9, 0x7f0f0ad3
+    sget v9, Lcom/res/provider/ResSTRING;->try_now:I
 
     invoke-virtual {v7, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

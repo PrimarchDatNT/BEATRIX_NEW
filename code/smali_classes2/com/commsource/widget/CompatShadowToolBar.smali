@@ -77,7 +77,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0803ba
+    sget p1, Lcom/res/provider/ResDRAWABLE;->toolbar_shadow:I
 
     .line 9
     invoke-static {p1}, Lcom/meitu/library/p/d/b;->g(I)Landroid/graphics/drawable/Drawable;

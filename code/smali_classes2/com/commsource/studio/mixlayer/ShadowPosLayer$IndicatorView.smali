@@ -87,7 +87,7 @@
 
     invoke-direct {p0, p2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    const p1, 0x7f080188
+    sget p1, Lcom/res/provider/ResDRAWABLE;->edit_icon_lightsource:I
 
     .line 2
     invoke-static {p1}, Lcom/commsource/util/u1;->a(I)Landroid/graphics/Bitmap;

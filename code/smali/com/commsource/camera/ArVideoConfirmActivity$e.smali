@@ -97,7 +97,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/k;->L:Lcom/commsource/widget/IconFrontView;
 
-    const v3, 0x7f0f0834
+    sget v3, Lcom/res/provider/ResSTRING;->selfie_save_icon_gif_done:I
 
     invoke-static {v3}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
@@ -125,7 +125,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/k;->L:Lcom/commsource/widget/IconFrontView;
 
-    const v3, 0x7f060010
+    sget v3, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
     invoke-static {v3}, Lcom/meitu/library/p/d/b;->d(I)I
 
@@ -142,7 +142,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/k;->M:Lcom/commsource/widget/PressStrokeTextView;
 
-    const v3, 0x7f0f03fd
+    sget v3, Lcom/res/provider/ResSTRING;->gif_success:I
 
     invoke-static {v3}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
@@ -158,7 +158,7 @@
     .line 10
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$e;->J:Lcom/commsource/camera/ArVideoConfirmActivity;
 
-    const v2, 0x7f0f03fc
+    sget v2, Lcom/res/provider/ResSTRING;->gif_save_success:I
 
     invoke-static {p1, v2}, Lcom/commsource/camera/ArVideoConfirmActivity;->k1(Lcom/commsource/camera/ArVideoConfirmActivity;I)V
 
@@ -359,7 +359,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->L:Lcom/commsource/widget/IconFrontView;
 
-    const v2, 0x7f0f0833
+    sget v2, Lcom/res/provider/ResSTRING;->selfie_save_icon_gif:I
 
     invoke-static {v2}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
@@ -376,7 +376,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->M:Lcom/commsource/widget/PressStrokeTextView;
 
-    const v2, 0x7f0f03f7
+    sget v2, Lcom/res/provider/ResSTRING;->gif:I
 
     invoke-static {v2}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 

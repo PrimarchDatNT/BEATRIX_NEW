@@ -88,7 +88,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0c00f6
+    sget v2, Lcom/res/provider/ResLAYOUT;->fragment_makeup_style:I
 
     const/4 v3, 0x0
 

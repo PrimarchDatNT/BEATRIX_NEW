@@ -154,7 +154,7 @@
     .line 7
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->a:Lcom/commsource/widget/IconFrontView;
 
-    const p2, 0x7f06006b
+    sget p2, Lcom/res/provider/ResCOLOR;->color_333333:I
 
     invoke-static {p2}, Lcom/commsource/util/u1;->b(I)I
 
@@ -378,7 +378,7 @@
     .line 7
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->a:Lcom/commsource/widget/IconFrontView;
 
-    const v2, 0x7f06006b
+    sget v2, Lcom/res/provider/ResCOLOR;->color_333333:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 

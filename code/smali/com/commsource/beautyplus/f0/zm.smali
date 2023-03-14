@@ -44,84 +44,84 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/zm;->T:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0903e0
+    sget v2, Lcom/res/provider/ResID;->ll_layer_delete:I
 
     const/4 v3, 0x3
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09039d
+    sget v2, Lcom/res/provider/ResID;->layer_manage_container:I
 
     const/4 v3, 0x4
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090398
+    sget v2, Lcom/res/provider/ResID;->layerList:I
 
     const/4 v3, 0x5
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09016b
+    sget v2, Lcom/res/provider/ResID;->cover1:I
 
     const/4 v3, 0x6
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0905b1
+    sget v2, Lcom/res/provider/ResID;->shadow1:I
 
     const/4 v3, 0x7
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09016c
+    sget v2, Lcom/res/provider/ResID;->cover2:I
 
     const/16 v3, 0x8
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090136
+    sget v2, Lcom/res/provider/ResID;->collapse_text:I
 
     const/16 v3, 0x9
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090088
+    sget v2, Lcom/res/provider/ResID;->arrow_right:I
 
     const/16 v3, 0xa
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090348
+    sget v2, Lcom/res/provider/ResID;->iv_layer_guide:I
 
     const/16 v3, 0xb
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090653
+    sget v2, Lcom/res/provider/ResID;->tipsBubbleView:I
 
     const/16 v3, 0xc
 
     .line 12
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09030a
+    sget v2, Lcom/res/provider/ResID;->iv_bubble_indictor_up:I
 
     const/16 v3, 0xd
 
     .line 13
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090309
+    sget v2, Lcom/res/provider/ResID;->iv_bubble_indictor:I
 
     const/16 v3, 0xe
 
@@ -350,7 +350,7 @@
 
     const/high16 v6, 0x3f000000    # 0.5f
 
-    const v0, 0x7f06000a
+    sget v0, Lcom/res/provider/ResCOLOR;->Gray_Dashline:I
 
     invoke-static {v3, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -373,7 +373,7 @@
 
     const/4 v14, 0x0
 
-    const v0, 0x7f060137
+    sget v0, Lcom/res/provider/ResCOLOR;->color_fa64b0:I
 
     invoke-static {v13, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

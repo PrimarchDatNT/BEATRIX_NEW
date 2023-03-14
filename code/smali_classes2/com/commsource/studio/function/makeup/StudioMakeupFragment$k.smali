@@ -185,7 +185,7 @@
 
     move-result-object p2
 
-    const v3, 0x7f0f042a
+    sget v3, Lcom/res/provider/ResSTRING;->hair_no_support:I
 
     invoke-virtual {p2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

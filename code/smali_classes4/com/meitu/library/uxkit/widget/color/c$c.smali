@@ -206,7 +206,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0c01f9
+    sget v0, Lcom/res/provider/ResLAYOUT;->uxkit_widget__color_item:I
 
     const/4 v1, 0x0
 
@@ -221,7 +221,7 @@
 
     invoke-direct {v0, v1, p1}, Lcom/meitu/library/uxkit/widget/color/c$d;-><init>(Lcom/meitu/library/uxkit/widget/color/c;Landroid/view/View;)V
 
-    const v1, 0x7f090141
+    sget v1, Lcom/res/provider/ResID;->color_picker_view:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -44,63 +44,63 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/lh;->P:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090525
+    sget v2, Lcom/res/provider/ResID;->rl_root:I
 
     const/4 v3, 0x2
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090205
+    sget v2, Lcom/res/provider/ResID;->fl_content:I
 
     const/4 v3, 0x3
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090343
+    sget v2, Lcom/res/provider/ResID;->iv_icon:I
 
     const/4 v3, 0x4
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09022b
+    sget v2, Lcom/res/provider/ResID;->fl_select_mask:I
 
     const/4 v3, 0x5
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090116
+    sget v2, Lcom/res/provider/ResID;->cdpv_progress:I
 
     const/4 v3, 0x6
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902ac
+    sget v2, Lcom/res/provider/ResID;->ifv_download:I
 
     const/4 v3, 0x7
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09036b
+    sget v2, Lcom/res/provider/ResID;->iv_right_corner:I
 
     const/16 v3, 0x8
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902b6
+    sget v2, Lcom/res/provider/ResID;->ifv_preset:I
 
     const/16 v3, 0x9
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090709
+    sget v2, Lcom/res/provider/ResID;->tv_name:I
 
     const/16 v3, 0xa
 

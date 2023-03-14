@@ -93,12 +93,12 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f0f075e
+    sget v2, Lcom/res/provider/ResSTRING;->push_test_url:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0f075f
+    sget v2, Lcom/res/provider/ResSTRING;->push_url:I
 
     :goto_0
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

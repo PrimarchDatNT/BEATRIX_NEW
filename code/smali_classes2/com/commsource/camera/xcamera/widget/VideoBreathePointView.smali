@@ -284,7 +284,7 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->c:Landroid/animation/ValueAnimator;
 
-    const p1, 0x7f06007f
+    sget p1, Lcom/res/provider/ResCOLOR;->color_4d000000:I
 
     .line 7
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
@@ -985,7 +985,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f060225
+    sget v1, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 
@@ -1014,7 +1014,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f060005
+    sget v1, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 

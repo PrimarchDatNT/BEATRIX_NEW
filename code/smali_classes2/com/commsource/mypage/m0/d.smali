@@ -65,7 +65,7 @@
     .line 2
     iput-object p2, p0, Lcom/commsource/mypage/m0/d;->d:Landroid/view/View;
 
-    const v0, 0x7f09055f
+    sget v0, Lcom/res/provider/ResID;->rv_puzzle:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -76,7 +76,7 @@
 
     iput-object v0, p0, Lcom/commsource/mypage/m0/d;->c:Landroidx/recyclerview/widget/RecyclerView;
 
-    const v0, 0x7f0906ba
+    sget v0, Lcom/res/provider/ResID;->tv_count:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -87,7 +87,7 @@
 
     iput-object v0, p0, Lcom/commsource/mypage/m0/d;->h:Landroid/widget/TextView;
 
-    const v0, 0x7f090712
+    sget v0, Lcom/res/provider/ResID;->tv_ok:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -627,7 +627,7 @@
 
     if-nez p2, :cond_3
 
-    const p2, 0x7f0f0768
+    sget p2, Lcom/res/provider/ResSTRING;->puzzle_max:I
 
     .line 10
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -671,7 +671,7 @@
 
     if-nez p2, :cond_1
 
-    const p2, 0x7f01003a
+    sget p2, Lcom/res/provider/ResANIM;->slide_out_to_bottom:I
 
     .line 4
     invoke-static {p1, p2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
@@ -785,7 +785,7 @@
 
     if-nez p2, :cond_1
 
-    const p2, 0x7f010036
+    sget p2, Lcom/res/provider/ResANIM;->slide_in_from_bottom:I
 
     .line 3
     invoke-static {p1, p2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;

@@ -58,7 +58,7 @@
 
     new-array v3, v3, [I
 
-    const v6, 0x7f0c01ab
+    sget v6, Lcom/res/provider/ResLAYOUT;->layout_manager_prompt:I
 
     aput v6, v3, v5
 
@@ -71,42 +71,42 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/pa;->M:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0905e9
+    sget v2, Lcom/res/provider/ResID;->stickerGroupRv:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09065a
+    sget v2, Lcom/res/provider/ResID;->title_cover:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090091
+    sget v2, Lcom/res/provider/ResID;->back:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090654
+    sget v2, Lcom/res/provider/ResID;->title:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901a2
+    sget v2, Lcom/res/provider/ResID;->divider:I
 
     const/4 v3, 0x6
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09009b
+    sget v2, Lcom/res/provider/ResID;->barrier:I
 
     const/4 v3, 0x7
 

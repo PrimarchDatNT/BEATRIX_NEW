@@ -35,7 +35,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f100251
+    sget v0, Lcom/res/provider/ResSTYLE;->fullScreenDialog:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
@@ -62,7 +62,7 @@
 
     check-cast p1, Lcom/bumptech/glide/request/g;
 
-    const v0, 0x7f080372
+    sget v0, Lcom/res/provider/ResDRAWABLE;->setting_loading_icon_placeholder:I
 
     .line 4
     invoke-virtual {p1, v0}, Lcom/bumptech/glide/request/a;->w0(I)Lcom/bumptech/glide/request/a;
@@ -162,7 +162,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080372
+    sget v2, Lcom/res/provider/ResDRAWABLE;->setting_loading_icon_placeholder:I
 
     .line 4
     invoke-virtual {v1, v2}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
@@ -458,7 +458,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0c00c5
+    sget v1, Lcom/res/provider/ResLAYOUT;->dialog_montage_multiple_face:I
 
     const/4 v2, 0x0
 

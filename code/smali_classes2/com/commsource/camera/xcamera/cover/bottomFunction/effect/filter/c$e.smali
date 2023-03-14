@@ -165,7 +165,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f0ae0
+    sget v3, Lcom/res/provider/ResSTRING;->unable_to_apply_special_filter:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

@@ -127,7 +127,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0f09e1
+    sget v6, Lcom/res/provider/ResSTRING;->t_join_unlock:I
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

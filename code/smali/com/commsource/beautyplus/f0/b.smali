@@ -44,105 +44,105 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/b;->U:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0903b9
+    sget v2, Lcom/res/provider/ResID;->ll_abtest:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906e0
+    sget v2, Lcom/res/provider/ResID;->tv_gid:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090716
+    sget v2, Lcom/res/provider/ResID;->tv_oversea_gid:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090693
+    sget v2, Lcom/res/provider/ResID;->tv_android_id:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906d7
+    sget v2, Lcom/res/provider/ResID;->tv_firebase:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906d8
+    sget v2, Lcom/res/provider/ResID;->tv_firebase_id:I
 
     const/4 v3, 0x6
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090711
+    sget v2, Lcom/res/provider/ResID;->tv_now_use:I
 
     const/4 v3, 0x7
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090546
+    sget v2, Lcom/res/provider/ResID;->rv_abtest:I
 
     const/16 v3, 0x8
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090517
+    sget v2, Lcom/res/provider/ResID;->rl_input:I
 
     const/16 v3, 0x9
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901b0
+    sget v2, Lcom/res/provider/ResID;->edit_input_abcode:I
 
     const/16 v3, 0xa
 
     .line 12
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900f6
+    sget v2, Lcom/res/provider/ResID;->btn_use_ab:I
 
     const/16 v3, 0xb
 
     .line 13
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900e1
+    sget v2, Lcom/res/provider/ResID;->btn_close_test:I
 
     const/16 v3, 0xc
 
     .line 14
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090662
+    sget v2, Lcom/res/provider/ResID;->topbar:I
 
     const/16 v3, 0xd
 
     .line 15
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090298
+    sget v2, Lcom/res/provider/ResID;->ibtn_left:I
 
     const/16 v3, 0xe
 
     .line 16
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09060e
+    sget v2, Lcom/res/provider/ResID;->switch_local:I
 
     const/16 v3, 0xf
 

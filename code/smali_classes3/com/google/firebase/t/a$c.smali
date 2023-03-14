@@ -137,7 +137,7 @@
 
     new-array v4, v3, [I
 
-    const v5, 0x7f04004a
+    sget v5, Lcom/res/provider/ResATTR;->allowShortcuts:I
 
     aput v5, v4, v0
 
@@ -165,7 +165,7 @@
 
     new-array v1, v3, [I
 
-    const v2, 0x7f040185
+    sget v2, Lcom/res/provider/ResATTR;->featureType:I
 
     aput v2, v1, v0
 

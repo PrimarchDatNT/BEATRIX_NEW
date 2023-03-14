@@ -39,56 +39,56 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/na;->S:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0902a5
+    sget v2, Lcom/res/provider/ResID;->ifvCloseSpace:I
 
     const/4 v3, 0x5
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090378
+    sget v2, Lcom/res/provider/ResID;->iv_store:I
 
     const/4 v3, 0x6
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090558
+    sget v2, Lcom/res/provider/ResID;->rv_group:I
 
     const/4 v3, 0x7
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09035b
+    sget v2, Lcom/res/provider/ResID;->iv_new_store:I
 
     const/16 v3, 0x8
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901a2
+    sget v2, Lcom/res/provider/ResID;->divider:I
 
     const/16 v3, 0x9
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0907e4
+    sget v2, Lcom/res/provider/ResID;->vp_sticker:I
 
     const/16 v3, 0xa
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090660
+    sget v2, Lcom/res/provider/ResID;->topSpaceView:I
 
     const/16 v3, 0xb
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090140
+    sget v2, Lcom/res/provider/ResID;->color_pick_view:I
 
     const/16 v3, 0xc
 

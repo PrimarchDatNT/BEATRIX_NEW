@@ -80,7 +80,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c015f
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_line_style:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -182,7 +182,7 @@
 
     move-result p2
 
-    const p3, 0x7f06006b
+    sget p3, Lcom/res/provider/ResCOLOR;->color_333333:I
 
     .line 6
     invoke-static {p3}, Lcom/commsource/util/u1;->b(I)I

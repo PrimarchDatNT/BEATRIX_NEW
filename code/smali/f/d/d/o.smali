@@ -231,7 +231,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0c0048
+    sget v1, Lcom/res/provider/ResLAYOUT;->ai_beauty_container_layout:I
 
     const/4 v2, 0x0
 
@@ -789,11 +789,11 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v0, 0x7f0f08be
+    sget v0, Lcom/res/provider/ResSTRING;->so_beautful:I
 
-    const v1, 0x7f0f0400
+    sget v1, Lcom/res/provider/ResSTRING;->go_it:I
 
-    const v2, 0x7f0f07a8
+    sget v2, Lcom/res/provider/ResSTRING;->retry:I
 
     .line 1
     invoke-virtual {p0, v0, v1, v2}, Lf/d/d/o;->q0(III)V
@@ -2451,11 +2451,11 @@
     goto :goto_0
 
     :sswitch_1
-    const p1, 0x7f0f070f
+    sget p1, Lcom/res/provider/ResSTRING;->please_wait:I
 
-    const v1, 0x7f0f0b0e
+    sget v1, Lcom/res/provider/ResSTRING;->wait:I
 
-    const v2, 0x7f0f0212
+    sget v2, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 7
     invoke-virtual {p0, p1, v1, v2}, Lf/d/d/o;->s0(III)Lcom/commsource/widget/dialog/s0/t;

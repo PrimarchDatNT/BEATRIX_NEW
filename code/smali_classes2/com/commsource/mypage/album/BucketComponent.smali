@@ -533,9 +533,9 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f01003f
+    sget v4, Lcom/res/provider/ResANIM;->up_300_1:I
 
-    const v5, 0x7f010026
+    sget v5, Lcom/res/provider/ResANIM;->down_300_1:I
 
     const/4 v6, 0x0
 

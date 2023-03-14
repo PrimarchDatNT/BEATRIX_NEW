@@ -72,7 +72,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080324
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_cartoon_icon_material_placeholder:I
 
     invoke-virtual {p1, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
@@ -114,7 +114,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080324
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_cartoon_icon_material_placeholder:I
 
     invoke-virtual {p1, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 

@@ -189,7 +189,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f04019b
+    sget v3, Lcom/res/provider/ResATTR;->gifMoviewViewStyle:I
 
     aput v3, v1, v2
 

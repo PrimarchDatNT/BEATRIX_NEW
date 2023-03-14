@@ -124,7 +124,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0f057a
+    sget v5, Lcom/res/provider/ResSTRING;->layout_day:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -138,7 +138,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0f057c
+    sget v5, Lcom/res/provider/ResSTRING;->layout_month:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -153,7 +153,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0f057d
+    sget v5, Lcom/res/provider/ResSTRING;->layout_year:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -167,7 +167,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0f06b3
+    sget v5, Lcom/res/provider/ResSTRING;->no_preference:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -263,7 +263,7 @@
 
     aput-object v6, v5, v7
 
-    const v6, 0x7f0f0b23
+    sget v6, Lcom/res/provider/ResSTRING;->x_grids:I
 
     invoke-virtual {v3, v6, v5}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1257,7 +1257,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f00ed
+    sget v3, Lcom/res/provider/ResSTRING;->are_you_sure_delete_photo:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1272,7 +1272,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f0212
+    sget v3, Lcom/res/provider/ResSTRING;->cancel:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1287,7 +1287,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f02d5
+    sget v3, Lcom/res/provider/ResSTRING;->dialog_confirm:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1359,7 +1359,7 @@
 
     move-result v1
 
-    const v2, 0x7f08019f
+    sget v2, Lcom/res/provider/ResDRAWABLE;->edit_select_all_icon:I
 
     const-string v3, "owner.viewBinding.tvAll"
 
@@ -1471,7 +1471,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i;->g0:Lcom/commsource/widget/PressImageView;
 
-    const v2, 0x7f0801a0
+    sget v2, Lcom/res/provider/ResDRAWABLE;->edit_select_all_icon_checked:I
 
     invoke-virtual {v1, v2}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
@@ -1606,7 +1606,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0f0239
+    sget v4, Lcom/res/provider/ResSTRING;->cloud_album_delete:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

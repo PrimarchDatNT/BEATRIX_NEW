@@ -157,9 +157,9 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x7f0f0953
+    sget v5, Lcom/res/provider/ResSTRING;->t_cutout:I
 
-    const v6, 0x7f0f04ab
+    sget v6, Lcom/res/provider/ResSTRING;->if_edit_cutout:I
 
     const-string v7, "\u62a0\u56fe"
 
@@ -180,9 +180,9 @@
 
     const/4 v11, 0x1
 
-    const v12, 0x7f0f09fb
+    sget v12, Lcom/res/provider/ResSTRING;->t_mirror:I
 
-    const v13, 0x7f0f04b0
+    sget v13, Lcom/res/provider/ResSTRING;->if_edit_flip:I
 
     const-string v14, "\u955c\u50cf"
 
@@ -203,9 +203,9 @@
 
     const/4 v7, 0x2
 
-    const v8, 0x7f0f0962
+    sget v8, Lcom/res/provider/ResSTRING;->t_edit:I
 
-    const v9, 0x7f0f04ad
+    sget v9, Lcom/res/provider/ResSTRING;->if_edit_edit:I
 
     const-string v10, "\u7f16\u8f91"
 
@@ -226,9 +226,9 @@
 
     const/4 v14, 0x3
 
-    const v15, 0x7f0f098e
+    sget v15, Lcom/res/provider/ResSTRING;->t_eraser:I
 
-    const v16, 0x7f0f04ae
+    sget v16, Lcom/res/provider/ResSTRING;->if_edit_eraser:I
 
     const-string v17, "\u6a61\u76ae\u64e6"
 
@@ -249,9 +249,9 @@
 
     const/4 v10, 0x4
 
-    const v11, 0x7f0f09d9
+    sget v11, Lcom/res/provider/ResSTRING;->t_image_layer_style:I
 
-    const v12, 0x7f0f030f
+    sget v12, Lcom/res/provider/ResSTRING;->edit_icon_layer_mode:I
 
     const-string v13, "\u56fe\u5c42\u6837\u5f0f"
 
@@ -272,9 +272,9 @@
 
     const/4 v11, 0x5
 
-    const v12, 0x7f0f094f
+    sget v12, Lcom/res/provider/ResSTRING;->t_copy:I
 
-    const v13, 0x7f0f04aa
+    sget v13, Lcom/res/provider/ResSTRING;->if_edit_copy:I
 
     const-string v14, "\u590d\u5236"
 
@@ -295,9 +295,9 @@
 
     const/16 v18, 0x6
 
-    const v19, 0x7f0f0940
+    sget v19, Lcom/res/provider/ResSTRING;->t_bring_to_front:I
 
-    const v20, 0x7f0f04c5
+    sget v20, Lcom/res/provider/ResSTRING;->if_edit_to_top:I
 
     const-string v21, "\u9876\u5c42"
 
@@ -318,9 +318,9 @@
 
     const/16 v18, 0x7
 
-    const v19, 0x7f0f0a36
+    sget v19, Lcom/res/provider/ResSTRING;->t_send_to_back:I
 
-    const v20, 0x7f0f04c4
+    sget v20, Lcom/res/provider/ResSTRING;->if_edit_to_back:I
 
     const-string v21, "\u5e95\u5c42"
 
@@ -341,9 +341,9 @@
 
     const/16 v18, 0x8
 
-    const v19, 0x7f0f093f
+    sget v19, Lcom/res/provider/ResSTRING;->t_bring_forward:I
 
-    const v20, 0x7f0f04b3
+    sget v20, Lcom/res/provider/ResSTRING;->if_edit_forward:I
 
     const-string v21, "\u4e0a\u4e00\u5c42"
 
@@ -364,9 +364,9 @@
 
     const/16 v19, 0x9
 
-    const v20, 0x7f0f0a34
+    sget v20, Lcom/res/provider/ResSTRING;->t_send_backward:I
 
-    const v21, 0x7f0f04a8
+    sget v21, Lcom/res/provider/ResSTRING;->if_edit_backward:I
 
     const-string v22, "\u4e0b\u4e00\u5c42"
 
@@ -387,9 +387,9 @@
 
     const/16 v20, 0xa
 
-    const v21, 0x7f0f09f1
+    sget v21, Lcom/res/provider/ResSTRING;->t_layers:I
 
-    const v22, 0x7f0f04bc
+    sget v22, Lcom/res/provider/ResSTRING;->if_edit_layers:I
 
     const-string v23, "\u5c42\u7ea7"
 
@@ -410,9 +410,9 @@
 
     const/16 v21, 0xb
 
-    const v22, 0x7f0f09f7
+    sget v22, Lcom/res/provider/ResSTRING;->t_make_group:I
 
-    const v23, 0x7f0f030c
+    sget v23, Lcom/res/provider/ResSTRING;->edit_icon_group:I
 
     const-string v24, "\u7f16\u7ec4"
 
@@ -433,9 +433,9 @@
 
     const/16 v21, 0xc
 
-    const v22, 0x7f0f0a7f
+    sget v22, Lcom/res/provider/ResSTRING;->t_ungroup:I
 
-    const v23, 0x7f0f0321
+    sget v23, Lcom/res/provider/ResSTRING;->edit_icon_ungroup:I
 
     const-string v24, "\u53d6\u6d88\u7f16\u7ec4"
 

@@ -142,7 +142,7 @@
 
     const/4 v6, 0x1
 
-    const v9, 0x7f0f0314
+    sget v9, Lcom/res/provider/ResSTRING;->edit_icon_stoke_style1:I
 
     const-string v10, "\u5b9e\u7ebf"
 
@@ -174,7 +174,7 @@
 
     const/16 v16, 0x2
 
-    const v19, 0x7f0f0315
+    sget v19, Lcom/res/provider/ResSTRING;->edit_icon_stoke_style2:I
 
     const-string v20, "\u5212\u7ebf"
 
@@ -211,7 +211,7 @@
 
     const/16 v16, 0x3
 
-    const v19, 0x7f0f0316
+    sget v19, Lcom/res/provider/ResSTRING;->edit_icon_stoke_style3:I
 
     const-string v20, "\u70b9\u5212\u7ebf"
 
@@ -246,7 +246,7 @@
 
     const/16 v24, 0x4
 
-    const v27, 0x7f0f0317
+    sget v27, Lcom/res/provider/ResSTRING;->edit_icon_stoke_style4:I
 
     const-string v28, "\u70b9\u7ebf"
 

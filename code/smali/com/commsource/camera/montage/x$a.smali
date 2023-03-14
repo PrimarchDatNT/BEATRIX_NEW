@@ -188,7 +188,7 @@
 
     iput-object v1, p0, Lcom/commsource/camera/montage/x$a;->e:Lcom/commsource/camera/montage/bean/c;
 
-    const v1, 0x7f090441
+    sget v1, Lcom/res/provider/ResID;->montage_group_red_dot:I
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -199,7 +199,7 @@
 
     iput-object v1, p0, Lcom/commsource/camera/montage/x$a;->d:Landroid/widget/ImageView;
 
-    const v1, 0x7f090277
+    sget v1, Lcom/res/provider/ResID;->group_indicator:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -208,7 +208,7 @@
 
     iput-object v1, p0, Lcom/commsource/camera/montage/x$a;->b:Landroid/view/View;
 
-    const v1, 0x7f090440
+    sget v1, Lcom/res/provider/ResID;->montage_group_icon:I
 
     .line 8
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -344,7 +344,7 @@
     .line 5
     iget-object p1, p0, Lcom/commsource/camera/montage/x$a;->a:Lcom/commsource/widget/SelectImageView;
 
-    const v1, 0x7f080357
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_montage_nose_icon:I
 
     invoke-virtual {p1, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 

@@ -390,7 +390,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f041d
+    sget v2, Lcom/res/provider/ResSTRING;->group_capture_scale_up:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -403,7 +403,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f041c
+    sget v2, Lcom/res/provider/ResSTRING;->group_capture_scale_down:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

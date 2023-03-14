@@ -39,7 +39,7 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/b9;->f:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090562
+    sget v2, Lcom/res/provider/ResID;->rv_right:I
 
     const/4 v3, 0x1
 

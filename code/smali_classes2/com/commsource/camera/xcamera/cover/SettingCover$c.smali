@@ -104,7 +104,7 @@
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f0f0844
+    sget v1, Lcom/res/provider/ResSTRING;->selfie_top_icon_flashauto:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -128,7 +128,7 @@
 
     if-eqz p1, :cond_1
 
-    const v1, 0x7f060010
+    sget v1, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 
@@ -181,7 +181,7 @@
 
     move-result-object v1
 
-    const p1, 0x7f0f0209
+    sget p1, Lcom/res/provider/ResSTRING;->camera_screen_fillin_light_on:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -217,7 +217,7 @@
 
     if-eqz p1, :cond_4
 
-    const v1, 0x7f0f0845
+    sget v1, Lcom/res/provider/ResSTRING;->selfie_top_icon_flashoff:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -241,7 +241,7 @@
 
     if-eqz p1, :cond_5
 
-    const v1, 0x7f060005
+    sget v1, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 
@@ -294,7 +294,7 @@
 
     move-result-object v1
 
-    const p1, 0x7f0f0208
+    sget p1, Lcom/res/provider/ResSTRING;->camera_screen_fillin_light_off:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

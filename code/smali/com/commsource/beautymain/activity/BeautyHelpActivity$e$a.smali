@@ -34,7 +34,7 @@
     .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    const p1, 0x7f09009f
+    sget p1, Lcom/res/provider/ResID;->beauty_help_iv:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -45,7 +45,7 @@
 
     iput-object p1, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->a:Landroid/widget/ImageView;
 
-    const p1, 0x7f0900a4
+    sget p1, Lcom/res/provider/ResID;->beauty_help_title_tv:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -56,7 +56,7 @@
 
     iput-object p1, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->b:Landroid/widget/TextView;
 
-    const p1, 0x7f0900a3
+    sget p1, Lcom/res/provider/ResID;->beauty_help_text_tv:I
 
     .line 5
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -129,7 +129,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0801f1
+    sget v2, Lcom/res/provider/ResDRAWABLE;->ic_studio_help_default:I
 
     .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
@@ -183,7 +183,7 @@
     .line 8
     iget-object v1, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->b:Landroid/widget/TextView;
 
-    const v2, 0x7f0f0b20
+    sget v2, Lcom/res/provider/ResSTRING;->whiten:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -227,14 +227,14 @@
     .line 11
     iget-object p1, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0f079f
+    sget v1, Lcom/res/provider/ResSTRING;->reshape:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 12
     iget-object p1, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f0f02fe
+    sget v1, Lcom/res/provider/ResSTRING;->drag_the_slider_to_reshape:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 

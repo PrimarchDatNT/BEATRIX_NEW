@@ -167,7 +167,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     .line 2
     invoke-static {v0}, Lcom/commsource/util/u1;->b(I)I
@@ -177,7 +177,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f060005
+    sget v0, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     .line 3
     invoke-static {v0}, Lcom/commsource/util/u1;->b(I)I

@@ -49,42 +49,42 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/lj;->M:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090162
+    sget v2, Lcom/res/provider/ResID;->contentContainer:I
 
     const/4 v3, 0x2
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090184
+    sget v2, Lcom/res/provider/ResID;->deleIconLeft:I
 
     const/4 v3, 0x3
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09026d
+    sget v2, Lcom/res/provider/ResID;->groupImage:I
 
     const/4 v3, 0x4
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090270
+    sget v2, Lcom/res/provider/ResID;->groupName:I
 
     const/4 v3, 0x5
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090278
+    sget v2, Lcom/res/provider/ResID;->group_sort:I
 
     const/4 v3, 0x6
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090187
+    sget v2, Lcom/res/provider/ResID;->deleteIconRight:I
 
     const/4 v3, 0x7
 
@@ -265,7 +265,7 @@
 
     const/4 v3, 0x0
 
-    const v0, 0x7f060124
+    sget v0, Lcom/res/provider/ResCOLOR;->color_f2f1f1:I
 
     invoke-static {v2, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

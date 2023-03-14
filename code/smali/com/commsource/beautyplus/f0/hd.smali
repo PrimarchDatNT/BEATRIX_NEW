@@ -44,7 +44,7 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/hd;->f:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090335
+    sget v2, Lcom/res/provider/ResID;->iv_giphy_power:I
 
     const/4 v3, 0x1
 

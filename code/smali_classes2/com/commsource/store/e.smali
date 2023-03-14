@@ -95,7 +95,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c014a
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_filter_shop_tag:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -284,7 +284,7 @@
 
     invoke-virtual {p1, v2, v6, v4, v6}, Landroid/widget/TextView;->setPadding(IIII)V
 
-    const p1, 0x7f080066
+    sget p1, Lcom/res/provider/ResDRAWABLE;->all_icon_hot:I
 
     .line 11
     invoke-static {p1}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;
@@ -405,7 +405,7 @@
 
     check-cast p1, Lcom/commsource/widget/BoldTextView;
 
-    const p2, 0x7f060010
+    sget p2, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
     invoke-static {p2}, Lcom/commsource/util/l0;->P(I)I
 
@@ -438,7 +438,7 @@
 
     check-cast p1, Lcom/commsource/widget/BoldTextView;
 
-    const p2, 0x7f060006
+    sget p2, Lcom/res/provider/ResCOLOR;->Gray_B:I
 
     invoke-static {p2}, Lcom/commsource/util/l0;->P(I)I
 
@@ -475,7 +475,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f060012
+    sget v1, Lcom/res/provider/ResCOLOR;->Primary_C:I
 
     .line 2
     invoke-static {v1}, Lcom/commsource/util/l0;->P(I)I
@@ -485,7 +485,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f060007
+    sget v1, Lcom/res/provider/ResCOLOR;->Gray_Background:I
 
     .line 3
     invoke-static {v1}, Lcom/commsource/util/l0;->P(I)I

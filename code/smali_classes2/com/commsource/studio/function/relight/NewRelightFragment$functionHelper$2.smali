@@ -90,7 +90,7 @@
 
     invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v3, 0x7f0901f9
+    sget v3, Lcom/res/provider/ResID;->fl_bottom:I
 
     invoke-direct {v1, v2, v3}, Lcom/commsource/util/XFunctionFragmentHelper;-><init>(Landroidx/fragment/app/FragmentManager;I)V
 

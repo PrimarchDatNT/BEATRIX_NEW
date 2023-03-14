@@ -78,11 +78,11 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f060010
+    sget v1, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
-    const v2, 0x7f060005
+    sget v2, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
-    const v3, 0x7f0f0845
+    sget v3, Lcom/res/provider/ResSTRING;->selfie_top_icon_flashoff:I
 
     if-nez p1, :cond_0
 
@@ -150,7 +150,7 @@
 
     if-eqz p1, :cond_2
 
-    const v2, 0x7f0f0844
+    sget v2, Lcom/res/provider/ResSTRING;->selfie_top_icon_flashauto:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -270,7 +270,7 @@
 
     if-eqz p1, :cond_6
 
-    const v2, 0x7f0f0843
+    sget v2, Lcom/res/provider/ResSTRING;->selfie_top_icon_flashalwayson:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

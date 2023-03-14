@@ -39,56 +39,56 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/f8;->N:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0901e3
+    sget v2, Lcom/res/provider/ResID;->filterSearch:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09012d
+    sget v2, Lcom/res/provider/ResID;->clearSearch:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090102
+    sget v2, Lcom/res/provider/ResID;->cancelSearch:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090586
+    sget v2, Lcom/res/provider/ResID;->searchContent:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090621
+    sget v2, Lcom/res/provider/ResID;->tagLayout:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090620
+    sget v2, Lcom/res/provider/ResID;->tagContainer:I
 
     const/4 v3, 0x6
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901e0
+    sget v2, Lcom/res/provider/ResID;->filterNoResult:I
 
     const/4 v3, 0x7
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090401
+    sget v2, Lcom/res/provider/ResID;->loading:I
 
     const/16 v3, 0x8
 

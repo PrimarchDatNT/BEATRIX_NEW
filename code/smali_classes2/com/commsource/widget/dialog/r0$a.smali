@@ -63,7 +63,7 @@
     goto :goto_1
 
     :cond_0
-    const p1, 0x7f0f0b15
+    sget p1, Lcom/res/provider/ResSTRING;->web_net_error:I
 
     .line 1
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
@@ -92,7 +92,7 @@
     goto :goto_1
 
     :cond_3
-    const p1, 0x7f0f075c
+    sget p1, Lcom/res/provider/ResSTRING;->purchasing_failure:I
 
     .line 4
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
@@ -234,7 +234,7 @@
 
     invoke-static {v1, v2}, Lcom/commsource/widget/dialog/r0;->y(Lcom/commsource/widget/dialog/r0;Z)Z
 
-    const v1, 0x7f0f0415
+    sget v1, Lcom/res/provider/ResSTRING;->google_play_setup_failure:I
 
     .line 2
     invoke-static {v1}, Lf/k/c/c/f;->w(I)V

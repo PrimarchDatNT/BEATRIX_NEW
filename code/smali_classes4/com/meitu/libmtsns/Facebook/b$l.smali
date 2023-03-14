@@ -989,7 +989,7 @@
 
     new-array v8, v1, [I
 
-    const v9, 0x7f04004b
+    sget v9, Lcom/res/provider/ResATTR;->allowStacking:I
 
     aput v9, v8, v4
 
@@ -1097,7 +1097,7 @@
 
     new-array v1, v1, [I
 
-    const v5, 0x7f0403b4
+    sget v5, Lcom/res/provider/ResATTR;->state_above_anchor:I
 
     aput v5, v1, v4
 

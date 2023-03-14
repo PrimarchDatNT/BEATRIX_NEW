@@ -796,7 +796,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f0f095f
+    sget v5, Lcom/res/provider/ResSTRING;->t_download_all:I
 
     .line 7
     invoke-static {v5}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -839,13 +839,13 @@
     goto :goto_1
 
     :cond_2
-    const v5, 0x7f0f09ac
+    sget v5, Lcom/res/provider/ResSTRING;->t_free_trial:I
 
     goto :goto_2
 
     :cond_3
     :goto_1
-    const v5, 0x7f0f0a89
+    sget v5, Lcom/res/provider/ResSTRING;->t_use_now:I
 
     :goto_2
     invoke-static {v5}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -1306,7 +1306,7 @@
 
     iput-object v0, p0, Lcom/commsource/store/filter/b;->c:Lcom/commsource/store/filter/FilterStoreViewModel;
 
-    const v0, 0x7f0c0107
+    sget v0, Lcom/res/provider/ResLAYOUT;->fragment_shop_filter_detail:I
 
     const/4 v1, 0x0
 

@@ -132,7 +132,7 @@
 
     if-nez v1, :cond_0
 
-    const p1, 0x7f0f09f2
+    sget p1, Lcom/res/provider/ResSTRING;->t_layers_limited:I
 
     .line 4
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V
@@ -173,7 +173,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f0f0ae0
+    sget p1, Lcom/res/provider/ResSTRING;->unable_to_apply_special_filter:I
 
     .line 8
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

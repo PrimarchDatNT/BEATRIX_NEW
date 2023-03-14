@@ -49,7 +49,7 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/r8;->O:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f09055c
+    sget v2, Lcom/res/provider/ResID;->rv_manual_tab:I
 
     const/16 v3, 0x8
 
@@ -352,7 +352,7 @@
 
     const/4 v9, 0x0
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v8, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

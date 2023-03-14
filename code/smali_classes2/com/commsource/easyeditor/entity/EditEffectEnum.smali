@@ -68,9 +68,9 @@
 
     const/16 v4, 0x4e29
 
-    const v5, 0x7f0f04d1
+    sget v5, Lcom/res/provider/ResSTRING;->if_ee_crop_rotate:I
 
-    const v6, 0x7f0f02bb
+    sget v6, Lcom/res/provider/ResSTRING;->crop_rotate:I
 
     move-object v1, v7
 
@@ -87,9 +87,9 @@
 
     const/16 v11, 0x4e22
 
-    const v12, 0x7f0f0484
+    sget v12, Lcom/res/provider/ResSTRING;->if_camera_filter:I
 
-    const v13, 0x7f0f038e
+    sget v13, Lcom/res/provider/ResSTRING;->filter:I
 
     move-object v8, v1
 
@@ -106,9 +106,9 @@
 
     const/16 v17, 0x4e21
 
-    const v18, 0x7f0f04da
+    sget v18, Lcom/res/provider/ResSTRING;->if_enhance:I
 
-    const v19, 0x7f0f0144
+    sget v19, Lcom/res/provider/ResSTRING;->beauty_main_aienhance:I
 
     move-object v14, v2
 
@@ -125,9 +125,9 @@
 
     const/16 v11, 0x4e23
 
-    const v12, 0x7f0f0527
+    sget v12, Lcom/res/provider/ResSTRING;->if_soft_focus:I
 
-    const v13, 0x7f0f0330
+    sget v13, Lcom/res/provider/ResSTRING;->ee_blur:I
 
     move-object v8, v3
 
@@ -144,9 +144,9 @@
 
     const/16 v17, 0x4e24
 
-    const v18, 0x7f0f047f
+    sget v18, Lcom/res/provider/ResSTRING;->if_brightness:I
 
-    const v19, 0x7f0f0148
+    sget v19, Lcom/res/provider/ResSTRING;->beauty_main_brightness:I
 
     const/high16 v20, -0x40800000    # -1.0f
 
@@ -167,9 +167,9 @@
 
     const/16 v25, 0x4e25
 
-    const v26, 0x7f0f0497
+    sget v26, Lcom/res/provider/ResSTRING;->if_contrast:I
 
-    const v27, 0x7f0f014a
+    sget v27, Lcom/res/provider/ResSTRING;->beauty_main_contrast:I
 
     const/high16 v28, -0x40800000    # -1.0f
 
@@ -190,9 +190,9 @@
 
     const/16 v11, 0x4e26
 
-    const v12, 0x7f0f049d
+    sget v12, Lcom/res/provider/ResSTRING;->if_definition:I
 
-    const v13, 0x7f0f014e
+    sget v13, Lcom/res/provider/ResSTRING;->beauty_main_definition:I
 
     move-object v8, v6
 
@@ -211,11 +211,11 @@
 
     const/16 v18, 0x0
 
-    const v19, 0x7f0f0173
+    sget v19, Lcom/res/provider/ResSTRING;->beauty_main_saturation:I
 
-    const v22, 0x7f080282
+    sget v22, Lcom/res/provider/ResDRAWABLE;->miniapp_saturation_icon:I
 
-    const v23, 0x7f080283
+    sget v23, Lcom/res/provider/ResDRAWABLE;->miniapp_saturation_icon_selected:I
 
     move-object v14, v8
 
@@ -232,9 +232,9 @@
 
     const/16 v27, 0x4e28
 
-    const v28, 0x7f0f0546
+    sget v28, Lcom/res/provider/ResSTRING;->if_temperature:I
 
-    const v29, 0x7f0f0149
+    sget v29, Lcom/res/provider/ResSTRING;->beauty_main_color_temperature:I
 
     const/high16 v30, -0x40800000    # -1.0f
 

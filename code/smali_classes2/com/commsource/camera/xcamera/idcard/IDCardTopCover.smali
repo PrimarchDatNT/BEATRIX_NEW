@@ -239,12 +239,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f060225
+    sget p1, Lcom/res/provider/ResCOLOR;->white:I
 
     goto :goto_1
 
     :cond_1
-    const p1, 0x7f060005
+    sget p1, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     .line 4
     :goto_1
@@ -943,7 +943,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c0097
+    sget v0, Lcom/res/provider/ResLAYOUT;->cover_id_card:I
 
     return v0
 .end method

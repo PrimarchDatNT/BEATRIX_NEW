@@ -138,7 +138,7 @@
 
     const/16 v5, 0x9
 
-    const v6, 0x7f0f02fb
+    sget v6, Lcom/res/provider/ResSTRING;->download_succeed:I
 
     invoke-static {v6}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 

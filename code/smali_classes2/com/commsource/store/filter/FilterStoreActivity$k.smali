@@ -141,9 +141,9 @@
 
     const-class v2, Lcom/commsource/store/filter/search/FilterSearchFragment;
 
-    const v3, 0x7f01003c
+    sget v3, Lcom/res/provider/ResANIM;->slide_right_in:I
 
-    const v4, 0x7f010039
+    sget v4, Lcom/res/provider/ResANIM;->slide_left_out:I
 
     invoke-virtual {v0, v1, v2, v3, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->f(Landroid/view/View;Ljava/lang/Class;II)Lcom/commsource/beautyplus/i0/a;
 

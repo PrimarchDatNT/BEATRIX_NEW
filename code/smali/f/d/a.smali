@@ -42,7 +42,7 @@
 .method protected B()I
     .locals 1
 
-    const v0, 0x7f100243
+    sget v0, Lcom/res/provider/ResSTYLE;->center_zoom_in_animation:I
 
     return v0
 .end method
@@ -50,7 +50,7 @@
 .method public C()I
     .locals 1
 
-    const v0, 0x7f100242
+    sget v0, Lcom/res/provider/ResSTYLE;->baseDialog:I
 
     return v0
 .end method
@@ -278,7 +278,7 @@
     .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    const p2, 0x7f090180
+    sget p2, Lcom/res/provider/ResID;->dataBinding:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->getTag(I)Ljava/lang/Object;

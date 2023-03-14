@@ -81,7 +81,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0c015b
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_language:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -230,7 +230,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ig;->b:Lcom/commsource/widget/BoldTextView;
 
-    const p2, 0x7f060010
+    sget p2, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
     invoke-static {p2}, Lcom/commsource/util/l0;->P(I)I
 
@@ -259,7 +259,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ig;->b:Lcom/commsource/widget/BoldTextView;
 
-    const p2, 0x7f060005
+    sget p2, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     invoke-static {p2}, Lcom/commsource/util/l0;->P(I)I
 

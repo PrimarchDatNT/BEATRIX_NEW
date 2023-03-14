@@ -220,7 +220,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0f06b8
+    sget v1, Lcom/res/provider/ResSTRING;->no_support_swicth_ar:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -243,7 +243,7 @@
 
     if-eqz v2, :cond_9
 
-    const p1, 0x7f0f00cb
+    sget p1, Lcom/res/provider/ResSTRING;->ar_lock_not_support:I
 
     .line 11
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

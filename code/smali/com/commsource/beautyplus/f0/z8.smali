@@ -49,42 +49,42 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/z8;->M:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090518
+    sget v2, Lcom/res/provider/ResID;->rl_look:I
 
     const/4 v3, 0x2
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09080b
+    sget v2, Lcom/res/provider/ResID;->xsbg:I
 
     const/4 v3, 0x3
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090111
+    sget v2, Lcom/res/provider/ResID;->cb_markup:I
 
     const/4 v3, 0x4
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09010d
+    sget v2, Lcom/res/provider/ResID;->cb_beauty:I
 
     const/4 v3, 0x5
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090804
+    sget v2, Lcom/res/provider/ResID;->xsb:I
 
     const/4 v3, 0x6
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090762
+    sget v2, Lcom/res/provider/ResID;->tv_type:I
 
     const/4 v3, 0x7
 

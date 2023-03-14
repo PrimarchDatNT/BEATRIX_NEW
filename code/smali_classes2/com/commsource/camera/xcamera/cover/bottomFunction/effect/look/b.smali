@@ -96,7 +96,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c0160
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_look:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -431,7 +431,7 @@
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/sg;->p:Landroid/widget/ImageView;
 
-    const v1, 0x7f0800fa
+    sget v1, Lcom/res/provider/ResDRAWABLE;->common_corner_premium_white_shadow:I
 
     invoke-virtual {p3, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -477,7 +477,7 @@
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/sg;->g:Lcom/commsource/widget/CornerImageView;
 
-    const v0, 0x7f08013d
+    sget v0, Lcom/res/provider/ResDRAWABLE;->corner_new_large:I
 
     invoke-virtual {p2, v0}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
@@ -577,7 +577,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080327
+    sget v3, Lcom/res/provider/ResDRAWABLE;->selfie_filter_icon_placeholder:I
 
     .line 6
     invoke-virtual {v2, v3}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;

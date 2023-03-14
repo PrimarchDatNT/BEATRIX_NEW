@@ -178,7 +178,7 @@
 
     iput-object p3, p0, Lcom/commsource/widget/part/XSeekBubbleView;->b:Landroid/widget/ImageView;
 
-    const p1, 0x7f080130
+    sget p1, Lcom/res/provider/ResDRAWABLE;->common_slider_icon_segmented_bubble:I
 
     .line 5
     invoke-virtual {p3, p1}, Landroid/widget/ImageView;->setBackgroundResource(I)V

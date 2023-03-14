@@ -1348,14 +1348,14 @@
     return-void
 
     :cond_1
-    const p1, 0x7f0f0aca
+    sget p1, Lcom/res/provider/ResSTRING;->travel_ar_not_active:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
-    const v1, 0x7f0f0400
+    sget v1, Lcom/res/provider/ResSTRING;->go_it:I
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

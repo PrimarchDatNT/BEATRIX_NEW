@@ -126,7 +126,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f02a5
+    sget v2, Lcom/res/provider/ResSTRING;->confirm_ar_url_debug_pre:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -140,7 +140,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f02a4
+    sget v2, Lcom/res/provider/ResSTRING;->confirm_ar_url_debug:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -161,7 +161,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f02a6
+    sget v2, Lcom/res/provider/ResSTRING;->confirm_ar_url_pre:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -190,7 +190,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f02a3
+    sget v3, Lcom/res/provider/ResSTRING;->confirm_ar_url:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

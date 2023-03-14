@@ -323,7 +323,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f09035e
+    sget v3, Lcom/res/provider/ResID;->iv_photo:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

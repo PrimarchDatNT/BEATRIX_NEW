@@ -637,7 +637,7 @@
 
     if-nez v4, :cond_0
 
-    const v4, 0x7f0f004b
+    sget v4, Lcom/res/provider/ResSTRING;->ad_slot_album:I
 
     .line 2
     invoke-virtual {p1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -646,7 +646,7 @@
 
     invoke-static {v4}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->preloadAdvert(Ljava/lang/String;)V
 
-    const v4, 0x7f0f0053
+    sget v4, Lcom/res/provider/ResSTRING;->ad_slot_save_via_selfie:I
 
     .line 3
     invoke-virtual {p1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -655,7 +655,7 @@
 
     invoke-static {v4}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->preloadAdvert(Ljava/lang/String;)V
 
-    const v4, 0x7f0f004d
+    sget v4, Lcom/res/provider/ResSTRING;->ad_slot_banner_ai_beauty:I
 
     .line 4
     invoke-virtual {p1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;

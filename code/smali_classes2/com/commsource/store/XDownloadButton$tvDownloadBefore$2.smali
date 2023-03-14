@@ -100,7 +100,7 @@
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    const v2, 0x7f060010
+    sget v2, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
     .line 5
     invoke-static {v2}, Lcom/commsource/util/l0;->P(I)I
@@ -109,7 +109,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v2, 0x7f0f02f6
+    sget v2, Lcom/res/provider/ResSTRING;->download:I
 
     .line 6
     invoke-static {v2}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;

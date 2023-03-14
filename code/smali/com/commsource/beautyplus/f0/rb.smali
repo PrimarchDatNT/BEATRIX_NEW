@@ -54,70 +54,70 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/rb;->Y:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090804
+    sget v2, Lcom/res/provider/ResID;->xsb:I
 
     const/16 v3, 0x9
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090229
+    sget v2, Lcom/res/provider/ResID;->fl_seek_container:I
 
     const/16 v3, 0xa
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090558
+    sget v2, Lcom/res/provider/ResID;->rv_group:I
 
     const/16 v3, 0xb
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0907df
+    sget v2, Lcom/res/provider/ResID;->vp:I
 
     const/16 v3, 0xc
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090225
+    sget v2, Lcom/res/provider/ResID;->fl_right:I
 
     const/16 v3, 0xd
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0903e4
+    sget v2, Lcom/res/provider/ResID;->ll_makeup_scroll_tips:I
 
     const/16 v3, 0xe
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904ea
+    sget v2, Lcom/res/provider/ResID;->rightLine:I
 
     const/16 v3, 0xf
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09050f
+    sget v2, Lcom/res/provider/ResID;->rl_floating:I
 
     const/16 v3, 0x10
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901fd
+    sget v2, Lcom/res/provider/ResID;->fl_color:I
 
     const/16 v3, 0x11
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906d9
+    sget v2, Lcom/res/provider/ResID;->tv_floating:I
 
     const/16 v3, 0x12
 
@@ -440,7 +440,7 @@
 
     const/4 v11, 0x0
 
-    const v4, 0x7f06000b
+    sget v4, Lcom/res/provider/ResCOLOR;->Gray_E:I
 
     invoke-static {v10, v4}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -477,7 +477,7 @@
     .line 12
     iget-object v10, v1, Lcom/commsource/beautyplus/f0/qb;->c:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
 
-    const v4, 0x7f060225
+    sget v4, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v10, v4}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

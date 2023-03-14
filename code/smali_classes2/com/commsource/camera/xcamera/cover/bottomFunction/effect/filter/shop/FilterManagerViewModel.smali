@@ -351,7 +351,7 @@
     .line 15
     invoke-virtual {v4, v7}, Lcom/meitu/template/bean/Filter;->setFilterId(I)V
 
-    const v5, 0x7f0f036a
+    sget v5, Lcom/res/provider/ResSTRING;->favorites:I
 
     .line 16
     invoke-static {v5}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -405,7 +405,7 @@
     .line 22
     invoke-virtual {v4, v7}, Lcom/meitu/template/bean/Filter;->setFilterId(I)V
 
-    const v5, 0x7f0f03ac
+    sget v5, Lcom/res/provider/ResSTRING;->filter_recommend:I
 
     .line 23
     invoke-static {v5}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

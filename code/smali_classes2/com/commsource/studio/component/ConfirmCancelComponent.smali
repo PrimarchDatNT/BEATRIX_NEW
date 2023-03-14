@@ -425,7 +425,7 @@
 
     new-array v3, v2, [Ljava/lang/String;
 
-    const v4, 0x7f0f0091
+    sget v4, Lcom/res/provider/ResSTRING;->ajust_the_effect_area:I
 
     .line 2
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -436,7 +436,7 @@
 
     aput-object v4, v3, v5
 
-    const v4, 0x7f0f0ad2
+    sget v4, Lcom/res/provider/ResSTRING;->try_more_effect:I
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -452,7 +452,7 @@
 
     new-array v2, v2, [Ljava/lang/Integer;
 
-    const v3, 0x7f0801a3
+    sget v3, Lcom/res/provider/ResDRAWABLE;->edit_softfocus_icon_guide_red:I
 
     .line 3
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -461,7 +461,7 @@
 
     aput-object v3, v2, v5
 
-    const v3, 0x7f0801a2
+    sget v3, Lcom/res/provider/ResDRAWABLE;->edit_softfocus_icon_guide:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

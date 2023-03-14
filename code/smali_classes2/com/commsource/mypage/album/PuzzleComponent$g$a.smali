@@ -77,7 +77,7 @@
 
     if-eq v1, v2, :cond_0
 
-    const v1, 0x7f0f0553
+    sget v1, Lcom/res/provider/ResSTRING;->image_bad:I
 
     .line 2
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V
@@ -85,7 +85,7 @@
     goto/16 :goto_1
 
     :cond_0
-    const v1, 0x7f0f0a04
+    sget v1, Lcom/res/provider/ResSTRING;->t_not_support_ratio:I
 
     .line 3
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V
@@ -143,7 +143,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f0f0768
+    sget v1, Lcom/res/provider/ResSTRING;->puzzle_max:I
 
     .line 7
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V

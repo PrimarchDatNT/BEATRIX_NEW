@@ -141,7 +141,7 @@
 
     if-gtz v2, :cond_0
 
-    const v2, 0x7f10023a
+    sget v2, Lcom/res/provider/ResSTYLE;->advertDialog:I
 
     .line 3
     iput v2, p0, Lcom/commsource/camera/c0$a;->d:I
@@ -171,7 +171,7 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/widget/dialog/l0;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
-    const v3, 0x7f0c006d
+    sget v3, Lcom/res/provider/ResLAYOUT;->camera_advert_dialog:I
 
     const/4 v4, 0x0
 
@@ -182,7 +182,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0903bc
+    sget v3, Lcom/res/provider/ResID;->ll_ad_container:I
 
     .line 9
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -193,7 +193,7 @@
 
     iput-object v3, p0, Lcom/commsource/camera/c0$a;->f:Lcom/meitu/hwbusinesskit/core/widget/NativeAdView;
 
-    const v3, 0x7f09030b
+    sget v3, Lcom/res/provider/ResID;->iv_cancel:I
 
     .line 10
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -202,7 +202,7 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    const v4, 0x7f090500
+    sget v4, Lcom/res/provider/ResID;->rl_cancle:I
 
     .line 11
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -225,7 +225,7 @@
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f090495
+    sget v3, Lcom/res/provider/ResID;->piv_report_enter:I
 
     .line 14
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -245,7 +245,7 @@
 
     move-result-object v4
 
-    const v6, 0x7f0f0ae8
+    sget v6, Lcom/res/provider/ResSTRING;->unlock_filter_xx:I
 
     new-array v7, v1, [Ljava/lang/Object;
 

@@ -1179,7 +1179,7 @@
 
     if-eqz v1, :cond_4
 
-    const v1, 0x7f0f0934
+    sget v1, Lcom/res/provider/ResSTRING;->t_all:I
 
     .line 3
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -1200,7 +1200,7 @@
 
     if-eqz v1, :cond_4
 
-    const v1, 0x7f0f03b3
+    sget v1, Lcom/res/provider/ResSTRING;->filter_shop_premium:I
 
     .line 5
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1221,7 +1221,7 @@
 
     if-eqz v1, :cond_4
 
-    const v1, 0x7f0f03ac
+    sget v1, Lcom/res/provider/ResSTRING;->filter_recommend:I
 
     .line 7
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1242,7 +1242,7 @@
 
     if-eqz v1, :cond_4
 
-    const v1, 0x7f0f036a
+    sget v1, Lcom/res/provider/ResSTRING;->favorites:I
 
     .line 9
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

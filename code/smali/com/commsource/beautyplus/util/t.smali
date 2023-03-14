@@ -107,7 +107,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0f0ade
+    sget v1, Lcom/res/provider/ResSTRING;->unable_network:I
 
     .line 1
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -118,7 +118,7 @@
 
     if-ne p1, v2, :cond_0
 
-    const p1, 0x7f0f06b9
+    sget p1, Lcom/res/provider/ResSTRING;->no_support_wap:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -132,7 +132,7 @@
 
     if-ne p1, v2, :cond_1
 
-    const p1, 0x7f0f0226
+    sget p1, Lcom/res/provider/ResSTRING;->check_network:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -146,7 +146,7 @@
 
     if-ne p1, v2, :cond_2
 
-    const p1, 0x7f0f06b5
+    sget p1, Lcom/res/provider/ResSTRING;->no_start_network:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -160,7 +160,7 @@
 
     if-ne p1, v2, :cond_3
 
-    const p1, 0x7f0f0227
+    sget p1, Lcom/res/provider/ResSTRING;->check_network_exception:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -443,7 +443,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0f074d
+    sget v1, Lcom/res/provider/ResSTRING;->prompt:I
 
     .line 1
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -456,7 +456,7 @@
 
     invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p0, 0x7f0f03d2
+    sget p0, Lcom/res/provider/ResSTRING;->for_network_setup:I
 
     .line 2
     invoke-virtual {p1, p0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -469,7 +469,7 @@
 
     move-result-object v3
 
-    const p0, 0x7f0f0852
+    sget p0, Lcom/res/provider/ResSTRING;->setting:I
 
     invoke-virtual {p1, p0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -479,7 +479,7 @@
 
     invoke-direct {v5, p3, p1, p2}, Lcom/commsource/beautyplus/util/b;-><init>(ZLandroid/app/Activity;I)V
 
-    const p0, 0x7f0f0212
+    sget p0, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 3
     invoke-virtual {p1, p0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

@@ -1025,7 +1025,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080180
+    sget v2, Lcom/res/provider/ResDRAWABLE;->edit_doodle_default_icon:I
 
     .line 11
     invoke-virtual {v1, v2}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;

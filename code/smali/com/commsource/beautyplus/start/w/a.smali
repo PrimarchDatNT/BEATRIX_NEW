@@ -178,7 +178,7 @@
 
     if-nez p1, :cond_3
 
-    const p1, 0x7f0f0050
+    sget p1, Lcom/res/provider/ResSTRING;->ad_slot_launch_ad:I
 
     .line 18
     invoke-virtual {v1, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

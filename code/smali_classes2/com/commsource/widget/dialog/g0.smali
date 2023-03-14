@@ -333,7 +333,7 @@
 
     const/4 p1, 0x0
 
-    const v1, 0x7f100242
+    sget v1, Lcom/res/provider/ResSTYLE;->baseDialog:I
 
     .line 2
     invoke-virtual {p0, p1, v1}, Lcom/commsource/widget/dialog/i0;->setStyle(II)V
@@ -367,7 +367,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f100243
+    sget v2, Lcom/res/provider/ResSTYLE;->center_zoom_in_animation:I
 
     invoke-virtual {v1, v2}, Landroid/view/Window;->setWindowAnimations(I)V
 
@@ -399,7 +399,7 @@
     .line 1
     invoke-virtual {p0, p3}, Lcom/commsource/widget/dialog/i0;->setCancelable(Z)V
 
-    const v0, 0x7f0c00b6
+    sget v0, Lcom/res/provider/ResLAYOUT;->dialog_ai_beauty_guide:I
 
     const/4 v1, 0x0
 
@@ -557,7 +557,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080161
+    sget v2, Lcom/res/provider/ResDRAWABLE;->edit_aibeauty_img_guide_dark:I
 
     invoke-static {v1, v2}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -572,7 +572,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080160
+    sget v3, Lcom/res/provider/ResDRAWABLE;->edit_aibeauty_img_guide_bright:I
 
     invoke-static {v2, v3}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -606,7 +606,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0801e1
+    sget v1, Lcom/res/provider/ResDRAWABLE;->ic_ai_beauty_loading:I
 
     .line 11
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

@@ -109,7 +109,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f09bc
+    sget v2, Lcom/res/provider/ResSTRING;->t_guide_policy:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -121,7 +121,7 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    const v1, 0x7f0f09bd
+    sget v1, Lcom/res/provider/ResSTRING;->t_guide_policy_agree:I
 
     .line 3
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -138,7 +138,7 @@
 
     invoke-static {p1, v1, v2}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->e(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lkotlin/jvm/u/l;)V
 
-    const v1, 0x7f0f09be
+    sget v1, Lcom/res/provider/ResSTRING;->t_guide_policy_refuse:I
 
     .line 4
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

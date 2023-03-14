@@ -1366,7 +1366,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0801b5
+    sget v2, Lcom/res/provider/ResDRAWABLE;->edit_tick_icon:I
 
     invoke-static {v1, v2}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -1379,7 +1379,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08034a
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_makeup_multiple_face_ic_selecet:I
 
     invoke-static {v1, v2}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

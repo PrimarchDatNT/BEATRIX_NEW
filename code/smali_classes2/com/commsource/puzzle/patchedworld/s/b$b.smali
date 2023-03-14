@@ -32,7 +32,7 @@
     .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f09037a
+    sget v0, Lcom/res/provider/ResID;->iv_thumbnail:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -43,7 +43,7 @@
 
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/s/b$b;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f090366
+    sget v0, Lcom/res/provider/ResID;->iv_puzzle_color:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

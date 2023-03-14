@@ -44,28 +44,28 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/z5;->J:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090345
+    sget v2, Lcom/res/provider/ResID;->iv_image:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090438
+    sget v2, Lcom/res/provider/ResID;->mmfsv_multiple_face_view:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090296
+    sget v2, Lcom/res/provider/ResID;->ibtn_face_select_cancel:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090712
+    sget v2, Lcom/res/provider/ResID;->tv_ok:I
 
     const/4 v3, 0x4
 

@@ -1159,7 +1159,7 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v0, 0x7f0c00e6
+    sget v0, Lcom/res/provider/ResLAYOUT;->fragment_ee_crop_rotate:I
 
     const/4 v1, 0x0
 

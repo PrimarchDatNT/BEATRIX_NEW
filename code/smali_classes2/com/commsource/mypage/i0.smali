@@ -180,7 +180,7 @@
 
     check-cast v1, Lcom/bumptech/glide/request/g;
 
-    const v2, 0x7f080166
+    sget v2, Lcom/res/provider/ResDRAWABLE;->edit_album_icon_placeholder:I
 
     .line 9
     invoke-virtual {v1, v2}, Lcom/bumptech/glide/request/a;->w0(I)Lcom/bumptech/glide/request/a;
@@ -805,7 +805,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0c0177
+    sget v1, Lcom/res/provider/ResLAYOUT;->item_preview_photo:I
 
     const/4 v2, 0x0
 

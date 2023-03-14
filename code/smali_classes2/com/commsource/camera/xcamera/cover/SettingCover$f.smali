@@ -104,7 +104,7 @@
 
     if-eqz p1, :cond_0
 
-    const v2, 0x7f0f083a
+    sget v2, Lcom/res/provider/ResSTRING;->selfie_setting_icon_snap_on:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -128,7 +128,7 @@
 
     if-eqz p1, :cond_1
 
-    const v2, 0x7f060010
+    sget v2, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 
@@ -181,7 +181,7 @@
 
     move-result-object v2
 
-    const p1, 0x7f0f0206
+    sget p1, Lcom/res/provider/ResSTRING;->camera_popup_setting_touch_picture_open:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -225,7 +225,7 @@
 
     if-eqz p1, :cond_5
 
-    const v2, 0x7f0f0839
+    sget v2, Lcom/res/provider/ResSTRING;->selfie_setting_icon_snap_off:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -249,7 +249,7 @@
 
     if-eqz p1, :cond_6
 
-    const v2, 0x7f060005
+    sget v2, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 
@@ -302,7 +302,7 @@
 
     move-result-object v2
 
-    const p1, 0x7f0f0205
+    sget p1, Lcom/res/provider/ResSTRING;->camera_popup_setting_touch_picture_close:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

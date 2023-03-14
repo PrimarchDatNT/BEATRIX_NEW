@@ -49,14 +49,14 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/r5;->J:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0907aa
+    sget v2, Lcom/res/provider/ResID;->vTvCancel:I
 
     const/4 v3, 0x3
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0907ac
+    sget v2, Lcom/res/provider/ResID;->vTvConfirm:I
 
     const/4 v3, 0x4
 
@@ -220,7 +220,7 @@
 
     const/4 v4, 0x0
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v3, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -255,7 +255,7 @@
 
     iget-object v0, v1, Lcom/commsource/beautyplus/f0/q5;->a:Landroid/widget/EditText;
 
-    const v3, 0x7f060059
+    sget v3, Lcom/res/provider/ResCOLOR;->color_19000000:I
 
     invoke-static {v0, v3}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

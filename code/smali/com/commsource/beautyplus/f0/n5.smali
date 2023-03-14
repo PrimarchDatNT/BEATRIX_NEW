@@ -39,35 +39,35 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/n5;->K:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090107
+    sget v2, Lcom/res/provider/ResID;->card:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0907e1
+    sget v2, Lcom/res/provider/ResID;->vp_common_dialog_b_d:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0903d4
+    sget v2, Lcom/res/provider/ResID;->ll_dialog_indicator:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090504
+    sget v2, Lcom/res/provider/ResID;->rl_common_dialog_viewpager:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090315
+    sget v2, Lcom/res/provider/ResID;->iv_common_dialog_vp_close:I
 
     const/4 v3, 0x5
 

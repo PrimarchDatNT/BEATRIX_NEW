@@ -232,7 +232,7 @@
     :goto_0
     iget-object p3, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$e;->a:Landroid/app/Activity;
 
-    const p4, 0x7f0f063f
+    sget p4, Lcom/res/provider/ResSTRING;->montage_too_many_face:I
 
     invoke-virtual {p3, p4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -308,7 +308,7 @@
     :goto_1
     iget-object p3, p0, Lcom/commsource/mypage/album/BpAlbumViewModel$e;->a:Landroid/app/Activity;
 
-    const p4, 0x7f0f0648
+    sget p4, Lcom/res/provider/ResSTRING;->montage_upload_photo_failed_tip:I
 
     invoke-virtual {p3, p4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

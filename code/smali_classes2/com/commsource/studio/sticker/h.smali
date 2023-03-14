@@ -72,7 +72,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c0188
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_sticker_group_layout:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -128,7 +128,7 @@
 
     const/4 p3, -0x8
 
-    const v1, 0x7f0801a7
+    sget v1, Lcom/res/provider/ResDRAWABLE;->edit_sticker_default_icon:I
 
     const-string v2, "itemView"
 
@@ -190,7 +190,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0801ac
+    sget p3, Lcom/res/provider/ResDRAWABLE;->edit_sticker_rec_icon:I
 
     .line 8
     invoke-virtual {p1, p3}, Lcom/commsource/util/u0$d;->k(I)Lcom/commsource/util/u0$d;
@@ -227,7 +227,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0801a8
+    sget p3, Lcom/res/provider/ResDRAWABLE;->edit_sticker_history_icon:I
 
     .line 12
     invoke-virtual {p1, p3}, Lcom/commsource/util/u0$d;->k(I)Lcom/commsource/util/u0$d;

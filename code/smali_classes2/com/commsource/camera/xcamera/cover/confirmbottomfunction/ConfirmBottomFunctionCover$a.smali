@@ -100,7 +100,7 @@
 
     if-eqz v1, :cond_0
 
-    const v2, 0x7f090201
+    sget v2, Lcom/res/provider/ResID;->fl_confirm_bottom_function:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setId(I)V
 

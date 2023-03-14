@@ -44,14 +44,14 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/nd;->g:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0900ac
+    sget v2, Lcom/res/provider/ResID;->biv:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090363
+    sget v2, Lcom/res/provider/ResID;->iv_pro:I
 
     const/4 v3, 0x2
 

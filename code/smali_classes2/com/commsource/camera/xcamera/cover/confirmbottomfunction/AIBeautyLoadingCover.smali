@@ -616,14 +616,14 @@
     .line 1
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    const v1, 0x7f0f08be
+    sget v1, Lcom/res/provider/ResSTRING;->so_beautful:I
 
     .line 2
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0f07a8
+    sget v2, Lcom/res/provider/ResSTRING;->retry:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -633,7 +633,7 @@
 
     invoke-direct {v3, p0}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/AIBeautyLoadingCover$c;-><init>(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/AIBeautyLoadingCover;)V
 
-    const v4, 0x7f0f0400
+    sget v4, Lcom/res/provider/ResSTRING;->go_it:I
 
     .line 3
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -947,7 +947,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c0085
+    sget v0, Lcom/res/provider/ResLAYOUT;->cover_ai_beauty_loading:I
 
     return v0
 .end method

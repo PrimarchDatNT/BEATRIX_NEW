@@ -99,7 +99,7 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/CircleDownloadProgressView;->setmStrokeWidth(I)V
 
-    const v2, 0x7f060010
+    sget v2, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
     .line 4
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
@@ -117,7 +117,7 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/CircleDownloadProgressView;->setmCircleRadius(I)V
 
-    const v2, 0x7f060012
+    sget v2, Lcom/res/provider/ResCOLOR;->Primary_C:I
 
     .line 6
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
@@ -126,7 +126,7 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/CircleDownloadProgressView;->setmMaskCircleColor(I)V
 
-    const v2, 0x7f060224
+    sget v2, Lcom/res/provider/ResCOLOR;->transparent:I
 
     .line 7
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I

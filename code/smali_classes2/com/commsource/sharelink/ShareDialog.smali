@@ -625,7 +625,7 @@
 
     if-nez v2, :cond_0
 
-    const v2, 0x7f0f0054
+    sget v2, Lcom/res/provider/ResSTRING;->ad_slot_selfie_save_icon:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -645,9 +645,9 @@
     .line 6
     new-instance v2, Lcom/commsource/sharelink/d;
 
-    const v4, 0x7f0f032a
+    sget v4, Lcom/res/provider/ResSTRING;->edit_share_icon_surprise_ad:I
 
-    const v5, 0x7f0f0a61
+    sget v5, Lcom/res/provider/ResSTRING;->t_surprise:I
 
     .line 7
     invoke-static {v5}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -943,7 +943,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f100269
+    sget v0, Lcom/res/provider/ResSTYLE;->up_down_animation:I
 
     return v0
 .end method
@@ -958,7 +958,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c00d0
+    sget v0, Lcom/res/provider/ResLAYOUT;->dialog_share_content:I
 
     return v0
 .end method
@@ -1149,7 +1149,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i6;->d:Landroid/widget/ImageView;
 
-    const v2, 0x7f0800d5
+    sget v2, Lcom/res/provider/ResDRAWABLE;->common_ad_container_bg_img:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1189,7 +1189,7 @@
 
     invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0f0053
+    sget v1, Lcom/res/provider/ResSTRING;->ad_slot_save_via_selfie:I
 
     .line 1
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

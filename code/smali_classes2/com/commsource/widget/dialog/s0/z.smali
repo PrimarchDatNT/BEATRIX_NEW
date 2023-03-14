@@ -244,7 +244,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f100243
+    sget v0, Lcom/res/provider/ResSTYLE;->center_zoom_in_animation:I
 
     return v0
 .end method
@@ -259,7 +259,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c00bb
+    sget v0, Lcom/res/provider/ResLAYOUT;->dialog_common_subscribe:I
 
     return v0
 .end method

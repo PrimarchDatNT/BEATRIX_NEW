@@ -3915,7 +3915,7 @@
     .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->l:Landroidx/lifecycle/MutableLiveData;
 
-    const v3, 0x7f0f0ae0
+    sget v3, Lcom/res/provider/ResSTRING;->unable_to_apply_special_filter:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -6711,7 +6711,7 @@
     .line 14
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->l:Landroidx/lifecycle/MutableLiveData;
 
-    const p2, 0x7f0f0ae0
+    sget p2, Lcom/res/provider/ResSTRING;->unable_to_apply_special_filter:I
 
     invoke-static {p2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -6741,7 +6741,7 @@
     .line 17
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->l:Landroidx/lifecycle/MutableLiveData;
 
-    const p2, 0x7f0f00d7
+    sget p2, Lcom/res/provider/ResSTRING;->ar_no_support_filter:I
 
     invoke-static {p2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

@@ -136,9 +136,9 @@
 
     const/4 v5, 0x1
 
-    const v6, 0x7f0f053f
+    sget v6, Lcom/res/provider/ResSTRING;->if_studio_shape_body_slim:I
 
-    const v7, 0x7f0f01df
+    sget v7, Lcom/res/provider/ResSTRING;->body:I
 
     const-string v8, "\u7626\u8eab"
 
@@ -167,9 +167,9 @@
 
     const/4 v6, 0x2
 
-    const v7, 0x7f0f04bb
+    sget v7, Lcom/res/provider/ResSTRING;->if_edit_icon_waist:I
 
-    const v8, 0x7f0f097c
+    sget v8, Lcom/res/provider/ResSTRING;->t_edit_reshape_waist:I
 
     const-string v9, "\u7626\u8170"
 
@@ -194,9 +194,9 @@
 
     const/4 v7, 0x3
 
-    const v8, 0x7f0f0541
+    sget v8, Lcom/res/provider/ResSTRING;->if_studio_shape_leg_slim:I
 
-    const v9, 0x7f0f0582
+    sget v9, Lcom/res/provider/ResSTRING;->leg:I
 
     const-string v10, "\u7626\u817f"
 
@@ -227,9 +227,9 @@
 
     const/4 v7, 0x4
 
-    const v8, 0x7f0f0540
+    sget v8, Lcom/res/provider/ResSTRING;->if_studio_shape_leg_long:I
 
-    const v9, 0x7f0f0583
+    sget v9, Lcom/res/provider/ResSTRING;->length:I
 
     const-string v10, "\u957f\u817f"
 
@@ -254,9 +254,9 @@
 
     const/4 v7, 0x5
 
-    const v8, 0x7f0f04b9
+    sget v8, Lcom/res/provider/ResSTRING;->if_edit_icon_breast:I
 
-    const v9, 0x7f0f0979
+    sget v9, Lcom/res/provider/ResSTRING;->t_edit_reshape_breast:I
 
     const-string v10, "\u4e30\u80f8"
 
@@ -281,9 +281,9 @@
 
     const/4 v7, 0x6
 
-    const v8, 0x7f0f04ba
+    sget v8, Lcom/res/provider/ResSTRING;->if_edit_icon_shoulder:I
 
-    const v9, 0x7f0f097b
+    sget v9, Lcom/res/provider/ResSTRING;->t_edit_reshape_shoulder:I
 
     const-string v10, "\u80a9\u5bbd"
 
@@ -310,9 +310,9 @@
 
     const/4 v7, 0x7
 
-    const v8, 0x7f0f053e
+    sget v8, Lcom/res/provider/ResSTRING;->if_studio_shape_arm_slim:I
 
-    const v9, 0x7f0f00ef
+    sget v9, Lcom/res/provider/ResSTRING;->arm:I
 
     const-string v10, "\u7626\u624b\u81c2"
 
@@ -339,9 +339,9 @@
 
     const/16 v7, 0x8
 
-    const v8, 0x7f0f0544
+    sget v8, Lcom/res/provider/ResSTRING;->if_taller:I
 
-    const v9, 0x7f0f0437
+    sget v9, Lcom/res/provider/ResSTRING;->heighting:I
 
     const-string v10, "\u589e\u9ad8"
 

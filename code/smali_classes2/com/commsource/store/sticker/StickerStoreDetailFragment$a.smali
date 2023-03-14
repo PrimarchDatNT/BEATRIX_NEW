@@ -80,9 +80,9 @@
 
     const-class v1, Lcom/commsource/store/sticker/StickerStoreDetailFragment;
 
-    const v2, 0x7f010038
+    sget v2, Lcom/res/provider/ResANIM;->slide_left_in:I
 
-    const v3, 0x7f01003d
+    sget v3, Lcom/res/provider/ResANIM;->slide_right_out:I
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->d(Ljava/lang/Class;II)Z
 

@@ -75,7 +75,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c0198
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_text_font_layout:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -350,7 +350,7 @@
 
     check-cast p1, Lcom/commsource/widget/AutoFitTextView;
 
-    const p3, 0x7f0f0a63
+    sget p3, Lcom/res/provider/ResSTRING;->t_system_fonts:I
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 
@@ -423,7 +423,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0802aa
+    sget p3, Lcom/res/provider/ResDRAWABLE;->placeholder_2:I
 
     .line 12
     invoke-virtual {p1, p3}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;

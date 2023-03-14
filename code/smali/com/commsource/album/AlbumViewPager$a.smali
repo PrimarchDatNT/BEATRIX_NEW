@@ -50,7 +50,7 @@
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f09035e
+    sget v1, Lcom/res/provider/ResID;->iv_photo:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -98,7 +98,7 @@
 
     if-eqz v1, :cond_0
 
-    const v2, 0x7f09035e
+    sget v2, Lcom/res/provider/ResID;->iv_photo:I
 
     .line 2
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

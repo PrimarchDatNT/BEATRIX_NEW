@@ -143,7 +143,7 @@
     :cond_2
     iget-object v1, p0, Lcom/commsource/mypage/e0;->a:Landroid/app/Activity;
 
-    const v3, 0x7f0f004b
+    sget v3, Lcom/res/provider/ResSTRING;->ad_slot_album:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

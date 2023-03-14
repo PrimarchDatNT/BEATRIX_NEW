@@ -44,84 +44,84 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/j6;->T:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090320
+    sget v2, Lcom/res/provider/ResID;->iv_dismiss:I
 
     const/4 v3, 0x3
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090759
+    sget v2, Lcom/res/provider/ResID;->tv_title:I
 
     const/4 v3, 0x4
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090564
+    sget v2, Lcom/res/provider/ResID;->rv_share_option:I
 
     const/4 v3, 0x5
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0905b9
+    sget v2, Lcom/res/provider/ResID;->share_platform_container:I
 
     const/4 v3, 0x6
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901f3
+    sget v2, Lcom/res/provider/ResID;->fl_ad:I
 
     const/4 v3, 0x7
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904f0
+    sget v2, Lcom/res/provider/ResID;->rl_ad_container:I
 
     const/16 v3, 0x8
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0903bc
+    sget v2, Lcom/res/provider/ResID;->ll_ad_container:I
 
     const/16 v3, 0x9
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090173
+    sget v2, Lcom/res/provider/ResID;->csav_ad_view:I
 
     const/16 v3, 0xa
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090495
+    sget v2, Lcom/res/provider/ResID;->piv_report_enter:I
 
     const/16 v3, 0xb
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09050a
+    sget v2, Lcom/res/provider/ResID;->rl_default_ad:I
 
     const/16 v3, 0xc
 
     .line 12
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09031c
+    sget v2, Lcom/res/provider/ResID;->iv_default_ad:I
 
     const/16 v3, 0xd
 
     .line 13
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900e2
+    sget v2, Lcom/res/provider/ResID;->btn_dismiss:I
 
     const/16 v3, 0xe
 
@@ -344,7 +344,7 @@
 
     const/4 v3, 0x0
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v2, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -369,7 +369,7 @@
     .line 6
     iget-object v0, p0, Lcom/commsource/beautyplus/f0/i6;->O:Lcom/commsource/widget/PressTextView;
 
-    const v2, 0x7f060005
+    sget v2, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     invoke-static {v0, v2}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -382,7 +382,7 @@
 
     const/4 v4, 0x0
 
-    const v0, 0x7f060007
+    sget v0, Lcom/res/provider/ResCOLOR;->Gray_Background:I
 
     invoke-static {v3, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

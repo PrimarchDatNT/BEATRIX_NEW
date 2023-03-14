@@ -44,35 +44,35 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/v2;->K:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090087
+    sget v2, Lcom/res/provider/ResID;->ar_pop_container:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902c5
+    sget v2, Lcom/res/provider/ResID;->image_container:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09007e
+    sget v2, Lcom/res/provider/ResID;->arPopView:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090405
+    sget v2, Lcom/res/provider/ResID;->loading_dialog:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090498
+    sget v2, Lcom/res/provider/ResID;->popView_indicator_left:I
 
     const/4 v3, 0x5
 

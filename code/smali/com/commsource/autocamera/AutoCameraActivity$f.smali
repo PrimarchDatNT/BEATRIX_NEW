@@ -48,7 +48,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/g;->W:Landroid/widget/ImageView;
 
-    const v1, 0x7f08025a
+    sget v1, Lcom/res/provider/ResDRAWABLE;->miniapp_gesture_bind_icon:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

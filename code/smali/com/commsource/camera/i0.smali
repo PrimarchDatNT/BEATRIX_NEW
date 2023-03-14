@@ -211,7 +211,7 @@
 
     const/4 p1, 0x0
 
-    const v1, 0x7f100241
+    sget v1, Lcom/res/provider/ResSTYLE;->ar_text_style:I
 
     .line 2
     invoke-virtual {p0, p1, v1}, Lcom/commsource/widget/dialog/i0;->setStyle(II)V
@@ -243,7 +243,7 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v0, 0x7f0c00dc
+    sget v0, Lcom/res/provider/ResLAYOUT;->fragment_ar_text_edit:I
 
     const/4 v1, 0x0
 

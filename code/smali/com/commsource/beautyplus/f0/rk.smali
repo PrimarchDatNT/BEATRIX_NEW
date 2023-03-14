@@ -49,35 +49,35 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/rk;->L:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0902fb
+    sget v2, Lcom/res/provider/ResID;->ivThumb:I
 
     const/4 v3, 0x2
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902f6
+    sget v2, Lcom/res/provider/ResID;->ivNew:I
 
     const/4 v3, 0x3
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902f7
+    sget v2, Lcom/res/provider/ResID;->ivPayMark:I
 
     const/4 v3, 0x4
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902f1
+    sget v2, Lcom/res/provider/ResID;->ivDownload:I
 
     const/4 v3, 0x5
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090535
+    sget v2, Lcom/res/provider/ResID;->rlv:I
 
     const/4 v3, 0x6
 
@@ -250,7 +250,7 @@
 
     const/4 v3, 0x0
 
-    const v0, 0x7f060007
+    sget v0, Lcom/res/provider/ResCOLOR;->Gray_Background:I
 
     invoke-static {v2, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

@@ -169,7 +169,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f08016b
+    sget v3, Lcom/res/provider/ResDRAWABLE;->edit_before_after_indicator_icon:I
 
     invoke-static {v2, v3}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -180,13 +180,13 @@
     .line 8
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$b;->J:Lcom/commsource/widget/BeforeAfterView;
 
-    const v2, 0x7f0f006b
+    sget v2, Lcom/res/provider/ResSTRING;->ai_editor_after:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f0f006c
+    sget v3, Lcom/res/provider/ResSTRING;->ai_editor_before:I
 
     .line 9
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

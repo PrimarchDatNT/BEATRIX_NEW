@@ -312,7 +312,7 @@
     .line 4
     invoke-virtual {v1, v2}, Lcom/commsource/widget/CircleImageView;->setFullCircle(Z)V
 
-    const v2, 0x7f080378
+    sget v2, Lcom/res/provider/ResDRAWABLE;->setting_test_func_entry_ic:I
 
     .line 5
     invoke-virtual {v1, v2}, Lcom/commsource/widget/CircleImageView;->setImageResource(I)V

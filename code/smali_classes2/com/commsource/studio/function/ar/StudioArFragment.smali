@@ -1504,7 +1504,7 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/studio/component/SeekComponent$b;->j(I)V
 
-    const v5, 0x7f0f011e
+    sget v5, Lcom/res/provider/ResSTRING;->beauty:I
 
     .line 7
     invoke-static {v5}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -1569,7 +1569,7 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/studio/component/SeekComponent$b;->j(I)V
 
-    const v5, 0x7f0f05a3
+    sget v5, Lcom/res/provider/ResSTRING;->make_up:I
 
     .line 17
     invoke-static {v5}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;

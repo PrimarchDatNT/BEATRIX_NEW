@@ -434,7 +434,7 @@
 
     const/4 v1, 0x4
 
-    const v2, 0x7f0f0503
+    sget v2, Lcom/res/provider/ResSTRING;->if_new_makeup_eye_brown:I
 
     if-eq p1, v1, :cond_4
 
@@ -462,7 +462,7 @@
     return v2
 
     :pswitch_0
-    const p1, 0x7f0f0508
+    sget p1, Lcom/res/provider/ResSTRING;->if_new_makeup_highlight:I
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -470,7 +470,7 @@
     return p1
 
     :pswitch_1
-    const p1, 0x7f0f0502
+    sget p1, Lcom/res/provider/ResSTRING;->if_new_makeup_brush:I
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -478,7 +478,7 @@
     return p1
 
     :pswitch_2
-    const p1, 0x7f0f0504
+    sget p1, Lcom/res/provider/ResSTRING;->if_new_makeup_eye_lash:I
 
     .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -486,7 +486,7 @@
     return p1
 
     :cond_0
-    const p1, 0x7f0f0506
+    sget p1, Lcom/res/provider/ResSTRING;->if_new_makeup_eye_smiles:I
 
     .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -494,7 +494,7 @@
     return p1
 
     :cond_1
-    const p1, 0x7f0f0507
+    sget p1, Lcom/res/provider/ResSTRING;->if_new_makeup_hair:I
 
     .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -502,7 +502,7 @@
     return p1
 
     :cond_2
-    const p1, 0x7f0f0505
+    sget p1, Lcom/res/provider/ResSTRING;->if_new_makeup_eye_shadow:I
 
     .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -510,7 +510,7 @@
     return p1
 
     :cond_3
-    const p1, 0x7f0f0501
+    sget p1, Lcom/res/provider/ResSTRING;->if_new_makeup_beauty_pupil:I
 
     .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -524,7 +524,7 @@
     return v2
 
     :cond_5
-    const p1, 0x7f0f0509
+    sget p1, Lcom/res/provider/ResSTRING;->if_new_makeup_lipstick:I
 
     .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1048,7 +1048,7 @@
 
     const/4 v1, 0x4
 
-    const v2, 0x7f0f034f
+    sget v2, Lcom/res/provider/ResSTRING;->eye_brow:I
 
     if-eq p1, v1, :cond_4
 
@@ -1076,7 +1076,7 @@
     return v2
 
     :pswitch_0
-    const p1, 0x7f0f05c7
+    sget p1, Lcom/res/provider/ResSTRING;->makeup_type_trimming:I
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1084,7 +1084,7 @@
     return p1
 
     :pswitch_1
-    const p1, 0x7f0f01de
+    sget p1, Lcom/res/provider/ResSTRING;->blush:I
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1092,7 +1092,7 @@
     return p1
 
     :pswitch_2
-    const p1, 0x7f0f05c6
+    sget p1, Lcom/res/provider/ResSTRING;->makeup_type_eye_lash:I
 
     .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1100,7 +1100,7 @@
     return p1
 
     :cond_0
-    const p1, 0x7f0f0972
+    sget p1, Lcom/res/provider/ResSTRING;->t_edit_makeup_eyesmiles:I
 
     .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1108,7 +1108,7 @@
     return p1
 
     :cond_1
-    const p1, 0x7f0f0428
+    sget p1, Lcom/res/provider/ResSTRING;->hair_dye:I
 
     .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1116,7 +1116,7 @@
     return p1
 
     :cond_2
-    const p1, 0x7f0f0354
+    sget p1, Lcom/res/provider/ResSTRING;->eye_shadow:I
 
     .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1124,7 +1124,7 @@
     return p1
 
     :cond_3
-    const p1, 0x7f0f05c5
+    sget p1, Lcom/res/provider/ResSTRING;->makeup_type_beauty_pupil:I
 
     .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1138,7 +1138,7 @@
     return v2
 
     :cond_5
-    const p1, 0x7f0f058b
+    sget p1, Lcom/res/provider/ResSTRING;->lip_stick:I
 
     .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

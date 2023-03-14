@@ -867,7 +867,7 @@
 
     const/4 v7, 0x2
 
-    const v8, 0x7f0f0a7c
+    sget v8, Lcom/res/provider/ResSTRING;->t_transparency:I
 
     const-string v9, "mViewBinding.seekBar1Title"
 
@@ -979,7 +979,7 @@
 
     invoke-static {v5, v9}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v7, 0x7f0f093d
+    sget v7, Lcom/res/provider/ResSTRING;->t_blur:I
 
     invoke-static {v7}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -1048,7 +1048,7 @@
 
     invoke-static {v5, v9}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v9, 0x7f0f0a70
+    sget v9, Lcom/res/provider/ResSTRING;->t_thickness:I
 
     invoke-static {v9}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

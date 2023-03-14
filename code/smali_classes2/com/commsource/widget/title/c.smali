@@ -167,7 +167,7 @@
     invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
 
     :cond_0
-    const p1, 0x7f090293
+    sget p1, Lcom/res/provider/ResID;->ibtn_back:I
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setId(I)V
 
@@ -191,7 +191,7 @@
     invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
 
     :cond_2
-    const v0, 0x7f060034
+    sget v0, Lcom/res/provider/ResCOLOR;->black:I
 
     invoke-static {v0}, Lcom/commsource/util/l0;->P(I)I
 

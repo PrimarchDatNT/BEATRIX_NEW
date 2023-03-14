@@ -251,7 +251,7 @@
 
     invoke-virtual {v1, v4}, Landroid/text/TextPaint;->setTextSize(F)V
 
-    const v1, 0x7f0f0650
+    sget v1, Lcom/res/provider/ResSTRING;->move_circle_to_try:I
 
     .line 7
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

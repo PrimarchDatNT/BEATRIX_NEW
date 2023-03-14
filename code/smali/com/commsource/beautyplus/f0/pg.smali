@@ -49,49 +49,49 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/pg;->O:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f09039c
+    sget v2, Lcom/res/provider/ResID;->layerThumbnail:I
 
     const/4 v3, 0x3
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090205
+    sget v2, Lcom/res/provider/ResID;->fl_content:I
 
     const/4 v3, 0x4
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09029b
+    sget v2, Lcom/res/provider/ResID;->iconThumbnail:I
 
     const/4 v3, 0x5
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090639
+    sget v2, Lcom/res/provider/ResID;->textThumbnail:I
 
     const/4 v3, 0x6
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901dd
+    sget v2, Lcom/res/provider/ResID;->filterName:I
 
     const/4 v3, 0x7
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090096
+    sget v2, Lcom/res/provider/ResID;->backgroundThumbnail:I
 
     const/16 v3, 0x8
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904a0
+    sget v2, Lcom/res/provider/ResID;->proIcon:I
 
     const/16 v3, 0x9
 
@@ -303,7 +303,7 @@
 
     const/high16 v6, 0x3f000000    # 0.5f
 
-    const v0, 0x7f060035
+    sget v0, Lcom/res/provider/ResCOLOR;->black10:I
 
     invoke-static {v3, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -326,7 +326,7 @@
 
     const/4 v14, 0x1
 
-    const v0, 0x7f06000d
+    sget v0, Lcom/res/provider/ResCOLOR;->Gray_Stroke:I
 
     invoke-static {v13, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

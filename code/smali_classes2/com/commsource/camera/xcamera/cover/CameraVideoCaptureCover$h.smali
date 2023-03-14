@@ -387,12 +387,12 @@
 
     if-eqz v1, :cond_d
 
-    const v1, 0x7f080322
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_camera_delete_video_icon_white:I
 
     goto :goto_4
 
     :cond_d
-    const v1, 0x7f080321
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_camera_delete_video_icon:I
 
     :goto_4
     invoke-virtual {p1, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V

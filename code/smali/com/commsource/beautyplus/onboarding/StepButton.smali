@@ -281,7 +281,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f08008f
+    sget p3, Lcom/res/provider/ResDRAWABLE;->arrow_right_next_icon:I
 
     invoke-static {p1, p3}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

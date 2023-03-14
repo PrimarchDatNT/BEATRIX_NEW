@@ -220,7 +220,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c012f
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_ar_top_bar:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -698,7 +698,7 @@
     :cond_b
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/id;->c:Lcom/commsource/widget/IconFrontView;
 
-    const p3, 0x7f06022b
+    sget p3, Lcom/res/provider/ResCOLOR;->white60:I
 
     invoke-static {p3}, Lcom/commsource/util/l0;->P(I)I
 

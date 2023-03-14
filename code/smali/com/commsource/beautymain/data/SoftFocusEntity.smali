@@ -252,7 +252,7 @@
     return-object v2
 
     :pswitch_0
-    const v2, 0x7f0f012b
+    sget v2, Lcom/res/provider/ResSTRING;->beauty_defocus_mosaic:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -264,7 +264,7 @@
     return-object v1
 
     :pswitch_1
-    const v2, 0x7f0f012c
+    sget v2, Lcom/res/provider/ResSTRING;->beauty_defocus_radial:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -276,7 +276,7 @@
     return-object v1
 
     :pswitch_2
-    const v2, 0x7f0f012e
+    sget v2, Lcom/res/provider/ResSTRING;->beauty_defocus_soft_focus:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -288,7 +288,7 @@
     return-object v1
 
     :pswitch_3
-    const v2, 0x7f0f0125
+    sget v2, Lcom/res/provider/ResSTRING;->beauty_defocus_drop:I
 
     .line 8
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -300,7 +300,7 @@
     return-object v1
 
     :pswitch_4
-    const v2, 0x7f0f0129
+    sget v2, Lcom/res/provider/ResSTRING;->beauty_defocus_heart:I
 
     .line 9
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -312,7 +312,7 @@
     return-object v1
 
     :pswitch_5
-    const v2, 0x7f0f012a
+    sget v2, Lcom/res/provider/ResSTRING;->beauty_defocus_hexagon:I
 
     .line 10
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -324,7 +324,7 @@
     return-object v1
 
     :pswitch_6
-    const v2, 0x7f0f012f
+    sget v2, Lcom/res/provider/ResSTRING;->beauty_defocus_swirl:I
 
     .line 11
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -336,7 +336,7 @@
     return-object v1
 
     :pswitch_7
-    const v2, 0x7f0f0126
+    sget v2, Lcom/res/provider/ResSTRING;->beauty_defocus_dynamic:I
 
     .line 12
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -348,7 +348,7 @@
     return-object v1
 
     :pswitch_8
-    const v2, 0x7f0f0128
+    sget v2, Lcom/res/provider/ResSTRING;->beauty_defocus_flare:I
 
     .line 13
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

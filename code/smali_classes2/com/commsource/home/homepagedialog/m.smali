@@ -133,7 +133,7 @@
 
     invoke-direct {v2}, Lcom/commsource/widget/dialog/s0/t$a;-><init>()V
 
-    const v3, 0x7f0f0378
+    sget v3, Lcom/res/provider/ResSTRING;->feed_back_prompt_save_video:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -143,7 +143,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f02a7
+    sget v3, Lcom/res/provider/ResSTRING;->confirm_save:I
 
     .line 3
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -179,7 +179,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0212
+    sget v2, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 7
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

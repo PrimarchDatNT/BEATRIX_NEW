@@ -51,7 +51,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070163
+    sget v3, Lcom/res/provider/ResDIMEN;->tip_small_text_size:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -65,7 +65,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070162
+    sget v3, Lcom/res/provider/ResDIMEN;->tip_large_text_size:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -79,7 +79,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f070161
+    sget v4, Lcom/res/provider/ResDIMEN;->tip_horizon_padding:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -90,7 +90,7 @@
 
     move-result-object p0
 
-    const v4, 0x7f070160
+    sget v4, Lcom/res/provider/ResDIMEN;->tip_bottom_padding:I
 
     invoke-virtual {p0, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

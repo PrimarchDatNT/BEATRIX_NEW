@@ -120,7 +120,7 @@
 
     if-nez v2, :cond_0
 
-    const v0, 0x7f0f033f
+    sget v0, Lcom/res/provider/ResSTRING;->error_network:I
 
     .line 4
     invoke-static {v0}, Lf/k/c/c/f;->H(I)V

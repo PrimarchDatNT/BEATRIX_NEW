@@ -61,7 +61,7 @@
 
     const-string v3, ""
 
-    const v4, 0x7f0f008f
+    sget v4, Lcom/res/provider/ResSTRING;->airbrush_market_url:I
 
     if-ne v2, v4, :cond_2
 

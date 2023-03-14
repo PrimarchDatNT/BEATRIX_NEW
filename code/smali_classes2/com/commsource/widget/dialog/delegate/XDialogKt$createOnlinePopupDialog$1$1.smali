@@ -428,7 +428,7 @@
     :goto_c
     if-eqz v6, :cond_e
 
-    const v6, 0x7f0f02d5
+    sget v6, Lcom/res/provider/ResSTRING;->dialog_confirm:I
 
     .line 13
     invoke-static {v6}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -529,7 +529,7 @@
     :goto_10
     if-eqz v1, :cond_15
 
-    const v1, 0x7f0f0212
+    sget v1, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 19
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;

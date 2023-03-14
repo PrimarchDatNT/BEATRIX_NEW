@@ -126,7 +126,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c0180
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_shop_filter_group:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -503,7 +503,7 @@
 
     move-result-object v7
 
-    const v6, 0x7f0f02f6
+    sget v6, Lcom/res/provider/ResSTRING;->download:I
 
     .line 5
     invoke-static {v6}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -534,13 +534,13 @@
     goto :goto_2
 
     :cond_2
-    const v2, 0x7f0f09ac
+    sget v2, Lcom/res/provider/ResSTRING;->t_free_trial:I
 
     goto :goto_3
 
     :cond_3
     :goto_2
-    const v2, 0x7f0f0a89
+    sget v2, Lcom/res/provider/ResSTRING;->t_use_now:I
 
     :goto_3
     invoke-static {v2}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -787,7 +787,7 @@
 
     invoke-virtual {p3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f0f0392
+    sget v2, Lcom/res/provider/ResSTRING;->filter_count:I
 
     invoke-static {v2}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
@@ -965,7 +965,7 @@
     .line 12
     new-instance p3, Landroid/graphics/drawable/ColorDrawable;
 
-    const v1, 0x7f06000c
+    sget v1, Lcom/res/provider/ResCOLOR;->Gray_PlaceHolder:I
 
     invoke-static {v1}, Lcom/commsource/util/l0;->P(I)I
 

@@ -179,12 +179,12 @@
 
     if-eqz p1, :cond_4
 
-    const p1, 0x7f0800da
+    sget p1, Lcom/res/provider/ResDRAWABLE;->common_aibeauty_no_shadow_icon:I
 
     goto :goto_2
 
     :cond_4
-    const p1, 0x7f0800dd
+    sget p1, Lcom/res/provider/ResDRAWABLE;->common_aibeauty_shadow_icon:I
 
     .line 7
     :goto_2

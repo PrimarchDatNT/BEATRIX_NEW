@@ -89,7 +89,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c004a
+    sget v0, Lcom/res/provider/ResLAYOUT;->album_list_item:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -273,7 +273,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f080167
+    sget p2, Lcom/res/provider/ResDRAWABLE;->edit_album_placeholder:I
 
     .line 13
     invoke-virtual {p1, p2}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;

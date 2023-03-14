@@ -638,14 +638,14 @@
 
     if-nez v1, :cond_2
 
-    const v1, 0x7f0f0241
+    sget v1, Lcom/res/provider/ResSTRING;->cloud_album_dialog_wifi_tips_download:I
 
     .line 7
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0f06d1
+    sget v2, Lcom/res/provider/ResSTRING;->ok:I
 
     .line 8
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -656,7 +656,7 @@
 
     invoke-direct {v3, p0}, Lcom/commsource/studio/function/defocus/DeFocusFragment$a;-><init>(Lcom/commsource/studio/function/defocus/DeFocusFragment;)V
 
-    const v4, 0x7f0f0212
+    sget v4, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 9
     invoke-virtual {p1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -2416,7 +2416,7 @@
 
     iget-object v2, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
-    const v3, 0x7f10026a
+    sget v3, Lcom/res/provider/ResSTYLE;->updateDialog:I
 
     invoke-direct {v1, v2, v3}, Lcom/commsource/comic/widget/c;-><init>(Landroid/content/Context;I)V
 

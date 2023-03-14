@@ -172,7 +172,7 @@
     .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/component/ComponentView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const p1, 0x7f0f016d
+    sget p1, Lcom/res/provider/ResSTRING;->beauty_main_not_auto_model:I
 
     .line 2
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

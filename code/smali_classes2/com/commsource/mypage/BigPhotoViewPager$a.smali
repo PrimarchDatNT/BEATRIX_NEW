@@ -70,7 +70,7 @@
 
     check-cast v0, Lcom/bumptech/glide/request/g;
 
-    const v3, 0x7f080372
+    sget v3, Lcom/res/provider/ResDRAWABLE;->setting_loading_icon_placeholder:I
 
     .line 5
     invoke-virtual {v0, v3}, Lcom/bumptech/glide/request/a;->w0(I)Lcom/bumptech/glide/request/a;
@@ -132,7 +132,7 @@
 
     check-cast v0, Lcom/bumptech/glide/request/g;
 
-    const v1, 0x7f080166
+    sget v1, Lcom/res/provider/ResDRAWABLE;->edit_album_icon_placeholder:I
 
     .line 13
     invoke-virtual {v0, v1}, Lcom/bumptech/glide/request/a;->w0(I)Lcom/bumptech/glide/request/a;
@@ -291,7 +291,7 @@
 
     move-result v1
 
-    const v2, 0x7f09035e
+    sget v2, Lcom/res/provider/ResID;->iv_photo:I
 
     const/4 v3, 0x0
 
@@ -308,7 +308,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f0c0136
+    sget v4, Lcom/res/provider/ResLAYOUT;->item_big_photo:I
 
     invoke-virtual {v1, v4, p1, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

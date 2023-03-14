@@ -39,84 +39,84 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/n7;->R:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f09005e
+    sget v2, Lcom/res/provider/ResID;->ai_adjustment_container:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0903fe
+    sget v2, Lcom/res/provider/ResID;->ll_title:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0907b7
+    sget v2, Lcom/res/provider/ResID;->v_ai_logo:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09069e
+    sget v2, Lcom/res/provider/ResID;->tv_beauty_title:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090062
+    sget v2, Lcom/res/provider/ResID;->ai_beauty_seek_bar:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09070a
+    sget v2, Lcom/res/provider/ResID;->tv_natural:I
 
     const/4 v3, 0x6
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090744
+    sget v2, Lcom/res/provider/ResID;->tv_smooth:I
 
     const/4 v3, 0x7
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090719
+    sget v2, Lcom/res/provider/ResID;->tv_perclein:I
 
     const/16 v3, 0x8
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0903c2
+    sget v2, Lcom/res/provider/ResID;->ll_ai_bottom_menu:I
 
     const/16 v3, 0x9
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090295
+    sget v2, Lcom/res/provider/ResID;->ibtn_beauty_cancel:I
 
     const/16 v3, 0xa
 
     .line 12
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090294
+    sget v2, Lcom/res/provider/ResID;->ibtn_beauty_apply:I
 
     const/16 v3, 0xb
 
     .line 13
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090724
+    sget v2, Lcom/res/provider/ResID;->tv_progress:I
 
     const/16 v3, 0xc
 

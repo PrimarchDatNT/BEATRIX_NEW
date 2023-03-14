@@ -176,7 +176,7 @@
     .line 9
     new-instance v4, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;
 
-    const v5, 0x7f080331
+    sget v5, Lcom/res/provider/ResDRAWABLE;->selfie_ipar_icon_store:I
 
     invoke-direct {v4, v3, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;-><init>(II)V
 
@@ -217,7 +217,7 @@
 
     const/4 v4, 0x3
 
-    const v5, 0x7f080355
+    sget v5, Lcom/res/provider/ResDRAWABLE;->selfie_montage_jump_icon:I
 
     invoke-direct {v3, v4, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;-><init>(II)V
 
@@ -248,7 +248,7 @@
 
     const/4 v1, 0x2
 
-    const v2, 0x7f080304
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_ar_giphy_icon:I
 
     invoke-direct {p2, v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;-><init>(II)V
 

@@ -79,7 +79,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c013b
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_camera_filter_normal:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/a;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -232,7 +232,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f0802ac
+    sget v5, Lcom/res/provider/ResDRAWABLE;->placeholder_stickers_45:I
 
     .line 12
     invoke-virtual {v3, v5}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;

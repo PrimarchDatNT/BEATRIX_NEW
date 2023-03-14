@@ -106,12 +106,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f08032d
+    sget p1, Lcom/res/provider/ResDRAWABLE;->selfie_giphy_icon_trash_pressed:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f08032c
+    sget p1, Lcom/res/provider/ResDRAWABLE;->selfie_giphy_icon_trash:I
 
     :goto_0
     invoke-virtual {v1, p1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V

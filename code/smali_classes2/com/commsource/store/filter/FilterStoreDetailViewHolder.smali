@@ -146,7 +146,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c017c
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_shop_detail:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -751,7 +751,7 @@
 
     move-result-object v7
 
-    const v4, 0x7f0f02f6
+    sget v4, Lcom/res/provider/ResSTRING;->download:I
 
     .line 21
     invoke-static {v4}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -789,7 +789,7 @@
     if-eqz v4, :cond_9
 
     :cond_8
-    const v4, 0x7f0f0af9
+    sget v4, Lcom/res/provider/ResSTRING;->use_now:I
 
     :goto_4
     invoke-static {v4}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -801,7 +801,7 @@
     goto :goto_5
 
     :cond_9
-    const v4, 0x7f0f09ac
+    sget v4, Lcom/res/provider/ResSTRING;->t_free_trial:I
 
     goto :goto_4
 

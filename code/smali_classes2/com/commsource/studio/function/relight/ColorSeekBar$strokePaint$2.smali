@@ -118,7 +118,7 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    const v2, 0x7f060035
+    sget v2, Lcom/res/provider/ResCOLOR;->black10:I
 
     .line 5
     invoke-static {v2}, Lcom/commsource/util/l0;->P(I)I

@@ -287,7 +287,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f08019e
+    sget v1, Lcom/res/provider/ResDRAWABLE;->edit_scroll_fast_icon:I
 
     invoke-static {p1, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

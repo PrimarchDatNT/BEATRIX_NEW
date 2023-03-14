@@ -34,7 +34,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0c0125
+    sget v0, Lcom/res/provider/ResLAYOUT;->image_quality_dialog:I
 
     const/4 v1, 0x0
 
@@ -59,7 +59,7 @@
     .line 9
     iget-object v2, p0, Lcom/commsource/beautyplus/setting/widget/a;->a:[Landroid/widget/TextView;
 
-    const v3, 0x7f0906a4
+    sget v3, Lcom/res/provider/ResID;->tv_btn_standard:I
 
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -79,7 +79,7 @@
     .line 11
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/widget/a;->a:[Landroid/widget/TextView;
 
-    const v2, 0x7f0906a3
+    sget v2, Lcom/res/provider/ResID;->tv_btn_normal:I
 
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -106,7 +106,7 @@
 
     move-result-wide v2
 
-    const v4, 0x7f0906a2
+    sget v4, Lcom/res/provider/ResID;->tv_btn_hd:I
 
     const/4 v5, 0x2
 
@@ -137,7 +137,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0901a1
+    sget v2, Lcom/res/provider/ResID;->divide_line_02:I
 
     .line 17
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -183,7 +183,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06013a
+    sget v0, Lcom/res/provider/ResCOLOR;->color_fb5986:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -212,7 +212,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0601ad
+    sget v2, Lcom/res/provider/ResCOLOR;->image_quality_dialog_text_color_sel:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -223,7 +223,7 @@
 
     move-result p1
 
-    const v2, 0x7f06013a
+    sget v2, Lcom/res/provider/ResCOLOR;->color_fb5986:I
 
     const/4 v3, 0x1
 

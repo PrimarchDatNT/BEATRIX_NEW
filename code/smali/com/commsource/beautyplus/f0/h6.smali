@@ -39,70 +39,70 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/h6;->Q:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090107
+    sget v2, Lcom/res/provider/ResID;->card:I
 
     const/4 v3, 0x2
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09056b
+    sget v2, Lcom/res/provider/ResID;->sameple_iamge:I
 
     const/4 v3, 0x3
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090192
+    sget v2, Lcom/res/provider/ResID;->dialog_first_frame:I
 
     const/4 v3, 0x4
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09042b
+    sget v2, Lcom/res/provider/ResID;->material_description:I
 
     const/4 v3, 0x5
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0907ec
+    sget v2, Lcom/res/provider/ResID;->watch_video_container:I
 
     const/4 v3, 0x6
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090401
+    sget v2, Lcom/res/provider/ResID;->loading:I
 
     const/4 v3, 0x7
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0907ee
+    sget v2, Lcom/res/provider/ResID;->watch_video_tv:I
 
     const/16 v3, 0x8
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900e8
+    sget v2, Lcom/res/provider/ResID;->btn_purchase:I
 
     const/16 v3, 0x9
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900ea
+    sget v2, Lcom/res/provider/ResID;->btn_restore:I
 
     const/16 v3, 0xa
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900df
+    sget v2, Lcom/res/provider/ResID;->btn_cancel:I
 
     const/16 v3, 0xb
 

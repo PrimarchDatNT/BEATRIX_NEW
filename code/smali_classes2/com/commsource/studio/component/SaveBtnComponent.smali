@@ -254,7 +254,7 @@
     .line 6
     sget-object p1, Lcom/commsource/util/n2;->a:Lcom/commsource/util/n2;
 
-    const p2, 0x7f0600a5
+    sget p2, Lcom/res/provider/ResCOLOR;->color_80000000:I
 
     invoke-static {p2}, Lcom/commsource/util/l0;->P(I)I
 
@@ -307,7 +307,7 @@
 
     invoke-virtual {p1, p3}, Landroid/text/TextPaint;->setTextSize(F)V
 
-    const p3, 0x7f0f02a7
+    sget p3, Lcom/res/provider/ResSTRING;->confirm_save:I
 
     invoke-static {p3}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
@@ -330,7 +330,7 @@
 
     invoke-virtual {p1, p2}, Landroid/text/TextPaint;->setTextSize(F)V
 
-    const p2, 0x7f0f0a3e
+    sget p2, Lcom/res/provider/ResSTRING;->t_start_trial:I
 
     invoke-static {p2}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
@@ -945,7 +945,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k2;->c:Landroid/widget/ImageView;
 
-    const v1, 0x7f0800f7
+    sget v1, Lcom/res/provider/ResDRAWABLE;->common_corner_premium_black_shadow:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -966,7 +966,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k2;->c:Landroid/widget/ImageView;
 
-    const v1, 0x7f08035b
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_save_icon:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

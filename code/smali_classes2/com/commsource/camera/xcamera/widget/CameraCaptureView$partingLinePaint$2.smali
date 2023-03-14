@@ -109,7 +109,7 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    const v2, 0x7f060225
+    sget v2, Lcom/res/provider/ResCOLOR;->white:I
 
     .line 4
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I

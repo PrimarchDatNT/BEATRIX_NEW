@@ -1014,7 +1014,7 @@
 
     invoke-virtual {p2, p3}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    const p3, 0x7f060225
+    sget p3, Lcom/res/provider/ResCOLOR;->white:I
 
     .line 31
     invoke-static {p3}, Lcom/commsource/util/l0;->P(I)I
@@ -1043,7 +1043,7 @@
 
     invoke-virtual {p2, p3}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    const p3, 0x7f06022a
+    sget p3, Lcom/res/provider/ResCOLOR;->white50:I
 
     .line 36
     invoke-static {p3}, Lcom/commsource/util/l0;->P(I)I
@@ -1060,7 +1060,7 @@
 
     invoke-direct {p2, v4}, Landroid/graphics/Paint;-><init>(I)V
 
-    const p3, 0x7f060037
+    sget p3, Lcom/res/provider/ResCOLOR;->black30:I
 
     .line 39
     invoke-static {p3}, Lcom/commsource/util/l0;->P(I)I
@@ -1086,7 +1086,7 @@
 
     invoke-direct {p2, v4}, Landroid/graphics/Paint;-><init>(I)V
 
-    const p3, 0x7f06003b
+    sget p3, Lcom/res/provider/ResCOLOR;->black54:I
 
     .line 43
     invoke-static {p3}, Lcom/commsource/util/l0;->P(I)I
@@ -1877,7 +1877,7 @@
     .line 8
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
-    const v2, 0x7f060225
+    sget v2, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v2}, Lcom/commsource/util/l0;->P(I)I
 
@@ -2327,7 +2327,7 @@
     .line 68
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
-    const v2, 0x7f06022a
+    sget v2, Lcom/res/provider/ResCOLOR;->white50:I
 
     invoke-static {v2}, Lcom/commsource/util/l0;->P(I)I
 

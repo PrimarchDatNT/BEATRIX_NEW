@@ -83,7 +83,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c0191
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_studio_sub_effect:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -217,7 +217,7 @@
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/wj;->a:Lcom/commsource/widget/IconFrontView;
 
-    const v5, 0x7f060080
+    sget v5, Lcom/res/provider/ResCOLOR;->color_4d333333:I
 
     invoke-static {v5}, Lcom/commsource/util/u1;->b(I)I
 

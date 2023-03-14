@@ -186,7 +186,7 @@
     .line 19
     invoke-virtual {v2, v9, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f0f06d3
+    sget v1, Lcom/res/provider/ResSTRING;->old_photo_restore_title:I
 
     .line 20
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -196,7 +196,7 @@
     .line 21
     invoke-virtual {v3, v5, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f0f06a3
+    sget v1, Lcom/res/provider/ResSTRING;->night_photo_title:I
 
     .line 22
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -205,7 +205,7 @@
 
     invoke-virtual {v3, v6, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f0f00fb
+    sget v1, Lcom/res/provider/ResSTRING;->auto_remover_title:I
 
     .line 23
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -215,7 +215,7 @@
     .line 24
     invoke-virtual {v3, v7, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f0f0791
+    sget v1, Lcom/res/provider/ResSTRING;->remove_bg_title:I
 
     .line 25
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -224,7 +224,7 @@
 
     invoke-virtual {v3, v8, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f0f0260
+    sget v1, Lcom/res/provider/ResSTRING;->color_plus_title:I
 
     .line 26
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -233,7 +233,7 @@
 
     invoke-virtual {v3, v9, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f0f06d2
+    sget v1, Lcom/res/provider/ResSTRING;->old_photo_restore_content:I
 
     .line 27
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -242,7 +242,7 @@
 
     invoke-virtual {v4, v5, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f0f06a2
+    sget v1, Lcom/res/provider/ResSTRING;->night_photo_content:I
 
     .line 28
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -252,7 +252,7 @@
     .line 29
     invoke-virtual {v4, v6, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f0f00fa
+    sget v1, Lcom/res/provider/ResSTRING;->auto_remover_content:I
 
     .line 30
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -262,7 +262,7 @@
     .line 31
     invoke-virtual {v4, v7, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f0f0790
+    sget v1, Lcom/res/provider/ResSTRING;->remove_bg_content:I
 
     .line 32
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -271,7 +271,7 @@
 
     invoke-virtual {v4, v8, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f0f025e
+    sget v1, Lcom/res/provider/ResSTRING;->color_plus_content:I
 
     .line 33
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

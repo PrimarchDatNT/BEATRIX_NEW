@@ -88,7 +88,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0c013b
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_camera_filter_normal:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -160,7 +160,7 @@
 
     invoke-static {v1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v3, 0x7f060005
+    sget v3, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     invoke-static {v3}, Lcom/commsource/util/l0;->P(I)I
 
@@ -195,7 +195,7 @@
 
     invoke-static {v1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p3, 0x7f060224
+    sget p3, Lcom/res/provider/ResCOLOR;->transparent:I
 
     invoke-static {p3}, Lcom/commsource/util/l0;->P(I)I
 

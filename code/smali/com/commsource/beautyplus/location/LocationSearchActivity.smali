@@ -585,7 +585,7 @@
 
     move-result p1
 
-    const v1, 0x7f0906a8
+    sget v1, Lcom/res/provider/ResID;->tv_cancel:I
 
     if-eq p1, v1, :cond_0
 
@@ -612,7 +612,7 @@
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c003a
+    sget p1, Lcom/res/provider/ResLAYOUT;->activity_location_search:I
 
     .line 2
     invoke-static {p0, p1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;

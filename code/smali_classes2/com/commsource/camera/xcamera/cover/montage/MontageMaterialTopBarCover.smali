@@ -335,7 +335,7 @@
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/s0/t$a;-><init>()V
 
-    const v2, 0x7f0f0632
+    sget v2, Lcom/res/provider/ResSTRING;->montage_discard_change:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -345,7 +345,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f06d1
+    sget v2, Lcom/res/provider/ResSTRING;->ok:I
 
     .line 5
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -365,7 +365,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0212
+    sget v2, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 7
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -677,7 +677,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c009a
+    sget v0, Lcom/res/provider/ResLAYOUT;->cover_montage_material_top_bar:I
 
     return v0
 .end method

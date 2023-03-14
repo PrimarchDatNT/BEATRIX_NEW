@@ -252,9 +252,9 @@
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
     :goto_1
-    const v1, 0x7f0802d0
+    sget v1, Lcom/res/provider/ResDRAWABLE;->r3_bbb:I
 
-    const v2, 0x7f0f06bc
+    sget v2, Lcom/res/provider/ResSTRING;->none_effect:I
 
     if-eqz p1, :cond_d
 
@@ -293,7 +293,7 @@
 
     move-result v5
 
-    const v6, 0x7f0802d1
+    sget v6, Lcom/res/provider/ResDRAWABLE;->r3_fd7073:I
 
     if-eqz v5, :cond_a
 
@@ -617,7 +617,7 @@
 
     move-result v1
 
-    const v2, 0x7f080372
+    sget v2, Lcom/res/provider/ResDRAWABLE;->setting_loading_icon_placeholder:I
 
     if-eqz v1, :cond_3
 

@@ -100,7 +100,7 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v0, 0x7f0c0049
+    sget v0, Lcom/res/provider/ResLAYOUT;->album_list:I
 
     const/4 v1, 0x0
 
@@ -144,7 +144,7 @@
     .line 4
     iget-object p1, p0, Lcom/commsource/album/b;->g:Landroid/view/View;
 
-    const p2, 0x7f090073
+    sget p2, Lcom/res/provider/ResID;->album_list:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

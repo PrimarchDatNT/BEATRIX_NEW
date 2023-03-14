@@ -459,7 +459,7 @@
 
     new-array p1, v6, [I
 
-    const v4, 0x7f060152
+    sget v4, Lcom/res/provider/ResCOLOR;->color_ff48b1:I
 
     .line 4
     invoke-static {v4}, Lcom/commsource/util/l0;->P(I)I
@@ -468,7 +468,7 @@
 
     aput v4, p1, v3
 
-    const v3, 0x7f060145
+    sget v3, Lcom/res/provider/ResCOLOR;->color_fe537f:I
 
     invoke-static {v3}, Lcom/commsource/util/l0;->P(I)I
 
@@ -476,7 +476,7 @@
 
     aput v3, p1, v2
 
-    const v2, 0x7f060141
+    sget v2, Lcom/res/provider/ResCOLOR;->color_fd5a5c:I
 
     invoke-static {v2}, Lcom/commsource/util/l0;->P(I)I
 
@@ -489,7 +489,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f060038
+    sget p1, Lcom/res/provider/ResCOLOR;->black40:I
 
     .line 5
     invoke-static {p1}, Lcom/commsource/util/l0;->P(I)I
@@ -503,7 +503,7 @@
 
     move-result p1
 
-    const v2, 0x7f060228
+    sget v2, Lcom/res/provider/ResCOLOR;->white30:I
 
     invoke-static {v2}, Lcom/commsource/util/l0;->P(I)I
 
@@ -538,7 +538,7 @@
 
     new-array p1, v5, [I
 
-    const v4, 0x7f06000e
+    sget v4, Lcom/res/provider/ResCOLOR;->Premium_Black:I
 
     .line 11
     invoke-static {v4}, Lcom/commsource/util/l0;->P(I)I
@@ -547,7 +547,7 @@
 
     aput v4, p1, v3
 
-    const v3, 0x7f06005f
+    sget v3, Lcom/res/provider/ResCOLOR;->color_222222:I
 
     invoke-static {v3}, Lcom/commsource/util/l0;->P(I)I
 
@@ -560,7 +560,7 @@
     goto :goto_0
 
     :cond_3
-    const p1, 0x7f060225
+    sget p1, Lcom/res/provider/ResCOLOR;->white:I
 
     .line 12
     invoke-static {p1}, Lcom/commsource/util/l0;->P(I)I
@@ -574,7 +574,7 @@
 
     move-result p1
 
-    const v2, 0x7f060010
+    sget v2, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
     invoke-static {v2}, Lcom/commsource/util/l0;->P(I)I
 
@@ -1062,7 +1062,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060225
+    sget v3, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v3}, Lcom/commsource/util/l0;->P(I)I
 
@@ -1090,7 +1090,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f060227
+    sget v4, Lcom/res/provider/ResCOLOR;->white20:I
 
     invoke-static {v4}, Lcom/commsource/util/l0;->P(I)I
 
@@ -1121,7 +1121,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060010
+    sget v3, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
     invoke-static {v3}, Lcom/commsource/util/l0;->P(I)I
 
@@ -1149,7 +1149,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f060012
+    sget v4, Lcom/res/provider/ResCOLOR;->Primary_C:I
 
     invoke-static {v4}, Lcom/commsource/util/l0;->P(I)I
 

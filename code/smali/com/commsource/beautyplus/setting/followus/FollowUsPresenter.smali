@@ -113,7 +113,7 @@
 
     const/4 v7, 0x0
 
-    const v8, 0x7f0f01d6
+    sget v8, Lcom/res/provider/ResSTRING;->beutyplus_will_open_app:I
 
     const/4 v9, 0x0
 
@@ -248,7 +248,7 @@
     .line 16
     iget-object v3, p0, Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter;->a:Landroid/content/Context;
 
-    const v8, 0x7f0f0ad9
+    sget v8, Lcom/res/provider/ResSTRING;->twitter_app_attention_url:I
 
     invoke-virtual {v3, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -257,7 +257,7 @@
     .line 17
     iget-object v8, p0, Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter;->a:Landroid/content/Context;
 
-    const v11, 0x7f0f0ada
+    sget v11, Lcom/res/provider/ResSTRING;->twitter_attention_url:I
 
     invoke-virtual {v8, v11}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -880,7 +880,7 @@
     .line 13
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter;->a:Landroid/content/Context;
 
-    const v2, 0x7f0f0ad9
+    sget v2, Lcom/res/provider/ResSTRING;->twitter_app_attention_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -897,7 +897,7 @@
 
     iget-object v3, p0, Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter;->a:Landroid/content/Context;
 
-    const v4, 0x7f0f0ada
+    sget v4, Lcom/res/provider/ResSTRING;->twitter_attention_url:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -918,7 +918,7 @@
     .line 16
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter;->a:Landroid/content/Context;
 
-    const v2, 0x7f0f0358
+    sget v2, Lcom/res/provider/ResSTRING;->facebook_app_attention_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -935,7 +935,7 @@
 
     iget-object v3, p0, Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter;->a:Landroid/content/Context;
 
-    const v4, 0x7f0f056c
+    sget v4, Lcom/res/provider/ResSTRING;->join_facebook_fans_url:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

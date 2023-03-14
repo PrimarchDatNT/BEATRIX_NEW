@@ -711,7 +711,7 @@
     goto :goto_1
 
     :cond_3
-    const v2, 0x7f0f009e
+    sget v2, Lcom/res/provider/ResSTRING;->all_advert_url:I
 
     .line 11
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -754,7 +754,7 @@
 
     :cond_5
     :goto_1
-    const v2, 0x7f0f009f
+    sget v2, Lcom/res/provider/ResSTRING;->all_advert_url_without_region:I
 
     .line 13
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

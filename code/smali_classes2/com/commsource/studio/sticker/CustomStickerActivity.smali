@@ -277,7 +277,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0c0029
+    sget v1, Lcom/res/provider/ResLAYOUT;->activity_custom_sticker:I
 
     .line 1
     invoke-static {p0, v1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
@@ -380,7 +380,7 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f0f09e1
+    sget v4, Lcom/res/provider/ResSTRING;->t_join_unlock:I
 
     .line 8
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

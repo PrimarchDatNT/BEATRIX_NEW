@@ -104,7 +104,7 @@
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/s0/t$a;-><init>()V
 
-    const v2, 0x7f0f0377
+    sget v2, Lcom/res/provider/ResSTRING;->feed_back_prompt_crash_occur:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -114,7 +114,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f036d
+    sget v2, Lcom/res/provider/ResSTRING;->feed_back:I
 
     .line 2
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -150,7 +150,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0371
+    sget v2, Lcom/res/provider/ResSTRING;->feed_back_complaint:I
 
     .line 6
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

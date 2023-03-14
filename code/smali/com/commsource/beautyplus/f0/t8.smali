@@ -44,42 +44,42 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/t8;->P:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f09061e
+    sget v2, Lcom/res/provider/ResID;->tabBar:I
 
     const/4 v3, 0x4
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901a2
+    sget v2, Lcom/res/provider/ResID;->divider:I
 
     const/4 v3, 0x5
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0905f1
+    sget v2, Lcom/res/provider/ResID;->style_page_container:I
 
     const/4 v3, 0x6
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09019b
+    sget v2, Lcom/res/provider/ResID;->disable_panel_prompt:I
 
     const/4 v3, 0x7
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900f7
+    sget v2, Lcom/res/provider/ResID;->bubble:I
 
     const/16 v3, 0x8
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900f8
+    sget v2, Lcom/res/provider/ResID;->bubbleProgress:I
 
     const/16 v3, 0x9
 
@@ -327,7 +327,7 @@
 
     const/4 v4, 0x0
 
-    const v1, 0x7f060225
+    sget v1, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v3, v1}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

@@ -44,49 +44,49 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/x7;->M:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090207
+    sget v2, Lcom/res/provider/ResID;->fl_effect_content:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090540
+    sget v2, Lcom/res/provider/ResID;->rv:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090206
+    sget v2, Lcom/res/provider/ResID;->fl_effect_bottom:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0907bf
+    sget v2, Lcom/res/provider/ResID;->v_effect_line:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906ae
+    sget v2, Lcom/res/provider/ResID;->tv_collection_tips:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090231
+    sget v2, Lcom/res/provider/ResID;->fl_suspend_root:I
 
     const/4 v3, 0x6
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090230
+    sget v2, Lcom/res/provider/ResID;->fl_suspend_content:I
 
     const/4 v3, 0x7
 

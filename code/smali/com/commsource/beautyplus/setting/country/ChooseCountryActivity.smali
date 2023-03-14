@@ -211,7 +211,7 @@
 
     iput-object v1, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;->T:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;
 
-    const v1, 0x7f09041f
+    sget v1, Lcom/res/provider/ResID;->main_recycler:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -255,7 +255,7 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    const v1, 0x7f090421
+    sget v1, Lcom/res/provider/ResID;->main_side_bar:I
 
     .line 8
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -273,7 +273,7 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/country/github/WaveSideBarView;->setOnSelectIndexItemListener(Lcom/commsource/beautyplus/setting/country/github/WaveSideBarView$a;)V
 
-    const v1, 0x7f090420
+    sget v1, Lcom/res/provider/ResID;->main_search:I
 
     .line 10
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -291,7 +291,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    const v1, 0x7f090293
+    sget v1, Lcom/res/provider/ResID;->ibtn_back:I
 
     .line 12
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -374,7 +374,7 @@
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c0026
+    sget p1, Lcom/res/provider/ResLAYOUT;->activity_choose_country:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V

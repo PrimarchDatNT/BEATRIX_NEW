@@ -266,7 +266,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0802c4
+    sget v1, Lcom/res/provider/ResDRAWABLE;->push:I
 
     .line 2
     :try_start_0

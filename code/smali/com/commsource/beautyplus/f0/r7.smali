@@ -44,49 +44,49 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/r7;->N:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0901a6
+    sget v2, Lcom/res/provider/ResID;->doodleRv:I
 
     const/4 v3, 0x2
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09065a
+    sget v2, Lcom/res/provider/ResID;->title_cover:I
 
     const/4 v3, 0x3
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090091
+    sget v2, Lcom/res/provider/ResID;->back:I
 
     const/4 v3, 0x4
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090654
+    sget v2, Lcom/res/provider/ResID;->title:I
 
     const/4 v3, 0x5
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090423
+    sget v2, Lcom/res/provider/ResID;->manage_doodle:I
 
     const/4 v3, 0x6
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090101
+    sget v2, Lcom/res/provider/ResID;->cancelManage:I
 
     const/4 v3, 0x7
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901a2
+    sget v2, Lcom/res/provider/ResID;->divider:I
 
     const/16 v3, 0x8
 
@@ -280,7 +280,7 @@
 
     const/4 v3, 0x0
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v2, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -290,7 +290,7 @@
 
     iget-object v0, p0, Lcom/commsource/beautyplus/f0/q7;->c:Landroid/widget/TextView;
 
-    const v6, 0x7f060061
+    sget v6, Lcom/res/provider/ResCOLOR;->color_26000000:I
 
     invoke-static {v0, v6}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

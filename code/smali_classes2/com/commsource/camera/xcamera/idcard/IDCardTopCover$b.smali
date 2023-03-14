@@ -78,7 +78,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0f0845
+    sget v1, Lcom/res/provider/ResSTRING;->selfie_top_icon_flashoff:I
 
     const-string v2, "mViewBinding.ifvFlash"
 
@@ -146,7 +146,7 @@
 
     invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0f0844
+    sget v1, Lcom/res/provider/ResSTRING;->selfie_top_icon_flashauto:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -218,7 +218,7 @@
 
     invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0f0843
+    sget v1, Lcom/res/provider/ResSTRING;->selfie_top_icon_flashalwayson:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

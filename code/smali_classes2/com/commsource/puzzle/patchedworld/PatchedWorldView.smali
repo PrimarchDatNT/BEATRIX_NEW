@@ -3792,7 +3792,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080199
+    sget v2, Lcom/res/provider/ResDRAWABLE;->edit_puzzle_album_icon:I
 
     invoke-static {v1, v2}, Lcom/commsource/util/u1;->h(Landroid/content/res/Resources;I)Landroid/graphics/drawable/Drawable;
 
@@ -4803,7 +4803,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f010036
+    sget v4, Lcom/res/provider/ResANIM;->slide_in_from_bottom:I
 
     invoke-static {v3, v4}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

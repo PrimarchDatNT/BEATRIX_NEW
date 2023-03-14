@@ -110,7 +110,7 @@
     .line 4
     invoke-virtual {v4, v5}, Lcom/commsource/repository/child/makeup/h;->z0(Ljava/lang/String;)V
 
-    const v5, 0x7f0f0939
+    sget v5, Lcom/res/provider/ResSTRING;->t_beauty_pupil_ash_gray:I
 
     .line 5
     invoke-static {v5}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -159,7 +159,7 @@
     .line 13
     invoke-virtual {v4, v8}, Lcom/commsource/repository/child/makeup/h;->z0(Ljava/lang/String;)V
 
-    const v8, 0x7f0f093b
+    sget v8, Lcom/res/provider/ResSTRING;->t_beauty_pupil_lilac:I
 
     .line 14
     invoke-static {v8}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

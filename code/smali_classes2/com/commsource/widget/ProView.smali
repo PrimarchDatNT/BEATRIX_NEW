@@ -585,7 +585,7 @@
 
     sub-int/2addr p2, v1
 
-    const v1, 0x7f0f0b2a
+    sget v1, Lcom/res/provider/ResSTRING;->you_can_join_at_any_time_to_unlock_all_exclusive_features:I
 
     .line 24
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -1642,9 +1642,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0600de
+    sget v1, Lcom/res/provider/ResCOLOR;->color_b3333333:I
 
-    const v2, 0x7f060113
+    sget v2, Lcom/res/provider/ResCOLOR;->color_e6111111:I
 
     if-eqz p1, :cond_0
 
@@ -2324,7 +2324,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/sl;->J:Lcom/commsource/widget/AutoTextView;
 
-    const v1, 0x7f0f0a3e
+    sget v1, Lcom/res/provider/ResSTRING;->t_start_trial:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -2411,7 +2411,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/sl;->d:Landroid/widget/ImageView;
 
-    const v4, 0x7f0800f7
+    sget v4, Lcom/res/provider/ResDRAWABLE;->common_corner_premium_black_shadow:I
 
     invoke-virtual {v1, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -2454,7 +2454,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/sl;->d:Landroid/widget/ImageView;
 
-    const v4, 0x7f0800f8
+    sget v4, Lcom/res/provider/ResDRAWABLE;->common_corner_premium_solid:I
 
     invoke-virtual {v1, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 

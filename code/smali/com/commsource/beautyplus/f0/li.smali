@@ -49,42 +49,42 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/li;->O:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0901de
+    sget v2, Lcom/res/provider/ResID;->filterNameIndicator:I
 
     const/4 v3, 0x2
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901e4
+    sget v2, Lcom/res/provider/ResID;->filter_thumail:I
 
     const/4 v3, 0x3
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090499
+    sget v2, Lcom/res/provider/ResID;->premiumGroupIcon:I
 
     const/4 v3, 0x4
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901df
+    sget v2, Lcom/res/provider/ResID;->filterNewName:I
 
     const/4 v3, 0x5
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901e1
+    sget v2, Lcom/res/provider/ResID;->filterOldName:I
 
     const/4 v3, 0x6
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900e4
+    sget v2, Lcom/res/provider/ResID;->btn_hot_area:I
 
     const/4 v3, 0x7
 

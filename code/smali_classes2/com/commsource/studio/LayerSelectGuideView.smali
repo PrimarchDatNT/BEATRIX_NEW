@@ -192,7 +192,7 @@
 
     iput-object p2, p0, Lcom/commsource/studio/LayerSelectGuideView;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
-    const p2, 0x7f0600a5
+    sget p2, Lcom/res/provider/ResCOLOR;->color_80000000:I
 
     .line 5
     invoke-static {p2}, Lcom/commsource/util/u1;->b(I)I
@@ -243,7 +243,7 @@
     .line 13
     iput v1, p3, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     .line 14
     invoke-static {v0}, Lcom/commsource/util/u1;->b(I)I

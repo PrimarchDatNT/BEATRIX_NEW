@@ -101,20 +101,20 @@
     .line 2
     new-instance v2, Lcom/commsource/beautyplus/permission/PermissionBean;
 
-    const v3, 0x7f0f06fb
+    sget v3, Lcom/res/provider/ResSTRING;->permission_item1_title:I
 
     .line 3
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v4, 0x7f0f06fa
+    sget v4, Lcom/res/provider/ResSTRING;->permission_item1_msg:I
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v5, 0x7f080124
+    sget v5, Lcom/res/provider/ResDRAWABLE;->common_permission_sdcard_icon:I
 
     .line 4
     invoke-direct {v2, v5, v3, v4}, Lcom/commsource/beautyplus/permission/PermissionBean;-><init>(ILjava/lang/String;Ljava/lang/String;)V
@@ -124,20 +124,20 @@
     .line 5
     new-instance v2, Lcom/commsource/beautyplus/permission/PermissionBean;
 
-    const v3, 0x7f0f06fd
+    sget v3, Lcom/res/provider/ResSTRING;->permission_item2_title:I
 
     .line 6
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v4, 0x7f0f06fc
+    sget v4, Lcom/res/provider/ResSTRING;->permission_item2_msg:I
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v5, 0x7f080123
+    sget v5, Lcom/res/provider/ResDRAWABLE;->common_permission_read_icon:I
 
     .line 7
     invoke-direct {v2, v5, v3, v4}, Lcom/commsource/beautyplus/permission/PermissionBean;-><init>(ILjava/lang/String;Ljava/lang/String;)V
@@ -147,20 +147,20 @@
     .line 8
     new-instance v2, Lcom/commsource/beautyplus/permission/PermissionBean;
 
-    const v3, 0x7f0f06ff
+    sget v3, Lcom/res/provider/ResSTRING;->permission_item3_title:I
 
     .line 9
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v4, 0x7f0f06fe
+    sget v4, Lcom/res/provider/ResSTRING;->permission_item3_msg:I
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v5, 0x7f080122
+    sget v5, Lcom/res/provider/ResDRAWABLE;->common_permission_camera_icon:I
 
     .line 10
     invoke-direct {v2, v5, v3, v4}, Lcom/commsource/beautyplus/permission/PermissionBean;-><init>(ILjava/lang/String;Ljava/lang/String;)V
@@ -170,20 +170,20 @@
     .line 11
     new-instance v2, Lcom/commsource/beautyplus/permission/PermissionBean;
 
-    const v3, 0x7f0f0701
+    sget v3, Lcom/res/provider/ResSTRING;->permission_item4_title:I
 
     .line 12
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v4, 0x7f0f0700
+    sget v4, Lcom/res/provider/ResSTRING;->permission_item4_msg:I
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v5, 0x7f080121
+    sget v5, Lcom/res/provider/ResDRAWABLE;->common_permission_audio_icon:I
 
     .line 13
     invoke-direct {v2, v5, v3, v4}, Lcom/commsource/beautyplus/permission/PermissionBean;-><init>(ILjava/lang/String;Ljava/lang/String;)V
@@ -197,12 +197,12 @@
 
     invoke-direct {v2, v3}, Lcom/commsource/beautyplus/permission/b$a;-><init>(Landroid/content/Context;)V
 
-    const v3, 0x7f0f0ab3
+    sget v3, Lcom/res/provider/ResSTRING;->tips:I
 
     .line 15
     invoke-virtual {v2, v3}, Lcom/commsource/beautyplus/permission/b$a;->k(I)Lcom/commsource/beautyplus/permission/b$a;
 
-    const v3, 0x7f0f06f8
+    sget v3, Lcom/res/provider/ResSTRING;->permission_alert_subtitle:I
 
     .line 16
     invoke-virtual {v2, v3}, Lcom/commsource/beautyplus/permission/b$a;->j(I)Lcom/commsource/beautyplus/permission/b$a;
@@ -230,7 +230,7 @@
     .line 21
     sget-object v1, Lcom/commsource/home/homepagedialog/k$b;->a:Lcom/commsource/home/homepagedialog/k$b;
 
-    const v3, 0x7f0f06f9
+    sget v3, Lcom/res/provider/ResSTRING;->permission_btn_text:I
 
     invoke-virtual {v2, v3, v1}, Lcom/commsource/beautyplus/permission/b$a;->i(ILandroid/content/DialogInterface$OnClickListener;)Lcom/commsource/beautyplus/permission/b$a;
 

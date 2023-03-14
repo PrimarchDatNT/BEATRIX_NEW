@@ -733,7 +733,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f090160
+    sget v3, Lcom/res/provider/ResID;->content:I
 
     .line 16
     :try_start_0
@@ -1551,7 +1551,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f090160
+    sget v1, Lcom/res/provider/ResID;->content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1899,7 +1899,7 @@
     goto :goto_0
 
     :cond_3
-    const p1, 0x7f0f0807
+    sget p1, Lcom/res/provider/ResSTRING;->sd_no_enough:I
 
     .line 14
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
@@ -2443,7 +2443,7 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v0, 0x7f0c00fe
+    sget v0, Lcom/res/provider/ResLAYOUT;->fragment_mtmvcore:I
 
     const/4 v1, 0x0
 
@@ -2452,7 +2452,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f090385
+    sget p2, Lcom/res/provider/ResID;->iv_video_thumb:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

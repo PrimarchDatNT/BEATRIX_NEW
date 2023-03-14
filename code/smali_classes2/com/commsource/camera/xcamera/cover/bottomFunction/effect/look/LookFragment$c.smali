@@ -265,7 +265,7 @@
 
     invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v7, 0x7f0f0ab2
+    sget v7, Lcom/res/provider/ResSTRING;->time_limit:I
 
     invoke-static {v7}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

@@ -54,28 +54,28 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/p6;->R:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0903d1
+    sget v2, Lcom/res/provider/ResID;->ll_content:I
 
     const/4 v3, 0x6
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090751
+    sget v2, Lcom/res/provider/ResID;->tv_terms_of_service:I
 
     const/4 v3, 0x7
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090720
+    sget v2, Lcom/res/provider/ResID;->tv_privacy_policy:I
 
     const/16 v3, 0x8
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0907dc
+    sget v2, Lcom/res/provider/ResID;->view_outarea:I
 
     const/16 v3, 0x9
 
@@ -415,7 +415,7 @@
 
     move-result-object v7
 
-    const v9, 0x7f0f06c7
+    sget v9, Lcom/res/provider/ResSTRING;->not_live_in_euro:I
 
     goto :goto_6
 
@@ -426,7 +426,7 @@
 
     move-result-object v7
 
-    const v9, 0x7f0f058d
+    sget v9, Lcom/res/provider/ResSTRING;->live_in_euro:I
 
     :goto_6
     invoke-virtual {v7, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

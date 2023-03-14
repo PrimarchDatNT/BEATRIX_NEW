@@ -231,7 +231,7 @@
 
     if-eqz v3, :cond_1
 
-    const v3, 0x7f0f001d
+    sget v3, Lcom/res/provider/ResSTRING;->ab_test_url_test:I
 
     .line 5
     invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -257,7 +257,7 @@
     goto :goto_0
 
     :cond_1
-    const v3, 0x7f0f001c
+    sget v3, Lcom/res/provider/ResSTRING;->ab_test_url:I
 
     .line 6
     invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;

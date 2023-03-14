@@ -121,7 +121,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06013a
+    sget v3, Lcom/res/provider/ResCOLOR;->color_fb5986:I
 
     invoke-static {v2, v3}, Lcom/commsource/util/u1;->c(Landroid/content/res/Resources;I)I
 

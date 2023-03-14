@@ -1750,7 +1750,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c01b0
+    sget v0, Lcom/res/provider/ResLAYOUT;->layout_setting:I
 
     return v0
 .end method
@@ -2091,7 +2091,7 @@
 
     if-eqz v1, :cond_0
 
-    const v2, 0x7f0f083a
+    sget v2, Lcom/res/provider/ResSTRING;->selfie_setting_icon_snap_on:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -2113,7 +2113,7 @@
 
     if-eqz v1, :cond_3
 
-    const v2, 0x7f060010
+    sget v2, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 
@@ -2137,7 +2137,7 @@
 
     if-eqz v1, :cond_2
 
-    const v2, 0x7f0f0839
+    sget v2, Lcom/res/provider/ResSTRING;->selfie_setting_icon_snap_off:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -2159,7 +2159,7 @@
 
     if-eqz v1, :cond_3
 
-    const v2, 0x7f060005
+    sget v2, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 

@@ -44,42 +44,42 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/pl;->L:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f09017c
+    sget v2, Lcom/res/provider/ResID;->cv_bg:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090321
+    sget v2, Lcom/res/provider/ResID;->iv_download:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090489
+    sget v2, Lcom/res/provider/ResID;->pb:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090343
+    sget v2, Lcom/res/provider/ResID;->iv_icon:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090359
+    sget v2, Lcom/res/provider/ResID;->iv_new_feature:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090759
+    sget v2, Lcom/res/provider/ResID;->tv_title:I
 
     const/4 v3, 0x6
 

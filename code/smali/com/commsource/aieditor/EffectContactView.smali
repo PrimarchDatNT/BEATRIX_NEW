@@ -163,7 +163,7 @@
 
     iput-object p1, p0, Lcom/commsource/aieditor/EffectContactView;->H1:Landroid/graphics/RectF;
 
-    const p1, 0x7f0f006c
+    sget p1, Lcom/res/provider/ResSTRING;->ai_editor_before:I
 
     .line 14
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -172,7 +172,7 @@
 
     iput-object p1, p0, Lcom/commsource/aieditor/EffectContactView;->J1:Ljava/lang/String;
 
-    const p1, 0x7f0f006b
+    sget p1, Lcom/res/provider/ResSTRING;->ai_editor_after:I
 
     .line 15
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -520,7 +520,7 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    const v1, 0x7f060127
+    sget v1, Lcom/res/provider/ResCOLOR;->color_f2f6f9:I
 
     .line 3
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
@@ -718,7 +718,7 @@
 
     :cond_2
     :goto_0
-    const v1, 0x7f060127
+    sget v1, Lcom/res/provider/ResCOLOR;->color_f2f6f9:I
 
     .line 15
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
@@ -992,7 +992,7 @@
     .line 34
     iget-object v4, p0, Lcom/commsource/aieditor/EffectContactView;->I1:Landroid/text/TextPaint;
 
-    const v5, 0x7f0600a1
+    sget v5, Lcom/res/provider/ResCOLOR;->color_7f000000:I
 
     invoke-static {v5}, Lcom/commsource/util/u1;->b(I)I
 
@@ -1895,7 +1895,7 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    const v1, 0x7f060127
+    sget v1, Lcom/res/provider/ResCOLOR;->color_f2f6f9:I
 
     .line 4
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I

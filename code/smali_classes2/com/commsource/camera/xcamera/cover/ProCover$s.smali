@@ -183,7 +183,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f0f0ae8
+    sget v5, Lcom/res/provider/ResSTRING;->unlock_filter_xx:I
 
     const/4 v6, 0x1
 

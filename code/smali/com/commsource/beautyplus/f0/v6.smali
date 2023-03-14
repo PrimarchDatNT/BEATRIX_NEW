@@ -39,7 +39,7 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/v6;->g:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0904b3
+    sget v2, Lcom/res/provider/ResID;->prompt_text:I
 
     const/4 v3, 0x2
 
@@ -184,7 +184,7 @@
 
     const/4 v4, 0x0
 
-    const v0, 0x7f06003e
+    sget v0, Lcom/res/provider/ResCOLOR;->black80:I
 
     invoke-static {v3, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -211,7 +211,7 @@
 
     const/4 v14, 0x0
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v13, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

@@ -297,7 +297,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c01b2
+    sget v0, Lcom/res/provider/ResLAYOUT;->layout_video:I
 
     return v0
 .end method

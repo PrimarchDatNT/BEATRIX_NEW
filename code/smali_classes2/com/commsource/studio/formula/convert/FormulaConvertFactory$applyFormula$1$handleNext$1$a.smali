@@ -95,7 +95,7 @@
 
     new-instance v4, Lcom/commsource/studio/formula/convert/FormulaConvertFactory$a;
 
-    const v5, 0x7f0f05d4
+    sget v5, Lcom/res/provider/ResSTRING;->material_downloading:I
 
     invoke-static {v5}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
@@ -169,7 +169,7 @@
 
     new-instance v4, Lcom/commsource/studio/formula/convert/FormulaConvertFactory$a;
 
-    const v5, 0x7f0f05d4
+    sget v5, Lcom/res/provider/ResSTRING;->material_downloading:I
 
     invoke-static {v5}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 

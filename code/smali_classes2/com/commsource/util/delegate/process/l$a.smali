@@ -85,7 +85,7 @@
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/s0/t$a;-><init>()V
 
-    const v2, 0x7f0f08c5
+    sget v2, Lcom/res/provider/ResSTRING;->space_unable_to_edit:I
 
     .line 2
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -96,7 +96,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f02a2
+    sget v2, Lcom/res/provider/ResSTRING;->confirm:I
 
     .line 3
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

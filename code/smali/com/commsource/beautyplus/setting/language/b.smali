@@ -145,7 +145,7 @@
 
     invoke-direct {v1, v2}, Ljava/util/Locale;-><init>(Ljava/lang/String;)V
 
-    const v2, 0x7f0f09e3
+    sget v2, Lcom/res/provider/ResSTRING;->t_language_en:I
 
     invoke-direct {v0, v2, v1}, Lcom/commsource/beautyplus/setting/language/a;-><init>(ILjava/util/Locale;)V
 
@@ -162,7 +162,7 @@
 
     invoke-direct {v1, v2}, Ljava/util/Locale;-><init>(Ljava/lang/String;)V
 
-    const v2, 0x7f0f09e4
+    sget v2, Lcom/res/provider/ResSTRING;->t_language_es:I
 
     invoke-direct {v0, v2, v1}, Lcom/commsource/beautyplus/setting/language/a;-><init>(ILjava/util/Locale;)V
 
@@ -179,7 +179,7 @@
 
     invoke-direct {v1, v2}, Ljava/util/Locale;-><init>(Ljava/lang/String;)V
 
-    const v2, 0x7f0f09e5
+    sget v2, Lcom/res/provider/ResSTRING;->t_language_in:I
 
     invoke-direct {v0, v2, v1}, Lcom/commsource/beautyplus/setting/language/a;-><init>(ILjava/util/Locale;)V
 
@@ -196,7 +196,7 @@
 
     invoke-direct {v1, v2}, Ljava/util/Locale;-><init>(Ljava/lang/String;)V
 
-    const v2, 0x7f0f09e6
+    sget v2, Lcom/res/provider/ResSTRING;->t_language_ja:I
 
     invoke-direct {v0, v2, v1}, Lcom/commsource/beautyplus/setting/language/a;-><init>(ILjava/util/Locale;)V
 
@@ -213,7 +213,7 @@
 
     invoke-direct {v1, v2}, Ljava/util/Locale;-><init>(Ljava/lang/String;)V
 
-    const v2, 0x7f0f09e7
+    sget v2, Lcom/res/provider/ResSTRING;->t_language_ko:I
 
     invoke-direct {v0, v2, v1}, Lcom/commsource/beautyplus/setting/language/a;-><init>(ILjava/util/Locale;)V
 
@@ -230,7 +230,7 @@
 
     invoke-direct {v1, v2}, Ljava/util/Locale;-><init>(Ljava/lang/String;)V
 
-    const v2, 0x7f0f09e8
+    sget v2, Lcom/res/provider/ResSTRING;->t_language_pt:I
 
     invoke-direct {v0, v2, v1}, Lcom/commsource/beautyplus/setting/language/a;-><init>(ILjava/util/Locale;)V
 
@@ -247,7 +247,7 @@
 
     invoke-direct {v1, v2}, Ljava/util/Locale;-><init>(Ljava/lang/String;)V
 
-    const v2, 0x7f0f09e9
+    sget v2, Lcom/res/provider/ResSTRING;->t_language_ru:I
 
     invoke-direct {v0, v2, v1}, Lcom/commsource/beautyplus/setting/language/a;-><init>(ILjava/util/Locale;)V
 
@@ -264,7 +264,7 @@
 
     invoke-direct {v1, v2}, Ljava/util/Locale;-><init>(Ljava/lang/String;)V
 
-    const v2, 0x7f0f09ea
+    sget v2, Lcom/res/provider/ResSTRING;->t_language_th:I
 
     invoke-direct {v0, v2, v1}, Lcom/commsource/beautyplus/setting/language/a;-><init>(ILjava/util/Locale;)V
 
@@ -281,7 +281,7 @@
 
     invoke-direct {v1, v2}, Ljava/util/Locale;-><init>(Ljava/lang/String;)V
 
-    const v2, 0x7f0f09eb
+    sget v2, Lcom/res/provider/ResSTRING;->t_language_tr:I
 
     invoke-direct {v0, v2, v1}, Lcom/commsource/beautyplus/setting/language/a;-><init>(ILjava/util/Locale;)V
 
@@ -298,7 +298,7 @@
 
     invoke-direct {v1, v2}, Ljava/util/Locale;-><init>(Ljava/lang/String;)V
 
-    const v2, 0x7f0f09ed
+    sget v2, Lcom/res/provider/ResSTRING;->t_language_vi:I
 
     invoke-direct {v0, v2, v1}, Lcom/commsource/beautyplus/setting/language/a;-><init>(ILjava/util/Locale;)V
 
@@ -315,7 +315,7 @@
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v2, 0x7f0f09ee
+    sget v2, Lcom/res/provider/ResSTRING;->t_language_zh:I
 
     invoke-direct {v0, v2, v1}, Lcom/commsource/beautyplus/setting/language/a;-><init>(ILjava/util/Locale;)V
 
@@ -332,7 +332,7 @@
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v2, 0x7f0f09ec
+    sget v2, Lcom/res/provider/ResSTRING;->t_language_tw:I
 
     invoke-direct {v0, v2, v1}, Lcom/commsource/beautyplus/setting/language/a;-><init>(ILjava/util/Locale;)V
 

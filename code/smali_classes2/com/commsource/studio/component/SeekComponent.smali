@@ -489,7 +489,7 @@
     .line 24
     invoke-virtual {v7, v8}, Lcom/commsource/widget/XSeekBar;->setEnableStroke(Z)V
 
-    const v6, 0x7f060110
+    sget v6, Lcom/res/provider/ResCOLOR;->color_e5e5e5:I
 
     .line 25
     invoke-static {v6}, Lcom/commsource/util/l0;->P(I)I
@@ -498,7 +498,7 @@
 
     invoke-virtual {v7, v6}, Lcom/commsource/widget/XSeekBar;->setMBackgroundColor(I)V
 
-    const v6, 0x7f060034
+    sget v6, Lcom/res/provider/ResCOLOR;->black:I
 
     .line 26
     invoke-static {v6}, Lcom/commsource/util/l0;->P(I)I

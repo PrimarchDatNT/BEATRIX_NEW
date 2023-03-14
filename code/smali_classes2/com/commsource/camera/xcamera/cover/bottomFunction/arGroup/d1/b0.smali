@@ -481,7 +481,7 @@
 
     move-result v4
 
-    const v6, 0x7f0f00e4
+    sget v6, Lcom/res/provider/ResSTRING;->ar_search_error:I
 
     if-nez v4, :cond_2
 
@@ -506,7 +506,7 @@
 
     move-result-object v4
 
-    const v6, 0x7f0f0ad4
+    sget v6, Lcom/res/provider/ResSTRING;->try_other_keywords:I
 
     invoke-static {v6}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

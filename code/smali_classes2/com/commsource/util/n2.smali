@@ -217,7 +217,7 @@
 
     new-array p2, p2, [I
 
-    const v3, 0x7f06000e
+    sget v3, Lcom/res/provider/ResCOLOR;->Premium_Black:I
 
     .line 6
     invoke-static {v3}, Lcom/commsource/util/l0;->P(I)I
@@ -228,7 +228,7 @@
 
     aput v3, p2, v4
 
-    const v3, 0x7f06005f
+    sget v3, Lcom/res/provider/ResCOLOR;->color_222222:I
 
     invoke-static {v3}, Lcom/commsource/util/l0;->P(I)I
 
@@ -329,7 +329,7 @@
 
     move-result v2
 
-    const v3, 0x7f060010
+    sget v3, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
     invoke-static {v3}, Lcom/commsource/util/l0;->P(I)I
 
@@ -391,7 +391,7 @@
 
     move-result v2
 
-    const v3, 0x7f060011
+    sget v3, Lcom/res/provider/ResCOLOR;->Primary_B:I
 
     invoke-static {v3}, Lcom/commsource/util/l0;->P(I)I
 
@@ -423,7 +423,7 @@
 
     new-array v3, v3, [I
 
-    const v4, 0x7f060141
+    sget v4, Lcom/res/provider/ResCOLOR;->color_fd5a5c:I
 
     invoke-static {v4}, Lcom/commsource/util/l0;->P(I)I
 
@@ -433,7 +433,7 @@
 
     aput v4, v3, v5
 
-    const v4, 0x7f060145
+    sget v4, Lcom/res/provider/ResCOLOR;->color_fe537f:I
 
     invoke-static {v4}, Lcom/commsource/util/l0;->P(I)I
 
@@ -443,7 +443,7 @@
 
     aput v4, v3, v5
 
-    const v4, 0x7f060152
+    sget v4, Lcom/res/provider/ResCOLOR;->color_ff48b1:I
 
     invoke-static {v4}, Lcom/commsource/util/l0;->P(I)I
 

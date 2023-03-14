@@ -1483,7 +1483,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08025d
+    sget v2, Lcom/res/provider/ResDRAWABLE;->miniapp_group_capture_icon:I
 
     invoke-static {v1, v2}, Landroidx/core/content/ContextCompat;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 

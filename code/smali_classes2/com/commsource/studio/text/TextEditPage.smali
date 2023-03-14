@@ -182,7 +182,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f100177
+    sget v0, Lcom/res/provider/ResSTYLE;->TextEditPageDialog:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
@@ -516,7 +516,7 @@
 
     const/4 v2, -0x1
 
-    const v3, 0x7f0600ac
+    sget v3, Lcom/res/provider/ResCOLOR;->color_80ffffff:I
 
     if-eqz v1, :cond_1
 
@@ -719,12 +719,12 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c01f6
+    sget p1, Lcom/res/provider/ResLAYOUT;->text_edit_page:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->setContentView(I)V
 
-    const p1, 0x7f090536
+    sget p1, Lcom/res/provider/ResID;->root:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

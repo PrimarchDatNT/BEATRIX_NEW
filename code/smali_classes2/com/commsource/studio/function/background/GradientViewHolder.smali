@@ -84,7 +84,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0c0132
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_background_gradient:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -355,7 +355,7 @@
     .line 5
     new-instance v1, Landroid/graphics/drawable/ColorDrawable;
 
-    const v2, 0x7f060007
+    sget v2, Lcom/res/provider/ResCOLOR;->Gray_Background:I
 
     invoke-static {v2}, Lcom/commsource/util/l0;->P(I)I
 

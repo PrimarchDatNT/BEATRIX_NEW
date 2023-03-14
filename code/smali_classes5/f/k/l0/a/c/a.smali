@@ -44,7 +44,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f033f
+    sget v2, Lcom/res/provider/ResSTRING;->error_network:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -61,7 +61,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f079b
+    sget v3, Lcom/res/provider/ResSTRING;->request_error:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -81,7 +81,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0f084e
+    sget v4, Lcom/res/provider/ResSTRING;->server_unresponse:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -101,7 +101,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0f08ee
+    sget v3, Lcom/res/provider/ResSTRING;->storage_unable:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -121,7 +121,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f079c
+    sget v2, Lcom/res/provider/ResSTRING;->request_error_unknown:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -103,7 +103,7 @@
 
     invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0f007a
+    sget v1, Lcom/res/provider/ResSTRING;->ai_editor_need_network:I
 
     .line 1
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -112,7 +112,7 @@
 
     invoke-static {p1, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->h(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;)V
 
-    const v1, 0x7f0f07a8
+    sget v1, Lcom/res/provider/ResSTRING;->retry:I
 
     .line 2
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;

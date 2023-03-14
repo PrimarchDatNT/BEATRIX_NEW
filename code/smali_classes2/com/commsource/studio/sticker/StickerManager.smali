@@ -1510,7 +1510,7 @@
 
     if-eqz v5, :cond_6
 
-    const v4, 0x7f0f03b3
+    sget v4, Lcom/res/provider/ResSTRING;->filter_shop_premium:I
 
     .line 15
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1570,7 +1570,7 @@
 
     if-eqz v7, :cond_a
 
-    const v4, 0x7f0f0934
+    sget v4, Lcom/res/provider/ResSTRING;->t_all:I
 
     .line 18
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

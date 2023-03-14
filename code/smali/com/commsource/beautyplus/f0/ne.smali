@@ -44,14 +44,14 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/ne;->J:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0901a3
+    sget v2, Lcom/res/provider/ResID;->doodleImage:I
 
     const/4 v3, 0x3
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901a7
+    sget v2, Lcom/res/provider/ResID;->doodle_collect:I
 
     const/4 v3, 0x4
 
@@ -216,7 +216,7 @@
 
     const/4 v4, 0x0
 
-    const v0, 0x7f060124
+    sget v0, Lcom/res/provider/ResCOLOR;->color_f2f1f1:I
 
     invoke-static {v3, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -243,7 +243,7 @@
 
     const/4 v14, 0x0
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v13, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

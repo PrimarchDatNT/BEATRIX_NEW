@@ -39,63 +39,63 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/tl;->O:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0901f7
+    sget v2, Lcom/res/provider/ResID;->fl_background:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090364
+    sget v2, Lcom/res/provider/ResID;->iv_pro_background:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090710
+    sget v2, Lcom/res/provider/ResID;->tv_not_pro:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0903ed
+    sget v2, Lcom/res/provider/ResID;->ll_pro_container:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090723
+    sget v2, Lcom/res/provider/ResID;->tv_pro_title:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090722
+    sget v2, Lcom/res/provider/ResID;->tv_pro_sub:I
 
     const/4 v3, 0x6
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090530
+    sget v2, Lcom/res/provider/ResID;->rl_tv_pro:I
 
     const/4 v3, 0x7
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090721
+    sget v2, Lcom/res/provider/ResID;->tv_pro:I
 
     const/16 v3, 0x8
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904a2
+    sget v2, Lcom/res/provider/ResID;->pro_icon:I
 
     const/16 v3, 0x9
 

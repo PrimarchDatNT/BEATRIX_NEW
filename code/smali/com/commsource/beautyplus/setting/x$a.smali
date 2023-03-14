@@ -46,7 +46,7 @@
 
     if-ne p1, v0, :cond_0
 
-    const p1, 0x7f0f0b15
+    sget p1, Lcom/res/provider/ResSTRING;->web_net_error:I
 
     .line 1
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V

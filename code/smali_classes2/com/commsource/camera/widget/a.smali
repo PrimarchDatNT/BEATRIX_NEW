@@ -21,7 +21,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/view/ViewGroup;)V
     .locals 1
 
-    const v0, 0x7f0c004e
+    sget v0, Lcom/res/provider/ResLAYOUT;->ar_grid_item:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V

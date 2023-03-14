@@ -579,7 +579,7 @@
     .line 3
     iput-boolean p3, p0, Lcom/commsource/widget/XSeekBar;->d:Z
 
-    const v0, 0x7f0600a9
+    sget v0, Lcom/res/provider/ResCOLOR;->color_80f2f2f2:I
 
     .line 4
     invoke-static {v0}, Lcom/commsource/util/u1;->b(I)I
@@ -588,7 +588,7 @@
 
     iput v0, p0, Lcom/commsource/widget/XSeekBar;->g:I
 
-    const v0, 0x7f06007f
+    sget v0, Lcom/res/provider/ResCOLOR;->color_4d000000:I
 
     .line 5
     invoke-static {v0}, Lcom/commsource/util/u1;->b(I)I
@@ -1042,7 +1042,7 @@
 
     const/16 p2, 0xc
 
-    const v2, 0x7f06007f
+    sget v2, Lcom/res/provider/ResCOLOR;->color_4d000000:I
 
     .line 7
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I

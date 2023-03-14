@@ -577,7 +577,7 @@
     .line 7
     invoke-virtual {p0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->finish()V
 
-    const v2, 0x7f01003a
+    sget v2, Lcom/res/provider/ResANIM;->slide_out_to_bottom:I
 
     .line 8
     invoke-virtual {p0, v1, v2}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -704,7 +704,7 @@
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v3, 0x7f0f094b
+    sget v3, Lcom/res/provider/ResSTRING;->t_continue:I
 
     invoke-static {v3}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
@@ -1269,7 +1269,7 @@
     .line 5
     sget-object v2, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
 
-    const v2, 0x7f0f0a06
+    sget v2, Lcom/res/provider/ResSTRING;->t_onboarding_price:I
 
     .line 6
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1328,7 +1328,7 @@
     .line 11
     sget-object v2, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
 
-    const v2, 0x7f0f0a5f
+    sget v2, Lcom/res/provider/ResSTRING;->t_sub_year_per_month_price:I
 
     .line 12
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1365,7 +1365,7 @@
     :cond_2
     sget-object v2, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
 
-    const v2, 0x7f0f0a5e
+    sget v2, Lcom/res/provider/ResSTRING;->t_sub_price_tip:I
 
     .line 16
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1475,7 +1475,7 @@
 
     invoke-static {p1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0f094b
+    sget v1, Lcom/res/provider/ResSTRING;->t_continue:I
 
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
@@ -1489,7 +1489,7 @@
     :cond_9
     sget-object p1, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
 
-    const p1, 0x7f0f03d9
+    sget p1, Lcom/res/provider/ResSTRING;->free_use_7_day:I
 
     .line 26
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1556,7 +1556,7 @@
 
     const/4 v3, 0x1
 
-    const v4, 0x7f0f02d5
+    sget v4, Lcom/res/provider/ResSTRING;->dialog_confirm:I
 
     if-eq p1, v2, :cond_2
 
@@ -1575,7 +1575,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0f06c8
+    sget p1, Lcom/res/provider/ResSTRING;->not_subs_no_restore:I
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1593,7 +1593,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0f07a5
+    sget p1, Lcom/res/provider/ResSTRING;->restored:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1613,7 +1613,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f0f042c
+    sget p1, Lcom/res/provider/ResSTRING;->half_restored:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1640,7 +1640,7 @@
 
     move-result p1
 
-    const v2, 0x7f0f0759
+    sget v2, Lcom/res/provider/ResSTRING;->purchase_restore_failed:I
 
     if-eqz p1, :cond_4
 
@@ -1661,7 +1661,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f0f08c3
+    sget v2, Lcom/res/provider/ResSTRING;->solve_now:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -2241,7 +2241,7 @@
     :cond_3
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s0;->K:Lcom/commsource/beautyplus/onboarding/NewTextPageView;
 
-    const v3, 0x7f0f0a8f
+    sget v3, Lcom/res/provider/ResSTRING;->t_welcome_edit_photo:I
 
     .line 5
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -2252,7 +2252,7 @@
 
     invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v4, 0x7f0f0a90
+    sget v4, Lcom/res/provider/ResSTRING;->t_welcome_gergeous:I
 
     .line 6
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -2708,7 +2708,7 @@
     invoke-virtual {p1, v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->m1(Ljava/lang/String;)V
 
     :cond_0
-    const p1, 0x7f0c003c
+    sget p1, Lcom/res/provider/ResLAYOUT;->activity_new_on_boarding:I
 
     .line 5
     invoke-static {p0, p1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;

@@ -141,7 +141,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c0046
+    sget v0, Lcom/res/provider/ResLAYOUT;->adsorbent_layout:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -929,13 +929,13 @@
     .line 11
     iget-boolean v1, p0, Lcom/commsource/store/ProStoreViewHolder;->L:Z
 
-    const v2, 0x7f060224
+    sget v2, Lcom/res/provider/ResCOLOR;->transparent:I
 
     if-ne v1, v4, :cond_4
 
     const/4 v6, 0x0
 
-    const v1, 0x7f06003e
+    sget v1, Lcom/res/provider/ResCOLOR;->black80:I
 
     .line 12
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
@@ -967,7 +967,7 @@
     :cond_4
     const/4 v6, 0x0
 
-    const v1, 0x7f06006e
+    sget v1, Lcom/res/provider/ResCOLOR;->color_33ffffff:I
 
     .line 15
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
@@ -1149,7 +1149,7 @@
 
     invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0f0192
+    sget v1, Lcom/res/provider/ResSTRING;->beauty_plus_premium:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -1694,7 +1694,7 @@
     .line 12
     sget-object p2, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
 
-    const p2, 0x7f0f0958
+    sget p2, Lcom/res/provider/ResSTRING;->t_days_free_trial:I
 
     .line 13
     invoke-static {p2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

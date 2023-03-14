@@ -1288,7 +1288,7 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f0f03ac
+    sget v2, Lcom/res/provider/ResSTRING;->filter_recommend:I
 
     .line 3
     invoke-static {v2}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -1313,7 +1313,7 @@
 
     if-eqz v2, :cond_2
 
-    const v2, 0x7f0f0934
+    sget v2, Lcom/res/provider/ResSTRING;->t_all:I
 
     .line 5
     invoke-static {v2}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -1338,7 +1338,7 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f0f0a25
+    sget v2, Lcom/res/provider/ResSTRING;->t_recently:I
 
     .line 7
     invoke-static {v2}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;

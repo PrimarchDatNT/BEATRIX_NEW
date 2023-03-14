@@ -62,7 +62,7 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v0, 0x7f0f0af2
+    sget v0, Lcom/res/provider/ResSTRING;->url_location:I
 
     .line 1
     invoke-static {v0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

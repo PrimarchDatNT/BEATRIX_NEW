@@ -45,7 +45,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f10026a
+    sget v0, Lcom/res/provider/ResSTYLE;->updateDialog:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/widget/wheelview/c;-><init>(Landroid/content/Context;I)V
@@ -632,7 +632,7 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c00a5
+    sget p1, Lcom/res/provider/ResLAYOUT;->date_select_layout:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->setContentView(I)V
@@ -651,7 +651,7 @@
 
     iput p1, p0, Lcom/commsource/widget/wheelview/c;->f:I
 
-    const p1, 0x7f090759
+    sget p1, Lcom/res/provider/ResID;->tv_title:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -662,7 +662,7 @@
 
     iput-object p1, p0, Lcom/commsource/widget/wheelview/c;->d:Landroid/widget/TextView;
 
-    const p1, 0x7f0907fe
+    sget p1, Lcom/res/provider/ResID;->wv_year:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -684,7 +684,7 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/wheelview/WheelView;->setAdapter(Lcom/commsource/widget/wheelview/g;)V
 
-    const p1, 0x7f0907fd
+    sget p1, Lcom/res/provider/ResID;->wv_month:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -711,7 +711,7 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/wheelview/WheelView;->setCyclic(Z)V
 
-    const p1, 0x7f0907fb
+    sget p1, Lcom/res/provider/ResID;->wv_day:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -777,7 +777,7 @@
 
     invoke-direct {p0, p1, v1, v2, v3}, Lcom/commsource/widget/wheelview/c;->o(Lcom/commsource/widget/wheelview/WheelView;Lcom/commsource/widget/wheelview/WheelView;Lcom/commsource/widget/wheelview/WheelView;Landroid/widget/TextView;)V
 
-    const p1, 0x7f090712
+    sget p1, Lcom/res/provider/ResID;->tv_ok:I
 
     .line 19
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -790,7 +790,7 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0906a8
+    sget p1, Lcom/res/provider/ResID;->tv_cancel:I
 
     .line 20
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

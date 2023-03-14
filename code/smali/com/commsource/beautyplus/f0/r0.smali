@@ -39,140 +39,140 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/r0;->a0:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0905e4
+    sget v2, Lcom/res/provider/ResID;->srl_root:I
 
     const/4 v3, 0x2
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090550
+    sget v2, Lcom/res/provider/ResID;->rv_content:I
 
     const/4 v3, 0x3
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090657
+    sget v2, Lcom/res/provider/ResID;->title_bar:I
 
     const/4 v3, 0x4
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090778
+    sget v2, Lcom/res/provider/ResID;->vClickBarrier:I
 
     const/4 v3, 0x5
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0907a6
+    sget v2, Lcom/res/provider/ResID;->vTopMask:I
 
     const/4 v3, 0x6
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900a5
+    sget v2, Lcom/res/provider/ResID;->beauty_logo:I
 
     const/4 v3, 0x7
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09033a
+    sget v2, Lcom/res/provider/ResID;->iv_home_logo_beta:I
 
     const/16 v3, 0x8
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902f9
+    sget v2, Lcom/res/provider/ResID;->ivSetting:I
 
     const/16 v3, 0x9
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900b8
+    sget v2, Lcom/res/provider/ResID;->bottom_bar:I
 
     const/16 v3, 0xa
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900ba
+    sget v2, Lcom/res/provider/ResID;->bottom_bar_bg:I
 
     const/16 v3, 0xb
 
     .line 12
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0903a4
+    sget v2, Lcom/res/provider/ResID;->line:I
 
     const/16 v3, 0xc
 
     .line 13
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090266
+    sget v2, Lcom/res/provider/ResID;->go_camera:I
 
     const/16 v3, 0xd
 
     .line 14
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090265
+    sget v2, Lcom/res/provider/ResID;->go_album_container:I
 
     const/16 v3, 0xe
 
     .line 15
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090264
+    sget v2, Lcom/res/provider/ResID;->go_album:I
 
     const/16 v3, 0xf
 
     .line 16
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906e1
+    sget v2, Lcom/res/provider/ResID;->tv_go_album:I
 
     const/16 v3, 0x10
 
     .line 17
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090268
+    sget v2, Lcom/res/provider/ResID;->go_mini_container:I
 
     const/16 v3, 0x11
 
     .line 18
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090267
+    sget v2, Lcom/res/provider/ResID;->go_mini:I
 
     const/16 v3, 0x12
 
     .line 19
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906e2
+    sget v2, Lcom/res/provider/ResID;->tv_go_mini:I
 
     const/16 v3, 0x13
 
     .line 20
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090433
+    sget v2, Lcom/res/provider/ResID;->miniapp_red_point:I
 
     const/16 v3, 0x14
 
     .line 21
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09053c
+    sget v2, Lcom/res/provider/ResID;->rrl_adsort:I
 
     const/16 v3, 0x15
 
@@ -431,7 +431,7 @@
 
     const/4 v3, 0x0
 
-    const v0, 0x7f060003
+    sget v0, Lcom/res/provider/ResCOLOR;->Color_Red:I
 
     invoke-static {v2, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

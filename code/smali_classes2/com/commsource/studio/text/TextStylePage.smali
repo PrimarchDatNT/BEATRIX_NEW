@@ -163,7 +163,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0c0194
+    sget p2, Lcom/res/provider/ResLAYOUT;->item_style_page:I
 
     const/4 v0, 0x0
 
@@ -911,7 +911,7 @@
 
     invoke-static {p2, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v2, 0x7f0f098b
+    sget v2, Lcom/res/provider/ResSTRING;->t_edit_text_unable_use:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -2017,7 +2017,7 @@
     :goto_0
     if-nez v1, :cond_1
 
-    const p1, 0x7f0f0989
+    sget p1, Lcom/res/provider/ResSTRING;->t_edit_text_select_text_tips:I
 
     .line 2
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V
@@ -2125,7 +2125,7 @@
 
     const-string v2, "ResourcesUtils.getString(R.string.t_transparency)"
 
-    const v3, 0x7f0f0a7c
+    sget v3, Lcom/res/provider/ResSTRING;->t_transparency:I
 
     const-string v4, "viewBinding.seekBar1Title"
 
@@ -2293,7 +2293,7 @@
 
     invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0f0a70
+    sget v0, Lcom/res/provider/ResSTRING;->t_thickness:I
 
     invoke-static {v0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -2480,7 +2480,7 @@
 
     invoke-static {v2, v15}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0f0a2c
+    sget v0, Lcom/res/provider/ResSTRING;->t_rounded_corner:I
 
     invoke-static {v0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -2546,7 +2546,7 @@
 
     invoke-static {v2, v13}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0f09f8
+    sget v0, Lcom/res/provider/ResSTRING;->t_margin:I
 
     invoke-static {v0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -2700,7 +2700,7 @@
 
     invoke-static {v2, v15}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0f0a6d
+    sget v0, Lcom/res/provider/ResSTRING;->t_text_blur:I
 
     invoke-static {v0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -2766,7 +2766,7 @@
 
     invoke-static {v2, v13}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0f0a3c
+    sget v0, Lcom/res/provider/ResSTRING;->t_space:I
 
     invoke-static {v0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -2867,7 +2867,7 @@
 
     invoke-static {v2, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0f09f4
+    sget v0, Lcom/res/provider/ResSTRING;->t_line_spacing:I
 
     invoke-static {v0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -2935,7 +2935,7 @@
 
     invoke-static {v2, v15}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0f0943
+    sget v0, Lcom/res/provider/ResSTRING;->t_character_spacing:I
 
     invoke-static {v0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

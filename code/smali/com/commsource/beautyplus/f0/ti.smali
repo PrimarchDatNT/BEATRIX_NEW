@@ -49,35 +49,35 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/ti;->Q:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090271
+    sget v2, Lcom/res/provider/ResID;->groupNameIndicator:I
 
     const/4 v3, 0x6
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090273
+    sget v2, Lcom/res/provider/ResID;->group_Icon:I
 
     const/4 v3, 0x7
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090499
+    sget v2, Lcom/res/provider/ResID;->premiumGroupIcon:I
 
     const/16 v3, 0x8
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901dc
+    sget v2, Lcom/res/provider/ResID;->filterCount:I
 
     const/16 v3, 0x9
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900e4
+    sget v2, Lcom/res/provider/ResID;->btn_hot_area:I
 
     const/16 v3, 0xa
 
@@ -385,7 +385,7 @@
 
     const/4 v4, 0x0
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v3, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -395,7 +395,7 @@
 
     iget-object v0, v1, Lcom/commsource/beautyplus/f0/ti;->N:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    const v7, 0x7f060035
+    sget v7, Lcom/res/provider/ResCOLOR;->black10:I
 
     invoke-static {v0, v7}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

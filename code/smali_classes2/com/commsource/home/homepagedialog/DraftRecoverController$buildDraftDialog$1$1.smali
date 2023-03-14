@@ -104,7 +104,7 @@
 
     invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0f09c3
+    sget v1, Lcom/res/provider/ResSTRING;->t_has_draft:I
 
     .line 2
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -113,7 +113,7 @@
 
     invoke-static {p1, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->h(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;)V
 
-    const v1, 0x7f0f094b
+    sget v1, Lcom/res/provider/ResSTRING;->t_continue:I
 
     .line 3
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -130,7 +130,7 @@
 
     invoke-static {p1, v1, v2}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->e(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lkotlin/jvm/u/l;)V
 
-    const v1, 0x7f0f0212
+    sget v1, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 4
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

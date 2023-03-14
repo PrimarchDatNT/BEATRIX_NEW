@@ -301,7 +301,7 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;->M:Lkotlin/w;
 
-    const v0, 0x7f0f02bd
+    sget v0, Lcom/res/provider/ResSTRING;->customization:I
 
     .line 10
     invoke-static {v0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -640,7 +640,7 @@
     :cond_7
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w8;->f:Landroid/widget/TextView;
 
-    const v3, 0x7f0f059f
+    sget v3, Lcom/res/provider/ResSTRING;->look_ar_use_tips:I
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -1693,7 +1693,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c00f4
+    sget v0, Lcom/res/provider/ResLAYOUT;->fragment_look:I
 
     const/4 v1, 0x0
 

@@ -39,112 +39,112 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/z0;->W:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090411
+    sget v2, Lcom/res/provider/ResID;->mGradientView:I
 
     const/4 v3, 0x2
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09031f
+    sget v2, Lcom/res/provider/ResID;->iv_diamond:I
 
     const/4 v3, 0x3
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090795
+    sget v2, Lcom/res/provider/ResID;->vRoundCornerContainer:I
 
     const/4 v3, 0x4
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090785
+    sget v2, Lcom/res/provider/ResID;->vIvOnlineBg:I
 
     const/4 v3, 0x5
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090508
+    sget v2, Lcom/res/provider/ResID;->rl_content:I
 
     const/4 v3, 0x6
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906bb
+    sget v2, Lcom/res/provider/ResID;->tv_count_down:I
 
     const/4 v3, 0x7
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09052c
+    sget v2, Lcom/res/provider/ResID;->rl_subs_no_off:I
 
     const/16 v3, 0x8
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09070d
+    sget v2, Lcom/res/provider/ResID;->tv_no_off_title:I
 
     const/16 v3, 0x9
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09070b
+    sget v2, Lcom/res/provider/ResID;->tv_no_off_free_try:I
 
     const/16 v3, 0xa
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09070c
+    sget v2, Lcom/res/provider/ResID;->tv_no_off_free_try_subtitle:I
 
     const/16 v3, 0xb
 
     .line 12
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0903f6
+    sget v2, Lcom/res/provider/ResID;->ll_subs_off:I
 
     const/16 v3, 0xc
 
     .line 13
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09074d
+    sget v2, Lcom/res/provider/ResID;->tv_subs_off:I
 
     const/16 v3, 0xd
 
     .line 14
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09074e
+    sget v2, Lcom/res/provider/ResID;->tv_subs_off_bottom:I
 
     const/16 v3, 0xe
 
     .line 15
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090792
+    sget v2, Lcom/res/provider/ResID;->vRcPicTitleContainer:I
 
     const/16 v3, 0xf
 
     .line 16
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090786
+    sget v2, Lcom/res/provider/ResID;->vIvPicTitle:I
 
     const/16 v3, 0x10
 
     .line 17
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902f5
+    sget v2, Lcom/res/provider/ResID;->ivMask:I
 
     const/16 v3, 0x11
 
@@ -379,7 +379,7 @@
 
     const/4 v3, 0x0
 
-    const v0, 0x7f06006e
+    sget v0, Lcom/res/provider/ResCOLOR;->color_33ffffff:I
 
     invoke-static {v2, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

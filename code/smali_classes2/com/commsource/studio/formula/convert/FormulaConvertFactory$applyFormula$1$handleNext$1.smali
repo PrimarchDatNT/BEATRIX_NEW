@@ -203,7 +203,7 @@
 
     const/4 v8, 0x0
 
-    const v9, 0x7f0f05d4
+    sget v9, Lcom/res/provider/ResSTRING;->material_downloading:I
 
     invoke-static {v9}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 

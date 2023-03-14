@@ -605,7 +605,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08009e
+    sget v2, Lcom/res/provider/ResDRAWABLE;->bling_transition:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

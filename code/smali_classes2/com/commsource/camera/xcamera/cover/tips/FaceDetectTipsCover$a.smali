@@ -121,7 +121,7 @@
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f0f084a
+    sget v1, Lcom/res/provider/ResSTRING;->selfie_unface_tips:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 

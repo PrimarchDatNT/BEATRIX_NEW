@@ -128,7 +128,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f0f06cd
+    sget v1, Lcom/res/provider/ResSTRING;->notification_content1:I
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -189,7 +189,7 @@
 
     if-eqz v3, :cond_1
 
-    const v3, 0x7f0f00aa
+    sget v3, Lcom/res/provider/ResSTRING;->app_name:I
 
     .line 5
     invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -266,7 +266,7 @@
     invoke-virtual {v2, v3}, Landroidx/core/app/NotificationCompat$BigTextStyle;->bigText(Ljava/lang/CharSequence;)Landroidx/core/app/NotificationCompat$BigTextStyle;
 
     :cond_3
-    const v3, 0x7f0802c4
+    sget v3, Lcom/res/provider/ResDRAWABLE;->push:I
 
     .line 13
     invoke-virtual {v1, v3}, Landroidx/core/app/NotificationCompat$Builder;->setSmallIcon(I)Landroidx/core/app/NotificationCompat$Builder;
@@ -276,7 +276,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f060158
+    sget v5, Lcom/res/provider/ResCOLOR;->color_ff6e8d:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -364,7 +364,7 @@
 
     invoke-direct {v1, p1, v2}, Landroidx/core/app/NotificationCompat$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
-    const v2, 0x7f0802c4
+    sget v2, Lcom/res/provider/ResDRAWABLE;->push:I
 
     .line 2
     invoke-virtual {v1, v2}, Landroidx/core/app/NotificationCompat$Builder;->setSmallIcon(I)Landroidx/core/app/NotificationCompat$Builder;
@@ -374,7 +374,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060158
+    sget v4, Lcom/res/provider/ResCOLOR;->color_ff6e8d:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -389,7 +389,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0c01cc
+    sget v5, Lcom/res/provider/ResLAYOUT;->notification:I
 
     invoke-direct {v3, v4, v5}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
@@ -402,7 +402,7 @@
 
     move-result v4
 
-    const v5, 0x7f0902c3
+    sget v5, Lcom/res/provider/ResID;->imageView:I
 
     if-nez v4, :cond_1
 
@@ -510,7 +510,7 @@
 
     move-result-object v4
 
-    const v6, 0x7f0c01cf
+    sget v6, Lcom/res/provider/ResLAYOUT;->notification_expanded:I
 
     invoke-direct {v3, v4, v6}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 

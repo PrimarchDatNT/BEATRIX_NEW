@@ -80,14 +80,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0f0935
+    sget v1, Lcom/res/provider/ResSTRING;->t_ar_effect_error_tips:I
 
     .line 1
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0f02db
+    sget v2, Lcom/res/provider/ResSTRING;->dialog_i_konw:I
 
     .line 2
     invoke-static {v2}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;

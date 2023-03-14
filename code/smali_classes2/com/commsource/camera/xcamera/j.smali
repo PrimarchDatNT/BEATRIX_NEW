@@ -70,7 +70,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f01003e
+    sget v0, Lcom/res/provider/ResANIM;->timing_hint:I
 
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -130,7 +130,7 @@
     :pswitch_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/j;->b:Landroid/widget/ImageView;
 
-    const v1, 0x7f080365
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_timing_icon_6:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -140,7 +140,7 @@
     :pswitch_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/j;->b:Landroid/widget/ImageView;
 
-    const v1, 0x7f080364
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_timing_icon_5:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -150,7 +150,7 @@
     :pswitch_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/j;->b:Landroid/widget/ImageView;
 
-    const v1, 0x7f080363
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_timing_icon_4:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -160,7 +160,7 @@
     :pswitch_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/j;->b:Landroid/widget/ImageView;
 
-    const v1, 0x7f080362
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_timing_icon_3:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -170,7 +170,7 @@
     :pswitch_4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/j;->b:Landroid/widget/ImageView;
 
-    const v1, 0x7f080361
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_timing_icon_2:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -180,7 +180,7 @@
     :pswitch_5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/j;->b:Landroid/widget/ImageView;
 
-    const v1, 0x7f080360
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_timing_icon_1:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

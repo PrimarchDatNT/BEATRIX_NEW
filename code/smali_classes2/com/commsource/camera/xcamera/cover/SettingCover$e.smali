@@ -117,7 +117,7 @@
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f0f083d
+    sget v1, Lcom/res/provider/ResSTRING;->selfie_setting_icon_time_off:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -137,7 +137,7 @@
 
     if-eqz p1, :cond_1
 
-    const v1, 0x7f060005
+    sget v1, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 
@@ -190,7 +190,7 @@
 
     move-result-object v1
 
-    const p1, 0x7f0f0202
+    sget p1, Lcom/res/provider/ResSTRING;->camera_popup_setting_timing_normal:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -218,7 +218,7 @@
 
     move-result v2
 
-    const v3, 0x7f060010
+    sget v3, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
     if-ne v2, v1, :cond_7
 
@@ -237,7 +237,7 @@
 
     if-eqz p1, :cond_4
 
-    const v1, 0x7f0f083b
+    sget v1, Lcom/res/provider/ResSTRING;->selfie_setting_icon_time_3s:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -308,7 +308,7 @@
 
     move-result-object v1
 
-    const p1, 0x7f0f0203
+    sget p1, Lcom/res/provider/ResSTRING;->camera_popup_setting_timming_3:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -353,7 +353,7 @@
 
     if-eqz p1, :cond_8
 
-    const v1, 0x7f0f083c
+    sget v1, Lcom/res/provider/ResSTRING;->selfie_setting_icon_time_6s:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -424,7 +424,7 @@
 
     move-result-object v1
 
-    const p1, 0x7f0f0204
+    sget p1, Lcom/res/provider/ResSTRING;->camera_popup_setting_timming_6:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

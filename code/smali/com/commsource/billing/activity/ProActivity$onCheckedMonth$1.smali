@@ -251,7 +251,7 @@
 
     invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v2, 0x7f060060
+    sget v2, Lcom/res/provider/ResCOLOR;->color_242424:I
 
     invoke-static {v2}, Lcom/commsource/util/l0;->P(I)I
 
@@ -280,7 +280,7 @@
 
     invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v2, 0x7f06006b
+    sget v2, Lcom/res/provider/ResCOLOR;->color_333333:I
 
     invoke-static {v2}, Lcom/commsource/util/l0;->P(I)I
 
@@ -398,7 +398,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/u0;->g0:Lcom/commsource/widget/AutoFitTextView;
 
-    const v1, 0x7f060225
+    sget v1, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 
@@ -430,7 +430,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/u0;->i0:Landroid/widget/TextView;
 
-    const v1, 0x7f06022a
+    sget v1, Lcom/res/provider/ResCOLOR;->white50:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 
@@ -447,7 +447,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/u0;->w0:Lcom/commsource/widget/AutoFitTextView;
 
-    const v1, 0x7f060075
+    sget v1, Lcom/res/provider/ResCOLOR;->color_404040:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 
@@ -588,7 +588,7 @@
 
     iget-object v6, p0, Lcom/commsource/billing/activity/ProActivity$onCheckedMonth$1;->this$0:Lcom/commsource/billing/activity/ProActivity;
 
-    const v7, 0x7f0f0a60
+    sget v7, Lcom/res/provider/ResSTRING;->t_subscribe_free_try_days:I
 
     new-array v4, v4, [Ljava/lang/Object;
 
@@ -689,7 +689,7 @@
 
     invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0f094b
+    sget v1, Lcom/res/provider/ResSTRING;->t_continue:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

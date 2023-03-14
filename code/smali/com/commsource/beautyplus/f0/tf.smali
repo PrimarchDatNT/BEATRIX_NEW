@@ -39,21 +39,21 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/tf;->p:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090107
+    sget v2, Lcom/res/provider/ResID;->card:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0907d1
+    sget v2, Lcom/res/provider/ResID;->video_container:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902eb
+    sget v2, Lcom/res/provider/ResID;->ivBanner:I
 
     const/4 v3, 0x3
 
@@ -199,7 +199,7 @@
 
     const/4 v3, 0x0
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v2, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -209,7 +209,7 @@
 
     iget-object v0, p0, Lcom/commsource/beautyplus/f0/sf;->b:Landroid/widget/FrameLayout;
 
-    const v6, 0x7f060059
+    sget v6, Lcom/res/provider/ResCOLOR;->color_19000000:I
 
     invoke-static {v0, v6}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

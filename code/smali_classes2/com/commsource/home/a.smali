@@ -2251,7 +2251,7 @@
 
     invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0f0192
+    sget v1, Lcom/res/provider/ResSTRING;->beauty_plus_premium:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

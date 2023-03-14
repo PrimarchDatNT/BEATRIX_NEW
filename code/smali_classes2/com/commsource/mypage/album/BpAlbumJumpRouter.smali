@@ -1124,7 +1124,7 @@
     .line 10
     invoke-virtual {v4, v1}, Lcom/commsource/mypage/album/AlbumSetting;->setNeedShowMoreFunction(Z)V
 
-    const v1, 0x7f0f062c
+    sget v1, Lcom/res/provider/ResSTRING;->montage_choose_face_photo:I
 
     .line 11
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1440,7 +1440,7 @@
 
     if-ne p2, p3, :cond_0
 
-    const p2, 0x7f0f081d
+    sget p2, Lcom/res/provider/ResSTRING;->select_to_try_filter:I
 
     .line 9
     invoke-static {p2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1454,7 +1454,7 @@
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f0f081c
+    sget p2, Lcom/res/provider/ResSTRING;->select_to_try_feature:I
 
     .line 10
     invoke-static {p2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

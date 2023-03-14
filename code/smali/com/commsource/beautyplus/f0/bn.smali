@@ -44,70 +44,70 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/bn;->P:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090404
+    sget v2, Lcom/res/provider/ResID;->loading_container:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090402
+    sget v2, Lcom/res/provider/ResID;->loadingPrompt:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904ad
+    sget v2, Lcom/res/provider/ResID;->progress_percent:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904a8
+    sget v2, Lcom/res/provider/ResID;->progressBar_container:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904a3
+    sget v2, Lcom/res/provider/ResID;->process_progress:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0905b4
+    sget v2, Lcom/res/provider/ResID;->share_container:I
 
     const/4 v3, 0x6
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0905bb
+    sget v2, Lcom/res/provider/ResID;->share_this:I
 
     const/4 v3, 0x7
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0905b8
+    sget v2, Lcom/res/provider/ResID;->share_more:I
 
     const/16 v3, 0x8
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090168
+    sget v2, Lcom/res/provider/ResID;->copy_link:I
 
     const/16 v3, 0x9
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904a4
+    sget v2, Lcom/res/provider/ResID;->process_prompt:I
 
     const/16 v3, 0xa
 

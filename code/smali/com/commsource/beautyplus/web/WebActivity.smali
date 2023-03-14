@@ -455,7 +455,7 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0f056c
+    sget v1, Lcom/res/provider/ResSTRING;->join_facebook_fans_url:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -485,7 +485,7 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0f0ada
+    sget v1, Lcom/res/provider/ResSTRING;->twitter_attention_url:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -547,7 +547,7 @@
     return-void
 
     :cond_0
-    const v3, 0x7f090224
+    sget v3, Lcom/res/provider/ResID;->fl_net_error:I
 
     .line 7
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -556,7 +556,7 @@
 
     iput-object v3, v0, Lcom/commsource/beautyplus/web/WebActivity;->W:Landroid/view/View;
 
-    const v3, 0x7f0903e6
+    sget v3, Lcom/res/provider/ResID;->ll_net_error:I
 
     .line 8
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -565,7 +565,7 @@
 
     iput-object v3, v0, Lcom/commsource/beautyplus/web/WebActivity;->X:Landroid/view/View;
 
-    const v3, 0x7f09005c
+    sget v3, Lcom/res/provider/ResID;->advert_web:I
 
     .line 9
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -576,7 +576,7 @@
 
     iput-object v3, v0, Lcom/commsource/beautyplus/web/WebActivity;->O:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
-    const v3, 0x7f090297
+    sget v3, Lcom/res/provider/ResID;->ibtn_go_home:I
 
     .line 10
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -607,7 +607,7 @@
 
     check-cast v4, Landroid/widget/ImageButton;
 
-    const v5, 0x7f0800ed
+    sget v5, Lcom/res/provider/ResDRAWABLE;->common_close_icon_board:I
 
     invoke-virtual {v4, v5}, Landroid/widget/ImageButton;->setImageResource(I)V
 
@@ -672,7 +672,7 @@
 
     const-string v11, "referral"
 
-    const v12, 0x7f0901e5
+    sget v12, Lcom/res/provider/ResID;->finishWeb:I
 
     const/4 v13, 0x3
 
@@ -698,12 +698,12 @@
 
     if-eqz v14, :cond_4
 
-    const v14, 0x7f0f077e
+    sget v14, Lcom/res/provider/ResSTRING;->referral_base_beta:I
 
     goto :goto_2
 
     :cond_4
-    const v14, 0x7f0f077d
+    sget v14, Lcom/res/provider/ResSTRING;->referral_base:I
 
     :goto_2
     invoke-static {v14}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -731,12 +731,12 @@
 
     if-eqz v10, :cond_5
 
-    const v10, 0x7f0f077f
+    sget v10, Lcom/res/provider/ResSTRING;->referral_beta:I
 
     goto :goto_3
 
     :cond_5
-    const v10, 0x7f0f077c
+    sget v10, Lcom/res/provider/ResSTRING;->referral:I
 
     :goto_3
     invoke-static {v10}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -783,7 +783,7 @@
     goto :goto_4
 
     :cond_6
-    const v10, 0x7f0906dc
+    sget v10, Lcom/res/provider/ResID;->tv_follow_us_on_facebook:I
 
     .line 25
     invoke-virtual {v0, v10}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -820,7 +820,7 @@
 
     const/4 v14, -0x1
 
-    const v15, 0x7f09005d
+    sget v15, Lcom/res/provider/ResID;->advert_web_top:I
 
     if-eqz v7, :cond_8
 
@@ -831,7 +831,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v11, 0x7f08007c
+    sget v11, Lcom/res/provider/ResDRAWABLE;->arrow_back_icon_black:I
 
     invoke-virtual {v3, v11}, Landroid/widget/ImageButton;->setImageResource(I)V
 
@@ -908,7 +908,7 @@
 
     check-cast v3, Landroid/widget/ImageButton;
 
-    const v11, 0x7f08007f
+    sget v11, Lcom/res/provider/ResDRAWABLE;->arrow_back_icon_white:I
 
     invoke-virtual {v3, v11}, Landroid/widget/ImageButton;->setImageResource(I)V
 
@@ -949,7 +949,7 @@
 
     :cond_9
     :goto_5
-    const v3, 0x7f09032a
+    sget v3, Lcom/res/provider/ResID;->iv_feedback_email:I
 
     .line 50
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1020,7 +1020,7 @@
 
     iput-object v3, v0, Lcom/commsource/beautyplus/web/WebActivity;->Q:Ljava/lang/String;
 
-    const v3, 0x7f09005b
+    sget v3, Lcom/res/provider/ResID;->advert_title:I
 
     .line 60
     invoke-virtual {v0, v3}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1041,7 +1041,7 @@
     .line 62
     iget-object v3, v0, Lcom/commsource/beautyplus/web/WebActivity;->V:Landroid/widget/TextView;
 
-    const v5, 0x7f0f0438
+    sget v5, Lcom/res/provider/ResSTRING;->help_feedback:I
 
     invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(I)V
 
@@ -1140,7 +1140,7 @@
 
     invoke-virtual {v2, v3, v4}, Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v2, 0x7f0900eb
+    sget v2, Lcom/res/provider/ResID;->btn_restore_feedback:I
 
     .line 73
     invoke-virtual {v0, v2}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1329,7 +1329,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0f07ce
+    sget p1, Lcom/res/provider/ResSTRING;->save_to_album:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
@@ -1593,7 +1593,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0f046d
+    sget v1, Lcom/res/provider/ResSTRING;->iap_feedback:I
 
     .line 1
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1759,7 +1759,7 @@
     .line 1
     invoke-static {v1, p1}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v1, 0x7f090297
+    sget v1, Lcom/res/provider/ResID;->ibtn_go_home:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1768,7 +1768,7 @@
 
     check-cast v1, Landroid/widget/ImageButton;
 
-    const v2, 0x7f08007c
+    sget v2, Lcom/res/provider/ResDRAWABLE;->arrow_back_icon_black:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setImageResource(I)V
 
@@ -1862,12 +1862,12 @@
 
     if-eqz v3, :cond_0
 
-    const v3, 0x7f0f077e
+    sget v3, Lcom/res/provider/ResSTRING;->referral_base_beta:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f0f077d
+    sget v3, Lcom/res/provider/ResSTRING;->referral_base:I
 
     :goto_0
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1881,7 +1881,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f090297
+    sget v1, Lcom/res/provider/ResID;->ibtn_go_home:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1890,11 +1890,11 @@
 
     check-cast v1, Landroid/widget/ImageButton;
 
-    const v3, 0x7f08007f
+    sget v3, Lcom/res/provider/ResDRAWABLE;->arrow_back_icon_white:I
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    const v1, 0x7f0901e5
+    sget v1, Lcom/res/provider/ResID;->finishWeb:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1903,7 +1903,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f09005d
+    sget v1, Lcom/res/provider/ResID;->advert_web_top:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -2015,7 +2015,7 @@
     goto :goto_0
 
     :catch_0
-    const p1, 0x7f0f06dd
+    sget p1, Lcom/res/provider/ResSTRING;->open_failed:I
 
     .line 2
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
@@ -2202,7 +2202,7 @@
     if-eqz p1, :cond_1
 
     :cond_0
-    const p1, 0x7f0f087b
+    sget p1, Lcom/res/provider/ResSTRING;->share_app_not_installed:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2443,9 +2443,9 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f010038
+    sget v1, Lcom/res/provider/ResANIM;->slide_left_in:I
 
-    const v2, 0x7f01003d
+    sget v2, Lcom/res/provider/ResANIM;->slide_right_out:I
 
     .line 4
     invoke-virtual {p0, v1, v2}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -2921,7 +2921,7 @@
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c001e
+    sget p1, Lcom/res/provider/ResLAYOUT;->activity_advert_web:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V
@@ -2938,14 +2938,14 @@
 
     move-result p1
 
-    const v1, 0x7f09005d
+    sget v1, Lcom/res/provider/ResID;->advert_web_top:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f07016c
+    sget v3, Lcom/res/provider/ResDIMEN;->top_bar_height:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->e(I)I
 
@@ -2986,7 +2986,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0904f5
+    sget v1, Lcom/res/provider/ResID;->rl_advert_web:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;

@@ -1862,7 +1862,7 @@
 
     if-eqz v2, :cond_1
 
-    const p2, 0x7f0f0ab0
+    sget p2, Lcom/res/provider/ResSTRING;->this_is_gif:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

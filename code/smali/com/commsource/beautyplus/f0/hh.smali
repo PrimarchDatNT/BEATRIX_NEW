@@ -39,49 +39,49 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/hh;->M:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090379
+    sget v2, Lcom/res/provider/ResID;->iv_thumb:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090353
+    sget v2, Lcom/res/provider/ResID;->iv_mask_bg:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090112
+    sget v2, Lcom/res/provider/ResID;->cb_select:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090346
+    sget v2, Lcom/res/provider/ResID;->iv_imported:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906cb
+    sget v2, Lcom/res/provider/ResID;->tv_effect:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090362
+    sget v2, Lcom/res/provider/ResID;->iv_preview:I
 
     const/4 v3, 0x6
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090334
+    sget v2, Lcom/res/provider/ResID;->iv_gif:I
 
     const/4 v3, 0x7
 

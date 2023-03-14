@@ -84,7 +84,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    const v0, 0x7f0c01fd
+    sget v0, Lcom/res/provider/ResLAYOUT;->video_cover_gesture:I
 
     .line 1
     invoke-direct {p0, v0}, Lcom/commsource/video/cover/a;-><init>(I)V

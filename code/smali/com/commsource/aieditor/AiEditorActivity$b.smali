@@ -223,7 +223,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0801d1
+    sget v1, Lcom/res/provider/ResDRAWABLE;->home_banner_loading_bg:I
 
     invoke-virtual {p1, v1}, Lcom/commsource/util/u0$d;->k(I)Lcom/commsource/util/u0$d;
 

@@ -208,7 +208,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0801d2
+    sget v2, Lcom/res/provider/ResDRAWABLE;->home_beautyplus_logo:I
 
     .line 11
     invoke-virtual {v1, v2}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;

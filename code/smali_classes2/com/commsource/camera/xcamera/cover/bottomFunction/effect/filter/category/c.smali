@@ -121,7 +121,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c0139
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_camera_filter_category:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -211,12 +211,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f060225
+    sget p1, Lcom/res/provider/ResCOLOR;->white:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f060010
+    sget p1, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
     goto :goto_0
 
@@ -228,12 +228,12 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f06022b
+    sget p1, Lcom/res/provider/ResCOLOR;->white60:I
 
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f0600f2
+    sget p1, Lcom/res/provider/ResCOLOR;->color_cc333333:I
 
     .line 4
     :goto_0
@@ -377,7 +377,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const p3, 0x7f0f036a
+    sget p3, Lcom/res/provider/ResSTRING;->favorites:I
 
     invoke-static {p3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -395,7 +395,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const p3, 0x7f0f03ac
+    sget p3, Lcom/res/provider/ResSTRING;->filter_recommend:I
 
     invoke-static {p3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

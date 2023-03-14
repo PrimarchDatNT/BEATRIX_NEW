@@ -97,9 +97,9 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/function/SegmentFragment;->d2(Lcom/commsource/widget/dialog/h0;)V
 
-    const v1, 0x7f0f0081
+    sget v1, Lcom/res/provider/ResSTRING;->ai_editor_retry:I
 
-    const v2, 0x7f0f006d
+    sget v2, Lcom/res/provider/ResSTRING;->ai_editor_cancel:I
 
     if-nez p1, :cond_1
 
@@ -115,13 +115,13 @@
 
     if-ne p1, v3, :cond_2
 
-    const p1, 0x7f0f007d
+    sget p1, Lcom/res/provider/ResSTRING;->ai_editor_process_fail:I
 
     goto :goto_1
 
     :cond_2
     :goto_0
-    const p1, 0x7f0f007a
+    sget p1, Lcom/res/provider/ResSTRING;->ai_editor_need_network:I
 
     .line 4
     :goto_1

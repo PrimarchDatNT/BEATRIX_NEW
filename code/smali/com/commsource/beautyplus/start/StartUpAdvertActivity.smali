@@ -205,14 +205,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f090342
+    sget v1, Lcom/res/provider/ResID;->iv_hwbusiness_ad_shadow_bg:I
 
     .line 1
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f09033b
+    sget v2, Lcom/res/provider/ResID;->iv_hwbusiness_ad_background:I
 
     .line 2
     invoke-virtual {p0, v2}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -509,7 +509,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f01000e
+    sget v2, Lcom/res/provider/ResANIM;->alpha_out:I
 
     .line 5
     invoke-virtual {p0, v1, v2}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -879,7 +879,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f09045c
+    sget v1, Lcom/res/provider/ResID;->nativeAdView:I
 
     .line 1
     :try_start_0
@@ -1085,7 +1085,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c003e
+    sget v0, Lcom/res/provider/ResLAYOUT;->activity_splash:I
 
     return v0
 .end method
@@ -1388,7 +1388,7 @@
     .line 1
     iput-boolean v1, p0, Lcom/commsource/beautyplus/BaseActivity;->c:Z
 
-    const v1, 0x7f090747
+    sget v1, Lcom/res/provider/ResID;->tv_start_ad_skip_in_top:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1399,7 +1399,7 @@
 
     iput-object v1, p0, Lcom/commsource/beautyplus/start/StartUpAdvertActivity;->O:Landroid/widget/TextView;
 
-    const v1, 0x7f090746
+    sget v1, Lcom/res/provider/ResID;->tv_start_ad_skip_in_bottom:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1410,7 +1410,7 @@
 
     iput-object v1, p0, Lcom/commsource/beautyplus/start/StartUpAdvertActivity;->P:Landroid/widget/TextView;
 
-    const v1, 0x7f09052a
+    sget v1, Lcom/res/provider/ResID;->rl_start_ad_skip_in_top:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1435,7 +1435,7 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f090529
+    sget v1, Lcom/res/provider/ResID;->rl_start_ad_skip_in_bottom:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1449,7 +1449,7 @@
     .line 8
     invoke-virtual {v1, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f09045c
+    sget v1, Lcom/res/provider/ResID;->nativeAdView:I
 
     .line 9
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1460,7 +1460,7 @@
 
     iput-object v1, p0, Lcom/commsource/beautyplus/start/StartUpAdvertActivity;->U:Lcom/meitu/hwbusinesskit/core/widget/NativeAdView;
 
-    const v1, 0x7f090525
+    sget v1, Lcom/res/provider/ResID;->rl_root:I
 
     .line 10
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1506,7 +1506,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f01000e
+    sget v2, Lcom/res/provider/ResANIM;->alpha_out:I
 
     .line 2
     invoke-virtual {p0, v1, v2}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -1724,7 +1724,7 @@
     invoke-virtual {v2, v1}, Landroidx/localbroadcastmanager/content/LocalBroadcastManager;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
 
     :cond_0
-    const v1, 0x7f090525
+    sget v1, Lcom/res/provider/ResID;->rl_root:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;

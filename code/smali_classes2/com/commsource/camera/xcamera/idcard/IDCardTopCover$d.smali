@@ -119,7 +119,7 @@
 
     invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v3, 0x7f0f0843
+    sget v3, Lcom/res/provider/ResSTRING;->selfie_top_icon_flashalwayson:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -168,7 +168,7 @@
 
     move-result-object v3
 
-    const p1, 0x7f0f01fd
+    sget p1, Lcom/res/provider/ResSTRING;->camera_flash_permanent_on:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -212,7 +212,7 @@
 
     invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v2, 0x7f0f0845
+    sget v2, Lcom/res/provider/ResSTRING;->selfie_top_icon_flashoff:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -261,7 +261,7 @@
 
     move-result-object v1
 
-    const p1, 0x7f0f01fb
+    sget p1, Lcom/res/provider/ResSTRING;->camera_flash_off:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

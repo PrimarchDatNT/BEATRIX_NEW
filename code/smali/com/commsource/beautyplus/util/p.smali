@@ -25,7 +25,7 @@
 
     invoke-direct {v1}, Lcom/commsource/beautyplus/data/c;-><init>()V
 
-    const v2, 0x7f0f0462
+    sget v2, Lcom/res/provider/ResSTRING;->home_trend:I
 
     .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/data/c;->d(I)V
@@ -243,7 +243,7 @@
 
     invoke-direct {v1}, Lcom/commsource/beautyplus/data/c;-><init>()V
 
-    const v2, 0x7f0f045e
+    sget v2, Lcom/res/provider/ResSTRING;->home_questionnaire:I
 
     .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/data/c;->d(I)V
@@ -354,7 +354,7 @@
     const-string v3, "en"
 
     :goto_0
-    const v4, 0x7f0f076d
+    sget v4, Lcom/res/provider/ResSTRING;->questionnaire_investigation_url:I
 
     const/4 v5, 0x1
 
@@ -451,7 +451,7 @@
 
     invoke-direct {v1}, Lcom/commsource/beautyplus/data/c;-><init>()V
 
-    const v2, 0x7f0f0463
+    sget v2, Lcom/res/provider/ResSTRING;->home_tutorial:I
 
     .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/data/c;->d(I)V

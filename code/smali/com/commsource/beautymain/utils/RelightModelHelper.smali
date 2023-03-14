@@ -115,7 +115,7 @@
 
     invoke-direct {v1}, Lcom/commsource/beautymain/utils/RelightModelHelper$a;-><init>()V
 
-    const v2, 0x7f0f0785
+    sget v2, Lcom/res/provider/ResSTRING;->relight_online_materials:I
 
     .line 2
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -357,7 +357,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0785
+    sget v2, Lcom/res/provider/ResSTRING;->relight_online_materials:I
 
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -394,7 +394,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0785
+    sget v2, Lcom/res/provider/ResSTRING;->relight_online_materials:I
 
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

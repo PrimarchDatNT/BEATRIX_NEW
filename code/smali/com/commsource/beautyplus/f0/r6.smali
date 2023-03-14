@@ -157,7 +157,7 @@
 
     const/4 v3, 0x0
 
-    const v0, 0x7f060124
+    sget v0, Lcom/res/provider/ResCOLOR;->color_f2f1f1:I
 
     invoke-static {v2, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

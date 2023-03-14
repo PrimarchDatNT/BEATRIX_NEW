@@ -44,28 +44,28 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/la;->J:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0904d5
+    sget v2, Lcom/res/provider/ResID;->refresh:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09026c
+    sget v2, Lcom/res/provider/ResID;->groupFilterRv:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09080c
+    sget v2, Lcom/res/provider/ResID;->xtb:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090291
+    sget v2, Lcom/res/provider/ResID;->hotArea:I
 
     const/4 v3, 0x4
 

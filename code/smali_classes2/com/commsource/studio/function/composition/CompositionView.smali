@@ -395,7 +395,7 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/composition/CompositionView;->g:Landroid/graphics/RectF;
 
-    const p1, 0x7f080176
+    sget p1, Lcom/res/provider/ResDRAWABLE;->edit_composition_corner_icon:I
 
     .line 9
     invoke-static {p1}, Lcom/commsource/util/u1;->a(I)Landroid/graphics/Bitmap;
@@ -404,7 +404,7 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/composition/CompositionView;->p:Landroid/graphics/Bitmap;
 
-    const p1, 0x7f080177
+    sget p1, Lcom/res/provider/ResDRAWABLE;->edit_composition_horizontal_bar_icon:I
 
     .line 10
     invoke-static {p1}, Lcom/commsource/util/u1;->a(I)Landroid/graphics/Bitmap;
@@ -413,7 +413,7 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/composition/CompositionView;->J:Landroid/graphics/Bitmap;
 
-    const p1, 0x7f080178
+    sget p1, Lcom/res/provider/ResDRAWABLE;->edit_composition_vertical_bar_icon:I
 
     .line 11
     invoke-static {p1}, Lcom/commsource/util/u1;->a(I)Landroid/graphics/Bitmap;

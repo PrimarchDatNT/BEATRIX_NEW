@@ -103,7 +103,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c0150
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_home_ar_material2:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -384,7 +384,7 @@
 
     invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0f045b
+    sget v1, Lcom/res/provider/ResSTRING;->home_material_use:I
 
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
@@ -587,7 +587,7 @@
 
     if-ne p2, v1, :cond_4
 
-    const p2, 0x7f0800fa
+    sget p2, Lcom/res/provider/ResDRAWABLE;->common_corner_premium_white_shadow:I
 
     goto :goto_3
 

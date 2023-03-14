@@ -79,7 +79,7 @@
 
     const/4 v1, -0x1
 
-    const v2, 0x7f0801ef
+    sget v2, Lcom/res/provider/ResDRAWABLE;->ic_rect:I
 
     if-eq p1, v1, :cond_3
 
@@ -98,17 +98,17 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0801ee
+    sget v2, Lcom/res/provider/ResDRAWABLE;->ic_oval:I
 
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f0801f4
+    sget v2, Lcom/res/provider/ResDRAWABLE;->ic_triangle:I
 
     goto :goto_0
 
     :cond_2
-    const v2, 0x7f0801e5
+    sget v2, Lcom/res/provider/ResDRAWABLE;->ic_heart:I
 
     .line 1
     :cond_3

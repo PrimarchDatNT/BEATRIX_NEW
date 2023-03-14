@@ -110,7 +110,7 @@
 
     const/4 p1, 0x1
 
-    const v1, 0x7f100251
+    sget v1, Lcom/res/provider/ResSTYLE;->fullScreenDialog:I
 
     .line 2
     invoke-virtual {p0, p1, v1}, Lcom/commsource/widget/dialog/i0;->setStyle(II)V
@@ -151,7 +151,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0c00cc
+    sget v0, Lcom/res/provider/ResLAYOUT;->dialog_purchase_prompt:I
 
     .line 2
     invoke-virtual {p1, v0, p2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -218,7 +218,7 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v0, 0x7f090685
+    sget v0, Lcom/res/provider/ResID;->tv_accept:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -229,7 +229,7 @@
 
     iput-object v0, p0, Lcom/commsource/camera/montage/k0;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f0906b6
+    sget v0, Lcom/res/provider/ResID;->tv_content:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

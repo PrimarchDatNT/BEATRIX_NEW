@@ -173,7 +173,7 @@
 
     if-nez v1, :cond_1
 
-    const p1, 0x7f0f011f
+    sget p1, Lcom/res/provider/ResSTRING;->beauty_ar_tips:I
 
     .line 4
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V
@@ -238,7 +238,7 @@
     :goto_1
     if-eqz v1, :cond_4
 
-    const p1, 0x7f0f02bc
+    sget p1, Lcom/res/provider/ResSTRING;->cur_filter_no_support_makeup:I
 
     .line 8
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V
@@ -310,7 +310,7 @@
 
     invoke-direct {p1}, Lcom/commsource/widget/dialog/s0/t$a;-><init>()V
 
-    const v1, 0x7f0f079e
+    sget v1, Lcom/res/provider/ResSTRING;->reset_to_auto_beauty:I
 
     .line 17
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -321,7 +321,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0f06d1
+    sget v1, Lcom/res/provider/ResSTRING;->ok:I
 
     .line 18
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -332,7 +332,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0f0212
+    sget v1, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 19
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

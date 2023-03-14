@@ -316,7 +316,7 @@
 
     if-eqz p1, :cond_8
 
-    const v1, 0x7f0f0653
+    sget v1, Lcom/res/provider/ResSTRING;->move_your_phone_left_and_right_to_enter_facial_recognition_mode:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -422,7 +422,7 @@
 
     if-eqz p1, :cond_e
 
-    const v1, 0x7f0f0741
+    sget v1, Lcom/res/provider/ResSTRING;->press_and_hold_your_finger_on_the_screen_to_freeze:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -528,7 +528,7 @@
 
     if-eqz p1, :cond_14
 
-    const v1, 0x7f0f0740
+    sget v1, Lcom/res/provider/ResSTRING;->press_and_hold_the_device:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -634,7 +634,7 @@
 
     if-eqz p1, :cond_1a
 
-    const v1, 0x7f0f0444
+    sget v1, Lcom/res/provider/ResSTRING;->hold_the_screen_while_moving_the_phone:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -706,7 +706,7 @@
 
     if-eqz p1, :cond_1e
 
-    const v1, 0x7f0f0652
+    sget v1, Lcom/res/provider/ResSTRING;->move_your_phone_around_to_view_your_surroundings:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -803,7 +803,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c01a0
+    sget v0, Lcom/res/provider/ResLAYOUT;->layout_ar_core_tips:I
 
     return v0
 .end method

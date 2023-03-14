@@ -44,42 +44,42 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/r3;->L:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f09052f
+    sget v2, Lcom/res/provider/ResID;->rl_top_bar:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902a9
+    sget v2, Lcom/res/provider/ResID;->ifv_back:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902bd
+    sget v2, Lcom/res/provider/ResID;->ifv_switch:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09051c
+    sget v2, Lcom/res/provider/ResID;->rl_montage_preview:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090358
+    sget v2, Lcom/res/provider/ResID;->iv_montage_face:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906ff
+    sget v2, Lcom/res/provider/ResID;->tv_montage_no_face_tip:I
 
     const/4 v3, 0x6
 

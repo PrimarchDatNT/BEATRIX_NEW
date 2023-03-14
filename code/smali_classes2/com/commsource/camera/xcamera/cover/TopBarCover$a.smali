@@ -105,7 +105,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/w4;->f:Lcom/commsource/widget/IconFrontView;
 
-    const v3, 0x7f0f083e
+    sget v3, Lcom/res/provider/ResSTRING;->selfie_top_icon_1_1:I
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -155,7 +155,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/w4;->f:Lcom/commsource/widget/IconFrontView;
 
-    const v3, 0x7f0f083f
+    sget v3, Lcom/res/provider/ResSTRING;->selfie_top_icon_3_4:I
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -205,7 +205,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/w4;->f:Lcom/commsource/widget/IconFrontView;
 
-    const v3, 0x7f0f0846
+    sget v3, Lcom/res/provider/ResSTRING;->selfie_top_icon_full:I
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 

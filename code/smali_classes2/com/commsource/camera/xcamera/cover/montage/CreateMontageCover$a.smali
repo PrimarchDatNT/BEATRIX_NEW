@@ -112,7 +112,7 @@
 
     if-ne v3, v2, :cond_1
 
-    const p1, 0x7f0f0692
+    sget p1, Lcom/res/provider/ResSTRING;->network_error_desc:I
 
     invoke-static {p1}, Lf/k/c/c/f;->h(I)V
 
@@ -136,7 +136,7 @@
 
     if-ne v3, v2, :cond_3
 
-    const p1, 0x7f0f062e
+    sget p1, Lcom/res/provider/ResSTRING;->montage_create_text_tip:I
 
     invoke-static {p1}, Lf/k/c/c/f;->h(I)V
 

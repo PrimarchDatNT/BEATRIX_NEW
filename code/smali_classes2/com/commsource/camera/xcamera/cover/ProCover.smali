@@ -890,7 +890,7 @@
 
     aget p1, v4, p1
 
-    const v4, 0x7f0f0aea
+    sget v4, Lcom/res/provider/ResSTRING;->unlock_this_item:I
 
     const/4 v5, 0x0
 
@@ -967,7 +967,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0f0ae8
+    sget v7, Lcom/res/provider/ResSTRING;->unlock_filter_xx:I
 
     new-array v8, v2, [Ljava/lang/Object;
 
@@ -1754,7 +1754,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c009d
+    sget v0, Lcom/res/provider/ResLAYOUT;->cover_pro:I
 
     return v0
 .end method

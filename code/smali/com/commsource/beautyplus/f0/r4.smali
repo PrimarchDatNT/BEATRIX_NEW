@@ -39,91 +39,91 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/r4;->S:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090730
+    sget v2, Lcom/res/provider/ResID;->tv_root_size:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090742
+    sget v2, Lcom/res/provider/ResID;->tv_size:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906bc
+    sget v2, Lcom/res/provider/ResID;->tv_cpu:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906bd
+    sget v2, Lcom/res/provider/ResID;->tv_cpu_name:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906ef
+    sget v2, Lcom/res/provider/ResID;->tv_input_fps:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090715
+    sget v2, Lcom/res/provider/ResID;->tv_out_fps:I
 
     const/4 v3, 0x6
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090694
+    sget v2, Lcom/res/provider/ResID;->tv_ar:I
 
     const/4 v3, 0x7
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090698
+    sget v2, Lcom/res/provider/ResID;->tv_ar_memory:I
 
     const/16 v3, 0x8
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906d4
+    sget v2, Lcom/res/provider/ResID;->tv_filter:I
 
     const/16 v3, 0x9
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906a6
+    sget v2, Lcom/res/provider/ResID;->tv_camera_api:I
 
     const/16 v3, 0xa
 
     .line 12
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906f8
+    sget v2, Lcom/res/provider/ResID;->tv_look_id:I
 
     const/16 v3, 0xb
 
     .line 13
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906fb
+    sget v2, Lcom/res/provider/ResID;->tv_makeup_list:I
 
     const/16 v3, 0xc
 
     .line 14
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0906fa
+    sget v2, Lcom/res/provider/ResID;->tv_makeup_color_list:I
 
     const/16 v3, 0xd
 

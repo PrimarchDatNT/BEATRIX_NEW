@@ -259,7 +259,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0f0625
+    sget v5, Lcom/res/provider/ResSTRING;->model_soft_focus:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -332,7 +332,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0f0622
+    sget v6, Lcom/res/provider/ResSTRING;->model_necklace:I
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -407,7 +407,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0f0621
+    sget v7, Lcom/res/provider/ResSTRING;->model_hand_pose:I
 
     invoke-virtual {v6, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

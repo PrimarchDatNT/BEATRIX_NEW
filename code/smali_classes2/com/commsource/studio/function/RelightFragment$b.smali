@@ -183,7 +183,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0f0134
+    sget v1, Lcom/res/provider/ResSTRING;->beauty_face_unavailable_tip:I
 
     .line 8
     invoke-static {v1}, Lf/k/c/c/f;->h(I)V

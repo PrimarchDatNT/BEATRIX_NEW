@@ -44,77 +44,77 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/z3;->Q:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090352
+    sget v2, Lcom/res/provider/ResID;->iv_mask:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09037b
+    sget v2, Lcom/res/provider/ResID;->iv_time:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09052f
+    sget v2, Lcom/res/provider/ResID;->rl_top_bar:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090413
+    sget v2, Lcom/res/provider/ResID;->mIvBack:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090416
+    sget v2, Lcom/res/provider/ResID;->mIvSwitchRatio:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902af
+    sget v2, Lcom/res/provider/ResID;->ifv_flash:I
 
     const/4 v3, 0x6
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902ab
+    sget v2, Lcom/res/provider/ResID;->ifv_count_down:I
 
     const/4 v3, 0x7
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090415
+    sget v2, Lcom/res/provider/ResID;->mIvSwitchCamera:I
 
     const/16 v3, 0x8
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901f8
+    sget v2, Lcom/res/provider/ResID;->fl_bar:I
 
     const/16 v3, 0x9
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09030d
+    sget v2, Lcom/res/provider/ResID;->iv_capture:I
 
     const/16 v3, 0xa
 
     .line 12
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090778
+    sget v2, Lcom/res/provider/ResID;->vClickBarrier:I
 
     const/16 v3, 0xb
 

@@ -132,7 +132,7 @@
     .line 4
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->Relight:Lcom/commsource/studio/sub/SubModuleEnum;
 
-    const v2, 0x7f0f09c4
+    sget v2, Lcom/res/provider/ResSTRING;->t_highlight:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/sub/SubModuleEnum;->setModuleName(I)V
 
@@ -147,7 +147,7 @@
     :cond_0
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->Relight:Lcom/commsource/studio/sub/SubModuleEnum;
 
-    const v2, 0x7f0f016f
+    sget v2, Lcom/res/provider/ResSTRING;->beauty_main_relight:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/sub/SubModuleEnum;->setModuleName(I)V
 

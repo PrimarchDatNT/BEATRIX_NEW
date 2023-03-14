@@ -80,7 +80,7 @@
 
     if-nez p2, :cond_2
 
-    const v2, 0x7f0f06cd
+    sget v2, Lcom/res/provider/ResSTRING;->notification_content1:I
 
     .line 6
     invoke-static {p1, v4}, Lf/d/i/e;->n3(Landroid/content/Context;I)V
@@ -90,17 +90,17 @@
     :cond_2
     if-ne p2, v4, :cond_3
 
-    const v3, 0x7f0f06ce
+    sget v3, Lcom/res/provider/ResSTRING;->notification_content2:I
 
     .line 7
     invoke-static {p1, v2}, Lf/d/i/e;->n3(Landroid/content/Context;I)V
 
-    const v2, 0x7f0f06ce
+    sget v2, Lcom/res/provider/ResSTRING;->notification_content2:I
 
     goto :goto_1
 
     :cond_3
-    const v2, 0x7f0f06cf
+    sget v2, Lcom/res/provider/ResSTRING;->notification_content3:I
 
     .line 8
     invoke-static {p1, v3}, Lf/d/i/e;->n3(Landroid/content/Context;I)V
@@ -123,7 +123,7 @@
 
     invoke-virtual {v1, p2}, Lcom/commsource/push/NotificationBarPush;->setTaskId(Ljava/lang/String;)V
 
-    const p2, 0x7f0f00aa
+    sget p2, Lcom/res/provider/ResSTRING;->app_name:I
 
     .line 10
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

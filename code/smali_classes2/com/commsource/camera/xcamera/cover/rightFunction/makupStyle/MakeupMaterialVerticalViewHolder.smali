@@ -89,7 +89,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c0163
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_makeup_style:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -204,7 +204,7 @@
 
     move-result-object p3
 
-    const v1, 0x7f0802ac
+    sget v1, Lcom/res/provider/ResDRAWABLE;->placeholder_stickers_45:I
 
     .line 8
     invoke-virtual {p3, v1}, Lcom/commsource/util/u0$d;->k(I)Lcom/commsource/util/u0$d;
@@ -246,7 +246,7 @@
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/yg;->g:Landroid/widget/ImageView;
 
-    const v1, 0x7f0800fa
+    sget v1, Lcom/res/provider/ResDRAWABLE;->common_corner_premium_white_shadow:I
 
     invoke-virtual {p2, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -292,7 +292,7 @@
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/yg;->f:Lcom/commsource/widget/CornerImageView;
 
-    const v1, 0x7f08013d
+    sget v1, Lcom/res/provider/ResDRAWABLE;->corner_new_large:I
 
     invoke-virtual {p2, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 

@@ -105,7 +105,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c018c
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_sticker_shop_detail_header:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -300,7 +300,7 @@
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v5, 0x7f0f0392
+    sget v5, Lcom/res/provider/ResSTRING;->filter_count:I
 
     invoke-static {v5}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
@@ -422,7 +422,7 @@
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/mj;->c:Landroid/widget/TextView;
 
-    const p3, 0x7f060006
+    sget p3, Lcom/res/provider/ResCOLOR;->Gray_B:I
 
     invoke-static {p3}, Lcom/commsource/util/l0;->P(I)I
 
@@ -439,7 +439,7 @@
 
     invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p3, 0x7f0f03d5
+    sget p3, Lcom/res/provider/ResSTRING;->free:I
 
     invoke-static {p3}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
@@ -495,7 +495,7 @@
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/mj;->c:Landroid/widget/TextView;
 
-    const p3, 0x7f060005
+    sget p3, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     invoke-static {p3}, Lcom/commsource/util/l0;->P(I)I
 
@@ -512,7 +512,7 @@
 
     invoke-static {p2, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p3, 0x7f0f073c
+    sget p3, Lcom/res/provider/ResSTRING;->premium:I
 
     invoke-static {p3}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 

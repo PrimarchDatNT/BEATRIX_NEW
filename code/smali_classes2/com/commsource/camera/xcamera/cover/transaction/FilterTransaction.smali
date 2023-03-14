@@ -508,7 +508,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f0f0ae0
+    sget v2, Lcom/res/provider/ResSTRING;->unable_to_apply_special_filter:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -545,7 +545,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f0f03d1
+    sget v2, Lcom/res/provider/ResSTRING;->food_filter_tip:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -610,7 +610,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f0f0102
+    sget v2, Lcom/res/provider/ResSTRING;->back_camera:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -643,7 +643,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f0f0101
+    sget v2, Lcom/res/provider/ResSTRING;->back_better:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -676,7 +676,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f0f0574
+    sget v2, Lcom/res/provider/ResSTRING;->lag_occur:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

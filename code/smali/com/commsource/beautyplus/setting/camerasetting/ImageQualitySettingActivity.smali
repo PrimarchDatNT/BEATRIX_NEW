@@ -58,9 +58,9 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i0;->P:Landroid/widget/TextView;
 
-    const v4, 0x7f06013a
+    sget v4, Lcom/res/provider/ResCOLOR;->color_fb5986:I
 
-    const v5, 0x7f060034
+    sget v5, Lcom/res/provider/ResCOLOR;->black:I
 
     invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatActivity;->getResources()Landroid/content/res/Resources;
 
@@ -317,7 +317,7 @@
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c0033
+    sget p1, Lcom/res/provider/ResLAYOUT;->activity_image_quality:I
 
     .line 2
     invoke-static {p0, p1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;

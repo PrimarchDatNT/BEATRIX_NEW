@@ -157,7 +157,7 @@
 
     const/4 v6, 0x0
 
-    const v7, 0x7f0f019c
+    sget v7, Lcom/res/provider/ResSTRING;->beauty_remold_face:I
 
     move-object v3, v9
 
@@ -202,7 +202,7 @@
 
     const/16 v18, 0x1
 
-    const v19, 0x7f0f019b
+    sget v19, Lcom/res/provider/ResSTRING;->beauty_remold_eyes:I
 
     move-object v15, v3
 
@@ -242,7 +242,7 @@
 
     const/4 v7, 0x2
 
-    const v8, 0x7f0f034f
+    sget v8, Lcom/res/provider/ResSTRING;->eye_brow:I
 
     move-object v4, v3
 
@@ -292,7 +292,7 @@
 
     const/16 v18, 0x3
 
-    const v19, 0x7f0f01a1
+    sget v19, Lcom/res/provider/ResSTRING;->beauty_remold_nose:I
 
     move-object v15, v3
 
@@ -337,7 +337,7 @@
 
     const/4 v7, 0x4
 
-    const v8, 0x7f0f01a0
+    sget v8, Lcom/res/provider/ResSTRING;->beauty_remold_lips:I
 
     move-object v4, v1
 

@@ -59,7 +59,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0f0b07
+    sget v1, Lcom/res/provider/ResSTRING;->very_sorry_data_illegal:I
 
     .line 2
     invoke-static {v1}, Lf/k/c/c/f;->n(I)V
@@ -120,7 +120,7 @@
     .line 8
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    const p1, 0x7f0f06dd
+    sget p1, Lcom/res/provider/ResSTRING;->open_failed:I
 
     .line 9
     invoke-static {p1}, Lf/k/c/c/f;->n(I)V
@@ -197,7 +197,7 @@
 
     if-nez p2, :cond_1
 
-    const p2, 0x7f0f02de
+    sget p2, Lcom/res/provider/ResSTRING;->dialog_pre_environment_tips:I
 
     .line 2
     invoke-virtual {p0, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -206,7 +206,7 @@
 
     if-eqz p1, :cond_0
 
-    const p2, 0x7f0f02da
+    sget p2, Lcom/res/provider/ResSTRING;->dialog_formal_environment_tips:I
 
     .line 3
     invoke-virtual {p0, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -219,7 +219,7 @@
     .line 4
     iput-boolean v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->P:Z
 
-    const v1, 0x7f0f06d1
+    sget v1, Lcom/res/provider/ResSTRING;->ok:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -230,7 +230,7 @@
 
     invoke-direct {v2, p0, p1}, Lcom/commsource/beautyplus/setting/n;-><init>(Lcom/commsource/beautyplus/setting/SettingActivity;Z)V
 
-    const v3, 0x7f0f0212
+    sget v3, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 6
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -653,7 +653,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0f02d5
+    sget v1, Lcom/res/provider/ResSTRING;->dialog_confirm:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -774,20 +774,20 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0f00f6
+    sget v1, Lcom/res/provider/ResSTRING;->attention:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v1, 0x7f0f06b0
+    sget v1, Lcom/res/provider/ResSTRING;->no_net_meassage:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v1, 0x7f0f06d1
+    sget v1, Lcom/res/provider/ResSTRING;->ok:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1077,7 +1077,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f0f0869
+    sget p1, Lcom/res/provider/ResSTRING;->setting_image_quality_lower:I
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1093,7 +1093,7 @@
 
     if-ne p1, v1, :cond_1
 
-    const p1, 0x7f0f0870
+    sget p1, Lcom/res/provider/ResSTRING;->setting_image_quality_ultra:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1109,7 +1109,7 @@
 
     if-ne p1, v1, :cond_2
 
-    const p1, 0x7f0f0866
+    sget p1, Lcom/res/provider/ResSTRING;->setting_image_quality_higher:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1121,7 +1121,7 @@
     return-object p1
 
     :cond_2
-    const p1, 0x7f0f086c
+    sget p1, Lcom/res/provider/ResSTRING;->setting_image_quality_normal:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1817,20 +1817,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0f06ad
+    sget v1, Lcom/res/provider/ResSTRING;->no_has_new_version:I
 
     .line 1
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v1, 0x7f0f0578
+    sget v1, Lcom/res/provider/ResSTRING;->latest_version:I
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v1, 0x7f0f02db
+    sget v1, Lcom/res/provider/ResSTRING;->dialog_i_konw:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1958,7 +1958,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0f06d1
+    sget v1, Lcom/res/provider/ResSTRING;->ok:I
 
     .line 1
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1969,7 +1969,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/beautyplus/setting/u;-><init>(Lcom/commsource/beautyplus/setting/SettingActivity;)V
 
-    const v3, 0x7f0f0212
+    sget v3, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 2
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2040,7 +2040,7 @@
     .line 2
     iget-boolean v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->S:Z
 
-    const v2, 0x7f0f07a5
+    sget v2, Lcom/res/provider/ResSTRING;->restored:I
 
     if-eqz v1, :cond_0
 
@@ -2067,7 +2067,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0f042c
+    sget v1, Lcom/res/provider/ResSTRING;->half_restored:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2097,7 +2097,7 @@
     .line 2
     iget-boolean v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->S:Z
 
-    const v2, 0x7f0f07a5
+    sget v2, Lcom/res/provider/ResSTRING;->restored:I
 
     if-eqz v1, :cond_0
 
@@ -2124,7 +2124,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0f06c8
+    sget v1, Lcom/res/provider/ResSTRING;->not_subs_no_restore:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2266,7 +2266,7 @@
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v5, 0x7f0f0a6b
+    sget v5, Lcom/res/provider/ResSTRING;->t_test_latest_update_time:I
 
     invoke-static {v5}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -2587,7 +2587,7 @@
 
     new-array v4, v4, [Ljava/lang/Object;
 
-    const v5, 0x7f0f00aa
+    sget v5, Lcom/res/provider/ResSTRING;->app_name:I
 
     invoke-virtual {p0, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2634,14 +2634,14 @@
     .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->q0()V
 
-    const v1, 0x7f0f0759
+    sget v1, Lcom/res/provider/ResSTRING;->purchase_restore_failed:I
 
     .line 2
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0f08c3
+    sget v2, Lcom/res/provider/ResSTRING;->solve_now:I
 
     .line 3
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -2978,7 +2978,7 @@
 
     const-string v1, "android.intent.action.VIEW"
 
-    const v2, 0x7f0f08c2
+    sget v2, Lcom/res/provider/ResSTRING;->software_grade_url:I
 
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3007,7 +3007,7 @@
     .line 14
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    const p1, 0x7f0f06dd
+    sget p1, Lcom/res/provider/ResSTRING;->open_failed:I
 
     .line 15
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
@@ -3138,7 +3138,7 @@
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c004b
+    sget p1, Lcom/res/provider/ResLAYOUT;->app_setting:I
 
     .line 2
     invoke-static {p0, p1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
@@ -3428,7 +3428,7 @@
     .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->q0()V
 
-    const v1, 0x7f0f0b15
+    sget v1, Lcom/res/provider/ResSTRING;->web_net_error:I
 
     .line 2
     invoke-static {v1}, Lf/k/c/c/f;->w(I)V
@@ -3505,7 +3505,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f0aef
+    sget v3, Lcom/res/provider/ResSTRING;->update_push_ok:I
 
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3515,7 +3515,7 @@
 
     invoke-direct {v4, p0, p1}, Lcom/commsource/beautyplus/setting/g;-><init>(Lcom/commsource/beautyplus/setting/SettingActivity;Lcom/commsource/push/bean/UpdateBean;)V
 
-    const p1, 0x7f0f0aee
+    sget p1, Lcom/res/provider/ResSTRING;->update_push_cancle:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -3555,7 +3555,7 @@
     .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->q0()V
 
-    const v1, 0x7f0f0415
+    sget v1, Lcom/res/provider/ResSTRING;->google_play_setup_failure:I
 
     .line 2
     invoke-static {v1}, Lf/k/c/c/f;->w(I)V

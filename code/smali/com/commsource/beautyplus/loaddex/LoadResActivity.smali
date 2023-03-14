@@ -58,7 +58,7 @@
     .line 4
     invoke-virtual {p0, p1, p1}, Landroid/app/Activity;->overridePendingTransition(II)V
 
-    const p1, 0x7f0c0043
+    sget p1, Lcom/res/provider/ResLAYOUT;->activity_wait_load_dex:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V

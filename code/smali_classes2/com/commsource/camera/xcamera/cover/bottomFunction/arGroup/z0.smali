@@ -1790,9 +1790,9 @@
     .line 6
     new-instance v6, Lcom/meitu/template/bean/ArMaterialGroup;
 
-    const v12, 0x7f0f0824
+    sget v12, Lcom/res/provider/ResSTRING;->selfie_ar_icon_my:I
 
-    const v13, 0x7f0f00d5
+    sget v13, Lcom/res/provider/ResSTRING;->ar_my:I
 
     invoke-direct {v6, v10, v12, v13}, Lcom/meitu/template/bean/ArMaterialGroup;-><init>(III)V
 
@@ -1801,9 +1801,9 @@
     .line 7
     new-instance v6, Lcom/meitu/template/bean/ArMaterialGroup;
 
-    const v12, 0x7f0f0822
+    sget v12, Lcom/res/provider/ResSTRING;->selfie_ar_icon_hot:I
 
-    const v13, 0x7f0f00be
+    sget v13, Lcom/res/provider/ResSTRING;->ar_hot:I
 
     invoke-direct {v6, v11, v12, v13}, Lcom/meitu/template/bean/ArMaterialGroup;-><init>(III)V
 
@@ -1812,9 +1812,9 @@
     .line 8
     new-instance v6, Lcom/meitu/template/bean/ArMaterialGroup;
 
-    const v12, 0x7f0f0825
+    sget v12, Lcom/res/provider/ResSTRING;->selfie_ar_icon_new:I
 
-    const v13, 0x7f0f00d6
+    sget v13, Lcom/res/provider/ResSTRING;->ar_new:I
 
     invoke-direct {v6, v9, v12, v13}, Lcom/meitu/template/bean/ArMaterialGroup;-><init>(III)V
 
@@ -1823,9 +1823,9 @@
     .line 9
     new-instance v6, Lcom/meitu/template/bean/ArMaterialGroup;
 
-    const v12, 0x7f0f0823
+    sget v12, Lcom/res/provider/ResSTRING;->selfie_ar_icon_montage:I
 
-    const v13, 0x7f0f00d3
+    sget v13, Lcom/res/provider/ResSTRING;->ar_montage:I
 
     invoke-direct {v6, v8, v12, v13}, Lcom/meitu/template/bean/ArMaterialGroup;-><init>(III)V
 
@@ -1834,9 +1834,9 @@
     .line 10
     new-instance v6, Lcom/meitu/template/bean/ArMaterialGroup;
 
-    const v12, 0x7f08030c
+    sget v12, Lcom/res/provider/ResDRAWABLE;->selfie_ar_icon_ipstore_mark:I
 
-    const v13, 0x7f0f0466
+    sget v13, Lcom/res/provider/ResSTRING;->hot:I
 
     invoke-direct {v6, v7, v12, v13}, Lcom/meitu/template/bean/ArMaterialGroup;-><init>(III)V
 

@@ -145,7 +145,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0f004d
+    sget v1, Lcom/res/provider/ResSTRING;->ad_slot_banner_ai_beauty:I
 
     invoke-virtual {p1, v1}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 

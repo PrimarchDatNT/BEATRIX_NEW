@@ -19,7 +19,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0c00d6
+    sget v0, Lcom/res/provider/ResLAYOUT;->easy_editor_shortcut_enter_gallery:I
 
     const/4 v1, 0x0
 

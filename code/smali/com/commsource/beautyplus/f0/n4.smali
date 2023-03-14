@@ -44,21 +44,21 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/n4;->J:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090225
+    sget v2, Lcom/res/provider/ResID;->fl_right:I
 
     const/4 v3, 0x2
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0903e4
+    sget v2, Lcom/res/provider/ResID;->ll_makeup_scroll_tips:I
 
     const/4 v3, 0x3
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904ea
+    sget v2, Lcom/res/provider/ResID;->rightLine:I
 
     const/4 v3, 0x4
 

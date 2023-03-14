@@ -33,7 +33,7 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0f0809
+    sget v1, Lcom/res/provider/ResSTRING;->sdcard_unable:I
 
     .line 2
     invoke-static {v1}, Lf/k/c/c/f;->w(I)V
@@ -53,7 +53,7 @@
 
     if-nez v1, :cond_1
 
-    const v1, 0x7f0f0808
+    sget v1, Lcom/res/provider/ResSTRING;->sdcard_space_insufficient:I
 
     .line 5
     invoke-static {v1}, Lf/k/c/c/f;->w(I)V

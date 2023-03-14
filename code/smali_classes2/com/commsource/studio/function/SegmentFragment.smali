@@ -1327,7 +1327,7 @@
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f0f092d
+    sget v1, Lcom/res/provider/ResSTRING;->t_add_mask_tips:I
 
     .line 9
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V

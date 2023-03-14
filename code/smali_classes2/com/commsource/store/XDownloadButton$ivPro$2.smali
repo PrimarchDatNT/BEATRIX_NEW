@@ -88,7 +88,7 @@
 
     invoke-direct {v1, v2}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0800f7
+    sget v2, Lcom/res/provider/ResDRAWABLE;->common_corner_premium_black_shadow:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V

@@ -44,42 +44,42 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/n8;->P:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090558
+    sget v2, Lcom/res/provider/ResID;->rv_group:I
 
     const/4 v3, 0x4
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090275
+    sget v2, Lcom/res/provider/ResID;->group_divider:I
 
     const/4 v3, 0x5
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090542
+    sget v2, Lcom/res/provider/ResID;->rvContainer:I
 
     const/4 v3, 0x6
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090540
+    sget v2, Lcom/res/provider/ResID;->rv:I
 
     const/4 v3, 0x7
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090545
+    sget v2, Lcom/res/provider/ResID;->rvRecentContainer:I
 
     const/16 v3, 0x8
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090561
+    sget v2, Lcom/res/provider/ResID;->rv_recent:I
 
     const/16 v3, 0x9
 
@@ -331,7 +331,7 @@
 
     const/4 v4, 0x0
 
-    const v1, 0x7f060225
+    sget v1, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v3, v1}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

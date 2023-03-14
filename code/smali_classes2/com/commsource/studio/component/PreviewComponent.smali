@@ -151,7 +151,7 @@
     .line 3
     iget-object p2, p1, Lcom/commsource/beautyplus/f0/y1;->a:Lcom/commsource/widget/IconFrontView;
 
-    const p3, 0x7f0f0311
+    sget p3, Lcom/res/provider/ResSTRING;->edit_icon_preview:I
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(I)V
 

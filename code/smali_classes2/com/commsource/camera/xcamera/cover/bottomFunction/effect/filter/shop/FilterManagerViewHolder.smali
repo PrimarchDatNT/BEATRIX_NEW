@@ -113,7 +113,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c0148
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_filter_manager:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -404,12 +404,12 @@
 
     if-ne v1, v2, :cond_0
 
-    const v1, 0x7f08032a
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_filter_manager_icon_collected:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080329
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_filter_manager_icon:I
 
     :goto_0
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -431,12 +431,12 @@
 
     if-ne v1, v2, :cond_1
 
-    const v1, 0x7f0600f4
+    sget v1, Lcom/res/provider/ResCOLOR;->color_cccccc:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f06010c
+    sget v1, Lcom/res/provider/ResCOLOR;->color_e45252:I
 
     :goto_1
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
@@ -585,7 +585,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->c:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    const p3, 0x7f06013d
+    sget p3, Lcom/res/provider/ResCOLOR;->color_fbfbfd:I
 
     invoke-static {p3}, Lcom/commsource/util/u1;->b(I)I
 
@@ -659,7 +659,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->c:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    const p3, 0x7f060225
+    sget p3, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {p3}, Lcom/commsource/util/u1;->b(I)I
 

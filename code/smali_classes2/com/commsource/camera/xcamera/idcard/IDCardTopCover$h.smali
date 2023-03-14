@@ -103,7 +103,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/y3;->K:Lcom/commsource/widget/IconFrontView;
 
-    const v1, 0x7f0f083e
+    sget v1, Lcom/res/provider/ResSTRING;->selfie_top_icon_1_1:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -118,7 +118,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/y3;->f:Lcom/commsource/widget/CircleImageView;
 
-    const v1, 0x7f08032f
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_id_ratio_11_icon:I
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/CircleImageView;->setImageResource(I)V
 
@@ -151,7 +151,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/y3;->K:Lcom/commsource/widget/IconFrontView;
 
-    const v1, 0x7f0f083f
+    sget v1, Lcom/res/provider/ResSTRING;->selfie_top_icon_3_4:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -166,7 +166,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/y3;->f:Lcom/commsource/widget/CircleImageView;
 
-    const v1, 0x7f080330
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_id_ratio_43_icon:I
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/CircleImageView;->setImageResource(I)V
 
@@ -198,7 +198,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/y3;->K:Lcom/commsource/widget/IconFrontView;
 
-    const v1, 0x7f0f0846
+    sget v1, Lcom/res/provider/ResSTRING;->selfie_top_icon_full:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 

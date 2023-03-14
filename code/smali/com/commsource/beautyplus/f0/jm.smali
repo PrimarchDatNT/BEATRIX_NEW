@@ -60,7 +60,7 @@
 
     new-array v6, v4, [I
 
-    const v8, 0x7f0c0203
+    sget v8, Lcom/res/provider/ResLAYOUT;->view_process_share_link:I
 
     aput v8, v6, v7
 
@@ -92,105 +92,105 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/jm;->a0:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090320
+    sget v2, Lcom/res/provider/ResID;->iv_dismiss:I
 
     const/4 v3, 0x7
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090759
+    sget v2, Lcom/res/provider/ResID;->tv_title:I
 
     const/16 v3, 0x8
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090565
+    sget v2, Lcom/res/provider/ResID;->rv_share_platform:I
 
     const/16 v3, 0x9
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0903cb
+    sget v2, Lcom/res/provider/ResID;->ll_button_container:I
 
     const/16 v3, 0xa
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904cc
+    sget v2, Lcom/res/provider/ResID;->pv_next:I
 
     const/16 v3, 0xb
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904ca
+    sget v2, Lcom/res/provider/ResID;->pv_home:I
 
     const/16 v3, 0xc
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901f3
+    sget v2, Lcom/res/provider/ResID;->fl_ad:I
 
     const/16 v3, 0xd
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904f0
+    sget v2, Lcom/res/provider/ResID;->rl_ad_container:I
 
     const/16 v3, 0xe
 
     .line 12
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0903bc
+    sget v2, Lcom/res/provider/ResID;->ll_ad_container:I
 
     const/16 v3, 0xf
 
     .line 13
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090173
+    sget v2, Lcom/res/provider/ResID;->csav_ad_view:I
 
     const/16 v3, 0x10
 
     .line 14
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090495
+    sget v2, Lcom/res/provider/ResID;->piv_report_enter:I
 
     const/16 v3, 0x11
 
     .line 15
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09050a
+    sget v2, Lcom/res/provider/ResID;->rl_default_ad:I
 
     const/16 v3, 0x12
 
     .line 16
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09031c
+    sget v2, Lcom/res/provider/ResID;->iv_default_ad:I
 
     const/16 v3, 0x13
 
     .line 17
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900e2
+    sget v2, Lcom/res/provider/ResID;->btn_dismiss:I
 
     const/16 v3, 0x14
 
     .line 18
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090738
+    sget v2, Lcom/res/provider/ResID;->tv_shortcut_enter:I
 
     const/16 v3, 0x15
 
@@ -589,7 +589,7 @@
 
     const/4 v4, 0x0
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v3, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -599,7 +599,7 @@
 
     iget-object v0, v1, Lcom/commsource/beautyplus/f0/im;->d:Landroid/widget/FrameLayout;
 
-    const v7, 0x7f0600f4
+    sget v7, Lcom/res/provider/ResCOLOR;->color_cccccc:I
 
     invoke-static {v0, v7}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

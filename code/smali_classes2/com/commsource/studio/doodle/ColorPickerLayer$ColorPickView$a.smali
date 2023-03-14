@@ -96,7 +96,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080174
+    sget v3, Lcom/res/provider/ResDRAWABLE;->edit_color_picker_mask_icon:I
 
     invoke-static {v2, v3}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -117,7 +117,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080173
+    sget v3, Lcom/res/provider/ResDRAWABLE;->edit_color_picker_bg_icon:I
 
     invoke-static {v2, v3}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -138,7 +138,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080172
+    sget v3, Lcom/res/provider/ResDRAWABLE;->edit_color_picker_aim_icon:I
 
     invoke-static {v2, v3}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

@@ -212,7 +212,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kj;->a:Landroid/widget/RelativeLayout;
 
-    const v1, 0x7f06013d
+    sget v1, Lcom/res/provider/ResCOLOR;->color_fbfbfd:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 
@@ -232,7 +232,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kj;->a:Landroid/widget/RelativeLayout;
 
-    const v1, 0x7f060225
+    sget v1, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 

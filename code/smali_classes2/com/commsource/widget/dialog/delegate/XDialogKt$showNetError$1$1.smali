@@ -119,7 +119,7 @@
 
     invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0f033f
+    sget v1, Lcom/res/provider/ResSTRING;->error_network:I
 
     .line 1
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -128,7 +128,7 @@
 
     invoke-static {p1, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->h(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;)V
 
-    const v1, 0x7f0f0400
+    sget v1, Lcom/res/provider/ResSTRING;->go_it:I
 
     .line 2
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;

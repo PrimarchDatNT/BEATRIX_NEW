@@ -91,7 +91,7 @@
     .line 2
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/d;->q:Z
 
-    const p1, 0x7f060063
+    sget p1, Lcom/res/provider/ResCOLOR;->color_2a333333:I
 
     .line 3
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
@@ -100,7 +100,7 @@
 
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/d;->r:I
 
-    const p1, 0x7f06006b
+    sget p1, Lcom/res/provider/ResCOLOR;->color_333333:I
 
     .line 4
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
@@ -109,7 +109,7 @@
 
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/d;->s:I
 
-    const p1, 0x7f060225
+    sget p1, Lcom/res/provider/ResCOLOR;->white:I
 
     .line 5
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
@@ -118,7 +118,7 @@
 
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/d;->t:I
 
-    const p1, 0x7f060135
+    sget p1, Lcom/res/provider/ResCOLOR;->color_fa3274:I
 
     .line 6
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I

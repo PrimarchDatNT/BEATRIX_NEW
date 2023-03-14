@@ -77,7 +77,7 @@
 
     if-eqz v1, :cond_0
 
-    const v2, 0x7f0f00ea
+    sget v2, Lcom/res/provider/ResSTRING;->ar_weather2:I
 
     const/4 v3, 0x2
 

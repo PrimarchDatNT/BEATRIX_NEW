@@ -66,7 +66,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f01003e
+    sget v0, Lcom/res/provider/ResANIM;->timing_hint:I
 
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

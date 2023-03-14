@@ -550,7 +550,7 @@
 
     const/4 v2, 0x4
 
-    const v3, 0x7f080318
+    sget v3, Lcom/res/provider/ResDRAWABLE;->selfie_ar_icon_trash_white:I
 
     invoke-direct {v1, v2, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;-><init>(II)V
 

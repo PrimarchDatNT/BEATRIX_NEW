@@ -373,9 +373,9 @@
     .line 5
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/TopBarCover;->c:Z
 
-    const v2, 0x7f060225
+    sget v2, Lcom/res/provider/ResCOLOR;->white:I
 
-    const v3, 0x7f060005
+    sget v3, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     if-eqz v1, :cond_1
 
@@ -628,7 +628,7 @@
 
     move-result-object v4
 
-    const v1, 0x7f0f0222
+    sget v1, Lcom/res/provider/ResSTRING;->changing_ratios_is_not_supported:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -1433,7 +1433,7 @@
 
     move-result-object v6
 
-    const p1, 0x7f0f0924
+    sget p1, Lcom/res/provider/ResSTRING;->switching_camera_lenses_is_not_supported:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -1593,9 +1593,9 @@
 
     move-result-object p1
 
-    const v1, 0x7f010030
+    sget v1, Lcom/res/provider/ResANIM;->push_up_in:I
 
-    const v2, 0x7f010031
+    sget v2, Lcom/res/provider/ResANIM;->push_up_out:I
 
     invoke-virtual {p1, v1, v2}, Landroid/app/Activity;->overridePendingTransition(II)V
 
@@ -1772,7 +1772,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c00a3
+    sget v0, Lcom/res/provider/ResLAYOUT;->cover_top_bar:I
 
     return v0
 .end method

@@ -459,7 +459,7 @@
 
     iput v2, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->g:I
 
-    const v1, 0x7f07006e
+    sget v1, Lcom/res/provider/ResDIMEN;->camera_button_margin_bottom:I
 
     .line 9
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->e(I)F

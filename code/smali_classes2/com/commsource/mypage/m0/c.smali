@@ -245,7 +245,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0c01e5
+    sget v1, Lcom/res/provider/ResLAYOUT;->puzzle_select_item:I
 
     const/4 v2, 0x0
 

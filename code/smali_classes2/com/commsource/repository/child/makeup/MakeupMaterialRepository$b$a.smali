@@ -88,7 +88,7 @@
     .line 4
     invoke-virtual {v4, v6}, Lcom/commsource/repository/child/makeup/h;->z0(Ljava/lang/String;)V
 
-    const v7, 0x7f0f09f5
+    sget v7, Lcom/res/provider/ResSTRING;->t_lip_stick_misty:I
 
     .line 5
     invoke-static {v7}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -138,7 +138,7 @@
     .line 14
     invoke-virtual {v4, v11}, Lcom/commsource/repository/child/makeup/h;->z0(Ljava/lang/String;)V
 
-    const v11, 0x7f0f0992
+    sget v11, Lcom/res/provider/ResSTRING;->t_eye_brow_standard:I
 
     .line 15
     invoke-static {v11}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -196,7 +196,7 @@
     .line 24
     invoke-virtual {v4, v14}, Lcom/commsource/repository/child/makeup/h;->z0(Ljava/lang/String;)V
 
-    const v15, 0x7f0f093e
+    sget v15, Lcom/res/provider/ResSTRING;->t_blush_fresh:I
 
     .line 25
     invoke-static {v15}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -237,7 +237,7 @@
     .line 33
     invoke-virtual {v4, v9}, Lcom/commsource/repository/child/makeup/h;->z0(Ljava/lang/String;)V
 
-    const v9, 0x7f0f0996
+    sget v9, Lcom/res/provider/ResSTRING;->t_eye_shadow_rust:I
 
     .line 34
     invoke-static {v9}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -282,7 +282,7 @@
     .line 42
     invoke-virtual {v4, v2}, Lcom/commsource/repository/child/makeup/h;->z0(Ljava/lang/String;)V
 
-    const v2, 0x7f0f0995
+    sget v2, Lcom/res/provider/ResSTRING;->t_eye_shadow_mauve:I
 
     .line 43
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -323,7 +323,7 @@
     .line 51
     invoke-virtual {v2, v11}, Lcom/commsource/repository/child/makeup/h;->z0(Ljava/lang/String;)V
 
-    const v11, 0x7f0f0a7d
+    sget v11, Lcom/res/provider/ResSTRING;->t_trimming_daily:I
 
     .line 52
     invoke-static {v11}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -366,7 +366,7 @@
     .line 60
     invoke-virtual {v2, v7}, Lcom/commsource/repository/child/makeup/h;->z0(Ljava/lang/String;)V
 
-    const v7, 0x7f0f09c0
+    sget v7, Lcom/res/provider/ResSTRING;->t_hair_caramel:I
 
     .line 61
     invoke-static {v7}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -409,7 +409,7 @@
     .line 69
     invoke-virtual {v2, v4}, Lcom/commsource/repository/child/makeup/h;->z0(Ljava/lang/String;)V
 
-    const v4, 0x7f0f09bf
+    sget v4, Lcom/res/provider/ResSTRING;->t_hair_blueberry:I
 
     .line 70
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -450,7 +450,7 @@
     .line 78
     invoke-virtual {v2, v9}, Lcom/commsource/repository/child/makeup/h;->z0(Ljava/lang/String;)V
 
-    const v9, 0x7f0f0993
+    sget v9, Lcom/res/provider/ResSTRING;->t_eye_lash_pure:I
 
     .line 79
     invoke-static {v9}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -508,7 +508,7 @@
     .line 88
     invoke-virtual {v0, v2}, Lcom/commsource/repository/child/makeup/h;->z0(Ljava/lang/String;)V
 
-    const v2, 0x7f0f0994
+    sget v2, Lcom/res/provider/ResSTRING;->t_eye_lash_soft:I
 
     .line 89
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -560,7 +560,7 @@
     .line 98
     invoke-virtual {v0, v2}, Lcom/commsource/repository/child/makeup/h;->z0(Ljava/lang/String;)V
 
-    const v2, 0x7f0f093a
+    sget v2, Lcom/res/provider/ResSTRING;->t_beauty_pupil_choco:I
 
     .line 99
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -608,7 +608,7 @@
     .line 108
     invoke-virtual {v0, v2}, Lcom/commsource/repository/child/makeup/h;->v0(I)V
 
-    const v2, 0x7f0f0973
+    sget v2, Lcom/res/provider/ResSTRING;->t_edit_makeup_eyesmiles_crescent:I
 
     .line 109
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

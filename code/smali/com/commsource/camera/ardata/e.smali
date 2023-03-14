@@ -1241,7 +1241,7 @@
 
     :cond_1
     :goto_1
-    const p0, 0x7f0f004c
+    sget p0, Lcom/res/provider/ResSTRING;->ad_slot_ar_rewardedvideo_ad:I
 
     .line 6
     invoke-static {p0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -2341,7 +2341,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0f00cf
+    sget v1, Lcom/res/provider/ResSTRING;->ar_material_list_debug_pre:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -2351,7 +2351,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0f00ce
+    sget v1, Lcom/res/provider/ResSTRING;->ar_material_list_debug:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -2368,7 +2368,7 @@
 
     if-eqz v1, :cond_3
 
-    const v1, 0x7f0f00d0
+    sget v1, Lcom/res/provider/ResSTRING;->ar_material_list_pre:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -2389,7 +2389,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f0f00cd
+    sget v2, Lcom/res/provider/ResSTRING;->ar_material_list:I
 
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

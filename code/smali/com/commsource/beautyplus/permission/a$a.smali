@@ -34,7 +34,7 @@
     .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    const p1, 0x7f09035d
+    sget p1, Lcom/res/provider/ResID;->iv_permission_icon:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -45,7 +45,7 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/permission/a$a;->a:Landroid/widget/ImageView;
 
-    const p1, 0x7f09071b
+    sget p1, Lcom/res/provider/ResID;->tv_permission_title:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -56,7 +56,7 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/permission/a$a;->b:Landroid/widget/TextView;
 
-    const p1, 0x7f09071a
+    sget p1, Lcom/res/provider/ResID;->tv_permission_content:I
 
     .line 5
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

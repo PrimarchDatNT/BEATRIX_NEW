@@ -76,77 +76,77 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/l0;->s0:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090106
+    sget v2, Lcom/res/provider/ResID;->canvas_container:I
 
     const/16 v3, 0x1c
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901d0
+    sget v2, Lcom/res/provider/ResID;->fake_background:I
 
     const/16 v3, 0x1d
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09054d
+    sget v2, Lcom/res/provider/ResID;->rv_bottom_tab:I
 
     const/16 v3, 0x1e
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09075e
+    sget v2, Lcom/res/provider/ResID;->tv_top_tips:I
 
     const/16 v3, 0x1f
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090708
+    sget v2, Lcom/res/provider/ResID;->tv_multi_select_cancel:I
 
     const/16 v3, 0x20
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904a1
+    sget v2, Lcom/res/provider/ResID;->proView:I
 
     const/16 v3, 0x21
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0907e7
+    sget v2, Lcom/res/provider/ResID;->vs_sticker_guider:I
 
     const/16 v3, 0x22
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09039b
+    sget v2, Lcom/res/provider/ResID;->layerSelectGuideView:I
 
     const/16 v3, 0x23
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09039a
+    sget v2, Lcom/res/provider/ResID;->layerSelectComponent:I
 
     const/16 v3, 0x24
 
     .line 12
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090397
+    sget v2, Lcom/res/provider/ResID;->layerAdjustComponent:I
 
     const/16 v3, 0x25
 
     .line 13
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09024e
+    sget v2, Lcom/res/provider/ResID;->fragmentContainer:I
 
     const/16 v3, 0x26
 
@@ -848,7 +848,7 @@
 
     const/4 v11, 0x0
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v10, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -931,7 +931,7 @@
 
     const/high16 v13, 0x3f000000    # 0.5f
 
-    const v3, 0x7f06000a
+    sget v3, Lcom/res/provider/ResCOLOR;->Gray_Dashline:I
 
     invoke-static {v10, v3}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -949,7 +949,7 @@
     .line 25
     iget-object v10, v1, Lcom/commsource/beautyplus/f0/k0;->U:Lcom/commsource/widget/IconFrontView;
 
-    const v5, 0x7f0600de
+    sget v5, Lcom/res/provider/ResCOLOR;->color_b3333333:I
 
     invoke-static {v10, v5}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -1027,7 +1027,7 @@
 
     const/4 v11, 0x0
 
-    const v0, 0x7f060137
+    sget v0, Lcom/res/provider/ResCOLOR;->color_fa64b0:I
 
     invoke-static {v10, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

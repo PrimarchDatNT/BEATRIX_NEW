@@ -756,7 +756,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0c0167
+    sget v2, Lcom/res/provider/ResLAYOUT;->item_montage_material:I
 
     const/4 v3, 0x0
 

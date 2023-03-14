@@ -227,7 +227,7 @@
 
     invoke-static {v1, v2}, Lf/d/i/e;->n2(Landroid/content/Context;I)V
 
-    const v1, 0x7f0f05fc
+    sget v1, Lcom/res/provider/ResSTRING;->meitu_statistics_beauatretouchyes:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;

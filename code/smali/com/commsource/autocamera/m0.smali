@@ -1003,7 +1003,7 @@
     .line 5
     iget-object v1, p0, Lcom/commsource/autocamera/m0;->a:Landroid/content/Context;
 
-    const v2, 0x7f0f0423
+    sget v2, Lcom/res/provider/ResSTRING;->group_photo_title:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1013,7 +1013,7 @@
 
     const-string v4, "GROUP_PHOTO"
 
-    const v5, 0x7f0d0002
+    sget v5, Lcom/res/provider/ResMIPMAP;->ic_shortcut_group_photo:I
 
     invoke-static {v1, v4, v2, v5, v3}, Lcom/meitu/shortcut/core/h;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Class;)V
 
@@ -1709,7 +1709,7 @@
     .line 4
     iget-object v3, p0, Lcom/commsource/autocamera/m0;->b:Landroid/widget/FrameLayout;
 
-    const v4, 0x7f090372
+    sget v4, Lcom/res/provider/ResID;->iv_shortcut_enter:I
 
     invoke-virtual {v3, v4}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

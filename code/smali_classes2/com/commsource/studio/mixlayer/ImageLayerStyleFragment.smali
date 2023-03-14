@@ -642,7 +642,7 @@
 
     new-array v5, v5, [Ljava/lang/Integer;
 
-    const v6, 0x7f0f09d8
+    sget v6, Lcom/res/provider/ResSTRING;->t_image_layer:I
 
     .line 7
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -655,7 +655,7 @@
 
     const/4 v6, 0x1
 
-    const v8, 0x7f0f0a37
+    sget v8, Lcom/res/provider/ResSTRING;->t_shadow:I
 
     .line 8
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -666,7 +666,7 @@
 
     const/4 v6, 0x2
 
-    const v8, 0x7f0f0948
+    sget v8, Lcom/res/provider/ResSTRING;->t_color_mix:I
 
     .line 9
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1606,7 +1606,7 @@
     .line 13
     sget-object p1, Lcom/commsource/studio/sub/SubModuleEnum;->ImageStyle:Lcom/commsource/studio/sub/SubModuleEnum;
 
-    const p2, 0x7f0f09d9
+    sget p2, Lcom/res/provider/ResSTRING;->t_image_layer_style:I
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/sub/SubModuleEnum;->setModuleName(I)V
 

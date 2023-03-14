@@ -234,7 +234,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120007
+    sget v3, Lcom/res/provider/ResXML;->plist_mosaic:I
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/beautymain/viewmodel/MosaicViewModel;->a0(Landroid/content/Context;I)V
 
@@ -1238,7 +1238,7 @@
 
     iget-object v2, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
-    const v3, 0x7f10026a
+    sget v3, Lcom/res/provider/ResSTYLE;->updateDialog:I
 
     invoke-direct {v1, v2, v3}, Lcom/commsource/comic/widget/c;-><init>(Landroid/content/Context;I)V
 
@@ -1289,7 +1289,7 @@
 
     iput-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->i0:Lcom/commsource/widget/dialog/q0;
 
-    const v4, 0x7f0f0052
+    sget v4, Lcom/res/provider/ResSTRING;->ad_slot_mosaic_rewardedvideo_ad:I
 
     if-nez v1, :cond_1
 
@@ -1343,12 +1343,12 @@
 
     if-eqz v4, :cond_0
 
-    const v4, 0x7f0f064d
+    sget v4, Lcom/res/provider/ResSTRING;->mosaic_to_subcribe:I
 
     goto :goto_0
 
     :cond_0
-    const v4, 0x7f0f064c
+    sget v4, Lcom/res/provider/ResSTRING;->mosaic_to_buy:I
 
     :goto_0
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -2028,7 +2028,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f0f0052
+    sget p1, Lcom/res/provider/ResSTRING;->ad_slot_mosaic_rewardedvideo_ad:I
 
     .line 3
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

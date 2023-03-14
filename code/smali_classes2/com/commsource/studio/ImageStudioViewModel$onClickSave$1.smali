@@ -128,21 +128,21 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f0f0ae1
+    sget p1, Lcom/res/provider/ResSTRING;->unable_to_save:I
 
     .line 3
     invoke-static {p1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const p1, 0x7f0f0ae2
+    sget p1, Lcom/res/provider/ResSTRING;->unable_to_save_explain:I
 
     .line 4
     invoke-static {p1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const p1, 0x7f0f0230
+    sget p1, Lcom/res/provider/ResSTRING;->clean_now:I
 
     .line 5
     invoke-static {p1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
@@ -154,7 +154,7 @@
 
     invoke-direct {v4, p0}, Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1$a;-><init>(Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1;)V
 
-    const p1, 0x7f0f0ae3
+    sget p1, Lcom/res/provider/ResSTRING;->unable_to_save_later:I
 
     .line 7
     invoke-static {p1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;

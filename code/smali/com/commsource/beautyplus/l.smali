@@ -1063,7 +1063,7 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    const v3, 0x7f0f07b0
+    sget v3, Lcom/res/provider/ResSTRING;->s2s_app_id:I
 
     .line 2
     invoke-virtual {p0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1074,7 +1074,7 @@
 
     invoke-interface {v1, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v3, 0x7f0f0058
+    sget v3, Lcom/res/provider/ResSTRING;->admob_app_id:I
 
     .line 3
     invoke-virtual {p0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1092,14 +1092,14 @@
 
     invoke-direct {v3, v4}, Ljava/util/HashMap;-><init>(I)V
 
-    const v4, 0x7f0f0053
+    sget v4, Lcom/res/provider/ResSTRING;->ad_slot_save_via_selfie:I
 
     .line 5
     invoke-virtual {p0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v5, 0x7f0c01cb
+    sget v5, Lcom/res/provider/ResLAYOUT;->new_share_advert:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1107,14 +1107,14 @@
 
     invoke-interface {v3, v4, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v4, 0x7f0f004b
+    sget v4, Lcom/res/provider/ResSTRING;->ad_slot_album:I
 
     .line 6
     invoke-virtual {p0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v5, 0x7f0c019e
+    sget v5, Lcom/res/provider/ResLAYOUT;->layout_album_advert:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1122,14 +1122,14 @@
 
     invoke-interface {v3, v4, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v4, 0x7f0f0055
+    sget v4, Lcom/res/provider/ResSTRING;->ad_slot_selfiesave:I
 
     .line 7
     invoke-virtual {p0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v5
 
-    const v6, 0x7f0c01ea
+    sget v6, Lcom/res/provider/ResLAYOUT;->save_and_share_advert:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1177,7 +1177,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0c01b3
+    sget v5, Lcom/res/provider/ResLAYOUT;->layout_video_ad:I
 
     .line 10
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1203,7 +1203,7 @@
 
     move-result-object p1
 
-    const v4, 0x7f120002
+    sget v4, Lcom/res/provider/ResXML;->firebase_config_defaults_cn:I
 
     .line 14
     invoke-virtual {p1, v4}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;->setFirebaseDefaultConfigCn(I)Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;

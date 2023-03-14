@@ -52,7 +52,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f100240
+    sget v0, Lcom/res/provider/ResSTYLE;->arDialog:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
@@ -964,7 +964,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->S:Lcom/commsource/widget/AutoFitTextView;
 
-    const v2, 0x7f0f07be
+    sget v2, Lcom/res/provider/ResSTRING;->s_score_dialog_thanks_rate:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -977,7 +977,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06013a
+    sget v3, Lcom/res/provider/ResCOLOR;->color_fb5986:I
 
     invoke-static {v2, v3}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 
@@ -995,7 +995,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080394
+    sget v3, Lcom/res/provider/ResDRAWABLE;->shape_radiu20_colorfb5986:I
 
     invoke-static {v2, v3}, Landroidx/core/content/ContextCompat;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -1346,7 +1346,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0c00d7
+    sget v1, Lcom/res/provider/ResLAYOUT;->feature_dialog_scrore:I
 
     const/4 v2, 0x0
 
@@ -1489,7 +1489,7 @@
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/s6;->W:Lcom/commsource/widget/PressAutoFitTextView;
 
-    const v0, 0x7f0802a9
+    sget v0, Lcom/res/provider/ResDRAWABLE;->pink_bg_radius_42:I
 
     invoke-virtual {p2, v0}, Landroidx/appcompat/widget/AppCompatTextView;->setBackgroundResource(I)V
 
@@ -1515,7 +1515,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080394
+    sget v1, Lcom/res/provider/ResDRAWABLE;->shape_radiu20_colorfb5986:I
 
     invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 

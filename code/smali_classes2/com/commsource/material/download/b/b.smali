@@ -645,11 +645,11 @@
     .line 2
     new-instance v1, Lcom/commsource/comic/widget/c;
 
-    const v2, 0x7f10026a
+    sget v2, Lcom/res/provider/ResSTYLE;->updateDialog:I
 
     invoke-direct {v1, p1, v2}, Lcom/commsource/comic/widget/c;-><init>(Landroid/content/Context;I)V
 
-    const v2, 0x7f0f02fc
+    sget v2, Lcom/res/provider/ResSTRING;->downloading:I
 
     .line 3
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

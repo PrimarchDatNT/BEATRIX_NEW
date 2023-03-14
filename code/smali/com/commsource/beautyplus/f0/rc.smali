@@ -44,21 +44,21 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/rc;->p:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0902e1
+    sget v2, Lcom/res/provider/ResID;->ipTopBar:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0903aa
+    sget v2, Lcom/res/provider/ResID;->line_bottom_v:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902e0
+    sget v2, Lcom/res/provider/ResID;->ipContent:I
 
     const/4 v3, 0x3
 

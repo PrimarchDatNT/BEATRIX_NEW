@@ -721,7 +721,7 @@
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/s0/t$a;-><init>()V
 
-    const v2, 0x7f0f079e
+    sget v2, Lcom/res/provider/ResSTRING;->reset_to_auto_beauty:I
 
     .line 8
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -732,7 +732,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f06d1
+    sget v2, Lcom/res/provider/ResSTRING;->ok:I
 
     .line 9
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -743,7 +743,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0212
+    sget v2, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 10
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1437,7 +1437,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c00f5
+    sget v0, Lcom/res/provider/ResLAYOUT;->fragment_look_suspend:I
 
     const/4 v1, 0x0
 

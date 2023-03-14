@@ -198,7 +198,7 @@
 
     add-int/2addr v1, p0
 
-    const p0, 0x7f0700e1
+    sget p0, Lcom/res/provider/ResDIMEN;->home_vertical_margin:I
 
     invoke-static {p0}, Lcom/meitu/library/p/d/b;->e(I)F
 
@@ -301,7 +301,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0700e0
+    sget v1, Lcom/res/provider/ResDIMEN;->home_horizontal_margin:I
 
     .line 1
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->e(I)F

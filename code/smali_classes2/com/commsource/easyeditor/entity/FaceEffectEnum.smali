@@ -103,7 +103,7 @@
 
     const/16 v4, 0x2711
 
-    const v5, 0x7f0f0526
+    sget v5, Lcom/res/provider/ResSTRING;->if_smooth:I
 
     const/4 v6, 0x0
 
@@ -113,7 +113,7 @@
 
     const v9, 0x3ecccccd    # 0.4f
 
-    const v10, 0x7f0f017a
+    sget v10, Lcom/res/provider/ResSTRING;->beauty_main_smooth:I
 
     move-object v1, v11
 
@@ -130,7 +130,7 @@
 
     const/16 v15, 0x2712
 
-    const v16, 0x7f0f0552
+    sget v16, Lcom/res/provider/ResSTRING;->if_tones:I
 
     const/high16 v17, -0x40800000    # -1.0f
 
@@ -140,7 +140,7 @@
 
     const v20, 0x3e99999a    # 0.3f
 
-    const v21, 0x7f0f0187
+    sget v21, Lcom/res/provider/ResSTRING;->beauty_main_tones:I
 
     move-object v12, v1
 
@@ -157,7 +157,7 @@
 
     const/16 v25, 0x2713
 
-    const v26, 0x7f0f0475
+    sget v26, Lcom/res/provider/ResSTRING;->if_acne:I
 
     const/16 v27, 0x0
 
@@ -167,7 +167,7 @@
 
     const/high16 v30, 0x3f800000    # 1.0f
 
-    const v31, 0x7f0f0142
+    sget v31, Lcom/res/provider/ResSTRING;->beauty_main_acne:I
 
     move-object/from16 v22, v2
 
@@ -184,13 +184,13 @@
 
     const/16 v15, 0x2714
 
-    const v16, 0x7f0f049b
+    sget v16, Lcom/res/provider/ResSTRING;->if_countouring:I
 
     const/16 v17, 0x0
 
     const/high16 v20, 0x3f000000    # 0.5f
 
-    const v21, 0x7f0f014b
+    sget v21, Lcom/res/provider/ResSTRING;->beauty_main_countouring:I
 
     move-object v12, v3
 
@@ -207,7 +207,7 @@
 
     const/16 v25, 0x2715
 
-    const v26, 0x7f0f0519
+    sget v26, Lcom/res/provider/ResSTRING;->if_remold_nose_nosewing:I
 
     const/high16 v27, -0x40800000    # -1.0f
 
@@ -215,7 +215,7 @@
 
     const v30, 0x3e99999a    # 0.3f
 
-    const v31, 0x7f0f01a3
+    sget v31, Lcom/res/provider/ResSTRING;->beauty_remold_nosewing:I
 
     move-object/from16 v22, v4
 
@@ -232,11 +232,11 @@
 
     const/16 v15, 0x2716
 
-    const v16, 0x7f0f04e2
+    sget v16, Lcom/res/provider/ResSTRING;->if_eye_enlarge:I
 
     const/16 v19, 0x1
 
-    const v21, 0x7f0f033c
+    sget v21, Lcom/res/provider/ResSTRING;->enlarge_eyes:I
 
     move-object v12, v5
 
@@ -253,7 +253,7 @@
 
     const/16 v25, 0x2717
 
-    const v26, 0x7f0f04de
+    sget v26, Lcom/res/provider/ResSTRING;->if_eye_brightness:I
 
     const/16 v27, 0x0
 
@@ -261,7 +261,7 @@
 
     const/high16 v30, 0x3f000000    # 0.5f
 
-    const v31, 0x7f0f0163
+    sget v31, Lcom/res/provider/ResSTRING;->beauty_main_eyes_brighten:I
 
     move-object/from16 v22, v6
 
@@ -278,9 +278,9 @@
 
     const/16 v15, 0x2718
 
-    const v16, 0x7f0f049c
+    sget v16, Lcom/res/provider/ResSTRING;->if_dark_circles:I
 
-    const v21, 0x7f0f014d
+    sget v21, Lcom/res/provider/ResSTRING;->beauty_main_dark_circles:I
 
     move-object v12, v7
 
@@ -297,13 +297,13 @@
 
     const/16 v25, 0x2719
 
-    const v26, 0x7f0f04a6
+    sget v26, Lcom/res/provider/ResSTRING;->if_easy_editor_slim:I
 
     const/16 v29, 0x2
 
     const v30, 0x3e99999a    # 0.3f
 
-    const v31, 0x7f0f08b1
+    sget v31, Lcom/res/provider/ResSTRING;->slim:I
 
     move-object/from16 v22, v8
 
@@ -320,13 +320,13 @@
 
     const/16 v15, 0x271a
 
-    const v16, 0x7f0f0523
+    sget v16, Lcom/res/provider/ResSTRING;->if_shrink:I
 
     const/16 v19, 0x2
 
     const v20, 0x3e99999a    # 0.3f
 
-    const v21, 0x7f0f0176
+    sget v21, Lcom/res/provider/ResSTRING;->beauty_main_shrink_head:I
 
     move-object v12, v9
 
@@ -343,13 +343,13 @@
 
     const/16 v25, 0x271b
 
-    const v26, 0x7f0f04a4
+    sget v26, Lcom/res/provider/ResSTRING;->if_easy_editor_mouth_size:I
 
     const/high16 v27, -0x40800000    # -1.0f
 
     const/16 v29, 0x4
 
-    const v31, 0x7f0f0629
+    sget v31, Lcom/res/provider/ResSTRING;->montage_adjust_size:I
 
     move-object/from16 v22, v10
 
@@ -366,11 +366,11 @@
 
     const/16 v15, 0x271c
 
-    const v16, 0x7f0f0545
+    sget v16, Lcom/res/provider/ResSTRING;->if_teeth_whiten:I
 
     const/16 v19, 0x4
 
-    const v21, 0x7f0f0147
+    sget v21, Lcom/res/provider/ResSTRING;->beauty_main_beauty_teeth:I
 
     move-object/from16 v12, v22
 
@@ -397,7 +397,7 @@
 
     const/16 v31, 0x0
 
-    const v32, 0x7f0f058b
+    sget v32, Lcom/res/provider/ResSTRING;->lip_stick:I
 
     move-object/from16 v23, v12
 
@@ -424,7 +424,7 @@
 
     const/16 v41, 0x0
 
-    const v42, 0x7f0f0352
+    sget v42, Lcom/res/provider/ResSTRING;->eye_brow_shape:I
 
     move-object/from16 v33, v13
 
@@ -443,7 +443,7 @@
 
     const/16 v30, 0x1
 
-    const v32, 0x7f0f0354
+    sget v32, Lcom/res/provider/ResSTRING;->eye_shadow:I
 
     move-object/from16 v23, v14
 
@@ -462,7 +462,7 @@
 
     const/16 v40, 0x2
 
-    const v42, 0x7f0f01de
+    sget v42, Lcom/res/provider/ResSTRING;->blush:I
 
     move-object/from16 v33, v15
 
@@ -481,7 +481,7 @@
 
     const/16 v30, 0x6
 
-    const v32, 0x7f0f011b
+    sget v32, Lcom/res/provider/ResSTRING;->beard:I
 
     move-object/from16 v23, v16
 
@@ -498,7 +498,7 @@
 
     const/16 v36, 0x2724
 
-    const v37, 0x7f0f051b
+    sget v37, Lcom/res/provider/ResSTRING;->if_remold_nose_up:I
 
     const/high16 v38, -0x40800000    # -1.0f
 
@@ -506,7 +506,7 @@
 
     const v41, 0x3dcccccd    # 0.1f
 
-    const v42, 0x7f0f01a6
+    sget v42, Lcom/res/provider/ResSTRING;->beauty_remold_up:I
 
     move-object/from16 v33, v17
 
@@ -523,7 +523,7 @@
 
     const/16 v26, 0x2725
 
-    const v27, 0x7f0f04f2
+    sget v27, Lcom/res/provider/ResSTRING;->if_hair_line:I
 
     const/high16 v28, -0x40800000    # -1.0f
 
@@ -531,7 +531,7 @@
 
     const v31, 0x3e99999a    # 0.3f
 
-    const v32, 0x7f0f0429
+    sget v32, Lcom/res/provider/ResSTRING;->hair_line:I
 
     move-object/from16 v23, v18
 
@@ -548,7 +548,7 @@
 
     const/16 v36, 0x2726
 
-    const v37, 0x7f0f0525
+    sget v37, Lcom/res/provider/ResSTRING;->if_smile:I
 
     const/16 v38, 0x0
 
@@ -556,7 +556,7 @@
 
     const/16 v41, 0x0
 
-    const v42, 0x7f0f08b6
+    sget v42, Lcom/res/provider/ResSTRING;->smile:I
 
     move-object/from16 v33, v19
 
@@ -573,13 +573,13 @@
 
     const/16 v26, 0x2727
 
-    const v27, 0x7f0f0517
+    sget v27, Lcom/res/provider/ResSTRING;->if_remold_mouse_thick:I
 
     const/16 v30, 0x4
 
     const/16 v31, 0x0
 
-    const v32, 0x7f0f01a5
+    sget v32, Lcom/res/provider/ResSTRING;->beauty_remold_thick:I
 
     move-object/from16 v23, v20
 
@@ -596,13 +596,13 @@
 
     const/16 v36, 0x2728
 
-    const v37, 0x7f0f04df
+    sget v37, Lcom/res/provider/ResSTRING;->if_eye_brow_height:I
 
     const/high16 v38, -0x40800000    # -1.0f
 
     const/16 v40, 0x0
 
-    const v42, 0x7f0f0350
+    sget v42, Lcom/res/provider/ResSTRING;->eye_brow_height:I
 
     move-object/from16 v33, v21
 
@@ -619,11 +619,11 @@
 
     const/16 v26, 0x2729
 
-    const v27, 0x7f0f04e0
+    sget v27, Lcom/res/provider/ResSTRING;->if_eye_brow_rotate:I
 
     const/16 v30, 0x0
 
-    const v32, 0x7f0f0351
+    sget v32, Lcom/res/provider/ResSTRING;->eye_brow_rotate:I
 
     move-object/from16 v23, v33
 
@@ -640,7 +640,7 @@
 
     const/16 v37, 0x272a
 
-    const v38, 0x7f0f04e1
+    sget v38, Lcom/res/provider/ResSTRING;->if_eye_brow_size:I
 
     const/high16 v39, -0x40800000    # -1.0f
 
@@ -650,7 +650,7 @@
 
     const/16 v42, 0x0
 
-    const v43, 0x7f0f0353
+    sget v43, Lcom/res/provider/ResSTRING;->eye_brow_size:I
 
     move-object/from16 v34, v23
 
@@ -667,7 +667,7 @@
 
     const/16 v47, 0x272b
 
-    const v48, 0x7f0f0477
+    sget v48, Lcom/res/provider/ResSTRING;->if_ai_beauty:I
 
     const/16 v49, 0x0
 
@@ -677,7 +677,7 @@
 
     const/16 v52, 0x0
 
-    const v53, 0x7f0f005d
+    sget v53, Lcom/res/provider/ResSTRING;->ai_beauty:I
 
     move-object/from16 v44, v24
 

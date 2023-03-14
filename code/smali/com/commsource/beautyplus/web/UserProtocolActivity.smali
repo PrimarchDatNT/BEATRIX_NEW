@@ -61,7 +61,7 @@
     move-result-object v1
 
     :goto_0
-    const v2, 0x7f0900c3
+    sget v2, Lcom/res/provider/ResID;->bpwv_protocol:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -75,7 +75,7 @@
     .line 5
     invoke-virtual {v2, v1}, Lcom/meitu/webview/core/CommonWebView;->loadUrl(Ljava/lang/String;)V
 
-    const v1, 0x7f090689
+    sget v1, Lcom/res/provider/ResID;->tv_agree:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -143,7 +143,7 @@
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c0041
+    sget p1, Lcom/res/provider/ResLAYOUT;->activity_user_protocol:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V

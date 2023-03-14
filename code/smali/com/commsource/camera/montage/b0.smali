@@ -920,7 +920,7 @@
 
     const-string v2, "MONTAGE-PURCHASE-DIALOG"
 
-    const v3, 0x7f0f0051
+    sget v3, Lcom/res/provider/ResSTRING;->ad_slot_mengtaiqi_rewardedvideo_ad:I
 
     if-nez v1, :cond_1
 
@@ -1103,7 +1103,7 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v0, 0x7f0c00fb
+    sget v0, Lcom/res/provider/ResLAYOUT;->fragment_montage_material:I
 
     const/4 v1, 0x0
 

@@ -267,7 +267,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f060034
+    sget v9, Lcom/res/provider/ResCOLOR;->black:I
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -290,7 +290,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0600da
+    sget v11, Lcom/res/provider/ResCOLOR;->color_b2b2b2:I
 
     invoke-virtual {v10, v11}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -380,7 +380,7 @@
     .line 25
     invoke-virtual {v5, v3, v6}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    const v6, 0x7f060005
+    sget v6, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     .line 26
     invoke-static {v6}, Lcom/commsource/util/u1;->b(I)I
@@ -502,7 +502,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f100243
+    sget v0, Lcom/res/provider/ResSTYLE;->center_zoom_in_animation:I
 
     return v0
 .end method
@@ -517,7 +517,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c00bc
+    sget v0, Lcom/res/provider/ResLAYOUT;->dialog_common_viewpager:I
 
     return v0
 .end method

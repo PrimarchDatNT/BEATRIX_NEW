@@ -691,7 +691,7 @@
 
     if-ne p1, v2, :cond_0
 
-    const p1, 0x7f0f0217
+    sget p1, Lcom/res/provider/ResSTRING;->cancle_collect:I
 
     .line 2
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -722,7 +722,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0f0056
+    sget p1, Lcom/res/provider/ResSTRING;->add_collect:I
 
     .line 4
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

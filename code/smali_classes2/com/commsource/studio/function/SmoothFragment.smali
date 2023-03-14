@@ -540,7 +540,7 @@
 
     if-nez v1, :cond_5
 
-    const v1, 0x7f0f08b7
+    sget v1, Lcom/res/provider/ResSTRING;->smooth_tip:I
 
     .line 6
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V

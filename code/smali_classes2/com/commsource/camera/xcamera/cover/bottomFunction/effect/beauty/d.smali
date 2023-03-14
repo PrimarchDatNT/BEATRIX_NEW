@@ -236,7 +236,7 @@
     .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setSourceType(I)V
 
-    const v3, 0x7f0f033c
+    sget v3, Lcom/res/provider/ResSTRING;->enlarge_eyes:I
 
     .line 3
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -250,7 +250,7 @@
     .line 4
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setBeautyType(I)V
 
-    const v3, 0x7f0f0483
+    sget v3, Lcom/res/provider/ResSTRING;->if_camera_eye:I
 
     .line 5
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setDrawableResId(I)V
@@ -308,7 +308,7 @@
     .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setSourceType(I)V
 
-    const v3, 0x7f0f01f9
+    sget v3, Lcom/res/provider/ResSTRING;->camera_firm:I
 
     .line 3
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -322,7 +322,7 @@
     .line 4
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setBeautyType(I)V
 
-    const v3, 0x7f0f0489
+    sget v3, Lcom/res/provider/ResSTRING;->if_camera_firm:I
 
     .line 5
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setDrawableResId(I)V
@@ -389,7 +389,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0f0176
+    sget v4, Lcom/res/provider/ResSTRING;->beauty_main_shrink_head:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -402,7 +402,7 @@
     .line 4
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setBeautyType(I)V
 
-    const v3, 0x7f0f048b
+    sget v3, Lcom/res/provider/ResSTRING;->if_camera_head:I
 
     .line 5
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setDrawableResId(I)V
@@ -460,7 +460,7 @@
     .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setSourceType(I)V
 
-    const v3, 0x7f0f01f5
+    sget v3, Lcom/res/provider/ResSTRING;->camera_brighten:I
 
     .line 3
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -474,7 +474,7 @@
     .line 4
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setBeautyType(I)V
 
-    const v3, 0x7f0f0481
+    sget v3, Lcom/res/provider/ResSTRING;->if_camera_brighten:I
 
     .line 5
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setDrawableResId(I)V
@@ -532,7 +532,7 @@
     .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setSourceType(I)V
 
-    const v3, 0x7f0f0201
+    sget v3, Lcom/res/provider/ResSTRING;->camera_narrow:I
 
     .line 3
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -546,7 +546,7 @@
     .line 4
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setBeautyType(I)V
 
-    const v3, 0x7f0f0493
+    sget v3, Lcom/res/provider/ResSTRING;->if_camera_wing:I
 
     .line 5
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setDrawableResId(I)V
@@ -604,7 +604,7 @@
     .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setSourceType(I)V
 
-    const v3, 0x7f0f08a0
+    sget v3, Lcom/res/provider/ResSTRING;->simple_beauty_face:I
 
     .line 3
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -618,7 +618,7 @@
     .line 4
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setBeautyType(I)V
 
-    const v3, 0x7f0f048d
+    sget v3, Lcom/res/provider/ResSTRING;->if_camera_simple:I
 
     .line 5
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setDrawableResId(I)V
@@ -685,7 +685,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0f01a8
+    sget v4, Lcom/res/provider/ResSTRING;->beauty_skin:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -698,7 +698,7 @@
     .line 4
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setBeautyType(I)V
 
-    const v3, 0x7f0f0491
+    sget v3, Lcom/res/provider/ResSTRING;->if_camera_tone:I
 
     .line 5
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setDrawableResId(I)V
@@ -756,7 +756,7 @@
     .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setSourceType(I)V
 
-    const v3, 0x7f0f08b1
+    sget v3, Lcom/res/provider/ResSTRING;->slim:I
 
     .line 3
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -768,7 +768,7 @@
     .line 4
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setBeautyType(I)V
 
-    const v3, 0x7f0f048e
+    sget v3, Lcom/res/provider/ResSTRING;->if_camera_slim:I
 
     .line 5
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setDrawableResId(I)V
@@ -826,7 +826,7 @@
     .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setSourceType(I)V
 
-    const v3, 0x7f0f017a
+    sget v3, Lcom/res/provider/ResSTRING;->beauty_main_smooth:I
 
     .line 3
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -840,7 +840,7 @@
     .line 4
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setBeautyType(I)V
 
-    const v3, 0x7f0f048f
+    sget v3, Lcom/res/provider/ResSTRING;->if_camera_smooth:I
 
     .line 5
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setDrawableResId(I)V
@@ -898,7 +898,7 @@
     .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setSourceType(I)V
 
-    const v3, 0x7f0f08c1
+    sget v3, Lcom/res/provider/ResSTRING;->soft_hair:I
 
     .line 3
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -912,7 +912,7 @@
     .line 4
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setBeautyType(I)V
 
-    const v3, 0x7f0f0490
+    sget v3, Lcom/res/provider/ResSTRING;->if_camera_soft_hair:I
 
     .line 5
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setDrawableResId(I)V
@@ -949,7 +949,7 @@
     .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setSourceType(I)V
 
-    const v3, 0x7f0f0211
+    sget v3, Lcom/res/provider/ResSTRING;->camera_whiten:I
 
     .line 3
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -963,7 +963,7 @@
     .line 4
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setBeautyType(I)V
 
-    const v3, 0x7f0f0492
+    sget v3, Lcom/res/provider/ResSTRING;->if_camera_whiten:I
 
     .line 5
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setDrawableResId(I)V
@@ -1021,7 +1021,7 @@
     .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setSourceType(I)V
 
-    const v3, 0x7f0f01f2
+    sget v3, Lcom/res/provider/ResSTRING;->camera_acne:I
 
     .line 3
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1035,7 +1035,7 @@
     .line 4
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setBeautyType(I)V
 
-    const v3, 0x7f0f0480
+    sget v3, Lcom/res/provider/ResSTRING;->if_camera_acne:I
 
     .line 5
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setDrawableResId(I)V
@@ -1102,7 +1102,7 @@
     .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setSourceType(I)V
 
-    const v3, 0x7f0f01f6
+    sget v3, Lcom/res/provider/ResSTRING;->camera_dark_circle:I
 
     .line 3
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1116,7 +1116,7 @@
     .line 4
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setBeautyType(I)V
 
-    const v3, 0x7f0f0482
+    sget v3, Lcom/res/provider/ResSTRING;->if_camera_dark_circle:I
 
     .line 5
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setDrawableResId(I)V

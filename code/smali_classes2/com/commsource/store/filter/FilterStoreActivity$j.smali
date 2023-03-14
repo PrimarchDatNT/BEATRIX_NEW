@@ -113,9 +113,9 @@
 
     const-class v2, Lcom/commsource/store/filter/b;
 
-    const v3, 0x7f010038
+    sget v3, Lcom/res/provider/ResANIM;->slide_left_in:I
 
-    const v4, 0x7f01003d
+    sget v4, Lcom/res/provider/ResANIM;->slide_right_out:I
 
     invoke-virtual {v1, v2, v3, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->d(Ljava/lang/Class;II)Z
 

@@ -117,7 +117,7 @@
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
-    const p1, 0x7f0f03a2
+    sget p1, Lcom/res/provider/ResSTRING;->filter_long_press_collect:I
 
     .line 2
     invoke-static {p1}, Lf/k/c/c/f;->H(I)V

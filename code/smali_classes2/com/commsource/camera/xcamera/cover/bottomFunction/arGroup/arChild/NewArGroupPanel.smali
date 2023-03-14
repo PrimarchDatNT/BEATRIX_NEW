@@ -285,7 +285,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f080331
+    sget v3, Lcom/res/provider/ResDRAWABLE;->selfie_ipar_icon_store:I
 
     invoke-direct {v1, v2, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;-><init>(II)V
 
@@ -314,7 +314,7 @@
 
     const/4 v1, 0x3
 
-    const v2, 0x7f080355
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_montage_jump_icon:I
 
     invoke-direct {v0, v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;-><init>(II)V
 
@@ -454,7 +454,7 @@
 
     invoke-direct {v4}, Lcom/commsource/widget/dialog/delegate/d/e;-><init>()V
 
-    const v5, 0x7f08031b
+    sget v5, Lcom/res/provider/ResDRAWABLE;->selfie_ar_img_guide_longpress:I
 
     .line 7
     invoke-static {v5}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;
@@ -466,7 +466,7 @@
     .line 8
     invoke-virtual {v3, v4}, Lcom/commsource/widget/dialog/delegate/d/g;->M(Lcom/commsource/widget/dialog/delegate/d/e;)V
 
-    const v4, 0x7f0f00cc
+    sget v4, Lcom/res/provider/ResSTRING;->ar_long_click_to_preview:I
 
     .line 9
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -480,7 +480,7 @@
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    const v5, 0x7f0f06db
+    sget v5, Lcom/res/provider/ResSTRING;->only_new_has_this_func:I
 
     .line 11
     invoke-static {v5}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -500,7 +500,7 @@
     .line 14
     new-instance v5, Lcom/commsource/widget/dialog/delegate/c;
 
-    const v6, 0x7f0f02db
+    sget v6, Lcom/res/provider/ResSTRING;->dialog_i_konw:I
 
     .line 15
     invoke-static {v6}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

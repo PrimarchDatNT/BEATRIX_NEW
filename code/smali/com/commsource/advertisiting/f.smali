@@ -457,7 +457,7 @@
 
     if-eqz v1, :cond_4
 
-    const v1, 0x7f0f0050
+    sget v1, Lcom/res/provider/ResSTRING;->ad_slot_launch_ad:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

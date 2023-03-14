@@ -31,7 +31,7 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f0f0358
+    sget v2, Lcom/res/provider/ResSTRING;->facebook_app_attention_url:I
 
     .line 2
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -96,7 +96,7 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f0f0ad9
+    sget v2, Lcom/res/provider/ResSTRING;->twitter_app_attention_url:I
 
     .line 2
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

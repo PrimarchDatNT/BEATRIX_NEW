@@ -1210,7 +1210,7 @@
     .line 32
     new-instance v3, Lcom/commsource/widget/dialog/delegate/c;
 
-    const v4, 0x7f0f087a
+    sget v4, Lcom/res/provider/ResSTRING;->share:I
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -1471,7 +1471,7 @@
     .line 32
     new-instance v3, Lcom/commsource/widget/dialog/delegate/c;
 
-    const v4, 0x7f0f087a
+    sget v4, Lcom/res/provider/ResSTRING;->share:I
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

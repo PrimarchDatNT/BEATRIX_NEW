@@ -102,7 +102,7 @@
     invoke-virtual {v1}, Landroid/app/Dialog;->dismiss()V
 
     :cond_0
-    const v1, 0x7f0f0a28
+    sget v1, Lcom/res/provider/ResSTRING;->t_request_material_error_tip:I
 
     .line 4
     invoke-static {v1}, Lf/k/c/c/f;->h(I)V

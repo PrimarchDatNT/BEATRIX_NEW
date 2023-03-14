@@ -943,7 +943,7 @@
     const/4 v8, 0x0
 
     :goto_0
-    const v16, 0x7f06016c
+    sget v16, Lcom/res/provider/ResCOLOR;->color_ffff00:I
 
     if-ge v8, v14, :cond_0
 

@@ -88,7 +88,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0ae0
+    sget v2, Lcom/res/provider/ResSTRING;->unable_to_apply_special_filter:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

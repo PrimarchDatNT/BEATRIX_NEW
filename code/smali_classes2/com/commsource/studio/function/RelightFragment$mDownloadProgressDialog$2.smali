@@ -86,7 +86,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f10026a
+    sget v3, Lcom/res/provider/ResSTYLE;->updateDialog:I
 
     invoke-direct {v1, v2, v3}, Lcom/commsource/comic/widget/c;-><init>(Landroid/content/Context;I)V
 

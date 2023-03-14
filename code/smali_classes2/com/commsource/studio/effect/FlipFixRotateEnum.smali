@@ -88,9 +88,9 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x7f0f04d4
+    sget v5, Lcom/res/provider/ResSTRING;->if_ee_rotate:I
 
-    const v6, 0x7f0f07aa
+    sget v6, Lcom/res/provider/ResSTRING;->rotate:I
 
     const-string v7, "\u65cb\u8f6c"
 
@@ -111,9 +111,9 @@
 
     const/4 v11, 0x1
 
-    const v12, 0x7f0f0531
+    sget v12, Lcom/res/provider/ResSTRING;->if_studio_flip:I
 
-    const v13, 0x7f0f03cd
+    sget v13, Lcom/res/provider/ResSTRING;->flip:I
 
     const-string v14, "\u7ffb\u8f6c"
 

@@ -67,7 +67,7 @@
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$e;->a:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
-    const v2, 0x7f0f0055
+    sget v2, Lcom/res/provider/ResSTRING;->ad_slot_selfiesave:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

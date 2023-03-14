@@ -414,13 +414,13 @@
     :pswitch_0
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
-    const v6, 0x7f0f06a3
+    sget v6, Lcom/res/provider/ResSTRING;->night_photo_title:I
 
-    const v7, 0x7f0f06a4
+    sget v7, Lcom/res/provider/ResSTRING;->night_photo_title_grid:I
 
-    const v8, 0x7f0f06a2
+    sget v8, Lcom/res/provider/ResSTRING;->night_photo_content:I
 
-    const v9, 0x7f080272
+    sget v9, Lcom/res/provider/ResDRAWABLE;->miniapp_icon_night:I
 
     const/4 v10, 0x0
 
@@ -446,13 +446,13 @@
     :pswitch_1
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
-    const v17, 0x7f0f03b3
+    sget v17, Lcom/res/provider/ResSTRING;->filter_shop_premium:I
 
-    const v18, 0x7f0f03b3
+    sget v18, Lcom/res/provider/ResSTRING;->filter_shop_premium:I
 
-    const v19, 0x7f0f08fb
+    sget v19, Lcom/res/provider/ResSTRING;->sub_access_features:I
 
-    const v20, 0x7f080273
+    sget v20, Lcom/res/provider/ResDRAWABLE;->miniapp_icon_premium:I
 
     const/16 v21, 0x0
 
@@ -478,13 +478,13 @@
     :pswitch_2
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
-    const v4, 0x7f0f0301
+    sget v4, Lcom/res/provider/ResSTRING;->easy_editor:I
 
-    const v5, 0x7f0f0303
+    sget v5, Lcom/res/provider/ResSTRING;->easy_editor_grid:I
 
-    const v6, 0x7f0f0302
+    sget v6, Lcom/res/provider/ResSTRING;->easy_editor_content:I
 
-    const v7, 0x7f08026a
+    sget v7, Lcom/res/provider/ResDRAWABLE;->miniapp_icon_easyeditor:I
 
     const/4 v8, 0x0
 
@@ -510,13 +510,13 @@
     :pswitch_3
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
-    const v15, 0x7f0f0a5c
+    sget v15, Lcom/res/provider/ResSTRING;->t_stylish:I
 
-    const v16, 0x7f0f0a5c
+    sget v16, Lcom/res/provider/ResSTRING;->t_stylish:I
 
-    const v17, 0x7f0f09fa
+    sget v17, Lcom/res/provider/ResSTRING;->t_mini_style_desc:I
 
-    const v18, 0x7f080278
+    sget v18, Lcom/res/provider/ResDRAWABLE;->miniapp_icon_stylish:I
 
     const/16 v19, 0x0
 
@@ -542,13 +542,13 @@
     :pswitch_4
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
-    const v4, 0x7f0f0260
+    sget v4, Lcom/res/provider/ResSTRING;->color_plus_title:I
 
-    const v5, 0x7f0f0261
+    sget v5, Lcom/res/provider/ResSTRING;->color_plus_title_grid:I
 
-    const v6, 0x7f0f025e
+    sget v6, Lcom/res/provider/ResSTRING;->color_plus_content:I
 
-    const v7, 0x7f080269
+    sget v7, Lcom/res/provider/ResDRAWABLE;->miniapp_icon_circle_colorful:I
 
     const/4 v8, 0x0
 
@@ -574,13 +574,13 @@
     :pswitch_5
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
-    const v15, 0x7f0f00fb
+    sget v15, Lcom/res/provider/ResSTRING;->auto_remover_title:I
 
-    const v16, 0x7f0f00fc
+    sget v16, Lcom/res/provider/ResSTRING;->auto_remover_title_grid:I
 
-    const v17, 0x7f0f00fa
+    sget v17, Lcom/res/provider/ResSTRING;->auto_remover_content:I
 
-    const v18, 0x7f080276
+    sget v18, Lcom/res/provider/ResDRAWABLE;->miniapp_icon_remove_bg_yellow:I
 
     const/16 v19, 0x0
 
@@ -606,13 +606,13 @@
     :pswitch_6
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
-    const v4, 0x7f0f0423
+    sget v4, Lcom/res/provider/ResSTRING;->group_photo_title:I
 
-    const v5, 0x7f0f0424
+    sget v5, Lcom/res/provider/ResSTRING;->group_photo_title_grid:I
 
-    const v6, 0x7f0f0422
+    sget v6, Lcom/res/provider/ResSTRING;->group_photo_contetn:I
 
-    const v7, 0x7f08026b
+    sget v7, Lcom/res/provider/ResDRAWABLE;->miniapp_icon_groupfie:I
 
     const/4 v8, 0x0
 
@@ -638,13 +638,13 @@
     :pswitch_7
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
-    const v15, 0x7f0f0791
+    sget v15, Lcom/res/provider/ResSTRING;->remove_bg_title:I
 
-    const v16, 0x7f0f0792
+    sget v16, Lcom/res/provider/ResSTRING;->remove_bg_title_grid:I
 
-    const v17, 0x7f0f0790
+    sget v17, Lcom/res/provider/ResSTRING;->remove_bg_content:I
 
-    const v18, 0x7f080275
+    sget v18, Lcom/res/provider/ResDRAWABLE;->miniapp_icon_remove_bg_blue:I
 
     const/16 v19, 0x0
 
@@ -670,13 +670,13 @@
     :pswitch_8
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
-    const v4, 0x7f0f06d3
+    sget v4, Lcom/res/provider/ResSTRING;->old_photo_restore_title:I
 
-    const v5, 0x7f0f06d4
+    sget v5, Lcom/res/provider/ResSTRING;->old_photo_restore_title_grid:I
 
-    const v6, 0x7f0f06d2
+    sget v6, Lcom/res/provider/ResSTRING;->old_photo_restore_content:I
 
-    const v7, 0x7f080277
+    sget v7, Lcom/res/provider/ResDRAWABLE;->miniapp_icon_restore:I
 
     const/4 v8, 0x0
 
@@ -702,13 +702,13 @@
     :pswitch_9
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
-    const v15, 0x7f0f0421
+    sget v15, Lcom/res/provider/ResSTRING;->group_ip_store:I
 
-    const v16, 0x7f0f0421
+    sget v16, Lcom/res/provider/ResSTRING;->group_ip_store:I
 
-    const v17, 0x7f0f0614
+    sget v17, Lcom/res/provider/ResSTRING;->mini_app_ip_store_content:I
 
-    const v18, 0x7f08026d
+    sget v18, Lcom/res/provider/ResDRAWABLE;->miniapp_icon_ipstore:I
 
     const/16 v19, 0x0
 
@@ -734,13 +734,13 @@
     :pswitch_a
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
-    const v4, 0x7f0f0ac5
+    sget v4, Lcom/res/provider/ResSTRING;->tracel_title:I
 
-    const v5, 0x7f0f0ac5
+    sget v5, Lcom/res/provider/ResSTRING;->tracel_title:I
 
-    const v6, 0x7f0f0acc
+    sget v6, Lcom/res/provider/ResSTRING;->travel_content:I
 
-    const v7, 0x7f08027b
+    sget v7, Lcom/res/provider/ResDRAWABLE;->miniapp_icon_travel:I
 
     const/4 v8, 0x0
 
@@ -766,13 +766,13 @@
     :pswitch_b
     new-instance v0, Lcom/commsource/beautyplus/miniapp/k;
 
-    const v15, 0x7f0f042d
+    sget v15, Lcom/res/provider/ResSTRING;->hand_over_model:I
 
-    const v16, 0x7f0f042f
+    sget v16, Lcom/res/provider/ResSTRING;->hand_over_model_grid:I
 
-    const v17, 0x7f0f042e
+    sget v17, Lcom/res/provider/ResSTRING;->hand_over_model_content:I
 
-    const v18, 0x7f08026c
+    sget v18, Lcom/res/provider/ResDRAWABLE;->miniapp_icon_handover:I
 
     const/16 v19, 0x0
 

@@ -122,7 +122,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c015c
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_layer_manage_container:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/studio/gesture/a;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -470,12 +470,12 @@
 
     if-nez p1, :cond_0
 
-    const v1, 0x7f0f04bd
+    sget v1, Lcom/res/provider/ResSTRING;->if_edit_lock:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0f04c1
+    sget v1, Lcom/res/provider/ResSTRING;->if_edit_sort:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -526,9 +526,9 @@
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/gesture/a;->F(Z)V
 
-    const v1, 0x7f060007
+    sget v1, Lcom/res/provider/ResCOLOR;->Gray_Background:I
 
-    const v2, 0x7f060008
+    sget v2, Lcom/res/provider/ResCOLOR;->Gray_C:I
 
     if-nez p1, :cond_3
 
@@ -572,7 +572,7 @@
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/gesture/NormalContainerViewHolder;->L:Landroid/graphics/drawable/GradientDrawable;
 
-    const v1, 0x7f060013
+    sget v1, Lcom/res/provider/ResCOLOR;->White:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 

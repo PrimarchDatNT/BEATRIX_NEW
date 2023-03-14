@@ -90,7 +90,7 @@
     invoke-static {p1, v0}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
-    const p1, 0x7f0f0b15
+    sget p1, Lcom/res/provider/ResSTRING;->web_net_error:I
 
     .line 3
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
@@ -163,7 +163,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0f075c
+    sget v1, Lcom/res/provider/ResSTRING;->purchasing_failure:I
 
     invoke-virtual {v0, v1}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 
@@ -969,7 +969,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f0415
+    sget v3, Lcom/res/provider/ResSTRING;->google_play_setup_failure:I
 
     invoke-virtual {v2, v3}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 
@@ -1207,7 +1207,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0f0b15
+    sget v1, Lcom/res/provider/ResSTRING;->web_net_error:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

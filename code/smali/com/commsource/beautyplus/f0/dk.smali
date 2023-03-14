@@ -44,98 +44,98 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/dk;->X:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f09047a
+    sget v2, Lcom/res/provider/ResID;->otherAttrContainer:I
 
     const/4 v3, 0x5
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09013b
+    sget v2, Lcom/res/provider/ResID;->colorPicker:I
 
     const/4 v3, 0x6
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090598
+    sget v2, Lcom/res/provider/ResID;->seek_bar_1_title:I
 
     const/4 v3, 0x7
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090596
+    sget v2, Lcom/res/provider/ResID;->seek_bar_1:I
 
     const/16 v3, 0x8
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09059b
+    sget v2, Lcom/res/provider/ResID;->seek_bar_2_title:I
 
     const/16 v3, 0x9
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090599
+    sget v2, Lcom/res/provider/ResID;->seek_bar_2:I
 
     const/16 v3, 0xa
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09059e
+    sget v2, Lcom/res/provider/ResID;->seek_bar_3_title:I
 
     const/16 v3, 0xb
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900b6
+    sget v2, Lcom/res/provider/ResID;->bottomSpace:I
 
     const/16 v3, 0xc
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09059c
+    sget v2, Lcom/res/provider/ResID;->seek_bar_3:I
 
     const/16 v3, 0xd
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090642
+    sget v2, Lcom/res/provider/ResID;->text_style_bar:I
 
     const/16 v3, 0xe
 
     .line 12
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0905f2
+    sget v2, Lcom/res/provider/ResID;->style_title:I
 
     const/16 v3, 0xf
 
     .line 13
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09019b
+    sget v2, Lcom/res/provider/ResID;->disable_panel_prompt:I
 
     const/16 v3, 0x10
 
     .line 14
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09019c
+    sget v2, Lcom/res/provider/ResID;->disable_prompt:I
 
     const/16 v3, 0x11
 
     .line 15
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090105
+    sget v2, Lcom/res/provider/ResID;->cancel_template:I
 
     const/16 v3, 0x12
 
@@ -394,7 +394,7 @@
 
     const/4 v4, 0x0
 
-    const v0, 0x7f06012d
+    sget v0, Lcom/res/provider/ResCOLOR;->color_f5f5f5:I
 
     invoke-static {v3, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

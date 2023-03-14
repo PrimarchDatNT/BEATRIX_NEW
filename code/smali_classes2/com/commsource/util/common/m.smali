@@ -246,9 +246,9 @@
     .line 11
     check-cast p0, Landroid/app/Activity;
 
-    const p1, 0x7f010038
+    sget p1, Lcom/res/provider/ResANIM;->slide_left_in:I
 
-    const p2, 0x7f010039
+    sget p2, Lcom/res/provider/ResANIM;->slide_left_out:I
 
     .line 12
     invoke-virtual {p0, p1, p2}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -275,7 +275,7 @@
     throw p1
 
     :cond_1
-    const p1, 0x7f0f087b
+    sget p1, Lcom/res/provider/ResSTRING;->share_app_not_installed:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -674,9 +674,9 @@
     .line 10
     check-cast p0, Landroid/app/Activity;
 
-    const p1, 0x7f010038
+    sget p1, Lcom/res/provider/ResANIM;->slide_left_in:I
 
-    const p2, 0x7f010039
+    sget p2, Lcom/res/provider/ResANIM;->slide_left_out:I
 
     .line 11
     invoke-virtual {p0, p1, p2}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -863,9 +863,9 @@
     :try_start_0
     invoke-virtual {p0, v1, p3}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
 
-    const p1, 0x7f010038
+    sget p1, Lcom/res/provider/ResANIM;->slide_left_in:I
 
-    const p2, 0x7f010039
+    sget p2, Lcom/res/provider/ResANIM;->slide_left_out:I
 
     .line 9
     invoke-virtual {p0, p1, p2}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -1068,9 +1068,9 @@
     .line 10
     check-cast p0, Landroid/app/Activity;
 
-    const p1, 0x7f010038
+    sget p1, Lcom/res/provider/ResANIM;->slide_left_in:I
 
-    const p2, 0x7f010039
+    sget p2, Lcom/res/provider/ResANIM;->slide_left_out:I
 
     .line 11
     invoke-virtual {p0, p1, p2}, Landroid/app/Activity;->overridePendingTransition(II)V

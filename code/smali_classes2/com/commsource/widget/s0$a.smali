@@ -97,7 +97,7 @@
 
     iput-object p1, p0, Lcom/commsource/widget/s0$a;->d:Landroid/content/Context;
 
-    const p1, 0x7f100242
+    sget p1, Lcom/res/provider/ResSTYLE;->baseDialog:I
 
     .line 2
     iput p1, p0, Lcom/commsource/widget/s0$a;->c:I

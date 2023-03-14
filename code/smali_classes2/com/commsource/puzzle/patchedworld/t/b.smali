@@ -38,7 +38,7 @@
 
     const-string v2, "1:1"
 
-    const v3, 0x7f0f04c7
+    sget v3, Lcom/res/provider/ResSTRING;->if_ee_crop_1_1:I
 
     const/16 v4, 0x5dc
 
@@ -51,7 +51,7 @@
 
     const-string v2, "3:4"
 
-    const v3, 0x7f0f04ca
+    sget v3, Lcom/res/provider/ResSTRING;->if_ee_crop_3_4:I
 
     const/16 v5, 0x4b0
 
@@ -66,7 +66,7 @@
 
     const-string v2, "4:3"
 
-    const v3, 0x7f0f04cb
+    sget v3, Lcom/res/provider/ResSTRING;->if_ee_crop_4_3:I
 
     invoke-direct {v1, v2, v3, v6, v5}, Lcom/commsource/puzzle/patchedworld/t/d;-><init>(Ljava/lang/String;III)V
 
@@ -77,7 +77,7 @@
 
     const-string v2, "9:16"
 
-    const v3, 0x7f0f04ce
+    sget v3, Lcom/res/provider/ResSTRING;->if_ee_crop_9_16:I
 
     const/16 v7, 0x384
 
@@ -90,7 +90,7 @@
 
     const-string v2, "16:9"
 
-    const v3, 0x7f0f04c6
+    sget v3, Lcom/res/provider/ResSTRING;->if_ee_crop_16_9:I
 
     invoke-direct {v1, v2, v3, v6, v7}, Lcom/commsource/puzzle/patchedworld/t/d;-><init>(Ljava/lang/String;III)V
 
@@ -101,7 +101,7 @@
 
     const-string v2, "5:4"
 
-    const v3, 0x7f0f04cd
+    sget v3, Lcom/res/provider/ResSTRING;->if_ee_crop_5_4:I
 
     invoke-direct {v1, v2, v3, v4, v5}, Lcom/commsource/puzzle/patchedworld/t/d;-><init>(Ljava/lang/String;III)V
 
@@ -112,7 +112,7 @@
 
     const-string v2, "4:5"
 
-    const v3, 0x7f0f04cc
+    sget v3, Lcom/res/provider/ResSTRING;->if_ee_crop_4_5:I
 
     invoke-direct {v1, v2, v3, v5, v4}, Lcom/commsource/puzzle/patchedworld/t/d;-><init>(Ljava/lang/String;III)V
 

@@ -153,7 +153,7 @@
 
     iget-object v6, p0, Lcom/commsource/home/NewHomeActivity$n;->a:Lcom/commsource/home/NewHomeActivity;
 
-    const v7, 0x7f0f0a2d
+    sget v7, Lcom/res/provider/ResSTRING;->t_save:I
 
     new-array v8, v5, [Ljava/lang/Object;
 
@@ -267,7 +267,7 @@
     .line 12
     iget-object v2, p0, Lcom/commsource/home/NewHomeActivity$n;->a:Lcom/commsource/home/NewHomeActivity;
 
-    const v3, 0x7f0f0958
+    sget v3, Lcom/res/provider/ResSTRING;->t_days_free_trial:I
 
     new-array v5, v5, [Ljava/lang/Object;
 

@@ -76,7 +76,7 @@
 
     move-result p1
 
-    const v1, 0x7f0904d6
+    sget v1, Lcom/res/provider/ResID;->refreshIcon:I
 
     if-eq p1, v1, :cond_0
 
@@ -111,7 +111,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0f033f
+    sget p1, Lcom/res/provider/ResSTRING;->error_network:I
 
     .line 5
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V

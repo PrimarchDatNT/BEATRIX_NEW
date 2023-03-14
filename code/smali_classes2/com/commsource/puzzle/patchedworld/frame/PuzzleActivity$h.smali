@@ -85,7 +85,7 @@
 
     if-eqz v1, :cond_0
 
-    const p1, 0x7f0f07c8
+    sget p1, Lcom/res/provider/ResSTRING;->save_image_failure:I
 
     .line 2
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V

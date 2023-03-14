@@ -1136,7 +1136,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f090417
+    sget v0, Lcom/res/provider/ResID;->mMTCameraLayout:I
 
     return v0
 .end method
@@ -1151,7 +1151,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f09040f
+    sget v0, Lcom/res/provider/ResID;->mFocusView:I
 
     return v0
 .end method

@@ -229,7 +229,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    const v0, 0x7f0c0194
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_style_page:I
 
     .line 1
     invoke-static {p1, p0, v0}, Landroidx/databinding/ViewDataBinding;->bind(Ljava/lang/Object;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
@@ -307,7 +307,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    const v0, 0x7f0c0194
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_style_page:I
 
     .line 1
     invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
@@ -335,7 +335,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    const v0, 0x7f0c0194
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_style_page:I
 
     const/4 v1, 0x0
 

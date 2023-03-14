@@ -60,7 +60,7 @@
 
     new-array v3, v3, [I
 
-    const v5, 0x7f0c0050
+    sget v5, Lcom/res/provider/ResLAYOUT;->beauty_filter_tips:I
 
     aput v5, v3, v6
 
@@ -73,63 +73,63 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/h8;->V:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090804
+    sget v2, Lcom/res/provider/ResID;->xsb:I
 
     const/4 v3, 0x7
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090139
+    sget v2, Lcom/res/provider/ResID;->collectTips:I
 
     const/16 v3, 0x8
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090205
+    sget v2, Lcom/res/provider/ResID;->fl_content:I
 
     const/16 v3, 0x9
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090558
+    sget v2, Lcom/res/provider/ResID;->rv_group:I
 
     const/16 v3, 0xa
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901a2
+    sget v2, Lcom/res/provider/ResID;->divider:I
 
     const/16 v3, 0xb
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090540
+    sget v2, Lcom/res/provider/ResID;->rv:I
 
     const/16 v3, 0xc
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09035b
+    sget v2, Lcom/res/provider/ResID;->iv_new_store:I
 
     const/16 v3, 0xd
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09034a
+    sget v2, Lcom/res/provider/ResID;->iv_left_collect:I
 
     const/16 v3, 0xe
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090190
+    sget v2, Lcom/res/provider/ResID;->detailContainer:I
 
     const/16 v3, 0xf
 
@@ -469,7 +469,7 @@
 
     const/4 v6, 0x0
 
-    const v4, 0x7f06000b
+    sget v4, Lcom/res/provider/ResCOLOR;->Gray_E:I
 
     invoke-static {v5, v4}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -508,7 +508,7 @@
 
     const/4 v5, 0x0
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v4, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

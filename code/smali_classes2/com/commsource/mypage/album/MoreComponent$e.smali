@@ -117,7 +117,7 @@
 
     aput-object p1, v2, v3
 
-    const p1, 0x7f0f0b25
+    sget p1, Lcom/res/provider/ResSTRING;->x_photo_remove:I
 
     .line 3
     invoke-virtual {v1, p1, v2}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;

@@ -124,7 +124,7 @@
 
     invoke-static {v3, v4}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v4, 0x7f060007
+    sget v4, Lcom/res/provider/ResCOLOR;->Gray_Background:I
 
     invoke-static {v4}, Lcom/commsource/util/l0;->P(I)I
 
@@ -132,7 +132,7 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/widget/round/a;->q(I)V
 
-    const v3, 0x7f090508
+    sget v3, Lcom/res/provider/ResID;->rl_content:I
 
     .line 5
     invoke-virtual {v2, v3}, Landroid/widget/FrameLayout;->setId(I)V
@@ -142,7 +142,7 @@
 
     invoke-direct {v3, p1}, Lcom/commsource/widget/PressImageView;-><init>(Landroid/content/Context;)V
 
-    const v4, 0x7f090086
+    sget v4, Lcom/res/provider/ResID;->ar_material_item_iv:I
 
     .line 7
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setId(I)V
@@ -167,7 +167,7 @@
 
     invoke-direct {v3, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    const v4, 0x7f0905a3
+    sget v4, Lcom/res/provider/ResID;->select_iv:I
 
     .line 12
     invoke-virtual {v3, v4}, Landroid/view/View;->setId(I)V
@@ -193,7 +193,7 @@
 
     invoke-direct {v3, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    const v6, 0x7f090367
+    sget v6, Lcom/res/provider/ResID;->iv_red:I
 
     .line 18
     invoke-virtual {v3, v6}, Landroid/view/View;->setId(I)V
@@ -229,7 +229,7 @@
 
     invoke-direct {v3, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
-    const v6, 0x7f09036a
+    sget v6, Lcom/res/provider/ResID;->iv_right:I
 
     .line 24
     invoke-virtual {v3, v6}, Landroid/widget/ImageView;->setId(I)V
@@ -281,7 +281,7 @@
 
     invoke-direct {v3, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
-    const v6, 0x7f090349
+    sget v6, Lcom/res/provider/ResID;->iv_left:I
 
     .line 32
     invoke-virtual {v3, v6}, Landroid/widget/ImageView;->setId(I)V
@@ -331,7 +331,7 @@
 
     invoke-direct {v3, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
-    const v6, 0x7f09036c
+    sget v6, Lcom/res/provider/ResID;->iv_right_top:I
 
     .line 40
     invoke-virtual {v3, v6}, Landroid/widget/ImageView;->setId(I)V
@@ -377,7 +377,7 @@
 
     invoke-direct {v3, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
-    const v6, 0x7f0902e6
+    sget v6, Lcom/res/provider/ResID;->iv:I
 
     .line 48
     invoke-virtual {v3, v6}, Landroid/widget/ImageView;->setId(I)V
@@ -432,7 +432,7 @@
 
     invoke-direct {v2, p1, v3, v5}, Lcom/commsource/widget/RotateLoadingView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const p1, 0x7f0904a6
+    sget p1, Lcom/res/provider/ResID;->progress:I
 
     .line 57
     invoke-virtual {v2, p1}, Landroid/view/View;->setId(I)V
@@ -440,7 +440,7 @@
     .line 58
     invoke-virtual {v2, v4}, Lcom/commsource/widget/RotateLoadingView;->setVisibility(I)V
 
-    const p1, 0x7f080118
+    sget p1, Lcom/res/provider/ResDRAWABLE;->common_loading_white_rotate_icon:I
 
     .line 59
     invoke-static {p1}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;

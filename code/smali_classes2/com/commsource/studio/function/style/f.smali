@@ -163,7 +163,7 @@
 
     invoke-direct {v0, v1}, Landroid/graphics/Paint;-><init>(I)V
 
-    const v1, 0x7f06000a
+    sget v1, Lcom/res/provider/ResCOLOR;->Gray_Dashline:I
 
     .line 9
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I

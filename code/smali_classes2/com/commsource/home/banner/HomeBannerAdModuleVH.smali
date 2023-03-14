@@ -179,7 +179,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c014d
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_home_ad_banner_module:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/home/BaseHomeModuleVH;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -370,7 +370,7 @@
 
     check-cast p1, Lcom/commsource/widget/MTCardView;
 
-    const p2, 0x7f0802cc
+    sget p2, Lcom/res/provider/ResDRAWABLE;->r12_white:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
 
@@ -1592,7 +1592,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0c00c0
+    sget v2, Lcom/res/provider/ResLAYOUT;->dialog_home_banner_ad_feedback:I
 
     const/4 v3, 0x0
 
@@ -1609,7 +1609,7 @@
 
     move-result v2
 
-    const v3, 0x7f0903f7
+    sget v3, Lcom/res/provider/ResID;->ll_subscribe:I
 
     if-eqz v2, :cond_0
 
@@ -1632,7 +1632,7 @@
 
     iget-object v4, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->Z:Landroid/content/Context;
 
-    const v5, 0x7f100255
+    sget v5, Lcom/res/provider/ResSTYLE;->homeBannerAdFeedbackDialog:I
 
     invoke-direct {v2, v4, v5}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
@@ -1645,7 +1645,7 @@
 
     invoke-virtual {v2, v1, v4}, Landroid/app/Dialog;->addContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    const v4, 0x7f0906b9
+    sget v4, Lcom/res/provider/ResID;->tv_cooperation:I
 
     .line 6
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1658,7 +1658,7 @@
 
     invoke-virtual {v4, v5}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v4, 0x7f09072b
+    sget v4, Lcom/res/provider/ResID;->tv_report:I
 
     .line 7
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;

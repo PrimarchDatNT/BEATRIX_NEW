@@ -131,7 +131,7 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/studio/mixlayer/ShadowPosLayer;->N0(Z)V
 
-    const p1, 0x7f0f09dc
+    sget p1, Lcom/res/provider/ResSTRING;->t_imagelayer_style_shadow_adjust:I
 
     .line 6
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V

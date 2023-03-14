@@ -88,7 +88,7 @@
     .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/permission/b$a;->e:Ljava/lang/String;
 
-    const v2, 0x7f0900e7
+    sget v2, Lcom/res/provider/ResID;->btn_positive:I
 
     if-eqz v1, :cond_0
 
@@ -148,7 +148,7 @@
 
     move-result v1
 
-    const v2, 0x7f090654
+    sget v2, Lcom/res/provider/ResID;->title:I
 
     const/4 v3, 0x0
 
@@ -191,7 +191,7 @@
 
     move-result v2
 
-    const v6, 0x7f0905f7
+    sget v6, Lcom/res/provider/ResID;->subtitle:I
 
     if-nez v2, :cond_1
 
@@ -222,7 +222,7 @@
     :goto_1
     iget-object v2, p0, Lcom/commsource/beautyplus/permission/b$a;->d:Ljava/util/List;
 
-    const v6, 0x7f0904d1
+    sget v6, Lcom/res/provider/ResID;->recycle_permission_list:I
 
     if-eqz v2, :cond_2
 
@@ -279,7 +279,7 @@
     :goto_2
     if-nez v1, :cond_3
 
-    const v1, 0x7f09041e
+    sget v1, Lcom/res/provider/ResID;->main_content_ll:I
 
     .line 15
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -309,7 +309,7 @@
 
     iget-object v2, p0, Lcom/commsource/beautyplus/permission/b$a;->a:Landroid/content/Context;
 
-    const v3, 0x7f100242
+    sget v3, Lcom/res/provider/ResSTYLE;->baseDialog:I
 
     invoke-direct {v1, v2, v3}, Lcom/commsource/beautyplus/permission/b;-><init>(Landroid/content/Context;I)V
 
@@ -320,7 +320,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0c00c8
+    sget v3, Lcom/res/provider/ResLAYOUT;->dialog_permission_alert:I
 
     const/4 v4, 0x0
 
@@ -353,7 +353,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f100243
+    sget v4, Lcom/res/provider/ResSTYLE;->center_zoom_in_animation:I
 
     invoke-virtual {v3, v4}, Landroid/view/Window;->setWindowAnimations(I)V
 

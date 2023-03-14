@@ -166,7 +166,7 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->A(I)V
 
-    const v0, 0x7f0f0097
+    sget v0, Lcom/res/provider/ResSTRING;->alert_auto_reply:I
 
     .line 7
     invoke-static {v0}, Lf/k/c/c/f;->r(I)V

@@ -297,11 +297,11 @@
 
     const/4 p3, 0x2
 
-    const v1, 0x7f08017d
+    sget v1, Lcom/res/provider/ResDRAWABLE;->edit_crop_v_icon:I
 
-    const v2, 0x7f08017c
+    sget v2, Lcom/res/provider/ResDRAWABLE;->edit_crop_h_icon:I
 
-    const v3, 0x7f08017b
+    sget v3, Lcom/res/provider/ResDRAWABLE;->edit_crop_button_icon:I
 
     const/4 v4, 0x1
 
@@ -491,7 +491,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0c004f
+    sget p2, Lcom/res/provider/ResLAYOUT;->beauty_edit_crop_view:I
 
     .line 48
     invoke-virtual {p1, p2, p0, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -499,7 +499,7 @@
     .line 49
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
-    const p2, 0x7f0902c6
+    sget p2, Lcom/res/provider/ResID;->img_edit_cut_view_corner_1:I
 
     invoke-virtual {p0, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -512,7 +512,7 @@
     .line 50
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
-    const p2, 0x7f0902c7
+    sget p2, Lcom/res/provider/ResID;->img_edit_cut_view_corner_2:I
 
     invoke-virtual {p0, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -525,7 +525,7 @@
     .line 51
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
-    const p2, 0x7f0902c8
+    sget p2, Lcom/res/provider/ResID;->img_edit_cut_view_corner_3:I
 
     invoke-virtual {p0, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -540,7 +540,7 @@
 
     const/4 p2, 0x3
 
-    const p3, 0x7f0902c9
+    sget p3, Lcom/res/provider/ResID;->img_edit_cut_view_corner_4:I
 
     invoke-virtual {p0, p3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -553,7 +553,7 @@
     .line 53
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
-    const p2, 0x7f0902ca
+    sget p2, Lcom/res/provider/ResID;->img_edit_cut_view_corner_5:I
 
     invoke-virtual {p0, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -570,7 +570,7 @@
 
     const/4 p2, 0x5
 
-    const v1, 0x7f0902cb
+    sget v1, Lcom/res/provider/ResID;->img_edit_cut_view_corner_6:I
 
     invoke-virtual {p0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -583,7 +583,7 @@
     .line 55
     iget-object p1, p0, Lcom/commsource/beautymain/widget/EditCropView;->d:[Landroid/widget/ImageView;
 
-    const p2, 0x7f0902cc
+    sget p2, Lcom/res/provider/ResID;->img_edit_cut_view_corner_7:I
 
     invoke-virtual {p0, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -600,7 +600,7 @@
 
     const/4 p2, 0x7
 
-    const v2, 0x7f0902cd
+    sget v2, Lcom/res/provider/ResID;->img_edit_cut_view_corner_8:I
 
     invoke-virtual {p0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

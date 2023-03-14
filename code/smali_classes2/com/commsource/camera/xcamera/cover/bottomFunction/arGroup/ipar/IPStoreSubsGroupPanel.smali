@@ -73,7 +73,7 @@
 
     move-result v1
 
-    const v2, 0x7f080331
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_ipar_icon_store:I
 
     const/4 v3, 0x0
 

@@ -106,7 +106,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08024f
+    sget v2, Lcom/res/provider/ResDRAWABLE;->miniapp_color_plus_icon:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/u0$d;->k(I)Lcom/commsource/util/u0$d;
 
@@ -126,7 +126,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080280
+    sget v2, Lcom/res/provider/ResDRAWABLE;->miniapp_removepeople_icon:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/u0$d;->k(I)Lcom/commsource/util/u0$d;
 
@@ -146,7 +146,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08027f
+    sget v2, Lcom/res/provider/ResDRAWABLE;->miniapp_remove_bg_icon:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/u0$d;->k(I)Lcom/commsource/util/u0$d;
 
@@ -166,7 +166,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08027e
+    sget v2, Lcom/res/provider/ResDRAWABLE;->miniapp_nightphoto_icon:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/u0$d;->k(I)Lcom/commsource/util/u0$d;
 
@@ -186,7 +186,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080281
+    sget v2, Lcom/res/provider/ResDRAWABLE;->miniapp_restore_icon:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/u0$d;->k(I)Lcom/commsource/util/u0$d;
 
@@ -234,7 +234,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0c001f
+    sget v1, Lcom/res/provider/ResLAYOUT;->activity_ai_editor:I
 
     .line 1
     invoke-static {p0, v1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
@@ -435,14 +435,14 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0f006f
+    sget v0, Lcom/res/provider/ResSTRING;->ai_editor_first_use:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v1, 0x7f0f0084
+    sget v1, Lcom/res/provider/ResSTRING;->ai_editor_start_process:I
 
     .line 9
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -453,7 +453,7 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/aieditor/c;-><init>(Lcom/commsource/aieditor/AiEditorActivity;)V
 
-    const v3, 0x7f0f006d
+    sget v3, Lcom/res/provider/ResSTRING;->ai_editor_cancel:I
 
     .line 10
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

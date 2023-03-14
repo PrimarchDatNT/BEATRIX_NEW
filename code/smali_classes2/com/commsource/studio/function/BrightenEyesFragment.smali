@@ -565,7 +565,7 @@
 
     if-eqz v2, :cond_5
 
-    const v2, 0x7f0f0a72
+    sget v2, Lcom/res/provider/ResSTRING;->t_toast_beauty_brighten_eyes:I
 
     .line 6
     invoke-static {v2}, Lf/k/c/c/f;->r(I)V

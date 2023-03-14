@@ -91,7 +91,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c0179
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_reset_look:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -192,7 +192,7 @@
 
     invoke-static {p3, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v2, 0x7f0f02bd
+    sget v2, Lcom/res/provider/ResSTRING;->customization:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -204,13 +204,13 @@
 
     const-string v2, "mViewBinding.rflName"
 
-    const v3, 0x7f060005
+    sget v3, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
-    const v4, 0x7f060225
+    sget v4, Lcom/res/provider/ResCOLOR;->white:I
 
-    const v5, 0x7f0f04fa
+    sget v5, Lcom/res/provider/ResSTRING;->if_look_select:I
 
-    const v6, 0x7f0f04f9
+    sget v6, Lcom/res/provider/ResSTRING;->if_look_normal:I
 
     const-string v7, "mViewBinding.ifvIcon.delegate"
 
@@ -269,7 +269,7 @@
 
     invoke-static {p1, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p2, 0x7f06008c
+    sget p2, Lcom/res/provider/ResCOLOR;->color_5f5f5f:I
 
     invoke-static {p2}, Lcom/commsource/util/u1;->b(I)I
 
@@ -347,7 +347,7 @@
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p2, 0x7f060077
+    sget p2, Lcom/res/provider/ResCOLOR;->color_444444:I
 
     invoke-static {p2}, Lcom/commsource/util/u1;->b(I)I
 
@@ -427,7 +427,7 @@
 
     invoke-static {p1, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p2, 0x7f060101
+    sget p2, Lcom/res/provider/ResCOLOR;->color_dbdbdb:I
 
     invoke-static {p2}, Lcom/commsource/util/u1;->b(I)I
 
@@ -460,7 +460,7 @@
     :cond_10
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ei;->a:Lcom/commsource/widget/round/RoundIconfontTextView;
 
-    const p2, 0x7f060034
+    sget p2, Lcom/res/provider/ResCOLOR;->black:I
 
     invoke-static {p2}, Lcom/commsource/util/u1;->b(I)I
 
@@ -486,7 +486,7 @@
 
     invoke-static {p1, v7}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p2, 0x7f060131
+    sget p2, Lcom/res/provider/ResCOLOR;->color_f8f8f8:I
 
     invoke-static {p2}, Lcom/commsource/util/u1;->b(I)I
 
@@ -513,7 +513,7 @@
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p2, 0x7f06012b
+    sget p2, Lcom/res/provider/ResCOLOR;->color_f3f3f3:I
 
     invoke-static {p2}, Lcom/commsource/util/u1;->b(I)I
 

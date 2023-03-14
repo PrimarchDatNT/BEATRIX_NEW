@@ -128,7 +128,7 @@
 
     invoke-static {v5, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v3, 0x7f06003d
+    sget v3, Lcom/res/provider/ResCOLOR;->black70:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->b(I)I
 
@@ -145,7 +145,7 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/w7;->p:Landroid/view/View;
 
-    const v5, 0x7f06005c
+    sget v5, Lcom/res/provider/ResCOLOR;->color_1affffff:I
 
     invoke-static {v5}, Lcom/commsource/util/u1;->b(I)I
 
@@ -202,7 +202,7 @@
 
     invoke-static {v5, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v3, 0x7f060225
+    sget v3, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->b(I)I
 
@@ -219,7 +219,7 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/w7;->p:Landroid/view/View;
 
-    const v5, 0x7f060055
+    sget v5, Lcom/res/provider/ResCOLOR;->color_10000000:I
 
     invoke-static {v5}, Lcom/commsource/util/u1;->b(I)I
 

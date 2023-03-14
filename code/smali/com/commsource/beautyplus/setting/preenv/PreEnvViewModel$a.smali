@@ -101,7 +101,7 @@
 
     iget-object v2, p0, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel$a;->a:Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;
 
-    const v3, 0x7f0f073a
+    sget v3, Lcom/res/provider/ResSTRING;->pre_verify_auto_reply:I
 
     invoke-static {v2, v3}, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;->y(Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;I)Ljava/lang/String;
 
@@ -121,7 +121,7 @@
 
     iget-object v2, p0, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel$a;->a:Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;
 
-    const v3, 0x7f0f079b
+    sget v3, Lcom/res/provider/ResSTRING;->request_error:I
 
     invoke-static {v2, v3}, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;->y(Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;I)Ljava/lang/String;
 

@@ -429,7 +429,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f09080c
+    sget v1, Lcom/res/provider/ResID;->xtb:I
 
     .line 1
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -445,7 +445,7 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/title/XTitleBar;->j(Lcom/commsource/widget/title/a;)Lcom/commsource/widget/title/XTitleBar;
 
-    const v1, 0x7f0900a0
+    sget v1, Lcom/res/provider/ResID;->beauty_help_recyclerview:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -656,7 +656,7 @@
 
     if-eqz v2, :cond_0
 
-    const v1, 0x7f0f033f
+    sget v1, Lcom/res/provider/ResSTRING;->error_network:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -799,7 +799,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0f013c
+    sget v1, Lcom/res/provider/ResSTRING;->beauty_help_url_debug_pre:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -809,7 +809,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0f013b
+    sget v1, Lcom/res/provider/ResSTRING;->beauty_help_url_debug:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -826,7 +826,7 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f0f013e
+    sget v1, Lcom/res/provider/ResSTRING;->beauty_help_url_not_debug_pre:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -847,7 +847,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f0f013d
+    sget v2, Lcom/res/provider/ResSTRING;->beauty_help_url_not_debug:I
 
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1032,7 +1032,7 @@
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c0051
+    sget p1, Lcom/res/provider/ResLAYOUT;->beauty_help:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V

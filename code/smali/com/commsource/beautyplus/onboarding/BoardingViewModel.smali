@@ -376,17 +376,17 @@
 
     const-string v8, "ResourcesUtils.getString\u2026g.t_welcome_reshape_body)"
 
-    const v15, 0x7f0f0511
+    sget v15, Lcom/res/provider/ResSTRING;->if_remold:I
 
-    const v1, 0x7f0f0475
+    sget v1, Lcom/res/provider/ResSTRING;->if_acne:I
 
     const-string v3, "ResourcesUtils.getString\u2026ing.t_welcome_a_few_taps)"
 
-    const v16, 0x7f0f0a8e
+    sget v16, Lcom/res/provider/ResSTRING;->t_welcome_a_few_taps:I
 
     const-string v10, "ResourcesUtils.getString\u2026_welcome_stunning_selfie)"
 
-    const v17, 0x7f0f0a94
+    sget v17, Lcom/res/provider/ResSTRING;->t_welcome_stunning_selfie:I
 
     const/4 v5, 0x1
 
@@ -491,7 +491,7 @@
 
     new-instance v3, Lcom/commsource/beautyplus/onboarding/b/b;
 
-    const v4, 0x7f0f04dd
+    sget v4, Lcom/res/provider/ResSTRING;->if_evenly:I
 
     const/16 v10, 0x5f
 
@@ -506,7 +506,7 @@
 
     new-instance v3, Lcom/commsource/beautyplus/onboarding/b/b;
 
-    const v4, 0x7f0f04d8
+    sget v4, Lcom/res/provider/ResSTRING;->if_effect_tab_makeup:I
 
     const/16 v10, 0x82
 
@@ -604,7 +604,7 @@
 
     new-instance v3, Lcom/commsource/beautyplus/onboarding/b/b;
 
-    const v10, 0x7f0f04dd
+    sget v10, Lcom/res/provider/ResSTRING;->if_evenly:I
 
     const/16 v12, 0x5f
 
@@ -619,7 +619,7 @@
 
     new-instance v3, Lcom/commsource/beautyplus/onboarding/b/b;
 
-    const v10, 0x7f0f04d8
+    sget v10, Lcom/res/provider/ResSTRING;->if_effect_tab_makeup:I
 
     const/16 v12, 0x82
 
@@ -667,7 +667,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0f0a93
+    sget v11, Lcom/res/provider/ResSTRING;->t_welcome_reshape_body:I
 
     .line 30
     invoke-static {v11}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -676,7 +676,7 @@
 
     invoke-static {v11, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v8, 0x7f0f0a95
+    sget v8, Lcom/res/provider/ResSTRING;->t_welcome_way_you_like:I
 
     .line 31
     invoke-static {v8}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -695,7 +695,7 @@
 
     new-instance v6, Lcom/commsource/beautyplus/onboarding/b/b;
 
-    const v8, 0x7f0f053d
+    sget v8, Lcom/res/provider/ResSTRING;->if_studio_shape:I
 
     invoke-direct {v6, v5, v8}, Lcom/commsource/beautyplus/onboarding/b/b;-><init>(II)V
 
@@ -710,7 +710,7 @@
 
     const/16 v8, 0x50
 
-    const v10, 0x7f0f04d9
+    sget v10, Lcom/res/provider/ResSTRING;->if_eliminate_pen:I
 
     invoke-direct {v6, v8, v10}, Lcom/commsource/beautyplus/onboarding/b/b;-><init>(II)V
 
@@ -725,7 +725,7 @@
 
     const/16 v8, 0xbe
 
-    const v10, 0x7f0f06d6
+    sget v10, Lcom/res/provider/ResSTRING;->onboarding_icon_filter:I
 
     invoke-direct {v6, v8, v10}, Lcom/commsource/beautyplus/onboarding/b/b;-><init>(II)V
 
@@ -770,7 +770,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0f0a91
+    sget v7, Lcom/res/provider/ResSTRING;->t_welcome_get_creative:I
 
     .line 41
     invoke-static {v7}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -779,7 +779,7 @@
 
     invoke-static {v7, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v2, 0x7f0f0a92
+    sget v2, Lcom/res/provider/ResSTRING;->t_welcome_have_fun:I
 
     .line 42
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -800,7 +800,7 @@
 
     new-instance v4, Lcom/commsource/beautyplus/onboarding/b/b;
 
-    const v6, 0x7f0f06d7
+    sget v6, Lcom/res/provider/ResSTRING;->onboarding_icon_sticker:I
 
     invoke-direct {v4, v5, v6}, Lcom/commsource/beautyplus/onboarding/b/b;-><init>(II)V
 
@@ -813,7 +813,7 @@
 
     new-instance v4, Lcom/commsource/beautyplus/onboarding/b/b;
 
-    const v5, 0x7f0f06d8
+    sget v5, Lcom/res/provider/ResSTRING;->onboarding_icon_text:I
 
     const/16 v6, 0x3c
 
@@ -911,7 +911,7 @@
 
     new-instance v3, Lcom/commsource/beautyplus/onboarding/b/b;
 
-    const v10, 0x7f0f04dd
+    sget v10, Lcom/res/provider/ResSTRING;->if_evenly:I
 
     const/16 v12, 0x5f
 
@@ -926,7 +926,7 @@
 
     new-instance v3, Lcom/commsource/beautyplus/onboarding/b/b;
 
-    const v10, 0x7f0f04d8
+    sget v10, Lcom/res/provider/ResSTRING;->if_effect_tab_makeup:I
 
     const/16 v12, 0x82
 
@@ -973,7 +973,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0f0a93
+    sget v11, Lcom/res/provider/ResSTRING;->t_welcome_reshape_body:I
 
     .line 63
     invoke-static {v11}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -982,7 +982,7 @@
 
     invoke-static {v11, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v8, 0x7f0f0a95
+    sget v8, Lcom/res/provider/ResSTRING;->t_welcome_way_you_like:I
 
     .line 64
     invoke-static {v8}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1001,7 +1001,7 @@
 
     new-instance v6, Lcom/commsource/beautyplus/onboarding/b/b;
 
-    const v8, 0x7f0f053d
+    sget v8, Lcom/res/provider/ResSTRING;->if_studio_shape:I
 
     invoke-direct {v6, v5, v8}, Lcom/commsource/beautyplus/onboarding/b/b;-><init>(II)V
 
@@ -1016,7 +1016,7 @@
 
     const/16 v8, 0x37
 
-    const v10, 0x7f0f04d9
+    sget v10, Lcom/res/provider/ResSTRING;->if_eliminate_pen:I
 
     invoke-direct {v6, v8, v10}, Lcom/commsource/beautyplus/onboarding/b/b;-><init>(II)V
 
@@ -1031,7 +1031,7 @@
 
     const/16 v8, 0x87
 
-    const v10, 0x7f0f06d6
+    sget v10, Lcom/res/provider/ResSTRING;->onboarding_icon_filter:I
 
     invoke-direct {v6, v8, v10}, Lcom/commsource/beautyplus/onboarding/b/b;-><init>(II)V
 
@@ -1076,7 +1076,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0f0a91
+    sget v7, Lcom/res/provider/ResSTRING;->t_welcome_get_creative:I
 
     .line 74
     invoke-static {v7}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1085,7 +1085,7 @@
 
     invoke-static {v7, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v2, 0x7f0f0a92
+    sget v2, Lcom/res/provider/ResSTRING;->t_welcome_have_fun:I
 
     .line 75
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1106,7 +1106,7 @@
 
     new-instance v4, Lcom/commsource/beautyplus/onboarding/b/b;
 
-    const v6, 0x7f0f06d7
+    sget v6, Lcom/res/provider/ResSTRING;->onboarding_icon_sticker:I
 
     invoke-direct {v4, v5, v6}, Lcom/commsource/beautyplus/onboarding/b/b;-><init>(II)V
 
@@ -1119,7 +1119,7 @@
 
     new-instance v4, Lcom/commsource/beautyplus/onboarding/b/b;
 
-    const v5, 0x7f0f06d6
+    sget v5, Lcom/res/provider/ResSTRING;->onboarding_icon_filter:I
 
     const/16 v6, 0x3c
 

@@ -116,7 +116,7 @@
 
     if-eqz v0, :cond_0
 
-    const p2, 0x7f0f09f2
+    sget p2, Lcom/res/provider/ResSTRING;->t_layers_limited:I
 
     .line 2
     invoke-static {p2}, Lf/k/c/c/f;->r(I)V

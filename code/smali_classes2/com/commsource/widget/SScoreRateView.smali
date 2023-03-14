@@ -164,7 +164,7 @@
     iput v5, v4, Landroid/widget/LinearLayout$LayoutParams;->leftMargin:I
 
     :cond_0
-    const v5, 0x7f08012d
+    sget v5, Lcom/res/provider/ResDRAWABLE;->common_score_rate_icon:I
 
     .line 8
     invoke-virtual {v3, v5}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -326,12 +326,12 @@
 
     if-gt v1, v3, :cond_0
 
-    const v3, 0x7f08012e
+    sget v3, Lcom/res/provider/ResDRAWABLE;->common_score_rate_icon_selected:I
 
     goto :goto_1
 
     :cond_0
-    const v3, 0x7f08012d
+    sget v3, Lcom/res/provider/ResDRAWABLE;->common_score_rate_icon:I
 
     :goto_1
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V

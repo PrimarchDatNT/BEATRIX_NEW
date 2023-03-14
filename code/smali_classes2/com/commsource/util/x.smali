@@ -304,7 +304,7 @@
 
     if-gt v2, v3, :cond_1
 
-    const v2, 0x7f0f0adf
+    sget v2, Lcom/res/provider/ResSTRING;->unable_scrawl:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

@@ -571,7 +571,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c0092
+    sget v0, Lcom/res/provider/ResLAYOUT;->cover_confirm_tips:I
 
     return v0
 .end method

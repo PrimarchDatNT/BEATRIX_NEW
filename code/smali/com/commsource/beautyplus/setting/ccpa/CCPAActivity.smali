@@ -353,12 +353,12 @@
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c0025
+    sget p1, Lcom/res/provider/ResLAYOUT;->activity_ccpa_setting:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V
 
-    const p1, 0x7f09060a
+    sget p1, Lcom/res/provider/ResID;->switch_choose_country:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -390,7 +390,7 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautyplus/setting/widget/SwitchView;->setOnStateChangedListener(Lcom/commsource/beautyplus/setting/widget/SwitchView$b;)V
 
-    const p1, 0x7f090298
+    sget p1, Lcom/res/provider/ResID;->ibtn_left:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;

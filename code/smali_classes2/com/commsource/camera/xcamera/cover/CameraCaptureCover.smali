@@ -781,7 +781,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/c3;->p:Lcom/commsource/widget/IconFrontView;
 
-    const p2, 0x7f0f082e
+    sget p2, Lcom/res/provider/ResSTRING;->selfie_main_icon_look_shape:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -794,7 +794,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/c3;->p:Lcom/commsource/widget/IconFrontView;
 
-    const p2, 0x7f060225
+    sget p2, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {p2}, Lcom/commsource/util/u1;->b(I)I
 
@@ -822,7 +822,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/c3;->g:Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;
 
-    const v1, 0x7f0f082c
+    sget v1, Lcom/res/provider/ResSTRING;->selfie_main_icon_ar_shape:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -864,7 +864,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/c3;->p:Lcom/commsource/widget/IconFrontView;
 
-    const p2, 0x7f0f082d
+    sget p2, Lcom/res/provider/ResSTRING;->selfie_main_icon_look_line:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -877,7 +877,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/c3;->p:Lcom/commsource/widget/IconFrontView;
 
-    const p2, 0x7f060005
+    sget p2, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     invoke-static {p2}, Lcom/commsource/util/u1;->b(I)I
 
@@ -905,7 +905,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/c3;->g:Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;
 
-    const v1, 0x7f0f082b
+    sget v1, Lcom/res/provider/ResSTRING;->selfie_main_icon_ar_line:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -960,7 +960,7 @@
 
     const-string v2, "mViewBinding.redDot"
 
-    const v3, 0x7f08038d
+    sget v3, Lcom/res/provider/ResDRAWABLE;->shape_oval_bgcolorfb5986:I
 
     const-string v4, "mViewBinding.flEffectEnter"
 
@@ -3036,7 +3036,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c008c
+    sget v0, Lcom/res/provider/ResLAYOUT;->cover_camera_capture:I
 
     return v0
 .end method
@@ -3156,7 +3156,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/c3;->J:Landroid/view/View;
 
-    const v2, 0x7f08038d
+    sget v2, Lcom/res/provider/ResDRAWABLE;->shape_oval_bgcolorfb5986:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setBackgroundResource(I)V
 

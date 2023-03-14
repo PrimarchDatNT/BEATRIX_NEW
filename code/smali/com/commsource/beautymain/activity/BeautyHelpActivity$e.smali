@@ -167,7 +167,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f0c0052
+    sget v2, Lcom/res/provider/ResLAYOUT;->beauty_help_item:I
 
     invoke-virtual {p2, v2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -198,7 +198,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f0c0053
+    sget v2, Lcom/res/provider/ResLAYOUT;->beauty_help_strategy_item:I
 
     invoke-virtual {p2, v2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

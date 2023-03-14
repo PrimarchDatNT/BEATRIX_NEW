@@ -141,7 +141,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0801ba
+    sget v4, Lcom/res/provider/ResDRAWABLE;->editor_aibeauty_indicator_icon:I
 
     invoke-static {v3, v4}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -160,7 +160,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f080162
+    sget v4, Lcom/res/provider/ResDRAWABLE;->edit_aieditor_animation_mask_img:I
 
     invoke-static {v3, v4}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

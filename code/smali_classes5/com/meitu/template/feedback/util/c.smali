@@ -558,7 +558,7 @@
 
     check-cast p1, Lcom/meitu/template/bean/Chat;
 
-    const p2, 0x7f0f033f
+    sget p2, Lcom/res/provider/ResSTRING;->error_network:I
 
     .line 3
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

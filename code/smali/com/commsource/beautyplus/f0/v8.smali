@@ -39,63 +39,63 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/v8;->Q:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f09013a
+    sget v2, Lcom/res/provider/ResID;->colorBar:I
 
     const/4 v3, 0x2
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090124
+    sget v2, Lcom/res/provider/ResID;->civ:I
 
     const/4 v3, 0x3
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090490
+    sget v2, Lcom/res/provider/ResID;->pickedIcon:I
 
     const/4 v3, 0x4
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0907c2
+    sget v2, Lcom/res/provider/ResID;->v_line:I
 
     const/4 v3, 0x5
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09054f
+    sget v2, Lcom/res/provider/ResID;->rv_color_list:I
 
     const/4 v3, 0x6
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090598
+    sget v2, Lcom/res/provider/ResID;->seek_bar_1_title:I
 
     const/4 v3, 0x7
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090596
+    sget v2, Lcom/res/provider/ResID;->seek_bar_1:I
 
     const/16 v3, 0x8
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09059b
+    sget v2, Lcom/res/provider/ResID;->seek_bar_2_title:I
 
     const/16 v3, 0x9
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090599
+    sget v2, Lcom/res/provider/ResID;->seek_bar_2:I
 
     const/16 v3, 0xa
 

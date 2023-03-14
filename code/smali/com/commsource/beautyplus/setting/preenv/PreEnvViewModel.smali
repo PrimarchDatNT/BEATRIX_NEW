@@ -188,7 +188,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0f033f
+    sget v1, Lcom/res/provider/ResSTRING;->error_network:I
 
     invoke-direct {p0, v1}, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;->C(I)Ljava/lang/String;
 
@@ -394,7 +394,7 @@
 
     move-result v1
 
-    const v5, 0x7f0f073a
+    sget v5, Lcom/res/provider/ResSTRING;->pre_verify_auto_reply:I
 
     if-eqz v1, :cond_1
 
@@ -463,7 +463,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0f079b
+    sget v1, Lcom/res/provider/ResSTRING;->request_error:I
 
     invoke-direct {p0, v1}, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;->C(I)Ljava/lang/String;
 

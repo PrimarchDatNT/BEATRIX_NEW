@@ -106,7 +106,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0f004c
+    sget v0, Lcom/res/provider/ResSTRING;->ad_slot_ar_rewardedvideo_ad:I
 
     .line 2
     iput v0, p0, Lcom/commsource/camera/z0/e;->a:I
@@ -235,7 +235,7 @@
 
     invoke-direct {v1, p0, p2, p1}, Lcom/commsource/camera/z0/e$c;-><init>(Lcom/commsource/camera/z0/e;Ljava/lang/String;Ljava/lang/ref/WeakReference;)V
 
-    const p1, 0x7f0f004c
+    sget p1, Lcom/res/provider/ResSTRING;->ad_slot_ar_rewardedvideo_ad:I
 
     .line 2
     invoke-static {p1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
@@ -1180,7 +1180,7 @@
 
     if-nez p3, :cond_0
 
-    const p1, 0x7f0f02c3
+    sget p1, Lcom/res/provider/ResSTRING;->data_refresh:I
 
     .line 1
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V
@@ -1223,9 +1223,9 @@
 
     move-result-object p3
 
-    const p4, 0x7f010013
+    sget p4, Lcom/res/provider/ResANIM;->beauty_bottom_menu_up:I
 
-    const v1, 0x7f010012
+    sget v1, Lcom/res/provider/ResANIM;->beauty_bottom_menu_down:I
 
     invoke-interface {p2, p1, p3, p4, v1}, Lf/k/m/c;->l(Landroid/content/Context;Ljava/lang/String;II)Z
 
@@ -1262,9 +1262,9 @@
 
     move-result-object p2
 
-    const p3, 0x7f010013
+    sget p3, Lcom/res/provider/ResANIM;->beauty_bottom_menu_up:I
 
-    const v1, 0x7f010012
+    sget v1, Lcom/res/provider/ResANIM;->beauty_bottom_menu_down:I
 
     .line 5
     invoke-interface {p2, p1, p3, v1}, Lf/k/m/c;->k(Landroid/content/Context;II)Z
@@ -1304,9 +1304,9 @@
 
     move-result-object p2
 
-    const v1, 0x7f010013
+    sget v1, Lcom/res/provider/ResANIM;->beauty_bottom_menu_up:I
 
-    const v2, 0x7f010012
+    sget v2, Lcom/res/provider/ResANIM;->beauty_bottom_menu_down:I
 
     .line 5
     invoke-interface {p2, p1, v1, v2}, Lf/k/m/c;->k(Landroid/content/Context;II)Z
@@ -1341,9 +1341,9 @@
 
     sget v1, Lcom/meitu/ipstore/core/e;->e:I
 
-    const v2, 0x7f010013
+    sget v2, Lcom/res/provider/ResANIM;->beauty_bottom_menu_up:I
 
-    const v3, 0x7f010012
+    sget v3, Lcom/res/provider/ResANIM;->beauty_bottom_menu_down:I
 
     .line 4
     invoke-interface {p2, p1, v1, v2, v3}, Lf/k/m/c;->m(Landroid/content/Context;III)Z
@@ -1768,7 +1768,7 @@
 
     if-eqz p2, :cond_2
 
-    const p1, 0x7f0f0aaf
+    sget p1, Lcom/res/provider/ResSTRING;->this_ar_not_useable:I
 
     .line 7
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V

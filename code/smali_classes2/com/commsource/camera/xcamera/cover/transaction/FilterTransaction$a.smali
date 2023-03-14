@@ -104,14 +104,14 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0f02ec
+    sget p1, Lcom/res/provider/ResSTRING;->does_not_exist:I
 
     .line 2
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
 
-    const v1, 0x7f0f06d1
+    sget v1, Lcom/res/provider/ResSTRING;->ok:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

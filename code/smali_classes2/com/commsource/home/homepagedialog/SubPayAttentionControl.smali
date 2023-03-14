@@ -121,7 +121,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v2, 0x7f0f0a08
+    sget v2, Lcom/res/provider/ResSTRING;->t_oops:I
 
     invoke-static {v2}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
@@ -133,7 +133,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f0f0959
+    sget v2, Lcom/res/provider/ResSTRING;->t_deduction_failed:I
 
     invoke-static {v2}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
@@ -202,7 +202,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f09c1
+    sget v2, Lcom/res/provider/ResSTRING;->t_handle_continue_premium:I
 
     if-eqz v1, :cond_1
 
@@ -298,14 +298,14 @@
     :goto_1
     move-object v4, v1
 
-    const v1, 0x7f0f0a80
+    sget v1, Lcom/res/provider/ResSTRING;->t_update_payment:I
 
     .line 9
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object v5
 
-    const v1, 0x7f0f09f0
+    sget v1, Lcom/res/provider/ResSTRING;->t_later_tip:I
 
     .line 10
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;

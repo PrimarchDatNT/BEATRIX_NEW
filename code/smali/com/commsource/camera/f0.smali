@@ -78,7 +78,7 @@
 .method public constructor <init>(Landroidx/fragment/app/FragmentActivity;Z)V
     .locals 1
 
-    const v0, 0x7f100111
+    sget v0, Lcom/res/provider/ResSTYLE;->PopwindowAnimTheme:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/camera/f0;-><init>(Landroid/content/Context;I)V
@@ -137,7 +137,7 @@
     .line 3
     iget-object v2, p0, Lcom/commsource/camera/f0;->J:Landroidx/fragment/app/FragmentActivity;
 
-    const v3, 0x7f0f00b1
+    sget v3, Lcom/res/provider/ResSTRING;->ar_delete_dialog_content:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -145,7 +145,7 @@
 
     iget-object v3, p0, Lcom/commsource/camera/f0;->J:Landroidx/fragment/app/FragmentActivity;
 
-    const v4, 0x7f0f0096
+    sget v4, Lcom/res/provider/ResSTRING;->album_preview_dialog_delete:I
 
     .line 4
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -158,7 +158,7 @@
 
     iget-object v1, p0, Lcom/commsource/camera/f0;->J:Landroidx/fragment/app/FragmentActivity;
 
-    const v5, 0x7f0f0212
+    sget v5, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 5
     invoke-virtual {v1, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -424,7 +424,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f09055d
+    sget v1, Lcom/res/provider/ResID;->rv_material:I
 
     .line 1
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -438,7 +438,7 @@
     .line 2
     invoke-virtual {v1, p0}, Lcom/commsource/camera/widget/ArMaterialRecyclerView;->setOnItemClickListener(Lcom/commsource/camera/widget/ArMaterialRecyclerView$b;)V
 
-    const v1, 0x7f09030e
+    sget v1, Lcom/res/provider/ResID;->iv_check_all:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -452,7 +452,7 @@
     .line 4
     invoke-virtual {v1, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0906c3
+    sget v1, Lcom/res/provider/ResID;->tv_delete:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -463,7 +463,7 @@
 
     iput-object v1, p0, Lcom/commsource/camera/f0;->f:Landroid/widget/TextView;
 
-    const v1, 0x7f0904fb
+    sget v1, Lcom/res/provider/ResID;->rl_bottom:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -484,7 +484,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setEnabled(Z)V
 
-    const v1, 0x7f0903d5
+    sget v1, Lcom/res/provider/ResID;->ll_download_tips:I
 
     .line 9
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -495,7 +495,7 @@
 
     iput-object v1, p0, Lcom/commsource/camera/f0;->K:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0906b6
+    sget v1, Lcom/res/provider/ResID;->tv_content:I
 
     .line 10
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -506,7 +506,7 @@
 
     iput-object v1, p0, Lcom/commsource/camera/f0;->M:Landroid/widget/TextView;
 
-    const v1, 0x7f090310
+    sget v1, Lcom/res/provider/ResID;->iv_close:I
 
     .line 11
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -725,7 +725,7 @@
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/f0;->p:Landroid/widget/ImageView;
 
-    const v2, 0x7f08030b
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_ar_icon_deselect_all:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -736,7 +736,7 @@
     :goto_0
     iget-object v1, p0, Lcom/commsource/camera/f0;->p:Landroid/widget/ImageView;
 
-    const v2, 0x7f080312
+    sget v2, Lcom/res/provider/ResDRAWABLE;->selfie_ar_icon_select_all:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -752,7 +752,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0f00af
+    sget v4, Lcom/res/provider/ResSTRING;->ar_delete_btn:I
 
     const/4 v5, 0x1
 
@@ -791,7 +791,7 @@
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/f0;->f:Landroid/widget/TextView;
 
-    const v2, 0x7f0f0096
+    sget v2, Lcom/res/provider/ResSTRING;->album_preview_dialog_delete:I
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -893,15 +893,15 @@
 
     move-result p1
 
-    const v1, 0x7f09030e
+    sget v1, Lcom/res/provider/ResID;->iv_check_all:I
 
     if-eq p1, v1, :cond_2
 
-    const v1, 0x7f090310
+    sget v1, Lcom/res/provider/ResID;->iv_close:I
 
     if-eq p1, v1, :cond_1
 
-    const v1, 0x7f0904fb
+    sget v1, Lcom/res/provider/ResID;->rl_bottom:I
 
     if-eq p1, v1, :cond_0
 
@@ -942,7 +942,7 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c004d
+    sget p1, Lcom/res/provider/ResLAYOUT;->ar_delect_fragment:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->setContentView(I)V

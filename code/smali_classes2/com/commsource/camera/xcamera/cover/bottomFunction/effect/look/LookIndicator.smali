@@ -85,7 +85,7 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookIndicator;->b:Lkotlin/w;
 
-    const p1, 0x7f06008e
+    sget p1, Lcom/res/provider/ResCOLOR;->color_61dae4:I
 
     .line 3
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
@@ -94,7 +94,7 @@
 
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookIndicator;->c:I
 
-    const p1, 0x7f060010
+    sget p1, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
     .line 4
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I

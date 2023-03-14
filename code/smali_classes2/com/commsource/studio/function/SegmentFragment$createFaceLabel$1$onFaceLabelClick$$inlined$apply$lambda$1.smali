@@ -121,7 +121,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0954
+    sget v2, Lcom/res/provider/ResSTRING;->t_cutout_lead_content:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -136,7 +136,7 @@
     .line 6
     new-instance v1, Lcom/commsource/widget/dialog/delegate/d/e;
 
-    const v2, 0x7f08017e
+    sget v2, Lcom/res/provider/ResDRAWABLE;->edit_cutout_img_guide:I
 
     .line 7
     invoke-static {v2}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;
@@ -162,7 +162,7 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/dialog/delegate/d/g;->M(Lcom/commsource/widget/dialog/delegate/d/e;)V
 
-    const v1, 0x7f0f0a13
+    sget v1, Lcom/res/provider/ResSTRING;->t_portrait_turn_on:I
 
     .line 9
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -179,7 +179,7 @@
 
     invoke-static {p1, v1, v2}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->e(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lkotlin/jvm/u/l;)V
 
-    const v1, 0x7f0f09ef
+    sget v1, Lcom/res/provider/ResSTRING;->t_later:I
 
     .line 10
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

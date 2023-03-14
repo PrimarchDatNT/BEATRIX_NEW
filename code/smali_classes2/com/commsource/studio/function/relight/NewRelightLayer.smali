@@ -448,7 +448,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f080188
+    sget v1, Lcom/res/provider/ResDRAWABLE;->edit_icon_lightsource:I
 
     .line 1
     invoke-static {v1}, Lcom/commsource/util/u1;->a(I)Landroid/graphics/Bitmap;

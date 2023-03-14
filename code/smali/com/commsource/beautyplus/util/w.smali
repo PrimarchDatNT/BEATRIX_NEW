@@ -172,7 +172,7 @@
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    const v2, 0x7f0f0439
+    sget v2, Lcom/res/provider/ResSTRING;->help_feedback_web_url:I
 
     .line 5
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

@@ -3367,7 +3367,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f07006d
+    sget v8, Lcom/res/provider/ResDIMEN;->camera_bottom_min_height:I
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

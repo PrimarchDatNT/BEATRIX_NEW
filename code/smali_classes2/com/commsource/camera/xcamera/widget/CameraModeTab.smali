@@ -439,7 +439,7 @@
     .line 4
     invoke-virtual {p0, p2}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    const p2, 0x7f06006b
+    sget p2, Lcom/res/provider/ResCOLOR;->color_333333:I
 
     .line 5
     invoke-static {p2}, Lcom/commsource/util/u1;->b(I)I
@@ -448,7 +448,7 @@
 
     iput p2, p0, Lcom/commsource/camera/xcamera/widget/CameraModeTab;->b:I
 
-    const p2, 0x7f0600bf
+    sget p2, Lcom/res/provider/ResCOLOR;->color_99333333:I
 
     .line 6
     invoke-static {p2}, Lcom/commsource/util/u1;->b(I)I
@@ -457,7 +457,7 @@
 
     iput p2, p0, Lcom/commsource/camera/xcamera/widget/CameraModeTab;->c:I
 
-    const p2, 0x7f060225
+    sget p2, Lcom/res/provider/ResCOLOR;->white:I
 
     .line 7
     invoke-static {p2}, Lcom/commsource/util/u1;->b(I)I
@@ -466,7 +466,7 @@
 
     iput p3, p0, Lcom/commsource/camera/xcamera/widget/CameraModeTab;->d:I
 
-    const p3, 0x7f06022b
+    sget p3, Lcom/res/provider/ResCOLOR;->white60:I
 
     .line 8
     invoke-static {p3}, Lcom/commsource/util/u1;->b(I)I
@@ -562,7 +562,7 @@
 
     invoke-virtual {v4, v5}, Landroid/text/TextPaint;->setStrokeWidth(F)V
 
-    const v3, 0x7f06000d
+    sget v3, Lcom/res/provider/ResCOLOR;->Gray_Stroke:I
 
     .line 24
     invoke-static {v3}, Lcom/commsource/util/u1;->b(I)I
@@ -583,7 +583,7 @@
 
     new-array p2, p1, [Ljava/lang/String;
 
-    const v3, 0x7f0f0210
+    sget v3, Lcom/res/provider/ResSTRING;->camera_video_mode:I
 
     .line 27
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -596,7 +596,7 @@
 
     aput-object v3, p2, v0
 
-    const v3, 0x7f0f0896
+    sget v3, Lcom/res/provider/ResSTRING;->shoot:I
 
     .line 28
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -609,7 +609,7 @@
 
     aput-object v3, p2, v1
 
-    const v3, 0x7f0f08f1
+    sget v3, Lcom/res/provider/ResSTRING;->studio:I
 
     .line 29
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -2485,7 +2485,7 @@
     .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraModeTab;->J:Landroid/text/TextPaint;
 
-    const v1, 0x7f060225
+    sget v1, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 
@@ -2522,7 +2522,7 @@
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraModeTab;->J:Landroid/text/TextPaint;
 
-    const v1, 0x7f060034
+    sget v1, Lcom/res/provider/ResCOLOR;->black:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 

@@ -214,7 +214,7 @@
     .line 2
     new-instance p1, Lcom/commsource/studio/formula/convert/FormulaConvertFactory$a;
 
-    const p2, 0x7f0f05d4
+    sget p2, Lcom/res/provider/ResSTRING;->material_downloading:I
 
     invoke-static {p2}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 

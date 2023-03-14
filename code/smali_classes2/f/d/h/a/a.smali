@@ -54,7 +54,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0c0054
+    sget v1, Lcom/res/provider/ResLAYOUT;->bec_pop_window_tips:I
 
     const/4 v2, 0x0
 
@@ -76,7 +76,7 @@
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/PopupWindow;->setHeight(I)V
 
-    const p1, 0x7f100259
+    sget p1, Lcom/res/provider/ResSTYLE;->setting_pop_anim:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V
@@ -100,7 +100,7 @@
     .line 14
     iget-object p1, p0, Lf/d/h/a/a;->b:Landroid/view/View;
 
-    const v0, 0x7f090647
+    sget v0, Lcom/res/provider/ResID;->textview1:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -116,7 +116,7 @@
     .line 16
     iget-object p1, p0, Lf/d/h/a/a;->b:Landroid/view/View;
 
-    const v0, 0x7f090648
+    sget v0, Lcom/res/provider/ResID;->textview2:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -132,7 +132,7 @@
     .line 18
     iget-object p1, p0, Lf/d/h/a/a;->b:Landroid/view/View;
 
-    const v0, 0x7f090649
+    sget v0, Lcom/res/provider/ResID;->textview3:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -148,7 +148,7 @@
     .line 20
     iget-object p1, p0, Lf/d/h/a/a;->b:Landroid/view/View;
 
-    const v0, 0x7f09064a
+    sget v0, Lcom/res/provider/ResID;->textview4:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

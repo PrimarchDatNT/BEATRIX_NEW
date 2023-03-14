@@ -84,7 +84,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0c0113
+    sget v2, Lcom/res/provider/ResLAYOUT;->fragment_studio_background_adjust:I
 
     const/4 v3, 0x0
 

@@ -138,7 +138,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c013b
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_camera_filter_normal:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/a;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -230,7 +230,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ee;->d:Landroid/widget/ImageView;
 
-    const v1, 0x7f0800fa
+    sget v1, Lcom/res/provider/ResDRAWABLE;->common_corner_premium_white_shadow:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -417,7 +417,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ee;->d:Landroid/widget/ImageView;
 
-    const v1, 0x7f0800fa
+    sget v1, Lcom/res/provider/ResDRAWABLE;->common_corner_premium_white_shadow:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -536,7 +536,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0802ac
+    sget v2, Lcom/res/provider/ResDRAWABLE;->placeholder_stickers_45:I
 
     .line 9
     invoke-virtual {v1, v2}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
@@ -604,7 +604,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ee;->c:Lcom/commsource/widget/CornerImageView;
 
-    const v4, 0x7f08013d
+    sget v4, Lcom/res/provider/ResDRAWABLE;->corner_new_large:I
 
     invoke-virtual {v1, v4}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 

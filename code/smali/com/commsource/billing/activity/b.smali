@@ -81,7 +81,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0c0178
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_pro_banner:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -187,7 +187,7 @@
 
     move-result p1
 
-    const p3, 0x7f060007
+    sget p3, Lcom/res/provider/ResCOLOR;->Gray_Background:I
 
     const/4 v1, -0x1
 

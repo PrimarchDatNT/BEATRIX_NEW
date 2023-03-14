@@ -309,7 +309,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f0600eb
+    sget v8, Lcom/res/provider/ResCOLOR;->color_c4c4c4:I
 
     invoke-static {v7, v8}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 
@@ -332,7 +332,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f0802ff
+    sget v8, Lcom/res/provider/ResDRAWABLE;->selector_item_bg:I
 
     invoke-static {v7, v8}, Landroidx/core/content/ContextCompat;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -382,7 +382,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f060115
+    sget v7, Lcom/res/provider/ResCOLOR;->color_e6e5e8:I
 
     invoke-static {v6, v7}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 
@@ -417,7 +417,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c00b4
+    sget v0, Lcom/res/provider/ResLAYOUT;->dialog_abtest_choose_test:I
 
     return v0
 .end method

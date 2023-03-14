@@ -103,9 +103,9 @@
     .line 5
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaStoreActivity$b;->a:Lcom/commsource/studio/formula/FormulaStoreActivity;
 
-    const v1, 0x7f010038
+    sget v1, Lcom/res/provider/ResANIM;->slide_left_in:I
 
-    const v2, 0x7f01003d
+    sget v2, Lcom/res/provider/ResANIM;->slide_right_out:I
 
     invoke-virtual {p1, v1, v2}, Landroid/app/Activity;->overridePendingTransition(II)V
 

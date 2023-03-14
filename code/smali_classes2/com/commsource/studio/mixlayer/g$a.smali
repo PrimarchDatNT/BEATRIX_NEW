@@ -96,7 +96,7 @@
     goto :goto_0
 
     :pswitch_0
-    const p1, 0x7f0f095d
+    sget p1, Lcom/res/provider/ResSTRING;->t_divide:I
 
     .line 2
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -110,7 +110,7 @@
     goto :goto_1
 
     :pswitch_1
-    const p1, 0x7f0f095b
+    sget p1, Lcom/res/provider/ResSTRING;->t_different:I
 
     .line 3
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -124,7 +124,7 @@
     goto :goto_1
 
     :pswitch_2
-    const p1, 0x7f0f09c2
+    sget p1, Lcom/res/provider/ResSTRING;->t_hardLight:I
 
     .line 4
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -138,7 +138,7 @@
     goto :goto_1
 
     :pswitch_3
-    const p1, 0x7f0f0a3b
+    sget p1, Lcom/res/provider/ResSTRING;->t_soft:I
 
     .line 5
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -152,7 +152,7 @@
     goto :goto_1
 
     :pswitch_4
-    const p1, 0x7f0f09ff
+    sget p1, Lcom/res/provider/ResSTRING;->t_multiply:I
 
     .line 6
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -166,7 +166,7 @@
     goto :goto_1
 
     :pswitch_5
-    const p1, 0x7f0f0a0c
+    sget p1, Lcom/res/provider/ResSTRING;->t_overlay:I
 
     .line 7
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -180,7 +180,7 @@
     goto :goto_1
 
     :pswitch_6
-    const p1, 0x7f0f0941
+    sget p1, Lcom/res/provider/ResSTRING;->t_burn:I
 
     .line 8
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -194,7 +194,7 @@
     goto :goto_1
 
     :pswitch_7
-    const p1, 0x7f0f0a01
+    sget p1, Lcom/res/provider/ResSTRING;->t_normal:I
 
     .line 9
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -208,7 +208,7 @@
     goto :goto_1
 
     :goto_0
-    const p1, 0x7f0f0a2f
+    sget p1, Lcom/res/provider/ResSTRING;->t_screen:I
 
     .line 10
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

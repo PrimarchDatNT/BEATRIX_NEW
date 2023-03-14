@@ -44,49 +44,49 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/ze;->N:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090162
+    sget v2, Lcom/res/provider/ResID;->contentContainer:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901e4
+    sget v2, Lcom/res/provider/ResID;->filter_thumail:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090468
+    sget v2, Lcom/res/provider/ResID;->newName:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090474
+    sget v2, Lcom/res/provider/ResID;->oldName:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090138
+    sget v2, Lcom/res/provider/ResID;->collectIcon:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090137
+    sget v2, Lcom/res/provider/ResID;->collectHotArea:I
 
     const/4 v3, 0x6
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090186
+    sget v2, Lcom/res/provider/ResID;->deleteIcon:I
 
     const/4 v3, 0x7
 

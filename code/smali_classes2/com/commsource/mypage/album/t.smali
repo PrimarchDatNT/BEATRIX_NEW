@@ -846,7 +846,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f080371
+    sget v2, Lcom/res/provider/ResDRAWABLE;->setting_img_placeholder:I
 
     .line 8
     invoke-virtual {p2, v2}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;

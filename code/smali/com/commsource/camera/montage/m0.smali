@@ -69,7 +69,7 @@
     .line 3
     iput-boolean v0, p0, Lcom/commsource/camera/montage/m0;->K:Z
 
-    const v0, 0x7f09049f
+    sget v0, Lcom/res/provider/ResID;->preview_surface:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

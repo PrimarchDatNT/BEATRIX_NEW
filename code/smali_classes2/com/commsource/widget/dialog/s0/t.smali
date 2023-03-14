@@ -296,7 +296,7 @@
     .line 2
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    const v2, 0x7f0f08c2
+    sget v2, Lcom/res/provider/ResSTRING;->software_grade_url:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -333,7 +333,7 @@
     .line 7
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    const p0, 0x7f0f06dd
+    sget p0, Lcom/res/provider/ResSTRING;->open_failed:I
 
     .line 8
     invoke-static {p0}, Lf/k/c/c/f;->n(I)V
@@ -373,21 +373,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0f0add
+    sget v1, Lcom/res/provider/ResSTRING;->unable_access_to_camera_or_album:I
 
     .line 1
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v1, 0x7f0f0401
+    sget v1, Lcom/res/provider/ResSTRING;->go_settings:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v1, 0x7f0f0878
+    sget v1, Lcom/res/provider/ResSTRING;->settings:I
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -397,7 +397,7 @@
 
     invoke-direct {v5, p0, p1}, Lcom/commsource/widget/dialog/s0/i;-><init>(Landroid/app/Activity;Lcom/commsource/widget/dialog/s0/y;)V
 
-    const p1, 0x7f0f0212
+    sget p1, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -470,7 +470,7 @@
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/s0/t$a;-><init>()V
 
-    const v2, 0x7f0f033f
+    sget v2, Lcom/res/provider/ResSTRING;->error_network:I
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -480,7 +480,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0400
+    sget v2, Lcom/res/provider/ResSTRING;->go_it:I
 
     .line 5
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -558,21 +558,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0f0add
+    sget v1, Lcom/res/provider/ResSTRING;->unable_access_to_camera_or_album:I
 
     .line 1
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0f0acf
+    sget v2, Lcom/res/provider/ResSTRING;->try_again:I
 
     .line 2
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f0f02db
+    sget v3, Lcom/res/provider/ResSTRING;->dialog_i_konw:I
 
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -614,21 +614,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0f0adc
+    sget v1, Lcom/res/provider/ResSTRING;->unable_access_to_camera:I
 
     .line 1
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v1, 0x7f0f068e
+    sget v1, Lcom/res/provider/ResSTRING;->need_permission_to_selfie:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v1, 0x7f0f00a1
+    sget v1, Lcom/res/provider/ResSTRING;->allow:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -639,7 +639,7 @@
 
     invoke-direct {v5, p0, p2, p1}, Lcom/commsource/widget/dialog/s0/j;-><init>(Landroid/app/Activity;[Ljava/lang/String;I)V
 
-    const p1, 0x7f0f0212
+    sget p1, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -679,14 +679,14 @@
     :cond_0
     const/4 v2, 0x0
 
-    const v1, 0x7f0f0691
+    sget v1, Lcom/res/provider/ResSTRING;->need_update:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v1, 0x7f0f0aef
+    sget v1, Lcom/res/provider/ResSTRING;->update_push_ok:I
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -696,7 +696,7 @@
 
     invoke-direct {v5, p0}, Lcom/commsource/widget/dialog/s0/h;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f0f0aee
+    sget v1, Lcom/res/provider/ResSTRING;->update_push_cancle:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1251,7 +1251,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f100243
+    sget v0, Lcom/res/provider/ResSTYLE;->center_zoom_in_animation:I
 
     return v0
 .end method

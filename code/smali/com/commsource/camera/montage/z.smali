@@ -250,7 +250,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0f0051
+    sget v3, Lcom/res/provider/ResSTRING;->ad_slot_mengtaiqi_rewardedvideo_ad:I
 
     .line 5
     invoke-virtual {v1, v3}, Lcom/commsource/widget/dialog/p0$d;->b(I)Lcom/commsource/widget/dialog/p0$d;
@@ -264,7 +264,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f080356
+    sget v3, Lcom/res/provider/ResDRAWABLE;->selfie_montage_model_img:I
 
     .line 7
     invoke-virtual {v1, v3}, Lcom/commsource/widget/dialog/p0$d;->f(I)Lcom/commsource/widget/dialog/p0$d;

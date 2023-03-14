@@ -153,7 +153,7 @@
 
     const/4 v6, 0x0
 
-    const v7, 0x7f0f05d4
+    sget v7, Lcom/res/provider/ResSTRING;->material_downloading:I
 
     invoke-static {v7}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 

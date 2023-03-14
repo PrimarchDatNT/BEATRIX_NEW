@@ -25,7 +25,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/view/ViewGroup;)V
     .locals 2
 
-    const v0, 0x7f0c0162
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_makeup_entity:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -331,7 +331,7 @@
 
     move-result-object p3
 
-    const v2, 0x7f080191
+    sget v2, Lcom/res/provider/ResDRAWABLE;->edit_makeup_icon_placeholder:I
 
     .line 5
     invoke-virtual {p3, v2}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
@@ -370,7 +370,7 @@
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/wg;->b:Lcom/commsource/widget/CircleImageView;
 
-    const v2, 0x7f080192
+    sget v2, Lcom/res/provider/ResDRAWABLE;->edit_makeup_none_icon:I
 
     invoke-virtual {p3, v2}, Lcom/commsource/widget/CircleImageView;->setImageResource(I)V
 
@@ -379,7 +379,7 @@
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/wg;->f:Landroid/widget/TextView;
 
-    const v2, 0x7f0f06bc
+    sget v2, Lcom/res/provider/ResSTRING;->none_effect:I
 
     invoke-virtual {p3, v2}, Landroid/widget/TextView;->setText(I)V
 

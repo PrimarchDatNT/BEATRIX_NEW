@@ -172,7 +172,7 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    const p1, 0x7f0f0137
+    sget p1, Lcom/res/provider/ResSTRING;->beauty_heighten_stretch_reach_limit:I
 
     .line 4
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

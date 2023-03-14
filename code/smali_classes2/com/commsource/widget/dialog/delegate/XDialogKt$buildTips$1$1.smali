@@ -127,7 +127,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0f06d1
+    sget v1, Lcom/res/provider/ResSTRING;->ok:I
 
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
@@ -150,7 +150,7 @@
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f0f0212
+    sget v1, Lcom/res/provider/ResSTRING;->cancel:I
 
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 

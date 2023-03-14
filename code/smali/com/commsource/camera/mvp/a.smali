@@ -876,7 +876,7 @@
 
     if-eqz p2, :cond_4
 
-    const p2, 0x7f070074
+    sget p2, Lcom/res/provider/ResDIMEN;->camera_top_1_1_padding:I
 
     .line 10
     invoke-static {p2}, Lcom/meitu/library/p/d/b;->e(I)F

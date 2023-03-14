@@ -251,7 +251,7 @@
 
     if-eqz v1, :cond_0
 
-    const p1, 0x7f0f009b
+    sget p1, Lcom/res/provider/ResSTRING;->alert_empty_contact:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -282,7 +282,7 @@
 
     if-nez p1, :cond_2
 
-    const p1, 0x7f0f0337
+    sget p1, Lcom/res/provider/ResSTRING;->email_error:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -312,7 +312,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0c0027
+    sget v1, Lcom/res/provider/ResLAYOUT;->activity_crash_feed_back:I
 
     .line 1
     invoke-static {p0, v1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;

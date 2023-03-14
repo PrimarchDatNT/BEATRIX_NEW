@@ -807,7 +807,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/k;->M:Lcom/commsource/widget/PressStrokeTextView;
 
-    const v3, 0x7f0f03fb
+    sget v3, Lcom/res/provider/ResSTRING;->gif_loading:I
 
     invoke-static {v3}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
@@ -1384,21 +1384,21 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0f0ae1
+    sget v1, Lcom/res/provider/ResSTRING;->unable_to_save:I
 
     .line 2
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v1, 0x7f0f0ae2
+    sget v1, Lcom/res/provider/ResSTRING;->unable_to_save_explain:I
 
     .line 3
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v1, 0x7f0f0230
+    sget v1, Lcom/res/provider/ResSTRING;->clean_now:I
 
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
@@ -1408,7 +1408,7 @@
 
     invoke-direct {v5, p0}, Lcom/commsource/camera/p;-><init>(Lcom/commsource/camera/ArVideoConfirmActivity;)V
 
-    const v1, 0x7f0f0ae3
+    sget v1, Lcom/res/provider/ResSTRING;->unable_to_save_later:I
 
     .line 4
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
@@ -1504,21 +1504,21 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0f0ae1
+    sget v1, Lcom/res/provider/ResSTRING;->unable_to_save:I
 
     .line 2
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v1, 0x7f0f0ae2
+    sget v1, Lcom/res/provider/ResSTRING;->unable_to_save_explain:I
 
     .line 3
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v1, 0x7f0f0230
+    sget v1, Lcom/res/provider/ResSTRING;->clean_now:I
 
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
@@ -1528,7 +1528,7 @@
 
     invoke-direct {v5, p0}, Lcom/commsource/camera/u;-><init>(Lcom/commsource/camera/ArVideoConfirmActivity;)V
 
-    const v1, 0x7f0f0ae3
+    sget v1, Lcom/res/provider/ResSTRING;->unable_to_save_later:I
 
     .line 4
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
@@ -1693,7 +1693,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->W:Lcom/commsource/widget/IconFrontView;
 
-    const v2, 0x7f0f0836
+    sget v2, Lcom/res/provider/ResSTRING;->selfie_save_icon_music_on:I
 
     invoke-static {v2}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
@@ -1701,7 +1701,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0f06e0
+    sget v1, Lcom/res/provider/ResSTRING;->open_original_sound:I
 
     .line 11
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1718,7 +1718,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->W:Lcom/commsource/widget/IconFrontView;
 
-    const v2, 0x7f0f0835
+    sget v2, Lcom/res/provider/ResSTRING;->selfie_save_icon_music_off:I
 
     invoke-static {v2}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
@@ -1726,7 +1726,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0f0237
+    sget v1, Lcom/res/provider/ResSTRING;->close_original_sound:I
 
     .line 13
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1852,7 +1852,7 @@
 
     if-ne v1, v2, :cond_3
 
-    const v1, 0x7f0f03fa
+    sget v1, Lcom/res/provider/ResSTRING;->gif_duration_exceed_limit:I
 
     .line 9
     invoke-direct {p0, v1}, Lcom/commsource/camera/ArVideoConfirmActivity;->f2(I)V
@@ -2804,7 +2804,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->b:Lcom/commsource/widget/PressStrokeTextView;
 
-    const v1, 0x7f060225
+    sget v1, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->d(I)I
 
@@ -2952,7 +2952,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->O:Landroid/widget/ProgressBar;
 
-    const v1, 0x7f0802bb
+    sget v1, Lcom/res/provider/ResDRAWABLE;->progress_arvideo_white_loading:I
 
     .line 18
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->g(I)Landroid/graphics/drawable/Drawable;
@@ -2969,7 +2969,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->b:Lcom/commsource/widget/PressStrokeTextView;
 
-    const v1, 0x7f06006b
+    sget v1, Lcom/res/provider/ResCOLOR;->color_333333:I
 
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->d(I)I
 
@@ -3117,7 +3117,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->O:Landroid/widget/ProgressBar;
 
-    const v1, 0x7f0802ba
+    sget v1, Lcom/res/provider/ResDRAWABLE;->progress_arvideo_loading:I
 
     .line 36
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->g(I)Landroid/graphics/drawable/Drawable;
@@ -3252,7 +3252,7 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f090204
+    sget v1, Lcom/res/provider/ResID;->fl_container:I
 
     .line 10
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -3272,7 +3272,7 @@
 
     invoke-static {v1, v2}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    const v1, 0x7f0903e7
+    sget v1, Lcom/res/provider/ResID;->ll_paid_filter:I
 
     .line 12
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -3295,7 +3295,7 @@
     .line 14
     invoke-static {p0, v1}, Lcom/commsource/advertisiting/d;->n0(Landroid/content/Context;Z)V
 
-    const v1, 0x7f0907e8
+    sget v1, Lcom/res/provider/ResID;->vs_story_share_tip:I
 
     .line 15
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -4072,7 +4072,7 @@
     .line 8
     invoke-static {p0, p1}, Lf/d/i/e;->H2(Landroid/content/Context;I)V
 
-    const v1, 0x7f0c0024
+    sget v1, Lcom/res/provider/ResLAYOUT;->activity_camera_confirm:I
 
     .line 9
     invoke-static {p0, v1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
@@ -4213,7 +4213,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f090204
+    sget v1, Lcom/res/provider/ResID;->fl_container:I
 
     .line 23
     iget-object v3, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->X:Lf/d/k/l;

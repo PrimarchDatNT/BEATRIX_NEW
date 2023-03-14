@@ -70,7 +70,7 @@
     .line 6
     iput-object p1, p0, Lcom/commsource/camera/mvp/helper/d;->a:Landroid/content/Context;
 
-    const p4, 0x7f01003e
+    sget p4, Lcom/res/provider/ResANIM;->timing_hint:I
 
     .line 7
     invoke-static {p1, p4}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
@@ -79,7 +79,7 @@
 
     iput-object p4, p0, Lcom/commsource/camera/mvp/helper/d;->d:Landroid/view/animation/Animation;
 
-    const p4, 0x7f01002e
+    sget p4, Lcom/res/provider/ResANIM;->new_timing_hint:I
 
     .line 8
     invoke-static {p1, p4}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
@@ -292,7 +292,7 @@
     .line 6
     iget-object v2, p0, Lcom/commsource/camera/mvp/helper/d;->p:Lcom/commsource/util/common/n;
 
-    const v3, 0x7f0e0003
+    sget v3, Lcom/res/provider/ResRAW;->timing:I
 
     invoke-virtual {v2, v3}, Lcom/commsource/util/common/n;->e(I)V
 
@@ -333,7 +333,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/el;->b:Landroid/widget/ImageView;
 
-    const v3, 0x7f080365
+    sget v3, Lcom/res/provider/ResDRAWABLE;->selfie_timing_icon_6:I
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -345,7 +345,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/el;->b:Landroid/widget/ImageView;
 
-    const v3, 0x7f080364
+    sget v3, Lcom/res/provider/ResDRAWABLE;->selfie_timing_icon_5:I
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -357,7 +357,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/el;->b:Landroid/widget/ImageView;
 
-    const v3, 0x7f080363
+    sget v3, Lcom/res/provider/ResDRAWABLE;->selfie_timing_icon_4:I
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -369,7 +369,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/el;->b:Landroid/widget/ImageView;
 
-    const v3, 0x7f080362
+    sget v3, Lcom/res/provider/ResDRAWABLE;->selfie_timing_icon_3:I
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -381,7 +381,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/el;->b:Landroid/widget/ImageView;
 
-    const v3, 0x7f080361
+    sget v3, Lcom/res/provider/ResDRAWABLE;->selfie_timing_icon_2:I
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -393,7 +393,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/el;->b:Landroid/widget/ImageView;
 
-    const v3, 0x7f080360
+    sget v3, Lcom/res/provider/ResDRAWABLE;->selfie_timing_icon_1:I
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 

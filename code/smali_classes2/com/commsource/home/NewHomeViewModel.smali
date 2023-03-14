@@ -354,7 +354,7 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0f004b
+    sget v1, Lcom/res/provider/ResSTRING;->ad_slot_album:I
 
     .line 2
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -363,7 +363,7 @@
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->preloadAdvert(Ljava/lang/String;)V
 
-    const v1, 0x7f0f0053
+    sget v1, Lcom/res/provider/ResSTRING;->ad_slot_save_via_selfie:I
 
     .line 3
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -487,7 +487,7 @@
 
     invoke-virtual {v1, v2, v3, v4}, Lcom/commsource/beautyplus/base/b/b;->b(Lcom/commsource/beautyplus/base/b/a;Lcom/commsource/beautyplus/base/b/a$a;Lcom/commsource/beautyplus/base/b/a$c;)V
 
-    const v1, 0x7f0f004d
+    sget v1, Lcom/res/provider/ResSTRING;->ad_slot_banner_ai_beauty:I
 
     .line 3
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -496,7 +496,7 @@
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->preloadAdvert(Ljava/lang/String;)V
 
-    const v1, 0x7f0f004c
+    sget v1, Lcom/res/provider/ResSTRING;->ad_slot_ar_rewardedvideo_ad:I
 
     .line 4
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

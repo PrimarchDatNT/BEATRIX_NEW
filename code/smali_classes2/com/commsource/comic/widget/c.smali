@@ -62,11 +62,11 @@
     .line 1
     new-instance v1, Lcom/commsource/comic/widget/c;
 
-    const v2, 0x7f10026a
+    sget v2, Lcom/res/provider/ResSTYLE;->updateDialog:I
 
     invoke-direct {v1, p0, v2}, Lcom/commsource/comic/widget/c;-><init>(Landroid/content/Context;I)V
 
-    const p0, 0x7f0f02fc
+    sget p0, Lcom/res/provider/ResSTRING;->downloading:I
 
     .line 2
     invoke-static {p0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -190,7 +190,7 @@
 
     move-result p1
 
-    const v1, 0x7f090672
+    sget v1, Lcom/res/provider/ResID;->tvCancel:I
 
     if-eq p1, v1, :cond_1
 
@@ -226,7 +226,7 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c01e0
+    sget p1, Lcom/res/provider/ResLAYOUT;->progress_dialog_layout:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->setContentView(I)V
@@ -236,11 +236,11 @@
 
     move-result-object p1
 
-    const v1, 0x7f100243
+    sget v1, Lcom/res/provider/ResSTYLE;->center_zoom_in_animation:I
 
     invoke-virtual {p1, v1}, Landroid/view/Window;->setWindowAnimations(I)V
 
-    const p1, 0x7f090408
+    sget p1, Lcom/res/provider/ResID;->lpv_progress:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -251,7 +251,7 @@
 
     iput-object p1, p0, Lcom/commsource/comic/widget/c;->d:Lcom/commsource/video/LoadingProgressView;
 
-    const p1, 0x7f090672
+    sget p1, Lcom/res/provider/ResID;->tvCancel:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -262,7 +262,7 @@
 
     iput-object p1, p0, Lcom/commsource/comic/widget/c;->f:Landroid/widget/TextView;
 
-    const p1, 0x7f0906c7
+    sget p1, Lcom/res/provider/ResID;->tv_download:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -310,7 +310,7 @@
 
     new-instance v1, Landroid/graphics/drawable/ColorDrawable;
 
-    const v2, 0x7f060224
+    sget v2, Lcom/res/provider/ResCOLOR;->transparent:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 

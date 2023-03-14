@@ -82,7 +82,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0c0135
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_background_texture:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -384,7 +384,7 @@
 
     move-result-object p3
 
-    const v3, 0x7f0802ac
+    sget v3, Lcom/res/provider/ResDRAWABLE;->placeholder_stickers_45:I
 
     .line 6
     invoke-virtual {p3, v3}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;

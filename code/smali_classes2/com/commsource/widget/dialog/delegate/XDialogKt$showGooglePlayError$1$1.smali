@@ -103,7 +103,7 @@
 
     invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0f0add
+    sget v1, Lcom/res/provider/ResSTRING;->unable_access_to_camera_or_album:I
 
     .line 1
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -112,7 +112,7 @@
 
     invoke-static {p1, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->h(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;)V
 
-    const v1, 0x7f0f0acf
+    sget v1, Lcom/res/provider/ResSTRING;->try_again:I
 
     .line 2
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -121,7 +121,7 @@
 
     invoke-static {p1, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->b(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;)V
 
-    const v1, 0x7f0f0400
+    sget v1, Lcom/res/provider/ResSTRING;->go_it:I
 
     .line 3
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;

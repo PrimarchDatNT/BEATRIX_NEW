@@ -456,7 +456,7 @@
     .line 12
     invoke-virtual {p1, v2}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    const v2, 0x7f0f060a
+    sget v2, Lcom/res/provider/ResSTRING;->meitu_webview_choose_file:I
 
     .line 13
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

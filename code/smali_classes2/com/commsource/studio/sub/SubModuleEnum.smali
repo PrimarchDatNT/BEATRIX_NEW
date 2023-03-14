@@ -392,9 +392,9 @@
 
     const/16 v5, 0xc9
 
-    const v6, 0x7f0f02a1
+    sget v6, Lcom/res/provider/ResSTRING;->composition:I
 
-    const v7, 0x7f0f052d
+    sget v7, Lcom/res/provider/ResSTRING;->if_studio_crop_rotate:I
 
     const/4 v8, 0x0
 
@@ -421,9 +421,9 @@
 
     const/16 v16, 0xca
 
-    const v17, 0x7f0f0148
+    sget v17, Lcom/res/provider/ResSTRING;->beauty_main_brightness:I
 
-    const v18, 0x7f0f047f
+    sget v18, Lcom/res/provider/ResSTRING;->if_brightness:I
 
     const/16 v19, 0x0
 
@@ -452,9 +452,9 @@
 
     const/16 v8, 0xcb
 
-    const v9, 0x7f0f014a
+    sget v9, Lcom/res/provider/ResSTRING;->beauty_main_contrast:I
 
-    const v10, 0x7f0f0497
+    sget v10, Lcom/res/provider/ResSTRING;->if_contrast:I
 
     const/4 v11, 0x0
 
@@ -483,9 +483,9 @@
 
     const/16 v19, 0xcc
 
-    const v20, 0x7f0f014e
+    sget v20, Lcom/res/provider/ResSTRING;->beauty_main_definition:I
 
-    const v21, 0x7f0f049d
+    sget v21, Lcom/res/provider/ResSTRING;->if_definition:I
 
     const/16 v22, 0x0
 
@@ -514,11 +514,11 @@
 
     const/16 v19, 0xcd
 
-    const v20, 0x7f0f0173
+    sget v20, Lcom/res/provider/ResSTRING;->beauty_main_saturation:I
 
     const/16 v21, 0x0
 
-    const v22, 0x7f0801f2
+    sget v22, Lcom/res/provider/ResDRAWABLE;->ic_studio_saturation_sel:I
 
     const-string v24, "\u9971\u548c\u5ea6"
 
@@ -543,9 +543,9 @@
 
     const/16 v19, 0xce
 
-    const v20, 0x7f0f0149
+    sget v20, Lcom/res/provider/ResSTRING;->beauty_main_color_temperature:I
 
-    const v21, 0x7f0f0546
+    sget v21, Lcom/res/provider/ResSTRING;->if_temperature:I
 
     const/16 v22, 0x0
 
@@ -572,9 +572,9 @@
 
     const/16 v19, 0xcf
 
-    const v20, 0x7f0f0b0b
+    sget v20, Lcom/res/provider/ResSTRING;->vignette:I
 
-    const v21, 0x7f0f04f3
+    sget v21, Lcom/res/provider/ResSTRING;->if_halation:I
 
     const-string v24, "\u6697\u89d2"
 
@@ -599,9 +599,9 @@
 
     const/16 v19, 0xd0
 
-    const v20, 0x7f0f0166
+    sget v20, Lcom/res/provider/ResSTRING;->beauty_main_fill_light:I
 
-    const v21, 0x7f0f04e3
+    sget v21, Lcom/res/provider/ResSTRING;->if_filllight:I
 
     const-string v24, "\u667a\u80fd\u8865\u5149"
 
@@ -626,9 +626,9 @@
 
     const/16 v20, 0xd1
 
-    const v21, 0x7f0f0165
+    sget v21, Lcom/res/provider/ResSTRING;->beauty_main_fade_color:I
 
-    const v23, 0x7f0801f0
+    sget v23, Lcom/res/provider/ResDRAWABLE;->ic_studio_fade_sel:I
 
     const/16 v24, 0x0
 
@@ -658,9 +658,9 @@
 
     const/16 v31, 0xe9
 
-    const v32, 0x7f0f0330
+    sget v32, Lcom/res/provider/ResSTRING;->ee_blur:I
 
-    const v33, 0x7f0f0527
+    sget v33, Lcom/res/provider/ResSTRING;->if_soft_focus:I
 
     const/16 v34, 0x0
 
@@ -690,9 +690,9 @@
 
     const/16 v31, 0xea
 
-    const v32, 0x7f0f0191
+    sget v32, Lcom/res/provider/ResSTRING;->beauty_one_key:I
 
-    const v33, 0x7f0f0533
+    sget v33, Lcom/res/provider/ResSTRING;->if_studio_one_key_beauty:I
 
     const-string v36, "\u4e00\u952e\u7f8e\u989c"
 
@@ -720,9 +720,9 @@
 
     const/16 v31, 0xeb
 
-    const v32, 0x7f0f017a
+    sget v32, Lcom/res/provider/ResSTRING;->beauty_main_smooth:I
 
-    const v33, 0x7f0f0526
+    sget v33, Lcom/res/provider/ResSTRING;->if_smooth:I
 
     const-string v36, "\u78e8\u76ae"
 
@@ -750,9 +750,9 @@
 
     const/16 v31, 0xf1
 
-    const v32, 0x7f0f096b
+    sget v32, Lcom/res/provider/ResSTRING;->t_edit_concealer:I
 
-    const v33, 0x7f0f04dd
+    sget v33, Lcom/res/provider/ResSTRING;->if_evenly:I
 
     const-string v36, "\u5300\u80a4"
 
@@ -780,9 +780,9 @@
 
     const/16 v31, 0xf2
 
-    const v32, 0x7f0f0976
+    sget v32, Lcom/res/provider/ResSTRING;->t_edit_oiliness:I
 
-    const v33, 0x7f0f0494
+    sget v33, Lcom/res/provider/ResSTRING;->if_clean_oil:I
 
     const-string v36, "\u53bb\u6cb9\u5149"
 
@@ -810,9 +810,9 @@
 
     const/16 v31, 0xd5
 
-    const v32, 0x7f0f0187
+    sget v32, Lcom/res/provider/ResSTRING;->beauty_main_tones:I
 
-    const v33, 0x7f0f0552
+    sget v33, Lcom/res/provider/ResSTRING;->if_tones:I
 
     const-string v36, "\u80a4\u8272"
 
@@ -840,9 +840,9 @@
 
     const/16 v31, 0xd6
 
-    const v32, 0x7f0f0142
+    sget v32, Lcom/res/provider/ResSTRING;->beauty_main_acne:I
 
-    const v33, 0x7f0f0475
+    sget v33, Lcom/res/provider/ResSTRING;->if_acne:I
 
     const-string v36, "\u795b\u6591\u795b\u75d8"
 
@@ -870,9 +870,9 @@
 
     const/16 v31, 0xd7
 
-    const v32, 0x7f0f0178
+    sget v32, Lcom/res/provider/ResSTRING;->beauty_main_slim:I
 
-    const v33, 0x7f0f0524
+    sget v33, Lcom/res/provider/ResSTRING;->if_slim:I
 
     const-string v36, "\u7626\u8138"
 
@@ -900,9 +900,9 @@
 
     const/16 v31, 0xd8
 
-    const v32, 0x7f0f014b
+    sget v32, Lcom/res/provider/ResSTRING;->beauty_main_countouring:I
 
-    const v33, 0x7f0f049b
+    sget v33, Lcom/res/provider/ResSTRING;->if_countouring:I
 
     const-string v36, "\u4e94\u5b98\u7acb\u4f53"
 
@@ -930,9 +930,9 @@
 
     const/16 v31, 0xd9
 
-    const v32, 0x7f0f0164
+    sget v32, Lcom/res/provider/ResSTRING;->beauty_main_eyes_enlarge:I
 
-    const v33, 0x7f0f04e2
+    sget v33, Lcom/res/provider/ResSTRING;->if_eye_enlarge:I
 
     const-string v36, "\u773c\u775b\u653e\u5927"
 
@@ -960,9 +960,9 @@
 
     const/16 v31, 0xda
 
-    const v32, 0x7f0f0163
+    sget v32, Lcom/res/provider/ResSTRING;->beauty_main_eyes_brighten:I
 
-    const v33, 0x7f0f04de
+    sget v33, Lcom/res/provider/ResSTRING;->if_eye_brightness:I
 
     const-string v36, "\u4eae\u773c"
 
@@ -990,9 +990,9 @@
 
     const/16 v31, 0xdb
 
-    const v32, 0x7f0f014d
+    sget v32, Lcom/res/provider/ResSTRING;->beauty_main_dark_circles:I
 
-    const v33, 0x7f0f049c
+    sget v33, Lcom/res/provider/ResSTRING;->if_dark_circles:I
 
     const-string v36, "\u6de1\u5316\u9ed1\u773c\u5708"
 
@@ -1020,9 +1020,9 @@
 
     const/16 v31, 0xf3
 
-    const v32, 0x7f0f097e
+    sget v32, Lcom/res/provider/ResSTRING;->t_edit_teethcorrection:I
 
-    const v33, 0x7f0f0499
+    sget v33, Lcom/res/provider/ResSTRING;->if_correct_teeth_low:I
 
     const-string v36, "\u7259\u9f7f\u77eb\u6b63"
 
@@ -1050,9 +1050,9 @@
 
     const/16 v31, 0xdc
 
-    const v32, 0x7f0f0b20
+    sget v32, Lcom/res/provider/ResSTRING;->whiten:I
 
-    const v33, 0x7f0f0545
+    sget v33, Lcom/res/provider/ResSTRING;->if_teeth_whiten:I
 
     const-string v36, "\u7259\u9f7f\u7f8e\u767d"
 
@@ -1080,9 +1080,9 @@
 
     const/16 v31, 0xdd
 
-    const v32, 0x7f0f016c
+    sget v32, Lcom/res/provider/ResSTRING;->beauty_main_narrow_nose:I
 
-    const v33, 0x7f0f050c
+    sget v33, Lcom/res/provider/ResSTRING;->if_nose_swing:I
 
     const-string v36, "\u7f29\u5c0f\u9f3b\u7ffc"
 
@@ -1110,9 +1110,9 @@
 
     const/16 v31, 0xde
 
-    const v32, 0x7f0f0172
+    sget v32, Lcom/res/provider/ResSTRING;->beauty_main_remove_wrinkle:I
 
-    const v33, 0x7f0f051d
+    sget v33, Lcom/res/provider/ResSTRING;->if_remove_wrinkle:I
 
     const-string v36, "\u795b\u76b1"
 
@@ -1140,9 +1140,9 @@
 
     const/16 v31, 0xdf
 
-    const v32, 0x7f0f0170
+    sget v32, Lcom/res/provider/ResSTRING;->beauty_main_remold:I
 
-    const v33, 0x7f0f0511
+    sget v33, Lcom/res/provider/ResSTRING;->if_remold:I
 
     const-string v36, "\u9762\u90e8\u91cd\u5851"
 
@@ -1170,9 +1170,9 @@
 
     const/16 v32, 0xe0
 
-    const v33, 0x7f0f016f
+    sget v33, Lcom/res/provider/ResSTRING;->beauty_main_relight:I
 
-    const v34, 0x7f0f0510
+    sget v34, Lcom/res/provider/ResSTRING;->if_relight:I
 
     const/16 v35, 0x0
 
@@ -1202,9 +1202,9 @@
 
     const/16 v33, 0xe1
 
-    const v34, 0x7f0f005d
+    sget v34, Lcom/res/provider/ResSTRING;->ai_beauty:I
 
-    const v35, 0x7f0f0477
+    sget v35, Lcom/res/provider/ResSTRING;->if_ai_beauty:I
 
     const/16 v36, 0x0
 
@@ -1234,9 +1234,9 @@
 
     const/16 v34, 0xe2
 
-    const v35, 0x7f0f014f
+    sget v35, Lcom/res/provider/ResSTRING;->beauty_main_dispersion:I
 
-    const v36, 0x7f0f049e
+    sget v36, Lcom/res/provider/ResSTRING;->if_dispersion:I
 
     const/16 v37, 0x0
 
@@ -1266,9 +1266,9 @@
 
     const/16 v35, 0xe3
 
-    const v36, 0x7f0f05a3
+    sget v36, Lcom/res/provider/ResSTRING;->make_up:I
 
-    const v37, 0x7f0f0532
+    sget v37, Lcom/res/provider/ResSTRING;->if_studio_makeup:I
 
     const/16 v38, 0x0
 
@@ -1298,9 +1298,9 @@
 
     const/16 v36, 0xe4
 
-    const v37, 0x7f0f0089
+    sget v37, Lcom/res/provider/ResSTRING;->ai_enhancement:I
 
-    const v38, 0x7f0f04da
+    sget v38, Lcom/res/provider/ResSTRING;->if_enhance:I
 
     const/16 v39, 0x0
 
@@ -1330,9 +1330,9 @@
 
     const/16 v37, 0xe5
 
-    const v38, 0x7f0f0160
+    sget v38, Lcom/res/provider/ResSTRING;->beauty_main_elimination:I
 
-    const v39, 0x7f0f04d9
+    sget v39, Lcom/res/provider/ResSTRING;->if_eliminate_pen:I
 
     const/16 v40, 0x0
 
@@ -1362,9 +1362,9 @@
 
     const/16 v38, 0xe6
 
-    const v39, 0x7f0f016b
+    sget v39, Lcom/res/provider/ResSTRING;->beauty_main_mosaic:I
 
-    const v40, 0x7f0f04fb
+    sget v40, Lcom/res/provider/ResSTRING;->if_mosaic:I
 
     const/16 v41, 0x0
 
@@ -1394,9 +1394,9 @@
 
     const/16 v39, 0xe8
 
-    const v40, 0x7f0f01fe
+    sget v40, Lcom/res/provider/ResSTRING;->camera_head_size:I
 
-    const v41, 0x7f0f0523
+    sget v41, Lcom/res/provider/ResSTRING;->if_shrink:I
 
     const/16 v42, 0x0
 
@@ -1423,9 +1423,9 @@
 
     const/16 v39, 0xd2
 
-    const v40, 0x7f0f0442
+    sget v40, Lcom/res/provider/ResSTRING;->highlight:I
 
-    const v41, 0x7f0f04f4
+    sget v41, Lcom/res/provider/ResSTRING;->if_hightlight:I
 
     const/16 v43, 0x0
 
@@ -1452,9 +1452,9 @@
 
     const/16 v40, 0xd3
 
-    const v41, 0x7f0f0175
+    sget v41, Lcom/res/provider/ResSTRING;->beauty_main_shadow:I
 
-    const v42, 0x7f0f0522
+    sget v42, Lcom/res/provider/ResSTRING;->if_shadow:I
 
     const/16 v43, 0x0
 
@@ -1483,9 +1483,9 @@
 
     const/16 v41, 0xd4
 
-    const v42, 0x7f0f016e
+    sget v42, Lcom/res/provider/ResSTRING;->beauty_main_particle:I
 
-    const v43, 0x7f0f050d
+    sget v43, Lcom/res/provider/ResSTRING;->if_particle:I
 
     const/16 v44, 0x0
 
@@ -1517,9 +1517,9 @@
 
     const/16 v42, 0xed
 
-    const v43, 0x7f0f079f
+    sget v43, Lcom/res/provider/ResSTRING;->reshape:I
 
-    const v44, 0x7f0f053d
+    sget v44, Lcom/res/provider/ResSTRING;->if_studio_shape:I
 
     const/16 v45, 0x0
 
@@ -1549,9 +1549,9 @@
 
     const/16 v43, 0xf5
 
-    const v44, 0x7f0f092e
+    sget v44, Lcom/res/provider/ResSTRING;->t_adjust:I
 
-    const v45, 0x7f0f0305
+    sget v45, Lcom/res/provider/ResSTRING;->edit_icon_adjust:I
 
     const/16 v46, 0x0
 
@@ -1581,7 +1581,7 @@
 
     const/16 v44, 0xf6
 
-    const v45, 0x7f0f017f
+    sget v45, Lcom/res/provider/ResSTRING;->beauty_main_submodule_eraser:I
 
     const/16 v47, 0x0
 
@@ -1611,7 +1611,7 @@
 
     const/16 v45, 0xf7
 
-    const v46, 0x7f0f0a09
+    sget v46, Lcom/res/provider/ResSTRING;->t_opacity:I
 
     const/16 v48, 0x0
 
@@ -1641,7 +1641,7 @@
 
     const/16 v46, 0x3e7
 
-    const v47, 0x7f0f09f9
+    sget v47, Lcom/res/provider/ResSTRING;->t_mask:I
 
     const/16 v49, 0x0
 
@@ -1671,9 +1671,9 @@
 
     const/16 v47, 0x3e7
 
-    const v48, 0x7f0f0a33
+    sget v48, Lcom/res/provider/ResSTRING;->t_selfie_switch_bar_ar:I
 
-    const v49, 0x7f0f082b
+    sget v49, Lcom/res/provider/ResSTRING;->selfie_main_icon_ar_line:I
 
     const/16 v50, 0x0
 
@@ -1703,7 +1703,7 @@
 
     const/16 v47, 0xf8
 
-    const v48, 0x7f0f09fb
+    sget v48, Lcom/res/provider/ResSTRING;->t_mirror:I
 
     const/16 v49, 0x0
 
@@ -1733,9 +1733,9 @@
 
     const/16 v48, 0xf9
 
-    const v49, 0x7f0f0953
+    sget v49, Lcom/res/provider/ResSTRING;->t_cutout:I
 
-    const v50, 0x7f0f04e9
+    sget v50, Lcom/res/provider/ResSTRING;->if_frame:I
 
     const/16 v51, 0x0
 
@@ -1765,9 +1765,9 @@
 
     const/16 v49, 0xfa
 
-    const v50, 0x7f0f0a5c
+    sget v50, Lcom/res/provider/ResSTRING;->t_stylish:I
 
-    const v51, 0x7f0f0318
+    sget v51, Lcom/res/provider/ResSTRING;->edit_icon_style:I
 
     const/16 v52, 0x0
 
@@ -1797,7 +1797,7 @@
 
     const/16 v50, 0xfc
 
-    const v51, 0x7f0f09d9
+    sget v51, Lcom/res/provider/ResSTRING;->t_image_layer_style:I
 
     const/16 v53, 0x0
 

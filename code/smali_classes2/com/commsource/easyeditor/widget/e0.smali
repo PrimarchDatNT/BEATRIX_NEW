@@ -29,7 +29,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/view/ViewGroup;)V
     .locals 1
 
-    const v0, 0x7f0c0147
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_ee_filter:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -83,7 +83,7 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f08039c
+    sget v1, Lcom/res/provider/ResDRAWABLE;->shape_top_r6:I
 
     .line 2
     invoke-static {v1}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;
@@ -131,7 +131,7 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f080383
+    sget v1, Lcom/res/provider/ResDRAWABLE;->shape_bottom_r6:I
 
     .line 2
     invoke-static {v1}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;
@@ -318,12 +318,12 @@
 
     if-eqz p3, :cond_3
 
-    const p3, 0x7f0801e4
+    sget p3, Lcom/res/provider/ResDRAWABLE;->ic_ee_filter_default_select:I
 
     goto :goto_1
 
     :cond_3
-    const p3, 0x7f0801e3
+    sget p3, Lcom/res/provider/ResDRAWABLE;->ic_ee_filter_default:I
 
     .line 12
     :goto_1

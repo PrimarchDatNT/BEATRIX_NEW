@@ -1996,7 +1996,7 @@
     .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->o0:Landroidx/lifecycle/MutableLiveData;
 
-    const v3, 0x7f0f08ed
+    sget v3, Lcom/res/provider/ResSTRING;->storage_permission_tip:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

@@ -294,7 +294,7 @@
     .line 7
     new-instance p1, Lcom/commsource/camera/f1/o;
 
-    const p2, 0x7f080091
+    sget p2, Lcom/res/provider/ResDRAWABLE;->arrow_up_icon_black:I
 
     invoke-direct {p1, p2}, Lcom/commsource/camera/f1/o;-><init>(I)V
 

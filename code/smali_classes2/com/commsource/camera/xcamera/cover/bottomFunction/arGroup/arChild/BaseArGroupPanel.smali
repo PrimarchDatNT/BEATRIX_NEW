@@ -146,7 +146,7 @@
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/BaseArGroupPanel;->c:Landroidx/recyclerview/widget/RecyclerView;
 
-    const p1, 0x7f090548
+    sget p1, Lcom/res/provider/ResID;->rv_ar:I
 
     .line 13
     invoke-virtual {p2, p1}, Landroid/view/ViewGroup;->setId(I)V
@@ -692,7 +692,7 @@
     .line 11
     new-instance v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;
 
-    const v4, 0x7f080331
+    sget v4, Lcom/res/provider/ResDRAWABLE;->selfie_ipar_icon_store:I
 
     invoke-direct {v3, v1, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;-><init>(II)V
 

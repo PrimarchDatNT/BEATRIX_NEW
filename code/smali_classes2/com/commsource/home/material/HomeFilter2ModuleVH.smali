@@ -187,7 +187,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c0154
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_home_filter2_module:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/home/BaseHomeModuleVH;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -878,7 +878,7 @@
 
     invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0f038e
+    sget v1, Lcom/res/provider/ResSTRING;->filter:I
 
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
@@ -1102,7 +1102,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0801d8
+    sget p2, Lcom/res/provider/ResDRAWABLE;->home_material_2_background:I
 
     invoke-virtual {p1, p2}, Lcom/commsource/util/u0$d;->k(I)Lcom/commsource/util/u0$d;
 

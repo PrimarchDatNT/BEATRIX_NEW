@@ -150,7 +150,7 @@
 
     if-eqz p1, :cond_5
 
-    const v1, 0x7f080350
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_montage_create_face_icon:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

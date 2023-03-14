@@ -543,14 +543,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0f02cd
+    sget v1, Lcom/res/provider/ResSTRING;->delete_personal_info_failed:I
 
     .line 1
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0f0567
+    sget v2, Lcom/res/provider/ResSTRING;->it_ok_for_me:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -573,14 +573,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0f0702
+    sget v1, Lcom/res/provider/ResSTRING;->personal_info_deleted:I
 
     .line 1
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0f0567
+    sget v2, Lcom/res/provider/ResSTRING;->it_ok_for_me:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -603,20 +603,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0f02cb
+    sget v1, Lcom/res/provider/ResSTRING;->delete_info_tip:I
 
     .line 1
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v1, 0x7f0f0212
+    sget v1, Lcom/res/provider/ResSTRING;->cancel:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v1, 0x7f0f0239
+    sget v1, Lcom/res/provider/ResSTRING;->cloud_album_delete:I
 
     .line 2
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -654,7 +654,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/g1;->R:Lcom/commsource/widget/title/XTitleBar;
 
-    const v2, 0x7f0f0046
+    sget v2, Lcom/res/provider/ResSTRING;->about_us:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -755,7 +755,7 @@
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
     :goto_0
-    const v1, 0x7f0f0464
+    sget v1, Lcom/res/provider/ResSTRING;->home_user_protocol:I
 
     .line 13
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -764,7 +764,7 @@
 
     iput-object v1, p0, Lcom/commsource/beautyplus/setting/about/AboutActivity;->O:Ljava/lang/String;
 
-    const v1, 0x7f0f0461
+    sget v1, Lcom/res/provider/ResSTRING;->home_terms_of_service:I
 
     .line 14
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1065,7 +1065,7 @@
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c004c
+    sget p1, Lcom/res/provider/ResLAYOUT;->app_update:I
 
     .line 2
     invoke-static {p0, p1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;

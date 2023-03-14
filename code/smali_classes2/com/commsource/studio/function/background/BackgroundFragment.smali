@@ -670,7 +670,7 @@
 
     new-array v3, v3, [Ljava/lang/Integer;
 
-    const v4, 0x7f0f0a24
+    sget v4, Lcom/res/provider/ResSTRING;->t_ratio_and_color:I
 
     .line 11
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -681,7 +681,7 @@
 
     const/4 v4, 0x1
 
-    const v5, 0x7f0f0a6f
+    sget v5, Lcom/res/provider/ResSTRING;->t_texture:I
 
     .line 12
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

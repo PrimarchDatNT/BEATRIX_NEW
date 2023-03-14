@@ -95,9 +95,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f010030
+    sget v1, Lcom/res/provider/ResANIM;->push_up_in:I
 
-    const v2, 0x7f010031
+    sget v2, Lcom/res/provider/ResANIM;->push_up_out:I
 
     .line 1
     invoke-virtual {p0, v1, v2}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -126,9 +126,9 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f01003c
+    sget v1, Lcom/res/provider/ResANIM;->slide_right_in:I
 
-    const v2, 0x7f010031
+    sget v2, Lcom/res/provider/ResANIM;->push_up_out:I
 
     .line 2
     invoke-virtual {p0, v1, v2}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -149,7 +149,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f01002f
+    sget v2, Lcom/res/provider/ResANIM;->push_down_in:I
 
     .line 1
     invoke-virtual {p0, v1, v2}, Landroid/app/Activity;->overridePendingTransition(II)V

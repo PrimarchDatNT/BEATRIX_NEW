@@ -109,7 +109,7 @@
 
     const/4 p2, 0x0
 
-    const v1, 0x7f060073
+    sget v1, Lcom/res/provider/ResCOLOR;->color_40000000:I
 
     .line 4
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I

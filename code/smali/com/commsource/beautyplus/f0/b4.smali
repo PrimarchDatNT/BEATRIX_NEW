@@ -39,49 +39,49 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/b4;->M:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090316
+    sget v2, Lcom/res/provider/ResID;->iv_confirm:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090200
+    sget v2, Lcom/res/provider/ResID;->fl_confirm_bottom:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0905c3
+    sget v2, Lcom/res/provider/ResID;->slv:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0903c6
+    sget v2, Lcom/res/provider/ResID;->ll_back:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090092
+    sget v2, Lcom/res/provider/ResID;->back_btn:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090094
+    sget v2, Lcom/res/provider/ResID;->back_text:I
 
     const/4 v3, 0x6
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09023c
+    sget v2, Lcom/res/provider/ResID;->flare_container:I
 
     const/4 v3, 0x7
 

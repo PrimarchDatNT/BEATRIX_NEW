@@ -112,7 +112,7 @@
     .line 7
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    const p0, 0x7f0f06dd
+    sget p0, Lcom/res/provider/ResSTRING;->open_failed:I
 
     .line 8
     invoke-static {p0}, Lf/k/c/c/f;->w(I)V
@@ -381,7 +381,7 @@
     .line 7
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    const p0, 0x7f0f06dd
+    sget p0, Lcom/res/provider/ResSTRING;->open_failed:I
 
     .line 8
     invoke-static {p0}, Lf/k/c/c/f;->w(I)V
@@ -518,7 +518,7 @@
     .line 3
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    const p0, 0x7f0f06dd
+    sget p0, Lcom/res/provider/ResSTRING;->open_failed:I
 
     .line 4
     invoke-static {p0}, Lf/k/c/c/f;->w(I)V
@@ -546,7 +546,7 @@
 
     if-eqz v1, :cond_0
 
-    const p0, 0x7f0f08ed
+    sget p0, Lcom/res/provider/ResSTRING;->storage_permission_tip:I
 
     .line 2
     invoke-static {p0}, Lf/k/c/c/f;->w(I)V
@@ -609,7 +609,7 @@
 
     if-eqz v1, :cond_0
 
-    const p0, 0x7f0f08ed
+    sget p0, Lcom/res/provider/ResSTRING;->storage_permission_tip:I
 
     .line 2
     invoke-static {p0}, Lf/k/c/c/f;->w(I)V

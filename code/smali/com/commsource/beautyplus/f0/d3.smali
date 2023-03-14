@@ -44,63 +44,63 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/d3;->O:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0901fa
+    sget v2, Lcom/res/provider/ResID;->fl_bottom_bar:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904fd
+    sget v2, Lcom/res/provider/ResID;->rl_camera_bar:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090300
+    sget v2, Lcom/res/provider/ResID;->iv_ar_enter:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09021c
+    sget v2, Lcom/res/provider/ResID;->fl_montage_album:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09010a
+    sget v2, Lcom/res/provider/ResID;->cb:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090208
+    sget v2, Lcom/res/provider/ResID;->fl_effect_enter:I
 
     const/4 v3, 0x6
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090323
+    sget v2, Lcom/res/provider/ResID;->iv_effect_enter:I
 
     const/4 v3, 0x7
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0904d2
+    sget v2, Lcom/res/provider/ResID;->red_dot:I
 
     const/16 v3, 0x8
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090175
+    sget v2, Lcom/res/provider/ResID;->cst:I
 
     const/16 v3, 0x9
 

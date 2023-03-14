@@ -44,14 +44,14 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/bd;->g:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090083
+    sget v2, Lcom/res/provider/ResID;->ar_giphy_material_iv:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090082
+    sget v2, Lcom/res/provider/ResID;->ar_giphy_item_loading:I
 
     const/4 v3, 0x2
 

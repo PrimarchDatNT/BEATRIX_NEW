@@ -119,7 +119,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/m;->a:Landroid/widget/TextView;
 
-    const v1, 0x7f0f036f
+    sget v1, Lcom/res/provider/ResSTRING;->feed_back_bar_prompt2:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

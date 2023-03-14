@@ -114,7 +114,7 @@
     .line 2
     invoke-virtual {p1, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    const v1, 0x7f0f08c2
+    sget v1, Lcom/res/provider/ResSTRING;->software_grade_url:I
 
     .line 3
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;

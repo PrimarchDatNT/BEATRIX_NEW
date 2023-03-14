@@ -104,7 +104,7 @@
 
     invoke-direct {v1, v2}, Landroid/text/TextPaint;-><init>(I)V
 
-    const v2, 0x7f060005
+    sget v2, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     .line 3
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I

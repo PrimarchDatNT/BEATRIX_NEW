@@ -351,7 +351,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f03f4
+    sget v3, Lcom/res/provider/ResSTRING;->get_a_free_trial:I
 
     const/4 v4, 0x1
 
@@ -379,7 +379,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0ae6
+    sget v2, Lcom/res/provider/ResSTRING;->unlock_all_exclusive_effects:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -409,7 +409,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f03f3
+    sget v3, Lcom/res/provider/ResSTRING;->get_a_free_trail_for_premium:I
 
     const/4 v4, 0x1
 
@@ -439,7 +439,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f056d
+    sget v2, Lcom/res/provider/ResSTRING;->join_to_unlock_all_exclusive_effects:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

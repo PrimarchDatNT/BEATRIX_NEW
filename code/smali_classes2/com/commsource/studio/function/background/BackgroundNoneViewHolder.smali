@@ -79,7 +79,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0c0133
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_background_none:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V

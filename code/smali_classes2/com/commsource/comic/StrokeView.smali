@@ -248,7 +248,7 @@
 
     iput p1, p0, Lcom/commsource/comic/StrokeView;->g:F
 
-    const p1, 0x7f060039
+    sget p1, Lcom/res/provider/ResCOLOR;->black5:I
 
     .line 9
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I

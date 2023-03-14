@@ -83,7 +83,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08018a
+    sget v2, Lcom/res/provider/ResDRAWABLE;->edit_img_transparentbackground:I
 
     invoke-static {v1, v2}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

@@ -29,7 +29,7 @@
     goto :goto_0
 
     :catch_0
-    const p1, 0x7f0f087b
+    sget p1, Lcom/res/provider/ResSTRING;->share_app_not_installed:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -282,7 +282,7 @@
     goto :goto_1
 
     :pswitch_5
-    const p2, 0x7f0f07c4
+    sget p2, Lcom/res/provider/ResSTRING;->save_and_share_weibo:I
 
     .line 7
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

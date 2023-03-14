@@ -273,7 +273,7 @@
 
     invoke-direct {v3, v4}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
 
-    const v4, 0x7f0802dc
+    sget v4, Lcom/res/provider/ResDRAWABLE;->radius_20_f5f5f5:I
 
     .line 11
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setBackgroundResource(I)V

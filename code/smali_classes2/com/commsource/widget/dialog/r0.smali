@@ -267,12 +267,12 @@
 
     if-eqz p0, :cond_0
 
-    const p0, 0x7f0f075b
+    sget p0, Lcom/res/provider/ResSTRING;->purchases_restored:I
 
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f0f075d
+    sget p0, Lcom/res/provider/ResSTRING;->purchasing_success:I
 
     .line 1
     :goto_0
@@ -341,7 +341,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0f0415
+    sget p1, Lcom/res/provider/ResSTRING;->google_play_setup_failure:I
 
     .line 3
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
@@ -775,7 +775,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0f0415
+    sget v1, Lcom/res/provider/ResSTRING;->google_play_setup_failure:I
 
     .line 4
     invoke-static {v1}, Lf/k/c/c/f;->w(I)V

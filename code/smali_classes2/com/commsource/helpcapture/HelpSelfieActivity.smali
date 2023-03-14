@@ -74,7 +74,7 @@
     .line 2
     new-instance v0, Landroid/text/style/ForegroundColorSpan;
 
-    const v1, 0x7f06013a
+    sget v1, Lcom/res/provider/ResCOLOR;->color_fb5986:I
 
     .line 3
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
@@ -255,7 +255,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/g0;->P:Lcom/commsource/widget/IconFrontView;
 
-    const v3, 0x7f0f04f7
+    sget v3, Lcom/res/provider/ResSTRING;->if_left_camera:I
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -556,7 +556,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/g0;->b:Lcom/commsource/widget/CircleImageView;
 
-    const v1, 0x7f0801cc
+    sget v1, Lcom/res/provider/ResDRAWABLE;->gray_bg_radius_30:I
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/CircleImageView;->setImageResource(I)V
 
@@ -1488,7 +1488,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/g0;->T:Landroid/widget/TextView;
 
-    const v4, 0x7f0f043d
+    sget v4, Lcom/res/provider/ResSTRING;->help_to_take_bg:I
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -1701,7 +1701,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/g0;->P:Lcom/commsource/widget/IconFrontView;
 
-    const v3, 0x7f0f0495
+    sget v3, Lcom/res/provider/ResSTRING;->if_close_camera:I
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -2104,7 +2104,7 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0f043d
+    sget v1, Lcom/res/provider/ResSTRING;->help_to_take_bg:I
 
     goto :goto_1
 
@@ -2114,12 +2114,12 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0f0714
+    sget v1, Lcom/res/provider/ResSTRING;->pls_take_again:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f0f0710
+    sget v1, Lcom/res/provider/ResSTRING;->pls_check_bg_0:I
 
     .line 3
     iget-object v3, p0, Lcom/commsource/helpcapture/HelpSelfieActivity;->S:[Z
@@ -2143,7 +2143,7 @@
 
     if-eqz v6, :cond_2
 
-    const v1, 0x7f0f0712
+    sget v1, Lcom/res/provider/ResSTRING;->pls_check_bg_2:I
 
     goto :goto_0
 
@@ -2158,7 +2158,7 @@
     if-eqz v3, :cond_4
 
     :cond_3
-    const v1, 0x7f0f0711
+    sget v1, Lcom/res/provider/ResSTRING;->pls_check_bg_1:I
 
     const/4 v4, 0x1
 
@@ -2423,7 +2423,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0905a6
+    sget v2, Lcom/res/provider/ResID;->selfie_anchor_view:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2548,7 +2548,7 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0f0abc
+    sget v1, Lcom/res/provider/ResSTRING;->to_simple_bg:I
 
     .line 2
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -2557,7 +2557,7 @@
 
     const/4 v3, 0x0
 
-    const v1, 0x7f0f01d0
+    sget v1, Lcom/res/provider/ResSTRING;->bec_wallet_text19:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -2653,7 +2653,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0905aa
+    sget v1, Lcom/res/provider/ResID;->selfie_result_container:I
 
     iget-object v3, p0, Lcom/commsource/helpcapture/HelpSelfieActivity;->P:Lcom/commsource/helpcapture/l0;
 
@@ -3779,7 +3779,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f090417
+    sget v0, Lcom/res/provider/ResID;->mMTCameraLayout:I
 
     return v0
 .end method
@@ -3794,7 +3794,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f09040f
+    sget v0, Lcom/res/provider/ResID;->mFocusView:I
 
     return v0
 .end method
@@ -3817,7 +3817,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c0031
+    sget v0, Lcom/res/provider/ResLAYOUT;->activity_help_selfie:I
 
     return v0
 .end method

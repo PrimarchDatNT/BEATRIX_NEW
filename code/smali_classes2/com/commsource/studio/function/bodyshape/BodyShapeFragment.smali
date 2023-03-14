@@ -1916,7 +1916,7 @@
     :cond_f
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/ib;->a:Lcom/commsource/studio/component/AutoManualComponent;
 
-    const v3, 0x7f0f01e0
+    sget v3, Lcom/res/provider/ResSTRING;->body_not_detected__auto_reshape_function_cannot_be_used:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -1960,7 +1960,7 @@
     :cond_13
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/ib;->a:Lcom/commsource/studio/component/AutoManualComponent;
 
-    const v3, 0x7f0f0ae4
+    sget v3, Lcom/res/provider/ResSTRING;->unable_to_use_auto_reshape_function_on_multiple_bodies_at_once:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

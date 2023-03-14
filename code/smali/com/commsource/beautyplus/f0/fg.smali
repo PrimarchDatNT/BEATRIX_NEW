@@ -39,49 +39,49 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/fg;->N:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090161
+    sget v2, Lcom/res/provider/ResID;->contentBg:I
 
     const/4 v3, 0x2
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902ec
+    sget v2, Lcom/res/provider/ResID;->ivBg:I
 
     const/4 v3, 0x3
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902ef
+    sget v2, Lcom/res/provider/ResID;->ivContent:I
 
     const/4 v3, 0x4
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902e7
+    sget v2, Lcom/res/provider/ResID;->ivAdBg:I
 
     const/4 v3, 0x5
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09045c
+    sget v2, Lcom/res/provider/ResID;->nativeAdView:I
 
     const/4 v3, 0x6
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902e8
+    sget v2, Lcom/res/provider/ResID;->ivAdIcon:I
 
     const/4 v3, 0x7
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902f5
+    sget v2, Lcom/res/provider/ResID;->ivMask:I
 
     const/16 v3, 0x8
 
@@ -276,7 +276,7 @@
 
     const/4 v3, 0x0
 
-    const v0, 0x7f06013a
+    sget v0, Lcom/res/provider/ResCOLOR;->color_fb5986:I
 
     invoke-static {v2, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

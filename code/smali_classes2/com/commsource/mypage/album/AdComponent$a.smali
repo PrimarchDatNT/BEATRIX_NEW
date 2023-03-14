@@ -109,7 +109,7 @@
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/m0/a;->g()V
 
-    const v1, 0x7f0f0097
+    sget v1, Lcom/res/provider/ResSTRING;->alert_auto_reply:I
 
     .line 4
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V

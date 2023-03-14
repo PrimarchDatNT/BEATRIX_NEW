@@ -133,7 +133,7 @@
 
     const/4 v6, 0x6
 
-    const v7, 0x7f0f04f9
+    sget v7, Lcom/res/provider/ResSTRING;->if_look_normal:I
 
     invoke-direct {v5, v6, v7}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;-><init>(II)V
 

@@ -182,7 +182,7 @@
     :try_start_0
     iget-object p1, p0, Lcom/commsource/beautyplus/web/WebActivity$c;->a:Lcom/commsource/beautyplus/web/WebActivity;
 
-    const p2, 0x7f0f033f
+    sget p2, Lcom/res/provider/ResSTRING;->error_network:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -190,7 +190,7 @@
 
     iget-object p2, p0, Lcom/commsource/beautyplus/web/WebActivity$c;->a:Lcom/commsource/beautyplus/web/WebActivity;
 
-    const p3, 0x7f0f02db
+    sget p3, Lcom/res/provider/ResSTRING;->dialog_i_konw:I
 
     invoke-virtual {p2, p3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

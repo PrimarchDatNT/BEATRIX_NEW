@@ -44,28 +44,28 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/h3;->J:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090417
+    sget v2, Lcom/res/provider/ResID;->mMTCameraLayout:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09040f
+    sget v2, Lcom/res/provider/ResID;->mFocusView:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090212
+    sget v2, Lcom/res/provider/ResID;->fl_gesture:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901c1
+    sget v2, Lcom/res/provider/ResID;->esb:I
 
     const/4 v3, 0x4
 

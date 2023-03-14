@@ -296,7 +296,7 @@
 
     check-cast v4, Landroid/content/Context;
 
-    const v5, 0x7f10026a
+    sget v5, Lcom/res/provider/ResSTYLE;->updateDialog:I
 
     invoke-direct {v3, v4, v5}, Lcom/commsource/widget/v0;-><init>(Landroid/content/Context;I)V
 
@@ -305,14 +305,14 @@
     .line 5
     invoke-virtual {v3, v4}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const v5, 0x7f0c01df
+    sget v5, Lcom/res/provider/ResLAYOUT;->praise_dialog_new:I
 
     .line 6
     invoke-virtual {v1, v5, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0900d9
+    sget v2, Lcom/res/provider/ResID;->bt_submit:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -321,7 +321,7 @@
 
     check-cast v2, Landroid/widget/Button;
 
-    const v5, 0x7f0906f2
+    sget v5, Lcom/res/provider/ResID;->tv_later:I
 
     .line 8
     invoke-virtual {v1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -357,7 +357,7 @@
 
     new-array v6, v5, [Lcom/airbnb/lottie/LottieAnimationView;
 
-    const v7, 0x7f090391
+    sget v7, Lcom/res/provider/ResID;->lav_priase_level1:I
 
     .line 13
     invoke-virtual {v1, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -368,7 +368,7 @@
 
     aput-object v7, v6, v4
 
-    const v7, 0x7f090392
+    sget v7, Lcom/res/provider/ResID;->lav_priase_level2:I
 
     .line 14
     invoke-virtual {v1, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -383,7 +383,7 @@
 
     const/4 v7, 0x2
 
-    const v8, 0x7f090393
+    sget v8, Lcom/res/provider/ResID;->lav_priase_level3:I
 
     .line 15
     invoke-virtual {v1, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -396,7 +396,7 @@
 
     const/4 v7, 0x3
 
-    const v8, 0x7f090394
+    sget v8, Lcom/res/provider/ResID;->lav_priase_level4:I
 
     .line 16
     invoke-virtual {v1, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -409,7 +409,7 @@
 
     const/4 v7, 0x4
 
-    const v8, 0x7f090395
+    sget v8, Lcom/res/provider/ResID;->lav_priase_level5:I
 
     .line 17
     invoke-virtual {v1, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;

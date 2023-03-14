@@ -110,7 +110,7 @@
     .line 7
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView$a;->g:Lcom/commsource/aieditor/AiEditorSaveView;
 
-    const v3, 0x7f0f0088
+    sget v3, Lcom/res/provider/ResSTRING;->ai_editor_unsave:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -121,7 +121,7 @@
     .line 8
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorSaveView$a;->g:Lcom/commsource/aieditor/AiEditorSaveView;
 
-    const v3, 0x7f0f0083
+    sget v3, Lcom/res/provider/ResSTRING;->ai_editor_saving:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -295,7 +295,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f080136
+    sget v4, Lcom/res/provider/ResDRAWABLE;->common_tick_icon_white:I
 
     invoke-static {v3, v4}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

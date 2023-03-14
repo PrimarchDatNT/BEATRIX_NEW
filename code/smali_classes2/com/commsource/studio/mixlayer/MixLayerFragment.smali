@@ -413,7 +413,7 @@
 
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
-    const v6, 0x7f0802e6
+    sget v6, Lcom/res/provider/ResDRAWABLE;->radius_4_f5f5f5_333333:I
 
     .line 7
     invoke-virtual {v5, v6}, Landroid/view/View;->setBackgroundResource(I)V
@@ -431,7 +431,7 @@
 
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
-    const v6, 0x7f0802e5
+    sget v6, Lcom/res/provider/ResDRAWABLE;->radius_4_f5f5f5:I
 
     .line 10
     invoke-virtual {v5, v6}, Landroid/view/View;->setBackgroundResource(I)V
@@ -852,7 +852,7 @@
     :goto_2
     iput-object v5, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment;->p:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
-    const v5, 0x7f06006b
+    sget v5, Lcom/res/provider/ResCOLOR;->color_333333:I
 
     .line 21
     invoke-static {v5}, Lcom/commsource/util/u1;->b(I)I

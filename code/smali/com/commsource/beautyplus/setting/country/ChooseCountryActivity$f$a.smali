@@ -34,7 +34,7 @@
     .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0906ee
+    sget v0, Lcom/res/provider/ResID;->tv_index:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -45,7 +45,7 @@
 
     iput-object v0, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;->a:Landroid/widget/TextView;
 
-    const v0, 0x7f090709
+    sget v0, Lcom/res/provider/ResID;->tv_name:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -56,7 +56,7 @@
 
     iput-object v0, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f090370
+    sget v0, Lcom/res/provider/ResID;->iv_select:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

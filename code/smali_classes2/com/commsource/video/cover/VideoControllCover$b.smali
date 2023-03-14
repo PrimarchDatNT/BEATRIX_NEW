@@ -117,7 +117,7 @@
 
     if-eqz v0, :cond_1
 
-    const v1, 0x7f0801f6
+    sget v1, Lcom/res/provider/ResDRAWABLE;->icon_exit_fullscreen:I
 
     invoke-virtual {v0, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
@@ -139,7 +139,7 @@
 
     if-eqz v0, :cond_1
 
-    const v1, 0x7f0801f7
+    sget v1, Lcom/res/provider/ResDRAWABLE;->icon_full_screen:I
 
     invoke-virtual {v0, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 

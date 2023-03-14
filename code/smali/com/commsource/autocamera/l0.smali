@@ -220,7 +220,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c00d1
+    sget v0, Lcom/res/provider/ResLAYOUT;->dialog_shortcut:I
 
     return v0
 .end method

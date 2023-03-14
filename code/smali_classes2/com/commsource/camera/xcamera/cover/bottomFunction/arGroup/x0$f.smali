@@ -52,7 +52,7 @@
     .line 3
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0$f;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;
 
-    const v3, 0x7f0f0234
+    sget v3, Lcom/res/provider/ResSTRING;->click_to_cancel_ar:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

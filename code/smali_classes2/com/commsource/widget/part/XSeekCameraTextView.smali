@@ -143,7 +143,7 @@
     .line 2
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/comic/widget/StrokeTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const p1, 0x7f060225
+    sget p1, Lcom/res/provider/ResCOLOR;->white:I
 
     .line 3
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I

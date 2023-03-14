@@ -251,7 +251,7 @@
     .line 6
     invoke-virtual {v1, v2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    const p1, 0x7f0f0439
+    sget p1, Lcom/res/provider/ResSTRING;->help_feedback_web_url:I
 
     .line 7
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -296,7 +296,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f0f0999
+    sget v2, Lcom/res/provider/ResSTRING;->t_feedback_title:I
 
     .line 3
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -599,7 +599,7 @@
     .line 2
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f0f0997
+    sget v2, Lcom/res/provider/ResSTRING;->t_feedback_desc:I
 
     .line 3
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -613,7 +613,7 @@
     .line 4
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f0f0998
+    sget v2, Lcom/res/provider/ResSTRING;->t_feedback_remind:I
 
     .line 5
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1248,12 +1248,12 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f0f077f
+    sget v2, Lcom/res/provider/ResSTRING;->referral_beta:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0f077c
+    sget v2, Lcom/res/provider/ResSTRING;->referral:I
 
     :goto_0
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1615,7 +1615,7 @@
     .line 2
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    const v2, 0x7f0f08c2
+    sget v2, Lcom/res/provider/ResSTRING;->software_grade_url:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1652,7 +1652,7 @@
     .line 7
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    const p0, 0x7f0f06dd
+    sget p0, Lcom/res/provider/ResSTRING;->open_failed:I
 
     .line 8
     invoke-static {p0}, Lf/k/c/c/f;->n(I)V

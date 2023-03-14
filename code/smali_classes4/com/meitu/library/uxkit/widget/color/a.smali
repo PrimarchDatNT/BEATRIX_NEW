@@ -142,7 +142,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030002
+    sget v1, Lcom/res/provider/ResARRAY;->img_select_text_colors:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->obtainTypedArray(I)Landroid/content/res/TypedArray;
 

@@ -44,49 +44,49 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/rm;->M:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0907d7
+    sget v2, Lcom/res/provider/ResID;->viewBg:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090618
+    sget v2, Lcom/res/provider/ResID;->tab1_container:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090619
+    sget v2, Lcom/res/provider/ResID;->tab1_icon:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09061a
+    sget v2, Lcom/res/provider/ResID;->tab1_text:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09061b
+    sget v2, Lcom/res/provider/ResID;->tab2_container:I
 
     const/4 v3, 0x5
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09061c
+    sget v2, Lcom/res/provider/ResID;->tab2_icon:I
 
     const/4 v3, 0x6
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09061d
+    sget v2, Lcom/res/provider/ResID;->tab2_text:I
 
     const/4 v3, 0x7
 

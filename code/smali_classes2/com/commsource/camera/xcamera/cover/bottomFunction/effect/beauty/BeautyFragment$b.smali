@@ -118,7 +118,7 @@
 
     invoke-direct {v0}, Lcom/commsource/widget/dialog/s0/t$a;-><init>()V
 
-    const v1, 0x7f0f0920
+    sget v1, Lcom/res/provider/ResSTRING;->sure_to_reset_beauty:I
 
     .line 6
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -129,7 +129,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0f0212
+    sget v1, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 7
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -140,7 +140,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0f02d5
+    sget v1, Lcom/res/provider/ResSTRING;->dialog_confirm:I
 
     .line 8
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

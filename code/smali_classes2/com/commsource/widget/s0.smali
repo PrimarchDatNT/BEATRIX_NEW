@@ -109,7 +109,7 @@
 
     if-eqz v1, :cond_0
 
-    const v2, 0x7f10023d
+    sget v2, Lcom/res/provider/ResSTYLE;->alpha_in_animation:I
 
     invoke-virtual {v1, v2}, Landroid/view/Window;->setWindowAnimations(I)V
 
@@ -121,7 +121,7 @@
 
     if-eqz v1, :cond_1
 
-    const v2, 0x7f060224
+    sget v2, Lcom/res/provider/ResCOLOR;->transparent:I
 
     invoke-virtual {v1, v2}, Landroid/view/Window;->setBackgroundDrawableResource(I)V
 

@@ -323,7 +323,7 @@
 
     if-eqz v3, :cond_2
 
-    const v3, 0x7f100243
+    sget v3, Lcom/res/provider/ResSTYLE;->center_zoom_in_animation:I
 
     goto :goto_2
 

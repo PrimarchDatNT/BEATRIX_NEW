@@ -359,7 +359,7 @@
     .line 2
     new-instance v1, Lcom/commsource/comic/widget/c;
 
-    const v2, 0x7f10026a
+    sget v2, Lcom/res/provider/ResSTYLE;->updateDialog:I
 
     invoke-direct {v1, p0, v2}, Lcom/commsource/comic/widget/c;-><init>(Landroid/content/Context;I)V
 
@@ -920,7 +920,7 @@
     .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/sharelink/b;->p(Z)V
 
-    const v2, 0x7f0f09db
+    sget v2, Lcom/res/provider/ResSTRING;->t_image_saved:I
 
     .line 4
     invoke-static {v2}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
@@ -1168,7 +1168,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0c0034
+    sget v1, Lcom/res/provider/ResLAYOUT;->activity_image_studio:I
 
     .line 1
     invoke-static {p0, v1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
@@ -1644,7 +1644,7 @@
 
     sget-object v2, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
 
-    const v2, 0x7f0f09a9
+    sget v2, Lcom/res/provider/ResSTRING;->t_formula_update_content:I
 
     .line 40
     invoke-static {v2}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
@@ -2371,14 +2371,14 @@
 
     if-nez v1, :cond_3
 
-    const p1, 0x7f0f09df
+    sget p1, Lcom/res/provider/ResSTRING;->t_import_photo:I
 
     .line 4
     invoke-static {p1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object p1
 
-    const p2, 0x7f0f09de
+    sget p2, Lcom/res/provider/ResSTRING;->t_import:I
 
     .line 5
     invoke-static {p2}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
@@ -2390,7 +2390,7 @@
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/ImageStudioActivity$q0;-><init>(Lcom/commsource/studio/ImageStudioActivity;)V
 
-    const v2, 0x7f0f0820
+    sget v2, Lcom/res/provider/ResSTRING;->selfie_ai_cancel:I
 
     .line 7
     invoke-static {v2}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
@@ -2503,7 +2503,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0f0a31
+    sget p2, Lcom/res/provider/ResSTRING;->t_select_image_continues:I
 
     invoke-static {p2}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
@@ -2575,7 +2575,7 @@
 
     if-ne p1, p2, :cond_e
 
-    const p1, 0x7f0f0964
+    sget p1, Lcom/res/provider/ResSTRING;->t_edit_aibeauty_noface_tip_android:I
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2595,7 +2595,7 @@
 
     if-ne p1, p2, :cond_f
 
-    const p1, 0x7f0f096c
+    sget p1, Lcom/res/provider/ResSTRING;->t_edit_concealer_noface_tip:I
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2615,7 +2615,7 @@
 
     if-ne p1, p2, :cond_10
 
-    const p1, 0x7f0f0974
+    sget p1, Lcom/res/provider/ResSTRING;->t_edit_makeup_noface_tip:I
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2635,7 +2635,7 @@
 
     if-ne p1, p2, :cond_11
 
-    const p1, 0x7f0f097a
+    sget p1, Lcom/res/provider/ResSTRING;->t_edit_reshape_noface_tip:I
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2655,7 +2655,7 @@
 
     if-ne p1, p2, :cond_12
 
-    const p1, 0x7f0f0970
+    sget p1, Lcom/res/provider/ResSTRING;->t_edit_headscale_noface_tip:I
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2673,7 +2673,7 @@
 
     if-ne p1, p2, :cond_13
 
-    const p1, 0x7f0f0978
+    sget p1, Lcom/res/provider/ResSTRING;->t_edit_relight_noface_tip:I
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2693,7 +2693,7 @@
 
     if-ne p1, p2, :cond_14
 
-    const p1, 0x7f0f097d
+    sget p1, Lcom/res/provider/ResSTRING;->t_edit_strereo_noface_tip:I
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2713,7 +2713,7 @@
 
     if-ne p1, p2, :cond_15
 
-    const p1, 0x7f0f0975
+    sget p1, Lcom/res/provider/ResSTRING;->t_edit_narrownose_noface_tip:I
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2750,7 +2750,7 @@
 
     if-ne p1, v1, :cond_18
 
-    const p1, 0x7f0f0985
+    sget p1, Lcom/res/provider/ResSTRING;->t_edit_teethcorrection_noteeth_tip:I
 
     .line 28
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -4211,14 +4211,14 @@
 
     if-nez v1, :cond_19
 
-    const v1, 0x7f0f009a
+    sget v1, Lcom/res/provider/ResSTRING;->alert_dialog_img_edit_back_title:I
 
     .line 22
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0f034c
+    sget v2, Lcom/res/provider/ResSTRING;->exit:I
 
     .line 23
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -4230,7 +4230,7 @@
 
     invoke-direct {v3, p0}, Lcom/commsource/studio/ImageStudioActivity$p0;-><init>(Lcom/commsource/studio/ImageStudioActivity;)V
 
-    const v4, 0x7f0f0212
+    sget v4, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 25
     invoke-virtual {p0, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -4437,7 +4437,7 @@
 
     if-lt p1, v2, :cond_1
 
-    const p1, 0x7f0f08c0
+    sget p1, Lcom/res/provider/ResSTRING;->so_miss:I
 
     .line 9
     invoke-static {p1}, Lf/k/c/c/f;->h(I)V
@@ -4445,7 +4445,7 @@
     goto :goto_1
 
     :cond_1
-    const p1, 0x7f0f08bf
+    sget p1, Lcom/res/provider/ResSTRING;->so_load_fail:I
 
     .line 10
     invoke-static {p1}, Lf/k/c/c/f;->h(I)V

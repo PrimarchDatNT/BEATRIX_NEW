@@ -166,7 +166,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f090326
+    sget v5, Lcom/res/provider/ResID;->iv_fb_share_arrow:I
 
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

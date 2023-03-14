@@ -121,9 +121,9 @@
     .line 5
     const-class v3, Lcom/commsource/store/sticker/StickerStoreDetailFragment;
 
-    const v5, 0x7f01003c
+    sget v5, Lcom/res/provider/ResANIM;->slide_right_in:I
 
-    const v6, 0x7f010039
+    sget v6, Lcom/res/provider/ResANIM;->slide_left_out:I
 
     .line 6
     invoke-virtual/range {v1 .. v6}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->g(Landroid/view/View;Ljava/lang/Class;Landroid/os/Bundle;II)Lcom/commsource/beautyplus/i0/a;

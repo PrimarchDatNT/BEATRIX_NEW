@@ -75,7 +75,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f07c8
+    sget v2, Lcom/res/provider/ResSTRING;->save_image_failure:I
 
     if-eqz v1, :cond_5
 

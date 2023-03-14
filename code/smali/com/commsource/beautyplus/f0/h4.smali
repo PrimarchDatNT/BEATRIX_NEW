@@ -44,35 +44,35 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/h4;->K:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f09022f
+    sget v2, Lcom/res/provider/ResID;->fl_surface:I
 
     const/4 v3, 0x1
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09049f
+    sget v2, Lcom/res/provider/ResID;->preview_surface:I
 
     const/4 v3, 0x2
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09021e
+    sget v2, Lcom/res/provider/ResID;->fl_montage_enter:I
 
     const/4 v3, 0x3
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09043f
+    sget v2, Lcom/res/provider/ResID;->montage_enter_red_dot:I
 
     const/4 v3, 0x4
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0903e5
+    sget v2, Lcom/res/provider/ResID;->ll_montage_dress_tip:I
 
     const/4 v3, 0x5
 

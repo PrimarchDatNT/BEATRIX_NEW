@@ -1272,7 +1272,7 @@
 
     move-result v0
 
-    const v1, 0x7f0f08dc
+    sget v1, Lcom/res/provider/ResSTRING;->startup_advert_skip:I
 
     if-nez v0, :cond_1
 
@@ -1706,7 +1706,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0050
+    sget v2, Lcom/res/provider/ResSTRING;->ad_slot_launch_ad:I
 
     .line 2
     invoke-virtual {v1, v2}, Landroid/app/Application;->getString(I)Ljava/lang/String;

@@ -159,7 +159,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0c0166
+    sget v2, Lcom/res/provider/ResLAYOUT;->item_montage_group:I
 
     const/4 v3, 0x0
 

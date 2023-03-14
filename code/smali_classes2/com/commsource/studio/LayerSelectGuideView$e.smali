@@ -385,7 +385,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f09b8
+    sget v2, Lcom/res/provider/ResSTRING;->t_guide_imagelayer_drag:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 

@@ -121,7 +121,7 @@
 
     if-nez v1, :cond_0
 
-    const p1, 0x7f0f0a43
+    sget p1, Lcom/res/provider/ResSTRING;->t_style_face_detection:I
 
     .line 2
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V

@@ -330,7 +330,7 @@
 
     const/4 v1, 0x2
 
-    const v2, 0x7f0f07ad
+    sget v2, Lcom/res/provider/ResSTRING;->round:I
 
     if-eq p1, v1, :cond_3
 
@@ -352,7 +352,7 @@
     return v2
 
     :cond_0
-    const p1, 0x7f0f0434
+    sget p1, Lcom/res/provider/ResSTRING;->heart:I
 
     .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -360,7 +360,7 @@
     return p1
 
     :cond_1
-    const p1, 0x7f0f043e
+    sget p1, Lcom/res/provider/ResSTRING;->hexagon:I
 
     .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -368,7 +368,7 @@
     return p1
 
     :cond_2
-    const p1, 0x7f0f0acd
+    sget p1, Lcom/res/provider/ResSTRING;->triangle:I
 
     .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

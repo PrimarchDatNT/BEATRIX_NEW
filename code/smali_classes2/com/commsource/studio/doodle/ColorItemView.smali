@@ -405,7 +405,7 @@
     .line 10
     iget-object v4, p0, Lcom/commsource/studio/doodle/ColorItemView;->a:Landroid/graphics/Paint;
 
-    const v6, 0x7f060225
+    sget v6, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v6}, Lcom/commsource/util/u1;->b(I)I
 

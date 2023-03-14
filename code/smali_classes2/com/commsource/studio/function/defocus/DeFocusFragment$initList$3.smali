@@ -181,7 +181,7 @@
 
     invoke-static {p1, v2}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->O1(Lcom/commsource/studio/function/defocus/DeFocusFragment;Lcom/commsource/comic/widget/c;)V
 
-    const p1, 0x7f0f02f9
+    sget p1, Lcom/res/provider/ResSTRING;->download_failed:I
 
     .line 7
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

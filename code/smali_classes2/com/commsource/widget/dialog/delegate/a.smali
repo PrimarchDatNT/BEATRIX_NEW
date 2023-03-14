@@ -732,11 +732,11 @@
 
     move-result v0
 
-    const v15, 0x7f06005f
+    sget v15, Lcom/res/provider/ResCOLOR;->color_222222:I
 
-    const v16, 0x7f060008
+    sget v16, Lcom/res/provider/ResCOLOR;->Gray_C:I
 
-    const v17, 0x7f060225
+    sget v17, Lcom/res/provider/ResCOLOR;->white:I
 
     if-eq v0, v11, :cond_c
 
@@ -787,7 +787,7 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/c6;->d:Landroid/widget/ImageView;
 
-    const v3, 0x7f0802b3
+    sget v3, Lcom/res/provider/ResDRAWABLE;->premium_img_bg_diamond:I
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1869,7 +1869,7 @@
 
     if-nez v0, :cond_2d
 
-    const v0, 0x7f090675
+    sget v0, Lcom/res/provider/ResID;->tvNegative:I
 
     .line 94
     invoke-virtual {v4, v0}, Landroid/widget/TextView;->setId(I)V
@@ -1902,7 +1902,7 @@
 
     invoke-direct {v0}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
 
-    const v3, 0x7f060005
+    sget v3, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     .line 100
     invoke-static {v3}, Lcom/commsource/util/l0;->P(I)I
@@ -1927,7 +1927,7 @@
     goto :goto_15
 
     :cond_2e
-    const v0, 0x7f060005
+    sget v0, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     .line 104
     invoke-static {v0}, Lcom/commsource/util/l0;->P(I)I
@@ -1941,7 +1941,7 @@
 
     invoke-direct {v0}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
 
-    const v3, 0x7f060007
+    sget v3, Lcom/res/provider/ResCOLOR;->Gray_Background:I
 
     .line 106
     invoke-static {v3}, Lcom/commsource/util/l0;->P(I)I
@@ -1994,7 +1994,7 @@
 
     new-array v10, v12, [I
 
-    const v22, 0x7f06000e
+    sget v22, Lcom/res/provider/ResCOLOR;->Premium_Black:I
 
     .line 116
     invoke-static/range {v22 .. v22}, Lcom/commsource/util/l0;->P(I)I
@@ -2050,7 +2050,7 @@
     goto/16 :goto_16
 
     :cond_30
-    const v0, 0x7f090678
+    sget v0, Lcom/res/provider/ResID;->tvPositive:I
 
     .line 124
     invoke-virtual {v4, v0}, Landroid/widget/TextView;->setId(I)V
@@ -2070,7 +2070,7 @@
 
     if-eqz v14, :cond_31
 
-    const v3, 0x7f060034
+    sget v3, Lcom/res/provider/ResCOLOR;->black:I
 
     .line 128
     invoke-static {v3}, Lcom/commsource/util/l0;->P(I)I
@@ -2155,7 +2155,7 @@
 
     new-array v0, v0, [I
 
-    const v10, 0x7f060141
+    sget v10, Lcom/res/provider/ResCOLOR;->color_fd5a5c:I
 
     .line 138
     invoke-static {v10}, Lcom/commsource/util/l0;->P(I)I
@@ -2164,7 +2164,7 @@
 
     aput v10, v0, v13
 
-    const v10, 0x7f060145
+    sget v10, Lcom/res/provider/ResCOLOR;->color_fe537f:I
 
     invoke-static {v10}, Lcom/commsource/util/l0;->P(I)I
 
@@ -2172,7 +2172,7 @@
 
     aput v10, v0, v11
 
-    const v10, 0x7f060152
+    sget v10, Lcom/res/provider/ResCOLOR;->color_ff48b1:I
 
     invoke-static {v10}, Lcom/commsource/util/l0;->P(I)I
 
@@ -2302,7 +2302,7 @@
 
     const v10, 0x920a
 
-    const v15, 0x7f06005f
+    sget v15, Lcom/res/provider/ResCOLOR;->color_222222:I
 
     goto/16 :goto_14
 

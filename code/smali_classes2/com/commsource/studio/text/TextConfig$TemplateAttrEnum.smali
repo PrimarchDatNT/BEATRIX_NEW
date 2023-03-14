@@ -102,7 +102,7 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x7f0f099c
+    sget v5, Lcom/res/provider/ResSTRING;->t_fonts:I
 
     .line 1
     invoke-direct {v2, v3, v4, v4, v5}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;-><init>(Ljava/lang/String;III)V
@@ -117,7 +117,7 @@
 
     const/4 v4, 0x1
 
-    const v5, 0x7f0f0a6c
+    sget v5, Lcom/res/provider/ResSTRING;->t_text:I
 
     .line 2
     invoke-direct {v2, v3, v4, v4, v5}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;-><init>(Ljava/lang/String;III)V
@@ -132,7 +132,7 @@
 
     const/4 v4, 0x2
 
-    const v5, 0x7f0f0a40
+    sget v5, Lcom/res/provider/ResSTRING;->t_stroke:I
 
     .line 3
     invoke-direct {v2, v3, v4, v4, v5}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;-><init>(Ljava/lang/String;III)V
@@ -149,7 +149,7 @@
 
     const/4 v5, 0x5
 
-    const v6, 0x7f0f0938
+    sget v6, Lcom/res/provider/ResSTRING;->t_background:I
 
     .line 4
     invoke-direct {v2, v3, v4, v5, v6}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;-><init>(Ljava/lang/String;III)V
@@ -164,7 +164,7 @@
 
     const/4 v6, 0x4
 
-    const v7, 0x7f0f0a37
+    sget v7, Lcom/res/provider/ResSTRING;->t_shadow:I
 
     .line 5
     invoke-direct {v2, v3, v6, v6, v7}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;-><init>(Ljava/lang/String;III)V
@@ -177,7 +177,7 @@
 
     const-string v3, "Space"
 
-    const v6, 0x7f0f0a0b
+    sget v6, Lcom/res/provider/ResSTRING;->t_order:I
 
     .line 6
     invoke-direct {v2, v3, v5, v4, v6}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;-><init>(Ljava/lang/String;III)V

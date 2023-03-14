@@ -242,7 +242,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k0;->b:Lcom/commsource/studio/component/ConfirmCancelComponent;
 
-    const v2, 0x7f0f02f3
+    sget v2, Lcom/res/provider/ResSTRING;->doodle_pen:I
 
     invoke-static {v2}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 

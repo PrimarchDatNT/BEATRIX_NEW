@@ -762,7 +762,7 @@
     goto :goto_0
 
     :pswitch_0
-    const p1, 0x7f0f08e4
+    sget p1, Lcom/res/provider/ResSTRING;->sticker_300003:I
 
     .line 1
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -772,7 +772,7 @@
     goto :goto_0
 
     :pswitch_1
-    const p1, 0x7f0f08e3
+    sget p1, Lcom/res/provider/ResSTRING;->sticker_300002:I
 
     .line 2
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -782,7 +782,7 @@
     goto :goto_0
 
     :pswitch_2
-    const p1, 0x7f0f08e2
+    sget p1, Lcom/res/provider/ResSTRING;->sticker_300001:I
 
     .line 3
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

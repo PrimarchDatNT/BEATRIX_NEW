@@ -176,7 +176,7 @@
 
     if-eqz p5, :cond_0
 
-    const p2, 0x7f060005
+    sget p2, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     .line 1
     invoke-static {p2}, Lcom/commsource/util/l0;->P(I)I
@@ -188,7 +188,7 @@
 
     if-eqz p4, :cond_1
 
-    const p3, 0x7f060006
+    sget p3, Lcom/res/provider/ResCOLOR;->Gray_B:I
 
     invoke-static {p3}, Lcom/commsource/util/l0;->P(I)I
 

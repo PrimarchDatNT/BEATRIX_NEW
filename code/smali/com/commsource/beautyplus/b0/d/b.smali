@@ -107,7 +107,7 @@
 .method protected d()Ljava/lang/String;
     .locals 1
 
-    const v0, 0x7f0f069a
+    sget v0, Lcom/res/provider/ResSTRING;->new_score_content:I
 
     .line 1
     invoke-static {v0}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;

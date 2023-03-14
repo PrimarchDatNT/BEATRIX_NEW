@@ -469,7 +469,7 @@
     .line 23
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->i0:Landroid/app/Activity;
 
-    const p2, 0x7f0f0364
+    sget p2, Lcom/res/provider/ResSTRING;->failed_to_load:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -477,7 +477,7 @@
 
     iget-object p2, p0, Lcom/commsource/widget/dialog/p0;->i0:Landroid/app/Activity;
 
-    const v1, 0x7f0f06d1
+    sget v1, Lcom/res/provider/ResSTRING;->ok:I
 
     .line 24
     invoke-virtual {p2, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -582,7 +582,7 @@
     .line 2
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->e0:Landroid/widget/TextView;
 
-    const v3, 0x7f0f039b
+    sget v3, Lcom/res/provider/ResSTRING;->filter_iap_purchase:I
 
     invoke-virtual {p0, v3}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -640,7 +640,7 @@
     .line 10
     iget-object v4, p0, Lcom/commsource/widget/dialog/p0;->e0:Landroid/widget/TextView;
 
-    const v5, 0x7f0f039c
+    sget v5, Lcom/res/provider/ResSTRING;->filter_iap_purchase_for:I
 
     invoke-virtual {p0, v5}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -745,7 +745,7 @@
     .line 2
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->i0:Landroid/app/Activity;
 
-    const v1, 0x7f0f07a5
+    sget v1, Lcom/res/provider/ResSTRING;->restored:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -790,7 +790,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0f0b15
+    sget p1, Lcom/res/provider/ResSTRING;->web_net_error:I
 
     .line 4
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
@@ -798,7 +798,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f0f0b0e
+    sget p1, Lcom/res/provider/ResSTRING;->wait:I
 
     .line 5
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
@@ -809,7 +809,7 @@
     :cond_3
     iget-object p1, p0, Lcom/commsource/widget/dialog/p0;->i0:Landroid/app/Activity;
 
-    const v1, 0x7f0f06c8
+    sget v1, Lcom/res/provider/ResSTRING;->not_subs_no_restore:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -1155,7 +1155,7 @@
 
     const/4 p1, 0x1
 
-    const v1, 0x7f100251
+    sget v1, Lcom/res/provider/ResSTYLE;->fullScreenDialog:I
 
     .line 2
     invoke-virtual {p0, p1, v1}, Lcom/commsource/widget/dialog/i0;->setStyle(II)V
@@ -1198,7 +1198,7 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v0, 0x7f0c00cc
+    sget v0, Lcom/res/provider/ResLAYOUT;->dialog_purchase_prompt:I
 
     const/4 v1, 0x0
 
@@ -1268,7 +1268,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f090197
+    sget v1, Lcom/res/provider/ResID;->dialog_video_view:I
 
     .line 1
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1277,7 +1277,7 @@
 
     check-cast v1, Lcom/commsource/widget/VideoPlayView;
 
-    const v2, 0x7f090192
+    sget v2, Lcom/res/provider/ResID;->dialog_first_frame:I
 
     .line 2
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1288,7 +1288,7 @@
 
     iput-object v2, p0, Lcom/commsource/widget/dialog/p0;->Z:Landroid/widget/ImageView;
 
-    const v2, 0x7f0905f7
+    sget v2, Lcom/res/provider/ResID;->subtitle:I
 
     .line 3
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1297,7 +1297,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0907ec
+    sget v3, Lcom/res/provider/ResID;->watch_video_container:I
 
     .line 4
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1308,7 +1308,7 @@
 
     iput-object v3, p0, Lcom/commsource/widget/dialog/p0;->a0:Landroid/widget/FrameLayout;
 
-    const v3, 0x7f0907ee
+    sget v3, Lcom/res/provider/ResID;->watch_video_tv:I
 
     .line 5
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1319,7 +1319,7 @@
 
     iput-object v3, p0, Lcom/commsource/widget/dialog/p0;->b0:Landroid/widget/TextView;
 
-    const v3, 0x7f0907ed
+    sget v3, Lcom/res/provider/ResID;->watch_video_loading:I
 
     .line 6
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1330,7 +1330,7 @@
 
     iput-object v3, p0, Lcom/commsource/widget/dialog/p0;->c0:Lcom/commsource/widget/LoadingView;
 
-    const v3, 0x7f0904c2
+    sget v3, Lcom/res/provider/ResID;->purchase_container:I
 
     .line 7
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1341,7 +1341,7 @@
 
     iput-object v3, p0, Lcom/commsource/widget/dialog/p0;->d0:Landroid/widget/RelativeLayout;
 
-    const v3, 0x7f0900e8
+    sget v3, Lcom/res/provider/ResID;->btn_purchase:I
 
     .line 8
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1352,7 +1352,7 @@
 
     iput-object v3, p0, Lcom/commsource/widget/dialog/p0;->e0:Landroid/widget/TextView;
 
-    const v3, 0x7f0904c3
+    sget v3, Lcom/res/provider/ResID;->purchase_loading:I
 
     .line 9
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1363,7 +1363,7 @@
 
     iput-object v3, p0, Lcom/commsource/widget/dialog/p0;->f0:Landroid/widget/ProgressBar;
 
-    const v3, 0x7f0900af
+    sget v3, Lcom/res/provider/ResID;->bling_view:I
 
     .line 10
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1374,7 +1374,7 @@
 
     iput-object v3, p0, Lcom/commsource/widget/dialog/p0;->g0:Lcom/commsource/widget/BeautyBlingView;
 
-    const v3, 0x7f0900ea
+    sget v3, Lcom/res/provider/ResID;->btn_restore:I
 
     .line 11
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1383,7 +1383,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0900df
+    sget v4, Lcom/res/provider/ResID;->btn_cancel:I
 
     .line 12
     invoke-virtual {p1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;

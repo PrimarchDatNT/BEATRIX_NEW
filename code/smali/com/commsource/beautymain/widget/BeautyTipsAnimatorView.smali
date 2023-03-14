@@ -617,7 +617,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08009b
+    sget v2, Lcom/res/provider/ResDRAWABLE;->beauty_tips_view_ic:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -727,7 +727,7 @@
 
     move-result-object v1
 
-    const v6, 0x7f070059
+    sget v6, Lcom/res/provider/ResDIMEN;->beauty_help_tip_text_size:I
 
     invoke-virtual {v1, v6}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

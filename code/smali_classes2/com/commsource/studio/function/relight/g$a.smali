@@ -79,7 +79,7 @@
 
     const-string v4, "light1001"
 
-    const v5, 0x7f0f09d3
+    sget v5, Lcom/res/provider/ResSTRING;->t_highlight_ring_light:I
 
     const-string v6, ""
 
@@ -94,7 +94,7 @@
 
     const-string v4, "light1002"
 
-    const v5, 0x7f0f09d2
+    sget v5, Lcom/res/provider/ResSTRING;->t_highlight_rembrandt:I
 
     invoke-direct {v3, v4, v5, v6}, Lcom/commsource/studio/function/relight/b;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
@@ -107,7 +107,7 @@
 
     const-string v4, "light1003"
 
-    const v5, 0x7f0f09c9
+    sget v5, Lcom/res/provider/ResSTRING;->t_highlight_butterfly:I
 
     invoke-direct {v3, v4, v5, v6}, Lcom/commsource/studio/function/relight/b;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
@@ -120,7 +120,7 @@
 
     const-string v4, "light1004"
 
-    const v5, 0x7f0f09c7
+    sget v5, Lcom/res/provider/ResSTRING;->t_highlight_backlight:I
 
     invoke-direct {v3, v4, v5, v6}, Lcom/commsource/studio/function/relight/b;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
@@ -133,7 +133,7 @@
 
     const-string v4, "light1005"
 
-    const v5, 0x7f0f09d0
+    sget v5, Lcom/res/provider/ResSTRING;->t_highlight_neon:I
 
     const-string v6, "01"
 

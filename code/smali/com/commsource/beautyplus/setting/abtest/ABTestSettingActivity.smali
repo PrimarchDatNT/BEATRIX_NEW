@@ -422,7 +422,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f0900e1
+    sget v1, Lcom/res/provider/ResID;->btn_close_test:I
 
     .line 1
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -941,7 +941,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f090298
+    sget v1, Lcom/res/provider/ResID;->ibtn_left:I
 
     .line 1
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -961,7 +961,7 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0906e0
+    sget v1, Lcom/res/provider/ResID;->tv_gid:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -988,7 +988,7 @@
 
     if-nez v1, :cond_1
 
-    const v1, 0x7f090716
+    sget v1, Lcom/res/provider/ResID;->tv_oversea_gid:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1015,7 +1015,7 @@
 
     if-nez v1, :cond_2
 
-    const v1, 0x7f0906d8
+    sget v1, Lcom/res/provider/ResID;->tv_firebase_id:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1097,7 +1097,7 @@
 
     if-nez v2, :cond_3
 
-    const v2, 0x7f090693
+    sget v2, Lcom/res/provider/ResID;->tv_android_id:I
 
     .line 10
     invoke-virtual {p0, v2}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1660,7 +1660,7 @@
 
     move-result p1
 
-    const v1, 0x7f090298
+    sget v1, Lcom/res/provider/ResID;->ibtn_left:I
 
     if-eq p1, v1, :cond_0
 
@@ -1687,7 +1687,7 @@
     .line 1
     invoke-super {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c001d
+    sget p1, Lcom/res/provider/ResLAYOUT;->activity_abtest_setting:I
 
     .line 2
     invoke-static {p0, p1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;

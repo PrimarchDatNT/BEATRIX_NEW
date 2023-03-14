@@ -153,7 +153,7 @@
 
     move-result v3
 
-    const v4, 0x7f0f04f9
+    sget v4, Lcom/res/provider/ResSTRING;->if_look_normal:I
 
     const/4 v5, 0x6
 
@@ -194,7 +194,7 @@
 
     const/4 v9, 0x4
 
-    const v10, 0x7f0f0310
+    sget v10, Lcom/res/provider/ResSTRING;->edit_icon_layers_delete:I
 
     invoke-direct {v8, v9, v10}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;-><init>(II)V
 

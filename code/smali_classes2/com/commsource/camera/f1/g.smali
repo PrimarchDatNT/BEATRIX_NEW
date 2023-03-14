@@ -113,7 +113,7 @@
 
     if-eqz v1, :cond_0
 
-    const p1, 0x7f0f0a03
+    sget p1, Lcom/res/provider/ResSTRING;->t_not_support_material_tip:I
 
     .line 2
     invoke-static {p1}, Lf/k/c/c/f;->h(I)V
@@ -208,7 +208,7 @@
 
     if-eqz v2, :cond_0
 
-    const p1, 0x7f0f0a03
+    sget p1, Lcom/res/provider/ResSTRING;->t_not_support_material_tip:I
 
     .line 2
     invoke-static {p1}, Lf/k/c/c/f;->h(I)V

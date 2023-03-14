@@ -208,7 +208,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0f0426
+    sget v4, Lcom/res/provider/ResSTRING;->hair_cancel:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -274,7 +274,7 @@
 
     move-result-object v2
 
-    const v1, 0x7f0f02bc
+    sget v1, Lcom/res/provider/ResSTRING;->cur_filter_no_support_makeup:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

@@ -44,49 +44,49 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/t1;->O:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0901ee
+    sget v2, Lcom/res/provider/ResID;->flDoodleBg:I
 
     const/4 v3, 0x3
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901ef
+    sget v2, Lcom/res/provider/ResID;->flDoodleItem:I
 
     const/4 v3, 0x4
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902fb
+    sget v2, Lcom/res/provider/ResID;->ivThumb:I
 
     const/4 v3, 0x5
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0902ee
+    sget v2, Lcom/res/provider/ResID;->ivColorRing:I
 
     const/4 v3, 0x6
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901a7
+    sget v2, Lcom/res/provider/ResID;->doodle_collect:I
 
     const/4 v3, 0x7
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0901a9
+    sget v2, Lcom/res/provider/ResID;->doodle_ripple:I
 
     const/16 v3, 0x8
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09012f
+    sget v2, Lcom/res/provider/ResID;->click_hand:I
 
     const/16 v3, 0x9
 
@@ -295,7 +295,7 @@
 
     const/4 v4, 0x0
 
-    const v0, 0x7f060124
+    sget v0, Lcom/res/provider/ResCOLOR;->color_f2f1f1:I
 
     invoke-static {v3, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -322,7 +322,7 @@
 
     const/4 v14, 0x0
 
-    const v0, 0x7f060225
+    sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v13, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 
@@ -332,7 +332,7 @@
 
     iget-object v0, v1, Lcom/commsource/beautyplus/f0/s1;->d:Lcom/commsource/widget/AutoFitTextView;
 
-    const v3, 0x7f06013a
+    sget v3, Lcom/res/provider/ResCOLOR;->color_fb5986:I
 
     invoke-static {v0, v3}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

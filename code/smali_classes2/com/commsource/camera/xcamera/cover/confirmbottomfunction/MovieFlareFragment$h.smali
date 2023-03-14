@@ -113,7 +113,7 @@
 
     invoke-virtual {v1}, Lcom/commsource/widget/h1/e;->p()V
 
-    const v1, 0x7f060225
+    sget v1, Lcom/res/provider/ResCOLOR;->white:I
 
     if-eqz v0, :cond_0
 
@@ -144,7 +144,7 @@
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/o9;->b:Lcom/commsource/widget/IconFrontView;
 
-    const v3, 0x7f060005
+    sget v3, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->b(I)I
 
@@ -176,7 +176,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f06003d
+    sget v0, Lcom/res/provider/ResCOLOR;->black70:I
 
     invoke-static {v0}, Lcom/commsource/util/u1;->b(I)I
 

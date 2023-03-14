@@ -1635,7 +1635,7 @@
 
     const/4 v2, 0x3
 
-    const v3, 0x7f06003d
+    sget v3, Lcom/res/provider/ResCOLOR;->black70:I
 
     if-ne v1, v2, :cond_1
 
@@ -1659,7 +1659,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w6;->P:Landroid/view/View;
 
-    const v1, 0x7f06003e
+    sget v1, Lcom/res/provider/ResCOLOR;->black80:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 
@@ -1677,7 +1677,7 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f06006b
+    sget v2, Lcom/res/provider/ResCOLOR;->color_333333:I
 
     if-ne p1, v1, :cond_2
 
@@ -1719,7 +1719,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f060081
+    sget v1, Lcom/res/provider/ResCOLOR;->color_4d4d4d:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 
@@ -2515,7 +2515,7 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v0, 0x7f0c00d9
+    sget v0, Lcom/res/provider/ResLAYOUT;->fragment_ar:I
 
     const/4 v1, 0x0
 

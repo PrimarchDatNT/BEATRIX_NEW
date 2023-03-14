@@ -692,9 +692,9 @@
 
     move-result-object v1
 
-    const v2, 0x7f010019
+    sget v2, Lcom/res/provider/ResANIM;->beauty_right_menu_up:I
 
-    const v3, 0x7f010018
+    sget v3, Lcom/res/provider/ResANIM;->beauty_right_menu_down:I
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroidx/fragment/app/FragmentTransaction;->setCustomAnimations(II)Landroidx/fragment/app/FragmentTransaction;
@@ -1110,9 +1110,9 @@
 
     move-result p1
 
-    const p3, 0x7f010018
+    sget p3, Lcom/res/provider/ResANIM;->beauty_right_menu_down:I
 
-    const v1, 0x7f010019
+    sget v1, Lcom/res/provider/ResANIM;->beauty_right_menu_up:I
 
     if-eqz p1, :cond_2
 
@@ -1162,7 +1162,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f090225
+    sget p3, Lcom/res/provider/ResID;->fl_right:I
 
     .line 13
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->m0:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;

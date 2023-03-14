@@ -25,7 +25,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/view/ViewGroup;)V
     .locals 2
 
-    const v0, 0x7f0c0144
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_easy_function:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V

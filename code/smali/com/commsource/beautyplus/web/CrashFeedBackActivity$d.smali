@@ -243,7 +243,7 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/EditText;->setSelection(I)V
 
-    const p1, 0x7f0f009d
+    sget p1, Lcom/res/provider/ResSTRING;->alert_words_limit:I
 
     .line 9
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

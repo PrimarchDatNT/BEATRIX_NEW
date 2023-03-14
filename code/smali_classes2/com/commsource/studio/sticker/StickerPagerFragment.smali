@@ -453,7 +453,7 @@
     .line 15
     new-instance v6, Lcom/commsource/studio/sticker/f;
 
-    const v7, 0x7f0801aa
+    sget v7, Lcom/res/provider/ResDRAWABLE;->edit_sticker_icon_custom:I
 
     invoke-direct {v6, v7}, Lcom/commsource/studio/sticker/f;-><init>(I)V
 

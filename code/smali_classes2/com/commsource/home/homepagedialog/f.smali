@@ -442,7 +442,7 @@
     goto :goto_0
 
     :catch_0
-    const v1, 0x7f0f06dd
+    sget v1, Lcom/res/provider/ResSTRING;->open_failed:I
 
     .line 5
     invoke-static {v1}, Lf/k/c/c/f;->h(I)V

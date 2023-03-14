@@ -238,7 +238,7 @@
 
     if-nez p2, :cond_1
 
-    const p1, 0x7f0f033f
+    sget p1, Lcom/res/provider/ResSTRING;->error_network:I
 
     .line 3
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V
@@ -1111,7 +1111,7 @@
 
     if-eqz v1, :cond_4
 
-    const p1, 0x7f0f03ed
+    sget p1, Lcom/res/provider/ResSTRING;->gdpr_not_support:I
 
     .line 20
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V
@@ -1217,7 +1217,7 @@
     goto :goto_0
 
     :cond_7
-    const p1, 0x7f0f0364
+    sget p1, Lcom/res/provider/ResSTRING;->failed_to_load:I
 
     .line 34
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V

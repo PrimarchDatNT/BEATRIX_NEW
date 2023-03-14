@@ -301,7 +301,7 @@
 
     iput-boolean p2, p0, Lcom/commsource/widget/title/XTitleBar;->b:Z
 
-    const p2, 0x7f060010
+    sget p2, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
     .line 9
     invoke-static {p2}, Lcom/meitu/library/p/d/b;->d(I)I
@@ -711,7 +711,7 @@
     invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
 
     :cond_2
-    const v3, 0x7f060225
+    sget v3, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v3}, Lcom/commsource/util/l0;->P(I)I
 
@@ -727,7 +727,7 @@
     invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
 
     :cond_3
-    const v3, 0x7f060034
+    sget v3, Lcom/res/provider/ResCOLOR;->black:I
 
     invoke-static {v3}, Lcom/commsource/util/l0;->P(I)I
 
@@ -778,7 +778,7 @@
     invoke-static {}, Lkotlin/jvm/internal/f0;->L()V
 
     :cond_5
-    const v3, 0x7f06000a
+    sget v3, Lcom/res/provider/ResCOLOR;->Gray_Dashline:I
 
     invoke-static {v3}, Lcom/commsource/util/l0;->P(I)I
 
@@ -1441,7 +1441,7 @@
 
     move-result p2
 
-    const v1, 0x7f07016c
+    sget v1, Lcom/res/provider/ResDIMEN;->top_bar_height:I
 
     if-eqz p2, :cond_4
 

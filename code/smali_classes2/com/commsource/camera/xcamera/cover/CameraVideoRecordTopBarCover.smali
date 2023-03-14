@@ -846,14 +846,14 @@
 
     const/4 v1, 0x0
 
-    const p1, 0x7f0f0922
+    sget p1, Lcom/res/provider/ResSTRING;->sure_want_to_discard_video:I
 
     .line 4
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const p1, 0x7f0f06d1
+    sget p1, Lcom/res/provider/ResSTRING;->ok:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -864,7 +864,7 @@
 
     invoke-direct {v4, p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$d;-><init>(Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;)V
 
-    const p1, 0x7f0f0212
+    sget p1, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 6
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -939,7 +939,7 @@
 
     move-result-object v1
 
-    const p1, 0x7f0f0924
+    sget p1, Lcom/res/provider/ResSTRING;->switching_camera_lenses_is_not_supported:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -1074,14 +1074,14 @@
 
     const/4 v3, 0x0
 
-    const p1, 0x7f0f0922
+    sget p1, Lcom/res/provider/ResSTRING;->sure_want_to_discard_video:I
 
     .line 4
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const p1, 0x7f0f06d1
+    sget p1, Lcom/res/provider/ResSTRING;->ok:I
 
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -1092,7 +1092,7 @@
 
     invoke-direct {v6, p0}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$e;-><init>(Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;)V
 
-    const p1, 0x7f0f0212
+    sget p1, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 6
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1135,7 +1135,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c0090
+    sget v0, Lcom/res/provider/ResLAYOUT;->cover_camera_video_record_top_bar:I
 
     return v0
 .end method

@@ -44,7 +44,7 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/rd;->f:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0901ba
+    sget v2, Lcom/res/provider/ResID;->emptyTemplate:I
 
     const/4 v3, 0x1
 
@@ -163,7 +163,7 @@
 
     const/4 v3, 0x0
 
-    const v0, 0x7f060007
+    sget v0, Lcom/res/provider/ResCOLOR;->Gray_Background:I
 
     invoke-static {v2, v0}, Landroidx/databinding/ViewDataBinding;->getColorFromResource(Landroid/view/View;I)I
 

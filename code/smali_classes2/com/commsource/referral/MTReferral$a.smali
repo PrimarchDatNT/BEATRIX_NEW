@@ -373,7 +373,7 @@
     .line 23
     invoke-virtual {v1, v4}, Landroid/content/ClipboardManager;->setPrimaryClip(Landroid/content/ClipData;)V
 
-    const v1, 0x7f0f087d
+    sget v1, Lcom/res/provider/ResSTRING;->share_copy_link:I
 
     .line 24
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

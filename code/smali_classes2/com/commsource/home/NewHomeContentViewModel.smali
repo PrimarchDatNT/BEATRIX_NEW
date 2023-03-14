@@ -900,7 +900,7 @@
 
     if-eqz p2, :cond_1
 
-    const v0, 0x7f0f004f
+    sget v0, Lcom/res/provider/ResSTRING;->ad_slot_banner_topbanner:I
 
     invoke-static {v0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -940,7 +940,7 @@
 
     if-eqz p2, :cond_3
 
-    const p3, 0x7f0f004e
+    sget p3, Lcom/res/provider/ResSTRING;->ad_slot_banner_newhome_tb_no_test_s:I
 
     invoke-static {p3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

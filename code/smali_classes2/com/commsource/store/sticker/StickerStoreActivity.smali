@@ -523,7 +523,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0904d6
+    sget v3, Lcom/res/provider/ResID;->refreshIcon:I
 
     const-string v4, "error"
 
@@ -1126,9 +1126,9 @@
 
     const-class v2, Lcom/commsource/store/sticker/StickerStoreDetailFragment;
 
-    const v3, 0x7f010038
+    sget v3, Lcom/res/provider/ResANIM;->slide_left_in:I
 
-    const v4, 0x7f01003d
+    sget v4, Lcom/res/provider/ResANIM;->slide_right_out:I
 
     invoke-virtual {v1, v2, v3, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->d(Ljava/lang/Class;II)Z
 
@@ -1221,14 +1221,14 @@
     .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f01003c
+    sget p1, Lcom/res/provider/ResANIM;->slide_right_in:I
 
-    const v1, 0x7f010039
+    sget v1, Lcom/res/provider/ResANIM;->slide_left_out:I
 
     .line 2
     invoke-virtual {p0, p1, v1}, Landroid/app/Activity;->overridePendingTransition(II)V
 
-    const p1, 0x7f0c003f
+    sget p1, Lcom/res/provider/ResLAYOUT;->activity_sticker_shop:I
 
     .line 3
     invoke-static {p0, p1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;

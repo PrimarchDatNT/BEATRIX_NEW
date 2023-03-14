@@ -63,7 +63,7 @@
 
     if-eqz p3, :cond_0
 
-    const p1, 0x7f0f058a
+    sget p1, Lcom/res/provider/ResSTRING;->link_not_correct:I
 
     .line 3
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
@@ -121,7 +121,7 @@
     :goto_0
     invoke-static {p4, p1, p3, p5}, Lcom/commsource/util/common/FileDownloader;->d(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/BroadcastReceiver;)V
 
-    const p1, 0x7f0f02fc
+    sget p1, Lcom/res/provider/ResSTRING;->downloading:I
 
     .line 9
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
@@ -136,7 +136,7 @@
     .line 10
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    const p1, 0x7f0f02f9
+    sget p1, Lcom/res/provider/ResSTRING;->download_failed:I
 
     .line 11
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V

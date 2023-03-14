@@ -3027,7 +3027,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0f02bc
+    sget p1, Lcom/res/provider/ResSTRING;->cur_filter_no_support_makeup:I
 
     .line 3
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

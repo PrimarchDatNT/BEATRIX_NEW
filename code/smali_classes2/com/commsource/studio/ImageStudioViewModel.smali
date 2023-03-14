@@ -7077,7 +7077,7 @@
 
     move-result p1
 
-    const v1, 0x7f0f09f2
+    sget v1, Lcom/res/provider/ResSTRING;->t_layers_limited:I
 
     if-eqz p1, :cond_1
 

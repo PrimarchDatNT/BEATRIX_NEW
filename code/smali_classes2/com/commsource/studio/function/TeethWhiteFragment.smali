@@ -568,7 +568,7 @@
 
     if-eqz v2, :cond_5
 
-    const v2, 0x7f0f0a79
+    sget v2, Lcom/res/provider/ResSTRING;->t_toast_beauty_whiten_teeth:I
 
     .line 6
     invoke-static {v2}, Lf/k/c/c/f;->r(I)V
@@ -1549,7 +1549,7 @@
     :cond_6
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/cb;->a:Lcom/commsource/studio/component/AutoManualComponent;
 
-    const v1, 0x7f0f0966
+    sget v1, Lcom/res/provider/ResSTRING;->t_edit_auto_noteeth_tip:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 

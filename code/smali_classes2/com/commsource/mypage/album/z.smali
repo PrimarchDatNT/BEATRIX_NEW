@@ -184,7 +184,7 @@
 
     check-cast v1, Lcom/bumptech/glide/request/g;
 
-    const v3, 0x7f080166
+    sget v3, Lcom/res/provider/ResDRAWABLE;->edit_album_icon_placeholder:I
 
     .line 8
     invoke-virtual {v1, v3}, Lcom/bumptech/glide/request/a;->w0(I)Lcom/bumptech/glide/request/a;
@@ -827,7 +827,7 @@
 
     iget-object p2, p0, Lcom/commsource/mypage/album/z;->b:Landroid/app/Activity;
 
-    const v2, 0x7f0f0b26
+    sget v2, Lcom/res/provider/ResSTRING;->x_photos:I
 
     new-array v5, v5, [Ljava/lang/Object;
 
@@ -1219,7 +1219,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f0c0175
+    sget v2, Lcom/res/provider/ResLAYOUT;->item_photo_count:I
 
     invoke-static {p2, v2, p1, v1}, Landroidx/databinding/DataBindingUtil;->inflate(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroidx/databinding/ViewDataBinding;
 
@@ -1249,7 +1249,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f0c0176
+    sget v2, Lcom/res/provider/ResLAYOUT;->item_photo_date:I
 
     invoke-static {p2, v2, p1, v1}, Landroidx/databinding/DataBindingUtil;->inflate(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroidx/databinding/ViewDataBinding;
 
@@ -1275,7 +1275,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f0c016b
+    sget v2, Lcom/res/provider/ResLAYOUT;->item_my_page_album:I
 
     invoke-static {p2, v2, p1, v1}, Landroidx/databinding/DataBindingUtil;->inflate(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroidx/databinding/ViewDataBinding;
 

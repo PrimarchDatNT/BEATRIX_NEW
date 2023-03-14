@@ -39,77 +39,77 @@
 
     sput-object v1, Lcom/commsource/beautyplus/f0/l6;->R:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f090373
+    sget v2, Lcom/res/provider/ResID;->iv_shortcut_guide_close:I
 
     const/4 v3, 0x2
 
     .line 3
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090177
+    sget v2, Lcom/res/provider/ResID;->ctl_shortcut_guide:I
 
     const/4 v3, 0x3
 
     .line 4
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090741
+    sget v2, Lcom/res/provider/ResID;->tv_shortcut_guide_title:I
 
     const/4 v3, 0x4
 
     .line 5
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090374
+    sget v2, Lcom/res/provider/ResID;->iv_shortcut_guide_icon:I
 
     const/4 v3, 0x5
 
     .line 6
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09073d
+    sget v2, Lcom/res/provider/ResID;->tv_shortcut_guide_no_ads:I
 
     const/4 v3, 0x6
 
     .line 7
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09073e
+    sget v2, Lcom/res/provider/ResID;->tv_shortcut_guide_no_ads_explain:I
 
     const/4 v3, 0x7
 
     .line 8
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090375
+    sget v2, Lcom/res/provider/ResID;->iv_shortcut_guide_no_ads:I
 
     const/16 v3, 0x8
 
     .line 9
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f09073f
+    sget v2, Lcom/res/provider/ResID;->tv_shortcut_guide_quick_find:I
 
     const/16 v3, 0x9
 
     .line 10
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090740
+    sget v2, Lcom/res/provider/ResID;->tv_shortcut_guide_quick_find_explain:I
 
     const/16 v3, 0xa
 
     .line 11
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f090376
+    sget v2, Lcom/res/provider/ResID;->iv_shortcut_guide_quick_find:I
 
     const/16 v3, 0xb
 
     .line 12
     invoke-virtual {v1, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0900f2
+    sget v2, Lcom/res/provider/ResID;->btn_shortcut_try:I
 
     const/16 v3, 0xc
 

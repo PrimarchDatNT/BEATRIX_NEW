@@ -110,7 +110,7 @@
 
     invoke-static {v2, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v3, 0x7f060007
+    sget v3, Lcom/res/provider/ResCOLOR;->Gray_Background:I
 
     invoke-static {v3}, Lcom/commsource/util/l0;->P(I)I
 
@@ -118,7 +118,7 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/widget/round/a;->q(I)V
 
-    const v2, 0x7f090508
+    sget v2, Lcom/res/provider/ResID;->rl_content:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setId(I)V
@@ -128,7 +128,7 @@
 
     invoke-direct {v2, p1}, Lcom/commsource/widget/IconFrontView;-><init>(Landroid/content/Context;)V
 
-    const p1, 0x7f0902b0
+    sget p1, Lcom/res/provider/ResID;->ifv_icon:I
 
     .line 6
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setId(I)V
@@ -138,7 +138,7 @@
     .line 7
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setGravity(I)V
 
-    const v3, 0x7f060005
+    sget v3, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     .line 8
     invoke-static {v3}, Lcom/commsource/util/l0;->P(I)I

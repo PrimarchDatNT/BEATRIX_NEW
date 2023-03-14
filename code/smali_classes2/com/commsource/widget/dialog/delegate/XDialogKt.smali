@@ -220,7 +220,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f0f0212
+    sget p1, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 1
     invoke-static {p1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -316,7 +316,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f0f06d1
+    sget p1, Lcom/res/provider/ResSTRING;->ok:I
 
     .line 1
     invoke-static {p1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -819,7 +819,7 @@
 
     invoke-static {p0, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f100269
+    sget v1, Lcom/res/provider/ResSTYLE;->up_down_animation:I
 
     .line 1
     invoke-virtual {p0, v1}, Lcom/commsource/widget/dialog/delegate/d/a;->q(I)V
@@ -892,7 +892,7 @@
 
     invoke-static {p0, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f100243
+    sget v1, Lcom/res/provider/ResSTYLE;->center_zoom_in_animation:I
 
     .line 1
     invoke-virtual {p0, v1}, Lcom/commsource/widget/dialog/delegate/d/a;->q(I)V

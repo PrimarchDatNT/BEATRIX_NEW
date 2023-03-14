@@ -248,7 +248,7 @@
     .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
-    const p2, 0x7f090508
+    sget p2, Lcom/res/provider/ResID;->rl_content:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -265,7 +265,7 @@
     .line 3
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
-    const p2, 0x7f090086
+    sget p2, Lcom/res/provider/ResID;->ar_material_item_iv:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -282,7 +282,7 @@
     .line 4
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
-    const p2, 0x7f0905a3
+    sget p2, Lcom/res/provider/ResID;->select_iv:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -297,7 +297,7 @@
     .line 5
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
-    const p2, 0x7f090367
+    sget p2, Lcom/res/provider/ResID;->iv_red:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -312,7 +312,7 @@
     .line 6
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
-    const p2, 0x7f0904a6
+    sget p2, Lcom/res/provider/ResID;->progress:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -329,7 +329,7 @@
     .line 7
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
-    const p2, 0x7f09036a
+    sget p2, Lcom/res/provider/ResID;->iv_right:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -346,7 +346,7 @@
     .line 8
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
-    const p2, 0x7f090349
+    sget p2, Lcom/res/provider/ResID;->iv_left:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -363,7 +363,7 @@
     .line 9
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
-    const p2, 0x7f09036c
+    sget p2, Lcom/res/provider/ResID;->iv_right_top:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -380,7 +380,7 @@
     .line 10
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
-    const p2, 0x7f0902e6
+    sget p2, Lcom/res/provider/ResID;->iv:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -431,7 +431,7 @@
     .line 3
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->P:Landroid/widget/ImageView;
 
-    const v4, 0x7f080308
+    sget v4, Lcom/res/provider/ResDRAWABLE;->selfie_ar_icon_arcore_mark:I
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -459,7 +459,7 @@
     .line 6
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->P:Landroid/widget/ImageView;
 
-    const v4, 0x7f080313
+    sget v4, Lcom/res/provider/ResDRAWABLE;->selfie_ar_icon_share:I
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -487,7 +487,7 @@
     .line 10
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->O:Landroid/widget/ImageView;
 
-    const v4, 0x7f08030d
+    sget v4, Lcom/res/provider/ResDRAWABLE;->selfie_ar_icon_jump:I
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -547,7 +547,7 @@
     :cond_4
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->O:Landroid/widget/ImageView;
 
-    const v4, 0x7f0800fc
+    sget v4, Lcom/res/provider/ResDRAWABLE;->common_download_icon_border_white:I
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -603,7 +603,7 @@
     .line 26
     iget-object v2, p0, Lcom/commsource/studio/function/ar/a;->L:Landroid/view/View;
 
-    const v3, 0x7f08031a
+    sget v3, Lcom/res/provider/ResDRAWABLE;->selfie_ar_icon_used_black:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -692,7 +692,7 @@
     .line 33
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->Q:Landroid/widget/ImageView;
 
-    const v4, 0x7f0803c9
+    sget v4, Lcom/res/provider/ResDRAWABLE;->vip_diamond_ip_store_stciker_icon:I
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -744,7 +744,7 @@
     .line 38
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->Q:Landroid/widget/ImageView;
 
-    const v4, 0x7f0800fa
+    sget v4, Lcom/res/provider/ResDRAWABLE;->common_corner_premium_white_shadow:I
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -772,7 +772,7 @@
     .line 42
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->R:Landroid/widget/ImageView;
 
-    const v4, 0x7f080316
+    sget v4, Lcom/res/provider/ResDRAWABLE;->selfie_ar_icon_switch:I
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -802,7 +802,7 @@
     .line 46
     iget-object v1, p0, Lcom/commsource/studio/function/ar/a;->M:Landroid/view/View;
 
-    const v2, 0x7f0800b2
+    sget v2, Lcom/res/provider/ResDRAWABLE;->camera_ar_material_red:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -1087,7 +1087,7 @@
 
     move-result p3
 
-    const v2, 0x7f0802ac
+    sget v2, Lcom/res/provider/ResDRAWABLE;->placeholder_stickers_45:I
 
     const/high16 v3, 0x41200000    # 10.0f
 

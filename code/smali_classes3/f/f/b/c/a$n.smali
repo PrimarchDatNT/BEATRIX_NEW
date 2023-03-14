@@ -1571,7 +1571,7 @@
 
     new-array v9, v1, [I
 
-    const v10, 0x7f04004b
+    sget v10, Lcom/res/provider/ResATTR;->allowStacking:I
 
     aput v10, v9, v4
 
@@ -1659,7 +1659,7 @@
 
     new-array v5, v1, [I
 
-    const v7, 0x7f040063
+    sget v7, Lcom/res/provider/ResATTR;->behavior_autoHide:I
 
     aput v7, v5, v4
 
@@ -1765,7 +1765,7 @@
 
     new-array v5, v1, [I
 
-    const v6, 0x7f0403b4
+    sget v6, Lcom/res/provider/ResATTR;->state_above_anchor:I
 
     aput v6, v5, v4
 
@@ -1785,7 +1785,7 @@
 
     new-array v2, v1, [I
 
-    const v5, 0x7f0401cf
+    sget v5, Lcom/res/provider/ResATTR;->insetForeground:I
 
     aput v5, v2, v4
 
@@ -1793,7 +1793,7 @@
 
     new-array v1, v1, [I
 
-    const v2, 0x7f040066
+    sget v2, Lcom/res/provider/ResATTR;->behavior_overlapTop:I
 
     aput v2, v1, v4
 

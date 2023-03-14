@@ -193,9 +193,9 @@
 
     const/16 v6, 0xf
 
-    const v7, 0x7f0f031e
+    sget v7, Lcom/res/provider/ResSTRING;->edit_icon_tab_formula:I
 
-    const v8, 0x7f0f099d
+    sget v8, Lcom/res/provider/ResSTRING;->t_formula:I
 
     const-string v9, "\u914d\u65b9"
 
@@ -225,9 +225,9 @@
 
     const/16 v17, 0x16
 
-    const v18, 0x7f0f031a
+    sget v18, Lcom/res/provider/ResSTRING;->edit_icon_tab_beauty:I
 
-    const v19, 0x7f0f01f3
+    sget v19, Lcom/res/provider/ResSTRING;->camera_beauty:I
 
     const-string v20, "\u7f8e\u989c"
 
@@ -257,9 +257,9 @@
 
     const/16 v9, 0x15
 
-    const v10, 0x7f0f031c
+    sget v10, Lcom/res/provider/ResSTRING;->edit_icon_tab_edit:I
 
-    const v11, 0x7f0f0304
+    sget v11, Lcom/res/provider/ResSTRING;->edit:I
 
     const-string v12, "\u4fee\u56fe"
 
@@ -289,9 +289,9 @@
 
     const/16 v10, 0xef
 
-    const v11, 0x7f0f031d
+    sget v11, Lcom/res/provider/ResSTRING;->edit_icon_tab_filter:I
 
-    const v12, 0x7f0f01f8
+    sget v12, Lcom/res/provider/ResSTRING;->camera_filter:I
 
     const-string v13, "\u6ee4\u955c"
 
@@ -321,9 +321,9 @@
 
     const/16 v11, 0xec
 
-    const v12, 0x7f0f031f
+    sget v12, Lcom/res/provider/ResSTRING;->edit_icon_tab_sticker:I
 
-    const v13, 0x7f0f017e
+    sget v13, Lcom/res/provider/ResSTRING;->beauty_main_stickers:I
 
     const-string v14, "\u8d34\u7eb8"
 
@@ -353,9 +353,9 @@
 
     const/16 v12, 0xee
 
-    const v13, 0x7f0f031b
+    sget v13, Lcom/res/provider/ResSTRING;->edit_icon_tab_doodlepen:I
 
-    const v14, 0x7f0f02f3
+    sget v14, Lcom/res/provider/ResSTRING;->doodle_pen:I
 
     const-string v15, "\u6d82\u9e26\u7b14"
 
@@ -385,9 +385,9 @@
 
     const/16 v13, 0xf0
 
-    const v14, 0x7f0f0320
+    sget v14, Lcom/res/provider/ResSTRING;->edit_icon_tab_text:I
 
-    const v15, 0x7f0f0944
+    sget v15, Lcom/res/provider/ResSTRING;->t_characters:I
 
     const-string v16, "\u6587\u5b57"
 
@@ -417,9 +417,9 @@
 
     const/16 v14, 0xf4
 
-    const v15, 0x7f0f0319
+    sget v15, Lcom/res/provider/ResSTRING;->edit_icon_tab_background:I
 
-    const v16, 0x7f0f0938
+    sget v16, Lcom/res/provider/ResSTRING;->t_background:I
 
     const-string v17, "\u80cc\u666f"
 

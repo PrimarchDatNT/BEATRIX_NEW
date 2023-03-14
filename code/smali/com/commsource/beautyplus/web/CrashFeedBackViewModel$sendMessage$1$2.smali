@@ -121,7 +121,7 @@
 
     invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p1, 0x7f0f0226
+    sget p1, Lcom/res/provider/ResSTRING;->check_network:I
 
     .line 2
     invoke-static {p1}, Lf/k/c/c/f;->H(I)V

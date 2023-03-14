@@ -673,7 +673,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f10026a
+    sget v3, Lcom/res/provider/ResSTYLE;->updateDialog:I
 
     invoke-direct {v1, v2, v3}, Lcom/commsource/comic/widget/c;-><init>(Landroid/content/Context;I)V
 
@@ -704,7 +704,7 @@
 
     if-eqz p1, :cond_2
 
-    const v1, 0x7f0f05d4
+    sget v1, Lcom/res/provider/ResSTRING;->material_downloading:I
 
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -1379,7 +1379,7 @@
 
     if-eqz v1, :cond_0
 
-    const p1, 0x7f0f09f2
+    sget p1, Lcom/res/provider/ResSTRING;->t_layers_limited:I
 
     .line 2
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V

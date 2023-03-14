@@ -95,7 +95,7 @@
 
     if-nez p4, :cond_0
 
-    const p1, 0x7f0f02c3
+    sget p1, Lcom/res/provider/ResSTRING;->data_refresh:I
 
     .line 1
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V
@@ -334,7 +334,7 @@
 
     if-eqz v1, :cond_3
 
-    const p1, 0x7f0f0aaf
+    sget p1, Lcom/res/provider/ResSTRING;->this_ar_not_useable:I
 
     .line 5
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V
@@ -1311,7 +1311,7 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f0f0aaf
+    sget p1, Lcom/res/provider/ResSTRING;->this_ar_not_useable:I
 
     .line 10
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V
@@ -1358,7 +1358,7 @@
 
     if-eqz p4, :cond_4
 
-    const p1, 0x7f0f02c3
+    sget p1, Lcom/res/provider/ResSTRING;->data_refresh:I
 
     .line 17
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V

@@ -1023,7 +1023,7 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    const v1, 0x7f080333
+    sget v1, Lcom/res/provider/ResDRAWABLE;->selfie_light_source_icon:I
 
     .line 1
     invoke-static {v1}, Lcom/commsource/util/u1;->a(I)Landroid/graphics/Bitmap;

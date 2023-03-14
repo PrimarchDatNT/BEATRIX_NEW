@@ -72,7 +72,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/view/ViewGroup;)V
     .locals 1
 
-    const v0, 0x7f0c012e
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_ar_search_giphy_title:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -121,7 +121,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f08032b
+    sget p2, Lcom/res/provider/ResDRAWABLE;->selfie_giphy_icon_logo:I
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

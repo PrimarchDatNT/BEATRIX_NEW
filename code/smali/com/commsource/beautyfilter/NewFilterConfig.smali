@@ -345,7 +345,7 @@
     packed-switch v4, :pswitch_data_0
 
     :pswitch_0
-    const v4, 0x7f0f0219
+    sget v4, Lcom/res/provider/ResSTRING;->category_jiaopian:I
 
     .line 5
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -355,7 +355,7 @@
     goto :goto_1
 
     :pswitch_1
-    const v4, 0x7f0f021a
+    sget v4, Lcom/res/provider/ResSTRING;->category_jiari:I
 
     .line 6
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -365,7 +365,7 @@
     goto :goto_1
 
     :pswitch_2
-    const v4, 0x7f0f021c
+    sget v4, Lcom/res/provider/ResSTRING;->category_meishi:I
 
     .line 7
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -375,7 +375,7 @@
     goto :goto_1
 
     :pswitch_3
-    const v4, 0x7f0f0218
+    sget v4, Lcom/res/provider/ResSTRING;->category_dianying:I
 
     .line 8
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -385,7 +385,7 @@
     goto :goto_1
 
     :pswitch_4
-    const v4, 0x7f0f021d
+    sget v4, Lcom/res/provider/ResSTRING;->category_rixi:I
 
     .line 9
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -395,7 +395,7 @@
     goto :goto_1
 
     :pswitch_5
-    const v4, 0x7f0f021b
+    sget v4, Lcom/res/provider/ResSTRING;->category_jindian:I
 
     .line 10
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -405,7 +405,7 @@
     goto :goto_1
 
     :pswitch_6
-    const v4, 0x7f0f021e
+    sget v4, Lcom/res/provider/ResSTRING;->category_ziran:I
 
     .line 11
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1104,7 +1104,7 @@
     .line 10
     invoke-virtual {v2, v5}, Lcom/commsource/beautyfilter/a;->h(I)V
 
-    const v6, 0x7f0f03ac
+    sget v6, Lcom/res/provider/ResSTRING;->filter_recommend:I
 
     .line 11
     invoke-static {v6}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1130,7 +1130,7 @@
     .line 16
     invoke-virtual {v2, v4}, Lcom/commsource/beautyfilter/a;->h(I)V
 
-    const v6, 0x7f0f036a
+    sget v6, Lcom/res/provider/ResSTRING;->favorites:I
 
     .line 17
     invoke-static {v6}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1158,7 +1158,7 @@
     .line 22
     invoke-virtual {v2, v5}, Lcom/commsource/beautyfilter/a;->h(I)V
 
-    const v5, 0x7f0f03b3
+    sget v5, Lcom/res/provider/ResSTRING;->filter_shop_premium:I
 
     .line 23
     invoke-static {v5}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

@@ -153,7 +153,7 @@
 
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$26;->b:Lcom/commsource/studio/ImageStudioActivity;
 
-    const v3, 0x7f0f0a68
+    sget v3, Lcom/res/provider/ResSTRING;->t_tap_to_select_layer:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -178,7 +178,7 @@
     .line 8
     sget-object v3, Lkotlin/jvm/internal/s0;->a:Lkotlin/jvm/internal/s0;
 
-    const v3, 0x7f0f0a32
+    sget v3, Lcom/res/provider/ResSTRING;->t_select_x_layer:I
 
     .line 9
     invoke-static {v3}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;

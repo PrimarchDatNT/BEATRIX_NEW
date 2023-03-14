@@ -126,7 +126,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c018a
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_sticker_manager:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -496,7 +496,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kj;->b:Lcom/commsource/widget/IconFrontView;
 
-    const v2, 0x7f06010c
+    sget v2, Lcom/res/provider/ResCOLOR;->color_e45252:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 
@@ -556,7 +556,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0801ab
+    sget v1, Lcom/res/provider/ResDRAWABLE;->edit_sticker_icon_placeholder:I
 
     .line 9
     invoke-virtual {p1, v1}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
@@ -596,7 +596,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kj;->a:Landroid/widget/RelativeLayout;
 
-    const p3, 0x7f06013d
+    sget p3, Lcom/res/provider/ResCOLOR;->color_fbfbfd:I
 
     invoke-static {p3}, Lcom/commsource/util/u1;->b(I)I
 
@@ -672,7 +672,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kj;->a:Landroid/widget/RelativeLayout;
 
-    const p3, 0x7f060225
+    sget p3, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {p3}, Lcom/commsource/util/u1;->b(I)I
 

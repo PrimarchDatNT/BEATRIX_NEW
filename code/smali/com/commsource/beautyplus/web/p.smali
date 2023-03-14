@@ -350,7 +350,7 @@
     .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0f035c
+    sget v1, Lcom/res/provider/ResSTRING;->facebook_app_keroea_url:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -373,7 +373,7 @@
     .line 4
     iget-object p1, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0f035b
+    sget v1, Lcom/res/provider/ResSTRING;->facebook_app_japan_url:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -396,7 +396,7 @@
     .line 6
     iget-object p1, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0f035a
+    sget v1, Lcom/res/provider/ResSTRING;->facebook_app_indonesia_url:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -419,7 +419,7 @@
     .line 8
     iget-object p1, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0f035f
+    sget v1, Lcom/res/provider/ResSTRING;->facebook_app_thailand_url:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -442,7 +442,7 @@
     .line 10
     iget-object p1, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0f035e
+    sget v1, Lcom/res/provider/ResSTRING;->facebook_app_philippines_url:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -465,7 +465,7 @@
     .line 12
     iget-object p1, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0f035d
+    sget v1, Lcom/res/provider/ResSTRING;->facebook_app_meIndia_url:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -488,7 +488,7 @@
     .line 14
     iget-object p1, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0f0360
+    sget v1, Lcom/res/provider/ResSTRING;->facebook_app_vietnam_url:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -502,7 +502,7 @@
     :cond_6
     iget-object p1, p0, Lcom/commsource/beautyplus/web/p;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0f0358
+    sget v1, Lcom/res/provider/ResSTRING;->facebook_app_attention_url:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

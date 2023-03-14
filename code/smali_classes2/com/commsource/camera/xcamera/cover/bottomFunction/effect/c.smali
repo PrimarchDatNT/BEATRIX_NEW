@@ -94,7 +94,7 @@
     .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/h1/e;-><init>(Landroid/content/Context;)V
 
-    const p1, 0x7f060005
+    sget p1, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     .line 2
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
@@ -103,7 +103,7 @@
 
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->p:I
 
-    const p1, 0x7f0600f2
+    sget p1, Lcom/res/provider/ResCOLOR;->color_cc333333:I
 
     .line 3
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
@@ -112,7 +112,7 @@
 
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->q:I
 
-    const p1, 0x7f060225
+    sget p1, Lcom/res/provider/ResCOLOR;->white:I
 
     .line 4
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
@@ -121,7 +121,7 @@
 
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->r:I
 
-    const p1, 0x7f06022b
+    sget p1, Lcom/res/provider/ResCOLOR;->white60:I
 
     .line 5
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
@@ -130,7 +130,7 @@
 
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->s:I
 
-    const p1, 0x7f060228
+    sget p1, Lcom/res/provider/ResCOLOR;->white30:I
 
     .line 6
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
@@ -139,7 +139,7 @@
 
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/c;->t:I
 
-    const p1, 0x7f060007
+    sget p1, Lcom/res/provider/ResCOLOR;->Gray_Background:I
 
     .line 7
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I

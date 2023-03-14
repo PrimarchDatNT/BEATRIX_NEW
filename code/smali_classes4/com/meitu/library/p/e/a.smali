@@ -4270,7 +4270,7 @@
 
     invoke-direct {v2, v1}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
 
-    const v3, 0x7f060076
+    sget v3, Lcom/res/provider/ResCOLOR;->color_424242:I
 
     .line 4
     invoke-static {v3}, Lcom/commsource/util/u1;->b(I)I

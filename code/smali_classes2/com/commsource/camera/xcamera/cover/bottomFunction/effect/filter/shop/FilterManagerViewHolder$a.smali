@@ -192,7 +192,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0f03a8
+    sget v0, Lcom/res/provider/ResSTRING;->filter_not_support_delete:I
 
     .line 9
     invoke-static {v0}, Lf/k/c/c/f;->r(I)V

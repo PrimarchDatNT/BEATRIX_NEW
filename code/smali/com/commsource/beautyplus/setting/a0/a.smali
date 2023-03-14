@@ -160,7 +160,7 @@
 
     move-result v2
 
-    const v3, 0x7f0f035a
+    sget v3, Lcom/res/provider/ResSTRING;->facebook_app_indonesia_url:I
 
     if-nez v2, :cond_a
 
@@ -235,7 +235,7 @@
     goto :goto_0
 
     :cond_6
-    const v1, 0x7f0f0358
+    sget v1, Lcom/res/provider/ResSTRING;->facebook_app_attention_url:I
 
     .line 9
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -248,7 +248,7 @@
 
     :cond_7
     :goto_0
-    const v1, 0x7f0f035f
+    sget v1, Lcom/res/provider/ResSTRING;->facebook_app_thailand_url:I
 
     .line 10
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -261,7 +261,7 @@
 
     :cond_8
     :goto_1
-    const v1, 0x7f0f0360
+    sget v1, Lcom/res/provider/ResSTRING;->facebook_app_vietnam_url:I
 
     .line 11
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -296,7 +296,7 @@
 
     :cond_b
     :goto_4
-    const v1, 0x7f0f035d
+    sget v1, Lcom/res/provider/ResSTRING;->facebook_app_meIndia_url:I
 
     .line 14
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -309,7 +309,7 @@
 
     :cond_c
     :goto_5
-    const v1, 0x7f0f035c
+    sget v1, Lcom/res/provider/ResSTRING;->facebook_app_keroea_url:I
 
     .line 15
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -322,7 +322,7 @@
 
     :cond_d
     :goto_6
-    const v1, 0x7f0f035b
+    sget v1, Lcom/res/provider/ResSTRING;->facebook_app_japan_url:I
 
     .line 16
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

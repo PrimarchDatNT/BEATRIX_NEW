@@ -332,7 +332,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0802b5
+    sget v3, Lcom/res/provider/ResDRAWABLE;->premium_paid_img_card:I
 
     invoke-virtual {v1, v3}, Lcom/commsource/util/u0$d;->k(I)Lcom/commsource/util/u0$d;
 
@@ -1332,7 +1332,7 @@
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v2, 0x7f0f0a5d
+    sget v2, Lcom/res/provider/ResSTRING;->t_sub_new_limited:I
 
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1903,7 +1903,7 @@
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v3, 0x7f0f094b
+    sget v3, Lcom/res/provider/ResSTRING;->t_continue:I
 
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
@@ -2467,7 +2467,7 @@
     goto :goto_2
 
     :catch_0
-    const v1, 0x7f060151
+    sget v1, Lcom/res/provider/ResCOLOR;->color_ff4760:I
 
     .line 13
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
@@ -2516,7 +2516,7 @@
 
     move-result v1
 
-    const v3, 0x7f060225
+    sget v3, Lcom/res/provider/ResCOLOR;->white:I
 
     const/4 v4, 0x0
 
@@ -3233,7 +3233,7 @@
 
     invoke-static {v0, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v7, 0x7f0f0a60
+    sget v7, Lcom/res/provider/ResSTRING;->t_subscribe_free_try_days:I
 
     new-array v8, v5, [Ljava/lang/Object;
 
@@ -3309,7 +3309,7 @@
 
     const-string v12, "getString(R.string.t_day\u2026troductoryDay.toString())"
 
-    const v13, 0x7f0f0957
+    sget v13, Lcom/res/provider/ResSTRING;->t_days:I
 
     if-eqz v0, :cond_9
 
@@ -3600,7 +3600,7 @@
 
     invoke-static {v0, v8}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v7, 0x7f0f0a96
+    sget v7, Lcom/res/provider/ResSTRING;->t_year_price:I
 
     new-array v8, v5, [Ljava/lang/Object;
 
@@ -4248,7 +4248,7 @@
 
     move-result v9
 
-    const v10, 0x7f0f0a2d
+    sget v10, Lcom/res/provider/ResSTRING;->t_save:I
 
     if-nez v9, :cond_3a
 
@@ -4699,7 +4699,7 @@
 
     const/4 v2, 0x2
 
-    const v3, 0x7f0f02d5
+    sget v3, Lcom/res/provider/ResSTRING;->dialog_confirm:I
 
     if-eq p1, v2, :cond_2
 
@@ -4718,7 +4718,7 @@
     goto/16 :goto_1
 
     :cond_0
-    const p1, 0x7f0f06c8
+    sget p1, Lcom/res/provider/ResSTRING;->not_subs_no_restore:I
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -4739,7 +4739,7 @@
     goto/16 :goto_1
 
     :cond_1
-    const p1, 0x7f0f07a5
+    sget p1, Lcom/res/provider/ResSTRING;->restored:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -4757,7 +4757,7 @@
     goto/16 :goto_1
 
     :cond_2
-    const p1, 0x7f0f042c
+    sget p1, Lcom/res/provider/ResSTRING;->half_restored:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -4796,7 +4796,7 @@
 
     if-eqz v2, :cond_5
 
-    const p1, 0x7f0f0913
+    sget p1, Lcom/res/provider/ResSTRING;->sub_upgrade_to_yearly_description:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -4806,7 +4806,7 @@
     goto :goto_0
 
     :cond_5
-    const v2, 0x7f0f0914
+    sget v2, Lcom/res/provider/ResSTRING;->sub_upgrade_to_yearly_description_pl:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -4824,7 +4824,7 @@
 
     const/4 v2, 0x0
 
-    const p1, 0x7f0f0912
+    sget p1, Lcom/res/provider/ResSTRING;->sub_upgrade_to_yearly:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -4840,7 +4840,7 @@
 
     const/4 v6, 0x0
 
-    const p1, 0x7f0f08fd
+    sget p1, Lcom/res/provider/ResSTRING;->sub_by_monthly:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -4867,14 +4867,14 @@
     goto :goto_1
 
     :cond_6
-    const p1, 0x7f0f0759
+    sget p1, Lcom/res/provider/ResSTRING;->purchase_restore_failed:I
 
     .line 17
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
-    const v2, 0x7f0f08c3
+    sget v2, Lcom/res/provider/ResSTRING;->solve_now:I
 
     .line 18
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -4949,7 +4949,7 @@
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v3, 0x7f0f08fc
+    sget v3, Lcom/res/provider/ResSTRING;->sub_beautyplus_premium:I
 
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5158,7 +5158,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v4, 0x7f0f0a08
+    sget v4, Lcom/res/provider/ResSTRING;->t_oops:I
 
     invoke-static {v4}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
@@ -5170,7 +5170,7 @@
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v4, 0x7f0f0959
+    sget v4, Lcom/res/provider/ResSTRING;->t_deduction_failed:I
 
     invoke-static {v4}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
@@ -5265,7 +5265,7 @@
 
     if-ne v8, v7, :cond_4
 
-    const v8, 0x7f0f09c1
+    sget v8, Lcom/res/provider/ResSTRING;->t_handle_continue_premium:I
 
     .line 17
     invoke-static {v8}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -5348,7 +5348,7 @@
 
     move-result-object v3
 
-    const v8, 0x7f0802b4
+    sget v8, Lcom/res/provider/ResDRAWABLE;->premium_paid_error_img_card:I
 
     invoke-virtual {v3, v8}, Lcom/commsource/util/u0$d;->k(I)Lcom/commsource/util/u0$d;
 
@@ -6173,7 +6173,7 @@
     .line 2
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c003d
+    sget p1, Lcom/res/provider/ResLAYOUT;->activity_pro:I
 
     .line 3
     invoke-static {p0, p1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;

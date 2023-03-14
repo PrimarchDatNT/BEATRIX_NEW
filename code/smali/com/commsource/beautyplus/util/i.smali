@@ -11,7 +11,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f100250
+    sget v0, Lcom/res/provider/ResSTYLE;->fullScreenAppCompatTranset:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
@@ -54,12 +54,12 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0c00ba
+    sget p1, Lcom/res/provider/ResLAYOUT;->dialog_beta_tips:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->setContentView(I)V
 
-    const p1, 0x7f0904b9
+    sget p1, Lcom/res/provider/ResID;->ptv_cancel:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

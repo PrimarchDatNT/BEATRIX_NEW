@@ -343,7 +343,7 @@
     .line 13
     iput p2, p0, Lcom/commsource/widget/ExposureSeekBar;->P:I
 
-    const p2, 0x7f08032e
+    sget p2, Lcom/res/provider/ResDRAWABLE;->selfie_icon_exposure_white:I
 
     .line 14
     invoke-static {p2}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;

@@ -176,7 +176,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0c01f8
+    sget v0, Lcom/res/provider/ResLAYOUT;->text_tab_layout:I
 
     const/4 v1, 0x0
 
@@ -238,7 +238,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0c01f8
+    sget v2, Lcom/res/provider/ResLAYOUT;->text_tab_layout:I
 
     const/4 v3, 0x0
 

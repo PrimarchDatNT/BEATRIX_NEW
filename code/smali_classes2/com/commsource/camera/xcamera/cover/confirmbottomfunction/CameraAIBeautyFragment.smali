@@ -1119,7 +1119,7 @@
 
     invoke-static {v4, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v5, 0x7f080062
+    sget v5, Lcom/res/provider/ResDRAWABLE;->ai_beauty_seekbar_thumb_bg:I
 
     invoke-static {v5}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;
 
@@ -1136,7 +1136,7 @@
 
     invoke-static {v4, p2}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v5, 0x7f0800db
+    sget v5, Lcom/res/provider/ResDRAWABLE;->common_aibeauty_seekbar_bg:I
 
     invoke-static {v5}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;
 

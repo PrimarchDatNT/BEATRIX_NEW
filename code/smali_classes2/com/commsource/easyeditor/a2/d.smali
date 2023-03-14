@@ -1432,7 +1432,7 @@
     goto :goto_0
 
     :pswitch_0
-    const p0, 0x7f0f03db
+    sget p0, Lcom/res/provider/ResSTRING;->front_head:I
 
     .line 1
     invoke-static {p0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1442,7 +1442,7 @@
     goto :goto_0
 
     :pswitch_1
-    const p0, 0x7f0f08a2
+    sget p0, Lcom/res/provider/ResSTRING;->skin_area:I
 
     .line 2
     invoke-static {p0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1452,7 +1452,7 @@
     goto :goto_0
 
     :pswitch_2
-    const p0, 0x7f0f064f
+    sget p0, Lcom/res/provider/ResSTRING;->mouth_area:I
 
     .line 3
     invoke-static {p0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1462,7 +1462,7 @@
     goto :goto_0
 
     :pswitch_3
-    const p0, 0x7f0f06c1
+    sget p0, Lcom/res/provider/ResSTRING;->nose_area:I
 
     .line 4
     invoke-static {p0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1472,7 +1472,7 @@
     goto :goto_0
 
     :pswitch_4
-    const p0, 0x7f0f0229
+    sget p0, Lcom/res/provider/ResSTRING;->cheeks_area:I
 
     .line 5
     invoke-static {p0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1482,7 +1482,7 @@
     goto :goto_0
 
     :pswitch_5
-    const p0, 0x7f0f034e
+    sget p0, Lcom/res/provider/ResSTRING;->eye_area:I
 
     .line 6
     invoke-static {p0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -1492,7 +1492,7 @@
     goto :goto_0
 
     :pswitch_6
-    const p0, 0x7f0f034f
+    sget p0, Lcom/res/provider/ResSTRING;->eye_brow:I
 
     .line 7
     invoke-static {p0}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;

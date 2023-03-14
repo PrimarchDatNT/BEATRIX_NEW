@@ -138,7 +138,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c0192
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_studio_sub_function:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -482,7 +482,7 @@
 
     sget-object v1, Lcom/commsource/util/y1;->a:Lcom/commsource/util/y1;
 
-    const v2, 0x7f0802eb
+    sget v2, Lcom/res/provider/ResDRAWABLE;->red_point_radius_3:I
 
     .line 13
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -600,7 +600,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/yj;->g:Landroid/widget/TextView;
 
-    const p2, 0x7f0f069d
+    sget p2, Lcom/res/provider/ResSTRING;->newly_upgraded_height_function:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 

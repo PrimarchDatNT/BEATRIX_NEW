@@ -286,14 +286,14 @@
     goto :goto_0
 
     :cond_4
-    const v1, 0x7f0f007a
+    sget v1, Lcom/res/provider/ResSTRING;->ai_editor_need_network:I
 
     .line 22
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v1, 0x7f0f0081
+    sget v1, Lcom/res/provider/ResSTRING;->ai_editor_retry:I
 
     .line 23
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
@@ -305,7 +305,7 @@
 
     invoke-direct {v4, p1, p0, p1}, Lcom/commsource/studio/ImageStudioActivity$initViewModel$5$a;-><init>(Lcom/commsource/studio/formula/convert/g;Lcom/commsource/studio/ImageStudioActivity$initViewModel$5;Lcom/commsource/studio/formula/convert/g;)V
 
-    const p1, 0x7f0f006d
+    sget p1, Lcom/res/provider/ResSTRING;->ai_editor_cancel:I
 
     .line 25
     invoke-static {p1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;

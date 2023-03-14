@@ -224,7 +224,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0f0686
+    sget p1, Lcom/res/provider/ResSTRING;->my_work_date_today:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -251,7 +251,7 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f0f0687
+    sget p1, Lcom/res/provider/ResSTRING;->my_work_date_yesterday:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -360,7 +360,7 @@
     :cond_3
     new-instance p1, Ljava/text/SimpleDateFormat;
 
-    const v1, 0x7f0f0685
+    sget v1, Lcom/res/provider/ResSTRING;->my_work_date_format:I
 
     .line 12
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

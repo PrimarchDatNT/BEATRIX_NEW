@@ -112,7 +112,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    const v0, 0x7f0c01fe
+    sget v0, Lcom/res/provider/ResLAYOUT;->video_cover_video_controll:I
 
     .line 1
     invoke-direct {p0, v0}, Lcom/commsource/video/cover/a;-><init>(I)V
@@ -212,7 +212,7 @@
 
     if-eqz p1, :cond_1
 
-    const v1, 0x7f080067
+    sget v1, Lcom/res/provider/ResDRAWABLE;->app_icon_video_pause:I
 
     invoke-virtual {p1, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
@@ -500,7 +500,7 @@
 
     if-eqz p1, :cond_1
 
-    const v1, 0x7f080067
+    sget v1, Lcom/res/provider/ResDRAWABLE;->app_icon_video_pause:I
 
     invoke-virtual {p1, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
@@ -535,7 +535,7 @@
 
     if-eqz p1, :cond_3
 
-    const v1, 0x7f080068
+    sget v1, Lcom/res/provider/ResDRAWABLE;->app_icon_video_play:I
 
     invoke-virtual {p1, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 

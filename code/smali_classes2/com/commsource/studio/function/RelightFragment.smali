@@ -464,7 +464,7 @@
 
     iget-object v2, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
-    const v3, 0x7f0f018b
+    sget v3, Lcom/res/provider/ResSTRING;->beauty_material_update_message:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -474,7 +474,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f018d
+    sget v2, Lcom/res/provider/ResSTRING;->beauty_material_update_ok:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -501,7 +501,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f018a
+    sget v2, Lcom/res/provider/ResSTRING;->beauty_material_update_cancel:I
 
     .line 7
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -893,7 +893,7 @@
 
     iget-object v2, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
-    const v3, 0x7f0f018c
+    sget v3, Lcom/res/provider/ResSTRING;->beauty_material_update_not_net:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -906,7 +906,7 @@
     .line 9
     iget-object v2, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
-    const v3, 0x7f0f00bf
+    sget v3, Lcom/res/provider/ResSTRING;->ar_i_know:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

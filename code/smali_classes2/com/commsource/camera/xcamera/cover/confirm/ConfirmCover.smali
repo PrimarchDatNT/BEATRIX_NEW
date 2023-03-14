@@ -2222,7 +2222,7 @@
     .line 15
     iget-object p1, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
-    const v2, 0x7f0800dd
+    sget v2, Lcom/res/provider/ResDRAWABLE;->common_aibeauty_shadow_icon:I
 
     invoke-virtual {p1, v2}, Landroid/widget/RelativeLayout;->setBackgroundResource(I)V
 
@@ -2241,7 +2241,7 @@
     :cond_1
     iget-object p1, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
-    const v2, 0x7f0800da
+    sget v2, Lcom/res/provider/ResDRAWABLE;->common_aibeauty_no_shadow_icon:I
 
     invoke-virtual {p1, v2}, Landroid/widget/RelativeLayout;->setBackgroundResource(I)V
 
@@ -2905,7 +2905,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0f056d
+    sget v7, Lcom/res/provider/ResSTRING;->join_to_unlock_all_exclusive_effects:I
 
     .line 25
     invoke-virtual {v6, v7}, Landroid/app/Application;->getString(I)Ljava/lang/String;
@@ -4137,7 +4137,7 @@
     goto :goto_5
 
     :cond_f
-    const p1, 0x7f0f068b
+    sget p1, Lcom/res/provider/ResSTRING;->need_face:I
 
     .line 28
     invoke-static {p1}, Lf/k/c/c/f;->h(I)V
@@ -4274,7 +4274,7 @@
     .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
-    const v0, 0x7f0c009f
+    sget v0, Lcom/res/provider/ResLAYOUT;->cover_selfie_confirm:I
 
     return v0
 .end method

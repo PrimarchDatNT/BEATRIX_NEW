@@ -35,7 +35,7 @@
 .method public constructor <init>(Landroid/app/Activity;Ljava/lang/String;ZLjava/lang/String;Lcom/commsource/widget/y0$e;)V
     .locals 2
 
-    const v0, 0x7f100101
+    sget v0, Lcom/res/provider/ResSTYLE;->OperateAdDialog:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/widget/dialog/l0;-><init>(Landroid/content/Context;I)V
@@ -62,7 +62,7 @@
 
     move-result-object p3
 
-    const p4, 0x7f0c00c7
+    sget p4, Lcom/res/provider/ResLAYOUT;->dialog_operate_ad:I
 
     const/4 p5, 0x0
 
@@ -74,7 +74,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const p4, 0x7f090193
+    sget p4, Lcom/res/provider/ResID;->dialog_operate_close:I
 
     .line 9
     invoke-virtual {p3, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -87,7 +87,7 @@
 
     invoke-virtual {p4, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p4, 0x7f090195
+    sget p4, Lcom/res/provider/ResID;->dialog_operate_progressbar:I
 
     .line 10
     invoke-virtual {p3, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -105,7 +105,7 @@
 
     iput-object p4, p0, Lcom/commsource/widget/y0;->f:Lcom/commsource/beautyplus/web/o$a;
 
-    const p1, 0x7f090196
+    sget p1, Lcom/res/provider/ResID;->dialog_operate_webview:I
 
     .line 12
     invoke-virtual {p3, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -380,7 +380,7 @@
     goto :goto_0
 
     :catch_0
-    const p1, 0x7f0f06dd
+    sget p1, Lcom/res/provider/ResSTRING;->open_failed:I
 
     .line 2
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V

@@ -94,7 +94,7 @@
 
     invoke-direct {v2}, Lcom/commsource/widget/dialog/s0/t$a;-><init>()V
 
-    const v3, 0x7f0f070f
+    sget v3, Lcom/res/provider/ResSTRING;->please_wait:I
 
     invoke-virtual {v0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -111,7 +111,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f0b0e
+    sget v3, Lcom/res/provider/ResSTRING;->wait:I
 
     .line 5
     invoke-virtual {v0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -129,7 +129,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f0212
+    sget v3, Lcom/res/provider/ResSTRING;->cancel:I
 
     .line 7
     invoke-virtual {v0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

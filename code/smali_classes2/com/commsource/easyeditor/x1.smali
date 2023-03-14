@@ -1361,7 +1361,7 @@
 
     move-result p1
 
-    const v1, 0x7f080154
+    sget v1, Lcom/res/provider/ResDRAWABLE;->easy_editor_black_circle_bg:I
 
     const/4 v2, 0x0
 
@@ -1381,7 +1381,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w;->e0:Landroid/widget/TextView;
 
-    const v1, 0x7f08015d
+    sget v1, Lcom/res/provider/ResDRAWABLE;->easy_editor_white_circle_bg:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
@@ -1402,7 +1402,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w;->f0:Landroid/widget/TextView;
 
-    const v2, 0x7f080159
+    sget v2, Lcom/res/provider/ResDRAWABLE;->easy_editor_pink_circle_bg:I
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setBackgroundResource(I)V
 

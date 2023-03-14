@@ -119,7 +119,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0c0164
+    sget v0, Lcom/res/provider/ResLAYOUT;->item_mixmode_tag:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
@@ -199,7 +199,7 @@
 
     invoke-static {p1, v1}, Lkotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v2, 0x7f060225
+    sget v2, Lcom/res/provider/ResCOLOR;->white:I
 
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 
@@ -219,7 +219,7 @@
 
     move-result p3
 
-    const v2, 0x7f060010
+    sget v2, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
     .line 7
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
@@ -255,7 +255,7 @@
 
     move-result p3
 
-    const v2, 0x7f060007
+    sget v2, Lcom/res/provider/ResCOLOR;->Gray_Background:I
 
     .line 12
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
@@ -283,7 +283,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ah;->a:Landroid/widget/TextView;
 
-    const p3, 0x7f060005
+    sget p3, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
     invoke-static {p3}, Lcom/commsource/util/u1;->b(I)I
 
