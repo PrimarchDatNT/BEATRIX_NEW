@@ -1098,7 +1098,7 @@ public class ResATTR {
     public static final int viewCount = R.attr.viewCount;
     public static final int viewInflaterClass = R.attr.viewInflaterClass;
     public static final int viewMargin = R.attr.viewMargin;
-    public static final int viewType = R.attr.viewType;
+//    public static final int viewType = R.attr.viewType;
     public static final int view_icon_size = R.attr.view_icon_size;
     public static final int view_icon_str = R.attr.view_icon_str;
     public static final int view_text_size = R.attr.view_text_size;
