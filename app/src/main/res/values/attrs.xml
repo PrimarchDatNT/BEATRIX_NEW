@@ -1289,10 +1289,6 @@
     <attr name="viewCount" format="integer" />
     <attr name="viewInflaterClass" format="string" />
     <attr name="viewMargin" format="dimension" />
-    <attr name="viewType">
-        <enum name="surfaceView" value="0" />
-        <enum name="textureView" value="1" />
-    </attr>
     <attr name="view_icon_size" format="dimension" />
     <attr name="view_icon_str" format="string" />
     <attr name="view_text_size" format="dimension" />

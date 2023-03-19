@@ -675,8 +675,8 @@
         </service>
 
         <provider
-            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.commsource.beautyplus.lifecycle-process"
+            android:name="androidx.androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.commsource.beautyplus.androidx.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
         <provider
