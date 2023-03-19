@@ -262,7 +262,7 @@
     iput-object v1, p0, Lcom/commsource/studio/text/TextTabView;->L:Landroid/graphics/Paint;
 
     .line 9
-    sget-object v1, Lcom/commsource/beautyplus/R$styleable;->o2:[I
+    sget-object v1, Lcom/res/provider/ResSTYLEABLE;->o2:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

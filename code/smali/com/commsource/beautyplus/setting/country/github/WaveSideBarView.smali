@@ -206,7 +206,7 @@
     iput-object v0, p0, Lcom/commsource/beautyplus/setting/country/github/WaveSideBarView;->T:Landroid/util/DisplayMetrics;
 
     .line 10
-    sget-object v0, Lcom/commsource/beautyplus/R$styleable;->A2:[I
+    sget-object v0, Lcom/res/provider/ResSTYLEABLE;->A2:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

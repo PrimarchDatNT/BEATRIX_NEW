@@ -90,7 +90,7 @@
     iput-object v1, p0, Lcom/commsource/comic/widget/StrokeTextView;->d:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 2
-    sget-object v1, Lcom/commsource/beautyplus/R$styleable;->e2:[I
+    sget-object v1, Lcom/res/provider/ResSTYLEABLE;->e2:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

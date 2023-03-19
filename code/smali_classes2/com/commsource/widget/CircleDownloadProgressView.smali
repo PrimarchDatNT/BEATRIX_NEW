@@ -93,7 +93,7 @@
 
     .line 3
     :cond_0
-    sget-object v1, Lcom/commsource/beautyplus/R$styleable;->O:[I
+    sget-object v1, Lcom/res/provider/ResSTYLEABLE;->O:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

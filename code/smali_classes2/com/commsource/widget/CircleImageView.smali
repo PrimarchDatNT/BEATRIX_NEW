@@ -217,7 +217,7 @@
     iput v3, p0, Lcom/commsource/widget/CircleImageView;->h0:F
 
     .line 17
-    sget-object v3, Lcom/commsource/beautyplus/R$styleable;->P:[I
+    sget-object v3, Lcom/res/provider/ResSTYLEABLE;->P:[I
 
     invoke-virtual {p1, p2, v3, p3, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

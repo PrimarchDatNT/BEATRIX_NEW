@@ -39,7 +39,7 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 4
-    sget-object v0, Lcom/commsource/beautyplus/R$styleable;->V:[I
+    sget-object v0, Lcom/res/provider/ResSTYLEABLE;->V:[I
 
     const/4 v1, 0x0
 

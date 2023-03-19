@@ -57,7 +57,7 @@
     iput v2, p0, Lcom/commsource/widget/dialog/NumberSeekBar;->b:I
 
     .line 6
-    sget-object v2, Lcom/commsource/beautyplus/R$styleable;->q1:[I
+    sget-object v2, Lcom/res/provider/ResSTYLEABLE;->q1:[I
 
     const/4 v3, 0x0
 

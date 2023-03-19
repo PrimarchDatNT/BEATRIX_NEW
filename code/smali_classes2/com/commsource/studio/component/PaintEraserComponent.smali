@@ -319,7 +319,7 @@
     iput-object p3, p0, Lcom/commsource/studio/component/PaintEraserComponent;->O:Lcom/commsource/beautyplus/f0/e2;
 
     .line 16
-    sget-object p3, Lcom/commsource/beautyplus/R$styleable;->s1:[I
+    sget-object p3, Lcom/res/provider/ResSTYLEABLE;->s1:[I
 
     invoke-virtual {p1, p2, p3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

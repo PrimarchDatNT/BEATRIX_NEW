@@ -94,7 +94,7 @@
     invoke-direct {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 2
-    sget-object v0, Lcom/commsource/beautyplus/R$styleable;->q0:[I
+    sget-object v0, Lcom/res/provider/ResSTYLEABLE;->q0:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

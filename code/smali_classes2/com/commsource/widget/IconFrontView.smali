@@ -105,7 +105,7 @@
     iput v3, p0, Lcom/commsource/widget/IconFrontView;->g:F
 
     .line 12
-    sget-object v3, Lcom/commsource/beautyplus/R$styleable;->S0:[I
+    sget-object v3, Lcom/res/provider/ResSTYLEABLE;->S0:[I
 
     invoke-virtual {p1, p2, v3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

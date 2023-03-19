@@ -179,7 +179,7 @@
     invoke-virtual {p0, v2, v3}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
 
     .line 12
-    sget-object v3, Lcom/commsource/beautyplus/R$styleable;->h2:[I
+    sget-object v3, Lcom/res/provider/ResSTYLEABLE;->h2:[I
 
     invoke-virtual {p1, p2, v3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

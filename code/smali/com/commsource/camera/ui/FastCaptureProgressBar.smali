@@ -103,7 +103,7 @@
     invoke-virtual {v3, p0}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 12
-    sget-object v3, Lcom/commsource/beautyplus/R$styleable;->r0:[I
+    sget-object v3, Lcom/res/provider/ResSTYLEABLE;->r0:[I
 
     invoke-virtual {p1, p2, v3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

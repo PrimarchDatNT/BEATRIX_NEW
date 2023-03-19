@@ -102,7 +102,7 @@
     invoke-direct {p0}, Lcom/commsource/widget/CountDownView;->c()V
 
     .line 9
-    sget-object v4, Lcom/commsource/beautyplus/R$styleable;->d0:[I
+    sget-object v4, Lcom/res/provider/ResSTYLEABLE;->d0:[I
 
     invoke-virtual {p1, p2, v4, p3, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

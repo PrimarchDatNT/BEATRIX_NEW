@@ -55,7 +55,7 @@
     if-eqz p2, :cond_0
 
     .line 2
-    sget-object v1, Lcom/commsource/beautyplus/R$styleable;->b1:[I
+    sget-object v1, Lcom/res/provider/ResSTYLEABLE;->b1:[I
 
     const/4 v2, 0x0
 

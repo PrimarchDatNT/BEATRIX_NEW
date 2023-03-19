@@ -49,7 +49,7 @@
     iput-boolean v0, p0, Lcom/commsource/widget/SquareView;->b:Z
 
     .line 6
-    sget-object v1, Lcom/commsource/beautyplus/R$styleable;->b2:[I
+    sget-object v1, Lcom/res/provider/ResSTYLEABLE;->b2:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

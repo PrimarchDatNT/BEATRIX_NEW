@@ -136,7 +136,7 @@
     invoke-direct {p0, p1, p2}, Lcom/commsource/widget/AutoFitTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 2
-    sget-object v0, Lcom/commsource/beautyplus/R$styleable;->E:[I
+    sget-object v0, Lcom/res/provider/ResSTYLEABLE;->E:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

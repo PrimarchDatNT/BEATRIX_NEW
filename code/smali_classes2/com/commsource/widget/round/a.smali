@@ -161,7 +161,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    sget-object v1, Lcom/commsource/beautyplus/R$styleable;->L1:[I
+    sget-object v1, Lcom/res/provider/ResSTYLEABLE;->L1:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

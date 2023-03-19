@@ -82,7 +82,7 @@
     iput-object v0, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->f:Landroid/graphics/DrawFilter;
 
     .line 9
-    sget-object v0, Lcom/commsource/beautyplus/R$styleable;->D1:[I
+    sget-object v0, Lcom/res/provider/ResSTYLEABLE;->D1:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

@@ -284,7 +284,7 @@
     if-eqz p2, :cond_0
 
     .line 18
-    sget-object v2, Lcom/commsource/beautyplus/R$styleable;->a1:[I
+    sget-object v2, Lcom/res/provider/ResSTYLEABLE;->a1:[I
 
     invoke-virtual {p1, p2, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

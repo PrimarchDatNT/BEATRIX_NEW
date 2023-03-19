@@ -37,7 +37,7 @@
     invoke-virtual {p0, v0}, Landroid/widget/TextView;->setGravity(I)V
 
     .line 4
-    sget-object v0, Lcom/commsource/beautyplus/R$styleable;->C1:[I
+    sget-object v0, Lcom/res/provider/ResSTYLEABLE;->C1:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

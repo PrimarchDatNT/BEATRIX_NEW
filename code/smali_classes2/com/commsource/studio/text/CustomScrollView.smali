@@ -144,7 +144,7 @@
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/studio/text/CustomScrollView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 3
-    sget-object v1, Lcom/commsource/beautyplus/R$styleable;->g0:[I
+    sget-object v1, Lcom/res/provider/ResSTYLEABLE;->g0:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
