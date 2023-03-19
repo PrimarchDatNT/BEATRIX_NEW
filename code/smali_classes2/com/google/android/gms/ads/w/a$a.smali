@@ -14,19 +14,19 @@
 
 
 # static fields
-.field public static final a:I = 0x7f0f07ae
+.field public static final a:I 
 
-.field public static final b:I = 0x7f0f07af
+.field public static final b:I 
 
-.field public static final c:I = 0x7f0f07b1
+.field public static final c:I 
 
-.field public static final d:I = 0x7f0f07b2
+.field public static final d:I 
 
-.field public static final e:I = 0x7f0f07b3
+.field public static final e:I 
 
-.field public static final f:I = 0x7f0f07b4
+.field public static final f:I 
 
-.field public static final g:I = 0x7f0f07b5
+.field public static final g:I 
 
 
 # direct methods
@@ -36,4 +36,29 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResSTRING;->s1:I
+   sput-object v0, Lcom/google/android/gms/ads/w/a$a;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->s2:I
+   sput-object v0, Lcom/google/android/gms/ads/w/a$a;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->s3:I
+   sput-object v0, Lcom/google/android/gms/ads/w/a$a;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->s4:I
+   sput-object v0, Lcom/google/android/gms/ads/w/a$a;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->s5:I
+   sput-object v0, Lcom/google/android/gms/ads/w/a$a;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->s6:I
+   sput-object v0, Lcom/google/android/gms/ads/w/a$a;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->s7:I
+   sput-object v0, Lcom/google/android/gms/ads/w/a$a;->g:I 
+   return-void
 .end method

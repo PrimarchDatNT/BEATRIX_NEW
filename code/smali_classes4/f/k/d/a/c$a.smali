@@ -14,9 +14,9 @@
 
 
 # static fields
-.field public static final a:I = 0x7f0f02b4
+.field public static final a:I
 
-.field public static final b:I = 0x7f0f05f5
+.field public static final b:I
 
 
 # direct methods
@@ -26,4 +26,16 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+
+    sget-object v0, Lcom/res/provider/ResSTRING;->crash_fingerprint_value:I
+    sput-object v0, Lf/k/d/a/c$a;->a:I
+
+    sget-object v0, Lcom/res/provider/ResSTRING;->meitu_ci_variant_id:I
+    sput-object v0, Lf/k/d/a/c$a;->b:I
+
+   return-void
 .end method

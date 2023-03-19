@@ -14,15 +14,15 @@
 
 
 # static fields
-.field public static final a:I = 0x7f0f0671
+.field public static final a:I 
 
-.field public static final b:I = 0x7f0f0672
+.field public static final b:I 
 
-.field public static final c:I = 0x7f0f0673
+.field public static final c:I 
 
-.field public static final d:I = 0x7f0f0674
+.field public static final d:I 
 
-.field public static final e:I = 0x7f0f0675
+.field public static final e:I 
 
 
 # direct methods
@@ -32,4 +32,23 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResSTRING;->mtcamera_system_htc:I
+   sput-object v0, Lf/k/t/d$b;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->mtcamera_system_huawei:I
+   sput-object v0, Lf/k/t/d$b;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->mtcamera_system_meizu:I
+   sput-object v0, Lf/k/t/d$b;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->mtcamera_system_samsung:I
+   sput-object v0, Lf/k/t/d$b;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->mtcamera_system_xiaomi:I
+   sput-object v0, Lf/k/t/d$b;->e:I 
+   return-void
 .end method

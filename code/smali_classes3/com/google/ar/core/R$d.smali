@@ -14,15 +14,15 @@
 
 
 # static fields
-.field public static final a:I = 0x7f0f0013
+.field public static final a:I 
 
-.field public static final b:I = 0x7f0f0014
+.field public static final b:I 
 
-.field public static final c:I = 0x7f0f0015
+.field public static final c:I 
 
-.field public static final d:I = 0x7f0f0016
+.field public static final d:I 
 
-.field public static final e:I = 0x7f0f0017
+.field public static final e:I 
 
 
 # direct methods
@@ -32,4 +32,23 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResSTRING;->__arcore_cancel:I
+   sput-object v0, Lcom/google/ar/core/R$d;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->__arcore_continue:I
+   sput-object v0, Lcom/google/ar/core/R$d;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->__arcore_install_app:I
+   sput-object v0, Lcom/google/ar/core/R$d;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->__arcore_install_feature:I
+   sput-object v0, Lcom/google/ar/core/R$d;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->__arcore_installing:I
+   sput-object v0, Lcom/google/ar/core/R$d;->e:I 
+   return-void
 .end method

@@ -14,29 +14,29 @@
 
 
 # static fields
-.field public static final notification_action_background:I = 0x7f08029a
+.field public static final notification_action_background:I 
 
-.field public static final notification_bg:I = 0x7f08029b
+.field public static final notification_bg:I 
 
-.field public static final notification_bg_low:I = 0x7f08029c
+.field public static final notification_bg_low:I 
 
-.field public static final notification_bg_low_normal:I = 0x7f08029d
+.field public static final notification_bg_low_normal:I 
 
-.field public static final notification_bg_low_pressed:I = 0x7f08029e
+.field public static final notification_bg_low_pressed:I 
 
-.field public static final notification_bg_normal:I = 0x7f08029f
+.field public static final notification_bg_normal:I 
 
-.field public static final notification_bg_normal_pressed:I = 0x7f0802a0
+.field public static final notification_bg_normal_pressed:I 
 
-.field public static final notification_icon_background:I = 0x7f0802a1
+.field public static final notification_icon_background:I 
 
-.field public static final notification_template_icon_bg:I = 0x7f0802a2
+.field public static final notification_template_icon_bg:I 
 
-.field public static final notification_template_icon_low_bg:I = 0x7f0802a3
+.field public static final notification_template_icon_low_bg:I 
 
-.field public static final notification_tile_bg:I = 0x7f0802a4
+.field public static final notification_tile_bg:I 
 
-.field public static final notify_panel_notification_icon_bg:I = 0x7f0802a5
+.field public static final notify_panel_notification_icon_bg:I 
 
 
 # direct methods
@@ -46,4 +46,44 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_action_background:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$drawable;->notification_action_background:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_bg:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$drawable;->notification_bg:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_bg_low:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$drawable;->notification_bg_low:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_bg_low_normal:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$drawable;->notification_bg_low_normal:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_bg_low_pressed:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$drawable;->notification_bg_low_pressed:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_bg_normal:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$drawable;->notification_bg_normal:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_bg_normal_pressed:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$drawable;->notification_bg_normal_pressed:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_icon_background:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$drawable;->notification_icon_background:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_template_icon_bg:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$drawable;->notification_template_icon_bg:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_template_icon_low_bg:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$drawable;->notification_template_icon_low_bg:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_tile_bg:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$drawable;->notification_tile_bg:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notify_panel_notification_icon_bg:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$drawable;->notify_panel_notification_icon_bg:I 
+   return-void
 .end method

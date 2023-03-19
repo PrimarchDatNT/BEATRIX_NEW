@@ -14,335 +14,335 @@
 
 
 # static fields
-.field public static final abc_action_bar_content_inset_material:I = 0x7f070000
+.field public static final abc_action_bar_content_inset_material:I 
 
-.field public static final abc_action_bar_content_inset_with_nav:I = 0x7f070001
+.field public static final abc_action_bar_content_inset_with_nav:I 
 
-.field public static final abc_action_bar_default_height_material:I = 0x7f070002
+.field public static final abc_action_bar_default_height_material:I 
 
-.field public static final abc_action_bar_default_padding_end_material:I = 0x7f070003
+.field public static final abc_action_bar_default_padding_end_material:I 
 
-.field public static final abc_action_bar_default_padding_start_material:I = 0x7f070004
+.field public static final abc_action_bar_default_padding_start_material:I 
 
-.field public static final abc_action_bar_elevation_material:I = 0x7f070005
+.field public static final abc_action_bar_elevation_material:I 
 
-.field public static final abc_action_bar_icon_vertical_padding_material:I = 0x7f070006
+.field public static final abc_action_bar_icon_vertical_padding_material:I 
 
-.field public static final abc_action_bar_overflow_padding_end_material:I = 0x7f070007
+.field public static final abc_action_bar_overflow_padding_end_material:I 
 
-.field public static final abc_action_bar_overflow_padding_start_material:I = 0x7f070008
+.field public static final abc_action_bar_overflow_padding_start_material:I 
 
-.field public static final abc_action_bar_stacked_max_height:I = 0x7f070009
+.field public static final abc_action_bar_stacked_max_height:I 
 
-.field public static final abc_action_bar_stacked_tab_max_width:I = 0x7f07000a
+.field public static final abc_action_bar_stacked_tab_max_width:I 
 
-.field public static final abc_action_bar_subtitle_bottom_margin_material:I = 0x7f07000b
+.field public static final abc_action_bar_subtitle_bottom_margin_material:I 
 
-.field public static final abc_action_bar_subtitle_top_margin_material:I = 0x7f07000c
+.field public static final abc_action_bar_subtitle_top_margin_material:I 
 
-.field public static final abc_action_button_min_height_material:I = 0x7f07000d
+.field public static final abc_action_button_min_height_material:I 
 
-.field public static final abc_action_button_min_width_material:I = 0x7f07000e
+.field public static final abc_action_button_min_width_material:I 
 
-.field public static final abc_action_button_min_width_overflow_material:I = 0x7f07000f
+.field public static final abc_action_button_min_width_overflow_material:I 
 
-.field public static final abc_alert_dialog_button_bar_height:I = 0x7f070010
+.field public static final abc_alert_dialog_button_bar_height:I 
 
-.field public static final abc_alert_dialog_button_dimen:I = 0x7f070011
+.field public static final abc_alert_dialog_button_dimen:I 
 
-.field public static final abc_button_inset_horizontal_material:I = 0x7f070012
+.field public static final abc_button_inset_horizontal_material:I 
 
-.field public static final abc_button_inset_vertical_material:I = 0x7f070013
+.field public static final abc_button_inset_vertical_material:I 
 
-.field public static final abc_button_padding_horizontal_material:I = 0x7f070014
+.field public static final abc_button_padding_horizontal_material:I 
 
-.field public static final abc_button_padding_vertical_material:I = 0x7f070015
+.field public static final abc_button_padding_vertical_material:I 
 
-.field public static final abc_cascading_menus_min_smallest_width:I = 0x7f070016
+.field public static final abc_cascading_menus_min_smallest_width:I 
 
-.field public static final abc_config_prefDialogWidth:I = 0x7f070017
+.field public static final abc_config_prefDialogWidth:I 
 
-.field public static final abc_control_corner_material:I = 0x7f070018
+.field public static final abc_control_corner_material:I 
 
-.field public static final abc_control_inset_material:I = 0x7f070019
+.field public static final abc_control_inset_material:I 
 
-.field public static final abc_control_padding_material:I = 0x7f07001a
+.field public static final abc_control_padding_material:I 
 
-.field public static final abc_dialog_corner_radius_material:I = 0x7f07001b
+.field public static final abc_dialog_corner_radius_material:I 
 
-.field public static final abc_dialog_fixed_height_major:I = 0x7f07001c
+.field public static final abc_dialog_fixed_height_major:I 
 
-.field public static final abc_dialog_fixed_height_minor:I = 0x7f07001d
+.field public static final abc_dialog_fixed_height_minor:I 
 
-.field public static final abc_dialog_fixed_width_major:I = 0x7f07001e
+.field public static final abc_dialog_fixed_width_major:I 
 
-.field public static final abc_dialog_fixed_width_minor:I = 0x7f07001f
+.field public static final abc_dialog_fixed_width_minor:I 
 
-.field public static final abc_dialog_list_padding_bottom_no_buttons:I = 0x7f070020
+.field public static final abc_dialog_list_padding_bottom_no_buttons:I 
 
-.field public static final abc_dialog_list_padding_top_no_title:I = 0x7f070021
+.field public static final abc_dialog_list_padding_top_no_title:I 
 
-.field public static final abc_dialog_min_width_major:I = 0x7f070022
+.field public static final abc_dialog_min_width_major:I 
 
-.field public static final abc_dialog_min_width_minor:I = 0x7f070023
+.field public static final abc_dialog_min_width_minor:I 
 
-.field public static final abc_dialog_padding_material:I = 0x7f070024
+.field public static final abc_dialog_padding_material:I 
 
-.field public static final abc_dialog_padding_top_material:I = 0x7f070025
+.field public static final abc_dialog_padding_top_material:I 
 
-.field public static final abc_dialog_title_divider_material:I = 0x7f070026
+.field public static final abc_dialog_title_divider_material:I 
 
-.field public static final abc_disabled_alpha_material_dark:I = 0x7f070027
+.field public static final abc_disabled_alpha_material_dark:I 
 
-.field public static final abc_disabled_alpha_material_light:I = 0x7f070028
+.field public static final abc_disabled_alpha_material_light:I 
 
-.field public static final abc_dropdownitem_icon_width:I = 0x7f070029
+.field public static final abc_dropdownitem_icon_width:I 
 
-.field public static final abc_dropdownitem_text_padding_left:I = 0x7f07002a
+.field public static final abc_dropdownitem_text_padding_left:I 
 
-.field public static final abc_dropdownitem_text_padding_right:I = 0x7f07002b
+.field public static final abc_dropdownitem_text_padding_right:I 
 
-.field public static final abc_edit_text_inset_bottom_material:I = 0x7f07002c
+.field public static final abc_edit_text_inset_bottom_material:I 
 
-.field public static final abc_edit_text_inset_horizontal_material:I = 0x7f07002d
+.field public static final abc_edit_text_inset_horizontal_material:I 
 
-.field public static final abc_edit_text_inset_top_material:I = 0x7f07002e
+.field public static final abc_edit_text_inset_top_material:I 
 
-.field public static final abc_floating_window_z:I = 0x7f07002f
+.field public static final abc_floating_window_z:I 
 
-.field public static final abc_list_item_padding_horizontal_material:I = 0x7f070030
+.field public static final abc_list_item_padding_horizontal_material:I 
 
-.field public static final abc_panel_menu_list_width:I = 0x7f070031
+.field public static final abc_panel_menu_list_width:I 
 
-.field public static final abc_progress_bar_height_material:I = 0x7f070032
+.field public static final abc_progress_bar_height_material:I 
 
-.field public static final abc_search_view_preferred_height:I = 0x7f070033
+.field public static final abc_search_view_preferred_height:I 
 
-.field public static final abc_search_view_preferred_width:I = 0x7f070034
+.field public static final abc_search_view_preferred_width:I 
 
-.field public static final abc_seekbar_track_background_height_material:I = 0x7f070035
+.field public static final abc_seekbar_track_background_height_material:I 
 
-.field public static final abc_seekbar_track_progress_height_material:I = 0x7f070036
+.field public static final abc_seekbar_track_progress_height_material:I 
 
-.field public static final abc_select_dialog_padding_start_material:I = 0x7f070037
+.field public static final abc_select_dialog_padding_start_material:I 
 
-.field public static final abc_switch_padding:I = 0x7f070038
+.field public static final abc_switch_padding:I 
 
-.field public static final abc_text_size_body_1_material:I = 0x7f070039
+.field public static final abc_text_size_body_1_material:I 
 
-.field public static final abc_text_size_body_2_material:I = 0x7f07003a
+.field public static final abc_text_size_body_2_material:I 
 
-.field public static final abc_text_size_button_material:I = 0x7f07003b
+.field public static final abc_text_size_button_material:I 
 
-.field public static final abc_text_size_caption_material:I = 0x7f07003c
+.field public static final abc_text_size_caption_material:I 
 
-.field public static final abc_text_size_display_1_material:I = 0x7f07003d
+.field public static final abc_text_size_display_1_material:I 
 
-.field public static final abc_text_size_display_2_material:I = 0x7f07003e
+.field public static final abc_text_size_display_2_material:I 
 
-.field public static final abc_text_size_display_3_material:I = 0x7f07003f
+.field public static final abc_text_size_display_3_material:I 
 
-.field public static final abc_text_size_display_4_material:I = 0x7f070040
+.field public static final abc_text_size_display_4_material:I 
 
-.field public static final abc_text_size_headline_material:I = 0x7f070041
+.field public static final abc_text_size_headline_material:I 
 
-.field public static final abc_text_size_large_material:I = 0x7f070042
+.field public static final abc_text_size_large_material:I 
 
-.field public static final abc_text_size_medium_material:I = 0x7f070043
+.field public static final abc_text_size_medium_material:I 
 
-.field public static final abc_text_size_menu_header_material:I = 0x7f070044
+.field public static final abc_text_size_menu_header_material:I 
 
-.field public static final abc_text_size_menu_material:I = 0x7f070045
+.field public static final abc_text_size_menu_material:I 
 
-.field public static final abc_text_size_small_material:I = 0x7f070046
+.field public static final abc_text_size_small_material:I 
 
-.field public static final abc_text_size_subhead_material:I = 0x7f070047
+.field public static final abc_text_size_subhead_material:I 
 
-.field public static final abc_text_size_subtitle_material_toolbar:I = 0x7f070048
+.field public static final abc_text_size_subtitle_material_toolbar:I 
 
-.field public static final abc_text_size_title_material:I = 0x7f070049
+.field public static final abc_text_size_title_material:I 
 
-.field public static final abc_text_size_title_material_toolbar:I = 0x7f07004a
+.field public static final abc_text_size_title_material_toolbar:I 
 
-.field public static final close_button_edge_margin:I = 0x7f070078
+.field public static final close_button_edge_margin:I 
 
-.field public static final close_button_edge_padding:I = 0x7f070079
+.field public static final close_button_edge_padding:I 
 
-.field public static final close_button_image_padding_bottom_left:I = 0x7f07007a
+.field public static final close_button_image_padding_bottom_left:I 
 
-.field public static final close_button_image_padding_top_right:I = 0x7f07007b
+.field public static final close_button_image_padding_top_right:I 
 
-.field public static final close_button_text_right_margin:I = 0x7f07007c
+.field public static final close_button_text_right_margin:I 
 
-.field public static final close_button_text_size:I = 0x7f07007d
+.field public static final close_button_text_size:I 
 
-.field public static final close_button_widget_height:I = 0x7f07007e
+.field public static final close_button_widget_height:I 
 
-.field public static final closeable_layout_button_padding:I = 0x7f07007f
+.field public static final closeable_layout_button_padding:I 
 
-.field public static final closeable_layout_button_size:I = 0x7f070080
+.field public static final closeable_layout_button_size:I 
 
-.field public static final closeable_layout_region_size:I = 0x7f070081
+.field public static final closeable_layout_region_size:I 
 
-.field public static final compat_button_inset_horizontal_material:I = 0x7f070092
+.field public static final compat_button_inset_horizontal_material:I 
 
-.field public static final compat_button_inset_vertical_material:I = 0x7f070093
+.field public static final compat_button_inset_vertical_material:I 
 
-.field public static final compat_button_padding_horizontal_material:I = 0x7f070094
+.field public static final compat_button_padding_horizontal_material:I 
 
-.field public static final compat_button_padding_vertical_material:I = 0x7f070095
+.field public static final compat_button_padding_vertical_material:I 
 
-.field public static final compat_control_corner_material:I = 0x7f070096
+.field public static final compat_control_corner_material:I 
 
-.field public static final compat_notification_large_icon_max_height:I = 0x7f070097
+.field public static final compat_notification_large_icon_max_height:I 
 
-.field public static final compat_notification_large_icon_max_width:I = 0x7f070098
+.field public static final compat_notification_large_icon_max_width:I 
 
-.field public static final cta_button_corner_radius:I = 0x7f070099
+.field public static final cta_button_corner_radius:I 
 
-.field public static final cta_button_height:I = 0x7f07009a
+.field public static final cta_button_height:I 
 
-.field public static final cta_button_margin:I = 0x7f07009b
+.field public static final cta_button_margin:I 
 
-.field public static final cta_button_outline_stroke_width:I = 0x7f07009c
+.field public static final cta_button_outline_stroke_width:I 
 
-.field public static final cta_button_text_size:I = 0x7f07009d
+.field public static final cta_button_text_size:I 
 
-.field public static final cta_button_width:I = 0x7f07009e
+.field public static final cta_button_width:I 
 
-.field public static final disabled_alpha_material_dark:I = 0x7f0700cb
+.field public static final disabled_alpha_material_dark:I 
 
-.field public static final disabled_alpha_material_light:I = 0x7f0700cc
+.field public static final disabled_alpha_material_light:I 
 
-.field public static final gradient_strip_height:I = 0x7f0700d5
+.field public static final gradient_strip_height:I 
 
-.field public static final highlight_alpha_material_colored:I = 0x7f0700d8
+.field public static final highlight_alpha_material_colored:I 
 
-.field public static final highlight_alpha_material_dark:I = 0x7f0700d9
+.field public static final highlight_alpha_material_dark:I 
 
-.field public static final highlight_alpha_material_light:I = 0x7f0700da
+.field public static final highlight_alpha_material_light:I 
 
-.field public static final hint_alpha_material_dark:I = 0x7f0700db
+.field public static final hint_alpha_material_dark:I 
 
-.field public static final hint_alpha_material_light:I = 0x7f0700dc
+.field public static final hint_alpha_material_light:I 
 
-.field public static final hint_pressed_alpha_material_dark:I = 0x7f0700dd
+.field public static final hint_pressed_alpha_material_dark:I 
 
-.field public static final hint_pressed_alpha_material_light:I = 0x7f0700de
+.field public static final hint_pressed_alpha_material_light:I 
 
-.field public static final media2_widget_bottom_bar_height:I = 0x7f0700ef
+.field public static final media2_widget_bottom_bar_height:I 
 
-.field public static final media2_widget_custom_progress_margin_bottom:I = 0x7f0700f0
+.field public static final media2_widget_custom_progress_margin_bottom:I 
 
-.field public static final media2_widget_custom_progress_max_size:I = 0x7f0700f1
+.field public static final media2_widget_custom_progress_max_size:I 
 
-.field public static final media2_widget_custom_progress_thumb_size:I = 0x7f0700f2
+.field public static final media2_widget_custom_progress_thumb_size:I 
 
-.field public static final media2_widget_embedded_icon_padding:I = 0x7f0700f3
+.field public static final media2_widget_embedded_icon_padding:I 
 
-.field public static final media2_widget_embedded_settings_width:I = 0x7f0700f4
+.field public static final media2_widget_embedded_settings_width:I 
 
-.field public static final media2_widget_full_icon_padding:I = 0x7f0700f5
+.field public static final media2_widget_full_icon_padding:I 
 
-.field public static final media2_widget_full_settings_width:I = 0x7f0700f6
+.field public static final media2_widget_full_settings_width:I 
 
-.field public static final media2_widget_icon_margin:I = 0x7f0700f7
+.field public static final media2_widget_icon_margin:I 
 
-.field public static final media2_widget_icon_size:I = 0x7f0700f8
+.field public static final media2_widget_icon_size:I 
 
-.field public static final media2_widget_music_view_artist_text_size:I = 0x7f0700f9
+.field public static final media2_widget_music_view_artist_text_size:I 
 
-.field public static final media2_widget_music_view_full_image_size:I = 0x7f0700fa
+.field public static final media2_widget_music_view_full_image_size:I 
 
-.field public static final media2_widget_music_view_full_padding:I = 0x7f0700fb
+.field public static final media2_widget_music_view_full_padding:I 
 
-.field public static final media2_widget_music_view_image_title_gap:I = 0x7f0700fc
+.field public static final media2_widget_music_view_image_title_gap:I 
 
-.field public static final media2_widget_music_view_landscape_text_minimum_width:I = 0x7f0700fd
+.field public static final media2_widget_music_view_landscape_text_minimum_width:I 
 
-.field public static final media2_widget_music_view_title_text_size:I = 0x7f0700fe
+.field public static final media2_widget_music_view_title_text_size:I 
 
-.field public static final media2_widget_pause_icon_padding:I = 0x7f0700ff
+.field public static final media2_widget_pause_icon_padding:I 
 
-.field public static final media2_widget_settings_height:I = 0x7f070100
+.field public static final media2_widget_settings_height:I 
 
-.field public static final media2_widget_settings_icon_size:I = 0x7f070101
+.field public static final media2_widget_settings_icon_size:I 
 
-.field public static final media2_widget_settings_main_text_size:I = 0x7f070102
+.field public static final media2_widget_settings_main_text_size:I 
 
-.field public static final media2_widget_settings_offset:I = 0x7f070103
+.field public static final media2_widget_settings_offset:I 
 
-.field public static final media2_widget_settings_sub_text_size:I = 0x7f070104
+.field public static final media2_widget_settings_sub_text_size:I 
 
-.field public static final media2_widget_settings_text_height:I = 0x7f070105
+.field public static final media2_widget_settings_text_height:I 
 
-.field public static final media2_widget_subtitle_corner_radius:I = 0x7f070106
+.field public static final media2_widget_subtitle_corner_radius:I 
 
-.field public static final media2_widget_subtitle_outline_width:I = 0x7f070107
+.field public static final media2_widget_subtitle_outline_width:I 
 
-.field public static final media2_widget_subtitle_shadow_offset:I = 0x7f070108
+.field public static final media2_widget_subtitle_shadow_offset:I 
 
-.field public static final media2_widget_subtitle_shadow_radius:I = 0x7f070109
+.field public static final media2_widget_subtitle_shadow_radius:I 
 
-.field public static final media2_widget_title_bar_height:I = 0x7f07010a
+.field public static final media2_widget_title_bar_height:I 
 
-.field public static final notification_action_icon_size:I = 0x7f07013c
+.field public static final notification_action_icon_size:I 
 
-.field public static final notification_action_text_size:I = 0x7f07013d
+.field public static final notification_action_text_size:I 
 
-.field public static final notification_big_circle_margin:I = 0x7f07013e
+.field public static final notification_big_circle_margin:I 
 
-.field public static final notification_content_margin_start:I = 0x7f07013f
+.field public static final notification_content_margin_start:I 
 
-.field public static final notification_large_icon_height:I = 0x7f070140
+.field public static final notification_large_icon_height:I 
 
-.field public static final notification_large_icon_width:I = 0x7f070141
+.field public static final notification_large_icon_width:I 
 
-.field public static final notification_main_column_padding_top:I = 0x7f070142
+.field public static final notification_main_column_padding_top:I 
 
-.field public static final notification_media_narrow_margin:I = 0x7f070143
+.field public static final notification_media_narrow_margin:I 
 
-.field public static final notification_right_icon_size:I = 0x7f070144
+.field public static final notification_right_icon_size:I 
 
-.field public static final notification_right_side_padding_top:I = 0x7f070145
+.field public static final notification_right_side_padding_top:I 
 
-.field public static final notification_small_icon_background_padding:I = 0x7f070146
+.field public static final notification_small_icon_background_padding:I 
 
-.field public static final notification_small_icon_size_as_large:I = 0x7f070147
+.field public static final notification_small_icon_size_as_large:I 
 
-.field public static final notification_subtext_size:I = 0x7f070148
+.field public static final notification_subtext_size:I 
 
-.field public static final notification_top_pad:I = 0x7f070149
+.field public static final notification_top_pad:I 
 
-.field public static final notification_top_pad_large_text:I = 0x7f07014a
+.field public static final notification_top_pad_large_text:I 
 
-.field public static final progress_bar_height:I = 0x7f07014c
+.field public static final progress_bar_height:I 
 
-.field public static final radial_countdown_padding:I = 0x7f07014e
+.field public static final radial_countdown_padding:I 
 
-.field public static final radial_countdown_right_margin:I = 0x7f07014f
+.field public static final radial_countdown_right_margin:I 
 
-.field public static final radial_countdown_side_length:I = 0x7f070150
+.field public static final radial_countdown_side_length:I 
 
-.field public static final radial_countdown_text_size:I = 0x7f070151
+.field public static final radial_countdown_text_size:I 
 
-.field public static final radial_countdown_top_margin:I = 0x7f070152
+.field public static final radial_countdown_top_margin:I 
 
-.field public static final tooltip_corner_radius:I = 0x7f070164
+.field public static final tooltip_corner_radius:I 
 
-.field public static final tooltip_horizontal_padding:I = 0x7f070165
+.field public static final tooltip_horizontal_padding:I 
 
-.field public static final tooltip_margin:I = 0x7f070166
+.field public static final tooltip_margin:I 
 
-.field public static final tooltip_precise_anchor_extra_offset:I = 0x7f070167
+.field public static final tooltip_precise_anchor_extra_offset:I 
 
-.field public static final tooltip_precise_anchor_threshold:I = 0x7f070168
+.field public static final tooltip_precise_anchor_threshold:I 
 
-.field public static final tooltip_vertical_padding:I = 0x7f070169
+.field public static final tooltip_vertical_padding:I 
 
-.field public static final tooltip_y_offset_non_touch:I = 0x7f07016a
+.field public static final tooltip_y_offset_non_touch:I 
 
-.field public static final tooltip_y_offset_touch:I = 0x7f07016b
+.field public static final tooltip_y_offset_touch:I 
 
 
 # direct methods
@@ -352,4 +352,503 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_content_inset_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_action_bar_content_inset_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_content_inset_with_nav:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_action_bar_content_inset_with_nav:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_default_height_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_action_bar_default_height_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_default_padding_end_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_action_bar_default_padding_end_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_default_padding_start_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_action_bar_default_padding_start_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_elevation_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_action_bar_elevation_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_icon_vertical_padding_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_action_bar_icon_vertical_padding_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_overflow_padding_end_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_action_bar_overflow_padding_end_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_overflow_padding_start_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_action_bar_overflow_padding_start_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_stacked_max_height:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_action_bar_stacked_max_height:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_stacked_tab_max_width:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_action_bar_stacked_tab_max_width:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_subtitle_bottom_margin_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_action_bar_subtitle_bottom_margin_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_subtitle_top_margin_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_action_bar_subtitle_top_margin_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_button_min_height_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_action_button_min_height_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_button_min_width_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_action_button_min_width_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_button_min_width_overflow_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_action_button_min_width_overflow_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_alert_dialog_button_bar_height:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_alert_dialog_button_bar_height:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_alert_dialog_button_dimen:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_alert_dialog_button_dimen:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_button_inset_horizontal_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_button_inset_horizontal_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_button_inset_vertical_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_button_inset_vertical_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_button_padding_horizontal_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_button_padding_horizontal_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_button_padding_vertical_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_button_padding_vertical_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_cascading_menus_min_smallest_width:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_cascading_menus_min_smallest_width:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_config_prefDialogWidth:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_config_prefDialogWidth:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_control_corner_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_control_corner_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_control_inset_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_control_inset_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_control_padding_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_control_padding_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_corner_radius_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_dialog_corner_radius_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_fixed_height_major:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_dialog_fixed_height_major:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_fixed_height_minor:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_dialog_fixed_height_minor:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_fixed_width_major:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_dialog_fixed_width_major:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_fixed_width_minor:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_dialog_fixed_width_minor:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_list_padding_bottom_no_buttons:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_dialog_list_padding_bottom_no_buttons:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_list_padding_top_no_title:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_dialog_list_padding_top_no_title:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_min_width_major:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_dialog_min_width_major:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_min_width_minor:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_dialog_min_width_minor:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_padding_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_dialog_padding_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_padding_top_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_dialog_padding_top_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_title_divider_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_dialog_title_divider_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_disabled_alpha_material_dark:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_disabled_alpha_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_disabled_alpha_material_light:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_disabled_alpha_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dropdownitem_icon_width:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_dropdownitem_icon_width:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dropdownitem_text_padding_left:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_dropdownitem_text_padding_left:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dropdownitem_text_padding_right:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_dropdownitem_text_padding_right:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_edit_text_inset_bottom_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_edit_text_inset_bottom_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_edit_text_inset_horizontal_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_edit_text_inset_horizontal_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_edit_text_inset_top_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_edit_text_inset_top_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_floating_window_z:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_floating_window_z:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_list_item_padding_horizontal_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_list_item_padding_horizontal_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_panel_menu_list_width:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_panel_menu_list_width:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_progress_bar_height_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_progress_bar_height_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_search_view_preferred_height:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_search_view_preferred_height:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_search_view_preferred_width:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_search_view_preferred_width:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_seekbar_track_background_height_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_seekbar_track_background_height_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_seekbar_track_progress_height_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_seekbar_track_progress_height_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_select_dialog_padding_start_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_select_dialog_padding_start_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_switch_padding:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_switch_padding:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_body_1_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_text_size_body_1_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_body_2_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_text_size_body_2_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_button_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_text_size_button_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_caption_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_text_size_caption_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_display_1_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_text_size_display_1_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_display_2_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_text_size_display_2_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_display_3_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_text_size_display_3_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_display_4_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_text_size_display_4_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_headline_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_text_size_headline_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_large_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_text_size_large_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_medium_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_text_size_medium_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_menu_header_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_text_size_menu_header_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_menu_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_text_size_menu_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_small_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_text_size_small_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_subhead_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_text_size_subhead_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_subtitle_material_toolbar:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_text_size_subtitle_material_toolbar:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_title_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_text_size_title_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_title_material_toolbar:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->abc_text_size_title_material_toolbar:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->close_button_edge_margin:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->close_button_edge_margin:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->close_button_edge_padding:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->close_button_edge_padding:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->close_button_image_padding_bottom_left:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->close_button_image_padding_bottom_left:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->close_button_image_padding_top_right:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->close_button_image_padding_top_right:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->close_button_text_right_margin:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->close_button_text_right_margin:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->close_button_text_size:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->close_button_text_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->close_button_widget_height:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->close_button_widget_height:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->closeable_layout_button_padding:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->closeable_layout_button_padding:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->closeable_layout_button_size:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->closeable_layout_button_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->closeable_layout_region_size:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->closeable_layout_region_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_button_inset_horizontal_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->compat_button_inset_horizontal_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_button_inset_vertical_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->compat_button_inset_vertical_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_button_padding_horizontal_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->compat_button_padding_horizontal_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_button_padding_vertical_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->compat_button_padding_vertical_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_control_corner_material:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->compat_control_corner_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_notification_large_icon_max_height:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->compat_notification_large_icon_max_height:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_notification_large_icon_max_width:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->compat_notification_large_icon_max_width:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->cta_button_corner_radius:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->cta_button_corner_radius:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->cta_button_height:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->cta_button_height:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->cta_button_margin:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->cta_button_margin:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->cta_button_outline_stroke_width:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->cta_button_outline_stroke_width:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->cta_button_text_size:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->cta_button_text_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->cta_button_width:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->cta_button_width:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->disabled_alpha_material_dark:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->disabled_alpha_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->disabled_alpha_material_light:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->disabled_alpha_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->gradient_strip_height:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->gradient_strip_height:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->highlight_alpha_material_colored:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->highlight_alpha_material_colored:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->highlight_alpha_material_dark:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->highlight_alpha_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->highlight_alpha_material_light:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->highlight_alpha_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->hint_alpha_material_dark:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->hint_alpha_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->hint_alpha_material_light:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->hint_alpha_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->hint_pressed_alpha_material_dark:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->hint_pressed_alpha_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->hint_pressed_alpha_material_light:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->hint_pressed_alpha_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_bottom_bar_height:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_bottom_bar_height:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_custom_progress_margin_bottom:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_custom_progress_margin_bottom:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_custom_progress_max_size:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_custom_progress_max_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_custom_progress_thumb_size:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_custom_progress_thumb_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_embedded_icon_padding:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_embedded_icon_padding:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_embedded_settings_width:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_embedded_settings_width:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_full_icon_padding:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_full_icon_padding:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_full_settings_width:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_full_settings_width:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_icon_margin:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_icon_margin:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_icon_size:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_icon_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_music_view_artist_text_size:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_music_view_artist_text_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_music_view_full_image_size:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_music_view_full_image_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_music_view_full_padding:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_music_view_full_padding:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_music_view_image_title_gap:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_music_view_image_title_gap:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_music_view_landscape_text_minimum_width:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_music_view_landscape_text_minimum_width:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_music_view_title_text_size:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_music_view_title_text_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_pause_icon_padding:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_pause_icon_padding:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_settings_height:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_settings_height:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_settings_icon_size:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_settings_icon_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_settings_main_text_size:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_settings_main_text_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_settings_offset:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_settings_offset:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_settings_sub_text_size:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_settings_sub_text_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_settings_text_height:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_settings_text_height:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_subtitle_corner_radius:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_subtitle_corner_radius:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_subtitle_outline_width:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_subtitle_outline_width:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_subtitle_shadow_offset:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_subtitle_shadow_offset:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_subtitle_shadow_radius:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_subtitle_shadow_radius:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->media2_widget_title_bar_height:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->media2_widget_title_bar_height:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_action_icon_size:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->notification_action_icon_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_action_text_size:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->notification_action_text_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_big_circle_margin:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->notification_big_circle_margin:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_content_margin_start:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->notification_content_margin_start:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_large_icon_height:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->notification_large_icon_height:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_large_icon_width:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->notification_large_icon_width:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_main_column_padding_top:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->notification_main_column_padding_top:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_media_narrow_margin:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->notification_media_narrow_margin:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_right_icon_size:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->notification_right_icon_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_right_side_padding_top:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->notification_right_side_padding_top:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_small_icon_background_padding:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->notification_small_icon_background_padding:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_small_icon_size_as_large:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->notification_small_icon_size_as_large:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_subtext_size:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->notification_subtext_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_top_pad:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->notification_top_pad:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_top_pad_large_text:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->notification_top_pad_large_text:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->progress_bar_height:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->progress_bar_height:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->radial_countdown_padding:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->radial_countdown_padding:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->radial_countdown_right_margin:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->radial_countdown_right_margin:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->radial_countdown_side_length:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->radial_countdown_side_length:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->radial_countdown_text_size:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->radial_countdown_text_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->radial_countdown_top_margin:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->radial_countdown_top_margin:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->tooltip_corner_radius:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->tooltip_corner_radius:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->tooltip_horizontal_padding:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->tooltip_horizontal_padding:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->tooltip_margin:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->tooltip_margin:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->tooltip_precise_anchor_extra_offset:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->tooltip_precise_anchor_extra_offset:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->tooltip_precise_anchor_threshold:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->tooltip_precise_anchor_threshold:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->tooltip_vertical_padding:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->tooltip_vertical_padding:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->tooltip_y_offset_non_touch:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->tooltip_y_offset_non_touch:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->tooltip_y_offset_touch:I
+   sput-object v0, Lcom/mopub/mobileads/interstitial/R$dimen;->tooltip_y_offset_touch:I 
+   return-void
 .end method

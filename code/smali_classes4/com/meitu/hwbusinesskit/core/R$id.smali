@@ -14,159 +14,159 @@
 
 
 # static fields
-.field public static final action0:I = 0x7f090033
+.field public static final action0:I 
 
-.field public static final action_container:I = 0x7f09003b
+.field public static final action_container:I 
 
-.field public static final action_divider:I = 0x7f09003d
+.field public static final action_divider:I 
 
-.field public static final action_image:I = 0x7f09003e
+.field public static final action_image:I 
 
-.field public static final action_text:I = 0x7f090044
+.field public static final action_text:I 
 
-.field public static final actions:I = 0x7f090045
+.field public static final actions:I 
 
-.field public static final adjust_height:I = 0x7f09004f
+.field public static final adjust_height:I 
 
-.field public static final adjust_width:I = 0x7f09005a
+.field public static final adjust_width:I 
 
-.field public static final async:I = 0x7f09008a
+.field public static final async:I 
 
-.field public static final auto:I = 0x7f09008d
+.field public static final auto:I 
 
-.field public static final blocking:I = 0x7f0900b0
+.field public static final blocking:I 
 
-.field public static final bottom:I = 0x7f0900b4
+.field public static final bottom:I 
 
-.field public static final btn_hwbusiness_ad_next:I = 0x7f0900e5
+.field public static final btn_hwbusiness_ad_next:I 
 
-.field public static final bv_hwbusiness_ad_content:I = 0x7f0900ff
+.field public static final bv_hwbusiness_ad_content:I 
 
-.field public static final cancel_action:I = 0x7f090103
+.field public static final cancel_action:I 
 
-.field public static final chronometer:I = 0x7f090121
+.field public static final chronometer:I 
 
-.field public static final dark:I = 0x7f09017f
+.field public static final dark:I 
 
-.field public static final end:I = 0x7f0901bc
+.field public static final end:I 
 
-.field public static final end_padder:I = 0x7f0901bd
+.field public static final end_padder:I 
 
-.field public static final fitCropStart:I = 0x7f0901e6
+.field public static final fitCropStart:I 
 
-.field public static final fitWidthStart:I = 0x7f0901e7
+.field public static final fitWidthStart:I 
 
-.field public static final forever:I = 0x7f090249
+.field public static final forever:I 
 
-.field public static final gl_hwbusiness_ad_scroll_icon_container:I = 0x7f090260
+.field public static final gl_hwbusiness_ad_scroll_icon_container:I 
 
-.field public static final glide_custom_view_target_tag:I = 0x7f090262
+.field public static final glide_custom_view_target_tag:I 
 
-.field public static final icon:I = 0x7f09029a
+.field public static final icon:I 
 
-.field public static final icon_group:I = 0x7f09029d
+.field public static final icon_group:I 
 
-.field public static final icon_only:I = 0x7f09029e
+.field public static final icon_only:I 
 
-.field public static final info:I = 0x7f0902d6
+.field public static final info:I 
 
-.field public static final italic:I = 0x7f0902e2
+.field public static final italic:I 
 
-.field public static final iv_cancel:I = 0x7f09030b
+.field public static final iv_cancel:I 
 
-.field public static final iv_hwbusiness_ad_background:I = 0x7f09033b
+.field public static final iv_hwbusiness_ad_background:I 
 
-.field public static final iv_hwbusiness_ad_bottom_view:I = 0x7f09033c
+.field public static final iv_hwbusiness_ad_bottom_view:I 
 
-.field public static final iv_hwbusiness_ad_choice:I = 0x7f09033d
+.field public static final iv_hwbusiness_ad_choice:I 
 
-.field public static final iv_hwbusiness_ad_cover:I = 0x7f09033e
+.field public static final iv_hwbusiness_ad_cover:I 
 
-.field public static final iv_hwbusiness_ad_icon:I = 0x7f09033f
+.field public static final iv_hwbusiness_ad_icon:I 
 
-.field public static final iv_hwbusiness_ad_platform_choice:I = 0x7f090340
+.field public static final iv_hwbusiness_ad_platform_choice:I 
 
-.field public static final iv_hwbusiness_ad_replay:I = 0x7f090341
+.field public static final iv_hwbusiness_ad_replay:I 
 
-.field public static final left:I = 0x7f09039f
+.field public static final left:I 
 
-.field public static final light:I = 0x7f0903a3
+.field public static final light:I 
 
-.field public static final line1:I = 0x7f0903a5
+.field public static final line1:I 
 
-.field public static final line3:I = 0x7f0903a7
+.field public static final line3:I 
 
-.field public static final media_actions:I = 0x7f09042d
+.field public static final media_actions:I 
 
-.field public static final mv_hwbusiness_ad_google_video:I = 0x7f090459
+.field public static final mv_hwbusiness_ad_google_video:I 
 
-.field public static final mv_hwbusiness_ad_mobvista_video:I = 0x7f09045a
+.field public static final mv_hwbusiness_ad_mobvista_video:I 
 
-.field public static final none:I = 0x7f09046d
+.field public static final none:I 
 
-.field public static final normal:I = 0x7f09046e
+.field public static final normal:I 
 
-.field public static final notification_background:I = 0x7f09046f
+.field public static final notification_background:I 
 
-.field public static final notification_main_column:I = 0x7f090470
+.field public static final notification_main_column:I 
 
-.field public static final notification_main_column_container:I = 0x7f090471
+.field public static final notification_main_column_container:I 
 
-.field public static final pb_loading:I = 0x7f09048c
+.field public static final pb_loading:I 
 
-.field public static final right:I = 0x7f0904e7
+.field public static final right:I 
 
-.field public static final right_icon:I = 0x7f0904ec
+.field public static final right_icon:I 
 
-.field public static final right_side:I = 0x7f0904ee
+.field public static final right_side:I 
 
-.field public static final rl_advert_web:I = 0x7f0904f5
+.field public static final rl_advert_web:I 
 
-.field public static final rl_cancel:I = 0x7f0904ff
+.field public static final rl_cancel:I 
 
-.field public static final rl_hwbusiness_ad_bottom_container:I = 0x7f090512
+.field public static final rl_hwbusiness_ad_bottom_container:I 
 
-.field public static final rl_hwbusiness_ad_container:I = 0x7f090513
+.field public static final rl_hwbusiness_ad_container:I 
 
-.field public static final rl_hwbusiness_ad_next:I = 0x7f090515
+.field public static final rl_hwbusiness_ad_next:I 
 
-.field public static final standard:I = 0x7f0905e5
+.field public static final standard:I 
 
-.field public static final start:I = 0x7f0905e6
+.field public static final start:I 
 
-.field public static final status_bar_latest_event_content:I = 0x7f0905e8
+.field public static final status_bar_latest_event_content:I 
 
-.field public static final tag_transition_group:I = 0x7f090627
+.field public static final tag_transition_group:I 
 
-.field public static final tag_unhandled_key_event_manager:I = 0x7f090628
+.field public static final tag_unhandled_key_event_manager:I 
 
-.field public static final tag_unhandled_key_listeners:I = 0x7f090629
+.field public static final tag_unhandled_key_listeners:I 
 
-.field public static final text:I = 0x7f090631
+.field public static final text:I 
 
-.field public static final text2:I = 0x7f090633
+.field public static final text2:I 
 
-.field public static final time:I = 0x7f09064e
+.field public static final time:I 
 
-.field public static final title:I = 0x7f090654
+.field public static final title:I 
 
-.field public static final top:I = 0x7f09065e
+.field public static final top:I 
 
-.field public static final tv_hwbusiness_ad_content:I = 0x7f0906e9
+.field public static final tv_hwbusiness_ad_content:I 
 
-.field public static final tv_hwbusiness_ad_next:I = 0x7f0906ea
+.field public static final tv_hwbusiness_ad_next:I 
 
-.field public static final tv_hwbusiness_ad_title:I = 0x7f0906eb
+.field public static final tv_hwbusiness_ad_title:I 
 
-.field public static final tv_hwbusiness_ad_video:I = 0x7f0906ec
+.field public static final tv_hwbusiness_ad_video:I 
 
-.field public static final vp_hwbusiness_ad_scroll_text_container:I = 0x7f0907e3
+.field public static final vp_hwbusiness_ad_scroll_text_container:I 
 
-.field public static final wide:I = 0x7f0907f6
+.field public static final wide:I 
 
-.field public static final wv_ad:I = 0x7f0907fa
+.field public static final wv_ad:I 
 
-.field public static final wv_hwbusiness_ad_webview:I = 0x7f0907fc
+.field public static final wv_hwbusiness_ad_webview:I 
 
 
 # direct methods
@@ -176,4 +176,239 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResID;->action0:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->action0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->action_container:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->action_container:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->action_divider:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->action_divider:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->action_image:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->action_image:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->action_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->action_text:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->actions:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->actions:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->adjust_height:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->adjust_height:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->adjust_width:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->adjust_width:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->async:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->async:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->auto:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->auto:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->blocking:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->blocking:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->bottom:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->bottom:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->btn_hwbusiness_ad_next:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->btn_hwbusiness_ad_next:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->bv_hwbusiness_ad_content:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->bv_hwbusiness_ad_content:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->cancel_action:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->cancel_action:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->chronometer:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->chronometer:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->dark:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->dark:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->end:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->end:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->end_padder:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->end_padder:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->fitCropStart:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->fitCropStart:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->fitWidthStart:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->fitWidthStart:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->forever:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->forever:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->gl_hwbusiness_ad_scroll_icon_container:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->gl_hwbusiness_ad_scroll_icon_container:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->glide_custom_view_target_tag:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->glide_custom_view_target_tag:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->icon:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->icon:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->icon_group:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->icon_group:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->icon_only:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->icon_only:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->info:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->info:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->italic:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->italic:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->iv_cancel:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->iv_cancel:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->iv_hwbusiness_ad_background:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->iv_hwbusiness_ad_background:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->iv_hwbusiness_ad_bottom_view:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->iv_hwbusiness_ad_bottom_view:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->iv_hwbusiness_ad_choice:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->iv_hwbusiness_ad_choice:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->iv_hwbusiness_ad_cover:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->iv_hwbusiness_ad_cover:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->iv_hwbusiness_ad_icon:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->iv_hwbusiness_ad_icon:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->iv_hwbusiness_ad_platform_choice:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->iv_hwbusiness_ad_platform_choice:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->iv_hwbusiness_ad_replay:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->iv_hwbusiness_ad_replay:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->left:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->left:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->light:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->light:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->line1:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->line1:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->line3:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->line3:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->media_actions:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->media_actions:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->mv_hwbusiness_ad_google_video:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->mv_hwbusiness_ad_google_video:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->mv_hwbusiness_ad_mobvista_video:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->mv_hwbusiness_ad_mobvista_video:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->none:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->none:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->normal:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->normal:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->notification_background:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->notification_background:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->notification_main_column:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->notification_main_column:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->notification_main_column_container:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->notification_main_column_container:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->pb_loading:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->pb_loading:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->right:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->right:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->right_icon:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->right_icon:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->right_side:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->right_side:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->rl_advert_web:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->rl_advert_web:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->rl_cancel:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->rl_cancel:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->rl_hwbusiness_ad_bottom_container:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->rl_hwbusiness_ad_bottom_container:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->rl_hwbusiness_ad_container:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->rl_hwbusiness_ad_container:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->rl_hwbusiness_ad_next:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->rl_hwbusiness_ad_next:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->standard:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->standard:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->start:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->start:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->status_bar_latest_event_content:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->status_bar_latest_event_content:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->tag_transition_group:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->tag_transition_group:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->tag_unhandled_key_event_manager:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->tag_unhandled_key_event_manager:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->tag_unhandled_key_listeners:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->tag_unhandled_key_listeners:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->text:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->text2:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->text2:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->time:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->time:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->title:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->title:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->top:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->top:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->tv_hwbusiness_ad_content:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->tv_hwbusiness_ad_content:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->tv_hwbusiness_ad_next:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->tv_hwbusiness_ad_next:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->tv_hwbusiness_ad_title:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->tv_hwbusiness_ad_title:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->tv_hwbusiness_ad_video:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->tv_hwbusiness_ad_video:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->vp_hwbusiness_ad_scroll_text_container:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->vp_hwbusiness_ad_scroll_text_container:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->wide:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->wide:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->wv_ad:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->wv_ad:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->wv_hwbusiness_ad_webview:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/core/R$id;->wv_hwbusiness_ad_webview:I 
+   return-void
 .end method

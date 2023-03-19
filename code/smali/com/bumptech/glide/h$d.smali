@@ -14,29 +14,29 @@
 
 
 # static fields
-.field public static final a:I = 0x7f08029a
+.field public static final a:I 
 
-.field public static final b:I = 0x7f08029b
+.field public static final b:I 
 
-.field public static final c:I = 0x7f08029c
+.field public static final c:I 
 
-.field public static final d:I = 0x7f08029d
+.field public static final d:I 
 
-.field public static final e:I = 0x7f08029e
+.field public static final e:I 
 
-.field public static final f:I = 0x7f08029f
+.field public static final f:I 
 
-.field public static final g:I = 0x7f0802a0
+.field public static final g:I 
 
-.field public static final h:I = 0x7f0802a1
+.field public static final h:I 
 
-.field public static final i:I = 0x7f0802a2
+.field public static final i:I 
 
-.field public static final j:I = 0x7f0802a3
+.field public static final j:I 
 
-.field public static final k:I = 0x7f0802a4
+.field public static final k:I 
 
-.field public static final l:I = 0x7f0802a5
+.field public static final l:I 
 
 
 # direct methods
@@ -46,4 +46,44 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_action_background:I
+   sput-object v0, Lcom/bumptech/glide/h$d;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_bg:I
+   sput-object v0, Lcom/bumptech/glide/h$d;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_bg_low:I
+   sput-object v0, Lcom/bumptech/glide/h$d;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_bg_low_normal:I
+   sput-object v0, Lcom/bumptech/glide/h$d;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_bg_low_pressed:I
+   sput-object v0, Lcom/bumptech/glide/h$d;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_bg_normal:I
+   sput-object v0, Lcom/bumptech/glide/h$d;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_bg_normal_pressed:I
+   sput-object v0, Lcom/bumptech/glide/h$d;->g:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_icon_background:I
+   sput-object v0, Lcom/bumptech/glide/h$d;->h:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_template_icon_bg:I
+   sput-object v0, Lcom/bumptech/glide/h$d;->i:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_template_icon_low_bg:I
+   sput-object v0, Lcom/bumptech/glide/h$d;->j:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_tile_bg:I
+   sput-object v0, Lcom/bumptech/glide/h$d;->k:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notify_panel_notification_icon_bg:I
+   sput-object v0, Lcom/bumptech/glide/h$d;->l:I 
+   return-void
 .end method

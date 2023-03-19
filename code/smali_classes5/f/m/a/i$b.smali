@@ -14,29 +14,29 @@
 
 
 # static fields
-.field public static final a:I = 0x7f04004c
+.field public static final a:I 
 
-.field public static final b:I = 0x7f04018a
+.field public static final b:I 
 
-.field public static final c:I = 0x7f04018c
+.field public static final c:I 
 
-.field public static final d:I = 0x7f04018d
+.field public static final d:I 
 
-.field public static final e:I = 0x7f04018e
+.field public static final e:I 
 
-.field public static final f:I = 0x7f04018f
+.field public static final f:I 
 
-.field public static final g:I = 0x7f040190
+.field public static final g:I 
 
-.field public static final h:I = 0x7f040191
+.field public static final h:I 
 
-.field public static final i:I = 0x7f040192
+.field public static final i:I 
 
-.field public static final j:I = 0x7f040193
+.field public static final j:I 
 
-.field public static final k:I = 0x7f040194
+.field public static final k:I 
 
-.field public static final l:I = 0x7f040439
+.field public static final l:I 
 
 
 # direct methods
@@ -46,4 +46,44 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResATTR;->alpha:I
+   sput-object v0, Lf/m/a/i$b;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->font:I
+   sput-object v0, Lf/m/a/i$b;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontProviderAuthority:I
+   sput-object v0, Lf/m/a/i$b;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontProviderCerts:I
+   sput-object v0, Lf/m/a/i$b;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontProviderFetchStrategy:I
+   sput-object v0, Lf/m/a/i$b;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontProviderFetchTimeout:I
+   sput-object v0, Lf/m/a/i$b;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontProviderPackage:I
+   sput-object v0, Lf/m/a/i$b;->g:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontProviderQuery:I
+   sput-object v0, Lf/m/a/i$b;->h:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontStyle:I
+   sput-object v0, Lf/m/a/i$b;->i:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontVariationSettings:I
+   sput-object v0, Lf/m/a/i$b;->j:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontWeight:I
+   sput-object v0, Lf/m/a/i$b;->k:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->ttcIndex:I
+   sput-object v0, Lf/m/a/i$b;->l:I 
+   return-void
 .end method

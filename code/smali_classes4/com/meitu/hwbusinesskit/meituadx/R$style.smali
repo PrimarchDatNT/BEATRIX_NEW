@@ -14,43 +14,43 @@
 
 
 # static fields
-.field public static final NoTitleTranslucentTheme:I = 0x7f100100
+.field public static final NoTitleTranslucentTheme:I 
 
-.field public static final TextAppearance_Compat_Notification:I = 0x7f100153
+.field public static final TextAppearance_Compat_Notification:I 
 
-.field public static final TextAppearance_Compat_Notification_Info:I = 0x7f100154
+.field public static final TextAppearance_Compat_Notification_Info:I 
 
-.field public static final TextAppearance_Compat_Notification_Info_Media:I = 0x7f100155
+.field public static final TextAppearance_Compat_Notification_Info_Media:I 
 
-.field public static final TextAppearance_Compat_Notification_Line2:I = 0x7f100156
+.field public static final TextAppearance_Compat_Notification_Line2:I 
 
-.field public static final TextAppearance_Compat_Notification_Line2_Media:I = 0x7f100157
+.field public static final TextAppearance_Compat_Notification_Line2_Media:I 
 
-.field public static final TextAppearance_Compat_Notification_Media:I = 0x7f100158
+.field public static final TextAppearance_Compat_Notification_Media:I 
 
-.field public static final TextAppearance_Compat_Notification_Time:I = 0x7f100159
+.field public static final TextAppearance_Compat_Notification_Time:I 
 
-.field public static final TextAppearance_Compat_Notification_Time_Media:I = 0x7f10015a
+.field public static final TextAppearance_Compat_Notification_Time_Media:I 
 
-.field public static final TextAppearance_Compat_Notification_Title:I = 0x7f10015b
+.field public static final TextAppearance_Compat_Notification_Title:I 
 
-.field public static final TextAppearance_Compat_Notification_Title_Media:I = 0x7f10015c
+.field public static final TextAppearance_Compat_Notification_Title_Media:I 
 
-.field public static final Widget_Compat_NotificationActionContainer:I = 0x7f100208
+.field public static final Widget_Compat_NotificationActionContainer:I 
 
-.field public static final Widget_Compat_NotificationActionText:I = 0x7f100209
+.field public static final Widget_Compat_NotificationActionText:I 
 
-.field public static final Widget_GifMoviewView:I = 0x7f100214
+.field public static final Widget_GifMoviewView:I 
 
-.field public static final Widget_Support_CoordinatorLayout:I = 0x7f100239
+.field public static final Widget_Support_CoordinatorLayout:I 
 
-.field public static final app_wall_common_rating_style_small:I = 0x7f10023f
+.field public static final app_wall_common_rating_style_small:I 
 
-.field public static final common_rating_style:I = 0x7f10024c
+.field public static final common_rating_style:I 
 
-.field public static final interstital:I = 0x7f100256
+.field public static final interstital:I 
 
-.field public static final video_load_more_btn_style_incentive:I = 0x7f10026b
+.field public static final video_load_more_btn_style_incentive:I 
 
 
 # direct methods
@@ -60,4 +60,65 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResSTYLE;->NoTitleTranslucentTheme:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->NoTitleTranslucentTheme:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->TextAppearance_Compat_Notification:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Info:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->TextAppearance_Compat_Notification_Info:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Info_Media:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->TextAppearance_Compat_Notification_Info_Media:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Line2:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->TextAppearance_Compat_Notification_Line2:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Line2_Media:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->TextAppearance_Compat_Notification_Line2_Media:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Media:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->TextAppearance_Compat_Notification_Media:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Time:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->TextAppearance_Compat_Notification_Time:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Time_Media:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->TextAppearance_Compat_Notification_Time_Media:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Title:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->TextAppearance_Compat_Notification_Title:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Title_Media:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->TextAppearance_Compat_Notification_Title_Media:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->Widget_Compat_NotificationActionContainer:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->Widget_Compat_NotificationActionContainer:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->Widget_Compat_NotificationActionText:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->Widget_Compat_NotificationActionText:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->Widget_GifMoviewView:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->Widget_GifMoviewView:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->Widget_Support_CoordinatorLayout:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->Widget_Support_CoordinatorLayout:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->app_wall_common_rating_style_small:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->app_wall_common_rating_style_small:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->common_rating_style:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->common_rating_style:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->interstital:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->interstital:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->video_load_more_btn_style_incentive:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$style;->video_load_more_btn_style_incentive:I 
+   return-void
 .end method

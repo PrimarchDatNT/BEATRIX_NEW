@@ -14,11 +14,11 @@
 
 
 # static fields
-.field public static final a:I = 0x7f040032
+.field public static final a:I 
 
-.field public static final b:I = 0x7f040033
+.field public static final b:I 
 
-.field public static final c:I = 0x7f040034
+.field public static final c:I 
 
 
 # direct methods
@@ -28,4 +28,17 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResATTR;->adSize:I
+   sput-object v0, Lcom/google/android/gms/ads/r$a;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->adSizes:I
+   sput-object v0, Lcom/google/android/gms/ads/r$a;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->adUnitId:I
+   sput-object v0, Lcom/google/android/gms/ads/r$a;->c:I 
+   return-void
 .end method

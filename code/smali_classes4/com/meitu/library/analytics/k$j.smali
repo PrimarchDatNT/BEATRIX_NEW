@@ -14,81 +14,81 @@
 
 
 # static fields
-.field public static final A:I = 0x7f0f0044
+.field public static final A:I 
 
-.field public static final B:I = 0x7f0f00aa
+.field public static final B:I 
 
-.field public static final C:I = 0x7f0f080d
+.field public static final C:I 
 
-.field public static final D:I = 0x7f0f08dd
+.field public static final D:I 
 
-.field public static final E:I = 0x7f0f0aa1
+.field public static final E:I 
 
-.field public static final F:I = 0x7f0f0aa2
+.field public static final F:I 
 
-.field public static final G:I = 0x7f0f0aa3
+.field public static final G:I 
 
-.field public static final H:I = 0x7f0f0aa4
+.field public static final H:I 
 
-.field public static final I:I = 0x7f0f0aa5
+.field public static final I:I 
 
-.field public static final J:I = 0x7f0f0aa6
+.field public static final J:I 
 
-.field public static final K:I = 0x7f0f0aa7
+.field public static final K:I 
 
-.field public static final L:I = 0x7f0f0aa8
+.field public static final L:I 
 
-.field public static final a:I = 0x7f0f001e
+.field public static final a:I 
 
-.field public static final b:I = 0x7f0f001f
+.field public static final b:I 
 
-.field public static final c:I = 0x7f0f0020
+.field public static final c:I 
 
-.field public static final d:I = 0x7f0f0021
+.field public static final d:I 
 
-.field public static final e:I = 0x7f0f0022
+.field public static final e:I 
 
-.field public static final f:I = 0x7f0f0023
+.field public static final f:I 
 
-.field public static final g:I = 0x7f0f0024
+.field public static final g:I 
 
-.field public static final h:I = 0x7f0f0025
+.field public static final h:I 
 
-.field public static final i:I = 0x7f0f0032
+.field public static final i:I 
 
-.field public static final j:I = 0x7f0f0033
+.field public static final j:I 
 
-.field public static final k:I = 0x7f0f0034
+.field public static final k:I 
 
-.field public static final l:I = 0x7f0f0035
+.field public static final l:I 
 
-.field public static final m:I = 0x7f0f0036
+.field public static final m:I 
 
-.field public static final n:I = 0x7f0f0037
+.field public static final n:I 
 
-.field public static final o:I = 0x7f0f0038
+.field public static final o:I 
 
-.field public static final p:I = 0x7f0f0039
+.field public static final p:I 
 
-.field public static final q:I = 0x7f0f003a
+.field public static final q:I 
 
-.field public static final r:I = 0x7f0f003b
+.field public static final r:I 
 
-.field public static final s:I = 0x7f0f003c
+.field public static final s:I 
 
-.field public static final t:I = 0x7f0f003d
+.field public static final t:I 
 
-.field public static final u:I = 0x7f0f003e
+.field public static final u:I 
 
-.field public static final v:I = 0x7f0f003f
+.field public static final v:I 
 
-.field public static final w:I = 0x7f0f0040
+.field public static final w:I 
 
-.field public static final x:I = 0x7f0f0041
+.field public static final x:I 
 
-.field public static final y:I = 0x7f0f0042
+.field public static final y:I 
 
-.field public static final z:I = 0x7f0f0043
+.field public static final z:I 
 
 
 # direct methods
@@ -98,4 +98,122 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_toolbar_collapse_description:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->A:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->app_name:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->B:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->search_menu_title:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->C:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->status_bar_notification_info_overflow:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->D:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->teemo_ab_aes_key:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->E:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->teemo_app_key:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->F:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->teemo_app_password:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->G:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->teemo_rsa_key:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->H:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->teemo_test_ab_aes_key:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->I:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->teemo_test_app_key:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->J:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->teemo_test_app_password:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->K:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->teemo_test_rsa_key:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->L:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_action_bar_home_description:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_action_bar_up_description:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_action_menu_overflow_description:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_action_mode_done:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_activity_chooser_view_see_all:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_activitychooserview_choose_application:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_capital_off:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->g:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_capital_on:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->h:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_menu_alt_shortcut_label:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->i:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_menu_ctrl_shortcut_label:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->j:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_menu_delete_shortcut_label:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->k:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_menu_enter_shortcut_label:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->l:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_menu_function_shortcut_label:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->m:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_menu_meta_shortcut_label:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->n:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_menu_shift_shortcut_label:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->o:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_menu_space_shortcut_label:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->p:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_menu_sym_shortcut_label:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->q:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_prepend_shortcut_label:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->r:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_search_hint:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->s:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_searchview_description_clear:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->t:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_searchview_description_query:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->u:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_searchview_description_search:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->v:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_searchview_description_submit:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->w:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_searchview_description_voice:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->x:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_shareactionprovider_share_with:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->y:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_shareactionprovider_share_with_application:I
+   sput-object v0, Lcom/meitu/library/analytics/k$j;->z:I 
+   return-void
 .end method

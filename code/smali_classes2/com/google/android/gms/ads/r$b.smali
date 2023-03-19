@@ -14,7 +14,7 @@
 
 
 # static fields
-.field public static final a:I = 0x7f100193
+.field public static final a:I 
 
 
 # direct methods
@@ -24,4 +24,11 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResSTYLE;->Theme_IAPTheme:I
+   sput-object v0, Lcom/google/android/gms/ads/r$b;->a:I 
+   return-void
 .end method

@@ -14,233 +14,233 @@
 
 
 # static fields
-.field public static final A:I = 0x7f07001a
+.field public static final A:I 
 
-.field public static final A0:I = 0x7f070095
+.field public static final A0:I 
 
-.field public static final B:I = 0x7f07001b
+.field public static final B:I 
 
-.field public static final B0:I = 0x7f070096
+.field public static final B0:I 
 
-.field public static final C:I = 0x7f07001c
+.field public static final C:I 
 
-.field public static final C0:I = 0x7f070097
+.field public static final C0:I 
 
-.field public static final D:I = 0x7f07001d
+.field public static final D:I 
 
-.field public static final D0:I = 0x7f070098
+.field public static final D0:I 
 
-.field public static final E:I = 0x7f07001e
+.field public static final E:I 
 
-.field public static final E0:I = 0x7f0700cb
+.field public static final E0:I 
 
-.field public static final F:I = 0x7f07001f
+.field public static final F:I 
 
-.field public static final F0:I = 0x7f0700cc
+.field public static final F0:I 
 
-.field public static final G:I = 0x7f070020
+.field public static final G:I 
 
-.field public static final G0:I = 0x7f0700d8
+.field public static final G0:I 
 
-.field public static final H:I = 0x7f070021
+.field public static final H:I 
 
-.field public static final H0:I = 0x7f0700d9
+.field public static final H0:I 
 
-.field public static final I:I = 0x7f070022
+.field public static final I:I 
 
-.field public static final I0:I = 0x7f0700da
+.field public static final I0:I 
 
-.field public static final J:I = 0x7f070023
+.field public static final J:I 
 
-.field public static final J0:I = 0x7f0700db
+.field public static final J0:I 
 
-.field public static final K:I = 0x7f070024
+.field public static final K:I 
 
-.field public static final K0:I = 0x7f0700dc
+.field public static final K0:I 
 
-.field public static final L:I = 0x7f070025
+.field public static final L:I 
 
-.field public static final L0:I = 0x7f0700dd
+.field public static final L0:I 
 
-.field public static final M:I = 0x7f070026
+.field public static final M:I 
 
-.field public static final M0:I = 0x7f0700de
+.field public static final M0:I 
 
-.field public static final N:I = 0x7f070027
+.field public static final N:I 
 
-.field public static final N0:I = 0x7f07013c
+.field public static final N0:I 
 
-.field public static final O:I = 0x7f070028
+.field public static final O:I 
 
-.field public static final O0:I = 0x7f07013d
+.field public static final O0:I 
 
-.field public static final P:I = 0x7f070029
+.field public static final P:I 
 
-.field public static final P0:I = 0x7f07013e
+.field public static final P0:I 
 
-.field public static final Q:I = 0x7f07002a
+.field public static final Q:I 
 
-.field public static final Q0:I = 0x7f07013f
+.field public static final Q0:I 
 
-.field public static final R:I = 0x7f07002b
+.field public static final R:I 
 
-.field public static final R0:I = 0x7f070140
+.field public static final R0:I 
 
-.field public static final S:I = 0x7f07002c
+.field public static final S:I 
 
-.field public static final S0:I = 0x7f070141
+.field public static final S0:I 
 
-.field public static final T:I = 0x7f07002d
+.field public static final T:I 
 
-.field public static final T0:I = 0x7f070142
+.field public static final T0:I 
 
-.field public static final U:I = 0x7f07002e
+.field public static final U:I 
 
-.field public static final U0:I = 0x7f070143
+.field public static final U0:I 
 
-.field public static final V:I = 0x7f07002f
+.field public static final V:I 
 
-.field public static final V0:I = 0x7f070144
+.field public static final V0:I 
 
-.field public static final W:I = 0x7f070030
+.field public static final W:I 
 
-.field public static final W0:I = 0x7f070145
+.field public static final W0:I 
 
-.field public static final X:I = 0x7f070031
+.field public static final X:I 
 
-.field public static final X0:I = 0x7f070146
+.field public static final X0:I 
 
-.field public static final Y:I = 0x7f070032
+.field public static final Y:I 
 
-.field public static final Y0:I = 0x7f070147
+.field public static final Y0:I 
 
-.field public static final Z:I = 0x7f070033
+.field public static final Z:I 
 
-.field public static final Z0:I = 0x7f070148
+.field public static final Z0:I 
 
-.field public static final a:I = 0x7f070000
+.field public static final a:I 
 
-.field public static final a0:I = 0x7f070034
+.field public static final a0:I 
 
-.field public static final a1:I = 0x7f070149
+.field public static final a1:I 
 
-.field public static final b:I = 0x7f070001
+.field public static final b:I 
 
-.field public static final b0:I = 0x7f070035
+.field public static final b0:I 
 
-.field public static final b1:I = 0x7f07014a
+.field public static final b1:I 
 
-.field public static final c:I = 0x7f070002
+.field public static final c:I 
 
-.field public static final c0:I = 0x7f070036
+.field public static final c0:I 
 
-.field public static final c1:I = 0x7f070164
+.field public static final c1:I 
 
-.field public static final d:I = 0x7f070003
+.field public static final d:I 
 
-.field public static final d0:I = 0x7f070037
+.field public static final d0:I 
 
-.field public static final d1:I = 0x7f070165
+.field public static final d1:I 
 
-.field public static final e:I = 0x7f070004
+.field public static final e:I 
 
-.field public static final e0:I = 0x7f070038
+.field public static final e0:I 
 
-.field public static final e1:I = 0x7f070166
+.field public static final e1:I 
 
-.field public static final f:I = 0x7f070005
+.field public static final f:I 
 
-.field public static final f0:I = 0x7f070039
+.field public static final f0:I 
 
-.field public static final f1:I = 0x7f070167
+.field public static final f1:I 
 
-.field public static final g:I = 0x7f070006
+.field public static final g:I 
 
-.field public static final g0:I = 0x7f07003a
+.field public static final g0:I 
 
-.field public static final g1:I = 0x7f070168
+.field public static final g1:I 
 
-.field public static final h:I = 0x7f070007
+.field public static final h:I 
 
-.field public static final h0:I = 0x7f07003b
+.field public static final h0:I 
 
-.field public static final h1:I = 0x7f070169
+.field public static final h1:I 
 
-.field public static final i:I = 0x7f070008
+.field public static final i:I 
 
-.field public static final i0:I = 0x7f07003c
+.field public static final i0:I 
 
-.field public static final i1:I = 0x7f07016a
+.field public static final i1:I 
 
-.field public static final j:I = 0x7f070009
+.field public static final j:I 
 
-.field public static final j0:I = 0x7f07003d
+.field public static final j0:I 
 
-.field public static final j1:I = 0x7f07016b
+.field public static final j1:I 
 
-.field public static final k:I = 0x7f07000a
+.field public static final k:I 
 
-.field public static final k0:I = 0x7f07003e
+.field public static final k0:I 
 
-.field public static final l:I = 0x7f07000b
+.field public static final l:I 
 
-.field public static final l0:I = 0x7f07003f
+.field public static final l0:I 
 
-.field public static final m:I = 0x7f07000c
+.field public static final m:I 
 
-.field public static final m0:I = 0x7f070040
+.field public static final m0:I 
 
-.field public static final n:I = 0x7f07000d
+.field public static final n:I 
 
-.field public static final n0:I = 0x7f070041
+.field public static final n0:I 
 
-.field public static final o:I = 0x7f07000e
+.field public static final o:I 
 
-.field public static final o0:I = 0x7f070042
+.field public static final o0:I 
 
-.field public static final p:I = 0x7f07000f
+.field public static final p:I 
 
-.field public static final p0:I = 0x7f070043
+.field public static final p0:I 
 
-.field public static final q:I = 0x7f070010
+.field public static final q:I 
 
-.field public static final q0:I = 0x7f070044
+.field public static final q0:I 
 
-.field public static final r:I = 0x7f070011
+.field public static final r:I 
 
-.field public static final r0:I = 0x7f070045
+.field public static final r0:I 
 
-.field public static final s:I = 0x7f070012
+.field public static final s:I 
 
-.field public static final s0:I = 0x7f070046
+.field public static final s0:I 
 
-.field public static final t:I = 0x7f070013
+.field public static final t:I 
 
-.field public static final t0:I = 0x7f070047
+.field public static final t0:I 
 
-.field public static final u:I = 0x7f070014
+.field public static final u:I 
 
-.field public static final u0:I = 0x7f070048
+.field public static final u0:I 
 
-.field public static final v:I = 0x7f070015
+.field public static final v:I 
 
-.field public static final v0:I = 0x7f070049
+.field public static final v0:I 
 
-.field public static final w:I = 0x7f070016
+.field public static final w:I 
 
-.field public static final w0:I = 0x7f07004a
+.field public static final w0:I 
 
-.field public static final x:I = 0x7f070017
+.field public static final x:I 
 
-.field public static final x0:I = 0x7f070092
+.field public static final x0:I 
 
-.field public static final y:I = 0x7f070018
+.field public static final y:I 
 
-.field public static final y0:I = 0x7f070093
+.field public static final y0:I 
 
-.field public static final z:I = 0x7f070019
+.field public static final z:I 
 
-.field public static final z0:I = 0x7f070094
+.field public static final z0:I 
 
 
 # direct methods
@@ -250,4 +250,350 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_control_padding_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->A:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_button_padding_vertical_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->A0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_corner_radius_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->B:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_control_corner_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->B0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_fixed_height_major:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->C:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_notification_large_icon_max_height:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->C0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_fixed_height_minor:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->D:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_notification_large_icon_max_width:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->D0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_fixed_width_major:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->E:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->disabled_alpha_material_dark:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->E0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_fixed_width_minor:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->F:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->disabled_alpha_material_light:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->F0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_list_padding_bottom_no_buttons:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->G:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->highlight_alpha_material_colored:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->G0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_list_padding_top_no_title:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->H:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->highlight_alpha_material_dark:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->H0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_min_width_major:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->I:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->highlight_alpha_material_light:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->I0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_min_width_minor:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->J:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->hint_alpha_material_dark:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->J0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_padding_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->K:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->hint_alpha_material_light:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->K0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_padding_top_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->L:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->hint_pressed_alpha_material_dark:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->L0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dialog_title_divider_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->M:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->hint_pressed_alpha_material_light:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->M0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_disabled_alpha_material_dark:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->N:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_action_icon_size:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->N0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_disabled_alpha_material_light:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->O:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_action_text_size:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->O0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dropdownitem_icon_width:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->P:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_big_circle_margin:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->P0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dropdownitem_text_padding_left:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->Q:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_content_margin_start:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->Q0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_dropdownitem_text_padding_right:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->R:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_large_icon_height:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->R0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_edit_text_inset_bottom_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->S:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_large_icon_width:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->S0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_edit_text_inset_horizontal_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->T:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_main_column_padding_top:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->T0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_edit_text_inset_top_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->U:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_media_narrow_margin:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->U0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_floating_window_z:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->V:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_right_icon_size:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->V0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_list_item_padding_horizontal_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->W:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_right_side_padding_top:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->W0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_panel_menu_list_width:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->X:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_small_icon_background_padding:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->X0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_progress_bar_height_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->Y:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_small_icon_size_as_large:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->Y0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_search_view_preferred_height:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->Z:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_subtext_size:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->Z0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_content_inset_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_search_view_preferred_width:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->a0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_top_pad:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->a1:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_content_inset_with_nav:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_seekbar_track_background_height_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->b0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_top_pad_large_text:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->b1:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_default_height_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_seekbar_track_progress_height_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->c0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->tooltip_corner_radius:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->c1:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_default_padding_end_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_select_dialog_padding_start_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->d0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->tooltip_horizontal_padding:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->d1:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_default_padding_start_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_switch_padding:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->e0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->tooltip_margin:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->e1:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_elevation_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_body_1_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->f0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->tooltip_precise_anchor_extra_offset:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->f1:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_icon_vertical_padding_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->g:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_body_2_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->g0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->tooltip_precise_anchor_threshold:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->g1:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_overflow_padding_end_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->h:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_button_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->h0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->tooltip_vertical_padding:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->h1:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_overflow_padding_start_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->i:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_caption_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->i0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->tooltip_y_offset_non_touch:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->i1:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_stacked_max_height:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->j:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_display_1_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->j0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->tooltip_y_offset_touch:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->j1:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_stacked_tab_max_width:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->k:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_display_2_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->k0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_subtitle_bottom_margin_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->l:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_display_3_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->l0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_bar_subtitle_top_margin_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->m:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_display_4_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->m0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_button_min_height_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->n:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_headline_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->n0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_button_min_width_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->o:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_large_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->o0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_action_button_min_width_overflow_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->p:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_medium_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->p0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_alert_dialog_button_bar_height:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->q:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_menu_header_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->q0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_alert_dialog_button_dimen:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->r:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_menu_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->r0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_button_inset_horizontal_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->s:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_small_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->s0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_button_inset_vertical_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->t:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_subhead_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->t0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_button_padding_horizontal_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->u:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_subtitle_material_toolbar:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->u0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_button_padding_vertical_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->v:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_title_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->v0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_cascading_menus_min_smallest_width:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->w:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_text_size_title_material_toolbar:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->w0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_config_prefDialogWidth:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->x:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_button_inset_horizontal_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->x0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_control_corner_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->y:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_button_inset_vertical_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->y0:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->abc_control_inset_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->z:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_button_padding_horizontal_material:I
+   sput-object v0, Lcom/airbnb/lottie/t$e;->z0:I 
+   return-void
 .end method

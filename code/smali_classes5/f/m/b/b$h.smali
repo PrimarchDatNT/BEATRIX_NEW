@@ -14,21 +14,21 @@
 
 
 # static fields
-.field public static final a:I = 0x7f0c00a4
+.field public static final a:I 
 
-.field public static final b:I = 0x7f0c00cf
+.field public static final b:I 
 
-.field public static final c:I = 0x7f0c01cd
+.field public static final c:I 
 
-.field public static final d:I = 0x7f0c01ce
+.field public static final d:I 
 
-.field public static final e:I = 0x7f0c01d6
+.field public static final e:I 
 
-.field public static final f:I = 0x7f0c01d7
+.field public static final f:I 
 
-.field public static final g:I = 0x7f0c01db
+.field public static final g:I 
 
-.field public static final h:I = 0x7f0c01dc
+.field public static final h:I 
 
 
 # direct methods
@@ -38,4 +38,32 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->custom_dialog:I
+   sput-object v0, Lf/m/b/b$h;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->dialog_send_img:I
+   sput-object v0, Lf/m/b/b$h;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_action:I
+   sput-object v0, Lf/m/b/b$h;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_action_tombstone:I
+   sput-object v0, Lf/m/b/b$h;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_custom_big:I
+   sput-object v0, Lf/m/b/b$h;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_icon_group:I
+   sput-object v0, Lf/m/b/b$h;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_part_chronometer:I
+   sput-object v0, Lf/m/b/b$h;->g:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_part_time:I
+   sput-object v0, Lf/m/b/b$h;->h:I 
+   return-void
 .end method

@@ -14,25 +14,25 @@
 
 
 # static fields
-.field public static final a:I = 0x7f020000
+.field public static final a:I 
 
-.field public static final b:I = 0x7f020001
+.field public static final b:I 
 
-.field public static final c:I = 0x7f020002
+.field public static final c:I 
 
-.field public static final d:I = 0x7f020003
+.field public static final d:I 
 
-.field public static final e:I = 0x7f020004
+.field public static final e:I 
 
-.field public static final f:I = 0x7f020005
+.field public static final f:I 
 
-.field public static final g:I = 0x7f020006
+.field public static final g:I 
 
-.field public static final h:I = 0x7f020007
+.field public static final h:I 
 
-.field public static final i:I = 0x7f020008
+.field public static final i:I 
 
-.field public static final j:I = 0x7f020009
+.field public static final j:I 
 
 
 # direct methods
@@ -42,4 +42,38 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResANIMATOR;->design_appbar_state_list_animator:I
+   sput-object v0, Lf/k/s/b$b;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResANIMATOR;->design_fab_hide_motion_spec:I
+   sput-object v0, Lf/k/s/b$b;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResANIMATOR;->design_fab_show_motion_spec:I
+   sput-object v0, Lf/k/s/b$b;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResANIMATOR;->mtrl_btn_state_list_anim:I
+   sput-object v0, Lf/k/s/b$b;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResANIMATOR;->mtrl_btn_unelevated_state_list_anim:I
+   sput-object v0, Lf/k/s/b$b;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResANIMATOR;->mtrl_chip_state_list_anim:I
+   sput-object v0, Lf/k/s/b$b;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResANIMATOR;->mtrl_fab_hide_motion_spec:I
+   sput-object v0, Lf/k/s/b$b;->g:I 
+
+   sget-object v0, Lcom/res/provider/ResANIMATOR;->mtrl_fab_show_motion_spec:I
+   sput-object v0, Lf/k/s/b$b;->h:I 
+
+   sget-object v0, Lcom/res/provider/ResANIMATOR;->mtrl_fab_transformation_sheet_collapse_spec:I
+   sput-object v0, Lf/k/s/b$b;->i:I 
+
+   sget-object v0, Lcom/res/provider/ResANIMATOR;->mtrl_fab_transformation_sheet_expand_spec:I
+   sput-object v0, Lf/k/s/b$b;->j:I 
+   return-void
 .end method

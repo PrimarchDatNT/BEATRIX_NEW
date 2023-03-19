@@ -14,71 +14,71 @@
 
 
 # static fields
-.field public static final A:I = 0x7f04036b
+.field public static final A:I 
 
-.field public static final B:I = 0x7f0403c3
+.field public static final B:I 
 
-.field public static final C:I = 0x7f04042a
+.field public static final C:I 
 
-.field public static final D:I = 0x7f040438
+.field public static final D:I 
 
-.field public static final E:I = 0x7f040440
+.field public static final E:I 
 
-.field public static final F:I = 0x7f040441
+.field public static final F:I 
 
-.field public static final G:I = 0x7f040442
+.field public static final G:I 
 
-.field public static final a:I = 0x7f04004a
+.field public static final a:I 
 
-.field public static final b:I = 0x7f04011f
+.field public static final b:I 
 
-.field public static final c:I = 0x7f040129
+.field public static final c:I 
 
-.field public static final d:I = 0x7f04012a
+.field public static final d:I 
 
-.field public static final e:I = 0x7f04013d
+.field public static final e:I 
 
-.field public static final f:I = 0x7f04013e
+.field public static final f:I 
 
-.field public static final g:I = 0x7f04013f
+.field public static final g:I 
 
-.field public static final h:I = 0x7f04014d
+.field public static final h:I 
 
-.field public static final i:I = 0x7f040185
+.field public static final i:I 
 
-.field public static final j:I = 0x7f0401cb
+.field public static final j:I 
 
-.field public static final k:I = 0x7f0401ce
+.field public static final k:I 
 
-.field public static final l:I = 0x7f040291
+.field public static final l:I 
 
-.field public static final m:I = 0x7f0402ae
+.field public static final m:I 
 
-.field public static final n:I = 0x7f0402af
+.field public static final n:I 
 
-.field public static final o:I = 0x7f0402b8
+.field public static final o:I 
 
-.field public static final p:I = 0x7f040325
+.field public static final p:I 
 
-.field public static final q:I = 0x7f040326
+.field public static final q:I 
 
-.field public static final r:I = 0x7f04032c
+.field public static final r:I 
 
-.field public static final s:I = 0x7f04032f
+.field public static final s:I 
 
-.field public static final t:I = 0x7f040331
+.field public static final t:I 
 
-.field public static final u:I = 0x7f040332
+.field public static final u:I 
 
-.field public static final v:I = 0x7f040333
+.field public static final v:I 
 
-.field public static final w:I = 0x7f040334
+.field public static final w:I 
 
-.field public static final x:I = 0x7f040335
+.field public static final x:I 
 
-.field public static final y:I = 0x7f04034d
+.field public static final y:I 
 
-.field public static final z:I = 0x7f04034e
+.field public static final z:I 
 
 
 # direct methods
@@ -88,4 +88,107 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResATTR;->sourceClass:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->A:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->subsectionSeparator:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->B:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->toAddressesSection:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->C:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->trimmable:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->D:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->userInputSection:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->E:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->userInputTag:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->F:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->userInputValue:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->G:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->allowShortcuts:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->contentProviderUri:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->corpusId:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->corpusVersion:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->defaultIntentAction:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->defaultIntentActivity:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->defaultIntentData:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->g:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->documentMaxAgeSecs:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->h:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->featureType:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->i:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->indexPrefixes:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->j:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->inputEnabled:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->k:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->noIndex:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->l:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->paramName:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->m:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->paramValue:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->n:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->perAccountTemplate:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->o:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->schemaOrgProperty:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->p:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->schemaOrgType:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->q:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->searchEnabled:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->r:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->searchLabel:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->s:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->sectionContent:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->t:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->sectionFormat:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->u:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->sectionId:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->v:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->sectionType:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->w:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->sectionWeight:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->x:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->semanticallySearchable:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->y:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->settingsDescription:I
+   sput-object v0, Lcom/google/firebase/t/a$a;->z:I 
+   return-void
 .end method

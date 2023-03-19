@@ -14,173 +14,173 @@
 
 
 # static fields
-.field public static final abc_background_cache_hint_selector_material_dark:I = 0x7f060014
+.field public static final abc_background_cache_hint_selector_material_dark:I 
 
-.field public static final abc_background_cache_hint_selector_material_light:I = 0x7f060015
+.field public static final abc_background_cache_hint_selector_material_light:I 
 
-.field public static final abc_btn_colored_borderless_text_material:I = 0x7f060016
+.field public static final abc_btn_colored_borderless_text_material:I 
 
-.field public static final abc_btn_colored_text_material:I = 0x7f060017
+.field public static final abc_btn_colored_text_material:I 
 
-.field public static final abc_color_highlight_material:I = 0x7f060018
+.field public static final abc_color_highlight_material:I 
 
-.field public static final abc_hint_foreground_material_dark:I = 0x7f060019
+.field public static final abc_hint_foreground_material_dark:I 
 
-.field public static final abc_hint_foreground_material_light:I = 0x7f06001a
+.field public static final abc_hint_foreground_material_light:I 
 
-.field public static final abc_input_method_navigation_guard:I = 0x7f06001b
+.field public static final abc_input_method_navigation_guard:I 
 
-.field public static final abc_primary_text_disable_only_material_dark:I = 0x7f06001c
+.field public static final abc_primary_text_disable_only_material_dark:I 
 
-.field public static final abc_primary_text_disable_only_material_light:I = 0x7f06001d
+.field public static final abc_primary_text_disable_only_material_light:I 
 
-.field public static final abc_primary_text_material_dark:I = 0x7f06001e
+.field public static final abc_primary_text_material_dark:I 
 
-.field public static final abc_primary_text_material_light:I = 0x7f06001f
+.field public static final abc_primary_text_material_light:I 
 
-.field public static final abc_search_url_text:I = 0x7f060020
+.field public static final abc_search_url_text:I 
 
-.field public static final abc_search_url_text_normal:I = 0x7f060021
+.field public static final abc_search_url_text_normal:I 
 
-.field public static final abc_search_url_text_pressed:I = 0x7f060022
+.field public static final abc_search_url_text_pressed:I 
 
-.field public static final abc_search_url_text_selected:I = 0x7f060023
+.field public static final abc_search_url_text_selected:I 
 
-.field public static final abc_secondary_text_material_dark:I = 0x7f060024
+.field public static final abc_secondary_text_material_dark:I 
 
-.field public static final abc_secondary_text_material_light:I = 0x7f060025
+.field public static final abc_secondary_text_material_light:I 
 
-.field public static final abc_tint_btn_checkable:I = 0x7f060026
+.field public static final abc_tint_btn_checkable:I 
 
-.field public static final abc_tint_default:I = 0x7f060027
+.field public static final abc_tint_default:I 
 
-.field public static final abc_tint_edittext:I = 0x7f060028
+.field public static final abc_tint_edittext:I 
 
-.field public static final abc_tint_seek_thumb:I = 0x7f060029
+.field public static final abc_tint_seek_thumb:I 
 
-.field public static final abc_tint_spinner:I = 0x7f06002a
+.field public static final abc_tint_spinner:I 
 
-.field public static final abc_tint_switch_track:I = 0x7f06002b
+.field public static final abc_tint_switch_track:I 
 
-.field public static final accent_material_dark:I = 0x7f06002c
+.field public static final accent_material_dark:I 
 
-.field public static final accent_material_light:I = 0x7f06002d
+.field public static final accent_material_light:I 
 
-.field public static final background_floating_material_dark:I = 0x7f060030
+.field public static final background_floating_material_dark:I 
 
-.field public static final background_floating_material_light:I = 0x7f060031
+.field public static final background_floating_material_light:I 
 
-.field public static final background_material_dark:I = 0x7f060032
+.field public static final background_material_dark:I 
 
-.field public static final background_material_light:I = 0x7f060033
+.field public static final background_material_light:I 
 
-.field public static final bright_foreground_disabled_material_dark:I = 0x7f06003f
+.field public static final bright_foreground_disabled_material_dark:I 
 
-.field public static final bright_foreground_disabled_material_light:I = 0x7f060040
+.field public static final bright_foreground_disabled_material_light:I 
 
-.field public static final bright_foreground_inverse_material_dark:I = 0x7f060041
+.field public static final bright_foreground_inverse_material_dark:I 
 
-.field public static final bright_foreground_inverse_material_light:I = 0x7f060042
+.field public static final bright_foreground_inverse_material_light:I 
 
-.field public static final bright_foreground_material_dark:I = 0x7f060043
+.field public static final bright_foreground_material_dark:I 
 
-.field public static final bright_foreground_material_light:I = 0x7f060044
+.field public static final bright_foreground_material_light:I 
 
-.field public static final button_material_dark:I = 0x7f060049
+.field public static final button_material_dark:I 
 
-.field public static final button_material_light:I = 0x7f06004a
+.field public static final button_material_light:I 
 
-.field public static final dim_foreground_disabled_material_dark:I = 0x7f0601a0
+.field public static final dim_foreground_disabled_material_dark:I 
 
-.field public static final dim_foreground_disabled_material_light:I = 0x7f0601a1
+.field public static final dim_foreground_disabled_material_light:I 
 
-.field public static final dim_foreground_material_dark:I = 0x7f0601a2
+.field public static final dim_foreground_material_dark:I 
 
-.field public static final dim_foreground_material_light:I = 0x7f0601a3
+.field public static final dim_foreground_material_light:I 
 
-.field public static final error_color_material_dark:I = 0x7f0601a4
+.field public static final error_color_material_dark:I 
 
-.field public static final error_color_material_light:I = 0x7f0601a5
+.field public static final error_color_material_light:I 
 
-.field public static final foreground_material_dark:I = 0x7f0601a7
+.field public static final foreground_material_dark:I 
 
-.field public static final foreground_material_light:I = 0x7f0601a8
+.field public static final foreground_material_light:I 
 
-.field public static final highlighted_text_material_dark:I = 0x7f0601ab
+.field public static final highlighted_text_material_dark:I 
 
-.field public static final highlighted_text_material_light:I = 0x7f0601ac
+.field public static final highlighted_text_material_light:I 
 
-.field public static final material_blue_grey_800:I = 0x7f0601cb
+.field public static final material_blue_grey_800:I 
 
-.field public static final material_blue_grey_900:I = 0x7f0601cc
+.field public static final material_blue_grey_900:I 
 
-.field public static final material_blue_grey_950:I = 0x7f0601cd
+.field public static final material_blue_grey_950:I 
 
-.field public static final material_deep_teal_200:I = 0x7f0601ce
+.field public static final material_deep_teal_200:I 
 
-.field public static final material_deep_teal_500:I = 0x7f0601cf
+.field public static final material_deep_teal_500:I 
 
-.field public static final material_grey_100:I = 0x7f0601d0
+.field public static final material_grey_100:I 
 
-.field public static final material_grey_300:I = 0x7f0601d1
+.field public static final material_grey_300:I 
 
-.field public static final material_grey_50:I = 0x7f0601d2
+.field public static final material_grey_50:I 
 
-.field public static final material_grey_600:I = 0x7f0601d3
+.field public static final material_grey_600:I 
 
-.field public static final material_grey_800:I = 0x7f0601d4
+.field public static final material_grey_800:I 
 
-.field public static final material_grey_850:I = 0x7f0601d5
+.field public static final material_grey_850:I 
 
-.field public static final material_grey_900:I = 0x7f0601d6
+.field public static final material_grey_900:I 
 
-.field public static final notification_action_color_filter:I = 0x7f0601fc
+.field public static final notification_action_color_filter:I 
 
-.field public static final notification_icon_bg_color:I = 0x7f0601fd
+.field public static final notification_icon_bg_color:I 
 
-.field public static final primary_dark_material_dark:I = 0x7f060201
+.field public static final primary_dark_material_dark:I 
 
-.field public static final primary_dark_material_light:I = 0x7f060202
+.field public static final primary_dark_material_light:I 
 
-.field public static final primary_material_dark:I = 0x7f060203
+.field public static final primary_material_dark:I 
 
-.field public static final primary_material_light:I = 0x7f060204
+.field public static final primary_material_light:I 
 
-.field public static final primary_text_default_material_dark:I = 0x7f060205
+.field public static final primary_text_default_material_dark:I 
 
-.field public static final primary_text_default_material_light:I = 0x7f060206
+.field public static final primary_text_default_material_light:I 
 
-.field public static final primary_text_disabled_material_dark:I = 0x7f060207
+.field public static final primary_text_disabled_material_dark:I 
 
-.field public static final primary_text_disabled_material_light:I = 0x7f060208
+.field public static final primary_text_disabled_material_light:I 
 
-.field public static final ripple_material_dark:I = 0x7f06020a
+.field public static final ripple_material_dark:I 
 
-.field public static final ripple_material_light:I = 0x7f06020b
+.field public static final ripple_material_light:I 
 
-.field public static final secondary_text_default_material_dark:I = 0x7f06020d
+.field public static final secondary_text_default_material_dark:I 
 
-.field public static final secondary_text_default_material_light:I = 0x7f06020e
+.field public static final secondary_text_default_material_light:I 
 
-.field public static final secondary_text_disabled_material_dark:I = 0x7f06020f
+.field public static final secondary_text_disabled_material_dark:I 
 
-.field public static final secondary_text_disabled_material_light:I = 0x7f060210
+.field public static final secondary_text_disabled_material_light:I 
 
-.field public static final switch_thumb_disabled_material_dark:I = 0x7f060218
+.field public static final switch_thumb_disabled_material_dark:I 
 
-.field public static final switch_thumb_disabled_material_light:I = 0x7f060219
+.field public static final switch_thumb_disabled_material_light:I 
 
-.field public static final switch_thumb_material_dark:I = 0x7f06021a
+.field public static final switch_thumb_material_dark:I 
 
-.field public static final switch_thumb_material_light:I = 0x7f06021b
+.field public static final switch_thumb_material_light:I 
 
-.field public static final switch_thumb_normal_material_dark:I = 0x7f06021c
+.field public static final switch_thumb_normal_material_dark:I 
 
-.field public static final switch_thumb_normal_material_light:I = 0x7f06021d
+.field public static final switch_thumb_normal_material_light:I 
 
-.field public static final tooltip_background_dark:I = 0x7f060222
+.field public static final tooltip_background_dark:I 
 
-.field public static final tooltip_background_light:I = 0x7f060223
+.field public static final tooltip_background_light:I 
 
 
 # direct methods
@@ -190,4 +190,260 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_background_cache_hint_selector_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_background_cache_hint_selector_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_background_cache_hint_selector_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_background_cache_hint_selector_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_btn_colored_borderless_text_material:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_btn_colored_borderless_text_material:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_btn_colored_text_material:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_btn_colored_text_material:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_color_highlight_material:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_color_highlight_material:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_hint_foreground_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_hint_foreground_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_hint_foreground_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_hint_foreground_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_input_method_navigation_guard:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_input_method_navigation_guard:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_primary_text_disable_only_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_primary_text_disable_only_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_primary_text_disable_only_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_primary_text_disable_only_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_primary_text_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_primary_text_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_primary_text_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_primary_text_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_search_url_text:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_search_url_text:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_search_url_text_normal:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_search_url_text_normal:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_search_url_text_pressed:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_search_url_text_pressed:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_search_url_text_selected:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_search_url_text_selected:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_secondary_text_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_secondary_text_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_secondary_text_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_secondary_text_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_tint_btn_checkable:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_tint_btn_checkable:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_tint_default:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_tint_default:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_tint_edittext:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_tint_edittext:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_tint_seek_thumb:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_tint_seek_thumb:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_tint_spinner:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_tint_spinner:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->abc_tint_switch_track:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->abc_tint_switch_track:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->accent_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->accent_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->accent_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->accent_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->background_floating_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->background_floating_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->background_floating_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->background_floating_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->background_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->background_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->background_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->background_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->bright_foreground_disabled_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->bright_foreground_disabled_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->bright_foreground_disabled_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->bright_foreground_disabled_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->bright_foreground_inverse_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->bright_foreground_inverse_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->bright_foreground_inverse_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->bright_foreground_inverse_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->bright_foreground_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->bright_foreground_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->bright_foreground_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->bright_foreground_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->button_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->button_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->button_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->button_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->dim_foreground_disabled_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->dim_foreground_disabled_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->dim_foreground_disabled_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->dim_foreground_disabled_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->dim_foreground_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->dim_foreground_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->dim_foreground_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->dim_foreground_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->error_color_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->error_color_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->error_color_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->error_color_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->foreground_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->foreground_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->foreground_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->foreground_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->highlighted_text_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->highlighted_text_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->highlighted_text_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->highlighted_text_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->material_blue_grey_800:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->material_blue_grey_800:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->material_blue_grey_900:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->material_blue_grey_900:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->material_blue_grey_950:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->material_blue_grey_950:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->material_deep_teal_200:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->material_deep_teal_200:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->material_deep_teal_500:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->material_deep_teal_500:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->material_grey_100:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->material_grey_100:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->material_grey_300:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->material_grey_300:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->material_grey_50:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->material_grey_50:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->material_grey_600:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->material_grey_600:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->material_grey_800:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->material_grey_800:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->material_grey_850:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->material_grey_850:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->material_grey_900:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->material_grey_900:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->notification_action_color_filter:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->notification_action_color_filter:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->notification_icon_bg_color:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->notification_icon_bg_color:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->primary_dark_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->primary_dark_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->primary_dark_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->primary_dark_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->primary_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->primary_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->primary_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->primary_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->primary_text_default_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->primary_text_default_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->primary_text_default_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->primary_text_default_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->primary_text_disabled_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->primary_text_disabled_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->primary_text_disabled_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->primary_text_disabled_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->ripple_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->ripple_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->ripple_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->ripple_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->secondary_text_default_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->secondary_text_default_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->secondary_text_default_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->secondary_text_default_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->secondary_text_disabled_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->secondary_text_disabled_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->secondary_text_disabled_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->secondary_text_disabled_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->switch_thumb_disabled_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->switch_thumb_disabled_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->switch_thumb_disabled_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->switch_thumb_disabled_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->switch_thumb_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->switch_thumb_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->switch_thumb_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->switch_thumb_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->switch_thumb_normal_material_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->switch_thumb_normal_material_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->switch_thumb_normal_material_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->switch_thumb_normal_material_light:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->tooltip_background_dark:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->tooltip_background_dark:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->tooltip_background_light:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$color;->tooltip_background_light:I 
+   return-void
 .end method

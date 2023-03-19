@@ -14,101 +14,101 @@
 
 
 # static fields
-.field public static final alpha:I = 0x7f04004c
+.field public static final alpha:I 
 
-.field public static final buttonSize:I = 0x7f0400b7
+.field public static final buttonSize:I 
 
-.field public static final circleCrop:I = 0x7f0400e8
+.field public static final circleCrop:I 
 
-.field public static final colorScheme:I = 0x7f040100
+.field public static final colorScheme:I 
 
-.field public static final coordinatorLayoutStyle:I = 0x7f040122
+.field public static final coordinatorLayoutStyle:I 
 
-.field public static final fastScrollEnabled:I = 0x7f04017b
+.field public static final fastScrollEnabled:I 
 
-.field public static final fastScrollHorizontalThumbDrawable:I = 0x7f04017c
+.field public static final fastScrollHorizontalThumbDrawable:I 
 
-.field public static final fastScrollHorizontalTrackDrawable:I = 0x7f04017d
+.field public static final fastScrollHorizontalTrackDrawable:I 
 
-.field public static final fastScrollVerticalThumbDrawable:I = 0x7f04017e
+.field public static final fastScrollVerticalThumbDrawable:I 
 
-.field public static final fastScrollVerticalTrackDrawable:I = 0x7f04017f
+.field public static final fastScrollVerticalTrackDrawable:I 
 
-.field public static final font:I = 0x7f04018a
+.field public static final font:I 
 
-.field public static final fontProviderAuthority:I = 0x7f04018c
+.field public static final fontProviderAuthority:I 
 
-.field public static final fontProviderCerts:I = 0x7f04018d
+.field public static final fontProviderCerts:I 
 
-.field public static final fontProviderFetchStrategy:I = 0x7f04018e
+.field public static final fontProviderFetchStrategy:I 
 
-.field public static final fontProviderFetchTimeout:I = 0x7f04018f
+.field public static final fontProviderFetchTimeout:I 
 
-.field public static final fontProviderPackage:I = 0x7f040190
+.field public static final fontProviderPackage:I 
 
-.field public static final fontProviderQuery:I = 0x7f040191
+.field public static final fontProviderQuery:I 
 
-.field public static final fontStyle:I = 0x7f040192
+.field public static final fontStyle:I 
 
-.field public static final fontVariationSettings:I = 0x7f040193
+.field public static final fontVariationSettings:I 
 
-.field public static final fontWeight:I = 0x7f040194
+.field public static final fontWeight:I 
 
-.field public static final gif:I = 0x7f04019a
+.field public static final gif:I 
 
-.field public static final gifMoviewViewStyle:I = 0x7f04019b
+.field public static final gifMoviewViewStyle:I 
 
-.field public static final height_aspect_view:I = 0x7f0401a1
+.field public static final height_aspect_view:I 
 
-.field public static final imageAspectRatio:I = 0x7f0401c3
+.field public static final imageAspectRatio:I 
 
-.field public static final imageAspectRatioAdjust:I = 0x7f0401c4
+.field public static final imageAspectRatioAdjust:I 
 
-.field public static final keylines:I = 0x7f0401e4
+.field public static final keylines:I 
 
-.field public static final layoutManager:I = 0x7f0401ea
+.field public static final layoutManager:I 
 
-.field public static final layout_anchor:I = 0x7f0401eb
+.field public static final layout_anchor:I 
 
-.field public static final layout_anchorGravity:I = 0x7f0401ec
+.field public static final layout_anchorGravity:I 
 
-.field public static final layout_behavior:I = 0x7f0401ee
+.field public static final layout_behavior:I 
 
-.field public static final layout_dodgeInsetEdges:I = 0x7f04021a
+.field public static final layout_dodgeInsetEdges:I 
 
-.field public static final layout_insetEdge:I = 0x7f040224
+.field public static final layout_insetEdge:I 
 
-.field public static final layout_keyline:I = 0x7f040225
+.field public static final layout_keyline:I 
 
-.field public static final mthwb_advertLayout:I = 0x7f040284
+.field public static final mthwb_advertLayout:I 
 
-.field public static final mthwb_fitScaleType:I = 0x7f040285
+.field public static final mthwb_fitScaleType:I 
 
-.field public static final mthwb_forceFitScaleType:I = 0x7f040286
+.field public static final mthwb_forceFitScaleType:I 
 
-.field public static final mthwb_main_content_max_aspect:I = 0x7f040287
+.field public static final mthwb_main_content_max_aspect:I 
 
-.field public static final mthwb_main_content_min_aspect:I = 0x7f040288
+.field public static final mthwb_main_content_min_aspect:I 
 
-.field public static final mthwb_needShowDefault:I = 0x7f040289
+.field public static final mthwb_needShowDefault:I 
 
-.field public static final mthwb_setGoneWhenNoIcon:I = 0x7f04028a
+.field public static final mthwb_setGoneWhenNoIcon:I 
 
-.field public static final paused:I = 0x7f0402b7
+.field public static final paused:I 
 
-.field public static final reverseLayout:I = 0x7f040311
+.field public static final reverseLayout:I 
 
-.field public static final scopeUris:I = 0x7f040327
+.field public static final scopeUris:I 
 
-.field public static final spanCount:I = 0x7f04036c
+.field public static final spanCount:I 
 
-.field public static final stackFromEnd:I = 0x7f0403b3
+.field public static final stackFromEnd:I 
 
-.field public static final statusBarBackground:I = 0x7f0403b9
+.field public static final statusBarBackground:I 
 
-.field public static final ttcIndex:I = 0x7f040439
+.field public static final ttcIndex:I 
 
-.field public static final width_aspect_view:I = 0x7f04044d
+.field public static final width_aspect_view:I 
 
 
 # direct methods
@@ -118,4 +118,152 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResATTR;->alpha:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->alpha:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->buttonSize:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->buttonSize:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->circleCrop:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->circleCrop:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->colorScheme:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->colorScheme:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->coordinatorLayoutStyle:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->coordinatorLayoutStyle:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fastScrollEnabled:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->fastScrollEnabled:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fastScrollHorizontalThumbDrawable:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->fastScrollHorizontalThumbDrawable:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fastScrollHorizontalTrackDrawable:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->fastScrollHorizontalTrackDrawable:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fastScrollVerticalThumbDrawable:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->fastScrollVerticalThumbDrawable:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fastScrollVerticalTrackDrawable:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->fastScrollVerticalTrackDrawable:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->font:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->font:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontProviderAuthority:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->fontProviderAuthority:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontProviderCerts:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->fontProviderCerts:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontProviderFetchStrategy:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->fontProviderFetchStrategy:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontProviderFetchTimeout:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->fontProviderFetchTimeout:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontProviderPackage:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->fontProviderPackage:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontProviderQuery:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->fontProviderQuery:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontStyle:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->fontStyle:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontVariationSettings:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->fontVariationSettings:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontWeight:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->fontWeight:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->gif:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->gif:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->gifMoviewViewStyle:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->gifMoviewViewStyle:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->height_aspect_view:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->height_aspect_view:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->imageAspectRatio:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->imageAspectRatio:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->imageAspectRatioAdjust:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->imageAspectRatioAdjust:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->keylines:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->keylines:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->layoutManager:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->layoutManager:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->layout_anchor:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->layout_anchor:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->layout_anchorGravity:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->layout_anchorGravity:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->layout_behavior:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->layout_behavior:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->layout_dodgeInsetEdges:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->layout_dodgeInsetEdges:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->layout_insetEdge:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->layout_insetEdge:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->layout_keyline:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->layout_keyline:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->mthwb_advertLayout:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->mthwb_advertLayout:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->mthwb_fitScaleType:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->mthwb_fitScaleType:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->mthwb_forceFitScaleType:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->mthwb_forceFitScaleType:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->mthwb_main_content_max_aspect:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->mthwb_main_content_max_aspect:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->mthwb_main_content_min_aspect:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->mthwb_main_content_min_aspect:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->mthwb_needShowDefault:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->mthwb_needShowDefault:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->mthwb_setGoneWhenNoIcon:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->mthwb_setGoneWhenNoIcon:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->paused:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->paused:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->reverseLayout:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->reverseLayout:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->scopeUris:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->scopeUris:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->spanCount:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->spanCount:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->stackFromEnd:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->stackFromEnd:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->statusBarBackground:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->statusBarBackground:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->ttcIndex:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->ttcIndex:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->width_aspect_view:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$attr;->width_aspect_view:I 
+   return-void
 .end method

@@ -14,11 +14,11 @@
 
 
 # static fields
-.field public static final abc_action_bar_embed_tabs:I = 0x7f050000
+.field public static final abc_action_bar_embed_tabs:I 
 
-.field public static final abc_allow_stacked_button_bar:I = 0x7f050001
+.field public static final abc_allow_stacked_button_bar:I 
 
-.field public static final abc_config_actionMenuItemAllCaps:I = 0x7f050002
+.field public static final abc_config_actionMenuItemAllCaps:I 
 
 
 # direct methods
@@ -28,4 +28,17 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResBOOL;->abc_action_bar_embed_tabs:I
+   sput-object v0, Lcom/mopub/mobileads/networking/R$bool;->abc_action_bar_embed_tabs:I 
+
+   sget-object v0, Lcom/res/provider/ResBOOL;->abc_allow_stacked_button_bar:I
+   sput-object v0, Lcom/mopub/mobileads/networking/R$bool;->abc_allow_stacked_button_bar:I 
+
+   sget-object v0, Lcom/res/provider/ResBOOL;->abc_config_actionMenuItemAllCaps:I
+   sput-object v0, Lcom/mopub/mobileads/networking/R$bool;->abc_config_actionMenuItemAllCaps:I 
+   return-void
 .end method

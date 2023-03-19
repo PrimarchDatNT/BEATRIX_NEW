@@ -14,35 +14,35 @@
 
 
 # static fields
-.field public static final a:I = 0x7f010000
+.field public static final a:I 
 
-.field public static final b:I = 0x7f010001
+.field public static final b:I 
 
-.field public static final c:I = 0x7f010002
+.field public static final c:I 
 
-.field public static final d:I = 0x7f010003
+.field public static final d:I 
 
-.field public static final e:I = 0x7f010004
+.field public static final e:I 
 
-.field public static final f:I = 0x7f010005
+.field public static final f:I 
 
-.field public static final g:I = 0x7f010006
+.field public static final g:I 
 
-.field public static final h:I = 0x7f010007
+.field public static final h:I 
 
-.field public static final i:I = 0x7f010008
+.field public static final i:I 
 
-.field public static final j:I = 0x7f010009
+.field public static final j:I 
 
-.field public static final k:I = 0x7f01000a
+.field public static final k:I 
 
-.field public static final l:I = 0x7f01000b
+.field public static final l:I 
 
-.field public static final m:I = 0x7f01000f
+.field public static final m:I 
 
-.field public static final n:I = 0x7f010010
+.field public static final n:I 
 
-.field public static final o:I = 0x7f010011
+.field public static final o:I 
 
 
 # direct methods
@@ -52,4 +52,53 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_fade_in:I
+   sput-object v0, Lf/k/m/g/c$a;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_fade_out:I
+   sput-object v0, Lf/k/m/g/c$a;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_grow_fade_in_from_bottom:I
+   sput-object v0, Lf/k/m/g/c$a;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_popup_enter:I
+   sput-object v0, Lf/k/m/g/c$a;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_popup_exit:I
+   sput-object v0, Lf/k/m/g/c$a;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_shrink_fade_out_from_bottom:I
+   sput-object v0, Lf/k/m/g/c$a;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_slide_in_bottom:I
+   sput-object v0, Lf/k/m/g/c$a;->g:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_slide_in_top:I
+   sput-object v0, Lf/k/m/g/c$a;->h:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_slide_out_bottom:I
+   sput-object v0, Lf/k/m/g/c$a;->i:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_slide_out_top:I
+   sput-object v0, Lf/k/m/g/c$a;->j:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_tooltip_enter:I
+   sput-object v0, Lf/k/m/g/c$a;->k:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_tooltip_exit:I
+   sput-object v0, Lf/k/m/g/c$a;->l:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->amin_scroll_down:I
+   sput-object v0, Lf/k/m/g/c$a;->m:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->amin_scroll_up:I
+   sput-object v0, Lf/k/m/g/c$a;->n:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->anim_fade_out:I
+   sput-object v0, Lf/k/m/g/c$a;->o:I 
+   return-void
 .end method

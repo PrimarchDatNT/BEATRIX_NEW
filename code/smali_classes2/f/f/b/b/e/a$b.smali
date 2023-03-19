@@ -14,27 +14,27 @@
 
 
 # static fields
-.field public static final a:I = 0x7f060185
+.field public static final a:I 
 
-.field public static final b:I = 0x7f060186
+.field public static final b:I 
 
-.field public static final c:I = 0x7f060187
+.field public static final c:I 
 
-.field public static final d:I = 0x7f060188
+.field public static final d:I 
 
-.field public static final e:I = 0x7f060189
+.field public static final e:I 
 
-.field public static final f:I = 0x7f06018a
+.field public static final f:I 
 
-.field public static final g:I = 0x7f06018b
+.field public static final g:I 
 
-.field public static final h:I = 0x7f06018c
+.field public static final h:I 
 
-.field public static final i:I = 0x7f06018d
+.field public static final i:I 
 
-.field public static final j:I = 0x7f06018e
+.field public static final j:I 
 
-.field public static final k:I = 0x7f06018f
+.field public static final k:I 
 
 
 # direct methods
@@ -44,4 +44,41 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResCOLOR;->common_google_signin_btn_text_dark:I
+   sput-object v0, Lf/f/b/b/e/a$b;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->common_google_signin_btn_text_dark_default:I
+   sput-object v0, Lf/f/b/b/e/a$b;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->common_google_signin_btn_text_dark_disabled:I
+   sput-object v0, Lf/f/b/b/e/a$b;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->common_google_signin_btn_text_dark_focused:I
+   sput-object v0, Lf/f/b/b/e/a$b;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->common_google_signin_btn_text_dark_pressed:I
+   sput-object v0, Lf/f/b/b/e/a$b;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->common_google_signin_btn_text_light:I
+   sput-object v0, Lf/f/b/b/e/a$b;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->common_google_signin_btn_text_light_default:I
+   sput-object v0, Lf/f/b/b/e/a$b;->g:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->common_google_signin_btn_text_light_disabled:I
+   sput-object v0, Lf/f/b/b/e/a$b;->h:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->common_google_signin_btn_text_light_focused:I
+   sput-object v0, Lf/f/b/b/e/a$b;->i:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->common_google_signin_btn_text_light_pressed:I
+   sput-object v0, Lf/f/b/b/e/a$b;->j:I 
+
+   sget-object v0, Lcom/res/provider/ResCOLOR;->common_google_signin_btn_tint:I
+   sput-object v0, Lf/f/b/b/e/a$b;->k:I 
+   return-void
 .end method

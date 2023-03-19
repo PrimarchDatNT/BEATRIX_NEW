@@ -14,9 +14,9 @@
 
 
 # static fields
-.field public static final a:I = 0x7f030000
+.field public static final a:I 
 
-.field public static final b:I = 0x7f030004
+.field public static final b:I 
 
 
 # direct methods
@@ -26,4 +26,14 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResARRAY;->MediaControlView_playback_speeds:I
+   sput-object v0, Lcom/meitu/lib_common/c$c;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResARRAY;->media2_widget_speed_multiplied_by_100:I
+   sput-object v0, Lcom/meitu/lib_common/c$c;->b:I 
+   return-void
 .end method

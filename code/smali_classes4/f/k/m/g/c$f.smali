@@ -14,207 +14,207 @@
 
 
 # static fields
-.field public static final A:I = 0x7f080021
+.field public static final A:I 
 
-.field public static final A0:I = 0x7f080055
+.field public static final A0:I 
 
-.field public static final B:I = 0x7f080022
+.field public static final B:I 
 
-.field public static final B0:I = 0x7f080056
+.field public static final B0:I 
 
-.field public static final C:I = 0x7f080023
+.field public static final C:I 
 
-.field public static final C0:I = 0x7f080057
+.field public static final C0:I 
 
-.field public static final D:I = 0x7f080024
+.field public static final D:I 
 
-.field public static final D0:I = 0x7f080058
+.field public static final D0:I 
 
-.field public static final E:I = 0x7f080025
+.field public static final E:I 
 
-.field public static final E0:I = 0x7f080059
+.field public static final E0:I 
 
-.field public static final F:I = 0x7f080026
+.field public static final F:I 
 
-.field public static final F0:I = 0x7f08005a
+.field public static final F0:I 
 
-.field public static final G:I = 0x7f080027
+.field public static final G:I 
 
-.field public static final G0:I = 0x7f08029a
+.field public static final G0:I 
 
-.field public static final H:I = 0x7f080028
+.field public static final H:I 
 
-.field public static final H0:I = 0x7f08029b
+.field public static final H0:I 
 
-.field public static final I:I = 0x7f080029
+.field public static final I:I 
 
-.field public static final I0:I = 0x7f08029c
+.field public static final I0:I 
 
-.field public static final J:I = 0x7f08002a
+.field public static final J:I 
 
-.field public static final J0:I = 0x7f08029d
+.field public static final J0:I 
 
-.field public static final K:I = 0x7f08002b
+.field public static final K:I 
 
-.field public static final K0:I = 0x7f08029e
+.field public static final K0:I 
 
-.field public static final L:I = 0x7f08002c
+.field public static final L:I 
 
-.field public static final L0:I = 0x7f08029f
+.field public static final L0:I 
 
-.field public static final M:I = 0x7f08002d
+.field public static final M:I 
 
-.field public static final M0:I = 0x7f0802a0
+.field public static final M0:I 
 
-.field public static final N:I = 0x7f08002e
+.field public static final N:I 
 
-.field public static final N0:I = 0x7f0802a1
+.field public static final N0:I 
 
-.field public static final O:I = 0x7f08002f
+.field public static final O:I 
 
-.field public static final O0:I = 0x7f0802a2
+.field public static final O0:I 
 
-.field public static final P:I = 0x7f080030
+.field public static final P:I 
 
-.field public static final P0:I = 0x7f0802a3
+.field public static final P0:I 
 
-.field public static final Q:I = 0x7f080031
+.field public static final Q:I 
 
-.field public static final Q0:I = 0x7f0802a4
+.field public static final Q0:I 
 
-.field public static final R:I = 0x7f080032
+.field public static final R:I 
 
-.field public static final R0:I = 0x7f0802a5
+.field public static final R0:I 
 
-.field public static final S:I = 0x7f080033
+.field public static final S:I 
 
-.field public static final S0:I = 0x7f080386
+.field public static final S0:I 
 
-.field public static final T:I = 0x7f080034
+.field public static final T:I 
 
-.field public static final T0:I = 0x7f080387
+.field public static final T0:I 
 
-.field public static final U:I = 0x7f080035
+.field public static final U:I 
 
-.field public static final U0:I = 0x7f08038e
+.field public static final U0:I 
 
-.field public static final V:I = 0x7f080036
+.field public static final V:I 
 
-.field public static final V0:I = 0x7f0803bb
+.field public static final V0:I 
 
-.field public static final W:I = 0x7f080037
+.field public static final W:I 
 
-.field public static final W0:I = 0x7f0803bc
+.field public static final W0:I 
 
-.field public static final X:I = 0x7f080038
+.field public static final X:I 
 
-.field public static final Y:I = 0x7f080039
+.field public static final Y:I 
 
-.field public static final Z:I = 0x7f08003a
+.field public static final Z:I 
 
-.field public static final a:I = 0x7f080007
+.field public static final a:I 
 
-.field public static final a0:I = 0x7f08003b
+.field public static final a0:I 
 
-.field public static final b:I = 0x7f080008
+.field public static final b:I 
 
-.field public static final b0:I = 0x7f08003c
+.field public static final b0:I 
 
-.field public static final c:I = 0x7f080009
+.field public static final c:I 
 
-.field public static final c0:I = 0x7f08003d
+.field public static final c0:I 
 
-.field public static final d:I = 0x7f08000a
+.field public static final d:I 
 
-.field public static final d0:I = 0x7f08003e
+.field public static final d0:I 
 
-.field public static final e:I = 0x7f08000b
+.field public static final e:I 
 
-.field public static final e0:I = 0x7f08003f
+.field public static final e0:I 
 
-.field public static final f:I = 0x7f08000c
+.field public static final f:I 
 
-.field public static final f0:I = 0x7f080040
+.field public static final f0:I 
 
-.field public static final g:I = 0x7f08000d
+.field public static final g:I 
 
-.field public static final g0:I = 0x7f080041
+.field public static final g0:I 
 
-.field public static final h:I = 0x7f08000e
+.field public static final h:I 
 
-.field public static final h0:I = 0x7f080042
+.field public static final h0:I 
 
-.field public static final i:I = 0x7f08000f
+.field public static final i:I 
 
-.field public static final i0:I = 0x7f080043
+.field public static final i0:I 
 
-.field public static final j:I = 0x7f080010
+.field public static final j:I 
 
-.field public static final j0:I = 0x7f080044
+.field public static final j0:I 
 
-.field public static final k:I = 0x7f080011
+.field public static final k:I 
 
-.field public static final k0:I = 0x7f080045
+.field public static final k0:I 
 
-.field public static final l:I = 0x7f080012
+.field public static final l:I 
 
-.field public static final l0:I = 0x7f080046
+.field public static final l0:I 
 
-.field public static final m:I = 0x7f080013
+.field public static final m:I 
 
-.field public static final m0:I = 0x7f080047
+.field public static final m0:I 
 
-.field public static final n:I = 0x7f080014
+.field public static final n:I 
 
-.field public static final n0:I = 0x7f080048
+.field public static final n0:I 
 
-.field public static final o:I = 0x7f080015
+.field public static final o:I 
 
-.field public static final o0:I = 0x7f080049
+.field public static final o0:I 
 
-.field public static final p:I = 0x7f080016
+.field public static final p:I 
 
-.field public static final p0:I = 0x7f08004a
+.field public static final p0:I 
 
-.field public static final q:I = 0x7f080017
+.field public static final q:I 
 
-.field public static final q0:I = 0x7f08004b
+.field public static final q0:I 
 
-.field public static final r:I = 0x7f080018
+.field public static final r:I 
 
-.field public static final r0:I = 0x7f08004c
+.field public static final r0:I 
 
-.field public static final s:I = 0x7f080019
+.field public static final s:I 
 
-.field public static final s0:I = 0x7f08004d
+.field public static final s0:I 
 
-.field public static final t:I = 0x7f08001a
+.field public static final t:I 
 
-.field public static final t0:I = 0x7f08004e
+.field public static final t0:I 
 
-.field public static final u:I = 0x7f08001b
+.field public static final u:I 
 
-.field public static final u0:I = 0x7f08004f
+.field public static final u0:I 
 
-.field public static final v:I = 0x7f08001c
+.field public static final v:I 
 
-.field public static final v0:I = 0x7f080050
+.field public static final v0:I 
 
-.field public static final w:I = 0x7f08001d
+.field public static final w:I 
 
-.field public static final w0:I = 0x7f080051
+.field public static final w0:I 
 
-.field public static final x:I = 0x7f08001e
+.field public static final x:I 
 
-.field public static final x0:I = 0x7f080052
+.field public static final x0:I 
 
-.field public static final y:I = 0x7f08001f
+.field public static final y:I 
 
-.field public static final y0:I = 0x7f080053
+.field public static final y0:I 
 
-.field public static final z:I = 0x7f080020
+.field public static final z:I 
 
-.field public static final z0:I = 0x7f080054
+.field public static final z0:I 
 
 
 # direct methods
@@ -224,4 +224,311 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_menu_overflow_material:I
+   sput-object v0, Lf/k/m/g/c$f;->A:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_textfield_activated_mtrl_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->A0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_menu_paste_mtrl_am_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->B:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_textfield_default_mtrl_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->B0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_menu_selectall_mtrl_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->C:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_textfield_search_activated_mtrl_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->C0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_menu_share_mtrl_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->D:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_textfield_search_default_mtrl_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->D0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_search_api_material:I
+   sput-object v0, Lf/k/m/g/c$f;->E:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_textfield_search_material:I
+   sput-object v0, Lf/k/m/g/c$f;->E0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_star_black_16dp:I
+   sput-object v0, Lf/k/m/g/c$f;->F:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_vector_test:I
+   sput-object v0, Lf/k/m/g/c$f;->F0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_star_black_36dp:I
+   sput-object v0, Lf/k/m/g/c$f;->G:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_action_background:I
+   sput-object v0, Lf/k/m/g/c$f;->G0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_star_black_48dp:I
+   sput-object v0, Lf/k/m/g/c$f;->H:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_bg:I
+   sput-object v0, Lf/k/m/g/c$f;->H0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_star_half_black_16dp:I
+   sput-object v0, Lf/k/m/g/c$f;->I:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_bg_low:I
+   sput-object v0, Lf/k/m/g/c$f;->I0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_star_half_black_36dp:I
+   sput-object v0, Lf/k/m/g/c$f;->J:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_bg_low_normal:I
+   sput-object v0, Lf/k/m/g/c$f;->J0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_star_half_black_48dp:I
+   sput-object v0, Lf/k/m/g/c$f;->K:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_bg_low_pressed:I
+   sput-object v0, Lf/k/m/g/c$f;->K0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_voice_search_api_material:I
+   sput-object v0, Lf/k/m/g/c$f;->L:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_bg_normal:I
+   sput-object v0, Lf/k/m/g/c$f;->L0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_item_background_holo_dark:I
+   sput-object v0, Lf/k/m/g/c$f;->M:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_bg_normal_pressed:I
+   sput-object v0, Lf/k/m/g/c$f;->M0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_item_background_holo_light:I
+   sput-object v0, Lf/k/m/g/c$f;->N:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_icon_background:I
+   sput-object v0, Lf/k/m/g/c$f;->N0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_list_divider_material:I
+   sput-object v0, Lf/k/m/g/c$f;->O:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_template_icon_bg:I
+   sput-object v0, Lf/k/m/g/c$f;->O0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_list_divider_mtrl_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->P:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_template_icon_low_bg:I
+   sput-object v0, Lf/k/m/g/c$f;->P0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_list_focused_holo:I
+   sput-object v0, Lf/k/m/g/c$f;->Q:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notification_tile_bg:I
+   sput-object v0, Lf/k/m/g/c$f;->Q0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_list_longpressed_holo:I
+   sput-object v0, Lf/k/m/g/c$f;->R:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->notify_panel_notification_icon_bg:I
+   sput-object v0, Lf/k/m/g/c$f;->R0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_list_pressed_holo_dark:I
+   sput-object v0, Lf/k/m/g/c$f;->S:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->shape_dialog_common_bg:I
+   sput-object v0, Lf/k/m/g/c$f;->S0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_list_pressed_holo_light:I
+   sput-object v0, Lf/k/m/g/c$f;->T:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->shape_dialog_common_btn:I
+   sput-object v0, Lf/k/m/g/c$f;->T0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_list_selector_background_transition_holo_dark:I
+   sput-object v0, Lf/k/m/g/c$f;->U:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->shape_page_progressbar:I
+   sput-object v0, Lf/k/m/g/c$f;->U0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_list_selector_background_transition_holo_light:I
+   sput-object v0, Lf/k/m/g/c$f;->V:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->tooltip_frame_dark:I
+   sput-object v0, Lf/k/m/g/c$f;->V0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_list_selector_disabled_holo_dark:I
+   sput-object v0, Lf/k/m/g/c$f;->W:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->tooltip_frame_light:I
+   sput-object v0, Lf/k/m/g/c$f;->W0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_list_selector_disabled_holo_light:I
+   sput-object v0, Lf/k/m/g/c$f;->X:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_list_selector_holo_dark:I
+   sput-object v0, Lf/k/m/g/c$f;->Y:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_list_selector_holo_light:I
+   sput-object v0, Lf/k/m/g/c$f;->Z:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ab_share_pack_mtrl_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_menu_hardkey_panel_mtrl_mult:I
+   sput-object v0, Lf/k/m/g/c$f;->a0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_action_bar_item_background_material:I
+   sput-object v0, Lf/k/m/g/c$f;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_popup_background_mtrl_mult:I
+   sput-object v0, Lf/k/m/g/c$f;->b0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_btn_borderless_material:I
+   sput-object v0, Lf/k/m/g/c$f;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ratingbar_indicator_material:I
+   sput-object v0, Lf/k/m/g/c$f;->c0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_btn_check_material:I
+   sput-object v0, Lf/k/m/g/c$f;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ratingbar_material:I
+   sput-object v0, Lf/k/m/g/c$f;->d0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_btn_check_to_on_mtrl_000:I
+   sput-object v0, Lf/k/m/g/c$f;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ratingbar_small_material:I
+   sput-object v0, Lf/k/m/g/c$f;->e0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_btn_check_to_on_mtrl_015:I
+   sput-object v0, Lf/k/m/g/c$f;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_scrubber_control_off_mtrl_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->f0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_btn_colored_material:I
+   sput-object v0, Lf/k/m/g/c$f;->g:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_scrubber_control_to_pressed_mtrl_000:I
+   sput-object v0, Lf/k/m/g/c$f;->g0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_btn_default_mtrl_shape:I
+   sput-object v0, Lf/k/m/g/c$f;->h:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_scrubber_control_to_pressed_mtrl_005:I
+   sput-object v0, Lf/k/m/g/c$f;->h0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_btn_radio_material:I
+   sput-object v0, Lf/k/m/g/c$f;->i:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_scrubber_primary_mtrl_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->i0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_btn_radio_to_on_mtrl_000:I
+   sput-object v0, Lf/k/m/g/c$f;->j:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_scrubber_track_mtrl_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->j0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_btn_radio_to_on_mtrl_015:I
+   sput-object v0, Lf/k/m/g/c$f;->k:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_seekbar_thumb_material:I
+   sput-object v0, Lf/k/m/g/c$f;->k0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_btn_switch_to_on_mtrl_00001:I
+   sput-object v0, Lf/k/m/g/c$f;->l:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_seekbar_tick_mark_material:I
+   sput-object v0, Lf/k/m/g/c$f;->l0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_btn_switch_to_on_mtrl_00012:I
+   sput-object v0, Lf/k/m/g/c$f;->m:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_seekbar_track_material:I
+   sput-object v0, Lf/k/m/g/c$f;->m0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_cab_background_internal_bg:I
+   sput-object v0, Lf/k/m/g/c$f;->n:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_spinner_mtrl_am_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->n0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_cab_background_top_material:I
+   sput-object v0, Lf/k/m/g/c$f;->o:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_spinner_textfield_background_material:I
+   sput-object v0, Lf/k/m/g/c$f;->o0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_cab_background_top_mtrl_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->p:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_switch_thumb_material:I
+   sput-object v0, Lf/k/m/g/c$f;->p0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_control_background_material:I
+   sput-object v0, Lf/k/m/g/c$f;->q:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_switch_track_mtrl_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->q0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_dialog_material_background:I
+   sput-object v0, Lf/k/m/g/c$f;->r:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_tab_indicator_material:I
+   sput-object v0, Lf/k/m/g/c$f;->r0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_edit_text_material:I
+   sput-object v0, Lf/k/m/g/c$f;->s:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_tab_indicator_mtrl_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->s0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_ab_back_material:I
+   sput-object v0, Lf/k/m/g/c$f;->t:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_text_cursor_material:I
+   sput-object v0, Lf/k/m/g/c$f;->t0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_arrow_drop_right_black_24dp:I
+   sput-object v0, Lf/k/m/g/c$f;->u:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_text_select_handle_left_mtrl_dark:I
+   sput-object v0, Lf/k/m/g/c$f;->u0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_clear_material:I
+   sput-object v0, Lf/k/m/g/c$f;->v:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_text_select_handle_left_mtrl_light:I
+   sput-object v0, Lf/k/m/g/c$f;->v0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_commit_search_api_mtrl_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->w:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_text_select_handle_middle_mtrl_dark:I
+   sput-object v0, Lf/k/m/g/c$f;->w0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_go_search_api_material:I
+   sput-object v0, Lf/k/m/g/c$f;->x:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_text_select_handle_middle_mtrl_light:I
+   sput-object v0, Lf/k/m/g/c$f;->x0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_menu_copy_mtrl_am_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->y:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_text_select_handle_right_mtrl_dark:I
+   sput-object v0, Lf/k/m/g/c$f;->y0:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_ic_menu_cut_mtrl_alpha:I
+   sput-object v0, Lf/k/m/g/c$f;->z:I 
+
+   sget-object v0, Lcom/res/provider/ResDRAWABLE;->abc_text_select_handle_right_mtrl_light:I
+   sput-object v0, Lf/k/m/g/c$f;->z0:I 
+   return-void
 .end method

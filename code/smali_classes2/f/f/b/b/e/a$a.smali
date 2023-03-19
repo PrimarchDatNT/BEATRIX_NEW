@@ -14,17 +14,17 @@
 
 
 # static fields
-.field public static final a:I = 0x7f0400b7
+.field public static final a:I 
 
-.field public static final b:I = 0x7f0400e8
+.field public static final b:I 
 
-.field public static final c:I = 0x7f040100
+.field public static final c:I 
 
-.field public static final d:I = 0x7f0401c3
+.field public static final d:I 
 
-.field public static final e:I = 0x7f0401c4
+.field public static final e:I 
 
-.field public static final f:I = 0x7f040327
+.field public static final f:I 
 
 
 # direct methods
@@ -34,4 +34,26 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResATTR;->buttonSize:I
+   sput-object v0, Lf/f/b/b/e/a$a;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->circleCrop:I
+   sput-object v0, Lf/f/b/b/e/a$a;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->colorScheme:I
+   sput-object v0, Lf/f/b/b/e/a$a;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->imageAspectRatio:I
+   sput-object v0, Lf/f/b/b/e/a$a;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->imageAspectRatioAdjust:I
+   sput-object v0, Lf/f/b/b/e/a$a;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->scopeUris:I
+   sput-object v0, Lf/f/b/b/e/a$a;->f:I 
+   return-void
 .end method

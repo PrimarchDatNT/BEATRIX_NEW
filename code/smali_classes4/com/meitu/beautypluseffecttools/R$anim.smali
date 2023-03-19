@@ -14,29 +14,29 @@
 
 
 # static fields
-.field public static final abc_fade_in:I = 0x7f010000
+.field public static final abc_fade_in:I 
 
-.field public static final abc_fade_out:I = 0x7f010001
+.field public static final abc_fade_out:I 
 
-.field public static final abc_grow_fade_in_from_bottom:I = 0x7f010002
+.field public static final abc_grow_fade_in_from_bottom:I 
 
-.field public static final abc_popup_enter:I = 0x7f010003
+.field public static final abc_popup_enter:I 
 
-.field public static final abc_popup_exit:I = 0x7f010004
+.field public static final abc_popup_exit:I 
 
-.field public static final abc_shrink_fade_out_from_bottom:I = 0x7f010005
+.field public static final abc_shrink_fade_out_from_bottom:I 
 
-.field public static final abc_slide_in_bottom:I = 0x7f010006
+.field public static final abc_slide_in_bottom:I 
 
-.field public static final abc_slide_in_top:I = 0x7f010007
+.field public static final abc_slide_in_top:I 
 
-.field public static final abc_slide_out_bottom:I = 0x7f010008
+.field public static final abc_slide_out_bottom:I 
 
-.field public static final abc_slide_out_top:I = 0x7f010009
+.field public static final abc_slide_out_top:I 
 
-.field public static final abc_tooltip_enter:I = 0x7f01000a
+.field public static final abc_tooltip_enter:I 
 
-.field public static final abc_tooltip_exit:I = 0x7f01000b
+.field public static final abc_tooltip_exit:I 
 
 
 # direct methods
@@ -46,4 +46,44 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_fade_in:I
+   sput-object v0, Lcom/meitu/beautypluseffecttools/R$anim;->abc_fade_in:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_fade_out:I
+   sput-object v0, Lcom/meitu/beautypluseffecttools/R$anim;->abc_fade_out:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_grow_fade_in_from_bottom:I
+   sput-object v0, Lcom/meitu/beautypluseffecttools/R$anim;->abc_grow_fade_in_from_bottom:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_popup_enter:I
+   sput-object v0, Lcom/meitu/beautypluseffecttools/R$anim;->abc_popup_enter:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_popup_exit:I
+   sput-object v0, Lcom/meitu/beautypluseffecttools/R$anim;->abc_popup_exit:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_shrink_fade_out_from_bottom:I
+   sput-object v0, Lcom/meitu/beautypluseffecttools/R$anim;->abc_shrink_fade_out_from_bottom:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_slide_in_bottom:I
+   sput-object v0, Lcom/meitu/beautypluseffecttools/R$anim;->abc_slide_in_bottom:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_slide_in_top:I
+   sput-object v0, Lcom/meitu/beautypluseffecttools/R$anim;->abc_slide_in_top:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_slide_out_bottom:I
+   sput-object v0, Lcom/meitu/beautypluseffecttools/R$anim;->abc_slide_out_bottom:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_slide_out_top:I
+   sput-object v0, Lcom/meitu/beautypluseffecttools/R$anim;->abc_slide_out_top:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_tooltip_enter:I
+   sput-object v0, Lcom/meitu/beautypluseffecttools/R$anim;->abc_tooltip_enter:I 
+
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_tooltip_exit:I
+   sput-object v0, Lcom/meitu/beautypluseffecttools/R$anim;->abc_tooltip_exit:I 
+   return-void
 .end method

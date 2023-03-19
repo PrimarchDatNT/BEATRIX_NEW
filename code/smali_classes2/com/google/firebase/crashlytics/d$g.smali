@@ -14,17 +14,17 @@
 
 
 # static fields
-.field public static final a:I = 0x7f0c01cd
+.field public static final a:I 
 
-.field public static final b:I = 0x7f0c01ce
+.field public static final b:I 
 
-.field public static final c:I = 0x7f0c01d6
+.field public static final c:I 
 
-.field public static final d:I = 0x7f0c01d7
+.field public static final d:I 
 
-.field public static final e:I = 0x7f0c01db
+.field public static final e:I 
 
-.field public static final f:I = 0x7f0c01dc
+.field public static final f:I 
 
 
 # direct methods
@@ -34,4 +34,26 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_action:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$g;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_action_tombstone:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$g;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_custom_big:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$g;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_icon_group:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$g;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_part_chronometer:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$g;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_part_time:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$g;->f:I 
+   return-void
 .end method

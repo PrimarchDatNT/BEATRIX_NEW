@@ -14,7 +14,7 @@
 
 
 # static fields
-.field public static final a:I = 0x7f0e0002
+.field public static final a:I 
 
 
 # direct methods
@@ -24,4 +24,11 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResRAW;->lang_639_1:I
+   sput-object v0, Lf/k/g0/d/b$i;->a:I 
+   return-void
 .end method

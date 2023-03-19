@@ -14,13 +14,13 @@
 
 
 # static fields
-.field public static final a:I = 0x7f050000
+.field public static final a:I 
 
-.field public static final b:I = 0x7f050001
+.field public static final b:I 
 
-.field public static final c:I = 0x7f050002
+.field public static final c:I 
 
-.field public static final d:I = 0x7f050004
+.field public static final d:I 
 
 
 # direct methods
@@ -30,4 +30,20 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResBOOL;->abc_action_bar_embed_tabs:I
+   sput-object v0, Lf/f/b/c/a$d;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResBOOL;->abc_allow_stacked_button_bar:I
+   sput-object v0, Lf/f/b/c/a$d;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResBOOL;->abc_config_actionMenuItemAllCaps:I
+   sput-object v0, Lf/f/b/c/a$d;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResBOOL;->mtrl_btn_textappearance_all_caps:I
+   sput-object v0, Lf/f/b/c/a$d;->d:I 
+   return-void
 .end method

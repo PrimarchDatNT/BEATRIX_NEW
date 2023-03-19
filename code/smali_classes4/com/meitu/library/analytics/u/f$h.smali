@@ -14,23 +14,23 @@
 
 
 # static fields
-.field public static final a:I = 0x7f0a0002
+.field public static final a:I 
 
-.field public static final b:I = 0x7f0a0003
+.field public static final b:I 
 
-.field public static final c:I = 0x7f0a0007
+.field public static final c:I 
 
-.field public static final d:I = 0x7f0a0008
+.field public static final d:I 
 
-.field public static final e:I = 0x7f0a0014
+.field public static final e:I 
 
-.field public static final f:I = 0x7f0a0015
+.field public static final f:I 
 
-.field public static final g:I = 0x7f0a0016
+.field public static final g:I 
 
-.field public static final h:I = 0x7f0a0017
+.field public static final h:I 
 
-.field public static final i:I = 0x7f0a0018
+.field public static final i:I 
 
 
 # direct methods
@@ -40,4 +40,35 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResINTEGER;->abc_config_activityDefaultDur:I
+   sput-object v0, Lcom/meitu/library/analytics/u/f$h;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResINTEGER;->abc_config_activityShortDur:I
+   sput-object v0, Lcom/meitu/library/analytics/u/f$h;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResINTEGER;->cancel_button_image_alpha:I
+   sput-object v0, Lcom/meitu/library/analytics/u/f$h;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResINTEGER;->config_tooltipAnimTime:I
+   sput-object v0, Lcom/meitu/library/analytics/u/f$h;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResINTEGER;->status_bar_notification_info_maxnum:I
+   sput-object v0, Lcom/meitu/library/analytics/u/f$h;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResINTEGER;->teemo_ab_aes_version:I
+   sput-object v0, Lcom/meitu/library/analytics/u/f$h;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResINTEGER;->teemo_et_version:I
+   sput-object v0, Lcom/meitu/library/analytics/u/f$h;->g:I 
+
+   sget-object v0, Lcom/res/provider/ResINTEGER;->teemo_test_ab_aes_version:I
+   sput-object v0, Lcom/meitu/library/analytics/u/f$h;->h:I 
+
+   sget-object v0, Lcom/res/provider/ResINTEGER;->teemo_test_et_version:I
+   sput-object v0, Lcom/meitu/library/analytics/u/f$h;->i:I 
+   return-void
 .end method

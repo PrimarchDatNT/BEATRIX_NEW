@@ -14,11 +14,11 @@
 
 
 # static fields
-.field public static final a:I = 0x7f09000e
+.field public static final a:I 
 
-.field public static final b:I = 0x7f09000f
+.field public static final b:I 
 
-.field public static final c:I = 0x7f090010
+.field public static final c:I 
 
 
 # direct methods
@@ -28,4 +28,17 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResID;->__arcore_cancelButton:I
+   sput-object v0, Lcom/google/ar/core/R$a;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->__arcore_continueButton:I
+   sput-object v0, Lcom/google/ar/core/R$a;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->__arcore_messageText:I
+   sput-object v0, Lcom/google/ar/core/R$a;->c:I 
+   return-void
 .end method

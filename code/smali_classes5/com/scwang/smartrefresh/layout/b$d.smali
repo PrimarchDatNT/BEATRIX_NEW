@@ -14,39 +14,39 @@
 
 
 # static fields
-.field public static final a:I = 0x7f0f08ca
+.field public static final a:I 
 
-.field public static final b:I = 0x7f0f08cb
+.field public static final b:I 
 
-.field public static final c:I = 0x7f0f08cc
+.field public static final c:I 
 
-.field public static final d:I = 0x7f0f08cd
+.field public static final d:I 
 
-.field public static final e:I = 0x7f0f08ce
+.field public static final e:I 
 
-.field public static final f:I = 0x7f0f08cf
+.field public static final f:I 
 
-.field public static final g:I = 0x7f0f08d0
+.field public static final g:I 
 
-.field public static final h:I = 0x7f0f08d1
+.field public static final h:I 
 
-.field public static final i:I = 0x7f0f08d2
+.field public static final i:I 
 
-.field public static final j:I = 0x7f0f08d3
+.field public static final j:I 
 
-.field public static final k:I = 0x7f0f08d4
+.field public static final k:I 
 
-.field public static final l:I = 0x7f0f08d5
+.field public static final l:I 
 
-.field public static final m:I = 0x7f0f08d6
+.field public static final m:I 
 
-.field public static final n:I = 0x7f0f08d7
+.field public static final n:I 
 
-.field public static final o:I = 0x7f0f08d8
+.field public static final o:I 
 
-.field public static final p:I = 0x7f0f08d9
+.field public static final p:I 
 
-.field public static final q:I = 0x7f0f08da
+.field public static final q:I 
 
 
 # direct methods
@@ -56,4 +56,59 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResSTRING;->srl_component_falsify:I
+   sput-object v0, Lcom/scwang/smartrefresh/layout/b$d;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->srl_content_empty:I
+   sput-object v0, Lcom/scwang/smartrefresh/layout/b$d;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->srl_footer_failed:I
+   sput-object v0, Lcom/scwang/smartrefresh/layout/b$d;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->srl_footer_finish:I
+   sput-object v0, Lcom/scwang/smartrefresh/layout/b$d;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->srl_footer_loading:I
+   sput-object v0, Lcom/scwang/smartrefresh/layout/b$d;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->srl_footer_nothing:I
+   sput-object v0, Lcom/scwang/smartrefresh/layout/b$d;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->srl_footer_pulling:I
+   sput-object v0, Lcom/scwang/smartrefresh/layout/b$d;->g:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->srl_footer_refreshing:I
+   sput-object v0, Lcom/scwang/smartrefresh/layout/b$d;->h:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->srl_footer_release:I
+   sput-object v0, Lcom/scwang/smartrefresh/layout/b$d;->i:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->srl_header_failed:I
+   sput-object v0, Lcom/scwang/smartrefresh/layout/b$d;->j:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->srl_header_finish:I
+   sput-object v0, Lcom/scwang/smartrefresh/layout/b$d;->k:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->srl_header_loading:I
+   sput-object v0, Lcom/scwang/smartrefresh/layout/b$d;->l:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->srl_header_pulling:I
+   sput-object v0, Lcom/scwang/smartrefresh/layout/b$d;->m:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->srl_header_refreshing:I
+   sput-object v0, Lcom/scwang/smartrefresh/layout/b$d;->n:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->srl_header_release:I
+   sput-object v0, Lcom/scwang/smartrefresh/layout/b$d;->o:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->srl_header_secondary:I
+   sput-object v0, Lcom/scwang/smartrefresh/layout/b$d;->p:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->srl_header_update:I
+   sput-object v0, Lcom/scwang/smartrefresh/layout/b$d;->q:I 
+   return-void
 .end method

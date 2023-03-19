@@ -14,549 +14,549 @@
 
 
 # static fields
-.field public static final A:I = 0x7f04002a
+.field public static final A:I 
 
-.field public static final A0:I = 0x7f0400fa
+.field public static final A0:I 
 
-.field public static final A1:I = 0x7f0401ab
+.field public static final A1:I 
 
-.field public static final A2:I = 0x7f0402bd
+.field public static final A2:I 
 
-.field public static final A3:I = 0x7f040417
+.field public static final A3:I 
 
-.field public static final B:I = 0x7f04002b
+.field public static final B:I 
 
-.field public static final B0:I = 0x7f0400fb
+.field public static final B0:I 
 
-.field public static final B1:I = 0x7f0401ac
+.field public static final B1:I 
 
-.field public static final B2:I = 0x7f0402c9
+.field public static final B2:I 
 
-.field public static final B3:I = 0x7f040418
+.field public static final B3:I 
 
-.field public static final C:I = 0x7f04002c
+.field public static final C:I 
 
-.field public static final C0:I = 0x7f0400fc
+.field public static final C0:I 
 
-.field public static final C1:I = 0x7f0401b2
+.field public static final C1:I 
 
-.field public static final C2:I = 0x7f0402ca
+.field public static final C2:I 
 
-.field public static final C3:I = 0x7f04041a
+.field public static final C3:I 
 
-.field public static final D:I = 0x7f04002d
+.field public static final D:I 
 
-.field public static final D0:I = 0x7f0400fd
+.field public static final D0:I 
 
-.field public static final D1:I = 0x7f0401b8
+.field public static final D1:I 
 
-.field public static final D2:I = 0x7f0402e7
+.field public static final D2:I 
 
-.field public static final D3:I = 0x7f04041b
+.field public static final D3:I 
 
-.field public static final E:I = 0x7f04002e
+.field public static final E:I 
 
-.field public static final E0:I = 0x7f0400fe
+.field public static final E0:I 
 
-.field public static final E1:I = 0x7f0401b9
+.field public static final E1:I 
 
-.field public static final E2:I = 0x7f0402e8
+.field public static final E2:I 
 
-.field public static final E3:I = 0x7f04041c
+.field public static final E3:I 
 
-.field public static final F:I = 0x7f04002f
+.field public static final F:I 
 
-.field public static final F0:I = 0x7f0400ff
+.field public static final F0:I 
 
-.field public static final F1:I = 0x7f0401c2
+.field public static final F1:I 
 
-.field public static final F2:I = 0x7f0402e9
+.field public static final F2:I 
 
-.field public static final F3:I = 0x7f04041d
+.field public static final F3:I 
 
-.field public static final G:I = 0x7f040030
+.field public static final G:I 
 
-.field public static final G0:I = 0x7f040102
+.field public static final G0:I 
 
-.field public static final G1:I = 0x7f0401c5
+.field public static final G1:I 
 
-.field public static final G2:I = 0x7f0402f1
+.field public static final G2:I 
 
-.field public static final G3:I = 0x7f04041e
+.field public static final G3:I 
 
-.field public static final H:I = 0x7f040031
+.field public static final H:I 
 
-.field public static final H0:I = 0x7f04010f
+.field public static final H0:I 
 
-.field public static final H1:I = 0x7f0401ca
+.field public static final H1:I 
 
-.field public static final H2:I = 0x7f0402f2
+.field public static final H2:I 
 
-.field public static final H3:I = 0x7f04041f
+.field public static final H3:I 
 
-.field public static final I:I = 0x7f04003f
+.field public static final I:I 
 
-.field public static final I0:I = 0x7f040113
+.field public static final I0:I 
 
-.field public static final I1:I = 0x7f0401cc
+.field public static final I1:I 
 
-.field public static final I2:I = 0x7f0402f3
+.field public static final I2:I 
 
-.field public static final I3:I = 0x7f040421
+.field public static final I3:I 
 
-.field public static final J:I = 0x7f040040
+.field public static final J:I 
 
-.field public static final J0:I = 0x7f040114
+.field public static final J0:I 
 
-.field public static final J1:I = 0x7f0401d5
+.field public static final J1:I 
 
-.field public static final J2:I = 0x7f04032d
+.field public static final J2:I 
 
-.field public static final J3:I = 0x7f040422
+.field public static final J3:I 
 
-.field public static final K:I = 0x7f040041
+.field public static final K:I 
 
-.field public static final K0:I = 0x7f040115
+.field public static final K0:I 
 
-.field public static final K1:I = 0x7f0401dd
+.field public static final K1:I 
 
-.field public static final K2:I = 0x7f04032e
+.field public static final K2:I 
 
-.field public static final K3:I = 0x7f040423
+.field public static final K3:I 
 
-.field public static final L:I = 0x7f040042
+.field public static final L:I 
 
-.field public static final L0:I = 0x7f040116
+.field public static final L0:I 
 
-.field public static final L1:I = 0x7f0401e4
+.field public static final L1:I 
 
-.field public static final L2:I = 0x7f040330
+.field public static final L2:I 
 
-.field public static final L3:I = 0x7f040424
+.field public static final L3:I 
 
-.field public static final M:I = 0x7f04004b
+.field public static final M:I 
 
-.field public static final M0:I = 0x7f040117
+.field public static final M0:I 
 
-.field public static final M1:I = 0x7f0401e6
+.field public static final M1:I 
 
-.field public static final M2:I = 0x7f040337
+.field public static final M2:I 
 
-.field public static final M3:I = 0x7f040425
+.field public static final M3:I 
 
-.field public static final N:I = 0x7f04004c
+.field public static final N:I 
 
-.field public static final N0:I = 0x7f040118
+.field public static final N0:I 
 
-.field public static final N1:I = 0x7f0401e7
+.field public static final N1:I 
 
-.field public static final N2:I = 0x7f040349
+.field public static final N2:I 
 
-.field public static final N3:I = 0x7f040426
+.field public static final N3:I 
 
-.field public static final O:I = 0x7f04004d
+.field public static final O:I 
 
-.field public static final O0:I = 0x7f040119
+.field public static final O0:I 
 
-.field public static final O1:I = 0x7f0401eb
+.field public static final O1:I 
 
-.field public static final O2:I = 0x7f04034a
+.field public static final O2:I 
 
-.field public static final O3:I = 0x7f040427
+.field public static final O3:I 
 
-.field public static final P:I = 0x7f040050
+.field public static final P:I 
 
-.field public static final P0:I = 0x7f040121
+.field public static final P0:I 
 
-.field public static final P1:I = 0x7f0401ec
+.field public static final P1:I 
 
-.field public static final P2:I = 0x7f040354
+.field public static final P2:I 
 
-.field public static final P3:I = 0x7f040428
+.field public static final P3:I 
 
-.field public static final Q:I = 0x7f040051
+.field public static final Q:I 
 
-.field public static final Q0:I = 0x7f040122
+.field public static final Q0:I 
 
-.field public static final Q1:I = 0x7f0401ee
+.field public static final Q1:I 
 
-.field public static final Q2:I = 0x7f040355
+.field public static final Q2:I 
 
-.field public static final Q3:I = 0x7f040429
+.field public static final Q3:I 
 
-.field public static final R:I = 0x7f040053
+.field public static final R:I 
 
-.field public static final R0:I = 0x7f040139
+.field public static final R0:I 
 
-.field public static final R1:I = 0x7f04021a
+.field public static final R1:I 
 
-.field public static final R2:I = 0x7f04035a
+.field public static final R2:I 
 
-.field public static final R3:I = 0x7f04042c
+.field public static final R3:I 
 
-.field public static final S:I = 0x7f040054
+.field public static final S:I 
 
-.field public static final S0:I = 0x7f040140
+.field public static final S0:I 
 
-.field public static final S1:I = 0x7f040224
+.field public static final S1:I 
 
-.field public static final S2:I = 0x7f04035b
+.field public static final S2:I 
 
-.field public static final S3:I = 0x7f04042d
+.field public static final S3:I 
 
-.field public static final T:I = 0x7f040055
+.field public static final T:I 
 
-.field public static final T0:I = 0x7f040144
+.field public static final T0:I 
 
-.field public static final T1:I = 0x7f040225
+.field public static final T1:I 
 
-.field public static final T2:I = 0x7f040364
+.field public static final T2:I 
 
-.field public static final T3:I = 0x7f04042e
+.field public static final T3:I 
 
-.field public static final U:I = 0x7f040056
+.field public static final U:I 
 
-.field public static final U0:I = 0x7f040145
+.field public static final U0:I 
 
-.field public static final U1:I = 0x7f04023a
+.field public static final U1:I 
 
-.field public static final U2:I = 0x7f04036d
+.field public static final U2:I 
 
-.field public static final U3:I = 0x7f04042f
+.field public static final U3:I 
 
-.field public static final V:I = 0x7f040057
+.field public static final V:I 
 
-.field public static final V0:I = 0x7f040146
+.field public static final V0:I 
 
-.field public static final V1:I = 0x7f04023d
+.field public static final V1:I 
 
-.field public static final V2:I = 0x7f04036e
+.field public static final V2:I 
 
-.field public static final V3:I = 0x7f040430
+.field public static final V3:I 
 
-.field public static final W:I = 0x7f040058
+.field public static final W:I 
 
-.field public static final W0:I = 0x7f040148
+.field public static final W0:I 
 
-.field public static final W1:I = 0x7f04023e
+.field public static final W1:I 
 
-.field public static final W2:I = 0x7f04036f
+.field public static final W2:I 
 
-.field public static final W3:I = 0x7f040433
+.field public static final W3:I 
 
-.field public static final X:I = 0x7f04005a
+.field public static final X:I 
 
-.field public static final X0:I = 0x7f040149
+.field public static final X0:I 
 
-.field public static final X1:I = 0x7f04023f
+.field public static final X1:I 
 
-.field public static final X2:I = 0x7f040370
+.field public static final X2:I 
 
-.field public static final X3:I = 0x7f040434
+.field public static final X3:I 
 
-.field public static final Y:I = 0x7f04005b
+.field public static final Y:I 
 
-.field public static final Y0:I = 0x7f04014a
+.field public static final Y0:I 
 
-.field public static final Y1:I = 0x7f040240
+.field public static final Y1:I 
 
-.field public static final Y2:I = 0x7f040371
+.field public static final Y2:I 
 
-.field public static final Y3:I = 0x7f040435
+.field public static final Y3:I 
 
-.field public static final Z:I = 0x7f04005c
+.field public static final Z:I 
 
-.field public static final Z0:I = 0x7f04014b
+.field public static final Z0:I 
 
-.field public static final Z1:I = 0x7f040241
+.field public static final Z1:I 
 
-.field public static final Z2:I = 0x7f0403b4
+.field public static final Z2:I 
 
-.field public static final Z3:I = 0x7f040439
+.field public static final Z3:I 
 
-.field public static final a:I = 0x7f040010
+.field public static final a:I 
 
-.field public static final a0:I = 0x7f04005d
+.field public static final a0:I 
 
-.field public static final a1:I = 0x7f04014c
+.field public static final a1:I 
 
-.field public static final a2:I = 0x7f040242
+.field public static final a2:I 
 
-.field public static final a3:I = 0x7f0403b9
+.field public static final a3:I 
 
-.field public static final a4:I = 0x7f040445
+.field public static final a4:I 
 
-.field public static final b:I = 0x7f040011
+.field public static final b:I 
 
-.field public static final b0:I = 0x7f04005e
+.field public static final b0:I 
 
-.field public static final b1:I = 0x7f040151
+.field public static final b1:I 
 
-.field public static final b2:I = 0x7f040243
+.field public static final b2:I 
 
-.field public static final b3:I = 0x7f0403c1
+.field public static final b3:I 
 
-.field public static final b4:I = 0x7f04044c
+.field public static final b4:I 
 
-.field public static final c:I = 0x7f040012
+.field public static final c:I 
 
-.field public static final c0:I = 0x7f040060
+.field public static final c0:I 
 
-.field public static final c1:I = 0x7f040152
+.field public static final c1:I 
 
-.field public static final c2:I = 0x7f040244
+.field public static final c2:I 
 
-.field public static final c3:I = 0x7f0403c2
+.field public static final c3:I 
 
-.field public static final c4:I = 0x7f04044e
+.field public static final c4:I 
 
-.field public static final d:I = 0x7f040013
+.field public static final d:I 
 
-.field public static final d0:I = 0x7f040070
+.field public static final d0:I 
 
-.field public static final d1:I = 0x7f040153
+.field public static final d1:I 
 
-.field public static final d2:I = 0x7f040245
+.field public static final d2:I 
 
-.field public static final d3:I = 0x7f0403c4
+.field public static final d3:I 
 
-.field public static final d4:I = 0x7f04044f
+.field public static final d4:I 
 
-.field public static final e:I = 0x7f040014
+.field public static final e:I 
 
-.field public static final e0:I = 0x7f0400af
+.field public static final e0:I 
 
-.field public static final e1:I = 0x7f040154
+.field public static final e1:I 
 
-.field public static final e2:I = 0x7f040246
+.field public static final e2:I 
 
-.field public static final e3:I = 0x7f0403c5
+.field public static final e3:I 
 
-.field public static final e4:I = 0x7f040450
+.field public static final e4:I 
 
-.field public static final f:I = 0x7f040015
+.field public static final f:I 
 
-.field public static final f0:I = 0x7f0400b0
+.field public static final f0:I 
 
-.field public static final f1:I = 0x7f040155
+.field public static final f1:I 
 
-.field public static final f2:I = 0x7f040247
+.field public static final f2:I 
 
-.field public static final f3:I = 0x7f0403c6
+.field public static final f3:I 
 
-.field public static final f4:I = 0x7f040455
+.field public static final f4:I 
 
-.field public static final g:I = 0x7f040016
+.field public static final g:I 
 
-.field public static final g0:I = 0x7f0400b1
+.field public static final g0:I 
 
-.field public static final g1:I = 0x7f040156
+.field public static final g1:I 
 
-.field public static final g2:I = 0x7f040248
+.field public static final g2:I 
 
-.field public static final g3:I = 0x7f0403c7
+.field public static final g3:I 
 
-.field public static final g4:I = 0x7f040456
+.field public static final g4:I 
 
-.field public static final h:I = 0x7f040017
+.field public static final h:I 
 
-.field public static final h0:I = 0x7f0400b2
+.field public static final h0:I 
 
-.field public static final h1:I = 0x7f040157
+.field public static final h1:I 
 
-.field public static final h2:I = 0x7f040249
+.field public static final h2:I 
 
-.field public static final h3:I = 0x7f0403c8
+.field public static final h3:I 
 
-.field public static final h4:I = 0x7f040457
+.field public static final h4:I 
 
-.field public static final i:I = 0x7f040018
+.field public static final i:I 
 
-.field public static final i0:I = 0x7f0400b3
+.field public static final i0:I 
 
-.field public static final i1:I = 0x7f040158
+.field public static final i1:I 
 
-.field public static final i2:I = 0x7f04026a
+.field public static final i2:I 
 
-.field public static final i3:I = 0x7f0403cc
+.field public static final i3:I 
 
-.field public static final i4:I = 0x7f040458
+.field public static final i4:I 
 
-.field public static final j:I = 0x7f040019
+.field public static final j:I 
 
-.field public static final j0:I = 0x7f0400b4
+.field public static final j0:I 
 
-.field public static final j1:I = 0x7f040163
+.field public static final j1:I 
 
-.field public static final j2:I = 0x7f040270
+.field public static final j2:I 
 
-.field public static final j3:I = 0x7f0403cd
+.field public static final j3:I 
 
-.field public static final j4:I = 0x7f040459
+.field public static final j4:I 
 
-.field public static final k:I = 0x7f04001a
+.field public static final k:I 
 
-.field public static final k0:I = 0x7f0400b5
+.field public static final k0:I 
 
-.field public static final k1:I = 0x7f040186
+.field public static final k1:I 
 
-.field public static final k2:I = 0x7f04028b
+.field public static final k2:I 
 
-.field public static final k3:I = 0x7f0403ce
+.field public static final k3:I 
 
-.field public static final k4:I = 0x7f04045a
+.field public static final k4:I 
 
-.field public static final l:I = 0x7f04001b
+.field public static final l:I 
 
-.field public static final l0:I = 0x7f0400b6
+.field public static final l0:I 
 
-.field public static final l1:I = 0x7f04018a
+.field public static final l1:I 
 
-.field public static final l2:I = 0x7f04028d
+.field public static final l2:I 
 
-.field public static final l3:I = 0x7f0403cf
+.field public static final l3:I 
 
-.field public static final l4:I = 0x7f04045b
+.field public static final l4:I 
 
-.field public static final m:I = 0x7f04001c
+.field public static final m:I 
 
-.field public static final m0:I = 0x7f0400b8
+.field public static final m0:I 
 
-.field public static final m1:I = 0x7f04018b
+.field public static final m1:I 
 
-.field public static final m2:I = 0x7f04028e
+.field public static final m2:I 
 
-.field public static final m3:I = 0x7f0403ea
+.field public static final m3:I 
 
-.field public static final n:I = 0x7f04001d
+.field public static final n:I 
 
-.field public static final n0:I = 0x7f0400b9
+.field public static final n0:I 
 
-.field public static final n1:I = 0x7f04018c
+.field public static final n1:I 
 
-.field public static final n2:I = 0x7f04028f
+.field public static final n2:I 
 
-.field public static final n3:I = 0x7f0403f5
+.field public static final n3:I 
 
-.field public static final o:I = 0x7f04001e
+.field public static final o:I 
 
-.field public static final o0:I = 0x7f0400ba
+.field public static final o0:I 
 
-.field public static final o1:I = 0x7f04018d
+.field public static final o1:I 
 
-.field public static final o2:I = 0x7f040294
+.field public static final o2:I 
 
-.field public static final o3:I = 0x7f0403f6
+.field public static final o3:I 
 
-.field public static final p:I = 0x7f04001f
+.field public static final p:I 
 
-.field public static final p0:I = 0x7f0400bb
+.field public static final p0:I 
 
-.field public static final p1:I = 0x7f04018e
+.field public static final p1:I 
 
-.field public static final p2:I = 0x7f0402a0
+.field public static final p2:I 
 
-.field public static final p3:I = 0x7f0403f7
+.field public static final p3:I 
 
-.field public static final q:I = 0x7f040020
+.field public static final q:I 
 
-.field public static final q0:I = 0x7f0400cf
+.field public static final q0:I 
 
-.field public static final q1:I = 0x7f04018f
+.field public static final q1:I 
 
-.field public static final q2:I = 0x7f0402a2
+.field public static final q2:I 
 
-.field public static final q3:I = 0x7f0403f8
+.field public static final q3:I 
 
-.field public static final r:I = 0x7f040021
+.field public static final r:I 
 
-.field public static final r0:I = 0x7f0400d4
+.field public static final r0:I 
 
-.field public static final r1:I = 0x7f040190
+.field public static final r1:I 
 
-.field public static final r2:I = 0x7f0402a3
+.field public static final r2:I 
 
-.field public static final r3:I = 0x7f0403fa
+.field public static final r3:I 
 
-.field public static final s:I = 0x7f040022
+.field public static final s:I 
 
-.field public static final s0:I = 0x7f0400ea
+.field public static final s0:I 
 
-.field public static final s1:I = 0x7f040191
+.field public static final s1:I 
 
-.field public static final s2:I = 0x7f0402a5
+.field public static final s2:I 
 
-.field public static final s3:I = 0x7f0403fb
+.field public static final s3:I 
 
-.field public static final t:I = 0x7f040023
+.field public static final t:I 
 
-.field public static final t0:I = 0x7f0400f1
+.field public static final t0:I 
 
-.field public static final t1:I = 0x7f040192
+.field public static final t1:I 
 
-.field public static final t2:I = 0x7f0402a6
+.field public static final t2:I 
 
-.field public static final t3:I = 0x7f0403fc
+.field public static final t3:I 
 
-.field public static final u:I = 0x7f040024
+.field public static final u:I 
 
-.field public static final u0:I = 0x7f0400f2
+.field public static final u0:I 
 
-.field public static final u1:I = 0x7f040193
+.field public static final u1:I 
 
-.field public static final u2:I = 0x7f0402ab
+.field public static final u2:I 
 
-.field public static final u3:I = 0x7f0403fd
+.field public static final u3:I 
 
-.field public static final v:I = 0x7f040025
+.field public static final v:I 
 
-.field public static final v0:I = 0x7f0400f3
+.field public static final v0:I 
 
-.field public static final v1:I = 0x7f040194
+.field public static final v1:I 
 
-.field public static final v2:I = 0x7f0402ac
+.field public static final v2:I 
 
-.field public static final v3:I = 0x7f040401
+.field public static final v3:I 
 
-.field public static final w:I = 0x7f040026
+.field public static final w:I 
 
-.field public static final w0:I = 0x7f0400f6
+.field public static final w0:I 
 
-.field public static final w1:I = 0x7f040199
+.field public static final w1:I 
 
-.field public static final w2:I = 0x7f0402ad
+.field public static final w2:I 
 
-.field public static final w3:I = 0x7f040402
+.field public static final w3:I 
 
-.field public static final x:I = 0x7f040027
+.field public static final x:I 
 
-.field public static final x0:I = 0x7f0400f7
+.field public static final x0:I 
 
-.field public static final x1:I = 0x7f04019c
+.field public static final x1:I 
 
-.field public static final x2:I = 0x7f0402ba
+.field public static final x2:I 
 
-.field public static final x3:I = 0x7f04040b
+.field public static final x3:I 
 
-.field public static final y:I = 0x7f040028
+.field public static final y:I 
 
-.field public static final y0:I = 0x7f0400f8
+.field public static final y0:I 
 
-.field public static final y1:I = 0x7f0401a0
+.field public static final y1:I 
 
-.field public static final y2:I = 0x7f0402bb
+.field public static final y2:I 
 
-.field public static final y3:I = 0x7f04040c
+.field public static final y3:I 
 
-.field public static final z:I = 0x7f040029
+.field public static final z:I 
 
-.field public static final z0:I = 0x7f0400f9
+.field public static final z0:I 
 
-.field public static final z1:I = 0x7f0401a6
+.field public static final z1:I 
 
-.field public static final z2:I = 0x7f0402bc
+.field public static final z2:I 
 
-.field public static final z3:I = 0x7f040416
+.field public static final z3:I 
 
 
 # direct methods
@@ -566,4 +566,824 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResATTR;->actionModeSplitBackground:I
+   sput-object v0, Lf/k/e0/c$b;->A:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->colorControlActivated:I
+   sput-object v0, Lf/k/e0/c$b;->A0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->homeAsUpIndicator:I
+   sput-object v0, Lf/k/e0/c$b;->A1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->preserveIconSpacing:I
+   sput-object v0, Lf/k/e0/c$b;->A2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->thumbTint:I
+   sput-object v0, Lf/k/e0/c$b;->A3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionModeStyle:I
+   sput-object v0, Lf/k/e0/c$b;->B:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->colorControlHighlight:I
+   sput-object v0, Lf/k/e0/c$b;->B0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->homeLayout:I
+   sput-object v0, Lf/k/e0/c$b;->B1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->progressBarPadding:I
+   sput-object v0, Lf/k/e0/c$b;->B2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->thumbTintMode:I
+   sput-object v0, Lf/k/e0/c$b;->B3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionModeWebSearchDrawable:I
+   sput-object v0, Lf/k/e0/c$b;->C:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->colorControlNormal:I
+   sput-object v0, Lf/k/e0/c$b;->C0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->icon:I
+   sput-object v0, Lf/k/e0/c$b;->C1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->progressBarStyle:I
+   sput-object v0, Lf/k/e0/c$b;->C2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->tickMark:I
+   sput-object v0, Lf/k/e0/c$b;->C3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionOverflowButtonStyle:I
+   sput-object v0, Lf/k/e0/c$b;->D:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->colorError:I
+   sput-object v0, Lf/k/e0/c$b;->D0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->iconTint:I
+   sput-object v0, Lf/k/e0/c$b;->D1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->queryBackground:I
+   sput-object v0, Lf/k/e0/c$b;->D2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->tickMarkTint:I
+   sput-object v0, Lf/k/e0/c$b;->D3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionOverflowMenuStyle:I
+   sput-object v0, Lf/k/e0/c$b;->E:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->colorPrimary:I
+   sput-object v0, Lf/k/e0/c$b;->E0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->iconTintMode:I
+   sput-object v0, Lf/k/e0/c$b;->E1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->queryHint:I
+   sput-object v0, Lf/k/e0/c$b;->E2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->tickMarkTintMode:I
+   sput-object v0, Lf/k/e0/c$b;->E3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionProviderClass:I
+   sput-object v0, Lf/k/e0/c$b;->F:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->colorPrimaryDark:I
+   sput-object v0, Lf/k/e0/c$b;->F0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->iconifiedByDefault:I
+   sput-object v0, Lf/k/e0/c$b;->F1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->radioButtonStyle:I
+   sput-object v0, Lf/k/e0/c$b;->F2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->tint:I
+   sput-object v0, Lf/k/e0/c$b;->F3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionViewClass:I
+   sput-object v0, Lf/k/e0/c$b;->G:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->colorSwitchThumbNormal:I
+   sput-object v0, Lf/k/e0/c$b;->G0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->imageButtonStyle:I
+   sput-object v0, Lf/k/e0/c$b;->G1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->ratingBarStyle:I
+   sput-object v0, Lf/k/e0/c$b;->G2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->tintMode:I
+   sput-object v0, Lf/k/e0/c$b;->G3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->activityChooserViewStyle:I
+   sput-object v0, Lf/k/e0/c$b;->H:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->commitIcon:I
+   sput-object v0, Lf/k/e0/c$b;->H0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->indeterminateProgressStyle:I
+   sput-object v0, Lf/k/e0/c$b;->H1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->ratingBarStyleIndicator:I
+   sput-object v0, Lf/k/e0/c$b;->H2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->title:I
+   sput-object v0, Lf/k/e0/c$b;->H3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->alertDialogButtonGroupStyle:I
+   sput-object v0, Lf/k/e0/c$b;->I:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->contentDescription:I
+   sput-object v0, Lf/k/e0/c$b;->I0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->initialActivityCount:I
+   sput-object v0, Lf/k/e0/c$b;->I1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->ratingBarStyleSmall:I
+   sput-object v0, Lf/k/e0/c$b;->I2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->titleMargin:I
+   sput-object v0, Lf/k/e0/c$b;->I3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->alertDialogCenterButtons:I
+   sput-object v0, Lf/k/e0/c$b;->J:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->contentInsetEnd:I
+   sput-object v0, Lf/k/e0/c$b;->J0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->isLightTheme:I
+   sput-object v0, Lf/k/e0/c$b;->J1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->searchHintIcon:I
+   sput-object v0, Lf/k/e0/c$b;->J2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->titleMarginBottom:I
+   sput-object v0, Lf/k/e0/c$b;->J3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->alertDialogStyle:I
+   sput-object v0, Lf/k/e0/c$b;->K:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->contentInsetEndWithActions:I
+   sput-object v0, Lf/k/e0/c$b;->K0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->itemPadding:I
+   sput-object v0, Lf/k/e0/c$b;->K1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->searchIcon:I
+   sput-object v0, Lf/k/e0/c$b;->K2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->titleMarginEnd:I
+   sput-object v0, Lf/k/e0/c$b;->K3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->alertDialogTheme:I
+   sput-object v0, Lf/k/e0/c$b;->L:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->contentInsetLeft:I
+   sput-object v0, Lf/k/e0/c$b;->L0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->keylines:I
+   sput-object v0, Lf/k/e0/c$b;->L1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->searchViewStyle:I
+   sput-object v0, Lf/k/e0/c$b;->L2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->titleMarginStart:I
+   sput-object v0, Lf/k/e0/c$b;->L3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->allowStacking:I
+   sput-object v0, Lf/k/e0/c$b;->M:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->contentInsetRight:I
+   sput-object v0, Lf/k/e0/c$b;->M0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->lastBaselineToBottomHeight:I
+   sput-object v0, Lf/k/e0/c$b;->M1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->seekBarStyle:I
+   sput-object v0, Lf/k/e0/c$b;->M2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->titleMarginTop:I
+   sput-object v0, Lf/k/e0/c$b;->M3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->alpha:I
+   sput-object v0, Lf/k/e0/c$b;->N:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->contentInsetStart:I
+   sput-object v0, Lf/k/e0/c$b;->N0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->layout:I
+   sput-object v0, Lf/k/e0/c$b;->N1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->selectableItemBackground:I
+   sput-object v0, Lf/k/e0/c$b;->N2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->titleMargins:I
+   sput-object v0, Lf/k/e0/c$b;->N3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->alphabeticModifiers:I
+   sput-object v0, Lf/k/e0/c$b;->O:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->contentInsetStartWithNavigation:I
+   sput-object v0, Lf/k/e0/c$b;->O0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->layout_anchor:I
+   sput-object v0, Lf/k/e0/c$b;->O1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->selectableItemBackgroundBorderless:I
+   sput-object v0, Lf/k/e0/c$b;->O2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->titleTextAppearance:I
+   sput-object v0, Lf/k/e0/c$b;->O3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->arrowHeadLength:I
+   sput-object v0, Lf/k/e0/c$b;->P:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->controlBackground:I
+   sput-object v0, Lf/k/e0/c$b;->P0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->layout_anchorGravity:I
+   sput-object v0, Lf/k/e0/c$b;->P1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->showAsAction:I
+   sput-object v0, Lf/k/e0/c$b;->P2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->titleTextColor:I
+   sput-object v0, Lf/k/e0/c$b;->P3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->arrowShaftLength:I
+   sput-object v0, Lf/k/e0/c$b;->Q:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->coordinatorLayoutStyle:I
+   sput-object v0, Lf/k/e0/c$b;->Q0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->layout_behavior:I
+   sput-object v0, Lf/k/e0/c$b;->Q1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->showDividers:I
+   sput-object v0, Lf/k/e0/c$b;->Q2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->titleTextStyle:I
+   sput-object v0, Lf/k/e0/c$b;->Q3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->autoCompleteTextViewStyle:I
+   sput-object v0, Lf/k/e0/c$b;->R:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->customNavigationLayout:I
+   sput-object v0, Lf/k/e0/c$b;->R0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->layout_dodgeInsetEdges:I
+   sput-object v0, Lf/k/e0/c$b;->R1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->showText:I
+   sput-object v0, Lf/k/e0/c$b;->R2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->toolbarNavigationButtonStyle:I
+   sput-object v0, Lf/k/e0/c$b;->R3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->autoSizeMaxTextSize:I
+   sput-object v0, Lf/k/e0/c$b;->S:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->defaultQueryHint:I
+   sput-object v0, Lf/k/e0/c$b;->S0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->layout_insetEdge:I
+   sput-object v0, Lf/k/e0/c$b;->S1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->showTitle:I
+   sput-object v0, Lf/k/e0/c$b;->S2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->toolbarStyle:I
+   sput-object v0, Lf/k/e0/c$b;->S3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->autoSizeMinTextSize:I
+   sput-object v0, Lf/k/e0/c$b;->T:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->dialogCornerRadius:I
+   sput-object v0, Lf/k/e0/c$b;->T0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->layout_keyline:I
+   sput-object v0, Lf/k/e0/c$b;->T1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->singleChoiceItemLayout:I
+   sput-object v0, Lf/k/e0/c$b;->T2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->tooltipForegroundColor:I
+   sput-object v0, Lf/k/e0/c$b;->T3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->autoSizePresetSizes:I
+   sput-object v0, Lf/k/e0/c$b;->U:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->dialogPreferredPadding:I
+   sput-object v0, Lf/k/e0/c$b;->U0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->lineHeight:I
+   sput-object v0, Lf/k/e0/c$b;->U1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->spinBars:I
+   sput-object v0, Lf/k/e0/c$b;->U2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->tooltipFrameBackground:I
+   sput-object v0, Lf/k/e0/c$b;->U3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->autoSizeStepGranularity:I
+   sput-object v0, Lf/k/e0/c$b;->V:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->dialogTheme:I
+   sput-object v0, Lf/k/e0/c$b;->V0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->listChoiceBackgroundIndicator:I
+   sput-object v0, Lf/k/e0/c$b;->V1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->spinnerDropDownItemStyle:I
+   sput-object v0, Lf/k/e0/c$b;->V2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->tooltipText:I
+   sput-object v0, Lf/k/e0/c$b;->V3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->autoSizeTextType:I
+   sput-object v0, Lf/k/e0/c$b;->W:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->displayOptions:I
+   sput-object v0, Lf/k/e0/c$b;->W0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->listDividerAlertDialog:I
+   sput-object v0, Lf/k/e0/c$b;->W1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->spinnerStyle:I
+   sput-object v0, Lf/k/e0/c$b;->W2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->track:I
+   sput-object v0, Lf/k/e0/c$b;->W3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->background:I
+   sput-object v0, Lf/k/e0/c$b;->X:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->divider:I
+   sput-object v0, Lf/k/e0/c$b;->X0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->listItemLayout:I
+   sput-object v0, Lf/k/e0/c$b;->X1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->splitTrack:I
+   sput-object v0, Lf/k/e0/c$b;->X2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->trackTint:I
+   sput-object v0, Lf/k/e0/c$b;->X3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->backgroundSplit:I
+   sput-object v0, Lf/k/e0/c$b;->Y:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->dividerHorizontal:I
+   sput-object v0, Lf/k/e0/c$b;->Y0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->listLayout:I
+   sput-object v0, Lf/k/e0/c$b;->Y1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->srcCompat:I
+   sput-object v0, Lf/k/e0/c$b;->Y2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->trackTintMode:I
+   sput-object v0, Lf/k/e0/c$b;->Y3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->backgroundStacked:I
+   sput-object v0, Lf/k/e0/c$b;->Z:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->dividerPadding:I
+   sput-object v0, Lf/k/e0/c$b;->Z0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->listMenuViewStyle:I
+   sput-object v0, Lf/k/e0/c$b;->Z1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->state_above_anchor:I
+   sput-object v0, Lf/k/e0/c$b;->Z2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->ttcIndex:I
+   sput-object v0, Lf/k/e0/c$b;->Z3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionBarDivider:I
+   sput-object v0, Lf/k/e0/c$b;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->backgroundTint:I
+   sput-object v0, Lf/k/e0/c$b;->a0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->dividerVertical:I
+   sput-object v0, Lf/k/e0/c$b;->a1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->listPopupWindowStyle:I
+   sput-object v0, Lf/k/e0/c$b;->a2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->statusBarBackground:I
+   sput-object v0, Lf/k/e0/c$b;->a3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->viewInflaterClass:I
+   sput-object v0, Lf/k/e0/c$b;->a4:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionBarItemBackground:I
+   sput-object v0, Lf/k/e0/c$b;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->backgroundTintMode:I
+   sput-object v0, Lf/k/e0/c$b;->b0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->drawableSize:I
+   sput-object v0, Lf/k/e0/c$b;->b1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->listPreferredItemHeight:I
+   sput-object v0, Lf/k/e0/c$b;->b2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->subMenuArrow:I
+   sput-object v0, Lf/k/e0/c$b;->b3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->voiceIcon:I
+   sput-object v0, Lf/k/e0/c$b;->b4:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionBarPopupTheme:I
+   sput-object v0, Lf/k/e0/c$b;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->barLength:I
+   sput-object v0, Lf/k/e0/c$b;->c0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->drawerArrowStyle:I
+   sput-object v0, Lf/k/e0/c$b;->c1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->listPreferredItemHeightLarge:I
+   sput-object v0, Lf/k/e0/c$b;->c2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->submitBackground:I
+   sput-object v0, Lf/k/e0/c$b;->c3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->windowActionBar:I
+   sput-object v0, Lf/k/e0/c$b;->c4:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionBarSize:I
+   sput-object v0, Lf/k/e0/c$b;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->borderlessButtonStyle:I
+   sput-object v0, Lf/k/e0/c$b;->d0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->dropDownListViewStyle:I
+   sput-object v0, Lf/k/e0/c$b;->d1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->listPreferredItemHeightSmall:I
+   sput-object v0, Lf/k/e0/c$b;->d2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->subtitle:I
+   sput-object v0, Lf/k/e0/c$b;->d3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->windowActionBarOverlay:I
+   sput-object v0, Lf/k/e0/c$b;->d4:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionBarSplitStyle:I
+   sput-object v0, Lf/k/e0/c$b;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->buttonBarButtonStyle:I
+   sput-object v0, Lf/k/e0/c$b;->e0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->dropdownListPreferredItemHeight:I
+   sput-object v0, Lf/k/e0/c$b;->e1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->listPreferredItemPaddingLeft:I
+   sput-object v0, Lf/k/e0/c$b;->e2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->subtitleTextAppearance:I
+   sput-object v0, Lf/k/e0/c$b;->e3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->windowActionModeOverlay:I
+   sput-object v0, Lf/k/e0/c$b;->e4:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionBarStyle:I
+   sput-object v0, Lf/k/e0/c$b;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->buttonBarNegativeButtonStyle:I
+   sput-object v0, Lf/k/e0/c$b;->f0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->editTextBackground:I
+   sput-object v0, Lf/k/e0/c$b;->f1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->listPreferredItemPaddingRight:I
+   sput-object v0, Lf/k/e0/c$b;->f2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->subtitleTextColor:I
+   sput-object v0, Lf/k/e0/c$b;->f3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->windowFixedHeightMajor:I
+   sput-object v0, Lf/k/e0/c$b;->f4:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionBarTabBarStyle:I
+   sput-object v0, Lf/k/e0/c$b;->g:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->buttonBarNeutralButtonStyle:I
+   sput-object v0, Lf/k/e0/c$b;->g0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->editTextColor:I
+   sput-object v0, Lf/k/e0/c$b;->g1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->logo:I
+   sput-object v0, Lf/k/e0/c$b;->g2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->subtitleTextStyle:I
+   sput-object v0, Lf/k/e0/c$b;->g3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->windowFixedHeightMinor:I
+   sput-object v0, Lf/k/e0/c$b;->g4:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionBarTabStyle:I
+   sput-object v0, Lf/k/e0/c$b;->h:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->buttonBarPositiveButtonStyle:I
+   sput-object v0, Lf/k/e0/c$b;->h0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->editTextStyle:I
+   sput-object v0, Lf/k/e0/c$b;->h1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->logoDescription:I
+   sput-object v0, Lf/k/e0/c$b;->h2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->suggestionRowLayout:I
+   sput-object v0, Lf/k/e0/c$b;->h3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->windowFixedWidthMajor:I
+   sput-object v0, Lf/k/e0/c$b;->h4:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionBarTabTextStyle:I
+   sput-object v0, Lf/k/e0/c$b;->i:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->buttonBarStyle:I
+   sput-object v0, Lf/k/e0/c$b;->i0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->elevation:I
+   sput-object v0, Lf/k/e0/c$b;->i1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->maxButtonHeight:I
+   sput-object v0, Lf/k/e0/c$b;->i2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->switchMinWidth:I
+   sput-object v0, Lf/k/e0/c$b;->i3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->windowFixedWidthMinor:I
+   sput-object v0, Lf/k/e0/c$b;->i4:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionBarTheme:I
+   sput-object v0, Lf/k/e0/c$b;->j:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->buttonGravity:I
+   sput-object v0, Lf/k/e0/c$b;->j0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->expandActivityOverflowButtonDrawable:I
+   sput-object v0, Lf/k/e0/c$b;->j1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->measureWithLargestChild:I
+   sput-object v0, Lf/k/e0/c$b;->j2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->switchPadding:I
+   sput-object v0, Lf/k/e0/c$b;->j3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->windowMinWidthMajor:I
+   sput-object v0, Lf/k/e0/c$b;->j4:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionBarWidgetTheme:I
+   sput-object v0, Lf/k/e0/c$b;->k:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->buttonIconDimen:I
+   sput-object v0, Lf/k/e0/c$b;->k0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->firstBaselineToTopHeight:I
+   sput-object v0, Lf/k/e0/c$b;->k1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->multiChoiceItemLayout:I
+   sput-object v0, Lf/k/e0/c$b;->k2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->switchStyle:I
+   sput-object v0, Lf/k/e0/c$b;->k3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->windowMinWidthMinor:I
+   sput-object v0, Lf/k/e0/c$b;->k4:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionButtonStyle:I
+   sput-object v0, Lf/k/e0/c$b;->l:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->buttonPanelSideLayout:I
+   sput-object v0, Lf/k/e0/c$b;->l0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->font:I
+   sput-object v0, Lf/k/e0/c$b;->l1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->navigationContentDescription:I
+   sput-object v0, Lf/k/e0/c$b;->l2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->switchTextAppearance:I
+   sput-object v0, Lf/k/e0/c$b;->l3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->windowNoTitle:I
+   sput-object v0, Lf/k/e0/c$b;->l4:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionDropDownStyle:I
+   sput-object v0, Lf/k/e0/c$b;->m:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->buttonStyle:I
+   sput-object v0, Lf/k/e0/c$b;->m0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontFamily:I
+   sput-object v0, Lf/k/e0/c$b;->m1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->navigationIcon:I
+   sput-object v0, Lf/k/e0/c$b;->m2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->textAllCaps:I
+   sput-object v0, Lf/k/e0/c$b;->m3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionLayout:I
+   sput-object v0, Lf/k/e0/c$b;->n:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->buttonStyleSmall:I
+   sput-object v0, Lf/k/e0/c$b;->n0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontProviderAuthority:I
+   sput-object v0, Lf/k/e0/c$b;->n1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->navigationMode:I
+   sput-object v0, Lf/k/e0/c$b;->n2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->textAppearanceLargePopupMenu:I
+   sput-object v0, Lf/k/e0/c$b;->n3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionMenuTextAppearance:I
+   sput-object v0, Lf/k/e0/c$b;->o:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->buttonTint:I
+   sput-object v0, Lf/k/e0/c$b;->o0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontProviderCerts:I
+   sput-object v0, Lf/k/e0/c$b;->o1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->numericModifiers:I
+   sput-object v0, Lf/k/e0/c$b;->o2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->textAppearanceListItem:I
+   sput-object v0, Lf/k/e0/c$b;->o3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionMenuTextColor:I
+   sput-object v0, Lf/k/e0/c$b;->p:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->buttonTintMode:I
+   sput-object v0, Lf/k/e0/c$b;->p0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontProviderFetchStrategy:I
+   sput-object v0, Lf/k/e0/c$b;->p1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->overlapAnchor:I
+   sput-object v0, Lf/k/e0/c$b;->p2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->textAppearanceListItemSecondary:I
+   sput-object v0, Lf/k/e0/c$b;->p3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionModeBackground:I
+   sput-object v0, Lf/k/e0/c$b;->q:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->checkboxStyle:I
+   sput-object v0, Lf/k/e0/c$b;->q0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontProviderFetchTimeout:I
+   sput-object v0, Lf/k/e0/c$b;->q1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->paddingBottomNoButtons:I
+   sput-object v0, Lf/k/e0/c$b;->q2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->textAppearanceListItemSmall:I
+   sput-object v0, Lf/k/e0/c$b;->q3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionModeCloseButtonStyle:I
+   sput-object v0, Lf/k/e0/c$b;->r:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->checkedTextViewStyle:I
+   sput-object v0, Lf/k/e0/c$b;->r0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontProviderPackage:I
+   sput-object v0, Lf/k/e0/c$b;->r1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->paddingEnd:I
+   sput-object v0, Lf/k/e0/c$b;->r2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->textAppearancePopupMenuHeader:I
+   sput-object v0, Lf/k/e0/c$b;->r3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionModeCloseDrawable:I
+   sput-object v0, Lf/k/e0/c$b;->s:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->closeIcon:I
+   sput-object v0, Lf/k/e0/c$b;->s0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontProviderQuery:I
+   sput-object v0, Lf/k/e0/c$b;->s1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->paddingStart:I
+   sput-object v0, Lf/k/e0/c$b;->s2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->textAppearanceSearchResultSubtitle:I
+   sput-object v0, Lf/k/e0/c$b;->s3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionModeCopyDrawable:I
+   sput-object v0, Lf/k/e0/c$b;->t:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->closeItemLayout:I
+   sput-object v0, Lf/k/e0/c$b;->t0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontStyle:I
+   sput-object v0, Lf/k/e0/c$b;->t1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->paddingTopNoTitle:I
+   sput-object v0, Lf/k/e0/c$b;->t2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->textAppearanceSearchResultTitle:I
+   sput-object v0, Lf/k/e0/c$b;->t3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionModeCutDrawable:I
+   sput-object v0, Lf/k/e0/c$b;->u:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->collapseContentDescription:I
+   sput-object v0, Lf/k/e0/c$b;->u0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontVariationSettings:I
+   sput-object v0, Lf/k/e0/c$b;->u1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->panelBackground:I
+   sput-object v0, Lf/k/e0/c$b;->u2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->textAppearanceSmallPopupMenu:I
+   sput-object v0, Lf/k/e0/c$b;->u3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionModeFindDrawable:I
+   sput-object v0, Lf/k/e0/c$b;->v:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->collapseIcon:I
+   sput-object v0, Lf/k/e0/c$b;->v0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->fontWeight:I
+   sput-object v0, Lf/k/e0/c$b;->v1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->panelMenuListTheme:I
+   sput-object v0, Lf/k/e0/c$b;->v2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->textColorAlertDialogListItem:I
+   sput-object v0, Lf/k/e0/c$b;->v3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionModePasteDrawable:I
+   sput-object v0, Lf/k/e0/c$b;->w:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->color:I
+   sput-object v0, Lf/k/e0/c$b;->w0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->gapBetweenBars:I
+   sput-object v0, Lf/k/e0/c$b;->w1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->panelMenuListWidth:I
+   sput-object v0, Lf/k/e0/c$b;->w2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->textColorSearchUrl:I
+   sput-object v0, Lf/k/e0/c$b;->w3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionModePopupWindowStyle:I
+   sput-object v0, Lf/k/e0/c$b;->x:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->colorAccent:I
+   sput-object v0, Lf/k/e0/c$b;->x0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->goIcon:I
+   sput-object v0, Lf/k/e0/c$b;->x1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->popupMenuStyle:I
+   sput-object v0, Lf/k/e0/c$b;->x2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->theme:I
+   sput-object v0, Lf/k/e0/c$b;->x3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionModeSelectAllDrawable:I
+   sput-object v0, Lf/k/e0/c$b;->y:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->colorBackgroundFloating:I
+   sput-object v0, Lf/k/e0/c$b;->y0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->height:I
+   sput-object v0, Lf/k/e0/c$b;->y1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->popupTheme:I
+   sput-object v0, Lf/k/e0/c$b;->y2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->thickness:I
+   sput-object v0, Lf/k/e0/c$b;->y3:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->actionModeShareDrawable:I
+   sput-object v0, Lf/k/e0/c$b;->z:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->colorButtonNormal:I
+   sput-object v0, Lf/k/e0/c$b;->z0:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->hideOnContentScroll:I
+   sput-object v0, Lf/k/e0/c$b;->z1:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->popupWindowStyle:I
+   sput-object v0, Lf/k/e0/c$b;->z2:I 
+
+   sget-object v0, Lcom/res/provider/ResATTR;->thumbTextPadding:I
+   sput-object v0, Lf/k/e0/c$b;->z3:I 
+   return-void
 .end method

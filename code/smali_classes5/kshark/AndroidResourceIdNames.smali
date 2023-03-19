@@ -50,7 +50,7 @@
 # static fields
 .field public static final Companion:Lkshark/AndroidResourceIdNames$Companion;
 
-.field public static final FIRST_APP_RESOURCE_ID:I = 0x7f010000
+.field public static final FIRST_APP_RESOURCE_ID:I 
 
 .field public static final RESOURCE_ID_TYPE_ITERATOR:I = 0x10000
 
@@ -156,4 +156,11 @@
 
     :goto_0
     return-object p1
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResANIM;->abc_fade_in:I
+   sput-object v0, Lkshark/AndroidResourceIdNames;->FIRST_APP_RESOURCE_ID:I 
+   return-void
 .end method

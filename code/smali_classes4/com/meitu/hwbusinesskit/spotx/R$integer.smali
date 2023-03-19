@@ -14,11 +14,11 @@
 
 
 # static fields
-.field public static final cancel_button_image_alpha:I = 0x7f0a0007
+.field public static final cancel_button_image_alpha:I 
 
-.field public static final google_play_services_version:I = 0x7f0a000c
+.field public static final google_play_services_version:I 
 
-.field public static final status_bar_notification_info_maxnum:I = 0x7f0a0014
+.field public static final status_bar_notification_info_maxnum:I 
 
 
 # direct methods
@@ -28,4 +28,17 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResINTEGER;->cancel_button_image_alpha:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/spotx/R$integer;->cancel_button_image_alpha:I 
+
+   sget-object v0, Lcom/res/provider/ResINTEGER;->google_play_services_version:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/spotx/R$integer;->google_play_services_version:I 
+
+   sget-object v0, Lcom/res/provider/ResINTEGER;->status_bar_notification_info_maxnum:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/spotx/R$integer;->status_bar_notification_info_maxnum:I 
+   return-void
 .end method

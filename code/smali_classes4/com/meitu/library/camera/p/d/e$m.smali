@@ -14,7 +14,7 @@
 
 
 # static fields
-.field public static final a:I = 0x7f120004
+.field public static final a:I 
 
 
 # direct methods
@@ -24,4 +24,11 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResXML;->mtcamera_security_programs:I
+   sput-object v0, Lcom/meitu/library/camera/p/d/e$m;->a:I 
+   return-void
 .end method

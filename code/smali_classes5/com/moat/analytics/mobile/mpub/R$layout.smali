@@ -14,35 +14,35 @@
 
 
 # static fields
-.field public static final notification_action:I = 0x7f0c01cd
+.field public static final notification_action:I 
 
-.field public static final notification_action_tombstone:I = 0x7f0c01ce
+.field public static final notification_action_tombstone:I 
 
-.field public static final notification_media_action:I = 0x7f0c01d0
+.field public static final notification_media_action:I 
 
-.field public static final notification_media_cancel_action:I = 0x7f0c01d1
+.field public static final notification_media_cancel_action:I 
 
-.field public static final notification_template_big_media:I = 0x7f0c01d2
+.field public static final notification_template_big_media:I 
 
-.field public static final notification_template_big_media_custom:I = 0x7f0c01d3
+.field public static final notification_template_big_media_custom:I 
 
-.field public static final notification_template_big_media_narrow:I = 0x7f0c01d4
+.field public static final notification_template_big_media_narrow:I 
 
-.field public static final notification_template_big_media_narrow_custom:I = 0x7f0c01d5
+.field public static final notification_template_big_media_narrow_custom:I 
 
-.field public static final notification_template_custom_big:I = 0x7f0c01d6
+.field public static final notification_template_custom_big:I 
 
-.field public static final notification_template_icon_group:I = 0x7f0c01d7
+.field public static final notification_template_icon_group:I 
 
-.field public static final notification_template_lines_media:I = 0x7f0c01d8
+.field public static final notification_template_lines_media:I 
 
-.field public static final notification_template_media:I = 0x7f0c01d9
+.field public static final notification_template_media:I 
 
-.field public static final notification_template_media_custom:I = 0x7f0c01da
+.field public static final notification_template_media_custom:I 
 
-.field public static final notification_template_part_chronometer:I = 0x7f0c01db
+.field public static final notification_template_part_chronometer:I 
 
-.field public static final notification_template_part_time:I = 0x7f0c01dc
+.field public static final notification_template_part_time:I 
 
 
 # direct methods
@@ -52,4 +52,53 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_action:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$layout;->notification_action:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_action_tombstone:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$layout;->notification_action_tombstone:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_media_action:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$layout;->notification_media_action:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_media_cancel_action:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$layout;->notification_media_cancel_action:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_big_media:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$layout;->notification_template_big_media:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_big_media_custom:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$layout;->notification_template_big_media_custom:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_big_media_narrow:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$layout;->notification_template_big_media_narrow:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_big_media_narrow_custom:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$layout;->notification_template_big_media_narrow_custom:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_custom_big:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$layout;->notification_template_custom_big:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_icon_group:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$layout;->notification_template_icon_group:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_lines_media:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$layout;->notification_template_lines_media:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_media:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$layout;->notification_template_media:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_media_custom:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$layout;->notification_template_media_custom:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_part_chronometer:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$layout;->notification_template_part_chronometer:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_part_time:I
+   sput-object v0, Lcom/moat/analytics/mobile/mpub/R$layout;->notification_template_part_time:I 
+   return-void
 .end method

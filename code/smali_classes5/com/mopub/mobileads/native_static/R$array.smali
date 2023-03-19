@@ -14,9 +14,9 @@
 
 
 # static fields
-.field public static final MediaControlView_playback_speeds:I = 0x7f030000
+.field public static final MediaControlView_playback_speeds:I 
 
-.field public static final media2_widget_speed_multiplied_by_100:I = 0x7f030004
+.field public static final media2_widget_speed_multiplied_by_100:I 
 
 
 # direct methods
@@ -26,4 +26,14 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResARRAY;->MediaControlView_playback_speeds:I
+   sput-object v0, Lcom/mopub/mobileads/native_static/R$array;->MediaControlView_playback_speeds:I 
+
+   sget-object v0, Lcom/res/provider/ResARRAY;->media2_widget_speed_multiplied_by_100:I
+   sput-object v0, Lcom/mopub/mobileads/native_static/R$array;->media2_widget_speed_multiplied_by_100:I 
+   return-void
 .end method

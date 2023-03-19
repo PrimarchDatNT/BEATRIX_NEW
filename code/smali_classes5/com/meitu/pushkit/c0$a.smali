@@ -14,9 +14,9 @@
 
 
 # static fields
-.field public static final a:I = 0x7f0f00aa
+.field public static final a:I 
 
-.field public static final b:I = 0x7f0f0764
+.field public static final b:I 
 
 
 # direct methods
@@ -26,4 +26,14 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResSTRING;->app_name:I
+   sput-object v0, Lcom/meitu/pushkit/c0$a;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->pushkit_channel:I
+   sput-object v0, Lcom/meitu/pushkit/c0$a;->b:I 
+   return-void
 .end method

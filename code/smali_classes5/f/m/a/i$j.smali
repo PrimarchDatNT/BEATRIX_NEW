@@ -14,19 +14,19 @@
 
 
 # static fields
-.field public static final a:I = 0x7f100153
+.field public static final a:I 
 
-.field public static final b:I = 0x7f100154
+.field public static final b:I 
 
-.field public static final c:I = 0x7f100156
+.field public static final c:I 
 
-.field public static final d:I = 0x7f100159
+.field public static final d:I 
 
-.field public static final e:I = 0x7f10015b
+.field public static final e:I 
 
-.field public static final f:I = 0x7f100208
+.field public static final f:I 
 
-.field public static final g:I = 0x7f100209
+.field public static final g:I 
 
 
 # direct methods
@@ -36,4 +36,29 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification:I
+   sput-object v0, Lf/m/a/i$j;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Info:I
+   sput-object v0, Lf/m/a/i$j;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Line2:I
+   sput-object v0, Lf/m/a/i$j;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Time:I
+   sput-object v0, Lf/m/a/i$j;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Title:I
+   sput-object v0, Lf/m/a/i$j;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->Widget_Compat_NotificationActionContainer:I
+   sput-object v0, Lf/m/a/i$j;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->Widget_Compat_NotificationActionText:I
+   sput-object v0, Lf/m/a/i$j;->g:I 
+   return-void
 .end method

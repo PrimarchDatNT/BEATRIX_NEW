@@ -14,7 +14,7 @@
 
 
 # static fields
-.field public static final abc_action_bar_embed_tabs:I = 0x7f050000
+.field public static final abc_action_bar_embed_tabs:I 
 
 
 # direct methods
@@ -24,4 +24,11 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResBOOL;->abc_action_bar_embed_tabs:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/spotx/R$bool;->abc_action_bar_embed_tabs:I 
+   return-void
 .end method

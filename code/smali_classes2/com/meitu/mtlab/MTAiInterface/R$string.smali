@@ -14,89 +14,89 @@
 
 
 # static fields
-.field public static final abc_action_bar_home_description:I = 0x7f0f001e
+.field public static final abc_action_bar_home_description:I 
 
-.field public static final abc_action_bar_up_description:I = 0x7f0f001f
+.field public static final abc_action_bar_up_description:I 
 
-.field public static final abc_action_menu_overflow_description:I = 0x7f0f0020
+.field public static final abc_action_menu_overflow_description:I 
 
-.field public static final abc_action_mode_done:I = 0x7f0f0021
+.field public static final abc_action_mode_done:I 
 
-.field public static final abc_activity_chooser_view_see_all:I = 0x7f0f0022
+.field public static final abc_activity_chooser_view_see_all:I 
 
-.field public static final abc_activitychooserview_choose_application:I = 0x7f0f0023
+.field public static final abc_activitychooserview_choose_application:I 
 
-.field public static final abc_capital_off:I = 0x7f0f0024
+.field public static final abc_capital_off:I 
 
-.field public static final abc_capital_on:I = 0x7f0f0025
+.field public static final abc_capital_on:I 
 
-.field public static final abc_font_family_body_1_material:I = 0x7f0f0026
+.field public static final abc_font_family_body_1_material:I 
 
-.field public static final abc_font_family_body_2_material:I = 0x7f0f0027
+.field public static final abc_font_family_body_2_material:I 
 
-.field public static final abc_font_family_button_material:I = 0x7f0f0028
+.field public static final abc_font_family_button_material:I 
 
-.field public static final abc_font_family_caption_material:I = 0x7f0f0029
+.field public static final abc_font_family_caption_material:I 
 
-.field public static final abc_font_family_display_1_material:I = 0x7f0f002a
+.field public static final abc_font_family_display_1_material:I 
 
-.field public static final abc_font_family_display_2_material:I = 0x7f0f002b
+.field public static final abc_font_family_display_2_material:I 
 
-.field public static final abc_font_family_display_3_material:I = 0x7f0f002c
+.field public static final abc_font_family_display_3_material:I 
 
-.field public static final abc_font_family_display_4_material:I = 0x7f0f002d
+.field public static final abc_font_family_display_4_material:I 
 
-.field public static final abc_font_family_headline_material:I = 0x7f0f002e
+.field public static final abc_font_family_headline_material:I 
 
-.field public static final abc_font_family_menu_material:I = 0x7f0f002f
+.field public static final abc_font_family_menu_material:I 
 
-.field public static final abc_font_family_subhead_material:I = 0x7f0f0030
+.field public static final abc_font_family_subhead_material:I 
 
-.field public static final abc_font_family_title_material:I = 0x7f0f0031
+.field public static final abc_font_family_title_material:I 
 
-.field public static final abc_menu_alt_shortcut_label:I = 0x7f0f0032
+.field public static final abc_menu_alt_shortcut_label:I 
 
-.field public static final abc_menu_ctrl_shortcut_label:I = 0x7f0f0033
+.field public static final abc_menu_ctrl_shortcut_label:I 
 
-.field public static final abc_menu_delete_shortcut_label:I = 0x7f0f0034
+.field public static final abc_menu_delete_shortcut_label:I 
 
-.field public static final abc_menu_enter_shortcut_label:I = 0x7f0f0035
+.field public static final abc_menu_enter_shortcut_label:I 
 
-.field public static final abc_menu_function_shortcut_label:I = 0x7f0f0036
+.field public static final abc_menu_function_shortcut_label:I 
 
-.field public static final abc_menu_meta_shortcut_label:I = 0x7f0f0037
+.field public static final abc_menu_meta_shortcut_label:I 
 
-.field public static final abc_menu_shift_shortcut_label:I = 0x7f0f0038
+.field public static final abc_menu_shift_shortcut_label:I 
 
-.field public static final abc_menu_space_shortcut_label:I = 0x7f0f0039
+.field public static final abc_menu_space_shortcut_label:I 
 
-.field public static final abc_menu_sym_shortcut_label:I = 0x7f0f003a
+.field public static final abc_menu_sym_shortcut_label:I 
 
-.field public static final abc_prepend_shortcut_label:I = 0x7f0f003b
+.field public static final abc_prepend_shortcut_label:I 
 
-.field public static final abc_search_hint:I = 0x7f0f003c
+.field public static final abc_search_hint:I 
 
-.field public static final abc_searchview_description_clear:I = 0x7f0f003d
+.field public static final abc_searchview_description_clear:I 
 
-.field public static final abc_searchview_description_query:I = 0x7f0f003e
+.field public static final abc_searchview_description_query:I 
 
-.field public static final abc_searchview_description_search:I = 0x7f0f003f
+.field public static final abc_searchview_description_search:I 
 
-.field public static final abc_searchview_description_submit:I = 0x7f0f0040
+.field public static final abc_searchview_description_submit:I 
 
-.field public static final abc_searchview_description_voice:I = 0x7f0f0041
+.field public static final abc_searchview_description_voice:I 
 
-.field public static final abc_shareactionprovider_share_with:I = 0x7f0f0042
+.field public static final abc_shareactionprovider_share_with:I 
 
-.field public static final abc_shareactionprovider_share_with_application:I = 0x7f0f0043
+.field public static final abc_shareactionprovider_share_with_application:I 
 
-.field public static final abc_toolbar_collapse_description:I = 0x7f0f0044
+.field public static final abc_toolbar_collapse_description:I 
 
-.field public static final app_name:I = 0x7f0f00aa
+.field public static final app_name:I 
 
-.field public static final search_menu_title:I = 0x7f0f080d
+.field public static final search_menu_title:I 
 
-.field public static final status_bar_notification_info_overflow:I = 0x7f0f08dd
+.field public static final status_bar_notification_info_overflow:I 
 
 
 # direct methods
@@ -106,4 +106,134 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_action_bar_home_description:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_action_bar_home_description:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_action_bar_up_description:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_action_bar_up_description:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_action_menu_overflow_description:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_action_menu_overflow_description:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_action_mode_done:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_action_mode_done:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_activity_chooser_view_see_all:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_activity_chooser_view_see_all:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_activitychooserview_choose_application:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_activitychooserview_choose_application:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_capital_off:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_capital_off:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_capital_on:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_capital_on:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_font_family_body_1_material:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_font_family_body_1_material:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_font_family_body_2_material:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_font_family_body_2_material:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_font_family_button_material:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_font_family_button_material:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_font_family_caption_material:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_font_family_caption_material:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_font_family_display_1_material:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_font_family_display_1_material:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_font_family_display_2_material:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_font_family_display_2_material:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_font_family_display_3_material:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_font_family_display_3_material:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_font_family_display_4_material:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_font_family_display_4_material:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_font_family_headline_material:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_font_family_headline_material:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_font_family_menu_material:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_font_family_menu_material:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_font_family_subhead_material:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_font_family_subhead_material:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_font_family_title_material:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_font_family_title_material:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_menu_alt_shortcut_label:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_menu_alt_shortcut_label:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_menu_ctrl_shortcut_label:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_menu_ctrl_shortcut_label:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_menu_delete_shortcut_label:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_menu_delete_shortcut_label:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_menu_enter_shortcut_label:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_menu_enter_shortcut_label:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_menu_function_shortcut_label:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_menu_function_shortcut_label:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_menu_meta_shortcut_label:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_menu_meta_shortcut_label:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_menu_shift_shortcut_label:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_menu_shift_shortcut_label:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_menu_space_shortcut_label:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_menu_space_shortcut_label:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_menu_sym_shortcut_label:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_menu_sym_shortcut_label:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_prepend_shortcut_label:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_prepend_shortcut_label:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_search_hint:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_search_hint:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_searchview_description_clear:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_searchview_description_clear:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_searchview_description_query:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_searchview_description_query:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_searchview_description_search:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_searchview_description_search:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_searchview_description_submit:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_searchview_description_submit:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_searchview_description_voice:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_searchview_description_voice:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_shareactionprovider_share_with:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_shareactionprovider_share_with:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_shareactionprovider_share_with_application:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_shareactionprovider_share_with_application:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->abc_toolbar_collapse_description:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->abc_toolbar_collapse_description:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->app_name:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->app_name:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->search_menu_title:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->search_menu_title:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->status_bar_notification_info_overflow:I
+   sput-object v0, Lcom/meitu/mtlab/MTAiInterface/R$string;->status_bar_notification_info_overflow:I 
+   return-void
 .end method

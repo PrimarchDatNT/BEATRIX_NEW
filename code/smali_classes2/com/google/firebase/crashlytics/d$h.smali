@@ -14,43 +14,43 @@
 
 
 # static fields
-.field public static final a:I = 0x7f0f0287
+.field public static final a:I 
 
-.field public static final b:I = 0x7f0f0288
+.field public static final b:I 
 
-.field public static final c:I = 0x7f0f0289
+.field public static final c:I 
 
-.field public static final d:I = 0x7f0f028a
+.field public static final d:I 
 
-.field public static final e:I = 0x7f0f028b
+.field public static final e:I 
 
-.field public static final f:I = 0x7f0f028c
+.field public static final f:I 
 
-.field public static final g:I = 0x7f0f028d
+.field public static final g:I 
 
-.field public static final h:I = 0x7f0f028e
+.field public static final h:I 
 
-.field public static final i:I = 0x7f0f028f
+.field public static final i:I 
 
-.field public static final j:I = 0x7f0f0290
+.field public static final j:I 
 
-.field public static final k:I = 0x7f0f0291
+.field public static final k:I 
 
-.field public static final l:I = 0x7f0f0292
+.field public static final l:I 
 
-.field public static final m:I = 0x7f0f0293
+.field public static final m:I 
 
-.field public static final n:I = 0x7f0f0294
+.field public static final n:I 
 
-.field public static final o:I = 0x7f0f0295
+.field public static final o:I 
 
-.field public static final p:I = 0x7f0f0296
+.field public static final p:I 
 
-.field public static final q:I = 0x7f0f0298
+.field public static final q:I 
 
-.field public static final r:I = 0x7f0f0299
+.field public static final r:I 
 
-.field public static final s:I = 0x7f0f08dd
+.field public static final s:I 
 
 
 # direct methods
@@ -60,4 +60,65 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_enable_button:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_enable_text:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_enable_title:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_install_button:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_install_text:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_install_title:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_notification_channel_name:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->g:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_notification_ticker:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->h:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_unknown_issue:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->i:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_unsupported_text:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->j:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_update_button:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->k:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_update_text:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->l:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_update_title:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->m:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_updating_text:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->n:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_wear_update_text:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->o:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_open_on_phone:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->p:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_signin_button_text:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->q:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_signin_button_text_long:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->r:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->status_bar_notification_info_overflow:I
+   sput-object v0, Lcom/google/firebase/crashlytics/d$h;->s:I 
+   return-void
 .end method

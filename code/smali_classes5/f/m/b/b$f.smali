@@ -14,147 +14,147 @@
 
 
 # static fields
-.field public static final A:I = 0x7f09002c
+.field public static final A:I 
 
-.field public static final B:I = 0x7f09002d
+.field public static final B:I 
 
-.field public static final C:I = 0x7f09002e
+.field public static final C:I 
 
-.field public static final D:I = 0x7f09002f
+.field public static final D:I 
 
-.field public static final E:I = 0x7f090030
+.field public static final E:I 
 
-.field public static final F:I = 0x7f090031
+.field public static final F:I 
 
-.field public static final G:I = 0x7f090032
+.field public static final G:I 
 
-.field public static final H:I = 0x7f09003b
+.field public static final H:I 
 
-.field public static final I:I = 0x7f09003d
+.field public static final I:I 
 
-.field public static final J:I = 0x7f09003e
+.field public static final J:I 
 
-.field public static final K:I = 0x7f090044
+.field public static final K:I 
 
-.field public static final L:I = 0x7f090045
+.field public static final L:I 
 
-.field public static final M:I = 0x7f09008a
+.field public static final M:I 
 
-.field public static final N:I = 0x7f0900b0
+.field public static final N:I 
 
-.field public static final O:I = 0x7f0900ee
+.field public static final O:I 
 
-.field public static final P:I = 0x7f090121
+.field public static final P:I 
 
-.field public static final Q:I = 0x7f090191
+.field public static final Q:I 
 
-.field public static final R:I = 0x7f0901cb
+.field public static final R:I 
 
-.field public static final S:I = 0x7f090249
+.field public static final S:I 
 
-.field public static final T:I = 0x7f090250
+.field public static final T:I 
 
-.field public static final U:I = 0x7f09029a
+.field public static final U:I 
 
-.field public static final V:I = 0x7f09029d
+.field public static final V:I 
 
-.field public static final W:I = 0x7f0902d6
+.field public static final W:I 
 
-.field public static final X:I = 0x7f0902e2
+.field public static final X:I 
 
-.field public static final Y:I = 0x7f0903a5
+.field public static final Y:I 
 
-.field public static final Z:I = 0x7f0903a7
+.field public static final Z:I 
 
-.field public static final a:I = 0x7f090012
+.field public static final a:I 
 
-.field public static final a0:I = 0x7f09046e
+.field public static final a0:I 
 
-.field public static final b:I = 0x7f090013
+.field public static final b:I 
 
-.field public static final b0:I = 0x7f09046f
+.field public static final b0:I 
 
-.field public static final c:I = 0x7f090014
+.field public static final c:I 
 
-.field public static final c0:I = 0x7f090470
+.field public static final c0:I 
 
-.field public static final d:I = 0x7f090015
+.field public static final d:I 
 
-.field public static final d0:I = 0x7f090471
+.field public static final d0:I 
 
-.field public static final e:I = 0x7f090016
+.field public static final e:I 
 
-.field public static final e0:I = 0x7f0904ec
+.field public static final e0:I 
 
-.field public static final f:I = 0x7f090017
+.field public static final f:I 
 
-.field public static final f0:I = 0x7f0904ee
+.field public static final f0:I 
 
-.field public static final g:I = 0x7f090018
+.field public static final g:I 
 
-.field public static final g0:I = 0x7f090622
+.field public static final g0:I 
 
-.field public static final h:I = 0x7f090019
+.field public static final h:I 
 
-.field public static final h0:I = 0x7f090623
+.field public static final h0:I 
 
-.field public static final i:I = 0x7f09001a
+.field public static final i:I 
 
-.field public static final i0:I = 0x7f090624
+.field public static final i0:I 
 
-.field public static final j:I = 0x7f09001b
+.field public static final j:I 
 
-.field public static final j0:I = 0x7f090625
+.field public static final j0:I 
 
-.field public static final k:I = 0x7f09001c
+.field public static final k:I 
 
-.field public static final k0:I = 0x7f090626
+.field public static final k0:I 
 
-.field public static final l:I = 0x7f09001d
+.field public static final l:I 
 
-.field public static final l0:I = 0x7f090627
+.field public static final l0:I 
 
-.field public static final m:I = 0x7f09001e
+.field public static final m:I 
 
-.field public static final m0:I = 0x7f090628
+.field public static final m0:I 
 
-.field public static final n:I = 0x7f09001f
+.field public static final n:I 
 
-.field public static final n0:I = 0x7f090629
+.field public static final n0:I 
 
-.field public static final o:I = 0x7f090020
+.field public static final o:I 
 
-.field public static final o0:I = 0x7f090631
+.field public static final o0:I 
 
-.field public static final p:I = 0x7f090021
+.field public static final p:I 
 
-.field public static final p0:I = 0x7f090633
+.field public static final p0:I 
 
-.field public static final q:I = 0x7f090022
+.field public static final q:I 
 
-.field public static final q0:I = 0x7f09064e
+.field public static final q0:I 
 
-.field public static final r:I = 0x7f090023
+.field public static final r:I 
 
-.field public static final r0:I = 0x7f090654
+.field public static final r0:I 
 
-.field public static final s:I = 0x7f090024
+.field public static final s:I 
 
-.field public static final s0:I = 0x7f0907de
+.field public static final s0:I 
 
-.field public static final t:I = 0x7f090025
+.field public static final t:I 
 
-.field public static final u:I = 0x7f090026
+.field public static final u:I 
 
-.field public static final v:I = 0x7f090027
+.field public static final v:I 
 
-.field public static final w:I = 0x7f090028
+.field public static final w:I 
 
-.field public static final x:I = 0x7f090029
+.field public static final x:I 
 
-.field public static final y:I = 0x7f09002a
+.field public static final y:I 
 
-.field public static final z:I = 0x7f09002b
+.field public static final z:I 
 
 
 # direct methods
@@ -164,4 +164,221 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_31:I
+   sput-object v0, Lf/m/b/b$f;->A:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_4:I
+   sput-object v0, Lf/m/b/b$f;->B:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_5:I
+   sput-object v0, Lf/m/b/b$f;->C:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_6:I
+   sput-object v0, Lf/m/b/b$f;->D:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_7:I
+   sput-object v0, Lf/m/b/b$f;->E:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_8:I
+   sput-object v0, Lf/m/b/b$f;->F:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_9:I
+   sput-object v0, Lf/m/b/b$f;->G:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->action_container:I
+   sput-object v0, Lf/m/b/b$f;->H:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->action_divider:I
+   sput-object v0, Lf/m/b/b$f;->I:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->action_image:I
+   sput-object v0, Lf/m/b/b$f;->J:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->action_text:I
+   sput-object v0, Lf/m/b/b$f;->K:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->actions:I
+   sput-object v0, Lf/m/b/b$f;->L:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->async:I
+   sput-object v0, Lf/m/b/b$f;->M:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->blocking:I
+   sput-object v0, Lf/m/b/b$f;->N:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->btn_send:I
+   sput-object v0, Lf/m/b/b$f;->O:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->chronometer:I
+   sput-object v0, Lf/m/b/b$f;->P:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->dialog_button:I
+   sput-object v0, Lf/m/b/b$f;->Q:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->etv_name:I
+   sput-object v0, Lf/m/b/b$f;->R:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->forever:I
+   sput-object v0, Lf/m/b/b$f;->S:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->fragment_container_view_tag:I
+   sput-object v0, Lf/m/b/b$f;->T:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->icon:I
+   sput-object v0, Lf/m/b/b$f;->U:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->icon_group:I
+   sput-object v0, Lf/m/b/b$f;->V:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->info:I
+   sput-object v0, Lf/m/b/b$f;->W:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->italic:I
+   sput-object v0, Lf/m/b/b$f;->X:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->line1:I
+   sput-object v0, Lf/m/b/b$f;->Y:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->line3:I
+   sput-object v0, Lf/m/b/b$f;->Z:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_action_clickable_span:I
+   sput-object v0, Lf/m/b/b$f;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->normal:I
+   sput-object v0, Lf/m/b/b$f;->a0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_0:I
+   sput-object v0, Lf/m/b/b$f;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->notification_background:I
+   sput-object v0, Lf/m/b/b$f;->b0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_1:I
+   sput-object v0, Lf/m/b/b$f;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->notification_main_column:I
+   sput-object v0, Lf/m/b/b$f;->c0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_10:I
+   sput-object v0, Lf/m/b/b$f;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->notification_main_column_container:I
+   sput-object v0, Lf/m/b/b$f;->d0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_11:I
+   sput-object v0, Lf/m/b/b$f;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->right_icon:I
+   sput-object v0, Lf/m/b/b$f;->e0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_12:I
+   sput-object v0, Lf/m/b/b$f;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->right_side:I
+   sput-object v0, Lf/m/b/b$f;->f0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_13:I
+   sput-object v0, Lf/m/b/b$f;->g:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->tag_accessibility_actions:I
+   sput-object v0, Lf/m/b/b$f;->g0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_14:I
+   sput-object v0, Lf/m/b/b$f;->h:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->tag_accessibility_clickable_spans:I
+   sput-object v0, Lf/m/b/b$f;->h0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_15:I
+   sput-object v0, Lf/m/b/b$f;->i:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->tag_accessibility_heading:I
+   sput-object v0, Lf/m/b/b$f;->i0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_16:I
+   sput-object v0, Lf/m/b/b$f;->j:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->tag_accessibility_pane_title:I
+   sput-object v0, Lf/m/b/b$f;->j0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_17:I
+   sput-object v0, Lf/m/b/b$f;->k:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->tag_screen_reader_focusable:I
+   sput-object v0, Lf/m/b/b$f;->k0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_18:I
+   sput-object v0, Lf/m/b/b$f;->l:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->tag_transition_group:I
+   sput-object v0, Lf/m/b/b$f;->l0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_19:I
+   sput-object v0, Lf/m/b/b$f;->m:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->tag_unhandled_key_event_manager:I
+   sput-object v0, Lf/m/b/b$f;->m0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_2:I
+   sput-object v0, Lf/m/b/b$f;->n:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->tag_unhandled_key_listeners:I
+   sput-object v0, Lf/m/b/b$f;->n0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_20:I
+   sput-object v0, Lf/m/b/b$f;->o:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->text:I
+   sput-object v0, Lf/m/b/b$f;->o0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_21:I
+   sput-object v0, Lf/m/b/b$f;->p:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->text2:I
+   sput-object v0, Lf/m/b/b$f;->p0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_22:I
+   sput-object v0, Lf/m/b/b$f;->q:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->time:I
+   sput-object v0, Lf/m/b/b$f;->q0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_23:I
+   sput-object v0, Lf/m/b/b$f;->r:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->title:I
+   sput-object v0, Lf/m/b/b$f;->r0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_24:I
+   sput-object v0, Lf/m/b/b$f;->s:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->visible_removing_fragment_view_tag:I
+   sput-object v0, Lf/m/b/b$f;->s0:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_25:I
+   sput-object v0, Lf/m/b/b$f;->t:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_26:I
+   sput-object v0, Lf/m/b/b$f;->u:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_27:I
+   sput-object v0, Lf/m/b/b$f;->v:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_28:I
+   sput-object v0, Lf/m/b/b$f;->w:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_29:I
+   sput-object v0, Lf/m/b/b$f;->x:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_3:I
+   sput-object v0, Lf/m/b/b$f;->y:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->accessibility_custom_action_30:I
+   sput-object v0, Lf/m/b/b$f;->z:I 
+   return-void
 .end method

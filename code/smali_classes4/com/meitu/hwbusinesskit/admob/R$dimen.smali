@@ -14,53 +14,53 @@
 
 
 # static fields
-.field public static final browser_actions_context_menu_max_width:I = 0x7f070069
+.field public static final browser_actions_context_menu_max_width:I 
 
-.field public static final browser_actions_context_menu_min_padding:I = 0x7f07006a
+.field public static final browser_actions_context_menu_min_padding:I 
 
-.field public static final compat_button_inset_horizontal_material:I = 0x7f070092
+.field public static final compat_button_inset_horizontal_material:I 
 
-.field public static final compat_button_inset_vertical_material:I = 0x7f070093
+.field public static final compat_button_inset_vertical_material:I 
 
-.field public static final compat_button_padding_horizontal_material:I = 0x7f070094
+.field public static final compat_button_padding_horizontal_material:I 
 
-.field public static final compat_button_padding_vertical_material:I = 0x7f070095
+.field public static final compat_button_padding_vertical_material:I 
 
-.field public static final compat_control_corner_material:I = 0x7f070096
+.field public static final compat_control_corner_material:I 
 
-.field public static final compat_notification_large_icon_max_height:I = 0x7f070097
+.field public static final compat_notification_large_icon_max_height:I 
 
-.field public static final compat_notification_large_icon_max_width:I = 0x7f070098
+.field public static final compat_notification_large_icon_max_width:I 
 
-.field public static final notification_action_icon_size:I = 0x7f07013c
+.field public static final notification_action_icon_size:I 
 
-.field public static final notification_action_text_size:I = 0x7f07013d
+.field public static final notification_action_text_size:I 
 
-.field public static final notification_big_circle_margin:I = 0x7f07013e
+.field public static final notification_big_circle_margin:I 
 
-.field public static final notification_content_margin_start:I = 0x7f07013f
+.field public static final notification_content_margin_start:I 
 
-.field public static final notification_large_icon_height:I = 0x7f070140
+.field public static final notification_large_icon_height:I 
 
-.field public static final notification_large_icon_width:I = 0x7f070141
+.field public static final notification_large_icon_width:I 
 
-.field public static final notification_main_column_padding_top:I = 0x7f070142
+.field public static final notification_main_column_padding_top:I 
 
-.field public static final notification_media_narrow_margin:I = 0x7f070143
+.field public static final notification_media_narrow_margin:I 
 
-.field public static final notification_right_icon_size:I = 0x7f070144
+.field public static final notification_right_icon_size:I 
 
-.field public static final notification_right_side_padding_top:I = 0x7f070145
+.field public static final notification_right_side_padding_top:I 
 
-.field public static final notification_small_icon_background_padding:I = 0x7f070146
+.field public static final notification_small_icon_background_padding:I 
 
-.field public static final notification_small_icon_size_as_large:I = 0x7f070147
+.field public static final notification_small_icon_size_as_large:I 
 
-.field public static final notification_subtext_size:I = 0x7f070148
+.field public static final notification_subtext_size:I 
 
-.field public static final notification_top_pad:I = 0x7f070149
+.field public static final notification_top_pad:I 
 
-.field public static final notification_top_pad_large_text:I = 0x7f07014a
+.field public static final notification_top_pad_large_text:I 
 
 
 # direct methods
@@ -70,4 +70,80 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResDIMEN;->browser_actions_context_menu_max_width:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->browser_actions_context_menu_max_width:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->browser_actions_context_menu_min_padding:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->browser_actions_context_menu_min_padding:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_button_inset_horizontal_material:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->compat_button_inset_horizontal_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_button_inset_vertical_material:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->compat_button_inset_vertical_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_button_padding_horizontal_material:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->compat_button_padding_horizontal_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_button_padding_vertical_material:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->compat_button_padding_vertical_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_control_corner_material:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->compat_control_corner_material:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_notification_large_icon_max_height:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->compat_notification_large_icon_max_height:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->compat_notification_large_icon_max_width:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->compat_notification_large_icon_max_width:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_action_icon_size:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->notification_action_icon_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_action_text_size:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->notification_action_text_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_big_circle_margin:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->notification_big_circle_margin:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_content_margin_start:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->notification_content_margin_start:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_large_icon_height:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->notification_large_icon_height:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_large_icon_width:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->notification_large_icon_width:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_main_column_padding_top:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->notification_main_column_padding_top:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_media_narrow_margin:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->notification_media_narrow_margin:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_right_icon_size:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->notification_right_icon_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_right_side_padding_top:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->notification_right_side_padding_top:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_small_icon_background_padding:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->notification_small_icon_background_padding:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_small_icon_size_as_large:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->notification_small_icon_size_as_large:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_subtext_size:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->notification_subtext_size:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_top_pad:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->notification_top_pad:I 
+
+   sget-object v0, Lcom/res/provider/ResDIMEN;->notification_top_pad_large_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/admob/R$dimen;->notification_top_pad_large_text:I 
+   return-void
 .end method

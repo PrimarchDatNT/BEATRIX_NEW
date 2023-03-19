@@ -14,29 +14,29 @@
 
 
 # static fields
-.field public static final a:I = 0x7f100153
+.field public static final a:I 
 
-.field public static final b:I = 0x7f100154
+.field public static final b:I 
 
-.field public static final c:I = 0x7f100155
+.field public static final c:I 
 
-.field public static final d:I = 0x7f100156
+.field public static final d:I 
 
-.field public static final e:I = 0x7f100157
+.field public static final e:I 
 
-.field public static final f:I = 0x7f100158
+.field public static final f:I 
 
-.field public static final g:I = 0x7f100159
+.field public static final g:I 
 
-.field public static final h:I = 0x7f10015a
+.field public static final h:I 
 
-.field public static final i:I = 0x7f10015b
+.field public static final i:I 
 
-.field public static final j:I = 0x7f10015c
+.field public static final j:I 
 
-.field public static final k:I = 0x7f100208
+.field public static final k:I 
 
-.field public static final l:I = 0x7f100209
+.field public static final l:I 
 
 
 # direct methods
@@ -46,4 +46,44 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification:I
+   sput-object v0, Lcom/meitu/library/camera/l/a$k;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Info:I
+   sput-object v0, Lcom/meitu/library/camera/l/a$k;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Info_Media:I
+   sput-object v0, Lcom/meitu/library/camera/l/a$k;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Line2:I
+   sput-object v0, Lcom/meitu/library/camera/l/a$k;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Line2_Media:I
+   sput-object v0, Lcom/meitu/library/camera/l/a$k;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Media:I
+   sput-object v0, Lcom/meitu/library/camera/l/a$k;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Time:I
+   sput-object v0, Lcom/meitu/library/camera/l/a$k;->g:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Time_Media:I
+   sput-object v0, Lcom/meitu/library/camera/l/a$k;->h:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Title:I
+   sput-object v0, Lcom/meitu/library/camera/l/a$k;->i:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->TextAppearance_Compat_Notification_Title_Media:I
+   sput-object v0, Lcom/meitu/library/camera/l/a$k;->j:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->Widget_Compat_NotificationActionContainer:I
+   sput-object v0, Lcom/meitu/library/camera/l/a$k;->k:I 
+
+   sget-object v0, Lcom/res/provider/ResSTYLE;->Widget_Compat_NotificationActionText:I
+   sput-object v0, Lcom/meitu/library/camera/l/a$k;->l:I 
+   return-void
 .end method

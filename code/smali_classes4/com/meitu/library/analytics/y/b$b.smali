@@ -14,23 +14,23 @@
 
 
 # static fields
-.field public static final a:I = 0x7f0f00aa
+.field public static final a:I 
 
-.field public static final b:I = 0x7f0f0aa1
+.field public static final b:I 
 
-.field public static final c:I = 0x7f0f0aa2
+.field public static final c:I 
 
-.field public static final d:I = 0x7f0f0aa3
+.field public static final d:I 
 
-.field public static final e:I = 0x7f0f0aa4
+.field public static final e:I 
 
-.field public static final f:I = 0x7f0f0aa5
+.field public static final f:I 
 
-.field public static final g:I = 0x7f0f0aa6
+.field public static final g:I 
 
-.field public static final h:I = 0x7f0f0aa7
+.field public static final h:I 
 
-.field public static final i:I = 0x7f0f0aa8
+.field public static final i:I 
 
 
 # direct methods
@@ -40,4 +40,35 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResSTRING;->app_name:I
+   sput-object v0, Lcom/meitu/library/analytics/y/b$b;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->teemo_ab_aes_key:I
+   sput-object v0, Lcom/meitu/library/analytics/y/b$b;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->teemo_app_key:I
+   sput-object v0, Lcom/meitu/library/analytics/y/b$b;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->teemo_app_password:I
+   sput-object v0, Lcom/meitu/library/analytics/y/b$b;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->teemo_rsa_key:I
+   sput-object v0, Lcom/meitu/library/analytics/y/b$b;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->teemo_test_ab_aes_key:I
+   sput-object v0, Lcom/meitu/library/analytics/y/b$b;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->teemo_test_app_key:I
+   sput-object v0, Lcom/meitu/library/analytics/y/b$b;->g:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->teemo_test_app_password:I
+   sput-object v0, Lcom/meitu/library/analytics/y/b$b;->h:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->teemo_test_rsa_key:I
+   sput-object v0, Lcom/meitu/library/analytics/y/b$b;->i:I 
+   return-void
 .end method

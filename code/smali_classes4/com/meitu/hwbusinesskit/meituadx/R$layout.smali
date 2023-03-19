@@ -14,99 +14,99 @@
 
 
 # static fields
-.field public static final activity_app_web:I = 0x7f0c0021
+.field public static final activity_app_web:I 
 
-.field public static final activity_iab_interstitial:I = 0x7f0c0032
+.field public static final activity_iab_interstitial:I 
 
-.field public static final activity_incentive_video:I = 0x7f0c0036
+.field public static final activity_incentive_video:I 
 
-.field public static final activity_interstitial_new:I = 0x7f0c0037
+.field public static final activity_interstitial_new:I 
 
-.field public static final activity_video_detail:I = 0x7f0c0042
+.field public static final activity_video_detail:I 
 
-.field public static final activity_web:I = 0x7f0c0044
+.field public static final activity_web:I 
 
-.field public static final brand_learn_more:I = 0x7f0c0055
+.field public static final brand_learn_more:I 
 
-.field public static final brand_learn_more_small:I = 0x7f0c0056
+.field public static final brand_learn_more_small:I 
 
-.field public static final brand_mute_unmute:I = 0x7f0c0057
+.field public static final brand_mute_unmute:I 
 
-.field public static final brand_mute_unmute_small:I = 0x7f0c0058
+.field public static final brand_mute_unmute_small:I 
 
-.field public static final brand_replay:I = 0x7f0c0059
+.field public static final brand_replay:I 
 
-.field public static final brand_replay_small:I = 0x7f0c005a
+.field public static final brand_replay_small:I 
 
-.field public static final brand_skip:I = 0x7f0c005b
+.field public static final brand_skip:I 
 
-.field public static final brand_skip_small:I = 0x7f0c005c
+.field public static final brand_skip_small:I 
 
-.field public static final brand_sponsored_seconds:I = 0x7f0c005d
+.field public static final brand_sponsored_seconds:I 
 
-.field public static final brand_sponsored_seconds_small:I = 0x7f0c005e
+.field public static final brand_sponsored_seconds_small:I 
 
-.field public static final brand_under21_vc_video:I = 0x7f0c005f
+.field public static final brand_under21_vc_video:I 
 
-.field public static final brand_under21_vc_video_landscape:I = 0x7f0c0060
+.field public static final brand_under21_vc_video_landscape:I 
 
-.field public static final brand_vc_learn_more:I = 0x7f0c0061
+.field public static final brand_vc_learn_more:I 
 
-.field public static final brand_vc_mute_unmute:I = 0x7f0c0062
+.field public static final brand_vc_mute_unmute:I 
 
-.field public static final brand_vc_progress_bar:I = 0x7f0c0063
+.field public static final brand_vc_progress_bar:I 
 
-.field public static final brand_vc_replay_layout:I = 0x7f0c0064
+.field public static final brand_vc_replay_layout:I 
 
-.field public static final brand_vc_seconds:I = 0x7f0c0065
+.field public static final brand_vc_seconds:I 
 
-.field public static final brand_vc_skip:I = 0x7f0c0066
+.field public static final brand_vc_skip:I 
 
-.field public static final brand_vc_sponsored:I = 0x7f0c0067
+.field public static final brand_vc_sponsored:I 
 
-.field public static final brand_vc_video:I = 0x7f0c0068
+.field public static final brand_vc_video:I 
 
-.field public static final brand_vc_video_landscape:I = 0x7f0c0069
+.field public static final brand_vc_video_landscape:I 
 
-.field public static final common_ad_layout:I = 0x7f0c0077
+.field public static final common_ad_layout:I 
 
-.field public static final common_native_ad_layout:I = 0x7f0c0078
+.field public static final common_native_ad_layout:I 
 
-.field public static final common_video_ad_layout:I = 0x7f0c0079
+.field public static final common_video_ad_layout:I 
 
-.field public static final common_video_default:I = 0x7f0c007a
+.field public static final common_video_default:I 
 
-.field public static final notification_action:I = 0x7f0c01cd
+.field public static final notification_action:I 
 
-.field public static final notification_action_tombstone:I = 0x7f0c01ce
+.field public static final notification_action_tombstone:I 
 
-.field public static final notification_media_action:I = 0x7f0c01d0
+.field public static final notification_media_action:I 
 
-.field public static final notification_media_cancel_action:I = 0x7f0c01d1
+.field public static final notification_media_cancel_action:I 
 
-.field public static final notification_template_big_media:I = 0x7f0c01d2
+.field public static final notification_template_big_media:I 
 
-.field public static final notification_template_big_media_custom:I = 0x7f0c01d3
+.field public static final notification_template_big_media_custom:I 
 
-.field public static final notification_template_big_media_narrow:I = 0x7f0c01d4
+.field public static final notification_template_big_media_narrow:I 
 
-.field public static final notification_template_big_media_narrow_custom:I = 0x7f0c01d5
+.field public static final notification_template_big_media_narrow_custom:I 
 
-.field public static final notification_template_custom_big:I = 0x7f0c01d6
+.field public static final notification_template_custom_big:I 
 
-.field public static final notification_template_icon_group:I = 0x7f0c01d7
+.field public static final notification_template_icon_group:I 
 
-.field public static final notification_template_lines_media:I = 0x7f0c01d8
+.field public static final notification_template_lines_media:I 
 
-.field public static final notification_template_media:I = 0x7f0c01d9
+.field public static final notification_template_media:I 
 
-.field public static final notification_template_media_custom:I = 0x7f0c01da
+.field public static final notification_template_media_custom:I 
 
-.field public static final notification_template_part_chronometer:I = 0x7f0c01db
+.field public static final notification_template_part_chronometer:I 
 
-.field public static final notification_template_part_time:I = 0x7f0c01dc
+.field public static final notification_template_part_time:I 
 
-.field public static final sdk_gp_loading:I = 0x7f0c01eb
+.field public static final sdk_gp_loading:I 
 
 
 # direct methods
@@ -116,4 +116,149 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->activity_app_web:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->activity_app_web:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->activity_iab_interstitial:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->activity_iab_interstitial:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->activity_incentive_video:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->activity_incentive_video:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->activity_interstitial_new:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->activity_interstitial_new:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->activity_video_detail:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->activity_video_detail:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->activity_web:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->activity_web:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_learn_more:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_learn_more:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_learn_more_small:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_learn_more_small:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_mute_unmute:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_mute_unmute:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_mute_unmute_small:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_mute_unmute_small:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_replay:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_replay:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_replay_small:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_replay_small:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_skip:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_skip:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_skip_small:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_skip_small:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_sponsored_seconds:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_sponsored_seconds:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_sponsored_seconds_small:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_sponsored_seconds_small:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_under21_vc_video:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_under21_vc_video:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_under21_vc_video_landscape:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_under21_vc_video_landscape:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_vc_learn_more:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_vc_learn_more:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_vc_mute_unmute:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_vc_mute_unmute:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_vc_progress_bar:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_vc_progress_bar:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_vc_replay_layout:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_vc_replay_layout:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_vc_seconds:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_vc_seconds:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_vc_skip:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_vc_skip:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_vc_sponsored:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_vc_sponsored:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_vc_video:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_vc_video:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->brand_vc_video_landscape:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->brand_vc_video_landscape:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->common_ad_layout:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->common_ad_layout:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->common_native_ad_layout:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->common_native_ad_layout:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->common_video_ad_layout:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->common_video_ad_layout:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->common_video_default:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->common_video_default:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_action:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->notification_action:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_action_tombstone:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->notification_action_tombstone:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_media_action:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->notification_media_action:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_media_cancel_action:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->notification_media_cancel_action:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_big_media:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->notification_template_big_media:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_big_media_custom:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->notification_template_big_media_custom:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_big_media_narrow:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->notification_template_big_media_narrow:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_big_media_narrow_custom:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->notification_template_big_media_narrow_custom:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_custom_big:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->notification_template_custom_big:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_icon_group:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->notification_template_icon_group:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_lines_media:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->notification_template_lines_media:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_media:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->notification_template_media:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_media_custom:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->notification_template_media_custom:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_part_chronometer:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->notification_template_part_chronometer:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->notification_template_part_time:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->notification_template_part_time:I 
+
+   sget-object v0, Lcom/res/provider/ResLAYOUT;->sdk_gp_loading:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$layout;->sdk_gp_loading:I 
+   return-void
 .end method

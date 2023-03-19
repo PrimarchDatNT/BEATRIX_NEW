@@ -14,115 +14,115 @@
 
 
 # static fields
-.field public static final SinglePartExpandableAd:I = 0x7f0f0011
+.field public static final SinglePartExpandableAd:I 
 
-.field public static final app_name:I = 0x7f0f00aa
+.field public static final app_name:I 
 
-.field public static final banner_btn_text:I = 0x7f0f0104
+.field public static final banner_btn_text:I 
 
-.field public static final brand_learn_more_text:I = 0x7f0f01e3
+.field public static final brand_learn_more_text:I 
 
-.field public static final brand_replay_text:I = 0x7f0f01e6
+.field public static final brand_replay_text:I 
 
-.field public static final brand_skip_text:I = 0x7f0f01e7
+.field public static final brand_skip_text:I 
 
-.field public static final brand_spnosored_seconds:I = 0x7f0f01e8
+.field public static final brand_spnosored_seconds:I 
 
-.field public static final brand_sponsored_iab_text:I = 0x7f0f01e9
+.field public static final brand_sponsored_iab_text:I 
 
-.field public static final brand_sponsored_text:I = 0x7f0f01ea
+.field public static final brand_sponsored_text:I 
 
-.field public static final cancel:I = 0x7f0f0212
+.field public static final cancel:I 
 
-.field public static final common_ad_learn_more:I = 0x7f0f0286
+.field public static final common_ad_learn_more:I 
 
-.field public static final common_google_play_services_enable_button:I = 0x7f0f0287
+.field public static final common_google_play_services_enable_button:I 
 
-.field public static final common_google_play_services_enable_text:I = 0x7f0f0288
+.field public static final common_google_play_services_enable_text:I 
 
-.field public static final common_google_play_services_enable_title:I = 0x7f0f0289
+.field public static final common_google_play_services_enable_title:I 
 
-.field public static final common_google_play_services_install_button:I = 0x7f0f028a
+.field public static final common_google_play_services_install_button:I 
 
-.field public static final common_google_play_services_install_text:I = 0x7f0f028b
+.field public static final common_google_play_services_install_text:I 
 
-.field public static final common_google_play_services_install_title:I = 0x7f0f028c
+.field public static final common_google_play_services_install_title:I 
 
-.field public static final common_google_play_services_notification_channel_name:I = 0x7f0f028d
+.field public static final common_google_play_services_notification_channel_name:I 
 
-.field public static final common_google_play_services_notification_ticker:I = 0x7f0f028e
+.field public static final common_google_play_services_notification_ticker:I 
 
-.field public static final common_google_play_services_unknown_issue:I = 0x7f0f028f
+.field public static final common_google_play_services_unknown_issue:I 
 
-.field public static final common_google_play_services_unsupported_text:I = 0x7f0f0290
+.field public static final common_google_play_services_unsupported_text:I 
 
-.field public static final common_google_play_services_update_button:I = 0x7f0f0291
+.field public static final common_google_play_services_update_button:I 
 
-.field public static final common_google_play_services_update_text:I = 0x7f0f0292
+.field public static final common_google_play_services_update_text:I 
 
-.field public static final common_google_play_services_update_title:I = 0x7f0f0293
+.field public static final common_google_play_services_update_title:I 
 
-.field public static final common_google_play_services_updating_text:I = 0x7f0f0294
+.field public static final common_google_play_services_updating_text:I 
 
-.field public static final common_google_play_services_wear_update_text:I = 0x7f0f0295
+.field public static final common_google_play_services_wear_update_text:I 
 
-.field public static final common_open_on_phone:I = 0x7f0f0296
+.field public static final common_open_on_phone:I 
 
-.field public static final common_signin_button_text:I = 0x7f0f0298
+.field public static final common_signin_button_text:I 
 
-.field public static final common_signin_button_text_long:I = 0x7f0f0299
+.field public static final common_signin_button_text_long:I 
 
-.field public static final content_description_delete:I = 0x7f0f02ad
+.field public static final content_description_delete:I 
 
-.field public static final content_description_pause:I = 0x7f0f02ae
+.field public static final content_description_pause:I 
 
-.field public static final down_now:I = 0x7f0f02f5
+.field public static final down_now:I 
 
-.field public static final download:I = 0x7f0f02f6
+.field public static final download:I 
 
-.field public static final downloading:I = 0x7f0f02fc
+.field public static final downloading:I 
 
-.field public static final downloading_minu_toast:I = 0x7f0f02fd
+.field public static final downloading_minu_toast:I 
 
-.field public static final gps_prompt_context:I = 0x7f0f0417
+.field public static final gps_prompt_context:I 
 
-.field public static final gps_prompt_title:I = 0x7f0f0418
+.field public static final gps_prompt_title:I 
 
-.field public static final interstitial_default_button_text:I = 0x7f0f0563
+.field public static final interstitial_default_button_text:I 
 
-.field public static final learn_more_text_incentive:I = 0x7f0f057f
+.field public static final learn_more_text_incentive:I 
 
-.field public static final meitu_webview_choose_file:I = 0x7f0f060a
+.field public static final meitu_webview_choose_file:I 
 
-.field public static final meitu_webview_download_failed:I = 0x7f0f060b
+.field public static final meitu_webview_download_failed:I 
 
-.field public static final meitu_webview_pic_save_at:I = 0x7f0f060c
+.field public static final meitu_webview_pic_save_at:I 
 
-.field public static final meitu_webview_pic_save_pop:I = 0x7f0f060d
+.field public static final meitu_webview_pic_save_pop:I 
 
-.field public static final meitu_webview_saving:I = 0x7f0f060e
+.field public static final meitu_webview_saving:I 
 
-.field public static final meitu_webview_start_download:I = 0x7f0f060f
+.field public static final meitu_webview_start_download:I 
 
-.field public static final native_sponsored_text:I = 0x7f0f0689
+.field public static final native_sponsored_text:I 
 
-.field public static final open_now:I = 0x7f0f06df
+.field public static final open_now:I 
 
-.field public static final status_bar_notification_info_overflow:I = 0x7f0f08dd
+.field public static final status_bar_notification_info_overflow:I 
 
-.field public static final vast_detail_text_incentive:I = 0x7f0f0b01
+.field public static final vast_detail_text_incentive:I 
 
-.field public static final vast_model_title_incentive:I = 0x7f0f0b02
+.field public static final vast_model_title_incentive:I 
 
-.field public static final vast_time_sec_tag:I = 0x7f0f0b03
+.field public static final vast_time_sec_tag:I 
 
-.field public static final vast_watch_text_incentive:I = 0x7f0f0b04
+.field public static final vast_watch_text_incentive:I 
 
-.field public static final vast_wifi_text_incentive:I = 0x7f0f0b05
+.field public static final vast_wifi_text_incentive:I 
 
-.field public static final video_des_text:I = 0x7f0f0b08
+.field public static final video_des_text:I 
 
-.field public static final video_title_text:I = 0x7f0f0b09
+.field public static final video_title_text:I 
 
 
 # direct methods
@@ -132,4 +132,173 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResSTRING;->SinglePartExpandableAd:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->SinglePartExpandableAd:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->app_name:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->app_name:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->banner_btn_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->banner_btn_text:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->brand_learn_more_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->brand_learn_more_text:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->brand_replay_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->brand_replay_text:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->brand_skip_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->brand_skip_text:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->brand_spnosored_seconds:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->brand_spnosored_seconds:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->brand_sponsored_iab_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->brand_sponsored_iab_text:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->brand_sponsored_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->brand_sponsored_text:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->cancel:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->cancel:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_ad_learn_more:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_ad_learn_more:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_enable_button:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_google_play_services_enable_button:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_enable_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_google_play_services_enable_text:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_enable_title:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_google_play_services_enable_title:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_install_button:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_google_play_services_install_button:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_install_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_google_play_services_install_text:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_install_title:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_google_play_services_install_title:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_notification_channel_name:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_google_play_services_notification_channel_name:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_notification_ticker:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_google_play_services_notification_ticker:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_unknown_issue:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_google_play_services_unknown_issue:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_unsupported_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_google_play_services_unsupported_text:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_update_button:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_google_play_services_update_button:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_update_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_google_play_services_update_text:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_update_title:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_google_play_services_update_title:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_updating_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_google_play_services_updating_text:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_google_play_services_wear_update_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_google_play_services_wear_update_text:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_open_on_phone:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_open_on_phone:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_signin_button_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_signin_button_text:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->common_signin_button_text_long:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->common_signin_button_text_long:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->content_description_delete:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->content_description_delete:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->content_description_pause:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->content_description_pause:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->down_now:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->down_now:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->download:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->download:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->downloading:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->downloading:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->downloading_minu_toast:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->downloading_minu_toast:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->gps_prompt_context:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->gps_prompt_context:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->gps_prompt_title:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->gps_prompt_title:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->interstitial_default_button_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->interstitial_default_button_text:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->learn_more_text_incentive:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->learn_more_text_incentive:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->meitu_webview_choose_file:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->meitu_webview_choose_file:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->meitu_webview_download_failed:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->meitu_webview_download_failed:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->meitu_webview_pic_save_at:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->meitu_webview_pic_save_at:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->meitu_webview_pic_save_pop:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->meitu_webview_pic_save_pop:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->meitu_webview_saving:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->meitu_webview_saving:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->meitu_webview_start_download:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->meitu_webview_start_download:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->native_sponsored_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->native_sponsored_text:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->open_now:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->open_now:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->status_bar_notification_info_overflow:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->status_bar_notification_info_overflow:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->vast_detail_text_incentive:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->vast_detail_text_incentive:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->vast_model_title_incentive:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->vast_model_title_incentive:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->vast_time_sec_tag:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->vast_time_sec_tag:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->vast_watch_text_incentive:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->vast_watch_text_incentive:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->vast_wifi_text_incentive:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->vast_wifi_text_incentive:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->video_des_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->video_des_text:I 
+
+   sget-object v0, Lcom/res/provider/ResSTRING;->video_title_text:I
+   sput-object v0, Lcom/meitu/hwbusinesskit/meituadx/R$string;->video_title_text:I 
+   return-void
 .end method

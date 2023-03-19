@@ -14,11 +14,11 @@
 
 
 # static fields
-.field public static final a:I = 0x7f120003
+.field public static final a:I 
 
-.field public static final b:I = 0x7f120004
+.field public static final b:I 
 
-.field public static final c:I = 0x7f120005
+.field public static final c:I 
 
 
 # direct methods
@@ -28,4 +28,17 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResXML;->libmtsns_file_provider_path:I
+   sput-object v0, Lcom/meitu/lib_common/c$r;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResXML;->mtcamera_security_programs:I
+   sput-object v0, Lcom/meitu/lib_common/c$r;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResXML;->network_security_config:I
+   sput-object v0, Lcom/meitu/lib_common/c$r;->c:I 
+   return-void
 .end method

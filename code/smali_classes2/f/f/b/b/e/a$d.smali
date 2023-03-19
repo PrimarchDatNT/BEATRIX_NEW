@@ -14,23 +14,23 @@
 
 
 # static fields
-.field public static final a:I = 0x7f09004f
+.field public static final a:I 
 
-.field public static final b:I = 0x7f09005a
+.field public static final b:I 
 
-.field public static final c:I = 0x7f09008d
+.field public static final c:I 
 
-.field public static final d:I = 0x7f09017f
+.field public static final d:I 
 
-.field public static final e:I = 0x7f09029e
+.field public static final e:I 
 
-.field public static final f:I = 0x7f0903a3
+.field public static final f:I 
 
-.field public static final g:I = 0x7f09046d
+.field public static final g:I 
 
-.field public static final h:I = 0x7f0905e5
+.field public static final h:I 
 
-.field public static final i:I = 0x7f0907f6
+.field public static final i:I 
 
 
 # direct methods
@@ -40,4 +40,35 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
+.end method
+
+.method static constructor <clinit>()V
+   .registers 1
+   sget-object v0, Lcom/res/provider/ResID;->adjust_height:I
+   sput-object v0, Lf/f/b/b/e/a$d;->a:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->adjust_width:I
+   sput-object v0, Lf/f/b/b/e/a$d;->b:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->auto:I
+   sput-object v0, Lf/f/b/b/e/a$d;->c:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->dark:I
+   sput-object v0, Lf/f/b/b/e/a$d;->d:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->icon_only:I
+   sput-object v0, Lf/f/b/b/e/a$d;->e:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->light:I
+   sput-object v0, Lf/f/b/b/e/a$d;->f:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->none:I
+   sput-object v0, Lf/f/b/b/e/a$d;->g:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->standard:I
+   sput-object v0, Lf/f/b/b/e/a$d;->h:I 
+
+   sget-object v0, Lcom/res/provider/ResID;->wide:I
+   sput-object v0, Lf/f/b/b/e/a$d;->i:I 
+   return-void
 .end method
