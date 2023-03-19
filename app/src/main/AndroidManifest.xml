@@ -170,7 +170,8 @@
             android:name="com.commsource.beautyplus.start.StartUpAdvertActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
-            android:theme="@style/start_up_theme">
+            android:theme="@style/start_up_theme"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -231,7 +232,8 @@
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait"
             android:theme="@style/fullScreenAppCompat"
-            android:windowSoftInputMode="adjustNothing">
+            android:windowSoftInputMode="adjustNothing"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.media.action.IMAGE_CAPTURE" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -266,12 +268,14 @@
         </receiver>
         <receiver
             android:name="com.commsource.beautyplus.PowerBootBroadcastReceiver"
-            android:process=":pushservice">
+            android:process=":pushservice"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.commsource.push.NotificationBroadcastReceiver">
+        <receiver android:name="com.commsource.push.NotificationBroadcastReceiver"
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.commsource.beautyplus.ClickNotification" />
                 <action android:name="com.commsource.beautyplus.PushNotification" />
@@ -290,7 +294,8 @@
             android:name="com.commsource.beautyplus.PushSchemeActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:launchMode="singleTask"
-            android:theme="@style/translucent_no_full_screen_orientation">
+            android:theme="@style/translucent_no_full_screen_orientation"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -370,7 +375,8 @@
             android:screenOrientation="portrait"
             android:theme="@style/MD_Theme" />
 
-        <receiver android:name="com.commsource.beautyplus.ChangeLanguageBroadcastReceiver">
+        <receiver android:name="com.commsource.beautyplus.ChangeLanguageBroadcastReceiver"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.LOCALE_CHANGED" />
             </intent-filter>
@@ -472,7 +478,8 @@
         <activity
             android:name="com.commsource.studio.ImageStudioActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustNothing">
+            android:windowSoftInputMode="adjustNothing"
+            android:exported="true">
             <intent-filter android:icon="@mipmap/ic_launcher">
                 <action android:name="android.intent.action.EDIT" />
                 <action android:name="android.intent.action.SEND" />
@@ -623,7 +630,8 @@
             android:exported="false"
             android:process=":backtrace__" />
 
-        <receiver android:name="com.meitu.hubble.KitReceiver">
+        <receiver android:name="com.meitu.hubble.KitReceiver"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
                 <action android:name="action.hubble.timing.com.commsource.beautyplus" />
@@ -670,11 +678,11 @@
             </intent-filter>
         </service>
 
-        <provider
+<!--        <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
             android:authorities="com.commsource.beautyplus.lifecycle-process"
             android:exported="false"
-            android:multiprocess="true" />
+            android:multiprocess="true" />-->
         <provider
             android:name="com.meitu.library.gid.base.ActivityTaskProvider"
             android:authorities="com.commsource.beautyplus.gid.activityTaskProvider"
@@ -709,7 +717,8 @@
             android:multiprocess="false"
             android:permission="com.commsource.beautyplus.analytics.zipper" />
 
-        <service android:name="com.meitu.library.pushkit.fcm.AppFirebaseMessagingService">
+        <service android:name="com.meitu.library.pushkit.fcm.AppFirebaseMessagingService"
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
@@ -811,12 +820,12 @@
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
-        <provider
-            android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.commsource.beautyplus.firebaseinitprovider"
-            android:directBootAware="true"
-            android:exported="false"
-            android:initOrder="100" />
+<!--        <provider-->
+<!--            android:name="com.google.firebase.provider.FirebaseInitProvider"-->
+<!--            android:authorities="com.commsource.beautyplus.firebaseinitprovider"-->
+<!--            android:directBootAware="true"-->
+<!--            android:exported="false"-->
+<!--            android:initOrder="100" />-->
         <provider
             android:name="com.meitu.remote.provider.RemoteInitProvider"
             android:authorities="com.commsource.beautyplus.remoteinitprovider"
@@ -828,14 +837,16 @@
             android:name="com.meitu.remote.componets.RemoteDiscoveryService"
             android:directBootAware="true"
             android:exported="false" />
-        <provider
-            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-            android:authorities="com.commsource.beautyplus.mobileadsinitprovider"
-            android:exported="false"
-            android:initOrder="100" />
+<!--        <provider-->
+<!--            android:name="com.google.android.gms.ads.MobileAdsInitProvider"-->
+<!--            android:authorities="com.commsource.beautyplus.mobileadsinitprovider"-->
+<!--            android:exported="false"-->
+<!--            android:initOrder="100" />-->
+<!--
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"
             android:exported="false" />
+-->
 
         <provider
             android:name="com.meitu.libmtsns.MTSNSFileProvider"
@@ -870,15 +881,16 @@
         <service
             android:name="com.meitu.mtuploader.MtUploadService"
             android:process=":mtupload" />
-        <receiver android:name="com.meitu.webview.download.DownloadCompletedReceiver">
+        <receiver android:name="com.meitu.webview.download.DownloadCompletedReceiver"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
             </intent-filter>
         </receiver>
-        <service
+<!--        <service
             android:name="com.tencent.smtt.export.external.DexClassLoaderProviderService"
             android:label="dexopt"
-            android:process=":tbsdexopt" />
+            android:process=":tbsdexopt" />-->
         <meta-data
             android:name="com.bumptech.glide.integration.webp.WebpGlideModule"
             android:value="GlideModule" />
