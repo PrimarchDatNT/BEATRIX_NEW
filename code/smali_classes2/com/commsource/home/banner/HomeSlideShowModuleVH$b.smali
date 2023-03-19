@@ -74,7 +74,7 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget v3, Lcom/commsource/beautyplus/R$id;->idvPager:I
+    sget v3, Lcom/res/provider/ResID;->idvPager:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -109,7 +109,7 @@
 
     invoke-static {v4, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->rvPager:I
+    sget v2, Lcom/res/provider/ResID;->rvPager:I
 
     invoke-virtual {v4, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

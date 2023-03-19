@@ -255,7 +255,7 @@
     .line 7
     iget-object v4, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
 
-    sget v5, Lcom/commsource/beautyplus/R$id;->layerSelectComponent:I
+    sget v5, Lcom/res/provider/ResID;->layerSelectComponent:I
 
     invoke-virtual {v4, v5}, Lcom/commsource/studio/ImageStudioActivity;->M0(I)Landroid/view/View;
 
@@ -282,7 +282,7 @@
     .line 8
     iget-object v3, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
 
-    sget v4, Lcom/commsource/beautyplus/R$id;->undoRedo:I
+    sget v4, Lcom/res/provider/ResID;->undoRedo:I
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/ImageStudioActivity;->M0(I)Landroid/view/View;
 
@@ -405,7 +405,7 @@
     .line 13
     iget-object v6, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
 
-    sget v7, Lcom/commsource/beautyplus/R$id;->layerSelectComponent:I
+    sget v7, Lcom/res/provider/ResID;->layerSelectComponent:I
 
     invoke-virtual {v6, v7}, Lcom/commsource/studio/ImageStudioActivity;->M0(I)Landroid/view/View;
 
@@ -484,7 +484,7 @@
     .line 17
     iget-object v3, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
 
-    sget v5, Lcom/commsource/beautyplus/R$id;->undoRedo:I
+    sget v5, Lcom/res/provider/ResID;->undoRedo:I
 
     invoke-virtual {v3, v5}, Lcom/commsource/studio/ImageStudioActivity;->M0(I)Landroid/view/View;
 

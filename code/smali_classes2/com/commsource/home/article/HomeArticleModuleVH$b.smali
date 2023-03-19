@@ -136,7 +136,7 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget v1, Lcom/commsource/beautyplus/R$id;->tvTile:I
+    sget v1, Lcom/res/provider/ResID;->tvTile:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -177,7 +177,7 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->tvSummary:I
+    sget v2, Lcom/res/provider/ResID;->tvSummary:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -257,7 +257,7 @@
 
     invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget p3, Lcom/commsource/beautyplus/R$id;->ivImage:I
+    sget p3, Lcom/res/provider/ResID;->ivImage:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -261,7 +261,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    sget v1, Lcom/commsource/beautyplus/R$id;->vSeekBar:I
+    sget v1, Lcom/res/provider/ResID;->vSeekBar:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment;->w(I)Landroid/view/View;
 

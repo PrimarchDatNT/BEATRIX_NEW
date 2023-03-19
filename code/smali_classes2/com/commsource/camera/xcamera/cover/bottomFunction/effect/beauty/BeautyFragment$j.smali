@@ -85,7 +85,7 @@
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment$j;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->beautyRecycleView:I
+    sget v2, Lcom/res/provider/ResID;->beautyRecycleView:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;->w(I)Landroid/view/View;
 
@@ -100,7 +100,7 @@
     .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment$j;->b:Landroid/view/View;
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->llReset:I
+    sget v2, Lcom/res/provider/ResID;->llReset:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

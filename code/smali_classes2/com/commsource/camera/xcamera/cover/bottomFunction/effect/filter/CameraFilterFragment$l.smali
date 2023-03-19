@@ -81,7 +81,7 @@
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$l;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->vRlContent:I
+    sget v2, Lcom/res/provider/ResID;->vRlContent:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
@@ -96,7 +96,7 @@
     .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$l;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->vLlBottomFavorite:I
+    sget v2, Lcom/res/provider/ResID;->vLlBottomFavorite:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
@@ -111,7 +111,7 @@
     .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$l;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->vLlBottomShop:I
+    sget v2, Lcom/res/provider/ResID;->vLlBottomShop:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 

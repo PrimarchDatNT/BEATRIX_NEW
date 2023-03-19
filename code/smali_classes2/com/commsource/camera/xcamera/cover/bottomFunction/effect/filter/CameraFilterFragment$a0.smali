@@ -72,7 +72,7 @@
     .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$a0;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->vCrlFilterListContainer:I
+    sget v2, Lcom/res/provider/ResID;->vCrlFilterListContainer:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
@@ -98,7 +98,7 @@
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$a0;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->vFlFavoriteTips:I
+    sget v2, Lcom/res/provider/ResID;->vFlFavoriteTips:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 

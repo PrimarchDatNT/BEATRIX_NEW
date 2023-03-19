@@ -81,7 +81,7 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$initViews$$inlined$run$lambda$3;->a:Lcom/commsource/beautyplus/setting/test/TestFuncActivity;
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->svScanArPerformance:I
+    sget v2, Lcom/res/provider/ResID;->svScanArPerformance:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
 

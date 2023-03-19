@@ -147,7 +147,7 @@
 
     invoke-static {p1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget p2, Lcom/commsource/beautyplus/R$id;->vIfvIcon:I
+    sget p2, Lcom/res/provider/ResID;->vIfvIcon:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -196,7 +196,7 @@
 
     invoke-static {p1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget p2, Lcom/commsource/beautyplus/R$id;->vIfvIcon:I
+    sget p2, Lcom/res/provider/ResID;->vIfvIcon:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -241,7 +241,7 @@
 
     invoke-static {p1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget p2, Lcom/commsource/beautyplus/R$id;->vTvManage:I
+    sget p2, Lcom/res/provider/ResID;->vTvManage:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -270,7 +270,7 @@
 
     invoke-static {p1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget p2, Lcom/commsource/beautyplus/R$id;->vIfvIcon:I
+    sget p2, Lcom/res/provider/ResID;->vIfvIcon:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -319,7 +319,7 @@
 
     invoke-static {p1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget p2, Lcom/commsource/beautyplus/R$id;->vIfvIcon:I
+    sget p2, Lcom/res/provider/ResID;->vIfvIcon:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -368,7 +368,7 @@
 
     invoke-static {p1, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget p2, Lcom/commsource/beautyplus/R$id;->vTvManage:I
+    sget p2, Lcom/res/provider/ResID;->vTvManage:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -1408,7 +1408,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    sget v1, Lcom/commsource/beautyplus/R$id;->vNLlFilterListContainer:I
+    sget v1, Lcom/res/provider/ResID;->vNLlFilterListContainer:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
@@ -1648,7 +1648,7 @@
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setTranslationX(F)V
 
     .line 17
-    sget v1, Lcom/commsource/beautyplus/R$id;->rfl_back:I
+    sget v1, Lcom/res/provider/ResID;->rfl_back:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
@@ -1663,7 +1663,7 @@
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 18
-    sget v1, Lcom/commsource/beautyplus/R$id;->vLlBottomFavorite:I
+    sget v1, Lcom/res/provider/ResID;->vLlBottomFavorite:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
@@ -1674,7 +1674,7 @@
     invoke-virtual {v1, p0}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 19
-    sget v1, Lcom/commsource/beautyplus/R$id;->vLlBottomShop:I
+    sget v1, Lcom/res/provider/ResID;->vLlBottomShop:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
@@ -1685,7 +1685,7 @@
     invoke-virtual {v1, p0}, Landroid/widget/FrameLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 20
-    sget v1, Lcom/commsource/beautyplus/R$id;->vFlFavoriteTips:I
+    sget v1, Lcom/res/provider/ResID;->vFlFavoriteTips:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
@@ -1730,7 +1730,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    sget v1, Lcom/commsource/beautyplus/R$id;->vCrlFilterListContainer:I
+    sget v1, Lcom/res/provider/ResID;->vCrlFilterListContainer:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
@@ -1754,7 +1754,7 @@
 
     .line 4
     :cond_0
-    sget v1, Lcom/commsource/beautyplus/R$id;->vFlFavoriteTips:I
+    sget v1, Lcom/res/provider/ResID;->vFlFavoriteTips:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
@@ -1966,7 +1966,7 @@
     if-eqz v4, :cond_1
 
     .line 3
-    sget v4, Lcom/commsource/beautyplus/R$id;->vLlBottomFavorite:I
+    sget v4, Lcom/res/provider/ResID;->vLlBottomFavorite:I
 
     invoke-virtual {v0, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
@@ -2000,7 +2000,7 @@
     if-ne v3, v4, :cond_2
 
     .line 6
-    sget v3, Lcom/commsource/beautyplus/R$id;->vIfvBottomFavorite:I
+    sget v3, Lcom/res/provider/ResID;->vIfvBottomFavorite:I
 
     invoke-virtual {v0, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
@@ -2013,7 +2013,7 @@
     invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(I)V
 
     .line 7
-    sget v3, Lcom/commsource/beautyplus/R$id;->vTvBottomFavorite:I
+    sget v3, Lcom/res/provider/ResID;->vTvBottomFavorite:I
 
     invoke-virtual {v0, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
@@ -2029,7 +2029,7 @@
 
     .line 8
     :cond_2
-    sget v3, Lcom/commsource/beautyplus/R$id;->vIfvBottomFavorite:I
+    sget v3, Lcom/res/provider/ResID;->vIfvBottomFavorite:I
 
     invoke-virtual {v0, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
@@ -2042,7 +2042,7 @@
     invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(I)V
 
     .line 9
-    sget v3, Lcom/commsource/beautyplus/R$id;->vTvBottomFavorite:I
+    sget v3, Lcom/res/provider/ResID;->vTvBottomFavorite:I
 
     invoke-virtual {v0, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
@@ -2122,7 +2122,7 @@
     .line 14
     :cond_5
     :goto_1
-    sget v1, Lcom/commsource/beautyplus/R$id;->vLlBottomFavorite:I
+    sget v1, Lcom/res/provider/ResID;->vLlBottomFavorite:I
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 

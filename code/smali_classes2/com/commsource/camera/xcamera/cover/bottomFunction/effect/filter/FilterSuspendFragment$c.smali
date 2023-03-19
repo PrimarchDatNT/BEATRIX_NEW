@@ -100,7 +100,7 @@
     .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment;
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->vSeekBar:I
+    sget v2, Lcom/res/provider/ResID;->vSeekBar:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterSuspendFragment;->w(I)Landroid/view/View;
 

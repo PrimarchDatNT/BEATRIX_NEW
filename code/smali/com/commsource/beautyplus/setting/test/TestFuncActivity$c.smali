@@ -121,7 +121,7 @@
     .line 3
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$c;->c:Lcom/commsource/beautyplus/setting/test/TestFuncActivity;
 
-    sget v1, Lcom/commsource/beautyplus/R$id;->vTvCrashDebug:I
+    sget v1, Lcom/res/provider/ResID;->vTvCrashDebug:I
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
 
@@ -138,7 +138,7 @@
     .line 4
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$c;->c:Lcom/commsource/beautyplus/setting/test/TestFuncActivity;
 
-    sget v1, Lcom/commsource/beautyplus/R$id;->crashDebug:I
+    sget v1, Lcom/res/provider/ResID;->crashDebug:I
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
 
@@ -191,7 +191,7 @@
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$c;->c:Lcom/commsource/beautyplus/setting/test/TestFuncActivity;
 
-    sget v3, Lcom/commsource/beautyplus/R$id;->vTvCrashDebug:I
+    sget v3, Lcom/res/provider/ResID;->vTvCrashDebug:I
 
     invoke-virtual {v1, v3}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
 

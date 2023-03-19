@@ -483,7 +483,7 @@
     invoke-static {v4}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
     .line 23
-    sget v6, Lcom/commsource/beautyplus/R$id;->sb_title:I
+    sget v6, Lcom/res/provider/ResID;->sb_title:I
 
     invoke-virtual {v4, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -512,7 +512,7 @@
     invoke-virtual {v4, v5}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
     .line 28
-    sget v6, Lcom/commsource/beautyplus/R$id;->sb:I
+    sget v6, Lcom/res/provider/ResID;->sb:I
 
     invoke-virtual {v4, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

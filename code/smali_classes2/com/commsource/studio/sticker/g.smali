@@ -93,7 +93,7 @@
 
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget v0, Lcom/commsource/beautyplus/R$id;->flRoot:I
+    sget v0, Lcom/res/provider/ResID;->flRoot:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

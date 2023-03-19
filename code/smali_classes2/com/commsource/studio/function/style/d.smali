@@ -98,7 +98,7 @@
     iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 2
-    sget v2, Lcom/commsource/beautyplus/R$id;->vTvFilterName:I
+    sget v2, Lcom/res/provider/ResID;->vTvFilterName:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -144,7 +144,7 @@
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
     .line 7
-    sget v2, Lcom/commsource/beautyplus/R$id;->vPvProgress:I
+    sget v2, Lcom/res/provider/ResID;->vPvProgress:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -159,7 +159,7 @@
     invoke-static {v2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
     .line 8
-    sget v2, Lcom/commsource/beautyplus/R$id;->vIfvDownload:I
+    sget v2, Lcom/res/provider/ResID;->vIfvDownload:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -174,7 +174,7 @@
     invoke-static {v2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
     .line 9
-    sget v2, Lcom/commsource/beautyplus/R$id;->ifvPreset:I
+    sget v2, Lcom/res/provider/ResID;->ifvPreset:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -189,7 +189,7 @@
     invoke-static {v2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
     .line 10
-    sget v2, Lcom/commsource/beautyplus/R$id;->iv_right_corner:I
+    sget v2, Lcom/res/provider/ResID;->iv_right_corner:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -247,7 +247,7 @@
     move-result-object v3
 
     .line 14
-    sget v6, Lcom/commsource/beautyplus/R$id;->vIvFilterCover:I
+    sget v6, Lcom/res/provider/ResID;->vIvFilterCover:I
 
     invoke-virtual {v1, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -258,7 +258,7 @@
     invoke-virtual {v3, v6}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
     .line 15
-    sget v3, Lcom/commsource/beautyplus/R$id;->vIvCollect:I
+    sget v3, Lcom/res/provider/ResID;->vIvCollect:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -288,7 +288,7 @@
     if-eqz v3, :cond_1
 
     .line 17
-    sget v3, Lcom/commsource/beautyplus/R$id;->vIvCoverMask:I
+    sget v3, Lcom/res/provider/ResID;->vIvCoverMask:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -304,7 +304,7 @@
 
     .line 18
     :cond_1
-    sget v3, Lcom/commsource/beautyplus/R$id;->vIvCoverMask:I
+    sget v3, Lcom/res/provider/ResID;->vIvCoverMask:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

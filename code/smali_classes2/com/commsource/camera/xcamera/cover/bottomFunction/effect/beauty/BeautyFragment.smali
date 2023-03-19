@@ -969,7 +969,7 @@
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
     .line 1
-    sget v1, Lcom/commsource/beautyplus/R$id;->llReset:I
+    sget v1, Lcom/res/provider/ResID;->llReset:I
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;->w(I)Landroid/view/View;
 
@@ -1129,7 +1129,7 @@
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     .line 2
-    sget p2, Lcom/commsource/beautyplus/R$id;->llReset:I
+    sget p2, Lcom/res/provider/ResID;->llReset:I
 
     invoke-virtual {p0, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;->w(I)Landroid/view/View;
 
@@ -1157,7 +1157,7 @@
     iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;->P:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/a;
 
     .line 4
-    sget p2, Lcom/commsource/beautyplus/R$id;->beautyRecycleView:I
+    sget p2, Lcom/res/provider/ResID;->beautyRecycleView:I
 
     invoke-virtual {p0, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;->w(I)Landroid/view/View;
 

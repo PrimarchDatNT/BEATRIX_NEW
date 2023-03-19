@@ -256,7 +256,7 @@
 
     invoke-static {v4, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget v5, Lcom/commsource/beautyplus/R$id;->nativeAdView:I
+    sget v5, Lcom/res/provider/ResID;->nativeAdView:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -365,7 +365,7 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget v3, Lcom/commsource/beautyplus/R$id;->nativeAdView:I
+    sget v3, Lcom/res/provider/ResID;->nativeAdView:I
 
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -674,7 +674,7 @@
 
     invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget v5, Lcom/commsource/beautyplus/R$id;->nativeAdView:I
+    sget v5, Lcom/res/provider/ResID;->nativeAdView:I
 
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -695,7 +695,7 @@
 
     invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget v7, Lcom/commsource/beautyplus/R$id;->ivAdIcon:I
+    sget v7, Lcom/res/provider/ResID;->ivAdIcon:I
 
     invoke-virtual {v3, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -714,7 +714,7 @@
 
     invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget v6, Lcom/commsource/beautyplus/R$id;->ivDefaultIcon:I
+    sget v6, Lcom/res/provider/ResID;->ivDefaultIcon:I
 
     invoke-virtual {v3, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -125,7 +125,7 @@
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$d;->c:Lcom/commsource/beautyplus/setting/test/TestFuncActivity;
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->vTvCppCrashDebug:I
+    sget v2, Lcom/res/provider/ResID;->vTvCppCrashDebug:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
 

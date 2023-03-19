@@ -115,7 +115,7 @@
     .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->ifvReset:I
+    sget v2, Lcom/res/provider/ResID;->ifvReset:I
 
     invoke-virtual {p1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;->w(I)Landroid/view/View;
 
@@ -130,7 +130,7 @@
     .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;
 
-    sget v3, Lcom/commsource/beautyplus/R$id;->tvReset:I
+    sget v3, Lcom/res/provider/ResID;->tvReset:I
 
     invoke-virtual {p1, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;->w(I)Landroid/view/View;
 
@@ -176,7 +176,7 @@
     .line 9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->ifvReset:I
+    sget v2, Lcom/res/provider/ResID;->ifvReset:I
 
     invoke-virtual {p1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;->w(I)Landroid/view/View;
 
@@ -193,7 +193,7 @@
     .line 10
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment$k;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->tvReset:I
+    sget v2, Lcom/res/provider/ResID;->tvReset:I
 
     invoke-virtual {p1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;->w(I)Landroid/view/View;
 

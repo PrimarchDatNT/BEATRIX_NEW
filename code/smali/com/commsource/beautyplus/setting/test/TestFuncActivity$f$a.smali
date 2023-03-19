@@ -122,7 +122,7 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$f;->a:Lcom/commsource/beautyplus/setting/test/TestFuncActivity;
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->vSwitchUIChecker:I
+    sget v2, Lcom/res/provider/ResID;->vSwitchUIChecker:I
 
     invoke-virtual {p1, v2}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->M0(I)Landroid/view/View;
 

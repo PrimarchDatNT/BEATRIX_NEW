@@ -119,7 +119,7 @@
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 3
-    sget p3, Lcom/commsource/beautyplus/R$id;->tvName:I
+    sget p3, Lcom/res/provider/ResID;->tvName:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

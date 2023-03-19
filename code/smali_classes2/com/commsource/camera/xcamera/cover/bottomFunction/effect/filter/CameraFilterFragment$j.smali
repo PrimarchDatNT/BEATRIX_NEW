@@ -135,7 +135,7 @@
     .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$j;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->vIfvBottomFavorite:I
+    sget v2, Lcom/res/provider/ResID;->vIfvBottomFavorite:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
@@ -148,7 +148,7 @@
     .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$j;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->vTvBottomFavorite:I
+    sget v2, Lcom/res/provider/ResID;->vTvBottomFavorite:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
@@ -262,7 +262,7 @@
     .line 13
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$j;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;
 
-    sget v2, Lcom/commsource/beautyplus/R$id;->vIfvBottomFavorite:I
+    sget v2, Lcom/res/provider/ResID;->vIfvBottomFavorite:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
@@ -277,7 +277,7 @@
     .line 14
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment$j;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;
 
-    sget v4, Lcom/commsource/beautyplus/R$id;->vTvBottomFavorite:I
+    sget v4, Lcom/res/provider/ResID;->vTvBottomFavorite:I
 
     invoke-virtual {v1, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/CameraFilterFragment;->w(I)Landroid/view/View;
 
