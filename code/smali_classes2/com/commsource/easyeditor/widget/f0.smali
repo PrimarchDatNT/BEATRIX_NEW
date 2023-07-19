@@ -98,7 +98,7 @@
 
 .method private A(Lcom/commsource/easyeditor/entity/c;)V
     .locals 2
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "SetTextI18n"
         }

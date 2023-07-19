@@ -324,7 +324,7 @@
 
 .method private h(J)V
     .locals 6
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 

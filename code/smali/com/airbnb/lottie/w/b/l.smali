@@ -8,7 +8,7 @@
 
 
 # annotations
-.annotation build Ld/a/b;
+.annotation build Landroid/annotation/TargetApi;
     value = 0x13
 .end annotation
 
@@ -131,7 +131,7 @@
 
 .method private c(Landroid/graphics/Path$Op;)V
     .locals 7
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x13
     .end annotation
 

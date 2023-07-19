@@ -152,7 +152,7 @@
 
 .method public final e()Z
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0xe
     .end annotation
 

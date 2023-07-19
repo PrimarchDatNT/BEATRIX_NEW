@@ -54,7 +54,7 @@
 .end field
 
 .field private static final n0:Landroid/util/SparseArray;
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "UseSparseArrays"
         }

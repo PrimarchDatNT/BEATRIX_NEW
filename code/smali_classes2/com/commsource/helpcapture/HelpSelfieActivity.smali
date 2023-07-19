@@ -3926,7 +3926,7 @@
 
 .method public dispatchKeyEvent(Landroid/view/KeyEvent;)Z
     .locals 3
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "RestrictedApi"
         }

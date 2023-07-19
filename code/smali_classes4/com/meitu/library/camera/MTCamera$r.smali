@@ -3,7 +3,7 @@
 
 
 # annotations
-.annotation build Ld/a/a;
+.annotation build Landroid/annotation/SuppressLint;
     value = {
         "WrongConstant"
     }

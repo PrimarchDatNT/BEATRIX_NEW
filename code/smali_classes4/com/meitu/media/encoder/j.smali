@@ -22,7 +22,7 @@
 # direct methods
 .method public constructor <init>(IIIILcom/meitu/media/encoder/Muxer;)V
     .locals 3
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 
@@ -152,7 +152,7 @@
 
 .method public f()V
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0xe
     .end annotation
 
@@ -177,7 +177,7 @@
 
 .method public g()V
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 

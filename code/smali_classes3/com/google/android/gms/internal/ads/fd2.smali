@@ -4,13 +4,13 @@
 
 
 # annotations
-.annotation build Ld/a/a;
+.annotation build Landroid/annotation/SuppressLint;
     value = {
         "InlinedApi"
     }
 .end annotation
 
-.annotation build Ld/a/b;
+.annotation build Landroid/annotation/TargetApi;
     value = 0x10
 .end annotation
 

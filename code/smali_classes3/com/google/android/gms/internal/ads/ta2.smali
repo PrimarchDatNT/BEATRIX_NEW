@@ -124,7 +124,7 @@
 
 .method public final b()Landroid/media/MediaCodec$CryptoInfo;
     .locals 1
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 

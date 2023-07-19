@@ -60,7 +60,7 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
     .locals 0
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x15
     .end annotation
 

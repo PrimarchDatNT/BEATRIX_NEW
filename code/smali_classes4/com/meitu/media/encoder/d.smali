@@ -58,7 +58,7 @@
 # virtual methods
 .method public a(I)V
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x13
     .end annotation
 
@@ -100,7 +100,7 @@
 
 .method public b(Z)V
     .locals 13
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -431,7 +431,7 @@
 
 .method public f()V
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 

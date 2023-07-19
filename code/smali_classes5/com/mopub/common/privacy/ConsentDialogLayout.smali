@@ -126,7 +126,7 @@
 
 .method private initWebView()Landroid/webkit/WebView;
     .locals 4
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "SetJavaScriptEnabled"
         }

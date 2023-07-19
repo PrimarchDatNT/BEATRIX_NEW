@@ -29,7 +29,7 @@
 # direct methods
 .method constructor <init>(Landroid/content/Context;Lcom/moat/analytics/mobile/mpub/g$a;)V
     .locals 8
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "SetJavaScriptEnabled"
         }

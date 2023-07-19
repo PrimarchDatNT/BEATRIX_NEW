@@ -119,7 +119,7 @@
 
 .method public c0()Landroid/view/View;
     .locals 4
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "ClickableViewAccessibility"
         }

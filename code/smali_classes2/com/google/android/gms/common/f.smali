@@ -762,7 +762,7 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 
@@ -837,7 +837,7 @@
 
 .method static isUninstalledAppPossiblyUpdating(Landroid/content/Context;Ljava/lang/String;)Z
     .locals 5
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x15
     .end annotation
 
@@ -979,7 +979,7 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x13
     .end annotation
 

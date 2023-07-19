@@ -52,7 +52,7 @@
 
 .method private d(Landroid/view/ViewGroup;Lorg/json/JSONObject;Lf/h/a/a/b/g/a$a;)V
     .locals 5
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x15
     .end annotation
 

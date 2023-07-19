@@ -901,7 +901,7 @@
 
 .method private static V(Ljava/io/File;)V
     .locals 3
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x1c
     .end annotation
 

@@ -235,7 +235,7 @@
 
 .method public d()V
     .locals 10
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "MissingPermission"
         }

@@ -382,7 +382,7 @@
 # virtual methods
 .method public final run()V
     .locals 8
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "Wakelock"
         }

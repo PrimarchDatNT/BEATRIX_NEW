@@ -372,7 +372,7 @@
 
 .method private static c(Landroid/graphics/Rect;Landroid/view/View;I)Z
     .locals 5
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0xb
     .end annotation
 

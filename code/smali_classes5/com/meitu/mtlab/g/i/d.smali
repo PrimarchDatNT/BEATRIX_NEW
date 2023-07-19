@@ -55,7 +55,7 @@
 
 .method public static a(Landroid/content/SharedPreferences$Editor;)V
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x9
     .end annotation
 
@@ -227,7 +227,7 @@
 
 .method public static g()Landroid/content/SharedPreferences;
     .locals 4
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0xb
     .end annotation
 

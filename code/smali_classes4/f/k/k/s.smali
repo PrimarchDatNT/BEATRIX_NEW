@@ -319,7 +319,7 @@
 
 .method public static o(Lf/k/k/s$a;)V
     .locals 2
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "RestrictedApi"
         }

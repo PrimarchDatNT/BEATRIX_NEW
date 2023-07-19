@@ -249,7 +249,7 @@
         .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x1a
     .end annotation
 

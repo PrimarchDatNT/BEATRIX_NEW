@@ -52,7 +52,7 @@
 
 .method private static a(Landroid/util/Range;)[Ljava/lang/Integer;
     .locals 3
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x15
     .end annotation
 
@@ -95,7 +95,7 @@
 
 .method public static b(Ljava/lang/String;)Ljava/util/List;
     .locals 15
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 

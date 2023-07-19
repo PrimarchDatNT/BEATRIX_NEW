@@ -1113,7 +1113,7 @@
 
 .method private static f(Landroid/content/res/Resources;I)Z
     .locals 4
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x1a
     .end annotation
 
@@ -1196,7 +1196,7 @@
 
 .method private static g(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;)Ljava/lang/String;
     .locals 5
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x1a
     .end annotation
 

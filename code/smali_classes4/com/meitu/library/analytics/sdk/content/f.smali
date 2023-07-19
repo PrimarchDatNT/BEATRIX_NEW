@@ -22,7 +22,7 @@
 .field private static final Y:Ljava/lang/String; = "TeemoContext"
 
 .field private static volatile Z:Lcom/meitu/library/analytics/sdk/content/b;
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "StaticFieldLeak"
         }

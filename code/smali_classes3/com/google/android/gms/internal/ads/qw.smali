@@ -25,7 +25,7 @@
 
 .method static a(Landroid/webkit/WebView;Ljava/lang/String;)V
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x13
     .end annotation
 
@@ -79,7 +79,7 @@
 
 .method private static b(Landroid/webkit/WebView;)Z
     .locals 3
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x13
     .end annotation
 

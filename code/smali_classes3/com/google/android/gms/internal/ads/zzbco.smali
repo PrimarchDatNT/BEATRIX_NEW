@@ -435,7 +435,7 @@
 # virtual methods
 .method public final A(Landroid/view/MotionEvent;)V
     .locals 1
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0xe
     .end annotation
 
@@ -535,7 +535,7 @@
 
 .method public final E()V
     .locals 5
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0xe
     .end annotation
 

@@ -171,7 +171,7 @@
 # virtual methods
 .method final h()Landroid/content/Intent;
     .locals 6
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0xe
     .end annotation
 

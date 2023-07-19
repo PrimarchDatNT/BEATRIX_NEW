@@ -34,7 +34,7 @@
 
 .method private d(I)V
     .locals 5
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "SetTextI18n"
         }

@@ -737,7 +737,7 @@
 
 .method private final O(Lcom/commsource/camera/xcamera/n;)Lcom/commsource/camera/fastcapture/SelfiePhotoData;
     .locals 12
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "MissingBraces"
         }

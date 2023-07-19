@@ -200,7 +200,7 @@
 
 .method public declared-synchronized evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V
     .locals 1
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x13
     .end annotation
 
@@ -520,7 +520,7 @@
 
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 1
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x15
     .end annotation
 

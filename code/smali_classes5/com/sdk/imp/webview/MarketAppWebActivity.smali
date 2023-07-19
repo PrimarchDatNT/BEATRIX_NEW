@@ -236,7 +236,7 @@
 
 .method private e()V
     .locals 3
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "SetJavaScriptEnabled",
             "InlinedApi",

@@ -209,7 +209,7 @@
 
 .method private H(II)V
     .locals 6
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "NewApi"
         }
@@ -1070,7 +1070,7 @@
     .annotation build Lcom/meitu/library/n/a/l/c;
     .end annotation
 
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "NewApi"
         }
@@ -1155,7 +1155,7 @@
     .annotation build Lcom/meitu/library/n/a/l/d;
     .end annotation
 
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "NewApi"
         }

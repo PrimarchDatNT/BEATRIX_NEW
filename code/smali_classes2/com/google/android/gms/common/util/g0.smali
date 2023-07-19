@@ -31,7 +31,7 @@
 
 .method public static a(Landroid/content/Context;)I
     .locals 4
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x14
     .end annotation
 

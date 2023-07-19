@@ -736,7 +736,7 @@
 
 .method private static final l()Ljava/lang/reflect/Method;
     .locals 5
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "PrivateApi"
         }

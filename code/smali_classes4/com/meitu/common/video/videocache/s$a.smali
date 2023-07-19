@@ -74,7 +74,7 @@
 
 .method public final b(I)Ljava/util/concurrent/ThreadPoolExecutor;
     .locals 2
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "ThreadNameRequired "
         }

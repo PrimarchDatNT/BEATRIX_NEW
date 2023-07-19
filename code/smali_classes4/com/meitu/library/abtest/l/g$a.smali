@@ -208,7 +208,7 @@
 
 .method public static c(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
     .locals 3
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "MissingPermission"
         }

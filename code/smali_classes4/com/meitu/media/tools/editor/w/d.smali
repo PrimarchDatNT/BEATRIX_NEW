@@ -35,7 +35,7 @@
 
 .method private static b(Ljava/lang/String;)V
     .locals 1
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 
@@ -73,7 +73,7 @@
 
 .method private static d()V
     .locals 1
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 

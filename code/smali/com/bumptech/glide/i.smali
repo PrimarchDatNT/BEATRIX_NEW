@@ -155,7 +155,7 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "CheckResult"
         }
@@ -216,7 +216,7 @@
 
 .method protected constructor <init>(Ljava/lang/Class;Lcom/bumptech/glide/i;)V
     .locals 3
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "CheckResult"
         }
@@ -844,7 +844,7 @@
 
 .method private g1(Ljava/util/List;)V
     .locals 1
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "CheckResult"
         }

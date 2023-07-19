@@ -7,7 +7,7 @@
 
 
 # annotations
-.annotation build Ld/a/b;
+.annotation build Landroid/annotation/TargetApi;
     value = 0x18
 .end annotation
 
@@ -70,7 +70,7 @@
 
 .method public final b(Landroid/app/job/JobParameters;Z)V
     .locals 0
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x18
     .end annotation
 

@@ -496,7 +496,7 @@
 
 .method private f(Lcom/commsource/cloudalbum/bean/CAImageInfo;Ljava/util/List;Z)V
     .locals 5
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "CheckResult"
         }

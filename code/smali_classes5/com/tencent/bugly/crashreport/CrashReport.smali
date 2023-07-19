@@ -1973,7 +1973,7 @@
 
 .method public static setJavascriptMonitor(Landroid/webkit/WebView;ZZ)Z
     .locals 1
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "SetJavaScriptEnabled"
         }
@@ -2017,7 +2017,7 @@
 
 .method public static setJavascriptMonitor(Lcom/tencent/bugly/crashreport/CrashReport$WebViewInterface;ZZ)Z
     .locals 4
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "SetJavaScriptEnabled"
         }

@@ -1116,7 +1116,7 @@
 
 .method public n(Lcom/meitu/library/g/h/c;J)V
     .locals 0
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 

@@ -457,7 +457,7 @@
 
 .method e(IILandroid/graphics/BitmapFactory$Options;ZZ)Z
     .locals 0
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x1a
     .end annotation
 

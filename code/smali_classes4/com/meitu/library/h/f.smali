@@ -398,7 +398,7 @@
 
 .method public static bridge synthetic p(Lcom/meitu/library/h/f;Landroid/content/Context;JILjava/lang/Object;)V
     .locals 0
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "WildThread"
         }
@@ -607,7 +607,7 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "WildThread"
         }
@@ -637,7 +637,7 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "WildThread"
         }

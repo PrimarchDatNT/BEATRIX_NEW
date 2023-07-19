@@ -326,7 +326,7 @@
 # virtual methods
 .method public f(IIZ)V
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0xb
     .end annotation
 

@@ -140,7 +140,7 @@
 
 .method private static A(Landroid/graphics/Bitmap;)V
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0xc
     .end annotation
 

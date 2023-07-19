@@ -115,7 +115,7 @@
 
 .method private e(Landroid/app/NotificationManager;Landroid/app/Notification$Builder;)V
     .locals 5
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x1a
     .end annotation
 

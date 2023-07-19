@@ -41,7 +41,7 @@
 
 .method public static b(Landroid/view/View;)V
     .locals 3
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "NewApi"
         }

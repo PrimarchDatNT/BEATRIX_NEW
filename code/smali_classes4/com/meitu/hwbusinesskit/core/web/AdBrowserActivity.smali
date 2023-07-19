@@ -308,7 +308,7 @@
 
 .method public useImmersiveMode(Z)V
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x13
     .end annotation
 

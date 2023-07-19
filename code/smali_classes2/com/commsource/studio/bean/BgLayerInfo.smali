@@ -120,7 +120,7 @@
         .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "HashCodeAndEquals"
         }

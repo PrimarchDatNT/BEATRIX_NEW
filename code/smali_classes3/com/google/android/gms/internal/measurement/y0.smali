@@ -104,7 +104,7 @@
         value = 0x18
     .end annotation
 
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x18
     .end annotation
 
@@ -204,7 +204,7 @@
         value = 0x18
     .end annotation
 
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x18
     .end annotation
 

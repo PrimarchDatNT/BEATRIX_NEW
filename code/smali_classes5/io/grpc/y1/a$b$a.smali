@@ -40,7 +40,7 @@
 # virtual methods
 .method public run()V
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x15
     .end annotation
 

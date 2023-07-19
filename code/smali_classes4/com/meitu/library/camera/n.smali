@@ -8151,7 +8151,7 @@
 
 .method protected s2()V
     .locals 3
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "NewApi"
         }

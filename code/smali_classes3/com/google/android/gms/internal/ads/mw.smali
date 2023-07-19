@@ -30,7 +30,7 @@
 # direct methods
 .method public constructor <init>(Landroid/webkit/WebResourceRequest;)V
     .locals 3
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x15
     .end annotation
 

@@ -67,7 +67,7 @@
 # direct methods
 .method public constructor <init>([Lcom/google/android/gms/internal/ads/j92;Lcom/google/android/gms/internal/ads/if2;Lcom/google/android/gms/internal/ads/i92;)V
     .locals 12
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "HandlerLeak"
         }

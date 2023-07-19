@@ -4527,7 +4527,7 @@
 
 .method final b0(Ljava/lang/String;D)Z
     .locals 3
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "ApplySharedPref"
         }

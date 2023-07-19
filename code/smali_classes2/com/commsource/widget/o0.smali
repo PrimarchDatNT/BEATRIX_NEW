@@ -184,7 +184,7 @@
 
 .method private static b(Landroid/app/Application;[I)Z
     .locals 7
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "MethodNameLowerCameCase"
         }
@@ -407,7 +407,7 @@
 
 .method private static d(Landroid/app/Application;[I)Z
     .locals 2
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "MethodNameLowerCameCase"
         }
@@ -516,7 +516,7 @@
 
 .method private static f(Landroid/app/Application;[I)Z
     .locals 8
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "MethodNameLowerCameCase"
         }

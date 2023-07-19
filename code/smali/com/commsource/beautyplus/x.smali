@@ -95,7 +95,7 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "VisibleForTests"
         }
@@ -117,7 +117,7 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "VisibleForTests"
         }
@@ -142,7 +142,7 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "VisibleForTests"
         }

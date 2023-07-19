@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation build Ld/a/b;
+.annotation build Landroid/annotation/TargetApi;
     value = 0x10
 .end annotation
 
@@ -181,7 +181,7 @@
 
 .method private static c(Landroid/media/MediaCodecInfo$VideoCapabilities;IID)Z
     .locals 3
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x15
     .end annotation
 
@@ -331,7 +331,7 @@
 # virtual methods
 .method public final b(IID)Z
     .locals 4
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x15
     .end annotation
 
@@ -527,7 +527,7 @@
 
 .method public final d(I)Z
     .locals 3
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x15
     .end annotation
 
@@ -591,7 +591,7 @@
 
 .method public final e(I)Z
     .locals 3
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x15
     .end annotation
 
@@ -1054,7 +1054,7 @@
 
 .method public final i(II)Landroid/graphics/Point;
     .locals 3
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x15
     .end annotation
 

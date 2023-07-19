@@ -1582,7 +1582,7 @@
 
 .method private h2()V
     .locals 7
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "StringFormatInvalid"
         }
@@ -3218,7 +3218,7 @@
 
 .method protected O0()V
     .locals 4
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "ClickableViewAccessibility"
         }
@@ -4294,7 +4294,7 @@
 
 .method public dispatchKeyEvent(Landroid/view/KeyEvent;)Z
     .locals 4
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "RestrictedApi"
         }

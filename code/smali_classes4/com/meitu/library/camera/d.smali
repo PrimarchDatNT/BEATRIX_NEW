@@ -312,7 +312,7 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x17
     .end annotation
 
@@ -375,7 +375,7 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x17
     .end annotation
 

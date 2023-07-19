@@ -578,7 +578,7 @@
 # virtual methods
 .method public getActiveNetworkType()Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
     .locals 8
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "MissingPermission"
         }

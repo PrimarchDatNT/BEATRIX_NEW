@@ -763,7 +763,7 @@
 
 .method private final N(Landroid/app/Activity;I)Lcom/meitu/library/camera/component/preview/b;
     .locals 4
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "RestrictedApi"
         }

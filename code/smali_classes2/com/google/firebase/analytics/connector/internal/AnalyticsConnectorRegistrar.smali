@@ -33,7 +33,7 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "MissingPermission"
         }

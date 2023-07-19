@@ -76,7 +76,7 @@
 .end method
 
 .method public abstract n(Lcom/meitu/library/g/h/c;J)V
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 .end method

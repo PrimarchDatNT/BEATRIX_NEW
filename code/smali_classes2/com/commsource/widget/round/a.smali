@@ -78,7 +78,7 @@
 
 .method private i(II)Landroid/content/res/ColorStateList;
     .locals 9
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0xb
     .end annotation
 

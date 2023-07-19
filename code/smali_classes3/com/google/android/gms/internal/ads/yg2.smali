@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation build Ld/a/b;
+.annotation build Landroid/annotation/TargetApi;
     value = 0x10
 .end annotation
 
@@ -479,7 +479,7 @@
 
 .method private final P(Landroid/media/MediaCodec;IJJ)V
     .locals 0
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x15
     .end annotation
 

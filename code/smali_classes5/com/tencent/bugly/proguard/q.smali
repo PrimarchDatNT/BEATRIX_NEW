@@ -906,7 +906,7 @@
 
 .method public final declared-synchronized onDowngrade(Landroid/database/sqlite/SQLiteDatabase;II)V
     .locals 5
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0xb
     .end annotation
 

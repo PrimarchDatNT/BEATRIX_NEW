@@ -50,7 +50,7 @@
 
 .method private b(Landroid/media/MediaExtractor;ILandroid/media/MediaCodec;Lcom/meitu/media/tools/editor/m$b;[D)V
     .locals 28
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -455,7 +455,7 @@
 
 .method private static c(Landroid/media/MediaExtractor;)I
     .locals 5
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -541,7 +541,7 @@
 
 .method public e(Ljava/lang/String;[D)V
     .locals 11
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 

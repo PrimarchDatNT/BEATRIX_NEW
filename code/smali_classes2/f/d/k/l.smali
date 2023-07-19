@@ -2662,7 +2662,7 @@
 
 .method public x0(Landroid/os/AsyncTask;Z)V
     .locals 2
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "NewApi"
         }

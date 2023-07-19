@@ -238,7 +238,7 @@
 
 .method private final H(Landroid/content/Context;ILjava/lang/String;Landroid/app/PendingIntent;)V
     .locals 8
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x14
     .end annotation
 
@@ -986,7 +986,7 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x1a
     .end annotation
 

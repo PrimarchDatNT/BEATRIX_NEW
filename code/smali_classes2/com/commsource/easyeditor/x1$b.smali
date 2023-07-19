@@ -206,7 +206,7 @@
 
 .method public onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
     .locals 1
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "ClickableViewAccessibility"
         }

@@ -367,7 +367,7 @@
 # virtual methods
 .method public declared-synchronized A(Landroid/view/SurfaceHolder;)V
     .locals 2
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "WrongThread"
         }
@@ -794,7 +794,7 @@
 
 .method public declared-synchronized G(Landroid/graphics/SurfaceTexture;)V
     .locals 2
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "WrongThread"
         }

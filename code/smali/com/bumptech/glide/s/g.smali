@@ -63,7 +63,7 @@
 
 .method public static b()J
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x11
     .end annotation
 

@@ -18,7 +18,7 @@
 # direct methods
 .method private constructor <init>(Ljava/lang/String;Lcom/meitu/media/encoder/Muxer$FORMAT;)V
     .locals 1
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 
@@ -31,7 +31,7 @@
 
 .method public constructor <init>(Ljava/lang/String;Lcom/meitu/media/encoder/Muxer$FORMAT;I)V
     .locals 0
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 
@@ -108,7 +108,7 @@
 # virtual methods
 .method public a(Landroid/media/MediaFormat;)I
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 
@@ -183,7 +183,7 @@
 
 .method public l()V
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 
@@ -215,7 +215,7 @@
 
 .method public n(Landroid/media/MediaCodec;IILjava/nio/ByteBuffer;Landroid/media/MediaCodec$BufferInfo;)V
     .locals 4
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 
@@ -322,7 +322,7 @@
 
 .method protected p()V
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 
@@ -345,7 +345,7 @@
 
 .method protected q()V
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 

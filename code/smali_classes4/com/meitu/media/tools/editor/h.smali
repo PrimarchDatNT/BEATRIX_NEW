@@ -47,7 +47,7 @@
 # direct methods
 .method private constructor <init>(Landroid/media/MediaFormat;)V
     .locals 4
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -370,7 +370,7 @@
 
 .method public static d(Landroid/media/MediaFormat;)Lcom/meitu/media/tools/editor/h;
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -624,7 +624,7 @@
 
 .method private static final l(Landroid/media/MediaFormat;Ljava/lang/String;)F
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -655,7 +655,7 @@
 
 .method private static final m(Landroid/media/MediaFormat;Ljava/lang/String;)I
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -686,7 +686,7 @@
 
 .method private static final n(Landroid/media/MediaFormat;Ljava/lang/String;F)V
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -710,7 +710,7 @@
 
 .method private static final o(Landroid/media/MediaFormat;Ljava/lang/String;I)V
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -732,13 +732,13 @@
 
 .method private final p(Landroid/media/MediaFormat;)V
     .locals 3
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "InlinedApi"
         }
     .end annotation
 
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -980,7 +980,7 @@
 
 .method public final i()Landroid/media/MediaFormat;
     .locals 5
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 

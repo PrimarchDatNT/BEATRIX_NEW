@@ -309,7 +309,7 @@
 
 .method public static e(Landroid/content/Context;)Ljava/lang/String;
     .locals 4
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "MissingPermission",
             "HardwareIds"
@@ -394,7 +394,7 @@
 
 .method public static f(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
     .locals 3
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "MissingPermission"
         }
@@ -497,7 +497,7 @@
 
 .method public static g(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
     .locals 3
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "MissingPermission"
         }
@@ -627,7 +627,7 @@
 
 .method public static h(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
     .locals 3
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "MissingPermission"
         }

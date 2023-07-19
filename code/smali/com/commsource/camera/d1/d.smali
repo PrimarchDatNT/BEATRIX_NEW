@@ -86,7 +86,7 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "UseSparseArrays"
         }

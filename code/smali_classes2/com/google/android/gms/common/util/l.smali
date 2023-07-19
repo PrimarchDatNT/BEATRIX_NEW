@@ -143,7 +143,7 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x15
     .end annotation
 
@@ -382,7 +382,7 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x14
     .end annotation
 
@@ -437,7 +437,7 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x1a
     .end annotation
 

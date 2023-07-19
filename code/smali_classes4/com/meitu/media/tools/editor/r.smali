@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation build Ld/a/b;
+.annotation build Landroid/annotation/TargetApi;
     value = 0x10
 .end annotation
 
@@ -46,7 +46,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;IIILjava/io/File;IILcom/meitu/media/tools/editor/h;)V
     .locals 4
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 
@@ -428,7 +428,7 @@
 
 .method public b(Z)V
     .locals 12
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x15
     .end annotation
 

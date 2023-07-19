@@ -28,7 +28,7 @@
 # direct methods
 .method public constructor <init>(I)V
     .locals 0
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 

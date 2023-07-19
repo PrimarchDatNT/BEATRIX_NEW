@@ -238,7 +238,7 @@
 
 .method private h(Z)V
     .locals 12
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -775,7 +775,7 @@
 
 .method public run()V
     .locals 9
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 

@@ -100,7 +100,7 @@
 
 .method public static A(Landroid/content/Context;)Ljava/lang/String;
     .locals 2
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "NewApi"
         }
@@ -324,7 +324,7 @@
 
 .method public static E(Landroid/content/Context;)Z
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -364,7 +364,7 @@
 
 .method public static F(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 3
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 
@@ -2179,7 +2179,7 @@
 
 .method public static j(Landroid/content/Context;Landroid/net/Uri;)V
     .locals 4
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 

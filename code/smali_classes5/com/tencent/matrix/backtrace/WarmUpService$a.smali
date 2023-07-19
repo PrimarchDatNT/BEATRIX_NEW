@@ -33,7 +33,7 @@
 # virtual methods
 .method public handleMessage(Landroid/os/Message;)V
     .locals 4
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "HandlerLeak"
         }

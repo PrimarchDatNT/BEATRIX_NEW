@@ -362,7 +362,7 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "DiscouragedPrivateApi",
             "PrivateApi"

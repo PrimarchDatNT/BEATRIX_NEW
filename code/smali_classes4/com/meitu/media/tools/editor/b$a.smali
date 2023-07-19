@@ -612,7 +612,7 @@
 
 .method e(Landroid/graphics/SurfaceTexture;Z[F[Lcom/meitu/media/tools/editor/s;)V
     .locals 17
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0xf
     .end annotation
 
@@ -858,7 +858,7 @@
 
 .method public h()V
     .locals 4
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0xf
     .end annotation
 

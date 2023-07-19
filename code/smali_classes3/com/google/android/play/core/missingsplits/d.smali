@@ -71,7 +71,7 @@
 
 .method private final c()Z
     .locals 5
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x15
     .end annotation
 
@@ -282,7 +282,7 @@
 
 .method private final f()Ljava/util/List;
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x15
     .end annotation
 

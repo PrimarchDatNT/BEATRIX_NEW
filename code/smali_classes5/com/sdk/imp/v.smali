@@ -4,7 +4,7 @@
 
 
 # annotations
-.annotation build Ld/a/b;
+.annotation build Landroid/annotation/TargetApi;
     value = 0xe
 .end annotation
 
@@ -1128,7 +1128,7 @@
 
 .method public static y(Landroid/view/Window;)V
     .locals 3
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0xb
     .end annotation
 

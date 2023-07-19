@@ -729,7 +729,7 @@
 
 .method private final X()V
     .locals 8
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "RestrictedApi"
         }

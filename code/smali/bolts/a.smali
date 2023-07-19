@@ -78,7 +78,7 @@
 
 .method public static a(Ljava/util/concurrent/ThreadPoolExecutor;Z)V
     .locals 2
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "NewApi"
         }

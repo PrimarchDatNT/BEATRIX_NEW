@@ -999,7 +999,7 @@
 
 .method private static l(Landroid/media/MediaFormat;Ljava/lang/String;I)V
     .locals 1
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -1887,13 +1887,13 @@
 
 .method public final q()Landroid/media/MediaFormat;
     .locals 4
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "InlinedApi"
         }
     .end annotation
 
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 

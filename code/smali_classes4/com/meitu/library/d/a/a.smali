@@ -3,14 +3,14 @@
 
 
 # annotations
-.annotation build Ld/a/a;
+.annotation build Landroid/annotation/SuppressLint;
     value = {
         "AbstractClassName",
         "ClassNameUpperCameCase"
     }
 .end annotation
 
-.annotation build Ld/a/b;
+.annotation build Landroid/annotation/TargetApi;
     value = 0x15
 .end annotation
 

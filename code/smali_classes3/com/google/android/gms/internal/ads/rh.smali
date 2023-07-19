@@ -498,7 +498,7 @@
 
 .method private final e(Landroid/content/Context;)V
     .locals 3
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 

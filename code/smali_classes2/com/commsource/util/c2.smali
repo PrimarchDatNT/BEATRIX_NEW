@@ -323,7 +323,7 @@
 
 .method public static i()Ljava/util/concurrent/ExecutorService;
     .locals 6
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "ThreadNameRequired "
         }
@@ -413,7 +413,7 @@
 
 .method public static j()Ljava/util/concurrent/ExecutorService;
     .locals 4
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "ThreadNameRequired "
         }

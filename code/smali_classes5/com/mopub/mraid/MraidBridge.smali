@@ -751,7 +751,7 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x1a
     .end annotation
 

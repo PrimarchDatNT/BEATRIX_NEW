@@ -3,7 +3,7 @@
 
 
 # annotations
-.annotation build Ld/a/b;
+.annotation build Landroid/annotation/TargetApi;
     value = 0x11
 .end annotation
 
@@ -612,7 +612,7 @@
 
 .method public B(Landroid/opengl/EGLSurface;J)V
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 
@@ -1247,7 +1247,7 @@
 
 .method public p(Lcom/meitu/library/n/b/c;J)V
     .locals 1
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 

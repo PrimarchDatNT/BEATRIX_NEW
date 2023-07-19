@@ -587,7 +587,7 @@
 .end field
 
 .field public p0:Lcom/commsource/studio/StudioCanvasContainer;
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "StaticFieldLeak"
         }

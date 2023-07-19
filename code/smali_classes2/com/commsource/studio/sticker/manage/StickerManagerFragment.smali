@@ -217,7 +217,7 @@
 
 .method private final H()V
     .locals 7
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "ClickableViewAccessibility"
         }

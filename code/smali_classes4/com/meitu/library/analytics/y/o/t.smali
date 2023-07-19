@@ -44,7 +44,7 @@
 
 .method private static a(Landroid/content/Context;I)I
     .locals 10
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "MissingPermission"
         }
@@ -317,7 +317,7 @@
 
 .method public static c(Landroid/content/Context;I)I
     .locals 10
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "MissingPermission"
         }

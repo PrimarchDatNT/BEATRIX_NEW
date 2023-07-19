@@ -132,7 +132,7 @@
 
 .method private static h(Landroid/graphics/Bitmap$Config;)V
     .locals 3
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x1a
     .end annotation
 
@@ -306,7 +306,7 @@
 
 .method private static m()Ljava/util/Set;
     .locals 3
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x1a
     .end annotation
 
@@ -538,7 +538,7 @@
 
 .method private static p(Landroid/graphics/Bitmap;)V
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x13
     .end annotation
 
@@ -704,7 +704,7 @@
 # virtual methods
 .method public a(I)V
     .locals 4
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "InlinedApi"
         }

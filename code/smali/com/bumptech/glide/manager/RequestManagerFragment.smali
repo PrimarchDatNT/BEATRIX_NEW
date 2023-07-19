@@ -71,7 +71,7 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "ValidFragment"
         }
@@ -111,7 +111,7 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x11
     .end annotation
 
@@ -148,7 +148,7 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x11
     .end annotation
 
@@ -257,7 +257,7 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x11
     .end annotation
 

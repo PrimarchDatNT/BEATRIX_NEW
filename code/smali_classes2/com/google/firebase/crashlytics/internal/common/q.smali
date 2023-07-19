@@ -258,7 +258,7 @@
 
 .method public c(Z)V
     .locals 3
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "CommitPrefEdits",
             "ApplySharedPref"

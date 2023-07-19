@@ -309,7 +309,7 @@
 
 .method private setup()I
     .locals 5
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x15
     .end annotation
 
@@ -540,7 +540,7 @@
 
 .method public codecClose()I
     .locals 6
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -748,7 +748,7 @@
 
 .method public codecOpen()I
     .locals 8
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -949,7 +949,7 @@
 
 .method public configure(Landroid/media/MediaFormat;)I
     .locals 6
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -1189,7 +1189,7 @@
 
 .method public dequeueInputBuffer()I
     .locals 5
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -1328,7 +1328,7 @@
 
 .method public dequeueOutputBuffer()I
     .locals 10
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -1516,7 +1516,7 @@
 
 .method public flushBuffer()V
     .locals 5
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -1637,7 +1637,7 @@
 
 .method public queueInputBuffer()I
     .locals 9
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 
@@ -1901,7 +1901,7 @@
 
 .method public setInputBuffer(Ljava/nio/ByteBuffer;IIJI)I
     .locals 2
-    .annotation build Ld/a/b;
+    .annotation build Landroid/annotation/TargetApi;
         value = 0x10
     .end annotation
 

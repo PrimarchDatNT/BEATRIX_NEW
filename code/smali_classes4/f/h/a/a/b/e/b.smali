@@ -12,7 +12,7 @@
 
 # static fields
 .field private static f:Lf/h/a/a/b/e/b;
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "StaticFieldLeak"
         }

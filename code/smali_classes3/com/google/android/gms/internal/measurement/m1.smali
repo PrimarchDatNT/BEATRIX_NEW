@@ -18,7 +18,7 @@
 .field private static final f:Ljava/lang/Object;
 
 .field private static g:Landroid/content/Context;
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "StaticFieldLeak"
         }

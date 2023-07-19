@@ -1111,7 +1111,7 @@
 
 .method private final j1(J)V
     .locals 6
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "SetTextI18n"
         }
@@ -5579,7 +5579,7 @@
         .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ld/a/a;
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
             "StringFormatInvalid"
         }
