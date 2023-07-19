@@ -16,7 +16,7 @@
 
 # instance fields
 .field private b:Lcom/commsource/widget/IconFrontView;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -38,7 +38,7 @@
 # virtual methods
 .method public b()[I
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/4 v0, 0x4
@@ -80,7 +80,7 @@
 
 .method public final f()Lcom/commsource/widget/IconFrontView;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/widget/title/c;->b:Lcom/commsource/widget/IconFrontView;
@@ -91,10 +91,10 @@
 .method public g(Landroid/content/Context;)Lcom/commsource/widget/IconFrontView;
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "context"
@@ -196,7 +196,7 @@
 .method public final h(Lcom/commsource/widget/IconFrontView;)V
     .locals 0
     .param p1    # Lcom/commsource/widget/IconFrontView;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

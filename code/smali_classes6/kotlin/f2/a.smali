@@ -8,7 +8,7 @@
 
 # static fields
 .field public static final a:Lcotlin/f2/a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -49,7 +49,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlin/f2/b;
@@ -62,7 +62,7 @@
 .method public final b(Ljava/lang/Object;Lcotlin/jvm/u/q;)Lcotlin/f2/f;
     .locals 1
     .param p2    # Lcotlin/jvm/u/q;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -82,7 +82,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "onChange"
@@ -99,7 +99,7 @@
 .method public final c(Ljava/lang/Object;Lcotlin/jvm/u/q;)Lcotlin/f2/f;
     .locals 1
     .param p2    # Lcotlin/jvm/u/q;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -119,7 +119,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "onChange"

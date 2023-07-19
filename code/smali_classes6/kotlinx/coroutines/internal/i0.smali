@@ -36,7 +36,7 @@
 .method public constructor <init>(Ljava/lang/ThreadLocal;)V
     .locals 0
     .param p1    # Ljava/lang/ThreadLocal;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -91,7 +91,7 @@
 .method public final b(Ljava/lang/ThreadLocal;)Lcotlinx/coroutines/internal/i0;
     .locals 1
     .param p1    # Ljava/lang/ThreadLocal;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -103,7 +103,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/internal/i0;
@@ -116,7 +116,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -174,7 +174,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

@@ -114,7 +114,7 @@
 
 .method public final b()Lcom/commsource/studio/bean/Step;
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x69d9
@@ -140,7 +140,7 @@
 
 .method public final c()Lcom/commsource/studio/bean/Step;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x69d8
@@ -197,7 +197,7 @@
 .method public final f(Lcom/commsource/studio/bean/Step;)V
     .locals 5
     .param p1    # Lcom/commsource/studio/bean/Step;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -239,7 +239,7 @@
 .method public final g(Lcom/commsource/studio/bean/Step;)V
     .locals 5
     .param p1    # Lcom/commsource/studio/bean/Step;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -337,7 +337,7 @@
 
 .method public final h()Lcom/commsource/studio/bean/Step;
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x69cf
@@ -396,7 +396,7 @@
 
 .method public final i()Lcom/commsource/studio/bean/Step;
     .locals 6
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x69d2
@@ -484,7 +484,7 @@
 
 .method public final k()Lcom/commsource/studio/bean/Step;
     .locals 6
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x69d4

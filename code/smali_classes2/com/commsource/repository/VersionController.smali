@@ -27,7 +27,7 @@
 .field private final e:I
 
 .field private final f:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -36,7 +36,7 @@
 .method public constructor <init>(ILjava/lang/String;)V
     .locals 1
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -266,7 +266,7 @@
 
 .method public final j()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/repository/VersionController;->f:Ljava/lang/String;
@@ -276,7 +276,7 @@
 
 .method public abstract l(Ljava/util/List;)V
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

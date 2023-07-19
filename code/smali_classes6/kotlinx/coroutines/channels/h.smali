@@ -161,7 +161,7 @@
 .method protected B(Ljava/lang/Object;Lcotlinx/coroutines/selects/f;)Ljava/lang/Object;
     .locals 4
     .param p2    # Lcotlinx/coroutines/selects/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -173,7 +173,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/channels/h;->c:Ljava/util/concurrent/locks/ReentrantLock;
@@ -379,7 +379,7 @@
 .method protected Z(Lcotlinx/coroutines/channels/x;)Z
     .locals 1
     .param p1    # Lcotlinx/coroutines/channels/x;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -511,7 +511,7 @@
 
 .method protected i0()Ljava/lang/Object;
     .locals 9
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/channels/h;->c:Ljava/util/concurrent/locks/ReentrantLock;
@@ -728,10 +728,10 @@
 .method protected j(Lcotlinx/coroutines/channels/b0;)Ljava/lang/Object;
     .locals 1
     .param p1    # Lcotlinx/coroutines/channels/b0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/channels/h;->c:Ljava/util/concurrent/locks/ReentrantLock;
@@ -760,7 +760,7 @@
 .method protected j0(Lcotlinx/coroutines/selects/f;)Ljava/lang/Object;
     .locals 8
     .param p1    # Lcotlinx/coroutines/selects/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -772,7 +772,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/channels/h;->c:Ljava/util/concurrent/locks/ReentrantLock;
@@ -1030,7 +1030,7 @@
 
 .method protected k()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -1161,7 +1161,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/channels/h;->c:Ljava/util/concurrent/locks/ReentrantLock;

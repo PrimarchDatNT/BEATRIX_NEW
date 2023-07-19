@@ -64,7 +64,7 @@
 
 .method public d(I)[B
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lcotlin/random/e;->a()Lcotlin/random/e;
@@ -81,10 +81,10 @@
 .method public e([B)[B
     .locals 1
     .param p1    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "array"
@@ -105,10 +105,10 @@
 .method public f([BII)[B
     .locals 1
     .param p1    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "array"

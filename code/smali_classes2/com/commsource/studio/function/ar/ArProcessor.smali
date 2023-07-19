@@ -17,22 +17,22 @@
 
 # instance fields
 .field private M:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private N:Ljava/util/Calendar;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final O:Lcom/commsource/camera/newrender/renderproxy/m;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final P:Lcom/commsource/camera/newrender/renderproxy/r;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -45,12 +45,12 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final R:Lcom/commsource/studio/effect/b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -313,7 +313,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x725
@@ -330,11 +330,11 @@
 .method public final L(Lcom/meitu/template/bean/ArMaterial;ZLcotlin/jvm/u/a;)V
     .locals 3
     .param p1    # Lcom/meitu/template/bean/ArMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -449,7 +449,7 @@
 
 .method public final O()Lcom/commsource/camera/newrender/renderproxy/m;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x723
@@ -465,7 +465,7 @@
 
 .method public final P()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x71f
@@ -481,7 +481,7 @@
 
 .method public final Q()Lcom/commsource/studio/effect/b;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x726
@@ -497,7 +497,7 @@
 
 .method public final R()Lcom/commsource/camera/newrender/renderproxy/r;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x724
@@ -527,7 +527,7 @@
 
 .method public final T()Ljava/util/Calendar;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x721
@@ -619,7 +619,7 @@
 .method public final X(Landroid/graphics/RectF;)V
     .locals 1
     .param p1    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -637,7 +637,7 @@
 .method public final Y(Ljava/util/Calendar;)V
     .locals 1
     .param p1    # Ljava/util/Calendar;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1059,7 +1059,7 @@
 .method public s(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 6
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

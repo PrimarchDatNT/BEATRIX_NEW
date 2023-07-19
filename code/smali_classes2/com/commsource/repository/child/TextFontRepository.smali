@@ -13,7 +13,7 @@
 .field private static final k:Ljava/lang/String; = "beautyplus_font_tag"
 
 .field private static final l:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -31,7 +31,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -44,7 +44,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -877,7 +877,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8fb7
@@ -894,10 +894,10 @@
 .method public final B(Lcom/commsource/studio/text/TextFontMaterial;)Lcom/commsource/material/download/b/c;
     .locals 2
     .param p1    # Lcom/commsource/studio/text/TextFontMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8fc3
@@ -928,7 +928,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8fb8
@@ -945,10 +945,10 @@
 .method public final D(Ljava/lang/String;)Lcom/commsource/studio/text/TextFontMaterial;
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8fc7
@@ -971,10 +971,10 @@
 .method public final E(Ljava/lang/String;)Landroid/graphics/Typeface;
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8fc8
@@ -1014,7 +1014,7 @@
 
 .method public final F()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8fb5
@@ -1031,10 +1031,10 @@
 .method public final H(Lcom/commsource/studio/text/TextFontMaterial;)Lcom/commsource/material/download/c/d;
     .locals 9
     .param p1    # Lcom/commsource/studio/text/TextFontMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8fc2
@@ -1158,7 +1158,7 @@
 .method public l(Ljava/util/List;)V
     .locals 3
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1212,7 +1212,7 @@
 .method public final y(Lcom/commsource/studio/text/TextFontMaterial;Z)V
     .locals 8
     .param p1    # Lcom/commsource/studio/text/TextFontMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

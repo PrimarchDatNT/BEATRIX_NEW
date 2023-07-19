@@ -59,11 +59,11 @@
 .method public final a(Lcom/commsource/beautyplus/router/e;Lcom/commsource/beautyplus/router/h;)V
     .locals 2
     .param p1    # Lcom/commsource/beautyplus/router/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/beautyplus/router/h;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -93,11 +93,11 @@
 .method public final b(Lcom/commsource/beautyplus/router/e;[Lcom/commsource/beautyplus/router/h;)V
     .locals 5
     .param p1    # Lcom/commsource/beautyplus/router/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # [Lcom/commsource/beautyplus/router/h;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -141,11 +141,11 @@
 .method public final c(Landroid/app/Activity;Landroid/net/Uri;)Z
     .locals 2
     .param p1    # Landroid/app/Activity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/net/Uri;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -177,11 +177,11 @@
 .method public final d(Landroid/app/Activity;Lcom/commsource/beautyplus/router/RouterEntity;)Z
     .locals 7
     .param p1    # Landroid/app/Activity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -316,11 +316,11 @@
 .method public final e(Landroid/app/Activity;Ljava/lang/String;)Z
     .locals 2
     .param p1    # Landroid/app/Activity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

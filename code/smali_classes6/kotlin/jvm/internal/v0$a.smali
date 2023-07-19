@@ -37,10 +37,10 @@
 .method public final a(Lcotlin/reflect/s;)Ljava/lang/String;
     .locals 3
     .param p1    # Lcotlin/reflect/s;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "typeParameter"

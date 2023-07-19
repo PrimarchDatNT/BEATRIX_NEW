@@ -21,7 +21,7 @@
 .field private d0:Lcom/commsource/beautyplus/f0/k8;
 
 .field private e0:Lcom/commsource/studio/effect/i;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -213,7 +213,7 @@
 # virtual methods
 .method public C1()Lcom/commsource/studio/effect/i;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xf60
@@ -230,7 +230,7 @@
 .method public D1(Lcom/commsource/studio/effect/i;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/effect/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -594,18 +594,18 @@
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
     .param p1    # Landroid/view/LayoutInflater;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/view/ViewGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 p2, 0xf66
@@ -729,11 +729,11 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 2
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

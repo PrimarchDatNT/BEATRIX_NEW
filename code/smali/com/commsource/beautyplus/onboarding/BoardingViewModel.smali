@@ -23,7 +23,7 @@
 
 # instance fields
 .field private final a:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -38,7 +38,7 @@
 .end field
 
 .field private c:Lcom/commsource/beautyplus/onboarding/b/a;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -67,7 +67,7 @@
 .method public constructor <init>(Landroid/app/Application;)V
     .locals 1
     .param p1    # Landroid/app/Application;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -154,7 +154,7 @@
 # virtual methods
 .method public final A()Lcom/commsource/beautyplus/onboarding/b/a;
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2bfe
@@ -198,7 +198,7 @@
 
 .method public final B()Lcom/commsource/beautyplus/onboarding/b/a;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2bfc
@@ -223,7 +223,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2c00
@@ -1054,7 +1054,7 @@
 .method public final G(Lcom/commsource/beautyplus/onboarding/b/a;)V
     .locals 1
     .param p1    # Lcom/commsource/beautyplus/onboarding/b/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1080,7 +1080,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2bf9

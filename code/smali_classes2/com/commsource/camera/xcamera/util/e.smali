@@ -11,7 +11,7 @@
 .field private static final a:Ljava/lang/String; = "look_material/"
 
 .field private static final b:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -780,11 +780,11 @@
 .method public final a(Ljava/util/Map;Ljava/util/Map;)Z
     .locals 5
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Ljava/util/Map;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -931,15 +931,15 @@
 .method public final b(Lcom/meitu/template/bean/k;Lcom/commsource/camera/lookwheel/StyleEffectDegree;Ljava/util/List;)Lcom/commsource/camera/lookwheel/StyleEffectDegree;
     .locals 12
     .param p1    # Lcom/meitu/template/bean/k;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/camera/lookwheel/StyleEffectDegree;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -954,7 +954,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9130
@@ -1461,7 +1461,7 @@
 
 .method public final c()Lcom/meitu/template/bean/LookMaterial;
     .locals 19
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x912f
@@ -1646,11 +1646,11 @@
 .method public final d(Lcom/meitu/template/bean/LookMaterial;Lcom/commsource/camera/lookwheel/StyleEffectDegree;)Landroid/util/SparseArray;
     .locals 10
     .param p1    # Lcom/meitu/template/bean/LookMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/camera/lookwheel/StyleEffectDegree;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1665,7 +1665,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9129
@@ -2210,7 +2210,7 @@
 
 .method public final e()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9121
@@ -2227,10 +2227,10 @@
 .method public final f(Lcom/meitu/template/bean/LookMaterial;)Ljava/lang/String;
     .locals 4
     .param p1    # Lcom/meitu/template/bean/LookMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x912d
@@ -2302,7 +2302,7 @@
 
 .method public final g()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x912e
@@ -2331,7 +2331,7 @@
 .method public final m(Lcom/meitu/template/bean/LookMaterial;)V
     .locals 6
     .param p1    # Lcom/meitu/template/bean/LookMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;
@@ -2487,7 +2487,7 @@
 .method public final n(Lcom/meitu/template/bean/k;)Ljava/util/HashMap;
     .locals 4
     .param p1    # Lcom/meitu/template/bean/k;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2502,7 +2502,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9123

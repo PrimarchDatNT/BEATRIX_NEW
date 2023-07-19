@@ -27,7 +27,7 @@
 # virtual methods
 .method public abstract onErrorResponse(Lcom/mopub/network/MoPubNetworkError;)V
     .param p1    # Lcom/mopub/network/MoPubNetworkError;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/b;
@@ -36,7 +36,7 @@
 
 .method public abstract onResponse(Ljava/lang/Object;)V
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

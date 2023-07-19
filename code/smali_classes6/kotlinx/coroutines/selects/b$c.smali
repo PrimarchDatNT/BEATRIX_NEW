@@ -20,7 +20,7 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -29,7 +29,7 @@
 .method public constructor <init>(Lcotlinx/coroutines/internal/m$d;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/internal/m$d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -52,7 +52,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/selects/b$c;->a:Lcotlinx/coroutines/internal/m$d;
@@ -67,10 +67,10 @@
 .method public c(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 3
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     if-eqz p1, :cond_1

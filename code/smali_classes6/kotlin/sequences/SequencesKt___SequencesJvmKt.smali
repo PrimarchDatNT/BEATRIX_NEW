@@ -96,7 +96,7 @@
 .method public static final B(Lcotlin/sequences/m;)Ljava/util/SortedSet;
     .locals 1
     .param p0    # Lcotlin/sequences/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -111,7 +111,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$toSortedSet"
@@ -134,11 +134,11 @@
 .method public static final C(Lcotlin/sequences/m;Ljava/util/Comparator;)Ljava/util/SortedSet;
     .locals 1
     .param p0    # Lcotlin/sequences/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Comparator;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -155,7 +155,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$toSortedSet"
@@ -182,11 +182,11 @@
 .method public static final x(Lcotlin/sequences/m;Ljava/lang/Class;)Lcotlin/sequences/m;
     .locals 1
     .param p0    # Lcotlin/sequences/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/Class;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -203,7 +203,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$filterIsInstance"
@@ -232,15 +232,15 @@
 .method public static final y(Lcotlin/sequences/m;Ljava/util/Collection;Ljava/lang/Class;)Ljava/util/Collection;
     .locals 2
     .param p0    # Lcotlin/sequences/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Class;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -257,7 +257,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$filterIsInstanceTo"

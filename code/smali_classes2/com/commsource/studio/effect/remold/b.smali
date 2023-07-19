@@ -18,7 +18,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -119,7 +119,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x400
@@ -166,7 +166,7 @@
 .method public final t(ILcom/commsource/studio/effect/remold/RemoldPartEnum;)Ljava/util/List;
     .locals 4
     .param p2    # Lcom/commsource/studio/effect/remold/RemoldPartEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -180,7 +180,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x401
@@ -293,7 +293,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3fe
@@ -310,7 +310,7 @@
 .method public final v(Lcom/commsource/studio/effect/remold/RemoldEnum;)I
     .locals 5
     .param p1    # Lcom/commsource/studio/effect/remold/RemoldEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -388,7 +388,7 @@
 .method public final w(Lcom/commsource/camera/d1/g/j;)V
     .locals 10
     .param p1    # Lcom/commsource/camera/d1/g/j;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

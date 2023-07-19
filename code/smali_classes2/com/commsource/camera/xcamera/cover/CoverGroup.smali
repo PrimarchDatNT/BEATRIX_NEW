@@ -19,7 +19,7 @@
 .field private J:I
 
 .field private final K:Lcom/commsource/camera/f1/n;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -32,27 +32,27 @@
 .field private b:I
 
 .field public c:Landroidx/fragment/app/FragmentActivity;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public d:Landroidx/lifecycle/ViewModelProvider;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private f:Lcom/commsource/camera/xcamera/cover/CoverContainer;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final g:Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public p:Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -61,7 +61,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 6
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -87,11 +87,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 6
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -117,11 +117,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -219,7 +219,7 @@
 .method public a(Ljava/util/List;Z)V
     .locals 3
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -369,7 +369,7 @@
 .method public e(IILandroid/content/Intent;)V
     .locals 3
     .param p3    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -441,7 +441,7 @@
 .method public g(Lcom/commsource/beautyplus/router/RouterEntity;)V
     .locals 3
     .param p1    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -544,7 +544,7 @@
 
 .method public final getBuilder()Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x11ad
@@ -560,7 +560,7 @@
 
 .method public final getCameraConfigViewModel()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x11ae
@@ -583,7 +583,7 @@
 
 .method public final getContainer()Lcom/commsource/camera/xcamera/cover/CoverContainer;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x11ab
@@ -613,7 +613,7 @@
 
 .method public final getMActivity()Landroidx/fragment/app/FragmentActivity;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x11a7
@@ -650,7 +650,7 @@
 
 .method public final getOrientationValuer()Lcom/commsource/camera/f1/n;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x11b3
@@ -694,7 +694,7 @@
 
 .method public final getViewModelProvider()Landroidx/lifecycle/ViewModelProvider;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x11a9
@@ -718,10 +718,10 @@
 .method public final i(Landroidx/fragment/app/FragmentActivity;)Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
     .locals 3
     .param p1    # Landroidx/fragment/app/FragmentActivity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x11b0
@@ -829,7 +829,7 @@
 .method public k(Lcom/commsource/beautyplus/router/RouterEntity;)V
     .locals 3
     .param p1    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -991,7 +991,7 @@
 .method public n(Landroid/view/MotionEvent;)Z
     .locals 6
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1164,7 +1164,7 @@
 .method public p(Landroid/view/KeyEvent;)Z
     .locals 5
     .param p1    # Landroid/view/KeyEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1236,7 +1236,7 @@
 .method public final setCameraConfigViewModel(Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;)V
     .locals 2
     .param p1    # Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1258,7 +1258,7 @@
 .method public final setContainer(Lcom/commsource/camera/xcamera/cover/CoverContainer;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/cover/CoverContainer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1290,7 +1290,7 @@
 .method public final setMActivity(Landroidx/fragment/app/FragmentActivity;)V
     .locals 2
     .param p1    # Landroidx/fragment/app/FragmentActivity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1326,7 +1326,7 @@
 .method public final setViewModelProvider(Landroidx/lifecycle/ViewModelProvider;)V
     .locals 2
     .param p1    # Landroidx/lifecycle/ViewModelProvider;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

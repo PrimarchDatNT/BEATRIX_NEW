@@ -15,9 +15,9 @@
 # virtual methods
 .method public abstract rewriteUrl(Ljava/lang/String;)Ljava/lang/String;
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method

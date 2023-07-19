@@ -17,7 +17,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -42,7 +42,7 @@
 .method public g(Ljava/lang/Class;)Z
     .locals 3
     .param p1    # Ljava/lang/Class;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -249,7 +249,7 @@
 .method public k(Lcom/meitu/library/renderarch/arch/data/b/d;)V
     .locals 3
     .param p1    # Lcom/meitu/library/renderarch/arch/data/b/d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -289,7 +289,7 @@
 .method public s(Ljava/lang/Object;Ljava/lang/Class;)V
     .locals 3
     .param p2    # Ljava/lang/Class;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -346,7 +346,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x246c

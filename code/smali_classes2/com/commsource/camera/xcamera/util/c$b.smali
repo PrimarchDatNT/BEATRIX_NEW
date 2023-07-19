@@ -17,7 +17,7 @@
 
 # static fields
 .field private static final a:Lcom/commsource/camera/xcamera/util/c;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -63,7 +63,7 @@
 # virtual methods
 .method public final a()Lcom/commsource/camera/xcamera/util/c;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5677

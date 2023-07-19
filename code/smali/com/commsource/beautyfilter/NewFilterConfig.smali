@@ -30,7 +30,7 @@
 .field private static final t:Ljava/lang/String; = "NewFilterConfig"
 
 .field private static final u:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -47,7 +47,7 @@
 
 # instance fields
 .field private final n:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -228,7 +228,7 @@
 # virtual methods
 .method public final O()Lcom/commsource/beautyfilter/NewFilterConfig$FilterOnlineInfo;
     .locals 5
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x251f
@@ -380,7 +380,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x251d
@@ -485,7 +485,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x251e
@@ -581,7 +581,7 @@
 
 .method public final R()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2521
@@ -597,7 +597,7 @@
 
 .method public final S()Lcom/commsource/beautyfilter/NewFilterConfig$FilterOnlineInfo;
     .locals 18
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2520
@@ -929,7 +929,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x251c

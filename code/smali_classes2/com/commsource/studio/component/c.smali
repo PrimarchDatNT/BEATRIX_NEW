@@ -15,21 +15,21 @@
 # virtual methods
 .method public abstract a(Landroidx/fragment/app/Fragment;)V
     .param p1    # Landroidx/fragment/app/Fragment;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method
 
 .method public abstract c(Landroidx/fragment/app/FragmentActivity;)V
     .param p1    # Landroidx/fragment/app/FragmentActivity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method
 
 .method public abstract e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
     .param p1    # Ljava/lang/Class;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -42,41 +42,41 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract getLifeOwner()Landroidx/lifecycle/LifecycleOwner;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract getStoreOwner()Landroidx/lifecycle/ViewModelStoreOwner;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract p(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V
     .param p1    # Landroidx/lifecycle/ViewModelStoreOwner;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method
 
 .method public abstract setLifeOwner(Landroidx/lifecycle/LifecycleOwner;)V
     .param p1    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method
 
 .method public abstract setStoreOwner(Landroidx/lifecycle/ViewModelStoreOwner;)V
     .param p1    # Landroidx/lifecycle/ViewModelStoreOwner;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

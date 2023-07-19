@@ -55,10 +55,10 @@
 .method public emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p2, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChanged$$inlined$distinctUntilChangedBy$FlowKt__DistinctKt$1$2$1;

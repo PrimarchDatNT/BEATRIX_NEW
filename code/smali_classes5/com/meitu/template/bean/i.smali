@@ -18,7 +18,7 @@
         value = "url"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -27,7 +27,7 @@
         value = "m_id"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -59,7 +59,7 @@
 
 .method public final b()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x5d72
@@ -75,7 +75,7 @@
 
 .method public final c()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x5d70
@@ -106,7 +106,7 @@
 .method public final e(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -124,7 +124,7 @@
 .method public final f(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

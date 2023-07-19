@@ -66,11 +66,11 @@
 .method public S(Lcom/commsource/studio/r0/d0;ILcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/r0/d0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

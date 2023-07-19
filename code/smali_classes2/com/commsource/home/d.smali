@@ -15,12 +15,12 @@
 
 # static fields
 .field public static final e:Ljava/lang/String; = "\u7a0b\u5e8f\u5316\u5e7f\u544a"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final f:Ljava/lang/String; = "\u7a0b\u5e8f\u5316\u5e7f\u544a\u9ed8\u8ba4\u56fe"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -355,15 +355,15 @@
 .method public final a(ILcom/commsource/home/entity/ContentModule;ILcom/commsource/home/entity/d;Ljava/lang/String;)V
     .locals 4
     .param p2    # Lcom/commsource/home/entity/ContentModule;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p4    # Lcom/commsource/home/entity/d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -470,15 +470,15 @@
 .method public final c(ILcom/commsource/home/entity/ContentModule;ILcom/commsource/home/entity/d;Ljava/lang/String;)V
     .locals 4
     .param p2    # Lcom/commsource/home/entity/ContentModule;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p4    # Lcom/commsource/home/entity/d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -596,15 +596,15 @@
 .method public final e(ILcom/commsource/home/entity/ContentModule;ILcom/commsource/home/entity/d;Ljava/lang/String;)V
     .locals 3
     .param p2    # Lcom/commsource/home/entity/ContentModule;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p4    # Lcom/commsource/home/entity/d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -740,7 +740,7 @@
 .method public final g(ILcom/commsource/home/entity/ContentModule;)V
     .locals 7
     .param p2    # Lcom/commsource/home/entity/ContentModule;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -834,7 +834,7 @@
 .method public final h(ILcom/commsource/home/entity/ContentModule;)V
     .locals 7
     .param p2    # Lcom/commsource/home/entity/ContentModule;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -956,19 +956,19 @@
 .method public final l(Ljava/lang/String;ILcom/commsource/home/entity/ContentModule;ILcom/commsource/home/entity/d;Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcom/commsource/home/entity/ContentModule;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Lcom/commsource/home/entity/d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p6    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

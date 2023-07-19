@@ -11,11 +11,11 @@
 .method public static final a(Lcotlinx/coroutines/flow/internal/SafeCollector;Lcotlin/coroutines/CoroutineContext;)V
     .locals 2
     .param p0    # Lcotlinx/coroutines/flow/internal/SafeCollector;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -111,14 +111,14 @@
 .method public static final b(Lcotlinx/coroutines/c2;Lcotlinx/coroutines/c2;)Lcotlinx/coroutines/c2;
     .locals 1
     .param p0    # Lcotlinx/coroutines/c2;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/c2;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     :goto_0
@@ -156,7 +156,7 @@
         .annotation build Lcotlin/b;
         .end annotation
 
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -182,7 +182,7 @@
     .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/flow/internal/SafeCollector_commonKt$unsafeFlow$1;

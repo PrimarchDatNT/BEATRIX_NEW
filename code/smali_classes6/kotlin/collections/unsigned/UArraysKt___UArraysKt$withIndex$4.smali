@@ -69,7 +69,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/collections/unsigned/UArraysKt___UArraysKt$withIndex$4;->$this_withIndex:[S

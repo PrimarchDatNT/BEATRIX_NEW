@@ -61,17 +61,17 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final functionEnum:Lcom/commsource/studio/sub/SubModuleEnum;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final functionKey:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -537,7 +537,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x5c99
@@ -553,7 +553,7 @@
 
 .method public final getFunctionEnum()Lcom/commsource/studio/sub/SubModuleEnum;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5c98
@@ -569,7 +569,7 @@
 
 .method public final getFunctionKey()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5c9b

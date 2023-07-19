@@ -37,7 +37,7 @@
 .method public inspect(Lkshark/v;)V
     .locals 1
     .param p1    # Lkshark/v;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

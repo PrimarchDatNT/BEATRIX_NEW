@@ -16,7 +16,7 @@
 
 # instance fields
 .field private final a:Lkshark/OnAnalysisProgressListener;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -25,7 +25,7 @@
 .method public constructor <init>(Lkshark/OnAnalysisProgressListener;)V
     .locals 1
     .param p1    # Lkshark/OnAnalysisProgressListener;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -221,27 +221,27 @@
 .method public final a(Ljava/io/File;Lkshark/i;Lkshark/s;Ljava/util/List;ZLjava/util/List;Lkshark/t;)Lkshark/HeapAnalysis;
     .locals 14
     .param p1    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lkshark/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lkshark/s;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p6    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p7    # Lkshark/t;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -264,7 +264,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     move-object/from16 v0, p2
@@ -368,27 +368,27 @@
 .method public final b(Ljava/io/File;Lkshark/s;Ljava/util/List;ZLjava/util/List;Lkshark/t;Lkshark/x;)Lkshark/HeapAnalysis;
     .locals 18
     .param p1    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lkshark/s;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p5    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p6    # Lkshark/t;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p7    # Lkshark/x;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -411,7 +411,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     move-object/from16 v8, p0
@@ -629,22 +629,22 @@
 .method public final e(Lkshark/HeapAnalyzer$a;Lkshark/t;Lkshark/s;Ljava/io/File;J)Lkshark/HeapAnalysisSuccess;
     .locals 14
     .param p1    # Lkshark/HeapAnalyzer$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lkshark/t;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lkshark/s;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     move-object v0, p0
@@ -745,11 +745,11 @@
 .method public final f(Ljava/util/List;Ljava/util/List;)Ljava/util/List;
     .locals 18
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -769,7 +769,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     move-object/from16 v0, p0
@@ -992,11 +992,11 @@
 .method public final g(Lkshark/HeapAnalyzer$a;Lkshark/internal/PathFinder$a;)Lcotlin/Pair;
     .locals 13
     .param p1    # Lkshark/HeapAnalyzer$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lkshark/internal/PathFinder$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1015,7 +1015,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$buildLeakTraces"
@@ -1547,11 +1547,11 @@
 .method public final h(Ljava/util/List;Ljava/util/List;)Ljava/util/List;
     .locals 7
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1570,7 +1570,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "shortestChildPath"
@@ -1652,7 +1652,7 @@
 .method public final i(Ljava/util/List;)Ljava/util/List;
     .locals 16
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1669,7 +1669,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     move-object/from16 v0, p0
@@ -2318,11 +2318,11 @@
 .method public final j(Lkshark/HeapAnalyzer$a;Lkshark/internal/PathFinder$a;)Ljava/util/List;
     .locals 10
     .param p1    # Lkshark/HeapAnalyzer$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lkshark/internal/PathFinder$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2337,7 +2337,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$computeRetainedSizes"
@@ -2912,7 +2912,7 @@
 .method public final k(Ljava/util/List;)Ljava/util/List;
     .locals 8
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2928,7 +2928,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "inputPathResults"
@@ -3043,11 +3043,11 @@
 .method public final l(Lkshark/HeapAnalyzer$a;Ljava/util/Set;Z)Lcotlin/Pair;
     .locals 5
     .param p1    # Lkshark/HeapAnalyzer$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/util/Set;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3067,7 +3067,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$findLeaks"
@@ -3154,11 +3154,11 @@
 .method public final m(Lkshark/HeapAnalyzer$b$b;Ljava/util/List;)V
     .locals 2
     .param p1    # Lkshark/HeapAnalyzer$b$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3236,7 +3236,7 @@
 
 .method public final n()Lkshark/OnAnalysisProgressListener;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HeapAnalyzer;->a:Lkshark/OnAnalysisProgressListener;
@@ -3247,10 +3247,10 @@
 .method public final o(Lkshark/HeapObject;)Ljava/lang/String;
     .locals 1
     .param p1    # Lkshark/HeapObject;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "heap"
@@ -3320,7 +3320,7 @@
 .method public final p(Lkshark/v;Z)Lcotlin/Pair;
     .locals 11
     .param p1    # Lkshark/v;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3335,7 +3335,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "reporter"
@@ -3498,15 +3498,15 @@
 .method public final r(Lkshark/internal/f;Ljava/util/List;ILkshark/HeapAnalyzer$b$b;)V
     .locals 4
     .param p1    # Lkshark/internal/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Lkshark/HeapAnalyzer$b$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

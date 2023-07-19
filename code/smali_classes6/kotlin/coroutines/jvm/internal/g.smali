@@ -20,12 +20,12 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field public static final c:Lcotlin/coroutines/jvm/internal/g;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -142,10 +142,10 @@
 .method public final b(Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;)Ljava/lang/String;
     .locals 5
     .param p1    # Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "continuation"

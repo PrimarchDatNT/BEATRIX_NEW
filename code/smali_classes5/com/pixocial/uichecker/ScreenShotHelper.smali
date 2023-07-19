@@ -16,12 +16,12 @@
 
 # static fields
 .field private static final j:[Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private static final k:[Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -50,7 +50,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -667,7 +667,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->f:Lcotlin/jvm/u/l;
@@ -678,7 +678,7 @@
 .method public final n(Landroid/app/Application;)V
     .locals 8
     .param p1    # Landroid/app/Application;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/UiThread;
@@ -760,7 +760,7 @@
 .method public final p(Lcotlin/jvm/u/l;)V
     .locals 0
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

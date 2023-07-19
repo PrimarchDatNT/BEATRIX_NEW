@@ -21,7 +21,7 @@
         value = "id"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -30,7 +30,7 @@
         value = "ar_id"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -39,7 +39,7 @@
         value = "md5"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -48,7 +48,7 @@
         value = "memory"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -57,7 +57,7 @@
         value = "fps"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -66,7 +66,7 @@
         value = "create_time"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -75,7 +75,7 @@
         value = "update_time"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -93,7 +93,7 @@
 # virtual methods
 .method public final a()Ljava/lang/Integer;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa4a8
@@ -109,7 +109,7 @@
 
 .method public final b()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa4b0
@@ -125,7 +125,7 @@
 
 .method public final c()Ljava/lang/Integer;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa4ae
@@ -141,7 +141,7 @@
 
 .method public final d()Ljava/lang/Integer;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa4a6
@@ -157,7 +157,7 @@
 
 .method public final e()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa4aa
@@ -173,7 +173,7 @@
 
 .method public final f()Ljava/lang/Long;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa4ac
@@ -189,7 +189,7 @@
 
 .method public final g()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa4b2
@@ -206,7 +206,7 @@
 .method public final h(Ljava/lang/Integer;)V
     .locals 1
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -224,7 +224,7 @@
 .method public final i(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -242,7 +242,7 @@
 .method public final j(Ljava/lang/Integer;)V
     .locals 1
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -260,7 +260,7 @@
 .method public final k(Ljava/lang/Integer;)V
     .locals 1
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -278,7 +278,7 @@
 .method public final l(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -296,7 +296,7 @@
 .method public final m(Ljava/lang/Long;)V
     .locals 1
     .param p1    # Ljava/lang/Long;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -314,7 +314,7 @@
 .method public final n(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

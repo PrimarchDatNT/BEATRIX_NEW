@@ -16,7 +16,7 @@
 
 # static fields
 .field public static final V:Ljava/lang/String; = "NewCameraActivity"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -27,17 +27,17 @@
 .field private N:I
 
 .field public O:Lcom/commsource/camera/xcamera/BpCameraViewModel;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public P:Lcom/commsource/camera/xcamera/cover/CoverContainer;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public Q:Landroidx/lifecycle/ViewModelProvider;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -203,7 +203,7 @@
 
 .method public final O0()Lcom/commsource/camera/xcamera/BpCameraViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->O:Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -223,7 +223,7 @@
 
 .method public final Q0()Lcom/commsource/camera/xcamera/cover/CoverContainer;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->P:Lcom/commsource/camera/xcamera/cover/CoverContainer;
@@ -244,7 +244,7 @@
 .method public final S0(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
     .locals 6
     .param p1    # Ljava/lang/Class;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -257,7 +257,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "clazz"
@@ -338,7 +338,7 @@
 
 .method public final T0()Landroidx/lifecycle/ViewModelProvider;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/BaseCameraNewActivity;->Q:Landroidx/lifecycle/ViewModelProvider;
@@ -380,7 +380,7 @@
 .method public final Z0(Lcom/commsource/camera/xcamera/BpCameraViewModel;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/BpCameraViewModel;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -396,7 +396,7 @@
 .method public final b1(Lcom/commsource/camera/xcamera/cover/CoverContainer;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/cover/CoverContainer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -420,7 +420,7 @@
 .method public final d1(Landroidx/lifecycle/ViewModelProvider;)V
     .locals 1
     .param p1    # Landroidx/lifecycle/ViewModelProvider;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -436,7 +436,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 7
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -740,11 +740,11 @@
 .method public onRequestPermissionsResult(I[Ljava/lang/String;[I)V
     .locals 2
     .param p2    # [Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # [I
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

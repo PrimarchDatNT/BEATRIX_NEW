@@ -36,7 +36,7 @@
 .method public d(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 3
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -80,7 +80,7 @@
 .method public e(Lcom/commsource/studio/e;)V
     .locals 3
     .param p1    # Lcom/commsource/studio/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

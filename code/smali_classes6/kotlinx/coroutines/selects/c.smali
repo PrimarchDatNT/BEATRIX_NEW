@@ -9,11 +9,11 @@
 # virtual methods
 .method public abstract q(Lcotlinx/coroutines/selects/f;Lcotlin/jvm/u/l;)V
     .param p1    # Lcotlinx/coroutines/selects/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

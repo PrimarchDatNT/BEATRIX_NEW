@@ -18,7 +18,7 @@
 
 # static fields
 .field public static final c:Lcotlin/i2/m;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -60,7 +60,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "TimeSource(System.nanoTime())"

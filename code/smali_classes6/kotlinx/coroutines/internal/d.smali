@@ -69,7 +69,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     return-object p0
@@ -78,10 +78,10 @@
 .method public final c(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/internal/d;->_consensus:Ljava/lang/Object;
@@ -108,7 +108,7 @@
 
 .method public abstract d(Ljava/lang/Object;Ljava/lang/Object;)V
     .param p2    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -123,10 +123,10 @@
 .method public final e(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
@@ -231,6 +231,6 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method

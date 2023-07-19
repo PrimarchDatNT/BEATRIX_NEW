@@ -67,10 +67,10 @@
 .method public final invoke(Lkshark/m$b$c$a$a;)Lkshark/h;
     .locals 5
     .param p1    # Lkshark/m$b$c$a$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "fieldRecord"

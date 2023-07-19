@@ -20,7 +20,7 @@
 .end method
 
 .method public abstract getName()Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -35,7 +35,7 @@
 
 .method public abstract u(Landroid/content/Context;)V
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

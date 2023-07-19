@@ -11,7 +11,7 @@
 .field private static final a:Ljava/lang/String; = "beautyplus"
 
 .field private static final b:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -709,7 +709,7 @@
 # virtual methods
 .method public final c()Lcom/meitu/room/database/MTBeautyplusDatabase;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x73c7
@@ -732,14 +732,14 @@
 .method public final d(Ljava/lang/String;[Ljava/lang/Object;)Landroid/database/Cursor;
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # [Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x73c6

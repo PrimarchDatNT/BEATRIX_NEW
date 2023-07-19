@@ -23,7 +23,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -32,7 +32,7 @@
         value = "banner"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -41,7 +41,7 @@
         value = "number"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -58,7 +58,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -81,7 +81,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -90,7 +90,7 @@
         value = "style"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -99,7 +99,7 @@
         value = "title"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -108,7 +108,7 @@
         value = "type"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -147,7 +147,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x11dd
@@ -163,7 +163,7 @@
 
 .method public final getBanner()Lcom/commsource/home/entity/c;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x11df
@@ -179,7 +179,7 @@
 
 .method public final getId()Ljava/lang/Integer;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x11d7
@@ -204,7 +204,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x11db
@@ -243,7 +243,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x11d9
@@ -259,7 +259,7 @@
 
 .method public final getStyle()Ljava/lang/Integer;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x11d5
@@ -275,7 +275,7 @@
 
 .method public final getTitle()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x11cf
@@ -291,7 +291,7 @@
 
 .method public final getType()Ljava/lang/Integer;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x11d1
@@ -308,7 +308,7 @@
 .method public final setArticleList(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -334,7 +334,7 @@
 .method public final setBanner(Lcom/commsource/home/entity/c;)V
     .locals 1
     .param p1    # Lcom/commsource/home/entity/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -352,7 +352,7 @@
 .method public final setId(Ljava/lang/Integer;)V
     .locals 1
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -370,7 +370,7 @@
 .method public final setMaterialList(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -410,7 +410,7 @@
 .method public final setSlideshowList(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -436,7 +436,7 @@
 .method public final setStyle(Ljava/lang/Integer;)V
     .locals 1
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -454,7 +454,7 @@
 .method public final setTitle(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -472,7 +472,7 @@
 .method public final setType(Ljava/lang/Integer;)V
     .locals 1
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

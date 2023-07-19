@@ -36,7 +36,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -45,7 +45,7 @@
 .method public constructor <init>(Lcotlin/coroutines/c;)V
     .locals 0
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -69,11 +69,11 @@
 .method public create(Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 0
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -88,7 +88,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string p1, "completion"
@@ -107,7 +107,7 @@
 .method public create(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 1
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -121,7 +121,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "completion"
@@ -139,7 +139,7 @@
 
 .method public getCallerFrame()Lcotlin/coroutines/jvm/internal/c;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;->completion:Lcotlin/coroutines/c;
@@ -167,7 +167,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;->completion:Lcotlin/coroutines/c;
@@ -177,7 +177,7 @@
 
 .method public getStackTraceElement()Ljava/lang/StackTraceElement;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0}, Lcotlin/coroutines/jvm/internal/e;->e(Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;)Ljava/lang/StackTraceElement;
@@ -189,10 +189,10 @@
 
 .method protected abstract invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
@@ -205,7 +205,7 @@
 .method public final resumeWith(Ljava/lang/Object;)V
     .locals 3
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -276,7 +276,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

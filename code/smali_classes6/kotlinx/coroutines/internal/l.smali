@@ -14,12 +14,12 @@
 .field public static final c:I = 0x2
 
 .field private static final d:Ljava/lang/Object;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private static final e:Ljava/lang/Object;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -89,7 +89,7 @@
 
 .method public static final f()Ljava/lang/Object;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/internal/l;->d:Ljava/lang/Object;
@@ -99,7 +99,7 @@
 
 .method public static final g()Ljava/lang/Object;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/internal/l;->e:Ljava/lang/Object;
@@ -110,13 +110,13 @@
 .method public static final h(Ljava/lang/Object;)Lcotlinx/coroutines/internal/m;
     .locals 1
     .param p0    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     instance-of v0, p0, Lcotlinx/coroutines/internal/x;

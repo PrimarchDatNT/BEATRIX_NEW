@@ -11,12 +11,12 @@
 .field private static final a:J = 0xe10L
 
 .field public static final b:Ljava/lang/String; = "%02d:%02d"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final c:Ljava/lang/String; = "%02d:%02d:%02d"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -54,7 +54,7 @@
 # virtual methods
 .method public final a(J)Ljava/lang/String;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x689b
@@ -93,10 +93,10 @@
 .method public final b(Ljava/lang/String;J)Ljava/lang/String;
     .locals 9
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x689c
@@ -274,7 +274,7 @@
 
 .method public final c(J)Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6898
@@ -294,7 +294,7 @@
 
 .method public final d(J)Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6899
@@ -314,7 +314,7 @@
 
 .method public final e(J)Ljava/lang/String;
     .locals 6
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x689a

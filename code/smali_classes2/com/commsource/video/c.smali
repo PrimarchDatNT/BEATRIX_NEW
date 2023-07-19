@@ -18,17 +18,17 @@
 
 # instance fields
 .field private final a:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final b:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final c:Landroid/content/res/AssetFileDescriptor;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -57,15 +57,15 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Landroid/content/res/AssetFileDescriptor;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Landroid/content/res/AssetFileDescriptor;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -147,7 +147,7 @@
 # virtual methods
 .method public final a()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9fcc
@@ -163,7 +163,7 @@
 
 .method public final b()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x9fcd
@@ -179,7 +179,7 @@
 
 .method public final c()Landroid/content/res/AssetFileDescriptor;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x9fce
@@ -196,18 +196,18 @@
 .method public final d(Ljava/lang/String;Ljava/lang/String;Landroid/content/res/AssetFileDescriptor;)Lcom/commsource/video/c;
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Landroid/content/res/AssetFileDescriptor;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9fcf
@@ -230,7 +230,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -295,7 +295,7 @@
 
 .method public final f()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9fc8
@@ -311,7 +311,7 @@
 
 .method public final g()Landroid/content/res/AssetFileDescriptor;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x9fca
@@ -327,7 +327,7 @@
 
 .method public final h()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x9fc9
@@ -402,7 +402,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9fd1

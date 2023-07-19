@@ -25,7 +25,7 @@
 # virtual methods
 .method public abstract K2([Lcom/meitu/template/bean/StickerGroup;)V
     .param p1    # [Lcom/meitu/template/bean/StickerGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -35,7 +35,7 @@
 
 .method public abstract U(Lcom/meitu/template/bean/StickerGroup;)V
     .param p1    # Lcom/meitu/template/bean/StickerGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -56,20 +56,20 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract c(Ljava/lang/Integer;)Lcom/meitu/template/bean/StickerGroup;
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
         value = "select * from STICKER_MATERIAL_GROUP where GroupId = :key"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -87,13 +87,13 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract o(Lcom/meitu/template/bean/StickerGroup;)V
     .param p1    # Lcom/meitu/template/bean/StickerGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -102,7 +102,7 @@
 
 .method public abstract r([Lcom/meitu/template/bean/StickerGroup;)V
     .param p1    # [Lcom/meitu/template/bean/StickerGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -111,7 +111,7 @@
 
 .method public abstract s2([Lcom/meitu/template/bean/StickerGroup;)V
     .param p1    # [Lcom/meitu/template/bean/StickerGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -120,7 +120,7 @@
 
 .method public abstract v(Lcom/meitu/template/bean/StickerGroup;)V
     .param p1    # Lcom/meitu/template/bean/StickerGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;

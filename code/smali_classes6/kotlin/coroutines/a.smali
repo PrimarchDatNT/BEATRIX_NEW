@@ -22,7 +22,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -31,7 +31,7 @@
 .method public constructor <init>(Lcotlin/coroutines/CoroutineContext$b;)V
     .locals 1
     .param p1    # Lcotlin/coroutines/CoroutineContext$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -58,7 +58,7 @@
 .method public fold(Ljava/lang/Object;Lcotlin/jvm/u/p;)Ljava/lang/Object;
     .locals 1
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -87,7 +87,7 @@
 .method public get(Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext$a;
     .locals 1
     .param p1    # Lcotlin/coroutines/CoroutineContext$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -100,7 +100,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "key"
@@ -124,7 +124,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/coroutines/a;->key:Lcotlin/coroutines/CoroutineContext$b;
@@ -135,7 +135,7 @@
 .method public minusKey(Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext;
     .locals 1
     .param p1    # Lcotlin/coroutines/CoroutineContext$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -147,7 +147,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "key"
@@ -164,10 +164,10 @@
 .method public plus(Lcotlin/coroutines/CoroutineContext;)Lcotlin/coroutines/CoroutineContext;
     .locals 1
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "context"

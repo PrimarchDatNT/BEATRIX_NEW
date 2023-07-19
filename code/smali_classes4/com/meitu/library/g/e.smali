@@ -15,7 +15,7 @@
 
 # static fields
 .field public static final A:Ljava/lang/String; = "AvailableInternalStorage"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -30,107 +30,107 @@
 .field private static final e:I = 0x400
 
 .field public static final f:Ljava/lang/String; = "Device"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final g:Ljava/lang/String; = "Resolution"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final h:Ljava/lang/String; = "Kernel"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final i:Ljava/lang/String; = "Ram"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final j:Ljava/lang/String; = "CPUCores"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final k:Ljava/lang/String; = "ABI"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final l:Ljava/lang/String; = "Manufacturer"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final m:Ljava/lang/String; = "Model"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final n:Ljava/lang/String; = "SDKInt"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final o:Ljava/lang/String; = "Density"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final p:Ljava/lang/String; = "RefreshRate"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final q:Ljava/lang/String; = "Product"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final r:Ljava/lang/String; = "Board"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final s:Ljava/lang/String; = "JavaVMVersion"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final t:Ljava/lang/String; = "Baseband"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final u:Ljava/lang/String; = "Serial"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final v:Ljava/lang/String; = "Incremental"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final w:Ljava/lang/String; = "Fingerprint"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final x:Ljava/lang/String; = "IMEI"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final y:Ljava/lang/String; = "DeviceFeatures"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final z:Ljava/lang/String; = "InternalStorage"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -139,7 +139,7 @@
 .field private final a:Landroid/view/Display;
 
 .field private final b:Landroid/content/Context;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -180,7 +180,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -294,7 +294,7 @@
 # virtual methods
 .method public final A()[Ljava/lang/Integer;
     .locals 5
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xd75e
@@ -405,7 +405,7 @@
 
 .method public final D()[Ljava/lang/String;
     .locals 5
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xd764
@@ -499,7 +499,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xd773
@@ -753,7 +753,7 @@
 
 .method public final e()Ljava/lang/String;
     .locals 10
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-class v0, Ljava/lang/String;
@@ -961,7 +961,7 @@
 
 .method public final k()[Ljava/lang/String;
     .locals 6
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xd770
@@ -1085,7 +1085,7 @@
 
 .method public final n()Landroid/content/Context;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xd77a
@@ -1101,7 +1101,7 @@
 
 .method public final o()Ljava/io/File;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xd775
@@ -1321,7 +1321,7 @@
         value = "android.permission.READ_PHONE_STATE"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xd76d
@@ -1462,7 +1462,7 @@
 
 .method public final z()Ljava/lang/Object;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xd767

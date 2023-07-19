@@ -9,7 +9,7 @@
 
 # instance fields
 .field public J:Lcom/commsource/studio/component/e;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -22,7 +22,7 @@
 .field private N:Z
 
 .field private final O:Lcom/commsource/beautyplus/f0/e2;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -41,7 +41,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -59,11 +59,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -81,11 +81,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 5
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -364,7 +364,7 @@
 .method public a(Landroidx/fragment/app/Fragment;)V
     .locals 2
     .param p1    # Landroidx/fragment/app/Fragment;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -411,7 +411,7 @@
 .method public c(Landroidx/fragment/app/FragmentActivity;)V
     .locals 2
     .param p1    # Landroidx/fragment/app/FragmentActivity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -622,7 +622,7 @@
 
 .method public final getPaintEraserViewModel()Lcom/commsource/studio/component/e;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9f95
@@ -663,7 +663,7 @@
 
 .method public final getViewBinding()Lcom/commsource/beautyplus/f0/e2;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9f9b
@@ -975,11 +975,11 @@
 .method public p(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V
     .locals 2
     .param p1    # Landroidx/lifecycle/ViewModelStoreOwner;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1107,7 +1107,7 @@
 .method public final setPaintEraserViewModel(Lcom/commsource/studio/component/e;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/component/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

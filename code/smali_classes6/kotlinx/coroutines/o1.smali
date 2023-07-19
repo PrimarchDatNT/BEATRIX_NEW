@@ -11,14 +11,14 @@
 .method public static final a(Ljava/lang/String;Ljava/lang/Throwable;)Ljava/util/concurrent/CancellationException;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/util/concurrent/CancellationException;
@@ -33,11 +33,11 @@
 .method public static final b(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
     .locals 0
     .param p0    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

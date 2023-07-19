@@ -15,12 +15,12 @@
 
 # static fields
 .field public static final d:Ljava/lang/String; = "EXTRA_PATH"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final f:Ljava/lang/String; = "EXTRA_SHOW_PRO_BANNER"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -51,7 +51,7 @@
 .method public constructor <init>(Landroid/app/Application;)V
     .locals 1
     .param p1    # Landroid/app/Application;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -92,11 +92,11 @@
 .method public final A(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;Z)Lcotlin/Pair;
     .locals 16
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;
@@ -115,7 +115,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     move-object/from16 v0, p1
@@ -420,7 +420,7 @@
 .method public final C(Lcotlin/jvm/u/a;)V
     .locals 2
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -448,7 +448,7 @@
 .method public final D(Landroid/graphics/Bitmap;)V
     .locals 12
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;

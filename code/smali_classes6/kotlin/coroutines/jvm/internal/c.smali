@@ -12,11 +12,11 @@
 
 # virtual methods
 .method public abstract getCallerFrame()Lcotlin/coroutines/jvm/internal/c;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method public abstract getStackTraceElement()Ljava/lang/StackTraceElement;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method

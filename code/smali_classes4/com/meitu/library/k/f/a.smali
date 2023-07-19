@@ -60,7 +60,7 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -224,7 +224,7 @@
 
 .method public final c()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xc118
@@ -266,11 +266,11 @@
 .method public onActivityCreated(Landroid/app/Activity;Landroid/os/Bundle;)V
     .locals 1
     .param p1    # Landroid/app/Activity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -290,7 +290,7 @@
 .method public onActivityDestroyed(Landroid/app/Activity;)V
     .locals 2
     .param p1    # Landroid/app/Activity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -310,7 +310,7 @@
 .method public onActivityPaused(Landroid/app/Activity;)V
     .locals 2
     .param p1    # Landroid/app/Activity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -330,7 +330,7 @@
 .method public onActivityResumed(Landroid/app/Activity;)V
     .locals 2
     .param p1    # Landroid/app/Activity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -350,11 +350,11 @@
 .method public onActivitySaveInstanceState(Landroid/app/Activity;Landroid/os/Bundle;)V
     .locals 2
     .param p1    # Landroid/app/Activity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -378,7 +378,7 @@
 .method public onActivityStarted(Landroid/app/Activity;)V
     .locals 5
     .param p1    # Landroid/app/Activity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -453,7 +453,7 @@
 .method public onActivityStopped(Landroid/app/Activity;)V
     .locals 3
     .param p1    # Landroid/app/Activity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

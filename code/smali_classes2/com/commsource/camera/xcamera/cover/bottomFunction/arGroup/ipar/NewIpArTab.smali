@@ -9,7 +9,7 @@
 
 # instance fields
 .field private final a:Lcotlin/w;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -22,12 +22,12 @@
 .field private final e:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
 .field private final f:Landroidx/databinding/ViewStubProxy;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final g:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -36,11 +36,11 @@
 .method public constructor <init>(Landroidx/databinding/ViewStubProxy;Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;)V
     .locals 2
     .param p1    # Landroidx/databinding/ViewStubProxy;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -185,7 +185,7 @@
 # virtual methods
 .method public final d()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1026
@@ -201,7 +201,7 @@
 
 .method public final f()Lcom/meitu/template/bean/ArMaterialGroup;
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1024
@@ -235,7 +235,7 @@
 
 .method public final g()Lcom/commsource/beautyplus/f0/qc;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x101f
@@ -257,7 +257,7 @@
 
 .method public final h()Landroidx/databinding/ViewStubProxy;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1025

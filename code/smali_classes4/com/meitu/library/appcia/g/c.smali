@@ -264,7 +264,7 @@
 .method public final D(Lcom/meitu/library/appcia/f/e/d;)V
     .locals 1
     .param p1    # Lcom/meitu/library/appcia/f/e/d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -440,7 +440,7 @@
 .method public f(Ljava/lang/String;)V
     .locals 6
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -532,7 +532,7 @@
 
 .method public getName()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xcd7a
@@ -667,7 +667,7 @@
 .method public j(Ljava/lang/String;)V
     .locals 4
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -888,7 +888,7 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xcd79
@@ -1410,7 +1410,7 @@
 .method public u(Landroid/content/Context;)V
     .locals 4
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

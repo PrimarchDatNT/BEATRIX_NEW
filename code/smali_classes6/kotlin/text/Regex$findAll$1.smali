@@ -66,7 +66,7 @@
 
 .method public final invoke()Lcotlin/text/k;
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlin/text/Regex$findAll$1;->this$0:Lcotlin/text/Regex;

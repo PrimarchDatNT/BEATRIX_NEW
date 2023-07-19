@@ -50,7 +50,7 @@
 .method public final a(Lcom/commsource/mypage/album/z$g;)V
     .locals 2
     .param p1    # Lcom/commsource/mypage/album/z$g;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

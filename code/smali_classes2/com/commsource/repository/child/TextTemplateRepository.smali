@@ -28,7 +28,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -41,7 +41,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -591,10 +591,10 @@
 .method public final A(Lcom/commsource/studio/text/TextTemplateMaterial;)Lcom/commsource/material/download/b/c;
     .locals 2
     .param p1    # Lcom/commsource/studio/text/TextTemplateMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3e67
@@ -625,7 +625,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3e5c
@@ -641,7 +641,7 @@
 
 .method public final C()Lcom/commsource/studio/text/TextTemplate;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3e5d
@@ -700,10 +700,10 @@
 .method public final D(Lcom/commsource/studio/text/TextTemplateMaterial;)Ljava/lang/String;
     .locals 3
     .param p1    # Lcom/commsource/studio/text/TextTemplateMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3e6a
@@ -768,10 +768,10 @@
 .method public final E(Lcom/commsource/studio/text/TextTemplateMaterial;)Lcom/commsource/material/download/c/d;
     .locals 5
     .param p1    # Lcom/commsource/studio/text/TextTemplateMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3e66
@@ -826,10 +826,10 @@
 .method public final F(Ljava/lang/String;)Lcom/commsource/studio/text/TextTemplate;
     .locals 6
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3e6b
@@ -941,10 +941,10 @@
 .method public final I(Ljava/lang/String;)Lcom/commsource/studio/text/TextTemplateMaterial;
     .locals 5
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3e6c
@@ -1047,10 +1047,10 @@
 .method public final N(Lcom/commsource/studio/text/TextTemplateMaterial;)Lcom/commsource/studio/text/TextTemplate;
     .locals 4
     .param p1    # Lcom/commsource/studio/text/TextTemplateMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3e6d
@@ -1224,7 +1224,7 @@
 .method public l(Ljava/util/List;)V
     .locals 3
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1278,7 +1278,7 @@
 .method public final x(Lcom/commsource/studio/text/TextTemplateMaterial;Z)V
     .locals 8
     .param p1    # Lcom/commsource/studio/text/TextTemplateMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1358,7 +1358,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3e5b

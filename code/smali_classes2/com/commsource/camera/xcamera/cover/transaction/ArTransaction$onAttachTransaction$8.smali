@@ -50,7 +50,7 @@
 .method public final a(Lcom/meitu/template/bean/ArMaterial;)V
     .locals 10
     .param p1    # Lcom/meitu/template/bean/ArMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

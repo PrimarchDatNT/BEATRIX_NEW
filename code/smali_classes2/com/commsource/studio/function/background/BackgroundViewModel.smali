@@ -23,7 +23,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -32,42 +32,42 @@
 
 # instance fields
 .field private final J:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final K:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final L:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final M:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final N:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final O:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final P:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final Q:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -81,12 +81,12 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private S:Lcom/commsource/studio/function/background/BackgroundType;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -110,12 +110,12 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final d:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -129,17 +129,17 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final g:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final p:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -304,7 +304,7 @@
 .method public constructor <init>(Landroid/app/Application;)V
     .locals 3
     .param p1    # Landroid/app/Application;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1228,7 +1228,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4dbf
@@ -1259,7 +1259,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4dc1
@@ -1290,7 +1290,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4dc0
@@ -1322,7 +1322,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4dc2
@@ -1354,7 +1354,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4dc9
@@ -1370,7 +1370,7 @@
 
 .method public final I()Lcom/commsource/studio/function/background/BackgroundType;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x4dca
@@ -1395,7 +1395,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4dc7
@@ -1427,7 +1427,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4dc3
@@ -1458,7 +1458,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4dc5
@@ -1489,7 +1489,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4dc8
@@ -1520,7 +1520,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4dc6
@@ -1552,7 +1552,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4dd7
@@ -1568,7 +1568,7 @@
 
 .method public final P()Lcom/commsource/studio/ImageStudioViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4dbc
@@ -1600,7 +1600,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4dc4
@@ -1632,7 +1632,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4dbd
@@ -1649,7 +1649,7 @@
 .method public final T(Landroid/graphics/Bitmap;)V
     .locals 6
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1714,15 +1714,15 @@
 .method public final U(Lcom/commsource/studio/function/background/BackgroundType;Lcom/commsource/studio/function/background/BackgroundTexture;Lcom/commsource/easyeditor/entity/CropEnum;)V
     .locals 8
     .param p1    # Lcom/commsource/studio/function/background/BackgroundType;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/function/background/BackgroundTexture;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Lcom/commsource/easyeditor/entity/CropEnum;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/UiThread;
@@ -1862,7 +1862,7 @@
 .method public final W(Lcom/commsource/easyeditor/entity/CropEnum;)V
     .locals 8
     .param p1    # Lcom/commsource/easyeditor/entity/CropEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1963,7 +1963,7 @@
 .method public final X(Lcom/commsource/studio/function/background/BackgroundType;)V
     .locals 9
     .param p1    # Lcom/commsource/studio/function/background/BackgroundType;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2109,7 +2109,7 @@
 .method public final Y(Lcom/commsource/studio/function/background/BackgroundTexture;)V
     .locals 9
     .param p1    # Lcom/commsource/studio/function/background/BackgroundTexture;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2251,7 +2251,7 @@
 .method public final Z(Lcom/commsource/studio/bean/BgLayerInfo;)V
     .locals 4
     .param p1    # Lcom/commsource/studio/bean/BgLayerInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2328,7 +2328,7 @@
 .method public final a0(Lcom/commsource/studio/function/background/BackgroundType;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/function/background/BackgroundType;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2346,7 +2346,7 @@
 .method public final b0(Lcotlin/Pair;)V
     .locals 2
     .param p1    # Lcotlin/Pair;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2377,7 +2377,7 @@
 .method public final c0(Ljava/util/HashMap;)V
     .locals 2
     .param p1    # Ljava/util/HashMap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2444,11 +2444,11 @@
 .method public p(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V
     .locals 2
     .param p1    # Landroidx/lifecycle/ViewModelStoreOwner;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

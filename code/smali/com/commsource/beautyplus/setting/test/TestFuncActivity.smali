@@ -904,7 +904,7 @@
 .method public onClick(Landroid/view/View;)V
     .locals 3
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -997,7 +997,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 1
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

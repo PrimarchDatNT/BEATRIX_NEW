@@ -98,7 +98,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;

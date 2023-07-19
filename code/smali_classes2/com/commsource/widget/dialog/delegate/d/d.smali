@@ -17,7 +17,7 @@
 
 # instance fields
 .field private final e:Ljava/lang/Runnable;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -26,11 +26,11 @@
 .method public constructor <init>(Lcom/commsource/widget/dialog/delegate/b;Lcom/commsource/widget/dialog/delegate/d/c;)V
     .locals 1
     .param p1    # Lcom/commsource/widget/dialog/delegate/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/widget/dialog/delegate/d/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -126,7 +126,7 @@
 
 .method public final k()Ljava/lang/Runnable;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8aa0

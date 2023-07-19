@@ -22,11 +22,11 @@
 .method public constructor <init>(Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)V
     .locals 1
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

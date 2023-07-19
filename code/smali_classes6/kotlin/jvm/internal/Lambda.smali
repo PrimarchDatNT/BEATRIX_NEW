@@ -49,7 +49,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Lcotlin/jvm/internal/n0;->u(Lcotlin/jvm/internal/Lambda;)Ljava/lang/String;

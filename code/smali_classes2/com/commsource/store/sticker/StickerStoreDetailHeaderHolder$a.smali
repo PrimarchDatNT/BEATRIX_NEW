@@ -44,7 +44,7 @@
 .method public W1(Landroid/graphics/drawable/Drawable;)V
     .locals 2
     .param p1    # Landroid/graphics/drawable/Drawable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -90,11 +90,11 @@
 .method public a(Landroid/graphics/drawable/Drawable;Lcom/bumptech/glide/request/k/f;)V
     .locals 6
     .param p1    # Landroid/graphics/drawable/Drawable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/bumptech/glide/request/k/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

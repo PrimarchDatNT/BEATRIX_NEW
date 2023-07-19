@@ -16,7 +16,7 @@
 .end field
 
 .field public static final b:Lcotlin/y1;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 

@@ -31,7 +31,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -42,7 +42,7 @@
 .method public constructor <init>([Ljava/lang/Object;Z)V
     .locals 1
     .param p1    # [Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -120,7 +120,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/collections/i;->a:[Ljava/lang/Object;
@@ -155,7 +155,7 @@
 .method public containsAll(Ljava/util/Collection;)Z
     .locals 2
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -249,7 +249,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/collections/i;->a:[Ljava/lang/Object;
@@ -327,7 +327,7 @@
 
 .method public final toArray()[Ljava/lang/Object;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/collections/i;->a:[Ljava/lang/Object;

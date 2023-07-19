@@ -36,7 +36,7 @@
 # virtual methods
 .method public final a(JJJ)Lcotlin/g2/l;
     .locals 8
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v7, Lcotlin/g2/l;

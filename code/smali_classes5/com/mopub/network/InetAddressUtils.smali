@@ -8,7 +8,7 @@
 
 # static fields
 .field public static final INSTANCE:Lcom/mopub/network/InetAddressUtils;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -39,7 +39,7 @@
 .method public static final getInetAddressByName(Ljava/lang/String;)Ljava/net/InetAddress;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Throws;
@@ -51,7 +51,7 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcom/mopub/network/InetAddressUtils;->mockInetAddress:Ljava/net/InetAddress;
@@ -76,7 +76,7 @@
 .method public static final setMockInetAddress(Ljava/net/InetAddress;)V
     .locals 0
     .param p0    # Ljava/net/InetAddress;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcom/mopub/common/VisibleForTesting;

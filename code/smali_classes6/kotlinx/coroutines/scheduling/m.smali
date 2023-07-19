@@ -196,7 +196,7 @@
 .method private final d(Lcotlinx/coroutines/scheduling/h;)V
     .locals 3
     .param p1    # Lcotlinx/coroutines/scheduling/h;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -407,10 +407,10 @@
 .method public final a(Lcotlinx/coroutines/scheduling/h;Z)Lcotlinx/coroutines/scheduling/h;
     .locals 0
     .param p1    # Lcotlinx/coroutines/scheduling/h;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     if-eqz p2, :cond_0
@@ -483,7 +483,7 @@
 .method public final g(Lcotlinx/coroutines/scheduling/d;)V
     .locals 2
     .param p1    # Lcotlinx/coroutines/scheduling/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -517,7 +517,7 @@
 
 .method public final h()Lcotlinx/coroutines/scheduling/h;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/scheduling/m;->b:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
@@ -546,7 +546,7 @@
 .method public final k(Lcotlinx/coroutines/scheduling/m;)J
     .locals 8
     .param p1    # Lcotlinx/coroutines/scheduling/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -668,7 +668,7 @@
 .method public final l(Lcotlinx/coroutines/scheduling/m;)J
     .locals 4
     .param p1    # Lcotlinx/coroutines/scheduling/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

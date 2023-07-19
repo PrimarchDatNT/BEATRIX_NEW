@@ -25,7 +25,7 @@
 # virtual methods
 .method public abstract I(Lcom/meitu/template/bean/ChatFiled;)V
     .param p1    # Lcom/meitu/template/bean/ChatFiled;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -34,7 +34,7 @@
 
 .method public abstract P(Lcom/meitu/template/bean/ChatFiled;)V
     .param p1    # Lcom/meitu/template/bean/ChatFiled;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -44,7 +44,7 @@
 
 .method public abstract P1([Lcom/meitu/template/bean/ChatFiled;)V
     .param p1    # [Lcom/meitu/template/bean/ChatFiled;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -54,7 +54,7 @@
 
 .method public abstract U0(Ljava/lang/String;)Ljava/util/List;
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
@@ -72,7 +72,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
@@ -90,26 +90,26 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract f(Ljava/lang/Long;)Lcom/meitu/template/bean/ChatFiled;
     .param p1    # Ljava/lang/Long;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
         value = "select * from CHAT_FILED where _id = :key"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract i1(Ljava/lang/String;)Ljava/util/List;
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
@@ -127,13 +127,13 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method public abstract o0(Ljava/lang/String;)Ljava/util/List;
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
@@ -151,13 +151,13 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method public abstract q0(Lcom/meitu/template/bean/ChatFiled;)V
     .param p1    # Lcom/meitu/template/bean/ChatFiled;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -166,7 +166,7 @@
 
 .method public abstract t3([Lcom/meitu/template/bean/ChatFiled;)V
     .param p1    # [Lcom/meitu/template/bean/ChatFiled;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -175,7 +175,7 @@
 
 .method public abstract y2([Lcom/meitu/template/bean/ChatFiled;)V
     .param p1    # [Lcom/meitu/template/bean/ChatFiled;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;

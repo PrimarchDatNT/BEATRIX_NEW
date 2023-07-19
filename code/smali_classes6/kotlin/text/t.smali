@@ -18,10 +18,10 @@
 .method public static final U0(Ljava/lang/String;)Ljava/lang/Void;
     .locals 3
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "input"
@@ -56,14 +56,14 @@
 .method public static final V0(Ljava/lang/String;)Ljava/lang/Byte;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toByteOrNull"
@@ -82,14 +82,14 @@
 .method public static final W0(Ljava/lang/String;I)Ljava/lang/Byte;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toByteOrNull"
@@ -135,14 +135,14 @@
 .method public static X0(Ljava/lang/String;)Ljava/lang/Integer;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toIntOrNull"
@@ -161,14 +161,14 @@
 .method public static final Y0(Ljava/lang/String;I)Ljava/lang/Integer;
     .locals 10
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toIntOrNull"
@@ -309,14 +309,14 @@
 .method public static Z0(Ljava/lang/String;)Ljava/lang/Long;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toLongOrNull"
@@ -335,14 +335,14 @@
 .method public static final a1(Ljava/lang/String;I)Ljava/lang/Long;
     .locals 18
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     move-object/from16 v0, p0
@@ -504,14 +504,14 @@
 .method public static final b1(Ljava/lang/String;)Ljava/lang/Short;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toShortOrNull"
@@ -530,14 +530,14 @@
 .method public static final c1(Ljava/lang/String;I)Ljava/lang/Short;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toShortOrNull"

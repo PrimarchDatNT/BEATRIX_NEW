@@ -9,12 +9,12 @@
 
 # instance fields
 .field public g:Lcom/meitu/render/b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private h:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -37,11 +37,11 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -194,7 +194,7 @@
 .method public final u(Ljava/lang/String;)V
     .locals 4
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -246,7 +246,7 @@
 
 .method public final v()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x49b1
@@ -262,7 +262,7 @@
 
 .method public final w()Lcom/meitu/render/b;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x49ab
@@ -286,7 +286,7 @@
 .method public final x(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -304,7 +304,7 @@
 .method public final y(Lcom/meitu/render/b;)V
     .locals 2
     .param p1    # Lcom/meitu/render/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

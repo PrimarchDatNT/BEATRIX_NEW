@@ -26,7 +26,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -39,7 +39,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -52,7 +52,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -65,17 +65,17 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final e:Lkshark/internal/hppc/b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final f:Lkshark/internal/hppc/LongLongScatterMap;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -88,7 +88,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -101,7 +101,7 @@
 .method public constructor <init>(Ljava/util/Set;IZ)V
     .locals 1
     .param p1    # Ljava/util/Set;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -176,7 +176,7 @@
 
 .method public final b()Lkshark/internal/hppc/LongLongScatterMap;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/PathFinder$b;->f:Lkshark/internal/hppc/LongLongScatterMap;
@@ -195,7 +195,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/PathFinder$b;->g:Ljava/util/Set;
@@ -257,7 +257,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/PathFinder$b;->b:Ljava/util/Deque;
@@ -276,7 +276,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/PathFinder$b;->d:Ljava/util/HashSet;
@@ -295,7 +295,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/PathFinder$b;->a:Ljava/util/Deque;
@@ -314,7 +314,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/PathFinder$b;->c:Ljava/util/HashSet;
@@ -324,7 +324,7 @@
 
 .method public final j()Lkshark/internal/hppc/b;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/PathFinder$b;->e:Lkshark/internal/hppc/b;

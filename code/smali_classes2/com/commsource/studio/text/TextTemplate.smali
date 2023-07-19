@@ -27,7 +27,7 @@
 .field private canEditText:Z
 
 .field private fontId:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -36,17 +36,17 @@
 .field private paidState:I
 
 .field private styles:Lcom/commsource/studio/text/j;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private templateId:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private templatePath:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -81,7 +81,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -232,7 +232,7 @@
 
 .method public final getFontId()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x9e10
@@ -262,7 +262,7 @@
 
 .method public final getStyles()Lcom/commsource/studio/text/j;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x9e13
@@ -278,7 +278,7 @@
 
 .method public final getTemplateId()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x9e0e
@@ -294,7 +294,7 @@
 
 .method public final getTemplatePath()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x9e17
@@ -324,7 +324,7 @@
 
 .method public final getThumbnail()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9e12
@@ -515,7 +515,7 @@
 .method public final setFontId(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -547,7 +547,7 @@
 .method public final setStyles(Lcom/commsource/studio/text/j;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/text/j;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -565,7 +565,7 @@
 .method public final setTemplateId(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -583,7 +583,7 @@
 .method public final setTemplatePath(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

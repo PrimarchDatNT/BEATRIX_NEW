@@ -37,11 +37,11 @@
 .method public final a(Ljava/util/Set;Ljava/util/Set;)Z
     .locals 2
     .param p1    # Ljava/util/Set;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/util/Set;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -87,7 +87,7 @@
 .method public final b(Ljava/util/Collection;)I
     .locals 3
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

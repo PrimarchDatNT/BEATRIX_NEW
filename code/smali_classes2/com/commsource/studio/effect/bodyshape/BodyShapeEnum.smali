@@ -46,7 +46,7 @@
 .field private final bothWay:Z
 
 .field private final dictValue:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -57,7 +57,7 @@
 .field private final nameRes:I
 
 .field private final statisticName:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -435,7 +435,7 @@
 
 .method public final getDictValue()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4a84
@@ -493,7 +493,7 @@
 
 .method public final getStatisticName()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4a83

@@ -34,7 +34,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -47,24 +47,24 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private d:[I
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private f:I
 
 .field private g:Landroid/graphics/Paint;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private p:Landroid/text/TextPaint;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -73,7 +73,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -91,11 +91,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -113,11 +113,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -819,7 +819,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7644
@@ -835,7 +835,7 @@
 
 .method public final getGroupArray()[I
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7646
@@ -865,7 +865,7 @@
 
 .method public final getPaint()Landroid/graphics/Paint;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x764a
@@ -895,7 +895,7 @@
 
 .method public final getTextPaint()Landroid/text/TextPaint;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x764c
@@ -943,7 +943,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7642
@@ -960,7 +960,7 @@
 .method public final h(Landroid/graphics/Canvas;I)V
     .locals 4
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1229,7 +1229,7 @@
 
 .method public final l()Ljava/lang/String;
     .locals 5
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7657
@@ -1288,7 +1288,7 @@
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 4
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1352,7 +1352,7 @@
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 2
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1392,7 +1392,7 @@
 .method public final setData(Ljava/util/List;)V
     .locals 2
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1422,7 +1422,7 @@
 .method public final setGroupArray([I)V
     .locals 2
     .param p1    # [I
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1458,7 +1458,7 @@
 .method public final setPaint(Landroid/graphics/Paint;)V
     .locals 2
     .param p1    # Landroid/graphics/Paint;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1494,7 +1494,7 @@
 .method public final setTextPaint(Landroid/text/TextPaint;)V
     .locals 2
     .param p1    # Landroid/text/TextPaint;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1516,7 +1516,7 @@
 .method public final setViewFrames(Ljava/util/HashMap;)V
     .locals 2
     .param p1    # Ljava/util/HashMap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

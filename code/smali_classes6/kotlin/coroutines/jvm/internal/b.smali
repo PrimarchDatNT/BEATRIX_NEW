@@ -20,7 +20,7 @@
 
 # static fields
 .field public static final a:Lcotlin/coroutines/jvm/internal/b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -50,7 +50,7 @@
 # virtual methods
 .method public getContext()Lcotlin/coroutines/CoroutineContext;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/IllegalStateException;
@@ -69,7 +69,7 @@
 .method public resumeWith(Ljava/lang/Object;)V
     .locals 1
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -88,7 +88,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "This continuation is already complete"

@@ -52,7 +52,7 @@
 
 .method public final b()Lcom/commsource/push/bean/h;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x26cf
@@ -114,7 +114,7 @@
 .method public final e(Lcom/commsource/push/bean/h;)V
     .locals 1
     .param p1    # Lcom/commsource/push/bean/h;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

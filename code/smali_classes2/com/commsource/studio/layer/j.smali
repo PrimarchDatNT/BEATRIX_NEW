@@ -16,7 +16,7 @@
 .field private g:F
 
 .field private final p:Landroid/graphics/PointF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -25,7 +25,7 @@
 .method public constructor <init>(Lcom/commsource/studio/layer/c;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/layer/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -89,7 +89,7 @@
 .method protected a(Landroid/graphics/Canvas;)V
     .locals 11
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -313,7 +313,7 @@
 .method public f(FFLandroid/view/MotionEvent;)V
     .locals 6
     .param p3    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -436,7 +436,7 @@
 
 .method public final l()Landroid/graphics/PointF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1a36
@@ -481,7 +481,7 @@
 .method public x(FFZZLandroid/view/MotionEvent;)V
     .locals 0
     .param p5    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

@@ -18,7 +18,7 @@
 .method public static final a([I)Ljava/util/List;
     .locals 1
     .param p0    # [I
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -37,7 +37,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$asList"
@@ -54,7 +54,7 @@
 .method public static final b([B)Ljava/util/List;
     .locals 1
     .param p0    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -73,7 +73,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$asList"
@@ -90,7 +90,7 @@
 .method public static final c([J)Ljava/util/List;
     .locals 1
     .param p0    # [J
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -109,7 +109,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$asList"
@@ -126,7 +126,7 @@
 .method public static final d([S)Ljava/util/List;
     .locals 1
     .param p0    # [S
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -145,7 +145,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$asList"
@@ -162,7 +162,7 @@
 .method public static final e([IIII)I
     .locals 2
     .param p0    # [I
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -256,7 +256,7 @@
 .method public static final g([SSII)I
     .locals 2
     .param p0    # [S
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -354,7 +354,7 @@
 .method public static final i([JJII)I
     .locals 3
     .param p0    # [J
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -448,7 +448,7 @@
 .method public static final k([BBII)I
     .locals 2
     .param p0    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;

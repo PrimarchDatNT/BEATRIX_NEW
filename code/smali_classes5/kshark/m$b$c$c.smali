@@ -23,7 +23,7 @@
 .field private final c:J
 
 .field private final d:[B
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -32,7 +32,7 @@
 .method public constructor <init>(JIJ[B)V
     .locals 1
     .param p6    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -67,7 +67,7 @@
 
 .method public final b()[B
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/m$b$c$c;->d:[B

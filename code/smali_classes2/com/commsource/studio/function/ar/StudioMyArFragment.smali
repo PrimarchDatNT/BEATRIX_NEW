@@ -11,24 +11,24 @@
 .field private J:Ljava/util/HashMap;
 
 .field private final c:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private d:I
 
 .field private final f:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final g:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private p:Lcom/meitu/template/bean/ArMaterialGroup;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -104,7 +104,7 @@
 # virtual methods
 .method public final A()Lcom/commsource/widget/h1/e;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x745c
@@ -126,7 +126,7 @@
 
 .method public final B()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7459
@@ -148,7 +148,7 @@
 
 .method public final C()Lcom/meitu/template/bean/ArMaterialGroup;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x745e
@@ -178,7 +178,7 @@
 
 .method public final E()Landroidx/recyclerview/widget/RecyclerView;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x745d
@@ -201,7 +201,7 @@
 .method public final F(Lcom/meitu/template/bean/ArMaterialGroup;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/ArMaterialGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -233,18 +233,18 @@
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 0
     .param p1    # Landroid/view/LayoutInflater;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/view/ViewGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 p2, 0x7460
@@ -283,11 +283,11 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 3
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

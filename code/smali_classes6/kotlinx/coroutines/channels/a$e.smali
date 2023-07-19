@@ -32,7 +32,7 @@
 .method public constructor <init>(Lcotlinx/coroutines/channels/a;Lcotlinx/coroutines/channels/x;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/channels/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -57,7 +57,7 @@
 .method public a(Ljava/lang/Throwable;)V
     .locals 0
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -91,7 +91,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

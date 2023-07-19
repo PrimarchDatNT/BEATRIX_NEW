@@ -19,7 +19,7 @@
 .method public constructor <init>(Lcom/commsource/studio/formula/convert/d;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/formula/convert/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -73,10 +73,10 @@
 .method public i(Lcom/commsource/studio/bean/PictureLayerInfo;)Lcom/commsource/studio/formula/convert/FormulaLayer;
     .locals 2
     .param p1    # Lcom/commsource/studio/bean/PictureLayerInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8130
@@ -97,14 +97,14 @@
 .method public j(Lcom/commsource/studio/formula/convert/g;Lcom/commsource/studio/formula/convert/FormulaLayer;)Lcom/commsource/studio/bean/PictureLayerInfo;
     .locals 20
     .param p1    # Lcom/commsource/studio/formula/convert/g;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/formula/convert/FormulaLayer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     move-object/from16 v0, p0

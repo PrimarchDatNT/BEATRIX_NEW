@@ -59,7 +59,7 @@
 # virtual methods
 .method public getContext()Lcotlin/coroutines/CoroutineContext;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/h$a;->a:Lcotlin/coroutines/CoroutineContext;
@@ -70,7 +70,7 @@
 .method public resumeWith(Ljava/lang/Object;)V
     .locals 2
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

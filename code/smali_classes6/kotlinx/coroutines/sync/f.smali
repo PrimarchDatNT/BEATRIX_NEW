@@ -243,7 +243,7 @@
 .method public c(Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 1
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -257,7 +257,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/sync/f;->d:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
@@ -306,7 +306,7 @@
 .method final synthetic n(Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 6
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -320,7 +320,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p1}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
@@ -490,10 +490,10 @@
 .method public p(JLcotlinx/coroutines/sync/g;)Lcotlinx/coroutines/sync/g;
     .locals 1
     .param p3    # Lcotlinx/coroutines/sync/g;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/sync/g;

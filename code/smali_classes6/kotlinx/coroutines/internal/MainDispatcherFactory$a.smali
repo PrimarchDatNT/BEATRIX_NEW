@@ -18,7 +18,7 @@
 # direct methods
 .method public static a(Lcotlinx/coroutines/internal/MainDispatcherFactory;)Ljava/lang/String;
     .locals 0
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/4 p0, 0x0

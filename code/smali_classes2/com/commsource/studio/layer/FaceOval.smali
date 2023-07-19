@@ -26,39 +26,39 @@
 
 # instance fields
 .field private final a:Landroid/graphics/Paint;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final b:Landroid/graphics/PointF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final c:Landroid/graphics/PointF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final d:Landroid/graphics/PointF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final e:Landroid/graphics/PointF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private f:F
 
 .field private g:Lcom/commsource/studio/MatrixBox;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final h:Landroid/graphics/Path;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -69,7 +69,7 @@
 .field private final k:Landroid/graphics/RectF;
 
 .field private final l:Landroid/graphics/PointF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -80,14 +80,14 @@
 .field private final o:Lcotlin/w;
 
 .field private p:Lcom/commsource/camera/f1/n;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private q:Z
 
 .field private final r:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -140,11 +140,11 @@
 .method public constructor <init>(Lcom/meitu/core/types/FaceData;IFFLandroid/graphics/RectF;)V
     .locals 22
     .param p1    # Lcom/meitu/core/types/FaceData;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p5    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -826,7 +826,7 @@
 .method public final D(Lcom/commsource/studio/MatrixBox;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -848,7 +848,7 @@
 .method public final E(Lcom/commsource/camera/f1/n;)V
     .locals 2
     .param p1    # Lcom/commsource/camera/f1/n;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -912,7 +912,7 @@
 .method public final d(Lcom/commsource/studio/layer/FaceOval$b;)V
     .locals 4
     .param p1    # Lcom/commsource/studio/layer/FaceOval$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -975,7 +975,7 @@
 .method public final f(Landroid/graphics/Canvas;)V
     .locals 3
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1013,7 +1013,7 @@
 .method public final g(Landroid/graphics/Canvas;FF)V
     .locals 3
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1081,7 +1081,7 @@
 .method public final h(Landroid/graphics/Canvas;F)V
     .locals 3
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1140,7 +1140,7 @@
 
 .method public final i()Lcom/commsource/studio/layer/FaceOval$b;
     .locals 5
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4348
@@ -1198,7 +1198,7 @@
 
 .method public final k()Landroid/graphics/PointF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4332
@@ -1214,7 +1214,7 @@
 
 .method public final l()Landroid/graphics/Paint;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x432e
@@ -1230,7 +1230,7 @@
 
 .method public final m()[F
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4345
@@ -1268,7 +1268,7 @@
 
 .method public final n()Landroid/graphics/PointF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4338
@@ -1284,7 +1284,7 @@
 
 .method public final q()Landroid/graphics/PointF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x432f
@@ -1300,7 +1300,7 @@
 
 .method public final r()Lcom/commsource/studio/MatrixBox;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4335
@@ -1316,7 +1316,7 @@
 
 .method public final s()Landroid/graphics/Path;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4337
@@ -1332,7 +1332,7 @@
 
 .method public final t()Lcom/commsource/camera/f1/n;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x433e
@@ -1348,7 +1348,7 @@
 
 .method public final u()Landroid/graphics/PointF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4331
@@ -1364,7 +1364,7 @@
 
 .method public final v()Landroid/graphics/PointF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4330
@@ -1380,7 +1380,7 @@
 
 .method public final w()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x434a
@@ -1411,7 +1411,7 @@
 .method public final y([F)Z
     .locals 7
     .param p1    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1543,7 +1543,7 @@
 .method public final z([F)Z
     .locals 4
     .param p1    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -27,11 +27,11 @@
 .method public constructor <init>(Lcom/mopub/network/MoPubRequestQueue;Lcom/mopub/network/MoPubImageLoader$ImageCache;)V
     .locals 2
     .param p1    # Lcom/mopub/network/MoPubRequestQueue;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/mopub/network/MoPubImageLoader$ImageCache;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -131,11 +131,11 @@
 .method public final fetch(Ljava/lang/String;Lcom/mopub/network/MoPubImageLoader$ImageListener;)V
     .locals 8
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/mopub/network/MoPubImageLoader$ImageListener;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -165,11 +165,11 @@
 .method public final fetch(Ljava/lang/String;Lcom/mopub/network/MoPubImageLoader$ImageListener;I)V
     .locals 8
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/mopub/network/MoPubImageLoader$ImageListener;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -199,11 +199,11 @@
 .method public final fetch(Ljava/lang/String;Lcom/mopub/network/MoPubImageLoader$ImageListener;II)V
     .locals 8
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/mopub/network/MoPubImageLoader$ImageListener;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -233,15 +233,15 @@
 .method public fetch(Ljava/lang/String;Lcom/mopub/network/MoPubImageLoader$ImageListener;IILandroid/widget/ImageView$ScaleType;)V
     .locals 7
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/mopub/network/MoPubImageLoader$ImageListener;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p5    # Landroid/widget/ImageView$ScaleType;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;

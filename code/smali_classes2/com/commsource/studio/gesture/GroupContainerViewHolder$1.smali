@@ -68,7 +68,7 @@
 .method public final invoke(Landroid/graphics/Rect;)V
     .locals 6
     .param p1    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -26,12 +26,12 @@
 .field private a:Z
 
 .field private b:Lcom/commsource/studio/doodle/DoodleMaterial;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private c:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -103,7 +103,7 @@
 # virtual methods
 .method public final c()Lcom/commsource/studio/doodle/DoodleMaterial;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x9851
@@ -133,7 +133,7 @@
 
 .method public final e()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x9853
@@ -164,7 +164,7 @@
 .method public final g(Lcom/commsource/studio/doodle/DoodleMaterial;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/doodle/DoodleMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -210,7 +210,7 @@
 .method public final j(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

@@ -76,7 +76,7 @@
 .method public constructor <init>(Landroid/app/Application;)V
     .locals 1
     .param p1    # Landroid/app/Application;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

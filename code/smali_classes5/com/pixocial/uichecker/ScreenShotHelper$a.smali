@@ -36,7 +36,7 @@
 # virtual methods
 .method public final a()[Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lcom/pixocial/uichecker/ScreenShotHelper;->b()[Ljava/lang/String;
@@ -48,7 +48,7 @@
 
 .method public final b()[Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lcom/pixocial/uichecker/ScreenShotHelper;->d()[Ljava/lang/String;

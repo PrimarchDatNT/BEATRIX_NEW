@@ -27,10 +27,10 @@
 .method public static bridge synthetic K0(Lcotlin/g2/i;)Lcotlin/g2/i;
     .locals 0
     .param p0    # Lcotlin/g2/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Lcotlin/g2/q;->K0(Lcotlin/g2/i;)Lcotlin/g2/i;
@@ -43,10 +43,10 @@
 .method public static bridge synthetic S0(Lcotlin/g2/i;I)Lcotlin/g2/i;
     .locals 0
     .param p0    # Lcotlin/g2/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlin/g2/q;->S0(Lcotlin/g2/i;I)Lcotlin/g2/i;
@@ -58,7 +58,7 @@
 
 .method public static bridge synthetic W(II)Lcotlin/g2/i;
     .locals 0
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlin/g2/q;->W(II)Lcotlin/g2/i;
@@ -90,7 +90,7 @@
 
 .method public static bridge synthetic n1(II)Lcotlin/g2/k;
     .locals 0
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlin/g2/q;->n1(II)Lcotlin/g2/k;

@@ -57,7 +57,7 @@
 .method public b(Ljava/lang/Throwable;)V
     .locals 0
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -73,7 +73,7 @@
 .method public c(Ljava/lang/Boolean;)V
     .locals 3
     .param p1    # Ljava/lang/Boolean;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

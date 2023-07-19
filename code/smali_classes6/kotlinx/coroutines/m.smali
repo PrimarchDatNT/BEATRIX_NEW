@@ -29,7 +29,7 @@
 # virtual methods
 .method public abstract C(Ljava/lang/Object;Lcotlin/jvm/u/l;)V
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -49,7 +49,7 @@
 
 .method public abstract M(Lcotlinx/coroutines/CoroutineDispatcher;Ljava/lang/Object;)V
     .param p1    # Lcotlinx/coroutines/CoroutineDispatcher;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -76,7 +76,7 @@
 
 .method public abstract Y(Ljava/lang/Object;)V
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlinx/coroutines/y1;
@@ -85,7 +85,7 @@
 
 .method public abstract a(Ljava/lang/Throwable;)Z
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 .end method
@@ -95,7 +95,7 @@
 
 .method public abstract i(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .param p2    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -110,7 +110,7 @@
     .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
@@ -122,7 +122,7 @@
 
 .method public abstract s(Lcotlin/jvm/u/l;)V
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -139,23 +139,23 @@
 
 .method public abstract u(Ljava/lang/Throwable;)Ljava/lang/Object;
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method public abstract w(Lcotlinx/coroutines/CoroutineDispatcher;Ljava/lang/Throwable;)V
     .param p1    # Lcotlinx/coroutines/CoroutineDispatcher;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlinx/coroutines/s1;

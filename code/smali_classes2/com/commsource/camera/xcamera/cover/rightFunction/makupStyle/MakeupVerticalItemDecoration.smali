@@ -9,22 +9,22 @@
 
 # instance fields
 .field private final a:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final b:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final c:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final d:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -37,12 +37,12 @@
 .field private h:I
 
 .field private final i:Lcom/commsource/camera/f1/n;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final j:Lcom/commsource/camera/f1/n;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -53,7 +53,7 @@
 .field private m:I
 
 .field private final n:Landroidx/recyclerview/widget/RecyclerView;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -62,7 +62,7 @@
 .method public constructor <init>(Landroidx/recyclerview/widget/RecyclerView;)V
     .locals 7
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -221,7 +221,7 @@
 
 .method public final b()Lcom/commsource/camera/f1/n;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9d73
@@ -251,7 +251,7 @@
 
 .method public final d()Landroid/graphics/Paint;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9d66
@@ -301,7 +301,7 @@
 
 .method public final g()Landroidx/recyclerview/widget/RecyclerView;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9d7c
@@ -318,19 +318,19 @@
 .method public getItemOffsets(Landroid/graphics/Rect;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
     .locals 3
     .param p1    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Landroidx/recyclerview/widget/RecyclerView$State;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -418,7 +418,7 @@
 
 .method public final h()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9d68
@@ -448,7 +448,7 @@
 
 .method public final j()Landroid/graphics/Paint;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9d67
@@ -470,7 +470,7 @@
 
 .method public final k()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9d69
@@ -500,7 +500,7 @@
 
 .method public final m()Lcom/commsource/camera/f1/n;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9d72
@@ -608,15 +608,15 @@
 .method public onDraw(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
     .locals 5
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Landroidx/recyclerview/widget/RecyclerView$State;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

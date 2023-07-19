@@ -19,7 +19,7 @@
 .method public constructor <init>(Landroid/graphics/Rect;)V
     .locals 1
     .param p1    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -75,14 +75,14 @@
 .method public l(Landroid/graphics/Rect;Landroid/graphics/Rect;F)Landroid/graphics/Rect;
     .locals 3
     .param p1    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3581
@@ -145,10 +145,10 @@
 .method public m(Landroid/graphics/Rect;)Landroid/graphics/Rect;
     .locals 2
     .param p1    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x357f

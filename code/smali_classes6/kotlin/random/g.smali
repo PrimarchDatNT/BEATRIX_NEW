@@ -105,7 +105,7 @@
 .method public static final c(Lcotlin/random/e;I)[B
     .locals 1
     .param p0    # Lcotlin/random/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -115,7 +115,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$nextUBytes"
@@ -136,11 +136,11 @@
 .method public static final d(Lcotlin/random/e;[B)[B
     .locals 1
     .param p0    # Lcotlin/random/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -150,7 +150,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$nextUBytes"
@@ -169,11 +169,11 @@
 .method public static final e(Lcotlin/random/e;[BII)[B
     .locals 1
     .param p0    # Lcotlin/random/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -183,7 +183,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$nextUBytes"
@@ -228,7 +228,7 @@
 .method public static final g(Lcotlin/random/e;)I
     .locals 1
     .param p0    # Lcotlin/random/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -256,11 +256,11 @@
 .method public static final h(Lcotlin/random/e;Lcotlin/g2/t;)I
     .locals 2
     .param p0    # Lcotlin/random/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/g2/t;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -388,7 +388,7 @@
 .method public static final i(Lcotlin/random/e;II)I
     .locals 1
     .param p0    # Lcotlin/random/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -426,7 +426,7 @@
 .method public static final j(Lcotlin/random/e;I)I
     .locals 1
     .param p0    # Lcotlin/random/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -452,7 +452,7 @@
 .method public static final k(Lcotlin/random/e;)J
     .locals 2
     .param p0    # Lcotlin/random/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -480,11 +480,11 @@
 .method public static final l(Lcotlin/random/e;Lcotlin/g2/w;)J
     .locals 10
     .param p0    # Lcotlin/random/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/g2/w;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -636,7 +636,7 @@
 .method public static final m(Lcotlin/random/e;J)J
     .locals 2
     .param p0    # Lcotlin/random/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -662,7 +662,7 @@
 .method public static final n(Lcotlin/random/e;JJ)J
     .locals 2
     .param p0    # Lcotlin/random/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;

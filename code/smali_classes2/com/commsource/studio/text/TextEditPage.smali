@@ -24,7 +24,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -113,7 +113,7 @@
 .method public constructor <init>(Lcom/commsource/beautyplus/BaseActivity;)V
     .locals 1
     .param p1    # Lcom/commsource/beautyplus/BaseActivity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -552,7 +552,7 @@
 .method public final i(Landroid/widget/ImageView;)V
     .locals 10
     .param p1    # Landroid/widget/ImageView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -613,7 +613,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 2
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

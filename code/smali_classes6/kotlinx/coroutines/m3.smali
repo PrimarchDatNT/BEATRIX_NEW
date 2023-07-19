@@ -8,7 +8,7 @@
 
 # static fields
 .field private static a:Lcotlinx/coroutines/l3;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -42,7 +42,7 @@
 
 .method public static final b()Lcotlinx/coroutines/l3;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/m3;->a:Lcotlinx/coroutines/l3;
@@ -118,7 +118,7 @@
 .method public static final f(Lcotlinx/coroutines/l3;)V
     .locals 0
     .param p0    # Lcotlinx/coroutines/l3;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

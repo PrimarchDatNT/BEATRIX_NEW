@@ -19,7 +19,7 @@
 
 # instance fields
 .field private final className:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -32,24 +32,24 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final leakingStatus:Lkshark/LeakTraceObject$LeakingStatus;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final leakingStatusReason:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final objectId:J
 
 .field private final type:Lkshark/LeakTraceObject$ObjectType;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -58,23 +58,23 @@
 .method public constructor <init>(JLkshark/LeakTraceObject$ObjectType;Ljava/lang/String;Ljava/util/Set;Lkshark/LeakTraceObject$LeakingStatus;Ljava/lang/String;)V
     .locals 1
     .param p3    # Lkshark/LeakTraceObject$ObjectType;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p5    # Ljava/util/Set;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p6    # Lkshark/LeakTraceObject$LeakingStatus;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p7    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -236,7 +236,7 @@
 
 .method public final component2()Lkshark/LeakTraceObject$ObjectType;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceObject;->type:Lkshark/LeakTraceObject$ObjectType;
@@ -246,7 +246,7 @@
 
 .method public final component3()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceObject;->className:Ljava/lang/String;
@@ -265,7 +265,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceObject;->labels:Ljava/util/Set;
@@ -275,7 +275,7 @@
 
 .method public final component5()Lkshark/LeakTraceObject$LeakingStatus;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceObject;->leakingStatus:Lkshark/LeakTraceObject$LeakingStatus;
@@ -285,7 +285,7 @@
 
 .method public final component6()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceObject;->leakingStatusReason:Ljava/lang/String;
@@ -296,23 +296,23 @@
 .method public final copy(JLkshark/LeakTraceObject$ObjectType;Ljava/lang/String;Ljava/util/Set;Lkshark/LeakTraceObject$LeakingStatus;Ljava/lang/String;)Lkshark/LeakTraceObject;
     .locals 9
     .param p3    # Lkshark/LeakTraceObject$ObjectType;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p5    # Ljava/util/Set;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p6    # Lkshark/LeakTraceObject$LeakingStatus;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p7    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -330,7 +330,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "type"
@@ -377,7 +377,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 7
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -473,7 +473,7 @@
 
 .method public final getClassName()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceObject;->className:Ljava/lang/String;
@@ -483,7 +483,7 @@
 
 .method public final getClassSimpleName()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceObject;->className:Ljava/lang/String;
@@ -508,7 +508,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceObject;->labels:Ljava/util/Set;
@@ -518,7 +518,7 @@
 
 .method public final getLeakingStatus()Lkshark/LeakTraceObject$LeakingStatus;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceObject;->leakingStatus:Lkshark/LeakTraceObject$LeakingStatus;
@@ -528,7 +528,7 @@
 
 .method public final getLeakingStatusReason()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceObject;->leakingStatusReason:Ljava/lang/String;
@@ -546,7 +546,7 @@
 
 .method public final getType()Lkshark/LeakTraceObject$ObjectType;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceObject;->type:Lkshark/LeakTraceObject$ObjectType;
@@ -556,7 +556,7 @@
 
 .method public final getTypeName()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceObject;->type:Lkshark/LeakTraceObject$ObjectType;
@@ -698,7 +698,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

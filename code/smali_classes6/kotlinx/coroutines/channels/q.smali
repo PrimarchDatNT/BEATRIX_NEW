@@ -658,7 +658,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/channels/q$d;
@@ -760,7 +760,7 @@
 .method public E(Lcotlin/jvm/u/l;)V
     .locals 3
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -847,7 +847,7 @@
 .method public Q(Ljava/lang/Throwable;)Z
     .locals 4
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -953,7 +953,7 @@
 .method public U(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -967,7 +967,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-direct {p0, p1}, Lcotlinx/coroutines/channels/q;->k(Ljava/lang/Object;)Lcotlinx/coroutines/channels/q$a;
@@ -1010,7 +1010,7 @@
 .method public synthetic a(Ljava/lang/Throwable;)Z
     .locals 0
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -1028,7 +1028,7 @@
 .method public d(Ljava/util/concurrent/CancellationException;)V
     .locals 0
     .param p1    # Ljava/util/concurrent/CancellationException;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1117,7 +1117,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/channels/q;->_state:Ljava/lang/Object;
@@ -1223,7 +1223,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/channels/q$e;

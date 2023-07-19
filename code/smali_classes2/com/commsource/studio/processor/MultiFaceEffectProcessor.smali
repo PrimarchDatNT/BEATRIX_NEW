@@ -19,7 +19,7 @@
 
 # instance fields
 .field private N:Lcom/commsource/easyeditor/utils/opengl/f;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -30,7 +30,7 @@
 .method public constructor <init>(Lcom/commsource/camera/newrender/renderproxy/n;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/newrender/renderproxy/n;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -87,7 +87,7 @@
 # virtual methods
 .method public final L()Lcom/commsource/easyeditor/utils/opengl/f;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;->N:Lcom/commsource/easyeditor/utils/opengl/f;
@@ -106,11 +106,11 @@
 .method public final N(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 18
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -422,7 +422,7 @@
 .method public final P(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 0
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -464,11 +464,11 @@
 
 .method public abstract R(Lcom/commsource/camera/newrender/renderproxy/n;ILcom/commsource/easyeditor/utils/opengl/f;)V
     .param p1    # Lcom/commsource/camera/newrender/renderproxy/n;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -570,7 +570,7 @@
 .method public r(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 2
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -597,7 +597,7 @@
 .method public s(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 9
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

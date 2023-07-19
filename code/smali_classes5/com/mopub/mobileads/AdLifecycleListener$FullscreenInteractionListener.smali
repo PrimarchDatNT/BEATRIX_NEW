@@ -18,7 +18,7 @@
 # virtual methods
 .method public abstract onAdComplete(Lcom/mopub/common/MoPubReward;)V
     .param p1    # Lcom/mopub/common/MoPubReward;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/b;

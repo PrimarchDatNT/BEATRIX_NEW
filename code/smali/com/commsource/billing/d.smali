@@ -8,52 +8,52 @@
 
 # static fields
 .field public static final a:Ljava/lang/String; = "com.commsource.beautyplus.subscribtion.1year.fullprice"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final b:Ljava/lang/String; = "com.commsource.beautyplus.subscribtion.1month.fullprice"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final c:Ljava/lang/String; = "com.commsource.beautyplus.subscribtion.1year.25discount"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final d:Ljava/lang/String; = "com.commsource.beautyplus.subscribtion.1month.25discount"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final e:Ljava/lang/String; = "com.commsource.beautyplus.subscribtion.1year.25discount.new.users"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final f:Ljava/lang/String; = "com.commsource.beautyplus.subscribtion.1month.25discount.new.users"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final g:Ljava/lang/String; = "com.commsource.beautyplus.subscribtion.1year.festival"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final h:Ljava/lang/String; = "com.commsource.beautyplus.subscribtion.1month.festival"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final i:Ljava/lang/String; = "https://play.google.com/store/account/subscriptions?sku=%s&package=%s"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final j:Ljava/lang/String; = "https://play.google.com/store/account/subscriptions"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -201,7 +201,7 @@
 # virtual methods
 .method public final a()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9b93
@@ -253,7 +253,7 @@
 
 .method public final b()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9b92
@@ -305,7 +305,7 @@
 
 .method public final c()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9b91
@@ -357,7 +357,7 @@
 
 .method public final d()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9b90
@@ -409,7 +409,7 @@
 
 .method public final e()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9b8d
@@ -461,7 +461,7 @@
 
 .method public final f()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9b8c
@@ -513,7 +513,7 @@
 
 .method public final g()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9b8f
@@ -552,7 +552,7 @@
 
 .method public final h()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9b8e

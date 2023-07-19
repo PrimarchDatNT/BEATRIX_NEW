@@ -38,7 +38,7 @@
 .method public final onAnimationUpdate(Landroid/animation/ValueAnimator;)V
     .locals 4
     .param p1    # Landroid/animation/ValueAnimator;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

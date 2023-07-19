@@ -60,7 +60,7 @@
 # virtual methods
 .method public final a()Lcom/commsource/camera/xcamera/util/c;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2354
@@ -79,11 +79,11 @@
 .method public final b(Landroid/util/SparseArray;Landroid/util/SparseArray;I)Ljava/util/HashMap;
     .locals 12
     .param p1    # Landroid/util/SparseArray;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Landroid/util/SparseArray;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -102,7 +102,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2355
@@ -300,7 +300,7 @@
 .method public final c(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Ljava/util/HashMap;
     .locals 9
     .param p1    # Lcom/commsource/camera/fastcapture/SelfiePhotoData;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -315,7 +315,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2356

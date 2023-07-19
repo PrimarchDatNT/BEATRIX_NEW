@@ -177,7 +177,7 @@
 .method public constructor <init>(Lcom/commsource/studio/i$d;)V
     .locals 4
     .param p1    # Lcom/commsource/studio/i$d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2369,7 +2369,7 @@
 .method public final C(Landroid/view/MotionEvent;)Z
     .locals 7
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

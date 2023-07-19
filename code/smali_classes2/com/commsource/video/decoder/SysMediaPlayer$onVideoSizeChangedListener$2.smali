@@ -48,7 +48,7 @@
 # virtual methods
 .method public final invoke()Landroid/media/MediaPlayer$OnVideoSizeChangedListener;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x177d

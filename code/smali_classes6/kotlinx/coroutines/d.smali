@@ -27,15 +27,15 @@
 .method public constructor <init>(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Thread;Lcotlinx/coroutines/j1;)V
     .locals 1
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Thread;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlinx/coroutines/j1;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -63,7 +63,7 @@
 .method protected d0(Ljava/lang/Object;)V
     .locals 1
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

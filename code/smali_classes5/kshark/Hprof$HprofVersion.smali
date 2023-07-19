@@ -37,7 +37,7 @@
 
 # instance fields
 .field private final versionString:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -160,7 +160,7 @@
 # virtual methods
 .method public final getVersionString()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/Hprof$HprofVersion;->versionString:Ljava/lang/String;

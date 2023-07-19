@@ -17,12 +17,12 @@
 .field private d:I
 
 .field private final f:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final g:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -202,7 +202,7 @@
 .method public final A(Lcom/commsource/studio/layer/d;)V
     .locals 5
     .param p1    # Lcom/commsource/studio/layer/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/UiThread;
@@ -304,7 +304,7 @@
 .method public C(ILandroid/view/View;)V
     .locals 3
     .param p2    # Landroid/view/View;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -379,11 +379,11 @@
 .method public E(ILandroid/view/View;Lcotlin/jvm/u/a;)V
     .locals 4
     .param p2    # Landroid/view/View;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -550,7 +550,7 @@
 
 .method public final K()Lcom/commsource/beautyplus/f0/k0;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5d83
@@ -572,7 +572,7 @@
 
 .method public final L()Lcom/commsource/studio/ImageStudioViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5d82

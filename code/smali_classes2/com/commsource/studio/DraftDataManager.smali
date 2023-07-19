@@ -17,7 +17,7 @@
 
 # static fields
 .field public static final h:Ljava/lang/String; = "studio_draft_data"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -2188,7 +2188,7 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa4f7
@@ -2581,7 +2581,7 @@
 .method public final p(Lcom/commsource/studio/DraftDataManager$DraftData;)V
     .locals 3
     .param p1    # Lcom/commsource/studio/DraftDataManager$DraftData;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -16,7 +16,7 @@
 
 # static fields
 .field private static final b:Lcom/commsource/camera/xcamera/util/c;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -1227,11 +1227,11 @@
 .method public final d(ILcom/commsource/camera/fastcapture/SelfiePhotoData;Ljava/util/Map;)V
     .locals 5
     .param p2    # Lcom/commsource/camera/fastcapture/SelfiePhotoData;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1526,7 +1526,7 @@
 .method public final f(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
     .locals 7
     .param p1    # Lcom/commsource/camera/fastcapture/SelfiePhotoData;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

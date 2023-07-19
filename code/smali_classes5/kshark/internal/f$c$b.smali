@@ -19,7 +19,7 @@
 .field private final a:J
 
 .field private final b:Lkshark/d;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -28,7 +28,7 @@
 .method public constructor <init>(JLkshark/d;)V
     .locals 1
     .param p3    # Lkshark/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -59,7 +59,7 @@
 
 .method public c()Lkshark/d;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/f$c$b;->b:Lkshark/d;

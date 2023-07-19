@@ -22,6 +22,6 @@
 
 # virtual methods
 .method public abstract get(I)Lcotlin/text/h;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method

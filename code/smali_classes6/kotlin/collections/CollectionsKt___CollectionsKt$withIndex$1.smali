@@ -66,7 +66,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/collections/CollectionsKt___CollectionsKt$withIndex$1;->$this_withIndex:Ljava/lang/Iterable;

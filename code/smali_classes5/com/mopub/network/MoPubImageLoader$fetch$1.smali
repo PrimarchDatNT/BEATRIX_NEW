@@ -38,7 +38,7 @@
 .method public onErrorResponse(Lcom/mopub/volley/VolleyError;)V
     .locals 1
     .param p1    # Lcom/mopub/volley/VolleyError;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -58,7 +58,7 @@
 .method public onResponse(Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;Z)V
     .locals 1
     .param p1    # Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

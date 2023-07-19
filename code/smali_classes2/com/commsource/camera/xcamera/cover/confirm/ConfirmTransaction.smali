@@ -13,7 +13,7 @@
 
 # instance fields
 .field private final J:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -22,12 +22,12 @@
 .field private final c:Lcotlin/w;
 
 .field private final d:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private f:Landroid/app/Dialog;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -348,7 +348,7 @@
 # virtual methods
 .method public final F()Lcom/commsource/beautyplus/m0/a;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8c74
@@ -370,7 +370,7 @@
 
 .method public final G()Landroid/app/Dialog;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8c75
@@ -386,7 +386,7 @@
 
 .method public final H()Lcom/commsource/widget/s0;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8c79
@@ -437,7 +437,7 @@
 .method public final K(Landroid/app/Dialog;)V
     .locals 1
     .param p1    # Landroid/app/Dialog;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -455,7 +455,7 @@
 .method public c(Landroid/view/View;)V
     .locals 2
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -520,7 +520,7 @@
 .method public e(IILandroid/content/Intent;)V
     .locals 0
     .param p3    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -536,7 +536,7 @@
 .method public g(Lcom/commsource/beautyplus/router/RouterEntity;)V
     .locals 2
     .param p1    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

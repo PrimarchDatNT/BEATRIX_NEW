@@ -72,7 +72,7 @@
 .method public b(JLcotlinx/coroutines/m;)V
     .locals 2
     .param p3    # Lcotlinx/coroutines/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -99,7 +99,7 @@
 .method public l(JLcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -113,7 +113,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/u0$a;->a(Lcotlinx/coroutines/u0;JLcotlin/coroutines/c;)Ljava/lang/Object;
@@ -126,10 +126,10 @@
 .method public q(JLjava/lang/Runnable;)Lcotlinx/coroutines/f1;
     .locals 1
     .param p3    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/t3/a$b;->f:Lcotlinx/coroutines/t3/a;
@@ -147,7 +147,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -176,11 +176,11 @@
 .method public u(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Runnable;)V
     .locals 0
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -85,11 +85,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1044,7 +1044,7 @@
 .method public final A(Lcotlin/jvm/u/l;)V
     .locals 2
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1104,7 +1104,7 @@
 .method public final E(Ljava/lang/Integer;Z)V
     .locals 9
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1269,7 +1269,7 @@
 .method public final F(Lcotlin/jvm/u/a;)V
     .locals 4
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1595,7 +1595,7 @@
 .method public final q(Lcotlin/jvm/u/l;)V
     .locals 3
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1652,7 +1652,7 @@
 .method public final r(Lcotlin/jvm/u/l;)V
     .locals 2
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1730,7 +1730,7 @@
 .method public final setColorList(Ljava/util/List;)V
     .locals 2
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1774,7 +1774,7 @@
 .method public final setImage(Landroid/graphics/Bitmap;)V
     .locals 2
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1888,7 +1888,7 @@
 .method public final v(Lcotlin/jvm/u/a;)V
     .locals 4
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1948,10 +1948,10 @@
 .method public final x(Lcom/commsource/studio/sub/BaseSubTabFragment;)Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
     .locals 2
     .param p1    # Lcom/commsource/studio/sub/BaseSubTabFragment;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x514b

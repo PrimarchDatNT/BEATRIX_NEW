@@ -24,14 +24,14 @@
 
 # static fields
 .field public static final Companion:Lcom/mopub/network/MoPubResponse$Companion;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 
 # instance fields
 .field private moPubNetworkError:Lcom/mopub/network/MoPubNetworkError;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -42,7 +42,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -141,7 +141,7 @@
 .method public static final error(Lcom/mopub/network/MoPubNetworkError;)Lcom/mopub/network/MoPubResponse;
     .locals 1
     .param p0    # Lcom/mopub/network/MoPubNetworkError;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -159,7 +159,7 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcom/mopub/network/MoPubResponse;->Companion:Lcom/mopub/network/MoPubResponse$Companion;
@@ -190,11 +190,11 @@
 .method public static final success(Ljava/lang/Object;Lcom/mopub/network/MoPubNetworkResponse;)Lcom/mopub/network/MoPubResponse;
     .locals 1
     .param p0    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcom/mopub/network/MoPubNetworkResponse;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -212,7 +212,7 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcom/mopub/network/MoPubResponse;->Companion:Lcom/mopub/network/MoPubResponse$Companion;
@@ -228,7 +228,7 @@
 # virtual methods
 .method public final getMoPubNetworkError()Lcom/mopub/network/MoPubNetworkError;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubResponse;->moPubNetworkError:Lcom/mopub/network/MoPubNetworkError;
@@ -244,7 +244,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubResponse;->moPubResult:Ljava/lang/Object;
@@ -262,7 +262,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubResponse;->volleyResponse:Lcom/mopub/volley/Response;

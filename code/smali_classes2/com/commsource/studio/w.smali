@@ -25,7 +25,7 @@
 .field private b:F
 
 .field private final c:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -48,12 +48,12 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final f:Landroid/graphics/Paint;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -148,7 +148,7 @@
 .method public final b([Lcom/commsource/studio/x;)V
     .locals 10
     .param p1    # [Lcom/commsource/studio/x;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -397,7 +397,7 @@
 .method public final d(Landroid/graphics/Canvas;)V
     .locals 7
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -530,7 +530,7 @@
         .annotation runtime Lcom/commsource/studio/text/b$c;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2318
@@ -556,7 +556,7 @@
 
 .method public final f()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2315
@@ -581,7 +581,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2316
@@ -601,7 +601,7 @@
         .annotation runtime Lcom/commsource/studio/text/b$c;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2319
@@ -674,7 +674,7 @@
 
 .method public final j()Landroid/graphics/Paint;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2317

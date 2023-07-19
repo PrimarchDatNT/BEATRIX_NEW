@@ -136,7 +136,7 @@
 .method public static final d(Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;)[Ljava/lang/String;
     .locals 7
     .param p0    # Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/g;
@@ -147,7 +147,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$getSpilledVariableFieldMapping"
@@ -238,7 +238,7 @@
 .method public static final e(Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;)Ljava/lang/StackTraceElement;
     .locals 4
     .param p0    # Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/g;
@@ -249,7 +249,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$getStackTraceElementImpl"

@@ -72,7 +72,7 @@
 .method public final invoke(Lcom/commsource/studio/bean/FocusLayerInfo;)V
     .locals 4
     .param p1    # Lcom/commsource/studio/bean/FocusLayerInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

@@ -43,79 +43,79 @@
 .field private final C0:Lcom/commsource/camera/f1/l;
 
 .field private final D0:Lcom/commsource/studio/MatrixBox;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final E0:Lcom/commsource/studio/MatrixBox;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final F0:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final G0:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final H0:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final I0:[F
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private J:Landroid/graphics/Matrix;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private J0:I
 
 .field private final K:Lcom/commsource/studio/MatrixBox;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final K0:Lcom/commsource/camera/f1/n;
 
 .field private final L:Lcom/commsource/studio/MatrixBox;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final L0:Lcom/commsource/camera/f1/n;
 
 .field private final M:Lcom/commsource/studio/MatrixBox;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final M0:Lcom/commsource/camera/f1/n;
 
 .field private final N:Lcom/commsource/studio/MatrixBox;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final N0:Lcom/commsource/camera/f1/n;
 
 .field private O:[F
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final O0:Lcom/commsource/camera/f1/l;
 
 .field private P:Lcom/commsource/studio/c;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -128,12 +128,12 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private Q:Lcom/commsource/studio/c;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -142,17 +142,17 @@
 .field private R:[Lcom/commsource/studio/c;
 
 .field private final S:Lcom/commsource/studio/MatrixBox;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final T:Lcom/commsource/studio/MatrixBox;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final U:Lcom/commsource/studio/MatrixBox;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -161,37 +161,37 @@
 .field private W:I
 
 .field private a:Lcom/commsource/studio/i0;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final a0:Landroid/graphics/Rect;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private b:Landroid/graphics/drawable/Drawable;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final b0:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final c:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final c0:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private d:Landroid/graphics/Bitmap;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -200,7 +200,7 @@
 .field private final e0:Landroid/graphics/Paint;
 
 .field private f:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -209,7 +209,7 @@
 .field private g:Z
 
 .field private final g0:Landroid/graphics/Path;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -220,43 +220,43 @@
 .field private final j0:Landroid/graphics/Paint;
 
 .field private final k0:Landroid/graphics/PorterDuffXfermode;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final l0:Landroid/graphics/Paint;
 
 .field private m0:Lcom/commsource/studio/function/composition/CompositionView$AdjustEnum;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private n0:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private o0:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private p:Z
 
 .field private final p0:[F
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private q0:Z
 
 .field private final r0:Lcom/commsource/studio/i;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final s0:Lcom/commsource/camera/f1/n;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -355,7 +355,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 6
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -381,11 +381,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 6
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -411,11 +411,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 12
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -1355,7 +1355,7 @@
 .method public final A(Landroid/graphics/Canvas;)V
     .locals 16
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1987,10 +1987,10 @@
 .method public final B(Landroid/view/MotionEvent;)Lcom/commsource/studio/function/composition/CompositionView$AdjustEnum;
     .locals 4
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2628
@@ -2852,19 +2852,19 @@
 .method public final I(Ljava/lang/Float;ZZLcom/commsource/studio/bean/d;Lcom/commsource/studio/MatrixBox;Landroid/graphics/RectF;)V
     .locals 4
     .param p1    # Ljava/lang/Float;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p4    # Lcom/commsource/studio/bean/d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p6    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3003,7 +3003,7 @@
 .method public final K(Lcotlin/jvm/u/a;)V
     .locals 12
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3663,7 +3663,7 @@
 
 .method public final getAdjustMatrix()Lcom/commsource/studio/MatrixBox;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2626
@@ -3679,7 +3679,7 @@
 
 .method public final getBitmap()Landroid/graphics/Bitmap;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x25ee
@@ -3695,7 +3695,7 @@
 
 .method public final getBitmapChangeMatrixBox()Lcom/commsource/studio/MatrixBox;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2606
@@ -3711,7 +3711,7 @@
 
 .method public final getBitmapOriginChangeMatrixBox()Lcom/commsource/studio/MatrixBox;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2605
@@ -3727,7 +3727,7 @@
 
 .method public final getBitmapRectF()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x25f0
@@ -3743,7 +3743,7 @@
 
 .method public final getBpGestureDetector()Lcom/commsource/studio/i;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x261f
@@ -3759,7 +3759,7 @@
 
 .method public final getCalCenterPoint()[F
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x25fc
@@ -3789,7 +3789,7 @@
 
 .method public final getCanvasChangeMatrixBox()Lcom/commsource/studio/MatrixBox;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x25fa
@@ -3805,7 +3805,7 @@
 
 .method public final getCanvasInitMatrixBox()Lcom/commsource/studio/MatrixBox;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x25f9
@@ -3821,7 +3821,7 @@
 
 .method public final getChangeBeforeRectF()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x262e
@@ -3837,7 +3837,7 @@
 
 .method public final getCurrentFocusAdjustBar()Lcom/commsource/studio/function/composition/CompositionView$AdjustEnum;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2616
@@ -3853,7 +3853,7 @@
 
 .method public final getDoubleGestureTempFloatArray()[F
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x261c
@@ -3869,7 +3869,7 @@
 
 .method public final getDownTempRectF()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2618
@@ -3885,7 +3885,7 @@
 
 .method public final getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x25f8
@@ -3901,7 +3901,7 @@
 
 .method public final getDrawable()Landroid/graphics/drawable/Drawable;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x25ea
@@ -3917,7 +3917,7 @@
 
 .method public final getFlipMatrix()Landroid/graphics/Matrix;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x25f6
@@ -3933,7 +3933,7 @@
 
 .method public final getGridAlphaValuer()Lcom/commsource/camera/f1/n;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2620
@@ -3963,7 +3963,7 @@
 
 .method public final getHandMaskCropRectF()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x25ec
@@ -3979,7 +3979,7 @@
 
 .method public final getHorizontalAlignCondition()Lcom/commsource/studio/c;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x25fe
@@ -3995,7 +3995,7 @@
 
 .method public final getMaskCoordinateChangeMatrixBox()Lcom/commsource/studio/MatrixBox;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2604
@@ -4011,7 +4011,7 @@
 
 .method public final getMaskCoordinateInitMatrixBox()Lcom/commsource/studio/MatrixBox;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x25fb
@@ -4027,7 +4027,7 @@
 
 .method public final getMaskCropRectF()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x260d
@@ -4043,7 +4043,7 @@
 
 .method public final getMaskOriginRectF()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x260c
@@ -4059,7 +4059,7 @@
 
 .method public final getMaterial()Lcom/commsource/studio/i0;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x25e8
@@ -4075,7 +4075,7 @@
 
 .method public final getMoveTempRectF()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x261a
@@ -4091,7 +4091,7 @@
 
 .method public final getOriginRect()Landroid/graphics/Rect;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x260b
@@ -4107,7 +4107,7 @@
 
 .method public final getPath()Landroid/graphics/Path;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x260e
@@ -4123,7 +4123,7 @@
 
 .method public final getPositionMatrix()Lcom/commsource/studio/MatrixBox;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2625
@@ -4148,7 +4148,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2636
@@ -4164,7 +4164,7 @@
 
 .method public final getTempRectF()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x262d
@@ -4180,7 +4180,7 @@
 
 .method public final getValidAchorPoint()[F
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x262f
@@ -4196,7 +4196,7 @@
 
 .method public final getVerticalAlignCondition()Lcom/commsource/studio/c;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2600
@@ -4226,7 +4226,7 @@
 
 .method public final getViewLimitRectF()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x262c
@@ -4274,7 +4274,7 @@
 
 .method public final getXfermode()Landroid/graphics/PorterDuffXfermode;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x260f
@@ -4291,7 +4291,7 @@
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 9
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4636,7 +4636,7 @@
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 2
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4662,7 +4662,7 @@
 .method public final setBitmap(Landroid/graphics/Bitmap;)V
     .locals 1
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -4680,7 +4680,7 @@
 .method public final setBitmapRectF(Landroid/graphics/RectF;)V
     .locals 2
     .param p1    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4702,7 +4702,7 @@
 .method public final setCalCenterPoint([F)V
     .locals 2
     .param p1    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4738,7 +4738,7 @@
 .method public final setCurrentFocusAdjustBar(Lcom/commsource/studio/function/composition/CompositionView$AdjustEnum;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/function/composition/CompositionView$AdjustEnum;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -4756,7 +4756,7 @@
 .method public final setDownTempRectF(Landroid/graphics/RectF;)V
     .locals 2
     .param p1    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4778,7 +4778,7 @@
 .method public final setDrawable(Landroid/graphics/drawable/Drawable;)V
     .locals 1
     .param p1    # Landroid/graphics/drawable/Drawable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -4796,7 +4796,7 @@
 .method public final setFlipMatrix(Landroid/graphics/Matrix;)V
     .locals 2
     .param p1    # Landroid/graphics/Matrix;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4846,7 +4846,7 @@
 .method public final setHorizontalAlignCondition(Lcom/commsource/studio/c;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4882,7 +4882,7 @@
 .method public final setMaterial(Lcom/commsource/studio/i0;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/i0;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -4900,7 +4900,7 @@
 .method public final setMoveTempRectF(Landroid/graphics/RectF;)V
     .locals 2
     .param p1    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4922,7 +4922,7 @@
 .method public final setRestoreEndAction(Lcotlin/jvm/u/a;)V
     .locals 1
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -4948,7 +4948,7 @@
 .method public final setVerticalAlignCondition(Lcom/commsource/studio/c;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4998,7 +4998,7 @@
 .method public final u(Lcom/commsource/studio/i0;Z)V
     .locals 8
     .param p1    # Lcom/commsource/studio/i0;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -5593,7 +5593,7 @@
 .method public final w([FFFF)Z
     .locals 4
     .param p1    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -5638,14 +5638,14 @@
 .method public final x([F[FFF)Landroid/graphics/RectF;
     .locals 5
     .param p1    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2629
@@ -5760,7 +5760,7 @@
 .method public final y([F)V
     .locals 2
     .param p1    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

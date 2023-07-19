@@ -18,14 +18,14 @@
 
 .method public abstract d(Ljava/lang/Thread;)V
     .param p1    # Ljava/lang/Thread;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method
 
 .method public abstract e(Ljava/lang/Object;J)V
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method
@@ -38,10 +38,10 @@
 
 .method public abstract h(Ljava/lang/Runnable;)Ljava/lang/Runnable;
     .param p1    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 

@@ -18,7 +18,7 @@
 .method public static final c(Ljava/util/concurrent/TimeUnit;)Ljava/lang/String;
     .locals 1
     .param p0    # Ljava/util/concurrent/TimeUnit;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/i2/j;
@@ -28,7 +28,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$shortName"

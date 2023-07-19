@@ -58,7 +58,7 @@
 
 .method public final invoke()Lkshark/m$b$c$c;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HprofHeapGraph$readInstanceDumpRecord$1;->this$0:Lkshark/HprofHeapGraph;

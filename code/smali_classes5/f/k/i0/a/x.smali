@@ -25,7 +25,7 @@
 # virtual methods
 .method public abstract D1(Lcom/commsource/studio/formula/JsFormula;)V
     .param p1    # Lcom/commsource/studio/formula/JsFormula;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -34,7 +34,7 @@
 
 .method public abstract Y1(Lcom/commsource/studio/formula/JsFormula;)V
     .param p1    # Lcom/commsource/studio/formula/JsFormula;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -55,7 +55,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -73,20 +73,20 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract d(Ljava/lang/String;)Lcom/commsource/studio/formula/JsFormula;
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
         value = "select * from FORMULA_MATERIAL_DUFFLE where FormulaId = :key"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
@@ -104,13 +104,13 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract l1([Lcom/commsource/studio/formula/JsFormula;)V
     .param p1    # [Lcom/commsource/studio/formula/JsFormula;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -120,7 +120,7 @@
 
 .method public abstract q2(Lcom/commsource/studio/formula/JsFormula;)V
     .param p1    # Lcom/commsource/studio/formula/JsFormula;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -130,7 +130,7 @@
 
 .method public abstract v0([Lcom/commsource/studio/formula/JsFormula;)V
     .param p1    # [Lcom/commsource/studio/formula/JsFormula;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -139,7 +139,7 @@
 
 .method public abstract z([Lcom/commsource/studio/formula/JsFormula;)V
     .param p1    # [Lcom/commsource/studio/formula/JsFormula;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;

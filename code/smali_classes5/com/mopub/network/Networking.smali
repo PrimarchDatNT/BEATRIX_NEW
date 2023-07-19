@@ -12,19 +12,19 @@
 .field private static final DEFAULT_USER_AGENT:Ljava/lang/String;
 
 .field public static final INSTANCE:Lcom/mopub/network/Networking;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private static volatile imageLoader:Lcom/mopub/network/MoPubImageLoader;
 
 .field private static volatile requestQueue:Lcom/mopub/network/MoPubRequestQueue;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private static urlRewriter:Lcom/mopub/network/MoPubUrlRewriter;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -127,7 +127,7 @@
 
 .method public static final getCachedUserAgent()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcom/mopub/network/Networking;->userAgent:Ljava/lang/String;
@@ -154,13 +154,13 @@
 .method public static final getImageLoader(Landroid/content/Context;)Lcom/mopub/network/MoPubImageLoader;
     .locals 4
     .param p0    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "context"
@@ -237,7 +237,7 @@
     .annotation runtime Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     sget-object v0, Lcom/mopub/network/Networking;->requestQueue:Lcom/mopub/network/MoPubRequestQueue;
@@ -248,13 +248,13 @@
 .method public static final getRequestQueue(Landroid/content/Context;)Lcom/mopub/network/MoPubRequestQueue;
     .locals 6
     .param p0    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "context"
@@ -392,7 +392,7 @@
 
 .method public static final getScheme()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "https"
@@ -410,7 +410,7 @@
 
 .method public static final getUrlRewriter()Lcom/mopub/network/MoPubUrlRewriter;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     sget-object v0, Lcom/mopub/network/Networking;->urlRewriter:Lcom/mopub/network/MoPubUrlRewriter;
@@ -429,13 +429,13 @@
 .method public static final getUserAgent(Landroid/content/Context;)Ljava/lang/String;
     .locals 4
     .param p0    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "context"
@@ -531,7 +531,7 @@
 .method public static final declared-synchronized setImageLoaderForTesting(Lcom/mopub/network/MoPubImageLoader;)V
     .locals 1
     .param p0    # Lcom/mopub/network/MoPubImageLoader;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcom/mopub/common/VisibleForTesting;
@@ -564,7 +564,7 @@
 .method public static final declared-synchronized setRequestQueueForTesting(Lcom/mopub/network/MoPubRequestQueue;)V
     .locals 1
     .param p0    # Lcom/mopub/network/MoPubRequestQueue;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcom/mopub/common/VisibleForTesting;
@@ -597,7 +597,7 @@
 .method public static final setUrlRewriter(Lcom/mopub/network/MoPubUrlRewriter;)V
     .locals 0
     .param p0    # Lcom/mopub/network/MoPubUrlRewriter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -609,7 +609,7 @@
 .method public static final declared-synchronized setUserAgentForTesting(Ljava/lang/String;)V
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcom/mopub/common/VisibleForTesting;

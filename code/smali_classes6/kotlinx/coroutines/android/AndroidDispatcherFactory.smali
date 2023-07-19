@@ -22,7 +22,7 @@
 # virtual methods
 .method public a()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "For tests Dispatchers.setMain from kotlinx-coroutines-test module can be used"
@@ -51,7 +51,7 @@
 .method public d(Ljava/util/List;)Lcotlinx/coroutines/android/HandlerContext;
     .locals 2
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -65,7 +65,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance p1, Lcotlinx/coroutines/android/HandlerContext;

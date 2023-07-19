@@ -60,17 +60,17 @@
 .field private B:[F
 
 .field private C:Lcom/commsource/studio/layer/BaseLayer;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final a:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final b:[Lcom/commsource/studio/b$b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -87,19 +87,19 @@
 .field private h:Z
 
 .field private final i:[Lcom/commsource/studio/b$b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final j:[Lcom/commsource/studio/b$b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private k:Z
 
 .field private l:Lcom/commsource/studio/b$b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -188,7 +188,7 @@
 .method public constructor <init>(Lcom/commsource/studio/layer/BaseLayer;)V
     .locals 5
     .param p1    # Lcom/commsource/studio/layer/BaseLayer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4624,7 +4624,7 @@
 .method private final l(Landroid/graphics/RectF;[F[F)V
     .locals 4
     .param p1    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -5824,7 +5824,7 @@
 # virtual methods
 .method public final A()[Lcom/commsource/studio/b$b;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4f96
@@ -5840,7 +5840,7 @@
 
 .method public final C()[Lcom/commsource/studio/b$b;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4f97
@@ -5856,7 +5856,7 @@
 
 .method public final D()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4f88
@@ -5872,7 +5872,7 @@
 
 .method public final E()Lcom/commsource/studio/b$b;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4f9a
@@ -5987,11 +5987,11 @@
 .method public final S(Ljava/lang/Float;Ljava/lang/Float;FF)V
     .locals 5
     .param p1    # Ljava/lang/Float;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Float;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -6086,7 +6086,7 @@
 .method public final V(Lcom/commsource/studio/layer/BaseLayer;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/layer/BaseLayer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -6316,7 +6316,7 @@
 .method public final b0(Lcom/commsource/studio/b$b;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/b$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -6380,11 +6380,11 @@
 .method public final j(Lcom/commsource/studio/bean/FocusLayerInfo;Ljava/util/List;)V
     .locals 3
     .param p1    # Lcom/commsource/studio/bean/FocusLayerInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -6495,7 +6495,7 @@
 
 .method public final v()[Lcom/commsource/studio/b$b;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4f89
@@ -6511,7 +6511,7 @@
 
 .method public final w()Lcom/commsource/studio/layer/BaseLayer;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4fc7
@@ -6528,11 +6528,11 @@
 .method public final z(Landroid/graphics/RectF;Landroid/graphics/RectF;)F
     .locals 9
     .param p1    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

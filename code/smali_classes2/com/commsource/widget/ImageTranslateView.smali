@@ -9,7 +9,7 @@
 
 # instance fields
 .field private a:Landroid/graphics/Bitmap;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -22,27 +22,27 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private c:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private d:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private f:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private g:Landroid/graphics/Paint;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -53,7 +53,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -71,11 +71,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -93,11 +93,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -314,7 +314,7 @@
 .method public final e(Lcotlin/jvm/u/a;)V
     .locals 4
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -369,7 +369,7 @@
 
 .method public final getAnimateRectF()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x94e8
@@ -394,7 +394,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x94e2
@@ -410,7 +410,7 @@
 
 .method public final getOriginRectF()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x94e4
@@ -426,7 +426,7 @@
 
 .method public final getPaint()Landroid/graphics/Paint;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x94ea
@@ -442,7 +442,7 @@
 
 .method public final getTargetBitmap()Landroid/graphics/Bitmap;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x94e0
@@ -458,7 +458,7 @@
 
 .method public final getTargetRectF()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x94e6
@@ -475,7 +475,7 @@
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 5
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -519,7 +519,7 @@
 .method public final setAnimateRectF(Landroid/graphics/RectF;)V
     .locals 2
     .param p1    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -541,7 +541,7 @@
 .method public final setFirstDrawCallback(Lcotlin/jvm/u/a;)V
     .locals 1
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -567,7 +567,7 @@
 .method public final setOriginRectF(Landroid/graphics/RectF;)V
     .locals 2
     .param p1    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -595,7 +595,7 @@
 .method public final setPaint(Landroid/graphics/Paint;)V
     .locals 2
     .param p1    # Landroid/graphics/Paint;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -617,7 +617,7 @@
 .method public final setTargetBitmap(Landroid/graphics/Bitmap;)V
     .locals 1
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -635,7 +635,7 @@
 .method public final setTargetRectF(Landroid/graphics/RectF;)V
     .locals 2
     .param p1    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

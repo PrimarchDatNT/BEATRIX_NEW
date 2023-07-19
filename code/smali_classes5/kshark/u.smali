@@ -31,7 +31,7 @@
 # virtual methods
 .method public abstract inspect(Lkshark/v;)V
     .param p1    # Lkshark/v;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

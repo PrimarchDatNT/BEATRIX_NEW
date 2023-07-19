@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -58,7 +58,7 @@
 .method public constructor <init>(Ljava/util/HashMap;Z)V
     .locals 1
     .param p1    # Ljava/util/HashMap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -115,7 +115,7 @@
 .method public final f(Landroidx/recyclerview/widget/RecyclerView;)V
     .locals 1
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -131,7 +131,7 @@
 .method public final g(Landroidx/recyclerview/widget/RecyclerView;)V
     .locals 1
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -168,7 +168,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/util/h1;->a:Ljava/util/HashMap;
@@ -256,7 +256,7 @@
 .method public final n(Ljava/util/HashMap;)V
     .locals 1
     .param p1    # Ljava/util/HashMap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -281,7 +281,7 @@
 .method public onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
     .locals 1
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -310,7 +310,7 @@
 .method public onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
     .locals 1
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

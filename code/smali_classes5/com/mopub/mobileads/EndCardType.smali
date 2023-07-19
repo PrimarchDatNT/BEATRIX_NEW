@@ -24,7 +24,7 @@
 .field private static final synthetic $VALUES:[Lcom/mopub/mobileads/EndCardType;
 
 .field public static final Companion:Lcom/mopub/mobileads/EndCardType$Companion;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -108,13 +108,13 @@
 .method public static final fromVastResourceType(Lcom/mopub/mobileads/VastResource$Type;)Lcom/mopub/mobileads/EndCardType;
     .locals 1
     .param p0    # Lcom/mopub/mobileads/VastResource$Type;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     sget-object v0, Lcom/mopub/mobileads/EndCardType;->Companion:Lcom/mopub/mobileads/EndCardType$Companion;

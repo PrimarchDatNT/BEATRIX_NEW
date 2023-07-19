@@ -154,7 +154,7 @@
 
 .method public e(I)Landroid/view/View;
     .locals 4
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3e0c

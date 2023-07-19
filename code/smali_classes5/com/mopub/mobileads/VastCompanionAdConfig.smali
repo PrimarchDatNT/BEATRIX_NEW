@@ -21,7 +21,7 @@
 
 # static fields
 .field public static final Companion:Lcom/mopub/mobileads/VastCompanionAdConfig$Companion;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -37,7 +37,7 @@
         value = "clickthrough_url"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -57,7 +57,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -77,7 +77,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -89,7 +89,7 @@
         value = "custom_cta_text"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -110,7 +110,7 @@
         value = "resource"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -142,23 +142,23 @@
 .method public constructor <init>(IILcom/mopub/mobileads/VastResource;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/String;)V
     .locals 1
     .param p3    # Lcom/mopub/mobileads/VastResource;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p6    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p7    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -213,7 +213,7 @@
 .method public final addClickTrackers(Ljava/util/Collection;)V
     .locals 1
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -240,7 +240,7 @@
 .method public final addCreativeViewTrackers(Ljava/util/Collection;)V
     .locals 1
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -334,7 +334,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -552,7 +552,7 @@
 
 .method public final getClickThroughUrl()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->clickThroughUrl:Ljava/lang/String;
@@ -571,7 +571,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->clickTrackers:Ljava/util/List;
@@ -590,7 +590,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->creativeViewTrackers:Ljava/util/List;
@@ -600,7 +600,7 @@
 
 .method public final getCustomCtaText()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->customCtaText:Ljava/lang/String;
@@ -618,7 +618,7 @@
 
 .method public final getVastResource()Lcom/mopub/mobileads/VastResource;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->vastResource:Lcom/mopub/mobileads/VastResource;
@@ -637,15 +637,15 @@
 .method public handleClick(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;)V
     .locals 6
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p4    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -783,7 +783,7 @@
 .method public final handleImpression(Landroid/content/Context;I)V
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -883,7 +883,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

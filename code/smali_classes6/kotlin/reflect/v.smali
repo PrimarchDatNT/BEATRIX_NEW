@@ -14,6 +14,6 @@
 
 # virtual methods
 .method public abstract getTypeName()Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method

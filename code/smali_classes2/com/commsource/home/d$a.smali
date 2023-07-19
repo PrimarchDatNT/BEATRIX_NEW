@@ -37,14 +37,14 @@
 .method public final a(Lcom/commsource/home/entity/d;Lcom/commsource/home/entity/ContentModule;)Ljava/lang/String;
     .locals 9
     .param p1    # Lcom/commsource/home/entity/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/home/entity/ContentModule;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x650a
@@ -277,10 +277,10 @@
 .method public final b(Lcom/commsource/home/entity/ContentModule;)Ljava/lang/String;
     .locals 3
     .param p1    # Lcom/commsource/home/entity/ContentModule;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6509

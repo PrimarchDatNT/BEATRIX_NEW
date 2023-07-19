@@ -82,11 +82,11 @@
 .method public final b(Lcom/commsource/widget/h1/d;Lcom/meitu/template/bean/StickerGroup;)V
     .locals 2
     .param p1    # Lcom/commsource/widget/h1/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/template/bean/StickerGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

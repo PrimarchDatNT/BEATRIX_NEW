@@ -26,7 +26,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -65,7 +65,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/AndroidObjectInspectors$DIALOG;->leakingObjectFilter:Lcotlin/jvm/u/l;
@@ -76,7 +76,7 @@
 .method public inspect(Lkshark/v;)V
     .locals 2
     .param p1    # Lkshark/v;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

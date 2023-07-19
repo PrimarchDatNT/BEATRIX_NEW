@@ -21,13 +21,13 @@
 
 # virtual methods
 .method public abstract getContext()Lcotlin/coroutines/CoroutineContext;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract resumeWith(Ljava/lang/Object;)V
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

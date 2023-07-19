@@ -39,7 +39,7 @@
 .field private R:Lcom/commsource/sharelink/ShareDialog;
 
 .field private S:Lcom/commsource/widget/s0;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -1460,7 +1460,7 @@
 .method public i0(Lcom/commsource/puzzle/patchedworld/t/a;IZ)V
     .locals 2
     .param p1    # Lcom/commsource/puzzle/patchedworld/t/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1624,7 +1624,7 @@
 
 .method protected final l1()Lcom/commsource/widget/s0;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x842e
@@ -1641,7 +1641,7 @@
 .method protected onActivityResult(IILandroid/content/Intent;)V
     .locals 2
     .param p3    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1700,7 +1700,7 @@
 .method public onClick(Landroid/view/View;)V
     .locals 2
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1780,7 +1780,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 2
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1832,7 +1832,7 @@
 .method public onKeyDown(ILandroid/view/KeyEvent;)Z
     .locals 2
     .param p2    # Landroid/view/KeyEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1928,7 +1928,7 @@
 .method public u(Lcom/commsource/puzzle/patchedworld/t/d;)V
     .locals 3
     .param p1    # Lcom/commsource/puzzle/patchedworld/t/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2030,7 +2030,7 @@
 .method protected final w1(Lcom/commsource/widget/s0;)V
     .locals 1
     .param p1    # Lcom/commsource/widget/s0;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

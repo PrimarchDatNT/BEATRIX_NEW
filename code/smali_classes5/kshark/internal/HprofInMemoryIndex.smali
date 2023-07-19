@@ -72,7 +72,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -333,10 +333,10 @@
 .method public final c(Ljava/lang/String;)Ljava/lang/Long;
     .locals 7
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "className"
@@ -483,7 +483,7 @@
 
 .method public final d(J)Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex;->c:Lkshark/internal/hppc/LongLongScatterMap;
@@ -514,7 +514,7 @@
 
 .method public final e(JJ)Ljava/lang/String;
     .locals 0
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-direct {p0, p3, p4}, Lkshark/internal/HprofInMemoryIndex;->h(J)Ljava/lang/String;
@@ -560,7 +560,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex;->h:Ljava/util/List;
@@ -579,7 +579,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex;->j:Ljava/util/Set;
@@ -600,7 +600,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex;->d:Lkshark/internal/SortedBytesMap;
@@ -633,7 +633,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex;->e:Lkshark/internal/SortedBytesMap;
@@ -666,7 +666,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex;->f:Lkshark/internal/SortedBytesMap;
@@ -688,7 +688,7 @@
 
 .method public final l(J)Lkshark/internal/d;
     .locals 7
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex;->d:Lkshark/internal/SortedBytesMap;
@@ -831,7 +831,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Lkshark/internal/HprofInMemoryIndex;->i()Lcotlin/sequences/m;
@@ -878,7 +878,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex;->g:Lkshark/internal/SortedBytesMap;

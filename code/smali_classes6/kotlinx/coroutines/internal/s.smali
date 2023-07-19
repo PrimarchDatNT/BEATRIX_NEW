@@ -81,7 +81,7 @@
 .method public static final d(Lcotlinx/coroutines/m2;)Z
     .locals 0
     .param p0    # Lcotlinx/coroutines/m2;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlinx/coroutines/y1;
@@ -94,7 +94,7 @@
 
 .method public static final e()Ljava/lang/Void;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/IllegalStateException;
@@ -109,11 +109,11 @@
 .method public static final f(Lcotlinx/coroutines/internal/MainDispatcherFactory;Ljava/util/List;)Lcotlinx/coroutines/m2;
     .locals 0
     .param p0    # Lcotlinx/coroutines/internal/MainDispatcherFactory;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -131,7 +131,7 @@
     .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     :try_start_0

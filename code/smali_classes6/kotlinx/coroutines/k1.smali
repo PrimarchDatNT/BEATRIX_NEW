@@ -860,7 +860,7 @@
 .method public b(JLcotlinx/coroutines/m;)V
     .locals 3
     .param p3    # Lcotlinx/coroutines/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -918,7 +918,7 @@
 .method public final d0(Ljava/lang/Runnable;)V
     .locals 1
     .param p1    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -956,7 +956,7 @@
 .method public final h0(JLcotlinx/coroutines/k1$c;)V
     .locals 2
     .param p3    # Lcotlinx/coroutines/k1$c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1011,10 +1011,10 @@
 .method protected final j0(JLjava/lang/Runnable;)Lcotlinx/coroutines/f1;
     .locals 3
     .param p3    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p1, p2}, Lcotlinx/coroutines/n1;->f(J)J
@@ -1065,7 +1065,7 @@
 .method public l(JLcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1079,7 +1079,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/u0$a;->a(Lcotlinx/coroutines/u0;JLcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1092,10 +1092,10 @@
 .method public q(JLjava/lang/Runnable;)Lcotlinx/coroutines/f1;
     .locals 0
     .param p3    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/u0$a;->b(Lcotlinx/coroutines/u0;JLjava/lang/Runnable;)Lcotlinx/coroutines/f1;
@@ -1140,11 +1140,11 @@
 .method public final u(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Runnable;)V
     .locals 0
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

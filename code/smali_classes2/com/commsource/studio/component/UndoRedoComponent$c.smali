@@ -28,7 +28,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -43,7 +43,7 @@
 .end field
 
 .field private c:Lcom/commsource/studio/v;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -52,7 +52,7 @@
 .method public constructor <init>(Landroid/app/Application;)V
     .locals 2
     .param p1    # Landroid/app/Application;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -192,7 +192,7 @@
 
 .method public final C()Lcom/commsource/studio/v;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x9c5a
@@ -219,7 +219,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9c59
@@ -298,7 +298,7 @@
 .method public final F(Lcom/commsource/studio/v;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/v;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -432,7 +432,7 @@
 .method public final y(Lcom/commsource/studio/v;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/v;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/UiThread;

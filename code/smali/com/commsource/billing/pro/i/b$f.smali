@@ -117,7 +117,7 @@
 .method public b(Lcom/meitu/global/billing/purchase/data/MTGPurchase;)V
     .locals 4
     .param p1    # Lcom/meitu/global/billing/purchase/data/MTGPurchase;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -189,7 +189,7 @@
 .method public d(Lcom/meitu/global/billing/purchase/data/MTGPurchase;)V
     .locals 5
     .param p1    # Lcom/meitu/global/billing/purchase/data/MTGPurchase;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

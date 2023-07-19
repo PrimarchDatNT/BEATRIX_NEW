@@ -48,7 +48,7 @@
 # virtual methods
 .method public final invoke()Landroid/view/WindowManager;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x616d

@@ -16,7 +16,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -72,7 +72,7 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/effect/k;->e:Ljava/lang/ref/WeakReference;
@@ -127,7 +127,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/effect/k;->e:Ljava/lang/ref/WeakReference;
@@ -162,7 +162,7 @@
 .method public final p(Ljava/lang/ref/WeakReference;)V
     .locals 0
     .param p1    # Ljava/lang/ref/WeakReference;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

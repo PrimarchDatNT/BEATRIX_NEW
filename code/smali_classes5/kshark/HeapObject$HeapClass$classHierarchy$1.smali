@@ -72,10 +72,10 @@
 .method public final invoke(Lkshark/HeapObject$HeapClass;)Lkshark/HeapObject$HeapClass;
     .locals 1
     .param p1    # Lkshark/HeapObject$HeapClass;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "it"

@@ -28,11 +28,11 @@
 .method public constructor <init>(Lcotlinx/coroutines/CoroutineDispatcher;Lcotlinx/coroutines/m;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/CoroutineDispatcher;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlinx/coroutines/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

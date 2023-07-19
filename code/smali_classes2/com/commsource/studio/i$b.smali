@@ -31,7 +31,7 @@
 .method public constructor <init>(Lcom/commsource/studio/i;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -55,7 +55,7 @@
 .method public handleMessage(Landroid/os/Message;)V
     .locals 5
     .param p1    # Landroid/os/Message;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

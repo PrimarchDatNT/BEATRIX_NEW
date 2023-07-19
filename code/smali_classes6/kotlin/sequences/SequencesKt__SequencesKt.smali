@@ -44,7 +44,7 @@
 .method public static h(Ljava/util/Iterator;)Lcotlin/sequences/m;
     .locals 1
     .param p0    # Ljava/util/Iterator;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -59,7 +59,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$asSequence"
@@ -80,7 +80,7 @@
 .method public static i(Lcotlin/sequences/m;)Lcotlin/sequences/m;
     .locals 1
     .param p0    # Lcotlin/sequences/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -95,7 +95,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$constrainOnce"
@@ -131,7 +131,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/sequences/g;->a:Lcotlin/sequences/g;
@@ -142,15 +142,15 @@
 .method public static final k(Lcotlin/sequences/m;Lcotlin/jvm/u/p;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
     .locals 2
     .param p0    # Lcotlin/sequences/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -177,7 +177,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "source"
@@ -208,7 +208,7 @@
 .method public static l(Lcotlin/sequences/m;)Lcotlin/sequences/m;
     .locals 1
     .param p0    # Lcotlin/sequences/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -225,7 +225,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$flatten"
@@ -286,7 +286,7 @@
 .method public static final n(Lcotlin/sequences/m;)Lcotlin/sequences/m;
     .locals 1
     .param p0    # Lcotlin/sequences/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -307,7 +307,7 @@
         name = "flattenSequenceOfIterable"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$flatten"
@@ -326,11 +326,11 @@
 .method public static o(Ljava/lang/Object;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
     .locals 2
     .param p0    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -348,7 +348,7 @@
     .annotation build Lcotlin/internal/g;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "nextFunction"
@@ -379,7 +379,7 @@
 .method public static p(Lcotlin/jvm/u/a;)Lcotlin/sequences/m;
     .locals 2
     .param p0    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -394,7 +394,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "nextFunction"
@@ -419,11 +419,11 @@
 .method public static q(Lcotlin/jvm/u/a;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
     .locals 1
     .param p0    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -440,7 +440,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "seedFunction"
@@ -461,11 +461,11 @@
 .method public static final r(Lcotlin/sequences/m;Lcotlin/jvm/u/a;)Lcotlin/sequences/m;
     .locals 2
     .param p0    # Lcotlin/sequences/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -488,7 +488,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$ifEmpty"
@@ -549,7 +549,7 @@
 .method public static final varargs t([Ljava/lang/Object;)Lcotlin/sequences/m;
     .locals 1
     .param p0    # [Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -562,7 +562,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "elements"
@@ -601,7 +601,7 @@
 .method public static final u(Lcotlin/sequences/m;)Lcotlin/sequences/m;
     .locals 1
     .param p0    # Lcotlin/sequences/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -620,7 +620,7 @@
         version = "1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$shuffled"
@@ -639,11 +639,11 @@
 .method public static final v(Lcotlin/sequences/m;Lcotlin/random/e;)Lcotlin/sequences/m;
     .locals 2
     .param p0    # Lcotlin/sequences/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/random/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -664,7 +664,7 @@
         version = "1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$shuffled"
@@ -691,7 +691,7 @@
 .method public static final w(Lcotlin/sequences/m;)Lcotlin/Pair;
     .locals 4
     .param p0    # Lcotlin/sequences/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -713,7 +713,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$unzip"

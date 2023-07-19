@@ -11,7 +11,7 @@
 .field private final g:Lcom/commsource/studio/shader/k;
 
 .field public h:Lcom/commsource/easyeditor/utils/opengl/f;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -46,7 +46,7 @@
 .method public final A(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 1
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -168,7 +168,7 @@
 
 .method public final w()Lcom/commsource/easyeditor/utils/opengl/f;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/r0/v;->h:Lcom/commsource/easyeditor/utils/opengl/f;
@@ -193,11 +193,11 @@
 
 .method public abstract y(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

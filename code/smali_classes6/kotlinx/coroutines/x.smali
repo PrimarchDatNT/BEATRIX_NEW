@@ -20,7 +20,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/CompletableDeferredImpl;
@@ -37,7 +37,7 @@
 .method public static final b(Lcotlinx/coroutines/c2;)Lcotlinx/coroutines/w;
     .locals 1
     .param p0    # Lcotlinx/coroutines/c2;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -52,7 +52,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/CompletableDeferredImpl;
@@ -82,11 +82,11 @@
 .method public static final d(Lcotlinx/coroutines/w;Ljava/lang/Object;)Z
     .locals 1
     .param p0    # Lcotlinx/coroutines/w;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

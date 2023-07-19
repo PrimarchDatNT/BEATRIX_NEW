@@ -9,22 +9,22 @@
 
 # instance fields
 .field private final a:Landroid/widget/FrameLayout;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private b:Lcom/commsource/video/view/XVideoRenderView;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final c:Landroid/widget/ImageView;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final d:Ljava/lang/Runnable;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -35,7 +35,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -53,11 +53,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 3
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -299,7 +299,7 @@
 .method public final c(Lcom/commsource/video/c;Z)V
     .locals 5
     .param p1    # Lcom/commsource/video/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -404,11 +404,11 @@
 .method public final e(Ljava/lang/String;Landroid/graphics/drawable/Drawable;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/graphics/drawable/Drawable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -458,7 +458,7 @@
 .method public final g(Lcom/commsource/video/view/XVideoContainer;)V
     .locals 3
     .param p1    # Lcom/commsource/video/view/XVideoContainer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -502,7 +502,7 @@
 
 .method public final getDismissCover()Ljava/lang/Runnable;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7b32
@@ -518,7 +518,7 @@
 
 .method public final getRenderContainer()Landroid/widget/FrameLayout;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7b2e
@@ -534,7 +534,7 @@
 
 .method public final getVideoCover()Landroid/widget/ImageView;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7b31
@@ -550,7 +550,7 @@
 
 .method public final getVideoRenderView()Lcom/commsource/video/view/XVideoRenderView;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7b2f
@@ -739,7 +739,7 @@
 .method public final setVideoRenderView(Lcom/commsource/video/view/XVideoRenderView;)V
     .locals 1
     .param p1    # Lcom/commsource/video/view/XVideoRenderView;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

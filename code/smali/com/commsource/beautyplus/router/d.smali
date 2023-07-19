@@ -10,10 +10,10 @@
 .method public static final a(Lcom/commsource/beautyplus/router/RouterEntity;)Ljava/lang/String;
     .locals 2
     .param p0    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x4b96
@@ -38,10 +38,10 @@
 .method public static final b(Lcom/commsource/beautyplus/router/RouterEntity;)Ljava/lang/String;
     .locals 2
     .param p0    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x4b95
@@ -66,10 +66,10 @@
 .method public static final c(Lcom/commsource/beautyplus/router/RouterEntity;)Ljava/lang/String;
     .locals 2
     .param p0    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x4b97
@@ -94,10 +94,10 @@
 .method public static final d(Lcom/commsource/beautyplus/router/RouterEntity;)Ljava/lang/String;
     .locals 2
     .param p0    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x4b98

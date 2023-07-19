@@ -65,7 +65,7 @@
 .method protected i([D)I
     .locals 1
     .param p1    # [D
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -80,7 +80,7 @@
 
 .method public final j()[D
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/jvm/internal/w;->d:[D

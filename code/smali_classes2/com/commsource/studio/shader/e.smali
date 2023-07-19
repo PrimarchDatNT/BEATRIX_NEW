@@ -18,7 +18,7 @@
 .field private m:I
 
 .field private final n:Lcom/commsource/studio/shader/e$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -39,7 +39,7 @@
 .method public constructor <init>(Lcom/commsource/studio/shader/e$a;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/shader/e$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -77,7 +77,7 @@
 # virtual methods
 .method public c()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3db1
@@ -177,7 +177,7 @@
 
 .method public final g()Lcom/commsource/studio/shader/e$a;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3db4

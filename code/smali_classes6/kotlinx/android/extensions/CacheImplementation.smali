@@ -24,12 +24,12 @@
 .field private static final synthetic $VALUES:[Lcotlinx/android/extensions/CacheImplementation;
 
 .field public static final Companion:Lcotlinx/android/extensions/CacheImplementation$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private static final DEFAULT:Lcotlinx/android/extensions/CacheImplementation;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 

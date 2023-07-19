@@ -17,12 +17,12 @@
 .field private static final T:I = -0x1
 
 .field public static final U:Ljava/lang/String; = "GROUP_ID"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final V:Ljava/lang/String; = "TARGET_GROUP_ID"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -1070,7 +1070,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 2
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

@@ -42,7 +42,7 @@
 .field private l:Landroid/graphics/Paint;
 
 .field private final m:Lcom/commsource/store/XDownloadButton;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -51,7 +51,7 @@
 .method public constructor <init>(Lcom/commsource/store/XDownloadButton;)V
     .locals 3
     .param p1    # Lcom/commsource/store/XDownloadButton;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -565,7 +565,7 @@
 # virtual methods
 .method public final A(I)Lcom/commsource/store/XDownloadButton$Executer;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x37b9
@@ -627,7 +627,7 @@
         .annotation runtime Lcom/commsource/store/a;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x37c0    # 2.0E-41f
@@ -656,7 +656,7 @@
 
 .method public final G(I)Lcom/commsource/store/XDownloadButton$Executer;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x37bf    # 1.9998E-41f
@@ -698,7 +698,7 @@
 
 .method public final n(I)Lcom/commsource/store/XDownloadButton$Executer;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x37ba    # 1.9991E-41f
@@ -737,10 +737,10 @@
 .method public final o(Ljava/lang/String;FF)Lcom/commsource/store/XDownloadButton$Executer;
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x37bb    # 1.9992E-41f
@@ -809,10 +809,10 @@
 .method public final q(Ljava/lang/String;FF)Lcom/commsource/store/XDownloadButton$Executer;
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x37bd    # 1.9995E-41f
@@ -1058,7 +1058,7 @@
 
 .method public final t()Lcom/commsource/store/XDownloadButton;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x37c4    # 2.0005E-41f
@@ -1102,7 +1102,7 @@
 
 .method public final w(Z)Lcom/commsource/store/XDownloadButton$Executer;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x37c1    # 2.0001E-41f
@@ -1136,7 +1136,7 @@
         .annotation runtime Lcom/commsource/store/b;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x37c2    # 2.0002E-41f

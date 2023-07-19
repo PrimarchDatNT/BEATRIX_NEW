@@ -53,10 +53,10 @@
 .method public final a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
     .locals 3
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2e2a
@@ -112,10 +112,10 @@
 .method public final b(Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
     .locals 7
     .param p1    # Lcom/meitu/core/types/NativeBitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2e25
@@ -229,14 +229,14 @@
 .method public final c(Landroid/graphics/Bitmap;Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;I)Landroid/graphics/Bitmap;
     .locals 2
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2e2b
@@ -292,14 +292,14 @@
 .method public final d(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;I)Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
     .locals 8
     .param p1    # Lcom/meitu/core/types/NativeBitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
@@ -439,10 +439,10 @@
 .method public final e(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
     .locals 3
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2e29
@@ -504,10 +504,10 @@
 .method public final f(Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
     .locals 7
     .param p1    # Lcom/meitu/core/types/NativeBitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2e24
@@ -621,10 +621,10 @@
 .method public final g(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
     .locals 3
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2e2b
@@ -686,10 +686,10 @@
 .method public final h(Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
     .locals 7
     .param p1    # Lcom/meitu/core/types/NativeBitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2e26
@@ -803,10 +803,10 @@
 .method public final i(Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
     .locals 7
     .param p1    # Lcom/meitu/core/types/NativeBitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2e27
@@ -934,10 +934,10 @@
 .method public final k(Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;)Landroid/graphics/Bitmap;
     .locals 10
     .param p1    # Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2e2d
@@ -1029,7 +1029,7 @@
 .method public final l(Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;)I
     .locals 2
     .param p1    # Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

@@ -38,7 +38,7 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -46,7 +46,7 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -55,11 +55,11 @@
 .method public constructor <init>(Lcotlinx/coroutines/selects/b;Lcotlinx/coroutines/internal/b;)V
     .locals 2
     .param p1    # Lcotlinx/coroutines/selects/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlinx/coroutines/internal/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -204,11 +204,11 @@
 .method public d(Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -232,10 +232,10 @@
 .method public h(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     if-nez p1, :cond_0
@@ -273,7 +273,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

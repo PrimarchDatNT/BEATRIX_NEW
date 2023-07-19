@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -47,7 +47,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -56,7 +56,7 @@
 .method public constructor <init>(Lcotlin/coroutines/c;)V
     .locals 1
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -98,7 +98,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->b:Ljava/util/ArrayList;
@@ -109,11 +109,11 @@
 .method public b(Lcotlinx/coroutines/selects/c;Lcotlin/jvm/u/l;)V
     .locals 2
     .param p1    # Lcotlinx/coroutines/selects/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -150,7 +150,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->a:Lcotlinx/coroutines/selects/b;
@@ -161,7 +161,7 @@
 .method public final d(Ljava/lang/Throwable;)V
     .locals 1
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p0;
@@ -179,7 +179,7 @@
     .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->a:Lcotlinx/coroutines/selects/b;
@@ -240,11 +240,11 @@
 .method public f(Lcotlinx/coroutines/selects/e;Ljava/lang/Object;Lcotlin/jvm/u/p;)V
     .locals 2
     .param p1    # Lcotlinx/coroutines/selects/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -279,7 +279,7 @@
 .method public j(JLcotlin/jvm/u/l;)V
     .locals 2
     .param p3    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -308,11 +308,11 @@
 .method public n(Lcotlinx/coroutines/selects/e;Lcotlin/jvm/u/p;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/selects/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -341,11 +341,11 @@
 .method public x(Lcotlinx/coroutines/selects/d;Lcotlin/jvm/u/p;)V
     .locals 2
     .param p1    # Lcotlinx/coroutines/selects/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

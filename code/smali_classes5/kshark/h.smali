@@ -8,17 +8,17 @@
 
 # instance fields
 .field private final a:Lkshark/HeapObject$HeapClass;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final b:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final c:Lkshark/j;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -27,15 +27,15 @@
 .method public constructor <init>(Lkshark/HeapObject$HeapClass;Ljava/lang/String;Lkshark/j;)V
     .locals 1
     .param p1    # Lkshark/HeapObject$HeapClass;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lkshark/j;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -66,7 +66,7 @@
 # virtual methods
 .method public final a()Lkshark/HeapObject$HeapClass;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/h;->a:Lkshark/HeapObject$HeapClass;
@@ -76,7 +76,7 @@
 
 .method public final b()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/h;->b:Ljava/lang/String;
@@ -86,7 +86,7 @@
 
 .method public final c()Lkshark/j;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/h;->c:Lkshark/j;
@@ -96,7 +96,7 @@
 
 .method public final d()Lkshark/HeapObject$HeapClass;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/h;->c:Lkshark/j;
@@ -122,7 +122,7 @@
 
 .method public final e()Lkshark/HeapObject$HeapInstance;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/h;->c:Lkshark/j;
@@ -148,7 +148,7 @@
 
 .method public final f()Lkshark/HeapObject$HeapObjectArray;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/h;->c:Lkshark/j;
@@ -174,7 +174,7 @@
 
 .method public final g()Lkshark/HeapObject$b;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/h;->c:Lkshark/j;

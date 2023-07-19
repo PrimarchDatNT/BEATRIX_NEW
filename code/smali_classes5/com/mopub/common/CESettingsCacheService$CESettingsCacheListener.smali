@@ -18,7 +18,7 @@
 # virtual methods
 .method public abstract onHashReceived(Ljava/lang/String;)V
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/b;
@@ -27,7 +27,7 @@
 
 .method public abstract onSettingsReceived(Lcom/mopub/mobileads/CreativeExperienceSettings;)V
     .param p1    # Lcom/mopub/mobileads/CreativeExperienceSettings;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/b;

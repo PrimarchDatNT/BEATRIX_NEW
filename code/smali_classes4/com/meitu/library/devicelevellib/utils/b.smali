@@ -14,7 +14,7 @@
 .method public static final a(Ljava/lang/String;)Ljava/util/List;
     .locals 13
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -28,7 +28,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xb923
@@ -183,7 +183,7 @@
 .method public static final b(Lorg/json/JSONArray;)Ljava/util/List;
     .locals 5
     .param p0    # Lorg/json/JSONArray;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -197,7 +197,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xb924

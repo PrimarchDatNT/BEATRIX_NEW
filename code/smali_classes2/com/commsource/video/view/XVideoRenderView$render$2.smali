@@ -53,7 +53,7 @@
 # virtual methods
 .method public final invoke()Lcom/commsource/video/render/RenderTextureView;
     .locals 5
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9caf

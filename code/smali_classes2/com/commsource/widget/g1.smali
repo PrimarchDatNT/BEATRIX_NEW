@@ -8,7 +8,7 @@
 
 # instance fields
 .field private final a:Lcom/commsource/widget/XSeekBar;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -17,7 +17,7 @@
 .method public constructor <init>(Lcom/commsource/widget/XSeekBar;)V
     .locals 1
     .param p1    # Lcom/commsource/widget/XSeekBar;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -39,7 +39,7 @@
 
 .method public final b()Lcom/commsource/widget/XSeekBar;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/widget/g1;->a:Lcom/commsource/widget/XSeekBar;
@@ -49,7 +49,7 @@
 
 .method public abstract c(Landroid/graphics/Canvas;)V
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

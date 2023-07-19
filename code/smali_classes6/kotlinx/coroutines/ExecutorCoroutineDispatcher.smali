@@ -45,7 +45,7 @@
 
 # virtual methods
 .method public abstract A()Ljava/util/concurrent/Executor;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 

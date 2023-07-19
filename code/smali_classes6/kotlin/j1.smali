@@ -41,7 +41,7 @@
 .field public static final f:I = 0x40
 
 .field public static final g:Lcotlin/j1$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -802,7 +802,7 @@
 
 .method public static q0(J)Ljava/lang/String;
     .locals 0
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlin/v1;->k(J)Ljava/lang/String;
@@ -982,7 +982,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-wide v0, p0, Lcotlin/j1;->a:J

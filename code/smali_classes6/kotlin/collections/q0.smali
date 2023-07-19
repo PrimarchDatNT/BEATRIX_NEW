@@ -17,7 +17,7 @@
 .method public static bridge synthetic B0(Ljava/lang/Iterable;)Ljava/util/Map;
     .locals 0
     .param p0    # Ljava/lang/Iterable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -36,7 +36,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Lcotlin/collections/t0;->B0(Ljava/lang/Iterable;)Ljava/util/Map;
@@ -49,7 +49,7 @@
 .method public static bridge synthetic K(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
     .param p0    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -78,7 +78,7 @@
 .method public static bridge varargs synthetic W([Lcotlin/Pair;)Ljava/util/Map;
     .locals 0
     .param p0    # [Lcotlin/Pair;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -95,7 +95,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Lcotlin/collections/t0;->W([Lcotlin/Pair;)Ljava/util/Map;
@@ -108,11 +108,11 @@
 .method public static bridge synthetic c(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 0
     .param p0    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -135,7 +135,7 @@
         name = "withDefaultMutable"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlin/collections/r0;->c(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
@@ -160,11 +160,11 @@
 .method public static bridge synthetic o0(Ljava/util/Map;Lcotlin/Pair;)Ljava/util/Map;
     .locals 0
     .param p0    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/Pair;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -183,7 +183,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlin/collections/t0;->o0(Ljava/util/Map;Lcotlin/Pair;)Ljava/util/Map;
@@ -196,7 +196,7 @@
 .method public static bridge synthetic q(Ljava/util/Map;)Ljava/util/SortedMap;
     .locals 0
     .param p0    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -213,7 +213,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Lcotlin/collections/s0;->q(Ljava/util/Map;)Ljava/util/SortedMap;
@@ -237,7 +237,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lcotlin/collections/t0;->z()Ljava/util/Map;

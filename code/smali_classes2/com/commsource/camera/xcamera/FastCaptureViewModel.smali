@@ -19,12 +19,12 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private c:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -37,7 +37,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -48,7 +48,7 @@
 .method public constructor <init>(Landroid/app/Application;)V
     .locals 2
     .param p1    # Landroid/app/Application;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -120,7 +120,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8259
@@ -145,7 +145,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8256
@@ -230,7 +230,7 @@
 .method public final F(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/fastcapture/SelfiePhotoData;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -262,7 +262,7 @@
 .method public final y(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
     .locals 2
     .param p1    # Lcom/commsource/camera/fastcapture/SelfiePhotoData;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -285,7 +285,7 @@
 
 .method public final z()Lcom/commsource/camera/fastcapture/SelfiePhotoData;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8257

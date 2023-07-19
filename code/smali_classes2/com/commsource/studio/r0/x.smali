@@ -11,17 +11,17 @@
 .field private g:Z
 
 .field private final h:Lcom/meitu/core/MTRtEffectFaceData;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private i:Lcom/meitu/core/MTRtEffectRender;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private j:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -30,7 +30,7 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -66,7 +66,7 @@
 .method public final A(Lcom/meitu/core/MTRtEffectRender;)V
     .locals 2
     .param p1    # Lcom/meitu/core/MTRtEffectRender;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -241,7 +241,7 @@
 .method public C(Lcom/commsource/camera/d1/g/j;)V
     .locals 3
     .param p1    # Lcom/commsource/camera/d1/g/j;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -299,7 +299,7 @@
 .method public final D(Lcom/commsource/camera/d1/g/k;)V
     .locals 3
     .param p1    # Lcom/commsource/camera/d1/g/k;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -338,7 +338,7 @@
 .method public final E(Lcom/commsource/camera/d1/g/r;)V
     .locals 5
     .param p1    # Lcom/commsource/camera/d1/g/r;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -522,7 +522,7 @@
 .method public k(Lcom/meitu/library/renderarch/arch/data/b/d;)V
     .locals 9
     .param p1    # Lcom/meitu/library/renderarch/arch/data/b/d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -590,7 +590,7 @@
 
 .method public final u()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x69c6
@@ -606,7 +606,7 @@
 
 .method public final v()Lcom/meitu/core/MTRtEffectFaceData;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x69bb
@@ -622,7 +622,7 @@
 
 .method public final w()Lcom/meitu/core/MTRtEffectRender;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x69bc
@@ -653,7 +653,7 @@
 .method public final y(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

@@ -53,7 +53,7 @@
         name = "CategoryId"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -109,7 +109,7 @@
         value = "file"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -142,7 +142,7 @@
         value = "icon"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -158,7 +158,7 @@
         value = "m_id"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -193,7 +193,7 @@
         value = "name"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -256,7 +256,7 @@
     .annotation build Landroidx/room/Ignore;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -294,7 +294,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -347,7 +347,7 @@
 
 .method public final getCategoryId()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7dfd
@@ -447,7 +447,7 @@
 
 .method public final getFile()Lcom/commsource/repository/FileObject;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7de1
@@ -491,7 +491,7 @@
 
 .method public final getIcon()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7ddd
@@ -507,7 +507,7 @@
 
 .method public final getId()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7ddb
@@ -565,7 +565,7 @@
 
 .method public final getName()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7ddf
@@ -665,7 +665,7 @@
 
 .method public final getParam()Lcom/commsource/studio/doodle/DoodleMaterial$DoodleParam;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7e0d
@@ -783,7 +783,7 @@
 
 .method public final getUrl()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7e10
@@ -1025,7 +1025,7 @@
 .method public onCompareLocal(Lcom/commsource/studio/doodle/DoodleMaterial;)Z
     .locals 9
     .param p1    # Lcom/commsource/studio/doodle/DoodleMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1344,7 +1344,7 @@
 .method public onSortCompare(Lcom/commsource/studio/doodle/DoodleMaterial;)I
     .locals 2
     .param p1    # Lcom/commsource/studio/doodle/DoodleMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1427,7 +1427,7 @@
 .method public final setCategoryId(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1529,7 +1529,7 @@
 .method public final setFile(Lcom/commsource/repository/FileObject;)V
     .locals 1
     .param p1    # Lcom/commsource/repository/FileObject;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1575,7 +1575,7 @@
 .method public final setIcon(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1593,7 +1593,7 @@
 .method public final setId(Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1657,7 +1657,7 @@
 .method public final setName(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1759,7 +1759,7 @@
 .method public final setParam(Lcom/commsource/studio/doodle/DoodleMaterial$DoodleParam;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/doodle/DoodleMaterial$DoodleParam;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1804,7 +1804,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7e18

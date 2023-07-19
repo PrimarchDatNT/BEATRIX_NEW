@@ -30,7 +30,7 @@
 
 # static fields
 .field public static final Companion:Lcotlin/SafePublicationLazyImpl$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -92,7 +92,7 @@
 .method public constructor <init>(Lcotlin/jvm/u/a;)V
     .locals 1
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -203,7 +203,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Lcotlin/SafePublicationLazyImpl;->isInitialized()Z

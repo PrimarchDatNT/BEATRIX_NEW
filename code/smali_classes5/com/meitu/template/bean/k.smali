@@ -9,32 +9,32 @@
 
 # instance fields
 .field private a:Lcom/meitu/template/bean/Filter;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private b:Lcom/meitu/template/bean/Filter;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private c:Lcom/commsource/camera/param/MakeupParam;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private d:Lcom/commsource/camera/param/MakeupParam;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private e:Lcom/commsource/camera/lookwheel/StyleEffectDegree;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private f:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -48,7 +48,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -61,7 +61,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -74,19 +74,19 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private j:I
 
 .field private k:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final l:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -97,7 +97,7 @@
 .method public constructor <init>(Ljava/lang/String;Z)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -128,7 +128,7 @@
 # virtual methods
 .method public final a()Lcom/meitu/template/bean/k;
     .locals 6
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa3e6
@@ -254,7 +254,7 @@
 
 .method public final b()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa3e3
@@ -270,7 +270,7 @@
 
 .method public final c()Lcom/commsource/camera/param/MakeupParam;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa3d3
@@ -286,7 +286,7 @@
 
 .method public final d()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa3d9
@@ -302,7 +302,7 @@
 
 .method public final e()Lcom/commsource/camera/lookwheel/StyleEffectDegree;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa3d7
@@ -318,7 +318,7 @@
 
 .method public final f()Lcom/commsource/camera/param/MakeupParam;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa3d5
@@ -334,7 +334,7 @@
 
 .method public final g()Lcom/meitu/template/bean/Filter;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa3d1
@@ -399,7 +399,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa3df
@@ -424,7 +424,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa3dd
@@ -450,7 +450,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa3db
@@ -466,7 +466,7 @@
 
 .method public final m()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa3e7
@@ -482,7 +482,7 @@
 
 .method public final n()Lcom/meitu/template/bean/Filter;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa3cf
@@ -513,7 +513,7 @@
 .method public final p(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -531,7 +531,7 @@
 .method public final q(Lcom/commsource/camera/param/MakeupParam;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/param/MakeupParam;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -549,7 +549,7 @@
 .method public final r(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -567,7 +567,7 @@
 .method public final s(Lcom/commsource/camera/lookwheel/StyleEffectDegree;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/lookwheel/StyleEffectDegree;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -585,7 +585,7 @@
 .method public final t(Lcom/commsource/camera/param/MakeupParam;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/param/MakeupParam;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -603,7 +603,7 @@
 .method public final u(Lcom/meitu/template/bean/Filter;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -635,7 +635,7 @@
 .method public final w(Landroid/util/SparseArray;)V
     .locals 2
     .param p1    # Landroid/util/SparseArray;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -665,7 +665,7 @@
 .method public final x(Landroid/util/SparseArray;)V
     .locals 1
     .param p1    # Landroid/util/SparseArray;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -691,7 +691,7 @@
 .method public final y(Ljava/util/HashMap;)V
     .locals 1
     .param p1    # Ljava/util/HashMap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -718,7 +718,7 @@
 .method public final z(Lcom/meitu/template/bean/Filter;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

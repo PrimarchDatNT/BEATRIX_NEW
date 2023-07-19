@@ -48,7 +48,7 @@
 # virtual methods
 .method public final invoke()Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupVerticalFragment$colorListener$2$a;
     .locals 6
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5073

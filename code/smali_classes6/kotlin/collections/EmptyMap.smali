@@ -13,7 +13,7 @@
 
 # static fields
 .field public static final INSTANCE:Lcotlin/collections/EmptyMap;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -66,7 +66,7 @@
 .method public containsKey(Ljava/lang/Object;)Z
     .locals 0
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -99,7 +99,7 @@
 .method public containsValue(Ljava/lang/Void;)Z
     .locals 1
     .param p1    # Ljava/lang/Void;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -133,7 +133,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -173,10 +173,10 @@
 .method public get(Ljava/lang/Object;)Ljava/lang/Void;
     .locals 0
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/4 p1, 0x0
@@ -195,7 +195,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/collections/EmptySet;->INSTANCE:Lcotlin/collections/EmptySet;
@@ -214,7 +214,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/collections/EmptySet;->INSTANCE:Lcotlin/collections/EmptySet;
@@ -232,7 +232,7 @@
 
 .method public getValues()Ljava/util/Collection;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/collections/EmptyList;->INSTANCE:Lcotlin/collections/EmptyList;
@@ -334,7 +334,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "{}"

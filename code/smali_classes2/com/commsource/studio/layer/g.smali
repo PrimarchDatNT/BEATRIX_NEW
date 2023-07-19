@@ -8,7 +8,7 @@
 
 # instance fields
 .field private final N:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -17,11 +17,11 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -44,7 +44,7 @@
 # virtual methods
 .method public b0()Lcom/commsource/studio/i$c;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x89e
@@ -62,7 +62,7 @@
 
 .method public c0()Landroid/view/View;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x89c
@@ -85,11 +85,11 @@
 .method public p(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V
     .locals 2
     .param p1    # Landroidx/lifecycle/ViewModelStoreOwner;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -114,7 +114,7 @@
 
 .method public final p0()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x89f

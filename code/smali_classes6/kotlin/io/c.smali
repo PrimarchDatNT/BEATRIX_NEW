@@ -281,7 +281,7 @@
 
 .method public static final v()Ljava/lang/String;
     .locals 4
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     sget-object v0, Lcotlin/io/m;->i:Lcotlin/io/m;

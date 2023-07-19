@@ -26,7 +26,7 @@
 .field public static final c:I = 0xa8
 
 .field public static final d:Ljava/lang/String; = "EXTRA_IMAGE"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -35,7 +35,7 @@
 
 # instance fields
 .field private final a:Landroid/content/Intent;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -49,7 +49,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -78,11 +78,11 @@
 .method public constructor <init>(Landroid/content/Intent;Lcotlin/jvm/u/l;)V
     .locals 1
     .param p1    # Landroid/content/Intent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -119,7 +119,7 @@
 .method public a(IILandroid/content/Intent;)Z
     .locals 2
     .param p3    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -180,7 +180,7 @@
 .method public b(Lcom/commsource/util/p2/a;)V
     .locals 3
     .param p1    # Lcom/commsource/util/p2/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -215,7 +215,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5d55
@@ -231,7 +231,7 @@
 
 .method public final e()Landroid/content/Intent;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5d54

@@ -49,7 +49,7 @@
 .method protected onHandleIntent(Landroid/content/Intent;)V
     .locals 7
     .param p1    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

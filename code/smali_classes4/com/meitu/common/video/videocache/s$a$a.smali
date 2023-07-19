@@ -84,10 +84,10 @@
 .method public newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
     .locals 3
     .param p1    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xf24f

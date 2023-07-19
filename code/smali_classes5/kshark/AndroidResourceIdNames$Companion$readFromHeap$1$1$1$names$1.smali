@@ -72,10 +72,10 @@
 .method public final invoke(Lkshark/j;)Ljava/lang/String;
     .locals 1
     .param p1    # Lkshark/j;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "it"

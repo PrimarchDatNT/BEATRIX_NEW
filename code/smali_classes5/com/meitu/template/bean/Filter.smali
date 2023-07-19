@@ -76,7 +76,7 @@
     .annotation build Landroidx/room/Ignore;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -116,7 +116,7 @@
         value = "config_file"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -132,7 +132,7 @@
         value = "m_id"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -140,7 +140,7 @@
     .annotation build Landroidx/room/Ignore;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -153,7 +153,7 @@
         value = "name"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -166,7 +166,7 @@
         value = "old_name"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -189,7 +189,7 @@
         value = "inner_image"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -208,7 +208,7 @@
         value = "image"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -243,7 +243,7 @@
     .annotation build Landroidx/room/Ignore;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -251,7 +251,7 @@
     .annotation build Landroidx/room/Ignore;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -340,7 +340,7 @@
 .method public constructor <init>(ILjava/lang/String;)V
     .locals 1
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -372,11 +372,11 @@
 .method public constructor <init>(ILjava/lang/String;Ljava/lang/String;I)V
     .locals 1
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -461,7 +461,7 @@
 # virtual methods
 .method public final alphaToString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1d3c
@@ -538,7 +538,7 @@
 
 .method public clone()Ljava/lang/Object;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1d39
@@ -556,7 +556,7 @@
 
 .method public final copy(I)Lcom/meitu/template/bean/Filter;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1d3a
@@ -592,7 +592,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -703,7 +703,7 @@
 
 .method public final getConfigPath()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1d18
@@ -775,7 +775,7 @@
 
 .method public final getFilterFileUrl()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1cf6
@@ -805,7 +805,7 @@
 
 .method public final getFilterInfo()Lcom/commsource/camera/xcamera/bean/FilterInfo;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1d28
@@ -821,7 +821,7 @@
 
 .method public final getFilterName(Z)Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1d2e
@@ -868,7 +868,7 @@
 
 .method public final getFilterNewName()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1cee
@@ -884,7 +884,7 @@
 
 .method public final getFilterOldName()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1cf0
@@ -914,7 +914,7 @@
 
 .method public final getFilterShopThumbnail()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1cf2
@@ -944,7 +944,7 @@
 
 .method public final getFilterStatisticCategoryId()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1d2d
@@ -992,7 +992,7 @@
 
 .method public final getFilterStatisticId()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1d2c
@@ -1022,7 +1022,7 @@
 
 .method public final getFilterThumbnail()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1cec
@@ -1066,7 +1066,7 @@
 
 .method public final getLookName()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1d20
@@ -1082,7 +1082,7 @@
 
 .method public final getMaterialPath()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1d16
@@ -1590,7 +1590,7 @@
 .method public onCompareLocal(Lcom/meitu/template/bean/Filter;)Z
     .locals 6
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1887,7 +1887,7 @@
 .method public onSortCompare(Lcom/meitu/template/bean/Filter;)I
     .locals 2
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2037,7 +2037,7 @@
 .method public final setConfigPath(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2125,7 +2125,7 @@
 .method public final setFilterFileUrl(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2157,7 +2157,7 @@
 .method public final setFilterInfo(Lcom/commsource/camera/xcamera/bean/FilterInfo;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/bean/FilterInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2175,7 +2175,7 @@
 .method public final setFilterNewName(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2193,7 +2193,7 @@
 .method public final setFilterOldName(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2225,7 +2225,7 @@
 .method public final setFilterShopThumbnail(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2257,7 +2257,7 @@
 .method public final setFilterThumbnail(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2303,7 +2303,7 @@
 .method public final setLookName(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2335,7 +2335,7 @@
 .method public final setMaterialPath(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2464,7 +2464,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1d32

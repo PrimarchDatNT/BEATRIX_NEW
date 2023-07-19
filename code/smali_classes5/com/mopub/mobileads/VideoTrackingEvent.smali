@@ -30,7 +30,7 @@
 .field public static final enum COMPLETE:Lcom/mopub/mobileads/VideoTrackingEvent;
 
 .field public static final Companion:Lcom/mopub/mobileads/VideoTrackingEvent$Companion;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -47,7 +47,7 @@
 
 # instance fields
 .field private final value:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -234,7 +234,7 @@
 # virtual methods
 .method public final getValue()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VideoTrackingEvent;->value:Ljava/lang/String;

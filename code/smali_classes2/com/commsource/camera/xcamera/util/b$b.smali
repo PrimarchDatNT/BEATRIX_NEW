@@ -65,7 +65,7 @@
 .method public c(Lcom/commsource/camera/xcamera/bean/b;)V
     .locals 0
     .param p1    # Lcom/commsource/camera/xcamera/bean/b;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -81,7 +81,7 @@
 .method public d(Lokhttp3/Response;)Z
     .locals 3
     .param p1    # Lokhttp3/Response;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

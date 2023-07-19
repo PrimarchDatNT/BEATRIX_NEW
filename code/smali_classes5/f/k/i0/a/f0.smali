@@ -25,7 +25,7 @@
 # virtual methods
 .method public abstract O0(Lcom/commsource/repository/child/makeup/e;)V
     .param p1    # Lcom/commsource/repository/child/makeup/e;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -46,7 +46,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -64,20 +64,20 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract c(Ljava/lang/Integer;)Lcom/commsource/repository/child/makeup/e;
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
         value = "select * from makeup_group where id = :key"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -95,13 +95,13 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method public abstract f2([Lcom/commsource/repository/child/makeup/e;)V
     .param p1    # [Lcom/commsource/repository/child/makeup/e;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -110,7 +110,7 @@
 
 .method public abstract j1([Lcom/commsource/repository/child/makeup/e;)V
     .param p1    # [Lcom/commsource/repository/child/makeup/e;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -119,7 +119,7 @@
 
 .method public abstract m2([Lcom/commsource/repository/child/makeup/e;)V
     .param p1    # [Lcom/commsource/repository/child/makeup/e;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -129,7 +129,7 @@
 
 .method public abstract n3(Lcom/commsource/repository/child/makeup/e;)V
     .param p1    # Lcom/commsource/repository/child/makeup/e;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -139,7 +139,7 @@
 
 .method public abstract t1(Lcom/commsource/repository/child/makeup/e;)V
     .param p1    # Lcom/commsource/repository/child/makeup/e;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;

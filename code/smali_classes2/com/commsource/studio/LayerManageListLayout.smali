@@ -43,17 +43,17 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private K:Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private L:Lcom/commsource/studio/bean/GroupLayerInfo;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -71,7 +71,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -86,7 +86,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -101,22 +101,22 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private P:Lcom/commsource/studio/r;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private Q:Lcom/commsource/studio/g0;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private R:Lcom/commsource/studio/bean/BaseLayerInfo;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -142,7 +142,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -156,7 +156,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -169,7 +169,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -240,7 +240,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -258,11 +258,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -280,11 +280,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1440,7 +1440,7 @@
 .method public final A(Lcom/commsource/studio/bean/GroupLayerInfo;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/bean/GroupLayerInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1460,7 +1460,7 @@
 .method public final B(Ljava/util/List;)V
     .locals 12
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1817,7 +1817,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3800
@@ -1833,7 +1833,7 @@
 
 .method public final getCurrentDragLayerInfoItem()Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3808
@@ -1849,7 +1849,7 @@
 
 .method public final getCurrentFocusLayerInfo()Lcom/commsource/studio/bean/BaseLayerInfo;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3816
@@ -1874,7 +1874,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3806
@@ -1890,7 +1890,7 @@
 
 .method public final getDragLayerListener()Lcom/commsource/studio/r;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3812
@@ -1916,7 +1916,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3810
@@ -1942,7 +1942,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x380e
@@ -1971,7 +1971,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x380c
@@ -1996,7 +1996,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3804
@@ -2052,7 +2052,7 @@
 
 .method public final getMultiSelectGroupLayerInfo()Lcom/commsource/studio/bean/GroupLayerInfo;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x380a
@@ -2068,7 +2068,7 @@
 
 .method public final getOnLayoutChildListener()Lcom/commsource/studio/g0;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3814
@@ -2108,7 +2108,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3802
@@ -2139,7 +2139,7 @@
 .method public onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 2
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2207,7 +2207,7 @@
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 2
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Ld/a/a;
@@ -2311,7 +2311,7 @@
 .method public final s(Lcom/commsource/studio/bean/BaseLayerInfo;Z)V
     .locals 3
     .param p1    # Lcom/commsource/studio/bean/BaseLayerInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2391,7 +2391,7 @@
 .method public final setContainerItemFrames(Ljava/util/HashMap;)V
     .locals 2
     .param p1    # Ljava/util/HashMap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2422,7 +2422,7 @@
 .method public final setCurrentDragLayerInfoItem(Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2440,7 +2440,7 @@
 .method public final setCurrentFocusLayerInfo(Lcom/commsource/studio/bean/BaseLayerInfo;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/bean/BaseLayerInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2458,7 +2458,7 @@
 .method public final setDataInfoList(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2485,7 +2485,7 @@
 .method public final setDragLayerListener(Lcom/commsource/studio/r;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/r;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2503,7 +2503,7 @@
 .method public final setLayerInfoClickListener(Lcotlin/jvm/u/l;)V
     .locals 1
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2531,7 +2531,7 @@
 .method public final setLayerInfoDeleteListener(Lcotlin/jvm/u/l;)V
     .locals 1
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2559,7 +2559,7 @@
 .method public final setLayerInfosChangeListener(Lcotlin/jvm/u/l;)V
     .locals 1
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2590,7 +2590,7 @@
 .method public final setLayoutInfoList(Ljava/util/ArrayList;)V
     .locals 2
     .param p1    # Ljava/util/ArrayList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2634,7 +2634,7 @@
 .method public final setMultiSelectGroupLayerInfo(Lcom/commsource/studio/bean/GroupLayerInfo;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/bean/GroupLayerInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2652,7 +2652,7 @@
 .method public final setOnLayoutChildListener(Lcom/commsource/studio/g0;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/g0;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2684,7 +2684,7 @@
 .method public final setSelected(Lcom/commsource/studio/bean/BaseLayerInfo;)V
     .locals 5
     .param p1    # Lcom/commsource/studio/bean/BaseLayerInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2842,7 +2842,7 @@
 .method public final setThumbnailItemFrames(Ljava/util/HashMap;)V
     .locals 2
     .param p1    # Ljava/util/HashMap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

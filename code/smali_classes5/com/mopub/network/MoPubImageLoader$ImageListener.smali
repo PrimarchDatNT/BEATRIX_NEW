@@ -30,7 +30,7 @@
 # virtual methods
 .method public abstract onResponse(Lcom/mopub/network/MoPubImageLoader$ImageContainer;Z)V
     .param p1    # Lcom/mopub/network/MoPubImageLoader$ImageContainer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

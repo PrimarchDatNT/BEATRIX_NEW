@@ -8,7 +8,7 @@
 
 # instance fields
 .field private final p:Ljava/lang/Thread;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -17,7 +17,7 @@
 .method public constructor <init>(Ljava/lang/Thread;)V
     .locals 0
     .param p1    # Ljava/lang/Thread;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -32,7 +32,7 @@
 # virtual methods
 .method protected S()Ljava/lang/Thread;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/e;->p:Ljava/lang/Thread;

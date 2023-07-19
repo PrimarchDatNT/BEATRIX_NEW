@@ -41,7 +41,7 @@
 .end field
 
 .field private f0:Lcom/commsource/studio/effect/remold/b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -755,7 +755,7 @@
 
 .method public K1()Lcom/commsource/studio/effect/remold/b;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x87d3
@@ -930,7 +930,7 @@
 .method public N1(Lcom/commsource/studio/effect/remold/b;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/effect/remold/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -952,11 +952,11 @@
 .method public V(Lcom/commsource/studio/effect/k;Landroid/graphics/Bitmap;Z)V
     .locals 2
     .param p1    # Lcom/commsource/studio/effect/k;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1054,18 +1054,18 @@
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 11
     .param p1    # Landroid/view/LayoutInflater;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/view/ViewGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const p2, 0x87d7
@@ -1292,11 +1292,11 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 7
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

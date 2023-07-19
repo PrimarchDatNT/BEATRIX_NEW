@@ -44,7 +44,7 @@
 .method public static Y(Ljava/lang/Iterable;I)I
     .locals 1
     .param p0    # Ljava/lang/Iterable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -81,7 +81,7 @@
 .method public static final Z(Ljava/lang/Iterable;)Ljava/lang/Integer;
     .locals 1
     .param p0    # Ljava/lang/Iterable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -98,7 +98,7 @@
     .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$collectionSizeOrNull"
@@ -131,7 +131,7 @@
 .method public static a0(Ljava/lang/Iterable;)Ljava/util/Collection;
     .locals 2
     .param p0    # Ljava/lang/Iterable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -146,7 +146,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$convertToSetForSetOperation"
@@ -199,11 +199,11 @@
 .method public static final b0(Ljava/lang/Iterable;Ljava/lang/Iterable;)Ljava/util/Collection;
     .locals 1
     .param p0    # Ljava/lang/Iterable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/Iterable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -220,7 +220,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$convertToSetForSetOperationWith"
@@ -296,7 +296,7 @@
 .method public static final c0(Ljava/lang/Iterable;)Ljava/util/List;
     .locals 2
     .param p0    # Ljava/lang/Iterable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -313,7 +313,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$flatten"
@@ -387,7 +387,7 @@
 .method public static final e0(Ljava/lang/Iterable;)Lcotlin/Pair;
     .locals 4
     .param p0    # Ljava/lang/Iterable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -409,7 +409,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$unzip"

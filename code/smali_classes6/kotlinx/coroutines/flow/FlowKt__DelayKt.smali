@@ -11,7 +11,7 @@
 .method public static final a(Lcotlinx/coroutines/flow/d;J)Lcotlinx/coroutines/flow/d;
     .locals 3
     .param p0    # Lcotlinx/coroutines/flow/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -29,7 +29,7 @@
     .annotation build Lcotlinx/coroutines/t1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-wide/16 v0, 0x0
@@ -77,7 +77,7 @@
 .method public static final b(Lcotlinx/coroutines/flow/d;D)Lcotlinx/coroutines/flow/d;
     .locals 0
     .param p0    # Lcotlinx/coroutines/flow/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -98,7 +98,7 @@
     .annotation build Lcotlinx/coroutines/t1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p1, p2}, Lcotlinx/coroutines/v0;->d(D)J
@@ -115,7 +115,7 @@
 .method public static final c(Lcotlinx/coroutines/m0;JJ)Lcotlinx/coroutines/channels/y;
     .locals 10
     .param p0    # Lcotlinx/coroutines/m0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -129,7 +129,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/4 v0, 0x1
@@ -277,7 +277,7 @@
 .method public static final e(Lcotlinx/coroutines/flow/d;J)Lcotlinx/coroutines/flow/d;
     .locals 3
     .param p0    # Lcotlinx/coroutines/flow/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -295,7 +295,7 @@
     .annotation build Lcotlinx/coroutines/t1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-wide/16 v0, 0x0
@@ -343,7 +343,7 @@
 .method public static final f(Lcotlinx/coroutines/flow/d;D)Lcotlinx/coroutines/flow/d;
     .locals 0
     .param p0    # Lcotlinx/coroutines/flow/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -364,7 +364,7 @@
     .annotation build Lcotlinx/coroutines/t1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p1, p2}, Lcotlinx/coroutines/v0;->d(D)J

@@ -12,7 +12,7 @@
 
 # static fields
 .field public static final a:Lcotlin/sequences/g;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -62,7 +62,7 @@
 
 .method public c(I)Lcotlin/sequences/g;
     .locals 0
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object p1, Lcotlin/sequences/g;->a:Lcotlin/sequences/g;
@@ -72,7 +72,7 @@
 
 .method public d(I)Lcotlin/sequences/g;
     .locals 0
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object p1, Lcotlin/sequences/g;->a:Lcotlin/sequences/g;
@@ -82,7 +82,7 @@
 
 .method public iterator()Ljava/util/Iterator;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/collections/c0;->a:Lcotlin/collections/c0;

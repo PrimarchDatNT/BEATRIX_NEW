@@ -10,11 +10,11 @@
 .method public static final a(Lcotlinx/coroutines/m;Ljava/util/concurrent/Future;)V
     .locals 1
     .param p0    # Lcotlinx/coroutines/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/concurrent/Future;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -39,11 +39,11 @@
 .method public static final b(Lcotlinx/coroutines/c2;Ljava/util/concurrent/Future;)Lcotlinx/coroutines/f1;
     .locals 1
     .param p0    # Lcotlinx/coroutines/c2;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/concurrent/Future;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -59,7 +59,7 @@
     .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/j;

@@ -937,11 +937,11 @@
 .method public final j([BIIILkshark/internal/i/a;)V
     .locals 17
     .param p1    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p5    # Lkshark/internal/i/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1106,11 +1106,11 @@
 .method public final k([BILkshark/internal/i/a;)V
     .locals 7
     .param p1    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lkshark/internal/i/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -9,7 +9,7 @@
 
 # instance fields
 .field private i:Lcom/commsource/studio/bean/f;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -157,7 +157,7 @@
 
 .method public final s()Lcom/commsource/studio/bean/f;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x9d2d
@@ -174,7 +174,7 @@
 .method public final u(Lcom/commsource/studio/bean/f;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/bean/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

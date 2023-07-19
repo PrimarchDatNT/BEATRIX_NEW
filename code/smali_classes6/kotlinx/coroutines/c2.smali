@@ -35,7 +35,7 @@
 # virtual methods
 .method public abstract I(Lcotlin/coroutines/c;)Ljava/lang/Object;
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -49,30 +49,30 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method public abstract T()Lcotlinx/coroutines/selects/c;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract X(Lcotlinx/coroutines/u;)Lcotlinx/coroutines/s;
     .param p1    # Lcotlinx/coroutines/u;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract synthetic a(Ljava/lang/Throwable;)Z
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -93,7 +93,7 @@
 
 .method public abstract d(Ljava/util/concurrent/CancellationException;)V
     .param p1    # Ljava/util/concurrent/CancellationException;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 .end method
@@ -114,13 +114,13 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract o(ZZLcotlin/jvm/u/l;)Lcotlinx/coroutines/f1;
     .param p3    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -138,7 +138,7 @@
     .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -146,7 +146,7 @@
     .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -155,7 +155,7 @@
 
 .method public abstract y(Lcotlinx/coroutines/c2;)Lcotlinx/coroutines/c2;
     .param p1    # Lcotlinx/coroutines/c2;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -163,13 +163,13 @@
         message = "Operator \'+\' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`."
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract z(Lcotlin/jvm/u/l;)Lcotlinx/coroutines/f1;
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -184,6 +184,6 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method

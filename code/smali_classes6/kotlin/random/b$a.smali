@@ -36,7 +36,7 @@
 # virtual methods
 .method protected a()Ljava/util/Random;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/util/Random;

@@ -68,7 +68,7 @@
 .method public final invoke(Lcom/commsource/camera/r0$c;)V
     .locals 4
     .param p1    # Lcom/commsource/camera/r0$c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

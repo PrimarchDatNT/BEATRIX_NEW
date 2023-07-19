@@ -8,17 +8,17 @@
 
 # instance fields
 .field private final a:Landroid/graphics/Rect;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final b:Landroid/graphics/Rect;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private c:Landroid/view/View;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -198,7 +198,7 @@
 .method public final b(Landroid/graphics/Rect;)V
     .locals 4
     .param p1    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -241,7 +241,7 @@
 
 .method public final d()Landroid/view/View;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8cff
@@ -257,7 +257,7 @@
 
 .method public final e()Landroid/graphics/Rect;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8cfd
@@ -273,7 +273,7 @@
 
 .method public final f()Landroid/graphics/Rect;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8cfe
@@ -366,7 +366,7 @@
 .method public final k(Landroid/view/View;)V
     .locals 1
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

@@ -8,7 +8,7 @@
 
 # static fields
 .field public static final a:Lf/k/e0/b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -336,15 +336,15 @@
 .method public static final d(Landroid/content/Context;Landroid/graphics/Bitmap;ILjava/util/ArrayList;)Landroid/graphics/Bitmap;
     .locals 10
     .param p0    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/util/ArrayList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -363,7 +363,7 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xba52
@@ -410,27 +410,27 @@
 .method public static final e(Landroid/content/Context;Landroid/graphics/Bitmap;[ILcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;[Ljava/lang/Integer;Ljava/util/ArrayList;)Landroid/graphics/Bitmap;
     .locals 10
     .param p0    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # [I
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p4    # [Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Ljava/util/ArrayList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -452,7 +452,7 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xba52
@@ -503,31 +503,31 @@
 .method public static final f(Landroid/content/Context;Landroid/graphics/Bitmap;[ILjava/util/ArrayList;[Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;Ljava/util/ArrayList;Ljava/util/ArrayList;)Landroid/graphics/Bitmap;
     .locals 13
     .param p0    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # [I
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/util/ArrayList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # [Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p5    # Ljava/util/ArrayList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p6    # Ljava/util/ArrayList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -553,7 +553,7 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     move-object v5, p2

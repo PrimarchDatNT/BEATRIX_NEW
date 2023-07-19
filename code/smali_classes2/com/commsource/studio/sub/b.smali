@@ -21,7 +21,7 @@
 .field private final f:Ljava/lang/Runnable;
 
 .field private final g:Lcom/commsource/beautyplus/f0/g8;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -30,7 +30,7 @@
 .method public constructor <init>(Lcom/commsource/beautyplus/f0/g8;)V
     .locals 2
     .param p1    # Lcom/commsource/beautyplus/f0/g8;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -210,7 +210,7 @@
 # virtual methods
 .method public final g()Lcom/commsource/beautyplus/f0/g8;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x14b7
@@ -384,11 +384,11 @@
 .method public final i(Ljava/lang/String;Ljava/lang/String;Z)V
     .locals 7
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -556,7 +556,7 @@
 .method public final k(Lcom/meitu/template/bean/Filter;)V
     .locals 8
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

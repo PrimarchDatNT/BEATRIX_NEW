@@ -43,7 +43,7 @@
 .method public a(Lcom/commsource/sharelink/d;)V
     .locals 5
     .param p1    # Lcom/commsource/sharelink/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

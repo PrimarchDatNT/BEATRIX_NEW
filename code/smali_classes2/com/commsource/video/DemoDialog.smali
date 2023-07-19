@@ -18,22 +18,22 @@
 .field private X:Z
 
 .field private final Y:Lcom/commsource/camera/f1/n;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final Z:Lcom/commsource/camera/f1/n;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final a0:Lcom/commsource/camera/f1/n;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private b0:Lcom/commsource/camera/f1/l;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -312,7 +312,7 @@
 
 .method public final L()Lcom/commsource/camera/f1/l;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3071
@@ -328,7 +328,7 @@
 
 .method public final M()Lcom/commsource/camera/f1/n;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x306f
@@ -344,7 +344,7 @@
 
 .method public final O()Lcom/commsource/camera/f1/n;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3070
@@ -360,7 +360,7 @@
 
 .method public final P()Lcom/commsource/camera/f1/n;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x306e
@@ -405,7 +405,7 @@
 .method public final U(Lcom/commsource/camera/f1/l;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/f1/l;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

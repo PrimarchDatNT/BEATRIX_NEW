@@ -34,7 +34,7 @@
 .method public final c(Ljava/util/Map$Entry;)Z
     .locals 1
     .param p1    # Ljava/util/Map$Entry;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -77,7 +77,7 @@
 
 .method public abstract e(Ljava/util/Map$Entry;)Z
     .param p1    # Ljava/util/Map$Entry;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

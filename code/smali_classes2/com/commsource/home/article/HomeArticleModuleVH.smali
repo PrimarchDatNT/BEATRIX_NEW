@@ -22,7 +22,7 @@
 
 # instance fields
 .field private L:Lcom/commsource/widget/h1/e;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -31,11 +31,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/view/ViewGroup;)V
     .locals 3
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/view/ViewGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -126,7 +126,7 @@
 # virtual methods
 .method public final B()Lcom/commsource/widget/h1/e;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa326
@@ -143,7 +143,7 @@
 .method public final C(Lcom/commsource/widget/h1/e;)V
     .locals 2
     .param p1    # Lcom/commsource/widget/h1/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -165,11 +165,11 @@
 .method public k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
     .locals 2
     .param p2    # Lcom/commsource/widget/h1/d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

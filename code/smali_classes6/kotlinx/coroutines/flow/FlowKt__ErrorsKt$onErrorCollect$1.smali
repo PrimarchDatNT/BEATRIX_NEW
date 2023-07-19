@@ -76,7 +76,7 @@
 .method public final invoke(Ljava/lang/Throwable;)Z
     .locals 0
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

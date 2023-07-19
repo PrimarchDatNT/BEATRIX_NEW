@@ -23,26 +23,26 @@
 
 # instance fields
 .field private aiBeautyAfter:Landroid/graphics/Bitmap;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private aiBeautyBefore:Landroid/graphics/Bitmap;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private aiBeautyProgress:I
 
 .field private transient aiFaceData:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private aiProcessState:I
 
 .field private albumPhotoPath:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -53,7 +53,7 @@
 .field private arFaceCount:I
 
 .field private transient arMaterial:Lcom/meitu/template/bean/ArMaterial;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -64,7 +64,7 @@
 .field private arMaterialLongId:J
 
 .field private backUpPath:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -78,14 +78,14 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private beautyLevel:I
 
 .field private bodyMaskBitmap:Lcom/meitu/core/types/NativeBitmap;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -94,12 +94,12 @@
 .field private clarityAlpha:I
 
 .field private cropValue:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private data:[B
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -110,7 +110,7 @@
 .field private exportValue:I
 
 .field private transient faceData:Lcom/meitu/core/types/FaceData;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -123,29 +123,29 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private femaleCount:I
 
 .field private filter:Lcom/meitu/template/bean/Filter;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private flashMode:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private transient glEffectBitmap:Landroid/graphics/Bitmap;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private transient glOriBitmap:Landroid/graphics/Bitmap;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -202,12 +202,12 @@
 .field private isUserCancelAIBeauty:Z
 
 .field private lookEffectBean:Lcom/meitu/template/bean/k;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private lookMaterial:Lcom/meitu/template/bean/LookMaterial;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -228,7 +228,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -241,7 +241,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -254,29 +254,29 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private maleCount:I
 
 .field private mkingAlpha:[I
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private transient movieFilter:Lcom/meitu/template/bean/Filter;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private movieFlareEffect:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/c;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private movieResultBitmap:Landroid/graphics/Bitmap;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -285,46 +285,46 @@
 .field private saveMode:I
 
 .field private saveOriginalPath:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private savePath:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private transient saveUri:Landroid/net/Uri;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private screenOrientation:I
 
 .field private screenShotBitmap:Landroid/graphics/Bitmap;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private statisticBean:Lcom/commsource/statistics/SelfieStatisticBean;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private styleInfo:Lcom/commsource/camera/lookwheel/StyleInfo;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private takePictureBtn:I
 
 .field private waterEntity:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private webEntity:Lcom/commsource/beautyplus/router/RouterEntity;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -447,7 +447,7 @@
 # virtual methods
 .method public final getAiBeautyAfter()Landroid/graphics/Bitmap;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1637
@@ -463,7 +463,7 @@
 
 .method public final getAiBeautyBefore()Landroid/graphics/Bitmap;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1639
@@ -493,7 +493,7 @@
 
 .method public final getAiFaceData()Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1683
@@ -523,7 +523,7 @@
 
 .method public final getAlbumPhotoPath()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1665
@@ -581,7 +581,7 @@
 
 .method public final getArMaterial()Lcom/meitu/template/bean/ArMaterial;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1687
@@ -639,7 +639,7 @@
 
 .method public final getBackUpPath()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x16cc
@@ -664,7 +664,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x16bd
@@ -694,7 +694,7 @@
 
 .method public final getBodyMaskBitmap()Lcom/meitu/core/types/NativeBitmap;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1633
@@ -738,7 +738,7 @@
 
 .method public final getCropValue()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1695
@@ -754,7 +754,7 @@
 
 .method public final getData()[B
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x165d
@@ -843,7 +843,7 @@
 
 .method public final getFaceData()Lcom/meitu/core/types/FaceData;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1681
@@ -868,7 +868,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1677
@@ -898,7 +898,7 @@
 
 .method public final getFilter()Lcom/meitu/template/bean/Filter;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1653
@@ -976,7 +976,7 @@
 
 .method public final getFlashMode()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x16b3
@@ -992,7 +992,7 @@
 
 .method public final getGlEffectBitmap()Landroid/graphics/Bitmap;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x162f
@@ -1008,7 +1008,7 @@
 
 .method public final getGlOriBitmap()Landroid/graphics/Bitmap;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x162d
@@ -1052,7 +1052,7 @@
 
 .method public final getLookEffectBean()Lcom/meitu/template/bean/k;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x16bb
@@ -1068,7 +1068,7 @@
 
 .method public final getLookMaterial()Lcom/meitu/template/bean/LookMaterial;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x16b9
@@ -1108,7 +1108,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x168d
@@ -1133,7 +1133,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x168f
@@ -1158,7 +1158,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1691
@@ -1188,7 +1188,7 @@
 
 .method public final getMkingAlpha()[I
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x167d
@@ -1204,7 +1204,7 @@
 
 .method public final getMovieFilter()Lcom/meitu/template/bean/Filter;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1685
@@ -1220,7 +1220,7 @@
 
 .method public final getMovieFlareEffect()Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/c;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x16d7
@@ -1236,7 +1236,7 @@
 
 .method public final getMovieResultBitmap()Landroid/graphics/Bitmap;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1635
@@ -1280,7 +1280,7 @@
 
 .method public final getSaveOriginalPath()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1661
@@ -1296,7 +1296,7 @@
 
 .method public final getSavePath()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x166d
@@ -1312,7 +1312,7 @@
 
 .method public final getSaveUri()Landroid/net/Uri;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1693
@@ -1342,7 +1342,7 @@
 
 .method public final getScreenShotBitmap()Landroid/graphics/Bitmap;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1631
@@ -1358,7 +1358,7 @@
 
 .method public final getStatisticBean()Lcom/commsource/statistics/SelfieStatisticBean;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1675
@@ -1374,7 +1374,7 @@
 
 .method public final getStyleInfo()Lcom/commsource/camera/lookwheel/StyleInfo;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1697
@@ -1404,7 +1404,7 @@
 
 .method public final getWaterEntity()Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1673
@@ -1420,7 +1420,7 @@
 
 .method public final getWebEntity()Lcom/commsource/beautyplus/router/RouterEntity;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x166f
@@ -2166,7 +2166,7 @@
 .method public final setAiBeautyAfter(Landroid/graphics/Bitmap;)V
     .locals 1
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2184,7 +2184,7 @@
 .method public final setAiBeautyBefore(Landroid/graphics/Bitmap;)V
     .locals 1
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2216,7 +2216,7 @@
 .method public final setAiFaceData(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
     .locals 1
     .param p1    # Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2248,7 +2248,7 @@
 .method public final setAlbumPhotoPath(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2336,7 +2336,7 @@
 .method public final setArMaterial(Lcom/meitu/template/bean/ArMaterial;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/ArMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2410,7 +2410,7 @@
 .method public final setBackUpPath(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2428,7 +2428,7 @@
 .method public final setBeautyEntities(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2483,7 +2483,7 @@
 .method public final setBodyMaskBitmap(Lcom/meitu/core/types/NativeBitmap;)V
     .locals 1
     .param p1    # Lcom/meitu/core/types/NativeBitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2543,7 +2543,7 @@
 .method public final setCropValue(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2575,7 +2575,7 @@
 .method public final setData([B)V
     .locals 1
     .param p1    # [B
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2635,7 +2635,7 @@
 .method public final setFaceData(Lcom/meitu/core/types/FaceData;)V
     .locals 1
     .param p1    # Lcom/meitu/core/types/FaceData;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2653,7 +2653,7 @@
 .method public final setFaceRect(Ljava/util/ArrayList;)V
     .locals 1
     .param p1    # Ljava/util/ArrayList;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2721,7 +2721,7 @@
 .method public final setFilter(Lcom/meitu/template/bean/Filter;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2739,7 +2739,7 @@
 .method public final setFlashMode(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2799,7 +2799,7 @@
 .method public final setGlEffectBitmap(Landroid/graphics/Bitmap;)V
     .locals 1
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2817,7 +2817,7 @@
 .method public final setGlOriBitmap(Landroid/graphics/Bitmap;)V
     .locals 1
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2891,7 +2891,7 @@
 .method public final setLookEffectBean(Lcom/meitu/template/bean/k;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/k;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2909,7 +2909,7 @@
 .method public final setLookMaterial(Lcom/meitu/template/bean/LookMaterial;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/LookMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2941,7 +2941,7 @@
 .method public final setMakeupParamMap(Ljava/util/HashMap;)V
     .locals 1
     .param p1    # Ljava/util/HashMap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2968,7 +2968,7 @@
 .method public final setMakeupStyleMaterials(Landroid/util/SparseArray;)V
     .locals 1
     .param p1    # Landroid/util/SparseArray;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2994,7 +2994,7 @@
 .method public final setMakeupWrappers(Landroid/util/SparseArray;)V
     .locals 1
     .param p1    # Landroid/util/SparseArray;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3034,7 +3034,7 @@
 .method public final setMkingAlpha([I)V
     .locals 2
     .param p1    # [I
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -3056,7 +3056,7 @@
 .method public final setMovieFilter(Lcom/meitu/template/bean/Filter;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3074,7 +3074,7 @@
 .method public final setMovieFlareEffect(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/c;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3092,7 +3092,7 @@
 .method public final setMovieResultBitmap(Landroid/graphics/Bitmap;)V
     .locals 1
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3180,7 +3180,7 @@
 .method public final setSaveOriginalPath(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3198,7 +3198,7 @@
 .method public final setSavePath(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3216,7 +3216,7 @@
 .method public final setSaveUri(Landroid/net/Uri;)V
     .locals 1
     .param p1    # Landroid/net/Uri;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3262,7 +3262,7 @@
 .method public final setScreenShotBitmap(Landroid/graphics/Bitmap;)V
     .locals 1
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3294,7 +3294,7 @@
 .method public final setStatisticBean(Lcom/commsource/statistics/SelfieStatisticBean;)V
     .locals 1
     .param p1    # Lcom/commsource/statistics/SelfieStatisticBean;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3354,7 +3354,7 @@
 .method public final setWaterEntity(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3372,7 +3372,7 @@
 .method public final setWebEntity(Lcom/commsource/beautyplus/router/RouterEntity;)V
     .locals 1
     .param p1    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

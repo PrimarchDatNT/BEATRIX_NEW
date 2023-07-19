@@ -24,7 +24,7 @@
 .field private final A:I
 
 .field private final B:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -83,11 +83,11 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -290,7 +290,7 @@
 
 .method public final a0()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6597

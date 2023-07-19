@@ -37,7 +37,7 @@
 .method public final isPercentageTracker(Ljava/lang/String;)Z
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -90,10 +90,10 @@
 .method public final parsePercentageOffset(Ljava/lang/String;I)Ljava/lang/Integer;
     .locals 6
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     if-eqz p1, :cond_0

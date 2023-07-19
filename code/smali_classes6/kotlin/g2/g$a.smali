@@ -19,11 +19,11 @@
 .method public static a(Lcotlin/g2/g;Ljava/lang/Comparable;)Z
     .locals 1
     .param p0    # Lcotlin/g2/g;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/Comparable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -74,7 +74,7 @@
 .method public static b(Lcotlin/g2/g;)Z
     .locals 1
     .param p0    # Lcotlin/g2/g;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

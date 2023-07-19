@@ -8,7 +8,7 @@
 
 # instance fields
 .field private final a:Landroidx/recyclerview/widget/RecyclerView;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -17,7 +17,7 @@
 .method public constructor <init>(Landroidx/recyclerview/widget/RecyclerView;)V
     .locals 1
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -42,7 +42,7 @@
 # virtual methods
 .method public final a()Landroidx/recyclerview/widget/RecyclerView;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9cec
@@ -59,11 +59,11 @@
 .method public clearView(Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
     .locals 2
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -87,11 +87,11 @@
 .method public getMovementFlags(Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)I
     .locals 2
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -139,7 +139,7 @@
 .method public getSwipeThreshold(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)F
     .locals 2
     .param p1    # Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -189,15 +189,15 @@
 .method public onChildDraw(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;FFIZ)V
     .locals 7
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -517,15 +517,15 @@
 .method public onMove(Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)Z
     .locals 2
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -555,7 +555,7 @@
 .method public onSwiped(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
     .locals 1
     .param p1    # Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

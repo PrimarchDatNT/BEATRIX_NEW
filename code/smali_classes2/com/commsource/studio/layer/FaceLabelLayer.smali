@@ -36,7 +36,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -209,7 +209,7 @@
 .method public Z(Lcom/commsource/studio/MatrixBox;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -230,7 +230,7 @@
 
 .method public b0()Lcom/commsource/studio/i$c;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcom/commsource/studio/layer/FaceLabelLayer$c;
@@ -242,7 +242,7 @@
 
 .method public c0()Landroid/view/View;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcom/commsource/studio/layer/FaceLabelLayer$DrawTranslateView;
@@ -277,11 +277,11 @@
 .method public p(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V
     .locals 1
     .param p1    # Landroidx/lifecycle/ViewModelStoreOwner;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -299,7 +299,7 @@
 .method public final q0(Ljava/util/List;)V
     .locals 3
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -394,7 +394,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/layer/FaceLabelLayer;->O:Ljava/util/LinkedList;
@@ -465,7 +465,7 @@
 .method public final v0([F)Z
     .locals 5
     .param p1    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -539,7 +539,7 @@
 
 .method public abstract w0(Lcom/commsource/studio/layer/FaceOval;)V
     .param p1    # Lcom/commsource/studio/layer/FaceOval;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

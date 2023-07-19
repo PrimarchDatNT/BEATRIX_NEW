@@ -49,7 +49,7 @@
 # virtual methods
 .method public final invoke()Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2$a;
     .locals 5
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8bf7

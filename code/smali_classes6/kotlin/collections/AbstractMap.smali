@@ -37,7 +37,7 @@
 
 # static fields
 .field public static final c:Lcotlin/collections/AbstractMap$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -218,7 +218,7 @@
 .method public final b(Ljava/util/Map$Entry;)Z
     .locals 4
     .param p1    # Ljava/util/Map$Entry;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -378,7 +378,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/collections/AbstractMap;->a:Ljava/util/Set;
@@ -434,7 +434,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -526,7 +526,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/collections/AbstractMap;->b:Ljava/util/Collection;
@@ -557,7 +557,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-direct {p0, p1}, Lcotlin/collections/AbstractMap;->g(Ljava/lang/Object;)Ljava/util/Map$Entry;
@@ -697,7 +697,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 9
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Lcotlin/collections/AbstractMap;->entrySet()Ljava/util/Set;

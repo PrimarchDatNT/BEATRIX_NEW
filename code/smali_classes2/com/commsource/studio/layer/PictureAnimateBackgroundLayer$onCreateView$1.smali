@@ -45,7 +45,7 @@
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 3
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

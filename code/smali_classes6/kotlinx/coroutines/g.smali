@@ -11,11 +11,11 @@
 .method public static final a(Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Ljava/lang/Object;
     .locals 4
     .param p0    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

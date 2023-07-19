@@ -173,7 +173,7 @@
 .method public static final G(Ljava/lang/Appendable;)Ljava/lang/Appendable;
     .locals 1
     .param p0    # Ljava/lang/Appendable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -185,7 +185,7 @@
         .end subannotation
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$appendln"
@@ -266,7 +266,7 @@
 .method public static final J(Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
     .locals 1
     .param p0    # Ljava/lang/StringBuilder;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -278,7 +278,7 @@
         .end subannotation
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$appendln"
@@ -677,14 +677,14 @@
 .method public static final Y(Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
     .locals 1
     .param p0    # Ljava/lang/StringBuilder;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$clear"

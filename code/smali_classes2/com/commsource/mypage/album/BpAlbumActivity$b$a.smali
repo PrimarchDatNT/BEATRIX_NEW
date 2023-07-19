@@ -55,7 +55,7 @@
 .method public final a(ILjava/lang/String;)V
     .locals 3
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

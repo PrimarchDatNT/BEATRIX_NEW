@@ -33,7 +33,7 @@
 # virtual methods
 .method public d()Ljava/lang/Object;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/channels/b;->d:Ljava/lang/Object;
@@ -43,7 +43,7 @@
 
 .method public abstract f0(Lcotlinx/coroutines/channels/p;)V
     .param p1    # Lcotlinx/coroutines/channels/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

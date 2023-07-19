@@ -17,7 +17,7 @@
 
 # instance fields
 .field private final a:Lcotlin/text/k;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -26,7 +26,7 @@
 .method public constructor <init>(Lcotlin/text/k;)V
     .locals 1
     .param p1    # Lcotlin/text/k;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -285,7 +285,7 @@
 # virtual methods
 .method public final k()Lcotlin/text/k;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/text/k$b;->a:Lcotlin/text/k;
@@ -304,7 +304,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/text/k$b;->a:Lcotlin/text/k;

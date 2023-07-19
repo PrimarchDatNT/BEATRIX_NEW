@@ -69,7 +69,7 @@
 .method public final invoke(Lcom/commsource/repository/child/makeup/h;)V
     .locals 10
     .param p1    # Lcom/commsource/repository/child/makeup/h;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

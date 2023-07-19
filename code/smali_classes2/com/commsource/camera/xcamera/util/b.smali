@@ -8,7 +8,7 @@
 
 # static fields
 .field private static volatile a:Lcom/commsource/camera/xcamera/bean/b;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -46,7 +46,7 @@
 # virtual methods
 .method public final a()Lcom/commsource/camera/xcamera/bean/b;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1c84
@@ -63,7 +63,7 @@
 .method public final b(Lcotlin/jvm/u/l;)V
     .locals 3
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -134,7 +134,7 @@
 .method public final c(Lcom/commsource/camera/xcamera/bean/b;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/bean/b;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

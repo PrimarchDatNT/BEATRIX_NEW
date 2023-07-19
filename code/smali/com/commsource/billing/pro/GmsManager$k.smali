@@ -72,7 +72,7 @@
 .method public b(Lcom/meitu/global/billing/purchase/data/MTGPurchase;)V
     .locals 3
     .param p1    # Lcom/meitu/global/billing/purchase/data/MTGPurchase;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -98,7 +98,7 @@
 .method public onError(ILjava/lang/String;)V
     .locals 2
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

@@ -39,7 +39,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -275,7 +275,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x9ddb
@@ -292,7 +292,7 @@
 .method public final K(Lcom/commsource/widget/dialog/delegate/DialogDelegate;)V
     .locals 1
     .param p1    # Lcom/commsource/widget/dialog/delegate/DialogDelegate;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -317,7 +317,7 @@
 .method public onCancel(Landroid/content/DialogInterface;)V
     .locals 2
     .param p1    # Landroid/content/DialogInterface;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -354,10 +354,10 @@
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 3
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9ddd
@@ -429,7 +429,7 @@
 .method public onDismiss(Landroid/content/DialogInterface;)V
     .locals 2
     .param p1    # Landroid/content/DialogInterface;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

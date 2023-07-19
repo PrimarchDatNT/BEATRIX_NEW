@@ -64,7 +64,7 @@
 .method public constructor <init>(Lcotlin/jvm/u/q;Ljava/lang/Object;)V
     .locals 1
     .param p1    # Lcotlin/jvm/u/q;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -191,7 +191,7 @@
 .method public b(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 1
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -203,7 +203,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "null cannot be cast to non-null type kotlin.coroutines.Continuation<kotlin.Any?>"
@@ -233,11 +233,11 @@
 .method public d(Lcotlin/e;Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 2
     .param p1    # Lcotlin/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -255,7 +255,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-virtual {p1}, Lcotlin/e;->a()Lcotlin/jvm/u/q;
@@ -310,7 +310,7 @@
 
 .method public getContext()Lcotlin/coroutines/CoroutineContext;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
@@ -430,7 +430,7 @@
 .method public resumeWith(Ljava/lang/Object;)V
     .locals 1
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

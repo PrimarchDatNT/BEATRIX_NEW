@@ -64,7 +64,7 @@
 # virtual methods
 .method public final invoke()Lcom/commsource/studio/formula/FormulaRepo$formulaCategoryComparator$2$a;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8183

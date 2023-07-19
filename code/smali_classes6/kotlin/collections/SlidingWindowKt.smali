@@ -87,7 +87,7 @@
 .method public static final b(Ljava/util/Iterator;IIZZ)Ljava/util/Iterator;
     .locals 8
     .param p0    # Ljava/util/Iterator;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -103,7 +103,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "iterator"
@@ -149,7 +149,7 @@
 .method public static final c(Lcotlin/sequences/m;IIZZ)Lcotlin/sequences/m;
     .locals 7
     .param p0    # Lcotlin/sequences/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -165,7 +165,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$windowedSequence"

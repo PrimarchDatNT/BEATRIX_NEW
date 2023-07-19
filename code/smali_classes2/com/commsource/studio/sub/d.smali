@@ -9,17 +9,17 @@
 
 # instance fields
 .field private a:Lcom/commsource/studio/bean/FilterLayerInfo;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private b:Lcom/commsource/studio/bean/FilterLayerInfo;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private c:Lcom/commsource/studio/bean/FilterLayerInfo;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -32,7 +32,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -41,7 +41,7 @@
 .method public constructor <init>(Landroid/app/Application;)V
     .locals 1
     .param p1    # Landroid/app/Application;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -85,7 +85,7 @@
 # virtual methods
 .method public final A()Lcom/commsource/studio/bean/FilterLayerInfo;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x91d
@@ -110,7 +110,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x91f
@@ -126,7 +126,7 @@
 
 .method public final C()Lcom/commsource/studio/bean/FilterLayerInfo;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x91b
@@ -167,7 +167,7 @@
 .method public final E(Lcom/commsource/studio/bean/FilterLayerInfo;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/bean/FilterLayerInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/UiThread;
@@ -246,7 +246,7 @@
 .method public final H(Lcom/commsource/studio/bean/FilterLayerInfo;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/bean/FilterLayerInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -264,7 +264,7 @@
 .method public final I(Lcom/commsource/studio/bean/FilterLayerInfo;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/bean/FilterLayerInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -282,7 +282,7 @@
 .method public final J(Lcom/commsource/studio/bean/FilterLayerInfo;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/bean/FilterLayerInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -300,7 +300,7 @@
 .method public final y(Lcom/meitu/template/bean/Filter;)V
     .locals 4
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -360,7 +360,7 @@
 
 .method public final z()Lcom/commsource/studio/bean/FilterLayerInfo;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x919

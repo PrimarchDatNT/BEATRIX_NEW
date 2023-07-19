@@ -34,7 +34,7 @@
 .field public static final A:I = -0x3
 
 .field public static final B:Ljava/lang/String; = "kotlinx.coroutines.channels.defaultBuffer"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 

@@ -71,7 +71,7 @@
 .method public b(Lcom/meitu/library/camera/p/d/f;)V
     .locals 9
     .param p1    # Lcom/meitu/library/camera/p/d/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -156,7 +156,7 @@
 .method public c(Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

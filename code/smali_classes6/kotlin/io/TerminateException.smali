@@ -10,7 +10,7 @@
 .method public constructor <init>(Ljava/io/File;)V
     .locals 7
     .param p1    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

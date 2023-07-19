@@ -56,15 +56,15 @@
 .method public static final C(Ljava/io/File;Ljava/nio/charset/Charset;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 3
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/nio/charset/Charset;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -317,11 +317,11 @@
 .method public static final E(Ljava/io/File;[B)V
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -369,15 +369,15 @@
 .method public static final F(Ljava/io/File;Ljava/lang/String;Ljava/nio/charset/Charset;)V
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/nio/charset/Charset;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -461,11 +461,11 @@
 .method public static final g(Ljava/io/File;[B)V
     .locals 2
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -515,15 +515,15 @@
 .method public static final h(Ljava/io/File;Ljava/lang/String;Ljava/nio/charset/Charset;)V
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/nio/charset/Charset;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -722,11 +722,11 @@
 .method public static final n(Ljava/io/File;ILcotlin/jvm/u/p;)V
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -811,11 +811,11 @@
 .method public static final o(Ljava/io/File;Lcotlin/jvm/u/p;)V
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -848,15 +848,15 @@
 .method public static final p(Ljava/io/File;Ljava/nio/charset/Charset;Lcotlin/jvm/u/l;)V
     .locals 3
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/nio/charset/Charset;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1024,10 +1024,10 @@
 .method public static final v(Ljava/io/File;)[B
     .locals 10
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$readBytes"
@@ -1234,11 +1234,11 @@
 .method public static final w(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;
     .locals 2
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/nio/charset/Charset;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1253,7 +1253,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$readLines"
@@ -1297,14 +1297,14 @@
 .method public static final y(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/nio/charset/Charset;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$readText"

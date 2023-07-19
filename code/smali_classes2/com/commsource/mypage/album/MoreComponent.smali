@@ -19,7 +19,7 @@
 .method public constructor <init>(Lcom/commsource/mypage/album/BpAlbumActivity;)V
     .locals 1
     .param p1    # Lcom/commsource/mypage/album/BpAlbumActivity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -32,7 +32,7 @@
 .method public constructor <init>(Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;)V
     .locals 1
     .param p1    # Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -56,11 +56,11 @@
 .method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 3
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

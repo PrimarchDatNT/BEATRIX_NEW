@@ -39,7 +39,7 @@
 .method public static final d([BI)I
     .locals 2
     .param p0    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -87,7 +87,7 @@
 .method public static final e([BI)J
     .locals 7
     .param p0    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -207,7 +207,7 @@
 .method public static final f([BI)S
     .locals 1
     .param p0    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

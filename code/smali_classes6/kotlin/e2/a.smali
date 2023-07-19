@@ -38,7 +38,7 @@
 .end field
 
 .field public static final g:Lcotlin/e2/a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 

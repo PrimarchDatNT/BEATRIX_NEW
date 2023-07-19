@@ -9,11 +9,11 @@
 # virtual methods
 .method public abstract a(Landroid/app/Activity;Lcom/commsource/beautyplus/router/RouterEntity;)Z
     .param p1    # Landroid/app/Activity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

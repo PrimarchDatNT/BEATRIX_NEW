@@ -20,7 +20,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -45,7 +45,7 @@
 .field private final S:Z
 
 .field public T:Lcom/commsource/studio/component/UndoRedoComponent$c;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -1047,7 +1047,7 @@
 .method public final Z(Lcom/commsource/beautyplus/i0/a;)V
     .locals 3
     .param p1    # Lcom/commsource/beautyplus/i0/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1196,7 +1196,7 @@
 .method public final a0(Lcom/commsource/studio/doodle/i;)V
     .locals 11
     .param p1    # Lcom/commsource/studio/doodle/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1757,7 +1757,7 @@
 
 .method public final f0()Lcom/commsource/studio/doodle/DoodleMaterial;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x47f9
@@ -1785,7 +1785,7 @@
 
 .method public final g0()Landroid/graphics/Bitmap;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4807
@@ -1836,7 +1836,7 @@
 
 .method public final h0()Lcom/commsource/studio/component/UndoRedoComponent$c;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x47ea
@@ -1894,7 +1894,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x47e9
@@ -1935,7 +1935,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x47fc
@@ -2011,7 +2011,7 @@
 .method public final k0(Landroid/graphics/Bitmap;)V
     .locals 3
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2141,7 +2141,7 @@
 .method public final o0(Lcotlin/jvm/u/p;)V
     .locals 7
     .param p1    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2303,7 +2303,7 @@
 .method public s(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 12
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2419,7 +2419,7 @@
 .method public final u0(Lcom/commsource/studio/component/UndoRedoComponent$c;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/component/UndoRedoComponent$c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

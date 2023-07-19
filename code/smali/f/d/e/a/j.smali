@@ -15,41 +15,41 @@
 
 # static fields
 .field public static final A:Ljava/lang/String; = "SEGMENT_SKIN"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final B:Ljava/lang/String; = "SEGMENT_SKY"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final C:Ljava/lang/String; = "SEGMENT_FACECONTOURSKIN"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final D:Ljava/lang/String; = "SEGMENT_DEPEND_OUTSIDE"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final E:Lf/d/e/a/j$a;
 
 .field public static final y:Ljava/lang/String; = "SEGMENT_BODY"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final z:Ljava/lang/String; = "SEGMENT_HAIR"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 
 # instance fields
 .field private final w:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -80,11 +80,11 @@
 .method public constructor <init>(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)V
     .locals 2
     .param p1    # Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -320,11 +320,11 @@
 .method protected a(Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;)V
     .locals 0
     .param p1    # Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -340,7 +340,7 @@
 .method protected b(Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;)V
     .locals 0
     .param p1    # Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -531,11 +531,11 @@
 .method public d(Ljava/lang/String;Ljava/lang/Object;)V
     .locals 19
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1303,7 +1303,7 @@
 .method public e(Ljava/lang/String;Z)V
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1550,7 +1550,7 @@
 
 .method public final i()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x13fb
@@ -1567,7 +1567,7 @@
 .method public final j(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;I)V
     .locals 6
     .param p1    # Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1704,11 +1704,11 @@
 .method public final k([Landroid/graphics/RectF;Ljava/util/ArrayList;)V
     .locals 2
     .param p1    # [Landroid/graphics/RectF;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Ljava/util/ArrayList;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

@@ -23,7 +23,7 @@
 .method public constructor <init>(Landroidx/fragment/app/FragmentManager;)V
     .locals 3
     .param p1    # Landroidx/fragment/app/FragmentManager;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -96,7 +96,7 @@
 
 .method public getItem(I)Landroidx/fragment/app/Fragment;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1e79

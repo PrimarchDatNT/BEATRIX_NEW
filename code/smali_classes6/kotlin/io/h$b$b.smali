@@ -26,7 +26,7 @@
 .method public constructor <init>(Lcotlin/io/h$b;Ljava/io/File;)V
     .locals 1
     .param p1    # Lcotlin/io/h$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -52,7 +52,7 @@
 # virtual methods
 .method public b()Ljava/io/File;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-boolean v0, p0, Lcotlin/io/h$b$b;->b:Z

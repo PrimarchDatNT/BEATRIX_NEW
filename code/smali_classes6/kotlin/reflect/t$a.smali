@@ -45,13 +45,13 @@
 .method public final a(Lcotlin/reflect/r;)Lcotlin/reflect/t;
     .locals 2
     .param p1    # Lcotlin/reflect/r;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "type"
@@ -70,13 +70,13 @@
 .method public final b(Lcotlin/reflect/r;)Lcotlin/reflect/t;
     .locals 2
     .param p1    # Lcotlin/reflect/r;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "type"
@@ -94,7 +94,7 @@
 
 .method public final c()Lcotlin/reflect/t;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/reflect/t;->c:Lcotlin/reflect/t;
@@ -105,13 +105,13 @@
 .method public final e(Lcotlin/reflect/r;)Lcotlin/reflect/t;
     .locals 2
     .param p1    # Lcotlin/reflect/r;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "type"

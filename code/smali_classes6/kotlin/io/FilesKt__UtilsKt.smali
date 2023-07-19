@@ -19,15 +19,15 @@
 .method public static final N(Ljava/io/File;Ljava/io/File;ZLcotlin/jvm/u/p;)Z
     .locals 11
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -344,14 +344,14 @@
 .method public static final P(Ljava/io/File;Ljava/io/File;ZI)Ljava/io/File;
     .locals 6
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$copyTo"
@@ -545,22 +545,22 @@
 .method public static final R(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Ljava/io/File;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
         message = "Avoid creating temporary directories in the default temp location with this function due to too wide permissions on the newly created directory. Use kotlin.io.path.createTempDirectory instead."
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "prefix"
@@ -647,22 +647,22 @@
 .method public static final T(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Ljava/io/File;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
         message = "Avoid creating temporary files in the default temp location with this function due to too wide permissions on the newly created file. Use kotlin.io.path.createTempFile instead or resort to java.io.File.createTempFile."
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "prefix"
@@ -716,7 +716,7 @@
 .method public static final V(Ljava/io/File;)Z
     .locals 4
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -779,11 +779,11 @@
 .method public static final W(Ljava/io/File;Ljava/io/File;)Z
     .locals 3
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -860,11 +860,11 @@
 .method public static final X(Ljava/io/File;Ljava/lang/String;)Z
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -890,10 +890,10 @@
 .method public static final Y(Ljava/io/File;)Ljava/lang/String;
     .locals 2
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$extension"
@@ -922,10 +922,10 @@
 .method public static final Z(Ljava/io/File;)Ljava/lang/String;
     .locals 9
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$invariantSeparatorsPath"
@@ -976,10 +976,10 @@
 .method public static final a0(Ljava/io/File;)Ljava/lang/String;
     .locals 3
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$nameWithoutExtension"
@@ -1010,10 +1010,10 @@
 .method public static final b0(Ljava/io/File;)Ljava/io/File;
     .locals 10
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$normalize"
@@ -1224,14 +1224,14 @@
 .method public static final e0(Ljava/io/File;Ljava/io/File;)Ljava/io/File;
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$relativeTo"
@@ -1256,14 +1256,14 @@
 .method public static final f0(Ljava/io/File;Ljava/io/File;)Ljava/io/File;
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$relativeToOrNull"
@@ -1296,14 +1296,14 @@
 .method public static final g0(Ljava/io/File;Ljava/io/File;)Ljava/io/File;
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$relativeToOrSelf"
@@ -1331,14 +1331,14 @@
 .method public static final h0(Ljava/io/File;Ljava/io/File;)Ljava/io/File;
     .locals 4
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$resolve"
@@ -1446,14 +1446,14 @@
 .method public static final i0(Ljava/io/File;Ljava/lang/String;)Ljava/io/File;
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$resolve"
@@ -1478,14 +1478,14 @@
 .method public static final j0(Ljava/io/File;Ljava/io/File;)Ljava/io/File;
     .locals 2
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$resolveSibling"
@@ -1546,14 +1546,14 @@
 .method public static final k0(Ljava/io/File;Ljava/lang/String;)Ljava/io/File;
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$resolveSibling"
@@ -1578,11 +1578,11 @@
 .method public static final l0(Ljava/io/File;Ljava/io/File;)Z
     .locals 3
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1663,11 +1663,11 @@
 .method public static final m0(Ljava/io/File;Ljava/lang/String;)Z
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1693,14 +1693,14 @@
 .method public static final n0(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
     .locals 3
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$toRelativeString"

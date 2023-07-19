@@ -8,7 +8,7 @@
 
 # static fields
 .field public static final a:Lcotlin/jvm/internal/s0;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 

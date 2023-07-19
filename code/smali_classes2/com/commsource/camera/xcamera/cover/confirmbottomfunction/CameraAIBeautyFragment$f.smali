@@ -43,7 +43,7 @@
 .method public onProgressChanged(Landroid/widget/SeekBar;IZ)V
     .locals 2
     .param p1    # Landroid/widget/SeekBar;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -156,7 +156,7 @@
 .method public onStartTrackingTouch(Landroid/widget/SeekBar;)V
     .locals 2
     .param p1    # Landroid/widget/SeekBar;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -178,7 +178,7 @@
 .method public onStopTrackingTouch(Landroid/widget/SeekBar;)V
     .locals 2
     .param p1    # Landroid/widget/SeekBar;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

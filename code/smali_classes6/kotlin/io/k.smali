@@ -19,10 +19,10 @@
 .method public static final a(Ljava/io/File;)Ljava/io/File;
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$root"
@@ -172,10 +172,10 @@
 .method public static final c(Ljava/io/File;)Ljava/lang/String;
     .locals 2
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$rootName"
@@ -220,7 +220,7 @@
 .method public static final d(Ljava/io/File;)Z
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -256,10 +256,10 @@
 .method public static final e(Ljava/io/File;II)Ljava/io/File;
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$subPath"
@@ -280,10 +280,10 @@
 .method public static final f(Ljava/io/File;)Lcotlin/io/g;
     .locals 10
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$toComponents"

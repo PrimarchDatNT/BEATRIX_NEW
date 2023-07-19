@@ -43,11 +43,11 @@
 .method public a(Landroid/graphics/RectF;Landroid/graphics/PointF;)V
     .locals 2
     .param p1    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/graphics/PointF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

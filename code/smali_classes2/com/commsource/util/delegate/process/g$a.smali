@@ -38,7 +38,7 @@
 .method public final a(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Ljava/util/LinkedList;
     .locals 12
     .param p1    # Lcom/commsource/camera/fastcapture/SelfiePhotoData;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -52,7 +52,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7142
@@ -404,7 +404,7 @@
 .method public final b(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Z
     .locals 3
     .param p1    # Lcom/commsource/camera/fastcapture/SelfiePhotoData;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -471,7 +471,7 @@
 .method public final c(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Z
     .locals 2
     .param p1    # Lcom/commsource/camera/fastcapture/SelfiePhotoData;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -507,7 +507,7 @@
 .method public final d(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Z
     .locals 2
     .param p1    # Lcom/commsource/camera/fastcapture/SelfiePhotoData;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -535,7 +535,7 @@
 .method public final e(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Z
     .locals 2
     .param p1    # Lcom/commsource/camera/fastcapture/SelfiePhotoData;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -571,7 +571,7 @@
 .method public final f(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Z
     .locals 7
     .param p1    # Lcom/commsource/camera/fastcapture/SelfiePhotoData;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -673,7 +673,7 @@
 .method public final g(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Z
     .locals 2
     .param p1    # Lcom/commsource/camera/fastcapture/SelfiePhotoData;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

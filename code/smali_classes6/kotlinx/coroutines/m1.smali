@@ -9,7 +9,7 @@
 # direct methods
 .method public static final a()Lcotlinx/coroutines/j1;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/e;

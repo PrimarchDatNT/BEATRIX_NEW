@@ -44,11 +44,11 @@
 .method public constructor <init>(Ljava/lang/CharSequence;IILcotlin/jvm/u/p;)V
     .locals 1
     .param p1    # Ljava/lang/CharSequence;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -134,7 +134,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlin/text/f$a;

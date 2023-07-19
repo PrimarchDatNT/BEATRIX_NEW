@@ -35,7 +35,7 @@
 
 # instance fields
 .field private final a:[B
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -59,7 +59,7 @@
 
 .method public static A([B)Lcotlin/collections/i1;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlin/c1$a;
@@ -121,7 +121,7 @@
 
 .method public static e(I)[B
     .locals 0
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-array p0, p0, [B
@@ -136,13 +136,13 @@
 .method public static h([B)[B
     .locals 1
     .param p0    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "storage"
@@ -165,7 +165,7 @@
 .method public static k([BLjava/util/Collection;)Z
     .locals 4
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -440,7 +440,7 @@
 .method public containsAll(Ljava/util/Collection;)Z
     .locals 1
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -637,7 +637,7 @@
 
 .method public z()Lcotlin/collections/i1;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/c1;->a:[B

@@ -38,7 +38,7 @@
 .method public a(Landroid/content/Context;I)V
     .locals 3
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

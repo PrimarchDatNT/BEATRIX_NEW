@@ -37,7 +37,7 @@
 # virtual methods
 .method public final a(I)Lcom/commsource/studio/mixlayer/MixLayerFragment;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8a28

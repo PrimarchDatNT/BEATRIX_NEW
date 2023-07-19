@@ -21,24 +21,24 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final d:Lcotlin/reflect/t$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 
 # instance fields
 .field private final a:Lcotlin/reflect/KVariance;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final b:Lcotlin/reflect/r;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -67,11 +67,11 @@
 .method public constructor <init>(Lcotlin/reflect/KVariance;Lcotlin/reflect/r;)V
     .locals 3
     .param p1    # Lcotlin/reflect/KVariance;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcotlin/reflect/r;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -158,13 +158,13 @@
 .method public static final c(Lcotlin/reflect/r;)Lcotlin/reflect/t;
     .locals 1
     .param p0    # Lcotlin/reflect/r;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/reflect/t;->d:Lcotlin/reflect/t$a;
@@ -203,13 +203,13 @@
 .method public static final f(Lcotlin/reflect/r;)Lcotlin/reflect/t;
     .locals 1
     .param p0    # Lcotlin/reflect/r;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/reflect/t;->d:Lcotlin/reflect/t$a;
@@ -224,13 +224,13 @@
 .method public static final i(Lcotlin/reflect/r;)Lcotlin/reflect/t;
     .locals 1
     .param p0    # Lcotlin/reflect/r;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/reflect/t;->d:Lcotlin/reflect/t$a;
@@ -246,7 +246,7 @@
 # virtual methods
 .method public final a()Lcotlin/reflect/KVariance;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlin/reflect/t;->a:Lcotlin/reflect/KVariance;
@@ -256,7 +256,7 @@
 
 .method public final b()Lcotlin/reflect/r;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlin/reflect/t;->b:Lcotlin/reflect/r;
@@ -267,14 +267,14 @@
 .method public final d(Lcotlin/reflect/KVariance;Lcotlin/reflect/r;)Lcotlin/reflect/t;
     .locals 1
     .param p1    # Lcotlin/reflect/KVariance;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcotlin/reflect/r;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlin/reflect/t;
@@ -287,7 +287,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -335,7 +335,7 @@
 
 .method public final g()Lcotlin/reflect/r;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlin/reflect/t;->b:Lcotlin/reflect/r;
@@ -345,7 +345,7 @@
 
 .method public final h()Lcotlin/reflect/KVariance;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlin/reflect/t;->a:Lcotlin/reflect/KVariance;
@@ -390,7 +390,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/reflect/t;->a:Lcotlin/reflect/KVariance;

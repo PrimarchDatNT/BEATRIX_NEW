@@ -16,7 +16,7 @@
 .method public constructor <init>(Lcom/commsource/widget/XSeekBar;)V
     .locals 1
     .param p1    # Lcom/commsource/widget/XSeekBar;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -72,7 +72,7 @@
 .method public c(Landroid/graphics/Canvas;)V
     .locals 6
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

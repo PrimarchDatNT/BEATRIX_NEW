@@ -37,7 +37,7 @@
 .method public constructor <init>(Lcom/commsource/mypage/album/BpAlbumActivity;)V
     .locals 1
     .param p1    # Lcom/commsource/mypage/album/BpAlbumActivity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -835,7 +835,7 @@
 .method public b(ILcom/commsource/album/provider/BucketInfo;)V
     .locals 4
     .param p2    # Lcom/commsource/album/provider/BucketInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

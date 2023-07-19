@@ -10,7 +10,7 @@
 .field private i:I
 
 .field private j:Lcom/commsource/puzzle/patchedworld/t/a;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -60,7 +60,7 @@
 
 .method public final t()Lcom/commsource/puzzle/patchedworld/t/a;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x386c
@@ -91,7 +91,7 @@
 .method public final v(Lcom/commsource/puzzle/patchedworld/t/a;)V
     .locals 1
     .param p1    # Lcom/commsource/puzzle/patchedworld/t/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

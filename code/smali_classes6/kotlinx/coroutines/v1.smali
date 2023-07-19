@@ -11,7 +11,7 @@
 
 # instance fields
 .field private final a:Lcotlinx/coroutines/n2;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -20,7 +20,7 @@
 .method public constructor <init>(Lcotlinx/coroutines/n2;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/n2;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -35,7 +35,7 @@
 # virtual methods
 .method public e()Lcotlinx/coroutines/n2;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/v1;->a:Lcotlinx/coroutines/n2;
@@ -53,7 +53,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lcotlinx/coroutines/p0;->d()Z

@@ -40,7 +40,7 @@
 .method public constructor <init>(Ljava/util/Iterator;)V
     .locals 1
     .param p1    # Ljava/util/Iterator;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -74,7 +74,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlin/collections/i0;

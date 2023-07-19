@@ -64,7 +64,7 @@
 
 .method public g0()Ljava/lang/Object;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/channels/c$a;->d:Ljava/lang/Object;
@@ -75,7 +75,7 @@
 .method public h0(Lcotlinx/coroutines/channels/p;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/channels/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -92,10 +92,10 @@
 .method public i0(Lcotlinx/coroutines/internal/m$d;)Lcotlinx/coroutines/internal/c0;
     .locals 1
     .param p1    # Lcotlinx/coroutines/internal/m$d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/o;->d:Lcotlinx/coroutines/internal/c0;
@@ -110,7 +110,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

@@ -154,7 +154,7 @@
 # virtual methods
 .method public final b()Lkshark/HeapObject$HeapClass;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p0, Lkshark/HeapObject$HeapClass;
@@ -176,7 +176,7 @@
 
 .method public final c()Lkshark/HeapObject$HeapInstance;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p0, Lkshark/HeapObject$HeapInstance;
@@ -198,7 +198,7 @@
 
 .method public final d()Lkshark/HeapObject$HeapObjectArray;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p0, Lkshark/HeapObject$HeapObjectArray;
@@ -220,7 +220,7 @@
 
 .method public final e()Lkshark/HeapObject$b;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p0, Lkshark/HeapObject$b;
@@ -241,7 +241,7 @@
 .end method
 
 .method public abstract f()Lkshark/i;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -249,6 +249,6 @@
 .end method
 
 .method public abstract h()Lkshark/m$b$c;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method

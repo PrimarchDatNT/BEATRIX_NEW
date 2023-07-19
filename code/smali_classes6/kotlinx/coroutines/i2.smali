@@ -32,7 +32,7 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -41,7 +41,7 @@
 .method public constructor <init>(Lcotlinx/coroutines/c2;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/c2;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -84,7 +84,7 @@
 
 .method public e()Lcotlinx/coroutines/n2;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/4 v0, 0x0

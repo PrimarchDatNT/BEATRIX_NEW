@@ -11,7 +11,7 @@
 .method public static final a(Ljava/lang/ThreadLocal;Ljava/lang/Object;)Lcotlinx/coroutines/g3;
     .locals 1
     .param p0    # Ljava/lang/ThreadLocal;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -26,7 +26,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/internal/h0;
@@ -58,11 +58,11 @@
 .method public static final c(Ljava/lang/ThreadLocal;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 2
     .param p0    # Ljava/lang/ThreadLocal;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -78,7 +78,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-interface {p1}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
@@ -156,14 +156,14 @@
 .method private static final d(Ljava/lang/ThreadLocal;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 3
     .param p0    # Ljava/lang/ThreadLocal;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/4 p1, 0x3
@@ -241,11 +241,11 @@
 .method public static final e(Ljava/lang/ThreadLocal;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 1
     .param p0    # Ljava/lang/ThreadLocal;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -261,7 +261,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-interface {p1}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
@@ -296,14 +296,14 @@
 .method private static final f(Ljava/lang/ThreadLocal;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 1
     .param p0    # Ljava/lang/ThreadLocal;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/4 p1, 0x3

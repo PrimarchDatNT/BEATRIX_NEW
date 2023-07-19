@@ -16,27 +16,27 @@
 
 # instance fields
 .field private L:Lcom/commsource/studio/text/b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private M:Lcom/commsource/studio/text/b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private N:Lcom/commsource/studio/u;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private O:Lcom/commsource/studio/b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private P:Lcom/commsource/studio/bean/FocusLayerInfo;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -49,7 +49,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -62,7 +62,7 @@
 .field private U:Z
 
 .field private final V:Lcom/commsource/studio/p;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -71,7 +71,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 9
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -998,7 +998,7 @@
 # virtual methods
 .method public final G0()Lcom/commsource/studio/text/b;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x994e
@@ -1014,7 +1014,7 @@
 
 .method public final H0()Lcom/commsource/studio/b;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9952
@@ -1030,7 +1030,7 @@
 
 .method public final I0()Lcom/commsource/studio/bean/FocusLayerInfo;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x9954
@@ -1046,7 +1046,7 @@
 
 .method public final J0()Lcom/commsource/studio/text/b;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x994c
@@ -1062,7 +1062,7 @@
 
 .method public final K0()Lcom/commsource/studio/p;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x995f
@@ -1078,7 +1078,7 @@
 
 .method public final L0()Lcom/commsource/studio/u;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x9950
@@ -1117,7 +1117,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9956
@@ -1134,11 +1134,11 @@
 .method public final O0([FLcotlin/jvm/u/l;)V
     .locals 3
     .param p1    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1182,7 +1182,7 @@
 .method public final P0(Landroid/view/MotionEvent;)V
     .locals 4
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1258,7 +1258,7 @@
 .method public final Q0(Landroid/view/MotionEvent;)V
     .locals 4
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1440,7 +1440,7 @@
 .method public final T0(Lcom/commsource/studio/text/b;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/text/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1462,7 +1462,7 @@
 .method public final U0(Lcom/commsource/studio/b;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1484,7 +1484,7 @@
 .method public final V0(Lcom/commsource/studio/bean/FocusLayerInfo;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/bean/FocusLayerInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1502,7 +1502,7 @@
 .method public final W0(Lcom/commsource/studio/text/b;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/text/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1552,7 +1552,7 @@
 .method public final X0(Lcom/commsource/studio/u;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/u;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1584,7 +1584,7 @@
 .method public Z(Lcom/commsource/studio/MatrixBox;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1615,7 +1615,7 @@
 
 .method public b0()Lcom/commsource/studio/i$c;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x995a
@@ -1633,7 +1633,7 @@
 
 .method public c0()Landroid/view/View;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x994b
@@ -1656,7 +1656,7 @@
 .method public final y0(Lcom/commsource/studio/bean/ImageLayerInfo;)V
     .locals 14
     .param p1    # Lcom/commsource/studio/bean/ImageLayerInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1732,11 +1732,11 @@
 .method public final z0(Lcom/commsource/studio/bean/TextLayerInfo;Lcotlin/jvm/u/a;)V
     .locals 14
     .param p1    # Lcom/commsource/studio/bean/TextLayerInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

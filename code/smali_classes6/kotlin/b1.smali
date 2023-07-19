@@ -41,7 +41,7 @@
 .field public static final f:I = 0x8
 
 .field public static final g:Lcotlin/b1$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -802,7 +802,7 @@
 
 .method public static o0(B)Ljava/lang/String;
     .locals 0
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     and-int/lit16 p0, p0, 0xff
@@ -1028,7 +1028,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-byte v0, p0, Lcotlin/b1;->a:B

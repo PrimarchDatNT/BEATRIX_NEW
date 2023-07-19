@@ -11,34 +11,34 @@
 
 # instance fields
 .field private final a:Landroid/graphics/Point;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final b:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final c:Lcom/commsource/studio/shader/g;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final d:Lcom/commsource/editengine/b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private f:Lcom/commsource/editengine/d;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private g:Z
 
 .field private p:Lcom/commsource/studio/MatrixBox;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -331,7 +331,7 @@
 .method public a(Lcom/commsource/easyeditor/utils/opengl/c;)V
     .locals 2
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -368,7 +368,7 @@
 
 .method public final e()Lcom/commsource/editengine/b;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1987
@@ -384,7 +384,7 @@
 
 .method public final f()Lcom/commsource/studio/shader/g;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1986
@@ -400,7 +400,7 @@
 
 .method public final g()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1985
@@ -416,7 +416,7 @@
 
 .method public final h()Lcom/commsource/studio/MatrixBox;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x198c
@@ -432,7 +432,7 @@
 
 .method public final i()Lcom/commsource/editengine/d;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1988
@@ -462,7 +462,7 @@
 
 .method public final k()Landroid/graphics/Point;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1984
@@ -502,7 +502,7 @@
 .method public final m(Lcotlin/jvm/u/a;)V
     .locals 3
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -545,7 +545,7 @@
 .method public final n(Lcom/commsource/studio/MatrixBox;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -567,7 +567,7 @@
 .method public final o(Lcom/commsource/editengine/d;)V
     .locals 1
     .param p1    # Lcom/commsource/editengine/d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

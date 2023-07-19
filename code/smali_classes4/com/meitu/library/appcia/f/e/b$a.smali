@@ -18,31 +18,31 @@
 # static fields
 # The value of this static final field might be set in the static constructor
 .field private static final a:Ljava/lang/String; = "name"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 # The value of this static final field might be set in the static constructor
 .field private static final b:Ljava/lang/String; = "category"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 # The value of this static final field might be set in the static constructor
 .field private static final c:Ljava/lang/String; = "actions"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 # The value of this static final field might be set in the static constructor
 .field private static final d:Ljava/lang/String; = "label"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 # The value of this static final field might be set in the static constructor
 .field private static final e:Ljava/lang/String; = "metric"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -170,7 +170,7 @@
 # virtual methods
 .method public final f()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xcd97
@@ -186,7 +186,7 @@
 
 .method public final g()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xcd99
@@ -202,7 +202,7 @@
 
 .method public final h()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xcd9b
@@ -218,7 +218,7 @@
 
 .method public final i()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xcd95
@@ -234,7 +234,7 @@
 
 .method public final j()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xcd93

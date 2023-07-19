@@ -21,22 +21,22 @@
 
 # instance fields
 .field private final d:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final f:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final g:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final p:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -94,7 +94,7 @@
 # virtual methods
 .method public final E()Lcom/commsource/camera/xcamera/BpCameraViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x374d
@@ -116,7 +116,7 @@
 
 .method public final F()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x374e
@@ -138,7 +138,7 @@
 
 .method public final G()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x374f
@@ -160,7 +160,7 @@
 
 .method public final H()Lcom/commsource/camera/xcamera/cover/montage/a;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x374c
@@ -217,7 +217,7 @@
 .method public onClick(Landroid/view/View;)V
     .locals 2
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -301,11 +301,11 @@
 .method public t(Landroid/graphics/Rect;Landroid/graphics/Rect;)V
     .locals 3
     .param p1    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -12,7 +12,7 @@
         value = "imagePosition"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -21,7 +21,7 @@
         value = "background"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -38,7 +38,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -55,7 +55,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -72,7 +72,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -89,7 +89,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -131,7 +131,7 @@
 # virtual methods
 .method public final a()Lcom/commsource/studio/function/d;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x371c
@@ -156,7 +156,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3724
@@ -181,7 +181,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3720
@@ -197,7 +197,7 @@
 
 .method public final d()Lcom/commsource/studio/function/h;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x371a
@@ -222,7 +222,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x371e
@@ -247,7 +247,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3722
@@ -264,7 +264,7 @@
 .method public final g(Lcom/commsource/studio/function/d;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/function/d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -282,7 +282,7 @@
 .method public final h(Ljava/util/LinkedList;)V
     .locals 2
     .param p1    # Ljava/util/LinkedList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -312,7 +312,7 @@
 .method public final i(Ljava/util/LinkedList;)V
     .locals 2
     .param p1    # Ljava/util/LinkedList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -342,7 +342,7 @@
 .method public final j(Lcom/commsource/studio/function/h;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/function/h;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -360,7 +360,7 @@
 .method public final k(Ljava/util/LinkedList;)V
     .locals 2
     .param p1    # Ljava/util/LinkedList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -390,7 +390,7 @@
 .method public final l(Ljava/util/LinkedList;)V
     .locals 2
     .param p1    # Ljava/util/LinkedList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

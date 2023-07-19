@@ -22,7 +22,7 @@
     .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/4 v0, -0x2

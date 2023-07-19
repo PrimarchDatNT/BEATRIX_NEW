@@ -10,7 +10,7 @@
 .field private i:F
 
 .field private j:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -23,7 +23,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -36,7 +36,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -93,7 +93,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xf51
@@ -118,7 +118,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xf53
@@ -148,7 +148,7 @@
 
 .method public final v()Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xf4f
@@ -165,7 +165,7 @@
 .method public final w(Ljava/util/ArrayList;)V
     .locals 2
     .param p1    # Ljava/util/ArrayList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -195,7 +195,7 @@
 .method public final x(Ljava/util/ArrayList;)V
     .locals 2
     .param p1    # Ljava/util/ArrayList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -239,7 +239,7 @@
 .method public final z(Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;)V
     .locals 2
     .param p1    # Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

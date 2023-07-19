@@ -8,12 +8,12 @@
 
 # instance fields
 .field private final a:Lkshark/i;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final b:Lkshark/b0;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -22,11 +22,11 @@
 .method public constructor <init>(Lkshark/i;Lkshark/b0;)V
     .locals 1
     .param p1    # Lkshark/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lkshark/b0;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -47,7 +47,7 @@
 # virtual methods
 .method public final a()Ljava/lang/Boolean;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
@@ -77,7 +77,7 @@
 
 .method public final b()Ljava/lang/Byte;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
@@ -107,7 +107,7 @@
 
 .method public final c()Ljava/lang/Character;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
@@ -137,7 +137,7 @@
 
 .method public final d()Ljava/lang/Double;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
@@ -167,7 +167,7 @@
 
 .method public final e()Ljava/lang/Float;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
@@ -197,7 +197,7 @@
 
 .method public final f()Ljava/lang/Integer;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
@@ -227,7 +227,7 @@
 
 .method public final g()Ljava/lang/Long;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
@@ -257,7 +257,7 @@
 
 .method public final h()Ljava/lang/Long;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
@@ -297,7 +297,7 @@
 
 .method public final i()Lkshark/HeapObject;
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
@@ -338,7 +338,7 @@
 
 .method public final j()Ljava/lang/Long;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
@@ -368,7 +368,7 @@
 
 .method public final k()Ljava/lang/Short;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
@@ -398,7 +398,7 @@
 
 .method public final l()Lkshark/i;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/j;->a:Lkshark/i;
@@ -408,7 +408,7 @@
 
 .method public final m()Lkshark/b0;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
@@ -474,7 +474,7 @@
 
 .method public final p()Ljava/lang/String;
     .locals 5
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;

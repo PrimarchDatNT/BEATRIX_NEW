@@ -20,7 +20,7 @@
 
 # static fields
 .field public static final c:Lcotlin/i2/p$b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -58,7 +58,7 @@
 # virtual methods
 .method public a()Lcotlin/i2/o;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/i2/p$b;->b:Lcotlin/i2/m;
@@ -72,7 +72,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/i2/m;->c:Lcotlin/i2/m;

@@ -8,12 +8,12 @@
 
 # instance fields
 .field private a:Lcom/meitu/template/bean/ArMaterial;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private b:Lcom/meitu/template/bean/Filter;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -27,7 +27,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -46,22 +46,22 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private h:Lcom/meitu/template/bean/LookMaterial;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private i:Lcom/meitu/template/bean/k;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private j:Lcom/meitu/template/bean/k;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -146,7 +146,7 @@
 .method public final C(Lcom/meitu/template/bean/LookMaterial;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/LookMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -164,7 +164,7 @@
 .method public final D(Lcom/meitu/template/bean/k;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/k;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -182,7 +182,7 @@
 .method public final E(Lcom/meitu/template/bean/k;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/k;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -241,7 +241,7 @@
 
 .method public final a()Lcom/meitu/template/bean/Filter;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7013
@@ -267,7 +267,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7015
@@ -319,7 +319,7 @@
 
 .method public final d()Lcom/meitu/template/bean/ArMaterial;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7011
@@ -370,7 +370,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x701d
@@ -400,7 +400,7 @@
 
 .method public final h()Lcom/meitu/template/bean/Filter;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7031
@@ -532,7 +532,7 @@
 
 .method public final n()Lcom/meitu/template/bean/LookMaterial;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x701f
@@ -548,7 +548,7 @@
 
 .method public final o()Lcom/meitu/template/bean/k;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7023
@@ -564,7 +564,7 @@
 
 .method public final p()Lcom/meitu/template/bean/k;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7021
@@ -623,7 +623,7 @@
 .method public final t(Lcom/meitu/template/bean/Filter;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -641,7 +641,7 @@
 .method public final u(Lcotlin/Pair;)V
     .locals 1
     .param p1    # Lcotlin/Pair;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -668,7 +668,7 @@
 .method public final v(Lcom/meitu/template/bean/ArMaterial;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/ArMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -686,7 +686,7 @@
 .method public final w(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

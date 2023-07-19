@@ -18,14 +18,14 @@
 .method public static final J(Ljava/io/File;Lcotlin/io/FileWalkDirection;)Lcotlin/io/h;
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/io/FileWalkDirection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$walk"
@@ -63,10 +63,10 @@
 .method public static final L(Ljava/io/File;)Lcotlin/io/h;
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$walkBottomUp"
@@ -85,10 +85,10 @@
 .method public static final M(Ljava/io/File;)Lcotlin/io/h;
     .locals 1
     .param p0    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$walkTopDown"

@@ -17,27 +17,27 @@
 
 # instance fields
 .field private final cause:Ljava/lang/Throwable;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final message:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final moPubNetworkResponse:Lcom/mopub/network/MoPubNetworkResponse;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final reason:Lcom/mopub/network/MoPubNetworkError$Reason;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final refreshTimeMillis:Ljava/lang/Integer;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -70,23 +70,23 @@
 .method public constructor <init>(Lcom/mopub/network/MoPubNetworkError$Reason;Ljava/lang/String;Ljava/lang/Throwable;Lcom/mopub/network/MoPubNetworkResponse;Ljava/lang/Integer;)V
     .locals 0
     .param p1    # Lcom/mopub/network/MoPubNetworkError$Reason;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p4    # Lcom/mopub/network/MoPubNetworkResponse;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -189,7 +189,7 @@
 # virtual methods
 .method public getCause()Ljava/lang/Throwable;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubNetworkError$InternalVolleyError;->cause:Ljava/lang/Throwable;
@@ -199,7 +199,7 @@
 
 .method public getMessage()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubNetworkError$InternalVolleyError;->message:Ljava/lang/String;
@@ -209,7 +209,7 @@
 
 .method public final getMoPubNetworkResponse()Lcom/mopub/network/MoPubNetworkResponse;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubNetworkError$InternalVolleyError;->moPubNetworkResponse:Lcom/mopub/network/MoPubNetworkResponse;
@@ -219,7 +219,7 @@
 
 .method public final getReason()Lcom/mopub/network/MoPubNetworkError$Reason;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubNetworkError$InternalVolleyError;->reason:Lcom/mopub/network/MoPubNetworkError$Reason;
@@ -229,7 +229,7 @@
 
 .method public final getRefreshTimeMillis()Ljava/lang/Integer;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubNetworkError$InternalVolleyError;->refreshTimeMillis:Ljava/lang/Integer;

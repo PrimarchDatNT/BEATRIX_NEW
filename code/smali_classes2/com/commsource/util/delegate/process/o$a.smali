@@ -119,7 +119,7 @@
 .method public final c(Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;)Z
     .locals 10
     .param p1    # Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

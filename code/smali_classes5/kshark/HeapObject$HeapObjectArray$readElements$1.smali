@@ -65,7 +65,7 @@
 
 .method public final invoke(J)Lkshark/j;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lkshark/j;

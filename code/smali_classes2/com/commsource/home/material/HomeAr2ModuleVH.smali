@@ -26,7 +26,7 @@
 .field public static final Q:F = 1.2f
 
 .field public static final R:Ljava/lang/String; = "PAYLOAD_SCROLL_STATE_CHANGE"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -99,11 +99,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/view/ViewGroup;)V
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/view/ViewGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -710,11 +710,11 @@
 .method public k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
     .locals 5
     .param p2    # Lcom/commsource/widget/h1/d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

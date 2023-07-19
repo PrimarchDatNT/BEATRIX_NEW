@@ -21,7 +21,7 @@
 .field private d0:F
 
 .field private e0:Lcom/commsource/studio/effect/e;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -92,7 +92,7 @@
 # virtual methods
 .method public B1()Lcom/commsource/studio/effect/e;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8039
@@ -109,7 +109,7 @@
 .method public C1(Lcom/commsource/studio/effect/e;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/effect/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -177,11 +177,11 @@
 .method public I(Landroid/view/View;Lcotlin/jvm/u/a;)V
     .locals 2
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -223,11 +223,11 @@
 .method public K(Landroid/view/View;Lcotlin/jvm/u/a;)V
     .locals 2
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -300,7 +300,7 @@
 .method public P0(Lcom/commsource/studio/MatrixBox;)V
     .locals 6
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -502,7 +502,7 @@
 .method public V0(ZLcom/commsource/studio/MatrixBox;)V
     .locals 4
     .param p2    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -706,18 +706,18 @@
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 0
     .param p1    # Landroid/view/LayoutInflater;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/view/ViewGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const p2, 0x803d
@@ -782,11 +782,11 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 8
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

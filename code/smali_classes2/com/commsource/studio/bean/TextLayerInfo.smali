@@ -9,7 +9,7 @@
 
 # instance fields
 .field private borderPadding:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -20,7 +20,7 @@
 .field private textCenterY:F
 
 .field private textGroupParam:Lcom/commsource/studio/text/TextGroupParam;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -29,7 +29,7 @@
 .method public constructor <init>(Lcom/commsource/studio/text/TextGroupParam;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/text/TextGroupParam;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -90,7 +90,7 @@
 
 .method public copy(Z)Lcom/commsource/studio/bean/TextLayerInfo;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8d5e
@@ -139,7 +139,7 @@
 
 .method public final getBorderPadding()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8d58
@@ -197,7 +197,7 @@
 
 .method public final getTextGroupParam()Lcom/commsource/studio/text/TextGroupParam;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8d65
@@ -334,7 +334,7 @@
 .method public final setBorderPadding(Landroid/graphics/RectF;)V
     .locals 2
     .param p1    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -464,7 +464,7 @@
 .method public final setTextGroupParam(Lcom/commsource/studio/text/TextGroupParam;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/text/TextGroupParam;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

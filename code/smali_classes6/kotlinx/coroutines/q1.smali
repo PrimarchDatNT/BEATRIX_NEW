@@ -8,7 +8,7 @@
 
 # instance fields
 .field private final d:Ljava/util/concurrent/Executor;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -17,7 +17,7 @@
 .method public constructor <init>(Ljava/util/concurrent/Executor;)V
     .locals 0
     .param p1    # Ljava/util/concurrent/Executor;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -34,7 +34,7 @@
 # virtual methods
 .method public A()Ljava/util/concurrent/Executor;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/q1;->d:Ljava/util/concurrent/Executor;

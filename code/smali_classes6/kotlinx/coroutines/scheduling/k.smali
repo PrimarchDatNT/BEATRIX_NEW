@@ -8,7 +8,7 @@
 
 # static fields
 .field public static final a:Ljava/lang/String; = "DefaultDispatcher"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -41,7 +41,7 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -170,7 +170,7 @@
 .method public static final a(Lcotlinx/coroutines/scheduling/h;)Z
     .locals 1
     .param p0    # Lcotlinx/coroutines/scheduling/h;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

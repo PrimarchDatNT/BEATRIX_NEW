@@ -11,7 +11,7 @@
 
 # instance fields
 .field private final a:Lcotlin/i2/o;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -61,7 +61,7 @@
 
 .method public e(D)Lcotlin/i2/o;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlin/i2/c;
@@ -91,7 +91,7 @@
 
 .method public final g()Lcotlin/i2/o;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/i2/c;->a:Lcotlin/i2/o;

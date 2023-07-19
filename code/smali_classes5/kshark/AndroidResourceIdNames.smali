@@ -83,7 +83,7 @@
 # virtual methods
 .method public final get(I)Ljava/lang/String;
     .locals 6
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/AndroidResourceIdNames;->resourceIds:[I

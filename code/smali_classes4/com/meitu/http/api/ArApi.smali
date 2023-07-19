@@ -23,7 +23,7 @@
 .field private final a:Ljava/lang/String;
 
 .field private final b:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -94,7 +94,7 @@
 .method public final b(Lf/k/k/p;)V
     .locals 4
     .param p1    # Lf/k/k/p;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -214,7 +214,7 @@
 
 .method public final c()Lcom/giphy/sdk/core/network/api/GPHApiClient;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x46b4
@@ -237,11 +237,11 @@
 .method public final d(Ljava/lang/String;ZLjava/lang/String;Z)V
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -271,7 +271,7 @@
 .method public final e(Lf/k/k/p;)V
     .locals 4
     .param p1    # Lf/k/k/p;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -327,11 +327,11 @@
 .method public final f(Ljava/lang/String;Lf/k/k/p;)V
     .locals 4
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lf/k/k/p;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -398,7 +398,7 @@
 .method public final g(Lf/k/k/p;)V
     .locals 4
     .param p1    # Lf/k/k/p;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -464,7 +464,7 @@
 .method public final h(Ljava/lang/String;)V
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

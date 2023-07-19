@@ -17,12 +17,12 @@
 
 # instance fields
 .field private final a:Landroid/graphics/PointF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final b:Landroid/graphics/PointF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -35,11 +35,11 @@
 .method public constructor <init>(Landroid/graphics/PointF;Landroid/graphics/PointF;FF)V
     .locals 1
     .param p1    # Landroid/graphics/PointF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/graphics/PointF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -68,7 +68,7 @@
 # virtual methods
 .method public final a()Landroid/graphics/PointF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x443f
@@ -112,7 +112,7 @@
 
 .method public final d()Landroid/graphics/PointF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x443e

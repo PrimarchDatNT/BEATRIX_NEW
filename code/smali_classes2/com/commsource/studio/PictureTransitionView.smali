@@ -21,12 +21,12 @@
 
 # instance fields
 .field private final J:Lcom/commsource/studio/MatrixBox;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final K:Lcom/commsource/studio/MatrixBox;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -37,19 +37,19 @@
 .field private N:Ljava/util/HashMap;
 
 .field public a:Lcom/commsource/studio/StudioCanvasContainer;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public b:Lcom/commsource/studio/ImageStudioViewModel;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final c:Landroid/graphics/Paint;
 
 .field private d:Lcom/commsource/studio/PictureAnimationWrapper;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -62,7 +62,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -75,7 +75,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -106,7 +106,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 6
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -132,11 +132,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 6
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -162,11 +162,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -435,7 +435,7 @@
 
 .method public final getCanvasContainer()Lcom/commsource/studio/StudioCanvasContainer;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9786
@@ -509,7 +509,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x978e
@@ -525,7 +525,7 @@
 
 .method public final getEndMatrixBox()Lcom/commsource/studio/MatrixBox;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9793
@@ -541,7 +541,7 @@
 
 .method public final getPictureAnimationWrapper()Lcom/commsource/studio/PictureAnimationWrapper;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x978a
@@ -566,7 +566,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x978c
@@ -582,7 +582,7 @@
 
 .method public final getStartMatrixBox()Lcom/commsource/studio/MatrixBox;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9792
@@ -598,7 +598,7 @@
 
 .method public final getStudioViewModel()Lcom/commsource/studio/ImageStudioViewModel;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9788
@@ -647,11 +647,11 @@
 .method public final i(Lcom/commsource/studio/bean/PictureLayerInfo;Lcom/commsource/studio/bean/d;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/bean/PictureLayerInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/bean/d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -712,7 +712,7 @@
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 4
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -756,7 +756,7 @@
 .method public final setCanvasContainer(Lcom/commsource/studio/StudioCanvasContainer;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/StudioCanvasContainer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -820,7 +820,7 @@
 .method public final setEndAction(Lcotlin/jvm/u/a;)V
     .locals 1
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -846,7 +846,7 @@
 .method public final setPictureAnimationWrapper(Lcom/commsource/studio/PictureAnimationWrapper;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/PictureAnimationWrapper;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -864,7 +864,7 @@
 .method public final setStartAction(Lcotlin/jvm/u/a;)V
     .locals 1
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -890,7 +890,7 @@
 .method public final setStudioViewModel(Lcom/commsource/studio/ImageStudioViewModel;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/ImageStudioViewModel;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

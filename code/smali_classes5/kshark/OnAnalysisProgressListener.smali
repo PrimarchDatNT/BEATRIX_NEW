@@ -32,7 +32,7 @@
 # virtual methods
 .method public abstract a(Lkshark/OnAnalysisProgressListener$Step;)V
     .param p1    # Lkshark/OnAnalysisProgressListener$Step;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

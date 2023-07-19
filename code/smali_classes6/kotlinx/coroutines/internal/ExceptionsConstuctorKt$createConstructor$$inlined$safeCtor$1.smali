@@ -63,10 +63,10 @@
 .method public final invoke(Ljava/lang/Throwable;)Ljava/lang/Throwable;
     .locals 4
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     :try_start_0

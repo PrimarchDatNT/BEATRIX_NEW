@@ -17,11 +17,11 @@
 .method public static bridge synthetic g(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
     .locals 0
     .param p0    # Ljava/lang/Comparable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p1    # Ljava/lang/Comparable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -51,7 +51,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lcotlin/z1/b;->q()Ljava/util/Comparator;

@@ -103,7 +103,7 @@
 .method public final a(Ljava/util/List;)V
     .locals 3
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -160,7 +160,7 @@
 .method public final b(Ljava/util/List;)V
     .locals 3
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -225,7 +225,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x77c
@@ -256,7 +256,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x783
@@ -278,7 +278,7 @@
 
 .method public final g(I)Lcom/meitu/template/bean/f;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x780
@@ -304,7 +304,7 @@
 
 .method public final h(I)Lcom/meitu/template/bean/Doodle;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x787
@@ -331,7 +331,7 @@
 .method public final i(Ljava/util/List;)V
     .locals 3
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -388,7 +388,7 @@
 .method public final j(Ljava/util/List;)V
     .locals 3
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -445,7 +445,7 @@
 .method public final k(Lcom/meitu/template/bean/f;)V
     .locals 2
     .param p1    # Lcom/meitu/template/bean/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -471,7 +471,7 @@
 .method public final l(Lcom/meitu/template/bean/Doodle;)V
     .locals 2
     .param p1    # Lcom/meitu/template/bean/Doodle;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -497,7 +497,7 @@
 .method public final m(Ljava/util/List;)V
     .locals 3
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -554,7 +554,7 @@
 .method public final n(Ljava/util/List;)V
     .locals 3
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -611,7 +611,7 @@
 .method public final o(Lcom/meitu/template/bean/f;)V
     .locals 2
     .param p1    # Lcom/meitu/template/bean/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -637,7 +637,7 @@
 .method public final p(Lcom/meitu/template/bean/Doodle;)V
     .locals 2
     .param p1    # Lcom/meitu/template/bean/Doodle;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

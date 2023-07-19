@@ -75,14 +75,14 @@
 .method public final invoke(Lcotlinx/coroutines/internal/m0;Lcotlin/coroutines/CoroutineContext$a;)Lcotlinx/coroutines/internal/m0;
     .locals 1
     .param p1    # Lcotlinx/coroutines/internal/m0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/CoroutineContext$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     instance-of v0, p2, Lcotlinx/coroutines/g3;

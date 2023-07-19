@@ -43,7 +43,7 @@
 .method public a(Lcom/commsource/camera/f1/l;)V
     .locals 5
     .param p1    # Lcom/commsource/camera/f1/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -111,7 +111,7 @@
 .method public b(Lcom/commsource/camera/f1/l;)V
     .locals 3
     .param p1    # Lcom/commsource/camera/f1/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -165,7 +165,7 @@
 .method public d(Lcom/commsource/camera/f1/l;)V
     .locals 5
     .param p1    # Lcom/commsource/camera/f1/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

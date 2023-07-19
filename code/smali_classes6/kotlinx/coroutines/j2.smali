@@ -13,7 +13,7 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -190,10 +190,10 @@
 .method public static final n(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
     .param p0    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p0, Lcotlinx/coroutines/w1;
@@ -215,10 +215,10 @@
 .method public static final o(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
     .param p0    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p0, Lcotlinx/coroutines/x1;

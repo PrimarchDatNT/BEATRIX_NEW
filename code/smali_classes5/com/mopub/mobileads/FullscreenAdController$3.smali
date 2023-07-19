@@ -41,7 +41,7 @@
 .method public onErrorResponse(Lcom/mopub/network/MoPubNetworkError;)V
     .locals 4
     .param p1    # Lcom/mopub/network/MoPubNetworkError;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -79,7 +79,7 @@
 .method public onResponse(Lcom/mopub/network/MoPubImageLoader$ImageContainer;Z)V
     .locals 3
     .param p1    # Lcom/mopub/network/MoPubImageLoader$ImageContainer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

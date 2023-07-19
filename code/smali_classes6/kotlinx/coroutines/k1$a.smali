@@ -34,7 +34,7 @@
 .method public constructor <init>(Lcotlinx/coroutines/k1;JLcotlinx/coroutines/m;)V
     .locals 0
     .param p2    # J
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -74,7 +74,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

@@ -19,7 +19,7 @@
 .method public static final a(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
     .param p0    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -105,11 +105,11 @@
 .method public static final b(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 1
     .param p0    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -128,7 +128,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$withDefault"
@@ -169,11 +169,11 @@
 .method public static c(Ljava/util/Map;Lcotlin/jvm/u/l;)Ljava/util/Map;
     .locals 1
     .param p0    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -196,7 +196,7 @@
         name = "withDefaultMutable"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$withDefault"

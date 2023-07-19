@@ -12,7 +12,7 @@
 .field private b:I
 
 .field private final c:Lcotlin/coroutines/CoroutineContext;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -21,7 +21,7 @@
 .method public constructor <init>(Lcotlin/coroutines/CoroutineContext;I)V
     .locals 0
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -41,7 +41,7 @@
 .method public final a(Ljava/lang/Object;)V
     .locals 3
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -60,7 +60,7 @@
 
 .method public final b()Lcotlin/coroutines/CoroutineContext;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/internal/m0;->c:Lcotlin/coroutines/CoroutineContext;
@@ -80,7 +80,7 @@
 
 .method public final d()Ljava/lang/Object;
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/internal/m0;->a:[Ljava/lang/Object;

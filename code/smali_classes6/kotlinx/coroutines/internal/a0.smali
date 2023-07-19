@@ -201,7 +201,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/internal/a0;->_head:Ljava/lang/Object;
@@ -214,7 +214,7 @@
 .method protected final e(Lcotlinx/coroutines/internal/z;J)Lcotlinx/coroutines/internal/z;
     .locals 5
     .param p1    # Lcotlinx/coroutines/internal/z;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -223,7 +223,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     :goto_0
@@ -307,7 +307,7 @@
 .method protected final f(Lcotlinx/coroutines/internal/z;J)Lcotlinx/coroutines/internal/z;
     .locals 3
     .param p1    # Lcotlinx/coroutines/internal/z;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -316,7 +316,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-virtual {p1}, Lcotlinx/coroutines/internal/z;->b()J
@@ -354,7 +354,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/internal/a0;->_tail:Ljava/lang/Object;
@@ -366,7 +366,7 @@
 
 .method public abstract j(JLcotlinx/coroutines/internal/z;)Lcotlinx/coroutines/internal/z;
     .param p3    # Lcotlinx/coroutines/internal/z;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -375,6 +375,6 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method

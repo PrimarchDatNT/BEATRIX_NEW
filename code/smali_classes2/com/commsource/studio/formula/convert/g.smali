@@ -8,19 +8,19 @@
 
 # instance fields
 .field private a:Lcom/commsource/studio/formula/convert/FormulaConvertFactory$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private b:I
 
 .field private c:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private d:Lcom/commsource/studio/formula/convert/Formula;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -48,22 +48,22 @@
 .field private j:Z
 
 .field private k:Lcom/commsource/material/download/b/b;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final l:Lcom/commsource/studio/formula/JsFormula;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final m:Lcom/commsource/studio/bean/PictureLayerInfo;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final n:Lcom/commsource/studio/bean/a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -74,15 +74,15 @@
 .method public constructor <init>(Lcom/commsource/studio/formula/JsFormula;Lcom/commsource/studio/bean/PictureLayerInfo;Lcom/commsource/studio/bean/a;Z)V
     .locals 1
     .param p1    # Lcom/commsource/studio/formula/JsFormula;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/bean/PictureLayerInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcom/commsource/studio/bean/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -182,7 +182,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2a9e
@@ -198,7 +198,7 @@
 
 .method public final e()Lcom/commsource/studio/formula/convert/FormulaConvertFactory$a;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2a96
@@ -214,7 +214,7 @@
 
 .method public final f()Lcom/commsource/studio/formula/convert/Formula;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2a9c
@@ -230,7 +230,7 @@
 
 .method public final g()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2a9a
@@ -274,7 +274,7 @@
 
 .method public final j()Lcom/commsource/studio/formula/JsFormula;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2aac
@@ -290,7 +290,7 @@
 
 .method public final k()Lcom/commsource/studio/bean/a;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2aae
@@ -306,7 +306,7 @@
 
 .method public final l()Lcom/commsource/studio/bean/PictureLayerInfo;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2aad
@@ -322,7 +322,7 @@
 
 .method public final m()Lcom/commsource/material/download/b/b;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2aaa
@@ -409,7 +409,7 @@
 .method public final s(Ljava/util/concurrent/CopyOnWriteArrayList;)V
     .locals 1
     .param p1    # Ljava/util/concurrent/CopyOnWriteArrayList;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -435,7 +435,7 @@
 .method public final t(Lcom/commsource/studio/formula/convert/FormulaConvertFactory$a;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/formula/convert/FormulaConvertFactory$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -457,7 +457,7 @@
 .method public final u(Lcom/commsource/studio/formula/convert/Formula;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/formula/convert/Formula;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -475,7 +475,7 @@
 .method public final v(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -521,7 +521,7 @@
 .method public final y(Lcom/commsource/material/download/b/b;)V
     .locals 1
     .param p1    # Lcom/commsource/material/download/b/b;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

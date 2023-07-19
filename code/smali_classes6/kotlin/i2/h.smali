@@ -30,11 +30,11 @@
 .method public static final b(DLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/TimeUnit;)D
     .locals 7
     .param p2    # Ljava/util/concurrent/TimeUnit;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/util/concurrent/TimeUnit;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/i2/j;

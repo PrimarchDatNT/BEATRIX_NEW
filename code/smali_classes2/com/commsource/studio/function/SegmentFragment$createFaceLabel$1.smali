@@ -43,7 +43,7 @@
 .method public w0(Lcom/commsource/studio/layer/FaceOval;)V
     .locals 3
     .param p1    # Lcom/commsource/studio/layer/FaceOval;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

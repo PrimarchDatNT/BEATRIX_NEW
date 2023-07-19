@@ -33,11 +33,11 @@
 # virtual methods
 .method public abstract b(Ljava/lang/Comparable;Ljava/lang/Comparable;)Z
     .param p1    # Ljava/lang/Comparable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Comparable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -49,7 +49,7 @@
 
 .method public abstract contains(Ljava/lang/Comparable;)Z
     .param p1    # Ljava/lang/Comparable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

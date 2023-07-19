@@ -41,7 +41,7 @@
 .method public b(Lcom/commsource/camera/f1/l;)V
     .locals 5
     .param p1    # Lcom/commsource/camera/f1/l;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

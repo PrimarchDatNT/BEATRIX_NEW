@@ -13,12 +13,12 @@
 .field private d:Lcom/commsource/widget/dialog/s0/t;
 
 .field private final e:Lcom/commsource/beautyplus/BaseActivity;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final f:Lcom/commsource/push/bean/a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -27,11 +27,11 @@
 .method public constructor <init>(Lcom/commsource/beautyplus/BaseActivity;Lcom/commsource/push/bean/a;)V
     .locals 1
     .param p1    # Lcom/commsource/beautyplus/BaseActivity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/push/bean/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -833,7 +833,7 @@
 
 .method public final q()Lcom/commsource/beautyplus/BaseActivity;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2d85
@@ -849,7 +849,7 @@
 
 .method public final r()Lcom/commsource/push/bean/a;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2d86

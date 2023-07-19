@@ -25,7 +25,7 @@
 # virtual methods
 .method public abstract G1([Lcom/commsource/studio/doodle/DoodleMaterial;)V
     .param p1    # [Lcom/commsource/studio/doodle/DoodleMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -34,7 +34,7 @@
 
 .method public abstract G2(Lcom/commsource/studio/doodle/DoodleMaterial;)V
     .param p1    # Lcom/commsource/studio/doodle/DoodleMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -44,7 +44,7 @@
 
 .method public abstract V(Lcom/commsource/studio/doodle/DoodleMaterial;)V
     .param p1    # Lcom/commsource/studio/doodle/DoodleMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -65,7 +65,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -83,20 +83,20 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract d(Ljava/lang/String;)Lcom/commsource/studio/doodle/DoodleMaterial;
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
         value = "select * from DOODLE_MATERIAL_DUFFLE where m_id = :key"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -114,13 +114,13 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract j0(Lcom/commsource/studio/doodle/DoodleMaterial;)V
     .param p1    # Lcom/commsource/studio/doodle/DoodleMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -129,7 +129,7 @@
 
 .method public abstract p1([Lcom/commsource/studio/doodle/DoodleMaterial;)V
     .param p1    # [Lcom/commsource/studio/doodle/DoodleMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -139,7 +139,7 @@
 
 .method public abstract x0([Lcom/commsource/studio/doodle/DoodleMaterial;)V
     .param p1    # [Lcom/commsource/studio/doodle/DoodleMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;

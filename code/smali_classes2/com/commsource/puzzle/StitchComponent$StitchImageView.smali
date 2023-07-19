@@ -58,7 +58,7 @@
 .method public constructor <init>(Lcom/commsource/puzzle/StitchComponent;Landroid/content/Context;)V
     .locals 1
     .param p1    # Lcom/commsource/puzzle/StitchComponent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -367,7 +367,7 @@
 .method public final k(Lcotlin/jvm/u/a;)V
     .locals 14
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1055,7 +1055,7 @@
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 7
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1713,7 +1713,7 @@
 .method public final setInfo(Lcom/commsource/puzzle/StitchComponent$b;)V
     .locals 6
     .param p1    # Lcom/commsource/puzzle/StitchComponent$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

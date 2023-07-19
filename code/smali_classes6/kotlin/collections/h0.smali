@@ -19,11 +19,11 @@
 .method public static final c(Lcotlin/collections/e0;Lcotlin/jvm/u/r;)Ljava/util/Map;
     .locals 6
     .param p0    # Lcotlin/collections/e0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/r;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -50,7 +50,7 @@
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$aggregate"
@@ -123,15 +123,15 @@
 .method public static final d(Lcotlin/collections/e0;Ljava/util/Map;Lcotlin/jvm/u/r;)Ljava/util/Map;
     .locals 5
     .param p0    # Lcotlin/collections/e0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/r;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -158,7 +158,7 @@
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$aggregateTo"
@@ -231,11 +231,11 @@
 .method public static final e(Lcotlin/collections/e0;Ljava/util/Map;)Ljava/util/Map;
     .locals 7
     .param p0    # Lcotlin/collections/e0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -258,7 +258,7 @@
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$eachCountTo"
@@ -344,11 +344,11 @@
 .method public static final f(Lcotlin/collections/e0;Ljava/lang/Object;Lcotlin/jvm/u/p;)Ljava/util/Map;
     .locals 6
     .param p0    # Lcotlin/collections/e0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -373,7 +373,7 @@
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$fold"
@@ -447,15 +447,15 @@
 .method public static final g(Lcotlin/collections/e0;Lcotlin/jvm/u/p;Lcotlin/jvm/u/q;)Ljava/util/Map;
     .locals 6
     .param p0    # Lcotlin/collections/e0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/q;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -482,7 +482,7 @@
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$fold"
@@ -562,15 +562,15 @@
 .method public static final h(Lcotlin/collections/e0;Ljava/util/Map;Ljava/lang/Object;Lcotlin/jvm/u/p;)Ljava/util/Map;
     .locals 5
     .param p0    # Lcotlin/collections/e0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -595,7 +595,7 @@
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$foldTo"
@@ -669,19 +669,19 @@
 .method public static final i(Lcotlin/collections/e0;Ljava/util/Map;Lcotlin/jvm/u/p;Lcotlin/jvm/u/q;)Ljava/util/Map;
     .locals 5
     .param p0    # Lcotlin/collections/e0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/jvm/u/q;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -708,7 +708,7 @@
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$foldTo"
@@ -788,11 +788,11 @@
 .method public static final j(Lcotlin/collections/e0;Lcotlin/jvm/u/q;)Ljava/util/Map;
     .locals 6
     .param p0    # Lcotlin/collections/e0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/q;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -815,7 +815,7 @@
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$reduce"
@@ -890,15 +890,15 @@
 .method public static final k(Lcotlin/collections/e0;Ljava/util/Map;Lcotlin/jvm/u/q;)Ljava/util/Map;
     .locals 5
     .param p0    # Lcotlin/collections/e0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/q;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -921,7 +921,7 @@
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$reduceTo"

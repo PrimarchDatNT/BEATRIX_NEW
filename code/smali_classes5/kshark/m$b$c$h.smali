@@ -23,7 +23,7 @@
 .field private final c:I
 
 .field private final d:Lkshark/PrimitiveType;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -32,7 +32,7 @@
 .method public constructor <init>(JIILkshark/PrimitiveType;)V
     .locals 1
     .param p5    # Lkshark/PrimitiveType;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -83,7 +83,7 @@
 
 .method public final d()Lkshark/PrimitiveType;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/m$b$c$h;->d:Lkshark/PrimitiveType;

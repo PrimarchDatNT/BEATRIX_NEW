@@ -31,12 +31,12 @@
 .field private V:I
 
 .field private W:Lcom/commsource/editengine/d;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private X:Lcom/commsource/studio/bean/BaseLayerInfo;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -1773,7 +1773,7 @@
 .method public final D0(Lcotlin/jvm/u/a;)V
     .locals 3
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/UiThread;
@@ -1828,7 +1828,7 @@
 .method public final G0(Lcom/commsource/editengine/d;)V
     .locals 1
     .param p1    # Lcom/commsource/editengine/d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1916,7 +1916,7 @@
 .method public final I0(Lcom/commsource/studio/bean/BaseLayerInfo;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/bean/BaseLayerInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2007,18 +2007,18 @@
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 3
     .param p1    # Landroid/view/LayoutInflater;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/view/ViewGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 p2, 0x31f5
@@ -2298,11 +2298,11 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 9
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2437,7 +2437,7 @@
 
 .method public final u0()Lcom/commsource/editengine/d;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x31f1
@@ -2516,7 +2516,7 @@
 
 .method public final w0()Lcom/commsource/studio/bean/BaseLayerInfo;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x31f7

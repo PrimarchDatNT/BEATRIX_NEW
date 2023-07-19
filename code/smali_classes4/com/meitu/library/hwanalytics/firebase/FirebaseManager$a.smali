@@ -64,11 +64,11 @@
 .method public b(Lcom/google/firebase/firestore/c0;Lcom/google/firebase/firestore/FirebaseFirestoreException;)V
     .locals 6
     .param p1    # Lcom/google/firebase/firestore/c0;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/google/firebase/firestore/FirebaseFirestoreException;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

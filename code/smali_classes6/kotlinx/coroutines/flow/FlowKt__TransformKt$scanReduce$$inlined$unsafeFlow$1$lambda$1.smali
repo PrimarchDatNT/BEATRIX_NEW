@@ -55,10 +55,10 @@
 .method public emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 8
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p2, Lcotlinx/coroutines/flow/FlowKt__TransformKt$scanReduce$$inlined$unsafeFlow$1$lambda$1$1;

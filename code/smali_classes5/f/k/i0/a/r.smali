@@ -25,7 +25,7 @@
 # virtual methods
 .method public abstract D(Ljava/util/List;)V
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -44,7 +44,7 @@
 
 .method public abstract F1(Ljava/util/List;)V
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -62,7 +62,7 @@
 
 .method public abstract G0([Lcom/meitu/template/bean/Filter;)V
     .param p1    # [Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -72,7 +72,7 @@
 
 .method public abstract J([Lcom/meitu/template/bean/Filter;)V
     .param p1    # [Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -81,7 +81,7 @@
 
 .method public abstract M0(Ljava/util/List;)V
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -99,7 +99,7 @@
 
 .method public abstract Y0([Lcom/meitu/template/bean/Filter;)V
     .param p1    # [Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -120,7 +120,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -138,26 +138,26 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract c(Ljava/lang/Integer;)Lcom/meitu/template/bean/Filter;
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
         value = "select * from NEW_FILTER where FilterId=:key"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract c2(Lcom/meitu/template/bean/Filter;)V
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -178,13 +178,13 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method public abstract h2(Lcom/meitu/template/bean/Filter;)V
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -194,7 +194,7 @@
 
 .method public abstract k3(Lcom/meitu/template/bean/Filter;)V
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -204,7 +204,7 @@
 
 .method public abstract o2(Lcom/meitu/template/bean/Filter;)V
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -213,7 +213,7 @@
 
 .method public abstract t0(Lcom/meitu/template/bean/Filter;)V
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;

@@ -36,7 +36,7 @@
 # virtual methods
 .method public final a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xc129

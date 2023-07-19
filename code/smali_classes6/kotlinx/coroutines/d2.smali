@@ -20,7 +20,7 @@
 .method public constructor <init>(Lcotlinx/coroutines/c2;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/c2;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

@@ -14,22 +14,22 @@
 
 # instance fields
 .field private a:Lcom/commsource/camera/f1/g$a;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private b:Ljava/lang/Runnable;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private c:Lcom/commsource/camera/f1/g$a;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private d:Ljava/lang/Runnable;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -204,15 +204,15 @@
 .method public final a(Landroid/app/Activity;Lcom/commsource/beautyplus/router/RouterEntity;Ljava/lang/Runnable;)V
     .locals 4
     .param p1    # Landroid/app/Activity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -353,7 +353,7 @@
 
 .method public final d()Lcom/commsource/camera/f1/g$a;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1a67
@@ -369,7 +369,7 @@
 
 .method public final e()Ljava/lang/Runnable;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1a69
@@ -385,7 +385,7 @@
 
 .method public final f()Lcom/commsource/camera/f1/g$a;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1a6b
@@ -401,7 +401,7 @@
 
 .method public final g()Ljava/lang/Runnable;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1a6d
@@ -418,7 +418,7 @@
 .method public final h(Lcom/commsource/camera/f1/g$a;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/f1/g$a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -436,7 +436,7 @@
 .method public final i(Ljava/lang/Runnable;)V
     .locals 1
     .param p1    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -454,7 +454,7 @@
 .method public final j(Lcom/commsource/camera/f1/g$a;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/f1/g$a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -472,7 +472,7 @@
 .method public final k(Ljava/lang/Runnable;)V
     .locals 1
     .param p1    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

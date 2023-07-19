@@ -22,7 +22,7 @@
 
 # static fields
 .field public static final a:Lcotlin/i2/p$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -41,6 +41,6 @@
 
 # virtual methods
 .method public abstract a()Lcotlin/i2/o;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method

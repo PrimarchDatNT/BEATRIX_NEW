@@ -33,7 +33,7 @@
 
 .method public varargs abstract q([Ljava/lang/Object;)Ljava/lang/Object;
     .param p1    # [Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

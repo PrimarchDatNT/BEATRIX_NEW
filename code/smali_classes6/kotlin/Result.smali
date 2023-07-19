@@ -32,14 +32,14 @@
 
 # static fields
 .field public static final Companion:Lcotlin/Result$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 
 # instance fields
 .field private final value:Ljava/lang/Object;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -84,13 +84,13 @@
 .method public static constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
     .param p0    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     return-object p0
@@ -137,7 +137,7 @@
 
 .method public static final exceptionOrNull-impl(Ljava/lang/Object;)Ljava/lang/Throwable;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p0, Lcotlin/Result$Failure;
@@ -228,7 +228,7 @@
 
 .method public static toString-impl(Ljava/lang/Object;)Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     instance-of v0, p0, Lcotlin/Result$Failure;
@@ -292,7 +292,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/Result;->value:Ljava/lang/Object;

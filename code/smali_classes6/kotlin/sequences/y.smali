@@ -18,7 +18,7 @@
 .method public static final a(Lcotlin/sequences/m;)I
     .locals 2
     .param p0    # Lcotlin/sequences/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -89,7 +89,7 @@
 .method public static final b(Lcotlin/sequences/m;)I
     .locals 2
     .param p0    # Lcotlin/sequences/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -154,7 +154,7 @@
 .method public static final c(Lcotlin/sequences/m;)J
     .locals 4
     .param p0    # Lcotlin/sequences/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -219,7 +219,7 @@
 .method public static final d(Lcotlin/sequences/m;)I
     .locals 3
     .param p0    # Lcotlin/sequences/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

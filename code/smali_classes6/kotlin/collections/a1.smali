@@ -47,7 +47,7 @@
 .method public constructor <init>([Ljava/lang/Object;I)V
     .locals 3
     .param p1    # [Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -281,7 +281,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlin/collections/a1$a;
@@ -353,7 +353,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget v0, p0, Lcotlin/collections/a1;->b:I
@@ -427,7 +427,7 @@
 
 .method public toArray()[Ljava/lang/Object;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Lcotlin/collections/AbstractCollection;->size()I
@@ -446,7 +446,7 @@
 .method public toArray([Ljava/lang/Object;)[Ljava/lang/Object;
     .locals 5
     .param p1    # [Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -457,7 +457,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "array"

@@ -19,11 +19,11 @@
 .method public static final g([Ljava/lang/Object;[Ljava/lang/Object;)Z
     .locals 7
     .param p0    # [Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p1    # [Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -426,7 +426,7 @@
 .method public static final h([Ljava/lang/Object;)Ljava/lang/String;
     .locals 2
     .param p0    # [Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -449,7 +449,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     if-nez p0, :cond_0
@@ -818,7 +818,7 @@
 .method public static final j([[Ljava/lang/Object;)Ljava/util/List;
     .locals 5
     .param p0    # [[Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -831,7 +831,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$flatten"
@@ -963,7 +963,7 @@
 .method public static final m([Lcotlin/Pair;)Lcotlin/Pair;
     .locals 6
     .param p0    # [Lcotlin/Pair;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -983,7 +983,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$unzip"

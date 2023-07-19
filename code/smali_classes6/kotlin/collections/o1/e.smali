@@ -28,7 +28,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -37,7 +37,7 @@
 .method public constructor <init>(Lcotlin/collections/o1/d;)V
     .locals 1
     .param p1    # Lcotlin/collections/o1/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -76,7 +76,7 @@
 .method public addAll(Ljava/util/Collection;)Z
     .locals 1
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -125,7 +125,7 @@
 .method public containsAll(Ljava/util/Collection;)Z
     .locals 1
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -154,7 +154,7 @@
 .method public e(Ljava/util/Map$Entry;)Z
     .locals 1
     .param p1    # Ljava/util/Map$Entry;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -181,7 +181,7 @@
 .method public h(Ljava/util/Map$Entry;)Z
     .locals 1
     .param p1    # Ljava/util/Map$Entry;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -201,7 +201,7 @@
 .method public i(Ljava/util/Map$Entry;)Z
     .locals 1
     .param p1    # Ljava/util/Map$Entry;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -246,7 +246,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/collections/o1/e;->a:Lcotlin/collections/o1/d;
@@ -268,7 +268,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/collections/o1/e;->a:Lcotlin/collections/o1/d;
@@ -279,7 +279,7 @@
 .method public removeAll(Ljava/util/Collection;)Z
     .locals 1
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -310,7 +310,7 @@
 .method public retainAll(Ljava/util/Collection;)Z
     .locals 1
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

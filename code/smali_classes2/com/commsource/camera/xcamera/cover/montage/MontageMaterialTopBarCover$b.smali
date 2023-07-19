@@ -50,7 +50,7 @@
 .method public final a(Ljava/lang/Boolean;)V
     .locals 2
     .param p1    # Ljava/lang/Boolean;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

@@ -52,11 +52,11 @@
 .method public static final a(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Throwable;)V
     .locals 4
     .param p0    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -37,7 +37,7 @@
 .field private c:I
 
 .field private d:Lcotlin/g2/k;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -288,7 +288,7 @@
 
 .method public final d()Lcotlin/g2/k;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlin/text/f$a;->d:Lcotlin/g2/k;
@@ -314,7 +314,7 @@
 
 .method public g()Lcotlin/g2/k;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget v0, p0, Lcotlin/text/f$a;->a:I
@@ -398,7 +398,7 @@
 .method public final k(Lcotlin/g2/k;)V
     .locals 0
     .param p1    # Lcotlin/g2/k;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

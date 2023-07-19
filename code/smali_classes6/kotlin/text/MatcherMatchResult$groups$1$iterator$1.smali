@@ -65,7 +65,7 @@
 
 .method public final invoke(I)Lcotlin/text/h;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlin/text/MatcherMatchResult$groups$1$iterator$1;->this$0:Lcotlin/text/MatcherMatchResult$groups$1;

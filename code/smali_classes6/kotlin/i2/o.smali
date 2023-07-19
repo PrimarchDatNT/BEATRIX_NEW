@@ -59,7 +59,7 @@
 
 .method public d(D)Lcotlin/i2/o;
     .locals 0
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p1, p2}, Lcotlin/i2/d;->v0(D)D
@@ -75,7 +75,7 @@
 
 .method public e(D)Lcotlin/i2/o;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlin/i2/c;

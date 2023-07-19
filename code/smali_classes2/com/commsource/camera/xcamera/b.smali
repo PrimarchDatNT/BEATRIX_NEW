@@ -24,7 +24,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -37,7 +37,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -50,7 +50,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -63,7 +63,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -76,7 +76,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -125,11 +125,11 @@
 .method public D(Lcom/meitu/library/camera/MTCamera;Lcom/meitu/library/camera/MTCamera$h;)V
     .locals 3
     .param p1    # Lcom/meitu/library/camera/MTCamera;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/library/camera/MTCamera$h;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -169,7 +169,7 @@
 .method public E(Lcom/meitu/library/camera/MTCamera$h;)V
     .locals 3
     .param p1    # Lcom/meitu/library/camera/MTCamera$h;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -209,11 +209,11 @@
 .method public F(Lcom/google/ar/core/TrackingState;Lcom/google/ar/core/TrackingState;)V
     .locals 3
     .param p1    # Lcom/google/ar/core/TrackingState;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/google/ar/core/TrackingState;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -289,7 +289,7 @@
 .method public final F1(Lcom/commsource/camera/xcamera/p/b;)V
     .locals 2
     .param p1    # Lcom/commsource/camera/xcamera/p/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -336,7 +336,7 @@
 .method public H1(Ljava/lang/String;)V
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -426,7 +426,7 @@
 .method public P(Lcom/meitu/mtobjdetect/MTAnimalData;II)V
     .locals 3
     .param p1    # Lcom/meitu/mtobjdetect/MTAnimalData;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -466,7 +466,7 @@
 .method public Q0(Lcom/meitu/library/camera/q/g;)V
     .locals 0
     .param p1    # Lcom/meitu/library/camera/q/g;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -590,7 +590,7 @@
 .method public X(Ljava/lang/String;)V
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -630,7 +630,7 @@
 .method public final X1(Lcom/meitu/library/camera/q/i/s;)V
     .locals 2
     .param p1    # Lcom/meitu/library/camera/q/i/s;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -663,7 +663,7 @@
 .method public final Z0(Lf/k/t/c;)V
     .locals 2
     .param p1    # Lf/k/t/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -740,7 +740,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7161
@@ -793,7 +793,7 @@
 .method public c(Lcom/meitu/library/camera/MTCamera$c;)V
     .locals 3
     .param p1    # Lcom/meitu/library/camera/MTCamera$c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -837,7 +837,7 @@
 .method public final d2(Lcom/commsource/camera/x0/d;)V
     .locals 2
     .param p1    # Lcom/commsource/camera/x0/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -870,7 +870,7 @@
 .method public e0(Ljava/lang/String;)V
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -910,7 +910,7 @@
 .method public final e2(Ljava/util/concurrent/CopyOnWriteArrayList;)V
     .locals 2
     .param p1    # Ljava/util/concurrent/CopyOnWriteArrayList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -948,7 +948,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x715f
@@ -965,7 +965,7 @@
 .method public final f2(Ljava/util/concurrent/CopyOnWriteArrayList;)V
     .locals 2
     .param p1    # Ljava/util/concurrent/CopyOnWriteArrayList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1003,7 +1003,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x715d
@@ -1056,7 +1056,7 @@
 .method public final g2(Ljava/util/concurrent/CopyOnWriteArrayList;)V
     .locals 2
     .param p1    # Ljava/util/concurrent/CopyOnWriteArrayList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1085,7 +1085,7 @@
 
 .method public getNodesServer()Lcom/meitu/library/camera/q/g;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x717c
@@ -1138,15 +1138,15 @@
 .method public h1(Lcom/meitu/library/d/a/a;Lcom/google/ar/core/Session;Lcom/meitu/library/d/a/a$c;)V
     .locals 3
     .param p1    # Lcom/meitu/library/d/a/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/google/ar/core/Session;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Lcom/meitu/library/d/a/a$c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1186,7 +1186,7 @@
 .method public final h2(Ljava/util/concurrent/CopyOnWriteArrayList;)V
     .locals 2
     .param p1    # Ljava/util/concurrent/CopyOnWriteArrayList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1216,7 +1216,7 @@
 .method public final i2(Ljava/util/concurrent/CopyOnWriteArrayList;)V
     .locals 2
     .param p1    # Ljava/util/concurrent/CopyOnWriteArrayList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1318,7 +1318,7 @@
 .method public final j2(Lf/k/t/c;)V
     .locals 2
     .param p1    # Lf/k/t/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1351,11 +1351,11 @@
 .method public k(Lcom/meitu/library/camera/MTCamera$c;Lcom/meitu/library/camera/MTCamera$c;)V
     .locals 3
     .param p1    # Lcom/meitu/library/camera/MTCamera$c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/library/camera/MTCamera$c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1403,7 +1403,7 @@
 .method public final k2(Lcom/commsource/camera/xcamera/p/a;)V
     .locals 2
     .param p1    # Lcom/commsource/camera/xcamera/p/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1436,7 +1436,7 @@
 .method public final l2(Lcom/meitu/library/camera/q/i/r;)V
     .locals 2
     .param p1    # Lcom/meitu/library/camera/q/i/r;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1489,7 +1489,7 @@
 .method public final m2(Lcom/meitu/library/camera/q/i/s;)V
     .locals 2
     .param p1    # Lcom/meitu/library/camera/q/i/s;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1530,7 +1530,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x715b
@@ -1547,7 +1547,7 @@
 .method public final n2(Lcom/commsource/camera/x0/d;)V
     .locals 2
     .param p1    # Lcom/commsource/camera/x0/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1724,7 +1724,7 @@
 .method public q1(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
     .locals 3
     .param p1    # Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1908,7 +1908,7 @@
 .method public final y1(Lcom/commsource/camera/xcamera/p/a;)V
     .locals 2
     .param p1    # Lcom/commsource/camera/xcamera/p/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1949,7 +1949,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7163

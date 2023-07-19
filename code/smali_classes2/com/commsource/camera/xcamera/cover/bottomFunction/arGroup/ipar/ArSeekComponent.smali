@@ -75,11 +75,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1314,7 +1314,7 @@
 .method public final J(ZLjava/lang/Runnable;)V
     .locals 6
     .param p2    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2138,7 +2138,7 @@
 .method public final setMusicChangeCallback(Lcotlin/jvm/u/l;)V
     .locals 2
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2184,7 +2184,7 @@
 .method public final setProgressChangeCallback(Lcotlin/jvm/u/q;)V
     .locals 1
     .param p1    # Lcotlin/jvm/u/q;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

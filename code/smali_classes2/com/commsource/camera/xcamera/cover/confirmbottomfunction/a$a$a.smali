@@ -43,7 +43,7 @@
 .method public a(ILjava/lang/String;)V
     .locals 2
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -162,7 +162,7 @@
 .method public onResponse(Ljava/lang/String;)V
     .locals 9
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

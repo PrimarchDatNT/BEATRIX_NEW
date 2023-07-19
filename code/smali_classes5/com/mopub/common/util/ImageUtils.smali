@@ -8,7 +8,7 @@
 
 # static fields
 .field public static final INSTANCE:Lcom/mopub/common/util/ImageUtils;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -37,13 +37,13 @@
 .method public static final applyFastGaussianBlurToBitmap(Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
     .locals 20
     .param p0    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     move-object/from16 v8, p0
@@ -328,7 +328,7 @@
 .method public static final getMaxImageWidth(Landroid/content/Context;)I
     .locals 1
     .param p0    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;

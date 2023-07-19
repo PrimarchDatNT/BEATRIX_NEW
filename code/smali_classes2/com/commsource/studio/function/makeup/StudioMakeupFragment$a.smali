@@ -23,7 +23,7 @@
 .method public constructor <init>(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;Landroidx/fragment/app/Fragment;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -49,7 +49,7 @@
 # virtual methods
 .method public createFragment(I)Landroidx/fragment/app/Fragment;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x58b7

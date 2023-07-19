@@ -37,12 +37,12 @@
 .end field
 
 .field private final gcRootType:Lkshark/LeakTrace$GcRootType;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final leakingObject:Lkshark/LeakTraceObject;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -55,12 +55,12 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final retainedHeapByteSize:Ljava/lang/Integer;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -83,19 +83,19 @@
 .method public constructor <init>(Lkshark/LeakTrace$GcRootType;Ljava/util/List;Lkshark/LeakTraceObject;Ljava/lang/Integer;)V
     .locals 1
     .param p1    # Lkshark/LeakTrace$GcRootType;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lkshark/LeakTraceObject;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -637,7 +637,7 @@
 # virtual methods
 .method public final component1()Lkshark/LeakTrace$GcRootType;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTrace;->gcRootType:Lkshark/LeakTrace$GcRootType;
@@ -656,7 +656,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTrace;->referencePath:Ljava/util/List;
@@ -666,7 +666,7 @@
 
 .method public final component3()Lkshark/LeakTraceObject;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTrace;->leakingObject:Lkshark/LeakTraceObject;
@@ -676,7 +676,7 @@
 
 .method public final component4()Ljava/lang/Integer;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTrace;->retainedHeapByteSize:Ljava/lang/Integer;
@@ -687,19 +687,19 @@
 .method public final copy(Lkshark/LeakTrace$GcRootType;Ljava/util/List;Lkshark/LeakTraceObject;Ljava/lang/Integer;)Lkshark/LeakTrace;
     .locals 1
     .param p1    # Lkshark/LeakTrace$GcRootType;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lkshark/LeakTraceObject;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -716,7 +716,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "gcRootType"
@@ -741,7 +741,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -810,10 +810,10 @@
 .method public final fromV20$shark(Ljava/lang/Integer;)Lkshark/LeakTrace;
     .locals 4
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTrace;->elements:Ljava/util/List;
@@ -904,7 +904,7 @@
 
 .method public final getGcRootType()Lkshark/LeakTrace$GcRootType;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTrace;->gcRootType:Lkshark/LeakTrace$GcRootType;
@@ -914,7 +914,7 @@
 
 .method public final getLeakingObject()Lkshark/LeakTraceObject;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTrace;->leakingObject:Lkshark/LeakTraceObject;
@@ -933,7 +933,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTrace;->referencePath:Ljava/util/List;
@@ -943,7 +943,7 @@
 
 .method public final getRetainedHeapByteSize()Ljava/lang/Integer;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTrace;->retainedHeapByteSize:Ljava/lang/Integer;
@@ -953,7 +953,7 @@
 
 .method public final getSignature()Ljava/lang/String;
     .locals 9
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Lkshark/LeakTrace;->getSuspectReferenceSubpath()Lcotlin/sequences/m;
@@ -998,7 +998,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTrace;->referencePath:Ljava/util/List;
@@ -1169,7 +1169,7 @@
 
 .method public final toSimplePathString()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/4 v0, 0x0
@@ -1183,7 +1183,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/4 v0, 0x1

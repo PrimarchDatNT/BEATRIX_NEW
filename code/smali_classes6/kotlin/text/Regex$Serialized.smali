@@ -26,7 +26,7 @@
 
 # static fields
 .field public static final Companion:Lcotlin/text/Regex$Serialized$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -37,7 +37,7 @@
 .field private final flags:I
 
 .field private final pattern:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -60,7 +60,7 @@
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -111,7 +111,7 @@
 
 .method public final getPattern()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/text/Regex$Serialized;->pattern:Ljava/lang/String;

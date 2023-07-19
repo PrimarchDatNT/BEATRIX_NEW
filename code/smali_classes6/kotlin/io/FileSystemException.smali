@@ -8,17 +8,17 @@
 
 # instance fields
 .field private final file:Ljava/io/File;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final other:Ljava/io/File;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final reason:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -27,15 +27,15 @@
 .method public constructor <init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/io/File;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -86,7 +86,7 @@
 # virtual methods
 .method public final getFile()Ljava/io/File;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/io/FileSystemException;->file:Ljava/io/File;
@@ -96,7 +96,7 @@
 
 .method public final getOther()Ljava/io/File;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlin/io/FileSystemException;->other:Ljava/io/File;
@@ -106,7 +106,7 @@
 
 .method public final getReason()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlin/io/FileSystemException;->reason:Ljava/lang/String;

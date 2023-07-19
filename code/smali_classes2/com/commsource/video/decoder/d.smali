@@ -10,7 +10,7 @@
 .field private final a:I
 
 .field private final b:Landroid/os/Handler;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -90,7 +90,7 @@
 
 .method public final d()Landroid/os/Handler;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/video/decoder/d;->b:Landroid/os/Handler;

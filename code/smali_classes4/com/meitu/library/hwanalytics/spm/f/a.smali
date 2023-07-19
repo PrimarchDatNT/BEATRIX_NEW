@@ -859,19 +859,19 @@
 .method public final b(Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/hwanalytics/spm/e/a;)V
     .locals 6
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Lcom/meitu/library/hwanalytics/spm/e/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1001,14 +1001,14 @@
 .method public final c(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xc1ac
@@ -1146,11 +1146,11 @@
 .method public final d(Lcom/meitu/library/hwanalytics/spm/e/a;Lcom/meitu/library/hwanalytics/spm/e/a;)Z
     .locals 9
     .param p1    # Lcom/meitu/library/hwanalytics/spm/e/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/library/hwanalytics/spm/e/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1327,11 +1327,11 @@
 .method public final e(Lcom/meitu/library/hwanalytics/spm/e/a;Lcom/meitu/library/hwanalytics/spm/e/a;)Z
     .locals 4
     .param p1    # Lcom/meitu/library/hwanalytics/spm/e/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/library/hwanalytics/spm/e/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1397,7 +1397,7 @@
 .method public final g(Ljava/util/Map;)Ljava/util/Map;
     .locals 10
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1414,7 +1414,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xc1ad

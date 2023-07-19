@@ -55,10 +55,10 @@
 .method public final fromV20(Lkshark/LeakTraceObject;)Lkshark/LeakTraceReference;
     .locals 4
     .param p1    # Lkshark/LeakTraceObject;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "originObject"

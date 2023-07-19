@@ -53,7 +53,7 @@
 .method public a(IILandroid/content/Intent;)Z
     .locals 3
     .param p3    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -139,7 +139,7 @@
 .method public b(Lcom/commsource/util/p2/a;)V
     .locals 3
     .param p1    # Lcom/commsource/util/p2/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

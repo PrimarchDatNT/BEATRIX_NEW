@@ -11,7 +11,7 @@
 
 # instance fields
 .field private final a:Lcotlin/text/i;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -34,11 +34,11 @@
 .method public constructor <init>(Ljava/util/regex/Matcher;Ljava/lang/CharSequence;)V
     .locals 1
     .param p1    # Ljava/util/regex/Matcher;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/CharSequence;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -87,7 +87,7 @@
 # virtual methods
 .method public X1()Lcotlin/g2/k;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-direct {p0}, Lcotlin/text/MatcherMatchResult;->e()Ljava/util/regex/MatchResult;
@@ -103,7 +103,7 @@
 
 .method public a()Lcotlin/text/k$b;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Lcotlin/text/k$a;->a(Lcotlin/text/k;)Lcotlin/text/k$b;
@@ -124,7 +124,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/text/MatcherMatchResult;->b:Ljava/util/List;
@@ -147,7 +147,7 @@
 
 .method public c()Lcotlin/text/i;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/text/MatcherMatchResult;->a:Lcotlin/text/i;
@@ -157,7 +157,7 @@
 
 .method public getValue()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-direct {p0}, Lcotlin/text/MatcherMatchResult;->e()Ljava/util/regex/MatchResult;
@@ -177,7 +177,7 @@
 
 .method public next()Lcotlin/text/k;
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-direct {p0}, Lcotlin/text/MatcherMatchResult;->e()Ljava/util/regex/MatchResult;

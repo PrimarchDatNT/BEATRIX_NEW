@@ -22,7 +22,7 @@
 
 # static fields
 .field public static final a:Lcotlin/z1/e;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -53,11 +53,11 @@
 .method public a(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
     .locals 1
     .param p1    # Ljava/lang/Comparable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Comparable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -113,7 +113,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/z1/f;->a:Lcotlin/z1/f;

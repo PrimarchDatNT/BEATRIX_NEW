@@ -153,7 +153,7 @@
 .field public static final enum GESTURE_BOOST_MANAGER:Lkshark/AndroidReferenceMatchers;
 
 .field public static final HUAWEI:Ljava/lang/String; = "HUAWEI"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -174,12 +174,12 @@
 .field private static final LEAK_CANARY_THREAD_NAME:Ljava/lang/String; = "LeakCanary-Heap-Dump"
 
 .field public static final LENOVO:Ljava/lang/String; = "LENOVO"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final LG:Ljava/lang/String; = "LGE"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -198,24 +198,24 @@
 .field public static final enum MEDIA_SESSION_LEGACY_HELPER__SINSTANCE:Lkshark/AndroidReferenceMatchers;
 
 .field public static final MEIZU:Ljava/lang/String; = "Meizu"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final MOTOROLA:Ljava/lang/String; = "motorola"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final NVIDIA:Ljava/lang/String; = "NVIDIA"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final enum OEM_SCENE_CALL_BLOCKER:Lkshark/AndroidReferenceMatchers;
 
 .field public static final ONE_PLUS:Ljava/lang/String; = "OnePlus"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -226,7 +226,7 @@
 .field public static final enum RESOURCES__MCONTEXT:Lkshark/AndroidReferenceMatchers;
 
 .field public static final SAMSUNG:Ljava/lang/String; = "samsung"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -239,7 +239,7 @@
 .field public static final enum SEM_PERSONA_MANAGER:Lkshark/AndroidReferenceMatchers;
 
 .field public static final SHARP:Ljava/lang/String; = "SHARP"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -274,7 +274,7 @@
 .field public static final enum VIEW_CONFIGURATION__MCONTEXT:Lkshark/AndroidReferenceMatchers;
 
 .field public static final VIVO:Ljava/lang/String; = "vivo"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -1219,7 +1219,7 @@
 # virtual methods
 .method public abstract add$shark(Ljava/util/List;)V
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

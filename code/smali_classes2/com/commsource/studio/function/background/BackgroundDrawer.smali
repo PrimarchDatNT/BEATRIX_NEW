@@ -27,17 +27,17 @@
 .field private i:I
 
 .field private j:Landroid/graphics/PorterDuffXfermode;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private k:Lcom/commsource/studio/function/background/BackgroundTexture;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private l:Lcom/commsource/studio/function/background/BackgroundType;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -162,7 +162,7 @@
 
 .method public final d()Lcom/commsource/studio/function/background/BackgroundTexture;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0xe65
@@ -178,7 +178,7 @@
 
 .method public final e()Lcom/commsource/studio/function/background/BackgroundType;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0xe67
@@ -236,7 +236,7 @@
 
 .method public final i()Landroid/graphics/PorterDuffXfermode;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0xe63
@@ -253,7 +253,7 @@
 .method public final j(Landroid/graphics/Canvas;)V
     .locals 12
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -564,7 +564,7 @@
 .method public final n(Lcom/commsource/studio/function/background/BackgroundType;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/function/background/BackgroundType;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -616,7 +616,7 @@
 .method public final q(Lcom/commsource/studio/function/background/BackgroundTexture;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/function/background/BackgroundTexture;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -634,7 +634,7 @@
 .method public final r(Lcom/commsource/studio/function/background/BackgroundType;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/function/background/BackgroundType;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -694,11 +694,11 @@
 .method public final v(Landroid/graphics/Bitmap;Lcom/commsource/studio/function/background/BackgroundTexture;)V
     .locals 2
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/function/background/BackgroundTexture;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -758,7 +758,7 @@
 .method public final x(Landroid/graphics/PorterDuffXfermode;)V
     .locals 1
     .param p1    # Landroid/graphics/PorterDuffXfermode;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

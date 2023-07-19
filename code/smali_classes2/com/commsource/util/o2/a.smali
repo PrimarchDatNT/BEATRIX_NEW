@@ -81,7 +81,7 @@
 
 .method public l(IIF)Ljava/lang/Integer;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8401
@@ -103,7 +103,7 @@
 
 .method public m(I)Ljava/lang/Integer;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x83ff

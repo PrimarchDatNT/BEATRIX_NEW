@@ -9,7 +9,7 @@
 
 # static fields
 .field public static final a:Ljava/lang/String; = "kotlinx.coroutines.scheduler"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -119,7 +119,7 @@
 
 .method public static final a()Lcotlinx/coroutines/CoroutineDispatcher;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-boolean v0, Lcotlinx/coroutines/h0;->b:Z
@@ -140,10 +140,10 @@
 .method public static final b(Lcotlin/coroutines/CoroutineContext;)Ljava/lang/String;
     .locals 4
     .param p0    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {}, Lcotlinx/coroutines/p0;->d()Z
@@ -226,17 +226,17 @@
 .method public static final d(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;)Lcotlin/coroutines/CoroutineContext;
     .locals 2
     .param p0    # Lcotlinx/coroutines/m0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-interface {p0}, Lcotlinx/coroutines/m0;->R()Lcotlin/coroutines/CoroutineContext;
@@ -304,15 +304,15 @@
 .method public static final e(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Object;Lcotlin/jvm/u/a;)Ljava/lang/Object;
     .locals 1
     .param p0    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

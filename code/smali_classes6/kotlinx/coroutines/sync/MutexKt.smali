@@ -124,7 +124,7 @@
 
 .method public static final f(Z)Lcotlinx/coroutines/sync/c;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/sync/d;
@@ -228,19 +228,19 @@
 .method public static final r(Lcotlinx/coroutines/sync/c;Ljava/lang/Object;Lcotlin/jvm/u/a;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
     .param p0    # Lcotlinx/coroutines/sync/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -258,7 +258,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p3, Lcotlinx/coroutines/sync/MutexKt$withLock$1;
@@ -379,22 +379,22 @@
 .method private static final s(Lcotlinx/coroutines/sync/c;Ljava/lang/Object;Lcotlin/jvm/u/a;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 1
     .param p0    # Lcotlinx/coroutines/sync/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/4 v0, 0x0

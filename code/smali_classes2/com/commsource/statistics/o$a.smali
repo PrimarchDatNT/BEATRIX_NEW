@@ -32,7 +32,7 @@
 .method public a(ZLjava/lang/String;)V
     .locals 0
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -48,7 +48,7 @@
 .method public b(Ljava/lang/String;)V
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

@@ -41,7 +41,7 @@
 .method public constructor <init>(Lcotlin/sequences/m;I)V
     .locals 1
     .param p1    # Lcotlin/sequences/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -134,7 +134,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget v0, p0, Lcotlin/sequences/t;->b:I
@@ -170,7 +170,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget v0, p0, Lcotlin/sequences/t;->b:I
@@ -202,7 +202,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlin/sequences/t$a;

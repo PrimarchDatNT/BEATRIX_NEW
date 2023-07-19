@@ -17,7 +17,7 @@
 .field private layerType:I
 
 .field private serializeString:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -32,7 +32,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -86,7 +86,7 @@
 .method public final contains(Lcom/commsource/studio/bean/BaseLayerInfo;)Z
     .locals 4
     .param p1    # Lcom/commsource/studio/bean/BaseLayerInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -182,7 +182,7 @@
 
 .method public copy(Z)Lcom/commsource/studio/bean/GroupLayerInfo;
     .locals 7
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8349
@@ -403,7 +403,7 @@
 .method public final getLayerInfoCount(Ljava/lang/Class;)I
     .locals 4
     .param p1    # Ljava/lang/Class;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -491,7 +491,7 @@
 .method public final getLayerInfoPair(Lcom/commsource/studio/bean/FocusLayerInfo;)Lcotlin/Pair;
     .locals 4
     .param p1    # Lcom/commsource/studio/bean/FocusLayerInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -506,7 +506,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8346
@@ -579,7 +579,7 @@
 
 .method public getMixMode()Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
     .locals 7
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8336
@@ -663,7 +663,7 @@
 
 .method public final getSerializeString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x833a
@@ -690,7 +690,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8338
@@ -707,7 +707,7 @@
 .method public final indexOf(Lcom/commsource/studio/bean/BaseLayerInfo;)I
     .locals 5
     .param p1    # Lcom/commsource/studio/bean/BaseLayerInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -779,7 +779,7 @@
 .method public final insert(Lcom/commsource/studio/bean/FocusLayerInfo;I)V
     .locals 4
     .param p1    # Lcom/commsource/studio/bean/FocusLayerInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1172,7 +1172,7 @@
 .method public final remove(Lcom/commsource/studio/bean/FocusLayerInfo;)V
     .locals 5
     .param p1    # Lcom/commsource/studio/bean/FocusLayerInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1350,7 +1350,7 @@
 .method public setMixMode(Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;)V
     .locals 3
     .param p1    # Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1396,7 +1396,7 @@
 .method public final setSerializeString(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1414,7 +1414,7 @@
 .method public final setSubLayerInfos(Ljava/util/ArrayList;)V
     .locals 2
     .param p1    # Ljava/util/ArrayList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1446,7 +1446,7 @@
 .method public final sortByLayerChain(Ljava/util/List;)V
     .locals 5
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

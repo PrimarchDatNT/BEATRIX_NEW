@@ -9,7 +9,7 @@
 
 # instance fields
 .field private final a:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -20,12 +20,12 @@
 .field private final d:Z
 
 .field private final e:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final f:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -36,15 +36,15 @@
 .method public constructor <init>(Ljava/lang/String;IIZLcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;Ljava/lang/String;I)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p5    # Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p6    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -84,7 +84,7 @@
 .method public a(IILandroid/content/Intent;)Z
     .locals 1
     .param p3    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -117,7 +117,7 @@
 .method public b(Lcom/commsource/util/p2/a;)V
     .locals 3
     .param p1    # Lcom/commsource/util/p2/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -202,7 +202,7 @@
 
 .method public final d()Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/util/delegate/process/n;->e:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
@@ -212,7 +212,7 @@
 
 .method public final e()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/util/delegate/process/n;->f:Ljava/lang/String;
@@ -230,7 +230,7 @@
 
 .method public final g()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/util/delegate/process/n;->a:Ljava/lang/String;

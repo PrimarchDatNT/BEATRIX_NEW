@@ -209,7 +209,7 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xd6ff
@@ -445,7 +445,7 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xd6fc
@@ -475,7 +475,7 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xd6fe
@@ -588,7 +588,7 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xd6fd

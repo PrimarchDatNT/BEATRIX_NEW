@@ -57,7 +57,7 @@
 .method public a(Ljava/util/Map;)V
     .locals 6
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -145,7 +145,7 @@
 .method public d0(Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

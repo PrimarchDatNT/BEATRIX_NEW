@@ -17,12 +17,12 @@
 
 # instance fields
 .field private final X:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final Y:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -31,7 +31,7 @@
 .field private a0:Z
 
 .field private b0:Landroid/view/View$OnClickListener;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -743,7 +743,7 @@
 
 .method public final L()Lcom/commsource/widget/h1/e;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6f6a
@@ -765,7 +765,7 @@
 
 .method public final M()Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6f6b
@@ -787,7 +787,7 @@
 
 .method public final O()Landroid/view/View$OnClickListener;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6f6f
@@ -838,7 +838,7 @@
 .method public final V(Landroid/view/View$OnClickListener;)V
     .locals 1
     .param p1    # Landroid/view/View$OnClickListener;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

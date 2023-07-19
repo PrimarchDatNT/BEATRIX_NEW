@@ -29,7 +29,7 @@
 .method public constructor <init>(Lcom/commsource/mypage/album/BpAlbumActivity;)V
     .locals 1
     .param p1    # Lcom/commsource/mypage/album/BpAlbumActivity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -609,11 +609,11 @@
 .method public a(IILcom/commsource/cloudalbum/bean/CAImageInfo;Landroid/view/View;)V
     .locals 1
     .param p3    # Lcom/commsource/cloudalbum/bean/CAImageInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p4    # Landroid/view/View;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -873,7 +873,7 @@
 .method public q(Lcom/commsource/puzzle/patchedworld/t/c;)V
     .locals 3
     .param p1    # Lcom/commsource/puzzle/patchedworld/t/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lorg/greenrobot/eventbus/j;

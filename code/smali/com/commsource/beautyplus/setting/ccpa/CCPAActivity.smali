@@ -290,7 +290,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 3
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

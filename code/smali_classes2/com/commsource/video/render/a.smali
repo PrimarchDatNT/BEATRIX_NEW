@@ -24,7 +24,7 @@
 .end method
 
 .method public abstract getRenderView()Landroid/view/View;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
@@ -36,7 +36,7 @@
 
 .method public abstract setRenderCallback(Lcom/commsource/video/render/b;)V
     .param p1    # Lcom/commsource/video/render/b;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 .end method

@@ -60,7 +60,7 @@
 # virtual methods
 .method public final a(IZ)Lcom/commsource/studio/function/background/BackgroundType;
     .locals 10
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9bad
@@ -127,10 +127,10 @@
 .method public final c(Lcom/commsource/studio/function/background/BackgroundColor;)Lcom/commsource/studio/function/background/BackgroundType;
     .locals 18
     .param p1    # Lcom/commsource/studio/function/background/BackgroundColor;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     move-object/from16 v0, p1

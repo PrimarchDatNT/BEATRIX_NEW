@@ -40,11 +40,11 @@
 .method public onTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
     .locals 4
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

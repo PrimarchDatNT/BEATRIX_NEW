@@ -15,7 +15,7 @@
 
 .method public abstract h(Lcom/commsource/video/view/XVideoUIGroup;)V
     .param p1    # Lcom/commsource/video/view/XVideoUIGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

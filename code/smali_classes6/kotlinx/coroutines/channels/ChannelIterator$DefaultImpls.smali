@@ -19,7 +19,7 @@
 .method public static synthetic a(Lcotlinx/coroutines/channels/ChannelIterator;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -44,7 +44,7 @@
         name = "next"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p1, Lcotlinx/coroutines/channels/ChannelIterator$next0$1;

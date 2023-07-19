@@ -65,7 +65,7 @@
 # virtual methods
 .method public final invoke()Lcom/meitu/template/bean/Filter;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x45e8

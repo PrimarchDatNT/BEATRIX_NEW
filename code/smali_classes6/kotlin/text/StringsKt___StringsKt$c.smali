@@ -76,7 +76,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/text/StringsKt___StringsKt$c;->a:Ljava/lang/CharSequence;

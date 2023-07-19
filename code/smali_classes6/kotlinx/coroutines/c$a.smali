@@ -28,7 +28,7 @@
 .field private volatile _disposer:Ljava/lang/Object;
 
 .field public f:Lcotlinx/coroutines/f1;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -49,11 +49,11 @@
 .method public constructor <init>(Lcotlinx/coroutines/c;Lcotlinx/coroutines/m;Lcotlinx/coroutines/c2;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlinx/coroutines/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -86,7 +86,7 @@
 .method public f0(Ljava/lang/Throwable;)V
     .locals 5
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -182,7 +182,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/c$a;->_disposer:Ljava/lang/Object;
@@ -194,7 +194,7 @@
 
 .method public final h0()Lcotlinx/coroutines/f1;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/c$a;->f:Lcotlinx/coroutines/f1;
@@ -212,7 +212,7 @@
 .method public final i0(Lcotlinx/coroutines/c$b;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/c$b;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -243,7 +243,7 @@
 .method public final j0(Lcotlinx/coroutines/f1;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/f1;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

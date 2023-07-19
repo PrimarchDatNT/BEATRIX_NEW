@@ -37,7 +37,7 @@
 # virtual methods
 .method public final a(I)Lcom/commsource/studio/sub/AdjustEffectEnum;
     .locals 6
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa0c3

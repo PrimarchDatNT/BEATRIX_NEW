@@ -8,6 +8,6 @@
 
 # virtual methods
 .method public abstract render()Lcom/commsource/easyeditor/utils/opengl/f;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method

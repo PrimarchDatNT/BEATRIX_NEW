@@ -48,7 +48,7 @@
 # virtual methods
 .method public final invoke()Lcom/commsource/studio/function/ar/StudioArFragment$vpAdapter$2$a;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8786

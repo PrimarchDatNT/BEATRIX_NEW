@@ -75,14 +75,14 @@
 .method public final invoke(Lcotlin/coroutines/CoroutineContext;Lcotlin/coroutines/CoroutineContext$a;)Lcotlin/coroutines/CoroutineContext;
     .locals 3
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/CoroutineContext$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "acc"

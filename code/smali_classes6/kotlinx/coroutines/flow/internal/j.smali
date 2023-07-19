@@ -38,7 +38,7 @@
 .method public constructor <init>(Lcotlinx/coroutines/channels/c0;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -61,7 +61,7 @@
 .method public emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 1
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -75,7 +75,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/flow/internal/j;->a:Lcotlinx/coroutines/channels/c0;

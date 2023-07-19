@@ -48,7 +48,7 @@
 .method public static final synthetic a(Lcom/meitu/library/h/f;Landroid/content/Context;)V
     .locals 0
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -444,7 +444,7 @@
 # virtual methods
 .method protected abstract d(Landroid/content/Context;)I
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method
@@ -460,7 +460,7 @@
 .method public final f(Landroid/content/Context;)I
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -480,11 +480,11 @@
 .method public final g(Landroid/content/Context;Lcom/meitu/library/h/i;)I
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/library/h/i;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -519,7 +519,7 @@
 .method public final i(Landroid/content/Context;)I
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;
@@ -542,11 +542,11 @@
 .method public final j(Landroid/content/Context;Lcom/meitu/library/h/i;)I
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/library/h/i;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;
@@ -604,7 +604,7 @@
 .method public final n(Landroid/content/Context;)V
     .locals 6
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Ld/a/a;
@@ -634,7 +634,7 @@
 .method public final o(Landroid/content/Context;J)V
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Ld/a/a;
@@ -686,7 +686,7 @@
         .end subannotation
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget v0, p0, Lcom/meitu/library/h/f;->c:I

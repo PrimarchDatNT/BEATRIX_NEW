@@ -23,52 +23,52 @@
 
 # static fields
 .field public static final a:Ljava/lang/String; = "https://openapi.mtlab.meitu.com/test/humanmaskv3"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final b:Ljava/lang/String; = "https://openapi.mtlab.meitu.com/v3/humanmask"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final c:Ljava/lang/String; = "https://openapi.mtlab.meitu.com/v1/mtanime"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final d:Ljava/lang/String; = "https://openapi.mtlab.meitu.com/v1/anime_food"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final e:Ljava/lang/String; = "117829"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final f:Ljava/lang/String; = "be148bd2d1df48ffad8b63604d893144"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final g:Ljava/lang/String; = "04b01fcc25fd4e459561a54adb2344d2"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final h:Ljava/lang/String; = "137533"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final i:Ljava/lang/String; = "e87c7aad84b94189ad3f71c78ef8b76f"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final j:Ljava/lang/String; = "ceb894f6ed594dd5be3ee75d6c7a6d5b"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -109,11 +109,11 @@
 .method public final a(Lcom/meitu/http/api/OpenLabApi$b;Lf/k/k/p;)Lf/k/k/d;
     .locals 9
     .param p1    # Lcom/meitu/http/api/OpenLabApi$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lf/k/k/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;
@@ -131,7 +131,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1289

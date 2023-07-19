@@ -8,7 +8,7 @@
 
 # static fields
 .field private static a:Lcom/google/firebase/analytics/FirebaseAnalytics;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -129,7 +129,7 @@
 # virtual methods
 .method public final c()Lcom/google/firebase/analytics/FirebaseAnalytics;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xc186
@@ -146,11 +146,11 @@
 .method public final d(Ljava/lang/String;Landroid/content/Context;)V
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/MainThread;
@@ -257,11 +257,11 @@
 .method public final e(Ljava/lang/String;Landroid/os/Bundle;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -316,7 +316,7 @@
 .method public final g(Lcom/google/firebase/analytics/FirebaseAnalytics;)V
     .locals 1
     .param p1    # Lcom/google/firebase/analytics/FirebaseAnalytics;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -334,11 +334,11 @@
 .method public final h(Ljava/lang/String;Ljava/lang/String;)V
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;

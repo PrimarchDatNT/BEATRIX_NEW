@@ -49,7 +49,7 @@
 # virtual methods
 .method public final invoke()Landroidx/recyclerview/widget/RecyclerView;
     .locals 6
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4658

@@ -11,7 +11,7 @@
 .method public static final a(Ljava/lang/Throwable;)Ljava/lang/Object;
     .locals 1
     .param p0    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p0;
@@ -21,7 +21,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "exception"
@@ -584,7 +584,7 @@
 .method public static final n(Ljava/lang/Object;)V
     .locals 1
     .param p0    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p0;

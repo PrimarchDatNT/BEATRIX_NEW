@@ -305,10 +305,10 @@
 .method public onBind(Landroid/content/Intent;)Landroid/os/IBinder;
     .locals 0
     .param p1    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const p1, 0x9814
@@ -437,7 +437,7 @@
 .method public onStartCommand(Landroid/content/Intent;II)I
     .locals 1
     .param p1    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

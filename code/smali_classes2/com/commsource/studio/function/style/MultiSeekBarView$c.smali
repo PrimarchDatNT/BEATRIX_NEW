@@ -26,6 +26,6 @@
 
 # virtual methods
 .method public abstract P()Landroid/view/View;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method

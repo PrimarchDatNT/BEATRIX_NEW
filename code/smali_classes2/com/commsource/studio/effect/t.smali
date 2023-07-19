@@ -22,7 +22,7 @@
 .field private a:I
 
 .field private b:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -126,7 +126,7 @@
 
 .method public final e()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/effect/t;->b:Ljava/lang/String;
@@ -148,7 +148,7 @@
 .method public final h(Ljava/lang/String;)V
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

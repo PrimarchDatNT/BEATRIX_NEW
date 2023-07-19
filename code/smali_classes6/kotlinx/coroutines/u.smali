@@ -26,7 +26,7 @@
 # virtual methods
 .method public abstract t(Lcotlinx/coroutines/s2;)V
     .param p1    # Lcotlinx/coroutines/s2;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlinx/coroutines/y1;

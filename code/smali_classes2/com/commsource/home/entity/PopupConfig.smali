@@ -23,7 +23,7 @@
         value = "cancel_button"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -38,7 +38,7 @@
         value = "confirm_button"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -47,7 +47,7 @@
         value = "deeplink"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -56,7 +56,7 @@
         value = "media"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -65,7 +65,7 @@
         value = "text"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -74,7 +74,7 @@
         value = "text_two"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -83,7 +83,7 @@
         value = "title"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -105,7 +105,7 @@
 # virtual methods
 .method public final getCancelButton()Lcom/commsource/home/entity/PopupConfig$CancelButton;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7a92
@@ -135,7 +135,7 @@
 
 .method public final getConfirmButton()Lcom/commsource/home/entity/PopupConfig$ConfirmButton;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7a90
@@ -151,7 +151,7 @@
 
 .method public final getDeeplink()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7a96
@@ -167,7 +167,7 @@
 
 .method public final getMedia()Lcom/commsource/home/entity/PopupConfig$Media;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7a94
@@ -183,7 +183,7 @@
 
 .method public final getText()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7a8a
@@ -199,7 +199,7 @@
 
 .method public final getTextTwo()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7a8c
@@ -215,7 +215,7 @@
 
 .method public final getTitle()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7a8e
@@ -232,7 +232,7 @@
 .method public final setCancelButton(Lcom/commsource/home/entity/PopupConfig$CancelButton;)V
     .locals 1
     .param p1    # Lcom/commsource/home/entity/PopupConfig$CancelButton;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -264,7 +264,7 @@
 .method public final setConfirmButton(Lcom/commsource/home/entity/PopupConfig$ConfirmButton;)V
     .locals 1
     .param p1    # Lcom/commsource/home/entity/PopupConfig$ConfirmButton;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -282,7 +282,7 @@
 .method public final setDeeplink(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -300,7 +300,7 @@
 .method public final setMedia(Lcom/commsource/home/entity/PopupConfig$Media;)V
     .locals 1
     .param p1    # Lcom/commsource/home/entity/PopupConfig$Media;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -318,7 +318,7 @@
 .method public final setText(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -336,7 +336,7 @@
 .method public final setTextTwo(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -354,7 +354,7 @@
 .method public final setTitle(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

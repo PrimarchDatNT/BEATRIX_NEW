@@ -37,7 +37,7 @@
 # virtual methods
 .method public final a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa58a

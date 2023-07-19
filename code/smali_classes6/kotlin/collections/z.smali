@@ -38,7 +38,7 @@
 .method public static final Y0(Ljava/util/List;)Ljava/util/List;
     .locals 1
     .param p0    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -53,7 +53,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$asReversed"
@@ -70,7 +70,7 @@
 .method public static final Z0(Ljava/util/List;)Ljava/util/List;
     .locals 1
     .param p0    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -89,7 +89,7 @@
         name = "asReversedMutable"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$asReversed"

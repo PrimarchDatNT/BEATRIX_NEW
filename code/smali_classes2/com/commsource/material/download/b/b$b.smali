@@ -19,7 +19,7 @@
 .field private a:Z
 
 .field private b:Lcom/commsource/material/download/b/c;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -37,7 +37,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -85,18 +85,18 @@
 .method public final a(Lcom/commsource/material/download/c/c;Lcom/commsource/material/d;Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b$b;
     .locals 4
     .param p1    # Lcom/commsource/material/download/c/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/material/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcom/commsource/material/download/b/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x64c6
@@ -147,10 +147,10 @@
 .method public final c(Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b;
     .locals 3
     .param p1    # Lcom/commsource/material/download/b/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x64ca
@@ -192,7 +192,7 @@
 .method public final d(Lcom/commsource/material/download/c/f;)V
     .locals 2
     .param p1    # Lcom/commsource/material/download/c/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -215,7 +215,7 @@
 
 .method public final e()Lcom/commsource/material/download/b/c;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x64c0
@@ -243,7 +243,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x64c4
@@ -273,7 +273,7 @@
 
 .method public final h(Z)Lcom/commsource/material/download/b/b$b;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x64c9
@@ -304,7 +304,7 @@
 .method public final j(Lcom/commsource/material/download/b/c;)V
     .locals 1
     .param p1    # Lcom/commsource/material/download/b/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -322,7 +322,7 @@
 .method public final k(Ljava/util/List;)V
     .locals 2
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -354,7 +354,7 @@
 
 .method public final l(Z)Lcom/commsource/material/download/b/b$b;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x64c8

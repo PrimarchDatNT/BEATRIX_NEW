@@ -11,17 +11,17 @@
 
 # instance fields
 .field private final effectParams:Lcom/commsource/studio/formula/convert/EffectParams;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final layerStyle:Lcom/commsource/studio/formula/convert/LayerStyle;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final position:Lcom/commsource/studio/formula/convert/Position;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -34,7 +34,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -47,7 +47,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -58,23 +58,23 @@
 .method public constructor <init>(ILjava/util/List;Lcom/commsource/studio/formula/convert/Position;Lcom/commsource/studio/formula/convert/LayerStyle;Lcom/commsource/studio/formula/convert/EffectParams;Ljava/util/List;)V
     .locals 0
     .param p2    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Lcom/commsource/studio/formula/convert/Position;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p4    # Lcom/commsource/studio/formula/convert/LayerStyle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Lcom/commsource/studio/formula/convert/EffectParams;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p6    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -208,7 +208,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x871e
@@ -224,7 +224,7 @@
 
 .method public final component3()Lcom/commsource/studio/formula/convert/Position;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x871f
@@ -240,7 +240,7 @@
 
 .method public final component4()Lcom/commsource/studio/formula/convert/LayerStyle;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8720
@@ -256,7 +256,7 @@
 
 .method public final component5()Lcom/commsource/studio/formula/convert/EffectParams;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8721
@@ -281,7 +281,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8722
@@ -298,23 +298,23 @@
 .method public final copy(ILjava/util/List;Lcom/commsource/studio/formula/convert/Position;Lcom/commsource/studio/formula/convert/LayerStyle;Lcom/commsource/studio/formula/convert/EffectParams;Ljava/util/List;)Lcom/commsource/studio/formula/convert/FormulaLayer;
     .locals 9
     .param p2    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Lcom/commsource/studio/formula/convert/Position;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p4    # Lcom/commsource/studio/formula/convert/LayerStyle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Lcom/commsource/studio/formula/convert/EffectParams;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p6    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -333,7 +333,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8723
@@ -366,7 +366,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -457,7 +457,7 @@
 
 .method public final getEffectParams()Lcom/commsource/studio/formula/convert/EffectParams;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x871b
@@ -473,7 +473,7 @@
 
 .method public final getLayerStyle()Lcom/commsource/studio/formula/convert/LayerStyle;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x871a
@@ -489,7 +489,7 @@
 
 .method public final getPosition()Lcom/commsource/studio/formula/convert/Position;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8719
@@ -514,7 +514,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x871c
@@ -539,7 +539,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8718
@@ -670,7 +670,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8725

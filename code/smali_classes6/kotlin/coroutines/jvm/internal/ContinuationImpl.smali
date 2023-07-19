@@ -29,7 +29,7 @@
 .method public constructor <init>(Lcotlin/coroutines/c;)V
     .locals 1
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -61,11 +61,11 @@
 .method public constructor <init>(Lcotlin/coroutines/c;Lcotlin/coroutines/CoroutineContext;)V
     .locals 0
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -90,7 +90,7 @@
 # virtual methods
 .method public getContext()Lcotlin/coroutines/CoroutineContext;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/coroutines/jvm/internal/ContinuationImpl;->_context:Lcotlin/coroutines/CoroutineContext;
@@ -111,7 +111,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/coroutines/jvm/internal/ContinuationImpl;->intercepted:Lcotlin/coroutines/c;

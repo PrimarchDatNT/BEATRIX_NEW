@@ -10,10 +10,10 @@
 .method public static final a([Z)Lcotlin/collections/p;
     .locals 1
     .param p0    # [Z
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "array"
@@ -30,10 +30,10 @@
 .method public static final b([B)Lcotlin/collections/q;
     .locals 1
     .param p0    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "array"
@@ -50,10 +50,10 @@
 .method public static final c([C)Lcotlin/collections/r;
     .locals 1
     .param p0    # [C
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "array"
@@ -70,10 +70,10 @@
 .method public static final d([D)Lcotlin/collections/b0;
     .locals 1
     .param p0    # [D
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "array"
@@ -90,10 +90,10 @@
 .method public static final e([F)Lcotlin/collections/d0;
     .locals 1
     .param p0    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "array"
@@ -110,10 +110,10 @@
 .method public static final f([I)Lcotlin/collections/l0;
     .locals 1
     .param p0    # [I
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "array"
@@ -130,10 +130,10 @@
 .method public static final g([J)Lcotlin/collections/m0;
     .locals 1
     .param p0    # [J
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "array"
@@ -150,10 +150,10 @@
 .method public static final h([S)Lcotlin/collections/f1;
     .locals 1
     .param p0    # [S
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "array"

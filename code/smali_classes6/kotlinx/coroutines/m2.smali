@@ -18,6 +18,6 @@
 
 # virtual methods
 .method public abstract A()Lcotlinx/coroutines/m2;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method

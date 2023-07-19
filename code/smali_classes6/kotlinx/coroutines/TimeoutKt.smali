@@ -11,10 +11,10 @@
 .method public static final a(JLcotlinx/coroutines/c2;)Lcotlinx/coroutines/TimeoutCancellationException;
     .locals 3
     .param p2    # Lcotlinx/coroutines/c2;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/TimeoutCancellationException;
@@ -91,11 +91,11 @@
 .method public static final c(JLcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 3
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -117,7 +117,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-wide/16 v0, 0x0
@@ -158,11 +158,11 @@
 .method public static final d(DLcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -187,7 +187,7 @@
     .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/v0;->d(D)J
@@ -204,11 +204,11 @@
 .method public static final e(JLcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 7
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -230,7 +230,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p3, Lcotlinx/coroutines/TimeoutKt$withTimeoutOrNull$1;
@@ -389,11 +389,11 @@
 .method public static final f(DLcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -418,7 +418,7 @@
     .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/v0;->d(D)J

@@ -33,7 +33,7 @@
 .field private static final synthetic $VALUES:[Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
 
 .field public static final Companion:Lcom/mopub/common/BrowserAgentManager$BrowserAgent$Companion;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -103,13 +103,13 @@
 .method public static final fromHeader(Ljava/lang/Integer;)Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
     .locals 1
     .param p0    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcom/mopub/common/BrowserAgentManager$BrowserAgent;->Companion:Lcom/mopub/common/BrowserAgentManager$BrowserAgent$Companion;

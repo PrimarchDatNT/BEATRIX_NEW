@@ -39,7 +39,7 @@
 .method public onAnimationEnd(Landroid/animation/Animator;)V
     .locals 1
     .param p1    # Landroid/animation/Animator;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

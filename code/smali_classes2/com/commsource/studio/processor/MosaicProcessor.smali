@@ -14,7 +14,7 @@
 .field private M:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
 .field public N:Lcom/commsource/studio/component/UndoRedoComponent$c;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -173,7 +173,7 @@
 .method public final Q(Landroidx/fragment/app/Fragment;)V
     .locals 4
     .param p1    # Landroidx/fragment/app/Fragment;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -233,7 +233,7 @@
 .method public final R(Lcom/commsource/beautymain/data/c;)V
     .locals 9
     .param p1    # Lcom/commsource/beautymain/data/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -324,7 +324,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xb01
@@ -340,7 +340,7 @@
 
 .method public final T()Lcom/commsource/studio/component/UndoRedoComponent$c;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xaff
@@ -434,7 +434,7 @@
 .method public final V(Lcom/commsource/studio/k0;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/k0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -464,19 +464,19 @@
 .method public final W(Lcom/meitu/core/magicpen/NativeGLMagicPen;ILjava/lang/String;ZLjava/lang/String;Ljava/lang/String;)V
     .locals 6
     .param p1    # Lcom/meitu/core/magicpen/NativeGLMagicPen;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p5    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p6    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -621,7 +621,7 @@
 .method public final Y(Lcom/commsource/studio/component/UndoRedoComponent$c;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/component/UndoRedoComponent$c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -885,7 +885,7 @@
 .method public s(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 9
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -267,7 +267,7 @@
 .method public static final V(DLjava/util/concurrent/TimeUnit;)D
     .locals 1
     .param p2    # Ljava/util/concurrent/TimeUnit;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/i2/j;
@@ -297,7 +297,7 @@
 .method public static final W(ILjava/util/concurrent/TimeUnit;)D
     .locals 2
     .param p1    # Ljava/util/concurrent/TimeUnit;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/i2/j;
@@ -323,7 +323,7 @@
 .method public static final X(JLjava/util/concurrent/TimeUnit;)D
     .locals 1
     .param p2    # Ljava/util/concurrent/TimeUnit;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/i2/j;

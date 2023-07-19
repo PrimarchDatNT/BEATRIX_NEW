@@ -17,12 +17,12 @@
 
 # instance fields
 .field public M:Landroid/graphics/Bitmap;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public N:Landroid/graphics/Bitmap;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -43,7 +43,7 @@
 .method public final J(Landroidx/fragment/app/Fragment;)V
     .locals 1
     .param p1    # Landroidx/fragment/app/Fragment;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -57,7 +57,7 @@
 .method public final K(Landroid/graphics/Bitmap;)Z
     .locals 3
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -126,7 +126,7 @@
 
 .method public final L()Landroid/graphics/Bitmap;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/processor/b;->N:Landroid/graphics/Bitmap;
@@ -151,7 +151,7 @@
 
 .method public final N()Landroid/graphics/Bitmap;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/processor/b;->M:Landroid/graphics/Bitmap;
@@ -212,11 +212,11 @@
 .method public P(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;)V
     .locals 2
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -296,7 +296,7 @@
 
 .method public abstract Q(Landroid/graphics/Bitmap;Ljava/lang/Object;)V
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -378,7 +378,7 @@
 .method public final S(Landroid/graphics/Bitmap;)V
     .locals 1
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -402,7 +402,7 @@
 .method public final U(Landroid/graphics/Bitmap;)V
     .locals 1
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

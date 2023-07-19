@@ -35,7 +35,7 @@
 
 # static fields
 .field public static final a:Lcotlin/collections/h$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -68,7 +68,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

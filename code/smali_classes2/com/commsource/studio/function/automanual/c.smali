@@ -11,7 +11,7 @@
 .field private c:Lcom/commsource/studio/processor/f;
 
 .field private d:Lcom/commsource/studio/layer/PaintMaskLayer;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -20,11 +20,11 @@
 .method public constructor <init>(Lcom/commsource/studio/processor/f;Lcom/commsource/studio/layer/PaintMaskLayer;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/processor/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/layer/PaintMaskLayer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -61,7 +61,7 @@
 .method public a(Lcom/commsource/studio/e;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/e;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -150,7 +150,7 @@
 
 .method public b()Lcom/commsource/studio/e;
     .locals 7
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcom/commsource/studio/e;
@@ -222,7 +222,7 @@
 .method public e(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 1
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -246,7 +246,7 @@
 .method public f(Lcom/commsource/studio/e;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -324,7 +324,7 @@
 
 .method public final i()Lcom/commsource/studio/layer/PaintMaskLayer;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/function/automanual/c;->d:Lcom/commsource/studio/layer/PaintMaskLayer;
@@ -334,11 +334,11 @@
 
 .method public abstract j(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method
@@ -346,7 +346,7 @@
 .method public final k(Lcom/commsource/studio/layer/PaintMaskLayer;)V
     .locals 0
     .param p1    # Lcom/commsource/studio/layer/PaintMaskLayer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

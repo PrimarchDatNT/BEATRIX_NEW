@@ -68,7 +68,7 @@
 
 .method public final getDefaultVastSkipThreshold(Z)Lcom/mopub/mobileads/VastSkipThreshold;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcom/mopub/mobileads/VastSkipThreshold;

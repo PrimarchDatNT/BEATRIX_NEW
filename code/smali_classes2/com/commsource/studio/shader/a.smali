@@ -21,7 +21,7 @@
 .field private a:I
 
 .field public b:Lcom/commsource/easyeditor/utils/opengl/c;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -32,7 +32,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -43,7 +43,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -52,11 +52,11 @@
 .method public constructor <init>(Lcom/commsource/studio/shader/BaseShader;Lcom/commsource/studio/shader/BaseShader;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/shader/BaseShader;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/shader/BaseShader;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -106,7 +106,7 @@
 
 .method public final b()Lcom/commsource/easyeditor/utils/opengl/c;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/shader/a;->b:Lcom/commsource/easyeditor/utils/opengl/c;
@@ -129,7 +129,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/shader/a;->d:Lcom/commsource/studio/shader/BaseShader;
@@ -145,7 +145,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/shader/a;->c:Lcom/commsource/studio/shader/BaseShader;
@@ -231,7 +231,7 @@
 .method public final h(Lcom/commsource/easyeditor/utils/opengl/c;)V
     .locals 1
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -247,7 +247,7 @@
 .method public final i(Lcom/commsource/studio/shader/BaseShader;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/shader/BaseShader;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -268,7 +268,7 @@
 .method public final j(Lcom/commsource/studio/shader/BaseShader;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/shader/BaseShader;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

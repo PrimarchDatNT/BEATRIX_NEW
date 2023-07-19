@@ -25,7 +25,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlin/Pair;
@@ -38,7 +38,7 @@
 .method public static final b(Lcotlin/Pair;)Ljava/util/List;
     .locals 3
     .param p0    # Lcotlin/Pair;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -53,7 +53,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$toList"
@@ -90,7 +90,7 @@
 .method public static final c(Lcotlin/Triple;)Ljava/util/List;
     .locals 3
     .param p0    # Lcotlin/Triple;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -105,7 +105,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$toList"

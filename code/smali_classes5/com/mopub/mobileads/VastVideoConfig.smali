@@ -23,7 +23,7 @@
 
 # static fields
 .field public static final Companion:Lcom/mopub/mobileads/VastVideoConfig$Companion;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -223,7 +223,7 @@
         value = "clickthrough_url"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -235,7 +235,7 @@
         value = "custom_close_icon_url"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -247,7 +247,7 @@
         value = "custom_cta_text"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -259,7 +259,7 @@
         value = "custom_skip_text"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -271,7 +271,7 @@
         value = "disk_media_file_url"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -283,7 +283,7 @@
         value = "dsp_creative_id"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -313,7 +313,7 @@
         value = "network_media_file_url"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -325,7 +325,7 @@
         value = "privacy_icon_click_url"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -337,7 +337,7 @@
         value = "privacy_icon_image_url"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -357,7 +357,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -369,7 +369,7 @@
         value = "icon_config"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -381,7 +381,7 @@
         value = "video_viewability_tracker"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -962,7 +962,7 @@
 .method public addAbsoluteTrackers(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -993,7 +993,7 @@
 .method public addClickTrackers(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1020,7 +1020,7 @@
 .method public addCloseTrackers(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1047,7 +1047,7 @@
 .method public addCompleteTrackers(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1074,7 +1074,7 @@
 .method public addErrorTrackers(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1101,7 +1101,7 @@
 .method public addFractionalTrackers(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1131,7 +1131,7 @@
 .method public addImpressionTrackers(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1158,7 +1158,7 @@
 .method public addPauseTrackers(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1185,7 +1185,7 @@
 .method public addResumeTrackers(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1212,7 +1212,7 @@
 .method public addSkipTrackers(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1239,7 +1239,7 @@
 .method public addVastCompanionAdConfig(Lcom/mopub/mobileads/VastCompanionAdConfig;)V
     .locals 1
     .param p1    # Lcom/mopub/mobileads/VastCompanionAdConfig;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1259,7 +1259,7 @@
 .method public addVastCompanionAdConfigs(Ljava/lang/Iterable;)V
     .locals 1
     .param p1    # Ljava/lang/Iterable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1304,7 +1304,7 @@
 .method public addVideoTrackers(Lorg/json/JSONObject;)V
     .locals 9
     .param p1    # Lorg/json/JSONObject;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1454,7 +1454,7 @@
 .method public addViewabilityVendors(Ljava/util/Set;)V
     .locals 1
     .param p1    # Ljava/util/Set;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1488,7 +1488,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/util/ArrayList;
@@ -1502,7 +1502,7 @@
 
 .method public getClickThroughUrl()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoConfig;->clickThroughUrl:Ljava/lang/String;
@@ -1521,7 +1521,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/util/ArrayList;
@@ -1544,7 +1544,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/util/ArrayList;
@@ -1567,7 +1567,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/util/ArrayList;
@@ -1581,7 +1581,7 @@
 
 .method public getCustomCloseIconUrl()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoConfig;->customCloseIconUrl:Ljava/lang/String;
@@ -1591,7 +1591,7 @@
 
 .method public getCustomCtaText()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoConfig;->customCtaText:Ljava/lang/String;
@@ -1601,7 +1601,7 @@
 
 .method public getCustomSkipText()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoConfig;->customSkipText:Ljava/lang/String;
@@ -1611,7 +1611,7 @@
 
 .method public getDiskMediaFileUrl()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoConfig;->diskMediaFileUrl:Ljava/lang/String;
@@ -1621,7 +1621,7 @@
 
 .method public getDspCreativeId()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoConfig;->dspCreativeId:Ljava/lang/String;
@@ -1648,7 +1648,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/util/ArrayList;
@@ -1671,7 +1671,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/util/ArrayList;
@@ -1694,7 +1694,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/util/ArrayList;
@@ -1708,7 +1708,7 @@
 
 .method public getNetworkMediaFileUrl()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoConfig;->networkMediaFileUrl:Ljava/lang/String;
@@ -1727,7 +1727,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/util/ArrayList;
@@ -1741,7 +1741,7 @@
 
 .method public getPrivacyInformationIconClickthroughUrl()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoConfig;->privacyInformationIconClickthroughUrl:Ljava/lang/String;
@@ -1751,7 +1751,7 @@
 
 .method public getPrivacyInformationIconImageUrl()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoConfig;->privacyInformationIconImageUrl:Ljava/lang/String;
@@ -1786,7 +1786,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/util/ArrayList;
@@ -1809,7 +1809,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/util/ArrayList;
@@ -1832,7 +1832,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     if-lez p2, :cond_5
@@ -1966,7 +1966,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoConfig;->vastCompanionAdConfigs:Ljava/util/Set;
@@ -1976,7 +1976,7 @@
 
 .method public getVastIconConfig()Lcom/mopub/mobileads/VastIconConfig;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoConfig;->vastIconConfig:Lcom/mopub/mobileads/VastIconConfig;
@@ -1986,7 +1986,7 @@
 
 .method public getVideoViewabilityTracker()Lcom/mopub/mobileads/VideoViewabilityTracker;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoConfig;->videoViewabilityTracker:Lcom/mopub/mobileads/VideoViewabilityTracker;
@@ -2005,7 +2005,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/util/HashSet;
@@ -2020,7 +2020,7 @@
 .method public handleClickForResult(Landroid/app/Activity;II)V
     .locals 1
     .param p1    # Landroid/app/Activity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2040,7 +2040,7 @@
 .method public handleClickWithoutResult(Landroid/content/Context;I)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2066,7 +2066,7 @@
 .method public handleClose(Landroid/content/Context;I)V
     .locals 3
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2094,7 +2094,7 @@
 .method public handleComplete(Landroid/content/Context;I)V
     .locals 3
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2122,11 +2122,11 @@
 .method public handleError(Landroid/content/Context;Lcom/mopub/mobileads/VastErrorCode;I)V
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/mopub/mobileads/VastErrorCode;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2152,7 +2152,7 @@
 .method public handleImpression(Landroid/content/Context;I)V
     .locals 3
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2180,7 +2180,7 @@
 .method public handlePause(Landroid/content/Context;I)V
     .locals 3
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2208,7 +2208,7 @@
 .method public handleResume(Landroid/content/Context;I)V
     .locals 3
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2236,7 +2236,7 @@
 .method public handleSkip(Landroid/content/Context;I)V
     .locals 3
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2288,7 +2288,7 @@
 .method public setClickThroughUrl(Ljava/lang/String;)V
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2300,7 +2300,7 @@
 .method public setCustomCloseIconUrl(Ljava/lang/String;)V
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2320,7 +2320,7 @@
 .method public setCustomCtaText(Ljava/lang/String;)V
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2340,7 +2340,7 @@
 .method public setCustomSkipText(Ljava/lang/String;)V
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2360,7 +2360,7 @@
 .method public setDiskMediaFileUrl(Ljava/lang/String;)V
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2372,7 +2372,7 @@
 .method public setDspCreativeId(Ljava/lang/String;)V
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2400,7 +2400,7 @@
 .method public setNetworkMediaFileUrl(Ljava/lang/String;)V
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2412,7 +2412,7 @@
 .method public setPrivacyInformationIconClickthroughUrl(Ljava/lang/String;)V
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2424,7 +2424,7 @@
 .method public setPrivacyInformationIconImageUrl(Ljava/lang/String;)V
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2452,7 +2452,7 @@
 .method public setVastIconConfig(Lcom/mopub/mobileads/VastIconConfig;)V
     .locals 0
     .param p1    # Lcom/mopub/mobileads/VastIconConfig;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2464,7 +2464,7 @@
 .method public setVideoViewabilityTracker(Lcom/mopub/mobileads/VideoViewabilityTracker;)V
     .locals 0
     .param p1    # Lcom/mopub/mobileads/VideoViewabilityTracker;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2483,7 +2483,7 @@
 
 .method public toJsonString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcom/google/gson/GsonBuilder;

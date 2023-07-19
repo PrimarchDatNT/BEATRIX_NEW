@@ -11,10 +11,10 @@
 .method public static final a(Lcotlinx/coroutines/c2;)Lcotlinx/coroutines/y;
     .locals 1
     .param p0    # Lcotlinx/coroutines/c2;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/e3;
@@ -27,7 +27,7 @@
 .method public static final synthetic b(Lcotlinx/coroutines/c2;)Lcotlinx/coroutines/c2;
     .locals 0
     .param p0    # Lcotlinx/coroutines/c2;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -39,7 +39,7 @@
         name = "SupervisorJob"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Lcotlinx/coroutines/f3;->a(Lcotlinx/coroutines/c2;)Lcotlinx/coroutines/y;
@@ -86,11 +86,11 @@
 .method public static final e(Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 2
     .param p0    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -112,7 +112,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/d3;

@@ -504,7 +504,7 @@
 .method public final U0(Landroid/graphics/Bitmap;)V
     .locals 3
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -541,7 +541,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 2
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

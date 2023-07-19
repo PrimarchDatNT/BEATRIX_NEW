@@ -26,14 +26,14 @@
 .field private l:Z
 
 .field private m:Landroid/util/SparseIntArray;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private n:Landroid/util/SparseIntArray;
 
 .field private final o:Lcom/commsource/studio/sub/SubModuleEnum;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -62,7 +62,7 @@
 .method public constructor <init>(Lcom/commsource/studio/sub/SubModuleEnum;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/sub/SubModuleEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -237,7 +237,7 @@
 
 .method public final D()Lcom/commsource/studio/sub/SubModuleEnum;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7dd1
@@ -294,7 +294,7 @@
 .method public final F(Landroid/util/SparseIntArray;)V
     .locals 3
     .param p1    # Landroid/util/SparseIntArray;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -358,7 +358,7 @@
 .method public final H(Landroid/util/SparseIntArray;)V
     .locals 2
     .param p1    # Landroid/util/SparseIntArray;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -475,7 +475,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7dd0
@@ -569,7 +569,7 @@
 
 .method public final v()Landroid/util/SparseIntArray;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7dcd
@@ -618,7 +618,7 @@
 
 .method public final x()Landroid/util/SparseIntArray;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7dc5

@@ -10,7 +10,7 @@
 .field private a:F
 
 .field private b:Lcom/commsource/studio/effect/remold/RemoldEnum;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -19,7 +19,7 @@
 .method public constructor <init>(Lcom/commsource/studio/effect/remold/RemoldEnum;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/effect/remold/RemoldEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -52,7 +52,7 @@
 
 .method public final b()Lcom/commsource/studio/effect/remold/RemoldEnum;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8636
@@ -83,7 +83,7 @@
 .method public final d(Lcom/commsource/studio/effect/remold/RemoldEnum;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/effect/remold/RemoldEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

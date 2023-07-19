@@ -11,11 +11,11 @@
 .method static final synthetic a(JJLcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 8
     .param p4    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p5    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p5, Lcotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1;
@@ -213,11 +213,11 @@
 .method static final synthetic b(JJLcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 21
     .param p4    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p5    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -235,7 +235,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     move-wide/from16 v0, p2
@@ -684,11 +684,11 @@
 .method public static final c(JJLcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/channels/TickerMode;)Lcotlinx/coroutines/channels/y;
     .locals 11
     .param p4    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p5    # Lcotlinx/coroutines/channels/TickerMode;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -706,7 +706,7 @@
     .annotation build Lcotlinx/coroutines/r2;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     move-wide v2, p0

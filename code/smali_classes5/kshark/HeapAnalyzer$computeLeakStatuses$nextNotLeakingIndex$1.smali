@@ -49,7 +49,7 @@
 # virtual methods
 .method public final invoke(I)Ljava/lang/Integer;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/HeapAnalyzer$computeLeakStatuses$nextNotLeakingIndex$1;->$lastNotLeakingElementIndex:Lcotlin/jvm/internal/Ref$IntRef;

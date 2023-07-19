@@ -41,7 +41,7 @@
 # virtual methods
 .method public a()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0}, Lcotlinx/coroutines/internal/MainDispatcherFactory$a;->a(Lcotlinx/coroutines/internal/MainDispatcherFactory;)Ljava/lang/String;
@@ -54,7 +54,7 @@
 .method public b(Ljava/util/List;)Lcotlinx/coroutines/m2;
     .locals 2
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -68,7 +68,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance p1, Lcotlinx/coroutines/internal/t;

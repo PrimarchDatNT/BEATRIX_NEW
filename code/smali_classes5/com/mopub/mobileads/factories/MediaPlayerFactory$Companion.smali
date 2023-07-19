@@ -37,10 +37,10 @@
 .method public final create(Landroid/content/Context;)Landroidx/media2/player/MediaPlayer;
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "context"
@@ -60,7 +60,7 @@
 
 .method public final getInstance()Lcom/mopub/mobileads/factories/MediaPlayerFactory;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lcom/mopub/mobileads/factories/MediaPlayerFactory;->access$getInstance$cp()Lcom/mopub/mobileads/factories/MediaPlayerFactory;
@@ -73,7 +73,7 @@
 .method public final setInstance(Lcom/mopub/mobileads/factories/MediaPlayerFactory;)V
     .locals 1
     .param p1    # Lcom/mopub/mobileads/factories/MediaPlayerFactory;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

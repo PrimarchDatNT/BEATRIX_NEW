@@ -39,11 +39,11 @@
 .method public onRenderProcessGone(Landroid/webkit/WebView;Landroid/webkit/RenderProcessGoneDetail;)Z
     .locals 3
     .param p1    # Landroid/webkit/WebView;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Landroid/webkit/RenderProcessGoneDetail;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/RequiresApi;
@@ -96,11 +96,11 @@
 .method public shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z
     .locals 2
     .param p1    # Landroid/webkit/WebView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

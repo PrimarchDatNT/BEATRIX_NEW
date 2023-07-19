@@ -48,7 +48,7 @@
 # virtual methods
 .method public final invoke()Lcom/commsource/home/homepagedialog/b;
     .locals 6
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6fc8

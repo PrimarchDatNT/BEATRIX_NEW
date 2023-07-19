@@ -32,27 +32,27 @@
 .field private a0:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;
 
 .field private final b0:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final c0:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final d0:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final e0:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final f0:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -786,7 +786,7 @@
 # virtual methods
 .method public final A1()Lcom/commsource/camera/xcamera/cover/confirm/b;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1599
@@ -1421,7 +1421,7 @@
 .method public dispatchKeyEvent(Landroid/view/KeyEvent;)Z
     .locals 2
     .param p1    # Landroid/view/KeyEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1496,7 +1496,7 @@
 .method protected onActivityResult(IILandroid/content/Intent;)V
     .locals 2
     .param p3    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1619,7 +1619,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 6
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1706,7 +1706,7 @@
 .method public onLayoutChange(Landroid/view/View;IIIIIIII)V
     .locals 0
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1798,7 +1798,7 @@
 .method protected onNewIntent(Landroid/content/Intent;)V
     .locals 1
     .param p1    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2018,7 +2018,7 @@
 
 .method public final v1()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1596
@@ -2040,7 +2040,7 @@
 
 .method public final w1()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1595
@@ -2062,7 +2062,7 @@
 
 .method public final x1()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1597
@@ -2084,7 +2084,7 @@
 
 .method public final y1()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1598

@@ -19,14 +19,14 @@
 .method public static final A0(Ljava/lang/String;)Ljava/math/BigInteger;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toBigIntegerOrNull"
@@ -45,14 +45,14 @@
 .method public static final B0(Ljava/lang/String;I)Ljava/math/BigInteger;
     .locals 6
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toBigIntegerOrNull"
@@ -221,14 +221,14 @@
 .method public static final H0(Ljava/lang/String;)Ljava/lang/Double;
     .locals 3
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toDoubleOrNull"
@@ -278,14 +278,14 @@
 .method public static final J0(Ljava/lang/String;)Ljava/lang/Float;
     .locals 2
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/s0;
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toFloatOrNull"
@@ -594,14 +594,14 @@
 .method public static final w0(Ljava/lang/String;)Ljava/math/BigDecimal;
     .locals 2
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toBigDecimalOrNull"
@@ -635,18 +635,18 @@
 .method public static final x0(Ljava/lang/String;Ljava/math/MathContext;)Ljava/math/BigDecimal;
     .locals 2
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/math/MathContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/s0;
         version = "1.2"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toBigDecimalOrNull"

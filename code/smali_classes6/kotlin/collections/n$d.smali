@@ -93,7 +93,7 @@
 
 .method public e(I)Ljava/lang/Long;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/collections/n$d;->b:[J

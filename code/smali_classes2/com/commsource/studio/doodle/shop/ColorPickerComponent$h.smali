@@ -48,7 +48,7 @@
 .method public onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
     .locals 4
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

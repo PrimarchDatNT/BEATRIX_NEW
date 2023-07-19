@@ -36,7 +36,7 @@
 # virtual methods
 .method public final a()Lcotlinx/android/extensions/CacheImplementation;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lcotlinx/android/extensions/CacheImplementation;->access$getDEFAULT$cp()Lcotlinx/android/extensions/CacheImplementation;

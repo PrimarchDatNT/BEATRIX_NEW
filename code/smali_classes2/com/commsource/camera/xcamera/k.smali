@@ -373,7 +373,7 @@
 .method public Q0(Lcom/meitu/library/camera/q/g;)V
     .locals 0
     .param p1    # Lcom/meitu/library/camera/q/g;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -401,15 +401,15 @@
 .method public g1(Landroid/graphics/RectF;ZLandroid/graphics/Rect;ZLandroid/graphics/Rect;)V
     .locals 0
     .param p1    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -440,7 +440,7 @@
 
 .method public getNodesServer()Lcom/meitu/library/camera/q/g;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x668e
@@ -457,7 +457,7 @@
 .method public q1(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
     .locals 6
     .param p1    # Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -663,7 +663,7 @@
 .method public final x(Lcotlin/jvm/u/r;)V
     .locals 2
     .param p1    # Lcotlin/jvm/u/r;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -701,7 +701,7 @@
 .method public x1(Lcom/meitu/library/renderarch/arch/data/b/d;)V
     .locals 2
     .param p1    # Lcom/meitu/library/renderarch/arch/data/b/d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

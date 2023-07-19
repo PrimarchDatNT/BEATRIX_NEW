@@ -16,7 +16,7 @@
 .method public constructor <init>(Landroid/widget/TextView;)V
     .locals 1
     .param p1    # Landroid/widget/TextView;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

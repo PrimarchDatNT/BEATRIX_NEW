@@ -42,7 +42,7 @@
 .method public constructor <init>(ILcotlin/coroutines/c;)V
     .locals 0
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -73,7 +73,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;->getCompletion()Lcotlin/coroutines/c;

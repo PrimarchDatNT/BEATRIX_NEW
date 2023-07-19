@@ -19,27 +19,27 @@
 
 # instance fields
 .field public N:Lcom/commsource/beautyplus/f0/k0;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public O:Lcom/commsource/studio/ImageStudioViewModel;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final P:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final Q:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final R:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -53,12 +53,12 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private U:Lcom/commsource/studio/sub/BaseSubTabFragment;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -69,7 +69,7 @@
 .field private X:Lcom/commsource/studio/a;
 
 .field private Y:Lcom/commsource/comic/widget/c;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -3011,7 +3011,7 @@
 .method public final A1(Lcom/commsource/studio/sub/BaseSubTabFragment;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/sub/BaseSubTabFragment;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3029,7 +3029,7 @@
 .method public final C1(Lcom/commsource/beautyplus/f0/k0;)V
     .locals 2
     .param p1    # Lcom/commsource/beautyplus/f0/k0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -3051,7 +3051,7 @@
 .method public final D1(Lcom/commsource/studio/ImageStudioViewModel;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/ImageStudioViewModel;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -3073,7 +3073,7 @@
 .method public final E1(Lcom/commsource/comic/widget/c;)V
     .locals 1
     .param p1    # Lcom/commsource/comic/widget/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3198,7 +3198,7 @@
 .method public dispatchTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 3
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3322,7 +3322,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x18a4
@@ -3338,7 +3338,7 @@
 
 .method public final i1()Lcom/commsource/studio/sub/BaseSubTabFragment;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x18a6
@@ -3354,7 +3354,7 @@
 
 .method public final j1()Lcom/commsource/studio/sub/d;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x18a1
@@ -3376,7 +3376,7 @@
 
 .method public final k1()Lcom/commsource/studio/formula/FormulaViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x18a3
@@ -3398,7 +3398,7 @@
 
 .method public final l1()Lcom/commsource/beautyplus/f0/k0;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x189d
@@ -3459,7 +3459,7 @@
 
 .method public final m1()Lcom/commsource/studio/ImageStudioViewModel;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x189f
@@ -3482,7 +3482,7 @@
 
 .method public final o1()Lcom/commsource/comic/widget/c;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x18a8
@@ -3863,7 +3863,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 7
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -4150,7 +4150,7 @@
 
 .method public final p1()Lcom/commsource/studio/text/TextViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x18a2
@@ -4173,7 +4173,7 @@
 .method public final z1(Lcom/commsource/studio/function/BaseSubFragment;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/function/BaseSubFragment;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

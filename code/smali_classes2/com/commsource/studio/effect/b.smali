@@ -8,7 +8,7 @@
 
 # instance fields
 .field private i:Lcom/meitu/template/bean/ArMaterial;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -82,7 +82,7 @@
 
 .method public final s()Lcom/meitu/template/bean/ArMaterial;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6542
@@ -99,7 +99,7 @@
 .method public final t(Lcom/meitu/template/bean/ArMaterial;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/ArMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

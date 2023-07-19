@@ -27,7 +27,7 @@
 .end field
 
 .field private final e:Lcom/commsource/studio/sticker/TextFragment;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -36,7 +36,7 @@
 .method public constructor <init>(Lcom/commsource/studio/sticker/TextFragment;)V
     .locals 3
     .param p1    # Lcom/commsource/studio/sticker/TextFragment;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -514,7 +514,7 @@
 # virtual methods
 .method public final g()Lcom/commsource/studio/sticker/TextFragment;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xe0c
@@ -530,7 +530,7 @@
 
 .method public final i()Landroid/view/View;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xe0a

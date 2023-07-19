@@ -46,27 +46,27 @@
 .field public static final p:I = 0x1
 
 .field public static final q:Ljava/lang/String; = "FormulaId"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final r:Ljava/lang/String; = "FormulaCategoryId"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final s:Ljava/lang/String; = "FormulaVersionCode"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final t:Ljava/lang/String; = "IsOriFormula"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final u:Ljava/lang/String; = "FormulaBgCropEnum"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 

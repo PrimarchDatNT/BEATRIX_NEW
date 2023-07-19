@@ -23,7 +23,7 @@
 # virtual methods
 .method public get()Ljava/lang/Object;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {}, Lcotlin/jvm/internal/h0;->a()Ljava/lang/Void;
@@ -37,7 +37,7 @@
 
 .method public getOwner()Lcotlin/reflect/h;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lcotlin/jvm/internal/h0;->a()Ljava/lang/Void;

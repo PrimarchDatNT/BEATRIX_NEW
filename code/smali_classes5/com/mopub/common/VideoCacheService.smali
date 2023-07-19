@@ -8,7 +8,7 @@
 
 # static fields
 .field public static final INSTANCE:Lcom/mopub/common/VideoCacheService;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -57,7 +57,7 @@
 .method public static final containsKey(Ljava/lang/String;)Z
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;
@@ -78,7 +78,7 @@
 .method public static final get(Ljava/lang/String;)[B
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;
@@ -87,7 +87,7 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     sget-object v0, Lcom/mopub/common/VideoCacheService;->INSTANCE:Lcom/mopub/common/VideoCacheService;
@@ -102,7 +102,7 @@
 .method public static final getFilePath(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/AnyThread;
@@ -111,7 +111,7 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     sget-object v0, Lcom/mopub/common/VideoCacheService;->INSTANCE:Lcom/mopub/common/VideoCacheService;
@@ -131,7 +131,7 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     sget-object v0, Lcom/mopub/common/VideoCacheService;->INSTANCE:Lcom/mopub/common/VideoCacheService;
@@ -146,7 +146,7 @@
 .method public static final initializeCache(Landroid/content/Context;)Z
     .locals 1
     .param p0    # Landroid/content/Context;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;
@@ -167,11 +167,11 @@
 .method public static final put(Ljava/lang/String;Ljava/io/InputStream;)Z
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p1    # Ljava/io/InputStream;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;
@@ -192,11 +192,11 @@
 .method public static final put(Ljava/lang/String;[B)Z
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p1    # [B
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;

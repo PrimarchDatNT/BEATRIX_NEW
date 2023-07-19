@@ -20,7 +20,7 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -29,7 +29,7 @@
 .method public constructor <init>(Ljava/lang/Throwable;)V
     .locals 0
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -44,7 +44,7 @@
 # virtual methods
 .method public final a()Ljava/lang/Throwable;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/channels/q$a;->a:Ljava/lang/Throwable;
@@ -66,7 +66,7 @@
 
 .method public final b()Ljava/lang/Throwable;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/channels/q$a;->a:Ljava/lang/Throwable;

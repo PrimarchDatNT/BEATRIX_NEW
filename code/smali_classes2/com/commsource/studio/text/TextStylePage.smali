@@ -13,12 +13,12 @@
 .field private b:Lcom/commsource/beautyplus/f0/ck;
 
 .field private final c:Lcom/commsource/studio/sticker/TextFragment;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private d:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -27,11 +27,11 @@
 .method public constructor <init>(Lcom/commsource/studio/sticker/TextFragment;Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/sticker/TextFragment;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2707,7 +2707,7 @@
 # virtual methods
 .method public final h()Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x849d
@@ -2723,7 +2723,7 @@
 
 .method public final i()Lcom/commsource/studio/sticker/TextFragment;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x849c
@@ -2739,7 +2739,7 @@
 
 .method public final k()Landroid/view/View;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x849b
@@ -2764,7 +2764,7 @@
 .method public final o(Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

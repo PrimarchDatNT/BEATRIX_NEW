@@ -52,7 +52,7 @@
 
 .method public abstract f(Ljava/lang/String;)V
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method
@@ -68,7 +68,7 @@
 
 .method public abstract j(Ljava/lang/String;)V
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

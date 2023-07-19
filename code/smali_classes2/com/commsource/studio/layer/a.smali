@@ -9,7 +9,7 @@
 
 # instance fields
 .field private final c:Landroid/graphics/Paint;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -18,7 +18,7 @@
 .field private f:F
 
 .field private final g:Landroid/graphics/PointF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -27,7 +27,7 @@
 .method public constructor <init>(Lcom/commsource/studio/layer/c;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/layer/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -79,7 +79,7 @@
 .method protected a(Landroid/graphics/Canvas;)V
     .locals 10
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -227,7 +227,7 @@
 .method public f(FFLandroid/view/MotionEvent;)V
     .locals 2
     .param p3    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -255,7 +255,7 @@
 .method public g(FFLandroid/view/MotionEvent;)V
     .locals 2
     .param p3    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -278,7 +278,7 @@
 
 .method public final i()Landroid/graphics/PointF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8ac4
@@ -295,7 +295,7 @@
 .method public j(FFLandroid/view/MotionEvent;)V
     .locals 2
     .param p3    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -322,7 +322,7 @@
 
 .method public final k()Landroid/graphics/Paint;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8abf
@@ -395,7 +395,7 @@
 .method public x(FFZZLandroid/view/MotionEvent;)V
     .locals 0
     .param p5    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

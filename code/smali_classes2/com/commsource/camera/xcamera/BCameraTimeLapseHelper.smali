@@ -18,7 +18,7 @@
 
 # instance fields
 .field private final a:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -31,7 +31,7 @@
 .field private final f:Landroid/os/Handler;
 
 .field private g:Lcom/commsource/camera/xcamera/BCameraTimeLapseHelper$a;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -108,7 +108,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x255c
@@ -130,7 +130,7 @@
 
 .method public final b()Lcom/commsource/camera/xcamera/BCameraTimeLapseHelper$a;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2560
@@ -193,7 +193,7 @@
 .method public final g(Lcom/commsource/camera/xcamera/BCameraTimeLapseHelper$a;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/BCameraTimeLapseHelper$a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -225,7 +225,7 @@
 .method public final i(ILcom/commsource/camera/xcamera/BCameraTimeLapseHelper$a;)V
     .locals 1
     .param p2    # Lcom/commsource/camera/xcamera/BCameraTimeLapseHelper$a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

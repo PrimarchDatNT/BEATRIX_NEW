@@ -10,12 +10,12 @@
 .field private layerType:I
 
 .field private originalImagePath:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final sticker:Lcom/meitu/template/bean/Sticker;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -24,7 +24,7 @@
 .method public constructor <init>(Lcom/meitu/template/bean/Sticker;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/Sticker;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -71,7 +71,7 @@
 
 .method public final getOriginalImagePath()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1cc8
@@ -87,7 +87,7 @@
 
 .method public final getSticker()Lcom/meitu/template/bean/Sticker;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1ccc
@@ -103,7 +103,7 @@
 
 .method public final getThumbnailPath()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1cca
@@ -180,7 +180,7 @@
 .method public final setOriginalImagePath(Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -8,12 +8,12 @@
 
 # instance fields
 .field private p:Lcom/meitu/template/bean/ArMaterialGroup;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private q:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -22,7 +22,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -39,7 +39,7 @@
 # virtual methods
 .method public final S()Lcom/meitu/template/bean/ArMaterialGroup;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8e72
@@ -55,7 +55,7 @@
 
 .method public final T()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8e74
@@ -72,7 +72,7 @@
 .method public final U(Lcom/meitu/template/bean/ArMaterialGroup;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/ArMaterialGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -90,7 +90,7 @@
 .method public final V(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

@@ -51,7 +51,7 @@
 .method public final invoke(Ljava/util/Map$Entry;)Ljava/lang/CharSequence;
     .locals 1
     .param p1    # Ljava/util/Map$Entry;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -63,7 +63,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "it"

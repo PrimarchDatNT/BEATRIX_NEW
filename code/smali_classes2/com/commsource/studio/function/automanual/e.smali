@@ -16,7 +16,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -25,7 +25,7 @@
 .method public constructor <init>(Lcom/commsource/studio/processor/MultiFaceEffectProcessor;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -51,7 +51,7 @@
 # virtual methods
 .method public a()Lcom/commsource/studio/e;
     .locals 7
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa2f8
@@ -108,7 +108,7 @@
 .method public d(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 2
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -161,7 +161,7 @@
 .method public e(Lcom/commsource/studio/e;)V
     .locals 3
     .param p1    # Lcom/commsource/studio/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -226,7 +226,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa2f9
@@ -243,7 +243,7 @@
 .method public final i(Lcom/commsource/studio/processor/MultiFaceEffectProcessor;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

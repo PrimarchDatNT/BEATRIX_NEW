@@ -68,7 +68,7 @@
 .method public final invoke(Ljava/lang/Exception;)V
     .locals 2
     .param p1    # Ljava/lang/Exception;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

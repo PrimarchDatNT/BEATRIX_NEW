@@ -21,31 +21,31 @@
 
 # instance fields
 .field private backgroundColor:Lcom/commsource/studio/function/background/BackgroundColor;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final colors:[I
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final endPoint:[F
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final isFromPicker:Z
 
 .field private final positions:[F
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final pureColor:I
 
 .field private final startPoint:[F
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -60,19 +60,19 @@
         .end annotation
     .end param
     .param p2    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # [I
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p5    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -166,7 +166,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 5
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Ld/a/a;
@@ -321,7 +321,7 @@
 
 .method public final getBackgroundColor()Lcom/commsource/studio/function/background/BackgroundColor;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x28ff
@@ -337,7 +337,7 @@
 
 .method public final getColors()[I
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2906
@@ -353,7 +353,7 @@
 
 .method public final getEndPoint()[F
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2905
@@ -369,7 +369,7 @@
 
 .method public final getPositions()[F
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2907
@@ -399,7 +399,7 @@
 
 .method public final getStartPoint()[F
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2904
@@ -508,7 +508,7 @@
 .method public final setBackgroundColor(Lcom/commsource/studio/function/background/BackgroundColor;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/function/background/BackgroundColor;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

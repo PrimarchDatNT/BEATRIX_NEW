@@ -132,7 +132,7 @@
 .method public final d(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -141,7 +141,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/LruCache;->a:Ljava/util/LinkedHashMap;
@@ -233,7 +233,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget v0, p0, Lkshark/internal/LruCache;->b:I
@@ -259,7 +259,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/LruCache;->a:Ljava/util/LinkedHashMap;
@@ -273,7 +273,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 5
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget v0, p0, Lkshark/internal/LruCache;->d:I

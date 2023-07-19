@@ -21,7 +21,7 @@
 .method public constructor <init>(Ljava/lang/reflect/Type;)V
     .locals 1
     .param p1    # Ljava/lang/reflect/Type;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -41,7 +41,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -78,7 +78,7 @@
 
 .method public getGenericComponentType()Ljava/lang/reflect/Type;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/reflect/a;->a:Ljava/lang/reflect/Type;
@@ -88,7 +88,7 @@
 
 .method public getTypeName()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -130,7 +130,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Lcotlin/reflect/a;->getTypeName()Ljava/lang/String;

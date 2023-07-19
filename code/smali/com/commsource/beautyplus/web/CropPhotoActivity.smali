@@ -15,12 +15,12 @@
 
 # static fields
 .field public static final S:Ljava/lang/String; = "EXTRA_IMAGE"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final T:Ljava/lang/String; = "EXTRA_RATIO"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -29,12 +29,12 @@
 
 # instance fields
 .field private N:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private O:Lcom/commsource/beautyplus/f0/o;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -304,7 +304,7 @@
 
 .method public final T0()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3628
@@ -320,7 +320,7 @@
 
 .method public final U0()Lcom/commsource/beautyplus/f0/o;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x362a
@@ -337,7 +337,7 @@
 .method public final X0(Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -359,7 +359,7 @@
 .method public final Y0(Lcom/commsource/beautyplus/f0/o;)V
     .locals 1
     .param p1    # Lcom/commsource/beautyplus/f0/o;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -377,7 +377,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 3
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

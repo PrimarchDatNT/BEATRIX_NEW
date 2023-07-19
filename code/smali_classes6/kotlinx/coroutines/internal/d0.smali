@@ -19,11 +19,11 @@
 .method public static final b(Ljava/lang/Object;Lcotlin/jvm/u/a;)Ljava/lang/Object;
     .locals 1
     .param p0    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

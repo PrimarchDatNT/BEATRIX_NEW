@@ -28,7 +28,7 @@
 .field private final c:I
 
 .field private final d:Lkshark/Hprof$HprofVersion;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -95,7 +95,7 @@
 .method private final c(Lokio/BufferedSink;)V
     .locals 6
     .param p1    # Lokio/BufferedSink;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -136,7 +136,7 @@
 .method private final h(Lokio/BufferedSink;Lkshark/m;)V
     .locals 4
     .param p1    # Lokio/BufferedSink;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1135,7 +1135,7 @@
 .method private final i(Lokio/BufferedSink;[C)V
     .locals 1
     .param p1    # Lokio/BufferedSink;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1153,7 +1153,7 @@
 .method private final j(Lokio/BufferedSink;[D)V
     .locals 4
     .param p1    # Lokio/BufferedSink;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1179,7 +1179,7 @@
 .method private final k(Lokio/BufferedSink;[F)V
     .locals 3
     .param p1    # Lokio/BufferedSink;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1205,7 +1205,7 @@
 .method private final l(Lokio/BufferedSink;[I)V
     .locals 3
     .param p1    # Lokio/BufferedSink;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1231,7 +1231,7 @@
 .method private final m(Lokio/BufferedSink;[J)V
     .locals 4
     .param p1    # Lokio/BufferedSink;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1257,7 +1257,7 @@
 .method private final n(Lokio/BufferedSink;[S)V
     .locals 3
     .param p1    # Lokio/BufferedSink;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1283,7 +1283,7 @@
 .method private final o(Lokio/BufferedSink;[Z)V
     .locals 3
     .param p1    # Lokio/BufferedSink;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1309,7 +1309,7 @@
 .method private final p(Lokio/BufferedSink;Z)V
     .locals 0
     .param p1    # Lokio/BufferedSink;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1321,7 +1321,7 @@
 .method private final q(Lokio/BufferedSink;D)V
     .locals 0
     .param p1    # Lokio/BufferedSink;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1337,7 +1337,7 @@
 .method private final r(Lokio/BufferedSink;F)V
     .locals 0
     .param p1    # Lokio/BufferedSink;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1353,7 +1353,7 @@
 .method private final t(Lokio/BufferedSink;J)V
     .locals 2
     .param p1    # Lokio/BufferedSink;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1414,7 +1414,7 @@
 .method private final u(Lokio/BufferedSink;[J)V
     .locals 4
     .param p1    # Lokio/BufferedSink;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1440,7 +1440,7 @@
 .method private final v(Lokio/BufferedSink;ILcotlin/jvm/u/l;)V
     .locals 2
     .param p1    # Lokio/BufferedSink;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1480,7 +1480,7 @@
 .method private final w(Lokio/BufferedSink;IJ)V
     .locals 0
     .param p1    # Lokio/BufferedSink;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1500,7 +1500,7 @@
 .method private final x(Lokio/BufferedSink;Lkshark/b0;)V
     .locals 2
     .param p1    # Lokio/BufferedSink;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1667,7 +1667,7 @@
 
 .method public final d()Lkshark/Hprof$HprofVersion;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HprofWriter;->d:Lkshark/Hprof$HprofVersion;
@@ -1686,7 +1686,7 @@
 .method public final f(Ljava/util/List;)[B
     .locals 2
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1699,7 +1699,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "values"
@@ -1746,7 +1746,7 @@
 .method public final g(Lkshark/m;)V
     .locals 1
     .param p1    # Lkshark/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

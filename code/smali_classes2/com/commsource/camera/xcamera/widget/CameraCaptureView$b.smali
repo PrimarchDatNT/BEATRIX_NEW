@@ -40,7 +40,7 @@
 .method public onMajorFingerDown(Landroid/view/MotionEvent;)Z
     .locals 3
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -83,7 +83,7 @@
 .method public onMajorFingerUp(Landroid/view/MotionEvent;)Z
     .locals 3
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

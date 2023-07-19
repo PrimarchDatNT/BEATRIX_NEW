@@ -48,7 +48,7 @@
 # virtual methods
 .method public final invoke()Lcom/commsource/video/cover/VideoControllCover$positionTimer$2$a;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8d7b

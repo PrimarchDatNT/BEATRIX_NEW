@@ -18,17 +18,17 @@
 .field private final transient invertMatrix:Landroid/graphics/Matrix;
 
 .field private final transient matrix:Landroid/graphics/Matrix;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private transient matrixAnimator:Landroid/animation/ValueAnimator;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final matrixFloat:[F
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -75,7 +75,7 @@
 .method public constructor <init>(Landroid/graphics/Matrix;)V
     .locals 1
     .param p1    # Landroid/graphics/Matrix;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -117,7 +117,7 @@
 .method public constructor <init>(Lcom/commsource/studio/MatrixBox;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -378,15 +378,15 @@
 .method public final animateByMatrix(Lcom/commsource/studio/MatrixBox;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;)V
     .locals 16
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -536,19 +536,19 @@
 .method public final animateToMatrix(Lcom/commsource/studio/MatrixBox;Landroid/graphics/PointF;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;)V
     .locals 33
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/graphics/PointF;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p6    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -806,7 +806,7 @@
 
 .method public final calculateInvertMatrix()Landroid/graphics/Matrix;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6e96
@@ -828,7 +828,7 @@
 
 .method public final calculateInvertMatrixBox()Lcom/commsource/studio/MatrixBox;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6e97
@@ -873,7 +873,7 @@
 
 .method public final copy()Lcom/commsource/studio/MatrixBox;
     .locals 6
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6e9f
@@ -922,7 +922,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 5
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1019,7 +1019,7 @@
 
 .method public final getMatrix()Landroid/graphics/Matrix;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6e74
@@ -1035,7 +1035,7 @@
 
 .method public final getMatrixAnimator()Landroid/animation/ValueAnimator;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6e76
@@ -1051,7 +1051,7 @@
 
 .method public final getMatrixFloat()[F
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6e75
@@ -1067,7 +1067,7 @@
 
 .method public final getMatrixInOpenGL(II)[F
     .locals 6
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6e98
@@ -1139,7 +1139,7 @@
 
 .method public final getOpenGlMatrix(IIII)[F
     .locals 7
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6e99
@@ -1448,7 +1448,7 @@
 .method public final mapRectFloatArray([[F)V
     .locals 5
     .param p1    # [[F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1486,7 +1486,7 @@
 .method public final postConcat(Lcom/commsource/studio/MatrixBox;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1606,7 +1606,7 @@
 .method public final preConcat(Lcom/commsource/studio/MatrixBox;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1738,7 +1738,7 @@
 .method public final set(IIIILcom/commsource/studio/layer/Position;)V
     .locals 10
     .param p5    # Lcom/commsource/studio/layer/Position;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1824,7 +1824,7 @@
 .method public final set(Landroid/graphics/Matrix;)V
     .locals 2
     .param p1    # Landroid/graphics/Matrix;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1860,7 +1860,7 @@
 .method public final set(Lcom/commsource/studio/MatrixBox;)V
     .locals 3
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1928,7 +1928,7 @@
 .method public final setMatrixAnimator(Landroid/animation/ValueAnimator;)V
     .locals 1
     .param p1    # Landroid/animation/ValueAnimator;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

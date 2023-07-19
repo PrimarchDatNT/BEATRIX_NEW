@@ -52,11 +52,11 @@
 .method public constructor <init>(Lcotlin/coroutines/CoroutineContext$b;Lcotlin/jvm/u/l;)V
     .locals 1
     .param p1    # Lcotlin/coroutines/CoroutineContext$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -102,7 +102,7 @@
 .method public final a(Lcotlin/coroutines/CoroutineContext$b;)Z
     .locals 1
     .param p1    # Lcotlin/coroutines/CoroutineContext$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -141,7 +141,7 @@
 .method public final b(Lcotlin/coroutines/CoroutineContext$a;)Lcotlin/coroutines/CoroutineContext$a;
     .locals 1
     .param p1    # Lcotlin/coroutines/CoroutineContext$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -152,7 +152,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "element"

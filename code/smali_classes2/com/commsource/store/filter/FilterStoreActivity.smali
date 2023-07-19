@@ -19,12 +19,12 @@
 .field private static final U:Ljava/lang/String; = "GROUP_ID"
 
 .field public static final V:Ljava/lang/String; = "TO_SHOW_FILTER"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final W:Ljava/lang/String; = "IS_SCROLL_EVENT"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -701,7 +701,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 6
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

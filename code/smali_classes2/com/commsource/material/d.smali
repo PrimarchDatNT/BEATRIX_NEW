@@ -517,7 +517,7 @@
 .method public final declared-synchronized e(Lcom/commsource/material/DownloadTask;)V
     .locals 2
     .param p1    # Lcom/commsource/material/DownloadTask;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -551,7 +551,7 @@
 .method public final declared-synchronized f(Lcom/commsource/material/DownloadTask;I)V
     .locals 1
     .param p1    # Lcom/commsource/material/DownloadTask;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -727,10 +727,10 @@
 .method public final declared-synchronized k(Ljava/lang/String;)Lcom/commsource/material/DownloadTask;
     .locals 5
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     monitor-enter p0
@@ -875,7 +875,7 @@
 .method public final declared-synchronized n(Lcom/commsource/material/DownloadTask;)V
     .locals 2
     .param p1    # Lcom/commsource/material/DownloadTask;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -909,7 +909,7 @@
 .method public final declared-synchronized o(Lcom/commsource/material/DownloadTask;I)V
     .locals 2
     .param p1    # Lcom/commsource/material/DownloadTask;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1019,7 +1019,7 @@
 .method public final declared-synchronized q(Ljava/lang/String;)Z
     .locals 4
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1189,7 +1189,7 @@
 .method public final declared-synchronized s(Ljava/lang/String;)Z
     .locals 5
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1507,7 +1507,7 @@
 .method public final declared-synchronized w(Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1541,7 +1541,7 @@
 .method public final declared-synchronized x(Ljava/lang/String;Z)V
     .locals 6
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

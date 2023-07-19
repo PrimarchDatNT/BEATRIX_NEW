@@ -68,7 +68,7 @@
 .method public final invoke(Lcom/commsource/studio/bean/BaseLayerInfo;)V
     .locals 7
     .param p1    # Lcom/commsource/studio/bean/BaseLayerInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

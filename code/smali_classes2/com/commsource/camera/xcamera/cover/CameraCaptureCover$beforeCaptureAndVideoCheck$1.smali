@@ -46,7 +46,7 @@
 .method public f(Lcom/commsource/camera/xcamera/bean/c;)V
     .locals 2
     .param p1    # Lcom/commsource/camera/xcamera/bean/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

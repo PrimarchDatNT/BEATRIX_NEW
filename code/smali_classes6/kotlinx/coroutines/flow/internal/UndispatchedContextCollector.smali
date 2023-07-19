@@ -45,11 +45,11 @@
 .method public constructor <init>(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/CoroutineContext;)V
     .locals 1
     .param p1    # Lcotlinx/coroutines/flow/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -88,7 +88,7 @@
 .method public emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 3
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -102,7 +102,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector;->c:Lcotlin/coroutines/CoroutineContext;

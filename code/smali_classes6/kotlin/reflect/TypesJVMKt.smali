@@ -437,10 +437,10 @@
 .method public static final f(Lcotlin/reflect/r;)Ljava/lang/reflect/Type;
     .locals 3
     .param p0    # Lcotlin/reflect/r;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$javaType"

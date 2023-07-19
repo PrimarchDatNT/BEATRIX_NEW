@@ -20,7 +20,7 @@
 
 # instance fields
 .field private final a:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -43,7 +43,7 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -63,7 +63,7 @@
 .method public a(IILandroid/content/Intent;)Z
     .locals 0
     .param p3    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -82,7 +82,7 @@
 .method public b(Lcom/commsource/util/p2/a;)V
     .locals 4
     .param p1    # Lcom/commsource/util/p2/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -135,7 +135,7 @@
 
 .method public final d()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/util/delegate/process/j;->a:Ljava/lang/String;

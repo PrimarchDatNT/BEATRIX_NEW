@@ -11,7 +11,7 @@
 
 # instance fields
 .field private categoryIdWhenSelect:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -20,17 +20,17 @@
 .field private recommendIndex:I
 
 .field private transient style:Lcom/commsource/studio/bean/f;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private transient styleCategory:Lcom/commsource/studio/bean/g;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private styleId:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -65,19 +65,19 @@
 .method public constructor <init>(Ljava/lang/String;IILjava/lang/String;Lcom/commsource/studio/bean/f;Lcom/commsource/studio/bean/g;)V
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p4    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Lcom/commsource/studio/bean/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p6    # Lcom/commsource/studio/bean/g;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -294,7 +294,7 @@
 
 .method public final component1()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6cbe
@@ -338,7 +338,7 @@
 
 .method public final component4()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6cc1
@@ -354,7 +354,7 @@
 
 .method public final component5()Lcom/commsource/studio/bean/f;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6cc2
@@ -370,7 +370,7 @@
 
 .method public final component6()Lcom/commsource/studio/bean/g;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6cc3
@@ -387,22 +387,22 @@
 .method public final copy(Ljava/lang/String;IILjava/lang/String;Lcom/commsource/studio/bean/f;Lcom/commsource/studio/bean/g;)Lcom/commsource/studio/function/style/StyleIndex;
     .locals 9
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p4    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Lcom/commsource/studio/bean/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p6    # Lcom/commsource/studio/bean/g;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6cc4
@@ -435,7 +435,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -522,7 +522,7 @@
 
 .method public final getCategoryIdWhenSelect()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6cb8    # 3.9001E-41f
@@ -597,7 +597,7 @@
 
 .method public final getStyle()Lcom/commsource/studio/bean/f;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6cba
@@ -613,7 +613,7 @@
 
 .method public final getStyleCategory()Lcom/commsource/studio/bean/g;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6cbc
@@ -629,7 +629,7 @@
 
 .method public final getStyleId()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6cb2
@@ -761,7 +761,7 @@
 .method public final setCategoryIdWhenSelect(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -823,7 +823,7 @@
 .method public final setStyle(Lcom/commsource/studio/bean/f;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/bean/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -841,7 +841,7 @@
 .method public final setStyleCategory(Lcom/commsource/studio/bean/g;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/bean/g;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -859,7 +859,7 @@
 .method public final setStyleId(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -876,7 +876,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6cc6

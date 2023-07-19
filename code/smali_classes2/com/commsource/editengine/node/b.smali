@@ -23,17 +23,17 @@
 
 # instance fields
 .field private c:Lcom/commsource/editengine/g;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private d:Lcom/commsource/easyeditor/utils/opengl/f;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private e:Lcom/commsource/easyeditor/utils/opengl/f;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -42,17 +42,17 @@
 .field private g:Z
 
 .field private h:Lcom/meitu/mtpasterrender/MTPasterRenderFilter;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private i:Lcom/meitu/mtpasterrender/MTPasterRenderFilter;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private j:Lcom/commsource/editengine/GLEraserRender;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -75,7 +75,7 @@
 .field private s:Z
 
 .field private t:Lcom/commsource/studio/bean/ImageLayerInfo;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -104,11 +104,11 @@
 .method public constructor <init>(Lcom/commsource/editengine/b;Lcom/commsource/studio/bean/ImageLayerInfo;)V
     .locals 1
     .param p1    # Lcom/commsource/editengine/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/bean/ImageLayerInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -593,7 +593,7 @@
 .method public final B(ZLcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 3
     .param p2    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -650,7 +650,7 @@
 .method public final D(ZLcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 6
     .param p2    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -903,7 +903,7 @@
 .method public final F(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 1
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -951,7 +951,7 @@
 .method public final J(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 8
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1105,7 +1105,7 @@
 .method public final L(Lcom/meitu/mtpasterrender/MTPasterRenderFilter;)V
     .locals 1
     .param p1    # Lcom/meitu/mtpasterrender/MTPasterRenderFilter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1123,7 +1123,7 @@
 .method public final M(Lcom/commsource/editengine/GLEraserRender;)V
     .locals 1
     .param p1    # Lcom/commsource/editengine/GLEraserRender;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1155,7 +1155,7 @@
 .method public final O(Lcom/commsource/editengine/g;)V
     .locals 1
     .param p1    # Lcom/commsource/editengine/g;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1173,7 +1173,7 @@
 .method public final P(Lcom/commsource/studio/bean/ImageLayerInfo;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/bean/ImageLayerInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1209,7 +1209,7 @@
 .method public final R(Lcom/meitu/mtpasterrender/MTPasterRenderFilter;)V
     .locals 1
     .param p1    # Lcom/meitu/mtpasterrender/MTPasterRenderFilter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1241,7 +1241,7 @@
 .method public final T(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 1
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1273,7 +1273,7 @@
 .method public final V(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 1
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1526,7 +1526,7 @@
 .method public c(IILcom/commsource/editengine/j;)V
     .locals 9
     .param p3    # Lcom/commsource/editengine/j;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2305,14 +2305,14 @@
 .method public f(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)Lcom/commsource/easyeditor/utils/opengl/f;
     .locals 9
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x85db
@@ -2623,7 +2623,7 @@
 
 .method public final j()Landroid/graphics/Bitmap;
     .locals 12
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x85ca
@@ -2910,7 +2910,7 @@
 
 .method public final k()Lcom/meitu/mtpasterrender/MTPasterRenderFilter;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x85b7
@@ -2926,7 +2926,7 @@
 
 .method public final l()Lcom/commsource/editengine/GLEraserRender;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x85bb
@@ -2956,7 +2956,7 @@
 
 .method public final n()Lcom/commsource/editengine/g;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x85ad
@@ -2972,7 +2972,7 @@
 
 .method public final o()Lcom/commsource/studio/bean/ImageLayerInfo;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x85dc
@@ -3002,7 +3002,7 @@
 
 .method public final q()Lcom/meitu/mtpasterrender/MTPasterRenderFilter;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x85b9
@@ -3018,7 +3018,7 @@
 
 .method public final r()Lcom/commsource/easyeditor/utils/opengl/f;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x85b1
@@ -3034,7 +3034,7 @@
 
 .method public final s()Lcom/commsource/easyeditor/utils/opengl/f;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x85af

@@ -43,7 +43,7 @@
 .method public onCancel(Landroid/content/DialogInterface;)V
     .locals 5
     .param p1    # Landroid/content/DialogInterface;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

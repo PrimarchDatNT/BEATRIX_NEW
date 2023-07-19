@@ -73,7 +73,7 @@
 .method public final invoke(ILkshark/LeakTraceReference;)Z
     .locals 1
     .param p2    # Lkshark/LeakTraceReference;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -21,17 +21,17 @@
 .field private b:Z
 
 .field private c:Landroid/graphics/PointF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private d:Landroid/graphics/PointF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private e:Ljava/lang/Boolean;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -65,7 +65,7 @@
 # virtual methods
 .method public final a()Landroid/graphics/PointF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa214
@@ -81,7 +81,7 @@
 
 .method public final b()Ljava/lang/Boolean;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa216
@@ -97,7 +97,7 @@
 
 .method public final c()Landroid/graphics/PointF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa212
@@ -156,7 +156,7 @@
 .method public final g(Landroid/graphics/PointF;)V
     .locals 2
     .param p1    # Landroid/graphics/PointF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -178,7 +178,7 @@
 .method public final h(Ljava/lang/Boolean;)V
     .locals 1
     .param p1    # Ljava/lang/Boolean;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -196,7 +196,7 @@
 .method public final i(Landroid/graphics/PointF;)V
     .locals 2
     .param p1    # Landroid/graphics/PointF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

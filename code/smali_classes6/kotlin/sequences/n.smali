@@ -57,7 +57,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -157,7 +157,7 @@
 .method public b(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 1
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -171,7 +171,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iput-object p1, p0, Lcotlin/sequences/n;->b:Ljava/lang/Object;
@@ -212,11 +212,11 @@
 .method public e(Ljava/util/Iterator;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 1
     .param p1    # Ljava/util/Iterator;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -232,7 +232,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
@@ -283,7 +283,7 @@
 
 .method public getContext()Lcotlin/coroutines/CoroutineContext;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
@@ -384,7 +384,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlin/sequences/n;->d:Lcotlin/coroutines/c;
@@ -395,7 +395,7 @@
 .method public final l(Lcotlin/coroutines/c;)V
     .locals 0
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -492,7 +492,7 @@
 .method public resumeWith(Ljava/lang/Object;)V
     .locals 0
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -151,13 +151,13 @@
 .method public static final d(Ljava/lang/String;)Ljava/lang/StackTraceElement;
     .locals 3
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StackTraceElement;
@@ -188,7 +188,7 @@
 .method private static final e(Ljava/lang/Throwable;)Lcotlin/Pair;
     .locals 6
     .param p0    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -458,7 +458,7 @@
 .method private static final h(Ljava/lang/StackTraceElement;Ljava/lang/StackTraceElement;)Z
     .locals 2
     .param p0    # Ljava/lang/StackTraceElement;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -528,7 +528,7 @@
 .method private static final i([Ljava/lang/StackTraceElement;Ljava/lang/String;)I
     .locals 3
     .param p0    # [Ljava/lang/StackTraceElement;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -568,11 +568,11 @@
 .method public static final j(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
     .locals 0
     .param p0    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -584,7 +584,7 @@
 .method public static final k(Ljava/lang/StackTraceElement;)Z
     .locals 4
     .param p0    # Ljava/lang/StackTraceElement;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -688,11 +688,11 @@
 .method public static final m(Ljava/lang/Throwable;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 1
     .param p0    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -705,7 +705,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {}, Lcotlinx/coroutines/p0;->e()Z
@@ -736,14 +736,14 @@
 .method private static final n(Ljava/lang/Throwable;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 1
     .param p0    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {}, Lcotlinx/coroutines/p0;->e()Z
@@ -857,7 +857,7 @@
 .method public static final p(Ljava/lang/Throwable;)Ljava/lang/Throwable;
     .locals 1
     .param p0    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -868,7 +868,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lcotlinx/coroutines/p0;->e()Z
@@ -897,11 +897,11 @@
 .method public static final q(Ljava/lang/Throwable;Lcotlin/coroutines/c;)Ljava/lang/Throwable;
     .locals 1
     .param p0    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -914,7 +914,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lcotlinx/coroutines/p0;->e()Z
@@ -944,7 +944,7 @@
 .method private static final r(Ljava/lang/Throwable;)Ljava/lang/Throwable;
     .locals 7
     .param p0    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1031,7 +1031,7 @@
 .method public static final s(Ljava/lang/Throwable;)Ljava/lang/Throwable;
     .locals 1
     .param p0    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1042,7 +1042,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lcotlinx/coroutines/p0;->e()Z
@@ -1065,7 +1065,7 @@
 .method public static final t(Ljava/lang/Throwable;)Ljava/lang/Throwable;
     .locals 7
     .param p0    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1076,7 +1076,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;

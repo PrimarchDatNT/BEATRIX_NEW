@@ -76,10 +76,10 @@
 .method public final a(Lcom/commsource/home/homepagedialog/d;)Lcom/commsource/home/homepagedialog/b;
     .locals 3
     .param p1    # Lcom/commsource/home/homepagedialog/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9a35

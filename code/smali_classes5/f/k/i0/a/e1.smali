@@ -25,7 +25,7 @@
 # virtual methods
 .method public abstract I0([Lcom/commsource/studio/function/background/TextureMaterial;)V
     .param p1    # [Lcom/commsource/studio/function/background/TextureMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -35,7 +35,7 @@
 
 .method public abstract N0([Lcom/commsource/studio/function/background/TextureMaterial;)V
     .param p1    # [Lcom/commsource/studio/function/background/TextureMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -44,7 +44,7 @@
 
 .method public abstract Q0(Lcom/commsource/studio/function/background/TextureMaterial;)V
     .param p1    # Lcom/commsource/studio/function/background/TextureMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -54,7 +54,7 @@
 
 .method public abstract T1([Lcom/commsource/studio/function/background/TextureMaterial;)V
     .param p1    # [Lcom/commsource/studio/function/background/TextureMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -63,7 +63,7 @@
 
 .method public abstract W2(Lcom/commsource/studio/function/background/TextureMaterial;)V
     .param p1    # Lcom/commsource/studio/function/background/TextureMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -84,7 +84,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -102,13 +102,13 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract b3(Lcom/commsource/studio/function/background/TextureMaterial;)V
     .param p1    # Lcom/commsource/studio/function/background/TextureMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -117,14 +117,14 @@
 
 .method public abstract d(Ljava/lang/String;)Lcom/commsource/studio/function/background/TextureMaterial;
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
         value = "select * from TEXTURE_MATERIAL where m_id = :key"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -142,6 +142,6 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method

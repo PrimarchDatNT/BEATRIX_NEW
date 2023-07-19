@@ -11,7 +11,7 @@
 .method public static final a(JLcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 3
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -25,7 +25,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-wide/16 v0, 0x0
@@ -78,7 +78,7 @@
 .method public static final b(DLcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -95,7 +95,7 @@
     .annotation build Lcotlin/i2/j;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/v0;->d(D)J
@@ -123,10 +123,10 @@
 .method public static final c(Lcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/u0;
     .locals 1
     .param p0    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/coroutines/d;->s:Lcotlin/coroutines/d$b;

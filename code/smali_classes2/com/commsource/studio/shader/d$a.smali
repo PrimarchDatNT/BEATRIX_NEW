@@ -20,27 +20,27 @@
 .field private a:Z
 
 .field private b:Ljava/nio/FloatBuffer;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private c:Ljava/nio/FloatBuffer;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private d:[F
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private e:[F
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private f:[F
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -72,7 +72,7 @@
 
 .method public final b()[F
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3d7b
@@ -103,7 +103,7 @@
 
 .method public final c()Ljava/nio/FloatBuffer;
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3d73
@@ -172,7 +172,7 @@
 
 .method public final d()[F
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3d77
@@ -207,7 +207,7 @@
 
 .method public final e()Ljava/nio/FloatBuffer;
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3d75
@@ -276,7 +276,7 @@
 
 .method public final f()[F
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3d79
@@ -316,7 +316,7 @@
 .method public final h([F)V
     .locals 1
     .param p1    # [F
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -334,7 +334,7 @@
 .method public final i(Ljava/nio/FloatBuffer;)V
     .locals 1
     .param p1    # Ljava/nio/FloatBuffer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -352,7 +352,7 @@
 .method public final j([F)V
     .locals 1
     .param p1    # [F
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -370,7 +370,7 @@
 .method public final k(Ljava/nio/FloatBuffer;)V
     .locals 1
     .param p1    # Ljava/nio/FloatBuffer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -388,7 +388,7 @@
 .method public final l([F)V
     .locals 1
     .param p1    # [F
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

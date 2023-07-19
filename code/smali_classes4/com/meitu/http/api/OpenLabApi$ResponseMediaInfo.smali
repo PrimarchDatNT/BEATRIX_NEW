@@ -20,17 +20,17 @@
 
 # instance fields
 .field private media_data:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private media_extra:Lcom/meitu/http/api/OpenLabApi$MaskExtra;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private media_profiles:Lcom/meitu/http/api/OpenLabApi$MediaProfiles;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -39,15 +39,15 @@
 .method public constructor <init>(Ljava/lang/String;Lcom/meitu/http/api/OpenLabApi$MediaProfiles;Lcom/meitu/http/api/OpenLabApi$MaskExtra;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/http/api/OpenLabApi$MediaProfiles;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcom/meitu/http/api/OpenLabApi$MaskExtra;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -115,7 +115,7 @@
 # virtual methods
 .method public final component1()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xc29
@@ -131,7 +131,7 @@
 
 .method public final component2()Lcom/meitu/http/api/OpenLabApi$MediaProfiles;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xc2a
@@ -147,7 +147,7 @@
 
 .method public final component3()Lcom/meitu/http/api/OpenLabApi$MaskExtra;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xc2b
@@ -164,18 +164,18 @@
 .method public final copy(Ljava/lang/String;Lcom/meitu/http/api/OpenLabApi$MediaProfiles;Lcom/meitu/http/api/OpenLabApi$MaskExtra;)Lcom/meitu/http/api/OpenLabApi$ResponseMediaInfo;
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/http/api/OpenLabApi$MediaProfiles;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcom/meitu/http/api/OpenLabApi$MaskExtra;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xc2c
@@ -206,7 +206,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -271,7 +271,7 @@
 
 .method public final getMedia_data()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xc23
@@ -287,7 +287,7 @@
 
 .method public final getMedia_extra()Lcom/meitu/http/api/OpenLabApi$MaskExtra;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xc27
@@ -303,7 +303,7 @@
 
 .method public final getMedia_profiles()Lcom/meitu/http/api/OpenLabApi$MediaProfiles;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xc25
@@ -379,7 +379,7 @@
 .method public final setMedia_data(Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -401,7 +401,7 @@
 .method public final setMedia_extra(Lcom/meitu/http/api/OpenLabApi$MaskExtra;)V
     .locals 2
     .param p1    # Lcom/meitu/http/api/OpenLabApi$MaskExtra;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -423,7 +423,7 @@
 .method public final setMedia_profiles(Lcom/meitu/http/api/OpenLabApi$MediaProfiles;)V
     .locals 2
     .param p1    # Lcom/meitu/http/api/OpenLabApi$MediaProfiles;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -444,7 +444,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xc2e

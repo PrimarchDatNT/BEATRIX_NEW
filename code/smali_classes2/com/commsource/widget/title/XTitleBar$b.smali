@@ -43,7 +43,7 @@
 .method public onScrollChange(Landroidx/core/widget/NestedScrollView;IIII)V
     .locals 0
     .param p1    # Landroidx/core/widget/NestedScrollView;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

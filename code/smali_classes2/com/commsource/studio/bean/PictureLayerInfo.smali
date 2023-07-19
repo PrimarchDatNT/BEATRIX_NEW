@@ -9,7 +9,7 @@
 
 # instance fields
 .field private transient animationWrapper:Lcom/commsource/studio/h0;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -25,7 +25,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -40,14 +40,14 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private layerType:I
 
 .field private oriPath:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -115,7 +115,7 @@
 
 .method public copy(Z)Lcom/commsource/studio/bean/PictureLayerInfo;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x754c
@@ -156,7 +156,7 @@
 
 .method public final getAnimationWrapper()Lcom/commsource/studio/h0;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x754a
@@ -196,7 +196,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7546
@@ -235,7 +235,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7544
@@ -265,7 +265,7 @@
 
 .method public final getOriPath()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7540
@@ -349,7 +349,7 @@
 .method public final setAnimationWrapper(Lcom/commsource/studio/h0;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/h0;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -381,7 +381,7 @@
 .method public final setDraftRecordMap(Ljava/util/HashMap;)V
     .locals 1
     .param p1    # Ljava/util/HashMap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -422,7 +422,7 @@
 .method public final setImageResults(Ljava/util/LinkedList;)V
     .locals 2
     .param p1    # Ljava/util/LinkedList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -466,7 +466,7 @@
 .method public final setOriPath(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

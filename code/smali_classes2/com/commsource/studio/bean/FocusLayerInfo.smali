@@ -23,27 +23,27 @@
 .field private alpha:F
 
 .field private bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private bitmapPosition:Lcom/commsource/studio/layer/Position;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private circumscribedRect:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private drawMatrixBox:Lcom/commsource/studio/MatrixBox;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private transient groupLayerInfo:Lcom/commsource/studio/bean/GroupLayerInfo;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -56,22 +56,22 @@
 .field private transient isMaskEdit:Z
 
 .field private maskCropRectF:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private mixMode:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private originBitmapRect:Landroid/graphics/Rect;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private position:Lcom/commsource/studio/layer/Position;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -272,7 +272,7 @@
 
 .method public copy(Z)Lcom/commsource/studio/bean/FocusLayerInfo;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-super {p0, p1}, Lcom/commsource/studio/bean/BaseLayerInfo;->copy(Z)Lcom/commsource/studio/bean/BaseLayerInfo;
@@ -395,7 +395,7 @@
 
 .method public final getBitmapMatrixBox()Lcom/commsource/studio/MatrixBox;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapMatrixBox:Lcom/commsource/studio/MatrixBox;
@@ -405,7 +405,7 @@
 
 .method public final getBitmapPosition()Lcom/commsource/studio/layer/Position;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->bitmapPosition:Lcom/commsource/studio/layer/Position;
@@ -415,7 +415,7 @@
 
 .method public final getCircumscribedRect()Landroid/graphics/RectF;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->circumscribedRect:Landroid/graphics/RectF;
@@ -425,7 +425,7 @@
 
 .method public final getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->drawMatrixBox:Lcom/commsource/studio/MatrixBox;
@@ -435,7 +435,7 @@
 
 .method public final getDrawMatrixConsiderFlip()Lcom/commsource/studio/MatrixBox;
     .locals 8
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcom/commsource/studio/MatrixBox;
@@ -509,7 +509,7 @@
 
 .method public final getGroupLayerInfo()Lcom/commsource/studio/bean/GroupLayerInfo;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->groupLayerInfo:Lcom/commsource/studio/bean/GroupLayerInfo;
@@ -527,7 +527,7 @@
 
 .method public final getMaskCropRectF()Landroid/graphics/RectF;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->maskCropRectF:Landroid/graphics/RectF;
@@ -537,7 +537,7 @@
 
 .method public getMixMode()Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->mixMode:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
@@ -547,7 +547,7 @@
 
 .method public final getOriginBitmapRect()Landroid/graphics/Rect;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->originBitmapRect:Landroid/graphics/Rect;
@@ -557,7 +557,7 @@
 
 .method public final getPictureRealMatrix()Lcom/commsource/studio/MatrixBox;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcom/commsource/studio/MatrixBox;
@@ -579,7 +579,7 @@
 
 .method public final getPosition()Lcom/commsource/studio/layer/Position;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/bean/FocusLayerInfo;->position:Lcom/commsource/studio/layer/Position;
@@ -605,7 +605,7 @@
 
 .method public final getRectInCanvas()Landroid/graphics/RectF;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Landroid/graphics/RectF;
@@ -704,7 +704,7 @@
 .method public final hitTest([F)Z
     .locals 6
     .param p1    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -971,7 +971,7 @@
 .method public final setBitmapMatrixBox(Lcom/commsource/studio/MatrixBox;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -987,7 +987,7 @@
 .method public final setBitmapPosition(Lcom/commsource/studio/layer/Position;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/layer/Position;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1003,7 +1003,7 @@
 .method public final setCircumscribedRect(Landroid/graphics/RectF;)V
     .locals 1
     .param p1    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1019,7 +1019,7 @@
 .method public final setDrawMatrixBox(Lcom/commsource/studio/MatrixBox;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1051,7 +1051,7 @@
 .method public final setGroupLayerInfo(Lcom/commsource/studio/bean/GroupLayerInfo;)V
     .locals 0
     .param p1    # Lcom/commsource/studio/bean/GroupLayerInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1071,7 +1071,7 @@
 .method public final setMaskCropRectF(Landroid/graphics/RectF;)V
     .locals 1
     .param p1    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1095,7 +1095,7 @@
 .method public setMixMode(Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;)V
     .locals 0
     .param p1    # Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1107,7 +1107,7 @@
 .method public final setOriginBitmapRect(Landroid/graphics/Rect;)V
     .locals 1
     .param p1    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1123,7 +1123,7 @@
 .method public final setPosition(Lcom/commsource/studio/layer/Position;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/layer/Position;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1171,7 +1171,7 @@
 .method public final updateBitmapRectChange(Landroid/graphics/RectF;ZZ)V
     .locals 8
     .param p1    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1395,15 +1395,15 @@
 .method public final updateMaskCropInfo(Landroid/graphics/Rect;Landroid/graphics/RectF;Lcom/commsource/studio/MatrixBox;III)V
     .locals 19
     .param p1    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -32,7 +32,7 @@
 .method public constructor <init>(Lcom/commsource/studio/MagnifyComponent;Landroid/content/Context;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/MagnifyComponent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -57,11 +57,11 @@
 .method public constructor <init>(Lcom/commsource/studio/MagnifyComponent;Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/MagnifyComponent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/content/Context;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -87,11 +87,11 @@
 .method public constructor <init>(Lcom/commsource/studio/MagnifyComponent;Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 1
     .param p1    # Lcom/commsource/studio/MagnifyComponent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/content/Context;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -224,7 +224,7 @@
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 5
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

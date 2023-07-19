@@ -66,7 +66,7 @@
 .method public final b(Lcom/airbnb/lottie/g;)V
     .locals 2
     .param p1    # Lcom/airbnb/lottie/g;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

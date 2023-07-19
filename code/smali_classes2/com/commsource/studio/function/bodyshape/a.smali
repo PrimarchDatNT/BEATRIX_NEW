@@ -9,12 +9,12 @@
 
 # instance fields
 .field private M:Lcom/commsource/easyeditor/utils/opengl/j;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private N:Lcom/commsource/camera/newrender/renderproxy/m;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -149,7 +149,7 @@
 # virtual methods
 .method public final J()[I
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1901
@@ -177,7 +177,7 @@
 
 .method public final K()Lcom/commsource/camera/newrender/renderproxy/m;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x18f5
@@ -193,7 +193,7 @@
 
 .method public final L()Lcom/commsource/easyeditor/utils/opengl/j;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x18f3
@@ -252,7 +252,7 @@
 .method public final R(Lcom/commsource/camera/newrender/renderproxy/m;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/newrender/renderproxy/m;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -270,7 +270,7 @@
 .method public final S(Ljava/lang/Object;Ljava/lang/Class;)V
     .locals 4
     .param p2    # Ljava/lang/Class;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -355,7 +355,7 @@
 .method public final T(Lcom/commsource/easyeditor/utils/opengl/j;)V
     .locals 1
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/j;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -387,7 +387,7 @@
 .method public final V(Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;F)V
     .locals 3
     .param p1    # Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -582,7 +582,7 @@
 .method public s(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 13
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

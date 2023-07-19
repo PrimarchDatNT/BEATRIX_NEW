@@ -21,7 +21,7 @@
 
 # instance fields
 .field private a:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -48,7 +48,7 @@
 # virtual methods
 .method public final a()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x19b5
@@ -65,7 +65,7 @@
 .method public afterTextChanged(Landroid/text/Editable;)V
     .locals 6
     .param p1    # Landroid/text/Editable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -266,7 +266,7 @@
 .method public final b(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -284,7 +284,7 @@
 .method public beforeTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
     .param p1    # Ljava/lang/CharSequence;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -322,7 +322,7 @@
 .method public onTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
     .param p1    # Ljava/lang/CharSequence;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

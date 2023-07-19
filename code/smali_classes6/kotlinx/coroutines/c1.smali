@@ -8,17 +8,17 @@
 
 # static fields
 .field private static final a:Lcotlinx/coroutines/CoroutineDispatcher;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private static final b:Lcotlinx/coroutines/CoroutineDispatcher;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private static final c:Lcotlinx/coroutines/CoroutineDispatcher;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -98,7 +98,7 @@
 
 .method public static final e()Lcotlinx/coroutines/CoroutineDispatcher;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/c1;->a:Lcotlinx/coroutines/CoroutineDispatcher;
@@ -108,7 +108,7 @@
 
 .method public static final f()Lcotlinx/coroutines/CoroutineDispatcher;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/c1;->c:Lcotlinx/coroutines/CoroutineDispatcher;
@@ -118,7 +118,7 @@
 
 .method public static final g()Lcotlinx/coroutines/m2;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/internal/r;->b:Lcotlinx/coroutines/m2;
@@ -128,7 +128,7 @@
 
 .method public static final h()Lcotlinx/coroutines/CoroutineDispatcher;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/c1;->b:Lcotlinx/coroutines/CoroutineDispatcher;

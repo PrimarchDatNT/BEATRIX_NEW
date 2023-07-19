@@ -25,7 +25,7 @@
 .field private static final h:Ljava/lang/StringBuilder;
 
 .field public static final i:Lcotlin/io/m;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -347,14 +347,14 @@
 .method public final declared-synchronized f(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;
     .locals 9
     .param p1    # Ljava/io/InputStream;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/nio/charset/Charset;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     monitor-enter p0

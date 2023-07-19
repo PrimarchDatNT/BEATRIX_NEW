@@ -11,27 +11,27 @@
 
 # instance fields
 .field private final background:Lcom/commsource/studio/formula/convert/FormulaBackground;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final filter:Lcom/commsource/studio/formula/convert/FormulaFilter;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final picture:Lcom/commsource/studio/formula/convert/FormulaPicture;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final sticker:Lcom/commsource/studio/formula/convert/FormulaSticker;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final text:Lcom/commsource/studio/formula/convert/FormulaText;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -40,23 +40,23 @@
 .method public constructor <init>(Lcom/commsource/studio/formula/convert/FormulaFilter;Lcom/commsource/studio/formula/convert/FormulaSticker;Lcom/commsource/studio/formula/convert/FormulaBackground;Lcom/commsource/studio/formula/convert/FormulaPicture;Lcom/commsource/studio/formula/convert/FormulaText;)V
     .locals 0
     .param p1    # Lcom/commsource/studio/formula/convert/FormulaFilter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/formula/convert/FormulaSticker;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Lcom/commsource/studio/formula/convert/FormulaBackground;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p4    # Lcom/commsource/studio/formula/convert/FormulaPicture;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Lcom/commsource/studio/formula/convert/FormulaText;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -142,7 +142,7 @@
 # virtual methods
 .method public final component1()Lcom/commsource/studio/formula/convert/FormulaFilter;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3cc9
@@ -158,7 +158,7 @@
 
 .method public final component2()Lcom/commsource/studio/formula/convert/FormulaSticker;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3cca
@@ -174,7 +174,7 @@
 
 .method public final component3()Lcom/commsource/studio/formula/convert/FormulaBackground;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3ccb
@@ -190,7 +190,7 @@
 
 .method public final component4()Lcom/commsource/studio/formula/convert/FormulaPicture;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3ccc
@@ -206,7 +206,7 @@
 
 .method public final component5()Lcom/commsource/studio/formula/convert/FormulaText;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3ccd
@@ -223,26 +223,26 @@
 .method public final copy(Lcom/commsource/studio/formula/convert/FormulaFilter;Lcom/commsource/studio/formula/convert/FormulaSticker;Lcom/commsource/studio/formula/convert/FormulaBackground;Lcom/commsource/studio/formula/convert/FormulaPicture;Lcom/commsource/studio/formula/convert/FormulaText;)Lcom/commsource/studio/formula/convert/EffectParams;
     .locals 8
     .param p1    # Lcom/commsource/studio/formula/convert/FormulaFilter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/formula/convert/FormulaSticker;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Lcom/commsource/studio/formula/convert/FormulaBackground;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p4    # Lcom/commsource/studio/formula/convert/FormulaPicture;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Lcom/commsource/studio/formula/convert/FormulaText;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3cce
@@ -273,7 +273,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -358,7 +358,7 @@
 
 .method public final getBackground()Lcom/commsource/studio/formula/convert/FormulaBackground;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3cc6
@@ -374,7 +374,7 @@
 
 .method public final getFilter()Lcom/commsource/studio/formula/convert/FormulaFilter;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3cc4
@@ -390,7 +390,7 @@
 
 .method public final getPicture()Lcom/commsource/studio/formula/convert/FormulaPicture;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3cc7
@@ -406,7 +406,7 @@
 
 .method public final getSticker()Lcom/commsource/studio/formula/convert/FormulaSticker;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3cc5
@@ -422,7 +422,7 @@
 
 .method public final getText()Lcom/commsource/studio/formula/convert/FormulaText;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3cc8
@@ -533,7 +533,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3cd0

@@ -9,12 +9,12 @@
 
 # instance fields
 .field private final b:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final c:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -319,7 +319,7 @@
 # virtual methods
 .method public final F()Lcom/commsource/camera/xcamera/BpCameraViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x99ba
@@ -341,7 +341,7 @@
 
 .method public final G()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x99b9
@@ -364,7 +364,7 @@
 .method public g(Lcom/commsource/beautyplus/router/RouterEntity;)V
     .locals 2
     .param p1    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -384,7 +384,7 @@
 .method public k(Lcom/commsource/beautyplus/router/RouterEntity;)V
     .locals 3
     .param p1    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

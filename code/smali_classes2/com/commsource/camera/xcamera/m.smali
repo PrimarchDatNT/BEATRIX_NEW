@@ -40,7 +40,7 @@
 .method public constructor <init>(ZZLcom/commsource/camera/xcamera/n;)V
     .locals 0
     .param p3    # Lcom/commsource/camera/xcamera/n;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -90,11 +90,11 @@
 .method public b(Landroid/graphics/Bitmap;ILcom/meitu/library/n/a/s/a$b;)V
     .locals 8
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Lcom/meitu/library/n/a/s/a$b;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -192,11 +192,11 @@
 .method public d(Landroid/graphics/Bitmap;ILcom/meitu/library/n/a/s/a$b;)V
     .locals 12
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Lcom/meitu/library/n/a/s/a$b;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -293,7 +293,7 @@
 
 .method public abstract f(Lcom/commsource/camera/xcamera/bean/c;)V
     .param p1    # Lcom/commsource/camera/xcamera/bean/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;

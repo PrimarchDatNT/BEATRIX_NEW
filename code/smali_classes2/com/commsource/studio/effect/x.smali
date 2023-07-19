@@ -8,7 +8,7 @@
 
 # instance fields
 .field private i:Landroid/util/SparseIntArray;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -112,7 +112,7 @@
 
 .method public final t()Landroid/util/SparseIntArray;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x96f9
@@ -194,7 +194,7 @@
 .method public final x(Landroid/util/SparseIntArray;)V
     .locals 2
     .param p1    # Landroid/util/SparseIntArray;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

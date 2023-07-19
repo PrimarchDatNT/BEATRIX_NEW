@@ -14,7 +14,7 @@
 
 # static fields
 .field public static final Companion:Lcom/mopub/network/CustomSSLSocketFactory$Companion;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -141,7 +141,7 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcom/mopub/network/CustomSSLSocketFactory;->Companion:Lcom/mopub/network/CustomSSLSocketFactory$Companion;
@@ -156,11 +156,11 @@
 .method public static final verifyServerName(Ljavax/net/ssl/SSLSocket;Ljava/lang/String;)V
     .locals 1
     .param p0    # Ljavax/net/ssl/SSLSocket;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcom/mopub/common/VisibleForTesting;
@@ -192,7 +192,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/CustomSSLSocketFactory;->certificateSocketFactory:Ljavax/net/ssl/SSLSocketFactory;
@@ -228,7 +228,7 @@
 .method public createSocket(Ljava/lang/String;I)Ljava/net/Socket;
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Throws;
@@ -238,7 +238,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "host"
@@ -278,11 +278,11 @@
 .method public createSocket(Ljava/lang/String;ILjava/net/InetAddress;I)Ljava/net/Socket;
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/net/InetAddress;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Throws;
@@ -292,7 +292,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "host"
@@ -336,7 +336,7 @@
 .method public createSocket(Ljava/net/InetAddress;I)Ljava/net/Socket;
     .locals 1
     .param p1    # Ljava/net/InetAddress;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Throws;
@@ -345,7 +345,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "address"
@@ -381,11 +381,11 @@
 .method public createSocket(Ljava/net/InetAddress;ILjava/net/InetAddress;I)Ljava/net/Socket;
     .locals 1
     .param p1    # Ljava/net/InetAddress;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/net/InetAddress;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Throws;
@@ -394,7 +394,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "address"
@@ -434,11 +434,11 @@
 .method public createSocket(Ljava/net/Socket;Ljava/lang/String;IZ)Ljava/net/Socket;
     .locals 3
     .param p1    # Ljava/net/Socket;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Throws;
@@ -447,7 +447,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "host"
@@ -519,7 +519,7 @@
 
 .method public getDefaultCipherSuites()[Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/CustomSSLSocketFactory;->certificateSocketFactory:Ljavax/net/ssl/SSLSocketFactory;
@@ -545,7 +545,7 @@
 
 .method public getSupportedCipherSuites()[Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/CustomSSLSocketFactory;->certificateSocketFactory:Ljavax/net/ssl/SSLSocketFactory;
@@ -572,7 +572,7 @@
 .method public final setCertificateSocketFactory(Ljavax/net/ssl/SSLSocketFactory;)V
     .locals 1
     .param p1    # Ljavax/net/ssl/SSLSocketFactory;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcom/mopub/common/VisibleForTesting;

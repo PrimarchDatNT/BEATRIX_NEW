@@ -12,7 +12,7 @@
 
 # static fields
 .field public static final a:Lcotlin/collections/c0;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -66,7 +66,7 @@
 
 .method public b()Ljava/lang/Void;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/util/NoSuchElementException;
@@ -78,7 +78,7 @@
 
 .method public c()Ljava/lang/Void;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/util/NoSuchElementException;

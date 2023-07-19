@@ -35,7 +35,7 @@
 # virtual methods
 .method public final a()Lcom/commsource/home/homepagedialog/b;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/home/homepagedialog/d;->b:Lcom/commsource/home/homepagedialog/b;
@@ -90,7 +90,7 @@
 .method public final g(Lcom/commsource/home/homepagedialog/b;)V
     .locals 1
     .param p1    # Lcom/commsource/home/homepagedialog/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -76,10 +76,10 @@
 .method public final a(Ljava/lang/String;)Lcom/commsource/editengine/g;
     .locals 10
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa345
@@ -274,10 +274,10 @@
 .method public final b(Ljava/lang/String;)Lcom/commsource/easyeditor/utils/opengl/f;
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa346
@@ -312,7 +312,7 @@
 .method public final c(Lcom/commsource/editengine/g;)V
     .locals 3
     .param p1    # Lcom/commsource/editengine/g;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -368,7 +368,7 @@
 .method public final d(Lcom/commsource/editengine/g;)V
     .locals 7
     .param p1    # Lcom/commsource/editengine/g;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

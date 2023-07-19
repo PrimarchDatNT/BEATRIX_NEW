@@ -8,7 +8,7 @@
 
 # instance fields
 .field private final impl:Lcotlin/random/e;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -19,7 +19,7 @@
 .method public constructor <init>(Lcotlin/random/e;)V
     .locals 1
     .param p1    # Lcotlin/random/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -38,7 +38,7 @@
 # virtual methods
 .method public final getImpl()Lcotlin/random/e;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/random/KotlinRandom;->impl:Lcotlin/random/e;
@@ -73,7 +73,7 @@
 .method public nextBytes([B)V
     .locals 1
     .param p1    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

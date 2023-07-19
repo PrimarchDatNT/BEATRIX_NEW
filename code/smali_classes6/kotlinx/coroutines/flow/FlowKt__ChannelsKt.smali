@@ -11,7 +11,7 @@
 .method public static final a(Lcotlinx/coroutines/channels/i;)Lcotlinx/coroutines/flow/d;
     .locals 1
     .param p0    # Lcotlinx/coroutines/channels/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -29,7 +29,7 @@
     .annotation build Lcotlinx/coroutines/t1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__ChannelsKt$a;
@@ -42,15 +42,15 @@
 .method public static final b(Lcotlinx/coroutines/flow/d;Lcotlinx/coroutines/m0;Lcotlinx/coroutines/CoroutineStart;)Lcotlinx/coroutines/channels/i;
     .locals 0
     .param p0    # Lcotlinx/coroutines/flow/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/m0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlinx/coroutines/CoroutineStart;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -71,7 +71,7 @@
     .annotation build Lcotlinx/coroutines/t1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Lcotlinx/coroutines/flow/internal/a;->b(Lcotlinx/coroutines/flow/d;)Lcotlinx/coroutines/flow/internal/ChannelFlow;
@@ -105,7 +105,7 @@
 .method public static final d(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/flow/d;
     .locals 8
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -123,7 +123,7 @@
     .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v7, Lcotlinx/coroutines/flow/a;
@@ -150,15 +150,15 @@
 .method public static final e(Lcotlinx/coroutines/flow/e;Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 1
     .param p0    # Lcotlinx/coroutines/flow/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -181,7 +181,7 @@
     .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/4 v0, 0x1
@@ -207,15 +207,15 @@
 .method static final synthetic f(Lcotlinx/coroutines/flow/e;Lcotlinx/coroutines/channels/y;ZLcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 8
     .param p0    # Lcotlinx/coroutines/flow/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -235,7 +235,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p3, Lcotlinx/coroutines/flow/FlowKt__ChannelsKt$emitAllImpl$1;
@@ -493,11 +493,11 @@
 .method public static final g(Lcotlinx/coroutines/flow/d;Lcotlinx/coroutines/m0;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/flow/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/m0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -517,7 +517,7 @@
     .annotation build Lcotlinx/coroutines/t1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Lcotlinx/coroutines/flow/internal/a;->b(Lcotlinx/coroutines/flow/d;)Lcotlinx/coroutines/flow/internal/ChannelFlow;
@@ -534,7 +534,7 @@
 .method public static final h(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/flow/d;
     .locals 8
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -552,7 +552,7 @@
     .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v7, Lcotlinx/coroutines/flow/a;

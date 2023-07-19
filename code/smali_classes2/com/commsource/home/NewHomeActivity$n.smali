@@ -53,7 +53,7 @@
 .method public a(Lcom/commsource/billing/bean/SubPriceInfo;)V
     .locals 11
     .param p1    # Lcom/commsource/billing/bean/SubPriceInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

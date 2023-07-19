@@ -8,7 +8,7 @@
 
 # static fields
 .field public static final a:Lcotlin/t1;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -38,7 +38,7 @@
 # virtual methods
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "kotlin.Unit"

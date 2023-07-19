@@ -15,7 +15,7 @@
 
 # static fields
 .field private static final g:Lcom/meitu/library/hwanalytics/spm/SPMManager;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -435,7 +435,7 @@
 .method public final d(Lcom/meitu/library/hwanalytics/spm/e/a;)V
     .locals 2
     .param p1    # Lcom/meitu/library/hwanalytics/spm/e/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -490,7 +490,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xc10d
@@ -598,7 +598,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xc110
@@ -645,7 +645,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xc10f
@@ -683,7 +683,7 @@
 
 .method public final k()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xc10e
@@ -721,7 +721,7 @@
 
 .method public final l()Lcom/meitu/library/hwanalytics/spm/e/a;
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xc107
@@ -760,15 +760,15 @@
 .method public final m(Landroid/app/Application;Ljava/lang/String;Lcom/meitu/library/hwanalytics/spm/c;)V
     .locals 2
     .param p1    # Landroid/app/Application;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcom/meitu/library/hwanalytics/spm/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -872,7 +872,7 @@
 .method public final p(Lcom/meitu/library/hwanalytics/spm/e/a;)V
     .locals 4
     .param p1    # Lcom/meitu/library/hwanalytics/spm/e/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -947,7 +947,7 @@
 .method public final q(Ljava/lang/String;)V
     .locals 8
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1111,7 +1111,7 @@
 .method public final w(Lcom/meitu/library/hwanalytics/spm/e/a;)V
     .locals 5
     .param p1    # Lcom/meitu/library/hwanalytics/spm/e/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

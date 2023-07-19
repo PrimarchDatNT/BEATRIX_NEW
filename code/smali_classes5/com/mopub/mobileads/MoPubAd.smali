@@ -13,7 +13,7 @@
 
 # virtual methods
 .method public abstract getAdFormat()Lcom/mopub/common/AdFormat;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -26,12 +26,12 @@
     .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method public abstract getAdViewController()Lcom/mopub/mobileads/AdViewController;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
@@ -44,7 +44,7 @@
     .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
@@ -62,7 +62,7 @@
     .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -74,7 +74,7 @@
     .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
@@ -82,7 +82,7 @@
     .annotation runtime Lcotlin/jvm/b;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
@@ -93,7 +93,7 @@
 
 .method public abstract loadFailUrl(Lcom/mopub/mobileads/MoPubErrorCode;)Z
     .param p1    # Lcom/mopub/mobileads/MoPubErrorCode;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/b;
@@ -106,7 +106,7 @@
 .end method
 
 .method public abstract resolveAdSize()Landroid/graphics/Point;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -117,7 +117,7 @@
 
 .method public abstract setAdContentView(Landroid/view/View;)V
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/b;
@@ -126,7 +126,7 @@
 
 .method public abstract setAdUnitId(Ljava/lang/String;)V
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/b;
@@ -135,14 +135,14 @@
 
 .method public abstract setAdViewController(Lcom/mopub/mobileads/AdViewController;)V
     .param p1    # Lcom/mopub/mobileads/AdViewController;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method
 
 .method public abstract setKeywords(Ljava/lang/String;)V
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/b;
@@ -151,7 +151,7 @@
 
 .method public abstract setLocalExtras(Ljava/util/Map;)V
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -171,7 +171,7 @@
 
 .method public abstract setUserDataKeywords(Ljava/lang/String;)V
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/b;

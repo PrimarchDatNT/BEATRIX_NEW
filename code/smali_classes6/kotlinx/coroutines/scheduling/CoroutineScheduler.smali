@@ -30,7 +30,7 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -70,7 +70,7 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -78,7 +78,7 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -94,7 +94,7 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -119,7 +119,7 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -182,7 +182,7 @@
 .method public constructor <init>(IIJLjava/lang/String;)V
     .locals 4
     .param p5    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -493,7 +493,7 @@
 .method private final F(Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;Lcotlinx/coroutines/scheduling/h;Z)Lcotlinx/coroutines/scheduling/h;
     .locals 2
     .param p1    # Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1257,7 +1257,7 @@
 .method public final B(Lcotlinx/coroutines/scheduling/h;)V
     .locals 2
     .param p1    # Lcotlinx/coroutines/scheduling/h;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1596,7 +1596,7 @@
 .method public execute(Ljava/lang/Runnable;)V
     .locals 6
     .param p1    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1644,14 +1644,14 @@
 .method public final k(Ljava/lang/Runnable;Lcotlinx/coroutines/scheduling/i;)Lcotlinx/coroutines/scheduling/h;
     .locals 3
     .param p1    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlinx/coroutines/scheduling/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/scheduling/k;->g:Lcotlinx/coroutines/scheduling/l;
@@ -1683,11 +1683,11 @@
 .method public final p(Ljava/lang/Runnable;Lcotlinx/coroutines/scheduling/i;Z)V
     .locals 1
     .param p1    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlinx/coroutines/scheduling/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1785,7 +1785,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 12
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/util/ArrayList;
@@ -2155,7 +2155,7 @@
 .method public final y(Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;)Z
     .locals 10
     .param p1    # Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2253,7 +2253,7 @@
 .method public final z(Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;II)V
     .locals 8
     .param p1    # Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

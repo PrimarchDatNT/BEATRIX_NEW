@@ -25,7 +25,7 @@
 # virtual methods
 .method public abstract I2(Ljava/lang/String;I)V
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
@@ -35,7 +35,7 @@
 
 .method public abstract Q1([Lcom/commsource/camera/montage/y;)V
     .param p1    # [Lcom/commsource/camera/montage/y;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -57,7 +57,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
@@ -75,13 +75,13 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method public abstract W1(Lcom/commsource/camera/montage/y;)V
     .param p1    # Lcom/commsource/camera/montage/y;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -102,20 +102,20 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract d(Ljava/lang/String;)Lcom/commsource/camera/montage/y;
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
         value = "select * from MONTAGE_GROUP_ENTITY where id = :key"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -127,7 +127,7 @@
 
 .method public abstract n1(Ljava/lang/String;I)V
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
@@ -137,7 +137,7 @@
 
 .method public abstract n2(Lcom/commsource/camera/montage/y;)V
     .param p1    # Lcom/commsource/camera/montage/y;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -147,7 +147,7 @@
 
 .method public abstract r0(Lcom/commsource/camera/montage/y;)V
     .param p1    # Lcom/commsource/camera/montage/y;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -168,13 +168,13 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method public abstract v1([Lcom/commsource/camera/montage/y;)V
     .param p1    # [Lcom/commsource/camera/montage/y;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -183,7 +183,7 @@
 
 .method public abstract x2([Lcom/commsource/camera/montage/y;)V
     .param p1    # [Lcom/commsource/camera/montage/y;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;

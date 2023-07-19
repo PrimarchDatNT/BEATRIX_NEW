@@ -71,7 +71,7 @@
 # virtual methods
 .method public final a(IF)Landroid/graphics/drawable/GradientDrawable;
     .locals 8
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xf1ce
@@ -107,7 +107,7 @@
 
 .method public final b(IIFI)Landroid/graphics/drawable/GradientDrawable;
     .locals 7
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xf1cf
@@ -138,10 +138,10 @@
 .method public final c(IIFI[F)Landroid/graphics/drawable/GradientDrawable;
     .locals 2
     .param p5    # [F
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xf1d1

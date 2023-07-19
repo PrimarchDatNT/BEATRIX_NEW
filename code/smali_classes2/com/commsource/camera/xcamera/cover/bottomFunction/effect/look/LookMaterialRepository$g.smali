@@ -61,7 +61,7 @@
 .method public b(Ljava/lang/Throwable;)V
     .locals 2
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -125,7 +125,7 @@
 .method public c(Lf/k/k/h;)V
     .locals 4
     .param p1    # Lf/k/k/h;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

@@ -13,14 +13,14 @@
 
 # instance fields
 .field private final g:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final h:I
 
 .field private final i:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -29,7 +29,7 @@
 .method public constructor <init>(ILjava/lang/String;)V
     .locals 1
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -96,7 +96,7 @@
 
 .method public final m()Lcom/meitu/room/database/MTBeautyplusDatabase;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/repository/MaterialRepository;->g:Lcotlin/w;
@@ -120,7 +120,7 @@
 
 .method public final o()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/repository/MaterialRepository;->i:Ljava/lang/String;

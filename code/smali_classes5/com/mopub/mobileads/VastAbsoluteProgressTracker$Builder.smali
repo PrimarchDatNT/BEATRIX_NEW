@@ -30,7 +30,7 @@
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -95,7 +95,7 @@
 # virtual methods
 .method public final build()Lcom/mopub/mobileads/VastAbsoluteProgressTracker;
     .locals 5
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcom/mopub/mobileads/VastAbsoluteProgressTracker;
@@ -116,10 +116,10 @@
 .method public final copy(Ljava/lang/String;I)Lcom/mopub/mobileads/VastAbsoluteProgressTracker$Builder;
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "content"
@@ -136,7 +136,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -206,7 +206,7 @@
 
 .method public final isRepeatable(Z)Lcom/mopub/mobileads/VastAbsoluteProgressTracker$Builder;
     .locals 0
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput-boolean p1, p0, Lcom/mopub/mobileads/VastAbsoluteProgressTracker$Builder;->isRepeatable:Z
@@ -217,10 +217,10 @@
 .method public final messageType(Lcom/mopub/mobileads/VastTracker$MessageType;)Lcom/mopub/mobileads/VastAbsoluteProgressTracker$Builder;
     .locals 1
     .param p1    # Lcom/mopub/mobileads/VastTracker$MessageType;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "messageType"
@@ -234,7 +234,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

@@ -95,7 +95,7 @@
 
 .method public final b()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9105
@@ -113,7 +113,7 @@
 
 .method public final c()Ljava/lang/String;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x90ff
@@ -167,7 +167,7 @@
 
 .method public final e()Lcom/commsource/beautyfilter/NewFilterConfig;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x90f7
@@ -194,10 +194,10 @@
 .method public final f(Lcom/meitu/template/bean/Filter;)Ljava/lang/String;
     .locals 4
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x910c
@@ -255,7 +255,7 @@
 
 .method public final g()Ljava/lang/String;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x90fd
@@ -310,7 +310,7 @@
 .method public final i(Lcom/meitu/template/bean/Filter;)Z
     .locals 3
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -467,10 +467,10 @@
 .method public final n(Lcom/meitu/template/bean/Filter;I)Lcom/meitu/template/bean/Filter;
     .locals 6
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9108
@@ -614,7 +614,7 @@
 .method public final p(Lcom/meitu/template/bean/Filter;I)V
     .locals 5
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -869,7 +869,7 @@
 .method public final s(Ljava/lang/String;)V
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -917,7 +917,7 @@
 .method public final u(Ljava/lang/String;)V
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

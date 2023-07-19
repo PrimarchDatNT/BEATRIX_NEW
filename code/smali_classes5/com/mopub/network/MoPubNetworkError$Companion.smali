@@ -37,10 +37,10 @@
 .method public final volleyErrorToMoPubNetworkError$mopub_sdk_networking_release(Lcom/mopub/volley/VolleyError;)Lcom/mopub/network/MoPubNetworkError;
     .locals 8
     .param p1    # Lcom/mopub/volley/VolleyError;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     instance-of v0, p1, Lcom/mopub/volley/NoConnectionError;

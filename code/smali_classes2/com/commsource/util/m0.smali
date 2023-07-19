@@ -66,10 +66,10 @@
 .method public final a(Ljava/lang/String;)Landroid/graphics/Bitmap;
     .locals 4
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x997e
@@ -119,11 +119,11 @@
 .method public final b(Landroid/graphics/Bitmap;Ljava/lang/String;Z)Z
     .locals 4
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

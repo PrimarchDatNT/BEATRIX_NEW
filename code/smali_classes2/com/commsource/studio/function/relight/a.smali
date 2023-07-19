@@ -8,12 +8,12 @@
 
 # instance fields
 .field private final a:Lcom/commsource/studio/function/relight/e;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final b:Lcom/commsource/studio/function/relight/e;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -22,11 +22,11 @@
 .method public constructor <init>(Lcom/commsource/studio/function/relight/e;Lcom/commsource/studio/function/relight/e;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/function/relight/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/function/relight/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -81,7 +81,7 @@
 # virtual methods
 .method public final a()Lcom/commsource/studio/function/relight/e;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5987
@@ -97,7 +97,7 @@
 
 .method public final b()Lcom/commsource/studio/function/relight/e;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5988
@@ -114,14 +114,14 @@
 .method public final c(Lcom/commsource/studio/function/relight/e;Lcom/commsource/studio/function/relight/e;)Lcom/commsource/studio/function/relight/a;
     .locals 2
     .param p1    # Lcom/commsource/studio/function/relight/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/function/relight/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5989
@@ -147,7 +147,7 @@
 
 .method public final e()Lcom/commsource/studio/function/relight/e;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5985
@@ -164,7 +164,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -219,7 +219,7 @@
 
 .method public final f()Lcom/commsource/studio/function/relight/e;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5986
@@ -276,7 +276,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x598b

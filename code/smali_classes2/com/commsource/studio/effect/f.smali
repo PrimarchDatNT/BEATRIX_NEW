@@ -10,7 +10,7 @@
 .field private i:F
 
 .field private j:Lcom/commsource/beautymain/data/SoftFocusEntity;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -93,7 +93,7 @@
 
 .method public final u()Lcom/commsource/beautymain/data/SoftFocusEntity;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa432
@@ -138,7 +138,7 @@
 .method public final x(Lcom/commsource/beautymain/data/SoftFocusEntity;)V
     .locals 1
     .param p1    # Lcom/commsource/beautymain/data/SoftFocusEntity;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

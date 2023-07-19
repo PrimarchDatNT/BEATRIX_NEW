@@ -46,7 +46,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x966
@@ -73,7 +73,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x965
@@ -91,7 +91,7 @@
 
 .method public final c(I)Lcom/commsource/studio/sub/SubTabEnum;
     .locals 6
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x968
@@ -137,10 +137,10 @@
 .method public final d(Lcom/commsource/studio/sub/SubModuleEnum;)Lcom/commsource/studio/sub/SubTabEnum;
     .locals 3
     .param p1    # Lcom/commsource/studio/sub/SubModuleEnum;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x969
@@ -198,10 +198,10 @@
 .method public final e(Ljava/lang/String;)Lcom/commsource/studio/sub/SubTabEnum;
     .locals 7
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x967

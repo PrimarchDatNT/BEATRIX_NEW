@@ -36,7 +36,7 @@
 .method public constructor <init>(Ljava/lang/Throwable;)V
     .locals 1
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -53,7 +53,7 @@
 # virtual methods
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/io/StringWriter;

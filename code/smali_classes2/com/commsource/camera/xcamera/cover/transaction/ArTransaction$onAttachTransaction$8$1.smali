@@ -80,7 +80,7 @@
 .method public final invoke(Lcom/commsource/widget/dialog/delegate/d/g;)V
     .locals 9
     .param p1    # Lcom/commsource/widget/dialog/delegate/d/g;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

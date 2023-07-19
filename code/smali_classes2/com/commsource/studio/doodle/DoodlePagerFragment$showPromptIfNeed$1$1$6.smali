@@ -68,7 +68,7 @@
 .method public final invoke(Lcom/meitu/common/animutil/ObjAnim;)V
     .locals 4
     .param p1    # Lcom/meitu/common/animutil/ObjAnim;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

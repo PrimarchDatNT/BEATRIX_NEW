@@ -48,7 +48,7 @@
 # virtual methods
 .method public final invoke()Lcom/commsource/beautyplus/f0/m7;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9329

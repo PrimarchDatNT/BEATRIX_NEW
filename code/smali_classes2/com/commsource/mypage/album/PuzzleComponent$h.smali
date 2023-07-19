@@ -39,7 +39,7 @@
 .method public final a(Lcom/commsource/cloudalbum/bean/CAImageInfo;)V
     .locals 3
     .param p1    # Lcom/commsource/cloudalbum/bean/CAImageInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

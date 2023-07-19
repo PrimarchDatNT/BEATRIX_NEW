@@ -9,17 +9,17 @@
 
 # instance fields
 .field private a:Lcom/commsource/camera/d1/g/p;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private b:Lcom/meitu/library/renderarch/arch/data/b/d;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private c:Landroid/graphics/Bitmap;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -28,7 +28,7 @@
 .method public constructor <init>(Landroid/graphics/Bitmap;)V
     .locals 1
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -47,7 +47,7 @@
 # virtual methods
 .method public final a()Lcom/meitu/library/renderarch/arch/data/b/d;
     .locals 7
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x73bf
@@ -171,7 +171,7 @@
 
 .method public final b()Lcom/commsource/camera/d1/g/p;
     .locals 8
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x73c0
@@ -386,7 +386,7 @@
 
 .method public final c()Lcom/meitu/library/renderarch/arch/data/b/d;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x73bd
@@ -420,7 +420,7 @@
 
 .method public final e()Landroid/graphics/Bitmap;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x73c3
@@ -436,7 +436,7 @@
 
 .method public final f()Lcom/commsource/camera/d1/g/p;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x73bb
@@ -471,7 +471,7 @@
 .method public final h(Lcom/meitu/library/renderarch/arch/data/b/d;)V
     .locals 1
     .param p1    # Lcom/meitu/library/renderarch/arch/data/b/d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -489,7 +489,7 @@
 .method public final i(Landroid/graphics/Bitmap;)V
     .locals 2
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -511,7 +511,7 @@
 .method public final j(Lcom/commsource/camera/d1/g/p;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/d1/g/p;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

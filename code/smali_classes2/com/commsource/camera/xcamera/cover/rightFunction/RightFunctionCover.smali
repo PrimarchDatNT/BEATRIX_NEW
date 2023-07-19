@@ -23,7 +23,7 @@
 
 # static fields
 .field public static final O:Ljava/lang/String; = "Makeup_style"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -32,41 +32,41 @@
 
 # instance fields
 .field private J:Lcom/commsource/repository/child/makeup/e;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final K:Lcotlin/w;
 
 .field private final L:Lcom/commsource/camera/f1/n;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final M:Lcom/commsource/camera/f1/n;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private N:Z
 
 .field private final d:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final f:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final g:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final p:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -279,7 +279,7 @@
 # virtual methods
 .method public final F()Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1261
@@ -301,7 +301,7 @@
 
 .method public final G()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x125e
@@ -323,7 +323,7 @@
 
 .method public final H()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x125f
@@ -345,7 +345,7 @@
 
 .method public final I()Lcom/commsource/repository/child/makeup/e;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1262
@@ -361,7 +361,7 @@
 
 .method public final J()Lcom/commsource/camera/f1/n;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x126b
@@ -378,7 +378,7 @@
 .method public final K(Ljava/lang/Integer;)F
     .locals 6
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -492,7 +492,7 @@
 .method public final L(Ljava/lang/Integer;)F
     .locals 6
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -605,7 +605,7 @@
 
 .method public final M()Lcom/commsource/camera/f1/n;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x126a
@@ -621,7 +621,7 @@
 
 .method public final N()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1260
@@ -658,7 +658,7 @@
 .method public final Q(Lcom/commsource/repository/child/makeup/e;)V
     .locals 1
     .param p1    # Lcom/commsource/repository/child/makeup/e;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1077,7 +1077,7 @@
 .method public u(Landroid/graphics/Rect;F)V
     .locals 2
     .param p1    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

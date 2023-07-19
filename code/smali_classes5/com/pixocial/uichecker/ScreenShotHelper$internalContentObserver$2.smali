@@ -48,7 +48,7 @@
 # virtual methods
 .method public final invoke()Lcom/pixocial/uichecker/ScreenShotHelper$b;
     .locals 5
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcom/pixocial/uichecker/ScreenShotHelper$b;

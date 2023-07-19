@@ -43,11 +43,11 @@
 .method public onAddThirdPartyNativeAdView(Lcom/meitu/hwbusinesskit/core/bean/AdData;Landroid/view/View;)V
     .locals 5
     .param p1    # Lcom/meitu/hwbusinesskit/core/bean/AdData;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -214,7 +214,7 @@
 .method public onClick(Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
     .locals 4
     .param p1    # Lcom/meitu/hwbusinesskit/core/bean/AdData;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -341,7 +341,7 @@
 .method public onShowed(Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
     .locals 4
     .param p1    # Lcom/meitu/hwbusinesskit/core/bean/AdData;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

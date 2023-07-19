@@ -31,7 +31,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -51,7 +51,7 @@
 .method public constructor <init>(Ljava/lang/Runnable;JJ)V
     .locals 0
     .param p1    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -129,7 +129,7 @@
 .method public g(Lcotlinx/coroutines/internal/k0;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/internal/k0;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -148,7 +148,7 @@
 .method public h(Lcotlinx/coroutines/t3/c;)I
     .locals 5
     .param p1    # Lcotlinx/coroutines/t3/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -180,7 +180,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/t3/c;->a:Lcotlinx/coroutines/internal/k0;
@@ -208,7 +208,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

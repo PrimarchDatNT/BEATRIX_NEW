@@ -9,17 +9,17 @@
 
 # instance fields
 .field private a:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private b:Lcom/commsource/studio/y;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private c:Lcom/commsource/studio/o;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -59,7 +59,7 @@
 
 .method public final b()Lcom/commsource/studio/o;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x301c
@@ -75,7 +75,7 @@
 
 .method public final c()Lcom/commsource/studio/y;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x301a
@@ -91,7 +91,7 @@
 
 .method public final d()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3018
@@ -122,10 +122,10 @@
 .method public final f(Landroid/graphics/Bitmap;)Lcom/commsource/studio/o;
     .locals 5
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3022
@@ -215,7 +215,7 @@
 .method public final h(Lcom/commsource/studio/o;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/o;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -233,7 +233,7 @@
 .method public final i(Lcom/commsource/studio/y;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/y;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -251,7 +251,7 @@
 .method public final j(Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

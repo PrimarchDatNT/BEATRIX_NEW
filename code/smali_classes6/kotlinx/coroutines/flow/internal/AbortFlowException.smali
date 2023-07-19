@@ -16,7 +16,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -25,7 +25,7 @@
 .method public constructor <init>(Lcotlinx/coroutines/flow/e;)V
     .locals 1
     .param p1    # Lcotlinx/coroutines/flow/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -49,7 +49,7 @@
 # virtual methods
 .method public fillInStackTrace()Ljava/lang/Throwable;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lcotlinx/coroutines/p0;->d()Z
@@ -84,7 +84,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/flow/internal/AbortFlowException;->owner:Lcotlinx/coroutines/flow/e;

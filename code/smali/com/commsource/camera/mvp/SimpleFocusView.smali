@@ -25,7 +25,7 @@
 
 # instance fields
 .field private J:Lcom/commsource/camera/mvp/SimpleFocusView$b;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -48,7 +48,7 @@
 .field private f:F
 
 .field private final g:Landroid/graphics/Rect;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -87,7 +87,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -105,11 +105,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -353,7 +353,7 @@
 .method public a(Landroid/graphics/Rect;)V
     .locals 3
     .param p1    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -405,7 +405,7 @@
 .method public b(Landroid/graphics/Rect;)V
     .locals 2
     .param p1    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -446,7 +446,7 @@
 .method public c(Landroid/graphics/Rect;)V
     .locals 3
     .param p1    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -598,7 +598,7 @@
 
 .method public final getMOnFocusListener()Lcom/commsource/camera/mvp/SimpleFocusView$b;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x80e0
@@ -628,7 +628,7 @@
 
 .method public final getRect()Landroid/graphics/Rect;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x80dd
@@ -675,7 +675,7 @@
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 5
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -798,7 +798,7 @@
 .method public final setMOnFocusListener(Lcom/commsource/camera/mvp/SimpleFocusView$b;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/mvp/SimpleFocusView$b;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -830,7 +830,7 @@
 .method public final setOnFocusListener(Lcom/commsource/camera/mvp/SimpleFocusView$b;)V
     .locals 2
     .param p1    # Lcom/commsource/camera/mvp/SimpleFocusView$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

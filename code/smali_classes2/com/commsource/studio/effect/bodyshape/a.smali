@@ -8,7 +8,7 @@
 
 # instance fields
 .field private a:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -21,7 +21,7 @@
 .method public constructor <init>(Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;FZ)V
     .locals 1
     .param p1    # Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -103,7 +103,7 @@
 # virtual methods
 .method public final a()Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5ed1
@@ -148,10 +148,10 @@
 .method public final d(Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;FZ)Lcom/commsource/studio/effect/bodyshape/a;
     .locals 2
     .param p1    # Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5ed4
@@ -174,7 +174,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -249,7 +249,7 @@
 
 .method public final g()Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5ecb
@@ -341,7 +341,7 @@
 .method public final j(Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -376,7 +376,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5ed6

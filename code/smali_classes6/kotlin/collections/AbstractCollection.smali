@@ -134,7 +134,7 @@
 .method public containsAll(Ljava/util/Collection;)Z
     .locals 2
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -219,7 +219,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -289,7 +289,7 @@
 
 .method public toArray()[Ljava/lang/Object;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Lcotlin/jvm/internal/t;->a(Ljava/util/Collection;)[Ljava/lang/Object;
@@ -302,7 +302,7 @@
 .method public toArray([Ljava/lang/Object;)[Ljava/lang/Object;
     .locals 1
     .param p1    # [Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -313,7 +313,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "array"
@@ -333,7 +333,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 9
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v6, Lcotlin/collections/AbstractCollection$toString$1;

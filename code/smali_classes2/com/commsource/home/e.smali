@@ -20,13 +20,13 @@
 .method public final a(Lcom/commsource/home/entity/PopupConfig;)Ljava/lang/String;
     .locals 2
     .param p1    # Lcom/commsource/home/entity/PopupConfig;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/room/TypeConverter;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1192
@@ -57,13 +57,13 @@
 .method public final b(Ljava/lang/String;)Lcom/commsource/home/entity/PopupConfig;
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/room/TypeConverter;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1193

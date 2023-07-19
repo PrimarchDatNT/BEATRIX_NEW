@@ -23,7 +23,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -32,7 +32,7 @@
 .method public constructor <init>(Lcom/commsource/camera/newrender/renderproxy/n;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/newrender/renderproxy/n;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -62,7 +62,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4eaa
@@ -79,7 +79,7 @@
 .method public final K(Lcom/commsource/camera/newrender/renderproxy/n;)V
     .locals 2
     .param p1    # Lcom/commsource/camera/newrender/renderproxy/n;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -155,7 +155,7 @@
 .method public s(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 10
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -194,7 +194,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4ea9

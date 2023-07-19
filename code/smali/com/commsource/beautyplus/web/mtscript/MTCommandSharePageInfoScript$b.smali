@@ -66,7 +66,7 @@
 .method public d(Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript$Model;)V
     .locals 10
     .param p1    # Lcom/commsource/beautyplus/web/mtscript/MTCommandSharePageInfoScript$Model;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

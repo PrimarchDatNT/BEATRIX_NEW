@@ -25,7 +25,7 @@
 # virtual methods
 .method public abstract L([Lcom/meitu/template/bean/ArMaterialGroup;)V
     .param p1    # [Lcom/meitu/template/bean/ArMaterialGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -34,7 +34,7 @@
 
 .method public abstract L0([Lcom/meitu/template/bean/ArMaterialGroup;)V
     .param p1    # [Lcom/meitu/template/bean/ArMaterialGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -43,7 +43,7 @@
 
 .method public abstract L2(Lcom/meitu/template/bean/ArMaterialGroup;)V
     .param p1    # Lcom/meitu/template/bean/ArMaterialGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -52,7 +52,7 @@
 
 .method public abstract N(Lcom/meitu/template/bean/ArMaterialGroup;)V
     .param p1    # Lcom/meitu/template/bean/ArMaterialGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -62,7 +62,7 @@
 
 .method public abstract T(Lcom/meitu/template/bean/ArMaterialGroup;)V
     .param p1    # Lcom/meitu/template/bean/ArMaterialGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -71,7 +71,7 @@
 
 .method public abstract T0([Lcom/meitu/template/bean/ArMaterialGroup;)V
     .param p1    # [Lcom/meitu/template/bean/ArMaterialGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -93,7 +93,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -111,26 +111,26 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method public abstract c(Ljava/lang/Integer;)Lcom/meitu/template/bean/ArMaterialGroup;
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
         value = "select * from AR_MATERIAL_GROUP where NUMBER = :key"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract t(Ljava/util/Set;)Ljava/util/List;
     .param p1    # Ljava/util/Set;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
@@ -149,6 +149,6 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method

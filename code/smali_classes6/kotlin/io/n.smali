@@ -26,7 +26,7 @@
 .method public constructor <init>(Ljava/io/BufferedReader;)V
     .locals 1
     .param p1    # Ljava/io/BufferedReader;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -62,7 +62,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlin/io/n$a;

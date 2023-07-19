@@ -21,13 +21,13 @@
 .end method
 
 .method public abstract g0()Ljava/lang/Object;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method public abstract h0(Lcotlinx/coroutines/channels/p;)V
     .param p1    # Lcotlinx/coroutines/channels/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -41,9 +41,9 @@
 
 .method public abstract i0(Lcotlinx/coroutines/internal/m$d;)Lcotlinx/coroutines/internal/c0;
     .param p1    # Lcotlinx/coroutines/internal/m$d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method

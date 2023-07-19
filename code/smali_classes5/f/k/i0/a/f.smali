@@ -25,7 +25,7 @@
 # virtual methods
 .method public abstract F2(Lcom/meitu/template/bean/ArMaterialPaidInfo;)V
     .param p1    # Lcom/meitu/template/bean/ArMaterialPaidInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -35,7 +35,7 @@
 
 .method public abstract M([Lcom/meitu/template/bean/ArMaterialPaidInfo;)V
     .param p1    # [Lcom/meitu/template/bean/ArMaterialPaidInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -44,7 +44,7 @@
 
 .method public abstract X(Lcom/meitu/template/bean/ArMaterialPaidInfo;)V
     .param p1    # Lcom/meitu/template/bean/ArMaterialPaidInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -53,7 +53,7 @@
 
 .method public abstract X0([Lcom/meitu/template/bean/ArMaterialPaidInfo;)V
     .param p1    # [Lcom/meitu/template/bean/ArMaterialPaidInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -62,7 +62,7 @@
 
 .method public abstract Z0([Lcom/meitu/template/bean/ArMaterialPaidInfo;)V
     .param p1    # [Lcom/meitu/template/bean/ArMaterialPaidInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -84,7 +84,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -102,26 +102,26 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method public abstract f(Ljava/lang/Long;)Lcom/meitu/template/bean/ArMaterialPaidInfo;
     .param p1    # Ljava/lang/Long;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
         value = "select * from AR_MATERIAL_PAID_INFO where _id=:key"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract u2(Lcom/meitu/template/bean/ArMaterialPaidInfo;)V
     .param p1    # Lcom/meitu/template/bean/ArMaterialPaidInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;

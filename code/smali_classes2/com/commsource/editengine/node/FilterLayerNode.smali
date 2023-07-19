@@ -19,7 +19,7 @@
 .field private g:Lcom/commsource/camera/newrender/renderproxy/m;
 
 .field private h:Lcom/commsource/studio/bean/FilterLayerInfo;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -28,11 +28,11 @@
 .method public constructor <init>(Lcom/commsource/editengine/b;Lcom/commsource/studio/bean/FilterLayerInfo;)V
     .locals 1
     .param p1    # Lcom/commsource/editengine/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/bean/FilterLayerInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -243,7 +243,7 @@
 .method public c(IILcom/commsource/editengine/j;)V
     .locals 4
     .param p3    # Lcom/commsource/editengine/j;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -436,14 +436,14 @@
 .method public f(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)Lcom/commsource/easyeditor/utils/opengl/f;
     .locals 10
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x500e
@@ -766,7 +766,7 @@
 
 .method public final l()Lcom/commsource/studio/bean/FilterLayerInfo;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5010
@@ -783,7 +783,7 @@
 .method public final m(Lcom/commsource/studio/bean/FilterLayerInfo;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/bean/FilterLayerInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

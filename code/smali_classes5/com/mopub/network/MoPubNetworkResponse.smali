@@ -9,7 +9,7 @@
 
 # instance fields
 .field private final data:[B
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -23,7 +23,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -36,11 +36,11 @@
 .method public constructor <init>(I[BLjava/util/Map;)V
     .locals 8
     .param p2    # [B
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -160,7 +160,7 @@
 # virtual methods
 .method public final getData()[B
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubNetworkResponse;->data:[B
@@ -180,7 +180,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubNetworkResponse;->headers:Ljava/util/Map;
@@ -198,7 +198,7 @@
 
 .method public final getVolleyNetworkResponse$mopub_sdk_networking_release()Lcom/mopub/volley/NetworkResponse;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubNetworkResponse;->volleyNetworkResponse:Lcom/mopub/volley/NetworkResponse;

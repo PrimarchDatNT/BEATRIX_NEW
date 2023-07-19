@@ -8,22 +8,22 @@
 
 # instance fields
 .field private c:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final d:Lcom/commsource/beautyplus/BaseActivity;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final e:Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final f:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -32,15 +32,15 @@
 .method public constructor <init>(Lcom/commsource/beautyplus/BaseActivity;Lcom/commsource/camera/xcamera/cover/bottomFunction/b;Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;)V
     .locals 1
     .param p1    # Lcom/commsource/beautyplus/BaseActivity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -177,7 +177,7 @@
 
 .method public final j()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xf32
@@ -193,7 +193,7 @@
 
 .method public final k()Lcom/commsource/beautyplus/BaseActivity;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xf31
@@ -209,7 +209,7 @@
 
 .method public final l()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0xf2b
@@ -225,7 +225,7 @@
 
 .method public final m()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xf33
@@ -242,7 +242,7 @@
 .method public final n(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

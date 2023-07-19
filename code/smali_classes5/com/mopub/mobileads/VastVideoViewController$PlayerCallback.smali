@@ -93,7 +93,7 @@
 .method public onPlaybackCompleted(Landroidx/media2/common/SessionPlayer;)V
     .locals 3
     .param p1    # Landroidx/media2/common/SessionPlayer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -259,7 +259,7 @@
 .method public onPlayerStateChanged(Landroidx/media2/common/SessionPlayer;I)V
     .locals 4
     .param p1    # Landroidx/media2/common/SessionPlayer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -451,7 +451,7 @@
 .method public onSeekCompleted(Landroidx/media2/common/SessionPlayer;J)V
     .locals 0
     .param p1    # Landroidx/media2/common/SessionPlayer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

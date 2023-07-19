@@ -67,7 +67,7 @@
 .method public final invoke(Lcotlin/Pair;)Lkshark/HeapObject$HeapClass;
     .locals 4
     .param p1    # Lcotlin/Pair;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -81,7 +81,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "it"

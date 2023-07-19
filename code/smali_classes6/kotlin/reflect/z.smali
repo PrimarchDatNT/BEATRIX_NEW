@@ -21,12 +21,12 @@
 
 # static fields
 .field private static final c:Lcotlin/reflect/z;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final d:Lcotlin/reflect/z$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -61,11 +61,11 @@
 .method public constructor <init>(Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)V
     .locals 0
     .param p1    # Ljava/lang/reflect/Type;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Ljava/lang/reflect/Type;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -91,7 +91,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -142,7 +142,7 @@
 
 .method public getLowerBounds()[Ljava/lang/reflect/Type;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/reflect/z;->b:Ljava/lang/reflect/Type;
@@ -170,7 +170,7 @@
 
 .method public getTypeName()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/reflect/z;->b:Ljava/lang/reflect/Type;
@@ -245,7 +245,7 @@
 
 .method public getUpperBounds()[Ljava/lang/reflect/Type;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/4 v0, 0x1
@@ -295,7 +295,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Lcotlin/reflect/z;->getTypeName()Ljava/lang/String;

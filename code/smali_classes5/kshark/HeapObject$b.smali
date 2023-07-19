@@ -28,11 +28,11 @@
 .method public constructor <init>(Lkshark/HprofHeapGraph;Lkshark/internal/d$d;J)V
     .locals 1
     .param p1    # Lkshark/HprofHeapGraph;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lkshark/internal/d$d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -61,7 +61,7 @@
 # virtual methods
 .method public f()Lkshark/i;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HeapObject$b;->c:Lkshark/HprofHeapGraph;
@@ -89,7 +89,7 @@
 
 .method public final i()Lkshark/HeapObject$HeapClass;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Lkshark/HeapObject$b;->f()Lkshark/i;
@@ -114,7 +114,7 @@
 
 .method public final j()Ljava/lang/String;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -181,7 +181,7 @@
 
 .method public final l()Lkshark/PrimitiveType;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HeapObject$b;->d:Lkshark/internal/d$d;
@@ -383,7 +383,7 @@
 
 .method public n()Lkshark/m$b$c$g;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HeapObject$b;->c:Lkshark/HprofHeapGraph;
@@ -403,7 +403,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

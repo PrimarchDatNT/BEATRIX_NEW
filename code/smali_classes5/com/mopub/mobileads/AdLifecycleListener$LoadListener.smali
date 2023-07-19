@@ -18,7 +18,7 @@
 # virtual methods
 .method public abstract onAdLoadFailed(Lcom/mopub/mobileads/MoPubErrorCode;)V
     .param p1    # Lcom/mopub/mobileads/MoPubErrorCode;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

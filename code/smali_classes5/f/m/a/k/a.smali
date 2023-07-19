@@ -39,7 +39,7 @@
 .method public onActivityResult(IILandroid/content/Intent;)V
     .locals 3
     .param p3    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -90,11 +90,11 @@
 .method public onRequestPermissionsResult(I[Ljava/lang/String;[I)V
     .locals 3
     .param p2    # [Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # [I
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -153,7 +153,7 @@
 .method public final q(Lf/m/a/k/b;)V
     .locals 1
     .param p1    # Lf/m/a/k/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -182,7 +182,7 @@
 .method public final r(Lf/m/a/k/b;)V
     .locals 1
     .param p1    # Lf/m/a/k/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

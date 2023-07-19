@@ -38,10 +38,10 @@
 .method public final a(Ljava/io/File;)Lkshark/Hprof;
     .locals 12
     .param p1    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "hprofFile"

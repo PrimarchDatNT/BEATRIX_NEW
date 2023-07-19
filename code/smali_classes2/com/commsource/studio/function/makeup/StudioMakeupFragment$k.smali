@@ -69,7 +69,7 @@
 .method public final b(ILcom/commsource/repository/child/makeup/e;)Z
     .locals 5
     .param p2    # Lcom/commsource/repository/child/makeup/e;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

@@ -91,7 +91,7 @@
 .method public constructor <init>(ZJIIIILjava/util/Set;)V
     .locals 13
     .param p8    # Ljava/util/Set;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -244,7 +244,7 @@
 .method public a(JLkshark/m;)V
     .locals 8
     .param p3    # Lkshark/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -551,10 +551,10 @@
 .method public final b(Lkshark/x;)Lkshark/internal/HprofInMemoryIndex;
     .locals 13
     .param p1    # Lkshark/x;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/HprofInMemoryIndex$a;->g:Lkshark/internal/h;

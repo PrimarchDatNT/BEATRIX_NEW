@@ -91,15 +91,15 @@
 .method public final create(Lcotlinx/coroutines/flow/e;Ljava/lang/Throwable;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 3
     .param p1    # Lcotlinx/coroutines/flow/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -118,7 +118,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$onErrorReturn$2;
@@ -163,10 +163,10 @@
 .method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 4
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;

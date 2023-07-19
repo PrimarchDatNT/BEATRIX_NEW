@@ -38,7 +38,7 @@
 .method public final a(Lcom/commsource/studio/text/TextGroupParam;)V
     .locals 7
     .param p1    # Lcom/commsource/studio/text/TextGroupParam;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

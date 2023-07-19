@@ -19,12 +19,12 @@
 .field private static final e:I = 0xa
 
 .field private static final f:Lcom/commsource/beautyplus/t;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private static final g:Lcom/commsource/beautyplus/t;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -184,7 +184,7 @@
 
 .method public final d()Ljava/lang/String;
     .locals 10
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3713

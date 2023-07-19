@@ -20,7 +20,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p2}, Lcotlin/text/a;->a(I)I
@@ -43,7 +43,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     and-int/lit16 p0, p0, 0xff
@@ -72,7 +72,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     int-to-long v0, p0
@@ -105,7 +105,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xffff
@@ -130,7 +130,7 @@
 .method public static final e(Ljava/lang/String;)B
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -169,7 +169,7 @@
 .method public static final f(Ljava/lang/String;I)B
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -208,7 +208,7 @@
 .method public static final g(Ljava/lang/String;)Lcotlin/b1;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -218,7 +218,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toUByteOrNull"
@@ -237,7 +237,7 @@
 .method public static final h(Ljava/lang/String;I)Lcotlin/b1;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -247,7 +247,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toUByteOrNull"
@@ -300,7 +300,7 @@
 .method public static final i(Ljava/lang/String;)I
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -339,7 +339,7 @@
 .method public static final j(Ljava/lang/String;I)I
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -378,7 +378,7 @@
 .method public static final k(Ljava/lang/String;)Lcotlin/f1;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -388,7 +388,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toUIntOrNull"
@@ -407,7 +407,7 @@
 .method public static final l(Ljava/lang/String;I)Lcotlin/f1;
     .locals 10
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -417,7 +417,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toUIntOrNull"
@@ -556,7 +556,7 @@
 .method public static final m(Ljava/lang/String;)J
     .locals 2
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -595,7 +595,7 @@
 .method public static final n(Ljava/lang/String;I)J
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -634,7 +634,7 @@
 .method public static final o(Ljava/lang/String;)Lcotlin/j1;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -644,7 +644,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toULongOrNull"
@@ -663,7 +663,7 @@
 .method public static final p(Ljava/lang/String;I)Lcotlin/j1;
     .locals 19
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -673,7 +673,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     move-object/from16 v0, p0
@@ -840,7 +840,7 @@
 .method public static final q(Ljava/lang/String;)S
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -879,7 +879,7 @@
 .method public static final r(Ljava/lang/String;I)S
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -918,7 +918,7 @@
 .method public static final s(Ljava/lang/String;)Lcotlin/p1;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -928,7 +928,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toUShortOrNull"
@@ -947,7 +947,7 @@
 .method public static final t(Ljava/lang/String;I)Lcotlin/p1;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -957,7 +957,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$toUShortOrNull"

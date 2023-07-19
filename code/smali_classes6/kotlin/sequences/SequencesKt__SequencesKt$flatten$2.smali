@@ -73,7 +73,7 @@
 .method public final invoke(Ljava/lang/Iterable;)Ljava/util/Iterator;
     .locals 1
     .param p1    # Ljava/lang/Iterable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -86,7 +86,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "it"

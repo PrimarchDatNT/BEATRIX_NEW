@@ -19,7 +19,7 @@
 .method public static final a(Lcotlin/collections/e0;)Ljava/util/Map;
     .locals 6
     .param p0    # Lcotlin/collections/e0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -42,7 +42,7 @@
         version = "1.1"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$eachCount"

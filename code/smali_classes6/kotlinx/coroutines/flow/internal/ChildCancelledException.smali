@@ -22,7 +22,7 @@
 # virtual methods
 .method public fillInStackTrace()Ljava/lang/Throwable;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lcotlinx/coroutines/p0;->d()Z

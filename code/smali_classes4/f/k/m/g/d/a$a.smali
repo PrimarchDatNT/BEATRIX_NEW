@@ -37,7 +37,7 @@
 # virtual methods
 .method public final a()Lf/k/m/g/d/a;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa6ef

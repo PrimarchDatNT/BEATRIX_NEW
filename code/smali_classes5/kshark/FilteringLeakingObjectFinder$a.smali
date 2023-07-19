@@ -18,7 +18,7 @@
 # virtual methods
 .method public abstract a(Lkshark/HeapObject;)Z
     .param p1    # Lkshark/HeapObject;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

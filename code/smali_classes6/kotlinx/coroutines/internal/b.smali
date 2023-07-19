@@ -15,7 +15,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -33,11 +33,11 @@
 # virtual methods
 .method public abstract a(Lcotlinx/coroutines/internal/d;Ljava/lang/Object;)V
     .param p1    # Lcotlinx/coroutines/internal/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -61,7 +61,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/internal/b;->a:Lcotlinx/coroutines/internal/d;
@@ -78,7 +78,7 @@
 
 .method public abstract c(Lcotlinx/coroutines/internal/d;)Ljava/lang/Object;
     .param p1    # Lcotlinx/coroutines/internal/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -90,14 +90,14 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method public final d(Lcotlinx/coroutines/internal/d;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/internal/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

@@ -17,7 +17,7 @@
 
 .method public static h()Ljava/lang/Object;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/coroutines/intrinsics/CoroutineSingletons;->COROUTINE_SUSPENDED:Lcotlin/coroutines/intrinsics/CoroutineSingletons;

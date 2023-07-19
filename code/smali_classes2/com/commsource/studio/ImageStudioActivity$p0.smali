@@ -38,7 +38,7 @@
 .method public final a(Lf/d/a;)V
     .locals 4
     .param p1    # Lf/d/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

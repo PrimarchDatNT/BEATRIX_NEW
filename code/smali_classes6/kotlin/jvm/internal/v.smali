@@ -22,7 +22,7 @@
 .field public static final g:I = 0x40
 
 .field public static final h:Lcotlin/jvm/internal/v;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 

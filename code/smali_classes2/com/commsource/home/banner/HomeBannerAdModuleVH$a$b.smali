@@ -38,7 +38,7 @@
 .method public final onClick(Landroid/view/View;)V
     .locals 3
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

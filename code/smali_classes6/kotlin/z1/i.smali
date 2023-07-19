@@ -100,7 +100,7 @@
 .method public static final varargs d(I[I)I
     .locals 3
     .param p1    # [I
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -138,7 +138,7 @@
 .method public static final varargs e(J[J)J
     .locals 4
     .param p2    # [J
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -222,7 +222,7 @@
 .method public static final varargs h(B[B)B
     .locals 3
     .param p1    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -330,7 +330,7 @@
 .method public static final varargs l(S[S)S
     .locals 3
     .param p1    # [S
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -450,7 +450,7 @@
 .method public static final varargs p(I[I)I
     .locals 3
     .param p1    # [I
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -488,7 +488,7 @@
 .method public static final varargs q(J[J)J
     .locals 4
     .param p2    # [J
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -572,7 +572,7 @@
 .method public static final varargs t(B[B)B
     .locals 3
     .param p1    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -680,7 +680,7 @@
 .method public static final varargs x(S[S)S
     .locals 3
     .param p1    # [S
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;

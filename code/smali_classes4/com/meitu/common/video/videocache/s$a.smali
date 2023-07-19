@@ -42,7 +42,7 @@
 # virtual methods
 .method public final a()Ljava/util/concurrent/ThreadPoolExecutor;
     .locals 9
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xf1fd
@@ -80,7 +80,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xf1fe

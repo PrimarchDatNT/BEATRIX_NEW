@@ -19,12 +19,12 @@
 .field public static final Companion:Lcom/commsource/mypage/album/AlbumSetting$a;
 
 .field public static final EXTRA_ALBUM_BUNDLE:Ljava/lang/String; = "EXTRA_BUNDLE"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final EXTRA_ALBUM_SETTING:Ljava/lang/String; = "EXTRA_ALBUM_SETTING"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -45,12 +45,12 @@
 .field private directToPuzzle:Z
 
 .field private filterPathPrefix:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private filterPathTime:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -75,19 +75,19 @@
 .field private noOneFaceAlert:Z
 
 .field private onImageSelectCallback:Lcom/commsource/mypage/album/OnImageSelectCallback;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private onlySupportDelete:Z
 
 .field private routerEntity:Lcom/commsource/beautyplus/router/RouterEntity;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private selectImageTips:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -96,7 +96,7 @@
 .field private sourceForShareLink:I
 
 .field private topBannerTips:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -268,7 +268,7 @@
 
 .method public final getFilterPathPrefix()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8017
@@ -284,7 +284,7 @@
 
 .method public final getFilterPathTime()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8019
@@ -440,7 +440,7 @@
 
 .method public final getOnImageSelectCallback()Lcom/commsource/mypage/album/OnImageSelectCallback;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8027
@@ -470,7 +470,7 @@
 
 .method public final getRouterEntity()Lcom/commsource/beautyplus/router/RouterEntity;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8025
@@ -486,7 +486,7 @@
 
 .method public final getSelectImageTips()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8013
@@ -530,7 +530,7 @@
 
 .method public final getTopBannerTips()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8015
@@ -703,7 +703,7 @@
 .method public final setFilterPathPrefix(Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -725,7 +725,7 @@
 .method public final setFilterPathTime(Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -887,7 +887,7 @@
 .method public final setOnImageSelectCallback(Lcom/commsource/mypage/album/OnImageSelectCallback;)V
     .locals 1
     .param p1    # Lcom/commsource/mypage/album/OnImageSelectCallback;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -919,7 +919,7 @@
 .method public final setRouterEntity(Lcom/commsource/beautyplus/router/RouterEntity;)V
     .locals 1
     .param p1    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -937,7 +937,7 @@
 .method public final setSelectImageTips(Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -987,7 +987,7 @@
 .method public final setTopBannerTips(Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

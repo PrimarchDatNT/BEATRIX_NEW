@@ -62,7 +62,7 @@
 
 .method public final invoke()Lkshark/HeapAnalyzer$b$b;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lkshark/HeapAnalyzer$b$b;

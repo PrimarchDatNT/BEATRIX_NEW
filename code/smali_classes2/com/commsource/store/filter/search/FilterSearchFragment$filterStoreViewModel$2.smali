@@ -48,7 +48,7 @@
 # virtual methods
 .method public final invoke()Lcom/commsource/store/filter/FilterStoreViewModel;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa541

@@ -19,10 +19,10 @@
 .method public static a(Lcotlin/text/k;)Lcotlin/text/k$b;
     .locals 1
     .param p0    # Lcotlin/text/k;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlin/text/k$b;

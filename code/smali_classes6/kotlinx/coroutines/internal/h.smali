@@ -550,7 +550,7 @@
 .method private final h(Ljava/util/jar/JarFile;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 2
     .param p1    # Ljava/util/jar/JarFile;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -634,7 +634,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-class v0, Lcotlinx/coroutines/internal/MainDispatcherFactory;
@@ -783,11 +783,11 @@
 .method public final e(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/List;
     .locals 4
     .param p1    # Ljava/lang/Class;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/ClassLoader;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -804,7 +804,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

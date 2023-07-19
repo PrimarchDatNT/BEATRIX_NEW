@@ -18,11 +18,11 @@
 .method public static bridge synthetic a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
     .locals 0
     .param p0    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/internal/e;

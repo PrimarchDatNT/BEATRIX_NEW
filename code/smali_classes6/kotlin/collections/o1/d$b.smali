@@ -39,7 +39,7 @@
 .method public constructor <init>(Lcotlin/collections/o1/d;)V
     .locals 1
     .param p1    # Lcotlin/collections/o1/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -71,7 +71,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Lcotlin/collections/o1/d$d;->a()I
@@ -125,7 +125,7 @@
 .method public final i(Ljava/lang/StringBuilder;)V
     .locals 3
     .param p1    # Ljava/lang/StringBuilder;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -522,7 +522,7 @@
 .method public x(Lcotlin/jvm/u/a;)V
     .locals 3
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -616,7 +616,7 @@
 .method public z(Lcotlin/jvm/u/a;)V
     .locals 4
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

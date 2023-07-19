@@ -58,7 +58,7 @@
 .method public b(Ljava/lang/Throwable;)V
     .locals 3
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -110,7 +110,7 @@
 .method public c(Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;)V
     .locals 0
     .param p1    # Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -126,7 +126,7 @@
 .method public d(Lokhttp3/Response;)Z
     .locals 6
     .param p1    # Lokhttp3/Response;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

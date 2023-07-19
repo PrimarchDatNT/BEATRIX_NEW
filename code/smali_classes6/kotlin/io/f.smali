@@ -19,7 +19,7 @@
 # virtual methods
 .method public final a()[B
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Ljava/io/ByteArrayOutputStream;->buf:[B

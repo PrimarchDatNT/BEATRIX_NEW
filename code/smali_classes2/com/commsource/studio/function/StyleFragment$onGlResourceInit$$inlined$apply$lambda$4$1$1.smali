@@ -83,7 +83,7 @@
 .method public final invoke([FFI)V
     .locals 8
     .param p1    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

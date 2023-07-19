@@ -24,22 +24,22 @@
 
 # instance fields
 .field private final declaredClassName:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final originObject:Lkshark/LeakTraceObject;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final referenceName:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final referenceType:Lkshark/LeakTraceReference$ReferenceType;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -62,19 +62,19 @@
 .method public constructor <init>(Lkshark/LeakTraceObject;Lkshark/LeakTraceReference$ReferenceType;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
     .param p1    # Lkshark/LeakTraceObject;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lkshark/LeakTraceReference$ReferenceType;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -149,7 +149,7 @@
 # virtual methods
 .method public final component1()Lkshark/LeakTraceObject;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceReference;->originObject:Lkshark/LeakTraceObject;
@@ -159,7 +159,7 @@
 
 .method public final component2()Lkshark/LeakTraceReference$ReferenceType;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceReference;->referenceType:Lkshark/LeakTraceReference$ReferenceType;
@@ -169,7 +169,7 @@
 
 .method public final component3()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceReference;->referenceName:Ljava/lang/String;
@@ -179,7 +179,7 @@
 
 .method public final component4()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceReference;->declaredClassName:Ljava/lang/String;
@@ -190,22 +190,22 @@
 .method public final copy(Lkshark/LeakTraceObject;Lkshark/LeakTraceReference$ReferenceType;Ljava/lang/String;Ljava/lang/String;)Lkshark/LeakTraceReference;
     .locals 1
     .param p1    # Lkshark/LeakTraceObject;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lkshark/LeakTraceReference$ReferenceType;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "originObject"
@@ -234,7 +234,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -302,7 +302,7 @@
 
 .method public final getDeclaredClassName()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceReference;->declaredClassName:Ljava/lang/String;
@@ -312,7 +312,7 @@
 
 .method public final getOriginObject()Lkshark/LeakTraceObject;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceReference;->originObject:Lkshark/LeakTraceObject;
@@ -322,7 +322,7 @@
 
 .method public final getReferenceDisplayName()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceReference;->referenceType:Lkshark/LeakTraceReference$ReferenceType;
@@ -394,7 +394,7 @@
 
 .method public final getReferenceGenericName()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceReference;->referenceType:Lkshark/LeakTraceReference$ReferenceType;
@@ -448,7 +448,7 @@
 
 .method public final getReferenceName()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceReference;->referenceName:Ljava/lang/String;
@@ -458,7 +458,7 @@
 
 .method public final getReferenceType()Lkshark/LeakTraceReference$ReferenceType;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceReference;->referenceType:Lkshark/LeakTraceReference$ReferenceType;
@@ -539,7 +539,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

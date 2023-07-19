@@ -287,7 +287,7 @@
 .method public final a(Lcotlinx/coroutines/internal/l0;)V
     .locals 3
     .param p1    # Lcotlinx/coroutines/internal/l0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -358,7 +358,7 @@
 .method public final b(Lcotlinx/coroutines/internal/l0;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/internal/l0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -391,11 +391,11 @@
 .method public final c(Lcotlinx/coroutines/internal/l0;Lcotlin/jvm/u/l;)Z
     .locals 2
     .param p1    # Lcotlinx/coroutines/internal/l0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -515,7 +515,7 @@
     .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/internal/k0;->a:[Lcotlinx/coroutines/internal/l0;
@@ -571,7 +571,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     monitor-enter p0
@@ -598,7 +598,7 @@
 .method public final j(Lcotlinx/coroutines/internal/l0;)Z
     .locals 3
     .param p1    # Lcotlinx/coroutines/internal/l0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -681,7 +681,7 @@
     .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
@@ -846,7 +846,7 @@
 .method public final l(Lcotlin/jvm/u/l;)Lcotlinx/coroutines/internal/l0;
     .locals 3
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -859,7 +859,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     monitor-enter p0
@@ -935,7 +935,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     monitor-enter p0

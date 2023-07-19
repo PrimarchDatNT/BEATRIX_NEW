@@ -37,7 +37,7 @@
         name = "config"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -81,7 +81,7 @@
         value = "file"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -94,7 +94,7 @@
         value = "icon"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -110,7 +110,7 @@
         value = "m_id"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -129,7 +129,7 @@
         value = "name"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -192,7 +192,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -231,7 +231,7 @@
 
 .method public final getConfig()Lcom/commsource/studio/function/background/GradientConfig;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3bc1
@@ -303,7 +303,7 @@
 
 .method public final getFile()Lcom/commsource/repository/FileObject;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3bb1
@@ -319,7 +319,7 @@
 
 .method public final getIcon()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3bad
@@ -335,7 +335,7 @@
 
 .method public final getId()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3bab
@@ -365,7 +365,7 @@
 
 .method public final getName()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3baf
@@ -437,7 +437,7 @@
 
 .method public final getUrl()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3bc7
@@ -655,7 +655,7 @@
 .method public onCompareLocal(Lcom/commsource/studio/function/background/GradientMaterial;)Z
     .locals 9
     .param p1    # Lcom/commsource/studio/function/background/GradientMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -876,7 +876,7 @@
 .method public onSortCompare(Lcom/commsource/studio/function/background/GradientMaterial;)I
     .locals 2
     .param p1    # Lcom/commsource/studio/function/background/GradientMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -945,7 +945,7 @@
 .method public final setConfig(Lcom/commsource/studio/function/background/GradientConfig;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/function/background/GradientConfig;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1019,7 +1019,7 @@
 .method public final setFile(Lcom/commsource/repository/FileObject;)V
     .locals 1
     .param p1    # Lcom/commsource/repository/FileObject;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1037,7 +1037,7 @@
 .method public final setIcon(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1055,7 +1055,7 @@
 .method public final setId(Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1091,7 +1091,7 @@
 .method public final setName(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

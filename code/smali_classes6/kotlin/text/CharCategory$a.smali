@@ -63,7 +63,7 @@
 # virtual methods
 .method public final b(I)Lcotlin/text/CharCategory;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-direct {p0}, Lcotlin/text/CharCategory$a;->a()Ljava/util/Map;

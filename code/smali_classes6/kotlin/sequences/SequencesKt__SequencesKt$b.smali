@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/sequences/SequencesKt__SequencesKt$b;->a:Ljava/util/Iterator;

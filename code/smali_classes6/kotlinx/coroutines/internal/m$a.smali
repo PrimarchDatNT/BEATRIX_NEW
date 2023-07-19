@@ -30,11 +30,11 @@
 .method public final a(Lcotlinx/coroutines/internal/d;Ljava/lang/Object;)V
     .locals 4
     .param p1    # Lcotlinx/coroutines/internal/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -150,7 +150,7 @@
 .method public final c(Lcotlinx/coroutines/internal/d;)Ljava/lang/Object;
     .locals 6
     .param p1    # Lcotlinx/coroutines/internal/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -162,7 +162,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     :cond_0
@@ -321,10 +321,10 @@
 .method protected e(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;
     .locals 0
     .param p1    # Lcotlinx/coroutines/internal/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/4 p1, 0x0
@@ -334,39 +334,39 @@
 
 .method protected abstract f(Lcotlinx/coroutines/internal/m;Lcotlinx/coroutines/internal/m;)V
     .param p1    # Lcotlinx/coroutines/internal/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlinx/coroutines/internal/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method
 
 .method public abstract g(Lcotlinx/coroutines/internal/m$d;)V
     .param p1    # Lcotlinx/coroutines/internal/m$d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method
 
 .method protected abstract h()Lcotlinx/coroutines/internal/m;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method protected abstract i()Lcotlinx/coroutines/internal/m;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method public j(Lcotlinx/coroutines/internal/m$d;)Ljava/lang/Object;
     .locals 0
     .param p1    # Lcotlinx/coroutines/internal/m$d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/internal/m$a;->g(Lcotlinx/coroutines/internal/m$d;)V
@@ -379,11 +379,11 @@
 .method protected k(Lcotlinx/coroutines/internal/m;Ljava/lang/Object;)Z
     .locals 0
     .param p1    # Lcotlinx/coroutines/internal/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -395,10 +395,10 @@
 .method protected l(Lcotlinx/coroutines/internal/v;)Lcotlinx/coroutines/internal/m;
     .locals 0
     .param p1    # Lcotlinx/coroutines/internal/v;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-virtual {p0}, Lcotlinx/coroutines/internal/m$a;->h()Lcotlinx/coroutines/internal/m;
@@ -415,13 +415,13 @@
 
 .method protected abstract m(Lcotlinx/coroutines/internal/m;Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;
     .param p1    # Lcotlinx/coroutines/internal/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlinx/coroutines/internal/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method

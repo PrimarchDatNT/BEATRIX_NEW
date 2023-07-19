@@ -44,6 +44,6 @@
 
 # virtual methods
 .method public abstract c()Lkshark/d;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method

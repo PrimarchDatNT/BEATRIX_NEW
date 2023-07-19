@@ -15,6 +15,6 @@
 
 # virtual methods
 .method public abstract m()Ljava/lang/reflect/Type;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method

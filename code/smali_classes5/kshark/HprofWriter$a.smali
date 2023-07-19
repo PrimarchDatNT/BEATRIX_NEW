@@ -64,14 +64,14 @@
 .method public final a(Ljava/io/File;ILkshark/Hprof$HprofVersion;)Lkshark/HprofWriter;
     .locals 2
     .param p1    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lkshark/Hprof$HprofVersion;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "hprofFile"

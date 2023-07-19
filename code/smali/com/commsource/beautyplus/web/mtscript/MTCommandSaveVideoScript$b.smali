@@ -66,7 +66,7 @@
 .method protected d(Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$Model;)V
     .locals 4
     .param p1    # Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$Model;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

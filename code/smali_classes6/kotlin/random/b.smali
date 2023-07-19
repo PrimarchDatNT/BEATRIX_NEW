@@ -29,7 +29,7 @@
 # virtual methods
 .method public r()Ljava/util/Random;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/random/b;->c:Lcotlin/random/b$a;

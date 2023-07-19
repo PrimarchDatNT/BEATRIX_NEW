@@ -10,7 +10,7 @@
 .field private alpha:I
 
 .field private filter:Lcom/meitu/template/bean/Filter;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -21,7 +21,7 @@
 .method public constructor <init>(Lcom/commsource/studio/bean/FilterLayerInfo;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/bean/FilterLayerInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -71,7 +71,7 @@
 .method public constructor <init>(Lcom/meitu/template/bean/Filter;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -108,7 +108,7 @@
 
 .method public final getFilter()Lcom/meitu/template/bean/Filter;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8cad
@@ -175,7 +175,7 @@
 .method public final setFilter(Lcom/meitu/template/bean/Filter;)V
     .locals 2
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

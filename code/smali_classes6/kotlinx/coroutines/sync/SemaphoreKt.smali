@@ -75,7 +75,7 @@
 
 .method public static final d(II)Lcotlinx/coroutines/sync/e;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/sync/f;
@@ -129,15 +129,15 @@
 .method public static final i(Lcotlinx/coroutines/sync/e;Lcotlin/jvm/u/a;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
     .param p0    # Lcotlinx/coroutines/sync/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -154,7 +154,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p2, Lcotlinx/coroutines/sync/SemaphoreKt$withPermit$1;
@@ -271,18 +271,18 @@
 .method private static final j(Lcotlinx/coroutines/sync/e;Lcotlin/jvm/u/a;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 1
     .param p0    # Lcotlinx/coroutines/sync/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/4 v0, 0x0

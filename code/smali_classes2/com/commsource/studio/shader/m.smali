@@ -28,7 +28,7 @@
 .field private i:F
 
 .field public j:Lcom/commsource/easyeditor/utils/opengl/f;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -380,7 +380,7 @@
 .method public final B(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 2
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -973,7 +973,7 @@
 
 .method public final p()Lcom/commsource/easyeditor/utils/opengl/f;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x486f

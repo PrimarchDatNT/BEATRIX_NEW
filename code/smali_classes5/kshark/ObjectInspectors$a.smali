@@ -38,7 +38,7 @@
 .method public final a(Ljava/util/Set;)Ljava/util/List;
     .locals 3
     .param p1    # Ljava/util/Set;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "inspectors"
@@ -144,7 +144,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lkshark/ObjectInspectors;->values()[Lkshark/ObjectInspectors;
@@ -169,7 +169,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lkshark/ObjectInspectors;->access$getJdkLeakingObjectFilters$cp()Ljava/util/List;

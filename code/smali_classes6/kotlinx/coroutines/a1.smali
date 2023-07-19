@@ -43,7 +43,7 @@
 .method public static final d(Lcotlinx/coroutines/z0;I)V
     .locals 3
     .param p0    # Lcotlinx/coroutines/z0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -152,11 +152,11 @@
 .method public static final g(Lcotlinx/coroutines/z0;Lcotlin/coroutines/c;I)V
     .locals 2
     .param p0    # Lcotlinx/coroutines/z0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -324,7 +324,7 @@
 .method private static final h(Lcotlinx/coroutines/z0;)V
     .locals 4
     .param p0    # Lcotlinx/coroutines/z0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -403,11 +403,11 @@
 .method public static final i(Lcotlin/coroutines/c;Ljava/lang/Throwable;)V
     .locals 1
     .param p0    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -461,15 +461,15 @@
 .method public static final j(Lcotlinx/coroutines/z0;Lcotlinx/coroutines/j1;Lcotlin/jvm/u/a;)V
     .locals 2
     .param p0    # Lcotlinx/coroutines/z0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/j1;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

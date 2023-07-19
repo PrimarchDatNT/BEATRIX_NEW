@@ -39,12 +39,12 @@
 .field private isFromFormula:Z
 
 .field private transient layerNode:Lcom/commsource/editengine/i;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private parentKey:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -82,7 +82,7 @@
 # virtual methods
 .method public clone()Ljava/lang/Object;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
@@ -94,7 +94,7 @@
 
 .method public copy(Z)Lcom/commsource/studio/bean/BaseLayerInfo;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Lcom/commsource/studio/bean/BaseLayerInfo;->clone()Ljava/lang/Object;
@@ -132,7 +132,7 @@
 
 .method public final getLayerNode()Lcom/commsource/editengine/i;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/bean/BaseLayerInfo;->layerNode:Lcom/commsource/editengine/i;
@@ -142,7 +142,7 @@
 
 .method public getParentKey()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/bean/BaseLayerInfo;->parentKey:Ljava/lang/String;
@@ -172,7 +172,7 @@
 .method public final setLayerNode(Lcom/commsource/editengine/i;)V
     .locals 0
     .param p1    # Lcom/commsource/editengine/i;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -184,7 +184,7 @@
 .method public setParentKey(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

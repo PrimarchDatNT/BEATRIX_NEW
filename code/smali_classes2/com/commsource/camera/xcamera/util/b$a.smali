@@ -63,7 +63,7 @@
 .method public b(Ljava/lang/Throwable;)V
     .locals 2
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -87,7 +87,7 @@
 .method public c(Lcom/meitu/http/api/b$a;)V
     .locals 0
     .param p1    # Lcom/meitu/http/api/b$a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -103,7 +103,7 @@
 .method public d(Lokhttp3/Response;)Z
     .locals 3
     .param p1    # Lokhttp3/Response;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

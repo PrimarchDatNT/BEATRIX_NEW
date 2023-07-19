@@ -8,7 +8,7 @@
 
 # instance fields
 .field private final c:Ljava/util/Random;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -17,7 +17,7 @@
 .method public constructor <init>(Ljava/util/Random;)V
     .locals 1
     .param p1    # Ljava/util/Random;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -36,7 +36,7 @@
 # virtual methods
 .method public r()Ljava/util/Random;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/random/c;->c:Ljava/util/Random;

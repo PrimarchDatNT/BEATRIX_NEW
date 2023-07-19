@@ -72,7 +72,7 @@
 .method public final invoke([F)V
     .locals 5
     .param p1    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -9,7 +9,7 @@
 
 # static fields
 .field private static a:Landroidx/core/app/FrameMetricsAggregator;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -159,7 +159,7 @@
 .method public final a(Landroid/app/Activity;)V
     .locals 2
     .param p1    # Landroid/app/Activity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -183,7 +183,7 @@
 .method public final c(Landroid/view/View;)V
     .locals 4
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -217,7 +217,7 @@
 
 .method public final d()Landroidx/core/app/FrameMetricsAggregator;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8325
@@ -234,7 +234,7 @@
 .method public final e(Landroid/app/Activity;)V
     .locals 2
     .param p1    # Landroid/app/Activity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -258,7 +258,7 @@
 .method public final f(Landroidx/core/app/FrameMetricsAggregator;)V
     .locals 2
     .param p1    # Landroidx/core/app/FrameMetricsAggregator;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -74,7 +74,7 @@
 
 .method public final invoke()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/PathFinder$enqueueGcRoots$$inlined$forEach$lambda$1;->$threadInstance:Lkshark/HeapObject$HeapInstance;

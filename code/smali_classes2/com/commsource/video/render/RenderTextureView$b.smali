@@ -43,7 +43,7 @@
 .method public onSurfaceTextureAvailable(Landroid/graphics/SurfaceTexture;II)V
     .locals 4
     .param p1    # Landroid/graphics/SurfaceTexture;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -80,7 +80,7 @@
 .method public onSurfaceTextureDestroyed(Landroid/graphics/SurfaceTexture;)Z
     .locals 5
     .param p1    # Landroid/graphics/SurfaceTexture;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -178,7 +178,7 @@
 .method public onSurfaceTextureSizeChanged(Landroid/graphics/SurfaceTexture;II)V
     .locals 4
     .param p1    # Landroid/graphics/SurfaceTexture;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -217,7 +217,7 @@
 .method public onSurfaceTextureUpdated(Landroid/graphics/SurfaceTexture;)V
     .locals 2
     .param p1    # Landroid/graphics/SurfaceTexture;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

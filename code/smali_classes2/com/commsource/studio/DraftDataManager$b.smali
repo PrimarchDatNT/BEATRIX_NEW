@@ -24,7 +24,7 @@
 .method public constructor <init>(Lcom/commsource/studio/DraftDataManager;Landroid/os/Looper;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/DraftDataManager;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -51,7 +51,7 @@
 .method public handleMessage(Landroid/os/Message;)V
     .locals 3
     .param p1    # Landroid/os/Message;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

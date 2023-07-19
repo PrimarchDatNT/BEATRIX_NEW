@@ -39,11 +39,11 @@
 .method public static final B(Lcotlin/g2/t;Lcotlin/random/e;)I
     .locals 1
     .param p0    # Lcotlin/g2/t;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/random/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -108,11 +108,11 @@
 .method public static final D(Lcotlin/g2/w;Lcotlin/random/e;)J
     .locals 1
     .param p0    # Lcotlin/g2/w;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/random/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -183,11 +183,11 @@
 .method public static final F(Lcotlin/g2/t;Lcotlin/random/e;)Lcotlin/f1;
     .locals 1
     .param p0    # Lcotlin/g2/t;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/random/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -203,7 +203,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$randomOrNull"
@@ -266,11 +266,11 @@
 .method public static final H(Lcotlin/g2/w;Lcotlin/random/e;)Lcotlin/j1;
     .locals 1
     .param p0    # Lcotlin/g2/w;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/random/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -286,7 +286,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$randomOrNull"
@@ -322,7 +322,7 @@
 .method public static final I(Lcotlin/g2/r;)Lcotlin/g2/r;
     .locals 3
     .param p0    # Lcotlin/g2/r;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -332,7 +332,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$reversed"
@@ -365,7 +365,7 @@
 .method public static final J(Lcotlin/g2/u;)Lcotlin/g2/u;
     .locals 8
     .param p0    # Lcotlin/g2/u;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -375,7 +375,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$reversed"
@@ -408,7 +408,7 @@
 .method public static final K(Lcotlin/g2/r;I)Lcotlin/g2/r;
     .locals 3
     .param p0    # Lcotlin/g2/r;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -418,7 +418,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$step"
@@ -473,7 +473,7 @@
 .method public static final L(Lcotlin/g2/u;J)Lcotlin/g2/u;
     .locals 11
     .param p0    # Lcotlin/g2/u;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -483,7 +483,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$step"
@@ -552,7 +552,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xffff
@@ -610,7 +610,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/4 v0, 0x0
@@ -654,7 +654,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     and-int/lit16 p1, p1, 0xff
@@ -710,7 +710,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-wide/16 v0, 0x0
@@ -952,7 +952,7 @@
 .method public static final i(JLcotlin/g2/g;)J
     .locals 2
     .param p2    # Lcotlin/g2/g;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1406,7 +1406,7 @@
 .method public static final n(ILcotlin/g2/g;)I
     .locals 2
     .param p1    # Lcotlin/g2/g;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1546,7 +1546,7 @@
 .method public static final o(Lcotlin/g2/t;B)Z
     .locals 1
     .param p0    # Lcotlin/g2/t;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -1615,7 +1615,7 @@
 .method public static final q(Lcotlin/g2/w;I)Z
     .locals 4
     .param p0    # Lcotlin/g2/w;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -1649,7 +1649,7 @@
 .method public static final r(Lcotlin/g2/w;B)Z
     .locals 4
     .param p0    # Lcotlin/g2/w;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -1683,7 +1683,7 @@
 .method public static final s(Lcotlin/g2/t;S)Z
     .locals 1
     .param p0    # Lcotlin/g2/t;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -1754,7 +1754,7 @@
 .method public static final u(Lcotlin/g2/t;J)Z
     .locals 5
     .param p0    # Lcotlin/g2/t;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -1808,7 +1808,7 @@
 .method public static final v(Lcotlin/g2/w;S)Z
     .locals 4
     .param p0    # Lcotlin/g2/w;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/p;
@@ -1848,7 +1848,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/g2/r;->d:Lcotlin/g2/r$a;
@@ -1885,7 +1885,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/g2/r;->d:Lcotlin/g2/r$a;
@@ -1908,7 +1908,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/g2/r;->d:Lcotlin/g2/r$a;
@@ -1943,7 +1943,7 @@
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/g2/u;->d:Lcotlin/g2/u$a;

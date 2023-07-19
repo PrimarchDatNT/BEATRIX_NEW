@@ -41,7 +41,7 @@
 .field public static final f:I = 0x10
 
 .field public static final g:Lcotlin/p1$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -828,7 +828,7 @@
 
 .method public static o0(S)Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xffff
@@ -1056,7 +1056,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-short v0, p0, Lcotlin/p1;->a:S

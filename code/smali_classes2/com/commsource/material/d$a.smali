@@ -49,11 +49,11 @@
 .method public a(Lcom/commsource/material/DownloadTask;Ljava/lang/Exception;)V
     .locals 2
     .param p1    # Lcom/commsource/material/DownloadTask;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Exception;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -88,11 +88,11 @@
 .method public b(Lcom/commsource/material/DownloadTask;Ljava/lang/String;)V
     .locals 2
     .param p1    # Lcom/commsource/material/DownloadTask;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -140,7 +140,7 @@
 .method public c(Lcom/commsource/material/DownloadTask;)V
     .locals 2
     .param p1    # Lcom/commsource/material/DownloadTask;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -167,7 +167,7 @@
 .method public d(Lcom/commsource/material/DownloadTask;)V
     .locals 2
     .param p1    # Lcom/commsource/material/DownloadTask;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -194,7 +194,7 @@
 .method public e(Lcom/commsource/material/DownloadTask;JJ)V
     .locals 8
     .param p1    # Lcom/commsource/material/DownloadTask;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

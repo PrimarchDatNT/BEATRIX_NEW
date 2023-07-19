@@ -9,14 +9,14 @@
 
 # static fields
 .field public static final j:Ljava/lang/String; = "beautyplus_background_gradient"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private static final k:Ljava/lang/String; = "background/gradient/inner_gradient.json"
 
 .field private static final l:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -36,7 +36,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -49,12 +49,12 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private static final r:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -604,7 +604,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4c4c
@@ -621,10 +621,10 @@
 .method public final B(Lcom/commsource/studio/function/background/GradientMaterial;)Lcom/commsource/material/download/b/c;
     .locals 2
     .param p1    # Lcom/commsource/studio/function/background/GradientMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4c57
@@ -655,7 +655,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4c4d
@@ -685,7 +685,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4c4e
@@ -727,7 +727,7 @@
 
 .method public final F()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4c4a
@@ -744,10 +744,10 @@
 .method public final G(Lcom/commsource/studio/function/background/GradientMaterial;)Ljava/lang/String;
     .locals 3
     .param p1    # Lcom/commsource/studio/function/background/GradientMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4c5a
@@ -812,10 +812,10 @@
 .method public final H(Lcom/commsource/studio/function/background/GradientMaterial;)Lcom/commsource/material/download/c/d;
     .locals 10
     .param p1    # Lcom/commsource/studio/function/background/GradientMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4c56
@@ -920,7 +920,7 @@
 .method public l(Ljava/util/List;)V
     .locals 3
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -974,7 +974,7 @@
 .method public final x(Lcom/commsource/studio/function/background/GradientMaterial;Z)V
     .locals 8
     .param p1    # Lcom/commsource/studio/function/background/GradientMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1045,10 +1045,10 @@
 .method public final z(Ljava/lang/String;)Lcom/commsource/studio/function/background/GradientMaterial;
     .locals 5
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x4c55

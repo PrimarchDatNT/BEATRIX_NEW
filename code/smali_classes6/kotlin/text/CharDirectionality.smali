@@ -30,7 +30,7 @@
 .field public static final enum COMMON_NUMBER_SEPARATOR:Lcotlin/text/CharDirectionality;
 
 .field public static final Companion:Lcotlin/text/CharDirectionality$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 

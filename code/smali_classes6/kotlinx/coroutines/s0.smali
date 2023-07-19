@@ -8,7 +8,7 @@
 
 # static fields
 .field private static final a:Lcotlinx/coroutines/u0;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -26,7 +26,7 @@
 
 .method public static final a()Lcotlinx/coroutines/u0;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/s0;->a:Lcotlinx/coroutines/u0;

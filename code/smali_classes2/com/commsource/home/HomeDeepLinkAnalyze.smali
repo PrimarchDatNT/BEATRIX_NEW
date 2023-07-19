@@ -15,7 +15,7 @@
 
 # static fields
 .field private static final f:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -46,7 +46,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -231,7 +231,7 @@
 .method public final c(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
     .locals 4
     .param p1    # Lcom/commsource/camera/fastcapture/SelfiePhotoData;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -631,7 +631,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x63fb
@@ -662,7 +662,7 @@
 .method public final p(Lcotlin/Pair;)V
     .locals 1
     .param p1    # Lcotlin/Pair;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -689,11 +689,11 @@
 .method public final q(ILcom/commsource/home/entity/ContentModule;ILcom/commsource/home/entity/d;)V
     .locals 17
     .param p2    # Lcom/commsource/home/entity/ContentModule;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Lcom/commsource/home/entity/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

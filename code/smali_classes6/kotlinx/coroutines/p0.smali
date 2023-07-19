@@ -9,27 +9,27 @@
 
 # static fields
 .field public static final a:Ljava/lang/String; = "kotlinx.coroutines.debug"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final b:Ljava/lang/String; = "kotlinx.coroutines.stacktrace.recovery"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final c:Ljava/lang/String; = "auto"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final d:Ljava/lang/String; = "on"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final e:Ljava/lang/String; = "off"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -40,7 +40,7 @@
 .field private static final h:Z
 
 .field private static final i:Ljava/util/concurrent/atomic/AtomicLong;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -246,7 +246,7 @@
 
 .method public static final c()Ljava/util/concurrent/atomic/AtomicLong;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/p0;->i:Ljava/util/concurrent/atomic/AtomicLong;

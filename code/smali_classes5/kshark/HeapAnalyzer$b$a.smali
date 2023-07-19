@@ -19,7 +19,7 @@
 .field private final a:J
 
 .field private final b:Lkshark/internal/f;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -28,7 +28,7 @@
 .method public constructor <init>(JLkshark/internal/f;)V
     .locals 1
     .param p3    # Lkshark/internal/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -59,7 +59,7 @@
 
 .method public final b()Lkshark/internal/f;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HeapAnalyzer$b$a;->b:Lkshark/internal/f;

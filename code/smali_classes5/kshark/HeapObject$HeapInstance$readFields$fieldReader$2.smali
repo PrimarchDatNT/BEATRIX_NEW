@@ -58,7 +58,7 @@
 
 .method public final invoke()Lkshark/internal/c;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HeapObject$HeapInstance$readFields$fieldReader$2;->this$0:Lkshark/HeapObject$HeapInstance;

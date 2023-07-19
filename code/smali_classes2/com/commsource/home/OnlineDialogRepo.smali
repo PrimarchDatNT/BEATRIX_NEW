@@ -1566,7 +1566,7 @@
 # virtual methods
 .method public final j(I)Lcom/commsource/home/entity/DialogDataEntity;
     .locals 8
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x92b8

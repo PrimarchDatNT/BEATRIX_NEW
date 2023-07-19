@@ -7,7 +7,7 @@
 .method public static $default$onErrorResponse(Lcom/mopub/network/MoPubResponse$Listener;Lcom/mopub/network/MoPubNetworkError;)V
     .locals 1
     .param p0    # Lcom/mopub/network/MoPubResponse$Listener;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/b;
@@ -23,7 +23,7 @@
 .method public static $default$onResponse(Lcom/mopub/network/MoPubResponse$Listener;Ljava/lang/Object;)V
     .locals 1
     .param p0    # Lcom/mopub/network/MoPubResponse$Listener;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

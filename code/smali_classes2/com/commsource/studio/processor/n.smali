@@ -44,11 +44,11 @@
 .method public V(Landroid/graphics/Bitmap;Lcom/commsource/studio/layer/SlimLayer$a;)V
     .locals 4
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/layer/SlimLayer$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

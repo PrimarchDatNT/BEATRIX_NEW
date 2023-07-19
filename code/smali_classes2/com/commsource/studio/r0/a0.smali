@@ -9,12 +9,12 @@
 
 # instance fields
 .field public j:Lcom/commsource/easyeditor/utils/opengl/m;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public k:Lcom/commsource/easyeditor/utils/opengl/m;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -25,7 +25,7 @@
 .method public constructor <init>(Lcom/commsource/studio/effect/d;)V
     .locals 3
     .param p1    # Lcom/commsource/studio/effect/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -50,7 +50,7 @@
 # virtual methods
 .method public final A()Lcom/commsource/easyeditor/utils/opengl/m;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2449
@@ -74,7 +74,7 @@
 .method public final B(Lcom/commsource/easyeditor/utils/opengl/m;)V
     .locals 2
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -96,7 +96,7 @@
 .method public final C(Lcom/commsource/easyeditor/utils/opengl/m;)V
     .locals 2
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -356,7 +356,7 @@
 
 .method public final z()Lcom/commsource/easyeditor/utils/opengl/m;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2447

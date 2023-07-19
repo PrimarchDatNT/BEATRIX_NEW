@@ -50,7 +50,7 @@
 .method public final a(Lcom/commsource/puzzle/patchedworld/x/b$c;)V
     .locals 2
     .param p1    # Lcom/commsource/puzzle/patchedworld/x/b$c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

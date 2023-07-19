@@ -14,7 +14,7 @@
 .method public static final a(Lcotlin/jvm/u/a;)J
     .locals 4
     .param p0    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -48,7 +48,7 @@
 .method public static final b(Lcotlin/jvm/u/a;)J
     .locals 4
     .param p0    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

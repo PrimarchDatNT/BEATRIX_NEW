@@ -34,10 +34,10 @@
 .method public final f(Landroidx/recyclerview/widget/RecyclerView;)Lcom/commsource/util/v1;
     .locals 2
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9b12
@@ -58,7 +58,7 @@
 .method public final g(Lcotlin/jvm/u/l;)V
     .locals 2
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -90,7 +90,7 @@
 .method public onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
     .locals 2
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -125,7 +125,7 @@
 .method public onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
     .locals 1
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

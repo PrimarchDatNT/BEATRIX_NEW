@@ -38,11 +38,11 @@
 .method public final a(Lcom/meitu/library/optimus/apm/e;Ljava/lang/String;)Z
     .locals 10
     .param p1    # Lcom/meitu/library/optimus/apm/e;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;

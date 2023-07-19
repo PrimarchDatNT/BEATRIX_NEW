@@ -27,7 +27,7 @@
 .end field
 
 .field private final d:Lcotlinx/coroutines/scheduling/c;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -58,7 +58,7 @@
 .method public constructor <init>(Lcotlinx/coroutines/scheduling/c;II)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/scheduling/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -139,7 +139,7 @@
 # virtual methods
 .method public A()Ljava/util/concurrent/Executor;
     .locals 0
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     return-object p0
@@ -147,7 +147,7 @@
 
 .method public final E()Lcotlinx/coroutines/scheduling/c;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/e;->d:Lcotlinx/coroutines/scheduling/c;
@@ -182,7 +182,7 @@
 .method public execute(Ljava/lang/Runnable;)V
     .locals 1
     .param p1    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -245,7 +245,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -280,11 +280,11 @@
 .method public u(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Runnable;)V
     .locals 0
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -298,11 +298,11 @@
 .method public v(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Runnable;)V
     .locals 0
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

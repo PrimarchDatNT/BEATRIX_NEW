@@ -8,7 +8,7 @@
 
 # instance fields
 .field private a:Lcom/commsource/repository/child/makeup/h;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -33,7 +33,7 @@
 .method public constructor <init>(Lcom/commsource/repository/child/makeup/h;Z)V
     .locals 0
     .param p1    # Lcom/commsource/repository/child/makeup/h;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -72,7 +72,7 @@
 # virtual methods
 .method public final a()Lcom/commsource/repository/child/makeup/h;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x49da
@@ -103,7 +103,7 @@
 .method public final c(Lcom/commsource/repository/child/makeup/h;)V
     .locals 1
     .param p1    # Lcom/commsource/repository/child/makeup/h;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

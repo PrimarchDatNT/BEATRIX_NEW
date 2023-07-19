@@ -9,17 +9,17 @@
 
 # instance fields
 .field private a:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private b:Lcom/commsource/util/r0;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final c:Landroidx/fragment/app/FragmentManager;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -30,7 +30,7 @@
 .method public constructor <init>(Landroidx/fragment/app/FragmentManager;I)V
     .locals 1
     .param p1    # Landroidx/fragment/app/FragmentManager;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -130,7 +130,7 @@
 # virtual methods
 .method public final b()Landroidx/fragment/app/FragmentManager;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4b4d
@@ -146,7 +146,7 @@
 
 .method public final c()Lcom/commsource/util/r0;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x4b48
@@ -162,7 +162,7 @@
 
 .method public final d()Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x4b46
@@ -193,7 +193,7 @@
 .method public final f(Lcom/commsource/util/r0;)V
     .locals 1
     .param p1    # Lcom/commsource/util/r0;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -211,7 +211,7 @@
 .method public final g(Lcom/commsource/camera/xcamera/cover/bottomFunction/a;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -229,11 +229,11 @@
 .method public final h(Lcom/commsource/util/r0;Lcotlin/jvm/u/l;)V
     .locals 4
     .param p1    # Lcom/commsource/util/r0;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

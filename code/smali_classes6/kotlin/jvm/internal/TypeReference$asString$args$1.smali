@@ -50,10 +50,10 @@
 .method public final invoke(Lcotlin/reflect/t;)Ljava/lang/CharSequence;
     .locals 1
     .param p1    # Lcotlin/reflect/t;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "it"

@@ -16,7 +16,7 @@
 
 # static fields
 .field public static final Q:Ljava/lang/String; = "rt_effect_config/configuration_auto_beauty_v11.plist"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -25,12 +25,12 @@
 
 # instance fields
 .field public M:Lcom/commsource/camera/newrender/renderproxy/m;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public N:Lcom/commsource/studio/r0/x;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -519,7 +519,7 @@
 # virtual methods
 .method public final K()Lcom/commsource/camera/newrender/renderproxy/m;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x232d
@@ -556,7 +556,7 @@
 
 .method public final N()Lcom/commsource/studio/r0/x;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x232f
@@ -621,7 +621,7 @@
 .method public final R(Lcom/commsource/camera/newrender/renderproxy/m;)V
     .locals 2
     .param p1    # Lcom/commsource/camera/newrender/renderproxy/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -659,7 +659,7 @@
 .method public final T(Lcom/commsource/studio/r0/x;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/r0/x;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -773,7 +773,7 @@
 .method public s(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 13
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

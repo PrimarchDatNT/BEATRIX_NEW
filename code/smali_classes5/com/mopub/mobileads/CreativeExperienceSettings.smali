@@ -17,7 +17,7 @@
 
 # static fields
 .field public static final Companion:Lcom/mopub/mobileads/CreativeExperienceSettings$Companion;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -28,22 +28,22 @@
 
 # instance fields
 .field private final endCardConfig:Lcom/mopub/mobileads/CreativeExperienceAdConfig;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final endCardDurations:Lcom/mopub/mobileads/EndCardDurations;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private hash:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final mainAdConfig:Lcom/mopub/mobileads/CreativeExperienceAdConfig;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -58,7 +58,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -81,23 +81,23 @@
 .method public constructor <init>(Ljava/lang/String;ILjava/util/List;Lcom/mopub/mobileads/EndCardDurations;Lcom/mopub/mobileads/CreativeExperienceAdConfig;Lcom/mopub/mobileads/CreativeExperienceAdConfig;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Lcom/mopub/mobileads/EndCardDurations;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p5    # Lcom/mopub/mobileads/CreativeExperienceAdConfig;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p6    # Lcom/mopub/mobileads/CreativeExperienceAdConfig;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -260,13 +260,13 @@
 .method public static final fromByteArray([B)Lcom/mopub/mobileads/CreativeExperienceSettings;
     .locals 1
     .param p0    # [B
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     sget-object v0, Lcom/mopub/mobileads/CreativeExperienceSettings;->Companion:Lcom/mopub/mobileads/CreativeExperienceSettings$Companion;
@@ -297,7 +297,7 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcom/mopub/mobileads/CreativeExperienceSettings;->Companion:Lcom/mopub/mobileads/CreativeExperienceSettings$Companion;
@@ -313,7 +313,7 @@
 # virtual methods
 .method public final component1()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->hash:Ljava/lang/String;
@@ -340,7 +340,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->vastSkipThresholds:Ljava/util/List;
@@ -350,7 +350,7 @@
 
 .method public final component4()Lcom/mopub/mobileads/EndCardDurations;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->endCardDurations:Lcom/mopub/mobileads/EndCardDurations;
@@ -360,7 +360,7 @@
 
 .method public final component5()Lcom/mopub/mobileads/CreativeExperienceAdConfig;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->mainAdConfig:Lcom/mopub/mobileads/CreativeExperienceAdConfig;
@@ -370,7 +370,7 @@
 
 .method public final component6()Lcom/mopub/mobileads/CreativeExperienceAdConfig;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->endCardConfig:Lcom/mopub/mobileads/CreativeExperienceAdConfig;
@@ -381,23 +381,23 @@
 .method public final copy(Ljava/lang/String;ILjava/util/List;Lcom/mopub/mobileads/EndCardDurations;Lcom/mopub/mobileads/CreativeExperienceAdConfig;Lcom/mopub/mobileads/CreativeExperienceAdConfig;)Lcom/mopub/mobileads/CreativeExperienceSettings;
     .locals 8
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Lcom/mopub/mobileads/EndCardDurations;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p5    # Lcom/mopub/mobileads/CreativeExperienceAdConfig;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p6    # Lcom/mopub/mobileads/CreativeExperienceAdConfig;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -416,7 +416,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "hash"
@@ -463,7 +463,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -547,7 +547,7 @@
 
 .method public final getEndCardConfig()Lcom/mopub/mobileads/CreativeExperienceAdConfig;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->endCardConfig:Lcom/mopub/mobileads/CreativeExperienceAdConfig;
@@ -557,7 +557,7 @@
 
 .method public final getEndCardDurations()Lcom/mopub/mobileads/EndCardDurations;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->endCardDurations:Lcom/mopub/mobileads/EndCardDurations;
@@ -567,7 +567,7 @@
 
 .method public final getHash()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->hash:Ljava/lang/String;
@@ -577,7 +577,7 @@
 
 .method public final getMainAdConfig()Lcom/mopub/mobileads/CreativeExperienceAdConfig;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->mainAdConfig:Lcom/mopub/mobileads/CreativeExperienceAdConfig;
@@ -604,7 +604,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->vastSkipThresholds:Ljava/util/List;
@@ -710,7 +710,7 @@
 .method public final setHash(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -725,7 +725,7 @@
 
 .method public final toByteArray()[B
     .locals 5
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     :try_start_0
@@ -781,7 +781,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

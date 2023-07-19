@@ -48,7 +48,7 @@
 .field private g:I
 
 .field private final p:Landroid/graphics/Rect;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -57,7 +57,7 @@
 .method public constructor <init>(Lcom/commsource/puzzle/StitchComponent;Landroid/content/Context;)V
     .locals 1
     .param p1    # Lcom/commsource/puzzle/StitchComponent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -268,7 +268,7 @@
 .method public final C(IFLcotlin/jvm/u/l;)V
     .locals 12
     .param p3    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1041,7 +1041,7 @@
 .method public final G(Lcotlin/Pair;)V
     .locals 9
     .param p1    # Lcotlin/Pair;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1572,7 +1572,7 @@
 .method public final Q(Landroid/graphics/Matrix;)V
     .locals 7
     .param p1    # Landroid/graphics/Matrix;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2248,7 +2248,7 @@
 .method public final k(Ljava/util/List;I)V
     .locals 5
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2654,7 +2654,7 @@
 
 .method public final s()Landroid/graphics/Rect;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x873

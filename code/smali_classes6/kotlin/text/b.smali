@@ -63,7 +63,7 @@
 .method public static final C(CLjava/util/Locale;)Ljava/lang/String;
     .locals 1
     .param p1    # Ljava/util/Locale;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/o;
@@ -73,7 +73,7 @@
         version = "1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "locale"
@@ -177,7 +177,7 @@
 
 .method public static final c(C)Lcotlin/text/CharCategory;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/text/CharCategory;->Companion:Lcotlin/text/CharCategory$a;
@@ -195,7 +195,7 @@
 
 .method public static final d(C)Lcotlin/text/CharDirectionality;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/text/CharDirectionality;->Companion:Lcotlin/text/CharDirectionality$a;
@@ -433,7 +433,7 @@
 .method public static final t(CLjava/util/Locale;)Ljava/lang/String;
     .locals 1
     .param p1    # Ljava/util/Locale;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/o;
@@ -443,7 +443,7 @@
         version = "1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "locale"
@@ -497,7 +497,7 @@
         version = "1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Ljava/lang/String;->valueOf(C)Ljava/lang/String;
@@ -593,7 +593,7 @@
 .method public static final w(CLjava/util/Locale;)Ljava/lang/String;
     .locals 3
     .param p1    # Ljava/util/Locale;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/o;
@@ -603,7 +603,7 @@
         version = "1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "locale"

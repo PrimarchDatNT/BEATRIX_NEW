@@ -17,6 +17,6 @@
 
 # virtual methods
 .method public abstract a()Lkshark/LibraryLeakReferenceMatcher;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method

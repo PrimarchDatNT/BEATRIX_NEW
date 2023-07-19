@@ -11,7 +11,7 @@
 
 # instance fields
 .field private final a:Lcom/commsource/mypage/album/BpAlbumActivity;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -20,7 +20,7 @@
 .method public constructor <init>(Lcom/commsource/mypage/album/BpAlbumActivity;)V
     .locals 1
     .param p1    # Lcom/commsource/mypage/album/BpAlbumActivity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -39,7 +39,7 @@
 # virtual methods
 .method public final c()Lcom/commsource/mypage/album/BpAlbumActivity;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2ea1

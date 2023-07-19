@@ -38,11 +38,11 @@
 .method public final a(Landroid/util/SparseArray;Landroid/util/SparseArray;)Ljava/util/HashSet;
     .locals 11
     .param p1    # Landroid/util/SparseArray;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Landroid/util/SparseArray;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -60,7 +60,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x697f
@@ -441,7 +441,7 @@
 
 .method public final c(I)Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6981
@@ -541,7 +541,7 @@
 
 .method public final d(I)Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6980
@@ -641,7 +641,7 @@
 
 .method public final e(I)Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6982
@@ -742,7 +742,7 @@
 .method public final f(Ljava/lang/String;)I
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1031,7 +1031,7 @@
 
 .method public final h(I)Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x697b
@@ -1144,10 +1144,10 @@
 .method public final i(Lcom/commsource/repository/child/makeup/h;)Ljava/lang/String;
     .locals 5
     .param p1    # Lcom/commsource/repository/child/makeup/h;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6979
@@ -1332,7 +1332,7 @@
 .method public final k(Ljava/lang/String;)Z
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1481,7 +1481,7 @@
 .method public final l(Lcom/commsource/repository/child/makeup/h;)Z
     .locals 2
     .param p1    # Lcom/commsource/repository/child/makeup/h;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1503,10 +1503,10 @@
 .method public final m(Ljava/lang/String;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;
     .locals 5
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x697d

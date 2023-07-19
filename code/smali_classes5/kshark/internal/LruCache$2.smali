@@ -122,7 +122,7 @@
 .method protected removeEldestEntry(Ljava/util/Map$Entry;)Z
     .locals 2
     .param p1    # Ljava/util/Map$Entry;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

@@ -15,27 +15,27 @@
 
 # instance fields
 .field private a:Lcom/commsource/studio/function/automanual/d;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private b:Lcom/commsource/studio/function/automanual/a;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private c:Lcom/commsource/studio/d;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private d:Lcom/commsource/studio/component/UndoRedoComponent$c;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final e:Lcom/commsource/studio/effect/c;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -47,7 +47,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -56,11 +56,11 @@
 .method public constructor <init>(Lcom/commsource/studio/effect/c;Lcom/commsource/studio/function/BaseSubFragment;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/effect/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/function/BaseSubFragment;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -285,7 +285,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x77dc
@@ -301,7 +301,7 @@
 
 .method public final c()Lcom/commsource/studio/effect/c;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x77db
@@ -317,7 +317,7 @@
 
 .method public final d()Lcom/commsource/studio/d;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x77d0
@@ -333,7 +333,7 @@
 
 .method public final e()Lcom/commsource/studio/function/automanual/a;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x77ce
@@ -349,7 +349,7 @@
 
 .method public final f()Lcom/commsource/studio/function/automanual/d;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x77cc
@@ -365,7 +365,7 @@
 
 .method public final g()Lcom/commsource/studio/component/UndoRedoComponent$c;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x77d2
@@ -567,7 +567,7 @@
 .method public final m(Lcotlin/jvm/u/a;)Z
     .locals 5
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -669,7 +669,7 @@
 .method public final o(Lcom/commsource/studio/d;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -691,7 +691,7 @@
 .method public final p(Lcom/commsource/studio/function/automanual/a;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/function/automanual/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -714,7 +714,7 @@
 .method public final q(Lcom/commsource/studio/function/automanual/d;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/function/automanual/d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -737,7 +737,7 @@
 .method public final r(Lcom/commsource/studio/component/UndoRedoComponent$c;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/component/UndoRedoComponent$c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

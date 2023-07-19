@@ -41,11 +41,11 @@
 .method public onSingleTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
     .locals 6
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

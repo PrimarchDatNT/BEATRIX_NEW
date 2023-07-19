@@ -19,14 +19,14 @@
 # virtual methods
 .method public abstract a(IILandroid/content/Intent;)Z
     .param p3    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 .end method
 
 .method public abstract b(Lcom/commsource/util/p2/a;)V
     .param p1    # Lcom/commsource/util/p2/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method
@@ -34,11 +34,11 @@
 .method public c(I[Ljava/lang/String;[I)Z
     .locals 0
     .param p2    # [Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # [I
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

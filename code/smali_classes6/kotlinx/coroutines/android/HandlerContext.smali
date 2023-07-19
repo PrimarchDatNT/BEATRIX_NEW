@@ -14,7 +14,7 @@
 .field private volatile _immediate:Lcotlinx/coroutines/android/HandlerContext;
 
 .field private final b:Lcotlinx/coroutines/android/HandlerContext;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -29,11 +29,11 @@
 .method public constructor <init>(Landroid/os/Handler;Ljava/lang/String;)V
     .locals 1
     .param p1    # Landroid/os/Handler;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -132,7 +132,7 @@
 
 .method public G()Lcotlinx/coroutines/android/HandlerContext;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/android/HandlerContext;->b:Lcotlinx/coroutines/android/HandlerContext;
@@ -143,7 +143,7 @@
 .method public b(JLcotlinx/coroutines/m;)V
     .locals 4
     .param p3    # Lcotlinx/coroutines/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -182,7 +182,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -224,10 +224,10 @@
 .method public q(JLjava/lang/Runnable;)Lcotlinx/coroutines/f1;
     .locals 3
     .param p3    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/android/HandlerContext;->c:Landroid/os/Handler;
@@ -249,7 +249,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/android/HandlerContext;->d:Ljava/lang/String;
@@ -293,11 +293,11 @@
 .method public u(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Runnable;)V
     .locals 0
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -311,7 +311,7 @@
 .method public w(Lcotlin/coroutines/CoroutineContext;)Z
     .locals 2
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

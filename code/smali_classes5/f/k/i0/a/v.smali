@@ -25,7 +25,7 @@
 # virtual methods
 .method public abstract B1(Lcom/commsource/studio/formula/FormulaCategory;)V
     .param p1    # Lcom/commsource/studio/formula/FormulaCategory;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -35,7 +35,7 @@
 
 .method public abstract O([Lcom/commsource/studio/formula/FormulaCategory;)V
     .param p1    # [Lcom/commsource/studio/formula/FormulaCategory;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -44,7 +44,7 @@
 
 .method public abstract O2([Lcom/commsource/studio/formula/FormulaCategory;)V
     .param p1    # [Lcom/commsource/studio/formula/FormulaCategory;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -53,7 +53,7 @@
 
 .method public abstract Z([Lcom/commsource/studio/formula/FormulaCategory;)V
     .param p1    # [Lcom/commsource/studio/formula/FormulaCategory;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -75,7 +75,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -93,26 +93,26 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract d(Ljava/lang/String;)Lcom/commsource/studio/formula/FormulaCategory;
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
         value = "select * from FORMULA_CATEGORY where CategoryId = :key"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method public abstract q1(Lcom/commsource/studio/formula/FormulaCategory;)V
     .param p1    # Lcom/commsource/studio/formula/FormulaCategory;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -121,7 +121,7 @@
 
 .method public abstract u1(Lcom/commsource/studio/formula/FormulaCategory;)V
     .param p1    # Lcom/commsource/studio/formula/FormulaCategory;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;

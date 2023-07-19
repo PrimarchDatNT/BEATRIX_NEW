@@ -95,11 +95,11 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/meitu/library/appcia/f/e/d;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/library/appcia/f/e/d;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -463,7 +463,7 @@
 
 .method public getName()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xcd3c
@@ -536,7 +536,7 @@
 
 .method public q()Lorg/json/JSONObject;
     .locals 17
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     move-object/from16 v0, p0
@@ -866,7 +866,7 @@
 .method public u(Landroid/content/Context;)V
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -886,7 +886,7 @@
 .method public final x(Lcom/meitu/library/appcia/diskspace/c/a$b;)V
     .locals 3
     .param p1    # Lcom/meitu/library/appcia/diskspace/c/a$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

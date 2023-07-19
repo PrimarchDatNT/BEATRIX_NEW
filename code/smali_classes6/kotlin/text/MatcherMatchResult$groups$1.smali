@@ -108,7 +108,7 @@
 
 .method public get(I)Lcotlin/text/h;
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlin/text/MatcherMatchResult$groups$1;->a:Lcotlin/text/MatcherMatchResult;
@@ -161,10 +161,10 @@
 .method public get(Ljava/lang/String;)Lcotlin/text/h;
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "name"
@@ -205,7 +205,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Lcotlin/collections/s;->F(Ljava/util/Collection;)Lcotlin/g2/k;

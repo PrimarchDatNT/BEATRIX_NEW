@@ -18,17 +18,17 @@
 
 # instance fields
 .field private final a:Landroid/graphics/RectF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final b:Lcom/commsource/studio/function/composition/CompositionView$AdjustEnum;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final c:Landroid/graphics/Bitmap;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -37,11 +37,11 @@
 .method public constructor <init>(Lcom/commsource/studio/function/composition/CompositionView$AdjustEnum;Landroid/graphics/Bitmap;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/function/composition/CompositionView$AdjustEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -72,7 +72,7 @@
 # virtual methods
 .method public final a()Lcom/commsource/studio/function/composition/CompositionView$AdjustEnum;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x21c
@@ -88,7 +88,7 @@
 
 .method public final b()Landroid/graphics/Bitmap;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x21d
@@ -104,7 +104,7 @@
 
 .method public final c()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x21a

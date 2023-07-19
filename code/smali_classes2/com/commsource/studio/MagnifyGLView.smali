@@ -12,17 +12,17 @@
 
 # instance fields
 .field public J:Lcom/commsource/studio/shader/g;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private K:Lcom/commsource/easyeditor/utils/opengl/f;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private L:[F
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -33,7 +33,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -116,7 +116,7 @@
 .method public a(Lcom/commsource/easyeditor/utils/opengl/c;)V
     .locals 0
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -212,7 +212,7 @@
 
 .method public final getImageFBO()Lcom/commsource/easyeditor/utils/opengl/f;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x9b9a
@@ -228,7 +228,7 @@
 
 .method public final getImageProgram()Lcom/commsource/studio/shader/g;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9b98
@@ -251,7 +251,7 @@
 
 .method public final getMagnifyRect()[F
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9b9c
@@ -268,7 +268,7 @@
 .method public final i([FFFF)V
     .locals 7
     .param p1    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -486,7 +486,7 @@
 .method public final setImageFBO(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 1
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -504,7 +504,7 @@
 .method public final setImageProgram(Lcom/commsource/studio/shader/g;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/shader/g;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -526,7 +526,7 @@
 .method public final setMagnifyRect([F)V
     .locals 2
     .param p1    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

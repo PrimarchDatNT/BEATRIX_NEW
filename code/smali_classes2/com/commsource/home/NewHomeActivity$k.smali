@@ -83,11 +83,11 @@
 .method public final b(Lcom/commsource/widget/h1/d;Lcom/commsource/home/entity/ContentModule;)V
     .locals 5
     .param p1    # Lcom/commsource/widget/h1/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/home/entity/ContentModule;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

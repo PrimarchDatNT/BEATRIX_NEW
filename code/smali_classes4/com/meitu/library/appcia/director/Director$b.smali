@@ -20,7 +20,7 @@
 
 # instance fields
 .field private final a:Lcom/meitu/library/appcia/director/Director;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -29,7 +29,7 @@
 .method public constructor <init>(Lcom/meitu/library/appcia/director/Director;)V
     .locals 1
     .param p1    # Lcom/meitu/library/appcia/director/Director;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -80,7 +80,7 @@
 
 .method public final c()Lcom/meitu/library/appcia/director/Director;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xcad1

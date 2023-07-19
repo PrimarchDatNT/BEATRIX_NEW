@@ -36,7 +36,7 @@
 # virtual methods
 .method public final a()Lcotlin/g2/t;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lcotlin/g2/t;->j()Lcotlin/g2/t;

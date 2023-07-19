@@ -72,10 +72,10 @@
 .method public final invoke(Lkshark/HeapObject;)Ljava/lang/String;
     .locals 1
     .param p1    # Lkshark/HeapObject;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "graphObject"

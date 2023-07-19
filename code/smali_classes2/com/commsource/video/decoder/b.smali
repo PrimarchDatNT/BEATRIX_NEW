@@ -12,7 +12,7 @@
 
 .method public abstract b(Landroid/view/SurfaceHolder;)V
     .param p1    # Landroid/view/SurfaceHolder;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 .end method
@@ -28,7 +28,7 @@
 
 .method public abstract e(Lcom/commsource/video/c;)V
     .param p1    # Lcom/commsource/video/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method
@@ -101,7 +101,7 @@
 
 .method public abstract setSurface(Landroid/view/Surface;)V
     .param p1    # Landroid/view/Surface;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 .end method

@@ -64,7 +64,7 @@
 .method public e(Lcom/meitu/template/bean/StickerGroup;)V
     .locals 2
     .param p1    # Lcom/meitu/template/bean/StickerGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

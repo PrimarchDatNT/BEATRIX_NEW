@@ -32,7 +32,7 @@
 .method public constructor <init>(Lcotlin/reflect/s;)V
     .locals 1
     .param p1    # Lcotlin/reflect/s;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -52,7 +52,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -103,7 +103,7 @@
 
 .method public getBounds()[Ljava/lang/reflect/Type;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/reflect/x;->a:Lcotlin/reflect/s;
@@ -169,7 +169,7 @@
 
 .method public getGenericDeclaration()Ljava/lang/reflect/GenericDeclaration;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -211,7 +211,7 @@
 
 .method public getName()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/reflect/x;->a:Lcotlin/reflect/s;
@@ -225,7 +225,7 @@
 
 .method public getTypeName()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Lcotlin/reflect/x;->getName()Ljava/lang/String;
@@ -237,7 +237,7 @@
 
 .method public final h0()[Ljava/lang/annotation/Annotation;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/4 v0, 0x0
@@ -274,7 +274,7 @@
 .method public final i0(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;
     .locals 1
     .param p1    # Ljava/lang/Class;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -287,7 +287,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "annotationClass"
@@ -301,7 +301,7 @@
 
 .method public final j0()[Ljava/lang/annotation/Annotation;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/4 v0, 0x0
@@ -313,7 +313,7 @@
 
 .method public final k0()[Ljava/lang/annotation/Annotation;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/4 v0, 0x0
@@ -325,7 +325,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Lcotlin/reflect/x;->getTypeName()Ljava/lang/String;

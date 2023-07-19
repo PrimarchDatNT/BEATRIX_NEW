@@ -8,7 +8,7 @@
 
 # instance fields
 .field public a:Lcom/commsource/camera/xcamera/i;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -26,7 +26,7 @@
 # virtual methods
 .method protected a()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1b6
@@ -66,7 +66,7 @@
 .method protected b(Lcom/meitu/library/d/a/a$c;)I
     .locals 3
     .param p1    # Lcom/meitu/library/d/a/a$c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -113,10 +113,10 @@
 .method protected c(Lcom/meitu/library/d/a/a$d;)Lcom/meitu/library/d/a/a$d;
     .locals 2
     .param p1    # Lcom/meitu/library/d/a/a$d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1b7
@@ -144,7 +144,7 @@
 
 .method public final e()Lcom/commsource/camera/xcamera/i;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1b4
@@ -168,7 +168,7 @@
 .method public final f(Lcom/commsource/camera/xcamera/i;)V
     .locals 2
     .param p1    # Lcom/commsource/camera/xcamera/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -14,7 +14,7 @@
 .method public static final a(Ljava/lang/annotation/Annotation;)Lcotlin/reflect/d;
     .locals 1
     .param p0    # Ljava/lang/annotation/Annotation;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -27,7 +27,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$annotationClass"
@@ -56,7 +56,7 @@
 .method public static final b(Ljava/lang/Object;)Ljava/lang/Class;
     .locals 1
     .param p0    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -69,7 +69,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$javaClass"
@@ -90,7 +90,7 @@
 .method public static final c(Lcotlin/reflect/d;)Ljava/lang/Class;
     .locals 1
     .param p0    # Lcotlin/reflect/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -109,7 +109,7 @@
         name = "getJavaClass"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$java"
@@ -138,7 +138,7 @@
 .method public static final e(Lcotlin/reflect/d;)Ljava/lang/Class;
     .locals 3
     .param p0    # Lcotlin/reflect/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -153,7 +153,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$javaObjectType"
@@ -336,7 +336,7 @@
 .method public static final f(Lcotlin/reflect/d;)Ljava/lang/Class;
     .locals 1
     .param p0    # Lcotlin/reflect/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -351,7 +351,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$javaPrimitiveType"
@@ -537,7 +537,7 @@
 .method public static final g(Ljava/lang/Class;)Lcotlin/reflect/d;
     .locals 1
     .param p0    # Ljava/lang/Class;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -556,7 +556,7 @@
         name = "getKotlinClass"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$kotlin"
@@ -573,7 +573,7 @@
 .method public static final h(Lcotlin/reflect/d;)Ljava/lang/Class;
     .locals 1
     .param p0    # Lcotlin/reflect/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -593,7 +593,7 @@
         name = "getRuntimeClassOfKClassInstance"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$javaClass"

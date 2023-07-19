@@ -37,7 +37,7 @@
 .field private static final c:D
 
 .field public static final d:Lcotlin/i2/d$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -503,7 +503,7 @@
 .method public static final g0(DLcotlin/jvm/u/p;)Ljava/lang/Object;
     .locals 2
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -552,7 +552,7 @@
 .method public static final h0(DLcotlin/jvm/u/q;)Ljava/lang/Object;
     .locals 2
     .param p2    # Lcotlin/jvm/u/q;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -611,7 +611,7 @@
 .method public static final i0(DLcotlin/jvm/u/r;)Ljava/lang/Object;
     .locals 3
     .param p2    # Lcotlin/jvm/u/r;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -680,7 +680,7 @@
 .method public static final j0(DLcotlin/jvm/u/s;)Ljava/lang/Object;
     .locals 7
     .param p2    # Lcotlin/jvm/u/s;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -761,7 +761,7 @@
 .method public static final k0(DLjava/util/concurrent/TimeUnit;)D
     .locals 1
     .param p2    # Ljava/util/concurrent/TimeUnit;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -793,7 +793,7 @@
 .method public static final n0(DLjava/util/concurrent/TimeUnit;)I
     .locals 1
     .param p2    # Ljava/util/concurrent/TimeUnit;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -818,7 +818,7 @@
 
 .method public static final o0(D)Ljava/lang/String;
     .locals 7
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -1011,7 +1011,7 @@
 .method public static final p0(DLjava/util/concurrent/TimeUnit;)J
     .locals 1
     .param p2    # Ljava/util/concurrent/TimeUnit;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1066,7 +1066,7 @@
 
 .method public static s0(D)Ljava/lang/String;
     .locals 8
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlin/i2/d;->X(D)Z
@@ -1291,10 +1291,10 @@
 .method public static final t0(DLjava/util/concurrent/TimeUnit;I)Ljava/lang/String;
     .locals 6
     .param p2    # Ljava/util/concurrent/TimeUnit;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "unit"
@@ -1536,7 +1536,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-wide v0, p0, Lcotlin/i2/d;->a:D

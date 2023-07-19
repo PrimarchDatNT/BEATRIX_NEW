@@ -46,7 +46,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lkshark/PrimitiveType;->access$getByteSizeByHprofType$cp()Ljava/util/Map;
@@ -68,7 +68,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lkshark/PrimitiveType;->access$getPrimitiveTypeByHprofType$cp()Ljava/util/Map;

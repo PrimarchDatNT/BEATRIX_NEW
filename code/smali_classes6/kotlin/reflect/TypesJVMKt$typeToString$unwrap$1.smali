@@ -73,7 +73,7 @@
 .method public final invoke(Ljava/lang/Class;)Ljava/lang/Class;
     .locals 1
     .param p1    # Ljava/lang/Class;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

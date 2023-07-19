@@ -15,7 +15,7 @@
 .field private final centerY:F
 
 .field private final cropInfo:Lcom/commsource/studio/formula/convert/CropInfo;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -36,7 +36,7 @@
 .method public constructor <init>(FFFFIIZZLcom/commsource/studio/formula/convert/CropInfo;)V
     .locals 0
     .param p9    # Lcom/commsource/studio/formula/convert/CropInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -325,7 +325,7 @@
 
 .method public final component9()Lcom/commsource/studio/formula/convert/CropInfo;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa49e
@@ -342,10 +342,10 @@
 .method public final copy(FFFFIIZZLcom/commsource/studio/formula/convert/CropInfo;)Lcom/commsource/studio/formula/convert/Position;
     .locals 12
     .param p9    # Lcom/commsource/studio/formula/convert/CropInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa49f
@@ -384,7 +384,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -521,7 +521,7 @@
 
 .method public final getCropInfo()Lcom/commsource/studio/formula/convert/CropInfo;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa495
@@ -726,7 +726,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa4a1

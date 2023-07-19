@@ -44,7 +44,7 @@
 .method public a(Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;)V
     .locals 3
     .param p1    # Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -113,7 +113,7 @@
 .method public b(Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;)V
     .locals 2
     .param p1    # Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

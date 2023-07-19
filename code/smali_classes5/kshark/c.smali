@@ -18,7 +18,7 @@
 .method public varargs constructor <init>([Ljava/lang/String;)V
     .locals 1
     .param p1    # [Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -38,7 +38,7 @@
 .method public inspect(Lkshark/v;)V
     .locals 4
     .param p1    # Lkshark/v;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

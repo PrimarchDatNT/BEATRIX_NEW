@@ -38,18 +38,18 @@
 .method public final a(Lcom/commsource/home/entity/ContentModule;Lcom/commsource/home/entity/d;Lcom/commsource/beautyplus/router/RouterEntity;)Ljava/lang/String;
     .locals 6
     .param p1    # Lcom/commsource/home/entity/ContentModule;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/home/entity/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7d71    # 4.5E-41f
@@ -292,7 +292,7 @@
 
 .method public final b()Lcom/commsource/home/HomeDeepLinkAnalyze;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7d70

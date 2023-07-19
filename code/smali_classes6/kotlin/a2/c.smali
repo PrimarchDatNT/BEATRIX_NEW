@@ -345,13 +345,13 @@
 .method public static final k(Ljava/lang/String;Z)Ljava/util/Timer;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Lcotlin/p0;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     if-nez p0, :cond_0

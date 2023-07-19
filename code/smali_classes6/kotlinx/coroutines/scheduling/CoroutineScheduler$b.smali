@@ -25,7 +25,7 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -33,7 +33,7 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -51,14 +51,14 @@
 .field private volatile indexInArray:I
 
 .field private volatile nextParkedWorker:Ljava/lang/Object;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field final synthetic p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
 
 .field volatile workerCtl:I
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -1105,7 +1105,7 @@
 # virtual methods
 .method public final e(Z)Lcotlinx/coroutines/scheduling/h;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-direct {p0}, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->r()Z
@@ -1183,7 +1183,7 @@
 
 .method public final h()Ljava/lang/Object;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->nextParkedWorker:Ljava/lang/Object;
@@ -1193,7 +1193,7 @@
 
 .method public final i()Lcotlinx/coroutines/scheduling/CoroutineScheduler;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/CoroutineScheduler$b;->p:Lcotlinx/coroutines/scheduling/CoroutineScheduler;
@@ -1285,7 +1285,7 @@
 .method public final q(Ljava/lang/Object;)V
     .locals 0
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1305,7 +1305,7 @@
 .method public final t(Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;)Z
     .locals 6
     .param p1    # Lcotlinx/coroutines/scheduling/CoroutineScheduler$WorkerState;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

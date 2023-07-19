@@ -26,7 +26,7 @@
 .method public constructor <init>(Landroidx/fragment/app/FragmentActivity;)V
     .locals 1
     .param p1    # Landroidx/fragment/app/FragmentActivity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -168,7 +168,7 @@
 .method public final c(Lcom/commsource/util/p2/b;)V
     .locals 2
     .param p1    # Lcom/commsource/util/p2/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

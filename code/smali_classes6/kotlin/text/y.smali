@@ -34,7 +34,7 @@
 .field public static final M:C = '\u2265'
 
 .field public static final N:Lcotlin/text/y;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 

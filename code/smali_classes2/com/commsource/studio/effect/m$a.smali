@@ -38,7 +38,7 @@
 .method public final a(Lcom/commsource/studio/effect/m;)Ljava/util/HashMap;
     .locals 9
     .param p1    # Lcom/commsource/studio/effect/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -53,7 +53,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x83fe

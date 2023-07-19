@@ -48,7 +48,7 @@
 # virtual methods
 .method public final invoke()Lcom/commsource/camera/montage/w;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x87ce

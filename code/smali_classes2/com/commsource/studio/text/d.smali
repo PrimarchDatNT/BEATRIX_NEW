@@ -29,7 +29,7 @@
 .end field
 
 .field private final c:Lcom/commsource/studio/sticker/TextFragment;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -40,11 +40,11 @@
 .method public constructor <init>(Lcom/commsource/studio/sticker/TextFragment;[Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/sticker/TextFragment;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # [Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -81,7 +81,7 @@
 # virtual methods
 .method public final a()Lcom/commsource/studio/sticker/TextFragment;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4b2b
@@ -97,7 +97,7 @@
 
 .method public final b(I)Ljava/lang/Object;
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x4b2a
@@ -126,11 +126,11 @@
 .method public destroyItem(Landroid/view/ViewGroup;ILjava/lang/Object;)V
     .locals 1
     .param p1    # Landroid/view/ViewGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -174,7 +174,7 @@
 .method public getItemPosition(Ljava/lang/Object;)I
     .locals 2
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -196,10 +196,10 @@
 .method public instantiateItem(Landroid/view/ViewGroup;I)Ljava/lang/Object;
     .locals 4
     .param p1    # Landroid/view/ViewGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4b29
@@ -328,11 +328,11 @@
 .method public isViewFromObject(Landroid/view/View;Ljava/lang/Object;)Z
     .locals 2
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -9,7 +9,7 @@
 
 # instance fields
 .field private k:Lcom/commsource/studio/function/t/c;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -51,7 +51,7 @@
 # virtual methods
 .method public final G()Lcom/commsource/studio/function/t/c;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3406
@@ -68,7 +68,7 @@
 .method public final H(Lcom/commsource/studio/function/t/c;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/function/t/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

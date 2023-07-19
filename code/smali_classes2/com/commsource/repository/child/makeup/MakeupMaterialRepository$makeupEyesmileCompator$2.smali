@@ -64,7 +64,7 @@
 # virtual methods
 .method public final invoke()Lcom/commsource/repository/child/makeup/MakeupMaterialRepository$makeupEyesmileCompator$2$a;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x278d

@@ -135,7 +135,7 @@
 
 .method public e(I)Landroid/view/View;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x10eb
@@ -177,7 +177,7 @@
 .method public onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
     .locals 2
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

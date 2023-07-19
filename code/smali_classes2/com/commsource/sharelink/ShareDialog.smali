@@ -35,12 +35,12 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private Y:Lcom/commsource/sharelink/b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -928,7 +928,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x21f8
@@ -944,7 +944,7 @@
 
 .method public final X()Lcom/commsource/sharelink/b;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x21fa
@@ -961,7 +961,7 @@
 .method public final Z(Landroid/widget/RelativeLayout;)V
     .locals 3
     .param p1    # Landroid/widget/RelativeLayout;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1001,11 +1001,11 @@
 .method public final a0(Lcom/meitu/hwbusinesskit/core/widget/NativeAdView;Landroid/widget/RelativeLayout;)Z
     .locals 5
     .param p1    # Lcom/meitu/hwbusinesskit/core/widget/NativeAdView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/widget/RelativeLayout;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1107,7 +1107,7 @@
 .method public final d0(Lcotlin/jvm/u/a;)V
     .locals 1
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1160,7 +1160,7 @@
 .method public final e0(Lcom/commsource/sharelink/b;)V
     .locals 2
     .param p1    # Lcom/commsource/sharelink/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

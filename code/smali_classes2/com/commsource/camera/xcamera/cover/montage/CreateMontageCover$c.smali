@@ -50,7 +50,7 @@
 .method public final a(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;)V
     .locals 4
     .param p1    # Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

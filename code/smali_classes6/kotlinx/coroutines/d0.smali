@@ -32,7 +32,7 @@
 # virtual methods
 .method public abstract f0(Ljava/lang/Throwable;)V
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 .end method

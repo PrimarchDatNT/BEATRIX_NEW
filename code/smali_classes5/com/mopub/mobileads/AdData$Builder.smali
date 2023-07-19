@@ -18,51 +18,51 @@
 
 # instance fields
 .field private adHeight:Ljava/lang/Integer;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private adPayload:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private adType:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private adUnit:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private adWidth:Ljava/lang/Integer;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private broadcastIdentifier:J
 
 .field private creativeExperienceSettings:Lcom/mopub/mobileads/CreativeExperienceSettings;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private currencyAmount:I
 
 .field private currencyName:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private customerId:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private dspCreativeId:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -76,36 +76,36 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private fullAdType:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private impressionMinVisibleDips:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private impressionMinVisibleMs:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private isRewarded:Z
 
 .field private orientation:Lcom/mopub/common/CreativeOrientation;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private timeoutDelayMillis:I
 
 .field private vastVideoConfigString:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -119,7 +119,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -164,10 +164,10 @@
 .method public final adHeight(Ljava/lang/Integer;)Lcom/mopub/mobileads/AdData$Builder;
     .locals 0
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->adHeight:Ljava/lang/Integer;
@@ -178,10 +178,10 @@
 .method public final adPayload(Ljava/lang/String;)Lcom/mopub/mobileads/AdData$Builder;
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "adPayload"
@@ -196,10 +196,10 @@
 .method public final adType(Ljava/lang/String;)Lcom/mopub/mobileads/AdData$Builder;
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->adType:Ljava/lang/String;
@@ -210,10 +210,10 @@
 .method public final adUnit(Ljava/lang/String;)Lcom/mopub/mobileads/AdData$Builder;
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->adUnit:Ljava/lang/String;
@@ -224,10 +224,10 @@
 .method public final adWidth(Ljava/lang/Integer;)Lcom/mopub/mobileads/AdData$Builder;
     .locals 0
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->adWidth:Ljava/lang/Integer;
@@ -237,7 +237,7 @@
 
 .method public final broadcastIdentifier(J)Lcom/mopub/mobileads/AdData$Builder;
     .locals 0
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput-wide p1, p0, Lcom/mopub/mobileads/AdData$Builder;->broadcastIdentifier:J
@@ -247,7 +247,7 @@
 
 .method public final build()Lcom/mopub/mobileads/AdData;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcom/mopub/mobileads/AdData;
@@ -262,10 +262,10 @@
 .method public final creativeExperienceSettings(Lcom/mopub/mobileads/CreativeExperienceSettings;)Lcom/mopub/mobileads/AdData$Builder;
     .locals 1
     .param p1    # Lcom/mopub/mobileads/CreativeExperienceSettings;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "creativeExperienceSettings"
@@ -279,7 +279,7 @@
 
 .method public final currencyAmount(I)Lcom/mopub/mobileads/AdData$Builder;
     .locals 0
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput p1, p0, Lcom/mopub/mobileads/AdData$Builder;->currencyAmount:I
@@ -290,10 +290,10 @@
 .method public final currencyName(Ljava/lang/String;)Lcom/mopub/mobileads/AdData$Builder;
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->currencyName:Ljava/lang/String;
@@ -304,10 +304,10 @@
 .method public final customerId(Ljava/lang/String;)Lcom/mopub/mobileads/AdData$Builder;
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->customerId:Ljava/lang/String;
@@ -318,10 +318,10 @@
 .method public final dspCreativeId(Ljava/lang/String;)Lcom/mopub/mobileads/AdData$Builder;
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->dspCreativeId:Ljava/lang/String;
@@ -332,7 +332,7 @@
 .method public final extras(Ljava/util/Map;)Lcom/mopub/mobileads/AdData$Builder;
     .locals 1
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -346,7 +346,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "extras"
@@ -365,10 +365,10 @@
 .method public final fromAdData(Lcom/mopub/mobileads/AdData;)Lcom/mopub/mobileads/AdData$Builder;
     .locals 2
     .param p1    # Lcom/mopub/mobileads/AdData;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "adData"
@@ -501,10 +501,10 @@
 .method public final fullAdType(Ljava/lang/String;)Lcom/mopub/mobileads/AdData$Builder;
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->fullAdType:Ljava/lang/String;
@@ -514,7 +514,7 @@
 
 .method public final getAdHeight()Ljava/lang/Integer;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->adHeight:Ljava/lang/Integer;
@@ -524,7 +524,7 @@
 
 .method public final getAdPayload()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->adPayload:Ljava/lang/String;
@@ -534,7 +534,7 @@
 
 .method public final getAdType()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->adType:Ljava/lang/String;
@@ -544,7 +544,7 @@
 
 .method public final getAdUnit()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->adUnit:Ljava/lang/String;
@@ -554,7 +554,7 @@
 
 .method public final getAdWidth()Ljava/lang/Integer;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->adWidth:Ljava/lang/Integer;
@@ -572,7 +572,7 @@
 
 .method public final getCreativeExperienceSettings()Lcom/mopub/mobileads/CreativeExperienceSettings;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->creativeExperienceSettings:Lcom/mopub/mobileads/CreativeExperienceSettings;
@@ -590,7 +590,7 @@
 
 .method public final getCurrencyName()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->currencyName:Ljava/lang/String;
@@ -600,7 +600,7 @@
 
 .method public final getCustomerId()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->customerId:Ljava/lang/String;
@@ -610,7 +610,7 @@
 
 .method public final getDspCreativeId()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->dspCreativeId:Ljava/lang/String;
@@ -630,7 +630,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->extras:Ljava/util/Map;
@@ -640,7 +640,7 @@
 
 .method public final getFullAdType()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->fullAdType:Ljava/lang/String;
@@ -650,7 +650,7 @@
 
 .method public final getImpressionMinVisibleDips()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->impressionMinVisibleDips:Ljava/lang/String;
@@ -660,7 +660,7 @@
 
 .method public final getImpressionMinVisibleMs()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->impressionMinVisibleMs:Ljava/lang/String;
@@ -670,7 +670,7 @@
 
 .method public final getOrientation()Lcom/mopub/common/CreativeOrientation;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->orientation:Lcom/mopub/common/CreativeOrientation;
@@ -688,7 +688,7 @@
 
 .method public final getVastVideoConfigString()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->vastVideoConfigString:Ljava/lang/String;
@@ -707,7 +707,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/AdData$Builder;->viewabilityVendors:Ljava/util/Set;
@@ -718,10 +718,10 @@
 .method public final impressionMinVisibleDips(Ljava/lang/String;)Lcom/mopub/mobileads/AdData$Builder;
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->impressionMinVisibleDips:Ljava/lang/String;
@@ -732,10 +732,10 @@
 .method public final impressionMinVisibleMs(Ljava/lang/String;)Lcom/mopub/mobileads/AdData$Builder;
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->impressionMinVisibleMs:Ljava/lang/String;
@@ -745,7 +745,7 @@
 
 .method public final isRewarded(Z)Lcom/mopub/mobileads/AdData$Builder;
     .locals 0
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput-boolean p1, p0, Lcom/mopub/mobileads/AdData$Builder;->isRewarded:Z
@@ -764,10 +764,10 @@
 .method public final orientation(Lcom/mopub/common/CreativeOrientation;)Lcom/mopub/mobileads/AdData$Builder;
     .locals 0
     .param p1    # Lcom/mopub/common/CreativeOrientation;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->orientation:Lcom/mopub/common/CreativeOrientation;
@@ -777,7 +777,7 @@
 
 .method public final timeoutDelayMillis(I)Lcom/mopub/mobileads/AdData$Builder;
     .locals 0
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput p1, p0, Lcom/mopub/mobileads/AdData$Builder;->timeoutDelayMillis:I
@@ -788,10 +788,10 @@
 .method public final vastVideoConfig(Ljava/lang/String;)Lcom/mopub/mobileads/AdData$Builder;
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput-object p1, p0, Lcom/mopub/mobileads/AdData$Builder;->vastVideoConfigString:Ljava/lang/String;
@@ -802,7 +802,7 @@
 .method public final viewabilityVendors(Ljava/util/Set;)Lcom/mopub/mobileads/AdData$Builder;
     .locals 1
     .param p1    # Ljava/util/Set;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -816,7 +816,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     if-eqz p1, :cond_0

@@ -25,7 +25,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -38,7 +38,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -51,7 +51,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -64,19 +64,19 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final F0:Landroid/graphics/Rect;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private G0:I
 
 .field private final H0:Lcom/commsource/camera/xcamera/BCameraTimeLapseHelper;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -91,32 +91,32 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private K0:Ljava/util/Calendar;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private L0:Lcom/commsource/camera/f1/n;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private M0:Lcom/commsource/camera/f1/n;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private N0:Lcom/commsource/camera/f1/n;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private O0:Lcom/commsource/camera/f1/n;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -129,12 +129,12 @@
 .field private w0:Lcom/commsource/camera/xcamera/CameraEffectManager;
 
 .field private x0:Lcom/commsource/camera/xcamera/h;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final y0:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -145,7 +145,7 @@
 .method public constructor <init>(Landroid/app/Application;)V
     .locals 2
     .param p1    # Landroid/app/Application;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1789,7 +1789,7 @@
 .method public final B1(Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;)V
     .locals 3
     .param p1    # Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1857,11 +1857,11 @@
 .method public C0(Lcom/google/ar/core/TrackingState;Lcom/google/ar/core/TrackingState;)V
     .locals 2
     .param p1    # Lcom/google/ar/core/TrackingState;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/google/ar/core/TrackingState;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1896,7 +1896,7 @@
 .method public final C1(Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1923,7 +1923,7 @@
 .method public final D1(Lcom/meitu/template/bean/Filter;I)V
     .locals 3
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2085,7 +2085,7 @@
 .method public final F1(Lcom/commsource/repository/child/makeup/h;Z)V
     .locals 3
     .param p1    # Lcom/commsource/repository/child/makeup/h;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2186,7 +2186,7 @@
 .method public final F2(Lcom/commsource/camera/xcamera/CameraEffectManager;)V
     .locals 3
     .param p1    # Lcom/commsource/camera/xcamera/CameraEffectManager;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2291,7 +2291,7 @@
 .method public final G2(Lcom/commsource/camera/xcamera/h;)V
     .locals 2
     .param p1    # Lcom/commsource/camera/xcamera/h;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2418,7 +2418,7 @@
 .method public final H2(Lcom/commsource/camera/f1/n;)V
     .locals 2
     .param p1    # Lcom/commsource/camera/f1/n;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2440,7 +2440,7 @@
 .method public final I1(ZLandroid/view/MotionEvent;)V
     .locals 5
     .param p2    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2718,7 +2718,7 @@
 .method public final I2(Lcom/commsource/camera/f1/n;)V
     .locals 2
     .param p1    # Lcom/commsource/camera/f1/n;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2773,7 +2773,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x5c45
@@ -2790,7 +2790,7 @@
 .method public final J2(Landroid/graphics/Rect;)V
     .locals 3
     .param p1    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2832,7 +2832,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5c2e
@@ -2879,11 +2879,11 @@
 .method protected L(Lcom/meitu/library/camera/MTCamera$e;Lcom/meitu/library/d/a/a$e;)V
     .locals 2
     .param p1    # Lcom/meitu/library/camera/MTCamera$e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/library/d/a/a$e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2934,7 +2934,7 @@
 .method public final L1(Lcom/commsource/camera/newrender/renderproxy/m$b;)V
     .locals 3
     .param p1    # Lcom/commsource/camera/newrender/renderproxy/m$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2969,7 +2969,7 @@
 .method public final L2(Lcom/commsource/camera/f1/n;)V
     .locals 2
     .param p1    # Lcom/commsource/camera/f1/n;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2999,7 +2999,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5c2d
@@ -3046,7 +3046,7 @@
 
 .method public final N1()Lcom/commsource/camera/xcamera/CameraEffectManager;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5c3a
@@ -3070,7 +3070,7 @@
 .method public final N2(Ljava/util/Calendar;)V
     .locals 1
     .param p1    # Ljava/util/Calendar;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3087,7 +3087,7 @@
 
 .method public final O1()Lcom/commsource/camera/xcamera/h;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5c28
@@ -3151,7 +3151,7 @@
 
 .method public final P1()Lcom/commsource/camera/f1/n;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5c80
@@ -3168,7 +3168,7 @@
 .method public final P2(Landroid/view/TextureView;)V
     .locals 3
     .param p1    # Landroid/view/TextureView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -3213,7 +3213,7 @@
 
 .method public final Q1()Lcom/commsource/camera/f1/n;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5c82
@@ -3252,7 +3252,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5c5f
@@ -3273,7 +3273,7 @@
 .method public final R2(Lcom/commsource/camera/f1/n;)V
     .locals 2
     .param p1    # Lcom/commsource/camera/f1/n;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -3294,7 +3294,7 @@
 
 .method public final S1()Landroid/graphics/Rect;
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x5c7e
@@ -3340,7 +3340,7 @@
 .method public final T2(Lcom/commsource/camera/xcamera/m;)V
     .locals 12
     .param p1    # Lcom/commsource/camera/xcamera/m;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3424,7 +3424,7 @@
 
 .method public final U1()Landroid/graphics/Rect;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5c2f
@@ -3441,11 +3441,11 @@
 .method public final U2(Lcom/commsource/camera/xcamera/n;Ljava/lang/Runnable;Z)V
     .locals 10
     .param p1    # Lcom/commsource/camera/xcamera/n;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3521,7 +3521,7 @@
 
 .method public final V1()Lcom/commsource/camera/f1/n;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5c84
@@ -3538,7 +3538,7 @@
 .method public final V2(ZLcom/commsource/camera/xcamera/m;)V
     .locals 11
     .param p2    # Lcom/commsource/camera/xcamera/m;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3577,7 +3577,7 @@
 
 .method public final W1()Lcom/commsource/camera/xcamera/BCameraTimeLapseHelper;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5c32
@@ -3628,7 +3628,7 @@
 
 .method public final X1()Lcom/commsource/camera/r0;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5c2a
@@ -3774,7 +3774,7 @@
 .method public final Z2(Ljava/lang/String;)V
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -3819,7 +3819,7 @@
 
 .method public final a2()Ljava/util/Calendar;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x5c69
@@ -3836,11 +3836,11 @@
 .method public final a3(Landroid/graphics/Point;Landroid/graphics/Rect;)V
     .locals 4
     .param p1    # Landroid/graphics/Point;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/graphics/Rect;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -3927,7 +3927,7 @@
 
 .method public final c2()Lcom/commsource/camera/f1/n;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5c86
@@ -4113,7 +4113,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5c2c
@@ -4138,7 +4138,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5c2b
@@ -4155,7 +4155,7 @@
 .method public final k2(Landroid/view/MotionEvent;)Z
     .locals 3
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -4328,7 +4328,7 @@
 .method public final o2(Ljava/util/List;)V
     .locals 4
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -4450,7 +4450,7 @@
 .method public final q1(Ljava/lang/String;)V
     .locals 4
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4544,7 +4544,7 @@
 .method public final r1(Lcom/meitu/template/bean/ArMaterial;)V
     .locals 7
     .param p1    # Lcom/meitu/template/bean/ArMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4776,7 +4776,7 @@
 .method public final s1(Ljava/util/List;)V
     .locals 2
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -4830,7 +4830,7 @@
 .method public final s2(Ljava/lang/Runnable;)V
     .locals 4
     .param p1    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4892,7 +4892,7 @@
 .method public final t1(Lcom/meitu/template/bean/Filter;)V
     .locals 8
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -5227,7 +5227,7 @@
 .method public final u2(Landroid/view/MotionEvent;)Z
     .locals 3
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -5276,11 +5276,11 @@
 .method public final v1(Lcom/meitu/template/bean/LookMaterial;Lcotlin/jvm/u/a;)V
     .locals 2
     .param p1    # Lcom/meitu/template/bean/LookMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -5329,7 +5329,7 @@
 .method public final w1(ILcom/commsource/repository/child/makeup/h;)V
     .locals 12
     .param p2    # Lcom/commsource/repository/child/makeup/h;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -5515,11 +5515,11 @@
 .method public final x1(Landroid/util/SparseArray;Landroid/util/SparseArray;)V
     .locals 6
     .param p1    # Landroid/util/SparseArray;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Landroid/util/SparseArray;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -5885,7 +5885,7 @@
 .method public final z2(Landroid/util/SparseArray;)V
     .locals 1
     .param p1    # Landroid/util/SparseArray;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

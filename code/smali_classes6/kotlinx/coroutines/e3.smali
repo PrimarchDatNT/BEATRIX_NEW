@@ -10,7 +10,7 @@
 .method public constructor <init>(Lcotlinx/coroutines/c2;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/c2;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -24,7 +24,7 @@
 .method public m0(Ljava/lang/Throwable;)Z
     .locals 0
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

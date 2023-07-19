@@ -8,7 +8,7 @@
 
 # static fields
 .field public static final INSTANCE:Lcom/mopub/mobileads/CreativeExperienceSettingsParser;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -61,13 +61,13 @@
 .method public static final parse(Lorg/json/JSONObject;Z)Lcom/mopub/mobileads/CreativeExperienceSettings;
     .locals 12
     .param p0    # Lorg/json/JSONObject;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     if-nez p0, :cond_0

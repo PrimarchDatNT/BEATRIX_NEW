@@ -14,7 +14,7 @@
 
 # static fields
 .field public static final INSTANCE:Lcotlin/collections/EmptyList;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -160,7 +160,7 @@
 .method public contains(Ljava/lang/Void;)Z
     .locals 1
     .param p1    # Ljava/lang/Void;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -176,7 +176,7 @@
 .method public containsAll(Ljava/util/Collection;)Z
     .locals 1
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -194,7 +194,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -233,7 +233,7 @@
 
 .method public get(I)Ljava/lang/Void;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/IndexOutOfBoundsException;
@@ -301,7 +301,7 @@
 .method public indexOf(Ljava/lang/Void;)I
     .locals 1
     .param p1    # Ljava/lang/Void;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -324,7 +324,7 @@
 
 .method public iterator()Ljava/util/Iterator;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/collections/c0;->a:Lcotlin/collections/c0;
@@ -356,7 +356,7 @@
 .method public lastIndexOf(Ljava/lang/Void;)I
     .locals 1
     .param p1    # Ljava/lang/Void;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -371,7 +371,7 @@
 
 .method public listIterator()Ljava/util/ListIterator;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/collections/c0;->a:Lcotlin/collections/c0;
@@ -381,7 +381,7 @@
 
 .method public listIterator(I)Ljava/util/ListIterator;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     if-nez p1, :cond_0
@@ -508,7 +508,7 @@
 
 .method public subList(II)Ljava/util/List;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     if-nez p1, :cond_0
@@ -574,7 +574,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "[]"

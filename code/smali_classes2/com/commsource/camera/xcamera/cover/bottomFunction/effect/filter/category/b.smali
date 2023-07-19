@@ -8,7 +8,7 @@
 
 # instance fields
 .field private final a:Lcom/commsource/beautyfilter/a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -23,7 +23,7 @@
 .method public constructor <init>(Lcom/commsource/beautyfilter/a;III)V
     .locals 1
     .param p1    # Lcom/commsource/beautyfilter/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -123,7 +123,7 @@
 # virtual methods
 .method public final a()Lcom/commsource/beautyfilter/a;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa259
@@ -182,10 +182,10 @@
 .method public final e(Lcom/commsource/beautyfilter/a;III)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/category/b;
     .locals 2
     .param p1    # Lcom/commsource/beautyfilter/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa25d
@@ -208,7 +208,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -285,7 +285,7 @@
 
 .method public final h()Lcom/commsource/beautyfilter/a;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa255
@@ -414,7 +414,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa25f

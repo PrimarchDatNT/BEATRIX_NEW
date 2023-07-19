@@ -48,7 +48,7 @@
 # virtual methods
 .method public final invoke()Lcom/commsource/beautymain/widget/gesturewidget/e;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1d87

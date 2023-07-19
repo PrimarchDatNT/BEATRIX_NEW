@@ -76,7 +76,7 @@
 .method public final invoke(Lkshark/AndroidBuildMirror;)Z
     .locals 2
     .param p1    # Lkshark/AndroidBuildMirror;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

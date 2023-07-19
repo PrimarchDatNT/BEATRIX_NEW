@@ -10,7 +10,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 3
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -34,7 +34,7 @@
 .method public onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
     .locals 4
     .param p1    # Landroid/database/sqlite/SQLiteDatabase;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -82,7 +82,7 @@
 .method public onUpgrade(Landroid/database/sqlite/SQLiteDatabase;II)V
     .locals 0
     .param p1    # Landroid/database/sqlite/SQLiteDatabase;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

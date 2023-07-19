@@ -8,7 +8,7 @@
 
 # instance fields
 .field private final a:Lkshark/ReferencePattern;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -17,7 +17,7 @@
 .method public constructor <init>(Lkshark/ReferencePattern;)V
     .locals 1
     .param p1    # Lkshark/ReferencePattern;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -38,7 +38,7 @@
 # virtual methods
 .method public a()Lkshark/ReferencePattern;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/n;->a:Lkshark/ReferencePattern;
@@ -48,7 +48,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

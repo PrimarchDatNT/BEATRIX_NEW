@@ -38,14 +38,14 @@
 .field private final b:Lokio/BufferedSource;
 
 .field private final c:Lkshark/l;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final d:J
 
 .field private final f:Lkshark/Hprof$HprofVersion;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -173,7 +173,7 @@
 
 .method public final d()Lkshark/Hprof$HprofVersion;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/Hprof;->f:Lkshark/Hprof$HprofVersion;
@@ -183,7 +183,7 @@
 
 .method public final e()Lkshark/l;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/Hprof;->c:Lkshark/l;

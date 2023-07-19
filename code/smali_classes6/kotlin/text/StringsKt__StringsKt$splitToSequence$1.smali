@@ -62,10 +62,10 @@
 .method public final invoke(Lcotlin/g2/k;)Ljava/lang/String;
     .locals 1
     .param p1    # Lcotlin/g2/k;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "it"

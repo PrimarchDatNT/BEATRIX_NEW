@@ -9,14 +9,14 @@
 
 # static fields
 .field public static final a:Ljava/lang/String; = "XPlayer"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final b:J = 0xfaL
 
 .field private static final c:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -95,7 +95,7 @@
 # virtual methods
 .method public final a()Lcom/commsource/video/decoder/a;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3acb
@@ -114,7 +114,7 @@
 .method public final b(Lcom/commsource/video/b;)V
     .locals 1
     .param p1    # Lcom/commsource/video/b;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -139,15 +139,15 @@
 .method public final c(Lcom/commsource/video/view/XVideoContainer;Lcom/commsource/video/view/XVideoContainer;Lcotlin/jvm/u/a;)V
     .locals 2
     .param p1    # Lcom/commsource/video/view/XVideoContainer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/video/view/XVideoContainer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -225,7 +225,7 @@
 
 .method public final f()Ljava/util/concurrent/ThreadPoolExecutor;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3ac8
@@ -248,10 +248,10 @@
 .method public final g(Ljava/lang/String;)Ljava/lang/String;
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3ad1
@@ -328,7 +328,7 @@
 .method public final j(Ljava/lang/Runnable;)V
     .locals 2
     .param p1    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

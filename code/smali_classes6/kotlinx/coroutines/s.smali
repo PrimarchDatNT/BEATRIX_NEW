@@ -20,7 +20,7 @@
 # virtual methods
 .method public abstract h(Ljava/lang/Throwable;)Z
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlinx/coroutines/y1;

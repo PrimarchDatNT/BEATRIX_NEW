@@ -65,7 +65,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/util/IdentityHashMap;
@@ -82,7 +82,7 @@
 .method public static final c(Ljava/util/concurrent/Executor;)Z
     .locals 5
     .param p0    # Ljava/util/concurrent/Executor;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -137,7 +137,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -150,11 +150,11 @@
 .method public static final e(Ljava/util/concurrent/locks/ReentrantLock;Lcotlin/jvm/u/a;)Ljava/lang/Object;
     .locals 1
     .param p0    # Ljava/util/concurrent/locks/ReentrantLock;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

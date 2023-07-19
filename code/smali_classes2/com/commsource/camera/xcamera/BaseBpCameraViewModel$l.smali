@@ -40,11 +40,11 @@
 .method public r(Lcom/meitu/library/camera/MTCamera$s;Lcom/meitu/library/camera/MTCamera$s;)V
     .locals 5
     .param p1    # Lcom/meitu/library/camera/MTCamera$s;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/library/camera/MTCamera$s;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

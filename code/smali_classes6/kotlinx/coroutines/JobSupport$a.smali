@@ -34,11 +34,11 @@
 .method public constructor <init>(Lcotlin/coroutines/c;Lcotlinx/coroutines/JobSupport;)V
     .locals 1
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlinx/coroutines/JobSupport;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -64,7 +64,7 @@
 # virtual methods
 .method protected D()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "AwaitContinuation"
@@ -75,10 +75,10 @@
 .method public r(Lcotlinx/coroutines/c2;)Ljava/lang/Throwable;
     .locals 2
     .param p1    # Lcotlinx/coroutines/c2;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/JobSupport$a;->J:Lcotlinx/coroutines/JobSupport;

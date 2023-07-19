@@ -9,7 +9,7 @@
 
 # static fields
 .field public static final j:Ljava/lang/String; = "beautyplus_brush_tag"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -34,7 +34,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -47,7 +47,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -1610,11 +1610,11 @@
 .method public final B(Ljava/lang/String;Lcom/commsource/studio/doodle/DoodleMaterial;)V
     .locals 4
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/doodle/DoodleMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1684,7 +1684,7 @@
 .method public final D(Lcom/commsource/studio/doodle/DoodleMaterial;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/doodle/DoodleMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1716,7 +1716,7 @@
 .method public final F(Lcom/commsource/studio/doodle/DoodleMaterial;Z)V
     .locals 9
     .param p1    # Lcom/commsource/studio/doodle/DoodleMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1849,7 +1849,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x89b1
@@ -2179,7 +2179,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8995
@@ -2196,10 +2196,10 @@
 .method public final K(Ljava/lang/String;)Lcom/commsource/studio/doodle/DoodleMaterial;
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x89af
@@ -2231,10 +2231,10 @@
 .method public final L(Ljava/lang/String;)Lcom/commsource/studio/doodle/j;
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x89b0
@@ -2274,7 +2274,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x89b4
@@ -2409,7 +2409,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8996
@@ -2426,10 +2426,10 @@
 .method public final S(Lcom/commsource/studio/doodle/DoodleMaterial;)Ljava/lang/String;
     .locals 3
     .param p1    # Lcom/commsource/studio/doodle/DoodleMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x89a8
@@ -2583,7 +2583,7 @@
 .method public final X(Lcom/commsource/studio/doodle/DoodleMaterial;)Z
     .locals 2
     .param p1    # Lcom/commsource/studio/doodle/DoodleMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2659,7 +2659,7 @@
 .method public final i0(Lcom/commsource/studio/doodle/DoodleMaterial;)V
     .locals 3
     .param p1    # Lcom/commsource/studio/doodle/DoodleMaterial;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2687,7 +2687,7 @@
 .method public l(Ljava/util/List;)V
     .locals 3
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

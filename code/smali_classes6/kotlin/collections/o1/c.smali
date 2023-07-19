@@ -48,7 +48,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     if-ltz p0, :cond_0
@@ -84,7 +84,7 @@
 .method public static final e([Ljava/lang/Object;I)[Ljava/lang/Object;
     .locals 1
     .param p0    # [Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -95,7 +95,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$copyOfUninitializedElements"
@@ -120,7 +120,7 @@
 .method public static final f([Ljava/lang/Object;I)V
     .locals 1
     .param p0    # [Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -145,7 +145,7 @@
 .method public static final g([Ljava/lang/Object;II)V
     .locals 1
     .param p0    # [Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

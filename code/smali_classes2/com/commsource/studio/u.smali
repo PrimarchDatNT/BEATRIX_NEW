@@ -13,12 +13,12 @@
 .field private b:F
 
 .field private c:Lcom/commsource/studio/c;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private d:Lcom/commsource/studio/c;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -47,7 +47,7 @@
 .field private p:F
 
 .field private q:Lcom/commsource/studio/MatrixBox;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -80,7 +80,7 @@
 .method public constructor <init>(FFFFLcom/commsource/studio/MatrixBox;)V
     .locals 14
     .param p5    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -842,7 +842,7 @@
 .method public final A(Lcom/commsource/studio/MatrixBox;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -878,7 +878,7 @@
 .method public final C(Lcom/commsource/studio/c;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -949,7 +949,7 @@
 .method public final d(FFFLcom/commsource/studio/bean/FocusLayerInfo;)V
     .locals 6
     .param p4    # Lcom/commsource/studio/bean/FocusLayerInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1174,7 +1174,7 @@
 
 .method public final g()Lcom/commsource/studio/c;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x62c1
@@ -1232,7 +1232,7 @@
 
 .method public final k()Lcom/commsource/studio/MatrixBox;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x62d9
@@ -1262,7 +1262,7 @@
 
 .method public final m()Lcom/commsource/studio/c;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x62c3
@@ -1325,11 +1325,11 @@
 .method public final q(Ljava/lang/Float;Ljava/lang/Float;FF)V
     .locals 4
     .param p1    # Ljava/lang/Float;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Float;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1444,7 +1444,7 @@
 .method public final u(Lcom/commsource/studio/c;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

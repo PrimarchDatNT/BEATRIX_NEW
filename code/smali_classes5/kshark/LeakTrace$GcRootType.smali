@@ -55,7 +55,7 @@
 
 # instance fields
 .field private final description:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -256,7 +256,7 @@
 # virtual methods
 .method public final getDescription()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTrace$GcRootType;->description:Ljava/lang/String;

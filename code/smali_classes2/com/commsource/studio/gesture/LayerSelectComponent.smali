@@ -15,12 +15,12 @@
 
 # static fields
 .field public static final J:Ljava/lang/String; = "LayerSelectComponent"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final K:Ljava/lang/String; = "\u8c03\u6574\u6ee4\u955c\u9875\u9762"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -31,7 +31,7 @@
 .field private a:Lcom/commsource/studio/ImageStudioViewModel;
 
 .field private final b:Lcom/commsource/beautyplus/f0/ym;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -70,7 +70,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 19
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -393,11 +393,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 19
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1698,7 +1698,7 @@
 
 .method public final getContentBinding()Lcom/commsource/beautyplus/f0/ym;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5de2

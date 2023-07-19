@@ -116,7 +116,7 @@
 
 .method public static final b(D)Ljava/lang/String;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/i2/k;->d:Ljava/lang/ThreadLocal;
@@ -190,7 +190,7 @@
 
 .method public static final c(DI)Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/i2/k;->c:[Ljava/lang/ThreadLocal;
@@ -240,7 +240,7 @@
 
 .method public static final d(DI)Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/4 v0, 0x0

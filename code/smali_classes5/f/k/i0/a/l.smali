@@ -25,7 +25,7 @@
 # virtual methods
 .method public abstract D0(Lcom/meitu/template/bean/f;)V
     .param p1    # Lcom/meitu/template/bean/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -34,7 +34,7 @@
 
 .method public abstract Q([Lcom/meitu/template/bean/f;)V
     .param p1    # [Lcom/meitu/template/bean/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -44,7 +44,7 @@
 
 .method public abstract Q2([Lcom/meitu/template/bean/f;)V
     .param p1    # [Lcom/meitu/template/bean/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -65,20 +65,20 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract c(Ljava/lang/Integer;)Lcom/meitu/template/bean/f;
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
         value = "select * from DOODLE_CATEGORY where CategoryId = :key"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -96,13 +96,13 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract p3(Lcom/meitu/template/bean/f;)V
     .param p1    # Lcom/meitu/template/bean/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -112,7 +112,7 @@
 
 .method public abstract s1(Lcom/meitu/template/bean/f;)V
     .param p1    # Lcom/meitu/template/bean/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -121,7 +121,7 @@
 
 .method public abstract y([Lcom/meitu/template/bean/f;)V
     .param p1    # [Lcom/meitu/template/bean/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;

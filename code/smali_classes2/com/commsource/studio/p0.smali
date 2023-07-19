@@ -9,7 +9,7 @@
 # virtual methods
 .method public abstract d(Landroid/graphics/Canvas;)V
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

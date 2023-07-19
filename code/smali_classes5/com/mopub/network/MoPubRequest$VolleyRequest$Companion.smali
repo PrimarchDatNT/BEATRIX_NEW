@@ -37,7 +37,7 @@
 .method public final getVolleyMethod(Lcom/mopub/network/MoPubRequest$Method;)I
     .locals 2
     .param p1    # Lcom/mopub/network/MoPubRequest$Method;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;

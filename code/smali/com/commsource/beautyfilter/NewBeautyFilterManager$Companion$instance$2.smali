@@ -64,7 +64,7 @@
 # virtual methods
 .method public final invoke()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x489f

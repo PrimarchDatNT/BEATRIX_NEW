@@ -18,7 +18,7 @@
 # virtual methods
 .method public abstract a(Lcom/commsource/studio/MatrixBox;)V
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

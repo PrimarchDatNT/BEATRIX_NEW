@@ -11,7 +11,7 @@
 .field private A:Z
 
 .field private final B:Lcom/meitu/template/bean/Filter;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -26,7 +26,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -39,34 +39,34 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private F:I
 
 .field private final G:Landroid/util/SparseIntArray;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private H:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private I:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private J:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private K:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -81,7 +81,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -94,17 +94,17 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -117,7 +117,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -130,7 +130,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -143,7 +143,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -157,7 +157,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -170,7 +170,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -183,7 +183,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -196,7 +196,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -209,7 +209,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -222,7 +222,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -235,7 +235,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -248,7 +248,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -261,7 +261,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -274,7 +274,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -287,7 +287,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -300,7 +300,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -313,19 +313,19 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private v:I
 
 .field private w:Lcom/meitu/template/bean/ArMaterial;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private x:Lcom/meitu/template/bean/LookMaterial;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -338,12 +338,12 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private z:Lcom/commsource/beautyplus/router/RouterEntity;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -352,7 +352,7 @@
 .method public constructor <init>(Landroid/app/Application;)V
     .locals 24
     .param p1    # Landroid/app/Application;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -961,7 +961,7 @@
 .method public final B(Lcom/meitu/template/bean/Filter;)V
     .locals 4
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1018,7 +1018,7 @@
 .method public final B0(Lcom/meitu/template/bean/Filter;)Z
     .locals 3
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1188,7 +1188,7 @@
 
 .method public final D(IZ)Lcom/meitu/template/bean/Filter;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x44a7
@@ -1263,15 +1263,15 @@
 .method public final E(ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;)Z
     .locals 8
     .param p2    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p4    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1548,15 +1548,15 @@
 .method public final G(ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;)Z
     .locals 7
     .param p2    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p4    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1850,7 +1850,7 @@
 .method public final I(Lcom/meitu/template/bean/Filter;)Z
     .locals 4
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2075,7 +2075,7 @@
 .method public final K(ILcom/meitu/template/bean/Filter;)V
     .locals 13
     .param p2    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2425,7 +2425,7 @@
 .method public final N0(ZLcom/meitu/template/bean/Filter;)V
     .locals 4
     .param p2    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2603,7 +2603,7 @@
 
 .method public final P()Lcom/meitu/template/bean/ArMaterial;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x4480
@@ -2682,7 +2682,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x446a
@@ -2699,7 +2699,7 @@
 .method public final Q0(Lcom/meitu/template/bean/Filter;Z)V
     .locals 10
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2856,7 +2856,7 @@
 
 .method public final R()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x446c
@@ -2873,7 +2873,7 @@
 .method public final R0(ILcom/meitu/template/bean/Filter;)V
     .locals 5
     .param p2    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2989,7 +2989,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x446b
@@ -3068,7 +3068,7 @@
 
 .method public final T()Lcom/meitu/template/bean/LookMaterial;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x4482
@@ -3085,7 +3085,7 @@
 .method public final T0(Lcom/meitu/template/bean/ArMaterial;)V
     .locals 14
     .param p1    # Lcom/meitu/template/bean/ArMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3311,7 +3311,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4477
@@ -3418,7 +3418,7 @@
 
 .method public final V()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x44bb
@@ -3495,7 +3495,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x447d
@@ -3512,7 +3512,7 @@
 .method public final X0(Lcom/meitu/template/bean/Filter;)V
     .locals 13
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -3640,7 +3640,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4475
@@ -3657,7 +3657,7 @@
 .method public final Y0(Lcom/meitu/template/bean/LookMaterial;)V
     .locals 14
     .param p1    # Lcom/meitu/template/bean/LookMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3933,7 +3933,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4478
@@ -4070,7 +4070,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x446e
@@ -4102,7 +4102,7 @@
 
 .method public final b0()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
     .locals 14
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x44a5
@@ -4293,7 +4293,7 @@
 .method public final b1(Lcom/commsource/beautyfilter/a;Z)V
     .locals 2
     .param p1    # Lcom/commsource/beautyfilter/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -4355,7 +4355,7 @@
 
 .method public final c0()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x4497
@@ -4380,7 +4380,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4470
@@ -4397,7 +4397,7 @@
 .method public final d1(Lcom/meitu/template/bean/ArMaterial;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/ArMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -4423,7 +4423,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4473
@@ -4440,7 +4440,7 @@
 .method public final e1(Lcom/meitu/template/bean/LookMaterial;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/LookMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -4466,7 +4466,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4472
@@ -4496,7 +4496,7 @@
 
 .method public final g0()Landroid/util/SparseIntArray;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x448e
@@ -4513,7 +4513,7 @@
 .method public final g1(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -4539,7 +4539,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4476
@@ -4579,7 +4579,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4471
@@ -4596,7 +4596,7 @@
 .method public final i1(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -4641,7 +4641,7 @@
 
 .method public final k0()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x446d
@@ -4680,7 +4680,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x447a
@@ -4697,7 +4697,7 @@
 .method public final l1(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -4714,7 +4714,7 @@
 
 .method public final m0()Lcom/meitu/template/bean/Filter;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4489
@@ -4731,7 +4731,7 @@
 .method public final m1(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -4748,7 +4748,7 @@
 
 .method public final n0()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x449e
@@ -4765,7 +4765,7 @@
 .method public final n1(Lcom/commsource/beautyplus/router/RouterEntity;)V
     .locals 1
     .param p1    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -4782,7 +4782,7 @@
 
 .method public final o0()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x44a0
@@ -4798,7 +4798,7 @@
 
 .method public final p0()Lcom/commsource/beautyplus/router/RouterEntity;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x4485
@@ -4815,7 +4815,7 @@
 .method public final p1(ILcom/meitu/template/bean/Filter;)V
     .locals 11
     .param p2    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -4936,7 +4936,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x447c
@@ -4961,7 +4961,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4479
@@ -4978,7 +4978,7 @@
 .method public final r1(Lcom/meitu/template/bean/Filter;)V
     .locals 2
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;
@@ -5011,7 +5011,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4484
@@ -5036,7 +5036,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x447b
@@ -5061,7 +5061,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x448a
@@ -5086,7 +5086,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x446f
@@ -5111,7 +5111,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x448b
@@ -5136,7 +5136,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4474
@@ -5153,7 +5153,7 @@
 .method public final y(Lcom/meitu/template/bean/Filter;Z)V
     .locals 3
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -5231,7 +5231,7 @@
 .method public final y0(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;ZZZZ)V
     .locals 18
     .param p1    # Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -5807,7 +5807,7 @@
 .method public final z(ILcom/meitu/template/bean/Filter;Z)Z
     .locals 6
     .param p2    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

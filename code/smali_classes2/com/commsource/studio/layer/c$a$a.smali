@@ -19,7 +19,7 @@
 .method public static a(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
     .locals 0
     .param p3    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -39,7 +39,7 @@
 .method public static b(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
     .locals 0
     .param p3    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -59,7 +59,7 @@
 .method public static c(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
     .locals 0
     .param p3    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -79,7 +79,7 @@
 .method public static d(Lcom/commsource/studio/layer/c$a;FFZZLandroid/view/MotionEvent;)V
     .locals 0
     .param p5    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -95,7 +95,7 @@
 .method public static e(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
     .locals 0
     .param p3    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

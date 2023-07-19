@@ -25,7 +25,7 @@
 # virtual methods
 .method public abstract C1([Lcom/commsource/camera/a1/f;)V
     .param p1    # [Lcom/commsource/camera/a1/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -46,7 +46,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -64,13 +64,13 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method public abstract b1(Lcom/commsource/camera/a1/f;)V
     .param p1    # Lcom/commsource/camera/a1/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -80,20 +80,20 @@
 
 .method public abstract c(Ljava/lang/Integer;)Lcom/commsource/camera/a1/f;
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
         value = "select * from MAKEUP_ENTITY where _id=:key"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract d3(Lcom/commsource/camera/a1/f;)V
     .param p1    # Lcom/commsource/camera/a1/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -102,7 +102,7 @@
 
 .method public abstract j3(Lcom/commsource/camera/a1/f;)V
     .param p1    # Lcom/commsource/camera/a1/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -111,7 +111,7 @@
 
 .method public abstract p0([Lcom/commsource/camera/a1/f;)V
     .param p1    # [Lcom/commsource/camera/a1/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -121,7 +121,7 @@
 
 .method public abstract u0([Lcom/commsource/camera/a1/f;)V
     .param p1    # [Lcom/commsource/camera/a1/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -142,6 +142,6 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method

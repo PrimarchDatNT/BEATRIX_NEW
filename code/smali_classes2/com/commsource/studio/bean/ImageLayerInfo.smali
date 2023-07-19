@@ -14,17 +14,17 @@
 .field private final synthetic $$delegate_0:Lcom/commsource/studio/i$e;
 
 .field private imageStyleConfig:Lcom/commsource/studio/mixlayer/ImageStyleConfig;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private texturePath:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private tintColor:Ljava/lang/Integer;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -70,7 +70,7 @@
 
 .method public copy(Z)Lcom/commsource/studio/bean/FocusLayerInfo;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-super {p0, p1}, Lcom/commsource/studio/bean/FocusLayerInfo;->copy(Z)Lcom/commsource/studio/bean/FocusLayerInfo;
@@ -103,7 +103,7 @@
 
 .method public final getImageStyleConfig()Lcom/commsource/studio/mixlayer/ImageStyleConfig;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->imageStyleConfig:Lcom/commsource/studio/mixlayer/ImageStyleConfig;
@@ -113,7 +113,7 @@
 
 .method public final getTexturePath()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->texturePath:Ljava/lang/String;
@@ -123,7 +123,7 @@
 
 .method public final getTintColor()Ljava/lang/Integer;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->tintColor:Ljava/lang/Integer;
@@ -154,7 +154,7 @@
 .method public onDoubleGestureMove(FFLandroid/graphics/PointF;)Z
     .locals 1
     .param p3    # Landroid/graphics/PointF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -174,15 +174,15 @@
 .method public onDoubleGestureStart(Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/graphics/PointF;)Z
     .locals 1
     .param p1    # Landroid/graphics/PointF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/graphics/PointF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Landroid/graphics/PointF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -210,15 +210,15 @@
 .method public onDoubleTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
     .locals 1
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -234,11 +234,11 @@
 .method public onFling(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
     .locals 1
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -254,11 +254,11 @@
 .method public onFlingFromBottomToTop(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
     .locals 1
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -274,11 +274,11 @@
 .method public onFlingFromLeftToRight(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
     .locals 1
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -294,11 +294,11 @@
 .method public onFlingFromRightToLeft(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
     .locals 1
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -314,11 +314,11 @@
 .method public onFlingFromTopToBottom(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
     .locals 1
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -334,7 +334,7 @@
 .method public onGestureEnd(Landroid/view/MotionEvent;)Z
     .locals 1
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -354,7 +354,7 @@
 .method public onLongPress(Landroid/view/MotionEvent;)Z
     .locals 1
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -374,7 +374,7 @@
 .method public onLongPressUp(Landroid/view/MotionEvent;)Z
     .locals 1
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -394,7 +394,7 @@
 .method public onMajorFingerDown(Landroid/view/MotionEvent;)Z
     .locals 1
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -414,7 +414,7 @@
 .method public onMajorFingerUp(Landroid/view/MotionEvent;)Z
     .locals 1
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -430,11 +430,11 @@
 .method public onMajorScroll(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
     .locals 1
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -458,7 +458,7 @@
 .method public onMinorFingerDown(Landroid/view/MotionEvent;)Z
     .locals 1
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -474,7 +474,7 @@
 .method public onMinorFingerUp(Landroid/view/MotionEvent;)Z
     .locals 1
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -490,11 +490,11 @@
 .method public onScroll(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
     .locals 1
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -510,7 +510,7 @@
 .method public onShowPress(Landroid/view/MotionEvent;)V
     .locals 1
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -524,11 +524,11 @@
 .method public onSingleTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
     .locals 1
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -552,11 +552,11 @@
 .method public onTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
     .locals 1
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -590,7 +590,7 @@
 .method public setGestureDetector(Lcom/commsource/studio/i;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -608,7 +608,7 @@
 .method public final setImageStyleConfig(Lcom/commsource/studio/mixlayer/ImageStyleConfig;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/mixlayer/ImageStyleConfig;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -624,7 +624,7 @@
 .method public final setTexturePath(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -640,7 +640,7 @@
 .method public final setTintColor(Ljava/lang/Integer;)V
     .locals 0
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

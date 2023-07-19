@@ -9,7 +9,7 @@
 
 # instance fields
 .field private c:Lcom/commsource/studio/processor/BaseEffectProcessor;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -18,7 +18,7 @@
 .method public constructor <init>(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/processor/BaseEffectProcessor;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -37,7 +37,7 @@
 # virtual methods
 .method public a()Lcom/commsource/studio/e;
     .locals 7
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9059
@@ -94,7 +94,7 @@
 .method public e(Lcom/commsource/studio/e;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -134,7 +134,7 @@
 
 .method public final h()Lcom/commsource/studio/processor/BaseEffectProcessor;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x905a
@@ -151,7 +151,7 @@
 .method public final i(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/processor/BaseEffectProcessor;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

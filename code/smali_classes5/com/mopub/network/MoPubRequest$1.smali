@@ -57,7 +57,7 @@
 .method protected deliverResponse(Ljava/lang/Object;)V
     .locals 1
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -79,7 +79,7 @@
 
 .method public getBody()[B
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest$1;->this$0:Lcom/mopub/network/MoPubRequest;
@@ -93,7 +93,7 @@
 
 .method public getBodyContentType()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest$1;->this$0:Lcom/mopub/network/MoPubRequest;
@@ -117,7 +117,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest$1;->this$0:Lcom/mopub/network/MoPubRequest;
@@ -132,7 +132,7 @@
 .method protected parseNetworkResponse(Lcom/mopub/volley/NetworkResponse;)Lcom/mopub/volley/Response;
     .locals 5
     .param p1    # Lcom/mopub/volley/NetworkResponse;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -145,7 +145,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/4 v0, 0x0

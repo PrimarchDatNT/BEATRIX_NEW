@@ -52,7 +52,7 @@
 # virtual methods
 .method public final a()Lcotlinx/coroutines/j1;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/i3;->a:Ljava/lang/ThreadLocal;
@@ -68,7 +68,7 @@
 
 .method public final b()Lcotlinx/coroutines/j1;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/i3;->a:Ljava/lang/ThreadLocal;
@@ -109,7 +109,7 @@
 .method public final d(Lcotlinx/coroutines/j1;)V
     .locals 1
     .param p1    # Lcotlinx/coroutines/j1;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

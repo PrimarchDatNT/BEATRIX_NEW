@@ -33,7 +33,7 @@
 # virtual methods
 .method public final a()Ljava/lang/Short;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Lcotlin/collections/f1;->b()S

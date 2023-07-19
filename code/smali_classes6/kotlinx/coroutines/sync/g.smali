@@ -23,7 +23,7 @@
 .field private volatile cancelledSlots:I
 
 .field d:Ljava/util/concurrent/atomic/AtomicReferenceArray;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -48,7 +48,7 @@
 .method public constructor <init>(JLcotlinx/coroutines/sync/g;)V
     .locals 0
     .param p3    # Lcotlinx/coroutines/sync/g;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -143,11 +143,11 @@
 .method public final i(ILjava/lang/Object;Ljava/lang/Object;)Z
     .locals 1
     .param p2    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -162,7 +162,7 @@
 
 .method public final j(I)Ljava/lang/Object;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/sync/g;->d:Ljava/util/concurrent/atomic/AtomicReferenceArray;
@@ -177,10 +177,10 @@
 .method public final k(ILjava/lang/Object;)Ljava/lang/Object;
     .locals 1
     .param p2    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/sync/g;->d:Ljava/util/concurrent/atomic/AtomicReferenceArray;
@@ -194,7 +194,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

@@ -12,7 +12,7 @@
 
 # instance fields
 .field private final centerOffset:Landroid/graphics/PointF;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -45,7 +45,7 @@
 .method public constructor <init>(Lcom/commsource/studio/layer/Position;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/layer/Position;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -130,7 +130,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 5
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -210,7 +210,7 @@
 
 .method public final getCenterOffset()Landroid/graphics/PointF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x21df
@@ -293,7 +293,7 @@
 .method public final set(Lcom/commsource/studio/MatrixBox;FFFF)V
     .locals 4
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -394,7 +394,7 @@
 
 .method public final toMatrixBox(IIII)Lcom/commsource/studio/MatrixBox;
     .locals 10
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x21e6
@@ -444,7 +444,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x21e4

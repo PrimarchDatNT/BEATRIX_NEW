@@ -64,7 +64,7 @@
 .method public e(Lcom/commsource/beautymain/utils/RelightModelHelper$a;)V
     .locals 2
     .param p1    # Lcom/commsource/beautymain/utils/RelightModelHelper$a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

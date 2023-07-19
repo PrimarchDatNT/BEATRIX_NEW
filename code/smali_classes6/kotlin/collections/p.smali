@@ -33,7 +33,7 @@
 # virtual methods
 .method public final next()Ljava/lang/Boolean;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Lcotlin/collections/p;->nextBoolean()Z

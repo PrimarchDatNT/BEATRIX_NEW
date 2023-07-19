@@ -54,11 +54,11 @@
 .method public urlHandlingFailed(Ljava/lang/String;Lcom/mopub/common/UrlAction;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/mopub/common/UrlAction;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -76,11 +76,11 @@
 .method public urlHandlingSucceeded(Ljava/lang/String;Lcom/mopub/common/UrlAction;)V
     .locals 7
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/mopub/common/UrlAction;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

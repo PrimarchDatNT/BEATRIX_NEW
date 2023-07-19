@@ -43,7 +43,7 @@
 .method public Q0(Lcom/meitu/library/camera/q/g;)V
     .locals 0
     .param p1    # Lcom/meitu/library/camera/q/g;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -74,7 +74,7 @@
 
 .method public getNodesServer()Lcom/meitu/library/camera/q/g;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x5a2

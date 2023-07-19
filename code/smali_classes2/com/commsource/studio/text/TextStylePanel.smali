@@ -15,12 +15,12 @@
 .field private final c:Lcotlin/w;
 
 .field private final d:Lcom/commsource/beautyplus/f0/cc;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final e:Lcom/commsource/studio/sticker/TextFragment;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -29,11 +29,11 @@
 .method public constructor <init>(Lcom/commsource/beautyplus/f0/cc;Lcom/commsource/studio/sticker/TextFragment;)V
     .locals 1
     .param p1    # Lcom/commsource/beautyplus/f0/cc;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/sticker/TextFragment;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -428,7 +428,7 @@
 # virtual methods
 .method public final e()Lcom/commsource/studio/sticker/TextFragment;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7c94
@@ -444,7 +444,7 @@
 
 .method public final h()Lcom/commsource/beautyplus/f0/cc;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7c93

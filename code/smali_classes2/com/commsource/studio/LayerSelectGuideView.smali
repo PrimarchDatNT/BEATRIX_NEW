@@ -16,7 +16,7 @@
 .field private a:Lcom/commsource/studio/ImageStudioViewModel;
 
 .field public b:Lcom/commsource/beautyplus/f0/ym;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -27,7 +27,7 @@
 .field private f:Z
 
 .field private g:Lcom/commsource/studio/LayerSelectGuideView$c;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -38,7 +38,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -56,11 +56,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -78,11 +78,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -530,7 +530,7 @@
 
 .method public final getContentBinding()Lcom/commsource/beautyplus/f0/ym;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8271
@@ -553,7 +553,7 @@
 
 .method public final getOnHideListener()Lcom/commsource/studio/LayerSelectGuideView$c;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8273
@@ -570,7 +570,7 @@
 .method public final setContentBinding(Lcom/commsource/beautyplus/f0/ym;)V
     .locals 2
     .param p1    # Lcom/commsource/beautyplus/f0/ym;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -592,7 +592,7 @@
 .method public final setOnHideListener(Lcom/commsource/studio/LayerSelectGuideView$c;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/LayerSelectGuideView$c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

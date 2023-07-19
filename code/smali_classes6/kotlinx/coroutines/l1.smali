@@ -19,14 +19,14 @@
 
 # virtual methods
 .method protected abstract S()Ljava/lang/Thread;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method protected final U(JLcotlinx/coroutines/k1$c;)V
     .locals 1
     .param p3    # Lcotlinx/coroutines/k1$c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

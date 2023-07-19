@@ -10,10 +10,10 @@
 .method public static final a(Lcotlinx/coroutines/CoroutineDispatcher;)Ljava/util/concurrent/Executor;
     .locals 1
     .param p0    # Lcotlinx/coroutines/CoroutineDispatcher;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     instance-of v0, p0, Lcotlinx/coroutines/ExecutorCoroutineDispatcher;
@@ -52,14 +52,14 @@
 .method public static final b(Ljava/util/concurrent/Executor;)Lcotlinx/coroutines/CoroutineDispatcher;
     .locals 1
     .param p0    # Ljava/util/concurrent/Executor;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/g;
         name = "from"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     instance-of v0, p0, Lcotlinx/coroutines/b1;
@@ -96,14 +96,14 @@
 .method public static final c(Ljava/util/concurrent/ExecutorService;)Lcotlinx/coroutines/ExecutorCoroutineDispatcher;
     .locals 1
     .param p0    # Ljava/util/concurrent/ExecutorService;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/g;
         name = "from"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/q1;

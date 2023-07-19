@@ -14,11 +14,11 @@
 .method public static final a(Ljava/lang/AutoCloseable;Ljava/lang/Throwable;)V
     .locals 0
     .param p0    # Ljava/lang/AutoCloseable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Lcotlin/p0;

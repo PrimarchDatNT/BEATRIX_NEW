@@ -17,12 +17,12 @@
 
 # instance fields
 .field private final d:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private f:Lcom/commsource/camera/xcamera/g;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -50,7 +50,7 @@
 # virtual methods
 .method public final E()Lcom/commsource/camera/xcamera/BpCameraViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x60ef
@@ -72,7 +72,7 @@
 
 .method public final F()Lcom/commsource/camera/xcamera/g;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x60f0
@@ -89,7 +89,7 @@
 .method public final G(Lcom/commsource/camera/xcamera/g;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/g;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

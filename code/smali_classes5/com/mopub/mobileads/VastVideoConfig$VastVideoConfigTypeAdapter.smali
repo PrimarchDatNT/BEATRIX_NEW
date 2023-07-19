@@ -37,7 +37,7 @@
 .method public read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Class;
     .locals 3
     .param p1    # Lcom/google/gson/stream/JsonReader;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -56,7 +56,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/4 v0, 0x0
@@ -116,11 +116,11 @@
 .method public write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Class;)V
     .locals 0
     .param p1    # Lcom/google/gson/stream/JsonWriter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Class;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

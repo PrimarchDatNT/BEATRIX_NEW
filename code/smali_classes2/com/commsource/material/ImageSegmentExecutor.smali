@@ -15,22 +15,22 @@
 
 # static fields
 .field public static final A:Ljava/lang/String; = "LibMT3DFace_new.bundle/ContourVertex.bin"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final B:Ljava/lang/String; = "LibMT3DFace_new.bundle/Lanmark.bin"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final C:Ljava/lang/String; = "LibMT3DFace_new.bundle/ExpressMat_InitParam.bin"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final D:Ljava/lang/String; = "LibMT3DFace_new.bundle/ModelCore.bin"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -45,24 +45,24 @@
 .field private static d:Z = false
 
 .field private static final e:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private static final f:Ljava/lang/String; = "ImageSegmentExecutor"
 
 .field public static final g:Ljava/lang/String; = "242d1663553f6f95359093a537ab6b7b"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final h:Ljava/lang/String; = "bb9099c3be36880d386ae7e1b83caa14"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final i:Ljava/lang/String; = "26a082a35cc8795c472bfc59f9bd4bda"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -99,7 +99,7 @@
 .field private static final y:Ljava/lang/String; = "SpiderMan_mark2_v1.3.3.manis"
 
 .field public static final z:Ljava/lang/String; = "LibMT3DFace_new.bundle/UVmap_3DObj.bin"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -326,7 +326,7 @@
 .method public static final P(Lcom/commsource/material/download/SegmentModel;)Z
     .locals 4
     .param p0    # Lcom/commsource/material/download/SegmentModel;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
@@ -872,7 +872,7 @@
 
 .method public static final h()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4ede
@@ -908,7 +908,7 @@
 
 .method public static final i()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4ee0
@@ -944,7 +944,7 @@
 
 .method public static final j()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4ee2
@@ -980,7 +980,7 @@
 
 .method public static final k()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4ee4
@@ -1016,7 +1016,7 @@
 
 .method public static final m()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4ecd
@@ -1032,7 +1032,7 @@
 
 .method public static final p()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4ed1
@@ -1064,7 +1064,7 @@
 
 .method public static final q()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4ed3
@@ -1096,7 +1096,7 @@
 
 .method public static final r()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4ed5
@@ -1128,7 +1128,7 @@
 
 .method public static final s()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4ecf
@@ -1160,7 +1160,7 @@
 
 .method public static final t()Ljava/lang/String;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4ee6
@@ -1198,7 +1198,7 @@
 
 .method public static final v()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4ed7
@@ -1230,7 +1230,7 @@
 
 .method public static final w()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4ed9
@@ -1262,7 +1262,7 @@
 
 .method public static final x()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4edb
@@ -1294,7 +1294,7 @@
 
 .method public static final z()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4ec9
@@ -1328,7 +1328,7 @@
 # virtual methods
 .method public final A()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4ec7
@@ -1399,7 +1399,7 @@
 .method public final N(Lcom/commsource/material/download/SegmentModel;)Z
     .locals 2
     .param p1    # Lcom/commsource/material/download/SegmentModel;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1429,7 +1429,7 @@
 .method public final O(Lcom/commsource/material/download/SegmentModel;)Z
     .locals 2
     .param p1    # Lcom/commsource/material/download/SegmentModel;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1575,11 +1575,11 @@
 .method public final e(Lcom/commsource/material/download/SegmentModel;Lcom/commsource/material/download/b/c;)V
     .locals 6
     .param p1    # Lcom/commsource/material/download/SegmentModel;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/material/download/b/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1678,7 +1678,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4eb2
@@ -1700,7 +1700,7 @@
 
 .method public final n()Ljava/lang/String;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4ecb
@@ -1729,7 +1729,7 @@
 
 .method public final o()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4edc
@@ -1761,7 +1761,7 @@
 
 .method public final u()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4ec6
@@ -1793,7 +1793,7 @@
 
 .method public final y()Ljava/lang/String;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4eca

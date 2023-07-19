@@ -8,12 +8,12 @@
 
 # instance fields
 .field public a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private b:Lcom/commsource/studio/processor/BaseEffectProcessor;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -22,7 +22,7 @@
 .method public constructor <init>(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/processor/BaseEffectProcessor;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -40,13 +40,13 @@
 
 # virtual methods
 .method public abstract a()Lcom/commsource/studio/e;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public final b()Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/function/automanual/a;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
@@ -63,7 +63,7 @@
 
 .method public final c()Lcom/commsource/studio/processor/BaseEffectProcessor;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/function/automanual/a;->b:Lcom/commsource/studio/processor/BaseEffectProcessor;
@@ -74,7 +74,7 @@
 .method public d(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 1
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -110,7 +110,7 @@
 
 .method public abstract e(Lcom/commsource/studio/e;)V
     .param p1    # Lcom/commsource/studio/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method
@@ -118,7 +118,7 @@
 .method public final f(Lcom/commsource/studio/function/automanual/AutoManualStackLogic;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -134,7 +134,7 @@
 .method public final g(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/processor/BaseEffectProcessor;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

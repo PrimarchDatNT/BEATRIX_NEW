@@ -52,10 +52,10 @@
 .method public j(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;
     .locals 0
     .param p1    # Lcotlinx/coroutines/internal/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object p1, p0, Lcotlinx/coroutines/channels/c$f;->e:Lcotlinx/coroutines/channels/c;

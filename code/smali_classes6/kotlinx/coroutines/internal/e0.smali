@@ -19,7 +19,7 @@
 .method public static final b(Ljava/lang/String;III)I
     .locals 0
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -33,7 +33,7 @@
 .method public static final c(Ljava/lang/String;JJJ)J
     .locals 0
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -47,10 +47,10 @@
 .method public static final d(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0}, Lcotlinx/coroutines/internal/f0;->b(Ljava/lang/String;)Ljava/lang/String;
@@ -63,7 +63,7 @@
 .method public static final e(Ljava/lang/String;Z)Z
     .locals 0
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

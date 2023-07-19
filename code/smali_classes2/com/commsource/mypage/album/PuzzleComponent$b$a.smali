@@ -38,7 +38,7 @@
 .method public onAnimationEnd(Landroid/view/animation/Animation;)V
     .locals 5
     .param p1    # Landroid/view/animation/Animation;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -159,7 +159,7 @@
 .method public onAnimationRepeat(Landroid/view/animation/Animation;)V
     .locals 2
     .param p1    # Landroid/view/animation/Animation;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -179,7 +179,7 @@
 .method public onAnimationStart(Landroid/view/animation/Animation;)V
     .locals 2
     .param p1    # Landroid/view/animation/Animation;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -11,10 +11,10 @@
 .method public static final a(Ljava/lang/Object;)Ljava/lang/String;
     .locals 0
     .param p0    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -31,10 +31,10 @@
 .method public static final b(Ljava/lang/Object;)Ljava/lang/String;
     .locals 0
     .param p0    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
@@ -51,7 +51,7 @@
 .method public static final c(Lcotlin/coroutines/c;)Ljava/lang/String;
     .locals 3
     .param p0    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -63,7 +63,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     instance-of v0, p0, Lcotlinx/coroutines/w0;

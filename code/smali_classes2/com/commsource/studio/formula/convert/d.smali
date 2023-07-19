@@ -19,7 +19,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -104,13 +104,13 @@
 .method public final a(Lcom/commsource/studio/formula/convert/g;)Lcom/commsource/material/download/b/b$b;
     .locals 17
     .param p1    # Lcom/commsource/studio/formula/convert/g;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     move-object/from16 v0, p1
@@ -564,11 +564,11 @@
 .method public final b(Lcom/commsource/studio/formula/convert/g;Lcom/commsource/studio/formula/convert/Formula;)Ljava/util/concurrent/CopyOnWriteArrayList;
     .locals 2
     .param p1    # Lcom/commsource/studio/formula/convert/g;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/formula/convert/Formula;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;
@@ -586,7 +586,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x592a
@@ -622,11 +622,11 @@
 .method public final c(Lcom/commsource/studio/formula/convert/g;Ljava/util/List;)Ljava/util/concurrent/CopyOnWriteArrayList;
     .locals 9
     .param p1    # Lcom/commsource/studio/formula/convert/g;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;
@@ -645,7 +645,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x592a
@@ -761,7 +761,7 @@
 .method public final d(Ljava/util/concurrent/CopyOnWriteArrayList;)V
     .locals 0
     .param p1    # Ljava/util/concurrent/CopyOnWriteArrayList;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;
@@ -798,7 +798,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x5929

@@ -24,12 +24,12 @@
 .field private final createdAtTimeMillis:J
 
 .field private final exception:Lkshark/HeapAnalysisException;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final heapDumpFile:Ljava/io/File;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -52,11 +52,11 @@
 .method public constructor <init>(Ljava/io/File;JJLkshark/HeapAnalysisException;)V
     .locals 1
     .param p1    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p6    # Lkshark/HeapAnalysisException;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -145,7 +145,7 @@
 # virtual methods
 .method public final component1()Ljava/io/File;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Lkshark/HeapAnalysisFailure;->getHeapDumpFile()Ljava/io/File;
@@ -177,7 +177,7 @@
 
 .method public final component4()Lkshark/HeapAnalysisException;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HeapAnalysisFailure;->exception:Lkshark/HeapAnalysisException;
@@ -188,14 +188,14 @@
 .method public final copy(Ljava/io/File;JJLkshark/HeapAnalysisException;)Lkshark/HeapAnalysisFailure;
     .locals 8
     .param p1    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p6    # Lkshark/HeapAnalysisException;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "heapDumpFile"
@@ -226,7 +226,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 7
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -338,7 +338,7 @@
 
 .method public final getException()Lkshark/HeapAnalysisException;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HeapAnalysisFailure;->exception:Lkshark/HeapAnalysisException;
@@ -348,7 +348,7 @@
 
 .method public getHeapDumpFile()Ljava/io/File;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HeapAnalysisFailure;->heapDumpFile:Ljava/io/File;
@@ -425,7 +425,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

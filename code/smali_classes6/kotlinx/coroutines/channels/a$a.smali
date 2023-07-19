@@ -32,7 +32,7 @@
 
 # instance fields
 .field private a:Ljava/lang/Object;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -44,7 +44,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -53,7 +53,7 @@
 .method public constructor <init>(Lcotlinx/coroutines/channels/a;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/channels/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -114,7 +114,7 @@
 .method public synthetic a(Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -135,7 +135,7 @@
         name = "next"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelIterator$DefaultImpls;->a(Lcotlinx/coroutines/channels/ChannelIterator;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -148,7 +148,7 @@
 .method public b(Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 2
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -162,7 +162,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/channels/a$a;->a:Ljava/lang/Object;
@@ -220,7 +220,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/channels/a$a;->b:Lcotlinx/coroutines/channels/a;
@@ -230,7 +230,7 @@
 
 .method public final d()Ljava/lang/Object;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/channels/a$a;->a:Ljava/lang/Object;
@@ -241,7 +241,7 @@
 .method final synthetic f(Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -255,7 +255,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p1}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
@@ -384,7 +384,7 @@
 .method public final g(Ljava/lang/Object;)V
     .locals 0
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

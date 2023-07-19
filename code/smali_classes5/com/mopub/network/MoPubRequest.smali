@@ -25,29 +25,29 @@
 
 # static fields
 .field public static final Companion:Lcom/mopub/network/MoPubRequest$Companion;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final DEFAULT_CONTENT_TYPE:Ljava/lang/String; = "application/x-www-form-urlencoded; charset=UTF-8"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final JSON_CONTENT_TYPE:Ljava/lang/String; = "application/json; charset=UTF-8"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 
 # instance fields
 .field private final context:Landroid/content/Context;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final method:Lcom/mopub/network/MoPubRequest$Method;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -59,24 +59,24 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final originalUrl:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private retryPolicy:Lcom/mopub/network/MoPubRetryPolicy;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private shouldCache:Z
 
 .field private final truncatedUrl:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -108,23 +108,23 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/mopub/network/MoPubRequest$Method;Lcom/mopub/network/MoPubResponse$Listener;)V
     .locals 7
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Lcom/mopub/network/MoPubRequest$Method;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p5    # Lcom/mopub/network/MoPubResponse$Listener;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -212,7 +212,7 @@
 
 .method protected abstract deliverResponse(Ljava/lang/Object;)V
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -224,7 +224,7 @@
 
 .method public getBody()[B
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-virtual {p0}, Lcom/mopub/network/MoPubRequest;->getParams()Ljava/util/Map;
@@ -261,7 +261,7 @@
 
 .method protected getBodyContentType()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "application/x-www-form-urlencoded; charset=UTF-8"
@@ -271,7 +271,7 @@
 
 .method public final getContext()Landroid/content/Context;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->context:Landroid/content/Context;
@@ -291,7 +291,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->volleyRequest:Lcom/mopub/network/MoPubRequest$VolleyRequest;
@@ -305,7 +305,7 @@
 
 .method public final getMethod()Lcom/mopub/network/MoPubRequest$Method;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->method:Lcom/mopub/network/MoPubRequest$Method;
@@ -323,7 +323,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->moPubListener:Lcom/mopub/network/MoPubResponse$Listener;
@@ -333,7 +333,7 @@
 
 .method public final getOriginalUrl()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->originalUrl:Ljava/lang/String;
@@ -353,7 +353,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {}, Lcom/mopub/network/Networking;->getUrlRewriter()Lcom/mopub/network/MoPubUrlRewriter;
@@ -383,7 +383,7 @@
 
 .method public final getRetryPolicy()Lcom/mopub/network/MoPubRetryPolicy;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->retryPolicy:Lcom/mopub/network/MoPubRetryPolicy;
@@ -401,7 +401,7 @@
 
 .method public final getTruncatedUrl()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->truncatedUrl:Ljava/lang/String;
@@ -411,7 +411,7 @@
 
 .method public getUrl()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->volleyRequest:Lcom/mopub/network/MoPubRequest$VolleyRequest;
@@ -437,7 +437,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->volleyRequest:Lcom/mopub/network/MoPubRequest$VolleyRequest;
@@ -459,7 +459,7 @@
 
 .method protected abstract parseNetworkResponse(Lcom/mopub/network/MoPubNetworkResponse;)Lcom/mopub/network/MoPubResponse;
     .param p1    # Lcom/mopub/network/MoPubNetworkResponse;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -472,17 +472,17 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method protected final parseStringBody(Lcom/mopub/network/MoPubNetworkResponse;)Ljava/lang/String;
     .locals 2
     .param p1    # Lcom/mopub/network/MoPubNetworkResponse;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "response"
@@ -542,7 +542,7 @@
 .method public final setRetryPolicy(Lcom/mopub/network/MoPubRetryPolicy;)V
     .locals 4
     .param p1    # Lcom/mopub/network/MoPubRetryPolicy;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -590,7 +590,7 @@
 .method public final setTag(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

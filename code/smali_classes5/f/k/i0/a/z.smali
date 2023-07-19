@@ -25,7 +25,7 @@
 # virtual methods
 .method public abstract H1(Lcom/commsource/studio/function/background/GradientMaterial;)V
     .param p1    # Lcom/commsource/studio/function/background/GradientMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -35,7 +35,7 @@
 
 .method public abstract R1(Lcom/commsource/studio/function/background/GradientMaterial;)V
     .param p1    # Lcom/commsource/studio/function/background/GradientMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -56,7 +56,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -74,20 +74,20 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract d(Ljava/lang/String;)Lcom/commsource/studio/function/background/GradientMaterial;
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
         value = "select * from GRADIENT_MATERIAL where m_id = :key"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -105,13 +105,13 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract g0([Lcom/commsource/studio/function/background/GradientMaterial;)V
     .param p1    # [Lcom/commsource/studio/function/background/GradientMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -120,7 +120,7 @@
 
 .method public abstract k0([Lcom/commsource/studio/function/background/GradientMaterial;)V
     .param p1    # [Lcom/commsource/studio/function/background/GradientMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -130,7 +130,7 @@
 
 .method public abstract y1([Lcom/commsource/studio/function/background/GradientMaterial;)V
     .param p1    # [Lcom/commsource/studio/function/background/GradientMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -139,7 +139,7 @@
 
 .method public abstract z1(Lcom/commsource/studio/function/background/GradientMaterial;)V
     .param p1    # Lcom/commsource/studio/function/background/GradientMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;

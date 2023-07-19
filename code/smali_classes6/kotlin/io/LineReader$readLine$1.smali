@@ -31,7 +31,7 @@
 # virtual methods
 .method public get()Ljava/lang/Object;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlin/jvm/internal/CallableReference;->receiver:Ljava/lang/Object;
@@ -48,7 +48,7 @@
 .method public set(Ljava/lang/Object;)V
     .locals 1
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

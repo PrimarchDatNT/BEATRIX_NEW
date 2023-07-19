@@ -8,7 +8,7 @@
 
 # instance fields
 .field private final a:Lcom/commsource/beautyplus/router/RouterEntity;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -17,7 +17,7 @@
 .method public constructor <init>(Lcom/commsource/beautyplus/router/RouterEntity;)V
     .locals 0
     .param p1    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -32,7 +32,7 @@
 # virtual methods
 .method public final a()Lcom/commsource/beautyplus/router/RouterEntity;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/billing/pro/g;->a:Lcom/commsource/beautyplus/router/RouterEntity;
@@ -42,7 +42,7 @@
 
 .method public abstract b(Lcom/commsource/billing/bean/subsconfig/Config;)V
     .param p1    # Lcom/commsource/billing/bean/subsconfig/Config;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 .end method

@@ -82,7 +82,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lcotlin/text/CharCategory;->values()[Lcotlin/text/CharCategory;

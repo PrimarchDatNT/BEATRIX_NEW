@@ -8,6 +8,6 @@
 
 # virtual methods
 .method public abstract R()Lcotlin/coroutines/CoroutineContext;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method

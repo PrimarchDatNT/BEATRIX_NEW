@@ -18,12 +18,12 @@
 
 # instance fields
 .field public J:Lcom/commsource/studio/ImageStudioViewModel;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public K:Lcom/commsource/studio/component/StudioProViewModel;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -48,19 +48,19 @@
 .end field
 
 .field private N:Lcom/commsource/easyeditor/utils/opengl/f;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private O:Lcom/commsource/easyeditor/utils/opengl/f;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private P:Z
 
 .field public Q:Lcom/commsource/studio/sub/SubModuleEnum;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -76,12 +76,12 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private T:Lcom/commsource/studio/function/q;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -106,7 +106,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -123,14 +123,14 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private Z:Z
 
 .field private a0:Lcom/commsource/studio/MatrixBox;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -141,12 +141,12 @@
 .field private d:Z
 
 .field private f:Landroid/os/Bundle;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final g:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -776,7 +776,7 @@
 .method public final C(Landroid/view/View;)V
     .locals 1
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -802,7 +802,7 @@
 .method public final D(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
     .locals 5
     .param p1    # Lcom/commsource/studio/processor/BaseEffectProcessor;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -959,7 +959,7 @@
 .method public final E(Lcom/commsource/studio/layer/d;I)V
     .locals 2
     .param p1    # Lcom/commsource/studio/layer/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/UiThread;
@@ -1308,11 +1308,11 @@
 .method public I(Landroid/view/View;Lcotlin/jvm/u/a;)V
     .locals 1
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1471,11 +1471,11 @@
 .method public K(Landroid/view/View;Lcotlin/jvm/u/a;)V
     .locals 2
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1834,7 +1834,7 @@
 .method public P0(Lcom/commsource/studio/MatrixBox;)V
     .locals 6
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1987,15 +1987,15 @@
 .method public R0(Lcom/commsource/studio/MatrixBox;Lcom/commsource/beautyplus/f0/k0;Lcom/commsource/studio/ImageStudioViewModel;)V
     .locals 5
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/beautyplus/f0/k0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcom/commsource/studio/ImageStudioViewModel;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2227,7 +2227,7 @@
 .method public T0(ZLcom/commsource/studio/MatrixBox;)V
     .locals 2
     .param p2    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2365,11 +2365,11 @@
 .method public V(Lcom/commsource/studio/effect/k;Landroid/graphics/Bitmap;Z)V
     .locals 6
     .param p1    # Lcom/commsource/studio/effect/k;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2609,7 +2609,7 @@
 .method public V0(ZLcom/commsource/studio/MatrixBox;)V
     .locals 5
     .param p2    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3004,7 +3004,7 @@
 .method public final Y0(Lcotlin/jvm/u/a;)V
     .locals 2
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3037,7 +3037,7 @@
 .method public final Z0(Lcotlin/jvm/u/a;)V
     .locals 4
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/UiThread;
@@ -3076,7 +3076,7 @@
 
 .method public final a0()Lcom/commsource/studio/function/q;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->T:Lcom/commsource/studio/function/q;
@@ -3087,15 +3087,15 @@
 .method public b0(Lcom/commsource/studio/effect/t;Lcom/commsource/studio/sub/SubModuleEnum;Lcotlin/jvm/u/l;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/effect/t;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/sub/SubModuleEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3131,7 +3131,7 @@
 .method public final c1(Lcotlin/jvm/u/a;)V
     .locals 1
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/UiThread;
@@ -3170,7 +3170,7 @@
 .method public final d1(Lcom/commsource/studio/function/q;)V
     .locals 0
     .param p1    # Lcom/commsource/studio/function/q;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3181,7 +3181,7 @@
 
 .method public final e0()Lcom/commsource/studio/MatrixBox;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->a0:Lcom/commsource/studio/MatrixBox;
@@ -3204,14 +3204,14 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public final f1(Lcom/commsource/studio/MatrixBox;)V
     .locals 0
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3231,7 +3231,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->W:Lcotlin/jvm/u/a;
@@ -3242,7 +3242,7 @@
 .method public g1(Lcom/commsource/beautyplus/router/RouterEntity;)V
     .locals 1
     .param p1    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -3263,7 +3263,7 @@
 
 .method public abstract h1(Lcom/commsource/studio/effect/t;)V
     .param p1    # Lcom/commsource/studio/effect/t;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3285,7 +3285,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->S:Ljava/util/LinkedList;
@@ -3296,7 +3296,7 @@
 .method public final i1(Lcotlin/jvm/u/a;)V
     .locals 0
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3325,7 +3325,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->Y:Lcotlin/jvm/u/l;
@@ -3360,7 +3360,7 @@
 .method public final l1(Ljava/util/LinkedList;)V
     .locals 1
     .param p1    # Ljava/util/LinkedList;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3384,7 +3384,7 @@
 
 .method public final m0()Landroid/os/Bundle;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->f:Landroid/os/Bundle;
@@ -3395,7 +3395,7 @@
 .method public final m1(Lcotlin/jvm/u/l;)V
     .locals 0
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3416,7 +3416,7 @@
 
 .method public final n0()Lcom/commsource/beautyplus/router/RouterEntity;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->f:Landroid/os/Bundle;
@@ -3459,7 +3459,7 @@
 .method public final o1(Landroid/os/Bundle;)V
     .locals 0
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3471,7 +3471,7 @@
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 8
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3725,11 +3725,11 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 1
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3762,7 +3762,7 @@
 
 .method public final q0()Lcom/commsource/beautyplus/f0/k0;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->g:Lcotlin/w;
@@ -3786,7 +3786,7 @@
 
 .method public final r0()Lcom/commsource/studio/ImageStudioViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->J:Lcom/commsource/studio/ImageStudioViewModel;
@@ -3811,7 +3811,7 @@
 
 .method public final s0()Lcom/commsource/easyeditor/utils/opengl/f;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->N:Lcom/commsource/easyeditor/utils/opengl/f;
@@ -3822,7 +3822,7 @@
 .method public final s1(Lcom/commsource/studio/ImageStudioViewModel;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/ImageStudioViewModel;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -3837,7 +3837,7 @@
 
 .method public final t0()Lcom/commsource/studio/sub/SubModuleEnum;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->Q:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -3855,7 +3855,7 @@
 .method public final t1(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 0
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3879,7 +3879,7 @@
 
 .method public final u0()Lcom/commsource/easyeditor/utils/opengl/f;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->O:Lcom/commsource/easyeditor/utils/opengl/f;
@@ -3890,7 +3890,7 @@
 .method public final u1(Lcom/commsource/studio/sub/SubModuleEnum;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/sub/SubModuleEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -3906,7 +3906,7 @@
 .method public final v1(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 0
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3972,7 +3972,7 @@
 
 .method public final w0()Lcom/commsource/studio/component/StudioProViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/function/BaseSubFragment;->K:Lcom/commsource/studio/component/StudioProViewModel;
@@ -3990,7 +3990,7 @@
 .method public final w1(Lcom/commsource/studio/component/StudioProViewModel;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/component/StudioProViewModel;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4006,7 +4006,7 @@
 .method public final x0(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
     .locals 1
     .param p1    # Ljava/lang/Class;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -4019,7 +4019,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "clazz"

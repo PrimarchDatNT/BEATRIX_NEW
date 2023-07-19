@@ -27,12 +27,12 @@
 
 # instance fields
 .field public N:Lcom/commsource/beautyplus/f0/i;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final O:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -47,7 +47,7 @@
 .end field
 
 .field private Q:Lcom/commsource/mypage/g0;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -56,7 +56,7 @@
 .field private S:Lcom/commsource/mypage/album/y$h;
 
 .field public T:Lcom/commsource/mypage/album/z;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -634,7 +634,7 @@
 
 .method public final P0()Lcom/commsource/mypage/album/z;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6af
@@ -657,7 +657,7 @@
 
 .method public final Q0()Lcom/commsource/mypage/g0;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6ad
@@ -673,7 +673,7 @@
 
 .method public final R0()Lcom/commsource/beautyplus/f0/i;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6aa
@@ -696,7 +696,7 @@
 
 .method public final S0()Lcom/commsource/mypage/album/BpAlbumViewModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6ac
@@ -1083,7 +1083,7 @@
 .method public final b1(Lcom/commsource/mypage/album/z;)V
     .locals 2
     .param p1    # Lcom/commsource/mypage/album/z;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1105,7 +1105,7 @@
 .method public final c1(Lcom/commsource/mypage/g0;)V
     .locals 2
     .param p1    # Lcom/commsource/mypage/g0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1127,7 +1127,7 @@
 .method public final d1(Lcom/commsource/beautyplus/f0/i;)V
     .locals 2
     .param p1    # Lcom/commsource/beautyplus/f0/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1149,11 +1149,11 @@
 .method public final e1(ILcom/commsource/cloudalbum/bean/CAImageInfo;Landroid/view/View;)V
     .locals 2
     .param p2    # Lcom/commsource/cloudalbum/bean/CAImageInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Landroid/view/View;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1590,7 +1590,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 2
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1630,11 +1630,11 @@
 .method public onRequestPermissionsResult(I[Ljava/lang/String;[I)V
     .locals 2
     .param p2    # [Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # [I
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

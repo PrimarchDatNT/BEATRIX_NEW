@@ -29,7 +29,7 @@
 .method public constructor <init>(Lcom/commsource/studio/mixlayer/ShadowPosLayer;Landroid/content/Context;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/mixlayer/ShadowPosLayer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -143,7 +143,7 @@
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 5
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

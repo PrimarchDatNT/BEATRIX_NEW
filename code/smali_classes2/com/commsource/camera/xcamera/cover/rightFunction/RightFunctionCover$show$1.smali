@@ -69,7 +69,7 @@
 .method public final invoke(Lcom/commsource/camera/xcamera/cover/bottomFunction/a;)V
     .locals 4
     .param p1    # Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

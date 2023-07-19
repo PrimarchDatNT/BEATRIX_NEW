@@ -391,7 +391,7 @@
 # virtual methods
 .method public final m(J)Lkshark/internal/h$a;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/h;->b:[B
@@ -454,7 +454,7 @@
 
 .method public final o()Lkshark/internal/SortedBytesMap;
     .locals 10
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget v0, p0, Lkshark/internal/h;->e:I

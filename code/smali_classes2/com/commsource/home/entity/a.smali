@@ -8,12 +8,12 @@
 
 # instance fields
 .field private a:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private b:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -26,7 +26,7 @@
 .field private f:Lcom/meitu/hwbusinesskit/core/ad/MixAd;
 
 .field private g:Lcom/meitu/hwbusinesskit/core/bean/AdData;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -80,7 +80,7 @@
 
 .method public final b()Lcom/meitu/hwbusinesskit/core/bean/AdData;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa28a
@@ -96,7 +96,7 @@
 
 .method public final c()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa282
@@ -112,7 +112,7 @@
 
 .method public final d()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa284
@@ -128,7 +128,7 @@
 
 .method public final e()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa28e
@@ -162,7 +162,7 @@
 
 .method public final f()Lcom/meitu/hwbusinesskit/core/ad/MixAd;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa28c
@@ -193,7 +193,7 @@
 
 .method public final g()Lcom/meitu/hwbusinesskit/core/ad/MixAd;
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa28d
@@ -273,7 +273,7 @@
 .method public final j(Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
     .locals 1
     .param p1    # Lcom/meitu/hwbusinesskit/core/bean/AdData;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -291,7 +291,7 @@
 .method public final k(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -309,7 +309,7 @@
 .method public final l(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

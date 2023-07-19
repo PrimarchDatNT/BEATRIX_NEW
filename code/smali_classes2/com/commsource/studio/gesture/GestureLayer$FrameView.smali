@@ -26,7 +26,7 @@
 .method public constructor <init>(Lcom/commsource/studio/gesture/GestureLayer;Landroid/content/Context;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/gesture/GestureLayer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -122,7 +122,7 @@
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 10
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -9,22 +9,22 @@
 
 # instance fields
 .field private a:Lcom/commsource/easyeditor/utils/opengl/e;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final b:Lcom/commsource/studio/shader/n;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final c:Lcom/commsource/studio/s;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final d:Lcom/commsource/editengine/h;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -83,7 +83,7 @@
 .method public final a(Lcom/commsource/editengine/a;)V
     .locals 5
     .param p1    # Lcom/commsource/editengine/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -131,10 +131,10 @@
 .method public final b(Lcom/commsource/easyeditor/utils/opengl/f;)Lcom/commsource/easyeditor/utils/opengl/f;
     .locals 4
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7c43
@@ -173,7 +173,7 @@
 
 .method public final c()Lcom/commsource/easyeditor/utils/opengl/e;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7c3a
@@ -189,7 +189,7 @@
 
 .method public final d()Lcom/commsource/studio/s;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7c3d
@@ -205,7 +205,7 @@
 
 .method public final e()Lcom/commsource/studio/shader/n;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7c3c
@@ -221,7 +221,7 @@
 
 .method public final f()Lcom/commsource/editengine/h;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7c3e
@@ -306,7 +306,7 @@
 .method public final i(Lcom/commsource/editengine/a;)V
     .locals 5
     .param p1    # Lcom/commsource/editengine/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -370,7 +370,7 @@
 .method public final j(Lcom/commsource/easyeditor/utils/opengl/e;)V
     .locals 1
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/e;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

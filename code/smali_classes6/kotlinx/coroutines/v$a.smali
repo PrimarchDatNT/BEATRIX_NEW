@@ -38,7 +38,7 @@
 # virtual methods
 .method public final newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/Thread;

@@ -16,12 +16,12 @@
 
 # instance fields
 .field private final X:Ljava/lang/Runnable;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final Y:Landroid/view/View;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -48,7 +48,7 @@
 .method public constructor <init>(Landroid/view/View;Z)V
     .locals 0
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -387,7 +387,7 @@
 
 .method public final L()Ljava/lang/Runnable;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2380
@@ -403,7 +403,7 @@
 
 .method public final M()Landroid/view/View;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x2381

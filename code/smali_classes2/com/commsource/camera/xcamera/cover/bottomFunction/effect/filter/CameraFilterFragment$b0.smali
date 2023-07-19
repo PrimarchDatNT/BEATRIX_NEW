@@ -55,7 +55,7 @@
 .method public a(ILcom/commsource/widget/h1/f;)V
     .locals 3
     .param p2    # Lcom/commsource/widget/h1/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

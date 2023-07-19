@@ -72,7 +72,7 @@
 .method public final invoke(Lcom/commsource/material/download/b/d;)V
     .locals 2
     .param p1    # Lcom/commsource/material/download/b/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

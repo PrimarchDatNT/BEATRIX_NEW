@@ -25,7 +25,7 @@
 # virtual methods
 .method public abstract A([Lcom/commsource/home/entity/DialogDataEntity;)V
     .param p1    # [Lcom/commsource/home/entity/DialogDataEntity;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -34,7 +34,7 @@
 
 .method public abstract B0([Lcom/commsource/home/entity/DialogDataEntity;)V
     .param p1    # [Lcom/commsource/home/entity/DialogDataEntity;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -43,7 +43,7 @@
 
 .method public abstract F0(Lcom/commsource/home/entity/DialogDataEntity;)V
     .param p1    # Lcom/commsource/home/entity/DialogDataEntity;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -52,7 +52,7 @@
 
 .method public abstract I1(Lcom/commsource/home/entity/DialogDataEntity;)V
     .param p1    # Lcom/commsource/home/entity/DialogDataEntity;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -62,7 +62,7 @@
 
 .method public abstract M1(Lcom/commsource/home/entity/DialogDataEntity;)V
     .param p1    # Lcom/commsource/home/entity/DialogDataEntity;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -83,7 +83,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -101,20 +101,20 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract d(Ljava/lang/String;)Lcom/commsource/home/entity/DialogDataEntity;
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
         value = "select * from ONLINE_DIALOG_ENTITY where Rid = :key"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
@@ -132,13 +132,13 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract t2([Lcom/commsource/home/entity/DialogDataEntity;)V
     .param p1    # [Lcom/commsource/home/entity/DialogDataEntity;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;

@@ -17,7 +17,7 @@
 
 # instance fields
 .field public d:Lcom/commsource/studio/layer/BaseLayer;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -35,7 +35,7 @@
 # virtual methods
 .method public final f()Lcom/commsource/studio/layer/BaseLayer;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2704
@@ -59,7 +59,7 @@
 .method public final g(Lcom/commsource/studio/layer/BaseLayer;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/layer/BaseLayer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

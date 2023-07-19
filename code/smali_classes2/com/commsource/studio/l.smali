@@ -23,7 +23,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -36,7 +36,7 @@
 .field private final u:[F
 
 .field private final v:Lcom/commsource/studio/text/b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -45,11 +45,11 @@
 .method public constructor <init>(Lcom/commsource/studio/text/b;ILjava/lang/String;)V
     .locals 7
     .param p1    # Lcom/commsource/studio/text/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -365,7 +365,7 @@
 
 .method public final t()Lcom/commsource/studio/text/b;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x410f
@@ -393,7 +393,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x410b
@@ -410,7 +410,7 @@
 .method public final v(Lcotlin/jvm/u/q;)V
     .locals 1
     .param p1    # Lcotlin/jvm/u/q;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

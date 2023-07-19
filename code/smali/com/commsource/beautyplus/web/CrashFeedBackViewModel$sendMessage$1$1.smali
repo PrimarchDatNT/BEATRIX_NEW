@@ -68,7 +68,7 @@
 .method public final invoke(Lcom/meitu/template/bean/b;)V
     .locals 3
     .param p1    # Lcom/meitu/template/bean/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

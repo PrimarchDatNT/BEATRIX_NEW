@@ -77,7 +77,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/hppc/LongObjectScatterMap$entrySequence$1;->$slot:Lcotlin/jvm/internal/Ref$IntRef;

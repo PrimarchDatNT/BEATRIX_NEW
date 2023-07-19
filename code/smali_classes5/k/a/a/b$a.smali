@@ -19,7 +19,7 @@
 .method public static a(Lk/a/a/b;I)[Ljava/lang/Object;
     .locals 0
     .param p0    # Lk/a/a/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -32,7 +32,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string p1, "this"

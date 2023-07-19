@@ -22,17 +22,17 @@
 
 # instance fields
 .field private final J:Lcom/commsource/home/NewHomeContentViewModel;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final K:Landroid/app/Activity;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final p:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -41,11 +41,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Landroid/view/ViewGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -167,7 +167,7 @@
 
 .method public final v()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/home/BaseHomeModuleVH;->p:Ljava/lang/String;
@@ -177,7 +177,7 @@
 
 .method public final x()Landroid/app/Activity;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/home/BaseHomeModuleVH;->K:Landroid/app/Activity;
@@ -187,7 +187,7 @@
 
 .method public final y()Lcom/commsource/home/NewHomeContentViewModel;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/home/BaseHomeModuleVH;->J:Lcom/commsource/home/NewHomeContentViewModel;
@@ -198,7 +198,7 @@
 .method public final z(Landroid/view/View;)I
     .locals 4
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcom/commsource/util/k2;

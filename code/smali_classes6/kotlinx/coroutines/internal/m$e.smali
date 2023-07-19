@@ -40,7 +40,7 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -75,7 +75,7 @@
 .method public constructor <init>(Lcotlinx/coroutines/internal/m;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/internal/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -103,10 +103,10 @@
 .method protected e(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;
     .locals 1
     .param p1    # Lcotlinx/coroutines/internal/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/internal/m$e;->b:Lcotlinx/coroutines/internal/m;
@@ -129,11 +129,11 @@
 .method protected final f(Lcotlinx/coroutines/internal/m;Lcotlinx/coroutines/internal/m;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/internal/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlinx/coroutines/internal/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -147,7 +147,7 @@
 .method public g(Lcotlinx/coroutines/internal/m$d;)V
     .locals 3
     .param p1    # Lcotlinx/coroutines/internal/m$d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -170,7 +170,7 @@
 
 .method protected final h()Lcotlinx/coroutines/internal/m;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/internal/m$e;->_affectedNode:Ljava/lang/Object;
@@ -182,7 +182,7 @@
 
 .method protected final i()Lcotlinx/coroutines/internal/m;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/internal/m$e;->_originalNext:Ljava/lang/Object;
@@ -195,11 +195,11 @@
 .method protected final k(Lcotlinx/coroutines/internal/m;Ljava/lang/Object;)Z
     .locals 0
     .param p1    # Lcotlinx/coroutines/internal/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -226,10 +226,10 @@
 .method protected final l(Lcotlinx/coroutines/internal/v;)Lcotlinx/coroutines/internal/m;
     .locals 3
     .param p1    # Lcotlinx/coroutines/internal/v;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/internal/m$e;->b:Lcotlinx/coroutines/internal/m;
@@ -280,14 +280,14 @@
 .method protected final m(Lcotlinx/coroutines/internal/m;Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;
     .locals 0
     .param p1    # Lcotlinx/coroutines/internal/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlinx/coroutines/internal/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p2}, Lcotlinx/coroutines/internal/m;->A(Lcotlinx/coroutines/internal/m;)Lcotlinx/coroutines/internal/x;

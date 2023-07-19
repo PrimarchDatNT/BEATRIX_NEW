@@ -122,7 +122,7 @@
 .method public constructor <init>(Lkshark/m$b$c$c;I)V
     .locals 1
     .param p1    # Lkshark/m$b$c$c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -325,10 +325,10 @@
 .method public final j(Lkshark/m$b$c$a$a;)Lkshark/b0;
     .locals 4
     .param p1    # Lkshark/m$b$c$a$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "field"

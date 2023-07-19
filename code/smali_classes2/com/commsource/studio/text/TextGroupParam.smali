@@ -25,7 +25,7 @@
 .field public static final PRESET_COLOR:I = 0x7fffffff
 
 .field private static final defaultText:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -56,19 +56,19 @@
 .field private backgroundRadius:F
 
 .field private configPath:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private fontEditable:Z
 
 .field private fontId:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private transient formulaText:Lcom/commsource/studio/formula/convert/FormulaText;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -153,12 +153,12 @@
 .field private strokeWidth:F
 
 .field public template:Lcom/commsource/studio/text/TextTemplate;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private text:Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -257,7 +257,7 @@
 .method public constructor <init>(Lcom/commsource/studio/text/TextTemplate;)V
     .locals 3
     .param p1    # Lcom/commsource/studio/text/TextTemplate;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -413,7 +413,7 @@
 # virtual methods
 .method public clone()Ljava/lang/Object;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7630
@@ -431,7 +431,7 @@
 
 .method public final copy()Lcom/commsource/studio/text/TextGroupParam;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7626
@@ -465,7 +465,7 @@
 .method public final disableAttrs(Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;)V
     .locals 4
     .param p1    # Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -549,7 +549,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 6
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Ld/a/a;
@@ -1540,7 +1540,7 @@
 
 .method public final getConfigPath()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x75a8
@@ -1570,7 +1570,7 @@
 
 .method public final getFontId()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x75ae
@@ -1586,7 +1586,7 @@
 
 .method public final getFormulaText()Lcom/commsource/studio/formula/convert/FormulaText;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x75ac
@@ -2106,7 +2106,7 @@
 
 .method public final getTemplate()Lcom/commsource/studio/text/TextTemplate;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x75a4
@@ -2129,7 +2129,7 @@
 
 .method public final getText()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x75a6
@@ -2316,7 +2316,7 @@
 .method public final replaceTemplate(Lcom/commsource/studio/text/TextTemplate;Z)V
     .locals 2
     .param p1    # Lcom/commsource/studio/text/TextTemplate;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2434,7 +2434,7 @@
 .method public final resetValueToDefault(Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;)V
     .locals 6
     .param p1    # Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -3485,7 +3485,7 @@
 .method public final setColor(ILcom/commsource/studio/text/TextConfig$TemplateAttrEnum;Z)V
     .locals 4
     .param p2    # Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -3753,7 +3753,7 @@
 .method public final setConfigPath(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3785,7 +3785,7 @@
 .method public final setFontId(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -3803,7 +3803,7 @@
 .method public final setFormulaText(Lcom/commsource/studio/formula/convert/FormulaText;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/formula/convert/FormulaText;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -4353,7 +4353,7 @@
 .method public final setTemplate(Lcom/commsource/studio/text/TextTemplate;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/text/TextTemplate;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4375,7 +4375,7 @@
 .method public final setText(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -4505,7 +4505,7 @@
 .method public final syncTemplateAttr(Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;)V
     .locals 18
     .param p1    # Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

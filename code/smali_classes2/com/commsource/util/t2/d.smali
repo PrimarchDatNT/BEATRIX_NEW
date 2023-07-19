@@ -11,7 +11,7 @@
 
 # instance fields
 .field private final a:Landroidx/recyclerview/widget/LinearLayoutManager;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -22,12 +22,12 @@
 .field private final d:Landroid/graphics/Rect;
 
 .field private final e:Landroidx/recyclerview/widget/RecyclerView;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final f:Ll/a/a/a/a/a/a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -36,11 +36,11 @@
 .method public constructor <init>(Landroidx/recyclerview/widget/RecyclerView;Ll/a/a/a/a/a/a;)V
     .locals 1
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ll/a/a/a/a/a/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -258,7 +258,7 @@
 
 .method public final i()Landroidx/recyclerview/widget/LinearLayoutManager;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/util/t2/d;->a:Landroidx/recyclerview/widget/LinearLayoutManager;
@@ -268,7 +268,7 @@
 
 .method public final j()Landroidx/recyclerview/widget/RecyclerView;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/util/t2/d;->e:Landroidx/recyclerview/widget/RecyclerView;
@@ -278,7 +278,7 @@
 
 .method public final k()Ll/a/a/a/a/a/a;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/util/t2/d;->f:Ll/a/a/a/a/a/a;
@@ -397,7 +397,7 @@
 .method public onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
     .locals 1
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -413,7 +413,7 @@
 .method public onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
     .locals 1
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

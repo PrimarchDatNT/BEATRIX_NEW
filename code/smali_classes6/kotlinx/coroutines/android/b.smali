@@ -14,7 +14,7 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -111,13 +111,13 @@
 .method public static final d(Landroid/os/Looper;Z)Landroid/os/Handler;
     .locals 7
     .param p0    # Landroid/os/Looper;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     if-eqz p1, :cond_3
@@ -243,7 +243,7 @@
 .method public static final e(Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
     .param p0    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -257,7 +257,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/android/b;->choreographer:Landroid/view/Choreographer;
@@ -331,7 +331,7 @@
 .method public static final f(Landroid/os/Handler;)Lcotlinx/coroutines/android/a;
     .locals 2
     .param p0    # Landroid/os/Handler;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/g;
@@ -341,7 +341,7 @@
     .annotation build Lcotlin/jvm/h;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/4 v0, 0x0
@@ -358,11 +358,11 @@
 .method public static final g(Landroid/os/Handler;Ljava/lang/String;)Lcotlinx/coroutines/android/a;
     .locals 1
     .param p0    # Landroid/os/Handler;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/g;
@@ -372,7 +372,7 @@
     .annotation build Lcotlin/jvm/h;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/android/HandlerContext;

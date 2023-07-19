@@ -40,10 +40,10 @@
 .method public final createFromParcel(Landroid/os/Parcel;)Lcom/mopub/mobileads/AdData;
     .locals 25
     .param p1    # Landroid/os/Parcel;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "in"
@@ -319,7 +319,7 @@
 
 .method public final newArray(I)[Lcom/mopub/mobileads/AdData;
     .locals 0
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-array p1, p1, [Lcom/mopub/mobileads/AdData;

@@ -121,11 +121,11 @@
 .method public static final e(Ljava/io/Reader;Ljava/io/Writer;I)J
     .locals 5
     .param p0    # Ljava/io/Reader;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/io/Writer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -186,11 +186,11 @@
 .method public static final g(Ljava/io/Reader;Lcotlin/jvm/u/l;)V
     .locals 3
     .param p0    # Ljava/io/Reader;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -285,7 +285,7 @@
 .method public static final h(Ljava/io/BufferedReader;)Lcotlin/sequences/m;
     .locals 1
     .param p0    # Ljava/io/BufferedReader;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -299,7 +299,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$lineSequence"
@@ -320,10 +320,10 @@
 .method public static final i(Ljava/net/URL;)[B
     .locals 2
     .param p0    # Ljava/net/URL;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$readBytes"
@@ -370,7 +370,7 @@
 .method public static final j(Ljava/io/Reader;)Ljava/util/List;
     .locals 2
     .param p0    # Ljava/io/Reader;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -384,7 +384,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$readLines"
@@ -407,10 +407,10 @@
 .method public static final k(Ljava/io/Reader;)Ljava/lang/String;
     .locals 4
     .param p0    # Ljava/io/Reader;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$readText"
@@ -492,11 +492,11 @@
 .method public static final o(Ljava/io/Reader;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 4
     .param p0    # Ljava/io/Reader;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

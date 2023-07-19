@@ -188,7 +188,7 @@
 .method public static final Q5(Ljava/lang/CharSequence;)Ljava/util/SortedSet;
     .locals 1
     .param p0    # Ljava/lang/CharSequence;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -202,7 +202,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$toSortedSet"

@@ -11,7 +11,7 @@
 
 # instance fields
 .field public a:Lcom/commsource/camera/xcamera/cover/CoverGroup;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -30,7 +30,7 @@
 .method public a(Ljava/util/List;Z)V
     .locals 0
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -49,7 +49,7 @@
 .method public b(Lcom/commsource/camera/xcamera/cover/CoverGroup;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/cover/CoverGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -65,7 +65,7 @@
 .method public e(IILandroid/content/Intent;)V
     .locals 0
     .param p3    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -75,7 +75,7 @@
 .method public f(Lcom/commsource/camera/xcamera/cover/CoverGroup;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/cover/CoverGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -117,7 +117,7 @@
 .method public k(Lcom/commsource/beautyplus/router/RouterEntity;)V
     .locals 1
     .param p1    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -139,7 +139,7 @@
 .method public n(Landroid/view/MotionEvent;)Z
     .locals 0
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -205,7 +205,7 @@
 .method public p(Landroid/view/KeyEvent;)Z
     .locals 0
     .param p1    # Landroid/view/KeyEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -216,7 +216,7 @@
 
 .method public final q()Lcom/commsource/camera/xcamera/cover/CoverGroup;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/a;->a:Lcom/commsource/camera/xcamera/cover/CoverGroup;
@@ -234,7 +234,7 @@
 .method public final r(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
     .locals 6
     .param p1    # Ljava/lang/Class;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -247,7 +247,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "clazz"
@@ -339,7 +339,7 @@
 .method public final x(Lcom/commsource/camera/xcamera/cover/CoverGroup;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/xcamera/cover/CoverGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

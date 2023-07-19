@@ -13,14 +13,14 @@
 .field private categoryIdWhenSelect:I
 
 .field private transient categoryInfo:Lcom/commsource/beautyfilter/a;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private collectionIndex:I
 
 .field private transient filter:Lcom/meitu/template/bean/Filter;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -63,11 +63,11 @@
 .method public constructor <init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;)V
     .locals 0
     .param p6    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p7    # Lcom/commsource/beautyfilter/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -414,7 +414,7 @@
 
 .method public final component6()Lcom/meitu/template/bean/Filter;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6ac6
@@ -430,7 +430,7 @@
 
 .method public final component7()Lcom/commsource/beautyfilter/a;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6ac7
@@ -447,14 +447,14 @@
 .method public final copy(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
     .locals 10
     .param p6    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p7    # Lcom/commsource/beautyfilter/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6ac8
@@ -489,7 +489,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -588,7 +588,7 @@
 
 .method public final getCategoryInfo()Lcom/commsource/beautyfilter/a;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6abf
@@ -618,7 +618,7 @@
 
 .method public final getFilter()Lcom/meitu/template/bean/Filter;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6abd
@@ -857,7 +857,7 @@
 .method public final setCategoryInfo(Lcom/commsource/beautyfilter/a;)V
     .locals 1
     .param p1    # Lcom/commsource/beautyfilter/a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -889,7 +889,7 @@
 .method public final setFilter(Lcom/meitu/template/bean/Filter;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -966,7 +966,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6aca

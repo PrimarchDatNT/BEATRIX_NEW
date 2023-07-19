@@ -51,7 +51,7 @@
 .method public final a(Lcom/commsource/studio/bean/g;)V
     .locals 7
     .param p1    # Lcom/commsource/studio/bean/g;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

@@ -20,7 +20,7 @@
 .field private final d:F
 
 .field private final f:Landroid/widget/EditText;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -29,7 +29,7 @@
 .method public constructor <init>(Landroid/widget/EditText;)V
     .locals 1
     .param p1    # Landroid/widget/EditText;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -147,7 +147,7 @@
 .method public afterTextChanged(Landroid/text/Editable;)V
     .locals 3
     .param p1    # Landroid/text/Editable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -190,7 +190,7 @@
 .method public final b(Ljava/lang/String;)F
     .locals 12
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -354,7 +354,7 @@
 .method public beforeTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
     .param p1    # Ljava/lang/CharSequence;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -369,7 +369,7 @@
 
 .method public final c()Landroid/widget/EditText;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x937e
@@ -386,7 +386,7 @@
 .method public onTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
     .param p1    # Ljava/lang/CharSequence;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

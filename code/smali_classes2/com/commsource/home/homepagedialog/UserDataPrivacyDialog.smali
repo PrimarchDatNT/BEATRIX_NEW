@@ -15,12 +15,12 @@
 
 # static fields
 .field public static final f:Ljava/lang/String; = "UserDataPrivacyDialog"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final g:Ljava/lang/String; = "UserDataPrivacyConfirmDialog"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -33,7 +33,7 @@
 .field private d:Lcom/commsource/widget/dialog/delegate/b;
 
 .field private final e:Lcom/commsource/beautyplus/BaseActivity;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -62,7 +62,7 @@
 .method public constructor <init>(Lcom/commsource/beautyplus/BaseActivity;)V
     .locals 1
     .param p1    # Lcom/commsource/beautyplus/BaseActivity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -389,7 +389,7 @@
 
 .method public final o()Lcom/commsource/beautyplus/BaseActivity;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2b3a

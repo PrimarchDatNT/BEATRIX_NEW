@@ -8,7 +8,7 @@
 
 # static fields
 .field public static final INSTANCE:Lcom/mopub/network/MoPubRequestUtils;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -37,13 +37,13 @@
 .method public static final chooseMethod(Ljava/lang/String;)Lcom/mopub/network/MoPubRequest$Method;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "url"
@@ -70,7 +70,7 @@
 .method public static final isMoPubRequest(Ljava/lang/String;)Z
     .locals 4
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
@@ -112,13 +112,13 @@
 .method public static final truncateQueryParamsIfPost(Ljava/lang/String;)Ljava/lang/String;
     .locals 7
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "url"

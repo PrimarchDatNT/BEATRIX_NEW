@@ -37,7 +37,7 @@
 .method public final isAbsoluteTracker(Ljava/lang/String;)Z
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -90,10 +90,10 @@
 .method public final parseAbsoluteOffset(Ljava/lang/String;)Ljava/lang/Integer;
     .locals 8
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/4 v0, 0x0

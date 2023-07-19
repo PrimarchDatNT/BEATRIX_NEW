@@ -109,7 +109,7 @@
 .method public synthetic constructor <init>(Landroid/content/Context;Lcotlin/jvm/internal/u;)V
     .locals 0
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -120,7 +120,7 @@
 
 .method public static final synthetic a()Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xb92e
@@ -137,7 +137,7 @@
 .method public static final synthetic b(Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;)V
     .locals 1
     .param p0    # Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -192,7 +192,7 @@
 .method public final d(Ljava/lang/String;I)I
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -254,14 +254,14 @@
 .method public final e(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xb92d
@@ -318,7 +318,7 @@
 .method public final declared-synchronized f(Ljava/lang/String;I)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -374,11 +374,11 @@
 .method public final declared-synchronized g(Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

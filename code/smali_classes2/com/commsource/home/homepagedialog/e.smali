@@ -8,12 +8,12 @@
 
 # instance fields
 .field private c:Lcom/commsource/widget/dialog/s0/t;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final d:Lcom/commsource/beautyplus/BaseActivity;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -22,7 +22,7 @@
 .method public constructor <init>(Lcom/commsource/beautyplus/BaseActivity;)V
     .locals 1
     .param p1    # Lcom/commsource/beautyplus/BaseActivity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -312,7 +312,7 @@
 
 .method public final k()Lcom/commsource/beautyplus/BaseActivity;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xa468
@@ -328,7 +328,7 @@
 
 .method public final l()Lcom/commsource/widget/dialog/s0/t;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0xa461
@@ -345,7 +345,7 @@
 .method public final m(Lcom/commsource/widget/dialog/s0/t;)V
     .locals 1
     .param p1    # Lcom/commsource/widget/dialog/s0/t;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

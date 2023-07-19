@@ -66,7 +66,7 @@
 .method public d(Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$Model;)V
     .locals 2
     .param p1    # Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenCameraScript$Model;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

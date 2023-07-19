@@ -20,13 +20,13 @@
 .method public final a(Lcom/commsource/repository/FileObject;)Ljava/lang/String;
     .locals 2
     .param p1    # Lcom/commsource/repository/FileObject;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/room/TypeConverter;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7869
@@ -57,13 +57,13 @@
 .method public final b(Ljava/lang/String;)Lcom/commsource/repository/FileObject;
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/room/TypeConverter;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x786a

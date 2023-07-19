@@ -19,24 +19,24 @@
 
 # static fields
 .field public static final CURRENT_POSITION:Ljava/lang/String; = "current_position"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final Companion:Lcom/mopub/mobileads/VastVideoViewController$Companion;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final RESUMED_VAST_CONFIG:Ljava/lang/String; = "resumed_vast_config"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private static final SEEKER_POSITION_NOT_INITIALIZED:I = -0x1
 
 .field public static final VAST_VIDEO_CONFIG:Ljava/lang/String; = "vast_video_config"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -49,14 +49,14 @@
 
 # instance fields
 .field private final activity:Landroid/app/Activity;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public bottomGradientStripWidget:Lcom/mopub/mobileads/VastVideoGradientStripWidget;
 
 .field private final clickThroughListener:Landroid/view/View$OnTouchListener;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -69,14 +69,14 @@
 .field public creativeExperienceSettings:Lcom/mopub/mobileads/CreativeExperienceSettings;
 
 .field private final ctaButtonWidget:Lcom/mopub/mobileads/VideoCtaButtonWidget;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final externalViewabilitySessionManager:Lcom/mopub/common/ExternalViewabilitySessionManager;
 
 .field private final extras:Landroid/os/Bundle;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -91,12 +91,12 @@
 .field private isComplete:Z
 
 .field private final mediaPlayer:Landroidx/media2/player/MediaPlayer;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final playerCallback:Lcom/mopub/mobileads/VastVideoViewController$PlayerCallback;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -107,7 +107,7 @@
 .field public radialCountdownWidget:Lcom/mopub/mobileads/RadialCountdownWidget;
 
 .field private final savedInstanceState:Landroid/os/Bundle;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -132,12 +132,12 @@
 .end field
 
 .field private final vastIconConfig:Lcom/mopub/mobileads/VastIconConfig;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private final vastVideoConfig:Lcom/mopub/mobileads/VastVideoConfig;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -164,19 +164,19 @@
 .method public constructor <init>(Landroid/app/Activity;Landroid/os/Bundle;Landroid/os/Bundle;JLcom/mopub/mobileads/BaseVideoViewController$BaseVideoViewControllerListener;)V
     .locals 14
     .param p1    # Landroid/app/Activity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p6    # Lcom/mopub/mobileads/BaseVideoViewController$BaseVideoViewControllerListener;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1472,7 +1472,7 @@
 
 .method public getActivity()Landroid/app/Activity;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController;->activity:Landroid/app/Activity;
@@ -1482,7 +1482,7 @@
 
 .method public getBottomGradientStripWidget()Lcom/mopub/mobileads/VastVideoGradientStripWidget;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController;->bottomGradientStripWidget:Lcom/mopub/mobileads/VastVideoGradientStripWidget;
@@ -1499,7 +1499,7 @@
 
 .method public getClickThroughListener()Landroid/view/View$OnTouchListener;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController;->clickThroughListener:Landroid/view/View$OnTouchListener;
@@ -1509,7 +1509,7 @@
 
 .method public getCloseButtonWidget()Lcom/mopub/mobileads/VastVideoCloseButtonWidget;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController;->closeButtonWidget:Lcom/mopub/mobileads/VastVideoCloseButtonWidget;
@@ -1534,7 +1534,7 @@
 
 .method public getCreativeExperienceSettings()Lcom/mopub/mobileads/CreativeExperienceSettings;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController;->creativeExperienceSettings:Lcom/mopub/mobileads/CreativeExperienceSettings;
@@ -1551,7 +1551,7 @@
 
 .method public getCtaButtonWidget()Lcom/mopub/mobileads/VideoCtaButtonWidget;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController;->ctaButtonWidget:Lcom/mopub/mobileads/VideoCtaButtonWidget;
@@ -1593,7 +1593,7 @@
 
 .method public getExtras()Landroid/os/Bundle;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController;->extras:Landroid/os/Bundle;
@@ -1611,7 +1611,7 @@
 
 .method public getIconView()Landroid/view/View;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController;->iconView:Landroid/view/View;
@@ -1628,7 +1628,7 @@
 
 .method public getMediaPlayer()Landroidx/media2/player/MediaPlayer;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController;->mediaPlayer:Landroidx/media2/player/MediaPlayer;
@@ -1638,7 +1638,7 @@
 
 .method public getNetworkMediaFileUrl()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastVideoViewController;->getVastVideoConfig()Lcom/mopub/mobileads/VastVideoConfig;
@@ -1654,7 +1654,7 @@
 
 .method public getPlayerCallback()Lcom/mopub/mobileads/VastVideoViewController$PlayerCallback;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController;->playerCallback:Lcom/mopub/mobileads/VastVideoViewController$PlayerCallback;
@@ -1664,7 +1664,7 @@
 
 .method public getProgressBarWidget()Lcom/mopub/mobileads/VastVideoProgressBarWidget;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController;->progressBarWidget:Lcom/mopub/mobileads/VastVideoProgressBarWidget;
@@ -1681,7 +1681,7 @@
 
 .method public getRadialCountdownWidget()Lcom/mopub/mobileads/RadialCountdownWidget;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController;->radialCountdownWidget:Lcom/mopub/mobileads/RadialCountdownWidget;
@@ -1698,7 +1698,7 @@
 
 .method public getSavedInstanceState()Landroid/os/Bundle;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController;->savedInstanceState:Landroid/os/Bundle;
@@ -1732,7 +1732,7 @@
 
 .method public getTopGradientStripWidget()Lcom/mopub/mobileads/VastVideoGradientStripWidget;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController;->topGradientStripWidget:Lcom/mopub/mobileads/VastVideoGradientStripWidget;
@@ -1749,7 +1749,7 @@
 
 .method public getVastIconConfig()Lcom/mopub/mobileads/VastIconConfig;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController;->vastIconConfig:Lcom/mopub/mobileads/VastIconConfig;
@@ -1759,7 +1759,7 @@
 
 .method public getVastVideoConfig()Lcom/mopub/mobileads/VastVideoConfig;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController;->vastVideoConfig:Lcom/mopub/mobileads/VastVideoConfig;
@@ -1777,7 +1777,7 @@
 
 .method protected getVideoView()Landroid/view/View;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController;->videoView:Landroidx/media2/widget/VideoView;
@@ -2091,7 +2091,7 @@
 .method public handleViewabilityQuartileEvent(Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2144,7 +2144,7 @@
 .method protected onActivityResult(IILandroid/content/Intent;)V
     .locals 0
     .param p3    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2187,7 +2187,7 @@
 .method protected onConfigurationChanged(Landroid/content/res/Configuration;)V
     .locals 1
     .param p1    # Landroid/content/res/Configuration;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2451,7 +2451,7 @@
 .method protected onSaveInstanceState(Landroid/os/Bundle;)V
     .locals 2
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2479,7 +2479,7 @@
 .method public setBottomGradientStripWidget(Lcom/mopub/mobileads/VastVideoGradientStripWidget;)V
     .locals 1
     .param p1    # Lcom/mopub/mobileads/VastVideoGradientStripWidget;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2503,7 +2503,7 @@
 .method public setCloseButtonWidget(Lcom/mopub/mobileads/VastVideoCloseButtonWidget;)V
     .locals 1
     .param p1    # Lcom/mopub/mobileads/VastVideoCloseButtonWidget;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2543,7 +2543,7 @@
 .method public setCreativeExperienceSettings(Lcom/mopub/mobileads/CreativeExperienceSettings;)V
     .locals 1
     .param p1    # Lcom/mopub/mobileads/CreativeExperienceSettings;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2567,7 +2567,7 @@
 .method public setIconView(Landroid/view/View;)V
     .locals 1
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2583,7 +2583,7 @@
 .method public setProgressBarWidget(Lcom/mopub/mobileads/VastVideoProgressBarWidget;)V
     .locals 1
     .param p1    # Lcom/mopub/mobileads/VastVideoProgressBarWidget;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2599,7 +2599,7 @@
 .method public setRadialCountdownWidget(Lcom/mopub/mobileads/RadialCountdownWidget;)V
     .locals 1
     .param p1    # Lcom/mopub/mobileads/RadialCountdownWidget;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2639,7 +2639,7 @@
 .method public setTopGradientStripWidget(Lcom/mopub/mobileads/VastVideoGradientStripWidget;)V
     .locals 1
     .param p1    # Lcom/mopub/mobileads/VastVideoGradientStripWidget;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -2655,7 +2655,7 @@
 .method public setVastCompanionAdConfigsForTesting(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

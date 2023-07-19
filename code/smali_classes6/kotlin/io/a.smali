@@ -303,11 +303,11 @@
 .method public static final k(Ljava/io/InputStream;Ljava/io/OutputStream;I)J
     .locals 5
     .param p0    # Ljava/io/InputStream;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/io/OutputStream;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -392,10 +392,10 @@
 .method public static final o(Ljava/io/BufferedInputStream;)Lcotlin/collections/q;
     .locals 1
     .param p0    # Ljava/io/BufferedInputStream;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$iterator"
@@ -412,14 +412,14 @@
 .method public static final p(Ljava/io/InputStream;)[B
     .locals 4
     .param p0    # Ljava/io/InputStream;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlin/s0;
         version = "1.3"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$readBytes"
@@ -462,7 +462,7 @@
 .method public static final q(Ljava/io/InputStream;I)[B
     .locals 3
     .param p0    # Ljava/io/InputStream;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -473,7 +473,7 @@
         .end subannotation
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$readBytes"

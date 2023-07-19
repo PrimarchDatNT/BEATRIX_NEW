@@ -92,7 +92,7 @@
 .method public final invoke(Lcom/commsource/studio/formula/convert/g;)V
     .locals 3
     .param p1    # Lcom/commsource/studio/formula/convert/g;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

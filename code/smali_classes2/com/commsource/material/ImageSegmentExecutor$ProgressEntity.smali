@@ -17,7 +17,7 @@
 
 # instance fields
 .field private model:Lcom/commsource/material/download/SegmentModel;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -28,7 +28,7 @@
 .method public constructor <init>(Lcom/commsource/material/download/SegmentModel;I)V
     .locals 1
     .param p1    # Lcom/commsource/material/download/SegmentModel;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -94,7 +94,7 @@
 # virtual methods
 .method public final component1()Lcom/commsource/material/download/SegmentModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x28d8
@@ -125,10 +125,10 @@
 .method public final copy(Lcom/commsource/material/download/SegmentModel;I)Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;
     .locals 2
     .param p1    # Lcom/commsource/material/download/SegmentModel;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x28da
@@ -151,7 +151,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -202,7 +202,7 @@
 
 .method public final getModel()Lcom/commsource/material/download/SegmentModel;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x28d4
@@ -265,7 +265,7 @@
 .method public final setModel(Lcom/commsource/material/download/SegmentModel;)V
     .locals 2
     .param p1    # Lcom/commsource/material/download/SegmentModel;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -300,7 +300,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x28dc

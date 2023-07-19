@@ -160,7 +160,7 @@
 .method public a(ILandroid/graphics/RectF;)V
     .locals 2
     .param p2    # Landroid/graphics/RectF;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -333,7 +333,7 @@
 .method public onTouchEvent(Landroid/view/MotionEvent;)V
     .locals 2
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

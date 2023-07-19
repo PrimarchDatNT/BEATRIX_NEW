@@ -29,7 +29,7 @@
 .field private W:Z
 
 .field private X:Lcom/commsource/studio/doodle/ColorPickerLayer$a;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -40,11 +40,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/graphics/Bitmap;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -444,7 +444,7 @@
 # virtual methods
 .method public final E0()Landroid/graphics/Bitmap;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6675
@@ -460,7 +460,7 @@
 
 .method public final F0()Lcom/commsource/studio/doodle/ColorPickerLayer$a;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6671
@@ -491,7 +491,7 @@
 .method public final K0(Landroid/graphics/Bitmap;)V
     .locals 2
     .param p1    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -517,7 +517,7 @@
 .method public final L0(Lcom/commsource/studio/doodle/ColorPickerLayer$a;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/doodle/ColorPickerLayer$a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -549,7 +549,7 @@
 .method public Z(Lcom/commsource/studio/MatrixBox;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -574,7 +574,7 @@
 
 .method public c0()Landroid/view/View;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6676
@@ -591,7 +591,7 @@
 .method public f(FFLandroid/view/MotionEvent;)V
     .locals 2
     .param p3    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -613,7 +613,7 @@
 .method public g(FFLandroid/view/MotionEvent;)V
     .locals 2
     .param p3    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -645,7 +645,7 @@
 .method public j(FFLandroid/view/MotionEvent;)V
     .locals 2
     .param p3    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -722,7 +722,7 @@
 .method public v(FFLandroid/view/MotionEvent;)V
     .locals 2
     .param p3    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -744,7 +744,7 @@
 .method public x(FFZZLandroid/view/MotionEvent;)V
     .locals 0
     .param p5    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

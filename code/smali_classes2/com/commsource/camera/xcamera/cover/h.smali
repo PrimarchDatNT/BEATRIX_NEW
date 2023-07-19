@@ -15,7 +15,7 @@
 # virtual methods
 .method public abstract a(Ljava/util/List;Z)V
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -31,14 +31,14 @@
 
 .method public abstract e(IILandroid/content/Intent;)V
     .param p3    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 .end method
 
 .method public abstract g(Lcom/commsource/beautyplus/router/RouterEntity;)V
     .param p1    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method
@@ -54,7 +54,7 @@
 
 .method public abstract k(Lcom/commsource/beautyplus/router/RouterEntity;)V
     .param p1    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method
@@ -64,7 +64,7 @@
 
 .method public abstract n(Landroid/view/MotionEvent;)Z
     .param p1    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 .end method
@@ -74,7 +74,7 @@
 
 .method public abstract p(Landroid/view/KeyEvent;)Z
     .param p1    # Landroid/view/KeyEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 .end method

@@ -313,7 +313,7 @@
 # virtual methods
 .method public final a()Landroid/os/Bundle;
     .locals 9
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0xc191

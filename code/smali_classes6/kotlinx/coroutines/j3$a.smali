@@ -37,7 +37,7 @@
 # virtual methods
 .method public final a(Ljava/lang/Runnable;)Lcotlinx/coroutines/t2;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcotlinx/coroutines/t2;

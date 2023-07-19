@@ -55,11 +55,11 @@
 .method public final a(ILjava/lang/String;Lcom/meitu/core/types/FaceData;II)V
     .locals 7
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p3    # Lcom/meitu/core/types/FaceData;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

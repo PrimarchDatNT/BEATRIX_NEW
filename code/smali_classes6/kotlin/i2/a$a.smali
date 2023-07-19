@@ -82,7 +82,7 @@
 
 .method public e(D)Lcotlin/i2/o;
     .locals 8
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v7, Lcotlin/i2/a$a;

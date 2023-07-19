@@ -32,7 +32,7 @@
 .field public static final enum CURRENCY_SYMBOL:Lcotlin/text/CharCategory;
 
 .field public static final Companion:Lcotlin/text/CharCategory$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -93,7 +93,7 @@
 
 # instance fields
 .field private final code:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -660,7 +660,7 @@
 
 .method public final getCode()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/text/CharCategory;->code:Ljava/lang/String;

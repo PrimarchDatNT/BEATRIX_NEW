@@ -75,7 +75,7 @@
 .method public final invoke(ZLandroid/graphics/Bitmap;)V
     .locals 4
     .param p2    # Landroid/graphics/Bitmap;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

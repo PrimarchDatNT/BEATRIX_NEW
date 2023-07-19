@@ -51,11 +51,11 @@
 .method public a(Lcom/meitu/template/bean/j;Lcom/meitu/template/bean/j;)I
     .locals 7
     .param p1    # Lcom/meitu/template/bean/j;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/template/bean/j;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

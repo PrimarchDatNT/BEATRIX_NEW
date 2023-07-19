@@ -24,7 +24,7 @@
 .method public constructor <init>(ZI[B)V
     .locals 1
     .param p3    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -230,7 +230,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget v0, p0, Lkshark/internal/SortedBytesMap;->c:I
@@ -258,7 +258,7 @@
 
 .method public final j(J)Lkshark/internal/a;
     .locals 3
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-direct {p0, p1, p2}, Lkshark/internal/SortedBytesMap;->g(J)I

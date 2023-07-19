@@ -9,7 +9,7 @@
 # virtual methods
 .method public abstract a(IIJLjava/lang/String;)V
     .param p5    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

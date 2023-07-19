@@ -50,7 +50,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -145,7 +145,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -1658,7 +1658,7 @@
 .method public final A(Lcom/meitu/template/bean/StickerGroup;)V
     .locals 3
     .param p1    # Lcom/meitu/template/bean/StickerGroup;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1714,7 +1714,7 @@
 .method public final F(Lcom/meitu/template/bean/StickerGroup;)V
     .locals 3
     .param p1    # Lcom/meitu/template/bean/StickerGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1742,7 +1742,7 @@
 .method public final I(Lcom/meitu/template/bean/Sticker;ZI)V
     .locals 9
     .param p1    # Lcom/meitu/template/bean/Sticker;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1814,11 +1814,11 @@
 .method public final J(Lcom/meitu/template/bean/StickerGroup;ZLjava/lang/String;)V
     .locals 6
     .param p1    # Lcom/meitu/template/bean/StickerGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1946,7 +1946,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8860
@@ -2848,7 +2848,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8854
@@ -2865,10 +2865,10 @@
 .method public final M(Lcom/meitu/template/bean/Sticker;I)Lcom/commsource/material/download/b/c;
     .locals 2
     .param p1    # Lcom/meitu/template/bean/Sticker;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8863
@@ -2903,7 +2903,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8853
@@ -2928,7 +2928,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8861
@@ -2987,7 +2987,7 @@
 
 .method public final P(I)Lcom/meitu/template/bean/Sticker;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8871
@@ -3009,7 +3009,7 @@
 
 .method public final Q(I)Lcom/meitu/template/bean/StickerGroup;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8872
@@ -3031,7 +3031,7 @@
 
 .method public final R(I)Lcom/meitu/template/bean/StickerGroup;
     .locals 5
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8873
@@ -3097,7 +3097,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8870
@@ -3209,10 +3209,10 @@
 .method public final T(Lcom/meitu/template/bean/Sticker;)Lcom/commsource/material/download/c/d;
     .locals 9
     .param p1    # Lcom/meitu/template/bean/Sticker;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8862
@@ -3856,7 +3856,7 @@
 .method public final Z(Lcom/meitu/template/bean/Sticker;)V
     .locals 3
     .param p1    # Lcom/meitu/template/bean/Sticker;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -3964,7 +3964,7 @@
 .method public final b0(Lcom/meitu/template/bean/Sticker;)Z
     .locals 3
     .param p1    # Lcom/meitu/template/bean/Sticker;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4104,7 +4104,7 @@
 .method public final e0(Lcom/meitu/template/bean/Sticker;Z)V
     .locals 2
     .param p1    # Lcom/meitu/template/bean/Sticker;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4161,7 +4161,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8878
@@ -4186,7 +4186,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x887d
@@ -4211,7 +4211,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8879
@@ -4236,7 +4236,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x887b
@@ -4313,7 +4313,7 @@
 .method public final m0(Lcom/meitu/template/bean/StickerGroup;)V
     .locals 3
     .param p1    # Lcom/meitu/template/bean/StickerGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4341,7 +4341,7 @@
 .method public final n0(Lcom/meitu/template/bean/Sticker;)V
     .locals 7
     .param p1    # Lcom/meitu/template/bean/Sticker;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4517,7 +4517,7 @@
 .method public final o0(Lcom/meitu/template/bean/Sticker;)V
     .locals 3
     .param p1    # Lcom/meitu/template/bean/Sticker;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4545,11 +4545,11 @@
 .method public final x(Ljava/lang/String;Lcom/meitu/template/bean/Sticker;)V
     .locals 5
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/template/bean/Sticker;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4651,7 +4651,7 @@
 .method public final y(Ljava/lang/String;)V
     .locals 9
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -4797,7 +4797,7 @@
 .method public final z(Lcom/meitu/template/bean/e;)V
     .locals 2
     .param p1    # Lcom/meitu/template/bean/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

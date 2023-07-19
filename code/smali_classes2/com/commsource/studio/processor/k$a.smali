@@ -36,7 +36,7 @@
 # virtual methods
 .method public final a()Ljava/lang/String;
     .locals 5
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x7806

@@ -10,7 +10,7 @@
 .field private final c:Lcom/commsource/beautyplus/permission/b;
 
 .field private final d:Lcom/commsource/beautyplus/BaseActivity;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -19,7 +19,7 @@
 .method public constructor <init>(Lcom/commsource/beautyplus/BaseActivity;)V
     .locals 1
     .param p1    # Lcom/commsource/beautyplus/BaseActivity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -277,7 +277,7 @@
 
 .method public final k()Lcom/commsource/beautyplus/BaseActivity;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8489

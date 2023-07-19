@@ -16,7 +16,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -25,7 +25,7 @@
 .method public constructor <init>(Landroidx/fragment/app/FragmentManager;)V
     .locals 1
     .param p1    # Landroidx/fragment/app/FragmentManager;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -51,7 +51,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3776
@@ -68,7 +68,7 @@
 .method public final b(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -119,7 +119,7 @@
 
 .method public getItem(I)Landroidx/fragment/app/Fragment;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 p1, 0x3779
@@ -138,7 +138,7 @@
 .method public getItemPosition(Ljava/lang/Object;)I
     .locals 2
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -160,10 +160,10 @@
 .method public instantiateItem(Landroid/view/ViewGroup;I)Ljava/lang/Object;
     .locals 2
     .param p1    # Landroid/view/ViewGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3778

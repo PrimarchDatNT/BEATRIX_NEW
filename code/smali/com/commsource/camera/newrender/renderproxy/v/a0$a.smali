@@ -43,7 +43,7 @@
 .method public onAccuracyChanged(Landroid/hardware/Sensor;I)V
     .locals 1
     .param p1    # Landroid/hardware/Sensor;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -63,7 +63,7 @@
 .method public onSensorChanged(Landroid/hardware/SensorEvent;)V
     .locals 2
     .param p1    # Landroid/hardware/SensorEvent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

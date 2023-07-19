@@ -79,7 +79,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/SortedBytesMap$entrySequence$1;->this$0:Lkshark/internal/SortedBytesMap;

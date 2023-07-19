@@ -26,7 +26,7 @@
 
 .method public abstract onError(ILjava/lang/String;)V
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 .end method

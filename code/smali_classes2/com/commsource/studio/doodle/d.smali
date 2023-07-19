@@ -37,7 +37,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -194,7 +194,7 @@
 .method public final b(Lcom/meitu/template/bean/Doodle;)V
     .locals 3
     .param p1    # Lcom/meitu/template/bean/Doodle;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -221,7 +221,7 @@
 
 .method public final c(I)Lcom/meitu/template/bean/Doodle;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x6529
@@ -252,7 +252,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6528
@@ -370,7 +370,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6523
@@ -395,7 +395,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6524
@@ -741,7 +741,7 @@
 .method public final i(Lcom/meitu/template/bean/Doodle;)V
     .locals 3
     .param p1    # Lcom/meitu/template/bean/Doodle;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

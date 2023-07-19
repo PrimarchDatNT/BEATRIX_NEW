@@ -23,7 +23,7 @@
 .field public static final C4:Lcom/commsource/camera/xcamera/cover/confirm/c$a;
 
 .field public static final D4:Ljava/lang/String; = "com.commsource.beautyplus.moviemodelpackage7"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 

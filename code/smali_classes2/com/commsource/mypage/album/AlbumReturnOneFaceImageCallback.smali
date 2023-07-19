@@ -30,11 +30,11 @@
 .method public onImageSelect(Landroid/app/Activity;Lcom/commsource/mypage/album/w;)V
     .locals 4
     .param p1    # Landroid/app/Activity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/mypage/album/w;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

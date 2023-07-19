@@ -38,11 +38,11 @@
 .method public final a(IILcom/commsource/cloudalbum/bean/CAImageInfo;Landroid/view/View;)V
     .locals 10
     .param p3    # Lcom/commsource/cloudalbum/bean/CAImageInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

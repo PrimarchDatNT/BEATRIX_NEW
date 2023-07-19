@@ -493,7 +493,7 @@
 
 .method public static final k(J)Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xa
@@ -507,7 +507,7 @@
 
 .method public static final l(JI)Ljava/lang/String;
     .locals 8
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "java.lang.Long.toString(this, checkRadix(radix))"

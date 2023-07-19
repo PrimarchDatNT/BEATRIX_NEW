@@ -18,7 +18,7 @@
 
 # instance fields
 .field public b:Landroid/view/ViewStub;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -29,7 +29,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -53,7 +53,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->c:Landroidx/databinding/ViewDataBinding;
@@ -63,7 +63,7 @@
 
 .method public final B()Landroid/view/ViewStub;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->b:Landroid/view/ViewStub;
@@ -81,7 +81,7 @@
 .method public final C(Landroidx/databinding/ViewDataBinding;)V
     .locals 0
     .param p1    # Landroidx/databinding/ViewDataBinding;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -98,7 +98,7 @@
 .method public final D(Landroid/view/ViewStub;)V
     .locals 1
     .param p1    # Landroid/view/ViewStub;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -114,7 +114,7 @@
 .method public f(Lcom/commsource/camera/xcamera/cover/CoverGroup;)V
     .locals 3
     .param p1    # Lcom/commsource/camera/xcamera/cover/CoverGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

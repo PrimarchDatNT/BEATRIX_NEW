@@ -16,7 +16,7 @@
 .method public constructor <init>(Landroid/widget/ImageView;)V
     .locals 1
     .param p1    # Landroid/widget/ImageView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

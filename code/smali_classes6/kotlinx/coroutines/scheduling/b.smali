@@ -8,7 +8,7 @@
 
 # static fields
 .field private static final J:Lcotlinx/coroutines/CoroutineDispatcher;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -82,7 +82,7 @@
 # virtual methods
 .method public final O()Lcotlinx/coroutines/CoroutineDispatcher;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/scheduling/b;->J:Lcotlinx/coroutines/CoroutineDispatcher;
@@ -95,7 +95,7 @@
     .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-super {p0}, Lcotlinx/coroutines/scheduling/c;->toString()Ljava/lang/String;
@@ -119,7 +119,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "DefaultDispatcher"

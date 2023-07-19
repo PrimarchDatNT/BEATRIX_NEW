@@ -72,7 +72,7 @@
 .method public final invoke(Lcom/commsource/studio/effect/t;)V
     .locals 5
     .param p1    # Lcom/commsource/studio/effect/t;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

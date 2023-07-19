@@ -38,10 +38,10 @@
 .method public final a(Lkshark/HeapAnalysisSuccess;)Lkshark/HeapAnalysisSuccess;
     .locals 12
     .param p1    # Lkshark/HeapAnalysisSuccess;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "fromV20"

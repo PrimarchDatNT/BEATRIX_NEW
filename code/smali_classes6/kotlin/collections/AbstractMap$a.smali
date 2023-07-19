@@ -38,11 +38,11 @@
 .method public final a(Ljava/util/Map$Entry;Ljava/lang/Object;)Z
     .locals 3
     .param p1    # Ljava/util/Map$Entry;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -107,7 +107,7 @@
 .method public final b(Ljava/util/Map$Entry;)I
     .locals 2
     .param p1    # Ljava/util/Map$Entry;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -159,7 +159,7 @@
 .method public final c(Ljava/util/Map$Entry;)Ljava/lang/String;
     .locals 2
     .param p1    # Ljava/util/Map$Entry;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -171,7 +171,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "e"

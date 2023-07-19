@@ -48,7 +48,7 @@
 .method public static final c(Lcotlin/e;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
     .param p0    # Lcotlin/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

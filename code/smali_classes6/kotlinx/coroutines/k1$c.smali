@@ -141,7 +141,7 @@
 .method public g(Lcotlinx/coroutines/internal/k0;)V
     .locals 2
     .param p1    # Lcotlinx/coroutines/internal/k0;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -198,7 +198,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/k1$c;->a:Ljava/lang/Object;
@@ -218,7 +218,7 @@
 .method public o(Lcotlinx/coroutines/k1$c;)I
     .locals 4
     .param p1    # Lcotlinx/coroutines/k1$c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -255,11 +255,11 @@
 .method public final declared-synchronized p(JLcotlinx/coroutines/k1$d;Lcotlinx/coroutines/k1;)I
     .locals 7
     .param p3    # Lcotlinx/coroutines/k1$d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Lcotlinx/coroutines/k1;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -431,7 +431,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

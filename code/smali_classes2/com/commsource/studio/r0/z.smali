@@ -15,7 +15,7 @@
 .method public constructor <init>(Lcom/commsource/studio/effect/d;)V
     .locals 3
     .param p1    # Lcom/commsource/studio/effect/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

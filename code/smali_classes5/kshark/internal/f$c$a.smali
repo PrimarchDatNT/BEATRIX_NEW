@@ -22,12 +22,12 @@
 .field private final a:J
 
 .field private final b:Lkshark/d;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final c:Lkshark/LibraryLeakReferenceMatcher;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -36,11 +36,11 @@
 .method public constructor <init>(JLkshark/d;Lkshark/LibraryLeakReferenceMatcher;)V
     .locals 1
     .param p3    # Lkshark/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Lkshark/LibraryLeakReferenceMatcher;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -69,7 +69,7 @@
 # virtual methods
 .method public a()Lkshark/LibraryLeakReferenceMatcher;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/f$c$a;->c:Lkshark/LibraryLeakReferenceMatcher;
@@ -87,7 +87,7 @@
 
 .method public c()Lkshark/d;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/internal/f$c$a;->b:Lkshark/d;

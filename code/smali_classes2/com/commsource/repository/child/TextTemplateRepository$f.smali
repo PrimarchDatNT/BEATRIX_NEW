@@ -41,11 +41,11 @@
 .method public a(Lcom/commsource/studio/text/TextTemplateMaterial;Lcom/commsource/studio/text/TextTemplateMaterial;)I
     .locals 4
     .param p1    # Lcom/commsource/studio/text/TextTemplateMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/studio/text/TextTemplateMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

@@ -35,11 +35,11 @@
 # virtual methods
 .method public abstract handleException(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Throwable;)V
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

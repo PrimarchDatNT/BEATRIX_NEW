@@ -29,22 +29,22 @@
 .field public static final g:I = 0x3
 
 .field public static final h:Ljava/lang/String; = "0"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final i:Ljava/lang/String; = "1"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public static final j:Ljava/lang/String; = "2"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private static k:Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -280,7 +280,7 @@
 .method public final e(Lcom/commsource/billing/bean/subsconfig/Config;)J
     .locals 11
     .param p1    # Lcom/commsource/billing/bean/subsconfig/Config;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -354,7 +354,7 @@
 
 .method public final f()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x48a9
@@ -389,7 +389,7 @@
 
 .method public final h()Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x48a3
@@ -406,10 +406,10 @@
 .method public final i(Lcom/commsource/beautyplus/router/RouterEntity;)Lcom/commsource/billing/bean/subsconfig/Config;
     .locals 4
     .param p1    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x48aa
@@ -489,7 +489,7 @@
 .method public final j(Lcom/commsource/billing/pro/g;)V
     .locals 2
     .param p1    # Lcom/commsource/billing/pro/g;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -568,7 +568,7 @@
 .method public final l(Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;)V
     .locals 1
     .param p1    # Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -586,7 +586,7 @@
 .method public final m(Lcom/commsource/billing/pro/g;)V
     .locals 2
     .param p1    # Lcom/commsource/billing/pro/g;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

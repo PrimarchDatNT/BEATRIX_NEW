@@ -14,7 +14,7 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -65,7 +65,7 @@
 .method private static final d(Lcotlinx/coroutines/w0;Ljava/lang/Object;IZLcotlin/jvm/u/a;)Z
     .locals 3
     .param p0    # Lcotlinx/coroutines/w0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -270,11 +270,11 @@
 .method public static final f(Lcotlin/coroutines/c;Ljava/lang/Object;)V
     .locals 5
     .param p0    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -478,7 +478,7 @@
 .method public static final g(Lcotlinx/coroutines/w0;)Z
     .locals 5
     .param p0    # Lcotlinx/coroutines/w0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

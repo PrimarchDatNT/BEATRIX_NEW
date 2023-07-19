@@ -17,7 +17,7 @@
 
 # instance fields
 .field private final d:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -45,7 +45,7 @@
 # virtual methods
 .method public final E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x83cf

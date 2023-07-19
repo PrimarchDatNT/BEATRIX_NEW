@@ -11,7 +11,7 @@
 .field private static final DEFAULT_CONTENT_CHARSET:Ljava/lang/String; = "ISO-8859-1"
 
 .field public static final INSTANCE:Lcom/mopub/network/MoPubNetworkUtils;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -40,7 +40,7 @@
 .method public static final convertQueryToMap(Ljava/lang/String;)Ljava/util/Map;
     .locals 1
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -58,7 +58,7 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "url"
@@ -83,7 +83,7 @@
 .method public static final generateBodyFromParams(Ljava/util/Map;)Ljava/lang/String;
     .locals 8
     .param p0    # Ljava/util/Map;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -100,7 +100,7 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     if-eqz p0, :cond_2
@@ -200,7 +200,7 @@
 .method public static final getQueryParamMap(Landroid/net/Uri;)Ljava/util/Map;
     .locals 5
     .param p0    # Landroid/net/Uri;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -218,7 +218,7 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "uri"
@@ -279,7 +279,7 @@
 .method public static final parseCharsetFromContentType(Ljava/util/Map;)Ljava/lang/String;
     .locals 11
     .param p0    # Ljava/util/Map;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -296,7 +296,7 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     if-eqz p0, :cond_0

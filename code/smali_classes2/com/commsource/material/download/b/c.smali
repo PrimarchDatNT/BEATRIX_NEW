@@ -14,7 +14,7 @@
 
 .method public abstract onError(Ljava/lang/Exception;)V
     .param p1    # Ljava/lang/Exception;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/WorkerThread;

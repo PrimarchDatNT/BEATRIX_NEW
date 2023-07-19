@@ -25,7 +25,7 @@
 # virtual methods
 .method public abstract A0(Lcom/commsource/beautymain/data/c;)V
     .param p1    # Lcom/commsource/beautymain/data/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -46,7 +46,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
@@ -64,13 +64,13 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
 .method public abstract W0([Lcom/commsource/beautymain/data/c;)V
     .param p1    # [Lcom/commsource/beautymain/data/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -79,7 +79,7 @@
 
 .method public abstract X1([Lcom/commsource/beautymain/data/c;)V
     .param p1    # [Lcom/commsource/beautymain/data/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -100,13 +100,13 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract a3(Lcom/commsource/beautymain/data/c;)V
     .param p1    # Lcom/commsource/beautymain/data/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -116,7 +116,7 @@
 
 .method public abstract b2([Lcom/commsource/beautymain/data/c;)V
     .param p1    # [Lcom/commsource/beautymain/data/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -126,20 +126,20 @@
 
 .method public abstract d(Ljava/lang/String;)Lcom/commsource/beautymain/data/c;
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
         value = "select * from MOSAIC_LOCAL_ENTITY where mosaic_id=:key "
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract u(Lcom/commsource/beautymain/data/c;)V
     .param p1    # Lcom/commsource/beautymain/data/c;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;

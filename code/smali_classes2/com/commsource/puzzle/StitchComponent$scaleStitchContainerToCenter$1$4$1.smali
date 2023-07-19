@@ -68,7 +68,7 @@
 .method public final invoke(Lcom/meitu/common/animutil/c;)V
     .locals 3
     .param p1    # Lcom/meitu/common/animutil/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

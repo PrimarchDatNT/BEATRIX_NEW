@@ -44,7 +44,7 @@
 .method public afterTextChanged(Landroid/text/Editable;)V
     .locals 5
     .param p1    # Landroid/text/Editable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -197,7 +197,7 @@
 .method public beforeTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
     .param p1    # Ljava/lang/CharSequence;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -213,7 +213,7 @@
 .method public onTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
     .param p1    # Ljava/lang/CharSequence;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

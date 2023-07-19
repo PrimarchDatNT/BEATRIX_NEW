@@ -230,7 +230,7 @@
 .method private synthetic m(Lcom/mopub/mobileads/MoPubErrorCode;)V
     .locals 1
     .param p1    # Lcom/mopub/mobileads/MoPubErrorCode;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -273,7 +273,7 @@
 .method private synthetic q(Lcom/mopub/mobileads/MoPubErrorCode;)V
     .locals 1
     .param p1    # Lcom/mopub/mobileads/MoPubErrorCode;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -743,7 +743,7 @@
 .method public onAdFailed(Lcom/mopub/mobileads/MoPubErrorCode;)V
     .locals 2
     .param p1    # Lcom/mopub/mobileads/MoPubErrorCode;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -797,7 +797,7 @@
 .method public onAdLoadFailed(Lcom/mopub/mobileads/MoPubErrorCode;)V
     .locals 2
     .param p1    # Lcom/mopub/mobileads/MoPubErrorCode;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

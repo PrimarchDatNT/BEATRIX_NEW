@@ -19,7 +19,7 @@
 .field private e:Z
 
 .field private final f:Ljava/lang/Runnable;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -176,7 +176,7 @@
 
 .method public final u()Ljava/lang/Runnable;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9c86

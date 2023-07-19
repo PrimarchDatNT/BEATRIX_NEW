@@ -8,6 +8,6 @@
 
 # static fields
 .field public static final a:Ljava/lang/String; = "kotlinx.coroutines.io.parallelism"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field

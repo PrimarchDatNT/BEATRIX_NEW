@@ -15,7 +15,7 @@
 
 # static fields
 .field private static R:Lcom/commsource/push/bean/h;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -26,7 +26,7 @@
 
 # instance fields
 .field private K:Lcom/commsource/camera/f1/o;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -35,12 +35,12 @@
 .field private M:I
 
 .field private N:Lcom/commsource/push/bean/h;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private O:Landroid/graphics/drawable/AnimationDrawable;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -73,11 +73,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -419,7 +419,7 @@
 
 .method public final getAnimationDrawable()Landroid/graphics/drawable/AnimationDrawable;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x11ff
@@ -435,7 +435,7 @@
 
 .method public final getArDrawable()Lcom/commsource/camera/f1/o;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x11f7
@@ -451,7 +451,7 @@
 
 .method public final getInnerPushStringBean()Lcom/commsource/push/bean/h;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x11fd
@@ -541,10 +541,10 @@
 .method public final o(Landroid/content/Context;)Ljava/lang/String;
     .locals 4
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x1205
@@ -626,7 +626,7 @@
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 4
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -701,14 +701,14 @@
 .method public final p(Landroid/content/Context;Lcom/commsource/push/bean/h;)Ljava/lang/String;
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/push/bean/h;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x1206
@@ -757,7 +757,7 @@
 .method public final setAnimationDrawable(Landroid/graphics/drawable/AnimationDrawable;)V
     .locals 1
     .param p1    # Landroid/graphics/drawable/AnimationDrawable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -775,7 +775,7 @@
 .method public final setArDrawable(Lcom/commsource/camera/f1/o;)V
     .locals 1
     .param p1    # Lcom/commsource/camera/f1/o;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -793,7 +793,7 @@
 .method public final setInnerPushStringBean(Lcom/commsource/push/bean/h;)V
     .locals 1
     .param p1    # Lcom/commsource/push/bean/h;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

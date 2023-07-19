@@ -25,7 +25,7 @@
 .method public constructor <init>([J)V
     .locals 1
     .param p1    # [J
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

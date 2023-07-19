@@ -24,7 +24,7 @@
 
 # instance fields
 .field private final b:Ljava/util/concurrent/TimeUnit;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -33,7 +33,7 @@
 .method public constructor <init>(Ljava/util/concurrent/TimeUnit;)V
     .locals 1
     .param p1    # Ljava/util/concurrent/TimeUnit;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -52,7 +52,7 @@
 # virtual methods
 .method public a()Lcotlin/i2/o;
     .locals 8
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v7, Lcotlin/i2/a$a;
@@ -80,7 +80,7 @@
 
 .method protected final b()Ljava/util/concurrent/TimeUnit;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/i2/a;->b:Ljava/util/concurrent/TimeUnit;

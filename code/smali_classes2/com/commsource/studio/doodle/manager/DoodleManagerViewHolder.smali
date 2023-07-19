@@ -19,7 +19,7 @@
 .field private final J:Lcotlin/w;
 
 .field private final K:Landroid/content/Context;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -30,11 +30,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/view/ViewGroup;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/view/ViewGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -375,11 +375,11 @@
 .method public k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
     .locals 2
     .param p2    # Lcom/commsource/widget/h1/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Ld/a/a;
@@ -469,7 +469,7 @@
 
 .method public final z()Landroid/content/Context;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0xea6

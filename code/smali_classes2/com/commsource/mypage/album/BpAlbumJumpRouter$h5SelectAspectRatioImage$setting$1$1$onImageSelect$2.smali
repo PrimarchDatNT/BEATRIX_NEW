@@ -69,7 +69,7 @@
 .method public final invoke(Lcom/commsource/cloudalbum/bean/CAImageInfo;)V
     .locals 4
     .param p1    # Lcom/commsource/cloudalbum/bean/CAImageInfo;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

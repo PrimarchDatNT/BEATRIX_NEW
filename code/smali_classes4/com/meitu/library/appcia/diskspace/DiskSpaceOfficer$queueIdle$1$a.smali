@@ -43,7 +43,7 @@
 .method public a(Ljava/lang/Exception;)V
     .locals 5
     .param p1    # Ljava/lang/Exception;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -79,7 +79,7 @@
 .method public b(JJJLjava/util/HashMap;)V
     .locals 2
     .param p7    # Ljava/util/HashMap;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

@@ -11,11 +11,11 @@
 .method public static final a(Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
     .param p0    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -35,7 +35,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p1, Lcotlinx/coroutines/AwaitKt$awaitAll$2;
@@ -163,11 +163,11 @@
 .method public static final b([Lcotlinx/coroutines/t0;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 4
     .param p0    # [Lcotlinx/coroutines/t0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -185,7 +185,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p1, Lcotlinx/coroutines/AwaitKt$awaitAll$1;
@@ -300,11 +300,11 @@
 .method public static final c(Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 7
     .param p0    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -322,7 +322,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p1, Lcotlinx/coroutines/AwaitKt$joinAll$3;
@@ -470,11 +470,11 @@
 .method public static final d([Lcotlinx/coroutines/c2;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 7
     .param p0    # [Lcotlinx/coroutines/c2;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -489,7 +489,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p1, Lcotlinx/coroutines/AwaitKt$joinAll$1;

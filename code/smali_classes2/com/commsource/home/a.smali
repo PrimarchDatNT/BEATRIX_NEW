@@ -137,11 +137,11 @@
 .method public constructor <init>(Landroid/view/ViewGroup;Lcom/commsource/beautyplus/f0/y0;I)V
     .locals 4
     .param p1    # Landroid/view/ViewGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/commsource/beautyplus/f0/y0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1130,7 +1130,7 @@
 .method public final A(Ljava/lang/String;)V
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1335,7 +1335,7 @@
 .method public onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
     .locals 7
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -1680,7 +1680,7 @@
 .method public final w(Ljava/lang/String;)V
     .locals 7
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -1891,7 +1891,7 @@
 .method public final x(Ljava/lang/String;)V
     .locals 6
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -2005,7 +2005,7 @@
 .method public final y(Ljava/lang/String;)V
     .locals 7
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

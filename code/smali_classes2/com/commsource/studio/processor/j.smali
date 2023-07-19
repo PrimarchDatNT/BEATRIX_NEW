@@ -11,7 +11,7 @@
 .field private final M:Lcom/commsource/studio/shader/k;
 
 .field private N:Lcom/commsource/easyeditor/utils/opengl/f;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -51,7 +51,7 @@
 
 .method public final K()Lcom/commsource/easyeditor/utils/opengl/f;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x872b
@@ -90,7 +90,7 @@
 .method public final M(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 1
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -152,7 +152,7 @@
 .method public s(Lcom/commsource/easyeditor/utils/opengl/f;)V
     .locals 6
     .param p1    # Lcom/commsource/easyeditor/utils/opengl/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

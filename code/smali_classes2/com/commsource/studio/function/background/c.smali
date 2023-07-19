@@ -23,12 +23,12 @@
 .field private b:I
 
 .field private c:Landroid/graphics/Shader;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private d:Lcom/commsource/studio/function/background/BackgroundType;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -67,7 +67,7 @@
 .method public final a(Lcom/commsource/studio/function/background/BackgroundType;)V
     .locals 13
     .param p1    # Lcom/commsource/studio/function/background/BackgroundType;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -576,7 +576,7 @@
 
 .method public final c()Lcom/commsource/studio/function/background/BackgroundType;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3415
@@ -592,7 +592,7 @@
 
 .method public final d()Landroid/graphics/Shader;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x3413
@@ -609,7 +609,7 @@
 .method public final e(Lcom/commsource/studio/function/background/BackgroundType;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/function/background/BackgroundType;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -627,7 +627,7 @@
 .method public final f(Landroid/graphics/Shader;)V
     .locals 1
     .param p1    # Landroid/graphics/Shader;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

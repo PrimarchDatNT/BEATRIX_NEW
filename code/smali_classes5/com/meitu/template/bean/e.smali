@@ -42,7 +42,7 @@
 
 # virtual methods
 .method public abstract getDownloadPath()Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -63,7 +63,7 @@
 .end method
 
 .method public abstract getFileUrl()Ljava/lang/String;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 
@@ -76,7 +76,7 @@
 .end method
 
 .method public abstract getMaterialId()Ljava/lang/Object;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 

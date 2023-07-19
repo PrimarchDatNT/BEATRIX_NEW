@@ -15,7 +15,7 @@
 
 # static fields
 .field private static final P:Lcom/commsource/studio/function/background/BackgroundType;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -26,17 +26,17 @@
 .field private final L:Landroid/graphics/RectF;
 
 .field private M:Lcom/commsource/studio/function/background/BackgroundType;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private N:Lcom/commsource/studio/function/background/BackgroundTexture;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private O:Lcom/commsource/easyeditor/entity/CropEnum;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -125,7 +125,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -220,7 +220,7 @@
 
 .method public c0()Landroid/view/View;
     .locals 8
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x52f6
@@ -252,7 +252,7 @@
 
 .method public final p0()Lcom/commsource/easyeditor/entity/CropEnum;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x52f4
@@ -268,7 +268,7 @@
 
 .method public final q0()Lcom/commsource/studio/function/background/BackgroundTexture;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x52f2
@@ -284,7 +284,7 @@
 
 .method public final r0()Lcom/commsource/studio/function/background/BackgroundType;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x52f0
@@ -301,7 +301,7 @@
 .method public final s0(Lcom/commsource/easyeditor/entity/CropEnum;)V
     .locals 2
     .param p1    # Lcom/commsource/easyeditor/entity/CropEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -323,7 +323,7 @@
 .method public final t0(Lcom/commsource/studio/function/background/BackgroundTexture;)V
     .locals 4
     .param p1    # Lcom/commsource/studio/function/background/BackgroundTexture;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -394,7 +394,7 @@
 .method public final u0(Lcom/commsource/studio/function/background/BackgroundType;)V
     .locals 3
     .param p1    # Lcom/commsource/studio/function/background/BackgroundType;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

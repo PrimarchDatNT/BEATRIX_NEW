@@ -25,7 +25,7 @@
 # virtual methods
 .method public abstract A1([Lcom/commsource/studio/text/TextFontMaterial;)V
     .param p1    # [Lcom/commsource/studio/text/TextFontMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -34,7 +34,7 @@
 
 .method public abstract B(Lcom/commsource/studio/text/TextFontMaterial;)V
     .param p1    # Lcom/commsource/studio/text/TextFontMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -44,7 +44,7 @@
 
 .method public abstract E(Lcom/commsource/studio/text/TextFontMaterial;)V
     .param p1    # Lcom/commsource/studio/text/TextFontMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;
@@ -53,7 +53,7 @@
 
 .method public abstract E2([Lcom/commsource/studio/text/TextFontMaterial;)V
     .param p1    # [Lcom/commsource/studio/text/TextFontMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Insert;
@@ -81,20 +81,20 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract d(Ljava/lang/String;)Lcom/commsource/studio/text/TextFontMaterial;
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Query;
         value = "select * from TEXT_FRONT_MATERIAL where m_id = :key"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -112,13 +112,13 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
 .method public abstract m(Lcom/commsource/studio/text/TextFontMaterial;)V
     .param p1    # Lcom/commsource/studio/text/TextFontMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Update;
@@ -127,7 +127,7 @@
 
 .method public abstract n0([Lcom/commsource/studio/text/TextFontMaterial;)V
     .param p1    # [Lcom/commsource/studio/text/TextFontMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/Delete;

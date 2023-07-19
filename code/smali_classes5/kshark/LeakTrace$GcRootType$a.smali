@@ -37,10 +37,10 @@
 .method public final a(Lkshark/d;)Lkshark/LeakTrace$GcRootType;
     .locals 3
     .param p1    # Lkshark/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "gcRoot"

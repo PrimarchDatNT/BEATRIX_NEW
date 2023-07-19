@@ -29,11 +29,11 @@
 .method public static final b(Lcotlinx/coroutines/flow/internal/AbortFlowException;Lcotlinx/coroutines/flow/e;)V
     .locals 1
     .param p0    # Lcotlinx/coroutines/flow/internal/AbortFlowException;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/flow/e;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

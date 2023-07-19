@@ -67,7 +67,7 @@
 .method protected o(Landroid/graphics/drawable/Drawable;)V
     .locals 5
     .param p1    # Landroid/graphics/drawable/Drawable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

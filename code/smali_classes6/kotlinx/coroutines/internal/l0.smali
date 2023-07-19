@@ -15,7 +15,7 @@
 
 .method public abstract g(Lcotlinx/coroutines/internal/k0;)V
     .param p1    # Lcotlinx/coroutines/internal/k0;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -36,7 +36,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
 

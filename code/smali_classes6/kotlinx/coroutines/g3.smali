@@ -28,7 +28,7 @@
 # virtual methods
 .method public abstract B(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Object;)V
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -42,7 +42,7 @@
 
 .method public abstract W(Lcotlin/coroutines/CoroutineContext;)Ljava/lang/Object;
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

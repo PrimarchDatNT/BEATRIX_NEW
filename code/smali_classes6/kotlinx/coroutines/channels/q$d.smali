@@ -45,7 +45,7 @@
 .method public constructor <init>(Lcotlinx/coroutines/channels/q;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/channels/q;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -87,7 +87,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-super {p0, p1}, Lcotlinx/coroutines/channels/r;->z(Ljava/lang/Object;)Ljava/lang/Object;

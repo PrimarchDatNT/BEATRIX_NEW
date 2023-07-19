@@ -75,7 +75,7 @@
 .method public final invoke(ILcom/commsource/studio/sub/SubTabEnum;)V
     .locals 3
     .param p2    # Lcom/commsource/studio/sub/SubTabEnum;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

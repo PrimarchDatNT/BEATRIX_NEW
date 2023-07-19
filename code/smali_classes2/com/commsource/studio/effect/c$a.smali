@@ -37,10 +37,10 @@
 .method public final a(Lcom/commsource/studio/effect/c;)Ljava/lang/String;
     .locals 5
     .param p1    # Lcom/commsource/studio/effect/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6032
@@ -135,10 +135,10 @@
 .method public final b(Lcom/commsource/studio/effect/c;)Ljava/lang/String;
     .locals 2
     .param p1    # Lcom/commsource/studio/effect/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6031

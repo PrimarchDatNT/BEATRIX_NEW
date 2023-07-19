@@ -21,17 +21,17 @@
 
 # instance fields
 .field private final N:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final O:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final P:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -170,7 +170,7 @@
 
 .method public final N0()Lcom/commsource/widget/h1/e;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4d2f
@@ -192,7 +192,7 @@
 
 .method public final O0()Lcom/commsource/beautyplus/f0/m0;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4d2e
@@ -214,7 +214,7 @@
 
 .method public final P0()Lcom/commsource/beautyplus/setting/language/b;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4d2d
@@ -290,7 +290,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 5
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -398,7 +398,7 @@
 .method protected onNewIntent(Landroid/content/Intent;)V
     .locals 2
     .param p1    # Landroid/content/Intent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

@@ -27,7 +27,7 @@
 .method public constructor <init>(JLkshark/PrimitiveType;I)V
     .locals 1
     .param p3    # Lkshark/PrimitiveType;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -66,7 +66,7 @@
 
 .method public final b()Lkshark/PrimitiveType;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {}, Lkshark/PrimitiveType;->values()[Lkshark/PrimitiveType;

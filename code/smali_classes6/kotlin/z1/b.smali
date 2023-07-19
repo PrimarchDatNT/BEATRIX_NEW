@@ -82,7 +82,7 @@
 .method public static final varargs d([Lcotlin/jvm/u/l;)Ljava/util/Comparator;
     .locals 1
     .param p0    # [Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -99,7 +99,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "selectors"
@@ -197,11 +197,11 @@
 .method public static g(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
     .locals 0
     .param p0    # Ljava/lang/Comparable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p1    # Ljava/lang/Comparable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -313,7 +313,7 @@
 .method public static final varargs j(Ljava/lang/Object;Ljava/lang/Object;[Lcotlin/jvm/u/l;)I
     .locals 1
     .param p2    # [Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -432,7 +432,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/z1/e;->a:Lcotlin/z1/e;
@@ -473,7 +473,7 @@
 .method public static final n(Ljava/util/Comparator;)Ljava/util/Comparator;
     .locals 1
     .param p0    # Ljava/util/Comparator;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -488,7 +488,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "comparator"
@@ -531,7 +531,7 @@
 .method public static final p(Ljava/util/Comparator;)Ljava/util/Comparator;
     .locals 1
     .param p0    # Ljava/util/Comparator;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -546,7 +546,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "comparator"
@@ -572,7 +572,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlin/z1/f;->a:Lcotlin/z1/f;
@@ -587,7 +587,7 @@
 .method public static final r(Ljava/util/Comparator;)Ljava/util/Comparator;
     .locals 3
     .param p0    # Ljava/util/Comparator;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -602,7 +602,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$reversed"
@@ -666,11 +666,11 @@
 .method public static final s(Ljava/util/Comparator;Ljava/util/Comparator;)Ljava/util/Comparator;
     .locals 1
     .param p0    # Ljava/util/Comparator;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Comparator;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -687,7 +687,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$then"
@@ -852,11 +852,11 @@
 .method public static final y(Ljava/util/Comparator;Ljava/util/Comparator;)Ljava/util/Comparator;
     .locals 1
     .param p0    # Ljava/util/Comparator;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Comparator;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -873,7 +873,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "$this$thenDescending"

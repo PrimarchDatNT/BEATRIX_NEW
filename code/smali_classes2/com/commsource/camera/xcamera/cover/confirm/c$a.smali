@@ -17,7 +17,7 @@
 
 # static fields
 .field public static final a:Ljava/lang/String; = "com.commsource.beautyplus.moviemodelpackage7"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 

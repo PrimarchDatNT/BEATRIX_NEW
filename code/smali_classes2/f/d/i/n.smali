@@ -3069,7 +3069,7 @@
 
 .method public static i0(Landroid/content/Context;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
     .locals 9
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 p0, 0x5670

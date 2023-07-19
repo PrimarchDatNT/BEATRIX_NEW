@@ -22,7 +22,7 @@
 
 # instance fields
 .field private final a:Landroid/app/Activity;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -35,7 +35,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -44,11 +44,11 @@
 .method public constructor <init>(Landroid/app/Activity;Ljava/util/List;)V
     .locals 1
     .param p1    # Landroid/app/Activity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -82,7 +82,7 @@
 # virtual methods
 .method public final a()Landroid/app/Activity;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3e58
@@ -107,7 +107,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3e59
@@ -124,7 +124,7 @@
 .method public c(Lcom/commsource/beautyplus/onboarding/a$a;I)V
     .locals 3
     .param p1    # Lcom/commsource/beautyplus/onboarding/a$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -168,10 +168,10 @@
 .method public d(Landroid/view/ViewGroup;I)Lcom/commsource/beautyplus/onboarding/a$a;
     .locals 4
     .param p1    # Landroid/view/ViewGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 p2, 0x3e55

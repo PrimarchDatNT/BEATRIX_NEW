@@ -72,10 +72,10 @@
 .method public final invoke(Lcotlin/coroutines/CoroutineContext$a;)Lcotlinx/coroutines/ExecutorCoroutineDispatcher;
     .locals 1
     .param p1    # Lcotlin/coroutines/CoroutineContext$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     instance-of v0, p1, Lcotlinx/coroutines/ExecutorCoroutineDispatcher;

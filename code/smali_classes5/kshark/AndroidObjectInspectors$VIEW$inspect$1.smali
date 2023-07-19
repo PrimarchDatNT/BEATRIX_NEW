@@ -76,11 +76,11 @@
 .method public final invoke(Lkshark/v;Lkshark/HeapObject$HeapInstance;)V
     .locals 16
     .param p1    # Lkshark/v;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lkshark/HeapObject$HeapInstance;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

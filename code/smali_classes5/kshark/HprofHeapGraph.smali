@@ -22,7 +22,7 @@
 
 # instance fields
 .field private final a:Lkshark/e;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -47,7 +47,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -74,11 +74,11 @@
 .method public constructor <init>(Lkshark/Hprof;Lkshark/internal/HprofInMemoryIndex;)V
     .locals 1
     .param p1    # Lkshark/Hprof;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lkshark/internal/HprofInMemoryIndex;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -328,7 +328,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
@@ -359,7 +359,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
@@ -394,10 +394,10 @@
 .method public d(Ljava/lang/String;)Lkshark/HeapObject$HeapClass;
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "className"
@@ -443,7 +443,7 @@
 
 .method public e(J)Lkshark/HeapObject;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0, p1, p2}, Lkshark/HprofHeapGraph;->k(J)Lkshark/HeapObject;
@@ -491,7 +491,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
@@ -522,7 +522,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
@@ -544,7 +544,7 @@
 
 .method public getContext()Lkshark/e;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HprofHeapGraph;->a:Lkshark/e;
@@ -563,7 +563,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
@@ -602,7 +602,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
@@ -624,7 +624,7 @@
 
 .method public k(J)Lkshark/HeapObject;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
@@ -649,7 +649,7 @@
 
 .method public final o(J)Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
@@ -664,10 +664,10 @@
 .method public final p(Lkshark/m$b$c$c;)Lkshark/internal/c;
     .locals 2
     .param p1    # Lkshark/m$b$c$c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "record"
@@ -688,10 +688,10 @@
 .method public final q(JLkshark/m$b$c$a$a;)Ljava/lang/String;
     .locals 3
     .param p3    # Lkshark/m$b$c$a$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "fieldRecord"
@@ -723,7 +723,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/HprofHeapGraph;->c:Ljava/util/Map;
@@ -734,10 +734,10 @@
 .method public final s(JLkshark/internal/d$a;)Lkshark/m$b$c$a;
     .locals 2
     .param p3    # Lkshark/internal/d$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "indexedObject"
@@ -785,10 +785,10 @@
 .method public final t(JLkshark/internal/d$b;)Lkshark/m$b$c$c;
     .locals 1
     .param p3    # Lkshark/internal/d$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "indexedObject"
@@ -811,10 +811,10 @@
 .method public final u(JLkshark/internal/d$c;)Lkshark/m$b$c$e;
     .locals 1
     .param p3    # Lkshark/internal/d$c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "indexedObject"
@@ -837,10 +837,10 @@
 .method public final w(JLkshark/internal/d$d;)Lkshark/m$b$c$g;
     .locals 1
     .param p3    # Lkshark/internal/d$d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "indexedObject"
@@ -863,7 +863,7 @@
 .method public final x(Ljava/util/Map;)V
     .locals 1
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -888,10 +888,10 @@
 .method public final y(JLkshark/m$b$c$a$b;)Ljava/lang/String;
     .locals 3
     .param p3    # Lkshark/m$b$c$a$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "fieldRecord"

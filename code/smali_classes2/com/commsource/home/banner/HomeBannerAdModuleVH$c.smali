@@ -71,7 +71,7 @@
 .method public c(Lcom/commsource/beautyplus/j0/c/e$b;)V
     .locals 0
     .param p1    # Lcom/commsource/beautyplus/j0/c/e$b;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

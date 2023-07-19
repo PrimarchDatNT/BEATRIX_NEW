@@ -38,7 +38,7 @@
 .method public a(Lcom/commsource/video/render/c;II)V
     .locals 0
     .param p1    # Lcom/commsource/video/render/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -70,7 +70,7 @@
 .method public b(Lcom/commsource/video/render/c;III)V
     .locals 0
     .param p1    # Lcom/commsource/video/render/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -90,7 +90,7 @@
 .method public c(Lcom/commsource/video/render/c;)V
     .locals 2
     .param p1    # Lcom/commsource/video/render/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

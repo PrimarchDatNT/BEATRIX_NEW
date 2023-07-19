@@ -18,7 +18,7 @@
 
 # static fields
 .field private static final a:Lkshark/OnAnalysisProgressListener;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -56,7 +56,7 @@
 # virtual methods
 .method public final a()Lkshark/OnAnalysisProgressListener;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lkshark/OnAnalysisProgressListener$a;->a:Lkshark/OnAnalysisProgressListener;
@@ -67,7 +67,7 @@
 .method public final b(Lcotlin/jvm/u/l;)Lkshark/OnAnalysisProgressListener;
     .locals 1
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -82,7 +82,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "block"

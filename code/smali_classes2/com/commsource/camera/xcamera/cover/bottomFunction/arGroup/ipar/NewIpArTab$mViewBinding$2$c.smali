@@ -68,7 +68,7 @@
 .method public final b(ILcom/meitu/template/bean/ArMaterialGroup;)Z
     .locals 2
     .param p2    # Lcom/meitu/template/bean/ArMaterialGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

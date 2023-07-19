@@ -35,7 +35,7 @@
 
 # instance fields
 .field private final moduleName:Ljava/lang/String;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -162,7 +162,7 @@
 # virtual methods
 .method public final getModuleName()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8b1f

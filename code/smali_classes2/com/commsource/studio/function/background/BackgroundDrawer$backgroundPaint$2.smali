@@ -64,7 +64,7 @@
 # virtual methods
 .method public final invoke()Landroid/graphics/Paint;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8d21

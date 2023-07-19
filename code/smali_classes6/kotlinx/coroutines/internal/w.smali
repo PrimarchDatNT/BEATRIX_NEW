@@ -10,7 +10,7 @@
 .method public static final a(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
     .locals 0
     .param p0    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -25,7 +25,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Lcotlin/coroutines/jvm/internal/f;->a(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;

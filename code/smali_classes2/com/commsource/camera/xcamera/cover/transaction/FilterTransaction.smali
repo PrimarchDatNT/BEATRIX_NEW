@@ -623,7 +623,7 @@
 .method public final N(Lcom/meitu/template/bean/Filter;)V
     .locals 2
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -656,7 +656,7 @@
 .method public g(Lcom/commsource/beautyplus/router/RouterEntity;)V
     .locals 6
     .param p1    # Lcom/commsource/beautyplus/router/RouterEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

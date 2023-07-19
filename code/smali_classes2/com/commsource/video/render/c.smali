@@ -9,7 +9,7 @@
 # virtual methods
 .method public abstract a(Lcom/commsource/video/decoder/b;)V
     .param p1    # Lcom/commsource/video/decoder/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

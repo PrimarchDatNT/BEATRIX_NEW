@@ -14,7 +14,7 @@
 
 # static fields
 .field private static volatile a:Lkshark/a0$a;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -47,11 +47,11 @@
 .method public final a(Ljava/lang/Throwable;Lcotlin/jvm/u/a;)V
     .locals 1
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -93,7 +93,7 @@
 .method public final b(Lcotlin/jvm/u/a;)V
     .locals 1
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -129,7 +129,7 @@
 
 .method public final c()Lkshark/a0$a;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     sget-object v0, Lkshark/a0;->a:Lkshark/a0$a;
@@ -140,7 +140,7 @@
 .method public final d(Lkshark/a0$a;)V
     .locals 0
     .param p1    # Lkshark/a0$a;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

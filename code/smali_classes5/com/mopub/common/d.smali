@@ -7,7 +7,7 @@
 .method public static $default$onHashReceived(Lcom/mopub/common/CESettingsCacheService$CESettingsCacheListener;Ljava/lang/String;)V
     .locals 1
     .param p0    # Lcom/mopub/common/CESettingsCacheService$CESettingsCacheListener;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/b;
@@ -23,7 +23,7 @@
 .method public static $default$onSettingsReceived(Lcom/mopub/common/CESettingsCacheService$CESettingsCacheListener;Lcom/mopub/mobileads/CreativeExperienceSettings;)V
     .locals 0
     .param p0    # Lcom/mopub/common/CESettingsCacheService$CESettingsCacheListener;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/b;

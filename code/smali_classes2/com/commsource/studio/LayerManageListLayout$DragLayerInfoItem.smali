@@ -48,7 +48,7 @@
 .method public constructor <init>(Lcom/commsource/studio/LayerManageListLayout;Lcom/commsource/studio/bean/BaseLayerInfo;)V
     .locals 6
     .param p1    # Lcom/commsource/studio/LayerManageListLayout;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

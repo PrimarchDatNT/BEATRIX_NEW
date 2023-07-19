@@ -71,7 +71,7 @@
 .method public final invoke(Lcotlin/collections/i0;)Ljava/lang/Object;
     .locals 1
     .param p1    # Lcotlin/collections/i0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

@@ -38,7 +38,7 @@
 .method public constructor <init>(Lcotlin/collections/o1/d;)V
     .locals 1
     .param p1    # Lcotlin/collections/o1/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

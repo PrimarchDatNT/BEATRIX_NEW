@@ -19,7 +19,7 @@
     .annotation build Lcotlin/jvm/d;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -40,7 +40,7 @@
 .method public constructor <init>(JLcotlinx/coroutines/scheduling/i;)V
     .locals 0
     .param p3    # Lcotlinx/coroutines/scheduling/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

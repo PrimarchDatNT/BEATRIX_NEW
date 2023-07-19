@@ -37,7 +37,7 @@
 # virtual methods
 .method public final a()Lcom/commsource/billing/pro/GmsManager;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9b33

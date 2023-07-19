@@ -37,7 +37,7 @@
 .method public final a(Ljava/lang/Integer;)I
     .locals 3
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -107,7 +107,7 @@
 .method public final b(Ljava/lang/Integer;)I
     .locals 6
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -272,7 +272,7 @@
 .method public final c(Ljava/lang/Integer;)I
     .locals 3
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

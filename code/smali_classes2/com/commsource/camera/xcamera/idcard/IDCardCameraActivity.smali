@@ -281,7 +281,7 @@
 .method public dispatchKeyEvent(Landroid/view/KeyEvent;)Z
     .locals 2
     .param p1    # Landroid/view/KeyEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -370,7 +370,7 @@
 .method public onLayoutChange(Landroid/view/View;IIIIIIII)V
     .locals 0
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

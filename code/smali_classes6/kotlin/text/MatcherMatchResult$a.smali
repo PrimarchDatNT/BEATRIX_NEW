@@ -96,7 +96,7 @@
 
 .method public e(I)Ljava/lang/String;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/text/MatcherMatchResult$a;->b:Lcotlin/text/MatcherMatchResult;

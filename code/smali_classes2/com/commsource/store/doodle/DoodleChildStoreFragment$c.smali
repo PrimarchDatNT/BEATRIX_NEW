@@ -64,7 +64,7 @@
 .method public e(Lcom/commsource/studio/doodle/DoodleMaterial;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/doodle/DoodleMaterial;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

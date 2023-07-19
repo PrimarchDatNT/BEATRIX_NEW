@@ -9,7 +9,7 @@
 
 # instance fields
 .field private final N:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -108,7 +108,7 @@
 
 .method public final N0()Lcom/commsource/beautyplus/f0/s;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x6df7
@@ -131,7 +131,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 4
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

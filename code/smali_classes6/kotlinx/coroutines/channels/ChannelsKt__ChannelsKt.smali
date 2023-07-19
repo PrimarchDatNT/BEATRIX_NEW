@@ -10,7 +10,7 @@
 .method public static final a(Lcotlinx/coroutines/channels/c0;Ljava/lang/Object;)V
     .locals 2
     .param p0    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

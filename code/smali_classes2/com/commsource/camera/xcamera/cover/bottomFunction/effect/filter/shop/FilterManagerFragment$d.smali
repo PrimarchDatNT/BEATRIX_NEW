@@ -65,7 +65,7 @@
 .method public e(Lcom/meitu/template/bean/Filter;)V
     .locals 5
     .param p1    # Lcom/meitu/template/bean/Filter;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

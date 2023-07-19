@@ -24,12 +24,12 @@
 .field private b:I
 
 .field private final c:Landroid/view/WindowManager;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final d:Landroid/view/WindowManager$LayoutParams;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -38,11 +38,11 @@
 .method public constructor <init>(Landroid/view/WindowManager;Landroid/view/WindowManager$LayoutParams;)V
     .locals 1
     .param p1    # Landroid/view/WindowManager;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/view/WindowManager$LayoutParams;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -67,7 +67,7 @@
 # virtual methods
 .method public final a()Landroid/view/WindowManager$LayoutParams;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x60d2
@@ -83,7 +83,7 @@
 
 .method public final b()Landroid/view/WindowManager;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x60d1
@@ -100,11 +100,11 @@
 .method public onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
     .locals 4
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Landroid/view/MotionEvent;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Ld/a/a;

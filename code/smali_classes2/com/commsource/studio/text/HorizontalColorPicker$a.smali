@@ -20,7 +20,7 @@
 
 # instance fields
 .field private final a:Landroid/graphics/drawable/ColorDrawable;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -208,7 +208,7 @@
 
 .method public final c()Landroid/graphics/drawable/ColorDrawable;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x499f

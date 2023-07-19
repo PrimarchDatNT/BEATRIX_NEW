@@ -71,7 +71,7 @@
 .method public final invoke(Ljava/util/List;)V
     .locals 7
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;

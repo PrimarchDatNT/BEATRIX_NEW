@@ -29,7 +29,7 @@
 .method public migrate(Landroidx/sqlite/db/SupportSQLiteDatabase;)V
     .locals 2
     .param p1    # Landroidx/sqlite/db/SupportSQLiteDatabase;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

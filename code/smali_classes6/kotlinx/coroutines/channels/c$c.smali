@@ -29,7 +29,7 @@
 .method public constructor <init>(Lcotlinx/coroutines/internal/k;Ljava/lang/Object;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/internal/k;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -50,11 +50,11 @@
 .method protected f(Lcotlinx/coroutines/internal/m;Lcotlinx/coroutines/internal/m;)V
     .locals 0
     .param p1    # Lcotlinx/coroutines/internal/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlinx/coroutines/internal/m;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

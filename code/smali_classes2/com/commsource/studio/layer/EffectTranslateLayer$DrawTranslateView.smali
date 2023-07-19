@@ -26,7 +26,7 @@
 .method public constructor <init>(Lcom/commsource/studio/layer/EffectTranslateLayer;Landroid/content/Context;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/layer/EffectTranslateLayer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -122,7 +122,7 @@
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 11
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

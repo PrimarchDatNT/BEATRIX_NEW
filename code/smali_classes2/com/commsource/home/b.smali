@@ -8,7 +8,7 @@
 
 # instance fields
 .field private final a:Lcom/commsource/beautyplus/f0/q0;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -27,7 +27,7 @@
 .method public constructor <init>(Lcom/commsource/beautyplus/f0/q0;)V
     .locals 1
     .param p1    # Lcom/commsource/beautyplus/f0/q0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -180,7 +180,7 @@
 # virtual methods
 .method public final d()Lcom/commsource/beautyplus/f0/q0;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x2dca
@@ -211,7 +211,7 @@
 .method public final f(Landroidx/recyclerview/widget/RecyclerView;)V
     .locals 2
     .param p1    # Landroidx/recyclerview/widget/RecyclerView;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

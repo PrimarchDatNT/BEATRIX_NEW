@@ -50,7 +50,7 @@
 .method public constructor <init>(Lcotlinx/coroutines/channels/g;)V
     .locals 2
     .param p1    # Lcotlinx/coroutines/channels/g;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -262,7 +262,7 @@
 
 .method protected i0()Ljava/lang/Object;
     .locals 8
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
@@ -367,7 +367,7 @@
 .method protected j0(Lcotlinx/coroutines/selects/f;)Ljava/lang/Object;
     .locals 8
     .param p1    # Lcotlinx/coroutines/selects/f;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -379,7 +379,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;

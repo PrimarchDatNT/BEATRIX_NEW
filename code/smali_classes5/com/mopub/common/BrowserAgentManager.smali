@@ -14,7 +14,7 @@
 
 # static fields
 .field public static final INSTANCE:Lcom/mopub/common/BrowserAgentManager;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -53,7 +53,7 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcom/mopub/common/BrowserAgentManager;->browserAgent:Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
@@ -106,7 +106,7 @@
 .method public static final setBrowserAgent(Lcom/mopub/common/BrowserAgentManager$BrowserAgent;)V
     .locals 1
     .param p0    # Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcom/mopub/common/VisibleForTesting;
@@ -131,7 +131,7 @@
 .method public static final setBrowserAgentFromAdServer(Lcom/mopub/common/BrowserAgentManager$BrowserAgent;)V
     .locals 4
     .param p0    # Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;

@@ -67,7 +67,7 @@
 .method public d(Lcom/commsource/beautyplus/web/mtscript/MTGoSubsActScript$Model;)V
     .locals 5
     .param p1    # Lcom/commsource/beautyplus/web/mtscript/MTGoSubsActScript$Model;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

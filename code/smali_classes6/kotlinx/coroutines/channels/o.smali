@@ -7,7 +7,7 @@
 
 # static fields
 .field public static final a:Ljava/lang/String; = "Channel was closed"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -16,7 +16,7 @@
 .method public static final A(Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -36,7 +36,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->A(Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
@@ -49,15 +49,15 @@
 .method private static final A0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/q;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -65,7 +65,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->z0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -78,15 +78,15 @@
 .method public static final A1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -113,7 +113,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->A1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -126,7 +126,7 @@
 .method public static final varargs B([Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
     .locals 0
     .param p0    # [Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -146,7 +146,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->B([Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
@@ -159,15 +159,15 @@
 .method public static final B0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -196,7 +196,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->B0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -209,15 +209,15 @@
 .method private static final B1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -225,7 +225,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->A1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -238,11 +238,11 @@
 .method public static final C(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -265,7 +265,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->C(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -278,19 +278,19 @@
 .method public static final C0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -323,7 +323,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->C0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -336,7 +336,7 @@
 .method public static final C1(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/selects/d;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -354,7 +354,7 @@
     .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->C1(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/selects/d;
@@ -367,15 +367,15 @@
 .method public static final D(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -402,7 +402,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->D(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -415,15 +415,15 @@
 .method private static final D0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -431,7 +431,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->B0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -444,15 +444,15 @@
 .method public static final D1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -483,7 +483,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->D1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -496,15 +496,15 @@
 .method private static final E(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -512,7 +512,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->D(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -525,19 +525,19 @@
 .method private static final E0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -545,7 +545,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->C0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -558,15 +558,15 @@
 .method private static final E1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -574,7 +574,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->D1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -587,7 +587,7 @@
 .method public static final F(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -607,7 +607,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->F(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
@@ -620,19 +620,19 @@
 .method public static final F0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -661,7 +661,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->F0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -674,11 +674,11 @@
 .method public static final F1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -697,7 +697,7 @@
     .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->F1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -710,15 +710,15 @@
 .method public static final G(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -747,7 +747,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
@@ -760,23 +760,23 @@
 .method public static final G0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -809,7 +809,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -822,15 +822,15 @@
 .method public static final G1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -853,7 +853,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -876,19 +876,19 @@
 .method private static final H0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -896,7 +896,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->F0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -909,15 +909,15 @@
 .method private static final H1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -925,7 +925,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -938,11 +938,11 @@
 .method public static final I(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -964,7 +964,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->I(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/channels/y;
@@ -977,23 +977,23 @@
 .method private static final I0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -1001,7 +1001,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1014,15 +1014,15 @@
 .method public static final I1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/q;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1047,7 +1047,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->I1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1070,11 +1070,11 @@
 .method public static final J0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1097,7 +1097,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->J0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1110,15 +1110,15 @@
 .method private static final J1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/q;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -1126,7 +1126,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->I1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1139,15 +1139,15 @@
 .method public static final K(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1176,7 +1176,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->K(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
@@ -1189,15 +1189,15 @@
 .method public static final K0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1224,7 +1224,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->K0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1237,7 +1237,7 @@
 .method public static final K1(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1257,7 +1257,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->K1(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
@@ -1280,15 +1280,15 @@
 .method private static final L0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -1296,7 +1296,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->K0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1309,7 +1309,7 @@
 .method public static final L1(Lcotlinx/coroutines/channels/c0;Ljava/lang/Object;)V
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1330,11 +1330,11 @@
 .method public static final M(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1355,7 +1355,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1368,15 +1368,15 @@
 .method public static final M0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1403,7 +1403,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1416,11 +1416,11 @@
 .method public static final M1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1441,7 +1441,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->L1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1454,15 +1454,15 @@
 .method public static final N(Lcotlinx/coroutines/channels/y;ILcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1487,7 +1487,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->N(Lcotlinx/coroutines/channels/y;ILcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1500,15 +1500,15 @@
 .method private static final N0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -1516,7 +1516,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1529,15 +1529,15 @@
 .method public static final N1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1562,7 +1562,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1575,15 +1575,15 @@
 .method private static final O(Lcotlinx/coroutines/channels/y;ILcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -1591,7 +1591,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->N(Lcotlinx/coroutines/channels/y;ILcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1604,11 +1604,11 @@
 .method public static final O0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1629,7 +1629,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->O0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1642,15 +1642,15 @@
 .method private static final O1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -1658,7 +1658,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1671,11 +1671,11 @@
 .method public static final P(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1696,7 +1696,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1709,15 +1709,15 @@
 .method public static final P0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1742,7 +1742,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1755,11 +1755,11 @@
 .method public static final P1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1780,7 +1780,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->O1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1793,15 +1793,15 @@
 .method public static final Q(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1830,7 +1830,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Q(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
@@ -1843,15 +1843,15 @@
 .method private static final Q0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -1859,7 +1859,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1872,15 +1872,15 @@
 .method public static final Q1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1905,7 +1905,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1928,11 +1928,11 @@
 .method public static final R0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -1955,7 +1955,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->R0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1968,15 +1968,15 @@
 .method private static final R1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -1984,7 +1984,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -1997,15 +1997,15 @@
 .method public static final S(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/q;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2036,7 +2036,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->S(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/channels/y;
@@ -2049,11 +2049,11 @@
 .method public static final S0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2074,7 +2074,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->S0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -2087,15 +2087,15 @@
 .method public static final S1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2122,7 +2122,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->R1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -2145,15 +2145,15 @@
 .method public static final T0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2178,7 +2178,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -2191,15 +2191,15 @@
 .method private static final T1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -2207,7 +2207,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->R1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -2220,19 +2220,19 @@
 .method public static final U(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2261,7 +2261,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->U(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -2274,15 +2274,15 @@
 .method private static final U0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -2290,7 +2290,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -2303,15 +2303,15 @@
 .method public static final U1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2338,7 +2338,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -2351,19 +2351,19 @@
 .method public static final V(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2392,7 +2392,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->V(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -2405,15 +2405,15 @@
 .method public static final V0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2442,7 +2442,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->V0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
@@ -2455,15 +2455,15 @@
 .method private static final V1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -2471,7 +2471,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -2484,19 +2484,19 @@
 .method private static final W(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -2504,7 +2504,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->U(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -2527,11 +2527,11 @@
 .method public static final W1(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2553,7 +2553,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->V1(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/channels/y;
@@ -2566,19 +2566,19 @@
 .method private static final X(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -2586,7 +2586,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->V(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -2599,15 +2599,15 @@
 .method public static final X0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/q;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2638,7 +2638,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->X0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/channels/y;
@@ -2661,15 +2661,15 @@
 .method public static final Y(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2698,7 +2698,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Y(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
@@ -2721,15 +2721,15 @@
 .method public static final Y1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2758,7 +2758,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->X1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
@@ -2781,15 +2781,15 @@
 .method public static final Z0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/q;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2820,7 +2820,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Z0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/channels/y;
@@ -2843,15 +2843,15 @@
 .method public static final a(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2878,7 +2878,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -2891,7 +2891,7 @@
 .method public static final a0(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2911,7 +2911,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a0(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
@@ -2934,15 +2934,15 @@
 .method public static final a2(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -2965,7 +2965,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Z1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -2978,15 +2978,15 @@
 .method private static final b(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -2994,7 +2994,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3007,15 +3007,15 @@
 .method public static final b0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3038,7 +3038,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->b0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3051,19 +3051,19 @@
 .method public static final b1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3092,7 +3092,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->b1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3105,15 +3105,15 @@
 .method public static final b2(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3136,7 +3136,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a2(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3149,11 +3149,11 @@
 .method public static final c(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3176,7 +3176,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3189,15 +3189,15 @@
 .method public static final c0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3220,7 +3220,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3233,19 +3233,19 @@
 .method public static final c1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3274,7 +3274,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3287,11 +3287,11 @@
 .method public static final c2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3309,7 +3309,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->b2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3322,15 +3322,15 @@
 .method public static final d(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3357,7 +3357,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3370,19 +3370,19 @@
 .method public static final d0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3409,7 +3409,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3422,19 +3422,19 @@
 .method private static final d1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -3442,7 +3442,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->b1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3455,15 +3455,15 @@
 .method public static final d2(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3490,7 +3490,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c2(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3503,15 +3503,15 @@
 .method private static final e(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -3519,7 +3519,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3532,19 +3532,19 @@
 .method public static final e0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3571,7 +3571,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->e0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3584,19 +3584,19 @@
 .method private static final e1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -3604,7 +3604,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3617,11 +3617,11 @@
 .method public static final e2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3648,7 +3648,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3661,15 +3661,15 @@
 .method public static final f(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3700,7 +3700,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3713,19 +3713,19 @@
 .method private static final f0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -3733,7 +3733,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3746,19 +3746,19 @@
 .method public static final f1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3787,7 +3787,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3800,11 +3800,11 @@
 .method public static final f2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3827,7 +3827,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->e2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3840,15 +3840,15 @@
 .method private static final g(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -3856,7 +3856,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3869,19 +3869,19 @@
 .method private static final g0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -3889,7 +3889,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->e0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3902,19 +3902,19 @@
 .method public static final g1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3943,7 +3943,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->g1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3956,11 +3956,11 @@
 .method public static final g2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -3983,7 +3983,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -3996,15 +3996,15 @@
 .method public static final h(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -4031,7 +4031,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4044,19 +4044,19 @@
 .method public static final h0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -4083,7 +4083,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4096,19 +4096,19 @@
 .method private static final h1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -4116,7 +4116,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4129,11 +4129,11 @@
 .method public static final h2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -4156,7 +4156,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->g2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4169,19 +4169,19 @@
 .method public static final i(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -4212,7 +4212,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4225,19 +4225,19 @@
 .method public static final i0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -4264,7 +4264,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4277,19 +4277,19 @@
 .method private static final i1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -4297,7 +4297,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->g1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4310,11 +4310,11 @@
 .method public static final i2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -4337,7 +4337,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/channels/y;
@@ -4350,15 +4350,15 @@
 .method private static final j(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -4366,7 +4366,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4379,19 +4379,19 @@
 .method private static final j0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -4399,7 +4399,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4412,15 +4412,15 @@
 .method public static final j1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -4449,7 +4449,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->j1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
@@ -4472,19 +4472,19 @@
 .method private static final k(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -4492,7 +4492,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4505,19 +4505,19 @@
 .method private static final k0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -4525,7 +4525,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4548,11 +4548,11 @@
 .method public static final k2(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -4577,7 +4577,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->j2(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
@@ -4590,19 +4590,19 @@
 .method public static final l(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -4629,7 +4629,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4642,15 +4642,15 @@
 .method public static final l0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -4675,7 +4675,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4688,19 +4688,19 @@
 .method public static final l1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -4727,7 +4727,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4740,19 +4740,19 @@
 .method public static final l2(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -4781,7 +4781,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->k2(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
@@ -4794,23 +4794,23 @@
 .method public static final m(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -4841,7 +4841,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->m(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4854,15 +4854,15 @@
 .method private static final m0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -4870,7 +4870,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4883,19 +4883,19 @@
 .method public static final m1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -4922,7 +4922,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->m1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4945,19 +4945,19 @@
 .method private static final n(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -4965,7 +4965,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -4978,15 +4978,15 @@
 .method public static final n0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -5011,7 +5011,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->n0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5024,19 +5024,19 @@
 .method private static final n1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -5044,7 +5044,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5057,23 +5057,23 @@
 .method private static final o(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -5081,7 +5081,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->m(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5094,15 +5094,15 @@
 .method private static final o0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -5110,7 +5110,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->n0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5123,19 +5123,19 @@
 .method private static final o1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -5143,7 +5143,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->m1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5156,19 +5156,19 @@
 .method public static final p(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -5199,7 +5199,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5212,11 +5212,11 @@
 .method public static final p0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -5237,7 +5237,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5250,19 +5250,19 @@
 .method public static final p1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -5289,7 +5289,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5302,19 +5302,19 @@
 .method private static final q(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Map;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -5322,7 +5322,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5335,15 +5335,15 @@
 .method public static final q0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -5368,7 +5368,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->q0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5381,19 +5381,19 @@
 .method public static final q1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -5420,7 +5420,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->q1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5433,11 +5433,11 @@
 .method public static final r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -5461,15 +5461,15 @@
 .method private static final r0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -5477,7 +5477,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->q0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5490,19 +5490,19 @@
 .method private static final r1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Collection;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -5510,7 +5510,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5523,11 +5523,11 @@
 .method public static final s(Lcotlinx/coroutines/channels/i;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -5559,11 +5559,11 @@
 .method public static final s0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -5584,7 +5584,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->s0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5597,19 +5597,19 @@
 .method private static final s1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlinx/coroutines/channels/c0;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -5617,7 +5617,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->q1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5630,11 +5630,11 @@
 .method public static final t(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -5666,15 +5666,15 @@
 .method public static final t0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -5699,7 +5699,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5712,15 +5712,15 @@
 .method public static final t1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -5745,7 +5745,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5758,15 +5758,15 @@
 .method public static final u(Lcotlinx/coroutines/channels/i;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -5791,7 +5791,7 @@
     .annotation build Lcotlinx/coroutines/r2;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->u(Lcotlinx/coroutines/channels/i;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5804,15 +5804,15 @@
 .method private static final u0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -5820,7 +5820,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5833,15 +5833,15 @@
 .method private static final u1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -5849,7 +5849,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5862,15 +5862,15 @@
 .method public static final v(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -5895,7 +5895,7 @@
     .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->v(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -5908,15 +5908,15 @@
 .method public static final v0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -5947,7 +5947,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->v0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
@@ -5960,15 +5960,15 @@
 .method public static final v1(Lcotlinx/coroutines/channels/y;Ljava/util/Comparator;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Comparator;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -5991,7 +5991,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->v1(Lcotlinx/coroutines/channels/y;Ljava/util/Comparator;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -6004,21 +6004,21 @@
 .method private static final w(Lcotlinx/coroutines/channels/i;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlinx/coroutines/r2;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->u(Lcotlinx/coroutines/channels/i;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -6041,15 +6041,15 @@
 .method public static final w1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -6074,7 +6074,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->w1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -6087,21 +6087,21 @@
 .method private static final x(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->v(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -6114,15 +6114,15 @@
 .method public static final x0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -6147,7 +6147,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->x0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -6160,15 +6160,15 @@
 .method private static final x1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -6176,7 +6176,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->w1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -6189,15 +6189,15 @@
 .method public static final y(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -6226,7 +6226,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->y(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -6239,15 +6239,15 @@
 .method private static final y0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/p;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -6255,7 +6255,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->x0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -6268,15 +6268,15 @@
 .method public static final y1(Lcotlinx/coroutines/channels/y;Ljava/util/Comparator;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Ljava/util/Comparator;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -6299,7 +6299,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->y1(Lcotlinx/coroutines/channels/y;Ljava/util/Comparator;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -6312,15 +6312,15 @@
 .method private static final z(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/jvm/u/l;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/i;
@@ -6328,7 +6328,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->y(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -6341,15 +6341,15 @@
 .method public static final z0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcotlin/jvm/u/q;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -6376,7 +6376,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->z0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -6389,11 +6389,11 @@
 .method public static final z1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
     .param p0    # Lcotlinx/coroutines/channels/y;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p1    # Lcotlin/coroutines/c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -6416,7 +6416,7 @@
         message = "Channel operators are deprecated in favour of Flow and will be removed in 1.4"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->z1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;

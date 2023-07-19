@@ -53,10 +53,10 @@
 .method public e([B)[B
     .locals 1
     .param p1    # [B
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "array"
@@ -143,6 +143,6 @@
 .end method
 
 .method public abstract r()Ljava/util/Random;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method

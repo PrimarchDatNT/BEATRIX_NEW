@@ -9,7 +9,7 @@
 
 # static fields
 .field public static final INSTANCE:Lcom/mopub/mobileads/CreativeExperiencesFormulae;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -38,11 +38,11 @@
 .method public static final getCountdownDuration(ZZLcom/mopub/mobileads/EndCardType;IILcom/mopub/mobileads/CreativeExperienceSettings;)I
     .locals 8
     .param p2    # Lcom/mopub/mobileads/EndCardType;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Lcom/mopub/mobileads/CreativeExperienceSettings;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation runtime Lcotlin/jvm/k;
@@ -123,11 +123,11 @@
 .method public final getCloseAfterSecs(ZZLcom/mopub/mobileads/EndCardType;ILcom/mopub/mobileads/CreativeExperienceSettings;)I
     .locals 1
     .param p3    # Lcom/mopub/mobileads/EndCardType;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Lcom/mopub/mobileads/CreativeExperienceSettings;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -209,11 +209,11 @@
 .method public final getTimeUntilNextActionSecs(ZZLcom/mopub/mobileads/EndCardType;ILcom/mopub/mobileads/CreativeExperienceSettings;)I
     .locals 2
     .param p3    # Lcom/mopub/mobileads/EndCardType;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p5    # Lcom/mopub/mobileads/CreativeExperienceSettings;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -33,7 +33,7 @@
 # virtual methods
 .method public final next()Ljava/lang/Integer;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0}, Lcotlin/collections/l0;->nextInt()I

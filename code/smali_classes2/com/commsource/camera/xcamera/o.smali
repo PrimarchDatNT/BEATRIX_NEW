@@ -184,11 +184,11 @@
 .method public D(Lcom/meitu/library/camera/MTCamera;Lcom/meitu/library/camera/MTCamera$h;)V
     .locals 1
     .param p1    # Lcom/meitu/library/camera/MTCamera;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/library/camera/MTCamera$h;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -276,7 +276,7 @@
 .method public Q0(Lcom/meitu/library/camera/q/g;)V
     .locals 1
     .param p1    # Lcom/meitu/library/camera/q/g;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -294,11 +294,11 @@
 .method public f(Lcom/meitu/library/n/a/s/h/b;Lcom/meitu/library/n/a/s/h/a;)Z
     .locals 21
     .param p1    # Lcom/meitu/library/n/a/s/h/b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Lcom/meitu/library/n/a/s/h/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -558,7 +558,7 @@
 
 .method public getNodesServer()Lcom/meitu/library/camera/q/g;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x414b
@@ -575,7 +575,7 @@
 .method public final n(Ljava/lang/String;)V
     .locals 3
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -667,7 +667,7 @@
 .method public x1(Lcom/meitu/library/renderarch/arch/data/b/d;)V
     .locals 2
     .param p1    # Lcom/meitu/library/renderarch/arch/data/b/d;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

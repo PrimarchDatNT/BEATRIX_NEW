@@ -17,7 +17,7 @@
 
 # instance fields
 .field private a:Landroid/net/Uri;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -28,11 +28,11 @@
 .method public constructor <init>(Lcom/pixocial/uichecker/ScreenShotHelper;Landroid/os/Handler;Landroid/net/Uri;)V
     .locals 1
     .param p1    # Lcom/pixocial/uichecker/ScreenShotHelper;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/os/Handler;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -65,7 +65,7 @@
 # virtual methods
 .method public final a()Landroid/net/Uri;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper$b;->a:Landroid/net/Uri;
@@ -76,7 +76,7 @@
 .method public final b(Landroid/net/Uri;)V
     .locals 1
     .param p1    # Landroid/net/Uri;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -92,7 +92,7 @@
 .method public onChange(ZLandroid/net/Uri;)V
     .locals 0
     .param p2    # Landroid/net/Uri;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

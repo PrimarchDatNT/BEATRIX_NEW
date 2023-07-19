@@ -27,7 +27,7 @@
 
 # static fields
 .field public static final Companion:Lcom/mopub/mobileads/VastAbsoluteProgressTracker$Companion;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -73,11 +73,11 @@
 .method public constructor <init>(ILjava/lang/String;Lcom/mopub/mobileads/VastTracker$MessageType;Z)V
     .locals 1
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcom/mopub/mobileads/VastTracker$MessageType;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -109,7 +109,7 @@
 .method public compareTo(Lcom/mopub/mobileads/VastAbsoluteProgressTracker;)I
     .locals 1
     .param p1    # Lcom/mopub/mobileads/VastAbsoluteProgressTracker;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -150,7 +150,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

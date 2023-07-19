@@ -19,7 +19,7 @@
 .method public static a(Lcom/commsource/studio/function/style/MultiSeekBarView$b;Landroid/view/View;IFZ)V
     .locals 0
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -39,7 +39,7 @@
 .method public static b(Lcom/commsource/studio/function/style/MultiSeekBarView$b;Landroid/view/View;IFZ)V
     .locals 0
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -59,7 +59,7 @@
 .method public static c(Lcom/commsource/studio/function/style/MultiSeekBarView$b;Landroid/view/View;IF)V
     .locals 0
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -79,7 +79,7 @@
 .method public static d(Lcom/commsource/studio/function/style/MultiSeekBarView$b;Landroid/view/View;IFZ)V
     .locals 0
     .param p1    # Landroid/view/View;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -20,13 +20,13 @@
 .method public final a(Lcom/commsource/studio/function/background/GradientConfig;)Ljava/lang/String;
     .locals 2
     .param p1    # Lcom/commsource/studio/function/background/GradientConfig;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/TypeConverter;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x27a
@@ -58,13 +58,13 @@
 .method public final b(Ljava/lang/String;)Lcom/commsource/studio/function/background/GradientConfig;
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Landroidx/room/TypeConverter;
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x27b

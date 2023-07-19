@@ -38,10 +38,10 @@
 .method public static final b(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
     .param p0    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     :try_start_0

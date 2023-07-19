@@ -16,12 +16,12 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
 .field private b:Lcom/commsource/studio/sticker/StickerPagerFragment;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -32,7 +32,7 @@
 .method public constructor <init>(Landroidx/fragment/app/FragmentManager;)V
     .locals 1
     .param p1    # Landroidx/fragment/app/FragmentManager;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -53,7 +53,7 @@
 # virtual methods
 .method public final a()Lcom/commsource/studio/sticker/StickerPagerFragment;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8d2d
@@ -92,7 +92,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const v0, 0x8d2b
@@ -109,7 +109,7 @@
 .method public final d(Lcom/commsource/studio/sticker/StickerPagerFragment;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/sticker/StickerPagerFragment;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -141,7 +141,7 @@
 .method public final f(Ljava/util/List;)V
     .locals 1
     .param p1    # Ljava/util/List;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -192,7 +192,7 @@
 
 .method public getItem(I)Landroidx/fragment/app/Fragment;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const p1, 0x8d32
@@ -211,7 +211,7 @@
 .method public getItemPosition(Ljava/lang/Object;)I
     .locals 2
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -233,10 +233,10 @@
 .method public instantiateItem(Landroid/view/ViewGroup;I)Ljava/lang/Object;
     .locals 2
     .param p1    # Landroid/view/ViewGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8d31
@@ -306,11 +306,11 @@
 .method public setPrimaryItem(Landroid/view/ViewGroup;ILjava/lang/Object;)V
     .locals 2
     .param p1    # Landroid/view/ViewGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

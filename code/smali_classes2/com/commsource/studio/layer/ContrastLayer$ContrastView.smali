@@ -32,7 +32,7 @@
 .method public constructor <init>(Lcom/commsource/studio/layer/ContrastLayer;Landroid/content/Context;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/layer/ContrastLayer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -198,7 +198,7 @@
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 9
     .param p1    # Landroid/graphics/Canvas;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

@@ -134,7 +134,7 @@
 
 .method public e(I)Ljava/lang/Float;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/collections/n$e;->b:[F

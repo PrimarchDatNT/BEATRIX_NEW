@@ -73,7 +73,7 @@
 # virtual methods
 .method public final gcRootTypeFromV20()Lkshark/LeakTrace$GcRootType;
     .locals 6
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceElement;->labels:Ljava/util/Set;
@@ -285,7 +285,7 @@
 
 .method public final originObjectFromV20()Lkshark/LeakTraceObject;
     .locals 12
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceElement;->holder:Lkshark/LeakTraceElement$Holder;
@@ -470,7 +470,7 @@
 
 .method public final referencePathElementFromV20()Lkshark/LeakTraceReference;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lkshark/LeakTraceElement;->reference:Lkshark/LeakReference;

@@ -17,19 +17,19 @@
 .method public constructor <init>(Ljava/lang/String;Ljavax/net/ssl/SSLSocketFactory;Lcom/mopub/network/MoPubUrlRewriter;Ljava/io/File;)V
     .locals 7
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Ljavax/net/ssl/SSLSocketFactory;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p3    # Lcom/mopub/network/MoPubUrlRewriter;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p4    # Ljava/io/File;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -97,7 +97,7 @@
 .method public add(Lcom/mopub/network/MoPubRequest;)V
     .locals 1
     .param p1    # Lcom/mopub/network/MoPubRequest;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -128,7 +128,7 @@
 .method public cancel(Lcom/mopub/network/MoPubRequest;)V
     .locals 2
     .param p1    # Lcom/mopub/network/MoPubRequest;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -159,7 +159,7 @@
 .method public cancelAll(Ljava/lang/Object;)V
     .locals 1
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -176,7 +176,7 @@
 
 .method public getVolleyRequestQueue$mopub_sdk_networking_release()Lcom/mopub/volley/RequestQueue;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/network/MoPubRequestQueue;->volleyRequestQueue:Lcom/mopub/volley/RequestQueue;

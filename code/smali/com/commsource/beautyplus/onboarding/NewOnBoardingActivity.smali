@@ -15,7 +15,7 @@
 
 # static fields
 .field public static final X:Ljava/lang/String; = "EXTRA_SUBPAGE_MODE"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -2368,7 +2368,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 4
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

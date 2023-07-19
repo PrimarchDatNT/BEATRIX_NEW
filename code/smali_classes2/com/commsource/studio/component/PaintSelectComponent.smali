@@ -18,19 +18,19 @@
 .field private J:Ljava/util/HashMap;
 
 .field private d:Lcom/commsource/studio/component/PaintSelectComponent$c;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public f:Lcom/commsource/studio/component/PaintSelectComponent$b;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private g:Z
 
 .field private final p:Lcom/commsource/beautyplus/f0/g2;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -39,7 +39,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -57,11 +57,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -79,11 +79,11 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroid/util/AttributeSet;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -327,7 +327,7 @@
 .method public final g(Lcom/commsource/studio/component/PaintSelectComponent$c;)V
     .locals 3
     .param p1    # Lcom/commsource/studio/component/PaintSelectComponent$c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -385,7 +385,7 @@
 
 .method public final getCurrentUsePenMode()Lcom/commsource/studio/component/PaintSelectComponent$c;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9b19
@@ -401,7 +401,7 @@
 
 .method public final getPaintSelectViewModel()Lcom/commsource/studio/component/PaintSelectComponent$b;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9b1b
@@ -424,7 +424,7 @@
 
 .method public final getViewBinding()Lcom/commsource/beautyplus/f0/g2;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x9b1d
@@ -441,11 +441,11 @@
 .method public p(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V
     .locals 2
     .param p1    # Landroidx/lifecycle/ViewModelStoreOwner;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -493,7 +493,7 @@
 .method public final setCurrentUsePenMode(Lcom/commsource/studio/component/PaintSelectComponent$c;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/component/PaintSelectComponent$c;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -515,7 +515,7 @@
 .method public final setPaintSelectViewModel(Lcom/commsource/studio/component/PaintSelectComponent$b;)V
     .locals 2
     .param p1    # Lcom/commsource/studio/component/PaintSelectComponent$b;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

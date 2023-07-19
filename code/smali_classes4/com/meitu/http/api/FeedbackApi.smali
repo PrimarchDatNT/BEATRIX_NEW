@@ -20,7 +20,7 @@
 .method public final a(Lf/k/l0/a/a;)Lf/k/k/u/c;
     .locals 2
     .param p1    # Lf/k/l0/a/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -34,7 +34,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const v0, 0x8709

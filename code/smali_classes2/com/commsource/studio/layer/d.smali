@@ -11,12 +11,12 @@
 
 # instance fields
 .field public L:Landroidx/lifecycle/ViewModelStoreOwner;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public M:Landroidx/lifecycle/LifecycleOwner;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -25,7 +25,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -43,7 +43,7 @@
 .method public a(Landroidx/fragment/app/Fragment;)V
     .locals 1
     .param p1    # Landroidx/fragment/app/Fragment;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -71,7 +71,7 @@
 .method public c(Landroidx/fragment/app/FragmentActivity;)V
     .locals 1
     .param p1    # Landroidx/fragment/app/FragmentActivity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -99,7 +99,7 @@
 .method public e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
     .locals 1
     .param p1    # Ljava/lang/Class;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -112,7 +112,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const-string v0, "clazz"
@@ -128,7 +128,7 @@
 
 .method public getLifeOwner()Landroidx/lifecycle/LifecycleOwner;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/layer/d;->M:Landroidx/lifecycle/LifecycleOwner;
@@ -145,7 +145,7 @@
 
 .method public getStoreOwner()Landroidx/lifecycle/ViewModelStoreOwner;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/layer/d;->L:Landroidx/lifecycle/ViewModelStoreOwner;
@@ -169,11 +169,11 @@
 .method public p(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V
     .locals 1
     .param p1    # Landroidx/lifecycle/ViewModelStoreOwner;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -191,7 +191,7 @@
 .method public setLifeOwner(Landroidx/lifecycle/LifecycleOwner;)V
     .locals 1
     .param p1    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -207,7 +207,7 @@
 .method public setStoreOwner(Landroidx/lifecycle/ViewModelStoreOwner;)V
     .locals 1
     .param p1    # Landroidx/lifecycle/ViewModelStoreOwner;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

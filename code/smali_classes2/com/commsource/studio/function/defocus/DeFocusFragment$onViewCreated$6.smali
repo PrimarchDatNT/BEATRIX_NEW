@@ -69,7 +69,7 @@
 .method public final invoke(Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;)V
     .locals 3
     .param p1    # Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

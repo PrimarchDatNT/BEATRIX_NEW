@@ -66,7 +66,7 @@
 .method public final invoke(Lkshark/i;)Z
     .locals 2
     .param p1    # Lkshark/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

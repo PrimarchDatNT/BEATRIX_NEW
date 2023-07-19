@@ -39,7 +39,7 @@
 # virtual methods
 .method public createFragment(I)Landroidx/fragment/app/Fragment;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x3e46

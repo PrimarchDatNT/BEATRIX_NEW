@@ -17,7 +17,7 @@
 
 # static fields
 .field public static final Companion:Lcom/mopub/mobileads/CreativeExperienceAdConfig$Companion;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -38,7 +38,7 @@
 .field private final countdownTimerDelaySecs:I
 
 .field private final minTimeUntilNextActionSecs:Ljava/lang/Integer;
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -63,7 +63,7 @@
 .method public constructor <init>(Ljava/lang/Integer;IZ)V
     .locals 0
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -129,7 +129,7 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcom/mopub/mobileads/CreativeExperienceAdConfig;->Companion:Lcom/mopub/mobileads/CreativeExperienceAdConfig$Companion;
@@ -187,7 +187,7 @@
 # virtual methods
 .method public final component1()Ljava/lang/Integer;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/CreativeExperienceAdConfig;->minTimeUntilNextActionSecs:Ljava/lang/Integer;
@@ -214,10 +214,10 @@
 .method public final copy(Ljava/lang/Integer;IZ)Lcom/mopub/mobileads/CreativeExperienceAdConfig;
     .locals 1
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcom/mopub/mobileads/CreativeExperienceAdConfig;
@@ -230,7 +230,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -288,7 +288,7 @@
 
 .method public final getMinTimeUntilNextActionSecs()Ljava/lang/Integer;
     .locals 1
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/mopub/mobileads/CreativeExperienceAdConfig;->minTimeUntilNextActionSecs:Ljava/lang/Integer;
@@ -343,7 +343,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

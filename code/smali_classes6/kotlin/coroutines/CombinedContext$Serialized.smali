@@ -27,7 +27,7 @@
 
 # static fields
 .field public static final Companion:Lcotlin/coroutines/CombinedContext$Serialized$a;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -36,7 +36,7 @@
 
 # instance fields
 .field private final elements:[Lcotlin/coroutines/CoroutineContext;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -59,7 +59,7 @@
 .method public constructor <init>([Lcotlin/coroutines/CoroutineContext;)V
     .locals 1
     .param p1    # [Lcotlin/coroutines/CoroutineContext;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -106,7 +106,7 @@
 # virtual methods
 .method public final getElements()[Lcotlin/coroutines/CoroutineContext;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlin/coroutines/CombinedContext$Serialized;->elements:[Lcotlin/coroutines/CoroutineContext;

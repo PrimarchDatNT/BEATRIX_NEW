@@ -10,7 +10,7 @@
 .method public static final a(Lcotlinx/coroutines/scheduling/i;)V
     .locals 0
     .param p0    # Lcotlinx/coroutines/scheduling/i;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -22,10 +22,10 @@
 .method public static final b(Lcotlinx/coroutines/scheduling/h;)Lcotlinx/coroutines/scheduling/i;
     .locals 0
     .param p0    # Lcotlinx/coroutines/scheduling/h;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object p0, p0, Lcotlinx/coroutines/scheduling/h;->b:Lcotlinx/coroutines/scheduling/i;

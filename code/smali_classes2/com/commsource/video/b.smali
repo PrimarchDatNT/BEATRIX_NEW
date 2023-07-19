@@ -33,7 +33,7 @@
 .field private l:Z
 
 .field private final m:Lcom/commsource/video/view/XVideoContainer;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -42,7 +42,7 @@
 .method public constructor <init>(Lcom/commsource/video/view/XVideoContainer;)V
     .locals 11
     .param p1    # Lcom/commsource/video/view/XVideoContainer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -688,7 +688,7 @@
 
 .method public final k()Lcom/commsource/video/view/XVideoContainer;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x7b25

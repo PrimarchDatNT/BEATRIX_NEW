@@ -30,7 +30,7 @@
 .field private static volatile debugStatus:I = 0x0
 
 .field public static final p:Ljava/lang/String; = "kotlinx.coroutines.DefaultExecutor"
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -259,7 +259,7 @@
 # virtual methods
 .method protected S()Ljava/lang/Thread;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     sget-object v0, Lcotlinx/coroutines/r0;->_thread:Ljava/lang/Thread;
@@ -385,10 +385,10 @@
 .method public q(JLjava/lang/Runnable;)Lcotlinx/coroutines/f1;
     .locals 0
     .param p3    # Ljava/lang/Runnable;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     invoke-virtual {p0, p1, p2, p3}, Lcotlinx/coroutines/k1;->j0(JLjava/lang/Runnable;)Lcotlinx/coroutines/f1;

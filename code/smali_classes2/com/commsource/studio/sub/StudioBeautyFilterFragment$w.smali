@@ -40,7 +40,7 @@
 .method public c(Lcom/commsource/studio/bean/BaseLayerInfo;)V
     .locals 3
     .param p1    # Lcom/commsource/studio/bean/BaseLayerInfo;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

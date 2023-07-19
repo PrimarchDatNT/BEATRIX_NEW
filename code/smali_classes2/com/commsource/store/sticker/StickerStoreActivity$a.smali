@@ -58,7 +58,7 @@
 .method public final a(Landroidx/fragment/app/Fragment;II)V
     .locals 4
     .param p1    # Landroidx/fragment/app/Fragment;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

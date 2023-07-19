@@ -15,12 +15,12 @@
 
 # instance fields
 .field private J:Lcom/commsource/studio/ImageStudioViewModel;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private K:Landroid/content/Context;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -33,17 +33,17 @@
 .field private d:Z
 
 .field public f:Lcom/commsource/studio/StudioCanvasContainer;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final g:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field private final p:Lcotlin/w;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -52,7 +52,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -132,7 +132,7 @@
 # virtual methods
 .method public final A()Landroid/content/Context;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->K:Landroid/content/Context;
@@ -150,7 +150,7 @@
 
 .method public final C()Lcom/commsource/studio/i$c;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->p:Lcotlin/w;
@@ -208,7 +208,7 @@
 
 .method public final F()Landroid/view/View;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->g:Lcotlin/w;
@@ -224,7 +224,7 @@
 
 .method public final G()Lcom/commsource/studio/ImageStudioViewModel;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->J:Lcom/commsource/studio/ImageStudioViewModel;
@@ -312,7 +312,7 @@
 
 .method public final L()Landroid/graphics/RectF;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
@@ -486,7 +486,7 @@
 .method public final T([F)V
     .locals 1
     .param p1    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -520,7 +520,7 @@
 .method public final U([F)V
     .locals 3
     .param p1    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -568,7 +568,7 @@
 .method public final V([F)V
     .locals 3
     .param p1    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -614,7 +614,7 @@
 .method public final W([F)V
     .locals 3
     .param p1    # [F
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -674,7 +674,7 @@
 .method public Z(Lcom/commsource/studio/MatrixBox;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/MatrixBox;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -699,7 +699,7 @@
 
 .method public b0()Lcom/commsource/studio/i$c;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcom/commsource/studio/i$c;
@@ -710,7 +710,7 @@
 .end method
 
 .method public abstract c0()Landroid/view/View;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
 
@@ -729,7 +729,7 @@
 .method public final f0(Lcotlin/jvm/u/a;)V
     .locals 2
     .param p1    # Lcotlin/jvm/u/a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -810,7 +810,7 @@
 .method public final h0(Lcom/commsource/studio/StudioCanvasContainer;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/StudioCanvasContainer;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -826,7 +826,7 @@
 .method public final i0(Landroid/content/Context;)V
     .locals 1
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -876,7 +876,7 @@
 .method public final m(Lcom/commsource/studio/layer/BaseLayer$a;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/layer/BaseLayer$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -898,7 +898,7 @@
 .method public final m0(Lcom/commsource/studio/ImageStudioViewModel;)V
     .locals 1
     .param p1    # Lcom/commsource/studio/ImageStudioViewModel;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -971,7 +971,7 @@
 
 .method public final o()Lcom/commsource/studio/StudioCanvasContainer;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
@@ -1009,7 +1009,7 @@
 
 .method public final r()Lcom/commsource/studio/MatrixBox;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
@@ -1083,7 +1083,7 @@
 
 .method public final u()Lcom/commsource/studio/MatrixBox;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/studio/layer/BaseLayer;->f:Lcom/commsource/studio/StudioCanvasContainer;
@@ -1104,7 +1104,7 @@
 
 .method public final w()Landroid/graphics/RectF;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Landroid/graphics/RectF;

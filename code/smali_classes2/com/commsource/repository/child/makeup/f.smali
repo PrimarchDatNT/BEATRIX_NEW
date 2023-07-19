@@ -13,7 +13,7 @@
         value = "file"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -47,7 +47,7 @@
 # virtual methods
 .method public q()Lcom/commsource/repository/child/makeup/h;
     .locals 4
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x4652
@@ -120,7 +120,7 @@
 
 .method public final s()Lcom/meitu/template/bean/i;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x464c
@@ -165,7 +165,7 @@
 .method public final v(Lcom/meitu/template/bean/i;)V
     .locals 1
     .param p1    # Lcom/meitu/template/bean/i;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

@@ -72,7 +72,7 @@
         value = "popup_config"
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -98,7 +98,7 @@
         value = "rid"
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -183,7 +183,7 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
     .param p1    # Ljava/lang/Object;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -278,7 +278,7 @@
 
 .method public final getPopupConfig()Lcom/commsource/home/entity/PopupConfig;
     .locals 2
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const/16 v0, 0x529f
@@ -308,7 +308,7 @@
 
 .method public final getRid()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     const/16 v0, 0x528d
@@ -425,7 +425,7 @@
 .method public onCompareLocal(Lcom/commsource/home/entity/DialogDataEntity;)Z
     .locals 7
     .param p1    # Lcom/commsource/home/entity/DialogDataEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -606,7 +606,7 @@
 .method public onSortCompare(Lcom/commsource/home/entity/DialogDataEntity;)I
     .locals 2
     .param p1    # Lcom/commsource/home/entity/DialogDataEntity;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -731,7 +731,7 @@
 .method public final setPopupConfig(Lcom/commsource/home/entity/PopupConfig;)V
     .locals 1
     .param p1    # Lcom/commsource/home/entity/PopupConfig;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
@@ -763,7 +763,7 @@
 .method public final setRid(Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

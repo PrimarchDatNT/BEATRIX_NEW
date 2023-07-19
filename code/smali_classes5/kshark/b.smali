@@ -29,7 +29,7 @@
 .method private static final c(Lkshark/v;Lkshark/u;Lkshark/h;)V
     .locals 7
     .param p0    # Lkshark/v;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -274,7 +274,7 @@
 .method private static final d(Lkshark/h;Ljava/lang/String;)Ljava/lang/String;
     .locals 2
     .param p0    # Lkshark/h;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -318,10 +318,10 @@
 .method public static final e(Lkshark/HeapObject$HeapInstance;)Lkshark/HeapObject$HeapInstance;
     .locals 8
     .param p0    # Lkshark/HeapObject$HeapInstance;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-string v0, "$this$unwrapActivityContext"

@@ -10,7 +10,7 @@
 .field private final d:Ljava/util/concurrent/atomic/AtomicInteger;
 
 .field private final f:Ljava/util/concurrent/Executor;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -23,7 +23,7 @@
 .method public constructor <init>(ILjava/lang/String;)V
     .locals 0
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -82,7 +82,7 @@
 # virtual methods
 .method public A()Ljava/util/concurrent/Executor;
     .locals 1
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcotlinx/coroutines/j3;->f:Ljava/util/concurrent/Executor;
@@ -117,7 +117,7 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Ljava/lang/StringBuilder;

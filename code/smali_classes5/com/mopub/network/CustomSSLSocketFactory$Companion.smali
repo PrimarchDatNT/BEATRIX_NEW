@@ -39,7 +39,7 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v0, Lcom/mopub/network/CustomSSLSocketFactory;
@@ -60,11 +60,11 @@
 .method public final verifyServerName(Ljavax/net/ssl/SSLSocket;Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljavax/net/ssl/SSLSocket;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .param p2    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation runtime Lcom/mopub/common/VisibleForTesting;

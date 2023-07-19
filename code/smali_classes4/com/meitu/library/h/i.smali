@@ -41,7 +41,7 @@
 # virtual methods
 .method public abstract a(Landroid/content/Context;)I
     .param p1    # Landroid/content/Context;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

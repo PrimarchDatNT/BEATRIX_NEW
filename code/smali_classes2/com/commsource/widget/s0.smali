@@ -20,7 +20,7 @@
 .method public constructor <init>(Lcom/commsource/widget/s0$a;I)V
     .locals 0
     .param p1    # Lcom/commsource/widget/s0$a;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -44,7 +44,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 4
     .param p1    # Landroid/os/Bundle;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 

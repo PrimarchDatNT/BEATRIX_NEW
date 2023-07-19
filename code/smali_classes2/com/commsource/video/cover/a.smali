@@ -21,12 +21,12 @@
 
 # instance fields
 .field public a:Lcom/commsource/video/view/XVideoUIGroup;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
 .field public b:Landroid/view/ViewStub;
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
@@ -37,7 +37,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end field
 
@@ -106,7 +106,7 @@
 .method public h(Lcom/commsource/video/view/XVideoUIGroup;)V
     .locals 3
     .param p1    # Lcom/commsource/video/view/XVideoUIGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -194,7 +194,7 @@
 
 .method public final k()Lcom/commsource/video/view/XVideoUIGroup;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/video/cover/a;->a:Lcom/commsource/video/view/XVideoUIGroup;
@@ -225,7 +225,7 @@
         }
     .end annotation
 
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/video/cover/a;->c:Landroidx/databinding/ViewDataBinding;
@@ -235,7 +235,7 @@
 
 .method public final n()Landroid/view/ViewStub;
     .locals 2
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iget-object v0, p0, Lcom/commsource/video/cover/a;->b:Landroid/view/ViewStub;
@@ -256,7 +256,7 @@
 .method public final p(Lcom/commsource/video/view/XVideoUIGroup;)V
     .locals 1
     .param p1    # Lcom/commsource/video/view/XVideoUIGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
@@ -272,7 +272,7 @@
 .method public final q(Landroidx/databinding/ViewDataBinding;)V
     .locals 0
     .param p1    # Landroidx/databinding/ViewDataBinding;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -289,7 +289,7 @@
 .method public final r(Landroid/view/ViewStub;)V
     .locals 1
     .param p1    # Landroid/view/ViewStub;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 

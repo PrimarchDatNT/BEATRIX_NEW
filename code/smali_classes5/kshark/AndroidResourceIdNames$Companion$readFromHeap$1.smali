@@ -59,7 +59,7 @@
 
 .method public final invoke()Lkshark/AndroidResourceIdNames;
     .locals 5
-    .annotation build Ln/e/a/e;
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     const-class v0, Lkshark/AndroidResourceIdNames;

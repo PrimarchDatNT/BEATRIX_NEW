@@ -18,14 +18,14 @@
 # virtual methods
 .method public abstract b(Lcom/commsource/camera/xcamera/cover/CoverGroup;)V
     .param p1    # Lcom/commsource/camera/xcamera/cover/CoverGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method
 
 .method public abstract f(Lcom/commsource/camera/xcamera/cover/CoverGroup;)V
     .param p1    # Lcom/commsource/camera/xcamera/cover/CoverGroup;
-        .annotation build Ln/e/a/d;
+        .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 .end method

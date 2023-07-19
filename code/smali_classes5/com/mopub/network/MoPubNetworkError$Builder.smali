@@ -46,7 +46,7 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 2
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -64,11 +64,11 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 0
     .param p1    # Ljava/lang/String;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .param p2    # Ljava/lang/Throwable;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
     .annotation build Lcotlin/jvm/h;
@@ -111,7 +111,7 @@
 # virtual methods
 .method public final build()Lcom/mopub/network/MoPubNetworkError;
     .locals 7
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     new-instance v6, Lcom/mopub/network/MoPubNetworkError;
@@ -136,10 +136,10 @@
 .method public final networkResponse(Lcom/mopub/network/MoPubNetworkResponse;)Lcom/mopub/network/MoPubNetworkError$Builder;
     .locals 0
     .param p1    # Lcom/mopub/network/MoPubNetworkResponse;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput-object p1, p0, Lcom/mopub/network/MoPubNetworkError$Builder;->networkResponse:Lcom/mopub/network/MoPubNetworkResponse;
@@ -150,10 +150,10 @@
 .method public final reason(Lcom/mopub/network/MoPubNetworkError$Reason;)Lcom/mopub/network/MoPubNetworkError$Builder;
     .locals 0
     .param p1    # Lcom/mopub/network/MoPubNetworkError$Reason;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput-object p1, p0, Lcom/mopub/network/MoPubNetworkError$Builder;->reason:Lcom/mopub/network/MoPubNetworkError$Reason;
@@ -164,10 +164,10 @@
 .method public final refreshTimeMillis(Ljava/lang/Integer;)Lcom/mopub/network/MoPubNetworkError$Builder;
     .locals 0
     .param p1    # Ljava/lang/Integer;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Ln/e/a/d;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     iput-object p1, p0, Lcom/mopub/network/MoPubNetworkError$Builder;->refreshTimeMillis:Ljava/lang/Integer;

@@ -88,7 +88,7 @@
 .method public final invoke(Lcom/commsource/studio/e;)Z
     .locals 1
     .param p1    # Lcom/commsource/studio/e;
-        .annotation build Ln/e/a/e;
+        .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
 
